@@ -156,6 +156,7 @@ to accessibility proxy and reran fixed-split TGB sweep.
 - Author Contributions finalized with confirmed author identity:
   Mukhlis Amien (`amien@ubhinus.ac.id`)
 - All non-optional submission checklist items completed.
+- Milestone committed and pushed to GitHub (`main`, commit `453f36b`).
 
 ### TASK-011: Download full GVP eruption data
 **Status:** PENDING

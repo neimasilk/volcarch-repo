@@ -1172,5 +1172,20 @@ This closes the last non-optional checklist blocker for Paper 2 submission packa
 
 ---
 
+## 2026-02-24 | Milestone Push to GitHub (Paper 2 Package)
+
+**Type:** RESULT  
+**Author:** Mukhlis Amien + Codex
+
+Paper 2 submission-package milestone committed and pushed to GitHub.
+
+- Commit: `453f36b`
+- Branch: `main`
+- Remote: `origin` (`https://github.com/neimasilk/volcarch-repo.git`)
+- Scope: P2 manuscript package, robustness supplements, template-aligned draft,
+  submission-formatted file, tracking updates in L3/JOURNAL.
+
+---
+
 *Add new entries below. Use format: `## YYYY-MM-DD | Title`*
 *Types: DECISION, EXPERIMENT, RESULT, FAILURE, PIVOT, INSIGHT, TODO*
