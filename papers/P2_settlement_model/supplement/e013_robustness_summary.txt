@@ -1,0 +1,32 @@
+E013 robustness checks (Paper 2 supplement)
+=================================================
+Date: 2026-02-24
+Input experiment: experiments/E013_settlement_model_v7
+
+Fixed hybrid parameters:
+  region_blend=0.00
+  hard_frac_target=0.30
+  base_best_seed=375
+
+Alternate-seed runs:
+  n_runs=20
+  n_presences=378
+  n_pseudoabsences=1890
+
+XGBoost:
+  mean AUC=0.751 +/- 0.013
+  bootstrap 95% CI AUC=[0.745, 0.756]
+  mean TSS=0.465 +/- 0.021
+  bootstrap 95% CI TSS=[0.456, 0.474]
+  pass-rate AUC>=0.75: 55.0%
+
+RandomForest:
+  mean AUC=0.744 +/- 0.010
+  bootstrap 95% CI AUC=[0.740, 0.749]
+  mean TSS=0.458 +/- 0.016
+  bootstrap 95% CI TSS=[0.451, 0.464]
+  pass-rate AUC>=0.75: 25.0%
+
+Observed ranges across alternate seeds:
+  XGB AUC range=[0.729, 0.774]
+  RF AUC range=[0.730, 0.762]

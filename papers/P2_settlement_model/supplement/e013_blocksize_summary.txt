@@ -1,0 +1,17 @@
+E013 block-size sensitivity (Paper 2 supplement)
+================================================
+Date: 2026-02-24
+Input experiment: experiments/E013_settlement_model_v7
+
+Fixed hybrid parameters:
+  region_blend=0.00
+  hard_frac_target=0.30
+  base_best_seed=375
+
+Summary by block scale (20 alternate seeds each):
+  40km (~40.0 km): XGB AUC=0.725 [0.718,0.733], RF AUC=0.742 [0.738,0.746]
+    pass-rate AUC>=0.75: XGB=5.0%, RF=25.0%
+  50km_baseline (~50.0 km): XGB AUC=0.751 [0.746,0.757], RF AUC=0.744 [0.740,0.749]
+    pass-rate AUC>=0.75: XGB=55.0%, RF=25.0%
+  60km (~60.0 km): XGB AUC=0.742 [0.737,0.747], RF AUC=0.732 [0.729,0.736]
+    pass-rate AUC>=0.75: XGB=25.0%, RF=0.0%
