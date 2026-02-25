@@ -1,0 +1,26 @@
+E005 Step 2 — Full Jawa Timur H1 Test
+======================================
+Date: 2026-02-23
+DEM: Copernicus GLO-30 (30m), full Jawa Timur
+Grid size: 25km x 25km
+Total grid cells analyzed: 187
+Total sites: 391
+
+Spearman rho (residual density vs distance to volcano): -0.3584
+p-value: 0.000000
+
+rho = -0.358, p = 0.0000. H1 NOT SUPPORTED: No deficit of sites near volcanoes after controlling for terrain.
+
+H1 (Taphonomic Bias): NOT SUPPORTED / INCONCLUSIVE
+
+Suitability model weights:
+  Slope:     0.4
+  Elevation: 0.3
+  TWI:       0.2
+  River prox:0.1  (TWI proxy)
+
+Notes:
+- River proximity uses TWI as proxy (future: replace with actual river distance raster)
+- Null model assumes site density proportional to terrain suitability (simplistic)
+- Discovery bias (survey coverage) not controlled for
+- Results should be interpreted alongside E004 findings

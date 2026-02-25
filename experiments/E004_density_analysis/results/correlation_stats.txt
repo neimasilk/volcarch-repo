@@ -1,0 +1,22 @@
+E004 — Correlation Test Results
+================================
+Date: 2026-02-23
+Total sites analyzed: 383
+Distance bins with data: 7
+
+Spearman rho (density vs distance from volcano): -0.9550
+p-value: 0.000806
+
+Interpretation:
+rho = -0.955, p = 0.0008. H1 NOT SUPPORTED at p < 0.05. No positive trend.
+
+MVR: rho > 0.5 and p < 0.05
+MVR NOT MET
+
+H1 (Taphonomic Bias): NOT SUPPORTED
+
+Notes:
+- This is a distance-based proxy for volcanic deposition.
+  A stronger test would use actual tephra thickness estimates (E002 data).
+- OSM site data is known to be incomplete. Undercounting is expected.
+- Sites without coordinates are excluded (383 geocoded out of full dataset).

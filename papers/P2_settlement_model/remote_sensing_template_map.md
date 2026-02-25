@@ -39,3 +39,5 @@
 ## Completed Transfer Output
 
 - `papers/P2_settlement_model/submission_remote_sensing_v0.1.md`
+- `papers/P2_settlement_model/submission_remote_sensing_v0.2.tex`
+- `papers/P2_settlement_model/submission_remote_sensing_v0.2.pdf`

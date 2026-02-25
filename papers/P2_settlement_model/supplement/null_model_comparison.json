@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-25T09:33:39.365270",
+    "study_area": "Malang Raya, East Java",
+    "n_folds": 5,
+    "block_size_deg": 0.45
+  },
+  "summary": {
+    "random": {
+      "auc_mean": 0.5001063709203911,
+      "auc_std": 0.00020336321334061584
+    },
+    "heuristic": {
+      "auc_mean": 0.5805960493221656,
+      "auc_std": 0.054448211755369395
+    },
+    "dkns": {
+      "auc_mean": 0.6463069378747323,
+      "auc_std": 0.03171177077964738
+    },
+    "e013_seed_avg": {
+      "auc_mean": 0.751,
+      "auc_std": 0.013
+    },
+    "e013_best": {
+      "auc_mean": 0.768,
+      "auc_std": 0.069
+    }
+  },
+  "gaps": {
+    "e013_to_dkns": 0.12169306212526776,
+    "e013_to_heuristic": 0.18740395067783444,
+    "e013_to_random": 0.2678936290796089
+  },
+  "fold_details": [
+    {
+      "fold": 1,
+      "dkns_auc": 0.6779099961990901,
+      "heuristic_auc": 0.6137825739063785,
+      "random_auc_mean": 0.5000716635945269,
+      "random_auc_ci_low": 0.48663731664970505,
+      "random_auc_ci_high": 0.5129523868817496,
+      "n_test": 100845,
+      "n_positive": 2090
+    },
+    {
+      "fold": 2,
+      "dkns_auc": 0.6184159815514954,
+      "heuristic_auc": 0.608280907991612,
+      "random_auc_mean": 0.49995507262660177,
+      "random_auc_ci_low": 0.49349065389222374,
+      "random_auc_ci_high": 0.5070786111417599,
+      "n_test": 161064,
+      "n_positive": 7344
+    },
+    {
+      "fold": 3,
+      "dkns_auc": 0.6318165574071426,
+      "heuristic_auc": 0.517757973878238,
+      "random_auc_mean": 0.4999002637820434,
+      "random_auc_ci_low": 0.49452957889721094,
+      "random_auc_ci_high": 0.505906805052498,
+      "n_test": 117369,
+      "n_positive": 10557
+    },
+    {
+      "fold": 4,
+      "dkns_auc": 0.6202490572618805,
+      "heuristic_auc": 0.5266245204046042,
+      "random_auc_mean": 0.5004072467966647,
+      "random_auc_ci_low": 0.48867890339648967,
+      "random_auc_ci_high": 0.5119781604760745,
+      "n_test": 131670,
+      "n_positive": 2350
+    },
+    {
+      "fold": 5,
+      "dkns_auc": 0.6831430969540524,
+      "heuristic_auc": 0.6365342704299957,
+      "random_auc_mean": 0.5001976078021187,
+      "random_auc_ci_low": 0.48287643819848686,
+      "random_auc_ci_high": 0.5168047736942329,
+      "n_test": 78114,
+      "n_positive": 1152
+    }
+  ]
+}

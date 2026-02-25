@@ -1,0 +1,362 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{url}
+
+\title{Tautology-Free Settlement Suitability Modeling in East Java Under Survey and Taphonomic Bias}
+\author{Mukhlis Amien}
+\date{2026-02-24}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Archaeological settlement modeling in volcanic landscapes is affected by two coupled biases: taphonomic burial and uneven survey effort.
+We developed an East Java settlement suitability model using environmental predictors only, with strict tautology control (no volcanic-proximity variables during training).
+Seven iterative experiments (E007--E013) were evaluated with fixed spatial block cross-validation.
+Baseline terrain modeling (E007) produced AUC 0.659.
+Adding river distance improved performance (E008, best AUC 0.695), while adding soil covariates reduced transfer performance (E009, best AUC 0.664).
+Target-Group Background (TGB) pseudo-absence design improved performance (E010--E012, best AUC 0.730).
+A hybrid bias-corrected strategy in E013 achieved the best single-run result (XGBoost AUC 0.768 $\pm$ 0.069; TSS 0.507 $\pm$ 0.167), above the minimum viable threshold (AUC $>$ 0.75).
+Robustness checks across 20 alternate seeds yielded a seed-averaged XGBoost AUC of 0.751 (95\% bootstrap CI: 0.745--0.756).
+Block-size sensitivity showed the \textasciitilde{}50 km split was most favorable among \textasciitilde{}40/\textasciitilde{}50/\textasciitilde{}60 km tests.
+Challenge 1 (tautology test) passed across all runs (negative Spearman $\rho$ between suitability and volcano distance).
+For interdisciplinary use, the main finding is that pseudo-absence realism, not feature count alone, is the dominant lever for spatial transfer under survey-biased archaeological data.
+\end{abstract}
+
+\noindent\textbf{Keywords:} archaeological predictive modeling; spatial cross-validation; target-group background; survey bias; volcanic taphonomy; East Java
+
+\section{Introduction}
+Predictive settlement modeling in Java is difficult because observed archaeological records are shaped by both preservation and discovery processes.
+From an archaeological perspective, known site maps are incomplete and strongly conditioned by survey history.
+From a geological perspective, active volcanism and associated tephra deposition can bury older cultural surfaces.
+From a computer-science perspective, this creates label noise in pseudo-absence design and inflates the risk of optimistic validation if spatial dependence is not handled correctly.
+
+This paper addresses a practical question: can a settlement suitability model remain interpretable and spatially transferable when these three constraints are treated explicitly?
+Our minimum viable result (MVR) criterion is spatial AUC $>$ 0.75 under block cross-validation.
+The model must also pass a tautology test by avoiding direct volcanic-distance shortcuts.
+
+\subsection{Computer-Science Context}
+Presence-background models are sensitive to sample selection bias, especially when background points do not reflect the same observation process as presences \cite{phillips2009}.
+For spatially clustered data, random train/test splits overestimate performance.
+Spatially structured cross-validation is therefore recommended for realistic generalization assessment \cite{roberts2017,valavi2019}.
+We adopt this principle using fixed block CV and compare two tree-based learners (XGBoost and RandomForest) \cite{chen2016,breiman2001}.
+
+\subsection{Archaeological Context}
+Archaeological predictive modeling has long recognized that discovery processes can dominate apparent settlement patterns \cite{verhagen2012}.
+Recent work also shows that sampling design choices directly affect predictive outputs, interpretability, and transfer behavior \cite{comer2023}.
+Contemporary machine-learning applications in archaeology demonstrate strong performance gains when spatial context and terrain logic are integrated, but also emphasize data-quality constraints and domain-specific validation needs \cite{castiello2021,wang2023}.
+Our approach aligns with this trajectory while explicitly isolating pseudo-absence bias as a first-order problem.
+
+\subsection{Geological Context}
+Volcanic burial dynamics are governed by eruption style, transport physics, topography, and post-depositional reworking.
+The Volcanic Explosivity Index (VEI) provides a first-order eruption scale context \cite{newhall1982}, while modern tephra dispersal literature details uncertainty in ash-cloud and fallout forecasting \cite{folch2012,mastin2016,mastin2022}.
+For archaeology, this implies that low-observation zones in volcanic terrains may reflect visibility constraints rather than true historical absence.
+Our modeling design therefore separates settlement suitability learning from direct volcanic-distance encoding.
+
+\subsection{Interdisciplinary Gap and Contribution}
+Most studies address these issues within a single discipline.
+This paper contributes an integrated workflow:
+\begin{enumerate}
+  \item spatially strict ML validation (computer science),
+  \item bias-aware pseudo-absence design (archaeological survey logic), and
+  \item explicit non-tautological handling of volcanic context (geology-aware interpretation).
+\end{enumerate}
+The central hypothesis is operational: under survey-biased data, better background design should produce larger transfer gains than feature accumulation alone.
+Figure~\ref{fig:framework} summarizes the cross-domain bias interactions addressed in this study.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/fig1_interdisciplinary_framework.png}
+\caption{Interdisciplinary bias framework linking computer science validation, archaeological survey logic, and geological burial context.}
+\label{fig:framework}
+\end{figure}
+
+\section{Materials and Methods}
+
+\subsection{Study Area and Data}
+The study area is province-scale East Java (approximate bounds: 111--115$^\circ$E, 9--6.5$^\circ$S), using EPSG:32749 for raster processing.
+Presence data come from \texttt{data/processed/east\_java\_sites.geojson}.
+Usable presences after feature filtering were 378 for E007/E008/E010--E013 and 259 for E009 (soil-layer coverage constraint).
+
+Covariates:
+\begin{itemize}
+  \item Terrain: elevation, slope, TWI, TRI, aspect.
+  \item Hydrology proxy: river distance.
+  \item Soil covariates (E009 only): clay and silt (SoilGrids 0--5 cm mean).
+  \item Accessibility proxies: major-road and expanded-road distance rasters.
+\end{itemize}
+
+\subsection{Modeling Pipeline}
+We model binary presence/background suitability.
+Pseudo-absence ratio is fixed at 5:1.
+Algorithms:
+\begin{itemize}
+  \item XGBoost (primary),
+  \item RandomForest (secondary benchmark).
+\end{itemize}
+Validation uses 5-fold deterministic spatial block CV with baseline block size \texttt{BLOCK\_SIZE\_DEG=0.45} (\textasciitilde{}50 km).
+Primary metrics are AUC and TSS \cite{allouche2006}.
+
+Decision rules:
+\begin{itemize}
+  \item AUC $>$ 0.75: GO,
+  \item 0.65--0.75: REVISIT,
+  \item $<$ 0.65: kill-signal territory.
+\end{itemize}
+
+\subsection{Tautology Control}
+No volcanic-proximity variables are included in training features.
+Post hoc we compute Spearman $\rho$ between predicted suitability and nearest-volcano distance.
+Challenge 1 passes if suitability does not collapse into a simple far-from-volcano visibility proxy.
+
+\subsection{Experiment Sequence}
+\begin{itemize}
+  \item \textbf{E007}: terrain-only baseline.
+  \item \textbf{E008}: add river distance.
+  \item \textbf{E009}: add clay and silt.
+  \item \textbf{E010--E012}: replace random background with TGB and tune accessibility weighting.
+  \item \textbf{E013}: hybrid bias-corrected background with regional blending and hard negatives.
+\end{itemize}
+
+E013 sweep grid:
+\begin{itemize}
+  \item \texttt{region\_blend} $\in \{0.0, 0.3, 0.5, 0.7\}$,
+  \item \texttt{hard\_frac} $\in \{0.0, 0.15, 0.30\}$.
+\end{itemize}
+Figure~\ref{fig:pipeline} shows how these interventions were sequenced from E007 to E013.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig8_pipeline_overview.png}
+\caption{Experiment-to-decision pipeline from E007 baseline to E013 hybrid bias correction.}
+\label{fig:pipeline}
+\end{figure}
+
+\section{Results}
+
+\subsection{Performance Progression}
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{1.2cm} >{\raggedright\arraybackslash}p{3.6cm} c c c c c c}
+\hline
+Exp. & Pseudo-absence strategy & XGB AUC & RF AUC & Best AUC & XGB TSS & RF TSS & Status \\
+\hline
+E007 & Random & 0.659 $\pm$ 0.077 & 0.656 $\pm$ 0.090 & 0.659 & 0.318 $\pm$ 0.126 & 0.314 $\pm$ 0.133 & REVISIT \\
+E008 & Random + river feature & 0.685 $\pm$ 0.074 & 0.695 $\pm$ 0.107 & 0.695 & 0.345 $\pm$ 0.135 & 0.379 $\pm$ 0.200 & REVISIT \\
+E009 & Random + soil features & 0.664 $\pm$ 0.049 & 0.643 $\pm$ 0.054 & 0.664 & 0.337 $\pm$ 0.083 & 0.312 $\pm$ 0.072 & REVISIT \\
+E010 & TGB (major-road proxy) & 0.711 $\pm$ 0.085 & 0.699 $\pm$ 0.081 & 0.711 & 0.384 $\pm$ 0.150 & 0.380 $\pm$ 0.130 & REVISIT \\
+E011 & TGB tuned (major-road proxy) & 0.725 $\pm$ 0.084 & 0.716 $\pm$ 0.081 & 0.725 & 0.447 $\pm$ 0.184 & 0.408 $\pm$ 0.147 & REVISIT \\
+E012 & TGB tuned (expanded-road proxy) & 0.730 $\pm$ 0.085 & 0.724 $\pm$ 0.081 & 0.730 & 0.420 $\pm$ 0.170 & 0.413 $\pm$ 0.152 & REVISIT \\
+E013 & Hybrid bias-corrected background & 0.768 $\pm$ 0.069 & 0.742 $\pm$ 0.070 & 0.768 & 0.507 $\pm$ 0.167 & 0.458 $\pm$ 0.126 & SUCCESS \\
+\hline
+\end{tabular}
+\caption{Experiment progression (E007--E013).}
+\label{tab:progression}
+\end{table}
+
+Feature-only expansion plateaued (E007--E009), while background redesign delivered monotonic gains (E010--E013).
+E013 exceeded MVR by +0.018.
+Performance trajectories are visualized in Figure~\ref{fig:progression}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig3_auc_tss_progression.png}
+\caption{AUC and TSS progression across E007--E013 (XGBoost and RandomForest).}
+\label{fig:progression}
+\end{figure}
+
+\subsection{Best E013 Configuration}
+Best E013 settings: \texttt{region\_blend=0.00}, \texttt{hard\_frac\_target=0.30}, seed 375.
+Top XGBoost feature importances: elevation (0.215), TRI (0.185), TWI (0.166), river distance (0.160), slope (0.155), aspect (0.118).
+
+\subsection{Tautology Test}
+Challenge 1 remained negative across all experiments:
+E007 -0.095; E008 -0.153; E009 -0.266; E010 -0.142; E011 -0.169; E012 -0.160; E013 -0.229.
+High-suitability cells within 50 km volcano radius in E013: 57.9\%.
+
+\subsection{Robustness and Block-Size Sensitivity}
+For fixed E013 hybrid parameters and 20 alternate seeds:
+\begin{itemize}
+  \item XGBoost mean AUC 0.751 (95\% CI 0.745--0.756), mean TSS 0.465.
+  \item RandomForest mean AUC 0.744 (95\% CI 0.740--0.749), mean TSS 0.458.
+\end{itemize}
+Block-size sensitivity:
+\begin{itemize}
+  \item \textasciitilde{}40 km: XGB AUC 0.725 (0.718--0.733), RF AUC 0.742 (0.738--0.746).
+  \item \textasciitilde{}50 km: XGB AUC 0.751 (0.746--0.757), RF AUC 0.744 (0.740--0.749).
+  \item \textasciitilde{}60 km: XGB AUC 0.742 (0.737--0.747), RF AUC 0.732 (0.729--0.736).
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig7_e013_blocksize_sensitivity.png}
+\caption{Block-size sensitivity of E013 across \textasciitilde{}40/\textasciitilde{}50/\textasciitilde{}60 km CV scales.}
+\label{fig:blocksize}
+\end{figure}
+
+\section{Discussion}
+\subsection{For Computer Science Readers}
+The strongest performance gains came from correcting background-label realism, not from adding more covariates.
+This supports the view that data-generation assumptions dominate model behavior under biased observation regimes.
+Spatial CV was essential; random CV would likely overestimate transfer.
+
+\subsection{For Archaeology Readers}
+Results reinforce a long-standing caution: observed site distributions conflate settlement behavior and discovery process.
+The model can be useful for prioritization, but only when pseudo-absence design reflects where surveys could plausibly have detected sites.
+Hence, workflow transparency matters as much as headline AUC.
+
+\subsection{For Geology Readers}
+Negative tautology correlations across runs indicate the model is not merely rediscovering volcanic-distance gradients.
+This does not remove volcanic taphonomic uncertainty; it isolates suitability learning from a direct visibility proxy and enables clearer interpretation of potential buried-zone candidates.
+
+\subsection{Integrated Interpretation}
+Across all three perspectives, E013 suggests that interdisciplinary validity depends on aligning modeling assumptions with both survey process and depositional process.
+In practical terms: background design is the methodological bottleneck.
+Figure~\ref{fig:bridge} illustrates this interpretation bridge.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/fig9_interpretation_bridge.png}
+\caption{Interpretation bridge showing how CS, archaeology, and geology converge on operational survey prioritization.}
+\label{fig:bridge}
+\end{figure}
+
+\subsection{Limitations}
+\begin{enumerate}
+  \item Pseudo-absences remain inferred labels.
+  \item Road accessibility is an imperfect survey-effort proxy.
+  \item Hard-negative realization can exceed nominal targets.
+  \item External transfer beyond East Java is untested.
+  \item Block-size sensitivity was tested only at three coarse scales.
+\end{enumerate}
+
+\section{Conclusions}
+E013 is the first configuration to clear the operational threshold (single-run AUC 0.768), while robustness estimates remain near-threshold but stable (seed-averaged AUC 0.751).
+The core methodological conclusion is that, under survey-biased archaeological data, pseudo-absence realism is the dominant determinant of spatial transfer.
+This provides an actionable, interdisciplinary baseline for target prioritization and subsequent field validation.
+
+\section*{Supplementary Materials}
+Primary supplementary outputs are stored in:
+\begin{itemize}
+  \item \texttt{papers/P2\_settlement\_model/figures/fig1\_interdisciplinary\_framework.png},
+  \item \texttt{papers/P2\_settlement\_model/supplement/e013\_seed\_stability.csv},
+  \item \texttt{papers/P2\_settlement\_model/supplement/e013\_blocksize\_summary.csv},
+  \item \texttt{papers/P2\_settlement\_model/figures/fig2--fig9}.
+\end{itemize}
+
+\section*{Data Availability Statement}
+Data and processed rasters are available in \texttt{data/processed/} and \texttt{data/raw/dem/}.
+
+\section*{Code Availability Statement}
+Model and manuscript scripts are available in \texttt{experiments/E007\_...E013\_...} and \texttt{papers/P2\_settlement\_model/}.
+
+\section*{Author Contributions}
+Conceptualization, M.A.; methodology, M.A.; software, M.A.; validation, M.A.; formal analysis, M.A.; investigation, M.A.; resources, M.A.; data curation, M.A.; writing-original draft preparation, M.A.; writing-review and editing, M.A.; visualization, M.A.; supervision, M.A.; project administration, M.A.
+
+\section*{Funding}
+This research received no external funding.
+
+\section*{Conflicts of Interest}
+The author declares no conflict of interest.
+
+\section*{Institutional Review Board Statement}
+Not applicable.
+
+\section*{Informed Consent Statement}
+Not applicable.
+
+\section*{Acknowledgments}
+The author thanks reviewers and interdisciplinary collaborators for feedback on model framing, validation, and interpretation.
+
+\begin{thebibliography}{99}
+\bibitem{phillips2009}
+Phillips, S.J.; Dudik, M.; Elith, J.; Graham, C.H.; Lehmann, A.; Leathwick, J.; Ferrier, S.
+Sample selection bias and presence-only distribution models: Implications for background and pseudo-absence data.
+\textit{Ecological Applications} \textbf{2009}, \textit{19}, 181--197.
+\url{https://doi.org/10.1890/07-2153.1}.
+
+\bibitem{roberts2017}
+Roberts, D.R.; Bahn, V.; Ciuti, S.; et al.
+Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure.
+\textit{Ecography} \textbf{2017}, \textit{40}, 913--929.
+\url{https://doi.org/10.1111/ecog.02881}.
+
+\bibitem{valavi2019}
+Valavi, R.; Elith, J.; Lahoz-Monfort, J.J.; Guillera-Arroita, G.
+blockCV: An R package for generating spatially or environmentally separated folds for k-fold cross-validation of species distribution models.
+\textit{Methods in Ecology and Evolution} \textbf{2019}, \textit{10}, 225--232.
+\url{https://doi.org/10.1111/2041-210X.13107}.
+
+\bibitem{allouche2006}
+Allouche, O.; Tsoar, A.; Kadmon, R.
+Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic (TSS).
+\textit{Journal of Applied Ecology} \textbf{2006}, \textit{43}, 1223--1232.
+\url{https://doi.org/10.1111/j.1365-2664.2006.01214.x}.
+
+\bibitem{breiman2001}
+Breiman, L.
+Random forests.
+\textit{Machine Learning} \textbf{2001}, \textit{45}, 5--32.
+\url{https://doi.org/10.1023/A:1010933404324}.
+
+\bibitem{chen2016}
+Chen, T.; Guestrin, C.
+XGBoost: A scalable tree boosting system.
+In \textit{Proceedings of KDD '16}; 2016; pp. 785--794.
+\url{https://doi.org/10.1145/2939672.2939785}.
+
+\bibitem{verhagen2012}
+Verhagen, P.; Whitley, T.G.
+Integrating archaeological theory and predictive modeling: a live report from the scene.
+\textit{Journal of Archaeological Method and Theory} \textbf{2012}, \textit{19}, 49--100.
+\url{https://doi.org/10.1007/s10816-011-9102-7}.
+
+\bibitem{castiello2021}
+Castiello, M.; Tonini, M.
+Machine learning applications in archaeological predictive modelling.
+\textit{Journal of Computer Applications in Archaeology} \textbf{2021}, \textit{4}, 110--125.
+\url{https://doi.org/10.5334/jcaa.71}.
+
+\bibitem{wang2023}
+Wang, C.; et al.
+A machine-learning approach to geospatial predictive modelling in archaeology.
+\textit{ISPRS International Journal of Geo-Information} \textbf{2023}, \textit{12}, 238.
+\url{https://doi.org/10.3390/ijgi12060238}.
+
+\bibitem{comer2023}
+Comer, D.C.; et al.
+Sampling methods for archaeological predictive modeling.
+\textit{Journal of Archaeological Science: Reports} \textbf{2023}, \textit{47}, 103824.
+\url{https://doi.org/10.1016/j.jasrep.2022.103824}.
+
+\bibitem{newhall1982}
+Newhall, C.G.; Self, S.
+The Volcanic Explosivity Index (VEI): An estimate of explosive magnitude for historical volcanism.
+\textit{Journal of Geophysical Research: Oceans} \textbf{1982}, \textit{87}, 1231--1238.
+\url{https://doi.org/10.1029/JC087iC02p01231}.
+
+\bibitem{folch2012}
+Folch, A.
+A review of tephra transport and dispersal models: Evolution, current status, and future perspectives.
+\textit{Journal of Volcanology and Geothermal Research} \textbf{2012}, \textit{235--236}, 96--115.
+\url{https://doi.org/10.1016/j.jvolgeores.2012.05.020}.
+
+\bibitem{mastin2016}
+Mastin, L.G.; Van Eaton, A.R.; Lowenstern, J.B.; Wessels, R.L.
+Modeling ash fall distribution from a Yellowstone supereruption.
+\textit{Atmospheric Chemistry and Physics} \textbf{2016}, \textit{16}, 9399--9415.
+\url{https://doi.org/10.5194/acp-16-9399-2016}.
+
+\bibitem{mastin2022}
+Mastin, L.G.; et al.
+How best to forecast eruptions? Lessons from the 18 May 1980 eruption of Mount St. Helens.
+\textit{Bulletin of Volcanology} \textbf{2022}.
+\url{https://doi.org/10.1007/s00445-022-01613-0}.
+\end{thebibliography}
+
+\end{document}

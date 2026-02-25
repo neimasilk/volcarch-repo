@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(python --version 2>&1 || python3 --version 2>&1 || py --version 2>&1)",
+      "Bash(py:*)",
+      "WebSearch",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(sort:*)",
+      "Bash(cd:*)",
+      "Bash(tail:*)",
+      "WebFetch(domain:volcano.si.edu)",
+      "Bash(curl:*)",
+      "Bash(which python3 || which py || where python 2>/dev/null || where py 2>/dev/null)",
+      "Bash(cd \"/c/Users/Mukhlis Amien/Documents/volcarch-repo\" && PYTHONIOENCODING=utf-8 py papers/P2_settlement_model/null_model_comparison.py 2>&1)",
+      "Bash(cd \"/c/Users/Mukhlis Amien/Documents/volcarch-repo\" && PYTHONIOENCODING=utf-8 py papers/P2_settlement_model/enhanced_tautology_tests.py 2>&1)",
+      "Bash(grep:*)",
+      "Bash(grep Output written:*)"
+    ]
+  }
+}

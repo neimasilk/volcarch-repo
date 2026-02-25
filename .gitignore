@@ -9,12 +9,17 @@ build/
 .venv/
 venv/
 
-# Data (large files - use git-lfs or download scripts)
-data/raw/*.tif
-data/raw/*.tiff
+# Data (large files - too big for GitHub even with LFS free tier)
+*.tif
+*.tiff
 data/raw/*.nc
 data/raw/*.hdf
 *.zip
+
+# Large generated HTML maps (regenerable from scripts, 80+ MB each)
+experiments/*/results/suitability_map.html
+experiments/*/results/*.html
+maps/*.html
 
 # Models (large files)
 models/*.pkl
@@ -34,6 +39,12 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.blg
 
 # Secrets
 .env

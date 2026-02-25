@@ -1,0 +1,127 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Phillips et~al.(2009)Phillips, Dud{\'i}k, Elith, Graham, Lehmann,
+  Leathwick, and Ferrier]{phillips2009}
+Steven~J. Phillips, Miroslav Dud{\'i}k, Jane Elith, Catherine~H. Graham,
+  Anthony Lehmann, John Leathwick, and Simon Ferrier.
+\newblock Sample selection bias and presence-only distribution models:
+  implications for background and pseudo-absence data.
+\newblock \emph{Ecological Applications}, 19\penalty0 (1):\penalty0 181--197,
+  2009.
+\newblock \doi{10.1890/07-2153.1}.
+
+\bibitem[Roberts et~al.(2017)Roberts, Bahn, Ciuti, Boyce, Elith,
+  Guillera-Arroita, Hauenstein, Lahoz-Monfort, Schr{\"o}der, Thuiller, Warton,
+  Wintle, Hartig, and Dormann]{roberts2017}
+David~R. Roberts, Volker Bahn, Simone Ciuti, Mark~S. Boyce, Jane Elith,
+  Gurutzeta Guillera-Arroita, Severin Hauenstein, Jos{\'e}~J. Lahoz-Monfort,
+  Boris Schr{\"o}der, Wilfried Thuiller, David~I. Warton, Brendan~A. Wintle,
+  Florian Hartig, and Carsten~F. Dormann.
+\newblock Cross-validation strategies for data with temporal, spatial,
+  hierarchical, or phylogenetic structure.
+\newblock \emph{Ecography}, 40\penalty0 (8):\penalty0 913--929, 2017.
+\newblock \doi{10.1111/ecog.02881}.
+
+\bibitem[Valavi et~al.(2019)Valavi, Elith, Lahoz-Monfort, and
+  Guillera-Arroita]{valavi2019}
+Roozbeh Valavi, Jane Elith, Jos{\'e}~J. Lahoz-Monfort, and Gurutzeta
+  Guillera-Arroita.
+\newblock {blockCV}: An {R} package for generating spatially or environmentally
+  separated folds for k-fold cross-validation of species distribution models.
+\newblock \emph{Methods in Ecology and Evolution}, 10\penalty0 (2):\penalty0
+  225--232, 2019.
+\newblock \doi{10.1111/2041-210X.13107}.
+
+\bibitem[Chen and Guestrin(2016)]{chen2016}
+Tianqi Chen and Carlos Guestrin.
+\newblock {XGBoost}: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 785--794. ACM, 2016.
+\newblock \doi{10.1145/2939672.2939785}.
+
+\bibitem[Breiman(2001)]{breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock \emph{Machine Learning}, 45\penalty0 (1):\penalty0 5--32, 2001.
+\newblock \doi{10.1023/A:1010933404324}.
+
+\bibitem[Verhagen and Whitley(2012)]{verhagen2012}
+Philip Verhagen and Thomas~G. Whitley.
+\newblock Integrating archaeological theory and predictive modeling: a live
+  report from the scene.
+\newblock \emph{Journal of Archaeological Method and Theory}, 19\penalty0
+  (1):\penalty0 49--100, 2012.
+\newblock \doi{10.1007/s10816-011-9102-7}.
+
+\bibitem[Comer et~al.(2023)Comer, Harrower, McCorriston, O'Meara, and
+  Sadr]{comer2023}
+Douglas~C. Comer, Michael~J. Harrower, Joy McCorriston, Benjamin O'Meara, and
+  Karim Sadr.
+\newblock Sampling methods for archaeological predictive modeling.
+\newblock \emph{Journal of Archaeological Science: Reports}, 47:\penalty0
+  103824, 2023.
+\newblock \doi{10.1016/j.jasrep.2022.103824}.
+
+\bibitem[Castiello and Tonini(2021)]{castiello2021}
+Marco Castiello and Marj Tonini.
+\newblock Machine learning applications in archaeological predictive modelling.
+\newblock \emph{Journal of Computer Applications in Archaeology}, 4\penalty0
+  (1):\penalty0 110--125, 2021.
+\newblock \doi{10.5334/jcaa.71}.
+
+\bibitem[Wang et~al.(2023)Wang, Li, Liu, Liu, Liu, Su, and Guo]{wang2023}
+Cheng Wang, Ying Li, Yijian Liu, Huan Liu, Jian Liu, Yijian Su, and Huadong
+  Guo.
+\newblock A machine-learning approach to geospatial predictive modelling in
+  archaeology.
+\newblock \emph{ISPRS International Journal of Geo-Information}, 12\penalty0
+  (6):\penalty0 238, 2023.
+\newblock \doi{10.3390/ijgi12060238}.
+
+\bibitem[Newhall and Self(1982)]{newhall1982}
+Christopher~G. Newhall and Stephen Self.
+\newblock The {V}olcanic {E}xplosivity {I}ndex ({VEI}): An estimate of
+  explosive magnitude for historical volcanism.
+\newblock \emph{Journal of Geophysical Research: Oceans}, 87\penalty0
+  (C2):\penalty0 1231--1238, 1982.
+\newblock \doi{10.1029/JC087iC02p01231}.
+
+\bibitem[Folch(2012)]{folch2012}
+Arnau Folch.
+\newblock A review of tephra transport and dispersal models: evolution, current
+  status, and future perspectives.
+\newblock \emph{Journal of Volcanology and Geothermal Research},
+  235--236:\penalty0 96--115, 2012.
+\newblock \doi{10.1016/j.jvolgeores.2012.05.020}.
+
+\bibitem[Mastin et~al.(2014)Mastin, Van~Eaton, and Lowenstern]{mastin2016}
+Larry~G. Mastin, Alexa~R. Van~Eaton, and Jacob~B. Lowenstern.
+\newblock Modeling ash fall distribution from a {Y}ellowstone supereruption.
+\newblock \emph{Geochemistry, Geophysics, Geosystems}, 15\penalty0
+  (8):\penalty0 3459--3475, 2014.
+\newblock \doi{10.1002/2014GC005469}.
+
+\bibitem[Mastin et~al.(2022)Mastin, Van~Eaton, Schneider, Wallace, Swanson,
+  Bacon, Nathenson, Waittt, Gardner, Till, et~al.]{mastin2022}
+Larry~G. Mastin, Alexa~R. Van~Eaton, David~J. Schneider, Kristi~L. Wallace,
+  Donald~A. Swanson, Charles~R. Bacon, Manuel Nathenson, Richard~B. Waittt,
+  Cynthia~A. Gardner, Alison~B. Till, et~al.
+\newblock Lessons for forecasting eruptions at {Y}ellowstone and other large
+  volcanoes from the 1980 eruption of {M}ount {S}t. {H}elens.
+\newblock \emph{Bulletin of Volcanology}, 84\penalty0 (7):\penalty0 78, 2022.
+\newblock \doi{10.1007/s00445-022-01613-0}.
+
+\bibitem[Allouche et~al.(2006)Allouche, Tsoar, and Kadmon]{allouche2006}
+Omri Allouche, Asaf Tsoar, and Ronen Kadmon.
+\newblock Assessing the accuracy of species distribution models: prevalence,
+  kappa and the true skill statistic ({TSS}).
+\newblock \emph{Journal of Applied Ecology}, 43\penalty0 (6):\penalty0
+  1223--1232, 2006.
+\newblock \doi{10.1111/j.1365-2664.2006.01214.x}.
+
+\end{thebibliography}

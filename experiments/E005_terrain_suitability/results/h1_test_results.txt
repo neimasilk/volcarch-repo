@@ -1,0 +1,27 @@
+E005 - H1 Residual Test (Terrain Suitability-Controlled)
+=========================================================
+Date: 2026-02-23
+Study area: Malang Raya (PILOT - limited extent)
+Grid size: 25km x 25km
+Total grid cells analyzed: 12
+Sites in study area: 43
+
+Method: Spearman correlation between:
+  - residual site density (observed - terrain-predicted)
+  - distance to nearest active volcano
+
+Spearman rho: -0.1818
+p-value: 0.571701
+
+rho = -0.182, p = 0.5717. H1 NOT SUPPORTED: No deficit of sites near volcanoes after controlling for terrain.
+
+H1 status: NOT SUPPORTED / INCONCLUSIVE
+
+IMPORTANT CAVEATS:
+1. Study area limited to Malang Raya (pilot). Full East Java analysis needed.
+2. Suitability model is simplified (slope + elevation + TWI proxy).
+   No actual river distance data, no soil quality, no aspect.
+3. River proximity uses TWI as proxy - may inflate suitability in upland areas.
+4. Site data is sparse in this area (major sites are concentrated in Brantas valley
+   just outside the Malang Raya DEM extent).
+5. TWI computation uses simplified contributing area proxy, not true flow accumulation.

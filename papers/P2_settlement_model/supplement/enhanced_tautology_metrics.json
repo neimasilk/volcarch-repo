@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-25T09:35:31.653294",
+    "random_seed": 42,
+    "study_area": "Malang Raya, East Java",
+    "grid_cells": 589062,
+    "features": [
+      "elevation",
+      "slope",
+      "twi",
+      "tri",
+      "aspect",
+      "river_dist"
+    ]
+  },
+  "test1_multi_proxy_correlation": {
+    "volcano_dist_km": {
+      "rho": -0.16312190870916857,
+      "p_value": 0.0,
+      "abs_rho": 0.16312190870916857
+    },
+    "road_dist_m": {
+      "rho": -0.3067104060489131,
+      "p_value": 0.0,
+      "abs_rho": 0.3067104060489131
+    },
+    "nearest_site_dist_m": {
+      "rho": -0.25660760368209573,
+      "p_value": 0.0,
+      "abs_rho": 0.25660760368209573
+    },
+    "verdict": "GREY_ZONE",
+    "interpretation": "Moderate correlation detected (|rho| = 0.307). Some association with accessibility proxies \u2014 monitor but acceptable.",
+    "max_abs_rho": 0.3067104060489131
+  },
+  "test2_spatial_prediction_gap": {
+    "ks_statistic": 0.3216314130282043,
+    "ks_p_value": 0.0,
+    "near_n": 99840,
+    "far_n": 154371,
+    "near_high_suit_prop": 0.3544170673076923,
+    "far_high_suit_prop": 0.1300697669899139,
+    "high_suit_threshold": 0.596514892578125,
+    "verdict": "GREY_ZONE",
+    "interpretation": "Moderate prediction gap (D=0.322). Far-zone contains 13.0% high-suitability cells \u2014 acceptable but monitor."
+  },
+  "test3_stratified_cv": {
+    "quartile_results": [
+      {
+        "quartile": 1,
+        "auc": 0.7307849982274373,
+        "n": 149149,
+        "n_pos": 10612
+      },
+      {
+        "quartile": 2,
+        "auc": 0.68364104333936,
+        "n": 146023,
+        "n_pos": 5953
+      },
+      {
+        "quartile": 3,
+        "auc": 0.6786097059696483,
+        "n": 147304,
+        "n_pos": 4289
+      },
+      {
+        "quartile": 4,
+        "auc": 0.7882664388672149,
+        "n": 146586,
+        "n_pos": 2771
+      }
+    ],
+    "quartile_thresholds": [
+      43.36515426635742,
+      153.3189697265625,
+      499.17041015625
+    ],
+    "delta_auc_q4_q1": 0.05748144063977767,
+    "verdict": "PASS",
+    "interpretation": "Stable performance across survey intensity (\u0394=+0.057 \u2264 0.1). No evidence of survey-bias contamination."
+  },
+  "overall": {
+    "verdict": "GREY_ZONE \u2014 Monitor Closely",
+    "interpretation": "No clear tautology, but some tests show moderate associations. Interpret predictions with appropriate caution.",
+    "individual_verdicts": [
+      "GREY_ZONE",
+      "GREY_ZONE",
+      "PASS"
+    ]
+  }
+}

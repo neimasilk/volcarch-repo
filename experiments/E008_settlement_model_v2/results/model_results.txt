@@ -1,0 +1,35 @@
+E008 — Settlement Suitability Model v2 Results
+===============================================
+Date: 2026-02-24
+Features: ['elevation', 'slope', 'twi', 'tri', 'aspect', 'river_dist']
+Positive samples (sites): 378
+Pseudo-absences: 1890
+Spatial CV: 5 folds, ~50km blocks
+
+XGBoost  Spatial AUC: 0.685 ± 0.074
+XGBoost  TSS:         0.345 ± 0.135
+Rand.For Spatial AUC: 0.695 ± 0.107
+Rand.For TSS:         0.379 ± 0.200
+
+MVR (AUC > 0.75): NOT MET
+Verdict: BELOW MVR — try soil data next (E009)
+
+Feature Importances (XGBoost):
+  elevation: 0.212
+  tri: 0.185
+  river_dist: 0.168
+  slope: 0.159
+  twi: 0.152
+  aspect: 0.124
+
+E007 vs E008 Comparison:
+  E007 features: elevation, slope, twi, tri, aspect (5 features)
+  E008 features: elevation, slope, twi, tri, aspect, river_dist (6 features)
+  E007 XGB AUC:  0.659 ± 0.077
+  E008 XGB AUC:  0.685 ± 0.074
+  Delta AUC:     +0.026
+
+Challenge 1 (Tautology Test):
+  Spearman rho (suitability vs volcano dist): -0.153 (p=0.0000)
+  High-suitability cells within 50km of volcano: 55.2%
+  Result: TAUTOLOGY-FREE: Model predicts suitability independently of volcanic proximity

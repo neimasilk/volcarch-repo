@@ -1,0 +1,378 @@
+VOLCARCH Geocoding Report
+Date: 2026-02-23
+Total sites to geocode: 369
+------------------------------------------------------------
+[  1] MISS   Candi Bahal
+[  2] MISS   Candi Bara
+[  3] MISS   Candi Pulo
+[  4] MISS   Candi Sitopayan
+[  5] MISS   Candi Aek Haruaya
+[  6] MISS   Situs Mangaledang
+[  7] MISS   Situs Naga Saribu
+[  8] MISS   Candi Sipamutung
+[  9] MISS   Situs Aek Tunjang
+[ 10] MISS   Candi Tandihat
+[ 11] MISS   Situs Aek Linta
+[ 12] MISS   Candi Sangkilon
+[ 13] MISS   Candi Padang Roco
+[ 14] MISS   Candi Pulau Sawah
+[ 15] MISS   Candi Pulau Sawah I
+[ 16] MISS   Candi Pulau Sawah II
+[ 17] MISS   Candi Bukik Awang Maombiak
+[ 18] MISS   Candi Tanjungmedan
+[ 19] MISS   Candi Koto Rao
+[ 20] MISS   Candi Muaro Jambi
+[ 21] MISS   Situs Orang Kayu Hitam
+[ 22] FOUND  Candi Satu                                    lat=-8.4078 lon=114.1650  query='Candi Satu, Jawa Timur, Indonesia'
+[ 23] MISS   Candi Muara Takus
+[ 24] MISS   Candi Muara Guru
+[ 25] MISS   Candi Angsoka
+[ 26] MISS   Candi Lesung Batu
+[ 27] MISS   Candi Bumi Ayu
+[ 28] MISS   Situs Rimba Candi
+[ 29] FOUND  Candi Jepara                                  lat=-6.5245 lon=110.7753  query='Candi Jepara, Jawa, Indonesia'
+[ 30] MISS   Candi Kota Kapur
+[ 31] MISS   Candi Cangkuang
+[ 32] MISS   Situs Batujaya
+[ 33] MISS   Candi Jiwa
+[ 34] MISS   Candi Blandongan
+[ 35] MISS   Situs Cibuaya
+[ 36] MISS   Situs Lingga Yoni
+[ 37] MISS   Candi Bojongmenje
+[ 38] MISS   Candi Bojongemas
+[ 39] MISS   Situs Batu Kalde
+[ 40] MISS   Situs Karangkamulyan
+[ 41] MISS   Situs Mangunjaya
+[ 42] MISS   Situs Rajegwesi
+[ 43] FOUND  Candi Borobudur                               lat=-8.2011 lon=111.0888  query='Candi Borobudur, Jawa Timur, Indonesia'
+[ 44] FOUND  Candi Mendut                                  lat=-7.9406 lon=112.6272  query='Candi Mendut, Jawa Timur, Indonesia'
+[ 45] MISS   Candi Pawon
+[ 46] MISS   Candi Ngawen
+[ 47] MISS   Candi Asu
+[ 48] MISS   Candi Lumbung (Sengi)
+[ 49] FOUND  Candi Pendem                                  lat=-7.4972 lon=111.2242  query='Candi Pendem, Jawa Timur, Indonesia'
+[ 50] MISS   Candi Canggal
+[ 51] MISS   Candi Selogriyo
+[ 52] MISS   Candi Losari
+[ 53] MISS   Candi Gunungsari
+[ 54] MISS   Candi Umbul
+[ 55] MISS   Candi Bubrah (Klaten)
+[ 56] FOUND  Candi Prambanan                               lat=-8.1993 lon=111.0915  query='Candi Prambanan, Jawa Timur, Indonesia'
+[ 57] FOUND  Candi Plaosan                                 lat=-8.2183 lon=114.3672  query='Candi Plaosan, Jawa Timur, Indonesia'
+[ 58] FOUND  Candi Plaosan Kidul                           lat=-7.7427 lon=110.5047  query='Candi Plaosan Kidul, Jawa, Indonesia'
+[ 59] FOUND  Candi Sewu                                    lat=-7.9407 lon=112.6344  query='Candi Sewu, Jawa Timur, Indonesia'
+[ 60] MISS   Candi Lumbung
+[ 61] MISS   Candi Sojiwan
+[ 62] MISS   Candi Karangnongko
+[ 63] FOUND  Candi Merak                                   lat=-7.6066 lon=112.6134  query='Candi Merak, Jawa Timur, Indonesia'
+[ 64] MISS   Situs Kunden
+[ 65] FOUND  Candi Sukuh                                   lat=-7.6273 lon=111.1315  query='Candi Sukuh, Jawa, Indonesia'
+[ 66] FOUND  Candi Cetho                                   lat=-7.5957 lon=111.1581  query='Candi Cetho, Jawa Timur, Indonesia'
+[ 67] FOUND  Candi Kethek                                  lat=-7.5939 lon=111.1603  query='Candi Kethek, Jawa Timur, Indonesia'
+[ 68] MISS   Candi Planggatan
+[ 69] MISS   Situs Menggung
+[ 70] MISS   Arca Nandi Colomadu
+[ 71] MISS   Candi Dukuh
+[ 72] MISS   Candi Gedong Songo
+[ 73] MISS   Candi Klero
+[ 74] MISS   Candi Ngempon
+[ 75] MISS   Kompleks Candi Dieng
+[ 76] FOUND  Candi Arjuna                                  lat=-7.8767 lon=112.6705  query='Candi Arjuna, Jawa Timur, Indonesia'
+[ 77] MISS   Candi Puntadewa
+[ 78] MISS   Candi Semar
+[ 79] MISS   Candi Srikandi
+[ 80] MISS   Candi Sembadra
+[ 81] MISS   Candi Gatotkaca
+[ 82] MISS   Candi Setyaki
+[ 83] FOUND  Candi Bima                                    lat=-7.9435 lon=112.6349  query='Candi Bima, Jawa Timur, Indonesia'
+[ 84] MISS   Candi Dwarawati
+[ 85] MISS   Candi Bogang
+[ 86] MISS   Candi Pringapus
+[ 87] MISS   Candi Gondosuli
+[ 88] MISS   Situs Liyangan
+[ 89] MISS   Candi Bulus
+[ 90] MISS   Candi Kesuben
+[ 91] MISS   Candi Sari Cepogo
+[ 92] FOUND  Candi Lawang                                  lat=-7.5420 lon=112.3910  query='Candi Lawang, Jawa Timur, Indonesia'
+[ 93] MISS   Situs Sumur Pitu
+[ 94] MISS   Situs Sumur Songo
+[ 95] MISS   Candi Watugenuk
+[ 96] MISS   Candi Miyono
+[ 97] MISS   Candi Sentono
+[ 98] FOUND  Candi Bubrah (Jepara)                         lat=-6.6035 lon=110.8649  query='Candi Bubrah (Jepara), Jawa, Indonesia'
+[ 99] FOUND  Candi Prambanan                               lat=-8.1993 lon=111.0915  query='Candi Prambanan, Jawa Timur, Indonesia'
+[100] MISS   Situs Arca Gupolo
+[101] MISS   Situs Goa Sentono
+[102] FOUND  Candi Kalasan                                 lat=-7.9423 lon=112.6397  query='Candi Kalasan, Jawa Timur, Indonesia'
+[103] MISS   Candi Banyunibo
+[104] FOUND  Candi Ratu Boko                               lat=-7.7710 lon=110.5041  query='Candi Ratu Boko, Jawa, Indonesia'
+[105] MISS   Candi Sambi Sari
+[106] FOUND  Candi Sari                                    lat=-7.9419 lon=112.6318  query='Candi Sari, Jawa Timur, Indonesia'
+[107] FOUND  Candi Ijo                                     lat=-7.7838 lon=110.5115  query='Candi Ijo, Jawa, Indonesia'
+[108] MISS   Candi Barong
+[109] MISS   Candi Kedulan
+[110] MISS   Candi Gebang
+[111] MISS   Candi Morangan
+[112] MISS   Candi Keblak
+[113] MISS   Candi Abang
+[114] FOUND  Candi Miri                                    lat=-7.7710 lon=110.5041  query='Candi Miri, Jawa, Indonesia'
+[115] MISS   Candi Dawangsari
+[116] MISS   Candi Kimpulan
+[117] MISS   Candi Klodangan
+[118] MISS   Candi Palgading
+[119] MISS   Arca Bugisan
+[120] MISS   Candi Watu Gudhig
+[121] MISS   Situs Mantup
+[122] MISS   Candi Gampingan
+[123] MISS   Situs Payak Bantul
+[124] MISS   Situs Mangir
+[125] MISS   Candi Pringtali
+[126] MISS   Candi Risan
+[127] MISS   Situs Gembirowati
+[128] FOUND  Situs Waturejo                                lat=-7.8271 lon=112.3939  query='Situs Waturejo, Jawa Timur, Indonesia'
+[129] FOUND  Candi Jago                                    lat=-8.0058 lon=112.7641  query='Candi Jago, Jawa Timur, Indonesia'
+[130] FOUND  Candi Kidal                                   lat=-8.0258 lon=112.7091  query='Candi Kidal, Jawa Timur, Indonesia'
+[131] MISS   Situs Ngawonggo
+[132] FOUND  Candi Singosari                               lat=-7.8877 lon=112.6639  query='Candi Singosari, Jawa Timur, Indonesia'
+[133] MISS   Candi Selakelir
+[134] MISS   Kompleks Percandian Gunung Arjuna
+[135] MISS   Candi Jawar Ombo
+[136] MISS   Candi Bocok
+[137] MISS   Candi Ngabab
+[138] MISS   Candi Gunung Telih
+[139] FOUND  Candi Badut                                   lat=-7.9578 lon=112.5986  query='Candi Badut, Jawa Timur, Indonesia'
+[140] FOUND  Candi Karang Besuki                           lat=-7.9523 lon=112.5998  query='Candi Karang Besuki, Jawa Timur, Indonesia'
+[141] MISS   Situs Watugong
+[142] MISS   Situs Sumur Windu
+[143] MISS   Candi Sanggariti
+[144] MISS   Candi Surawana
+[145] FOUND  Candi Tegowangi                               lat=-7.7349 lon=112.1612  query='Candi Tegowangi, Jawa Timur, Indonesia'
+[146] FOUND  Arca Totok Kerot                              lat=-7.7979 lon=112.0702  query='Arca Totok Kerot, Jawa Timur, Indonesia'
+[147] MISS   Situs Tunglur
+[148] MISS   Situs Panji Gambyok
+[149] MISS   Situs Bandara Kediri
+[150] MISS   Situs Calon Arang
+[151] FOUND  Situs Tondowongso                             lat=-7.7905 lon=112.1423  query='Situs Tondowongso, Jawa Timur, Indonesia'
+[152] FOUND  Situs Adan-Adan                               lat=-7.7699 lon=112.1171  query='Situs Adan-Adan, Jawa Timur, Indonesia'
+[153] MISS   Candi Dorok
+[154] MISS   Candi Kepung Petirtaan
+[155] MISS   Arca Ringin Budha
+[156] MISS   Situs Nambaan
+[157] MISS   Situs Candi Semen
+[158] MISS   Situs Babadan
+[159] MISS   Candi Gunung Klotok
+[160] FOUND  Candi Lor                                     lat=-8.1796 lon=113.0724  query='Candi Lor, Jawa Timur, Indonesia'
+[161] FOUND  Candi Ngetos                                  lat=-7.6935 lon=111.8425  query='Candi Ngetos, Jawa Timur, Indonesia'
+[162] MISS   Situs Pace Kulon
+[163] MISS   Candi Rimbi
+[164] FOUND  Candi Jawi                                    lat=-7.6625 lon=112.6699  query='Candi Jawi, Jawa Timur, Indonesia'
+[165] MISS   Candi Kebo Ireng
+[166] MISS   Candi Gunung Gangsir
+[167] MISS   Kompleks Percandian Gunung Welirang
+[168] MISS   Kompleks Percandian Gunung Ringgit
+[169] MISS   Candi Lulumbang
+[170] FOUND  Candi Bangkal                                 lat=-7.5433 lon=112.6355  query='Candi Bangkal, Jawa Timur, Indonesia'
+[171] MISS   Kompleks Situs Trowulan
+[172] FOUND  Candi Tikus                                   lat=-7.5716 lon=112.4035  query='Candi Tikus, Jawa Timur, Indonesia'
+[173] MISS   Candi Klinterejo
+[174] MISS   Candi Menak Jingga
+[175] FOUND  Candi Brahu                                   lat=-7.5428 lon=112.3744  query='Candi Brahu, Jawa Timur, Indonesia'
+[176] FOUND  Candi Gentong                                 lat=-7.5435 lon=112.3781  query='Candi Gentong, Jawa Timur, Indonesia'
+[177] FOUND  Gapura Wringin Lawang                         lat=-7.5421 lon=112.3911  query='Gapura Wringin Lawang, Jawa Timur, Indonesia'
+[178] MISS   Gapura Bajang Ratu
+[179] FOUND  Candi Kedaton                                 lat=-7.5704 lon=112.3796  query='Candi Kedaton, Jawa Timur, Indonesia'
+[180] MISS   Kompleks Percandian Gunung Penanggungan
+[181] MISS   Candi Kama I
+[182] MISS   Candi Kama II
+[183] FOUND  Candi Gajah Mungkur                           lat=-7.6045 lon=112.6216  query='Candi Gajah Mungkur, Jawa Timur, Indonesia'
+[184] FOUND  Candi Wayang                                  lat=-7.6055 lon=112.6217  query='Candi Wayang, Jawa Timur, Indonesia'
+[185] MISS   Candi Kendalisada
+[186] MISS   Candi Pasetran
+[187] MISS   Gapura Jedong
+[188] FOUND  Candi Lemari                                  lat=-7.6078 lon=112.6123  query='Candi Lemari, Jawa Timur, Indonesia'
+[189] FOUND  Candi Bayi                                    lat=-7.6140 lon=112.6056  query='Candi Bayi, Jawa Timur, Indonesia'
+[190] FOUND  Candi Putri                                   lat=-7.6118 lon=112.6093  query='Candi Putri, Jawa Timur, Indonesia'
+[191] FOUND  Candi Pura                                    lat=-7.6115 lon=112.6107  query='Candi Pura, Jawa Timur, Indonesia'
+[192] FOUND  Candi Gentong                                 lat=-7.5435 lon=112.3781  query='Candi Gentong, Jawa Timur, Indonesia'
+[193] MISS   Candi Shinta
+[194] FOUND  Candi Lurah                                   lat=-7.6134 lon=112.6119  query='Candi Lurah, Jawa Timur, Indonesia'
+[195] FOUND  Candi Carik                                   lat=-7.6132 lon=112.6109  query='Candi Carik, Jawa Timur, Indonesia'
+[196] MISS   Candi Yudha
+[197] FOUND  Candi Wisnu                                   lat=-7.6148 lon=112.6138  query='Candi Wisnu, Jawa Timur, Indonesia'
+[198] MISS   Candi Kepurbakalaan XII
+[199] MISS   Candi kepurbakalaan XIII
+[200] MISS   Candi Buyung
+[201] MISS   Candi Kursi
+[202] FOUND  Candi Kendalisodo                             lat=-7.6068 lon=112.6076  query='Candi Kendalisodo, Jawa Timur, Indonesia'
+[203] MISS   Candi Selakir dan Tekingblandong
+[204] FOUND  Candi Naga I                                  lat=-7.6136 lon=112.6108  query='Candi Naga I, Jawa Timur, Indonesia'
+[205] MISS   Candi Pendawa
+[206] FOUND  Candi Merak                                   lat=-7.6066 lon=112.6134  query='Candi Merak, Jawa Timur, Indonesia'
+[207] FOUND  Candi Naga II                                 lat=-7.6136 lon=112.6108  query='Candi Naga II, Jawa Timur, Indonesia'
+[208] FOUND  Candi Griya                                   lat=-7.6032 lon=112.6206  query='Candi Griya, Jawa Timur, Indonesia'
+[209] FOUND  Candi Dharmawangsa                            lat=-7.6043 lon=112.6222  query='Candi Dharmawangsa, Jawa Timur, Indonesia'
+[210] FOUND  Candi Kerajaan                                lat=-7.6040 lon=112.6236  query='Candi Kerajaan, Jawa Timur, Indonesia'
+[211] MISS   Candi Pelakan Jawa I
+[212] MISS   Candi Pelakan Jawa II
+[213] FOUND  Candi Baru                                    lat=-7.2716 lon=112.6648  query='Candi Baru, Jawa Timur, Indonesia'
+[214] MISS   Candi tanpa nama I
+[215] MISS   Candi tanpa nama II
+[216] MISS   Candi tanpa nama III
+[217] MISS   Candi tanpa nama IV
+[218] MISS   Candi tanpa nama V
+[219] MISS   Candi tanpa nama VI
+[220] MISS   Candi tanpa nama VII
+[221] MISS   Candi Batu Jolang
+[222] MISS   Candi Batu Terbang
+[223] MISS   Arca Fragmen
+[224] MISS   Arca Joko Dolog
+[225] MISS   Candi Bacem
+[226] MISS   Arca Ganesha Boro
+[227] MISS   Candi Kalicilik
+[228] MISS   Candi Kotes
+[229] FOUND  Candi Wringin Branjang                        lat=-8.0028 lon=112.2818  query='Candi Wringin Branjang, Jawa Timur, Indonesia'
+[230] FOUND  Candi Sawentar                                lat=-7.9404 lon=112.6252  query='Candi Sawentar, Jawa Timur, Indonesia'
+[231] MISS   Candi Sumbernanas
+[232] FOUND  Candi Simping                                 lat=-8.1641 lon=112.1461  query='Candi Simping, Jawa Timur, Indonesia'
+[233] MISS   Kompleks Percandian Penataran
+[234] MISS   Candi Angka Tahun
+[235] FOUND  Candi Naga                                    lat=-7.6139 lon=112.6107  query='Candi Naga, Jawa Timur, Indonesia'
+[236] MISS   Candi Induk Penataran
+[237] MISS   Kolam Candi Penataran
+[238] MISS   Candi Pemandian Penataran
+[239] FOUND  Candi Gambar Wetan                            lat=-7.9680 lon=112.2388  query='Candi Gambar Wetan, Jawa Timur, Indonesia'
+[240] MISS   Candi Plumbangan
+[241] MISS   Candi Tepas
+[242] MISS   Candi Selo Tumpuk
+[243] MISS   Candi Sumber Agung
+[244] FOUND  Candi Sirah Kencong                           lat=-7.9800 lon=112.4278  query='Candi Sirah Kencong, Jawa Timur, Indonesia'
+[245] MISS   Candi Tapan
+[246] MISS   Situs Jeding
+[247] MISS   Candi Mleri
+[248] MISS   Candi Rambut Monte
+[249] MISS   Situs Bale Kambang
+[250] FOUND  Candi Kedaton                                 lat=-7.5704 lon=112.3796  query='Candi Kedaton, Jawa Timur, Indonesia'
+[251] MISS   Candi Jabung
+[252] MISS   Candi Gayatri
+[253] FOUND  Candi Dadi                                    lat=-8.1302 lon=111.9268  query='Candi Dadi, Jawa Timur, Indonesia'
+[254] MISS   Candi Meja
+[255] MISS   Candi Cungkup
+[256] MISS   Candi Selomangleng
+[257] FOUND  Candi Penampihan                              lat=-7.9027 lon=111.7953  query='Candi Penampihan, Jawa Timur, Indonesia'
+[258] FOUND  Candi Mirigambar                              lat=-8.1341 lon=111.9760  query='Candi Mirigambar, Jawa Timur, Indonesia'
+[259] MISS   Candi Ngampel
+[260] MISS   Candi Ngampel
+[261] MISS   Candi Brongkah
+[262] MISS   Candi Sadon
+[263] MISS   Candi Dewi Sri
+[264] FOUND  Candi Pari                                    lat=-7.5161 lon=112.6834  query='Candi Pari, Jawa Timur, Indonesia'
+[265] FOUND  Candi Sumur                                   lat=-7.5705 lon=112.3798  query='Candi Sumur, Jawa Timur, Indonesia'
+[266] MISS   Candi Medalem
+[267] MISS   Candi Wangkal
+[268] MISS   Candi Pamotan I dan II
+[269] MISS   Candi Dermo
+[270] FOUND  Candi Tawangalun                              lat=-7.3988 lon=112.7892  query='Candi Tawangalun, Jawa Timur, Indonesia'
+[271] MISS   Candi Gedhong Putri
+[272] MISS   Candi Gelisah
+[273] MISS   Candi Kunir
+[274] MISS   Situs Candi Burung
+[275] FOUND  Candi Deres                                   lat=-8.2990 lon=113.4190  query='Candi Deres, Jawa Timur, Indonesia'
+[276] MISS   Situs Altar Raja Dharmawangsa
+[277] MISS   Situs Kayangan Api
+[278] MISS   Candi Kepuh Klagen
+[279] FOUND  Candi Wonorejo                                lat=-7.7699 lon=112.1171  query='Candi Wonorejo, Jawa Timur, Indonesia'
+[280] FOUND  Candi Pendem Ngawi                            lat=-7.4972 lon=111.2242  query='Candi Pendem Ngawi, Jawa Timur, Indonesia'
+[281] MISS   Candi Kalibukbuk
+[282] MISS   Candi Gunung Kawi
+[283] MISS   Situs Goa Gajah
+[284] FOUND  Candi Agung                                   lat=-8.3965 lon=114.1601  query='Candi Agung, Jawa Timur, Indonesia'
+[285] MISS   Candi Laras
+[286] MISS   Situs Pematang Bata
+[287] MISS   Candi Tanjungpura
+[288] MISS   Arca Buddha Kota Bangun
+[289] MISS   Situs Goa Gunung Kombeng
+[290] MISS   Kompleks Candi Dieng
+[291] MISS   Situs di kaki Gunung Penanggungan
+[292] MISS   Pura Bukit Dharma Durga Kutri
+[293] MISS   Pura Tulukbiyu
+[294] MISS   Candi di Indonesia
+[295] MISS   Situs arkeologi di Indonesia
+[296] MISS   2Candi
+[297] MISS   3Pura
+[298] MISS   5Indonesian Hindu Temples outside the country
+[299] FOUND  Candi                                         lat=-7.4854 lon=112.7261  query='Candi, Jawa Timur, Indonesia'
+[300] FOUND  Pura                                          lat=-7.9334 lon=112.9542  query='Pura, Jawa Timur, Indonesia'
+[301] FOUND  Candi Prambanan                               lat=-8.1993 lon=111.0915  query='Candi Prambanan, Jawa Timur, Indonesia'
+[302] FOUND  Candi Ijo                                     lat=-7.7838 lon=110.5115  query='Candi Ijo, Jawa, Indonesia'
+[303] MISS   Candi Barong
+[304] MISS   Candi Sambisari
+[305] MISS   Candi Kedulan
+[306] MISS   Candi Gebang
+[307] MISS   Candi Kimpulan
+[308] MISS   Candi Gedong Songo
+[309] MISS   Candi Gunung Wukir
+[310] FOUND  Candi Merak                                   lat=-7.6066 lon=112.6134  query='Candi Merak, Jawa Timur, Indonesia'
+[311] MISS   Candi Dieng
+[312] FOUND  Candi Sukuh                                   lat=-7.6273 lon=111.1315  query='Candi Sukuh, Jawa, Indonesia'
+[313] FOUND  Candi Cetho                                   lat=-7.5957 lon=111.1581  query='Candi Cetho, Jawa Timur, Indonesia'
+[314] FOUND  Candi Penataran                               lat=-8.0164 lon=112.2095  query='Candi Penataran, Jawa Timur, Indonesia'
+[315] FOUND  Candi Jawi                                    lat=-7.6625 lon=112.6699  query='Candi Jawi, Jawa Timur, Indonesia'
+[316] FOUND  Candi Kidal                                   lat=-8.0258 lon=112.7091  query='Candi Kidal, Jawa Timur, Indonesia'
+[317] MISS   Candi Singhasari
+[318] MISS   Candi Surawana
+[319] FOUND  Candi Jago                                    lat=-8.0058 lon=112.7641  query='Candi Jago, Jawa Timur, Indonesia'
+[320] FOUND  Candi Bajang Ratu                             lat=-7.5678 lon=112.3987  query='Candi Bajang Ratu, Jawa Timur, Indonesia'
+[321] MISS   Candi Cangkuang
+[322] MISS   Candi Bojongmenje
+[323] MISS   Candi Gunung Kawi
+[324] FOUND  Pura Besakih                                  lat=-7.3377 lon=112.7882  query='Pura Besakih, Jawa Timur, Indonesia'
+[325] MISS   Pura Ulun Danu Bratan
+[326] MISS   Pura Luhur Ulu Watu
+[327] MISS   Pura Kehen
+[328] MISS   Pura Ulun Danu Batur
+[329] MISS   Pura Pancering Jagat
+[330] MISS   Pura Jagadnatha
+[331] MISS   Pura Maospahit
+[332] MISS   Pura Goa Lawah
+[333] MISS   Pura Tirtha Empul
+[334] MISS   Pura Taman Ayun
+[335] MISS   Pura Taman Saraswati
+[336] MISS   Pura Penataran Sasih
+[337] MISS   Pura Griya Sakti Manuaba
+[338] MISS   Pura Lingsar
+[339] MISS   Pura Parahyangan Agung Jagatkarta
+[340] MISS   Sri Mariamman Temple
+[341] MISS   Pura Girinatha
+[342] FOUND  Pura Tri Hita Karana                          lat=-8.2552 lon=112.8622  query='Pura Tri Hita Karana, Jawa Timur, Indonesia'
+[343] MISS   Candi of Indonesia
+[344] MISS   List of Buddhist temples
+[345] MISS   Lists of Hindu temples
+[346] MISS   Pura Beji Sangsit
+[347] FOUND  Pura Besakih                                  lat=-7.3377 lon=112.7882  query='Pura Besakih, Jawa Timur, Indonesia'
+[348] MISS   Pura Dalem Agung Padangtegal
+[349] MISS   Pura Dalem Segara Madhu
+[350] FOUND  Pura Gede Perancak                            lat=-8.3453 lon=114.6335  query='Pura Gede Perancak, Indonesia'
+[351] MISS   Pura Goa Lawah
+[352] MISS   Pura Kehen
+[353] MISS   Pura Lempuyang Luhur
+[354] MISS   Pura Luhur Batukaru
+[355] MISS   Pura Maospahit
+[356] MISS   Pura Meduwe Karang
+[357] MISS   Pura Parahyangan Agung Jagatkarta
+[358] FOUND  Pura Rambut Siwi                              lat=-8.4031 lon=114.7661  query='Pura Rambut Siwi, Indonesia'
+[359] MISS   Pura Taman Ayun
+[360] MISS   Pura Tanah Lot
+[361] MISS   Pura Tirta Empul
+[362] MISS   Pura Ulun Danu Batur
+[363] MISS   Pura Ulun Danu Bratan
+[364] MISS   Pura Uluwatu
+[365] MISS   Sri Mariamman Temple
+[366] MISS   Sree Soepramaniem Nagarattar Temple
+[367] MISS   Palani Andawer Temple
+[368] MISS   Lists of Hindu temples by country
+[369] MISS   Hindu temples in Indonesia
+------------------------------------------------------------
+Found: 94
+Not found: 275
+Success rate: 25.5%
+New total geocoded: 485

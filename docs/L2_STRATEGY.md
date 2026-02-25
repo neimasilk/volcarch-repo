@@ -16,7 +16,7 @@
 ## 2. Active Papers
 
 ### Paper 1: Taphonomic Bias Framework
-**Status:** NOT STARTED
+**Status:** DRAFT COMPLETE (submission package ready 2026-02-25)
 **Type:** Literature review + quantitative analysis + position paper
 **Target journal:** Journal of Archaeological Science: Reports (Q1)
 **MVR:** Show statistically significant negative correlation between known site density and volcanic sediment deposition potential in East Java
@@ -29,7 +29,7 @@
 - [ ] Draft and circulate for feedback
 
 ### Paper 2: Settlement Suitability Model
-**Status:** NOT STARTED (depends on Paper 1 data collection)
+**Status:** DRAFT COMPLETE (MVR met at E013, submission package in progress)
 **Type:** ML/GIS computational paper
 **Target journal:** Remote Sensing (MDPI, Q1)
 **MVR:** AUC > 0.75 on spatial cross-validation
@@ -88,8 +88,25 @@
 - [ ] Paper 1 submitted (or accepted)
 - [ ] Paper 2 model achieves MVR (AUC > 0.75)
 - [ ] Paper 3 model achieves MVR (Dwarapala prediction ±30%)
+- [ ] Challenge 1 (tautology test) passed
 - [ ] At least one domain collaborator engaged
 - [ ] BIMA or equivalent funding proposal drafted
+
+## 7. Formal Challenges (Must-Pass Before Phase 2)
+
+### Challenge 1: Tautology Elimination
+**Question:** Does the settlement model learn *suitability* or *visibility*?
+**Design:** Train model on environmental features ONLY. Test if it predicts high suitability in high-burial zones.
+**Pass:** Spatial AUC > 0.70 AND predicts some high-suitability in high-burial areas.
+**Fail:** Model only predicts where sites are already found → redesign required.
+**See:** `docs/EVAL.md` section 3.
+
+### Challenge 2: Multi-Source Calibration
+**Question:** Can burial depth be predicted from eruption data across multiple volcanic systems?
+**Design:** Accumulate tephra from known eruptions using VEI + distance + wind. Calibrate to all anchors (Dwarapala, Sambisari, Kedulan, Kimpulan).
+**Pass:** Predictions within ±30% for at least 3 of 4 calibration points.
+**Fail:** Cannot predict Dwarapala within ±50% → model fundamentally wrong.
+**See:** `docs/EVAL.md` section 2.
 
 **Phase 2 will require:**
 - Funding for GPR equipment rental or partnership

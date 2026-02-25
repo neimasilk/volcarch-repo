@@ -12,7 +12,9 @@ This is a **research repository**, not a software project. The "product" is know
 1. `docs/L1_CONSTITUTION.md` — The "UUD". Core hypotheses, philosophy, ethics. Almost never changes. Read this to understand *why* this project exists.
 2. `docs/L2_STRATEGY.md` — Current research phase and active papers. Changes per phase. Read this to understand *what we are working on now*.
 3. `docs/L3_EXECUTION.md` — Active tasks and experiments. Changes frequently. Read this to understand *what to do next*.
-4. `docs/JOURNAL.md` — Append-only research log. Read recent entries to understand *what has been tried and what happened*.
+4. `docs/EVAL.md` — Evaluation criteria and validation protocol. Read this to understand *how we measure success*.
+5. `docs/JOURNAL.md` — Append-only research log. Read recent entries to understand *what has been tried and what happened*.
+6. `data/schema.md` — Data format definitions. Read when working with datasets.
 
 ## Repo Structure
 
@@ -24,10 +26,12 @@ volcarch/
 │   ├── L1_CONSTITUTION.md     ← Layer 1: Core hypotheses & philosophy (stable)
 │   ├── L2_STRATEGY.md         ← Layer 2: Current phase & methodology (per-phase)
 │   ├── L3_EXECUTION.md        ← Layer 3: Active tasks & experiments (per-week)
+│   ├── EVAL.md                ← Evaluation criteria & validation protocol (stable-ish)
 │   └── JOURNAL.md             ← Research log: decisions, results, failures (append-only)
 ├── data/
 │   ├── raw/                   ← Original downloaded data (never modify)
 │   ├── processed/             ← Cleaned/transformed data
+│   ├── schema.md              ← Data format definitions
 │   └── sources.md             ← Data provenance documentation
 ├── experiments/
 │   ├── E001_site_density_vs_volcanic_proximity/

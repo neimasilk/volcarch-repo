@@ -15,12 +15,18 @@
 
 ## Figures and tables
 
+- [x] Figure 1 generated (`fig1_interdisciplinary_framework.png`)
 - [x] Figure 2 generated (`fig2_hybrid_sweep_heatmap.png`)
 - [x] Figure 3 generated (`fig3_auc_tss_progression.png`)
 - [x] Figure 4 generated (`fig4_e013_cv_by_fold.png`)
 - [x] Figure 5 generated (`fig5_tautology_rho_progression.png`)
 - [x] Figure 6 generated (`fig6_e013_seed_stability.png`)
 - [x] Figure 7 generated (`fig7_e013_blocksize_sensitivity.png`)
+- [x] Figure 8 generated (`fig8_pipeline_overview.png`)
+- [x] Figure 9 generated (`fig9_interpretation_bridge.png`)
+- [x] Figure 10 generated (`fig10_study_area_map.png`)
+- [x] Figure 11 generated (`fig11_suitability_map_static.png`)
+- [x] Figure 12 generated (`fig12_feature_importance.png`)
 - [x] Table 2 generated (`tables_experiment_progression.csv`)
 - [x] Table S1 generated (`supplement/e013_seed_stability.csv`)
 - [x] Table S2 generated (`supplement/e013_blocksize_summary.csv`)
@@ -30,8 +36,11 @@
 
 - [x] Main experiment scripts archived (`experiments/E007...E013`)
 - [x] Figure build pipeline archived (`build_figures.py`)
+- [x] Interdisciplinary visual builder archived (`build_interdisciplinary_visuals.py`)
 - [x] Robustness script archived (`robustness_checks.py`)
 - [x] Block-size sensitivity script archived (`block_size_sensitivity.py`)
+- [x] Full LaTeX manuscript generated (`submission_remote_sensing_v0.2.tex`)
+- [x] Local PDF compile completed (`submission_remote_sensing_v0.2.pdf`)
 - [x] Data and code availability section added to draft
 - [x] Freeze dependency versions for submission bundle (`requirements_submission_lock.txt`)
 - [x] Transfer text into submission-formatted file (`submission_remote_sensing_v0.1.md`)

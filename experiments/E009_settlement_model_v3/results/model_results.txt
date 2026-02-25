@@ -1,0 +1,37 @@
+E009 — Settlement Suitability Model v3 Results
+===============================================
+Date: 2026-02-24
+Features: ['elevation', 'slope', 'twi', 'tri', 'aspect', 'river_dist', 'clay', 'silt']
+Positive samples (sites): 259
+Pseudo-absences: 1295
+Spatial CV: 5 folds, ~50km blocks
+
+XGBoost  Spatial AUC: 0.664 ± 0.049
+XGBoost  TSS:         0.337 ± 0.083
+Rand.For Spatial AUC: 0.643 ± 0.054
+Rand.For TSS:         0.312 ± 0.072
+
+MVR (AUC > 0.75): NOT MET
+Verdict: REVISIT (0.65-0.75) — try TGB pseudo-absences next
+
+Feature Importances (XGBoost):
+  elevation: 0.165
+  silt: 0.156
+  river_dist: 0.123
+  clay: 0.121
+  tri: 0.119
+  slope: 0.119
+  twi: 0.106
+  aspect: 0.092
+
+AUC progression:
+  E007 (5 features): 0.659
+  E008 (6 features): 0.695
+  E009 (8 features): 0.664
+  Delta vs E007:     +0.005
+  Delta vs E008:     -0.031
+
+Challenge 1 (Tautology Test):
+  Spearman rho (suitability vs volcano dist): -0.266 (p=0.0000)
+  High-suitability cells within 50km of volcano: 57.8%
+  Result: TAUTOLOGY-FREE: Model predicts suitability independently of volcanic proximity

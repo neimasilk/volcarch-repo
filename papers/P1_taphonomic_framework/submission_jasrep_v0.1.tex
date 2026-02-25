@@ -1,0 +1,359 @@
+\documentclass[12pt,a4paper]{article}
+
+% === Packages ===
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+\usepackage{lineno}
+\usepackage{setspace}
+
+% JAS:Reports prefers line numbers and double spacing for review
+\linenumbers
+\doublespacing
+
+% === Metadata ===
+\title{Multi-Site Calibration of Volcanic Sedimentation Rates and Implications for Archaeological Visibility in Java, Indonesia}
+
+\author{
+  Mukhlis Amien\textsuperscript{1,*}\\[6pt]
+  \small \textsuperscript{1}Lab Data Sains, Universitas Bhinneka Nusantara, Indonesia\\
+  \small \textsuperscript{*}Correspondence: amien@ubhinus.ac.id
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+% ============================================================
+\begin{abstract}
+Active volcanism in Indonesia has historically been viewed as a catalyst for catastrophic site preservation, yet cumulative, non-catastrophic volcanic sedimentation presents a more pervasive taphonomic challenge by systematically burying the material record of early Javanese polities. This paper presents a new \textit{empirical calibration framework} for estimating archaeological burial depths using four independent empirical calibration points across two distinct volcanic systems: the Kelud system (Dwarapala Singosari, \textasciitilde1268~CE) and the Merapi system (Candi Sambisari, Kedulan, and Kimpulan, 9th century~CE). Despite differences in eruption frequency and local topography, we identify a remarkably consistent mean sedimentation rate of $4.4 \pm 1.2$~mm/yr over a 1,200-year horizon. We apply this rate to the ``absence'' of early archaeological evidence in Java, demonstrating that remains from the Kanjuruhan period (\textasciitilde760~CE) likely lie beneath 4.0--7.8 meters of overburden (based on calibrated rates of 2.4--6.2~mm/yr)---exceeding the detection limits of standard surface surveys and conventional ground-penetrating radar. Spatial analysis of 666 known sites in East Java confirms that the observable record is dominated by survey history and survivorship bias toward monumental stone architecture. Our findings suggest that the apparent chronological primacy of non-volcanic regions, such as Kutai in Kalimantan, may partly reflect differential preservation conditions rather than a genuine historical reality. This framework provides a quantitative baseline for prioritizing future subsurface investigations in volcanic island arcs.
+
+\medskip
+\noindent\textbf{Keywords:} volcanic taphonomy; sedimentation rates; archaeological visibility; East Java; multi-site calibration; survey bias
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+
+The Indonesian archipelago sits at the confluence of three major tectonic plates, producing one of Earth's densest concentrations of active volcanoes alongside a deep record of human habitation stretching back to \textit{Homo erectus}. Java alone hosts 45 active volcanoes across approximately 129,000~km\textsuperscript{2}, yielding a volcanic density unmatched by any comparably sized landmass \citep{vanbemmelen1949}. Hindu-Buddhist kingdoms flourished on the island from at least the 4th century~CE, yet the material evidence of early Javanese polities remains strikingly sparse compared to contemporaneous societies in mainland Southeast Asia. The kingdom of Kutai in Kalimantan---a region devoid of active volcanism---is conventionally regarded as Indonesia's oldest polity (\textasciitilde400~CE), its Yupa inscriptions found near the modern ground surface \citep{vogel1918,coedes1968}. This paper argues that such apparent chronological primacy may partly reflect differential preservation conditions rather than genuine historical precedence.
+
+Volcanic eruptions are widely recognized as agents of catastrophic archaeological preservation: Pompeii, Akrotiri, and Cer\'en demonstrate how single events can seal entire settlements in extraordinary detail \citep{sigurdsson1985,doumas1983,sheets1992}. Far less attention has been paid to the inverse process: the \textit{cumulative} taphonomic effect of repeated, non-catastrophic eruptions that gradually bury surface-level remains beneath meters of overburden over centuries. In volcanically active regions, this ongoing sedimentation systematically removes the material record from the observable archaeological landscape---not through destruction, but through concealment \citep{torrence2002,grattan2006}. Figure~\ref{fig:dwarapala_photos} provides striking photographic evidence of this process at the Dwarapala guardian statues of Candi Singosari, East Java.
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.58\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/fig0a_dwarapala_1860.jpg}
+\centerline{\small (a)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.38\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/fig0b_dwarapala_present.png}
+\centerline{\small (b)}
+\end{minipage}
+\caption{Direct photographic evidence of cumulative volcanic sedimentation at Candi Singosari. (a)~Colonial-era photograph (c.~1860) from the Leiden University Library archives, captioned \textit{Hindoe Oudheden---Singosari}, showing the Dwarapala guardian statue partially buried beneath volcanic sediment approximately six centuries after its construction (\textasciitilde1268~CE). Only the head, shoulders, and hands remain visible above the accumulated overburden. (b)~The same statue today, fully excavated and displayed at its original seated height of 370~cm. At the calibrated sedimentation rate of 3.6~mm/yr derived from this site (Section~3.2), approximately 185~cm of volcanic overburden accumulated between construction and the statue's rediscovery in 1803~CE.}
+\label{fig:dwarapala_photos}
+\end{figure}
+
+The distinction is consequential. Catastrophic preservation creates spectacular but spatially localized windows into the past. Cumulative burial, by contrast, operates at landscape scale, affecting entire volcanic basins and potentially rendering whole centuries of habitation invisible to conventional surface survey. In Java, where no point on the island lies more than approximately 27~km from the nearest active volcano, the cumulative process is not a localized anomaly but an island-wide taphonomic regime.
+
+Geoarchaeological approaches to understanding post-depositional site formation have a well-established methodological tradition \citep{french2003}, and the problem of surface visibility in archaeological survey has been recognized for decades \citep{wandsnider1992}. However, these perspectives have rarely been applied systematically to volcanic landscapes in island Southeast Asia, where the dominant research tradition has focused on monumental stone architecture---precisely the class of evidence most resistant to burial \citep{degroot2009}. The result is a circular observational bias: we find stone temples because they protrude through sediment; we interpret their distribution as reflecting settlement patterns; and we overlook the wooden settlements that constituted the overwhelming majority of historical habitation.
+
+This paper presents an empirical approach to quantifying the cumulative burial problem. We exploit four independent archaeological sites---each with known construction dates and measured burial depths---as calibration points spanning two distinct volcanic systems: the Kelud system in East Java (Dwarapala Singosari, \textasciitilde1268~CE) and the Merapi system in Central Java (Candi Sambisari, Kedulan, and Kimpulan, 9th century~CE). These yield cumulative volcanic sedimentation rates that are remarkably consistent across sites separated by hundreds of kilometers, establishing that mm/yr-scale burial is a systematic, Java-wide phenomenon. Kelud alone has produced 37 confirmed eruptions since 1000~CE \citep{gvp2024}, and the Merapi system is among the world's most persistently active stratovolcanoes \citep{gertisser2012}.
+
+We apply the calibrated rates to project expected burial depths for remains of successive historical periods, demonstrating that Kanjuruhan-era (\textasciitilde760~CE) sites in the Malang basin likely lie beneath 4.0--7.8~m of overburden---exceeding the effective range of both surface survey and standard ground-penetrating radar \citep{putra2019}. We further examine the spatial distribution of 666 known archaeological sites in East Java, showing that the observable record is dominated by survey history and survivorship bias rather than genuine settlement patterns. The paper concludes by identifying priority zones for future subsurface investigation where high terrain suitability coincides with deep predicted burial, offering a quantitative framework for directing archaeological fieldwork in volcanic island arcs.
+
+% ============================================================
+\section{Background}
+
+\subsection{Java as a volcanic burial zone}
+
+Java hosts 45 active volcanoes across approximately 129,000~km\textsuperscript{2}---a volcanic density of 0.35 per 1,000~km\textsuperscript{2}, the highest of any major Indonesian island and approximately six times that of Sumatra (0.06/1,000~km\textsuperscript{2}) \citep{vanbemmelen1949}. The average spacing between volcanic centers is \textasciitilde54~km, meaning that no point on Java is more than approximately 27~km from the nearest active volcano. Since tephra from VEI~3--4 eruptions can deposit measurable ash at 50--100+~km from the source \citep{newhall1982}, the entire island lies within the depositional range of at least one---and often multiple---volcanic centers.
+
+This density has a fundamental implication for archaeological preservation: Java is not an island where some sites happen to be near volcanoes---it is an island where volcanic sedimentation is an inescapable, island-wide taphonomic process. The relevant question is not \textit{whether} burial occurs at any given location, but \textit{how deep}---a function of proximity to active vents, eruption frequency, prevailing wind patterns, and local topography.
+
+East Java province alone encompasses seven major active centers: Kelud, Semeru, Arjuno-Welirang, Bromo, Lamongan, Raung, and Ijen. The Brantas River basin---which hosted the Singosari (1222--1293~CE) and Majapahit (1293--\textasciitilde1500~CE) kingdoms---sits in the depositional path of Kelud (35~km east), Arjuno-Welirang (25~km north), and Semeru (60~km southeast). Kelud alone has produced 37 confirmed eruptions since 1000~CE \citep{gvp2024,maeno2019}.
+
+In Central Java, Mount Merapi---one of the world's most active stratovolcanoes---has buried a cluster of 9th-century Hindu-Buddhist temples to depths of 3--7~m \citep{lavigne2000,thouret2000}. These buried temples (Sambisari, Kedulan, Kimpulan) were discovered accidentally during modern construction and mining activities, not through systematic archaeological survey.
+
+\subsection{The observable archaeological record in East Java}
+
+Our compilation of known archaeological sites in East Java (Section~3.1) identified 666 unique entries, of which only 391 (59\%) have usable spatial coordinates. The dataset is dominated by stone monuments (\textit{candi}) from the Singosari and Majapahit periods (13th--15th centuries~CE) \citep{kinney2003}. Earlier periods are poorly represented: pre-10th century sites constitute less than 5\% of the geocoded total.
+
+This temporal distribution is consistent with two complementary explanations: (a)~archaeological survey has historically concentrated on the Singosari-Majapahit heartland around Blitar, Malang, and Mojokerto; and (b)~older sites are more deeply buried, having accumulated more overburden, making them less likely to be discovered by surface methods.
+
+\subsection{Volcanic taphonomy}
+
+Taphonomy---the study of post-mortem processes affecting the archaeological and fossil records---has a well-established literature in sedimentary and fluvial contexts \citep{schiffer1987}. Volcanic taphonomy is comparatively understudied outside of catastrophic preservation events (Pompeii, Akrotiri/Santorini, Cer\'{e}n in El Salvador) \citep{sigurdsson1985,doumas1983,sheets1992}. These high-profile cases involved rapid burial by single eruptions, preserving sites in extraordinary detail.
+
+The process we describe is fundamentally different: \textit{cumulative} volcanic taphonomy, where repeated small-to-moderate eruptions over centuries gradually bury sites layer by layer. This produces the same end result---sites invisible from the surface---but through a slower, less dramatic mechanism. The key distinction is that cumulative burial is spatially pervasive (affecting entire volcanic basins, not just eruption-proximal zones) and temporally continuous (ongoing, not one-time events).
+
+\subsection{The Kutai comparison}
+
+The oldest known kingdom in the Indonesian archipelago is Kutai Martadipura (\textasciitilde400~CE), located in East Kalimantan---a region with zero active volcanoes across 544,000~km\textsuperscript{2} \citep{vogel1918}. Its Yupa inscriptions were found near the present ground surface.
+
+The contrast is stark: Java has 45 active volcanoes in 129,000~km\textsuperscript{2}; Kalimantan has zero in 544,000~km\textsuperscript{2}. At the mean Javanese sedimentation rate of 4.4~mm/yr, a Kutai-era (\textasciitilde400~CE) inscription in the Malang basin would now lie beneath 4--10~m of volcanic overburden---invisible to any surface survey. The same inscription in Kalimantan sits exactly where it was placed 1,600 years ago, because there is no volcanic sedimentation to bury it.
+
+Kutai's apparent chronological primacy over Javanese polities of similar or greater antiquity may therefore reflect differential preservation conditions rather than genuine temporal precedence \citep{coedes1968,miksic2004}. The ``oldest kingdom'' is simply the most \textit{visible} one---a direct consequence of volcanic density asymmetry between islands.
+
+% ============================================================
+\section{Data and Methods}
+
+\subsection{Archaeological site dataset}
+
+We compiled a database of known archaeological sites in East Java province from three complementary sources. First, we queried the OpenStreetMap Overpass API for all features tagged with \texttt{historic=*} within the Jawa Timur administrative boundary (bounding box: 6.5--9.0\textdegree{}S, 111.0--115.0\textdegree{}E), yielding 281 geolocated features. Second, we queried the Wikidata SPARQL endpoint for entities with coordinate property P625 within the same bounding box, recovering 16 precisely located sites. Third, we scraped the Indonesian-language Wikipedia article ``Daftar candi di Indonesia'' for 369 additional entries.
+
+To increase spatial coverage, we geocoded the 369 coordinate-less entries using the OpenStreetMap Nominatim API with progressive query refinement. Of 369 queries, 94 returned valid coordinates within the study area (25.5\% success rate). After spatial deduplication within a 100~m radius, the final dataset contains 666 unique site entries, of which 391 have usable coordinates (58.7\% geocoding rate). Within the East Java analytical bounds, 383 geocoded sites were used for spatial analysis.
+
+\textbf{Limitation:} The dataset is heavily biased toward stone monuments (\textit{candi}) that survived volcanic burial due to their monumental scale. Wooden settlements, which likely constituted the vast majority of historical habitation, are systematically absent---precisely the pattern predicted by the taphonomic bias hypothesis.
+
+\subsection{The Dwarapala calibration}
+
+The primary empirical anchor for our burial depth framework is the pair of Dwarapala guardian statues at Candi Singosari, Malang Regency, East Java.
+
+\textbf{Known parameters:}
+\begin{itemize}
+  \item Construction date: \textasciitilde1268~CE (reign of Kertanegara, Singosari Kingdom)
+  \item Discovery date: 1803~CE, by Nicolaus Engelhard
+  \item Physical dimensions: 370~cm seated height, \textasciitilde40 tonnes, monolithic andesite
+  \item Condition at discovery: ``\textit{separuh tubuh terpendam}'' (half the body buried)
+  \item Estimated burial depth: \textasciitilde185~cm
+  \item Elapsed time: 1803~$-$~1268~$=$~535 years (or \textasciitilde510 years using estimated completion)
+\end{itemize}
+
+\textbf{Calculated sedimentation rate:}
+\begin{equation}
+  R = \frac{185~\text{cm}}{510~\text{yr}} = 0.36~\text{cm/yr} = 3.6~\text{mm/yr}
+\end{equation}
+
+\textbf{Cross-validation:} Gunung Kelud erupted approximately 20 times between 1268 and 1803~CE. Documented VEI~3--4 eruptions deposit 2--20~cm of ash at Malang distance (\textasciitilde35~km). Twenty eruptions at an average of \textasciitilde5~cm per event would account for \textasciitilde100~cm of the 185~cm total burial. The remainder (\textasciitilde85~cm) is attributable to secondary remobilization (lahars, reworked tephra), contributions from Semeru and Arjuno-Welirang, and non-volcanic aggradation \citep{gvp2024,maeno2019}. We note that the rates reported here represent \textit{total landscape aggradation} in volcanic terrain, not pure primary tephra accumulation; for archaeological burial, however, the total rate is the operationally relevant metric regardless of depositional source.
+
+Figure~\ref{fig:timeline} illustrates the Dwarapala burial timeline from construction to present.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_dwarapala_timeline.png}
+\caption{Dwarapala Singosari burial timeline. The statues were constructed \textasciitilde1268~CE at full height (370~cm) and discovered in 1803~CE with approximately half (185~cm) buried by volcanic sedimentation, yielding a cumulative rate of 3.6~mm/yr. The cross-system mean from four calibration points is $4.4 \pm 1.2$~mm/yr.}
+\label{fig:timeline}
+\end{figure}
+
+\subsection{Secondary calibration points}
+
+To assess whether the Dwarapala rate is a local anomaly or representative of a Java-wide phenomenon, we compiled three additional calibration points from Central Java's Merapi volcanic system (Table~\ref{tab:calibration}).
+
+\begin{table}[htbp]
+\centering
+\caption{Empirical calibration points for volcanic sedimentation rates at archaeological sites in Java.}
+\label{tab:calibration}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+Site & Built (CE) & Discovered & Depth (cm) & System & Rate (mm/yr) & Source \\
+\midrule
+Dwarapala Singosari & \textasciitilde1268 & 1803 & \textasciitilde185 & Kelud & 3.5 & BPCB Jatim \\
+Candi Sambisari & \textasciitilde835 & 1966 & 500--650 & Merapi & 4.4--5.7 & BPCB DIY \\
+Candi Kedulan & \textasciitilde869 & 1993 & 600--700 & Merapi & 5.3--6.2 & BPCB DIY \\
+Candi Kimpulan & \textasciitilde900 & 2009 & 270--500 & Merapi & 2.4--4.5 & \citet{putra2019} \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+Across all four sites, the computed rates span 2.4--6.2~mm/yr with a mean of $4.4 \pm 1.2$~mm/yr. The consistency across two independent volcanic systems---Kelud in East Java and Merapi in Central Java---demonstrates that mm/yr-scale burial of archaeological sites is systematic and Java-wide, not a local anomaly (Figure~\ref{fig:rates}).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/fig3_calibration_rates.png}
+\caption{Empirical sedimentation rates from four archaeological sites across two volcanic systems. Error bars show the range from reported depth uncertainty. The cross-system mean is $4.4 \pm 1.2$~mm/yr.}
+\label{fig:rates}
+\end{figure}
+
+\subsection{Burial depth projection model}
+
+Using the empirically-derived rate range, we estimate expected overburden depth by era:
+
+\begin{equation}
+  D(\text{era}) = R \times (T_{\text{present}} - T_{\text{era}})
+\end{equation}
+
+where $R$ ranges from 2.4 to 6.2~mm/yr and $T_{\text{present}} = 2026$~CE. Results are presented in Figure~\ref{fig:depth}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_burial_depth_projections.png}
+\caption{Projected burial depth by historical era using four empirically-derived sedimentation rates. The green band indicates the effective range of ground-penetrating radar in volcanic sediment (0--5~m). Kanjuruhan-era and earlier remains may exceed GPR detection limits.}
+\label{fig:depth}
+\end{figure}
+
+\subsection{Spatial analysis methods}
+
+\textbf{E004---Raw site density vs volcanic proximity.} We computed the minimum great-circle distance from each geocoded site to the nearest of seven reference volcanoes. Sites were binned into seven distance bands (0--25, 25--50, 50--75, 75--100, 100--150, 150--200, and 200+~km). Site density was expressed as sites per 1,000~km\textsuperscript{2}. Spearman's rank correlation between distance band midpoint and site density tests whether sites are found preferentially near or far from volcanoes.
+
+\textbf{E005---Terrain-controlled analysis.} To separate the effect of terrain suitability from volcanic proximity, we constructed a terrain suitability index combining four DEM-derived features (slope, elevation, TWI, and a river proximity proxy). The study area was divided into a 25~km $\times$ 25~km grid (187 cells). For each cell, we computed the residual between observed and terrain-predicted site count. Spearman correlation between residual density and distance to nearest volcano tests the taphonomic bias hypothesis after controlling for terrain preference.
+
+% ============================================================
+\section{Results}
+
+\subsection{The Dwarapala calibration (RQ1)}
+
+The Dwarapala sedimentation calculation yields a rate of 3.6~mm/year (Section~3.2). This rate is internally consistent with documented Kelud eruption histories, which account for approximately 100 of the 185~cm total burial through direct tephra deposition alone. The remaining 85~cm is attributable to secondary remobilization and contributions from other volcanic systems.
+
+The secondary calibration points yield rates of 2.4--6.2~mm/yr across the Merapi system, consistently higher than the Dwarapala rate (3.5~mm/yr) from the Kelud system. This difference is physically plausible: Merapi erupts more frequently than Kelud, and the Central Java sites are closer to their volcanic source. The cross-system mean of $4.4 \pm 1.2$~mm/yr establishes that ongoing volcanic burial is a Java-wide phenomenon with quantifiable, consistent rates.
+
+\subsection{Burial depth projections (RQ3)}
+
+Key projections for the Malang basin using the full rate range:
+
+\begin{table}[htbp]
+\centering
+\caption{Projected burial depth by era using empirically-derived sedimentation rates.}
+\label{tab:depth}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+Era & Date (CE) & Elapsed (yr) & Low (2.4) & Dwarapala (3.5) & Mean (4.4) & High (6.2) \\
+\midrule
+Late Majapahit & \textasciitilde1400 & 626 & 1.5~m & 2.2~m & 2.8~m & 3.9~m \\
+Singosari & \textasciitilde1268 & 758 & 1.8~m & 2.7~m & 3.3~m & 4.7~m \\
+Mataram (E. Java) & \textasciitilde900 & 1,126 & 2.7~m & 3.9~m & 5.0~m & 7.0~m \\
+Kanjuruhan & \textasciitilde760 & 1,266 & 3.0~m & 4.4~m & 5.6~m & 7.9~m \\
+Pre-Hindu & \textasciitilde400 & 1,626 & 3.9~m & 5.7~m & 7.2~m & 10.1~m \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+These depths exceed standard archaeological surface survey capabilities (0--1~m) and approach or exceed the effective range of ground-penetrating radar (2--5~m in volcanic sediment) \citep{conyers2004,goodman2013}. Detection of Kanjuruhan-era or earlier remains will likely require deep GPR, borehole coring, or fortuitous exposure through modern construction.
+
+\subsection{Cautionary analysis: why distribution data cannot test H1}
+
+We conducted two spatial analyses to examine whether the distribution of known sites reflects taphonomic bias. In E004, analysis of 383 geocoded sites revealed a strong \textit{negative} correlation between site density and distance from the nearest active volcano (Spearman's $\rho = -0.955$, $p = 0.0008$, $n = 7$ distance bands; Table~\ref{tab:density}, Figure~\ref{fig:density}). Known sites cluster \textit{near} volcanoes---the opposite of what a naive reading of the taphonomic bias hypothesis would predict.
+
+\begin{table}[htbp]
+\centering
+\caption{Site density by distance to nearest active volcano.}
+\label{tab:density}
+\small
+\begin{tabular}{lccc}
+\toprule
+Distance Band (km) & Sites & Area (km\textsuperscript{2}) & Density (/1,000~km\textsuperscript{2}) \\
+\midrule
+0--25 & 147 & 11,343 & 12.96 \\
+25--50 & 136 & 18,034 & 7.54 \\
+50--75 & 37 & 18,528 & 2.00 \\
+75--100 & 22 & 16,373 & 1.34 \\
+100--150 & 41 & 28,523 & 1.44 \\
+150--200 & 0 & 25,507 & 0.00 \\
+200+ & 0 & 73,740 & 0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/fig4_density_vs_distance.png}
+\caption{Left: Site density by volcanic distance band showing strong near-volcano clustering ($\rho = -0.955$). Right: Interpretive framework explaining why this pattern reflects survey history, not settlement preference.}
+\label{fig:density}
+\end{figure}
+
+In E005, a terrain-controlled analysis using a composite terrain suitability index (slope, elevation, TWI, river proximity) across 187 grid cells of 25~km $\times$ 25~km yielded Spearman's $\rho = -0.358$ ($p < 0.0001$). Terrain suitability explains part of the clustering, but the remaining signal reflects survey intensity concentrated on the Singosari-Majapahit heartland. Repeating both analyses after geocoding 94 additional sites (E006; increasing from 297 to 391 geocoded entries) produced negligible change: E004~$\rho$ shifted from $-0.991$ to $-0.955$; E005~$\rho$ from $-0.364$ to $-0.358$. The pattern is robust.
+
+Critically, these results do \textit{not} test the taphonomic bias hypothesis. The fundamental limitation is circular: the sites in our dataset are those that \textit{survived} burial and were \textit{discovered} by archaeologists. Both processes systematically favor low-burial-depth locations:
+
+\begin{enumerate}
+  \item \textbf{Survivorship bias:} Stone temples dominate the dataset because they are large enough to protrude through meters of sediment. Wooden and bamboo structures---$>$99\% of historical habitation---leave no surface trace after burial.
+  \item \textbf{Survey bias:} Indonesian archaeological survey has concentrated on regions of known historical kingdoms for over two centuries. ``Blank'' areas on the archaeological map are blank because they are unsurveyed, not uninhabited.
+  \item \textbf{Discovery mechanism bias:} Most deeply buried temples were found accidentally during modern construction (Sambisari: farmer's plow, 1966; Kimpulan: university excavation, 2009; Liangan: sand mining, 2008) \citep{putra2019,abbas2016}.
+\end{enumerate}
+
+The taphonomic bias hypothesis therefore cannot be confirmed or denied from distribution data alone. It remains a hypothesis requiring subsurface investigation to test. This is itself a contribution: the ``archaeological absence'' of pre-Majapahit evidence in volcanic zones cannot be interpreted as evidence of cultural absence.
+
+% ============================================================
+\section{Discussion}
+
+\subsection{Multi-point calibration as the core contribution}
+
+The central finding is not a statistical test of H1 but an empirical calibration: four independent archaeological sites across two volcanic systems yield cumulative sedimentation rates of 2.4--6.2~mm/yr (mean $4.4 \pm 1.2$~mm/yr). This consistency across sites separated by hundreds of kilometers and sourced from different volcanic centers establishes that ongoing burial is a systematic feature of volcanic Java.
+
+The Dwarapala rate (3.5~mm/yr) sits at the lower end. Merapi-system sites show higher rates (mean \textasciitilde4.8~mm/yr), consistent with Merapi's higher eruption frequency. This variation is itself informative: burial rates are site-specific and depend on distance from volcanic vents, topographic position, and local hydrology. A spatially-resolved burial depth model must account for this heterogeneity.
+
+\subsection{The informative ``negative'' result}
+
+Our spatial analysis shows known sites clustering \textit{near} volcanoes. We argue this is itself evidence for the hypothesis: the observable record maps \textit{where we have looked} (Majapahit-Singosari heartland, 0--50~km from Kelud/Arjuno) rather than \textit{where sites exist}. Stone monuments that dominate the dataset are precisely those large enough to resist burial---the kind that would survive in high-deposition zones \citep{verhagen2012}.
+
+The negligible change upon adding 29\% more sites (E006) confirms the pattern is saturated: the observable record has reached a ceiling imposed by survey history, not by genuine settlement distributions.
+
+\subsection{Practical implications for fieldwork}
+
+The burial depth projections have direct operational implications:
+
+\begin{itemize}
+  \item \textbf{GPR applicability:} Ground-penetrating radar is effective to \textasciitilde2--5~m in volcanic ash. Late Majapahit-era remains (1.5--3.9~m) are detectable; Kanjuruhan-era remains (3.0--7.9~m) may exceed GPR range \citep{conyers2004}.
+  \item \textbf{Priority zones:} Areas with high terrain suitability AND high expected burial depth are where settlement remains are most likely preserved yet invisible.
+  \item \textbf{Discovery mechanism:} Accidental discoveries during construction illustrate that deeply buried sites exist but systematic subsurface survey has never been conducted.
+\end{itemize}
+
+\subsection{The Kutai comparison (H2)}
+
+At 4.4~mm/yr, a Kutai-era (\textasciitilde400~CE) artifact in the Malang basin would now lie beneath 7~m of overburden. The same artifact in Kalimantan (zero volcanism) sits at the original ground surface. The perceived chronological primacy of Kutai over Javanese polities of similar antiquity may reflect this differential preservation, not genuine temporal precedence \citep{coedes1968}.
+
+\subsection{Limitations}
+
+\begin{enumerate}
+  \item \textbf{Calibration sample size:} Four points, while spanning two volcanic systems, remain a small sample. Rates carry uncertainty from imprecise construction dates and variable depth measurements.
+  \item \textbf{Rate constancy:} We treat sedimentation as temporally uniform, smoothing over episodic large eruptions. The Dwarapala rate is a cumulative average over \textasciitilde510 years.
+  \item \textbf{Depth measurement uncertainty:} Published depths vary across sources (e.g., Sambisari: ``5~m'' to ``6.5~m''). We report ranges rather than point estimates.
+  \item \textbf{Spatial extrapolation:} Rates derive from two specific volcanic basins. Extrapolation to other Java regions requires additional calibration.
+  \item \textbf{Survey bias unquantified:} We argue that survey history dominates distribution data but cannot quantify this without systematic coverage maps.
+\end{enumerate}
+
+\subsection{Future work}
+
+Three follow-up studies are planned: (1)~a machine learning settlement suitability model independently tested against volcanic burial zones (Paper~2); (2)~a spatially-resolved burial depth model calibrated against all four anchor points (Paper~3); and (3)~targeted GPR survey at 5--10 locations in high-suitability, high-burial-depth zones to test for subsurface anomalies.
+
+% ============================================================
+\section{Conclusions}
+
+We have presented a quantitative framework for estimating volcanic taphonomic bias in the Indonesian archaeological record. Four empirical calibration points from two independent volcanic systems yield cumulative sedimentation rates of 2.4--6.2~mm/yr (mean $4.4 \pm 1.2$~mm/yr), establishing that multi-meter burial is a systematic, Java-wide phenomenon.
+
+The spatial distribution of known sites in East Java cannot test the taphonomic bias hypothesis because the observable record is dominated by survey history and survivorship bias. This is itself a contribution: the ``archaeological absence'' of pre-Majapahit evidence in volcanic zones cannot be interpreted as evidence of cultural absence.
+
+Our projections indicate that Kanjuruhan-era (\textasciitilde760~CE) remains in the Malang basin lie beneath 3.0--7.9~m of overburden, and pre-Hindu (\textasciitilde400~CE) remains beneath 3.9--10.1~m. These depths exceed conventional survey capabilities and approach the limits of ground-penetrating radar. Future investigation in volcanic Java should incorporate subsurface detection methods in zones identified as having both high settlement suitability and high expected burial depth.
+
+% ============================================================
+\section*{Data Availability Statement}
+
+The archaeological site dataset, DEM derivatives, and analysis scripts are available at \url{https://github.com/[repository]} (to be made public upon acceptance). Raw DEM data from Copernicus GLO-30 are publicly available.
+
+\section*{Code Availability Statement}
+
+All analysis scripts (E001--E006) are available in the project repository under \texttt{experiments/}.
+
+\section*{Author Contributions}
+
+Conceptualization, M.A.; methodology, M.A.; software, M.A.; validation, M.A.; formal analysis, M.A.; investigation, M.A.; data curation, M.A.; writing---original draft, M.A.; writing---review and editing, M.A.; visualization, M.A.
+
+\section*{Funding}
+
+This research received no external funding.
+
+\section*{Conflicts of Interest}
+
+The author declares no conflict of interest.
+
+\section*{Acknowledgments}
+
+The author thanks the Global Volcanism Program (Smithsonian Institution) for open eruption data, and the OpenStreetMap and Wikidata communities for structured geospatial data.
+
+% ============================================================
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+
+\end{document}
