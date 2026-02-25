@@ -39,7 +39,7 @@ Baseline terrain modeling (E007) produced AUC 0.659.
 Adding river distance improved performance (E008, best AUC 0.695), while adding soil covariates reduced transfer performance (E009, best AUC 0.664).
 Target-Group Background (TGB) pseudo-absence design improved performance (E010--E012, best AUC 0.730).
 A hybrid bias-corrected strategy in E013 achieved seed-averaged XGBoost AUC 0.751 (95\% CI: 0.745--0.756; best single-run 0.768; TSS 0.507 $\pm$ 0.167), above the minimum viable threshold (AUC $>$ 0.75).
-Robustness checks across 20 alternate random seeds confirmed stable performance.
+Robustness checks across 20 alternate random seeds confirmed stable performance (range: 0.729--0.774; all seeds exceed the null-model ceiling).
 Block-size sensitivity showed the \textasciitilde{}50 km split was most favorable among \textasciitilde{}40/\textasciitilde{}50/\textasciitilde{}60 km tests.
 Challenge 1 (tautology test) passed across all runs (negative Spearman $\rho$ between suitability and volcano distance).
 For interdisciplinary use, the main finding is that pseudo-absence realism, not feature count alone, is the dominant lever for spatial transfer under survey-biased archaeological data.
@@ -90,14 +90,7 @@ This paper contributes an integrated workflow:
   \item explicit non-tautological handling of volcanic context (geology-aware interpretation).
 \end{enumerate}
 The central hypothesis is operational: under survey-biased data, better background design should produce larger transfer gains than feature accumulation alone.
-Figure~\ref{fig:studyarea} shows the study area location, and Figure~\ref{fig:framework} summarizes the cross-domain bias interactions addressed in this study.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.9\textwidth]{figures/fig10_study_area_map.png}
-\caption{Study area location in East Java, Indonesia, showing archaeological sites and major volcanic centers.}
-\label{fig:studyarea}
-\end{figure}
+Figure~\ref{fig:framework} summarizes the cross-domain bias interactions addressed in this study, and Figure~\ref{fig:studyarea} shows the study area location.
 
 \begin{figure}[h]
 \centering
@@ -106,12 +99,19 @@ Figure~\ref{fig:studyarea} shows the study area location, and Figure~\ref{fig:fr
 \label{fig:framework}
 \end{figure}
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/fig10_study_area_map.png}
+\caption{Study area location in East Java, Indonesia, showing archaeological sites and major volcanic centers.}
+\label{fig:studyarea}
+\end{figure}
+
 \section{Materials and Methods}
 
 \subsection{Study Area and Data}
 
 The study area is province-scale East Java (approximate bounds: 111--115$^\circ$E, 9--6.5$^\circ$S), using EPSG:32749 for raster processing.
-Presence data come from \texttt{data/processed/east\_java\_sites.geojson}.
+Presence data come from the project's processed site geodataset.
 Usable presences after feature filtering were 378 for E007/E008/E010--E013 and 259 for E009 (soil-layer coverage constraint).
 
 Covariates:
@@ -131,7 +131,7 @@ Algorithms:
   \item XGBoost (primary),
   \item RandomForest (secondary benchmark).
 \end{itemize}
-Validation uses 5-fold deterministic spatial block CV with baseline block size \texttt{BLOCK\_SIZE\_DEG=0.45} (\textasciitilde{}50 km).
+Validation uses 5-fold deterministic spatial block CV with baseline block size 0.45\textdegree{} (\textasciitilde{}50~km).
 Primary metrics are AUC and TSS \citep{allouche2006}.
 
 Decision rules:
@@ -180,8 +180,8 @@ Figure~\ref{fig:pipeline} shows how these interventions were sequenced from E007
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{>{\raggedright\arraybackslash}p{1.2cm} >{\raggedright\arraybackslash}p{3.6cm} c c c c c c}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccc}
 \hline
 Exp. & Pseudo-absence strategy & XGB AUC & RF AUC & Best AUC & XGB TSS & RF TSS & Status \\
 \hline
@@ -189,18 +189,18 @@ E007 & Random & 0.659 $\pm$ 0.077 & 0.656 $\pm$ 0.090 & 0.659 & 0.318 $\pm$ 0.12
 E008 & Random + river feature & 0.685 $\pm$ 0.074 & 0.695 $\pm$ 0.107 & 0.695 & 0.345 $\pm$ 0.135 & 0.379 $\pm$ 0.200 & REVISIT \\
 E009 & Random + soil features & 0.664 $\pm$ 0.049 & 0.643 $\pm$ 0.054 & 0.664 & 0.337 $\pm$ 0.083 & 0.312 $\pm$ 0.072 & REVISIT \\
 E010 & TGB (major-road proxy) & 0.711 $\pm$ 0.085 & 0.699 $\pm$ 0.081 & 0.711 & 0.384 $\pm$ 0.150 & 0.380 $\pm$ 0.130 & REVISIT \\
-E011 & TGB tuned (major-road proxy) & 0.725 $\pm$ 0.084 & 0.716 $\pm$ 0.081 & 0.725 & 0.447 $\pm$ 0.184 & 0.408 $\pm$ 0.147 & REVISIT \\
-E012 & TGB tuned (expanded-road proxy) & 0.730 $\pm$ 0.085 & 0.724 $\pm$ 0.081 & 0.730 & 0.420 $\pm$ 0.170 & 0.413 $\pm$ 0.152 & REVISIT \\
-E013 & Hybrid bias-corrected background & 0.768 $\pm$ 0.069 & 0.742 $\pm$ 0.070 & 0.768 & 0.507 $\pm$ 0.167 & 0.458 $\pm$ 0.126 & SUCCESS \\
+E011 & TGB tuned (major-road) & 0.725 $\pm$ 0.084 & 0.716 $\pm$ 0.081 & 0.725 & 0.447 $\pm$ 0.184 & 0.408 $\pm$ 0.147 & REVISIT \\
+E012 & TGB tuned (expanded-road) & 0.730 $\pm$ 0.085 & 0.724 $\pm$ 0.081 & 0.730 & 0.420 $\pm$ 0.170 & 0.413 $\pm$ 0.152 & REVISIT \\
+E013 & Hybrid bias-corrected & 0.768 $\pm$ 0.069 & 0.742 $\pm$ 0.070 & 0.768 & 0.507 $\pm$ 0.167 & 0.458 $\pm$ 0.126 & SUCCESS \\
 \hline
-\end{tabular}
+\end{tabular}}
 \caption{Experiment progression (E007--E013).}
 \label{tab:progression}
 \end{table}
 
 Feature-only expansion plateaued (E007--E009), while background redesign delivered monotonic gains (E010--E013).
 E013 exceeded MVR by +0.018 on the single best run.
-Across 20 alternate random seeds, E013 yielded a mean XGBoost AUC of 0.751 (95\% bootstrap CI: 0.745--0.756), confirming that the result is stable but near-threshold.
+Across 20 alternate random seeds, E013 yielded a mean XGBoost AUC of 0.751 (95\% bootstrap CI: 0.745--0.756; range: 0.729--0.774; 11 of 20 seeds $\geq$ 0.75). While the mean is near-threshold, even the worst seed (0.729) exceeds the DKNS null-model ceiling (0.646) by $+$0.083, confirming that environmental signal is robust across all seed realizations.
 Performance trajectories are visualized in Figure~\ref{fig:progression}.
 
 \begin{figure}[h]
@@ -265,7 +265,7 @@ Beyond the single-proxy Spearman $\rho$ test (Challenge 1), we applied three enh
 
 \begin{table}[h]
 \centering
-\small
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{llll}
 \hline
 Test & Verdict & Key Metric & Threshold \\
@@ -276,7 +276,7 @@ T3: Stratified CV & \textbf{PASS} & $\Delta$AUC = $+$0.057, Q4 $>$ Q1 & $|\Delta
 \hline
 Overall & GREY\_ZONE & Honest, defensible & --- \\
 \hline
-\end{tabular}
+\end{tabular}}
 \caption{Enhanced tautology test results for E013. T1 evaluates correlation with three tautology proxies (volcano distance, road distance, nearest-site distance). T2 compares suitability predictions between surveyed ($\leq$5 km) and unsurveyed ($>$20 km) zones. T3 evaluates performance stability across road-distance quartiles as a proxy for survey intensity.}
 \label{tab:tautology}
 \end{table}
@@ -356,7 +356,7 @@ Figure~\ref{fig:bridge} illustrates this interpretation bridge.
 
 \begin{enumerate}
   \item Pseudo-absences remain inferred labels.
-  \item Road accessibility is an imperfect survey-effort proxy.
+  \item Road accessibility is an imperfect survey-effort proxy. Moreover, road distance plays a dual role in our design: it is the highest tautology-correlated proxy ($|\rho| = 0.307$ in Test~1) \textit{and} the basis for TGB pseudo-absence selection. A reviewer may ask whether TGB gains (E010--E013) partly reflect the model learning road-accessibility patterns through pseudo-absence composition rather than genuine environmental signal. Three observations mitigate this concern: (a)~road distance is \textit{not} included as a training feature in the final E013 configuration; (b)~Test~3 shows that model performance \textit{improves} in the least road-accessible quartile (Q4 AUC = 0.788 $>$ Q1 AUC = 0.731), the opposite of what road-driven learning would produce; and (c)~E013 exceeds the DKNS spatial-interpolation ceiling by $+$0.122 AUC using environmental features alone. Nevertheless, this coupling between sampling design and potential confound deserves explicit attention in future work, ideally through comparison with non-road-based survey-effort proxies.
   \item Hard-negative realization can exceed nominal targets.
   \item External transfer beyond East Java is untested.
   \item Block-size sensitivity was tested only at three coarse scales.
