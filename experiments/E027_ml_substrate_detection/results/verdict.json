@@ -1,0 +1,8 @@
+{
+  "verdict": "GO",
+  "explanation": "AUC \u2265 0.75 and LOLO \u2265 0.65 for 4+ languages. ML substrate detection is viable.",
+  "model_b_best_classifier": "XGBoost",
+  "cv_auc": 0.7599,
+  "lolo_auc_mean": 0.7151,
+  "lolo_langs_above_065": 5
+}

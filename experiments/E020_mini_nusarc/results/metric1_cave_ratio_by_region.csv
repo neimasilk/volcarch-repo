@@ -1,0 +1,9 @@
+region,n_total,n_cave,n_open,cave_ratio,volcanic_class,n_volcanoes
+Java,8,4,4,0.5,volcanic,45
+Kalimantan,6,6,0,1.0,non_volcanic,0
+Madagascar,1,0,1,0.0,non_volcanic,0
+Maluku,2,2,0,1.0,ambiguous,16
+Nusa_Tenggara,7,6,1,0.8571428571428571,volcanic,15
+Philippines,3,3,0,1.0,volcanic,24
+Sulawesi,14,13,1,0.9285714285714286,volcanic,11
+Sumatra,2,2,0,1.0,volcanic,35

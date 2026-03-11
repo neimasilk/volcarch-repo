@@ -1,0 +1,9 @@
+region,A_age_bp,A_age_ci_lo,A_age_ci_hi,site_name,method,source,provenance_class
+Java,60000,55000,65000,Song_Terus,"ESR/U-series on H. sapiens tooth ST04","Semah et al. 2023 L'Anthropologie; terminus ante quem <60 ka for H. sapiens arrival",A_published
+Sumatra,68000,63000,73000,Lida_Ajer,"Coupled U-series/ESR on mammalian teeth + luminescence","Westaway et al. 2017 Nature 548:322-325; two H. sapiens teeth in rainforest context",A_published
+Sulawesi,67800,64000,71600,Liang_Metanduno,"LA-U-series on calcite overlying hand stencil","Oktaviana et al. 2026 Nature 650:652-656; minimum age 67.8 ka",A_published
+Nusa_Tenggara,44600,42000,47000,Laili_cave,"Radiocarbon calibrated","Hawkins et al. 2017 Quat Sci Rev 171:58-72; oldest H. sapiens occupation Timor-Leste",A_published
+Philippines,47000,36000,58000,Tabon_Cave,"Direct U-series on H. sapiens tibia","Detroit et al. 2004 C.R. Palevol 3:705-712; note: Callao 67K is H. luzonensis not sapiens",A_published
+Maluku,36000,35000,37000,Golo_Cave,"Radiocarbon calibrated","Bellwood 1998 Spice Islands in Prehistory ANU Press; lithics + modified shell",A_published
+Kalimantan,40000,37000,45000,Niah_Cave,"AMS radiocarbon ABOX + U-series","Barker et al. 2007 J Hum Evol 52:243; also Lubang Jeriji Saleh art >=40K Aubert 2018 Nature",A_published
+Madagascar,10500,9500,11500,Christmas_River,"Radiocarbon on cut-marked megafauna bone","Hansford et al. 2018 Science Advances 4:eaat6925; earliest human evidence Madagascar",A_published

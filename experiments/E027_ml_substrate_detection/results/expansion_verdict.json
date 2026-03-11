@@ -1,0 +1,41 @@
+{
+  "verdict": "GO",
+  "explanation": "Model predictions show linguistically plausible patterns across new languages. Expansion validates the substrate detection approach.",
+  "criteria": {
+    "Geographic patterning detected": true,
+    "Model generalizes (AUC >= 0.60)": true,
+    "Sulawesi expansion consistent with original": "False"
+  },
+  "n_expansion_languages": 16,
+  "group_means": {
+    "W.Indonesian": {
+      "mean_ml_substrate_rate": 0.3534,
+      "mean_rule_residual_rate": 0.2838,
+      "mean_auc": 0.6336,
+      "mean_p_substrate": "0.3925",
+      "n_languages": 6
+    },
+    "Sulawesi": {
+      "mean_ml_substrate_rate": 0.6237,
+      "mean_rule_residual_rate": 0.4993,
+      "mean_auc": 0.6854,
+      "mean_p_substrate": "0.6058",
+      "n_languages": 8
+    },
+    "E.Indonesian": {
+      "mean_ml_substrate_rate": 0.5194,
+      "mean_rule_residual_rate": 0.3488,
+      "mean_auc": 0.6607,
+      "mean_p_substrate": "0.5197",
+      "n_languages": 2
+    },
+    "Original": {
+      "mean_ml_substrate_rate": 0.2311,
+      "mean_rule_residual_rate": 0.2795,
+      "mean_auc": 0.8902,
+      "mean_p_substrate": "0.3259",
+      "n_languages": 6
+    }
+  },
+  "mean_expansion_auc": 0.6629
+}

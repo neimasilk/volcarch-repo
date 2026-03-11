@@ -1,0 +1,66 @@
+ScholarOne Upload Guide — Antiquity Project Gallery
+====================================================
+
+DOCUMENTS
+---------
+Title Page:  titlepage_antiquity_v0.1.docx
+Main Document (anonymised):  main_antiquity_v0.1.docx
+
+
+FIGURE 1
+--------
+File: fig1_dwarapala_1860.tif
+Link text: Figure 1
+Legend:
+Dwarapala guardian statue at Singosari, East Java. Left: photographed ~1860 when half-buried (~185 cm) by volcanic sediment (source: Leiden University Library). Right: present-day view after excavation, with person for scale; total statue height ~370 cm. The burial of half the statue over ~510 years yields a sedimentation rate of 3.6 mm/yr.
+
+
+FIGURE 2
+--------
+File: fig2_dwarapala_timeline.tif
+Link text: Figure 2
+Legend:
+Empirical calibration of volcanic sedimentation rate from the Dwarapala Singosari. Timeline from construction (~1268 CE) through discovery (1803 CE, ~185 cm buried) to present (~265 cm buried). Rate = 185 cm / 510 yr = 3.6 mm/yr, consistent with cross-system mean of 4.4 ± 1.2 mm/yr from multiple calibration points.
+
+
+FIGURE 3
+--------
+File: fig3_deep_time_map.tif
+Link text: Figure 3
+Legend:
+Deep-time archaeological sites in East Java, plotted on zone classification overlay with volcano positions. All four sites (Song Terus, Wajak, Trinil, Sangiran) are in karst caves or river terraces, 90–170 km from volcanic centres.
+
+
+FIGURE 4
+--------
+File: fig4_zone_distance.tif
+Link text: Figure 4
+Legend:
+Distance to nearest volcano by zone classification (East Java). Zone B (high suitability, zero sites) clusters near volcanic centres; Zone A (sites present) is significantly farther (Cohen's d = 1.005). Box: IQR; whiskers: 1.5×IQR; line: median.
+
+
+FIGURE 5
+--------
+File: fig5_site_distance.tif
+Link text: Figure 5
+Legend:
+Distribution of distances to nearest volcano for 378 known East Java sites (mostly historical) versus 65,432 grid cell baseline. Known sites cluster at 10–40 km, confirming habitation of volcanic lowlands. Red dashed lines mark the four deep-time sites at 90–170 km—their absence from the volcanic zone is the taphonomic signal.
+
+
+FIGURE 6
+--------
+File: fig6_nusarc_preliminary.tif
+Link text: Figure 6
+Legend:
+Cross-regional comparison (Mini-NusaRC, 48 sites, 8 regions). Left: cave/open-air ratio by region—cave dominance is universal, not volcanic-specific. Centre: temporal distribution by volcanic class. Right: cave ratio versus regional volcano count.
+
+
+METADATA
+--------
+Manuscript Type: Project Gallery
+Title: Spatial segregation of deep-time archaeological sites from volcanic plains in East Java: evidence for taphonomic burial
+Abstract: All four known pre-Neolithic Java sites occupy karst caves or river terraces far from volcanic centres, despite high-suitability volcanic plains nearby. Spatial analysis of 65,432 grid cells shows a monotonic gradient: deeper tephra burial correlates with fewer surface sites (Cohen's d = 1.005). This taphonomic bias may mask deep-time occupation across volcanically active regions.
+Keywords: volcanic taphonomy; archaeological site distribution; East Java; settlement suitability model; tephra burial; Southeast Asia
+Author: Mukhlis Amien
+Affiliation: Lab Data Sains, Universitas Bhinneka Nusantara, Indonesia
+Email: amien@ubhinus.ac.id

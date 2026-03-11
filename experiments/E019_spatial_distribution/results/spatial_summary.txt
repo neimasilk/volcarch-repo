@@ -1,0 +1,38 @@
+E019: Spatial Distribution Test — Summary Report
+=======================================================
+Date: 2026-03-05
+
+ANALYSIS 2: Zone Spatial Clustering
+------------------------------------
+Question: Are Zone B cells (high suitability, buried, no sites) closer
+to volcanoes than Zone A cells (where sites are found)?
+
+Zone A: mean=59.5 km, median=42.5 km (n=15,217)
+Zone B: mean=16.0 km, median=16.1 km (n=1,093)
+Zone C: mean=2.5 km (n=48)
+Zone E: mean=76.4 km, median=71.0 km (n=49,074)
+
+KEY TEST: Zone A vs Zone B
+  Mann-Whitney U = 14254494
+  p-value = 0.00e+00
+  Z = 39.50
+  r (effect size) = 0.309
+  Cohen's d = 1.005
+
+VERDICT: SUPPORTS H-TOM: Zone B is significantly CLOSER to volcanoes than Zone A.
+
+Supplementary comparisons:
+  Zone A vs Zone E: p=0.00e+00, Cohen's d=-0.353
+  Zone B vs Zone E: p=0.00e+00, Cohen's d=-1.252
+
+Interpretation:
+- Zone B cells cluster closer to the volcanic axis, consistent with H-TOM.
+- Burial depth increases with volcanic proximity (Pyle 1989 model),
+  so zones closer to volcanoes have deeper burial and fewer surface sites.
+
+Zone Distance Summary:
+zone  n_cells  mean_dist_km  median_dist_km  std_dist_km  min_dist_km  max_dist_km  p25_dist_km  p75_dist_km
+   A    15217     59.481266       42.465627    44.787287     0.152922   202.204414    24.201538    93.584968
+   B     1093     15.984485       16.082294     6.632155     0.318618    29.428319    11.156225    21.165168
+   C       48      2.477162        2.594189     0.949695     0.242228     4.032684     1.864108     3.157753
+   E    49074     76.376373       70.968077    48.778970     0.339991   206.929344    32.688785   114.460873

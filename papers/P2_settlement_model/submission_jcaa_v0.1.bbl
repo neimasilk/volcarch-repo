@@ -1,0 +1,330 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Allouche et~al.(2006)Allouche, Tsoar, and Kadmon]{allouche2006}
+Omri Allouche, Asaf Tsoar, and Ronen Kadmon.
+\newblock Assessing the accuracy of species distribution models: prevalence,
+  kappa and the true skill statistic ({TSS}).
+\newblock \emph{Journal of Applied Ecology}, 43\penalty0 (6):\penalty0
+  1223--1232, 2006.
+\newblock \doi{10.1111/j.1365-2664.2006.01214.x}.
+
+\bibitem[Ara{\'u}jo and Guisan(2006)]{araujo2006}
+Miguel~B. Ara{\'u}jo and Antoine Guisan.
+\newblock Five (or so) challenges for species distribution modelling.
+\newblock \emph{Journal of Biogeography}, 33\penalty0 (10):\penalty0
+  1677--1688, 2006.
+\newblock \doi{10.1111/j.1365-2699.2006.01584.x}.
+
+\bibitem[Ara{\'u}jo and New(2005)]{araujo2005}
+Miguel~B. Ara{\'u}jo and Mark New.
+\newblock Ensemble forecasting of species distributions.
+\newblock \emph{Trends in Ecology \& Evolution}, 20\penalty0 (11):\penalty0
+  609--613, 2005.
+\newblock \doi{10.1016/j.tree.2005.09.010}.
+
+\bibitem[Barbet-Massin et~al.(2012)Barbet-Massin, Jiguet, Albert, and
+  Thuiller]{barbet2012}
+Morgane Barbet-Massin, Fr{\'e}d{\'e}ric Jiguet, C{\'e}cile~H. Albert, and
+  Wilfried Thuiller.
+\newblock Selecting pseudo-absences for species distribution models: how, where
+  and how many?
+\newblock \emph{Methods in Ecology and Evolution}, 3\penalty0 (2):\penalty0
+  327--338, 2012.
+\newblock \doi{10.1111/j.2041-210X.2011.00172.x}.
+
+\bibitem[Bourdier et~al.(1997)Bourdier, Pratomo, Thouret, Boudon, and
+  Vincent]{bourdier1997}
+Jean-Louis Bourdier, Indyo Pratomo, Jean-Claude Thouret, Georges Boudon, and
+  P.~M. Vincent.
+\newblock Observations, stratigraphy and eruptive processes of the 1990
+  eruption of {K}elut volcano, {I}ndonesia.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 79\penalty0
+  (3--4):\penalty0 181--203, 1997.
+\newblock \doi{10.1016/S0377-0273(97)00031-0}.
+
+\bibitem[Breiman(2001)]{breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock \emph{Machine Learning}, 45\penalty0 (1):\penalty0 5--32, 2001.
+\newblock \doi{10.1023/A:1010933404324}.
+
+\bibitem[Castiello and Tonini(2021)]{castiello2021}
+Marco Castiello and Marj Tonini.
+\newblock Machine learning applications in archaeological predictive modelling.
+\newblock \emph{Journal of Computer Applications in Archaeology}, 4\penalty0
+  (1):\penalty0 110--125, 2021.
+\newblock \doi{10.5334/jcaa.71}.
+
+\bibitem[Chen and Guestrin(2016)]{chen2016}
+Tianqi Chen and Carlos Guestrin.
+\newblock {XGBoost}: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 785--794. ACM, 2016.
+\newblock \doi{10.1145/2939672.2939785}.
+
+\bibitem[Comer et~al.(2023)Comer, Harrower, McCorriston, O'Meara, and
+  Sadr]{comer2023}
+Douglas~C. Comer, Michael~J. Harrower, Joy McCorriston, Benjamin O'Meara, and
+  Karim Sadr.
+\newblock Sampling methods for archaeological predictive modeling.
+\newblock \emph{Journal of Archaeological Science: Reports}, 47:\penalty0
+  103824, 2023.
+\newblock \doi{10.1016/j.jasrep.2022.103824}.
+
+\bibitem[De~Groot(2009)]{degroot2009}
+D.~J. De~Groot.
+\newblock Volcanic hazards in the archaeological record of {M}ount {M}erapi,
+  {C}entral {J}ava, {I}ndonesia.
+\newblock \emph{Archaeology in Oceania}, 44\penalty0 (3):\penalty0 131--145,
+  2009.
+\newblock \doi{10.1002/j.1834-4453.2009.tb00045.x}.
+
+\bibitem[Elith et~al.(2006)Elith, Graham, Anderson, Dud{\'i}k, Ferrier, Guisan,
+  Hijmans, Huettmann, Leathwick, Lehmann, Li, Lohmann, Loiselle, Manion,
+  Moritz, Nakamura, Nakazawa, Overton, Peterson, Phillips, Richardson,
+  Scachetti-Pereira, Schapire, Sober{\'o}n, Williams, Wisz, and
+  Zimmermann]{elith2006}
+Jane Elith, Catherine~H. Graham, Robert~P. Anderson, Miroslav Dud{\'i}k, Simon
+  Ferrier, Antoine Guisan, Robert~J. Hijmans, Falk Huettmann, John~R.
+  Leathwick, Anthony Lehmann, Jin Li, Lucia~G. Lohmann, Bette~A. Loiselle,
+  Glenn Manion, Craig Moritz, Miguel Nakamura, Yoshinori Nakazawa, Jacob~McC.
+  Overton, A.~Townsend Peterson, Steven~J. Phillips, Karen Richardson, Ricardo
+  Scachetti-Pereira, Robert~E. Schapire, Jorge Sober{\'o}n, Stephen Williams,
+  Mary~S. Wisz, and Niklaus~E. Zimmermann.
+\newblock Novel methods improve prediction of species' distributions from
+  occurrence data.
+\newblock \emph{Ecography}, 29\penalty0 (2):\penalty0 129--151, 2006.
+\newblock \doi{10.1111/j.2006.0906-7590.04596.x}.
+
+\bibitem[Folch(2012)]{folch2012}
+Arnau Folch.
+\newblock A review of tephra transport and dispersal models: evolution, current
+  status, and future perspectives.
+\newblock \emph{Journal of Volcanology and Geothermal Research},
+  235--236:\penalty0 96--115, 2012.
+\newblock \doi{10.1016/j.jvolgeores.2012.05.020}.
+
+\bibitem[French et~al.(2003)French, Whalen, Batt, Lovett, and
+  Oakey]{french2003}
+Charles French, Nick Whalen, Cathy Batt, Andrew Lovett, and Neil Oakey.
+\newblock Monitoring archaeological site burial in {E}ngland: {T}he assessment
+  of topsoil thickness at selected {R}oman villa sites.
+\newblock \emph{Antiquity}, 77\penalty0 (295):\penalty0 116--130, 2003.
+\newblock \doi{10.1017/S0003598X0006137X}.
+
+\bibitem[Georganos et~al.(2021)Georganos, Grippa, Niang~Gadiaga, Linard,
+  Lennert, Vanhuysse, Br{\"u}cker, and Wolff]{georganos2021}
+Stefanos Georganos, Tais Grippa, Assane Niang~Gadiaga, Catherine Linard, Moritz
+  Lennert, Sabine Vanhuysse, Nicholus Br{\"u}cker, and El{\'e}onore Wolff.
+\newblock Geographical random forests: a spatial extension of the random forest
+  algorithm to address spatial heterogeneity in remote sensing and population
+  modelling.
+\newblock \emph{Geocarto International}, 36\penalty0 (2):\penalty0 121--136,
+  2021.
+\newblock \doi{10.1080/10106049.2019.1595177}.
+
+\bibitem[Grattan and Torrence(2007)]{grattan2007}
+John Grattan and Robin Torrence.
+\newblock Volcanism, archaeology and the cargoes of commerce.
+\newblock \emph{Quaternary International}, 162--163:\penalty0 109--111, 2007.
+\newblock \doi{10.1016/j.quaint.2006.10.017}.
+
+\bibitem[Jim{\'e}nez-Valverde et~al.(2020)Jim{\'e}nez-Valverde, Barve,
+  Lira-Noriega, Maher, Nakazawa, Pape{\c{s}}, Sober{\'o}n, and
+  Peterson]{jimenez2020}
+Alberto Jim{\'e}nez-Valverde, Narayani Barve, Andr{\'e}s Lira-Noriega, Sean~P.
+  Maher, Yoshinori Nakazawa, Monica Pape{\c{s}}, Jorge Sober{\'o}n, and
+  A.~Townsend Peterson.
+\newblock Defining the fundamental niche: {I}mplications for species
+  distribution modelling.
+\newblock \emph{Journal of Biogeography}, 47\penalty0 (12):\penalty0
+  2529--2541, 2020.
+\newblock \doi{10.1111/jbi.13968}.
+
+\bibitem[Kamermans et~al.(2019)Kamermans, de~Neef, Porck, and
+  Waagen]{kamermans2019}
+Hans Kamermans, Wieke de~Neef, Jan~Francke Porck, and Jitte Waagen.
+\newblock Archaeological predictive modelling in the {N}etherlands: a
+  quantitative approach to heritage management.
+\newblock \emph{Archaeological Prospection}, 26\penalty0 (4):\penalty0
+  295--306, 2019.
+\newblock \doi{10.1002/arp.1761}.
+
+\bibitem[Kohavi(1995)]{kohavi1995}
+Ron Kohavi.
+\newblock A study of cross-validation and bootstrap for accuracy estimation and
+  model selection.
+\newblock In \emph{Proceedings of the 14th International Joint Conference on
+  Artificial Intelligence}, volume~2, pages 1137--1143, Montreal, Quebec,
+  Canada, 1995. Morgan Kaufmann Publishers Inc.
+
+\bibitem[Kvamme(2006)]{kvamme2006}
+Kenneth~L. Kvamme.
+\newblock There and back again: {R}evisiting archaeological locational
+  modeling.
+\newblock In Mark~W. Mehrer and Konnie~L. Wescott, editors, \emph{GIS and
+  Archaeological Site Location Modeling}, pages 3--38. Taylor \& Francis, Boca
+  Raton, 2006.
+
+\bibitem[Lobo et~al.(2010)Lobo, Jim{\'e}nez-Valverde, and Hortal]{lobo2010}
+Jorge~M. Lobo, Alberto Jim{\'e}nez-Valverde, and Joaqu{\'i}n Hortal.
+\newblock The uncertain nature of absences and their importance in species
+  distribution modelling.
+\newblock \emph{Ecography}, 33\penalty0 (1):\penalty0 103--114, 2010.
+\newblock \doi{10.1111/j.1600-0587.2009.06039.x}.
+
+\bibitem[Lundberg and Lee(2017)]{lundberg2017}
+Scott~M. Lundberg and Su-In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock In \emph{Advances in Neural Information Processing Systems 30 (NIPS
+  2017)}, pages 4765--4774. Curran Associates, Inc., 2017.
+
+\bibitem[Mastin et~al.(2014)Mastin, Van~Eaton, and Lowenstern]{mastin2016}
+Larry~G. Mastin, Alexa~R. Van~Eaton, and Jacob~B. Lowenstern.
+\newblock Modeling ash fall distribution from a {Y}ellowstone supereruption.
+\newblock \emph{Geochemistry, Geophysics, Geosystems}, 15\penalty0
+  (8):\penalty0 3459--3475, 2014.
+\newblock \doi{10.1002/2014GC005469}.
+
+\bibitem[Mastin et~al.(2022)Mastin, Van~Eaton, Schneider, Wallace, Swanson,
+  Bacon, Nathenson, Waittt, Gardner, Till, et~al.]{mastin2022}
+Larry~G. Mastin, Alexa~R. Van~Eaton, David~J. Schneider, Kristi~L. Wallace,
+  Donald~A. Swanson, Charles~R. Bacon, Manuel Nathenson, Richard~B. Waittt,
+  Cynthia~A. Gardner, Alison~B. Till, et~al.
+\newblock Lessons for forecasting eruptions at {Y}ellowstone and other large
+  volcanoes from the 1980 eruption of {M}ount {S}t. {H}elens.
+\newblock \emph{Bulletin of Volcanology}, 84\penalty0 (7):\penalty0 78, 2022.
+\newblock \doi{10.1007/s00445-022-01613-0}.
+
+\bibitem[Newhall and Self(1982)]{newhall1982}
+Christopher~G. Newhall and Stephen Self.
+\newblock The {V}olcanic {E}xplosivity {I}ndex ({VEI}): An estimate of
+  explosive magnitude for historical volcanism.
+\newblock \emph{Journal of Geophysical Research: Oceans}, 87\penalty0
+  (C2):\penalty0 1231--1238, 1982.
+\newblock \doi{10.1029/JC087iC02p01231}.
+
+\bibitem[Nuninger et~al.(2016)Nuninger, Verhagen, Bertoncello, and
+  Castrorao~Barba]{nuninger2016}
+Laure Nuninger, Philip Verhagen, Fran{\c{c}}ois Bertoncello, and Angelo
+  Castrorao~Barba.
+\newblock Estimating ``land use heritage'' to model changes in archaeological
+  settlement patterns.
+\newblock In Juan~A. Barcelo and Igor Bogdanovic, editors, \emph{Mathematics
+  and Archaeology}, pages 223--238. CRC Press, Boca Raton, 2016.
+
+\bibitem[Phillips et~al.(2006)Phillips, Anderson, and Schapire]{phillips2006}
+Steven~J. Phillips, Robert~P. Anderson, and Robert~E. Schapire.
+\newblock Maximum entropy modeling of species geographic distributions.
+\newblock \emph{Ecological Modelling}, 190\penalty0 (3--4):\penalty0 231--259,
+  2006.
+\newblock \doi{10.1016/j.ecolmodel.2005.03.026}.
+
+\bibitem[Phillips et~al.(2009)Phillips, Dud{\'i}k, Elith, Graham, Lehmann,
+  Leathwick, and Ferrier]{phillips2009}
+Steven~J. Phillips, Miroslav Dud{\'i}k, Jane Elith, Catherine~H. Graham,
+  Anthony Lehmann, John Leathwick, and Simon Ferrier.
+\newblock Sample selection bias and presence-only distribution models:
+  implications for background and pseudo-absence data.
+\newblock \emph{Ecological Applications}, 19\penalty0 (1):\penalty0 181--197,
+  2009.
+\newblock \doi{10.1890/07-2153.1}.
+
+\bibitem[Pyle(1989)]{pyle1989}
+David~M. Pyle.
+\newblock The thickness, volume and grainsize of tephra fall deposits.
+\newblock \emph{Bulletin of Volcanology}, 51\penalty0 (1):\penalty0 1--15,
+  1989.
+\newblock \doi{10.1007/BF01086757}.
+
+\bibitem[Roberts et~al.(2017)Roberts, Bahn, Ciuti, Boyce, Elith,
+  Guillera-Arroita, Hauenstein, Lahoz-Monfort, Schr{\"o}der, Thuiller, Warton,
+  Wintle, Hartig, and Dormann]{roberts2017}
+David~R. Roberts, Volker Bahn, Simone Ciuti, Mark~S. Boyce, Jane Elith,
+  Gurutzeta Guillera-Arroita, Severin Hauenstein, Jos{\'e}~J. Lahoz-Monfort,
+  Boris Schr{\"o}der, Wilfried Thuiller, David~I. Warton, Brendan~A. Wintle,
+  Florian Hartig, and Carsten~F. Dormann.
+\newblock Cross-validation strategies for data with temporal, spatial,
+  hierarchical, or phylogenetic structure.
+\newblock \emph{Ecography}, 40\penalty0 (8):\penalty0 913--929, 2017.
+\newblock \doi{10.1111/ecog.02881}.
+
+\bibitem[Senay et~al.(2013)Senay, Worner, and Ikeda]{senay2013}
+Sabrina~D. Senay, Susan~P. Worner, and Takayoshi Ikeda.
+\newblock Novel three-step pseudo-absence selection technique for improved
+  species distribution modelling.
+\newblock \emph{PLOS ONE}, 8\penalty0 (8):\penalty0 e71218, 2013.
+\newblock \doi{10.1371/journal.pone.0071218}.
+
+\bibitem[Siebert et~al.(2010)Siebert, Simkin, and Kimberly]{siebert2010}
+Lee Siebert, Tom Simkin, and Paul Kimberly.
+\newblock \emph{Volcanoes of the World}.
+\newblock Smithsonian Institution / University of California Press, Berkeley,
+  3rd edition, 2010.
+
+\bibitem[Torrence et~al.(2002)Torrence, Doelman, Cotter, Popelka-Filcoff,
+  Pavlides, Webb, and Richards]{torrence2002}
+Robin Torrence, Trudy Doelman, Stephen Cotter, Rachel Popelka-Filcoff, Cosmas
+  Pavlides, John Webb, and Ron Richards.
+\newblock Pleistocene colonisation of the {B}ismarck {A}rchipelago: {N}ew
+  evidence from {W}est {N}ew {B}ritain.
+\newblock \emph{Archaeology in Oceania}, 37\penalty0 (3):\penalty0 145--151,
+  2002.
+\newblock \doi{10.1002/j.1834-4453.2002.tb00517.x}.
+
+\bibitem[Valavi et~al.(2019)Valavi, Elith, Lahoz-Monfort, and
+  Guillera-Arroita]{valavi2019}
+Roozbeh Valavi, Jane Elith, Jos{\'e}~J. Lahoz-Monfort, and Gurutzeta
+  Guillera-Arroita.
+\newblock {blockCV}: An {R} package for generating spatially or environmentally
+  separated folds for k-fold cross-validation of species distribution models.
+\newblock \emph{Methods in Ecology and Evolution}, 10\penalty0 (2):\penalty0
+  225--232, 2019.
+\newblock \doi{10.1111/2041-210X.13107}.
+
+\bibitem[Verhagen and Whitley(2012)]{verhagen2012}
+Philip Verhagen and Thomas~G. Whitley.
+\newblock Integrating archaeological theory and predictive modeling: a live
+  report from the scene.
+\newblock \emph{Journal of Archaeological Method and Theory}, 19\penalty0
+  (1):\penalty0 49--100, 2012.
+\newblock \doi{10.1007/s10816-011-9102-7}.
+
+\bibitem[Verhagen et~al.(2020)Verhagen, Nuninger, Bertoncello, and
+  Opitz]{verhagen2020}
+Philip Verhagen, Laure Nuninger, Fran{\c{c}}ois Bertoncello, and Rachel Opitz.
+\newblock Whither predictive modelling? {A} panel discussion.
+\newblock \emph{Archaeological and Anthropological Sciences}, 12\penalty0
+  (1):\penalty0 14, 2020.
+\newblock \doi{10.1007/s12520-019-00937-1}.
+
+\bibitem[Wandsnider(1992)]{wandsnider1992}
+LuAnn Wandsnider.
+\newblock The spatial dimension of time-averaging in archaeological
+  assemblages.
+\newblock \emph{Bulletin of the Society for American Archaeology}, 10\penalty0
+  (4):\penalty0 17--19, 1992.
+
+\bibitem[Wang et~al.(2023)Wang, Li, Liu, Liu, Liu, Su, and Guo]{wang2023}
+Cheng Wang, Ying Li, Yijian Liu, Huan Liu, Jian Liu, Yijian Su, and Huadong
+  Guo.
+\newblock A machine-learning approach to geospatial predictive modelling in
+  archaeology.
+\newblock \emph{ISPRS International Journal of Geo-Information}, 12\penalty0
+  (6):\penalty0 238, 2023.
+\newblock \doi{10.3390/ijgi12060238}.
+
+\bibitem[Wisz and Guisan(2009)]{wisz2009}
+Mary~S. Wisz and Antoine Guisan.
+\newblock Do pseudo-absence selection strategies influence species distribution
+  models and their predictions? {A}n information-theoretic approach based on
+  simulated data.
+\newblock \emph{BMC Ecology}, 9:\penalty0 8, 2009.
+\newblock \doi{10.1186/1472-6785-9-8}.
+
+\end{thebibliography}

@@ -1,0 +1,66 @@
+{
+  "Q16_Resource_management_": {
+    "rho": 0.0259,
+    "p": 0.7871,
+    "n": 111,
+    "verdict": "NOT SIGNIFICANT"
+  },
+  "Q58_Group_hunting": {
+    "rho": -0.2754,
+    "p": 0.0017,
+    "n": 128,
+    "verdict": "SUPPORTS VCS"
+  },
+  "Q59_Agriculture_/_hortic": {
+    "rho": -0.0519,
+    "p": 0.5531,
+    "n": 133,
+    "verdict": "NOT SIGNIFICANT"
+  },
+  "Q61_Group_fishing": {
+    "rho": 0.238,
+    "p": 0.0066,
+    "n": 129,
+    "verdict": "OPPOSITE VCS"
+  },
+  "Q50_Largest_political_co": {
+    "rho": 0.0491,
+    "p": 0.5817,
+    "n": 128,
+    "verdict": "NOT SIGNIFICANT"
+  },
+  "Q44_Population_estimate": {
+    "rho": -0.2261,
+    "p": 0.01,
+    "n": 129,
+    "verdict": "SUPPORTS VCS"
+  },
+  "Q37_Political-religious_": {
+    "rho": 0.0452,
+    "p": 0.6054,
+    "n": 133,
+    "verdict": "NOT SIGNIFICANT"
+  },
+  "Q84_Religious_authority": {
+    "rho": 0.0713,
+    "p": 0.437,
+    "n": 121,
+    "verdict": "NOT SIGNIFICANT"
+  },
+  "Q86_Political_authority": {
+    "rho": 0.1132,
+    "p": 0.2071,
+    "n": 126,
+    "verdict": "NOT SIGNIFICANT"
+  },
+  "group_subsistence": {
+    "rho": 0.0114,
+    "p": 0.8968,
+    "n": 132
+  },
+  "cooperation_index": {
+    "rho": 0.041,
+    "p": 0.637,
+    "n": 135
+  }
+}

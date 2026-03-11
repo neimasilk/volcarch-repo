@@ -1,0 +1,439 @@
+rank,language,concept,form,p_substrate,p_austronesian,e022_tier,form_length,vowel_ratio,ends_in_vowel,has_glottal,has_nasal_cluster,has_prefix_like,semantic_domain
+1,Tolaki,to see,ki'ii,0.9927,0.0073,0,5,0.6,1,1,0,0,ACTION
+2,Tolaki,to hold,po'indi,0.9915,0.0085,0,7,0.429,1,1,1,1,ACTION
+3,Tolaki,"to cut, hack",pole'i,0.9897,0.0103,1,6,0.5,1,1,0,1,ACTION
+4,Tolaki,to buy,po'oli,0.9897,0.0103,0,6,0.5,1,1,0,1,ACTION
+5,Tolaki,to cry,umi'ia,0.9878,0.0122,3,6,0.667,1,1,0,0,ACTION
+6,Tolaki,salt,peanihi,0.9875,0.0125,3,7,0.571,1,0,0,0,NATURE
+7,Makassar,thatch/roof,pattoŋkoʔ,0.9871,0.0129,3,9,0.333,0,1,1,1,OTHER
+8,Tolaki,that,nggitu'o,0.9862,0.0138,3,8,0.375,1,1,1,0,GRAMMAR
+9,Tolaki,One Hundred,aso'etu,0.9856,0.0144,2,7,0.571,1,1,0,0,NUMBER
+10,Tolaki,"to know, be knowledgeable",to'ori,0.985,0.015,0,6,0.5,1,1,0,0,ACTION
+11,Tolaki,to vomit,mo'ua,0.9836,0.0164,3,5,0.6,1,1,0,1,ACTION
+12,Tolaki,to hear,podea,0.9805,0.0195,0,5,0.6,1,0,0,1,ACTION
+13,Tolaki,thou,inggo'o,0.9794,0.0206,0,7,0.429,1,1,1,0,GRAMMAR
+14,Tolaki,to say,te'eni,0.9782,0.0218,0,6,0.5,1,1,0,0,ACTION
+15,Tolaki,to spit,mo'eni,0.9772,0.0228,3,6,0.5,1,1,0,1,ACTION
+16,Tolaki,to dream,mo'ipi,0.9772,0.0228,0,6,0.5,1,1,0,1,ACTION
+17,Tolaki,to stand,menggokora,0.9768,0.0232,0,10,0.4,1,0,1,1,ACTION
+18,Tolaki,to dig,metanggali,0.9768,0.0232,0,10,0.4,1,0,1,1,ACTION
+19,Tolaki,to lie down,mo'iso'iso,0.9762,0.0238,2,10,0.5,1,1,0,1,ACTION
+20,Tolaki,far,mondae,0.9759,0.0241,0,6,0.5,1,0,1,1,GRAMMAR
+21,Tolaki,big,wo'ose,0.9725,0.0275,1,6,0.5,1,1,0,0,QUALITY
+22,Tolaki,new,wo'ohu,0.9725,0.0275,0,6,0.5,1,1,0,0,QUALITY
+23,Tolaki,he/she,i'ia,0.9657,0.0343,0,4,0.75,1,1,0,0,GRAMMAR
+24,Tolaki,he/she,ie'i,0.9657,0.0343,0,4,0.75,1,1,0,0,GRAMMAR
+25,Tolaki,to drink,mo'inu,0.9651,0.0349,0,6,0.5,1,1,0,1,ACTION
+26,Tolaki,to sleep,mo'iso,0.9651,0.0349,3,6,0.5,1,1,0,1,ACTION
+27,Tolaki,to fall,mo'isa,0.9651,0.0349,2,6,0.5,1,1,0,1,ACTION
+28,Tolaki,"correct, true",meara'i,0.9635,0.0365,0,7,0.571,1,1,0,1,QUALITY
+29,Tolaki,how?,mombake hawo,0.9628,0.0372,2,12,0.417,1,0,1,1,GRAMMAR
+30,Tolaki,egg,ti'olu,0.9613,0.0387,0,6,0.5,1,1,0,0,BODY
+31,Tolaki,near,merambi,0.961,0.039,3,7,0.429,1,0,1,1,GRAMMAR
+32,Tolaki,black,me'eto,0.96,0.04,0,6,0.5,1,1,0,1,QUALITY
+33,Tolaki,green,mo'osu,0.96,0.04,3,6,0.5,1,1,0,1,QUALITY
+34,Tolaki,old,motu'o,0.96,0.04,0,6,0.5,1,1,0,1,QUALITY
+35,Tolaki,long,mendaa,0.959,0.041,0,6,0.5,1,0,1,1,QUALITY
+36,Tolaki,good,meambo,0.959,0.041,3,6,0.5,1,0,1,1,QUALITY
+37,Tolaki,to fly,lumaa,0.9588,0.0412,3,5,0.6,1,0,0,0,ACTION
+38,Tolaki,to flow,lumaa,0.9588,0.0412,3,5,0.6,1,0,0,0,ACTION
+39,Tolaki,to steal,ponini,0.9556,0.0444,0,6,0.5,1,0,0,1,ACTION
+40,Tolaki,root,akara,0.9513,0.0487,0,5,0.6,1,0,0,0,NATURE
+41,Tolaki,woods/forest,ahoma,0.9513,0.0487,3,5,0.6,1,0,0,0,NATURE
+42,Tolaki,heavy,mobea,0.9511,0.0489,0,5,0.6,1,0,0,1,QUALITY
+43,Tolaki,red,momea,0.9511,0.0489,0,5,0.6,1,0,0,1,QUALITY
+44,Tolaki,wide,molua,0.9511,0.0489,0,5,0.6,1,0,0,1,QUALITY
+45,Tolaki,"bad, evil",mosaa,0.9511,0.0489,0,5,0.6,1,0,0,1,QUALITY
+46,Tolaki,"to pound, beat",moaliali,0.9486,0.0514,3,8,0.625,1,0,0,1,ACTION
+47,Tolaki,sharp,monggaso,0.9448,0.0552,0,8,0.375,1,0,1,1,QUALITY
+48,Tolaki,to sew,moseu,0.9425,0.0575,3,5,0.6,1,0,0,1,ACTION
+49,Tolaki,to blow,mepua,0.9425,0.0575,0,5,0.6,1,0,0,1,ACTION
+50,Tolaki,this,inono,0.9404,0.0596,0,5,0.6,1,0,0,0,GRAMMAR
+51,Makassar,to think,ammikkiriʔ,0.9397,0.0603,0,10,0.4,0,1,0,0,ACTION
+52,Tolaki,to see,ki'i,0.9392,0.0608,0,4,0.5,1,1,0,0,ACTION
+53,Tolaki,to hide,hi'i,0.9355,0.0645,2,4,0.5,1,1,0,0,ACTION
+54,Tolaki,to count,do'a,0.9355,0.0645,0,4,0.5,1,1,0,0,ACTION
+55,Tolaki,to work,mombaho,0.9338,0.0662,0,7,0.429,1,0,1,1,ACTION
+56,Tolaki,to plant,mombaho,0.9338,0.0662,0,7,0.429,1,0,1,1,ACTION
+57,Makassar,dust,alimbuʔbuʔ,0.9331,0.0669,0,10,0.4,0,1,1,0,NATURE
+58,Tolaki,and,ronga,0.9324,0.0676,3,5,0.4,1,0,1,0,GRAMMAR
+59,Tolaki,One Thousand,aso-sou,0.9305,0.0695,0,7,0.571,1,0,0,0,NUMBER
+60,Tolaki,to turn,putara,0.9296,0.0704,3,6,0.5,1,0,0,0,ACTION
+61,Tolaki,Fifty,limambulo,0.9295,0.0705,2,9,0.444,1,0,1,0,NUMBER
+62,Tolaki,to breathe,penao,0.9273,0.0727,2,5,0.6,1,0,0,0,ACTION
+63,Tolaki,I,inaku,0.9267,0.0733,0,5,0.6,1,0,0,0,GRAMMAR
+64,Bugis,to hide,maʔkasubbu,0.9266,0.0734,2,10,0.4,1,1,0,1,ACTION
+65,Makassar,to fear,mallaʔ,0.9264,0.0736,0,6,0.333,0,1,0,1,ACTION
+66,Makassar,"to tie up, fasten",aññikkoʔ,0.9221,0.0779,1,8,0.375,0,1,0,0,ACTION
+67,Tolaki,to laugh,mototao,0.9181,0.0819,0,7,0.571,1,0,0,1,ACTION
+68,Toraja-Sadan,One Thousand,saŋsaʔbu,0.9155,0.0845,0,8,0.375,1,1,1,0,NUMBER
+69,Tolaki,they,mehira,0.9151,0.0849,1,6,0.5,1,0,0,1,GRAMMAR
+70,Tolaki,they,mehiro,0.9151,0.0849,1,6,0.5,1,0,0,1,GRAMMAR
+71,Tolaki,tail,ekoro,0.9119,0.0881,0,5,0.6,1,0,0,0,BODY
+72,Tolaki,wet,meiwoi,0.9105,0.0895,3,6,0.667,1,0,0,1,QUALITY
+73,Makassar,"dull, blunt",pokkoloʔ,0.9074,0.0926,2,8,0.375,0,1,0,1,QUALITY
+74,Tolaki,where?,humbee,0.9066,0.0934,2,6,0.5,1,0,1,0,GRAMMAR
+75,Tolaki,Twenty,ruambulo,0.9044,0.0956,2,8,0.5,1,0,1,0,NUMBER
+76,Tolaki,flower,wulele,0.8995,0.1005,0,6,0.5,1,0,0,0,NATURE
+77,Tolaki,star,wotiti,0.8995,0.1005,0,6,0.5,1,0,0,0,NATURE
+78,Tolaki,back,bunggu,0.8993,0.1007,3,6,0.333,1,0,1,0,BODY
+79,Tolaki,worm (earthworm),uleule,0.8974,0.1026,3,6,0.667,1,0,0,0,OTHER
+80,Tolaki,you,inggomiu,0.8963,0.1037,0,8,0.5,1,0,1,0,GRAMMAR
+81,Tolaki,"to open, uncover",hungga,0.8942,0.1058,3,6,0.333,1,0,1,0,ACTION
+82,Tolaki,sky,lahuene,0.8927,0.1073,0,7,0.571,1,0,0,0,NATURE
+83,Makassar,green,moncoŋ bulo,0.892,0.108,3,11,0.364,1,0,1,1,QUALITY
+84,Tolaki,all,luwuako,0.8918,0.1082,3,7,0.571,1,0,0,0,GRAMMAR
+85,Makassar,to spit,appiʔru,0.8881,0.1119,3,7,0.429,1,1,0,0,ACTION
+86,Makassar,to chew,añcaʔma,0.8881,0.1119,2,7,0.429,1,1,0,0,ACTION
+87,Makassar,to dream,assoʔna,0.8881,0.1119,0,7,0.429,1,1,0,0,ACTION
+88,Tolaki,to sit,mererehu,0.8881,0.1119,0,8,0.5,1,0,0,1,ACTION
+89,Makassar,to yawn,aʔlaulau,0.8849,0.1151,2,8,0.625,1,1,0,0,ACTION
+90,Makassar,dirty,raʔmasaʔ,0.8832,0.1168,0,8,0.375,0,1,0,0,NATURE
+91,Tolaki,if,mano,0.8757,0.1243,1,4,0.5,1,0,0,1,GRAMMAR
+92,Bugis,thatch/roof,pabbiŋəŋ,0.8745,0.1255,3,8,0.375,0,0,1,1,OTHER
+93,Tolaki,to climb,momone,0.8719,0.1281,0,6,0.5,1,0,0,1,ACTION
+94,Makassar,"to stab, pierce",annoboʔ,0.8681,0.1319,3,7,0.429,0,1,0,0,ACTION
+95,Tolaki,house,laika,0.8675,0.1325,0,5,0.6,1,0,0,0,OTHER
+96,Tolaki,Eight,hoalu,0.8641,0.1359,3,5,0.6,1,0,0,0,NUMBER
+97,Tolaki,"shy, ashamed",kohanu,0.8631,0.1369,0,6,0.5,1,0,0,0,QUALITY
+98,Wolio,to breathe,poinuñca,0.8604,0.1396,2,8,0.5,1,0,0,1,ACTION
+99,Makassar,to breathe,aʔmaiʔ,0.8603,0.1397,2,6,0.5,0,1,0,0,ACTION
+100,Makassar,One Thousand,sisaʔbu,0.8601,0.1399,0,7,0.429,1,1,0,0,NUMBER
+101,Tolaki,above,i wawo,0.8502,0.1498,0,6,0.5,1,0,0,0,GRAMMAR
+102,Tolaki,below,i lolu,0.8502,0.1498,0,6,0.5,1,0,0,0,GRAMMAR
+103,Toraja-Sadan,One Hundred,saratuʔ,0.8463,0.1537,2,7,0.429,0,1,0,0,NUMBER
+104,Tolaki,"to sniff, smell",siusiu,0.8457,0.1543,0,6,0.667,1,0,0,0,ACTION
+105,Toraja-Sadan,to blow,pamurruʔ,0.8421,0.1579,0,8,0.375,0,1,0,1,ACTION
+106,Toraja-Sadan,Fifty,limaŋpulo,0.8324,0.1676,2,9,0.444,1,0,1,0,NUMBER
+107,Makassar,"to sniff, smell",aŋŋaraʔ,0.8298,0.1702,0,7,0.429,0,1,1,1,ACTION
+108,Makassar,Eight,sagantuju,0.8254,0.1746,3,9,0.444,1,0,1,0,NUMBER
+109,Makassar,Fifty,limampulo,0.8243,0.1757,2,9,0.444,1,0,1,0,NUMBER
+110,Tolaki,who?,inae,0.8185,0.1815,3,4,0.75,1,0,0,0,GRAMMAR
+111,Tolaki,to choose,mepili,0.8157,0.1843,0,6,0.5,1,0,0,1,ACTION
+112,Tolaki,person/human being,toono,0.8114,0.1886,0,5,0.6,1,0,0,0,OTHER
+113,Tolaki,warm,mokula,0.8093,0.1907,2,6,0.5,1,0,0,1,QUALITY
+114,Tolaki,cold,morini,0.8093,0.1907,0,6,0.5,1,0,0,1,QUALITY
+115,Tolaki,dry,mowatu,0.8093,0.1907,3,6,0.5,1,0,0,1,QUALITY
+116,Tolaki,white,mowila,0.8093,0.1907,0,6,0.5,1,0,0,1,QUALITY
+117,Tolaki,yellow,mokuni,0.8093,0.1907,0,6,0.5,1,0,0,1,QUALITY
+118,Tolaki,small,mohewu,0.8093,0.1907,2,6,0.5,1,0,0,1,QUALITY
+119,Tolaki,narrow,mohewu,0.8093,0.1907,3,6,0.5,1,0,0,1,QUALITY
+120,Tolaki,"painful, sick",mohaki,0.8093,0.1907,0,6,0.5,1,0,0,1,QUALITY
+121,Tolaki,to come,leu,0.808,0.192,0,3,0.667,1,0,0,0,ACTION
+122,Tolaki,"to live, be alive",laa,0.808,0.192,0,3,0.667,1,0,0,0,ACTION
+123,Tolaki,what?,hawo,0.8075,0.1925,0,4,0.5,1,0,0,0,GRAMMAR
+124,Makassar,if,punna,0.7942,0.2058,1,5,0.4,1,0,0,0,GRAMMAR
+125,Makassar,to vomit,taʔlaŋŋɛ,0.7915,0.2085,3,8,0.375,1,1,1,1,ACTION
+126,Tolaki,stick/wood,tangge,0.7887,0.2113,0,6,0.333,1,0,1,1,OTHER
+127,Makassar,One Hundred,sibilaŋŋaŋ,0.7862,0.2138,2,10,0.4,0,0,1,0,NUMBER
+128,Bugis,"to stab, pierce",soppaʔ,0.7861,0.2139,3,6,0.333,0,1,0,0,ACTION
+129,Tolaki,man/male,langgai,0.7812,0.2188,0,7,0.429,1,0,1,0,OTHER
+130,Tolaki,husband,langgai,0.7812,0.2188,0,7,0.429,1,0,1,0,OTHER
+131,Bugis,to split,pue,0.7793,0.2207,2,3,0.667,1,0,0,0,ACTION
+132,Wolio,mosquito,kawaowaode,0.7726,0.2274,0,10,0.6,1,0,0,1,OTHER
+133,Makassar,to fall,tuʔguruʔ,0.7717,0.2283,2,8,0.375,0,1,0,0,ACTION
+134,Tolaki,neck,woroko,0.7688,0.2312,0,6,0.5,1,0,0,0,BODY
+135,Wolio,to say,kooni,0.7637,0.2363,0,5,0.6,1,0,0,0,ACTION
+136,Makassar,"to live, be alive",tallasaʔ,0.7605,0.2395,0,8,0.375,0,1,0,1,ACTION
+137,Toraja-Sadan,Ten,sangpulo,0.7578,0.2422,0,8,0.375,1,0,1,0,NUMBER
+138,Tolaki,grass,rembu,0.7547,0.2453,1,5,0.4,1,0,1,0,NATURE
+139,Tolaki,wind,pua,0.7522,0.2478,0,3,0.667,1,0,0,0,NATURE
+140,Tolaki,to cry,hono,0.7509,0.2491,3,4,0.5,1,0,0,0,ACTION
+141,Tolaki,to burn,hunu,0.7509,0.2491,0,4,0.5,1,0,0,0,ACTION
+142,Wolio,intestines,ŋkaluŋkalu,0.7431,0.2569,3,10,0.4,1,0,1,0,BODY
+143,Toraja-Sadan,other,seŋaʔ,0.7337,0.2663,3,5,0.4,0,1,1,0,GRAMMAR
+144,Muna,intestines,ghule-ghule,0.7332,0.2668,3,11,0.364,1,0,0,0,BODY
+145,Tolaki,feather,wulumanumanu,0.7326,0.2674,0,12,0.5,1,0,0,0,BODY
+146,Bugis,short,ma-poncoʔ,0.7278,0.2722,3,9,0.333,0,1,1,1,QUALITY
+147,Wolio,"in, inside",nuñca,0.7276,0.2724,0,5,0.4,1,0,0,0,GRAMMAR
+148,Wolio,to sew,posorumba,0.7259,0.2741,3,9,0.444,1,0,1,1,ACTION
+149,Toraja-Sadan,Twenty,duaŋpulo,0.7255,0.2745,2,8,0.5,1,0,1,0,NUMBER
+150,Makassar,wing,kaʔñiʔ,0.7244,0.2756,0,6,0.333,0,1,0,1,BODY
+151,Bugis,to hold,mak-katənni,0.7237,0.2763,0,11,0.364,1,0,0,1,ACTION
+152,Makassar,dry,kalotoroʔ,0.7226,0.2774,3,9,0.444,0,1,0,1,QUALITY
+153,Makassar,bird,jaŋanɟaŋaŋ,0.7218,0.2782,0,10,0.4,0,0,1,0,OTHER
+154,Wolio,cloud,ta'ina ŋalu,0.7162,0.2838,0,11,0.455,1,1,1,1,NATURE
+155,Wolio,to stand,kabalebale,0.7114,0.2886,0,10,0.5,1,0,0,1,ACTION
+156,Tolaki,to hit,toni,0.7113,0.2887,0,4,0.5,1,0,0,0,ACTION
+157,Tolaki,to grow,toro,0.7113,0.2887,0,4,0.5,1,0,0,0,ACTION
+158,Wolio,other,mosagaanana,0.706,0.294,3,11,0.545,1,0,0,1,GRAMMAR
+159,Tolaki,to breathe,mehonahona,0.7023,0.2977,2,10,0.5,1,0,0,1,ACTION
+160,Bugis,to say,pau,0.7001,0.2999,0,3,0.667,1,0,0,1,ACTION
+161,Makassar,skin,bukku lɛŋ,0.6998,0.3002,0,9,0.333,0,0,1,0,BODY
+162,Wolio,One Hundred,saatu,0.6983,0.3017,2,5,0.6,1,0,0,0,NUMBER
+163,Wolio,to drink,sumpu,0.6854,0.3146,0,5,0.4,1,0,1,0,ACTION
+164,Toraja-Sadan,to sit,noʔkoʔ,0.6851,0.3149,0,6,0.333,0,1,0,0,ACTION
+165,Tolaki,to bite,kaa,0.6774,0.3226,1,3,0.667,1,0,0,1,ACTION
+166,Bugis,"to open, uncover",timpaʔ,0.6755,0.3245,3,6,0.333,0,1,1,0,ACTION
+167,Tolaki,night,wingi,0.6745,0.3255,0,5,0.4,1,0,1,0,OTHER
+168,Wolio,Fifty,lima pulu,0.6741,0.3259,2,9,0.444,1,0,0,0,NUMBER
+169,Muna,husband,mie no lambu,0.6692,0.3308,0,12,0.417,1,0,1,0,OTHER
+170,Muna,wife,mie no lambu,0.6692,0.3308,2,12,0.417,1,0,1,0,OTHER
+171,Muna,how?,pedahamai,0.6669,0.3331,2,9,0.556,1,0,0,0,GRAMMAR
+172,Wolio,to hit,rambi,0.666,0.334,0,5,0.4,1,0,1,0,ACTION
+173,Wolio,"to cut, hack",ndamu,0.666,0.334,1,5,0.4,1,0,1,0,ACTION
+174,Wolio,to swell,gende,0.666,0.334,3,5,0.4,1,0,1,0,ACTION
+175,Makassar,Twenty,ruampulo,0.6646,0.3354,2,8,0.5,1,0,1,0,NUMBER
+176,Muna,how?,pedahai,0.6571,0.3429,2,7,0.571,1,0,0,0,GRAMMAR
+177,Toraja-Sadan,to sleep,mammaʔ,0.6553,0.3447,3,6,0.333,0,1,0,1,ACTION
+178,Toraja-Sadan,to lie down,mammaʔ,0.6553,0.3447,2,6,0.333,0,1,0,1,ACTION
+179,Bugis,red,ma-cəllaʔ,0.6542,0.3458,0,9,0.333,0,1,0,1,QUALITY
+180,Bugis,small,ma-biccuʔ,0.6542,0.3458,2,9,0.333,0,1,0,1,QUALITY
+181,Bugis,small,ma-rənniʔ,0.6542,0.3458,2,9,0.333,0,1,0,1,QUALITY
+182,Tolaki,Ten,hopulo,0.6532,0.3468,0,6,0.5,1,0,0,0,NUMBER
+183,Bugis,to steal,mennau,0.6518,0.3482,0,6,0.5,1,0,0,1,ACTION
+184,Makassar,fog,saliu,0.6484,0.3516,0,5,0.6,1,0,0,0,NATURE
+185,Bugis,if,nakko,0.6473,0.3527,1,5,0.4,1,0,0,1,GRAMMAR
+186,Toraja-Sadan,child,pia,0.643,0.357,0,3,0.667,1,0,0,0,OTHER
+187,Bugis,to split,pueʔ,0.6425,0.3575,2,4,0.5,0,1,0,0,ACTION
+188,Makassar,to laugh,ammakkalaʔ,0.6417,0.3583,0,10,0.4,0,1,0,0,ACTION
+189,Makassar,to hold,annaʔgalaʔ,0.6417,0.3583,0,10,0.4,0,1,0,0,ACTION
+190,Bugis,green,ma-kudaraʔ,0.6413,0.3587,3,10,0.4,0,1,0,1,QUALITY
+191,Tolaki,"to cut, hack",pole,0.6411,0.3589,1,4,0.5,1,0,0,1,ACTION
+192,Toraja-Sadan,cloud,salebuʔ,0.6399,0.3601,0,7,0.429,0,1,0,0,NATURE
+193,Wolio,to see,kamata,0.6381,0.3619,0,6,0.5,1,0,0,1,ACTION
+194,Wolio,rope,puloli,0.6379,0.3621,0,6,0.5,1,0,0,0,OTHER
+195,Muna,worm (earthworm),ghundeletu,0.6376,0.3624,3,10,0.4,1,0,1,0,OTHER
+196,Makassar,how?,antekamma,0.6357,0.3643,2,9,0.444,1,0,1,0,GRAMMAR
+197,Bugis,to hit,tətteʔ,0.6347,0.3653,0,6,0.333,0,1,0,0,ACTION
+198,Toraja-Sadan,to come,sae,0.6326,0.3674,0,3,0.667,1,0,0,0,ACTION
+199,Makassar,to cook,appallu,0.6279,0.3721,0,7,0.429,1,0,0,0,ACTION
+200,Wolio,Six,ʔana,0.6271,0.3729,3,4,0.5,1,1,0,0,NUMBER
+201,Tolaki,"no, not",oki,0.627,0.373,2,3,0.667,1,0,0,0,GRAMMAR
+202,Wolio,"to cut, hack",laelae,0.6266,0.3734,1,6,0.667,1,0,0,0,ACTION
+203,Tolaki,"to tie up, fasten",onggo,0.6253,0.3747,1,5,0.4,1,0,1,0,ACTION
+204,Bugis,to blow,mat-tappoʔ,0.6162,0.3838,0,10,0.3,0,1,0,1,ACTION
+205,Wolio,to turn,beŋku,0.6145,0.3855,3,5,0.4,1,0,1,0,ACTION
+206,Makassar,when?,riŋapanna,0.6137,0.3863,0,9,0.444,1,0,1,0,GRAMMAR
+207,Bugis,grass,sarii,0.6083,0.3917,1,5,0.6,1,0,0,0,NATURE
+208,Bugis,grass,sərii,0.6083,0.3917,1,5,0.6,1,0,0,0,NATURE
+209,Bugis,all,manəŋ,0.6074,0.3926,3,5,0.4,0,0,1,1,GRAMMAR
+210,Bugis,"to stab, pierce",maʔ-gajaŋ,0.6057,0.3943,3,9,0.333,0,1,1,1,ACTION
+211,Bugis,thick,ma-umpəʔ,0.6049,0.3951,0,8,0.375,0,1,1,1,QUALITY
+212,Wolio,root,kulese,0.6032,0.3968,0,6,0.5,1,0,0,0,NATURE
+213,Wolio,to scratch,kaŋkaru,0.6022,0.3978,0,7,0.429,1,0,1,1,ACTION
+214,Wolio,to bite,tompa,0.6021,0.3979,1,5,0.4,1,0,1,0,ACTION
+215,Wolio,to swell,tente,0.6021,0.3979,3,5,0.4,1,0,1,0,ACTION
+216,Wolio,to flow,siwulu,0.6012,0.3988,3,6,0.5,1,0,0,0,ACTION
+217,Muna,"to tie up, fasten",aekooli,0.601,0.399,1,7,0.714,1,0,0,0,ACTION
+218,Bugis,to stand,təttoŋ,0.5974,0.4026,0,6,0.333,0,0,1,0,ACTION
+219,Wolio,Twenty,rua pulu,0.5965,0.4035,2,8,0.5,1,0,0,0,NUMBER
+220,Tolaki,rope,oloo,0.5957,0.4043,0,4,0.75,1,0,0,0,OTHER
+221,Tolaki,day,oleo,0.5957,0.4043,0,4,0.75,1,0,0,0,OTHER
+222,Wolio,all,maliŋu,0.5946,0.4054,3,6,0.5,1,0,1,1,GRAMMAR
+223,Bugis,to hunt,rəŋŋəŋ,0.5916,0.4084,2,6,0.333,0,0,1,0,ACTION
+224,Bugis,if,rekko,0.5912,0.4088,1,5,0.4,1,0,0,0,GRAMMAR
+225,Bugis,to eat,manre,0.5901,0.4099,0,5,0.4,1,0,0,1,ACTION
+226,Makassar,to throw,aññambila,0.5832,0.4168,1,9,0.444,1,0,1,0,ACTION
+227,Makassar,rotten,bottoʔ,0.583,0.417,3,6,0.333,0,1,0,0,QUALITY
+228,Bugis,to hold,warəkkəŋ,0.5811,0.4189,0,8,0.375,0,0,1,0,ACTION
+229,Wolio,near,makasu,0.5793,0.4207,3,6,0.5,1,0,0,1,GRAMMAR
+230,Wolio,far,marido,0.5793,0.4207,0,6,0.5,1,0,0,1,GRAMMAR
+231,Makassar,to squeeze,ammaccoʔ,0.5772,0.4228,0,8,0.375,0,1,0,0,ACTION
+232,Muna,to bite,aesia,0.5759,0.4241,1,5,0.8,1,0,0,0,ACTION
+233,Wolio,"to pound, beat",purokoti,0.5754,0.4246,3,8,0.5,1,0,0,0,ACTION
+234,Bugis,near,ma-caweʔ,0.573,0.427,3,8,0.375,0,1,0,1,GRAMMAR
+235,Tolaki,mouth,pondu,0.5718,0.4282,0,5,0.4,1,0,1,1,BODY
+236,Bugis,to throw,maʔ-dempəʔ,0.57,0.43,1,10,0.3,0,1,1,1,ACTION
+237,Wolio,to sit,uncura,0.5692,0.4308,0,6,0.5,1,0,1,0,ACTION
+238,Muna,to count,aefeapi,0.5676,0.4324,0,7,0.714,1,0,0,0,ACTION
+239,Wolio,old,mancuana,0.5625,0.4375,0,8,0.5,1,0,1,1,QUALITY
+240,Makassar,to vomit,laŋŋɛ,0.5606,0.4394,3,5,0.4,1,0,1,0,ACTION
+241,Toraja-Sadan,cold,ma-sakkaʔ,0.5572,0.4428,0,9,0.333,0,1,0,1,QUALITY
+242,Makassar,to stand,ammenteŋ,0.5553,0.4447,0,8,0.375,0,0,1,0,ACTION
+243,Makassar,to hit,annunruŋ,0.5553,0.4447,0,8,0.375,0,0,1,0,ACTION
+244,Bugis,to walk,joppa,0.552,0.448,0,5,0.4,1,0,0,0,ACTION
+245,Bugis,to walk,jokka,0.552,0.448,0,5,0.4,1,0,0,0,ACTION
+246,Bugis,to fly,luttu,0.552,0.448,3,5,0.4,1,0,0,0,ACTION
+247,Makassar,fruit,rapporappo,0.5488,0.4512,0,10,0.4,1,0,0,0,NATURE
+248,Makassar,sea,tamparaŋ,0.5486,0.4514,0,8,0.375,0,0,1,1,NATURE
+249,Tolaki,short,putu,0.5442,0.4558,3,4,0.5,1,0,0,0,QUALITY
+250,Makassar,where?,kɛmàɛ,0.5419,0.4581,2,5,0.6,1,0,0,0,GRAMMAR
+251,Muna,to cook,aegau,0.538,0.462,0,5,0.8,1,0,0,0,ACTION
+252,Wolio,this,sii,0.5364,0.4636,0,3,0.667,1,0,0,0,GRAMMAR
+253,Bugis,hair,gəmməʔ,0.5353,0.4647,0,6,0.333,0,1,0,0,BODY
+254,Bugis,fat/grease,lunraʔ,0.5353,0.4647,0,6,0.333,0,1,0,0,BODY
+255,Bugis,woman/female,makunrai,0.5305,0.4695,0,8,0.5,1,0,0,1,OTHER
+256,Makassar,black,lɛʔlɛŋ,0.5234,0.4766,0,6,0.333,0,1,1,0,QUALITY
+257,Tolaki,to throw,kali,0.5215,0.4785,1,4,0.5,1,0,0,1,ACTION
+258,Makassar,to cry,aŋŋarruʔ,0.5202,0.4798,3,8,0.375,0,1,1,1,ACTION
+259,Makassar,to split,ammuɛ,0.5174,0.4826,2,5,0.6,1,0,0,0,ACTION
+260,Wolio,sea,andala,0.517,0.483,0,6,0.5,1,0,1,0,NATURE
+261,Toraja-Sadan,"no, not",taeʔ,0.5168,0.4832,2,4,0.5,0,1,0,1,GRAMMAR
+262,Wolio,to burn,maŋau,0.5143,0.4857,0,5,0.6,1,0,1,1,ACTION
+263,Makassar,fire,pɛpɛʔ,0.5113,0.4887,0,5,0.4,0,1,0,0,NATURE
+264,Wolio,to bite,bembaru,0.51,0.49,1,7,0.429,1,0,1,0,ACTION
+265,Bugis,rotten,ma-kəbboŋ,0.5092,0.4908,3,9,0.333,0,0,1,1,QUALITY
+266,Makassar,other,maraɛŋ,0.5027,0.4973,3,6,0.5,0,0,1,1,GRAMMAR
+267,Bugis,where?,kegi,0.4984,0.5016,2,4,0.5,1,0,0,0,GRAMMAR
+268,Toraja-Sadan,to say,po-kada,0.4968,0.5032,0,7,0.429,1,0,0,1,ACTION
+269,Wolio,to come,umba,0.4963,0.5037,0,4,0.5,1,0,1,0,ACTION
+270,Wolio,One Thousand,sarewu,0.4961,0.5039,0,6,0.5,1,0,0,0,NUMBER
+271,Wolio,to yawn,pomea,0.4918,0.5082,2,5,0.6,1,0,0,1,ACTION
+272,Wolio,if,ande,0.4891,0.5109,1,4,0.5,1,0,1,0,GRAMMAR
+273,Wolio,dog,mantoa,0.4881,0.5119,0,6,0.5,1,0,1,1,OTHER
+274,Wolio,wife,mañcuana,0.4874,0.5126,2,8,0.5,1,0,0,1,OTHER
+275,Wolio,to chew,naŋku,0.4867,0.5133,2,5,0.4,1,0,1,1,ACTION
+276,Wolio,to sleep,kole,0.4836,0.5164,3,4,0.5,1,0,0,0,ACTION
+277,Wolio,to hold,keni,0.4836,0.5164,0,4,0.5,1,0,0,0,ACTION
+278,Bugis,to yawn,maŋ-aleale,0.4825,0.5175,2,10,0.5,1,0,1,1,ACTION
+279,Makassar,leg/foot,baŋkeŋ,0.4809,0.5191,0,6,0.333,0,0,1,0,BODY
+280,Toraja-Sadan,big,kapua,0.4805,0.5195,1,5,0.6,1,0,0,1,QUALITY
+281,Toraja-Sadan,Six,annan,0.4699,0.5301,3,5,0.4,0,0,0,0,NUMBER
+282,Wolio,below,i tambe,0.4686,0.5314,0,7,0.429,1,0,1,0,GRAMMAR
+283,Toraja-Sadan,mosquito,kasisiʔ,0.4684,0.5316,0,7,0.429,0,1,0,1,OTHER
+284,Makassar,to come,battu,0.4655,0.5345,0,5,0.4,1,0,0,0,ACTION
+285,Makassar,to say,aŋkana,0.4644,0.5356,0,6,0.5,1,0,1,1,ACTION
+286,Makassar,to dig,aŋŋɛkɛ,0.4644,0.5356,0,6,0.5,1,0,1,1,ACTION
+287,Makassar,they,iya ŋasɛŋ,0.4604,0.5396,1,9,0.444,0,0,1,0,GRAMMAR
+288,Wolio,they,incia,0.4574,0.5426,1,5,0.6,1,0,1,0,GRAMMAR
+289,Toraja-Sadan,worm (earthworm),kalintiŋ,0.4557,0.5443,3,8,0.375,0,0,1,1,OTHER
+290,Toraja-Sadan,to stand,bendan,0.454,0.546,0,6,0.333,0,0,1,0,ACTION
+291,Wolio,needle,sorumba,0.4528,0.5472,0,7,0.429,1,0,1,0,OTHER
+292,Wolio,to bite,papaki,0.4524,0.5476,1,6,0.5,1,0,0,1,ACTION
+293,Wolio,to hide,opo,0.4516,0.5484,2,3,0.667,1,0,0,0,ACTION
+294,Bugis,to squeeze,tassipi,0.4511,0.5489,0,7,0.429,1,0,0,1,ACTION
+295,Muna,road/path,kangkaha,0.4495,0.5505,0,8,0.375,1,0,1,1,NATURE
+296,Makassar,to steal,allukka,0.4454,0.5546,0,7,0.429,1,0,0,0,ACTION
+297,Wolio,"to pound, beat",pasaki,0.4453,0.5547,3,6,0.5,1,0,0,1,ACTION
+298,Wolio,to fly,polaka,0.4453,0.5547,3,6,0.5,1,0,0,1,ACTION
+299,Makassar,water,jeʔneʔ,0.4392,0.5608,0,6,0.333,0,1,0,0,NATURE
+300,Bugis,salt,pəjje,0.4371,0.5629,3,5,0.4,1,0,0,0,NATURE
+301,Tolaki,to chew,kaa,0.4359,0.5641,2,3,0.667,1,0,0,1,ACTION
+302,Wolio,where?,i apai,0.4333,0.5667,2,6,0.667,1,0,0,0,GRAMMAR
+303,Bugis,to lie down,lewuu,0.4331,0.5669,2,5,0.6,1,0,0,0,ACTION
+304,Bugis,to lie down,liwuu,0.4331,0.5669,2,5,0.6,1,0,0,0,ACTION
+305,Muna,rope,kakoo,0.433,0.567,0,5,0.6,1,0,0,1,OTHER
+306,Wolio,that,humai,0.4287,0.5713,3,5,0.6,1,0,0,0,GRAMMAR
+307,Tolaki,shoulder,bohe,0.4273,0.5727,0,4,0.5,1,0,0,0,BODY
+308,Tolaki,blood,beli,0.4273,0.5727,0,4,0.5,1,0,0,0,BODY
+309,Wolio,dry,matuu,0.4265,0.5735,3,5,0.6,1,0,0,1,QUALITY
+310,Wolio,big,maoge,0.4265,0.5735,1,5,0.6,1,0,0,1,QUALITY
+311,Wolio,wide,maewa,0.4265,0.5735,0,5,0.6,1,0,0,1,QUALITY
+312,Wolio,"painful, sick",mapii,0.4265,0.5735,0,5,0.6,1,0,0,1,QUALITY
+313,Tolaki,to fear,motaku,0.4241,0.5759,0,6,0.5,1,0,0,1,ACTION
+314,Makassar,to sit,ammempo,0.4237,0.5763,0,7,0.429,1,0,1,0,ACTION
+315,Makassar,to grow,attimbo,0.4237,0.5763,0,7,0.429,1,0,1,0,ACTION
+316,Makassar,"to open, uncover",aññuŋkɛ,0.4237,0.5763,3,7,0.429,1,0,1,0,ACTION
+317,Makassar,"no, not",tɛna,0.4237,0.5763,2,4,0.5,1,0,0,0,GRAMMAR
+318,Wolio,to come,kawa,0.4205,0.5795,0,4,0.5,1,0,0,1,ACTION
+319,Wolio,"dull, blunt",makundu,0.4203,0.5797,2,7,0.429,1,0,1,1,QUALITY
+320,Makassar,father,maŋgɛ,0.4131,0.5869,0,5,0.4,1,0,1,1,OTHER
+321,Wolio,to throw,banaka,0.4114,0.5886,1,6,0.5,1,0,0,0,ACTION
+322,Bugis,"dull, blunt",ma-kunru,0.4095,0.5905,2,8,0.375,1,0,0,1,QUALITY
+323,Bugis,warm,ma-pəlla,0.4095,0.5905,2,8,0.375,1,0,0,1,QUALITY
+324,Toraja-Sadan,to think,taŋaʔ,0.4073,0.5927,0,5,0.4,0,1,1,1,ACTION
+325,Wolio,to turn,lari,0.402,0.598,3,4,0.5,1,0,0,0,ACTION
+326,Wolio,to split,weta,0.402,0.598,2,4,0.5,1,0,0,0,ACTION
+327,Wolio,to blow,towii,0.3841,0.6159,0,5,0.6,1,0,0,0,ACTION
+328,Makassar,small,caʔdi,0.3839,0.6161,2,5,0.4,1,1,0,0,QUALITY
+329,Wolio,woods/forest,koo,0.3795,0.6205,3,3,0.667,1,0,0,0,NATURE
+330,Muna,grass,karuku,0.3771,0.6229,1,6,0.5,1,0,0,1,NATURE
+331,Toraja-Sadan,leg/foot,letteʔ,0.3761,0.6239,0,6,0.333,0,1,0,0,BODY
+332,Makassar,warm,bambaŋ,0.375,0.625,2,6,0.333,0,0,1,0,QUALITY
+333,Bugis,other,laiŋ,0.3739,0.6261,3,4,0.5,0,0,1,0,GRAMMAR
+334,Makassar,to see,acciniʔ,0.3715,0.6285,0,7,0.429,0,1,0,0,ACTION
+335,Wolio,lightning,berese,0.3694,0.6306,0,6,0.5,1,0,0,0,NATURE
+336,Bugis,wet,ma-ricaʔ,0.3675,0.6325,3,8,0.375,0,1,0,1,QUALITY
+337,Bugis,heavy,ma-tanəʔ,0.3675,0.6325,0,8,0.375,0,1,0,1,QUALITY
+338,Wolio,thatch/roof,pada,0.3674,0.6326,3,4,0.5,1,0,0,1,OTHER
+339,Makassar,dog,koŋkoŋ,0.3667,0.6333,0,6,0.333,0,0,1,0,OTHER
+340,Bugis,back,monri,0.3654,0.6346,3,5,0.4,1,0,0,1,BODY
+341,Toraja-Sadan,intestines,tambuk,0.3634,0.6366,3,6,0.333,0,0,1,1,BODY
+342,Makassar,narrow,ecereʔ,0.3564,0.6436,3,6,0.5,0,1,0,0,QUALITY
+343,Makassar,nose,kaʔmuru,0.3562,0.6438,0,7,0.429,1,1,0,1,BODY
+344,Makassar,cloud,rammaŋ,0.3558,0.6442,0,6,0.333,0,0,1,0,NATURE
+345,Makassar,that,añjo,0.3511,0.6489,3,4,0.5,1,0,0,0,GRAMMAR
+346,Makassar,to hunt,andoaŋ,0.3503,0.6497,2,6,0.5,0,0,1,0,ACTION
+347,Toraja-Sadan,who?,inda,0.3462,0.6538,3,4,0.5,1,0,1,0,GRAMMAR
+348,Muna,and,bhe,0.3446,0.6554,3,3,0.333,1,0,0,0,GRAMMAR
+349,Bugis,who?,niga,0.3431,0.6569,3,4,0.5,1,0,0,0,GRAMMAR
+350,Bugis,they,ia-manəŋ,0.3417,0.6583,1,8,0.5,0,0,1,0,GRAMMAR
+351,Bugis,and,sibawa,0.3399,0.6601,3,6,0.5,1,0,0,0,GRAMMAR
+352,Toraja-Sadan,to hit,bamba,0.3392,0.6608,0,5,0.4,1,0,1,0,ACTION
+353,Muna,woods/forest,karumbu,0.3378,0.6622,3,7,0.429,1,0,1,1,NATURE
+354,Bugis,to say,mak-kədaa,0.3347,0.6653,0,9,0.444,1,0,0,1,ACTION
+355,Makassar,"no, not",taɛna,0.3341,0.6659,2,5,0.6,1,0,0,1,GRAMMAR
+356,Toraja-Sadan,short,kondiʔ,0.3337,0.6663,3,6,0.333,0,1,1,0,QUALITY
+357,Muna,lake,katebho,0.3327,0.6673,0,7,0.429,1,0,0,1,NATURE
+358,Toraja-Sadan,below,dioŋ,0.3324,0.6676,0,4,0.5,0,0,1,0,GRAMMAR
+359,Bugis,to fall,mabuəŋ,0.3307,0.6693,2,6,0.5,0,0,1,1,ACTION
+360,Makassar,salt,cɛʔla,0.3286,0.6714,3,5,0.4,1,1,0,0,NATURE
+361,Toraja-Sadan,to sew,dasiʔ,0.3219,0.6781,3,5,0.4,0,1,0,0,ACTION
+362,Makassar,big,lompo,0.3197,0.6803,1,5,0.4,1,0,1,0,QUALITY
+363,Makassar,white,kɛboʔ,0.3151,0.6849,0,5,0.4,0,1,0,0,QUALITY
+364,Bugis,ear,doccili,0.3136,0.6864,0,7,0.429,1,0,0,0,BODY
+365,Muna,below,we panda,0.3124,0.6876,0,8,0.375,1,0,1,0,GRAMMAR
+366,Muna,to see,aewura,0.3118,0.6882,0,6,0.667,1,0,0,0,ACTION
+367,Muna,to see,aewora,0.3118,0.6882,0,6,0.667,1,0,0,0,ACTION
+368,Muna,to plant,aeladu,0.3118,0.6882,0,6,0.667,1,0,0,0,ACTION
+369,Muna,to hide,aekope,0.3118,0.6882,2,6,0.667,1,0,0,0,ACTION
+370,Wolio,big,lewa,0.3108,0.6892,1,4,0.5,1,0,0,0,QUALITY
+371,Toraja-Sadan,"dull, blunt",ma-pumpu,0.3077,0.6923,2,8,0.375,1,0,1,1,QUALITY
+372,Wolio,to hit,bebe,0.3041,0.6959,0,4,0.5,1,0,0,0,ACTION
+373,Tolaki,water,woi,0.304,0.696,0,3,0.667,1,0,0,0,NATURE
+374,Muna,to think,aefekiri,0.3028,0.6972,0,8,0.625,1,0,0,0,ACTION
+375,Muna,to hunt,ahulo,0.3018,0.6982,2,5,0.6,1,0,0,0,ACTION
+376,Tolaki,Four,omba,0.3002,0.6998,0,4,0.5,1,0,1,0,NUMBER
+377,Makassar,"bad, evil",kodi,0.2949,0.7051,0,4,0.5,1,0,0,0,QUALITY
+378,Tolaki,name,tamo,0.2938,0.7062,0,4,0.5,1,0,0,1,OTHER
+379,Tolaki,leaf,tawa,0.2908,0.7092,3,4,0.5,1,0,0,1,NATURE
+380,Tolaki,wife,tina,0.2893,0.7107,2,4,0.5,1,0,0,0,OTHER
+381,Wolio,warm,masodo,0.281,0.719,2,6,0.5,1,0,0,1,QUALITY
+382,Wolio,heavy,matamo,0.281,0.719,0,6,0.5,1,0,0,1,QUALITY
+383,Wolio,good,malape,0.281,0.719,3,6,0.5,1,0,0,1,QUALITY
+384,Tolaki,cloud,gowa,0.2806,0.7194,0,4,0.5,1,0,0,0,NATURE
+385,Muna,to yawn,andiwawa,0.2752,0.7248,2,8,0.5,1,0,1,0,ACTION
+386,Tolaki,intestines,usu,0.2679,0.7321,3,3,0.667,1,0,0,0,BODY
+387,Toraja-Sadan,to hunt,lola,0.262,0.738,2,4,0.5,1,0,0,0,ACTION
+388,Wolio,to chew,paŋa,0.2617,0.7383,2,4,0.5,1,0,1,1,ACTION
+389,Wolio,rain,wao,0.2589,0.7411,0,3,0.667,1,0,0,0,NATURE
+390,Wolio,fire,waa,0.2589,0.7411,0,3,0.667,1,0,0,0,NATURE
+391,Toraja-Sadan,to see,tiro,0.2588,0.7412,0,4,0.5,1,0,0,0,ACTION
+392,Toraja-Sadan,to throw,tibe,0.2588,0.7412,1,4,0.5,1,0,0,0,ACTION
+393,Makassar,red,ɛja,0.2559,0.7441,0,3,0.667,1,0,0,0,QUALITY
+394,Makassar,rope,otɛrɛʔ,0.2505,0.7495,0,6,0.5,0,1,0,0,OTHER
+395,Makassar,egg,bayâo,0.2437,0.7563,0,6,0.5,1,0,0,0,BODY
+396,Toraja-Sadan,to swim,oroŋ,0.2433,0.7567,0,4,0.5,0,0,1,0,ACTION
+397,Toraja-Sadan,"to tie up, fasten",pori,0.2373,0.7627,1,4,0.5,1,0,0,1,ACTION
+398,Bugis,Eight,arua,0.2366,0.7634,3,4,0.75,1,0,0,0,NUMBER
+399,Tolaki,meat/flesh,ramo,0.2328,0.7672,0,4,0.5,1,0,0,0,BODY
+400,Toraja-Sadan,to spit,met-tudu,0.2263,0.7737,3,8,0.375,1,0,0,1,ACTION
+401,Bugis,good,ma-deceŋ,0.2262,0.7738,3,8,0.375,0,0,1,1,QUALITY
+402,Bugis,belly,baua,0.2252,0.7748,0,4,0.75,1,0,0,0,BODY
+403,Wolio,tail,lenci,0.2226,0.7774,0,5,0.4,1,0,1,0,BODY
+404,Makassar,leaf,lɛkoʔ,0.212,0.788,3,5,0.4,0,1,0,0,NATURE
+405,Toraja-Sadan,to hold,tue,0.2085,0.7915,0,3,0.667,1,0,0,0,ACTION
+406,Wolio,name,saro,0.208,0.792,0,4,0.5,1,0,0,0,OTHER
+407,Muna,to turn,apingka,0.2053,0.7947,3,7,0.429,1,0,1,0,ACTION
+408,Toraja-Sadan,One,misa',0.1998,0.8002,0,5,0.4,0,1,0,0,NUMBER
+409,Tolaki,wing,kae,0.199,0.801,0,3,0.667,1,0,0,1,BODY
+410,Toraja-Sadan,to steal,boko,0.1985,0.8015,0,4,0.5,1,0,0,0,ACTION
+411,Toraja-Sadan,to fall,tobaŋ,0.1952,0.8048,2,5,0.4,0,0,1,0,ACTION
+412,Muna,to swell,notente,0.192,0.808,3,7,0.429,1,0,1,0,ACTION
+413,Muna,red,dea,0.1897,0.8103,0,3,0.667,1,0,0,0,QUALITY
+414,Bugis,"to tie up, fasten",mas-sio,0.1889,0.8111,1,7,0.429,1,0,0,1,ACTION
+415,Wolio,rat,bokoti,0.1846,0.8154,0,6,0.5,1,0,0,0,OTHER
+416,Wolio,ashes,walo,0.1825,0.8175,0,4,0.5,1,0,0,0,NATURE
+417,Muna,to flow,nosolo,0.1805,0.8195,3,6,0.5,1,0,0,0,ACTION
+418,Wolio,Six,nama,0.1797,0.8203,3,4,0.5,1,0,0,1,NUMBER
+419,Bugis,cloud,əlluŋ,0.1773,0.8227,0,5,0.4,0,0,1,0,NATURE
+420,Muna,to hit,aewogha,0.1709,0.8291,0,7,0.571,1,0,0,0,ACTION
+421,Muna,"to cut, hack",aebhera,0.1709,0.8291,1,7,0.571,1,0,0,0,ACTION
+422,Toraja-Sadan,if,iake,0.1709,0.8291,1,4,0.75,1,0,0,0,GRAMMAR
+423,Wolio,sky,bula,0.1693,0.8307,0,4,0.5,1,0,0,0,NATURE
+424,Wolio,leaf,tawa,0.1685,0.8315,3,4,0.5,1,0,0,1,NATURE
+425,Bugis,narrow,ma-cipi,0.165,0.835,3,7,0.429,1,0,0,1,QUALITY
+426,Toraja-Sadan,mouth,sadaŋ,0.1594,0.8406,0,5,0.4,0,0,1,0,BODY
+427,Muna,wife,anahi,0.1573,0.8427,2,5,0.6,1,0,0,0,OTHER
+428,Makassar,fish,jukuʔ,0.1537,0.8463,0,5,0.4,0,1,0,0,OTHER
+429,Makassar,road/path,agaŋ,0.1393,0.8607,0,4,0.5,0,0,1,0,NATURE
+430,Toraja-Sadan,heavy,ma-gasa,0.1308,0.8692,0,7,0.429,1,0,0,1,QUALITY
+431,Wolio,head,baa,0.1232,0.8768,0,3,0.667,1,0,0,0,BODY
+432,Toraja-Sadan,grass,riu,0.1144,0.8856,1,3,0.667,1,0,0,0,NATURE
+433,Bugis,meat/flesh,juku,0.1045,0.8955,0,4,0.5,1,0,0,0,BODY
+434,Toraja-Sadan,rotten,bosi,0.1032,0.8968,3,4,0.5,1,0,0,0,QUALITY
+435,Bugis,rope,tulu,0.0886,0.9114,0,4,0.5,1,0,0,0,OTHER
+436,Muna,wet,nomeme,0.0883,0.9117,3,6,0.5,1,0,0,0,QUALITY
+437,Muna,One Thousand,riwu,0.064,0.936,0,4,0.5,1,0,0,0,NUMBER
+438,Muna,back,towu,0.0428,0.9572,3,4,0.5,1,0,0,0,BODY

@@ -1,0 +1,1358 @@
+form_id,language,concept,form,label,form_length,n_vowels,vowel_ratio,ends_in_vowel,initial_char,has_glottal,has_nasal_cluster,has_reduplication,n_consonant_clusters,has_prefix_like,max_cognate_set_size,n_cognate_sets,concept_residual_rate,concept_cross_lang_count,semantic_domain,is_core_vocab,language_id_encoded,language_cognacy_coverage
+27-1_hand-1,Muna,hand,lima,1,4,2,0.5,1,other,0,0,0,0,0,1102,2,0.0,0,BODY,1,2,0.718
+27-2_left-1,Muna,left,kema,1,4,2,0.5,1,k,0,0,0,0,0,5,1,0.0,0,OTHER,0,2,0.718
+27-3_right-1,Muna,right,suana,1,5,3,0.6,1,s,0,0,0,0,0,384,2,0.0,0,OTHER,0,2,0.718
+27-4_legfoot-1,Muna,leg/foot,ghaghe,1,6,2,0.3333,1,other,0,0,0,2,0,559,1,0.3333,2,BODY,1,2,0.718
+27-5_towalk-1,Muna,to walk,akala,1,5,3,0.6,1,a,0,0,0,0,0,2,1,0.2857,1,ACTION,1,2,0.718
+27-6_roadpath-1,Muna,road/path,kangkaha,0,8,3,0.375,1,k,0,1,0,1,1,0,0,0.3333,2,NATURE,1,2,0.718
+27-7_tocome-1,Muna,to come,amai,1,4,3,0.75,1,a,0,0,0,0,0,1125,1,0.625,4,ACTION,1,2,0.718
+27-8_toturn-1,Muna,to turn,apingka,0,7,3,0.4286,1,a,0,1,0,1,0,0,0,0.5,3,ACTION,1,2,0.718
+27-9_toswim-1,Muna,to swim,aleni,1,5,3,0.6,1,a,0,0,0,0,0,388,1,0.1667,1,ACTION,1,2,0.718
+27-10_dirty-1,Muna,dirty,noraku,1,6,3,0.5,1,other,0,0,0,0,0,4,1,0.1667,1,NATURE,0,2,0.718
+27-11_dust-1,Muna,dust,harabu,1,6,3,0.5,1,other,0,0,0,0,0,11,1,0.1429,1,NATURE,0,2,0.718
+27-12_skin-1,Muna,skin,kuli,1,4,2,0.5,1,k,0,0,0,0,0,720,1,0.1429,1,BODY,1,2,0.718
+27-13_back-1,Muna,back,towu,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.375,3,BODY,1,2,0.718
+27-14_belly-1,Muna,belly,taghi,1,5,2,0.4,1,t,0,0,0,1,1,46,1,0.1667,1,BODY,1,2,0.718
+27-15_bone-1,Muna,bone,buku,1,4,2,0.5,1,b,0,0,0,0,0,78,1,0.0,0,BODY,1,2,0.718
+27-16_intestines-1,Muna,intestines,ghule-ghule,0,11,4,0.3636,1,other,0,0,1,2,0,0,0,0.5714,4,BODY,1,2,0.718
+27-17_liver-1,Muna,liver,ghate,1,5,2,0.4,1,other,0,0,0,1,0,828,1,0.0,0,BODY,1,2,0.718
+27-18_breast-1,Muna,breast,titi,1,4,2,0.5,1,t,0,0,1,0,0,27,1,0.0,0,BODY,1,2,0.718
+27-19_shoulder-1,Muna,shoulder,ghowea,1,6,3,0.5,1,other,0,0,0,1,0,356,1,0.1429,1,BODY,1,2,0.718
+27-20_toknowbeknowledgeable-1,Muna,"to know, be knowledgeable",apandehaane,1,11,6,0.5455,1,a,0,1,0,1,0,9,1,0.1667,1,ACTION,0,2,0.718
+27-21_tothink-1,Muna,to think,aefekiri,0,8,5,0.625,1,a,0,0,0,0,0,0,0,0.5,3,ACTION,0,2,0.718
+27-22_tofear-1,Muna,to fear,aotehi,1,6,4,0.6667,1,a,0,0,0,0,0,2,1,0.3333,2,ACTION,0,2,0.718
+27-23_blood-1,Muna,blood,rea,1,3,2,0.6667,1,other,0,0,0,0,0,929,1,0.1667,1,BODY,1,2,0.718
+27-24_head-1,Muna,head,fotu,1,4,2,0.5,1,other,0,0,0,0,0,44,1,0.1667,1,BODY,1,2,0.718
+27-25_neck-1,Muna,neck,wughu,1,5,2,0.4,1,other,0,0,0,1,0,3,1,0.1667,1,BODY,1,2,0.718
+27-26_hair-1,Muna,hair,wulu no fotu,1,12,5,0.4167,1,other,0,0,0,0,0,44,1,0.1667,1,BODY,1,2,0.718
+27-27_nose-1,Muna,nose,nee,1,3,2,0.6667,1,other,0,0,0,0,0,4,1,0.1667,1,BODY,1,2,0.718
+27-28_tobreathe-1,Muna,to breathe,afenei,1,6,4,0.6667,1,a,0,0,0,0,0,2,1,0.5714,3,ACTION,0,2,0.718
+27-29_tosniffsmell-1,Muna,"to sniff, smell",aefewono,1,8,5,0.625,1,a,0,0,0,0,0,2,1,0.3333,2,ACTION,0,2,0.718
+27-30_mouth-1,Muna,mouth,wubha,1,5,2,0.4,1,other,0,0,0,1,0,275,1,0.3333,2,BODY,1,2,0.718
+27-31_tooth-1,Muna,tooth,wangka,1,6,2,0.3333,1,other,0,1,0,1,0,4,1,0.0,0,BODY,1,2,0.718
+27-32_tongue-1,Muna,tongue,lela,1,4,2,0.5,1,other,0,0,0,0,0,393,1,0.0,0,BODY,1,2,0.718
+27-33_tolaugh-1,Muna,to laugh,afu|taa,1,7,4,0.5714,1,a,0,0,0,0,0,118,1,0.3333,2,ACTION,1,2,0.718
+27-34_tocry-1,Muna,to cry,aoghae,1,6,4,0.6667,1,a,0,0,0,1,0,2,1,0.375,2,ACTION,1,2,0.718
+27-35_tovomit-1,Muna,to vomit,atongka,1,7,3,0.4286,1,a,0,1,0,1,0,592,1,0.4286,2,ACTION,1,2,0.718
+27-36_tospit-1,Muna,to spit,afoghoniu,1,9,5,0.5556,1,a,0,0,0,1,0,3,1,0.4286,3,ACTION,0,2,0.718
+27-37_toeat-1,Muna,to eat,afumaa,1,6,4,0.6667,1,a,0,0,0,0,0,2,1,0.1667,1,ACTION,1,2,0.718
+27-38_tochew-1,Muna,to chew,aemama,1,6,4,0.6667,1,a,0,0,1,0,0,189,1,0.5,3,ACTION,0,2,0.718
+27-39_tocook-1,Muna,to cook,aegau,0,5,4,0.8,1,a,0,0,0,0,0,0,0,0.3333,2,ACTION,0,2,0.718
+27-40_todrink-1,Muna,to drink,aforoghu,1,8,4,0.5,1,a,0,0,0,1,0,2,1,0.2857,2,ACTION,1,2,0.718
+27-41_tobite-1,Muna,to bite,aesia,0,5,4,0.8,1,a,0,0,0,0,0,0,0,0.625,3,ACTION,1,2,0.718
+27-42_tosuck-1,Muna,to suck,aekomi,1,6,4,0.6667,1,a,0,0,0,0,0,36,1,0.0,0,OTHER,0,2,0.718
+27-43_ear-1,Muna,ear,pongke,1,6,2,0.3333,1,p,0,1,0,1,1,2,1,0.1667,1,BODY,0,2,0.718
+27-44_tohear-1,Muna,to hear,afetingke,1,9,4,0.4444,1,a,0,1,0,1,0,2,1,0.1667,1,ACTION,1,2,0.718
+27-45_eye-1,Muna,eye,mata,1,4,2,0.5,1,m,0,0,0,0,1,1471,1,0.0,0,BODY,0,2,0.718
+27-46_tosee-1,Muna,to see,aewura,0,6,4,0.6667,1,a,0,0,0,0,0,0,0,0.875,5,ACTION,1,2,0.718
+27-46_tosee-2,Muna,to see,aewora,0,6,4,0.6667,1,a,0,0,0,0,0,0,0,0.875,5,ACTION,1,2,0.718
+27-47_toyawn-1,Muna,to yawn,andiwawa,0,8,4,0.5,1,a,0,1,1,1,0,0,0,1.0,4,ACTION,0,2,0.718
+27-48_tosleep-1,Muna,to sleep,aolodo,1,6,4,0.6667,1,a,0,0,0,0,0,2,1,0.5,3,ACTION,1,2,0.718
+27-49_toliedown-1,Muna,to lie down,aendole,1,7,4,0.5714,1,a,0,1,0,1,0,2,1,0.5714,3,ACTION,1,2,0.718
+27-50_todream-1,Muna,to dream,amonifi,1,7,4,0.5714,1,a,0,0,0,0,0,356,2,0.3333,2,ACTION,0,2,0.718
+27-51_tosit-1,Muna,to sit,aengkora,1,8,4,0.5,1,a,0,1,0,1,0,3,1,0.5714,4,ACTION,1,2,0.718
+27-52_tostand-1,Muna,to stand,aere,1,4,3,0.75,1,a,0,0,0,0,0,2,1,0.8333,5,ACTION,1,2,0.718
+27-53_personhumanbeing-1,Muna,person/human being,mie,1,3,2,0.6667,1,m,0,0,0,0,0,51,1,0.1667,1,OTHER,1,2,0.718
+27-54_manmale-1,Muna,man/male,moghane,1,7,3,0.4286,1,m,0,0,0,1,1,703,1,0.1429,1,OTHER,1,2,0.718
+27-55_womanfemale-1,Muna,woman/female,robhine,1,7,3,0.4286,1,other,0,0,0,1,0,744,2,0.1667,1,OTHER,1,2,0.718
+27-56_child-1,Muna,child,ana,1,3,2,0.6667,1,a,0,0,0,0,0,450,1,0.1667,1,OTHER,1,2,0.718
+27-57_husband-1,Muna,husband,mie no lambu,0,12,5,0.4167,1,m,0,1,0,1,0,0,0,0.3333,2,OTHER,1,2,0.718
+27-58_wife-1,Muna,wife,mie no lambu,0,12,5,0.4167,1,m,0,1,0,1,0,0,0,0.5714,3,OTHER,1,2,0.718
+27-58_wife-2,Muna,wife,anahi,0,5,3,0.6,1,a,0,0,0,0,0,0,0,0.5714,3,OTHER,1,2,0.718
+27-59_mother-1,Muna,mother,ina,1,3,2,0.6667,1,other,0,0,0,0,0,921,1,0.0,0,OTHER,1,2,0.718
+27-60_father-1,Muna,father,ama,1,3,2,0.6667,1,a,0,0,0,0,0,1014,1,0.1667,1,OTHER,1,2,0.718
+27-61_house-1,Muna,house,lambu,1,5,2,0.4,1,other,0,1,0,1,0,4,1,0.1667,1,OTHER,1,2,0.718
+27-62_thatchroof-1,Muna,thatch/roof,ghato,1,5,2,0.4,1,other,0,0,0,1,0,489,2,0.5,3,OTHER,0,2,0.718
+27-63_name-1,Muna,name,nea,1,3,2,0.6667,1,other,0,0,0,0,0,1151,1,0.3333,2,OTHER,1,2,0.718
+27-64_tosay-1,Muna,to say,abisara,1,7,4,0.5714,1,a,0,0,0,0,0,23,1,0.6667,5,ACTION,1,2,0.718
+27-64_tosay-2,Muna,to say,apogau,1,6,4,0.6667,1,a,0,0,0,0,0,7,1,0.6667,5,ACTION,1,2,0.718
+27-65_rope-1,Muna,rope,kakoo,0,5,3,0.6,1,k,0,0,0,0,1,0,0,0.7143,5,OTHER,1,2,0.718
+27-66_totieupfasten-1,Muna,"to tie up, fasten",aekooli,0,7,5,0.7143,1,a,0,0,0,0,0,0,0,0.8333,5,ACTION,0,2,0.718
+27-67_tosew-1,Muna,to sew,aetampoli,1,9,5,0.5556,1,a,0,1,0,1,0,2,1,0.5,3,ACTION,1,2,0.718
+27-68_needle-1,Muna,needle,deu,1,3,2,0.6667,1,other,0,0,0,0,0,317,1,0.1667,1,OTHER,1,2,0.718
+27-69_tohunt-1,Muna,to hunt,ahulo,0,5,3,0.6,1,a,0,0,0,0,0,0,0,1.0,4,ACTION,1,2,0.718
+27-70_toshoot-1,Muna,to shoot,aepana,1,6,4,0.6667,1,a,0,0,0,0,0,389,1,0.0,0,OTHER,0,2,0.718
+27-71_tostabpierce-1,Muna,"to stab, pierce",aetobo,1,6,4,0.6667,1,a,0,0,0,0,0,25,1,0.375,2,ACTION,0,2,0.718
+27-72_tohit-1,Muna,to hit,aewogha,0,7,4,0.5714,1,a,0,0,0,1,0,0,0,1.0,6,ACTION,1,2,0.718
+27-73_tosteal-1,Muna,to steal,ambolaku,1,8,4,0.5,1,a,0,1,0,1,0,2,1,0.6667,4,ACTION,1,2,0.718
+27-74_tokill-1,Muna,to kill,aepongko,1,8,4,0.5,1,a,0,1,0,1,0,5,1,0.0,0,ACTION,1,2,0.718
+27-75_todiebedead-1,Muna,"to die, be dead",amate,1,5,3,0.6,1,a,0,0,0,0,0,1291,1,0.0,0,ACTION,1,2,0.718
+27-76_tolivebealive-1,Muna,"to live, be alive",adadi,1,5,3,0.6,1,a,0,0,1,0,0,7,1,0.3333,2,ACTION,1,2,0.718
+27-77_toscratch-1,Muna,to scratch,aekurumasi,1,10,6,0.6,1,a,0,0,0,0,0,2,1,0.125,1,ACTION,0,2,0.718
+27-78_tocuthack-1,Muna,"to cut, hack",aebhera,0,7,4,0.5714,1,a,0,0,0,1,0,0,0,0.625,3,ACTION,1,2,0.718
+27-79_stickwood-1,Muna,stick/wood,sau,1,3,2,0.6667,1,s,0,0,0,0,0,1202,1,0.1667,1,OTHER,1,2,0.718
+27-80_tosplit-1,Muna,to split,aebhogha,1,8,4,0.5,1,a,0,0,0,2,0,2,1,0.5,3,ACTION,1,2,0.718
+27-81_sharp-1,Muna,sharp,noroko,1,6,3,0.5,1,other,0,0,0,0,0,2,1,0.1667,1,QUALITY,1,2,0.718
+27-82_dullblunt-1,Muna,"dull, blunt",noduko,1,6,3,0.5,1,other,0,0,0,0,0,2,1,0.8,4,QUALITY,1,2,0.718
+27-83_towork-1,Muna,to work,akaradhaa,1,9,5,0.5556,1,a,0,0,0,1,0,38,1,0.1667,1,ACTION,1,2,0.718
+27-84_toplant-1,Muna,to plant,aetisa,1,6,4,0.6667,1,a,0,0,0,0,0,2,1,0.2857,2,ACTION,1,2,0.718
+27-84_toplant-2,Muna,to plant,aeladu,0,6,4,0.6667,1,a,0,0,0,0,0,0,0,0.2857,2,ACTION,1,2,0.718
+27-85_tochoose-1,Muna,to choose,aefe|pili,1,9,5,0.5556,1,a,0,0,0,0,0,444,1,0.1667,1,ACTION,1,2,0.718
+27-86_togrow-1,Muna,to grow,notumbu,1,7,3,0.4286,1,other,0,1,0,1,0,271,1,0.3333,2,ACTION,1,2,0.718
+27-87_toswell-1,Muna,to swell,notente,0,7,3,0.4286,1,other,0,1,0,1,0,0,0,0.375,2,ACTION,1,2,0.718
+27-88_tosqueeze-1,Muna,to squeeze,ae|feo,1,6,4,0.6667,1,a,0,0,0,0,0,110,1,0.3333,2,ACTION,1,2,0.718
+27-89_tohold-1,Muna,to hold,aeintara,1,8,5,0.625,1,a,0,1,0,1,0,2,1,0.75,5,ACTION,1,2,0.718
+27-90_todig-1,Muna,to dig,ae|seli,1,7,4,0.5714,1,a,0,0,0,0,0,799,1,0.3333,2,ACTION,1,2,0.718
+27-91_tobuy-1,Muna,to buy,aegholi,1,7,4,0.5714,1,a,0,0,0,1,0,394,1,0.1667,1,ACTION,1,2,0.718
+27-92_toopenuncover-1,Muna,"to open, uncover",aelengha,1,8,4,0.5,1,a,0,1,0,1,0,5,1,0.4286,3,ACTION,1,2,0.718
+27-93_topoundbeat-1,Muna,"to pound, beat",aetumbu,1,7,4,0.5714,1,a,0,1,0,1,0,23,1,0.375,2,ACTION,1,2,0.718
+27-94_tothrow-1,Muna,to throw,aeghompa,1,8,4,0.5,1,a,0,1,0,2,0,2,1,0.7143,5,ACTION,1,2,0.718
+27-95_tofall-1,Muna,to fall,nondawu,1,7,3,0.4286,1,other,0,1,0,1,0,89,1,0.8,4,ACTION,1,2,0.718
+27-96_dog-1,Muna,dog,d|ahu,1,5,2,0.4,1,other,0,0,0,0,0,341,1,0.3333,2,OTHER,1,2,0.718
+27-97_bird-1,Muna,bird,manu-manu,1,9,4,0.4444,1,m,0,0,1,0,1,971,1,0.1667,1,OTHER,1,2,0.718
+27-98_egg-1,Muna,egg,ghunteli,1,8,3,0.375,1,other,0,1,0,2,0,776,1,0.3333,2,BODY,1,2,0.718
+27-99_feather-1,Muna,feather,wulu,1,4,2,0.5,1,other,0,0,0,0,0,647,1,0.1667,1,BODY,1,2,0.718
+27-100_wing-1,Muna,wing,pani,1,4,2,0.5,1,p,0,0,0,0,1,233,1,0.3333,2,BODY,0,2,0.718
+27-101_tofly-1,Muna,to fly,ahoro,1,5,3,0.6,1,a,0,0,0,0,0,2,1,0.5,3,ACTION,1,2,0.718
+27-102_rat-1,Muna,rat,wulawo,1,6,3,0.5,1,other,0,0,0,0,0,363,1,0.1429,1,OTHER,1,2,0.718
+27-103_meatflesh-1,Muna,meat/flesh,ihi,1,3,2,0.6667,1,other,0,0,0,0,0,62,1,0.3333,2,BODY,1,2,0.718
+27-104_fatgrease-1,Muna,fat/grease,tabha,1,5,2,0.4,1,t,0,0,0,1,1,176,1,0.1667,1,BODY,1,2,0.718
+27-105_tail-1,Muna,tail,punda,1,5,2,0.4,1,p,0,1,0,1,0,2,1,0.3333,2,BODY,1,2,0.718
+27-106_snake-1,Muna,snake,ghule,1,5,2,0.4,1,other,0,0,0,1,0,229,1,0.0,0,OTHER,1,2,0.718
+27-107_wormearthworm-1,Muna,worm (earthworm),ghundeletu,0,10,4,0.4,1,other,0,1,0,2,0,0,0,0.6,3,OTHER,1,2,0.718
+27-108_louse-1,Muna,louse,otu,1,3,2,0.6667,1,other,0,0,0,0,0,1230,1,0.0,0,OTHER,1,2,0.718
+27-109_mosquito-1,Muna,mosquito,buroto,1,6,3,0.5,1,b,0,0,0,0,0,10,1,0.2857,2,OTHER,1,2,0.718
+27-110_spider-1,Muna,spider,kabhamba,1,8,3,0.375,1,k,0,1,0,2,1,3,1,0.0,0,OTHER,0,2,0.718
+27-111_fish-1,Muna,fish,kenta,1,5,2,0.4,1,k,0,1,0,1,0,7,1,0.1429,1,OTHER,1,2,0.718
+27-112_rotten-1,Muna,rotten,noburu,1,6,3,0.5,1,other,0,0,0,0,0,140,1,0.5,3,QUALITY,0,2,0.718
+27-113_branch-1,Muna,branch,ragha,1,5,2,0.4,1,other,0,0,0,1,0,440,1,0.0,0,OTHER,0,2,0.718
+27-114_leaf-1,Muna,leaf,roo,1,3,2,0.6667,1,other,0,0,0,0,0,762,1,0.5,3,NATURE,1,2,0.718
+27-115_root-1,Muna,root,paraka,1,6,3,0.5,1,p,0,0,0,0,1,608,1,0.3333,2,NATURE,1,2,0.718
+27-116_flower-1,Muna,flower,kambea,1,6,3,0.5,1,k,0,1,0,1,1,39,1,0.1429,1,NATURE,1,2,0.718
+27-117_fruit-1,Muna,fruit,bhake,1,5,2,0.4,1,b,0,0,0,1,0,15,1,0.1667,1,NATURE,1,2,0.718
+27-118_grass-1,Muna,grass,karuku,0,6,3,0.5,1,k,0,0,0,0,1,0,0,0.7143,4,NATURE,1,2,0.718
+27-119_earthsoil-1,Muna,earth/soil,wite,1,4,2,0.5,1,other,0,0,0,0,0,33,1,0.0,0,NATURE,1,2,0.718
+27-120_stone-1,Muna,stone,kontu,1,5,2,0.4,1,k,0,1,0,1,0,1145,1,0.0,0,NATURE,1,2,0.718
+27-121_sand-1,Muna,sand,bhone,1,5,2,0.4,1,b,0,0,0,1,0,35,1,0.0,0,NATURE,1,2,0.718
+27-122_water-1,Muna,water,oe,1,2,2,1.0,1,other,0,0,0,0,0,673,1,0.3333,2,NATURE,1,2,0.718
+27-123_toflow-1,Muna,to flow,nosolo,0,6,3,0.5,1,other,0,0,0,0,0,0,0,0.5,3,ACTION,1,2,0.718
+27-124_sea-1,Muna,sea,tehi,1,4,2,0.5,1,t,0,0,0,0,0,705,1,0.2857,2,NATURE,1,2,0.718
+27-125_salt-1,Muna,salt,ghohia,1,6,3,0.5,1,other,0,0,0,1,0,117,1,0.5,3,NATURE,1,2,0.718
+27-126_lake-1,Muna,lake,katebho,0,7,3,0.4286,1,k,0,0,0,1,1,0,0,0.1667,1,NATURE,1,2,0.718
+27-127_woodsforest-1,Muna,woods/forest,karumbu,0,7,3,0.4286,1,k,0,1,0,1,1,0,0,0.5,3,NATURE,1,2,0.718
+27-128_sky-1,Muna,sky,lani,1,4,2,0.5,1,other,0,0,0,0,0,589,1,0.2857,2,NATURE,1,2,0.718
+27-129_moon-1,Muna,moon,wula,1,4,2,0.5,1,other,0,0,0,0,0,764,1,0.0,0,NATURE,1,2,0.718
+27-130_star-1,Muna,star,ngkolipopo,1,10,4,0.4,1,other,0,1,1,1,0,5,1,0.1429,1,NATURE,1,2,0.718
+27-131_cloud-1,Muna,cloud,olu,1,3,2,0.6667,1,other,0,0,0,0,0,8,1,0.8333,5,NATURE,1,2,0.718
+27-132_fog-1,Muna,fog,gawu,1,4,2,0.5,1,other,0,0,0,0,0,165,1,0.1667,1,NATURE,1,2,0.718
+27-133_rain-1,Muna,rain,ghuse,1,5,2,0.4,1,other,0,0,0,1,0,1247,1,0.1667,1,NATURE,1,2,0.718
+27-134_thunder-1,Muna,thunder,tondu,1,5,2,0.4,1,t,0,1,0,1,0,4,1,0.0,0,NATURE,1,2,0.718
+27-135_lightning-1,Muna,lightning,bhibhito,1,8,3,0.375,1,b,0,0,1,2,0,8,1,0.1429,1,NATURE,1,2,0.718
+27-136_wind-1,Muna,wind,kawea,1,5,3,0.6,1,k,0,0,0,0,1,3,1,0.1667,1,NATURE,1,2,0.718
+27-137_toblow-1,Muna,to blow,no|f|iu,1,7,3,0.4286,1,other,0,0,0,0,0,196,1,0.6667,4,ACTION,1,2,0.718
+27-138_warm-1,Muna,warm,nopana,1,6,3,0.5,1,other,0,0,0,0,0,246,1,0.5714,4,QUALITY,1,2,0.718
+27-139_cold-1,Muna,cold,norindi,1,7,3,0.4286,1,other,0,1,0,1,0,273,1,0.3333,2,QUALITY,1,2,0.718
+27-140_dry-1,Muna,dry,nokele,1,6,3,0.5,1,other,0,0,0,0,0,2,1,0.5,3,QUALITY,1,2,0.718
+27-141_wet-1,Muna,wet,nomeme,0,6,3,0.5,1,other,0,0,1,0,0,0,0,0.5,3,QUALITY,1,2,0.718
+27-142_heavy-1,Muna,heavy,nobhie,1,6,3,0.5,1,other,0,0,0,1,0,4,1,0.6667,4,QUALITY,1,2,0.718
+27-143_fire-1,Muna,fire,ifi,1,3,2,0.6667,1,other,0,0,0,0,0,831,1,0.3333,2,NATURE,1,2,0.718
+27-144_toburn-1,Muna,to burn,aetunu,1,6,4,0.6667,1,a,0,0,0,0,0,261,1,0.3333,2,ACTION,1,2,0.718
+27-145_smoke-1,Muna,smoke,ghumbo,1,6,2,0.3333,1,other,0,1,0,2,0,23,1,0.0,0,NATURE,1,2,0.718
+27-146_ashes-1,Muna,ashes,ghabu,1,5,2,0.4,1,other,0,0,0,1,0,607,1,0.1429,1,NATURE,1,2,0.718
+27-147_black-1,Muna,black,ghito,1,5,2,0.4,1,other,0,0,0,1,0,542,1,0.3333,2,QUALITY,1,2,0.718
+27-148_white-1,Muna,white,pute,1,4,2,0.5,1,p,0,0,0,0,0,371,1,0.3333,2,QUALITY,1,2,0.718
+27-149_red-1,Muna,red,dea,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.6667,4,QUALITY,1,2,0.718
+27-150_yellow-1,Muna,yellow,kuni,1,4,2,0.5,1,k,0,0,0,0,0,160,1,0.1667,1,QUALITY,1,2,0.718
+27-151_green-1,Muna,green,idho,1,4,2,0.5,1,other,0,0,0,1,0,84,1,0.5,3,QUALITY,1,2,0.718
+27-152_small-1,Muna,small,norubu,1,6,3,0.5,1,other,0,0,0,0,0,2,1,0.5,3,QUALITY,1,2,0.718
+27-153_big-1,Muna,big,nobhala,1,7,3,0.4286,1,other,0,0,0,1,0,2,1,0.7143,4,QUALITY,1,2,0.718
+27-154_short-1,Muna,short,nopanda,1,7,3,0.4286,1,other,0,1,0,1,0,55,1,0.4286,3,QUALITY,1,2,0.718
+27-154_short-2,Muna,short,nongkubu,1,8,3,0.375,1,other,0,1,0,1,0,2,1,0.4286,3,QUALITY,1,2,0.718
+27-155_long-1,Muna,long,newanta,1,7,3,0.4286,1,other,0,1,0,1,0,2,1,0.125,1,QUALITY,1,2,0.718
+27-156_thin-1,Muna,thin,nonifi,1,6,3,0.5,1,other,0,0,0,0,0,662,1,0.0,0,QUALITY,1,2,0.718
+27-157_thick-1,Muna,thick,nokapa,1,6,3,0.5,1,other,0,0,0,0,0,129,1,0.1667,1,QUALITY,1,2,0.718
+27-158_narrow-1,Muna,narrow,noseke,1,6,3,0.5,1,other,0,0,0,0,0,5,1,0.4286,3,QUALITY,1,2,0.718
+27-159_wide-1,Muna,wide,noware,1,6,3,0.5,1,other,0,0,0,0,0,2,1,0.3333,2,QUALITY,1,2,0.718
+27-160_painfulsick-1,Muna,"painful, sick",nolea,1,5,3,0.6,1,other,0,0,0,0,0,2,1,0.3333,2,QUALITY,1,2,0.718
+27-161_shyashamed-1,Muna,"shy, ashamed",noambano,1,8,4,0.5,1,other,0,1,0,1,0,2,1,0.1667,1,QUALITY,1,2,0.718
+27-162_old-1,Muna,old,nokamokula,1,10,5,0.5,1,other,0,0,0,0,0,3,1,0.2857,2,QUALITY,1,2,0.718
+27-163_new-1,Muna,new,nobughou,1,8,4,0.5,1,other,0,0,0,1,0,796,1,0.1667,1,QUALITY,1,2,0.718
+27-164_good-1,Muna,good,netaa,1,5,3,0.6,1,other,0,0,0,0,0,2,1,0.4286,3,QUALITY,1,2,0.718
+27-165_badevil-1,Muna,"bad, evil",nodaediu,1,8,5,0.625,1,other,0,0,0,0,0,829,1,0.3333,2,QUALITY,1,2,0.718
+27-166_correcttrue-1,Muna,"correct, true",kotughu,1,7,3,0.4286,1,k,0,0,0,1,0,78,1,0.1667,1,QUALITY,1,2,0.718
+27-167_night-1,Muna,night,korondoha,1,9,4,0.4444,1,k,0,1,0,1,0,2,1,0.1429,1,OTHER,1,2,0.718
+27-167_night-2,Muna,night,alo,1,3,2,0.6667,1,a,0,0,0,0,0,21,1,0.1429,1,OTHER,1,2,0.718
+27-168_day-1,Muna,day,gholeo,1,6,3,0.5,1,other,0,0,0,1,0,2,1,0.1667,1,OTHER,1,2,0.718
+27-169_year-1,Muna,year,taghu,1,5,2,0.4,1,t,0,0,0,1,1,426,1,0.0,0,OTHER,1,2,0.718
+27-170_when-1,Muna,when?,indefie,1,7,4,0.5714,1,other,0,1,0,1,0,484,2,0.1429,1,GRAMMAR,1,2,0.718
+27-170_when-2,Muna,when?,ne|fie,1,6,3,0.5,1,other,0,0,0,0,0,484,2,0.1429,1,GRAMMAR,1,2,0.718
+27-171_tohide-1,Muna,to hide,aekope,0,6,4,0.6667,1,a,0,0,0,0,0,0,0,0.5714,4,ACTION,1,2,0.718
+27-172_toclimb-1,Muna,to climb,a|foni,1,6,3,0.5,1,a,0,0,0,0,0,126,1,0.1667,1,ACTION,1,2,0.718
+27-173_at-1,Muna,at,we,1,2,1,0.5,1,other,0,0,0,0,0,461,1,0.0,0,GRAMMAR,1,2,0.718
+27-173_at-2,Muna,at,te,1,2,1,0.5,1,t,0,0,0,0,0,461,1,0.0,0,GRAMMAR,1,2,0.718
+27-173_at-3,Muna,at,ne,1,2,1,0.5,1,other,0,0,0,0,0,18,1,0.0,0,GRAMMAR,1,2,0.718
+27-174_ininside-1,Muna,"in, inside",we lalo,1,7,3,0.4286,1,other,0,0,0,0,0,592,1,0.1429,1,GRAMMAR,1,2,0.718
+27-174_ininside-2,Muna,"in, inside",welo,1,4,2,0.5,1,other,0,0,0,0,0,592,1,0.1429,1,GRAMMAR,1,2,0.718
+27-175_above-1,Muna,above,te wawo,1,7,3,0.4286,1,t,0,0,0,0,0,200,1,0.1429,1,GRAMMAR,1,2,0.718
+27-176_below-1,Muna,below,we panda,0,8,3,0.375,1,other,0,1,0,1,0,0,0,0.5714,4,GRAMMAR,1,2,0.718
+27-177_this-1,Muna,this,aini,1,4,3,0.75,1,a,0,0,0,0,0,500,1,0.3333,2,GRAMMAR,1,2,0.718
+27-178_that-1,Muna,that,aitu,1,4,3,0.75,1,a,0,0,0,0,0,75,1,0.3333,3,GRAMMAR,1,2,0.718
+27-179_near-1,Muna,near,nomaho,1,6,3,0.5,1,other,0,0,0,0,0,2,1,0.4286,3,GRAMMAR,1,2,0.718
+27-180_far-1,Muna,far,nokodoho,1,8,4,0.5,1,other,0,0,0,0,0,4,1,0.3333,2,GRAMMAR,1,2,0.718
+27-181_where-1,Muna,where?,nahamai,1,7,4,0.5714,1,other,0,0,0,0,1,3,1,0.5714,4,GRAMMAR,1,2,0.718
+27-181_where-2,Muna,where?,nehamai,1,7,4,0.5714,1,other,0,0,0,0,0,3,1,0.5714,4,GRAMMAR,1,2,0.718
+27-182_i-1,Muna,I,inodi,1,5,3,0.6,1,other,0,0,0,0,0,2,1,0.1667,1,GRAMMAR,1,2,0.718
+27-183_thou-1,Muna,thou,ihintu,1,6,3,0.5,1,other,0,1,0,1,0,2,1,0.1667,1,GRAMMAR,1,2,0.718
+27-184_heshe-1,Muna,he/she,anoa,1,4,3,0.75,1,a,0,0,0,0,0,4,1,0.2857,1,GRAMMAR,1,2,0.718
+27-185_we-1,Muna,we,intaidi,1,7,4,0.5714,1,other,0,1,0,1,0,4,1,0.0,0,OTHER,0,2,0.718
+27-185_we-2,Muna,we,insaidi,1,7,4,0.5714,1,other,0,0,0,1,0,4,1,0.0,0,OTHER,0,2,0.718
+27-186_you-1,Muna,you,ihintuumu,1,9,5,0.5556,1,other,0,1,0,1,0,2,1,0.1667,1,GRAMMAR,1,2,0.718
+27-187_they-1,Muna,they,andoa,1,5,3,0.6,1,a,0,1,0,1,0,5,1,0.7143,4,GRAMMAR,1,2,0.718
+27-188_what-1,Muna,what?,ohae,1,4,3,0.75,1,other,0,0,0,0,0,5,1,0.1667,1,GRAMMAR,1,2,0.718
+27-189_who-1,Muna,who?,la|hae,1,6,3,0.5,1,other,0,0,0,0,0,1036,1,0.5,3,GRAMMAR,1,2,0.718
+27-190_other-1,Muna,other,sigaahano,1,9,5,0.5556,1,s,0,0,0,0,0,2,1,0.8,4,GRAMMAR,1,2,0.718
+27-191_all-1,Muna,all,kosibhari-bharihae,1,18,8,0.4444,1,k,0,0,1,2,0,3,1,0.4286,3,GRAMMAR,1,2,0.718
+27-192_and-1,Muna,and,bhe,0,3,1,0.3333,1,b,0,0,0,1,0,0,0,0.375,3,GRAMMAR,1,2,0.718
+27-193_if-1,Muna,if,ane,1,3,2,0.6667,1,a,0,0,0,0,0,10,1,0.75,5,GRAMMAR,1,2,0.718
+27-194_how-1,Muna,how?,pedahai,0,7,4,0.5714,1,p,0,0,0,0,0,0,0,0.5714,3,GRAMMAR,1,2,0.718
+27-194_how-2,Muna,how?,pedahamai,0,9,5,0.5556,1,p,0,0,0,0,0,0,0,0.5714,3,GRAMMAR,1,2,0.718
+27-195_nonot-1,Muna,"no, not",miina,1,5,3,0.6,1,m,0,0,0,0,0,2,1,0.5714,3,GRAMMAR,1,2,0.718
+27-196_tocount-1,Muna,to count,aefeapi,0,7,5,0.7143,1,a,0,0,0,0,0,0,0,0.3333,2,ACTION,1,2,0.718
+27-197_one-1,Muna,One,ise,1,3,2,0.6667,1,other,0,0,0,0,0,643,1,0.1429,1,NUMBER,1,2,0.718
+27-198_two-1,Muna,Two,dua,1,3,2,0.6667,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,2,0.718
+27-198_two-2,Muna,Two,rua pulo,1,8,4,0.5,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,2,0.718
+27-199_three-1,Muna,Three,tolu,1,4,2,0.5,1,t,0,0,0,0,0,1402,1,0.0,0,NUMBER,1,2,0.718
+27-200_four-1,Muna,Four,paa,1,3,2,0.6667,1,p,0,0,0,0,1,1308,1,0.1429,1,NUMBER,1,2,0.718
+27-201_five-1,Muna,Five,dima,1,4,2,0.5,1,other,0,0,0,0,0,1232,1,0.0,0,NUMBER,1,2,0.718
+27-203_seven-1,Muna,Seven,pitu,1,4,2,0.5,1,p,0,0,0,0,0,702,1,0.0,0,NUMBER,0,2,0.718
+27-204_eight-1,Muna,Eight,walu,1,4,2,0.5,1,other,0,0,0,0,0,573,1,0.5,3,NUMBER,0,2,0.718
+27-205_nine-1,Muna,Nine,siwa,1,4,2,0.5,1,s,0,0,0,0,0,505,1,0.0,0,NUMBER,0,2,0.718
+27-210_onethousand-1,Muna,One Thousand,riwu,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.8333,5,NUMBER,0,2,0.718
+48-1_hand-1,Bugis,hand,lima,1,4,2,0.5,1,other,0,0,0,0,0,1102,2,0.0,0,BODY,1,0,0.777
+48-2_left-1,Bugis,left,abeo,1,4,3,0.75,1,a,0,0,0,0,0,2,1,0.0,0,OTHER,0,0,0.777
+48-2_left-2,Bugis,left,abio,1,4,3,0.75,1,a,0,0,0,0,0,2,1,0.0,0,OTHER,0,0,0.777
+48-3_right-1,Bugis,right,atau,1,4,3,0.75,1,a,0,0,0,0,0,452,2,0.0,0,OTHER,0,0,0.777
+48-4_legfoot-1,Bugis,leg/foot,aje,1,3,2,0.6667,1,a,0,0,0,0,0,559,1,0.3333,2,BODY,1,0,0.777
+48-5_towalk-1,Bugis,to walk,joppa,0,5,2,0.4,1,other,0,0,0,1,0,0,0,0.2857,1,ACTION,1,0,0.777
+48-5_towalk-2,Bugis,to walk,jokka,0,5,2,0.4,1,other,0,0,0,1,0,0,0,0.2857,1,ACTION,1,0,0.777
+48-6_roadpath-1,Bugis,road/path,laləŋ,1,5,2,0.4,0,other,0,1,0,0,0,991,1,0.3333,2,NATURE,1,0,0.777
+48-7_tocome-1,Bugis,to come,lao komai,1,9,5,0.5556,1,other,0,0,0,0,0,1125,1,0.625,4,ACTION,1,0,0.777
+48-8_toturn-1,Bugis,to turn,ləsu,1,4,2,0.5,1,other,0,0,0,0,0,36,1,0.5,3,ACTION,1,0,0.777
+48-9_toswim-1,Bugis,to swim,naŋe,1,4,2,0.5,1,other,0,1,0,0,1,388,1,0.1667,1,ACTION,1,0,0.777
+48-10_dirty-1,Bugis,dirty,ma-rotaʔ,1,8,3,0.375,0,m,1,0,1,0,1,13,1,0.1667,1,NATURE,0,0,0.777
+48-11_dust-1,Bugis,dust,awu,1,3,2,0.6667,1,a,0,0,0,0,0,377,1,0.1429,1,NATURE,0,0,0.777
+48-12_skin-1,Bugis,skin,oli,1,3,2,0.6667,1,other,0,0,0,0,0,720,1,0.1429,1,BODY,1,0,0.777
+48-12_skin-2,Bugis,skin,uli,1,3,2,0.6667,1,other,0,0,0,0,0,720,1,0.1429,1,BODY,1,0,0.777
+48-13_back-1,Bugis,back,aləkkəʔ,1,7,3,0.4286,0,a,1,0,0,1,0,129,1,0.375,3,BODY,1,0,0.777
+48-13_back-2,Bugis,back,monri,0,5,2,0.4,1,m,0,0,0,1,1,0,0,0.375,3,BODY,1,0,0.777
+48-14_belly-1,Bugis,belly,baua,0,4,3,0.75,1,b,0,0,0,0,0,0,0,0.1667,1,BODY,1,0,0.777
+48-15_bone-1,Bugis,bone,buku,1,4,2,0.5,1,b,0,0,0,0,0,78,1,0.0,0,BODY,1,0,0.777
+48-16_intestines-1,Bugis,intestines,paruu,1,5,3,0.6,1,p,0,0,0,0,1,22,1,0.5714,4,BODY,1,0,0.777
+48-16_intestines-2,Bugis,intestines,pəruu,1,5,3,0.6,1,p,0,0,0,0,0,22,1,0.5714,4,BODY,1,0,0.777
+48-17_liver-1,Bugis,liver,ate,1,3,2,0.6667,1,a,0,0,0,0,0,828,1,0.0,0,BODY,1,0,0.777
+48-18_breast-1,Bugis,breast,susu,1,4,2,0.5,1,s,0,0,1,0,0,1122,1,0.0,0,BODY,1,0,0.777
+48-19_shoulder-1,Bugis,shoulder,salaŋkaŋ,1,8,3,0.375,0,s,0,1,0,1,0,356,1,0.1429,1,BODY,1,0,0.777
+48-20_toknowbeknowledgeable-1,Bugis,"to know, be knowledgeable",issəŋ,1,5,2,0.4,0,other,0,1,0,1,0,3,1,0.1667,1,ACTION,0,0,0.777
+48-21_tothink-1,Bugis,to think,man-nawa nawa,1,13,5,0.3846,1,m,0,0,1,0,1,2,1,0.5,3,ACTION,0,0,0.777
+48-22_tofear-1,Bugis,to fear,metauu,1,6,4,0.6667,1,m,0,0,0,0,1,738,1,0.3333,2,ACTION,0,0,0.777
+48-23_blood-1,Bugis,blood,dara,1,4,2,0.5,1,other,0,0,0,0,0,929,1,0.1667,1,BODY,1,0,0.777
+48-24_head-1,Bugis,head,ulu,1,3,2,0.6667,1,other,0,0,0,0,0,746,1,0.1667,1,BODY,1,0,0.777
+48-25_neck-1,Bugis,neck,əlloŋ,1,5,2,0.4,0,other,0,1,0,1,0,30,1,0.1667,1,BODY,1,0,0.777
+48-26_hair-1,Bugis,hair,gəmməʔ,0,6,2,0.3333,0,other,1,0,0,1,0,0,0,0.1667,1,BODY,1,0,0.777
+48-27_nose-1,Bugis,nose,iŋəʔ,1,4,2,0.5,0,other,1,1,0,0,0,2,1,0.1667,1,BODY,1,0,0.777
+48-28_tobreathe-1,Bugis,to breathe,mañ-ñawa,1,8,3,0.375,1,m,0,0,1,0,1,188,1,0.5714,3,ACTION,0,0,0.777
+48-29_tosniffsmell-1,Bugis,"to sniff, smell",maŋ-əmmau,1,9,4,0.4444,1,m,0,1,1,1,1,15,1,0.3333,2,ACTION,0,0,0.777
+48-30_mouth-1,Bugis,mouth,bawa,1,4,2,0.5,1,b,0,0,0,0,0,275,1,0.3333,2,BODY,1,0,0.777
+48-31_tooth-1,Bugis,tooth,isi,1,3,2,0.6667,1,other,0,0,0,0,0,118,2,0.0,0,BODY,1,0,0.777
+48-32_tongue-1,Bugis,tongue,lila,1,4,2,0.5,1,other,0,0,0,0,0,393,1,0.0,0,BODY,1,0,0.777
+48-33_tolaugh-1,Bugis,to laugh,macawa,1,6,3,0.5,1,m,0,0,0,0,1,118,1,0.3333,2,ACTION,1,0,0.777
+48-34_tocry-1,Bugis,to cry,tarii,1,5,3,0.6,1,t,0,0,0,0,1,1046,1,0.375,2,ACTION,1,0,0.777
+48-34_tocry-2,Bugis,to cry,tərii,1,5,3,0.6,1,t,0,0,0,0,0,1046,1,0.375,2,ACTION,1,0,0.777
+48-35_tovomit-1,Bugis,to vomit,tal-lua,1,7,3,0.4286,1,t,0,0,1,0,1,592,1,0.4286,2,ACTION,1,0,0.777
+48-36_tospit-1,Bugis,to spit,mam-meccu,1,9,3,0.3333,1,m,0,0,1,1,1,2,1,0.4286,3,ACTION,0,0,0.777
+48-36_tospit-2,Bugis,to spit,mam-miccu,1,9,3,0.3333,1,m,0,0,1,1,1,2,1,0.4286,3,ACTION,0,0,0.777
+48-37_toeat-1,Bugis,to eat,manre,0,5,2,0.4,1,m,0,0,0,1,1,0,0,0.1667,1,ACTION,1,0,0.777
+48-38_tochew-1,Bugis,to chew,ota,1,3,2,0.6667,1,other,0,0,0,0,0,3,1,0.5,3,ACTION,0,0,0.777
+48-39_tocook-1,Bugis,to cook,man-nasu,1,8,3,0.375,1,m,0,0,1,0,1,65,1,0.3333,2,ACTION,0,0,0.777
+48-40_todrink-1,Bugis,to drink,menuŋ,1,5,2,0.4,0,m,0,1,0,0,1,1156,1,0.2857,2,ACTION,1,0,0.777
+48-40_todrink-2,Bugis,to drink,minuŋ,1,5,2,0.4,0,m,0,1,0,0,0,1156,1,0.2857,2,ACTION,1,0,0.777
+48-41_tobite-1,Bugis,to bite,mak-kokko,1,9,3,0.3333,1,m,0,0,1,1,1,656,2,0.625,3,ACTION,1,0,0.777
+48-42_tosuck-1,Bugis,to suck,maŋ-iso,1,7,3,0.4286,1,m,0,1,1,0,1,333,1,0.0,0,OTHER,0,0,0.777
+48-43_ear-1,Bugis,ear,doccili,0,7,3,0.4286,1,other,0,0,0,1,0,0,0,0.1667,1,BODY,0,0,0.777
+48-44_tohear-1,Bugis,to hear,mar-eŋkaliŋa,1,12,5,0.4167,1,m,0,1,1,1,1,988,2,0.1667,1,ACTION,1,0,0.777
+48-45_eye-1,Bugis,eye,mata,1,4,2,0.5,1,m,0,0,0,0,1,1471,1,0.0,0,BODY,0,0,0.777
+48-46_tosee-1,Bugis,to see,mak-kita,1,8,3,0.375,1,m,0,0,1,0,1,370,1,0.875,5,ACTION,1,0,0.777
+48-47_toyawn-1,Bugis,to yawn,maŋ-aleale,0,10,5,0.5,1,m,0,1,1,0,1,0,0,1.0,4,ACTION,0,0,0.777
+48-48_tosleep-1,Bugis,to sleep,ma-tinro,1,8,3,0.375,1,m,0,0,1,1,1,5,1,0.5,3,ACTION,1,0,0.777
+48-49_toliedown-1,Bugis,to lie down,lewuu,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.5714,3,ACTION,1,0,0.777
+48-49_toliedown-2,Bugis,to lie down,liwuu,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.5714,3,ACTION,1,0,0.777
+48-50_todream-1,Bugis,to dream,nipi,1,4,2,0.5,1,other,0,0,0,0,0,356,1,0.3333,2,ACTION,0,0,0.777
+48-51_tosit-1,Bugis,to sit,tudaŋ,1,5,2,0.4,0,t,0,1,0,0,0,69,1,0.5714,4,ACTION,1,0,0.777
+48-52_tostand-1,Bugis,to stand,təttoŋ,0,6,2,0.3333,0,t,0,1,0,1,0,0,0,0.8333,5,ACTION,1,0,0.777
+48-53_personhumanbeing-1,Bugis,person/human being,tau,1,3,2,0.6667,1,t,0,0,0,0,1,618,1,0.1667,1,OTHER,1,0,0.777
+48-54_manmale-1,Bugis,man/male,orane,1,5,3,0.6,1,other,0,0,0,0,0,703,1,0.1429,1,OTHER,1,0,0.777
+48-54_manmale-2,Bugis,man/male,burane,1,6,3,0.5,1,b,0,0,0,0,0,703,1,0.1429,1,OTHER,1,0,0.777
+48-55_womanfemale-1,Bugis,woman/female,makunrai,0,8,4,0.5,1,m,0,0,0,1,1,0,0,0.1667,1,OTHER,1,0,0.777
+48-56_child-1,Bugis,child,anaʔ,1,4,2,0.5,0,a,1,0,0,0,0,450,1,0.1667,1,OTHER,1,0,0.777
+48-57_husband-1,Bugis,husband,lakkai,1,6,3,0.5,1,other,0,0,0,1,0,47,1,0.3333,2,OTHER,1,0,0.777
+48-58_wife-1,Bugis,wife,baine,1,5,3,0.6,1,b,0,0,0,0,0,223,1,0.5714,3,OTHER,1,0,0.777
+48-59_mother-1,Bugis,mother,indoʔ,1,5,2,0.4,0,other,1,1,0,1,0,27,1,0.0,0,OTHER,1,0,0.777
+48-60_father-1,Bugis,father,amboʔ,1,5,2,0.4,0,a,1,1,0,1,0,17,1,0.1667,1,OTHER,1,0,0.777
+48-61_house-1,Bugis,house,bola,1,4,2,0.5,1,b,0,0,0,0,0,581,1,0.1667,1,OTHER,1,0,0.777
+48-62_thatchroof-1,Bugis,thatch/roof,pabbiŋəŋ,0,8,3,0.375,0,p,0,1,0,1,1,0,0,0.5,3,OTHER,0,0,0.777
+48-63_name-1,Bugis,name,asəŋ,1,4,2,0.5,0,a,0,1,0,0,0,1151,2,0.3333,2,OTHER,1,0,0.777
+48-64_tosay-1,Bugis,to say,mak-kədaa,0,9,4,0.4444,1,m,0,0,1,0,1,0,0,0.6667,5,ACTION,1,0,0.777
+48-64_tosay-2,Bugis,to say,pau,0,3,2,0.6667,1,p,0,0,0,0,1,0,0,0.6667,5,ACTION,1,0,0.777
+48-65_rope-1,Bugis,rope,tulu,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.7143,5,OTHER,1,0,0.777
+48-66_totieupfasten-1,Bugis,"to tie up, fasten",mas-sio,0,7,3,0.4286,1,m,0,0,1,0,1,0,0,0.8333,5,ACTION,0,0,0.777
+48-67_tosew-1,Bugis,to sew,maʔ-jai,1,7,3,0.4286,1,m,1,0,1,0,1,218,1,0.5,3,ACTION,1,0,0.777
+48-68_needle-1,Bugis,needle,jaruŋ,1,5,2,0.4,0,other,0,1,0,0,0,317,1,0.1667,1,OTHER,1,0,0.777
+48-69_tohunt-1,Bugis,to hunt,rəŋŋəŋ,0,6,2,0.3333,0,other,0,1,0,1,0,0,0,1.0,4,ACTION,1,0,0.777
+48-70_toshoot-1,Bugis,to shoot,maʔ-balliliʔ,1,12,4,0.3333,0,m,1,0,1,1,1,2,1,0.0,0,OTHER,0,0,0.777
+48-71_tostabpierce-1,Bugis,"to stab, pierce",maʔ-gajaŋ,0,9,3,0.3333,0,m,1,1,1,0,1,0,0,0.375,2,ACTION,0,0,0.777
+48-71_tostabpierce-2,Bugis,"to stab, pierce",soppaʔ,0,6,2,0.3333,0,s,1,0,0,1,0,0,0,0.375,2,ACTION,0,0,0.777
+48-72_tohit-1,Bugis,to hit,tətteʔ,0,6,2,0.3333,0,t,1,0,0,1,0,0,0,1.0,6,ACTION,1,0,0.777
+48-73_tosteal-1,Bugis,to steal,mennau,0,6,3,0.5,1,m,0,0,0,1,1,0,0,0.6667,4,ACTION,1,0,0.777
+48-74_tokill-1,Bugis,to kill,maʔ-buno,1,8,3,0.375,1,m,1,0,1,0,1,338,1,0.0,0,ACTION,1,0,0.777
+48-75_todiebedead-1,Bugis,"to die, be dead",mate,1,4,2,0.5,1,m,0,0,0,0,1,1291,1,0.0,0,ACTION,1,0,0.777
+48-76_tolivebealive-1,Bugis,"to live, be alive",tuo,1,3,2,0.6667,1,t,0,0,0,0,0,3,1,0.3333,2,ACTION,1,0,0.777
+48-77_toscratch-1,Bugis,to scratch,mak-kakkaŋ,1,10,3,0.3,0,m,0,1,1,1,1,6,1,0.125,1,ACTION,0,0,0.777
+48-78_tocuthack-1,Bugis,"to cut, hack",təttaʔ,1,6,2,0.3333,0,t,1,0,0,1,0,96,1,0.625,3,ACTION,1,0,0.777
+48-79_stickwood-1,Bugis,stick/wood,aju,1,3,2,0.6667,1,a,0,0,0,0,0,1202,1,0.1667,1,OTHER,1,0,0.777
+48-80_tosplit-1,Bugis,to split,pueʔ,0,4,2,0.5,0,p,1,0,0,0,0,0,0,0.5,3,ACTION,1,0,0.777
+48-80_tosplit-2,Bugis,to split,pue,0,3,2,0.6667,1,p,0,0,0,0,0,0,0,0.5,3,ACTION,1,0,0.777
+48-81_sharp-1,Bugis,sharp,ma-tarəŋ,1,8,3,0.375,0,m,0,1,1,0,1,244,1,0.1667,1,QUALITY,1,0,0.777
+48-82_dullblunt-1,Bugis,"dull, blunt",ma-kunru,0,8,3,0.375,1,m,0,0,1,1,1,0,0,0.8,4,QUALITY,1,0,0.777
+48-83_towork-1,Bugis,to work,maʔ-jama,1,8,3,0.375,1,m,1,0,1,0,1,5,1,0.1667,1,ACTION,1,0,0.777
+48-84_toplant-1,Bugis,to plant,tanəŋ,1,5,2,0.4,0,t,0,1,0,0,1,234,1,0.2857,2,ACTION,1,0,0.777
+48-85_tochoose-1,Bugis,to choose,mile,1,4,2,0.5,1,m,0,0,0,0,0,444,1,0.1667,1,ACTION,1,0,0.777
+48-86_togrow-1,Bugis,to grow,tuo,1,3,2,0.6667,1,t,0,0,0,0,0,271,1,0.3333,2,ACTION,1,0,0.777
+48-87_toswell-1,Bugis,to swell,bəkkaʔ,1,6,2,0.3333,0,b,1,0,0,1,0,31,1,0.375,2,ACTION,1,0,0.777
+48-88_tosqueeze-1,Bugis,to squeeze,tassipi,0,7,3,0.4286,1,t,0,0,0,1,1,0,0,0.3333,2,ACTION,1,0,0.777
+48-89_tohold-1,Bugis,to hold,mak-katənni,0,11,4,0.3636,1,m,0,0,1,1,1,0,0,0.75,5,ACTION,1,0,0.777
+48-89_tohold-2,Bugis,to hold,warəkkəŋ,0,8,3,0.375,0,other,0,1,0,1,0,0,0,0.75,5,ACTION,1,0,0.777
+48-89_tohold-3,Bugis,to hold,gəŋkəŋ,1,6,2,0.3333,0,other,0,1,0,1,0,76,1,0.75,5,ACTION,1,0,0.777
+48-90_todig-1,Bugis,to dig,mak-kae,1,7,3,0.4286,1,m,0,0,1,0,1,799,1,0.3333,2,ACTION,1,0,0.777
+48-91_tobuy-1,Bugis,to buy,əlli,1,4,2,0.5,1,other,0,0,0,1,0,394,1,0.1667,1,ACTION,1,0,0.777
+48-92_toopenuncover-1,Bugis,"to open, uncover",timpaʔ,0,6,2,0.3333,0,t,1,1,0,1,0,0,0,0.4286,3,ACTION,1,0,0.777
+48-92_toopenuncover-2,Bugis,"to open, uncover",buka,1,4,2,0.5,1,b,0,0,0,0,0,239,1,0.4286,3,ACTION,1,0,0.777
+48-93_topoundbeat-1,Bugis,"to pound, beat",man-nampuʔ,1,10,3,0.3,0,m,1,1,1,1,1,5,1,0.375,2,ACTION,1,0,0.777
+48-93_topoundbeat-2,Bugis,"to pound, beat",təttuʔ,1,6,2,0.3333,0,t,1,0,0,1,0,143,1,0.375,2,ACTION,1,0,0.777
+48-94_tothrow-1,Bugis,to throw,maʔ-dempəʔ,0,10,3,0.3,0,m,1,1,1,1,1,0,0,0.7143,5,ACTION,1,0,0.777
+48-95_tofall-1,Bugis,to fall,mabuəŋ,0,6,3,0.5,0,m,0,1,0,0,1,0,0,0.8,4,ACTION,1,0,0.777
+48-96_dog-1,Bugis,dog,asu,1,3,2,0.6667,1,a,0,0,0,0,0,341,1,0.3333,2,OTHER,1,0,0.777
+48-97_bird-1,Bugis,bird,manuʔ manuʔ,1,11,4,0.3636,0,m,1,0,0,0,1,971,1,0.1667,1,OTHER,1,0,0.777
+48-98_egg-1,Bugis,egg,təllo,1,5,2,0.4,1,t,0,0,0,1,0,776,1,0.3333,2,BODY,1,0,0.777
+48-99_feather-1,Bugis,feather,bulu,1,4,2,0.5,1,b,0,0,0,0,0,647,1,0.1667,1,BODY,1,0,0.777
+48-100_wing-1,Bugis,wing,panni,1,5,2,0.4,1,p,0,0,0,1,1,233,1,0.3333,2,BODY,0,0,0.777
+48-101_tofly-1,Bugis,to fly,luttu,0,5,2,0.4,1,other,0,0,0,1,0,0,0,0.5,3,ACTION,1,0,0.777
+48-102_rat-1,Bugis,rat,balawo,1,6,3,0.5,1,b,0,0,0,0,0,363,1,0.1429,1,OTHER,1,0,0.777
+48-103_meatflesh-1,Bugis,meat/flesh,juku,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.3333,2,BODY,1,0,0.777
+48-104_fatgrease-1,Bugis,fat/grease,lunraʔ,0,6,2,0.3333,0,other,1,0,0,1,0,0,0,0.1667,1,BODY,1,0,0.777
+48-105_tail-1,Bugis,tail,ikkoʔ,1,5,2,0.4,0,other,1,0,0,1,0,454,1,0.3333,2,BODY,1,0,0.777
+48-106_snake-1,Bugis,snake,ula,1,3,2,0.6667,1,other,0,0,0,0,0,229,1,0.0,0,OTHER,1,0,0.777
+48-107_wormearthworm-1,Bugis,worm (earthworm),lati,1,4,2,0.5,1,other,0,0,0,0,0,131,1,0.6,3,OTHER,1,0,0.777
+48-108_louse-1,Bugis,louse,utu,1,3,2,0.6667,1,other,0,0,0,0,0,1230,1,0.0,0,OTHER,1,0,0.777
+48-109_mosquito-1,Bugis,mosquito,namoʔ,1,5,2,0.4,0,other,1,0,0,0,1,955,1,0.2857,2,OTHER,1,0,0.777
+48-110_spider-1,Bugis,spider,garaŋkaŋ,1,8,3,0.375,0,other,0,1,0,1,0,3,1,0.0,0,OTHER,0,0,0.777
+48-110_spider-2,Bugis,spider,lawa-lawa,1,9,4,0.4444,1,other,0,0,1,0,0,375,1,0.0,0,OTHER,0,0,0.777
+48-111_fish-1,Bugis,fish,bale,1,4,2,0.5,1,b,0,0,0,0,0,3,1,0.1429,1,OTHER,1,0,0.777
+48-112_rotten-1,Bugis,rotten,ma-kəbboŋ,0,9,3,0.3333,0,m,0,1,1,1,1,0,0,0.5,3,QUALITY,0,0,0.777
+48-113_branch-1,Bugis,branch,takke,1,5,2,0.4,1,t,0,0,0,1,1,4,1,0.0,0,OTHER,0,0,0.777
+48-114_leaf-1,Bugis,leaf,dauŋ,1,4,2,0.5,0,other,0,1,0,0,0,762,1,0.5,3,NATURE,1,0,0.777
+48-115_root-1,Bugis,root,urəʔ,1,4,2,0.5,0,other,1,0,0,0,0,37,1,0.3333,2,NATURE,1,0,0.777
+48-116_flower-1,Bugis,flower,buŋa,1,4,2,0.5,1,b,0,1,0,0,0,322,1,0.1429,1,NATURE,1,0,0.777
+48-117_fruit-1,Bugis,fruit,bua,1,3,2,0.6667,1,b,0,0,0,0,0,832,1,0.1667,1,NATURE,1,0,0.777
+48-118_grass-1,Bugis,grass,sarii,0,5,3,0.6,1,s,0,0,0,0,0,0,0,0.7143,4,NATURE,1,0,0.777
+48-118_grass-2,Bugis,grass,sərii,0,5,3,0.6,1,s,0,0,0,0,0,0,0,0.7143,4,NATURE,1,0,0.777
+48-119_earthsoil-1,Bugis,earth/soil,tana,1,4,2,0.5,1,t,0,0,0,0,1,662,1,0.0,0,NATURE,1,0,0.777
+48-120_stone-1,Bugis,stone,batu,1,4,2,0.5,1,b,0,0,0,0,0,1145,1,0.0,0,NATURE,1,0,0.777
+48-121_sand-1,Bugis,sand,kəssiʔ,1,6,2,0.3333,0,k,1,0,0,1,0,13,1,0.0,0,NATURE,1,0,0.777
+48-122_water-1,Bugis,water,uae,1,3,3,1.0,1,other,0,0,0,0,0,673,1,0.3333,2,NATURE,1,0,0.777
+48-123_toflow-1,Bugis,to flow,mas-soloʔ,1,9,3,0.3333,0,m,1,0,1,0,1,4,1,0.5,3,ACTION,1,0,0.777
+48-124_sea-1,Bugis,sea,tasiʔ,1,5,2,0.4,0,t,1,0,0,0,1,705,1,0.2857,2,NATURE,1,0,0.777
+48-125_salt-1,Bugis,salt,pəjje,0,5,2,0.4,1,p,0,0,0,1,0,0,0,0.5,3,NATURE,1,0,0.777
+48-126_lake-1,Bugis,lake,tappárəŋ,1,8,3,0.375,0,t,0,1,0,1,1,2,1,0.1667,1,NATURE,1,0,0.777
+48-127_woodsforest-1,Bugis,woods/forest,aləʔ,1,4,2,0.5,0,a,1,0,0,0,0,60,1,0.5,3,NATURE,1,0,0.777
+48-128_sky-1,Bugis,sky,laŋi,1,4,2,0.5,1,other,0,1,0,0,0,589,1,0.2857,2,NATURE,1,0,0.777
+48-129_moon-1,Bugis,moon,wuləŋ,1,5,2,0.4,0,other,0,1,0,0,0,764,1,0.0,0,NATURE,1,0,0.777
+48-129_moon-2,Bugis,moon,uləŋ,1,4,2,0.5,0,other,0,1,0,0,0,764,1,0.0,0,NATURE,1,0,0.777
+48-130_star-1,Bugis,star,wittaiŋ,1,7,3,0.4286,0,other,0,1,0,1,0,648,1,0.1429,1,NATURE,1,0,0.777
+48-130_star-2,Bugis,star,wittuiŋ,1,7,3,0.4286,0,other,0,1,0,1,0,648,1,0.1429,1,NATURE,1,0,0.777
+48-131_cloud-1,Bugis,cloud,əlluŋ,0,5,2,0.4,0,other,0,1,0,1,0,0,0,0.8333,5,NATURE,1,0,0.777
+48-132_fog-1,Bugis,fog,salewu,1,6,3,0.5,1,s,0,0,0,0,0,2,1,0.1667,1,NATURE,1,0,0.777
+48-132_fog-2,Bugis,fog,saliwu,1,6,3,0.5,1,s,0,0,0,0,0,2,1,0.1667,1,NATURE,1,0,0.777
+48-133_rain-1,Bugis,rain,bosi,1,4,2,0.5,1,b,0,0,0,0,0,2,1,0.1667,1,NATURE,1,0,0.777
+48-134_thunder-1,Bugis,thunder,guttu,1,5,2,0.4,1,other,0,0,0,1,0,37,1,0.0,0,NATURE,1,0,0.777
+48-134_thunder-2,Bugis,thunder,lətte,1,5,2,0.4,1,other,0,0,0,1,0,2,1,0.0,0,NATURE,1,0,0.777
+48-135_lightning-1,Bugis,lightning,billəʔ,1,6,2,0.3333,0,b,1,0,0,1,0,257,1,0.1429,1,NATURE,1,0,0.777
+48-136_wind-1,Bugis,wind,aŋiŋ,1,4,2,0.5,0,a,0,1,0,0,1,724,1,0.1667,1,NATURE,1,0,0.777
+48-137_toblow-1,Bugis,to blow,mat-tappoʔ,0,10,3,0.3,0,m,1,0,1,1,1,0,0,0.6667,4,ACTION,1,0,0.777
+48-138_warm-1,Bugis,warm,ma-pəlla,0,8,3,0.375,1,m,0,0,1,1,1,0,0,0.5714,4,QUALITY,1,0,0.777
+48-139_cold-1,Bugis,cold,ma-kəcceʔ,1,9,3,0.3333,0,m,1,0,1,1,1,3,1,0.3333,2,QUALITY,1,0,0.777
+48-140_dry-1,Bugis,dry,ma-rakko,1,8,3,0.375,1,m,0,0,1,1,1,132,1,0.5,3,QUALITY,1,0,0.777
+48-141_wet-1,Bugis,wet,ma-ricaʔ,0,8,3,0.375,0,m,1,0,1,0,1,0,0,0.5,3,QUALITY,1,0,0.777
+48-142_heavy-1,Bugis,heavy,ma-tanəʔ,0,8,3,0.375,0,m,1,0,1,0,1,0,0,0.6667,4,QUALITY,1,0,0.777
+48-143_fire-1,Bugis,fire,api,1,3,2,0.6667,1,a,0,0,0,0,0,831,1,0.3333,2,NATURE,1,0,0.777
+48-144_toburn-1,Bugis,to burn,mat-tunu,1,8,3,0.375,1,m,0,0,1,0,1,261,1,0.3333,2,ACTION,1,0,0.777
+48-145_smoke-1,Bugis,smoke,rumpu,1,5,2,0.4,1,other,0,1,0,1,0,12,1,0.0,0,NATURE,1,0,0.777
+48-146_ashes-1,Bugis,ashes,awu,1,3,2,0.6667,1,a,0,0,0,0,0,607,1,0.1429,1,NATURE,1,0,0.777
+48-147_black-1,Bugis,black,ma-lotoŋ,1,8,3,0.375,0,m,0,1,1,0,1,3,1,0.3333,2,QUALITY,1,0,0.777
+48-148_white-1,Bugis,white,ma-pute,1,7,3,0.4286,1,m,0,0,1,0,1,371,1,0.3333,2,QUALITY,1,0,0.777
+48-149_red-1,Bugis,red,ma-cəllaʔ,0,9,3,0.3333,0,m,1,0,1,1,1,0,0,0.6667,4,QUALITY,1,0,0.777
+48-150_yellow-1,Bugis,yellow,ma-ridi,1,7,3,0.4286,1,m,0,0,1,0,1,8,1,0.1667,1,QUALITY,1,0,0.777
+48-151_green-1,Bugis,green,ma-kudaraʔ,0,10,4,0.4,0,m,1,0,1,0,1,0,0,0.5,3,QUALITY,1,0,0.777
+48-152_small-1,Bugis,small,ma-biccuʔ,0,9,3,0.3333,0,m,1,0,1,1,1,0,0,0.5,3,QUALITY,1,0,0.777
+48-152_small-2,Bugis,small,ma-rənniʔ,0,9,3,0.3333,0,m,1,0,1,1,1,0,0,0.5,3,QUALITY,1,0,0.777
+48-153_big-1,Bugis,big,ma-raja,1,7,3,0.4286,1,m,0,0,1,0,1,45,1,0.7143,4,QUALITY,1,0,0.777
+48-154_short-1,Bugis,short,ma-poncoʔ,0,9,3,0.3333,0,m,1,1,1,1,1,0,0,0.4286,3,QUALITY,1,0,0.777
+48-155_long-1,Bugis,long,ma-lampe,1,8,3,0.375,1,m,0,1,1,1,1,3,1,0.125,1,QUALITY,1,0,0.777
+48-156_thin-1,Bugis,thin,ma-nipi,1,7,3,0.4286,1,m,0,0,1,0,1,662,1,0.0,0,QUALITY,1,0,0.777
+48-157_thick-1,Bugis,thick,ma-umpəʔ,0,8,3,0.375,0,m,1,1,1,1,1,0,0,0.1667,1,QUALITY,1,0,0.777
+48-158_narrow-1,Bugis,narrow,ma-cikkəʔ,1,9,3,0.3333,0,m,1,0,1,1,1,44,1,0.4286,3,QUALITY,1,0,0.777
+48-158_narrow-2,Bugis,narrow,ma-cipi,0,7,3,0.4286,1,m,0,0,1,0,1,0,0,0.4286,3,QUALITY,1,0,0.777
+48-159_wide-1,Bugis,wide,ma-sakka,1,8,3,0.375,1,m,0,0,1,1,1,2,1,0.3333,2,QUALITY,1,0,0.777
+48-160_painfulsick-1,Bugis,"painful, sick",pəddi,1,5,2,0.4,1,p,0,0,0,1,0,14,1,0.3333,2,QUALITY,1,0,0.777
+48-161_shyashamed-1,Bugis,"shy, ashamed",siriʔ,1,5,2,0.4,0,s,1,0,0,0,0,3,1,0.1667,1,QUALITY,1,0,0.777
+48-162_old-1,Bugis,old,ma-toa,1,6,3,0.5,1,m,0,0,1,0,1,392,1,0.2857,2,QUALITY,1,0,0.777
+48-162_old-2,Bugis,old,ma-tua,1,6,3,0.5,1,m,0,0,1,0,1,392,1,0.2857,2,QUALITY,1,0,0.777
+48-163_new-1,Bugis,new,ma-baru,1,7,3,0.4286,1,m,0,0,1,0,1,796,1,0.1667,1,QUALITY,1,0,0.777
+48-164_good-1,Bugis,good,ma-deceŋ,0,8,3,0.375,0,m,0,1,1,0,1,0,0,0.4286,3,QUALITY,1,0,0.777
+48-165_badevil-1,Bugis,"bad, evil",ma-jaa,1,6,3,0.5,1,m,0,0,1,0,1,829,1,0.3333,2,QUALITY,1,0,0.777
+48-166_correcttrue-1,Bugis,"correct, true",toŋəŋ,1,5,2,0.4,0,t,0,1,0,0,0,4,1,0.1667,1,QUALITY,1,0,0.777
+48-167_night-1,Bugis,night,wənni,1,5,2,0.4,1,other,0,0,0,1,0,949,1,0.1429,1,OTHER,1,0,0.777
+48-168_day-1,Bugis,day,əsso,1,4,2,0.5,1,other,0,0,0,1,0,319,2,0.1667,1,OTHER,1,0,0.777
+48-169_year-1,Bugis,year,tauŋ,1,4,2,0.5,0,t,0,1,0,0,1,426,1,0.0,0,OTHER,1,0,0.777
+48-170_when-1,Bugis,when?,uppanna,1,7,3,0.4286,1,other,0,0,0,2,0,484,1,0.1429,1,GRAMMAR,1,0,0.777
+48-171_tohide-1,Bugis,to hide,maʔkasubbu,0,10,4,0.4,1,m,1,0,0,2,1,0,0,0.5714,4,ACTION,1,0,0.777
+48-172_toclimb-1,Bugis,to climb,tukaʔ,1,5,2,0.4,0,t,1,0,0,0,0,5,1,0.1667,1,ACTION,1,0,0.777
+48-173_at-1,Bugis,at,ri,1,2,1,0.5,1,other,0,0,0,0,0,150,1,0.0,0,GRAMMAR,1,0,0.777
+48-174_ininside-1,Bugis,"in, inside",ri laləŋ,1,8,3,0.375,0,other,0,1,0,0,0,592,1,0.1429,1,GRAMMAR,1,0,0.777
+48-175_above-1,Bugis,above,ri aseʔ,1,7,3,0.4286,0,other,1,0,0,0,0,3,1,0.1429,1,GRAMMAR,1,0,0.777
+48-175_above-2,Bugis,above,yaséʔ,1,5,2,0.4,0,other,1,0,0,0,0,3,1,0.1429,1,GRAMMAR,1,0,0.777
+48-176_below-1,Bugis,below,ri awa,1,6,3,0.5,1,other,0,0,0,0,0,165,1,0.5714,4,GRAMMAR,1,0,0.777
+48-176_below-2,Bugis,below,yawa,1,4,2,0.5,1,other,0,0,0,0,0,165,1,0.5714,4,GRAMMAR,1,0,0.777
+48-177_this-1,Bugis,this,ia-e,1,4,3,0.75,1,other,0,0,1,0,0,9,1,0.3333,2,GRAMMAR,1,0,0.777
+48-178_that-1,Bugis,that,ia-tu,1,5,3,0.6,1,other,0,0,1,0,0,75,1,0.3333,3,GRAMMAR,1,0,0.777
+48-178_that-2,Bugis,that,ia-ro,1,5,3,0.6,1,other,0,0,1,0,0,294,1,0.3333,3,GRAMMAR,1,0,0.777
+48-179_near-1,Bugis,near,ma-caweʔ,0,8,3,0.375,0,m,1,0,1,0,1,0,0,0.4286,3,GRAMMAR,1,0,0.777
+48-180_far-1,Bugis,far,ma-bela,1,7,3,0.4286,1,m,0,0,1,0,1,4,1,0.3333,2,GRAMMAR,1,0,0.777
+48-181_where-1,Bugis,where?,kegi,0,4,2,0.5,1,k,0,0,0,0,0,0,0,0.5714,4,GRAMMAR,1,0,0.777
+48-182_i-1,Bugis,I,iaʔ,1,3,2,0.6667,0,other,1,0,0,0,0,1573,2,0.1667,1,GRAMMAR,1,0,0.777
+48-183_thou-1,Bugis,thou,iko,1,3,2,0.6667,1,other,0,0,0,0,0,1534,1,0.1667,1,GRAMMAR,1,0,0.777
+48-184_heshe-1,Bugis,he/she,ia,1,2,2,1.0,1,other,0,0,0,0,0,1440,1,0.2857,1,GRAMMAR,1,0,0.777
+48-185_we-1,Bugis,we,idiʔ,1,4,2,0.5,0,other,1,0,0,0,0,1009,1,0.0,0,OTHER,0,0,0.777
+48-185_we-2,Bugis,we,ikkəŋ,1,5,2,0.4,0,other,0,1,0,1,0,938,2,0.0,0,OTHER,0,0,0.777
+48-186_you-1,Bugis,you,iko manəŋ,1,9,4,0.4444,0,other,0,1,0,0,0,7,1,0.1667,1,GRAMMAR,1,0,0.777
+48-187_they-1,Bugis,they,ia-manəŋ,0,8,4,0.5,0,other,0,1,1,0,0,0,0,0.7143,4,GRAMMAR,1,0,0.777
+48-188_what-1,Bugis,what?,aga,1,3,2,0.6667,1,a,0,0,0,0,0,1132,1,0.1667,1,GRAMMAR,1,0,0.777
+48-189_who-1,Bugis,who?,niga,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.5,3,GRAMMAR,1,0,0.777
+48-190_other-1,Bugis,other,laiŋ,0,4,2,0.5,0,other,0,1,0,0,0,0,0,0.8,4,GRAMMAR,1,0,0.777
+48-191_all-1,Bugis,all,manəŋ,0,5,2,0.4,0,m,0,1,0,0,1,0,0,0.4286,3,GRAMMAR,1,0,0.777
+48-192_and-1,Bugis,and,sibawa,0,6,3,0.5,1,s,0,0,0,0,0,0,0,0.375,3,GRAMMAR,1,0,0.777
+48-192_and-2,Bugis,and,na,1,2,1,0.5,1,other,0,0,0,0,1,330,1,0.375,3,GRAMMAR,1,0,0.777
+48-193_if-1,Bugis,if,nakko,0,5,2,0.4,1,other,0,0,0,1,1,0,0,0.75,5,GRAMMAR,1,0,0.777
+48-193_if-2,Bugis,if,rekko,0,5,2,0.4,1,other,0,0,0,1,0,0,0,0.75,5,GRAMMAR,1,0,0.777
+48-194_how-1,Bugis,how?,pekua,1,5,3,0.6,1,p,0,0,0,0,0,63,1,0.5714,3,GRAMMAR,1,0,0.777
+48-195_nonot-1,Bugis,"no, not",de,1,2,1,0.5,1,other,0,0,0,0,0,38,1,0.5714,3,GRAMMAR,1,0,0.777
+48-196_tocount-1,Bugis,to count,bilaŋ,1,5,2,0.4,0,b,0,1,0,0,0,276,1,0.3333,2,ACTION,1,0,0.777
+48-197_one-1,Bugis,One,seʔdi,1,5,2,0.4,1,s,1,0,0,1,0,643,1,0.1429,1,NUMBER,1,0,0.777
+48-198_two-1,Bugis,Two,dua,1,3,2,0.6667,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,0,0.777
+48-199_three-1,Bugis,Three,təllu,1,5,2,0.4,1,t,0,0,0,1,0,1402,1,0.0,0,NUMBER,1,0,0.777
+48-200_four-1,Bugis,Four,əppa,1,4,2,0.5,1,other,0,0,0,1,0,1308,1,0.1429,1,NUMBER,1,0,0.777
+48-201_five-1,Bugis,Five,lima,1,4,2,0.5,1,other,0,0,0,0,0,1232,1,0.0,0,NUMBER,1,0,0.777
+48-202_six-1,Bugis,Six,ənnəŋ,1,5,2,0.4,0,other,0,1,0,1,0,699,1,0.5,2,NUMBER,0,0,0.777
+48-203_seven-1,Bugis,Seven,fitu,1,4,2,0.5,1,other,0,0,0,0,0,702,1,0.0,0,NUMBER,0,0,0.777
+48-204_eight-1,Bugis,Eight,arua,0,4,3,0.75,1,a,0,0,0,0,0,0,0,0.5,3,NUMBER,0,0,0.777
+48-205_nine-1,Bugis,Nine,asera,1,5,3,0.6,1,a,0,0,0,0,0,3,1,0.0,0,NUMBER,0,0,0.777
+48-206_ten-1,Bugis,Ten,səppulo,1,7,3,0.4286,1,s,0,0,0,1,0,782,1,0.4,2,NUMBER,0,0,0.777
+48-207_twenty-1,Bugis,Twenty,duappulo,1,8,4,0.5,1,other,0,0,0,1,0,162,2,0.8,4,NUMBER,0,0,0.777
+48-208_fifty-1,Bugis,Fifty,limappulo,1,9,4,0.4444,1,other,0,0,0,1,0,132,2,0.8,4,NUMBER,0,0,0.777
+48-209_onehundred-1,Bugis,One Hundred,səratuu,1,7,4,0.5714,1,s,0,0,0,0,0,260,1,0.8,4,NUMBER,0,0,0.777
+48-210_onethousand-1,Bugis,One Thousand,sisəbbu,1,7,3,0.4286,1,s,0,0,0,1,0,189,1,0.8333,5,NUMBER,0,0,0.777
+166-1_hand-1,Makassar,hand,lima,1,4,2,0.5,1,other,0,0,0,0,0,1102,2,0.0,0,BODY,1,1,0.779
+166-2_left-1,Makassar,left,kairi,1,5,3,0.6,1,k,0,0,0,0,1,651,2,0.0,0,OTHER,0,1,0.779
+166-3_right-1,Makassar,right,kanaŋ,1,5,2,0.4,0,k,0,1,0,0,1,384,2,0.0,0,OTHER,0,1,0.779
+166-4_legfoot-1,Makassar,leg/foot,baŋkeŋ,0,6,2,0.3333,0,b,0,1,0,1,0,0,0,0.3333,2,BODY,1,1,0.779
+166-5_towalk-1,Makassar,to walk,aʔlampa,1,7,3,0.4286,1,a,1,1,0,2,0,37,1,0.2857,1,ACTION,1,1,0.779
+166-6_roadpath-1,Makassar,road/path,agaŋ,0,4,2,0.5,0,a,0,1,0,0,0,0,0,0.3333,2,NATURE,1,1,0.779
+166-7_tocome-1,Makassar,to come,battu,0,5,2,0.4,1,b,0,0,0,1,0,0,0,0.625,4,ACTION,1,1,0.779
+166-8_toturn-1,Makassar,to turn,biluʔ,1,5,2,0.4,0,b,1,0,0,0,0,69,1,0.5,3,ACTION,1,1,0.779
+166-9_toswim-1,Makassar,to swim,aʔlaŋɛ,1,6,3,0.5,1,a,1,1,0,1,0,388,1,0.1667,1,ACTION,1,1,0.779
+166-10_dirty-1,Makassar,dirty,raʔmasaʔ,0,8,3,0.375,0,other,1,0,0,1,0,0,0,0.1667,1,NATURE,0,1,0.779
+166-11_dust-1,Makassar,dust,awu,1,3,2,0.6667,1,a,0,0,0,0,0,377,1,0.1429,1,NATURE,0,1,0.779
+166-11_dust-2,Makassar,dust,alimbuʔbuʔ,0,10,4,0.4,0,a,1,1,1,2,0,0,0,0.1429,1,NATURE,0,1,0.779
+166-12_skin-1,Makassar,skin,bukku lɛŋ,0,9,3,0.3333,0,b,0,1,0,1,0,0,0,0.1429,1,BODY,1,1,0.779
+166-13_back-1,Makassar,back,doŋkoʔ,1,6,2,0.3333,0,other,1,1,0,1,0,3,1,0.375,3,BODY,1,1,0.779
+166-14_belly-1,Makassar,belly,battaŋ,1,6,2,0.3333,0,b,0,1,0,1,0,35,1,0.1667,1,BODY,1,1,0.779
+166-15_bone-1,Makassar,bone,buku,1,4,2,0.5,1,b,0,0,0,0,0,78,1,0.0,0,BODY,1,1,0.779
+166-16_intestines-1,Makassar,intestines,parruʔ,1,6,2,0.3333,0,p,1,0,0,1,1,22,1,0.5714,4,BODY,1,1,0.779
+166-17_liver-1,Makassar,liver,atɛ,1,3,2,0.6667,1,a,0,0,0,0,0,828,1,0.0,0,BODY,1,1,0.779
+166-18_breast-1,Makassar,breast,susu,1,4,2,0.5,1,s,0,0,1,0,0,1122,1,0.0,0,BODY,1,1,0.779
+166-18_breast-2,Makassar,breast,barambaŋ,1,8,3,0.375,0,b,0,1,0,1,0,1122,1,0.0,0,BODY,1,1,0.779
+166-19_shoulder-1,Makassar,shoulder,salaŋga,1,7,3,0.4286,1,s,0,1,0,1,0,356,1,0.1429,1,BODY,1,1,0.779
+166-20_toknowbeknowledgeable-1,Makassar,"to know, be knowledgeable",issɛŋ,1,5,2,0.4,0,other,0,1,0,1,0,3,1,0.1667,1,ACTION,0,1,0.779
+166-21_tothink-1,Makassar,to think,ammikkiriʔ,0,10,4,0.4,0,a,1,0,0,2,0,0,0,0.5,3,ACTION,0,1,0.779
+166-22_tofear-1,Makassar,to fear,mallaʔ,0,6,2,0.3333,0,m,1,0,0,1,1,0,0,0.3333,2,ACTION,0,1,0.779
+166-23_blood-1,Makassar,blood,cɛraʔ,1,5,2,0.4,0,other,1,0,0,0,0,929,1,0.1667,1,BODY,1,1,0.779
+166-24_head-1,Makassar,head,ulu,1,3,2,0.6667,1,other,0,0,0,0,0,746,1,0.1667,1,BODY,1,1,0.779
+166-25_neck-1,Makassar,neck,kalloŋ,1,6,2,0.3333,0,k,0,1,0,1,1,30,1,0.1667,1,BODY,1,1,0.779
+166-26_hair-1,Makassar,hair,uʔ,1,2,1,0.5,0,other,1,0,0,0,0,297,1,0.1667,1,BODY,1,1,0.779
+166-27_nose-1,Makassar,nose,kaʔmuru,0,7,3,0.4286,1,k,1,0,0,1,1,0,0,0.1667,1,BODY,1,1,0.779
+166-28_tobreathe-1,Makassar,to breathe,aʔmaiʔ,0,6,3,0.5,0,a,1,0,0,1,0,0,0,0.5714,3,ACTION,0,1,0.779
+166-29_tosniffsmell-1,Makassar,"to sniff, smell",aŋŋaraʔ,0,7,3,0.4286,0,a,1,1,0,1,1,0,0,0.3333,2,ACTION,0,1,0.779
+166-30_mouth-1,Makassar,mouth,bawa,1,4,2,0.5,1,b,0,0,0,0,0,275,1,0.3333,2,BODY,1,1,0.779
+166-31_tooth-1,Makassar,tooth,gigi,1,4,2,0.5,1,other,0,0,1,0,0,50,1,0.0,0,BODY,1,1,0.779
+166-32_tongue-1,Makassar,tongue,lila,1,4,2,0.5,1,other,0,0,0,0,0,393,1,0.0,0,BODY,1,1,0.779
+166-33_tolaugh-1,Makassar,to laugh,ammakkalaʔ,0,10,4,0.4,0,a,1,0,0,2,0,0,0,0.3333,2,ACTION,1,1,0.779
+166-34_tocry-1,Makassar,to cry,aŋŋarruʔ,0,8,3,0.375,0,a,1,1,0,2,1,0,0,0.375,2,ACTION,1,1,0.779
+166-35_tovomit-1,Makassar,to vomit,laŋŋɛ,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.4286,2,ACTION,1,1,0.779
+166-35_tovomit-2,Makassar,to vomit,taʔlaŋŋɛ,0,8,3,0.375,1,t,1,1,0,2,1,0,0,0.4286,2,ACTION,1,1,0.779
+166-36_tospit-1,Makassar,to spit,appiʔru,0,7,3,0.4286,1,a,1,0,0,2,0,0,0,0.4286,3,ACTION,0,1,0.779
+166-37_toeat-1,Makassar,to eat,aŋŋanrɛ,1,7,3,0.4286,1,a,0,1,0,2,1,1440,1,0.1667,1,ACTION,1,1,0.779
+166-38_tochew-1,Makassar,to chew,añcaʔma,0,7,3,0.4286,1,a,1,0,0,2,0,0,0,0.5,3,ACTION,0,1,0.779
+166-39_tocook-1,Makassar,to cook,appallu,0,7,3,0.4286,1,a,0,0,0,2,0,0,0,0.3333,2,ACTION,0,1,0.779
+166-40_todrink-1,Makassar,to drink,aŋŋinuŋ,1,7,3,0.4286,0,a,0,1,0,1,1,1156,1,0.2857,2,ACTION,1,1,0.779
+166-41_tobite-1,Makassar,to bite,aŋŋokkoʔ,1,8,3,0.375,0,a,1,1,0,2,1,656,2,0.625,3,ACTION,1,1,0.779
+166-42_tosuck-1,Makassar,to suck,aŋisoʔ,1,6,3,0.5,0,a,1,1,0,0,1,333,1,0.0,0,OTHER,0,1,0.779
+166-43_ear-1,Makassar,ear,toli,1,4,2,0.5,1,t,0,0,0,0,0,13,1,0.1667,1,BODY,0,1,0.779
+166-44_tohear-1,Makassar,to hear,allaŋŋɛrɛʔ,1,10,4,0.4,0,a,1,1,0,2,0,988,1,0.1667,1,ACTION,1,1,0.779
+166-45_eye-1,Makassar,eye,mata,1,4,2,0.5,1,m,0,0,0,0,1,1471,1,0.0,0,BODY,0,1,0.779
+166-46_tosee-1,Makassar,to see,acciniʔ,0,7,3,0.4286,0,a,1,0,0,1,0,0,0,0.875,5,ACTION,1,1,0.779
+166-47_toyawn-1,Makassar,to yawn,aʔlaulau,0,8,5,0.625,1,a,1,0,1,1,0,0,0,1.0,4,ACTION,0,1,0.779
+166-48_tosleep-1,Makassar,to sleep,attinro,1,7,3,0.4286,1,a,0,0,0,2,0,5,1,0.5,3,ACTION,1,1,0.779
+166-49_toliedown-1,Makassar,to lie down,anraʔba,1,7,3,0.4286,1,a,1,0,0,2,0,3,1,0.5714,3,ACTION,1,1,0.779
+166-50_todream-1,Makassar,to dream,assoʔna,0,7,3,0.4286,1,a,1,0,0,2,0,0,0,0.3333,2,ACTION,0,1,0.779
+166-51_tosit-1,Makassar,to sit,ammempo,0,7,3,0.4286,1,a,0,1,0,2,0,0,0,0.5714,4,ACTION,1,1,0.779
+166-52_tostand-1,Makassar,to stand,ammenteŋ,0,8,3,0.375,0,a,0,1,0,2,0,0,0,0.8333,5,ACTION,1,1,0.779
+166-53_personhumanbeing-1,Makassar,person/human being,tau,1,3,2,0.6667,1,t,0,0,0,0,1,618,1,0.1667,1,OTHER,1,1,0.779
+166-54_manmale-1,Makassar,man/male,buraʔne,1,7,3,0.4286,1,b,1,0,0,1,0,703,1,0.1429,1,OTHER,1,1,0.779
+166-55_womanfemale-1,Makassar,woman/female,bainɛ,1,5,3,0.6,1,b,0,0,0,0,0,744,2,0.1667,1,OTHER,1,1,0.779
+166-56_child-1,Makassar,child,anaʔ,1,4,2,0.5,0,a,1,0,0,0,0,450,1,0.1667,1,OTHER,1,1,0.779
+166-57_husband-1,Makassar,husband,buraʔnɛ,1,7,3,0.4286,1,b,1,0,0,1,0,1,1,0.3333,2,OTHER,1,1,0.779
+166-58_wife-1,Makassar,wife,baine,1,5,3,0.6,1,b,0,0,0,0,0,223,1,0.5714,3,OTHER,1,1,0.779
+166-59_mother-1,Makassar,mother,ammaʔ,1,5,2,0.4,0,a,1,0,0,1,0,51,1,0.0,0,OTHER,1,1,0.779
+166-60_father-1,Makassar,father,maŋgɛ,0,5,2,0.4,1,m,0,1,0,1,1,0,0,0.1667,1,OTHER,1,1,0.779
+166-61_house-1,Makassar,house,ballaʔ,1,6,2,0.3333,0,b,1,0,0,1,0,581,1,0.1667,1,OTHER,1,1,0.779
+166-62_thatchroof-1,Makassar,thatch/roof,pattoŋkoʔ,0,9,3,0.3333,0,p,1,1,0,2,1,0,0,0.5,3,OTHER,0,1,0.779
+166-63_name-1,Makassar,name,areŋ,1,4,2,0.5,0,a,0,1,0,0,0,1151,1,0.3333,2,OTHER,1,1,0.779
+166-64_tosay-1,Makassar,to say,aŋkana,0,6,3,0.5,1,a,0,1,0,1,1,0,0,0.6667,5,ACTION,1,1,0.779
+166-65_rope-1,Makassar,rope,otɛrɛʔ,0,6,3,0.5,0,other,1,0,0,0,0,0,0,0.7143,5,OTHER,1,1,0.779
+166-66_totieupfasten-1,Makassar,"to tie up, fasten",aññikkoʔ,0,8,3,0.375,0,a,1,0,0,2,0,0,0,0.8333,5,ACTION,0,1,0.779
+166-67_tosew-1,Makassar,to sew,anjaiʔ,1,6,3,0.5,0,a,1,1,0,1,0,218,1,0.5,3,ACTION,1,1,0.779
+166-68_needle-1,Makassar,needle,jaruŋ,1,5,2,0.4,0,other,0,1,0,0,0,317,1,0.1667,1,OTHER,1,1,0.779
+166-69_tohunt-1,Makassar,to hunt,andoaŋ,0,6,3,0.5,0,a,0,1,0,1,0,0,0,1.0,4,ACTION,1,1,0.779
+166-70_toshoot-1,Makassar,to shoot,annembaʔ,1,8,3,0.375,0,a,1,1,0,2,0,78,1,0.0,0,OTHER,0,1,0.779
+166-71_tostabpierce-1,Makassar,"to stab, pierce",annoboʔ,0,7,3,0.4286,0,a,1,0,0,1,0,0,0,0.375,2,ACTION,0,1,0.779
+166-72_tohit-1,Makassar,to hit,annunruŋ,0,8,3,0.375,0,a,0,1,0,2,0,0,0,1.0,6,ACTION,1,1,0.779
+166-73_tosteal-1,Makassar,to steal,allukka,0,7,3,0.4286,1,a,0,0,0,2,0,0,0,0.6667,4,ACTION,1,1,0.779
+166-74_tokill-1,Makassar,to kill,ambuno,1,6,3,0.5,1,a,0,1,0,1,0,338,1,0.0,0,ACTION,1,1,0.779
+166-75_todiebedead-1,Makassar,"to die, be dead",matɛ,1,4,2,0.5,1,m,0,0,0,0,1,1291,1,0.0,0,ACTION,1,1,0.779
+166-76_tolivebealive-1,Makassar,"to live, be alive",tallasaʔ,0,8,3,0.375,0,t,1,0,0,1,1,0,0,0.3333,2,ACTION,1,1,0.779
+166-77_toscratch-1,Makassar,to scratch,aŋkaŋkaŋ,1,8,3,0.375,0,a,0,1,1,2,1,6,1,0.125,1,ACTION,0,1,0.779
+166-78_tocuthack-1,Makassar,"to cut, hack",ammoloŋ,1,7,3,0.4286,0,a,0,1,0,1,0,3,1,0.625,3,ACTION,1,1,0.779
+166-79_stickwood-1,Makassar,stick/wood,kayu,1,4,2,0.5,1,k,0,0,0,0,1,1202,1,0.1667,1,OTHER,1,1,0.779
+166-80_tosplit-1,Makassar,to split,ammuɛ,0,5,3,0.6,1,a,0,0,0,1,0,0,0,0.5,3,ACTION,1,1,0.779
+166-81_sharp-1,Makassar,sharp,taraŋ,1,5,2,0.4,0,t,0,1,0,0,1,244,1,0.1667,1,QUALITY,1,1,0.779
+166-82_dullblunt-1,Makassar,"dull, blunt",pokkoloʔ,0,8,3,0.375,0,p,1,0,0,1,1,0,0,0.8,4,QUALITY,1,1,0.779
+166-83_towork-1,Makassar,to work,anjama,1,6,3,0.5,1,a,0,1,0,1,0,5,1,0.1667,1,ACTION,1,1,0.779
+166-84_toplant-1,Makassar,to plant,attanaŋ,1,7,3,0.4286,0,a,0,1,0,1,0,234,1,0.2857,2,ACTION,1,1,0.779
+166-85_tochoose-1,Makassar,to choose,ammilɛ,1,6,3,0.5,1,a,0,0,0,1,0,444,1,0.1667,1,ACTION,1,1,0.779
+166-86_togrow-1,Makassar,to grow,attimbo,0,7,3,0.4286,1,a,0,1,0,2,0,0,0,0.3333,2,ACTION,1,1,0.779
+166-87_toswell-1,Makassar,to swell,kambaŋ,1,6,2,0.3333,0,k,0,1,0,1,1,21,1,0.375,2,ACTION,1,1,0.779
+166-88_tosqueeze-1,Makassar,to squeeze,ammaccoʔ,0,8,3,0.375,0,a,1,0,0,2,0,0,0,0.3333,2,ACTION,1,1,0.779
+166-89_tohold-1,Makassar,to hold,annaʔgalaʔ,0,10,4,0.4,0,a,1,0,0,2,0,0,0,0.75,5,ACTION,1,1,0.779
+166-90_todig-1,Makassar,to dig,aŋŋɛkɛ,0,6,3,0.5,1,a,0,1,0,1,1,0,0,0.3333,2,ACTION,1,1,0.779
+166-91_tobuy-1,Makassar,to buy,ammalli,1,7,3,0.4286,1,a,0,0,0,2,0,394,1,0.1667,1,ACTION,1,1,0.779
+166-92_toopenuncover-1,Makassar,"to open, uncover",aññuŋkɛ,0,7,3,0.4286,1,a,0,1,0,2,0,0,0,0.4286,3,ACTION,1,1,0.779
+166-93_topoundbeat-1,Makassar,"to pound, beat",annumbuʔ,1,8,3,0.375,0,a,1,1,0,2,0,23,1,0.375,2,ACTION,1,1,0.779
+166-94_tothrow-1,Makassar,to throw,aññambila,0,9,4,0.4444,1,a,0,1,0,2,0,0,0,0.7143,5,ACTION,1,1,0.779
+166-95_tofall-1,Makassar,to fall,tuʔguruʔ,0,8,3,0.375,0,t,1,0,0,1,0,0,0,0.8,4,ACTION,1,1,0.779
+166-96_dog-1,Makassar,dog,koŋkoŋ,0,6,2,0.3333,0,k,0,1,1,1,0,0,0,0.3333,2,OTHER,1,1,0.779
+166-97_bird-1,Makassar,bird,jaŋanɟaŋaŋ,0,10,4,0.4,0,other,0,1,1,1,0,0,0,0.1667,1,OTHER,1,1,0.779
+166-98_egg-1,Makassar,egg,bayâo,0,6,3,0.5,1,b,0,0,0,0,0,0,0,0.3333,2,BODY,1,1,0.779
+166-99_feather-1,Makassar,feather,bulu,1,4,2,0.5,1,b,0,0,0,0,0,647,1,0.1667,1,BODY,1,1,0.779
+166-100_wing-1,Makassar,wing,kaʔñiʔ,0,6,2,0.3333,0,k,1,0,0,1,1,0,0,0.3333,2,BODY,0,1,0.779
+166-101_tofly-1,Makassar,to fly,anriʔba,1,7,3,0.4286,1,a,1,0,0,2,0,230,1,0.5,3,ACTION,1,1,0.779
+166-102_rat-1,Makassar,rat,balao,1,5,3,0.6,1,b,0,0,0,0,0,363,1,0.1429,1,OTHER,1,1,0.779
+166-103_meatflesh-1,Makassar,meat/flesh,assi,1,4,2,0.5,1,a,0,0,0,1,0,146,1,0.3333,2,BODY,1,1,0.779
+166-104_fatgrease-1,Makassar,fat/grease,jamɛʔjamɛʔ,1,10,4,0.4,0,other,1,0,0,1,0,40,1,0.1667,1,BODY,1,1,0.779
+166-105_tail-1,Makassar,tail,iŋkoŋ,1,5,2,0.4,0,other,0,1,0,1,0,454,1,0.3333,2,BODY,1,1,0.779
+166-106_snake-1,Makassar,snake,ularaʔ,1,6,3,0.5,0,other,1,0,0,0,0,229,1,0.0,0,OTHER,1,1,0.779
+166-107_wormearthworm-1,Makassar,worm (earthworm),gallaŋgallaŋ,1,12,4,0.3333,0,other,0,1,0,3,0,32,1,0.6,3,OTHER,1,1,0.779
+166-108_louse-1,Makassar,louse,kutu,1,4,2,0.5,1,k,0,0,0,0,0,1230,1,0.0,0,OTHER,1,1,0.779
+166-109_mosquito-1,Makassar,mosquito,lamuʔ,1,5,2,0.4,0,other,1,0,0,0,0,955,1,0.2857,2,OTHER,1,1,0.779
+166-110_spider-1,Makassar,spider,labalaba,1,8,4,0.5,1,other,0,0,0,0,0,375,1,0.0,0,OTHER,0,1,0.779
+166-111_fish-1,Makassar,fish,jukuʔ,0,5,2,0.4,0,other,1,0,0,0,0,0,0,0.1429,1,OTHER,1,1,0.779
+166-112_rotten-1,Makassar,rotten,bottoʔ,0,6,2,0.3333,0,b,1,0,0,1,0,0,0,0.5,3,QUALITY,0,1,0.779
+166-113_branch-1,Makassar,branch,taŋkɛ,1,5,2,0.4,1,t,0,1,0,1,1,4,1,0.0,0,OTHER,0,1,0.779
+166-114_leaf-1,Makassar,leaf,lɛkoʔ,0,5,2,0.4,0,other,1,0,0,0,0,0,0,0.5,3,NATURE,1,1,0.779
+166-115_root-1,Makassar,root,akaʔ,1,4,2,0.5,0,a,1,0,0,0,0,608,1,0.3333,2,NATURE,1,1,0.779
+166-116_flower-1,Makassar,flower,buŋa,1,4,2,0.5,1,b,0,1,0,0,0,322,1,0.1429,1,NATURE,1,1,0.779
+166-117_fruit-1,Makassar,fruit,rapporappo,0,10,4,0.4,1,other,0,0,0,2,0,0,0,0.1667,1,NATURE,1,1,0.779
+166-118_grass-1,Makassar,grass,rukuʔ,1,5,2,0.4,0,other,1,0,0,0,0,59,1,0.7143,4,NATURE,1,1,0.779
+166-119_earthsoil-1,Makassar,earth/soil,butta,1,5,2,0.4,1,b,0,0,0,1,0,43,1,0.0,0,NATURE,1,1,0.779
+166-120_stone-1,Makassar,stone,batu,1,4,2,0.5,1,b,0,0,0,0,0,1145,1,0.0,0,NATURE,1,1,0.779
+166-121_sand-1,Makassar,sand,kassiʔ,1,6,2,0.3333,0,k,1,0,0,1,1,13,1,0.0,0,NATURE,1,1,0.779
+166-122_water-1,Makassar,water,jeʔneʔ,0,6,2,0.3333,0,other,1,0,0,1,0,0,0,0.3333,2,NATURE,1,1,0.779
+166-123_toflow-1,Makassar,to flow,assoloŋ,1,7,3,0.4286,0,a,0,1,0,1,0,4,1,0.5,3,ACTION,1,1,0.779
+166-124_sea-1,Makassar,sea,tamparaŋ,0,8,3,0.375,0,t,0,1,0,1,1,0,0,0.2857,2,NATURE,1,1,0.779
+166-125_salt-1,Makassar,salt,cɛʔla,0,5,2,0.4,1,other,1,0,0,1,0,0,0,0.5,3,NATURE,1,1,0.779
+166-126_lake-1,Makassar,lake,balaŋ,1,5,2,0.4,0,b,0,1,0,0,0,2,1,0.1667,1,NATURE,1,1,0.779
+166-127_woodsforest-1,Makassar,woods/forest,romaŋ,1,5,2,0.4,0,other,0,1,0,0,0,13,1,0.5,3,NATURE,1,1,0.779
+166-128_sky-1,Makassar,sky,laŋiʔ,1,5,2,0.4,0,other,1,1,0,0,0,589,1,0.2857,2,NATURE,1,1,0.779
+166-129_moon-1,Makassar,moon,bulaŋ,1,5,2,0.4,0,b,0,1,0,0,0,764,1,0.0,0,NATURE,1,1,0.779
+166-130_star-1,Makassar,star,bintoɛŋ,1,7,3,0.4286,0,b,0,1,0,1,0,648,1,0.1429,1,NATURE,1,1,0.779
+166-131_cloud-1,Makassar,cloud,rammaŋ,0,6,2,0.3333,0,other,0,1,0,1,0,0,0,0.8333,5,NATURE,1,1,0.779
+166-132_fog-1,Makassar,fog,saliu,0,5,3,0.6,1,s,0,0,0,0,0,0,0,0.1667,1,NATURE,1,1,0.779
+166-133_rain-1,Makassar,rain,bosi,1,4,2,0.5,1,b,0,0,0,0,0,2,1,0.1667,1,NATURE,1,1,0.779
+166-134_thunder-1,Makassar,thunder,gunturuʔ,1,8,3,0.375,0,other,1,1,0,1,0,37,1,0.0,0,NATURE,1,1,0.779
+166-135_lightning-1,Makassar,lightning,killaʔ,1,6,2,0.3333,0,k,1,0,0,1,0,257,1,0.1429,1,NATURE,1,1,0.779
+166-136_wind-1,Makassar,wind,aŋiŋ,1,4,2,0.5,0,a,0,1,0,0,1,724,1,0.1667,1,NATURE,1,1,0.779
+166-137_toblow-1,Makassar,to blow,annuiʔ,1,6,3,0.5,0,a,1,0,0,1,0,196,1,0.6667,4,ACTION,1,1,0.779
+166-138_warm-1,Makassar,warm,bambaŋ,0,6,2,0.3333,0,b,0,1,0,1,0,0,0,0.5714,4,QUALITY,1,1,0.779
+166-139_cold-1,Makassar,cold,diŋiŋ,1,5,2,0.4,0,other,0,1,1,0,0,273,1,0.3333,2,QUALITY,1,1,0.779
+166-140_dry-1,Makassar,dry,kalotoroʔ,0,9,4,0.4444,0,k,1,0,0,0,1,0,0,0.5,3,QUALITY,1,1,0.779
+166-141_wet-1,Makassar,wet,basa,1,4,2,0.5,1,b,0,0,0,0,0,217,1,0.5,3,QUALITY,1,1,0.779
+166-142_heavy-1,Makassar,heavy,battalaʔ,1,8,3,0.375,0,b,1,0,0,1,0,263,1,0.6667,4,QUALITY,1,1,0.779
+166-143_fire-1,Makassar,fire,pɛpɛʔ,0,5,2,0.4,0,p,1,0,1,0,0,0,0,0.3333,2,NATURE,1,1,0.779
+166-144_toburn-1,Makassar,to burn,antunu,1,6,3,0.5,1,a,0,1,0,1,0,261,1,0.3333,2,ACTION,1,1,0.779
+166-145_smoke-1,Makassar,smoke,rumbu,1,5,2,0.4,1,other,0,1,0,1,0,12,1,0.0,0,NATURE,1,1,0.779
+166-146_ashes-1,Makassar,ashes,awu,1,3,2,0.6667,1,a,0,0,0,0,0,607,1,0.1429,1,NATURE,1,1,0.779
+166-147_black-1,Makassar,black,lɛʔlɛŋ,0,6,2,0.3333,0,other,1,1,0,1,0,0,0,0.3333,2,QUALITY,1,1,0.779
+166-148_white-1,Makassar,white,kɛboʔ,0,5,2,0.4,0,k,1,0,0,0,0,0,0,0.3333,2,QUALITY,1,1,0.779
+166-149_red-1,Makassar,red,ɛja,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.6667,4,QUALITY,1,1,0.779
+166-150_yellow-1,Makassar,yellow,kuŋ̃iʔ,1,6,2,0.3333,0,k,1,1,0,0,0,160,1,0.1667,1,QUALITY,1,1,0.779
+166-151_green-1,Makassar,green,moncoŋ bulo,0,11,4,0.3636,1,m,0,1,0,1,1,0,0,0.5,3,QUALITY,1,1,0.779
+166-152_small-1,Makassar,small,caʔdi,0,5,2,0.4,1,other,1,0,0,1,0,0,0,0.5,3,QUALITY,1,1,0.779
+166-153_big-1,Makassar,big,lompo,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.7143,4,QUALITY,1,1,0.779
+166-154_short-1,Makassar,short,bodo,1,4,2,0.5,1,b,0,0,0,0,0,80,1,0.4286,3,QUALITY,1,1,0.779
+166-155_long-1,Makassar,long,laʔbu,1,5,2,0.4,1,other,1,0,0,1,0,93,1,0.125,1,QUALITY,1,1,0.779
+166-156_thin-1,Makassar,thin,nipisiʔ,1,7,3,0.4286,0,other,1,0,0,0,0,662,1,0.0,0,QUALITY,1,1,0.779
+166-157_thick-1,Makassar,thick,kapalaʔ,1,7,3,0.4286,0,k,1,0,0,0,1,129,1,0.1667,1,QUALITY,1,1,0.779
+166-158_narrow-1,Makassar,narrow,ecereʔ,0,6,3,0.5,0,other,1,0,0,0,0,0,0,0.4286,3,QUALITY,1,1,0.779
+166-159_wide-1,Makassar,wide,luaraʔ,1,6,3,0.5,0,other,1,0,0,0,0,84,1,0.3333,2,QUALITY,1,1,0.779
+166-160_painfulsick-1,Makassar,"painful, sick",garriŋ,1,6,2,0.3333,0,other,0,1,0,1,0,4,1,0.3333,2,QUALITY,1,1,0.779
+166-161_shyashamed-1,Makassar,"shy, ashamed",siriʔ,1,5,2,0.4,0,s,1,0,0,0,0,3,1,0.1667,1,QUALITY,1,1,0.779
+166-162_old-1,Makassar,old,toa,1,3,2,0.6667,1,t,0,0,0,0,0,392,1,0.2857,2,QUALITY,1,1,0.779
+166-163_new-1,Makassar,new,bɛru,1,4,2,0.5,1,b,0,0,0,0,0,796,1,0.1667,1,QUALITY,1,1,0.779
+166-164_good-1,Makassar,good,bajiʔ,1,5,2,0.4,0,b,1,0,0,0,0,17,1,0.4286,3,QUALITY,1,1,0.779
+166-165_badevil-1,Makassar,"bad, evil",kodi,0,4,2,0.5,1,k,0,0,0,0,0,0,0,0.3333,2,QUALITY,1,1,0.779
+166-166_correcttrue-1,Makassar,"correct, true",tojeŋ,1,5,2,0.4,0,t,0,1,0,0,0,4,1,0.1667,1,QUALITY,1,1,0.779
+166-167_night-1,Makassar,night,baŋŋi,1,5,2,0.4,1,b,0,1,0,1,0,949,1,0.1429,1,OTHER,1,1,0.779
+166-168_day-1,Makassar,day,allo,1,4,2,0.5,1,a,0,0,0,1,0,319,2,0.1667,1,OTHER,1,1,0.779
+166-169_year-1,Makassar,year,tauŋ,1,4,2,0.5,0,t,0,1,0,0,1,426,1,0.0,0,OTHER,1,1,0.779
+166-170_when-1,Makassar,when?,siapanna,1,8,4,0.5,1,s,0,0,0,1,0,484,1,0.1429,1,GRAMMAR,1,1,0.779
+166-170_when-2,Makassar,when?,riŋapanna,0,9,4,0.4444,1,other,0,1,0,1,0,0,0,0.1429,1,GRAMMAR,1,1,0.779
+166-171_tohide-1,Makassar,to hide,accokko,1,7,3,0.4286,1,a,0,0,0,2,0,4,1,0.5714,4,ACTION,1,1,0.779
+166-172_toclimb-1,Makassar,to climb,naiʔ,1,4,2,0.5,0,other,1,0,0,0,1,126,1,0.1667,1,ACTION,1,1,0.779
+166-173_at-1,Makassar,at,ri,1,2,1,0.5,1,other,0,0,0,0,0,150,1,0.0,0,GRAMMAR,1,1,0.779
+166-174_ininside-1,Makassar,"in, inside",ilalaŋ,1,6,3,0.5,0,other,0,1,1,0,0,592,1,0.1429,1,GRAMMAR,1,1,0.779
+166-175_above-1,Makassar,above,iratɛ,1,5,3,0.6,1,other,0,0,0,0,0,188,1,0.1429,1,GRAMMAR,1,1,0.779
+166-176_below-1,Makassar,below,irawa,1,5,3,0.6,1,other,0,0,0,0,0,165,1,0.5714,4,GRAMMAR,1,1,0.779
+166-177_this-1,Makassar,this,annɛ,1,4,2,0.5,1,a,0,0,0,1,0,500,1,0.3333,2,GRAMMAR,1,1,0.779
+166-178_that-1,Makassar,that,antu,1,4,2,0.5,1,a,0,1,0,1,0,75,1,0.3333,3,GRAMMAR,1,1,0.779
+166-178_that-2,Makassar,that,añjo,0,4,2,0.5,1,a,0,0,0,1,0,0,0,0.3333,3,GRAMMAR,1,1,0.779
+166-179_near-1,Makassar,near,ambani,1,6,3,0.5,1,a,0,1,0,1,0,160,1,0.4286,3,GRAMMAR,1,1,0.779
+166-180_far-1,Makassar,far,bɛlla,1,5,2,0.4,1,b,0,0,0,1,0,4,1,0.3333,2,GRAMMAR,1,1,0.779
+166-181_where-1,Makassar,where?,kɛmàɛ,0,5,3,0.6,1,k,0,0,0,0,0,0,0,0.5714,4,GRAMMAR,1,1,0.779
+166-182_i-1,Makassar,I,inakkɛ,1,6,3,0.5,1,other,0,0,0,1,0,1573,1,0.1667,1,GRAMMAR,1,1,0.779
+166-183_thou-1,Makassar,thou,ikau,1,4,3,0.75,1,other,0,0,0,0,0,1534,1,0.1667,1,GRAMMAR,1,1,0.779
+166-184_heshe-1,Makassar,he/she,iya,1,3,2,0.6667,1,other,0,0,0,0,0,1440,1,0.2857,1,GRAMMAR,1,1,0.779
+166-185_we-1,Makassar,we,(i)kattɛ,1,8,3,0.375,1,other,0,0,0,1,0,1009,1,0.0,0,OTHER,0,1,0.779
+166-185_we-2,Makassar,we,(i)kambe,1,8,3,0.375,1,other,0,1,0,1,0,938,2,0.0,0,OTHER,0,1,0.779
+166-186_you-1,Makassar,you,ikau ŋasɛŋ,1,10,5,0.5,0,other,0,1,0,0,0,7,1,0.1667,1,GRAMMAR,1,1,0.779
+166-187_they-1,Makassar,they,iya ŋasɛŋ,0,9,4,0.4444,0,other,0,1,0,0,0,0,0,0.7143,4,GRAMMAR,1,1,0.779
+166-188_what-1,Makassar,what?,apa,1,3,2,0.6667,1,a,0,0,0,0,0,1132,1,0.1667,1,GRAMMAR,1,1,0.779
+166-189_who-1,Makassar,who?,inai,1,4,3,0.75,1,other,0,0,0,0,0,1036,1,0.5,3,GRAMMAR,1,1,0.779
+166-190_other-1,Makassar,other,maraɛŋ,0,6,3,0.5,0,m,0,1,0,0,1,0,0,0.8,4,GRAMMAR,1,1,0.779
+166-191_all-1,Makassar,all,iya ŋasɛŋ,1,9,4,0.4444,0,other,0,1,0,0,0,2,1,0.4286,3,GRAMMAR,1,1,0.779
+166-192_and-1,Makassar,and,na,1,2,1,0.5,1,other,0,0,0,0,1,330,1,0.375,3,GRAMMAR,1,1,0.779
+166-193_if-1,Makassar,if,punna,0,5,2,0.4,1,p,0,0,0,1,0,0,0,0.75,5,GRAMMAR,1,1,0.779
+166-194_how-1,Makassar,how?,antekamma,0,9,4,0.4444,1,a,0,1,0,2,0,0,0,0.5714,3,GRAMMAR,1,1,0.779
+166-195_nonot-1,Makassar,"no, not",taɛna,0,5,3,0.6,1,t,0,0,0,0,1,0,0,0.5714,3,GRAMMAR,1,1,0.779
+166-195_nonot-2,Makassar,"no, not",tɛna,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.5714,3,GRAMMAR,1,1,0.779
+166-196_tocount-1,Makassar,to count,aŋŋituŋ,1,7,3,0.4286,0,a,0,1,0,1,1,58,1,0.3333,2,ACTION,1,1,0.779
+166-197_one-1,Makassar,One,sɛʔrɛ,1,5,2,0.4,1,s,1,0,0,1,0,643,2,0.1429,1,NUMBER,1,1,0.779
+166-198_two-1,Makassar,Two,rua,1,3,2,0.6667,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,1,0.779
+166-199_three-1,Makassar,Three,tallu,1,5,2,0.4,1,t,0,0,0,1,1,1402,1,0.0,0,NUMBER,1,1,0.779
+166-200_four-1,Makassar,Four,appaʔ,1,5,2,0.4,0,a,1,0,0,1,0,1308,1,0.1429,1,NUMBER,1,1,0.779
+166-201_five-1,Makassar,Five,lima,1,4,2,0.5,1,other,0,0,0,0,0,1232,1,0.0,0,NUMBER,1,1,0.779
+166-202_six-1,Makassar,Six,annaŋ,1,5,2,0.4,0,a,0,1,0,1,0,699,1,0.5,2,NUMBER,0,1,0.779
+166-203_seven-1,Makassar,Seven,tuju,1,4,2,0.5,1,t,0,0,0,0,0,64,1,0.0,0,NUMBER,0,1,0.779
+166-204_eight-1,Makassar,Eight,sagantuju,0,9,4,0.4444,1,s,0,1,0,1,0,0,0,0.5,3,NUMBER,0,1,0.779
+166-205_nine-1,Makassar,Nine,salapaŋ,1,7,3,0.4286,0,s,0,1,0,0,0,7,1,0.0,0,NUMBER,0,1,0.779
+166-206_ten-1,Makassar,Ten,sampulo,1,7,3,0.4286,1,s,0,1,0,1,0,782,1,0.4,2,NUMBER,0,1,0.779
+166-207_twenty-1,Makassar,Twenty,ruampulo,0,8,4,0.5,1,other,0,1,0,1,0,0,0,0.8,4,NUMBER,0,1,0.779
+166-208_fifty-1,Makassar,Fifty,limampulo,0,9,4,0.4444,1,other,0,1,0,1,0,0,0,0.8,4,NUMBER,0,1,0.779
+166-209_onehundred-1,Makassar,One Hundred,sibilaŋŋaŋ,0,10,4,0.4,0,s,0,1,0,1,0,0,0,0.8,4,NUMBER,0,1,0.779
+166-210_onethousand-1,Makassar,One Thousand,sisaʔbu,0,7,3,0.4286,1,s,1,0,0,1,0,0,0,0.8333,5,NUMBER,0,1,0.779
+192-1_hand-1,Wolio,hand,lima,1,4,2,0.5,1,other,0,0,0,0,0,1102,2,0.0,0,BODY,1,5,0.747
+192-2_left-1,Wolio,left,kuai,1,4,3,0.75,1,k,0,0,0,0,0,651,2,0.0,0,OTHER,0,5,0.747
+192-3_right-1,Wolio,right,kaana,1,5,3,0.6,1,k,0,0,0,0,1,384,2,0.0,0,OTHER,0,5,0.747
+192-4_legfoot-1,Wolio,leg/foot,ae,1,2,2,1.0,1,a,0,0,0,0,0,559,1,0.3333,2,BODY,1,5,0.747
+192-5_towalk-1,Wolio,to walk,liŋka,1,5,2,0.4,1,other,0,1,0,1,0,6,1,0.2857,1,ACTION,1,5,0.747
+192-6_roadpath-1,Wolio,road/path,dala,1,4,2,0.5,1,other,0,0,0,0,0,991,1,0.3333,2,NATURE,1,5,0.747
+192-7_tocome-1,Wolio,to come,mai,1,3,2,0.6667,1,m,0,0,0,0,1,1125,1,0.625,4,ACTION,1,5,0.747
+192-7_tocome-2,Wolio,to come,kawa,0,4,2,0.5,1,k,0,0,0,0,1,0,0,0.625,4,ACTION,1,5,0.747
+192-7_tocome-3,Wolio,to come,umba,0,4,2,0.5,1,other,0,1,0,1,0,0,0,0.625,4,ACTION,1,5,0.747
+192-8_toturn-1,Wolio,to turn,lari,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.5,3,ACTION,1,5,0.747
+192-8_toturn-2,Wolio,to turn,gili,1,4,2,0.5,1,other,0,0,0,0,0,14,1,0.5,3,ACTION,1,5,0.747
+192-8_toturn-3,Wolio,to turn,beŋku,0,5,2,0.4,1,b,0,1,0,1,0,0,0,0.5,3,ACTION,1,5,0.747
+192-9_toswim-1,Wolio,to swim,poŋaŋo,1,6,3,0.5,1,p,0,1,0,0,1,388,1,0.1667,1,ACTION,1,5,0.747
+192-10_dirty-1,Wolio,dirty,marombu,1,7,3,0.4286,1,m,0,1,0,1,1,4,1,0.1667,1,NATURE,0,5,0.747
+192-10_dirty-2,Wolio,dirty,marewu,1,6,3,0.5,1,m,0,0,0,0,1,4,1,0.1667,1,NATURE,0,5,0.747
+192-11_dust-1,Wolio,dust,ŋawu,1,4,2,0.5,1,other,0,1,0,0,0,377,1,0.1429,1,NATURE,0,5,0.747
+192-12_skin-1,Wolio,skin,kuli,1,4,2,0.5,1,k,0,0,0,0,0,720,1,0.1429,1,BODY,1,5,0.747
+192-13_back-1,Wolio,back,taliku,1,6,3,0.5,1,t,0,0,0,0,1,129,1,0.375,3,BODY,1,5,0.747
+192-13_back-2,Wolio,back,toruku,1,6,3,0.5,1,t,0,0,0,0,0,129,1,0.375,3,BODY,1,5,0.747
+192-14_belly-1,Wolio,belly,kompo,1,5,2,0.4,1,k,0,1,0,1,0,116,1,0.1667,1,BODY,1,5,0.747
+192-15_bone-1,Wolio,bone,buku,1,4,2,0.5,1,b,0,0,0,0,0,78,1,0.0,0,BODY,1,5,0.747
+192-16_intestines-1,Wolio,intestines,ŋkaluŋkalu,0,10,4,0.4,1,other,0,1,0,2,0,0,0,0.5714,4,BODY,1,5,0.747
+192-17_liver-1,Wolio,liver,ate,1,3,2,0.6667,1,a,0,0,0,0,0,828,1,0.0,0,BODY,1,5,0.747
+192-18_breast-1,Wolio,breast,dudu,1,4,2,0.5,1,other,0,0,1,0,0,22,1,0.0,0,BODY,1,5,0.747
+192-18_breast-2,Wolio,breast,susu,1,4,2,0.5,1,s,0,0,1,0,0,1122,1,0.0,0,BODY,1,5,0.747
+192-19_shoulder-1,Wolio,shoulder,awaa,1,4,3,0.75,1,a,0,0,0,0,0,356,1,0.1429,1,BODY,1,5,0.747
+192-19_shoulder-2,Wolio,shoulder,salaŋga,1,7,3,0.4286,1,s,0,1,0,1,0,356,1,0.1429,1,BODY,1,5,0.747
+192-20_toknowbeknowledgeable-1,Wolio,"to know, be knowledgeable",matau,1,5,3,0.6,1,m,0,0,0,0,1,103,1,0.1667,1,ACTION,0,5,0.747
+192-21_tothink-1,Wolio,to think,fikiri,1,6,3,0.5,1,other,0,0,0,0,0,90,1,0.5,3,ACTION,0,5,0.747
+192-22_tofear-1,Wolio,to fear,maeka,1,5,3,0.6,1,m,0,0,0,0,1,4,1,0.3333,2,ACTION,0,5,0.747
+192-23_blood-1,Wolio,blood,raa,1,3,2,0.6667,1,other,0,0,0,0,0,929,1,0.1667,1,BODY,1,5,0.747
+192-24_head-1,Wolio,head,baa,0,3,2,0.6667,1,b,0,0,0,0,0,0,0,0.1667,1,BODY,1,5,0.747
+192-25_neck-1,Wolio,neck,boroko,1,6,3,0.5,1,b,0,0,0,0,0,13,1,0.1667,1,BODY,1,5,0.747
+192-26_hair-1,Wolio,hair,bulua,1,5,3,0.6,1,b,0,0,0,0,0,515,1,0.1667,1,BODY,1,5,0.747
+192-27_nose-1,Wolio,nose,aŋo,1,3,2,0.6667,1,a,0,1,0,0,1,42,1,0.1667,1,BODY,1,5,0.747
+192-28_tobreathe-1,Wolio,to breathe,poinuñca,0,8,4,0.5,1,p,0,0,0,1,1,0,0,0.5714,3,ACTION,0,5,0.747
+192-29_tosniffsmell-1,Wolio,"to sniff, smell",bou,1,3,2,0.6667,1,b,0,0,0,0,0,3,1,0.3333,2,ACTION,0,5,0.747
+192-30_mouth-1,Wolio,mouth,muñcu,1,5,2,0.4,1,m,0,0,0,1,0,29,1,0.3333,2,BODY,1,5,0.747
+192-31_tooth-1,Wolio,tooth,ŋiñci,1,5,2,0.4,1,other,0,1,0,1,0,118,1,0.0,0,BODY,1,5,0.747
+192-32_tongue-1,Wolio,tongue,dela,1,4,2,0.5,1,other,0,0,0,0,0,393,1,0.0,0,BODY,1,5,0.747
+192-33_tolaugh-1,Wolio,to laugh,potawa,1,6,3,0.5,1,p,0,0,0,0,1,118,1,0.3333,2,ACTION,1,5,0.747
+192-34_tocry-1,Wolio,to cry,taŋi,1,4,2,0.5,1,t,0,1,0,0,1,1046,1,0.375,2,ACTION,1,5,0.747
+192-35_tovomit-1,Wolio,to vomit,tolua,1,5,3,0.6,1,t,0,0,0,0,0,592,1,0.4286,2,ACTION,1,5,0.747
+192-36_tospit-1,Wolio,to spit,pewilu,1,6,3,0.5,1,p,0,0,0,0,0,4,1,0.4286,3,ACTION,0,5,0.747
+192-37_toeat-1,Wolio,to eat,kande,1,5,2,0.4,1,k,0,1,0,1,1,1440,2,0.1667,1,ACTION,1,5,0.747
+192-38_tochew-1,Wolio,to chew,mama,1,4,2,0.5,1,m,0,0,1,0,1,189,1,0.5,3,ACTION,0,5,0.747
+192-38_tochew-2,Wolio,to chew,naŋku,0,5,2,0.4,1,other,0,1,0,1,1,0,0,0.5,3,ACTION,0,5,0.747
+192-38_tochew-3,Wolio,to chew,paŋa,0,4,2,0.5,1,p,0,1,0,0,1,0,0,0.5,3,ACTION,0,5,0.747
+192-39_tocook-1,Wolio,to cook,nasu,1,4,2,0.5,1,other,0,0,0,0,1,65,1,0.3333,2,ACTION,0,5,0.747
+192-40_todrink-1,Wolio,to drink,sumpu,0,5,2,0.4,1,s,0,1,0,1,0,0,0,0.2857,2,ACTION,1,5,0.747
+192-41_tobite-1,Wolio,to bite,bembaru,0,7,3,0.4286,1,b,0,1,0,1,0,0,0,0.625,3,ACTION,1,5,0.747
+192-41_tobite-2,Wolio,to bite,papaki,0,6,3,0.5,1,p,0,0,1,0,1,0,0,0.625,3,ACTION,1,5,0.747
+192-41_tobite-3,Wolio,to bite,tompa,0,5,2,0.4,1,t,0,1,0,1,0,0,0,0.625,3,ACTION,1,5,0.747
+192-42_tosuck-1,Wolio,to suck,gomi,1,4,2,0.5,1,other,0,0,0,0,0,36,1,0.0,0,OTHER,0,5,0.747
+192-43_ear-1,Wolio,ear,taliŋa,1,6,3,0.5,1,t,0,1,0,0,1,1252,1,0.1667,1,BODY,0,5,0.747
+192-44_tohear-1,Wolio,to hear,raŋo,1,4,2,0.5,1,other,0,1,0,0,0,988,1,0.1667,1,ACTION,1,5,0.747
+192-45_eye-1,Wolio,eye,mata,1,4,2,0.5,1,m,0,0,0,0,1,1471,1,0.0,0,BODY,0,5,0.747
+192-46_tosee-1,Wolio,to see,kamata,0,6,3,0.5,1,k,0,0,0,0,1,0,0,0.875,5,ACTION,1,5,0.747
+192-47_toyawn-1,Wolio,to yawn,pomea,0,5,3,0.6,1,p,0,0,0,0,1,0,0,1.0,4,ACTION,0,5,0.747
+192-48_tosleep-1,Wolio,to sleep,kole,0,4,2,0.5,1,k,0,0,0,0,0,0,0,0.5,3,ACTION,1,5,0.747
+192-49_toliedown-1,Wolio,to lie down,dole,1,4,2,0.5,1,other,0,0,0,0,0,2,1,0.5714,3,ACTION,1,5,0.747
+192-50_todream-1,Wolio,to dream,poŋipi,1,6,3,0.5,1,p,0,1,0,0,1,356,1,0.3333,2,ACTION,0,5,0.747
+192-51_tosit-1,Wolio,to sit,uncura,0,6,3,0.5,1,other,0,1,0,1,0,0,0,0.5714,4,ACTION,1,5,0.747
+192-51_tosit-2,Wolio,to sit,tootooro,1,8,5,0.625,1,t,0,0,1,0,0,69,1,0.5714,4,ACTION,1,5,0.747
+192-52_tostand-1,Wolio,to stand,kabalebale,0,10,5,0.5,1,k,0,0,0,0,1,0,0,0.8333,5,ACTION,1,5,0.747
+192-53_personhumanbeing-1,Wolio,person/human being,mia,1,3,2,0.6667,1,m,0,0,0,0,0,51,1,0.1667,1,OTHER,1,5,0.747
+192-54_manmale-1,Wolio,man/male,umane,1,5,3,0.6,1,other,0,0,0,0,0,703,1,0.1429,1,OTHER,1,5,0.747
+192-55_womanfemale-1,Wolio,woman/female,bawine,1,6,3,0.5,1,b,0,0,0,0,0,744,2,0.1667,1,OTHER,1,5,0.747
+192-56_child-1,Wolio,child,ana,1,3,2,0.6667,1,a,0,0,0,0,0,450,1,0.1667,1,OTHER,1,5,0.747
+192-57_husband-1,Wolio,husband,mañcuana,1,8,4,0.5,1,m,0,0,0,1,1,30,1,0.3333,2,OTHER,1,5,0.747
+192-58_wife-1,Wolio,wife,mañcuana,0,8,4,0.5,1,m,0,0,0,1,1,0,0,0.5714,3,OTHER,1,5,0.747
+192-59_mother-1,Wolio,mother,ina,1,3,2,0.6667,1,other,0,0,0,0,0,921,1,0.0,0,OTHER,1,5,0.747
+192-60_father-1,Wolio,father,ama,1,3,2,0.6667,1,a,0,0,0,0,0,1014,1,0.1667,1,OTHER,1,5,0.747
+192-61_house-1,Wolio,house,baaua,1,5,4,0.8,1,b,0,0,0,0,0,40,1,0.1667,1,OTHER,1,5,0.747
+192-62_thatchroof-1,Wolio,thatch/roof,pada,0,4,2,0.5,1,p,0,0,0,0,1,0,0,0.5,3,OTHER,0,5,0.747
+192-63_name-1,Wolio,name,saro,0,4,2,0.5,1,s,0,0,0,0,0,0,0,0.3333,2,OTHER,1,5,0.747
+192-64_tosay-1,Wolio,to say,pogau,1,5,3,0.6,1,p,0,0,0,0,1,7,1,0.6667,5,ACTION,1,5,0.747
+192-64_tosay-2,Wolio,to say,kooni,0,5,3,0.6,1,k,0,0,0,0,0,0,0,0.6667,5,ACTION,1,5,0.747
+192-65_rope-1,Wolio,rope,rabuta,1,6,3,0.5,1,other,0,0,0,0,0,5,1,0.7143,5,OTHER,1,5,0.747
+192-65_rope-2,Wolio,rope,puloli,0,6,3,0.5,1,p,0,0,0,0,0,0,0,0.7143,5,OTHER,1,5,0.747
+192-66_totieupfasten-1,Wolio,"to tie up, fasten",boke,1,4,2,0.5,1,b,0,0,0,0,0,6,1,0.8333,5,ACTION,0,5,0.747
+192-67_tosew-1,Wolio,to sew,posorumba,0,9,4,0.4444,1,p,0,1,0,1,1,0,0,0.5,3,ACTION,1,5,0.747
+192-68_needle-1,Wolio,needle,sorumba,0,7,3,0.4286,1,s,0,1,0,1,0,0,0,0.1667,1,OTHER,1,5,0.747
+192-70_toshoot-1,Wolio,to shoot,temba,1,5,2,0.4,1,t,0,1,0,1,0,78,1,0.0,0,OTHER,0,5,0.747
+192-71_tostabpierce-1,Wolio,"to stab, pierce",toboki,1,6,3,0.5,1,t,0,0,0,0,0,25,1,0.375,2,ACTION,0,5,0.747
+192-71_tostabpierce-2,Wolio,"to stab, pierce",sula,1,4,2,0.5,1,s,0,0,0,0,0,25,1,0.375,2,ACTION,0,5,0.747
+192-72_tohit-1,Wolio,to hit,bebe,0,4,2,0.5,1,b,0,0,1,0,0,0,0,1.0,6,ACTION,1,5,0.747
+192-72_tohit-2,Wolio,to hit,rambi,0,5,2,0.4,1,other,0,1,0,1,0,0,0,1.0,6,ACTION,1,5,0.747
+192-73_tosteal-1,Wolio,to steal,manako,1,6,3,0.5,1,m,0,0,0,0,1,666,1,0.6667,4,ACTION,1,5,0.747
+192-74_tokill-1,Wolio,to kill,pekamate,1,8,4,0.5,1,p,0,0,0,0,0,427,1,0.0,0,ACTION,1,5,0.747
+192-74_tokill-2,Wolio,to kill,poŋko,1,5,2,0.4,1,p,0,1,0,1,1,5,1,0.0,0,ACTION,1,5,0.747
+192-75_todiebedead-1,Wolio,"to die, be dead",mate,1,4,2,0.5,1,m,0,0,0,0,1,1291,1,0.0,0,ACTION,1,5,0.747
+192-76_tolivebealive-1,Wolio,"to live, be alive",dadi,1,4,2,0.5,1,other,0,0,0,0,0,7,1,0.3333,2,ACTION,1,5,0.747
+192-77_toscratch-1,Wolio,to scratch,kau,1,3,2,0.6667,1,k,0,0,0,0,1,194,1,0.125,1,ACTION,0,5,0.747
+192-77_toscratch-2,Wolio,to scratch,kaŋkaru,0,7,3,0.4286,1,k,0,1,0,1,1,0,0,0.125,1,ACTION,0,5,0.747
+192-77_toscratch-3,Wolio,to scratch,karusi,1,6,3,0.5,1,k,0,0,0,0,1,102,1,0.125,1,ACTION,0,5,0.747
+192-78_tocuthack-1,Wolio,"to cut, hack",ndamu,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.625,3,ACTION,1,5,0.747
+192-78_tocuthack-2,Wolio,"to cut, hack",laelae,0,6,4,0.6667,1,other,0,0,1,0,0,0,0,0.625,3,ACTION,1,5,0.747
+192-79_stickwood-1,Wolio,stick/wood,kau,1,3,2,0.6667,1,k,0,0,0,0,1,1202,1,0.1667,1,OTHER,1,5,0.747
+192-80_tosplit-1,Wolio,to split,weta,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.5,3,ACTION,1,5,0.747
+192-81_sharp-1,Wolio,sharp,matada,1,6,3,0.5,1,m,0,0,0,0,1,85,1,0.1667,1,QUALITY,1,5,0.747
+192-82_dullblunt-1,Wolio,"dull, blunt",makundu,0,7,3,0.4286,1,m,0,1,0,1,1,0,0,0.8,4,QUALITY,1,5,0.747
+192-83_towork-1,Wolio,to work,karajaa,1,7,4,0.5714,1,k,0,0,0,0,1,38,1,0.1667,1,ACTION,1,5,0.747
+192-84_toplant-1,Wolio,to plant,pombula,1,7,3,0.4286,1,p,0,1,0,1,1,100,1,0.2857,2,ACTION,1,5,0.747
+192-85_tochoose-1,Wolio,to choose,pili,1,4,2,0.5,1,p,0,0,0,0,0,444,1,0.1667,1,ACTION,1,5,0.747
+192-86_togrow-1,Wolio,to grow,tuwu,1,4,2,0.5,1,t,0,0,0,0,0,271,1,0.3333,2,ACTION,1,5,0.747
+192-87_toswell-1,Wolio,to swell,tente,0,5,2,0.4,1,t,0,1,0,1,0,0,0,0.375,2,ACTION,1,5,0.747
+192-87_toswell-2,Wolio,to swell,gende,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.375,2,ACTION,1,5,0.747
+192-87_toswell-3,Wolio,to swell,kamba,1,5,2,0.4,1,k,0,1,0,1,1,21,1,0.375,2,ACTION,1,5,0.747
+192-88_tosqueeze-1,Wolio,to squeeze,pisi,1,4,2,0.5,1,p,0,0,0,0,0,23,1,0.3333,2,ACTION,1,5,0.747
+192-88_tosqueeze-2,Wolio,to squeeze,pisiki,1,6,3,0.5,1,p,0,0,0,0,0,23,1,0.3333,2,ACTION,1,5,0.747
+192-89_tohold-1,Wolio,to hold,keni,0,4,2,0.5,1,k,0,0,0,0,0,0,0,0.75,5,ACTION,1,5,0.747
+192-90_todig-1,Wolio,to dig,seli,1,4,2,0.5,1,s,0,0,0,0,0,799,1,0.3333,2,ACTION,1,5,0.747
+192-91_tobuy-1,Wolio,to buy,ali,1,3,2,0.6667,1,a,0,0,0,0,0,394,1,0.1667,1,ACTION,1,5,0.747
+192-92_toopenuncover-1,Wolio,"to open, uncover",buŋkale,1,7,3,0.4286,1,b,0,1,0,1,0,239,1,0.4286,3,ACTION,1,5,0.747
+192-93_topoundbeat-1,Wolio,"to pound, beat",purokoti,0,8,4,0.5,1,p,0,0,0,0,0,0,0,0.375,2,ACTION,1,5,0.747
+192-93_topoundbeat-2,Wolio,"to pound, beat",pasaki,0,6,3,0.5,1,p,0,0,0,0,1,0,0,0.375,2,ACTION,1,5,0.747
+192-94_tothrow-1,Wolio,to throw,tuda,1,4,2,0.5,1,t,0,0,0,0,0,19,1,0.7143,5,ACTION,1,5,0.747
+192-94_tothrow-2,Wolio,to throw,banaka,0,6,3,0.5,1,b,0,0,0,0,0,0,0,0.7143,5,ACTION,1,5,0.747
+192-96_dog-1,Wolio,dog,mantoa,0,6,3,0.5,1,m,0,1,0,1,1,0,0,0.3333,2,OTHER,1,5,0.747
+192-97_bird-1,Wolio,bird,manumanu,1,8,4,0.5,1,m,0,0,0,0,1,971,1,0.1667,1,OTHER,1,5,0.747
+192-98_egg-1,Wolio,egg,ontolu,1,6,3,0.5,1,other,0,1,0,1,0,776,1,0.3333,2,BODY,1,5,0.747
+192-99_feather-1,Wolio,feather,bulu,1,4,2,0.5,1,b,0,0,0,0,0,647,1,0.1667,1,BODY,1,5,0.747
+192-100_wing-1,Wolio,wing,pani,1,4,2,0.5,1,p,0,0,0,0,1,233,1,0.3333,2,BODY,0,5,0.747
+192-101_tofly-1,Wolio,to fly,polaka,0,6,3,0.5,1,p,0,0,0,0,1,0,0,0.5,3,ACTION,1,5,0.747
+192-102_rat-1,Wolio,rat,bokoti,0,6,3,0.5,1,b,0,0,0,0,0,0,0,0.1429,1,OTHER,1,5,0.747
+192-103_meatflesh-1,Wolio,meat/flesh,dagi,1,4,2,0.5,1,other,0,0,0,0,0,68,1,0.3333,2,BODY,1,5,0.747
+192-104_fatgrease-1,Wolio,fat/grease,taba,1,4,2,0.5,1,t,0,0,0,0,1,176,1,0.1667,1,BODY,1,5,0.747
+192-105_tail-1,Wolio,tail,lenci,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.3333,2,BODY,1,5,0.747
+192-106_snake-1,Wolio,snake,ulo,1,3,2,0.6667,1,other,0,0,0,0,0,229,1,0.0,0,OTHER,1,5,0.747
+192-108_louse-1,Wolio,louse,kutu,1,4,2,0.5,1,k,0,0,0,0,0,1230,1,0.0,0,OTHER,1,5,0.747
+192-109_mosquito-1,Wolio,mosquito,buroto,1,6,3,0.5,1,b,0,0,0,0,0,10,1,0.2857,2,OTHER,1,5,0.747
+192-109_mosquito-2,Wolio,mosquito,kawaowaode,0,10,6,0.6,1,k,0,0,1,0,1,0,0,0.2857,2,OTHER,1,5,0.747
+192-110_spider-1,Wolio,spider,lawalawa,1,8,4,0.5,1,other,0,0,0,0,0,375,1,0.0,0,OTHER,0,5,0.747
+192-111_fish-1,Wolio,fish,ikane,1,5,3,0.6,1,other,0,0,0,0,0,836,1,0.1429,1,OTHER,1,5,0.747
+192-111_fish-2,Wolio,fish,isa,1,3,2,0.6667,1,other,0,0,0,0,0,836,1,0.1429,1,OTHER,1,5,0.747
+192-112_rotten-1,Wolio,rotten,mabuto,1,6,3,0.5,1,m,0,0,0,0,1,3,1,0.5,3,QUALITY,0,5,0.747
+192-113_branch-1,Wolio,branch,raha,1,4,2,0.5,1,other,0,0,0,0,0,440,1,0.0,0,OTHER,0,5,0.747
+192-113_branch-2,Wolio,branch,lae,1,3,2,0.6667,1,other,0,0,0,0,0,440,1,0.0,0,OTHER,0,5,0.747
+192-114_leaf-1,Wolio,leaf,tawa,0,4,2,0.5,1,t,0,0,0,0,1,0,0,0.5,3,NATURE,1,5,0.747
+192-115_root-1,Wolio,root,kulese,0,6,3,0.5,1,k,0,0,0,0,0,0,0,0.3333,2,NATURE,1,5,0.747
+192-116_flower-1,Wolio,flower,kamba,1,5,2,0.4,1,k,0,1,0,1,1,39,1,0.1429,1,NATURE,1,5,0.747
+192-116_flower-2,Wolio,flower,buŋa,1,4,2,0.5,1,b,0,1,0,0,0,322,1,0.1429,1,NATURE,1,5,0.747
+192-117_fruit-1,Wolio,fruit,bake,1,4,2,0.5,1,b,0,0,0,0,0,15,1,0.1667,1,NATURE,1,5,0.747
+192-118_grass-1,Wolio,grass,rumpurumpu,1,10,4,0.4,1,other,0,1,0,2,0,35,1,0.7143,4,NATURE,1,5,0.747
+192-119_earthsoil-1,Wolio,earth/soil,tana,1,4,2,0.5,1,t,0,0,0,0,1,662,1,0.0,0,NATURE,1,5,0.747
+192-120_stone-1,Wolio,stone,batu,1,4,2,0.5,1,b,0,0,0,0,0,1145,1,0.0,0,NATURE,1,5,0.747
+192-121_sand-1,Wolio,sand,bone,1,4,2,0.5,1,b,0,0,0,0,0,35,1,0.0,0,NATURE,1,5,0.747
+192-122_water-1,Wolio,water,uwe,1,3,2,0.6667,1,other,0,0,0,0,0,673,1,0.3333,2,NATURE,1,5,0.747
+192-123_toflow-1,Wolio,to flow,siwulu,0,6,3,0.5,1,s,0,0,0,0,0,0,0,0.5,3,ACTION,1,5,0.747
+192-124_sea-1,Wolio,sea,tawo,1,4,2,0.5,1,t,0,0,0,0,1,9,1,0.2857,2,NATURE,1,5,0.747
+192-124_sea-2,Wolio,sea,andala,0,6,3,0.5,1,a,0,1,0,1,0,0,0,0.2857,2,NATURE,1,5,0.747
+192-125_salt-1,Wolio,salt,gara,1,4,2,0.5,1,other,0,0,0,0,0,49,1,0.5,3,NATURE,1,5,0.747
+192-126_lake-1,Wolio,lake,rano,1,4,2,0.5,1,other,0,0,0,0,0,212,1,0.1667,1,NATURE,1,5,0.747
+192-127_woodsforest-1,Wolio,woods/forest,koo,0,3,2,0.6667,1,k,0,0,0,0,0,0,0,0.5,3,NATURE,1,5,0.747
+192-128_sky-1,Wolio,sky,laiana,1,6,4,0.6667,1,other,0,0,0,0,0,589,1,0.2857,2,NATURE,1,5,0.747
+192-128_sky-2,Wolio,sky,bula,0,4,2,0.5,1,b,0,0,0,0,0,0,0,0.2857,2,NATURE,1,5,0.747
+192-129_moon-1,Wolio,moon,bula,1,4,2,0.5,1,b,0,0,0,0,0,764,1,0.0,0,NATURE,1,5,0.747
+192-130_star-1,Wolio,star,kalipopo,1,8,4,0.5,1,k,0,0,1,0,1,5,1,0.1429,1,NATURE,1,5,0.747
+192-131_cloud-1,Wolio,cloud,ta'ina ŋalu,0,11,5,0.4545,1,t,1,1,0,0,1,0,0,0.8333,5,NATURE,1,5,0.747
+192-132_fog-1,Wolio,fog,gawu,1,4,2,0.5,1,other,0,0,0,0,0,165,1,0.1667,1,NATURE,1,5,0.747
+192-133_rain-1,Wolio,rain,wao,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.1667,1,NATURE,1,5,0.747
+192-134_thunder-1,Wolio,thunder,guntu,1,5,2,0.4,1,other,0,1,0,1,0,37,1,0.0,0,NATURE,1,5,0.747
+192-135_lightning-1,Wolio,lightning,berese,0,6,3,0.5,1,b,0,0,0,0,0,0,0,0.1429,1,NATURE,1,5,0.747
+192-135_lightning-2,Wolio,lightning,kila,1,4,2,0.5,1,k,0,0,0,0,0,257,1,0.1429,1,NATURE,1,5,0.747
+192-136_wind-1,Wolio,wind,ŋalu,1,4,2,0.5,1,other,0,1,0,0,0,16,1,0.1667,1,NATURE,1,5,0.747
+192-137_toblow-1,Wolio,to blow,towii,0,5,3,0.6,1,t,0,0,0,0,0,0,0,0.6667,4,ACTION,1,5,0.747
+192-138_warm-1,Wolio,warm,mapane,1,6,3,0.5,1,m,0,0,0,0,1,246,2,0.5714,4,QUALITY,1,5,0.747
+192-138_warm-2,Wolio,warm,masodo,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.5714,4,QUALITY,1,5,0.747
+192-139_cold-1,Wolio,cold,magari,1,6,3,0.5,1,m,0,0,0,0,1,273,1,0.3333,2,QUALITY,1,5,0.747
+192-140_dry-1,Wolio,dry,matuu,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.5,3,QUALITY,1,5,0.747
+192-141_wet-1,Wolio,wet,mabaho,1,6,3,0.5,1,m,0,0,0,0,1,217,1,0.5,3,QUALITY,1,5,0.747
+192-142_heavy-1,Wolio,heavy,matamo,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.6667,4,QUALITY,1,5,0.747
+192-143_fire-1,Wolio,fire,waa,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.3333,2,NATURE,1,5,0.747
+192-144_toburn-1,Wolio,to burn,maŋau,0,5,3,0.6,1,m,0,1,0,0,1,0,0,0.3333,2,ACTION,1,5,0.747
+192-145_smoke-1,Wolio,smoke,ombu,1,4,2,0.5,1,other,0,1,0,1,0,23,1,0.0,0,NATURE,1,5,0.747
+192-146_ashes-1,Wolio,ashes,walo,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.1429,1,NATURE,1,5,0.747
+192-146_ashes-2,Wolio,ashes,rapu,1,4,2,0.5,1,other,0,0,0,0,0,607,1,0.1429,1,NATURE,1,5,0.747
+192-147_black-1,Wolio,black,maeta,1,5,3,0.6,1,m,0,0,0,0,1,542,1,0.3333,2,QUALITY,1,5,0.747
+192-148_white-1,Wolio,white,maputi,1,6,3,0.5,1,m,0,0,0,0,1,371,1,0.3333,2,QUALITY,1,5,0.747
+192-149_red-1,Wolio,red,male'i,1,6,3,0.5,1,m,1,0,0,0,1,426,1,0.6667,4,QUALITY,1,5,0.747
+192-150_yellow-1,Wolio,yellow,makuni,1,6,3,0.5,1,m,0,0,0,0,1,160,1,0.1667,1,QUALITY,1,5,0.747
+192-151_green-1,Wolio,green,maijo,1,5,3,0.6,1,m,0,0,0,0,1,84,1,0.5,3,QUALITY,1,5,0.747
+192-152_small-1,Wolio,small,maidiidii,1,9,6,0.6667,1,m,0,0,1,0,1,62,1,0.5,3,QUALITY,1,5,0.747
+192-152_small-2,Wolio,small,makidikidi,1,10,5,0.5,1,m,0,0,0,0,1,62,1,0.5,3,QUALITY,1,5,0.747
+192-153_big-1,Wolio,big,maoge,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.7143,4,QUALITY,1,5,0.747
+192-153_big-2,Wolio,big,lewa,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.7143,4,QUALITY,1,5,0.747
+192-154_short-1,Wolio,short,mampodo,1,7,3,0.4286,1,m,0,1,0,1,1,55,1,0.4286,3,QUALITY,1,5,0.747
+192-155_long-1,Wolio,long,malaŋa,1,6,3,0.5,1,m,0,1,0,0,1,4,1,0.125,1,QUALITY,1,5,0.747
+192-155_long-2,Wolio,long,maarate,1,7,4,0.5714,1,m,0,0,0,0,1,2,1,0.125,1,QUALITY,1,5,0.747
+192-155_long-3,Wolio,long,marambe,1,7,3,0.4286,1,m,0,1,0,1,1,3,1,0.125,1,QUALITY,1,5,0.747
+192-156_thin-1,Wolio,thin,manipi,1,6,3,0.5,1,m,0,0,0,0,1,662,1,0.0,0,QUALITY,1,5,0.747
+192-157_thick-1,Wolio,thick,makapa,1,6,3,0.5,1,m,0,0,0,0,1,129,1,0.1667,1,QUALITY,1,5,0.747
+192-158_narrow-1,Wolio,narrow,maseke,1,6,3,0.5,1,m,0,0,0,0,1,5,1,0.4286,3,QUALITY,1,5,0.747
+192-159_wide-1,Wolio,wide,maewa,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,5,0.747
+192-160_painfulsick-1,Wolio,"painful, sick",mapii,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,5,0.747
+192-161_shyashamed-1,Wolio,"shy, ashamed",maea,1,4,3,0.75,1,m,0,0,0,0,1,242,1,0.1667,1,QUALITY,1,5,0.747
+192-162_old-1,Wolio,old,mancuana,0,8,4,0.5,1,m,0,1,0,1,1,0,0,0.2857,2,QUALITY,1,5,0.747
+192-163_new-1,Wolio,new,baau,1,4,3,0.75,1,b,0,0,0,0,0,796,1,0.1667,1,QUALITY,1,5,0.747
+192-164_good-1,Wolio,good,malape,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.4286,3,QUALITY,1,5,0.747
+192-165_badevil-1,Wolio,"bad, evil",madaki,1,6,3,0.5,1,m,0,0,0,0,1,829,1,0.3333,2,QUALITY,1,5,0.747
+192-166_correcttrue-1,Wolio,"correct, true",totuu,1,5,3,0.6,1,t,0,0,0,0,0,78,1,0.1667,1,QUALITY,1,5,0.747
+192-167_night-1,Wolio,night,malo,1,4,2,0.5,1,m,0,0,0,0,1,21,1,0.1429,1,OTHER,1,5,0.747
+192-168_day-1,Wolio,day,eo,1,2,2,1.0,1,other,0,0,0,0,0,3,1,0.1667,1,OTHER,1,5,0.747
+192-169_year-1,Wolio,year,tao,1,3,2,0.6667,1,t,0,0,0,0,1,426,1,0.0,0,OTHER,1,5,0.747
+192-171_tohide-1,Wolio,to hide,opo,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.5714,4,ACTION,1,5,0.747
+192-171_tohide-2,Wolio,to hide,buniaka,1,7,4,0.5714,1,b,0,0,0,0,0,188,1,0.5714,4,ACTION,1,5,0.747
+192-172_toclimb-1,Wolio,to climb,pene,1,4,2,0.5,1,p,0,0,0,0,0,126,1,0.1667,1,ACTION,1,5,0.747
+192-173_at-1,Wolio,at,i,1,1,1,1.0,1,other,0,0,0,0,0,461,1,0.0,0,GRAMMAR,1,5,0.747
+192-174_ininside-1,Wolio,"in, inside",nuñca,0,5,2,0.4,1,other,0,0,0,1,0,0,0,0.1429,1,GRAMMAR,1,5,0.747
+192-175_above-1,Wolio,above,bawo,1,4,2,0.5,1,b,0,0,0,0,0,200,1,0.1429,1,GRAMMAR,1,5,0.747
+192-176_below-1,Wolio,below,i tambe,0,7,3,0.4286,1,other,0,1,0,1,0,0,0,0.5714,4,GRAMMAR,1,5,0.747
+192-177_this-1,Wolio,this,sii,0,3,2,0.6667,1,s,0,0,0,0,0,0,0,0.3333,2,GRAMMAR,1,5,0.747
+192-178_that-1,Wolio,that,humai,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.3333,3,GRAMMAR,1,5,0.747
+192-179_near-1,Wolio,near,makasu,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.4286,3,GRAMMAR,1,5,0.747
+192-179_near-2,Wolio,near,marampi,1,7,3,0.4286,1,m,0,1,0,1,1,9,1,0.4286,3,GRAMMAR,1,5,0.747
+192-180_far-1,Wolio,far,marido,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.3333,2,GRAMMAR,1,5,0.747
+192-181_where-1,Wolio,where?,i apai,0,6,4,0.6667,1,other,0,0,0,0,0,0,0,0.5714,4,GRAMMAR,1,5,0.747
+192-182_i-1,Wolio,I,iaku,1,4,3,0.75,1,other,0,0,0,0,0,1573,1,0.1667,1,GRAMMAR,1,5,0.747
+192-183_thou-1,Wolio,thou,iŋkoo,1,5,3,0.6,1,other,0,1,0,1,0,1534,1,0.1667,1,GRAMMAR,1,5,0.747
+192-184_heshe-1,Wolio,he/she,iñcia,1,5,3,0.6,1,other,0,0,0,1,0,1440,1,0.2857,1,GRAMMAR,1,5,0.747
+192-185_we-1,Wolio,we,iŋkita,1,6,3,0.5,1,other,0,1,0,1,0,1009,1,0.0,0,OTHER,0,5,0.747
+192-185_we-2,Wolio,we,iŋkami,1,6,3,0.5,1,other,0,1,0,1,0,938,1,0.0,0,OTHER,0,5,0.747
+192-186_you-1,Wolio,you,iŋkomiu,1,7,4,0.5714,1,other,0,1,0,1,0,1062,2,0.1667,1,GRAMMAR,1,5,0.747
+192-187_they-1,Wolio,they,incia,0,5,3,0.6,1,other,0,1,0,1,0,0,0,0.7143,4,GRAMMAR,1,5,0.747
+192-188_what-1,Wolio,what?,opea,1,4,3,0.75,1,other,0,0,0,0,0,1132,2,0.1667,1,GRAMMAR,1,5,0.747
+192-189_who-1,Wolio,who?,incema,1,6,3,0.5,1,other,0,1,0,1,0,5,1,0.5,3,GRAMMAR,1,5,0.747
+192-190_other-1,Wolio,other,mosagaanana,0,11,6,0.5455,1,m,0,0,1,0,1,0,0,0.8,4,GRAMMAR,1,5,0.747
+192-191_all-1,Wolio,all,baribaria,1,9,5,0.5556,1,b,0,0,0,0,0,3,1,0.4286,3,GRAMMAR,1,5,0.747
+192-191_all-2,Wolio,all,maliŋu,0,6,3,0.5,1,m,0,1,0,0,1,0,0,0.4286,3,GRAMMAR,1,5,0.747
+192-192_and-1,Wolio,and,tee,1,3,2,0.6667,1,t,0,0,0,0,0,116,1,0.375,3,GRAMMAR,1,5,0.747
+192-192_and-2,Wolio,and,ko,1,2,1,0.5,1,k,0,0,0,0,0,116,1,0.375,3,GRAMMAR,1,5,0.747
+192-193_if-1,Wolio,if,ne,1,2,1,0.5,1,other,0,0,0,0,0,68,1,0.75,5,GRAMMAR,1,5,0.747
+192-193_if-2,Wolio,if,ande,0,4,2,0.5,1,a,0,1,0,1,0,0,0,0.75,5,GRAMMAR,1,5,0.747
+192-194_how-1,Wolio,how?,tua apa,1,7,4,0.5714,1,t,0,0,0,0,0,63,1,0.5714,3,GRAMMAR,1,5,0.747
+192-195_nonot-1,Wolio,"no, not",indaa,1,5,3,0.6,1,other,0,1,0,1,0,13,1,0.5714,3,GRAMMAR,1,5,0.747
+192-196_tocount-1,Wolio,to count,lentu,1,5,2,0.4,1,other,0,1,0,1,0,2,1,0.3333,2,ACTION,1,5,0.747
+192-197_one-1,Wolio,One,ʔise,1,4,2,0.5,1,other,1,0,0,0,0,643,1,0.1429,1,NUMBER,1,5,0.747
+192-198_two-1,Wolio,Two,jua,1,3,2,0.6667,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,5,0.747
+192-198_two-2,Wolio,Two,rua,1,3,2,0.6667,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,5,0.747
+192-199_three-1,Wolio,Three,talu,1,4,2,0.5,1,t,0,0,0,0,1,1402,1,0.0,0,NUMBER,1,5,0.747
+192-200_four-1,Wolio,Four,apa,1,3,2,0.6667,1,a,0,0,0,0,0,1308,1,0.1429,1,NUMBER,1,5,0.747
+192-200_four-2,Wolio,Four,pata,1,4,2,0.5,1,p,0,0,0,0,1,1308,1,0.1429,1,NUMBER,1,5,0.747
+192-201_five-1,Wolio,Five,lima,1,4,2,0.5,1,other,0,0,0,0,0,1232,1,0.0,0,NUMBER,1,5,0.747
+192-202_six-1,Wolio,Six,nama,0,4,2,0.5,1,other,0,0,0,0,1,0,0,0.5,2,NUMBER,0,5,0.747
+192-202_six-2,Wolio,Six,ʔana,0,4,2,0.5,1,other,1,0,0,0,0,0,0,0.5,2,NUMBER,0,5,0.747
+192-203_seven-1,Wolio,Seven,pitu,1,4,2,0.5,1,p,0,0,0,0,0,702,1,0.0,0,NUMBER,0,5,0.747
+192-204_eight-1,Wolio,Eight,walu,1,4,2,0.5,1,other,0,0,0,0,0,573,1,0.5,3,NUMBER,0,5,0.747
+192-205_nine-1,Wolio,Nine,sio,1,3,2,0.6667,1,s,0,0,0,0,0,505,1,0.0,0,NUMBER,0,5,0.747
+192-206_ten-1,Wolio,Ten,sapulu,1,6,3,0.5,1,s,0,0,0,0,0,782,1,0.4,2,NUMBER,0,5,0.747
+192-207_twenty-1,Wolio,Twenty,rua pulu,0,8,4,0.5,1,other,0,0,0,0,0,0,0,0.8,4,NUMBER,0,5,0.747
+192-208_fifty-1,Wolio,Fifty,lima pulu,0,9,4,0.4444,1,other,0,0,0,0,0,0,0,0.8,4,NUMBER,0,5,0.747
+192-209_onehundred-1,Wolio,One Hundred,saatu,0,5,3,0.6,1,s,0,0,0,0,0,0,0,0.8,4,NUMBER,0,5,0.747
+192-210_onethousand-1,Wolio,One Thousand,sarewu,0,6,3,0.5,1,s,0,0,0,0,0,0,0,0.8333,5,NUMBER,0,5,0.747
+226-1_hand-1,Toraja-Sadan,hand,lima,1,4,2,0.5,1,other,0,0,0,0,0,1102,2,0.0,0,BODY,1,4,0.816
+226-2_left-1,Toraja-Sadan,left,kairi,1,5,3,0.6,1,k,0,0,0,0,1,651,2,0.0,0,OTHER,0,4,0.816
+226-3_right-1,Toraja-Sadan,right,kanan,1,5,2,0.4,0,k,0,0,1,0,1,384,2,0.0,0,OTHER,0,4,0.816
+226-4_legfoot-1,Toraja-Sadan,leg/foot,letteʔ,0,6,2,0.3333,0,other,1,0,0,1,0,0,0,0.3333,2,BODY,1,4,0.816
+226-5_towalk-1,Toraja-Sadan,to walk,liŋka,1,5,2,0.4,1,other,0,1,0,1,0,6,1,0.2857,1,ACTION,1,4,0.816
+226-6_roadpath-1,Toraja-Sadan,road/path,lalan,1,5,2,0.4,0,other,0,0,1,0,0,991,1,0.3333,2,NATURE,1,4,0.816
+226-7_tocome-1,Toraja-Sadan,to come,sae,0,3,2,0.6667,1,s,0,0,0,0,0,0,0,0.625,4,ACTION,1,4,0.816
+226-8_toturn-1,Toraja-Sadan,to turn,giliŋ,1,5,2,0.4,0,other,0,1,0,0,0,14,1,0.5,3,ACTION,1,4,0.816
+226-9_toswim-1,Toraja-Sadan,to swim,oroŋ,0,4,2,0.5,0,other,0,1,0,0,0,0,0,0.1667,1,ACTION,1,4,0.816
+226-10_dirty-1,Toraja-Sadan,dirty,koʔdoʔ,1,6,2,0.3333,0,k,1,0,0,1,0,26,1,0.1667,1,NATURE,0,4,0.816
+226-11_dust-1,Toraja-Sadan,dust,au,1,2,2,1.0,1,a,0,0,0,0,0,377,1,0.1429,1,NATURE,0,4,0.816
+226-12_skin-1,Toraja-Sadan,skin,kuliʔ,1,5,2,0.4,0,k,1,0,0,0,0,720,1,0.1429,1,BODY,1,4,0.816
+226-13_back-1,Toraja-Sadan,back,bokoʔ,1,5,2,0.4,0,b,1,0,0,0,0,3,1,0.375,3,BODY,1,4,0.816
+226-14_belly-1,Toraja-Sadan,belly,baʔteŋ,1,6,2,0.3333,0,b,1,1,0,1,0,35,1,0.1667,1,BODY,1,4,0.816
+226-15_bone-1,Toraja-Sadan,bone,buku,1,4,2,0.5,1,b,0,0,0,0,0,78,1,0.0,0,BODY,1,4,0.816
+226-16_intestines-1,Toraja-Sadan,intestines,tambuk,0,6,2,0.3333,0,t,0,1,0,1,1,0,0,0.5714,4,BODY,1,4,0.816
+226-17_liver-1,Toraja-Sadan,liver,ate,1,3,2,0.6667,1,a,0,0,0,0,0,828,1,0.0,0,BODY,1,4,0.816
+226-18_breast-1,Toraja-Sadan,breast,susu,1,4,2,0.5,1,s,0,0,1,0,0,1122,1,0.0,0,BODY,1,4,0.816
+226-19_shoulder-1,Toraja-Sadan,shoulder,palempeŋ,1,8,3,0.375,0,p,0,1,0,1,1,356,1,0.1429,1,BODY,1,4,0.816
+226-20_toknowbeknowledgeable-1,Toraja-Sadan,"to know, be knowledgeable",issan,1,5,2,0.4,0,other,0,0,0,1,0,3,1,0.1667,1,ACTION,0,4,0.816
+226-21_tothink-1,Toraja-Sadan,to think,taŋaʔ,0,5,2,0.4,0,t,1,1,0,0,1,0,0,0.5,3,ACTION,0,4,0.816
+226-22_tofear-1,Toraja-Sadan,to fear,takuʔ,1,5,2,0.4,0,t,1,0,0,0,1,738,1,0.3333,2,ACTION,0,4,0.816
+226-23_blood-1,Toraja-Sadan,blood,rara,1,4,2,0.5,1,other,0,0,1,0,0,929,1,0.1667,1,BODY,1,4,0.816
+226-24_head-1,Toraja-Sadan,head,ulu,1,3,2,0.6667,1,other,0,0,0,0,0,746,1,0.1667,1,BODY,1,4,0.816
+226-25_neck-1,Toraja-Sadan,neck,baroko,1,6,3,0.5,1,b,0,0,0,0,0,13,1,0.1667,1,BODY,1,4,0.816
+226-26_hair-1,Toraja-Sadan,hair,beluak,1,6,3,0.5,0,b,0,0,0,0,0,297,1,0.1667,1,BODY,1,4,0.816
+226-27_nose-1,Toraja-Sadan,nose,illoŋ,1,5,2,0.4,0,other,0,1,0,1,0,1315,1,0.1667,1,BODY,1,4,0.816
+226-28_tobreathe-1,Toraja-Sadan,to breathe,naa,1,3,2,0.6667,1,other,0,0,0,0,1,188,1,0.5714,3,ACTION,0,4,0.816
+226-29_tosniffsmell-1,Toraja-Sadan,"to sniff, smell",uduk,1,4,2,0.5,0,other,0,0,0,0,0,76,1,0.3333,2,ACTION,0,4,0.816
+226-30_mouth-1,Toraja-Sadan,mouth,sadaŋ,0,5,2,0.4,0,s,0,1,0,0,0,0,0,0.3333,2,BODY,1,4,0.816
+226-31_tooth-1,Toraja-Sadan,tooth,isi,1,3,2,0.6667,1,other,0,0,0,0,0,118,2,0.0,0,BODY,1,4,0.816
+226-32_tongue-1,Toraja-Sadan,tongue,lila,1,4,2,0.5,1,other,0,0,0,0,0,393,1,0.0,0,BODY,1,4,0.816
+226-33_tolaugh-1,Toraja-Sadan,to laugh,taa,1,3,2,0.6667,1,t,0,0,0,0,1,118,1,0.3333,2,ACTION,1,4,0.816
+226-34_tocry-1,Toraja-Sadan,to cry,taŋiʔ,1,5,2,0.4,0,t,1,1,0,0,1,1046,1,0.375,2,ACTION,1,4,0.816
+226-35_tovomit-1,Toraja-Sadan,to vomit,lua,1,3,2,0.6667,1,other,0,0,0,0,0,592,1,0.4286,2,ACTION,1,4,0.816
+226-36_tospit-1,Toraja-Sadan,to spit,met-tudu,0,8,3,0.375,1,m,0,0,1,0,1,0,0,0.4286,3,ACTION,0,4,0.816
+226-37_toeat-1,Toraja-Sadan,to eat,k-um-ande,1,9,3,0.3333,1,k,0,1,1,1,0,1440,2,0.1667,1,ACTION,1,4,0.816
+226-38_tochew-1,Toraja-Sadan,to chew,kema,1,4,2,0.5,1,k,0,0,0,0,0,2,1,0.5,3,ACTION,0,4,0.816
+226-39_tocook-1,Toraja-Sadan,to cook,nasu,1,4,2,0.5,1,other,0,0,0,0,1,65,1,0.3333,2,ACTION,0,4,0.816
+226-40_todrink-1,Toraja-Sadan,to drink,iruʔ,1,4,2,0.5,0,other,1,0,0,0,0,8,1,0.2857,2,ACTION,1,4,0.816
+226-41_tobite-1,Toraja-Sadan,to bite,kekeʔ,1,5,2,0.4,0,k,1,0,1,0,0,656,1,0.625,3,ACTION,1,4,0.816
+226-42_tosuck-1,Toraja-Sadan,to suck,sussuʔ,1,6,2,0.3333,0,s,1,0,0,1,0,333,1,0.0,0,OTHER,0,4,0.816
+226-43_ear-1,Toraja-Sadan,ear,taliŋa,1,6,3,0.5,1,t,0,1,0,0,1,1252,1,0.1667,1,BODY,0,4,0.816
+226-44_tohear-1,Toraja-Sadan,to hear,raŋi,1,4,2,0.5,1,other,0,1,0,0,0,988,1,0.1667,1,ACTION,1,4,0.816
+226-45_eye-1,Toraja-Sadan,eye,mata,1,4,2,0.5,1,m,0,0,0,0,1,1471,1,0.0,0,BODY,0,4,0.816
+226-46_tosee-1,Toraja-Sadan,to see,tiro,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.875,5,ACTION,1,4,0.816
+226-48_tosleep-1,Toraja-Sadan,to sleep,mammaʔ,0,6,2,0.3333,0,m,1,0,0,1,1,0,0,0.5,3,ACTION,1,4,0.816
+226-49_toliedown-1,Toraja-Sadan,to lie down,mammaʔ,0,6,2,0.3333,0,m,1,0,0,1,1,0,0,0.5714,3,ACTION,1,4,0.816
+226-50_todream-1,Toraja-Sadan,to dream,impi,1,4,2,0.5,1,other,0,1,0,1,0,356,1,0.3333,2,ACTION,0,4,0.816
+226-51_tosit-1,Toraja-Sadan,to sit,noʔkoʔ,0,6,2,0.3333,0,other,1,0,0,1,0,0,0,0.5714,4,ACTION,1,4,0.816
+226-52_tostand-1,Toraja-Sadan,to stand,bendan,0,6,2,0.3333,0,b,0,1,0,1,0,0,0,0.8333,5,ACTION,1,4,0.816
+226-53_personhumanbeing-1,Toraja-Sadan,person/human being,tau,1,3,2,0.6667,1,t,0,0,0,0,1,618,1,0.1667,1,OTHER,1,4,0.816
+226-54_manmale-1,Toraja-Sadan,man/male,muane,1,5,3,0.6,1,m,0,0,0,0,0,703,1,0.1429,1,OTHER,1,4,0.816
+226-55_womanfemale-1,Toraja-Sadan,woman/female,baine,1,5,3,0.6,1,b,0,0,0,0,0,744,2,0.1667,1,OTHER,1,4,0.816
+226-56_child-1,Toraja-Sadan,child,pia,0,3,2,0.6667,1,p,0,0,0,0,0,0,0,0.1667,1,OTHER,1,4,0.816
+226-57_husband-1,Toraja-Sadan,husband,muane,1,5,3,0.6,1,m,0,0,0,0,0,33,1,0.3333,2,OTHER,1,4,0.816
+226-58_wife-1,Toraja-Sadan,wife,baine,1,5,3,0.6,1,b,0,0,0,0,0,223,1,0.5714,3,OTHER,1,4,0.816
+226-59_mother-1,Toraja-Sadan,mother,indoʔ,1,5,2,0.4,0,other,1,1,0,1,0,27,1,0.0,0,OTHER,1,4,0.816
+226-60_father-1,Toraja-Sadan,father,ambeʔ,1,5,2,0.4,0,a,1,1,0,1,0,17,1,0.1667,1,OTHER,1,4,0.816
+226-61_house-1,Toraja-Sadan,house,banua,1,5,3,0.6,1,b,0,0,0,0,0,40,1,0.1667,1,OTHER,1,4,0.816
+226-62_thatchroof-1,Toraja-Sadan,thatch/roof,papa,1,4,2,0.5,1,p,0,0,1,0,1,1,1,0.5,3,OTHER,0,4,0.816
+226-63_name-1,Toraja-Sadan,name,saŋa,1,4,2,0.5,1,s,0,1,0,0,0,1151,1,0.3333,2,OTHER,1,4,0.816
+226-64_tosay-1,Toraja-Sadan,to say,po-kada,0,7,3,0.4286,1,p,0,0,1,0,1,0,0,0.6667,5,ACTION,1,4,0.816
+226-65_rope-1,Toraja-Sadan,rope,ulaŋ,1,4,2,0.5,0,other,0,1,0,0,0,3,1,0.7143,5,OTHER,1,4,0.816
+226-66_totieupfasten-1,Toraja-Sadan,"to tie up, fasten",pori,0,4,2,0.5,1,p,0,0,0,0,1,0,0,0.8333,5,ACTION,0,4,0.816
+226-67_tosew-1,Toraja-Sadan,to sew,dasiʔ,0,5,2,0.4,0,other,1,0,0,0,0,0,0,0.5,3,ACTION,1,4,0.816
+226-68_needle-1,Toraja-Sadan,needle,darun,1,5,2,0.4,0,other,0,0,0,0,0,317,1,0.1667,1,OTHER,1,4,0.816
+226-69_tohunt-1,Toraja-Sadan,to hunt,lola,0,4,2,0.5,1,other,0,0,0,0,0,0,0,1.0,4,ACTION,1,4,0.816
+226-70_toshoot-1,Toraja-Sadan,to shoot,maʔ-baliliʔ,1,11,4,0.3636,0,m,1,0,1,0,1,2,1,0.0,0,OTHER,0,4,0.816
+226-71_tostabpierce-1,Toraja-Sadan,"to stab, pierce",tobok,1,5,2,0.4,0,t,0,0,0,0,0,25,1,0.375,2,ACTION,0,4,0.816
+226-72_tohit-1,Toraja-Sadan,to hit,bamba,0,5,2,0.4,1,b,0,1,0,1,0,0,0,1.0,6,ACTION,1,4,0.816
+226-73_tosteal-1,Toraja-Sadan,to steal,boko,0,4,2,0.5,1,b,0,0,0,0,0,0,0,0.6667,4,ACTION,1,4,0.816
+226-74_tokill-1,Toraja-Sadan,to kill,poŋko,1,5,2,0.4,1,p,0,1,0,1,1,5,1,0.0,0,ACTION,1,4,0.816
+226-74_tokill-2,Toraja-Sadan,to kill,buno,1,4,2,0.5,1,b,0,0,0,0,0,338,1,0.0,0,ACTION,1,4,0.816
+226-75_todiebedead-1,Toraja-Sadan,"to die, be dead",mate,1,4,2,0.5,1,m,0,0,0,0,1,1291,1,0.0,0,ACTION,1,4,0.816
+226-76_tolivebealive-1,Toraja-Sadan,"to live, be alive",tuo,1,3,2,0.6667,1,t,0,0,0,0,0,3,1,0.3333,2,ACTION,1,4,0.816
+226-77_toscratch-1,Toraja-Sadan,to scratch,kayok,1,5,2,0.4,0,k,0,0,0,0,1,194,1,0.125,1,ACTION,0,4,0.816
+226-78_tocuthack-1,Toraja-Sadan,"to cut, hack",tara,1,4,2,0.5,1,t,0,0,0,0,1,335,1,0.625,3,ACTION,1,4,0.816
+226-79_stickwood-1,Toraja-Sadan,stick/wood,kayu,1,4,2,0.5,1,k,0,0,0,0,1,1202,1,0.1667,1,OTHER,1,4,0.816
+226-80_tosplit-1,Toraja-Sadan,to split,piak,1,4,2,0.5,0,p,0,0,0,0,0,269,1,0.5,3,ACTION,1,4,0.816
+226-80_tosplit-2,Toraja-Sadan,to split,bakka,1,5,2,0.4,1,b,0,0,0,1,0,17,1,0.5,3,ACTION,1,4,0.816
+226-81_sharp-1,Toraja-Sadan,sharp,ma-taran,1,8,3,0.375,0,m,0,0,1,0,1,244,1,0.1667,1,QUALITY,1,4,0.816
+226-82_dullblunt-1,Toraja-Sadan,"dull, blunt",ma-pumpu,0,8,3,0.375,1,m,0,1,1,1,1,0,0,0.8,4,QUALITY,1,4,0.816
+226-83_towork-1,Toraja-Sadan,to work,karaŋ,1,5,2,0.4,0,k,0,1,0,0,1,38,1,0.1667,1,ACTION,1,4,0.816
+226-84_toplant-1,Toraja-Sadan,to plant,tanan,1,5,2,0.4,0,t,0,0,1,0,1,234,1,0.2857,2,ACTION,1,4,0.816
+226-85_tochoose-1,Toraja-Sadan,to choose,pile,1,4,2,0.5,1,p,0,0,0,0,0,444,1,0.1667,1,ACTION,1,4,0.816
+226-86_togrow-1,Toraja-Sadan,to grow,tuo,1,3,2,0.6667,1,t,0,0,0,0,0,271,1,0.3333,2,ACTION,1,4,0.816
+226-87_toswell-1,Toraja-Sadan,to swell,kambaŋ,1,6,2,0.3333,0,k,0,1,0,1,1,21,1,0.375,2,ACTION,1,4,0.816
+226-88_tosqueeze-1,Toraja-Sadan,to squeeze,parra,1,5,2,0.4,1,p,0,0,0,1,1,110,1,0.3333,2,ACTION,1,4,0.816
+226-89_tohold-1,Toraja-Sadan,to hold,tue,0,3,2,0.6667,1,t,0,0,0,0,0,0,0,0.75,5,ACTION,1,4,0.816
+226-90_todig-1,Toraja-Sadan,to dig,kali,1,4,2,0.5,1,k,0,0,0,0,1,799,1,0.3333,2,ACTION,1,4,0.816
+226-91_tobuy-1,Toraja-Sadan,to buy,alli,1,4,2,0.5,1,a,0,0,0,1,0,394,1,0.1667,1,ACTION,1,4,0.816
+226-92_toopenuncover-1,Toraja-Sadan,"to open, uncover",buka,1,4,2,0.5,1,b,0,0,0,0,0,239,1,0.4286,3,ACTION,1,4,0.816
+226-93_topoundbeat-1,Toraja-Sadan,"to pound, beat",lambuk,1,6,2,0.3333,0,other,0,1,0,1,0,5,1,0.375,2,ACTION,1,4,0.816
+226-94_tothrow-1,Toraja-Sadan,to throw,tibe,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.7143,5,ACTION,1,4,0.816
+226-95_tofall-1,Toraja-Sadan,to fall,tobaŋ,0,5,2,0.4,0,t,0,1,0,0,0,0,0,0.8,4,ACTION,1,4,0.816
+226-96_dog-1,Toraja-Sadan,dog,asu,1,3,2,0.6667,1,a,0,0,0,0,0,341,1,0.3333,2,OTHER,1,4,0.816
+226-97_bird-1,Toraja-Sadan,bird,manuk manuk,1,11,4,0.3636,0,m,0,0,0,0,1,971,1,0.1667,1,OTHER,1,4,0.816
+226-98_egg-1,Toraja-Sadan,egg,talloʔ,1,6,2,0.3333,0,t,1,0,0,1,1,776,1,0.3333,2,BODY,1,4,0.816
+226-99_feather-1,Toraja-Sadan,feather,bulu,1,4,2,0.5,1,b,0,0,0,0,0,647,1,0.1667,1,BODY,1,4,0.816
+226-100_wing-1,Toraja-Sadan,wing,paniʔ,1,5,2,0.4,0,p,1,0,0,0,1,233,1,0.3333,2,BODY,0,4,0.816
+226-101_tofly-1,Toraja-Sadan,to fly,tiaʔ,1,4,2,0.5,0,t,1,0,0,0,0,6,1,0.5,3,ACTION,1,4,0.816
+226-102_rat-1,Toraja-Sadan,rat,balao,1,5,3,0.6,1,b,0,0,0,0,0,363,1,0.1429,1,OTHER,1,4,0.816
+226-103_meatflesh-1,Toraja-Sadan,meat/flesh,issi,1,4,2,0.5,1,other,0,0,0,1,0,146,1,0.3333,2,BODY,1,4,0.816
+226-104_fatgrease-1,Toraja-Sadan,fat/grease,lompo,1,5,2,0.4,1,other,0,1,0,1,0,167,1,0.1667,1,BODY,1,4,0.816
+226-105_tail-1,Toraja-Sadan,tail,ikkoʔ,1,5,2,0.4,0,other,1,0,0,1,0,454,1,0.3333,2,BODY,1,4,0.816
+226-106_snake-1,Toraja-Sadan,snake,ulaʔ,1,4,2,0.5,0,other,1,0,0,0,0,229,1,0.0,0,OTHER,1,4,0.816
+226-107_wormearthworm-1,Toraja-Sadan,worm (earthworm),kalintiŋ,0,8,3,0.375,0,k,0,1,0,1,1,0,0,0.6,3,OTHER,1,4,0.816
+226-108_louse-1,Toraja-Sadan,louse,kutu,1,4,2,0.5,1,k,0,0,0,0,0,1230,1,0.0,0,OTHER,1,4,0.816
+226-109_mosquito-1,Toraja-Sadan,mosquito,kasisiʔ,0,7,3,0.4286,0,k,1,0,1,0,1,0,0,0.2857,2,OTHER,1,4,0.816
+226-110_spider-1,Toraja-Sadan,spider,laa,1,3,2,0.6667,1,other,0,0,0,0,0,375,1,0.0,0,OTHER,0,4,0.816
+226-111_fish-1,Toraja-Sadan,fish,bale,1,4,2,0.5,1,b,0,0,0,0,0,3,1,0.1429,1,OTHER,1,4,0.816
+226-112_rotten-1,Toraja-Sadan,rotten,bosi,0,4,2,0.5,1,b,0,0,0,0,0,0,0,0.5,3,QUALITY,0,4,0.816
+226-113_branch-1,Toraja-Sadan,branch,taŋke,1,5,2,0.4,1,t,0,1,0,1,1,4,1,0.0,0,OTHER,0,4,0.816
+226-114_leaf-1,Toraja-Sadan,leaf,daun,1,4,2,0.5,0,other,0,0,0,0,0,762,1,0.5,3,NATURE,1,4,0.816
+226-115_root-1,Toraja-Sadan,root,akaʔ,1,4,2,0.5,0,a,1,0,0,0,0,608,1,0.3333,2,NATURE,1,4,0.816
+226-116_flower-1,Toraja-Sadan,flower,buŋa,1,4,2,0.5,1,b,0,1,0,0,0,322,1,0.1429,1,NATURE,1,4,0.816
+226-117_fruit-1,Toraja-Sadan,fruit,bua,1,3,2,0.6667,1,b,0,0,0,0,0,832,1,0.1667,1,NATURE,1,4,0.816
+226-118_grass-1,Toraja-Sadan,grass,riu,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.7143,4,NATURE,1,4,0.816
+226-119_earthsoil-1,Toraja-Sadan,earth/soil,litak,1,5,2,0.4,0,other,0,0,0,0,0,78,1,0.0,0,NATURE,1,4,0.816
+226-120_stone-1,Toraja-Sadan,stone,batu,1,4,2,0.5,1,b,0,0,0,0,0,1145,1,0.0,0,NATURE,1,4,0.816
+226-121_sand-1,Toraja-Sadan,sand,buŋin,1,5,2,0.4,0,b,0,1,0,0,0,4,1,0.0,0,NATURE,1,4,0.816
+226-122_water-1,Toraja-Sadan,water,wai,1,3,2,0.6667,1,other,0,0,0,0,0,673,1,0.3333,2,NATURE,1,4,0.816
+226-123_toflow-1,Toraja-Sadan,to flow,loloŋ,1,5,2,0.4,0,other,0,1,1,0,0,4,1,0.5,3,ACTION,1,4,0.816
+226-124_sea-1,Toraja-Sadan,sea,tasik,1,5,2,0.4,0,t,0,0,0,0,1,705,1,0.2857,2,NATURE,1,4,0.816
+226-125_salt-1,Toraja-Sadan,salt,sia,1,3,2,0.6667,1,s,0,0,0,0,0,117,1,0.5,3,NATURE,1,4,0.816
+226-126_lake-1,Toraja-Sadan,lake,tapparan,1,8,3,0.375,0,t,0,0,0,1,1,2,1,0.1667,1,NATURE,1,4,0.816
+226-127_woodsforest-1,Toraja-Sadan,woods/forest,alaʔ,1,4,2,0.5,0,a,1,0,0,0,0,60,1,0.5,3,NATURE,1,4,0.816
+226-128_sky-1,Toraja-Sadan,sky,laŋiʔ,1,5,2,0.4,0,other,1,1,0,0,0,589,1,0.2857,2,NATURE,1,4,0.816
+226-129_moon-1,Toraja-Sadan,moon,bulan,1,5,2,0.4,0,b,0,0,0,0,0,764,1,0.0,0,NATURE,1,4,0.816
+226-130_star-1,Toraja-Sadan,star,bintoën,1,7,2,0.2857,0,b,0,1,0,2,0,648,1,0.1429,1,NATURE,1,4,0.816
+226-131_cloud-1,Toraja-Sadan,cloud,salebuʔ,0,7,3,0.4286,0,s,1,0,0,0,0,0,0,0.8333,5,NATURE,1,4,0.816
+226-132_fog-1,Toraja-Sadan,fog,rambu roya,1,10,4,0.4,1,other,0,1,0,1,0,131,1,0.1667,1,NATURE,1,4,0.816
+226-133_rain-1,Toraja-Sadan,rain,uran,1,4,2,0.5,0,other,0,0,0,0,0,1247,1,0.1667,1,NATURE,1,4,0.816
+226-134_thunder-1,Toraja-Sadan,thunder,galugu,1,6,3,0.5,1,other,0,0,0,0,0,42,1,0.0,0,NATURE,1,4,0.816
+226-134_thunder-2,Toraja-Sadan,thunder,guntuʔ,1,6,2,0.3333,0,other,1,1,0,1,0,37,1,0.0,0,NATURE,1,4,0.816
+226-135_lightning-1,Toraja-Sadan,lightning,kilaʔ,1,5,2,0.4,0,k,1,0,0,0,0,257,1,0.1429,1,NATURE,1,4,0.816
+226-136_wind-1,Toraja-Sadan,wind,aŋin,1,4,2,0.5,0,a,0,1,0,0,1,724,1,0.1667,1,NATURE,1,4,0.816
+226-137_toblow-1,Toraja-Sadan,to blow,pamurruʔ,0,8,3,0.375,0,p,1,0,0,1,1,0,0,0.6667,4,ACTION,1,4,0.816
+226-138_warm-1,Toraja-Sadan,warm,ma-lassu,1,8,3,0.375,1,m,0,0,1,1,1,13,1,0.5714,4,QUALITY,1,4,0.816
+226-139_cold-1,Toraja-Sadan,cold,ma-sakkaʔ,0,9,3,0.3333,0,m,1,0,1,1,1,0,0,0.3333,2,QUALITY,1,4,0.816
+226-140_dry-1,Toraja-Sadan,dry,ma-reŋko,1,8,3,0.375,1,m,0,1,1,1,1,132,1,0.5,3,QUALITY,1,4,0.816
+226-141_wet-1,Toraja-Sadan,wet,bonak,1,5,2,0.4,0,b,0,0,0,0,0,2,1,0.5,3,QUALITY,1,4,0.816
+226-142_heavy-1,Toraja-Sadan,heavy,ma-gasa,0,7,3,0.4286,1,m,0,0,1,0,1,0,0,0.6667,4,QUALITY,1,4,0.816
+226-143_fire-1,Toraja-Sadan,fire,api,1,3,2,0.6667,1,a,0,0,0,0,0,831,1,0.3333,2,NATURE,1,4,0.816
+226-144_toburn-1,Toraja-Sadan,to burn,tunu,1,4,2,0.5,1,t,0,0,0,0,0,261,1,0.3333,2,ACTION,1,4,0.816
+226-145_smoke-1,Toraja-Sadan,smoke,rambu,1,5,2,0.4,1,other,0,1,0,1,0,12,1,0.0,0,NATURE,1,4,0.816
+226-146_ashes-1,Toraja-Sadan,ashes,au,1,2,2,1.0,1,a,0,0,0,0,0,607,1,0.1429,1,NATURE,1,4,0.816
+226-147_black-1,Toraja-Sadan,black,ma-lotoŋ,1,8,3,0.375,0,m,0,1,1,0,1,3,1,0.3333,2,QUALITY,1,4,0.816
+226-148_white-1,Toraja-Sadan,white,ma-busa,1,7,3,0.4286,1,m,0,0,1,0,1,371,1,0.3333,2,QUALITY,1,4,0.816
+226-149_red-1,Toraja-Sadan,red,ma-raraŋ,1,8,3,0.375,0,m,0,1,1,0,1,426,1,0.6667,4,QUALITY,1,4,0.816
+226-150_yellow-1,Toraja-Sadan,yellow,ma-riri,1,7,3,0.4286,1,m,0,0,1,0,1,8,1,0.1667,1,QUALITY,1,4,0.816
+226-151_green-1,Toraja-Sadan,green,ma-ido,1,6,3,0.5,1,m,0,0,1,0,1,84,1,0.5,3,QUALITY,1,4,0.816
+226-152_small-1,Toraja-Sadan,small,bittiʔ,1,6,2,0.3333,0,b,1,0,0,1,0,5,1,0.5,3,QUALITY,1,4,0.816
+226-153_big-1,Toraja-Sadan,big,kapua,0,5,3,0.6,1,k,0,0,0,0,1,0,0,0.7143,4,QUALITY,1,4,0.816
+226-154_short-1,Toraja-Sadan,short,kondiʔ,0,6,2,0.3333,0,k,1,1,0,1,0,0,0,0.4286,3,QUALITY,1,4,0.816
+226-155_long-1,Toraja-Sadan,long,kalando,1,7,3,0.4286,1,k,0,1,0,1,1,93,1,0.125,1,QUALITY,1,4,0.816
+226-156_thin-1,Toraja-Sadan,thin,ma-nipiʔ,1,8,3,0.375,0,m,1,0,1,0,1,662,1,0.0,0,QUALITY,1,4,0.816
+226-157_thick-1,Toraja-Sadan,thick,ma-kamban,1,9,3,0.3333,0,m,0,1,1,1,1,129,1,0.1667,1,QUALITY,1,4,0.816
+226-158_narrow-1,Toraja-Sadan,narrow,siʔpiʔ,1,6,2,0.3333,0,s,1,0,0,1,0,35,1,0.4286,3,QUALITY,1,4,0.816
+226-159_wide-1,Toraja-Sadan,wide,saŋkaʔ,1,6,2,0.3333,0,s,1,1,0,1,0,2,1,0.3333,2,QUALITY,1,4,0.816
+226-160_painfulsick-1,Toraja-Sadan,"painful, sick",ma-saki,1,7,3,0.4286,1,m,0,0,1,0,1,484,1,0.3333,2,QUALITY,1,4,0.816
+226-161_shyashamed-1,Toraja-Sadan,"shy, ashamed",ma-siriʔ,1,8,3,0.375,0,m,1,0,1,0,1,3,1,0.1667,1,QUALITY,1,4,0.816
+226-162_old-1,Toraja-Sadan,old,ma-tua,1,6,3,0.5,1,m,0,0,1,0,1,392,1,0.2857,2,QUALITY,1,4,0.816
+226-163_new-1,Toraja-Sadan,new,baʔru,1,5,2,0.4,1,b,1,0,0,1,0,796,1,0.1667,1,QUALITY,1,4,0.816
+226-164_good-1,Toraja-Sadan,good,melo,1,4,2,0.5,1,m,0,0,0,0,1,7,1,0.4286,3,QUALITY,1,4,0.816
+226-164_good-2,Toraja-Sadan,good,ma-pia,1,6,3,0.5,1,m,0,0,1,0,1,200,1,0.4286,3,QUALITY,1,4,0.816
+226-165_badevil-1,Toraja-Sadan,"bad, evil",kadake,1,6,3,0.5,1,k,0,0,0,0,1,829,1,0.3333,2,QUALITY,1,4,0.816
+226-166_correcttrue-1,Toraja-Sadan,"correct, true",toŋan,1,5,2,0.4,0,t,0,1,0,0,0,4,1,0.1667,1,QUALITY,1,4,0.816
+226-167_night-1,Toraja-Sadan,night,boŋi,1,4,2,0.5,1,b,0,1,0,0,0,949,1,0.1429,1,OTHER,1,4,0.816
+226-168_day-1,Toraja-Sadan,day,allo,1,4,2,0.5,1,a,0,0,0,1,0,319,2,0.1667,1,OTHER,1,4,0.816
+226-169_year-1,Toraja-Sadan,year,taun,1,4,2,0.5,0,t,0,0,0,0,1,426,1,0.0,0,OTHER,1,4,0.816
+226-170_when-1,Toraja-Sadan,when?,piran,1,5,2,0.4,0,p,0,0,0,0,0,484,1,0.1429,1,GRAMMAR,1,4,0.816
+226-171_tohide-1,Toraja-Sadan,to hide,buni,1,4,2,0.5,1,b,0,0,0,0,0,188,1,0.5714,4,ACTION,1,4,0.816
+226-172_toclimb-1,Toraja-Sadan,to climb,tukaʔ,1,5,2,0.4,0,t,1,0,0,0,0,5,1,0.1667,1,ACTION,1,4,0.816
+226-173_at-1,Toraja-Sadan,at,di,1,2,1,0.5,1,other,0,0,0,0,0,150,1,0.0,0,GRAMMAR,1,4,0.816
+226-174_ininside-1,Toraja-Sadan,"in, inside",lan,1,3,1,0.3333,0,other,0,0,0,0,0,592,1,0.1429,1,GRAMMAR,1,4,0.816
+226-175_above-1,Toraja-Sadan,above,doa,1,3,2,0.6667,1,other,0,0,0,0,0,200,1,0.1429,1,GRAMMAR,1,4,0.816
+226-176_below-1,Toraja-Sadan,below,dioŋ,0,4,2,0.5,0,other,0,1,0,0,0,0,0,0.5714,4,GRAMMAR,1,4,0.816
+226-177_this-1,Toraja-Sadan,this,ia-te,1,5,3,0.6,1,other,0,0,1,0,0,9,1,0.3333,2,GRAMMAR,1,4,0.816
+226-178_that-1,Toraja-Sadan,that,ia-to,1,5,3,0.6,1,other,0,0,1,0,0,75,1,0.3333,3,GRAMMAR,1,4,0.816
+226-178_that-2,Toraja-Sadan,that,ia-tu,1,5,3,0.6,1,other,0,0,1,0,0,75,1,0.3333,3,GRAMMAR,1,4,0.816
+226-179_near-1,Toraja-Sadan,near,dappiʔ,1,6,2,0.3333,0,other,1,0,0,1,0,9,1,0.4286,3,GRAMMAR,1,4,0.816
+226-180_far-1,Toraja-Sadan,far,bela,1,4,2,0.5,1,b,0,0,0,0,0,4,1,0.3333,2,GRAMMAR,1,4,0.816
+226-181_where-1,Toraja-Sadan,where?,umba nii,1,8,4,0.5,1,other,0,1,0,1,0,6,1,0.5714,4,GRAMMAR,1,4,0.816
+226-182_i-1,Toraja-Sadan,I,aku,1,3,2,0.6667,1,a,0,0,0,0,0,1573,1,0.1667,1,GRAMMAR,1,4,0.816
+226-183_thou-1,Toraja-Sadan,thou,iko,1,3,2,0.6667,1,other,0,0,0,0,0,1534,1,0.1667,1,GRAMMAR,1,4,0.816
+226-184_heshe-1,Toraja-Sadan,he/she,ia,1,2,2,1.0,1,other,0,0,0,0,0,1440,1,0.2857,1,GRAMMAR,1,4,0.816
+226-185_we-1,Toraja-Sadan,we,kita,1,4,2,0.5,1,k,0,0,0,0,0,1009,1,0.0,0,OTHER,0,4,0.816
+226-185_we-2,Toraja-Sadan,we,kami,1,4,2,0.5,1,k,0,0,0,0,1,938,1,0.0,0,OTHER,0,4,0.816
+226-186_you-1,Toraja-Sadan,you,kamu,1,4,2,0.5,1,k,0,0,0,0,1,1062,1,0.1667,1,GRAMMAR,1,4,0.816
+226-187_they-1,Toraja-Sadan,they,ia,1,2,2,1.0,1,other,0,0,0,0,0,1075,1,0.7143,4,GRAMMAR,1,4,0.816
+226-188_what-1,Toraja-Sadan,what?,apa,1,3,2,0.6667,1,a,0,0,0,0,0,1132,1,0.1667,1,GRAMMAR,1,4,0.816
+226-189_who-1,Toraja-Sadan,who?,inda,0,4,2,0.5,1,other,0,1,0,1,0,0,0,0.5,3,GRAMMAR,1,4,0.816
+226-190_other-1,Toraja-Sadan,other,seŋaʔ,0,5,2,0.4,0,s,1,1,0,0,0,0,0,0.8,4,GRAMMAR,1,4,0.816
+226-191_all-1,Toraja-Sadan,all,nasaŋ,1,5,2,0.4,0,other,0,1,0,0,1,2,1,0.4286,3,GRAMMAR,1,4,0.816
+226-192_and-1,Toraja-Sadan,and,na,1,2,1,0.5,1,other,0,0,0,0,1,330,1,0.375,3,GRAMMAR,1,4,0.816
+226-193_if-1,Toraja-Sadan,if,iake,0,4,3,0.75,1,other,0,0,0,0,0,0,0,0.75,5,GRAMMAR,1,4,0.816
+226-194_how-1,Toraja-Sadan,how?,umba na-kua,1,11,5,0.4545,1,other,0,1,1,1,0,63,1,0.5714,3,GRAMMAR,1,4,0.816
+226-195_nonot-1,Toraja-Sadan,"no, not",taeʔ,0,4,2,0.5,0,t,1,0,0,0,1,0,0,0.5714,3,GRAMMAR,1,4,0.816
+226-196_tocount-1,Toraja-Sadan,to count,bilaŋ,1,5,2,0.4,0,b,0,1,0,0,0,276,1,0.3333,2,ACTION,1,4,0.816
+226-197_one-1,Toraja-Sadan,One,missaʔ,1,6,2,0.3333,0,m,1,0,0,1,0,643,1,0.1429,1,NUMBER,1,4,0.816
+226-197_one-2,Toraja-Sadan,One,misa',0,5,2,0.4,0,m,1,0,0,0,0,0,0,0.1429,1,NUMBER,1,4,0.816
+226-198_two-1,Toraja-Sadan,Two,dua,1,3,2,0.6667,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,4,0.816
+226-199_three-1,Toraja-Sadan,Three,tallu,1,5,2,0.4,1,t,0,0,0,1,1,1402,1,0.0,0,NUMBER,1,4,0.816
+226-200_four-1,Toraja-Sadan,Four,aʔpaʔ,1,5,2,0.4,0,a,1,0,0,1,0,1308,1,0.1429,1,NUMBER,1,4,0.816
+226-201_five-1,Toraja-Sadan,Five,lima,1,4,2,0.5,1,other,0,0,0,0,0,1232,1,0.0,0,NUMBER,1,4,0.816
+226-202_six-1,Toraja-Sadan,Six,annan,0,5,2,0.4,0,a,0,0,0,1,0,0,0,0.5,2,NUMBER,0,4,0.816
+226-203_seven-1,Toraja-Sadan,Seven,pitu,1,4,2,0.5,1,p,0,0,0,0,0,702,1,0.0,0,NUMBER,0,4,0.816
+226-204_eight-1,Toraja-Sadan,Eight,karua,1,5,3,0.6,1,k,0,0,0,0,1,6,1,0.5,3,NUMBER,0,4,0.816
+226-205_nine-1,Toraja-Sadan,Nine,kasera,1,6,3,0.5,1,k,0,0,0,0,1,3,1,0.0,0,NUMBER,0,4,0.816
+226-206_ten-1,Toraja-Sadan,Ten,sangpulo,0,8,3,0.375,1,s,0,1,0,1,0,0,0,0.4,2,NUMBER,0,4,0.816
+226-207_twenty-1,Toraja-Sadan,Twenty,duaŋpulo,0,8,4,0.5,1,other,0,1,0,1,0,0,0,0.8,4,NUMBER,0,4,0.816
+226-208_fifty-1,Toraja-Sadan,Fifty,limaŋpulo,0,9,4,0.4444,1,other,0,1,0,1,0,0,0,0.8,4,NUMBER,0,4,0.816
+226-209_onehundred-1,Toraja-Sadan,One Hundred,saratuʔ,0,7,3,0.4286,0,s,1,0,0,0,0,0,0,0.8,4,NUMBER,0,4,0.816
+226-210_onethousand-1,Toraja-Sadan,One Thousand,saŋsaʔbu,0,8,3,0.375,1,s,1,1,0,2,0,0,0,0.8333,5,NUMBER,0,4,0.816
+674-1_hand-1,Tolaki,hand,kae,1,3,2,0.6667,1,k,0,0,0,0,1,36,1,0.0,0,BODY,1,3,0.402
+674-2_left-1,Tolaki,left,hiri,1,4,2,0.5,1,other,0,0,0,0,0,651,2,0.0,0,OTHER,0,3,0.402
+674-3_right-1,Tolaki,right,hana,1,4,2,0.5,1,other,0,0,0,0,0,384,1,0.0,0,OTHER,0,3,0.402
+674-4_legfoot-1,Tolaki,leg/foot,kare,1,4,2,0.5,1,k,0,0,0,0,1,83,1,0.3333,2,BODY,1,3,0.402
+674-5_towalk-1,Tolaki,to walk,molako,1,6,3,0.5,1,m,0,0,0,0,1,373,1,0.2857,1,ACTION,1,3,0.402
+674-6_roadpath-1,Tolaki,road/path,sala,1,4,2,0.5,1,s,0,0,0,0,0,991,1,0.3333,2,NATURE,1,3,0.402
+674-7_tocome-1,Tolaki,to come,leu,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.625,4,ACTION,1,3,0.402
+674-8_toturn-1,Tolaki,to turn,putara,0,6,3,0.5,1,p,0,0,0,0,0,0,0,0.5,3,ACTION,1,3,0.402
+674-9_toswim-1,Tolaki,to swim,lumangu,1,7,3,0.4286,1,other,0,1,0,1,0,388,1,0.1667,1,ACTION,1,3,0.402
+674-11_dust-1,Tolaki,dust,awu,1,3,2,0.6667,1,a,0,0,0,0,0,377,1,0.1429,1,NATURE,0,3,0.402
+674-12_skin-1,Tolaki,skin,kuli,1,4,2,0.5,1,k,0,0,0,0,0,720,1,0.1429,1,BODY,1,3,0.402
+674-13_back-1,Tolaki,back,bunggu,0,6,2,0.3333,1,b,0,1,0,1,0,0,0,0.375,3,BODY,1,3,0.402
+674-14_belly-1,Tolaki,belly,tia,1,3,2,0.6667,1,t,0,0,0,0,0,304,1,0.1667,1,BODY,1,3,0.402
+674-15_bone-1,Tolaki,bone,tula,1,4,2,0.5,1,t,0,0,0,0,0,379,1,0.0,0,BODY,1,3,0.402
+674-16_intestines-1,Tolaki,intestines,usu,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.5714,4,BODY,1,3,0.402
+674-17_liver-1,Tolaki,liver,ate,1,3,2,0.6667,1,a,0,0,0,0,0,828,1,0.0,0,BODY,1,3,0.402
+674-18_breast-1,Tolaki,breast,susu,1,4,2,0.5,1,s,0,0,1,0,0,1122,1,0.0,0,BODY,1,3,0.402
+674-19_shoulder-1,Tolaki,shoulder,bohe,0,4,2,0.5,1,b,0,0,0,0,0,0,0,0.1429,1,BODY,1,3,0.402
+674-20_toknowbeknowledgeable-1,Tolaki,"to know, be knowledgeable",to'ori,0,6,3,0.5,1,t,1,0,0,0,0,0,0,0.1667,1,ACTION,0,3,0.402
+674-21_tothink-1,Tolaki,to think,mepikiri,1,8,4,0.5,1,m,0,0,0,0,1,90,1,0.5,3,ACTION,0,3,0.402
+674-22_tofear-1,Tolaki,to fear,motaku,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.3333,2,ACTION,0,3,0.402
+674-23_blood-1,Tolaki,blood,beli,0,4,2,0.5,1,b,0,0,0,0,0,0,0,0.1667,1,BODY,1,3,0.402
+674-24_head-1,Tolaki,head,ulu,1,3,2,0.6667,1,other,0,0,0,0,0,746,1,0.1667,1,BODY,1,3,0.402
+674-25_neck-1,Tolaki,neck,woroko,0,6,3,0.5,1,other,0,0,0,0,0,0,0,0.1667,1,BODY,1,3,0.402
+674-26_hair-1,Tolaki,hair,wuu,1,3,2,0.6667,1,other,0,0,0,0,0,297,1,0.1667,1,BODY,1,3,0.402
+674-27_nose-1,Tolaki,nose,enge,1,4,2,0.5,1,other,0,1,0,1,0,42,1,0.1667,1,BODY,1,3,0.402
+674-28_tobreathe-1,Tolaki,to breathe,mehonahona,0,10,5,0.5,1,m,0,0,0,0,1,0,0,0.5714,3,ACTION,0,3,0.402
+674-28_tobreathe-2,Tolaki,to breathe,penao,0,5,3,0.6,1,p,0,0,0,0,0,0,0,0.5714,3,ACTION,0,3,0.402
+674-29_tosniffsmell-1,Tolaki,"to sniff, smell",siusiu,0,6,4,0.6667,1,s,0,0,1,0,0,0,0,0.3333,2,ACTION,0,3,0.402
+674-30_mouth-1,Tolaki,mouth,pondu,0,5,2,0.4,1,p,0,1,0,1,1,0,0,0.3333,2,BODY,1,3,0.402
+674-31_tooth-1,Tolaki,tooth,ngisi,1,5,2,0.4,1,other,0,1,0,1,0,118,1,0.0,0,BODY,1,3,0.402
+674-32_tongue-1,Tolaki,tongue,elo,1,3,2,0.6667,1,other,0,0,0,0,0,393,1,0.0,0,BODY,1,3,0.402
+674-33_tolaugh-1,Tolaki,to laugh,mototao,0,7,4,0.5714,1,m,0,0,1,0,1,0,0,0.3333,2,ACTION,1,3,0.402
+674-34_tocry-1,Tolaki,to cry,umi'ia,0,6,4,0.6667,1,other,1,0,0,0,0,0,0,0.375,2,ACTION,1,3,0.402
+674-34_tocry-2,Tolaki,to cry,hono,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.375,2,ACTION,1,3,0.402
+674-35_tovomit-1,Tolaki,to vomit,mo'ua,0,5,3,0.6,1,m,1,0,0,0,1,0,0,0.4286,2,ACTION,1,3,0.402
+674-36_tospit-1,Tolaki,to spit,mo'eni,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.4286,3,ACTION,0,3,0.402
+674-37_toeat-1,Tolaki,to eat,kaa,1,3,2,0.6667,1,k,0,0,0,0,1,1440,1,0.1667,1,ACTION,1,3,0.402
+674-38_tochew-1,Tolaki,to chew,kaa,0,3,2,0.6667,1,k,0,0,0,0,1,0,0,0.5,3,ACTION,0,3,0.402
+674-39_tocook-1,Tolaki,to cook,monahu,1,6,3,0.5,1,m,0,0,0,0,1,65,1,0.3333,2,ACTION,0,3,0.402
+674-40_todrink-1,Tolaki,to drink,mo'inu,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.2857,2,ACTION,1,3,0.402
+674-41_tobite-1,Tolaki,to bite,kaa,0,3,2,0.6667,1,k,0,0,0,0,1,0,0,0.625,3,ACTION,1,3,0.402
+674-43_ear-1,Tolaki,ear,biri,1,4,2,0.5,1,b,0,0,0,0,0,47,1,0.1667,1,BODY,0,3,0.402
+674-44_tohear-1,Tolaki,to hear,podea,0,5,3,0.6,1,p,0,0,0,0,1,0,0,0.1667,1,ACTION,1,3,0.402
+674-45_eye-1,Tolaki,eye,mata,1,4,2,0.5,1,m,0,0,0,0,1,1471,1,0.0,0,BODY,0,3,0.402
+674-46_tosee-1,Tolaki,to see,ki'ii,0,5,3,0.6,1,k,1,0,0,0,0,0,0,0.875,5,ACTION,1,3,0.402
+674-46_tosee-2,Tolaki,to see,ki'i,0,4,2,0.5,1,k,1,0,0,0,0,0,0,0.875,5,ACTION,1,3,0.402
+674-48_tosleep-1,Tolaki,to sleep,mo'iso,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.5,3,ACTION,1,3,0.402
+674-49_toliedown-1,Tolaki,to lie down,mo'iso'iso,0,10,5,0.5,1,m,1,0,0,0,1,0,0,0.5714,3,ACTION,1,3,0.402
+674-50_todream-1,Tolaki,to dream,mo'ipi,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.3333,2,ACTION,0,3,0.402
+674-51_tosit-1,Tolaki,to sit,mererehu,0,8,4,0.5,1,m,0,0,1,0,1,0,0,0.5714,4,ACTION,1,3,0.402
+674-52_tostand-1,Tolaki,to stand,menggokora,0,10,4,0.4,1,m,0,1,0,1,1,0,0,0.8333,5,ACTION,1,3,0.402
+674-53_personhumanbeing-1,Tolaki,person/human being,toono,0,5,3,0.6,1,t,0,0,0,0,0,0,0,0.1667,1,OTHER,1,3,0.402
+674-54_manmale-1,Tolaki,man/male,langgai,0,7,3,0.4286,1,other,0,1,0,1,0,0,0,0.1429,1,OTHER,1,3,0.402
+674-55_womanfemale-1,Tolaki,woman/female,tina,1,4,2,0.5,1,t,0,0,0,0,0,19,1,0.1667,1,OTHER,1,3,0.402
+674-56_child-1,Tolaki,child,ana,1,3,2,0.6667,1,a,0,0,0,0,0,450,1,0.1667,1,OTHER,1,3,0.402
+674-57_husband-1,Tolaki,husband,langgai,0,7,3,0.4286,1,other,0,1,0,1,0,0,0,0.3333,2,OTHER,1,3,0.402
+674-58_wife-1,Tolaki,wife,tina,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.5714,3,OTHER,1,3,0.402
+674-59_mother-1,Tolaki,mother,ina,1,3,2,0.6667,1,other,0,0,0,0,0,921,1,0.0,0,OTHER,1,3,0.402
+674-60_father-1,Tolaki,father,ama,1,3,2,0.6667,1,a,0,0,0,0,0,1014,1,0.1667,1,OTHER,1,3,0.402
+674-61_house-1,Tolaki,house,laika,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.1667,1,OTHER,1,3,0.402
+674-62_thatchroof-1,Tolaki,thatch/roof,ato,1,3,2,0.6667,1,a,0,0,0,0,0,489,1,0.5,3,OTHER,0,3,0.402
+674-63_name-1,Tolaki,name,tamo,0,4,2,0.5,1,t,0,0,0,0,1,0,0,0.3333,2,OTHER,1,3,0.402
+674-64_tosay-1,Tolaki,to say,te'eni,0,6,3,0.5,1,t,1,0,0,0,0,0,0,0.6667,5,ACTION,1,3,0.402
+674-65_rope-1,Tolaki,rope,oloo,0,4,3,0.75,1,other,0,0,0,0,0,0,0,0.7143,5,OTHER,1,3,0.402
+674-66_totieupfasten-1,Tolaki,"to tie up, fasten",onggo,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.8333,5,ACTION,0,3,0.402
+674-67_tosew-1,Tolaki,to sew,moseu,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.5,3,ACTION,1,3,0.402
+674-68_needle-1,Tolaki,needle,seu,1,3,2,0.6667,1,s,0,0,0,0,0,317,1,0.1667,1,OTHER,1,3,0.402
+674-70_toshoot-1,Tolaki,to shoot,pana,1,4,2,0.5,1,p,0,0,0,0,1,389,1,0.0,0,OTHER,0,3,0.402
+674-71_tostabpierce-1,Tolaki,"to stab, pierce",tobo,1,4,2,0.5,1,t,0,0,0,0,0,25,1,0.375,2,ACTION,0,3,0.402
+674-72_tohit-1,Tolaki,to hit,toni,0,4,2,0.5,1,t,0,0,0,0,0,0,0,1.0,6,ACTION,1,3,0.402
+674-73_tosteal-1,Tolaki,to steal,ponini,0,6,3,0.5,1,p,0,0,1,0,1,0,0,0.6667,4,ACTION,1,3,0.402
+674-74_tokill-1,Tolaki,to kill,pate,1,4,2,0.5,1,p,0,0,0,0,1,38,1,0.0,0,ACTION,1,3,0.402
+674-75_todiebedead-1,Tolaki,"to die, be dead",mate,1,4,2,0.5,1,m,0,0,0,0,1,1291,1,0.0,0,ACTION,1,3,0.402
+674-76_tolivebealive-1,Tolaki,"to live, be alive",laa,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.3333,2,ACTION,1,3,0.402
+674-77_toscratch-1,Tolaki,to scratch,karu,1,4,2,0.5,1,k,0,0,0,0,1,102,1,0.125,1,ACTION,0,3,0.402
+674-78_tocuthack-1,Tolaki,"to cut, hack",pole'i,0,6,3,0.5,1,p,1,0,0,0,1,0,0,0.625,3,ACTION,1,3,0.402
+674-78_tocuthack-2,Tolaki,"to cut, hack",pole,0,4,2,0.5,1,p,0,0,0,0,1,0,0,0.625,3,ACTION,1,3,0.402
+674-79_stickwood-1,Tolaki,stick/wood,tangge,0,6,2,0.3333,1,t,0,1,0,1,1,0,0,0.1667,1,OTHER,1,3,0.402
+674-80_tosplit-1,Tolaki,to split,wota,1,4,2,0.5,1,other,0,0,0,0,0,269,1,0.5,3,ACTION,1,3,0.402
+674-81_sharp-1,Tolaki,sharp,monggaso,0,8,3,0.375,1,m,0,1,0,1,1,0,0,0.1667,1,QUALITY,1,3,0.402
+674-83_towork-1,Tolaki,to work,mombaho,0,7,3,0.4286,1,m,0,1,0,1,1,0,0,0.1667,1,ACTION,1,3,0.402
+674-84_toplant-1,Tolaki,to plant,mombaho,0,7,3,0.4286,1,m,0,1,0,1,1,0,0,0.2857,2,ACTION,1,3,0.402
+674-85_tochoose-1,Tolaki,to choose,mepili,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.1667,1,ACTION,1,3,0.402
+674-86_togrow-1,Tolaki,to grow,toro,0,4,2,0.5,1,t,0,0,0,0,0,0,0,0.3333,2,ACTION,1,3,0.402
+674-87_toswell-1,Tolaki,to swell,kamba,1,5,2,0.4,1,k,0,1,0,1,1,21,1,0.375,2,ACTION,1,3,0.402
+674-89_tohold-1,Tolaki,to hold,po'indi,0,7,3,0.4286,1,p,1,1,0,1,1,0,0,0.75,5,ACTION,1,3,0.402
+674-90_todig-1,Tolaki,to dig,metanggali,0,10,4,0.4,1,m,0,1,0,1,1,0,0,0.3333,2,ACTION,1,3,0.402
+674-91_tobuy-1,Tolaki,to buy,po'oli,0,6,3,0.5,1,p,1,0,0,0,1,0,0,0.1667,1,ACTION,1,3,0.402
+674-92_toopenuncover-1,Tolaki,"to open, uncover",hungga,0,6,2,0.3333,1,other,0,1,0,1,0,0,0,0.4286,3,ACTION,1,3,0.402
+674-93_topoundbeat-1,Tolaki,"to pound, beat",moaliali,0,8,5,0.625,1,m,0,0,1,0,1,0,0,0.375,2,ACTION,1,3,0.402
+674-94_tothrow-1,Tolaki,to throw,kali,0,4,2,0.5,1,k,0,0,0,0,1,0,0,0.7143,5,ACTION,1,3,0.402
+674-95_tofall-1,Tolaki,to fall,mo'isa,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.8,4,ACTION,1,3,0.402
+674-96_dog-1,Tolaki,dog,dahu,1,4,2,0.5,1,other,0,0,0,0,0,341,1,0.3333,2,OTHER,1,3,0.402
+674-97_bird-1,Tolaki,bird,manumanu,1,8,4,0.5,1,m,0,0,0,0,1,971,1,0.1667,1,OTHER,1,3,0.402
+674-98_egg-1,Tolaki,egg,ti'olu,0,6,3,0.5,1,t,1,0,0,0,0,0,0,0.3333,2,BODY,1,3,0.402
+674-99_feather-1,Tolaki,feather,wulumanumanu,0,12,6,0.5,1,other,0,0,0,0,0,0,0,0.1667,1,BODY,1,3,0.402
+674-100_wing-1,Tolaki,wing,kae,0,3,2,0.6667,1,k,0,0,0,0,1,0,0,0.3333,2,BODY,0,3,0.402
+674-101_tofly-1,Tolaki,to fly,lumaa,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.5,3,ACTION,1,3,0.402
+674-102_rat-1,Tolaki,rat,tehu,1,4,2,0.5,1,t,0,0,0,0,0,37,1,0.1429,1,OTHER,1,3,0.402
+674-102_rat-2,Tolaki,rat,rate,1,4,2,0.5,1,other,0,0,0,0,0,37,1,0.1429,1,OTHER,1,3,0.402
+674-103_meatflesh-1,Tolaki,meat/flesh,ramo,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.3333,2,BODY,1,3,0.402
+674-104_fatgrease-1,Tolaki,fat/grease,taba,1,4,2,0.5,1,t,0,0,0,0,1,176,1,0.1667,1,BODY,1,3,0.402
+674-105_tail-1,Tolaki,tail,ekoro,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.3333,2,BODY,1,3,0.402
+674-106_snake-1,Tolaki,snake,ule,1,3,2,0.6667,1,other,0,0,0,0,0,229,1,0.0,0,OTHER,1,3,0.402
+674-106_snake-2,Tolaki,snake,sao,1,3,2,0.6667,1,s,0,0,0,0,0,229,1,0.0,0,OTHER,1,3,0.402
+674-107_wormearthworm-1,Tolaki,worm (earthworm),uleule,0,6,4,0.6667,1,other,0,0,1,0,0,0,0,0.6,3,OTHER,1,3,0.402
+674-108_louse-1,Tolaki,louse,kutu,1,4,2,0.5,1,k,0,0,0,0,0,1230,1,0.0,0,OTHER,1,3,0.402
+674-109_mosquito-1,Tolaki,mosquito,buroto,1,6,3,0.5,1,b,0,0,0,0,0,10,1,0.2857,2,OTHER,1,3,0.402
+674-110_spider-1,Tolaki,spider,kangga,1,6,2,0.3333,1,k,0,1,0,1,1,3,1,0.0,0,OTHER,0,3,0.402
+674-111_fish-1,Tolaki,fish,ika,1,3,2,0.6667,1,other,0,0,0,0,0,836,1,0.1429,1,OTHER,1,3,0.402
+674-112_rotten-1,Tolaki,rotten,mowuho,1,6,3,0.5,1,m,0,0,0,0,1,4,1,0.5,3,QUALITY,0,3,0.402
+674-114_leaf-1,Tolaki,leaf,tawa,0,4,2,0.5,1,t,0,0,0,0,1,0,0,0.5,3,NATURE,1,3,0.402
+674-115_root-1,Tolaki,root,akara,0,5,3,0.6,1,a,0,0,0,0,0,0,0,0.3333,2,NATURE,1,3,0.402
+674-116_flower-1,Tolaki,flower,wulele,0,6,3,0.5,1,other,0,0,1,0,0,0,0,0.1429,1,NATURE,1,3,0.402
+674-117_fruit-1,Tolaki,fruit,wua,1,3,2,0.6667,1,other,0,0,0,0,0,832,1,0.1667,1,NATURE,1,3,0.402
+674-118_grass-1,Tolaki,grass,rembu,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.7143,4,NATURE,1,3,0.402
+674-119_earthsoil-1,Tolaki,earth/soil,wuta,1,4,2,0.5,1,other,0,0,0,0,0,43,1,0.0,0,NATURE,1,3,0.402
+674-120_stone-1,Tolaki,stone,watu,1,4,2,0.5,1,other,0,0,0,0,0,1145,1,0.0,0,NATURE,1,3,0.402
+674-121_sand-1,Tolaki,sand,one,1,3,2,0.6667,1,other,0,0,0,0,0,658,1,0.0,0,NATURE,1,3,0.402
+674-122_water-1,Tolaki,water,woi,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.3333,2,NATURE,1,3,0.402
+674-123_toflow-1,Tolaki,to flow,lumaa,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.5,3,ACTION,1,3,0.402
+674-124_sea-1,Tolaki,sea,tahi,1,4,2,0.5,1,t,0,0,0,0,1,705,1,0.2857,2,NATURE,1,3,0.402
+674-125_salt-1,Tolaki,salt,peanihi,0,7,4,0.5714,1,p,0,0,0,0,0,0,0,0.5,3,NATURE,1,3,0.402
+674-126_lake-1,Tolaki,lake,rano,1,4,2,0.5,1,other,0,0,0,0,0,212,1,0.1667,1,NATURE,1,3,0.402
+674-127_woodsforest-1,Tolaki,woods/forest,ahoma,0,5,3,0.6,1,a,0,0,0,0,0,0,0,0.5,3,NATURE,1,3,0.402
+674-128_sky-1,Tolaki,sky,lahuene,0,7,4,0.5714,1,other,0,0,0,0,0,0,0,0.2857,2,NATURE,1,3,0.402
+674-129_moon-1,Tolaki,moon,wula,1,4,2,0.5,1,other,0,0,0,0,0,764,1,0.0,0,NATURE,1,3,0.402
+674-130_star-1,Tolaki,star,wotiti,0,6,3,0.5,1,other,0,0,1,0,0,0,0,0.1429,1,NATURE,1,3,0.402
+674-131_cloud-1,Tolaki,cloud,gowa,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.8333,5,NATURE,1,3,0.402
+674-133_rain-1,Tolaki,rain,usa,1,3,2,0.6667,1,other,0,0,0,0,0,1247,1,0.1667,1,NATURE,1,3,0.402
+674-135_lightning-1,Tolaki,lightning,kila,1,4,2,0.5,1,k,0,0,0,0,0,257,1,0.1429,1,NATURE,1,3,0.402
+674-136_wind-1,Tolaki,wind,pua,0,3,2,0.6667,1,p,0,0,0,0,0,0,0,0.1667,1,NATURE,1,3,0.402
+674-137_toblow-1,Tolaki,to blow,mepua,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.6667,4,ACTION,1,3,0.402
+674-138_warm-1,Tolaki,warm,mokula,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.5714,4,QUALITY,1,3,0.402
+674-139_cold-1,Tolaki,cold,morini,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,3,0.402
+674-140_dry-1,Tolaki,dry,mowatu,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.5,3,QUALITY,1,3,0.402
+674-141_wet-1,Tolaki,wet,meiwoi,0,6,4,0.6667,1,m,0,0,0,0,1,0,0,0.5,3,QUALITY,1,3,0.402
+674-142_heavy-1,Tolaki,heavy,mobea,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.6667,4,QUALITY,1,3,0.402
+674-143_fire-1,Tolaki,fire,api,1,3,2,0.6667,1,a,0,0,0,0,0,831,1,0.3333,2,NATURE,1,3,0.402
+674-144_toburn-1,Tolaki,to burn,hunu,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.3333,2,ACTION,1,3,0.402
+674-145_smoke-1,Tolaki,smoke,ahu,1,3,2,0.6667,1,a,0,0,0,0,0,672,1,0.0,0,NATURE,1,3,0.402
+674-146_ashes-1,Tolaki,ashes,awu,1,3,2,0.6667,1,a,0,0,0,0,0,607,1,0.1429,1,NATURE,1,3,0.402
+674-147_black-1,Tolaki,black,me'eto,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.3333,2,QUALITY,1,3,0.402
+674-148_white-1,Tolaki,white,mowila,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,3,0.402
+674-149_red-1,Tolaki,red,momea,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.6667,4,QUALITY,1,3,0.402
+674-150_yellow-1,Tolaki,yellow,mokuni,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.1667,1,QUALITY,1,3,0.402
+674-151_green-1,Tolaki,green,mo'osu,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.5,3,QUALITY,1,3,0.402
+674-152_small-1,Tolaki,small,mohewu,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.5,3,QUALITY,1,3,0.402
+674-153_big-1,Tolaki,big,wo'ose,0,6,3,0.5,1,other,1,0,0,0,0,0,0,0.7143,4,QUALITY,1,3,0.402
+674-154_short-1,Tolaki,short,putu,0,4,2,0.5,1,p,0,0,0,0,0,0,0,0.4286,3,QUALITY,1,3,0.402
+674-155_long-1,Tolaki,long,mendaa,0,6,3,0.5,1,m,0,1,0,1,1,0,0,0.125,1,QUALITY,1,3,0.402
+674-156_thin-1,Tolaki,thin,monipi,1,6,3,0.5,1,m,0,0,0,0,1,662,1,0.0,0,QUALITY,1,3,0.402
+674-157_thick-1,Tolaki,thick,mokapa,1,6,3,0.5,1,m,0,0,0,0,1,129,1,0.1667,1,QUALITY,1,3,0.402
+674-158_narrow-1,Tolaki,narrow,mohewu,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.4286,3,QUALITY,1,3,0.402
+674-159_wide-1,Tolaki,wide,molua,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,3,0.402
+674-160_painfulsick-1,Tolaki,"painful, sick",mohaki,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,3,0.402
+674-161_shyashamed-1,Tolaki,"shy, ashamed",kohanu,0,6,3,0.5,1,k,0,0,0,0,0,0,0,0.1667,1,QUALITY,1,3,0.402
+674-162_old-1,Tolaki,old,motu'o,0,6,3,0.5,1,m,1,0,0,0,1,0,0,0.2857,2,QUALITY,1,3,0.402
+674-163_new-1,Tolaki,new,wo'ohu,0,6,3,0.5,1,other,1,0,0,0,0,0,0,0.1667,1,QUALITY,1,3,0.402
+674-164_good-1,Tolaki,good,meambo,0,6,3,0.5,1,m,0,1,0,1,1,0,0,0.4286,3,QUALITY,1,3,0.402
+674-165_badevil-1,Tolaki,"bad, evil",mosaa,0,5,3,0.6,1,m,0,0,0,0,1,0,0,0.3333,2,QUALITY,1,3,0.402
+674-166_correcttrue-1,Tolaki,"correct, true",meara'i,0,7,4,0.5714,1,m,1,0,0,0,1,0,0,0.1667,1,QUALITY,1,3,0.402
+674-167_night-1,Tolaki,night,wingi,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.1429,1,OTHER,1,3,0.402
+674-168_day-1,Tolaki,day,oleo,0,4,3,0.75,1,other,0,0,0,0,0,0,0,0.1667,1,OTHER,1,3,0.402
+674-169_year-1,Tolaki,year,tau,1,3,2,0.6667,1,t,0,0,0,0,1,426,1,0.0,0,OTHER,1,3,0.402
+674-170_when-1,Tolaki,when?,teipia,1,6,4,0.6667,1,t,0,0,0,0,0,484,2,0.1429,1,GRAMMAR,1,3,0.402
+674-171_tohide-1,Tolaki,to hide,hi'i,0,4,2,0.5,1,other,1,0,0,0,0,0,0,0.5714,4,ACTION,1,3,0.402
+674-172_toclimb-1,Tolaki,to climb,momone,0,6,3,0.5,1,m,0,0,1,0,1,0,0,0.1667,1,ACTION,1,3,0.402
+674-173_at-1,Tolaki,at,i,1,1,1,1.0,1,other,0,0,0,0,0,461,1,0.0,0,GRAMMAR,1,3,0.402
+674-174_ininside-1,Tolaki,"in, inside",i lalo,1,6,3,0.5,1,other,0,0,0,0,0,592,1,0.1429,1,GRAMMAR,1,3,0.402
+674-175_above-1,Tolaki,above,i wawo,0,6,3,0.5,1,other,0,0,0,0,0,0,0,0.1429,1,GRAMMAR,1,3,0.402
+674-176_below-1,Tolaki,below,i lolu,0,6,3,0.5,1,other,0,0,0,0,0,0,0,0.5714,4,GRAMMAR,1,3,0.402
+674-177_this-1,Tolaki,this,inono,0,5,3,0.6,1,other,0,0,1,0,0,0,0,0.3333,2,GRAMMAR,1,3,0.402
+674-178_that-1,Tolaki,that,nggitu'o,0,8,3,0.375,1,other,1,1,0,1,0,0,0,0.3333,3,GRAMMAR,1,3,0.402
+674-179_near-1,Tolaki,near,merambi,0,7,3,0.4286,1,m,0,1,0,1,1,0,0,0.4286,3,GRAMMAR,1,3,0.402
+674-180_far-1,Tolaki,far,mondae,0,6,3,0.5,1,m,0,1,0,1,1,0,0,0.3333,2,GRAMMAR,1,3,0.402
+674-181_where-1,Tolaki,where?,humbee,0,6,3,0.5,1,other,0,1,0,1,0,0,0,0.5714,4,GRAMMAR,1,3,0.402
+674-182_i-1,Tolaki,I,inaku,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.1667,1,GRAMMAR,1,3,0.402
+674-183_thou-1,Tolaki,thou,inggo'o,0,7,3,0.4286,1,other,1,1,0,1,0,0,0,0.1667,1,GRAMMAR,1,3,0.402
+674-184_heshe-1,Tolaki,he/she,i'ia,0,4,3,0.75,1,other,1,0,0,0,0,0,0,0.2857,1,GRAMMAR,1,3,0.402
+674-184_heshe-2,Tolaki,he/she,ie'i,0,4,3,0.75,1,other,1,0,0,0,0,0,0,0.2857,1,GRAMMAR,1,3,0.402
+674-185_we-1,Tolaki,we,inggito,1,7,3,0.4286,1,other,0,1,0,1,0,6,1,0.0,0,OTHER,0,3,0.402
+674-185_we-2,Tolaki,we,inggami,1,7,3,0.4286,1,other,0,1,0,1,0,6,1,0.0,0,OTHER,0,3,0.402
+674-186_you-1,Tolaki,you,inggomiu,0,8,4,0.5,1,other,0,1,0,1,0,0,0,0.1667,1,GRAMMAR,1,3,0.402
+674-187_they-1,Tolaki,they,mehira,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.7143,4,GRAMMAR,1,3,0.402
+674-187_they-2,Tolaki,they,mehiro,0,6,3,0.5,1,m,0,0,0,0,1,0,0,0.7143,4,GRAMMAR,1,3,0.402
+674-188_what-1,Tolaki,what?,hawo,0,4,2,0.5,1,other,0,0,0,0,0,0,0,0.1667,1,GRAMMAR,1,3,0.402
+674-189_who-1,Tolaki,who?,inae,0,4,3,0.75,1,other,0,0,0,0,0,0,0,0.5,3,GRAMMAR,1,3,0.402
+674-191_all-1,Tolaki,all,luwuako,0,7,4,0.5714,1,other,0,0,0,0,0,0,0,0.4286,3,GRAMMAR,1,3,0.402
+674-192_and-1,Tolaki,and,ronga,0,5,2,0.4,1,other,0,1,0,1,0,0,0,0.375,3,GRAMMAR,1,3,0.402
+674-193_if-1,Tolaki,if,mano,0,4,2,0.5,1,m,0,0,0,0,1,0,0,0.75,5,GRAMMAR,1,3,0.402
+674-194_how-1,Tolaki,how?,mombake hawo,0,12,5,0.4167,1,m,0,1,0,1,1,0,0,0.5714,3,GRAMMAR,1,3,0.402
+674-195_nonot-1,Tolaki,"no, not",oki,0,3,2,0.6667,1,other,0,0,0,0,0,0,0,0.5714,3,GRAMMAR,1,3,0.402
+674-196_tocount-1,Tolaki,to count,do'a,0,4,2,0.5,1,other,1,0,0,0,0,0,0,0.3333,2,ACTION,1,3,0.402
+674-197_one-1,Tolaki,One,aso,1,3,2,0.6667,1,a,0,0,0,0,0,643,1,0.1429,1,NUMBER,1,3,0.402
+674-198_two-1,Tolaki,Two,oruo,1,4,3,0.75,1,other,0,0,0,0,0,1434,1,0.0,0,NUMBER,1,3,0.402
+674-199_three-1,Tolaki,Three,tolu,1,4,2,0.5,1,t,0,0,0,0,0,1402,1,0.0,0,NUMBER,1,3,0.402
+674-200_four-1,Tolaki,Four,omba,0,4,2,0.5,1,other,0,1,0,1,0,0,0,0.1429,1,NUMBER,1,3,0.402
+674-201_five-1,Tolaki,Five,limo,1,4,2,0.5,1,other,0,0,0,0,0,1232,1,0.0,0,NUMBER,1,3,0.402
+674-202_six-1,Tolaki,Six,ono,1,3,2,0.6667,1,other,0,0,0,0,0,699,1,0.5,2,NUMBER,0,3,0.402
+674-203_seven-1,Tolaki,Seven,pitu,1,4,2,0.5,1,p,0,0,0,0,0,702,1,0.0,0,NUMBER,0,3,0.402
+674-204_eight-1,Tolaki,Eight,hoalu,0,5,3,0.6,1,other,0,0,0,0,0,0,0,0.5,3,NUMBER,0,3,0.402
+674-205_nine-1,Tolaki,Nine,osio,1,4,3,0.75,1,other,0,0,0,0,0,505,1,0.0,0,NUMBER,0,3,0.402
+674-206_ten-1,Tolaki,Ten,hopulo,0,6,3,0.5,1,other,0,0,0,0,0,0,0,0.4,2,NUMBER,0,3,0.402
+674-207_twenty-1,Tolaki,Twenty,ruambulo,0,8,4,0.5,1,other,0,1,0,1,0,0,0,0.8,4,NUMBER,0,3,0.402
+674-208_fifty-1,Tolaki,Fifty,limambulo,0,9,4,0.4444,1,other,0,1,0,1,0,0,0,0.8,4,NUMBER,0,3,0.402
+674-209_onehundred-1,Tolaki,One Hundred,aso'etu,0,7,4,0.5714,1,a,1,0,0,0,0,0,0,0.8,4,NUMBER,0,3,0.402
+674-210_onethousand-1,Tolaki,One Thousand,aso-sou,0,7,4,0.5714,1,a,0,0,1,0,0,0,0,0.8333,5,NUMBER,0,3,0.402

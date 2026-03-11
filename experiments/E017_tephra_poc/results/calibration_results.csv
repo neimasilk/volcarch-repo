@@ -1,0 +1,5 @@
+site,volcano,system,year_built,distance_km,actual_depth_cm,actual_range_low,actual_range_high,raw_pyle_cm,calibrated_cm,error_cm,error_pct,within_range,within_30pct
+Dwarapala Singosari,Kelud,East Java,1268,14.78070715569375,185,185,185,635.8007915686565,185.0,0.0,0.0,True,True
+Candi Sambisari,Merapi,Central Java,835,24.45362568300707,575,500,650,394.335454353081,114.74043446113312,-460.25956553886687,80.04514183284641,False,False
+Candi Kedulan,Merapi,Central Java,869,19.69260755871927,650,600,700,489.22963319003463,142.3519494476487,-507.64805055235126,78.09970008497712,False,False
+Candi Kimpulan,Merapi,Central Java,900,18.0869619965179,385,270,500,489.4238762112956,142.40846865839805,-242.59153134160195,63.01078736145506,False,False

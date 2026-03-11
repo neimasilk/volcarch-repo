@@ -1,7 +1,7 @@
 # EVAL.md — Evaluation Criteria & Validation Protocol
 
 **Rule: Define how you measure success BEFORE running experiments.**
-**Last updated:** 2026-02-24
+**Last updated:** 2026-03-10
 
 ---
 
@@ -28,9 +28,15 @@ Implementation: Divide study area into spatial blocks (e.g., 5km × 5km grid). E
 
 ---
 
-## 2. Volcanic Burial Depth Model (Paper 3)
+## 2. Volcanic Burial Depth Model (Paper 3) — KILLED
 
-### Calibration Points
+**Status:** KILLED (2026-03-10, Mata Elang #2). E017 POC FAILED — 1/4 calibration sites passed. Generic Pyle 1989 model insufficient; requires per-volcano calibration with Tephra2/FALL3D and geologist co-author.
+
+**Resurrection condition:** Geologist collaborator + Tephra2/FALL3D access.
+
+~~Calibration Points, Validation Method, and Kill Signal below are archived for reference.~~
+
+### Calibration Points (archived)
 
 | Site | Known Depth | Acceptable Prediction Range (±30%) |
 |------|------------|--------------------------------------|
@@ -39,14 +45,8 @@ Implementation: Divide study area into spatial blocks (e.g., 5km × 5km grid). E
 | Candi Kedulan | ~700 cm | 490 – 910 cm |
 | Candi Kimpulan | ~270 cm | 189 – 351 cm |
 
-### Validation Method
-Leave-one-out among calibration points (given we have very few). Predict each point using model calibrated on the others.
-
-### Primary Metric
-- Predictions within ±30% for at least 3 of 4 calibration points.
-
-### Kill Signal
-- Cannot predict Dwarapala within ±50% → fundamental model problem.
+### Kill Signal (triggered)
+- Cannot predict Dwarapala within ±50% → fundamental model problem. **E017 confirmed: only 1/4 sites passed ±30%.**
 
 ---
 
@@ -65,6 +65,41 @@ Leave-one-out among calibration points (given we have very few). Predict each po
 
 ### Failure Mode
 - Model only predicts high suitability where sites are already found → tautology → need to redesign features or approach.
+
+---
+
+## 3b. Temporal Split Validation (Enhanced Tautology Test)
+
+**Purpose:** Provide stronger evidence against tautology by testing model on sites that were discovered *later* (post-2000) when trained only on sites discovered *earlier* (pre-2000).
+
+### Design (E014)
+1. Split positive samples by discovery year (or accessibility as proxy).
+2. Train on pre-2000 / easy-access sites (likely discovered earlier).
+3. Test on post-2000 / hard-access sites (likely discovered later).
+
+### Success Criteria
+- Temporal AUC > 0.65 → Model predicts "undiscovered" sites (tautology-resistant)
+- Temporal AUC within 0.05 of spatial CV AUC → Good generalization
+
+### Results (E014)
+| Metric | Value |
+|--------|-------|
+| Temporal Test AUC | **0.755** |
+| Spatial CV AUC | 0.785 ± 0.058 |
+| Difference | -0.030 |
+| Verdict | **PASS** |
+
+### Integrated Tautology Verdict (E013 + E014)
+
+| Test | Verdict | Key Metric |
+|------|---------|-----------|
+| T1: Multi-Proxy Correlation | GREY_ZONE | max \|rho\| = 0.307 (road_dist) |
+| T2: Spatial Prediction Gap | GREY_ZONE | D = 0.322, far-zone 13% high-suit |
+| T3: Stratified CV | **PASS** | Delta AUC = +0.057, Q4 > Q1 |
+| T4: Temporal Split | **PASS** | AUC = 0.755 vs 0.785 spatial |
+| **Overall** | **CONDITIONAL PASS** | T3-T4 robust; T1-T2 near threshold |
+
+**Rationale:** T3 and T4 provide strong anti-tautology evidence (model performs *better* in least-surveyed areas and generalizes to held-out "undiscovered" sites). T1-T2 are in the grey zone but not failing. Overall verdict is CONDITIONAL rather than unconditional because definitive tautology absence cannot be proven from observational data alone.
 
 ---
 

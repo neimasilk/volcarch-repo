@@ -46,7 +46,8 @@ volcarch/
 │   ├── P1_taphonomic_framework/
 │   ├── P2_settlement_model/
 │   └── P3_burial_depth/
-└── tools/                     ← Shared utility scripts (scraping, GIS, etc.)
+├── tools/                     ← Shared utility scripts (scraping, GIS, etc.)
+└── inBox/                     ← Drop zone for new materials (see protocol below)
 ```
 
 ## Rules for Claude Code
@@ -73,6 +74,32 @@ volcarch/
 - If a task involves domain expertise (archaeology, geology) that you lack confidence in, **flag it** in JOURNAL.md and suggest consulting a domain expert.
 - If a task could take the project in a fundamentally new direction, **ask first** rather than executing.
 - If an experiment result contradicts the core hypothesis (L1), **document it honestly** and flag for review. Do not suppress inconvenient results.
+
+### inBox Protocol
+The `inBox/` folder is a **drop zone** for new materials (drafts, data files, references, etc.) added by the researcher between sessions.
+
+**Rules:**
+- Anything new goes into `inBox/` first.
+- At the start of each session, Claude reads everything in `inBox/`, determines what it is, and routes it:
+  - **Draft papers/ideas** → `docs/drafts/` (with entry in `docs/drafts/README.md`)
+  - **Data files** → `data/raw/` or `data/processed/` (with entry in `data/sources.md`)
+  - **References/literature** → relevant paper folder or `docs/`
+  - **Code/tools** → `tools/` or relevant experiment folder
+- After processing, `inBox/` must be **empty**. Nothing lives there permanently.
+- Every item processed from `inBox/` gets logged in `docs/JOURNAL.md`.
+
+### Draft Papers Pipeline
+- `docs/drafts/` holds incubating paper ideas — frameworks discussed but not yet backed by data/experiments.
+- See `docs/drafts/README.md` for the catalog with priorities and status.
+- A draft enters active development only after passing the gate: **testable hypothesis + accessible data + executable methodology**.
+- Filosofi: *"Santai dalam waktu, serius dalam metode."*
+
+### Exploration Mode & Idea Preservation
+- **`docs/IDEA_REGISTRY.md`** — Master catalog of ALL research ideas with maturity levels (SPARK → PAPER). Every idea gets an ID. Killed papers ≠ killed ideas.
+- **`docs/TRIGGER_MAP.md`** — Reverse blocker index: "If X happens, what becomes possible?" Scan during Mata Elang reviews.
+- **Serendipity tagging:** When working on Paper X and discovering something for Paper Y, tag it in JOURNAL: `[BRIDGE → PY, I-NNN]`
+- During exploration sessions, new ideas go to IDEA_REGISTRY with appropriate maturity level. Never discard — everything gets an ID.
+- Mata Elang weekly reviews: scan TRIGGER_MAP for newly unblocked ideas, update IDEA_REGISTRY maturity levels.
 
 ## Current Status
 → See `docs/L3_EXECUTION.md` for what to work on now.

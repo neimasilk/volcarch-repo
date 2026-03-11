@@ -1,0 +1,24 @@
+CAPTIONS — Asian Perspectives Submission
+
+Mukhlis Amien, "Multi-Site Calibration of Volcanic Sedimentation Rates and Implications for Archaeological Visibility in Java, Indonesia"
+
+=== FIGURES ===
+
+Figure 1. Direct photographic evidence of cumulative volcanic sedimentation at Candi Singosari. (a) Colonial-era photograph (c. 1860) from the Leiden University Library archives, captioned Hindoe Oudheden—Singosari, showing the Dwarapala guardian statue partially buried beneath volcanic sediment approximately six centuries after its construction (A.D. ~1268). Only the head, shoulders, and hands remain visible above the accumulated overburden. (b) The same statue today, fully excavated and displayed at its original seated height of 370 cm. At the calibrated sedimentation rate of 3.5 mm/yr derived from this site (Section 3.2), approximately 185 cm of volcanic overburden accumulated between construction and the statue's rediscovery in A.D. 1803.
+
+Figure 2. Dwarapala Singosari burial timeline. The statues were constructed A.D. ~1268 at full height (370 cm) and discovered in A.D. 1803 with approximately half (185 cm) buried by volcanic sedimentation, yielding a cumulative rate of 3.5 mm/yr. The cross-system mean from four calibration points is 4.4 +/- 1.2 mm/yr.
+
+Figure 3. Empirical sedimentation rates from four archaeological sites across two volcanic systems. Error bars show the range from reported depth uncertainty. The cross-system mean is 4.4 +/- 1.2 mm/yr.
+
+Figure 4. Projected burial depth by historical era using four empirically-derived sedimentation rates. The green band indicates the effective range of ground-penetrating radar in volcanic sediment (0-5 m). Kanjuruhan-era and earlier remains may exceed GPR detection limits.
+
+Figure 5. Left: Site density by volcanic distance band showing strong near-volcano clustering (rho = -0.955). Right: Interpretive framework explaining why this pattern reflects survey history, not settlement preference.
+
+
+=== TABLES ===
+
+Table 1. Empirical calibration points for volcanic sedimentation rates at archaeological sites in Java.
+
+Table 2. Projected burial depth by era using empirically-derived sedimentation rates.
+
+Table 3. Site density by distance to nearest active volcano.

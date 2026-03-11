@@ -1,0 +1,103 @@
+filename,title,lang,word_count,predicted_year,predicted_century,uncertainty_years,confidence
+DHARMA_INSIDENKKawali_6.xml,Kawali VI,osn-Latn,19,774,8,85,MEDIUM
+DHARMA_INSIDENKKawali_1b.xml,Kawali I (b),osn-Latn,19,774,8,85,MEDIUM
+DHARMA_INSIDENKSojomerto.xml,Sojomerto (7th or 8th century CE),omy-Latn,43,775,8,138,LOW
+DHARMA_INSIDENKKawali_2.xml,Kawali 2,osn-Latn,20,776,8,85,MEDIUM
+DHARMA_INSIDENKKebantenan_3.xml,Kebantenan 3,osn-Latn,59,796,8,113,LOW
+DHARMA_INSIDENKKebantenan_2.xml,Kebantenan 2,osn-Latn,113,821,9,122,LOW
+DHARMA_INSIDENKLinggawangi.xml,Linggawangi,osn-Latn,22,834,9,92,MEDIUM
+DHARMA_INSIDENKAmoghapasaPlaqueTropenmuseum.xml,Singasari Amoghapāśa plaque Tropenmuseum,san-Latn,39,837,9,132,LOW
+DHARMA_INSIDENKHuludayeuh.xml,Huludayeuh,osn-Latn,59,850,9,85,MEDIUM
+DHARMA_INSIDENKKebantenan_4.xml,Kebantenan 4,osn-Latn,99,854,9,89,MEDIUM
+DHARMA_INSIDENKTelahap.xml,Telahap Stone,kaw-Latn,19,857,9,120,LOW
+DHARMA_INSIDENKKawali_1a.xml,Kawali I (a),osn-Latn,52,857,9,118,LOW
+DHARMA_INSIDENKKedungwangi.xml,The Stela of Kedungwangi (Lawan),kaw-Latn,186,861,9,94,MEDIUM
+DHARMA_INSIDENKJragung.xml,Jragung,san-Latn,106,863,9,106,LOW
+DHARMA_INSIDENKWuangGot.xml,Wuang Got,kaw-Latn,63,865,9,122,LOW
+DHARMA_INSIDENKGarung.xml,Garung,kaw-Latn,65,868,9,111,LOW
+DHARMA_INSIDENKParhyangan.xml,Parhyangan,kaw-Latn,100,869,9,130,LOW
+DHARMA_INSIDENKGandasuli.xml,Gandasuli (early 8th century CE),omy-Latn,325,879,9,153,VERY LOW
+DHARMA_INSIDENKBorobudurHB029.xml,"Relief label from Borobudur's hidden base, no. 29",san-Latn,2,881,9,79,MEDIUM
+DHARMA_INSIDENKKawali_3.xml,Kawali 3,osn-Latn,1,881,9,79,MEDIUM
+DHARMA_INSIDENKKawali_5.xml,Kawali 5,osn-Latn,4,881,9,79,MEDIUM
+DHARMA_INSIDENKBorobudurHB024.xml,"Relief label from Borobudur's hidden base, no. 24",san-Latn,1,881,9,79,MEDIUM
+DHARMA_INSIDENKKawali_4.xml,Kawali 4,osn-Latn,5,885,9,112,LOW
+DHARMA_INSIDENKAnjatan.xml,Anjatan: Foundation Charter of the Amr̥tamaṅgala Monastery,kaw-Latn,699,885,9,49,HIGH
+DHARMA_INSIDENKPatapan.xml,Patapan I,kaw-Latn,85,895,9,128,LOW
+DHARMA_INSIDENKHarinjing.xml,The Harinjing Charter,kaw-Latn,826,895,9,51,MEDIUM
+DHARMA_INSIDENKCamundi.xml,Camundi,kaw-Latn,71,898,9,117,LOW
+DHARMA_INS12Gilikan.xml,Gilikan (date lost),kaw-Latn,1110,901,10,42,HIGH
+DHARMA_INSIDENKMalenga.xml,Malenga,kaw-Latn,609,905,10,86,MEDIUM
+DHARMA_INSIDENKRongkab.xml,Charter of Rongkab,kaw-Latn,358,905,10,42,HIGH
+DHARMA_INSIDENKPenampihan.xml,Penampihan,unknown,182,906,10,95,MEDIUM
+DHARMA_INSIDENKKabhagavanan.xml,Kabhagavanan,kaw-Latn,306,911,10,78,MEDIUM
+DHARMA_INSIDENKAyamTeas_II.xml,Charter of Ayam Teas II,kaw-Latn,188,911,10,101,LOW
+DHARMA_INSIDENKMpuMano.xml,Mpu Mano,kaw-Latn,200,912,10,104,LOW
+DHARMA_INSIDENKLuitan.xml,Charter of Luitan I,kaw-Latn,350,914,10,48,HIGH
+DHARMA_INSIDENKPamintihan.xml,The Pamintihan charter,kaw-Latn,703,916,10,70,MEDIUM
+DHARMA_INSIDENKKaladi.xml,Kaladi charter,kaw-Latn,1638,917,10,81,MEDIUM
+DHARMA_INSIDENK00059.xml,Gunung Tua Lokanātha Statue,omy-Latn,42,917,10,85,MEDIUM
+DHARMA_INSIDENKSankara.xml,Sankara,san-Latn,155,925,10,176,VERY LOW
+DHARMA_INSIDENKTuwuhada.xml,Tuwuhada,unknown,155,928,10,159,VERY LOW
+DHARMA_INSIDENKTelangI-WanagiriI.xml,"Grant of the villages of Telang, Mahe and Paparuhan",kaw-Latn,709,931,10,62,MEDIUM
+DHARMA_INSIDENKWalanditA.xml,Walandit A,kaw-Latn,84,932,10,88,MEDIUM
+DHARMA_INSIDENKBatutulis.xml,Batutulis,osn-Latn,124,939,10,171,VERY LOW
+DHARMA_INSIDENKCanggu.xml,Canggu inscription,kaw-Latn,1061,941,10,112,LOW
+DHARMA_INSIDENKMarinci_I.xml,Marinci I,kaw-Latn,114,944,10,142,LOW
+DHARMA_INSIDENKBulai.xml,Bulai,kaw-Latn,120,945,10,152,VERY LOW
+DHARMA_INSIDENKTirah.xml,Tirah,kaw-Latn,132,945,10,125,LOW
+DHARMA_INSIDENKAdulengen.xml,Adulengen,kaw-Latn,593,945,10,84,MEDIUM
+DHARMA_INSIDENKPalebuhan.xml,Palebuhan,kaw-Latn,277,945,10,116,LOW
+DHARMA_INSIDENKBromoSemeru4.xml,Bromo Semeru 4,kaw-Latn,3,946,10,93,MEDIUM
+DHARMA_INSIDENKBromoSemeru2.xml,Bromo Semeru 2,kaw-Latn,3,946,10,93,MEDIUM
+DHARMA_INSIDENKMunduan.xml,Munduan,kaw-Latn,291,948,10,108,LOW
+DHARMA_INSIDENKPasanggrahan.xml,Pasanggrahan (ca. 900-910),kaw-Latn,449,956,10,92,MEDIUM
+DHARMA_INSIDENK00396.xml,Silver plate for the deified ancestor at Abhayamukha,kaw-Latn,11,957,10,87,MEDIUM
+DHARMA_INSIDENK00368.xml,Silver plate for the deity at Abhaya,kaw-Latn,13,957,10,87,MEDIUM
+DHARMA_INSIDENKJamwi.xml,Jamwi (Sinaguha),unknown,193,959,10,140,LOW
+DHARMA_INSIDENKMantyasihI.xml,The Charter of Mantyasih I,kaw-Latn,1655,963,10,60,MEDIUM
+DHARMA_INSIDENKNgadoman.xml,Ngadoman,kaw-Latn,92,964,10,128,LOW
+DHARMA_INSIDENKLurah.xml,Lurah (E. 14),unknown,138,966,10,195,VERY LOW
+DHARMA_INSIDENKMarinci_II.xml,Marinci II,kaw-Latn,104,967,10,143,LOW
+DHARMA_INSIDENKKakalangan.xml,Kakalangan,kaw-Latn,125,968,10,168,VERY LOW
+DHARMA_INSIDENKKurungan.xml,Kurungan (Randusari II),kaw-Latn,363,969,10,109,LOW
+DHARMA_INSIDENKWuruduKidul.xml,Wurudu Kidul,kaw-Latn,560,969,10,106,LOW
+DHARMA_INSIDENKWatuKuraI.xml,Charter of Watu Kura I,kaw-Latn,629,972,10,123,LOW
+DHARMA_INSIDENKSukhamerta.xml,Sukhamerta,kaw-Latn,901,973,10,101,LOW
+DHARMA_INSIDENKPoh.xml,Charter of Poh (Randusari I),kaw-Latn,2047,977,10,104,LOW
+DHARMA_INSIDENKKebantenan_1.xml,Kebantenan 1,osn-Latn,94,978,10,176,VERY LOW
+DHARMA_INSIDENKSatyapura.xml,Satyapura,kaw-Latn,194,980,10,129,LOW
+DHARMA_INSIDENKPaguhan.xml,Paguhan,kaw-Latn,101,981,10,149,LOW
+DHARMA_INSIDENKWunganDaik.xml,Wungan Daik,unknown,383,982,10,127,LOW
+DHARMA_INSIDENKWanuaTengahIII.xml,Wanua Tengah III,kaw-Latn,2167,983,10,103,LOW
+DHARMA_INSIDENKBromoSemeru6.xml,Bromo Semeru 6,kaw-Latn,2,987,10,120,LOW
+DHARMA_INSIDENKE62.xml,E62,unknown,59,990,10,121,LOW
+DHARMA_INSIDENKSangsang.xml,Sangsang,kaw-Latn,746,998,10,104,LOW
+DHARMA_INSIDENKRembang.xml,Rembang,kaw-Latn,47,1002,11,147,LOW
+DHARMA_INSIDENKKalasan.xml,Kalasan,san-Latn,163,1017,11,166,VERY LOW
+DHARMA_INSIDENKGandhakuti.xml,Gandhakuti,kaw-Latn,815,1021,11,111,LOW
+DHARMA_INSIDENKTerep_I.xml,Terep I,kaw-Latn,332,1022,11,118,LOW
+DHARMA_INSIDENKGuntur.xml,Guntur,kaw-Latn,208,1024,11,175,VERY LOW
+DHARMA_INSIDENKAlasantan.xml,Alasantan,kaw-Latn,2189,1026,11,98,MEDIUM
+DHARMA_INSIDENKMula-Malurung.xml,Mula-Malurung,kaw-Latn,2325,1026,11,98,MEDIUM
+DHARMA_INSIDENKKandangan.xml,The Charter of Kandangan,kaw-Latn,243,1027,11,135,LOW
+DHARMA_INSIDENKPanggumulanA.xml,The Charter of Panggumulan,unknown,2037,1034,11,113,LOW
+DHARMA_INSIDENKPatapan_II.xml,Patapan II,kaw-Latn,165,1039,11,148,LOW
+DHARMA_INSIDENKParung_I.xml,Parung I,kaw-Latn,161,1039,11,161,VERY LOW
+DHARMA_INSIDENKGenengII.xml,Geneng II,kaw-Latn,528,1045,11,145,LOW
+DHARMA_INSIDENKSelamandi_I.xml,Selamandi I,kaw-Latn,203,1048,11,181,VERY LOW
+DHARMA_INSIDENKSelamandi_II.xml,Śelamaṇḍi II,kaw-Latn,184,1049,11,182,VERY LOW
+DHARMA_INSIDENKBarsahan.xml,Barsahan charter (date lost),kaw-Latn,500,1056,11,124,LOW
+DHARMA_INSIDENKTerep_II.xml,Terep II,kaw-Latn,396,1060,11,126,LOW
+DHARMA_INSIDENKTuhanyaru.xml,Tuhanyaru,kaw-Latn,1901,1073,11,112,LOW
+DHARMA_INSIDENKGaraman.xml,Garaman,kaw-Latn,1031,1077,11,139,LOW
+DHARMA_INSIDENKPatitihan.xml,Patitihan,kaw-Latn,798,1086,11,143,LOW
+DHARMA_INSIDENKBatur.xml,Batur,kaw-Latn,348,1087,11,136,LOW
+DHARMA_INSIDENKSadang.xml,Sadang,kaw-Latn,236,1089,11,163,VERY LOW
+DHARMA_INSIDENKMantyasihIII.xml,The Charter of Mantyasih III,kaw-Latn,839,1100,12,137,LOW
+DHARMA_INSIDENKHimadvalandit.xml,Himad Walandit,kaw-Latn,342,1105,12,134,LOW
+DHARMA_INSIDENKWurare.xml,Wurare,san-Latn,225,1110,12,206,VERY LOW
+DHARMA_INSIDENKPlered.xml,Charter of the early tenth century (date lost),kaw-Latn,459,1116,12,142,LOW
+DHARMA_INSIDENKParung_II.xml,Parung II,kaw-Latn,129,1136,12,162,VERY LOW
+DHARMA_INSIDENKNarasinghanagara.xml,Narasinghanagara,kaw-Latn,384,1137,12,152,VERY LOW
+DHARMA_INSIDENKPabanyolan.xml,The Comedy (,kaw-Latn,193,1141,12,165,VERY LOW

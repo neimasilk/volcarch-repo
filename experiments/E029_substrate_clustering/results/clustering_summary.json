@@ -1,0 +1,222 @@
+{
+  "n_substrates": 266,
+  "languages": {
+    "Tolaki": 121,
+    "Makassar": 48,
+    "Bugis": 36,
+    "Toraja-Sadan": 15,
+    "Wolio": 36,
+    "Muna": 10
+  },
+  "distance_matrix_stats": {
+    "mean": 0.863571628163769,
+    "median": 0.875,
+    "std": 0.1262796246333189,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "ward_clustering": {
+    "optimal_k": 30,
+    "silhouette_score": 0.11403164531537952,
+    "silhouette_scores_all": {
+      "5": 0.04964680762314626,
+      "6": 0.0519799144772219,
+      "7": 0.05467574740701093,
+      "8": 0.05501730002788904,
+      "9": 0.056628428486852414,
+      "10": 0.06213998711032696,
+      "11": 0.06936105174625268,
+      "12": 0.06931253593937398,
+      "13": 0.0740521248289196,
+      "14": 0.07857549585018184,
+      "15": 0.08096784425634565,
+      "16": 0.08369739118916211,
+      "17": 0.08721531139680057,
+      "18": 0.09114888308116853,
+      "19": 0.08917071975427937,
+      "20": 0.09200964838811418,
+      "21": 0.09404291082793574,
+      "22": 0.09415766950224636,
+      "23": 0.09678105816234647,
+      "24": 0.09953195761620914,
+      "25": 0.10000326319932706,
+      "26": 0.10125229970036678,
+      "27": 0.10536866900854143,
+      "28": 0.10711601260302017,
+      "29": 0.11118575560803215,
+      "30": 0.11403164531537952
+    },
+    "cluster_sizes": {
+      "1": 7,
+      "10": 8,
+      "11": 16,
+      "28": 11,
+      "7": 8,
+      "14": 9,
+      "12": 11,
+      "22": 7,
+      "9": 14,
+      "6": 7,
+      "5": 6,
+      "3": 6,
+      "4": 7,
+      "23": 5,
+      "19": 13,
+      "20": 12,
+      "16": 10,
+      "24": 9,
+      "29": 10,
+      "27": 12,
+      "25": 6,
+      "15": 11,
+      "26": 13,
+      "13": 6,
+      "30": 9,
+      "21": 13,
+      "18": 7,
+      "8": 4,
+      "17": 3,
+      "2": 6
+    }
+  },
+  "dbscan_clustering": {
+    "best_config": "eps=0.3,min=3",
+    "best_silhouette": 0.5351484493207934,
+    "all_configs": {
+      "eps=0.3,min=3": {
+        "eps": 0.3,
+        "min_samples": 3,
+        "n_clusters": 4,
+        "n_noise": 252,
+        "noise_pct": 94.73684210526315,
+        "silhouette": 0.5351484493207934
+      },
+      "eps=0.3,min=4": {
+        "eps": 0.3,
+        "min_samples": 4,
+        "n_clusters": 2,
+        "n_noise": 258,
+        "noise_pct": 96.99248120300751,
+        "silhouette": 0.49366158195734433
+      },
+      "eps=0.3,min=5": {
+        "eps": 0.3,
+        "min_samples": 5,
+        "n_clusters": 0,
+        "n_noise": 266,
+        "noise_pct": 100.0,
+        "silhouette": null
+      },
+      "eps=0.35,min=3": {
+        "eps": 0.35,
+        "min_samples": 3,
+        "n_clusters": 10,
+        "n_noise": 215,
+        "noise_pct": 80.82706766917293,
+        "silhouette": 0.3277909619983786
+      },
+      "eps=0.35,min=4": {
+        "eps": 0.35,
+        "min_samples": 4,
+        "n_clusters": 3,
+        "n_noise": 238,
+        "noise_pct": 89.47368421052632,
+        "silhouette": 0.4000913076048659
+      },
+      "eps=0.35,min=5": {
+        "eps": 0.35,
+        "min_samples": 5,
+        "n_clusters": 3,
+        "n_noise": 242,
+        "noise_pct": 90.97744360902256,
+        "silhouette": 0.2638387332512591
+      },
+      "eps=0.4,min=3": {
+        "eps": 0.4,
+        "min_samples": 3,
+        "n_clusters": 15,
+        "n_noise": 159,
+        "noise_pct": 59.77443609022557,
+        "silhouette": 0.15020094634215123
+      },
+      "eps=0.4,min=4": {
+        "eps": 0.4,
+        "min_samples": 4,
+        "n_clusters": 7,
+        "n_noise": 194,
+        "noise_pct": 72.93233082706767,
+        "silhouette": 0.18445843721205699
+      },
+      "eps=0.4,min=5": {
+        "eps": 0.4,
+        "min_samples": 5,
+        "n_clusters": 7,
+        "n_noise": 205,
+        "noise_pct": 77.06766917293233,
+        "silhouette": 0.24849230105466613
+      },
+      "eps=0.45,min=3": {
+        "eps": 0.45,
+        "min_samples": 3,
+        "n_clusters": 13,
+        "n_noise": 132,
+        "noise_pct": 49.62406015037594,
+        "silhouette": 0.10920396139282879
+      },
+      "eps=0.45,min=4": {
+        "eps": 0.45,
+        "min_samples": 4,
+        "n_clusters": 10,
+        "n_noise": 158,
+        "noise_pct": 59.3984962406015,
+        "silhouette": 0.149109551997473
+      },
+      "eps=0.45,min=5": {
+        "eps": 0.45,
+        "min_samples": 5,
+        "n_clusters": 9,
+        "n_noise": 186,
+        "noise_pct": 69.92481203007519,
+        "silhouette": 0.22664361292167706
+      },
+      "eps=0.5,min=3": {
+        "eps": 0.5,
+        "min_samples": 3,
+        "n_clusters": 1,
+        "n_noise": 47,
+        "noise_pct": 17.669172932330827,
+        "silhouette": null
+      },
+      "eps=0.5,min=4": {
+        "eps": 0.5,
+        "min_samples": 4,
+        "n_clusters": 1,
+        "n_noise": 51,
+        "noise_pct": 19.172932330827066,
+        "silhouette": null
+      },
+      "eps=0.5,min=5": {
+        "eps": 0.5,
+        "min_samples": 5,
+        "n_clusters": 2,
+        "n_noise": 59,
+        "noise_pct": 22.18045112781955,
+        "silhouette": 0.06617141031584166
+      }
+    }
+  },
+  "cross_linguistic_cognates": {
+    "n_concepts_3plus_languages": 20,
+    "substrate_mean_cross_ling_dist": 0.7692631673881675,
+    "null_mean_cross_ling_dist": 0.677209474403592,
+    "null_std_cross_ling_dist": 0.22619257219700553,
+    "p_value": 0.569
+  },
+  "semantic_phonological_correlation": {
+    "within_domain_mean_dist": 0.8525315898121435,
+    "between_domain_mean_dist": 0.8672933847096373,
+    "observed_difference": 0.014761794897493852,
+    "permutation_p_value": 0.0,
+    "significant": true
+  }
+}

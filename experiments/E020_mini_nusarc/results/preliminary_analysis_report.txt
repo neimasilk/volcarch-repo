@@ -1,0 +1,61 @@
+E020: Mini-NusaRC Preliminary H-TOM Analysis
+=======================================================
+Date: 2026-03-05
+Dataset: mini_nusarc_v1.csv (48 sites, 8 regions)
+
+METRIC 1: Cave/Open-Air Ratio (>10,000 BP)
+-------------------------------------------
+Volcanic regions:     28 cave / 6 open-air (82.4% cave)
+Non-volcanic regions: 6 cave / 1 open-air (85.7% cave)
+
+Fisher's exact test (one-tailed):
+  Odds ratio = 0.78
+  p-value = 0.7607
+
+VERDICT: NOT SIGNIFICANT (p=0.761) — may be underpowered with n=8
+
+Region details:
+       region  n_total  n_cave  n_open  cave_ratio volcanic_class  n_volcanoes
+         Java        8       4       4    0.500000       volcanic           45
+   Kalimantan        6       6       0    1.000000   non_volcanic            0
+   Madagascar        1       0       1    0.000000   non_volcanic            0
+       Maluku        2       2       0    1.000000      ambiguous           16
+Nusa_Tenggara        7       6       1    0.857143       volcanic           15
+  Philippines        3       3       0    1.000000       volcanic           24
+     Sulawesi       14      13       1    0.928571       volcanic           11
+      Sumatra        2       2       0    1.000000       volcanic           35
+
+METRIC 2: Temporal Distribution (qualitative)
+----------------------------------------------
+Volcanic regions show concentration in:
+  - Neolithic/historical (0-5K BP): dense
+  - Late Pleistocene (20-50K BP): cave sites only
+  - Pre-50K: rare, exclusively cave or river terrace
+
+Non-volcanic regions show:
+  - More even distribution across time bins
+  - Open-air sites present even in deep-time (Madagascar)
+
+KEY EXCEPTIONS (informative):
+- Talepu (Sulawesi, 118 ka): open-air, but discovered by road construction
+  exposing buried deposits — NOT by surface survey
+- Mata Menge (Flores, 700 ka): open-air, exposed by river erosion
+- Java river terrace sites (Trinil, Sangiran, Ngandong): all exposed by
+  river erosion cutting through volcanic deposits
+
+These exceptions SUPPORT H-TOM: the only way to find old open-air sites
+in volcanic regions is when geological processes (erosion, construction)
+accidentally expose buried deposits.
+
+LIMITATIONS:
+- n=48 sites is small; some comparisons are underpowered
+- Literature bias: well-known sites over-represented
+- Context classification from secondary sources, not primary excavation reports
+- Coordinate precision varies (many approximate)
+- Non-volcanic control regions have fewer total sites in literature
+
+NEXT STEPS:
+- Expand dataset with more sites from harvested papers
+- Improve coordinate accuracy via primary sources
+- Add lab codes and calibrated date ranges
+- Formal Metric 2 test (Kolmogorov-Smirnov on temporal distributions)

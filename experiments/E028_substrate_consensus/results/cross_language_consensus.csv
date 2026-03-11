@@ -1,0 +1,6 @@
+concept,n_languages,languages,forms,mean_p_substrate,semantic_domain
+Fifty,4,Makassar|Tolaki|Toraja-Sadan|Wolio,Makassar:limampulo; Wolio:lima pulu; Toraja-Sadan:limaŋpulo; Tolaki:limambulo,0.815,NUMBER
+One Hundred,4,Makassar|Tolaki|Toraja-Sadan|Wolio,Makassar:sibilaŋŋaŋ; Wolio:saatu; Toraja-Sadan:saratuʔ; Tolaki:aso'etu,0.8291,NUMBER
+Twenty,4,Makassar|Tolaki|Toraja-Sadan|Wolio,Makassar:ruampulo; Wolio:rua pulu; Toraja-Sadan:duaŋpulo; Tolaki:ruambulo,0.7227,NUMBER
+to hit,4,Bugis|Makassar|Tolaki|Wolio,Bugis:tətteʔ; Makassar:annunruŋ; Wolio:rambi; Tolaki:toni,0.6418,ACTION
+to stand,4,Bugis|Makassar|Tolaki|Wolio,Bugis:təttoŋ; Makassar:ammenteŋ; Wolio:kabalebale; Tolaki:menggokora,0.7102,ACTION

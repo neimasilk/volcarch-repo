@@ -1,0 +1,102 @@
+{
+  "proximity_test": {
+    "observed_mean_proximity_years": 9.9,
+    "null_mean": 15.4,
+    "p_value": 0.037,
+    "n_permutations": 10000
+  },
+  "window_5yr": {
+    "fraction": 0.333,
+    "p_value": 0.1176
+  },
+  "window_10yr": {
+    "fraction": 0.5,
+    "p_value": 0.2137
+  },
+  "window_15yr": {
+    "fraction": 0.556,
+    "p_value": 0.4556
+  },
+  "window_20yr": {
+    "fraction": 0.667,
+    "p_value": 0.445
+  },
+  "rate_comparison": {
+    "peak_eruptions": 2,
+    "peak_years": [
+      1311,
+      1334
+    ],
+    "peak_duration_yr": 83,
+    "peak_rate_per_century": 2.4,
+    "decline_eruptions": 8,
+    "decline_years": [
+      1376,
+      1385,
+      1395,
+      1411,
+      1450,
+      1451,
+      1462,
+      1481
+    ],
+    "decline_duration_yr": 152,
+    "decline_rate_per_century": 5.3,
+    "rate_ratio": 2.18
+  },
+  "geological_crossref": {
+    "matched": 3,
+    "total": 3,
+    "details": [
+      {
+        "year": 1334,
+        "name": "banyu pindah",
+        "description": "flooding/river course change",
+        "gvp_match": [
+          1334
+        ],
+        "match_within_tolerance": true
+      },
+      {
+        "year": 1374,
+        "name": "pagunung anyar",
+        "description": "new mountain / mud volcano emergence",
+        "gvp_match": [
+          1376
+        ],
+        "match_within_tolerance": true
+      },
+      {
+        "year": 1481,
+        "name": "guntur pawatugunung",
+        "description": "volcanic eruption \u2014 last entry",
+        "gvp_match": [
+          1481
+        ],
+        "match_within_tolerance": true
+      }
+    ]
+  },
+  "crisis_type_breakdown": {
+    "high_impact_mean_proximity": 10.6,
+    "low_impact_mean_proximity": 9.6,
+    "difference_years": -1.0
+  },
+  "summary": {
+    "criterion_1_proximity": {
+      "met": true,
+      "p_value": 0.037
+    },
+    "criterion_2_rate_ratio": {
+      "met": true,
+      "ratio": 2.18
+    },
+    "criterion_3_geo_crossref": {
+      "met": true,
+      "matched": 3,
+      "total": 3
+    },
+    "overall": "GO",
+    "criteria_met": 3
+  }
+}

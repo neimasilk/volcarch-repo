@@ -1,0 +1,22 @@
+{
+  "experiment": "E031_candi_orientation",
+  "n_candi_geocoded": 142,
+  "n_candi_with_orientation": 20,
+  "n_volcanoes": 16,
+  "siting_analysis": {
+    "distance_mean_km": 16.5,
+    "distance_median_km": 14.6,
+    "rayleigh_R": 0.3479,
+    "rayleigh_p": 0.0,
+    "quadrant_chi2": 54.68,
+    "quadrant_p": 0.0
+  },
+  "orientation_analysis": {
+    "faces_volcano_count": 7,
+    "total": 20,
+    "pct_faces_volcano": 35.0,
+    "binomial_p": 0.9423,
+    "mean_angular_diff": 99.1,
+    "median_angular_diff": 98.7
+  }
+}

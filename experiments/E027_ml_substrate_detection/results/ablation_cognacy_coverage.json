@@ -1,0 +1,41 @@
+{
+  "full": {
+    "cv_auc": 0.7599,
+    "cv_std": 0.0073,
+    "lolo_mean": 0.7151,
+    "lolo_per_lang": {
+      "Bugis": 0.7268,
+      "Makassar": 0.7473,
+      "Muna": 0.6176,
+      "Tolaki": 0.8055,
+      "Toraja-Sadan": 0.6964,
+      "Wolio": 0.6971
+    }
+  },
+  "ablated_no_coverage": {
+    "cv_auc": 0.7626,
+    "cv_std": 0.0072,
+    "lolo_mean": 0.7221,
+    "lolo_per_lang": {
+      "Bugis": 0.7231,
+      "Makassar": 0.7378,
+      "Muna": 0.6785,
+      "Tolaki": 0.8098,
+      "Toraja-Sadan": 0.6828,
+      "Wolio": 0.7008
+    }
+  },
+  "pure_no_lang_features": {
+    "cv_auc": 0.7265,
+    "cv_std": 0.0066,
+    "lolo_mean": 0.7008,
+    "lolo_per_lang": {
+      "Bugis": 0.7065,
+      "Makassar": 0.7108,
+      "Muna": 0.6137,
+      "Tolaki": 0.8091,
+      "Toraja-Sadan": 0.6973,
+      "Wolio": 0.6672
+    }
+  }
+}

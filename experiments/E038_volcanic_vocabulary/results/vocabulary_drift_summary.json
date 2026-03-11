@@ -1,0 +1,34 @@
+{
+  "experiment": "E038_volcanic_vocabulary",
+  "n_languages": 1330,
+  "n_volcanic": 490,
+  "n_nonvolcanic": 840,
+  "threshold_km": 200,
+  "domains": {
+    "volcanic_concepts": 11,
+    "control_concepts": 11,
+    "environment_concepts": 8
+  },
+  "diversity_diff_by_domain": {
+    "volcanic": {
+      "mean_diff": -0.0035,
+      "t_stat": -0.42,
+      "p_value": 0.6835
+    },
+    "control": {
+      "mean_diff": 0.0068,
+      "t_stat": 1.141,
+      "p_value": 0.3174
+    },
+    "environment": {
+      "mean_diff": -0.0014,
+      "t_stat": -0.158,
+      "p_value": 0.879
+    }
+  },
+  "distance_conservatism": {
+    "n_languages": 1277,
+    "spearman_rho": -0.301,
+    "spearman_p": 0.0
+  }
+}

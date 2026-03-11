@@ -1,0 +1,79 @@
+{
+  "n_tests": 6,
+  "test_names": [
+    "Proximity permutation (primary)",
+    "Post-eruption window (5yr)",
+    "Post-eruption window (10yr)",
+    "Post-eruption window (15yr)",
+    "Post-eruption window (20yr)",
+    "Poisson rate test (decline > peak)"
+  ],
+  "original_p_values": [
+    0.037,
+    0.1176,
+    0.2137,
+    0.4556,
+    0.445,
+    0.2548
+  ],
+  "bonferroni_alpha": 0.0083,
+  "bonferroni_any_significant": false,
+  "holm_results": [
+    {
+      "original_p": 0.037,
+      "adjusted_p": 0.222,
+      "holm_threshold": 0.0083,
+      "significant": false,
+      "rank": 1
+    },
+    {
+      "original_p": 0.1176,
+      "adjusted_p": 0.588,
+      "holm_threshold": 0.01,
+      "significant": false,
+      "rank": 2
+    },
+    {
+      "original_p": 0.2137,
+      "adjusted_p": 0.8548,
+      "holm_threshold": 0.0125,
+      "significant": false,
+      "rank": 3
+    },
+    {
+      "original_p": 0.4556,
+      "adjusted_p": 0.4556,
+      "holm_threshold": 0.05,
+      "significant": false,
+      "rank": 6
+    },
+    {
+      "original_p": 0.445,
+      "adjusted_p": 0.89,
+      "holm_threshold": 0.025,
+      "significant": false,
+      "rank": 5
+    },
+    {
+      "original_p": 0.2548,
+      "adjusted_p": 0.7643,
+      "holm_threshold": 0.0167,
+      "significant": false,
+      "rank": 4
+    }
+  ],
+  "holm_any_significant": false,
+  "poisson_rate_test": {
+    "peak_count": 2,
+    "peak_duration": 83,
+    "decline_count": 8,
+    "decline_duration": 152,
+    "p_value": 0.2548
+  },
+  "effect_sizes": {
+    "proximity_reduction_pct": 35.7,
+    "rate_ratio": 2.18,
+    "geo_match_fraction": "3/3"
+  },
+  "recommendation": "EXPLORATORY \u2014 reframe as hypothesis-generating research note"
+}

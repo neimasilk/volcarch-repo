@@ -1,0 +1,122 @@
+{
+  "experiment": "E032_pranata_mangsa",
+  "title": "Pranata Mangsa x Eruption Seasonality",
+  "date": "2026-03-10",
+  "n_eruptions_total": 168,
+  "n_eruptions_with_month": 137,
+  "monthly_distribution": {
+    "counts": {
+      "Jan": 23,
+      "Feb": 12,
+      "Mar": 7,
+      "Apr": 12,
+      "May": 11,
+      "Jun": 11,
+      "Jul": 6,
+      "Aug": 11,
+      "Sep": 9,
+      "Oct": 7,
+      "Nov": 12,
+      "Dec": 16
+    },
+    "chi2": 20.23,
+    "p_chi2": 0.0423
+  },
+  "circular_statistics": {
+    "R_bar": 0.1584,
+    "mean_direction_month": 1.04,
+    "mean_month_name": "Feb",
+    "rayleigh_Z": 3.44,
+    "rayleigh_p": 0.0319
+  },
+  "mangsa_density": {
+    "Kasa": {
+      "count": 8,
+      "days": 41,
+      "density_per_30d": 5.85,
+      "season": "dry"
+    },
+    "Karo": {
+      "count": 7,
+      "days": 23,
+      "density_per_30d": 9.13,
+      "season": "dry"
+    },
+    "Katelu": {
+      "count": 10,
+      "days": 24,
+      "density_per_30d": 12.5,
+      "season": "dry"
+    },
+    "Kapat": {
+      "count": 4,
+      "days": 25,
+      "density_per_30d": 4.8,
+      "season": "transition"
+    },
+    "Kalima": {
+      "count": 10,
+      "days": 27,
+      "density_per_30d": 11.11,
+      "season": "transition"
+    },
+    "Kanem": {
+      "count": 21,
+      "days": 43,
+      "density_per_30d": 14.65,
+      "season": "wet"
+    },
+    "Kapitu": {
+      "count": 26,
+      "days": 43,
+      "density_per_30d": 18.14,
+      "season": "wet"
+    },
+    "Kawolu": {
+      "count": 12,
+      "days": 26,
+      "density_per_30d": 13.85,
+      "season": "wet"
+    },
+    "Kasanga": {
+      "count": 5,
+      "days": 25,
+      "density_per_30d": 6.0,
+      "season": "wet"
+    },
+    "Kasepuluh": {
+      "count": 11,
+      "days": 24,
+      "density_per_30d": 13.75,
+      "season": "transition"
+    },
+    "Desta": {
+      "count": 4,
+      "days": 23,
+      "density_per_30d": 5.22,
+      "season": "transition"
+    },
+    "Saddha": {
+      "count": 19,
+      "days": 41,
+      "density_per_30d": 13.9,
+      "season": "dry"
+    }
+  },
+  "season_comparison": {
+    "dry": {
+      "count": 44,
+      "days": 129
+    },
+    "wet": {
+      "count": 64,
+      "days": 137
+    },
+    "transition": {
+      "count": 29,
+      "days": 99
+    },
+    "chi2": 5.27,
+    "p": 0.0717
+  }
+}

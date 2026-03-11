@@ -1,0 +1,152 @@
+{
+  "experiment": "E028_substrate_consensus",
+  "description": "Cross-method consensus between E022 (rule-based) and E027 (ML-based) substrate detection",
+  "data": {
+    "n_total_forms": 1357,
+    "e022_residuals": 438,
+    "e022_cognates": 919,
+    "ml_substrates_p05": 307,
+    "ml_austronesian_p05": 1050
+  },
+  "agreement": {
+    "cohens_kappa": 0.6105,
+    "pearson_r": 0.7004,
+    "pearson_p": 1.0848e-200,
+    "spearman_rho": 0.6631,
+    "spearman_p": 1.1171e-172
+  },
+  "quadrants": {
+    "CS": 266,
+    "CA": 878,
+    "MO": 41,
+    "RO": 172
+  },
+  "quadrant_mean_p_substrate": {
+    "CS": 0.7663,
+    "CA": 0.1731,
+    "MO": 0.6205,
+    "RO": 0.3287
+  },
+  "consensus_substrate": {
+    "n_cs": 266,
+    "per_language": {
+      "Tolaki": 121,
+      "Makassar": 48,
+      "Bugis": 36,
+      "Wolio": 36,
+      "Toraja-Sadan": 15,
+      "Muna": 10
+    },
+    "per_domain": {
+      "ACTION": 117,
+      "GRAMMAR": 40,
+      "QUALITY": 38,
+      "NATURE": 20,
+      "NUMBER": 20,
+      "OTHER": 19,
+      "BODY": 12
+    },
+    "n_cross_language_4plus": 5
+  },
+  "disagreement_analysis": {
+    "mo_vs_ca_features": {
+      "form_length": {
+        "MO_mean": 6.6341,
+        "CA_mean": 5.1378,
+        "delta": 1.4963
+      },
+      "vowel_ratio": {
+        "MO_mean": 0.4402,
+        "CA_mean": 0.5122,
+        "delta": -0.072
+      },
+      "ends_in_vowel": {
+        "MO_mean": 0.6585,
+        "CA_mean": 0.7984,
+        "delta": -0.1399
+      },
+      "has_glottal": {
+        "MO_mean": 0.2683,
+        "CA_mean": 0.1093,
+        "delta": 0.159
+      },
+      "has_nasal_cluster": {
+        "MO_mean": 0.4146,
+        "CA_mean": 0.2289,
+        "delta": 0.1857
+      },
+      "has_reduplication": {
+        "MO_mean": 0.122,
+        "CA_mean": 0.0968,
+        "delta": 0.0251
+      },
+      "n_consonant_clusters": {
+        "MO_mean": 0.7317,
+        "CA_mean": 0.2973,
+        "delta": 0.4344
+      },
+      "has_prefix_like": {
+        "MO_mean": 0.4146,
+        "CA_mean": 0.2449,
+        "delta": 0.1698
+      }
+    },
+    "ro_vs_cs_features": {
+      "form_length": {
+        "RO_mean": 5.3547,
+        "CS_mean": 6.5752,
+        "delta": -1.2205
+      },
+      "vowel_ratio": {
+        "RO_mean": 0.4945,
+        "CS_mean": 0.4817,
+        "delta": 0.0129
+      },
+      "ends_in_vowel": {
+        "RO_mean": 0.7965,
+        "CS_mean": 0.7782,
+        "delta": 0.0183
+      },
+      "has_glottal": {
+        "RO_mean": 0.1047,
+        "CS_mean": 0.3195,
+        "delta": -0.2149
+      },
+      "has_nasal_cluster": {
+        "RO_mean": 0.2849,
+        "CS_mean": 0.3158,
+        "delta": -0.0309
+      },
+      "has_reduplication": {
+        "RO_mean": 0.1163,
+        "CS_mean": 0.1203,
+        "delta": -0.004
+      },
+      "n_consonant_clusters": {
+        "RO_mean": 0.3547,
+        "CS_mean": 0.5602,
+        "delta": -0.2055
+      },
+      "has_prefix_like": {
+        "RO_mean": 0.3314,
+        "CS_mean": 0.3947,
+        "delta": -0.0633
+      }
+    },
+    "mo_per_language": {
+      "Tolaki": 14,
+      "Wolio": 11,
+      "Bugis": 7,
+      "Makassar": 7,
+      "Toraja-Sadan": 2
+    },
+    "ro_per_language": {
+      "Wolio": 47,
+      "Makassar": 32,
+      "Toraja-Sadan": 30,
+      "Bugis": 26,
+      "Muna": 24,
+      "Tolaki": 13
+    }
+  }
+}

@@ -1,0 +1,138 @@
+Culture_ID,Name,Latitude,Longitude,island_type,is_volcanic,ritual_complexity,mortuary_index
+Maohi,Maohi,-17.6,-149.4,volcanic_high,1,1.4545454545454546,1.3333333333333333
+Pohnpei,Pohnpei,6.9,158.2,volcanic_high,1,1.0909090909090908,1.0
+Seniang,Seniang,-16.5,167.4,volcanic_high,1,0.9090909090909091,1.3333333333333333
+Varisi,Varisi,-6.8,156.7,volcanic_high,1,1.2727272727272727,1.6666666666666667
+aeta,Aeta,15.3,120.4,,0,1.2,2.0
+ajie,Ajie,-21.3,165.6,mainland,0,1.1818181818181819,1.6666666666666667
+alune,Alune,-3.1,128.5,mainland,0,1.0,1.0
+ami,Ami,23.4,121.4,mainland,0,1.1,1.0
+aneityum,Aneityum,-20.2,169.8,volcanic_high,1,1.125,1.0
+anuta,Anuta,-11.6,169.8,volcanic_high,1,1.25,2.0
+arosi,Arosi,-10.3,161.3,volcanic_high,1,1.2,1.3333333333333333
+ata-tana-aai,Ata Tana 'Ai,-8.6,122.6,continental,0,1.1111111111111112,2.0
+atayal,Atayal,24.4,121.3,mainland,0,0.8181818181818182,1.3333333333333333
+atoni,Atoni,-9.7,124.3,continental,0,0.7272727272727273,0.6666666666666666
+belep,Belep,-19.7,163.6,mainland,0,0.8181818181818182,1.6666666666666667
+bellona,Bellona,-11.3,159.8,raised_atoll,0,1.3636363636363635,1.3333333333333333
+berawan,Berawan,3.8,114.5,mainland,0,1.3636363636363635,2.0
+besemah,Besemah,-4.1,103.3,mainland,0,1.2727272727272727,1.3333333333333333
+biak,Biak,-1.0,136.0,raised_atoll,0,1.0909090909090908,1.6666666666666667
+bontok,Bontok,17.1,121.1,volcanic_high,1,1.0,1.3333333333333333
+bughotu,Bughotu,-8.5,159.8,volcanic_high,1,0.7,1.3333333333333333
+buka,Buka,-5.2,154.6,volcanic_high,1,0.9,1.0
+bukidnon,Bukidnon,8.2,125.0,mainland,0,0.9090909090909091,0.6666666666666666
+bunun,Bunun,23.5,120.5,mainland,0,1.0,1.0
+casiguran-dumagat,Casiguran Dumagat,16.3,122.0,volcanic_high,1,0.6363636363636364,0.3333333333333333
+chamorro,Chamorro,13.5,144.8,volcanic_high,1,0.9090909090909091,1.0
+cheke-holo,Cheke Holo,-8.3,159.6,volcanic_high,1,1.0,1.6666666666666667
+chuuk,Chuuk,7.3,151.6,volcanic_high,1,1.4545454545454546,1.6666666666666667
+dobuans,Dobuans,-9.6,150.8,volcanic_high,1,0.9090909090909091,0.6666666666666666
+dusun,Dusun,5.7,116.4,mainland,0,0.8181818181818182,0.6666666666666666
+eastern-sumbanese,Eastern Sumbanese,-9.9,120.3,continental,0,1.4545454545454546,1.6666666666666667
+eastern-toraja,Eastern Toraja,-1.9,120.6,mainland,0,1.5454545454545454,2.0
+erromango,Erromango,-18.8,169.2,volcanic_high,1,0.6363636363636364,1.0
+fijians,Fijians,-17.8,178.0,continental,0,1.4545454545454546,1.6666666666666667
+futuna,Futuna,-14.3,-178.0,volcanic_high,1,0.9090909090909091,1.0
+futuna-west,Futuna-Aniwa,-19.5,170.2,volcanic_high,1,1.0,1.0
+gaddang-pagan,Ga'dang,17.2,121.5,volcanic_high,1,0.7272727272727273,0.6666666666666666
+goodenough-island,Goodenough Island,-9.3,150.2,volcanic_high,1,0.36363636363636365,0.6666666666666666
+hawaiians,Hawaiians,19.6,-155.5,volcanic_high,1,0.9090909090909091,1.0
+iban,Iban,1.2,111.6,mainland,0,1.1818181818181819,1.3333333333333333
+ifaluk,Ifaluk,7.2,144.5,raised_atoll,0,1.0909090909090908,1.0
+ifugao,Ifugao,16.7,121.2,volcanic_high,1,1.4545454545454546,1.6666666666666667
+isneg,Isneg,18.1,121.2,volcanic_high,1,0.6363636363636364,1.3333333333333333
+kalinga,Kalinga,17.5,121.3,volcanic_high,1,1.0909090909090908,1.3333333333333333
+kaoka,Kaoka,-9.7,160.7,volcanic_high,1,0.9090909090909091,1.3333333333333333
+kapingamarangi,Kapingamarangi,1.0,154.8,raised_atoll,0,1.0,1.0
+karo,Karo,3.5,98.3,mainland,0,1.4545454545454546,2.3333333333333335
+kayan,Kayan,2.1,115.1,mainland,0,1.2727272727272727,1.3333333333333333
+kedang,Kedang,-8.2,123.8,volcanic_high,1,1.0909090909090908,1.0
+kei,Kei,-5.8,132.8,continental,0,0.0,
+kelabit,Kelabit,3.7,115.5,mainland,0,1.0909090909090908,1.3333333333333333
+kiribati,Kiribati,-1.2,174.7,raised_atoll,0,1.3636363636363635,1.6666666666666667
+kodi,Kodi,-9.6,119.0,,0,1.8,2.0
+kosrae,Kosrae,5.3,163.0,volcanic_high,1,1.2857142857142858,1.0
+kwaio,Kwaio,-9.0,160.9,volcanic_high,1,0.8181818181818182,1.3333333333333333
+kwaraae,Kwara'ae,-8.7,160.8,volcanic_high,1,0.9090909090909091,1.6666666666666667
+laboya,Laboya,-9.7,119.4,continental,0,1.1818181818181819,1.6666666666666667
+lakalai,Lakalai,-5.4,150.4,volcanic_high,1,1.2727272727272727,2.0
+landdayak,Land Dayak,0.2,110.5,mainland,0,1.1818181818181819,1.6666666666666667
+lau,Lau,-8.3,160.8,volcanic_high,1,1.0909090909090908,2.0
+lifou,Lifou,-21.0,167.2,raised_atoll,0,1.0,1.6666666666666667
+main-reef-islands,Main Reef Islands,-10.3,166.3,raised_atoll,0,0.875,1.0
+manam,Manam,-4.1,145.0,volcanic_high,1,0.8181818181818182,1.6666666666666667
+mangaia,Mangaia,-21.9,-157.9,raised_atoll,0,1.0,1.0
+mangareva,Mangareva,-23.1,-135.0,volcanic_high,1,0.9090909090909091,1.3333333333333333
+manggarai,Manggarai,-8.6,120.4,continental,0,1.1818181818181819,1.6666666666666667
+manihiki-rakahanga,Manihiki-Rakahanga,-10.4,-161.0,raised_atoll,0,1.3333333333333333,2.0
+manus-titan,Manus (Titan),-2.2,147.2,volcanic_high,1,0.7272727272727273,1.3333333333333333
+maori,Māori,-39.0,175.8,mainland,0,1.1818181818181819,1.0
+mare,Mare,-21.5,168.0,raised_atoll,0,0.9090909090909091,1.3333333333333333
+marovo,Marovo,-8.5,157.8,,0,1.75,2.0
+marquesas,Marquesas,-9.8,-139.0,volcanic_high,1,1.0909090909090908,2.0
+marshall-islands,Marshall Islands,7.1,171.7,raised_atoll,0,0.9090909090909091,0.6666666666666666
+mekeo,Mekeo,-8.6,146.6,mainland,0,0.6363636363636364,0.6666666666666666
+mentawai,Mentawai,-1.4,98.9,mainland,0,1.0,0.6666666666666666
+merina,Merina,-18.9,47.5,mainland,0,1.2727272727272727,1.6666666666666667
+minahasa,Minahasa,1.3,124.9,mainland,0,1.2727272727272727,1.3333333333333333
+moken,Moken,11.7,98.3,mainland,0,0.7272727272727273,1.6666666666666667
+moriori,Moriori,-43.8,-176.5,volcanic_high,1,1.4444444444444444,1.0
+mota,Mota,-13.8,167.7,volcanic_high,1,1.1818181818181819,1.0
+motu,Motu,-9.5,147.1,mainland,0,0.7272727272727273,1.3333333333333333
+mussau,Mussau,-1.4,149.6,continental,0,0.5,0.6666666666666666
+nage,Nage,-8.7,121.2,continental,0,0.9090909090909091,1.3333333333333333
+nendo,Nendo,-10.7,165.9,volcanic_high,1,0.5454545454545454,0.6666666666666666
+ngaju,Ngaju,-1.7,114.0,mainland,0,1.0909090909090908,0.6666666666666666
+nggela,Nggela,-9.1,160.2,volcanic_high,1,0.6363636363636364,0.6666666666666666
+nguna,Nguna,-17.4,168.4,volcanic_high,1,1.0,1.0
+nias,Nias,1.2,97.5,mainland,0,1.0909090909090908,1.0
+niue,Niue,-19.1,-169.9,raised_atoll,0,1.6666666666666667,1.5
+nuaulu,Nuaulu,-3.2,129.0,mainland,0,1.1818181818181819,2.0
+nukuoro,Nukuoro,3.8,155.0,raised_atoll,0,1.0,0.6666666666666666
+ontong-java,Ontong Java,-5.5,159.7,raised_atoll,0,0.5454545454545454,1.3333333333333333
+paiwan,Paiwan,22.5,120.9,mainland,0,1.4545454545454546,2.0
+palau,Palau,7.4,134.6,volcanic_high,1,1.3636363636363635,1.6666666666666667
+palawan-batak,Palawan Batak,10.1,119.1,mainland,0,1.2727272727272727,1.3333333333333333
+pukapuka,Pukapuka,-10.9,-165.8,raised_atoll,0,1.0909090909090908,1.3333333333333333
+puyuma,Puyuma,22.8,121.1,mainland,0,1.3636363636363635,2.0
+rapa-nui,Rapa Nui,-27.1,-109.4,volcanic_high,1,1.6363636363636365,1.3333333333333333
+rarotonga,Rarotonga,-21.2,-159.8,volcanic_high,1,1.0909090909090908,1.0
+rejang,Rejang,-3.4,102.8,mainland,0,1.5,1.5
+rennell,Rennell,-11.6,160.3,raised_atoll,0,0.9090909090909091,1.3333333333333333
+roti,Roti,-10.7,123.2,continental,0,1.0909090909090908,2.3333333333333335
+rotuma,Rotuma,-12.5,177.1,volcanic_high,1,1.3,1.3333333333333333
+roviana,Roviana,-8.1,157.5,volcanic_high,1,1.3636363636363635,2.0
+saa,Sa'a,-9.6,161.5,,0,1.2,1.6666666666666667
+sama-dilaut,Sama Dilaut (Tawi-Tawi),5.1,119.8,volcanic_high,1,0.8181818181818182,1.3333333333333333
+samoan,Samoa,-13.9,-171.8,volcanic_high,1,1.0,1.0
+savu,Savu,-10.5,121.9,continental,0,1.0909090909090908,1.0
+simbo,Simbo,-8.3,156.5,volcanic_high,1,1.1818181818181819,1.3333333333333333
+siraya,Siraya,22.9,120.4,,0,1.0,0.6666666666666666
+small_islands,Small Islands,-16.1,167.5,volcanic_high,1,1.0909090909090908,1.6666666666666667
+south_pentecost,South Pentecost,-15.9,168.2,volcanic_high,1,0.45454545454545453,0.6666666666666666
+southern-toraja,Southern Toraja,-3.1,119.8,mainland,0,1.5454545454545454,2.0
+subanun,Subanun,7.1,122.1,mainland,0,0.9090909090909091,1.3333333333333333
+tagbanuwa,Tagbanuwa,9.5,118.4,mainland,0,1.1818181818181819,1.3333333333333333
+tanala,Tanala,-20.9,47.6,mainland,0,0.9090909090909091,1.3333333333333333
+tanimbar,Tanimbar,-7.5,131.5,continental,0,1.5,2.5
+tanna,Tanna,-19.5,169.4,volcanic_high,1,1.3636363636363635,1.6666666666666667
+taumako,Taumako,-9.9,167.2,volcanic_high,1,0.7777777777777778,0.3333333333333333
+tetum,Tetum,-9.3,125.2,continental,0,1.0,1.3333333333333333
+tikopia,Tikopia,-12.3,168.8,volcanic_high,1,1.3636363636363635,1.3333333333333333
+tinguian,Tinguian,17.6,120.8,volcanic_high,1,0.9090909090909091,1.0
+toabaita,To'abaita,-8.4,160.6,volcanic_high,1,1.0909090909090908,2.0
+toba-batak,Toba Batak,2.3,99.0,mainland,0,1.3636363636363635,2.3333333333333335
+tokelau,Tokelau,-9.4,-171.2,raised_atoll,0,1.1818181818181819,1.0
+tolai,Tolai,-4.4,152.2,volcanic_high,1,0.8181818181818182,0.6666666666666666
+tonga,Tonga,-21.2,-175.2,continental,0,1.0909090909090908,1.3333333333333333
+tongareva,Tongareva,-9.0,-158.0,raised_atoll,0,0.45454545454545453,0.0
+trobriand-islands,Trobriand Islands,-8.5,151.1,raised_atoll,0,1.0909090909090908,2.3333333333333335
+tsou,Tsou,23.4,120.7,mainland,0,1.2727272727272727,0.6666666666666666
+ulithi,Ulithi,10.1,139.7,raised_atoll,0,1.2727272727272727,1.6666666666666667
+uvea,Uvea,-13.3,-176.2,volcanic_high,1,1.3333333333333333,3.0
+visayans,Visayans,11.2,122.4,volcanic_high,1,1.2727272727272727,1.3333333333333333
+waropen,Waropen,-2.3,136.5,mainland,0,0.9090909090909091,1.3333333333333333
+wogeo,Wogeo,-3.2,144.1,volcanic_high,1,0.36363636363636365,0.6666666666666666
+yami,Yami,22.0,121.5,volcanic_high,1,,
+yap,Yap,9.5,138.1,volcanic_high,1,1.0909090909090908,0.6666666666666666

@@ -1,0 +1,29 @@
+{
+  "experiment": "E040b_craft_occupations",
+  "n_inscriptions": 268,
+  "n_with_crafts": 53,
+  "organic_craft_inscriptions": 29,
+  "lithic_craft_inscriptions": 31,
+  "metal_craft_inscriptions": 22,
+  "craft_frequencies": {
+    "juru": 71,
+    "pandai_batu": 31,
+    "tukang_tuak": 31,
+    "pandai_besi": 22,
+    "undahagi": 16,
+    "tukang_kapur": 14,
+    "pandai_kayu": 13,
+    "tukang_gula": 9,
+    "pandai_emas": 9,
+    "tukang_celup": 2,
+    "tukang_pahat": 1,
+    "tukang_anyam": 1,
+    "warga_kilalan": 1
+  },
+  "class_totals": {
+    "lithic": 32,
+    "organic": 55,
+    "food": 31,
+    "metal": 31
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "E035_prasasti_botanical",
+  "n_inscriptions_scanned": 268,
+  "n_with_botanical": 249,
+  "pct_with_botanical": 92.9,
+  "plant_frequencies": {
+    "padi": 216,
+    "waringin": 114,
+    "pala": 72,
+    "tebu": 44,
+    "sirih": 42,
+    "padma": 31,
+    "kapas": 19,
+    "jati": 15,
+    "lada": 13,
+    "cendana": 11,
+    "pinang": 11,
+    "bambu": 9,
+    "kapur_barus": 9,
+    "kelapa": 2,
+    "kunyit": 2
+  },
+  "total_mentions": 610,
+  "ritual_plants_pct": 36.1,
+  "economic_plants_pct": 63.9,
+  "cooccurrence": {
+    "botanical_with_ritual_pct": 69.5,
+    "nonbotanical_with_ritual_pct": 57.9,
+    "fisher_OR": 1.66,
+    "fisher_p": 0.3111
+  }
+}

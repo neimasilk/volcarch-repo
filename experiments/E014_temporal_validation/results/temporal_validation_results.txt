@@ -1,0 +1,32 @@
+E014 - Temporal Split Validation Results
+=========================================
+Date: 2026-02-26
+Split year: 2000
+Feature set: ['elevation', 'slope', 'twi', 'tri', 'aspect', 'river_dist']
+
+Data Split:
+  Pre-2000 (training presences): 333 sites
+  Post-2000 (test presences): 45 sites
+  Training pseudo-absences: 1890
+  Test pseudo-absences: 225
+
+TEMPORAL VALIDATION (Train: Pre-2000, Test: Post-2000):
+  XGBoost AUC: 0.755
+  RandomForest AUC: 0.654
+  
+SPATIAL CV BASELINE (Train: Pre-2000, 5-fold spatial CV):
+  XGBoost AUC: 0.785 +/- 0.058
+  RandomForest AUC: 0.772 +/- 0.047
+
+Comparison:
+  Temporal vs Spatial AUC difference: -0.030
+
+Challenge 1 (Tautology Test):
+  rho(suitability, volcano_dist) = -0.140 (p=0.0000)
+  Result: TAUTOLOGY-FREE
+
+Interpretation:
+  Temporal AUC > 0.65: Model predicts "undiscovered" sites (tautology-resistant)
+  Temporal AUC < 0.65: Model overfits to survey patterns (tautology risk)
+  
+Verdict: PASS - Model is tautology-resistant

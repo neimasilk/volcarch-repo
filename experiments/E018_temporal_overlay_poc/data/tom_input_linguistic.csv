@@ -1,0 +1,9 @@
+region,L_age_bp,L_age_ci_lo,L_age_ci_hi,method,source,provenance_class
+Java,3500,3200,3800,Bayesian_phylolinguistic,"Gray et al. 2009 Science 323:479-483; Javanese split node",A_published
+Sumatra,3400,3100,3700,Bayesian_phylolinguistic,"Gray et al. 2009; Malay-Chamic node date",A_published
+Sulawesi,3800,3400,4200,Bayesian_phylolinguistic,"Gray et al. 2009; South Sulawesi node",A_published
+Nusa_Tenggara,3600,3200,4000,Bayesian_phylolinguistic,"Gray et al. 2009; Bima-Sumba node",A_published
+Philippines,4000,3600,4500,Bayesian_phylolinguistic,"Gray et al. 2009; Malayo-Polynesian node; Blust 1995 cross-check",A_published
+Maluku,3500,3100,3900,Bayesian_phylolinguistic,"Gray et al. 2009; Central-Eastern MP node",A_published
+Kalimantan,3600,3200,4000,Bayesian_phylolinguistic,"Gray et al. 2009; Land Dayak / Barito node",A_published
+Madagascar,1300,1100,1500,Bayesian_phylolinguistic,"Gray et al. 2009; Adelaar 2009 Lingua 119:1707; Malagasy split",A_published

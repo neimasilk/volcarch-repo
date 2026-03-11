@@ -1,0 +1,138 @@
+culture,culture_id,latitude,longitude,soil_ph,has_full_mortuary_package
+Aeta,aeta,15.3,120.4,6.0,no
+Ajie,ajie,-21.3,165.6,5.6,no
+Alune,alune,-3.1,128.5,4.9,no
+Ami,ami,23.4,121.4,5.1,no
+Aneityum,aneityum,-20.2,169.8,5.4,no
+Anuta,anuta,-11.6,169.8,,no
+Arosi,arosi,-10.3,161.3,5.3,no
+Ata Tana 'Ai,ata-tana-aai,-8.6,122.6,6.2,yes
+Atayal,atayal,24.4,121.3,4.8,no
+Atoni,atoni,-9.7,124.3,6.1,no
+Belep,belep,-19.7,163.6,,no
+Bellona,bellona,-11.3,159.8,5.4,no
+Berawan,berawan,3.8,114.5,4.8,yes
+Besemah,besemah,-4.1,103.3,5.1,no
+Biak,biak,-1.0,136.0,4.9,no
+Bontok,bontok,17.1,121.1,5.4,no
+Bughotu,bughotu,-8.5,159.8,5.3,no
+Buka,buka,-5.2,154.6,5.2,no
+Bukidnon,bukidnon,8.2,125.0,5.5,no
+Bunun,bunun,23.5,120.5,5.9,no
+Casiguran Dumagat,casiguran-dumagat,16.3,122.0,5.4,no
+Chamorro,chamorro,13.5,144.8,5.7,no
+Cheke Holo,cheke-holo,-8.3,159.6,5.2,no
+Chuuk,chuuk,7.3,151.6,,no
+Dobuans,dobuans,-9.6,150.8,5.5,no
+Dusun,dusun,5.7,116.4,5.2,no
+Eastern Sumbanese,eastern-sumbanese,-9.9,120.3,6.2,no
+Eastern Toraja,eastern-toraja,-1.9,120.6,,yes
+Erromango,erromango,-18.8,169.2,5.2,no
+Fijians,fijians,-17.8,178.0,5.1,no
+Futuna,futuna,-14.3,-178.0,,no
+Futuna-Aniwa,futuna-west,-19.5,170.2,,no
+Ga'dang,gaddang-pagan,17.2,121.5,5.7,no
+Goodenough Island,goodenough-island,-9.3,150.2,5.2,no
+Hawaiians,hawaiians,19.6,-155.5,6.7,no
+Iban,iban,1.2,111.6,4.6,yes
+Ifaluk,ifaluk,7.2,144.5,,no
+Ifugao,ifugao,16.7,121.2,5.7,no
+Isneg,isneg,18.1,121.2,5.4,no
+Kalinga,kalinga,17.5,121.3,5.4,yes
+Kaoka,kaoka,-9.7,160.7,,no
+Kapingamarangi,kapingamarangi,1.0,154.8,,no
+Karo,karo,3.5,98.3,5.0,yes
+Kayan,kayan,2.1,115.1,4.9,no
+Kedang,kedang,-8.2,123.8,5.9,no
+Kei,kei,-5.8,132.8,5.1,no
+Kelabit,kelabit,3.7,115.5,5.1,no
+Kiribati,kiribati,-1.2,174.7,,no
+Kodi,kodi,-9.6,119.0,5.9,no
+Kosrae,kosrae,5.3,163.0,5.5,no
+Kwaio,kwaio,-9.0,160.9,5.1,no
+Kwara'ae,kwaraae,-8.7,160.8,5.1,no
+Laboya,laboya,-9.7,119.4,5.7,yes
+Lakalai,lakalai,-5.4,150.4,,no
+Land Dayak,landdayak,0.2,110.5,4.6,no
+Lau,lau,-8.3,160.8,5.3,no
+Lifou,lifou,-21.0,167.2,5.2,no
+Main Reef Islands,main-reef-islands,-10.3,166.3,,no
+Manam,manam,-4.1,145.0,,no
+Mangaia,mangaia,-21.9,-157.9,,no
+Mangareva,mangareva,-23.1,-135.0,,no
+Manggarai,manggarai,-8.6,120.4,5.5,no
+Manihiki-Rakahanga,manihiki-rakahanga,-10.4,-161.0,,no
+Manus (Titan),manus-titan,-2.2,147.2,5.0,yes
+Maohi,Maohi,-17.6,-149.4,5.3,no
+Mare,mare,-21.5,168.0,5.1,no
+Marovo,marovo,-8.5,157.8,5.2,no
+Marquesas,marquesas,-9.8,-139.0,5.6,yes
+Marshall Islands,marshall-islands,7.1,171.7,,no
+Mekeo,mekeo,-8.6,146.6,5.5,no
+Mentawai,mentawai,-1.4,98.9,4.8,no
+Merina,merina,-18.9,47.5,,yes
+Minahasa,minahasa,1.3,124.9,,no
+Moken,moken,11.7,98.3,,no
+Moriori,moriori,-43.8,-176.5,,no
+Mota,mota,-13.8,167.7,,no
+Motu,motu,-9.5,147.1,,no
+Mussau,mussau,-1.4,149.6,4.7,no
+Māori,maori,-39.0,175.8,,no
+Nage,nage,-8.7,121.2,5.9,no
+Nendo,nendo,-10.7,165.9,5.1,no
+Ngaju,ngaju,-1.7,114.0,4.6,no
+Nggela,nggela,-9.1,160.2,5.3,no
+Nguna,nguna,-17.4,168.4,,no
+Nias,nias,1.2,97.5,4.8,no
+Niue,niue,-19.1,-169.9,5.5,no
+Nuaulu,nuaulu,-3.2,129.0,4.9,no
+Nukuoro,nukuoro,3.8,155.0,,no
+Ontong Java,ontong-java,-5.5,159.7,,no
+Paiwan,paiwan,22.5,120.9,4.8,no
+Palau,palau,7.4,134.6,,no
+Palawan Batak,palawan-batak,10.1,119.1,5.6,no
+Pohnpei,Pohnpei,6.9,158.2,5.5,no
+Pukapuka,pukapuka,-10.9,-165.8,,no
+Puyuma,puyuma,22.8,121.1,6.1,no
+Rapa Nui,rapa-nui,-27.1,-109.4,5.7,no
+Rarotonga,rarotonga,-21.2,-159.8,,no
+Rejang,rejang,-3.4,102.8,4.7,no
+Rennell,rennell,-11.6,160.3,,no
+Roti,roti,-10.7,123.2,6.4,yes
+Rotuma,rotuma,-12.5,177.1,5.5,no
+Roviana,roviana,-8.1,157.5,5.3,yes
+Sa'a,saa,-9.6,161.5,5.1,no
+Sama Dilaut (Tawi-Tawi),sama-dilaut,5.1,119.8,5.0,no
+Samoa,samoan,-13.9,-171.8,5.4,no
+Savu,savu,-10.5,121.9,6.3,no
+Seniang,Seniang,-16.5,167.4,,no
+Simbo,simbo,-8.3,156.5,,yes
+Siraya,siraya,22.9,120.4,5.6,yes
+Small Islands,small_islands,-16.1,167.5,,yes
+South Pentecost,south_pentecost,-15.9,168.2,5.2,no
+Southern Toraja,southern-toraja,-3.1,119.8,5.0,yes
+Subanun,subanun,7.1,122.1,5.3,yes
+Tagbanuwa,tagbanuwa,9.5,118.4,5.5,no
+Tanala,tanala,-20.9,47.6,4.7,yes
+Tanimbar,tanimbar,-7.5,131.5,5.3,no
+Tanna,tanna,-19.5,169.4,5.1,yes
+Taumako,taumako,-9.9,167.2,,no
+Tetum,tetum,-9.3,125.2,5.7,yes
+Tikopia,tikopia,-12.3,168.8,,no
+Tinguian,tinguian,17.6,120.8,5.5,yes
+To'abaita,toabaita,-8.4,160.6,5.2,no
+Toba Batak,toba-batak,2.3,99.0,5.3,yes
+Tokelau,tokelau,-9.4,-171.2,,no
+Tolai,tolai,-4.4,152.2,5.0,no
+Tonga,tonga,-21.2,-175.2,5.7,no
+Tongareva,tongareva,-9.0,-158.0,,no
+Trobriand Islands,trobriand-islands,-8.5,151.1,5.5,yes
+Tsou,tsou,23.4,120.7,4.9,no
+Ulithi,ulithi,10.1,139.7,,no
+Uvea,uvea,-13.3,-176.2,,no
+Varisi,Varisi,-6.8,156.7,5.2,no
+Visayans,visayans,11.2,122.4,5.5,yes
+Waropen,waropen,-2.3,136.5,5.0,no
+Wogeo,wogeo,-3.2,144.1,5.3,no
+Yami,yami,22.0,121.5,,no
+Yap,yap,9.5,138.1,,no

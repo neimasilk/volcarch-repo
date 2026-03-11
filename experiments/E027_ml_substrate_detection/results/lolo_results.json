@@ -1,0 +1,342 @@
+{
+  "model_a": {
+    "XGBoost": {
+      "Bugis": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 242,
+        "n_substrate": 62,
+        "n_austronesian": 180
+      },
+      "Makassar": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 217,
+        "n_substrate": 80,
+        "n_austronesian": 137
+      },
+      "Muna": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 219,
+        "n_substrate": 34,
+        "n_austronesian": 185
+      },
+      "Tolaki": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 209,
+        "n_substrate": 134,
+        "n_austronesian": 75
+      },
+      "Toraja-Sadan": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 216,
+        "n_substrate": 45,
+        "n_austronesian": 171
+      },
+      "Wolio": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 254,
+        "n_substrate": 83,
+        "n_austronesian": 171
+      },
+      "_mean": {
+        "auc_mean": 1.0,
+        "auc_std": 0.0,
+        "n_langs_above_065": 6,
+        "n_langs_valid": 6
+      }
+    },
+    "RandomForest": {
+      "Bugis": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 242,
+        "n_substrate": 62,
+        "n_austronesian": 180
+      },
+      "Makassar": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 217,
+        "n_substrate": 80,
+        "n_austronesian": 137
+      },
+      "Muna": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 219,
+        "n_substrate": 34,
+        "n_austronesian": 185
+      },
+      "Tolaki": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 209,
+        "n_substrate": 134,
+        "n_austronesian": 75
+      },
+      "Toraja-Sadan": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 216,
+        "n_substrate": 45,
+        "n_austronesian": 171
+      },
+      "Wolio": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 254,
+        "n_substrate": 83,
+        "n_austronesian": 171
+      },
+      "_mean": {
+        "auc_mean": 1.0,
+        "auc_std": 0.0,
+        "n_langs_above_065": 6,
+        "n_langs_valid": 6
+      }
+    },
+    "LogisticRegression": {
+      "Bugis": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 242,
+        "n_substrate": 62,
+        "n_austronesian": 180
+      },
+      "Makassar": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 217,
+        "n_substrate": 80,
+        "n_austronesian": 137
+      },
+      "Muna": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 219,
+        "n_substrate": 34,
+        "n_austronesian": 185
+      },
+      "Tolaki": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 209,
+        "n_substrate": 134,
+        "n_austronesian": 75
+      },
+      "Toraja-Sadan": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 216,
+        "n_substrate": 45,
+        "n_austronesian": 171
+      },
+      "Wolio": {
+        "auc": 1.0,
+        "f1": 1.0,
+        "acc": 1.0,
+        "n_test": 254,
+        "n_substrate": 83,
+        "n_austronesian": 171
+      },
+      "_mean": {
+        "auc_mean": 1.0,
+        "auc_std": 0.0,
+        "n_langs_above_065": 6,
+        "n_langs_valid": 6
+      }
+    }
+  },
+  "model_b": {
+    "XGBoost": {
+      "Bugis": {
+        "auc": 0.7268,
+        "f1": 0.7989,
+        "acc": 0.7066,
+        "n_test": 242,
+        "n_substrate": 62,
+        "n_austronesian": 180
+      },
+      "Makassar": {
+        "auc": 0.7473,
+        "f1": 0.7811,
+        "acc": 0.659,
+        "n_test": 217,
+        "n_substrate": 80,
+        "n_austronesian": 137
+      },
+      "Muna": {
+        "auc": 0.6176,
+        "f1": 0.4653,
+        "acc": 0.4018,
+        "n_test": 219,
+        "n_substrate": 34,
+        "n_austronesian": 185
+      },
+      "Tolaki": {
+        "auc": 0.8055,
+        "f1": 0.53,
+        "acc": 0.3636,
+        "n_test": 209,
+        "n_substrate": 134,
+        "n_austronesian": 75
+      },
+      "Toraja-Sadan": {
+        "auc": 0.6964,
+        "f1": 0.7873,
+        "acc": 0.6898,
+        "n_test": 216,
+        "n_substrate": 45,
+        "n_austronesian": 171
+      },
+      "Wolio": {
+        "auc": 0.6971,
+        "f1": 0.7981,
+        "acc": 0.6693,
+        "n_test": 254,
+        "n_substrate": 83,
+        "n_austronesian": 171
+      },
+      "_mean": {
+        "auc_mean": 0.7151,
+        "auc_std": 0.057,
+        "n_langs_above_065": 5,
+        "n_langs_valid": 6
+      }
+    },
+    "RandomForest": {
+      "Bugis": {
+        "auc": 0.715,
+        "f1": 0.7599,
+        "acc": 0.6736,
+        "n_test": 242,
+        "n_substrate": 62,
+        "n_austronesian": 180
+      },
+      "Makassar": {
+        "auc": 0.7515,
+        "f1": 0.7792,
+        "acc": 0.6866,
+        "n_test": 217,
+        "n_substrate": 80,
+        "n_austronesian": 137
+      },
+      "Muna": {
+        "auc": 0.6675,
+        "f1": 0.7468,
+        "acc": 0.6438,
+        "n_test": 219,
+        "n_substrate": 34,
+        "n_austronesian": 185
+      },
+      "Tolaki": {
+        "auc": 0.8133,
+        "f1": 0.5682,
+        "acc": 0.4545,
+        "n_test": 209,
+        "n_substrate": 134,
+        "n_austronesian": 75
+      },
+      "Toraja-Sadan": {
+        "auc": 0.6841,
+        "f1": 0.6942,
+        "acc": 0.588,
+        "n_test": 216,
+        "n_substrate": 45,
+        "n_austronesian": 171
+      },
+      "Wolio": {
+        "auc": 0.6739,
+        "f1": 0.7822,
+        "acc": 0.6535,
+        "n_test": 254,
+        "n_substrate": 83,
+        "n_austronesian": 171
+      },
+      "_mean": {
+        "auc_mean": 0.7176,
+        "auc_std": 0.0514,
+        "n_langs_above_065": 6,
+        "n_langs_valid": 6
+      }
+    },
+    "LogisticRegression": {
+      "Bugis": {
+        "auc": 0.7109,
+        "f1": 0.7989,
+        "acc": 0.7025,
+        "n_test": 242,
+        "n_substrate": 62,
+        "n_austronesian": 180
+      },
+      "Makassar": {
+        "auc": 0.7203,
+        "f1": 0.7509,
+        "acc": 0.6636,
+        "n_test": 217,
+        "n_substrate": 80,
+        "n_austronesian": 137
+      },
+      "Muna": {
+        "auc": 0.6376,
+        "f1": 0.7,
+        "acc": 0.589,
+        "n_test": 219,
+        "n_substrate": 34,
+        "n_austronesian": 185
+      },
+      "Tolaki": {
+        "auc": 0.8026,
+        "f1": 0.622,
+        "acc": 0.622,
+        "n_test": 209,
+        "n_substrate": 134,
+        "n_austronesian": 75
+      },
+      "Toraja-Sadan": {
+        "auc": 0.7007,
+        "f1": 0.7975,
+        "acc": 0.6944,
+        "n_test": 216,
+        "n_substrate": 45,
+        "n_austronesian": 171
+      },
+      "Wolio": {
+        "auc": 0.6611,
+        "f1": 0.75,
+        "acc": 0.6535,
+        "n_test": 254,
+        "n_substrate": 83,
+        "n_austronesian": 171
+      },
+      "_mean": {
+        "auc_mean": 0.7055,
+        "auc_std": 0.0521,
+        "n_langs_above_065": 5,
+        "n_langs_valid": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+E017: Tephra POC — Pyle (1989) Analytical Calibration Results
+============================================================
+Date: 2026-03-03
+
+Method: Pyle (1989) exponential thinning with Dwarapala-calibrated loss factor
+Loss factor: 0.2910 (29.1% retention)
+
+Calibration Sites:
+               site volcano  distance_km  actual_depth_cm  calibrated_cm  error_pct  within_30pct
+Dwarapala Singosari   Kelud    14.780707              185     185.000000   0.000000          True
+    Candi Sambisari  Merapi    24.453626              575     114.740434  80.045142         False
+      Candi Kedulan  Merapi    19.692608              650     142.351949  78.099700         False
+     Candi Kimpulan  Merapi    18.086962              385     142.408469  63.010787         False
+
+Score: 1/4 sites within ±30%
+Verdict: FAIL — Need heavy simulation tools for Paper 3
+Recommendation: Paper 3 requires Tephra2/FALL3D for tephra dispersal modeling. Analytical approach insufficient.
+
+Key Observations:
+1. Loss factor of 29.1% is physically reasonable (erosion + compaction + reworking).
+2. Cross-system test: Kelud (E. Java) calibration applied to Merapi (C. Java).
+3. The loss factor is a spatially uniform correction — local geomorphology will cause
+   site-specific deviations that this simple model cannot capture.
+4. For Paper 3, the critical question is whether the *relative* spatial pattern
+   of burial depth is correct, not just absolute values.

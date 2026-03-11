@@ -1,0 +1,49 @@
+{
+  "experiment": "E037_prasasti_dating_ml",
+  "n_training": 118,
+  "n_training_all": 166,
+  "n_predict": 102,
+  "n_features": 19,
+  "models": {
+    "RandomForest": {
+      "mae_years": 115.0,
+      "rmse_years": 160.6,
+      "r2": 0.028,
+      "century_exact_pct": 33.9,
+      "century_within1_pct": 76.3,
+      "temporal_mae": 308.2,
+      "temporal_r2": -6.355
+    },
+    "GradientBoosting": {
+      "mae_years": 122.1,
+      "rmse_years": 171.0,
+      "r2": -0.103,
+      "century_exact_pct": 28.8,
+      "century_within1_pct": 71.2,
+      "temporal_mae": 299.0,
+      "temporal_r2": -6.076
+    }
+  },
+  "best_model": "RandomForest",
+  "feature_importance": {
+    "word_count": 0.1751,
+    "keyword_density": 0.1327,
+    "has_wuku": 0.11,
+    "pre_indic": 0.0951,
+    "is_kawi": 0.0755,
+    "total_keywords": 0.0604,
+    "pre_indic_ratio": 0.0532,
+    "indic": 0.0527,
+    "n_botanical": 0.045,
+    "indic_ratio": 0.0443,
+    "has_padi": 0.039,
+    "has_waringin": 0.0352,
+    "has_manhuri": 0.0272,
+    "ambiguous": 0.0234,
+    "has_sirih": 0.0182,
+    "is_malay": 0.0075,
+    "has_hyang": 0.005,
+    "has_cendana": 0.0007,
+    "is_borobudur": 0.0
+  }
+}

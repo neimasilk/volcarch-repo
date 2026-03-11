@@ -1,260 +1,163 @@
-﻿# L3: EXECUTION (Active Tasks)
+# L3: EXECUTION (Active Tasks)
 
 **Status:** ACTIVE -- Updates per week or per experiment.
-**Sprint:** Sprint 3 -- Submission Preparation
-**Last updated:** 2026-02-25
+**Sprint:** Sprint 8 -- Post Mata Elang #4 + 4 Papers Submitted
+**Last updated:** 2026-03-11
 
 ---
 
 ## Current Focus
 
-**Immediate goal:** Submit Paper 1 and Paper 2 to journals.
+**Strategy:** Parallel execution — advance all papers to nearest milestone. When one is blocked, work on others. All papers serve one manifesto (H-TOM).
 
-### Paper 1 (JAS:Reports): 90% READY
-- LaTeX + PDF compiled clean (21 pages)
-- All figures complete (including Dwarapala 1860 photo)
-- Remaining: verify photo provenance, final read-through, submit
-- **Target: submit this week**
+### Paper 1 (Asian Perspectives): SUBMITTED (2026-03-10)
+- MS# 019A-0326, Submission #773. Single-author (Mukhlis Amien).
+- File: `papers/P1_taphonomic_framework/submission_asianperspectives_v0.1.docx`
+- 6 JPG figures + captions.txt uploaded. 5 suggested reviewers.
+- **Next:** Await editorial decision. Post preprint to EarthArXiv (BLOCKED — user needs time).
 
-### Paper 2 (Remote Sensing MDPI): 85% READY
-- LaTeX + PDF compiled clean (13 pages)
-- MVR met: seed-averaged AUC 0.751, range [0.729-0.774]
-- Remaining: **reference audit (CRITICAL)**, MDPI template check, final read-through
-- **Target: submit within 2 weeks**
+### Paper 2 (JCAA): SUBMITTED (2026-03-11)
+- Submission #280. Authors: Mukhlis Amien + Go Frendi Gunawan (Universitas Bhinneka Nusantara).
+- File: `papers/P2_settlement_model/submission_jcaa_v0.1.tex` (24 pages)
+- Harvard citations (natbib/plainnat), double-spaced, line numbers. APC waiver requested.
+- **Next:** Await editorial decision. Post preprint to EarthArXiv (BLOCKED — user needs time).
 
-### Paper 3 (JVGR): NOT STARTED
-- Blocked pending Paper 1+2 submission
-- Needs geologist co-author, tephra dispersal tools, ERA5 wind data
+### Paper 3 (JVGR): KILLED (2026-03-10)
+- E017 Tephra POC FAILED — 1/4 calibration sites passed
+- **Decision (Mata Elang #2):** Formally killed. Resurrect only with geologist co-author + Tephra2/FALL3D.
+- Data preserved in E002, E017.
 
-## Sprint 0 Summary: COMPLETE
+### Paper 7 (Antiquity Project Gallery): SUBMITTED (2026-03-06)
+- Submitted to ScholarOne, awaiting reviewer response
+- File: `papers/P7_TOM/submission_antiquity_v0.1.tex`
 
-All data collection and analysis scripts written and executed:
-- E001: 666 sites collected, 297 geocoded (296 from OSM/Wikidata + 1 duplicate)
-- E002: 8 eruption records (seed data; full GVP still needs manual download)
-- E003: Copernicus GLO-30 DEM downloaded for Malang Raya + full Jawa Timur
-- E004: H1 first test â€” rho=-0.991, INCONCLUSIVE (dominated by survey bias)
-- E005: H1 terrain-controlled test â€” rho=-0.364, H1 not supported from distribution data
+### Paper 5 (BKI): SUBMITTED (2026-03-09)
+- Awaiting editorial decision (weeks to months)
+- **P15 merger strategy:** If BKI requests revision, consider merging P15 (TOM-R, 4 additional rituals) into P5 as expanded analysis (~10,000 words, within 12,000 BKI limit). Avoids salami-slicing risk.
 
-**Key decision:** Paper 1 reframed as METHODOLOGICAL framework.
-- Argument: observable site distribution cannot test taphonomic bias due to survey + survivorship bias
-- Core contribution: Dwarapala calibration (3.6 mm/year sedimentation) + computational framework
-- H1 proposed as hypothesis requiring fieldwork to confirm, not a proven statistical finding
+### Parallel Exploration: P8 + P9 (active)
+- **P8 Linguistic Fossils** — **WAITING FOR AUTHOR REVIEW**. Red-teamed 2026-03-11: ablation experiment (confound removed, AUC improves), 4 critical fixes applied, 4 new citations added. 29pp, ~5,200 words. Author reviewing PDF + RED_TEAM_REPORT.md.
+- **P9/P09alt Borehole Archaeology** — geological evidence (E024 POC SUCCESS, 25 records)
+- **P14 KILLED** (2026-03-11, Mata Elang #4) — Bonferroni kills significance (adj. p=0.222). E026 results folded into `papers/P5_volcanic_ritual_clock/revision_ammo/E026_pararaton_volcanic_correlation.md`.
+- **P15 dissolved** into P5 revision ammo (2026-03-10)
+- See `docs/drafts/README.md` for catalog
 
 ---
 
 ## Active Tasks
 
-### TASK-008: Increase geocoded site count
-**Status:** COMPLETE (2026-02-24)
-**Description:** 369/666 sites in east_java_sites.geojson have accuracy_level='no_coords'.
-Geocode using OSM Nominatim API â€” query "<name>, Jawa Timur, Indonesia" with bbox filter.
-**Expected:** 30â€“60% success rate â†’ ~100â€“220 additional geocoded sites
-**Output:** Updated `data/processed/east_java_sites.geojson` + `data/processed/geocoding_report.txt`
+### TASK-032: Register ORCID
+**Status:** DONE — `0000-0002-1848-167X`
 
-### TASK-009: Re-run E004 + E005 with enriched site data
-**Status:** COMPLETE (2026-02-24) â€” rho=-0.955 (was -0.991), terrain rho=-0.358 (was -0.364)
-**Description:** After geocoding, re-run E004 (density analysis) and E005 (terrain suitability)
-with the larger geocoded dataset to see if the pattern changes.
+### TASK-033: Write cover letter — Paper 1
+**Status:** DONE (2026-03-10) — cover letter not required by Asian Perspectives eJP system
 
-### TASK-010: Paper 1 first draft
-**Status:** COMPLETE (2026-02-24) — full draft v0.2 in `papers/P1_taphonomic_framework/draft_v0.1.md`
-**Description:** Write full first draft of Paper 1.
-**Target journal:** Journal of Archaeological Science: Reports
-**File:** `papers/P1_taphonomic_framework/`
+### TASK-034: Write cover letter — Paper 2
+**Status:** DONE (2026-03-11) — `papers/P2_settlement_model/cover_letter_jcaa.txt`
 
-### TASK-025: Paper 1 LaTeX submission package
-**Status:** COMPLETE (2026-02-25, updated evening)
-**Description:** Full submission package for Paper 1 (JAS:Reports).
-- LaTeX manuscript: `papers/P1_taphonomic_framework/submission_jasrep_v0.1.tex`
-- Compiled PDF: `papers/P1_taphonomic_framework/submission_jasrep_v0.1.pdf` (21 pages)
-- BibTeX references: `papers/P1_taphonomic_framework/references.bib` (36 entries)
-- Figures (6 total):
-  - `fig0a_dwarapala_1860.jpg` + `fig0b_dwarapala_present.png` — before/after burial photos
-  - `fig1_dwarapala_timeline.png` — burial timeline diagram
-  - `fig2_burial_depth_projections.png` — depth by era with GPR range
-  - `fig3_calibration_rates.png` — 4-site cross-system sedimentation rates
-  - `fig4_density_vs_distance.png` — E004 results + interpretive panel
-- Author: Mukhlis Amien, Lab Data Sains, Universitas Bhinneka Nusantara
-- Format: double-spaced, line-numbered, elsarticle-harv bibliography style
-- Revisions applied: 535yr/3.5mm/yr standardization, mean clarification, linear caveat, aggradation note
+### TASK-035: Confirm co-author for P1 & P2
+**Status:** RESOLVED — P1 submitted single-author. P2 submitted with Go Frendi Gunawan.
 
-### TASK-026: Paper 1 submission (NEXT)
-**Status:** PENDING
-**Description:** Submit Paper 1 to JAS:Reports.
-- [ ] Verify Dwarapala 1860 photo provenance (Leiden catalogue number)
-- [ ] Final PDF read-through for typos
-- [ ] Check JAS:Reports submission portal requirements
-- [ ] Submit via journal portal
+### TASK-036: Submit Paper 1
+**Status:** DONE (2026-03-10) — Submitted to Asian Perspectives (MS# 019A-0326)
 
-### TASK-027: Paper 2 reference audit + submission
-**Status:** PENDING
-**Description:** Complete Paper 2 for Remote Sensing MDPI submission.
-- [ ] Add 10-15 missing references to references.bib (currently 14, need ~25-30)
-- [ ] Check MDPI Remote Sensing LaTeX template compliance
-- [ ] Verify all figures referenced in LaTeX (fig2-fig7 may be unreferenced)
-- [ ] Fix Supplementary Materials section (remove file paths)
-- [ ] Final PDF read-through
-- [ ] Submit via MDPI portal
+### TASK-037: Submit Paper 2
+**Status:** DONE (2026-03-11) — Submitted to JCAA (Submission #280)
 
 ### TASK-028: Paper 3 scoping and co-author search
-**Status:** PENDING (blocked on P1+P2 submission)
-**Description:** Begin Paper 3 preparation during review cycle.
-- [ ] Identify geologist co-author (Universitas Brawijaya / PVMBG / ITB)
-- [ ] Install tephra dispersal tool (Tephra2 or FALL3D)
-- [ ] Download ERA5 wind reanalysis for Java
-- [ ] Literature review: isopach maps for Kelud/Merapi/Semeru
-- [ ] Write Paper 3 methods outline
+**Status:** KILLED (2026-03-10, Mata Elang #2 — E017 POC failed, no path forward without geologist)
 
-### TASK-015: E008 â€” Settlement Suitability Model v2 (feature tuning)
-**Status:** COMPLETE (2026-02-24) â€” AUC=0.695, REVISIT (not kill signal)
-- Added river distance raster from OSM Overpass (9,730 waterways); AUC improved +0.036
-- River_dist ranks 3rd in importance. Trend: E007=0.659 â†’ E008=0.695 â†’ E009=0.664
-- Weak folds 2â€“3 suggest survey-bias root cause (positive samples cluster in surveyed areas)
+### TASK-039: E020 Mini-NusaRC — expand dataset to 80 sites
+**Status:** PAUSED (informative negative obtained)
+- v2 merged: 48 sites (41 v1 + 7 from agent harvest)
+- Metric 1 NOT SIGNIFICANT (p=0.761) — informative negative: cave bias universal, not volcanic-specific
+- P7 submitted with existing data. Further expansion deprioritised.
 
-### TASK-017: E009 â€” Settlement Suitability Model v3
-**Status:** REVISIT (2026-02-24) â€” Path A complete, MVR not met
-**Description:** Path A implemented (SoilGrids clay+silt added to E008 feature set).
-**Result:**
-- XGBoost AUC=0.664 Â± 0.049 (TSS=0.337 Â± 0.083)
-- RandomForest AUC=0.643 Â± 0.054 (TSS=0.312 Â± 0.072)
-- Challenge 1 PASS: rho=-0.266 (tautology-free)
-- Delta vs E008: -0.031 (performance drop)
-**Decision:** Move to Path B (Target-Group Background pseudo-absences).
+### TASK-040: P7 v3.1 — remaining draft notes
+**Status:** IN PROGRESS
+- [x] p-value fix, circularity caveat, B→A→C reorder, Zone C, timeframe disambiguation
+- [x] Song Terus vs Sulawesi gap (Borneo bypass option)
+- [x] Title scope — resolved by Antiquity Project Gallery format (short communication)
+- [x] Publication strategy — Option A: Antiquity Project Gallery (Q1, $0)
 
-### TASK-018: E010 â€” Target-Group Background pseudo-absences
-**Status:** REVISIT (2026-02-24) â€” Path B complete, MVR not met
-**Description:** Replaced random pseudo-absences with road-accessibility weighted TGB sampling.
-**Result:**
-- XGBoost AUC=0.711 Â± 0.085 (TSS=0.384 Â± 0.150)
-- RandomForest AUC=0.699 Â± 0.081 (TSS=0.380 Â± 0.130)
-- Challenge 1 PASS: rho=-0.142 (tautology-free)
-- Delta vs E008: +0.016 (improved, but below 0.75)
-**Decision:** Continue with TGB tuning (parameter sweep + richer accessibility proxy).
+### TASK-041: P7 LaTeX draft — Antiquity Project Gallery
+**Status:** SUBMITTED (2026-03-06)
+- Submitted to ScholarOne (mc.manuscriptcentral.com/aqy)
+- 6 figures (Dwarapala, timeline, deep-time map, zone boxplot, histogram, NusaRC)
+- Awaiting reviewer response
 
-### TASK-019: E011 - TGB tuning and proxy enrichment
-**Status:** REVISIT (2026-02-24) - parameter sweep complete, MVR not met
-**Description:** Tuned TGB sampling over 12 configurations with fixed spatial CV splits.
-**Result:**
-- Best config: decay=16km, max_road_dist=60km
-- XGBoost AUC=0.725 +- 0.084 (TSS=0.447 +- 0.184)
-- RandomForest AUC=0.716 +- 0.081 (TSS=0.408 +- 0.147)
-- Challenge 1 PASS: rho=-0.169 (tautology-free)
-- Delta vs E010: +0.014, vs E008: +0.030
-**Decision:** Continue with proxy enrichment (expanded road classes / survey polygons).
+### TASK-043: P9 Borehole Archaeology — Milestone 1: Literature Dataset
+**Status:** POC COMPLETE (E024) — v0.1 dataset: 18 records, burial gradient visible
+- Collect 20+ borehole logs from published geotechnical/geological literature (Sangiran basin, Brantas delta, Surabaya area)
+- Sources: PUPR reports, geotechnical journals, Sangiran stratigraphy papers
+- Deliverable: CSV dataset (lat, lon, depth, layer descriptions) + location map
+- Links to: P1/P2 H-TOM framework (subsurface evidence for buried occupation surfaces)
 
-### TASK-020: E012 - TGB proxy enrichment
-**Status:** REVISIT (2026-02-24) - proxy enrichment complete, MVR not met
-**Description:** Added expanded road classes (`unclassified`, `residential`, `service`)
-to accessibility proxy and reran fixed-split TGB sweep.
-**Result:**
-- Best config: decay=12km, max_road_dist=20km
-- XGBoost AUC=0.730 +/- 0.085 (TSS=0.420 +/- 0.170)
-- RandomForest AUC=0.724 +/- 0.081 (TSS=0.413 +/- 0.152)
-- Challenge 1 PASS: rho=-0.160 (tautology-free)
-- Delta vs E011: +0.005, vs E008: +0.035
-**Decision:** Continue to hybrid bias-correction strategy (E013).
+### TASK-044: P8 Linguistic Fossils — Milestone 5: Draft Revised
+**Status:** DRAFT v0.1+ COMPLETE — 5 experiments + E036 Hanacaraka + I-031 reframe, ~5,010 words
+- E022 (rule-based): 8 Tier 1 substrate candidates, avg residual 26.5%
+- E027 (ML): XGBoost Model B AUC=0.760, LOLO 5/6 langs ≥0.65
+- E027b (expansion): 16 additional languages, Sulawesi > Western Indonesian (P(sub) 0.606 vs 0.393)
+- E028 (consensus): kappa=0.61, 266 consensus substrates
+- E029 (clustering): informative negative — parallel innovation, not shared substrate
+- **NEW:** E036 Hanacaraka convergence subsection added (33→20 consonant reduction confirms ML fingerprint)
+- **NEW:** I-031 reframe — title/abstract/intro lead with non-conformity, not substrate hypothesis
+- File: `papers/P8_linguistic_fossils/draft_v0.1.tex` (27pp, 4 tables, 4 figures)
+- Target: Oceanic Linguistics (Q1, UH Press)
+- **Next:** Author review, co-author search, submission
 
-### TASK-021: E013 - Hybrid bias-corrected background
-**Status:** SUCCESS (2026-02-24) - MVR met
-**Description:** Combined expanded-road TGB with hybrid controls (regional quota blend + hard negatives).
-**Result:**
-- Best config: region_blend=0.00, hard_frac_target=0.30
-- XGBoost AUC=0.768 +/- 0.069 (TSS=0.507 +/- 0.167)
-- RandomForest AUC=0.742 +/- 0.070 (TSS=0.458 +/- 0.126)
-- Challenge 1 PASS: rho=-0.229 (tautology-free)
-- Delta vs E012: +0.038, vs E008: +0.073
-**Decision:** Paper 2 GO (threshold achieved).
+### TASK-046: Post P1+P2 preprints to EarthArXiv
+**Status:** BLOCKED (user decision — needs time to evaluate preprint strategy)
+- Platform: EarthArXiv (free DOI via OSF, geoscience community, Google Scholar indexed)
+- All 4 target journals allow preprints (Asian Perspectives, JCAA, BKI, Antiquity)
+- **Critical dependency:** P5 and P14 cite P1 sedimentation rates. DOIs needed for reviewer verification.
+- **Note:** P2 co-author Go Frendi needs to agree to preprint (Mata Elang #4)
 
-### TASK-022: Paper 2 outline and draft kickoff
-**Status:** COMPLETE (2026-02-24) - draft package assembled
-**Description:** Start Paper 2 writing package after E013 success.
-- Draft outline at `papers/P2_settlement_model/outline.md`
-- Draft manuscript v0.3 at `papers/P2_settlement_model/draft_v0.3.md` (submission-prep baseline)
-- Discussion + Limitations sections integrated for internal review baseline
-- Figure assets + caption callouts prepared in draft (`build_figures.py` pipeline)
-- Robustness supplement completed (`robustness_checks.py`): 20 alternate-seed runs + bootstrap CI
-  archived at `papers/P2_settlement_model/supplement/e013_seed_stability.csv` and
-  `papers/P2_settlement_model/supplement/e013_robustness_summary.txt`
-- Block-size sensitivity completed (`block_size_sensitivity.py`): ~40km/~50km/~60km
-  outputs at `papers/P2_settlement_model/supplement/e013_blocksize_summary.csv`
-  and `papers/P2_settlement_model/figures/fig7_e013_blocksize_sensitivity.png`
-- Journal-format pass completed: references and data/code availability section added
-  to `papers/P2_settlement_model/draft_v0.3.md`
+### TASK-045: P5 "The Volcanic Ritual Clock" — Milestone 4: Outline + Source Extraction
+**Status:** SUBMITTED TO BKI (2026-03-09) — milestone exceeded
+- Paper outline v0.1: `papers/P5_volcanic_ritual_clock/outline_v0.1.md` (8 sections, target JRAI)
+- **Primbon source extraction (2026-03-09):**
+  - Soemodidjojo (1980) *Kitab Primbon Betaljemur Adam Makna* identified as published edition
+  - Hendrajaya & Almu'tasim (2020): 40-day ceremony names SPECIFIC body parts (blood, flesh, marrow, innards, nails, hair, bones, muscle)
+  - 2-year mark: **"jenazah sudah hampir luluh, tinggal tulang saja"** (body almost dissolved, only bones remain) — confirmed in TWO independent Indonesian academic sources
+  - Aizid (2015): "selamatan origin pre-dates Hindu-Buddhism" — CONFIRMED
+  - Islam merely "gave new color" to pre-existing ceremonies (Hendrajaya 2020)
+- Full corpus: 126/268 (47%) inscriptions have pre-Indic elements (hyaṁ 43%, maṅhuri 10%)
+- Pulotu database: 30/137 cultures share "full mortuary package" including Merina + Toraja
+- **1000-DAY HYPOTHESIS:** Slametan intervals map to decomposition stages in volcanic soil (pH 4.5-5.5)
+- See: `experiments/E023_ritual_screening/results/primbon_source_findings.md`
+- **Next:** ISRIC soil pH cross-reference for Pulotu, forensic taphonomy literature, draft Section 2 (source exclusion)
 
-### TASK-023: Paper 2 internal review and submission packaging
-**Status:** COMPLETE (2026-02-24) - submission package baseline ready
-**Description:** Prepare draft for journal submission workflow.
-- Internal review pass 1 completed (claim tightening + robustness-consistent abstract)
-- Submission checklist initialized at `papers/P2_settlement_model/submission_checklist.md`
-- Journal-style metadata sections added (Data/Code availability, Funding, COI)
-- v0.3 template-aligned draft completed (`papers/P2_settlement_model/draft_v0.3.md`)
-- Remote Sensing section mapping prepared at
-  `papers/P2_settlement_model/remote_sensing_template_map.md`
-- Author contributions template prepared at
-  `papers/P2_settlement_model/author_contributions_template.md`
-- Author Contributions placeholder inserted in
-  `papers/P2_settlement_model/draft_v0.3.md`
-- DOI/URL verification completed and logged at
-  `papers/P2_settlement_model/reference_verification_2026-02-24.md`
-- Submission-formatted file created:
-  `papers/P2_settlement_model/submission_remote_sensing_v0.1.md`
-- Dependency lock file generated:
-  `papers/P2_settlement_model/requirements_submission_lock.txt`
-- Author Contributions finalized with confirmed author identity:
-  Mukhlis Amien (`amien@ubhinus.ac.id`)
-- All non-optional submission checklist items completed.
-- Milestone committed and pushed to GitHub (`main`, commit `453f36b`).
-
-### TASK-024: Multidisciplinary LaTeX manuscript package (CS + Archaeology + Geology)
-**Status:** COMPLETE (2026-02-24)
-**Description:** Reframe Paper 2 for mixed-discipline readability and deliver full LaTeX draft.
-- Installed MiKTeX via winget (`MiKTeX.MiKTeX 25.12`)
-- Created full manuscript in LaTeX:
-  `papers/P2_settlement_model/submission_remote_sensing_v0.2.tex`
-- Expanded introduction with explicit interdisciplinary literature framing:
-  - computer science (spatial CV, background bias handling)
-  - archaeology (predictive modeling and sampling process)
-  - geology (tephra transport/deposition and volcanic context)
-- Added dedicated visual assets (illustration + diagrams):
-  - `fig1_interdisciplinary_framework.png`
-  - `fig8_pipeline_overview.png`
-  - `fig9_interpretation_bridge.png`
-  generated by `papers/P2_settlement_model/build_interdisciplinary_visuals.py`
-- Compiled output PDF:
-  `papers/P2_settlement_model/submission_remote_sensing_v0.2.pdf`
-
-### TASK-011: Download full GVP eruption data
-**Status:** COMPLETE (2026-02-25)
-**Description:** GVP eruption database downloaded and processed.
-- `tools/scrape_gvp.py` created — downloads + processes GVP eruption database
-- Full GVP database: 9,902 global eruptions in `data/raw/gvp/GVP_Eruption_Search_Result.xlsx`
-- Filtered to 4 target volcanoes: **168 confirmed eruptions** (was 8 seed records)
-  - Kelud: 37, Semeru: 63, Bromo: 67, Arjuno-Welirang: 1
-- Output: `data/processed/eruption_history.csv` (168 records with ashfall estimates)
-- Ashfall since 1268 CE: 174.6 cm from 41 events → implied rate 2.30 mm/yr (lower bound)
+### TASK-042: Find alternative FREE journal for Paper 1
+**Status:** DONE — Asian Perspectives selected and used for submission (2026-03-10)
 
 ---
 
-## Upcoming Tasks (Backlog â€” Sprint 2)
+## Completed This Sprint
 
-- TASK-012: **Survey intensity normalization** — BPCB excavation report coverage per km²
-  (needed to properly normalize E004 site density by survey effort)
-- TASK-014: **GPR/LiDAR partnership** â€” identify "blank" high-suitability zones as test sites
-  for field campaign (confirm burial, not absence)
-- TASK-016: **Literature review** â€” volcanic taphonomy precedents (Pompeii, Minoan Thera,
-  Toba super-eruption, Mt Pinatubo burial studies)
+### TASK-038: Inbox triage + Mata Elang review (2026-03-05)
+**Status:** COMPLETE
+- 7 documents from `inBox/` read, catalogued, moved to `docs/drafts/`
+- Mata Elang strategic review conducted
+- Decision: P1&P2 submit first, drafts incubate
+- L2, L3, JOURNAL updated; CLAUDE.md inBox protocol added
+
+### TASK-029: E015 SHAP Analysis
+**Status:** COMPLETE (2026-03-03)
+
+### TASK-030: E016 Zone Classification Map
+**Status:** COMPLETE (2026-03-03)
+
+### TASK-031: E017 Tephra POC
+**Status:** COMPLETE (2026-03-03) — FAILED
 
 ---
 
-## Completed Tasks
+## Backlog
 
-- TASK-001: Repo structure, requirements.txt, experiment dirs, paper dirs (2026-02-23)
-- TASK-002: E001 scripts written + executed â†’ 666 sites, 297 geocoded (2026-02-23)
-- TASK-003: E002 script written + executed â†’ 8 seed eruption records (2026-02-23)
-- TASK-004: E003 scripts written + executed â†’ Malang + full Jawa Timur DEM (2026-02-23)
-- TASK-005: E004 script written + executed â†’ rho=-0.991, INCONCLUSIVE (2026-02-23)
-- TASK-006: E005 scripts written + executed â†’ rho=-0.364, H1 not supported (2026-02-23)
-- TASK-007: Paper 1 reframing decision documented in JOURNAL.md + E005 README (2026-02-23)
+- TASK-012: Survey intensity normalization (BPCB coverage per km^2)
+- TASK-014: GPR/LiDAR partnership for field validation
+- TASK-016: Volcanic taphonomy literature review
 
 ---
 
@@ -263,21 +166,68 @@ to accessibility proxy and reran fixed-split TGB sweep.
 | ID | Name | Status | Paper | Notes |
 |----|------|--------|-------|-------|
 | E001 | Archaeological site geocoding | COMPLETE | P1 | 297 geocoded / 666 total |
-| E002 | Eruption history compilation | COMPLETE | P1, P3 | 168 records from GVP (Kelud 37, Semeru 63, Bromo 67, Arjuno-Welirang 1) |
+| E002 | Eruption history compilation | COMPLETE | P1, P3 | 168 records from GVP |
 | E003 | DEM acquisition and processing | COMPLETE | P2, P3 | Malang + full Jawa Timur |
 | E004 | Site density vs volcanic proximity | COMPLETE | P1 | rho=-0.991, survey bias dominates |
 | E005 | Terrain suitability H1 test | COMPLETE | P1, P2 | rho=-0.364, H1 inconclusive |
 | E006 | Re-run E004/E005 with enriched geocoding | COMPLETE | P1 | rho stable; n=383 |
-| E007 | Settlement suitability model (baseline) | REVISIT | P2 | AUC=0.659; MVR not met; Challenge 1 PASSED |
-| E008 | Settlement suitability model v2 (+ river dist) | REVISIT | P2 | AUC=0.695 (+0.036); MVR not met; Challenge 1 PASSED |
-| E009 | Settlement suitability model v3 (+ soil data) | REVISIT | P2 | AUC=0.664; Challenge 1 PASSED; Path A complete |
-| E010 | Settlement suitability model v4 (TGB pseudo-absences) | REVISIT | P2 | AUC=0.711 (+0.016 vs E008); Challenge 1 PASSED |
-| E011 | Settlement suitability model v5 (TGB tuning) | REVISIT | P2 | AUC=0.725 (+0.014 vs E010); best config decay=16km, max=60km |
-| E012 | Settlement suitability model v6 (TGB proxy enrichment) | REVISIT | P2 | AUC=0.730 (+0.005 vs E011); best config decay=12km, max=20km |
-| E013 | Settlement suitability model v7 (hybrid bias correction) | SUCCESS | P2 | AUC=0.768 (>0.75); Challenge 1 PASSED; Paper 2 GO |
+| E007--E012 | Settlement model iterations | REVISIT | P2 | AUC progression: 0.659 -> 0.730 |
+| E013 | Settlement model v7 (hybrid bias correction) | SUCCESS | P2 | AUC=0.768; Challenge 1 PASSED |
+| E014 | Temporal split validation | SUCCESS | P2 | Temporal AUC=0.755; tautology-resistant |
+| E015 | SHAP analysis for E013 | SUCCESS | P2 | SHAP-gain rho=0.943; Fig 13 added |
+| E016 | Zone classification map | SUCCESS | P1+P2 | Zone B=1.8% GPR targets; 28.4% retention factor |
+| E017 | Tephra POC (Pyle 1989 calibration) | FAILED | ~~P3~~ (KILLED) | 1/4 sites pass; Merapi needs per-volcano calibration |
+| E018 | Temporal Overlay Matrix POC | INCONCLUSIVE | P7 | Oldest-date TOM invalid (cave-site confound). H-TOM not refuted. P7 needs site-density approach. |
+| E019 | Spatial Distribution Test | SUCCESS | P7 | Zone B 16 km vs Zone A 43 km to volcanoes; Cohen's d=1.005; deep-time sites all in karst/river |
+| E020 | Mini-NusaRC | COMPLETE (informative neg) | P7 | v2=48 sites; Metric 1 p=0.761 (informative negative); P7 submitted with existing data |
+| E022 | Linguistic Subtraction POC | SUCCESS | P8 | 6 Sulawesi langs, avg 29.4% residual, 6 concepts in 5+/6 langs. GO for full pipeline. |
+| E023 | Ritual Screening POC | SUCCESS | P5 | 268 prasasti, 75% ritual content, 81% translated, 114 pilot candidates. GO for AI screening. |
+| E024 | Borehole Lit. Screening | SUCCESS | P9 | v0.2: 25 records. Distal mean 3.7mm/yr ≈ P1 calibration 3.6mm/yr. |
+| E026 | Pararaton Volcanic Correlation | SUCCESS | P14 | 3/3 GO: proximity p=0.037, rate ratio 2.18x, 3/3 GVP match. |
+| E027 | ML Substrate Detection | SUCCESS | P8 | Model B AUC=0.760, LOLO 5/6≥0.65, phonological fingerprint. GO. |
+| E027b | Substrate Expansion (16 langs) | SUCCESS | P8 | Sulawesi P(sub)=0.606 > W.Indonesian 0.393. Geographic patterning confirmed. |
+| E028 | Cross-Method Substrate Consensus | SUCCESS | P8 | kappa=0.61, 266 consensus substrates, 5 cross-lang concepts (3 numerals). |
+| E029 | Substrate Phonological Clustering | INFORMATIVE NEG | P8 | No shared substrate families (p=0.569). Parallel independent innovation, not single substrate language. Numeral compounds are FP. |
+| E030 | Prasasti Temporal NLP | SUCCESS | P5+P14 | Pre-Indic ratio INCREASES (rho=+0.50). hyang persists >50% all centuries. Supports P5 coexistence argument. |
+| E032 | Pranata Mangsa × Eruption Seasonality | COND. SUCCESS | P5+P11 | Eruptions cluster in wet season (chi2 p=0.042, Rayleigh p=0.032). Kapitu peak 3.8x. Monsoon-eruption coupling. |
+| E033 | Sanskrit Temporal Curve (Indianization) | SUCCESS | P5+P8 | Indic ratio DECLINES (rho=-0.211, p=0.030). Peak C9, trough C13. Indianization = wave. |
+| E034 | Panji in Malagasy Literature Search | INFORMATIVE NEG | P9+P12 | Panji absent (post-dates migration). Ibonia=Ramayana-era. Madagascar=pre-1200 CE time capsule. |
+| E031 | Candi Orientation vs Volcanic Peak | SUCCESS (split) | P7+P11 | Siting: west-cluster p<0.0001 (142 candi). Orientation: null (35%, p=0.94). |
+| E035 | Prasasti Botanical Keywords | SUCCESS | P5+P9 | 15 plants found, menyan+kamboja ABSENT. Mortuary=oral tradition. Waringin 93% ritual co-occurrence. |
+| E036 | Hanacaraka Phonological Inventory | SUCCESS | P8+P12 | 33→20 consonant reduction. Aspiration(8)+retroflex(5)+sibilant(2) lost. Aligns with PAn, not Sanskrit. tha/dha paradox. |
+| E037 | Prasasti Dating ML | CONDITIONAL | P5+P14 | MAE=115yr, R²=0.028, C±1=76.3%. Content too weakly temporal. Temporal split fails. Needs paleographic features. |
+| E038 | Volcanic Vocabulary Drift | INFORMATIVE NEG | P8+P11 | No diversity diff (p>0.3). Distance-conservatism rho=-0.301 (phylogenetic confound). Core vocab too stable. |
+| E039 | VCS Cross-Cultural Test | INFORMATIVE NEG | P11 | Binary: volcanic ≠ higher ritual (p=0.973, reversed). Distance: rho=+0.145, p=0.092 (also opposite). VCS is local, not global. Q21 mana p=0.006. |
 
 ---
 
-*Update this document whenever tasks change status. Keep it honest â€” if something is stuck, say so.*
+<details>
+<summary>Archived Tasks (Sprint 0-3)</summary>
 
+- TASK-001: Repo structure, requirements.txt, experiment dirs, paper dirs (2026-02-23)
+- TASK-002: E001 scripts -> 666 sites, 297 geocoded (2026-02-23)
+- TASK-003: E002 scripts -> 8 seed eruption records (2026-02-23)
+- TASK-004: E003 scripts -> Malang + full Jawa Timur DEM (2026-02-23)
+- TASK-005: E004 -> rho=-0.991, INCONCLUSIVE (2026-02-23)
+- TASK-006: E005 -> rho=-0.364, H1 not supported (2026-02-23)
+- TASK-007: Paper 1 reframing decision (2026-02-23)
+- TASK-008: Geocoding enrichment -> 383 sites (2026-02-24)
+- TASK-009: Re-run E004/E005 with enriched data (2026-02-24)
+- TASK-010: Paper 1 first draft (2026-02-24)
+- TASK-011: Full GVP eruption data -> 168 records (2026-02-25)
+- TASK-015: E008 AUC=0.695, river distance added (2026-02-24)
+- TASK-017: E009 AUC=0.664, soil features (2026-02-24)
+- TASK-018: E010 AUC=0.711, TGB pseudo-absences (2026-02-24)
+- TASK-019: E011 AUC=0.725, TGB tuning (2026-02-24)
+- TASK-020: E012 AUC=0.730, TGB proxy enrichment (2026-02-24)
+- TASK-021: E013 AUC=0.768, MVR met, Paper 2 GO (2026-02-24)
+- TASK-022: Paper 2 outline and draft kickoff (2026-02-24)
+- TASK-023: Paper 2 internal review and submission packaging (2026-02-24)
+- TASK-024: Multidisciplinary LaTeX manuscript package (2026-02-24)
+- TASK-025: Paper 1 LaTeX submission package (2026-02-25)
 
+</details>
+
+---
+
+*Update this document whenever tasks change status. Keep it honest -- if something is stuck, say so.*

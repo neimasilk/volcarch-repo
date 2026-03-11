@@ -1,0 +1,37 @@
+E015: SHAP Analysis for E013 Best XGBoost Model
+=======================================================
+Date: 2026-03-03
+Model: XGBoost (n_estimators=300, max_depth=4, lr=0.05)
+Training set: 2268 samples (378 presences, 1890 pseudo-absences)
+E013 config: region_blend=0.0, hard_frac=0.3, seed=375
+
+SHAP Feature Ranking (mean |SHAP|):
+     feature_label  mean_abs_shap  shap_rank
+     Elevation (m)       0.815783          1
+               TRI       0.670615          2
+River distance (m)       0.602205          3
+   Slope (degrees)       0.579131          4
+  Aspect (degrees)       0.373981          5
+               TWI       0.313246          6
+
+Gain-Based Feature Ranking:
+     feature_label  gain_importance  gain_rank
+     Elevation (m)         0.208291          1
+               TRI         0.193606          2
+River distance (m)         0.165294          3
+   Slope (degrees)         0.163023          4
+               TWI         0.146283          5
+  Aspect (degrees)         0.123502          6
+
+Rank Consistency (Spearman rho): 0.943 (CONSISTENT)
+
+Interpretation:
+- SHAP provides instance-level feature attribution, complementing gain-based importance.
+- TreeSHAP is exact for tree models (no sampling approximation needed).
+- Rankings are broadly consistent, confirming gain-based importance.
+
+Output files:
+  - shap_beeswarm.png  (manuscript Figure 13)
+  - shap_bar.png        (supplementary)
+  - shap_dependence_top.png (top feature dependence)
+  - shap_summary.csv    (numerical summary)

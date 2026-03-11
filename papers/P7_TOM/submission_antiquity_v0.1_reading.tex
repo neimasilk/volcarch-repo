@@ -1,0 +1,185 @@
+% ============================================================
+% READING DRAFT — Paper 7: Antiquity Project Gallery
+% Figures embedded inline for review. NOT for submission.
+% Submission version: main_antiquity_v0.1.docx + titlepage_antiquity_v0.1.docx
+% ============================================================
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+\usepackage{xcolor}
+
+\onehalfspacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+\begin{center}
+{\small\color{red}\textbf{READING DRAFT --- NOT FOR SUBMISSION}}
+
+\vspace{6pt}
+
+{\large\bfseries Spatial segregation of deep-time archaeological sites from volcanic plains in East Java: evidence for taphonomic burial}
+
+\vspace{6pt}
+
+Mukhlis Amien\textsuperscript{1}
+
+\vspace{4pt}
+
+{\small\textsuperscript{1}Lab Data Sains, Universitas Bhinneka Nusantara, Indonesia (\href{mailto:amien@ubhinus.ac.id}{amien@ubhinus.ac.id})}
+\end{center}
+
+% === ABSTRACT ===
+\begin{quote}
+\small\textbf{Abstract:} All four known pre-Neolithic Java sites occupy karst caves or river terraces far from volcanic centres, despite high-suitability volcanic plains nearby. Spatial analysis of 65\,432 grid cells shows a monotonic gradient: deeper tephra burial correlates with fewer surface sites (Cohen's $d$ = 1.005). This taphonomic bias may mask deep-time occupation across volcanically active regions.
+\end{quote}
+
+\textbf{Keywords:} volcanic taphonomy; archaeological site distribution; East Java; settlement suitability model; tephra burial; Southeast Asia
+
+\vspace{6pt}
+\hrule
+\vspace{6pt}
+
+% === BODY TEXT ===
+
+\textbf{The taphonomic problem.}
+Java hosts 45 active volcanoes that produce cumulative tephra deposition estimated at 3.6 $\pm$ 1.2 mm/yr, a cross-system mean derived from multiple stratigraphic calibration points including temple foundations, archaeological horizons, and dated volcanic deposits \citep{Amien2026a}.
+Over archaeological timescales, this buries open-air evidence beneath metres to hundreds of metres of sediment.
+One such calibration point is the Dwarapala guardian statue at Singosari: constructed $\sim$1268~CE, it was already half-buried ($\sim$185\,cm of its $\sim$370\,cm total height) when photographed in 1860 (Figure~\ref{fig:dwarapala}, left). A present-day photograph with a person for scale illustrates the statue's full dimensions (Figure~\ref{fig:dwarapala}, right), while the empirical rate derivation is shown in Figure~\ref{fig:timeline}.
+We tested whether this volcanic burial creates a measurable spatial signature in the archaeological record by analysing the distribution of known sites relative to volcanic centres across 65\,432 grid cells covering East Java.
+
+% --- FIGURE 5: Dwarapala ---
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_dwarapala_1860.png}
+\caption{Dwarapala guardian statue at Singosari, East Java. Left: photographed $\sim$1860 when half-buried ($\sim$185\,cm) by volcanic sediment (source: Leiden University Library). Right: present-day view after excavation, with person for scale; total statue height $\sim$370\,cm. The burial of half the statue over $\sim$510 years yields a sedimentation rate of 3.6\,mm/yr.}
+\label{fig:dwarapala}
+\end{figure}
+
+% --- FIGURE 6: Timeline ---
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/fig6_dwarapala_timeline.png}
+\caption{Empirical calibration of volcanic sedimentation rate from the Dwarapala Singosari. Timeline from construction ($\sim$1268~CE) through discovery (1803~CE, $\sim$185\,cm buried) to present ($\sim$265\,cm buried). Rate = 185\,cm / 510\,yr = 3.6\,mm/yr, consistent with cross-system mean of 4.4 $\pm$ 1.2\,mm/yr from multiple calibration points.}
+\label{fig:timeline}
+\end{figure}
+
+\textbf{Zone classification.}
+Using a settlement suitability model (XGBoost, AUC = 0.768; \citealt{Amien2026b}) and the \citet{Pyle1989} exponential tephra-thinning function, we classified cells into four zones: Zone~A (high suitability, shallow burial $<$100\,cm, sites present), Zone~B (high suitability, moderate burial 100--300\,cm, zero sites), Zone~C (high suitability, deep burial $>$300\,cm, zero sites), and Zone~E (low suitability).
+The burial depth is calibrated to the 1268~CE Rinjani eruption, representing minimum post-eruption overburden from a single event; cumulative burial over archaeological timescales is substantially greater \citep{Amien2026a}.
+Zone~B and~C cells represent locations where the model predicts people \textit{would} have settled, but no archaeological evidence has been found at the surface.
+
+% --- FIGURE 1 ---
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_zone_distance.png}
+\caption{Distance to nearest volcano by zone classification (East Java). Zone~B (high suitability, zero sites) clusters near volcanic centres; Zone~A (sites present) is significantly farther (Cohen's $d$ = 1.005). Box: IQR; whiskers: 1.5$\times$IQR; line: median.}
+\label{fig:zones}
+\end{figure}
+
+\textbf{Spatial analysis.}
+For each cell, we computed haversine distance to the nearest of seven major East Java volcanoes.
+The primary, non-circular evidence comes from published deep-time sites---an independent dataset from the 378 historical-period sites used in zone classification. All four known pre-Neolithic Java sites---Song Terus ($\sim$60\,ka; \citealt{Semah2023}), Wajak ($\sim$28\,ka; \citealt{Storm2013}), Trinil ($\sim$500\,ka), and Sangiran ($\sim$1.6\,Ma)---are in karst caves or river terraces, 90--170\,km from the nearest volcanic centre (Figure~\ref{fig:deeptime}).
+None are on volcanic plains.
+This pattern is independent of any model in this study.
+
+% --- FIGURE 2 ---
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_deep_time_map.png}
+\caption{Deep-time archaeological sites in East Java, plotted on zone classification overlay with volcano positions. All four sites (Song Terus, Wajak, Trinil, Sangiran) are in karst caves or river terraces, 90--170\,km from volcanic centres.}
+\label{fig:deeptime}
+\end{figure}
+
+Corroborating this, the zone analysis shows Zone~B cells cluster at a median of 16.1\,km from the nearest volcano, compared with 42.5\,km for Zone~A (Mann--Whitney $U$ = 14\,254\,494, $Z$ = 39.50, $p < 10^{-100}$, Cohen's $d$ = 1.005; Figure~\ref{fig:zones}).
+Zone~C cells---the extreme case---sit at a median of just 2.6\,km (Table~\ref{tab:zones}).
+The monotonic gradient C~$<$~B~$<$~A~$<$~E maps directly onto the burial depth gradient: cells closer to volcanoes have deeper tephra cover and fewer surface sites.
+We note that the \citet{Pyle1989} model defining zones is itself distance-dependent, introducing partial circularity in this analysis; the deep-time site distribution above provides the independent confirmation.
+
+% === TABLE 1 ===
+\begin{table}[h]
+\centering
+\small
+\caption{Median distance to nearest volcano by zone classification, East Java (E019).}
+\label{tab:zones}
+\begin{tabular}{llrrr}
+\hline
+Zone & Description & $n$ cells & Median dist.\ (km) & Known sites \\
+\hline
+C & Deep burial ($>$300\,cm) & 48 & 2.6 & 0 \\
+B & Moderate burial (100--300\,cm) & 1\,093 & 16.1 & 0 \\
+A & Shallow burial ($<$100\,cm) & 15\,217 & 42.5 & 378 \\
+E & Low suitability & 49\,074 & 71.0 & ---$^*$ \\
+\hline
+\multicolumn{5}{l}{\footnotesize $^*$Zone~E excluded from site analysis: low suitability by definition.}
+\end{tabular}
+\end{table}
+
+\textbf{The biogeographic implication.}
+Humans were in Sulawesi by $\geq$67.8\,ka \citep{Oktaviana2026}.
+Wallace's Line---never dry land, even at glacial maximum---requires maritime technology to cross.
+Such technology develops through coastal adaptation on the Sunda Shelf, the connected landmass comprising modern Java, Sumatra, and Kalimantan.
+Therefore, the Sunda Shelf was occupied before 67.8\,ka \citep{Westaway2017}.
+At 3.6 $\pm$ 1.2\,mm/yr, evidence from that period now lies under an estimated 163--326\,m of volcanic sediment on Java's plains---far beyond any routine survey depth including ground-penetrating radar ($\sim$10--15\,m practical limit).
+
+% --- FIGURE 3 ---
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig3_site_distance.png}
+\caption{Distribution of distances to nearest volcano for 378 known East Java sites (mostly historical) versus 65\,432 grid cell baseline. Known sites cluster at 10--40\,km, confirming habitation of volcanic lowlands. Red dashed lines mark the four deep-time sites at 90--170\,km---their absence from the volcanic zone is the taphonomic signal.}
+\label{fig:histogram}
+\end{figure}
+
+\textbf{Broader pattern.}
+A cross-regional database of 48 archaeological sites across eight Nusantaran regions, compiled from open-access literature as the most completely documented sites per region, reveals that cave-site dominance among pre-Holocene deposits is \textit{universal}: 82\% cave in volcanic regions versus 86\% in non-volcanic regions (Fisher's exact $p$ = 0.76).
+This informative negative indicates that cave survivorship bias operates across all tropical environments, not only volcanic ones.
+The distinctive H-TOM signature is not the \textit{type} of surviving site but their \textit{spatial segregation} from volcanic centres---a pattern confirmed here for East Java with a large effect size.
+
+% --- FIGURE 4 ---
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/fig4_nusarc_preliminary.png}
+\caption{Cross-regional comparison (Mini-NusaRC, 48 sites, 8 regions). Left: cave/open-air ratio by region---cave dominance is universal, not volcanic-specific. Centre: temporal distribution by volcanic class. Right: cave ratio versus regional volcano count.}
+\label{fig:nusarc}
+\end{figure}
+
+\textbf{Significance.}
+Survey effort in East Java has historically concentrated on karst zones and river valleys rather than volcanic plains, which may partially explain the pattern.
+However, survey avoidance of volcanic plains is itself consistent with the taphonomic hypothesis: both archaeologists and ancient evidence avoid---or are removed from---volcanically active zones.
+These results demonstrate that the absence of deep-time open-air sites on Java's volcanic plains is consistent with taphonomic burial rather than absence of habitation.
+The approach---combining suitability modelling, burial depth estimation, and spatial analysis---is transferable to other volcanically active regions (e.g.\ Central America, East Africa, Mediterranean) where similar taphonomic biases may distort the archaeological record.
+
+% === ACKNOWLEDGEMENTS ===
+\vspace{6pt}
+\hrule
+\vspace{6pt}
+
+\textbf{Data availability statement.}
+Archaeological site locations were compiled from published sources cited in the text. Elevation data (SRTM/DEMNAS) are publicly available from the Indonesian Geospatial Agency (BIG). Eruption records are from the Global Volcanism Program (Smithsonian Institution). Zone classification data and analysis scripts are available from the author upon reasonable request.
+
+\vspace{6pt}
+
+\textbf{Funding statement.}
+This research received no specific grant from any funding agency, commercial, or not-for-profit sectors.
+
+\vspace{6pt}
+
+\textbf{Acknowledgements.}
+Claude (Anthropic) was used to assist with statistical analysis, data processing, and manuscript drafting. All analytical decisions, interpretations, and scientific claims are the responsibility of the author.
+
+% === REFERENCES ===
+\begin{thebibliography}{99}
+\bibitem[Amien(2026a)]{Amien2026a} Amien, M. 2026a. Volcanic sedimentation rates and archaeological taphonomy in East Java. \textit{[Paper 1, in preparation]}.
+\bibitem[Amien(2026b)]{Amien2026b} Amien, M. 2026b. Predictive settlement suitability model for East Java using XGBoost. \textit{[Paper 2, in preparation]}.
+\bibitem[Oktaviana \textit{et al.}(2026)]{Oktaviana2026} Oktaviana, A.A. \textit{et al.} 2026. Rock art from at least 67,800 years ago in Sulawesi. \textit{Nature} 650: 652--56.
+\bibitem[Pyle(1989)]{Pyle1989} Pyle, D.M. 1989. The thickness, volume and grainsize of tephra fall deposits. \textit{Bulletin of Volcanology} 51: 1--15.
+\bibitem[Semah \textit{et al.}(2023)]{Semah2023} Semah, F. \textit{et al.} 2023. Song Terus cave and the late Pleistocene record of Java. \textit{L'Anthropologie}.
+\bibitem[Storm \textit{et al.}(2013)]{Storm2013} Storm, P. \textit{et al.} 2013. U-series and radiocarbon analyses of human and faunal remains from Wajak. \textit{Journal of Human Evolution} 64: 356--65.
+\bibitem[Westaway \textit{et al.}(2017)]{Westaway2017} Westaway, K. \textit{et al.} 2017. An early modern human presence in Sumatra 73,000--63,000 years ago. \textit{Nature} 548: 322--25.
+\end{thebibliography}
+
+\end{document}

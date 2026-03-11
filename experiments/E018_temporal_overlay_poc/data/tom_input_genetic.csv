@@ -1,0 +1,9 @@
+region,G_age_bp,G_age_ci_lo,G_age_ci_hi,method,source,provenance_class
+Java,4000,3000,5000,haplogroup_divergence,"Tumonggor et al. 2013 Eur J Hum Genet 21:824-831; mtDNA B4a1a coalescence; Lipson et al. 2014 Nat Commun 5:3513",A_published
+Sumatra,4500,3500,5500,haplogroup_divergence,"Hill et al. 2007 Mol Biol Evol 24:871-882; Batak mtDNA M7c3c; Tumonggor et al. 2013",A_published
+Sulawesi,4000,3000,5000,haplogroup_divergence,"Tumonggor et al. 2013; South Sulawesi B4a1a; Cox 2008 PhD thesis ANU",A_published
+Nusa_Tenggara,4000,3000,5000,haplogroup_divergence,"Tumonggor et al. 2013; Flores-Timor mtDNA; Lansing et al. 2011 Proc Roy Soc B 278:493",A_published
+Philippines,4500,3500,5500,haplogroup_divergence,"Lipson et al. 2014; Philippine haplogroup E/B4a1a divergence; Delfin et al. 2011 Mol Biol Evol 28:1205",A_published
+Maluku,3500,2500,4500,haplogroup_divergence,"Tumonggor et al. 2013; Moluccan mtDNA coalescence; Hill et al. 2007",A_published
+Kalimantan,4000,3000,5000,haplogroup_divergence,"Lipson et al. 2014; Borneo Land Dayak haplogroups; Jinam et al. 2012 Mol Biol Evol 29:3513",A_published
+Madagascar,1500,1200,1800,haplogroup_divergence,"Pierron et al. 2017 Proc Natl Acad Sci 114:E2341; Malagasy B4a1a1b arrival",A_published

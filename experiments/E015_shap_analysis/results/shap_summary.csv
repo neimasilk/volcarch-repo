@@ -1,0 +1,7 @@
+feature,feature_label,mean_abs_shap,gain_importance,shap_rank,gain_rank
+elevation,Elevation (m),0.8157826,0.20829074,1,1
+tri,TRI,0.67061454,0.19360617,2,2
+river_dist,River distance (m),0.60220516,0.16529432,3,3
+slope,Slope (degrees),0.57913107,0.16302304,4,4
+aspect,Aspect (degrees),0.3739806,0.123502225,5,6
+twi,TWI,0.3132457,0.14628349,6,5

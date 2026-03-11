@@ -1,0 +1,32 @@
+E018: Temporal Overlay Matrix — Correlation Results
+=======================================================
+Date: 2026-03-05
+Regions: 8
+Regions included: Java, Kalimantan, Madagascar, Maluku, Nusa_Tenggara, Philippines, Sulawesi, Sumatra
+
+PRIMARY TEST:
+  Spearman rho(TAP_index, max_gap) = -0.1429  (p = 0.7358)
+
+SECONDARY TESTS:
+  Kendall  tau(TAP_index, max_gap) = -0.0714  (p = 0.9049)
+  Permutation test p-value (n=10000): 0.7400
+
+SEPARATE GAP CORRELATIONS:
+  Spearman rho(TAP, L_gap) = -0.2143  (p = 0.6103)
+  Spearman rho(TAP, G_gap) = -0.1429  (p = 0.7358)
+
+DECISION: KILL — Wrong direction, H-TOM not supported
+
+Note: With n=8, formal statistical significance (p<0.05) is unlikely.
+We rely on effect size (rho magnitude), direction consistency, and
+sensitivity robustness per the pre-registered criteria.
+
+Data per region:
+  Java              TAP=0.733  max_gap= -56000  L_gap= -56500  G_gap= -56000
+  Kalimantan        TAP=0.400  max_gap= -36000  L_gap= -36400  G_gap= -36000
+  Nusa_Tenggara     TAP=0.350  max_gap= -40600  L_gap= -41000  G_gap= -40600
+  Sumatra           TAP=0.300  max_gap= -63500  L_gap= -64600  G_gap= -63500
+  Maluku            TAP=0.228  max_gap= -32500  L_gap= -32500  G_gap= -32500
+  Philippines       TAP=0.185  max_gap= -42500  L_gap= -43000  G_gap= -42500
+  Sulawesi          TAP=0.141  max_gap= -63800  L_gap= -64000  G_gap= -63800
+  Madagascar        TAP=0.000  max_gap=  -9000  L_gap=  -9200  G_gap=  -9000

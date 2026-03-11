@@ -1,0 +1,21 @@
+concept,n_languages,languages,forms,mean_cross_ling_dist,z_score,potential_cognate
+Fifty,4,Makassar|Tolaki|Toraja-Sadan|Wolio,Makassar:limampulo; Tolaki:limambulo; Toraja-Sadan:limaŋpulo; Wolio:lima pulu,0.2037,-2.0934,True
+Twenty,4,Makassar|Tolaki|Toraja-Sadan|Wolio,Makassar:ruampulo; Tolaki:ruambulo; Toraja-Sadan:duaŋpulo; Wolio:rua pulu,0.2917,-1.7045,True
+One Thousand,3,Makassar|Tolaki|Toraja-Sadan,Makassar:sisaʔbu; Tolaki:aso-sou; Toraja-Sadan:saŋsaʔbu,0.6190,-0.2571,False
+One Hundred,4,Makassar|Tolaki|Toraja-Sadan|Wolio,Makassar:sibilaŋŋaŋ; Tolaki:aso'etu; Toraja-Sadan:saratuʔ; Wolio:saatu,0.6952,+0.0797,False
+near,3,Bugis|Tolaki|Wolio,Bugis:ma-caweʔ; Tolaki:merambi; Wolio:makasu,0.6964,+0.0850,False
+to blow,3,Bugis|Tolaki|Toraja-Sadan,Bugis:mat-tappoʔ; Tolaki:mepua; Toraja-Sadan:pamurruʔ,0.7833,+0.4692,False
+how?,3,Makassar|Muna|Tolaki,Makassar:antekamma; Muna:pedahai; Tolaki:mombake hawo,0.7870,+0.4855,False
+to bite,3,Muna|Tolaki|Wolio,Muna:aesia; Tolaki:kaa; Wolio:bembaru,0.7905,+0.5008,False
+other,3,Makassar|Toraja-Sadan|Wolio,Makassar:maraɛŋ; Toraja-Sadan:seŋaʔ; Wolio:mosagaanana,0.7929,+0.5116,False
+green,3,Bugis|Makassar|Tolaki,Bugis:ma-kudaraʔ; Makassar:moncoŋ bulo; Tolaki:mo'osu,0.8152,+0.6098,False
+"to tie up, fasten",3,Makassar|Muna|Tolaki,Makassar:aññikkoʔ; Muna:aekooli; Tolaki:onggo,0.8274,+0.6639,False
+all,3,Bugis|Tolaki|Wolio,Bugis:manəŋ; Tolaki:luwuako; Wolio:maliŋu,0.8333,+0.6902,False
+to throw,3,Bugis|Makassar|Tolaki,Bugis:maʔ-dempəʔ; Makassar:aññambila; Tolaki:kali,0.8593,+0.8048,False
+if,3,Bugis|Makassar|Tolaki,Bugis:rekko; Makassar:punna; Tolaki:mano,0.8667,+0.8376,False
+to say,3,Bugis|Tolaki|Wolio,Bugis:pau; Tolaki:te'eni; Wolio:kooni,0.8889,+0.9358,False
+to stand,4,Bugis|Makassar|Tolaki|Wolio,Bugis:təttoŋ; Makassar:ammenteŋ; Tolaki:menggokora; Wolio:kabalebale,0.8917,+0.9481,False
+to breathe,3,Makassar|Tolaki|Wolio,Makassar:aʔmaiʔ; Tolaki:mehonahona; Wolio:poinuñca,0.9000,+0.9850,False
+to hit,4,Bugis|Makassar|Tolaki|Wolio,Bugis:tətteʔ; Makassar:annunruŋ; Tolaki:toni; Wolio:rambi,0.9181,+1.0648,False
+to sit,3,Tolaki|Toraja-Sadan|Wolio,Tolaki:mererehu; Toraja-Sadan:noʔkoʔ; Wolio:uncura,0.9583,+1.2429,False
+to hold,3,Bugis|Makassar|Tolaki,Bugis:warəkkəŋ; Makassar:annaʔgalaʔ; Tolaki:po'indi,0.9667,+1.2797,False

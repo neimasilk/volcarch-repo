@@ -1,0 +1,112 @@
+{
+  "feature_importance": [
+    {
+      "feature": "language_cognacy_coverage",
+      "mean_abs_shap": 0.558528
+    },
+    {
+      "feature": "form_length",
+      "mean_abs_shap": 0.378163
+    },
+    {
+      "feature": "sem_ACTION",
+      "mean_abs_shap": 0.230192
+    },
+    {
+      "feature": "n_consonant_clusters",
+      "mean_abs_shap": 0.190118
+    },
+    {
+      "feature": "has_glottal",
+      "mean_abs_shap": 0.187495
+    },
+    {
+      "feature": "sem_OTHER",
+      "mean_abs_shap": 0.181724
+    },
+    {
+      "feature": "n_vowels",
+      "mean_abs_shap": 0.16573
+    },
+    {
+      "feature": "vowel_ratio",
+      "mean_abs_shap": 0.155391
+    },
+    {
+      "feature": "language_id_encoded",
+      "mean_abs_shap": 0.150108
+    },
+    {
+      "feature": "is_core_vocab",
+      "mean_abs_shap": 0.149998
+    },
+    {
+      "feature": "sem_GRAMMAR",
+      "mean_abs_shap": 0.110671
+    },
+    {
+      "feature": "sem_BODY",
+      "mean_abs_shap": 0.091365
+    },
+    {
+      "feature": "init_p",
+      "mean_abs_shap": 0.089416
+    },
+    {
+      "feature": "init_a",
+      "mean_abs_shap": 0.070705
+    },
+    {
+      "feature": "init_b",
+      "mean_abs_shap": 0.048948
+    },
+    {
+      "feature": "init_k",
+      "mean_abs_shap": 0.048708
+    },
+    {
+      "feature": "sem_NATURE",
+      "mean_abs_shap": 0.040951
+    },
+    {
+      "feature": "has_nasal_cluster",
+      "mean_abs_shap": 0.038861
+    },
+    {
+      "feature": "init_s",
+      "mean_abs_shap": 0.035631
+    },
+    {
+      "feature": "sem_QUALITY",
+      "mean_abs_shap": 0.031554
+    },
+    {
+      "feature": "sem_NUMBER",
+      "mean_abs_shap": 0.030067
+    },
+    {
+      "feature": "has_reduplication",
+      "mean_abs_shap": 0.029581
+    },
+    {
+      "feature": "has_prefix_like",
+      "mean_abs_shap": 0.029309
+    },
+    {
+      "feature": "init_m",
+      "mean_abs_shap": 0.0283
+    },
+    {
+      "feature": "ends_in_vowel",
+      "mean_abs_shap": 0.026953
+    },
+    {
+      "feature": "init_other",
+      "mean_abs_shap": 0.023866
+    },
+    {
+      "feature": "init_t",
+      "mean_abs_shap": 0.015161
+    }
+  ]
+}

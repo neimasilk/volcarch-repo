@@ -1,0 +1,26 @@
+Dear Editors,
+
+We are pleased to submit our manuscript entitled "Tautology-Free Settlement Suitability Modeling in East Java Under Survey and Taphonomic Bias" for consideration as a Research Article in the Journal of Computer Applications in Archaeology.
+
+This paper addresses a methodological gap at the intersection of machine learning, archaeological predictive modeling, and volcanic taphonomy. Archaeological site distributions in Java are shaped by two coupled biases: volcanic burial (taphonomic) and uneven survey coverage (discovery). Most predictive models treat these biases implicitly or ignore them entirely, risking tautological predictions that merely recapitulate survey visibility.
+
+We present a seven-experiment iterative workflow that systematically isolates and corrects these biases:
+- We demonstrate that pseudo-absence design (Target-Group Background with hybrid bias correction) is the dominant lever for spatial transfer, outperforming feature expansion alone.
+- Our best model achieves XGBoost AUC 0.768 (seed-averaged 0.751) under strict spatial block cross-validation, exceeding a spatial interpolation null model by +0.122 AUC.
+- An enhanced four-test tautology suite, including temporal split validation, provides evidence that the model learns environmental suitability rather than survey patterns.
+
+We believe this work is well-suited for JCAA because it directly addresses computational methodology for archaeology, with reproducible code, open data, and an interactive dashboard for exploring results. The interdisciplinary framing (computer science, archaeology, geology) aligns with the journal's mission to bridge computational methods and archaeological practice.
+
+The manuscript has not been published or submitted elsewhere. All data and code are openly available (GitHub: https://github.com/neimasilk/volcarch-repo, MIT license). An interactive dashboard is live at https://volcarch-dashboard.streamlit.app.
+
+Thank you for considering our submission.
+
+Sincerely,
+
+Mukhlis Amien (corresponding author)
+Lab Data Sains, Universitas Bhinneka Nusantara, Indonesia
+Email: amien@ubhinus.ac.id
+
+Go Frendi Gunawan
+Universitas Bhinneka Nusantara, Indonesia
+Email: gofrendiasgard@gmail.com

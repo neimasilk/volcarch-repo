@@ -1,0 +1,45 @@
+{
+  "xgb_auc": 0.768,
+  "xgb_auc_std": 0.069,
+  "xgb_tss": 0.507,
+  "xgb_tss_std": 0.167,
+  "tautology_rho": -0.229,
+  "tautology_verdict": "TAUTOLOGY-FREE",
+  "n_sites": 378,
+  "n_grid_points": 65432,
+  "suitability_p75": 0.43938491493463516,
+  "loss_factor": 0.283746044406287,
+  "dwarapala_raw_cm": 651.9914678884628,
+  "dwarapala_predicted_cm": 185.0,
+  "dwarapala_actual_cm": 185,
+  "zone_counts": {
+    "E": 49074,
+    "A": 15217,
+    "B": 1093,
+    "C": 48
+  },
+  "feature_importances": {
+    "elevation": 0.20874442160129547,
+    "slope": 0.1643754541873932,
+    "twi": 0.158664733171463,
+    "tri": 0.19224128127098083,
+    "aspect": 0.11394305527210236,
+    "river_dist": 0.16203103959560394
+  },
+  "auc_progression": {
+    "E007": 0.659,
+    "E008": 0.695,
+    "E009": 0.664,
+    "E010": 0.711,
+    "E011": 0.725,
+    "E012": 0.73,
+    "E013": 0.768
+  },
+  "temporal_validation": {
+    "xgb_auc": 0.755,
+    "rf_auc": 0.654,
+    "spatial_cv_xgb_auc": 0.785,
+    "split_method": "accessibility_proxy",
+    "verdict": "PASS"
+  }
+}

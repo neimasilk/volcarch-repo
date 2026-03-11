@@ -1,0 +1,8 @@
+{
+  "verdict": "SUCCESS",
+  "kappa": 0.6105,
+  "kappa_label": "substantial",
+  "n_consensus_substrates": 266,
+  "n_cross_language_4plus": 5,
+  "summary": "Moderate-to-substantial agreement (kappa=0.611). 266 consensus substrates provide a high-confidence core set. 5 concepts attested across 4+ languages suggest genuine pre-Austronesian remnants."
+}

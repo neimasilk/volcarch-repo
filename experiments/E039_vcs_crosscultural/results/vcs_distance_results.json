@@ -1,0 +1,17 @@
+{
+  "test1_distance_ritual": {
+    "rho": 0.1452,
+    "p": 0.0917
+  },
+  "test2_distance_mortuary": {
+    "rho": 0.0034,
+    "p": 0.9684
+  },
+  "test3_logdist_ritual": {
+    "rho": 0.1452,
+    "p": 0.0917
+  },
+  "verdict": "NOT SIGNIFICANT",
+  "n_cultures": 136,
+  "n_volcanoes": 854
+}

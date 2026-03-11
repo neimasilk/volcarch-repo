@@ -1,0 +1,9 @@
+region,n_volcanoes_holocene,area_km2,n_eruptions_vei3plus,shelf_exposure_frac,source_volcanoes,source_shelf
+Java,45,129000,68,0.15,"GVP Holocene Volcano List v5.2.8 (Smithsonian)","Voris 2000 J Biogeogr 27:1153; Sathiamurthy & Voris 2006"
+Sumatra,35,473000,34,0.20,"GVP Holocene Volcano List v5.2.8","Voris 2000; broad Strait of Malacca shelf"
+Sulawesi,11,174000,8,0.10,"GVP Holocene Volcano List v5.2.8","Voris 2000; narrow shelves"
+Nusa_Tenggara,19,73000,14,0.08,"GVP Holocene Volcano List v5.2.8","Voris 2000; limited shelf"
+Philippines,24,300000,16,0.12,"GVP Holocene Volcano List v5.2.8; PHIVOLCS","Voris 2000; western Palawan shelf"
+Maluku,16,75000,9,0.05,"GVP Holocene Volcano List v5.2.8","Voris 2000; very narrow shelves"
+Kalimantan,0,539000,0,0.35,"GVP — zero Holocene volcanoes","Voris 2000; broad Sunda Shelf exposure"
+Madagascar,0,587000,0,0.05,"GVP — zero Holocene volcanoes in Madagascar proper","Limited shelf data; Goodman & Benstead 2003"

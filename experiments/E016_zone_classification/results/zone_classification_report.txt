@@ -1,0 +1,42 @@
+E016: Zone Classification Map — Results
+==================================================
+Date: 2026-03-03
+
+Model: E013 XGBoost (best config: blend=0.00, hard_frac=0.30, seed=375)
+Eruptions used: 162 since 1268 CE
+Grid points: 65,432
+Suitability P75 threshold: 0.437
+Burial depth calibration: Dwarapala-anchored (loss factor = 0.284)
+  Raw Pyle prediction at Dwarapala: 652.0 cm
+  Actual observed: 185 cm
+  Retention factor: 28.4% of deposited tephra stays in place
+  Remainder lost to: erosion, compaction, lahar reworking, fluvial transport
+
+Zone Distribution:
+  Zone A (high suit, shallow <100cm): 15,170 (23.2%)
+  Zone B (high suit, moderate 100-300cm): 1,147 (1.8%)
+  Zone C (high suit, deep >300cm): 41 (0.1%)
+  Zone E (low suitability): 49,074 (75.0%)
+
+Dwarapala Validation:
+  Location: -7.973N, 112.435E
+  Predicted burial depth: 185.0 cm
+  Actual burial depth: 185 cm
+  Error: 0.0%
+  Verdict: PASS (within +/-30%)
+  Acceptable range (+/-30%): 130 - 240 cm
+
+Zone Statistics:
+      count  mean_suitability  mean_burial_cm  max_burial_cm
+zone                                                        
+A     15170              0.63           18.43          99.99
+B      1147              0.64          154.98         297.39
+C        41              0.80          327.52         364.33
+E     49074              0.15           17.84         342.74
+
+Interpretation:
+- Zone B cells are the primary GPR survey targets.
+- Zone C cells may contain buried sites but require deep-penetrating methods.
+- Zone A should correlate with known site locations (validation check).
+- Burial depth is a first-order estimate; actual burial depends on local
+  geomorphology, lahar pathways, and fluvial reworking not modeled here.

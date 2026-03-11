@@ -1,0 +1,21 @@
+name,entrance_az,volcano_az,nearest_volcano,distance_km,angular_diff,faces_volcano,note
+Borobudur,90,74.18980342856389,Merapi,27.725370873323044,15.810196571436109,True,Main entrance faces East (Hindu convention)
+Prambanan,90,348.11653789918057,Merapi,24.089335553006798,101.88346210081943,False,Main entrance faces East
+Mendut,270,73.05324611927006,Merapi,24.77607728782075,163.05324611927006,False,Faces West toward Borobudur
+Pawon,270,74.16807289451003,Merapi,26.46797076826052,164.16807289451003,False,Faces West
+Kalasan,90,353.5219368443681,Merapi,25.403358585045606,96.4780631556319,False,East entrance
+Sewu,90,347.45858270769685,Merapi,23.351880385195553,102.54141729230315,False,"Buddhist, East entrance"
+Plaosan,90,342.9163918058658,Merapi,23.26501139664998,107.08360819413417,False,East entrance
+Sambisari,270,2.6773200155192853,Merapi,23.599071314076145,92.67732001551929,False,"Buried temple, faces West"
+Banyunibo,270,340.3761786524572,Merapi,26.91484831878375,70.37617865245721,True,"Buddhist, faces West"
+Candi Badut,270,354.07097495192147,Arjuno-Welirang,25.600509193033815,84.07097495192147,True,"Oldest E. Java, faces West toward Arjuno"
+Candi Kidal,270,351.86073408725844,Arjuno-Welirang,32.686747943610705,81.86073408725844,True,"Singosari period, faces West"
+Candi Singosari,180,337.76691579301956,Arjuno-Welirang,19.21954724396912,157.76691579301956,False,Faces South (unusual)
+Candi Jawi,270,315.25211381362476,Penanggungan,7.514751275551851,45.25211381362476,True,Faces West toward Penanggungan
+Candi Penataran,270,60.96143830166386,Kelud,12.596646446434503,150.96143830166386,False,"Largest E. Java, faces West toward Kelud"
+Candi Surawana,270,261.07018000687407,Wilis,27.990437014945684,8.929819993125932,True,"Majapahit, faces West"
+Candi Jabung,270,195.7153999849585,Lamongan,31.3048035153111,74.28460001504149,True,"Majapahit, faces West"
+Candi Jolotundo,270,98.82442403062038,Penanggungan,2.8999040490404138,171.17557596937962,False,"Penanggungan slope, bathing place, faces West"
+Candi Tikus,0,101.01353338075728,Penanggungan,24.477597698013113,101.01353338075728,False,"Trowulan, bathing place, entrance North"
+Candi Bajang Ratu,0,101.77028703032693,Penanggungan,25.105735150367046,101.77028703032693,False,"Trowulan gate, faces North"
+Arjuna group (Dieng),270,0.0,Dieng,0.0,90.0,False,Most Dieng temples face West

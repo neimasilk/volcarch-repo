@@ -1,0 +1,269 @@
+filename,title,year_ce,n_organic,n_lithic,n_metal,materials,classes
+DHARMA_INS12Gilikan.xml,Gilikan (date lost),,3,0,2,bambu|atap|daun|emas|perak|sima,institution|organic|metal
+DHARMA_INSIDENK00007.xml,"Dharmasraya A (Padang Roco Amoghapāśa base), 1286 CE",1286,3,1,1,atap|ijuk|daun|candi|emas,organic|metal|lithic
+DHARMA_INSIDENK00050.xml,"Pillar from Kota Kapur (N. 50), 608 Śaka",686,1,0,0,atap,organic
+DHARMA_INSIDENK00059.xml,Gunung Tua Lokanātha Statue,,2,0,1,ijuk|daun|emas,organic|metal
+DHARMA_INSIDENK00066.xml,"Śrīkṣetra Dedication: Slab from Talang Tuwo (N. 66), 606 Śaka",684,3,0,1,kayu|atap|jati|emas,organic|metal
+DHARMA_INSIDENK00096.xml,"Stela from Bukit Gombak (N. 96), 1278 Śaka",1356,1,1,1,ijuk|batu|emas,organic|metal|lithic
+DHARMA_INSIDENK00138.xml,"Bronze base for a triad of statuettes (N. 138, ca. 10th c. CE)",950,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENK00186.xml,"Makara of Candi Kedaton (N. 186), 10/11th c. CE",1050,0,1,1,candi|emas,metal|lithic
+DHARMA_INSIDENK00351.xml,"Foundation of Sarungga's Hermitage (N. 351), 823 Śaka",901,0,0,1,emas,metal
+DHARMA_INSIDENK00368.xml,Silver plate for the deity at Abhaya,,0,0,1,emas,metal
+DHARMA_INSIDENK00388.xml,"Silver vase of the deity at Dieng, early 10th c. CE",950,1,1,1,kayu|mandapa|perak,organic|metal|lithic
+DHARMA_INSIDENK00396.xml,Silver plate for the deified ancestor at Abhayamukha,,1,0,0,daun,organic
+DHARMA_INSIDENK00526.xml,Kamalagyan charter (959 Śaka),1037,3,1,2,rumah_kayu|atap|ijuk|daun|batu|emas|perak|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKAbhayananda.xml,Abhayananda (779 Śaka),857,0,0,0,sima,institution
+DHARMA_INSIDENKAdanAdan.xml,Adan-Adan (1223 Śaka),1301,5,0,3,kayu|atap|ijuk|daun|jati|emas|perak|tembaga|sima,institution|organic|metal
+DHARMA_INSIDENKAdulengen.xml,Adulengen,,2,0,2,atap|daun|emas|perak|sima,institution|organic|metal
+DHARMA_INSIDENKAirAsih.xml,Air Asih (between 1177 and 1208 Śaka),1286,0,1,3,prasada|emas|perak|tembaga|sima,institution|metal|lithic
+DHARMA_INSIDENKAirKali.xml,Air Kali (849-850 Śaka),928,1,0,1,kayu|emas|sima,institution|organic|metal
+DHARMA_INSIDENKAlasantan.xml,Alasantan,,5,1,1,kayu|bambu|atap|ijuk|daun|bata|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKAmoghapasaPlaqueTropenmuseum.xml,Singasari Amoghapāśa plaque Tropenmuseum,,0,0,0,,
+DHARMA_INSIDENKAnjatan.xml,Anjatan: Foundation Charter of the Amr̥tamaṅgala Monastery,,3,0,2,kayu|bambu|daun|emas|tembaga|pahat|sima,institution|organic|metal|activity
+DHARMA_INSIDENKAyamTeas_I.xml,Ayam Teas I (822 Śaka),900,0,0,1,emas|sima,institution|metal
+DHARMA_INSIDENKAyamTeas_II.xml,Charter of Ayam Teas II,,1,0,1,daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKAyamTeas_III.xml,"Charter of Ayam Teas III (822 Śaka, 901-01-01)",901,0,0,1,emas,metal
+DHARMA_INSIDENKBalekambang.xml,Prayer for long life of Vijaya (7th c. CE),650,1,2,0,daun|batu|stambha,organic|lithic
+DHARMA_INSIDENKBarahasrama.xml,"Barahasrama (837 Śaka, 915-12-14)",915,5,1,2,kayu|bambu|atap|ijuk|daun|batu|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKBarsahan.xml,Barsahan charter (date lost),,1,0,0,atap|sima,institution|organic
+DHARMA_INSIDENKBatur.xml,Batur,,1,1,0,daun|batu,organic|lithic
+DHARMA_INSIDENKBatutulis.xml,Batutulis,,1,1,1,daun|batu|emas,organic|metal|lithic
+DHARMA_INSIDENKBhatari.xml,"Bhatari (829 Śaka, 907-10-07)",907,2,0,2,kayu|daun|emas|perak|sima,institution|organic|metal
+DHARMA_INSIDENKBorobudurHB021.xml,"Relief label from Borobudur's hidden base, no. 21 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB024.xml,"Relief label from Borobudur's hidden base, no. 24",,0,0,0,,
+DHARMA_INSIDENKBorobudurHB029.xml,"Relief label from Borobudur's hidden base, no. 29",,0,0,0,,
+DHARMA_INSIDENKBorobudurHB043.xml,"Relief label from Borobudur's hidden base, no. 43 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB121A.xml,"Relief label from Borobudur's hidden base, no. 121A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB121B.xml,"Relief label from Borobudur's hidden base, no. 121B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB122.xml,"Relief label from Borobudur's hidden base, no. 122 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB123.xml,"Relief label from Borobudur's hidden base, no. 123 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB124A.xml,"Relief label from Borobudur's hidden base, no. 124A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB124B.xml,"Relief label from Borobudur's hidden base, no. 124B (8th c. CE)",750,0,0,1,emas,metal
+DHARMA_INSIDENKBorobudurHB125A.xml,"Relief label from Borobudur's hidden base, no. 125A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB125B.xml,"Relief label from Borobudur's hidden base, no. 125B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB126A.xml,"Relief label from Borobudur's hidden base, no. 126A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB126B.xml,"Relief label from Borobudur's hidden base, no. 126B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB127A.xml,"Relief label from Borobudur's hidden base, no. 127A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB127B.xml,"Relief label from Borobudur's hidden base, no. 127B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB128.xml,"Relief label from Borobudur's hidden base, no. 128 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB129.xml,"Relief label from Borobudur's hidden base, no. 129 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB130.xml,"Relief label from Borobudur's hidden base, no. 130 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB131A.xml,"Relief label from Borobudur's hidden base, no. 131A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB131B.xml,"Relief label from Borobudur's hidden base, no. 131B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB132.xml,"Relief label from Borobudur's hidden base, no. 132 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB133.xml,"Relief label from Borobudur's hidden base, no. 133 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB134A.xml,"Relief label from Borobudur's hidden base, no. 134A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB134B.xml,"Relief label from Borobudur's hidden base, no. 134B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB135A.xml,"Relief label from Borobudur's hidden base, no. 135A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB135B.xml,"Relief label from Borobudur's hidden base, no. 135B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB137.xml,"Relief label from Borobudur's hidden base, no. 137 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB138A.xml,"Relief label from Borobudur's hidden base, no. 138A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB138B.xml,"Relief label from Borobudur's hidden base, no. 138B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB139.xml,"Relief label from Borobudur's hidden base, no. 139 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB140.xml,"Relief label from Borobudur's hidden base, no. 140 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB141.xml,"Relief label from Borobudur's hidden base, no. 141 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB142.xml,"Relief label from Borobudur's hidden base, no. 142 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB144.xml,"Relief label from Borobudur's hidden base, no. 144 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB147.xml,"Relief label from Borobudur's hidden base, no. 147 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB148A.xml,"Relief label from Borobudur's hidden base, no. 148A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB148B.xml,"Relief label from Borobudur's hidden base, no. 148B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB149.xml,"Relief label from Borobudur's hidden base, no. 149 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB150A.xml,"Relief label from Borobudur's hidden base, no. 150A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB150B.xml,"Relief label from Borobudur's hidden base, no. 150B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB151.xml,"Relief label from Borobudur's hidden base, no. 151 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB152A.xml,"Relief label from Borobudur's hidden base, no. 152A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB152B.xml,"Relief label from Borobudur's hidden base, no. 152B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB153A.xml,"Relief label from Borobudur's hidden base, no. 153A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB153B.xml,"Relief label from Borobudur's hidden base, no. 153B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB154A.xml,"Relief label from Borobudur's hidden base, no. 154A (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB154B.xml,"Relief label from Borobudur's hidden base, no. 154B (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB154C.xml,"Relief label from Borobudur's hidden base, no. 154C (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBorobudurHB157.xml,"Relief label from Borobudur's hidden base, no. 157 (8th c. CE)",750,0,0,0,,
+DHARMA_INSIDENKBromoSemeru2.xml,Bromo Semeru 2,,0,0,0,,
+DHARMA_INSIDENKBromoSemeru4.xml,Bromo Semeru 4,,0,0,0,,
+DHARMA_INSIDENKBromoSemeru6.xml,Bromo Semeru 6,,0,0,0,,
+DHARMA_INSIDENKBukateja.xml,Embossed Image of Śiva in Gold Leaf from Central Java (8th c. CE),750,1,0,0,daun,organic
+DHARMA_INSIDENKBulai.xml,Bulai,,2,0,3,atap|daun|emas|perak|tembaga,organic|metal
+DHARMA_INSIDENKBularut.xml,Bularut charter (964 Śaka),1042,3,1,1,kayu|atap|daun|batu|emas|pahat|sima,metal|activity|lithic|institution|organic
+DHARMA_INSIDENKCamundi.xml,Camundi,,1,0,1,atap|emas,organic|metal
+DHARMA_INSIDENKCanggal.xml,The stela of Canggal or Gunung Wukir (654 Śaka),732,1,1,3,rumah_kayu|daun|stambha|emas|tembaga|timah|pahat,activity|metal|building|lithic|organic
+DHARMA_INSIDENKCanggu.xml,Canggu inscription,,2,0,3,atap|daun|emas|tembaga|besi,organic|metal
+DHARMA_INSIDENKDalinan.xml,"Charter for the demarcation of Wukajana, Tumpak & Wuru Telu villages for the mon",903,4,1,1,kayu|bambu|atap|daun|batu|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKDawangsari.xml,"A poem in honor of Gaṇeśa found at Dawangsari, 9th c. CE",850,1,0,2,kayu|emas|besi,organic|metal
+DHARMA_INSIDENKdevadravya.xml,Inventory of a Śaiva temple at Dieng (9th c. CE),850,0,1,0,batu,lithic
+DHARMA_INSIDENKDinoyoIIa.xml,Two connected charters on a stone from Dinoyo (772 and 786 Śaka),864,1,1,1,atap|candi|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKDisunuh.xml,Disunuh (709 Śaka),787,1,0,0,daun|sima,institution|organic
+DHARMA_INSIDENKE62.xml,E62,,0,0,1,emas|sima,institution|metal
+DHARMA_INSIDENKGajahMada.xml,Gajah Mada's foundation of a caitya (1351-04-27),1351,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKGandasuli.xml,Gandasuli (early 8th century CE),,1,1,0,kayu|prasada,organic|lithic
+DHARMA_INSIDENKGandhakuti.xml,Gandhakuti,,2,0,1,atap|ijuk|emas|sima,institution|organic|metal
+DHARMA_INSIDENKGaraman.xml,Garaman,,6,0,1,kayu|bambu|rumah_kayu|atap|ijuk|daun|jati|emas|bangun|pahat|sima,metal|building|activity|institution|organic
+DHARMA_INSIDENKGarung.xml,Garung,,2,0,0,atap|daun,organic
+DHARMA_INSIDENKGenengII.xml,Geneng II,,0,0,0,,
+DHARMA_INSIDENKGondangLor.xml,Akṣobhya Statue from Gondang Lor (11th or 12th c. CE),1150,1,0,1,daun|perak,organic|metal
+DHARMA_INSIDENKGulungGulung.xml,Gulung-Gulung (851 Śaka),929,4,2,1,kayu|atap|ijuk|daun|bata|prasada|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKGuntur.xml,Guntur,,2,0,1,kayu|daun|emas,organic|metal
+DHARMA_INSIDENKHampran.xml,Gift of Hampran village (674 Śaka),752,2,0,0,rotan|daun,organic
+DHARMA_INSIDENKHarinjing.xml,The Harinjing Charter,,3,0,1,kayu|atap|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKHering.xml,Charter of Hering (870 Śaka),948,3,0,1,kayu|bambu|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKHimadvalandit.xml,Himad Walandit,,1,1,0,daun|batu|pahat,organic|activity|lithic
+DHARMA_INSIDENKHorren.xml,"Charter of Horren, ca. 975 Śaka",1053,3,0,0,bambu|atap|daun|pahat|sima,institution|organic|activity
+DHARMA_INSIDENKHujungGaluh-Sangsang.xml,Hujung Galuh / Sangsang (907-05-04),907,2,0,1,atap|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKHuludayeuh.xml,Huludayeuh,,3,2,1,kayu|daun|jati|batu|bata|emas,organic|metal|lithic
+DHARMA_INSIDENKHumanding.xml,The Polengan plates: Humanding charter (797 Śaka),875,4,1,1,kayu|bambu|atap|daun|prasada|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKHuwung.xml,Demarcation of Huwung (822/823 CE),823,0,0,0,,
+DHARMA_INSIDENKJamwi.xml,Jamwi (Sinaguha),,0,0,2,emas|perak,metal
+DHARMA_INSIDENKJeruJeru.xml,Jeru-Jeru (852 Śaka),930,4,1,1,kayu|rumah_kayu|atap|ijuk|daun|bata|emas|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKJragung.xml,Jragung,,0,0,0,,
+DHARMA_INSIDENKJurungan.xml,The Polengan plates: Jurungan charter (798 Śaka),876,2,2,2,bambu|daun|batu|prasada|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKKabhagavanan.xml,Kabhagavanan,,0,0,2,emas|besi,metal
+DHARMA_INSIDENKKakalangan.xml,Kakalangan,,1,1,0,atap|bata,organic|lithic
+DHARMA_INSIDENKKaladi.xml,Kaladi charter,,3,0,0,kayu|rumah_kayu|atap|rotan|sima,institution|organic|building
+DHARMA_INSIDENKKalasan.xml,Kalasan,,1,1,1,daun|candi|emas|pahat,organic|metal|activity|lithic
+DHARMA_INSIDENKKandangan.xml,The Charter of Kandangan,,1,1,1,daun|prasada|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKKanjuruhan.xml,The Kanjuruhan Charter (682 Śaka),760,3,0,0,kayu|daun|jati,organic
+DHARMA_INSIDENKKarangloMojokerto.xml,Karang Lo (1019 Śaka),1097,1,0,0,daun,organic
+DHARMA_INSIDENKKasugihan.xml,"Kasugihan (829 Śaka, 907-11-18)",907,2,0,2,atap|daun|emas|perak,organic|metal
+DHARMA_INSIDENKKawali_1a.xml,Kawali I (a),,1,0,0,daun,organic
+DHARMA_INSIDENKKawali_1b.xml,Kawali I (b),,1,0,0,daun,organic
+DHARMA_INSIDENKKawali_2.xml,Kawali 2,,0,0,0,,
+DHARMA_INSIDENKKawali_3.xml,Kawali 3,,0,0,0,,
+DHARMA_INSIDENKKawali_4.xml,Kawali 4,,0,0,0,,
+DHARMA_INSIDENKKawali_5.xml,Kawali 5,,0,0,0,,
+DHARMA_INSIDENKKawali_6.xml,Kawali VI,,0,0,0,,
+DHARMA_INSIDENKKayuAraHiwang.xml,Kayu Ara Hiwang (823 Śaka),901,2,1,2,kayu|atap|prasada|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKKayumwungan.xml,Kayumwungan charter of the Veṇuvanavihāra (746 Śaka),824,4,0,1,kayu|bambu|daun|jati|emas,organic|metal
+DHARMA_INSIDENKKebantenan_1.xml,Kebantenan 1,,3,1,1,atap|ijuk|daun|batu|emas,organic|metal|lithic
+DHARMA_INSIDENKKebantenan_2.xml,Kebantenan 2,,1,1,0,daun|batu,organic|lithic
+DHARMA_INSIDENKKebantenan_3.xml,Kebantenan 3,,1,0,0,daun,organic
+DHARMA_INSIDENKKebantenan_4.xml,Kebantenan 4,,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKKedungwangi.xml,The Stela of Kedungwangi (Lawan),,1,0,1,kayu|emas|sima,institution|organic|metal
+DHARMA_INSIDENKKetanen.xml,"Ketanen (826 Ś, 904/905)",904,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKKinewu.xml,Kinewu (829 Śaka – 907-11-20),907,0,0,1,emas,metal
+DHARMA_INSIDENKKiringan.xml,Kiringan (917-11-14),917,4,0,2,kayu|atap|ijuk|daun|emas|perak|sima,institution|organic|metal
+DHARMA_INSIDENKKubu-Kubu.xml,"Kubu-Kubu (827 Ś, 905-10-17)",905,3,0,1,atap|ijuk|daun|emas,organic|metal
+DHARMA_INSIDENKKurungan.xml,Kurungan (Randusari II),,4,0,2,kayu|rumah_kayu|atap|ijuk|daun|emas|perak|sima,institution|organic|metal|building
+DHARMA_INSIDENKKusambyan.xml,Kusambyan charter (945 Śaka),1023,1,0,0,daun,organic
+DHARMA_INSIDENKLaguna.xml,Laguna Copper plate (820 Śaka),898,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKLanda.xml,Resources of the temple at Landa (late 9th c. CE),850,1,1,1,bambu|prasada|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKLinggasuntan.xml,Linggasuntan (851 Śaka),929,3,0,1,kayu|ijuk|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKLinggawangi.xml,Linggawangi,,1,0,0,daun,organic
+DHARMA_INSIDENKLintakan.xml,"Lintakan (841 Śaka, 919-07-12)",919,4,1,2,kayu|rumah_kayu|atap|ijuk|daun|candi|emas|perak|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKLuitan.xml,Charter of Luitan I,,2,0,1,kayu|daun|emas,organic|metal
+DHARMA_INSIDENKLurah.xml,Lurah (E. 14),,1,0,0,kayu,organic
+DHARMA_INSIDENKMadhawapura.xml,Madhawapura (13th c. CE),1250,3,0,2,kayu|bambu|atap|emas|tembaga|sima,institution|organic|metal
+DHARMA_INSIDENKMalenga.xml,Malenga,,2,0,1,atap|daun|emas,organic|metal
+DHARMA_INSIDENKMamali.xml,The Polengan plates: Mamali Charter (800 Śaka),878,2,0,2,kayu|daun|emas|perak|sima,institution|organic|metal
+DHARMA_INSIDENKManahimanuk.xml,Manah i Manuk Charter (1350–1356 CE),1356,0,0,3,emas|perak|besi|sima,institution|metal
+DHARMA_INSIDENKManjusrigerha.xml,Manjusrigerha (792 CE),792,1,1,1,ijuk|prasada|emas,organic|metal|lithic
+DHARMA_INSIDENKMantyasihI.xml,The Charter of Mantyasih I,,3,1,2,kayu|atap|daun|batu|emas|perak|pahat|sima,metal|activity|lithic|institution|organic
+DHARMA_INSIDENKMantyasihII.xml,"Mantyasih II (829 Śaka, 907-04-11)",907,3,0,0,kayu|atap|daun|sima,institution|organic
+DHARMA_INSIDENKMantyasihIII.xml,The Charter of Mantyasih III,,2,1,2,kayu|daun|batu|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKMaribong.xml,The Maribong Charter of Wisnuwardhana (1170 Śaka),1248,3,0,2,atap|ijuk|daun|emas|tembaga,organic|metal
+DHARMA_INSIDENKMarinci_I.xml,Marinci I,,1,0,1,daun|emas|pahat,organic|metal|activity
+DHARMA_INSIDENKMarinci_II.xml,Marinci II,,2,1,1,kayu|daun|bata|emas|pahat,organic|metal|activity|lithic
+DHARMA_INSIDENKMarsemu.xml,"Marsemu charter, ca. 875 CE",875,0,0,0,,
+DHARMA_INSIDENKMasahar.xml,Charter of Masahar (852 Śaka),930,6,2,1,kayu|bambu|rumah_kayu|atap|ijuk|rotan|daun|batu|prasada|emas|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKMpuMano.xml,Mpu Mano,,2,0,1,atap|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKMula-Malurung.xml,Mula-Malurung,,3,1,3,atap|ijuk|daun|prasada|emas|besi|timah|pahat|sima,metal|activity|lithic|institution|organic
+DHARMA_INSIDENKMunduan.xml,Munduan,,4,0,3,kayu|atap|ijuk|daun|emas|perak|tembaga,organic|metal
+DHARMA_INSIDENKMunggut.xml,Munggut charter (944 Śaka),1022,5,1,2,kayu|bambu|atap|ijuk|daun|bata|emas|tembaga|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKNarasinghanagara.xml,Narasinghanagara,,1,1,2,atap|prasada|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKNgadoman.xml,Ngadoman,,3,0,0,kayu|daun|jati|pahat,organic|activity
+DHARMA_INSIDENKNglumbangDungik.xml,Stone from Nglumbang Dungik (9th-10th c. CE),950,0,0,0,,
+DHARMA_INSIDENKPabanyolan.xml,The Comedy (,,1,1,0,bambu|batu,organic|lithic
+DHARMA_INSIDENKPadingding.xml,"Stray plate of a foundation bordering on Paḍiṅḍiṅ, Paṅeran and Pajənvan (14th c.",1350,0,1,0,stambha,lithic
+DHARMA_INSIDENKPaguhan.xml,Paguhan,,2,0,1,ijuk|daun|emas|pahat,organic|metal|activity
+DHARMA_INSIDENKPakisWetan.xml,The Pakis Wetan Charter of Kertanagara (1188 Śaka),1266,3,0,1,kayu|atap|daun|emas,organic|metal
+DHARMA_INSIDENKPalebuhan.xml,Palebuhan,,3,0,1,kayu|rumah_kayu|atap|daun|emas,organic|metal|building
+DHARMA_INSIDENKPalepangan.xml,Palepangan charter (828 Śaka),906,4,0,2,kayu|atap|ijuk|daun|emas|perak,organic|metal
+DHARMA_INSIDENKPamintihan.xml,The Pamintihan charter,,2,0,1,kayu|rumah_kayu|daun|emas|sima,institution|organic|metal|building
+DHARMA_INSIDENKPananggaran.xml,Pananggaran (791 Śaka),869,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKPanggumulanA.xml,The Charter of Panggumulan,,4,2,2,kayu|ijuk|daun|jati|candi|prasada|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKPanunggalan.xml,"Panunggalan charter (818 Śaka, 896-08-15 CE)",896,1,0,2,daun|emas|perak,organic|metal
+DHARMA_INSIDENKParablyan.xml,Parablyan (between 1177 and 1208 Śaka),1286,2,0,2,atap|ijuk|emas|perak,organic|metal
+DHARMA_INSIDENKParhyangan.xml,Parhyangan,,1,0,1,atap|emas|sima,institution|organic|metal
+DHARMA_INSIDENKParung_I.xml,Parung I,,2,0,1,ijuk|daun|emas,organic|metal
+DHARMA_INSIDENKParung_II.xml,Parung II,,2,0,1,ijuk|daun|emas,organic|metal
+DHARMA_INSIDENKPasanggrahan.xml,Pasanggrahan (ca. 900-910),,0,1,2,rumah_kayu|bata|emas|perak,metal|building|lithic
+DHARMA_INSIDENKPatapan.xml,Patapan I,,0,0,1,emas,metal
+DHARMA_INSIDENKPatapan_II.xml,Patapan II,,1,0,0,daun,organic
+DHARMA_INSIDENKPatitihan.xml,Patitihan,,3,2,1,kayu|atap|daun|batu|bata|emas,organic|metal|lithic
+DHARMA_INSIDENKPenampihan.xml,Penampihan,,0,0,1,rumah_kayu|emas,metal|building
+DHARMA_INSIDENKPesindon.xml,Pesindon I and II (914-08-14),914,3,0,1,kayu|atap|daun|emas,organic|metal
+DHARMA_INSIDENKPlalangan.xml,Stone from Plalangan (9th-10th c. CE),950,1,0,0,atap,organic
+DHARMA_INSIDENKPlered.xml,Charter of the early tenth century (date lost),,0,0,2,emas|perak,metal
+DHARMA_INSIDENKPoh.xml,Charter of Poh (Randusari I),,2,1,2,kayu|atap|batu|emas|timah|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKPucangan.xml,Charter of Pucangan (1041-11-6),1041,5,3,2,rumah_kayu|atap|ijuk|rotan|daun|jati|batu|bata|candi|emas|besi|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKPuhawangGlis.xml,Puhawang Glis (749 Śaka),827,0,0,0,sima,institution
+DHARMA_INSIDENKRabvan.xml,"Rabvan (827 Śaka, 906-02-03)",906,0,0,0,,
+DHARMA_INSIDENKRaKidanI.xml,Ra Kidan I (750-800 Śaka),878,0,0,0,sima,institution
+DHARMA_INSIDENKRameswarapura.xml,Rameswarapura charter (1197 Śaka),1275,4,1,3,kayu|atap|ijuk|daun|bata|emas|perak|tembaga|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKRampal.xml,Rampal (ca. 875 CE),875,1,0,1,atap|emas,organic|metal
+DHARMA_INSIDENKRembang.xml,Rembang,,1,0,0,ijuk,organic
+DHARMA_INSIDENKRongkab.xml,Charter of Rongkab,,2,1,2,atap|daun|bata|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKRukam.xml,Charter of Rukam (829 Śaka),907,2,2,2,rumah_kayu|ijuk|daun|batu|bata|emas|perak|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKRumwigaI.xml,"Rumwiga I (826 Śaka, 904-12-28)",904,0,0,2,emas|perak,metal
+DHARMA_INSIDENKRumwigaII.xml,"Rumwiga II (827 Śaka, 905-07-05)",905,1,0,2,daun|emas|perak,organic|metal
+DHARMA_INSIDENKSadang.xml,Sadang,,0,0,3,emas|perak|tembaga|pahat,activity|metal
+DHARMA_INSIDENKSalingsinganII.xml,Donation Record of Salingsingan II (802 Śaka) and Kikil Batu Addendum (827 Śaka),880,3,1,2,kayu|daun|jati|batu|emas|perak,organic|metal|lithic
+DHARMA_INSIDENKSamalagi.xml,"Samalagi ([824 Ś], 902-10-29)",902,1,0,2,bambu|emas|perak|sima,institution|organic|metal
+DHARMA_INSIDENKSanga.xml,Charter of Sanga (13th c. CE),1250,2,0,1,atap|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKSangguran.xml,Sangguran Charter (928-08-02),928,2,1,2,kayu|rumah_kayu|daun|prasada|emas|perak|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKSangHyangTapak.xml,Sang Hyang Tapak Charter of Jayabhūpati (952 Śaka),1030,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKSangMakudur.xml,"Sang Makudur (~830 Śaka, ~908 CE)",908,0,0,0,,
+DHARMA_INSIDENKSangsang.xml,Sangsang,,4,0,1,kayu|bambu|atap|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKSankara.xml,Sankara,,1,1,2,daun|prasada|emas|besi,organic|metal|lithic
+DHARMA_INSIDENKSarwadharma.xml,Sarwadharma (1191 Śaka),1269,4,1,1,kayu|atap|ijuk|daun|prasada|emas,organic|metal|lithic
+DHARMA_INSIDENKSatyapura.xml,Satyapura,,2,0,0,kayu|daun,organic
+DHARMA_INSIDENKSelamandi_I.xml,Selamandi I,,0,0,0,pahat,activity
+DHARMA_INSIDENKSelamandi_II.xml,Śelamaṇḍi II,,1,1,0,daun|bata|sima,institution|organic|lithic
+DHARMA_INSIDENKSikuLalawa.xml,Stray plate of a foundation bordering on Halaṅan and Taratap (13th c. CE),1250,1,0,1,atap|emas|sima,institution|organic|metal
+DHARMA_INSIDENKSilamanikundala.xml,Foundation of a Dam Called Śilāmaṇi-kuṇḍala (1272 Śaka),1350,2,1,1,kayu|daun|batu|emas,organic|metal|lithic
+DHARMA_INSIDENKSimaAnglayang.xml,Sima Anglayang charter (in or after 968 Śaka),1046,2,0,1,atap|daun|emas|sima,institution|organic|metal
+DHARMA_INSIDENKSindoro-PuBahut.xml,Pu Bahut (828 Śaka),906,1,0,2,atap|emas|timah|pahat,organic|metal|activity
+DHARMA_INSIDENKSindoro-PuMamruk.xml,Pu Mamruk (828 Śaka),906,1,0,2,atap|emas|perak,organic|metal
+DHARMA_INSIDENKSojomerto.xml,Sojomerto (7th or 8th century CE),,1,0,0,daun,organic
+DHARMA_INSIDENKSriManggalaII.xml,Sri Manggala II (796 Śaka),874,3,0,0,atap|ijuk|daun|sima,institution|organic
+DHARMA_INSIDENKSriManggalaIII.xml,Sri Manggala III (796 Śaka),874,3,0,0,atap|ijuk|daun|sima,institution|organic
+DHARMA_INSIDENKSugihManek.xml,"Sugih Manek Charter (837 Śaka, 915-09-13)",915,5,3,1,kayu|bambu|rumah_kayu|atap|ijuk|daun|batu|candi|prasada|emas|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKSukhamerta.xml,Sukhamerta,,2,0,2,ijuk|daun|emas|besi|sima,institution|organic|metal
+DHARMA_INSIDENKSumundul.xml,Sumundul (791 Śaka),869,0,0,0,,
+DHARMA_INSIDENKTaji.xml,"The Charter of Taji (823 Śaka, 8 April 901)",901,2,1,2,rumah_kayu|atap|daun|prasada|emas|tembaga|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKTajiGunung.xml,"Taji Gunung (Sañjaya 194, 910-12-21)",910,5,2,2,kayu|bambu|rumah_kayu|atap|ijuk|daun|batu|stambha|emas|perak|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKTalan.xml,Charter of Talan (941 and 1058 Śaka),1136,5,0,1,kayu|bambu|atap|daun|jati|emas|pahat|sima,institution|organic|metal|activity
+DHARMA_INSIDENKTaragal.xml,The Polengan plates: Taragal Charter (802 Śaka),880,2,1,1,kayu|daun|prasada|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKTelahap.xml,Telahap Stone,,0,1,0,bata,lithic
+DHARMA_INSIDENKTelangI-WanagiriI.xml,"Grant of the villages of Telang, Mahe and Paparuhan",,1,0,2,rumah_kayu|atap|emas|perak|sima,institution|organic|metal|building
+DHARMA_INSIDENKTelangII-WanagiriII.xml,"Telang II / Wanagiri II (825 Ś, 904-01-11)",904,1,0,0,jati|sima,institution|organic
+DHARMA_INSIDENKTerep_I.xml,Terep I,,1,0,0,atap,organic
+DHARMA_INSIDENKTerep_II.xml,Terep II,,3,0,1,atap|ijuk|daun|besi,organic|metal
+DHARMA_INSIDENKTigaRon-TluRon.xml,Charter of Tiga Ron also called Təlu Ron (822 Śaka – 900-03-30),900,2,1,1,kayu|rumah_kayu|daun|batu|emas,organic|metal|building|lithic
+DHARMA_INSIDENKTihang.xml,"Tihang charter (Sañjaya 198, 836 Śaka, 914-11-08 CE)",914,5,1,2,kayu|bambu|atap|ijuk|daun|candi|emas|perak|pahat|sima,metal|activity|lithic|institution|organic
+DHARMA_INSIDENKTija-HaruHaru.xml,Tija & Haru-Haru (11th c. CE?),1050,2,0,1,bambu|daun|emas|pahat|sima,institution|organic|metal|activity
+DHARMA_INSIDENKTimbananWungkal.xml,"Timbanan Wungkal (Sañjaya 196, 913-02-11)",913,3,1,1,kayu|bambu|atap|batu|emas|pahat|sima,metal|activity|lithic|institution|organic
+DHARMA_INSIDENKTirah.xml,Tirah,,1,1,0,atap|bata,organic|lithic
+DHARMA_INSIDENKTugu.xml,Tugu Boulder Inscription of Pūrṇavarman (ca. 6th c. CE),550,1,1,0,ijuk|stambha,organic|lithic
+DHARMA_INSIDENKTuhanyaru.xml,Tuhanyaru,,3,2,2,kayu|atap|daun|prasada|stambha|emas|perak|pahat|sima,metal|activity|lithic|institution|organic
+DHARMA_INSIDENKTukMas.xml,Praise of a mountain stream (mid-7th c. CE),650,0,0,1,emas,metal
+DHARMA_INSIDENKTulangan.xml,"Tulangan (832 Śaka, 910-08-13)",910,1,0,0,daun,organic
+DHARMA_INSIDENKTulangEr.xml,Tulang Er III (914-12-30),914,3,2,2,bambu|rumah_kayu|atap|daun|batu|candi|emas|perak|sima,metal|building|lithic|institution|organic
+DHARMA_INSIDENKTunahan.xml,The Polengan plates: Tunahan Charter (794 Śaka),872,3,0,2,kayu|atap|daun|emas|perak,organic|metal
+DHARMA_INSIDENKTuruMangambil.xml,"Turu Mangambil (~830 Śaka, ~908 CE)",908,0,0,0,,
+DHARMA_INSIDENKTuwuhada.xml,Tuwuhada,,1,0,0,rotan,organic
+DHARMA_INSIDENKUpitI.xml,Upit I (788 Śaka),866,1,0,0,daun|sima,institution|organic
+DHARMA_INSIDENKWalanditA.xml,Walandit A,,1,0,1,daun|emas,organic|metal
+DHARMA_INSIDENKWangkud.xml,Demarcation of Asam Panjang (874 CE),874,0,0,0,sima,institution
+DHARMA_INSIDENKWanuaTengahIII.xml,Wanua Tengah III,,4,2,2,kayu|atap|ijuk|daun|batu|bata|emas|perak|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKWatuGenuk.xml,Watu Genuk slab (8th c. CE),750,1,1,1,rotan|batu|besi,organic|metal|lithic
+DHARMA_INSIDENKWatuKuraI.xml,Charter of Watu Kura I,,4,1,3,atap|ijuk|daun|jati|batu|emas|perak|tembaga,organic|metal|lithic
+DHARMA_INSIDENKWatuRidang.xml,"Watu Ridang (832 Śaka, 910-03-22)",910,2,1,1,bambu|daun|batu|emas|sima,institution|organic|metal|lithic
+DHARMA_INSIDENKWayuku.xml,Wayuku (776 Śaka),854,0,0,0,sima,institution
+DHARMA_INSIDENKWintangMasI.xml,Wintang Mas I (800 Śaka),878,1,0,2,kayu|rumah_kayu|emas|perak|sima,institution|organic|metal|building
+DHARMA_INSIDENKWintangMasII.xml,"Wintang Mas II (841 Śaka, 919-10-12)",919,3,0,3,kayu|atap|ijuk|emas|perak|tembaga|sima,institution|organic|metal
+DHARMA_INSIDENKWuangGot.xml,Wuang Got,,0,0,0,,
+DHARMA_INSIDENKWukiran.xml,"Stela of Pereng, also known as Wukiran inscription (784 Śaka, 863-1-25 CE)",863,2,1,0,atap|daun|batu|pahat|sima,institution|organic|activity|lithic
+DHARMA_INSIDENKWunganDaik.xml,Wungan Daik,,0,0,2,emas|perak|sima,institution|metal
+DHARMA_INSIDENKWurare.xml,Wurare,,0,0,0,,
+DHARMA_INSIDENKWuruduKidul.xml,Wurudu Kidul,,4,0,2,kayu|atap|ijuk|daun|emas|tembaga|sima,institution|organic|metal
+DHARMA_INSIDENKWuruTunggal.xml,Wuru Tunggal (833 Śaka),911,4,1,1,kayu|rumah_kayu|atap|ijuk|daun|batu|emas,organic|metal|building|lithic

@@ -1,0 +1,24 @@
+{
+  "experiment": "E036_hanacaraka_inventory",
+  "sanskrit_consonants": 33,
+  "hanacaraka_consonants": 20,
+  "pan_consonants": 17,
+  "modern_javanese_consonants": 21,
+  "retained": 20,
+  "merged": 13,
+  "lost_categories": {
+    "aspiration": 8,
+    "retroflex": 4,
+    "sibilant_distinction": 1
+  },
+  "key_findings": [
+    "Aspiration contrast lost (8 phonemes) — not native to pre-Sanskrit Javanese",
+    "Retroflex series lost (5 phonemes) — consistent with Austronesian",
+    "Sibilant distinction lost (2 phonemes) — only /s/ native",
+    "Dental aspirates tha/dha RETAINED — possibly pre-Indic substrate feature",
+    "Glottal stop /ʔ/ phonemic but has no Hanacaraka symbol — pre-script feature",
+    "Hanacaraka inventory (20) closer to PAn (~18) than Sanskrit (33)"
+  ],
+  "tha_dha_paradox": "Only dental aspirates retained while all other aspirates dropped. Suggests pre-Sanskrit Javanese had /th/ and /dh/, possibly from substrate.",
+  "glottal_stop_paradox": "Phonemic in Javanese but absent from both Hanacaraka and Devanagari. Proves existence of phonemes predating the adoption of Indic writing."
+}

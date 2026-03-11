@@ -1,19 +1,27 @@
 # L1: CONSTITUTION (UUD)
 
 **Status:** STABLE — This document changes only if core assumptions are proven wrong.
-**Last updated:** 2026-02-23
+**Last updated:** 2026-03-10
 
 ---
 
 ## 1. Mission
 
-Build a computational framework that predicts where ancient settlements in volcanic Java are buried underground, and at what depth — enabling archaeologists to find what volcanic activity has hidden.
+Investigate how volcanic processes have shaped — and hidden — the archaeological, linguistic, and cultural record of pre-modern Nusantara. Using computational methods (ML, GIS, NLP, corpus analysis), we aim to:
+
+1. **Predict** where ancient settlements in volcanic Java are buried underground (Papers 1–2);
+2. **Detect** pre-Austronesian and pre-Indic substrates preserved in language and ritual (Papers 5, 8);
+3. **Test** whether volcanic events drove political and cultural transitions (Papers 7, 14).
+
+The core thesis: **the perceived absence of pre-4th century civilisation in western Indonesia reflects taphonomic loss, not genuine cultural absence.** Volcanic burial, coastal submersion, and historiographic bias have rendered an entire civilisational stratum invisible.
 
 ## 2. Core Hypotheses
 
 **H1 — Taphonomic Bias:** The distribution of known archaeological sites in Java is systematically biased by volcanic sedimentation. Sites in high-deposition zones are underrepresented.
 
-**H2 — Discovery Bias:** The perceived "oldest kingdom" status of Kutai (Kalimantan, ~400 CE) may reflect differential preservation (zero volcanism) rather than genuine chronological primacy over Javanese polities.
+> **Status note (2026-03):** E004 and E005 could not confirm H1 from observable site-distribution data alone — the signal is dominated by survey-effort bias (see JOURNAL 2026-02-23). The project pivoted to treating H1 as a *motivating hypothesis* that requires fieldwork (GPR) to test directly, while the computational contribution became a *methodological framework* for tautology-free settlement modeling (Papers 1–2).
+
+**H2 — Discovery Bias (Motivating Observation):** The perceived "oldest kingdom" status of Kutai (Kalimantan, ~400 CE) may reflect differential preservation (zero volcanism) rather than genuine chronological primacy over Javanese polities. *(Note: This is a motivating observation that contextualizes the research, not a testable hypothesis within the current computational scope.)*
 
 **H3 — Predictability:** Locations of undiscovered buried archaeological sites in volcanic Java can be predicted with useful accuracy by combining settlement suitability modeling with volcanic sediment accumulation estimation.
 
@@ -22,7 +30,7 @@ Build a computational framework that predicts where ancient settlements in volca
 - **Simple is better.** Prefer the simplest model that works. Add complexity only when simplicity demonstrably fails.
 - **Fail fast, pivot early.** Define Minimum Viable Results (MVR) before each experiment. If MVR is not met, pivot or abandon — don't sink more time.
 - **Santai dalam waktu, serius dalam standar ilmiah.** No rushed deadlines. But every claim must be defensible, every number traceable, every method reproducible.
-- **Computational contribution.** We are informaticians. We build tools and models. We do not replace archaeologists or geologists — we empower them.
+- **Interdisciplinary with computational core.** We are data scientists applying computational methods (ML, GIS, NLP, corpus analysis) to archaeological, linguistic, and cultural questions. We also pursue exploratory literature-based research when it yields novel, testable findings. We do not replace domain experts — we offer new tools and perspectives.
 - **Honest reporting.** Negative results and failed experiments are documented with equal rigor. Publication bias starts with us choosing not to practice it.
 
 ## 4. Empirical Anchors

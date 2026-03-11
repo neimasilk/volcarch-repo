@@ -1,0 +1,30 @@
+keyword,origin,category,sanskrit,frequency_in_pilot,notes
+homa,indic,fire_ritual,homa,5,Vedic fire oblation ritual. Core Brahmanical practice.
+pūjā,indic,worship,pūjā,6,Hindu devotional worship. No Austronesian cognate.
+puja,indic,worship,pūjā,1,Variant spelling of pūjā.
+mantra,indic,incantation,mantra,2,Sanskrit sacred utterance. Vedic origin.
+svarga,indic,cosmology,svarga,1,Sanskrit heaven/paradise. Indra's realm.
+svargga,indic,cosmology,svarga,1,Variant spelling of svarga.
+kalpa,indic,cosmology,kalpa,1,Sanskrit cosmic cycle. Puranic cosmology.
+piṇḍa,indic,ancestor_offering,piṇḍa,8,Rice ball offering to ancestors. Śrāddha ritual.
+pitr,indic,ancestor,pitr̥,2,Sanskrit 'father/ancestor'. Pitṛloka concept.
+pralaya,indic,cosmology,pralaya,1,Sanskrit cosmic dissolution/destruction.
+atīta,indic,calendar,atīta,1,Sanskrit 'elapsed' — used in Śaka dating formula.
+nakṣatra,indic,calendar_astrology,nakṣatra,10,Indian lunar mansion system (27/28 divisions). Imported.
+tithi,indic,calendar,tithi,10,Indian lunar day (1/30 of lunar month). Imported.
+saka,indic,calendar,śaka,10,Indian Śaka era (78 CE epoch). Imported.
+śaka,indic,calendar,śaka,10,Variant of saka.
+vāra,indic,calendar,vāra,9,Sanskrit weekday. 7-day week imported from India.
+wuku,pre_indic,calendar,,1,Javanese 30-week (210-day) cycle. NO Indian equivalent. Considered indigenous Austronesian. Balinese pawukon still active. KEY FINDING: co-exists with Indic calendar in same inscription.
+hyaṁ,pre_indic,divinity_concept,,10,"Old Javanese 'divine/sacred'. Reflex of Proto-Malayo-Polynesian *qiang 'spirit, deity'. Pre-dates Indianization. Found in ALL 10 pilot inscriptions — even Sanskrit-heavy ones use hyaṁ alongside deva/devatā. Survives as modern Javanese 'hyang' (Sang Hyang Widi)."
+hyang,pre_indic,divinity_concept,,1,Variant spelling of hyaṁ. Same PMP *qiang etymology.
+maṅhuri,pre_indic,ancestor_return,,5,Old Javanese 'to return/come back (of spirits)'. No Sanskrit source. Possibly related to ancestor spirit return concept. Cf. Malagasy 'famadihana' (turning of the dead). CROSS-AUSTRONESIAN CANDIDATE.
+karāman,pre_indic,community_ritual,,1,Old Javanese village community term. Related to Balinese 'desa adat/krama'. Indigenous social-ritual organization.
+panumbas,pre_indic,redemption_ritual,,1,Old Javanese 'purchase/redemption'. Used in ritual context of redeeming land or obligations. No Sanskrit equivalent.
+sīma,ambiguous,boundary_ritual,sīmā (boundary),8,"Sanskrit word for 'boundary', but the Javanese sīma ritual (boundary consecration with imprecation) has elements not found in Indian dharmaśāstra. The sapatha (curse) component may be indigenous. Cf. Balinese temple boundary rituals."
+śapatha,ambiguous,imprecation,śapatha (oath/curse),2,"Sanskrit 'oath/curse', but the elaborate Javanese imprecation formulae (invoking natural disasters on oath-breakers) go far beyond Indian models. May overlay an indigenous oath tradition."
+sapatha,ambiguous,imprecation,śapatha,3,Variant spelling of śapatha. Same ambiguous classification.
+samudra,ambiguous,cosmology,samudra (ocean),6,"Sanskrit 'ocean', but ocean cosmology is central to Austronesian worldview independently. Could be Sanskrit word covering indigenous concept."
+danu,ambiguous,water_deity,dānu (moisture/drop),1,"Could be Sanskrit or Austronesian. Cf. Balinese Dewi Danu (lake goddess), possibly pre-Indic water spirit with Sanskrit veneer."
+samgat,ambiguous,title_ritual,,5,Old Javanese title/honorific in ritual context. Etymology unclear. Possibly hybrid or indigenous.
+parvvata,ambiguous,sacred_mountain,parvata (mountain),1,"Sanskrit 'mountain', but sacred mountain concept is pan-Austronesian (cf. Maori Maunga, Balinese Gunung Agung). Sanskrit word may overlay indigenous mountain veneration."

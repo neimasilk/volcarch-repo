@@ -1,0 +1,1796 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{phillips2009}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ac11f126d43dcffd58b0c793014e3063}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f22170ade97bd945149242679a0c806c}{%
+           family={Dudík},
+           familyi={D\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=165edd2f6c5e0b2d053837fb01ae58d1}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Catherine\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=92bfcd7c81fdb5f23338c1f66b5ae607}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c9ca47c56919ace2c3b70050068658b7}{%
+           family={Leathwick},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=39011e2380b8ee7046d21d9572c0e59f}{%
+           family={Ferrier},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{48d5b4fe36b3a11c76bfd14805ec2948}
+      \strng{fullhash}{33e5fccd4222edde46002f62a06ea47a}
+      \strng{bibnamehash}{48d5b4fe36b3a11c76bfd14805ec2948}
+      \strng{authorbibnamehash}{48d5b4fe36b3a11c76bfd14805ec2948}
+      \strng{authornamehash}{48d5b4fe36b3a11c76bfd14805ec2948}
+      \strng{authorfullhash}{33e5fccd4222edde46002f62a06ea47a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Applications}
+      \field{number}{1}
+      \field{title}{Sample selection bias and presence-only distribution models: implications for background and pseudo-absence data}
+      \field{volume}{19}
+      \field{year}{2009}
+      \field{pages}{181\bibrangedash 197}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1890/07-2153.1
+      \endverb
+    \endentry
+    \entry{elith2006}{article}{}
+      \name{author}{27}{}{%
+        {{hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=165edd2f6c5e0b2d053837fb01ae58d1}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Catherine\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f56a887a8e4dc3281cc541c22efe67f0}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f22170ade97bd945149242679a0c806c}{%
+           family={Dudík},
+           familyi={D\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=39011e2380b8ee7046d21d9572c0e59f}{%
+           family={Ferrier},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fd0180b461eae6ddbff6a39790e0bb5e}{%
+           family={Guisan},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b0a2427b5a45d44474b8316d0d9aad7}{%
+           family={Hijmans},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=de1bc37e0190ecf013639e8f2a2b7bb8}{%
+           family={Huettmann},
+           familyi={H\bibinitperiod},
+           given={Falk},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dcb512484c8d130330ec0c333fb93de1}{%
+           family={Leathwick},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=92bfcd7c81fdb5f23338c1f66b5ae607}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1639dadb1da2bffb2d77f43c6d3247b6}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb3ca6ebea9093af93d7921f17257673}{%
+           family={Lohmann},
+           familyi={L\bibinitperiod},
+           given={Lucia\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5219ad6b9c10c47f0b30669b155cf9d6}{%
+           family={Loiselle},
+           familyi={L\bibinitperiod},
+           given={Bette\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9b4450db3c8d19a01708919396ecdb10}{%
+           family={Manion},
+           familyi={M\bibinitperiod},
+           given={Glenn},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e02ae951985acd3829a714adf7f5c021}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f5a87b45c83e73474c9553b451e47638}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=65ed94dcabae4a0cdd49a59ac63489f2}{%
+           family={Nakazawa},
+           familyi={N\bibinitperiod},
+           given={Yoshinori},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=eafa738915e44aabbf395324966c198f}{%
+           family={Overton},
+           familyi={O\bibinitperiod},
+           given={Jacob\bibnamedelima McC.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=907af50ed6c6008b56a1c8e0597108ad}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi Townsend},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ac11f126d43dcffd58b0c793014e3063}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c029908e58ad204dab6f581b8d60170e}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9880a121a06cb4399c10674a1d69311c}{%
+           family={Scachetti-Pereira},
+           familyi={S\bibinithyphendelim P\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=08900c47ecc2f4dbcb934ad47bb6db9b}{%
+           family={Schapire},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=429894b1a3f608f4303f608fbd16d3bf}{%
+           family={Soberón},
+           familyi={S\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0372c2ae54e6b510ac174e0a17415d2c}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c4ac79ebd628055054746e5649300913}{%
+           family={Wisz},
+           familyi={W\bibinitperiod},
+           given={Mary\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=81daf64e46b81abb6f841138d926146f}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Niklaus\bibnamedelima E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{846a09c46c774d3d6f2c4cae19cf1083}
+      \strng{fullhash}{1fdc2f4a6f71ecddc49bb38e61b8d7c7}
+      \strng{bibnamehash}{846a09c46c774d3d6f2c4cae19cf1083}
+      \strng{authorbibnamehash}{846a09c46c774d3d6f2c4cae19cf1083}
+      \strng{authornamehash}{846a09c46c774d3d6f2c4cae19cf1083}
+      \strng{authorfullhash}{1fdc2f4a6f71ecddc49bb38e61b8d7c7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecography}
+      \field{number}{2}
+      \field{title}{Novel methods improve prediction of species' distributions from occurrence data}
+      \field{volume}{29}
+      \field{year}{2006}
+      \field{pages}{129\bibrangedash 151}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1111/j.2006.0906-7590.04596.x
+      \endverb
+    \endentry
+    \entry{araujo2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=72cdc90eaae746fb2fb0c53839072424}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={Miguel\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=fd0180b461eae6ddbff6a39790e0bb5e}{%
+           family={Guisan},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{04ba6bd9c15553f53e68cbcd6c3fcb02}
+      \strng{fullhash}{04ba6bd9c15553f53e68cbcd6c3fcb02}
+      \strng{bibnamehash}{04ba6bd9c15553f53e68cbcd6c3fcb02}
+      \strng{authorbibnamehash}{04ba6bd9c15553f53e68cbcd6c3fcb02}
+      \strng{authornamehash}{04ba6bd9c15553f53e68cbcd6c3fcb02}
+      \strng{authorfullhash}{04ba6bd9c15553f53e68cbcd6c3fcb02}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biogeography}
+      \field{number}{10}
+      \field{title}{Five (or so) challenges for species distribution modelling}
+      \field{volume}{33}
+      \field{year}{2006}
+      \field{pages}{1677\bibrangedash 1688}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1365-2699.2006.01584.x
+      \endverb
+    \endentry
+    \entry{kohavi1995}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{%
+           family={Kohavi},
+           familyi={K\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Montreal, Quebec, Canada}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers Inc.}%
+      }
+      \strng{namehash}{f2a149b8d68fbffd75e8ece81b80708f}
+      \strng{fullhash}{f2a149b8d68fbffd75e8ece81b80708f}
+      \strng{bibnamehash}{f2a149b8d68fbffd75e8ece81b80708f}
+      \strng{authorbibnamehash}{f2a149b8d68fbffd75e8ece81b80708f}
+      \strng{authornamehash}{f2a149b8d68fbffd75e8ece81b80708f}
+      \strng{authorfullhash}{f2a149b8d68fbffd75e8ece81b80708f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 14th International Joint Conference on Artificial Intelligence}
+      \field{title}{A study of cross-validation and bootstrap for accuracy estimation and model selection}
+      \field{volume}{2}
+      \field{year}{1995}
+      \field{pages}{1137\bibrangedash 1143}
+      \range{pages}{7}
+    \endentry
+    \entry{roberts2017}{article}{}
+      \name{author}{14}{}{%
+        {{hash=8757785039815c2ae72c0ad4e86db274}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8e9658f7695f7b67acfc882eaeadb45f}{%
+           family={Bahn},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=09e171ca6fbd23492244a680bf33d115}{%
+           family={Ciuti},
+           familyi={C\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dc81c7f9cae28796afb9c45efce6d849}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1f1a495648ba3bad5ada18ad5f02fa0f}{%
+           family={Guillera-Arroita},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Gurutzeta},
+           giveni={G\bibinitperiod}}}%
+        {{hash=749971ea84887e346c6c48401b051b32}{%
+           family={Hauenstein},
+           familyi={H\bibinitperiod},
+           given={Severin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=039c23fb4b08573d813878c388cc3b4a}{%
+           family={Lahoz-Monfort},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5ee0107bf08c27fc0a3e192f04dbe6df}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1ba59c28f90db059d902fa5b3248b41c}{%
+           family={Warton},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=aeccd33e04ed4951aa8e89c1c059b554}{%
+           family={Wintle},
+           familyi={W\bibinitperiod},
+           given={Brendan\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f2023df7507c5721104bd31350623c8c}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e58ec5a72f2b79de033f264f720ad88c}{%
+           family={Dormann},
+           familyi={D\bibinitperiod},
+           given={Carsten\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{44ce1bcd3cb40b20daeaf279c64a1b6e}
+      \strng{fullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{bibnamehash}{44ce1bcd3cb40b20daeaf279c64a1b6e}
+      \strng{authorbibnamehash}{44ce1bcd3cb40b20daeaf279c64a1b6e}
+      \strng{authornamehash}{44ce1bcd3cb40b20daeaf279c64a1b6e}
+      \strng{authorfullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecography}
+      \field{number}{8}
+      \field{title}{Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{913\bibrangedash 929}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/ecog.02881
+      \endverb
+    \endentry
+    \entry{valavi2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=de88e7b26e4a4895400e91841c5d95f3}{%
+           family={Valavi},
+           familyi={V\bibinitperiod},
+           given={Roozbeh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=039c23fb4b08573d813878c388cc3b4a}{%
+           family={Lahoz-Monfort},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1f1a495648ba3bad5ada18ad5f02fa0f}{%
+           family={Guillera-Arroita},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Gurutzeta},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ada639e0750f097427b3087f850e9b7d}
+      \strng{fullhash}{ada639e0750f097427b3087f850e9b7d}
+      \strng{bibnamehash}{ada639e0750f097427b3087f850e9b7d}
+      \strng{authorbibnamehash}{ada639e0750f097427b3087f850e9b7d}
+      \strng{authornamehash}{ada639e0750f097427b3087f850e9b7d}
+      \strng{authorfullhash}{ada639e0750f097427b3087f850e9b7d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{number}{2}
+      \field{title}{{blockCV}: An {R} package for generating spatially or environmentally separated folds for k-fold cross-validation of species distribution models}
+      \field{volume}{10}
+      \field{year}{2019}
+      \field{pages}{225\bibrangedash 232}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/2041-210X.13107
+      \endverb
+    \endentry
+    \entry{chen2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{{XGBoost}: A scalable tree boosting system}
+      \field{year}{2016}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2939672.2939785
+      \endverb
+    \endentry
+    \entry{breiman2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{1}
+      \field{title}{Random forests}
+      \field{volume}{45}
+      \field{year}{2001}
+      \field{pages}{5\bibrangedash 32}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1023/A:1010933404324
+      \endverb
+    \endentry
+    \entry{verhagen2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7f54a49e6febfc1d7cf5d4f3f019d5fe}{%
+           family={Verhagen},
+           familyi={V\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e66032dcac6c7b1e33e6bd7cb4ddbe69}{%
+           family={Whitley},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb41da3fe507c267ed636b30c33f90b0}
+      \strng{fullhash}{fb41da3fe507c267ed636b30c33f90b0}
+      \strng{bibnamehash}{fb41da3fe507c267ed636b30c33f90b0}
+      \strng{authorbibnamehash}{fb41da3fe507c267ed636b30c33f90b0}
+      \strng{authornamehash}{fb41da3fe507c267ed636b30c33f90b0}
+      \strng{authorfullhash}{fb41da3fe507c267ed636b30c33f90b0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Method and Theory}
+      \field{number}{1}
+      \field{title}{Integrating archaeological theory and predictive modeling: a live report from the scene}
+      \field{volume}{19}
+      \field{year}{2012}
+      \field{pages}{49\bibrangedash 100}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1007/s10816-011-9102-7
+      \endverb
+    \endentry
+    \entry{kamermans2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6775a2f1b4b7c3ad81a1079714df805c}{%
+           family={Kamermans},
+           familyi={K\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6087553147ffb1c1b0c760a291480204}{%
+           family={Neef},
+           familyi={N\bibinitperiod},
+           given={Wieke},
+           giveni={W\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=9db7cb2a7db885d888614eb8c05796db}{%
+           family={Porck},
+           familyi={P\bibinitperiod},
+           given={Jan\bibnamedelima Francke},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=45baefa588187588667947a89bf5db97}{%
+           family={Waagen},
+           familyi={W\bibinitperiod},
+           given={Jitte},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b718d88874682350055df82e1d174d83}
+      \strng{fullhash}{b718d88874682350055df82e1d174d83}
+      \strng{bibnamehash}{b718d88874682350055df82e1d174d83}
+      \strng{authorbibnamehash}{b718d88874682350055df82e1d174d83}
+      \strng{authornamehash}{b718d88874682350055df82e1d174d83}
+      \strng{authorfullhash}{b718d88874682350055df82e1d174d83}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archaeological Prospection}
+      \field{number}{4}
+      \field{title}{Archaeological predictive modelling in the {N}etherlands: a quantitative approach to heritage management}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{295\bibrangedash 306}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/arp.1761
+      \endverb
+    \endentry
+    \entry{verhagen2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7f54a49e6febfc1d7cf5d4f3f019d5fe}{%
+           family={Verhagen},
+           familyi={V\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a053592c63cd48531a2e6e5cbbecc014}{%
+           family={Nuninger},
+           familyi={N\bibinitperiod},
+           given={Laure},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9cfde69863e99050d7397bd9a1681307}{%
+           family={Bertoncello},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=45304f0223221515c462a404d1a9ca76}{%
+           family={Opitz},
+           familyi={O\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bdec4b9ee3e8ea8af72c1048e0cface}
+      \strng{fullhash}{4bdec4b9ee3e8ea8af72c1048e0cface}
+      \strng{bibnamehash}{4bdec4b9ee3e8ea8af72c1048e0cface}
+      \strng{authorbibnamehash}{4bdec4b9ee3e8ea8af72c1048e0cface}
+      \strng{authornamehash}{4bdec4b9ee3e8ea8af72c1048e0cface}
+      \strng{authorfullhash}{4bdec4b9ee3e8ea8af72c1048e0cface}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archaeological and Anthropological Sciences}
+      \field{number}{1}
+      \field{title}{Whither predictive modelling? {A} panel discussion}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{14}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s12520-019-00937-1
+      \endverb
+    \endentry
+    \entry{comer2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bf72c8812708a1758c20a2f03569d968}{%
+           family={Comer},
+           familyi={C\bibinitperiod},
+           given={Douglas\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=cb7047ff2773a56a5d0ff3643c95cbc3}{%
+           family={Harrower},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f113506761f9d0033598f5ff05163d68}{%
+           family={McCorriston},
+           familyi={M\bibinitperiod},
+           given={Joy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=77b1cd89b5bd36c8f00240f17f5033f8}{%
+           family={O'Meara},
+           familyi={O\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3b3f5350a8eb36925fc3f394cd97a148}{%
+           family={Sadr},
+           familyi={S\bibinitperiod},
+           given={Karim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1098c4accb492d3299ebc1171a36a50}
+      \strng{fullhash}{f1098c4accb492d3299ebc1171a36a50}
+      \strng{bibnamehash}{f1098c4accb492d3299ebc1171a36a50}
+      \strng{authorbibnamehash}{f1098c4accb492d3299ebc1171a36a50}
+      \strng{authornamehash}{f1098c4accb492d3299ebc1171a36a50}
+      \strng{authorfullhash}{f1098c4accb492d3299ebc1171a36a50}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Science: Reports}
+      \field{title}{Sampling methods for archaeological predictive modeling}
+      \field{volume}{47}
+      \field{year}{2023}
+      \field{pages}{103824}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jasrep.2022.103824
+      \endverb
+    \endentry
+    \entry{castiello2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1d98933ca85139d6a5136652aab5d169}{%
+           family={Castiello},
+           familyi={C\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4cee9c4e98c78b0d9706ce117b13e8df}{%
+           family={Tonini},
+           familyi={T\bibinitperiod},
+           given={Marj},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{792e797c45d6ba3398aa5ea89cd1b5ef}
+      \strng{fullhash}{792e797c45d6ba3398aa5ea89cd1b5ef}
+      \strng{bibnamehash}{792e797c45d6ba3398aa5ea89cd1b5ef}
+      \strng{authorbibnamehash}{792e797c45d6ba3398aa5ea89cd1b5ef}
+      \strng{authornamehash}{792e797c45d6ba3398aa5ea89cd1b5ef}
+      \strng{authorfullhash}{792e797c45d6ba3398aa5ea89cd1b5ef}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Applications in Archaeology}
+      \field{number}{1}
+      \field{title}{Machine learning applications in archaeological predictive modelling}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{pages}{110\bibrangedash 125}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.5334/jcaa.71
+      \endverb
+    \endentry
+    \entry{wang2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=f21a8e1746c7e003133037dc9888a372}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=96641b60b95eb223b3df53d9263f63ff}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=affbce7102e6113839e379e63ac541a5}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yijian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fd903bc507de58459375d974764ab4ea}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8e8ff35c5a21638cd8a34000db7c2d6e}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Yijian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=38ed728b0e0619d3111dec295e2c0080}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Huadong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5527ba505b0530a8c75b34e8866eeda4}
+      \strng{fullhash}{c5f2e6a8b369f5b8e574071af58a78d3}
+      \strng{bibnamehash}{5527ba505b0530a8c75b34e8866eeda4}
+      \strng{authorbibnamehash}{5527ba505b0530a8c75b34e8866eeda4}
+      \strng{authornamehash}{5527ba505b0530a8c75b34e8866eeda4}
+      \strng{authorfullhash}{c5f2e6a8b369f5b8e574071af58a78d3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISPRS International Journal of Geo-Information}
+      \field{number}{6}
+      \field{title}{A machine-learning approach to geospatial predictive modelling in archaeology}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{pages}{238}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijgi12060238
+      \endverb
+    \endentry
+    \entry{barbet2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=11db91af74da47ef375266b75f1a65f8}{%
+           family={Barbet-Massin},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Morgane},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc82973f18a4010116c9d065df9fee52}{%
+           family={Jiguet},
+           familyi={J\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7cca55a4b68fb48d59dfcd8722b88165}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f135dbe7455819b44352650d4ea75fc4}
+      \strng{fullhash}{f135dbe7455819b44352650d4ea75fc4}
+      \strng{bibnamehash}{f135dbe7455819b44352650d4ea75fc4}
+      \strng{authorbibnamehash}{f135dbe7455819b44352650d4ea75fc4}
+      \strng{authornamehash}{f135dbe7455819b44352650d4ea75fc4}
+      \strng{authorfullhash}{f135dbe7455819b44352650d4ea75fc4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{number}{2}
+      \field{title}{Selecting pseudo-absences for species distribution models: how, where and how many?}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{327\bibrangedash 338}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.2041-210X.2011.00172.x
+      \endverb
+    \endentry
+    \entry{senay2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9b5801a5527049ad70c768dc938c6070}{%
+           family={Senay},
+           familyi={S\bibinitperiod},
+           given={Sabrina\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5a8845da68cf7b424fdbcfda5e1b9625}{%
+           family={Worner},
+           familyi={W\bibinitperiod},
+           given={Susan\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5cada310a73a043813ef3ac3f1e562cf}{%
+           family={Ikeda},
+           familyi={I\bibinitperiod},
+           given={Takayoshi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbc2ebaae7e389d074c463442ba883ea}
+      \strng{fullhash}{cbc2ebaae7e389d074c463442ba883ea}
+      \strng{bibnamehash}{cbc2ebaae7e389d074c463442ba883ea}
+      \strng{authorbibnamehash}{cbc2ebaae7e389d074c463442ba883ea}
+      \strng{authornamehash}{cbc2ebaae7e389d074c463442ba883ea}
+      \strng{authorfullhash}{cbc2ebaae7e389d074c463442ba883ea}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{8}
+      \field{title}{Novel three-step pseudo-absence selection technique for improved species distribution modelling}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e71218}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0071218
+      \endverb
+    \endentry
+    \entry{wisz2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c4ac79ebd628055054746e5649300913}{%
+           family={Wisz},
+           familyi={W\bibinitperiod},
+           given={Mary\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=fd0180b461eae6ddbff6a39790e0bb5e}{%
+           family={Guisan},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8ce2eba68c8afdc50a45b14b733b35f}
+      \strng{fullhash}{d8ce2eba68c8afdc50a45b14b733b35f}
+      \strng{bibnamehash}{d8ce2eba68c8afdc50a45b14b733b35f}
+      \strng{authorbibnamehash}{d8ce2eba68c8afdc50a45b14b733b35f}
+      \strng{authornamehash}{d8ce2eba68c8afdc50a45b14b733b35f}
+      \strng{authorfullhash}{d8ce2eba68c8afdc50a45b14b733b35f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Ecology}
+      \field{title}{Do pseudo-absence selection strategies influence species distribution models and their predictions? {A}n information-theoretic approach based on simulated data}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1472-6785-9-8
+      \endverb
+    \endentry
+    \entry{lobo2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=74b6f6a889f8947ff492287957334eea}{%
+           family={Lobo},
+           familyi={L\bibinitperiod},
+           given={Jorge\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0f37e717544e4cda0202c3c40ad8344f}{%
+           family={Jiménez-Valverde},
+           familyi={J\bibinithyphendelim V\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=30679bb45c1a67a19b71ff46cf305786}{%
+           family={Hortal},
+           familyi={H\bibinitperiod},
+           given={Joaquín},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{df426a935cc70c9290b3039c12f3a6a2}
+      \strng{fullhash}{df426a935cc70c9290b3039c12f3a6a2}
+      \strng{bibnamehash}{df426a935cc70c9290b3039c12f3a6a2}
+      \strng{authorbibnamehash}{df426a935cc70c9290b3039c12f3a6a2}
+      \strng{authornamehash}{df426a935cc70c9290b3039c12f3a6a2}
+      \strng{authorfullhash}{df426a935cc70c9290b3039c12f3a6a2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecography}
+      \field{number}{1}
+      \field{title}{The uncertain nature of absences and their importance in species distribution modelling}
+      \field{volume}{33}
+      \field{year}{2010}
+      \field{pages}{103\bibrangedash 114}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1600-0587.2009.06039.x
+      \endverb
+    \endentry
+    \entry{phillips2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ac11f126d43dcffd58b0c793014e3063}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f56a887a8e4dc3281cc541c22efe67f0}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=08900c47ecc2f4dbcb934ad47bb6db9b}{%
+           family={Schapire},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{85b5df3d187c8fb294270f475a6f2376}
+      \strng{fullhash}{85b5df3d187c8fb294270f475a6f2376}
+      \strng{bibnamehash}{85b5df3d187c8fb294270f475a6f2376}
+      \strng{authorbibnamehash}{85b5df3d187c8fb294270f475a6f2376}
+      \strng{authornamehash}{85b5df3d187c8fb294270f475a6f2376}
+      \strng{authorfullhash}{85b5df3d187c8fb294270f475a6f2376}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Modelling}
+      \field{number}{3--4}
+      \field{title}{Maximum entropy modeling of species geographic distributions}
+      \field{volume}{190}
+      \field{year}{2006}
+      \field{pages}{231\bibrangedash 259}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2005.03.026
+      \endverb
+    \endentry
+    \entry{kvamme2006}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=41a986685da85c86c29e1bcfb6f0da11}{%
+           family={Kvamme},
+           familyi={K\bibinitperiod},
+           given={Kenneth\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=440b48017233727030765935011baeb9}{%
+           family={Mehrer},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4265b67bbe6754d1bde12315b82e0022}{%
+           family={Wescott},
+           familyi={W\bibinitperiod},
+           given={Konnie\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{41a986685da85c86c29e1bcfb6f0da11}
+      \strng{fullhash}{41a986685da85c86c29e1bcfb6f0da11}
+      \strng{bibnamehash}{41a986685da85c86c29e1bcfb6f0da11}
+      \strng{authorbibnamehash}{41a986685da85c86c29e1bcfb6f0da11}
+      \strng{authornamehash}{41a986685da85c86c29e1bcfb6f0da11}
+      \strng{authorfullhash}{41a986685da85c86c29e1bcfb6f0da11}
+      \strng{editorbibnamehash}{00df67e75abed18e857e21193a0ca53f}
+      \strng{editornamehash}{00df67e75abed18e857e21193a0ca53f}
+      \strng{editorfullhash}{00df67e75abed18e857e21193a0ca53f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{GIS and Archaeological Site Location Modeling}
+      \field{title}{There and back again: {R}evisiting archaeological locational modeling}
+      \field{year}{2006}
+      \field{pages}{3\bibrangedash 38}
+      \range{pages}{36}
+    \endentry
+    \entry{nuninger2016}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=a053592c63cd48531a2e6e5cbbecc014}{%
+           family={Nuninger},
+           familyi={N\bibinitperiod},
+           given={Laure},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7f54a49e6febfc1d7cf5d4f3f019d5fe}{%
+           family={Verhagen},
+           familyi={V\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9cfde69863e99050d7397bd9a1681307}{%
+           family={Bertoncello},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a13002f63330639d789aece392ad8fe3}{%
+           family={Castrorao\bibnamedelima Barba},
+           familyi={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=492af5a95babb4657cbed99b41c8e056}{%
+           family={Barcelo},
+           familyi={B\bibinitperiod},
+           given={Juan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8e45fc9cfde968ffd8c9dbbf21c346dd}{%
+           family={Bogdanovic},
+           familyi={B\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{f3c10e0350476719385bd062355be2fb}
+      \strng{fullhash}{f3c10e0350476719385bd062355be2fb}
+      \strng{bibnamehash}{f3c10e0350476719385bd062355be2fb}
+      \strng{authorbibnamehash}{f3c10e0350476719385bd062355be2fb}
+      \strng{authornamehash}{f3c10e0350476719385bd062355be2fb}
+      \strng{authorfullhash}{f3c10e0350476719385bd062355be2fb}
+      \strng{editorbibnamehash}{a80abef2b123997507f433edaa8ff85e}
+      \strng{editornamehash}{a80abef2b123997507f433edaa8ff85e}
+      \strng{editorfullhash}{a80abef2b123997507f433edaa8ff85e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mathematics and Archaeology}
+      \field{title}{Estimating ``land use heritage'' to model changes in archaeological settlement patterns}
+      \field{year}{2016}
+      \field{pages}{223\bibrangedash 238}
+      \range{pages}{16}
+    \endentry
+    \entry{araujo2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=72cdc90eaae746fb2fb0c53839072424}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={Miguel\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b1e2d65af55d31629290d69c082715b4}{%
+           family={New},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7952c318c1c967469a73afbaf575e03}
+      \strng{fullhash}{e7952c318c1c967469a73afbaf575e03}
+      \strng{bibnamehash}{e7952c318c1c967469a73afbaf575e03}
+      \strng{authorbibnamehash}{e7952c318c1c967469a73afbaf575e03}
+      \strng{authornamehash}{e7952c318c1c967469a73afbaf575e03}
+      \strng{authorfullhash}{e7952c318c1c967469a73afbaf575e03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{number}{11}
+      \field{title}{Ensemble forecasting of species distributions}
+      \field{volume}{20}
+      \field{year}{2005}
+      \field{pages}{609\bibrangedash 613}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.tree.2005.09.010
+      \endverb
+    \endentry
+    \entry{newhall1982}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fafc8a74b7dbc79564da1b40df2d7901}{%
+           family={Newhall},
+           familyi={N\bibinitperiod},
+           given={Christopher\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=48cb312d7be5f67e5102af032d82486b}{%
+           family={Self},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf27c9c9b2df269a410b0d2fdce4a4f3}
+      \strng{fullhash}{cf27c9c9b2df269a410b0d2fdce4a4f3}
+      \strng{bibnamehash}{cf27c9c9b2df269a410b0d2fdce4a4f3}
+      \strng{authorbibnamehash}{cf27c9c9b2df269a410b0d2fdce4a4f3}
+      \strng{authornamehash}{cf27c9c9b2df269a410b0d2fdce4a4f3}
+      \strng{authorfullhash}{cf27c9c9b2df269a410b0d2fdce4a4f3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Oceans}
+      \field{number}{C2}
+      \field{title}{The {V}olcanic {E}xplosivity {I}ndex ({VEI}): An estimate of explosive magnitude for historical volcanism}
+      \field{volume}{87}
+      \field{year}{1982}
+      \field{pages}{1231\bibrangedash 1238}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1029/JC087iC02p01231
+      \endverb
+    \endentry
+    \entry{folch2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e0749bbc260f529040056626e6cf0a60}{%
+           family={Folch},
+           familyi={F\bibinitperiod},
+           given={Arnau},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0749bbc260f529040056626e6cf0a60}
+      \strng{fullhash}{e0749bbc260f529040056626e6cf0a60}
+      \strng{bibnamehash}{e0749bbc260f529040056626e6cf0a60}
+      \strng{authorbibnamehash}{e0749bbc260f529040056626e6cf0a60}
+      \strng{authornamehash}{e0749bbc260f529040056626e6cf0a60}
+      \strng{authorfullhash}{e0749bbc260f529040056626e6cf0a60}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Volcanology and Geothermal Research}
+      \field{title}{A review of tephra transport and dispersal models: evolution, current status, and future perspectives}
+      \field{volume}{235--236}
+      \field{year}{2012}
+      \field{pages}{96\bibrangedash 115}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.jvolgeores.2012.05.020
+      \endverb
+    \endentry
+    \entry{mastin2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c3b8d36bd3e0b17e700b6b4996451ce8}{%
+           family={Mastin},
+           familyi={M\bibinitperiod},
+           given={Larry\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ea0932d46be1d04415e0d31a16ed9e83}{%
+           family={Van\bibnamedelima Eaton},
+           familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Alexa\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d95a008cf6a4d73d1cd9657930fd07e9}{%
+           family={Lowenstern},
+           familyi={L\bibinitperiod},
+           given={Jacob\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b23b4176bbc4dfcdb615f64bc37d75d}
+      \strng{fullhash}{0b23b4176bbc4dfcdb615f64bc37d75d}
+      \strng{bibnamehash}{0b23b4176bbc4dfcdb615f64bc37d75d}
+      \strng{authorbibnamehash}{0b23b4176bbc4dfcdb615f64bc37d75d}
+      \strng{authornamehash}{0b23b4176bbc4dfcdb615f64bc37d75d}
+      \strng{authorfullhash}{0b23b4176bbc4dfcdb615f64bc37d75d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geochemistry, Geophysics, Geosystems}
+      \field{number}{8}
+      \field{title}{Modeling ash fall distribution from a {Y}ellowstone supereruption}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{pages}{3459\bibrangedash 3475}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1002/2014GC005469
+      \endverb
+    \endentry
+    \entry{mastin2022}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=c3b8d36bd3e0b17e700b6b4996451ce8}{%
+           family={Mastin},
+           familyi={M\bibinitperiod},
+           given={Larry\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ea0932d46be1d04415e0d31a16ed9e83}{%
+           family={Van\bibnamedelima Eaton},
+           familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Alexa\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a9a33d0ba220a356d3b015f61e6161c3}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4d51faaaaf950f7ba06e69de6b8ff07f}{%
+           family={Wallace},
+           familyi={W\bibinitperiod},
+           given={Kristi\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=21b6e2ddd18a1dd361be512035c4afaa}{%
+           family={Swanson},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c603e8fb03f77b04de5d6a34f8e68371}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={Charles\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1a1c87386054bdfe3806ad4ee841b01d}{%
+           family={Nathenson},
+           familyi={N\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=793033db913e4d4004a65e5a49794580}{%
+           family={Waittt},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c1f49805f1ad7add5d4b4db04f2fe550}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Cynthia\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b277f2cb3fa0f2b74187acda7f9750aa}{%
+           family={Till},
+           familyi={T\bibinitperiod},
+           given={Alison\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed8638454142be4062ef18aa7fdb8ac}
+      \strng{fullhash}{75afd020b07323525c6d5a6b53709a2b}
+      \strng{bibnamehash}{bed8638454142be4062ef18aa7fdb8ac}
+      \strng{authorbibnamehash}{bed8638454142be4062ef18aa7fdb8ac}
+      \strng{authornamehash}{bed8638454142be4062ef18aa7fdb8ac}
+      \strng{authorfullhash}{75afd020b07323525c6d5a6b53709a2b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Volcanology}
+      \field{number}{7}
+      \field{title}{Lessons for forecasting eruptions at {Y}ellowstone and other large volcanoes from the 1980 eruption of {M}ount {S}t. {H}elens}
+      \field{volume}{84}
+      \field{year}{2022}
+      \field{pages}{78}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s00445-022-01613-0
+      \endverb
+    \endentry
+    \entry{pyle1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=596809f1871e10773cef8b2e4afeb052}{%
+           family={Pyle},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{596809f1871e10773cef8b2e4afeb052}
+      \strng{fullhash}{596809f1871e10773cef8b2e4afeb052}
+      \strng{bibnamehash}{596809f1871e10773cef8b2e4afeb052}
+      \strng{authorbibnamehash}{596809f1871e10773cef8b2e4afeb052}
+      \strng{authornamehash}{596809f1871e10773cef8b2e4afeb052}
+      \strng{authorfullhash}{596809f1871e10773cef8b2e4afeb052}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Volcanology}
+      \field{number}{1}
+      \field{title}{The thickness, volume and grainsize of tephra fall deposits}
+      \field{volume}{51}
+      \field{year}{1989}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/BF01086757
+      \endverb
+    \endentry
+    \entry{degroot2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c8e916d288146c72f88e856dcc567fe5}{%
+           family={De\bibnamedelima Groot},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8e916d288146c72f88e856dcc567fe5}
+      \strng{fullhash}{c8e916d288146c72f88e856dcc567fe5}
+      \strng{bibnamehash}{c8e916d288146c72f88e856dcc567fe5}
+      \strng{authorbibnamehash}{c8e916d288146c72f88e856dcc567fe5}
+      \strng{authornamehash}{c8e916d288146c72f88e856dcc567fe5}
+      \strng{authorfullhash}{c8e916d288146c72f88e856dcc567fe5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archaeology in Oceania}
+      \field{number}{3}
+      \field{title}{Volcanic hazards in the archaeological record of {M}ount {M}erapi, {C}entral {J}ava, {I}ndonesia}
+      \field{volume}{44}
+      \field{year}{2009}
+      \field{pages}{131\bibrangedash 145}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1002/j.1834-4453.2009.tb00045.x
+      \endverb
+    \endentry
+    \entry{bourdier1997}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4f6f088ad6f325f8bf3314f9bff3b730}{%
+           family={Bourdier},
+           familyi={B\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=09f23aeecb111e8d73750c3b7eb3bc3f}{%
+           family={Pratomo},
+           familyi={P\bibinitperiod},
+           given={Indyo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=50707e9a7863c41c29cc4cd537293273}{%
+           family={Thouret},
+           familyi={T\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=592fb77be64058bafe0821539a609319}{%
+           family={Boudon},
+           familyi={B\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{hash=12274ccc7d640a5fd37de4014e48f929}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7089eb3f2146703b45efb468c06e1ac7}
+      \strng{fullhash}{7089eb3f2146703b45efb468c06e1ac7}
+      \strng{bibnamehash}{7089eb3f2146703b45efb468c06e1ac7}
+      \strng{authorbibnamehash}{7089eb3f2146703b45efb468c06e1ac7}
+      \strng{authornamehash}{7089eb3f2146703b45efb468c06e1ac7}
+      \strng{authorfullhash}{7089eb3f2146703b45efb468c06e1ac7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Volcanology and Geothermal Research}
+      \field{number}{3--4}
+      \field{title}{Observations, stratigraphy and eruptive processes of the 1990 eruption of {K}elut volcano, {I}ndonesia}
+      \field{volume}{79}
+      \field{year}{1997}
+      \field{pages}{181\bibrangedash 203}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/S0377-0273(97)00031-0
+      \endverb
+    \endentry
+    \entry{french2003}{article}{}
+      \name{author}{5}{}{%
+        {{hash=49083e30c2ab33a0519a2f46b5e39db8}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=39106e2c637aa1fb53e3d02e54c4b30a}{%
+           family={Whalen},
+           familyi={W\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a93e30473c6128af0d8f191ab068d2ed}{%
+           family={Batt},
+           familyi={B\bibinitperiod},
+           given={Cathy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=27008c75671d2e4392775aadc06a00a9}{%
+           family={Lovett},
+           familyi={L\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de633705def7a599c2fd6f24b893878b}{%
+           family={Oakey},
+           familyi={O\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b142c52909bbe30299de830ae72b91c2}
+      \strng{fullhash}{b142c52909bbe30299de830ae72b91c2}
+      \strng{bibnamehash}{b142c52909bbe30299de830ae72b91c2}
+      \strng{authorbibnamehash}{b142c52909bbe30299de830ae72b91c2}
+      \strng{authornamehash}{b142c52909bbe30299de830ae72b91c2}
+      \strng{authorfullhash}{b142c52909bbe30299de830ae72b91c2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Antiquity}
+      \field{number}{295}
+      \field{title}{Monitoring archaeological site burial in {E}ngland: {T}he assessment of topsoil thickness at selected {R}oman villa sites}
+      \field{volume}{77}
+      \field{year}{2003}
+      \field{pages}{116\bibrangedash 130}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1017/S0003598X0006137X
+      \endverb
+    \endentry
+    \entry{torrence2002}{article}{}
+      \name{author}{7}{}{%
+        {{hash=7d4db0d3d133cf4102fa6083b2e5e625}{%
+           family={Torrence},
+           familyi={T\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c45f930475802b51b2ce8ffb748862fc}{%
+           family={Doelman},
+           familyi={D\bibinitperiod},
+           given={Trudy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=228c9e511db51cd2c2dd8d281e828679}{%
+           family={Cotter},
+           familyi={C\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2da58b0a06f99ffe2f064e18c80f432c}{%
+           family={Popelka-Filcoff},
+           familyi={P\bibinithyphendelim F\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6045969b40a17747a95f748dcd2780d6}{%
+           family={Pavlides},
+           familyi={P\bibinitperiod},
+           given={Cosmas},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ac11bbeab55d9b55e9f06fb8a5e44773}{%
+           family={Webb},
+           familyi={W\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c13251d4063cb8e681158f356afbd830}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8194381be1cf74230821530e6340d317}
+      \strng{fullhash}{7f3bfc0b02d09c84163b35a013c6e95a}
+      \strng{bibnamehash}{8194381be1cf74230821530e6340d317}
+      \strng{authorbibnamehash}{8194381be1cf74230821530e6340d317}
+      \strng{authornamehash}{8194381be1cf74230821530e6340d317}
+      \strng{authorfullhash}{7f3bfc0b02d09c84163b35a013c6e95a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archaeology in Oceania}
+      \field{number}{3}
+      \field{title}{Pleistocene colonisation of the {B}ismarck {A}rchipelago: {N}ew evidence from {W}est {N}ew {B}ritain}
+      \field{volume}{37}
+      \field{year}{2002}
+      \field{pages}{145\bibrangedash 151}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/j.1834-4453.2002.tb00517.x
+      \endverb
+    \endentry
+    \entry{grattan2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=47e21cf9bce2b2a928b6c24b6b7c76da}{%
+           family={Grattan},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7d4db0d3d133cf4102fa6083b2e5e625}{%
+           family={Torrence},
+           familyi={T\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe9493f1f8f6f77b5b848d1d6979468b}
+      \strng{fullhash}{fe9493f1f8f6f77b5b848d1d6979468b}
+      \strng{bibnamehash}{fe9493f1f8f6f77b5b848d1d6979468b}
+      \strng{authorbibnamehash}{fe9493f1f8f6f77b5b848d1d6979468b}
+      \strng{authornamehash}{fe9493f1f8f6f77b5b848d1d6979468b}
+      \strng{authorfullhash}{fe9493f1f8f6f77b5b848d1d6979468b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quaternary International}
+      \field{title}{Volcanism, archaeology and the cargoes of commerce}
+      \field{volume}{162--163}
+      \field{year}{2007}
+      \field{pages}{109\bibrangedash 111}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.quaint.2006.10.017
+      \endverb
+    \endentry
+    \entry{siebert2010}{book}{}
+      \name{author}{3}{}{%
+        {{hash=a9c37313c4b89352c6e70c1a244f79d5}{%
+           family={Siebert},
+           familyi={S\bibinitperiod},
+           given={Lee},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2b994c86807b0cbe0ba5da53bb8cdc52}{%
+           family={Simkin},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eb85b0c0b495261dc15fdb8468fd9117}{%
+           family={Kimberly},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berkeley}%
+      }
+      \list{publisher}{1}{%
+        {Smithsonian Institution / University of California Press}%
+      }
+      \strng{namehash}{9e0f7306c7888236e0e5845346e7b8aa}
+      \strng{fullhash}{9e0f7306c7888236e0e5845346e7b8aa}
+      \strng{bibnamehash}{9e0f7306c7888236e0e5845346e7b8aa}
+      \strng{authorbibnamehash}{9e0f7306c7888236e0e5845346e7b8aa}
+      \strng{authornamehash}{9e0f7306c7888236e0e5845346e7b8aa}
+      \strng{authorfullhash}{9e0f7306c7888236e0e5845346e7b8aa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Volcanoes of the World}
+      \field{year}{2010}
+    \endentry
+    \entry{wandsnider1992}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aed49998c562d74b4c3ab8ed3906c902}{%
+           family={Wandsnider},
+           familyi={W\bibinitperiod},
+           given={LuAnn},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{aed49998c562d74b4c3ab8ed3906c902}
+      \strng{fullhash}{aed49998c562d74b4c3ab8ed3906c902}
+      \strng{bibnamehash}{aed49998c562d74b4c3ab8ed3906c902}
+      \strng{authorbibnamehash}{aed49998c562d74b4c3ab8ed3906c902}
+      \strng{authornamehash}{aed49998c562d74b4c3ab8ed3906c902}
+      \strng{authorfullhash}{aed49998c562d74b4c3ab8ed3906c902}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the Society for American Archaeology}
+      \field{number}{4}
+      \field{title}{The spatial dimension of time-averaging in archaeological assemblages}
+      \field{volume}{10}
+      \field{year}{1992}
+      \field{pages}{17\bibrangedash 19}
+      \range{pages}{3}
+    \endentry
+    \entry{allouche2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=42807bfd48ec8dea786ab4c418f385a1}{%
+           family={Allouche},
+           familyi={A\bibinitperiod},
+           given={Omri},
+           giveni={O\bibinitperiod}}}%
+        {{hash=dd6529c74f7356dcdebd77eee5304712}{%
+           family={Tsoar},
+           familyi={T\bibinitperiod},
+           given={Asaf},
+           giveni={A\bibinitperiod}}}%
+        {{hash=492e806e7035f133504887a9feb783d8}{%
+           family={Kadmon},
+           familyi={K\bibinitperiod},
+           given={Ronen},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3daa28c987756c7a89c66165532bac30}
+      \strng{fullhash}{3daa28c987756c7a89c66165532bac30}
+      \strng{bibnamehash}{3daa28c987756c7a89c66165532bac30}
+      \strng{authorbibnamehash}{3daa28c987756c7a89c66165532bac30}
+      \strng{authornamehash}{3daa28c987756c7a89c66165532bac30}
+      \strng{authorfullhash}{3daa28c987756c7a89c66165532bac30}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{6}
+      \field{title}{Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic ({TSS})}
+      \field{volume}{43}
+      \field{year}{2006}
+      \field{pages}{1223\bibrangedash 1232}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1365-2664.2006.01214.x
+      \endverb
+    \endentry
+    \entry{jimenez2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=0f37e717544e4cda0202c3c40ad8344f}{%
+           family={Jiménez-Valverde},
+           familyi={J\bibinithyphendelim V\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7e45c5dc3c596f976355c7ba76adeb3c}{%
+           family={Barve},
+           familyi={B\bibinitperiod},
+           given={Narayani},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fcab45aa3189da1dde51d3ed338caae8}{%
+           family={Lira-Noriega},
+           familyi={L\bibinithyphendelim N\bibinitperiod},
+           given={Andrés},
+           giveni={A\bibinitperiod}}}%
+        {{hash=56fece6c0cef96e264eeff19721af350}{%
+           family={Maher},
+           familyi={M\bibinitperiod},
+           given={Sean\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=65ed94dcabae4a0cdd49a59ac63489f2}{%
+           family={Nakazawa},
+           familyi={N\bibinitperiod},
+           given={Yoshinori},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b5e4997365594dc7aed34349cdbcc940}{%
+           family={Papeş},
+           familyi={P\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=429894b1a3f608f4303f608fbd16d3bf}{%
+           family={Soberón},
+           familyi={S\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=907af50ed6c6008b56a1c8e0597108ad}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi Townsend},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{430944047081eb70b185ad69473f37bb}
+      \strng{fullhash}{749d292603bbb62029e241c9733fdf7f}
+      \strng{bibnamehash}{430944047081eb70b185ad69473f37bb}
+      \strng{authorbibnamehash}{430944047081eb70b185ad69473f37bb}
+      \strng{authornamehash}{430944047081eb70b185ad69473f37bb}
+      \strng{authorfullhash}{749d292603bbb62029e241c9733fdf7f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biogeography}
+      \field{number}{12}
+      \field{title}{Defining the fundamental niche: {I}mplications for species distribution modelling}
+      \field{volume}{47}
+      \field{year}{2020}
+      \field{pages}{2529\bibrangedash 2541}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/jbi.13968
+      \endverb
+    \endentry
+    \entry{lundberg2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=2a1075150e1e1dad8127b019f7ca9031}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{bibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorbibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authornamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 30 (NIPS 2017)}
+      \field{title}{A unified approach to interpreting model predictions}
+      \field{year}{2017}
+      \field{pages}{4765\bibrangedash 4774}
+      \range{pages}{10}
+    \endentry
+    \entry{georganos2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=345637ad02d145059b1f0803e9d9eef6}{%
+           family={Georganos},
+           familyi={G\bibinitperiod},
+           given={Stefanos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2e7154d298e47ab0bf39561cdeb3df3a}{%
+           family={Grippa},
+           familyi={G\bibinitperiod},
+           given={Tais},
+           giveni={T\bibinitperiod}}}%
+        {{hash=62db332062a3488c220dd8c9f5de0646}{%
+           family={Niang\bibnamedelima Gadiaga},
+           familyi={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Assane},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1196a5dd158830f4ddcfd217a6a64d41}{%
+           family={Linard},
+           familyi={L\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e3c2d83e96829be8553c9caebc386ec0}{%
+           family={Lennert},
+           familyi={L\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3de1f4b393db428bb53fbe41a25a5b06}{%
+           family={Vanhuysse},
+           familyi={V\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c105d0cfbc23e4b76917a0d0aac465e8}{%
+           family={Brücker},
+           familyi={B\bibinitperiod},
+           given={Nicholus},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7e6f1f22c1bc7c758f589a8a04627e1e}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Eléonore},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b76c72f1cfadd8ae3106269ca3b11415}
+      \strng{fullhash}{7926f3a6ba936f96476021557bacf835}
+      \strng{bibnamehash}{b76c72f1cfadd8ae3106269ca3b11415}
+      \strng{authorbibnamehash}{b76c72f1cfadd8ae3106269ca3b11415}
+      \strng{authornamehash}{b76c72f1cfadd8ae3106269ca3b11415}
+      \strng{authorfullhash}{7926f3a6ba936f96476021557bacf835}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geocarto International}
+      \field{number}{2}
+      \field{title}{Geographical random forests: a spatial extension of the random forest algorithm to address spatial heterogeneity in remote sensing and population modelling}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{pages}{121\bibrangedash 136}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/10106049.2019.1595177
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
