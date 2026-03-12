@@ -17,12 +17,14 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 
 | # | Judul | Status | Lokasi |
 |---|-------|--------|--------|
-| P1 | Taphonomic Framework | Draft complete, single-author submission imminent | `papers/P1_taphonomic_framework/` |
-| P2 | Settlement Suitability Model | Draft complete, single-author submission imminent | `papers/P2_settlement_model/` |
+| P1 | Taphonomic Framework | **SUBMITTED** (Asian Perspectives, MS# 019A-0326) | `papers/P1_taphonomic_framework/` |
+| P2 | Settlement Suitability Model | **SUBMITTED** (JCAA, #280) | `papers/P2_settlement_model/` |
 | P5 | The Volcanic Ritual Clock | **SUBMITTED** (BKI) | `papers/P5_volcanic_ritual_clock/` |
 | P7 | Temporal Overlay Matrix | **SUBMITTED** (Antiquity) | `papers/P7_TOM/` |
-| P8 | Linguistic Fossils | Draft v0.1 complete, needs red-team | `papers/P8_linguistic_fossils/` |
-| P14 | Pararaton Volcanic Collapse | Draft v0.1, pivoting to research note | `papers/P14_pararaton_collapse/` |
+| P8 | Linguistic Fossils | **SUBMITTED** (Oceanic Linguistics, OL-03-2026-11) | `papers/P8_linguistic_fossils/` |
+| P9 | Peripheral Conservatism | **SUBMITTED** (JSEAS) | `papers/P9_peripheral_conservatism/` |
+| P11 | Volcanic Informedness | **OUTLINE v0.1** (re-scoped from VCS) | `papers/P11_volcanic_informedness/` |
+| P14 | Pararaton Volcanic Collapse | **KILLED** (Mata Elang #4, Bonferroni) | `papers/P14_pararaton_collapse/` |
 
 ### Draft Papers (di folder ini)
 
@@ -31,7 +33,7 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 | P7-full | `P07_temporal_overlay_matrix.md` | TOM Full-Length (canonical v3.1) | Full draft | PARTIAL | REF (short version submitted) |
 | P9 | `P09_peripheral_substrate.md` | Peripheral Conservatism | Partial draft | PARTIAL | MEDIUM |
 | P9-alt | `P09alt_borehole_archaeology.md` | Borehole Archaeology | Raw idea | PARTIAL | MEDIUM |
-| P11 | `P11_volcanic_cultural_selection.md` | Volcanic Cultural Selection (VCS) | Partial draft | PARTIAL | MEDIUM |
+| P11 | `P11_volcanic_cultural_selection.md` | ~~VCS~~ → **RE-SCOPED** as Volcanic Informedness | Concept draft (superseded by `papers/P11_volcanic_informedness/outline_v0.1.md`) | YES (E031+E032+E039) | HIGH |
 
 ### Killed / Dissolved (Mata Elang #3, 2026-03-10)
 
@@ -57,7 +59,7 @@ Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 
 | File | Deskripsi |
 |------|-----------|
-| `manifesto.md` | Grand narrative — 4 lapisan kegelapan (internal, bukan publikasi) |
+| `manifesto.md` | Grand narrative — 6 lapisan kegelapan + kriteria falsifikasi (internal, bukan publikasi) |
 | `parking_lot_vcs_colonial.md` | Raw ideas: VCS + colonial resistance + population estimates |
 | `working_note_ancient_dna.md` | Working note: aDNA preservation paradox di Java |
 

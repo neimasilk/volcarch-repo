@@ -1,0 +1,43 @@
+language,domain,n_testable,n_cognate,cognacy_pct
+Old Javanese,Maritime,10,8,80.0
+Old Javanese,Nature,14,12,85.71428571428571
+Old Javanese,Body,8,4,50.0
+Old Javanese,Action,4,3,75.0
+Old Javanese,Kinship,0,0,0.0
+Old Javanese,Numeral,0,0,0.0
+Old Javanese,ALL,186,114,61.29032258064516
+Javanese,Maritime,10,4,40.0
+Javanese,Nature,14,8,57.14285714285714
+Javanese,Body,8,3,37.5
+Javanese,Action,4,2,50.0
+Javanese,Kinship,0,0,0.0
+Javanese,Numeral,0,0,0.0
+Javanese,ALL,155,68,43.87096774193549
+Balinese,Maritime,10,6,60.0
+Balinese,Nature,14,12,85.71428571428571
+Balinese,Body,8,4,50.0
+Balinese,Action,4,1,25.0
+Balinese,Kinship,0,0,0.0
+Balinese,Numeral,0,0,0.0
+Balinese,ALL,140,83,59.285714285714285
+Malagasy,Maritime,10,4,40.0
+Malagasy,Nature,14,11,78.57142857142857
+Malagasy,Body,8,4,50.0
+Malagasy,Action,4,1,25.0
+Malagasy,Kinship,0,0,0.0
+Malagasy,Numeral,0,0,0.0
+Malagasy,ALL,186,84,45.16129032258064
+Muna,Maritime,10,5,50.0
+Muna,Nature,14,7,50.0
+Muna,Body,8,4,50.0
+Muna,Action,4,2,50.0
+Muna,Kinship,0,0,0.0
+Muna,Numeral,0,0,0.0
+Muna,ALL,172,79,45.93023255813954
+Tengger,Maritime,10,3,30.0
+Tengger,Nature,14,5,35.714285714285715
+Tengger,Body,8,3,37.5
+Tengger,Action,4,1,25.0
+Tengger,Kinship,0,0,0.0
+Tengger,Numeral,0,0,0.0
+Tengger,ALL,107,49,45.794392523364486

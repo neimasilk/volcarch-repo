@@ -1,8 +1,8 @@
 # L3: EXECUTION (Active Tasks)
 
 **Status:** ACTIVE -- Updates per week or per experiment.
-**Sprint:** Sprint 8 -- Post Mata Elang #4 + 4 Papers Submitted
-**Last updated:** 2026-03-11
+**Sprint:** Sprint 9 -- 6 Papers Submitted (P1, P2, P5, P7, P8, P9) — Review Waiting Period
+**Last updated:** 2026-03-12
 
 ---
 
@@ -35,9 +35,31 @@
 - Awaiting editorial decision (weeks to months)
 - **P15 merger strategy:** If BKI requests revision, consider merging P15 (TOM-R, 4 additional rituals) into P5 as expanded analysis (~10,000 words, within 12,000 BKI limit). Avoids salami-slicing risk.
 
-### Parallel Exploration: P8 + P9 (active)
-- **P8 Linguistic Fossils** — **WAITING FOR AUTHOR REVIEW**. Red-teamed 2026-03-11: ablation experiment (confound removed, AUC improves), 4 critical fixes applied, 4 new citations added. 29pp, ~5,200 words. Author reviewing PDF + RED_TEAM_REPORT.md.
-- **P9/P09alt Borehole Archaeology** — geological evidence (E024 POC SUCCESS, 25 records)
+### Paper 8 (Oceanic Linguistics): SUBMITTED (2026-03-11) — MS# OL-03-2026-11
+- Authors: Mukhlis Amien (corresponding) + Go Frendi Gunawan (Universitas Bhinneka Nusantara)
+- File: `papers/P8_linguistic_fossils/draft_v0.1.tex` (31pp, ~6,800 words)
+- Anonymous: `papers/P8_linguistic_fossils/draft_v0.1_anonymous.pdf`
+- 8 experiments (E022, E027, E027b, E028, E029, E036, E041, E042)
+- 3 rounds external review (ChatGPT + Gemini), 14 criticisms all addressed
+- OL portal: https://oceaniclinguistics.msubmit.net — Editor: Alexander Adelaar
+- Cover letter ready: `papers/P8_linguistic_fossils/cover_letter_OL.md`
+- 4 figures in `papers/P8_linguistic_fossils/figures/`
+- **Next:** Await editorial decision.
+
+### Paper 9 (JSEAS): RECEIVED — JSEAS-202603-051
+- **Tracking number:** JSEAS-202603-051 (assigned 2026-03-12)
+- Submitted via email to hisjseas@nus.edu.sg (2026-03-11)
+- JSEAS responded 2026-03-12: editorial board will assess scope/readership fit
+- **ACTION REQUIRED:** Send anonymous Word version → `draft_v0.1_jseas_anonymous.docx` (2.8 MB, 6 figs embedded)
+- Authors: Mukhlis Amien (corresponding) + Go Frendi Gunawan (Universitas Bhinneka Nusantara)
+- Original files: PDF (34pp, ~10,100 words) + 6 PNG figures (600 dpi)
+- JSEAS style: footnote-only citations (biblatex verbose-note), British English, single quotes, double-anonymous
+- 3 rounds external review (ChatGPT + Gemini), 16 criticisms addressed
+- E043 (cognacy comparison): Balinese 40.3% > Javanese 33.0% PMP cognacy. Tengger LOWER. H1 supported, H2 rejected.
+- E044 (Malagasy burial botany): Plumeria = New World post-1560 substitute. Canarium = pan-Austronesian aromatic link.
+- **Next:** Author reviews docx quality → reply to Eileen Shen with Word file → await desk review decision.
+
+### Killed / Dissolved Papers
 - **P14 KILLED** (2026-03-11, Mata Elang #4) — Bonferroni kills significance (adj. p=0.222). E026 results folded into `papers/P5_volcanic_ritual_clock/revision_ammo/E026_pararaton_volcanic_correlation.md`.
 - **P15 dissolved** into P5 revision ammo (2026-03-10)
 - See `docs/drafts/README.md` for catalog
@@ -45,6 +67,77 @@
 ---
 
 ## Active Tasks
+
+### TASK-047: P11 "Volcanic Informedness" — Draft v0.1
+**Status:** FIRST DRAFT COMPLETE (2026-03-12)
+- Old: VCS global claim (rejected by E039). New: Volcanic Informedness (local Java/Bali)
+- **Draft:** `papers/P11_volcanic_informedness/draft_v0.1.tex` (15 pages, compiles clean)
+- **5 tests:** E031+E065 (candi spatial), E032 (calendar), E039 (cross-cultural), E051 (toponymic), E056 (candi-toponym)
+- Target: Indonesia (Cornell, free, Q2)
+- Core experiments: E031, E032, E039, E051, E056, E065
+- **Next:** Add figures (5 planned), expand bibliography, author review, submission preparation
+
+### TASK-048: Revision Ammo Audit
+**Status:** DONE (2026-03-12)
+- P1: `revision_ammo/anticipated_critiques.md` (6) + `E040_bamboo_civilization.md`
+- P2: `revision_ammo/anticipated_critiques.md` (6, inc. tautology defense)
+- P5: existing ammo (2 files)
+- P7: `revision_ammo/anticipated_critiques.md` (6)
+- P8: `revision_ammo/anticipated_critiques.md` (7) + `I053_hanacaraka_pangram_uniqueness.md`
+- P9: `revision_ammo/anticipated_critiques.md` (7, inc. Tengger drift + AI disclosure)
+
+### TASK-049: Preprint Decision (P1 + P2)
+**Status:** MEMO READY (2026-03-12) — `docs/preprint_decision_P1_P2.md`
+- Recommendation: YES for P1 (single-author, no blocker), YES for P2 (pending Go Frendi consent)
+- **BLOCKED:** Author decision needed. Also: verify Asian Perspectives preprint policy, contact Go Frendi.
+- If YES → post P1 to EarthArXiv ~Mar 14, P2 after co-author consent
+
+### TASK-050: JSEAS Follow-up for P9
+**Status:** PARTIALLY RESOLVED (2026-03-12) — JSEAS responded, no follow-up needed for receipt
+- Tracking number: JSEAS-202603-051
+- Initial follow-up (Template A) NO LONGER NEEDED — they responded in 24h
+- Templates B/C still available if desk review takes >4 weeks
+- Backup journals documented: Archipel (CNRS) + Indonesia and the Malay World
+
+### TASK-052: E048-E050 Experiment Block (Multi-Domain, Maritime, Canarium)
+**Status:** COMPLETE (2026-03-12)
+- **E048** Multi-Domain Temporal Convergence: SUCCESS. Genre taphonomy quantified (L5). sima 90.4% vs short 24.1%. C8=dark century. Pre-Indic ↔ organic partial rho=+0.162 (p=0.038).
+- **E049** Maritime Vocabulary Conservation: SUCCESS. Maritime #2 conserved domain (+20% Bal vs Jav). "Sea" (laut) replaced in Javanese. Pre-Hindu = maritime-organic substrate.
+- **E050** Canarium GBIF Distribution: SUCCESS. Pan-Austronesian aromatic confirmed in ALL AN regions. Madagascar 388 records. 4-layer substitution chain validated.
+- 6 new ideas registered: I-101 through I-106 (IDEA_REGISTRY updated).
+- TRIGGER_MAP updated with 5 new triggers.
+
+### TASK-053: E048-E060 Mata Elang #5 Experiment Block
+**Status:** COMPLETE (2026-03-12) — 14 experiments in autonomous session
+- E048-E050: Multi-domain convergence, Maritime vocabulary, Canarium GBIF (all SUCCESS)
+- E051: Java Toponymic Substrate (25,244 villages, 57.7% pre-Hindu, court rho=0.387)
+- E052: Sunda Shelf Bathymetry (2.09M km² exposed at LGM, 971 paleo-rivers, L2 VERIFIED)
+- E053: aDNA Taphonomic Gap (0/84 Java aDNA, Fisher p=0.047, absence=evidence)
+- E054: Pan-Austronesian Cognacy (1,309 langs, global reversed, local confirmed)
+- E055: Convergence Synthesis (27 experiments catalogued, 4 meta-figures)
+- E056: Candi × Toponym Crossref (MW p=0.007, dual Indianization signature)
+- E057: Genre Taphonomy Deep Dive (+63.9pp organic visibility C8→C9-10, L5 VERIFIED)
+- E058: Kakawin NLP (agriculture 91% native, religion 86% Sanskrit, domain stratification)
+- E059: Fieldwork Targets (Top 10 GPS @ Kelud, 13.1 mm/yr, 21m burial depth)
+- E060: Pre-400 CE Reconstruction (8 channels, 6 domains, timeline figure)
+- **Manifesto v3.0, 6/6 layers active, 56 total experiments.**
+
+### TASK-054: E061-E065 Experiment Block (Script + Temporal + Domain + Evidence + Spatial)
+**Status:** COMPLETE (2026-03-12)
+- E061: Indic Script Simplification — CONDITIONAL SUCCESS. Austronesian scripts simplify more (MW p=0.027).
+- E062: Visibility Curve — CONDITIONAL SUCCESS. PC1=51.3%, C8 dark century (-1.49), peak C13 (+1.48).
+- E063: Domain Conservation — SUCCESS. Food/agriculture LAST (6.1%), Numbers FIRST (59.5%). KW p<0.001.
+- E064: Master Evidence Table — 50 experiments catalogued, revision ammo for all 7 papers.
+- E065: Candi Spatial — Zone A 17.9× overrepresented, western clustering 47.2% (Rayleigh p<1e-6).
+- **Running total: ~65 experiments.**
+
+### TASK-051: Send P9 Word Version to JSEAS
+**Status:** DOCX READY — awaiting author review + send
+- File: `papers/P9_peripheral_conservatism/draft_v0.1_jseas_anonymous.docx` (2.8 MB)
+- 6 figures embedded (PNG, 600 dpi)
+- Converted via pandoc from LaTeX with --citeproc
+- **Author must:** (1) Open docx, verify formatting/figures, (2) Reply to Eileen Shen's email with docx attached
+- **IMPORTANT:** Check that footnote citations rendered correctly (pandoc may simplify verbose-note style)
 
 ### TASK-032: Register ORCID
 **Status:** DONE — `0000-0002-1848-167X`
@@ -93,18 +186,21 @@
 - Deliverable: CSV dataset (lat, lon, depth, layer descriptions) + location map
 - Links to: P1/P2 H-TOM framework (subsurface evidence for buried occupation surfaces)
 
-### TASK-044: P8 Linguistic Fossils — Milestone 5: Draft Revised
-**Status:** DRAFT v0.1+ COMPLETE — 5 experiments + E036 Hanacaraka + I-031 reframe, ~5,010 words
+### TASK-044: P8 Linguistic Fossils — Milestone 7: SUBMITTED
+**Status:** SUBMITTED (2026-03-11) — MS# OL-03-2026-11. 8 experiments, 3 rounds external review, 14 criticisms addressed
 - E022 (rule-based): 8 Tier 1 substrate candidates, avg residual 26.5%
-- E027 (ML): XGBoost Model B AUC=0.760, LOLO 5/6 langs ≥0.65
+- E027 (ML): XGBoost Model B AUC=0.763 (ablated), LOLO 6/6 langs ≥0.65
 - E027b (expansion): 16 additional languages, Sulawesi > Western Indonesian (P(sub) 0.606 vs 0.393)
 - E028 (consensus): kappa=0.61, 266 consensus substrates
 - E029 (clustering): informative negative — parallel innovation, not shared substrate
-- **NEW:** E036 Hanacaraka convergence subsection added (33→20 consonant reduction confirms ML fingerprint)
-- **NEW:** I-031 reframe — title/abstract/intro lead with non-conformity, not substrate hypothesis
-- File: `papers/P8_linguistic_fossils/draft_v0.1.tex` (27pp, 4 tables, 4 figures)
+- E036 Hanacaraka convergence (33→20 consonant reduction confirms ML fingerprint)
+- E041 IPA validation: ortho→IPA robust (delta <0.01)
+- E042 Syllable validation: char→syllable equivalent; no-length model works identically
+- File: `papers/P8_linguistic_fossils/draft_v0.1.tex` (31pp, 5 tables, 4 figures)
+- Anonymous PDF: `draft_v0.1_anonymous.pdf`
 - Target: Oceanic Linguistics (Q1, UH Press)
-- **Next:** Author review, co-author search, submission
+- Authors: Mukhlis Amien + Go Frendi Gunawan
+- **Next:** Await editorial decision.
 
 ### TASK-046: Post P1+P2 preprints to EarthArXiv
 **Status:** BLOCKED (user decision — needs time to evaluate preprint strategy)
@@ -198,6 +294,31 @@
 | E037 | Prasasti Dating ML | CONDITIONAL | P5+P14 | MAE=115yr, R²=0.028, C±1=76.3%. Content too weakly temporal. Temporal split fails. Needs paleographic features. |
 | E038 | Volcanic Vocabulary Drift | INFORMATIVE NEG | P8+P11 | No diversity diff (p>0.3). Distance-conservatism rho=-0.301 (phylogenetic confound). Core vocab too stable. |
 | E039 | VCS Cross-Cultural Test | INFORMATIVE NEG | P11 | Binary: volcanic ≠ higher ritual (p=0.973, reversed). Distance: rho=+0.145, p=0.092 (also opposite). VCS is local, not global. Q21 mana p=0.006. |
+| E040 | Bamboo Civilization (Prasasti Material Culture) | SUCCESS | P1 | 170/268 (63.4%) organic vs 73 (27.2%) lithic. Organic-only=103, lithic-only=6. Binomial p<0.0001. Confirms taphonomic bias. |
+| E041 | IPA Approximation Validation | SUCCESS (ROBUST) | P8 | Ortho→IPA: CV +0.002, LOLO +0.009. Muna +0.042. Fingerprint is phonological, not orthographic. |
+| E042 | Syllable Count Validation | SUCCESS (ROBUST) | P8 | char→syllable: +0.001. No-length: equivalent (CV 0.769). Fingerprint NOT length-dependent. |
+| E043 | Krama-Alus Cognacy Comparison | SUCCESS (SPLIT) | P9 | Balinese 40.3% vs Javanese 33.0% PMP cognacy (+7.3%). Tengger LOWER (27.7%) — peripheral conservatism = large-scale phenomenon, not small-isolate. Malagasy 40.8% = ~1200 CE baseline. Old Javanese 55.3% = 22.3% erosion. |
+| E044 | Malagasy Burial Botanical Survey | SUCCESS | P9 | Plumeria = New World (post-1560 substitute). Canarium = pan-Austronesian aromatic (Java + Madagascar). Sacred forests around tombs in both. 4-layer palimpsest revised. |
+| E048 | Multi-Domain Temporal Convergence | SUCCESS | P1+P5 | Cross-domain correlation survives length control (partial rho=+0.162, p=0.038). Genre taphonomy: sima 90.4% vs short 24.1% organic (p<0.0001). C8 = dark century (genre artifact). L5 quantified. |
+| E049 | Maritime Vocabulary Conservation | SUCCESS | P8+P9 | Maritime #2 most conserved domain in peripheries (Bal 60% vs Jav 40%). "Sea" replaced in Javanese, retained in Balinese. Pre-Hindu = maritime-organic. Tengger maritime 30% (caldera loses sea words). |
+| E050 | Canarium GBIF Distribution | SUCCESS | P5+P9 | Canarium present in ALL Austronesian regions. Taiwan 136, Madagascar 388 (25.9%), Indonesia 4 (UNDERSAMPLED). 4-layer aromatic substitution chain confirmed. E044 independently validated. |
+| E051 | Java Toponymic Substrate Analysis | SUCCESS | P8+P9+P11 | 25,244 villages, 57.7% pre-Hindu ratio. Court-center rho=0.387 (p<0.0001). Madura 70-91%. |
+| E052 | Sunda Shelf Bathymetry | SUCCESS | P1+Manifesto | 2,089,415 km² exposed at LGM (16.2× Java). 971 paleo-rivers. L2 VERIFIED. |
+| E053 | aDNA Taphonomic Gap | SUCCESS | P1+P7 | 0/84 Java aDNA (Fisher p=0.047). Volcanic soil destroys DNA. Absence=evidence. |
+| E054 | Pan-Austronesian Cognacy | INFORMATIVE | P9 | 1,309 langs. Global rho=-0.088 (reversed). Local Bal 41.3%>Jav 33.8% (confirmed). |
+| E055 | Convergence Synthesis | META | All papers | 27 experiments catalogued, 4 synthesis figures, evidence strength heatmap. |
+| E056 | Candi × Toponym Crossref | SUCCESS | P7+P9+P11 | Candi in MORE Indianized areas (MW p=0.007). Court-center model dual signature. |
+| E057 | Genre Taphonomy Deep Dive | SUCCESS | P1+P5 | Long 85.7% hyang vs Short 13.0%. Borobudur=0%. +63.9pp organic C8→C9. L5 VERIFIED. |
+| E058 | Kakawin Literary Vocabulary NLP | SUCCESS (NUANCED) | P5+P8 | Agriculture 91% native, Religion 86% Sanskrit. Domain stratification. chi² p<1e-10. |
+| E059 | Priority Fieldwork Targets | ACTIONABLE | P1+P2 | Top 10 GPS at Kelud (13.1 mm/yr). Target #1: -7.9964, 112.2716. |
+| E060 | Pre-400 CE Reconstruction | SYNTHESIS | All papers | 8 channels, 6 domains. Economy+Religion=HIGH. Script=SPECULATIVE. Timeline figure. |
+| E061 | Indic Script Simplification | CONDITIONAL | P8 | Austronesian scripts simplify MORE (MW p=0.027). Two adaptation strategies. Ch12 strengthened. |
+| E062 | Prasasti Temporal Synthesis | CONDITIONAL | P5+P1 | PC1=51.3%, visibility curve: C8=-1.49 → C13=+1.48. Genre shift IS visibility. |
+| E063 | Domain-Specific PMP Conservation | SUCCESS | P8+P9 | KW p<0.001. Numbers 59.5% > Body 35.5% > Food 6.1%. Cross-validates E058. |
+| E064 | Master Evidence Table | SUCCESS | All | 50 experiments, 9 papers, 6 layers. Revision ammo JSON exported. |
+| E065 | Candi Spatial Analysis | SUCCESS | P7+P11 | Zone A 17.9× overrepresented. West 47.2% (Rayleigh p<1e-6). Penanggungan 51%. |
+| E066 | Candi Archaeoastronomy | SUCCESS | P11 | 85% face equinox (E/W), binomial p=4.9e-14. 100% cardinal. Volcano-facing=35% (null). McNemar p=0.0016. Ch9 strengthened. |
+| E067 | Volcanic Toponyms | INFO NEG | P11 | 1,073/25,244 (4.3%) volcanic morphemes. No proximity effect (rho=+0.14, p=0.15). VI = behavioral, not lexical. |
 
 ---
 

@@ -1,0 +1,192 @@
+{
+  "H1": {
+    "test": "Mann-Whitney U (one-tailed)",
+    "austronesian_consonants": [
+      33,
+      20,
+      23,
+      14
+    ],
+    "non_austronesian_consonants": [
+      33,
+      33,
+      30,
+      33,
+      33,
+      44
+    ],
+    "austronesian_mean": 22.5,
+    "non_austronesian_mean": 34.333333333333336,
+    "U": 3.0,
+    "p_value": 0.026608860382943796,
+    "verdict": "SUPPORTED",
+    "sensitivity_excl_balinese": {
+      "U": 0.0,
+      "p_value": 0.010944759060283067
+    }
+  },
+  "H2": {
+    "test": "Spearman rank correlation",
+    "rho": -0.5570484990582331,
+    "p_value": 0.11922346278102962,
+    "N": 9,
+    "verdict": "NOT SIGNIFICANT",
+    "sensitivity_excl_thai": {
+      "rho": -0.6088155473182092,
+      "p_value": 0.10918149231554715
+    }
+  },
+  "H3": {
+    "test": "Spearman rank correlation",
+    "rho": -0.5570484990582331,
+    "p_value": 0.11922346278102962,
+    "N": 9,
+    "verdict": "NOT SIGNIFICANT",
+    "sensitivity_excl_thai": {
+      "rho": -0.7356521196761695,
+      "p_value": 0.03750954117949256
+    }
+  },
+  "H4": {
+    "test": "Phonological floor check",
+    "floor_violations": [
+      "Baybayin"
+    ],
+    "verdict": "PARTIALLY SUPPORTED",
+    "mean_excess_austronesian": 5.0,
+    "mean_excess_non_austronesian": 11.0
+  },
+  "overall_status": "CONDITIONAL SUCCESS",
+  "scripts": [
+    {
+      "name": "Devanagari",
+      "region": "India (North)",
+      "consonants": 33,
+      "vowels": 13,
+      "adoption_ce": -500,
+      "distance_km": 0,
+      "language_family": "Indo-European",
+      "local_phoneme_consonants": 33,
+      "notes": "Baseline Brahmic script for Sanskrit. 33 stops+nasals+semivowels+sibilants+h.",
+      "reduction_ratio": 1.0,
+      "phonological_fit": 1.0
+    },
+    {
+      "name": "Grantha",
+      "region": "India (South)",
+      "consonants": 33,
+      "vowels": 14,
+      "adoption_ce": 300,
+      "distance_km": 800,
+      "language_family": "Dravidian",
+      "local_phoneme_consonants": 18,
+      "notes": "South Indian script, source for Pallava/SE Asian scripts. Full Sanskrit set retained for liturgical use.",
+      "reduction_ratio": 1.0,
+      "phonological_fit": 1.8333333333333333
+    },
+    {
+      "name": "Tibetan",
+      "region": "Tibet",
+      "consonants": 30,
+      "vowels": 4,
+      "adoption_ce": 650,
+      "distance_km": 1500,
+      "language_family": "Sino-Tibetan",
+      "local_phoneme_consonants": 26,
+      "notes": "Thonmi Sambhota adapted Gupta/Brahmi ~7th c. CE. Reduced from 33 to 30.",
+      "reduction_ratio": 0.9090909090909091,
+      "phonological_fit": 1.1538461538461537
+    },
+    {
+      "name": "Khmer",
+      "region": "Cambodia",
+      "consonants": 33,
+      "vowels": 23,
+      "adoption_ce": 600,
+      "distance_km": 3500,
+      "language_family": "Austroasiatic",
+      "local_phoneme_consonants": 21,
+      "notes": "Conservative — retains full 33 from Pallava. Two series (voiceless/voiced) repurposed for register.",
+      "reduction_ratio": 1.0,
+      "phonological_fit": 1.5714285714285714
+    },
+    {
+      "name": "Burmese",
+      "region": "Myanmar",
+      "consonants": 33,
+      "vowels": 12,
+      "adoption_ce": 1050,
+      "distance_km": 2500,
+      "language_family": "Sino-Tibetan",
+      "local_phoneme_consonants": 21,
+      "notes": "Pyu script predecessor. Retains 33 Brahmic consonants but many are marginal.",
+      "reduction_ratio": 1.0,
+      "phonological_fit": 1.5714285714285714
+    },
+    {
+      "name": "Thai",
+      "region": "Thailand",
+      "consonants": 44,
+      "vowels": 21,
+      "adoption_ce": 1283,
+      "distance_km": 3200,
+      "language_family": "Kra-Dai",
+      "local_phoneme_consonants": 21,
+      "notes": "EXPANDED beyond 33 — 44 graphemes encode tonal classes (high/mid/low). Adapted from Khmer.",
+      "reduction_ratio": 1.3333333333333333,
+      "phonological_fit": 2.0952380952380953
+    },
+    {
+      "name": "Balinese",
+      "region": "Bali, Indonesia",
+      "consonants": 33,
+      "vowels": 13,
+      "adoption_ce": 900,
+      "distance_km": 5500,
+      "language_family": "Austronesian",
+      "local_phoneme_consonants": 18,
+      "notes": "Full 33 retained for Kawi/Sanskrit literacy. Functional native subset ~18 (ha-na-ca-ra-ka).",
+      "reduction_ratio": 1.0,
+      "phonological_fit": 1.8333333333333333
+    },
+    {
+      "name": "Hanacaraka",
+      "region": "Java, Indonesia",
+      "consonants": 20,
+      "vowels": 5,
+      "adoption_ce": 1500,
+      "distance_km": 5400,
+      "language_family": "Austronesian",
+      "local_phoneme_consonants": 18,
+      "notes": "E036 result: 33→20 reduction. Lost aspiration, retroflex, sibilant distinctions. Aligns with PAn ~17.",
+      "reduction_ratio": 0.6060606060606061,
+      "phonological_fit": 1.1111111111111112
+    },
+    {
+      "name": "Lontara",
+      "region": "Sulawesi, Indonesia",
+      "consonants": 23,
+      "vowels": 5,
+      "adoption_ce": 1400,
+      "distance_km": 5600,
+      "language_family": "Austronesian",
+      "local_phoneme_consonants": 18,
+      "notes": "Buginese/Makassarese. 23 includes prenasalized stops (mb, nd, nj, ng, mp, nt, nc, nk).",
+      "reduction_ratio": 0.696969696969697,
+      "phonological_fit": 1.2777777777777777
+    },
+    {
+      "name": "Baybayin",
+      "region": "Philippines",
+      "consonants": 14,
+      "vowels": 3,
+      "adoption_ce": 1300,
+      "distance_km": 6000,
+      "language_family": "Austronesian",
+      "local_phoneme_consonants": 16,
+      "notes": "Most reduced Brahmic derivative. 14 consonants pre-colonial (pa,ba,ta,da,ka,ga,ma,na,nga,la,ra/da,wa,sa,ya,ha — varies by source). Spanish added 3.",
+      "reduction_ratio": 0.42424242424242425,
+      "phonological_fit": 0.875
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "E053_adna_taphonomic_gap",
+  "title": "Ancient DNA Taphonomic Gap in Island Southeast Asia",
+  "date": "2026-03-12",
+  "n_sites_compiled": 21,
+  "java_sites": 7,
+  "java_samples_total": 84,
+  "java_success": 0,
+  "nonjava_sites": 14,
+  "nonjava_success": 7,
+  "fisher_p": 0.0468,
+  "mean_distance_success_km": 490.0,
+  "mean_distance_failure_km": 144.0,
+  "conclusion": "Java aDNA absence is systematic volcanic taphonomic destruction",
+  "status": "SUCCESS"
+}

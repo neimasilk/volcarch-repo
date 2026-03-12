@@ -1,0 +1,190 @@
+word,origin,domain,meaning,etymology,attestation
+kayu,native,nature,wood/tree,PMP *kahiw,All kakawin
+waringin,native,nature,banyan tree,Austronesian,"Ramayana, Nagarakretagama"
+pandan,native,nature,pandanus,PMP *pandan,Ramayana
+wuŋa,native,nature,flower,PMP *buŋa,All kakawin
+ron,native,nature,leaf,PMP *dahun (shifted),All kakawin
+wwah,native,nature,fruit,PMP *buaq,All kakawin
+alas,native,nature,forest,PMP *alas,"Ramayana, Arjunawiwaha"
+gunung,native,nature,mountain,PMP *gunuŋ,All kakawin
+wukir,native,nature,mountain (literary),PMP *bukid,Arjunawiwaha
+sagara,ambiguous,nature,sea,Skt sagara / PMP *tasik,Ramayana
+tasik,native,nature,sea/lake,PMP *tasik,Ramayana
+lwah,native,nature,river,Austronesian,Nagarakretagama
+watu,native,nature,stone,PMP *batu,All kakawin
+tanah,native,nature,earth/land,PMP *taneq,All kakawin
+langit,native,nature,sky,PMP *langit,All kakawin
+angin,native,nature,wind,PMP *haŋin,All kakawin
+udan,native,nature,rain,PMP *quzan,Ramayana
+banyu,native,nature,water,PMP *wanun? or local,Nagarakretagama
+wway,native,nature,water,PMP *wahiR,All kakawin
+kukus,native,nature,smoke,PMP *kukus,Ramayana
+apuy,native,nature,fire,PMP *hapuy,All kakawin
+awu,native,nature,ash,PMP *qabu,Ramayana
+geni,native,nature,fire (lit.),Javanese innovation,Bharatayuddha
+manuk,native,nature,bird,PMP *manuk,All kakawin
+mina,native,nature,fish,PMP *mina? or local,Ramayana
+ula,native,nature,snake,PMP *SulaR,Ramayana
+asu,native,nature,dog,PMP *asu,Ramayana
+wanara,sanskrit,nature,monkey,Skt vanara,Ramayana
+gajah,sanskrit,nature,elephant,Skt gaja,All kakawin
+naga,sanskrit,nature,serpent/dragon,Skt naga,All kakawin
+garuda,sanskrit,nature,eagle deity,Skt garuda,All kakawin
+singha,sanskrit,nature,lion,Skt simha,Ramayana
+mayura,sanskrit,nature,peacock,Skt mayura,Arjunawiwaha
+kaga,sanskrit,nature,bird (literary),Skt khaga,Ramayana
+padma,sanskrit,nature,lotus,Skt padma,All kakawin
+kamala,sanskrit,nature,lotus (another),Skt kamala,Ramayana
+taru,sanskrit,nature,tree (literary),Skt taru,Arjunawiwaha
+wana,sanskrit,nature,forest (literary),Skt vana,"Ramayana, Arjunawiwaha"
+parwata,sanskrit,nature,mountain (literary),Skt parvata,Arjunawiwaha
+samudra,sanskrit,nature,ocean,Skt samudra,Ramayana
+megha,sanskrit,nature,cloud,Skt megha,All kakawin
+surya,sanskrit,nature,sun,Skt surya,All kakawin
+chandra,sanskrit,nature,moon,Skt candra,All kakawin
+tara,sanskrit,nature,star (literary),Skt tara,Arjunawiwaha
+ratri,sanskrit,nature,night,Skt ratri,All kakawin
+akasa,sanskrit,nature,sky/space,Skt akasha,All kakawin
+tangan,native,body,hand,PMP *tangan,ABVD attestation
+suku,native,body,foot,PMP *suku? or local,Kakawin usage
+mata,native,body,eye,PMP *mata,All kakawin
+kulit,native,body,skin,PMP *kulit,Ramayana
+balung,native,body,bone,PMP *baluŋ? or local,Literary
+ati,native,body,liver/heart,PMP *qatay,All kakawin
+rah,native,body,blood,PMP *daRaq,"Ramayana, Bharatayuddha"
+hulu,native,body,head,PMP *qulu,All kakawin
+rambut,native,body,hair,PMP *Rambut?,All kakawin
+irung,native,body,nose,PMP *ijuŋ,Literary
+ilat,native,body,tongue,PMP *dilaq,Literary
+susu,native,body,breast,PMP *susu,Literary
+weteng,native,body,belly,PMP *beteŋ? or local,Literary
+talinga,native,body,ear,PMP *talinga,Literary
+bahu,sanskrit,body,arm (literary),Skt bahu,Ramayana
+jangha,sanskrit,body,leg (literary),Skt jangha,Ramayana
+mukha,sanskrit,body,face,Skt mukha,All kakawin
+netra,sanskrit,body,eye (literary),Skt netra,Ramayana
+karna,sanskrit,body,ear (literary),Skt karna,Literary
+wadan,sanskrit,body,face/mouth,Skt vadana,All kakawin
+hasta,sanskrit,body,hand (literary),Skt hasta,Ramayana
+dewa,sanskrit,religion,god,Skt deva,All kakawin
+dewata,sanskrit,religion,divinity,Skt devata,All kakawin
+dharma,sanskrit,religion,cosmic law,Skt dharma,All kakawin
+karma,sanskrit,religion,action/consequence,Skt karma,Sutasoma
+moksa,sanskrit,religion,liberation,Skt moksha,"Arjunawiwaha, Sutasoma"
+puja,sanskrit,religion,worship,Skt puja,All kakawin
+mantra,sanskrit,religion,sacred formula,Skt mantra,All kakawin
+tirtha,sanskrit,religion,sacred water,Skt tirtha,Nagarakretagama
+yoga,sanskrit,religion,meditation,Skt yoga,Arjunawiwaha
+tapas,sanskrit,religion,asceticism,Skt tapas,Arjunawiwaha
+rsi,sanskrit,religion,sage,Skt rshi,All kakawin
+brahmana,sanskrit,religion,priest,Skt brahmana,All kakawin
+ksatriya,sanskrit,religion,warrior caste,Skt kshatriya,All kakawin
+swarga,sanskrit,religion,heaven,Skt svarga,All kakawin
+naraka,sanskrit,religion,hell,Skt naraka,Sutasoma
+avatara,sanskrit,religion,incarnation,Skt avatara,Sutasoma
+cakra,sanskrit,religion,wheel/disc,Skt cakra,Ramayana
+lingga,sanskrit,religion,phallus symbol,Skt linga,Nagarakretagama
+yajnya,sanskrit,religion,sacrifice,Skt yajna,All kakawin
+homa,sanskrit,religion,fire ritual,Skt homa,Ramayana
+pinda,sanskrit,religion,ancestor offering,Skt pinda,Literary
+sraddha,sanskrit,religion,funeral rite,Skt shraddha,Nagarakretagama
+prasada,sanskrit,religion,temple,Skt prasada,Nagarakretagama
+stupa,sanskrit,religion,reliquary,Skt stupa,Nagarakretagama
+wihara,sanskrit,religion,monastery,Skt vihara,"Nagarakretagama, Sutasoma"
+buddha,sanskrit,religion,awakened one,Skt buddha,Sutasoma
+bodhisattwa,sanskrit,religion,enlightenment being,Skt bodhisattva,Sutasoma
+atma,sanskrit,religion,self/soul,Skt atman,All kakawin
+jiwa,sanskrit,religion,soul/life,Skt jiva,All kakawin
+loka,sanskrit,religion,world/realm,Skt loka,All kakawin
+hyang,native,religion,indigenous deity/sacred,PMP *qiang,All kakawin
+sanghyang,native,religion,the divine (compound),PMP *qiang,All kakawin
+kabuyutan,native,religion,ancestral sacred site,Austronesian,Nagarakretagama
+wanua,native,religion,village community,PMP *banua,Nagarakretagama
+karaman,native,religion,village ritual assembly,Austronesian,Literary
+sima,ambiguous,religion,sacred boundary,Skt sima / Austronesian,Nagarakretagama
+raja,sanskrit,social,king,Skt raja,All kakawin
+ratu,ambiguous,social,ruler,Skt/Austronesian,All kakawin
+sri,sanskrit,social,honorific,Skt shri,All kakawin
+bhupati,sanskrit,social,lord of earth,Skt bhupati,All kakawin
+natha,sanskrit,social,lord/protector,Skt natha,All kakawin
+mantri,sanskrit,social,minister,Skt mantrin,Nagarakretagama
+patih,ambiguous,social,chief minister,Skt/Austronesian,Nagarakretagama
+senapati,sanskrit,social,commander,Skt senapati,All kakawin
+rakryan,native,social,lord/noble (OJ),Austronesian,Nagarakretagama
+samgat,ambiguous,social,title/official,unknown,Nagarakretagama
+guru,sanskrit,social,teacher,Skt guru,All kakawin
+anak,native,social,child,PMP *anak,All kakawin
+bini,native,social,wife,PMP *b-in-ahi,Literary
+laki,native,social,husband/male,PMP *laki,Literary
+kawula,native,social,servant/subject,Austronesian,All kakawin
+hulun,native,social,servant,Austronesian,Literary
+wong,native,social,person,Austronesian,All kakawin
+janma,sanskrit,social,person (literary),Skt janma,All kakawin
+nara,sanskrit,social,man (literary),Skt nara,All kakawin
+stri,sanskrit,social,woman (literary),Skt stri,Ramayana
+wiku,ambiguous,social,priest/monk,Skt/Austronesian,Nagarakretagama
+yuddha,sanskrit,warfare,war/battle,Skt yuddha,Bharatayuddha
+rana,sanskrit,warfare,battle,Skt rana,Bharatayuddha
+sena,sanskrit,warfare,army,Skt sena,"Ramayana, Bharatayuddha"
+wira,sanskrit,warfare,hero,Skt vira,All kakawin
+sakti,sanskrit,warfare,power,Skt shakti,All kakawin
+sanjata,sanskrit,warfare,weapon,Skt shanjata? (adapted),Bharatayuddha
+astra,sanskrit,warfare,divine weapon,Skt astra,Ramayana
+ratna,sanskrit,warfare,jewel,Skt ratna,All kakawin
+wajra,sanskrit,warfare,thunderbolt,Skt vajra,Ramayana
+panah,native,warfare,arrow/to shoot,PMP *panaq,Ramayana
+tumbak,native,warfare,spear,Austronesian,Bharatayuddha
+tameng,native,warfare,shield,Austronesian,Bharatayuddha
+keris,native,warfare,dagger,Austronesian,Nagarakretagama
+amuk,native,warfare,frenzy/attack,PMP *amuk,Bharatayuddha
+prang,native,warfare,war (native),Austronesian,Bharatayuddha
+takut,native,emotion,fear,PMP *takut,All kakawin
+welas,native,emotion,pity/compassion,Austronesian,All kakawin
+asih,native,emotion,love/affection,Austronesian,All kakawin
+bengi,native,emotion,anger,Austronesian,Literary
+tangis,native,emotion,weeping,PMP *tangis,All kakawin
+guyu,native,emotion,laughter,Austronesian,Literary
+sengsara,sanskrit,emotion,suffering,Skt samsara,Literary
+duka,sanskrit,emotion,sorrow,Skt duhkha,All kakawin
+sukha,sanskrit,emotion,happiness,Skt sukha,All kakawin
+krodha,sanskrit,emotion,wrath,Skt krodha,"Ramayana, Bharatayuddha"
+prema,sanskrit,emotion,love (literary),Skt prema,Ramayana
+bhaya,sanskrit,emotion,fear (literary),Skt bhaya,Ramayana
+karuna,sanskrit,emotion,compassion (lit.),Skt karuna,Sutasoma
+harsa,sanskrit,emotion,joy,Skt harsha,All kakawin
+soka,sanskrit,emotion,grief,Skt shoka,Ramayana
+sawah,native,agriculture,wet rice field,PMP *sabaq,Nagarakretagama
+huma,native,agriculture,dry field,PMP *qumah,Nagarakretagama
+padi,native,agriculture,rice plant,PMP *pajay,Nagarakretagama
+beras,native,agriculture,hulled rice,PMP *beRas,Literary
+galuh,native,agriculture,garden,Austronesian,Nagarakretagama
+tegal,native,agriculture,dry field (another),Austronesian,Nagarakretagama
+tambak,native,agriculture,fishpond,Austronesian,Nagarakretagama
+kebwan,native,agriculture,garden/orchard,Austronesian,Nagarakretagama
+dawuhan,native,agriculture,irrigation dam,Austronesian,Nagarakretagama
+subak,native,agriculture,irrigation society,Austronesian,Literary
+klasa,sanskrit,agriculture,granary (literary),Skt kulasa?,Literary
+wuku,native,time,210-day cycle,Austronesian,Nagarakretagama
+tahun,native,time,year,PMP *taqun,All kakawin
+bulan,native,time,month/moon,PMP *bulan,All kakawin
+dina,ambiguous,time,day,Skt dina / also local,All kakawin
+rahina,ambiguous,time,day (formal),Skt? or Austronesian,All kakawin
+wengi,native,time,night,Austronesian,All kakawin
+kala,sanskrit,time,time/era,Skt kala,All kakawin
+yuga,sanskrit,time,cosmic age,Skt yuga,Arjunawiwaha
+kalpa,sanskrit,time,cosmic cycle,Skt kalpa,Sutasoma
+masa,sanskrit,time,season/time,Skt masa,Literary
+tithi,sanskrit,time,lunar day,Skt tithi,Nagarakretagama
+naksatra,sanskrit,time,lunar mansion,Skt naksatra,Nagarakretagama
+saka,sanskrit,time,Saka era,Skt shaka,Nagarakretagama
+candi,native,architecture,temple (native term),Austronesian? or Tamil,Nagarakretagama
+pura,sanskrit,architecture,palace/city,Skt pura,All kakawin
+nagara,sanskrit,architecture,city,Skt nagara,Nagarakretagama
+grha,sanskrit,architecture,house (literary),Skt grha,All kakawin
+mandapa,sanskrit,architecture,hall,Skt mandapa,Nagarakretagama
+keraton,native,architecture,palace,Austronesian,Nagarakretagama
+desa,sanskrit,architecture,village/region,Skt desha,Nagarakretagama
+wanua,native,architecture,village,PMP *banua,Nagarakretagama
+kadatuan,native,architecture,royal compound,Austronesian,Nagarakretagama
+pasar,native,architecture,market,Austronesian,Nagarakretagama
+dharmasala,sanskrit,architecture,rest house,Skt dharmasala,Nagarakretagama

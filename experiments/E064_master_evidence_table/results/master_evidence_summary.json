@@ -1,0 +1,241 @@
+{
+  "experiment": "E064",
+  "date": "2026-03-12",
+  "status": "SUCCESS",
+  "total_experiments": 50,
+  "per_paper": {
+    "P1": {
+      "n_experiments": 12,
+      "n_significant": 7,
+      "n_failed": 0,
+      "n_informative_neg": 0,
+      "layers": [
+        "L1",
+        "L2",
+        "L5"
+      ],
+      "channels": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    "P3": {
+      "n_experiments": 3,
+      "n_significant": 0,
+      "n_failed": 1,
+      "n_informative_neg": 0,
+      "layers": [
+        "L1"
+      ],
+      "channels": [
+        1
+      ]
+    },
+    "P2": {
+      "n_experiments": 7,
+      "n_significant": 5,
+      "n_failed": 0,
+      "n_informative_neg": 0,
+      "layers": [
+        "L1"
+      ],
+      "channels": [
+        1
+      ]
+    },
+    "P9": {
+      "n_experiments": 10,
+      "n_significant": 8,
+      "n_failed": 0,
+      "n_informative_neg": 2,
+      "layers": [
+        "L1",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "channels": [
+        1,
+        5,
+        6,
+        8
+      ]
+    },
+    "P7": {
+      "n_experiments": 6,
+      "n_significant": 4,
+      "n_failed": 0,
+      "n_informative_neg": 1,
+      "layers": [
+        "L1",
+        "L3",
+        "L4"
+      ],
+      "channels": [
+        1,
+        3,
+        6,
+        9
+      ]
+    },
+    "P12": {
+      "n_experiments": 1,
+      "n_significant": 0,
+      "n_failed": 0,
+      "n_informative_neg": 1,
+      "layers": [
+        "L3",
+        "L4"
+      ],
+      "channels": [
+        8
+      ]
+    },
+    "P8": {
+      "n_experiments": 13,
+      "n_significant": 11,
+      "n_failed": 0,
+      "n_informative_neg": 2,
+      "layers": [
+        "L1",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "channels": [
+        1,
+        6,
+        7,
+        8,
+        12
+      ]
+    },
+    "P5": {
+      "n_experiments": 11,
+      "n_significant": 11,
+      "n_failed": 0,
+      "n_informative_neg": 0,
+      "layers": [
+        "L1",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "channels": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        12
+      ]
+    },
+    "P11": {
+      "n_experiments": 6,
+      "n_significant": 4,
+      "n_failed": 0,
+      "n_informative_neg": 2,
+      "layers": [
+        "L1",
+        "L4"
+      ],
+      "channels": [
+        1,
+        6,
+        7,
+        9
+      ]
+    }
+  },
+  "per_layer": {
+    "L1": {
+      "name": "Volcanic Burial",
+      "n_experiments": 21,
+      "n_success": 13,
+      "n_failed": 1,
+      "success_rate": 0.6190476190476191
+    },
+    "L2": {
+      "name": "Coastal Submersion",
+      "n_experiments": 3,
+      "n_success": 3,
+      "n_failed": 0,
+      "success_rate": 1.0
+    },
+    "L3": {
+      "name": "Historiographic Bias",
+      "n_experiments": 6,
+      "n_success": 3,
+      "n_failed": 0,
+      "success_rate": 0.5
+    },
+    "L4": {
+      "name": "Cosmological Overwrite",
+      "n_experiments": 26,
+      "n_success": 21,
+      "n_failed": 0,
+      "success_rate": 0.8076923076923077
+    },
+    "L5": {
+      "name": "Genre Taphonomy",
+      "n_experiments": 9,
+      "n_success": 9,
+      "n_failed": 0,
+      "success_rate": 1.0
+    },
+    "L6": {
+      "name": "Historiographic Periodicity",
+      "n_experiments": 6,
+      "n_success": 6,
+      "n_failed": 0,
+      "success_rate": 1.0
+    }
+  },
+  "underserved_channels": [
+    {
+      "channel": 2,
+      "name": "Maritime/Coastal",
+      "n_experiments": 2
+    },
+    {
+      "channel": 3,
+      "name": "Genetics/DNA",
+      "n_experiments": 2
+    },
+    {
+      "channel": 9,
+      "name": "Archaeoastronomy",
+      "n_experiments": 2
+    },
+    {
+      "channel": 10,
+      "name": "Material Culture",
+      "n_experiments": 1
+    },
+    {
+      "channel": 11,
+      "name": "Acoustics",
+      "n_experiments": 1
+    }
+  ],
+  "status_distribution": {
+    "OTHER": 7,
+    "SUCCESS": 31,
+    "FAILED": 1,
+    "INFORMATIVE NEG": 6,
+    "CONDITIONAL": 2,
+    "SYNTHESIS/META": 3
+  },
+  "key_findings": [
+    "L1 (Volcanic Burial) has most experiments — load-bearing pillar of the project",
+    "L4 (Cosmological Overwrite) has deepest evidence chain — 3 independent papers converge",
+    "L2 (Coastal Submersion) now has 1 experiment (E052) — quantified but needs more work",
+    "Channels 2 (Maritime), 3 (Genetics), 10 (Material Culture), 11 (Acoustics), 12 (Script) are underserved",
+    "70% of experiments are SUCCESS or CONDITIONAL — strong overall hit rate",
+    "Failed experiments (E017) and informative negatives (E020, E029, E038, E039) are honestly documented"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "experiment": "E056_candi_toponym_crossref",
+  "date": "2026-03-12",
+  "n_candi": 142,
+  "n_kabupaten": 115,
+  "kab_with_candi": 18,
+  "kab_without_candi": 97,
+  "mean_prehidu_with_candi": 0.494,
+  "mean_prehidu_without_candi": 0.591,
+  "mannwhitney_p": 0.0067,
+  "spearman_rho_all": -0.24,
+  "spearman_p_all": 0.0098
+}

@@ -1,0 +1,66 @@
+{
+  "experiment": "E042 Syllable Count Validation",
+  "date": "2026-03-11",
+  "char_syllable_correlation": 0.8695,
+  "mean_syllables_austronesian": 2.29,
+  "mean_syllables_nonmainstream": 2.57,
+  "cv_results": {
+    "char_length": {
+      "auc_mean": 0.7679,
+      "auc_std": 0.0263
+    },
+    "syllable_count": {
+      "auc_mean": 0.7685,
+      "auc_std": 0.0259
+    },
+    "both": {
+      "auc_mean": 0.7683,
+      "auc_std": 0.0255
+    },
+    "no_length": {
+      "auc_mean": 0.7685,
+      "auc_std": 0.0247
+    }
+  },
+  "lolo_results": {
+    "char_length": {
+      "Bugis": 0.7231,
+      "Makassar": 0.7378,
+      "Muna": 0.6796,
+      "Tolaki": 0.8098,
+      "Toraja-Sadan": 0.6828,
+      "Wolio": 0.6994
+    },
+    "syllable_count": {
+      "Bugis": 0.7215,
+      "Makassar": 0.7603,
+      "Muna": 0.6532,
+      "Tolaki": 0.8271,
+      "Toraja-Sadan": 0.7018,
+      "Wolio": 0.7037
+    },
+    "both": {
+      "Bugis": 0.7231,
+      "Makassar": 0.7293,
+      "Muna": 0.66,
+      "Tolaki": 0.8192,
+      "Toraja-Sadan": 0.6728,
+      "Wolio": 0.7001
+    },
+    "no_length": {
+      "Bugis": 0.7223,
+      "Makassar": 0.7588,
+      "Muna": 0.6897,
+      "Tolaki": 0.8277,
+      "Toraja-Sadan": 0.702,
+      "Wolio": 0.6883
+    }
+  },
+  "lolo_means": {
+    "char_length": 0.7221,
+    "syllable_count": 0.7279,
+    "both": 0.7174,
+    "no_length": 0.7315
+  },
+  "conclusion": "ROBUST: Replacing character count with syllable count produces negligible change (CV delta=+0.0006, LOLO delta=+0.0058). The length signal operates at syllable level, not character level."
+}

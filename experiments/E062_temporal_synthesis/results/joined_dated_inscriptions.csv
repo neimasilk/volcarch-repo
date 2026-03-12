@@ -1,0 +1,167 @@
+filename,title,lang,year_ce,century,word_count,total_keywords,indic,pre_indic,ambiguous,pre_indic_ratio,has_hyang,has_manhuri,has_wuku,n_plants,has_ritual_context,n_organic,n_lithic,n_metal,has_hyang_int,has_wuku_int,has_manhuri_int,has_ritual_int
+DHARMA_INSIDENK00007.xml,"Dharmasraya A (Padang Roco Amoghapāśa base), 1286 CE",omy-Latn,1286.0,13,128,6,5,1,0,0.167,False,False,True,0,False,3,1,1,0,1,0,0
+DHARMA_INSIDENK00050.xml,"Pillar from Kota Kapur (N. 50), 608 Śaka",omy-Latn,686.0,7,270,1,1,0,0,0.0,False,False,False,2,False,1,0,0,0,0,0,0
+DHARMA_INSIDENK00066.xml,"Śrīkṣetra Dedication: Slab from Talang Tuwo (N. 66), 606 Śaka",omy-Latn,684.0,7,241,3,2,1,0,0.333,True,False,False,0,False,3,0,1,1,0,0,0
+DHARMA_INSIDENK00096.xml,"Stela from Bukit Gombak (N. 96), 1278 Śaka",omy-Latn,1356.0,14,236,2,2,0,0,0.0,False,False,False,1,False,1,1,1,0,0,0,0
+DHARMA_INSIDENK00138.xml,"Bronze base for a triad of statuettes (N. 138, ca. 10th c. CE)",omy-Latn,950.0,10,15,0,0,0,0,0.0,False,False,False,1,False,1,0,1,0,0,0,0
+DHARMA_INSIDENK00186.xml,"Makara of Candi Kedaton (N. 186), 10/11th c. CE",kaw-Latn,1050.0,11,4,0,0,0,0,0.0,False,False,False,0,False,0,1,1,0,0,0,0
+DHARMA_INSIDENK00351.xml,"Foundation of Sarungga's Hermitage (N. 351), 823 Śaka",kaw-Latn,901.0,10,18,2,2,0,0,0.0,False,False,False,3,True,0,0,1,0,0,0,1
+DHARMA_INSIDENK00388.xml,"Silver vase of the deity at Dieng, early 10th c. CE",kaw-Latn,950.0,10,14,0,0,0,0,0.0,False,False,False,0,False,1,1,1,0,0,0,0
+DHARMA_INSIDENK00526.xml,Kamalagyan charter (959 Śaka),kaw-Latn,1037.0,11,880,8,6,1,1,0.125,True,False,False,4,True,3,1,2,1,0,0,1
+DHARMA_INSIDENKAbhayananda.xml,Abhayananda (779 Śaka),kaw-Latn,857.0,9,38,3,2,0,1,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKAdanAdan.xml,Adan-Adan (1223 Śaka),kaw-Latn,1301.0,14,1490,12,7,2,3,0.167,True,False,True,6,True,5,0,3,1,1,0,1
+DHARMA_INSIDENKAirAsih.xml,Air Asih (between 1177 and 1208 Śaka),kaw-Latn,1286.0,13,277,5,3,1,1,0.2,True,False,False,4,True,0,1,3,1,0,0,1
+DHARMA_INSIDENKAirKali.xml,Air Kali (849-850 Śaka),kaw-Latn,928.0,10,347,3,1,1,1,0.333,True,False,False,3,True,1,0,1,1,0,0,1
+DHARMA_INSIDENKAyamTeas_I.xml,Ayam Teas I (822 Śaka),kaw-Latn,900.0,9,252,4,3,0,1,0.0,False,False,False,4,True,0,0,1,0,0,0,1
+DHARMA_INSIDENKAyamTeas_III.xml,"Charter of Ayam Teas III (822 Śaka, 901-01-01)",kaw-Latn,901.0,10,270,1,1,0,0,0.0,False,False,False,3,False,0,0,1,0,0,0,0
+DHARMA_INSIDENKBalekambang.xml,Prayer for long life of Vijaya (7th c. CE),san-Latn,650.0,7,22,1,0,1,0,1.0,True,False,False,1,True,1,2,0,1,0,0,1
+DHARMA_INSIDENKBarahasrama.xml,"Barahasrama (837 Śaka, 915-12-14)",kaw-Latn,915.0,10,730,8,5,1,2,0.125,True,False,False,7,True,5,1,2,1,0,0,1
+DHARMA_INSIDENKBhatari.xml,"Bhatari (829 Śaka, 907-10-07)",unknown,907.0,10,448,6,3,1,2,0.167,True,False,False,3,True,2,0,2,1,0,0,1
+DHARMA_INSIDENKBorobudurHB021.xml,"Relief label from Borobudur's hidden base, no. 21 (8th c. CE)",san-Latn,750.0,8,6,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB043.xml,"Relief label from Borobudur's hidden base, no. 43 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB121A.xml,"Relief label from Borobudur's hidden base, no. 121A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB121B.xml,"Relief label from Borobudur's hidden base, no. 121B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB122.xml,"Relief label from Borobudur's hidden base, no. 122 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB123.xml,"Relief label from Borobudur's hidden base, no. 123 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB124A.xml,"Relief label from Borobudur's hidden base, no. 124A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB124B.xml,"Relief label from Borobudur's hidden base, no. 124B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,1,0,0,0,0
+DHARMA_INSIDENKBorobudurHB125A.xml,"Relief label from Borobudur's hidden base, no. 125A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB125B.xml,"Relief label from Borobudur's hidden base, no. 125B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB126A.xml,"Relief label from Borobudur's hidden base, no. 126A (8th c. CE)",san-Latn,750.0,8,2,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB126B.xml,"Relief label from Borobudur's hidden base, no. 126B (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB127A.xml,"Relief label from Borobudur's hidden base, no. 127A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB127B.xml,"Relief label from Borobudur's hidden base, no. 127B (8th c. CE)",san-Latn,750.0,8,3,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB128.xml,"Relief label from Borobudur's hidden base, no. 128 (8th c. CE)",san-Latn,750.0,8,3,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB129.xml,"Relief label from Borobudur's hidden base, no. 129 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB130.xml,"Relief label from Borobudur's hidden base, no. 130 (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB131A.xml,"Relief label from Borobudur's hidden base, no. 131A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB131B.xml,"Relief label from Borobudur's hidden base, no. 131B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB132.xml,"Relief label from Borobudur's hidden base, no. 132 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB133.xml,"Relief label from Borobudur's hidden base, no. 133 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB134A.xml,"Relief label from Borobudur's hidden base, no. 134A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB134B.xml,"Relief label from Borobudur's hidden base, no. 134B (8th c. CE)",san-Latn,750.0,8,2,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB135A.xml,"Relief label from Borobudur's hidden base, no. 135A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB135B.xml,"Relief label from Borobudur's hidden base, no. 135B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB137.xml,"Relief label from Borobudur's hidden base, no. 137 (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB138A.xml,"Relief label from Borobudur's hidden base, no. 138A (8th c. CE)",san-Latn,750.0,8,2,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB138B.xml,"Relief label from Borobudur's hidden base, no. 138B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB139.xml,"Relief label from Borobudur's hidden base, no. 139 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB140.xml,"Relief label from Borobudur's hidden base, no. 140 (8th c. CE)",san-Latn,750.0,8,2,0,0,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB141.xml,"Relief label from Borobudur's hidden base, no. 141 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB142.xml,"Relief label from Borobudur's hidden base, no. 142 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB144.xml,"Relief label from Borobudur's hidden base, no. 144 (8th c. CE)",san-Latn,750.0,8,2,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB147.xml,"Relief label from Borobudur's hidden base, no. 147 (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB148A.xml,"Relief label from Borobudur's hidden base, no. 148A (8th c. CE)",san-Latn,750.0,8,2,0,0,0,0,0.0,False,False,False,2,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB148B.xml,"Relief label from Borobudur's hidden base, no. 148B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB149.xml,"Relief label from Borobudur's hidden base, no. 149 (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB150A.xml,"Relief label from Borobudur's hidden base, no. 150A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,2,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB150B.xml,"Relief label from Borobudur's hidden base, no. 150B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB151.xml,"Relief label from Borobudur's hidden base, no. 151 (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB152A.xml,"Relief label from Borobudur's hidden base, no. 152A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB152B.xml,"Relief label from Borobudur's hidden base, no. 152B (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB153A.xml,"Relief label from Borobudur's hidden base, no. 153A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB153B.xml,"Relief label from Borobudur's hidden base, no. 153B (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB154A.xml,"Relief label from Borobudur's hidden base, no. 154A (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB154B.xml,"Relief label from Borobudur's hidden base, no. 154B (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBorobudurHB154C.xml,"Relief label from Borobudur's hidden base, no. 154C (8th c. CE)",san-Latn,750.0,8,1,1,1,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKBorobudurHB157.xml,"Relief label from Borobudur's hidden base, no. 157 (8th c. CE)",san-Latn,750.0,8,1,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKBukateja.xml,Embossed Image of Śiva in Gold Leaf from Central Java (8th c. CE),omy-Latn,750.0,8,6,0,0,0,0,0.0,False,False,False,1,False,1,0,0,0,0,0,0
+DHARMA_INSIDENKBularut.xml,Bularut charter (964 Śaka),kaw-Latn,1042.0,11,1539,2,1,0,1,0.0,False,False,False,3,False,3,1,1,0,0,0,0
+DHARMA_INSIDENKCanggal.xml,The stela of Canggal or Gunung Wukir (654 Śaka),san-Latn,732.0,8,266,4,3,0,1,0.0,False,False,False,4,True,1,1,3,0,0,0,1
+DHARMA_INSIDENKDalinan.xml,"Charter for the demarcation of Wukajana, Tumpak & Wuru Telu villages for the monastery at Dalinan (825 Śaka, 5 March 904)",kaw-Latn,903.0,10,1896,9,5,2,2,0.222,True,True,False,5,True,4,1,1,1,0,1,1
+DHARMA_INSIDENKDawangsari.xml,"A poem in honor of Gaṇeśa found at Dawangsari, 9th c. CE",kaw-Latn,850.0,9,134,2,2,0,0,0.0,False,False,False,2,False,1,0,2,0,0,0,0
+DHARMA_INSIDENKdevadravya.xml,Inventory of a Śaiva temple at Dieng (9th c. CE),omy-Latn,850.0,9,90,2,1,1,0,0.5,True,False,False,1,True,0,1,0,1,0,0,1
+DHARMA_INSIDENKDinoyoIIa.xml,Two connected charters on a stone from Dinoyo (772 and 786 Śaka),kaw-Latn,864.0,9,265,5,3,1,1,0.2,True,False,False,2,True,1,1,1,1,0,0,1
+DHARMA_INSIDENKDisunuh.xml,Disunuh (709 Śaka),kaw-Latn,787.0,8,76,4,3,0,1,0.0,False,False,False,2,True,1,0,0,0,0,0,1
+DHARMA_INSIDENKGajahMada.xml,Gajah Mada's foundation of a caitya (1351-04-27),kaw-Latn,1351.0,14,129,3,3,0,0,0.0,False,False,False,1,True,1,0,1,0,0,0,1
+DHARMA_INSIDENKGondangLor.xml,Akṣobhya Statue from Gondang Lor (11th or 12th c. CE),san-Latn,1150.0,12,52,2,1,0,1,0.0,False,False,False,1,False,1,0,1,0,0,0,0
+DHARMA_INSIDENKGulungGulung.xml,Gulung-Gulung (851 Śaka),kaw-Latn,929.0,10,1707,10,7,1,2,0.1,True,False,False,8,True,4,2,1,1,0,0,1
+DHARMA_INSIDENKHampran.xml,Gift of Hampran village (674 Śaka),unknown,752.0,8,56,1,1,0,0,0.0,False,False,False,1,False,2,0,0,0,0,0,0
+DHARMA_INSIDENKHering.xml,Charter of Hering (870 Śaka),san-Latn,948.0,10,1456,8,5,2,1,0.25,False,True,False,4,True,3,0,1,0,0,1,1
+DHARMA_INSIDENKHorren.xml,"Charter of Horren, ca. 975 Śaka",kaw-Latn,1053.0,11,180,2,0,1,1,0.5,True,False,False,2,True,3,0,0,1,0,0,1
+DHARMA_INSIDENKHujungGaluh-Sangsang.xml,Hujung Galuh / Sangsang (907-05-04),unknown,907.0,10,695,7,5,0,2,0.0,False,False,False,4,True,2,0,1,0,0,0,1
+DHARMA_INSIDENKHumanding.xml,The Polengan plates: Humanding charter (797 Śaka),kaw-Latn,875.0,9,584,6,3,1,2,0.167,True,False,False,5,True,4,1,1,1,0,0,1
+DHARMA_INSIDENKHuwung.xml,Demarcation of Huwung (822/823 CE),kaw-Latn,823.0,9,55,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKJeruJeru.xml,Jeru-Jeru (852 Śaka),kaw-Latn,930.0,10,1441,10,7,1,2,0.1,True,False,False,6,True,4,1,1,1,0,0,1
+DHARMA_INSIDENKJurungan.xml,The Polengan plates: Jurungan charter (798 Śaka),kaw-Latn,876.0,9,1401,5,2,1,2,0.2,True,False,False,2,True,2,2,2,1,0,0,1
+DHARMA_INSIDENKKanjuruhan.xml,The Kanjuruhan Charter (682 Śaka),san-Latn,760.0,8,259,2,2,0,0,0.0,False,False,False,3,True,3,0,0,0,0,0,1
+DHARMA_INSIDENKKarangloMojokerto.xml,Karang Lo (1019 Śaka),kaw-Latn,1097.0,11,12,2,1,1,0,0.5,True,False,False,1,True,1,0,0,1,0,0,1
+DHARMA_INSIDENKKasugihan.xml,"Kasugihan (829 Śaka, 907-11-18)",kaw-Latn,907.0,10,386,4,3,1,0,0.25,True,False,False,3,True,2,0,2,1,0,0,1
+DHARMA_INSIDENKKayuAraHiwang.xml,Kayu Ara Hiwang (823 Śaka),kaw-Latn,901.0,10,538,6,3,1,2,0.167,True,False,False,4,True,2,1,2,1,0,0,1
+DHARMA_INSIDENKKayumwungan.xml,Kayumwungan charter of the Veṇuvanavihāra (746 Śaka),kaw-Latn,824.0,9,681,4,3,1,0,0.25,True,False,False,6,True,4,0,1,1,0,0,1
+DHARMA_INSIDENKKetanen.xml,"Ketanen (826 Ś, 904/905)",unknown,904.0,10,197,1,1,0,0,0.0,False,False,False,3,False,1,0,1,0,0,0,0
+DHARMA_INSIDENKKinewu.xml,Kinewu (829 Śaka – 907-11-20),unknown,907.0,10,577,6,4,1,1,0.167,True,False,False,3,True,0,0,1,1,0,0,1
+DHARMA_INSIDENKKiringan.xml,Kiringan (917-11-14),kaw-Latn,917.0,10,269,3,2,1,0,0.333,True,False,False,2,True,4,0,2,1,0,0,1
+DHARMA_INSIDENKKubu-Kubu.xml,"Kubu-Kubu (827 Ś, 905-10-17)",kaw-Latn,905.0,10,1009,7,5,2,0,0.286,True,True,False,3,True,3,0,1,1,0,1,1
+DHARMA_INSIDENKKusambyan.xml,Kusambyan charter (945 Śaka),kaw-Latn,1023.0,11,389,2,1,1,0,0.5,True,False,False,0,False,1,0,0,1,0,0,0
+DHARMA_INSIDENKLaguna.xml,Laguna Copper plate (820 Śaka),omy-Latn,898.0,9,141,3,3,0,0,0.0,False,False,False,1,True,1,0,1,0,0,0,1
+DHARMA_INSIDENKLanda.xml,Resources of the temple at Landa (late 9th c. CE),kaw-Latn,850.0,9,179,2,0,1,1,0.5,True,False,False,1,True,1,1,1,1,0,0,1
+DHARMA_INSIDENKLinggasuntan.xml,Linggasuntan (851 Śaka),kaw-Latn,929.0,10,1784,11,7,1,3,0.091,True,False,False,6,True,3,0,1,1,0,0,1
+DHARMA_INSIDENKLintakan.xml,"Lintakan (841 Śaka, 919-07-12)",kaw-Latn,919.0,10,2131,10,6,1,3,0.1,True,False,False,5,True,4,1,2,1,0,0,1
+DHARMA_INSIDENKMadhawapura.xml,Madhawapura (13th c. CE),kaw-Latn,1250.0,13,551,3,1,1,1,0.333,True,False,False,4,True,3,0,2,1,0,0,1
+DHARMA_INSIDENKMamali.xml,The Polengan plates: Mamali Charter (800 Śaka),kaw-Latn,878.0,9,269,5,3,1,1,0.2,True,False,False,1,True,2,0,2,1,0,0,1
+DHARMA_INSIDENKManahimanuk.xml,Manah i Manuk Charter (1350–1356 CE),kaw-Latn,1356.0,14,760,6,3,2,1,0.333,True,True,False,2,True,0,0,3,1,0,1,1
+DHARMA_INSIDENKManjusrigerha.xml,Manjusrigerha (792 CE),omy-Latn,792.0,8,139,4,3,1,0,0.25,True,False,False,1,True,1,1,1,1,0,0,1
+DHARMA_INSIDENKMantyasihII.xml,"Mantyasih II (829 Śaka, 907-04-11)",kaw-Latn,907.0,10,117,4,2,1,1,0.25,True,False,False,3,True,3,0,0,1,0,0,1
+DHARMA_INSIDENKMaribong.xml,The Maribong Charter of Wisnuwardhana (1170 Śaka),kaw-Latn,1248.0,13,73,7,6,1,0,0.143,False,False,True,2,True,3,0,2,0,1,0,1
+DHARMA_INSIDENKMarsemu.xml,"Marsemu charter, ca. 875 CE",kaw-Latn,875.0,9,51,0,0,0,0,0.0,False,False,False,0,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKMasahar.xml,Charter of Masahar (852 Śaka),kaw-Latn,930.0,10,1893,14,8,3,3,0.214,True,True,False,6,True,6,2,1,1,0,1,1
+DHARMA_INSIDENKMunggut.xml,Munggut charter (944 Śaka),kaw-Latn,1022.0,11,1112,14,9,4,1,0.286,True,True,False,5,True,5,1,2,1,0,1,1
+DHARMA_INSIDENKNglumbangDungik.xml,Stone from Nglumbang Dungik (9th-10th c. CE),san-Latn,950.0,10,24,1,0,1,0,1.0,True,False,False,1,True,0,0,0,1,0,0,1
+DHARMA_INSIDENKPadingding.xml,"Stray plate of a foundation bordering on Paḍiṅḍiṅ, Paṅeran and Pajənvan (14th c. CE)",kaw-Latn,1350.0,14,278,0,0,0,0,0.0,False,False,False,2,False,0,1,0,0,0,0,0
+DHARMA_INSIDENKPakisWetan.xml,The Pakis Wetan Charter of Kertanagara (1188 Śaka),kaw-Latn,1266.0,13,130,8,6,2,0,0.25,False,True,True,0,False,3,0,1,0,1,1,0
+DHARMA_INSIDENKPalepangan.xml,Palepangan charter (828 Śaka),kaw-Latn,906.0,10,386,5,4,0,1,0.0,False,False,False,2,True,4,0,2,0,0,0,1
+DHARMA_INSIDENKPananggaran.xml,Pananggaran (791 Śaka),kaw-Latn,869.0,9,90,4,3,1,0,0.25,True,False,False,2,True,1,0,1,1,0,0,1
+DHARMA_INSIDENKPanunggalan.xml,"Panunggalan charter (818 Śaka, 896-08-15 CE)",kaw-Latn,896.0,9,230,5,4,1,0,0.2,True,False,False,0,False,1,0,2,1,0,0,0
+DHARMA_INSIDENKParablyan.xml,Parablyan (between 1177 and 1208 Śaka),kaw-Latn,1286.0,13,256,4,2,2,0,0.5,True,True,False,2,True,2,0,2,1,0,1,1
+DHARMA_INSIDENKPesindon.xml,Pesindon I and II (914-08-14),kaw-Latn,914.0,10,60,5,4,1,0,0.2,True,False,False,1,True,3,0,1,1,0,0,1
+DHARMA_INSIDENKPlalangan.xml,Stone from Plalangan (9th-10th c. CE),san-Latn,950.0,10,38,0,0,0,0,0.0,False,False,False,1,False,1,0,0,0,0,0,0
+DHARMA_INSIDENKPucangan.xml,Charter of Pucangan (1041-11-6),kaw-Latn,1041.0,11,1848,16,13,1,2,0.062,True,False,False,9,True,5,3,2,1,0,0,1
+DHARMA_INSIDENKPuhawangGlis.xml,Puhawang Glis (749 Śaka),omy-Latn,827.0,9,78,4,3,1,0,0.25,True,False,False,1,True,0,0,0,1,0,0,1
+DHARMA_INSIDENKRabvan.xml,"Rabvan (827 Śaka, 906-02-03)",unknown,906.0,10,29,3,3,0,0,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKRaKidanI.xml,Ra Kidan I (750-800 Śaka),kaw-Latn,878.0,9,126,4,2,1,1,0.25,True,False,False,3,True,0,0,0,1,0,0,1
+DHARMA_INSIDENKRameswarapura.xml,Rameswarapura charter (1197 Śaka),kaw-Latn,1275.0,13,2091,11,6,2,3,0.182,True,True,False,6,True,4,1,3,1,0,1,1
+DHARMA_INSIDENKRampal.xml,Rampal (ca. 875 CE),kaw-Latn,875.0,9,404,3,3,0,0,0.0,False,False,False,1,True,1,0,1,0,0,0,1
+DHARMA_INSIDENKRukam.xml,Charter of Rukam (829 Śaka),kaw-Latn,907.0,10,1528,9,4,2,3,0.222,True,True,False,4,True,2,2,2,1,0,1,1
+DHARMA_INSIDENKRumwigaI.xml,"Rumwiga I (826 Śaka, 904-12-28)",unknown,904.0,10,474,5,4,1,0,0.2,True,False,False,3,True,0,0,2,1,0,0,1
+DHARMA_INSIDENKRumwigaII.xml,"Rumwiga II (827 Śaka, 905-07-05)",unknown,905.0,10,522,6,5,0,1,0.0,False,False,False,2,True,1,0,2,0,0,0,1
+DHARMA_INSIDENKSalingsinganII.xml,Donation Record of Salingsingan II (802 Śaka) and Kikil Batu Addendum (827 Śaka),kaw-Latn,880.0,9,699,6,4,0,2,0.0,False,False,False,4,True,3,1,2,0,0,0,1
+DHARMA_INSIDENKSamalagi.xml,"Samalagi ([824 Ś], 902-10-29)",unknown,902.0,10,431,4,1,1,2,0.25,True,False,False,3,True,1,0,2,1,0,0,1
+DHARMA_INSIDENKSanga.xml,Charter of Sanga (13th c. CE),kaw-Latn,1250.0,13,381,3,0,2,1,0.667,True,True,False,5,True,2,0,1,1,0,1,1
+DHARMA_INSIDENKSangguran.xml,Sangguran Charter (928-08-02),kaw-Latn,928.0,10,2054,11,6,1,4,0.091,True,False,False,6,True,2,1,2,1,0,0,1
+DHARMA_INSIDENKSangHyangTapak.xml,Sang Hyang Tapak Charter of Jayabhūpati (952 Śaka),kaw-Latn,1030.0,11,335,6,4,1,1,0.167,True,False,False,1,True,1,0,1,1,0,0,1
+DHARMA_INSIDENKSangMakudur.xml,"Sang Makudur (~830 Śaka, ~908 CE)",unknown,908.0,10,0,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKSarwadharma.xml,Sarwadharma (1191 Śaka),kaw-Latn,1269.0,13,1055,8,6,2,0,0.25,True,True,False,5,True,4,1,1,1,0,1,1
+DHARMA_INSIDENKSikuLalawa.xml,Stray plate of a foundation bordering on Halaṅan and Taratap (13th c. CE),kaw-Latn,1250.0,13,246,1,0,1,0,1.0,True,False,False,0,False,1,0,1,1,0,0,0
+DHARMA_INSIDENKSilamanikundala.xml,Foundation of a Dam Called Śilāmaṇi-kuṇḍala (1272 Śaka),kaw-Latn,1350.0,14,220,4,4,0,0,0.0,False,False,False,1,True,2,1,1,0,0,0,1
+DHARMA_INSIDENKSimaAnglayang.xml,Sima Anglayang charter (in or after 968 Śaka),kaw-Latn,1046.0,11,2401,10,6,2,2,0.2,True,False,False,5,True,2,0,1,1,0,0,1
+DHARMA_INSIDENKSindoro-PuBahut.xml,Pu Bahut (828 Śaka),kaw-Latn,906.0,10,320,4,3,0,1,0.0,False,False,False,2,True,1,0,2,0,0,0,1
+DHARMA_INSIDENKSindoro-PuMamruk.xml,Pu Mamruk (828 Śaka),kaw-Latn,906.0,10,259,3,3,0,0,0.0,False,False,False,2,True,1,0,2,0,0,0,1
+DHARMA_INSIDENKSriManggalaII.xml,Sri Manggala II (796 Śaka),kaw-Latn,874.0,9,111,5,4,0,1,0.0,False,False,False,1,True,3,0,0,0,0,0,1
+DHARMA_INSIDENKSriManggalaIII.xml,Sri Manggala III (796 Śaka),kaw-Latn,874.0,9,90,6,4,1,1,0.167,True,False,False,1,True,3,0,0,1,0,0,1
+DHARMA_INSIDENKSugihManek.xml,"Sugih Manek Charter (837 Śaka, 915-09-13)",kaw-Latn,915.0,10,1367,10,7,2,1,0.2,True,True,False,8,True,5,3,1,1,0,1,1
+DHARMA_INSIDENKSumundul.xml,Sumundul (791 Śaka),kaw-Latn,869.0,9,102,4,3,1,0,0.25,True,False,False,2,True,0,0,0,1,0,0,1
+DHARMA_INSIDENKTaji.xml,"The Charter of Taji (823 Śaka, 8 April 901)",kaw-Latn,901.0,10,1211,6,4,1,1,0.167,True,False,False,2,True,2,1,2,1,0,0,1
+DHARMA_INSIDENKTajiGunung.xml,"Taji Gunung (Sañjaya 194, 910-12-21)",kaw-Latn,910.0,10,950,7,3,2,2,0.286,True,False,False,3,True,5,2,2,1,0,0,1
+DHARMA_INSIDENKTalan.xml,Charter of Talan (941 and 1058 Śaka),kaw-Latn,1136.0,12,969,9,5,2,2,0.222,True,False,False,4,True,5,0,1,1,0,0,1
+DHARMA_INSIDENKTaragal.xml,The Polengan plates: Taragal Charter (802 Śaka),kaw-Latn,880.0,9,511,5,3,1,1,0.2,True,False,False,2,True,2,1,1,1,0,0,1
+DHARMA_INSIDENKTelangII-WanagiriII.xml,"Telang II / Wanagiri II (825 Ś, 904-01-11)",unknown,904.0,10,177,4,4,0,0,0.0,False,False,False,3,True,1,0,0,0,0,0,1
+DHARMA_INSIDENKTigaRon-TluRon.xml,Charter of Tiga Ron also called Təlu Ron (822 Śaka – 900-03-30),kaw-Latn,900.0,9,659,2,1,1,0,0.5,True,False,False,1,True,2,1,1,1,0,0,1
+DHARMA_INSIDENKTihang.xml,"Tihang charter (Sañjaya 198, 836 Śaka, 914-11-08 CE)",kaw-Latn,914.0,10,396,7,4,1,2,0.143,True,False,False,4,True,5,1,2,1,0,0,1
+DHARMA_INSIDENKTija-HaruHaru.xml,Tija & Haru-Haru (11th c. CE?),kaw-Latn,1050.0,11,427,2,1,0,1,0.0,False,False,False,1,True,2,0,1,0,0,0,1
+DHARMA_INSIDENKTimbananWungkal.xml,"Timbanan Wungkal (Sañjaya 196, 913-02-11)",kaw-Latn,913.0,10,255,5,3,1,1,0.2,False,True,False,2,True,3,1,1,0,0,1,1
+DHARMA_INSIDENKTugu.xml,Tugu Boulder Inscription of Pūrṇavarman (ca. 6th c. CE),san-Latn,550.0,6,59,1,1,0,0,0.0,False,False,False,0,False,1,1,0,0,0,0,0
+DHARMA_INSIDENKTukMas.xml,Praise of a mountain stream (mid-7th c. CE),san-Latn,650.0,7,18,0,0,0,0,0.0,False,False,False,1,False,0,0,1,0,0,0,0
+DHARMA_INSIDENKTulangan.xml,"Tulangan (832 Śaka, 910-08-13)",unknown,910.0,10,82,2,2,0,0,0.0,False,False,False,3,True,1,0,0,0,0,0,1
+DHARMA_INSIDENKTulangEr.xml,Tulang Er III (914-12-30),kaw-Latn,914.0,10,718,5,3,1,1,0.2,True,False,False,3,True,3,2,2,1,0,0,1
+DHARMA_INSIDENKTunahan.xml,The Polengan plates: Tunahan Charter (794 Śaka),kaw-Latn,872.0,9,182,3,3,0,0,0.0,False,False,False,0,False,3,0,2,0,0,0,0
+DHARMA_INSIDENKTuruMangambil.xml,"Turu Mangambil (~830 Śaka, ~908 CE)",unknown,908.0,10,0,0,0,0,0,0.0,False,False,False,1,False,0,0,0,0,0,0,0
+DHARMA_INSIDENKUpitI.xml,Upit I (788 Śaka),kaw-Latn,866.0,9,20,3,2,0,1,0.0,False,False,False,1,True,1,0,0,0,0,0,1
+DHARMA_INSIDENKWangkud.xml,Demarcation of Asam Panjang (874 CE),kaw-Latn,874.0,9,43,4,3,0,1,0.0,False,False,False,2,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKWatuGenuk.xml,Watu Genuk slab (8th c. CE),san-Latn,750.0,8,62,0,0,0,0,0.0,False,False,False,0,False,1,1,1,0,0,0,0
+DHARMA_INSIDENKWatuRidang.xml,"Watu Ridang (832 Śaka, 910-03-22)",unknown,910.0,10,649,10,5,2,3,0.2,True,True,False,4,True,2,1,1,1,0,1,1
+DHARMA_INSIDENKWayuku.xml,Wayuku (776 Śaka),kaw-Latn,854.0,9,25,3,2,0,1,0.0,False,False,False,1,True,0,0,0,0,0,0,1
+DHARMA_INSIDENKWintangMasI.xml,Wintang Mas I (800 Śaka),kaw-Latn,878.0,9,310,9,6,1,2,0.111,True,False,False,3,True,1,0,2,1,0,0,1
+DHARMA_INSIDENKWintangMasII.xml,"Wintang Mas II (841 Śaka, 919-10-12)",kaw-Latn,919.0,10,290,5,3,1,1,0.2,True,False,False,4,True,3,0,3,1,0,0,1
+DHARMA_INSIDENKWukiran.xml,"Stela of Pereng, also known as Wukiran inscription (784 Śaka, 863-1-25 CE)",kaw-Latn,863.0,9,161,7,4,1,2,0.143,True,False,False,0,False,2,1,0,1,0,0,0
+DHARMA_INSIDENKWuruTunggal.xml,Wuru Tunggal (833 Śaka),kaw-Latn,911.0,10,122,5,3,2,0,0.4,True,False,False,1,True,4,1,1,1,0,0,1

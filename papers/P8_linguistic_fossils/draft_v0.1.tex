@@ -26,7 +26,7 @@
 % --- Title ---
 \title{Phonological Fossils: Machine Learning Detection of Non-Mainstream Vocabulary in Sulawesi Basic Lexicon}
 
-\author{Mukhlis Amien}
+\author{Mukhlis Amien \and Go Frendi Gunawan}
 
 \date{}
 
@@ -38,10 +38,11 @@
 Basic vocabulary in many Sulawesi Austronesian languages includes forms that resist reconstruction to any proto-form and show phonological patterns inconsistent with inherited roots---but whether this non-conforming vocabulary represents pre-Austronesian substrate or independent innovation has not been tested computationally.
 We address this question by combining a rule-based cognate subtraction method with a machine learning classifier trained exclusively on phonological features.
 Using 1,357 lexical forms from six Sulawesi languages in the Austronesian Basic Vocabulary Database, we first identify 438 candidate substrate forms (26.5\% of the corpus) through cognate subtraction and Proto-Austronesian cross-checking.
-An XGBoost classifier trained only on 27 phonological and distributional features---excluding cognacy data---distinguishes inherited Austronesian vocabulary from candidate substrates with AUC = 0.760 ($\pm$ 0.007), revealing a ``phonological fingerprint'' of non-mainstream vocabulary: longer forms, more consonant clusters, higher rates of glottal stops, and fewer canonical Austronesian prefixes.
-Cross-method consensus analysis (Cohen's $\kappa$ = 0.61) identifies 266 high-confidence substrate candidates confirmed by both methods.
-However, phonological clustering of these consensus candidates yields no coherent word families (silhouette = 0.114; cross-linguistic cognate test $p$ = 0.569), indicating that the substrates represent parallel independent innovations rather than a single pre-Austronesian language layer.
-Application to 16 additional languages confirms geographic patterning: Sulawesi languages show significantly higher predicted substrate rates (mean $P_\mathrm{substrate}$ = 0.606) than Western Indonesian languages (0.393).
+An XGBoost classifier trained on 26 phonological and distributional features---excluding all cognacy data---distinguishes inherited Austronesian vocabulary from non-mainstream forms with AUC = 0.763 ($\pm$ 0.007), revealing a ``phonological fingerprint'': longer forms, more consonant clusters, higher rates of glottal stops, and fewer canonical Austronesian prefixes.
+This fingerprint is robust to approximate IPA conversion (AUC change $<$ 0.01), confirming that the model detects phonological patterns rather than orthographic artifacts.
+Cross-method consensus analysis (Cohen's $\kappa$ = 0.61) identifies 266 high-confidence non-mainstream candidates confirmed by both methods.
+However, phonological clustering of these consensus candidates yields no coherent word families (silhouette = 0.114; cross-linguistic cognate test $p$ = 0.569), providing no evidence that they derive from a single pre-Austronesian language layer.
+Application to 16 additional languages confirms geographic patterning: Sulawesi languages show significantly higher predicted non-mainstream rates (mean $P_\mathrm{sub}$ = 0.606) than Western Indonesian languages (0.393).
 This study demonstrates that phonological machine learning can complement traditional comparative methods in detecting non-mainstream lexical layers, while cautioning against interpreting phonological non-conformity as evidence for a shared substrate language.
 \end{abstract}
 
@@ -66,10 +67,10 @@ The island's complex geological and demographic history---shaped by volcanism, m
 Moreover, the Austronesian Basic Vocabulary Database \citep[ABVD;][]{greenhill2008} provides standardized cognate-coded Swadesh lists for numerous Sulawesi languages, offering a computationally tractable dataset.
 
 This study makes two contributions, the second more consequential than the first.
-First, we introduce a machine learning methodology for substrate detection that addresses the circularity inherent in using cognacy data to identify non-cognate forms.
+First, we introduce a machine learning methodology for detecting phonological non-conformity that addresses the circularity inherent in using cognacy data to identify non-cognate forms.
 Our two-model design separates a ``circular'' baseline (Model~A, including cognacy features) from the genuine experiment (Model~B, using only phonological features), establishing that phonological properties alone carry detectable signal about a form's status as inherited or non-mainstream vocabulary.
 Second---and more importantly---we test the assumption that underlies substrate interpretations: that non-conforming vocabulary across related languages derives from a common non-Austronesian source.
-Phonological clustering of the detected candidates rejects this assumption ($p$ = 0.569): the non-mainstream vocabulary represents parallel independent innovations rather than remnants of a single pre-Austronesian language layer.
+Phonological clustering of the detected candidates finds no support for this assumption ($p$ = 0.569): the non-mainstream vocabulary shows no evidence of shared etymological descent, consistent with parallel independent innovations rather than remnants of a single pre-Austronesian language layer.
 This negative result constrains the interpretation of both computational and traditional substrate detection: phonological non-conformity is not equivalent to non-Austronesian origin.
 
 % ============================================================
@@ -131,7 +132,7 @@ To address the circularity of using cognacy-derived labels to train a classifier
 Model~B's 27 features fall into four categories:
 
 \begin{enumerate}
-    \item \textbf{Phonological features (10):} Form length (character count), vowel count, vowel ratio, whether the form ends in a vowel, initial character class (one-hot: /m/, /a/, /b/, /t/, /k/, /p/, /s/, other), presence of glottal stop markers (\textipa{P} or \texttt{'}), presence of nasal clusters (\textit{ng}, \textit{mb}, \textit{nd}, \textit{nj}, etc.), presence of reduplication (hyphenated forms or repeated syllable patterns), consonant cluster count (CC+ sequences), and presence of Austronesian-like prefixes (\textit{ma-}, \textit{me-}, \textit{mo-}, \textit{pa-}, \textit{ka-}, etc.).
+    \item \textbf{Phonological features (10):} Form length (syllable count, approximated as the number of vowel nuclei; validation confirms equivalence with character count, Section~\ref{sec:results_ipa}), vowel count, vowel ratio, whether the form ends in a vowel, initial character class (one-hot: /m/, /a/, /b/, /t/, /k/, /p/, /s/, other), presence of glottal stop markers (\textipa{P} or \texttt{'}), presence of nasal clusters (\textit{ng}, \textit{mb}, \textit{nd}, \textit{nj}, etc.), presence of reduplication (detected via hyphenation or repeated bigram/trigram patterns---a surface-level approximation that does not capture all morphological reduplication types), consonant cluster count (CC+ sequences in surface orthography; note that clusters at morpheme boundaries, e.g.\ from infixation, are not distinguished from root-internal clusters), and presence of Austronesian-like prefixes (\textit{ma-}, \textit{me-}, \textit{mo-}, \textit{pa-}, \textit{ka-}, etc.; infixes and suffixes are not detected).
 
     \item \textbf{Initial-character one-hot encoding (8):} Seven frequent onset classes (/m/, /a/, /b/, /t/, /k/, /p/, /s/) plus ``other'', capturing onset frequency distributions that may differ between inherited and substrate vocabulary.
 
@@ -140,8 +141,9 @@ Model~B's 27 features fall into four categories:
     \item \textbf{Language control features (2):} Language identity (integer-encoded) and language-level cognacy coverage rate (proportion of forms with ABVD cognate codes), controlling for between-language variation in documentation depth.
 \end{enumerate}
 
-All features were computed from orthographic forms in the ABVD, not from phonemic or IPA transcriptions.
-This introduces a known limitation (Section~\ref{sec:limitations}) but ensures full reproducibility using publicly available data.
+All features were computed from surface orthographic forms in the ABVD without morphological decomposition, not from phonemic or IPA transcriptions.
+This introduces known limitations---orthographic bias and inability to distinguish root-internal from morphological consonant clusters (Section~\ref{sec:limitations})---but ensures full reproducibility using publicly available data.
+Robustness tests (Section~\ref{sec:results_ipa}) confirm that approximate IPA conversion, syllable-based length measurement, and even complete removal of the length feature produce equivalent model performance.
 
 \subsubsection{Classifiers}
 
@@ -338,6 +340,25 @@ Muna, previously the weakest held-out language (AUC = 0.618), improves to 0.679 
 The phonological fingerprint is therefore robust to removal of the cognacy coverage confound: the signal resides in form-level phonological properties, not in language-level documentation artifacts.
 
 % --------------------------------
+\subsection{IPA Robustness Test}
+\label{sec:results_ipa}
+% --------------------------------
+
+Because all phonological features were computed from orthographic forms (Section~\ref{sec:limitations}), we tested whether approximate IPA conversion affects model performance.
+Orthographic digraphs were converted to single IPA characters using conservative, language-specific mappings: \textit{ng} $\rightarrow$ /\textipa{N}/ and \textit{ny} $\rightarrow$ /\textipa{\textltailn}/ (all languages), plus \textit{gh} $\rightarrow$ /\textipa{G}/ and \textit{bh} $\rightarrow$ /\textipa{B}/ (Muna).
+This affected 75/1,357 forms (5.5\%), predominantly in Muna (54 forms, 24.7\%).
+Phonological features were recomputed on the IPA forms and Model~B was retrained.
+
+IPA conversion produced negligible change in cross-validation performance (AUC 0.772 $\rightarrow$ 0.774, $\Delta$ = $+$0.002) and slight improvement in LOLO validation (mean AUC 0.724 $\rightarrow$ 0.733, $\Delta$ = $+$0.009).
+All six LOLO languages maintained AUC $\geq$ 0.65 under IPA conversion.
+Notably, Muna---the language most affected by digraph conversion---showed the largest LOLO improvement ($+$0.042), indicating that orthographic digraphs were adding noise rather than signal.
+The phonological fingerprint is therefore robust to orthographic-to-IPA conversion: the model detects phonological patterns, not orthographic artifacts.
+
+A related concern is that \texttt{form\_length} measures character count rather than the linguistically meaningful syllable count.
+We tested this by replacing character count with a vowel-nuclei syllable counter: model performance was unchanged (CV AUC 0.768 $\rightarrow$ 0.769, $\Delta < 0.001$; LOLO 0.722 $\rightarrow$ 0.728, $\Delta$ = $+$0.006).
+Indeed, removing the length feature entirely produces equivalent performance (CV AUC 0.769, LOLO 0.732), confirming that the phonological fingerprint does not depend on the length metric---it is carried by other features (consonant clusters, glottal stops, prefix patterns).
+
+% --------------------------------
 \subsection{SHAP Analysis}
 \label{sec:results_shap}
 % --------------------------------
@@ -355,9 +376,9 @@ The five most important features are:
 
 \begin{enumerate}
     \item \textbf{Language cognacy coverage} (mean $|$SHAP$|$ = 0.559): Languages with lower ABVD coverage rates have higher predicted substrate probabilities. This is a language-level control variable that captures documentation depth rather than a phonological property per se.
-    \item \textbf{Form length} (0.378): Candidate substrates are significantly longer than inherited Austronesian forms, consistent with the typological observation that Austronesian basic vocabulary tends toward disyllabic roots \citep{blust2009}.
-    \item \textbf{Semantic domain: \textsc{action}} (0.230): Action verbs are over-represented among substrate candidates. In the top 50 highest-confidence substrates, 46\% are action verbs, compared to 26\% quality adjectives and 16\% grammatical items.
-    \item \textbf{Consonant cluster count} (0.190): Substrate candidates contain more CC+ sequences, deviating from the predominantly (C)V(C) canonical syllable structure of Austronesian languages.
+    \item \textbf{Form length} (0.378): Non-mainstream candidates average 2.57 syllables compared to 2.29 for inherited forms ($+$0.28 syllables), consistent with the typological observation that Austronesian basic vocabulary tends toward disyllabic roots \citep{blust2009}. Character count and syllable count produce identical model performance ($\Delta$AUC $<$ 0.001), and removing the length feature entirely leaves performance unchanged (Section~\ref{sec:results_ipa}), indicating that length contributes modestly alongside other features.
+    \item \textbf{Semantic domain: \textsc{action}} (0.230): Action verbs are over-represented among non-mainstream candidates. In the top 50 highest-confidence candidates, 46\% are action verbs, compared to 26\% quality adjectives and 16\% grammatical items. A caveat applies: action verbs in Sulawesi languages frequently undergo morphological derivation (infixation, suffixation) that may increase surface form complexity; the extent to which this semantic signal reflects substrate persistence versus morphological inflation cannot be resolved without morphological decomposition of the ABVD forms.
+    \item \textbf{Consonant cluster count} (0.190): Non-mainstream candidates contain more CC+ sequences, deviating from the predominantly (C)V(C) canonical syllable structure of Austronesian languages. As with form length, some of these clusters may arise at morpheme boundaries (e.g.\ from infixation) rather than within roots; future work with morphologically parsed data could distinguish these sources.
     \item \textbf{Glottal stop presence} (0.188): Forms containing glottal stop markers (\textipa{P} or orthographic \texttt{'}) are more likely to be classified as substrate.
 \end{enumerate}
 
@@ -422,6 +443,10 @@ Two concepts---``Fifty'' and ``Twenty''---show strikingly low cross-linguistic d
 However, inspection reveals these are transparent Austronesian compounds: \textit{limampulo}/\textit{lima pulu} (``Five'' $\times$ ``Ten''), \textit{ruampulo}/\textit{rua pulu} (``Two'' $\times$ ``Ten''), built from well-established PAn roots *\textit{lima} and *\textit{puluq}.
 Both detection methods flagged them because compound numerals have unusual phonological properties (long forms, nasal clusters at morpheme boundaries) that mimic the substrate fingerprint.
 This represents a systematic false-positive category that future substrate detection methods should address.
+More broadly, morphologically complex Austronesian forms (compounds, derived forms) may mimic the non-mainstream fingerprint through increased length and cluster density at morpheme boundaries.
+However, two observations mitigate this concern.
+First, non-mainstream candidates show \textit{lower} rates of canonical Austronesian \textit{prefix} patterns (\textit{ma-}, \textit{pa-}, etc.)---though we note that this feature does not capture infixes (\textit{-um-}, \textit{-in-}) or suffixes (\textit{-an}, \textit{-i}) that are also productive in Sulawesi languages, so the morphological profile of non-mainstream forms remains only partially characterized.
+Second, removing the length feature entirely from the model produces equivalent performance (CV AUC 0.769, Section~\ref{sec:results_ipa}), demonstrating that the fingerprint does not depend on form length at all---whether measured in characters, syllables, or omitted.
 
 % --------------------------------
 \subsection{Geographic Expansion}
@@ -469,8 +494,8 @@ Acehnese, despite being geographically Western Indonesian, shows a high predicte
 \subsection{The phonological fingerprint}
 % --------------------------------
 
-The central finding of this study is that a phonological fingerprint distinguishes non-mainstream vocabulary from inherited Austronesian forms in Sulawesi basic lexicon: longer forms, more consonant clusters, higher rates of glottal stops, and fewer canonical Austronesian prefixes.
-This fingerprint is detectable by machine learning with moderate reliability (AUC = 0.760) and generalizes across five of six languages in leave-one-out testing.
+The central finding of this study is that a probabilistic phonological profile---which we term a ``fingerprint'' for convenience---distinguishes non-mainstream vocabulary from inherited Austronesian forms in Sulawesi basic lexicon with moderate reliability (AUC = 0.763 after ablation): longer forms, more consonant clusters, higher rates of glottal stops, and fewer canonical Austronesian prefixes.
+This profile is detectable by machine learning and generalizes across all six languages in leave-one-out testing (6/6 $\geq$ 0.65 under ablation).
 
 Linguistically, this fingerprint is consistent with what would be expected of substrate vocabulary.
 Austronesian basic roots are canonically disyllabic (CVCV or CVCCV), reflecting the Proto-Austronesian root structure \citep{blust2009}.
@@ -486,7 +511,8 @@ This aligns with observations in creole linguistics that substrate verb semantic
 
 The clustering analysis (E029) provides a critical constraint on interpretation.
 The 266 consensus substrates do not form coherent word families across languages: silhouette scores are near zero, and the cross-linguistic cognate test is non-significant ($p$ = 0.569).
-This rules out the hypothesis that these forms derive from a single pre-Austronesian language that was displaced by Austronesian expansion.
+This provides no support for the hypothesis that these forms derive from a single pre-Austronesian language that was displaced by Austronesian expansion.
+Alternative explanations---including deeply diverged substrate(s) beyond the resolving power of Levenshtein distance, or multiple unrelated substrate languages---cannot be excluded, but the parsimonious interpretation is independent innovation.
 
 Instead, the consensus substrates appear to represent parallel independent innovations: each language independently developed non-mainstream vocabulary in similar semantic domains (action verbs, grammatical words), producing forms that share a phonological profile (the fingerprint) without sharing etymological descent.
 This is consistent with the ``lexical gap'' interpretation---these are positions in the Swadesh list where each language innovated away from the proto-Austronesian form through language-specific processes (contact, semantic shift, phonological erosion of the original root), rather than inheriting from a common non-Austronesian source.
@@ -548,44 +574,46 @@ The convergence between computational substrate detection and historical script 
 Several limitations constrain the interpretation of these results.
 
 \begin{enumerate}
-    \item \textbf{Orthographic, not IPA.} All phonological features were computed from ABVD orthographic forms, which use language-specific orthographic conventions rather than standardized phonemic transcriptions. Orthographic inconsistencies (e.g., \textit{ng} representing /\textipa{N}/ in some languages but /ng/ in others) may introduce systematic bias. IPA conversion using tools such as LingPy would strengthen the analysis.
+    \item \textbf{Orthographic, not IPA.} All phonological features were computed from ABVD orthographic forms, which use language-specific orthographic conventions rather than standardized phonemic transcriptions. Our approximate IPA conversion test (Section~\ref{sec:results_ipa}) shows that digraph collapse does not degrade performance ($\Delta$AUC $<$ 0.01), but this conversion is conservative---only 5.5\% of forms were affected. Full IPA conversion with language-specific phonological rules would provide a more thorough validation.
 
     \item \textbf{Small sample size.} With 1,357 total forms and 438 substrate candidates across six languages, the dataset is small by ML standards. The results should be interpreted as suggestive rather than definitive, and replication on larger vocabularies (beyond Swadesh-210) is needed.
 
-    \item \textbf{Label noise.} The Positive-Unlabeled nature of the labeling means that some ``substrate'' candidates are actually Austronesian forms with missing ABVD cognacy data. This label noise biases the classifier toward conservative estimates of the phonological fingerprint's distinctiveness.
+    \item \textbf{Label noise and proxy labels.} The labels index forms that resist attribution to known Austronesian etyma in the ABVD---not forms with confirmed non-Austronesian origin. No ground truth exists for ``substrate'' identity. The Positive-Unlabeled nature of the labeling means that some ``non-mainstream'' candidates are actually Austronesian forms with missing ABVD cognacy data. This label noise biases the classifier toward conservative estimates of the phonological fingerprint's distinctiveness.
 
     \item \textbf{Cognacy coverage confound.} The top SHAP feature (\texttt{language\_cognacy\_coverage}) is a language-level property correlated with the labeling process. However, the ablation analysis (Section~\ref{sec:results_ablation}) demonstrates that removing this feature slightly \textit{improves} performance (CV AUC +0.003, LOLO AUC +0.007), confirming that the phonological fingerprint is not driven by this confound. The \texttt{language\_id\_encoded} control still contributes modestly: removing both language features reduces CV AUC by 0.033.
 
     \item \textbf{Geographic scope.} Six languages from a single island cannot represent the full diversity of Austronesian--non-Austronesian contact situations. The expansion analysis (Section~\ref{sec:results_expansion}) provides encouraging generalization, but systematic validation across Melanesia, where Austronesian--Papuan contact is well documented \citep{ross2005, dunn2005}, would be a more rigorous test.
+
+    \item \textbf{No morphological decomposition.} All features operate on surface forms without morphological parsing. Consonant clusters arising from productive morphology (e.g.\ infixation with \textit{-um-}, \textit{-in-}, or suffixation with \textit{-an}, \textit{-i}) are not distinguished from root-internal clusters. Similarly, prefix detection is limited to canonical Austronesian prefixes and does not capture infixes or suffixes. Morphological decomposition of the ABVD forms---using tools such as language-specific analyzers or paradigm-based approaches---would enable root-level feature extraction and a cleaner test of whether the phonological profile is stem-level or morphologically inflated.
 \end{enumerate}
 
 % ============================================================
 \section{Conclusion}
 % ============================================================
 
-This study demonstrates that machine learning can detect phonological non-conformity in Sulawesi basic vocabulary with moderate reliability (AUC = 0.760), independent of cognacy data.
+This study demonstrates that machine learning can detect phonological non-conformity in Sulawesi basic vocabulary with moderate reliability (AUC = 0.763 after ablation of confound features), independent of cognacy data.
 The resulting phonological fingerprint---longer forms, more consonant clusters, glottal stops, and action-verb semantics---characterizes non-mainstream lexical items that may include pre-Austronesian substrate vocabulary, areal innovations, or language-specific developments.
 
-Cross-method consensus between rule-based subtraction and ML classification identifies 266 high-confidence substrate candidates (Cohen's $\kappa$ = 0.611), while phonological clustering analysis provides the important negative result that these candidates do not form coherent cross-linguistic word families.
-The consensus substrates represent parallel independent innovations rather than remnants of a single pre-Austronesian language.
+Cross-method consensus between rule-based subtraction and ML classification identifies 266 high-confidence non-mainstream candidates (Cohen's $\kappa$ = 0.611), while phonological clustering analysis provides the important negative result that these candidates do not form coherent cross-linguistic word families.
+The consensus non-mainstream forms are consistent with parallel independent innovations rather than remnants of a single pre-Austronesian language.
 
 Convergent evidence from historical script adaptation strengthens this finding: the Javanese Hanacaraka script, derived from Sanskrit-based Kawi, eliminates exactly the phonological categories (aspiration, retroflexion, sibilant manner) absent from Proto-Austronesian, confirming that the computational model detects genuine Austronesian phonotactic constraints rather than classification artifacts.
 
-Methodologically, the two-model design introduced here---separating circular cognacy-based features from non-circular phonological features---provides a template for computational substrate detection that can be extended to other language families and contact situations.
+Methodologically, the two-model design introduced here---separating circular cognacy-based features from non-circular phonological features---provides a template for computational non-conformity detection that can be extended to other language families and contact situations.
 The approach is not a replacement for the comparative method, but a scalable complement that can screen large vocabularies for specialist attention.
 
 Three directions for future work are warranted.
-First, conversion of ABVD orthographic forms to IPA using automated or semi-automated methods would eliminate orthographic bias and enable phoneme-level feature engineering.
-Second, expansion of the substrate detection pipeline beyond Swadesh-210 to full dictionary data would test whether the phonological fingerprint holds for non-basic vocabulary.
-Third, targeted fieldwork on the highest-confidence consensus substrates---particularly Tolaki action verbs---could provide the etymological and areal evidence needed to distinguish genuine pre-Austronesian remnants from independent innovations.
+First, although our approximate IPA conversion test (Section~\ref{sec:results_ipa}) confirms robustness, full conversion of ABVD orthographic forms to IPA using tools such as CLTS \citep{anderson2018} would enable phoneme-level feature engineering and eliminate residual orthographic bias.
+Second, expansion of the detection pipeline beyond Swadesh-210 to full dictionary data would test whether the phonological fingerprint holds for non-basic vocabulary.
+Third, targeted fieldwork on the highest-confidence non-mainstream candidates---particularly Tolaki action verbs---could provide the etymological and areal evidence needed to distinguish genuine pre-Austronesian remnants from independent innovations.
 
 \vspace{1em}
 \noindent\textbf{AI Disclosure.}
 This research employed an AI-augmented workflow using Claude (Anthropic) for literature synthesis across multiple linguistic databases, statistical scripting (Python, scikit-learn, XGBoost), cross-database comparison (ABVD, CLDF, Proto-Austronesian reconstructions), feature engineering, SHAP analysis, and iterative experimental design.
-The AI-augmented approach enabled a single researcher to execute five linked experiments (E022--E029) spanning 1,357 lexical forms across 22 languages, with cross-method consensus analysis and phonological clustering---a throughput that would typically require a multi-person computational linguistics team.
-The research hypotheses (substrate detection via phonological non-conformity, the parallel-innovation alternative), domain interpretation (linguistic significance of the fingerprint, Hanacaraka convergence), and final scholarly judgments were made by the human author.
-All AI-generated code, statistical results, and text were reviewed, validated, and edited by the author.
-The manuscript text was drafted with AI writing assistance and revised by the author for accuracy and scholarly voice.
+The AI-augmented approach enabled the researchers to execute six linked experiments (E022--E029, E041) spanning 1,357 lexical forms across 22 languages, with cross-method consensus analysis, phonological clustering, and IPA robustness validation---a throughput that would typically require a larger computational linguistics team.
+The research hypotheses (substrate detection via phonological non-conformity, the parallel-innovation alternative), domain interpretation (linguistic significance of the fingerprint, Hanacaraka convergence), and final scholarly judgments were made by the human authors.
+All AI-generated code, statistical results, and text were reviewed, validated, and edited by the authors.
+The manuscript text was drafted with AI writing assistance and revised by the authors for accuracy and scholarly voice.
 
 \vspace{1em}
 \noindent\textbf{Data availability.} All data are from the publicly available Austronesian Basic Vocabulary Database \citep{greenhill2008}. Analysis scripts and feature matrices are available at GitHub: \url{https://github.com/neimasilk/volcarch-repo} (MIT licence).

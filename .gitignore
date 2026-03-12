@@ -14,6 +14,7 @@ venv/
 *.tiff
 data/raw/*.nc
 data/raw/*.hdf
+data/raw/*.pdf
 *.zip
 
 # Large generated HTML maps (regenerable from scripts, 80+ MB each)

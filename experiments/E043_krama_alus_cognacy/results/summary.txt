@@ -1,0 +1,111 @@
+E043: PERIPHERAL CONSERVATISM — COGNACY COMPARISON
+============================================================
+
+Language                   Total    PMP%    PAn%  Either%
+------------------------------------------------------------
+Old_Javanese                 206   55.3%   37.4%    57.8%
+Merina_Malagasy              206   40.8%   28.6%    43.2%
+Balinese                     206   40.3%   26.7%    42.2%
+Javanese                     206   33.0%   23.3%    35.4%
+Javanese_Yogyakarta          190   28.4%   20.0%    28.9%
+Tengger_Ngadas               177   27.7%   19.8%    28.2%
+Javanese_Malang              192   26.0%   17.7%    26.6%
+Old_Middle_Javanese          172   20.9%   14.5%    21.5%
+
+------------------------------------------------------------
+
+KEY COMPARISONS (PMP cognacy rate):
+
+  Balinese vs Javanese:     0.403 vs 0.330  (diff: +0.073)
+  Tengger vs Javanese:      0.277 vs 0.330  (diff: -0.053)
+  Malagasy vs Javanese:     0.408 vs 0.330  (diff: +0.078)
+  Jav(Yogya) vs Jav(std):   0.284 vs 0.330  (diff: -0.046)
+  Jav(Malang) vs Jav(std):  0.260 vs 0.330  (diff: -0.070)
+  Old Javanese vs Javanese: 0.553 vs 0.330  (diff: +0.223)
+
+STATISTICAL TESTS (McNemar's — paired by concept):
+
+  Balinese vs Javanese (n=206 shared concepts):
+    Both match: 47, Balinese-only: 36, Javanese-only: 21, Neither: 102
+    McNemar chi2=3.439, p=0.0637 ns
+
+  Tengger_Ngadas vs Javanese (n=177 shared concepts):
+    Both match: 46, Tengger_Ngadas-only: 3, Javanese-only: 14, Neither: 114
+    McNemar chi2=5.882, p=0.0153 *
+
+  Merina_Malagasy vs Javanese (n=206 shared concepts):
+    Both match: 41, Merina_Malagasy-only: 43, Javanese-only: 27, Neither: 95
+    McNemar chi2=3.214, p=0.0730 ns
+
+  Balinese vs Tengger_Ngadas (n=177 shared concepts):
+    Both match: 35, Balinese-only: 42, Tengger_Ngadas-only: 14, Neither: 86
+    McNemar chi2=13.018, p=0.0003 ***
+
+
+DOMAIN BREAKDOWN (PMP cognacy rate by semantic domain):
+
+Domain       Balinese   Javanese   Tengger_   Merina_M
+------------------------------------------------------
+BODY           30.0%     30.0%     33.3%     50.0%
+NATURE         72.7%     45.5%     36.4%     54.5%
+ACTION         20.8%     29.2%     25.0%     45.8%
+NUMBER         50.0%     50.0%    100.0%     50.0%
+KINSHIP        25.0%     12.5%     12.5%     50.0%
+OTHER          40.2%     32.0%     23.1%     34.4%
+
+CONCEPTS: Balinese matches PMP but Javanese doesn't (peripheral advantage):
+
+  - and
+  - at
+  - bone
+  - cold
+  - dull, blunt
+  - dust
+  - earth/soil
+  - egg
+  - fat/grease
+  - fire
+  - flower
+  - hair
+  - hand
+  - he/she
+  - lake
+  - leaf
+  - louse
+  - man/male
+  - meat/flesh
+  - name
+  ... and 16 more
+  Total: 36 concepts
+
+CONCEPTS: Javanese matches PMP but Balinese doesn't:
+
+  - I
+  - bird
+  - breast
+  - dog
+  - lightning
+  - mosquito
+  - night
+  - nose
+  - road/path
+  - thatch/roof
+  - thou
+  - to chew
+  - to eat
+  - to open, uncover
+  - to pound, beat
+  - to sleep
+  - to squeeze
+  - to swell
+  - to walk
+  - tongue
+  ... and 1 more
+  Total: 21 concepts
+
+TENGGER SPECIAL ANALYSIS:
+  Tengger covers 177 concepts in ABVD
+  Tengger matches PMP but Javanese doesn't: 3 concepts
+    - blood
+    - fog
+    - to flow

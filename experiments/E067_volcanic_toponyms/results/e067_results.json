@@ -1,0 +1,56 @@
+{
+  "experiment": "E067",
+  "title": "Volcanic Toponyms in Java Village Names",
+  "date": "2026-03-12",
+  "n_villages": 25244,
+  "n_kabupaten": 110,
+  "morpheme_counts": {
+    "kawah": 1,
+    "lahar": 12,
+    "gumuk": 6,
+    "gunung": 210,
+    "watu": 66,
+    "batu": 113,
+    "pasir": 150,
+    "segara": 7,
+    "tlogo": 87,
+    "sendang": 82,
+    "api": 27,
+    "panas": 7,
+    "gede": 90,
+    "agung": 253
+  },
+  "total_volcanic_villages": 1073,
+  "volcanic_ratio": 0.0425,
+  "tier_counts": {
+    "tier1": 19,
+    "tier2": 708,
+    "tier3": 377
+  },
+  "distance_correlation": {
+    "spearman_rho_all": 0.14,
+    "spearman_p_all": 0.14559791871185648,
+    "spearman_rho_tier2": 0.095,
+    "spearman_p_tier2": 0.3243219037124214
+  },
+  "zone_analysis": {
+    "near_mean": 0.0451,
+    "mid_mean": 0.0328,
+    "far_mean": 0.047,
+    "kruskal_wallis_p": 0.020765181753968416
+  },
+  "binary_comparison": {
+    "close_mean": 0.0394,
+    "far_mean": 0.0402,
+    "mann_whitney_p": 0.7340034871455404
+  },
+  "papers_served": [
+    "P11"
+  ],
+  "channels": [
+    1,
+    9
+  ],
+  "status": "INFORMATIVE NEGATIVE",
+  "key_finding": "No significant correlation between volcanic toponyms and proximity (rho=0.140, p=0.1456). Volcanic terminology in place names is distributed evenly across Java, not concentrated near volcanoes."
+}

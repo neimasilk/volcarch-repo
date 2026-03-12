@@ -1,0 +1,216 @@
+
+============================================================
+  LAYER: PRE_HINDU
+============================================================
+  Cideng                              [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Karang Anyar                        [DKI Jakarta    ] markers: [karang]
+  Gunung Sahari Utara                 [DKI Jakarta    ] markers: gunung-
+  Gunung Sahari Selatan               [DKI Jakarta    ] markers: gunung-
+  Sumur Batu                          [DKI Jakarta    ] markers: sumur-, [batu]
+  Cikini                              [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Bendungan Hilir                     [DKI Jakarta    ] markers: [hilir]
+  Kampung Bali                        [DKI Jakarta    ] markers: kampung-
+  Kampung Rawa                        [DKI Jakarta    ] markers: kampung-, [rawa]
+  Tanjung Priok                       [DKI Jakarta    ] markers: [tanjung]
+  Rawa Badak Utara                    [DKI Jakarta    ] markers: rawa-
+  Rawa Badak Selatan                  [DKI Jakarta    ] markers: rawa-
+  Cilincing                           [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Kalibaru                            [DKI Jakarta    ] markers: kali-
+  Rawa Buaya                          [DKI Jakarta    ] markers: rawa-
+  Kedaung Kali Angke                  [DKI Jakarta    ] markers: [kali]
+  Tanjung Duren Utara                 [DKI Jakarta    ] markers: [tanjung]
+  Tanjung Duren Selatan               [DKI Jakarta    ] markers: [tanjung]
+  Kali Anyar                          [DKI Jakarta    ] markers: kali-
+  Kalideres                           [DKI Jakarta    ] markers: kali-
+  Tegal Alur                          [DKI Jakarta    ] markers: tegal-
+  Jatipulo                            [DKI Jakarta    ] markers: jati-
+  Tegal Parang                        [DKI Jakarta    ] markers: tegal-
+  Jati Padang                         [DKI Jakarta    ] markers: jati-
+  Cilandak Timur                      [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Cipulir                             [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Cilandak Barat                      [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Lebak Bulus                         [DKI Jakarta    ] markers: lebak-
+  Cipete Selatan                      [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Gunung                              [DKI Jakarta    ] markers: gunung-
+  Rawa Barat                          [DKI Jakarta    ] markers: rawa-
+  Cipete Utara                        [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Kalibata                            [DKI Jakarta    ] markers: kali-
+  Rawajati                            [DKI Jakarta    ] markers: rawa-
+  Cikoko                              [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Srengseng Sawah                     [DKI Jakarta    ] markers: [sawah]
+  Ciganjur                            [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Tanjung Barat                       [DKI Jakarta    ] markers: [tanjung]
+  Cipedak                             [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Cipinang                            [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Rawamangun                          [DKI Jakarta    ] markers: rawa-
+  Jati                                [DKI Jakarta    ] markers: jati-
+  Kampung Melayu                      [DKI Jakarta    ] markers: kampung-
+  Rawa Bunga                          [DKI Jakarta    ] markers: rawa-
+  Cipinang Cempedak                   [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Cipinang Muara                      [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Cipinang Besar Selatan              [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Cipinang Besar Utara                [DKI Jakarta    ] markers: ci-, ci- (Sunda)
+  Tengah                              [DKI Jakarta    ] markers: [tengah], [dir:tengah]
+  Dukuh                               [DKI Jakarta    ] markers: dukuh-
+
+============================================================
+  LAYER: SANSKRIT
+============================================================
+  Sunter Jaya                         [DKI Jakarta    ] markers: -jaya, [jaya]
+  Sunter Agung                        [DKI Jakarta    ] markers: -agung, [agung]
+  Sukapura                            [DKI Jakarta    ] markers: -pura
+  Wijaya Kusuma                       [DKI Jakarta    ] markers: [jaya]
+  Taman Sari                          [DKI Jakarta    ] markers: -sari, [sari]
+  Keagungan                           [DKI Jakarta    ] markers: [agung]
+  Sukabumi Utara                      [DKI Jakarta    ] markers: [bumi]
+  Sukabumi Selatan                    [DKI Jakarta    ] markers: [bumi]
+  Lenteng Agung                       [DKI Jakarta    ] markers: -agung, [agung]
+  Pesanggrahan                        [DKI Jakarta    ] markers: [graha]
+  Malaka Sari                         [DKI Jakarta    ] markers: -sari, [sari]
+  Malaka Jaya                         [DKI Jakarta    ] markers: -jaya, [jaya]
+  Harapanjaya                         [Jawa Barat     ] markers: -jaya
+  Pakansari                           [Jawa Barat     ] markers: -sari
+  Wanaherang                          [Jawa Barat     ] markers: [wana]
+  Puspanegara                         [Jawa Barat     ] markers: -negara
+  Puspasari                           [Jawa Barat     ] markers: -sari
+  Sukaraja                            [Jawa Barat     ] markers: -raja
+  Singajaya                           [Jawa Barat     ] markers: -jaya
+  Sukanegara                          [Jawa Barat     ] markers: -negara
+  Singasari                           [Jawa Barat     ] markers: -sari
+  Sukajaya                            [Jawa Barat     ] markers: -jaya
+  Mekarsari                           [Jawa Barat     ] markers: -sari
+  Situsari                            [Jawa Barat     ] markers: -sari
+  Sukajadi                            [Jawa Barat     ] markers: -adi
+  Wargajaya                           [Jawa Barat     ] markers: -jaya
+  Sirnajaya                           [Jawa Barat     ] markers: -jaya
+  Pamegarsari                         [Jawa Barat     ] markers: -sari
+  Waru Jaya                           [Jawa Barat     ] markers: -jaya, [jaya]
+  Atang Senjaya                       [Jawa Barat     ] markers: -jaya
+  Parakanjaya                         [Jawa Barat     ] markers: -jaya
+  Ragajaya                            [Jawa Barat     ] markers: -jaya
+  Purasari                            [Jawa Barat     ] markers: -sari, [pura]
+  Karyasari                           [Jawa Barat     ] markers: -sari
+  Puraseda                            [Jawa Barat     ] markers: [pura]
+  Sukasari                            [Jawa Barat     ] markers: -sari
+  Tamansari                           [Jawa Barat     ] markers: -sari
+  Kertajaya                           [Jawa Barat     ] markers: -jaya, [kerta]
+  Mekarsari                           [Jawa Barat     ] markers: -sari
+  Mekarjaya                           [Jawa Barat     ] markers: -jaya
+  Pamagersari                         [Jawa Barat     ] markers: -sari
+  Jugalajaya                          [Jawa Barat     ] markers: -jaya
+  Neglasari                           [Jawa Barat     ] markers: -sari
+  Wirajaya                            [Jawa Barat     ] markers: -jaya
+  Malasari                            [Jawa Barat     ] markers: -sari
+  Pangkaljaya                         [Jawa Barat     ] markers: -jaya
+  Argapura                            [Jawa Barat     ] markers: -pura
+  Bangunjaya                          [Jawa Barat     ] markers: -jaya
+  Wargajaya                           [Jawa Barat     ] markers: -jaya
+  Mekarjaya                           [Jawa Barat     ] markers: -jaya
+
+============================================================
+  LAYER: ARABIC
+============================================================
+  Harapan Mulia                       [DKI Jakarta    ] markers: [mulia]
+  Sukamakmur                          [Jawa Barat     ] markers: -makmur
+  Sukamakmur                          [Jawa Barat     ] markers: -makmur
+  Sulaiman                            [Jawa Barat     ] markers: -iman
+  Girimakmur                          [Jawa Barat     ] markers: -makmur
+  Sandingtaman                        [Jawa Barat     ] markers: -aman
+  Parakansalam                        [Jawa Barat     ] markers: -salam
+  Sukamakmur                          [Jawa Barat     ] markers: -makmur
+  Karyamakmur                         [Jawa Barat     ] markers: -makmur
+  Kutamakmur                          [Jawa Barat     ] markers: -makmur
+  Lemahmakmur                         [Jawa Barat     ] markers: -makmur
+  Sagara Makmur                       [Jawa Barat     ] markers: -makmur, [makmur]
+  Pantai Makmur                       [Jawa Barat     ] markers: -makmur, [makmur]
+  Sukamakmur                          [Jawa Barat     ] markers: -makmur
+  Kutaliman                           [Jawa Tengah    ] markers: -iman
+  Salam                               [Jawa Tengah    ] markers: [salam]
+  Ngadisalam                          [Jawa Tengah    ] markers: -salam
+  Salaman                             [Jawa Tengah    ] markers: -aman
+  Salam                               [Jawa Tengah    ] markers: [salam]
+  Sukomakmur                          [Jawa Tengah    ] markers: -makmur
+  Salam                               [Jawa Tengah    ] markers: [salam]
+  Payaman                             [Jawa Tengah    ] markers: -aman
+  Salam                               [Jawa Tengah    ] markers: [salam]
+  Taraman                             [Jawa Tengah    ] markers: -aman
+  Mataraman                           [Jawa Tengah    ] markers: -aman
+  Payaman                             [Jawa Tengah    ] markers: -aman
+  Dersalam                            [Jawa Tengah    ] markers: -salam
+  Campursalam                         [Jawa Tengah    ] markers: -salam
+  Sidomakmur                          [Jawa Tengah    ] markers: -makmur
+  Taman                               [Jawa Tengah    ] markers: -aman
+  Sisalam                             [Jawa Tengah    ] markers: -salam
+  Polaman                             [Jawa Tengah    ] markers: -aman
+  Piyaman                             [DI Yogyakarta  ] markers: -aman
+  Siraman                             [DI Yogyakarta  ] markers: -aman
+  Salam                               [DI Yogyakarta  ] markers: [salam]
+  Siman                               [Jawa Timur     ] markers: -iman
+  Surodikraman                        [Jawa Timur     ] markers: -aman
+  Salam                               [Jawa Timur     ] markers: [salam]
+  Siraman                             [Jawa Timur     ] markers: -aman
+  Payaman                             [Jawa Timur     ] markers: -aman
+  Siman                               [Jawa Timur     ] markers: -iman
+  Mentaraman                          [Jawa Timur     ] markers: -aman
+  Wirotaman                           [Jawa Timur     ] markers: -aman
+  Sukamakmur                          [Jawa Timur     ] markers: -makmur
+  Kebaman                             [Jawa Timur     ] markers: -aman
+  Brambang Darussalam                 [Jawa Timur     ] markers: -salam
+  Taman                               [Jawa Timur     ] markers: -aman
+  Koncer Darul Aman                   [Jawa Timur     ] markers: -aman, [aman]
+  Taman                               [Jawa Timur     ] markers: -aman
+  Taman                               [Jawa Timur     ] markers: -aman
+
+============================================================
+  LAYER: MIXED
+============================================================
+  Rawasari                            [DKI Jakarta    ] markers: -sari, rawa-
+  Jatinegara Kaum                     [DKI Jakarta    ] markers: [negara], jati-
+  Kalisari                            [DKI Jakarta    ] markers: -sari, kali-
+  Jatinegara                          [DKI Jakarta    ] markers: -negara, jati-
+  Gunungsari                          [Jawa Barat     ] markers: -sari, gunung-
+  Pasir Mukti                         [Jawa Barat     ] markers: -mukti, [mukti], pasir-
+  Cijayanti                           [Jawa Barat     ] markers: [jaya], ci-, ci- (Sunda)
+  Jatisari                            [Jawa Barat     ] markers: -sari, jati-
+  Bojong Indah                        [Jawa Barat     ] markers: [indah], [bojong]
+  Waringin Jaya                       [Jawa Barat     ] markers: -jaya, [jaya], waringin-
+  Gunung Sari                         [Jawa Barat     ] markers: -sari, [sari], gunung-
+  Banjarsari                          [Jawa Barat     ] markers: -sari, banjar-
+  Cinagara                            [Jawa Barat     ] markers: -nagara, ci-, ci- (Sunda)
+  Tanjungsari                         [Jawa Barat     ] markers: -sari, [tanjung]
+  Ciomas Rahayu                       [Jawa Barat     ] markers: -rahayu, [rahayu], ci-, ci- (Sunda)
+  Tanjungsari                         [Jawa Barat     ] markers: -sari, [tanjung]
+  Pasirjaya                           [Jawa Barat     ] markers: -jaya, pasir-
+  Tanjungsari                         [Jawa Barat     ] markers: -sari, [tanjung]
+  Bojongkerta                         [Jawa Barat     ] markers: -kerta, [bojong]
+  Bojongraharja                       [Jawa Barat     ] markers: [graha], [bojong]
+  Palasari Hilir                      [Jawa Barat     ] markers: [sari], [hilir]
+  Babakanjaya                         [Jawa Barat     ] markers: -jaya, [babakan]
+  Lebaksari                           [Jawa Barat     ] markers: -sari, lebak-
+  Palasari Girang                     [Jawa Barat     ] markers: [sari], [girang]
+  Bojongsari                          [Jawa Barat     ] markers: -sari, [bojong]
+  Gunungjaya                          [Jawa Barat     ] markers: -jaya, gunung-
+  Pasir Datar Indah                   [Jawa Barat     ] markers: [indah], pasir-
+  Bojongsari                          [Jawa Barat     ] markers: -sari, [bojong]
+  Karangjaya                          [Jawa Barat     ] markers: -jaya, [karang]
+  Tanjungsari                         [Jawa Barat     ] markers: -sari, [tanjung]
+  Banjarsari                          [Jawa Barat     ] markers: -sari, banjar-
+  Sumberjaya                          [Jawa Barat     ] markers: -jaya, sumber-
+  Cibunarjaya                         [Jawa Barat     ] markers: -jaya, ci-, ci- (Sunda)
+  Gunungsari                          [Jawa Barat     ] markers: -sari, gunung-
+  Jatisari                            [Jawa Barat     ] markers: -sari, jati-
+  Tanjungsari                         [Jawa Barat     ] markers: -sari, [tanjung]
+  Babakansari                         [Jawa Barat     ] markers: -sari, [babakan]
+  Lembahsari                          [Jawa Barat     ] markers: -sari, lembah-
+  Gunungsari                          [Jawa Barat     ] markers: -sari, gunung-
+  Waringinsari                        [Jawa Barat     ] markers: -sari, waringin-
+  Jatisari                            [Jawa Barat     ] markers: -sari, jati-
+  Karangsari                          [Jawa Barat     ] markers: -sari, [karang]
+  Tanjung Sari                        [Jawa Barat     ] markers: -sari, [sari], [tanjung]
+  Karangjaya                          [Jawa Barat     ] markers: -jaya, [karang]
+  Bojongsari                          [Jawa Barat     ] markers: -sari, [bojong]
+  Cigondewah Hilir                    [Jawa Barat     ] markers: [dewa], ci-, [hilir], ci- (Sunda)
+  Banyusari                           [Jawa Barat     ] markers: -sari, banyu-
+  Banjarsari                          [Jawa Barat     ] markers: -sari, banjar-
+  Citaman                             [Jawa Barat     ] markers: -aman, ci-, ci- (Sunda)
+  Bojongsalam                         [Jawa Barat     ] markers: -salam, [bojong]

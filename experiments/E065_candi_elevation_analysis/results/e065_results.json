@@ -1,0 +1,55 @@
+{
+  "experiment": "E065",
+  "date": "2026-03-12",
+  "status": "SUCCESS",
+  "n_candi": 142,
+  "n_volcanoes": 9,
+  "distance_stats": {
+    "mean": 16.52360400991098,
+    "median": 14.648272610667703,
+    "std": 14.732966741111298,
+    "min": 0.9061075450484064,
+    "max": 65.06432108480904,
+    "ks_test_p": 7.525828604460317e-76
+  },
+  "azimuthal_stats": {
+    "mean_azimuth": 278.7264391117957,
+    "rayleigh_p": 3.434771327361257e-08,
+    "quadrant_chi2_p": 8.050440796617826e-12,
+    "quadrants": {
+      "South": 38,
+      "West": 67,
+      "North": 32,
+      "East": 5
+    }
+  },
+  "penanggungan": {
+    "n_candi": 73,
+    "fraction": 0.5140845070422535,
+    "west_binomial_p": 7.863956618931581e-12,
+    "west_fraction": 0.6301369863013698
+  },
+  "zone_distribution": {
+    "zone_A_observed": 60,
+    "zone_A_expected": 3.3543049215360425,
+    "zone_B_observed": 65,
+    "zone_B_expected": 26.83443937228834,
+    "zone_C_observed": 17,
+    "zone_C_expected": 111.81125570617561
+  },
+  "findings": [
+    "Candi cluster at specific distances (KS p=0.0000), not randomly placed",
+    "Significant directional clustering (Rayleigh p=0.000000), mean azimuth 279°",
+    "Mean direction is WESTERN — consistent with E031 tephra-sheltered siting",
+    "Zone A OVERREPRESENTED by 17.9× — builders chose HIGH-RISK volcanic proximity",
+    "Penanggungan dominates: 73/142 candi (51%) — sacred mountain effect"
+  ],
+  "papers_served": [
+    "P7",
+    "P11"
+  ],
+  "channels": [
+    1,
+    9
+  ]
+}

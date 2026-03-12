@@ -1,0 +1,572 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{adelaar2005malayo}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=9ac167303a66cdadfef206785a83ca4e}{%
+           family={Adelaar},
+           familyi={A\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9ac167303a66cdadfef206785a83ca4e}{%
+           family={Adelaar},
+           familyi={A\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0cdc79753f9bc955851fc97802446bd7}{%
+           family={Himmelmann},
+           familyi={H\bibinitperiod},
+           given={Nikolaus\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{9ac167303a66cdadfef206785a83ca4e}
+      \strng{fullhash}{9ac167303a66cdadfef206785a83ca4e}
+      \strng{bibnamehash}{9ac167303a66cdadfef206785a83ca4e}
+      \strng{authorbibnamehash}{9ac167303a66cdadfef206785a83ca4e}
+      \strng{authornamehash}{9ac167303a66cdadfef206785a83ca4e}
+      \strng{authorfullhash}{9ac167303a66cdadfef206785a83ca4e}
+      \strng{editorbibnamehash}{1608255ca7d11c966206a1aa0d35d21a}
+      \strng{editornamehash}{1608255ca7d11c966206a1aa0d35d21a}
+      \strng{editorfullhash}{1608255ca7d11c966206a1aa0d35d21a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {Austronesian} Languages of {Asia} and {Madagascar}}
+      \field{title}{The {Austronesian} Languages of {Asia} and {Madagascar}: A Historical Perspective}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 42}
+      \range{pages}{42}
+    \endentry
+    \entry{amien2026c}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=f413d7c38b5b928419a11c4ccbc3c8a8}{%
+           family={Amien},
+           familyi={A\bibinitperiod},
+           given={Mukhlis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{fullhash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{bibnamehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{authorbibnamehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{authornamehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{authorfullhash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Under review at Bijdragen tot de Taal-, Land- en Volkenkunde}
+      \field{title}{The Volcanic Ritual Clock: Slametan Intervals as Taphonomic Calendar in {Javanese} Mortuary Practice}
+      \field{year}{2026}
+    \endentry
+    \entry{amien2026a}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=f413d7c38b5b928419a11c4ccbc3c8a8}{%
+           family={Amien},
+           familyi={A\bibinitperiod},
+           given={Mukhlis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{fullhash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{bibnamehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{authorbibnamehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{authornamehash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \strng{authorfullhash}{f413d7c38b5b928419a11c4ccbc3c8a8}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Under review at Asian Perspectives}
+      \field{title}{Volcanic Sedimentation as Taphonomic Bias: A Framework for Understanding Archaeological Site Distribution in {Java}}
+      \field{year}{2026}
+    \endentry
+    \entry{amien2026d}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=f413d7c38b5b928419a11c4ccbc3c8a8}{%
+           family={Amien},
+           familyi={A\bibinitperiod},
+           given={Mukhlis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4fe426d694e5ec760fed4071d4975a2e}{%
+           family={Gunawan},
+           familyi={G\bibinitperiod},
+           given={Go\bibnamedelima Frendi},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7d9b40c093698bf2baaea84aca99f59}
+      \strng{fullhash}{d7d9b40c093698bf2baaea84aca99f59}
+      \strng{bibnamehash}{d7d9b40c093698bf2baaea84aca99f59}
+      \strng{authorbibnamehash}{d7d9b40c093698bf2baaea84aca99f59}
+      \strng{authornamehash}{d7d9b40c093698bf2baaea84aca99f59}
+      \strng{authorfullhash}{d7d9b40c093698bf2baaea84aca99f59}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Under review at Oceanic Linguistics}
+      \field{title}{Phonological Fossils: Detecting Pre-{Austronesian} Substrate Vocabulary in {Western Malayo-Polynesian} Languages Using Machine Learning}
+      \field{year}{2026}
+    \endentry
+    \entry{astiti2005trunyan}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=584c0537819aad60acc422a0a0b6fecd}{%
+           family={Astiti},
+           familyi={A\bibinitperiod},
+           given={Ni\bibnamedelima Ketut\bibnamedelima Ayu},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Denpasar}%
+      }
+      \list{publisher}{1}{%
+        {Udayana University Press}%
+      }
+      \strng{namehash}{584c0537819aad60acc422a0a0b6fecd}
+      \strng{fullhash}{584c0537819aad60acc422a0a0b6fecd}
+      \strng{bibnamehash}{584c0537819aad60acc422a0a0b6fecd}
+      \strng{authorbibnamehash}{584c0537819aad60acc422a0a0b6fecd}
+      \strng{authornamehash}{584c0537819aad60acc422a0a0b6fecd}
+      \strng{authorfullhash}{584c0537819aad60acc422a0a0b6fecd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Kebudayaan {Bali}}
+      \field{title}{Sistem Penguburan Masyarakat {Trunyan}}
+      \field{year}{2005}
+    \endentry
+    \entry{beaujard2011first}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6d9f85a6f5adc07050993a783f9aea28}{%
+           family={Beaujard},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d9f85a6f5adc07050993a783f9aea28}
+      \strng{fullhash}{6d9f85a6f5adc07050993a783f9aea28}
+      \strng{bibnamehash}{6d9f85a6f5adc07050993a783f9aea28}
+      \strng{authorbibnamehash}{6d9f85a6f5adc07050993a783f9aea28}
+      \strng{authornamehash}{6d9f85a6f5adc07050993a783f9aea28}
+      \strng{authorfullhash}{6d9f85a6f5adc07050993a783f9aea28}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Azania: Archaeological Research in Africa}
+      \field{number}{2}
+      \field{title}{The First Migrants to {Madagascar} and Their Introduction of Plants: Linguistic and Ethnological Evidence}
+      \field{volume}{46}
+      \field{year}{2011}
+      \field{pages}{169\bibrangedash 189}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/0067270X.2011.580142
+      \endverb
+    \endentry
+    \entry{vandenberg1996muna}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bf2b09a8ca15d61639eac03bcf487f61}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod},
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leiden}%
+      }
+      \list{publisher}{1}{%
+        {KITLV Press}%
+      }
+      \strng{namehash}{bf2b09a8ca15d61639eac03bcf487f61}
+      \strng{fullhash}{bf2b09a8ca15d61639eac03bcf487f61}
+      \strng{bibnamehash}{bf2b09a8ca15d61639eac03bcf487f61}
+      \strng{authorbibnamehash}{bf2b09a8ca15d61639eac03bcf487f61}
+      \strng{authornamehash}{bf2b09a8ca15d61639eac03bcf487f61}
+      \strng{authorfullhash}{bf2b09a8ca15d61639eac03bcf487f61}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Muna--{English} Dictionary}
+      \field{year}{1996}
+    \endentry
+    \entry{blust1995austronesian}{article}{}
+      \name{author}{1}{}{%
+        {{hash=634e3c2151b666e64b294359bdde2011}{%
+           family={Blust},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{634e3c2151b666e64b294359bdde2011}
+      \strng{fullhash}{634e3c2151b666e64b294359bdde2011}
+      \strng{bibnamehash}{634e3c2151b666e64b294359bdde2011}
+      \strng{authorbibnamehash}{634e3c2151b666e64b294359bdde2011}
+      \strng{authornamehash}{634e3c2151b666e64b294359bdde2011}
+      \strng{authorfullhash}{634e3c2151b666e64b294359bdde2011}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of World Prehistory}
+      \field{number}{4}
+      \field{title}{The Prehistory of the {Austronesian}-Speaking Peoples: A View from Language}
+      \field{volume}{9}
+      \field{year}{1995}
+      \field{pages}{453\bibrangedash 510}
+      \range{pages}{58}
+    \endentry
+    \entry{covarrubias1937bali}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a2a8bc98f5ad386494ab3c50943168dd}{%
+           family={Covarrubias},
+           familyi={C\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Alfred A. Knopf}%
+      }
+      \strng{namehash}{a2a8bc98f5ad386494ab3c50943168dd}
+      \strng{fullhash}{a2a8bc98f5ad386494ab3c50943168dd}
+      \strng{bibnamehash}{a2a8bc98f5ad386494ab3c50943168dd}
+      \strng{authorbibnamehash}{a2a8bc98f5ad386494ab3c50943168dd}
+      \strng{authornamehash}{a2a8bc98f5ad386494ab3c50943168dd}
+      \strng{authorfullhash}{a2a8bc98f5ad386494ab3c50943168dd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Island of {Bali}}
+      \field{year}{1937}
+    \endentry
+    \entry{cox2012small}{article}{}
+      \name{author}{5}{}{%
+        {{hash=92a27f6255995b3e0749004b68d15dd6}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Murray\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c03dbdd52e5230c46e731912f305dbe6}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=03de601eec47be293fb00b1f4c6e9419}{%
+           family={Tumonggor},
+           familyi={T\bibinitperiod},
+           given={Meryanne\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=3ff811c32f15b6c5d469de66a79ff907}{%
+           family={Ricaut},
+           familyi={R\bibinitperiod},
+           given={François-Xavier},
+           giveni={F\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=6440d8769077732e1d0c5e8bdb7f7963}{%
+           family={Sudoyo},
+           familyi={S\bibinitperiod},
+           given={Herawati},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b8a442c8592b6160d238e767ed9d6e2}
+      \strng{fullhash}{ea2b6d882b80a40512f23b3cd7bd3a33}
+      \strng{bibnamehash}{1b8a442c8592b6160d238e767ed9d6e2}
+      \strng{authorbibnamehash}{1b8a442c8592b6160d238e767ed9d6e2}
+      \strng{authornamehash}{1b8a442c8592b6160d238e767ed9d6e2}
+      \strng{authorfullhash}{ea2b6d882b80a40512f23b3cd7bd3a33}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society B}
+      \field{title}{A Small Cohort of {Island Southeast Asian} Women Founded {Madagascar}}
+      \field{volume}{279}
+      \field{year}{2012}
+      \field{pages}{2761\bibrangedash 2768}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1098/rspb.2012.0012
+      \endverb
+    \endentry
+    \entry{dahl1951malgache}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c53283b02b298289fcfd8b3ed431a0e7}{%
+           family={Dahl},
+           familyi={D\bibinitperiod},
+           given={Otto\bibnamedelima Christian},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oslo}%
+      }
+      \strng{namehash}{c53283b02b298289fcfd8b3ed431a0e7}
+      \strng{fullhash}{c53283b02b298289fcfd8b3ed431a0e7}
+      \strng{bibnamehash}{c53283b02b298289fcfd8b3ed431a0e7}
+      \strng{authorbibnamehash}{c53283b02b298289fcfd8b3ed431a0e7}
+      \strng{authornamehash}{c53283b02b298289fcfd8b3ed431a0e7}
+      \strng{authorfullhash}{c53283b02b298289fcfd8b3ed431a0e7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Avhandlinger utgitt av Egede-Instituttet}
+      \field{title}{Malgache et {Maanyan}: Une Comparaison Linguistique}
+      \field{volume}{3}
+      \field{year}{1951}
+    \endentry
+    \entry{danandjaja1980kebudayaan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e885091c35a47d2b13d492afda646bab}{%
+           family={Danandjaja},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jakarta}%
+      }
+      \list{publisher}{1}{%
+        {Pustaka Jaya}%
+      }
+      \strng{namehash}{e885091c35a47d2b13d492afda646bab}
+      \strng{fullhash}{e885091c35a47d2b13d492afda646bab}
+      \strng{bibnamehash}{e885091c35a47d2b13d492afda646bab}
+      \strng{authorbibnamehash}{e885091c35a47d2b13d492afda646bab}
+      \strng{authornamehash}{e885091c35a47d2b13d492afda646bab}
+      \strng{authorfullhash}{e885091c35a47d2b13d492afda646bab}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kebudayaan Petani Desa {Trunyan} di {Bali}}
+      \field{year}{1980}
+    \endentry
+    \entry{greenhill2008abvd}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d450f95f3402a3f308500dc33706566b}{%
+           family={Greenhill},
+           familyi={G\bibinitperiod},
+           given={Simon\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=634e3c2151b666e64b294359bdde2011}{%
+           family={Blust},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8a31d0d793258df0feb157ce73a9caac}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Russell\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{44f84c3ff40709dd4d1c629ece3ebdc6}
+      \strng{fullhash}{44f84c3ff40709dd4d1c629ece3ebdc6}
+      \strng{bibnamehash}{44f84c3ff40709dd4d1c629ece3ebdc6}
+      \strng{authorbibnamehash}{44f84c3ff40709dd4d1c629ece3ebdc6}
+      \strng{authornamehash}{44f84c3ff40709dd4d1c629ece3ebdc6}
+      \strng{authorfullhash}{44f84c3ff40709dd4d1c629ece3ebdc6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Bioinformatics}
+      \field{title}{The {Austronesian} Basic Vocabulary Database: From Bioinformatics to Lexomics}
+      \field{volume}{4}
+      \field{year}{2008}
+      \field{pages}{271\bibrangedash 283}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.4137/EBO.S893
+      \endverb
+    \endentry
+    \entry{henley2004trousers}{article}{}
+      \name{author}{1}{}{%
+        {{hash=221d0c103f502b006f5fa9af81bebdd0}{%
+           family={Henley},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{221d0c103f502b006f5fa9af81bebdd0}
+      \strng{fullhash}{221d0c103f502b006f5fa9af81bebdd0}
+      \strng{bibnamehash}{221d0c103f502b006f5fa9af81bebdd0}
+      \strng{authorbibnamehash}{221d0c103f502b006f5fa9af81bebdd0}
+      \strng{authornamehash}{221d0c103f502b006f5fa9af81bebdd0}
+      \strng{authorfullhash}{221d0c103f502b006f5fa9af81bebdd0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Modern Asian Studies}
+      \field{number}{1}
+      \field{title}{Conflict, Justice, and the Stranger-King: Indigenous Roots of Colonial Rule in {Indonesia} and Elsewhere}
+      \field{volume}{38}
+      \field{year}{2004}
+      \field{pages}{85\bibrangedash 144}
+      \range{pages}{60}
+    \endentry
+    \entry{nothofer1975reconstruction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c37365deca9e7be39e95a8bf706fe2c1}{%
+           family={Nothofer},
+           familyi={N\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {The Hague}%
+      }
+      \list{publisher}{1}{%
+        {Martinus Nijhoff}%
+      }
+      \strng{namehash}{c37365deca9e7be39e95a8bf706fe2c1}
+      \strng{fullhash}{c37365deca9e7be39e95a8bf706fe2c1}
+      \strng{bibnamehash}{c37365deca9e7be39e95a8bf706fe2c1}
+      \strng{authorbibnamehash}{c37365deca9e7be39e95a8bf706fe2c1}
+      \strng{authornamehash}{c37365deca9e7be39e95a8bf706fe2c1}
+      \strng{authorfullhash}{c37365deca9e7be39e95a8bf706fe2c1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Reconstruction of {Proto}-{Malayo}-{Javanic}}
+      \field{year}{1975}
+    \endentry
+    \entry{oktaviana2024cave}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a2bc0a21161f7430231d48648748bb93}{%
+           family={Oktaviana},
+           familyi={O\bibinitperiod},
+           given={Adhi\bibnamedelima Agus},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcfbb1673c41a7f78fbb6af266b7ccf3}
+      \strng{fullhash}{dcfbb1673c41a7f78fbb6af266b7ccf3}
+      \strng{bibnamehash}{dcfbb1673c41a7f78fbb6af266b7ccf3}
+      \strng{authorbibnamehash}{dcfbb1673c41a7f78fbb6af266b7ccf3}
+      \strng{authornamehash}{dcfbb1673c41a7f78fbb6af266b7ccf3}
+      \strng{authorfullhash}{dcfbb1673c41a7f78fbb6af266b7ccf3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Narrative Cave Art in {Indonesia} by 51,200 Years Ago}
+      \field{volume}{631}
+      \field{year}{2024}
+      \field{pages}{814\bibrangedash 818}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41586-024-07541-7
+      \endverb
+    \endentry
+    \entry{whewell1840philosophy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f3ec0da14da593615d2c0127dec0d012}{%
+           family={Whewell},
+           familyi={W\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {John W. Parker}%
+      }
+      \strng{namehash}{f3ec0da14da593615d2c0127dec0d012}
+      \strng{fullhash}{f3ec0da14da593615d2c0127dec0d012}
+      \strng{bibnamehash}{f3ec0da14da593615d2c0127dec0d012}
+      \strng{authorbibnamehash}{f3ec0da14da593615d2c0127dec0d012}
+      \strng{authornamehash}{f3ec0da14da593615d2c0127dec0d012}
+      \strng{authorfullhash}{f3ec0da14da593615d2c0127dec0d012}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Philosophy of the Inductive Sciences}
+      \field{year}{1840}
+    \endentry
+    \entry{yen1995canarium}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d98e6cd6eaef5f372ddc7ce1496c7491}{%
+           family={Yen},
+           familyi={Y\bibinitperiod},
+           given={Douglas\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Australian National University}%
+      }
+      \strng{namehash}{d98e6cd6eaef5f372ddc7ce1496c7491}
+      \strng{fullhash}{d98e6cd6eaef5f372ddc7ce1496c7491}
+      \strng{bibnamehash}{d98e6cd6eaef5f372ddc7ce1496c7491}
+      \strng{authorbibnamehash}{d98e6cd6eaef5f372ddc7ce1496c7491}
+      \strng{authornamehash}{d98e6cd6eaef5f372ddc7ce1496c7491}
+      \strng{authorfullhash}{d98e6cd6eaef5f372ddc7ce1496c7491}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{In: Yen, D.E. and Mummery, J.M.J. (eds), Pacific Production Systems}
+      \field{title}{{Canarium}: Its Role in {Melanesian} Horticulture}
+      \field{year}{1995}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

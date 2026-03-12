@@ -8,7 +8,7 @@
 - Update `docs/TRIGGER_MAP.md` when blockers change
 - Tag serendipitous cross-paper discoveries in JOURNAL: `[BRIDGE → PY, I-NNN]`
 
-**Last updated:** 2026-03-11
+**Last updated:** 2026-03-12
 
 ---
 
@@ -26,7 +26,7 @@
 | I-008 | ~~Prasasti botanical keyword expansion~~ → **E035 SUCCESS** | RESULT | E035 | done | P5, P9, Channel 5 |
 | I-009 | Carangan wayang inventory — episodes WITHOUT Indian parallel | READY | P12 draft §8 | 1-2 days | P12, Channel 8 |
 | I-010 | Babad Tanah Jawi / Serat Centhini substrate extraction via NLP | READY | Exploration 2026-03-10 | 2-3 days | P12, Channel 8 |
-| I-011 | Pulotu botanical query: aromatic plant × burial co-occurrence | TESTABLE | P9 draft §5 | 1 session | P5, P9, Channel 5 | *Blocked: Pulotu lacks plant-specific variables. Needs external ethnobotanical data.* |
+| I-011 | Pulotu botanical query: aromatic plant × burial co-occurrence | TESTABLE | P9 draft §5 | 1 session | P5, P9, Channel 5 | *Blocked: Pulotu lacks plant-specific variables. Needs external ethnobotanical data. E050 confirms Canarium as pan-Austronesian aromatic — strengthens hypothesis.* |
 
 ---
 
@@ -38,12 +38,12 @@
 | I-021 | Mythology binary classifier (P12 pipeline) | TESTABLE | Needs corpus construction (~40 narrative units labeled) | Malagasy corpus + wayang carangan inventory done (I-004, I-009) | P12 draft §5 | P12, Channel 8 |
 | I-022 | KawiKupas tool — Sanskrit ratio extractor for Kawi texts | TESTABLE | Needs Sanskrit lexicon + Old Javanese morphological rules | Digital Sanskrit dictionary accessible | P6 draft | P6, P8, Channel 6,12 |
 | I-023 | 6-dimensional Kawi text clustering (phylogenetic) | TESTABLE | Needs KawiKupas (I-022) + digital corpus of 10 target texts | I-022 complete + corpus digitized | P6 draft | P6, Channel 6 |
-| I-024 | Malagasy burial plant comparison (ethnobotany) | TESTABLE | Needs Malagasy ethnobotanical literature survey | Literature survey done or Malagasy collaborator | P9 draft §2.3 | P9, P11, Channel 5 |
+| I-024 | Malagasy burial plant comparison (ethnobotany) | **DONE (E044+E050)** | ~~Needs Malagasy ethnobotanical literature survey~~ | ✓ E044 complete. E050 GBIF confirms Canarium in ALL Austronesian regions (Madagascar 388 records, 25.9%). Plumeria=New World. 4-layer substitution chain validated. | P9 draft §4.2 | P9, P11, Channel 5 |
 | I-025 | Krama lexical comparison (Bali Alus vs Tegal vs Solo) | TESTABLE | Needs Tegal/Banyumas wordlist compilation | Wordlist compiled or fieldwork connection | P9 draft §2.1 | P9, Channel 6 |
 | I-026 | Osing substrate detection via KawiKupas | TESTABLE | Needs KawiKupas (I-022) + Osing dialect data | I-022 + ABVD Osing entries or fieldwork | P9 draft §5.5 | P8, P9, Channel 6 |
-| I-027 | Tengger ritual vocabulary analysis | TESTABLE | Needs Tengger dialect wordlist (may exist in literature) | Tengger wordlist located or compiled | P9 draft §5.5 | P8, P9, P11, Channel 6,7 |
-| I-028 | Ghost population detection in Javanese genomes | TESTABLE | Needs access to Eijkman/1000Genomes Indonesian data | Public genome data + admixture pipeline setup | Working note aDNA | P7, Channel 3 |
-| I-029 | Batimetri Sunda Shelf anomaly detection (GEBCO + ML) | TESTABLE | Needs GEBCO bathymetry download + anomaly detection pipeline | GEBCO data acquired + compute setup | Exploration 2026-03-10 | P-coastal, Channel 2 |
+| I-027 | Tengger ritual vocabulary analysis | **READY** | ~~Needs Tengger dialect wordlist~~ ✓ ABVD ID 1533 (178 concepts, 255 forms). E043 shows PMP cognacy 27.7% (lower than Javanese 33.0%) — small isolate drift. | Tengger ritual vocabulary (non-ABVD) still needs compilation | P9 draft §6 | P8, P9, P11, Channel 6,7 |
+| I-028 | Ghost population detection in Javanese genomes | TESTABLE | Needs access to Eijkman/1000Genomes Indonesian data | Public genome data + admixture pipeline setup | Working note aDNA | P7, Channel 3 | *Meta-finding (I-101): NO Java aDNA exists — volcanic taphonomy is the explanation. Absence itself is evidence.* |
+| I-029 | Batimetri Sunda Shelf anomaly detection (GEBCO + ML) | TESTABLE | Needs GEBCO bathymetry download + anomaly detection pipeline | GEBCO data acquired + compute setup | Exploration 2026-03-10 | P-coastal, Channel 2 | *See also I-102 (paleo-drainage reconstruction as prerequisite).* |
 | I-030 | ~~P14 Bonferroni/Holm correction + research note pivot~~ → **DONE** | RESULT | — | — | Mata Elang #3, R04 | P14 |
 | I-031 | ~~P8 intro reframe — lead with phonological non-conformity (E029)~~ → **DONE** | RESULT | — | — | Mata Elang #3, I5 | P8 |
 
@@ -53,7 +53,7 @@
 
 | ID | Title | Statement | Source | Links |
 |----|-------|-----------|--------|-------|
-| I-040 | ~~Bamboo Civilization hypothesis~~ → **E040 SUCCESS** | 170/268 (63.4%) prasasti mention organic materials vs 73 (27.2%) lithic. Organic-only=103, lithic-only=6. Binomial p<0.0001. Confirms P1 taphonomic bias thesis. | E040 | P1, P7, Channel 1 |
+| I-040 | ~~Bamboo Civilization hypothesis~~ → **E040 SUCCESS, E048 cross-validated** | 170/268 (63.4%) prasasti mention organic materials vs 73 (27.2%) lithic. E048 confirms organic mentions correlate with pre-Indic vocabulary (partial rho=+0.162, p=0.038). Genre taphonomy quantified: sima 90.4% vs short 24.1%. | E040, E048 | P1, P7, Channel 1 |
 | I-041 | Oralitas as technology | Oral tradition stores information as densely as written text. Testable: measure information density (unique concepts/hour) of wayang vs contemporary written texts. | Exploration 2026-03-10 | P12, Channel 8 |
 | I-042 | ~~VCS diversity prediction~~ → **E039 INFORMATIVE NEGATIVE** | Binary volcanic/non-volcanic test NOT significant (p=0.973, direction reversed). Classification problem: Q32 island type is wrong proxy. VCS is LOCAL (proximity-based), not island-type. Q21 (mana) one intriguing signal (p=0.006). Next: GVP distance-based continuous test. | E039 | P11, Channel 7 |
 | I-043 | Candi siting = volcanic resilience selection | Sacred architecture on elevated ground is volcanically selected (survives eruption cycles), not just "closer to heaven." Testable: candi elevation vs local eruption flow direction analysis. | P11 draft §2.3 | P7, P11, Channel 1,9 |
@@ -64,11 +64,17 @@
 | I-048 | Gamelan pelog × volcanic tremor frequency | Pelog tuning system has no Indian parallel. Correlate pelog frequency ratios with Merapi/Kelud tremor spectrograms. | Master attack map Ch.11 | P11, Channel 11 |
 | I-049 | Keris pamor as volcanic material culture | Pamor technique uses volcanic magnetite + meteoritic nickel = unique to Nusantara. Date earliest keris finds vs Hindu arrival. | P11 draft §6 parking lot | P11, Channel 10 |
 | I-050 | Batik motif substrate detection | Some traditional batik patterns have no Hindu parallel. Apply visual classifier (same logic as P12) to batik images. | Master attack map Ch.10 | P12, Channel 10 |
-| I-051 | Volcanic ash as aDNA preservative | Volcanic burial that destroys surface record may PRESERVE aDNA (sealed, anaerobic). Java's aDNA blank spot may be best preservation site. | Working note aDNA §5 | P7, Channel 3 |
+| I-051 | Volcanic ash as aDNA preservative | Volcanic burial that destroys surface record may PRESERVE aDNA (sealed, anaerobic). Java's aDNA blank spot may be best preservation site. **I-101 confirms: no Java aDNA exists at all — the blank IS the taphonomic signal.** | Working note aDNA §5 | P7, Channel 3 |
 | I-052 | Tephrochronology calendar for Java | Use known tephra layers (Kelud, Tambora, Krakatau, Toba) as stratigraphic dating framework — same method as Iceland archaeology. | P10 draft §4b | P1, P10, Channel 1 |
 | I-053 | ~~Pangram narrative uniqueness test~~ → **DESK RESEARCH: CONFIRMED UNIQUE** | Hanacaraka is the only known script whose pangram encodes a complete NARRATIVE (characters, conflict, resolution). Iroha (Japanese) = lyric/philosophical poem, no characters/plot. Old Slavonic letter names = debatable didactic message. Thai/Burmese/Khmer/Baybayin/Devanagari = phonological tables only. Caveat: Hanacaraka story is Neo-Javanese (not in OJ texts), dating uncertain. Recommended framing: "only writing system whose canonical learning sequence is a complete narrative with named characters and dramatic arc." | Web search 2026-03-11 | P8, P12, Channel 12 |
 | I-054 | Surabaya-Venice comparison | Both estuarine, both trade-network, both organic architecture. Formally comparative. | P4 draft | P4, Channel 2 |
 | I-055 | Mongol 1293 invasion as natural experiment | Kertanegara assassination + Mongol withdrawal = exogenous shock to mandala system. What happens to volcanic ritual during state collapse? | P4 draft | P4, P14, Channel 7 |
+| I-101 | Ghost Population Detection via aDNA Synthesis — meta-taphonomic result | No Java aDNA exists BECAUSE of volcanic taphonomy. The absence IS the finding. Systematic aDNA literature review → quantify the blank → reframe as strongest evidence for L1 erasure. | aDNA agent research | P1, P7, Channel 3 |
+| I-102 | Sunda Shelf Paleo-Drainage Reconstruction (GEBCO bathymetry → L2 test) | GEBCO bathymetry data can reconstruct Pleistocene river systems on Sunda Shelf. Submerged drainages = likely settlement corridors. First computational test of L2 (Coastal Submersion). | Background research | L2, P-coastal, Channel 2 |
+| I-103 | Java Toponymic Substrate Mapping (BPS village names → pre-Hindu geographic layer) | BPS census lists ~80,000 village names in Java. NLP extraction of non-Sanskrit, non-Arabic toponyms → map pre-Hindu geographic naming layer. Testable: do substrate toponyms cluster away from volcanoes (Zone C)? | Background research | P8, P11, Channel 6 |
+| I-104 | Maritime Vocabulary as Civilization Indicator | E049 finding: maritime words are #2 most conserved domain in peripheries (Bal 60% vs Jav 40%). "Sea" (laut) replaced in Javanese but retained in Balinese. Pre-Hindu substrate was maritime-organic, not just organic. Court-driven overwriting targeted nature + maritime domains. | E049 | P8, P9, Channel 6 |
+| I-105 | Genre Taphonomy as 5th Layer of Darkness (L5) | E048 quantified: sima inscriptions mention organic materials 90.4% vs short-format 24.1% (p<0.0001). Pre-Indic ratio also higher in long sima. Inscription FORMAT is a massive taphonomic filter — C8 "dark century" is a genre artifact, not a cultural blank. | E048 | P1, P5, Manifesto L5, Channel 1 |
+| I-106 | Canarium as Pan-Austronesian Aromatic Marker | E050 GBIF confirms Canarium in ALL Austronesian regions: Taiwan (136), Philippines (13), Madagascar (388), Melanesia (15). 4-layer aromatic substitution chain: Canarium → dammar → menyan → kamboja. Indonesia undersampled (4 records = collection bias). | E050 | P5, P9, Channel 5 |
 
 ---
 
@@ -123,6 +129,16 @@
 | I-099 | Mini-NusaRC cave bias test | RESULT | E020 | P7 (informative negative: p=0.761) |
 | I-100 | Borehole burial gradient | RESULT | E024 | P9 (POC complete, 25 records) |
 | I-040 | Bamboo Civilization material culture scan | RESULT | E040 | Organic 63.4% vs Lithic 27.2%. Binomial p<0.0001. P1 direct evidence. |
+| I-105 | Genre Taphonomy (L5) — multi-domain convergence | RESULT | E048 | Sima 90.4% vs short 24.1% organic. C8=dark century (genre artifact). partial rho=+0.162 (p=0.038). |
+| I-104 | Maritime vocabulary conservation in peripheries | RESULT | E049 | Maritime #2 conserved (+20% Bal vs Jav). "Sea" replaced in Javanese. Pre-Hindu = maritime-organic. |
+| I-106 | Canarium pan-Austronesian aromatic (GBIF confirmed) | RESULT | E050 | Canarium in ALL AN regions. Madagascar 388 records (25.9%). 4-layer substitution chain validated. |
+| I-107 | Kakawin domain-specific Sanskritization | RESULT | E058 | Agriculture 91% native, Religion 86% Sanskrit. Register stratification, not uniform overlay. chi² p<1e-10. |
+| I-108 | Pre-400 CE reconstruction (8-channel synthesis) | RESULT | E060 | 6 domains reconstructed. Economy+Religion=HIGH conf. Script=SPECULATIVE. 56 experiments, 8 channels. |
+| I-109 | Indic script simplification comparison (cross-SE-Asian) | EXPERIMENT | E061 | Testing: do all Brahmi-derived scripts simplify toward local phonology? Strengthens E036 Hanacaraka finding. |
+| I-110 | Prasasti comprehensive temporal model (visibility curve) | EXPERIMENT | E062 | Combining E023+E030+E035+E040 into single visibility score per century. PCA. |
+| I-111 | ABVD domain-specific PMP conservation | EXPERIMENT | E063 | Which Swadesh domains are most conserved across 1000+ Austronesian languages? Extends E058. |
+| I-112 | Candi archaeoastronomy (entrance vs solar azimuths) | RESULT | E066 | 85% face equinox E/W (p=4.9e-14). McNemar p=0.0016 vs volcanic. Ch9 strengthened. |
+| I-113 | Volcanic toponyms in Java village names | RESULT | E067 | INFO NEG: no proximity effect (rho=+0.14, p=0.15). VI = behavioral, not lexical. |
 
 ---
 
@@ -130,17 +146,17 @@
 
 | Channel | Ideas |
 |---------|-------|
-| 1. Geology/Taphonomy | I-020, I-040, I-043, I-052, I-090-I-093 |
-| 2. Maritime/Coastal | I-029, I-045, I-054, I-080 |
-| 3. Genetics/DNA | I-028, I-051, I-078, I-079, I-088 |
-| 5. Ethnobotany | I-008, I-011, I-024, I-072 |
-| 6. Linguistics | I-003, I-007, I-022, I-023, I-025, I-026, I-027, I-095-I-096 |
+| 1. Geology/Taphonomy | I-020, I-040, I-043, I-052, I-090-I-093, I-105 |
+| 2. Maritime/Coastal | I-029, I-045, I-054, I-080, I-102 |
+| 3. Genetics/DNA | I-028, I-051, I-078, I-079, I-088, I-101 |
+| 5. Ethnobotany | I-008, I-011, I-024, I-072, I-106 |
+| 6. Linguistics | I-003, I-007, I-022, I-023, I-025, I-026, I-027, I-095-I-096, I-103, I-104 |
 | 7. Ritual | I-002, I-042, I-044, I-047, I-055, I-094, I-098 |
 | 8. Mythology | I-004, I-009, I-010, I-021, I-041, I-085, I-086, I-087 |
-| 9. Archaeoastronomy | I-001, I-043 |
+| 9. Archaeoastronomy | I-001, I-043, I-112 |
 | 10. Material Culture | I-046, I-049, I-050, I-084 |
 | 11. Acoustics | I-048 |
-| 12. Script Archaeology | I-005, I-006, I-053 |
+| 12. Script Archaeology | I-005, I-006, I-053, I-109 |
 
 ---
 

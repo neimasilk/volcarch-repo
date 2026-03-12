@@ -1,0 +1,69 @@
+{
+  "experiment": "E041 IPA Approximation Validation",
+  "date": "2026-03-11",
+  "conversion": {
+    "forms_changed": 75,
+    "total_forms": 1357,
+    "pct_changed": 5.5,
+    "mean_length_change": -0.059,
+    "forms_with_length_change": 75,
+    "mean_cluster_change": -0.039
+  },
+  "cv_results": {
+    "ortho": {
+      "auc_mean": 0.7716,
+      "auc_std": 0.0274
+    },
+    "ipa": {
+      "auc_mean": 0.7737,
+      "auc_std": 0.0285
+    }
+  },
+  "lolo_results": {
+    "ortho": {
+      "Bugis": {
+        "auc": 0.7203
+      },
+      "Makassar": {
+        "auc": 0.7301
+      },
+      "Muna": {
+        "auc": 0.6707
+      },
+      "Tolaki": {
+        "auc": 0.8072
+      },
+      "Toraja-Sadan": {
+        "auc": 0.7038
+      },
+      "Wolio": {
+        "auc": 0.7144
+      }
+    },
+    "ipa": {
+      "Bugis": {
+        "auc": 0.7344
+      },
+      "Makassar": {
+        "auc": 0.7523
+      },
+      "Muna": {
+        "auc": 0.7127
+      },
+      "Tolaki": {
+        "auc": 0.8108
+      },
+      "Toraja-Sadan": {
+        "auc": 0.6881
+      },
+      "Wolio": {
+        "auc": 0.7002
+      }
+    },
+    "ortho_mean_auc": 0.7244,
+    "ipa_mean_auc": 0.7331,
+    "ortho_ge65": 6,
+    "ipa_ge65": 6
+  },
+  "conclusion": "ROBUST: IPA conversion produces negligible change in model performance (CV delta=+0.0021, LOLO delta=+0.0087). The phonological fingerprint is not driven by orthographic artifacts."
+}

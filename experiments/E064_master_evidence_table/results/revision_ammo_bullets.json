@@ -1,0 +1,61 @@
+{
+  "P1": [
+    "E040: 63.4% organic vs 27.2% lithic in 268 inscriptions — taphonomic bias confirmed",
+    "E052: 2.09M km² Sunda Shelf submerged — L2 adds to L1 burial thesis",
+    "E053: 0/84 Java aDNA recovered — volcanic taphonomy destroys DNA (Fisher p=0.047)",
+    "E057: Genre taphonomy accounts for C8 'blank' — format artifact, not cultural absence",
+    "E059: Top 10 fieldwork targets generated — testable predictions ready for GPR",
+    "E048: Cross-domain partial correlation survives length control (rho=+0.162, p=0.038)"
+  ],
+  "P2": [
+    "E013: AUC=0.768, temporal split AUC=0.755 — tautology-resistant",
+    "E015: SHAP-gain rho=0.943 — feature importance aligns with geological theory",
+    "E016: Zone B = 1.8% area, 28.4% retention — practical survey targets",
+    "E059: Fieldwork targets rank sites by composite score — validates Zone B predictions"
+  ],
+  "P5": [
+    "E033: Indianization DECLINES over time (rho=-0.211, p=0.030) — wave, not permanent",
+    "E030: Pre-Indic vocabulary PERSISTS (rho=+0.50), hyang >50% ALL centuries",
+    "E058: Agriculture vocabulary 91% native — Sanskrit never penetrated economic core",
+    "E057: Genre taphonomy: long sima = 85.7% hyang visibility vs short = 13.0%",
+    "E035: menyan+kamboja ABSENT from inscriptions — mortuary plants = oral tradition only",
+    "E044: Plumeria = New World (post-1560), Canarium = true pre-Hindu aromatic",
+    "E032: Eruptions cluster in wet season (chi² p=0.042) — calendar encodes volcanic hazard"
+  ],
+  "P7": [
+    "E019: Spatial distribution Cohen's d=1.005 — strong effect size for Zone A vs B",
+    "E031: Candi siting follows volcanic awareness (west-cluster p<0.0001)",
+    "E053: aDNA absence from Java IS taphonomic evidence (meta-argument)",
+    "E056: Candi in MORE Indianized areas (MW p=0.007) — dual Indianization signature",
+    "E065: Zone A 17.9× overrepresented — sacred sites deliberately in high-risk volcanic zones",
+    "E066: Candi orientation = astronomical/canonical (85% equinox), NOT volcanic — siting vs orientation distinction"
+  ],
+  "P8": [
+    "E027: ML AUC=0.760, LOLO 5/6≥0.65 — phonological fingerprint validated",
+    "E041+E042: IPA and syllable robustness confirmed — results not artifacts of encoding",
+    "E036: Hanacaraka 33→20 consonant reduction aligns PAn, not Sanskrit",
+    "E058: Domain gradient: Sanskrit fails in agriculture, body, nature domains",
+    "E029: Parallel innovation (p=0.569) — reframes as phonological non-conformity, not lexical inheritance",
+    "E049: Maritime vocabulary shows domain-specific conservation pattern",
+    "E051: 57.7% pre-Hindu Java toponyms — toponymic substrate parallels lexical substrate"
+  ],
+  "P9": [
+    "E043: Bal 40.3% > Jav 33.0% PMP cognacy — peripheral conservatism quantified",
+    "E043: Tengger LOWER (27.7%) — peripheral conservatism is large-scale, not small-isolate",
+    "E044: 4-layer botanical substitution chain (Canarium→dammar→menyan→kamboja)",
+    "E050: Canarium in ALL Austronesian regions — Madagascar 388 GBIF records",
+    "E051: Madura 70-91% pre-Hindu — strongest peripheral conservatory on Java",
+    "E054: Global phylogenetic gradient reversed, local conservatism confirmed — two scales",
+    "E034: Madagascar = pre-1200 CE Nusantaran time capsule (Panji absent = post-dates migration)"
+  ],
+  "P11": [
+    "E031: Candi western siting p<0.0001 — strongest architectural evidence for volcanic awareness",
+    "E032: Pranata Mangsa encodes volcanic hazard (wet season clustering chi² p=0.042)",
+    "E039: VCS REJECTED globally — must be framed as local Java/Bali only",
+    "E051: Toponymic court-center model (rho=0.387) — cultural overwriting is spatial",
+    "E056: Candi × toponym crossref (MW p=0.007) — Indianization left dual spatial signature",
+    "E065: Zone A 17.9× overrepresented — builders chose HIGH-RISK volcanic proximity",
+    "E066: 85% face equinox E/W (p=4.9e-14), McNemar p=0.0016 — WHERE=volcanic, HOW=astronomical",
+    "E067: INFO NEG — volcanic toponyms not concentrated near volcanoes (rho=+0.14, p=0.15). VI=behavioral not lexical"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "experiment": "E066",
+  "title": "Candi Archaeoastronomy",
+  "date": "2026-03-12",
+  "status": "SUCCESS",
+  "n_candi": 20,
+  "java_latitude": -7.5,
+  "solar_azimuths": {
+    "June Solstice Sunrise": 66.3,
+    "Equinox Sunrise": 90.0,
+    "December Solstice Sunrise": 113.7,
+    "June Solstice Sunset": 293.7,
+    "Equinox Sunset": 270.0,
+    "December Solstice Sunset": 246.3
+  },
+  "orientation_distribution": {
+    "East_90": 5,
+    "West_270": 12,
+    "North_0": 2,
+    "South_180": 1
+  },
+  "alignment_rates": {
+    "equinox_aligned": "17/20 (85.0%)",
+    "cardinal_aligned": "20/20 (100.0%)",
+    "volcano_aligned": "7/20 (35.0%)"
+  },
+  "statistical_tests": {
+    "equinox_binomial_p": 4.902265175885432e-14,
+    "cardinal_binomial_p": 8.624813731972332e-14,
+    "mcnemar_p": 0.001565402258002549,
+    "rayleigh_mean_direction": 278.1,
+    "rayleigh_R_bar": 0.3536,
+    "rayleigh_p": 0.08075187447361323
+  },
+  "regional_pattern": {
+    "east_java_west_facing": "7/10",
+    "central_java_west_facing": "5/10",
+    "fisher_p": 0.6499166468206717
+  },
+  "key_finding": "85% of candi face equinox directions (E or W), confirming astronomical/religious canonical orientation. Only 35% face their nearest volcano. WHERE to build = volcanic logic; HOW to orient = astronomical convention.",
+  "papers_served": [
+    "P11"
+  ],
+  "channels": [
+    9
+  ]
+}

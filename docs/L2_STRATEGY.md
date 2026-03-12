@@ -13,7 +13,7 @@
 **Dependencies:** None (P1+P2 submitted 2026-03-10/11)
 **Goal:** Establish the VOLCARCH framework through computational papers (P1, P2) and exploratory interdisciplinary contributions (P5, P7, and others as opportunities arise)
 
-**Research philosophy:** Exploratory rapid prototyping — multiple experiments run in parallel, fail fast, keep what works. All papers serve one manifesto: the four layers of invisibility (volcanic burial, coastal submersion, historiographic bias, cosmological displacement). See `docs/drafts/manifesto.md`.
+**Research philosophy:** Exploratory rapid prototyping — multiple experiments run in parallel, fail fast, keep what works. All papers serve one manifesto: the six layers of invisibility (volcanic burial, coastal submersion, historiographic bias, cosmological overwrite, genre taphonomy, historiographic periodicity). See `docs/drafts/manifesto.md` (v2.0, 2026-03-11).
 
 **Preprint strategy:** P1 and P2 will be posted to **EarthArXiv** as preprints (free DOI) before or concurrent with journal submission, to establish priority and provide citable references for P5/P7/future papers.
 
@@ -126,17 +126,18 @@
 - Geologist co-PI for stratigraphic interpretation
 - Ethics clearance if working near cultural/spiritual sites
 
-## 8. Papers Pipeline (Updated 2026-03-10)
+## 8. Papers Pipeline (Updated 2026-03-11)
 
 ### Submitted (under review)
 - **P1** — Taphonomic Bias Framework → Asian Perspectives (2026-03-10)
 - **P2** — Settlement Suitability Model → JCAA (2026-03-11)
 - **P5** — The Volcanic Ritual Clock → BKI (2026-03-09)
 - **P7** — Temporal Overlay Matrix → Antiquity Project Gallery (2026-03-06)
+- **P8** — Linguistic Fossils → Oceanic Linguistics (2026-03-11), MS# OL-03-2026-11. Authors: Amien + Go Frendi.
+- **P9** — Peripheral Conservatism Framework → JSEAS NUS Press (2026-03-11, via email). 34pp, ~10,100 words, 6 figures. Authors: Amien + Gunawan. Awaiting MS#.
 
-### Active exploration
-- **P8** — Linguistic Fossils (draft v0.1 complete, 5 experiments, needs red-team before submission)
-- **P9/P09alt** — Borehole Archaeology / Peripheral Substrate (E024 POC SUCCESS)
+### Drafting
+- *(none)*
 
 ### Incubation (see `docs/drafts/README.md`)
 - **P11** — Volcanic Cultural Selection (partial draft, needs P5+P9 as foundation)
@@ -153,11 +154,11 @@
 - **P14** — Pararaton Volcanic Collapse (Bonferroni kills significance; E026 folded into P5 revision ammo, 2026-03-11)
 - **P-coastal** — The Invisible Shore (stub, no data, no method)
 
-**Pipeline summary (post Mata Elang #4):** 4 under review (P1, P2, P5, P7) + 2 drafting (P8, P9) + 1 incubating (P11) = **7 active papers**.
+**Pipeline summary (2026-03-11):** 6 under review (P1, P2, P5, P7, P8, P9) + 1 incubating (P11) = **7 active papers**. 44 experiments completed (E001-E044).
 
 See `docs/drafts/README.md` for full catalog.
 
 ---
 
 *This document reflects the current plan. It will be updated when phases change or pivots occur.*
-*Last updated: 2026-03-11 (post Mata Elang #4 — P1+P2 submitted)*
+*Last updated: 2026-03-11 (P9 submitted to JSEAS — 6 papers now under review)*

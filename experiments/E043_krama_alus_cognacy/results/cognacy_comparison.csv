@@ -1,0 +1,1556 @@
+language_id,language,concept,domain,n_forms,n_cognatesets,pmp_match,pan_match,either_match,pmp_cogsets_shared
+1,Balinese,Eight,NUMBER,1,0,0,0,0,0
+1,Balinese,Five,NUMBER,1,1,1,1,1,1
+1,Balinese,Four,NUMBER,1,1,1,1,1,1
+1,Balinese,I,OTHER,1,0,0,0,0,0
+1,Balinese,Nine,NUMBER,1,2,0,1,1,0
+1,Balinese,One,NUMBER,1,1,1,1,1,1
+1,Balinese,Seven,NUMBER,1,1,0,1,1,0
+1,Balinese,Six,NUMBER,1,1,0,1,1,0
+1,Balinese,Ten,NUMBER,1,0,0,0,0,0
+1,Balinese,Three,NUMBER,2,1,1,1,1,1
+1,Balinese,Two,NUMBER,1,1,1,1,1,1
+1,Balinese,above,OTHER,1,0,0,0,0,0
+1,Balinese,all,OTHER,1,0,0,0,0,0
+1,Balinese,and,OTHER,1,1,1,1,1,1
+1,Balinese,ashes,NATURE,1,1,1,1,1,1
+1,Balinese,at,OTHER,2,1,1,1,1,1
+1,Balinese,back,BODY,1,1,0,0,0,0
+1,Balinese,"bad, evil",OTHER,2,1,0,0,0,0
+1,Balinese,belly,BODY,1,1,0,0,0,0
+1,Balinese,below,OTHER,2,0,0,0,0,0
+1,Balinese,big,OTHER,2,1,0,0,0,0
+1,Balinese,bird,OTHER,2,0,0,0,0,0
+1,Balinese,black,OTHER,2,1,0,0,0,0
+1,Balinese,blood,BODY,2,1,0,0,0,0
+1,Balinese,bone,BODY,1,1,1,1,1,1
+1,Balinese,branch,OTHER,1,2,0,0,0,0
+1,Balinese,breast,BODY,1,1,0,0,0,0
+1,Balinese,child,KINSHIP,1,1,1,1,1,1
+1,Balinese,cloud,NATURE,2,0,0,0,0,0
+1,Balinese,cold,OTHER,1,1,1,0,1,1
+1,Balinese,"correct, true",OTHER,2,1,1,0,1,1
+1,Balinese,day,OTHER,2,1,0,0,0,0
+1,Balinese,dirty,OTHER,1,1,0,0,0,0
+1,Balinese,dog,OTHER,2,0,0,0,0,0
+1,Balinese,dry,OTHER,1,1,0,0,0,0
+1,Balinese,"dull, blunt",OTHER,1,1,1,0,1,1
+1,Balinese,dust,OTHER,1,1,1,0,1,1
+1,Balinese,ear,BODY,1,1,0,0,0,0
+1,Balinese,earth/soil,NATURE,1,1,1,0,1,1
+1,Balinese,egg,OTHER,1,1,1,1,1,1
+1,Balinese,eye,BODY,1,1,1,1,1,1
+1,Balinese,far,OTHER,1,1,1,0,1,1
+1,Balinese,fat/grease,OTHER,1,1,1,0,1,1
+1,Balinese,father,KINSHIP,2,1,0,0,0,0
+1,Balinese,feather,OTHER,1,1,1,0,1,1
+1,Balinese,fire,NATURE,1,1,1,1,1,1
+1,Balinese,fish,OTHER,1,0,0,0,0,0
+1,Balinese,flower,NATURE,1,1,1,0,1,1
+1,Balinese,fog,OTHER,1,0,0,0,0,0
+1,Balinese,fruit,NATURE,1,1,1,1,1,1
+1,Balinese,good,OTHER,2,0,0,0,0,0
+1,Balinese,grass,NATURE,1,0,0,0,0,0
+1,Balinese,green,OTHER,1,1,0,0,0,0
+1,Balinese,hair,BODY,1,1,1,1,1,1
+1,Balinese,hand,BODY,2,2,1,1,1,1
+1,Balinese,he/she,OTHER,1,1,1,1,1,1
+1,Balinese,head,BODY,2,0,0,0,0,0
+1,Balinese,heavy,OTHER,1,1,1,0,1,1
+1,Balinese,house,OTHER,2,1,1,1,1,1
+1,Balinese,how?,OTHER,1,0,0,0,0,0
+1,Balinese,husband,KINSHIP,2,0,0,0,0,0
+1,Balinese,if,OTHER,1,0,0,0,0,0
+1,Balinese,"in, inside",OTHER,2,1,0,0,0,0
+1,Balinese,intestines,BODY,1,1,0,0,0,0
+1,Balinese,lake,NATURE,1,1,1,1,1,1
+1,Balinese,leaf,NATURE,1,1,1,0,1,1
+1,Balinese,left,OTHER,1,0,0,0,0,0
+1,Balinese,leg/foot,BODY,1,1,0,0,0,0
+1,Balinese,lightning,OTHER,1,0,0,0,0,0
+1,Balinese,liver,BODY,1,1,1,1,1,1
+1,Balinese,long,OTHER,2,1,0,0,0,0
+1,Balinese,louse,OTHER,1,1,1,1,1,1
+1,Balinese,man/male,KINSHIP,1,1,1,1,1,1
+1,Balinese,meat/flesh,OTHER,1,1,1,1,1,1
+1,Balinese,moon,NATURE,1,1,1,1,1,1
+1,Balinese,mosquito,OTHER,2,1,0,0,0,0
+1,Balinese,mother,KINSHIP,2,1,0,0,0,0
+1,Balinese,mouth,BODY,2,2,0,0,0,0
+1,Balinese,name,OTHER,2,1,1,1,1,1
+1,Balinese,narrow,OTHER,2,1,0,0,0,0
+1,Balinese,near,OTHER,2,1,0,0,0,0
+1,Balinese,neck,BODY,1,1,0,0,0,0
+1,Balinese,needle,OTHER,2,1,1,1,1,1
+1,Balinese,new,OTHER,2,0,0,0,0,0
+1,Balinese,night,OTHER,2,1,0,0,0,0
+1,Balinese,"no, not",OTHER,1,0,0,0,0,0
+1,Balinese,nose,BODY,1,0,0,0,0,0
+1,Balinese,old,OTHER,1,1,1,1,1,1
+1,Balinese,other,OTHER,1,1,1,0,1,1
+1,Balinese,"painful, sick",OTHER,1,1,1,0,1,1
+1,Balinese,person/human being,KINSHIP,1,0,0,0,0,0
+1,Balinese,rain,NATURE,1,1,1,1,1,1
+1,Balinese,rat,OTHER,1,0,0,0,0,0
+1,Balinese,red,OTHER,1,0,0,0,0,0
+1,Balinese,right,OTHER,2,2,1,1,1,1
+1,Balinese,road/path,OTHER,1,0,0,0,0,0
+1,Balinese,root,NATURE,1,1,1,0,1,1
+1,Balinese,rope,OTHER,1,1,1,1,1,1
+1,Balinese,rotten,OTHER,2,0,0,0,0,0
+1,Balinese,salt,NATURE,1,1,0,0,0,0
+1,Balinese,sand,NATURE,1,1,0,0,0,0
+1,Balinese,sea,NATURE,1,1,1,0,1,1
+1,Balinese,sharp,OTHER,2,1,0,0,0,0
+1,Balinese,short,OTHER,1,1,1,0,1,1
+1,Balinese,shoulder,BODY,2,1,0,0,0,0
+1,Balinese,"shy, ashamed",OTHER,1,0,0,0,0,0
+1,Balinese,skin,BODY,1,1,1,0,1,1
+1,Balinese,sky,NATURE,1,1,1,1,1,1
+1,Balinese,small,OTHER,1,0,0,0,0,0
+1,Balinese,smoke,NATURE,1,0,0,0,0,0
+1,Balinese,snake,OTHER,1,1,1,0,1,1
+1,Balinese,spider,OTHER,1,2,1,0,1,1
+1,Balinese,star,NATURE,1,1,1,1,1,1
+1,Balinese,stick/wood,OTHER,1,1,1,1,1,1
+1,Balinese,stone,NATURE,1,1,1,1,1,1
+1,Balinese,tail,OTHER,1,1,1,1,1,1
+1,Balinese,that,OTHER,2,1,0,0,0,0
+1,Balinese,thatch/roof,OTHER,2,0,0,0,0,0
+1,Balinese,they,OTHER,1,0,0,0,0,0
+1,Balinese,thick,OTHER,2,1,0,0,0,0
+1,Balinese,thin,OTHER,1,2,1,1,1,1
+1,Balinese,this,OTHER,2,1,1,1,1,1
+1,Balinese,thou,OTHER,1,0,0,0,0,0
+1,Balinese,thunder,OTHER,2,1,1,0,1,1
+1,Balinese,to bite,ACTION,2,1,0,0,0,0
+1,Balinese,to blow,ACTION,1,0,0,0,0,0
+1,Balinese,to breathe,OTHER,1,0,0,0,0,0
+1,Balinese,to burn,ACTION,1,0,0,0,0,0
+1,Balinese,to buy,OTHER,2,1,1,1,1,1
+1,Balinese,to chew,OTHER,1,1,0,0,0,0
+1,Balinese,to choose,OTHER,1,1,1,1,1,1
+1,Balinese,to climb,OTHER,2,1,1,0,1,1
+1,Balinese,to come,ACTION,2,1,0,0,0,0
+1,Balinese,to cook,OTHER,1,1,1,0,1,1
+1,Balinese,to count,OTHER,2,0,0,0,0,0
+1,Balinese,to cry,OTHER,2,1,1,1,1,1
+1,Balinese,"to cut, hack",ACTION,2,1,0,0,0,0
+1,Balinese,"to die, be dead",ACTION,1,1,1,1,1,1
+1,Balinese,to dig,ACTION,2,1,0,0,0,0
+1,Balinese,to dream,OTHER,1,1,1,1,1,1
+1,Balinese,to drink,ACTION,2,1,1,0,1,1
+1,Balinese,to eat,ACTION,1,1,0,0,0,0
+1,Balinese,to fall,ACTION,1,1,0,0,0,0
+1,Balinese,to fear,OTHER,1,1,1,1,1,1
+1,Balinese,to flow,OTHER,2,0,0,0,0,0
+1,Balinese,to fly,ACTION,2,1,0,0,0,0
+1,Balinese,to grow,OTHER,1,1,1,0,1,1
+1,Balinese,to hear,ACTION,2,1,1,0,1,1
+1,Balinese,to hide,OTHER,2,1,0,0,0,0
+1,Balinese,to hit,ACTION,2,1,0,0,0,0
+1,Balinese,to hold,ACTION,2,0,0,0,0,0
+1,Balinese,to hunt,OTHER,2,0,0,0,0,0
+1,Balinese,to kill,ACTION,2,1,0,1,1,0
+1,Balinese,"to know, be knowledgeable",OTHER,1,1,0,0,0,0
+1,Balinese,to laugh,OTHER,2,1,0,0,0,0
+1,Balinese,to lie down,OTHER,2,0,0,0,0,0
+1,Balinese,"to live, be alive",ACTION,1,1,1,1,1,1
+1,Balinese,"to open, uncover",OTHER,2,1,0,0,0,0
+1,Balinese,to plant,OTHER,2,1,0,0,0,0
+1,Balinese,"to pound, beat",OTHER,2,1,0,0,0,0
+1,Balinese,to say,ACTION,2,1,0,0,0,0
+1,Balinese,to scratch,OTHER,2,0,0,0,0,0
+1,Balinese,to see,ACTION,1,0,0,0,0,0
+1,Balinese,to sew,OTHER,2,1,1,0,1,1
+1,Balinese,to shoot,OTHER,2,1,0,0,0,0
+1,Balinese,to sit,ACTION,2,0,0,0,0,0
+1,Balinese,to sleep,ACTION,1,0,0,0,0,0
+1,Balinese,"to sniff, smell",OTHER,2,1,1,1,1,1
+1,Balinese,to spit,OTHER,2,0,0,0,0,0
+1,Balinese,to split,OTHER,2,0,0,0,0,0
+1,Balinese,to squeeze,OTHER,2,0,0,0,0,0
+1,Balinese,"to stab, pierce",OTHER,2,1,0,0,0,0
+1,Balinese,to stand,ACTION,1,0,0,0,0,0
+1,Balinese,to steal,OTHER,2,1,0,0,0,0
+1,Balinese,to suck,OTHER,2,1,1,1,1,1
+1,Balinese,to swell,OTHER,2,0,0,0,0,0
+1,Balinese,to swim,ACTION,1,1,1,1,1,1
+1,Balinese,to think,OTHER,2,1,0,0,0,0
+1,Balinese,to throw,ACTION,1,0,0,0,0,0
+1,Balinese,"to tie up, fasten",OTHER,2,0,0,0,0,0
+1,Balinese,to turn,OTHER,1,1,0,0,0,0
+1,Balinese,to vomit,OTHER,1,1,1,1,1,1
+1,Balinese,to walk,ACTION,2,1,0,0,0,0
+1,Balinese,to work,OTHER,2,0,0,0,0,0
+1,Balinese,to yawn,OTHER,1,1,1,1,1,1
+1,Balinese,tongue,BODY,1,0,0,0,0,0
+1,Balinese,tooth,BODY,1,1,0,0,0,0
+1,Balinese,warm,OTHER,1,1,1,0,1,1
+1,Balinese,water,NATURE,1,0,0,0,0,0
+1,Balinese,we,OTHER,5,1,0,0,0,0
+1,Balinese,wet,OTHER,2,1,1,0,1,1
+1,Balinese,what?,OTHER,2,1,1,0,1,1
+1,Balinese,when?,OTHER,1,2,1,1,1,1
+1,Balinese,where?,OTHER,2,0,0,0,0,0
+1,Balinese,white,OTHER,1,1,1,1,1,1
+1,Balinese,who?,OTHER,1,0,0,0,0,0
+1,Balinese,wide,OTHER,1,0,0,0,0,0
+1,Balinese,wife,KINSHIP,1,0,0,0,0,0
+1,Balinese,wind,NATURE,1,1,1,0,1,1
+1,Balinese,wing,OTHER,1,0,0,0,0,0
+1,Balinese,woman/female,KINSHIP,1,0,0,0,0,0
+1,Balinese,woods/forest,NATURE,1,1,1,0,1,1
+1,Balinese,worm (earthworm),OTHER,1,1,0,0,0,0
+1,Balinese,year,OTHER,1,0,0,0,0,0
+1,Balinese,yellow,OTHER,1,1,1,0,1,1
+1,Balinese,you,OTHER,1,0,0,0,0,0
+20,Javanese,Eight,NUMBER,1,1,0,1,1,0
+20,Javanese,Five,NUMBER,1,1,1,1,1,1
+20,Javanese,Four,NUMBER,1,1,1,1,1,1
+20,Javanese,I,OTHER,1,1,1,1,1,1
+20,Javanese,Nine,NUMBER,1,1,0,0,0,0
+20,Javanese,One,NUMBER,1,2,1,1,1,1
+20,Javanese,Seven,NUMBER,1,1,0,1,1,0
+20,Javanese,Six,NUMBER,1,1,0,1,1,0
+20,Javanese,Ten,NUMBER,1,1,0,1,1,0
+20,Javanese,Three,NUMBER,1,1,1,1,1,1
+20,Javanese,Two,NUMBER,1,1,1,1,1,1
+20,Javanese,above,OTHER,1,0,0,0,0,0
+20,Javanese,all,OTHER,1,1,0,0,0,0
+20,Javanese,and,OTHER,1,0,0,0,0,0
+20,Javanese,ashes,NATURE,1,1,1,1,1,1
+20,Javanese,at,OTHER,1,0,0,0,0,0
+20,Javanese,back,BODY,1,1,0,0,0,0
+20,Javanese,"bad, evil",OTHER,1,0,0,0,0,0
+20,Javanese,belly,BODY,1,1,0,0,0,0
+20,Javanese,below,OTHER,1,1,0,0,0,0
+20,Javanese,big,OTHER,1,1,0,0,0,0
+20,Javanese,bird,OTHER,1,1,1,0,1,1
+20,Javanese,black,OTHER,1,1,0,0,0,0
+20,Javanese,blood,BODY,1,1,0,0,0,0
+20,Javanese,bone,BODY,1,1,0,0,0,0
+20,Javanese,branch,OTHER,1,1,0,0,0,0
+20,Javanese,breast,BODY,1,1,1,1,1,1
+20,Javanese,child,KINSHIP,1,1,1,1,1,1
+20,Javanese,cloud,NATURE,1,1,0,0,0,0
+20,Javanese,cold,OTHER,1,0,0,0,0,0
+20,Javanese,"correct, true",OTHER,1,1,1,0,1,1
+20,Javanese,day,OTHER,1,1,0,0,0,0
+20,Javanese,dirty,OTHER,1,1,0,0,0,0
+20,Javanese,dog,OTHER,1,1,1,1,1,1
+20,Javanese,dry,OTHER,1,1,0,0,0,0
+20,Javanese,"dull, blunt",OTHER,1,2,0,0,0,0
+20,Javanese,dust,OTHER,1,0,0,0,0,0
+20,Javanese,ear,BODY,1,2,0,0,0,0
+20,Javanese,earth/soil,NATURE,1,0,0,0,0,0
+20,Javanese,egg,OTHER,1,1,0,0,0,0
+20,Javanese,eye,BODY,1,1,1,1,1,1
+20,Javanese,far,OTHER,1,1,1,0,1,1
+20,Javanese,fat/grease,OTHER,1,1,0,0,0,0
+20,Javanese,father,KINSHIP,1,1,0,0,0,0
+20,Javanese,feather,OTHER,1,1,1,0,1,1
+20,Javanese,fire,NATURE,1,0,0,0,0,0
+20,Javanese,fish,OTHER,1,1,0,0,0,0
+20,Javanese,flower,NATURE,1,1,0,0,0,0
+20,Javanese,fog,OTHER,1,1,0,0,0,0
+20,Javanese,fruit,NATURE,1,1,1,1,1,1
+20,Javanese,good,OTHER,1,1,0,0,0,0
+20,Javanese,grass,NATURE,1,1,0,0,0,0
+20,Javanese,green,OTHER,1,1,0,0,0,0
+20,Javanese,hair,BODY,1,1,0,0,0,0
+20,Javanese,hand,BODY,1,1,0,0,0,0
+20,Javanese,he/she,OTHER,1,0,0,0,0,0
+20,Javanese,head,BODY,1,1,0,0,0,0
+20,Javanese,heavy,OTHER,1,1,1,0,1,1
+20,Javanese,house,OTHER,1,1,1,1,1,1
+20,Javanese,how?,OTHER,1,0,0,0,0,0
+20,Javanese,husband,KINSHIP,1,0,0,0,0,0
+20,Javanese,if,OTHER,1,0,0,0,0,0
+20,Javanese,"in, inside",OTHER,1,0,0,0,0,0
+20,Javanese,intestines,BODY,1,1,0,0,0,0
+20,Javanese,lake,NATURE,1,0,0,0,0,0
+20,Javanese,leaf,NATURE,1,1,0,0,0,0
+20,Javanese,left,OTHER,1,1,0,0,0,0
+20,Javanese,leg/foot,BODY,1,2,0,0,0,0
+20,Javanese,lightning,OTHER,1,2,1,0,1,1
+20,Javanese,liver,BODY,1,1,1,1,1,1
+20,Javanese,long,OTHER,1,1,0,0,0,0
+20,Javanese,louse,OTHER,1,1,0,0,0,0
+20,Javanese,man/male,KINSHIP,1,1,0,0,0,0
+20,Javanese,meat/flesh,OTHER,2,1,0,0,0,0
+20,Javanese,moon,NATURE,1,1,1,1,1,1
+20,Javanese,mosquito,OTHER,1,1,1,0,1,1
+20,Javanese,mother,KINSHIP,1,1,0,0,0,0
+20,Javanese,mouth,BODY,2,2,0,0,0,0
+20,Javanese,name,OTHER,1,0,0,0,0,0
+20,Javanese,narrow,OTHER,1,0,0,0,0,0
+20,Javanese,near,OTHER,1,1,0,0,0,0
+20,Javanese,neck,BODY,1,1,0,0,0,0
+20,Javanese,needle,OTHER,1,1,1,1,1,1
+20,Javanese,new,OTHER,1,1,0,0,0,0
+20,Javanese,night,OTHER,1,1,1,1,1,1
+20,Javanese,"no, not",OTHER,1,0,0,0,0,0
+20,Javanese,nose,BODY,1,1,1,0,1,1
+20,Javanese,old,OTHER,1,1,1,1,1,1
+20,Javanese,other,OTHER,1,1,1,0,1,1
+20,Javanese,"painful, sick",OTHER,1,1,0,0,0,0
+20,Javanese,person/human being,KINSHIP,1,1,0,0,0,0
+20,Javanese,rain,NATURE,1,1,1,1,1,1
+20,Javanese,rat,OTHER,1,1,0,0,0,0
+20,Javanese,red,OTHER,1,1,0,0,0,0
+20,Javanese,right,OTHER,1,2,1,1,1,1
+20,Javanese,road/path,OTHER,1,1,1,1,1,1
+20,Javanese,root,NATURE,1,1,1,0,1,1
+20,Javanese,rope,OTHER,1,1,1,1,1,1
+20,Javanese,rotten,OTHER,1,2,0,0,0,0
+20,Javanese,salt,NATURE,1,1,0,0,0,0
+20,Javanese,sand,NATURE,1,0,0,0,0,0
+20,Javanese,sea,NATURE,1,1,0,0,0,0
+20,Javanese,sharp,OTHER,1,1,0,0,0,0
+20,Javanese,short,OTHER,1,2,0,0,0,0
+20,Javanese,shoulder,BODY,2,1,0,0,0,0
+20,Javanese,"shy, ashamed",OTHER,1,0,0,0,0,0
+20,Javanese,skin,BODY,1,1,1,0,1,1
+20,Javanese,sky,NATURE,1,1,1,1,1,1
+20,Javanese,small,OTHER,1,0,0,0,0,0
+20,Javanese,smoke,NATURE,1,0,0,0,0,0
+20,Javanese,snake,OTHER,1,1,1,1,1,1
+20,Javanese,spider,OTHER,1,0,0,0,0,0
+20,Javanese,star,NATURE,1,1,1,1,1,1
+20,Javanese,stick/wood,OTHER,1,1,1,1,1,1
+20,Javanese,stone,NATURE,1,1,1,1,1,1
+20,Javanese,tail,OTHER,1,1,0,0,0,0
+20,Javanese,that,OTHER,1,0,0,0,0,0
+20,Javanese,thatch/roof,OTHER,1,1,1,0,1,1
+20,Javanese,they,OTHER,1,0,0,0,0,0
+20,Javanese,thick,OTHER,1,1,0,0,0,0
+20,Javanese,thin,OTHER,1,2,1,1,1,1
+20,Javanese,this,OTHER,1,1,0,0,0,0
+20,Javanese,thou,OTHER,1,1,1,1,1,1
+20,Javanese,thunder,OTHER,1,2,1,0,1,2
+20,Javanese,to bite,ACTION,1,0,0,0,0,0
+20,Javanese,to blow,ACTION,2,0,0,0,0,0
+20,Javanese,to breathe,OTHER,1,1,0,0,0,0
+20,Javanese,to burn,ACTION,1,0,0,0,0,0
+20,Javanese,to buy,OTHER,1,1,0,0,0,0
+20,Javanese,to chew,OTHER,1,1,1,0,1,1
+20,Javanese,to choose,OTHER,1,1,1,1,1,1
+20,Javanese,to climb,OTHER,1,1,1,0,1,1
+20,Javanese,to come,ACTION,1,1,0,0,0,0
+20,Javanese,to cook,OTHER,2,1,0,0,0,0
+20,Javanese,to count,OTHER,1,1,0,0,0,0
+20,Javanese,to cry,OTHER,1,1,1,1,1,1
+20,Javanese,"to cut, hack",ACTION,1,1,0,0,0,0
+20,Javanese,"to die, be dead",ACTION,1,1,1,1,1,1
+20,Javanese,to dig,ACTION,1,1,0,0,0,0
+20,Javanese,to dream,OTHER,1,1,1,1,1,1
+20,Javanese,to drink,ACTION,1,0,0,0,0,0
+20,Javanese,to eat,ACTION,1,2,1,1,1,1
+20,Javanese,to fall,ACTION,1,1,0,0,0,0
+20,Javanese,to fear,OTHER,1,0,0,0,0,0
+20,Javanese,to flow,OTHER,1,1,0,0,0,0
+20,Javanese,to fly,ACTION,1,2,0,0,0,0
+20,Javanese,to grow,OTHER,1,0,0,0,0,0
+20,Javanese,to hear,ACTION,1,1,1,0,1,1
+20,Javanese,to hide,OTHER,1,0,0,0,0,0
+20,Javanese,to hit,ACTION,1,1,0,0,0,0
+20,Javanese,to hold,ACTION,1,1,0,0,0,0
+20,Javanese,to hunt,OTHER,1,0,0,0,0,0
+20,Javanese,to kill,ACTION,1,1,0,1,1,0
+20,Javanese,"to know, be knowledgeable",OTHER,1,1,0,0,0,0
+20,Javanese,to laugh,OTHER,1,1,0,0,0,0
+20,Javanese,to lie down,OTHER,1,0,0,0,0,0
+20,Javanese,"to live, be alive",ACTION,1,1,1,1,1,1
+20,Javanese,"to open, uncover",OTHER,1,1,1,0,1,1
+20,Javanese,to plant,OTHER,1,0,0,0,0,0
+20,Javanese,"to pound, beat",OTHER,1,1,1,1,1,1
+20,Javanese,to say,ACTION,1,0,0,0,0,0
+20,Javanese,to scratch,OTHER,1,1,0,0,0,0
+20,Javanese,to see,ACTION,1,0,0,0,0,0
+20,Javanese,to sew,OTHER,1,0,0,0,0,0
+20,Javanese,to shoot,OTHER,1,1,0,0,0,0
+20,Javanese,to sit,ACTION,1,1,0,0,0,0
+20,Javanese,to sleep,ACTION,1,1,1,1,1,1
+20,Javanese,"to sniff, smell",OTHER,1,1,0,0,0,0
+20,Javanese,to spit,OTHER,1,1,0,0,0,0
+20,Javanese,to split,OTHER,1,1,0,0,0,0
+20,Javanese,to squeeze,OTHER,1,1,1,0,1,1
+20,Javanese,"to stab, pierce",OTHER,1,1,0,0,0,0
+20,Javanese,to stand,ACTION,1,1,0,0,0,0
+20,Javanese,to steal,OTHER,1,0,0,0,0,0
+20,Javanese,to suck,OTHER,1,1,0,0,0,0
+20,Javanese,to swell,OTHER,1,1,1,1,1,1
+20,Javanese,to swim,ACTION,1,1,1,1,1,1
+20,Javanese,to think,OTHER,1,1,0,0,0,0
+20,Javanese,to throw,ACTION,1,0,0,0,0,0
+20,Javanese,"to tie up, fasten",OTHER,1,0,0,0,0,0
+20,Javanese,to turn,OTHER,1,1,0,0,0,0
+20,Javanese,to vomit,OTHER,1,1,1,1,1,1
+20,Javanese,to walk,ACTION,1,1,1,1,1,1
+20,Javanese,to work,OTHER,1,2,0,0,0,0
+20,Javanese,to yawn,OTHER,1,1,1,1,1,1
+20,Javanese,tongue,BODY,1,2,1,0,1,1
+20,Javanese,tooth,BODY,1,1,0,0,0,0
+20,Javanese,warm,OTHER,1,1,1,0,1,1
+20,Javanese,water,NATURE,1,1,0,0,0,0
+20,Javanese,we,OTHER,1,0,0,0,0,0
+20,Javanese,wet,OTHER,1,1,0,0,0,0
+20,Javanese,what?,OTHER,1,1,1,0,1,1
+20,Javanese,when?,OTHER,1,1,0,0,0,0
+20,Javanese,where?,OTHER,1,0,0,0,0,0
+20,Javanese,white,OTHER,1,1,1,1,1,1
+20,Javanese,who?,OTHER,1,1,0,0,0,0
+20,Javanese,wide,OTHER,1,0,0,0,0,0
+20,Javanese,wife,KINSHIP,1,0,0,0,0,0
+20,Javanese,wind,NATURE,2,2,1,0,1,1
+20,Javanese,wing,OTHER,1,0,0,0,0,0
+20,Javanese,woman/female,KINSHIP,2,1,0,0,0,0
+20,Javanese,woods/forest,NATURE,1,1,1,0,1,1
+20,Javanese,worm (earthworm),OTHER,1,1,0,0,0,0
+20,Javanese,year,OTHER,1,1,1,0,1,1
+20,Javanese,yellow,OTHER,1,1,1,0,1,1
+20,Javanese,you,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,Five,NUMBER,1,1,1,1,1,1
+1534,Javanese_Malang,Four,NUMBER,1,2,1,1,1,1
+1534,Javanese_Malang,I,OTHER,1,2,1,1,1,1
+1534,Javanese_Malang,One,NUMBER,1,2,1,1,1,1
+1534,Javanese_Malang,Three,NUMBER,1,1,1,1,1,1
+1534,Javanese_Malang,Two,NUMBER,1,1,1,1,1,1
+1534,Javanese_Malang,above,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,all,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,and,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,ashes,NATURE,1,1,1,1,1,1
+1534,Javanese_Malang,at,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,back,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,"bad, evil",OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,belly,BODY,1,1,0,0,0,0
+1534,Javanese_Malang,below,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,big,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,bird,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,black,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,blood,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,bone,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,branch,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,breast,BODY,1,1,1,1,1,1
+1534,Javanese_Malang,child,KINSHIP,1,1,1,1,1,1
+1534,Javanese_Malang,cloud,NATURE,2,1,0,0,0,0
+1534,Javanese_Malang,cold,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,"correct, true",OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,day,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,dirty,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,dog,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,dry,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,"dull, blunt",OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,dust,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,ear,BODY,1,1,0,0,0,0
+1534,Javanese_Malang,earth/soil,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,egg,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,eye,BODY,2,1,1,1,1,1
+1534,Javanese_Malang,far,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,fat/grease,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,father,KINSHIP,1,1,0,0,0,0
+1534,Javanese_Malang,feather,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,fire,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,flower,NATURE,1,1,0,0,0,0
+1534,Javanese_Malang,fog,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,fruit,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,good,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,grass,NATURE,1,1,0,0,0,0
+1534,Javanese_Malang,green,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,hair,BODY,1,1,0,0,0,0
+1534,Javanese_Malang,hand,BODY,1,1,0,0,0,0
+1534,Javanese_Malang,he/she,OTHER,2,0,0,0,0,0
+1534,Javanese_Malang,head,BODY,2,1,0,0,0,0
+1534,Javanese_Malang,heavy,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,house,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,how?,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,husband,KINSHIP,1,0,0,0,0,0
+1534,Javanese_Malang,if,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,"in, inside",OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,intestines,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,lake,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,leaf,NATURE,1,1,0,0,0,0
+1534,Javanese_Malang,left,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,leg/foot,BODY,1,2,0,0,0,0
+1534,Javanese_Malang,lightning,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,liver,BODY,1,1,1,1,1,1
+1534,Javanese_Malang,long,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,louse,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,man/male,KINSHIP,1,1,0,0,0,0
+1534,Javanese_Malang,meat/flesh,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,moon,NATURE,1,1,1,1,1,1
+1534,Javanese_Malang,mosquito,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,mother,KINSHIP,1,1,0,0,0,0
+1534,Javanese_Malang,mouth,BODY,2,1,0,0,0,0
+1534,Javanese_Malang,name,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,narrow,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,near,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,neck,BODY,1,1,0,0,0,0
+1534,Javanese_Malang,needle,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,new,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,night,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,"no, not",OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,nose,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,old,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,"painful, sick",OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,person/human being,KINSHIP,1,1,0,0,0,0
+1534,Javanese_Malang,rain,NATURE,1,1,1,1,1,1
+1534,Javanese_Malang,rat,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,red,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,right,OTHER,1,2,1,1,1,1
+1534,Javanese_Malang,road/path,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,root,NATURE,1,1,1,0,1,1
+1534,Javanese_Malang,rope,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,rotten,OTHER,2,1,0,0,0,0
+1534,Javanese_Malang,salt,NATURE,1,1,0,0,0,0
+1534,Javanese_Malang,sand,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,sea,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,sharp,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,short,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,shoulder,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,"shy, ashamed",OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,skin,BODY,1,0,0,0,0,0
+1534,Javanese_Malang,sky,NATURE,1,1,1,1,1,1
+1534,Javanese_Malang,small,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,smoke,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,snake,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,spider,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,star,NATURE,2,2,1,1,1,1
+1534,Javanese_Malang,stone,NATURE,1,1,1,1,1,1
+1534,Javanese_Malang,tail,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,that,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,thatch/roof,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,thick,OTHER,2,1,0,0,0,0
+1534,Javanese_Malang,thin,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,this,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,thou,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,thunder,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to bite,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to blow,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to breathe,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to burn,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to buy,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,to chew,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,to choose,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to climb,OTHER,2,0,0,0,0,0
+1534,Javanese_Malang,to come,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to cook,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to count,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to cry,OTHER,1,2,1,1,1,1
+1534,Javanese_Malang,"to cut, hack",ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,"to die, be dead",ACTION,1,1,1,1,1,1
+1534,Javanese_Malang,to dig,ACTION,2,0,0,0,0,0
+1534,Javanese_Malang,to dream,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,to drink,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to eat,ACTION,1,2,1,1,1,1
+1534,Javanese_Malang,to fall,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to fear,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to flow,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to fly,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to grow,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to hear,ACTION,1,1,1,0,1,1
+1534,Javanese_Malang,to hide,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to hit,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to hold,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to hunt,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to kill,ACTION,1,1,0,1,1,0
+1534,Javanese_Malang,"to know, be knowledgeable",OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,to laugh,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,to lie down,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,"to live, be alive",ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,"to open, uncover",OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,to plant,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to say,ACTION,1,1,0,0,0,0
+1534,Javanese_Malang,to scratch,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,to see,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to sew,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to shoot,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,to sit,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to sleep,ACTION,1,1,1,1,1,1
+1534,Javanese_Malang,"to sniff, smell",OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,to spit,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to squeeze,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,"to stab, pierce",OTHER,2,0,0,0,0,0
+1534,Javanese_Malang,to stand,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,to steal,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to suck,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to swell,OTHER,2,1,0,0,0,0
+1534,Javanese_Malang,to swim,ACTION,1,1,1,1,1,1
+1534,Javanese_Malang,to think,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to throw,ACTION,1,0,0,0,0,0
+1534,Javanese_Malang,"to tie up, fasten",OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to turn,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to vomit,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,to walk,ACTION,1,1,1,1,1,1
+1534,Javanese_Malang,to work,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,to yawn,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,tongue,BODY,1,2,1,0,1,1
+1534,Javanese_Malang,warm,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,water,NATURE,1,1,0,0,0,0
+1534,Javanese_Malang,wet,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,what?,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,when?,OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,where?,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,white,OTHER,1,1,1,1,1,1
+1534,Javanese_Malang,who?,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,wide,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,wife,KINSHIP,1,0,0,0,0,0
+1534,Javanese_Malang,wind,NATURE,1,1,1,0,1,1
+1534,Javanese_Malang,wing,OTHER,1,0,0,0,0,0
+1534,Javanese_Malang,woman/female,KINSHIP,1,1,0,0,0,0
+1534,Javanese_Malang,woods/forest,NATURE,1,0,0,0,0,0
+1534,Javanese_Malang,worm (earthworm),OTHER,1,1,0,0,0,0
+1534,Javanese_Malang,year,OTHER,1,1,1,0,1,1
+1534,Javanese_Malang,yellow,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,Five,NUMBER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,Four,NUMBER,1,2,1,1,1,1
+1532,Javanese_Yogyakarta,I,OTHER,1,2,1,1,1,1
+1532,Javanese_Yogyakarta,One,NUMBER,1,2,1,1,1,1
+1532,Javanese_Yogyakarta,Three,NUMBER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,Two,NUMBER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,above,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,all,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,and,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,ashes,NATURE,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,at,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,back,BODY,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,"bad, evil",OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,belly,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,below,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,big,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,bird,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,black,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,blood,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,bone,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,branch,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,breast,BODY,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,child,KINSHIP,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,cloud,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,cold,OTHER,2,1,0,0,0,0
+1532,Javanese_Yogyakarta,"correct, true",OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,day,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,dirty,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,dog,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,dry,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,"dull, blunt",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,dust,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,ear,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,earth/soil,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,egg,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,eye,BODY,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,far,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,fat/grease,OTHER,2,2,0,0,0,0
+1532,Javanese_Yogyakarta,father,KINSHIP,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,feather,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,fire,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,fish,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,flower,NATURE,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,fog,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,fruit,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,good,OTHER,2,1,0,0,0,0
+1532,Javanese_Yogyakarta,grass,NATURE,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,green,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,hair,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,hand,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,he/she,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,head,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,heavy,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,house,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,how?,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,husband,KINSHIP,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,if,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,"in, inside",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,intestines,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,lake,NATURE,2,1,1,1,1,1
+1532,Javanese_Yogyakarta,leaf,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,left,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,leg/foot,BODY,1,2,0,0,0,0
+1532,Javanese_Yogyakarta,lightning,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,liver,BODY,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,long,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,louse,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,man/male,KINSHIP,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,meat/flesh,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,moon,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,mosquito,OTHER,2,1,1,0,1,1
+1532,Javanese_Yogyakarta,mother,KINSHIP,3,1,0,0,0,0
+1532,Javanese_Yogyakarta,mouth,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,name,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,narrow,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,near,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,neck,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,needle,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,new,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,night,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,"no, not",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,nose,BODY,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,old,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,"painful, sick",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,person/human being,KINSHIP,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,rain,NATURE,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,rat,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,red,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,right,OTHER,1,2,1,1,1,1
+1532,Javanese_Yogyakarta,road/path,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,root,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,rope,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,rotten,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,salt,NATURE,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,sand,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,sea,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,sharp,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,short,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,shoulder,BODY,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,"shy, ashamed",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,skin,BODY,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,sky,NATURE,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,small,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,smoke,NATURE,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,snake,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,spider,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,star,NATURE,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,stone,NATURE,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,tail,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,that,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,thatch/roof,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,thick,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,thin,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,this,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,thou,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,thunder,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to bite,ACTION,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,to blow,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to breathe,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to burn,ACTION,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,to buy,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to chew,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,to choose,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to climb,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to come,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to cook,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to count,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,to cry,OTHER,1,2,1,1,1,1
+1532,Javanese_Yogyakarta,"to cut, hack",ACTION,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,"to die, be dead",ACTION,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to dig,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to dream,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to drink,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to eat,ACTION,1,2,1,1,1,1
+1532,Javanese_Yogyakarta,to fall,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to fear,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to flow,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to fly,ACTION,1,2,0,0,0,0
+1532,Javanese_Yogyakarta,to grow,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to hear,ACTION,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,to hide,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to hit,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to hold,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to kill,ACTION,1,1,0,1,1,0
+1532,Javanese_Yogyakarta,"to know, be knowledgeable",OTHER,2,2,0,0,0,0
+1532,Javanese_Yogyakarta,to laugh,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,to lie down,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,"to live, be alive",ACTION,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,"to open, uncover",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to plant,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to say,ACTION,2,1,0,0,0,0
+1532,Javanese_Yogyakarta,to scratch,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to see,ACTION,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,to sew,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,to shoot,OTHER,2,1,0,0,0,0
+1532,Javanese_Yogyakarta,to sit,ACTION,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,to sleep,ACTION,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,"to sniff, smell",OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,to spit,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to stand,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to steal,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to suck,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to swell,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to swim,ACTION,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to think,OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,to throw,ACTION,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,"to tie up, fasten",OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,to turn,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,to vomit,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to walk,ACTION,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,to work,OTHER,2,1,0,0,0,0
+1532,Javanese_Yogyakarta,to yawn,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,tongue,BODY,1,2,1,0,1,1
+1532,Javanese_Yogyakarta,warm,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,water,NATURE,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,wet,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,what?,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,when?,OTHER,2,0,0,0,0,0
+1532,Javanese_Yogyakarta,where?,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,white,OTHER,1,1,1,1,1,1
+1532,Javanese_Yogyakarta,who?,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,wide,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,wife,KINSHIP,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,wind,NATURE,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,wing,OTHER,1,0,0,0,0,0
+1532,Javanese_Yogyakarta,woman/female,KINSHIP,2,1,0,0,0,0
+1532,Javanese_Yogyakarta,woods/forest,NATURE,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,worm (earthworm),OTHER,1,1,0,0,0,0
+1532,Javanese_Yogyakarta,year,OTHER,1,1,1,0,1,1
+1532,Javanese_Yogyakarta,yellow,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,Eight,NUMBER,1,1,0,1,1,0
+92,Merina_Malagasy,Five,NUMBER,1,1,1,1,1,1
+92,Merina_Malagasy,Four,NUMBER,1,1,1,1,1,1
+92,Merina_Malagasy,I,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,Nine,NUMBER,1,1,0,1,1,0
+92,Merina_Malagasy,One,NUMBER,1,1,1,1,1,1
+92,Merina_Malagasy,Seven,NUMBER,1,1,0,1,1,0
+92,Merina_Malagasy,Six,NUMBER,1,1,0,1,1,0
+92,Merina_Malagasy,Ten,NUMBER,1,1,0,1,1,0
+92,Merina_Malagasy,Three,NUMBER,1,1,1,1,1,1
+92,Merina_Malagasy,Two,NUMBER,1,1,1,1,1,1
+92,Merina_Malagasy,above,OTHER,1,2,1,1,1,1
+92,Merina_Malagasy,all,OTHER,1,0,0,0,0,0
+92,Merina_Malagasy,and,OTHER,3,3,1,1,1,1
+92,Merina_Malagasy,ashes,NATURE,1,1,0,0,0,0
+92,Merina_Malagasy,at,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,back,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,"bad, evil",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,belly,BODY,1,0,0,0,0,0
+92,Merina_Malagasy,below,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,big,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,bird,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,black,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,blood,BODY,1,1,1,1,1,1
+92,Merina_Malagasy,bone,BODY,1,1,1,1,1,1
+92,Merina_Malagasy,branch,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,breast,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,child,KINSHIP,1,1,1,1,1,1
+92,Merina_Malagasy,cloud,NATURE,1,1,1,0,1,1
+92,Merina_Malagasy,cold,OTHER,3,1,0,0,0,0
+92,Merina_Malagasy,"correct, true",OTHER,2,2,0,0,0,0
+92,Merina_Malagasy,day,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,dirty,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,dog,OTHER,2,1,0,0,0,0
+92,Merina_Malagasy,dry,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,"dull, blunt",OTHER,1,2,1,0,1,1
+92,Merina_Malagasy,dust,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,ear,BODY,1,1,1,1,1,1
+92,Merina_Malagasy,earth/soil,NATURE,1,1,1,0,1,1
+92,Merina_Malagasy,egg,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,eye,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,far,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,fat/grease,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,father,KINSHIP,1,2,0,0,0,0
+92,Merina_Malagasy,feather,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,fire,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,fish,OTHER,3,0,0,0,0,0
+92,Merina_Malagasy,flower,NATURE,1,1,1,0,1,1
+92,Merina_Malagasy,fog,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,fruit,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,good,OTHER,1,0,0,0,0,0
+92,Merina_Malagasy,grass,NATURE,1,1,0,0,0,0
+92,Merina_Malagasy,green,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,hair,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,hand,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,he/she,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,head,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,heavy,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,house,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,how?,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,husband,KINSHIP,1,1,0,0,0,0
+92,Merina_Malagasy,if,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,"in, inside",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,intestines,BODY,1,1,1,1,1,1
+92,Merina_Malagasy,lake,NATURE,1,0,0,0,0,0
+92,Merina_Malagasy,leaf,NATURE,1,1,1,0,1,1
+92,Merina_Malagasy,left,OTHER,1,2,1,1,1,2
+92,Merina_Malagasy,leg/foot,BODY,2,1,0,0,0,0
+92,Merina_Malagasy,lightning,OTHER,2,1,1,0,1,1
+92,Merina_Malagasy,liver,BODY,1,1,1,1,1,1
+92,Merina_Malagasy,long,OTHER,1,2,0,0,0,0
+92,Merina_Malagasy,louse,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,man/male,KINSHIP,1,1,1,0,1,1
+92,Merina_Malagasy,meat/flesh,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,moon,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,mosquito,OTHER,1,2,1,0,1,1
+92,Merina_Malagasy,mother,KINSHIP,1,2,1,1,1,1
+92,Merina_Malagasy,mouth,BODY,1,1,1,0,1,1
+92,Merina_Malagasy,name,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,narrow,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,near,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,neck,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,needle,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,new,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,night,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,"no, not",OTHER,2,1,0,0,0,0
+92,Merina_Malagasy,nose,BODY,1,1,1,0,1,1
+92,Merina_Malagasy,old,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,other,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,"painful, sick",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,person/human being,KINSHIP,1,1,0,0,0,0
+92,Merina_Malagasy,rain,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,rat,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,red,OTHER,1,2,1,0,1,1
+92,Merina_Malagasy,right,OTHER,1,2,1,1,1,2
+92,Merina_Malagasy,road/path,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,root,NATURE,1,0,0,0,0,0
+92,Merina_Malagasy,rope,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,rotten,OTHER,1,0,0,0,0,0
+92,Merina_Malagasy,salt,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,sand,NATURE,1,1,0,0,0,0
+92,Merina_Malagasy,sea,NATURE,1,0,0,0,0,0
+92,Merina_Malagasy,sharp,OTHER,1,2,0,0,0,0
+92,Merina_Malagasy,short,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,shoulder,BODY,1,1,0,0,0,0
+92,Merina_Malagasy,"shy, ashamed",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,skin,BODY,1,1,1,0,1,1
+92,Merina_Malagasy,sky,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,small,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,smoke,NATURE,1,1,0,0,0,0
+92,Merina_Malagasy,snake,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,spider,OTHER,1,0,0,0,0,0
+92,Merina_Malagasy,star,NATURE,1,0,0,0,0,0
+92,Merina_Malagasy,stick/wood,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,stone,NATURE,1,1,1,1,1,1
+92,Merina_Malagasy,tail,OTHER,1,0,0,0,0,0
+92,Merina_Malagasy,that,OTHER,2,1,0,0,0,0
+92,Merina_Malagasy,thatch/roof,OTHER,1,2,0,0,0,0
+92,Merina_Malagasy,they,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,thick,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,thin,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,this,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,thou,OTHER,1,2,0,0,0,0
+92,Merina_Malagasy,thunder,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,to bite,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to blow,ACTION,1,2,1,1,1,1
+92,Merina_Malagasy,to breathe,OTHER,2,1,0,0,0,0
+92,Merina_Malagasy,to burn,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to buy,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,to chew,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to choose,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,to climb,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to come,ACTION,2,1,0,0,0,0
+92,Merina_Malagasy,to cook,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to count,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to cry,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,"to cut, hack",ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,"to die, be dead",ACTION,1,1,1,1,1,1
+92,Merina_Malagasy,to dig,ACTION,1,1,1,1,1,1
+92,Merina_Malagasy,to dream,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,to drink,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to eat,ACTION,1,1,1,1,1,1
+92,Merina_Malagasy,to fall,ACTION,1,1,1,0,1,1
+92,Merina_Malagasy,to fear,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,to flow,OTHER,1,0,0,0,0,0
+92,Merina_Malagasy,to fly,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to grow,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,to hear,ACTION,1,1,1,0,1,1
+92,Merina_Malagasy,to hide,OTHER,3,1,0,0,0,0
+92,Merina_Malagasy,to hit,ACTION,1,0,0,0,0,0
+92,Merina_Malagasy,to hold,ACTION,2,2,0,0,0,0
+92,Merina_Malagasy,to hunt,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to kill,ACTION,1,1,1,0,1,1
+92,Merina_Malagasy,"to know, be knowledgeable",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to laugh,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to lie down,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,"to live, be alive",ACTION,2,2,0,0,0,0
+92,Merina_Malagasy,"to open, uncover",OTHER,2,2,1,0,1,1
+92,Merina_Malagasy,to plant,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,"to pound, beat",OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,to say,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to scratch,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to see,ACTION,1,1,1,1,1,1
+92,Merina_Malagasy,to sew,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,to shoot,OTHER,2,1,0,0,0,0
+92,Merina_Malagasy,to sit,ACTION,2,1,0,0,0,0
+92,Merina_Malagasy,to sleep,ACTION,1,1,1,1,1,1
+92,Merina_Malagasy,"to sniff, smell",OTHER,2,0,0,0,0,0
+92,Merina_Malagasy,to spit,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,to split,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to squeeze,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,"to stab, pierce",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to stand,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to steal,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to suck,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,to swell,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to swim,ACTION,2,1,1,1,1,1
+92,Merina_Malagasy,to think,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to throw,ACTION,1,2,1,0,1,1
+92,Merina_Malagasy,"to tie up, fasten",OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to turn,OTHER,2,1,0,0,0,0
+92,Merina_Malagasy,to vomit,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to walk,ACTION,1,1,0,0,0,0
+92,Merina_Malagasy,to work,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,to yawn,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,tongue,BODY,1,1,1,0,1,1
+92,Merina_Malagasy,tooth,BODY,1,1,1,1,1,1
+92,Merina_Malagasy,warm,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,water,NATURE,1,1,0,0,0,0
+92,Merina_Malagasy,we,OTHER,2,3,1,1,1,1
+92,Merina_Malagasy,wet,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,what?,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,when?,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,where?,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,white,OTHER,1,1,1,1,1,1
+92,Merina_Malagasy,who?,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,wide,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,wife,KINSHIP,1,1,0,0,0,0
+92,Merina_Malagasy,wind,NATURE,1,0,0,0,0,0
+92,Merina_Malagasy,wing,OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,woman/female,KINSHIP,1,2,1,1,1,1
+92,Merina_Malagasy,woods/forest,NATURE,1,1,1,0,1,1
+92,Merina_Malagasy,worm (earthworm),OTHER,1,1,0,0,0,0
+92,Merina_Malagasy,year,OTHER,1,1,1,0,1,1
+92,Merina_Malagasy,yellow,OTHER,2,2,0,0,0,0
+92,Merina_Malagasy,you,OTHER,1,1,0,0,0,0
+290,Old_Javanese,Eight,NUMBER,1,0,0,0,0,0
+290,Old_Javanese,Five,NUMBER,1,1,1,1,1,1
+290,Old_Javanese,Four,NUMBER,1,1,1,1,1,1
+290,Old_Javanese,I,OTHER,4,2,1,1,1,1
+290,Old_Javanese,Nine,NUMBER,1,1,0,0,0,0
+290,Old_Javanese,One,NUMBER,2,1,1,1,1,1
+290,Old_Javanese,Seven,NUMBER,1,1,0,1,1,0
+290,Old_Javanese,Six,NUMBER,1,1,0,1,1,0
+290,Old_Javanese,Ten,NUMBER,1,1,0,1,1,0
+290,Old_Javanese,Three,NUMBER,2,2,1,1,1,1
+290,Old_Javanese,Two,NUMBER,2,1,1,1,1,1
+290,Old_Javanese,above,OTHER,1,0,0,0,0,0
+290,Old_Javanese,all,OTHER,1,1,0,0,0,0
+290,Old_Javanese,and,OTHER,1,1,0,0,0,0
+290,Old_Javanese,ashes,NATURE,1,1,1,1,1,1
+290,Old_Javanese,at,OTHER,2,2,1,1,1,2
+290,Old_Javanese,back,BODY,1,1,0,0,0,0
+290,Old_Javanese,"bad, evil",OTHER,1,0,0,0,0,0
+290,Old_Javanese,belly,BODY,1,1,0,0,0,0
+290,Old_Javanese,below,OTHER,3,2,0,0,0,0
+290,Old_Javanese,big,OTHER,6,0,0,0,0,0
+290,Old_Javanese,bird,OTHER,1,1,1,0,1,1
+290,Old_Javanese,black,OTHER,2,1,0,0,0,0
+290,Old_Javanese,blood,BODY,1,1,1,1,1,1
+290,Old_Javanese,bone,BODY,1,1,1,1,1,1
+290,Old_Javanese,branch,OTHER,1,1,0,0,0,0
+290,Old_Javanese,breast,BODY,1,1,1,1,1,1
+290,Old_Javanese,child,KINSHIP,1,1,1,1,1,1
+290,Old_Javanese,cloud,NATURE,1,1,0,0,0,0
+290,Old_Javanese,cold,OTHER,3,1,0,0,0,0
+290,Old_Javanese,"correct, true",OTHER,1,1,1,0,1,1
+290,Old_Javanese,day,OTHER,3,1,0,0,0,0
+290,Old_Javanese,dirty,OTHER,1,1,0,0,0,0
+290,Old_Javanese,dog,OTHER,1,1,1,1,1,1
+290,Old_Javanese,dry,OTHER,2,0,0,0,0,0
+290,Old_Javanese,"dull, blunt",OTHER,1,2,0,0,0,0
+290,Old_Javanese,dust,OTHER,1,1,1,0,1,1
+290,Old_Javanese,ear,BODY,1,1,1,1,1,1
+290,Old_Javanese,earth/soil,NATURE,2,1,1,0,1,1
+290,Old_Javanese,egg,OTHER,2,2,1,1,1,1
+290,Old_Javanese,eye,BODY,1,1,1,1,1,1
+290,Old_Javanese,far,OTHER,2,2,1,0,1,1
+290,Old_Javanese,fat/grease,OTHER,2,1,1,0,1,1
+290,Old_Javanese,father,KINSHIP,3,4,1,1,1,1
+290,Old_Javanese,feather,OTHER,1,1,1,0,1,1
+290,Old_Javanese,fire,NATURE,1,1,1,1,1,1
+290,Old_Javanese,fish,OTHER,1,1,0,0,0,0
+290,Old_Javanese,flower,NATURE,1,1,1,0,1,1
+290,Old_Javanese,fog,OTHER,1,1,1,0,1,1
+290,Old_Javanese,fruit,NATURE,1,1,1,1,1,1
+290,Old_Javanese,good,OTHER,1,1,0,0,0,0
+290,Old_Javanese,grass,NATURE,1,1,0,0,0,0
+290,Old_Javanese,green,OTHER,2,1,0,0,0,0
+290,Old_Javanese,hair,BODY,1,1,0,0,0,0
+290,Old_Javanese,hand,BODY,1,1,0,0,0,0
+290,Old_Javanese,he/she,OTHER,1,1,1,1,1,1
+290,Old_Javanese,head,BODY,1,1,1,1,1,1
+290,Old_Javanese,heavy,OTHER,4,1,1,0,1,1
+290,Old_Javanese,house,OTHER,1,1,1,1,1,1
+290,Old_Javanese,how?,OTHER,2,0,0,0,0,0
+290,Old_Javanese,husband,KINSHIP,1,1,0,0,0,0
+290,Old_Javanese,if,OTHER,1,0,0,0,0,0
+290,Old_Javanese,"in, inside",OTHER,1,1,1,1,1,1
+290,Old_Javanese,intestines,BODY,1,1,0,0,0,0
+290,Old_Javanese,lake,NATURE,1,1,1,1,1,1
+290,Old_Javanese,leaf,NATURE,1,1,1,0,1,1
+290,Old_Javanese,left,OTHER,1,2,1,1,1,2
+290,Old_Javanese,leg/foot,BODY,1,1,0,0,0,0
+290,Old_Javanese,lightning,OTHER,1,1,1,0,1,1
+290,Old_Javanese,liver,BODY,1,1,1,1,1,1
+290,Old_Javanese,long,OTHER,1,1,0,0,0,0
+290,Old_Javanese,louse,OTHER,1,1,0,0,0,0
+290,Old_Javanese,man/male,KINSHIP,1,1,0,0,0,0
+290,Old_Javanese,meat/flesh,OTHER,2,1,1,1,1,1
+290,Old_Javanese,moon,NATURE,1,1,1,1,1,1
+290,Old_Javanese,mosquito,OTHER,1,1,1,0,1,1
+290,Old_Javanese,mother,KINSHIP,3,3,1,1,1,1
+290,Old_Javanese,mouth,BODY,2,2,0,0,0,0
+290,Old_Javanese,name,OTHER,1,1,1,1,1,1
+290,Old_Javanese,narrow,OTHER,2,1,0,0,0,0
+290,Old_Javanese,near,OTHER,1,1,0,0,0,0
+290,Old_Javanese,neck,BODY,2,1,0,0,0,0
+290,Old_Javanese,needle,OTHER,1,1,1,1,1,1
+290,Old_Javanese,new,OTHER,2,1,0,0,0,0
+290,Old_Javanese,night,OTHER,1,1,1,1,1,1
+290,Old_Javanese,"no, not",OTHER,1,0,0,0,0,0
+290,Old_Javanese,nose,BODY,1,1,1,0,1,1
+290,Old_Javanese,old,OTHER,1,1,1,1,1,1
+290,Old_Javanese,other,OTHER,1,1,1,0,1,1
+290,Old_Javanese,"painful, sick",OTHER,2,1,1,0,1,1
+290,Old_Javanese,person/human being,KINSHIP,1,1,0,0,0,0
+290,Old_Javanese,rain,NATURE,1,1,1,1,1,1
+290,Old_Javanese,rat,OTHER,1,1,0,0,0,0
+290,Old_Javanese,red,OTHER,1,1,0,0,0,0
+290,Old_Javanese,right,OTHER,1,2,1,1,1,1
+290,Old_Javanese,road/path,OTHER,1,0,0,0,0,0
+290,Old_Javanese,root,NATURE,1,1,1,0,1,1
+290,Old_Javanese,rope,OTHER,1,1,1,1,1,1
+290,Old_Javanese,rotten,OTHER,1,1,1,1,1,1
+290,Old_Javanese,salt,NATURE,1,1,0,0,0,0
+290,Old_Javanese,sand,NATURE,1,1,1,1,1,1
+290,Old_Javanese,sea,NATURE,1,1,1,0,1,1
+290,Old_Javanese,sharp,OTHER,1,1,0,0,0,0
+290,Old_Javanese,short,OTHER,1,1,0,0,0,0
+290,Old_Javanese,shoulder,BODY,1,1,0,0,0,0
+290,Old_Javanese,"shy, ashamed",OTHER,1,0,0,0,0,0
+290,Old_Javanese,skin,BODY,1,1,1,0,1,1
+290,Old_Javanese,sky,NATURE,1,1,1,1,1,1
+290,Old_Javanese,small,OTHER,1,1,0,0,0,0
+290,Old_Javanese,smoke,NATURE,1,1,0,0,0,0
+290,Old_Javanese,snake,OTHER,1,1,1,1,1,1
+290,Old_Javanese,spider,OTHER,1,1,1,0,1,1
+290,Old_Javanese,star,NATURE,1,1,1,1,1,1
+290,Old_Javanese,stick/wood,OTHER,1,1,1,1,1,1
+290,Old_Javanese,stone,NATURE,1,1,1,1,1,1
+290,Old_Javanese,tail,OTHER,1,1,1,1,1,1
+290,Old_Javanese,that,OTHER,1,0,0,0,0,0
+290,Old_Javanese,thatch/roof,OTHER,1,1,1,0,1,1
+290,Old_Javanese,they,OTHER,1,1,1,0,1,1
+290,Old_Javanese,thick,OTHER,1,1,0,0,0,0
+290,Old_Javanese,thin,OTHER,1,2,1,1,1,1
+290,Old_Javanese,this,OTHER,1,1,0,0,0,0
+290,Old_Javanese,thou,OTHER,4,2,1,1,1,1
+290,Old_Javanese,thunder,OTHER,2,1,1,0,1,1
+290,Old_Javanese,to bite,ACTION,2,1,0,0,0,0
+290,Old_Javanese,to blow,ACTION,1,2,1,1,1,1
+290,Old_Javanese,to breathe,OTHER,1,1,0,0,0,0
+290,Old_Javanese,to burn,ACTION,1,1,1,1,1,1
+290,Old_Javanese,to buy,OTHER,4,1,1,1,1,1
+290,Old_Javanese,to chew,OTHER,1,1,0,0,0,0
+290,Old_Javanese,to choose,OTHER,1,1,1,1,1,1
+290,Old_Javanese,to climb,OTHER,3,1,1,0,1,1
+290,Old_Javanese,to come,ACTION,1,1,0,0,0,0
+290,Old_Javanese,to cook,OTHER,2,1,0,0,0,0
+290,Old_Javanese,to count,OTHER,1,1,0,0,0,0
+290,Old_Javanese,to cry,OTHER,2,1,1,1,1,1
+290,Old_Javanese,"to cut, hack",ACTION,1,1,1,1,1,1
+290,Old_Javanese,"to die, be dead",ACTION,2,1,1,1,1,1
+290,Old_Javanese,to dig,ACTION,1,1,1,1,1,1
+290,Old_Javanese,to dream,OTHER,3,1,1,1,1,1
+290,Old_Javanese,to drink,ACTION,1,1,1,0,1,1
+290,Old_Javanese,to eat,ACTION,2,2,1,1,1,1
+290,Old_Javanese,to fall,ACTION,1,1,0,0,0,0
+290,Old_Javanese,to fear,OTHER,1,1,1,1,1,1
+290,Old_Javanese,to flow,OTHER,4,1,0,0,0,0
+290,Old_Javanese,to fly,ACTION,1,1,0,0,0,0
+290,Old_Javanese,to grow,OTHER,2,1,1,0,1,1
+290,Old_Javanese,to hear,ACTION,2,1,1,0,1,1
+290,Old_Javanese,to hide,OTHER,1,1,1,1,1,1
+290,Old_Javanese,to hit,ACTION,4,0,0,0,0,0
+290,Old_Javanese,to hold,ACTION,1,1,1,1,1,1
+290,Old_Javanese,to hunt,OTHER,1,1,0,0,0,0
+290,Old_Javanese,to kill,ACTION,2,2,0,1,1,0
+290,Old_Javanese,"to know, be knowledgeable",OTHER,1,1,0,0,0,0
+290,Old_Javanese,to laugh,OTHER,2,1,0,0,0,0
+290,Old_Javanese,to lie down,OTHER,1,1,0,0,0,0
+290,Old_Javanese,"to live, be alive",ACTION,2,1,1,1,1,1
+290,Old_Javanese,"to open, uncover",OTHER,1,1,1,0,1,1
+290,Old_Javanese,to plant,OTHER,1,1,0,0,0,0
+290,Old_Javanese,"to pound, beat",OTHER,1,1,1,1,1,1
+290,Old_Javanese,to say,ACTION,1,1,0,0,0,0
+290,Old_Javanese,to scratch,OTHER,1,1,0,0,0,0
+290,Old_Javanese,to see,ACTION,2,1,0,0,0,0
+290,Old_Javanese,to sew,OTHER,1,1,1,0,1,1
+290,Old_Javanese,to shoot,OTHER,1,1,1,1,1,1
+290,Old_Javanese,to sit,ACTION,1,1,0,0,0,0
+290,Old_Javanese,to sleep,ACTION,1,1,1,1,1,1
+290,Old_Javanese,"to sniff, smell",OTHER,1,1,0,0,0,0
+290,Old_Javanese,to spit,OTHER,2,1,0,0,0,0
+290,Old_Javanese,to split,OTHER,1,1,1,0,1,1
+290,Old_Javanese,to squeeze,OTHER,1,1,1,0,1,1
+290,Old_Javanese,"to stab, pierce",OTHER,1,1,1,0,1,1
+290,Old_Javanese,to stand,ACTION,1,1,0,0,0,0
+290,Old_Javanese,to steal,OTHER,1,0,0,0,0,0
+290,Old_Javanese,to suck,OTHER,1,1,1,1,1,1
+290,Old_Javanese,to swell,OTHER,6,1,1,1,1,1
+290,Old_Javanese,to swim,ACTION,1,1,1,1,1,1
+290,Old_Javanese,to think,OTHER,1,0,0,0,0,0
+290,Old_Javanese,to throw,ACTION,1,0,0,0,0,0
+290,Old_Javanese,"to tie up, fasten",OTHER,2,1,1,0,1,1
+290,Old_Javanese,to turn,OTHER,2,2,1,0,1,1
+290,Old_Javanese,to vomit,OTHER,3,1,1,1,1,1
+290,Old_Javanese,to walk,ACTION,2,2,1,1,1,1
+290,Old_Javanese,to work,OTHER,4,1,0,0,0,0
+290,Old_Javanese,to yawn,OTHER,1,1,1,1,1,1
+290,Old_Javanese,tongue,BODY,1,2,1,0,1,1
+290,Old_Javanese,tooth,BODY,1,1,0,0,0,0
+290,Old_Javanese,warm,OTHER,3,1,1,0,1,1
+290,Old_Javanese,water,NATURE,2,1,1,0,1,1
+290,Old_Javanese,we,OTHER,1,1,1,1,1,1
+290,Old_Javanese,wet,OTHER,1,1,0,0,0,0
+290,Old_Javanese,what?,OTHER,1,1,1,0,1,1
+290,Old_Javanese,when?,OTHER,1,1,0,0,0,0
+290,Old_Javanese,where?,OTHER,1,0,0,0,0,0
+290,Old_Javanese,white,OTHER,1,1,1,1,1,1
+290,Old_Javanese,who?,OTHER,1,1,0,0,0,0
+290,Old_Javanese,wide,OTHER,1,1,0,1,1,0
+290,Old_Javanese,wife,KINSHIP,2,1,0,0,0,0
+290,Old_Javanese,wind,NATURE,2,1,1,0,1,1
+290,Old_Javanese,wing,OTHER,1,1,0,0,0,0
+290,Old_Javanese,woman/female,KINSHIP,1,1,0,0,0,0
+290,Old_Javanese,woods/forest,NATURE,1,1,1,0,1,1
+290,Old_Javanese,worm (earthworm),OTHER,1,1,0,0,0,0
+290,Old_Javanese,year,OTHER,1,1,1,0,1,1
+290,Old_Javanese,yellow,OTHER,1,1,1,0,1,1
+290,Old_Javanese,you,OTHER,2,1,1,1,1,1
+1535,Old_Middle_Javanese,Five,NUMBER,2,1,1,1,1,1
+1535,Old_Middle_Javanese,Four,NUMBER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,I,OTHER,5,2,1,1,1,1
+1535,Old_Middle_Javanese,One,NUMBER,1,2,1,1,1,1
+1535,Old_Middle_Javanese,Three,NUMBER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,Two,NUMBER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,above,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,all,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,and,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,ashes,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,at,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,back,BODY,2,1,0,0,0,0
+1535,Old_Middle_Javanese,belly,BODY,1,1,0,0,0,0
+1535,Old_Middle_Javanese,below,OTHER,2,1,0,0,0,0
+1535,Old_Middle_Javanese,big,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,bird,OTHER,1,1,1,0,1,1
+1535,Old_Middle_Javanese,black,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,bone,BODY,1,0,0,0,0,0
+1535,Old_Middle_Javanese,branch,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,breast,BODY,1,1,1,1,1,1
+1535,Old_Middle_Javanese,cloud,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,"correct, true",OTHER,1,1,1,0,1,1
+1535,Old_Middle_Javanese,day,OTHER,2,1,0,0,0,0
+1535,Old_Middle_Javanese,dirty,OTHER,3,0,0,0,0,0
+1535,Old_Middle_Javanese,dog,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,dry,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,"dull, blunt",OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,dust,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,ear,BODY,2,0,0,0,0,0
+1535,Old_Middle_Javanese,egg,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,eye,BODY,1,1,1,1,1,1
+1535,Old_Middle_Javanese,fat/grease,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,father,KINSHIP,1,1,0,0,0,0
+1535,Old_Middle_Javanese,feather,OTHER,2,1,1,0,1,1
+1535,Old_Middle_Javanese,fish,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,flower,NATURE,2,0,0,0,0,0
+1535,Old_Middle_Javanese,fog,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,good,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,grass,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,green,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,hair,BODY,1,1,0,0,0,0
+1535,Old_Middle_Javanese,hand,BODY,1,1,0,0,0,0
+1535,Old_Middle_Javanese,he/she,OTHER,3,1,0,0,0,0
+1535,Old_Middle_Javanese,head,BODY,2,1,0,0,0,0
+1535,Old_Middle_Javanese,house,OTHER,2,1,1,1,1,1
+1535,Old_Middle_Javanese,husband,KINSHIP,2,0,0,0,0,0
+1535,Old_Middle_Javanese,if,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,"in, inside",OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,intestines,BODY,2,1,0,0,0,0
+1535,Old_Middle_Javanese,lake,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,leaf,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,left,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,lightning,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,liver,BODY,1,0,0,0,0,0
+1535,Old_Middle_Javanese,long,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,louse,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,man/male,KINSHIP,2,0,0,0,0,0
+1535,Old_Middle_Javanese,meat/flesh,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,moon,NATURE,2,0,0,0,0,0
+1535,Old_Middle_Javanese,mother,KINSHIP,1,1,0,0,0,0
+1535,Old_Middle_Javanese,mouth,BODY,2,1,0,0,0,0
+1535,Old_Middle_Javanese,name,OTHER,2,1,1,1,1,1
+1535,Old_Middle_Javanese,narrow,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,near,OTHER,4,1,0,0,0,0
+1535,Old_Middle_Javanese,neck,BODY,1,1,0,0,0,0
+1535,Old_Middle_Javanese,needle,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,night,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,"no, not",OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,nose,BODY,1,0,0,0,0,0
+1535,Old_Middle_Javanese,old,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,"painful, sick",OTHER,2,2,0,0,0,0
+1535,Old_Middle_Javanese,rain,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,rat,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,red,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,right,OTHER,1,2,1,1,1,1
+1535,Old_Middle_Javanese,road/path,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,root,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,rope,OTHER,2,1,1,1,1,1
+1535,Old_Middle_Javanese,rotten,OTHER,3,1,0,0,0,0
+1535,Old_Middle_Javanese,salt,NATURE,1,1,0,0,0,0
+1535,Old_Middle_Javanese,sand,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,sea,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,sharp,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,short,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,shoulder,BODY,2,1,0,0,0,0
+1535,Old_Middle_Javanese,"shy, ashamed",OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,skin,BODY,1,1,1,0,1,1
+1535,Old_Middle_Javanese,sky,NATURE,2,0,0,0,0,0
+1535,Old_Middle_Javanese,small,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,smoke,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,snake,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,stone,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,tail,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,that,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,thatch/roof,OTHER,3,0,0,0,0,0
+1535,Old_Middle_Javanese,thick,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,thin,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,this,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,thou,OTHER,5,0,0,0,0,0
+1535,Old_Middle_Javanese,thunder,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to bite,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to blow,ACTION,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to breathe,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to burn,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to buy,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,to chew,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to choose,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to climb,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to come,ACTION,1,1,0,0,0,0
+1535,Old_Middle_Javanese,to cook,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to count,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to cry,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,"to cut, hack",ACTION,4,0,0,0,0,0
+1535,Old_Middle_Javanese,"to die, be dead",ACTION,1,2,1,1,1,1
+1535,Old_Middle_Javanese,to dig,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to dream,OTHER,2,2,1,1,1,2
+1535,Old_Middle_Javanese,to eat,ACTION,2,2,1,1,1,1
+1535,Old_Middle_Javanese,to fall,ACTION,1,1,0,0,0,0
+1535,Old_Middle_Javanese,to fear,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to flow,OTHER,2,2,1,0,1,1
+1535,Old_Middle_Javanese,to fly,ACTION,2,1,0,0,0,0
+1535,Old_Middle_Javanese,to hear,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to hide,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to hit,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to hold,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to hunt,OTHER,4,1,0,0,0,0
+1535,Old_Middle_Javanese,to kill,ACTION,2,1,0,1,1,0
+1535,Old_Middle_Javanese,"to know, be knowledgeable",OTHER,2,1,0,0,0,0
+1535,Old_Middle_Javanese,to laugh,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,to lie down,OTHER,4,0,0,0,0,0
+1535,Old_Middle_Javanese,"to live, be alive",ACTION,1,1,1,1,1,1
+1535,Old_Middle_Javanese,"to open, uncover",OTHER,1,1,1,0,1,1
+1535,Old_Middle_Javanese,to plant,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to say,ACTION,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to scratch,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to see,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to sew,OTHER,2,1,1,0,1,1
+1535,Old_Middle_Javanese,to shoot,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to sit,ACTION,2,1,0,0,0,0
+1535,Old_Middle_Javanese,to sleep,ACTION,1,1,1,1,1,1
+1535,Old_Middle_Javanese,"to sniff, smell",OTHER,3,0,0,0,0,0
+1535,Old_Middle_Javanese,to spit,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to squeeze,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to stand,ACTION,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to steal,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to suck,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to swim,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to think,OTHER,2,0,0,0,0,0
+1535,Old_Middle_Javanese,to throw,ACTION,2,0,0,0,0,0
+1535,Old_Middle_Javanese,"to tie up, fasten",OTHER,3,2,1,0,1,1
+1535,Old_Middle_Javanese,to turn,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to vomit,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,to walk,ACTION,1,1,1,1,1,1
+1535,Old_Middle_Javanese,to work,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,tongue,BODY,1,0,0,0,0,0
+1535,Old_Middle_Javanese,warm,OTHER,1,1,1,0,1,1
+1535,Old_Middle_Javanese,water,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,wet,OTHER,3,1,0,0,0,0
+1535,Old_Middle_Javanese,what?,OTHER,2,2,1,0,1,2
+1535,Old_Middle_Javanese,when?,OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,where?,OTHER,3,0,0,0,0,0
+1535,Old_Middle_Javanese,white,OTHER,1,1,1,1,1,1
+1535,Old_Middle_Javanese,who?,OTHER,1,0,0,0,0,0
+1535,Old_Middle_Javanese,wide,OTHER,3,0,0,0,0,0
+1535,Old_Middle_Javanese,wife,KINSHIP,2,1,0,0,0,0
+1535,Old_Middle_Javanese,wind,NATURE,2,0,0,0,0,0
+1535,Old_Middle_Javanese,wing,OTHER,4,1,0,0,0,0
+1535,Old_Middle_Javanese,woman/female,KINSHIP,2,0,0,0,0,0
+1535,Old_Middle_Javanese,woods/forest,NATURE,1,0,0,0,0,0
+1535,Old_Middle_Javanese,worm (earthworm),OTHER,1,1,0,0,0,0
+1535,Old_Middle_Javanese,year,OTHER,1,1,1,0,1,1
+1535,Old_Middle_Javanese,yellow,OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,Five,NUMBER,1,1,1,1,1,1
+1533,Tengger_Ngadas,Four,NUMBER,1,2,1,1,1,1
+1533,Tengger_Ngadas,I,OTHER,3,0,0,0,0,0
+1533,Tengger_Ngadas,One,NUMBER,1,2,1,1,1,1
+1533,Tengger_Ngadas,Three,NUMBER,1,1,1,1,1,1
+1533,Tengger_Ngadas,Two,NUMBER,1,1,1,1,1,1
+1533,Tengger_Ngadas,above,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,all,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,and,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,ashes,NATURE,1,1,1,1,1,1
+1533,Tengger_Ngadas,at,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,back,BODY,1,0,0,0,0,0
+1533,Tengger_Ngadas,"bad, evil",OTHER,4,0,0,0,0,0
+1533,Tengger_Ngadas,belly,BODY,1,1,0,0,0,0
+1533,Tengger_Ngadas,below,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,big,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,bird,OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,black,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,blood,BODY,2,2,1,1,1,1
+1533,Tengger_Ngadas,bone,BODY,1,0,0,0,0,0
+1533,Tengger_Ngadas,branch,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,breast,BODY,1,1,1,1,1,1
+1533,Tengger_Ngadas,child,KINSHIP,1,1,1,1,1,1
+1533,Tengger_Ngadas,cloud,NATURE,1,0,0,0,0,0
+1533,Tengger_Ngadas,cold,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,"correct, true",OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,day,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,dirty,OTHER,5,0,0,0,0,0
+1533,Tengger_Ngadas,dog,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,dry,OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,"dull, blunt",OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,dust,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,ear,BODY,1,1,0,0,0,0
+1533,Tengger_Ngadas,earth/soil,NATURE,2,0,0,0,0,0
+1533,Tengger_Ngadas,egg,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,eye,BODY,1,1,1,1,1,1
+1533,Tengger_Ngadas,far,OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,fat/grease,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,father,KINSHIP,1,1,0,0,0,0
+1533,Tengger_Ngadas,feather,OTHER,2,1,1,0,1,1
+1533,Tengger_Ngadas,fire,NATURE,1,0,0,0,0,0
+1533,Tengger_Ngadas,fish,OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,flower,NATURE,1,1,0,0,0,0
+1533,Tengger_Ngadas,fog,OTHER,3,1,1,0,1,1
+1533,Tengger_Ngadas,fruit,NATURE,1,0,0,0,0,0
+1533,Tengger_Ngadas,good,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,grass,NATURE,1,1,0,0,0,0
+1533,Tengger_Ngadas,green,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,hair,BODY,1,1,0,0,0,0
+1533,Tengger_Ngadas,hand,BODY,1,1,0,0,0,0
+1533,Tengger_Ngadas,he/she,OTHER,6,0,0,0,0,0
+1533,Tengger_Ngadas,head,BODY,1,0,0,0,0,0
+1533,Tengger_Ngadas,heavy,OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,house,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,how?,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,husband,KINSHIP,1,0,0,0,0,0
+1533,Tengger_Ngadas,if,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,"in, inside",OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,lake,NATURE,3,0,0,0,0,0
+1533,Tengger_Ngadas,leaf,NATURE,1,0,0,0,0,0
+1533,Tengger_Ngadas,left,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,leg/foot,BODY,1,2,0,0,0,0
+1533,Tengger_Ngadas,lightning,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,liver,BODY,1,1,1,1,1,1
+1533,Tengger_Ngadas,long,OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,louse,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,man/male,KINSHIP,1,1,0,0,0,0
+1533,Tengger_Ngadas,meat/flesh,OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,moon,NATURE,1,1,1,1,1,1
+1533,Tengger_Ngadas,mosquito,OTHER,3,1,1,0,1,1
+1533,Tengger_Ngadas,mother,KINSHIP,3,1,0,0,0,0
+1533,Tengger_Ngadas,mouth,BODY,2,1,0,0,0,0
+1533,Tengger_Ngadas,name,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,narrow,OTHER,3,0,0,0,0,0
+1533,Tengger_Ngadas,near,OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,neck,BODY,1,1,0,0,0,0
+1533,Tengger_Ngadas,needle,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,new,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,night,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,"no, not",OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,nose,BODY,1,0,0,0,0,0
+1533,Tengger_Ngadas,old,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,"painful, sick",OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,person/human being,KINSHIP,1,1,0,0,0,0
+1533,Tengger_Ngadas,rain,NATURE,1,1,1,1,1,1
+1533,Tengger_Ngadas,rat,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,red,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,right,OTHER,1,2,1,1,1,1
+1533,Tengger_Ngadas,road/path,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,root,NATURE,2,0,0,0,0,0
+1533,Tengger_Ngadas,rope,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,rotten,OTHER,4,2,0,0,0,0
+1533,Tengger_Ngadas,salt,NATURE,1,1,0,0,0,0
+1533,Tengger_Ngadas,sand,NATURE,2,1,0,0,0,0
+1533,Tengger_Ngadas,sea,NATURE,1,1,0,0,0,0
+1533,Tengger_Ngadas,sharp,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,short,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,shoulder,BODY,2,1,0,0,0,0
+1533,Tengger_Ngadas,"shy, ashamed",OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,skin,BODY,1,1,1,0,1,1
+1533,Tengger_Ngadas,sky,NATURE,1,1,1,1,1,1
+1533,Tengger_Ngadas,small,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,smoke,NATURE,2,1,0,0,0,0
+1533,Tengger_Ngadas,snake,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,spider,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,star,NATURE,1,1,1,1,1,1
+1533,Tengger_Ngadas,stone,NATURE,1,1,1,1,1,1
+1533,Tengger_Ngadas,tail,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,that,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,thatch/roof,OTHER,4,0,0,0,0,0
+1533,Tengger_Ngadas,thick,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,thin,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,this,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,thou,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,thunder,OTHER,4,1,0,0,0,0
+1533,Tengger_Ngadas,to bite,ACTION,1,0,0,0,0,0
+1533,Tengger_Ngadas,to breathe,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,to burn,ACTION,2,0,0,0,0,0
+1533,Tengger_Ngadas,to buy,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,to climb,OTHER,3,0,0,0,0,0
+1533,Tengger_Ngadas,to come,ACTION,1,1,0,0,0,0
+1533,Tengger_Ngadas,to cook,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,to count,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,to cry,OTHER,1,2,1,1,1,1
+1533,Tengger_Ngadas,"to cut, hack",ACTION,2,0,0,0,0,0
+1533,Tengger_Ngadas,"to die, be dead",ACTION,2,1,1,1,1,1
+1533,Tengger_Ngadas,to dream,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,to drink,ACTION,1,0,0,0,0,0
+1533,Tengger_Ngadas,to eat,ACTION,1,2,1,1,1,1
+1533,Tengger_Ngadas,to fall,ACTION,1,0,0,0,0,0
+1533,Tengger_Ngadas,to fear,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,to flow,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,to fly,ACTION,2,2,0,0,0,0
+1533,Tengger_Ngadas,to grow,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,to hear,ACTION,1,0,0,0,0,0
+1533,Tengger_Ngadas,to hold,ACTION,3,1,0,0,0,0
+1533,Tengger_Ngadas,to hunt,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,to kill,ACTION,1,1,0,1,1,0
+1533,Tengger_Ngadas,"to know, be knowledgeable",OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,to laugh,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,to lie down,OTHER,4,0,0,0,0,0
+1533,Tengger_Ngadas,"to live, be alive",ACTION,1,1,1,1,1,1
+1533,Tengger_Ngadas,"to open, uncover",OTHER,2,1,1,0,1,1
+1533,Tengger_Ngadas,to plant,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,to say,ACTION,1,0,0,0,0,0
+1533,Tengger_Ngadas,to see,ACTION,2,0,0,0,0,0
+1533,Tengger_Ngadas,to sew,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,to sit,ACTION,1,1,0,0,0,0
+1533,Tengger_Ngadas,to sleep,ACTION,1,1,1,1,1,1
+1533,Tengger_Ngadas,"to sniff, smell",OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,to spit,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,to stand,ACTION,1,0,0,0,0,0
+1533,Tengger_Ngadas,to steal,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,to swell,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,to think,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,to throw,ACTION,3,0,0,0,0,0
+1533,Tengger_Ngadas,to vomit,OTHER,2,1,1,1,1,1
+1533,Tengger_Ngadas,to walk,ACTION,1,1,1,1,1,1
+1533,Tengger_Ngadas,to work,OTHER,2,1,0,0,0,0
+1533,Tengger_Ngadas,tongue,BODY,1,2,1,0,1,1
+1533,Tengger_Ngadas,warm,OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,water,NATURE,1,1,0,0,0,0
+1533,Tengger_Ngadas,wet,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,what?,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,when?,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,where?,OTHER,1,0,0,0,0,0
+1533,Tengger_Ngadas,white,OTHER,1,1,1,1,1,1
+1533,Tengger_Ngadas,who?,OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,wide,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,wife,KINSHIP,1,0,0,0,0,0
+1533,Tengger_Ngadas,wind,NATURE,1,1,1,0,1,1
+1533,Tengger_Ngadas,wing,OTHER,2,0,0,0,0,0
+1533,Tengger_Ngadas,woman/female,KINSHIP,1,1,0,0,0,0
+1533,Tengger_Ngadas,woods/forest,NATURE,1,1,1,0,1,1
+1533,Tengger_Ngadas,worm (earthworm),OTHER,1,1,0,0,0,0
+1533,Tengger_Ngadas,year,OTHER,1,1,1,0,1,1
+1533,Tengger_Ngadas,yellow,OTHER,1,1,1,0,1,1

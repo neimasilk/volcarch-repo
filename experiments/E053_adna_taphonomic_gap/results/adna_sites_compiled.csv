@@ -1,0 +1,22 @@
+site,island,lat,lon,age_bp,n_samples,dna_success,coverage,finding,reference,volcanic_proximity_km,soil_type,preservation
+Leang Panninge,Sulawesi,-4.97,119.65,7200,1,True,0.28,"Toalean hunter-gatherer, deep Denisovan ancestry (2.2%), pre-Austronesian",Carlhoff et al. 2021 Nature,180,limestone cave,petrous bone
+Tabon Cave,Palawan,9.26,118.06,30000,3,True,0.02,"Early modern human, possible Denisovan admixture",Détroit et al. 2004; ancient DNA attempted,350,limestone cave,petrous bone
+Callao Cave,Luzon,17.75,121.82,67000,5,False,0.0,Homo luzonensis; aDNA extraction FAILED — tropical degradation,Détroit et al. 2019 Nature,120,limestone cave,fragmentary
+Niah Cave,Borneo,3.82,110.15,40000,2,False,0.0,Deep Skull; aDNA extraction FAILED — humidity degradation,Barker et al. 2007,500,limestone cave,fragmentary
+Asitau Kuru (Jerimalai),Timor,-8.42,127.3,42000,2,False,0.0,Earliest maritime crossing; aDNA attempted but failed,OConnor et al. 2011,50,rockshelter,fragmentary
+Kuk Swamp,Papua New Guinea,-5.79,144.34,7000,0,False,0.0,Earliest agriculture evidence; no human remains for aDNA,Denham et al. 2003,80,swamp,none
+Man Bac,Vietnam (mainland),20.2,106.06,3800,7,True,1.5,"Neolithic Austroasiatic, two-layer ancestry model",Lipson et al. 2018 Science,1000,burial ground,good
+Ban Chiang,Thailand (mainland),17.42,103.24,4000,5,True,2.1,"Bronze Age, East Asian ancestry component",McColl et al. 2018 Science,1000,burial mound,good
+Tam Pa Ling,Laos (mainland),20.21,103.41,63000,1,False,0.0,Earliest AMH in mainland SEA; no aDNA yet,Demeter et al. 2012,1000,cave,fragmentary
+Lakaton-i-Anja,Madagascar,-13.93,49.79,1000,3,True,0.5,"Austronesian maternal lineages (B4a1a1), confirms SE Asian origin",Brucato et al. 2016,500,rock shelter,moderate
+Hanben/Qimei,Taiwan,23.55,119.6,1400,4,True,3.2,"Iron Age Austronesian, genetic continuity with modern Ami/Atayal",Lipson et al. 2014,200,burial,good
+Liang Bua,Flores,-8.53,120.44,60000,5,False,0.0,H. floresiensis; aDNA FAILED — tropical heat + volcanic soil,Brown et al. 2004; Kistler et al. 2015 (aDNA attempt),15,volcanic cave,poor
+Lida Ajer,Sumatra,-0.5,100.65,73000,2,False,0.0,Earliest AMH in Sumatra (teeth); aDNA not attempted — volcanic region,Westaway et al. 2017 Nature,30,limestone cave,teeth only
+Sangiran,Java,-7.45,110.85,1000000,50,False,0.0,"H. erectus — NO aDNA possible, volcanic matrix, acidic lahar deposits",Dubois 1894; multiple teams attempted,25,volcanic lahar,mineralized
+Trinil,Java,-7.62,111.33,500000,10,False,0.0,H. erectus type site — volcanic matrix destroys organic material,Dubois 1891,20,volcanic fluvial,mineralized
+Ngandong,Java,-7.15,111.4,117000,14,False,0.0,Last H. erectus; bones = mineralized by volcanic groundwater,Rizal et al. 2020 Nature,30,volcanic terrace,mineralized
+Wajak,Java,-8.07,112.24,28000,2,False,0.0,"Early AMH Java; volcanic soil degradation, aDNA never recovered",Dubois 1920; Storm et al. 2013,15,volcanic cave,poor
+Song Terus,Java,-8.0,111.52,35000,3,False,0.0,Pleistocene burials in volcanic terrain; no aDNA,Sémah et al. 2004,35,volcanic limestone,moderate
+Gua Kidang,Java,-6.95,111.52,8000,4,False,0.0,"Holocene burials in East Java; volcanic soil pH 4-5, aDNA degraded",Nurani & Hascaryo 2011,40,volcanic cave,fragmentary
+Madura Strait (offshore),Java (offshore),-7.0,113.0,40000,1,False,0.0,"Hominin fossil dredged 2025; submerged site, no aDNA attempted yet",Gittins et al. 2025 Nat Commun,60,marine sediment,unknown
+Topogaro caves,Sulawesi,-1.5,121.0,2000,2,True,0.15,"Pre-Austronesian population, Denisovan admixture ~2%",Posth et al. 2018,200,limestone,petrous bone

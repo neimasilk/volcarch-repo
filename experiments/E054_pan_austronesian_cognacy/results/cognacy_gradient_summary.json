@@ -1,0 +1,12 @@
+{
+  "experiment": "E054_pan_austronesian_cognacy",
+  "title": "Pan-Austronesian Cognacy Gradient",
+  "date": "2026-03-12",
+  "n_languages": 1309,
+  "mean_cognacy_rate": 0.35,
+  "rho_java": -0.088,
+  "p_java": 0.001507,
+  "rho_taiwan": -0.117,
+  "p_taiwan": 2.3e-05,
+  "peripheral_conservatism": false
+}

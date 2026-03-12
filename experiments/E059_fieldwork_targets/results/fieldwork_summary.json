@@ -1,0 +1,20 @@
+{
+  "experiment": "E059_fieldwork_targets",
+  "date": "2026-03-12",
+  "n_candidates_evaluated": 288,
+  "n_targets_selected": 10,
+  "method": "composite scoring (burial_depth + candi_density + court_activity + proximity)",
+  "top_target": {
+    "lat": -7.9964,
+    "lon": 112.2716,
+    "volcano": "Kelud",
+    "dist_volcano_km": 8,
+    "burial_depth_cm": 2130.0,
+    "sedi_rate_mm_yr": 13.1,
+    "nearby_candi": 6,
+    "nearest_kab": "Kabupaten Blitar",
+    "kab_prehidu_ratio": 0.42,
+    "composite_score": 48.27,
+    "angle_deg": 210
+  }
+}
