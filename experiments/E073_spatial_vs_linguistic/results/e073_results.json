@@ -1,0 +1,98 @@
+{
+  "experiment": "E073",
+  "title": "Spatial vs Linguistic Evidence Meta-Test",
+  "thesis": "Volcanic informedness is behavioral/spatial, not lexical",
+  "verdict": "STRONGLY SUPPORTED",
+  "spatial_domain": {
+    "n_tests": 5,
+    "n_significant": 5,
+    "fisher_chi2": 149.2,
+    "fisher_df": 10,
+    "fisher_p": 0.0,
+    "stouffer_z": 10.8566,
+    "stouffer_p": 0.0,
+    "median_neg_log10_p": 6.0,
+    "tests": [
+      {
+        "experiment": "E065",
+        "test": "Candi volcanic zone overrepresentation (chi-squared)",
+        "p": 1e-06,
+        "supports": true
+      },
+      {
+        "experiment": "E065",
+        "test": "Candi western quadrant clustering (Rayleigh)",
+        "p": 3.4e-08,
+        "supports": true
+      },
+      {
+        "experiment": "E066",
+        "test": "Candi equinox alignment (binomial)",
+        "p": 4.9e-14,
+        "supports": true
+      },
+      {
+        "experiment": "E066",
+        "test": "Candi NOT volcano-facing (McNemar)",
+        "p": 0.0016,
+        "supports": true
+      },
+      {
+        "experiment": "ADV-3",
+        "test": "Volcanic proximity after survey control (quasi-Poisson LR)",
+        "p": 0.0015,
+        "supports": true
+      }
+    ]
+  },
+  "linguistic_domain": {
+    "n_tests": 4,
+    "n_significant": 0,
+    "fisher_chi2": 6.37,
+    "fisher_df": 8,
+    "fisher_p": 0.6063,
+    "stouffer_z": -1.3878,
+    "stouffer_p": 0.1652,
+    "median_neg_log10_p": 0.21,
+    "tests": [
+      {
+        "experiment": "E029",
+        "test": "Substrate cross-linguistic cognacy (permutation)",
+        "p": 0.569,
+        "supports": false
+      },
+      {
+        "experiment": "E038",
+        "test": "Volcanic vocabulary diversity by proximity (t-test)",
+        "p": 0.68,
+        "supports": false
+      },
+      {
+        "experiment": "E067",
+        "test": "Volcanic toponym proximity correlation (Spearman)",
+        "p": 0.146,
+        "supports": false
+      },
+      {
+        "experiment": "E067",
+        "test": "Volcanic toponym close vs far (Mann-Whitney)",
+        "p": 0.734,
+        "supports": false
+      }
+    ]
+  },
+  "asymmetry_test": {
+    "mann_whitney_u": 0.0,
+    "p_value_one_tailed": 0.007937,
+    "rank_biserial_r": 1.0,
+    "significant": true
+  },
+  "vote_counting": {
+    "spatial_significant": 5,
+    "spatial_total": 5,
+    "linguistic_significant": 0,
+    "linguistic_total": 4,
+    "fisher_exact_or": "inf",
+    "fisher_exact_p": 0.0079
+  }
+}

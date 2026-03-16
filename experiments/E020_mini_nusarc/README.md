@@ -1,16 +1,32 @@
 # E020: Mini-NusaRC — Preliminary Radiocarbon Database for H-TOM Testing
 
-## Status: PRELIMINARY RESULTS (v2 — 48 sites, merged from v1 + agent harvest)
+## Status: PRELIMINARY RESULTS (v3 — 80 sites)
 
 ### Dataset Versions
 - **v1** (41 sites): Manual compilation from known literature
 - **v2** (48 sites): Merged v1 + 7 new sites from agent-harvested nusarc_v0.1.csv (6 Sulawesi, 1 Kalimantan)
-- **Gaps**: Sumatra (2/5 min), Philippines (3/4 min)
+- **v3** (80 sites): Systematic expansion +32 sites addressing regional gaps; all 8 regions above minimum viable
+- **Data paper D2** drafted: `papers/D2_mini_nusarc/main.tex` targeting JOAD (Diamond OA, free)
 
-### Metric 1 Result (v2)
-- Fisher's exact p = 0.761 — NOT SIGNIFICANT
-- Volcanic regions: 82.4% cave; Non-volcanic: 85.7% cave
-- **Interpretation**: Cave bias is universal across tropical regions, not specific to volcanic ones. The H-TOM signal is in DISCOVERY METHOD (erosion/construction exposure vs surface survey), not simple site type binary. Metric needs refinement.
+### v3 Regional Coverage
+| Region | Sites | Min target | Status |
+|--------|-------|------------|--------|
+| Java | 19 | 8 | EXCEEDED |
+| Sulawesi | 18 | 8 | EXCEEDED |
+| Nusa Tenggara | 12 | 4 | EXCEEDED |
+| Kalimantan | 8 | 5 | EXCEEDED |
+| Sumatra | 7 | 5 | EXCEEDED |
+| Philippines | 6 | 4 | EXCEEDED |
+| Maluku | 5 | 3 | EXCEEDED |
+| Madagascar | 5 | 3 | EXCEEDED |
+
+### Metric 1 Result (v3, n=80)
+- Fisher's exact p = 0.760 — NOT SIGNIFICANT (all sites)
+- Fisher's exact p = 0.417 — NOT SIGNIFICANT (deep-time >10ka only)
+- Volcanic regions: 62.7% cave; Non-volcanic: 69.2% cave
+- **Key finding:** Cave bias is universal. Kalimantan (no volcanoes) = 100% cave due to research intensity bias.
+- **Java pattern is diagnostic:** 0% cave in Lower Paleolithic (8 river terrace H. erectus sites), 83% cave in Upper Paleolithic (H. sapiens). All deep-time open-air sites found via fluvial erosion, not survey.
+- **Interpretation**: Simple cave/open-air ratio is not the right metric. The signal is in DISCOVERY METHOD — volcanic regions lose open-air evidence while controls never find it in the first place (only caves surveyed). Java's river terrace sites are visible *only because* erosion cuts through volcanic deposits.
 
 ## Strategic Rationale
 

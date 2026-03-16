@@ -1,0 +1,129 @@
+======================================================================
+E086: ADV-1 Japan Comparanda — Quantitative Analysis
+======================================================================
+
+1. SURVEY INTENSITY COMPARISON
+----------------------------------------
+  Japan registered sites:         460,000
+  Indonesia registered sites:       1,500
+  Ratio:                              307x
+
+  Japan excavations/year:           8,700
+  Indonesia excavations/year:          70
+  Ratio:                              124x
+
+  Japan excavations/1000 km2:        23.0
+  Indonesia excavations/1000 km2:       0.04
+  Per-area ratio:                     626x
+
+  Japan archaeologists/M pop:        50.0
+  Indonesia archaeologists/M pop:       1.27
+  Per-capita ratio:                    39x
+
+2. SEDIMENTATION RATE COMPARISON
+----------------------------------------
+
+  Java sustained lahar sedimentation:
+    Sambisari (Merapi)             5.05 mm/yr
+    Kedulan (Merapi)               5.75 mm/yr
+    Kimpulan (Merapi)              3.45 mm/yr
+    Dwarapala (Kelud)              3.50 mm/yr
+    MEAN                           4.44 mm/yr
+
+  Japan tephra sedimentation:
+    SW Japan basins (background)   0.14 mm/yr
+    Sakurajima proximal            13.00 mm/yr
+
+  Java/Japan background ratio: 32x
+  (Java mean 4.4 mm/yr vs Japan background 0.14 mm/yr)
+
+  NOTE: Sakurajima (13 mm/yr) is an outlier — extremely active, proximal,
+  and comparable to Merapi proximal zones. Most Japanese volcanic zones
+  have much lower sustained rates.
+
+3. BURIAL DEPTH PROJECTION (1000 years)
+----------------------------------------
+
+  At Java mean rate (4.4 mm/yr):
+    Depth after 1000 years: 4.4 m
+    Depth after 2000 years: 8.9 m
+
+  At Japan background rate (0.14 mm/yr):
+    Depth after 1000 years: 0.14 m
+    Depth after 2000 years: 0.28 m
+
+  Java burial is 32x deeper than Japan background
+  after the same time period.
+
+4. LAHAR AMPLIFICATION: TROPICAL vs TEMPERATE
+----------------------------------------
+
+  Merapi (Java) post-eruption lahars: >250 in 2 rainy seasons
+  Typical Japan post-eruption lahars: ~20 (variable)
+
+  Java annual rainfall in volcanic zones: ~2500 mm
+  Japan annual rainfall in volcanic zones: ~1600 mm
+  Rainfall ratio: 1.6x
+
+  Java peak intensity: 40 mm/hr
+  Japan peak intensity (lahar-triggering): 26 mm/hr
+  Intensity ratio: 1.5x
+
+  KEY MECHANISM: Tropical convective rainfall in Java triggers far more
+  frequent and intense lahars than Japan's temperate frontal rainfall.
+  Snow packs in Japan can PROTECT tephra from remobilization.
+  No such protection exists in tropical Java.
+
+5. THE INTERACTION: BURIAL DEPTH x SURVEY INTENSITY
+----------------------------------------
+
+  The VOLCARCH thesis depends on TWO factors interacting:
+    (a) Deeper burial in Java than Japan (confirmed: ~30x background rate)
+    (b) Lower survey intensity in Indonesia than Japan (confirmed: ~100-200x)
+
+  Combined effect:
+    Java sites are buried ~30x deeper AND searched for ~100-200x less.
+    Japan sites are buried ~30x shallower AND searched for ~100-200x more.
+
+  This explains why Japan's volcanic zones yield rich records
+  while Java's volcanic zones appear archaeologically sparse.
+  The difference is not the presence/absence of burial,
+  but the combination of burial depth and recovery effort.
+
+6. KIKAI-AKAHOYA: JAPAN'S OWN 'INVISIBLE MILLENNIUM'
+----------------------------------------
+
+  The Kikai caldera VEI-7 eruption (7,300 BP) demonstrates that
+  volcanic events CAN create archaeological gaps even in Japan:
+
+  - Southern Kyushu depopulated for ~500-1000 years
+  - Archaeological record shows clear gap below Akahoya tephra
+  - Recovery sites are small, coastal, culturally impoverished
+  - Cultural continuity partially preserved (Nishinozono tradition)
+  - Gap was DETECTED only through systematic tephrochronology
+
+  This is exactly what VOLCARCH proposes happened in Java,
+  but at smaller scales repeated over many eruption cycles.
+  Japan FOUND its gap. Indonesia hasn't looked.
+
+======================================================================
+VERDICT: PARTIAL
+VOLCARCH survives, but with MANDATORY SCOPE RESTRICTION
+======================================================================
+
+Japan does NOT destroy L1.
+But Japan FORCES a refinement:
+
+  OLD CLAIM: 'Volcanic burial hides civilizations.'
+  NEW CLAIM: 'Volcanic burial hides civilizations WHERE survey
+              intensity is insufficient to detect buried deposits.'
+
+Japan has volcanic burial BUT compensates with 100-200x more survey.
+Indonesia has volcanic burial AND almost zero systematic survey.
+
+The VOLCARCH thesis survives as an argument about the INTERACTION
+of natural taphonomy and institutional capacity.
+
+Results saved to D:\documents\volcarch-repo\experiments\E086_adv1_japan_comparanda\results/
+  - adv1_summary.json
+  - adv1_comparison_table.csv

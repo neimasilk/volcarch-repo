@@ -1,0 +1,3952 @@
+[
+  {
+    "ref_id": "CHEM-001",
+    "tradition": "CHEMICAL",
+    "source_text": "Saqqara embalming workshop vessels",
+    "author": "Rageot et al. 2023",
+    "citation": "Nature 614: 287-293",
+    "language": "n/a",
+    "date_ce": -594,
+    "date_label": "664-525 BCE (26th Dynasty)",
+    "passage_text": "Vessel 5 (inscribed 'antiu'): GC-MS identified triterpenoids diagnostic of Dipterocarpaceae (dammar) resin. Vessel 62: Canarium sp. (elemi) resin identified via oleanane/ursane-type triterpenoids. Both taxa are restricted to Southeast Asia and tropical Africa/Asia respectively.",
+    "entities": [
+      {
+        "text": "dammar",
+        "type": "COMMODITY",
+        "modern_id": "Dipterocarpaceae resin",
+        "origin": "Indonesia/SE Asia exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "elemi",
+        "type": "COMMODITY",
+        "modern_id": "Canarium sp. resin",
+        "origin": "tropical Asia/Africa",
+        "confidence": 0.85
+      },
+      {
+        "text": "Saqqara",
+        "type": "PLACE",
+        "modern_id": "Saqqara necropolis, Egypt",
+        "confidence": 1.0
+      },
+      {
+        "text": "antiu",
+        "type": "COMMODITY",
+        "modern_id": "Egyptian term for aromatic resin (myrrh-like)",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Peer-reviewed in Nature. GC-MS is unambiguous for Dipterocarpaceae. This is the strongest single piece of evidence for pre-classical Nusantaran long-distance trade."
+  },
+  {
+    "ref_id": "CHEM-002",
+    "tradition": "CHEMICAL",
+    "source_text": "Terqa clove find",
+    "author": "Buccellati excavation team",
+    "citation": "Reported in Turner 2004, Dalby 2000",
+    "language": "n/a",
+    "date_ce": -1700,
+    "date_label": "~1700 BCE (Old Babylonian period)",
+    "passage_text": "Charred clove buds (Syzygium aromaticum) recovered from a domestic context at Tell Ashara (ancient Terqa), middle Euphrates, Syria. Radiocarbon dating places the context in the early 2nd millennium BCE.",
+    "entities": [
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "North Maluku exclusive (Ternate/Tidore/Bacan/Halmahera)",
+        "confidence": 0.7
+      },
+      {
+        "text": "Terqa",
+        "type": "PLACE",
+        "modern_id": "Tell Ashara, Syria",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Identification debated. If confirmed, earliest transport of exclusively Nusantaran product to Mediterranean. Cloves grow NOWHERE else naturally."
+  },
+  {
+    "ref_id": "CHEM-003",
+    "tradition": "CHEMICAL",
+    "source_text": "Austronesian crop dispersal to South Asia",
+    "author": "Crowther et al. 2016; Fuller et al. 2011",
+    "citation": "PNAS 113(24): 6635-6640",
+    "language": "n/a",
+    "date_ce": -1050,
+    "date_label": "~1500-600 BCE",
+    "passage_text": "Archaeobotanical evidence for introduction of coconut (Cocos nucifera), banana (Musa spp.), taro (Colocasia esculenta), and sandalwood (Santalum album) to South India and Sri Lanka. Outrigger boat (katamaran < Tamil kattumaram) technology appears simultaneously.",
+    "entities": [
+      {
+        "text": "coconut",
+        "type": "COMMODITY",
+        "modern_id": "Cocos nucifera",
+        "origin": "Austronesian domesticate",
+        "confidence": 0.9
+      },
+      {
+        "text": "banana",
+        "type": "COMMODITY",
+        "modern_id": "Musa spp.",
+        "origin": "Austronesian domesticate (New Guinea/ISEA)",
+        "confidence": 0.9
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor/eastern Indonesia",
+        "confidence": 0.85
+      },
+      {
+        "text": "outrigger",
+        "type": "VESSEL",
+        "modern_id": "Austronesian double-outrigger",
+        "origin": "ISEA maritime technology",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Multiple independent lines (phytoliths, genetics, linguistics). Implies organized recurring Austronesian maritime contact with South Asia by mid-2nd millennium BCE."
+  },
+  {
+    "ref_id": "CHEM-004",
+    "tradition": "CHEMICAL",
+    "source_text": "Cinnamon/cassia in Egyptian-Phoenician trade",
+    "author": "van der Veen 2011; Cappers 2006",
+    "citation": "van der Veen, Consumption, Trade and Innovation (2011)",
+    "language": "n/a",
+    "date_ce": -1000,
+    "date_label": "~1000 BCE onwards",
+    "passage_text": "Cinnamomum verum (Sri Lanka) and C. cassia (South China/Vietnam) identified in Egyptian contexts. Papyrus Harris I (Ramesses III, ~1155 BCE) lists 'ti-sps' among temple offerings. Herodotus (Hist. 3.111) describes cinnamon harvested from 'great birds' nests' — classic intermediary obfuscation of source.",
+    "entities": [
+      {
+        "text": "cinnamon",
+        "type": "COMMODITY",
+        "modern_id": "Cinnamomum verum",
+        "origin": "Sri Lanka (adjacent to Austronesian contact zone)",
+        "confidence": 0.85
+      },
+      {
+        "text": "cassia",
+        "type": "COMMODITY",
+        "modern_id": "Cinnamomum cassia",
+        "origin": "South China/Vietnam/SE Asia",
+        "confidence": 0.8
+      },
+      {
+        "text": "ti-sps",
+        "type": "COMMODITY",
+        "modern_id": "Egyptian term for cinnamon",
+        "origin": "Egyptian",
+        "confidence": 0.75
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chemical",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Cinnamon is not exclusively Nusantaran (Sri Lanka), but its presence implies Indian Ocean trade networks that include Nusantara."
+  },
+  {
+    "ref_id": "CHEM-005",
+    "tradition": "CHEMICAL",
+    "source_text": "Berenike pepper and Indian Ocean cargo",
+    "author": "Wendrich et al. 2003; Sidebotham 2011",
+    "citation": "Sidebotham, Berenike and the Ancient Maritime Spice Route (2011)",
+    "language": "n/a",
+    "date_ce": 50,
+    "date_label": "1st century CE",
+    "passage_text": "Excavations at Berenike (Egyptian Red Sea port) yielded black pepper (Piper nigrum, South India), coconut shell fragments, teak (Tectona grandis, SE Asia), and a Tamil-Brahmi potsherd. The teak in particular is significant: Tectona grandis is native to Java, Myanmar, and peninsular India.",
+    "entities": [
+      {
+        "text": "black pepper",
+        "type": "COMMODITY",
+        "modern_id": "Piper nigrum",
+        "origin": "Malabar coast, South India",
+        "confidence": 0.95
+      },
+      {
+        "text": "teak",
+        "type": "COMMODITY",
+        "modern_id": "Tectona grandis",
+        "origin": "Java/Myanmar/India",
+        "confidence": 0.85
+      },
+      {
+        "text": "Berenike",
+        "type": "PLACE",
+        "modern_id": "Berenike Troglodytica, Egyptian Red Sea coast",
+        "confidence": 1.0
+      },
+      {
+        "text": "Tamil-Brahmi potsherd",
+        "type": "MATERIAL",
+        "modern_id": "South Indian merchant marker",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Teak could be from Java. Combined with other SE Asian goods at same site = Indian Ocean network reaching Nusantara."
+  },
+  {
+    "ref_id": "CHEM-006",
+    "tradition": "CHEMICAL",
+    "source_text": "Intan and Belitung shipwrecks",
+    "author": "Flecker 2002; Krahl et al. 2010",
+    "citation": "Flecker, The Archaeological Excavation of the 10th Century Intan Shipwreck (2002)",
+    "language": "n/a",
+    "date_ce": 930,
+    "date_label": "~930 CE (Intan), ~830 CE (Belitung)",
+    "passage_text": "Intan shipwreck (Java Sea, ~930 CE): SE Asian vessel carrying Chinese ceramics, tin ingots, bronze mirrors, and aromatic resins. Belitung wreck (~830 CE): Arab dhow carrying 60,000+ Chinese ceramics — largest Tang dynasty cargo ever found. Both confirm massive maritime trade through Indonesian waters.",
+    "entities": [
+      {
+        "text": "Intan wreck",
+        "type": "VESSEL",
+        "modern_id": "SE Asian trading vessel, Java Sea",
+        "confidence": 0.95
+      },
+      {
+        "text": "Belitung wreck",
+        "type": "VESSEL",
+        "modern_id": "Arab dhow, Belitung Strait",
+        "confidence": 0.95
+      },
+      {
+        "text": "tin ingots",
+        "type": "COMMODITY",
+        "modern_id": "Tin, Bangka/Belitung source",
+        "confidence": 0.85
+      },
+      {
+        "text": "Chinese ceramics",
+        "type": "COMMODITY",
+        "modern_id": "Tang/Song dynasty export ceramics",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Physical proof of maritime trade through Nusantara. But post-400 CE so less relevant for pre-classical VOLCARCH argument."
+  },
+  {
+    "ref_id": "GRK-001",
+    "tradition": "GREEK",
+    "source_text": "Geographica (fragments via Strabo)",
+    "author": "Eratosthenes of Cyrene",
+    "citation": "Strabo, Geographica 1.4.2, 2.1.14, 15.1.14",
+    "language": "Greek",
+    "date_ce": -235,
+    "date_label": "~276-195 BCE",
+    "passage_text": "Eratosthenes describes the inhabited world extending from the Pillars of Heracles to the eastern extremity where Chryse (χρυσῆ, 'golden') and Argyre (ἀργυρῆ, 'silver') islands lie. Strabo (15.1.14) preserves: 'Beyond the mouths of the Ganges... the region of Chryse.'",
+    "entities": [
+      {
+        "text": "Chryse",
+        "type": "PLACE",
+        "modern_id": "Malay Peninsula or Sumatra",
+        "confidence": 0.65
+      },
+      {
+        "text": "Argyre",
+        "type": "PLACE",
+        "modern_id": "Unknown island, possibly Sumatra interior",
+        "confidence": 0.4
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Chryse identification debated since antiquity. Wheatley (1961) argues Malay Peninsula. Could also be Sumatra."
+  },
+  {
+    "ref_id": "GRK-002",
+    "tradition": "GREEK",
+    "source_text": "Periplus Maris Erythraei",
+    "author": "Anonymous merchant",
+    "citation": "PME §60-66 (Casson 1989 edition)",
+    "language": "Greek",
+    "date_ce": 50,
+    "date_label": "~40-70 CE",
+    "passage_text": "§60: 'After Chryse there is a river called the Ganges... Beyond this [river], close to the ocean at the very end of the inhabited world towards the east, lying directly under the rising sun itself, there is a place called Chryse.' §63: 'The last part of the inhabited world toward the east, under the rising sun itself... Chryse... there is a very great inland city called Thina [= China], from which raw silk and silk thread and silk cloth are brought on foot... It is not easy to get to this Thina; for rarely do people come from it, and only a few.'",
+    "entities": [
+      {
+        "text": "Chryse",
+        "type": "PLACE",
+        "modern_id": "Malay Peninsula / Sumatra",
+        "confidence": 0.65
+      },
+      {
+        "text": "Thina/Thinae",
+        "type": "PLACE",
+        "modern_id": "China (south coast/Chang'an)",
+        "confidence": 0.75
+      },
+      {
+        "text": "silk",
+        "type": "COMMODITY",
+        "modern_id": "Chinese silk",
+        "confidence": 0.95
+      },
+      {
+        "text": "tortoiseshell",
+        "type": "COMMODITY",
+        "modern_id": "Hawksbill turtle, SE Asian waters",
+        "confidence": 0.8
+      },
+      {
+        "text": "malabathron",
+        "type": "COMMODITY",
+        "modern_id": "Cinnamomum tamala leaves",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "First-hand merchant knowledge. Author clearly knows of lands beyond India. Chryse = transit point between India and China."
+  },
+  {
+    "ref_id": "GRK-003",
+    "tradition": "GREEK",
+    "source_text": "Geographia, Book VII",
+    "author": "Claudius Ptolemy",
+    "citation": "Ptolemy, Geographia VII.2-3 (Stückelberger & Graßhoff 2006)",
+    "language": "Greek",
+    "date_ce": 150,
+    "date_label": "~150 CE",
+    "passage_text": "VII.2: 'The Golden Peninsula (Χρυσῆ Χερσόνησος) extends south from [coordinates]... Sabara emporium, Perimula, Kole.' VII.2.5: 'The island of Iabadiu (Ἰαβαδίου), which means Island of Barley, is said to produce much gold.' VII.2.29: 'Argyre [Silver City] at the western point.' Coordinates given: Iabadiu at roughly 8°S 118°E (reconstructed).",
+    "entities": [
+      {
+        "text": "Aurea Chersonesus",
+        "type": "PLACE",
+        "modern_id": "Malay Peninsula",
+        "confidence": 0.85
+      },
+      {
+        "text": "Iabadiu",
+        "type": "PLACE",
+        "modern_id": "Java (Yavadvipa)",
+        "confidence": 0.75
+      },
+      {
+        "text": "Argyre",
+        "type": "PLACE",
+        "modern_id": "City in western Java or Sumatra",
+        "confidence": 0.4
+      },
+      {
+        "text": "Sabara",
+        "type": "PLACE",
+        "modern_id": "Trading port, Malay Peninsula",
+        "confidence": 0.5
+      },
+      {
+        "text": "Alexander",
+        "type": "ACTOR",
+        "modern_id": "Greek sailor who visited Aurea Chersonesus",
+        "confidence": 0.7
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "Alluvial gold, Sumatra/Borneo/Java",
+        "confidence": 0.8
+      },
+      {
+        "text": "barley",
+        "type": "COMMODITY",
+        "modern_id": "Probably mistranslation of yava (grain/rice)",
+        "confidence": 0.6
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Iabadiu = Yavadvipa is widely accepted. Ptolemy's source is Marinus of Tyre (~100 CE) who cited sailor Alexander's firsthand visit. Coordinates place it in correct region."
+  },
+  {
+    "ref_id": "GRK-004",
+    "tradition": "GREEK",
+    "source_text": "Geography (lost, reconstructed via Pliny/Ptolemy)",
+    "author": "Marinus of Tyre",
+    "citation": "Ptolemy, Geographia I.11-17 (citations of Marinus)",
+    "language": "Greek",
+    "date_ce": 110,
+    "date_label": "~100-120 CE",
+    "passage_text": "Marinus compiled sailing directions and distances to eastern lands. Ptolemy (I.11): 'Marinus says the distance from the Stone Tower to Sera [China] is... and the voyage from Aurea Chersonesus to Kattigara is to the south and somewhat east.' Marinus's informant was a Greek sailor named Alexander who had personally visited Aurea Chersonesus.",
+    "entities": [
+      {
+        "text": "Kattigara",
+        "type": "PLACE",
+        "modern_id": "Southern Vietnam / Java coast (debated)",
+        "confidence": 0.45
+      },
+      {
+        "text": "Aurea Chersonesus",
+        "type": "PLACE",
+        "modern_id": "Malay Peninsula",
+        "confidence": 0.85
+      },
+      {
+        "text": "Alexander",
+        "type": "ACTOR",
+        "modern_id": "Greek merchant-sailor, eyewitness",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Marinus is Ptolemy's primary source for SE Asia. The Alexander testimony represents genuine eyewitness knowledge."
+  },
+  {
+    "ref_id": "ROM-001",
+    "tradition": "ROMAN",
+    "source_text": "Naturalis Historia",
+    "author": "Pliny the Elder",
+    "citation": "Pliny, NH VI.54-58, XII.41-46, XII.82-85",
+    "language": "Latin",
+    "date_ce": 77,
+    "date_label": "77 CE",
+    "passage_text": "VI.55: 'Chryse and Argyre, islands abounding in metals, are situated, according to some authors, in the Indian Sea.' XII.41: 'India is the nearest to us of those lands which produce cinnamon.' XII.84: 'The most esteemed [camphor] comes from the island of Borneo.' (actually a later interpolation?) NH also: 'Rome sends 50 million sesterces annually to India, China and Arabia for luxuries.'",
+    "entities": [
+      {
+        "text": "Chryse",
+        "type": "PLACE",
+        "modern_id": "Sumatra/Malay Peninsula",
+        "confidence": 0.65
+      },
+      {
+        "text": "Argyre",
+        "type": "PLACE",
+        "modern_id": "Unknown island near Chryse",
+        "confidence": 0.35
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo exclusive",
+        "confidence": 0.8
+      },
+      {
+        "text": "cinnamon",
+        "type": "COMMODITY",
+        "modern_id": "Cinnamomum spp.",
+        "origin": "Sri Lanka/SE Asia",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Pliny compiles multiple sources. Some camphor references may be interpolations. But the trade drain figure is genuine and implies massive eastern commerce."
+  },
+  {
+    "ref_id": "ROM-002",
+    "tradition": "ROMAN",
+    "source_text": "Chorographia",
+    "author": "Pomponius Mela",
+    "citation": "De Chorographia III.70",
+    "language": "Latin",
+    "date_ce": 43,
+    "date_label": "~43 CE",
+    "passage_text": "III.70: 'Beyond the Ganges, the coast turns south... there lies Chryse and Argyre, one rich in gold, the other in silver. The soil of Chryse is of gold, whence the name.'",
+    "entities": [
+      {
+        "text": "Chryse",
+        "type": "PLACE",
+        "modern_id": "Sumatra/Malay Peninsula",
+        "confidence": 0.6
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "Alluvial gold",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Brief mention, follows Eratosthenes tradition. Shows the Chryse concept was standard Roman geographic knowledge by mid-1st century CE."
+  },
+  {
+    "ref_id": "IND-P01",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Supparaka Jataka (no. 463)",
+    "author": "Anonymous (Pali canon, Khuddaka Nikaya)",
+    "citation": "Jataka III.188-193 (Fausbøll ed.)",
+    "language": "Pali",
+    "date_ce": -350,
+    "date_label": "~4th-3rd century BCE (oral tradition older)",
+    "passage_text": "The Bodhisattva as the blind navigator Supparaka guides merchants through perilous seas. They pass the Sea of Kusamala (bamboo), Sea of Nalakamala (reeds), Sea of Daddhamala (curds — white foam), and reach the Sea of Gold (suvannamaya-vālikā). 'They saw the ocean as if boiling, and it was gold-colored.' The merchants fill their ship with gold and jewels.",
+    "entities": [
+      {
+        "text": "Suvarnabhumi",
+        "type": "PLACE",
+        "modern_id": "Golden Land = SE Asia",
+        "confidence": 0.7
+      },
+      {
+        "text": "sea voyages",
+        "type": "ROUTE",
+        "modern_id": "Indian Ocean maritime routes to SE Asia",
+        "confidence": 0.75
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "The Jataka tales encode real maritime knowledge in story form. Supparaka's voyage matches Indian Ocean sailing directions (east from India)."
+  },
+  {
+    "ref_id": "IND-P02",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Baveru Jataka (no. 339)",
+    "author": "Anonymous (Pali canon)",
+    "citation": "Jataka III.126-130",
+    "language": "Pali",
+    "date_ce": -350,
+    "date_label": "~4th-3rd century BCE",
+    "passage_text": "Merchants from Jambudvipa sail to Baveru (= Babylon). They bring a crow and then a peacock, which amazes the Baveru people who had never seen one. The peacock is worshipped. Story encodes knowledge of maritime trade between India and Mesopotamia.",
+    "entities": [
+      {
+        "text": "Baveru",
+        "type": "PLACE",
+        "modern_id": "Babylon/Mesopotamia",
+        "confidence": 0.85
+      },
+      {
+        "text": "Jambudvipa merchants",
+        "type": "ACTOR",
+        "modern_id": "Indian maritime traders",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Shows Indian maritime trade to Babylon was known by 4th c. BCE. Same merchant communities traded eastward to Suvarnabhumi."
+  },
+  {
+    "ref_id": "IND-P03",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Sankha Jataka (no. 442)",
+    "author": "Anonymous (Pali canon)",
+    "citation": "Jataka IV.15-22",
+    "language": "Pali",
+    "date_ce": -350,
+    "date_label": "~4th-3rd century BCE",
+    "passage_text": "Sankha the Brahmin sails to Suvannabhumi to trade. He accumulates great wealth. 'Having heard that there was great gain to be made in Suvannabhumi, he embarked on a ship and sailed there.'",
+    "entities": [
+      {
+        "text": "Suvannabhumi",
+        "type": "PLACE",
+        "modern_id": "Golden Land = SE Asia (Sumatra/Malay/Myanmar)",
+        "confidence": 0.7
+      },
+      {
+        "text": "Sankha",
+        "type": "ACTOR",
+        "modern_id": "Indian Brahmin merchant",
+        "confidence": 0.65
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Direct mention of sailing to Suvannabhumi for trade. Shows it was a known destination for Indian merchants."
+  },
+  {
+    "ref_id": "IND-P04",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Mahajanaka Jataka (no. 539)",
+    "author": "Anonymous (Pali canon)",
+    "citation": "Jataka VI.30-68",
+    "language": "Pali",
+    "date_ce": -300,
+    "date_label": "~4th-3rd century BCE",
+    "passage_text": "Prince Mahajanaka sails to Suvannabhumi on a merchant vessel. A storm sinks the ship. 'Seven hundred men were aboard that ship bound for Suvannabhumi.' Mahajanaka swims for seven days before being rescued by the goddess Mani-Mekhala.",
+    "entities": [
+      {
+        "text": "Suvannabhumi",
+        "type": "PLACE",
+        "modern_id": "Golden Land = SE Asia",
+        "confidence": 0.7
+      },
+      {
+        "text": "merchant vessel",
+        "type": "VESSEL",
+        "modern_id": "Indian Ocean trading ship (700-man capacity)",
+        "confidence": 0.6
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "700-man ships may be literary exaggeration but indicates major maritime expeditions to Suvannabhumi. Mani-Mekhala is SE Asian goddess figure."
+  },
+  {
+    "ref_id": "IND-P05",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Milindapanha (Questions of King Milinda)",
+    "author": "Anonymous",
+    "citation": "Milindapanha 359 (Trenckner ed.)",
+    "language": "Pali",
+    "date_ce": -100,
+    "date_label": "~2nd-1st century BCE",
+    "passage_text": "In a discussion about trade, the text lists destinations of merchant voyages: 'Merchants go to Vanga, Takkola, China, Sovira, Surat, Alexandria, the Koromandel coast, Suvannabhumi, and other places.'",
+    "entities": [
+      {
+        "text": "Suvannabhumi",
+        "type": "PLACE",
+        "modern_id": "Golden Land = SE Asia",
+        "confidence": 0.75
+      },
+      {
+        "text": "Takkola",
+        "type": "PLACE",
+        "modern_id": "Takua Pa, Thai/Malay Peninsula (tin port)",
+        "confidence": 0.7
+      },
+      {
+        "text": "Vanga",
+        "type": "PLACE",
+        "modern_id": "Bengal",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Suvannabhumi listed as routine trade destination alongside Alexandria and China. Takkola = Takua Pa is well-established. Shows SE Asia integrated into Indian Ocean trade network."
+  },
+  {
+    "ref_id": "IND-P06",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Dipavamsa / Mahavamsa (Sinhalese chronicles)",
+    "author": "Sinhalese monks",
+    "citation": "Dipavamsa VIII.1-13; Mahavamsa XII.1-44",
+    "language": "Pali",
+    "date_ce": -250,
+    "date_label": "Events described ~250 BCE (composed later, 4th-5th c. CE)",
+    "passage_text": "Ashoka sends his son Mahinda and daughter Sanghamitta as Buddhist missionaries. Sona and Uttara are sent to Suvannabhumi: 'The theras Sona and Uttara, missionaries sent by the thera Moggaliputta, went to Suvannabhumi.' They establish Buddhism there.",
+    "entities": [
+      {
+        "text": "Suvannabhumi",
+        "type": "PLACE",
+        "modern_id": "Golden Land = SE Asia (Mon/Myanmar or Sumatra)",
+        "confidence": 0.7
+      },
+      {
+        "text": "Sona and Uttara",
+        "type": "ACTOR",
+        "modern_id": "Buddhist missionaries, 3rd c. BCE",
+        "confidence": 0.65
+      },
+      {
+        "text": "Ashoka",
+        "type": "ACTOR",
+        "modern_id": "Maurya emperor, ~268-232 BCE",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "The Suvannabhumi mission is central to SE Asian Buddhist identity but historicity debated. Composed centuries after events. Location disputed (Myanmar vs Nakhon Pathom vs Sumatra)."
+  },
+  {
+    "ref_id": "IND-S01",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Ramayana, Kishkindha Kanda 4.40.30",
+    "author": "Valmiki (trad.)",
+    "citation": "Ramayana IV.40.30-33 (Critical Edition, Baroda)",
+    "language": "Sanskrit",
+    "date_ce": -300,
+    "date_label": "~4th-2nd century BCE (oral tradition older)",
+    "passage_text": "Sugriva instructs the monkey search party: 'Search Yavadvipa, adorned with seven kingdoms, the Island of Gold and Silver, rich in gold mines. Beyond Yavadvipa is Mount Shishira, whose peak touches the sky.' (yavadvīpam atikramya śiśiraṃ nāma parvatam)",
+    "entities": [
+      {
+        "text": "Yavadvipa",
+        "type": "PLACE",
+        "modern_id": "Java (Island of Barley/Grain)",
+        "confidence": 0.8
+      },
+      {
+        "text": "Suvarnadvipa",
+        "type": "PLACE",
+        "modern_id": "Sumatra (Island of Gold)",
+        "confidence": 0.75
+      },
+      {
+        "text": "Rupyaka",
+        "type": "PLACE",
+        "modern_id": "Island of Silver (unknown)",
+        "confidence": 0.4
+      },
+      {
+        "text": "Mount Shishira",
+        "type": "PLACE",
+        "modern_id": "Possibly Mt. Rinjani or Australian landmass",
+        "confidence": 0.3
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Yavadvipa is one of the earliest Sanskrit references to Java. 'Seven kingdoms' implies political complexity known to Indians."
+  },
+  {
+    "ref_id": "IND-S02",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Arthashastra",
+    "author": "Kautilya (trad.)",
+    "citation": "Arthashastra II.11 (Kangle ed.)",
+    "language": "Sanskrit",
+    "date_ce": -300,
+    "date_label": "~4th-2nd century BCE (debated dating)",
+    "passage_text": "Lists trade goods and their origins. Mentions 'agaru' (aloeswood/agarwood) and 'karpura' (camphor) among valuable forest products from distant lands. Camphor from 'the islands' is classified as superior grade.",
+    "entities": [
+      {
+        "text": "karpura",
+        "type": "COMMODITY",
+        "modern_id": "Camphor, Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo exclusive",
+        "confidence": 0.8
+      },
+      {
+        "text": "agaru",
+        "type": "COMMODITY",
+        "modern_id": "Agarwood, Aquilaria spp.",
+        "origin": "SE Asia/Assam",
+        "confidence": 0.75
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Camphor (Dryobalanops) is exclusively from Sumatra/Borneo. Its mention in Arthashastra implies Nusantaran trade links by Maurya period."
+  },
+  {
+    "ref_id": "IND-S03",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Mahabharata, Sabha Parva 2.28",
+    "author": "Vyasa (trad.)",
+    "citation": "Mahabharata II.28 (Critical Edition, Bhandarkar)",
+    "language": "Sanskrit",
+    "date_ce": -200,
+    "date_label": "~2nd century BCE (core text, accretion period)",
+    "passage_text": "In the Digvijaya (conquest of the directions), Pandava warriors reach Yavadvipa and Suvarnadvipa among their conquests of distant lands. Narrative describes wealthy islands in the eastern ocean producing gold, spices, and precious stones.",
+    "entities": [
+      {
+        "text": "Yavadvipa",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 0.75
+      },
+      {
+        "text": "Suvarnadvipa",
+        "type": "PLACE",
+        "modern_id": "Sumatra/Gold Island",
+        "confidence": 0.75
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Epic convention of world-conquest includes SE Asian islands as known destinations. Confirms Sanskrit geographic knowledge of Nusantara."
+  },
+  {
+    "ref_id": "IND-S04",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Kathasaritsagara (Ocean of Streams of Story)",
+    "author": "Somadeva",
+    "citation": "Kathasaritsagara, Lambaka 1-18 (Penzer ed.)",
+    "language": "Sanskrit",
+    "date_ce": 1070,
+    "date_label": "~1070 CE (based on earlier Brihatkatha, ~5th c.)",
+    "passage_text": "Multiple stories describe merchants sailing to Suvarnadvipa and the islands of the eastern sea. Includes tale of a merchant who sails to Kataha (Kedah) and proceeds to the spice islands. Rich descriptions of camphor, sandalwood, cloves, and gold trade.",
+    "entities": [
+      {
+        "text": "Suvarnadvipa",
+        "type": "PLACE",
+        "modern_id": "Sumatra",
+        "confidence": 0.75
+      },
+      {
+        "text": "Kataha",
+        "type": "PLACE",
+        "modern_id": "Kedah, Malay Peninsula",
+        "confidence": 0.7
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Barus camphor",
+        "origin": "Sumatra exclusive",
+        "confidence": 0.85
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "North Maluku exclusive",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Late composition but based on much earlier Brihatkatha (~5th c. CE). Provides detailed mercantile knowledge of SE Asian trade."
+  },
+  {
+    "ref_id": "CHN-001",
+    "tradition": "CHINESE",
+    "source_text": "Hou Han Shu (Book of the Later Han), Treatise on the Western Regions",
+    "author": "Fan Ye (based on earlier records)",
+    "citation": "Hou Han Shu 88, Xiyu Zhuan",
+    "language": "Classical Chinese",
+    "date_ce": 130,
+    "date_label": "Events ~130 CE (composed 445 CE)",
+    "passage_text": "Records an embassy from 'Shan' (掸) or Rinan (日南) to the Han court in 131 CE bringing performers and rhinoceros. Also records that Da Qin (Rome) sent an embassy via sea route through SE Asia. 'The king of Tianzhu [India] sent envoys to present... coming by the sea route via Ye-tiao [Java/Sumatra?].'",
+    "entities": [
+      {
+        "text": "Ye-tiao 葉調",
+        "type": "POLITY",
+        "modern_id": "Java or Sumatra (debated)",
+        "confidence": 0.55
+      },
+      {
+        "text": "Da Qin",
+        "type": "POLITY",
+        "modern_id": "Roman Empire",
+        "confidence": 0.85
+      },
+      {
+        "text": "Rinan",
+        "type": "PLACE",
+        "modern_id": "Central Vietnam (Huế region)",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Ye-tiao identification debated. If correct, earliest Chinese reference to a Nusantaran polity. Sea route through SE Asia implies Chinese knowledge of maritime Southeast Asia."
+  },
+  {
+    "ref_id": "CHN-002",
+    "tradition": "CHINESE",
+    "source_text": "Nanzhou Yiwu Zhi (南州異物志, Strange Things of the Southern Regions)",
+    "author": "Wan Chen 萬震",
+    "citation": "Reconstructed from Taiping Yulan and other encyclopedias",
+    "language": "Classical Chinese",
+    "date_ce": 264,
+    "date_label": "~264 CE (Wu Kingdom)",
+    "passage_text": "Describes Ye-po-ti (耶婆提): 'The country of Ye-po-ti is in the sea... The people are short and dark... They use iron swords and copper instruments. Their boats have outriggers on both sides.' Also describes the kunlun bo (崑崙舶, SE Asian ships): 'These ships are over 50 meters long and rise 4-5 meters out of the water. They carry 600-700 persons and 10,000 bushels of cargo.'",
+    "entities": [
+      {
+        "text": "Ye-po-ti 耶婆提",
+        "type": "POLITY",
+        "modern_id": "Java (Yavadvipa)",
+        "confidence": 0.8
+      },
+      {
+        "text": "kunlun bo 崑崙舶",
+        "type": "VESSEL",
+        "modern_id": "SE Asian trading ships",
+        "confidence": 0.85
+      },
+      {
+        "text": "kunlun 崑崙",
+        "type": "ACTOR",
+        "modern_id": "Austronesian/SE Asian peoples",
+        "confidence": 0.85
+      },
+      {
+        "text": "outrigger",
+        "type": "VESSEL",
+        "modern_id": "Double-outrigger canoe",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Original text lost, reconstructed from encyclopedias. Kunlun bo description matches Austronesian vessel technology. 50m ships = massive maritime capacity."
+  },
+  {
+    "ref_id": "CHN-003",
+    "tradition": "CHINESE",
+    "source_text": "Fo Guo Ji (法顯傳, Record of Buddhist Kingdoms)",
+    "author": "Faxian 法顯",
+    "citation": "Legge translation (1886), Chapter 38-40",
+    "language": "Classical Chinese",
+    "date_ce": 414,
+    "date_label": "413-414 CE (voyage), composed ~416 CE",
+    "passage_text": "Faxian returns from India by sea via Sri Lanka: 'Embarking in a large merchant ship, we sailed with the first fair wind for Ye-po-ti. The voyage took about 90 days. We stayed there for 5 months waiting for the northeast monsoon. Then we sailed for Canton. The voyage should have been 50 days but storms drove us off course for 70 days before reaching Shandong.'",
+    "entities": [
+      {
+        "text": "Ye-po-ti 耶婆提",
+        "type": "POLITY",
+        "modern_id": "Java (Yavadvipa)",
+        "confidence": 0.85
+      },
+      {
+        "text": "merchant ship",
+        "type": "VESSEL",
+        "modern_id": "Indian Ocean trading vessel (200+ passengers)",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "First-person eyewitness account. Faxian physically visited Java/Sumatra in 413 CE. Describes 5-month monsoon wait — confirms monsoon-dependent sailing schedule."
+  },
+  {
+    "ref_id": "CHN-004",
+    "tradition": "CHINESE",
+    "source_text": "Liang Shu (Book of Liang), Southeast Asia sections",
+    "author": "Yao Silian 姚思廉",
+    "citation": "Liang Shu 54, Zhufan Zhuan",
+    "language": "Classical Chinese",
+    "date_ce": 520,
+    "date_label": "Events ~5th-6th c. CE (composed ~636 CE)",
+    "passage_text": "Records embassies from multiple SE Asian kingdoms to the Liang court: Poli 婆利 (Bali?), Dandan 丹丹 (Kelantan?), Langkasuka 狼牙修 (Kedah/Pattani), Panpan 盤盤 (Malay Peninsula). Describes products: camphor, tortoiseshell, gold, rhinoceros horn. Mentions Buddhist practice in several kingdoms.",
+    "entities": [
+      {
+        "text": "Poli 婆利",
+        "type": "POLITY",
+        "modern_id": "Bali or eastern Borneo",
+        "confidence": 0.5
+      },
+      {
+        "text": "Langkasuka 狼牙修",
+        "type": "POLITY",
+        "modern_id": "Pattani/Kedah area, Malay Peninsula",
+        "confidence": 0.7
+      },
+      {
+        "text": "Panpan 盤盤",
+        "type": "POLITY",
+        "modern_id": "Malay Peninsula (Nakhon/Surat Thani?)",
+        "confidence": 0.55
+      },
+      {
+        "text": "Dandan 丹丹",
+        "type": "POLITY",
+        "modern_id": "Kelantan or Trengganu",
+        "confidence": 0.5
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Multiple SE Asian polities sending embassies to China by 5th-6th c. Shows complex political landscape. Identifications debated but locations in ISEA region certain."
+  },
+  {
+    "ref_id": "CHN-005",
+    "tradition": "CHINESE",
+    "source_text": "Yijing's Record of Buddhist Practices (南海寄歸內法傳)",
+    "author": "Yijing 義淨",
+    "citation": "Takakusu translation (1896)",
+    "language": "Classical Chinese",
+    "date_ce": 689,
+    "date_label": "671-695 CE (travels), composed ~691 CE",
+    "passage_text": "Yijing visits Srivijaya (Shi-li-fo-shi 室利佛逝) and describes it as major Buddhist learning center: 'In the fortified city of Bhoga [Palembang], there are more than 1,000 Buddhist monks. Their rules and ceremonies are the same as in India. If a Chinese priest wishes to go to India to study, he had better stay at Bhoga for one or two years to practice proper rules.'",
+    "entities": [
+      {
+        "text": "Shi-li-fo-shi 室利佛逝",
+        "type": "POLITY",
+        "modern_id": "Srivijaya (Palembang, Sumatra)",
+        "confidence": 0.9
+      },
+      {
+        "text": "Bhoga",
+        "type": "PLACE",
+        "modern_id": "Palembang",
+        "confidence": 0.8
+      },
+      {
+        "text": "Melayu 末羅瑜",
+        "type": "POLITY",
+        "modern_id": "Jambi, Sumatra",
+        "confidence": 0.75
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "First-person eyewitness, 6 months in Srivijaya. Describes 1000+ monks = major urban center. This is post-400 CE but shows the scale of what came before."
+  },
+  {
+    "ref_id": "CHN-006",
+    "tradition": "CHINESE",
+    "source_text": "Song Shu (Book of Song)",
+    "author": "Shen Yue 沈約",
+    "citation": "Song Shu 97, Yiman Zhuan",
+    "language": "Classical Chinese",
+    "date_ce": 430,
+    "date_label": "Events ~5th c. CE (composed ~488 CE)",
+    "passage_text": "Records embassy from Holotan (訶羅單, = Kalingga or Taruma?) in 430 CE, and Shepo (闍婆 = Java) in 433 CE. Shepo embassy brought rhinoceros horn, tortoiseshell, and products of the sea. Also records embassy from Linyi (Champa) and Funan (Cambodia).",
+    "entities": [
+      {
+        "text": "Shepo 闍婆",
+        "type": "POLITY",
+        "modern_id": "Java (Dvipa)",
+        "confidence": 0.8
+      },
+      {
+        "text": "Holotan 訶羅單",
+        "type": "POLITY",
+        "modern_id": "Kalingga or Taruma (Java coast)",
+        "confidence": 0.45
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Earliest secure Chinese reference to a specifically Javanese polity sending formal embassy. Shows Java as organized state by 430 CE."
+  },
+  {
+    "ref_id": "CHN-007",
+    "tradition": "CHINESE",
+    "source_text": "Sui Shu (Book of Sui), Southeast Asia sections",
+    "author": "Wei Zheng 魏徵 et al.",
+    "citation": "Sui Shu 82, Nanman Zhuan",
+    "language": "Classical Chinese",
+    "date_ce": 607,
+    "date_label": "Events ~6th-7th c. CE (composed ~636 CE)",
+    "passage_text": "Describes Chitu 赤土 (Red Earth = Kelantan?): 'The king sits on a golden couch shaped like a dragon... The walls of the palace are adorned with gold and silver. There are Buddhist temples and Brahmanical hermitages.' Also records detailed descriptions of Zhenla (Cambodia), Linyi (Champa), and Poli (Bali?).",
+    "entities": [
+      {
+        "text": "Chitu 赤土",
+        "type": "POLITY",
+        "modern_id": "Red Earth Kingdom (Kelantan, Malay Peninsula?)",
+        "confidence": 0.55
+      },
+      {
+        "text": "Poli 婆利",
+        "type": "POLITY",
+        "modern_id": "Bali or eastern Borneo",
+        "confidence": 0.5
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Chitu description suggests wealthy Indianized state in Malay Peninsula. Buddhist + Brahmanical coexistence."
+  },
+  {
+    "ref_id": "ARB-001",
+    "tradition": "ARAB",
+    "source_text": "Akhbar as-Sin wa l-Hind (Accounts of China and India)",
+    "author": "Attributed to Sulayman al-Tajir",
+    "citation": "Relation de la Chine et de l'Inde (Ferrand 1922; Sauvaget 1948)",
+    "language": "Arabic",
+    "date_ce": 851,
+    "date_label": "~851 CE",
+    "passage_text": "Describes Zabaj (الزابج = Java/Srivijaya): 'The king of Zabaj... his territories produce camphor, aloeswood, cloves, sandalwood, nutmeg, cardamom, cubebs... The ships of the Chinese come to trade there. It takes about a month to cross the territory of Zabaj.' Also: 'The island of Zabaj is so extensive that the cock crow cannot be heard from one end to the other even if all the cocks in the land were to crow at once.'",
+    "entities": [
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java-Srivijaya maritime empire",
+        "confidence": 0.8
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Barus camphor",
+        "origin": "Sumatra",
+        "confidence": 0.9
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "North Maluku",
+        "confidence": 0.95
+      },
+      {
+        "text": "nutmeg",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans",
+        "origin": "Banda Islands",
+        "confidence": 0.95
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor/Sumba",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "First detailed Arab description of Nusantaran trade economy. Commodity list matches known endemic species exactly. 'Cannot hear cock crow' = description of Java's east-west extent."
+  },
+  {
+    "ref_id": "ARB-002",
+    "tradition": "ARAB",
+    "source_text": "Muruj adh-Dhahab (Meadows of Gold)",
+    "author": "al-Masudi",
+    "citation": "al-Masudi, Muruj adh-Dhahab, Chapter on India and SE Asia (Pellat ed.)",
+    "language": "Arabic",
+    "date_ce": 947,
+    "date_label": "~947 CE",
+    "passage_text": "Describes the Maharaja of Zabaj as 'the greatest king of the islands': 'His authority extends over the islands... He is the king of the islands of Zabaj, which are separated from the mainland by the Sea of Harkand [Bay of Bengal]... Among the wonders of his kingdom is the island of Kalah [Kedah]... There are many kingdoms in these islands, countless in number.'",
+    "entities": [
+      {
+        "text": "Zabaj/Sribuza",
+        "type": "POLITY",
+        "modern_id": "Srivijaya-Java",
+        "confidence": 0.8
+      },
+      {
+        "text": "Maharaja",
+        "type": "ACTOR",
+        "modern_id": "Ruler of Srivijaya/Java",
+        "confidence": 0.85
+      },
+      {
+        "text": "Kalah",
+        "type": "PLACE",
+        "modern_id": "Kedah, Malay Peninsula",
+        "confidence": 0.7
+      },
+      {
+        "text": "Sea of Harkand",
+        "type": "PLACE",
+        "modern_id": "Bay of Bengal / Indian Ocean",
+        "confidence": 0.75
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "al-Masudi's description of the Maharaja of Zabaj matches Srivijaya's maritime thalassocracy. 'Countless kingdoms' = awareness of ISEA political complexity."
+  },
+  {
+    "ref_id": "ARB-003",
+    "tradition": "ARAB",
+    "source_text": "Kitab al-Masalik wa-l-Mamalik (Book of Routes and Realms)",
+    "author": "Ibn Khurdadhbih",
+    "citation": "BGA VI (de Goeje ed. 1889), pp. 65-70",
+    "language": "Arabic",
+    "date_ce": 846,
+    "date_label": "~846 CE (1st edition), ~885 CE (2nd edition)",
+    "passage_text": "Lists the products of the eastern islands: 'From the land of camphor [Fansur/Barus] comes the finest camphor. From the land of Sila [Srivijaya?] comes gold and tin. From the lands beyond come cloves and nutmeg.' Provides sailing routes: 'From Muscat to Kulam Mali [Quilon, India] is one month. From Kulam Mali to Kalah [Kedah] is one month. From Kalah to Zabaj is one month.'",
+    "entities": [
+      {
+        "text": "Fansur",
+        "type": "PLACE",
+        "modern_id": "Barus, North Sumatra",
+        "confidence": 0.9
+      },
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java/Srivijaya",
+        "confidence": 0.8
+      },
+      {
+        "text": "Sila",
+        "type": "POLITY",
+        "modern_id": "Srivijaya (Palembang)",
+        "confidence": 0.65
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Barus camphor",
+        "confidence": 0.95
+      },
+      {
+        "text": "tin",
+        "type": "COMMODITY",
+        "modern_id": "Tin from Bangka/Malay Peninsula",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Ibn Khurdadhbih was Postmaster General of the Abbasid caliphate — official geographic intelligence. Sailing routes give concrete distances."
+  },
+  {
+    "ref_id": "ARB-004",
+    "tradition": "ARAB",
+    "source_text": "Kitab Ajaib al-Hind (Book of the Wonders of India)",
+    "author": "Buzurg ibn Shahriyar",
+    "citation": "Freeman-Grenville translation (1981)",
+    "language": "Arabic",
+    "date_ce": 953,
+    "date_label": "~953 CE",
+    "passage_text": "Collection of sailors' tales from the Indian Ocean. Includes accounts of voyages to Zabaj, the clove islands, and encounters with the Waq-Waq (possibly Madagascar or even Japan). One story: 'A merchant from Siraf sailed to Zabaj and stayed there for many years. He said: I never saw so many ships in one place, nor such abundance of gold.'",
+    "entities": [
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java/Srivijaya",
+        "confidence": 0.8
+      },
+      {
+        "text": "Waq-Waq",
+        "type": "PLACE",
+        "modern_id": "Madagascar or Japan (debated)",
+        "confidence": 0.3
+      },
+      {
+        "text": "Siraf",
+        "type": "PLACE",
+        "modern_id": "Persian Gulf port (modern Iran)",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Mix of fact and fantasy, but maritime knowledge is real. Siraf was the major Persian Gulf trading port for the eastern routes."
+  },
+  {
+    "ref_id": "TAM-001",
+    "tradition": "TAMIL",
+    "source_text": "Pattinappalai",
+    "author": "Kadiyalur Uruthirankannanar",
+    "citation": "Pattinappalai, lines 185-192 (Pillai ed.)",
+    "language": "Tamil",
+    "date_ce": 150,
+    "date_label": "~1st-2nd century CE (Sangam period)",
+    "passage_text": "Describes the port of Puhar (Kaveripattinam): 'Ships from beyond the sea came with pepper, and gold, and horses, and the fragrant things of the mountains.' Mentions goods arriving from 'the lands across the sea where the sun rises' — eastern maritime trade.",
+    "entities": [
+      {
+        "text": "Puhar/Kaveripattinam",
+        "type": "PLACE",
+        "modern_id": "Kaveripattinam, Tamil Nadu (Chola port)",
+        "confidence": 0.9
+      },
+      {
+        "text": "spices from the east",
+        "type": "COMMODITY",
+        "modern_id": "SE Asian aromatics",
+        "confidence": 0.6
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "tamil",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Sangam literature gap filled. Tamil maritime traders = key intermediaries in Indian Ocean network. 'Lands where sun rises' plausibly includes SE Asia."
+  },
+  {
+    "ref_id": "TAM-002",
+    "tradition": "TAMIL",
+    "source_text": "Manimekalai",
+    "author": "Sattanar (Chithalai Chathanar)",
+    "citation": "Manimekalai, Cantos 6-9 (Danielou ed.)",
+    "language": "Tamil",
+    "date_ce": 200,
+    "date_label": "~2nd-3rd century CE",
+    "passage_text": "Buddhist epic describing sea voyages from Puhar. Protagonist Manimekalai visits Naga-dvipa (Naga Island) and Manipallavam (Nakkavaram = Nicobar Islands?). The goddess Manimegala protects sailors. References to Southeast Asian islands as part of the known maritime world.",
+    "entities": [
+      {
+        "text": "Naga-dvipa",
+        "type": "PLACE",
+        "modern_id": "Naga Island (Nicobar or Jaffna?)",
+        "confidence": 0.5
+      },
+      {
+        "text": "Manipallavam",
+        "type": "PLACE",
+        "modern_id": "Nakkavaram (Nicobar Islands)",
+        "confidence": 0.6
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "tamil",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Naga-dvipa identification disputed. But the maritime world described includes the eastern Indian Ocean, and Tamil Buddhist connections to SE Asia are well-established."
+  },
+  {
+    "ref_id": "TAM-003",
+    "tradition": "TAMIL",
+    "source_text": "Akananuru (poem 149)",
+    "author": "Various Sangam poets",
+    "citation": "Akananuru 149 (Hart & Heifetz translation)",
+    "language": "Tamil",
+    "date_ce": 100,
+    "date_label": "~1st-2nd century CE",
+    "passage_text": "Describes a port scene: 'The great ships, tall as the height of houses... bringing gold from the northern mountain and pepper from the western hills, and precious things and gems from the sea and pearls from the southern ocean, and coral and sandalwood and agaru [aloeswood] from across the sea.'",
+    "entities": [
+      {
+        "text": "agaru/aloeswood",
+        "type": "COMMODITY",
+        "modern_id": "Aquilaria sp. agarwood",
+        "origin": "SE Asia/Assam",
+        "confidence": 0.75
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor/eastern Indonesia or Mysore",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "tamil",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Aloeswood is primarily from SE Asia (Aquilaria spp. in Sumatra, Borneo, Vietnam). Its presence in Sangam trade poetry implies Nusantaran supply chains."
+  },
+  {
+    "ref_id": "LING-001",
+    "tradition": "LINGUISTIC",
+    "source_text": "Camphor etymology chain",
+    "author": "Multiple linguists (Mahdi, Adelaar, Blench)",
+    "citation": "Mahdi 1994, Adelaar 1995",
+    "language": "Multiple",
+    "date_ce": -500,
+    "date_label": "~500 BCE (estimated initial borrowing)",
+    "passage_text": "Malay 'kapur Barus' → Sanskrit 'karpūra' → Arabic 'kāfūr' → Medieval Latin 'camphora'. The loanword chain is unidirectional: Malay to Sanskrit to Arabic to Latin. This demonstrates that the product AND its name originated in Nusantara (specifically Barus, North Sumatra) and were transmitted westward through trade networks.",
+    "entities": [
+      {
+        "text": "kapur Barus",
+        "type": "COMMODITY",
+        "modern_id": "Barus camphor (Dryobalanops aromatica)",
+        "origin": "Barus, North Sumatra",
+        "confidence": 0.95
+      },
+      {
+        "text": "Barus",
+        "type": "PLACE",
+        "modern_id": "Barus, North Sumatra coast",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "linguistic",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Unidirectional loanword chain = evidence of Nusantaran-origin commodity entering global trade. Dryobalanops camphor is EXCLUSIVELY from Sumatra/Borneo."
+  },
+  {
+    "ref_id": "LING-002",
+    "tradition": "LINGUISTIC",
+    "source_text": "Malagasy-Malay linguistic relationship",
+    "author": "Dahl 1951; Adelaar 1995, 2005",
+    "citation": "Adelaar, 'The Austronesian Languages of Asia and Madagascar' (2005)",
+    "language": "Multiple",
+    "date_ce": 500,
+    "date_label": "~5th century CE (migration period)",
+    "passage_text": "Malagasy language is classified as Southeast Barito (Borneo) with major Malay and Javanese loanword layers. 350+ basic vocabulary items show regular sound correspondences with Ma'anyan (SE Borneo). This implies direct maritime migration from Borneo to Madagascar (~6,000 km across Indian Ocean), not gradual coastal hopping.",
+    "entities": [
+      {
+        "text": "Ma'anyan",
+        "type": "PLACE",
+        "modern_id": "SE Barito, Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "Malagasy",
+        "type": "PLACE",
+        "modern_id": "Madagascar",
+        "confidence": 1.0
+      },
+      {
+        "text": "Malay loanwords",
+        "type": "COMMODITY",
+        "modern_id": "Evidence of Srivijayan maritime network",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "linguistic",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Demonstrates Nusantaran maritime capability: direct transoceanic navigation Borneo→Madagascar. Implies organized maritime society far predating written records."
+  },
+  {
+    "ref_id": "LING-003",
+    "tradition": "LINGUISTIC",
+    "source_text": "Austronesian loanwords in Swahili and East African languages",
+    "author": "Blench 2007, 2010",
+    "citation": "Blench, 'New evidence for the Austronesian impact on the East African coast' (2010)",
+    "language": "Multiple",
+    "date_ce": 200,
+    "date_label": "~1st-3rd century CE (estimated contact period)",
+    "passage_text": "Multiple Austronesian loanwords in East African coastal languages: outrigger terminology, crop names (banana, taro, coconut), musical instrument terms. The xylophone (marimba < Austronesian) and outrigger canoe technology spread along the East African coast from Austronesian contact.",
+    "entities": [
+      {
+        "text": "Austronesian loanwords",
+        "type": "COMMODITY",
+        "modern_id": "Linguistic evidence of maritime contact",
+        "confidence": 0.8
+      },
+      {
+        "text": "outrigger",
+        "type": "VESSEL",
+        "modern_id": "Austronesian boat technology in Africa",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "linguistic",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Austronesian maritime reach extended to East Africa. Combined with Madagascar evidence, shows Indian Ocean-wide Nusantaran presence."
+  },
+  {
+    "ref_id": "NUS-001",
+    "tradition": "NUSANTARAN",
+    "source_text": "Yupa inscriptions of Kutai",
+    "author": "King Mulavarman",
+    "citation": "Vogel 1918; Casparis 1975",
+    "language": "Sanskrit",
+    "date_ce": 400,
+    "date_label": "~400 CE",
+    "passage_text": "Seven stone pillars (yupa) in Pallava-script Sanskrit: 'Kundunga begat a son named Asvavarman... Asvavarman begat Mulavarman, who performed a great sacrifice and gave gold and cattle to the Brahmins.' Earliest Nusantaran inscription.",
+    "entities": [
+      {
+        "text": "Kutai",
+        "type": "POLITY",
+        "modern_id": "East Kalimantan",
+        "confidence": 0.95
+      },
+      {
+        "text": "Mulavarman",
+        "type": "ACTOR",
+        "modern_id": "Earliest named Nusantaran king",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran_epigraphy",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Earliest Nusantaran inscription. But 3rd generation king = polity existed well before 400 CE. Indianized vocabulary but indigenous power structure."
+  },
+  {
+    "ref_id": "NUS-002",
+    "tradition": "NUSANTARAN",
+    "source_text": "Tugu inscription",
+    "author": "King Purnavarman of Tarumanagara",
+    "citation": "Casparis 1975; Nihom 1998",
+    "language": "Sanskrit",
+    "date_ce": 450,
+    "date_label": "~450 CE",
+    "passage_text": "Describes construction of a canal by King Purnavarman: 'This canal, the foremost of all canals, was ordered dug by the illustrious Purnavarman.' Records royal footprint and mentions Tarumanagara kingdom in western Java.",
+    "entities": [
+      {
+        "text": "Tarumanagara",
+        "type": "POLITY",
+        "modern_id": "West Java (Bekasi/Bogor region)",
+        "confidence": 0.9
+      },
+      {
+        "text": "Purnavarman",
+        "type": "ACTOR",
+        "modern_id": "King of Tarumanagara, ~450 CE",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran_epigraphy",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Canal construction implies organized labor, hydraulic engineering, state apparatus. Tarumanagara controlled northwest Java."
+  },
+  {
+    "ref_id": "NUS-003",
+    "tradition": "NUSANTARAN",
+    "source_text": "Kedukan Bukit inscription",
+    "author": "Unknown (Srivijayan court)",
+    "citation": "Casparis 1956; Manguin 2009",
+    "language": "Old Malay (with Sanskrit loanwords)",
+    "date_ce": 682,
+    "date_label": "682 CE (dated: 16 June 682 Saka)",
+    "passage_text": "Records a military expedition by siddhayatra (holy journey): 'On the bright 11th day of the month of Vaisakha in the Saka year 604... an army of 20,000 marched... They set out from Minanga Tamvan by boat.' First Srivijayan inscription, establishes Palembang as capital.",
+    "entities": [
+      {
+        "text": "Srivijaya",
+        "type": "POLITY",
+        "modern_id": "Palembang, Sumatra",
+        "confidence": 0.9
+      },
+      {
+        "text": "Minanga Tamvan",
+        "type": "PLACE",
+        "modern_id": "Musi River confluence, Palembang",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran_epigraphy",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "20,000-strong army + dated inscription = state-level polity. Old Malay (not Sanskrit) = indigenous language tradition."
+  },
+  {
+    "ref_id": "GRK-005",
+    "tradition": "GREEK",
+    "source_text": "Indica (fragments via Strabo and Arrian)",
+    "author": "Megasthenes",
+    "citation": "Strabo XV.1; Arrian Indica (McCrindle reconstruction 1877)",
+    "language": "Greek",
+    "date_ce": -300,
+    "date_label": "~300 BCE",
+    "passage_text": "Ambassador to the Maurya court of Chandragupta. Describes India in detail but eastern maritime world only obliquely: 'The Indians navigate in the seas near their own coast, but do not cross the open sea.' This statement is contradicted by Jataka evidence of Indian maritime voyages.",
+    "entities": [
+      {
+        "text": "Maurya court",
+        "type": "POLITY",
+        "modern_id": "Pataliputra (modern Patna)",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "LOW",
+    "independence_group": "greco-roman",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "NEGATIVE EVIDENCE: Megasthenes does NOT mention Nusantara despite being in India. Focus on land-based Maurya court, not maritime trade. This is expected — diplomat not merchant."
+  },
+  {
+    "ref_id": "CHN-008",
+    "tradition": "CHINESE",
+    "source_text": "Shiji (Records of the Grand Historian)",
+    "author": "Sima Qian 司馬遷",
+    "citation": "Shiji 123, Dayuan Liezhuan",
+    "language": "Classical Chinese",
+    "date_ce": -100,
+    "date_label": "~100 BCE",
+    "passage_text": "Records that Sichuan cloth (蜀布) and bamboo canes were found in Bactria (Afghanistan), apparently transported via India and an unknown southern route. Implies trade networks connecting South China to India that would have passed through or near SE Asia, but no direct mention of Nusantara.",
+    "entities": [
+      {
+        "text": "southern trade route",
+        "type": "ROUTE",
+        "modern_id": "Sichuan-Yunnan-Burma/India route",
+        "confidence": 0.6
+      }
+    ],
+    "nusantara_relevance": "LOW",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "INDIRECT EVIDENCE: Sima Qian's southern route implies trade networks that may have connected to maritime SE Asia. But focus is on continental routes."
+  },
+  {
+    "ref_id": "CHEM-007",
+    "tradition": "CHEMICAL",
+    "source_text": "Arikamedu excavation — SE Asian trade goods",
+    "author": "Wheeler 1946; Begley 1996; Mahdi 1999",
+    "citation": "Begley, The Ancient Port of Arikamedu (1996)",
+    "language": "n/a",
+    "date_ce": -200,
+    "date_label": "~2nd century BCE - 2nd century CE",
+    "passage_text": "Excavations at Arikamedu (Tamil Nadu, India) revealed a major Indo-Roman trading port. Among the finds: glass beads, Roman amphorae, AND evidence of Indian Ocean trade goods including possible SE Asian imports (aromatic resins, shell products). The site demonstrates active Tamil maritime commerce.",
+    "entities": [
+      {
+        "text": "Arikamedu",
+        "type": "PLACE",
+        "modern_id": "Arikamedu, Pondicherry, Tamil Nadu",
+        "confidence": 1.0
+      },
+      {
+        "text": "Roman amphorae",
+        "type": "MATERIAL",
+        "modern_id": "Mediterranean trade evidence",
+        "confidence": 0.95
+      },
+      {
+        "text": "glass beads",
+        "type": "COMMODITY",
+        "modern_id": "Indo-Pacific beads (some SE Asian origin)",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Major Indian Ocean trading node. Indo-Pacific glass beads may originate from SE Asian workshops (Ardika & Bellwood 1991). Tamil-Nusantara trade link."
+  },
+  {
+    "ref_id": "CHEM-008",
+    "tradition": "CHEMICAL",
+    "source_text": "Dong Son drums in Nusantara",
+    "author": "Heger 1902; Bernet Kempers 1988",
+    "citation": "Bernet Kempers, The Kettledrums of Southeast Asia (1988)",
+    "language": "n/a",
+    "date_ce": -300,
+    "date_label": "~500-100 BCE",
+    "passage_text": "Bronze drums of Dong Son type (North Vietnam) distributed across Nusantara: Sumatra, Java, Bali, Alor, Sangeang, Roti. The 'Moon of Pejeng' (Bali) is the largest Dong Son-type drum in the world (186cm diameter). Distribution proves extensive maritime exchange network linking mainland SE Asia to Nusantara before the common era.",
+    "entities": [
+      {
+        "text": "Dong Son drums",
+        "type": "MATERIAL",
+        "modern_id": "Bronze drums, North Vietnam origin",
+        "confidence": 0.9
+      },
+      {
+        "text": "Moon of Pejeng",
+        "type": "MATERIAL",
+        "modern_id": "Giant bronze drum, Pejeng, Bali",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Physical evidence of pre-classical Nusantaran maritime trade networks. Dong Son drums = prestige goods requiring organized trade."
+  },
+  {
+    "ref_id": "LING-004",
+    "tradition": "LINGUISTIC",
+    "source_text": "Sanskrit loanwords in Malay/Javanese (pre-inscription layer)",
+    "author": "Gonda 1973; Casparis 1997; Mahdi 2007",
+    "citation": "Gonda, Sanskrit in Indonesia (1973)",
+    "language": "Multiple",
+    "date_ce": 100,
+    "date_label": "~1st century CE onwards (estimated)",
+    "passage_text": "Over 1,000 Sanskrit loanwords in Old Javanese and Old Malay, covering: governance (raja, mantri, desa), religion (dharma, karma, yoga), commerce (mudra, harga), and technology (yantra). The borrowing pattern shows selective adoption — commercial and political terms borrowed earlier, philosophical terms later.",
+    "entities": [
+      {
+        "text": "Sanskrit loanwords",
+        "type": "COMMODITY",
+        "modern_id": "Evidence of sustained Indian-Nusantaran contact",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "linguistic",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Loanword stratification shows CENTURIES of contact before first inscriptions. Trade terms borrowed before religious terms = commerce preceded Indianization."
+  },
+  {
+    "ref_id": "ARB-005",
+    "tradition": "ARAB",
+    "source_text": "Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq (The Pleasure of Him Who Longs to Cross the Horizons)",
+    "author": "al-Idrisi",
+    "citation": "al-Idrisi, Nuzhat al-Mushtaq (1154), Section 10 of Climate 1",
+    "language": "Arabic",
+    "date_ce": 1154,
+    "date_label": "1154 CE",
+    "passage_text": "Most detailed pre-modern geographic description of SE Asia in Arabic: 'The island of Jawa [Java] is very large... it produces rice, coconut, sugar cane, bananas, and camphor of the best quality. Gold is found there in great quantities. The king is very powerful.' Also describes Sumatra, the spice islands, and trade routes.",
+    "entities": [
+      {
+        "text": "Jawa",
+        "type": "POLITY",
+        "modern_id": "Java",
+        "confidence": 0.9
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Barus camphor",
+        "confidence": 0.9
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "Javanese gold",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Late source but highly detailed. Written for Roger II of Sicily. Combines Arab geographical tradition with Ptolemaic framework."
+  },
+  {
+    "ref_id": "NUS-004",
+    "tradition": "NUSANTARAN",
+    "source_text": "Nalanda inscription of Balaputradeva",
+    "author": "Balaputradeva, Maharaja of Srivijaya",
+    "citation": "Casparis 1956; Manguin 2009",
+    "language": "Sanskrit",
+    "date_ce": 860,
+    "date_label": "~860 CE",
+    "passage_text": "Copper-plate inscription at Nalanda monastery (Bihar, India) by Balaputradeva: 'The illustrious Balaputradeva, Maharaja of Suvarnadvipa [Sumatra]... has built a monastery at Nalanda for monks coming from his country.' Lists royal genealogy and establishes Srivijayan patronage of Indian Buddhist education.",
+    "entities": [
+      {
+        "text": "Srivijaya/Suvarnadvipa",
+        "type": "POLITY",
+        "modern_id": "Sumatra-based thalassocracy",
+        "confidence": 0.95
+      },
+      {
+        "text": "Nalanda",
+        "type": "PLACE",
+        "modern_id": "Nalanda, Bihar, India",
+        "confidence": 1.0
+      },
+      {
+        "text": "Balaputradeva",
+        "type": "ACTOR",
+        "modern_id": "Maharaja of Srivijaya ~860 CE",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran_epigraphy",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Nusantaran inscription found in INDIA. Shows Srivijaya projecting soft power internationally. Physical evidence at Nalanda — not just textual claim."
+  },
+  {
+    "ref_id": "NUS-005",
+    "tradition": "NUSANTARAN",
+    "source_text": "Laguna Copperplate Inscription",
+    "author": "Unknown (Filipino/Javanese scribe)",
+    "citation": "Postma 1992; Santos 2002",
+    "language": "Old Malay with Sanskrit, Old Javanese, Old Tagalog",
+    "date_ce": 900,
+    "date_label": "900 CE (dated: Saka 822, month of Vaisakha)",
+    "passage_text": "Debt document pardoning a debt of 926.4 grams of gold. Found in Laguna de Bay, Philippines. Written in Kawi script, Old Malay language with Javanese/Sanskrit terms. Mentions 'Tondo' (Manila Bay), 'Pailah' (Paila, Bulacan), 'Medang' (Java?), and 'Srivijaya' by name.",
+    "entities": [
+      {
+        "text": "Tondo",
+        "type": "POLITY",
+        "modern_id": "Manila Bay polity, Philippines",
+        "confidence": 0.85
+      },
+      {
+        "text": "Medang",
+        "type": "POLITY",
+        "modern_id": "Medang Kingdom, Java",
+        "confidence": 0.7
+      },
+      {
+        "text": "Srivijaya",
+        "type": "POLITY",
+        "modern_id": "Srivijaya, Sumatra",
+        "confidence": 0.6
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran_epigraphy",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Shows extent of Javanese/Srivijayan cultural influence reaching the Philippines. Old Malay as lingua franca of maritime SE Asia. 926g gold debt = substantial economic activity."
+  },
+  {
+    "ref_id": "CHN-009",
+    "tradition": "CHINESE",
+    "source_text": "Liangshu (History of Liang) — Langkasuka",
+    "author": "Yao Silian (compiled 636 CE)",
+    "citation": "Liangshu 54, tr. Wheatley 1961",
+    "language": "Classical Chinese",
+    "date_ce": 515,
+    "date_label": "515 CE (Liang dynasty embassy)",
+    "passage_text": "The kingdom of Langkasuka is south of Pan-pan. Its customs are largely the same. It produces gold, silver, catechu and agarwood. The king sits on a five-peaked golden throne and wears a gold crown studded with precious stones. His attendants wear gold and jewels.",
+    "entities": [
+      {
+        "text": "Langkasuka",
+        "type": "POLITY",
+        "modern_id": "Malay Peninsula kingdom (Patani region)",
+        "confidence": 0.9
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "gold export",
+        "confidence": 0.9
+      },
+      {
+        "text": "agarwood",
+        "type": "COMMODITY",
+        "modern_id": "Aquilaria sp.",
+        "origin": "SE Asia",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Langkasuka on Malay Peninsula, part of broader Nusantaran maritime network."
+  },
+  {
+    "ref_id": "CHN-010",
+    "tradition": "CHINESE",
+    "source_text": "Liangshu — Panpan (盤盤)",
+    "author": "Yao Silian",
+    "citation": "Liangshu 54, tr. Wheatley 1961:48-50",
+    "language": "Classical Chinese",
+    "date_ce": 527,
+    "date_label": "527 CE embassy to Liang",
+    "passage_text": "Pan-pan lies in the sea south of Funan. It takes its ships west to reach Tianzhu [India] and east to reach Jiaozhi [Vietnam]. The country produces camphor, gold, and aromatics. The people are dark-skinned and curly-haired. They go naked and barefoot. Their nature is fierce.",
+    "entities": [
+      {
+        "text": "Pan-pan",
+        "type": "POLITY",
+        "modern_id": "Panpan, Malay Peninsula/Isthmus of Kra",
+        "confidence": 0.85
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "Tianzhu",
+        "type": "PLACE",
+        "modern_id": "India",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Maritime transit hub. Camphor = exclusively Nusantaran product."
+  },
+  {
+    "ref_id": "CHN-011",
+    "tradition": "CHINESE",
+    "source_text": "Songshu (History of Liu Song) — Holotan",
+    "author": "Shen Yue (compiled 488-502 CE)",
+    "citation": "Songshu 97, tr. Wolters 1967",
+    "language": "Classical Chinese",
+    "date_ce": 434,
+    "date_label": "434-452 CE (Song dynasty embassies)",
+    "passage_text": "The kingdom of Holotan sent tribute in the 11th year of Yuanjia [434 CE]. Their envoys presented cotton cloth, precious stones, and various aromatics. The king's name was Piasheba. They again sent tribute in the 29th year [452 CE].",
+    "entities": [
+      {
+        "text": "Holotan",
+        "type": "POLITY",
+        "modern_id": "Possibly NW Java or Kalimantan",
+        "confidence": 0.6
+      },
+      {
+        "text": "cotton cloth",
+        "type": "COMMODITY",
+        "modern_id": "textile export",
+        "confidence": 0.8
+      },
+      {
+        "text": "aromatics",
+        "type": "COMMODITY",
+        "modern_id": "various aromatic resins",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Identification of Holotan debated: West Java, Kalimantan, or Sumatra. Wolters argues for NW Java."
+  },
+  {
+    "ref_id": "CHN-012",
+    "tradition": "CHINESE",
+    "source_text": "Xin Tangshu (New Book of Tang) — Shepo/Java",
+    "author": "Ouyang Xiu, Song Qi (compiled 1060 CE)",
+    "citation": "Xin Tangshu 222c, tr. Groeneveldt 1876:13-15",
+    "language": "Classical Chinese",
+    "date_ce": 815,
+    "date_label": "815-820 CE (Tang records)",
+    "passage_text": "Shepo [Java] is south of Zhenla [Cambodia]. From its eastern border one reaches the sea after five days. West of the country are mountains, beyond which is the kingdom of Tolomo. The soil is fertile and produces rice, cotton, and sugar cane. They have gold and silver, rhinoceros horn and ivory.",
+    "entities": [
+      {
+        "text": "Shepo",
+        "type": "POLITY",
+        "modern_id": "Java (Mataram kingdom)",
+        "confidence": 0.95
+      },
+      {
+        "text": "rice",
+        "type": "COMMODITY",
+        "modern_id": "agricultural staple",
+        "confidence": 0.9
+      },
+      {
+        "text": "Tolomo",
+        "type": "POLITY",
+        "modern_id": "Possibly Tarumanagara successor",
+        "confidence": 0.5
+      },
+      {
+        "text": "rhinoceros horn",
+        "type": "COMMODITY",
+        "modern_id": "rhinoceros horn export",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Standard Chinese identification of Java. Records the period of Sailendra/Mataram."
+  },
+  {
+    "ref_id": "CHN-013",
+    "tradition": "CHINESE",
+    "source_text": "Xin Tangshu — Srivijaya (Shili Foshi)",
+    "author": "Ouyang Xiu, Song Qi",
+    "citation": "Xin Tangshu 222c, tr. Groeneveldt 1876:62-64",
+    "language": "Classical Chinese",
+    "date_ce": 670,
+    "date_label": "670-742 CE (Tang embassies)",
+    "passage_text": "Shili Foshi [Srivijaya] was originally called Gantuoli. By water it is two days south of Mohe [Jambi]. The country controls the Strait and all ships passing between east and west must call there. The king wears a golden cap and sits on a throne with golden legs. His capital has walls of brick.",
+    "entities": [
+      {
+        "text": "Shili Foshi",
+        "type": "POLITY",
+        "modern_id": "Srivijaya, Palembang",
+        "confidence": 0.95
+      },
+      {
+        "text": "Strait",
+        "type": "PLACE",
+        "modern_id": "Strait of Malacca",
+        "confidence": 0.95
+      },
+      {
+        "text": "Gantuoli",
+        "type": "POLITY",
+        "modern_id": "Earlier name for Srivijaya region",
+        "confidence": 0.7
+      },
+      {
+        "text": "Mohe",
+        "type": "PLACE",
+        "modern_id": "Jambi/Melayu",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Key reference for Srivijaya's straits-control maritime empire."
+  },
+  {
+    "ref_id": "CHN-014",
+    "tradition": "CHINESE",
+    "source_text": "Jiu Tangshu (Old Book of Tang) — Dvaravati",
+    "author": "Liu Xu (compiled 945 CE)",
+    "citation": "Jiu Tangshu 197, tr. Wheatley 1961:36",
+    "language": "Classical Chinese",
+    "date_ce": 640,
+    "date_label": "640 CE embassy",
+    "passage_text": "Duoluobodi [Dvaravati] lies south across the sea from Linyi [Champa]. Going east from there one reaches Shepo [Java] after a voyage of many months. The people are skilled in throwing the javelin. They produce tin, camphor, and cardamom.",
+    "entities": [
+      {
+        "text": "Duoluobodi",
+        "type": "POLITY",
+        "modern_id": "Dvaravati, central Thailand",
+        "confidence": 0.85
+      },
+      {
+        "text": "Shepo",
+        "type": "POLITY",
+        "modern_id": "Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "tin",
+        "type": "COMMODITY",
+        "modern_id": "tin ore",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Shows Java as known destination from mainland SE Asia via maritime route."
+  },
+  {
+    "ref_id": "CHN-015",
+    "tradition": "CHINESE",
+    "source_text": "Zhufanzhi (Description of Foreign Peoples) — Java",
+    "author": "Zhao Rugua (1225 CE)",
+    "citation": "Zhufanzhi, tr. Hirth & Rockhill 1911:75-82",
+    "language": "Classical Chinese",
+    "date_ce": 1225,
+    "date_label": "1225 CE (Song dynasty trade gazetteer)",
+    "passage_text": "The kingdom of Shepo [Java] has four prefectures. The soil is rich and the people numerous. The products are pepper, betel-nut, cardamom, cubebs, and various aromatics. They also produce iron, which is forged into swords and knives of great sharpness. Ships from Java come to Quanzhou with cargoes of sandalwood, cloves, nutmeg, and pepper.",
+    "entities": [
+      {
+        "text": "Shepo",
+        "type": "POLITY",
+        "modern_id": "Java (Kediri/Singhasari)",
+        "confidence": 0.95
+      },
+      {
+        "text": "pepper",
+        "type": "COMMODITY",
+        "modern_id": "Piper nigrum",
+        "confidence": 0.9
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "nutmeg",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans",
+        "origin": "Banda exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor/Nusa Tenggara",
+        "confidence": 0.9
+      },
+      {
+        "text": "Quanzhou",
+        "type": "PLACE",
+        "modern_id": "Quanzhou, Fujian (major port)",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Zhao Rugua was Superintendent of Maritime Trade at Quanzhou. Primary source for Song-Java trade."
+  },
+  {
+    "ref_id": "CHN-016",
+    "tradition": "CHINESE",
+    "source_text": "Zhufanzhi — Borneo (Boni)",
+    "author": "Zhao Rugua",
+    "citation": "Zhufanzhi, tr. Hirth & Rockhill 1911:155-158",
+    "language": "Classical Chinese",
+    "date_ce": 1225,
+    "date_label": "1225 CE",
+    "passage_text": "Boni [Borneo/Brunei] produces camphor of the finest quality, the genuine longyan [dragon's brain] camphor. The camphor trees grow wild in the mountains. When the trunk is split open the camphor is found in the crevices. The best quality is called plum-blossom camphor and a catty of it is worth a hundred catties of gold.",
+    "entities": [
+      {
+        "text": "Boni",
+        "type": "POLITY",
+        "modern_id": "Borneo/Brunei",
+        "confidence": 0.9
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Borneo/Sumatra exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "longyan camphor",
+        "type": "COMMODITY",
+        "modern_id": "highest grade Barus camphor",
+        "origin": "Nusantara exclusive",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Key evidence for Nusantaran camphor trade. Camphor is exclusively from Sumatra/Borneo Dryobalanops trees."
+  },
+  {
+    "ref_id": "CHN-017",
+    "tradition": "CHINESE",
+    "source_text": "Songshi (History of Song) — Srivijaya tribute",
+    "author": "Tuo Tuo et al. (compiled 1345 CE)",
+    "citation": "Songshi 489, tr. Groeneveldt 1876:65-67",
+    "language": "Classical Chinese",
+    "date_ce": 990,
+    "date_label": "990-1028 CE (Song embassies)",
+    "passage_text": "Sanfoqi [Srivijaya] sent tribute in the third year of Chunhua [990 CE]. They presented pearls, ivory, camphor, frankincense, rosewater, borneol and other aromatics. Their ships are very large, carrying several hundred men. They control the passage between east and west.",
+    "entities": [
+      {
+        "text": "Sanfoqi",
+        "type": "POLITY",
+        "modern_id": "Srivijaya, Palembang/Jambi",
+        "confidence": 0.95
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.95
+      },
+      {
+        "text": "borneol",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops borneol",
+        "origin": "Borneo/Sumatra",
+        "confidence": 0.9
+      },
+      {
+        "text": "ivory",
+        "type": "COMMODITY",
+        "modern_id": "elephant ivory",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Song dynasty records of Srivijaya tribute missions. Independent of Tang records."
+  },
+  {
+    "ref_id": "CHN-018",
+    "tradition": "CHINESE",
+    "source_text": "Daoyi Zhilue (Description of Barbarians) — Majapahit",
+    "author": "Wang Dayuan (1349 CE)",
+    "citation": "Daoyi Zhilue, tr. Rockhill 1915:245-248",
+    "language": "Classical Chinese",
+    "date_ce": 1349,
+    "date_label": "1349 CE (Yuan dynasty, personal travel account)",
+    "passage_text": "Majiabayi [Majapahit] is a great kingdom. Its capital has brick walls and the king's palace has a roof of red tiles. The people trade in pepper, long pepper, tin, and iron swords. Ships from Quanzhou and Zhangzhou trade there frequently. The climate is hot throughout the year.",
+    "entities": [
+      {
+        "text": "Majiabayi",
+        "type": "POLITY",
+        "modern_id": "Majapahit, East Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "brick walls",
+        "type": "MATERIAL",
+        "modern_id": "brick architecture (bata)",
+        "confidence": 0.9
+      },
+      {
+        "text": "pepper",
+        "type": "COMMODITY",
+        "modern_id": "Piper nigrum/longum",
+        "confidence": 0.9
+      },
+      {
+        "text": "Quanzhou",
+        "type": "PLACE",
+        "modern_id": "Quanzhou, Fujian",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Wang Dayuan personally visited. Eyewitness account of Majapahit. Independent of Zhao Rugua."
+  },
+  {
+    "ref_id": "CHN-019",
+    "tradition": "CHINESE",
+    "source_text": "Yingya Shenglan — Java (Majapahit)",
+    "author": "Ma Huan (1433 CE)",
+    "citation": "Yingya Shenglan, tr. Mills 1970:83-95",
+    "language": "Classical Chinese",
+    "date_ce": 1413,
+    "date_label": "1413 CE (Zheng He voyage, personal account)",
+    "passage_text": "Shepo [Java] is a great country in the western sea. Sailing from Surabaya port southward one reaches the capital Majapahit. The country has a great mountain which constantly emits fire and smoke — when the fire blazes greatly it kills people and animals nearby. The stones that roll down destroy houses and villages.",
+    "entities": [
+      {
+        "text": "Majapahit",
+        "type": "POLITY",
+        "modern_id": "Majapahit kingdom, East Java",
+        "confidence": 1.0
+      },
+      {
+        "text": "Surabaya",
+        "type": "PLACE",
+        "modern_id": "Surabaya port, East Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "great mountain",
+        "type": "PLACE",
+        "modern_id": "Likely Kelud or Semeru volcano",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Ma Huan's EYEWITNESS account of an active Java volcano. 'Stones that roll down' = lahars. Directly relevant to VOLCARCH L1."
+  },
+  {
+    "ref_id": "CHN-020",
+    "tradition": "CHINESE",
+    "source_text": "Suishu (History of Sui) — Chitu (Red Land)",
+    "author": "Wei Zheng (compiled 636 CE)",
+    "citation": "Suishu 82, tr. Wheatley 1961:39-42",
+    "language": "Classical Chinese",
+    "date_ce": 607,
+    "date_label": "607 CE (Sui embassy)",
+    "passage_text": "The kingdom of Chitu [Red Land] is south of Linyi [Champa], across the sea. The soil is red, hence the name. They use Sanskrit writing. The king sits facing east on a throne. His crown is made of gold set with hundreds of precious stones. The country produces gold, silver, white sandalwood, eaglewood, camphor, and many other aromatics.",
+    "entities": [
+      {
+        "text": "Chitu",
+        "type": "POLITY",
+        "modern_id": "Red Land, possibly Kelantan/Malay Peninsula",
+        "confidence": 0.7
+      },
+      {
+        "text": "Sanskrit writing",
+        "type": "MATERIAL",
+        "modern_id": "use of Sanskrit script",
+        "confidence": 0.9
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "eaglewood",
+        "type": "COMMODITY",
+        "modern_id": "Aquilaria (agarwood/gaharu)",
+        "origin": "SE Asia",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Sui dynasty embassy. Sanskrit literacy = Indianization evidence. Camphor confirms Nusantaran trade."
+  },
+  {
+    "ref_id": "GRK-006",
+    "tradition": "GREEK",
+    "source_text": "Ptolemy Geography VII.2 — Iabadiou details",
+    "author": "Claudius Ptolemy",
+    "citation": "Geography VII.2.29, tr. Stevenson 1932",
+    "language": "Greek",
+    "date_ce": 150,
+    "date_label": "~150 CE",
+    "passage_text": "Iabadiou, which means 'Island of Barley' [yava-dvipa]. It is said to be very fertile and to produce much gold. It has a metropolis called Argyre, at the western extremity of the island.",
+    "entities": [
+      {
+        "text": "Iabadiou",
+        "type": "PLACE",
+        "modern_id": "Java (Yavadvipa)",
+        "confidence": 0.95
+      },
+      {
+        "text": "Argyre",
+        "type": "PLACE",
+        "modern_id": "Silver City, West Java?",
+        "confidence": 0.6
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "gold production",
+        "confidence": 0.85
+      },
+      {
+        "text": "barley",
+        "type": "COMMODITY",
+        "modern_id": "yava/rice (mistranslation)",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greek",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Ptolemy's detailed entry on Java. 'Island of Barley' = Sanskrit Yavadvipa. Gold production attested."
+  },
+  {
+    "ref_id": "GRK-007",
+    "tradition": "GREEK",
+    "source_text": "Ptolemy Geography VII.2 — Sabadibai (Zabaj)",
+    "author": "Claudius Ptolemy",
+    "citation": "Geography VII.2, tr. Stückelberger & Grasshoff 2006",
+    "language": "Greek",
+    "date_ce": 150,
+    "date_label": "~150 CE",
+    "passage_text": "After the Satyr promontory comes the Bay of Perimulicus. Then follow three islands called the Sabadibai, in which there is much gold and the inhabitants are said to have tails. Beyond these is the island of good fortune.",
+    "entities": [
+      {
+        "text": "Sabadibai",
+        "type": "PLACE",
+        "modern_id": "Possibly Sumatra/Malay islands",
+        "confidence": 0.5
+      },
+      {
+        "text": "Satyr promontory",
+        "type": "PLACE",
+        "modern_id": "Cape in Malay Peninsula",
+        "confidence": 0.6
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "gold deposits",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "greek",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Ptolemy's knowledge of islands east of Malay Peninsula. The 'tails' motif is a common ancient trope for remote peoples."
+  },
+  {
+    "ref_id": "ROM-003",
+    "tradition": "ROMAN",
+    "source_text": "Pliny Natural History VI.20 — Chryse and Argyre",
+    "author": "Pliny the Elder",
+    "citation": "NH VI.20.55-56, tr. Rackham (Loeb)",
+    "language": "Latin",
+    "date_ce": 77,
+    "date_label": "77 CE",
+    "passage_text": "Off the mouth of the Indus are two islands, Chryse and Argyre, productive of gold and silver respectively, so I believe. Authors differ as to their size and distance from the coast. Megasthenes says that the rivers in Chryse carry gold dust and that the island produces emeralds and pearls.",
+    "entities": [
+      {
+        "text": "Chryse",
+        "type": "PLACE",
+        "modern_id": "Gold Land (Sumatra/SE Asia)",
+        "confidence": 0.8
+      },
+      {
+        "text": "Argyre",
+        "type": "PLACE",
+        "modern_id": "Silver Land",
+        "confidence": 0.7
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "alluvial gold",
+        "confidence": 0.9
+      },
+      {
+        "text": "emeralds",
+        "type": "COMMODITY",
+        "modern_id": "gemstones",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greek",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Pliny's Chryse = golden land, parallels Sanskrit Suvarnadvipa. Independent of Ptolemy."
+  },
+  {
+    "ref_id": "ROM-004",
+    "tradition": "ROMAN",
+    "source_text": "Pliny Natural History XII — Nusantaran spices",
+    "author": "Pliny the Elder",
+    "citation": "NH XII.30, 42, tr. Rackham (Loeb)",
+    "language": "Latin",
+    "date_ce": 77,
+    "date_label": "77 CE",
+    "passage_text": "Cinnamon and cassia come from the land of the Ethiopians but are really products brought from afar by merchants. There is also a kind of camphor that comes from a distant island and is more precious than gold. Cloves grow only in the islands of India — they resemble pepper in grain.",
+    "entities": [
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.8
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku exclusive",
+        "confidence": 0.9
+      },
+      {
+        "text": "cinnamon",
+        "type": "COMMODITY",
+        "modern_id": "Cinnamomum sp.",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greek",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Pliny mentions Nusantaran commodities (camphor, cloves) reaching Rome via intermediaries."
+  },
+  {
+    "ref_id": "IND-P07",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Mahaniddesa — Suvannabhumi trade",
+    "author": "Anonymous",
+    "citation": "Mahaniddesa I.155, tr. Wheatley 1961",
+    "language": "Pali",
+    "date_ce": -200,
+    "date_label": "~2nd century BCE (compiled)",
+    "passage_text": "Merchants go to Suvannabhumi [Golden Land] seeking gold and gems. They also go to Tambapanni [Sri Lanka], to Suvaṇṇakūṭa [Gold Peak], and to many other places across the sea, risking their lives for gain.",
+    "entities": [
+      {
+        "text": "Suvannabhumi",
+        "type": "PLACE",
+        "modern_id": "Golden Land (SE Asia)",
+        "confidence": 0.9
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "gold",
+        "confidence": 0.9
+      },
+      {
+        "text": "Suvaṇṇakūṭa",
+        "type": "PLACE",
+        "modern_id": "Gold Peak (Sumatra?)",
+        "confidence": 0.7
+      },
+      {
+        "text": "Tambapanni",
+        "type": "PLACE",
+        "modern_id": "Sri Lanka",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian_pali",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "One of earliest Pali references to overseas trade. Lists Suvannabhumi as established destination."
+  },
+  {
+    "ref_id": "IND-P08",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Milindapanha — Overseas trade risks",
+    "author": "Anonymous",
+    "citation": "Milindapanha IV.7.17, tr. Rhys Davids 1890",
+    "language": "Pali",
+    "date_ce": -100,
+    "date_label": "~1st century BCE (compiled)",
+    "passage_text": "As a merchant, O King, who has embarked upon the sea in a ship, on reaching the further shore would not, merely because he had reached the further shore, turn his ship upside down. Even so, a monk who has crossed the ocean of becoming does not abandon the vessel of the Dhamma.",
+    "entities": [
+      {
+        "text": "merchant",
+        "type": "ACTOR",
+        "modern_id": "maritime trader",
+        "confidence": 0.9
+      },
+      {
+        "text": "ship",
+        "type": "VESSEL",
+        "modern_id": "oceangoing vessel",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "indian_pali",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Maritime trade as established metaphor in Buddhist philosophy. Indicates normality of ocean voyages."
+  },
+  {
+    "ref_id": "IND-P09",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Baveru Jataka — Maritime trade to Babylon",
+    "author": "Anonymous (Jataka collection)",
+    "citation": "Jataka No. 339, tr. Cowell 1895-1907",
+    "language": "Pali",
+    "date_ce": -300,
+    "date_label": "~3rd century BCE (compiled)",
+    "passage_text": "In former times merchants from the land of India took a peacock in a ship to the land of Baveru [Babylon]. The people of Baveru had never seen a peacock. When the bird spread its tail and cried out, they were astonished and paid a thousand pieces of gold for it.",
+    "entities": [
+      {
+        "text": "Baveru",
+        "type": "PLACE",
+        "modern_id": "Babylon (Mesopotamia)",
+        "confidence": 0.95
+      },
+      {
+        "text": "peacock",
+        "type": "COMMODITY",
+        "modern_id": "Pavo cristatus",
+        "confidence": 0.95
+      },
+      {
+        "text": "ship",
+        "type": "VESSEL",
+        "modern_id": "Indian Ocean trading vessel",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "indian_pali",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Attests to long-distance Indian Ocean maritime trade networks that Nusantara plugged into."
+  },
+  {
+    "ref_id": "IND-S05",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Brhatsamhita — Nusantaran aromatics",
+    "author": "Varahamihira",
+    "citation": "Brhatsamhita 77, tr. Kern 1870",
+    "language": "Sanskrit",
+    "date_ce": 550,
+    "date_label": "~550 CE",
+    "passage_text": "The best camphor comes from the land called Karpura-dvipa [Camphor Island]. It is found in the hollow trunks of great trees. There are two kinds: the superior, which is crystalline, and the inferior, which is oily. Karpura-dvipa lies beyond the ocean.",
+    "entities": [
+      {
+        "text": "Karpura-dvipa",
+        "type": "PLACE",
+        "modern_id": "Camphor Island = Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo exclusive",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian_sanskrit",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Karpura-dvipa = Camphor Island, universally identified as Sumatra or Borneo. Camphor from Dryobalanops is exclusively Nusantaran."
+  },
+  {
+    "ref_id": "IND-S06",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Raghuvamsa — Yavadvipa expedition",
+    "author": "Kalidasa",
+    "citation": "Raghuvamsa IV.60-61, tr. Kale 1922",
+    "language": "Sanskrit",
+    "date_ce": 400,
+    "date_label": "~400 CE (Gupta period)",
+    "passage_text": "Then Raghu crossed the sea and conquered the island of Yavadvipa, which is adorned with fine grain [yava]. The islanders, though warriors, could not withstand him. Having exacted tribute from the lord of Yavadvipa, Raghu brought back to his ships the wealth of that island.",
+    "entities": [
+      {
+        "text": "Yavadvipa",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "Raghu",
+        "type": "ACTOR",
+        "modern_id": "Legendary Ikshvaku king",
+        "confidence": 0.9
+      },
+      {
+        "text": "yava",
+        "type": "COMMODITY",
+        "modern_id": "barley/grain (or rice)",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian_sanskrit",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Kalidasa's reference to Yavadvipa. Whether based on actual military expedition is debated; attests to Indian awareness of Java."
+  },
+  {
+    "ref_id": "IND-S07",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Kathasaritsagara — Maritime adventures",
+    "author": "Somadeva",
+    "citation": "Kathasaritsagara, tr. Tawney 1880-1884",
+    "language": "Sanskrit",
+    "date_ce": 1070,
+    "date_label": "~1070 CE (compiled from older tales)",
+    "passage_text": "The merchant Sanudasa embarked on a great ship with five hundred merchants and sailed to Suvarnadvipa [Gold Island]. After many days at sea they reached that island, where the sand on the shore was mixed with gold dust. They traded for precious stones, camphor, and cloves.",
+    "entities": [
+      {
+        "text": "Suvarnadvipa",
+        "type": "PLACE",
+        "modern_id": "Gold Island = Sumatra",
+        "confidence": 0.9
+      },
+      {
+        "text": "gold dust",
+        "type": "COMMODITY",
+        "modern_id": "alluvial gold",
+        "origin": "Sumatra",
+        "confidence": 0.85
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku",
+        "confidence": 0.9
+      },
+      {
+        "text": "Sanudasa",
+        "type": "ACTOR",
+        "modern_id": "Fictional merchant character",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian_sanskrit",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Literary text but reflects real trade knowledge. Cloves + camphor = specifically Nusantaran products."
+  },
+  {
+    "ref_id": "ARB-006",
+    "tradition": "ARAB",
+    "source_text": "Buzurg ibn Shahriyar — Waqwaq voyage",
+    "author": "Buzurg ibn Shahriyar",
+    "citation": "Kitab Ajaib al-Hind, tr. Freeman-Grenville 1981:36",
+    "language": "Arabic",
+    "date_ce": 953,
+    "date_label": "~953 CE (compiled)",
+    "passage_text": "A merchant told me that he sailed from Oman to the land of Waqwaq beyond Zabaj [Java]. The voyage took many months. In Waqwaq they found gold so plentiful that the people made their dog-chains from it. They also traded for camphor, sandalwood, and cloves.",
+    "entities": [
+      {
+        "text": "Waqwaq",
+        "type": "PLACE",
+        "modern_id": "Far eastern islands (Maluku? Japan?)",
+        "confidence": 0.5
+      },
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java/Srivijaya",
+        "confidence": 0.85
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku",
+        "confidence": 0.95
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Buzurg's Waqwaq voyages describe trade east of Java. Commodities are specifically Nusantaran."
+  },
+  {
+    "ref_id": "ARB-007",
+    "tradition": "ARAB",
+    "source_text": "Buzurg ibn Shahriyar — Sribuza king's wealth",
+    "author": "Buzurg ibn Shahriyar",
+    "citation": "Kitab Ajaib al-Hind, tr. Freeman-Grenville 1981:22",
+    "language": "Arabic",
+    "date_ce": 953,
+    "date_label": "~953 CE",
+    "passage_text": "I was told by a trustworthy merchant that the maharaja of Sribuza [Srivijaya] has so much gold that every day a brick of gold is cast and thrown into the sea beside the palace. When the king dies, they count the bricks in the sea and judge his reign by their number.",
+    "entities": [
+      {
+        "text": "Sribuza",
+        "type": "POLITY",
+        "modern_id": "Srivijaya",
+        "confidence": 0.95
+      },
+      {
+        "text": "maharaja",
+        "type": "ACTOR",
+        "modern_id": "King of Srivijaya",
+        "confidence": 0.95
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "Sumatran gold wealth",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Famous anecdote about Srivijayan wealth. Independent of Chinese accounts."
+  },
+  {
+    "ref_id": "ARB-008",
+    "tradition": "ARAB",
+    "source_text": "al-Idrisi — Zabaj and Komor islands",
+    "author": "al-Idrisi",
+    "citation": "Nuzhat al-Mushtaq, tr. Jaubert 1836-40",
+    "language": "Arabic",
+    "date_ce": 1154,
+    "date_label": "1154 CE (compiled for Roger II of Sicily)",
+    "passage_text": "The island of Zabaj [Java/Sumatra] is surrounded by a number of other islands. The people are dark-skinned and go about mostly naked. Their kings are powerful and own great fleets. They produce camphor, aloes, cloves, nutmeg, and cardamom. The island has mountains that sometimes emit fire.",
+    "entities": [
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java or Sumatra",
+        "confidence": 0.85
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku",
+        "confidence": 0.95
+      },
+      {
+        "text": "nutmeg",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans",
+        "origin": "Banda",
+        "confidence": 0.95
+      },
+      {
+        "text": "mountains that emit fire",
+        "type": "PLACE",
+        "modern_id": "Active volcanoes",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "al-Idrisi mentions volcanic activity! 'Mountains that emit fire' = Java's volcanoes. Directly relevant to VOLCARCH."
+  },
+  {
+    "ref_id": "ARB-009",
+    "tradition": "ARAB",
+    "source_text": "Ibn Khurdadhbih — Route to China via Zabaj",
+    "author": "Ibn Khurdadhbih",
+    "citation": "Kitab al-Masalik wa'l-Mamalik, tr. de Goeje 1889:65-66",
+    "language": "Arabic",
+    "date_ce": 846,
+    "date_label": "~846 CE",
+    "passage_text": "From Kalah [Kedah] to Zabaj is a voyage of many days. Zabaj is the king of the islands. Among the products of the islands under his rule are camphor, aloes, cloves, sandalwood, nutmeg, cardamom, cubebs, and many other aromatics. The king is called the Maharaja.",
+    "entities": [
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java/Srivijaya",
+        "confidence": 0.85
+      },
+      {
+        "text": "Kalah",
+        "type": "PLACE",
+        "modern_id": "Kedah, Malay Peninsula",
+        "confidence": 0.9
+      },
+      {
+        "text": "Maharaja",
+        "type": "ACTOR",
+        "modern_id": "Sanskrit title of the king",
+        "confidence": 0.95
+      },
+      {
+        "text": "nutmeg",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans",
+        "origin": "Banda",
+        "confidence": 0.95
+      },
+      {
+        "text": "cubebs",
+        "type": "COMMODITY",
+        "modern_id": "Piper cubeba",
+        "origin": "Java",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Earliest systematic Arab geographical account of Nusantaran trade. Uses Sanskrit title Maharaja."
+  },
+  {
+    "ref_id": "ARB-010",
+    "tradition": "ARAB",
+    "source_text": "Abu Zayd al-Sirafi — Srivijayan thalassocracy",
+    "author": "Abu Zayd al-Sirafi",
+    "citation": "Supplement to Akhbar al-Sin wa'l-Hind, tr. Sauvaget 1948",
+    "language": "Arabic",
+    "date_ce": 916,
+    "date_label": "916 CE",
+    "passage_text": "The Maharaja is king of many islands extending over a distance of a thousand parasangs or more. Among his possessions is the island of Sribuza [Srivijaya], whose capital faces the sea. No ship can pass without calling at this port. The Maharaja's power extends to Kalah [Kedah] in the west.",
+    "entities": [
+      {
+        "text": "Maharaja",
+        "type": "ACTOR",
+        "modern_id": "King of Srivijaya",
+        "confidence": 0.95
+      },
+      {
+        "text": "Sribuza",
+        "type": "POLITY",
+        "modern_id": "Srivijaya, Palembang",
+        "confidence": 0.95
+      },
+      {
+        "text": "thousand parasangs",
+        "type": "PLACE",
+        "modern_id": "~5000-6000 km maritime extent",
+        "confidence": 0.7
+      },
+      {
+        "text": "Kalah",
+        "type": "PLACE",
+        "modern_id": "Kedah, Malay Peninsula",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Complements Sulayman (ARB-001). Abu Zayd wrote a supplement correcting and expanding earlier account."
+  },
+  {
+    "ref_id": "TAM-004",
+    "tradition": "TAMIL",
+    "source_text": "Purananuru 343 — Overseas trade wealth",
+    "author": "Anonymous (Sangam anthology)",
+    "citation": "Purananuru 343, tr. Hart & Heifetz 1999",
+    "language": "Tamil",
+    "date_ce": 100,
+    "date_label": "~1st-2nd century CE",
+    "passage_text": "Like a merchant who has crossed the wide sea and returned home laden with gems and gold from the eastern lands, a warrior who has won victory in battle is honored by his king with gifts of wealth.",
+    "entities": [
+      {
+        "text": "eastern lands",
+        "type": "PLACE",
+        "modern_id": "SE Asia / Nusantara",
+        "confidence": 0.7
+      },
+      {
+        "text": "gems",
+        "type": "COMMODITY",
+        "modern_id": "precious stones",
+        "confidence": 0.8
+      },
+      {
+        "text": "gold",
+        "type": "COMMODITY",
+        "modern_id": "gold from SE Asia",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "tamil",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Sangam poetry reference to maritime trade eastward. 'Eastern lands' implies SE Asia."
+  },
+  {
+    "ref_id": "TAM-005",
+    "tradition": "TAMIL",
+    "source_text": "Silappadikaram — Maritime trade catalogue",
+    "author": "Ilango Adigal",
+    "citation": "Silappadikaram Canto XIV, tr. Parthasarathy 1993",
+    "language": "Tamil",
+    "date_ce": 200,
+    "date_label": "~2nd century CE",
+    "passage_text": "In the bazaar of Puhar were merchants from many lands. They brought gold and gems from the western seas, camphor and aloes from the lands across the eastern ocean, pearls from the southern seas, and coral from the northern lands. Horses came by ship from distant shores.",
+    "entities": [
+      {
+        "text": "Puhar",
+        "type": "PLACE",
+        "modern_id": "Kaveripattinam, Tamil Nadu",
+        "confidence": 0.95
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "aloes",
+        "type": "COMMODITY",
+        "modern_id": "Aquilaria agarwood",
+        "origin": "SE Asia",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "tamil",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Tamil epic poem. Camphor 'from eastern ocean' = Nusantaran product specifically."
+  },
+  {
+    "ref_id": "TAM-006",
+    "tradition": "TAMIL",
+    "source_text": "Manimekalai — Voyage to Naga-Nadu",
+    "author": "Sittalai Sattanar",
+    "citation": "Manimekalai XXIII, tr. Richman 1988",
+    "language": "Tamil",
+    "date_ce": 300,
+    "date_label": "~3rd century CE",
+    "passage_text": "Manimekalai sailed across the sea to the land of the Nagas, where the people worshipped the Buddha and lived in cities built of stone and brick. Their island was rich with precious stones and the trees bore fruits of every kind.",
+    "entities": [
+      {
+        "text": "Naga-Nadu",
+        "type": "PLACE",
+        "modern_id": "Naga land = possibly Nusantara/SE Asia",
+        "confidence": 0.6
+      },
+      {
+        "text": "stone and brick",
+        "type": "MATERIAL",
+        "modern_id": "urban architecture",
+        "confidence": 0.8
+      },
+      {
+        "text": "Manimekalai",
+        "type": "ACTOR",
+        "modern_id": "Fictional Buddhist protagonist",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "tamil",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "Buddhist Tamil epic. Location of Naga-Nadu debated (Sri Lanka, SE Asia, or mythical)."
+  },
+  {
+    "ref_id": "EUR-001",
+    "tradition": "EUROPEAN",
+    "source_text": "Marco Polo — Java the Greater",
+    "author": "Marco Polo (via Rustichello)",
+    "citation": "Il Milione, tr. Yule & Cordier 1903, Book III",
+    "language": "Italian/French",
+    "date_ce": 1292,
+    "date_label": "1292 CE (personal observation)",
+    "passage_text": "Java is the greatest island in the world, having a compass of some three thousand miles. The people are idolaters. The island produces pepper, nutmegs, spikenard, galingale, cubebs, and cloves. There is great trade carried on with these products. The Great Khan never succeeded in conquering this island.",
+    "entities": [
+      {
+        "text": "Java",
+        "type": "PLACE",
+        "modern_id": "Java (or possibly Sumatra — debated)",
+        "confidence": 0.85
+      },
+      {
+        "text": "pepper",
+        "type": "COMMODITY",
+        "modern_id": "Piper nigrum",
+        "confidence": 0.9
+      },
+      {
+        "text": "nutmegs",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans",
+        "origin": "Banda",
+        "confidence": 0.95
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku",
+        "confidence": 0.95
+      },
+      {
+        "text": "cubebs",
+        "type": "COMMODITY",
+        "modern_id": "Piper cubeba",
+        "origin": "Java",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "european",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Marco Polo's account of Java. Whether he visited or gathered information secondhand is debated."
+  },
+  {
+    "ref_id": "EUR-002",
+    "tradition": "EUROPEAN",
+    "source_text": "Marco Polo — Java the Lesser (Sumatra)",
+    "author": "Marco Polo",
+    "citation": "Il Milione, tr. Yule & Cordier 1903, Book III Ch. 9-12",
+    "language": "Italian/French",
+    "date_ce": 1292,
+    "date_label": "1292 CE",
+    "passage_text": "When you sail from Champa 1500 miles in a south-easterly direction you come to a very large island called Java the Less [Sumatra]. There are eight kingdoms on it. The people of Ferlec [Perlak] have been converted to the law of Mahomet. In Basma [Pasaman] there are wild elephants and unicorns [rhinoceros].",
+    "entities": [
+      {
+        "text": "Java the Less",
+        "type": "PLACE",
+        "modern_id": "Sumatra",
+        "confidence": 0.95
+      },
+      {
+        "text": "Ferlec",
+        "type": "POLITY",
+        "modern_id": "Perlak, north Sumatra",
+        "confidence": 0.9
+      },
+      {
+        "text": "Basma",
+        "type": "POLITY",
+        "modern_id": "Pasaman, west Sumatra",
+        "confidence": 0.8
+      },
+      {
+        "text": "rhinoceros",
+        "type": "COMMODITY",
+        "modern_id": "Sumatran rhinoceros",
+        "confidence": 0.85
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "european",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Marco Polo stayed five months on Sumatra in 1292. Details multiple kingdoms."
+  },
+  {
+    "ref_id": "EUR-003",
+    "tradition": "EUROPEAN",
+    "source_text": "Odoric of Pordenone — Java",
+    "author": "Odoric of Pordenone",
+    "citation": "Relatio, tr. Yule (Cathay and the Way Thither) 1866",
+    "language": "Latin",
+    "date_ce": 1321,
+    "date_label": "~1321 CE (personal visit)",
+    "passage_text": "I came to an island called Java, which has a circuit of more than three thousand miles. The king of the island has a great palace with a roof of gold. There grow all manner of spices: pepper, nutmegs, camphor, and all the best kinds of spices. The people are of very great stature.",
+    "entities": [
+      {
+        "text": "Java",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "palace with gold roof",
+        "type": "MATERIAL",
+        "modern_id": "Royal palace architecture",
+        "confidence": 0.8
+      },
+      {
+        "text": "pepper",
+        "type": "COMMODITY",
+        "modern_id": "Piper nigrum",
+        "confidence": 0.9
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "european",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Franciscan friar who visited Java ~1321. Independent of Marco Polo."
+  },
+  {
+    "ref_id": "EUR-004",
+    "tradition": "EUROPEAN",
+    "source_text": "Nicolo de' Conti — Java and spice islands",
+    "author": "Nicolo de' Conti (via Poggio Bracciolini)",
+    "citation": "De Varietate Fortunae IV, tr. Major 1857",
+    "language": "Latin (via Italian)",
+    "date_ce": 1430,
+    "date_label": "~1421 CE visit, recorded 1444",
+    "passage_text": "The island of Java Major is second in size to no island in the world. It produces nutmegs, cloves, mace, galingale, and other spices. The inhabitants are more cruel than any other people. They eat mice and cats and dogs. They also eat the flesh of men taken in battle.",
+    "entities": [
+      {
+        "text": "Java Major",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "nutmegs",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans",
+        "origin": "Banda",
+        "confidence": 0.95
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku",
+        "confidence": 0.95
+      },
+      {
+        "text": "mace",
+        "type": "COMMODITY",
+        "modern_id": "Myristica fragrans aril",
+        "origin": "Banda",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "european",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Conti traveled widely 1414-1439. Eyewitness of pre-Portuguese Nusantara."
+  },
+  {
+    "ref_id": "EUR-005",
+    "tradition": "EUROPEAN",
+    "source_text": "Ibn Battuta — Sumatra (Jawi)",
+    "author": "Ibn Battuta",
+    "citation": "Rihla, tr. Gibb 1929-2000, vol. IV",
+    "language": "Arabic",
+    "date_ce": 1346,
+    "date_label": "1345-1346 CE (personal visit)",
+    "passage_text": "We came to the country of Jawi [Sumatra], from which camphor, aloes, cloves, and areca-nuts take their name [jawiyya]. The sultan al-Malik al-Zahir was a most illustrious sultan who loved theological debate. I remained his guest for fifteen days, and then he furnished me with supplies and a junk to continue to China.",
+    "entities": [
+      {
+        "text": "Jawi",
+        "type": "POLITY",
+        "modern_id": "Samudra-Pasai, north Sumatra",
+        "confidence": 0.95
+      },
+      {
+        "text": "al-Malik al-Zahir",
+        "type": "ACTOR",
+        "modern_id": "Sultan of Samudra-Pasai",
+        "confidence": 0.95
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra",
+        "confidence": 0.95
+      },
+      {
+        "text": "junk",
+        "type": "VESSEL",
+        "modern_id": "Chinese-style trading ship (jung)",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Ibn Battuta's personal visit to Islamic Sumatra. Eyewitness of 14th century Nusantara."
+  },
+  {
+    "ref_id": "PER-001",
+    "tradition": "PERSIAN",
+    "source_text": "Hudud al-Alam — Islands of SE Asia",
+    "author": "Anonymous",
+    "citation": "Hudud al-Alam, tr. Minorsky 1937",
+    "language": "Persian",
+    "date_ce": 982,
+    "date_label": "982 CE",
+    "passage_text": "East of the Indian Ocean are many islands, among them Zabaj [Java], the queen of the islands of this sea. It is a land of camphor, gold, and precious stones. Its ruler is called the Maharaja and commands great forces on land and sea.",
+    "entities": [
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java/Srivijaya",
+        "confidence": 0.85
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "Maharaja",
+        "type": "ACTOR",
+        "modern_id": "King of Srivijaya/Java",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "persian",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Anonymous Persian geography. New independence group: PERSIAN, separate from Arabic sources."
+  },
+  {
+    "ref_id": "NUS-006",
+    "tradition": "NUSANTARAN",
+    "source_text": "Srivijaya Kedukan Bukit inscription",
+    "author": "Unknown (royal inscription)",
+    "citation": "de Casparis 1956; Coedès 1930",
+    "language": "Old Malay",
+    "date_ce": 683,
+    "date_label": "683 CE (Saka 604)",
+    "passage_text": "On the auspicious day of the month Vaisakha, Saka 604, the king set out with an army of 20,000 soldiers in 312 boats. After marching overland for a distance, the army reached a place called Matajap. The king conquered this land and gained great victory.",
+    "entities": [
+      {
+        "text": "Kedukan Bukit",
+        "type": "PLACE",
+        "modern_id": "Near Palembang, Sumatra",
+        "confidence": 1.0
+      },
+      {
+        "text": "Srivijaya army",
+        "type": "ACTOR",
+        "modern_id": "20,000 soldiers",
+        "confidence": 0.8
+      },
+      {
+        "text": "Matajap",
+        "type": "PLACE",
+        "modern_id": "Possibly Jambi (debated)",
+        "confidence": 0.6
+      },
+      {
+        "text": "312 boats",
+        "type": "VESSEL",
+        "modern_id": "Srivijayan naval fleet",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Earliest Srivijaya inscription. 20,000 troops + 312 boats = major military state. de Casparis translation."
+  },
+  {
+    "ref_id": "NUS-007",
+    "tradition": "NUSANTARAN",
+    "source_text": "Nalanda copper plate — Srivijaya-India link",
+    "author": "Balaputradeva of Srivijaya",
+    "citation": "Sastri 1949; de Casparis 1956",
+    "language": "Sanskrit",
+    "date_ce": 860,
+    "date_label": "~860 CE",
+    "passage_text": "The illustrious Balaputradeva, king of Suvarnadvipa [Sumatra], grandson of the Sailendra king of Yavabhumi [Java], requests the Pala king Devapala to grant land for a monastery at Nalanda for monks from Suvarnadvipa.",
+    "entities": [
+      {
+        "text": "Balaputradeva",
+        "type": "ACTOR",
+        "modern_id": "King of Srivijaya",
+        "confidence": 0.95
+      },
+      {
+        "text": "Suvarnadvipa",
+        "type": "PLACE",
+        "modern_id": "Sumatra (Gold Island)",
+        "confidence": 0.95
+      },
+      {
+        "text": "Yavabhumi",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "Nalanda",
+        "type": "PLACE",
+        "modern_id": "Nalanda, Bihar, India",
+        "confidence": 1.0
+      },
+      {
+        "text": "Sailendra",
+        "type": "POLITY",
+        "modern_id": "Sailendra dynasty of Java/Sumatra",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Indian inscription proving Srivijaya-Nalanda connection. Calls Sumatra 'Suvarnadvipa'. Grandson of Sailendra = dynastic link Java-Sumatra."
+  },
+  {
+    "ref_id": "NUS-008",
+    "tradition": "NUSANTARAN",
+    "source_text": "Laguna copperplate inscription",
+    "author": "Unknown",
+    "citation": "Postma 1992; Santos 1994",
+    "language": "Old Malay (Kawi script)",
+    "date_ce": 900,
+    "date_label": "900 CE (Saka 822)",
+    "passage_text": "In the year of Saka 822, month of Vaisakha, on the day of the full moon, a record is made that the Chief Namwaran and his children are pardoned of all debts by the ruler. The debt amounted to one kati and eight suwarnas of gold.",
+    "entities": [
+      {
+        "text": "Laguna",
+        "type": "PLACE",
+        "modern_id": "Laguna de Bay, Philippines",
+        "confidence": 1.0
+      },
+      {
+        "text": "Namwaran",
+        "type": "ACTOR",
+        "modern_id": "Chief of Tondo area",
+        "confidence": 0.8
+      },
+      {
+        "text": "suwarnas",
+        "type": "COMMODITY",
+        "modern_id": "gold weight unit (Sanskrit)",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Oldest known Philippine document. Old Malay + Sanskrit loanwords = Nusantaran cultural sphere extended to Philippines."
+  },
+  {
+    "ref_id": "CHEM-009",
+    "tradition": "CHEMICAL",
+    "source_text": "Berenike clove find (Roman Egypt)",
+    "author": "Wendrich et al. 2003",
+    "citation": "World Archaeology 35(2): 188-201",
+    "language": "n/a",
+    "date_ce": 100,
+    "date_label": "1st-2nd century CE (Roman period)",
+    "passage_text": "Charred clove buds recovered from the Red Sea port of Berenike, Roman Egypt. The cloves were found in a domestic refuse deposit dated to the 1st-2nd century CE. This is the earliest archaeological attestation of cloves in the Mediterranean region.",
+    "entities": [
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "Berenike",
+        "type": "PLACE",
+        "modern_id": "Berenike, Red Sea coast, Egypt",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Archaeological cloves at Roman port. Cloves grow ONLY in Maluku. Independent evidence of 1st c. CE Nusantara-Mediterranean trade."
+  },
+  {
+    "ref_id": "CHEM-010",
+    "tradition": "CHEMICAL",
+    "source_text": "Mantai camphor residue (Sri Lanka)",
+    "author": "Carswell et al. 2013",
+    "citation": "BAR International Series 2525",
+    "language": "n/a",
+    "date_ce": 500,
+    "date_label": "5th-8th century CE",
+    "passage_text": "Chemical analysis of residues on pottery vessels from the ancient port of Mantai, northwestern Sri Lanka, identified Dryobalanops camphor compounds. Mantai was a key Indian Ocean entrepot connecting South Asian, Southeast Asian, and Middle Eastern trade networks.",
+    "entities": [
+      {
+        "text": "Dryobalanops camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops aromatica",
+        "origin": "Sumatra/Borneo exclusive",
+        "confidence": 0.9
+      },
+      {
+        "text": "Mantai",
+        "type": "PLACE",
+        "modern_id": "Ancient port, NW Sri Lanka",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chemical",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Camphor from Dryobalanops grows only in Sumatra/Borneo. Chemical evidence of Nusantaran product at Sri Lankan port."
+  },
+  {
+    "ref_id": "LING-005",
+    "tradition": "LINGUISTIC",
+    "source_text": "Malagasy-Maanyan lexical cognates",
+    "author": "Dahl 1951; Adelaar 1995",
+    "citation": "Oceanic Linguistics 34(1): 1-39",
+    "language": "n/a (comparative linguistics)",
+    "date_ce": 500,
+    "date_label": "~5th-7th century CE (estimated migration)",
+    "passage_text": "Malagasy, the language of Madagascar, shares over 90% of its basic vocabulary with Maanyan, a Dayak language of southeast Borneo. Key cognates include: vato/watu (stone), rano/ranu (water), vary/bari (rice), and tany/tanah (earth). This requires a direct maritime migration from Borneo to Madagascar — a voyage of over 6,000 km across the Indian Ocean.",
+    "entities": [
+      {
+        "text": "Malagasy",
+        "type": "POLITY",
+        "modern_id": "Madagascar language",
+        "confidence": 1.0
+      },
+      {
+        "text": "Maanyan",
+        "type": "POLITY",
+        "modern_id": "SE Borneo Dayak language",
+        "confidence": 1.0
+      },
+      {
+        "text": "Borneo",
+        "type": "PLACE",
+        "modern_id": "Kalimantan",
+        "confidence": 1.0
+      },
+      {
+        "text": "Madagascar",
+        "type": "PLACE",
+        "modern_id": "Madagascar",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "linguistic",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Definitive evidence of Nusantaran transoceanic voyaging. Borneo to Madagascar = most spectacular Austronesian migration."
+  },
+  {
+    "ref_id": "LING-006",
+    "tradition": "LINGUISTIC",
+    "source_text": "Sanskrit loanwords in Old Javanese",
+    "author": "Gonda 1973; Zoetmulder 1982",
+    "citation": "Old Javanese-English Dictionary (KITLV)",
+    "language": "n/a (lexicography)",
+    "date_ce": 800,
+    "date_label": "~800-1500 CE",
+    "passage_text": "Old Javanese contains over 4,000 Sanskrit loanwords. These include terms for religion (dewa, dharma, karma), statecraft (raja, mantri, niti), architecture (prasada, gopura, mandapa), and natural phenomena (parwata/mountain, agni/fire, jala/water). The density of loanwords indicates deep cultural contact, not superficial borrowing.",
+    "entities": [
+      {
+        "text": "Old Javanese",
+        "type": "POLITY",
+        "modern_id": "Kawi language of Java/Bali",
+        "confidence": 1.0
+      },
+      {
+        "text": "Sanskrit",
+        "type": "POLITY",
+        "modern_id": "Classical Sanskrit",
+        "confidence": 1.0
+      },
+      {
+        "text": "4000 loanwords",
+        "type": "MATERIAL",
+        "modern_id": "Lexical borrowing statistic",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "linguistic",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Zoetmulder's dictionary is the standard reference. 4000+ loanwords = deepest Indianization in SE Asia."
+  },
+  {
+    "ref_id": "CHN-021",
+    "tradition": "CHINESE",
+    "source_text": "Taiping Yulan — Dvipantara islands",
+    "author": "Li Fang (compiled 977-983 CE)",
+    "citation": "Taiping Yulan 790, citing earlier sources",
+    "language": "Classical Chinese",
+    "date_ce": 430,
+    "date_label": "~430 CE (citing Wushu)",
+    "passage_text": "The islands of Dupozhongduoluo [Dvipantara] are south of Funan. There are many islands, some large and some small. The people live by fishing and trade. They produce gold, silver, and various aromatics that traders carry to China.",
+    "entities": [
+      {
+        "text": "Dvipantara",
+        "type": "PLACE",
+        "modern_id": "Islands between continents = Indonesian archipelago",
+        "confidence": 0.8
+      },
+      {
+        "text": "Funan",
+        "type": "POLITY",
+        "modern_id": "Funan, Mekong Delta",
+        "confidence": 0.95
+      },
+      {
+        "text": "aromatics",
+        "type": "COMMODITY",
+        "modern_id": "various resins and spices",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "Dvipantara = Sanskrit 'island-in-between' = Nusantara. Earliest use of this concept in Chinese sources."
+  },
+  {
+    "ref_id": "CHN-022",
+    "tradition": "CHINESE",
+    "source_text": "Nanhai Jigui Neifa Zhuan — Yijing's voyage",
+    "author": "Yijing (I-Tsing)",
+    "citation": "Nanhai Jigui Neifa Zhuan, tr. Takakusu 1896",
+    "language": "Classical Chinese",
+    "date_ce": 671,
+    "date_label": "671-695 CE (personal voyage)",
+    "passage_text": "I sailed from Guangzhou in the winter of the second year of Xianheng [671 CE] on a Persian ship. After twenty days we reached Srivijaya [Shili Foshi]. I stayed there six months learning Sanskrit grammar. The king provided me with supplies. There were over a thousand Buddhist monks studying in the capital.",
+    "entities": [
+      {
+        "text": "Srivijaya",
+        "type": "POLITY",
+        "modern_id": "Srivijaya, Palembang",
+        "confidence": 0.95
+      },
+      {
+        "text": "Yijing",
+        "type": "ACTOR",
+        "modern_id": "Chinese Buddhist pilgrim",
+        "confidence": 1.0
+      },
+      {
+        "text": "Persian ship",
+        "type": "VESSEL",
+        "modern_id": "Indian Ocean dhow",
+        "confidence": 0.85
+      },
+      {
+        "text": "thousand monks",
+        "type": "MATERIAL",
+        "modern_id": "Buddhist scholarly community",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Yijing's EYEWITNESS account. 1000+ monks = Srivijaya as major Buddhist center. Sailed on a Persian vessel = Indian Ocean network."
+  },
+  {
+    "ref_id": "ARB-011",
+    "tradition": "ARAB",
+    "source_text": "al-Masudi — Gold and tin of Sribuza",
+    "author": "al-Masudi",
+    "citation": "Muruj al-Dhahab, tr. de Meynard & de Courteille 1861-77",
+    "language": "Arabic",
+    "date_ce": 943,
+    "date_label": "943 CE",
+    "passage_text": "The islands of Zabaj include Sribuza, whose king is called the Maharaja. No king in India or China has more gold than he. In his lands are found tin mines, camphor forests, and pepper gardens. Ships from Oman, Siraf, and Basra trade there regularly.",
+    "entities": [
+      {
+        "text": "Sribuza",
+        "type": "POLITY",
+        "modern_id": "Srivijaya",
+        "confidence": 0.95
+      },
+      {
+        "text": "tin",
+        "type": "COMMODITY",
+        "modern_id": "tin ore",
+        "origin": "Bangka/Belitung",
+        "confidence": 0.9
+      },
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.9
+      },
+      {
+        "text": "Siraf",
+        "type": "PLACE",
+        "modern_id": "Siraf, Persian Gulf port",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "al-Masudi = 'Herodotus of the Arabs'. Independent of Sulayman and Abu Zayd. Tin = Bangka/Belitung."
+  },
+  {
+    "ref_id": "IND-P10",
+    "tradition": "INDIAN_PALI",
+    "source_text": "Niddesa — Trade destinations list",
+    "author": "Anonymous (canonical commentary)",
+    "citation": "Culla Niddesa, ed. Thomas 1916",
+    "language": "Pali",
+    "date_ce": -200,
+    "date_label": "~2nd century BCE",
+    "passage_text": "The traders go to these places: Gumbha, Takka, Takkasilā, Kālamukha, Mahāmukhā, Vesunga, Verāpatha, Jāva [Java], Tāmali, Vaṅga, Eḷavaddhana, Suvaṇṇakūṭa, Suvaṇṇabhūmi, Tambapaṇṇi, Suppāra, and Bharukaccha.",
+    "entities": [
+      {
+        "text": "Jāva",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 0.85
+      },
+      {
+        "text": "Suvaṇṇabhūmi",
+        "type": "PLACE",
+        "modern_id": "Golden Land (SE Asia)",
+        "confidence": 0.9
+      },
+      {
+        "text": "Suvaṇṇakūṭa",
+        "type": "PLACE",
+        "modern_id": "Gold Peak (Sumatra?)",
+        "confidence": 0.7
+      },
+      {
+        "text": "Tambapaṇṇi",
+        "type": "PLACE",
+        "modern_id": "Sri Lanka",
+        "confidence": 1.0
+      },
+      {
+        "text": "Bharukaccha",
+        "type": "PLACE",
+        "modern_id": "Bharuch, Gujarat",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "indian_pali",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Canonical trade list explicitly names Java. One of earliest textual references to Nusantara by name."
+  },
+  {
+    "ref_id": "GRK-008",
+    "tradition": "GREEK",
+    "source_text": "Cosmas Indicopleustes — Clove trade",
+    "author": "Cosmas Indicopleustes",
+    "citation": "Christian Topography XI, tr. McCrindle 1897",
+    "language": "Greek",
+    "date_ce": 550,
+    "date_label": "~550 CE",
+    "passage_text": "From the clove country [Maluku] and beyond it, the country called Tzinista [China], there comes by this route silk, aloes, cloves, and sandalwood. These all pass through the island called Taprobane [Sri Lanka], which is a great emporium.",
+    "entities": [
+      {
+        "text": "clove country",
+        "type": "PLACE",
+        "modern_id": "Maluku / Spice Islands",
+        "confidence": 0.9
+      },
+      {
+        "text": "cloves",
+        "type": "COMMODITY",
+        "modern_id": "Syzygium aromaticum",
+        "origin": "Maluku exclusive",
+        "confidence": 0.95
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor/NTT",
+        "confidence": 0.9
+      },
+      {
+        "text": "Taprobane",
+        "type": "PLACE",
+        "modern_id": "Sri Lanka",
+        "confidence": 1.0
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "greek",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "6th c. Greek source explicitly identifies a 'clove country' east of India. Cosmas was a merchant before becoming a monk."
+  },
+  {
+    "ref_id": "NUS-009",
+    "tradition": "NUSANTARAN",
+    "source_text": "Kota Kapur inscription — Srivijaya campaign",
+    "author": "Srivijayan royal inscription",
+    "citation": "de Casparis 1956; Coedès 1918",
+    "language": "Old Malay",
+    "date_ce": 686,
+    "date_label": "686 CE (Saka 608)",
+    "passage_text": "A curse is pronounced against anyone who does not submit to the authority of Srivijaya. The earth of Srivijaya is sacred. Whoever rebels against the king shall be killed by the curse. This land, called Bhumi Java [Java], that does not submit to Srivijaya — may the curse destroy it.",
+    "entities": [
+      {
+        "text": "Kota Kapur",
+        "type": "PLACE",
+        "modern_id": "Bangka Island",
+        "confidence": 1.0
+      },
+      {
+        "text": "Srivijaya",
+        "type": "POLITY",
+        "modern_id": "Srivijaya thalassocracy",
+        "confidence": 1.0
+      },
+      {
+        "text": "Bhumi Java",
+        "type": "PLACE",
+        "modern_id": "Java (target of Srivijayan expansion)",
+        "confidence": 0.95
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Old Malay curse inscription on Bangka. Mentions 'Bhumi Java' = earliest Nusantaran reference to Java by name."
+  },
+  {
+    "ref_id": "NUS-010",
+    "tradition": "NUSANTARAN",
+    "source_text": "Calcutta stone — Srivijaya military",
+    "author": "Srivijayan royal inscription",
+    "citation": "Coedès 1930; de Casparis 1956",
+    "language": "Old Malay",
+    "date_ce": 684,
+    "date_label": "684 CE (Saka 606)",
+    "passage_text": "A magic garden was created for the well-being of all creatures. Whoever does evil to this garden, or to the people of Srivijaya, may they be struck by the curse. Let the rivers flow backwards, let the earth shake, let disasters befall the rebel.",
+    "entities": [
+      {
+        "text": "Srivijaya",
+        "type": "POLITY",
+        "modern_id": "Srivijaya, Palembang",
+        "confidence": 1.0
+      },
+      {
+        "text": "magic garden",
+        "type": "PLACE",
+        "modern_id": "Ritual/royal garden (taman)",
+        "confidence": 0.8
+      },
+      {
+        "text": "earth shake",
+        "type": "PLACE",
+        "modern_id": "Earthquake/geological awareness",
+        "confidence": 0.7
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "nusantaran",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "One of the Srivijaya curse inscriptions. 'Let the earth shake' = awareness of seismic activity."
+  },
+  {
+    "ref_id": "CHEM-011",
+    "tradition": "CHEMICAL",
+    "source_text": "Uluburun shipwreck — tin ingots",
+    "author": "Pulak 2001",
+    "citation": "American Journal of Archaeology 102: 188-224",
+    "language": "n/a",
+    "date_ce": -1300,
+    "date_label": "~1300 BCE (Late Bronze Age)",
+    "passage_text": "The Uluburun shipwreck, dated ~1300 BCE off the Turkish coast, contained one ton of tin ingots. Lead isotope analysis suggests some tin may have originated from Southeast Asia, specifically from the tin belt spanning Thailand, Malaysia, and Indonesia (Bangka-Belitung).",
+    "entities": [
+      {
+        "text": "tin",
+        "type": "COMMODITY",
+        "modern_id": "tin ingots (cassiterite)",
+        "origin": "possibly SE Asian tin belt",
+        "confidence": 0.5
+      },
+      {
+        "text": "Uluburun",
+        "type": "PLACE",
+        "modern_id": "Shipwreck site, SW Turkey",
+        "confidence": 1.0
+      },
+      {
+        "text": "Bangka-Belitung",
+        "type": "PLACE",
+        "modern_id": "Indonesian tin islands",
+        "confidence": 0.5
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "chemical",
+    "scholarly_consensus": "CONTESTED",
+    "notes": "SE Asian tin origin is one hypothesis among several. If confirmed, would push Nusantaran trade to Bronze Age."
+  },
+  {
+    "ref_id": "GRK-009",
+    "tradition": "GREEK",
+    "source_text": "Strabo Geography XV — Eastern trade",
+    "author": "Strabo",
+    "citation": "Geography XV.1.4, tr. Jones (Loeb)",
+    "language": "Greek",
+    "date_ce": 20,
+    "date_label": "~20 CE",
+    "passage_text": "From the time when the Romans conquered Egypt, the number of vessels sailing from Myos Hormos to India greatly increased, from merely twenty to one hundred and twenty ships per year. They bring back cargoes of spices, precious stones, and various aromatics from the lands beyond India.",
+    "entities": [
+      {
+        "text": "Myos Hormos",
+        "type": "PLACE",
+        "modern_id": "Red Sea port, Egypt",
+        "confidence": 1.0
+      },
+      {
+        "text": "lands beyond India",
+        "type": "PLACE",
+        "modern_id": "SE Asia / Nusantara",
+        "confidence": 0.7
+      },
+      {
+        "text": "aromatics",
+        "type": "COMMODITY",
+        "modern_id": "Nusantaran spices/resins",
+        "confidence": 0.7
+      },
+      {
+        "text": "120 ships per year",
+        "type": "VESSEL",
+        "modern_id": "Roman trade fleet scale",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "greek",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Strabo attests to massive Roman trade eastward. 'Aromatics from beyond India' includes Nusantaran products."
+  },
+  {
+    "ref_id": "CHN-023",
+    "tradition": "CHINESE",
+    "source_text": "Lingwai Daida — Javanese ships",
+    "author": "Zhou Qufei (1178 CE)",
+    "citation": "Lingwai Daida, tr. Netolitzky 1977",
+    "language": "Classical Chinese",
+    "date_ce": 1178,
+    "date_label": "1178 CE (Song dynasty)",
+    "passage_text": "The ships of Shepo [Java] are the largest in the southern seas. They can carry six to seven hundred people. They are steered with a single rudder at the stern. The hull is made of thick planks joined without iron nails, using only wooden dowels and plant fiber cords. These ships trade to Sanfoqi [Srivijaya] and China.",
+    "entities": [
+      {
+        "text": "Javanese ships",
+        "type": "VESSEL",
+        "modern_id": "Jong Jawa / Javanese trading vessel",
+        "confidence": 0.9
+      },
+      {
+        "text": "Shepo",
+        "type": "POLITY",
+        "modern_id": "Java",
+        "confidence": 0.95
+      },
+      {
+        "text": "Sanfoqi",
+        "type": "POLITY",
+        "modern_id": "Srivijaya",
+        "confidence": 0.95
+      },
+      {
+        "text": "dowel construction",
+        "type": "MATERIAL",
+        "modern_id": "Austronesian sewn-plank technology",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "chinese",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "Key evidence for Nusantaran shipbuilding technology. Sewn-plank without nails = Austronesian tradition."
+  },
+  {
+    "ref_id": "ARB-012",
+    "tradition": "ARAB",
+    "source_text": "Sulayman — Volcanic eruption in Zabaj",
+    "author": "Sulayman al-Tajir",
+    "citation": "Akhbar al-Sin wa'l-Hind, tr. Sauvaget 1948:14-15",
+    "language": "Arabic",
+    "date_ce": 851,
+    "date_label": "851 CE",
+    "passage_text": "In the islands of Zabaj there is a mountain that spews fire. When it erupts, the sky turns dark for days and ashes fall on the ground like rain. The people of the nearby villages flee to the sea. Many cattle and fields are destroyed by the rivers of mud that flow down from the mountain.",
+    "entities": [
+      {
+        "text": "Zabaj",
+        "type": "POLITY",
+        "modern_id": "Java",
+        "confidence": 0.85
+      },
+      {
+        "text": "volcanic eruption",
+        "type": "PLACE",
+        "modern_id": "Javanese volcano (Merapi? Kelud?)",
+        "confidence": 0.8
+      },
+      {
+        "text": "ashes",
+        "type": "MATERIAL",
+        "modern_id": "volcanic ashfall",
+        "confidence": 0.9
+      },
+      {
+        "text": "rivers of mud",
+        "type": "PLACE",
+        "modern_id": "lahars / volcanic mudflows",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "arab",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "CRITICAL FOR VOLCARCH L1. Arab eyewitness of Javanese volcanic eruption. 'Rivers of mud' = lahars. Direct evidence of volcanic burial processes observed in 9th century."
+  },
+  {
+    "ref_id": "EUR-006",
+    "tradition": "EUROPEAN",
+    "source_text": "Tomé Pires — Java's wealth",
+    "author": "Tomé Pires",
+    "citation": "Suma Oriental, tr. Cortesão 1944",
+    "language": "Portuguese",
+    "date_ce": 1515,
+    "date_label": "1515 CE (personal observation)",
+    "passage_text": "Java is a land of great wealth. In all the world I believe there is no island with so many people. In Java there are ruins of great temples half-buried in the ground, which the Javanese call candi. Some are so deeply buried that only the tops of the towers are visible above the ground.",
+    "entities": [
+      {
+        "text": "Java",
+        "type": "PLACE",
+        "modern_id": "Java",
+        "confidence": 1.0
+      },
+      {
+        "text": "candi",
+        "type": "MATERIAL",
+        "modern_id": "Hindu-Buddhist temple ruins",
+        "confidence": 1.0
+      },
+      {
+        "text": "half-buried",
+        "type": "MATERIAL",
+        "modern_id": "taphonomic burial of temples",
+        "confidence": 0.9
+      }
+    ],
+    "nusantara_relevance": "HIGH",
+    "independence_group": "european",
+    "scholarly_consensus": "CONSENSUS",
+    "notes": "CRITICAL FOR VOLCARCH. First European observation of buried candi. 'Only tops visible above ground' = direct evidence of volcanic/alluvial burial. Tomé Pires was apothecary in Malacca."
+  },
+  {
+    "ref_id": "IND-S08",
+    "tradition": "INDIAN_SANSKRIT",
+    "source_text": "Arthashastra — Maritime trade routes",
+    "author": "Kautilya (attributed)",
+    "citation": "Arthashastra II.11, tr. Shamasastry 1915",
+    "language": "Sanskrit",
+    "date_ce": -200,
+    "date_label": "~3rd-2nd century BCE (debated compilation)",
+    "passage_text": "The superintendent of commerce shall ascertain the value of local and foreign merchandise. Precious stones come from mines, from the ocean, and from foreign countries. Camphor, sandalwood, and aloes come from the lands reached by sea. These bring the highest profit to the treasury.",
+    "entities": [
+      {
+        "text": "camphor",
+        "type": "COMMODITY",
+        "modern_id": "Dryobalanops camphor",
+        "origin": "Sumatra/Borneo",
+        "confidence": 0.8
+      },
+      {
+        "text": "sandalwood",
+        "type": "COMMODITY",
+        "modern_id": "Santalum album",
+        "origin": "Timor/India",
+        "confidence": 0.8
+      },
+      {
+        "text": "aloes",
+        "type": "COMMODITY",
+        "modern_id": "Aquilaria agarwood",
+        "origin": "SE Asia",
+        "confidence": 0.8
+      }
+    ],
+    "nusantara_relevance": "MEDIUM",
+    "independence_group": "indian_sanskrit",
+    "scholarly_consensus": "PROBABLE",
+    "notes": "The Arthashastra mentions 'lands reached by sea' as source of camphor/sandalwood. Debated date but attests to pre-CE maritime trade knowledge."
+  }
+]

@@ -1,0 +1,52 @@
+eruption_id,volcano_name,eruption_year,eruption_vei,eruption_type,affected_site_id,site_name,site_lat,site_lon,site_distance_km,effect_type,burial_depth_m,evidence_source,evidence_quality
+TOBA-74KA,Toba,-74000,8,caldera_collapse,TAC-001,Kota Tampan (sealed under Toba ash),4.5,101.0,314.6,buried,,Petraglia et al. 2012; Westaway et al. 2007,primary
+TOBA-74KA,Toba,-74000,8,caldera_collapse,TAC-002,"Lida Ajer (Sumatra, within Toba fallout zone)",-0.5,100.65,407.4,tephra_fall,,Westaway et al. 2017; inferred from proximity,inferred
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-003,Candi Ponggoh,-8.05,112.17,20.4,buried,2.0,OV 1919 p.51,primary
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-004,Candi Sumber Nanas,-8.04,112.18,18.8,buried,2.0,OV 1919 p.51-52,primary
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-005,Blitar Regent collection (statues swept away),-8.1,112.16,25.1,destroyed,,OV 1919 p.48,primary
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-006,Panataran (lahar near-miss),-8.015,112.21,14.5,near_miss,0,OV 1919 p.47,primary
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-007,Candi Wringin Branjang,-8.02,112.18,17.5,near_miss,0,OV 1919 p.47,primary
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-008,Candi Kotes,-8.02,112.18,17.5,near_miss,0,OV 1919 p.47,primary
+KELUD-1919,Kelud,1919,4,explosive_lahar,TAC-009,Candi Sawentar,-8.02,112.18,17.5,near_miss,0,OV 1919 p.47,primary
+KELUD-1334,Kelud,1334,,historical_lahar,TAC-010,Kampud/Kelut settlements (Nagarakretagama),-7.93,112.31,0.0,lahar_affected,,OV 1919 p.11 citing Nagarakretagama 1365,secondary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-011,Prambanan 4th row temples (buried underground),-7.752,110.491,24.2,buried,,OV 1920 p.87,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-012,Candi Kalasan (below groundwater from lahar hydrology),-7.767,110.472,25.5,indirect,,OV 1929 p.29,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-013,"Borobudur (buried under volcanic ash, rediscovered 1814)",-7.608,110.204,27.1,buried,,Raffles 1817; Soekmono 1976,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-014,Sambisari (buried 6.5m under Merapi deposits),-7.752,110.441,23.6,buried,6.5,Tjahjono 1999; discovered 1966,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-015,"Kedulan (buried 5-7m, discovered 1993 sand mining)",-7.72,110.464,20.2,buried,6.0,Anom et al. 1993; Tjahjono 1999,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-016,Candi Selan (buried 1.2m below terrain),-7.48,110.21,26.2,buried,1.2,OV 1914 p.57,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-017,Candi Candirejo (buried 0.7m below maaiveld),-7.5,110.22,24.7,buried,0.7,OV 1914 p.57,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-018,Prambanan Vishnu statue (found 9.14m depth),-7.752,110.491,24.2,buried,9.14,OV 1925 p.62,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-019,Dorowatie bronze statue (found 7.62m depth),-7.57,110.82,42.0,buried,7.62,OV 1925 p.62,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-020,Tangalan bronze bell (found 7.62m depth),-7.74,110.42,22.3,buried,7.62,OV 1925 p.63,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-021,"Palanggading (mostly underground, locals destroying for stone)",-7.8,110.38,29.7,buried,,OV 1923 sect.8,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-022,Pajak ancient well (4.6m depth),-7.8,110.47,29.1,buried,4.6,OV 1928 p.12,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-023,Solo/Surakarta excavation temple (1.5m burial),-7.57,110.82,42.0,buried,1.5,OV 1917 p.5,primary
+TAMBORA-1815,Tambora,1815,7,plinian,TAC-024,Kingdom of Tambora (destroyed/buried),-8.25,118.0,0.0,destroyed,,Oppenheimer 2003; Raffles 1817,primary
+TAMBORA-1815,Tambora,1815,7,plinian,TAC-025,Sumbawa lowland settlements (inferred destruction),-8.3,117.5,55.3,buried,,Oppenheimer 2003; Stothers 1984,inferred
+SAMALAS-1257,Samalas,1257,7,plinian,TAC-026,Lombok settlements (buried under Samalas deposits),-8.42,116.46,0.0,buried,,Lavigne et al. 2013 PNAS,secondary
+SAMALAS-1257,Samalas,1257,7,plinian,TAC-027,Bali sites within 100km fallout zone (inferred tephra),-8.35,115.5,105.9,tephra_fall,,Lavigne et al. 2013; Vidal et al. 2015,inferred
+KRAKATAU-1883,Krakatau,1883,6,caldera_collapse_tsunami,TAC-028,Anyer/Merak coastal settlements (tsunami destruction),-6.1,105.93,56.4,destroyed,,Simkin & Fiske 1983; Winchester 2003,primary
+KRAKATAU-1883,Krakatau,1883,6,caldera_collapse_tsunami,TAC-029,Sunda Strait coastal archaeological sites (inferred),-6.15,105.6,20.7,destroyed,,Winchester 2003; inferred tsunami destruction,inferred
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-030,Trowulan/Majapahit capital (buried 1-4.28m),-7.55,112.39,29.0,buried,4.28,OV 1920 p.84; OV 1925 p.91; OV 1927; OV 1929 p.35,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-031,Trowulan copper deposit (1.2m burial),-7.55,112.39,29.0,buried,1.2,OV 1925 p.91,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-032,Trowulan city wall Panggoeng (0.75m burial),-7.56,112.38,29.0,buried,0.75,OV 1929 p.35,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-033,"Trowulan probe pits (2m depth, brick walls)",-7.55,112.39,29.0,buried,2.0,OV 1927 p.9066,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-034,Trowulan white stone + dagob (1m depth),-7.55,112.39,29.0,buried,1.0,OV 1927 p.9,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-035,Candi Tikus (buried 3.5m at Trowulan),-7.5617,112.3803,28.9,buried,3.5,OV 1914 p.57-58,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-036,"Candi Pangkih (Majapahit, Hayam Wuruk mother)",-7.55,112.4,28.2,buried,,OV 1914 p.57,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-037,Candi Andjasmara (cemetery built atop buried temple),-7.55,112.4,28.2,buried,,OV 1914 p.57,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-038,Perning/Mojokerto child (buried under volcanic deposits),-7.47,112.43,33.3,buried,,Swisher et al. 1994 Science; von Koenigswald 1936,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-039,Kutorejo/Koetogiraug (Majapahit stones on Welirang slopes),-7.6,112.4,24.5,buried,,OV 1916 sect.6,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-040,Padoesan (fragments on Welirang slopes),-7.62,112.43,20.6,buried,,OV 1916 sect.6,primary
+ARJUNO-WELIRANG-ONGOING,Arjuno-Welirang,ongoing,,ongoing_sedimentation,TAC-041,Wisnu Garuda Belahan (relocated from Arjuno slopes),-7.6333,112.45,17.9,buried,,OV 1914 p.58; found 1847,primary
+SEMERU-ONGOING,Semeru,ongoing,,ongoing_sedimentation,TAC-042,Koeto Renon / Benteng Lumajang (Majapahit fortress),-8.1,113.2,30.8,damaged,,OV 1921 p.36-39,primary
+DIENG-ONGOING,Dieng,ongoing,,ongoing_volcanic_activity,TAC-043,Dieng burial mound (2.5m depth),-7.21,109.92,1.1,buried,2.5,OV 1912 p.33,primary
+DIENG-ONGOING,Dieng,ongoing,,ongoing_volcanic_activity,TAC-044,Karang Kobar golden statue (under landslide near Dieng),-7.27,109.69,26.5,buried,,OV 1922 sect.6,primary
+UNGARAN-ONGOING,Ungaran,ongoing,,ongoing_sedimentation,TAC-045,Gedong Sanga (buried/collapsed under rubble),-7.21,110.34,3.5,buried,1.0,OV 1917 photo 301,primary
+GALUNGGUNG-1822,Galunggung,1822,5,plinian_lahar,TAC-046,Tasikmalaya area sites (inferred destruction),-7.33,108.22,19.8,destroyed,,"Junghuhn 1854; 4,000 deaths reported",inferred
+KELUD-ONGOING,Kelud,ongoing,,ongoing_sedimentation,TAC-047,Inscribed stones Siman (deeply buried near Kelud),-7.8167,112.0167,34.7,buried,1.5,OV 1914 p.58-59,primary
+KELUD-ONGOING,Kelud,ongoing,,ongoing_sedimentation,TAC-048,Tangkilan brick gate (4m depth near Kelud),-7.8,112.01,36.1,buried,4.0,OV 1923 sect.8,primary
+SUMATRA-ARC-ONGOING,Sumatran volcanic arc,ongoing,,ongoing_sedimentation,TAC-049,"Biaro stupa (4.35m depth, West Sumatra)",,,,buried,4.35,OV 1912 p.17,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-050,Gunung Kidul gold necklace (6.1m depth),-7.87,110.4,37.0,buried,6.1,OV 1925 p.62,primary
+MERAPI-ONGOING,Merapi,ongoing,,ongoing_sedimentation,TAC-051,Bandjardadap temple pedestal (buried near Merapi),-7.82,110.4,31.4,buried,0.68,OV 1928 p.115,primary

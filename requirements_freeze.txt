@@ -1,0 +1,77 @@
+# VOLCARCH Dependency Freeze — Reproducibility Snapshot
+# =====================================================
+# Date:     2026-03-16
+# Platform: Windows 11, Anaconda distribution
+# Python:   3.11.7
+# GPU:      NVIDIA RTX 4080 (CUDA 12.4)
+#
+# This lists packages directly used by VOLCARCH experiments.
+# Full environment has 500+ Anaconda packages — run `pip freeze` for complete list.
+# To install: pip install -r requirements_freeze.txt
+
+# --- Core scientific ---
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.14.0
+xgboost==3.0.3
+lightgbm==4.6.0
+
+# --- GIS / spatial ---
+geopandas==1.1.2
+rasterio==1.4.4
+shapely==2.1.2
+pyproj==3.7.2
+folium==0.20.0
+rtree==1.4.1
+
+# --- NLP / linguistics ---
+nltk==3.8.1
+lingpy==2.6.13
+spacy==3.8.11
+gensim==4.3.0
+Sastrawi==1.0.1
+regex==2023.10.3
+
+# --- Transformer / deep learning (E088-E091) ---
+torch==2.6.0+cu124
+transformers==5.0.0
+sentence-transformers==5.2.2
+tokenizers==0.22.2
+safetensors==0.5.3
+accelerate==1.12.0
+datasets==4.4.1
+
+# --- Clustering (E090) ---
+umap-learn==0.5.11
+hdbscan==0.8.41
+bertopic==0.17.4
+pynndescent==0.6.0
+
+# --- Visualization ---
+matplotlib==3.8.0
+seaborn==0.12.2
+plotly==5.9.0
+streamlit==1.54.0
+streamlit-folium==0.26.2
+
+# --- CLDF / linguistic data ---
+pycldf==1.43.0
+clldutils==3.24.3
+csvw==3.7.0
+commonnexus==2.0.0
+newick==1.11.0
+
+# --- Document processing ---
+bibtexparser==2.0.0b9
+python-docx==1.1.2
+PyPDF2==3.0.1
+lxml==4.9.3
+
+# --- Utilities ---
+tqdm==4.67.1
+joblib==1.5.3
+requests==2.32.3
+beautifulsoup4==4.14.2
+openpyxl==3.1.5

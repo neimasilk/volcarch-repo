@@ -9,6 +9,7 @@ This is a **research repository**, not a software project. The "product" is know
 
 **Always read in this order before starting any task:**
 
+0. `docs/WORKSTATE.md` — **Read this FIRST, always.** Current in-progress work, blocked items, and session prompt. This is your work contract — continue unfinished items before starting new work.
 1. `docs/L1_CONSTITUTION.md` — The "UUD". Core hypotheses, philosophy, ethics. Almost never changes. Read this to understand *why* this project exists.
 2. `docs/L2_STRATEGY.md` — Current research phase and active papers. Changes per phase. Read this to understand *what we are working on now*.
 3. `docs/L3_EXECUTION.md` — Active tasks and experiments. Changes frequently. Read this to understand *what to do next*.
@@ -101,5 +102,12 @@ The `inBox/` folder is a **drop zone** for new materials (drafts, data files, re
 - During exploration sessions, new ideas go to IDEA_REGISTRY with appropriate maturity level. Never discard — everything gets an ID.
 - Mata Elang weekly reviews: scan TRIGGER_MAP for newly unblocked ideas, update IDEA_REGISTRY maturity levels.
 
+### Session Continuity Protocol
+- **Session start:** Read `docs/WORKSTATE.md` FIRST. Continue in-progress items before starting anything new. WORKSTATE is a work contract, not background reading.
+- **After context compaction:** If you lose context mid-session, re-read `docs/WORKSTATE.md` to re-anchor on what you were doing.
+- **Session end:** Update `docs/WORKSTATE.md` (MANDATORY). Move completed items out, update next actions, record any new blockers. This is how future sessions know what to continue.
+- **Rule:** Never let work disappear between sessions. If something is in progress, it must be in WORKSTATE.md.
+
 ## Current Status
-→ See `docs/L3_EXECUTION.md` for what to work on now.
+→ See `docs/WORKSTATE.md` for immediate work contract (what to continue NOW).
+→ See `docs/L3_EXECUTION.md` for full task list and context.

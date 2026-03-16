@@ -1,0 +1,402 @@
+[
+  {
+    "ref_id": "CHEM-001",
+    "tradition": "CHEMICAL",
+    "date_ce": -594,
+    "language": "n/a",
+    "text": "Vessel 5 (inscribed 'antiu'): GC-MS identified triterpenoids diagnostic of Dipterocarpaceae (dammar) resin. Vessel 62: Canarium sp. (elemi) resin identified via oleanane/ursane-type triterpenoids. Both taxa are restricted to Southeast Asia and tropical Africa/Asia respectively.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHEM-002",
+    "tradition": "CHEMICAL",
+    "date_ce": -1700,
+    "language": "n/a",
+    "text": "Charred clove buds (Syzygium aromaticum) recovered from a domestic context at Tell Ashara (ancient Terqa), middle Euphrates, Syria. Radiocarbon dating places the context in the early 2nd millennium BCE.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHEM-003",
+    "tradition": "CHEMICAL",
+    "date_ce": -1050,
+    "language": "n/a",
+    "text": "Archaeobotanical evidence for introduction of coconut (Cocos nucifera), banana (Musa spp.), taro (Colocasia esculenta), and sandalwood (Santalum album) to South India and Sri Lanka. Outrigger boat (katamaran < Tamil kattumaram) technology appears simultaneously.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHEM-004",
+    "tradition": "CHEMICAL",
+    "date_ce": -1000,
+    "language": "n/a",
+    "text": "Cinnamomum verum (Sri Lanka) and C. cassia (South China/Vietnam) identified in Egyptian contexts. Papyrus Harris I (Ramesses III, ~1155 BCE) lists 'ti-sps' among temple offerings. Herodotus (Hist. 3.111) describes cinnamon harvested from 'great birds' nests' — classic intermediary obfuscation of source.",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "CHEM-005",
+    "tradition": "CHEMICAL",
+    "date_ce": 50,
+    "language": "n/a",
+    "text": "Excavations at Berenike (Egyptian Red Sea port) yielded black pepper (Piper nigrum, South India), coconut shell fragments, teak (Tectona grandis, SE Asia), and a Tamil-Brahmi potsherd. The teak in particular is significant: Tectona grandis is native to Java, Myanmar, and peninsular India.",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "CHEM-006",
+    "tradition": "CHEMICAL",
+    "date_ce": 930,
+    "language": "n/a",
+    "text": "Intan shipwreck (Java Sea, ~930 CE): SE Asian vessel carrying Chinese ceramics, tin ingots, bronze mirrors, and aromatic resins. Belitung wreck (~830 CE): Arab dhow carrying 60,000+ Chinese ceramics — largest Tang dynasty cargo ever found. Both confirm massive maritime trade through Indonesian waters.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "GRK-001",
+    "tradition": "GREEK",
+    "date_ce": -235,
+    "language": "Greek",
+    "text": "Eratosthenes describes the inhabited world extending from the Pillars of Heracles to the eastern extremity where Chryse (χρυσῆ, 'golden') and Argyre (ἀργυρῆ, 'silver') islands lie. Strabo (15.1.14) preserves: 'Beyond the mouths of the Ganges... the region of Chryse.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "GRK-002",
+    "tradition": "GREEK",
+    "date_ce": 50,
+    "language": "Greek",
+    "text": "§60: 'After Chryse there is a river called the Ganges... Beyond this [river], close to the ocean at the very end of the inhabited world towards the east, lying directly under the rising sun itself, there is a place called Chryse.' §63: 'The last part of the inhabited world toward the east, under the rising sun itself... Chryse... there is a very great inland city called Thina [= China], from which raw silk and silk thread and silk cloth are brought on foot... It is not easy to get to this Thina; for rarely do people come from it, and only a few.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "GRK-003",
+    "tradition": "GREEK",
+    "date_ce": 150,
+    "language": "Greek",
+    "text": "VII.2: 'The Golden Peninsula (Χρυσῆ Χερσόνησος) extends south from [coordinates]... Sabara emporium, Perimula, Kole.' VII.2.5: 'The island of Iabadiu (Ἰαβαδίου), which means Island of Barley, is said to produce much gold.' VII.2.29: 'Argyre [Silver City] at the western point.' Coordinates given: Iabadiu at roughly 8°S 118°E (reconstructed).",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "GRK-004",
+    "tradition": "GREEK",
+    "date_ce": 110,
+    "language": "Greek",
+    "text": "Marinus compiled sailing directions and distances to eastern lands. Ptolemy (I.11): 'Marinus says the distance from the Stone Tower to Sera [China] is... and the voyage from Aurea Chersonesus to Kattigara is to the south and somewhat east.' Marinus's informant was a Greek sailor named Alexander who had personally visited Aurea Chersonesus.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "ROM-001",
+    "tradition": "ROMAN",
+    "date_ce": 77,
+    "language": "Latin",
+    "text": "VI.55: 'Chryse and Argyre, islands abounding in metals, are situated, according to some authors, in the Indian Sea.' XII.41: 'India is the nearest to us of those lands which produce cinnamon.' XII.84: 'The most esteemed [camphor] comes from the island of Borneo.' (actually a later interpolation?) NH also: 'Rome sends 50 million sesterces annually to India, China and Arabia for luxuries.'",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "ROM-002",
+    "tradition": "ROMAN",
+    "date_ce": 43,
+    "language": "Latin",
+    "text": "III.70: 'Beyond the Ganges, the coast turns south... there lies Chryse and Argyre, one rich in gold, the other in silver. The soil of Chryse is of gold, whence the name.'",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "IND-P01",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -350,
+    "language": "Pali",
+    "text": "The Bodhisattva as the blind navigator Supparaka guides merchants through perilous seas. They pass the Sea of Kusamala (bamboo), Sea of Nalakamala (reeds), Sea of Daddhamala (curds — white foam), and reach the Sea of Gold (suvannamaya-vālikā). 'They saw the ocean as if boiling, and it was gold-colored.' The merchants fill their ship with gold and jewels.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-P02",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -350,
+    "language": "Pali",
+    "text": "Merchants from Jambudvipa sail to Baveru (= Babylon). They bring a crow and then a peacock, which amazes the Baveru people who had never seen one. The peacock is worshipped. Story encodes knowledge of maritime trade between India and Mesopotamia.",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "IND-P03",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -350,
+    "language": "Pali",
+    "text": "Sankha the Brahmin sails to Suvannabhumi to trade. He accumulates great wealth. 'Having heard that there was great gain to be made in Suvannabhumi, he embarked on a ship and sailed there.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-P04",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -300,
+    "language": "Pali",
+    "text": "Prince Mahajanaka sails to Suvannabhumi on a merchant vessel. A storm sinks the ship. 'Seven hundred men were aboard that ship bound for Suvannabhumi.' Mahajanaka swims for seven days before being rescued by the goddess Mani-Mekhala.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-P05",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -100,
+    "language": "Pali",
+    "text": "In a discussion about trade, the text lists destinations of merchant voyages: 'Merchants go to Vanga, Takkola, China, Sovira, Surat, Alexandria, the Koromandel coast, Suvannabhumi, and other places.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-P06",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -250,
+    "language": "Pali",
+    "text": "Ashoka sends his son Mahinda and daughter Sanghamitta as Buddhist missionaries. Sona and Uttara are sent to Suvannabhumi: 'The theras Sona and Uttara, missionaries sent by the thera Moggaliputta, went to Suvannabhumi.' They establish Buddhism there.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-S01",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -300,
+    "language": "Sanskrit",
+    "text": "Sugriva instructs the monkey search party: 'Search Yavadvipa, adorned with seven kingdoms, the Island of Gold and Silver, rich in gold mines. Beyond Yavadvipa is Mount Shishira, whose peak touches the sky.' (yavadvīpam atikramya śiśiraṃ nāma parvatam)",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-S02",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -300,
+    "language": "Sanskrit",
+    "text": "Lists trade goods and their origins. Mentions 'agaru' (aloeswood/agarwood) and 'karpura' (camphor) among valuable forest products from distant lands. Camphor from 'the islands' is classified as superior grade.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-S03",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -200,
+    "language": "Sanskrit",
+    "text": "In the Digvijaya (conquest of the directions), Pandava warriors reach Yavadvipa and Suvarnadvipa among their conquests of distant lands. Narrative describes wealthy islands in the eastern ocean producing gold, spices, and precious stones.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "IND-S04",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": 1070,
+    "language": "Sanskrit",
+    "text": "Multiple stories describe merchants sailing to Suvarnadvipa and the islands of the eastern sea. Includes tale of a merchant who sails to Kataha (Kedah) and proceeds to the spice islands. Rich descriptions of camphor, sandalwood, cloves, and gold trade.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-001",
+    "tradition": "CHINESE",
+    "date_ce": 130,
+    "language": "Classical Chinese",
+    "text": "Records an embassy from 'Shan' (掸) or Rinan (日南) to the Han court in 131 CE bringing performers and rhinoceros. Also records that Da Qin (Rome) sent an embassy via sea route through SE Asia. 'The king of Tianzhu [India] sent envoys to present... coming by the sea route via Ye-tiao [Java/Sumatra?].'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-002",
+    "tradition": "CHINESE",
+    "date_ce": 264,
+    "language": "Classical Chinese",
+    "text": "Describes Ye-po-ti (耶婆提): 'The country of Ye-po-ti is in the sea... The people are short and dark... They use iron swords and copper instruments. Their boats have outriggers on both sides.' Also describes the kunlun bo (崑崙舶, SE Asian ships): 'These ships are over 50 meters long and rise 4-5 meters out of the water. They carry 600-700 persons and 10,000 bushels of cargo.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-003",
+    "tradition": "CHINESE",
+    "date_ce": 414,
+    "language": "Classical Chinese",
+    "text": "Faxian returns from India by sea via Sri Lanka: 'Embarking in a large merchant ship, we sailed with the first fair wind for Ye-po-ti. The voyage took about 90 days. We stayed there for 5 months waiting for the northeast monsoon. Then we sailed for Canton. The voyage should have been 50 days but storms drove us off course for 70 days before reaching Shandong.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-004",
+    "tradition": "CHINESE",
+    "date_ce": 520,
+    "language": "Classical Chinese",
+    "text": "Records embassies from multiple SE Asian kingdoms to the Liang court: Poli 婆利 (Bali?), Dandan 丹丹 (Kelantan?), Langkasuka 狼牙修 (Kedah/Pattani), Panpan 盤盤 (Malay Peninsula). Describes products: camphor, tortoiseshell, gold, rhinoceros horn. Mentions Buddhist practice in several kingdoms.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-005",
+    "tradition": "CHINESE",
+    "date_ce": 689,
+    "language": "Classical Chinese",
+    "text": "Yijing visits Srivijaya (Shi-li-fo-shi 室利佛逝) and describes it as major Buddhist learning center: 'In the fortified city of Bhoga [Palembang], there are more than 1,000 Buddhist monks. Their rules and ceremonies are the same as in India. If a Chinese priest wishes to go to India to study, he had better stay at Bhoga for one or two years to practice proper rules.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-006",
+    "tradition": "CHINESE",
+    "date_ce": 430,
+    "language": "Classical Chinese",
+    "text": "Records embassy from Holotan (訶羅單, = Kalingga or Taruma?) in 430 CE, and Shepo (闍婆 = Java) in 433 CE. Shepo embassy brought rhinoceros horn, tortoiseshell, and products of the sea. Also records embassy from Linyi (Champa) and Funan (Cambodia).",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "CHN-007",
+    "tradition": "CHINESE",
+    "date_ce": 607,
+    "language": "Classical Chinese",
+    "text": "Describes Chitu 赤土 (Red Earth = Kelantan?): 'The king sits on a golden couch shaped like a dragon... The walls of the palace are adorned with gold and silver. There are Buddhist temples and Brahmanical hermitages.' Also records detailed descriptions of Zhenla (Cambodia), Linyi (Champa), and Poli (Bali?).",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "ARB-001",
+    "tradition": "ARAB",
+    "date_ce": 851,
+    "language": "Arabic",
+    "text": "Describes Zabaj (الزابج = Java/Srivijaya): 'The king of Zabaj... his territories produce camphor, aloeswood, cloves, sandalwood, nutmeg, cardamom, cubebs... The ships of the Chinese come to trade there. It takes about a month to cross the territory of Zabaj.' Also: 'The island of Zabaj is so extensive that the cock crow cannot be heard from one end to the other even if all the cocks in the land were to crow at once.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "ARB-002",
+    "tradition": "ARAB",
+    "date_ce": 947,
+    "language": "Arabic",
+    "text": "Describes the Maharaja of Zabaj as 'the greatest king of the islands': 'His authority extends over the islands... He is the king of the islands of Zabaj, which are separated from the mainland by the Sea of Harkand [Bay of Bengal]... Among the wonders of his kingdom is the island of Kalah [Kedah]... There are many kingdoms in these islands, countless in number.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "ARB-003",
+    "tradition": "ARAB",
+    "date_ce": 846,
+    "language": "Arabic",
+    "text": "Lists the products of the eastern islands: 'From the land of camphor [Fansur/Barus] comes the finest camphor. From the land of Sila [Srivijaya?] comes gold and tin. From the lands beyond come cloves and nutmeg.' Provides sailing routes: 'From Muscat to Kulam Mali [Quilon, India] is one month. From Kulam Mali to Kalah [Kedah] is one month. From Kalah to Zabaj is one month.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "ARB-004",
+    "tradition": "ARAB",
+    "date_ce": 953,
+    "language": "Arabic",
+    "text": "Collection of sailors' tales from the Indian Ocean. Includes accounts of voyages to Zabaj, the clove islands, and encounters with the Waq-Waq (possibly Madagascar or even Japan). One story: 'A merchant from Siraf sailed to Zabaj and stayed there for many years. He said: I never saw so many ships in one place, nor such abundance of gold.'",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "TAM-001",
+    "tradition": "TAMIL",
+    "date_ce": 150,
+    "language": "Tamil",
+    "text": "Describes the port of Puhar (Kaveripattinam): 'Ships from beyond the sea came with pepper, and gold, and horses, and the fragrant things of the mountains.' Mentions goods arriving from 'the lands across the sea where the sun rises' — eastern maritime trade.",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "TAM-002",
+    "tradition": "TAMIL",
+    "date_ce": 200,
+    "language": "Tamil",
+    "text": "Buddhist epic describing sea voyages from Puhar. Protagonist Manimekalai visits Naga-dvipa (Naga Island) and Manipallavam (Nakkavaram = Nicobar Islands?). The goddess Manimegala protects sailors. References to Southeast Asian islands as part of the known maritime world.",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "TAM-003",
+    "tradition": "TAMIL",
+    "date_ce": 100,
+    "language": "Tamil",
+    "text": "Describes a port scene: 'The great ships, tall as the height of houses... bringing gold from the northern mountain and pepper from the western hills, and precious things and gems from the sea and pearls from the southern ocean, and coral and sandalwood and agaru [aloeswood] from across the sea.'",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "LING-001",
+    "tradition": "LINGUISTIC",
+    "date_ce": -500,
+    "language": "Multiple",
+    "text": "Malay 'kapur Barus' → Sanskrit 'karpūra' → Arabic 'kāfūr' → Medieval Latin 'camphora'. The loanword chain is unidirectional: Malay to Sanskrit to Arabic to Latin. This demonstrates that the product AND its name originated in Nusantara (specifically Barus, North Sumatra) and were transmitted westward through trade networks.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "LING-002",
+    "tradition": "LINGUISTIC",
+    "date_ce": 500,
+    "language": "Multiple",
+    "text": "Malagasy language is classified as Southeast Barito (Borneo) with major Malay and Javanese loanword layers. 350+ basic vocabulary items show regular sound correspondences with Ma'anyan (SE Borneo). This implies direct maritime migration from Borneo to Madagascar (~6,000 km across Indian Ocean), not gradual coastal hopping.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "LING-003",
+    "tradition": "LINGUISTIC",
+    "date_ce": 200,
+    "language": "Multiple",
+    "text": "Multiple Austronesian loanwords in East African coastal languages: outrigger terminology, crop names (banana, taro, coconut), musical instrument terms. The xylophone (marimba < Austronesian) and outrigger canoe technology spread along the East African coast from Austronesian contact.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "NUS-001",
+    "tradition": "NUSANTARAN",
+    "date_ce": 400,
+    "language": "Sanskrit",
+    "text": "Seven stone pillars (yupa) in Pallava-script Sanskrit: 'Kundunga begat a son named Asvavarman... Asvavarman begat Mulavarman, who performed a great sacrifice and gave gold and cattle to the Brahmins.' Earliest Nusantaran inscription.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "NUS-002",
+    "tradition": "NUSANTARAN",
+    "date_ce": 450,
+    "language": "Sanskrit",
+    "text": "Describes construction of a canal by King Purnavarman: 'This canal, the foremost of all canals, was ordered dug by the illustrious Purnavarman.' Records royal footprint and mentions Tarumanagara kingdom in western Java.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "NUS-003",
+    "tradition": "NUSANTARAN",
+    "date_ce": 682,
+    "language": "Old Malay (with Sanskrit loanwords)",
+    "text": "Records a military expedition by siddhayatra (holy journey): 'On the bright 11th day of the month of Vaisakha in the Saka year 604... an army of 20,000 marched... They set out from Minanga Tamvan by boat.' First Srivijayan inscription, establishes Palembang as capital.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "GRK-005",
+    "tradition": "GREEK",
+    "date_ce": -300,
+    "language": "Greek",
+    "text": "Ambassador to the Maurya court of Chandragupta. Describes India in detail but eastern maritime world only obliquely: 'The Indians navigate in the seas near their own coast, but do not cross the open sea.' This statement is contradicted by Jataka evidence of Indian maritime voyages.",
+    "relevance": "LOW"
+  },
+  {
+    "ref_id": "CHN-008",
+    "tradition": "CHINESE",
+    "date_ce": -100,
+    "language": "Classical Chinese",
+    "text": "Records that Sichuan cloth (蜀布) and bamboo canes were found in Bactria (Afghanistan), apparently transported via India and an unknown southern route. Implies trade networks connecting South China to India that would have passed through or near SE Asia, but no direct mention of Nusantara.",
+    "relevance": "LOW"
+  },
+  {
+    "ref_id": "CHEM-007",
+    "tradition": "CHEMICAL",
+    "date_ce": -200,
+    "language": "n/a",
+    "text": "Excavations at Arikamedu (Tamil Nadu, India) revealed a major Indo-Roman trading port. Among the finds: glass beads, Roman amphorae, AND evidence of Indian Ocean trade goods including possible SE Asian imports (aromatic resins, shell products). The site demonstrates active Tamil maritime commerce.",
+    "relevance": "MEDIUM"
+  },
+  {
+    "ref_id": "CHEM-008",
+    "tradition": "CHEMICAL",
+    "date_ce": -300,
+    "language": "n/a",
+    "text": "Bronze drums of Dong Son type (North Vietnam) distributed across Nusantara: Sumatra, Java, Bali, Alor, Sangeang, Roti. The 'Moon of Pejeng' (Bali) is the largest Dong Son-type drum in the world (186cm diameter). Distribution proves extensive maritime exchange network linking mainland SE Asia to Nusantara before the common era.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "LING-004",
+    "tradition": "LINGUISTIC",
+    "date_ce": 100,
+    "language": "Multiple",
+    "text": "Over 1,000 Sanskrit loanwords in Old Javanese and Old Malay, covering: governance (raja, mantri, desa), religion (dharma, karma, yoga), commerce (mudra, harga), and technology (yantra). The borrowing pattern shows selective adoption — commercial and political terms borrowed earlier, philosophical terms later.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "ARB-005",
+    "tradition": "ARAB",
+    "date_ce": 1154,
+    "language": "Arabic",
+    "text": "Most detailed pre-modern geographic description of SE Asia in Arabic: 'The island of Jawa [Java] is very large... it produces rice, coconut, sugar cane, bananas, and camphor of the best quality. Gold is found there in great quantities. The king is very powerful.' Also describes Sumatra, the spice islands, and trade routes.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "NUS-004",
+    "tradition": "NUSANTARAN",
+    "date_ce": 860,
+    "language": "Sanskrit",
+    "text": "Copper-plate inscription at Nalanda monastery (Bihar, India) by Balaputradeva: 'The illustrious Balaputradeva, Maharaja of Suvarnadvipa [Sumatra]... has built a monastery at Nalanda for monks coming from his country.' Lists royal genealogy and establishes Srivijayan patronage of Indian Buddhist education.",
+    "relevance": "HIGH"
+  },
+  {
+    "ref_id": "NUS-005",
+    "tradition": "NUSANTARAN",
+    "date_ce": 900,
+    "language": "Old Malay with Sanskrit, Old Javanese, Old Tagalog",
+    "text": "Debt document pardoning a debt of 926.4 grams of gold. Found in Laguna de Bay, Philippines. Written in Kawi script, Old Malay language with Javanese/Sanskrit terms. Mentions 'Tondo' (Manila Bay), 'Pailah' (Paila, Bulacan), 'Medang' (Java?), and 'Srivijaya' by name.",
+    "relevance": "HIGH"
+  }
+]

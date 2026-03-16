@@ -1,0 +1,74 @@
+ref_id,tradition,date_ce,source,entity_text,entity_type,modern_id,confidence,nusantara_relevance,independence_group,scholarly_consensus
+CHEM-001,CHEMICAL,-594,Saqqara embalming workshop vessels,dammar,COMMODITY,"Dipterocarpaceae resin, Indonesia/SE Asia",0.95,HIGH,chemical,CONSENSUS
+CHEM-001,CHEMICAL,-594,Saqqara embalming workshop vessels,elemi,COMMODITY,"Canarium resin, tropical Asia/Africa",0.85,HIGH,chemical,CONSENSUS
+CHEM-001,CHEMICAL,-594,Saqqara embalming workshop vessels,Saqqara,PLACE,"Saqqara, Egypt",1.0,HIGH,chemical,CONSENSUS
+CHEM-002,CHEMICAL,-1700,Terqa clove find,cloves,COMMODITY,"Syzygium aromaticum, North Maluku exclusive",0.7,HIGH,chemical,CONTESTED
+CHEM-002,CHEMICAL,-1700,Terqa clove find,Terqa,PLACE,"Tell Ashara, Syria (Euphrates)",1.0,HIGH,chemical,CONTESTED
+CHEM-002,CHEMICAL,-1700,Terqa clove find,North Maluku,PLACE,Ternate/Tidore/Bacan/Halmahera,0.95,HIGH,chemical,CONTESTED
+CHEM-003,CHEMICAL,-1050,Austronesian crop package in South India/Sri Lanka,coconut,COMMODITY,"Cocos nucifera, Austronesian domesticate",0.9,HIGH,chemical,CONSENSUS
+CHEM-003,CHEMICAL,-1050,Austronesian crop package in South India/Sri Lanka,banana,COMMODITY,"Musa spp., Austronesian domesticate",0.9,HIGH,chemical,CONSENSUS
+CHEM-003,CHEMICAL,-1050,Austronesian crop package in South India/Sri Lanka,sandalwood,COMMODITY,"Santalum album, eastern Indonesia/Timor",0.85,HIGH,chemical,CONSENSUS
+CHEM-003,CHEMICAL,-1050,Austronesian crop package in South India/Sri Lanka,outrigger boat,VESSEL,Austronesian maritime technology,0.8,HIGH,chemical,CONSENSUS
+CHEM-004,CHEMICAL,-1000,Cinnamon/cassia in Egyptian/Phoenician trade,cinnamon,COMMODITY,"Cinnamomum verum, Sri Lanka/SE Asia",0.85,MEDIUM,chemical,PROBABLE
+CHEM-004,CHEMICAL,-1000,Cinnamon/cassia in Egyptian/Phoenician trade,cassia,COMMODITY,"Cinnamomum cassia, South China/Vietnam/SE Asia",0.8,MEDIUM,chemical,PROBABLE
+GRK-001,GREEK,-235,Geographica (fragments via Strabo),Chryse,PLACE,Malay Peninsula or Sumatra,0.65,HIGH,greco-roman,CONTESTED
+GRK-001,GREEK,-235,Geographica (fragments via Strabo),Chryse Insula,PLACE,Sumatra (probable),0.6,HIGH,greco-roman,CONTESTED
+GRK-002,GREEK,50,Periplus Maris Erythraei,Chryse,PLACE,Malay Peninsula or Sumatra,0.65,HIGH,greco-roman,PROBABLE
+GRK-002,GREEK,50,Periplus Maris Erythraei,tortoiseshell,COMMODITY,"Hawksbill turtle shell, SE Asian waters",0.8,HIGH,greco-roman,PROBABLE
+GRK-002,GREEK,50,Periplus Maris Erythraei,Thinae,PLACE,China (southern coast),0.75,HIGH,greco-roman,PROBABLE
+GRK-003,ROMAN,150,Geographia,Aurea Chersonesus,PLACE,Malay Peninsula,0.85,HIGH,greco-roman,PROBABLE
+GRK-003,ROMAN,150,Geographia,Iabadiu,PLACE,Java (Yavadvipa),0.75,HIGH,greco-roman,PROBABLE
+GRK-003,ROMAN,150,Geographia,Argyre,PLACE,City in western Java?,0.4,HIGH,greco-roman,PROBABLE
+GRK-003,ROMAN,150,Geographia,Sinda,PLACE,Malay/Sumatran coast,0.5,HIGH,greco-roman,PROBABLE
+GRK-003,ROMAN,150,Geographia,Sabarana,PLACE,Malay/Sumatran coast,0.45,HIGH,greco-roman,PROBABLE
+GRK-003,ROMAN,150,Geographia,Alexander,ACTOR,Greek sailor who visited SE Asia,0.7,HIGH,greco-roman,PROBABLE
+ROM-001,ROMAN,77,Naturalis Historia,Chryse,PLACE,Sumatra/Malay Peninsula,0.65,MEDIUM,greco-roman,PROBABLE
+ROM-001,ROMAN,77,Naturalis Historia,Argyre,PLACE,Unknown island near Chryse,0.35,MEDIUM,greco-roman,PROBABLE
+ROM-001,ROMAN,77,Naturalis Historia,camphor,COMMODITY,"Dryobalanops aromatica, Sumatra/Borneo",0.8,MEDIUM,greco-roman,PROBABLE
+ROM-001,ROMAN,77,Naturalis Historia,aromatics,COMMODITY,Multiple SE Asian forest products,0.75,MEDIUM,greco-roman,PROBABLE
+IND-001,INDIAN_PALI,-350,"Jataka Tales (Supparaka, Baveru, Sankha Jatakas)",Suvarnabhumi,PLACE,Sumatra (probable) / Burma-Thailand (alternative),0.7,HIGH,indian,CONTESTED
+IND-001,INDIAN_PALI,-350,"Jataka Tales (Supparaka, Baveru, Sankha Jatakas)",merchants,ACTOR,Indian Ocean traders,0.85,HIGH,indian,CONTESTED
+IND-002,INDIAN_PALI,-50,Milinda Panha (Questions of King Milinda),Suvarnabhumi,PLACE,Sumatra / mainland SE Asia,0.7,HIGH,indian,PROBABLE
+IND-003,INDIAN_PALI,400,Mahavamsa (Great Chronicle of Sri Lanka),Suvarnabhumi,PLACE,Sumatra / mainland SE Asia,0.65,MEDIUM,indian,CONTESTED
+IND-004,INDIAN_SANSKRIT,-350,"Ramayana, Kishkindha Kanda 4.40.30",Yavadvipa,PLACE,Java,0.9,HIGH,indian,PROBABLE
+IND-004,INDIAN_SANSKRIT,-350,"Ramayana, Kishkindha Kanda 4.40.30",seven kingdoms,POLITY,Multiple polities on Java,0.5,HIGH,indian,PROBABLE
+IND-004,INDIAN_SANSKRIT,-350,"Ramayana, Kishkindha Kanda 4.40.30",Suvarnadvipa,PLACE,Sumatra (Gold Island),0.85,HIGH,indian,PROBABLE
+IND-005,INDIAN_SANSKRIT,-250,Arthashastra,dvipantara,PLACE,Indonesian archipelago (literally 'other islands'),0.75,MEDIUM,indian,PROBABLE
+IND-005,INDIAN_SANSKRIT,-250,Arthashastra,aromatic products,COMMODITY,SE Asian forest products,0.7,MEDIUM,indian,PROBABLE
+IND-006,INDIAN_SANSKRIT,1286,Padangroco Inscription,Suvarnabhumi,PLACE,Sumatra (Tanjungemas),0.95,HIGH,nusantaran_epigraphy,CONSENSUS
+IND-006,INDIAN_SANSKRIT,1286,Padangroco Inscription,Tanjungemas,PLACE,West Sumatra,0.95,HIGH,nusantaran_epigraphy,CONSENSUS
+CHN-001,CHINESE,80,Hanshu (Book of Han),Huang-zhi,PLACE,"Kancipuram, South India",0.75,MEDIUM,chinese,PROBABLE
+CHN-001,CHINESE,80,Hanshu (Book of Han),aromatic woods,COMMODITY,SE Asian forest products,0.7,MEDIUM,chinese,PROBABLE
+CHN-001,CHINESE,80,Hanshu (Book of Han),southern sea islands,PLACE,Nusantaran archipelago (implied),0.55,MEDIUM,chinese,PROBABLE
+CHN-002,CHINESE,264,Nanzhou Yiwu Zhi (南州異物志),k'un-lun po 崑崙舶,VESSEL,Austronesian long-distance trading vessel,0.9,HIGH,chinese,CONSENSUS
+CHN-002,CHINESE,264,Nanzhou Yiwu Zhi (南州異物志),k'un-lun 崑崙,ACTOR,Austronesian SE Asian peoples,0.85,HIGH,chinese,CONSENSUS
+CHN-002,CHINESE,264,Nanzhou Yiwu Zhi (南州異物志),bamboo sails,MATERIAL,Austronesian crab-claw/rectangular sail technology,0.8,HIGH,chinese,CONSENSUS
+CHN-002,CHINESE,264,Nanzhou Yiwu Zhi (南州異物志),20 zhang vessel,VESSEL,~48m ship (larger than Roman merchantmen),0.75,HIGH,chinese,CONSENSUS
+CHN-003,CHINESE,239,Weilüe (魏略),Rinan,PLACE,Central Vietnam coast,0.85,MEDIUM,chinese,PROBABLE
+CHN-003,CHINESE,239,Weilüe (魏略),Southeast Asian islands,PLACE,Nusantaran archipelago,0.65,MEDIUM,chinese,PROBABLE
+CHN-003,CHINESE,239,Weilüe (魏略),Daqin,PLACE,Roman Empire,0.9,MEDIUM,chinese,PROBABLE
+CHN-004,CHINESE,260,Funan Tuqi (扶南土俗),Funan,POLITY,Mekong Delta kingdom (Cambodia/Vietnam),0.9,MEDIUM,chinese,PROBABLE
+CHN-004,CHINESE,260,Funan Tuqi (扶南土俗),SE Asian maritime networks,ROUTE,Trade routes to Indonesian archipelago,0.7,MEDIUM,chinese,PROBABLE
+CHN-005,CHINESE,414,"Foguoji (佛國記, Record of Buddhist Kingdoms)",Ye-po-ti 耶婆提,PLACE,Java (Yavadvipa),0.85,HIGH,chinese,PROBABLE
+CHN-005,CHINESE,414,"Foguoji (佛國記, Record of Buddhist Kingdoms)",Brahmanism,POLITY,Hindu-Buddhist religion in early Java,0.8,HIGH,chinese,PROBABLE
+CHN-006,CHINESE,636,"Liang Shu (梁書), ch. 54",Heluo-dan 呵羅單,POLITY,Central Java (Kalingga?),0.55,HIGH,chinese,PROBABLE
+CHN-006,CHINESE,636,"Liang Shu (梁書), ch. 54",Poli 婆利,POLITY,Bali or Borneo (debated),0.45,HIGH,chinese,PROBABLE
+CHN-006,CHINESE,636,"Liang Shu (梁書), ch. 54",southern sea countries,PLACE,Nusantaran archipelago,0.8,HIGH,chinese,PROBABLE
+ARB-001,ARAB,851,Akhbar as-Sin wa l-Hind (Accounts of China and India),Zabaj,POLITY,Java or Sumatra (Srivijaya?),0.7,HIGH,arab,CONSENSUS
+ARB-001,ARAB,851,Akhbar as-Sin wa l-Hind (Accounts of China and India),camphor,COMMODITY,"Dryobalanops, Sumatra/Borneo",0.9,HIGH,arab,CONSENSUS
+ARB-001,ARAB,851,Akhbar as-Sin wa l-Hind (Accounts of China and India),cloves,COMMODITY,"Syzygium aromaticum, North Maluku",0.95,HIGH,arab,CONSENSUS
+ARB-001,ARAB,851,Akhbar as-Sin wa l-Hind (Accounts of China and India),sandalwood,COMMODITY,"Santalum, Timor/Nusa Tenggara",0.85,HIGH,arab,CONSENSUS
+ARB-002,ARAB,885,Kitab al-Masalik wa-l-Mamalik,Fansur,PLACE,"Barus, North Sumatra",0.95,HIGH,arab,CONSENSUS
+ARB-002,ARAB,885,Kitab al-Masalik wa-l-Mamalik,camphor,COMMODITY,"Dryobalanops, Barus/Sumatra",0.95,HIGH,arab,CONSENSUS
+ARB-003,ARAB,943,Muruj al-Dhahab (Meadows of Gold),Zabaj,POLITY,Srivijaya (Sumatra/Java),0.75,HIGH,arab,CONSENSUS
+ARB-003,ARAB,943,Muruj al-Dhahab (Meadows of Gold),Maharaja,ACTOR,Srivijayan ruler,0.8,HIGH,arab,CONSENSUS
+ARB-003,ARAB,943,Muruj al-Dhahab (Meadows of Gold),Sumatra,PLACE,Sumatra,0.85,HIGH,arab,CONSENSUS
+ARB-003,ARAB,943,Muruj al-Dhahab (Meadows of Gold),Java,PLACE,Java,0.85,HIGH,arab,CONSENSUS
+LING-001,LINGUISTIC,-500,Camphor etymology chain,kapur barus,COMMODITY,"Camphor from Barus, Sumatra",0.95,HIGH,linguistic,CONSENSUS
+LING-001,LINGUISTIC,-500,Camphor etymology chain,Barus,PLACE,"Ancient camphor port, North Sumatra",0.95,HIGH,linguistic,CONSENSUS
+LING-002,LINGUISTIC,-300,Benzoin etymology,luban jawi,COMMODITY,"Benzoin resin, Styrax benzoin, Sumatra",0.9,HIGH,linguistic,CONSENSUS
+LING-002,LINGUISTIC,-300,Benzoin etymology,jawi,PLACE,Java/Nusantara (in Arabic geographic usage),0.85,HIGH,linguistic,CONSENSUS
+NUS-001,NUSANTARAN,400,Yupa inscriptions of Kutai,Kutai,POLITY,East Kalimantan (non-volcanic),0.95,HIGH,nusantaran_epigraphy,CONSENSUS
+NUS-001,NUSANTARAN,400,Yupa inscriptions of Kutai,Mulavarman,ACTOR,"King of Kutai, earliest named Nusantaran ruler",0.95,HIGH,nusantaran_epigraphy,CONSENSUS
+NUS-002,NUSANTARAN,1365,Nagarakretagama,Suvarnabhumi,PLACE,Sumatra,0.9,HIGH,nusantaran_epigraphy,CONSENSUS
+NUS-002,NUSANTARAN,1365,Nagarakretagama,Suvarnadvipa,PLACE,Sumatra,0.95,HIGH,nusantaran_epigraphy,CONSENSUS

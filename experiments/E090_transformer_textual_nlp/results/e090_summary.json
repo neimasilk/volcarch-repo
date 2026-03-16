@@ -1,0 +1,17 @@
+{
+  "experiment": "E090",
+  "title": "Transformer-based NLP on Ancient Textual Corpus",
+  "date": "2026-03-16",
+  "corpus_size": 50,
+  "experiments_run": 6,
+  "key_results": {
+    "exp1_within_vs_between_ratio": 1.3477035760879517,
+    "exp2_clustering_type": "content-driven",
+    "exp2_n_clusters": 9,
+    "exp3_ner_f1": 0.6501000000000001,
+    "exp4_n_topics": 3,
+    "exp5_converging_groups": 4,
+    "exp5_total_groups": 5,
+    "exp6_mean_entailment": 0.16113973177488802
+  }
+}

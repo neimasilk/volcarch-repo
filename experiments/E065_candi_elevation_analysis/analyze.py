@@ -22,8 +22,10 @@ from scipy import stats
 from collections import Counter
 from pathlib import Path
 
-OUT = Path('experiments/E065_candi_elevation_analysis/results')
+SCRIPT_DIR = Path(__file__).parent
+OUT = SCRIPT_DIR / 'results'
 OUT.mkdir(parents=True, exist_ok=True)
+REPO_ROOT = SCRIPT_DIR.parent.parent
 
 print("="*60)
 print("E065: Candi Elevation × Volcanic Zone Analysis")
@@ -33,11 +35,11 @@ print("="*60)
 # LOAD DATA
 # ============================================================
 # E031 candi-volcano pairs (142 pairs)
-pairs = pd.read_csv('experiments/E031_candi_orientation/results/candi_volcano_pairs.csv')
+pairs = pd.read_csv(REPO_ROOT / 'experiments/E031_candi_orientation/results/candi_volcano_pairs.csv')
 print(f"\nLoaded {len(pairs)} candi-volcano pairs from E031")
 
 # E031 orientation data (20 candi with known entrance)
-orient = pd.read_csv('experiments/E031_candi_orientation/results/orientation_vs_volcano.csv')
+orient = pd.read_csv(REPO_ROOT / 'experiments/E031_candi_orientation/results/orientation_vs_volcano.csv')
 print(f"Loaded {len(orient)} candi with orientation data")
 
 # Volcano database for eruption data

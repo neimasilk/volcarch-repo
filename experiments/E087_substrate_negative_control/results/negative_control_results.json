@@ -1,0 +1,69 @@
+{
+  "experiment": "E087_substrate_negative_control",
+  "date": "2026-03-16",
+  "reference": {
+    "original_sulawesi_auc": 0.761,
+    "original_sulawesi_std": 0.0064,
+    "n_forms": 1357,
+    "n_substrate": 438,
+    "substrate_rate": 32.3
+  },
+  "control_1_closely_related": {
+    "languages": "Tagalog + Cebuano (Central Philippine)",
+    "auc": 0.6107,
+    "std": 0.0285,
+    "n_forms": 486,
+    "n_substrate": 37,
+    "substrate_rate": 7.6,
+    "cognacy_coverage": {
+      "277": 0.952,
+      "153": 0.8988
+    },
+    "verdict": "GREY ZONE (some signal detected, needs investigation)",
+    "note": ""
+  },
+  "control_2_no_substrate": {
+    "languages": "Malay + Minangkabau (Malayic)",
+    "auc": 0.6896,
+    "std": 0.0249,
+    "n_forms": 456,
+    "n_substrate": 30,
+    "substrate_rate": 6.6,
+    "cognacy_coverage": {
+      "233": 0.9746,
+      "172": 0.8909
+    },
+    "verdict": "GREY ZONE",
+    "note": ""
+  },
+  "control_3_random_labels": {
+    "languages": "Javanese + Sundanese (random labels at 32.3%)",
+    "mean_auc": 0.4995,
+    "std_auc": 0.0415,
+    "percentile_95": 0.5679,
+    "max_auc": 0.6006,
+    "n_iterations": 200,
+    "n_forms": 434,
+    "verdict": "PASS (random labels produce ~chance AUC)",
+    "real_label_auc": 0.6505
+  },
+  "control_4_bonus_tagalog_kapampangan": {
+    "auc": 0.6849,
+    "std": 0.0196,
+    "n_forms": 459,
+    "n_substrate": 45,
+    "note": ""
+  },
+  "control_5_bonus_iban_malay": {
+    "auc": 0.7939,
+    "std": 0.0099,
+    "n_forms": 511,
+    "n_substrate": 73,
+    "note": ""
+  },
+  "overall_verdict": "GREY ZONE",
+  "explanation": "Some controls show moderate AUC (C1=0.611, C2=0.690), suggesting the detector captures SOME phylogenetic noise but not as strongly as the Sulawesi substrate signal (0.761). The gap of 0.071 is positive but may not be large enough to confidently attribute it to substrate alone.",
+  "delta_orig_c1": 0.1503,
+  "delta_orig_c2": 0.0714,
+  "delta_orig_c3": 0.2615
+}

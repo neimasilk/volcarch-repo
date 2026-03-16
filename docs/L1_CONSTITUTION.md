@@ -1,7 +1,7 @@
 # L1: CONSTITUTION (UUD)
 
 **Status:** STABLE — This document changes only if core assumptions are proven wrong.
-**Last updated:** 2026-03-10
+**Last updated:** 2026-03-16
 
 ---
 
@@ -13,13 +13,19 @@ Investigate how volcanic processes have shaped — and hidden — the archaeolog
 2. **Detect** pre-Austronesian and pre-Indic substrates preserved in language and ritual (Papers 5, 8);
 3. **Test** whether volcanic events drove political and cultural transitions (Papers 7, 14).
 
-The core thesis: **the perceived absence of pre-4th century civilisation in western Indonesia reflects taphonomic loss, not genuine cultural absence.** Volcanic burial, coastal submersion, and historiographic bias have rendered an entire civilisational stratum invisible.
+The core thesis: **the perceived absence of pre-4th century civilisation in western Indonesia reflects taphonomic loss compounded by insufficient survey intensity, not genuine cultural absence.** Volcanic burial, coastal submersion, and historiographic bias have rendered an entire civilisational stratum invisible — and Indonesia's archaeological infrastructure has been insufficient to recover what volcanism has hidden.
 
 ## 2. Core Hypotheses
 
-**H1 — Taphonomic Bias:** The distribution of known archaeological sites in Java is systematically biased by volcanic sedimentation. Sites in high-deposition zones are underrepresented.
+**H1 — Taphonomic Bias:** The distribution of known archaeological sites in Java is systematically biased by volcanic sedimentation compounded by insufficient survey intensity. Sites in high-deposition zones are underrepresented because volcanic burial renders them invisible to surface survey, and Indonesia's archaeological infrastructure has been insufficient to recover them through subsurface methods.
 
 > **Status note (2026-03):** E004 and E005 could not confirm H1 from observable site-distribution data alone — the signal is dominated by survey-effort bias (see JOURNAL 2026-02-23). The project pivoted to treating H1 as a *motivating hypothesis* that requires fieldwork (GPR) to test directly, while the computational contribution became a *methodological framework* for tautology-free settlement modeling (Papers 1–2).
+>
+> **ADV-2 (E081, 2026-03-13):** Cave/open-air site ratio is IDENTICAL in volcanic and non-volcanic regions (Fisher p=0.760). Cave bias is universal where karst exists. The L1 argument must be built on **burial depth data** (E083: 24 sites, mean 3.41m), not site-type distribution.
+>
+> **ADV-3 (E069, 2026-03-13):** After controlling for survey intensity proxies (road distance, BPCB proximity), volcanic proximity retains a significant independent effect on site density (quasi-Poisson beta=-0.477, **p=0.0015**). Volcanic signal survives survey-effort control.
+>
+> **ADV-1 Japan Constraint (E086, 2026-03-16):** Japan — equally volcanic — has a rich 38,000-year record because it invests 100-200× more in archaeological survey (8,300 excavations/year, 460,000 registered sites, mandatory rescue archaeology since 1950). Volcanic burial is a *necessary but not sufficient* condition for archaeological invisibility. The sufficient condition is volcanic burial combined with inadequate survey intensity. Java's tropical lahar regime creates 32× deeper sustained burial than Japan's temperate system, but the primary difference is institutional capacity, not geology alone.
 
 **H2 — Discovery Bias (Motivating Observation):** The perceived "oldest kingdom" status of Kutai (Kalimantan, ~400 CE) may reflect differential preservation (zero volcanism) rather than genuine chronological primacy over Javanese polities. *(Note: This is a motivating observation that contextualizes the research, not a testable hypothesis within the current computational scope.)*
 
@@ -54,7 +60,22 @@ The Dwarapala statues of Singosari (built ~1268 CE, discovered 1803 CE with half
 
 **Critical note:** Sambisari, Kedulan, and Kimpulan are Merapi-system sites (Central Java), while Dwarapala is a Kelud-system site (East Java). Having calibration points from *different volcanic systems* proves the burial phenomenon is Java-wide, not volcano-specific. The rate consistency across systems (same order of magnitude) is itself a key finding.
 
-## 5. Known Methodological Risks (Baked Into Design)
+## 5. Evidential Structure (Consilience)
+
+Our argument follows the principle of **consilience of inductions** (Whewell 1840): multiple independent lines of evidence converge on the same conclusion through different methods and datasets.
+
+**Analytical lenses:** 4 — geological/taphonomic, linguistic, epigraphic, spatial-architectural.
+
+**Core datasets (~5):** DHARMA inscriptions (268), East Java archaeological sites (666), ABVD wordlists, candi locations (142), OV colonial register.
+
+**Genuinely independent datasets (3):**
+1. **E083** — Colonial-era burial depth measurements (51 eruption-site pairs, 24 measured depths). Source: OV field reports + published volcanological literature. Zero overlap with statistical pipeline.
+2. **E088/E089** — Textual archaeology corpus (106 passages from 12 ancient traditions). Source: translated primary texts (Greek, Chinese, Indian, Arab, etc.). Zero overlap with DHARMA/ABVD.
+3. **E091** — OV NLP mining (22,162 structured mentions from 16 OV volumes). Source: automated extraction from colonial Dutch text. 94.2% cross-validation against manual dataset.
+
+**Dataset honesty (2026-03-16):** 21 of 91 experiments depend on the same 268 DHARMA inscriptions. The three genuinely independent datasets above mitigate this concentration. Claims of "independent channels" refer to analytical methods, not necessarily independent data sources, except where explicitly noted.
+
+## 6. Known Methodological Risks (Baked Into Design)
 
 ### The Tautology Trap
 Our settlement model (Paper 2) trains on *discovered* sites. But discovered sites are biased toward low-burial-depth locations — which is literally our hypothesis (H1). There is a risk the model learns "visibility to modern archaeologists" rather than "suitability for ancient settlement."
@@ -64,7 +85,7 @@ Our settlement model (Paper 2) trains on *discovered* sites. But discovered site
 ### Single-Point Extrapolation
 The Dwarapala rate of 3.6 mm/year is one point. Extrapolating spatially from one point is dangerous. This is why secondary anchors (Sambisari, Kedulan, Kimpulan) are critical — they provide independent calibration from a different volcanic system (Merapi vs Kelud).
 
-## 6. Scope Boundaries
+## 7. Scope Boundaries
 
 ### In Scope
 - Computational modeling (ML, GIS, remote sensing analysis)
@@ -79,14 +100,14 @@ The Dwarapala rate of 3.6 mm/year is one point. Extrapolating spatially from one
 - Building commercial products
 - Fieldwork without proper permits and institutional partnerships
 
-## 7. Ethical Boundaries
+## 8. Ethical Boundaries
 
 - **Site protection.** Precise predicted coordinates of potential sites are shared ONLY with authorized bodies (BPCB, Balai Arkeologi). Public outputs use coarse resolution (minimum 500m grid). No raw GPS coordinates in public papers.
 - **Cultural sensitivity.** Archaeological sites may have spiritual significance. Engage local communities before any fieldwork.
 - **No sensationalism.** We do not claim to have "found lost civilizations." We build tools to help look.
 - **Open science.** Code and non-sensitive data are open source. Papers target open-access journals where feasible.
 
-## 8. Kill Criteria
+## 9. Kill Criteria
 
 This research line should be **abandoned** if:
 - Paper 1 analysis shows NO correlation between known site density and volcanic deposition (H1 falsified)

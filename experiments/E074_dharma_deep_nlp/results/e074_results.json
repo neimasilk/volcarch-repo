@@ -1,0 +1,219 @@
+{
+  "experiment": "E074",
+  "title": "DHARMA Deep NLP — Mining the Invisible Millennium",
+  "n_inscriptions": 268,
+  "n_dated": 86,
+  "n_parse_errors": 0,
+  "century_distribution": {
+    "C7": 2,
+    "C8": 5,
+    "C9": 28,
+    "C10": 31,
+    "C11": 8,
+    "C12": 1,
+    "C13": 7,
+    "C14": 4
+  },
+  "language_distribution": {
+    "kaw-Latn": 155,
+    "omy-Latn": 13,
+    "san-Latn": 65,
+    "osn-Latn": 14,
+    "": 21
+  },
+  "century_vocab_ratios": {
+    "C7": 0.353,
+    "C8": 0.178,
+    "C9": 2.672,
+    "C10": 3.603,
+    "C11": 1.443,
+    "C12": 0.459,
+    "C13": 1.574,
+    "C14": 0.619
+  },
+  "administrative_continuity": {
+    "inscriptions_with_indigenous_admin": 132,
+    "total_inscriptions": 268,
+    "percentage": 49.3
+  },
+  "spiritual_substrate": {
+    "inscriptions_with_indigenous_spiritual": 117,
+    "total_inscriptions": 268,
+    "percentage": 43.7
+  },
+  "earliest_indigenous_terms": {
+    "hyaṁ": {
+      "date_ce": 684,
+      "inscription": "Śrīkṣetra Dedication: Slab from Talang Tuwo (N. 66"
+    },
+    "sīma": {
+      "date_ce": 787,
+      "inscription": "Disunuh (709 Śaka)"
+    },
+    "rakai": {
+      "date_ce": 824,
+      "inscription": "Kayumwungan charter of the Veṇuvanavihāra (746 Śak"
+    },
+    "haji": {
+      "date_ce": 824,
+      "inscription": "Kayumwungan charter of the Veṇuvanavihāra (746 Śak"
+    },
+    "samgat": {
+      "date_ce": 875,
+      "inscription": "The Polengan plates: Humanding charter (797 Śaka)"
+    },
+    "rakryān": {
+      "date_ce": 875,
+      "inscription": "Marsemu charter, ca. 875 CE"
+    },
+    "wanua": {
+      "date_ce": 878,
+      "inscription": "Wintang Mas I (800 Śaka)"
+    }
+  },
+  "volcanic_inscriptions": 68,
+  "top_unclassified_terms": [
+    {
+      "term": "sovaṁ",
+      "count": 673
+    },
+    {
+      "term": "vḍihan",
+      "count": 637
+    },
+    {
+      "term": "ramani",
+      "count": 613
+    },
+    {
+      "term": "muaṁ",
+      "count": 483
+    },
+    {
+      "term": "vanua",
+      "count": 354
+    },
+    {
+      "term": "vinaiḥ",
+      "count": 330
+    },
+    {
+      "term": "sira",
+      "count": 308
+    },
+    {
+      "term": "pasak",
+      "count": 302
+    },
+    {
+      "term": "vatak",
+      "count": 300
+    },
+    {
+      "term": "rāma",
+      "count": 259
+    },
+    {
+      "term": "ikanaṁ",
+      "count": 246
+    },
+    {
+      "term": "juru",
+      "count": 241
+    },
+    {
+      "term": "dyaḥ",
+      "count": 209
+    },
+    {
+      "term": "patiḥ",
+      "count": 203
+    },
+    {
+      "term": "vatu",
+      "count": 193
+    },
+    {
+      "term": "tuha",
+      "count": 185
+    },
+    {
+      "term": "vineḥ",
+      "count": 179
+    },
+    {
+      "term": "vahuta",
+      "count": 178
+    },
+    {
+      "term": "mvaṁ",
+      "count": 176
+    },
+    {
+      "term": "parujar",
+      "count": 170
+    },
+    {
+      "term": "bhaṭāra",
+      "count": 169
+    },
+    {
+      "term": "hana",
+      "count": 165
+    },
+    {
+      "term": "kabaiḥ",
+      "count": 152
+    },
+    {
+      "term": "kapua",
+      "count": 150
+    },
+    {
+      "term": "muvaḥ",
+      "count": 146
+    },
+    {
+      "term": "ikaṁ",
+      "count": 144
+    },
+    {
+      "term": "para",
+      "count": 140
+    },
+    {
+      "term": "vinkas",
+      "count": 136
+    },
+    {
+      "term": "dharmma",
+      "count": 136
+    },
+    {
+      "term": "pāduka",
+      "count": 127
+    }
+  ],
+  "geo_term_frequency": {
+    "kali": 78,
+    "abu": 49,
+    "alas": 48,
+    "vana": 46,
+    "lmaḥ": 42,
+    "bhūmi": 23,
+    "tgal": 22,
+    "samudra": 13,
+    "batu": 9,
+    "giri": 9,
+    "dahana": 8,
+    "talaga": 7,
+    "kṣetra": 6,
+    "agni": 6,
+    "ranu": 6,
+    "panas": 5,
+    "nadī": 5,
+    "hutan": 4,
+    "śilā": 4,
+    "gunung": 3
+  }
+}

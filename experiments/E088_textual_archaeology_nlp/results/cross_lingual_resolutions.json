@@ -1,0 +1,102 @@
+{
+  "GOLDEN_LAND": {
+    "members": [
+      "Chryse",
+      "Chryse Insula",
+      "Aurea Chersonesus",
+      "Suvarnabhumi",
+      "Suvarnadvipa",
+      "金洲 Jinzhou"
+    ],
+    "modern": "Sumatra / Malay Peninsula",
+    "traditions": [
+      "GREEK",
+      "ROMAN",
+      "INDIAN_PALI",
+      "INDIAN_SANSKRIT",
+      "CHINESE"
+    ],
+    "n_traditions": 5,
+    "confidence": 0.7,
+    "note": "Contested: also identified with Burma/Thailand by some scholars"
+  },
+  "JAVA": {
+    "members": [
+      "Iabadiu",
+      "Yavadvipa",
+      "Ye-po-ti 耶婆提",
+      "Zabaj (partial)"
+    ],
+    "modern": "Java",
+    "traditions": [
+      "ROMAN",
+      "INDIAN_SANSKRIT",
+      "CHINESE",
+      "ARAB"
+    ],
+    "n_traditions": 4,
+    "confidence": 0.85,
+    "note": "Strong consensus for Yavadvipa=Java. Zabaj debated (Java vs Sumatra)"
+  },
+  "BARUS_CAMPHOR": {
+    "members": [
+      "Fansur",
+      "Barus",
+      "kapur barus",
+      "karpūra",
+      "kāfūr"
+    ],
+    "modern": "Barus, North Sumatra",
+    "traditions": [
+      "ARAB",
+      "LINGUISTIC",
+      "INDIAN_SANSKRIT"
+    ],
+    "n_traditions": 3,
+    "confidence": 0.95,
+    "note": "Strong consensus. Etymology chain direction: Malay→Sanskrit→Arabic"
+  },
+  "KUNLUN_PEOPLE": {
+    "members": [
+      "k'un-lun 崑崙",
+      "kunlun",
+      "Dvipantara peoples"
+    ],
+    "modern": "Austronesian SE Asian peoples",
+    "traditions": [
+      "CHINESE",
+      "INDIAN_SANSKRIT"
+    ],
+    "n_traditions": 2,
+    "confidence": 0.85,
+    "note": "Chinese generic term for dark-skinned SE Asian/Austronesian peoples"
+  },
+  "CLOVE_SOURCE": {
+    "members": [
+      "cloves",
+      "Syzygium aromaticum",
+      "cengkeh"
+    ],
+    "modern": "North Maluku (Ternate/Tidore/Bacan)",
+    "traditions": [
+      "CHEMICAL",
+      "ARAB"
+    ],
+    "n_traditions": 2,
+    "confidence": 0.95,
+    "note": "Exclusively endemic to North Maluku. Any find outside = trade evidence"
+  },
+  "DAMMAR_RESIN": {
+    "members": [
+      "dammar",
+      "Dipterocarpaceae resin"
+    ],
+    "modern": "Indonesia / SE Asia exclusive",
+    "traditions": [
+      "CHEMICAL"
+    ],
+    "n_traditions": 1,
+    "confidence": 0.95,
+    "note": "Chemical fingerprint uniquely identifies SE Asian source"
+  }
+}

@@ -1,0 +1,244 @@
+% D1: Colonial Archaeological Register of Java — Data Paper
+% Target: Journal of Open Archaeology Data (JOAD)
+% APC: £374 (waiver requested)
+% Format: max 5,000 words including bibliography
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{url}
+
+\title{The Colonial Archaeological Register of Java: A Digitized Database of Site Observations from Dutch \textit{Oudheidkundig Verslag} Reports (1912--1929)}
+
+\author{Mukhlis Amien\\
+\small Department of Computer Science, Universitas Muhammadiyah Malang\\
+\small ORCID: 0000-0002-1848-167X\\
+\small \texttt{mukhlis.amien@umm.ac.id}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The \textit{Oudheidkundig Verslag} (OV, `Archaeological Report') was the annual publication of the Netherlands East Indies Archaeological Service (\textit{Oudheidkundige Dienst in Nederlandsch-Indi\"e}), published 1912--1949. Despite being the primary documentary record of early 20th-century archaeological work in Java, these reports have never been systematically digitized into a structured database. We present the Colonial Archaeological Register of Java (CARJ), a georeferenced dataset of 52 archaeological site observations extracted from 14 OV volumes (1912--1929). Each record includes site identification, location, burial depth measurements, material descriptions, volcanic context, and condition assessments as documented by colonial surveyors. The dataset preserves primary observations --- including depth measurements at sites now inaccessible or destroyed --- that predate modern archaeological surveys. A preliminary cross-reference with modern heritage databases indicates that 54\% of CARJ entries have no identifiable modern counterpart, representing ``lost sites'' with irreplaceable observational data. CARJ enables quantitative analysis of volcanic taphonomic processes affecting the Javanese archaeological record and provides baseline data for heritage preservation monitoring. The dataset is deposited on Zenodo under CC BY 4.0.
+
+\noindent \textbf{Keywords:} Java, archaeology, colonial archives, volcanic taphonomy, burial depth, Dutch East Indies, \textit{Oudheidkundig Verslag}, georeferenced database
+\end{abstract}
+
+\section{(1) Overview}
+
+\subsection{Context}
+
+The archaeological record of Java is shaped by active volcanic processes that bury, destroy, and obscure ancient sites \citep{amien2026taphonomic}. Quantifying this taphonomic bias requires systematic data on the burial depth and condition of archaeological sites --- data that is surprisingly scarce in modern databases. While Indonesia's national heritage registry (BPCB) catalogs known sites, it does not systematically record burial depth at discovery or volcanic deposit associations.
+
+The Dutch colonial archaeological service operated in the Netherlands East Indies from 1901 to 1942, producing annual \textit{Oudheidkundig Verslag} reports that documented site surveys, excavations, discoveries, and conservation work across Java and beyond \citep{krom1923inleiding}. These reports contain primary observations made at the time of discovery --- including depth measurements, material descriptions, volcanic damage assessments, and descriptions of sites that have since been lost, destroyed, or reburied.
+
+Despite their value, these reports remain largely inaccessible to modern researchers due to three barriers:
+\begin{enumerate}
+    \item \textbf{Language:} The reports are in early 20th-century Dutch with specialized archaeological and geological vocabulary.
+    \item \textbf{Format:} They exist as scanned PDFs with variable OCR quality on Internet Archive and university library portals.
+    \item \textbf{Structure:} Information is embedded in narrative text, not in structured tables or databases.
+\end{enumerate}
+
+The Colonial Archaeological Register of Java (CARJ) addresses these barriers by extracting, structuring, and georeferencing site observations from 14 OV volumes spanning 1912--1929.
+
+\subsection{Spatial coverage}
+
+\begin{itemize}
+    \item \textbf{Description:} Java (primary), with additional entries from Sumatra, Kalimantan, and Bali
+    \item \textbf{Northern boundary:} $-3.42^{\circ}$S (Karang Intan, South Kalimantan)
+    \item \textbf{Southern boundary:} $-8.15^{\circ}$S (Tulungagung, East Java)
+    \item \textbf{Western boundary:} $100.15^{\circ}$E (Padang, West Sumatra)
+    \item \textbf{Eastern boundary:} $114.85^{\circ}$E (Karang Intan, South Kalimantan)
+\end{itemize}
+
+\subsection{Temporal coverage}
+
+\begin{itemize}
+    \item \textbf{Observation dates:} 1912--1929 (OV publication years)
+    \item \textbf{Site construction dates:} Prehistoric through Majapahit era ($\sim$1293--1478 CE)
+\end{itemize}
+
+\subsection{Measurements}
+
+Key measurements in CARJ include:
+\begin{itemize}
+    \item \textbf{Burial depth:} Measured or estimated depth below surface at time of observation. Original colonial units (Dutch \textit{voet} = 0.3048 m; \textit{vadem} = 1.70 m; \textit{el} = 0.69 m) are converted to meters.
+    \item \textbf{Burial rate:} Calculated as depth / (observation\_year $-$ construction\_year) where both dates are known.
+    \item \textbf{Geolocation:} Approximate modern coordinates (WGS84) derived from colonial location descriptions.
+\end{itemize}
+
+\section{(2) Methods}
+
+\subsection{Steps}
+
+\textbf{Step 1: Source acquisition.} Sixteen OV volumes (1912--1929) were obtained as full-text digital files from Internet Archive (\url{https://archive.org}). Each volume was downloaded as OCR-processed text.
+
+\textbf{Step 2: Automated keyword search.} A Python script searched all volumes for Dutch keywords related to depth measurements (\textit{diepte, voet, vadem, onder den grond, beneden maaiveld}), burial language (\textit{bedolven, begraven, verzonken, in den grond geraakte}), archaeological features (\textit{tjandi, tempel, fundament, baksteenen, beeld, yoni}), volcanic context (\textit{vulkaan, lahar, eruptie, asch, Kloet, Merapi}), and location identifiers (\textit{desa, residentie, afdeeling}). This yielded 479 keyword matches, of which 299 were flagged as priority matches (co-occurrence of depth/volcanic keywords with archaeological site keywords).
+
+\textbf{Step 3: Manual verification and structuring.} Each priority match was reviewed in context to confirm the presence of an actual archaeological site, extract structured fields, identify duplicate mentions across volumes, and assign modern coordinates.
+
+\textbf{Step 4: Georeferencing.} Colonial-era location descriptions (e.g., ``desa Ponggoh, afdeeling Blitar'') were matched to modern administrative units using Indonesian government databases (BPS) and Google Maps. Coordinate accuracy is estimated at $\pm$5 km for village-level locations and $\pm$20 km for district-level references.
+
+\textbf{Step 5: Unit conversion.} All depth measurements were converted to meters: 1 Dutch \textit{voet} = 0.3048 m; 1 \textit{vadem} = 1.70 m; 1 \textit{el} = 0.69 m. Centimeters (\textit{c.M.}) were distinguished from meters (\textit{M.}) using contextual clues.
+
+\subsection{Sampling strategy}
+
+CARJ aims to capture all archaeological site observations in the OV reports that include burial depth data, volcanic context, or condition descriptions. The dataset is not a statistical sample but a systematic extraction from a defined documentary corpus.
+
+\subsection{Quality control}
+
+Three quality control measures were applied:
+\begin{enumerate}
+    \item \textbf{Dual extraction:} Priority matches were reviewed independently using both automated keyword context and manual full-text reading of key passages.
+    \item \textbf{Cross-volume verification:} Sites mentioned in multiple OV volumes were compared for consistency; discrepancies were noted in the \texttt{notes} field.
+    \item \textbf{Modern cross-reference:} Colonial entries were cross-referenced against modern Indonesian heritage databases (BPCB registry, Wikipedia candi list) to verify site identification and flag potential georeferencing errors.
+\end{enumerate}
+
+\subsection{Constraints}
+
+\begin{enumerate}
+    \item OCR quality varies across volumes; some site names may contain transcription errors.
+    \item OV volumes for 1913 and 1915 were not available digitally.
+    \item The OV reports preferentially documented Hindu-Buddhist brick and stone structures; organic-material sites are underrepresented.
+\end{enumerate}
+
+\section{(3) Dataset Description}
+
+\subsection{Object name}
+
+Colonial Archaeological Register of Java (CARJ) v1.0
+
+\subsection{Data type}
+
+Primary data extracted from historical documentary sources.
+
+\subsection{Format names and versions}
+
+CSV (UTF-8), compatible with any spreadsheet or GIS software.
+
+\subsection{Creation dates}
+
+Start date: 2026-03-13. End date: 2026-03-13.
+
+\subsection{Dataset creators}
+
+Mukhlis Amien, Department of Computer Science, Universitas Muhammadiyah Malang, Indonesia.
+
+\subsection{Language}
+
+English (field names and descriptions). Dutch colonial site names preserved in \texttt{site\_name} field.
+
+\subsection{License}
+
+CC BY 4.0
+
+\subsection{Repository location}
+
+\begin{itemize}
+    \item \textbf{Zenodo:} [DOI to be assigned upon deposit]
+    \item \textbf{GitHub:} \url{https://github.com/neimasilk/volcarch}
+\end{itemize}
+
+\subsection{Publication date}
+
+2026
+
+\subsection{File description}
+
+The dataset is provided as a single CSV file (\texttt{colonial\_site\_register\_v1.0.csv}) with 52 records and 21 fields:
+
+\begin{table}[h]
+\centering
+\small
+\caption{CARJ field descriptions}
+\begin{tabular}{llp{6.5cm}}
+\toprule
+\textbf{Field} & \textbf{Type} & \textbf{Description} \\
+\midrule
+source & string & OV volume reference (e.g., ``OV\_1919'') \\
+year\_report & integer & Year of the OV report \\
+site\_name & string & Site name in Dutch colonial text \\
+modern\_name & string & Modern Indonesian name (if known) \\
+location & string & Location description from OV \\
+regency & string & Colonial \textit{regentschap} / modern kabupaten \\
+province & string & Modern province \\
+lat & float & Latitude (WGS84, approximate) \\
+lon & float & Longitude (WGS84, approximate) \\
+built\_ce & string & Estimated construction date (CE) \\
+found\_year & integer & Year of discovery or first report \\
+burial\_depth\_m & float & Burial depth in meters \\
+depth\_type & string & ``measured'' / ``estimated'' / ``qualitative'' \\
+material & string & Material description \\
+volcanic\_system & string & Associated volcanic system \\
+volcano\_dist\_km & float & Distance to volcano (km) \\
+rate\_mm\_yr & float & Calculated burial rate (mm/year) \\
+condition & string & Site condition at observation \\
+context & string & Depositional context \\
+notes & string & Key colonial text observations \\
+ov\_page & string & Page reference in OV volume \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Dataset summary}
+
+\begin{itemize}
+    \item Total entries: 52
+    \item Entries with depth measurements: 32 (62\%)
+    \item Entries with coordinates: 43 (83\%)
+    \item Entries with volcanic system association: 44 (85\%)
+    \item OV volumes covered: 14 (1912--1929)
+    \item Provinces: 9 (East Java, Central Java, Yogyakarta, South Sumatra, West Sumatra, South Kalimantan, Riau, Bali, North Sumatra)
+    \item Depth range: 0.60--9.14 m, mean 2.88 m, median 2.00 m
+    \item Dominant condition: buried (37\%), found (19\%), excavated (12\%)
+    \item Dominant context: volcanic (42\%), excavation (23\%), volcanic+alluvial (6\%)
+\end{itemize}
+
+\section{(4) Reuse Potential}
+
+CARJ has direct applications in several research domains:
+
+\textbf{Volcanic taphonomy.} The burial depth measurements provide empirical calibration data for models of volcanic sedimentation and site destruction \citep{amien2026settlement}. The dataset includes observations of sites at varying distances from active volcanoes, enabling distance-decay analysis of volcanic burial processes.
+
+\textbf{Site preservation monitoring.} A preliminary cross-reference of CARJ against modern Indonesian heritage databases reveals that approximately 54\% of entries (28 of 52) have no identifiable counterpart in current registries. Of these ``lost sites,'' 21 have burial depth measurements ranging from 0.60 to 9.14 m, representing irreplaceable observations of site conditions that can no longer be directly verified.
+
+\textbf{Archaeological history.} The dataset preserves a record of early 20th-century archaeological practice in Indonesia, including excavation methods, classification systems, and interpretive frameworks of colonial archaeologists.
+
+\textbf{Colonial studies.} The extraction of structured data from Dutch colonial administrative texts demonstrates a methodology applicable to other colonial archives (e.g., British India, French Indochina) where archaeological observations are embedded in narrative government reports.
+
+\textbf{Heritage management.} Indonesian heritage agencies (BPCB) can use CARJ to identify sites that were known a century ago but have since been lost --- prioritizing them for survey and protection.
+
+\subsection{Known limitations}
+
+\begin{enumerate}
+    \item \textbf{Georeferencing accuracy:} Coordinates are approximate ($\pm$5--20 km). Colonial-era place names do not always correspond to modern administrative units.
+    \item \textbf{Temporal coverage:} CARJ covers 1912--1929. Extending to the full OV run (1912--1949) would increase the dataset significantly.
+    \item \textbf{Depth measurement context:} Not all depth measurements represent natural burial; some are architectural features. The \texttt{context} and \texttt{depth\_type} fields distinguish these cases.
+    \item \textbf{Selection bias:} Hindu-Buddhist brick and stone structures are overrepresented; organic-material sites are absent.
+\end{enumerate}
+
+\section*{Acknowledgments}
+
+The OV reports are in the public domain. Internet Archive provided digital access. AI-assisted text processing (Claude, Anthropic) was used for Dutch-language keyword extraction and contextual analysis under human supervision.
+
+\section*{Competing interests}
+
+The author declares no competing interests.
+
+\section*{Funding information}
+
+This research received no external funding.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,10 @@
+domain,experiment,test_name,p_value,effect_size,effect_type,n,supports_thesis,notes
+spatial,E065,Candi volcanic zone overrepresentation (chi-squared),1e-06,17.9,overrepresentation_ratio,142,True,60 candi in Zone A (<10km) vs 3.4 expected
+spatial,E065,Candi western quadrant clustering (Rayleigh),3.4e-08,0.472,proportion_excess,142,True,Western (upslope) preference for candi placement
+spatial,E066,Candi equinox alignment (binomial),4.9e-14,0.85,proportion,20,True,Astronomical orientation distinct from volcanic proximity
+spatial,E066,Candi NOT volcano-facing (McNemar),0.0016,0.35,proportion,20,True,Equinox dominates orientation; volcanic proximity affects SITING not FACING
+spatial,ADV-3,Volcanic proximity after survey control (quasi-Poisson LR),0.0015,-0.477,regression_beta,703,True,Fewer sites near volcanoes even after controlling road/BPCB/university distance
+linguistic,E029,Substrate cross-linguistic cognacy (permutation),0.569,0.769,mean_distance,266,False,No coherent pre-AN substrate phonology
+linguistic,E038,Volcanic vocabulary diversity by proximity (t-test),0.68,-0.42,t_statistic,1330,False,Volcanic terms are core Swadesh — too stable to drift
+linguistic,E067,Volcanic toponym proximity correlation (Spearman),0.146,0.14,correlation_rho,110,False,Volcanic morphemes NOT concentrated near volcanoes
+linguistic,E067,Volcanic toponym close vs far (Mann-Whitney),0.734,0.001,proportion_difference,25244,False,Near-volcano villages use volcanic names at same rate as far villages

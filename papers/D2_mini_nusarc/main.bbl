@@ -1,0 +1,56 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Amien(2026)]{amien2026taphonomic}
+Mukhlis Amien.
+\newblock Volcanic taphonomic bias in the archaeological record of {Java}: A
+  quantitative framework.
+\newblock \emph{Asian Perspectives}, 2026.
+\newblock Submitted.
+
+\bibitem[Bellwood(2007)]{bellwood2007prehistory}
+Peter Bellwood.
+\newblock \emph{Prehistory of the {Indo-Malaysian} Archipelago}.
+\newblock ANU Press, 3rd edition, 2007.
+
+\bibitem[Brumm et~al.(2010)Brumm, Jensen, van~den Bergh, Morwood, Kurniawan,
+  Aziz, and Storey]{brumm2010flores}
+Adam Brumm, Gitte~M. Jensen, Gerrit~D. van~den Bergh, Michael~J. Morwood, Iwan
+  Kurniawan, Fachroel Aziz, and Michael Storey.
+\newblock Hominins on {Flores, Indonesia}, by one million years ago.
+\newblock \emph{Nature}, 464:\penalty0 748--752, 2010.
+
+\bibitem[D{\'e}troit et~al.(2019)D{\'e}troit, Mijares, Corny, Daver, Zanolli,
+  Dizon, Robles, Gr{\"u}n, and Piper]{détroit2019luzon}
+Florent D{\'e}troit, Armand~Salvador Mijares, Julien Corny, Guillaume Daver,
+  Cl{\'e}ment Zanolli, Eusebio Dizon, Emil Robles, Rainer Gr{\"u}n, and
+  Philip~J. Piper.
+\newblock A new species of {Homo} from the {Late Pleistocene} of the
+  {Philippines}.
+\newblock \emph{Nature}, 568:\penalty0 181--186, 2019.
+
+\bibitem[S{\'e}mah et~al.(2014)S{\'e}mah, S{\'e}mah, and
+  Simanjuntak]{sémah2014java}
+Fran{\c{c}}ois S{\'e}mah, Anne-Marie S{\'e}mah, and Truman Simanjuntak.
+\newblock {Java}: Human arrivals and dispersals.
+\newblock In \emph{Southern Asia, Australia, and the Search for Human Origins}.
+  Cambridge University Press, 2014.
+
+\bibitem[Simanjuntak(2002)]{simanjuntak2002}
+Truman Simanjuntak.
+\newblock Gunung sewu in prehistoric times.
+\newblock In \emph{Gunung Sewu in Prehistoric Times}. Gadjah Mada University
+  Press, Yogyakarta, 2002.
+
+\bibitem[Swisher et~al.(1994)Swisher, Curtis, Jacob, Getty, Suprijo, and
+  Widiasmoro]{swisher1994mojokerto}
+Carl~C. Swisher, Garniss~H. Curtis, Teuku Jacob, A.~G. Getty, Agus Suprijo, and
+  Widiasmoro.
+\newblock Age of the earliest known hominids in {Java, Indonesia}.
+\newblock \emph{Science}, 263:\penalty0 1118--1121, 1994.
+
+\end{thebibliography}

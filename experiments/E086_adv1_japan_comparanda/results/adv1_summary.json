@@ -1,0 +1,48 @@
+{
+  "experiment": "E086_adv1_japan_comparanda",
+  "type": "ADV-1 (Adversarial)",
+  "status": "PARTIAL",
+  "verdict_short": "VOLCARCH survives with mandatory scope restriction",
+  "scores": {
+    "volcanic_burial_hides_sites": {
+      "result": "CONFIRMED",
+      "evidence": "Japan finds buried sites only through massive rescue archaeology investment"
+    },
+    "survey_intensity_primary_driver": {
+      "result": "CONFIRMED",
+      "evidence": "100-200x difference in survey intensity explains most of Japan-Indonesia gap"
+    },
+    "tropical_lahar_deeper_burial": {
+      "result": "SUPPORTED",
+      "evidence": "Java sustained rates 30x Japan background; tropical lahar amplification"
+    },
+    "pre_4c_java_civilizations_buried": {
+      "result": "NOT CONFIRMED",
+      "evidence": "Could also reflect genuine absence; Japan shows volcanic zones CAN yield deep records"
+    },
+    "problem_requires_fieldwork": {
+      "result": "CONFIRMED",
+      "evidence": "Japan solved its buried record only through rescue excavation system"
+    }
+  },
+  "mandatory_revisions": [
+    "P1/P11 must include Japan comparandum paragraph",
+    "L1 must reframe: burial + insufficient survey intensity = invisibility",
+    "Advocate for Indonesian rescue archaeology legislation",
+    "Include Java vs Japan sedimentation rate comparison in P1"
+  ],
+  "key_numbers": {
+    "japan_sites_registered": 460000,
+    "indonesia_sites_estimated": 1500,
+    "japan_excavations_per_year": 8700,
+    "indonesia_excavations_per_year": 70,
+    "survey_intensity_ratio": 124,
+    "java_sedimentation_mean_mm_yr": 4.44,
+    "japan_background_sedimentation_mm_yr": 0.14,
+    "sedimentation_ratio": 32.0,
+    "japan_archaeologists": 6250,
+    "indonesia_archaeologists": 350,
+    "japan_heritage_law_year": 1950,
+    "indonesia_heritage_law_year": 2010
+  }
+}

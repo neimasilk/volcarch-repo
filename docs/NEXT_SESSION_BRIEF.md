@@ -1,176 +1,160 @@
-# Next Session Brief — 2026-03-12
-## Prepared: 2026-03-12 (end of Mata Elang #5 autonomous session)
+# ~~Next Session Brief~~ — DEPRECATED
+
+> **DEPRECATED (2026-03-16):** This file is superseded by `docs/WORKSTATE.md`. New sessions should read WORKSTATE.md for the active work contract. This file is retained as a historical snapshot only — do not update it.
+
+# Next Session Brief — 2026-03-16 (updated post-E088)
+## Prepared: 2026-03-16
 
 ---
 
 ## 1. Project Snapshot
 
-**6 papers submitted. 60+ experiments completed. 0 papers in drafting. 2-6 months review wait.**
+**6 papers submitted. 2 data papers drafted. 90 experiments. Structural critique complete. E088-E090 textual archaeology + transformer NLP pipeline operational.**
 
 | Paper | Journal | Submitted | Status | MS# |
 |-------|---------|-----------|--------|-----|
 | P1 | Asian Perspectives (Q1) | 2026-03-10 | Awaiting reviewer | 019A-0326 |
 | P2 | JCAA (Diamond OA) | 2026-03-11 | Awaiting reviewer | #280 |
-| P5 | BKI (Diamond OA) | 2026-03-09 | Awaiting reviewer | — |
-| P7 | Antiquity Project Gallery (Q1) | 2026-03-06 | Awaiting reviewer | — |
+| P5 | BKI (Diamond OA) | 2026-03-09 | Awaiting reviewer | -- |
+| P7 | Antiquity Project Gallery (Q1) | 2026-03-06 | Awaiting reviewer | -- |
 | P8 | Oceanic Linguistics (Q1) | 2026-03-11 | Awaiting reviewer | OL-03-2026-11 |
 | P9 | JSEAS (NUS Press) | 2026-03-11 | Desk review | JSEAS-202603-051 |
-
-**Pipeline:** 6 under review + 1 incubating (P11) = 7 active papers.
-
----
-
-## 2. Mata Elang #5 Results (This Session)
-
-**20 experiments in one autonomous session** (E048-E067, minus stubs). Key achievements:
-
-### New Evidence
-| Experiment | Finding | Impact |
-|-----------|---------|--------|
-| E048 | Genre taphonomy: sima 90.4% vs short 24.1% organic | L5 VERIFIED |
-| E049 | Maritime #2 conserved domain (+20% Bal vs Jav) | P8+P9 ammo |
-| E050 | Canarium in ALL Austronesian regions (388 MG records) | P5+P9 ammo |
-| E051 | 25,244 Java villages, 57.7% pre-Hindu, court rho=0.387 | Major discovery |
-| E052 | 2.09M km² Sunda Shelf exposed at LGM | L2 VERIFIED |
-| E053 | 0/84 Java aDNA (Fisher p=0.047) | Meta-taphonomic |
-| E054 | 1,309 langs: global phylogenetic, local conservatism | Two-gradient |
-| E055 | 27 experiments catalogued in convergence synthesis | Meta |
-| E056 | Candi in MORE Indianized areas (MW p=0.007) | Dual signature |
-| E057 | Long format 85.7% hyang vs Short 13.0% | L5 deep dive |
-| E058 | Agriculture 91% native, Religion 86% Sanskrit | Domain gradient |
-| E059 | Top 10 fieldwork GPS @ Kelud (13.1 mm/yr) | ACTIONABLE |
-| E060 | 8-channel synthesis: "400 CE start" is artifact | Definitive answer |
-| E064 | Master evidence table: 50 experiments × 7 papers × 6 layers | Revision ammo |
-
-### Manifesto v3.0: ALL 6 LAYERS NOW ACTIVE
-- L1: Volcanic Burial → VERIFIED (P1, P2, P9, 21 experiments)
-- L2: Coastal Submersion → QUANTIFIED (E052: 2.09M km², 971 paleo-rivers)
-- L3: Historiographic Bias → VERIFIED (P7, P5, P8)
-- L4: Cosmological Overwrite → STRONGEST (26 experiments, 81% success rate)
-- L5: Genre Taphonomy → VERIFIED (E048, E057, E058)
-- L6: Historiographic Periodicity → VERIFIED (E030, E033)
-
-### Completed in Wave 6 (E061-E065 + P11)
-- E061: Indic Script Simplification — Austronesian scripts simplify MORE (MW p=0.027)
-- E062: Visibility Curve — PCA PC1=51.3%, C8=-1.49 dark century, peak C13
-- E063: Domain Conservation — 1,580 langs: Food LAST (6.1%), Numbers FIRST (59.5%)
-- E064: Master Evidence Table — 50 experiments × 7 papers, revision ammo JSON
-- E065: Candi Spatial — Zone A 17.9× overrepresented, West 47.2%
-- **P11 draft v0.1: 15 pages LaTeX, 5 tests, compiles clean. Target: Indonesia (Cornell)**
-
-### Completed in Wave 7 (P11 figures + E066-E067)
-- **P11 figures (5/5):** Polar bearings, Penanggungan west-cluster, eruption seasonality, cross-cultural falsification, feedback loop. All embedded in LaTeX → 17 pages, 2.1 MB PDF.
-- E066: Candi Archaeoastronomy — 85% face equinox directions (binomial p=4.9e-14). McNemar p=0.0016 vs volcanic. WHERE=volcanic, HOW=astronomical.
-- E067: Volcanic Toponyms — INFORMATIVE NEGATIVE. 4.3% have volcanic morphemes, no proximity effect (rho=+0.14, p=0.15). VI = behavioral, not lexical.
+| **P11** | Target: Indonesia (Cornell, Q2) | **DRAFTING** | v0.2 reframed | -- |
+| **D1** | JOAD (APC £374) | **DRAFT READY** | Colonial register (52 entries) | -- |
+| **D2** | JOAD (APC £374) | **DRAFT READY** | Mini-NusaRC (80 sites) | -- |
 
 ---
 
-## 3. Coverage Assessment (from E064)
+## 2. What Was Accomplished This Session (Mata Elang #8 + E088)
 
-### Strong Channels (≥5 experiments)
-- Ch1 Geology/Taphonomy: 26 experiments
-- Ch6 Linguistics: 19 experiments
-- Ch7 Ritual/Ethnography: 9 experiments
-- Ch5 Ethnobotany: 5 experiments
+### E088: Computational Textual Archaeology — SUCCESS
+- 27 references across 9 traditions, 73 entities, 6 cross-lingual resolution groups
+- Monte Carlo convergence: p < 0.00001 (9/9 traditions → insular SE Asia)
+- 18/27 (67%) predate 400 CE — external world saw Nusantara before Nusantara's own record begins
+- Knowledge graph: 93 nodes, 83 edges. Genuinely NEW independent data stream.
+- P16 pipeline foundation ready. Next: expand to 50+ references + LLM-powered NER.
 
-### Underserved Channels (≤2 experiments)
-- **Ch10 Material Culture: 1 experiment** (only E060 meta)
-- **Ch11 Acoustics: 1 experiment** (only E060 meta)
-- Ch2 Maritime/Coastal: 2 experiments
-- Ch3 Genetics/DNA: 2 experiments
-- Ch9 Archaeoastronomy: 2 experiments
+### E089: Expanded Textual Corpus — SUCCESS
+- 27 → 50 references, 10 traditions (added Tamil/Sangam), 143 entities
+- All 50 with actual passage text for NLP pipeline
 
-### Weakest Reconstruction Domain (from E060)
-- **Script/Literacy**: SPECULATIVE confidence. Only E036 (Hanacaraka). E061 should help.
+### E090: Transformer NLP — MIXED (4/6 informative, 2 negative)
+- **STRONG:** UMAP+HDBSCAN → 78% cross-tradition clusters (CONTENT-driven, not tradition-driven)
+- **STRONG:** Semantic convergence → 4/5 concepts converge (CAMPHOR z=6.55, MARITIME z=9.44)
+- **NEGATIVE:** NLI entailment fails (0.161, below baseline) — wrong tool
+- **WEAK:** BERTopic — corpus too small (need 200+)
+- Key insight: ancient texts cluster by what they DESCRIBE, not who wrote them
+
+### Structural Critique — 10-Section System/Research Design Review
+- Dataset monoculture identified: 21/85 experiments depend on same 268 DHARMA inscriptions
+- 6 Layers of Darkness → recommend collapse to 3 (Physical Taphonomy, Historiographic Bias, Cosmological Overwrite)
+- Speed/credibility risk flagged (6 papers in 10 days from first-time author)
+- Prescription: **CONTRACTION, not expansion** — validate existing work, stop adding experiments
+
+### E086/ADV-1: Japan Comparanda — PARTIAL
+- Japan 100-200× more archaeological survey per area
+- Japan HAS volcanic burial sites (Kanai Higashiura) — found through rescue archaeology
+- Kikai-Akahoya (7300 BP) IS a VOLCARCH-type phenomenon
+- Java 32× deeper sustained burial (tropical lahar regime)
+- **L1 MUST be reframed:** volcanism × survey deficit, not volcanism alone
+- L1 Constitution updated. P1 revision ammo created.
+
+### E087/ADV-5: Substrate Negative Control — GREY ZONE
+- C1 (Tagalog+Cebuano) AUC=0.568 — PASS
+- C5 (Iban+Malay) AUC=0.713 — ALARMING (nearly matches Sulawesi 0.727)
+- Detector conflates ABVD documentation gaps with substrate signal
+- **P8 MUST reframe:** "phonological non-conformity" not "substrate detection"
+- P8 revision ammo created.
+
+### Adversarial Scorecard — COMPLETE (5/5 tests done)
+
+| Test | Target | Result |
+|------|--------|--------|
+| ADV-1 Japan comparanda | L1 | **PARTIAL** (survives with scope restriction) |
+| ADV-2 Non-volcanic control | L1 | INCONCLUSIVE (p=0.760, N too small) |
+| ADV-3 Survey intensity | L1 | **PASSED** (p=0.0015) |
+| ADV-4 Substrate noise | L4 | **PASSED** (p=0.0000, z=11.05) |
+| ADV-5 Negative control | L4 | **GREY ZONE** (C5 AUC=0.713) |
 
 ---
 
-## 4. Immediate Action Items
+## 3. What Needs To Happen Next
 
-### A. CRITICAL (Before Next Session)
-1. **P9 Word version** — Send `draft_v0.1_jseas_anonymous.docx` to Eileen Shen (JSEAS). They asked for Word format.
-2. **Password changes** — JCAA (neimasilk) and OL (neimasilk) accounts exposed in conversation. CHANGE NOW.
+### STRUCTURAL CRITIQUE FOLLOW-UP (highest priority)
+1. **Colonial data verification** — Open 10 E070 entries on Delpher.nl, verify manually. 2hrs work, prevents retraction.
+2. **Code review** — Pick 5 key scripts (E027, E065, E069, E082, E083), ask Go Frendi or student to rerun from scratch.
+3. **Dependency freeze** — `pip freeze > requirements_frozen.txt`
+4. **Consilience reframing** — Rewrite manifesto to honestly state "2 primary datasets + 3 supplementary" not "4 independent streams"
 
-### B. HIGH PRIORITY (This Week)
-3. **E061-E063 results** — Review when agents complete. Write READMEs, update JOURNAL.
-4. **Preprint decision** — Still BLOCKED. EarthArXiv for P1+P2. Pro: DOI for cross-citation. Con: minimal.
-5. **P11 drafting** — Outline exists at `papers/P11_volcanic_informedness/outline_v0.1.md`. All data ready. Can draft in 1-2 sessions.
+### PAPER-RELATED
+5. **P11 v0.3** — Incorporate E082/E083/E084 + Japan comparandum + survey intensity framing
+6. **D1+D2** — Zenodo deposit + JOAD submission (user decision on APC waiver)
+7. **Wait for editorial responses** — Do NOT submit more papers
 
-### C. MEDIUM PRIORITY (Review Period)
-6. **Underserved channel experiments** — Ch10 (keris/batik), Ch11 (gamelan), Ch9 (candi astronomy extension)
-7. **Collaboration outreach** — Archaeologist (BPCB), Linguist (Adelaar), Anthropologist (UGM)
-8. **Dashboard update** — volcarch-dashboard.streamlit.app should reflect 60+ experiments, 6 papers
-9. **Conference search** — IPPA 2026? Indonesian archaeology meetings?
+### IF REVIEWER RESPONSES ARRIVE
+8. **P1 revision** — Japan paragraph ready (ADV1_japan_comparanda.md), depth argument ready (ADV2_depth_vs_sitetype.md)
+9. **P8 revision** — Negative control reframing ready (ADV5_negative_control.md)
 
-### D. LOW PRIORITY (Only If Bored)
-10. **KawiKupas tool (I-022)** — Sanskrit ratio extractor for Kawi texts. Blocks I-023.
-11. **Primbon deep extraction** — 261 pages, only ~3 entries extracted so far.
-12. **Wayang carangan (I-009)** — Needs manual curation of non-Indian episodes.
+### MEDIUM-TERM (only after 1-7 complete)
+10. **Conference presentation** — Submit to EHPA or Berkala Arkeologi Jogja. Build real-world presence.
+11. **Colonial register v2.0** — Expand 52→75+ entries (22 candidates identified)
+
+### USER DECISIONS NEEDED
+- JOAD APC £374: proceed with waiver request, or find free alternative?
+- Conference submission: which venue, when?
+- Preprint: post P1 to EarthArXiv now?
 
 ---
 
-## 5. Risks Update
+## 4. Key Files
 
-### 5.1 All 6 papers could be rejected
-- **Mitigation:** Revision ammo now comprehensive (E064 generated per-paper bullet lists). Alternative journals identified for each.
+| Resource | Location |
+|----------|----------|
+| E086 ADV-1 Japan | `experiments/E086_adv1_japan_comparanda/` |
+| E087 ADV-5 Negative Control | `experiments/E087_substrate_negative_control/` |
+| E088 Textual Archaeology | `experiments/E088_textual_archaeology_nlp/` |
+| E089 Expanded Corpus | `experiments/E089_expanded_textual_corpus/` |
+| E090 Transformer NLP | `experiments/E090_transformer_textual_nlp/` |
+| P1 Japan revision ammo | `papers/P1_taphonomic_framework/revision_ammo/ADV1_japan_comparanda.md` |
+| P8 negative control ammo | `papers/P8_linguistic_fossils/revision_ammo/ADV5_negative_control.md` |
+| Structural critique | Journal entry 2026-03-16 |
 
-### 5.2 Single-author credibility
-- P1, P5, P7 single-author. P2, P8, P9 with Go Frendi (informatician, same institution).
-- **Mitigation:** Need domain co-authors for credibility. Collaboration outreach is #1 strategic priority.
+---
 
-### 5.3 No fieldwork
-- E059 generated GPS coordinates. But no permit, no equipment, no collaborator.
-- **Mitigation:** Frame as "computational predictions awaiting field validation." GPR survey costs ~$100/day.
+## 5. Cathedral Findings (survive ALL adversarial scrutiny)
 
-### 5.4 Preprint priority
-- 6 papers in review, no preprints. Risk: someone publishes similar framework first.
-- **Mitigation:** Post P1 to EarthArXiv ASAP. Single-author = no co-author consent needed.
+| Finding | p-value | Adversarial status |
+|---------|---------|-------------------|
+| E066 equinox orientation | 4.9e-14 | Trivially true (temples face east) — low novelty |
+| E065 Zone A overrepresentation | <1e-6 | Needs population density control |
+| E084 inscription divergence | 5.2e-08 | Clean — genuinely novel |
+| E051 toponymy substrate | 5.1e-14 | Needs linguist validation |
+| ADV-3 volcanic signal | 0.0015 | Clean — survives survey intensity control |
+| E083 tephra correlation | Independent dataset | Clean — 51 colonial-era pairs |
 
 ---
 
 ## 6. Copy-Paste Prompt for Next Session
 
-**Autonomous cycle paused per user instruction (2026-03-12). Resume when ready.**
-
 ```
-Lanjutkan siklus otonom. Total: 6 paper submitted, 67+ eksperimen, 6/6 layer aktif, manifesto v3.0.
-
-Baca dulu:
+Lanjutkan. Baca brief:
 - docs/NEXT_SESSION_BRIEF.md
-- docs/L3_EXECUTION.md
-- experiments/E064_master_evidence_table/results/revision_ammo_bullets.json
-- docs/TRIGGER_MAP.md (cek trigger baru)
+- docs/JOURNAL.md (entry "Mata Elang #8")
 
-Status terakhir:
-- Mata Elang #5 selesai: 20 eksperimen (E048-E067), P11 draft v0.1 (18pp, 5 figur)
-- E066 (archaeoastronomy) dan E067 (volcanic toponyms) selesai — P11 data lengkap
-- Professor roadmap sudah didokumentasi di memory
-- 6 paper dalam review, tunggu keputusan editor (2-6 bulan)
+STATUS: 87 eksperimen, 6 paper submitted, P11 drafting, D1+D2 drafted.
+Mata Elang #8: Structural critique + ADV-1 Japan (PARTIAL) + ADV-5 negative
+control (GREY ZONE).
 
-Tugas prioritas (kamu pilih berdasarkan judgment):
+PRIORITAS (post-critique):
+1. Colonial data verification (10 entries via Delpher.nl)
+2. Code review (5 key scripts)
+3. Consilience reframing (honest dataset dependency)
+4. P11 v0.3 (incorporate Japan + survey intensity)
+5. Wait for editorial responses — NO new submissions
 
-1. **P11 finalisasi** — Draft sudah 18pp dengan 5 figur. Perkuat: abstract, introduction framing, discussion §5 (volcanic informedness = behavioral not lexical). Data: E031, E032, E039, E065, E066, E067. Target: Indonesia (Cornell, Q2).
-
-2. **Underserved channels** — Eksperimen baru:
-   - Ch10 Material Culture: keris/batik volcanic connection
-   - Ch11 Acoustics: gamelan bronze/volcanic soil
-   - Ch9 Archaeoastronomy: extend E066 (solstice analysis)
-
-3. **Revision ammo deepening** — Siapkan response-to-reviewer templates per paper. Gunakan revision_ammo_bullets.json.
-
-4. **Dashboard update** — volcarch-dashboard.streamlit.app perlu update: 67+ experiments, 6 papers, new layers.
-
-5. **Preprint decision** — P1 ke EarthArXiv? Pro: DOI priority. Con: minimal risk. User belum decide.
-
-6. **Collaboration outreach prep** — Draft email templates untuk: archaeologist (BPCB/UGM), linguist (Adelaar), anthropologist.
-
-Konteks strategis: User target Profesor by 2033. Paper VOLCARCH = triple purpose (disertasi S3, KUM jabfung, syarat khusus). Jangan tabung paper — submit terus, tapi ALOKASI strategis per tingkat jabatan.
-
-Santai dalam waktu, serius dalam metode. Kamu otonom sampai diinterupsi.
+Kamu otonom. "Santai dalam waktu, serius dalam metode."
 ```
 
 ---
 
-*Prepared at end of Mata Elang #5, 2026-03-12.*
-*"Pertanyaannya bukan lagi: apakah peradaban pra-Hindu Nusantara ada? Pertanyaannya: seberapa canggih ia, dan berapa banyak yang hilang?"*
-*67+ experiments. 11 channels. 6 layers. The consilience is real.*
+*"Japan menunjukkan apa yang bisa ditemukan Indonesia jika berinvestasi 100× lebih banyak. VOLCARCH bukan tentang vulkanisme saja — ia tentang vulkanisme × kelangkaan survei."*

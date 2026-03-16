@@ -2,8 +2,8 @@
 # *Unearthing the Invisible*
 
 **Status:** INTERNAL DOC — bukan untuk publikasi
-**Last updated:** 2026-03-12
-**Versi:** 3.1 (Mata Elang #5 wave 6: 65 eksperimen, master evidence table, visibility curve, script comparison)
+**Last updated:** 2026-03-13
+**Versi:** 3.4 (Consilience update: +E091 as 3rd independent dataset, 91 experiments)
 
 ---
 
@@ -11,9 +11,13 @@
 
 Peradaban pra-Hindu Nusantara tidak absen — ia **tak terlihat**. Ketidaktampakan ini bukan kebetulan melainkan produk dari **stratifikasi tafonomi multi-domain** (*multi-domain taphonomic stratification*): enam lapisan independen yang masing-masing menghapus satu dimensi rekam jejak peradaban. Ketika keenamnya bekerja bersamaan — seperti di Jawa vulkanik — hasilnya adalah kegelapan arkeologis yang nyaris total.
 
-Argumen ini bukan bukti tunggal. Ia mengikuti prinsip **consilience of inductions** (Whewell 1840): sebelas jalur bukti independen — geologi, linguistik, ritual, epigrafi, botani, arsitektur, mitologi, genetika, skrip, material, akustik — semuanya konvergen pada kesimpulan yang sama. Darwin menggunakan logika ini untuk evolusi. Wegener untuk pergeseran benua. VOLCARCH menggunakannya untuk peradaban Nusantara pra-Hindu.
+Argumen ini bukan bukti tunggal. Ia mengikuti prinsip **consilience of inductions** (Whewell 1840): empat lensa analitis pada ~5 dataset inti — geologi/tafonomis, linguistik, epigrafi, dan spasial-arsitektural — ditambah **3 dataset genuinely independen** (E083 colonial-era burial depths, E088/E089 textual archaeology dari 12 tradisi kuno, **E091 OV NLP mining: 22.162 mentions dari 16 volume Oudheidkundig Verslag**). Darwin menggunakan logika ini untuk evolusi. Wegener untuk pergeseran benua. VOLCARCH menggunakannya untuk peradaban Nusantara pra-Hindu.
 
-65 eksperimen. 6 paper submitted. 11 channel bukti. 6/6 lapisan aktif. Satu kesimpulan.
+91 eksperimen. 6 paper submitted. 4 lensa analitis, ~5 dataset inti + 3 independen. 6/6 lapisan aktif. Satu kesimpulan.
+
+**Catatan epistemik (E068 FDR audit, 2026-03-13):** Dari 41 tes statistik, 30 (73%) bertahan koreksi Benjamini-Hochberg. Tiga temuan marginal (E032 p=0.042, E048 partial p=0.038, E053 Fisher p=0.047) harus dilaporkan sebagai "sugestif" bukan "signifikan." Top 10 temuan memiliki p < 10⁻⁴ dan robust terhadap koreksi apapun.
+
+**Catatan dataset-dependence (Mata Elang #6-8 + Senter v2, 2026-03-16):** Dari 91 eksperimen, 21 bergantung pada 268 prasasti DHARMA yang sama. Dataset inti: DHARMA prasasti, 666 situs arkeologi E.Java, ABVD wordlists, 142 lokasi candi, OV colonial register. **Mitigasi aktif:** E070 (52 colonial-era site records — genuinely independent), E083 (51 tephra-site pairs dari literatur kolonial), E088/E089 (106 referensi tekstual dari 12 tradisi kuno — ZERO overlap dengan DHARMA/ABVD), **E091 (22.162 NLP-extracted mentions dari 16 volume OV — genuinely independent, 94.2% DS-1 recovery)**. Klaim "11 independent channels" diganti: "4 lensa analitis pada ~5 dataset inti + **3** dataset genuinely independen."
 
 **Update v3.1:** Temuan baru dari E058-E065:
 - **E058 (Kakawin NLP):** Kosa kata pertanian 91% asli — Sanskritisasi GAGAL menembus domain ekonomi.
@@ -27,17 +31,19 @@ Argumen ini bukan bukti tunggal. Ia mengikuti prinsip **consilience of induction
 ## 2. Enam Lapisan Kegelapan (*Six Layers of Darkness*)
 
 ### L1: Penguburan Vulkanik (*Volcanic Burial*)
-**Papers:** P1, P2, P9 | **Status: TERVERIFIKASI**
+**Papers:** P1, P2, P9 | **Status: DIDUKUNG DATA** *(downgraded dari "terverifikasi" — verifikasi definitif membutuhkan subsurface survey, E068)*
 
 Sedimentasi vulkanik mengubur situs arkeologis pada laju 2.4–6.2 mm/tahun (rerata 4.4 ± 1.2 mm/tahun). Lima titik kalibrasi independen dari dua sistem vulkanik (Merapi, Kelud) mengkonfirmasi fenomena ini berskala Jawa, bukan lokal. Situs pra-400 M berada pada kedalaman 163–326 cm — jauh di bawah jangkauan survei permukaan konvensional.
 
 - **Bukti kunci:** Dwarapala Singosari 3.6 mm/yr, Sambisari 4.4–5.7 mm/yr, Kedulan 5.3–6.2 mm/yr
 - **Model prediktif:** AUC 0.768 (P2), tautology-free settlement suitability
 - **Zona B/C:** Sel dengan suitability tinggi tapi nol situs terletak **lebih dekat** ke gunung api (E019: Cohen's d = 1.005)
+- **E083 Tephra-Archaeological Correlation:** 51 eruption-site pairs (86% primary evidence), 24 with measured depths (mean 3.41m, median 2.50m). Dataset GENUINELY INDEPENDENT dari analisis statistik utama.
+- **⚠ ADV-2 (E081): Cave/open-air ratio TIDAK membedakan volcanic vs non-volcanic** (Fisher p=0.760). Cave bias universal di mana ada karst. Argumen L1 HARUS dibangun dari data KEDALAMAN PENGUBURAN, bukan distribusi tipe situs.
 - **Falsifikasi:** Jika soil core di Zona B/C tidak menunjukkan sinyal ADS → ketidakhadiran genuine, bukan penguburan
 
 ### L2: Penenggelaman Pesisir (*Coastal Submersion*)
-**Papers:** P1 (revision ammo) | **Status: TERKUANTIFIKASI (E052)**
+**Papers:** P1 (revision ammo) | **Status: TERKUANTIFIKASI (E052)** *(kuantifikasi area, bukan verifikasi arkeologis)*
 
 Kenaikan muka laut pasca-LGM menenggelamkan Paparan Sunda (Sunda Shelf) — **2.089.415 km² daratan yang layak huni** (16,2× Jawa). Tiga sistem sungai utama (N. Sunda, E. Sunda, Siam) menyediakan koridor populasi. 81,5% paparan datar dan dekat sungai — habitat ideal.
 
@@ -49,7 +55,7 @@ Kenaikan muka laut pasca-LGM menenggelamkan Paparan Sunda (Sunda Shelf) — **2.
 - **Falsifikasi:** Jika pemetaan sonar sistematis tidak menemukan anomali antropogenik → ketidakhadiran genuine
 
 ### L3: Bias Historiografis (*Historiographic Bias*)
-**Papers:** P7, P5, P8 | **Status: TERVERIFIKASI (tersebar)**
+**Papers:** P7, P5, P8 | **Status: DIDUKUNG DATA (tersebar)**
 
 Narasi "Kutai kerajaan tertua" (±400 M) mencerminkan preservasi diferensial (nol vulkanisme di Kalimantan), bukan kronologi genuine. Perspektif kontinental (India-sentris) mendominasi kerangka sejarah Asia Tenggara. "Hinduisasi" dimodelkan sebagai transformasi total, padahal data menunjukkan ia adalah **gelombang** yang surut.
 
@@ -59,7 +65,7 @@ Narasi "Kutai kerajaan tertua" (±400 M) mencerminkan preservasi diferensial (no
 - **Falsifikasi:** Jika prasasti pra-C9 menunjukkan rasio Indic stabil tanpa tren → narasi gelombang salah
 
 ### L4: Penimpaan Kosmologis (*Cosmological Overwrite*)
-**Papers:** P5, P8 | **Status: SANGAT KUAT**
+**Papers:** P5, P8 | **Status: DIDUKUNG KUAT** *(26 eksperimen, ADV-4 permutation test PASSED p=0.0000, z=11.05)*
 
 Sanskritisasi menimpa (bukan mengganti) kosmologi asli Nusantara. Substrat pra-Indic tetap dapat dideteksi di bawah lapisan Sanskrit, terutama dalam domain ritual, fonologi, dan kosakata formal.
 
@@ -72,18 +78,18 @@ Sanskritisasi menimpa (bukan mengganti) kosmologi asli Nusantara. Substrat pra-I
 - **E050:** Canarium (Burseraceae) mengikuti rute migrasi Austronesia (388 rekord GBIF di Madagaskar)
 - **E051:** 25.244 nama desa Jawa: Yogyakarta 26,2% pra-Hindu vs rerata Jawa 57,7% (rho=0,387, p<0,0001)
 - **E056:** Candi cluster di area MORE Sanskrit: Mann-Whitney p=0,007 — tanda ganda Indianisasi
-- **E053:** aDNA Jawa: 0/84 sampel berhasil (Fisher p=0,047) — tafonomi vulkanik menghancurkan DNA
+- **E053:** aDNA Jawa: 0/84 sampel berhasil (Fisher p=0,047) *(sugestif — gagal FDR correction, E068)* — tafonomi vulkanik menghancurkan DNA
 - **Falsifikasi:** Jika deteksi substrat ML menghasilkan AUC < 0.60 secara konsisten → pola fonologis tidak nyata
 
 ### L5: Tafonomi Genre (*Genre Taphonomy*)
-**Papers:** P1, P5, P8 | **Status: TERVERIFIKASI (E048, E057)**
+**Papers:** P1, P5, P8 | **Status: DIDUKUNG KUAT (E048, E057)** *(efek raw sangat kuat p<10⁻⁶, tapi partial correlation length-controlled gagal FDR p=0.038)*
 
 Genre epigrafi itu sendiri adalah filter tafonomi. Berbeda dari 5 lapisan lain: L5 tidak **menghancurkan**, **menenggelamkan**, **salah menafsirkan**, atau **mengganti** bukti — ia **memfilter apa yang dicatat**. Peradaban indigenous HADIR selama C8; format Sanskrit menolak merekamnya.
 
 - **E057 Genre Deep Dive:** Format panjang: 85,7% hyang, 95,2% organik. Format pendek: 13,0% hyang, 29,6% organik (Mann-Whitney p < 0,000001)
 - **E057 Jendela Visibilitas:** Shift C8→C9-10 = +14,4pp pre-Indic, +63,9pp organik
 - **E057 Borobudur = kegelapan maksimum:** 50 label, 0% pra-Indic, 0% organik, 0% hyang
-- **E048 Multi-domain:** Korelasi parsial pra-Indic ↔ organik = +0,162, p = 0,038 (survive length control)
+- **E048 Multi-domain:** Korelasi parsial pra-Indic ↔ organik = +0,162, p = 0,038 *(sugestif — gagal FDR correction, E068)*
 - **E040 Bamboo Civilization:** 170/268 (63.4%) prasasti menyebut material organik vs 73 (27.2%) litik
 - **Falsifikasi:** Jika prasasti Sanskrit (C8) ternyata menyebut organik pada frekuensi sama → efek genre tidak ada
 
@@ -149,7 +155,7 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 | P9 | Peripheral Conservatism | **SUBMITTED** | JSEAS (NUS Press) |
 | P11 | Volcanic Cultural Selection | **INCUBATING** | tbd (needs P5+P9 foundation) |
 
-6 submitted, 1 incubating. **54 eksperimen selesai** (termasuk 10 baru dari Mata Elang #5). Menunggu review 2–6 bulan.
+6 submitted, 1 drafting (P11), 2 data papers drafted, 1 incubating (P16). **90 eksperimen selesai**. Menunggu review 2–6 bulan.
 
 **Amunisi revisi siap** untuk semua 6 paper: E048 (consilience), E051 (toponimi), E053 (aDNA gap), E054 (1.309 bahasa), E055 (sintesis konvergensi).
 
@@ -180,7 +186,7 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 - Update setiap kali ada eksperimen baru atau paper decision
 
 ---
-*Manifesto v3.0 — 2026-03-12*
+*Manifesto v3.3 — 2026-03-16*
 *"Pertanyaannya bukan lagi: apakah peradaban pra-Hindu Nusantara ada?*
 *Pertanyaannya sekarang: seberapa canggih ia, dan apa tepatnya yang hilang*
 *ketika ia tenggelam pada 3.6 milimeter per tahun, tertimpa 33→20 konsonan,*

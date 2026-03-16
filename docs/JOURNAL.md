@@ -4,6 +4,867 @@
 
 ---
 
+## 2026-03-16 | Senter v3 — Computational Deepening Sprint
+
+**Type:** EXPERIMENTS + SCRIPTS
+
+### E097: Anomaly Detection on Settlement Model — EXECUTED
+- Isolation Forest (500 trees) trained on 378 known sites' environmental features (elevation, slope, TWI, TRI, aspect, river_dist)
+- Scored 589,062 grid cells; 451,676 (76.7%) are "site-like"
+- Combined with E075 burial depth: composite score identifies cells that are site-like AND deeply buried
+- **KEY RESULT: 65% overlap** with E080 top 20 fieldwork targets (13/20 matched within 5km)
+- All top candidates cluster around Kelud at 2-7 km, burial depth 20+ meters
+- Top features: TRI (0.294), slope (0.251), TWI (0.196)
+- 195,382 site-like cells have >1m burial depth — quantifies "dark archaeology" zone
+- Status: SUCCESS. Independent validation for P1/P2.
+
+### E092: Volcanic Archaeology Comparanda Database — COMPILED
+- 28 sites worldwide (Ceren, Akrotiri, Pompeii, Herculaneum, Sambisari, Kedulan, Liyangan, etc.)
+- Structured CSV with depth, tephra type, discovery method, survey technique, cost
+- Methodology blueprint: optimal survey approach by burial depth (GPR at 1-3m, ERT at 3-10m)
+- Status: SUCCESS. Feeds fieldwork planning + P1 revision ammo.
+
+### E093: Indonesian Archaeological Literature Mining — COMPILED
+- 65 publications from Berkala Arkeologi, Kalpataru, Amerta, BPCB, international journals
+- GPR leads: Trowulan (Pojoh 2007), Liyangan (Sulistyanto 2009), Merapi zone
+- Validation opportunities: several publications may contain existing data for burial depth verification
+- Status: SUCCESS. High-value leads for Phase 2 dissemination.
+
+### E090 v5 Full Script — WRITTEN (user runs GPU)
+- Targets v5 corpus (200 entries, 12 traditions)
+- BERTopic REACTIVATED (200 entries meets threshold)
+- 3 new concept groups: VOLCANO, BUDDHIST_WORLD, METAL_TRADE (total 8)
+- v2→v5 delta comparison built in
+- Status: PENDING GPU run.
+
+### E094: DHARMA Semantic Search — WRITTEN (user runs GPU)
+- SBERT on 269 DHARMA inscriptions (first ever on Old Javanese epigraphy)
+- UMAP + HDBSCAN clustering, 7 semantic queries, temporal drift analysis
+- Status: PENDING GPU run.
+
+### E096: DHARMA Diachronic BERTopic — WRITTEN (user runs GPU)
+- First BERTopic application to any epigraphic corpus
+- Pre-929 vs post-929 CE comparison (Mataram collapse)
+- Status: PENDING GPU run.
+
+### E098: Systematic Literature Database — COMPILED
+- 69 volcanic sedimentation rates worldwide
+- 29 buried sites in volcanic contexts
+- 20 GPR surveys in tropical/volcanic soils
+- Meta-analysis: GPR feasibility assessment for Java
+- Status: SUCCESS. Global context for P1.
+
+### Experiment Count: 91 → 98 (E092-E098, E095 skipped/deferred)
+
+---
+
+## 2026-03-16 | Consolidation Sprint — Session 5
+
+**Type:** DISSEMINATION
+
+### P7 Preprint Submitted to Authorea/ESSOAr — DONE
+- Created preprint PDF: `papers/P7_TOM/submission_antiquity_v0.1_preprint.tex` → `_preprint.pdf`
+- Based on reading version with figures inline (7 pages, 8.6MB), removed "READING DRAFT" watermark, added gray "Preprint — under review at Antiquity" header.
+- Submitted via Authorea (authorea.com). Account: amien@ubhinus.ac.id. Single-author.
+- Status: screening (up to 4 business days). DOI expected after screening.
+- Platform: Authorea Preprints (ESSOAr now hosted via Authorea/Wiley).
+
+---
+
+## 2026-03-16 | Post-Senter Consolidation Sprint — Session 4 (Continuation)
+
+**Type:** VALIDATION + DATA EXPANSION
+
+### P11 Number Verification — COMPLETE
+- Verified ALL key statistics in draft_v0.3.tex against experiment READMEs
+- All 30+ numbers match: E031/E065 (candi spatial), E066 (archaeoastronomy), E082 (geocoding), E083 (tephra), E084 (inscription spatial), E069 (survey intensity), E086 (Japan), E013 (AUC)
+- Caught reference count error: SUBMISSION_PREP + L2 + L3 + EVAL all said "11 references" — actual count is **10**. Fixed everywhere.
+- Minor note: manuscript describes geocoding "5 additional from candi cross-referencing" but E082 lists 7 candi matches + 2 XML. The 5 maps to low-confidence entries, not candi method count. Not a factual error in the total (182/268 correct) but imprecise description.
+- SUBMISSION_PREP checklist item "Verify all numbers match experiment READMEs" marked DONE.
+
+### D1+D2 JOAD Blocker — Research Done
+- JOAD has publication fee waiver fund (request in cover letter, editorial decisions independent of ability to pay)
+- Zenodo provides free DOIs for datasets as alternative to journal deposit
+- Recommendation: submit to JOAD with waiver request; fallback to Zenodo if rejected
+
+### Dokumen Jembatan v0.1 — DRAFTED
+- `docs/dissemination/dokumen_jembatan_v0.1.md` + `.pdf` (108KB)
+- 6 sections, Bahasa Indonesia, ~1.500 kata
+- Optimized for NotebookLM processing: clear structure, key numbers prominent, narrative flow
+- Covers: masalah (5 titik kalibrasi), bukti (91 eksperimen), Japan comparandum, apa yang dibutuhkan (soil core + GPR), 10 target survei, undangan kolaborasi
+- Ready for NotebookLM upload → Audio Overview, Study Guide, FAQ
+- Preprint submission guide also created: `docs/dissemination/preprint_submission_guide.md`
+
+### Dissemination Roadmap v1.0 — INTEGRATED
+- Processed from inBox: `VOLCARCH_Dissemination_Roadmap_v1.0.md` → `docs/`
+- Strategy: 4 phases to bridge from papers to physical validation
+- Phase 1 (Foundation): Dokumen Jembatan (4-6pp Indonesian), infographic, preprints
+- Phase 2 (Targeting): BALARJATIM, ITB/UGM Geologi, PVMBG — **gated on 1 paper acceptance**
+- Phase 3 (Amplification): Workshop, Berkala Arkeologi, media populer
+- Phase 4 (Long-term): MoU, Wenner-Gren grant, **satu soil core** at predicted coordinates
+- Key strategic insight: "masuk dari pintu geologi" — geologists don't have 400 CE ego, sedimentation rates are their language
+- Added to WORKSTATE, L3, and session priorities
+- Suggestion: add UB Malang Geosciences as Target A-bis (closer than BALARJATIM)
+- **Critical gate:** do NOT send outreach emails before 1 paper acceptance
+
+### E089 v4 Corpus Expansion — COMPLETE
+- `03_expand_corpus_v4.py` created and executed successfully
+- 106 → 162 entries (+56): Chinese +12, Arab +10, European +10, Nusantaran +8, Indian +5, Persian +4, Roman +4, Tamil +3, Indian Pali +1
+- 12 traditions, 15 independence groups, 551 entities
+- 12 VOLCARCH-relevant entries with direct volcanic/burial references (e.g., Varthema: "temples half buried in earth")
+- BERTopic 200 minimum NOT yet met (162/200, need 38 more)
+- E090 selective script updated to auto-load v4
+- E089 README updated with v4 statistics
+
+---
+
+## 2026-03-16 | Post-Senter Consolidation Sprint — Session 3 (Continuation)
+
+**Type:** HOUSEKEEPING + VALIDATION
+
+### Doc Synchronization
+- L3_EXECUTION.md updated: P11 → v0.3 (was v0.2), consilience/dependency freeze marked DONE, experiment count 90→91
+- L2_STRATEGY.md updated: P11 → v0.3 (18pp), experiment count 90→91
+- EVAL.md updated: P11 status to v0.3
+- Code review of 5 key scripts (E027, E065, E069, E082, E083) COMPLETED:
+  - E027: 357 lines, multi-seed CV, graceful XGBoost fallback — READY
+  - E065: 455 lines, fixed hardcoded paths → `Path(__file__).parent` — READY (after fix)
+  - E069: 479 lines, graceful road raster fallback — READY
+  - E082: 682 lines, stdlib-only, `Path(__file__)` paths — READY
+  - E083: 932 lines, stdlib-only, comprehensive data — READY
+
+### Status Verification
+- All revision ammo confirmed in place: P1 (ADV1+ADV2+ADV3), P5 (differentiation), P8 (ADV5+differentiation), P9 (differentiation), P11 (depth integration)
+- E091 confirmed in EXPERIMENT_INDEX (91 total)
+- P9 Word file exists (`draft_v0.1_jseas_anonymous.docx`)
+- Cross-citation differentiation statements confirmed: P5↔P9, P8↔P9, P9↔P5+P8
+
+---
+
+## 2026-03-16 | Post-Senter Consolidation Sprint
+
+**Type:** PAPER REVISION + HOUSEKEEPING
+
+### P11 v0.3 — DRAFTED
+- Upgraded from v0.2 (13pp) to v0.3 (18pp) with three new evidence layers:
+  - E084 inscription-volcano divergence: MW p=5.2e-08, inscriptions 9.2 km farther from volcanoes than candi
+  - E083 burial depth table: 6 selected sites, mean 3.41m, max 9.14m (Prambanan Vishnu)
+  - E086 Japan comparandum: MANDATORY scope restriction — volcanism × survey deficit, not volcanism alone
+- Added inscription-candi spatial comparison method (Section 3)
+- Embedded 2 of 5 existing figures (polar bearings, Penanggungan)
+- Added 4 new references (Barnes 2003, Shimoyama 2002, Takata 2022, Lavigne 2003)
+- Compiles cleanly at 18 pages
+
+### Consilience reframing — DONE
+- Manifesto v3.3 → v3.4: 2 → 3 genuinely independent datasets (+E091 OV NLP mining)
+- 91 experiments, 4 lensa analitis, ~5 dataset inti + 3 independen
+
+### WORKSTATE updated
+- P11 v0.3 and E090 selective re-run added as IN PROGRESS
+- Session prompt updated to current state
+
+### Consolidation Sprint — Session 2 additions
+- **L1_CONSTITUTION.md:** Added new Section 5 (Evidential Structure / Consilience). Documents 4 analytical lenses, ~5 core datasets, 3 genuinely independent datasets (E083, E088/E089, E091). Includes dataset honesty note re: 21/91 experiments on DHARMA. Sections 6-9 renumbered.
+- **E090 selective script:** Created `e090_selective_v3.py` — runs only EXP 1 (SBERT), 2 (UMAP+HDBSCAN), 5 (Convergence) on v3 corpus (106 entries). Skips BERTopic (needs 200+), NLI (conceptually wrong), NER (extraction only). Ready for GPU.
+- **Dependency freeze:** `requirements_freeze.txt` generated for reproducibility.
+- **P11 v0.3 re-verified:** Compiles at 18pp. All required content confirmed: E084 (p=5.2e-08), E083 (51 pairs), E086 Japan, survey framing, 2 figures, 4 new references.
+- **P11 submission polish:**
+  - Removed orphaned `daldjoeni1984` reference (never cited in text)
+  - Fixed Lavigne 2003 reference: was citing JVGR vol 100 (2000 paper), corrected to Geomorphology vol 49 (2003 sediment transport paper)
+  - Added candi distance numbers for post-929 comparison (Penanggungan 7.4 km)
+  - Converted "supplementary materials" fieldwork targets to "available from corresponding author" (ethical site protection)
+  - Added Data Availability statement with repository URL
+  - Fixed table overfull hbox (zone distribution table)
+  - Created SUBMISSION_PREP.md with *Indonesia* (Cornell) requirements: MS Word, Chicago 17th, no APC
+  - Figs 3-5 assessed: all from old "Volcanic Informedness" framing, NOT included (Pranata Mangsa, cross-cultural falsification, feedback loop) — correct exclusion
+- **E090 README updated:** V3 selective re-run section added with expected outputs
+
+---
+
+## 2026-03-16 | Senter v2 — Making the Flashlight Brighter
+
+**Type:** EXPERIMENT + DATASET EXPANSION
+
+Three computational outputs to break dataset monoculture and mine unused data:
+
+### E091: OV Colonial NLP Mining — SUCCESS
+- Processed 16 OV volumes (1912-1929, 259K lines OCR'd Dutch)
+- Extracted 22,162 structured mentions: 742 volcanic, 26 depth values, 6,932 sites, 9,238 materials
+- DS-1 cross-validation: 94.2% (49/52 entries recovered by automated extraction)
+- 4,820 high-value co-occurrence paragraphs (≥3 categories in same paragraph)
+- Key limitation: numeric depth extraction (26) lower than DS-1 manual (32) — implicit depths missed
+- Output: `experiments/E091_ov_nlp_mining/results/` (6 CSV files + stats JSON)
+
+### E089 v3: Textual Corpus Expansion — SUCCESS
+- Expanded from 50 → 106 entries (+56 new passages with actual translated text)
+- 12 traditions (NEW: European, Persian), 14 independence groups
+- 346 entities (was 143), 60 CONSENSUS references (was 23)
+- VOLCARCH-critical additions: ARB-012 (Arab eyewitness volcanic eruption on Java), EUR-006 (Tomé Pires observes buried candi), CHN-019 (Ma Huan eyewitness volcano)
+- BERTopic target (200) not yet met — 94 more entries needed in future session
+- E090 updated to load v3 corpus
+
+### E076 v2: Multi-tile Satellite Script — WRITTEN
+- Fixed single-tile limitation from v1 (only 5/15 sites covered)
+- Per-site STAC querying ensures correct tile for each of 20 sites
+- Script ready, needs user to run (network-dependent satellite data download)
+
+**Principle:** "Kita tidak sedang menggali, tapi kita sedang bikin senter yang lebih terang dan lebih fokus."
+
+---
+
+## 2026-03-16 | Memory System Update — Anti-Pikun Self-Audit
+
+**Type:** INFRASTRUCTURE
+
+Self-audit caught that the framework overhaul was executed but MEMORY.md still said "PLANNED." This is the meta-problem: building an anti-forgetfulness system but forgetting to update your own memory about it.
+
+**Fixes:**
+- MEMORY.md rewritten: 140→83 lines, all stale references fixed (NEXT_SESSION_BRIEF→WORKSTATE, Sprint 9→10, 83→90 experiments, manifesto v3.2→v3.3, "PLANNED"→"EXECUTED")
+- `feedback_session_continuity.md` updated: fix marked as IMPLEMENTED, added meta-rule about updating memories after structural changes
+- Created `project_revisit_pipeline.md`: 13 revisitable experiments with specific unblock conditions — cross-references TRIGGER_MAP
+- Created `feedback_workflow_multimodel.md`: rules for multi-day, multi-model, multi-experiment workflow continuity
+
+**Meta-rule established:** After ANY structural change, check at minimum: WORKSTATE.md, MEMORY.md, relevant memory files, EXPERIMENT_INDEX.md. At least 2 of these will need updating.
+
+---
+
+## 2026-03-16 | Framework Overhaul — Session Continuity + Tracking Surface Consolidation
+
+**Type:** INFRASTRUCTURE / MAINTENANCE
+
+### Problem
+Two issues degrading research productivity:
+1. Session continuity loss — Claude becomes "pikun" after context compaction. NEXT_SESSION_BRIEF is narrative/lossy.
+2. 13 tracking surfaces, 5 stale — maintenance cost exceeds solo researcher + AI capacity.
+
+### Changes Made
+
+**Phase 1 — Bug Fixes:**
+- E083 README: added missing `**Status:** SUCCESS` + `**Date:** 2026-03-13` header metadata
+- E069 README: `DESIGNED` → `SUCCESS (ADV-3 executed)` + appended execution results with full adversarial scorecard
+- E070 README: `DESIGNED` → `SUCCESS (DS-1 complete)` + appended DS-1 results (52 entries, 32 depths)
+- Ran `scan_experiments.py` → regenerated `experiment_index.json` (84 dirs found, 30 UNKNOWN status from non-standard README format — pre-existing issue)
+- Restored curated `EXPERIMENT_INDEX.md` (scanner output supplements but does not replace)
+
+**Phase 2 — Foundation Document Updates:**
+- L1: H1 reframed to "volcanic sedimentation × insufficient survey intensity"; added ADV-2 (p=0.760), ADV-3 (p=0.0015), ADV-1 Japan constraint; moved Japan from Mission footnote to H1 body
+- L2: Phase → "Phase 1 + Phase 1.5"; P9 MS# added; P11 reframed; D1/D2 added to pipeline; adversarial scorecard added; experiment count → 90
+- EVAL: Added evaluation sections for P1/P5/P7/P8/P9/P11 (6 new sections); added FDR multi-test correction strategy (E068: 30/41 survive BH)
+- Manifesto: v3.2 → v3.3; consilience reframed as "4 lenses on ~5 datasets + 2 independent"; dataset monoculture acknowledged honestly; count → 90
+- IDEA_REGISTRY: Added I-114 through I-119 (E073-E090 results); date → 2026-03-16
+- TRIGGER_MAP: Marked 3 fired triggers (ADV-1, ADV-5, textual archaeology corpus); date → 2026-03-16
+
+**Phase 3 — Session Continuity System:**
+- Created `docs/WORKSTATE.md` — structured, machine-readable, 34 lines. Sections: IN PROGRESS, BLOCKED, SESSION PROMPT, DO NOT WORK ON
+- Updated CLAUDE.md: WORKSTATE.md as item 0 in reading order; added "Session Continuity Protocol" section; updated Current Status
+- Deprecated `docs/NEXT_SESSION_BRIEF.md` with header pointing to WORKSTATE.md (file retained as historical snapshot)
+
+**Phase 4 — Verification:**
+- L3: Added note pointing to WORKSTATE.md for tactical next-actions
+- Verified: WORKSTATE.md <50 lines (34), CLAUDE.md references WORKSTATE 3+ places, L1 has survey intensity + ADV notes, L2 has all required updates, EVAL has 6 new sections + FDR, E069/E070/E083 statuses correct, no active file references NEXT_SESSION_BRIEF without deprecation
+
+### Tracking Surfaces: 13 → 10
+- **Killed:** NEXT_SESSION_BRIEF (→ WORKSTATE.md)
+- **Demoted:** experiment_index.json (auto-generated, not manually maintained)
+- **Created:** WORKSTATE.md (session continuity contract)
+- **Retained (not merged):** IDEA_REGISTRY + TRIGGER_MAP (confirmed: many-to-many relationship, different organizational axes)
+
+### Files Modified (14)
+CLAUDE.md, L1_CONSTITUTION.md, L2_STRATEGY.md, L3_EXECUTION.md, EVAL.md, manifesto.md, IDEA_REGISTRY.md, TRIGGER_MAP.md, NEXT_SESSION_BRIEF.md, JOURNAL.md, E069/README.md, E070/README.md, E083/README.md, experiment_index.json
+
+### Files Created (1)
+docs/WORKSTATE.md
+
+---
+
+## 2026-03-16 | E090: Transformer NLP on Ancient Textual Corpus — MIXED (4/6 informative)
+
+**Type:** EXPERIMENT (Transformer NLP, GPU)
+
+### E090: 6 Transformer-based NLP Experiments — MIXED
+
+Applied state-of-the-art NLP to the E089 expanded corpus (50 passages, 10 traditions). RTX 4080 GPU. Models: all-MiniLM-L6-v2, bart-large-mnli, BERTopic, UMAP+HDBSCAN.
+
+**Results (as-is, no sugarcoating):**
+
+| Exp | Method | Verdict |
+|-----|--------|---------|
+| EXP 1 | SBERT Similarity | INFORMATIVE — within/between ratio 1.35, Sanskrit-Arab merchant texts cluster |
+| EXP 2 | UMAP+HDBSCAN Clustering | **STRONG** — 78% cross-tradition clusters. CONTENT-driven, not tradition-driven |
+| EXP 3 | Zero-shot NER | MODERATE — F1=0.650 entity type detection |
+| EXP 4 | BERTopic | WEAK — only 3 topics, corpus too small |
+| EXP 5 | Semantic Convergence | **STRONG** — 4/5 concepts converge (p<0.001). CAMPHOR z=6.55, MARITIME z=9.44 |
+| EXP 6 | NLI Entailment | **NEGATIVE** — mean=0.161 (below baseline). Wrong tool for this task |
+
+**Key findings:**
+- Ancient texts cluster by CONTENT (trade, geography, Buddhism) not by CULTURE — genuinely novel finding
+- Camphor from Barus described so consistently across 5 traditions that embeddings cluster (z=6.55)
+- JAVA passages do NOT converge (z=0.88, p=0.187) — too diverse in content across traditions
+- NLI entailment fails because traditions describe same world from radically different perspectives — convergence is at ENTITY level not STATEMENT level
+
+Files: `experiments/E090_transformer_textual_nlp/`
+
+---
+
+## 2026-03-16 | E089: Expanded Textual Corpus — SUCCESS
+
+**Type:** DATASET CONSTRUCTION
+
+Expanded E088's 27 references to 50 structured entries with actual passage text across 10 traditions (added Tamil/Sangam). 143 entities, 8 independence groups, 32/50 (64%) predate 400 CE. All 50 have substantial passage text for NLP pipeline.
+
+Files: `experiments/E089_expanded_textual_corpus/`
+
+---
+
+## 2026-03-16 | E088: Computational Textual Archaeology — SUCCESS
+
+**Type:** EXPERIMENT (NLP Pipeline)
+
+### E088: Computational Textual Archaeology — **SUCCESS**
+
+Builds structured database of ancient textual references to Nusantara across 9 traditions, performs cross-lingual entity resolution, constructs knowledge graph, and runs Monte Carlo convergence analysis.
+
+**Key results:**
+- 27 references across 9 traditions (CHEMICAL, GREEK, ROMAN, INDIAN_PALI, INDIAN_SANSKRIT, CHINESE, ARAB, LINGUISTIC, NUSANTARAN)
+- 73 extracted entities, 6 cross-lingual resolution groups
+- 18/27 (67%) predate 400 CE — the conventional start of Nusantaran history
+- **Monte Carlo convergence: p < 0.00001** — probability of 9 traditions randomly pointing to same region is effectively zero
+- 7 fully independent tradition pairs (CHEMICAL evidence independent of ALL textual traditions)
+- Temporal order: CHEMICAL (1700 BCE) → LINGUISTIC (500 BCE) → INDIAN/GREEK (350-235 BCE) → ROMAN/CHINESE (150-264 CE) → NUSANTARAN (400 CE) → ARAB (851 CE)
+- Gap analysis identifies HIGH-priority missing sources: Sangam Tamil literature, Roman cargo papyri
+
+**VOLCARCH interpretation:** External distributed archive confirms pre-4th century Nusantaran maritime civilization. The pattern — external visibility + internal archaeological silence — is precisely what taphonomic hypothesis predicts.
+
+**This is a genuinely NEW independent data stream** — no overlap with DHARMA inscriptions or ABVD. Addresses structural critique's "dataset monoculture" concern.
+
+**[BRIDGE → P16, I-new]** — Pipeline designed for P16 "Visible from the Outside" paper. Next: expand to 50+ references, add LLM-powered NER on full texts (E089/E090 proposed).
+
+Files: `experiments/E088_textual_archaeology_nlp/`
+
+---
+
+## 2026-03-16 | Mata Elang #8 — Structural Critique + Adversarial Blitz
+
+**Type:** STRATEGIC REVIEW + ADVERSARIAL TESTS (E086, E087)
+
+### Structural Critique (System/Research Designer Mode)
+
+Full critique of project architecture — 10 sections, brutal and constructive. Key diagnoses:
+
+1. **Dataset monoculture:** 21/85 experiments use same 268 DHARMA inscriptions. "4 independent streams" → actually 2 primary datasets (DHARMA, ABVD) analyzed 11 ways. Consilience claims must be reframed honestly.
+2. **6 Layers = Ptolemaic epicycles:** L5 and L6 are methodological observations, not "layers of darkness." Framework unfalsifiable as a whole. Recommend collapse to 3 layers: Physical Taphonomy (L1+L2), Historiographic Bias (L3+L5+L6), Cosmological Overwrite (L4).
+3. **p-value parade:** Cathedral findings (p<10⁻⁶) are robust. Mid-range findings (0.01<p<0.05) are suspect given 85+ tests. FDR audit (E068) was good but audited a cherry-picked subset.
+4. **Speed vs credibility:** 6 papers submitted in 10 days from first-time author = red flag for reviewers. Risk of mass desk rejection.
+5. **Identity crisis:** 7 papers across 5 disciplines from one researcher. Over-diversification.
+
+**Prescription: CONTRACTION, not expansion.** Stop adding experiments. Validate what exists.
+
+### E086: ADV-1 Japan Comparanda — **PARTIAL**
+
+The most structurally dangerous test for L1. Japan = volcanic, 38,000 years of archaeology, 460,000 registered sites.
+
+**Key findings:**
+- Japan survey intensity 100-200× Indonesia per unit area (8,300 excavations/yr vs ~70)
+- Japan's 1950 Cultural Properties Protection Act = game-changer (mandatory rescue excavation)
+- Japan HAS volcanic burial sites (Kanai Higashiura, Kuroimine) — found through rescue archaeology, NOT academic surveys
+- **Kikai-Akahoya (7300 BP, VEI-7):** Southern Kyushu depopulated for 500-1000 years — IS a VOLCARCH-type phenomenon
+- Java's tropical lahar regime: 4.4 mm/yr sustained vs Japan background 0.14 mm/yr (32× ratio)
+- **MANDATORY REVISION:** L1 must be reframed from "volcanic burial hides civilizations" → "volcanic burial hides civilizations WHERE survey intensity is insufficient"
+- All papers (P1, P11) must include Japan comparandum paragraph
+
+**Verdict:** L1 survives, but as interaction effect (volcanism × survey deficit), not volcanism alone.
+
+Files: `experiments/E086_adv1_japan_comparanda/`
+
+### E087: Substrate Detector Negative Control — **GREY ZONE**
+
+Tests whether E027 ML substrate detector (AUC=0.762) works on language pairs WITHOUT expected substrate.
+
+**Results (pure phonology features):**
+
+| Control | Languages | AUC | Verdict |
+|---------|-----------|-----|---------|
+| Reference | 6 Sulawesi | 0.727 | — |
+| C1 | Tagalog + Cebuano | 0.568 | PASS (near chance) |
+| C2 | Malay + Minangkabau | 0.674 | MARGINAL |
+| C3 | Random labels | 0.500 | PASS (clean) |
+| **C5** | **Iban + Malay** | **0.713** | **ALARMING** |
+| C6 | Acehnese + Toba Batak | 0.660 | Expected (known substrate) |
+
+**Critical finding:** C5 (Iban+Malay) achieves AUC=0.713 with NO substrate expected — nearly matching Sulawesi's 0.727. The detector conflates ABVD documentation gaps with substrate signal. Iban has 75.6% coverage vs Malay 97.5% — the coverage differential drives classification.
+
+**Implications for P8:**
+- E027 AUC=0.762 is partly a documentation artifact
+- Must reframe: "phonological non-conformity detection" not "substrate detection"
+- The signal IS real (p=0.0000 permutation) but NOT substrate-specific
+- P8 honest framing: "ML identifies phonological fingerprint in residual vocabulary, consistent with but not proof of substrate influence"
+
+**Implications for L4 (Cosmological Overwrite):**
+- L4 loses its strongest computational evidence
+- Other L4 evidence (E030 hyang persistence, E033 Indianization curve, E058 Kakawin NLP) still valid — these are corpus-level observations, not ML classification
+
+Files: `experiments/E087_substrate_negative_control/`
+
+### Adversarial Scorecard Update
+
+| Test | Target | Result | Date |
+|------|--------|--------|------|
+| ADV-1 Japan comparanda | L1 | **PARTIAL** (survives with scope restriction) | 2026-03-16 |
+| ADV-2 Non-volcanic control | L1 | INCONCLUSIVE (p=0.760, N too small) | 2026-03-13 |
+| ADV-3 Survey intensity | L1 | **PASSED** (p=0.0015) | 2026-03-13 |
+| ADV-4 Substrate noise | L4 | **PASSED** (p=0.0000, z=11.05) | 2026-03-13 |
+| ADV-5 Negative control | L4 | **GREY ZONE** (C5 AUC=0.713) | 2026-03-16 |
+
+### Running Totals
+- **Experiments:** 90 completed (E001-E090)
+- **Adversarial tests:** 5 total — 2 PASS, 1 PARTIAL, 1 INCONCLUSIVE, 1 GREY ZONE
+- **Mandatory revisions identified:** L1 reframe (survey intensity), P8 reframe (non-conformity not substrate)
+
+---
+
+## 2026-03-13 | E085: ADV-4 Substrate Noise Permutation Test — PASS
+
+**Type:** ADVERSARIAL TEST
+
+### E085: ADV-4 Substrate Noise Permutation Test — **PASS (p < 0.001, z = 11.05)**
+Tests whether E027's ML substrate detection (AUC=0.760) is statistical noise or genuine phonological signal.
+
+**4-test battery:**
+- **Test 1 (Label Permutation):** 1,000 shuffles, permuted mean AUC=0.500, max=0.584. Observed AUC=0.762 is 11.1 SDs above null. **p < 0.001.**
+- **Test 2 (Random Features):** 100 random feature matrices, mean AUC=0.494, max=0.559. **z = 11.52.**
+- **Test 3 (Frequency-Only):** form_length alone AUC=0.634. Full model AUC lift = +0.128. Phonological features add genuine signal beyond word length. **PASS.**
+- **Test 4 (Circularity):** Removing `language_cognacy_coverage` (top SHAP feature, flagged as potential circular) drops AUC only 0.003 (0.762 → 0.759). **CLEAN.**
+
+**Verdict: PASS.** The substrate detection is NOT noise. L4 (Cosmological Overwrite) ML evidence survives adversarial testing.
+
+**Adversarial scorecard: ADV-3 PASS, ADV-4 PASS. ADV-1 TODO, ADV-2 INCONCLUSIVE.**
+
+Files: `experiments/E085_adv4_substrate_noise/`
+
+---
+
+## 2026-03-13 | Mata Elang #7 — Adversarial Testing + Data Expansion
+
+**Type:** AUTONOMOUS SESSION — ADVERSARIAL TEST + GEOREFERENCING + DATASET CONSTRUCTION
+
+### Session Overview
+Mata Elang #7: three parallel experiments addressing structural critique from ME#6. Focus: (1) most dangerous adversarial test (ADV-2), (2) transformative inscription georeferencing, (3) genuinely independent tephra correlation dataset.
+
+**3 experiments completed (E081-E083).**
+
+### E081: ADV-2 Non-Volcanic Control Test — **INCONCLUSIVE**
+The most dangerous test for L1: do non-volcanic regions (Kalimantan, Madagascar) show same cave bias as volcanic regions?
+- Fisher exact p = 0.760 — NO significant difference in enclosed/open ratios
+- Volcanic 62.7% enclosed vs Non-volcanic 69.2% enclosed — virtually identical
+- **Per-region breakdown reveals heterogeneity:** Kalimantan 100% enclosed (karst research tradition), Madagascar 20% enclosed (historical sites) — opposite stories cancel out
+- **Java anomaly:** LOWEST enclosed rate (36.8%) despite most volcanic — driven by H. erectus river terrace sites (Java vs Kalimantan Fisher p=0.003, wrong direction)
+- **Verdict:** INCONCLUSIVE (N=13 control too small). But cave bias appears universal where karst exists.
+- **Critical implication for L1:** Site-type ratios do NOT support volcanic taphonomy argument. L1 must be built on burial DEPTH data (E070 colonial register, E075 sedimentation model), not site-type distributions.
+- Files: `experiments/E081_adv2_nonvolcanic_control/`
+
+### E082: DHARMA Inscription Georeferencing — **SUCCESS (182/268 = 67.9%)**
+First-ever systematic geocoding of the DHARMA inscription corpus:
+- 182/268 inscriptions geocoded (target was 50) — 173 from known locations, 7 candi match, 2 XML provenance
+- 88 high confidence, 89 medium, 5 low
+- **Volcanic proximity (Java/Bali, N=175):** Mean 25.5 km, Median 27.6 km
+- **Inscriptions are 9.0 km FARTHER from volcanoes than candi** (candi mean 16.5 km per E065)
+- Zone distribution: A (0-10km) 13%, B (10-30km) 66%, C (>30km) 22%
+- Century trend: C9 closest (13.0 km mean) — Mataram-era court inscriptions near Merapi
+- Nearest volcano: Merapi dominates (94 inscriptions), then Kelud (25), Penanggungan (19)
+- Spearman rho(century, distance) = +0.643 — later inscriptions tend farther from volcanoes
+- **Enables:** Spatial analysis of epigraphic record, volcanic proximity testing for all 6 layers
+- Files: `experiments/E082_inscription_georeferencing/`
+
+### E083: Tephra-Archaeological Correlation — **SUCCESS (51 pairs, 86% primary)**
+First dataset linking specific eruption events to specific archaeological sites:
+- **51 eruption-site pairs** across 14 volcanic systems (target was 10)
+- **24 with measured burial depths** (0.68–9.14m, mean 3.41m, median 2.50m)
+- Evidence quality: 44 primary (86%), 2 secondary, 5 inferred
+- Effect types: 37 buried (73%), 5 destroyed, 4 near-miss, 2 tephra fall
+- Top systems: Merapi (15), Arjuno-Welirang (12), Kelud (10)
+- **Genuinely independent** from statistical models — based on colonial field reports and published volcanology
+- Mean site-volcano distance: 40.0 km (where calculable)
+- This is the "missing dataset" identified in ME#6 structural critique
+- Files: `experiments/E083_tephra_archaeological_correlation/`
+
+### Structural Impact on VOLCARCH
+
+**ADV-2 forces L1 reframing:**
+- OLD claim: "Volcanic regions show different site-type distributions" → NOT SUPPORTED
+- NEW claim: "Volcanic regions systematically bury sites deeper, reducing discovery probability" → SUPPORTED by E070 (32 depth measurements), E075 (r=0.951 model), E083 (51 eruption-site pairs with 24 measured depths)
+- L1 status remains DIDUKUNG DATA but argument must shift from site-type to burial-depth evidence
+
+**Inscription georeferencing enables spatial testing of L3-L5:**
+- 175 Java/Bali inscriptions now have coordinates for spatial analysis
+- Can test: inscription density vs volcanic proximity, temporal migration patterns, court-center model
+
+**Tephra dataset adds genuinely independent data stream:**
+- 51 pairs from colonial field reports, not derived from existing VOLCARCH datasets
+- Addresses ME#6 "dataset concentration" critique (4 core datasets → now 5+)
+- Mean burial depth 3.41m aligns with E075 sedimentation model and E070 colonial register
+
+### E084: Inscription-Volcano Spatial Test — **SUCCESS (5/5 significant)**
+Formal statistical comparison of inscription vs candi spatial distributions:
+- Mann-Whitney p=5.2e-08: inscriptions 9.2 km farther from volcanoes than candi (25.7 vs 16.5 km)
+- KS test p=1.4e-09: fundamentally different spatial distributions
+- Zone A: candi 42.3% vs inscriptions 12.9% (Fisher p=6.7e-09) — candi 3.3× overrepresent highest-burial zone
+- Post-929 CE: +22 km shift (16.2→38.4 km, p=5.3e-08) — Mataram→Kadiri political migration
+- Spearman rho=0.49, p=3.0e-05 — later inscriptions trend farther from volcanoes
+- **Implication:** Architectural record oversamples the highest-burial-risk zone. Inscriptions prove civilization extended far beyond the volcanic flanks where surviving candi cluster.
+- Files: `experiments/E084_inscription_volcano_spatial/`
+
+### E085/ADV-4: Substrate Noise Permutation Test — **PASSED (p=0.0000, z=11.05)**
+1000-iteration permutation test for E027 ML substrate detection (AUC=0.762):
+- Label permutation: p=0.0000, z=11.05 — observed AUC 11 SD above random (permuted max=0.584)
+- Random features: p=0.0000, z=11.52 — real features vastly outperform noise
+- Frequency-only lift: +0.128 AUC from phonological features (beyond word length)
+- Circularity check: removing language_cognacy_coverage drops AUC only 0.003 (0.762→0.759)
+- **Verdict:** Substrate detection is genuine phonological signal, NOT noise. L4 SUPPORTED.
+- Files: `experiments/E085_adv4_substrate_noise/`
+
+### Revision Ammo Updated
+- P1: `ADV2_depth_vs_sitetype.md` — L1 reframed around burial depth (3 evidence streams)
+- P1: `ADV2_honest_assessment.md` — 1-page reviewer-ready memo, no spin
+- P1: `anticipated_critiques.md` — Critique 7 (cave bias) added
+- P11: `depth_evidence_integration.md` — E082/E083 integration strategy
+
+### Running Totals
+- **Experiments:** 85+ completed (E001-E085)
+- **Adversarial tests:** ADV-1 (TODO), ADV-2 (INCONCLUSIVE), ADV-3 (PASSED p=0.0015), ADV-4 (PASSED p=0.0000)
+- **Inscriptions geocoded:** 182/268 (67.9%) — first comprehensive georeferencing
+- **Eruption-site correlations:** 51 documented pairs (86% primary evidence)
+- **Manifesto status:** v3.2 (L1 argument reframed: depth > site-type)
+
+---
+
+## 2026-03-13 | OV Deep Reading + JOAD APC Discovery + Register v2.0 Targets
+
+**Type:** DEEP LITERATURE MINING + PUBLICATION STRATEGY
+
+### JOAD APC Correction — NOT Diamond OA!
+- **JOAD charges APC £374 (~$475)**, not free as initially assumed
+- Waivers available — must be requested in cover letter
+- Max 5,000 words including bibliography
+- Data must be deposited on Zenodo with DOI BEFORE submission
+- Alternative free venues to consider: Internet Archaeology (UK, Diamond OA), Advances in Archaeological Practice (SAA)
+
+### OV Deep Reading — 22+ New Site Candidates
+Three agents systematically read all 16 OV volumes. Found 22+ sites NOT in v1.0 register:
+
+**Strongest new volcanic evidence:**
+1. **Singasari 4 lost temples (OV 1927):** Drawn by Bik in 1822, ENTIRELY UNDERGROUND by 1920s. Burial rate ~2-3m/century.
+2. **Garahan ash layer (OV 1921):** 18cm Raoen (Ijen) ash layer directly above megalithic grave. Volcanic marker horizon.
+3. **Tjandi Pendem (OV 1924):** 2.5m depth, multiple lahar layers forming hard "parang" strata.
+4. **Tjandi Sawentar subsidiaries (OV 1922):** Buildings FOUNDED on lahar sand, main temple on clay below = lahar event between construction phases.
+5. **Maclaine Pont lahar analysis (OV 1925):** Entire eastern half of Majapahit city covered by lahar. Source: Baoereno lake dam-break.
+6. **Majapahit founded on lahar-devastated land (OV 1929):** "Herontginning van door lahars verwoeste gronden."
+
+**New non-volcanic controls:** Sanggan, Kalimantan (6.8m depth! Riverine). Poetroh Balee + Toengoe Sidi, Aceh (alluvial).
+
+**Expansion target:** v1.0 (52 entries) → v2.0 (75+ entries)
+See: `experiments/E070_colonial_literature_mining/results/register_expansion_targets.md`
+
+### Colonial ↔ Modern Cross-Reference
+Cross-referenced 52 colonial entries against 586 merged modern sites:
+- **BOTH (name + coord):** 6 strong matches (Candi Tikus, Sumber Nanas, Panataran, etc.)
+- **NAME_ONLY:** 3 (Jabung, Kalasan, Palanggading)
+- **COORD_ONLY:** 15 (proximity matches, mostly Trowulan cluster)
+- **NO_MATCH ("lost"):** 28 (53.8%)
+- **21 "lost" sites have depth data** (0.60–9.14m) — irreplaceable observations
+- **54% loss rate itself is evidence for taphonomic erasure**
+- D1 paper updated with this finding in Reuse Potential section
+- Output: `experiments/E070_colonial_literature_mining/results/colonial_vs_modern_comparison.csv`
+
+---
+
+## 2026-03-13 | Mini-NusaRC v3 (80 sites) + Data Paper D2
+
+**Type:** DATASET EXPANSION + DATA PAPER DRAFTING
+
+### Mini-NusaRC v3 — **80 sites across 8 regions**
+Systematic expansion from v2 (48 sites) to v3 (80 sites):
+- **+32 new sites** from published literature (Nature, Science, JHE, etc.)
+- All 8 regions now exceed minimum viable targets
+- Java 19, Sulawesi 18, Nusa Tenggara 12, Kalimantan 8, Sumatra 7, Philippines 6, Maluku 5, Madagascar 5
+- 5 countries: Indonesia (58), Malaysia (7), Philippines (6), Timor-Leste (4), Madagascar (5)
+- 5 hominin species: H. sapiens (64), H. erectus (8), H. floresiensis (3), H. luzonensis (1), unknown (4)
+- Date range: 1,200–1,600,000 BP
+- 7 dating methods: C14 (45), U-series (14), relative (12), luminescence (4), Ar-Ar (2), fission track (1), laser ablation (1)
+- Site types: cave (43), open_air (20), river_terrace (9), rockshelter (8)
+
+### Key Additions for Taphonomic Analysis
+- **Perning/Mojokerto child:** H. erectus in volcanic deposits (Arjuno-Welirang zone), 1.49 Ma
+- **Kota Tampan:** Open-air site sealed by Toba 74 ka ash — direct volcanic taphonomy case
+- **Paso (Tondano caldera):** Site directly inside volcanic caldera, N. Sulawesi
+- **Wolo Sege (So'a Basin):** 1 Ma stone tools in volcanic terrain, Flores
+- Non-volcanic controls: Gua Tengkorak + Liang Jon (Kalimantan), Kria Cave (Aru), Taolambiby + Antsirabe (Madagascar)
+
+### Data Paper D2 Drafted
+- **Title:** "Mini-NusaRC: A Georeferenced Archaeological Site Database for Island Southeast Asia and Madagascar (1,200–1,600,000 BP)"
+- **Target:** Journal of Open Archaeology Data (JOAD), Diamond OA, free
+- **Format:** ~3,000 words: Context, Methods, Data Description, Reuse Potential
+- **Paper files:** `papers/D2_mini_nusarc/main.tex`, `references.bib`
+- **Dataset:** `experiments/E020_mini_nusarc/data/mini_nusarc_v3.csv`
+
+### Files Created/Modified
+- `experiments/E020_mini_nusarc/04_expand_to_v3.py` — expansion script
+- `experiments/E020_mini_nusarc/data/mini_nusarc_v3.csv` — v3 dataset
+- `papers/D2_mini_nusarc/main.tex` — D2 paper draft
+- `papers/D2_mini_nusarc/references.bib` — bibliography
+- `experiments/E020_mini_nusarc/README.md` — updated with v3 info
+
+---
+
+## 2026-03-13 | Colonial Archaeological Register v1.0 + Data Paper D1
+
+**Type:** DATASET CONSTRUCTION + DATA PAPER DRAFTING
+
+### Colonial Site Register v1.0 — **TARGET MET: 52 entries**
+Systematic extraction from 14 OV volumes (1912-1929):
+- **52 unique archaeological site entries** (up from 13 in v0.1)
+- **32 with depth measurements** (0.60–9.14m, mean 2.88m, median 2.00m)
+- **43 with coordinates** (WGS84 approximate)
+- **44 with volcanic system association**
+- 9 provinces: East Java (primary), Central Java, Yogyakarta, South Sumatra, West Sumatra, South Kalimantan, Riau
+- 4 non-volcanic controls (Kalimantan mining, Riau alluvial, Sumatra alluvial, Sumatra stupa)
+
+### Key Depth Records
+| Site | Depth | Volcano | OV Year |
+|------|-------|---------|---------|
+| Wisnu Prambanan (30 voet) | 9.14m | Merapi | 1925 |
+| Bronzen beeld Dorowatie | 7.62m | Merapi/Lawu | 1925 |
+| Beeldje Karang Intan | 7.50m | none | 1924 |
+| Trowulan Bale Kambang | 4.28m | Arjuno-Welirang | 1920 |
+| Tangkilan brick gate | 4.00m | Kelud | 1923 |
+| Tjandi Tikoes | 3.50m | Arjuno-Welirang | 1914 |
+
+### Data Paper D1 Drafted
+- **Title:** "The Colonial Archaeological Register of Java: A Digitized Database of Site Observations from Dutch Oudheidkundig Verslag Reports (1912–1929)"
+- **Target:** Journal of Open Archaeology Data (JOAD), Diamond OA, free
+- **Format:** ~3,000 words: Context, Methods, Data Description, Reuse Potential
+- **Paper files:** `papers/D1_colonial_register/main.tex`, `references.bib`
+- **Dataset:** `experiments/E070_colonial_literature_mining/results/colonial_site_register_v1.0.csv`
+
+### New Discoveries from OV Reading
+1. **Koeto Renon (OV 1921):** Massive Majapahit fortress near Lumajang, several km², identified as Mpu Nambi's fortress from Nagarakrtagama/Pararaton (1316 CE). "Onder den grond liggen de resten die later een groote stad zullen aanduiden" — Hageman 1861. 9/10 destroyed by brick looting.
+2. **Tangkilan (OV 1923):** Brick gate + ring wall at 4m depth near Kediri (Kelud zone). Major burial.
+3. **Palanggading (OV 1923):** Building "nog voor het grootste deel onder den grond" being demolished for stone sales; stopped by colonial authorities.
+4. **Prambanan 4th row (OV 1920):** Fourth row of temples "onder den grond bedolven liggen" (buried underground).
+5. **Trowulan systematic probing (OV 1927):** Probe pits at 2m depth following wall directions.
+
+### Files Created
+- `experiments/E070_colonial_literature_mining/build_colonial_register.py`
+- `experiments/E070_colonial_literature_mining/results/colonial_site_register_v1.0.csv`
+- `experiments/E070_colonial_literature_mining/results/REGISTER_NOTES.md`
+- `papers/D1_colonial_register/main.tex`
+- `papers/D1_colonial_register/references.bib`
+
+---
+
+## 2026-03-13 | Autonomous Deep Exploration — 8 New Experiments (E073-E080)
+
+**Type:** AUTONOMOUS SESSION — META-ANALYSIS + DEEP NLP + SEDIMENTATION MODEL + SATELLITE + SYNTHESIS
+
+### Session Overview
+Autonomous exploration mode following user instruction: "lanjutkan kamu sekarang otonom... ini adalah proyek ambisius seperti di manifesto, soal kegelisahan kenapa peradaban nusantara dimulai 400 tahun masehi setelah adopsi tulisan india."
+
+**8 new experiments completed (E073-E080), 3 background agents processed.**
+
+### E073: Spatial vs Linguistic Meta-Test — **STRONGLY SUPPORTED**
+Fisher's combined probability test across 9 tests from 6 experiments:
+- SPATIAL domain (5 tests): Fisher combined p < 1e-30, ALL significant
+- LINGUISTIC domain (4 tests): Fisher combined p = 0.606, NONE significant
+- Domain asymmetry: Mann-Whitney U=0.0, **p=0.008**, rank-biserial r=1.0 (perfect separation)
+- Median evidence strength: 29.1× difference
+
+**Verdict:** Volcanic informedness is BEHAVIORAL/SPATIAL, not lexical. Architecture encodes knowledge that language does not.
+
+### E074: DHARMA Deep NLP — Mining the Invisible Millennium
+Parsed all 268 DHARMA inscriptions for vocabulary evolution:
+- 49% use Austronesian administrative terms (rakryān, rakai, sīma) with NO Sanskrit equivalents
+- 44% use indigenous spiritual terms (hyaṁ/hyang, kabuyutan)
+- Indigenous/Sanskrit ratio peaks at C9-C10 (3.6×) — the "indigenous explosion" when writing shifts to vernacular
+- 68 inscriptions (25%) reference volcanic/geological features
+- Top unclassified terms are Old Javanese core vocabulary: sovaṁ (673×), vḍihan (637×), vanua (354×)
+
+### E075: Volcanic Sedimentation Burial Model — **r=0.951**
+Pyle (1989) exponential thinning model with 7 volcanoes × 165 eruptions:
+- **Pearson r=0.951** between predicted and observed burial depths
+- 32.3% of East Java cells have >1m cumulative volcanic deposit
+- 12.8% have >3m (beyond standard excavation depth)
+- Model over-predicts by 11.6× — because found sites are the SHALLOW ones; deep sites are invisible
+
+### E076: Satellite NDVI Anomaly Detection — Proof of Concept
+Sentinel-2 L2A via Microsoft Planetary Computer (no registration needed):
+- 5 candi sites + 2 controls analyzed
+- Trend: candi show 2.5× higher local NDVI variance (0.0029 vs 0.0012)
+- Not yet significant (p=0.46) due to low N (needs more tiles)
+- **Methodologically novel:** No published NDVI crop-mark detection for Java
+
+### E078: Eruption-Inscription Correlation — **p=0.035**
+Eruption decades have **6.3× fewer inscriptions** (0.17 vs 1.08 per decade):
+- Mann-Whitney **p=0.035** (significant)
+- 928 CE Merapi VEI 4: 77% inscription rate drop
+- Permutation test: p=0.061 (marginal)
+- The strongest individual case: 928 CE Central→East Java shift
+
+### E079: Archaeological Darkness Index — Grand Synthesis
+Darkness Index integrating 6 evidence dimensions across 45 centuries:
+- Invisible Millennium (1-400 CE): DI=0.515
+- Classical Java (700-1000 CE): DI=0.273
+- **1.9× darker despite 8 external sources confirming trade-connected society**
+- 6 factors converge: volcanic burial, organic decay, no writing, eruption disruption, spatial encoding, administrative pre-existence
+
+### E080: Fieldwork Targeting — 6 Priority Zones
+Top 20 fieldwork targets computed, clustering into 6 zones:
+- Zone 1-3: Near Kelud (5-8km), ~6m predicted burial
+- Zone 4-6: Near Arjuno-Welirang (5-8km), ~7m predicted burial
+- All zones share candi proximity but lack documented surface remains
+- Recommended methods: deep augering + GPR + satellite analysis
+- Cost estimate: Phase 1 (remote sensing) ~$50-100, Phase 3 (GPR) ~$2000-5000
+
+### Background Agents Completed
+1. **Chinese/external sources (19 entries):** Ramayana to Fa Xian, with confidence levels
+2. **DHARMA database mining:** 269 XML + metadata spreadsheets + 81 literary texts available
+3. **Sentinel-2 access:** Verified working via Planetary Computer STAC, no registration needed
+
+### Running Experiment Total: 80+ experiments
+
+---
+
+## 2026-03-13 | P11 Reframed — Methodology Paper
+
+**Type:** PAPER DECISION + DRAFT
+
+### P11 Decision: REFRAME (Option 2 — user approved)
+
+**Problem:** Old P11 "Volcanic Informedness" was trivially true ("people near volcanoes know about volcanoes"). E039 killed the global VCS claim. Pranata Mangsa (E032) failed FDR. Only 2 of 5 tests were strong.
+
+**Solution:** Reframe as methodology paper: "Temple Siting as Archaeological Proxy: Using Candi Distribution Patterns to Predict Buried Sites in Volcanic Java"
+
+**New framing:**
+- Same data (E065, E066) but completely different question
+- Not: "did people encode volcanic knowledge?" (trivial)
+- But: "can candi distributions predict where buried sites are?" (novel, actionable)
+- Incorporates ADV-3 (p=0.0015) as validation that volcanic deficit is real
+- Incorporates E066 (85% equinox, p=4.9e-14) as proof of intentional siting
+- Drops E032 (Pranata Mangsa, failed FDR), E039 (cross-cultural), E067 (toponyms)
+- Adds colonial depth calibration (24 OV measurements) and fieldwork targets (E059)
+
+**Draft v0.2:** 13 pages, compiles clean. Single-author (methodology paper, no co-author needed).
+
+**Key insight:** "Iceberg methodology" — surviving monumental architecture marks centers of buried non-monumental settlements. Generalizable to any volcanic landscape with surface features.
+
+**Dropped from old P11:** Pranata Mangsa seasonality, cross-cultural falsification, toponymic overwriting, "volcanic informedness" concept. These become revision ammo for P1/P7 instead.
+
+---
+
+## 2026-03-13 | Post Mata Elang #6 — ADV-3 Executed + E070 v2 Extraction
+
+**Type:** ADVERSARIAL EXPERIMENT + DATASET CONSTRUCTION
+
+### ADV-3: Survey Intensity Sufficiency Test — VOLCARCH SUPPORTED
+
+**First adversarial experiment executed.** Nested Poisson regression testing whether survey intensity alone explains archaeological site distribution in East Java.
+
+**Method:** 722 grid cells (~11km), 666 sites, 3 survey proxies (road distance, BPCB office distance, university distance) + volcanic proximity. Quasi-Poisson correction for severe overdispersion (phi=3.55).
+
+**Results:**
+- Model 1 (survey only): pseudo-R2=0.382
+- Model 2 (survey + volcanic): pseudo-R2=0.398
+- Volcanic coefficient: beta=-0.477 (NEGATIVE — fewer sites near volcanoes)
+- **Adjusted LR test: p=0.0015** (survives overdispersion correction)
+- Delta pseudo-R2: 0.016 (modest but significant)
+
+**Verdict:** VOLCARCH SUPPORTED. Volcanic proximity adds significant explanatory power beyond survey intensity. The deficit near volcanoes is NOT solely attributable to differential survey effort.
+
+**Caveats:** Severe overdispersion, crude survey proxies, modest effect size. Road distance is dominant predictor (beta=-7.15). But the core thesis survives this falsification test.
+
+See: `experiments/E069_adversarial_comparanda/adv3_survey_intensity/`
+
+### E070 v2: Enhanced OV Extraction
+
+Improved extraction script with expanded Dutch patterns:
+- Added patterns: `M. onder den grond`, `voet onder/in`, `diep gelegen`, `uitgegraven tot`, centimeter detection
+- Added site patterns: `desa/dessa`, `onderneming`, `residentie`, `heiligdom`, `tempel`, statues, deities
+- Added location extraction
+- Output: structured CSV with match type, depth values, site names, volcanic context
+
+**Results:** 479 matches (up from 375), 24 depth values (0.6m–9.14m), 299 priority matches (site + depth/volcanic context)
+
+**Notable depth values from colonial records:**
+- 9.14m (30 voet) — Prambanan (Dieduksman collection, OV 1925)
+- 7.62m (25 voet) — Dorowatie, Solo area (OV 1925)
+- 7.0m — Martapoera, Kalimantan, trachiet statue (OV 1924)
+- 4.88m (16 voet) — Desa Pondok (OV 1923)
+- 4.6m — Ancient well, Desa Pajak (OV 1928)
+- 4.28m — Trowulan submerged city (OV 1920) — already in v0.1
+- 3.5m — Tjandi Tikoes (OV 1914) — already in v0.1
+- 1.2m — Trowulan, lahar material mentioned (OV 1925)
+
+**Next:** Manual review of 299 priority matches to build colonial_site_register_v1.0 (target 50+ entries).
+
+**Running total: 70+ experiments (ADV-3 = first adversarial)**
+
+---
+
+## 2026-03-13 | Mata Elang #6 — Structural Critique + FDR Audit + Phase 1.5 Design
+
+**Type:** STRATEGIC REVIEW + META-ANALYSIS + ARCHITECTURE
+
+### Mata Elang #6: Hard Constructive Critique
+
+Full structural critique of VOLCARCH project. Key findings:
+
+**Critical Risks Identified:**
+1. **Ilusi independensi:** 67 eksperimen menggunakan ~4 dataset inti (DHARMA, situs E.Java, ABVD, candi). "11 independent channels" sebenarnya "4 data streams, 11 methodological lenses." Reframed in manifesto.
+2. **Unfalsifiability by design:** 6 layers explain every absence. Tanpa fieldwork, thesis tidak bisa dibuktikan ATAU disangkal. Status labels downgraded: TERVERIFIKASI → DIDUKUNG DATA.
+3. **Statistical fragility:** 3 marginal findings gagal FDR correction (E032 p=0.042, E048 partial p=0.038, E053 Fisher p=0.047).
+4. **Salami-slicing risk:** P5↔P9 (HIGH, shared DHARMA corpus), P8↔P9 (HIGH, shared substrate methodology).
+5. **Single-researcher credibility:** No domain expert on any paper.
+
+**Actions Taken:**
+- Manifesto v3.2: "TERVERIFIKASI" → "DIDUKUNG DATA"; epistemik caveat added; consilience claim honest-ified
+- FDR correction notes added to marginal findings
+
+### E068: FDR Meta-Analytic Audit — SUCCESS
+- 41 statistical tests extracted across all experiments
+- Benjamini-Hochberg correction at alpha=0.05
+- **30/41 (73%) survive** — project statistically sound
+- **Top 10 strongest:** E066 candi equinox (p=4.9e-14), E051 court-center (p=5.1e-14), E031 west-clustering (p=3.4e-8), E057 genre taphonomy (p<1e-6), E065 Zone A overrep (p<1e-6)
+- **3 casualties:** E032 seasonality, E048 partial correlation, E053 aDNA Fisher → downgrade to "suggestive"
+
+### E069: Adversarial Experiment Suite — DESIGNED
+Four adversarial experiments to falsify VOLCARCH thesis:
+- ADV-1: Volcanic Comparanda (Japan/Italy/Mesoamerica) — do they find sites despite volcanism?
+- ADV-2: Non-Volcanic Control Islands — does Kalimantan have the same gap? (MOST DANGEROUS)
+- ADV-3: Survey Intensity Sufficiency — does survey effort explain ALL variance? (CHEAPEST)
+- ADV-4: Linguistic Substrate Noise — is the substrate real or statistical noise?
+Priority: ADV-3 first (most data exists), then ADV-1 (Japan data public).
+
+### E070: Colonial Literature Mining — DESIGNED (Phase 1.5)
+Strategy to build genuinely independent datasets from untapped Dutch colonial sources (1800s-1945).
+6 datasets planned:
+- DS-1: Colonial Archaeological Site Register (OV reports → 200-500 sites with burial depth)
+- DS-2: Verbeek Volcanic Geology Map (1896, 26 sheets → GIS layer)
+- DS-3: Colonial Ethnographic Observations (TBG + Djawa → 100-300 observations)
+- DS-4: Museum Provenance Database (Wereldmuseum → 50-200 objects)
+- DS-5: Colonial Newspaper Event Reports (Delpher.nl → 50-200 reports)
+- DS-6: Damais Chronological Tables (BEFEO → 400+ dated inscriptions, expanding DHARMA by >50%)
+
+Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Verbeek, Kern, Brandes), OV reports, Persee BEFEO, Delpher.nl, David Rumsey Maps, Djawa journal, UGM Langka.
+
+### Decisions Made
+1. **Language shift:** "11 independent channels" → "4 data streams, 11 methodological lenses"
+2. **Status downgrade:** All "TERVERIFIKASI" → "DIDUKUNG DATA" pending fieldwork/independent dataset verification
+3. **FDR policy:** All future papers must report BH-corrected significance for multi-test findings
+4. **Phase 1.5 initiated:** Colonial dataset construction before next paper submission wave
+5. **Adversarial commitment:** At least 1 adversarial experiment (ADV-3) must be completed before P11 submission
+
+**Running total: 70 experiments (E001-E070, minus stubs)**
+
+---
+
 ## 2026-03-12 | Mata Elang #5 continued (wave 7) — P11 figures + E066
 
 **Type:** PAPER FIGURES + EXPERIMENT

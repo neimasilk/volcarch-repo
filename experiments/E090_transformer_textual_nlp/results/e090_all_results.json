@@ -1,0 +1,2267 @@
+{
+  "exp1_semantic_similarity": {
+    "method": "Sentence-BERT (all-MiniLM-L6-v2)",
+    "n_passages": 50,
+    "embedding_dim": 384,
+    "within_tradition_similarity": {
+      "mean": 0.4003322124481201,
+      "n": 117
+    },
+    "between_tradition_similarity": {
+      "mean": 0.2970476746559143,
+      "n": 1108
+    },
+    "ratio_within_between": 1.3477035760879517,
+    "top_cross_tradition_pairs": [
+      {
+        "ref_i": "IND-S04",
+        "ref_j": "ARB-004",
+        "trad_i": "INDIAN_SANSKRIT",
+        "trad_j": "ARAB",
+        "similarity": 0.6172911524772644,
+        "source_i": "Kathasaritsagara (Ocean of Streams of Story)",
+        "source_j": "Kitab Ajaib al-Hind (Book of the Wonders of India)"
+      },
+      {
+        "ref_i": "IND-S04",
+        "ref_j": "ARB-003",
+        "trad_i": "INDIAN_SANSKRIT",
+        "trad_j": "ARAB",
+        "similarity": 0.6099118590354919,
+        "source_i": "Kathasaritsagara (Ocean of Streams of Story)",
+        "source_j": "Kitab al-Masalik wa-l-Mamalik (Book of Routes and "
+      },
+      {
+        "ref_i": "GRK-001",
+        "ref_j": "ROM-002",
+        "trad_i": "GREEK",
+        "trad_j": "ROMAN",
+        "similarity": 0.5985820293426514,
+        "source_i": "Geographica (fragments via Strabo)",
+        "source_j": "Chorographia"
+      },
+      {
+        "ref_i": "CHEM-003",
+        "ref_j": "LING-003",
+        "trad_i": "CHEMICAL",
+        "trad_j": "LINGUISTIC",
+        "similarity": 0.5943983793258667,
+        "source_i": "Austronesian crop dispersal to South Asia",
+        "source_j": "Austronesian loanwords in Swahili and East African"
+      },
+      {
+        "ref_i": "IND-P05",
+        "ref_j": "IND-S04",
+        "trad_i": "INDIAN_PALI",
+        "trad_j": "INDIAN_SANSKRIT",
+        "similarity": 0.5940814018249512,
+        "source_i": "Milindapanha (Questions of King Milinda)",
+        "source_j": "Kathasaritsagara (Ocean of Streams of Story)"
+      },
+      {
+        "ref_i": "IND-S04",
+        "ref_j": "TAM-001",
+        "trad_i": "INDIAN_SANSKRIT",
+        "trad_j": "TAMIL",
+        "similarity": 0.5899442434310913,
+        "source_i": "Kathasaritsagara (Ocean of Streams of Story)",
+        "source_j": "Pattinappalai"
+      },
+      {
+        "ref_i": "IND-S04",
+        "ref_j": "TAM-002",
+        "trad_i": "INDIAN_SANSKRIT",
+        "trad_j": "TAMIL",
+        "similarity": 0.5817745923995972,
+        "source_i": "Kathasaritsagara (Ocean of Streams of Story)",
+        "source_j": "Manimekalai"
+      },
+      {
+        "ref_i": "IND-P04",
+        "ref_j": "TAM-002",
+        "trad_i": "INDIAN_PALI",
+        "trad_j": "TAMIL",
+        "similarity": 0.5682681798934937,
+        "source_i": "Mahajanaka Jataka (no. 539)",
+        "source_j": "Manimekalai"
+      },
+      {
+        "ref_i": "IND-P02",
+        "ref_j": "IND-S04",
+        "trad_i": "INDIAN_PALI",
+        "trad_j": "INDIAN_SANSKRIT",
+        "similarity": 0.5613868832588196,
+        "source_i": "Baveru Jataka (no. 339)",
+        "source_j": "Kathasaritsagara (Ocean of Streams of Story)"
+      },
+      {
+        "ref_i": "ARB-004",
+        "ref_j": "TAM-002",
+        "trad_i": "ARAB",
+        "trad_j": "TAMIL",
+        "similarity": 0.5581071972846985,
+        "source_i": "Kitab Ajaib al-Hind (Book of the Wonders of India)",
+        "source_j": "Manimekalai"
+      },
+      {
+        "ref_i": "CHEM-004",
+        "ref_j": "ROM-001",
+        "trad_i": "CHEMICAL",
+        "trad_j": "ROMAN",
+        "similarity": 0.5571843385696411,
+        "source_i": "Cinnamon/cassia in Egyptian-Phoenician trade",
+        "source_j": "Naturalis Historia"
+      },
+      {
+        "ref_i": "IND-S04",
+        "ref_j": "TAM-003",
+        "trad_i": "INDIAN_SANSKRIT",
+        "trad_j": "TAMIL",
+        "similarity": 0.5518810749053955,
+        "source_i": "Kathasaritsagara (Ocean of Streams of Story)",
+        "source_j": "Akananuru (poem 149)"
+      },
+      {
+        "ref_i": "IND-P01",
+        "ref_j": "TAM-002",
+        "trad_i": "INDIAN_PALI",
+        "trad_j": "TAMIL",
+        "similarity": 0.5518765449523926,
+        "source_i": "Supparaka Jataka (no. 463)",
+        "source_j": "Manimekalai"
+      },
+      {
+        "ref_i": "GRK-003",
+        "ref_j": "ROM-001",
+        "trad_i": "GREEK",
+        "trad_j": "ROMAN",
+        "similarity": 0.5487127304077148,
+        "source_i": "Geographia, Book VII",
+        "source_j": "Naturalis Historia"
+      },
+      {
+        "ref_i": "ROM-001",
+        "ref_j": "ARB-003",
+        "trad_i": "ROMAN",
+        "trad_j": "ARAB",
+        "similarity": 0.5484118461608887,
+        "source_i": "Naturalis Historia",
+        "source_j": "Kitab al-Masalik wa-l-Mamalik (Book of Routes and "
+      },
+      {
+        "ref_i": "CHN-004",
+        "ref_j": "ARB-005",
+        "trad_i": "CHINESE",
+        "trad_j": "ARAB",
+        "similarity": 0.5464485883712769,
+        "source_i": "Liang Shu (Book of Liang), Southeast Asia sections",
+        "source_j": "Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq (The Pleasur"
+      },
+      {
+        "ref_i": "IND-P05",
+        "ref_j": "ARB-004",
+        "trad_i": "INDIAN_PALI",
+        "trad_j": "ARAB",
+        "similarity": 0.5325299501419067,
+        "source_i": "Milindapanha (Questions of King Milinda)",
+        "source_j": "Kitab Ajaib al-Hind (Book of the Wonders of India)"
+      },
+      {
+        "ref_i": "TAM-001",
+        "ref_j": "CHEM-007",
+        "trad_i": "TAMIL",
+        "trad_j": "CHEMICAL",
+        "similarity": 0.5217494368553162,
+        "source_i": "Pattinappalai",
+        "source_j": "Arikamedu excavation — SE Asian trade goods"
+      },
+      {
+        "ref_i": "GRK-003",
+        "ref_j": "ROM-002",
+        "trad_i": "GREEK",
+        "trad_j": "ROMAN",
+        "similarity": 0.5210565328598022,
+        "source_i": "Geographia, Book VII",
+        "source_j": "Chorographia"
+      },
+      {
+        "ref_i": "IND-P01",
+        "ref_j": "IND-S04",
+        "trad_i": "INDIAN_PALI",
+        "trad_j": "INDIAN_SANSKRIT",
+        "similarity": 0.5210475921630859,
+        "source_i": "Supparaka Jataka (no. 463)",
+        "source_j": "Kathasaritsagara (Ocean of Streams of Story)"
+      }
+    ],
+    "tradition_centroid_similarities": {
+      "ARAB-CHEMICAL": 0.554795503616333,
+      "ARAB-CHINESE": 0.5933051705360413,
+      "ARAB-GREEK": 0.5723156332969666,
+      "ARAB-INDIAN_PALI": 0.6563907861709595,
+      "ARAB-INDIAN_SANSKRIT": 0.700075626373291,
+      "ARAB-LINGUISTIC": 0.5049988627433777,
+      "ARAB-NUSANTARAN": 0.5148311853408813,
+      "ARAB-ROMAN": 0.4840965270996094,
+      "ARAB-TAMIL": 0.5785864591598511,
+      "CHEMICAL-CHINESE": 0.6870986223220825,
+      "CHEMICAL-GREEK": 0.5369174480438232,
+      "CHEMICAL-INDIAN_PALI": 0.5925991535186768,
+      "CHEMICAL-INDIAN_SANSKRIT": 0.5748057961463928,
+      "CHEMICAL-LINGUISTIC": 0.5400002002716064,
+      "CHEMICAL-NUSANTARAN": 0.5811344385147095,
+      "CHEMICAL-ROMAN": 0.5385726690292358,
+      "CHEMICAL-TAMIL": 0.5808137655258179,
+      "CHINESE-GREEK": 0.6138222813606262,
+      "CHINESE-INDIAN_PALI": 0.6306338310241699,
+      "CHINESE-INDIAN_SANSKRIT": 0.5356638431549072,
+      "CHINESE-LINGUISTIC": 0.43520665168762207,
+      "CHINESE-NUSANTARAN": 0.5713951587677002,
+      "CHINESE-ROMAN": 0.48411351442337036,
+      "CHINESE-TAMIL": 0.5390105247497559,
+      "GREEK-INDIAN_PALI": 0.6212816834449768,
+      "GREEK-INDIAN_SANSKRIT": 0.5803438425064087,
+      "GREEK-LINGUISTIC": 0.3897115886211395,
+      "GREEK-NUSANTARAN": 0.4339754283428192,
+      "GREEK-ROMAN": 0.7193354368209839,
+      "GREEK-TAMIL": 0.6833102703094482,
+      "INDIAN_PALI-INDIAN_SANSKRIT": 0.6715928912162781,
+      "INDIAN_PALI-LINGUISTIC": 0.4641105830669403,
+      "INDIAN_PALI-NUSANTARAN": 0.5994312167167664,
+      "INDIAN_PALI-ROMAN": 0.426877498626709,
+      "INDIAN_PALI-TAMIL": 0.7059252262115479,
+      "INDIAN_SANSKRIT-LINGUISTIC": 0.4801626205444336,
+      "INDIAN_SANSKRIT-NUSANTARAN": 0.5476045608520508,
+      "INDIAN_SANSKRIT-ROMAN": 0.5674509406089783,
+      "INDIAN_SANSKRIT-TAMIL": 0.6987259387969971,
+      "LINGUISTIC-NUSANTARAN": 0.4985542893409729,
+      "LINGUISTIC-ROMAN": 0.34864604473114014,
+      "LINGUISTIC-TAMIL": 0.3620374798774719,
+      "NUSANTARAN-ROMAN": 0.35178524255752563,
+      "NUSANTARAN-TAMIL": 0.4721011519432068,
+      "ROMAN-TAMIL": 0.5347025990486145
+    }
+  },
+  "exp2_clustering": {
+    "method": "UMAP + HDBSCAN",
+    "n_clusters": 9,
+    "n_noise": 9,
+    "pct_mixed_clusters": 77.77777777777777,
+    "clustering_type": "content-driven",
+    "cluster_contents": {
+      "-1": [
+        {
+          "ref_id": "CHEM-001",
+          "tradition": "CHEMICAL",
+          "source": "Saqqara embalming workshop vessels",
+          "date_ce": -594
+        },
+        {
+          "ref_id": "CHEM-002",
+          "tradition": "CHEMICAL",
+          "source": "Terqa clove find",
+          "date_ce": -1700
+        },
+        {
+          "ref_id": "CHEM-003",
+          "tradition": "CHEMICAL",
+          "source": "Austronesian crop dispersal to South Asia",
+          "date_ce": -1050
+        },
+        {
+          "ref_id": "GRK-004",
+          "tradition": "GREEK",
+          "source": "Geography (lost, reconstructed via Pliny/Ptolemy)",
+          "date_ce": 110
+        },
+        {
+          "ref_id": "IND-P05",
+          "tradition": "INDIAN_PALI",
+          "source": "Milindapanha (Questions of King Milinda)",
+          "date_ce": -100
+        },
+        {
+          "ref_id": "IND-S03",
+          "tradition": "INDIAN_SANSKRIT",
+          "source": "Mahabharata, Sabha Parva 2.28",
+          "date_ce": -200
+        },
+        {
+          "ref_id": "CHN-006",
+          "tradition": "CHINESE",
+          "source": "Song Shu (Book of Song)",
+          "date_ce": 430
+        },
+        {
+          "ref_id": "ARB-001",
+          "tradition": "ARAB",
+          "source": "Akhbar as-Sin wa l-Hind (Accounts of China and Ind",
+          "date_ce": 851
+        },
+        {
+          "ref_id": "NUS-004",
+          "tradition": "NUSANTARAN",
+          "source": "Nalanda inscription of Balaputradeva",
+          "date_ce": 860
+        }
+      ],
+      "4": [
+        {
+          "ref_id": "CHEM-004",
+          "tradition": "CHEMICAL",
+          "source": "Cinnamon/cassia in Egyptian-Phoenician trade",
+          "date_ce": -1000
+        },
+        {
+          "ref_id": "CHEM-005",
+          "tradition": "CHEMICAL",
+          "source": "Berenike pepper and Indian Ocean cargo",
+          "date_ce": 50
+        },
+        {
+          "ref_id": "GRK-001",
+          "tradition": "GREEK",
+          "source": "Geographica (fragments via Strabo)",
+          "date_ce": -235
+        },
+        {
+          "ref_id": "GRK-002",
+          "tradition": "GREEK",
+          "source": "Periplus Maris Erythraei",
+          "date_ce": 50
+        },
+        {
+          "ref_id": "GRK-003",
+          "tradition": "GREEK",
+          "source": "Geographia, Book VII",
+          "date_ce": 150
+        },
+        {
+          "ref_id": "ROM-001",
+          "tradition": "ROMAN",
+          "source": "Naturalis Historia",
+          "date_ce": 77
+        },
+        {
+          "ref_id": "ROM-002",
+          "tradition": "ROMAN",
+          "source": "Chorographia",
+          "date_ce": 43
+        },
+        {
+          "ref_id": "CHN-008",
+          "tradition": "CHINESE",
+          "source": "Shiji (Records of the Grand Historian)",
+          "date_ce": -100
+        }
+      ],
+      "5": [
+        {
+          "ref_id": "CHEM-006",
+          "tradition": "CHEMICAL",
+          "source": "Intan and Belitung shipwrecks",
+          "date_ce": 930
+        },
+        {
+          "ref_id": "NUS-002",
+          "tradition": "NUSANTARAN",
+          "source": "Tugu inscription",
+          "date_ce": 450
+        },
+        {
+          "ref_id": "CHEM-007",
+          "tradition": "CHEMICAL",
+          "source": "Arikamedu excavation — SE Asian trade goods",
+          "date_ce": -200
+        },
+        {
+          "ref_id": "CHEM-008",
+          "tradition": "CHEMICAL",
+          "source": "Dong Son drums in Nusantara",
+          "date_ce": -300
+        }
+      ],
+      "8": [
+        {
+          "ref_id": "IND-P01",
+          "tradition": "INDIAN_PALI",
+          "source": "Supparaka Jataka (no. 463)",
+          "date_ce": -350
+        },
+        {
+          "ref_id": "IND-S01",
+          "tradition": "INDIAN_SANSKRIT",
+          "source": "Ramayana, Kishkindha Kanda 4.40.30",
+          "date_ce": -300
+        },
+        {
+          "ref_id": "GRK-005",
+          "tradition": "GREEK",
+          "source": "Indica (fragments via Strabo and Arrian)",
+          "date_ce": -300
+        }
+      ],
+      "6": [
+        {
+          "ref_id": "IND-P02",
+          "tradition": "INDIAN_PALI",
+          "source": "Baveru Jataka (no. 339)",
+          "date_ce": -350
+        },
+        {
+          "ref_id": "IND-S04",
+          "tradition": "INDIAN_SANSKRIT",
+          "source": "Kathasaritsagara (Ocean of Streams of Story)",
+          "date_ce": 1070
+        },
+        {
+          "ref_id": "ARB-004",
+          "tradition": "ARAB",
+          "source": "Kitab Ajaib al-Hind (Book of the Wonders of India)",
+          "date_ce": 953
+        },
+        {
+          "ref_id": "TAM-001",
+          "tradition": "TAMIL",
+          "source": "Pattinappalai",
+          "date_ce": 150
+        },
+        {
+          "ref_id": "TAM-002",
+          "tradition": "TAMIL",
+          "source": "Manimekalai",
+          "date_ce": 200
+        },
+        {
+          "ref_id": "TAM-003",
+          "tradition": "TAMIL",
+          "source": "Akananuru (poem 149)",
+          "date_ce": 100
+        }
+      ],
+      "7": [
+        {
+          "ref_id": "IND-P03",
+          "tradition": "INDIAN_PALI",
+          "source": "Sankha Jataka (no. 442)",
+          "date_ce": -350
+        },
+        {
+          "ref_id": "IND-P04",
+          "tradition": "INDIAN_PALI",
+          "source": "Mahajanaka Jataka (no. 539)",
+          "date_ce": -300
+        },
+        {
+          "ref_id": "IND-P06",
+          "tradition": "INDIAN_PALI",
+          "source": "Dipavamsa / Mahavamsa (Sinhalese chronicles)",
+          "date_ce": -250
+        },
+        {
+          "ref_id": "NUS-001",
+          "tradition": "NUSANTARAN",
+          "source": "Yupa inscriptions of Kutai",
+          "date_ce": 400
+        },
+        {
+          "ref_id": "NUS-003",
+          "tradition": "NUSANTARAN",
+          "source": "Kedukan Bukit inscription",
+          "date_ce": 682
+        }
+      ],
+      "0": [
+        {
+          "ref_id": "IND-S02",
+          "tradition": "INDIAN_SANSKRIT",
+          "source": "Arthashastra",
+          "date_ce": -300
+        },
+        {
+          "ref_id": "ARB-002",
+          "tradition": "ARAB",
+          "source": "Muruj adh-Dhahab (Meadows of Gold)",
+          "date_ce": 947
+        },
+        {
+          "ref_id": "ARB-003",
+          "tradition": "ARAB",
+          "source": "Kitab al-Masalik wa-l-Mamalik (Book of Routes and ",
+          "date_ce": 846
+        },
+        {
+          "ref_id": "ARB-005",
+          "tradition": "ARAB",
+          "source": "Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq (The Pleasur",
+          "date_ce": 1154
+        }
+      ],
+      "2": [
+        {
+          "ref_id": "CHN-001",
+          "tradition": "CHINESE",
+          "source": "Hou Han Shu (Book of the Later Han), Treatise on t",
+          "date_ce": 130
+        },
+        {
+          "ref_id": "CHN-002",
+          "tradition": "CHINESE",
+          "source": "Nanzhou Yiwu Zhi (南州異物志, Strange Things of the Sou",
+          "date_ce": 264
+        },
+        {
+          "ref_id": "CHN-003",
+          "tradition": "CHINESE",
+          "source": "Fo Guo Ji (法顯傳, Record of Buddhist Kingdoms)",
+          "date_ce": 414
+        }
+      ],
+      "3": [
+        {
+          "ref_id": "CHN-004",
+          "tradition": "CHINESE",
+          "source": "Liang Shu (Book of Liang), Southeast Asia sections",
+          "date_ce": 520
+        },
+        {
+          "ref_id": "CHN-005",
+          "tradition": "CHINESE",
+          "source": "Yijing's Record of Buddhist Practices (南海寄歸內法傳)",
+          "date_ce": 689
+        },
+        {
+          "ref_id": "CHN-007",
+          "tradition": "CHINESE",
+          "source": "Sui Shu (Book of Sui), Southeast Asia sections",
+          "date_ce": 607
+        }
+      ],
+      "1": [
+        {
+          "ref_id": "LING-001",
+          "tradition": "LINGUISTIC",
+          "source": "Camphor etymology chain",
+          "date_ce": -500
+        },
+        {
+          "ref_id": "LING-002",
+          "tradition": "LINGUISTIC",
+          "source": "Malagasy-Malay linguistic relationship",
+          "date_ce": 500
+        },
+        {
+          "ref_id": "LING-003",
+          "tradition": "LINGUISTIC",
+          "source": "Austronesian loanwords in Swahili and East African",
+          "date_ce": 200
+        },
+        {
+          "ref_id": "LING-004",
+          "tradition": "LINGUISTIC",
+          "source": "Sanskrit loanwords in Malay/Javanese (pre-inscript",
+          "date_ce": 100
+        },
+        {
+          "ref_id": "NUS-005",
+          "tradition": "NUSANTARAN",
+          "source": "Laguna Copperplate Inscription",
+          "date_ce": 900
+        }
+      ]
+    },
+    "umap_coordinates": [
+      {
+        "ref_id": "CHEM-001",
+        "x": 6.004076957702637,
+        "y": 1.2252647876739502,
+        "cluster": -1,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "CHEM-002",
+        "x": 6.926845550537109,
+        "y": 1.6408827304840088,
+        "cluster": -1,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "CHEM-003",
+        "x": 5.62100887298584,
+        "y": 0.6648709774017334,
+        "cluster": -1,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "CHEM-004",
+        "x": 7.023465156555176,
+        "y": 1.4408434629440308,
+        "cluster": 4,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "CHEM-005",
+        "x": 6.300815105438232,
+        "y": 0.9028523564338684,
+        "cluster": 4,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "CHEM-006",
+        "x": 6.662043571472168,
+        "y": 0.07714857161045074,
+        "cluster": 5,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "GRK-001",
+        "x": 8.03066349029541,
+        "y": 1.7410402297973633,
+        "cluster": 4,
+        "tradition": "GREEK"
+      },
+      {
+        "ref_id": "GRK-002",
+        "x": 7.726797103881836,
+        "y": 1.8755545616149902,
+        "cluster": 4,
+        "tradition": "GREEK"
+      },
+      {
+        "ref_id": "GRK-003",
+        "x": 7.966222286224365,
+        "y": 1.2176718711853027,
+        "cluster": 4,
+        "tradition": "GREEK"
+      },
+      {
+        "ref_id": "GRK-004",
+        "x": 6.9206743240356445,
+        "y": -0.810660183429718,
+        "cluster": -1,
+        "tradition": "GREEK"
+      },
+      {
+        "ref_id": "ROM-001",
+        "x": 7.49730920791626,
+        "y": 1.3908965587615967,
+        "cluster": 4,
+        "tradition": "ROMAN"
+      },
+      {
+        "ref_id": "ROM-002",
+        "x": 8.241156578063965,
+        "y": 1.5389403104782104,
+        "cluster": 4,
+        "tradition": "ROMAN"
+      },
+      {
+        "ref_id": "IND-P01",
+        "x": 5.801408767700195,
+        "y": -2.244335889816284,
+        "cluster": 8,
+        "tradition": "INDIAN_PALI"
+      },
+      {
+        "ref_id": "IND-P02",
+        "x": 5.214334964752197,
+        "y": -1.6383063793182373,
+        "cluster": 6,
+        "tradition": "INDIAN_PALI"
+      },
+      {
+        "ref_id": "IND-P03",
+        "x": 6.770598888397217,
+        "y": -2.073448657989502,
+        "cluster": 7,
+        "tradition": "INDIAN_PALI"
+      },
+      {
+        "ref_id": "IND-P04",
+        "x": 6.657173156738281,
+        "y": -2.3410515785217285,
+        "cluster": 7,
+        "tradition": "INDIAN_PALI"
+      },
+      {
+        "ref_id": "IND-P05",
+        "x": 6.264825344085693,
+        "y": -0.8812978267669678,
+        "cluster": -1,
+        "tradition": "INDIAN_PALI"
+      },
+      {
+        "ref_id": "IND-P06",
+        "x": 7.111728668212891,
+        "y": -2.295426607131958,
+        "cluster": 7,
+        "tradition": "INDIAN_PALI"
+      },
+      {
+        "ref_id": "IND-S01",
+        "x": 5.774258136749268,
+        "y": -1.8184267282485962,
+        "cluster": 8,
+        "tradition": "INDIAN_SANSKRIT"
+      },
+      {
+        "ref_id": "IND-S02",
+        "x": 5.360179901123047,
+        "y": 0.1114497035741806,
+        "cluster": 0,
+        "tradition": "INDIAN_SANSKRIT"
+      },
+      {
+        "ref_id": "IND-S03",
+        "x": 5.913938522338867,
+        "y": -1.6761560440063477,
+        "cluster": -1,
+        "tradition": "INDIAN_SANSKRIT"
+      },
+      {
+        "ref_id": "IND-S04",
+        "x": 5.4433722496032715,
+        "y": -1.341615080833435,
+        "cluster": 6,
+        "tradition": "INDIAN_SANSKRIT"
+      },
+      {
+        "ref_id": "CHN-001",
+        "x": 7.591801643371582,
+        "y": -0.2815583348274231,
+        "cluster": 2,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHN-002",
+        "x": 7.277414321899414,
+        "y": -0.09015525132417679,
+        "cluster": 2,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHN-003",
+        "x": 7.3397321701049805,
+        "y": -0.6276458501815796,
+        "cluster": 2,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHN-004",
+        "x": 7.616026878356934,
+        "y": 0.48360475897789,
+        "cluster": 3,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHN-005",
+        "x": 8.001689910888672,
+        "y": 0.16505710780620575,
+        "cluster": 3,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHN-006",
+        "x": 7.300793170928955,
+        "y": 0.5228768587112427,
+        "cluster": -1,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHN-007",
+        "x": 8.205303192138672,
+        "y": 0.39914920926094055,
+        "cluster": 3,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "ARB-001",
+        "x": 4.785824775695801,
+        "y": -1.0474544763565063,
+        "cluster": -1,
+        "tradition": "ARAB"
+      },
+      {
+        "ref_id": "ARB-002",
+        "x": 4.668967247009277,
+        "y": -0.6718193292617798,
+        "cluster": 0,
+        "tradition": "ARAB"
+      },
+      {
+        "ref_id": "ARB-003",
+        "x": 5.097228527069092,
+        "y": -0.2884257137775421,
+        "cluster": 0,
+        "tradition": "ARAB"
+      },
+      {
+        "ref_id": "ARB-004",
+        "x": 5.112082004547119,
+        "y": -1.7506599426269531,
+        "cluster": 6,
+        "tradition": "ARAB"
+      },
+      {
+        "ref_id": "TAM-001",
+        "x": 5.804356575012207,
+        "y": -0.9796090722084045,
+        "cluster": 6,
+        "tradition": "TAMIL"
+      },
+      {
+        "ref_id": "TAM-002",
+        "x": 5.386561393737793,
+        "y": -2.2045955657958984,
+        "cluster": 6,
+        "tradition": "TAMIL"
+      },
+      {
+        "ref_id": "TAM-003",
+        "x": 5.664614200592041,
+        "y": -0.7062183618545532,
+        "cluster": 6,
+        "tradition": "TAMIL"
+      },
+      {
+        "ref_id": "LING-001",
+        "x": 5.249850749969482,
+        "y": 0.9005327820777893,
+        "cluster": 1,
+        "tradition": "LINGUISTIC"
+      },
+      {
+        "ref_id": "LING-002",
+        "x": 4.926327705383301,
+        "y": 0.5509829521179199,
+        "cluster": 1,
+        "tradition": "LINGUISTIC"
+      },
+      {
+        "ref_id": "LING-003",
+        "x": 4.799893379211426,
+        "y": 0.7725658416748047,
+        "cluster": 1,
+        "tradition": "LINGUISTIC"
+      },
+      {
+        "ref_id": "NUS-001",
+        "x": 7.488705158233643,
+        "y": -1.8567633628845215,
+        "cluster": 7,
+        "tradition": "NUSANTARAN"
+      },
+      {
+        "ref_id": "NUS-002",
+        "x": 5.952891826629639,
+        "y": -0.34480735659599304,
+        "cluster": 5,
+        "tradition": "NUSANTARAN"
+      },
+      {
+        "ref_id": "NUS-003",
+        "x": 7.415475845336914,
+        "y": -2.0301735401153564,
+        "cluster": 7,
+        "tradition": "NUSANTARAN"
+      },
+      {
+        "ref_id": "GRK-005",
+        "x": 6.153543472290039,
+        "y": -2.1805059909820557,
+        "cluster": 8,
+        "tradition": "GREEK"
+      },
+      {
+        "ref_id": "CHN-008",
+        "x": 6.735551834106445,
+        "y": 0.9527860879898071,
+        "cluster": 4,
+        "tradition": "CHINESE"
+      },
+      {
+        "ref_id": "CHEM-007",
+        "x": 6.212915897369385,
+        "y": 0.17149417102336884,
+        "cluster": 5,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "CHEM-008",
+        "x": 6.726317405700684,
+        "y": 0.3615393042564392,
+        "cluster": 5,
+        "tradition": "CHEMICAL"
+      },
+      {
+        "ref_id": "LING-004",
+        "x": 5.051964282989502,
+        "y": 1.2320163249969482,
+        "cluster": 1,
+        "tradition": "LINGUISTIC"
+      },
+      {
+        "ref_id": "ARB-005",
+        "x": 4.8586344718933105,
+        "y": -0.04069565609097481,
+        "cluster": 0,
+        "tradition": "ARAB"
+      },
+      {
+        "ref_id": "NUS-004",
+        "x": 7.83586311340332,
+        "y": -1.6786746978759766,
+        "cluster": -1,
+        "tradition": "NUSANTARAN"
+      },
+      {
+        "ref_id": "NUS-005",
+        "x": 5.418928146362305,
+        "y": 1.4602584838867188,
+        "cluster": 1,
+        "tradition": "NUSANTARAN"
+      }
+    ]
+  },
+  "exp3_zero_shot_ner": {
+    "method": "Zero-shot classification (bart-large-mnli)",
+    "n_processed": 20,
+    "n_valid": 20,
+    "mean_precision": 0.5808500000000001,
+    "mean_recall": 0.8667,
+    "mean_f1": 0.6501000000000001,
+    "per_passage": [
+      {
+        "ref_id": "CHEM-001",
+        "hand_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "ship or vessel",
+            0.945
+          ],
+          [
+            "geographic place or location",
+            0.602
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      {
+        "ref_id": "CHEM-002",
+        "hand_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.945
+          ]
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667
+      },
+      {
+        "ref_id": "CHEM-003",
+        "hand_types": [
+          "COMMODITY",
+          "VESSEL"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "trade commodity or product",
+            0.954
+          ],
+          [
+            "ship or vessel",
+            0.844
+          ],
+          [
+            "geographic place or location",
+            0.642
+          ]
+        ],
+        "precision": 0.667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "ref_id": "CHEM-004",
+        "hand_types": [
+          "COMMODITY"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "religious practice or ritual",
+            0.952
+          ],
+          [
+            "trade commodity or product",
+            0.867
+          ],
+          [
+            "geographic place or location",
+            0.83
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667
+      },
+      {
+        "ref_id": "CHEM-005",
+        "hand_types": [
+          "COMMODITY",
+          "MATERIAL",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "trade commodity or product",
+            0.991
+          ],
+          [
+            "geographic place or location",
+            0.973
+          ],
+          [
+            "religious practice or ritual",
+            0.353
+          ]
+        ],
+        "precision": 1.0,
+        "recall": 0.667,
+        "f1": 0.8
+      },
+      {
+        "ref_id": "CHEM-006",
+        "hand_types": [
+          "COMMODITY",
+          "VESSEL"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "trade commodity or product",
+            0.994
+          ],
+          [
+            "ship or vessel",
+            0.984
+          ],
+          [
+            "geographic place or location",
+            0.935
+          ]
+        ],
+        "precision": 0.667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "ref_id": "GRK-001",
+        "hand_types": [
+          "PLACE"
+        ],
+        "predicted_types": [
+          "ACTOR",
+          "VESSEL",
+          "PLACE",
+          "COMMODITY",
+          "POLITY"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.995
+          ],
+          [
+            "trade commodity or product",
+            0.958
+          ],
+          [
+            "ship or vessel",
+            0.588
+          ],
+          [
+            "kingdom or polity",
+            0.518
+          ],
+          [
+            "person or ruler",
+            0.505
+          ]
+        ],
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.333
+      },
+      {
+        "ref_id": "GRK-002",
+        "hand_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.99
+          ],
+          [
+            "trade commodity or product",
+            0.975
+          ]
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "ref_id": "GRK-003",
+        "hand_types": [
+          "COMMODITY",
+          "ACTOR",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.986
+          ],
+          [
+            "trade commodity or product",
+            0.641
+          ]
+        ],
+        "precision": 1.0,
+        "recall": 0.667,
+        "f1": 0.8
+      },
+      {
+        "ref_id": "GRK-004",
+        "hand_types": [
+          "ACTOR",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "ACTOR",
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "ship or vessel",
+            0.986
+          ],
+          [
+            "geographic place or location",
+            0.975
+          ],
+          [
+            "trade commodity or product",
+            0.582
+          ],
+          [
+            "person or ruler",
+            0.554
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667
+      },
+      {
+        "ref_id": "ROM-001",
+        "hand_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "VESSEL",
+          "COMMODITY",
+          "ACTOR",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "trade commodity or product",
+            0.994
+          ],
+          [
+            "geographic place or location",
+            0.989
+          ],
+          [
+            "person or ruler",
+            0.365
+          ],
+          [
+            "ship or vessel",
+            0.335
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667
+      },
+      {
+        "ref_id": "ROM-002",
+        "hand_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "POLITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.993
+          ],
+          [
+            "trade commodity or product",
+            0.942
+          ],
+          [
+            "kingdom or polity",
+            0.37
+          ]
+        ],
+        "precision": 0.667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "ref_id": "IND-P01",
+        "hand_types": [
+          "ROUTE",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "VESSEL",
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.887
+          ],
+          [
+            "ship or vessel",
+            0.867
+          ],
+          [
+            "trade commodity or product",
+            0.723
+          ],
+          [
+            "religious practice or ritual",
+            0.461
+          ]
+        ],
+        "precision": 0.333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      {
+        "ref_id": "IND-P02",
+        "hand_types": [
+          "ACTOR",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "trade commodity or product",
+            0.989
+          ],
+          [
+            "ship or vessel",
+            0.962
+          ],
+          [
+            "religious practice or ritual",
+            0.873
+          ],
+          [
+            "geographic place or location",
+            0.85
+          ]
+        ],
+        "precision": 0.333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      {
+        "ref_id": "IND-P03",
+        "hand_types": [
+          "ACTOR",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "ACTOR",
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "ship or vessel",
+            0.979
+          ],
+          [
+            "person or ruler",
+            0.965
+          ],
+          [
+            "trade commodity or product",
+            0.965
+          ],
+          [
+            "geographic place or location",
+            0.953
+          ],
+          [
+            "religious practice or ritual",
+            0.495
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667
+      },
+      {
+        "ref_id": "IND-P04",
+        "hand_types": [
+          "VESSEL",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "ACTOR",
+          "VESSEL",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "person or ruler",
+            0.995
+          ],
+          [
+            "ship or vessel",
+            0.986
+          ],
+          [
+            "trade commodity or product",
+            0.924
+          ],
+          [
+            "religious practice or ritual",
+            0.765
+          ],
+          [
+            "geographic place or location",
+            0.72
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667
+      },
+      {
+        "ref_id": "IND-P05",
+        "hand_types": [
+          "PLACE"
+        ],
+        "predicted_types": [
+          "VESSEL",
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "geographic place or location",
+            0.876
+          ],
+          [
+            "trade commodity or product",
+            0.698
+          ],
+          [
+            "ship or vessel",
+            0.616
+          ]
+        ],
+        "precision": 0.333,
+        "recall": 1.0,
+        "f1": 0.5
+      },
+      {
+        "ref_id": "IND-P06",
+        "hand_types": [
+          "ACTOR",
+          "PLACE"
+        ],
+        "predicted_types": [
+          "POLITY",
+          "ACTOR",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "person or ruler",
+            0.997
+          ],
+          [
+            "geographic place or location",
+            0.97
+          ],
+          [
+            "kingdom or polity",
+            0.954
+          ],
+          [
+            "religious practice or ritual",
+            0.863
+          ]
+        ],
+        "precision": 0.667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "ref_id": "IND-S01",
+        "hand_types": [
+          "PLACE"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "ACTOR",
+          "POLITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "kingdom or polity",
+            0.993
+          ],
+          [
+            "geographic place or location",
+            0.993
+          ],
+          [
+            "person or ruler",
+            0.974
+          ],
+          [
+            "religious practice or ritual",
+            0.961
+          ],
+          [
+            "trade commodity or product",
+            0.942
+          ]
+        ],
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      {
+        "ref_id": "IND-S02",
+        "hand_types": [
+          "COMMODITY"
+        ],
+        "predicted_types": [
+          "COMMODITY",
+          "PLACE"
+        ],
+        "top_labels": [
+          [
+            "trade commodity or product",
+            0.997
+          ],
+          [
+            "geographic place or location",
+            0.359
+          ]
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667
+      }
+    ]
+  },
+  "exp4_bertopic": {
+    "method": "BERTopic",
+    "n_topics": 3,
+    "topics": [
+      {
+        "id": -1,
+        "count": 10,
+        "words": [
+          [
+            "king",
+            0.10146103385193289
+          ],
+          [
+            "zabaj",
+            0.09313589946782591
+          ],
+          [
+            "terms",
+            0.09029727561934926
+          ],
+          [
+            "days",
+            0.09029727561934926
+          ],
+          [
+            "java",
+            0.07609577538894967
+          ],
+          [
+            "bay",
+            0.06514179122908707
+          ],
+          [
+            "gold silver",
+            0.06514179122908707
+          ],
+          [
+            "crow",
+            0.06514179122908707
+          ],
+          [
+            "voyage",
+            0.06514179122908707
+          ],
+          [
+            "seven",
+            0.06019818374623284
+          ]
+        ]
+      },
+      {
+        "id": 0,
+        "count": 19,
+        "words": [
+          [
+            "buddhist",
+            0.11167302102534171
+          ],
+          [
+            "records",
+            0.1025099672714058
+          ],
+          [
+            "maritime",
+            0.08542497272617149
+          ],
+          [
+            "ship",
+            0.0827624060561725
+          ],
+          [
+            "merchant",
+            0.0827624060561725
+          ],
+          [
+            "ce",
+            0.062071804542129363
+          ],
+          [
+            "ships",
+            0.058680420302049376
+          ],
+          [
+            "indian",
+            0.058680420302049376
+          ],
+          [
+            "great",
+            0.055836510512670856
+          ],
+          [
+            "ocean",
+            0.055836510512670856
+          ]
+        ]
+      },
+      {
+        "id": 1,
+        "count": 18,
+        "words": [
+          [
+            "se",
+            0.11154640061447814
+          ],
+          [
+            "south",
+            0.10816129080441901
+          ],
+          [
+            "east",
+            0.08015981467075826
+          ],
+          [
+            "asia",
+            0.0757801654215145
+          ],
+          [
+            "world",
+            0.0757801654215145
+          ],
+          [
+            "maritime",
+            0.06619092226329766
+          ],
+          [
+            "vessel",
+            0.06417353550305953
+          ],
+          [
+            "se asian",
+            0.06417353550305953
+          ],
+          [
+            "coconut",
+            0.06417353550305953
+          ],
+          [
+            "china",
+            0.060119861003068695
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "count": 3,
+        "words": [
+          [
+            "month",
+            0.25155415524968217
+          ],
+          [
+            "zabaj",
+            0.20771756526048013
+          ],
+          [
+            "comes",
+            0.19371111602333788
+          ],
+          [
+            "land",
+            0.19371111602333788
+          ],
+          [
+            "kedah",
+            0.19371111602333788
+          ],
+          [
+            "lists",
+            0.16770277016645477
+          ],
+          [
+            "products",
+            0.16770277016645477
+          ],
+          [
+            "king",
+            0.15085653717458442
+          ],
+          [
+            "distant",
+            0.10730361694488735
+          ],
+          [
+            "distant lands",
+            0.10730361694488735
+          ]
+        ]
+      }
+    ],
+    "tradition_topic_matrix": {
+      "CHEMICAL": {
+        "1": 8
+      },
+      "GREEK": {
+        "1": 3,
+        "0": 2
+      },
+      "ROMAN": {
+        "1": 2
+      },
+      "INDIAN_PALI": {
+        "0": 6
+      },
+      "INDIAN_SANSKRIT": {
+        "-1": 2,
+        "2": 1,
+        "0": 1
+      },
+      "CHINESE": {
+        "0": 4,
+        "1": 2,
+        "-1": 2
+      },
+      "ARAB": {
+        "-1": 2,
+        "2": 2,
+        "0": 1
+      },
+      "TAMIL": {
+        "0": 3
+      },
+      "LINGUISTIC": {
+        "1": 3,
+        "-1": 1
+      },
+      "NUSANTARAN": {
+        "-1": 3,
+        "0": 2
+      }
+    },
+    "per_document_topics": [
+      {
+        "ref_id": "CHEM-001",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHEM-002",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHEM-003",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHEM-004",
+        "topic": 1,
+        "prob": 0.9372467035900109
+      },
+      {
+        "ref_id": "CHEM-005",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHEM-006",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "GRK-001",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "GRK-002",
+        "topic": 1,
+        "prob": 0.9138074211329174
+      },
+      {
+        "ref_id": "GRK-003",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "GRK-004",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "ROM-001",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "ROM-002",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-P01",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-P02",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-P03",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-P04",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-P05",
+        "topic": 0,
+        "prob": 0.9710869853755475
+      },
+      {
+        "ref_id": "IND-P06",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-S01",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "IND-S02",
+        "topic": 2,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "IND-S03",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "IND-S04",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHN-001",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHN-002",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHN-003",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "CHN-004",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHN-005",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHN-006",
+        "topic": 0,
+        "prob": 0.9508430434209297
+      },
+      {
+        "ref_id": "CHN-007",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "ARB-001",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "ARB-002",
+        "topic": 2,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "ARB-003",
+        "topic": 2,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "ARB-004",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "TAM-001",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "TAM-002",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "TAM-003",
+        "topic": 0,
+        "prob": 0.9648444702786957
+      },
+      {
+        "ref_id": "LING-001",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "LING-002",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "LING-003",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "NUS-001",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "NUS-002",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "NUS-003",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "GRK-005",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHN-008",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHEM-007",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "CHEM-008",
+        "topic": 1,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "LING-004",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "ARB-005",
+        "topic": -1,
+        "prob": 0.0
+      },
+      {
+        "ref_id": "NUS-004",
+        "topic": 0,
+        "prob": 1.0
+      },
+      {
+        "ref_id": "NUS-005",
+        "topic": -1,
+        "prob": 0.0
+      }
+    ]
+  },
+  "exp5_semantic_convergence": {
+    "method": "Embedding-space convergence (Monte Carlo baseline)",
+    "concept_groups": {
+      "JAVA": {
+        "n_members": 19,
+        "n_traditions": 7,
+        "intra_group_similarity": 0.3143938481807709,
+        "random_baseline": 0.3071758449077606,
+        "random_std": 0.008179633878171444,
+        "z_score": 0.8824359774589539,
+        "p_value": 0.187,
+        "cross_tradition_similarity": 0.2954968810081482,
+        "verdict": "NO CONVERGENCE"
+      },
+      "SUMATRA_GOLD": {
+        "n_members": 20,
+        "n_traditions": 8,
+        "intra_group_similarity": 0.34519925713539124,
+        "random_baseline": 0.3071020245552063,
+        "random_std": 0.007871676236391068,
+        "z_score": 4.839786529541016,
+        "p_value": 0.0,
+        "cross_tradition_similarity": 0.33429470658302307,
+        "verdict": "CONVERGES"
+      },
+      "CAMPHOR_BARUS": {
+        "n_members": 8,
+        "n_traditions": 5,
+        "intra_group_similarity": 0.4422263205051422,
+        "random_baseline": 0.30727630853652954,
+        "random_std": 0.020592626184225082,
+        "z_score": 6.553317070007324,
+        "p_value": 0.0,
+        "cross_tradition_similarity": 0.4326907694339752,
+        "verdict": "CONVERGES"
+      },
+      "SPICE_TRADE": {
+        "n_members": 15,
+        "n_traditions": 5,
+        "intra_group_similarity": 0.39635083079338074,
+        "random_baseline": 0.3071780800819397,
+        "random_std": 0.010586063377559185,
+        "z_score": 8.423599243164062,
+        "p_value": 0.0,
+        "cross_tradition_similarity": 0.38151076436042786,
+        "verdict": "CONVERGES"
+      },
+      "MARITIME_VOYAGE": {
+        "n_members": 28,
+        "n_traditions": 10,
+        "intra_group_similarity": 0.35977980494499207,
+        "random_baseline": 0.30700257420539856,
+        "random_std": 0.0055928402580320835,
+        "z_score": 9.436570167541504,
+        "p_value": 0.0,
+        "cross_tradition_similarity": 0.349644273519516,
+        "verdict": "CONVERGES"
+      }
+    },
+    "converging_groups": 4,
+    "total_groups": 5
+  },
+  "exp6_cross_tradition_entailment": {
+    "method": "NLI cross-tradition entailment (bart-large-mnli)",
+    "pairs_tested": 5,
+    "overall_mean_entailment": 0.16113973177488802,
+    "results": [
+      {
+        "pair": "Periplus → Golden Land hypothesis",
+        "premise_tradition": "GREEK",
+        "hypothesis": "There was a wealthy golden land east of India where merchants traded spices and gold.",
+        "mean_score": 0.3857179056128694,
+        "max_score": 0.9958643317222595,
+        "top_matches": [
+          {
+            "ref_id": "TAM-001",
+            "tradition": "TAMIL",
+            "score": 0.9958643317222595
+          },
+          {
+            "ref_id": "ARB-004",
+            "tradition": "ARAB",
+            "score": 0.985302209854126
+          },
+          {
+            "ref_id": "IND-P03",
+            "tradition": "INDIAN_PALI",
+            "score": 0.9293612241744995
+          },
+          {
+            "ref_id": "IND-S03",
+            "tradition": "INDIAN_SANSKRIT",
+            "score": 0.8993564248085022
+          },
+          {
+            "ref_id": "ARB-005",
+            "tradition": "ARAB",
+            "score": 0.8803821206092834
+          }
+        ],
+        "n_tested": 45
+      },
+      {
+        "pair": "Sankha Jataka → Suvannabhumi trade",
+        "premise_tradition": "INDIAN_PALI",
+        "hypothesis": "Indian merchants regularly sailed to a golden land called Suvannabhumi to trade.",
+        "mean_score": 0.030790351210188503,
+        "max_score": 0.5695203542709351,
+        "top_matches": [
+          {
+            "ref_id": "IND-S04",
+            "tradition": "INDIAN_SANSKRIT",
+            "score": 0.5695203542709351
+          },
+          {
+            "ref_id": "TAM-003",
+            "tradition": "TAMIL",
+            "score": 0.2534216046333313
+          },
+          {
+            "ref_id": "CHEM-007",
+            "tradition": "CHEMICAL",
+            "score": 0.06590279191732407
+          },
+          {
+            "ref_id": "TAM-001",
+            "tradition": "TAMIL",
+            "score": 0.05483875423669815
+          },
+          {
+            "ref_id": "IND-S02",
+            "tradition": "INDIAN_SANSKRIT",
+            "score": 0.04687990993261337
+          }
+        ],
+        "n_tested": 44
+      },
+      {
+        "pair": "Wan Chen → SE Asian maritime technology",
+        "premise_tradition": "CHINESE",
+        "hypothesis": "Southeast Asian peoples had large ships with outriggers capable of carrying hundreds of people.",
+        "mean_score": 0.222866847717558,
+        "max_score": 0.8810580968856812,
+        "top_matches": [
+          {
+            "ref_id": "IND-P04",
+            "tradition": "INDIAN_PALI",
+            "score": 0.8810580968856812
+          },
+          {
+            "ref_id": "TAM-003",
+            "tradition": "TAMIL",
+            "score": 0.8518661856651306
+          },
+          {
+            "ref_id": "NUS-003",
+            "tradition": "NUSANTARAN",
+            "score": 0.769626259803772
+          },
+          {
+            "ref_id": "IND-P03",
+            "tradition": "INDIAN_PALI",
+            "score": 0.5101610422134399
+          },
+          {
+            "ref_id": "CHEM-006",
+            "tradition": "CHEMICAL",
+            "score": 0.48256275057792664
+          }
+        ],
+        "n_tested": 42
+      },
+      {
+        "pair": "Saqqara → pre-classical SE Asian trade",
+        "premise_tradition": "CHEMICAL",
+        "hypothesis": "Southeast Asian tree resins were traded to Egypt before 500 BCE.",
+        "mean_score": 0.03363822358438656,
+        "max_score": 0.2141353189945221,
+        "top_matches": [
+          {
+            "ref_id": "ROM-001",
+            "tradition": "ROMAN",
+            "score": 0.2141353189945221
+          },
+          {
+            "ref_id": "TAM-003",
+            "tradition": "TAMIL",
+            "score": 0.12382093816995621
+          },
+          {
+            "ref_id": "IND-S02",
+            "tradition": "INDIAN_SANSKRIT",
+            "score": 0.12106342613697052
+          },
+          {
+            "ref_id": "GRK-001",
+            "tradition": "GREEK",
+            "score": 0.111631840467453
+          },
+          {
+            "ref_id": "LING-001",
+            "tradition": "LINGUISTIC",
+            "score": 0.09790973365306854
+          }
+        ],
+        "n_tested": 42
+      },
+      {
+        "pair": "Sulayman → Nusantaran commodity exports",
+        "premise_tradition": "ARAB",
+        "hypothesis": "The island kingdom in Southeast Asia produced camphor, cloves, nutmeg, and sandalwood.",
+        "mean_score": 0.1326853307494376,
+        "max_score": 0.7437359690666199,
+        "top_matches": [
+          {
+            "ref_id": "ROM-001",
+            "tradition": "ROMAN",
+            "score": 0.7437359690666199
+          },
+          {
+            "ref_id": "IND-P03",
+            "tradition": "INDIAN_PALI",
+            "score": 0.6630091667175293
+          },
+          {
+            "ref_id": "IND-S04",
+            "tradition": "INDIAN_SANSKRIT",
+            "score": 0.6308804750442505
+          },
+          {
+            "ref_id": "CHN-002",
+            "tradition": "CHINESE",
+            "score": 0.5410618185997009
+          },
+          {
+            "ref_id": "IND-S02",
+            "tradition": "INDIAN_SANSKRIT",
+            "score": 0.5387991070747375
+          }
+        ],
+        "n_tested": 45
+      }
+    ]
+  }
+}

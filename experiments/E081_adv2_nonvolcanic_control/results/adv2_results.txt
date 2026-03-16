@@ -1,0 +1,46 @@
+======================================================================
+E081 ADV-2: Non-Volcanic Control Test — Results
+======================================================================
+
+Total sites: 80
+Volcanic region sites: 67
+Non-volcanic control sites: 13
+
+VOLCANIC REGIONS: Java, Maluku, Nusa_Tenggara, Philippines, Sulawesi, Sumatra
+NON-VOLCANIC CONTROLS: Kalimantan, Madagascar
+
+--- Site Type Distribution ---
+                       Volcanic Non-volcanic
+  cave                       36            7
+  rockshelter                 6            2
+  open_air                   16            4
+  river_terrace               9            0
+
+  Enclosed (cave+rock):   42 (62.7%)  vs     9 (69.2%)
+  Open (air+terrace):     25 (37.3%)  vs     4 (30.8%)
+
+--- Temporal Distribution ---
+  Volcanic: mean=141039.0 BP, median=36000.0 BP
+  Non-volcanic: mean=19331.0 BP, median=15000.0 BP
+
+--- Fisher Exact Test (enclosed vs open) ---
+  p-value: 0.760044
+  odds ratio: 0.7467
+  interpretation: NOT SIGNIFICANT (p >= 0.05): Cannot reject null hypothesis that distributions are the same.
+
+--- Chi-Square Test (4-category) ---
+  chi2: 2.4030, p=0.493074, dof=3
+  interpretation: NOT SIGNIFICANT: Cannot reject null that distributions are the same.
+
+--- Per-Region Summary ---
+  Java                 [VOLCANIC] N= 19, enclosed= 36.8%, density=1.473 sites/10k km2
+  Kalimantan           [CONTROL ] N=  8, enclosed=100.0%, density=0.148 sites/10k km2
+  Madagascar           [CONTROL ] N=  5, enclosed= 20.0%, density=0.085 sites/10k km2
+  Maluku               [VOLCANIC] N=  5, enclosed=100.0%, density=0.667 sites/10k km2
+  Nusa_Tenggara        [VOLCANIC] N= 12, enclosed= 58.3%, density=1.644 sites/10k km2
+  Philippines          [VOLCANIC] N=  6, enclosed= 83.3%, density=0.200 sites/10k km2
+  Sulawesi             [VOLCANIC] N= 18, enclosed= 83.3%, density=1.031 sites/10k km2
+  Sumatra              [VOLCANIC] N=  7, enclosed= 42.9%, density=0.148 sites/10k km2
+
+--- VERDICT ---
+  INCONCLUSIVE: INCONCLUSIVE: No significant difference detected (Fisher p=0.7600), but non-volcanic control group (N=13) is small. Cannot confidently distinguish between 'same pattern everywhere' and 'different but underpowered'. Enclosed rate: volcanic=62.7%, non-volcanic=69.2% (diff=-6.5pp).

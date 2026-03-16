@@ -1,0 +1,825 @@
+[
+  {
+    "id": "E001",
+    "dir": "E001_site_density_vs_volcanic_proximity",
+    "has_readme": true,
+    "title": "Archaeological Site Geocoding & Density Analysis",
+    "status": "IN PROGRESS",
+    "papers": [
+      "P1"
+    ],
+    "date": "2026-02-23"
+  },
+  {
+    "id": "E002",
+    "dir": "E002_eruption_history",
+    "has_readme": true,
+    "title": "Eruption History Compilation",
+    "status": "IN PROGRESS",
+    "papers": [
+      "P1",
+      "P3"
+    ],
+    "date": "2026-02-23"
+  },
+  {
+    "id": "E003",
+    "dir": "E003_dem_acquisition",
+    "has_readme": true,
+    "title": "DEM Acquisition and Processing (Malang Raya)",
+    "status": "QUEUED",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-23"
+  },
+  {
+    "id": "E004",
+    "dir": "E004_density_analysis",
+    "has_readme": true,
+    "title": "Site Density vs Volcanic Proximity (First Test of H1)",
+    "status": "BLOCKED (needs E001 ",
+    "papers": [
+      "P1"
+    ],
+    "date": "2026-02-23"
+  },
+  {
+    "id": "E005",
+    "dir": "E005_terrain_suitability",
+    "has_readme": true,
+    "title": "Terrain Suitability Model as Null Hypothesis for H1",
+    "status": "IN PROGRESS",
+    "papers": [
+      "P1",
+      "P2"
+    ],
+    "date": "2026-02-23",
+    "key_metric": "rho=-0.991"
+  },
+  {
+    "id": "E006",
+    "dir": "E006_enriched_reanalysis",
+    "has_readme": true,
+    "title": "Re-analysis with Nominatim-Enriched Site Dataset",
+    "status": "SUCCESS",
+    "papers": [
+      "P1"
+    ],
+    "date": "2026-02-24"
+  },
+  {
+    "id": "E007",
+    "dir": "E007_settlement_suitability_model",
+    "has_readme": true,
+    "title": "Settlement Suitability Model — Paper 2 MVP",
+    "status": "REVISIT",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.659; p<0.001"
+  },
+  {
+    "id": "E008",
+    "dir": "E008_settlement_model_v2",
+    "has_readme": true,
+    "title": "Settlement Suitability Model v2 — River Distance Feature",
+    "status": "REVISIT",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.695; rho=-0.153"
+  },
+  {
+    "id": "E009",
+    "dir": "E009_settlement_model_v3",
+    "has_readme": true,
+    "title": "Settlement Suitability Model v3 — SoilGrids Clay + Silt",
+    "status": "REVISIT",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.664; p<0.001"
+  },
+  {
+    "id": "E010",
+    "dir": "E010_settlement_model_v4",
+    "has_readme": true,
+    "title": "Settlement Suitability Model v4 - Target-Group Background",
+    "status": "REVISIT",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.711; p<0.001"
+  },
+  {
+    "id": "E011",
+    "dir": "E011_settlement_model_v5",
+    "has_readme": true,
+    "title": "Settlement Suitability Model v5 - TGB Parameter Sweep",
+    "status": "REVISIT",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.725; p<0.001"
+  },
+  {
+    "id": "E012",
+    "dir": "E012_settlement_model_v6",
+    "has_readme": true,
+    "title": "Settlement Suitability Model v6 - TGB Proxy Enrichment",
+    "status": "REVISIT",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.730; p<0.001"
+  },
+  {
+    "id": "E013",
+    "dir": "E013_settlement_model_v7",
+    "has_readme": true,
+    "title": "Settlement Suitability Model v7 - Hybrid Bias Correction",
+    "status": "SUCCESS",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-02-24",
+    "key_metric": "AUC=0.768; p<0.001"
+  },
+  {
+    "id": "E014",
+    "dir": "E014_temporal_validation",
+    "has_readme": true,
+    "title": "Temporal Split Validation — Tautology Stress Test",
+    "status": "READY TO RUN"
+  },
+  {
+    "id": "E015",
+    "dir": "E015_shap_analysis",
+    "has_readme": true,
+    "title": "SHAP Analysis for E013 Best Model",
+    "status": "SUCCESS",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-03-03"
+  },
+  {
+    "id": "E016",
+    "dir": "E016_zone_classification",
+    "has_readme": true,
+    "title": "Zone Classification Map",
+    "status": "IN PROGRESS",
+    "papers": [
+      "P1",
+      "P2"
+    ],
+    "date": "2026-03-03"
+  },
+  {
+    "id": "E017",
+    "dir": "E017_tephra_poc",
+    "has_readme": true,
+    "title": "Tephra POC (Pyle 1989 Calibration for Paper 3)",
+    "status": "FAILED",
+    "papers": [
+      "P3"
+    ],
+    "date": "2026-03-03"
+  },
+  {
+    "id": "E018",
+    "dir": "E018_temporal_overlay_poc",
+    "has_readme": true,
+    "title": "Temporal Overlay Matrix — Proof of Concept",
+    "status": "INCONCLUSIVE",
+    "papers": [
+      "P7"
+    ],
+    "date": "2026-03-05"
+  },
+  {
+    "id": "E019",
+    "dir": "E019_spatial_distribution",
+    "has_readme": true,
+    "title": "Spatial Distribution Test (Paper 7 Metric 3)",
+    "key_metric": "p<0.05"
+  },
+  {
+    "id": "E020",
+    "dir": "E020_mini_nusarc",
+    "has_readme": true,
+    "title": "Mini-NusaRC — Preliminary Radiocarbon Database for H-TOM Testing",
+    "papers": [
+      "D2"
+    ],
+    "key_metric": "p<0.05"
+  },
+  {
+    "id": "E022",
+    "dir": "E022_linguistic_subtraction",
+    "has_readme": true,
+    "title": "Linguistic Subtraction POC"
+  },
+  {
+    "id": "E023",
+    "dir": "E023_ritual_screening",
+    "has_readme": true,
+    "title": "Ritual Screening POC — DHARMA Corpus"
+  },
+  {
+    "id": "E024",
+    "dir": "E024_borehole_screening",
+    "has_readme": true,
+    "title": "Borehole & Buried Site Literature Screening"
+  },
+  {
+    "id": "E025",
+    "dir": "E025_quantitative_validation",
+    "has_readme": true,
+    "title": "Quantitative Validation of the Volcanic Ritual Clock Hypothesis"
+  },
+  {
+    "id": "E026",
+    "dir": "E026_pararaton_volcanic_correlation",
+    "has_readme": true,
+    "title": "Pararaton Volcanic Correlation",
+    "status": "SUCCESS",
+    "papers": [
+      "P14"
+    ],
+    "date": "2026-03-10",
+    "key_metric": "p=0.037"
+  },
+  {
+    "id": "E027",
+    "dir": "E027_ml_substrate_detection",
+    "has_readme": true,
+    "title": "ML-Based Linguistic Substrate Detection",
+    "status": "SUCCESS",
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-03-10"
+  },
+  {
+    "id": "E028",
+    "dir": "E028_substrate_consensus",
+    "has_readme": true,
+    "title": "Cross-Method Substrate Consensus Analysis",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "E029",
+    "dir": "E029_substrate_clustering",
+    "has_readme": true,
+    "title": "Phonological Clustering of Consensus Substrate Candidates"
+  },
+  {
+    "id": "E030",
+    "dir": "E030_prasasti_temporal_nlp",
+    "has_readme": true,
+    "title": "Temporal NLP Analysis of Old Javanese Inscriptions",
+    "status": "SUCCESS",
+    "papers": [
+      "P14",
+      "P5"
+    ],
+    "date": "2026-03-10",
+    "key_metric": "p<0.001; rho=+0.502"
+  },
+  {
+    "id": "E031",
+    "dir": "E031_candi_orientation",
+    "has_readme": true,
+    "title": "Candi Orientation vs Volcanic Peak Alignment",
+    "status": "SUCCESS",
+    "date": "2026-03-10",
+    "key_metric": "p=3.1e-14"
+  },
+  {
+    "id": "E032",
+    "dir": "E032_pranata_mangsa",
+    "has_readme": true,
+    "title": "Pranata Mangsa × Eruption Seasonality",
+    "status": "SUCCESS",
+    "date": "2026-03-10",
+    "key_metric": "p=0.042"
+  },
+  {
+    "id": "E033",
+    "dir": "E033_sanskrit_temporal_curve",
+    "has_readme": true,
+    "title": "The Indianization Curve: Sanskrit Vocabulary in Prasasti (550-1356 CE)",
+    "status": "SUCCESS",
+    "date": "2026-03-10",
+    "key_metric": "p=0.070; rho=-0.211"
+  },
+  {
+    "id": "E034",
+    "dir": "E034_panji_malagasy",
+    "has_readme": true,
+    "title": "Cerita Panji in Malagasy Literature Search",
+    "status": "INFO NEG",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "E035",
+    "dir": "E035_prasasti_botanical",
+    "has_readme": true,
+    "title": "Prasasti Botanical Keyword Expansion",
+    "status": "SUCCESS",
+    "date": "2026-03-10",
+    "key_metric": "p=0.31"
+  },
+  {
+    "id": "E036",
+    "dir": "E036_hanacaraka_inventory",
+    "has_readme": true,
+    "title": "Hanacaraka Phonological Inventory Mapping",
+    "status": "SUCCESS",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "E037",
+    "dir": "E037_prasasti_dating_ml",
+    "has_readme": true,
+    "title": "Prasasti Dating Model (ML on Undated Inscriptions)",
+    "status": "INFO NEG",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "E038",
+    "dir": "E038_volcanic_vocabulary",
+    "has_readme": true,
+    "title": "Volcanic Vocabulary Semantic Drift Across Austronesian",
+    "status": "INFO NEG",
+    "date": "2026-03-10",
+    "key_metric": "p=0.38; rho=-0.301"
+  },
+  {
+    "id": "E039",
+    "dir": "E039_vcs_crosscultural",
+    "has_readme": true,
+    "title": "Volcanic Cultural Selection — Cross-Cultural Test",
+    "status": "INFO NEG",
+    "papers": [
+      "P11"
+    ],
+    "date": "2026-03-11",
+    "key_metric": "p=0.028; rho=+0.145."
+  },
+  {
+    "id": "E040",
+    "dir": "E040_bamboo_civilization",
+    "has_readme": true,
+    "title": "Bamboo Civilization — Material Culture in Prasasti",
+    "status": "SUCCESS",
+    "papers": [
+      "P1",
+      "P7"
+    ],
+    "date": "2026-03-11"
+  },
+  {
+    "id": "E041",
+    "dir": "E041_ipa_validation",
+    "has_readme": true,
+    "title": "IPA Approximation Validation",
+    "status": "SUCCESS",
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-03-11"
+  },
+  {
+    "id": "E042",
+    "dir": "E042_syllable_validation",
+    "has_readme": true,
+    "title": "Syllable Count Validation",
+    "status": "SUCCESS",
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-03-11"
+  },
+  {
+    "id": "E043",
+    "dir": "E043_krama_alus_cognacy",
+    "has_readme": true,
+    "title": "Peripheral Conservatism — Cognacy Comparison",
+    "status": "SUCCESS",
+    "papers": [
+      "P9"
+    ],
+    "date": "2026-03-11",
+    "key_metric": "p=0.015"
+  },
+  {
+    "id": "E044",
+    "dir": "E044_malagasy_burial_botany",
+    "has_readme": true,
+    "title": "Malagasy Burial Botanical Survey",
+    "status": "SUCCESS",
+    "papers": [
+      "P9"
+    ],
+    "date": "2026-03-11"
+  },
+  {
+    "id": "E048",
+    "dir": "E048_multidomain_convergence",
+    "has_readme": true,
+    "title": "Multi-Domain Temporal Convergence Analysis",
+    "key_metric": "p<0.0001; rho=+0.546"
+  },
+  {
+    "id": "E049",
+    "dir": "E049_maritime_vocabulary",
+    "has_readme": true,
+    "title": "Maritime & Nature Vocabulary Conservation Across Austronesian Peripheries"
+  },
+  {
+    "id": "E050",
+    "dir": "E050_canarium_distribution",
+    "has_readme": true,
+    "title": "Canarium spp. Global Distribution — Austronesian Aromatic Trail"
+  },
+  {
+    "id": "E051",
+    "dir": "E051_toponymic_substrate",
+    "has_readme": true,
+    "title": "Java Toponymic Substrate Analysis",
+    "status": "SUCCESS",
+    "papers": [
+      "P5",
+      "P8",
+      "P9"
+    ],
+    "date": "2026-03-12",
+    "key_metric": "p=2.2e-20; rho=0.387"
+  },
+  {
+    "id": "E052",
+    "dir": "E052_sunda_shelf",
+    "has_readme": true,
+    "title": "Sunda Shelf Paleo-Drainage Reconstruction",
+    "status": "SUCCESS",
+    "date": "2026-03-12"
+  },
+  {
+    "id": "E053",
+    "dir": "E053_adna_taphonomic_gap",
+    "has_readme": true,
+    "title": "Ancient DNA Taphonomic Gap in Island Southeast Asia",
+    "key_metric": "p=0.047"
+  },
+  {
+    "id": "E054",
+    "dir": "E054_pan_austronesian_cognacy",
+    "has_readme": true,
+    "title": "Pan-Austronesian Cognacy Gradient — Continental-Scale Test",
+    "papers": [
+      "P9"
+    ],
+    "key_metric": "p=0.002; rho=-0.088"
+  },
+  {
+    "id": "E055",
+    "dir": "E055_convergence_synthesis",
+    "has_readme": true,
+    "title": "Multi-Evidence Convergence Synthesis",
+    "layers": [
+      "L2",
+      "L5"
+    ]
+  },
+  {
+    "id": "E056",
+    "dir": "E056_candi_toponym_crossref",
+    "has_readme": true,
+    "title": "Candi Location × Toponymic Substrate Cross-Reference",
+    "key_metric": "p=0.007; rho=-0.240"
+  },
+  {
+    "id": "E057",
+    "dir": "E057_genre_taphonomy",
+    "has_readme": true,
+    "title": "Genre Taphonomy — The 5th Layer of Darkness",
+    "key_metric": "p<0.000001"
+  },
+  {
+    "id": "E058",
+    "dir": "E058_kakawin_nlp",
+    "has_readme": true,
+    "title": "Kakawin (Old Javanese Literary Text) NLP Analysis",
+    "status": "SUCCESS",
+    "papers": [
+      "P5",
+      "P8"
+    ],
+    "date": "2026-03-12"
+  },
+  {
+    "id": "E059",
+    "dir": "E059_fieldwork_targets",
+    "has_readme": true,
+    "title": "Priority Fieldwork Targets — Where to Dig Next",
+    "papers": [
+      "P2"
+    ]
+  },
+  {
+    "id": "E060",
+    "dir": "E060_pre400ce_reconstruction",
+    "has_readme": true,
+    "title": "Pre-400 CE Nusantara Reconstruction"
+  },
+  {
+    "id": "E061",
+    "dir": "E061_script_simplification",
+    "has_readme": true,
+    "title": "Script Simplification — Cross-Cultural Validation",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "E062",
+    "dir": "E062_temporal_synthesis",
+    "has_readme": true,
+    "title": "Temporal Synthesis: Multi-Dimensional Visibility Curve",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "E063",
+    "dir": "E063_domain_conservation",
+    "has_readme": true,
+    "title": "Semantic Domain Conservation in Austronesian Languages",
+    "status": "SUCCESS",
+    "key_metric": "p=6.82e-04."
+  },
+  {
+    "id": "E064",
+    "dir": "E064_master_evidence_table",
+    "has_readme": true,
+    "title": "Master Evidence Table — Cross-Paper Revision Ammo"
+  },
+  {
+    "id": "E065",
+    "dir": "E065_candi_elevation_analysis",
+    "has_readme": true,
+    "title": "Candi Spatial Analysis — Volcanic Proximity Zones"
+  },
+  {
+    "id": "E066",
+    "dir": "E066_candi_archaeoastronomy",
+    "has_readme": true,
+    "title": "Candi Archaeoastronomy — Entrance Orientation vs Solar Azimuths",
+    "status": "SUCCESS",
+    "papers": [
+      "P11"
+    ],
+    "date": "2026-03-12",
+    "key_metric": "p=0.0016"
+  },
+  {
+    "id": "E067",
+    "dir": "E067_volcanic_toponyms",
+    "has_readme": true,
+    "title": "Volcanic Toponyms — Do Volcanic Place Names Cluster Near Volcanoes?",
+    "status": "INFO NEG",
+    "papers": [
+      "P11"
+    ],
+    "date": "2026-03-12",
+    "key_metric": "p=0.146; rho=+0.140"
+  },
+  {
+    "id": "E068",
+    "dir": "E068_fdr_meta_audit",
+    "has_readme": true,
+    "title": "FDR Meta-Analytic Audit",
+    "status": "SUCCESS",
+    "date": "2026-03-13"
+  },
+  {
+    "id": "E069",
+    "dir": "E069_adversarial_comparanda",
+    "has_readme": true,
+    "title": "Adversarial Experiment Suite — Falsification Tests",
+    "status": "SUCCESS",
+    "date": "2026-03-13",
+    "key_metric": "AUC=0.713; p=0.760"
+  },
+  {
+    "id": "E070",
+    "dir": "E070_colonial_literature_mining",
+    "has_readme": true,
+    "title": "Colonial Literature Mining — Independent Dataset Construction",
+    "status": "SUCCESS",
+    "papers": [
+      "P1",
+      "P11",
+      "P2",
+      "P7"
+    ],
+    "date": "2026-03-13"
+  },
+  {
+    "id": "E071",
+    "dir": "E071_pre400ce_evidence",
+    "has_readme": true,
+    "title": "Pre-400 CE Evidence Database",
+    "status": "SUCCESS",
+    "layers": [
+      "L1",
+      "L3",
+      "L6"
+    ],
+    "papers": [
+      "P11"
+    ],
+    "date": "2026-03-13"
+  },
+  {
+    "id": "E073",
+    "dir": "E073_spatial_vs_linguistic",
+    "has_readme": true,
+    "title": "Spatial vs Linguistic Evidence Meta-Test"
+  },
+  {
+    "id": "E074",
+    "dir": "E074_dharma_deep_nlp",
+    "has_readme": true,
+    "title": "DHARMA Deep NLP — Mining the Invisible Millennium"
+  },
+  {
+    "id": "E075",
+    "dir": "E075_sedimentation_model",
+    "has_readme": true,
+    "title": "Volcanic Sedimentation Burial Model for Java"
+  },
+  {
+    "id": "E076",
+    "dir": "E076_satellite_ndvi",
+    "has_readme": true,
+    "title": "Satellite NDVI Anomaly Detection at Candi Sites",
+    "layers": [
+      "L2"
+    ]
+  },
+  {
+    "id": "E078",
+    "dir": "E078_eruption_inscription_correlation",
+    "has_readme": true,
+    "title": "Eruption-Inscription Correlation — Volcanic Dark Periods",
+    "key_metric": "p=0.43; rho=-0.77"
+  },
+  {
+    "id": "E079",
+    "dir": "E079_darkness_index",
+    "has_readme": true,
+    "title": "The Archaeological Darkness Index — Grand Synthesis"
+  },
+  {
+    "id": "E080",
+    "dir": "E080_fieldwork_targets",
+    "has_readme": true,
+    "title": "Fieldwork Targeting — Priority Zones",
+    "status": "SUCCESS",
+    "layers": [
+      "L1"
+    ],
+    "papers": [
+      "P1",
+      "P11",
+      "P2"
+    ],
+    "date": "2026-03-13"
+  },
+  {
+    "id": "E081",
+    "dir": "E081_adv2_nonvolcanic_control",
+    "has_readme": true,
+    "title": "ADV-2 Non-Volcanic Control Test",
+    "layers": [
+      "L1"
+    ],
+    "date": "2026-03-13",
+    "key_metric": "p=0.003"
+  },
+  {
+    "id": "E082",
+    "dir": "E082_inscription_georeferencing",
+    "has_readme": true,
+    "title": "DHARMA Inscription Georeferencing",
+    "key_metric": "rho=0.643"
+  },
+  {
+    "id": "E083",
+    "dir": "E083_tephra_archaeological_correlation",
+    "has_readme": true,
+    "title": "Tephra-Archaeological Correlation Dataset",
+    "status": "SUCCESS",
+    "date": "2026-03-13"
+  },
+  {
+    "id": "E084",
+    "dir": "E084_inscription_volcano_spatial",
+    "has_readme": true,
+    "title": "Formal Inscription-Volcano Spatial Analysis",
+    "papers": [
+      "P11"
+    ]
+  },
+  {
+    "id": "E085",
+    "dir": "E085_adv4_substrate_noise",
+    "has_readme": true,
+    "title": "ADV-4 Substrate Noise Permutation Test",
+    "layers": [
+      "L4"
+    ],
+    "date": "2026-03-13",
+    "key_metric": "AUC: 0.7599; p=0.760"
+  },
+  {
+    "id": "E086",
+    "dir": "E086_adv1_japan_comparanda",
+    "has_readme": true,
+    "title": "ADV-1 Japan Comparanda Test",
+    "layers": [
+      "L1"
+    ],
+    "papers": [
+      "P1",
+      "P11",
+      "P2"
+    ],
+    "date": "2026-03-16"
+  },
+  {
+    "id": "E087",
+    "dir": "E087_substrate_negative_control",
+    "has_readme": true,
+    "title": "Substrate Detector Negative Control",
+    "status": "CONDITIONAL",
+    "layers": [
+      "L4"
+    ],
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-03-16",
+    "key_metric": "AUC=0.762; p=0.0000"
+  },
+  {
+    "id": "E088",
+    "dir": "E088_textual_archaeology_nlp",
+    "has_readme": true,
+    "title": "Computational Textual Archaeology — NLP Pipeline",
+    "status": "SUCCESS",
+    "layers": [
+      "L3"
+    ],
+    "papers": [
+      "P16"
+    ],
+    "date": "2026-03-16",
+    "key_metric": "p=0.000000."
+  },
+  {
+    "id": "E089",
+    "dir": "E089_expanded_textual_corpus",
+    "has_readme": true,
+    "title": "Expanded Textual Corpus",
+    "status": "SUCCESS",
+    "layers": [
+      "L3"
+    ],
+    "papers": [
+      "P16"
+    ],
+    "date": "2026-03-16"
+  },
+  {
+    "id": "E090",
+    "dir": "E090_transformer_textual_nlp",
+    "has_readme": true,
+    "title": "Transformer-based NLP on Ancient Textual Corpus",
+    "status": "MIXED",
+    "layers": [
+      "L3"
+    ],
+    "papers": [
+      "P16"
+    ],
+    "date": "2026-03-16",
+    "key_metric": "z=6.55; F1: 0.650"
+  }
+]

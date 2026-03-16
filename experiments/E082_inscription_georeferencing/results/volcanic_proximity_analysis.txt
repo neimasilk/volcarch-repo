@@ -1,0 +1,33 @@
+E082: Volcanic Proximity Analysis
+=======================================================
+
+Distance by century (Java/Bali only):
+  Century    N     Mean km    Median km   
+  ----------------------------------------
+  C8        4     19.4       27.1        
+  C9        14    13.0       12.0        
+  C10       30    20.7       12.0        
+  C11       8     42.7       50.1        
+  C12       1     50.1       50.1        
+  C13       6     29.4       31.4        
+  C14       3     29.3       25.9        
+
+Nearest volcano distribution:
+  Merapi            :  94 inscr, mean 20.9 km
+  Kelud             :  25 inscr, mean 44.7 km
+  Penanggungan      :  19 inscr, mean 13.9 km
+  Galunggung        :   8 inscr, mean 33.8 km
+  Tangkubanperahu   :   7 inscr, mean 75.7 km
+  Krakatau          :   6 inscr, mean 573.9 km
+  Arjuno            :   5 inscr, mean 23.2 km
+  Dieng             :   3 inscr, mean 8.4 km
+  Bromo             :   3 inscr, mean 0.0 km
+  Sindoro           :   3 inscr, mean 2.4 km
+  Sumbing           :   3 inscr, mean 15.7 km
+  Batur             :   2 inscr, mean 1295.6 km
+  Merbabu           :   2 inscr, mean 21.9 km
+  Semeru            :   1 inscr, mean 31.4 km
+  Lawu              :   1 inscr, mean 46.8 km
+
+Spearman correlation (century vs mean volcanic distance):
+  rho = 0.643

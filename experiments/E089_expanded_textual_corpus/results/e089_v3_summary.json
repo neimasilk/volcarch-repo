@@ -1,0 +1,82 @@
+{
+  "experiment": "E089_v3",
+  "title": "Expanded Textual Corpus v3",
+  "date": "2026-03-16",
+  "status": "SUCCESS",
+  "expansion": "v2 had 50 refs → v3 has 106 refs (+56)",
+  "key_stats": {
+    "n_references": 106,
+    "n_traditions": 12,
+    "traditions": {
+      "CHEMICAL": 11,
+      "GREEK": 9,
+      "ROMAN": 4,
+      "INDIAN_PALI": 10,
+      "INDIAN_SANSKRIT": 8,
+      "CHINESE": 23,
+      "ARAB": 12,
+      "TAMIL": 6,
+      "LINGUISTIC": 6,
+      "NUSANTARAN": 10,
+      "EUROPEAN": 6,
+      "PERSIAN": 1
+    },
+    "n_entities": 346,
+    "entity_types": {
+      "COMMODITY": 116,
+      "PLACE": 110,
+      "VESSEL": 15,
+      "MATERIAL": 14,
+      "ACTOR": 24,
+      "ROUTE": 2,
+      "POLITY": 65
+    },
+    "date_range": [
+      -1700,
+      1515
+    ],
+    "pre400_count": 47,
+    "pre400_pct": 44.3,
+    "n_independence_groups": 14,
+    "independence_groups": {
+      "chemical": 11,
+      "greco-roman": 7,
+      "indian": 10,
+      "chinese": 23,
+      "arab": 13,
+      "tamil": 6,
+      "linguistic": 6,
+      "nusantaran_epigraphy": 5,
+      "greek": 6,
+      "indian_pali": 4,
+      "indian_sanskrit": 4,
+      "european": 5,
+      "persian": 1,
+      "nusantaran": 5
+    },
+    "consensus_distribution": {
+      "CONSENSUS": 60,
+      "CONTESTED": 9,
+      "PROBABLE": 37
+    },
+    "relevance_distribution": {
+      "HIGH": 84,
+      "MEDIUM": 20,
+      "LOW": 2
+    },
+    "new_traditions": [
+      "PERSIAN",
+      "EUROPEAN"
+    ]
+  },
+  "delta_vs_v2": {
+    "new_entries": 56,
+    "new_traditions": [
+      "PERSIAN",
+      "EUROPEAN"
+    ],
+    "v2_total": 50,
+    "v3_total": 106,
+    "expansion_ratio": 2.12
+  }
+}

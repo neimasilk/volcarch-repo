@@ -1,0 +1,77 @@
+Mini-NusaRC v3: 80 sites loaded
+
+============================================================
+METRIC 1: Cave/Open-Air Ratio
+============================================================
+
+All sites:
+  Volcanic regions: 42 cave/shelter, 25 open-air, ratio = 0.627 (42/67)
+  Non-volcanic regions: 9 cave/shelter, 4 open-air, ratio = 0.692 (9/13)
+
+  Fisher's exact: odds ratio = 0.747, p = 0.7600
+  → Not significant at α=0.05
+
+Deep-time sites only (>10,000 BP):
+  Volcanic >10ka: 35 cave/shelter, 16 open-air, ratio = 0.686 (35/51)
+  Non-volcanic >10ka: 7 cave/shelter, 1 open-air, ratio = 0.875 (7/8)
+
+  Fisher's exact (>10ka): odds ratio = 0.312, p = 0.4174
+
+Per-region cave ratios:
+  Java                : 7/19 = 0.37  [VOLCANIC]
+  Kalimantan          : 8/8 = 1.00  [control]
+  Madagascar          : 1/5 = 0.20  [control]
+  Maluku              : 5/5 = 1.00  [VOLCANIC]
+  Nusa_Tenggara       : 7/12 = 0.58  [VOLCANIC]
+  Philippines         : 5/6 = 0.83  [VOLCANIC]
+  Sulawesi            : 15/18 = 0.83  [VOLCANIC]
+  Sumatra             : 3/7 = 0.43  [VOLCANIC]
+
+============================================================
+METRIC 2: Site Density per Time Bin
+============================================================
+
+       Bin |   Volcanic |   Non-volcanic |  V ratio | NV ratio
+------------------------------------------------------------
+     0-5ka |          6 |              4 |     0.09 |     0.31
+    5-10ka |          9 |              0 |     0.13 |     0.00
+   10-50ka |         28 |              8 |     0.42 |     0.62
+  50-200ka |         15 |              1 |     0.22 |     0.08
+    200ka+ |          9 |              0 |     0.13 |     0.00
+
+H-TOM prediction: volcanic regions should have proportionally
+fewer sites in the deep-time bins (>10ka) due to burial/destruction.
+
+============================================================
+BONUS: Java Site Age vs Site Type
+============================================================
+
+Site                           |       Age BP | Type            | Period              
+-------------------------------------------------------------------------------------
+Sangiran                       |    1,600,000 | river_terrace   | Lower_Paleolithic   
+Perning (Mojokerto child)      |    1,490,000 | river_terrace   | Lower_Paleolithic   
+Patiayam (Muria)               |      700,000 | river_terrace   | Lower_Paleolithic   
+Trinil                         |      500,000 | river_terrace   | Lower_Paleolithic   
+Semedo                         |      350,000 | river_terrace   | Lower_Paleolithic   
+Ngandong                       |      117,000 | river_terrace   | Lower_Paleolithic   
+Sambungmacan                   |      100,000 | river_terrace   | Lower_Paleolithic   
+Pacitan (Kali Baksoko)         |       80,000 | river_terrace   | Lower_Paleolithic   
+Song Gupuh                     |       70,000 | cave            | Upper_Paleolithic   
+Punung (Gunung Sewu)           |       70,000 | open_air        | Upper_Paleolithic   
+Song Terus                     |       60,000 | cave            | Upper_Paleolithic   
+Goa Tabuhan                    |       55,000 | cave            | Upper_Paleolithic   
+Gua Braholo                    |       30,000 | cave            | Upper_Paleolithic   
+Wajak                          |       28,000 | cave            | Upper_Paleolithic   
+Song Tritis                    |       12,000 | cave            | Mesolithic          
+Song Keplek                    |        9,000 | cave            | Mesolithic          
+Kendeng Lembu (Banyuwangi)     |        7,000 | open_air        | Neolithic           
+Plawangan (Rembang)            |        3,500 | open_air        | Metal_Age           
+Batujaya                       |        1,500 | open_air        | Historical          
+
+Java site type by period:
+  Historical          : 0 cave, 1 open (0% cave)
+  Lower_Paleolithic   : 0 cave, 8 open (0% cave)
+  Mesolithic          : 2 cave, 0 open (100% cave)
+  Metal_Age           : 0 cave, 1 open (0% cave)
+  Neolithic           : 0 cave, 1 open (0% cave)
+  Upper_Paleolithic   : 5 cave, 1 open (83% cave)

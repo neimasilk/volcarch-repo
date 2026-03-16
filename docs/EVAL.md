@@ -1,7 +1,7 @@
 # EVAL.md — Evaluation Criteria & Validation Protocol
 
 **Rule: Define how you measure success BEFORE running experiments.**
-**Last updated:** 2026-03-10
+**Last updated:** 2026-03-16
 
 ---
 
@@ -120,7 +120,79 @@ Implementation: Divide study area into spatial blocks (e.g., 5km × 5km grid). E
 
 ---
 
-## 5. General Reporting Rules
+## 5. Paper-Specific Evaluation Criteria
+
+### Paper 1: Taphonomic Bias Framework (Asian Perspectives)
+- **Core claim:** Volcanic sedimentation rates 2.4–6.2 mm/yr across 2 volcanic systems
+- **MVR:** Multi-site calibration consistent within order of magnitude — **MET**
+- **Key test:** ADV-3 (E069) — volcanic signal survives survey intensity control (p=0.0015)
+- **Known weakness:** ADV-1 (E086) requires framing as volcanism × survey deficit, not volcanism alone
+- **Revision readiness:** Japan paragraph (ADV1_japan_comparanda.md), depth argument (ADV2_depth_vs_sitetype.md)
+
+### Paper 5: Volcanic Ritual Clock (BKI)
+- **Core claim:** Slametan and ritual practices preserve pre-Indic cosmology beneath Sanskrit overlay
+- **MVR:** Quantitative evidence for pre-Indic persistence across centuries — **MET** (E030: rho=+0.502, p<0.001)
+- **Supporting:** E023 (43% hyang), E025 (Monte Carlo p<0.001), E035 (mortuary plants absent from epigraphy)
+- **Known weakness:** E032 seasonality correlation is FDR casualty (p=0.042, fails BH)
+- **Revision readiness:** E058 (agriculture 91% native), E048 (genre taphonomy)
+
+### Paper 7: Temporal Overlay Matrix (Antiquity Project Gallery)
+- **Core claim:** Deep-time spatial segregation of archaeological sites reveals taphonomic bias
+- **MVR:** Statistically significant spatial pattern — **MET** (E019: Cohen's d=1.005)
+- **Supporting:** E020 (cave bias universal), E065 (Zone A 17.9× overrepresented), E066 (equinox p=4.9e-14)
+- **Format:** Short project gallery format (~2000 words + 4 images)
+
+### Paper 8: Linguistic Fossils (Oceanic Linguistics)
+- **Core claim:** Computational detection of pre-Indic phonological substrate in western Indonesian languages
+- **MVR:** ML substrate detection AUC > 0.70 — **MET** (E027: AUC=0.762, LOLO 5/6 ≥ 0.65)
+- **Supporting:** E028 (kappa=0.61), E036 (33→20 consonants), E029 (parallel innovation, not shared substrate)
+- **Known weakness:** ADV-5 (E087) grey zone — C5 AUC=0.713 from ABVD documentation gaps
+- **Revision readiness:** Must reframe as "phonological non-conformity" not "substrate detection" (ADV5_negative_control.md)
+
+### Paper 9: Peripheral Conservatism (JSEAS)
+- **Core claim:** Peripheral communities (Bali, Tengger, Trunyan) conserve pre-Indic features lost in court centers
+- **MVR:** Quantitative cognacy difference between peripheral and central languages — **MET** (E043: Bal 40.3% > Jav 33.0%)
+- **Supporting:** E044 (Canarium pan-AN), E050 (GBIF confirmation), E054 (1,309 languages, local gradient confirmed)
+- **MS#:** JSEAS-202603-051
+
+### Paper 11: Temple Siting as Archaeological Proxy (Indonesia/Cornell)
+- **Core claim:** Candi siting patterns reveal volcanic awareness and can serve as archaeological survey proxy
+- **MVR:** Statistically significant spatial relationship between candi and volcanic zones
+- **Supporting:** E065 (Zone A 17.9×), E066 (equinox p=4.9e-14), E082 (182 inscriptions geocoded), E084 (MW p=5.2e-08)
+- **Current status:** v0.3 drafted (18pp), all self-citations removed, 10 references. Next: manual review → submit to Indonesia (Cornell)
+- **Key constraint:** VCS rejected globally (E039), valid only locally (Java/Bali)
+
+---
+
+## 6. Multi-Test Correction Strategy
+
+### Approach: Benjamini-Hochberg FDR Control
+
+**Documented in E068 (FDR Meta-Audit, 2026-03-13).**
+
+Across 90 experiments, 41 distinct statistical hypothesis tests were identified. Applied Benjamini-Hochberg procedure at α=0.05.
+
+| Category | Count |
+|----------|-------|
+| Tests submitted | 41 |
+| Survive BH (q<0.05) | 30 (73%) |
+| FDR casualties | 3 |
+| Top 10 findings | All p < 10⁻⁴ |
+
+### FDR Casualties (report as "suggestive," not "significant")
+- E032 Pranata Mangsa seasonality: p=0.042 uncorrected
+- E048 partial correlation (organic × pre-Indic): p=0.038 uncorrected
+- E053 aDNA taphonomic gap: Fisher p=0.047 uncorrected
+
+### Reporting Rule
+- **p < 0.01 after BH:** Report as "significant"
+- **0.01 < p < 0.05 after BH:** Report as "marginally significant"
+- **p > 0.05 after BH but < 0.05 uncorrected:** Report as "suggestive" with explicit FDR note
+- **All papers must reference E068** when claiming statistical significance across multiple tests
+
+---
+
+## 7. General Reporting Rules
 
 - Always report **spatial** metrics, never random-split metrics.
 - Always report **uncertainty**: bootstrap 95% CI for AUC/TSS (minimum 100 iterations).

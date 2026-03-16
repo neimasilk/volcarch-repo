@@ -4,7 +4,7 @@
 
 **Convention:** Update this when blockers in IDEA_REGISTRY.md change. Review during weekly Mata Elang.
 
-**Last updated:** 2026-03-12
+**Last updated:** 2026-03-16
 
 ---
 
@@ -141,6 +141,28 @@
 - I-109 (E061) → Script comparison experiment addresses weakest channel
 - **New trigger:** If script comparison (E061) succeeds → Script channel upgrades from SPECULATIVE to LOW-MODERATE
 
+### ~~If: ADV-1 Japan comparanda completed~~ → **FIRED (E086, 2026-03-16)**
+- ✓ E086 PARTIAL: Japan 100-200× more survey, Kikai-Akahoya IS VOLCARCH-type, Java 32× deeper burial
+- ✓ L1 Constitution reframed: volcanism × survey deficit (not volcanism alone)
+- ✓ P1 revision ammo created: `papers/P1_taphonomic_framework/revision_ammo/ADV1_japan_comparanda.md`
+- ✓ I-119 → RESULT
+- **Remaining:** I-074 (Shinto volcano deities comparison) becomes more relevant — Japan is now explicit comparandum
+
+### ~~If: ADV-5 substrate negative control completed~~ → **FIRED as GREY ZONE (E087, 2026-03-16)**
+- ✓ E087 GREY ZONE: C1 (Tagalog+Cebuano) AUC=0.568 PASS, but C5 (Iban+Malay) AUC=0.713 ALARMING
+- ✓ Detector conflates ABVD documentation gaps with substrate signal
+- ✓ P8 MUST reframe: "phonological non-conformity" not "substrate detection"
+- ✓ P8 revision ammo created: `papers/P8_linguistic_fossils/revision_ammo/ADV5_negative_control.md`
+- **New blocker:** ABVD documentation quality limits substrate detection → need better lexical database
+
+### ~~If: Textual archaeology corpus built~~ → **FIRED (E088-E090, 2026-03-16)**
+- ✓ E088 SUCCESS: 27→50 refs across 9-10 traditions, 143 entities, convergence p<0.00001
+- ✓ E090 transformer NLP: UMAP 78% cross-tradition clustering, semantic convergence 4/5 p<0.001
+- ✓ Genuinely NEW independent data stream (no DHARMA/ABVD overlap)
+- ✓ P16 pipeline foundation ready
+- ✓ I-118 → RESULT
+- **Next trigger:** If corpus expanded to 200+ passages → BERTopic and NLI become viable (E090/EXP4/EXP6)
+
 ### If: P5 BKI revision requested
 - P15 content → absorbed from `papers/P5_volcanic_ritual_clock/revision_ammo/`
 - I-002 (Pranata Mangsa) → can be added as new section
@@ -191,7 +213,7 @@
 
 ## Meta-Triggers (Strategic)
 
-### If: 2 papers accepted in 2026 (6 submitted as of 2026-03-12: P1, P2, P5, P7, P8, P9)
+### If: 2 papers accepted in 2026 (6 submitted as of 2026-03-16: P1, P2, P5, P7, P8, P9)
 - Single-author credibility established → domain co-authors easier to attract
 - Preprint DOIs validated → cross-citation chain functional
 

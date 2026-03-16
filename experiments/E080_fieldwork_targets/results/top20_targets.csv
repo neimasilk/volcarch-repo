@@ -1,0 +1,21 @@
+lat,lon,composite_score,volc_score,candi_score,gap_score,terrain_score,nearest_volcano,dist_volcano_km,nearest_candi,dist_candi_km,estimated_burial_m
+-7.98,112.36,0.855,1.0,0.7,0.8,0.8,Kelud,8.0,Candi Gambar Wetan,11.0,5.0
+-7.96,112.36,0.855,1.0,0.7,0.8,0.8,Kelud,6.6,Candi Gambar Wetan,11.2,6.6
+-7.94,112.36,0.855,1.0,0.7,0.8,0.8,Kelud,5.8,Candi Gambar Wetan,11.8,7.7
+-7.94,112.38,0.855,1.0,0.7,0.8,0.8,Kelud,8.0,Candi Gambar Wetan,13.8,5.0
+-7.92,112.36,0.855,1.0,0.7,0.8,0.8,Kelud,5.8,Candi Gambar Wetan,12.7,7.7
+-7.92,112.38,0.855,1.0,0.7,0.8,0.8,Kelud,8.0,Candi Songgoriti,13.2,5.0
+-7.9,112.36,0.855,1.0,0.7,0.8,0.8,Kelud,6.6,Candi Gambar Wetan,13.9,6.6
+-7.88,112.3,0.855,1.0,0.7,0.8,0.8,Kelud,5.6,Candi Penataran,11.4,8.0
+-7.88,112.32,0.855,1.0,0.7,0.8,0.8,Kelud,5.7,Candi Gambar Wetan,12.6,7.9
+-7.88,112.34,0.855,1.0,0.7,0.8,0.8,Kelud,6.6,Candi Gambar Wetan,13.9,6.6
+-7.88,112.36,0.855,1.0,0.7,0.8,0.8,Kelud,8.0,Candi Songgoriti,14.2,5.0
+-7.86,112.3,0.855,1.0,0.7,0.8,0.8,Kelud,7.8,Candi Penataran,12.5,5.2
+-7.86,112.32,0.855,1.0,0.7,0.8,0.8,Kelud,7.9,Candi Penataran,14.4,5.1
+-7.78,112.62,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,7.5,Candi Sumberawan,10.5,5.5
+-7.76,112.62,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,6.0,Candi Jawi,11.9,7.4
+-7.74,112.52,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,6.2,Candi Sumberawan,11.5,7.2
+-7.74,112.62,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,5.1,Candi Jawi,12.1,8.9
+-7.72,112.52,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,6.1,Candi Sumberawan,13.6,7.2
+-7.72,112.62,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,5.1,Candi Jawi,12.8,9.0
+-7.72,112.64,0.855,1.0,0.7,0.8,0.8,Arjuno-Welirang,7.2,Candi Jawi,10.8,5.8

@@ -1,0 +1,88 @@
+{
+  "experiment": "E087c_pure_phonology",
+  "date": "2026-03-16",
+  "feature_set": "Pure phonology only (no language features)",
+  "n_features_used": 25,
+  "results": {
+    "E027 Original (Sulawesi 6)": {
+      "auc": 0.727,
+      "std": 0.0043,
+      "n_forms": 1357,
+      "n_substrate": 438,
+      "substrate_rate": 32.3
+    },
+    "C1: Tagalog + Cebuano": {
+      "auc": 0.5683,
+      "std": 0.0239,
+      "n_forms": 486,
+      "n_substrate": 37,
+      "substrate_rate": 7.6
+    },
+    "C2: Malay + Minangkabau": {
+      "auc": 0.6742,
+      "std": 0.023,
+      "n_forms": 456,
+      "n_substrate": 30,
+      "substrate_rate": 6.6
+    },
+    "C3: Javanese + Sundanese": {
+      "auc": 0.6408,
+      "std": 0.0104,
+      "n_forms": 434,
+      "n_substrate": 106,
+      "substrate_rate": 24.4
+    },
+    "C4: Tagalog + Kapampangan": {
+      "auc": 0.6225,
+      "std": 0.0231,
+      "n_forms": 459,
+      "n_substrate": 45,
+      "substrate_rate": 9.8
+    },
+    "C5: Iban + Malay": {
+      "auc": 0.7127,
+      "std": 0.015,
+      "n_forms": 511,
+      "n_substrate": 73,
+      "substrate_rate": 14.3
+    },
+    "C6: Acehnese + Toba Batak": {
+      "auc": 0.6599,
+      "std": 0.0104,
+      "n_forms": 469,
+      "n_substrate": 219,
+      "substrate_rate": 46.7
+    }
+  },
+  "permutation_test": {
+    "observed_auc": 0.727,
+    "permuted_mean": 0.5017,
+    "permuted_std": 0.0225,
+    "z_score": 10.0,
+    "p_value": 0.0
+  },
+  "comparison_table": {
+    "E027 Original (Sulawesi 6)": {
+      "full_model": 0.761,
+      "no_lcov": 0.7657,
+      "pure_phon": 0.727
+    },
+    "C1: Tagalog + Cebuano": {
+      "full_model": 0.6107,
+      "no_lcov": 0.5968,
+      "pure_phon": 0.5683
+    },
+    "C2: Malay + Minangkabau": {
+      "full_model": 0.6896,
+      "no_lcov": 0.6914,
+      "pure_phon": 0.6742
+    },
+    "C5: Iban + Malay": {
+      "full_model": 0.7939,
+      "no_lcov": 0.7881,
+      "pure_phon": 0.7127
+    }
+  },
+  "verdict": "GREY ZONE — SPECIFICITY UNCERTAIN",
+  "explanation": "Sulawesi AUC (0.727) is above chance but control pairs also show signal (C2=0.674, C5=0.713). The detector picks up GENERIC phonological variation between any pair of languages with different ABVD coverage, not substrate-specific patterns. The Sulawesi signal may be partly genuine but is confounded by the fact that Sulawesi languages are phonologically more diverse than the Philippine/Malayic pairs used as controls."
+}

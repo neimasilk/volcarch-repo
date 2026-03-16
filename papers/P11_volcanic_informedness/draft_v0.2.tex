@@ -1,0 +1,329 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+\title{Temple Siting as Archaeological Proxy: Using Candi Distribution Patterns to Predict Buried Sites in Volcanic Java}
+
+\author{Mukhlis Amien\textsuperscript{1}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\noindent\textsuperscript{1}Lab Data Sains, Universitas Bhinneka Nusantara, Malang, Indonesia
+
+\vspace{1em}
+\noindent\textbf{Corresponding author:} Mukhlis Amien (\texttt{mukhlis.amien@ubhara.ac.id})
+
+\begin{abstract}
+Volcanic sedimentation in Java buries archaeological sites at rates of 3--13~mm/yr, creating systematic gaps in the pre-modern record. Identifying where buried sites are most likely to exist is essential for directing limited survey resources. We propose using surviving Hindu-Buddhist temple (\emph{candi}) distributions as spatial proxies for undiscovered sites. Analysis of 142 candi across Java reveals three exploitable patterns: (1) candi cluster on western volcanic flanks (Rayleigh $p=3.4\times10^{-8}$), consistent with tephra-sheltered positioning; (2) Zone A ($<$10~km from volcanic peaks) is overrepresented by 17.9$\times$ relative to random placement; and (3) temple orientations follow canonical east-facing prescription ($85\%$, binomial $p=4.9\times10^{-14}$) while siting follows volcanic logic---demonstrating intentional, non-random landscape use. An adversarial regression controlling for three survey intensity proxies confirms that the volcanic-zone site deficit is not solely attributable to survey effort (quasi-Poisson LR $p=0.0015$). We derive ten priority fieldwork targets from the intersection of candi clustering, settlement suitability modeling, and volcanic sedimentation rates, with predicted burial depths of 7--21~m. This methodology---using surviving monumental architecture to predict the locations of buried non-monumental remains---is applicable to any volcanic landscape with surviving surface features.
+
+\vspace{0.5em}
+\noindent\textbf{Keywords:} archaeological prediction, volcanic taphonomy, candi, Java, site discovery, fieldwork targeting, spatial analysis
+\end{abstract}
+
+\newpage
+
+% ============================================================
+\section{Introduction}
+% ============================================================
+
+\subsection{The Problem: Buried Sites in Volcanic Terrain}
+
+Java hosts 34 of Indonesia's 127 active volcanoes, which erupt on average once every 1--2 years \citep{gvp2023}. Each eruption deposits pyroclastic material, lahars, and tephra that incrementally bury the surrounding landscape. Sedimentation rates measured at archaeological sites in East Java range from 3.6~mm/yr (distal plains) to 13.1~mm/yr (proximal volcanic flanks), with colonial-era observations confirming burial depths of 1.2--4.3~m for structures 400--600 years old \citep{amien2026p1}.
+
+This volcanic sedimentation creates a fundamental problem for archaeology: sites within $\sim$25~km of active volcanoes are progressively buried beyond the reach of surface survey. The resulting bias is not random---it preferentially erases evidence from the most densely populated and agriculturally productive zones of the island \citep{mohr1938}. Any reconstruction of Java's pre-modern cultural landscape must account for this systematic gap.
+
+\subsection{Current Approaches and Their Limitations}
+
+Previous attempts to address volcanic taphonomic bias have focused on quantifying the bias itself---computing sedimentation rates, modeling tephra dispersal, and demonstrating the spatial correlation between volcanic proximity and site scarcity \citep{amien2026p1, amien2026p2}. While essential for establishing that the bias exists, these approaches do not directly answer the operational question: \emph{where, specifically, should archaeologists look?}
+
+Predictive archaeological modeling using terrain suitability (e.g., elevation, slope, river distance) offers one path \citep{amien2026p2}, but such models are trained on known sites---which are themselves products of biased discovery. A complementary approach is needed: one that uses information \emph{independent} of the modern site registry to predict where undiscovered sites are most likely buried.
+
+\subsection{Proposal: Candi as Spatial Proxy}
+
+We propose that the distribution of surviving Hindu-Buddhist temples (\emph{candi})---monumental stone and brick structures that resist burial and destruction better than organic or earthen remains---provides exactly such independent information. The logic is straightforward:
+
+\begin{enumerate}
+    \item Candi represent the ``tip of the iceberg'': for every surviving stone temple, there existed a surrounding settlement with markets, workshops, housing, and organic infrastructure---none of which survives surface survey in volcanic terrain.
+    \item If candi siting is non-random with respect to volcanic topography, the patterns reveal where past communities \emph{chose} to build, and thus where the largest concentrations of now-buried non-monumental sites are likely to exist.
+    \item The contrast between candi siting (volcanically informed) and candi orientation (canonically determined) demonstrates that temple placement reflects intentional landscape decisions, not random scatter.
+\end{enumerate}
+
+This paper extracts these spatial patterns from 142 candi and translates them into actionable fieldwork predictions. We validate the approach using an adversarial survey-intensity test and generate specific GPS targets ranked by predicted burial depth and site probability.
+
+% ============================================================
+\section{Study Area and Data}
+% ============================================================
+
+\subsection{Volcanic Landscape of Java}
+
+The Java volcanic arc contains 45 Holocene-active volcanoes spanning 1,000~km \citep{whitten1996, thouret1999}. Major systems include Merapi (pyroclastic-dominated), Kelud (lahar-dominated), Semeru (persistent Strombolian), and the Tengger caldera complex. The southeast monsoon carries tephra predominantly westward during eruptions, creating asymmetric deposit patterns with a natural ``sheltered zone'' on western flanks.
+
+\subsection{Candi Dataset}
+
+We compiled coordinates for 142 Hindu-Buddhist candi across Java from published surveys and the BPCB Jawa Timur heritage authority, building on \citet{dumarcay1993} and \citet{soekmono1995}. For each candi, we computed haversine distance and bearing to its nearest active volcano. The dataset is dominated by Penanggungan (73 candi, 51\%), analyzed both within and separately from the full dataset. Additionally, 20 candi have documented entrance orientations from published architectural studies \citep{dumarcay1993}.
+
+\subsection{Archaeological Site Database}
+
+We used a geocoded database of 666 archaeological sites in East Java compiled from published surveys, BPCB registries, and OpenStreetMap data \citep{amien2026p1}. This represents the ``modern record'' against which colonial-era observations and candi-derived predictions can be compared.
+
+\subsection{Survey Intensity Proxies}
+
+To test whether site distributions reflect survey effort rather than actual settlement patterns, we compiled three accessibility proxies: distance to nearest road (from OpenStreetMap-derived raster), distance to BPCB heritage offices, and distance to university archaeology departments.
+
+\subsection{Colonial Archaeological Data}
+
+From 16 volumes of the \emph{Oudheidkundig Verslag} (OV, 1912--1929), we extracted 24 site records with measured burial depths, providing independent calibration points for sedimentation rate estimates (Section~\ref{sec:validation}).
+
+% ============================================================
+\section{Methods}
+% ============================================================
+
+\subsection{Candi Spatial Analysis}
+\label{sec:spatial}
+
+For each of 142 candi, we computed the bearing from the nearest volcanic peak. We tested for directional clustering using:
+\begin{itemize}
+    \item \textbf{Rayleigh test} for circular non-uniformity
+    \item \textbf{Quadrant chi-squared test} (N/E/S/W distribution vs.\ expected 25\%)
+    \item \textbf{Zone classification}: Zone A ($<$10~km), Zone B (10--30~km), Zone C ($>$30~km), compared to area-proportional expectations
+\end{itemize}
+
+\subsection{Candi Orientation Analysis}
+\label{sec:orientation}
+
+For 20 candi with documented entrance orientations, we tested: (a) whether entrances face cardinal directions vs.\ random (binomial test against 25\%), (b) whether entrances face toward the nearest volcano (angular threshold $<$45\textdegree), and (c) McNemar's test comparing the siting-vs-orientation contrast.
+
+\subsection{Adversarial Survey Intensity Test}
+\label{sec:adv3}
+
+To exclude the possibility that the volcanic-zone site deficit is an artifact of differential survey effort, we performed a nested Poisson regression:
+\begin{itemize}
+    \item \textbf{Model 1 (survey only):} site\_count $\sim$ road\_dist + BPCB\_dist + university\_dist
+    \item \textbf{Model 2 (survey + volcanic):} site\_count $\sim$ road\_dist + BPCB\_dist + university\_dist + volcano\_dist
+\end{itemize}
+We used a $0.1\degree$ grid ($\sim$11~km, 703 valid cells) and compared models via likelihood ratio test with quasi-Poisson correction for overdispersion.
+
+\subsection{Fieldwork Target Derivation}
+\label{sec:targets}
+
+We identified priority survey targets by intersecting three independent datasets:
+\begin{enumerate}
+    \item Candi clustering hotspots (Zone A western flanks with $\geq$3 candi per 10~km radius)
+    \item Settlement suitability model predictions (AUC=0.768; \citealp{amien2026p2})
+    \item Volcanic sedimentation rate estimates (from colonial-era calibration points)
+\end{enumerate}
+
+For each target, we computed predicted burial depth as: $d = r \times (2026 - t_{\text{built}})$, where $r$ is the local sedimentation rate and $t_{\text{built}}$ is the estimated construction era.
+
+% ============================================================
+\section{Results}
+% ============================================================
+
+\subsection{Candi Cluster on Western Volcanic Flanks}
+
+The 142 candi show highly non-random directional distribution. Mean bearing from volcano to candi: $279\degree$ (west). Rayleigh test: $\bar{R}=0.348$, $p=3.4\times10^{-8}$.
+
+Quadrant distribution: West 47.2\%, South 26.8\%, North 22.5\%, East 3.5\% ($\chi^2=54.68$, $p<0.0001$). The eastern quadrant is nearly empty: only 5 candi of 142 ($<$4\%).
+
+\begin{table}[h]
+\centering
+\caption{Candi distribution across volcanic proximity zones}
+\begin{tabular}{lrrrr}
+\toprule
+Zone & Observed & Expected (random) & Ratio & Prediction \\
+\midrule
+Zone A ($<$10 km) & 60 (42.3\%) & 3.4 & 17.9$\times$ & \textbf{Highest priority for buried sites} \\
+Zone B (10--30 km) & 65 (45.8\%) & 27.0 & 2.4$\times$ & High priority \\
+Zone C ($>$30 km) & 17 (12.0\%) & 111.6 & 0.15$\times$ & Low priority \\
+\bottomrule
+\end{tabular}
+\label{tab:zones}
+\end{table}
+
+Zone A overrepresentation ($\chi^2=1091.28$, $p<10^{-6}$) indicates that past communities overwhelmingly chose to build within 10~km of volcanic peaks---precisely the zone most affected by sedimentation.
+
+\subsubsection{Penanggungan and Beyond}
+
+Penanggungan alone hosts 73 candi, 46 on the western side (63.0\%; binomial $p<10^{-6}$). Even excluding Penanggungan, the remaining 69 candi still show significant western clustering (Rayleigh $p=0.0009$), confirming that the pattern is not a single-mountain artifact.
+
+\subsection{Orientation Follows Canon, Not Landscape}
+
+Of 20 candi with documented entrance orientations:
+\begin{itemize}
+    \item \textbf{85\% face equinox directions} (east or west); binomial $p=4.9\times10^{-14}$
+    \item \textbf{100\% on cardinal axes} (N/E/S/W)
+    \item Only 35\% face toward the nearest volcano ($p=0.94$, indistinguishable from random)
+    \item \textbf{McNemar test} (equinox vs.\ volcano alignment): $\chi^2=10.00$, $p=0.0016$
+\end{itemize}
+
+This creates a critical methodological distinction: \emph{where} to build was volcanically informed; \emph{how} to orient was religiously prescribed. Temple siting reflects landscape-level decisions about optimal placement, not random scatter or purely religious considerations. This intentionality is what makes candi distributions usable as predictive proxies.
+
+\subsection{Survey Intensity Does Not Explain the Deficit}
+\label{sec:adv3results}
+
+The adversarial regression confirms that the volcanic-zone site deficit is substantive:
+
+\begin{table}[h]
+\centering
+\caption{Nested Poisson regression: survey intensity vs.\ volcanic proximity}
+\begin{tabular}{llrrr}
+\toprule
+Model & Predictors & Pseudo-$R^2$ & AIC & \\
+\midrule
+1 (Survey only) & road, BPCB, university & 0.382 & 1373 & \\
+2 (Survey + volcanic) & road, BPCB, university, \textbf{volcano} & \textbf{0.398} & \textbf{1340} & \\
+\midrule
+\multicolumn{4}{l}{Volcanic coefficient: $\beta=-0.477$ (fewer sites near volcanoes)} \\
+\multicolumn{4}{l}{Quasi-Poisson LR test: $p=0.0015$ (adjusted for overdispersion $\hat{\phi}=3.55$)} \\
+\bottomrule
+\end{tabular}
+\label{tab:adv3}
+\end{table}
+
+Road distance is the dominant predictor ($\beta=-7.15$), confirming that survey access strongly shapes the known site distribution. But after controlling for all three survey proxies, volcanic proximity still explains additional variance. The volcanic-zone deficit is not solely a survey artifact---it reflects genuine site invisibility due to burial.
+
+\subsection{Colonial Calibration Points}
+
+From colonial OV reports (1912--1929), we extracted 24 measurements of archaeological structures found at depth, including:
+
+\begin{itemize}
+    \item Tjandi Tikoes (Trowulan): 3.5~m depth in 1914 ($\sim$5.8~mm/yr if built c.\ 1350~CE)
+    \item Submerged city (Trowulan plateau): drainage to 4.28~m required (OV 1920)
+    \item Temple structures near Kelud: $>$2~m burial by lahar (OV 1919)
+    \item Prambanan area: artifacts at 9.14~m depth (30 voet, Dieduksman collection)
+\end{itemize}
+
+These colonial observations independently confirm that archaeological structures in volcanic Java are buried at depths consistent with our sedimentation rate estimates (3--13~mm/yr), and that the burial process was recognized by colonial archaeologists but never systematically analyzed.
+
+% ============================================================
+\section{Discussion}
+% ============================================================
+
+\subsection{From Pattern to Prediction}
+
+The candi clustering pattern translates directly into fieldwork predictions:
+
+\begin{enumerate}
+    \item \textbf{Where to look:} Western flanks of East Java volcanoes, within 10~km of peaks. This zone contains 42\% of all surviving candi but is drastically underrepresented in the modern archaeological site registry.
+    \item \textbf{How deep to dig:} Sedimentation rates of 5--13~mm/yr imply that 600-year-old Majapahit-era sites are now 3--8~m below surface, while 1,000-year-old Airlangga-era sites are 5--13~m deep. The colonial depth measurements (3.5--9.1~m) independently confirm this range.
+    \item \textbf{What to find:} The ``iceberg principle'' predicts that each surviving candi was surrounded by organic-material settlements (wood, bamboo, thatch) that have been entirely buried. Prasasti evidence indicates that 63\% of inscribed materials were organic \citep{amien2026p1}, suggesting an enormous volume of buried non-monumental remains.
+\end{enumerate}
+
+\subsection{Why This Methodology Works}
+
+Three features make candi distributions particularly reliable as archaeological proxies:
+
+\begin{enumerate}
+    \item \textbf{Survival bias works in our favor:} Candi survive precisely because they are stone/brick while surrounding settlements perished. The surviving markers thus indicate the \emph{centers} of now-invisible settlement clusters.
+    \item \textbf{Intentional siting:} The orientation analysis (Section~4.2) demonstrates that candi placement reflects deliberate landscape decisions. The siting-vs-orientation contrast (McNemar $p=0.0016$) proves that builders considered volcanic topography when choosing locations, making candi positions informationally rich rather than random.
+    \item \textbf{Independence from modern survey:} Candi were documented by colonial Dutch archaeologists and are visible as surface features today. Their distribution is thus independent of the modern survey biases that shape the site registry.
+\end{enumerate}
+
+\subsection{Comparison with Terrain Suitability Models}
+
+The settlement suitability model developed by \citet{amien2026p2} achieved AUC=0.768 for predicting site presence from terrain variables (elevation, slope, river distance). The candi proxy approach is complementary:
+
+\begin{itemize}
+    \item The suitability model identifies \emph{where terrain is suitable} for settlement (necessary condition)
+    \item The candi proxy identifies \emph{where people actually built} (sufficient evidence)
+    \item The intersection---areas that are both terrain-suitable and near candi clusters---represents the highest-confidence prediction zone
+\end{itemize}
+
+Ten priority fieldwork targets derived from this intersection are presented in the supplementary materials, with GPS coordinates, predicted burial depths (7--21~m), and nearest candi reference points. The top-ranked target (Kelud western flank, $-7.9964\degree$, $112.2716\degree$) has a predicted sedimentation rate of 13.1~mm/yr and is within 2~km of two known Majapahit-era candi.
+
+\subsection{Generalizability}
+
+This methodology is not specific to Java. Any volcanic landscape with surviving monumental architecture could apply the same approach:
+\begin{itemize}
+    \item \textbf{Mesoamerica:} Pyramid distributions relative to Mexican volcanic belt
+    \item \textbf{Mediterranean:} Temple distributions near Vesuvius, Etna, Aegean volcanoes
+    \item \textbf{Japan:} Shrine distributions relative to the Japanese volcanic arc
+\end{itemize}
+
+The key requirement is surviving surface features whose distribution reflects past settlement patterns. In Java, candi fulfill this role; in other contexts, the proxy features may differ.
+
+\subsection{Limitations}
+
+\begin{enumerate}
+    \item \textbf{Penanggungan dominance:} 51\% of candi are on one mountain. While the pattern holds after exclusion ($p=0.0009$), broader spatial coverage would strengthen predictions.
+    \item \textbf{No subsurface validation:} All evidence is from surface distributions and colonial observations. Ground-penetrating radar (GPR) or targeted excavation is needed to confirm predictions.
+    \item \textbf{Temporal range:} The candi dataset spans c.\ 8th--15th century CE. Predictions for earlier (pre-Hindu) or later (Islamic) periods require different proxy features.
+    \item \textbf{Survey proxy crudeness:} Road distance and institutional proximity are imperfect measures of actual survey effort.
+    \item \textbf{Sedimentation rate uncertainty:} Colonial depth measurements may reflect localized conditions rather than regional averages.
+\end{enumerate}
+
+% ============================================================
+\section{Conclusion}
+% ============================================================
+
+We demonstrate that the spatial distribution of 142 Hindu-Buddhist candi in Java encodes information about past settlement patterns that can be extracted as predictions for future fieldwork. Three key findings support this methodology:
+
+\begin{enumerate}
+    \item Candi cluster on western volcanic flanks ($p=3.4\times10^{-8}$) with Zone A ($<$10~km) overrepresented by $17.9\times$, indicating that past settlement concentrated in areas now most affected by volcanic burial.
+    \item Temple orientations follow religious canon ($85\%$ equinox-facing, $p=4.9\times10^{-14}$) while siting follows volcanic topography, demonstrating intentional landscape decisions that make candi positions informationally rich.
+    \item An adversarial regression confirms that the volcanic-zone site deficit is not solely a survey artifact ($p=0.0015$), validating the premise that undiscovered sites exist in these zones.
+\end{enumerate}
+
+From these patterns, we derive ten GPS-referenced fieldwork targets with predicted burial depths of 7--21~m. This ``iceberg methodology''---using surviving monumental architecture to locate buried non-monumental remains---offers a cost-effective approach to directing limited survey resources in volcanic terrain. The methodology is generalizable to any volcanic landscape with surviving surface features.
+
+The implication for Java's archaeological record is significant: the areas richest in surviving candi are the same areas where volcanic sedimentation is most intense. The temples are not merely ruins---they are markers of a buried cultural landscape that awaits systematic investigation.
+
+% ============================================================
+% AI DISCLOSURE
+% ============================================================
+
+\subsection*{AI Disclosure}
+
+This research was conducted with the assistance of Claude (Anthropic) for data analysis, statistical testing, and manuscript preparation. All hypotheses, interpretations, and scholarly judgments are those of the human author. The computational pipeline is available at the project repository. AI tools enabled a single-researcher operation to function at research-group scale, consistent with emerging norms in computational humanities.
+
+% ============================================================
+% REFERENCES
+% ============================================================
+
+\bibliographystyle{plainnat}
+
+\begin{thebibliography}{99}
+
+\bibitem[Amien(2026a)]{amien2026p1}
+Amien, M. (2026a). Volcanic taphonomic bias in the archaeological record of East Java: A quantitative framework. \emph{Asian Perspectives} (under review).
+
+\bibitem[Amien and Gunawan(2026)]{amien2026p2}
+Amien, M., \& Gunawan, G.F. (2026). Hybrid bias-corrected settlement suitability model for archaeological site prediction in volcanic terrain: A case study from East Java. \emph{Journal of Computer Applications in Archaeology} (under review).
+
+\bibitem[Daldjoeni(1984)]{daldjoeni1984}
+Daldjoeni, N. (1984). Pranatamangsa, the Javanese agricultural calendar---Its bioclimatological and sociocultural function in developing rural life. \emph{The Environmentalist}, 4(supplement 7), 15--18.
+
+\bibitem[Dumar\c{c}ay(1993)]{dumarcay1993}
+Dumar\c{c}ay, J. (1993). \emph{The Temples of Java}. Oxford University Press.
+
+\bibitem[GVP(2023)]{gvp2023}
+Global Volcanism Program (2023). \emph{Volcanoes of the World}, v. 5.1.1. Smithsonian Institution.
+
+\bibitem[Mohr(1938)]{mohr1938}
+Mohr, E.C.J. (1938). The relation between soil and population density in the Netherlands East Indies. In \emph{Comptes Rendus du Congr\`{e}s International de G\'{e}ographie}, Amsterdam.
+
+\bibitem[Soekmono(1995)]{soekmono1995}
+Soekmono, R. (1995). \emph{The Javanese Candi: Function and Meaning}. Brill.
+
+\bibitem[Thouret(1999)]{thouret1999}
+Thouret, J.-C. (1999). Volcanic geomorphology---an overview. \emph{Earth-Science Reviews}, 47(1--2), 95--131.
+
+\bibitem[Whitten et al.(1996)]{whitten1996}
+Whitten, T., Soeriaatmadja, R.E., \& Afiff, S.A. (1996). \emph{The Ecology of Java and Bali}. Periplus Editions.
+
+\end{thebibliography}
+
+\end{document}

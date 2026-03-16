@@ -8,7 +8,7 @@
 - Update `docs/TRIGGER_MAP.md` when blockers change
 - Tag serendipitous cross-paper discoveries in JOURNAL: `[BRIDGE → PY, I-NNN]`
 
-**Last updated:** 2026-03-12
+**Last updated:** 2026-03-16
 
 ---
 
@@ -139,6 +139,12 @@
 | I-111 | ABVD domain-specific PMP conservation | EXPERIMENT | E063 | Which Swadesh domains are most conserved across 1000+ Austronesian languages? Extends E058. |
 | I-112 | Candi archaeoastronomy (entrance vs solar azimuths) | RESULT | E066 | 85% face equinox E/W (p=4.9e-14). McNemar p=0.0016 vs volcanic. Ch9 strengthened. |
 | I-113 | Volcanic toponyms in Java village names | RESULT | E067 | INFO NEG: no proximity effect (rho=+0.14, p=0.15). VI = behavioral, not lexical. |
+| I-114 | Spatial vs linguistic meta-test (behavioral not lexical) | RESULT | E073 | p=0.008, r=1.0. Volcanic influence is spatial-behavioral, not lexical. |
+| I-115 | Sedimentation burial forward model | RESULT | E075 | r=0.951, 32.3% cells >1m. Physical model of burial depth across Java. |
+| I-116 | Eruption-inscription temporal correlation | RESULT | E078 | 6.3× inscription deficit in eruption decades, p=0.035. 928 CE = 77% drop. |
+| I-117 | Darkness Index (Invisible Millennium quantified) | RESULT | E079 | DI: Invisible Millennium 0.515, Classical Java 0.273. 1.9× ratio. |
+| I-118 | Computational textual archaeology (external archive) | RESULT | E088-E090 | 50 refs, 9 traditions, convergence p<0.00001. Ancient texts cluster by CONTENT not CULTURE. P16 foundation. |
+| I-119 | ADV-1 Japan comparanda (volcanic = necessary not sufficient) | RESULT | E086 | PARTIAL. Java 32× deeper burial, Japan 100-200× more survey. L1 = volcanism × survey deficit. |
 
 ---
 

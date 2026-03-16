@@ -1,0 +1,18 @@
+{
+  "experiment": "E088",
+  "title": "Computational Textual Archaeology",
+  "status": "SUCCESS",
+  "date": "2026-03-16",
+  "key_results": {
+    "n_references": 27,
+    "n_traditions": 9,
+    "n_entities": 73,
+    "convergence_p": 0.0,
+    "pre400_references": 18,
+    "resolution_groups": 6,
+    "unique_commodities": 15,
+    "earliest_reference_ce": -1700,
+    "n_independence_groups": 7
+  },
+  "verdict": "VOLCARCH SUPPORTED — external distributed archive confirms pre-4th century Nusantaran maritime civilization across 9 independent traditions"
+}

@@ -1,0 +1,9 @@
+century,n_inscriptions,sanskrit_tokens,indigenous_tokens,unknown_tokens,total_tokens,indigenous_sanskrit_ratio,organic_mentions,mineral_mentions,admin_hits,admin_unique
+C7,2,17,6,459,482,0.353,1,4,0,0
+C8,5,45,8,843,896,0.178,3,5,14,10
+C9,28,201,537,6158,6896,2.672,18,28,87,24
+C10,31,496,1787,18171,20454,3.603,61,69,181,28
+C11,8,185,267,5749,6201,1.443,15,14,59,24
+C12,1,61,28,884,973,0.459,2,3,14,14
+C13,7,183,288,3118,3589,1.574,7,23,48,23
+C14,4,160,99,2364,2623,0.619,8,12,30,18

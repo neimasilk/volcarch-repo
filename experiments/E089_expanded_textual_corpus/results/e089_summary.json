@@ -1,0 +1,51 @@
+{
+  "experiment": "E089",
+  "title": "Expanded Textual Corpus",
+  "status": "SUCCESS",
+  "date": "2026-03-16",
+  "expansion": "E088 had 27 refs → E089 has 50 refs",
+  "key_stats": {
+    "n_references": 50,
+    "n_traditions": 10,
+    "traditions": {
+      "CHEMICAL": 8,
+      "GREEK": 5,
+      "ROMAN": 2,
+      "INDIAN_PALI": 6,
+      "INDIAN_SANSKRIT": 4,
+      "CHINESE": 8,
+      "ARAB": 5,
+      "TAMIL": 3,
+      "LINGUISTIC": 4,
+      "NUSANTARAN": 5
+    },
+    "n_entities": 143,
+    "entity_types": {
+      "COMMODITY": 42,
+      "PLACE": 48,
+      "VESSEL": 8,
+      "MATERIAL": 4,
+      "ACTOR": 11,
+      "ROUTE": 2,
+      "POLITY": 28
+    },
+    "n_commodities": 31,
+    "date_range": [
+      -1700,
+      1154
+    ],
+    "pre400_count": 32,
+    "pre400_pct": 64.0,
+    "n_independence_groups": 8,
+    "consensus_distribution": {
+      "CONSENSUS": 23,
+      "CONTESTED": 5,
+      "PROBABLE": 22
+    },
+    "relevance_distribution": {
+      "HIGH": 38,
+      "MEDIUM": 10,
+      "LOW": 2
+    }
+  }
+}

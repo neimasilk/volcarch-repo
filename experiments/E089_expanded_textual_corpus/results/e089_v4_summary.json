@@ -1,0 +1,77 @@
+{
+  "experiment": "E089_v4",
+  "title": "Expanded Textual Corpus v4",
+  "date": "2026-03-16",
+  "status": "SUCCESS",
+  "expansion": "v3 had 106 refs → v4 has 162 refs (+56)",
+  "key_stats": {
+    "n_references": 162,
+    "n_traditions": 12,
+    "traditions": {
+      "CHEMICAL": 11,
+      "GREEK": 9,
+      "ROMAN": 8,
+      "INDIAN_PALI": 11,
+      "INDIAN_SANSKRIT": 12,
+      "CHINESE": 35,
+      "ARAB": 22,
+      "TAMIL": 9,
+      "LINGUISTIC": 6,
+      "NUSANTARAN": 18,
+      "EUROPEAN": 16,
+      "PERSIAN": 5
+    },
+    "n_entities": 551,
+    "entity_types": {
+      "COMMODITY": 185,
+      "PLACE": 178,
+      "VESSEL": 21,
+      "MATERIAL": 36,
+      "ACTOR": 42,
+      "ROUTE": 2,
+      "POLITY": 87
+    },
+    "date_range": [
+      -1700,
+      1597
+    ],
+    "pre400_count": 57,
+    "pre400_pct": 35.2,
+    "n_independence_groups": 15,
+    "independence_groups": {
+      "chemical": 11,
+      "greco-roman": 7,
+      "indian": 10,
+      "chinese": 35,
+      "arab": 23,
+      "tamil": 9,
+      "linguistic": 6,
+      "nusantaran_epigraphy": 5,
+      "greek": 6,
+      "indian_pali": 5,
+      "indian_sanskrit": 8,
+      "european": 15,
+      "persian": 5,
+      "nusantaran": 13,
+      "roman": 4
+    },
+    "consensus_distribution": {
+      "CONSENSUS": 98,
+      "CONTESTED": 11,
+      "PROBABLE": 53
+    },
+    "relevance_distribution": {
+      "HIGH": 134,
+      "MEDIUM": 26,
+      "LOW": 2
+    },
+    "new_traditions": []
+  },
+  "delta_vs_v3": {
+    "new_entries": 56,
+    "new_traditions": [],
+    "v3_total": 106,
+    "v4_total": 162,
+    "expansion_ratio": 1.53
+  }
+}

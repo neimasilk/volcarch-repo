@@ -1,0 +1,83 @@
+{
+  "experiment": "E075",
+  "title": "Volcanic Sedimentation Burial Model for Java",
+  "n_volcanoes": 7,
+  "n_eruptions_total": 168,
+  "n_eruptions_0_2025ce": 165,
+  "grid_resolution_deg": 0.05,
+  "grid_cells": 2838,
+  "time_windows": {
+    "all_time": {
+      "year_range": "0-2025",
+      "max_deposit_cm": 2136.4,
+      "mean_deposit_cm": 129.6,
+      "cells_gt_1m": 917,
+      "cells_gt_3m": 364,
+      "cells_gt_5m": 188
+    },
+    "pre_colonial": {
+      "year_range": "0-1800",
+      "max_deposit_cm": 1148.6,
+      "mean_deposit_cm": 71.2,
+      "cells_gt_1m": 608,
+      "cells_gt_3m": 127,
+      "cells_gt_5m": 42
+    },
+    "classical_java": {
+      "year_range": "400-1500",
+      "max_deposit_cm": 450.6,
+      "mean_deposit_cm": 5.7,
+      "cells_gt_1m": 42,
+      "cells_gt_3m": 6,
+      "cells_gt_5m": 0
+    },
+    "pre_inscription": {
+      "year_range": "0-400",
+      "max_deposit_cm": 58.3,
+      "mean_deposit_cm": 0.5,
+      "cells_gt_1m": 0,
+      "cells_gt_3m": 0,
+      "cells_gt_5m": 0
+    }
+  },
+  "pyle_params_by_vei": {
+    "1": {
+      "T0": 5,
+      "bt": 3
+    },
+    "2": {
+      "T0": 15,
+      "bt": 5
+    },
+    "3": {
+      "T0": 50,
+      "bt": 12
+    },
+    "4": {
+      "T0": 150,
+      "bt": 25
+    },
+    "5": {
+      "T0": 500,
+      "bt": 45
+    },
+    "6": {
+      "T0": 2000,
+      "bt": 80
+    },
+    "7": {
+      "T0": 5000,
+      "bt": 120
+    }
+  },
+  "missing_sites": {
+    "near_volcano_habitable_cells": 487,
+    "far_volcano_habitable_cells": 2351,
+    "near_cells_with_sites": 63,
+    "far_cells_with_sites": 87,
+    "expected_near_sites": 18.0,
+    "deficit": -45.0
+  },
+  "n_sites_analyzed": 363,
+  "n_validated": 363
+}

@@ -55,6 +55,8 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 
 Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 
+| P16 | `P16_textual_archaeology_v0.1.md` | Visible from the Outside: External Textual Corroboration | Full draft | LITERATURE (6 traditions: Greek, Roman, Indian, Chinese, Arab, chemical) | **EVALUATE** — see Mata Elang #8 assessment |
+
 ### Dokumen Lain
 
 | File | Deskripsi |

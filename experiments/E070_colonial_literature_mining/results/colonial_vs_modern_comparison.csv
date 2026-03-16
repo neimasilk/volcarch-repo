@@ -1,0 +1,53 @@
+colonial_site_name,colonial_modern_name,source,year_report,province,regency,colonial_lat,colonial_lon,burial_depth_m,condition,context,volcanic_system,match_type,matched_modern_name,matched_db,distance_km,name_similarity,nearest_by_name,nearest_by_coord,nearest_coord_dist_km
+Tjandi Tikoes,Candi Tikus,OV_1914,1914,East Java,Mojokerto,-7.5617,112.3803,3.5,buried,volcanic,Arjuno-Welirang,BOTH,Candi Tikus,wiki,inf,1.0,,,
+Inscribed stones Siman,Prasasti Siman,OV_1914,1914,East Java,Kediri,-7.8167,112.0167,1.5,buried,volcanic,Kelud,BOTH,Candi Kesiman,dashboard,59.5,0.714,,,
+Pangkih (Hayam Wuruk mother),Candi Pangkih,OV_1914,1914,East Java,Mojokerto,-7.55,112.4,,buried,volcanic,Arjuno-Welirang,COORD_ONLY,Candi Situsumpak,dashboard,1.08,0.154,,,
+Andjasmara,Candi Andjasmara,OV_1914,1914,East Java,Mojokerto,-7.55,112.4,,buried,volcanic,Arjuno-Welirang,COORD_ONLY,Candi Situsumpak,dashboard,1.08,0.2,,,
+Wisnu Garuda Trawas,Arca Wisnu Belahan,OV_1914,1914,East Java,Mojokerto,-7.6333,112.45,,relocated,volcanic,Arjuno-Welirang,COORD_ONLY,Makam Ki Ageng Jabung,dashboard,4.43,0.19,,,
+Buried temple Ponggoh (Kelut lahar),Candi Ponggoh,OV_1919,1919,East Java,Blitar,-8.05,112.17,2.0,buried,volcanic,Kelud,COORD_ONLY,Candi Gedog,dashboard,4.48,0.143,,,
+Buried temple Soember Nanas (Kelut lahar),Candi Sumber Nanas,OV_1919,1919,East Java,Blitar,-8.04,112.18,2.0,buried,volcanic,Kelud,BOTH,Candi Sumbernanas,wiki,inf,0.917,,,
+Blitar Regent collection (destroyed by lahar),Koleksi Bupati Blitar,OV_1919,1919,East Java,Blitar,-8.1,112.16,,destroyed,volcanic,Kelud,COORD_ONLY,Alun-Alun Contong Kota Blitar,dashboard,1.28,0.349,,,
+Panataran (lahar near-miss),Candi Panataran,OV_1919,1919,East Java,Blitar,-8.015,112.21,0,intact,volcanic,Kelud,BOTH,Candi Penataran,wiki,0.15,0.889,,,
+Kampud=Kelut identification (Nagarakrtagama),Kelud (historical),OV_1919,1919,East Java,Blitar,-7.93,112.31,,,volcanic,Kelud,COORD_ONLY,Situs Gadungan,dashboard,8.39,0.146,,,
+Submerged city at Bale Kambang,Trowulan / Bale Kambang,OV_1920,1920,East Java,Mojokerto,-7.55,112.39,4.28,buried,volcanic+alluvial,Arjuno-Welirang,COORD_ONLY,Makam Panjang,dashboard,0.8,0.333,,,
+Baksteenen fundamenten Boeloeredjo,Fondasi Bulurejdo,OV_1923,1923,East Java,unknown (inventaris list),,,,surface,excavation,unknown,NO_MATCH,,,,0.412,Situs Candi Burung,,
+Beeldje van trachiet (Karang Intan),Arca Karang Intan,OV_1924,1924,South Kalimantan,Martapoera,-3.42,114.85,7.5,found,mining excavation,none (Kalimantan),NO_MATCH,,,442.62,0.583,Candi Karangnongko,Arek Lancor,442.62
+Excavation East voorsprong (pottery at 0.80m),unknown excavation,OV_1924,1924,Java,unknown,,,0.8,excavated,excavation,unknown,NO_MATCH,,,,0.333,Candi Kedaton,,
+Wisnu beeld Prambanan (30 voet depth),Arca Wisnu Prambanan,OV_1925,1925,Central Java / Yogyakarta,Klaten / Yogyakarta border,-7.752,110.491,9.14,found,excavation,Merapi,NO_MATCH,,,62.29,0.6,Candi Prambanan,Watu Tugu,62.29
+Gouden kaloong Kidool (20 voet depth),Perhiasan Gunung Kidul,OV_1925,1925,Yogyakarta,Yogyakarta,-7.87,110.4,6.1,found,well digging,Merapi (distal),NO_MATCH,,,74.92,0.542,Perempatan Gununggangsir,Watu Tugu,74.92
+Bronzen beeld Dorowatie (25 voet depth),Arca Dorowati Surakarta,OV_1925,1925,Central Java,Surakarta,-7.57,110.82,7.62,found,well digging,Merapi / Lawu,NO_MATCH,,,26.23,0.444,Watu Prasasti,Monumen KKN UGM,26.23
+Bronzen klok Tangalan (25 voet depth),Lonceng Candi Tangalan,OV_1925,1925,Yogyakarta,Yogyakarta,-7.74,110.42,7.62,found,excavation,Merapi,NO_MATCH,,,69.9,0.5,Kolam Candi Penataran,Watu Tugu,69.9
+Trowulan copper deposit (1.20m under surface),Situs Trowulan (penemuan tembaga),OV_1925,1925,East Java,Mojokerto,-7.55,112.39,1.2,buried,volcanic+alluvial,Arjuno-Welirang,COORD_ONLY,Makam Panjang,dashboard,0.8,0.28,,,
+Monument interior (60cm depth),unknown monument,OV_1925,1925,Java,unknown,,,0.6,excavated,excavation,unknown,NO_MATCH,,,,0.55,R. A. Kartini Monument,,
+Waterput Pajak (ancient well),Sumur Kuno Pajak,OV_1928,1928,Yogyakarta,Yogyakarta,-7.8,110.47,4.6,excavated,excavation,Merapi,NO_MATCH,,,65.5,0.438,Situs Sumur Pitu,Watu Tugu,65.5
+Tempelterrein urnen (1.20-1.50m depth),Situs Urna Candi,OV_1928,1928,Java,unknown,,,1.35,excavated,excavation,unknown,NO_MATCH,,,,0.636,Situs Rimba Candi,,
+Tempel Bandjardadap (lingga pit 0.68m),Candi Bandjardadap,OV_1928,1928,Yogyakarta,Yogyakarta (Kotagedeh),-7.82,110.4,0.68,found,excavation,Merapi,NO_MATCH,,,73.51,0.455,Situs Adan-Adan,Watu Tugu,73.51
+Candi with sunken yoni (2.50m pit),unknown candi,OV_1929,1929,Java,unknown,,,2.5,excavated,excavation,unknown,NO_MATCH,,,,0.462,Situs Rimba Candi,,
+Stadsmuur Panggoeng (city wall 0.75m),Tembok Kota Trowulan (Panggoeng),OV_1929,1929,East Java,Mojokerto,-7.56,112.38,0.75,buried,volcanic+alluvial,Arjuno-Welirang,COORD_ONLY,Balong Dowo,dashboard,0.18,0.172,,,
+Koetogiraug (Majapahit stones),Kutorejo,OV_1916,1916,East Java,Mojokerto,-7.6,112.4,,scattered,volcanic,Arjuno-Welirang,COORD_ONLY,Makam Ki Ageng Jabung,dashboard,2.29,0.148,,,
+Padoesan forest fragments (Welirang slopes),Situs Padoesan,OV_1916,1916,East Java,Mojokerto,-7.62,112.43,,scattered,volcanic,Welirang,COORD_ONLY,Makam Ki Ageng Jabung,dashboard,1.82,0.275,,,
+Tempel sunk 1m below surface,unknown candi (sunk),OV_1916,1916,Java,unknown,,,1.0,buried,unknown,unknown,NO_MATCH,,,,0.444,Taman Candi Jago,,
+"Biaro stupa (Sumatra, 6.3 el depth)",Biaro stupa,OV_1912,1912,West Sumatra,unknown,,,4.35,found,excavation,Sumatran volcanic arc,NO_MATCH,,,,0.364,Candi Bara,,
+Burial mound Dieng (2.50m depth),Dieng burial site,OV_1912,1912,Central Java,Banjarnegara / Wonosobo,-7.21,109.92,2.5,excavated,volcanic,Dieng,NO_MATCH,,,132.34,0.368,Patung Karapan Sapi,Monumen KKN UGM,132.34
+Fundament Selan (1.20m below terrain),Situs Selan,OV_1914,1914,Central Java,Magelang,-7.48,110.21,1.2,buried,volcanic,Merapi / Merbabu,NO_MATCH,,,94.18,0.6,Candi Semar,Monumen KKN UGM,94.18
+Fundament Tjandiredjo (0.70m below maaiveld),Situs Candirejo,OV_1914,1914,Central Java,Magelang,-7.5,110.22,0.7,buried,volcanic,Merapi / Merbabu,NO_MATCH,,,92.82,0.556,Situs Waturejo,Monumen KKN UGM,92.82
+Tjandi Djairi (disappeared sculptures),Candi Jairi,OV_1914,1914,East Java,Pasuruan,-7.63,112.9,,lost,unknown,Arjuno-Welirang,COORD_ONLY,Tugu Kota Pasuruan,dashboard,1.52,0.25,,,
+Gedong Sanga temple buried under rubble,Candi Gedong Sanga (collapsed),OV_1917,1917,Central Java,Semarang,-7.21,110.34,1.0,buried,volcanic+collapse,Ungaran,NO_MATCH,,,89.7,0.5,Candi Gedong Songo,Monumen KKN UGM,89.7
+Solo/Surakarta excavation temple,Situs Solo (excavation),OV_1917,1917,Central Java,Surakarta,-7.57,110.82,1.5,buried,volcanic,Merapi / Lawu,NO_MATCH,,,26.23,0.5,Sree Soepramaniem Nagarattar Temple,Monumen KKN UGM,26.23
+Koeto Renon / Benteng Majapahit fortress,Kuterejo / Benteng Lumajang,OV_1921,1921,East Java,Lumajang,-8.1,113.2,,damaged,volcanic+vandalism,Semeru,NO_MATCH,,,12.34,0.36,Gapura Wringin Lawang,Pura Mandhara Giri Semeru Agung,12.34
+Koeto Renon bath ruins (recently demolished),Pemandian Kuterejo,OV_1921,1921,East Java,Lumajang,-8.1,113.2,,destroyed,vandalism,Semeru,NO_MATCH,,,12.34,0.579,Candi Pemandian Penataran,Pura Mandhara Giri Semeru Agung,12.34
+Tjandi Djaboeng (1m pit filled),Candi Jabung,OV_1921,1921,East Java,Probolinggo,-7.72,113.3,1.0,damaged,excavation,Bromo-Tengger,NAME_ONLY,Candi Jabung,wiki,,1.0,,,
+Prambanan 4th row temples buried,Candi Prambanan (baris ke-4),OV_1920,1920,Central Java / Yogyakarta,Klaten / Sleman,-7.752,110.491,,buried,volcanic,Merapi,NO_MATCH,,,62.29,0.474,Candi Prambanan,Watu Tugu,62.29
+Generic buried temple observation (Krom),,OV_1927,1927,Java,,,,,,methodological,,NO_MATCH,,,,0.356,5Indonesian Hindu Temples outside the country,,
+Tjandi Kalasan (below groundwater),Candi Kalasan,OV_1929,1929,Yogyakarta,Sleman,-7.767,110.472,,damaged,volcanic+hydrological,Merapi,NAME_ONLY,Candi Kalasan,wiki,,1.0,,,
+"Leide steenen (stone coffins, 1.40m)",Kubur batu Palembang,OV_1914,1914,South Sumatra,Palembang,-3.0,104.75,1.4,found,alluvial,none,NO_MATCH,,,858.09,0.5,Candi Batu Terbang,osm_1093070607,858.09
+Hindu-Chinese finds (paar voet diep),Temuan Hindu-Cina,OV_1914,1914,Riau,Riau,0.5,104.4,0.61,found,alluvial,none,NO_MATCH,,,1150.55,0.438,Situs Sumur Windu,osm_1093070607,1150.55
+Golden statue under landslide (Bandjarnegara),Arca Emas Karangkobar,OV_1922,1922,Central Java,Banjarnegara,-7.27,109.69,,found,landslide,Dieng,NO_MATCH,,,154.9,0.391,Pura Dalem Agung Padangtegal,Monumen KKN UGM,154.9
+Fundament Palanggading (mostly underground),Situs Palanggading,OV_1923,1923,Yogyakarta,Yogyakarta,-7.8,110.38,,damaged,volcanic,Merapi,NAME_ONLY,Candi Palgading,wiki,,0.75,,,
+Tangkilan brick gate (4m below terrain),Situs Tangkilan,OV_1923,1923,East Java,Kediri,-7.8,112.01,4.0,buried,volcanic,Kelud,BOTH,Candi Sangkilon,wiki,inf,0.778,,,
+Bastion excavation (6m+ without floor),unknown bastion,OV_1923,1923,Java,unknown,,,6.0,buried,excavation,unknown,NO_MATCH,,,,0.375,Pura Ulun Danu Bratan,,
+Trowulan probe pits (2m depth),Situs Trowulan (probing),OV_1927,1927,East Java,Mojokerto,-7.55,112.39,2.0,buried,volcanic,Arjuno-Welirang,COORD_ONLY,Makam Panjang,dashboard,0.8,0.312,,,
+White stone + dagob fragment 1m underground,Situs Trowulan (temuan 1m),OV_1927,1927,East Java,Mojokerto,-7.55,112.39,1.0,buried,volcanic,Arjuno-Welirang,COORD_ONLY,Makam Panjang,dashboard,0.8,0.222,,,
+Tjandi Ngetos (Wilis slopes),Candi Ngetos,OV_1917,1917,East Java,Nganjuk,-7.6,111.9,,damaged,volcanic,Wilis / Kelud,BOTH,Candi Ngetos,wiki,inf,1.0,,,
+Tjandi Perot (tree-strangled),Candi Perot,OV_1917,1917,Central Java,Temanggung,-7.32,110.17,,damaged,biological,Sumbing/Sindoro,NO_MATCH,,,102.34,0.4,Candi Pulo,Monumen KKN UGM,102.34
+"Tjandi's Wringin Brandjang, Kotes, Sawentar",Candi Wringin Branjang / Kotes / Sawentar,OV_1919,1919,East Java,Blitar,-8.02,112.18,0,intact,volcanic (survived),Kelud,COORD_ONLY,Candi Penataran,wiki,3.24,0.161,,,

@@ -1,0 +1,21 @@
+site,type,lat,lon,description,scene_date,ndvi_mean,ndvi_std,ndvi_center_mean,ndvi_ring_mean,center_ring_diff,anomaly_ratio,mean_local_variance,n_pixels
+Candi Jawi,candi,-7.7619,112.7281,"Penanggungan slope, partially buried base",2024-08-12,0.316,0.1545,0.4395,0.3252,0.1143,0.5221,0.003393,10000
+Candi Tikus,candi,-7.5589,112.3756,"Trowulan sunken bathing complex, excavated from burial",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Brahu,candi,-7.5481,112.3856,"Trowulan, large brick temple",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Bajang Ratu,candi,-7.5561,112.3978,"Trowulan gate, partially restored",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Wringin Lawang,candi,-7.5397,112.3908,"Trowulan, split gate",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Kidal,candi,-8.0156,112.5928,"Malang, 13th century",2024-08-12,0.3372,0.1694,0.4583,0.3198,0.1385,0.4411,0.003571,10000
+Candi Singosari,candi,-7.8894,112.6592,"Malang, Singhasari period",2024-08-12,0.2602,0.1539,0.3346,0.2645,0.0702,0.6359,0.004619,10000
+Candi Sumberawan,candi,-7.8403,112.5456,"Malang, Buddhist stupa on slope",2024-08-12,0.4469,0.0868,0.4699,0.4442,0.0257,0.685,0.001824,10000
+Candi Songgoriti,candi,-7.8714,112.4894,"Batu, thermal spring temple",2024-08-12,0.4478,0.0677,0.4828,0.4404,0.0424,0.8195,0.001157,10000
+Candi Surawana,candi,-7.7756,112.1494,"Kediri, 14th century",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Penataran,candi,-7.925,112.2069,"Blitar, largest temple complex in East Java",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Sawentar,candi,-7.95,112.1806,"Blitar, near Kelud",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Gambar Wetan,candi,-7.9769,112.2597,"Near Kelud, volcanic burial site",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Candi Tegowangi,candi,-7.7733,112.1194,"Kediri, relief panels",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Situs Trowulan,candi,-7.55,112.38,"Capital of Majapahit, large complex",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Control_volc_1,control,-7.85,112.4,"Volcanic slope, no known site",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Control_volc_2,control,-7.95,112.85,"Volcanic plain, no known site",2024-08-12,0.5249,0.049,0.5502,0.5188,0.0314,0.8751,0.001032,10000
+Control_plain_1,control,-7.5,112.5,"Alluvial plain, no known site",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Control_plain_2,control,-7.6,112.2,"River valley, no known site",2024-08-12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10000
+Control_forest_1,control,-8.0,113.0,"Forested hill, no known site",2024-08-12,0.4934,0.0585,0.4886,0.4939,-0.0053,0.9588,0.001345,10000

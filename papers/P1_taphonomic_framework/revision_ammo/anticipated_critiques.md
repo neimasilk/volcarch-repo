@@ -102,13 +102,25 @@ We note that our empirical calibration (measured burial depths at known-age site
 
 ---
 
+## Critique 7: "Cave dominance in your site database just reflects global cave bias, not volcanic taphonomy"
+
+**Anticipated from:** Any reviewer familiar with ADV-2-type reasoning.
+
+**Response:**
+"We agree. Site-type ratios (cave vs. open-air) do not vary significantly between volcanic and non-volcanic regions (Fisher exact p = 0.760, N = 80; ADV-2/E081). Cave bias is driven by karst availability and research tradition, not volcanic burial. Our taphonomic framework does NOT rely on site-type distributions — it relies on burial depth evidence: 32 colonial-era measurements (mean 2.88 m; E070), a sedimentation model validated at r = 0.951 (E075), and 51 documented eruption-site correlations (24 measured depths, mean 3.41 m; E083). See companion files `ADV2_depth_vs_sitetype.md` and `ADV2_honest_assessment.md` for full discussion."
+
+---
+
 ## Cross-Paper Reinforcement
 
 - **P2 → P1:** P2's predictive model independently identifies Zone B as high-probability/zero-site — same conclusion from ML rather than geological modeling.
 - **P7 → P1:** P7's spatial segregation (Cohen's d=1.005) provides statistical confirmation of the geographic pattern P1 explains mechanistically.
 - **P9 → P1:** P9's peripheral conservatism framework provides an independent reason to expect that volcanic-zone cultural evidence was buried rather than never created.
 - **E040 → P1:** See companion file. Strongest single piece of revision ammo.
+- **ADV-2 → P1:** Site-type ratios are NOT valid L1 evidence. See `ADV2_depth_vs_sitetype.md` and `ADV2_honest_assessment.md`.
+- **ADV-3 → P1:** Volcanic signal survives survey intensity control (p=0.0015). See `ADV3_survey_intensity_defense.md`.
+- **E083 → P1:** 51 eruption-site pairs with physical burial measurements. Strongest independent evidence.
 
 ---
 
-*Prepared 2026-03-12. Use when reviewer comments arrive.*
+*Prepared 2026-03-12. Updated 2026-03-13 with ADV-2 lesson (depth > site-type ratios).*

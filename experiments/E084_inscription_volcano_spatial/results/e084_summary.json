@@ -1,0 +1,113 @@
+{
+  "experiment": "E084",
+  "title": "Formal Inscription-Volcano Spatial Analysis",
+  "date": "2026-03-13",
+  "status": "SUCCESS",
+  "data": {
+    "n_inscriptions": 170,
+    "n_candi": 142,
+    "inscription_mean_dist_km": 25.684176470588234,
+    "inscription_median_dist_km": 27.58,
+    "inscription_std_dist_km": 17.456055233694677,
+    "candi_mean_dist_km": 16.52360400991098,
+    "candi_median_dist_km": 14.648272610667703,
+    "candi_std_dist_km": 14.732966741111298,
+    "mean_difference_km": 9.160572460677255
+  },
+  "tests": {
+    "mann_whitney": {
+      "U": 16380.0,
+      "p": 5.15746912313865e-08,
+      "rank_biserial_r": -0.3570836785418392,
+      "significant": true
+    },
+    "ks_test": {
+      "D": 0.36271748135874066,
+      "p": 1.4177059103557921e-09,
+      "significant": true
+    },
+    "bootstrap": {
+      "ci_low": 5.5085655884242355,
+      "ci_high": 12.735162972327696,
+      "se": 1.8267854887182562,
+      "excludes_zero": true
+    },
+    "zone_chi_square": {
+      "chi2": 34.807406046644644,
+      "df": 2,
+      "p": 2.7648260473102524e-08,
+      "significant": true
+    },
+    "fisher_exact_zone_a": {
+      "odds_ratio": 0.20315315315315316,
+      "p": 6.671014066124693e-09,
+      "significant": true
+    }
+  },
+  "zone_distribution": {
+    "inscriptions": {
+      "A (0-10km)": 22,
+      "B (10-30km)": 111,
+      "C (>30km)": 37
+    },
+    "candi": {
+      "A (0-10km)": 60,
+      "B (10-30km)": 65,
+      "C (>30km)": 17
+    },
+    "inscription_zone_a_fraction": 0.12941176470588237,
+    "candi_zone_a_fraction": 0.4225352112676056
+  },
+  "temporal": {
+    "spearman_individual": {
+      "rho": 0.48975533696705936,
+      "p": 2.9985530755845275e-05
+    },
+    "split_929ce": {
+      "pre_n": 45,
+      "pre_mean_dist": 16.203333333333337,
+      "post_n": 21,
+      "post_mean_dist": 38.4147619047619,
+      "mw_p": 5.2664209175819335e-08
+    }
+  },
+  "grid_density": {
+    "grid_size_deg": 0.25,
+    "n_occupied_cells": 41,
+    "inscription_density_rho": -0.08626773292884421,
+    "inscription_density_p": 0.6687615114619944,
+    "candi_density_rho": -0.3709052123456012,
+    "candi_density_p": 0.07437088414267656,
+    "fisher_z_diff": 1.0139971490922712,
+    "fisher_z_p": 0.31058411265372143
+  },
+  "conclusion": "Inscriptions have a SIGNIFICANTLY DIFFERENT spatial distribution relative to volcanoes compared to candi. Inscriptions are systematically farther from volcanic centers, consistent with their function as administrative documents placed in agricultural/lowland zones rather than sacred volcanic sites.",
+  "volcarch_implications": [
+    "Inscriptions being farther from volcanoes supports volcanic taphonomic bias: administrative activity occurred at greater distances, but the ARCHAEOLOGICAL RECORD (dominated by candi) clusters at volcano flanks. This means the spatial distribution of surviving archaeological evidence overrepresents volcanic proximity zones.",
+    "The 9 km mean difference between inscription and candi placement suggests that textual (inscriptional) evidence samples a DIFFERENT geographic zone than architectural evidence. Cross-referencing both provides more complete spatial coverage.",
+    "Zone A (0-10 km) contains 42% of candi but only 13% of inscriptions, confirming that candi are disproportionately built in high-burial-risk volcanic zones.",
+    "The pre/post 929 CE shift in inscription distance suggests the eastward migration of political centers (Mataram -> Kadiri/Singasari) changed the spatial sampling of the epigraphic record."
+  ],
+  "findings": [
+    "Mann-Whitney U: inscriptions vs candi volcano distance U=16380, p=0.000000, rank-biserial r=-0.357",
+    "  -> SIGNIFICANT: inscriptions are 9.2 km farther from volcanoes than candi",
+    "KS test: D=0.3627, p=0.000000 (SIGNIFICANT)",
+    "Bootstrap 95% CI for mean difference: [5.5, 12.7] km (excludes zero)",
+    "Zone chi-square: chi2=34.81, p=0.000000 (SIGNIFICANT)",
+    "  Zone A: inscriptions 12.9% vs candi 42.3%",
+    "  Fisher exact (Zone A): OR=0.203, p=0.000000",
+    "Temporal: individual Spearman rho=0.490, p=0.0000",
+    "  929 CE split: pre mean=16.2 km, post mean=38.4 km, p=0.0000",
+    "Grid density: inscription rho=-0.086 (p=0.6688), candi rho=-0.371 (p=0.0744)"
+  ],
+  "significant_tests": 5,
+  "total_core_tests": 5,
+  "papers_served": [
+    "P11"
+  ],
+  "channels": [
+    1,
+    4,
+    9
+  ]
+}

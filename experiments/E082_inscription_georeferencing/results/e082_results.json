@@ -1,0 +1,55 @@
+{
+  "experiment": "E082",
+  "title": "DHARMA Inscription Georeferencing",
+  "n_input": 268,
+  "n_geocoded": 182,
+  "geocode_rate": 67.9,
+  "methods": {
+    "known_location": 173,
+    "candi_match": 7,
+    "xml_provenance": 2
+  },
+  "confidence": {
+    "high": 88,
+    "medium": 89,
+    "low": 5
+  },
+  "java_bali_subset": 175,
+  "distance_stats": {
+    "overall_mean": 57.7,
+    "overall_median": 27.6,
+    "java_mean": 25.5,
+    "java_median": 27.6
+  },
+  "zone_distribution": {
+    "zone_A_0_10km": 22,
+    "zone_B_10_30km": 115,
+    "zone_C_gt_30km": 38
+  },
+  "volcano_counts": {
+    "Merapi": 94,
+    "Kelud": 25,
+    "Penanggungan": 19,
+    "Galunggung": 8,
+    "Tangkubanperahu": 7,
+    "Krakatau": 6,
+    "Arjuno": 5,
+    "Dieng": 3,
+    "Bromo": 3,
+    "Sindoro": 3,
+    "Sumbing": 3,
+    "Batur": 2,
+    "Merbabu": 2,
+    "Semeru": 1,
+    "Lawu": 1
+  },
+  "century_mean_distances": {
+    "C8": 19.4,
+    "C9": 13.0,
+    "C10": 20.7,
+    "C11": 42.7,
+    "C12": 50.1,
+    "C13": 29.4,
+    "C14": 29.3
+  }
+}

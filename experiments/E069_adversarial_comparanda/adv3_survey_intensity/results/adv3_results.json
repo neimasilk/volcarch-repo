@@ -1,0 +1,55 @@
+{
+  "experiment": "ADV-3 Survey Intensity Sufficiency",
+  "n_sites": 666,
+  "n_cells": 722,
+  "n_valid_cells": 703,
+  "n_occupied_cells": 110,
+  "cell_size_deg": 0.1,
+  "model1": {
+    "name": "Survey Only",
+    "predictors": [
+      "road_dist",
+      "bpcb_dist",
+      "uni_dist"
+    ],
+    "log_likelihood": -682.6255697004045,
+    "aic": 1373.251139400809,
+    "pseudo_r2": 0.3819777857957657,
+    "intercept": -5.847660341886844,
+    "coefficients": {
+      "road_dist": -7.1495949099170275,
+      "bpcb_dist": -1.331204868083941,
+      "uni_dist": -0.5259014179365578
+    }
+  },
+  "model2": {
+    "name": "Survey + Volcanic",
+    "predictors": [
+      "road_dist",
+      "bpcb_dist",
+      "uni_dist",
+      "volcano_dist"
+    ],
+    "log_likelihood": -664.8073343606611,
+    "aic": 1339.6146687213222,
+    "pseudo_r2": 0.39810971191554667,
+    "intercept": -5.744452720619058,
+    "coefficients": {
+      "road_dist": -7.15746226713241,
+      "bpcb_dist": -1.2309584025585354,
+      "uni_dist": -0.2578118840906172,
+      "volcano_dist": -0.47659563995396126
+    }
+  },
+  "likelihood_ratio_test": {
+    "lr_statistic": 35.63647067948682,
+    "df": 1,
+    "p_value": 2.3779365001219573e-09
+  },
+  "dispersion_ratio": 14.162571834992887,
+  "dispersion_phi": 3.554506664666101,
+  "adjusted_lr_p": 0.0015436974286970916,
+  "delta_pseudo_r2": 0.01613192611978098,
+  "aic_improvement": 33.63647067948682,
+  "verdict": "VOLCARCH SUPPORTED"
+}

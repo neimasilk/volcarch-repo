@@ -1,0 +1,42 @@
+{
+  "experiment": "E085_adv4_substrate_noise",
+  "date": "2026-03-13",
+  "observed_auc_rf": 0.7618,
+  "observed_auc_lr": 0.7473,
+  "e027_reported_auc_xgboost": 0.7599,
+  "e027_reported_auc_rf": 0.7618,
+  "test1_label_permutation": {
+    "n_permutations": 1000,
+    "permuted_mean": 0.5001,
+    "permuted_std": 0.0237,
+    "permuted_95th": 0.5386,
+    "permuted_99th": 0.5534,
+    "permuted_max": 0.5837,
+    "z_score": 11.05,
+    "empirical_p": 0.0,
+    "pass": true
+  },
+  "test2_random_features": {
+    "n_runs": 100,
+    "random_mean_auc": 0.4942,
+    "random_std_auc": 0.0232,
+    "random_max_auc": 0.559,
+    "z_score": 11.52,
+    "p_value": 0.0,
+    "pass": true
+  },
+  "test3_frequency_only": {
+    "form_length_only_auc_rf": 0.6339,
+    "form_length_only_auc_lr": 0.6392,
+    "auc_lift": 0.1278,
+    "pass": true,
+    "marginal": true
+  },
+  "test4_circularity": {
+    "lcov_only_auc": 0.6803,
+    "no_lcov_auc": 0.759,
+    "lcov_contribution": 0.0028
+  },
+  "verdict": "PASS",
+  "explanation": "Substrate detection is NOT noise. Observed AUC (0.7618) is 11.1 SDs above permuted mean (0.5001), p=0.0000. Real features outperform random features. Phonological features add +0.128 AUC beyond form_length alone."
+}

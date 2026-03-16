@@ -1,0 +1,1261 @@
+{
+  "nodes": {
+    "TEXT_CHEM-001": {
+      "id": "TEXT_CHEM-001",
+      "type": "TEXT",
+      "label": "Rageot et al. 2023 (Nature 614): Saqqara embalming workshop vessels",
+      "tradition": "CHEMICAL",
+      "date_ce": -594,
+      "date_label": "664-525 BCE"
+    },
+    "ENT_COMMODITY_dammar": {
+      "id": "ENT_COMMODITY_dammar",
+      "type": "COMMODITY",
+      "label": "dammar",
+      "modern_id": "Dipterocarpaceae resin, Indonesia/SE Asia",
+      "confidence": 0.95
+    },
+    "ENT_COMMODITY_elemi": {
+      "id": "ENT_COMMODITY_elemi",
+      "type": "COMMODITY",
+      "label": "elemi",
+      "modern_id": "Canarium resin, tropical Asia/Africa",
+      "confidence": 0.85
+    },
+    "ENT_PLACE_Saqqara": {
+      "id": "ENT_PLACE_Saqqara",
+      "type": "PLACE",
+      "label": "Saqqara",
+      "modern_id": "Saqqara, Egypt",
+      "confidence": 1.0
+    },
+    "TEXT_CHEM-002": {
+      "id": "TEXT_CHEM-002",
+      "type": "TEXT",
+      "label": "Buccellati (archaeological excavation): Terqa clove find",
+      "tradition": "CHEMICAL",
+      "date_ce": -1700,
+      "date_label": "~1700 BCE"
+    },
+    "ENT_COMMODITY_cloves": {
+      "id": "ENT_COMMODITY_cloves",
+      "type": "COMMODITY",
+      "label": "cloves",
+      "modern_id": "Syzygium aromaticum, North Maluku exclusive",
+      "confidence": 0.7
+    },
+    "ENT_PLACE_Terqa": {
+      "id": "ENT_PLACE_Terqa",
+      "type": "PLACE",
+      "label": "Terqa",
+      "modern_id": "Tell Ashara, Syria (Euphrates)",
+      "confidence": 1.0
+    },
+    "ENT_PLACE_North_Maluku": {
+      "id": "ENT_PLACE_North_Maluku",
+      "type": "PLACE",
+      "label": "North Maluku",
+      "modern_id": "Ternate/Tidore/Bacan/Halmahera",
+      "confidence": 0.95
+    },
+    "TEXT_CHEM-003": {
+      "id": "TEXT_CHEM-003",
+      "type": "TEXT",
+      "label": "Crowther et al. 2016 (PNAS 113); Fuller et al.: Austronesian crop package in South India/Sri Lanka",
+      "tradition": "CHEMICAL",
+      "date_ce": -1050,
+      "date_label": "~1500-600 BCE"
+    },
+    "ENT_COMMODITY_coconut": {
+      "id": "ENT_COMMODITY_coconut",
+      "type": "COMMODITY",
+      "label": "coconut",
+      "modern_id": "Cocos nucifera, Austronesian domesticate",
+      "confidence": 0.9
+    },
+    "ENT_COMMODITY_banana": {
+      "id": "ENT_COMMODITY_banana",
+      "type": "COMMODITY",
+      "label": "banana",
+      "modern_id": "Musa spp., Austronesian domesticate",
+      "confidence": 0.9
+    },
+    "ENT_COMMODITY_sandalwood": {
+      "id": "ENT_COMMODITY_sandalwood",
+      "type": "COMMODITY",
+      "label": "sandalwood",
+      "modern_id": "Santalum album, eastern Indonesia/Timor",
+      "confidence": 0.85
+    },
+    "ENT_VESSEL_outrigger_boat": {
+      "id": "ENT_VESSEL_outrigger_boat",
+      "type": "VESSEL",
+      "label": "outrigger boat",
+      "modern_id": "Austronesian maritime technology",
+      "confidence": 0.8
+    },
+    "TEXT_CHEM-004": {
+      "id": "TEXT_CHEM-004",
+      "type": "TEXT",
+      "label": "Multiple sources; van der Veen 2011: Cinnamon/cassia in Egyptian/Phoenician trade",
+      "tradition": "CHEMICAL",
+      "date_ce": -1000,
+      "date_label": "~1000 BCE"
+    },
+    "ENT_COMMODITY_cinnamon": {
+      "id": "ENT_COMMODITY_cinnamon",
+      "type": "COMMODITY",
+      "label": "cinnamon",
+      "modern_id": "Cinnamomum verum, Sri Lanka/SE Asia",
+      "confidence": 0.85
+    },
+    "ENT_COMMODITY_cassia": {
+      "id": "ENT_COMMODITY_cassia",
+      "type": "COMMODITY",
+      "label": "cassia",
+      "modern_id": "Cinnamomum cassia, South China/Vietnam/SE Asia",
+      "confidence": 0.8
+    },
+    "TEXT_GRK-001": {
+      "id": "TEXT_GRK-001",
+      "type": "TEXT",
+      "label": "Eratosthenes of Cyrene: Geographica (fragments via Strabo)",
+      "tradition": "GREEK",
+      "date_ce": -235,
+      "date_label": "~276-195 BCE"
+    },
+    "ENT_PLACE_Chryse": {
+      "id": "ENT_PLACE_Chryse",
+      "type": "PLACE",
+      "label": "Chryse",
+      "modern_id": "Malay Peninsula or Sumatra",
+      "confidence": 0.65
+    },
+    "ENT_PLACE_Chryse_Insula": {
+      "id": "ENT_PLACE_Chryse_Insula",
+      "type": "PLACE",
+      "label": "Chryse Insula",
+      "modern_id": "Sumatra (probable)",
+      "confidence": 0.6
+    },
+    "TEXT_GRK-002": {
+      "id": "TEXT_GRK-002",
+      "type": "TEXT",
+      "label": "Anonymous merchant: Periplus Maris Erythraei",
+      "tradition": "GREEK",
+      "date_ce": 50,
+      "date_label": "~40-55 CE"
+    },
+    "ENT_COMMODITY_tortoiseshell": {
+      "id": "ENT_COMMODITY_tortoiseshell",
+      "type": "COMMODITY",
+      "label": "tortoiseshell",
+      "modern_id": "Hawksbill turtle shell, SE Asian waters",
+      "confidence": 0.8
+    },
+    "ENT_PLACE_Thinae": {
+      "id": "ENT_PLACE_Thinae",
+      "type": "PLACE",
+      "label": "Thinae",
+      "modern_id": "China (southern coast)",
+      "confidence": 0.75
+    },
+    "TEXT_GRK-003": {
+      "id": "TEXT_GRK-003",
+      "type": "TEXT",
+      "label": "Claudius Ptolemy: Geographia",
+      "tradition": "ROMAN",
+      "date_ce": 150,
+      "date_label": "~150 CE"
+    },
+    "ENT_PLACE_Aurea_Chersonesus": {
+      "id": "ENT_PLACE_Aurea_Chersonesus",
+      "type": "PLACE",
+      "label": "Aurea Chersonesus",
+      "modern_id": "Malay Peninsula",
+      "confidence": 0.85
+    },
+    "ENT_PLACE_Iabadiu": {
+      "id": "ENT_PLACE_Iabadiu",
+      "type": "PLACE",
+      "label": "Iabadiu",
+      "modern_id": "Java (Yavadvipa)",
+      "confidence": 0.75
+    },
+    "ENT_PLACE_Argyre": {
+      "id": "ENT_PLACE_Argyre",
+      "type": "PLACE",
+      "label": "Argyre",
+      "modern_id": "City in western Java?",
+      "confidence": 0.4
+    },
+    "ENT_PLACE_Sinda": {
+      "id": "ENT_PLACE_Sinda",
+      "type": "PLACE",
+      "label": "Sinda",
+      "modern_id": "Malay/Sumatran coast",
+      "confidence": 0.5
+    },
+    "ENT_PLACE_Sabarana": {
+      "id": "ENT_PLACE_Sabarana",
+      "type": "PLACE",
+      "label": "Sabarana",
+      "modern_id": "Malay/Sumatran coast",
+      "confidence": 0.45
+    },
+    "ENT_ACTOR_Alexander": {
+      "id": "ENT_ACTOR_Alexander",
+      "type": "ACTOR",
+      "label": "Alexander",
+      "modern_id": "Greek sailor who visited SE Asia",
+      "confidence": 0.7
+    },
+    "TEXT_ROM-001": {
+      "id": "TEXT_ROM-001",
+      "type": "TEXT",
+      "label": "Pliny the Elder: Naturalis Historia",
+      "tradition": "ROMAN",
+      "date_ce": 77,
+      "date_label": "77 CE"
+    },
+    "ENT_COMMODITY_camphor": {
+      "id": "ENT_COMMODITY_camphor",
+      "type": "COMMODITY",
+      "label": "camphor",
+      "modern_id": "Dryobalanops aromatica, Sumatra/Borneo",
+      "confidence": 0.8
+    },
+    "ENT_COMMODITY_aromatics": {
+      "id": "ENT_COMMODITY_aromatics",
+      "type": "COMMODITY",
+      "label": "aromatics",
+      "modern_id": "Multiple SE Asian forest products",
+      "confidence": 0.75
+    },
+    "TEXT_IND-001": {
+      "id": "TEXT_IND-001",
+      "type": "TEXT",
+      "label": "Buddhist monastic compilers: Jataka Tales (Supparaka, Baveru, Sankha Jatakas)",
+      "tradition": "INDIAN_PALI",
+      "date_ce": -350,
+      "date_label": "~4th century BCE compilation"
+    },
+    "ENT_PLACE_Suvarnabhumi": {
+      "id": "ENT_PLACE_Suvarnabhumi",
+      "type": "PLACE",
+      "label": "Suvarnabhumi",
+      "modern_id": "Sumatra (probable) / Burma-Thailand (alternative)",
+      "confidence": 0.7
+    },
+    "ENT_ACTOR_merchants": {
+      "id": "ENT_ACTOR_merchants",
+      "type": "ACTOR",
+      "label": "merchants",
+      "modern_id": "Indian Ocean traders",
+      "confidence": 0.85
+    },
+    "TEXT_IND-002": {
+      "id": "TEXT_IND-002",
+      "type": "TEXT",
+      "label": "Anonymous (Buddhist dialogue): Milinda Panha (Questions of King Milinda)",
+      "tradition": "INDIAN_PALI",
+      "date_ce": -50,
+      "date_label": "~100 BCE - 200 CE"
+    },
+    "TEXT_IND-003": {
+      "id": "TEXT_IND-003",
+      "type": "TEXT",
+      "label": "Mahanama: Mahavamsa (Great Chronicle of Sri Lanka)",
+      "tradition": "INDIAN_PALI",
+      "date_ce": 400,
+      "date_label": "~5th c CE (describing events from ~543 BCE)"
+    },
+    "TEXT_IND-004": {
+      "id": "TEXT_IND-004",
+      "type": "TEXT",
+      "label": "Valmiki: Ramayana, Kishkindha Kanda 4.40.30",
+      "tradition": "INDIAN_SANSKRIT",
+      "date_ce": -350,
+      "date_label": "~5th-4th century BCE (debated)"
+    },
+    "ENT_PLACE_Yavadvipa": {
+      "id": "ENT_PLACE_Yavadvipa",
+      "type": "PLACE",
+      "label": "Yavadvipa",
+      "modern_id": "Java",
+      "confidence": 0.9
+    },
+    "ENT_POLITY_seven_kingdoms": {
+      "id": "ENT_POLITY_seven_kingdoms",
+      "type": "POLITY",
+      "label": "seven kingdoms",
+      "modern_id": "Multiple polities on Java",
+      "confidence": 0.5
+    },
+    "ENT_PLACE_Suvarnadvipa": {
+      "id": "ENT_PLACE_Suvarnadvipa",
+      "type": "PLACE",
+      "label": "Suvarnadvipa",
+      "modern_id": "Sumatra (Gold Island)",
+      "confidence": 0.85
+    },
+    "TEXT_IND-005": {
+      "id": "TEXT_IND-005",
+      "type": "TEXT",
+      "label": "Kautilya (Chanakya): Arthashastra",
+      "tradition": "INDIAN_SANSKRIT",
+      "date_ce": -250,
+      "date_label": "~300 BCE - 200 CE"
+    },
+    "ENT_PLACE_dvipantara": {
+      "id": "ENT_PLACE_dvipantara",
+      "type": "PLACE",
+      "label": "dvipantara",
+      "modern_id": "Indonesian archipelago (literally 'other islands')",
+      "confidence": 0.75
+    },
+    "ENT_COMMODITY_aromatic_products": {
+      "id": "ENT_COMMODITY_aromatic_products",
+      "type": "COMMODITY",
+      "label": "aromatic products",
+      "modern_id": "SE Asian forest products",
+      "confidence": 0.7
+    },
+    "TEXT_IND-006": {
+      "id": "TEXT_IND-006",
+      "type": "TEXT",
+      "label": "Adityawarman: Padangroco Inscription",
+      "tradition": "INDIAN_SANSKRIT",
+      "date_ce": 1286,
+      "date_label": "1286 CE"
+    },
+    "ENT_PLACE_Tanjungemas": {
+      "id": "ENT_PLACE_Tanjungemas",
+      "type": "PLACE",
+      "label": "Tanjungemas",
+      "modern_id": "West Sumatra",
+      "confidence": 0.95
+    },
+    "TEXT_CHN-001": {
+      "id": "TEXT_CHN-001",
+      "type": "TEXT",
+      "label": "Ban Gu: Hanshu (Book of Han)",
+      "tradition": "CHINESE",
+      "date_ce": 80,
+      "date_label": "111 CE (describing 2nd-1st c BCE conditions)"
+    },
+    "ENT_PLACE_Huang-zhi": {
+      "id": "ENT_PLACE_Huang-zhi",
+      "type": "PLACE",
+      "label": "Huang-zhi",
+      "modern_id": "Kancipuram, South India",
+      "confidence": 0.75
+    },
+    "ENT_COMMODITY_aromatic_woods": {
+      "id": "ENT_COMMODITY_aromatic_woods",
+      "type": "COMMODITY",
+      "label": "aromatic woods",
+      "modern_id": "SE Asian forest products",
+      "confidence": 0.7
+    },
+    "ENT_PLACE_southern_sea_islands": {
+      "id": "ENT_PLACE_southern_sea_islands",
+      "type": "PLACE",
+      "label": "southern sea islands",
+      "modern_id": "Nusantaran archipelago (implied)",
+      "confidence": 0.55
+    },
+    "TEXT_CHN-002": {
+      "id": "TEXT_CHN-002",
+      "type": "TEXT",
+      "label": "Wan Chen (萬震): Nanzhou Yiwu Zhi (南州異物志)",
+      "tradition": "CHINESE",
+      "date_ce": 264,
+      "date_label": "~264 CE"
+    },
+    "ENT_VESSEL_k'un-lun_po_崑崙舶": {
+      "id": "ENT_VESSEL_k'un-lun_po_崑崙舶",
+      "type": "VESSEL",
+      "label": "k'un-lun po 崑崙舶",
+      "modern_id": "Austronesian long-distance trading vessel",
+      "confidence": 0.9
+    },
+    "ENT_ACTOR_k'un-lun_崑崙": {
+      "id": "ENT_ACTOR_k'un-lun_崑崙",
+      "type": "ACTOR",
+      "label": "k'un-lun 崑崙",
+      "modern_id": "Austronesian SE Asian peoples",
+      "confidence": 0.85
+    },
+    "ENT_MATERIAL_bamboo_sails": {
+      "id": "ENT_MATERIAL_bamboo_sails",
+      "type": "MATERIAL",
+      "label": "bamboo sails",
+      "modern_id": "Austronesian crab-claw/rectangular sail technology",
+      "confidence": 0.8
+    },
+    "ENT_VESSEL_20_zhang_vessel": {
+      "id": "ENT_VESSEL_20_zhang_vessel",
+      "type": "VESSEL",
+      "label": "20 zhang vessel",
+      "modern_id": "~48m ship (larger than Roman merchantmen)",
+      "confidence": 0.75
+    },
+    "TEXT_CHN-003": {
+      "id": "TEXT_CHN-003",
+      "type": "TEXT",
+      "label": "Yu Huan (魚豢): Weilüe (魏略)",
+      "tradition": "CHINESE",
+      "date_ce": 239,
+      "date_label": "~239 CE"
+    },
+    "ENT_PLACE_Rinan": {
+      "id": "ENT_PLACE_Rinan",
+      "type": "PLACE",
+      "label": "Rinan",
+      "modern_id": "Central Vietnam coast",
+      "confidence": 0.85
+    },
+    "ENT_PLACE_Southeast_Asian_islands": {
+      "id": "ENT_PLACE_Southeast_Asian_islands",
+      "type": "PLACE",
+      "label": "Southeast Asian islands",
+      "modern_id": "Nusantaran archipelago",
+      "confidence": 0.65
+    },
+    "ENT_PLACE_Daqin": {
+      "id": "ENT_PLACE_Daqin",
+      "type": "PLACE",
+      "label": "Daqin",
+      "modern_id": "Roman Empire",
+      "confidence": 0.9
+    },
+    "TEXT_CHN-004": {
+      "id": "TEXT_CHN-004",
+      "type": "TEXT",
+      "label": "Kang Tai (康泰): Funan Tuqi (扶南土俗)",
+      "tradition": "CHINESE",
+      "date_ce": 260,
+      "date_label": "~260 CE"
+    },
+    "ENT_POLITY_Funan": {
+      "id": "ENT_POLITY_Funan",
+      "type": "POLITY",
+      "label": "Funan",
+      "modern_id": "Mekong Delta kingdom (Cambodia/Vietnam)",
+      "confidence": 0.9
+    },
+    "ENT_ROUTE_SE_Asian_maritime_networks": {
+      "id": "ENT_ROUTE_SE_Asian_maritime_networks",
+      "type": "ROUTE",
+      "label": "SE Asian maritime networks",
+      "modern_id": "Trade routes to Indonesian archipelago",
+      "confidence": 0.7
+    },
+    "TEXT_CHN-005": {
+      "id": "TEXT_CHN-005",
+      "type": "TEXT",
+      "label": "Faxian (法顯): Foguoji (佛國記, Record of Buddhist Kingdoms)",
+      "tradition": "CHINESE",
+      "date_ce": 414,
+      "date_label": "414 CE (voyage 399-414)"
+    },
+    "ENT_PLACE_Ye-po-ti_耶婆提": {
+      "id": "ENT_PLACE_Ye-po-ti_耶婆提",
+      "type": "PLACE",
+      "label": "Ye-po-ti 耶婆提",
+      "modern_id": "Java (Yavadvipa)",
+      "confidence": 0.85
+    },
+    "ENT_POLITY_Brahmanism": {
+      "id": "ENT_POLITY_Brahmanism",
+      "type": "POLITY",
+      "label": "Brahmanism",
+      "modern_id": "Hindu-Buddhist religion in early Java",
+      "confidence": 0.8
+    },
+    "TEXT_CHN-006": {
+      "id": "TEXT_CHN-006",
+      "type": "TEXT",
+      "label": "Yao Silian (姚思廉): Liang Shu (梁書), ch. 54",
+      "tradition": "CHINESE",
+      "date_ce": 636,
+      "date_label": "636 CE (describing 502-557 CE)"
+    },
+    "ENT_POLITY_Heluo-dan_呵羅單": {
+      "id": "ENT_POLITY_Heluo-dan_呵羅單",
+      "type": "POLITY",
+      "label": "Heluo-dan 呵羅單",
+      "modern_id": "Central Java (Kalingga?)",
+      "confidence": 0.55
+    },
+    "ENT_POLITY_Poli_婆利": {
+      "id": "ENT_POLITY_Poli_婆利",
+      "type": "POLITY",
+      "label": "Poli 婆利",
+      "modern_id": "Bali or Borneo (debated)",
+      "confidence": 0.45
+    },
+    "ENT_PLACE_southern_sea_countries": {
+      "id": "ENT_PLACE_southern_sea_countries",
+      "type": "PLACE",
+      "label": "southern sea countries",
+      "modern_id": "Nusantaran archipelago",
+      "confidence": 0.8
+    },
+    "TEXT_ARB-001": {
+      "id": "TEXT_ARB-001",
+      "type": "TEXT",
+      "label": "Attributed to Sulayman al-Tajir: Akhbar as-Sin wa l-Hind (Accounts of China and India)",
+      "tradition": "ARAB",
+      "date_ce": 851,
+      "date_label": "851 CE"
+    },
+    "ENT_POLITY_Zabaj": {
+      "id": "ENT_POLITY_Zabaj",
+      "type": "POLITY",
+      "label": "Zabaj",
+      "modern_id": "Java or Sumatra (Srivijaya?)",
+      "confidence": 0.7
+    },
+    "TEXT_ARB-002": {
+      "id": "TEXT_ARB-002",
+      "type": "TEXT",
+      "label": "Ibn Khurdadhbeh: Kitab al-Masalik wa-l-Mamalik",
+      "tradition": "ARAB",
+      "date_ce": 885,
+      "date_label": "~885 CE"
+    },
+    "ENT_PLACE_Fansur": {
+      "id": "ENT_PLACE_Fansur",
+      "type": "PLACE",
+      "label": "Fansur",
+      "modern_id": "Barus, North Sumatra",
+      "confidence": 0.95
+    },
+    "TEXT_ARB-003": {
+      "id": "TEXT_ARB-003",
+      "type": "TEXT",
+      "label": "al-Masudi: Muruj al-Dhahab (Meadows of Gold)",
+      "tradition": "ARAB",
+      "date_ce": 943,
+      "date_label": "~943 CE"
+    },
+    "ENT_ACTOR_Maharaja": {
+      "id": "ENT_ACTOR_Maharaja",
+      "type": "ACTOR",
+      "label": "Maharaja",
+      "modern_id": "Srivijayan ruler",
+      "confidence": 0.8
+    },
+    "ENT_PLACE_Sumatra": {
+      "id": "ENT_PLACE_Sumatra",
+      "type": "PLACE",
+      "label": "Sumatra",
+      "modern_id": "Sumatra",
+      "confidence": 0.85
+    },
+    "ENT_PLACE_Java": {
+      "id": "ENT_PLACE_Java",
+      "type": "PLACE",
+      "label": "Java",
+      "modern_id": "Java",
+      "confidence": 0.85
+    },
+    "TEXT_LING-001": {
+      "id": "TEXT_LING-001",
+      "type": "TEXT",
+      "label": "Historical linguistics (multiple scholars): Camphor etymology chain",
+      "tradition": "LINGUISTIC",
+      "date_ce": -500,
+      "date_label": "~500 BCE onwards"
+    },
+    "ENT_COMMODITY_kapur_barus": {
+      "id": "ENT_COMMODITY_kapur_barus",
+      "type": "COMMODITY",
+      "label": "kapur barus",
+      "modern_id": "Camphor from Barus, Sumatra",
+      "confidence": 0.95
+    },
+    "ENT_PLACE_Barus": {
+      "id": "ENT_PLACE_Barus",
+      "type": "PLACE",
+      "label": "Barus",
+      "modern_id": "Ancient camphor port, North Sumatra",
+      "confidence": 0.95
+    },
+    "TEXT_LING-002": {
+      "id": "TEXT_LING-002",
+      "type": "TEXT",
+      "label": "Historical linguistics: Benzoin etymology",
+      "tradition": "LINGUISTIC",
+      "date_ce": -300,
+      "date_label": "~300 BCE onwards"
+    },
+    "ENT_COMMODITY_luban_jawi": {
+      "id": "ENT_COMMODITY_luban_jawi",
+      "type": "COMMODITY",
+      "label": "luban jawi",
+      "modern_id": "Benzoin resin, Styrax benzoin, Sumatra",
+      "confidence": 0.9
+    },
+    "ENT_PLACE_jawi": {
+      "id": "ENT_PLACE_jawi",
+      "type": "PLACE",
+      "label": "jawi",
+      "modern_id": "Java/Nusantara (in Arabic geographic usage)",
+      "confidence": 0.85
+    },
+    "TEXT_NUS-001": {
+      "id": "TEXT_NUS-001",
+      "type": "TEXT",
+      "label": "Mulavarman: Yupa inscriptions of Kutai",
+      "tradition": "NUSANTARAN",
+      "date_ce": 400,
+      "date_label": "~400 CE"
+    },
+    "ENT_POLITY_Kutai": {
+      "id": "ENT_POLITY_Kutai",
+      "type": "POLITY",
+      "label": "Kutai",
+      "modern_id": "East Kalimantan (non-volcanic)",
+      "confidence": 0.95
+    },
+    "ENT_ACTOR_Mulavarman": {
+      "id": "ENT_ACTOR_Mulavarman",
+      "type": "ACTOR",
+      "label": "Mulavarman",
+      "modern_id": "King of Kutai, earliest named Nusantaran ruler",
+      "confidence": 0.95
+    },
+    "TEXT_NUS-002": {
+      "id": "TEXT_NUS-002",
+      "type": "TEXT",
+      "label": "Prapanca: Nagarakretagama",
+      "tradition": "NUSANTARAN",
+      "date_ce": 1365,
+      "date_label": "1365 CE"
+    },
+    "RESOLUTION_GOLDEN_LAND": {
+      "id": "RESOLUTION_GOLDEN_LAND",
+      "type": "RESOLUTION_GROUP",
+      "label": "GOLDEN_LAND",
+      "modern": "Sumatra / Malay Peninsula",
+      "n_traditions": 5,
+      "confidence": 0.7
+    },
+    "RESOLUTION_JAVA": {
+      "id": "RESOLUTION_JAVA",
+      "type": "RESOLUTION_GROUP",
+      "label": "JAVA",
+      "modern": "Java",
+      "n_traditions": 4,
+      "confidence": 0.85
+    },
+    "RESOLUTION_BARUS_CAMPHOR": {
+      "id": "RESOLUTION_BARUS_CAMPHOR",
+      "type": "RESOLUTION_GROUP",
+      "label": "BARUS_CAMPHOR",
+      "modern": "Barus, North Sumatra",
+      "n_traditions": 3,
+      "confidence": 0.95
+    },
+    "RESOLUTION_KUNLUN_PEOPLE": {
+      "id": "RESOLUTION_KUNLUN_PEOPLE",
+      "type": "RESOLUTION_GROUP",
+      "label": "KUNLUN_PEOPLE",
+      "modern": "Austronesian SE Asian peoples",
+      "n_traditions": 2,
+      "confidence": 0.85
+    },
+    "RESOLUTION_CLOVE_SOURCE": {
+      "id": "RESOLUTION_CLOVE_SOURCE",
+      "type": "RESOLUTION_GROUP",
+      "label": "CLOVE_SOURCE",
+      "modern": "North Maluku (Ternate/Tidore/Bacan)",
+      "n_traditions": 2,
+      "confidence": 0.95
+    },
+    "RESOLUTION_DAMMAR_RESIN": {
+      "id": "RESOLUTION_DAMMAR_RESIN",
+      "type": "RESOLUTION_GROUP",
+      "label": "DAMMAR_RESIN",
+      "modern": "Indonesia / SE Asia exclusive",
+      "n_traditions": 1,
+      "confidence": 0.95
+    }
+  },
+  "edges": [
+    {
+      "source": "TEXT_CHEM-001",
+      "target": "ENT_COMMODITY_dammar",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": -594
+    },
+    {
+      "source": "TEXT_CHEM-001",
+      "target": "ENT_COMMODITY_elemi",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": -594
+    },
+    {
+      "source": "TEXT_CHEM-001",
+      "target": "ENT_PLACE_Saqqara",
+      "type": "MENTIONS",
+      "confidence": 1.0,
+      "date_ce": -594
+    },
+    {
+      "source": "TEXT_CHEM-002",
+      "target": "ENT_COMMODITY_cloves",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": -1700
+    },
+    {
+      "source": "TEXT_CHEM-002",
+      "target": "ENT_PLACE_Terqa",
+      "type": "MENTIONS",
+      "confidence": 1.0,
+      "date_ce": -1700
+    },
+    {
+      "source": "TEXT_CHEM-002",
+      "target": "ENT_PLACE_North_Maluku",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": -1700
+    },
+    {
+      "source": "TEXT_CHEM-003",
+      "target": "ENT_COMMODITY_coconut",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": -1050
+    },
+    {
+      "source": "TEXT_CHEM-003",
+      "target": "ENT_COMMODITY_banana",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": -1050
+    },
+    {
+      "source": "TEXT_CHEM-003",
+      "target": "ENT_COMMODITY_sandalwood",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": -1050
+    },
+    {
+      "source": "TEXT_CHEM-003",
+      "target": "ENT_VESSEL_outrigger_boat",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": -1050
+    },
+    {
+      "source": "TEXT_CHEM-004",
+      "target": "ENT_COMMODITY_cinnamon",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": -1000
+    },
+    {
+      "source": "TEXT_CHEM-004",
+      "target": "ENT_COMMODITY_cassia",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": -1000
+    },
+    {
+      "source": "TEXT_GRK-001",
+      "target": "ENT_PLACE_Chryse",
+      "type": "MENTIONS",
+      "confidence": 0.65,
+      "date_ce": -235
+    },
+    {
+      "source": "TEXT_GRK-001",
+      "target": "ENT_PLACE_Chryse_Insula",
+      "type": "MENTIONS",
+      "confidence": 0.6,
+      "date_ce": -235
+    },
+    {
+      "source": "TEXT_GRK-002",
+      "target": "ENT_PLACE_Chryse",
+      "type": "MENTIONS",
+      "confidence": 0.65,
+      "date_ce": 50
+    },
+    {
+      "source": "TEXT_GRK-002",
+      "target": "ENT_COMMODITY_tortoiseshell",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": 50
+    },
+    {
+      "source": "TEXT_GRK-002",
+      "target": "ENT_PLACE_Thinae",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": 50
+    },
+    {
+      "source": "TEXT_GRK-003",
+      "target": "ENT_PLACE_Aurea_Chersonesus",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 150
+    },
+    {
+      "source": "TEXT_GRK-003",
+      "target": "ENT_PLACE_Iabadiu",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": 150
+    },
+    {
+      "source": "TEXT_GRK-003",
+      "target": "ENT_PLACE_Argyre",
+      "type": "MENTIONS",
+      "confidence": 0.4,
+      "date_ce": 150
+    },
+    {
+      "source": "TEXT_GRK-003",
+      "target": "ENT_PLACE_Sinda",
+      "type": "MENTIONS",
+      "confidence": 0.5,
+      "date_ce": 150
+    },
+    {
+      "source": "TEXT_GRK-003",
+      "target": "ENT_PLACE_Sabarana",
+      "type": "MENTIONS",
+      "confidence": 0.45,
+      "date_ce": 150
+    },
+    {
+      "source": "TEXT_GRK-003",
+      "target": "ENT_ACTOR_Alexander",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": 150
+    },
+    {
+      "source": "TEXT_ROM-001",
+      "target": "ENT_PLACE_Chryse",
+      "type": "MENTIONS",
+      "confidence": 0.65,
+      "date_ce": 77
+    },
+    {
+      "source": "TEXT_ROM-001",
+      "target": "ENT_PLACE_Argyre",
+      "type": "MENTIONS",
+      "confidence": 0.35,
+      "date_ce": 77
+    },
+    {
+      "source": "TEXT_ROM-001",
+      "target": "ENT_COMMODITY_camphor",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": 77
+    },
+    {
+      "source": "TEXT_ROM-001",
+      "target": "ENT_COMMODITY_aromatics",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": 77
+    },
+    {
+      "source": "TEXT_IND-001",
+      "target": "ENT_PLACE_Suvarnabhumi",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": -350
+    },
+    {
+      "source": "TEXT_IND-001",
+      "target": "ENT_ACTOR_merchants",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": -350
+    },
+    {
+      "source": "TEXT_IND-002",
+      "target": "ENT_PLACE_Suvarnabhumi",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": -50
+    },
+    {
+      "source": "TEXT_IND-003",
+      "target": "ENT_PLACE_Suvarnabhumi",
+      "type": "MENTIONS",
+      "confidence": 0.65,
+      "date_ce": 400
+    },
+    {
+      "source": "TEXT_IND-004",
+      "target": "ENT_PLACE_Yavadvipa",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": -350
+    },
+    {
+      "source": "TEXT_IND-004",
+      "target": "ENT_POLITY_seven_kingdoms",
+      "type": "MENTIONS",
+      "confidence": 0.5,
+      "date_ce": -350
+    },
+    {
+      "source": "TEXT_IND-004",
+      "target": "ENT_PLACE_Suvarnadvipa",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": -350
+    },
+    {
+      "source": "TEXT_IND-005",
+      "target": "ENT_PLACE_dvipantara",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": -250
+    },
+    {
+      "source": "TEXT_IND-005",
+      "target": "ENT_COMMODITY_aromatic_products",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": -250
+    },
+    {
+      "source": "TEXT_IND-006",
+      "target": "ENT_PLACE_Suvarnabhumi",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 1286
+    },
+    {
+      "source": "TEXT_IND-006",
+      "target": "ENT_PLACE_Tanjungemas",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 1286
+    },
+    {
+      "source": "TEXT_CHN-001",
+      "target": "ENT_PLACE_Huang-zhi",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": 80
+    },
+    {
+      "source": "TEXT_CHN-001",
+      "target": "ENT_COMMODITY_aromatic_woods",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": 80
+    },
+    {
+      "source": "TEXT_CHN-001",
+      "target": "ENT_PLACE_southern_sea_islands",
+      "type": "MENTIONS",
+      "confidence": 0.55,
+      "date_ce": 80
+    },
+    {
+      "source": "TEXT_CHN-002",
+      "target": "ENT_VESSEL_k'un-lun_po_崑崙舶",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": 264
+    },
+    {
+      "source": "TEXT_CHN-002",
+      "target": "ENT_ACTOR_k'un-lun_崑崙",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 264
+    },
+    {
+      "source": "TEXT_CHN-002",
+      "target": "ENT_MATERIAL_bamboo_sails",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": 264
+    },
+    {
+      "source": "TEXT_CHN-002",
+      "target": "ENT_VESSEL_20_zhang_vessel",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": 264
+    },
+    {
+      "source": "TEXT_CHN-003",
+      "target": "ENT_PLACE_Rinan",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 239
+    },
+    {
+      "source": "TEXT_CHN-003",
+      "target": "ENT_PLACE_Southeast_Asian_islands",
+      "type": "MENTIONS",
+      "confidence": 0.65,
+      "date_ce": 239
+    },
+    {
+      "source": "TEXT_CHN-003",
+      "target": "ENT_PLACE_Daqin",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": 239
+    },
+    {
+      "source": "TEXT_CHN-004",
+      "target": "ENT_POLITY_Funan",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": 260
+    },
+    {
+      "source": "TEXT_CHN-004",
+      "target": "ENT_ROUTE_SE_Asian_maritime_networks",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": 260
+    },
+    {
+      "source": "TEXT_CHN-005",
+      "target": "ENT_PLACE_Ye-po-ti_耶婆提",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 414
+    },
+    {
+      "source": "TEXT_CHN-005",
+      "target": "ENT_POLITY_Brahmanism",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": 414
+    },
+    {
+      "source": "TEXT_CHN-006",
+      "target": "ENT_POLITY_Heluo-dan_呵羅單",
+      "type": "MENTIONS",
+      "confidence": 0.55,
+      "date_ce": 636
+    },
+    {
+      "source": "TEXT_CHN-006",
+      "target": "ENT_POLITY_Poli_婆利",
+      "type": "MENTIONS",
+      "confidence": 0.45,
+      "date_ce": 636
+    },
+    {
+      "source": "TEXT_CHN-006",
+      "target": "ENT_PLACE_southern_sea_countries",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": 636
+    },
+    {
+      "source": "TEXT_ARB-001",
+      "target": "ENT_POLITY_Zabaj",
+      "type": "MENTIONS",
+      "confidence": 0.7,
+      "date_ce": 851
+    },
+    {
+      "source": "TEXT_ARB-001",
+      "target": "ENT_COMMODITY_camphor",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": 851
+    },
+    {
+      "source": "TEXT_ARB-001",
+      "target": "ENT_COMMODITY_cloves",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 851
+    },
+    {
+      "source": "TEXT_ARB-001",
+      "target": "ENT_COMMODITY_sandalwood",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 851
+    },
+    {
+      "source": "TEXT_ARB-002",
+      "target": "ENT_PLACE_Fansur",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 885
+    },
+    {
+      "source": "TEXT_ARB-002",
+      "target": "ENT_COMMODITY_camphor",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 885
+    },
+    {
+      "source": "TEXT_ARB-003",
+      "target": "ENT_POLITY_Zabaj",
+      "type": "MENTIONS",
+      "confidence": 0.75,
+      "date_ce": 943
+    },
+    {
+      "source": "TEXT_ARB-003",
+      "target": "ENT_ACTOR_Maharaja",
+      "type": "MENTIONS",
+      "confidence": 0.8,
+      "date_ce": 943
+    },
+    {
+      "source": "TEXT_ARB-003",
+      "target": "ENT_PLACE_Sumatra",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 943
+    },
+    {
+      "source": "TEXT_ARB-003",
+      "target": "ENT_PLACE_Java",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": 943
+    },
+    {
+      "source": "TEXT_LING-001",
+      "target": "ENT_COMMODITY_kapur_barus",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": -500
+    },
+    {
+      "source": "TEXT_LING-001",
+      "target": "ENT_PLACE_Barus",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": -500
+    },
+    {
+      "source": "TEXT_LING-002",
+      "target": "ENT_COMMODITY_luban_jawi",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": -300
+    },
+    {
+      "source": "TEXT_LING-002",
+      "target": "ENT_PLACE_jawi",
+      "type": "MENTIONS",
+      "confidence": 0.85,
+      "date_ce": -300
+    },
+    {
+      "source": "TEXT_NUS-001",
+      "target": "ENT_POLITY_Kutai",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 400
+    },
+    {
+      "source": "TEXT_NUS-001",
+      "target": "ENT_ACTOR_Mulavarman",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 400
+    },
+    {
+      "source": "TEXT_NUS-002",
+      "target": "ENT_PLACE_Suvarnabhumi",
+      "type": "MENTIONS",
+      "confidence": 0.9,
+      "date_ce": 1365
+    },
+    {
+      "source": "TEXT_NUS-002",
+      "target": "ENT_PLACE_Suvarnadvipa",
+      "type": "MENTIONS",
+      "confidence": 0.95,
+      "date_ce": 1365
+    },
+    {
+      "source": "ENT_PLACE_Chryse",
+      "target": "RESOLUTION_GOLDEN_LAND",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.7
+    },
+    {
+      "source": "ENT_PLACE_Chryse_Insula",
+      "target": "RESOLUTION_GOLDEN_LAND",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.7
+    },
+    {
+      "source": "ENT_PLACE_Aurea_Chersonesus",
+      "target": "RESOLUTION_GOLDEN_LAND",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.7
+    },
+    {
+      "source": "ENT_PLACE_Suvarnabhumi",
+      "target": "RESOLUTION_GOLDEN_LAND",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.7
+    },
+    {
+      "source": "ENT_PLACE_Suvarnadvipa",
+      "target": "RESOLUTION_GOLDEN_LAND",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.7
+    },
+    {
+      "source": "ENT_PLACE_Iabadiu",
+      "target": "RESOLUTION_JAVA",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "ENT_PLACE_Yavadvipa",
+      "target": "RESOLUTION_JAVA",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "ENT_PLACE_Ye-po-ti_耶婆提",
+      "target": "RESOLUTION_JAVA",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "ENT_PLACE_Fansur",
+      "target": "RESOLUTION_BARUS_CAMPHOR",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "ENT_PLACE_Barus",
+      "target": "RESOLUTION_BARUS_CAMPHOR",
+      "type": "IDENTIFIED_WITH",
+      "confidence": 0.95
+    }
+  ]
+}

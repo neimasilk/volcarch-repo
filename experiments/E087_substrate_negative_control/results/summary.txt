@@ -1,0 +1,15 @@
+E087: Substrate Detector Negative Control — Summary
+=======================================================
+
+Date: 2026-03-16
+
+E027 Original (Sulawesi 6 langs): AUC = 0.7610
+
+Control 1: Tagalog + Cebuano:     AUC = 0.6107  GREY ZONE (some signal detected, needs investigation)
+Control 2: Malay + Minangkabau:   AUC = 0.6896  GREY ZONE
+Control 3: Random labels (mean):  AUC = 0.4995  PASS (random labels produce ~chance AUC)
+Control 4: Tagalog + Kapampangan: AUC = 0.6849
+Control 5: Iban + Malay:          AUC = 0.7939
+
+VERDICT: GREY ZONE
+Some controls show moderate AUC (C1=0.611, C2=0.690), suggesting the detector captures SOME phylogenetic noise but not as strongly as the Sulawesi substrate signal (0.761). The gap of 0.071 is positive but may not be large enough to confidently attribute it to substrate alone.

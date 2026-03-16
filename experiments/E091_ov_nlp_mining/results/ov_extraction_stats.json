@@ -1,0 +1,293 @@
+{
+  "experiment": "E091",
+  "title": "Automated NLP Extraction from OV Colonial Reports",
+  "date": "2026-03-16",
+  "input": {
+    "n_volumes": 16,
+    "volumes": [
+      "OV_1912",
+      "OV_1914",
+      "OV_1916",
+      "OV_1917",
+      "OV_1918",
+      "OV_1919",
+      "OV_1920",
+      "OV_1921",
+      "OV_1922",
+      "OV_1923",
+      "OV_1924",
+      "OV_1925",
+      "OV_1926",
+      "OV_1927",
+      "OV_1928",
+      "OV_1929"
+    ],
+    "total_lines": 5927009
+  },
+  "extraction_totals": {
+    "total_mentions": 22162,
+    "depth_numeric": 26,
+    "burial_qualitative": 260,
+    "volcanic": 742,
+    "sites": 6932,
+    "materials": 9238,
+    "locations": 4933,
+    "cooccurrence_2plus": 12968,
+    "high_value_3plus": 4820
+  },
+  "unique_paragraphs": {
+    "with_depth": 23,
+    "with_volcanic": 613,
+    "with_cooccurrence": 3015
+  },
+  "depth_stats": {
+    "n_values": 26,
+    "min_m": 0.0,
+    "max_m": 60.0,
+    "mean_m": 5.64
+  },
+  "volcano_distribution": {
+    "mountain": 175,
+    "tephra": 166,
+    "ijen": 128,
+    "dieng": 76,
+    "lahar": 39,
+    "kelud": 21,
+    "eruption": 20,
+    "lamongan": 17,
+    "tengger": 14,
+    "welirang": 12,
+    "crater": 10,
+    "lava": 9,
+    "wilis": 9,
+    "ungaran": 8,
+    "merapi": 8,
+    "lawu": 5,
+    "slamet": 5,
+    "ringgit": 4,
+    "general": 4,
+    "semeru": 4,
+    "arjuno": 3,
+    "merbabu": 2,
+    "bromo": 2,
+    "raung": 1
+  },
+  "volume_stats": {
+    "OV_1912": {
+      "n_paragraphs": 427,
+      "n_chars": 160835,
+      "n_mentions": 687,
+      "categories": {
+        "volcanic": 20,
+        "location": 134,
+        "site": 283,
+        "material": 245,
+        "depth": 3,
+        "burial": 2
+      }
+    },
+    "OV_1914": {
+      "n_paragraphs": 1054,
+      "n_chars": 281180,
+      "n_mentions": 1409,
+      "categories": {
+        "volcanic": 37,
+        "location": 596,
+        "site": 269,
+        "material": 474,
+        "burial": 29,
+        "depth": 3,
+        "dimension": 1
+      }
+    },
+    "OV_1916": {
+      "n_paragraphs": 568,
+      "n_chars": 241665,
+      "n_mentions": 1025,
+      "categories": {
+        "site": 420,
+        "material": 350,
+        "location": 213,
+        "volcanic": 34,
+        "burial": 6,
+        "dimension": 2
+      }
+    },
+    "OV_1917": {
+      "n_paragraphs": 713,
+      "n_chars": 233191,
+      "n_mentions": 1201,
+      "categories": {
+        "volcanic": 35,
+        "location": 267,
+        "site": 469,
+        "material": 407,
+        "burial": 17,
+        "dimension": 6
+      }
+    },
+    "OV_1918": {
+      "n_paragraphs": 698,
+      "n_chars": 200239,
+      "n_mentions": 880,
+      "categories": {
+        "volcanic": 33,
+        "location": 184,
+        "material": 329,
+        "site": 327,
+        "burial": 5,
+        "dimension": 2
+      }
+    },
+    "OV_1919": {
+      "n_paragraphs": 899,
+      "n_chars": 249513,
+      "n_mentions": 1147,
+      "categories": {
+        "volcanic": 86,
+        "location": 212,
+        "material": 514,
+        "site": 327,
+        "burial": 7,
+        "dimension": 1
+      }
+    },
+    "OV_1920": {
+      "n_paragraphs": 918,
+      "n_chars": 343459,
+      "n_mentions": 1775,
+      "categories": {
+        "site": 684,
+        "material": 643,
+        "location": 361,
+        "volcanic": 60,
+        "burial": 25,
+        "depth": 2
+      }
+    },
+    "OV_1921": {
+      "n_paragraphs": 1383,
+      "n_chars": 469551,
+      "n_mentions": 1184,
+      "categories": {
+        "location": 298,
+        "site": 315,
+        "material": 530,
+        "volcanic": 29,
+        "burial": 12
+      }
+    },
+    "OV_1922": {
+      "n_paragraphs": 1044,
+      "n_chars": 375762,
+      "n_mentions": 1328,
+      "categories": {
+        "location": 263,
+        "material": 634,
+        "site": 385,
+        "volcanic": 38,
+        "burial": 8
+      }
+    },
+    "OV_1923": {
+      "n_paragraphs": 1663,
+      "n_chars": 469619,
+      "n_mentions": 2186,
+      "categories": {
+        "material": 828,
+        "location": 775,
+        "site": 486,
+        "volcanic": 68,
+        "burial": 18,
+        "dimension": 9,
+        "depth": 2
+      }
+    },
+    "OV_1924": {
+      "n_paragraphs": 1395,
+      "n_chars": 439234,
+      "n_mentions": 1853,
+      "categories": {
+        "location": 377,
+        "site": 620,
+        "burial": 25,
+        "material": 787,
+        "dimension": 1,
+        "volcanic": 41,
+        "depth": 2
+      }
+    },
+    "OV_1925": {
+      "n_paragraphs": 1299,
+      "n_chars": 505636,
+      "n_mentions": 1570,
+      "categories": {
+        "location": 342,
+        "site": 486,
+        "volcanic": 64,
+        "material": 644,
+        "burial": 28,
+        "depth": 6
+      }
+    },
+    "OV_1926": {
+      "n_paragraphs": 314,
+      "n_chars": 146798,
+      "n_mentions": 1,
+      "categories": {
+        "material": 1
+      }
+    },
+    "OV_1927": {
+      "n_paragraphs": 1297,
+      "n_chars": 501038,
+      "n_mentions": 1748,
+      "categories": {
+        "location": 237,
+        "site": 765,
+        "material": 632,
+        "volcanic": 73,
+        "burial": 38,
+        "dimension": 3
+      }
+    },
+    "OV_1928": {
+      "n_paragraphs": 2527,
+      "n_chars": 676048,
+      "n_mentions": 2086,
+      "categories": {
+        "site": 532,
+        "location": 345,
+        "material": 1131,
+        "volcanic": 42,
+        "depth": 5,
+        "burial": 26,
+        "dimension": 5
+      }
+    },
+    "OV_1929": {
+      "n_paragraphs": 1866,
+      "n_chars": 633241,
+      "n_mentions": 2082,
+      "categories": {
+        "location": 329,
+        "site": 564,
+        "material": 1089,
+        "volcanic": 82,
+        "burial": 14,
+        "dimension": 1,
+        "depth": 3
+      }
+    }
+  },
+  "ds1_validation": {
+    "total_ds1": 52,
+    "found": 49,
+    "coverage_pct": 94.2,
+    "missing": [
+      "Submerged city at Bale Kambang",
+      "Generic buried temple observation (Krom)",
+      "Bastion excavation (6m+ without floor)"
+    ]
+  }
+}

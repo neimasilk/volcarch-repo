@@ -1,0 +1,33 @@
+E082: DHARMA Inscription Georeferencing — Summary
+=======================================================
+
+Input: 268 DHARMA inscriptions from E074
+Geocoded: 182 (67.9%)
+
+Geocoding methods:
+  known_location: 173
+  candi_match: 7
+  xml_provenance: 2
+
+Confidence levels:
+  medium: 89
+  high: 88
+  low: 5
+
+Overall distance to nearest volcano:
+  Mean:   57.7 km
+  Median: 27.6 km
+
+Java/Bali subset (N=175):
+  Mean:   25.5 km
+  Median: 27.6 km
+
+Distance zones (Java/Bali):
+  Zone A (0-10 km):  22 (13%)
+  Zone B (10-30 km): 115 (66%)
+  Zone C (>30 km):   38 (22%)
+
+Comparison with E065 Candi data:
+  Candi mean distance:       16.5 km (N=142)
+  Inscription mean distance: 25.5 km (N=175)
+  Inscriptions are 9.0 km farther from volcanoes

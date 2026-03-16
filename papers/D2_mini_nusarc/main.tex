@@ -1,0 +1,259 @@
+% D2: Mini-NusaRC — Archaeological Site Database for Island Southeast Asia
+% Target: Journal of Open Archaeology Data (JOAD)
+% APC: £374 (waiver requested)
+% Format: max 5,000 words including bibliography
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{url}
+
+\title{Mini-NusaRC: A Georeferenced Archaeological Site Database for Island Southeast Asia and Madagascar (1,200--1,600,000 BP)}
+
+\author{Mukhlis Amien\\
+\small Department of Computer Science, Universitas Muhammadiyah Malang\\
+\small ORCID: 0000-0002-1848-167X\\
+\small \texttt{mukhlis.amien@umm.ac.id}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Island Southeast Asia (ISEA) hosts one of the world's richest records of human evolution and dispersal, yet no standardized, georeferenced database of dated archaeological sites exists for the region. We present Mini-NusaRC (Nusantaran Radiocarbon and Chronometric database), a compilation of 80 archaeological sites from eight geographic regions spanning Indonesia, Malaysia, the Philippines, Timor-Leste, and Madagascar. Each record includes site coordinates (WGS84), chronometric age, dating method, site type classification, hominin species association, cultural period, and bibliographic provenance. Sites range from 1,200 BP (historical Austronesian settlements) to 1,600,000 BP (\textit{Homo erectus} localities in Java), covering five hominin species and seven dating methods. The database is designed for comparative analyses of site discovery patterns across volcanic and non-volcanic landscapes, but has broad reuse potential for biogeographic, paleoecological, and dispersal research in ISEA. Mini-NusaRC is intended as a seed dataset for a comprehensive Nusantaran chronometric database and is deposited on Zenodo under CC BY 4.0.
+
+\noindent \textbf{Keywords:} Island Southeast Asia, archaeological database, radiocarbon, hominin dispersal, volcanic taphonomy, site distribution, geochronology
+\end{abstract}
+
+\section{(1) Overview}
+
+\subsection{Context}
+
+Island Southeast Asia (ISEA) --- encompassing modern Indonesia, the Philippines, Malaysia (Borneo), and Timor-Leste --- is a critical region for understanding hominin dispersal, modern human migration, and Austronesian expansion \citep{bellwood2007prehistory}. The region's archaeological record spans over 1.5 million years, from the earliest \textit{Homo erectus} sites on Java to historical-period trade networks \citep{simanjuntak2002, sémah2014java}.
+
+Despite the richness of this record, researchers face a fundamental data infrastructure gap: there is no standardized, georeferenced database of dated archaeological sites for ISEA. Existing resources are either regional (focused on single countries or sub-regions), temporal (focused on specific periods), or scattered across individual excavation reports in local-language journals with limited digital availability.
+
+This gap impedes comparative analyses that require standardized data across regions and time periods --- for example, testing whether volcanic activity systematically biases site preservation \citep{amien2026taphonomic}, modeling Austronesian dispersal routes, or mapping the geographic distribution of dating gaps.
+
+Mini-NusaRC addresses this gap by providing a curated, georeferenced compilation of 80 archaeological sites across eight geographic regions, with standardized fields for chronometric dating, site classification, and species association. The database is designed as a ``seed dataset'' --- a structured foundation that can be expanded into a comprehensive Nusantaran chronometric database.
+
+\subsection{Spatial coverage}
+
+\begin{itemize}
+    \item \textbf{Description:} Island Southeast Asia (Indonesia, Malaysia, Philippines, Timor-Leste) and Madagascar
+    \item \textbf{Northern boundary:} $17.50^{\circ}$N (Cagayan Valley, Philippines)
+    \item \textbf{Southern boundary:} $23.10^{\circ}$S (Taolambiby, Madagascar)
+    \item \textbf{Western boundary:} $44.50^{\circ}$E (Taolambiby, Madagascar)
+    \item \textbf{Eastern boundary:} $134.20^{\circ}$E (Kria Cave, Aru Islands)
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\small
+\caption{Regional coverage of Mini-NusaRC}
+\begin{tabular}{llrl}
+\toprule
+\textbf{Region} & \textbf{Countries} & \textbf{Sites} & \textbf{Volcanic context} \\
+\midrule
+Java & Indonesia & 19 & High ({$>$}140 volcanoes) \\
+Sulawesi & Indonesia & 18 & Moderate (active N/S arms) \\
+Nusa Tenggara & Indonesia, Timor-Leste & 12 & High (Flores--Banda arc) \\
+Kalimantan & Indonesia, Malaysia & 8 & None (non-volcanic control) \\
+Sumatra & Indonesia, Malaysia & 7 & High (Sumatran arc + Toba) \\
+Philippines & Philippines & 6 & High (Philippine arc) \\
+Maluku & Indonesia & 5 & Moderate (Banda arc) \\
+Madagascar & Madagascar & 5 & None (non-volcanic control) \\
+\midrule
+\textbf{Total} & \textbf{5 countries} & \textbf{80} & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Temporal coverage}
+
+\begin{itemize}
+    \item \textbf{Start date:} 1,600,000 BP (Sangiran, Java --- \textit{H. erectus})
+    \item \textbf{End date:} 1,200 BP (Antsirabe, Madagascar --- Austronesian settlement)
+\end{itemize}
+
+The database covers all major archaeological periods: Lower Paleolithic (16 sites), Upper Paleolithic (33), Mesolithic (18), Neolithic (5), Metal Age (4), and Historical (4).
+
+\subsection{Species coverage}
+
+Mini-NusaRC records five hominin species:
+\begin{itemize}
+    \item \textit{Homo sapiens} (64 sites, 80\%)
+    \item \textit{Homo erectus} (8 sites, 10\%) --- Java and Sulawesi
+    \item \textit{Homo floresiensis} (3 sites, 3.75\%) --- Flores
+    \item \textit{Homo luzonensis} (1 site, 1.25\%) --- Luzon, Philippines \citep{détroit2019luzon}
+    \item Unknown (4 sites, 5\%) --- stone tool associations without hominin remains
+\end{itemize}
+
+\section{(2) Methods}
+
+\subsection{Steps}
+
+\textbf{Step 1: Seed compilation (v1, 41 sites).} An initial dataset was compiled from sites documented in the VOLCARCH research project \citep{amien2026taphonomic}, drawn from high-profile publications in \textit{Nature}, \textit{Science}, \textit{Journal of Human Evolution}, and regional journals.
+
+\textbf{Step 2: Literature harvest (v2, 48 sites).} Additional sites were harvested from published radiocarbon compilations, systematic reviews of ISEA archaeology, and open-access publications. Seven Sulawesi and Kalimantan sites were added.
+
+\textbf{Step 3: Systematic expansion (v3, 80 sites).} A targeted expansion added 32 sites to address regional gaps (Sumatra: 2$\rightarrow$7; Philippines: 3$\rightarrow$6; Nusa Tenggara: 7$\rightarrow$12) and include key sites for volcanic taphonomic analysis (e.g., Perning/Mojokerto child in volcanic deposits \citep{swisher1994mojokerto}, Kota Tampan sealed by Toba ash, Paso in Tondano caldera).
+
+\textbf{Step 4: Georeferencing.} All sites were georeferenced in WGS84 using published coordinates. Where publications provided only locality descriptions, coordinates were estimated from published maps and Google Earth.
+
+\subsection{Sampling strategy}
+
+Mini-NusaRC prioritizes well-documented sites with secure chronometric dates and clear provenance. The database does not aim for comprehensive coverage but for balanced representation across the eight target regions, with minimum thresholds of 3--8 sites per region to enable inter-regional comparisons.
+
+\subsection{Quality control}
+
+\begin{enumerate}
+    \item \textbf{Source verification:} Each entry was verified against the cited publication. Only sites with published chronometric dates or well-established biostratigraphic ages were included.
+    \item \textbf{Coordinate verification:} Coordinates were cross-checked against published site maps and Google Earth imagery.
+    \item \textbf{Confidence assessment:} Each entry was assigned a confidence level (high/medium/low) based on dating precision, publication venue, and coordinate accuracy.
+\end{enumerate}
+
+\subsection{Constraints}
+
+\begin{enumerate}
+    \item The database is biased toward well-published, high-profile sites in \textit{Nature} and \textit{Science}; less prominent sites in local-language journals are underrepresented.
+    \item Most coordinates are approximate ($\pm$1--10 km), sufficient for regional but not fine-grained spatial analysis.
+    \item The database mixes different dating methods; cross-method age comparisons require caution.
+\end{enumerate}
+
+\section{(3) Dataset Description}
+
+\subsection{Object name}
+
+Mini-NusaRC (Nusantaran Radiocarbon and Chronometric database) v3.
+
+\subsection{Data type}
+
+Secondary data compiled from published archaeological literature.
+
+\subsection{Format names and versions}
+
+CSV (UTF-8), compatible with any spreadsheet, statistical, or GIS software.
+
+\subsection{Creation dates}
+
+Start date: 2026-02-01. End date: 2026-03-13.
+
+\subsection{Dataset creators}
+
+Mukhlis Amien, Department of Computer Science, Universitas Muhammadiyah Malang, Indonesia.
+
+\subsection{Language}
+
+English.
+
+\subsection{License}
+
+CC BY 4.0
+
+\subsection{Repository location}
+
+\begin{itemize}
+    \item \textbf{Zenodo:} [DOI to be assigned upon deposit]
+    \item \textbf{GitHub:} \url{https://github.com/neimasilk/volcarch}
+\end{itemize}
+
+\subsection{Publication date}
+
+2026
+
+\subsection{File description}
+
+The dataset is provided as a single CSV file (\texttt{mini\_nusarc\_v3.csv}) with 80 records and 17 fields:
+
+\begin{table}[h]
+\centering
+\small
+\caption{Mini-NusaRC field descriptions}
+\begin{tabular}{llp{6.5cm}}
+\toprule
+\textbf{Field} & \textbf{Type} & \textbf{Description} \\
+\midrule
+site\_id & string & Unique identifier (NUSARC-NNNN) \\
+site\_name & string & Published site name \\
+lat & float & Latitude (WGS84) \\
+lon & float & Longitude (WGS84) \\
+coord\_precision & string & ``exact'' / ``approximate'' / ``regional'' \\
+region & string & Geographic region (one of 8) \\
+country & string & ISO 3166-1 alpha-2 code \\
+date\_bp & integer & Age in years before present \\
+date\_type & string & Dating method \\
+date\_error & integer & Age uncertainty ($\pm$ years) \\
+site\_type & string & Depositional context category \\
+context\_detail & string & Free-text site description \\
+cultural\_period & string & Archaeological period \\
+species & string & Associated hominin species \\
+source\_citation & string & Primary literature reference \\
+confidence & string & ``high'' / ``medium'' / ``low'' \\
+notes & string & Additional observations \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Dataset summary}
+
+\begin{itemize}
+    \item Total sites: 80
+    \item Sites with coordinates: 80 (100\%)
+    \item Countries: 5 (Indonesia, Malaysia, Philippines, Timor-Leste, Madagascar)
+    \item Regions: 8
+    \item Date range: 1,200--1,600,000 BP
+    \item Dating methods: 7 (C14: 45, U-series: 14, relative: 12, luminescence: 4, Ar-Ar: 2, fission track: 1, laser ablation: 1)
+    \item Hominin species: 5 (\textit{H. sapiens}: 64, \textit{H. erectus}: 8, \textit{H. floresiensis}: 3, unknown: 4, \textit{H. luzonensis}: 1)
+    \item Site types: cave (43), open air (20), river terrace (9), rockshelter (8)
+    \item Confidence: high (39), medium (40), low (1)
+\end{itemize}
+
+\section{(4) Reuse Potential}
+
+\textbf{Volcanic taphonomy.} The database enables testing whether volcanic landscapes systematically bias the archaeological record. The cave-to-open-air ratio can be compared between volcanic regions (Java, Sumatra, Flores) and non-volcanic controls (Kalimantan, Madagascar), providing quantitative data for the ``Taphonomic Overprint Model'' \citep{amien2026taphonomic}.
+
+\textbf{Hominin dispersal.} Mini-NusaRC includes key sites for multiple hominin species across ISEA. The spatial and temporal distribution of \textit{H. erectus} (Java), \textit{H. floresiensis} (Flores), \textit{H. luzonensis} (Luzon), and early \textit{H. sapiens} sites provides a framework for dispersal modeling \citep{détroit2019luzon, brumm2010flores}.
+
+\textbf{Austronesian archaeology.} The inclusion of Madagascar alongside ISEA source regions enables comparative analysis of settlement patterns during the Austronesian expansion ($\sim$4,000--1,000 BP).
+
+\textbf{Biogeography.} The standardized spatial and temporal data support analyses of Pleistocene biogeographic corridors (Sundaland, Wallacea, Sahulland) and late Quaternary environmental change.
+
+\textbf{Gap analysis.} The database makes visible geographic and temporal gaps in ISEA archaeological coverage. Sumatra (the 6th largest island in the world) is represented by only 7 sites, suggesting severe undersampling rather than genuine absence of human occupation.
+
+\subsection{Known limitations}
+
+\begin{enumerate}
+    \item \textbf{Sample size:} At 80 sites, Mini-NusaRC is preliminary. A comprehensive database would require 500+ entries with individual radiocarbon dates.
+    \item \textbf{Site-level aggregation:} Each record represents a site, not an individual date. Multi-layer sites (e.g., Niah Cave with 40,000+ years of stratigraphy) are represented by a single entry with the oldest date.
+    \item \textbf{Regional imbalance:} Sulawesi (18) and Java (19) are better represented than Sumatra (7) or Maluku (5), reflecting research intensity rather than archaeological reality.
+\end{enumerate}
+
+\subsection{Expansion roadmap}
+
+Mini-NusaRC is designed as a seed for a comprehensive NusaRC database. Planned expansions include: (1) individual radiocarbon dates rather than site-level entries (target: 500+ dates); (2) calibrated age ranges using IntCal20; (3) volcanic proximity metrics (distance to nearest active volcano, Taphonomic Activity Pressure index); (4) expansion to mainland Southeast Asia and Oceania; and (5) a community contribution protocol with standardized quality control.
+
+\section*{Acknowledgments}
+
+Site data are drawn from published literature cited in the \texttt{source\_citation} field. AI-assisted text processing (Claude, Anthropic) was used for literature search, data structuring, and quality checks under human supervision.
+
+\section*{Competing interests}
+
+The author declares no competing interests.
+
+\section*{Funding information}
+
+This research received no external funding.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

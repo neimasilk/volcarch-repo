@@ -1,0 +1,15 @@
+metric,japan,indonesia,ratio,notes
+registered_sites,460000,1500,307x,Japan: NABUNKEN; Indonesia: estimate
+excavations_per_year,8700,70,124x,Japan: rescue+research; Indonesia: estimate
+archaeologists,6250,350,18x,Professional archaeologists
+field_workers,35000,1000,35x,All field personnel
+published_reports,125000,750,167x,
+site_density_per_pop_km2,3.6,0.003,1200x,
+gdp_per_capita_usd,32476,4925,6.6x,
+sedimentation_rate_mm_yr,0.14,4.44,Java 32x higher,Japan background vs Java sustained mean
+heritage_law_year,1950,2010,60yr gap,
+developer_pays_excavation,Yes,No,N/A,
+municipal_archaeology_teams,Yes,No,N/A,
+active_volcanoes,111,127,0.87x,Similar count but different density
+annual_rainfall_volcanic_zones_mm,1600,2500,1.6x,
+peak_rainfall_intensity_mm_hr,26,40,1.5x,Lahar triggering threshold

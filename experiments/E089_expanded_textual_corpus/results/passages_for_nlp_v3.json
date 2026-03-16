@@ -1,0 +1,744 @@
+[
+  {
+    "ref_id": "CHEM-001",
+    "tradition": "CHEMICAL",
+    "date_ce": -594,
+    "passage_text": "Vessel 5 (inscribed 'antiu'): GC-MS identified triterpenoids diagnostic of Dipterocarpaceae (dammar) resin. Vessel 62: Canarium sp. (elemi) resin identified via oleanane/ursane-type triterpenoids. Both taxa are restricted to Southeast Asia and tropical Africa/Asia respectively.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-002",
+    "tradition": "CHEMICAL",
+    "date_ce": -1700,
+    "passage_text": "Charred clove buds (Syzygium aromaticum) recovered from a domestic context at Tell Ashara (ancient Terqa), middle Euphrates, Syria. Radiocarbon dating places the context in the early 2nd millennium BCE.",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "CHEM-003",
+    "tradition": "CHEMICAL",
+    "date_ce": -1050,
+    "passage_text": "Archaeobotanical evidence for introduction of coconut (Cocos nucifera), banana (Musa spp.), taro (Colocasia esculenta), and sandalwood (Santalum album) to South India and Sri Lanka. Outrigger boat (katamaran < Tamil kattumaram) technology appears simultaneously.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-004",
+    "tradition": "CHEMICAL",
+    "date_ce": -1000,
+    "passage_text": "Cinnamomum verum (Sri Lanka) and C. cassia (South China/Vietnam) identified in Egyptian contexts. Papyrus Harris I (Ramesses III, ~1155 BCE) lists 'ti-sps' among temple offerings. Herodotus (Hist. 3.111) describes cinnamon harvested from 'great birds' nests' — classic intermediary obfuscation of source.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHEM-005",
+    "tradition": "CHEMICAL",
+    "date_ce": 50,
+    "passage_text": "Excavations at Berenike (Egyptian Red Sea port) yielded black pepper (Piper nigrum, South India), coconut shell fragments, teak (Tectona grandis, SE Asia), and a Tamil-Brahmi potsherd. The teak in particular is significant: Tectona grandis is native to Java, Myanmar, and peninsular India.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-006",
+    "tradition": "CHEMICAL",
+    "date_ce": 930,
+    "passage_text": "Intan shipwreck (Java Sea, ~930 CE): SE Asian vessel carrying Chinese ceramics, tin ingots, bronze mirrors, and aromatic resins. Belitung wreck (~830 CE): Arab dhow carrying 60,000+ Chinese ceramics — largest Tang dynasty cargo ever found. Both confirm massive maritime trade through Indonesian waters.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "GRK-001",
+    "tradition": "GREEK",
+    "date_ce": -235,
+    "passage_text": "Eratosthenes describes the inhabited world extending from the Pillars of Heracles to the eastern extremity where Chryse (χρυσῆ, 'golden') and Argyre (ἀργυρῆ, 'silver') islands lie. Strabo (15.1.14) preserves: 'Beyond the mouths of the Ganges... the region of Chryse.'",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "GRK-002",
+    "tradition": "GREEK",
+    "date_ce": 50,
+    "passage_text": "§60: 'After Chryse there is a river called the Ganges... Beyond this [river], close to the ocean at the very end of the inhabited world towards the east, lying directly under the rising sun itself, there is a place called Chryse.' §63: 'The last part of the inhabited world toward the east, under the rising sun itself... Chryse... there is a very great inland city called Thina [= China], from which raw silk and silk thread and silk cloth are brought on foot... It is not easy to get to this Thina; for rarely do people come from it, and only a few.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "GRK-003",
+    "tradition": "GREEK",
+    "date_ce": 150,
+    "passage_text": "VII.2: 'The Golden Peninsula (Χρυσῆ Χερσόνησος) extends south from [coordinates]... Sabara emporium, Perimula, Kole.' VII.2.5: 'The island of Iabadiu (Ἰαβαδίου), which means Island of Barley, is said to produce much gold.' VII.2.29: 'Argyre [Silver City] at the western point.' Coordinates given: Iabadiu at roughly 8°S 118°E (reconstructed).",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "GRK-004",
+    "tradition": "GREEK",
+    "date_ce": 110,
+    "passage_text": "Marinus compiled sailing directions and distances to eastern lands. Ptolemy (I.11): 'Marinus says the distance from the Stone Tower to Sera [China] is... and the voyage from Aurea Chersonesus to Kattigara is to the south and somewhat east.' Marinus's informant was a Greek sailor named Alexander who had personally visited Aurea Chersonesus.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ROM-001",
+    "tradition": "ROMAN",
+    "date_ce": 77,
+    "passage_text": "VI.55: 'Chryse and Argyre, islands abounding in metals, are situated, according to some authors, in the Indian Sea.' XII.41: 'India is the nearest to us of those lands which produce cinnamon.' XII.84: 'The most esteemed [camphor] comes from the island of Borneo.' (actually a later interpolation?) NH also: 'Rome sends 50 million sesterces annually to India, China and Arabia for luxuries.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ROM-002",
+    "tradition": "ROMAN",
+    "date_ce": 43,
+    "passage_text": "III.70: 'Beyond the Ganges, the coast turns south... there lies Chryse and Argyre, one rich in gold, the other in silver. The soil of Chryse is of gold, whence the name.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-P01",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -350,
+    "passage_text": "The Bodhisattva as the blind navigator Supparaka guides merchants through perilous seas. They pass the Sea of Kusamala (bamboo), Sea of Nalakamala (reeds), Sea of Daddhamala (curds — white foam), and reach the Sea of Gold (suvannamaya-vālikā). 'They saw the ocean as if boiling, and it was gold-colored.' The merchants fill their ship with gold and jewels.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-P02",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -350,
+    "passage_text": "Merchants from Jambudvipa sail to Baveru (= Babylon). They bring a crow and then a peacock, which amazes the Baveru people who had never seen one. The peacock is worshipped. Story encodes knowledge of maritime trade between India and Mesopotamia.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-P03",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -350,
+    "passage_text": "Sankha the Brahmin sails to Suvannabhumi to trade. He accumulates great wealth. 'Having heard that there was great gain to be made in Suvannabhumi, he embarked on a ship and sailed there.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-P04",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -300,
+    "passage_text": "Prince Mahajanaka sails to Suvannabhumi on a merchant vessel. A storm sinks the ship. 'Seven hundred men were aboard that ship bound for Suvannabhumi.' Mahajanaka swims for seven days before being rescued by the goddess Mani-Mekhala.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-P05",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -100,
+    "passage_text": "In a discussion about trade, the text lists destinations of merchant voyages: 'Merchants go to Vanga, Takkola, China, Sovira, Surat, Alexandria, the Koromandel coast, Suvannabhumi, and other places.'",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-P06",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -250,
+    "passage_text": "Ashoka sends his son Mahinda and daughter Sanghamitta as Buddhist missionaries. Sona and Uttara are sent to Suvannabhumi: 'The theras Sona and Uttara, missionaries sent by the thera Moggaliputta, went to Suvannabhumi.' They establish Buddhism there.",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "IND-S01",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -300,
+    "passage_text": "Sugriva instructs the monkey search party: 'Search Yavadvipa, adorned with seven kingdoms, the Island of Gold and Silver, rich in gold mines. Beyond Yavadvipa is Mount Shishira, whose peak touches the sky.' (yavadvīpam atikramya śiśiraṃ nāma parvatam)",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-S02",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -300,
+    "passage_text": "Lists trade goods and their origins. Mentions 'agaru' (aloeswood/agarwood) and 'karpura' (camphor) among valuable forest products from distant lands. Camphor from 'the islands' is classified as superior grade.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-S03",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -200,
+    "passage_text": "In the Digvijaya (conquest of the directions), Pandava warriors reach Yavadvipa and Suvarnadvipa among their conquests of distant lands. Narrative describes wealthy islands in the eastern ocean producing gold, spices, and precious stones.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-S04",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": 1070,
+    "passage_text": "Multiple stories describe merchants sailing to Suvarnadvipa and the islands of the eastern sea. Includes tale of a merchant who sails to Kataha (Kedah) and proceeds to the spice islands. Rich descriptions of camphor, sandalwood, cloves, and gold trade.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-001",
+    "tradition": "CHINESE",
+    "date_ce": 130,
+    "passage_text": "Records an embassy from 'Shan' (掸) or Rinan (日南) to the Han court in 131 CE bringing performers and rhinoceros. Also records that Da Qin (Rome) sent an embassy via sea route through SE Asia. 'The king of Tianzhu [India] sent envoys to present... coming by the sea route via Ye-tiao [Java/Sumatra?].'",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "CHN-002",
+    "tradition": "CHINESE",
+    "date_ce": 264,
+    "passage_text": "Describes Ye-po-ti (耶婆提): 'The country of Ye-po-ti is in the sea... The people are short and dark... They use iron swords and copper instruments. Their boats have outriggers on both sides.' Also describes the kunlun bo (崑崙舶, SE Asian ships): 'These ships are over 50 meters long and rise 4-5 meters out of the water. They carry 600-700 persons and 10,000 bushels of cargo.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHN-003",
+    "tradition": "CHINESE",
+    "date_ce": 414,
+    "passage_text": "Faxian returns from India by sea via Sri Lanka: 'Embarking in a large merchant ship, we sailed with the first fair wind for Ye-po-ti. The voyage took about 90 days. We stayed there for 5 months waiting for the northeast monsoon. Then we sailed for Canton. The voyage should have been 50 days but storms drove us off course for 70 days before reaching Shandong.'",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-004",
+    "tradition": "CHINESE",
+    "date_ce": 520,
+    "passage_text": "Records embassies from multiple SE Asian kingdoms to the Liang court: Poli 婆利 (Bali?), Dandan 丹丹 (Kelantan?), Langkasuka 狼牙修 (Kedah/Pattani), Panpan 盤盤 (Malay Peninsula). Describes products: camphor, tortoiseshell, gold, rhinoceros horn. Mentions Buddhist practice in several kingdoms.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHN-005",
+    "tradition": "CHINESE",
+    "date_ce": 689,
+    "passage_text": "Yijing visits Srivijaya (Shi-li-fo-shi 室利佛逝) and describes it as major Buddhist learning center: 'In the fortified city of Bhoga [Palembang], there are more than 1,000 Buddhist monks. Their rules and ceremonies are the same as in India. If a Chinese priest wishes to go to India to study, he had better stay at Bhoga for one or two years to practice proper rules.'",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-006",
+    "tradition": "CHINESE",
+    "date_ce": 430,
+    "passage_text": "Records embassy from Holotan (訶羅單, = Kalingga or Taruma?) in 430 CE, and Shepo (闍婆 = Java) in 433 CE. Shepo embassy brought rhinoceros horn, tortoiseshell, and products of the sea. Also records embassy from Linyi (Champa) and Funan (Cambodia).",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHN-007",
+    "tradition": "CHINESE",
+    "date_ce": 607,
+    "passage_text": "Describes Chitu 赤土 (Red Earth = Kelantan?): 'The king sits on a golden couch shaped like a dragon... The walls of the palace are adorned with gold and silver. There are Buddhist temples and Brahmanical hermitages.' Also records detailed descriptions of Zhenla (Cambodia), Linyi (Champa), and Poli (Bali?).",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ARB-001",
+    "tradition": "ARAB",
+    "date_ce": 851,
+    "passage_text": "Describes Zabaj (الزابج = Java/Srivijaya): 'The king of Zabaj... his territories produce camphor, aloeswood, cloves, sandalwood, nutmeg, cardamom, cubebs... The ships of the Chinese come to trade there. It takes about a month to cross the territory of Zabaj.' Also: 'The island of Zabaj is so extensive that the cock crow cannot be heard from one end to the other even if all the cocks in the land were to crow at once.'",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-002",
+    "tradition": "ARAB",
+    "date_ce": 947,
+    "passage_text": "Describes the Maharaja of Zabaj as 'the greatest king of the islands': 'His authority extends over the islands... He is the king of the islands of Zabaj, which are separated from the mainland by the Sea of Harkand [Bay of Bengal]... Among the wonders of his kingdom is the island of Kalah [Kedah]... There are many kingdoms in these islands, countless in number.'",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-003",
+    "tradition": "ARAB",
+    "date_ce": 846,
+    "passage_text": "Lists the products of the eastern islands: 'From the land of camphor [Fansur/Barus] comes the finest camphor. From the land of Sila [Srivijaya?] comes gold and tin. From the lands beyond come cloves and nutmeg.' Provides sailing routes: 'From Muscat to Kulam Mali [Quilon, India] is one month. From Kulam Mali to Kalah [Kedah] is one month. From Kalah to Zabaj is one month.'",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-004",
+    "tradition": "ARAB",
+    "date_ce": 953,
+    "passage_text": "Collection of sailors' tales from the Indian Ocean. Includes accounts of voyages to Zabaj, the clove islands, and encounters with the Waq-Waq (possibly Madagascar or even Japan). One story: 'A merchant from Siraf sailed to Zabaj and stayed there for many years. He said: I never saw so many ships in one place, nor such abundance of gold.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "TAM-001",
+    "tradition": "TAMIL",
+    "date_ce": 150,
+    "passage_text": "Describes the port of Puhar (Kaveripattinam): 'Ships from beyond the sea came with pepper, and gold, and horses, and the fragrant things of the mountains.' Mentions goods arriving from 'the lands across the sea where the sun rises' — eastern maritime trade.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "TAM-002",
+    "tradition": "TAMIL",
+    "date_ce": 200,
+    "passage_text": "Buddhist epic describing sea voyages from Puhar. Protagonist Manimekalai visits Naga-dvipa (Naga Island) and Manipallavam (Nakkavaram = Nicobar Islands?). The goddess Manimegala protects sailors. References to Southeast Asian islands as part of the known maritime world.",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "TAM-003",
+    "tradition": "TAMIL",
+    "date_ce": 100,
+    "passage_text": "Describes a port scene: 'The great ships, tall as the height of houses... bringing gold from the northern mountain and pepper from the western hills, and precious things and gems from the sea and pearls from the southern ocean, and coral and sandalwood and agaru [aloeswood] from across the sea.'",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "LING-001",
+    "tradition": "LINGUISTIC",
+    "date_ce": -500,
+    "passage_text": "Malay 'kapur Barus' → Sanskrit 'karpūra' → Arabic 'kāfūr' → Medieval Latin 'camphora'. The loanword chain is unidirectional: Malay to Sanskrit to Arabic to Latin. This demonstrates that the product AND its name originated in Nusantara (specifically Barus, North Sumatra) and were transmitted westward through trade networks.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "LING-002",
+    "tradition": "LINGUISTIC",
+    "date_ce": 500,
+    "passage_text": "Malagasy language is classified as Southeast Barito (Borneo) with major Malay and Javanese loanword layers. 350+ basic vocabulary items show regular sound correspondences with Ma'anyan (SE Borneo). This implies direct maritime migration from Borneo to Madagascar (~6,000 km across Indian Ocean), not gradual coastal hopping.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "LING-003",
+    "tradition": "LINGUISTIC",
+    "date_ce": 200,
+    "passage_text": "Multiple Austronesian loanwords in East African coastal languages: outrigger terminology, crop names (banana, taro, coconut), musical instrument terms. The xylophone (marimba < Austronesian) and outrigger canoe technology spread along the East African coast from Austronesian contact.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "NUS-001",
+    "tradition": "NUSANTARAN",
+    "date_ce": 400,
+    "passage_text": "Seven stone pillars (yupa) in Pallava-script Sanskrit: 'Kundunga begat a son named Asvavarman... Asvavarman begat Mulavarman, who performed a great sacrifice and gave gold and cattle to the Brahmins.' Earliest Nusantaran inscription.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-002",
+    "tradition": "NUSANTARAN",
+    "date_ce": 450,
+    "passage_text": "Describes construction of a canal by King Purnavarman: 'This canal, the foremost of all canals, was ordered dug by the illustrious Purnavarman.' Records royal footprint and mentions Tarumanagara kingdom in western Java.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-003",
+    "tradition": "NUSANTARAN",
+    "date_ce": 682,
+    "passage_text": "Records a military expedition by siddhayatra (holy journey): 'On the bright 11th day of the month of Vaisakha in the Saka year 604... an army of 20,000 marched... They set out from Minanga Tamvan by boat.' First Srivijayan inscription, establishes Palembang as capital.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "GRK-005",
+    "tradition": "GREEK",
+    "date_ce": -300,
+    "passage_text": "Ambassador to the Maurya court of Chandragupta. Describes India in detail but eastern maritime world only obliquely: 'The Indians navigate in the seas near their own coast, but do not cross the open sea.' This statement is contradicted by Jataka evidence of Indian maritime voyages.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-008",
+    "tradition": "CHINESE",
+    "date_ce": -100,
+    "passage_text": "Records that Sichuan cloth (蜀布) and bamboo canes were found in Bactria (Afghanistan), apparently transported via India and an unknown southern route. Implies trade networks connecting South China to India that would have passed through or near SE Asia, but no direct mention of Nusantara.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHEM-007",
+    "tradition": "CHEMICAL",
+    "date_ce": -200,
+    "passage_text": "Excavations at Arikamedu (Tamil Nadu, India) revealed a major Indo-Roman trading port. Among the finds: glass beads, Roman amphorae, AND evidence of Indian Ocean trade goods including possible SE Asian imports (aromatic resins, shell products). The site demonstrates active Tamil maritime commerce.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-008",
+    "tradition": "CHEMICAL",
+    "date_ce": -300,
+    "passage_text": "Bronze drums of Dong Son type (North Vietnam) distributed across Nusantara: Sumatra, Java, Bali, Alor, Sangeang, Roti. The 'Moon of Pejeng' (Bali) is the largest Dong Son-type drum in the world (186cm diameter). Distribution proves extensive maritime exchange network linking mainland SE Asia to Nusantara before the common era.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "LING-004",
+    "tradition": "LINGUISTIC",
+    "date_ce": 100,
+    "passage_text": "Over 1,000 Sanskrit loanwords in Old Javanese and Old Malay, covering: governance (raja, mantri, desa), religion (dharma, karma, yoga), commerce (mudra, harga), and technology (yantra). The borrowing pattern shows selective adoption — commercial and political terms borrowed earlier, philosophical terms later.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-005",
+    "tradition": "ARAB",
+    "date_ce": 1154,
+    "passage_text": "Most detailed pre-modern geographic description of SE Asia in Arabic: 'The island of Jawa [Java] is very large... it produces rice, coconut, sugar cane, bananas, and camphor of the best quality. Gold is found there in great quantities. The king is very powerful.' Also describes Sumatra, the spice islands, and trade routes.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-004",
+    "tradition": "NUSANTARAN",
+    "date_ce": 860,
+    "passage_text": "Copper-plate inscription at Nalanda monastery (Bihar, India) by Balaputradeva: 'The illustrious Balaputradeva, Maharaja of Suvarnadvipa [Sumatra]... has built a monastery at Nalanda for monks coming from his country.' Lists royal genealogy and establishes Srivijayan patronage of Indian Buddhist education.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-005",
+    "tradition": "NUSANTARAN",
+    "date_ce": 900,
+    "passage_text": "Debt document pardoning a debt of 926.4 grams of gold. Found in Laguna de Bay, Philippines. Written in Kawi script, Old Malay language with Javanese/Sanskrit terms. Mentions 'Tondo' (Manila Bay), 'Pailah' (Paila, Bulacan), 'Medang' (Java?), and 'Srivijaya' by name.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-009",
+    "tradition": "CHINESE",
+    "date_ce": 515,
+    "passage_text": "The kingdom of Langkasuka is south of Pan-pan. Its customs are largely the same. It produces gold, silver, catechu and agarwood. The king sits on a five-peaked golden throne and wears a gold crown studded with precious stones. His attendants wear gold and jewels.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-010",
+    "tradition": "CHINESE",
+    "date_ce": 527,
+    "passage_text": "Pan-pan lies in the sea south of Funan. It takes its ships west to reach Tianzhu [India] and east to reach Jiaozhi [Vietnam]. The country produces camphor, gold, and aromatics. The people are dark-skinned and curly-haired. They go naked and barefoot. Their nature is fierce.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-011",
+    "tradition": "CHINESE",
+    "date_ce": 434,
+    "passage_text": "The kingdom of Holotan sent tribute in the 11th year of Yuanjia [434 CE]. Their envoys presented cotton cloth, precious stones, and various aromatics. The king's name was Piasheba. They again sent tribute in the 29th year [452 CE].",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "CHN-012",
+    "tradition": "CHINESE",
+    "date_ce": 815,
+    "passage_text": "Shepo [Java] is south of Zhenla [Cambodia]. From its eastern border one reaches the sea after five days. West of the country are mountains, beyond which is the kingdom of Tolomo. The soil is fertile and produces rice, cotton, and sugar cane. They have gold and silver, rhinoceros horn and ivory.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-013",
+    "tradition": "CHINESE",
+    "date_ce": 670,
+    "passage_text": "Shili Foshi [Srivijaya] was originally called Gantuoli. By water it is two days south of Mohe [Jambi]. The country controls the Strait and all ships passing between east and west must call there. The king wears a golden cap and sits on a throne with golden legs. His capital has walls of brick.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-014",
+    "tradition": "CHINESE",
+    "date_ce": 640,
+    "passage_text": "Duoluobodi [Dvaravati] lies south across the sea from Linyi [Champa]. Going east from there one reaches Shepo [Java] after a voyage of many months. The people are skilled in throwing the javelin. They produce tin, camphor, and cardamom.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHN-015",
+    "tradition": "CHINESE",
+    "date_ce": 1225,
+    "passage_text": "The kingdom of Shepo [Java] has four prefectures. The soil is rich and the people numerous. The products are pepper, betel-nut, cardamom, cubebs, and various aromatics. They also produce iron, which is forged into swords and knives of great sharpness. Ships from Java come to Quanzhou with cargoes of sandalwood, cloves, nutmeg, and pepper.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-016",
+    "tradition": "CHINESE",
+    "date_ce": 1225,
+    "passage_text": "Boni [Borneo/Brunei] produces camphor of the finest quality, the genuine longyan [dragon's brain] camphor. The camphor trees grow wild in the mountains. When the trunk is split open the camphor is found in the crevices. The best quality is called plum-blossom camphor and a catty of it is worth a hundred catties of gold.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-017",
+    "tradition": "CHINESE",
+    "date_ce": 990,
+    "passage_text": "Sanfoqi [Srivijaya] sent tribute in the third year of Chunhua [990 CE]. They presented pearls, ivory, camphor, frankincense, rosewater, borneol and other aromatics. Their ships are very large, carrying several hundred men. They control the passage between east and west.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-018",
+    "tradition": "CHINESE",
+    "date_ce": 1349,
+    "passage_text": "Majiabayi [Majapahit] is a great kingdom. Its capital has brick walls and the king's palace has a roof of red tiles. The people trade in pepper, long pepper, tin, and iron swords. Ships from Quanzhou and Zhangzhou trade there frequently. The climate is hot throughout the year.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-019",
+    "tradition": "CHINESE",
+    "date_ce": 1413,
+    "passage_text": "Shepo [Java] is a great country in the western sea. Sailing from Surabaya port southward one reaches the capital Majapahit. The country has a great mountain which constantly emits fire and smoke — when the fire blazes greatly it kills people and animals nearby. The stones that roll down destroy houses and villages.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-020",
+    "tradition": "CHINESE",
+    "date_ce": 607,
+    "passage_text": "The kingdom of Chitu [Red Land] is south of Linyi [Champa], across the sea. The soil is red, hence the name. They use Sanskrit writing. The king sits facing east on a throne. His crown is made of gold set with hundreds of precious stones. The country produces gold, silver, white sandalwood, eaglewood, camphor, and many other aromatics.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "GRK-006",
+    "tradition": "GREEK",
+    "date_ce": 150,
+    "passage_text": "Iabadiou, which means 'Island of Barley' [yava-dvipa]. It is said to be very fertile and to produce much gold. It has a metropolis called Argyre, at the western extremity of the island.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "GRK-007",
+    "tradition": "GREEK",
+    "date_ce": 150,
+    "passage_text": "After the Satyr promontory comes the Bay of Perimulicus. Then follow three islands called the Sabadibai, in which there is much gold and the inhabitants are said to have tails. Beyond these is the island of good fortune.",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "ROM-003",
+    "tradition": "ROMAN",
+    "date_ce": 77,
+    "passage_text": "Off the mouth of the Indus are two islands, Chryse and Argyre, productive of gold and silver respectively, so I believe. Authors differ as to their size and distance from the coast. Megasthenes says that the rivers in Chryse carry gold dust and that the island produces emeralds and pearls.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ROM-004",
+    "tradition": "ROMAN",
+    "date_ce": 77,
+    "passage_text": "Cinnamon and cassia come from the land of the Ethiopians but are really products brought from afar by merchants. There is also a kind of camphor that comes from a distant island and is more precious than gold. Cloves grow only in the islands of India — they resemble pepper in grain.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-P07",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -200,
+    "passage_text": "Merchants go to Suvannabhumi [Golden Land] seeking gold and gems. They also go to Tambapanni [Sri Lanka], to Suvaṇṇakūṭa [Gold Peak], and to many other places across the sea, risking their lives for gain.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-P08",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -100,
+    "passage_text": "As a merchant, O King, who has embarked upon the sea in a ship, on reaching the further shore would not, merely because he had reached the further shore, turn his ship upside down. Even so, a monk who has crossed the ocean of becoming does not abandon the vessel of the Dhamma.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-P09",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -300,
+    "passage_text": "In former times merchants from the land of India took a peacock in a ship to the land of Baveru [Babylon]. The people of Baveru had never seen a peacock. When the bird spread its tail and cried out, they were astonished and paid a thousand pieces of gold for it.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-S05",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": 550,
+    "passage_text": "The best camphor comes from the land called Karpura-dvipa [Camphor Island]. It is found in the hollow trunks of great trees. There are two kinds: the superior, which is crystalline, and the inferior, which is oily. Karpura-dvipa lies beyond the ocean.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-S06",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": 400,
+    "passage_text": "Then Raghu crossed the sea and conquered the island of Yavadvipa, which is adorned with fine grain [yava]. The islanders, though warriors, could not withstand him. Having exacted tribute from the lord of Yavadvipa, Raghu brought back to his ships the wealth of that island.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "IND-S07",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": 1070,
+    "passage_text": "The merchant Sanudasa embarked on a great ship with five hundred merchants and sailed to Suvarnadvipa [Gold Island]. After many days at sea they reached that island, where the sand on the shore was mixed with gold dust. They traded for precious stones, camphor, and cloves.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ARB-006",
+    "tradition": "ARAB",
+    "date_ce": 953,
+    "passage_text": "A merchant told me that he sailed from Oman to the land of Waqwaq beyond Zabaj [Java]. The voyage took many months. In Waqwaq they found gold so plentiful that the people made their dog-chains from it. They also traded for camphor, sandalwood, and cloves.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ARB-007",
+    "tradition": "ARAB",
+    "date_ce": 953,
+    "passage_text": "I was told by a trustworthy merchant that the maharaja of Sribuza [Srivijaya] has so much gold that every day a brick of gold is cast and thrown into the sea beside the palace. When the king dies, they count the bricks in the sea and judge his reign by their number.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ARB-008",
+    "tradition": "ARAB",
+    "date_ce": 1154,
+    "passage_text": "The island of Zabaj [Java/Sumatra] is surrounded by a number of other islands. The people are dark-skinned and go about mostly naked. Their kings are powerful and own great fleets. They produce camphor, aloes, cloves, nutmeg, and cardamom. The island has mountains that sometimes emit fire.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "ARB-009",
+    "tradition": "ARAB",
+    "date_ce": 846,
+    "passage_text": "From Kalah [Kedah] to Zabaj is a voyage of many days. Zabaj is the king of the islands. Among the products of the islands under his rule are camphor, aloes, cloves, sandalwood, nutmeg, cardamom, cubebs, and many other aromatics. The king is called the Maharaja.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-010",
+    "tradition": "ARAB",
+    "date_ce": 916,
+    "passage_text": "The Maharaja is king of many islands extending over a distance of a thousand parasangs or more. Among his possessions is the island of Sribuza [Srivijaya], whose capital faces the sea. No ship can pass without calling at this port. The Maharaja's power extends to Kalah [Kedah] in the west.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "TAM-004",
+    "tradition": "TAMIL",
+    "date_ce": 100,
+    "passage_text": "Like a merchant who has crossed the wide sea and returned home laden with gems and gold from the eastern lands, a warrior who has won victory in battle is honored by his king with gifts of wealth.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "TAM-005",
+    "tradition": "TAMIL",
+    "date_ce": 200,
+    "passage_text": "In the bazaar of Puhar were merchants from many lands. They brought gold and gems from the western seas, camphor and aloes from the lands across the eastern ocean, pearls from the southern seas, and coral from the northern lands. Horses came by ship from distant shores.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "TAM-006",
+    "tradition": "TAMIL",
+    "date_ce": 300,
+    "passage_text": "Manimekalai sailed across the sea to the land of the Nagas, where the people worshipped the Buddha and lived in cities built of stone and brick. Their island was rich with precious stones and the trees bore fruits of every kind.",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "EUR-001",
+    "tradition": "EUROPEAN",
+    "date_ce": 1292,
+    "passage_text": "Java is the greatest island in the world, having a compass of some three thousand miles. The people are idolaters. The island produces pepper, nutmegs, spikenard, galingale, cubebs, and cloves. There is great trade carried on with these products. The Great Khan never succeeded in conquering this island.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "EUR-002",
+    "tradition": "EUROPEAN",
+    "date_ce": 1292,
+    "passage_text": "When you sail from Champa 1500 miles in a south-easterly direction you come to a very large island called Java the Less [Sumatra]. There are eight kingdoms on it. The people of Ferlec [Perlak] have been converted to the law of Mahomet. In Basma [Pasaman] there are wild elephants and unicorns [rhinoceros].",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "EUR-003",
+    "tradition": "EUROPEAN",
+    "date_ce": 1321,
+    "passage_text": "I came to an island called Java, which has a circuit of more than three thousand miles. The king of the island has a great palace with a roof of gold. There grow all manner of spices: pepper, nutmegs, camphor, and all the best kinds of spices. The people are of very great stature.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "EUR-004",
+    "tradition": "EUROPEAN",
+    "date_ce": 1430,
+    "passage_text": "The island of Java Major is second in size to no island in the world. It produces nutmegs, cloves, mace, galingale, and other spices. The inhabitants are more cruel than any other people. They eat mice and cats and dogs. They also eat the flesh of men taken in battle.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "EUR-005",
+    "tradition": "EUROPEAN",
+    "date_ce": 1346,
+    "passage_text": "We came to the country of Jawi [Sumatra], from which camphor, aloes, cloves, and areca-nuts take their name [jawiyya]. The sultan al-Malik al-Zahir was a most illustrious sultan who loved theological debate. I remained his guest for fifteen days, and then he furnished me with supplies and a junk to continue to China.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "PER-001",
+    "tradition": "PERSIAN",
+    "date_ce": 982,
+    "passage_text": "East of the Indian Ocean are many islands, among them Zabaj [Java], the queen of the islands of this sea. It is a land of camphor, gold, and precious stones. Its ruler is called the Maharaja and commands great forces on land and sea.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-006",
+    "tradition": "NUSANTARAN",
+    "date_ce": 683,
+    "passage_text": "On the auspicious day of the month Vaisakha, Saka 604, the king set out with an army of 20,000 soldiers in 312 boats. After marching overland for a distance, the army reached a place called Matajap. The king conquered this land and gained great victory.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-007",
+    "tradition": "NUSANTARAN",
+    "date_ce": 860,
+    "passage_text": "The illustrious Balaputradeva, king of Suvarnadvipa [Sumatra], grandson of the Sailendra king of Yavabhumi [Java], requests the Pala king Devapala to grant land for a monastery at Nalanda for monks from Suvarnadvipa.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-008",
+    "tradition": "NUSANTARAN",
+    "date_ce": 900,
+    "passage_text": "In the year of Saka 822, month of Vaisakha, on the day of the full moon, a record is made that the Chief Namwaran and his children are pardoned of all debts by the ruler. The debt amounted to one kati and eight suwarnas of gold.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-009",
+    "tradition": "CHEMICAL",
+    "date_ce": 100,
+    "passage_text": "Charred clove buds recovered from the Red Sea port of Berenike, Roman Egypt. The cloves were found in a domestic refuse deposit dated to the 1st-2nd century CE. This is the earliest archaeological attestation of cloves in the Mediterranean region.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-010",
+    "tradition": "CHEMICAL",
+    "date_ce": 500,
+    "passage_text": "Chemical analysis of residues on pottery vessels from the ancient port of Mantai, northwestern Sri Lanka, identified Dryobalanops camphor compounds. Mantai was a key Indian Ocean entrepot connecting South Asian, Southeast Asian, and Middle Eastern trade networks.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "LING-005",
+    "tradition": "LINGUISTIC",
+    "date_ce": 500,
+    "passage_text": "Malagasy, the language of Madagascar, shares over 90% of its basic vocabulary with Maanyan, a Dayak language of southeast Borneo. Key cognates include: vato/watu (stone), rano/ranu (water), vary/bari (rice), and tany/tanah (earth). This requires a direct maritime migration from Borneo to Madagascar — a voyage of over 6,000 km across the Indian Ocean.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "LING-006",
+    "tradition": "LINGUISTIC",
+    "date_ce": 800,
+    "passage_text": "Old Javanese contains over 4,000 Sanskrit loanwords. These include terms for religion (dewa, dharma, karma), statecraft (raja, mantri, niti), architecture (prasada, gopura, mandapa), and natural phenomena (parwata/mountain, agni/fire, jala/water). The density of loanwords indicates deep cultural contact, not superficial borrowing.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-021",
+    "tradition": "CHINESE",
+    "date_ce": 430,
+    "passage_text": "The islands of Dupozhongduoluo [Dvipantara] are south of Funan. There are many islands, some large and some small. The people live by fishing and trade. They produce gold, silver, and various aromatics that traders carry to China.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "CHN-022",
+    "tradition": "CHINESE",
+    "date_ce": 671,
+    "passage_text": "I sailed from Guangzhou in the winter of the second year of Xianheng [671 CE] on a Persian ship. After twenty days we reached Srivijaya [Shili Foshi]. I stayed there six months learning Sanskrit grammar. The king provided me with supplies. There were over a thousand Buddhist monks studying in the capital.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-011",
+    "tradition": "ARAB",
+    "date_ce": 943,
+    "passage_text": "The islands of Zabaj include Sribuza, whose king is called the Maharaja. No king in India or China has more gold than he. In his lands are found tin mines, camphor forests, and pepper gardens. Ships from Oman, Siraf, and Basra trade there regularly.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-P10",
+    "tradition": "INDIAN_PALI",
+    "date_ce": -200,
+    "passage_text": "The traders go to these places: Gumbha, Takka, Takkasilā, Kālamukha, Mahāmukhā, Vesunga, Verāpatha, Jāva [Java], Tāmali, Vaṅga, Eḷavaddhana, Suvaṇṇakūṭa, Suvaṇṇabhūmi, Tambapaṇṇi, Suppāra, and Bharukaccha.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "GRK-008",
+    "tradition": "GREEK",
+    "date_ce": 550,
+    "passage_text": "From the clove country [Maluku] and beyond it, the country called Tzinista [China], there comes by this route silk, aloes, cloves, and sandalwood. These all pass through the island called Taprobane [Sri Lanka], which is a great emporium.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-009",
+    "tradition": "NUSANTARAN",
+    "date_ce": 686,
+    "passage_text": "A curse is pronounced against anyone who does not submit to the authority of Srivijaya. The earth of Srivijaya is sacred. Whoever rebels against the king shall be killed by the curse. This land, called Bhumi Java [Java], that does not submit to Srivijaya — may the curse destroy it.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "NUS-010",
+    "tradition": "NUSANTARAN",
+    "date_ce": 684,
+    "passage_text": "A magic garden was created for the well-being of all creatures. Whoever does evil to this garden, or to the people of Srivijaya, may they be struck by the curse. Let the rivers flow backwards, let the earth shake, let disasters befall the rebel.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHEM-011",
+    "tradition": "CHEMICAL",
+    "date_ce": -1300,
+    "passage_text": "The Uluburun shipwreck, dated ~1300 BCE off the Turkish coast, contained one ton of tin ingots. Lead isotope analysis suggests some tin may have originated from Southeast Asia, specifically from the tin belt spanning Thailand, Malaysia, and Indonesia (Bangka-Belitung).",
+    "consensus": "CONTESTED"
+  },
+  {
+    "ref_id": "GRK-009",
+    "tradition": "GREEK",
+    "date_ce": 20,
+    "passage_text": "From the time when the Romans conquered Egypt, the number of vessels sailing from Myos Hormos to India greatly increased, from merely twenty to one hundred and twenty ships per year. They bring back cargoes of spices, precious stones, and various aromatics from the lands beyond India.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "CHN-023",
+    "tradition": "CHINESE",
+    "date_ce": 1178,
+    "passage_text": "The ships of Shepo [Java] are the largest in the southern seas. They can carry six to seven hundred people. They are steered with a single rudder at the stern. The hull is made of thick planks joined without iron nails, using only wooden dowels and plant fiber cords. These ships trade to Sanfoqi [Srivijaya] and China.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "ARB-012",
+    "tradition": "ARAB",
+    "date_ce": 851,
+    "passage_text": "In the islands of Zabaj there is a mountain that spews fire. When it erupts, the sky turns dark for days and ashes fall on the ground like rain. The people of the nearby villages flee to the sea. Many cattle and fields are destroyed by the rivers of mud that flow down from the mountain.",
+    "consensus": "PROBABLE"
+  },
+  {
+    "ref_id": "EUR-006",
+    "tradition": "EUROPEAN",
+    "date_ce": 1515,
+    "passage_text": "Java is a land of great wealth. In all the world I believe there is no island with so many people. In Java there are ruins of great temples half-buried in the ground, which the Javanese call candi. Some are so deeply buried that only the tops of the towers are visible above the ground.",
+    "consensus": "CONSENSUS"
+  },
+  {
+    "ref_id": "IND-S08",
+    "tradition": "INDIAN_SANSKRIT",
+    "date_ce": -200,
+    "passage_text": "The superintendent of commerce shall ascertain the value of local and foreign merchandise. Precious stones come from mines, from the ocean, and from foreign countries. Camphor, sandalwood, and aloes come from the lands reached by sea. These bring the highest profit to the treasury.",
+    "consensus": "PROBABLE"
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "independence": {
+    "n_independence_groups": 7,
+    "groups": [
+      "arab",
+      "chemical",
+      "chinese",
+      "greco-roman",
+      "indian",
+      "linguistic",
+      "nusantaran_epigraphy"
+    ],
+    "transmission_matrix": {
+      "GREEK-CHINESE": false,
+      "GREEK-INDIAN_PALI": true,
+      "GREEK-INDIAN_SANSKRIT": true,
+      "ROMAN-CHINESE": false,
+      "ROMAN-INDIAN_PALI": true,
+      "ROMAN-INDIAN_SANSKRIT": true,
+      "INDIAN_PALI-CHINESE": true,
+      "INDIAN_SANSKRIT-CHINESE": true,
+      "CHEMICAL-GREEK": false,
+      "CHEMICAL-ROMAN": false,
+      "CHEMICAL-INDIAN_PALI": false,
+      "CHEMICAL-INDIAN_SANSKRIT": false,
+      "CHEMICAL-CHINESE": false,
+      "CHEMICAL-ARAB": false,
+      "ARAB-GREEK": true,
+      "ARAB-CHINESE": true,
+      "LINGUISTIC-CHEMICAL": false
+    },
+    "fully_independent_pairs": [
+      "GREEK-CHINESE",
+      "ROMAN-CHINESE",
+      "CHEMICAL-GREEK",
+      "CHEMICAL-ROMAN",
+      "CHEMICAL-INDIAN_PALI",
+      "CHEMICAL-INDIAN_SANSKRIT",
+      "CHEMICAL-CHINESE",
+      "CHEMICAL-ARAB",
+      "LINGUISTIC-CHEMICAL"
+    ],
+    "note": "CHEMICAL evidence is independent of ALL textual traditions. GREEK and CHINESE traditions are independent before ~150 CE. INDIAN traditions may have transmitted to both Greek and Chinese."
+  },
+  "convergence_monte_carlo": {
+    "observed_traditions_converging": 9,
+    "total_traditions": 9,
+    "traditions_with_high_nusantara": [
+      "ARAB",
+      "CHEMICAL",
+      "CHINESE",
+      "GREEK",
+      "INDIAN_PALI",
+      "INDIAN_SANSKRIT",
+      "LINGUISTIC",
+      "NUSANTARAN",
+      "ROMAN"
+    ],
+    "n_target_regions": 8,
+    "n_simulations": 100000,
+    "p_value": 0.0,
+    "interpretation": "9/9 traditions independently converge on insular SE Asia. Under random assignment to 8 regions, probability of >= 9 converging on same region: p=0.0000"
+  },
+  "temporal_density": {
+    "earliest_per_tradition": {
+      "CHEMICAL": {
+        "date_ce": -1700,
+        "ref_id": "CHEM-002"
+      },
+      "LINGUISTIC": {
+        "date_ce": -500,
+        "ref_id": "LING-001"
+      },
+      "INDIAN_PALI": {
+        "date_ce": -350,
+        "ref_id": "IND-001"
+      },
+      "INDIAN_SANSKRIT": {
+        "date_ce": -350,
+        "ref_id": "IND-004"
+      },
+      "GREEK": {
+        "date_ce": -235,
+        "ref_id": "GRK-001"
+      },
+      "ROMAN": {
+        "date_ce": 150,
+        "ref_id": "GRK-003"
+      },
+      "CHINESE": {
+        "date_ce": 264,
+        "ref_id": "CHN-002"
+      },
+      "NUSANTARAN": {
+        "date_ce": 400,
+        "ref_id": "NUS-001"
+      },
+      "ARAB": {
+        "date_ce": 851,
+        "ref_id": "ARB-001"
+      }
+    }
+  },
+  "gap_analysis": [
+    {
+      "source": "Megasthenes, Indica (~300 BCE)",
+      "reason_expected": "Detailed account of India, contemporary with Jataka references to Suvarnabhumi",
+      "reason_absent": "Focus on north India (Maurya court), not maritime trade. Relevant sections may be among lost portions.",
+      "severity": "LOW"
+    },
+    {
+      "source": "Arrian, Indica (~140 CE)",
+      "reason_expected": "Based on Megasthenes + Nearchus. Discusses Indian trade.",
+      "reason_absent": "Focus on Indus/Persian Gulf, not eastern Indian Ocean.",
+      "severity": "LOW"
+    },
+    {
+      "source": "Early Buddhist Pali Canon (Vinaya, Sutta Pitaka)",
+      "reason_expected": "Earlier than Jatakas, should contain trade references",
+      "reason_absent": "Genre focused on monastic rules and philosophy, not geography. But Baveru Jataka is in Khuddaka Nikaya.",
+      "severity": "MEDIUM"
+    },
+    {
+      "source": "Sangam literature (Tamil, ~300 BCE - 300 CE)",
+      "reason_expected": "Tamil maritime traders were major Indian Ocean actors",
+      "reason_absent": "References to 'Yavana' (western) traders more prominent. Nusantaran commodities present but sources underutilized in Nusantaran historiography.",
+      "severity": "HIGH"
+    },
+    {
+      "source": "Sima Qian, Shiji (Records of the Grand Historian, ~100 BCE)",
+      "reason_expected": "Comprehensive Chinese historical work, includes southern frontier",
+      "reason_absent": "Southern maritime trade not yet prominent in Chinese strategic thinking. Han focus on northern frontier (Xiongnu).",
+      "severity": "MEDIUM"
+    },
+    {
+      "source": "Roman cargo inventories (papyri, ostraca from Red Sea ports)",
+      "reason_expected": "Berenike and Myos Hormos excavations yield trade records",
+      "reason_absent": "SE Asian commodities may be present but classified under generic 'aromatics'. Archaeometric analysis of residues ongoing (cf. Saqqara).",
+      "severity": "HIGH"
+    }
+  ],
+  "summary": {
+    "n_references": 27,
+    "n_traditions": 9,
+    "n_entities": 73,
+    "n_resolution_groups": 6,
+    "date_range_ce": [
+      -1700,
+      1365
+    ],
+    "n_pre400": 18,
+    "n_high_relevance": 20,
+    "n_consensus": 11,
+    "convergence_p": 0.0
+  }
+}

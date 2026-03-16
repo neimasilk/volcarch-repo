@@ -1,0 +1,8 @@
+{
+  "experiment": "E076",
+  "title": "Satellite NDVI Anomaly Detection at Candi Sites",
+  "n_candi_analyzed": 15,
+  "n_controls_analyzed": 5,
+  "n_scenes_searched": 5,
+  "methodology": "Sentinel-2 L2A 10m NDVI via Planetary Computer STAC"
+}

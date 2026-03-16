@@ -1,12 +1,12 @@
 # L2: STRATEGY (Active Phase)
 
 **Status:** ACTIVE — Updates per phase/quarter.
-**Current Phase:** Phase 1 — Foundation (Computational + Interdisciplinary)
-**Last updated:** 2026-03-11
+**Current Phase:** Phase 1 + Phase 1.5 (Colonial Dataset + Adversarial Testing)
+**Last updated:** 2026-03-16
 
 ---
 
-## 1. Current Phase: Phase 1 (Computational + Exploratory Literature)
+## 1. Current Phase: Phase 1 + Phase 1.5 (Colonial Dataset + Adversarial Testing)
 
 **Duration:** ~6–12 months (Q1 2026 – Q4 2026)
 **Resources:** 4× RTX 4080, Claude Code, public data, literature
@@ -134,13 +134,20 @@
 - **P5** — The Volcanic Ritual Clock → BKI (2026-03-09)
 - **P7** — Temporal Overlay Matrix → Antiquity Project Gallery (2026-03-06)
 - **P8** — Linguistic Fossils → Oceanic Linguistics (2026-03-11), MS# OL-03-2026-11. Authors: Amien + Go Frendi.
-- **P9** — Peripheral Conservatism Framework → JSEAS NUS Press (2026-03-11, via email). 34pp, ~10,100 words, 6 figures. Authors: Amien + Gunawan. Awaiting MS#.
+- **P9** — Peripheral Conservatism Framework → JSEAS NUS Press (2026-03-12). MS# JSEAS-202603-051. 34pp, ~10,100 words, 6 figures. Authors: Amien + Gunawan.
 
 ### Drafting
 - *(none)*
 
+### Drafting
+- **P11** — Temple Siting as Archaeological Proxy (v0.3, 18pp). Reframed from VCS to methodology paper. Target: Indonesia (Cornell, Q2). Single-author. E084+E083+E086 integrated, all self-citations removed, 10 references. Next: manual review → LaTeX→Word → Chicago 17th → submit to indonesia-journal@cornell.edu.
+
+### Draft Ready
+- **D1** — Colonial Archaeological Register of Java (52 entries from OV 1912-1929). Target: JOAD (APC £374, waiver). Single-author.
+- **D2** — Mini-NusaRC (80 sites across 8 ISEA regions). Target: JOAD (APC £374, waiver). Single-author.
+
 ### Incubation (see `docs/drafts/README.md`)
-- **P11** — Volcanic Cultural Selection (partial draft, needs P5+P9 as foundation)
+- **P16** — Computational Textual Archaeology / "Visible from the Outside" (E088-E090 pipeline built)
 
 ### Dissolved
 - **P15** — TOM-R content absorbed into `papers/P5_volcanic_ritual_clock/revision_ammo/` (2026-03-10)
@@ -154,11 +161,23 @@
 - **P14** — Pararaton Volcanic Collapse (Bonferroni kills significance; E026 folded into P5 revision ammo, 2026-03-11)
 - **P-coastal** — The Invisible Shore (stub, no data, no method)
 
-**Pipeline summary (2026-03-11):** 6 under review (P1, P2, P5, P7, P8, P9) + 1 incubating (P11) = **7 active papers**. 44 experiments completed (E001-E044).
+**Pipeline summary (2026-03-16):** 6 under review (P1, P2, P5, P7, P8, P9) + 1 drafting (P11) + 2 draft ready (D1, D2) + 1 incubating (P16) = **10 active papers**. 91 experiments completed (E001-E091).
+
+### Adversarial Scorecard (2026-03-16)
+
+| Test | Experiment | Target | Result |
+|------|-----------|--------|--------|
+| ADV-1 Japan comparanda | E086 | L1 | **PARTIAL** — survives with survey intensity constraint |
+| ADV-2 Non-volcanic control | E081 | L1 | INCONCLUSIVE — Fisher p=0.760, N too small |
+| ADV-3 Survey intensity | E069 | L1 | **PASSED** — p=0.0015, volcanic signal survives control |
+| ADV-4 Substrate noise | E085 | L4 | **PASSED** — p=0.0000, z=11.05, AUC 11 SD above random |
+| ADV-5 Negative control | E087 | L4 | GREY ZONE — C5 AUC=0.713 nearly matches target |
+
+**Verdict:** 2 PASSED, 1 PARTIAL, 1 INCONCLUSIVE, 1 GREY ZONE. No outright failures.
 
 See `docs/drafts/README.md` for full catalog.
 
 ---
 
 *This document reflects the current plan. It will be updated when phases change or pivots occur.*
-*Last updated: 2026-03-11 (P9 submitted to JSEAS — 6 papers now under review)*
+*Last updated: 2026-03-16 (91 experiments, 6 papers under review, P11 v0.3 drafted, D1/D2 ready, adversarial testing complete)*

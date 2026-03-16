@@ -1,0 +1,195 @@
+{
+  "experiment": "E081_adv2_nonvolcanic_control",
+  "description": "ADV-2: Non-Volcanic Control Test for VOLCARCH",
+  "total_sites": 80,
+  "volcanic_sites": 67,
+  "nonvolcanic_sites": 13,
+  "volcanic_regions": [
+    "Java",
+    "Maluku",
+    "Nusa_Tenggara",
+    "Philippines",
+    "Sulawesi",
+    "Sumatra"
+  ],
+  "nonvolcanic_regions": [
+    "Kalimantan",
+    "Madagascar"
+  ],
+  "volcanic_summary": {
+    "total": 67,
+    "type_counts": {
+      "cave": 36,
+      "river_terrace": 9,
+      "rockshelter": 6,
+      "open_air": 16
+    },
+    "enclosed": 42,
+    "open": 25,
+    "enclosed_pct": 62.7,
+    "open_pct": 37.3
+  },
+  "nonvolcanic_summary": {
+    "total": 13,
+    "type_counts": {
+      "cave": 7,
+      "rockshelter": 2,
+      "open_air": 4
+    },
+    "enclosed": 9,
+    "open": 4,
+    "enclosed_pct": 69.2,
+    "open_pct": 30.8
+  },
+  "temporal": {
+    "volcanic": {
+      "mean_bp": 141039.0,
+      "median_bp": 36000.0,
+      "n": 67,
+      "min_bp": 1500.0,
+      "max_bp": 1600000.0
+    },
+    "nonvolcanic": {
+      "mean_bp": 19331.0,
+      "median_bp": 15000.0,
+      "n": 13,
+      "min_bp": 1200.0,
+      "max_bp": 51800.0
+    }
+  },
+  "fisher_exact": {
+    "p_value": 0.760044,
+    "odds_ratio": 0.7467,
+    "contingency_table": {
+      "volcanic": [
+        42,
+        25
+      ],
+      "nonvolcanic": [
+        9,
+        4
+      ]
+    },
+    "interpretation": "NOT SIGNIFICANT (p >= 0.05): Cannot reject null hypothesis that distributions are the same."
+  },
+  "chi_square": {
+    "statistic": 2.403,
+    "p_value": 0.493074,
+    "dof": 3,
+    "interpretation": "NOT SIGNIFICANT: Cannot reject null that distributions are the same."
+  },
+  "effect_size": {
+    "volcanic_enclosed_pct": 62.7,
+    "nonvolcanic_enclosed_pct": 69.2,
+    "difference_pp": -6.5
+  },
+  "region_summaries": {
+    "Java": {
+      "n_sites": 19,
+      "volcanic": true,
+      "type_counts": {
+        "cave": 7,
+        "river_terrace": 8,
+        "open_air": 4
+      },
+      "enclosed_n": 7,
+      "enclosed_pct": 36.8,
+      "land_area_km2": 129000,
+      "density_per_10k_km2": 1.473
+    },
+    "Kalimantan": {
+      "n_sites": 8,
+      "volcanic": false,
+      "type_counts": {
+        "cave": 7,
+        "rockshelter": 1
+      },
+      "enclosed_n": 8,
+      "enclosed_pct": 100.0,
+      "land_area_km2": 540000,
+      "density_per_10k_km2": 0.148
+    },
+    "Madagascar": {
+      "n_sites": 5,
+      "volcanic": false,
+      "type_counts": {
+        "open_air": 4,
+        "rockshelter": 1
+      },
+      "enclosed_n": 1,
+      "enclosed_pct": 20.0,
+      "land_area_km2": 587000,
+      "density_per_10k_km2": 0.085
+    },
+    "Maluku": {
+      "n_sites": 5,
+      "volcanic": true,
+      "type_counts": {
+        "cave": 5
+      },
+      "enclosed_n": 5,
+      "enclosed_pct": 100.0,
+      "land_area_km2": 75000,
+      "density_per_10k_km2": 0.667
+    },
+    "Nusa_Tenggara": {
+      "n_sites": 12,
+      "volcanic": true,
+      "type_counts": {
+        "cave": 4,
+        "rockshelter": 3,
+        "open_air": 5
+      },
+      "enclosed_n": 7,
+      "enclosed_pct": 58.3,
+      "land_area_km2": 73000,
+      "density_per_10k_km2": 1.644
+    },
+    "Philippines": {
+      "n_sites": 6,
+      "volcanic": true,
+      "type_counts": {
+        "cave": 5,
+        "open_air": 1
+      },
+      "enclosed_n": 5,
+      "enclosed_pct": 83.3,
+      "land_area_km2": 300000,
+      "density_per_10k_km2": 0.2
+    },
+    "Sulawesi": {
+      "n_sites": 18,
+      "volcanic": true,
+      "type_counts": {
+        "cave": 12,
+        "rockshelter": 3,
+        "open_air": 2,
+        "river_terrace": 1
+      },
+      "enclosed_n": 15,
+      "enclosed_pct": 83.3,
+      "land_area_km2": 174600,
+      "density_per_10k_km2": 1.031
+    },
+    "Sumatra": {
+      "n_sites": 7,
+      "volcanic": true,
+      "type_counts": {
+        "cave": 3,
+        "open_air": 4
+      },
+      "enclosed_n": 3,
+      "enclosed_pct": 42.9,
+      "land_area_km2": 473000,
+      "density_per_10k_km2": 0.148
+    }
+  },
+  "java_vs_kalimantan": {
+    "fisher_p": 0.003122,
+    "odds_ratio": 0.0
+  },
+  "pass_criterion": "Fisher exact p < 0.05",
+  "verdict": "INCONCLUSIVE",
+  "verdict_text": "INCONCLUSIVE: No significant difference detected (Fisher p=0.7600), but non-volcanic control group (N=13) is small. Cannot confidently distinguish between 'same pattern everywhere' and 'different but underpowered'. Enclosed rate: volcanic=62.7%, non-volcanic=69.2% (diff=-6.5pp).",
+  "small_control_warning": true
+}

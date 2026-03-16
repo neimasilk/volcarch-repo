@@ -1,0 +1,43 @@
+E084: Formal Inscription-Volcano Spatial Analysis
+======================================================================
+
+Date: 2026-03-13
+Status: SUCCESS
+
+DATA SUMMARY
+  Inscriptions (Java/Bali, not low confidence): n=170
+  Candi (E031): n=142
+  Inscription mean distance: 25.7 +/- 17.5 km
+  Candi mean distance: 16.5 +/- 14.7 km
+  Difference: 9.2 km
+
+CORE TESTS
+  1. Mann-Whitney U: U=16380, p=0.000000, r_rb=-0.357
+  2. KS test: D=0.3627, p=0.000000
+  3. Bootstrap 95% CI: [5.51, 12.74] km
+  4. Zone chi-square: chi2=34.81, df=2, p=0.000000
+  5. Fisher exact (Zone A): OR=0.203, p=0.000000
+
+ZONE DISTRIBUTION
+  Zone            Inscriptions    %        Candi      %       
+  A (0-10km)      22              12.9     60         42.3    
+  B (10-30km)     111             65.3     65         45.8    
+  C (>30km)       37              21.8     17         12.0    
+
+TEMPORAL ANALYSIS
+  Individual Spearman: rho=0.490, p=0.0000
+  929 CE split: pre mean=16.2 km, post mean=38.4 km, MW p=0.0000
+
+GRID DENSITY ANALYSIS
+  Inscription density vs volcano dist: rho=-0.086, p=0.6688
+  Candi density vs volcano dist: rho=-0.371, p=0.0744
+  Fisher z-test (comparing correlations): z=1.014, p=0.3106
+
+CONCLUSION
+  Inscriptions have a SIGNIFICANTLY DIFFERENT spatial distribution relative to volcanoes compared to candi. Inscriptions are systematically farther from volcanic centers, consistent with their function as administrative documents placed in agricultural/lowland zones rather than sacred volcanic sites.
+
+VOLCARCH IMPLICATIONS
+  1. Inscriptions being farther from volcanoes supports volcanic taphonomic bias: administrative activity occurred at greater distances, but the ARCHAEOLOGICAL RECORD (dominated by candi) clusters at volcano flanks. This means the spatial distribution of surviving archaeological evidence overrepresents volcanic proximity zones.
+  2. The 9 km mean difference between inscription and candi placement suggests that textual (inscriptional) evidence samples a DIFFERENT geographic zone than architectural evidence. Cross-referencing both provides more complete spatial coverage.
+  3. Zone A (0-10 km) contains 42% of candi but only 13% of inscriptions, confirming that candi are disproportionately built in high-burial-risk volcanic zones.
+  4. The pre/post 929 CE shift in inscription distance suggests the eastward migration of political centers (Mataram -> Kadiri/Singasari) changed the spatial sampling of the epigraphic record.
