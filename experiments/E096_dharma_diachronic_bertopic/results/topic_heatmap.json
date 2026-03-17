@@ -1,0 +1,101 @@
+{
+  "heatmap": {
+    "topic_-1": {
+      "C8": 0,
+      "C9": 2,
+      "C10": 0,
+      "C11": 0,
+      "C12": 0,
+      "C13": 0,
+      "C14": 0
+    },
+    "topic_0": {
+      "C8": 2,
+      "C9": 11,
+      "C10": 11,
+      "C11": 3,
+      "C12": 0,
+      "C13": 0,
+      "C14": 1
+    },
+    "topic_1": {
+      "C8": 2,
+      "C9": 0,
+      "C10": 0,
+      "C11": 0,
+      "C12": 1,
+      "C13": 4,
+      "C14": 3
+    },
+    "topic_2": {
+      "C8": 1,
+      "C9": 4,
+      "C10": 1,
+      "C11": 0,
+      "C12": 0,
+      "C13": 0,
+      "C14": 0
+    }
+  },
+  "topic_keywords": {
+    "topic_-1": [
+      "outlier"
+    ],
+    "topic_0": [
+      "si",
+      "called",
+      "pu",
+      "māṣa",
+      "father",
+      "saṅ",
+      "gold",
+      "given",
+      "called pu",
+      "called saṅ"
+    ],
+    "topic_1": [
+      "great",
+      "king",
+      "royal",
+      "śrī",
+      "great king",
+      "majesty",
+      "lord",
+      "like",
+      "south",
+      "inhabitants"
+    ],
+    "topic_2": [
+      "ḍa",
+      "ḍa punta",
+      "punta",
+      "day cycle",
+      "cycle",
+      "day",
+      "tithi",
+      "lord",
+      "ḍaṅ",
+      "tithi waxing"
+    ]
+  },
+  "centuries": [
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14"
+  ],
+  "n_topics": 3,
+  "century_sizes": {
+    "C8": 5,
+    "C9": 17,
+    "C10": 12,
+    "C11": 3,
+    "C12": 1,
+    "C13": 4,
+    "C14": 4
+  },
+  "caveat": "C7(~2), C8(~5), C12(~1) too sparse for standalone analysis"
+}

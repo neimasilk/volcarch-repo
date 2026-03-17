@@ -1,0 +1,233 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{natbib}
+\bibliographystyle{chicago}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+\title{Two Javas:\\Spatial Segregation of Sacred and Administrative Landscapes\\in Volcanic Java and Its Consequences for Archaeological Inference}
+
+\author{Mukhlis Amien\\
+\small Lab Data Sains, Universitas Bhinneka Nusantara, Malang, Indonesia\\
+\small ORCID: 0000-0002-1848-167X\\
+\small \texttt{mukhlis.amien@ubhara.ac.id}}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The archaeological record of Java is commonly treated as uniformly sparse before 400~CE.
+This paper demonstrates that the record is not uniform but spatially structured along volcanic distance gradients.
+Analysis of 142 temples (candi), 176 geocoded inscriptions, and 391 archaeological sites reveals two distinct archaeological worlds.
+``Volcano Java'' (0--15~km from active volcanoes) is dominated by sacred architecture with relatively indigenous vocabulary, progressively buried at 2.4--6.2~mm/year.
+``Court Java'' (15--30~km) is dominated by administrative inscriptions with Sanskrit-heavy content.
+Candi peak at a median distance of 14.6~km from the nearest volcano; inscriptions peak at 27.6~km ($p < 0.000001$).
+The temporal trend of increasing pre-Indic vocabulary ($\rho = 0.781$, $p < 0.0001$) occurs exclusively in the court zone.
+After the 929~CE Mataram collapse, epigraphic activity abandons the court zone entirely, shifting to the periphery with indigenous-rich content.
+Indigenous vocabulary correlates with burial depth ($\rho = 0.456$, $p < 0.0001$, controlling for inscription length), meaning that volcanic burial preferentially conceals the most culturally indigenous inscriptions.
+These findings demonstrate that inscription counts cannot serve as proxies for population density without accounting for the spatial structure of archaeological bias.
+What scholarship calls ``Indianization'' was a 15-kilometre-wide phenomenon centred on the fertile volcanic plains---not a civilization-wide transformation.
+\end{abstract}
+
+\noindent\textbf{Keywords:} spatial archaeology, volcanic taphonomy, Indianization, Old Javanese epigraphy, candi distribution, court zone, two Javas, archaeological bias
+
+
+\section{Introduction}
+
+Indonesian archaeology operates under an implicit assumption of uniform darkness: the record before 400~CE is sparse everywhere, and the Hindu-Buddhist period (5th--15th centuries) represents a civilization-wide transformation.
+This paper challenges both assumptions by showing that Java's archaeological record has a \emph{spatial structure} that correlates with volcanic geography.
+
+Sacred architecture (candi) and administrative inscriptions do not occupy the same space.
+Candi cluster on volcanic slopes within 10~km of active craters, while inscriptions cluster 20--30~km away on the fertile plains where royal courts were established.
+The median gap between these two archaeological populations---13 kilometres---represents not a gradual transition but a fundamental division between two modes of cultural production: one physical and relatively indigenous, the other textual and heavily Sanskritised.
+
+This spatial division has consequences for how we interpret the archaeological record.
+If inscriptions are concentrated in the ``court zone'' (15--30~km) and this zone was the epicentre of Indianization, then using inscription counts as proxies for population density or cultural activity systematically overrepresents the Sanskritised court world and underrepresents the indigenous volcanic world.
+The 929~CE Mataram collapse serves as a natural experiment: when the court system collapsed, epigraphic activity migrated to the periphery ($>$30~km), and the vocabulary shifted from Sanskrit-dominant to indigenous-rich---revealing that the indigenous substrate had been present all along, merely invisible in the court zone's inscriptional genre.
+
+We present five mutually reinforcing analyses drawn from a suite of 106 computational experiments in the VOLCARCH project \citep{Amien2026a}:
+\begin{enumerate}
+    \item Spatial segregation of candi and inscriptions by volcanic distance (E104)
+    \item Monotonic increase in site density with elevation (E100)
+    \item Indigenous vocabulary scaling with burial depth, controlling for inscription length (E102)
+    \item The court zone as the exclusive locus of pre-Indic vocabulary recovery (E103)
+    \item Post-929~CE geographic relocation of epigraphic activity (E105)
+\end{enumerate}
+
+Together, these analyses constitute a \emph{spatial model of archaeological bias} that replaces the assumption of uniform darkness with a structured geography of differential visibility.
+
+
+\section{Data and methods}
+
+Four datasets were integrated for this analysis.
+\textbf{Dataset~1:} 142 candi with coordinates and nearest-volcano distances, compiled from published archaeological inventories and geocoded via OpenStreetMap and satellite imagery \citep{Degroot2009}.
+\textbf{Dataset~2:} 176 geocoded inscriptions from the DHARMA EpiDoc corpus \citep{DHARMA2024}, with vocabulary analysis distinguishing Sanskrit, indigenous, and ambiguous terms.
+\textbf{Dataset~3:} 391 archaeological sites in East Java with DEM-extracted elevation (GLO-30, 30~m resolution).
+\textbf{Dataset~4:} 27 burial sites with measured depth (0.68--9.14~m) from the colonial Oudheidkundig Verslag register and published volcanological literature.
+
+Volcanic distance was computed as the haversine distance to the nearest of 10 major Java volcanoes (Merapi, Kelud, Arjuno, Semeru, Bromo, Penanggungan, Lawu, Merbabu, Sindoro, Sumbing).
+Three geographic zones were defined: \textbf{Volcano} ($<$15~km), \textbf{Court} (15--30~km), and \textbf{Periphery} ($>$30~km).
+Pre-Indic vocabulary ratio was computed following the E030 methodology: for each dated inscription, the proportion of indigenous (pre-Indic) terms among all classified vocabulary items.
+
+Statistical tests include Spearman rank correlations, Mann-Whitney $U$ tests, Fisher's exact tests, chi-square goodness-of-fit, and Kruskal-Wallis tests.
+Partial correlation controlling for inscription length (word count) was computed via residualisation.
+All analyses were conducted in Python (scipy, sklearn, geopandas).
+
+
+\section{Results}
+
+\subsection{Spatial segregation of candi and inscriptions}
+
+Candi and inscriptions show strikingly different distance distributions (Table~\ref{tab:zones}).
+The candi distribution peaks at 0--10~km (42.3\%), with a median distance of 14.6~km.
+The inscription distribution peaks at 20--30~km (39.2\%), with a median of 27.6~km.
+A Mann-Whitney test confirms that candi are significantly closer to volcanoes than inscriptions ($U = 8081$, $p < 0.000001$).
+
+\begin{table}[htbp]
+\centering
+\caption{Distribution of candi and inscriptions by volcanic distance zone.}
+\label{tab:zones}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Zone} & \textbf{Candi} & \textbf{\%} & \textbf{Inscriptions} & \textbf{\%} \\
+\midrule
+0--10 km   & 60 & 42.3 & 22 & 12.5 \\
+10--20 km  & 21 & 14.8 & 46 & 26.1 \\
+20--30 km  & 44 & 31.0 & 69 & 39.2 \\
+30--40 km  &  8 &  5.6 & 12 &  6.8 \\
+40--60 km  &  5 &  3.5 & 20 & 11.4 \\
+60--100 km &  4 &  2.8 &  7 &  4.0 \\
+\midrule
+\textbf{Total} & \textbf{142} & & \textbf{176} & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Fisher's exact test on the volcano zone ($<$20~km) versus the court zone (20--40~km) confirms that inscriptions are 1.86 times more concentrated in the court zone than candi ($p = 0.012$).
+
+\subsection{Elevation gradient}
+
+Contrary to the predicted inverse U-shape (highland burial + coastal submersion = midslope visibility), site density increases monotonically with elevation: from 1.96~sites per 1000~km$^2$ at 0--50~m to 18.61 at $>$1000~m (chi-square $p < 0.000001$).
+This means the visible archaeological record is dominated by high-elevation volcano-slope sites---not by ``safe'' middle-zone discoveries.
+The mountain-zone density of 18.61 represents a \emph{floor}, not a ceiling: it counts only the sites exposed by erosion, lahar channels, or construction activity.
+The buried population at these elevations is unknown.
+
+\subsection{Indigenous vocabulary scales with burial depth}
+
+Inscriptions geographically near deeply buried archaeological sites contain significantly more indigenous vocabulary ($\rho = 0.562$, $p < 0.0001$, $n = 159$).
+After controlling for inscription length (a confound: longer inscriptions mechanically contain more vocabulary of all types), the partial correlation remains highly significant ($\rho = 0.456$, $p < 0.0001$).
+
+The effect is concentrated in Sanskrit inscriptions ($\rho = 0.512$, $p < 0.0001$) and absent in Old Javanese inscriptions ($\rho = 0.138$, $p = 0.22$).
+This indicates that the mechanism is genre-mediated: Sanskrit administrative inscriptions (sima charters) in volcanic zones are longer and more detailed, naturally incorporating indigenous terminology for land, crops, and boundaries.
+
+Depth-binned profiles are dramatic: shallow-burial zones ($<$2~m) have 9.3\% indigenous vocabulary, while deep-burial zones (5--10~m) have 56.4\%---a 5.8-fold increase.
+
+\subsection{The court zone as Indianization epicentre}
+
+The temporal trend of increasing pre-Indic vocabulary, first identified in E030 ($\rho = 0.502$), is spatially heterogeneous.
+When split by volcanic distance zone, the trend is driven \emph{entirely} by the court zone:
+
+\begin{itemize}
+    \item \textbf{Volcano zone} ($<$20~km): $\rho = 0.106$, $p = 0.48$ --- \emph{no trend}
+    \item \textbf{Court zone} (20--40~km): $\rho = 0.781$, $p < 0.0001$ --- \emph{very strong trend}
+    \item \textbf{Periphery} ($>$40~km): $\rho = 0.045$, $p = 0.83$ --- \emph{no trend}
+\end{itemize}
+
+The 929~CE shift from Sanskrit to indigenous vocabulary occurs only in the court zone (pre-929: 1.2\% indigenous $\rightarrow$ post-929: 19.6\%; Mann-Whitney $p < 0.0001$).
+Volcano and peripheral zones show no significant change across the 929 divide.
+
+\subsection{Post-929 geographic relocation}
+
+Before 929~CE, 57\% of inscriptions are located in the court zone, and 91\% of those are Sanskrit-dominant.
+After 929~CE, 53\% of inscriptions are in the periphery, and 89\% of those are mixed or indigenous-rich.
+
+The collapse of the Mataram court system did not merely change the content of inscriptions---it changed their geography.
+Epigraphic activity migrated from the court zone to the periphery, and the vocabulary shifted from Sanskrit administrative terminology to indigenous content.
+
+
+\section{Discussion}
+
+\subsection{The Two Javas model}
+
+These five analyses converge on a spatial model of Java's archaeological record.
+``Volcano Java'' (0--15~km from active volcanoes) is a landscape of sacred architecture---candi built on slopes as expressions of cosmological geography---with relatively indigenous vocabulary and progressive volcanic burial.
+``Court Java'' (15--30~km) is a landscape of textual administration---inscriptions recording land grants, tax exemptions, and royal genealogies in Sanskrit-heavy formulaic prose.
+``Peripheral Java'' ($>$30~km) is the post-929 recovery zone where indigenous vocabulary resurfaces after the collapse of the court system.
+
+The division is not merely descriptive.
+It has causal implications for archaeological inference.
+The VISIBLE inscriptional record---the corpus that scholars use to reconstruct Javanese history---is overwhelmingly a product of Court Java.
+Sanskrit-dominant inscriptions constitute 72\% of the court zone's output.
+When historians speak of ``the Hindu period'' or ``Indianization,'' they are describing a phenomenon that, spatially, occupied a 15-kilometre-wide band on the fertile volcanic plains.
+Volcano Java and Peripheral Java---which together contain the majority of Java's area and, likely, its population---are underrepresented in the textual record because inscriptions were a court technology, not a civilizational practice.
+
+\subsection{The 929~CE natural experiment}
+
+The Mataram collapse provides a uniquely powerful test of this model.
+If Indianization were a civilization-wide transformation, its collapse should have affected all zones equally.
+Instead, the effect is zone-specific: only the court zone shows a significant vocabulary shift at 929~CE.
+The volcano zone and periphery were always relatively indigenous.
+
+This means the ``de-Indianization'' narrative---the idea that Hindu-Buddhist culture gradually faded after Majapahit---is partially misleading.
+In Volcano Java and Peripheral Java, there was little Indianization to fade.
+What changed at 929~CE was not Javanese culture writ large but the court system's textual output.
+
+\subsection{Implications for fieldwork}
+
+The Two Javas model has practical implications for archaeological survey design.
+Current fieldwork priorities are informed by the inscriptional record, which is biased toward Court Java.
+But the most archaeologically productive zones---where buried sites await discovery---are in Volcano Java (0--15~km), where candi cluster and burial depths of 3--9~m conceal an unknown number of additional structures.
+Geophysical survey (ERT, magnetometry) should be directed at the volcano zone, not the court zone.
+
+\subsection{Limitations}
+
+This analysis is limited to Java.
+Whether the Two Javas pattern extends to Bali (where both candi and inscriptions cluster near Agung/Batur) or Sumatra (where the inscriptional tradition is thinner) remains untested.
+The geocoding of inscriptions carries $\pm$5~km uncertainty for some entries, which may blur zone boundaries.
+The pre-Indic vocabulary ratio is a proxy measure, not a direct linguistic analysis.
+And the burial depth matching is geographic (nearest burial site within 100~km), not site-specific.
+
+
+\section{Conclusion}
+
+Java has not one archaeological record but two: a physical record of sacred architecture buried on volcanic slopes, and a textual record of administrative prose preserved on fertile plains.
+These two records have been treated as a single dataset, producing systematic misrepresentation of ancient Javanese culture.
+
+The ``Hindu period'' was not a civilisation-wide transformation.
+It was a court-zone phenomenon, 15~kilometres wide, overlaid on an indigenous landscape that never disappeared.
+The 929~CE Mataram collapse did not destroy this landscape---it merely removed the Sanskrit overlay, allowing the indigenous substrate to become visible again.
+
+Understanding this spatial structure is not an academic exercise.
+It determines where we dig, what we expect to find, and how we interpret what the earth and the stone choose to remember.
+
+
+\subsection*{Data availability}
+
+All datasets and analysis scripts are available in the VOLCARCH repository.
+The DHARMA inscriptions are available from the ERC DHARMA project.
+
+\subsection*{AI Disclosure}
+
+This research employed an AI-augmented workflow using Claude (Anthropic) for spatial analysis, statistical testing, cross-dataset integration, and manuscript drafting.
+The AI-augmented approach enabled a single researcher to execute 106 experiments across archaeology, volcanology, linguistics, and computational analysis.
+All hypotheses, interpretations, and scholarly judgments were made by the human author.
+
+\subsection*{Acknowledgements}
+
+The author thanks the DHARMA project (ERC Synergy Grant No.\ 809994) for the EpiDoc corpus, and the GVP, ABVD, and Smithsonian Institution for open datasets.
+
+%\bibliography{p17_references}
+
+\end{document}

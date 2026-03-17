@@ -11,7 +11,7 @@
 **Phase:** CONTRACTION + VALIDATION (post-Mata Elang #8 structural critique).
 6 papers awaiting review. No new submissions. Build datasets, validate existing work, computational deepening.
 
-**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete 98-experiment registry (E092-E098 added in Senter v3).
+**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **99-experiment** registry (E092-E098 + E095 activated).
 
 ---
 
@@ -31,7 +31,7 @@
 | Paper | Target | Status | Next Step |
 |-------|--------|--------|-----------|
 | P11 | Indonesia (Cornell, Q2) | v0.3 drafted (18pp) | Manual review → LaTeX→Word → Chicago 17th → submit |
-| P16 | TBD | E088-E090 pipeline built | Expand corpus, refine NLP methods |
+| P16 | DSH (Oxford, Q1) | Draft v0.1 (19pp, 6 figs) | User review → expand to 8K words → submit |
 | D1 | JOAD | Draft ready | Zenodo deposit, APC waiver decision |
 | D2 | JOAD | Draft ready | Zenodo deposit, APC waiver decision |
 
@@ -57,14 +57,15 @@
 9. **P1 revision** — Japan paragraph ready (`ADV1_japan_comparanda.md`)
 10. **P8 revision** — Negative control reframing ready (`ADV5_negative_control.md`)
 
-### Senter v3 — GPU Runs Pending
-11. **E090 v5** — `e090_v5_full.py`. BERTopic reactivated (200 entries). USER GPU ~2 min.
-12. **E094** — `dharma_semantic_search.py`. First SBERT on Old Javanese. USER GPU ~2 min.
-13. **E096** — `dharma_diachronic_bertopic.py`. First BERTopic on epigraphy. USER GPU ~1 min.
-14. **E076 v2** — `02_multi_tile_analysis.py`. Satellite NDVI. USER NETWORK ~30 min.
+### Senter v3 — GPU Runs ~~Pending~~ COMPLETED (2026-03-17)
+11. ~~**E090 v5**~~ — DONE. 16 BERTopic topics, 8/8 converge, VOLCANO z=7.39.
+12. ~~**E094**~~ — DONE. Volcanic silence 0.244 (lowest), C11→C12 rupture.
+13. ~~**E096**~~ — DONE. 929 CE shift p=0.0003. Royal surges, ritual vanishes.
+14. **E076 v2** — `02_multi_tile_analysis.py`. Satellite NDVI. USER NETWORK ~30 min. **STILL PENDING.**
+15. ~~**E095**~~ — DONE (#99). Cross-lingual XLM-R/ML-SBERT. Validates E094 (rho=0.336).
 
 ### Dissemination (see `docs/VOLCARCH_Dissemination_Roadmap_v1.0.md`)
-15. **Dokumen Jembatan v0.2** — Update with E092 comparanda + E097 anomaly results. Target: April 2026.
+16. ~~**Dokumen Jembatan v0.2**~~ — DONE. PDF generated. NotebookLM slides extracted (14 slides).
 16. **Infographic** — E080 fieldwork convergence map. Generated (Senter v3).
 17. **Preprint strategy** — P7 → EarthArXiv, P8 → arXiv cs.CL. Can start now.
 18. **Zenodo survey paper** — Indonesian-language research agenda paper. Target: May-June 2026.

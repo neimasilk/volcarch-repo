@@ -1,0 +1,36 @@
+{
+  "experiment": "E108_demographic_null_model",
+  "date": "2026-03-17",
+  "java_parameters": {
+    "total_km2": 129000,
+    "habitable_km2": 114000,
+    "prime_agricultural_km2": 95000
+  },
+  "scenarios": {
+    "A_minimal": {
+      "description": "Minimal: sparse farming, mostly foraging",
+      "population": 590520,
+      "density": 5.18
+    },
+    "B_moderate": {
+      "description": "Moderate: established agriculture, early chiefdoms",
+      "population": 1931730,
+      "density": 16.95
+    },
+    "C_maximum": {
+      "description": "Maximum: intensive agriculture, proto-states",
+      "population": 3910200,
+      "density": 34.3
+    }
+  },
+  "no_rice_scenario": {
+    "population": 1452930,
+    "density": 12.74
+  },
+  "archaeological_gap": {
+    "expected_settlements_moderate": "9659-38635",
+    "known_pre400_sites": "0-3",
+    "gap_ratio": ">3220x"
+  },
+  "verdict": "Even minimal estimates (590,520.0) exceed known pre-400 CE Java sites by orders of magnitude. Moderate estimates (1,931,730.0) imply 9658.0-38634.0 settlements. The gap between expected and observed archaeological record requires explanation: either burial (H1), survey deficit (E086), or both."
+}

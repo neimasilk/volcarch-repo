@@ -1,0 +1,81 @@
+{
+  "experiment": "E096_dharma_diachronic_bertopic",
+  "description": "First BERTopic application to any epigraphic corpus",
+  "total_xml_parsed": 268,
+  "dated_with_translations": 46,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "n_topics": 3,
+  "n_outlier_docs": 2,
+  "century_distribution": {
+    "C8": 5,
+    "C9": 17,
+    "C10": 12,
+    "C11": 3,
+    "C12": 1,
+    "C13": 4,
+    "C14": 4
+  },
+  "pre_929_count": 33,
+  "post_929_count": 13,
+  "topics_only_pre_929": 2,
+  "topics_only_post_929": 0,
+  "topics_persistent": 2,
+  "chi_square": {
+    "statistic": 16.5831,
+    "p_value": 0.000251,
+    "dof": 2,
+    "interpretation": "significant"
+  },
+  "topic_keywords": {
+    "topic_-1": [
+      "outlier"
+    ],
+    "topic_0": [
+      "si",
+      "called",
+      "pu",
+      "māṣa",
+      "father",
+      "saṅ",
+      "gold",
+      "given",
+      "called pu",
+      "called saṅ"
+    ],
+    "topic_1": [
+      "great",
+      "king",
+      "royal",
+      "śrī",
+      "great king",
+      "majesty",
+      "lord",
+      "like",
+      "south",
+      "inhabitants"
+    ],
+    "topic_2": [
+      "ḍa",
+      "ḍa punta",
+      "punta",
+      "day cycle",
+      "cycle",
+      "day",
+      "tithi",
+      "lord",
+      "ḍaṅ",
+      "tithi waxing"
+    ]
+  },
+  "caveats": [
+    "C7(~2), C8(~5), C12(~1) too sparse for standalone analysis",
+    "Focus on C9-C10 (densest) vs C11-C14 for meaningful comparison",
+    "SBERT trained on modern English; semantic fidelity depends on translation quality",
+    "BERTopic with small corpus (<100 docs) may produce unstable topics"
+  ],
+  "output_files": [
+    "results/topic_heatmap.json",
+    "results/pre_post_929_comparison.json",
+    "results/e096_results.json"
+  ]
+}

@@ -1,0 +1,295 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}\doublespacing
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+\title{What Words Remember: Computational Cultural Reconstruction of an Archaeologically Invisible Civilization}
+\author{Mukhlis Amien\thanks{Universitas Bhinneka Nusantara, Surabaya, Indonesia. ORCID: 0000-0002-1848-167X. Correspondence: \texttt{mukhlis.amien@bfrci.com}} }
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The pre-Hindu civilizations of Java (before c.\ 400 CE) left virtually no archaeological record, despite demographic models estimating populations of 590,000--3,900,000. This paper argues that surviving vocabulary constitutes an archaeological record when physical artifacts are destroyed. Using 438 computationally detected substrate vocabulary items from six Sulawesi languages, 189 domain-classified literary terms, and 25,244 classified village names, we reconstruct a cultural profile of pre-Hindu Nusantara: a complex agrarian-maritime civilization with indigenous writing concepts (Proto-Austronesian \textit{*surat}, Proto-Malayo-Polynesian \textit{*tulis}), sophisticated craft technology (82\% indigenous vocabulary), and deep cosmological traditions. Sanskrit penetration followed a steep domain gradient: religion (86\% Sanskrit), governance (51\%), but agriculture (only 9\%) and technology (18\%)---indicating an elite overlay, not a civilizational transformation. A five-factor multiplicative cascade model (volcanic burial, organic decay, survey deficit, recognition bias, publication barrier) predicts 0.058\% archaeological visibility, matching the observed 0.031\% within parameter uncertainty. The West Java comparison---where non-volcanic coastal sites (Buni Complex, Batujaya) preserve rich pre-Hindu archaeology while the volcanic interior preserves none---provides within-island confirmation. We propose `vocabulary archaeology' as a sixth recovery channel for archaeologically invisible civilizations.
+
+\medskip\noindent\textbf{Keywords:} pre-Hindu Nusantara, vocabulary archaeology, taphonomic bias, Indianization, Austronesian substrate, archaeological invisibility, Java
+\end{abstract}
+
+%% ================================================================
+\section{Introduction}
+
+Java, the most densely populated island on Earth, has a paradox at its historical core. While demographic models based on ecological carrying capacity and ethnographic analogues suggest pre-400 CE populations of 590,000 to 3,900,000---comparable to contemporaneous Dvaravati Thailand (300,000--500,000) and Dong Son Vietnam (500,000--1,000,000)---the archaeological record for this period is virtually blank \citep{bellwood2017}. The earliest known Javanese inscriptions, the Yupa pillars of Kutai (c.\ 400 CE), mark what is conventionally treated as the beginning of Javanese civilization. Before this date: silence.
+
+This silence has been interpreted, explicitly or implicitly, as absence. \citet{coedes1968} framed Southeast Asian civilization as a product of Indian colonization, presupposing that pre-contact societies lacked the complexity to generate lasting cultural forms. Even \citet{wolters1999}, who correctly emphasized local agency in the adoption of Indian elements, focused on the \textit{process} of Indianization rather than the \textit{pre-existing substrate} that received it. The question `what was there before?' has been asked rhetorically but never answered computationally.
+
+We propose that the answer lies in surviving vocabulary. Unlike physical artifacts, which can be buried by volcanic sediment, dissolved by tropical humidity, or overlooked by inadequate survey, vocabulary persists in descendant languages across millennia. When an indigenous Sulawesi speaker says \textit{pole'i} (`to cut/hack') or \textit{podea} (`to hear'), they are using words that predate any Indian influence---words that constitute, in effect, \textit{linguistic fossils} of a vanished material and cognitive culture.
+
+This paper makes four claims. First, the concept of writing in Nusantara is \textit{indigenous Austronesian}, not an Indian import: Proto-Austronesian \textit{*surat} (`to write, mark, design') is reconstructable to c.\ 3000 BCE, three millennia before Indian contact. Second, 438 computationally detected substrate vocabulary items, classified into nine activity domains, reconstruct a cultural profile of a complex agrarian-maritime civilization---not the `primitive' society imagined by colonial-era scholarship. Third, the Sanskrit penetration of Javanese culture followed a steep domain gradient, overwhelmingly concentrated in religion (86\% Sanskrit) while leaving agriculture (91\% indigenous), technology (82\%), and nature vocabulary (76\%) largely intact. Fourth, a five-factor multiplicative cascade model explains \textit{quantitatively} why this civilization is archaeologically invisible: the combined probability of a pre-400 CE artifact surviving burial, decay, survey, recognition, and publication is 0.058\%---matching the observed 0.031\% gap between expected and actual archaeological sites.
+
+We call this approach `vocabulary archaeology': the computational recovery of cultural information from surviving vocabulary when all other evidence has been destroyed. We argue it constitutes a sixth recovery channel---alongside fieldwork, remote sensing, natural language processing on textual corpora, ancient DNA analysis, and external historical references---for civilizations rendered invisible by compound taphonomic processes.
+
+%% ================================================================
+\section{Background}
+
+\subsection{The Indianization Debate}
+
+The question of how Indian cultural elements reached Southeast Asia has generated decades of scholarship with three dominant models. \citet{coedes1968} proposed that Indian \textit{Brahmans and traders} carried Hindu-Buddhist civilization to a receptive but culturally simple Southeast Asia. This `colonization' model has been largely discredited but its implicit assumption---that pre-contact Southeast Asia was a blank slate---persists in textbook narratives.
+
+\citet{wolters1999} inverted the agency: Southeast Asian elites \textit{actively selected} Indian elements that enhanced their existing authority structures, a process he termed `localization'. \citet{kulke1990} proposed a `convergence' model in which Indian and local elements merged through mutual accommodation. \citet{pollock2006} reframed the question entirely, arguing that Sanskrit functioned as a `cosmopolitan' prestige language adopted voluntarily by local elites---analogous to the spread of Latin in medieval Europe.
+
+All four models focus on the \textit{contact process}. None systematically addresses what the pre-contact civilization looked like. This paper fills that gap, using computational methods to reconstruct the pre-Hindu Nusantaran cultural profile from surviving vocabulary.
+
+\subsection{Vocabulary as Archaeological Evidence}
+
+The use of reconstructed vocabulary to infer prehistoric culture has a long tradition. \citet{sapir1916} argued that linguistic evidence could provide `time perspective' on cultures without written records. The reconstruction of Proto-Indo-European vocabulary---\textit{*ekwos} (horse), \textit{*kwekwlos} (wheel), \textit{*melit} (honey)---has been used to infer that PIE speakers were pastoralists in a temperate steppe environment \citep{mallory2006}.
+
+In Austronesian studies, \citet{blust2009} reconstructed Proto-Austronesian and Proto-Malayo-Polynesian vocabulary to argue for a Taiwanese homeland, maritime technology, and a mixed agricultural-fishing economy. \citet{bellwood1995} used linguistic and archaeological evidence jointly to model the Austronesian expansion. However, this tradition has focused on \textit{proto-language} reconstruction (what the ancestor language tells us about ancestor culture), not on \textit{substrate} reconstruction (what surviving non-mainstream vocabulary tells us about cultures that were \textit{overwritten}).
+
+Our approach differs in a crucial way: we use a machine learning classifier (AUC = 0.76) to identify candidate substrate vocabulary in modern Austronesian languages, then classify these candidates by semantic domain to reconstruct the cultural profile of the overwritten civilization. This is, to our knowledge, the first application of ML-assisted substrate detection for cultural reconstruction.
+
+\subsection{Pre-Literate Complex Societies}
+
+The assumption that civilization requires writing is itself a cultural artifact of literate societies. Cahokia (Mississippi, 1050--1400 CE) supported a population of 20,000 with monumental earthworks and long-distance trade networks---without any writing system \citep{pauketat2009}. Great Zimbabwe (1100--1450 CE) had 18,000 inhabitants and stone architecture of remarkable sophistication. The Polynesian chiefdoms maintained populations of 30,000--100,000 through oral tradition, material encoding (tapa, tattoo), and astronomical navigation \citep{kirch2000}.
+
+Pre-Hindu Nusantara appears to occupy a similar position: high population (E108: 590,000--3,900,000), sophisticated technology (82\% indigenous vocabulary), maritime trade networks (E049: Sembiran Indian Ocean trade), and indigenous information systems (wayang, gamelan, Pranata Mangsa calendar, toponymic infrastructure covering 57.7\% of 25,244 Javanese villages). The difference is that Nusantara's \textit{organic material culture}---bamboo, palm leaf, wood, thatch---left no trace in a volcanic tropical environment.
+
+%% ================================================================
+\section{Data and Methods}
+
+\subsection{Data Sources}
+
+This study draws on four primary datasets:
+
+\begin{enumerate}
+\item \textbf{ABVD} (Austronesian Basic Vocabulary Database): 346,662 lexical forms from 1,309 languages \citep{greenhill2008}. Used for ghost writing detection (Part A).
+\item \textbf{E027 substrate vocabulary}: 438 candidate substrate items from six Sulawesi languages (Muna, Bugis, Makassar, Wolio, Toraja-Sadan, Tolaki), detected by a Random Forest classifier (AUC = 0.76, LOLO 5/6 $\geq$ 0.65). See [Author], under review.
+\item \textbf{E058 kakawin vocabulary}: 189 curated terms from Old Javanese literary texts, classified by semantic domain with native/Sanskrit attribution.
+\item \textbf{E051 toponymic data}: 25,244 Javanese village names from BPS census, classified as pre-Hindu (57.7\%) or post-Hindu.
+\end{enumerate}
+
+Supporting data includes the E110 visibility cascade model parameters, E111 script diffusion database (23 global adoption events), E108 demographic estimates, and E071 pre-400 CE evidence compilation.
+
+\subsection{Ghost Writing Detection}
+
+We searched the full ABVD for reflexes of four Proto-Austronesian/Proto-Malayo-Polynesian roots related to writing and marking: PAN \textit{*surat} (`to write, scratch, mark, design'), PMP \textit{*tulis} (`to write, draw, mark'), PMP \textit{*ukir} (`to carve, engrave'), and PMP \textit{*gures} (`to scratch, draw a line'). Reflexes were identified by regular expression matching against known sound correspondences, cross-referenced with published reconstructions in the Austronesian Comparative Dictionary \citep{blust_acd}.
+
+Writing-related vocabulary in modern Indonesian/Javanese was then classified as indigenous Austronesian or Sanskrit borrowing to determine whether the \textit{act} of writing or only the \textit{products} of writing were introduced by Indian contact.
+
+\subsection{Cultural Domain Reconstruction}
+
+The 438 substrate vocabulary items were classified into nine activity domains: Agriculture, Fishing/Maritime, Craft/Technology, Hunting/Gathering, Social/Governance, Spatial/Navigation, Knowledge/Cognition, Body/Medicine, and Ritual/Cosmology. Domain proportions serve as a proxy for the relative importance of different activities in the pre-Hindu cultural profile.
+
+This classification was cross-validated against the E058 kakawin domain analysis, which independently classified 189 literary terms by native/Sanskrit origin across the same nine domains.
+
+\subsection{Domain Stratification Analysis}
+
+We computed the native-vs-Sanskrit percentage for each semantic domain using E058 data. A chi-square goodness-of-fit test assessed whether Sanskrit penetration was uniform across domains (null hypothesis) or concentrated in specific domains (indicating selective, elite-driven adoption).
+
+\subsection{Visibility Cascade Model}
+
+The multiplicative cascade model combines five independent factors:
+
+\begin{equation}
+P(\text{visible}) = P(\text{not buried}) \times P(\text{not decayed}) \times P(\text{surveyed}) \times P(\text{recognized}) \times P(\text{published})
+\end{equation}
+
+Each factor was estimated independently: volcanic burial survival (0.58) from sedimentation models calibrated on five buried temple sites; organic decay survival (0.20) from material culture composition data; survey coverage (0.025) from comparative analysis with Japan's survey intensity; recognition probability (0.40) from historiographic bias assessment; publication probability (0.50) from systematic review of Indonesian archaeological literature. See Supplementary Materials for detailed justification of each parameter.
+
+%% ================================================================
+\section{Results}
+
+\subsection{The Indigenous Writing Concept}
+
+The search for PAN \textit{*surat} reflexes across the ABVD identified cognates in multiple Austronesian branches: Malay \textit{surat} (letter), Tagalog \textit{sulat} (to write/letter), Javanese \textit{serat} (writing), Balinese \textit{surat} (letter). PMP \textit{*tulis} reflexes include Malay \textit{tulis} (to write), Javanese \textit{tulis} (to write/paint), and Balinese \textit{tulis} (to write).
+
+The distribution across major Austronesian branches---Formosan, Philippine, Bornean, Javanese, Eastern Indonesian---confirms that these roots are inherited, not borrowed, and date to at least Proto-Austronesian (c.\ 3000 BCE for \textit{*surat}) and Proto-Malayo-Polynesian (c.\ 2000 BCE for \textit{*tulis}).
+
+A revealing pattern emerges when modern Indonesian writing vocabulary is classified by origin:
+
+\begin{table}[h]
+\centering
+\caption{Writing-related vocabulary by origin}
+\begin{tabular}{llll}
+\toprule
+Word & Meaning & Origin & Level \\
+\midrule
+\textit{tulis} & to write & Austronesian & PMP, $\sim$4000 BP \\
+\textit{surat} & letter, message & Austronesian & PAN, $\sim$5000 BP \\
+\textit{ukir} & to carve, engrave & Austronesian & PMP \\
+\textit{lontar} & palm manuscript & Austronesian & Javanese (\textit{ron}+\textit{tal}) \\
+\textit{aksara} & letter, script & Sanskrit & $\sim$1600 BP \\
+\textit{pustaka} & book & Sanskrit & $\sim$1600 BP \\
+\textit{kitab} & book, scripture & Arabic & $\sim$700 BP \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The pattern is striking: words for the \textit{process} of writing (\textit{tulis}, \textit{surat}, \textit{ukir}) are indigenous Austronesian; words for the \textit{products} of writing (\textit{aksara}, \textit{pustaka}) are Sanskrit borrowings. This is precisely what we would expect if \textit{marking and inscription on perishable media} existed before Indian contact introduced the technology of \textit{stone inscription} and the concept of the \textit{formal book}.
+
+\subsection{Cultural Profile from Substrate Vocabulary}
+
+The 438 substrate vocabulary items, classified into nine activity domains, reveal a civilization with a broad economic and cognitive base (Table~\ref{tab:domains}).
+
+\begin{table}[h]
+\centering
+\caption{Substrate vocabulary by activity domain (N=438)}
+\label{tab:domains}
+\begin{tabular}{lrrp{5.5cm}}
+\toprule
+Domain & N & \% & Significance \\
+\midrule
+Social/Governance & 44 & 18.3 & Complex social structure \\
+Knowledge/Cognition & 36 & 14.9 & Abstract thought capacity \\
+Craft/Technology & 33 & 13.7 & Sophisticated material production \\
+Spatial/Navigation & 33 & 13.7 & Territorial organization \\
+Hunting/Gathering & 21 & 8.7 & Deep-time subsistence \\
+Body/Medicine & 20 & 8.3 & Health knowledge system \\
+Agriculture & 20 & 8.3 & Food production \\
+Fishing/Maritime & 18 & 7.5 & Maritime economy \\
+Ritual/Cosmology & 16 & 6.6 & Religious complexity \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The dominance of Social/Governance (18.3\%) and Knowledge/Cognition (14.9\%) vocabulary in the substrate is particularly significant. These are not the vocabulary domains of a `simple' society. Indigenous words for `to think' (\textit{to'ori}, Tolaki), `to know' (\textit{podea}, Tolaki), `to dream' (\textit{mo'ipi}, Tolaki), and `correct/true' (\textit{meara'i}, Tolaki) indicate that abstract cognitive operations were expressed in the indigenous language, not borrowed from Sanskrit.
+
+\subsection{The Domain Penetration Gradient}
+
+Analysis of 189 kakawin literary terms reveals that Sanskrit penetration was radically non-uniform across semantic domains (Figure~\ref{fig:gradient}):
+
+\begin{itemize}
+\item \textbf{Sanskrit-dominated:} Religion/Ritual (86\% Sanskrit)
+\item \textbf{Contested:} Governance (51\%), War (55\%), Trade (45\%)
+\item \textbf{Indigenous fortress:} Agriculture (91\% native), Technology (82\%), Nature (76\%)
+\end{itemize}
+
+A chi-square goodness-of-fit test strongly rejects uniform penetration ($\chi^2 > 100$, $p < 10^{-10}$), confirming that Sanskritization was concentrated in elite domains (religion, governance, warfare) while leaving everyday economic and technological vocabulary---the vocabulary of the \textit{majority} of the population---essentially untouched.
+
+This pattern is inconsistent with \citeauthor{coedes1968}'s (\citeyear{coedes1968}) model of comprehensive cultural transformation. It is consistent with \citeauthor{pollock2006}'s (\citeyear{pollock2006}) model of Sanskrit as a cosmopolitan prestige language adopted by elites, but extends it quantitatively: we can now specify \textit{which} domains were cosmopolitan (religion at 86\%) and which were resistant (agriculture at 91\% indigenous).
+
+\subsection{The Visibility Cascade}
+
+The five-factor cascade model yields:
+
+\begin{equation}
+P(\text{visible}) = 0.58 \times 0.20 \times 0.025 \times 0.40 \times 0.50 = 0.00058 = 0.058\%
+\end{equation}
+
+The observed visibility rate---3 ambiguous pre-400 CE sites out of 9,659 expected settlements (from the demographic model)---is 0.031\%. The model-to-data ratio of 1.9$\times$ is well within parameter uncertainty (the model range spans 0.0024\% to 1.10\%).
+
+Sensitivity analysis reveals that \textit{survey coverage} is the single most impactful factor, with 40$\times$ leverage---meaning that increasing Indonesian archaeological survey intensity to even 10\% of Japan's level would be expected to reveal hundreds of pre-Hindu sites. Volcanic burial, while the most commonly cited explanation, contributes only 1.7$\times$ leverage as a single factor. Its importance lies not in magnitude but in \textit{spatial predictability}: it is the only factor in the cascade that generates testable geographic predictions for targeted fieldwork.
+
+\subsection{Script Adoption in Global Context}
+
+Java's 660-year writing adoption lag (from Brahmi, c.\ 260 BCE, to Kutai inscriptions, c.\ 400 CE) falls at the 57th percentile of 23 global writing diffusion events---squarely within the normal range. Among Brahmi-derived scripts specifically (mean adoption lag 508 years), Java is 152 years slower than average but well within one standard deviation. Myanmar (760 years), Thailand (810 years), and Sriwijaya (943 years) adopted writing \textit{later} than Java.
+
+The probability of organic writing materials (lontar palm leaf, bamboo, bark cloth) surviving 1,626 years in tropical Java ranges from $10^{-3}$ (lontar, best case) to $10^{-10}$ (bamboo). The 400 CE date marks the beginning of \textit{stone} inscription technology in Java---not the beginning of writing.
+
+\subsection{Inscription Sophistication: No Learning Curve}
+
+If stone inscriptions represented a genuinely \textit{new} technology---the first time writing appeared in Nusantara---we would expect a `learning curve': early inscriptions should be shorter, simpler, and more formulaic than mature ones. Analysis of 112 dated inscriptions from the DHARMA corpus (centuries 7--14) reveals the opposite pattern (Table~\ref{tab:sophistication}).
+
+\begin{table}[h]
+\centering
+\caption{Inscription sophistication: early (C7-C8) vs.\ mature (C10-C12)}
+\label{tab:sophistication}
+\begin{tabular}{lrrrl}
+\toprule
+Metric & Early & Mature & $p$ & Direction \\
+\midrule
+Guiraud index (vocab richness) & 9.06 & 13.97 & 0.019 & Mature richer \\
+Sanskrit phonology ratio & \textbf{0.59} & 0.38 & $<$0.001 & Early more Sanskrit \\
+Hapax legomena ratio & \textbf{0.76} & 0.57 & 0.006 & Early more unique \\
+Formulaic density & 0.026 & 0.026 & 0.42 & \textit{No difference} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The Guiraud index increases over time, but this is largely an artifact of increasing text length (partial correlation controlling for word count: $\rho = 0.17$, $p = 0.068$, not significant). More revealing is the \textit{formulaic density}, which shows no temporal trend whatsoever---the earliest inscriptions are exactly as formulaically sophisticated as those produced 500 years later. The hapax ratio is actually \textit{higher} in early inscriptions, indicating greater lexical novelty per word.
+
+Most striking is the Canggal inscription of 732 CE---one of the earliest known Javanese inscriptions---which achieves a Guiraud index of 17.89, \textit{higher than the mean for any century in the corpus}. This is not a beginner's text; it is a masterwork that presupposes a mature literary tradition.
+
+The absence of a learning curve is strong evidence that stone inscription was a \textit{medium transfer}, not a \textit{technology adoption}. The literary tradition existed on organic media before it was carved in stone.
+
+\subsection{Comparative Complexity: Where Nusantara Ranks}
+
+To contextualize the reconstructed Nusantaran profile, we scored 10 pre-literate or early-literate complex societies on seven standardized dimensions (population, agriculture, technology, trade, hierarchy, information technology, architecture) using a 0--5 scale. Pre-Hindu Nusantara, scored from E108 demographic estimates and E112 vocabulary reconstruction, ranks \textit{first} with a Civilization Complexity Index (CCI) of 23/35 ($z = 2.12$ above the comparanda mean of 14.7).
+
+The ranking exceeds well-attested archaeological civilizations: Polynesian Chiefdoms (21), Great Zimbabwe (20), Cahokia (15), and Norte Chico (14). Nusantara's lowest score is monumental architecture (1/5)---precisely the dimension that the visibility cascade predicts would be invisible. The `taphonomic paradox' is quantified: Nusantara scores highest on dimensions that leave \textit{no physical trace} and lowest on the dimension that constitutes the archaeological record.
+
+%% ================================================================
+\section{Discussion}
+
+\subsection{Vocabulary Archaeology as Method}
+
+We propose `vocabulary archaeology' as a systematic method for reconstructing invisible civilizations from surviving vocabulary. Its advantages over conventional approaches are:
+
+\begin{enumerate}
+\item \textbf{Taphonomic immunity:} Vocabulary cannot be buried, submerged, or burned. It survives in descendant languages regardless of physical taphonomy.
+\item \textbf{Democratic scope:} Unlike inscriptions (which record elite concerns) or monumental architecture (which reflects state investment), vocabulary encodes \textit{all} levels of society---farmers, fishermen, craftspeople, healers.
+\item \textbf{Computational scalability:} ML-based substrate detection can process thousands of lexical items across hundreds of languages simultaneously.
+\end{enumerate}
+
+Its limitations are equally clear: vocabulary tells us \textit{what} people did and thought, but not \textit{how many} they were, \textit{where} they lived, or \textit{what} their structures looked like. It is a complement to, not a replacement for, archaeological fieldwork.
+
+We propose vocabulary archaeology as a sixth recovery channel for invisible civilizations, alongside: (1) field excavation, (2) remote sensing (satellite, LiDAR, GPR), (3) NLP-based textual analysis, (4) ancient DNA, and (5) external historical references.
+
+\subsection{Reframing the `Hindu Period'}
+
+The domain penetration gradient demands a reframing of conventional periodization. The `Hindu period' of Java (c.\ 400--1500 CE) was not a period of comprehensive cultural transformation. It was a period when \textit{elite court culture adopted Sanskrit cosmopolitan vocabulary} while 91\% of agricultural terminology, 82\% of technological vocabulary, and 76\% of nature concepts remained indigenous.
+
+The `end of the Hindu period' (c.\ 1500 CE, Majapahit collapse) was not a rupture. The substrate had never been replaced; it had merely been \textit{overlaid}. When the Sanskrit cosmopolitan layer retracted, the indigenous substrate---which had been the operational vocabulary of the majority throughout---simply became visible again. This is quantitatively supported by the Indianization curve, which shows the Indic vocabulary ratio declining from its peak in century 9 (0.807) to century 13 (0.569): the substrate was \textit{growing}, not shrinking, throughout the `Hindu period'.
+
+\subsection{The West Java Smoking Gun}
+
+The strongest evidence that absence equals taphonomy---not absence of civilization---comes from within-island comparison. The Buni Complex (Tangerang coast, 200 BCE--500 CE) and Batujaya temple complex (Karawang, 2nd--5th century CE) demonstrate that complex pre-Hindu society existed on Java's \textit{non-volcanic} coast, with extensive pottery, bead manufacture, metalwork, and brick architecture.
+
+The volcanic interior of East Java, in the same cultural and temporal sphere, preserves \textit{nothing} from this period. The only systematic difference is geological: the coast is non-volcanic alluvial plain; the interior is volcanic terrain subject to the five-factor visibility cascade. The West Java comparison is, in effect, a natural experiment with geology as the treatment variable.
+
+\subsection{Implications for the Indianization Debate}
+
+Our findings suggest a revision of existing models:
+
+\begin{itemize}
+\item \textbf{Coedes was wrong:} There was no `primitive' society awaiting transformation. The pre-contact civilization had indigenous writing concepts, sophisticated technology, and a population exceeding contemporary Dvaravati or Dong Son.
+\item \textbf{Wolters was right about agency}, but understated its scope. The localization process was not just selective adoption---it was a \textit{terminological overlay} in which Sanskrit captured elite religious discourse while leaving 82--91\% of everyday vocabulary untouched.
+\item \textbf{Pollock's cosmopolis model} is most consistent with our data, but can now be quantified: Sanskrit operated as a cosmopolitan language in religion (86\% penetration), governance (51\%), and warfare (55\%), but not in the domains that constituted daily life for the vast majority.
+\end{itemize}
+
+We propose the term `terminological overlay' for this pattern: a prestige vocabulary layer adopted by elites for specific domains, leaving the substrate intact in others. This is analogous to the relationship between Norman French and Anglo-Saxon English after 1066, where French dominated law, government, and cuisine (\textit{justice}, \textit{parliament}, \textit{beef}) while English retained everyday vocabulary (\textit{house}, \textit{field}, \textit{cow}).
+
+\subsection{Limitations}
+
+Several limitations must be acknowledged. First, the 438 substrate items are \textit{candidates}, not confirmed substrates; the ML classifier has AUC = 0.76, meaning approximately 24\% of classifications may be incorrect. Second, domain classification uses modern semantic categories that may not map precisely onto pre-Hindu conceptual boundaries. Third, the kakawin analysis is type-based (counting unique words) rather than token-based (counting occurrences), which may underweight frequently used indigenous terms. Fourth, the cascade model's five factors are estimated from literature and project data, not directly measured. Fifth, Proto-Austronesian reconstructions, while representing scholarly consensus, are hypothetical by nature.
+
+%% ================================================================
+\section{Conclusion}
+
+Pre-Hindu Nusantara was not a blank slate awaiting Indian civilization. It was a complex agrarian-maritime society with indigenous writing concepts dating to 3000 BCE, sophisticated craft technology (82\% indigenous vocabulary), a mixed economy of agriculture, fishing, and trade, and deep cosmological traditions expressed in indigenous Austronesian concepts. The vocabulary survives when everything else has been destroyed---it is the ultimate taphonomic residue.
+
+The invisibility of this civilization is quantitatively predicted by a five-factor multiplicative cascade: survey deficit (40$\times$ leverage), organic material decay (5$\times$), recognition bias (2.5$\times$), publication barriers (2$\times$), and volcanic burial (1.7$\times$). The combined probability of archaeological survival---0.058\%---matches the observed 0.031\% gap between the 9,659 expected pre-400 CE settlements and the 0--3 actually known.
+
+The `Hindu period' of Java (400--1500 CE) was a terminological overlay: Sanskrit captured 86\% of religious vocabulary while leaving 91\% of agriculture and 82\% of technology vocabulary indigenous. The civilization did not begin with India. It was already there. Vocabulary archaeology---the computational recovery of cultural information from surviving vocabulary---offers a sixth channel for recovering what conventional archaeology cannot see.
+
+The most impactful intervention is not more sophisticated computational modeling. It is a 40-fold increase in archaeological survey intensity---the single factor with the highest leverage in the visibility cascade. When Indonesia looks, it will find.
+
+\medskip
+\noindent\textbf{Acknowledgments.} This research was assisted by Claude (Anthropic) for computational analysis, literature synthesis, and manuscript preparation. All data interpretations, theoretical framing, and scholarly judgments are the author's responsibility.
+
+\medskip
+\noindent\textbf{Data availability.} All code and non-sensitive data are available at [repository URL upon acceptance].
+
+\bibliographystyle{apalike}
+\bibliography{p18_references}
+
+\end{document}

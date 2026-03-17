@@ -1,0 +1,87 @@
+{
+  "compared_against": "e090_all_results.json",
+  "changes": {
+    "exp1": {
+      "n_passages": {
+        "prev": 50,
+        "v5": 200
+      },
+      "ratio_within_between": {
+        "prev": 1.3477035760879517,
+        "v5": 1.2923296689987183
+      },
+      "within_mean": {
+        "prev": 0.4003322124481201,
+        "v5": 0.3936918377876282
+      },
+      "between_mean": {
+        "prev": 0.2970476746559143,
+        "v5": 0.3046373128890991
+      }
+    },
+    "exp2": {
+      "n_clusters": {
+        "prev": 9,
+        "v5": 21
+      },
+      "pct_mixed": {
+        "prev": 77.77777777777777,
+        "v5": 57.142857142857146
+      },
+      "clustering_type": {
+        "prev": "content-driven",
+        "v5": "content-driven"
+      }
+    },
+    "exp5": {
+      "JAVA": {
+        "prev_z": 0.8824359774589539,
+        "v5_z": 21.913663864135742,
+        "delta_z": 21.03122788667679,
+        "verdict": "CONVERGES"
+      },
+      "SUMATRA_GOLD": {
+        "prev_z": 4.839786529541016,
+        "v5_z": 25.22420883178711,
+        "delta_z": 20.384422302246094,
+        "verdict": "CONVERGES"
+      },
+      "CAMPHOR_BARUS": {
+        "prev_z": 6.553317070007324,
+        "v5_z": 28.762588500976562,
+        "delta_z": 22.20927143096924,
+        "verdict": "CONVERGES"
+      },
+      "SPICE_TRADE": {
+        "prev_z": 8.423599243164062,
+        "v5_z": 34.27742004394531,
+        "delta_z": 25.85382080078125,
+        "verdict": "CONVERGES"
+      },
+      "MARITIME_VOYAGE": {
+        "prev_z": 9.436570167541504,
+        "v5_z": 19.483110427856445,
+        "delta_z": 10.046540260314941,
+        "verdict": "CONVERGES"
+      },
+      "VOLCANO": {
+        "prev_z": null,
+        "v5_z": 7.394169330596924,
+        "delta_z": null,
+        "verdict": "CONVERGES"
+      },
+      "BUDDHIST_WORLD": {
+        "prev_z": null,
+        "v5_z": 4.593217372894287,
+        "delta_z": null,
+        "verdict": "CONVERGES"
+      },
+      "METAL_TRADE": {
+        "prev_z": null,
+        "v5_z": 2.711836814880371,
+        "delta_z": null,
+        "verdict": "CONVERGES"
+      }
+    }
+  }
+}

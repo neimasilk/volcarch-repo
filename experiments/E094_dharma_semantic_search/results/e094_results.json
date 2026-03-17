@@ -1,0 +1,146 @@
+{
+  "experiment": "E094_dharma_semantic_search",
+  "description": "First SBERT application to Old Javanese epigraphy",
+  "total_xml_parsed": 268,
+  "with_translations": 173,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "clustering": {
+    "method": "UMAP + HDBSCAN",
+    "n_clusters": 4,
+    "n_noise": 0,
+    "century_purity": 0.3696
+  },
+  "semantic_queries": {
+    "village administration and land grants": {
+      "mean_similarity": 0.3597,
+      "cross_century": true,
+      "centuries": [
+        10,
+        11
+      ]
+    },
+    "mountain worship and sacred peaks": {
+      "mean_similarity": 0.3952,
+      "cross_century": true,
+      "centuries": [
+        9,
+        10
+      ]
+    },
+    "water infrastructure irrigation dams": {
+      "mean_similarity": 0.2649,
+      "cross_century": false,
+      "centuries": [
+        9
+      ]
+    },
+    "royal genealogy and succession": {
+      "mean_similarity": 0.3575,
+      "cross_century": true,
+      "centuries": [
+        11,
+        13,
+        14
+      ]
+    },
+    "tax collection and economic regulation": {
+      "mean_similarity": 0.2355,
+      "cross_century": true,
+      "centuries": [
+        10,
+        11
+      ]
+    },
+    "Buddhist monastery and religious donation": {
+      "mean_similarity": 0.3719,
+      "cross_century": false,
+      "centuries": [
+        10
+      ]
+    },
+    "volcanic landscape fire mountain": {
+      "mean_similarity": 0.2437,
+      "cross_century": true,
+      "centuries": [
+        9,
+        10,
+        14
+      ]
+    }
+  },
+  "temporal_drift": {
+    "century_sizes": {
+      "8": 5,
+      "9": 17,
+      "10": 12,
+      "11": 3,
+      "12": 1,
+      "13": 4,
+      "14": 4
+    },
+    "consecutive_distances": {
+      "C8->C9": 0.1633,
+      "C9->C10": 0.0871,
+      "C10->C11": 0.2077,
+      "C11->C12": 0.3655,
+      "C12->C13": 0.2454,
+      "C13->C14": 0.1813
+    },
+    "all_pairwise_distances": {
+      "C8-C9": 0.1633,
+      "C8-C10": 0.1885,
+      "C8-C11": 0.2783,
+      "C8-C12": 0.2924,
+      "C8-C13": 0.1836,
+      "C8-C14": 0.2485,
+      "C9-C10": 0.0871,
+      "C9-C11": 0.2266,
+      "C9-C12": 0.3186,
+      "C9-C13": 0.2531,
+      "C9-C14": 0.2369,
+      "C10-C11": 0.2077,
+      "C10-C12": 0.2878,
+      "C10-C13": 0.255,
+      "C10-C14": 0.2225,
+      "C11-C12": 0.3655,
+      "C11-C13": 0.3111,
+      "C11-C14": 0.3009,
+      "C12-C13": 0.2454,
+      "C12-C14": 0.2286,
+      "C13-C14": 0.1813
+    },
+    "pre_post_929_distance": 0.1118,
+    "pre_929_count": 33,
+    "post_929_count": 13
+  },
+  "vocabulary_analysis": {
+    "cluster_0": {
+      "indigenous": 17,
+      "sanskrit": 77,
+      "ratio_indigenous_to_sanskrit": 0.221
+    },
+    "cluster_1": {
+      "indigenous": 0,
+      "sanskrit": 0,
+      "ratio_indigenous_to_sanskrit": 0.0
+    },
+    "cluster_2": {
+      "indigenous": 0,
+      "sanskrit": 0,
+      "ratio_indigenous_to_sanskrit": 0.0
+    },
+    "cluster_3": {
+      "indigenous": 373,
+      "sanskrit": 838,
+      "ratio_indigenous_to_sanskrit": 0.445
+    }
+  },
+  "output_files": [
+    "results/dharma_embeddings.npy",
+    "results/dharma_clusters.json",
+    "results/semantic_queries.json",
+    "results/temporal_drift.json",
+    "results/e094_results.json"
+  ]
+}

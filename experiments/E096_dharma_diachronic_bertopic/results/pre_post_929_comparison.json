@@ -1,0 +1,97 @@
+{
+  "pre_929_count": 33,
+  "post_929_count": 13,
+  "only_pre_929": {
+    "topic_-1": {
+      "count": 2,
+      "keywords": "outlier"
+    },
+    "topic_2": {
+      "count": 6,
+      "keywords": "ḍa, ḍa punta, punta, day cycle, cycle"
+    }
+  },
+  "only_post_929": {},
+  "persistent": {
+    "topic_0": {
+      "pre_929_count": 23,
+      "post_929_count": 5,
+      "keywords": "si, called, pu, māṣa, father"
+    },
+    "topic_1": {
+      "pre_929_count": 2,
+      "post_929_count": 8,
+      "keywords": "great, king, royal, śrī, great king"
+    }
+  },
+  "chi_square": {
+    "statistic": 16.5831,
+    "p_value": 0.000251,
+    "dof": 2,
+    "interpretation": "significant"
+  },
+  "fisher_exact_per_topic": {
+    "topic_0": {
+      "contingency": [
+        [
+          23,
+          10
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "odds_ratio": 3.68,
+      "p_value": 0.091607,
+      "keywords": "si, called, pu, māṣa, father",
+      "interpretation": "not significant"
+    },
+    "topic_1": {
+      "contingency": [
+        [
+          2,
+          31
+        ],
+        [
+          8,
+          5
+        ]
+      ],
+      "odds_ratio": 0.0403,
+      "p_value": 0.000173,
+      "keywords": "great, king, royal, śrī, great king",
+      "interpretation": "significant"
+    },
+    "topic_2": {
+      "contingency": [
+        [
+          6,
+          27
+        ],
+        [
+          0,
+          13
+        ]
+      ],
+      "odds_ratio": "inf",
+      "p_value": 0.163265,
+      "keywords": "ḍa, ḍa punta, punta, day cycle, cycle",
+      "interpretation": "not significant"
+    }
+  },
+  "focused_c9c10_vs_c11c14": {
+    "c9_c10_count": 29,
+    "c11_c14_count": 12,
+    "c9_c10_topic_distribution": {
+      "topic_0": 22,
+      "topic_2": 5,
+      "topic_-1": 2
+    },
+    "c11_c14_topic_distribution": {
+      "topic_1": 8,
+      "topic_0": 4
+    },
+    "caveat": "C12 has ~1 inscription; C13-C14 very sparse. Interpret with caution."
+  }
+}

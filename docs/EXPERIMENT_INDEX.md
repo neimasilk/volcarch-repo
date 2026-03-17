@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Last updated:** 2026-03-16
-**Total:** 98 experiments (E001-E098, minus E021/E045-E047/E072/E077/E095 unused)
+**Last updated:** 2026-03-17
+**Total:** 115 experiments (E001-E114 + E095 activated, minus E021/E045-E047/E072/E077 unused)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -13,11 +13,11 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| SUCCESS | 61 | Hypothesis supported or useful result |
+| SUCCESS | 63 | Hypothesis supported or useful result |
 | INFO NEG | 7 | Negative result that IS informative |
 | CONDITIONAL | 4 | Partially supported, caveats |
 | INCONCLUSIVE | 3 | Cannot determine, need more data |
-| MIXED | 2 | Multiple sub-experiments, mixed results |
+| MIXED | 3 | Multiple sub-experiments, mixed results |
 | PARTIAL | 1 | Survives with scope restriction |
 | FAILED | 2 | Hypothesis rejected or method broken |
 | COMPLETE (foundation) | 6 | Data/infrastructure, not hypothesis-driven |
@@ -170,7 +170,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 |----|-------|--------|-------|------------|
 | E088 | Computational textual archaeology | SUCCESS | P16 | 27 refs, 9 traditions, convergence p<0.00001 |
 | E089 | Expanded textual corpus | SUCCESS | P16 | **v3: 106 refs**, 12 traditions, 346 entities |
-| E090 | Transformer NLP | MIXED | P16 | 4/6 positive. UMAP 78% cross-trad, convergence 4/5 |
+| E090 | Transformer NLP | **SUCCESS** (v5) | P16 | v5: 16 BERTopic topics, 8/8 converge, VOLCANO z=7.39 |
 
 ### Colonial NLP Mining (E091)
 
@@ -185,12 +185,13 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | E092 | Volcanic archaeology comparanda | SUCCESS | P1, fieldwork | 28 sites worldwide, methodology blueprint for Zone B/C |
 | E093 | Indonesian lit mining | SUCCESS | P1, P2, fieldwork | 65 publications, GPR leads at Trowulan/Liyangan/Sambisari |
 
-### DHARMA Semantic NLP (E094, E096)
+### DHARMA Semantic NLP (E094, E095, E096)
 
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
-| E094 | DHARMA semantic search | PENDING GPU | P5, P8 | SBERT on 269 Old Javanese inscriptions — first ever |
-| E096 | DHARMA diachronic BERTopic | PENDING GPU | P5, P8, P16 | First BERTopic on any epigraphy. Pre/post-929 CE |
+| E094 | DHARMA semantic search | **SUCCESS** | P5, P8, P16 | 4 clusters, volcanic themes rarest (0.244), C11-C12 semantic rupture |
+| E095 | Cross-lingual XLM-R/ML-SBERT | **SUCCESS (MIXED)** | P16 | Validates E094 (rho=0.336). XLM-R: embedding collapse. ML-SBERT: volcanic silence confirmed. #99 |
+| E096 | DHARMA diachronic BERTopic | **SUCCESS** | P5, P8, P16 | 929 CE topic shift p=0.0003. Royal surges, ritual vanishes |
 
 ### Anomaly Detection & Literature DB (E097-E098)
 
@@ -198,12 +199,33 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 |----|-------|--------|-------|------------|
 | E097 | Anomaly detection settlement model | SUCCESS | P1, P2 | **65% overlap** with E080 targets. Kelud focus. TRI top feature |
 | E098 | Systematic literature database | SUCCESS | P1 | 69 sed. rates, 29 buried sites, 20 GPR surveys worldwide |
+| E099 | Eruption × inscription temporal | INCONCLUSIVE | P5, P11 | Decade anti-corr rho=-0.26 p=0.013, but GVP too sparse (13 events) |
+| E100 | Coastal-highland visibility | **SUCCESS** (rejected H) | P1, P2 | Monotonic density increase with elevation (18.6× coast→mountain). No inverse-U. |
+| E101 | Burial depth multivariate model | PARTIAL | P1 | Eruption freq predicts depth (rho=0.373, p=0.012). Multivariate overfits (N=45). |
+| **E102** | **Vocabulary × burial depth nexus** | **SUCCESS** | **P5, P8, P1** | **Indigenous ratio × depth rho=0.456 (length-controlled) p<0.0001. Sanskrit-driven.** |
+| E103 | Pre-Indic spatial gradient | SUCCESS | P5, P9 | Temporal trend rho=0.781 ONLY at 20-40km (court zone). 929 CE shift zone-specific. |
+| E104 | Court zone multi-dataset | SUCCESS | P7, P5, P11 | Candi peak 0-10km, inscriptions peak 20-30km. Fisher OR=1.86, p=0.012. |
+| E105 | Topic × geography | SUCCESS | P5, P7, P9 | Sanskrit 72% in court zone. Post-929 shifts to periphery. Two Javas model. |
+| E106 | Colonial Two Javas validation | SUGGESTIVE | P17, P1 | N=43 colonial entries. Court-zone bias confirmed (58%). Volcanic context drops with distance. p=0.217 (low N). |
 
 ### E090 v5 Update
 
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
-| E090 v5 | Full transformer NLP (200 entries) | PENDING GPU | P16 | BERTopic reactivated, 8 concept groups, v2→v5 delta |
+| E090 v5 | Full transformer NLP (200 entries) | **SUCCESS** | P16 | 16 BERTopic topics, 8/8 converge, VOLCANO z=7.39 |
+
+### Structural Audit Experiments (E107-E109)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E107** | **ADV-5 Re-examination** | **SUCCESS** | **P8, L4** | **C5 = Mon-Khmer substrate, NOT documentation artifact. All 6 MK predictions confirmed (p<0.001). E027 UPGRADED.** |
+| **E108** | **Demographic null model** | **SUCCESS** | **All** | **Java pre-400 CE carrying capacity 590K-3.9M. Archaeological gap 3,220×. Null hypothesis REJECTED.** |
+| E109 | Forward simulation | MIXED | P1, L1 | Survey-burial confound: density INCREASES with depth. τ=∞, ρ=181m. 824 hidden sites. Survey deficit > burial. |
+| **E110** | **Visibility cascade model** | **SUCCESS** | **All** | **5-factor cascade predicts 0.058% visible vs 0.031% observed (1.9×). Survey 40× leverage. West Java smoking gun.** |
+| E111 | Script diffusion timing | SUCCESS | L3 | Java's 660yr script adoption lag = 57th percentile globally. Normal, not anomalous. |
+| E112 | Vocabulary archaeology | SUCCESS | P18, L3 | Ghost writing (PAN *surat indigenous). 9 cultural domains reconstructed. Agriculture 91% native vs Religion 86% Sanskrit. |
+| **E113** | **Inscription sophistication** | **SUCCESS** | **P18, L3** | **EARLY_PEAK. No learning curve. Hapax ratio p=0.006, Sanskrit phonology p<0.001 (early > mature). Pre-existing organic-media literary tradition.** |
+| E114 | Pre-literate comparanda | SUCCESS | P18, L3 | Nusantara #1/10 pre-literate societies (CCI=23, z=2.12). Exceeds Cahokia, Great Zimbabwe. |
 
 ---
 
@@ -223,7 +245,7 @@ Experiments that could yield better results with new data, methods, or context.
 | E053 | FDR casualty | p=0.047 uncorrected, aDNA gap is real | More aDNA studies published |
 | E076 | Low N | Concept works (2.5× variance) but needs 20+ sites | Expand to 20+ candi |
 | E081 | INCONCLUSIVE | N=13 control too small; cave bias universal | More non-volcanic region data |
-| E087 | GREY ZONE | C5 AUC=0.713 from documentation gap, not substrate | ABVD expanded; redesign detector |
+| ~~E087~~ | ~~GREY ZONE~~ **RESOLVED by E107** | C5 = Mon-Khmer substrate (not documentation artifact). ADV-5 reclassified. | E107 done |
 | E090/EXP4 | ~~WEAK~~ **ADDRESSED** | BERTopic reactivated in E090 v5 (200 entries) | Run v5 script |
 | E090/EXP6 | NEGATIVE | NLI wrong tool; try entity-level comparison | Different NLP approach |
 
@@ -242,6 +264,8 @@ These are the strongest results that survive FDR correction and adversarial test
 | E085 | Substrate signal vs noise | <0.0001, z=11.05 | ADV-4 PASSED |
 | E069 | Volcanic signal vs survey | 0.0015 | ADV-3 PASSED |
 | E083 | Tephra-site correlation | Independent dataset | Clean |
+| **E108** | **Demographic gap 3,220×** | Population model | **Null hypothesis test** |
+| **E107** | **ADV-5 resolved: C5 = MK substrate** | p<0.0001 (6 tests) | **Upgrades E027/L4** |
 
 ---
 

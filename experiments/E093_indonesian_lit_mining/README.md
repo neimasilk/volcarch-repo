@@ -102,9 +102,22 @@ The database provides a foundation for systematic extraction of validation data 
 - BPCB internal reports and university theses are identified as leads but not yet obtained
 - Coverage biased toward Java; Bali, Sumatra, and eastern Indonesia are less represented
 
+## Cross-Reference with E070 (2026-03-17)
+
+Programmatic cross-reference (`cross_reference_e070.py`) identified:
+- **5 site-level matches** (Trowulan dominant: 4 publications)
+- **22 publications** covering E070 volcanic systems
+- **27 publications** with potentially new burial depth data not in E070
+- **Key gap:** Semeru (underrepresented) and Dieng (no depth publications)
+- **Key insight:** Trowulan has richest intersection (4 pubs x 5 E070 entries). Rangkuti 2008 (Lumajang/Semeru) and Rangkuti 2000 (Arjuno slopes) are highest-priority extraction targets for expanding E070 beyond 52 entries.
+
+Full report: `results/cross_reference_e070_report.md`
+JSON output: `results/cross_reference_e070.json`
+
 ## Next Steps
 
 1. Obtain and extract data from Tier 1 validation targets (Pojoh 2007, Rangkuti 2008/2000, Riyanto 2014, Lukas 2012)
 2. Systematic search of BPCB report archives and ITB/UGM thesis repositories
 3. Expand database to include Kalpataru and Berita Penelitian Arkeologi back-issues systematically
 4. Feed validated depth measurements into E075 sedimentation model for calibration
+5. Extract depth measurements from 27 new-depth-candidate publications to expand E070 register

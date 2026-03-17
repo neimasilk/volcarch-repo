@@ -1,0 +1,89 @@
+{
+  "experiment": "E107_adv5_reexamination",
+  "date": "2026-03-17",
+  "question": "Is C5 (Iban+Malay) really a negative control for substrate detection?",
+  "key_insight": "Iban has documented Mon-Khmer (Aslian) substrate (Adelaar 1985, 1992, 2005)",
+  "samples": {
+    "sulawesi_residuals": 438,
+    "c5_residuals": 73,
+    "iban_residuals": 67,
+    "malay_residuals": 6,
+    "c1_residuals": 37
+  },
+  "mk_shape_analysis": {
+    "c5_residual_mk_rate": 0.6575,
+    "sulawesi_residual_mk_rate": 0.395,
+    "iban_residual_mk_rate": 0.7015,
+    "fisher_test": {
+      "OR": 0.7928,
+      "p": 0.408586
+    }
+  },
+  "syllable_analysis": {
+    "c5_mean_syllables": 2.041,
+    "sulawesi_mean_syllables": 2.571
+  },
+  "concept_overlap": {
+    "n_shared_concepts": 210,
+    "spearman_rho": 0.2409,
+    "p_value": 0.000428,
+    "interpretation": "MIXED"
+  },
+  "phonological_comparison": {
+    "length": {
+      "mean_C5_res": 5.3836,
+      "mean_Sul_res": 6.0959,
+      "p_value": 0.002452,
+      "direction": "Sul_res higher"
+    },
+    "vowel_ratio": {
+      "mean_C5_res": 0.4254,
+      "mean_Sul_res": 0.4867,
+      "p_value": 2e-06,
+      "direction": "Sul_res higher"
+    },
+    "ends_vowel": {
+      "mean_C5_res": 0.274,
+      "mean_Sul_res": 0.7854,
+      "p_value": 0.0,
+      "direction": "Sul_res higher"
+    },
+    "syllables": {
+      "mean_C5_res": 2.0411,
+      "mean_Sul_res": 2.5708,
+      "p_value": 0.0,
+      "direction": "Sul_res higher"
+    },
+    "has_an_prefix": {
+      "mean_C5_res": 0.1507,
+      "mean_Sul_res": 0.3699,
+      "p_value": 0.000253,
+      "direction": "Sul_res higher"
+    },
+    "n_consonant_clusters": {
+      "mean_C5_res": 0.3836,
+      "mean_Sul_res": 0.4795,
+      "p_value": 0.138791,
+      "direction": "Sul_res higher"
+    },
+    "has_glottal": {
+      "mean_C5_res": 0.1918,
+      "mean_Sul_res": 0.2352,
+      "p_value": 0.41491,
+      "direction": "Sul_res higher"
+    },
+    "is_mk_shape": {
+      "mean_C5_res": 0.6575,
+      "mean_Sul_res": 0.395,
+      "p_value": 2.8e-05,
+      "direction": "C5_res higher"
+    }
+  },
+  "scoring": {
+    "evidence_for_mk": 4,
+    "evidence_for_artifact": 0,
+    "mk_probability": 1.0
+  },
+  "verdict": "MON_KHMER_SUBSTRATE",
+  "implication": "C5 (Iban+Malay) is NOT a clean negative control. The detector is likely picking up genuine Mon-Khmer substrate in Iban. E087 ADV-5 should be RECLASSIFIED from GREY ZONE to PARTIAL POSITIVE CONTROL. E027 substrate detection is STRONGER than previously assessed. L4 (Cosmological Overwrite) evidence is UPGRADED."
+}

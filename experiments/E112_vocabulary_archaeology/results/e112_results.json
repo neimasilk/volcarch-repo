@@ -1,0 +1,113 @@
+{
+  "experiment": "E112_vocabulary_archaeology",
+  "date": "2026-03-17",
+  "ghost_writing": {
+    "pan_surat": "Proto-Austronesian *surat (to write/mark), ~5000 BP — INDIGENOUS",
+    "pmp_tulis": "Proto-Malayo-Polynesian *tulis (to write/draw), ~4000 BP — INDIGENOUS",
+    "implication": "Writing concept predates Indian contact by 2000-3000 years",
+    "sanskrit_products": [
+      "aksara (letter)",
+      "pustaka (book)"
+    ],
+    "indigenous_process": [
+      "surat (letter/message)",
+      "tulis (to write)",
+      "lontar (palm manuscript)"
+    ]
+  },
+  "cultural_reconstruction": {
+    "SOCIAL_GOVERNANCE": {
+      "count": 44,
+      "pct": 18.3,
+      "strength": "DOMINANT"
+    },
+    "KNOWLEDGE_COGNITION": {
+      "count": 36,
+      "pct": 14.9,
+      "strength": "SIGNIFICANT"
+    },
+    "CRAFT_TECHNOLOGY": {
+      "count": 33,
+      "pct": 13.7,
+      "strength": "SIGNIFICANT"
+    },
+    "SPATIAL_NAVIGATION": {
+      "count": 33,
+      "pct": 13.7,
+      "strength": "SIGNIFICANT"
+    },
+    "HUNTING_GATHERING": {
+      "count": 21,
+      "pct": 8.7,
+      "strength": "SIGNIFICANT"
+    },
+    "BODY_MEDICINE": {
+      "count": 20,
+      "pct": 8.3,
+      "strength": "SIGNIFICANT"
+    },
+    "AGRICULTURE": {
+      "count": 20,
+      "pct": 8.3,
+      "strength": "SIGNIFICANT"
+    },
+    "FISHING_MARITIME": {
+      "count": 18,
+      "pct": 7.5,
+      "strength": "PRESENT"
+    },
+    "RITUAL_COSMOLOGY": {
+      "count": 16,
+      "pct": 6.6,
+      "strength": "PRESENT"
+    }
+  },
+  "domain_stratification": {
+    "Agriculture": {
+      "native_pct": 91,
+      "sanskrit_pct": 9,
+      "status": "INDIGENOUS FORTRESS"
+    },
+    "Religion/Ritual": {
+      "native_pct": 14,
+      "sanskrit_pct": 86,
+      "status": "SANSKRIT DOMINATED"
+    },
+    "Governance/Law": {
+      "native_pct": 49,
+      "sanskrit_pct": 51,
+      "status": "CONTESTED ZONE"
+    },
+    "Nature/Environment": {
+      "native_pct": 76,
+      "sanskrit_pct": 24,
+      "status": "INDIGENOUS STRONG"
+    },
+    "Body/Medicine": {
+      "native_pct": 68,
+      "sanskrit_pct": 32,
+      "status": "INDIGENOUS STRONG"
+    },
+    "Technology/Craft": {
+      "native_pct": 82,
+      "sanskrit_pct": 18,
+      "status": "INDIGENOUS FORTRESS"
+    },
+    "Trade/Economy": {
+      "native_pct": 55,
+      "sanskrit_pct": 45,
+      "status": "CONTESTED ZONE"
+    },
+    "Kinship/Social": {
+      "native_pct": 62,
+      "sanskrit_pct": 38,
+      "status": "INDIGENOUS STRONG"
+    },
+    "War/Conflict": {
+      "native_pct": 45,
+      "sanskrit_pct": 55,
+      "status": "CONTESTED ZONE"
+    }
+  },
+  "verdict": "Pre-Hindu Nusantara was a complex agrarian-maritime civilization with indigenous writing concepts (PAN *surat, PMP *tulis), sophisticated technology (82% native vocabulary), and deep cosmological traditions. Sanskrit overlay was an elite phenomenon affecting religion (86%) and governance (51%), while agriculture (91% native), technology (82%), and nature (76%) remained indigenous. The 400 CE date marks the start of stone inscription technology, not civilization."
+}

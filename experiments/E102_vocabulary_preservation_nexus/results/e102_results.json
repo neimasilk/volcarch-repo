@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "experiment": "E102",
+    "date": "2026-03-17",
+    "n_merged": 182,
+    "n_matched": 159
+  },
+  "correlations": {
+    "Indigenous ratio \u00d7 burial depth": {
+      "rho": 0.5621438092338634,
+      "p": 1.2570345709080637e-14,
+      "n": 159
+    },
+    "Indigenous count \u00d7 burial depth": {
+      "rho": 0.5336154283227436,
+      "p": 4.411826822168345e-13,
+      "n": 159
+    },
+    "Volcanic terms \u00d7 burial depth": {
+      "rho": 0.27918246122151397,
+      "p": 0.00036565324029727916,
+      "n": 159
+    },
+    "Geographic terms \u00d7 burial depth": {
+      "rho": 0.4497568554839095,
+      "p": 2.7248972873942083e-09,
+      "n": 159
+    },
+    "Indigenous ratio \u00d7 volcano distance": {
+      "rho": -0.29448199487324994,
+      "p": 0.00016464134822484274,
+      "n": 159
+    },
+    "Indigenous count \u00d7 volcano distance": {
+      "rho": -0.16787370338280028,
+      "p": 0.03441809596649732,
+      "n": 159
+    },
+    "Pre-indic ratio \u00d7 burial depth": {
+      "rho": 0.4343830740993773,
+      "p": 2.422520934564715e-07,
+      "n": 130
+    },
+    "Pre-indic ratio \u00d7 volcano distance": {
+      "rho": -0.08968354612706726,
+      "p": 0.3102392058905096,
+      "n": 130
+    },
+    "Admin terms \u00d7 burial depth": {
+      "rho": 0.43756024060390125,
+      "p": 8.053985293115972e-09,
+      "n": 159
+    }
+  },
+  "zone_comparison": {
+    "near_n": 67,
+    "far_n": 24,
+    "indigenous_ratio": {
+      "near_mean": 0.5382126351620776,
+      "far_mean": 0.5883992948558836,
+      "p": 0.8321865375241361
+    }
+  }
+}

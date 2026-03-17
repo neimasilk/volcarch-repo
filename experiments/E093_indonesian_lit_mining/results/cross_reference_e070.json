@@ -1,0 +1,485 @@
+{
+  "site_matches": [
+    {
+      "publication": "Widianto Harry (2011)",
+      "e093_site": "sangiran",
+      "e070_match": "situs tangkilan",
+      "method": "fuzzy(0.71)",
+      "has_stratigraphy": "yes",
+      "burial_depth": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Satari Sri Soejatmi (1977)",
+      "e093_site": "trowulan",
+      "e070_match": "tembok kota trowulan (panggoeng)",
+      "method": "direct",
+      "has_stratigraphy": "yes",
+      "burial_depth": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Soekatno (1985)",
+      "e093_site": "trowulan",
+      "e070_match": "tembok kota trowulan (panggoeng)",
+      "method": "direct",
+      "has_stratigraphy": "yes",
+      "burial_depth": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Pojoh Ingrid H.E. (2007)",
+      "e093_site": "trowulan",
+      "e070_match": "tembok kota trowulan (panggoeng)",
+      "method": "direct",
+      "has_stratigraphy": "no",
+      "burial_depth": "no",
+      "relevance": "high"
+    },
+    {
+      "publication": "Wibisono Sonny Chr. (2014)",
+      "e093_site": "trowulan",
+      "e070_match": "tembok kota trowulan (panggoeng)",
+      "method": "direct",
+      "has_stratigraphy": "yes",
+      "burial_depth": "yes",
+      "relevance": "medium"
+    }
+  ],
+  "regional_matches": [
+    {
+      "publication": "Tjahjono Boedhihartoyo (1999)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Candi Sambisari: Sebuah Candi yang Terkubur"
+    },
+    {
+      "publication": "Tjahjono Boedhihartoyo (2001)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Candi Kedulan: Temuan dan Permasalahannya"
+    },
+    {
+      "publication": "Rangkuti Nurhadi (2008)",
+      "volcanoes": [
+        "Semeru"
+      ],
+      "title": "Survei Arkeologi di Kabupaten Lumajang Jawa Timur"
+    },
+    {
+      "publication": "Rangkuti Nurhadi (2000)",
+      "volcanoes": [
+        "Arjuno-Welirang"
+      ],
+      "title": "Situs-situs Arkeologi di Lereng Gunung Arjuno"
+    },
+    {
+      "publication": "Siswanto (2011)",
+      "volcanoes": [
+        "Sindoro/Sumbing"
+      ],
+      "title": "Eksplorasi Situs Liyangan, Temanggung: Situs Permukiman Masa"
+    },
+    {
+      "publication": "Satari Sri Soejatmi (1977)",
+      "volcanoes": [
+        "Arjuno-Welirang"
+      ],
+      "title": "Laporan Penelitian Arkeologi Situs Trowulan"
+    },
+    {
+      "publication": "Inagurasi Libra Hari (2010)",
+      "volcanoes": [
+        "Kelud"
+      ],
+      "title": "Survei Arkeologi di Kabupaten Kediri, Jawa Timur"
+    },
+    {
+      "publication": "Newhall C.G. et al. (2000)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "10,000 Years of Explosive Eruptions of Merapi Volcano Centra"
+    },
+    {
+      "publication": "Thouret Jean-Claude et al. (2000)",
+      "volcanoes": [
+        "Kelud"
+      ],
+      "title": "Origin Characteristics and Behaviour of Lahars Following the"
+    },
+    {
+      "publication": "Thouret Jean-Claude et al. (2015)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Assessing Volcanic Hazards at Merapi Volcano from 2006 to 20"
+    },
+    {
+      "publication": "de Belizal E. et al. (2013)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Rain-triggered Lahars Following the 2010 Eruption of Merapi "
+    },
+    {
+      "publication": "Surono et al. (2012)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "The 2010 Explosive Eruption of Java's Merapi Volcano — A '10"
+    },
+    {
+      "publication": "Gertisser R. and Keller J. (2003)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Temporal Variations in Magma Composition at Merapi Volcano ("
+    },
+    {
+      "publication": "Andreastuti S.D. et al. (2000)",
+      "volcanoes": [
+        "Kelud"
+      ],
+      "title": "Pyroclastic Flow Deposits of the 1994 and 2006 Eruptions of "
+    },
+    {
+      "publication": "Camus G. et al. (1987)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Merapi (Central Java Indonesia): An Outline of the Structura"
+    },
+    {
+      "publication": "Voight B. et al. (2000)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Historical Eruptions of Merapi Volcano Central Java Indonesi"
+    },
+    {
+      "publication": "Lukas Dominik (2012)",
+      "volcanoes": [
+        "Merapi"
+      ],
+      "title": "Candi Kimpulan: The Discovery of a Small Hindu Temple Comple"
+    },
+    {
+      "publication": "Soekatno (1985)",
+      "volcanoes": [
+        "Arjuno-Welirang"
+      ],
+      "title": "Sumbangan Data Arkeologi untuk Rekonstruksi Sejarah Kota Tro"
+    },
+    {
+      "publication": "Tichelman G.L. (1929)",
+      "volcanoes": [
+        "Kelud"
+      ],
+      "title": "De Oudheden in de Bovenlanden van de Residentie Kediri"
+    },
+    {
+      "publication": "Bosch F.D.K. (1919)",
+      "volcanoes": [
+        "Kelud"
+      ],
+      "title": "Verslag van den Oudheidkundigen Dienst (Annual Report)"
+    },
+    {
+      "publication": "Stutterheim W.F. (1926)",
+      "volcanoes": [
+        "Arjuno-Welirang"
+      ],
+      "title": "Hindu-Oudheden in de Omgeving van Malang"
+    },
+    {
+      "publication": "Mulia Rumbi (1980)",
+      "volcanoes": [
+        "Arjuno-Welirang"
+      ],
+      "title": "Beberapa Candi dan Punden Berundak di Kabupaten Pasuruan"
+    }
+  ],
+  "new_depth_candidates": [
+    {
+      "publication": "Tjahjono Boedhihartoyo (1999)",
+      "title": "Candi Sambisari: Sebuah Candi yang Terkubur",
+      "region": "Yogyakarta",
+      "sites": "Sambisari",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Tjahjono Boedhihartoyo (2001)",
+      "title": "Candi Kedulan: Temuan dan Permasalahannya",
+      "region": "Yogyakarta",
+      "sites": "Kedulan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Miksic John N. (1990)",
+      "title": "Old Javanese Gold",
+      "region": "Java",
+      "sites": "Multiple",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "medium"
+    },
+    {
+      "publication": "Rangkuti Nurhadi (2008)",
+      "title": "Survei Arkeologi di Kabupaten Lumajang Jawa Timur",
+      "region": "East Java",
+      "sites": "Multiple sites Lumajang",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Rangkuti Nurhadi (2000)",
+      "title": "Situs-situs Arkeologi di Lereng Gunung Arjuno",
+      "region": "East Java",
+      "sites": "Multiple Arjuno sites",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Siswanto (2011)",
+      "title": "Eksplorasi Situs Liyangan, Temanggung: Situs Permukiman Masa Mataram K",
+      "region": "Central Java",
+      "sites": "Liyangan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Siswanto (2013)",
+      "title": "Liyangan: Ragam Aktivitas di Sebuah Permukiman Masa Mataram Kuno",
+      "region": "Central Java",
+      "sites": "Liyangan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Riyanto Sugeng (2014)",
+      "title": "Permukiman Liyangan: Situs Masa Mataram Kuno Abad VIII-X M di Lereng G",
+      "region": "Central Java",
+      "sites": "Liyangan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Widianto Harry (2011)",
+      "title": "Evolusi Manusia di Jawa: Catatan Baru dari Situs Sangiran",
+      "region": "Central Java",
+      "sites": "Sangiran",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Abbas Novida (2012)",
+      "title": "Situs-situs Masa Hindu-Buddha di Kabupaten Malang dan Sekitarnya",
+      "region": "East Java",
+      "sites": "Multiple Malang sites",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Satari Sri Soejatmi (1977)",
+      "title": "Laporan Penelitian Arkeologi Situs Trowulan",
+      "region": "East Java",
+      "sites": "Trowulan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Inagurasi Libra Hari (2010)",
+      "title": "Survei Arkeologi di Kabupaten Kediri, Jawa Timur",
+      "region": "East Java",
+      "sites": "Multiple Kediri sites",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "no",
+      "volcanic_zone": "yes",
+      "relevance": "medium"
+    },
+    {
+      "publication": "Lavigne Franck et al. (2013)",
+      "title": "Source of the Great AD 1257 Mystery Eruption Unveiled: Samalas Volcano",
+      "region": "Lombok",
+      "sites": "Samalas/Rinjani",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Newhall C.G. et al. (2000)",
+      "title": "10,000 Years of Explosive Eruptions of Merapi Volcano Central Java: Ar",
+      "region": "Central Java",
+      "sites": "Merapi zone sites",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Thouret Jean-Claude et al. (2000)",
+      "title": "Origin Characteristics and Behaviour of Lahars Following the 1990 Erup",
+      "region": "East Java",
+      "sites": "Kelud zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Thouret Jean-Claude et al. (2015)",
+      "title": "Assessing Volcanic Hazards at Merapi Volcano from 2006 to 2010 Eruptio",
+      "region": "Central Java",
+      "sites": "Merapi zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "de Belizal E. et al. (2013)",
+      "title": "Rain-triggered Lahars Following the 2010 Eruption of Merapi Volcano In",
+      "region": "Central Java",
+      "sites": "Merapi zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Surono et al. (2012)",
+      "title": "The 2010 Explosive Eruption of Java's Merapi Volcano — A '100-year' Ev",
+      "region": "Central Java",
+      "sites": "Merapi zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "medium"
+    },
+    {
+      "publication": "Andreastuti S.D. et al. (2000)",
+      "title": "Pyroclastic Flow Deposits of the 1994 and 2006 Eruptions of Kelud Volc",
+      "region": "East Java",
+      "sites": "Kelud zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "medium"
+    },
+    {
+      "publication": "Voight B. et al. (2000)",
+      "title": "Historical Eruptions of Merapi Volcano Central Java Indonesia 1768-199",
+      "region": "Central Java",
+      "sites": "Merapi zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "medium"
+    },
+    {
+      "publication": "Petraglia M.D. et al. (2012)",
+      "title": "Middle Paleolithic Assemblages from the Indian Subcontinent Before and",
+      "region": "Sumatra/India",
+      "sites": "Jwalapuram",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Oppenheimer Clive (2003)",
+      "title": "Climatic Environmental and Human Consequences of the Largest Known His",
+      "region": "Sumbawa",
+      "sites": "Tambora zone",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Mulyaningsih Siti et al. (2006)",
+      "title": "Geological Survey of Volcanic Deposits and Their Impact on Ancient Mat",
+      "region": "Central Java",
+      "sites": "Multiple",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Lukas Dominik (2012)",
+      "title": "Candi Kimpulan: The Discovery of a Small Hindu Temple Complex in Yogya",
+      "region": "Yogyakarta",
+      "sites": "Kimpulan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Soekatno (1985)",
+      "title": "Sumbangan Data Arkeologi untuk Rekonstruksi Sejarah Kota Trowulan",
+      "region": "East Java",
+      "sites": "Trowulan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    },
+    {
+      "publication": "Wibisono Sonny Chr. (2014)",
+      "title": "Situs Trowulan dan Warisan Majapahit",
+      "region": "East Java",
+      "sites": "Trowulan",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "medium"
+    },
+    {
+      "publication": "Susetyo Sukawati (2013)",
+      "title": "Survei dan Ekskavasi di Situs Kumitir Mojokerto Jawa Timur",
+      "region": "East Java",
+      "sites": "Kumitir",
+      "status": "POTENTIALLY NEW",
+      "has_stratigraphy": "yes",
+      "volcanic_zone": "yes",
+      "relevance": "high"
+    }
+  ],
+  "summary": {
+    "total_site_matches": 5,
+    "publications_with_matches": 5,
+    "regional_overlaps": 22,
+    "new_depth_candidates": 27,
+    "e070_entries": 52,
+    "e093_entries": 65
+  }
+}

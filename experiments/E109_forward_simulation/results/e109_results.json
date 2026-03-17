@@ -1,0 +1,21 @@
+{
+  "experiment": "E109_forward_simulation",
+  "date": "2026-03-17",
+  "grid_cells": 592,
+  "observed_sites": 357,
+  "depth_quartile_analysis": {
+    "trend_rho": 1.0,
+    "trend_p": 0.0
+  },
+  "ml_detection_model": {
+    "lambda0": 1.99478,
+    "tau_cm": Infinity,
+    "rho_m": 181.0,
+    "estimated_total_sites": 1181.0,
+    "estimated_hidden_sites": 824.0,
+    "observed_sites": 357,
+    "detection_rate": 0.3023,
+    "mean_detection_probability": 0.3023,
+    "rmse": 2.9092
+  }
+}

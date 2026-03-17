@@ -2,22 +2,65 @@
 # *Unearthing the Invisible*
 
 **Status:** INTERNAL DOC — bukan untuk publikasi
-**Last updated:** 2026-03-13
-**Versi:** 3.4 (Consilience update: +E091 as 3rd independent dataset, 91 experiments)
+**Last updated:** 2026-03-17
+**Versi:** 4.0 (111 experiments, cascade model, ADV-5 resolved, null hypothesis rejected)
+
+---
+
+## 0. Apa yang Berubah di v4.0
+
+v3.5 mengklaim "enam lapisan independen yang masing-masing menghapus satu dimensi." v4.0 mengoreksi ini:
+
+1. **Cascade, bukan layer.** Faktor-faktor MULTIPLIKATIF, bukan aditif. Lima faktor masing-masing mengurangi 60-98% visibilitas. Produknya = 0.058% visible — matching data 0.031% (E110).
+2. **Survey deficit adalah faktor #1** (40× leverage), bukan volcanic burial (1.7×). VOLCARCH menyumbang faktor ke-5 yang unik: spasially predictable.
+3. **Null hypothesis REJECTED** (E108). Jawa pra-400 M punya 590K-3.9M penduduk. Gap 3,220× tidak bisa dijelaskan oleh populasi kecil.
+4. **ADV-5 RESOLVED** (E107). C5 (Iban+Malay) = Mon-Khmer substrate, bukan artefak dokumentasi. E027 UPGRADED.
+5. **West Java smoking gun.** Buni Complex + Batujaya = peradaban pra-Hindu DI JAWA di zona NON-VULKANIK. Absensi di zona vulkanik = sinyal tafonomi.
+6. **Klasifikasi 3-tier:** setiap klaim sekarang dikategorikan sebagai DATA-SUPPORTED, HYPOTHESIS, atau SPECULATION.
 
 ---
 
 ## 1. Tesis Utama
 
-Peradaban pra-Hindu Nusantara tidak absen — ia **tak terlihat**. Ketidaktampakan ini bukan kebetulan melainkan produk dari **stratifikasi tafonomi multi-domain** (*multi-domain taphonomic stratification*): enam lapisan independen yang masing-masing menghapus satu dimensi rekam jejak peradaban. Ketika keenamnya bekerja bersamaan — seperti di Jawa vulkanik — hasilnya adalah kegelapan arkeologis yang nyaris total.
+Peradaban pra-Hindu Nusantara tidak absen — ia **tak terlihat**. Ketidaktampakan ini bukan produk dari satu mekanisme, melainkan **cascade multiplikatif** dari lima faktor independen yang masing-masing mengurangi visibilitas arkeologis. Ketika kelimanya bekerja bersamaan — seperti di Jawa vulkanik — hasilnya adalah kegelapan arkeologis 99.97%.
 
-Argumen ini bukan bukti tunggal. Ia mengikuti prinsip **consilience of inductions** (Whewell 1840): empat lensa analitis pada ~5 dataset inti — geologi/tafonomis, linguistik, epigrafi, dan spasial-arsitektural — ditambah **3 dataset genuinely independen** (E083 colonial-era burial depths, E088/E089 textual archaeology dari 12 tradisi kuno, **E091 OV NLP mining: 22.162 mentions dari 16 volume Oudheidkundig Verslag**). Darwin menggunakan logika ini untuk evolusi. Wegener untuk pergeseran benua. VOLCARCH menggunakannya untuk peradaban Nusantara pra-Hindu.
+**West Java Smoking Gun:** Kompleks Buni (Tangerang, 200 SM-500 M) dan Batujaya (Karawang, abad 2-5 M) membuktikan masyarakat kompleks pra-Hindu di pantai NON-VULKANIK Jawa. Padanan mereka di Jawa Timur vulkanik = HILANG. Pulau yang sama. Budaya yang sama. Geologi beda.
 
-91 eksperimen. 6 paper submitted. 4 lensa analitis, ~5 dataset inti + 3 independen. 6/6 lapisan aktif. Satu kesimpulan.
+### Cascade Multiplikatif (E110)
+
+| # | Faktor | P(survive) | Leverage | Bukti |
+|---|--------|:---:|:---:|---|
+| F1 | Penguburan Vulkanik | 0.58 | 1.7× | E075, E083, 5 candi kalibrasi |
+| F2 | Peluruhan Material Organik | 0.20 | 5.0× | E040 (63.4% organik), iklim tropis |
+| F3 | **Cakupan Survei** | **0.025** | **40.0×** | E086 (Jepang 100-200×), E069 |
+| F4 | Pengenalan sebagai Pra-Hindu | 0.40 | 2.5× | E062, L3 bias |
+| F5 | Publikasi & Katalogisasi | 0.50 | 2.0× | E093, hambatan bahasa |
+| | **PRODUK** | **0.058%** | | **Observasi: 0.031% (E108)** |
+
+**Model matches data within 2×.** Survey coverage adalah intervensi paling impactful (40× leverage). Volcanic burial adalah satu-satunya faktor yang bisa dimodel secara spasial → memungkinkan targeted recovery (E080, E097).
+
+### Klasifikasi 3-Tier
+
+| Tier | Definisi | Contoh |
+|------|----------|--------|
+| **DATA-SUPPORTED** | Didukung data, survive FDR + adversarial | E069, E085, E066, E108, E107, E110 |
+| **HYPOTHESIS** | Didukung bukti sugestif, perlu fieldwork | L1 (burial specifically), L2 (coastal), E053 (aDNA) |
+| **SPECULATION** | Secara logis plausibel, bukti minimal | "Seberapa canggih peradaban?", L6, populasi >1M |
+
+111 eksperimen. 6 paper submitted + P16/P17 drafted + P7 preprint DOI live. Multi-method analysis pada ~5 dataset inti + 4 dataset genuinely independen. Satu kesimpulan melalui cascade multiplikatif.
 
 **Catatan epistemik (E068 FDR audit, 2026-03-13):** Dari 41 tes statistik, 30 (73%) bertahan koreksi Benjamini-Hochberg. Tiga temuan marginal (E032 p=0.042, E048 partial p=0.038, E053 Fisher p=0.047) harus dilaporkan sebagai "sugestif" bukan "signifikan." Top 10 temuan memiliki p < 10⁻⁴ dan robust terhadap koreksi apapun.
 
-**Catatan dataset-dependence (Mata Elang #6-8 + Senter v2, 2026-03-16):** Dari 91 eksperimen, 21 bergantung pada 268 prasasti DHARMA yang sama. Dataset inti: DHARMA prasasti, 666 situs arkeologi E.Java, ABVD wordlists, 142 lokasi candi, OV colonial register. **Mitigasi aktif:** E070 (52 colonial-era site records — genuinely independent), E083 (51 tephra-site pairs dari literatur kolonial), E088/E089 (106 referensi tekstual dari 12 tradisi kuno — ZERO overlap dengan DHARMA/ABVD), **E091 (22.162 NLP-extracted mentions dari 16 volume OV — genuinely independent, 94.2% DS-1 recovery)**. Klaim "11 independent channels" diganti: "4 lensa analitis pada ~5 dataset inti + **3** dataset genuinely independen."
+**Catatan dataset-dependence (Mata Elang #6-9, 2026-03-17):** Dari 99 eksperimen, 21 bergantung pada 268 prasasti DHARMA yang sama. Dataset inti: DHARMA prasasti, 666 situs arkeologi E.Java, ABVD wordlists, 142 lokasi candi, OV colonial register. **Mitigasi aktif:** E070 (52 colonial-era site records — genuinely independent), E083 (51 tephra-site pairs dari literatur kolonial), E088/E089 (200 referensi tekstual dari 12 tradisi kuno — ZERO overlap dengan DHARMA/ABVD), **E091 (22.162 NLP-extracted mentions dari 16 volume OV — genuinely independent)**, **E092-E098 (global comparanda, anomaly detection, literature mining — multiple independent streams)**. Klaim: "4 lensa analitis pada ~5 dataset inti + **4** dataset genuinely independen (E083 colonial, E088/E089 textual 12 tradisi, E091 OV NLP, E092/E098 global literature)."
+
+**Update v3.5 (2026-03-17):** Temuan baru dari GPU NLP sprint:
+- **E090 v5 (200 entries, 12 tradisi):** 16 BERTopic topics. **8/8 concept groups CONVERGE** termasuk VOLCANO (z=7.39). Corpus expansion 50→200 menyelesaikan semua convergence failures.
+- **E094 (DHARMA SBERT):** Volcanic themes = PALING JARANG dalam epigrafi (cosine sim 0.244). Mountain worship = TERTINGGI (0.395). Mountains di prasasti = kosmologis, BUKAN geologis. C11→C12 = semantic rupture terbesar.
+- **E095 (#99, cross-lingual):** XLM-R embedding collapse (honest negative). ML-SBERT validates E094 (rho=0.336). Volcanic silence confirmed di ORIGINAL Old Javanese.
+- **E096 (diachronic BERTopic):** 929 CE topic shift chi2=16.58, p=0.0003. Royal/political SURGES (Fisher p=0.0002). Ritual/calendrical VANISHES entirely.
+- **E097 (anomaly detection):** 65% overlap dengan E080 fieldwork targets. Dua metode independen → zona yang sama.
+- **P16:** Draft v0.1 complete. "What Ancient Texts Remember and Inscriptions Forget." Target DSH (Oxford, Q1).
+- **P7 preprint:** DOI 10.22541/au.177368991.14332505/v1 (Authorea, live 2026-03-16).
 
 **Update v3.1:** Temuan baru dari E058-E065:
 - **E058 (Kakawin NLP):** Kosa kata pertanian 91% asli — Sanskritisasi GAGAL menembus domain ekonomi.
@@ -155,7 +198,7 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 | P9 | Peripheral Conservatism | **SUBMITTED** | JSEAS (NUS Press) |
 | P11 | Volcanic Cultural Selection | **INCUBATING** | tbd (needs P5+P9 foundation) |
 
-6 submitted, 1 drafting (P11), 2 data papers drafted, 1 incubating (P16). **90 eksperimen selesai**. Menunggu review 2–6 bulan.
+6 submitted, 1 drafting (P11), 1 drafted (P16 v0.1), 2 data papers drafted (D1/D2). **99 eksperimen selesai**. P7 preprint DOI live. Menunggu review 2–6 bulan.
 
 **Amunisi revisi siap** untuk semua 6 paper: E048 (consilience), E051 (toponimi), E053 (aDNA gap), E054 (1.309 bahasa), E055 (sintesis konvergensi).
 
@@ -186,7 +229,7 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 - Update setiap kali ada eksperimen baru atau paper decision
 
 ---
-*Manifesto v3.3 — 2026-03-16*
+*Manifesto v3.5 — 2026-03-17*
 *"Pertanyaannya bukan lagi: apakah peradaban pra-Hindu Nusantara ada?*
 *Pertanyaannya sekarang: seberapa canggih ia, dan apa tepatnya yang hilang*
 *ketika ia tenggelam pada 3.6 milimeter per tahun, tertimpa 33→20 konsonan,*

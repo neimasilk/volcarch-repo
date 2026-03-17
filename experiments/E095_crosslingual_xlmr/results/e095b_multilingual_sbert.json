@@ -1,0 +1,21 @@
+{
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "n_inscriptions": 207,
+  "n_paired": 112,
+  "spearman_rho": 0.33647817200360325,
+  "spearman_p": 2.215216745350646e-164,
+  "ml_mean_sim": 0.8165302872657776,
+  "en_mean_sim": 0.38954073190689087,
+  "n_clusters": 18,
+  "n_noise": 36,
+  "cross_language_pct": 83.33333333333333,
+  "semantic_queries": {
+    "village administration and land grants": 0.16678056120872498,
+    "mountain worship and sacred peaks": 0.25307443737983704,
+    "water infrastructure irrigation dams": 0.0914599746465683,
+    "royal genealogy and succession": 0.11384407430887222,
+    "tax collection and economic regulation": 0.011700660921633244,
+    "Buddhist monastery and religious donation": 0.3297468423843384,
+    "volcanic landscape fire mountain": 0.1560112088918686
+  }
+}

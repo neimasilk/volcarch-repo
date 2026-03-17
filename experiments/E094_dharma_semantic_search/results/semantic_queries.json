@@ -1,0 +1,702 @@
+{
+  "village administration and land grants": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKBorobudurHB139.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 139 (8th c. CE)",
+        "similarity": 0.5248,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "landowner"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKBorobudurHB148B.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 148B (8th c. CE)",
+        "similarity": 0.5248,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "landowner"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKMunduan.xml",
+        "title": "Munduan",
+        "similarity": 0.3549,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 728, month of Māgha, ninth  tithi  of the waxing fortnight, Hariyaṅ, Umanis, Thursday. At that time the  rakai  of Patapān  called   pu  Manuku demarcated the land of Muṇ"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKDalinan.xml",
+        "title": "Charter for the demarcation of Wukajana, Tumpak & Wuru Telu villages for the monastery at Dalinan (8",
+        "similarity": 0.3502,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 825, month of Phālguna, first  tithi  of the waning  fortnight , Vurukuṅ, Vagai, Monday, lunar mansion Hastā, conjunction Vr̥ddhi: that was when the grant of the Great King,"
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKKurungan.xml",
+        "title": "Kurungan (Randusari II)",
+        "similarity": 0.3294,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Homage to Śiva! Hail! Elapsed Śaka year 807, month of Jyeṣṭha, tenth  tithi  of the waxing  fortnight , Tuṅlai, Vagai, Thursday. That was the time that master Munīndra bought a communal wet-rice fie"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKKiringan.xml",
+        "title": "Kiringan (917-11-14)",
+        "similarity": 0.316,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1r1) Hail! Elapsed Śaka year 839, month of Kārttika, the twelfth  tithi  of the waning fortnight, Tuṅlai, Umanis, Friday…. \n         (1r2)  pu  Sāhitya, native of Vuga, district of Pəar, ga"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKHorren.xml",
+        "title": "Charter of Horren, ca. 975 Śaka",
+        "similarity": 0.3139,
+        "century": 11,
+        "lang": "kaw-Latn",
+        "translation_snippet": "royal revenue, On the lost first plate, the word preceding  haji  must have been  dravya  or  drabya .   amounting to   10   māṣa  and   3   kupaṅ , to be collected twice  in  the third and ninth  m"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKLintakan.xml",
+        "title": "Lintakan (841 Śaka, 919-07-12)",
+        "similarity": 0.3073,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1r1) Hail! Elapsed Śaka year 841, month of Śrāvaṇa, the twelfth  tithi  of the waxing fortnight, Mawulu, Umanis, Monday, the lunar mansion Mūla, the deity Nairr̥ti, the conjunction"
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKSangsang.xml",
+        "title": "Sangsang",
+        "similarity": 0.2916,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 829, month of Vaiśākha, fourth  tithi  of the waning fortnight, Mavulu, Vagai, Monday, lunar mansion Uttarāṣāḍha, conjunction Śukla: that was the time of the grant of the G"
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKTirah.xml",
+        "title": "Tirah",
+        "similarity": 0.2839,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "This is what should be known by the mantris at  Tirah : the nobleman (ārya)  Soṅga , [at] Pabayĕman, the nobleman  Carita , [at] Purut, the high official [at] Lajĕr. They should know"
+      }
+    ],
+    "cross_century": true,
+    "centuries_represented": [
+      10,
+      11
+    ],
+    "mean_similarity": 0.3597
+  },
+  "mountain worship and sacred peaks": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKBorobudurHB124A.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 124A (8th c. CE)",
+        "similarity": 0.5948,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "worship of a sanctuary"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKdevadravya.xml",
+        "title": "Inventory of a Śaiva temple at Dieng (9th c. CE)",
+        "similarity": 0.3956,
+        "century": null,
+        "lang": "omy-Latn",
+        "translation_snippet": "Homage to Śiva! Property of the god: twenty slaves; ten buffaloes; two platters for beans (?,  alas kacaṅan ); two wash-basins; four items ( batu ) of  gaṅgun karaha ,  tatas lnaṅ ; five  caranti"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKKebantenan_4.xml",
+        "title": "Kebantenan 4",
+        "similarity": 0.3932,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "This is the decree of Sri Baduga Maharaja, the king of kings in Pakuan, Sri Sang Ratu Déwata. That which is made the object of decree is the land of divine ordinance on Mount Samaya in order that t"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKWukiran.xml",
+        "title": "Stela of Pereng, also known as Wukiran inscription (784 Śaka, 863-1-25 CE)",
+        "similarity": 0.3747,
+        "century": 9,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Whence all arises, and wherein  all  is born, wherein  all  dissolves: homage to that Lord Śiva, who acts benevolently — to you! \n      Though it is on the road, accidents are far from it; though"
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKKayumwungan.xml",
+        "title": "Kayumwungan charter of the Veṇuvanavihāra (746 Śaka)",
+        "similarity": 0.3718,
+        "century": 9,
+        "lang": "kaw-Latn",
+        "translation_snippet": "That  temple  shines as wide as a slice of the Moon instantly fallen to the earth  as though  for fear of Rāhu. Or rather, the white one  śubhra  masc., i.e., the Moon  rises above this lovely  te"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKSugihManek.xml",
+        "title": "Sugih Manek Charter (837 Śaka, 915-09-13)",
+        "similarity": 0.3703,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(A1–A7) May there be no hindrance! \n         May there be prosperity for all people! May the hosts of beings be intent upon the benefit of others! May faults come to perish! May the world be"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKNgadoman.xml",
+        "title": "Ngadoman",
+        "similarity": 0.3676,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Om. Made by Śrī Sarasvatī. The mountain Hardi Damaluṅ, the life of the Earth, was churning. The bathing place of Paləmaran would overflow, for God Vidhi  i.e. Brahmā?  gave instructions  amidhy"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKWatuKuraI.xml",
+        "title": "Charter of Watu Kura I",
+        "similarity": 0.3638,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 824, month of Śravaṇa, fifteenth  tithi  of the waxing fortnight, Paniron, Pahiṅ‚ Tuesday,  in the  vuku  Maḍaṅkuṅan, seventh  karaṇa , the lunar mansion  nakṣatra  Pūrvasā"
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKKawali_4.xml",
+        "title": "Kawali 4",
+        "similarity": 0.362,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "The sacred  liṅga  of the ancestor."
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKKebantenan_2.xml",
+        "title": "Kebantenan 2",
+        "similarity": 0.3587,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "This is a decree of Sri Baduga Maharaja, the king of kings of Pakuan, Sri Sang Ratu Déwata. That which is made the object of decree is the land of divine ordinance,  namely  Sundasembava. May no on"
+      }
+    ],
+    "cross_century": true,
+    "centuries_represented": [
+      9,
+      10
+    ],
+    "mean_similarity": 0.3952
+  },
+  "water infrastructure irrigation dams": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKBalekambang.xml",
+        "title": "Prayer for long life of Vijaya (7th c. CE)",
+        "similarity": 0.3385,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "May this life  on earth  be long for the strong-armed  king , whose excellent name is Vijaya, who digs the crystal-clear water with an extensive construction  of a dam,  bandhya  =  band"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKKebantenan_1.xml",
+        "title": "Kebantenan 1",
+        "similarity": 0.3316,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "Om . Let there be no obstacle! As follows was the record  sakakala  of Rahyang Niskala Wastu Kancana, that came down to Rahyang Ningrat Kancana and also to His Highness now  rulling  at Pakuan Paja"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKTirah.xml",
+        "title": "Tirah",
+        "similarity": 0.2825,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "This is what should be known by the mantris at  Tirah : the nobleman (ārya)  Soṅga , [at] Pabayĕman, the nobleman  Carita , [at] Purut, the high official [at] Lajĕr. They should know"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKSumundul.xml",
+        "title": "Sumundul (791 Śaka)",
+        "similarity": 0.2743,
+        "century": 9,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Sumuṇḍul \n      Hail! Elapsed Śaka year 791, month of Bhadravāda, \n        fourth  tithi  of the waxing\n        fortnight, Mavulu (of the 6-day cycle), Pon (of the 5-day cycle), Monday\n         i."
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKLanda.xml",
+        "title": "Resources of the temple at Landa (late 9th c. CE)",
+        "similarity": 0.2621,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "The value of the wet-ricefields that are a freehold at Kvak is 4  tampah , to serve for those who work in the temple at Laṇḍa. The Marhyaṅ  may use  2  tampah  with the income from subletting it"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKSanga.xml",
+        "title": "Charter of Sanga (13th c. CE)",
+        "similarity": 0.2468,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "with the  kalagyan . It turns eastward heading for Bugəl; turns southwestward at Bugəl, adjoining the boundary with Bugəl; turns southeastward at Bugəl, adjoining the boundary with Bugəl; goe"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKPananggaran.xml",
+        "title": "Pananggaran (791 Śaka)",
+        "similarity": 0.2346,
+        "century": 9,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Panaṅgaran \n      Hail! Elapsed Śaka year 791, month of Bhadravāda, \n        fourth  tithi  of the waxing\n        fortnight, Mavulu (of the 6-day cycle), Pon (of the 5-day cycle), Monday"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKTulangEr.xml",
+        "title": "Tulang Er III (914-12-30)",
+        "similarity": 0.2304,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1r1-4) Happiness! Elapsed Śri Sañjaya year 198, month of Poṣya, elevent  tithi  of the waxing fortnight, Tuṅlai, Umanis, Friday, lunar mansion Kartikā,  dahana-devatā,  the twenty fourth of"
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKTukMas.xml",
+        "title": "Praise of a mountain stream (mid-7th c. CE)",
+        "similarity": 0.225,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "At times overgrown by  , at times disappearing in pebbles and sand, at times spreading out its pure and cool water, the Ganges gushes forth here, like a  maṅgakarī !"
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKWanuaTengahIII.xml",
+        "title": "Wanua Tengah III",
+        "similarity": 0.2233,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "There once was the one called the deified ancestor  resting  at Hāra, younger brother of the deified ancestor  resting  at Mḍaṅ. He founded the monastery at Pikatan  tutuganniṁ taṇḍa . \n In Śaka 668"
+      }
+    ],
+    "cross_century": false,
+    "centuries_represented": [
+      9
+    ],
+    "mean_similarity": 0.2649
+  },
+  "royal genealogy and succession": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKBorobudurHB129.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 129 (8th c. CE)",
+        "similarity": 0.4036,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "ruler of the world"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKBorobudurHB132.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 132 (8th c. CE)",
+        "similarity": 0.4036,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "ruler of the world"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKRembang.xml",
+        "title": "Rembang",
+        "similarity": 0.3862,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "inheriting the title of his ancestors, namely the byname  pañji  Paṅalah  Means to defeat , under the auspices of the order of Her Majesty the Illustrious queen Tribhuvanottuṅgarāja Jayaviṣṇuva"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKTimbananWungkal.xml",
+        "title": "Timbanan Wungkal (Sañjaya 196, 913-02-11)",
+        "similarity": 0.3643,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1)  Om,  salutation to (the terrifying deities) Rudra and Durgā, (etc.)! Hail! \n         (2–15) May the whole world be happy! Elapsed Śrī Sañjaya year 196, month of Phalguna, second  tithi"
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKSojomerto.xml",
+        "title": "Sojomerto (7th or 8th century CE)",
+        "similarity": 0.3628,
+        "century": null,
+        "lang": "omy-Latn",
+        "translation_snippet": "homage to Śiva, sovereign lord!\nI ever and always bow down to Him! \n\t There are the relatives: \n\t \n\t his father in-law  ?  vīṣna  Milord Selendranamaḥ; \n\t called Santanū, his father; \n\t called Bh"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKHorren.xml",
+        "title": "Charter of Horren, ca. 975 Śaka",
+        "similarity": 0.347,
+        "century": 11,
+        "lang": "kaw-Latn",
+        "translation_snippet": "royal revenue, On the lost first plate, the word preceding  haji  must have been  dravya  or  drabya .   amounting to   10   māṣa  and   3   kupaṅ , to be collected twice  in  the third and ninth  m"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKGarung.xml",
+        "title": "Garung",
+        "similarity": 0.3409,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail ! The Śaka Year past, 741‚ the month of Caitra‚ sixth day of the dark half of the month, paniron‚ pon‚ \n              Monday. At that time, the  rakarayān  of Garung communicate"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKKawali_4.xml",
+        "title": "Kawali 4",
+        "similarity": 0.3265,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "The sacred  liṅga  of the ancestor."
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKManahimanuk.xml",
+        "title": "Manah i Manuk Charter (1350–1356 CE)",
+        "similarity": 0.3227,
+        "century": 14,
+        "lang": "kaw-Latn",
+        "translation_snippet": "by royal consecration name,  dyah  Hayam Vuruk, being accompanied by the decree of Her Majesty Śrī Tribhuvanottuṅgarājadevī Jayaviṣṇuvardhanī, an image of the Goddess who is auspicious for all kin"
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKRameswarapura.xml",
+        "title": "Rameswarapura charter (1197 Śaka)",
+        "similarity": 0.3176,
+        "century": 13,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 1197, month of Jyeṣṭha, fifteenth  tithi  of the waxing fortnight, Tuṅle, Pon, Monday,  vuku  Gumrǝg; the  grahacāra  in the North; lunar mansion of Mūla; deity Toya  i.e.,"
+      }
+    ],
+    "cross_century": true,
+    "centuries_represented": [
+      11,
+      13,
+      14
+    ],
+    "mean_similarity": 0.3575
+  },
+  "tax collection and economic regulation": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKKebantenan_4.xml",
+        "title": "Kebantenan 4",
+        "similarity": 0.3457,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "This is the decree of Sri Baduga Maharaja, the king of kings in Pakuan, Sri Sang Ratu Déwata. That which is made the object of decree is the land of divine ordinance on Mount Samaya in order that t"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKSatyapura.xml",
+        "title": "Satyapura",
+        "similarity": 0.2444,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Whenever there are people who do not comply, do not guard, the contents of the holy royal decree in the form of a charter, which is given in custody to the holy royal foundation at Satyapurā, wh"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKKebantenan_1.xml",
+        "title": "Kebantenan 1",
+        "similarity": 0.2338,
+        "century": null,
+        "lang": "osn-Latn",
+        "translation_snippet": "Om . Let there be no obstacle! As follows was the record  sakakala  of Rahyang Niskala Wastu Kancana, that came down to Rahyang Ningrat Kancana and also to His Highness now  rulling  at Pakuan Paja"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKAnjatan.xml",
+        "title": "Anjatan: Foundation Charter of the Amr̥tamaṅgala Monastery",
+        "similarity": 0.2324,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "It should not be entered as before by the  patih s, the  vahuta s, the headmen, and all types of collectors of royal revenues:   \n\t da mpulan ,\n\t pakaluṅkuṅ ,\n\t karəṅrəṅan , This term seems only to"
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKHorren.xml",
+        "title": "Charter of Horren, ca. 975 Śaka",
+        "similarity": 0.2323,
+        "century": 11,
+        "lang": "kaw-Latn",
+        "translation_snippet": "royal revenue, On the lost first plate, the word preceding  haji  must have been  dravya  or  drabya .   amounting to   10   māṣa  and   3   kupaṅ , to be collected twice  in  the third and ninth  m"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKGarung.xml",
+        "title": "Garung",
+        "similarity": 0.2315,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail ! The Śaka Year past, 741‚ the month of Caitra‚ sixth day of the dark half of the month, paniron‚ pon‚ \n              Monday. At that time, the  rakarayān  of Garung communicate"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKTihang.xml",
+        "title": "Tihang charter (Sañjaya 198, 836 Śaka, 914-11-08 CE)",
+        "similarity": 0.2256,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1v1–2) Happiness! Elapsed Śrī Sañjaya year 198. In Śaka 836, month of Kārttika, third  tithi  of the waning fortnight, Vurukuṅ, Vagai, Tuesday, lunar mansion Ārdrā, conjunction Śubha,  siṁh"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKBorobudurHB139.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 139 (8th c. CE)",
+        "similarity": 0.2036,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "landowner"
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKBorobudurHB148B.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 148B (8th c. CE)",
+        "similarity": 0.2036,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "landowner"
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKTija-HaruHaru.xml",
+        "title": "Tija & Haru-Haru (11th c. CE?)",
+        "similarity": 0.2023,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "the founding fathers regarding the purchases of the founding fathers  buyut amabaki  in the  sīma s of the  garment wearers   kavajvan  in Tija and in Haru-Haru. Subsequently they were enjoyed by K"
+      }
+    ],
+    "cross_century": true,
+    "centuries_represented": [
+      10,
+      11
+    ],
+    "mean_similarity": 0.2355
+  },
+  "Buddhist monastery and religious donation": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKSugihManek.xml",
+        "title": "Sugih Manek Charter (837 Śaka, 915-09-13)",
+        "similarity": 0.4483,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(A1–A7) May there be no hindrance! \n         May there be prosperity for all people! May the hosts of beings be intent upon the benefit of others! May faults come to perish! May the world be"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKBorobudurHB124A.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 124A (8th c. CE)",
+        "similarity": 0.4023,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "worship of a sanctuary"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKMpuMano.xml",
+        "title": "Mpu Mano",
+        "similarity": 0.3819,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Homage to every Buddha! Hail! Elapsed Śaka year 888, month of Śrāvaṇa, eighth  tithi  of the waning fortnight, Haryaṅ, Vagai, Sunday,  the  vuku  Sinta, the  grahacāra  in the Northwest, the lunar m"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKdevadravya.xml",
+        "title": "Inventory of a Śaiva temple at Dieng (9th c. CE)",
+        "similarity": 0.374,
+        "century": null,
+        "lang": "omy-Latn",
+        "translation_snippet": "Homage to Śiva! Property of the god: twenty slaves; ten buffaloes; two platters for beans (?,  alas kacaṅan ); two wash-basins; four items ( batu ) of  gaṅgun karaha ,  tatas lnaṅ ; five  caranti"
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKLanda.xml",
+        "title": "Resources of the temple at Landa (late 9th c. CE)",
+        "similarity": 0.3669,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "The value of the wet-ricefields that are a freehold at Kvak is 4  tampah , to serve for those who work in the temple at Laṇḍa. The Marhyaṅ  may use  2  tampah  with the income from subletting it"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKNgadoman.xml",
+        "title": "Ngadoman",
+        "similarity": 0.358,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Om. Made by Śrī Sarasvatī. The mountain Hardi Damaluṅ, the life of the Earth, was churning. The bathing place of Paləmaran would overflow, for God Vidhi  i.e. Brahmā?  gave instructions  amidhy"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKKurungan.xml",
+        "title": "Kurungan (Randusari II)",
+        "similarity": 0.3569,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Homage to Śiva! Hail! Elapsed Śaka year 807, month of Jyeṣṭha, tenth  tithi  of the waxing  fortnight , Tuṅlai, Vagai, Thursday. That was the time that master Munīndra bought a communal wet-rice fie"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKWanuaTengahIII.xml",
+        "title": "Wanua Tengah III",
+        "similarity": 0.3446,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "There once was the one called the deified ancestor  resting  at Hāra, younger brother of the deified ancestor  resting  at Mḍaṅ. He founded the monastery at Pikatan  tutuganniṁ taṇḍa . \n In Śaka 668"
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKSangsang.xml",
+        "title": "Sangsang",
+        "similarity": 0.3439,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 829, month of Vaiśākha, fourth  tithi  of the waning fortnight, Mavulu, Vagai, Monday, lunar mansion Uttarāṣāḍha, conjunction Śukla: that was the time of the grant of the G"
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKBukateja.xml",
+        "title": "Embossed Image of Śiva in Gold Leaf from Central Java (8th c. CE)",
+        "similarity": 0.3426,
+        "century": null,
+        "lang": "omy-Latn",
+        "translation_snippet": "This  referring to the embossed plaque  is the donation of Da Hawang Payangan."
+      }
+    ],
+    "cross_century": false,
+    "centuries_represented": [
+      10
+    ],
+    "mean_similarity": 0.3719
+  },
+  "volcanic landscape fire mountain": {
+    "top_10": [
+      {
+        "rank": 1,
+        "filename": "DHARMA_INSIDENKSriManggalaII.xml",
+        "title": "Sri Manggala II (796 Śaka)",
+        "similarity": 0.2721,
+        "century": 9,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 796, month of Caitra, second  tithi  of the waxing fortnight, Haryaṅ (of the 6-day cycle), Kalivuan (of the 5-day cycle), Wednesday, lunar mansion Kr̥ttikā (i.e., on 24 M"
+      },
+      {
+        "rank": 2,
+        "filename": "DHARMA_INSIDENKSriManggalaIII.xml",
+        "title": "Sri Manggala III (796 Śaka)",
+        "similarity": 0.2721,
+        "century": 9,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 796, month of Caitra, second  tithi  of the waxing fortnight, Haryaṅ (of the 6-day cycle), Kalivuan (of the 5-day cycle), Wednesday, lunar mansion Kr̥ttikā (i.e., on 24 M"
+      },
+      {
+        "rank": 3,
+        "filename": "DHARMA_INSIDENKAdanAdan.xml",
+        "title": "Adan-Adan (1223 Śaka)",
+        "similarity": 0.2667,
+        "century": 14,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 1223, month of Śrāvaṇa, fifteenth  tithi  of the waning fortnight, Haryang, Umanis, Saturday, ( wuku ) Maḍaṅkuṅan, the  grahacāra  in the north-west, lunar mansion Māgha, d"
+      },
+      {
+        "rank": 4,
+        "filename": "DHARMA_INSIDENKMunduan.xml",
+        "title": "Munduan",
+        "similarity": 0.2585,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 728, month of Māgha, ninth  tithi  of the waxing fortnight, Hariyaṅ, Umanis, Thursday. At that time the  rakai  of Patapān  called   pu  Manuku demarcated the land of Muṇ"
+      },
+      {
+        "rank": 5,
+        "filename": "DHARMA_INSIDENKLintakan.xml",
+        "title": "Lintakan (841 Śaka, 919-07-12)",
+        "similarity": 0.2523,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1r1) Hail! Elapsed Śaka year 841, month of Śrāvaṇa, the twelfth  tithi  of the waxing fortnight, Mawulu, Umanis, Monday, the lunar mansion Mūla, the deity Nairr̥ti, the conjunction"
+      },
+      {
+        "rank": 6,
+        "filename": "DHARMA_INSIDENKWuruduKidul.xml",
+        "title": "Wurudu Kidul",
+        "similarity": 0.2367,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 844, month of Vaiśākha, sixth  tithi  of the waning  fortnight , Vās, Vagai, Saturday. That was the time that  saṅ  Dhanadī, native of Vuruḍu South,  vatək  Halaran, was g"
+      },
+      {
+        "rank": 7,
+        "filename": "DHARMA_INSIDENKKiringan.xml",
+        "title": "Kiringan (917-11-14)",
+        "similarity": 0.2361,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "(1r1) Hail! Elapsed Śaka year 839, month of Kārttika, the twelfth  tithi  of the waning fortnight, Tuṅlai, Umanis, Friday…. \n         (1r2)  pu  Sāhitya, native of Vuga, district of Pəar, ga"
+      },
+      {
+        "rank": 8,
+        "filename": "DHARMA_INSIDENKBorobudurHB150B.xml",
+        "title": "Relief label from Borobudur's hidden base, no. 150B (8th c. CE)",
+        "similarity": 0.2178,
+        "century": null,
+        "lang": "san-Latn",
+        "translation_snippet": "an abundance of vehicles or mounts"
+      },
+      {
+        "rank": 9,
+        "filename": "DHARMA_INSIDENKMasahar.xml",
+        "title": "Charter of Masahar (852 Śaka)",
+        "similarity": 0.2132,
+        "century": 10,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 852, additional month of Aśuji, twelfth  tithi , waxing fortnight, Tuṅlai, Umanis, Thursday, lunar mansion Uttarabhadravāda, the deity Ahirbudhna. \n That was when the decree"
+      },
+      {
+        "rank": 10,
+        "filename": "DHARMA_INSIDENKWatuKuraI.xml",
+        "title": "Charter of Watu Kura I",
+        "similarity": 0.2111,
+        "century": null,
+        "lang": "kaw-Latn",
+        "translation_snippet": "Hail! Elapsed Śaka year 824, month of Śravaṇa, fifteenth  tithi  of the waxing fortnight, Paniron, Pahiṅ‚ Tuesday,  in the  vuku  Maḍaṅkuṅan, seventh  karaṇa , the lunar mansion  nakṣatra  Pūrvasā"
+      }
+    ],
+    "cross_century": true,
+    "centuries_represented": [
+      9,
+      10,
+      14
+    ],
+    "mean_similarity": 0.2437
+  }
+}

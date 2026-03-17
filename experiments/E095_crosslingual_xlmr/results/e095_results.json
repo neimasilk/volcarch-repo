@@ -1,0 +1,2017 @@
+{
+  "meta": {
+    "experiment": "E095",
+    "date": "2026-03-17",
+    "model": "xlm-roberta-base",
+    "comparison_model": "all-MiniLM-L6-v2 (SBERT)",
+    "n_inscriptions": 207,
+    "n_paired": 112,
+    "device": "cuda"
+  },
+  "paired_comparison": {
+    "spearman_rho": 0.45219938351957334,
+    "spearman_p": 4.627512440399e-311,
+    "xlmr_mean_sim": 0.997202455997467,
+    "sbert_mean_sim": 0.38954073190689087,
+    "n_pairs": 6216,
+    "per_language": {
+      "kaw-Latn": {
+        "n": 80,
+        "rho": 0.33630479343230624,
+        "p": 2.078589624585061e-84,
+        "xlmr_mean_sim": 0.997668981552124,
+        "sbert_mean_sim": 0.425642192363739
+      },
+      "san-Latn": {
+        "n": 11,
+        "rho": 0.2984848484848485,
+        "p": 0.026862816932162227,
+        "xlmr_mean_sim": 0.9976308941841125,
+        "sbert_mean_sim": 0.34421271085739136
+      }
+    }
+  },
+  "clustering": {
+    "n_clusters": 15,
+    "n_noise": 21,
+    "cross_language_pct": 93.33333333333333,
+    "cluster_composition": {
+      "13": {
+        "kaw-Latn": 8,
+        "": 3
+      },
+      "0": {
+        "omy-Latn": 3,
+        "kaw-Latn": 24,
+        "san-Latn": 5
+      },
+      "2": {
+        "omy-Latn": 1,
+        "kaw-Latn": 7,
+        "san-Latn": 4,
+        "": 1
+      },
+      "3": {
+        "kaw-Latn": 3,
+        "osn-Latn": 6
+      },
+      "8": {
+        "kaw-Latn": 23,
+        "san-Latn": 1,
+        "": 1
+      },
+      "9": {
+        "kaw-Latn": 14,
+        "omy-Latn": 1,
+        "": 2
+      },
+      "1": {
+        "san-Latn": 4,
+        "": 1,
+        "kaw-Latn": 1,
+        "omy-Latn": 1
+      },
+      "7": {
+        "kaw-Latn": 3,
+        "omy-Latn": 1,
+        "": 1
+      },
+      "11": {
+        "kaw-Latn": 11,
+        "": 4
+      },
+      "5": {
+        "osn-Latn": 4
+      },
+      "4": {
+        "kaw-Latn": 13,
+        "": 1,
+        "omy-Latn": 1
+      },
+      "6": {
+        "omy-Latn": 1,
+        "kaw-Latn": 3
+      },
+      "14": {
+        "kaw-Latn": 10,
+        "": 1
+      },
+      "10": {
+        "san-Latn": 1,
+        "kaw-Latn": 13
+      },
+      "12": {
+        "kaw-Latn": 3,
+        "": 1
+      }
+    },
+    "umap_coords": [
+      {
+        "id": "DHARMA_INS12Gilikan",
+        "x": 6.410980701446533,
+        "y": 0.5503389835357666,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00007",
+        "x": 9.281107902526855,
+        "y": 5.214955806732178,
+        "cluster": 0,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00050",
+        "x": 7.525189399719238,
+        "y": 1.796839714050293,
+        "cluster": -1,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00059",
+        "x": 6.655510902404785,
+        "y": 6.8407697677612305,
+        "cluster": 2,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00066",
+        "x": 7.790643215179443,
+        "y": 0.34645894169807434,
+        "cluster": -1,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00096",
+        "x": 9.3608980178833,
+        "y": 5.6196699142456055,
+        "cluster": 0,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00351",
+        "x": 6.295690059661865,
+        "y": 6.879788875579834,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00368",
+        "x": 5.916567802429199,
+        "y": 6.68418025970459,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00388",
+        "x": 5.7780375480651855,
+        "y": 6.29464054107666,
+        "cluster": 3,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00396",
+        "x": 5.6543145179748535,
+        "y": 6.352630615234375,
+        "cluster": 3,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENK00526",
+        "x": 7.9916510581970215,
+        "y": 2.6538610458374023,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAbhayananda",
+        "x": 6.737563133239746,
+        "y": 7.035604000091553,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAdanAdan",
+        "x": 9.0341796875,
+        "y": 5.472073078155518,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAdulengen",
+        "x": 8.004685401916504,
+        "y": 1.5968929529190063,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAirAsih",
+        "x": 9.100942611694336,
+        "y": 4.282899856567383,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAirKali",
+        "x": 8.576201438903809,
+        "y": 3.8071155548095703,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAlasantan",
+        "x": 7.247364044189453,
+        "y": 3.1280558109283447,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAmoghapasaPlaqueTropenmuseum",
+        "x": 7.986979007720947,
+        "y": 6.545706748962402,
+        "cluster": 1,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAnjatan",
+        "x": 6.620542049407959,
+        "y": 2.487828254699707,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAyamTeas_I",
+        "x": 6.958178520202637,
+        "y": 2.6149606704711914,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAyamTeas_II",
+        "x": 6.994035720825195,
+        "y": 2.91831374168396,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKAyamTeas_III",
+        "x": 7.247457027435303,
+        "y": 0.5273196697235107,
+        "cluster": 7,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBalekambang",
+        "x": 6.592265605926514,
+        "y": 7.162041664123535,
+        "cluster": 2,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBarahasrama",
+        "x": 7.072407245635986,
+        "y": 1.351453423500061,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBarsahan",
+        "x": 6.422876358032227,
+        "y": 2.5173141956329346,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBatur",
+        "x": 9.103604316711426,
+        "y": 4.816261291503906,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBatutulis",
+        "x": 5.317119121551514,
+        "y": 4.795719623565674,
+        "cluster": 5,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBhatari",
+        "x": 6.553585529327393,
+        "y": 0.1509276181459427,
+        "cluster": 13,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKBulai",
+        "x": 6.749538898468018,
+        "y": 5.243104934692383,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKBularut",
+        "x": 6.945769786834717,
+        "y": 3.1902291774749756,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKCamundi",
+        "x": 8.2587308883667,
+        "y": 5.915392875671387,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKCanggal",
+        "x": 9.36506175994873,
+        "y": 5.847517490386963,
+        "cluster": 0,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKCanggu",
+        "x": 9.413445472717285,
+        "y": 4.949112892150879,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKDalinan",
+        "x": 7.355537414550781,
+        "y": 1.369322657585144,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKDawangsari",
+        "x": 7.0548553466796875,
+        "y": 4.687575817108154,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKdevadravya",
+        "x": 5.64129114151001,
+        "y": 4.725453853607178,
+        "cluster": 6,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKDinoyoIIa",
+        "x": 6.949036598205566,
+        "y": 0.017872486263513565,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKDisunuh",
+        "x": 6.640783786773682,
+        "y": 4.987435817718506,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKE62",
+        "x": 6.342421531677246,
+        "y": 5.674461364746094,
+        "cluster": 4,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKGajahMada",
+        "x": 9.074761390686035,
+        "y": 4.9390435218811035,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGandasuli",
+        "x": 8.657110214233398,
+        "y": 1.266615390777588,
+        "cluster": 9,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGandhakuti",
+        "x": 7.468393325805664,
+        "y": 2.42661190032959,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGaraman",
+        "x": 7.903765678405762,
+        "y": 2.3025941848754883,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGarung",
+        "x": 6.646266460418701,
+        "y": 5.809849262237549,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGenengII",
+        "x": 8.998032569885254,
+        "y": 5.0665764808654785,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGondangLor",
+        "x": 7.915304183959961,
+        "y": 6.509190082550049,
+        "cluster": 1,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGulungGulung",
+        "x": 8.54783821105957,
+        "y": 2.344507932662964,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKGuntur",
+        "x": 6.841412544250488,
+        "y": 0.4170842468738556,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHampran",
+        "x": 7.811843395233154,
+        "y": 6.6691083908081055,
+        "cluster": 1,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKHarinjing",
+        "x": 5.891726970672607,
+        "y": 0.10480863600969315,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHering",
+        "x": 6.886709690093994,
+        "y": 2.2867331504821777,
+        "cluster": 8,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHimadvalandit",
+        "x": 8.741202354431152,
+        "y": 1.827746868133545,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHorren",
+        "x": 8.110455513000488,
+        "y": 1.5479609966278076,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHujungGaluh-Sangsang",
+        "x": 7.5842461585998535,
+        "y": 0.8419028520584106,
+        "cluster": 11,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKHuludayeuh",
+        "x": 5.460477352142334,
+        "y": 5.728177547454834,
+        "cluster": 3,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHumanding",
+        "x": 5.510566711425781,
+        "y": 0.6534722447395325,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKHuwung",
+        "x": 5.744589805603027,
+        "y": 5.8755717277526855,
+        "cluster": 3,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKJamwi",
+        "x": 6.814920425415039,
+        "y": -0.1848641335964203,
+        "cluster": 13,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKJeruJeru",
+        "x": 8.164095878601074,
+        "y": 1.9057819843292236,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKJragung",
+        "x": 6.17460298538208,
+        "y": 0.9305581450462341,
+        "cluster": 10,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKJurungan",
+        "x": 5.515918254852295,
+        "y": 0.7661334276199341,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKabhagavanan",
+        "x": 8.061885833740234,
+        "y": 0.9929355382919312,
+        "cluster": 12,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKakalangan",
+        "x": 5.976651668548584,
+        "y": 1.3911349773406982,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKaladi",
+        "x": 7.995896339416504,
+        "y": 2.9003846645355225,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKalasan",
+        "x": 9.473610877990723,
+        "y": 5.943684101104736,
+        "cluster": 0,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKandangan",
+        "x": 7.384726524353027,
+        "y": 0.0716390311717987,
+        "cluster": 7,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKanjuruhan",
+        "x": 9.416581153869629,
+        "y": 5.9212164878845215,
+        "cluster": 0,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKarangloMojokerto",
+        "x": 6.461734294891357,
+        "y": 7.052032947540283,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKasugihan",
+        "x": 5.590662956237793,
+        "y": 0.2877384424209595,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKawali_1a",
+        "x": 5.333316802978516,
+        "y": 5.737758159637451,
+        "cluster": 3,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKawali_1b",
+        "x": 5.8681721687316895,
+        "y": 6.067359447479248,
+        "cluster": 3,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKawali_2",
+        "x": 5.392837047576904,
+        "y": 5.768505573272705,
+        "cluster": 3,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKawali_6",
+        "x": 6.004507541656494,
+        "y": 6.479181289672852,
+        "cluster": 3,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKayuAraHiwang",
+        "x": 6.443249702453613,
+        "y": 0.2515272796154022,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKayumwungan",
+        "x": 9.681379318237305,
+        "y": 6.152393341064453,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKebantenan_1",
+        "x": 5.288923263549805,
+        "y": 4.984358310699463,
+        "cluster": 5,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKebantenan_2",
+        "x": 5.21755313873291,
+        "y": 4.955137252807617,
+        "cluster": 5,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKebantenan_3",
+        "x": 5.374241828918457,
+        "y": 5.329927444458008,
+        "cluster": -1,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKebantenan_4",
+        "x": 5.270110130310059,
+        "y": 5.119067668914795,
+        "cluster": 5,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKedungwangi",
+        "x": 8.534046173095703,
+        "y": 2.0136349201202393,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKetanen",
+        "x": 8.500128746032715,
+        "y": 0.9321692585945129,
+        "cluster": 9,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKKinewu",
+        "x": 8.137228965759277,
+        "y": 0.6386211514472961,
+        "cluster": 12,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKKiringan",
+        "x": 5.6825337409973145,
+        "y": 0.5038573741912842,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKubu-Kubu",
+        "x": 6.278327941894531,
+        "y": 1.55998957157135,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKurungan",
+        "x": 6.094385623931885,
+        "y": 0.544734537601471,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKKusambyan",
+        "x": 7.933100700378418,
+        "y": 3.1612048149108887,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLaguna",
+        "x": 7.355403900146484,
+        "y": 0.3264351487159729,
+        "cluster": 7,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLanda",
+        "x": 7.149811744689941,
+        "y": 0.41887137293815613,
+        "cluster": 7,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLinggasuntan",
+        "x": 7.745402812957764,
+        "y": 2.4688704013824463,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLinggawangi",
+        "x": 5.590817451477051,
+        "y": 6.218029975891113,
+        "cluster": 3,
+        "lang": "osn-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLintakan",
+        "x": 7.183520317077637,
+        "y": 1.6289916038513184,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLuitan",
+        "x": 6.513424396514893,
+        "y": 0.8355976343154907,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKLurah",
+        "x": 5.8647661209106445,
+        "y": 4.983194351196289,
+        "cluster": -1,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKMadhawapura",
+        "x": 6.430323600769043,
+        "y": 2.069291591644287,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMalenga",
+        "x": 7.42880392074585,
+        "y": 2.9168918132781982,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMamali",
+        "x": 6.1571502685546875,
+        "y": 1.2080072164535522,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKManahimanuk",
+        "x": 9.055644989013672,
+        "y": 4.7044548988342285,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKManjusrigerha",
+        "x": 9.177734375,
+        "y": 4.019503593444824,
+        "cluster": 0,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMantyasihI",
+        "x": 7.670729160308838,
+        "y": 2.4581680297851562,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMantyasihII",
+        "x": 6.312207221984863,
+        "y": 4.765465259552002,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMantyasihIII",
+        "x": 5.615461349487305,
+        "y": 0.3288377821445465,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMaribong",
+        "x": 8.715123176574707,
+        "y": 5.662412166595459,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMarinci_I",
+        "x": 5.720680236816406,
+        "y": 4.297436237335205,
+        "cluster": 6,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMarinci_II",
+        "x": 5.854886531829834,
+        "y": 4.224381923675537,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMarsemu",
+        "x": 6.530694484710693,
+        "y": 5.699153423309326,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMasahar",
+        "x": 7.5696868896484375,
+        "y": 1.4616554975509644,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMpuMano",
+        "x": 7.217431545257568,
+        "y": 2.3504369258880615,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMula-Malurung",
+        "x": 9.422552108764648,
+        "y": 4.668379306793213,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMunduan",
+        "x": 7.507018089294434,
+        "y": 1.2180202007293701,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKMunggut",
+        "x": 7.150937557220459,
+        "y": 3.1304819583892822,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKNarasinghanagara",
+        "x": 6.8543195724487305,
+        "y": 2.644763946533203,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKNgadoman",
+        "x": 6.01959228515625,
+        "y": 5.486958026885986,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKNglumbangDungik",
+        "x": 6.881453990936279,
+        "y": 7.093522071838379,
+        "cluster": 2,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPabanyolan",
+        "x": 6.507027626037598,
+        "y": 3.2184698581695557,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPadingding",
+        "x": 5.5545549392700195,
+        "y": 1.3460564613342285,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPaguhan",
+        "x": 5.789551734924316,
+        "y": 4.601402282714844,
+        "cluster": 6,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPakisWetan",
+        "x": 8.933073043823242,
+        "y": 5.1684675216674805,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPalebuhan",
+        "x": 7.9623613357543945,
+        "y": 0.7732387781143188,
+        "cluster": 12,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPalepangan",
+        "x": 7.184845924377441,
+        "y": 1.4047108888626099,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPamintihan",
+        "x": 9.31478214263916,
+        "y": 5.203689098358154,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPananggaran",
+        "x": 6.147923469543457,
+        "y": 5.349714756011963,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPanggumulanA",
+        "x": 7.1199541091918945,
+        "y": 1.1239502429962158,
+        "cluster": 11,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKPanunggalan",
+        "x": 6.546212196350098,
+        "y": -0.0694073811173439,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKParablyan",
+        "x": 9.151342391967773,
+        "y": 4.163694381713867,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKParhyangan",
+        "x": 6.729201316833496,
+        "y": -0.27020230889320374,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKParung_I",
+        "x": 8.576061248779297,
+        "y": 1.556242823600769,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKParung_II",
+        "x": 8.711037635803223,
+        "y": 1.4306867122650146,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPasanggrahan",
+        "x": 5.456949234008789,
+        "y": 0.17255881428718567,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPatapan",
+        "x": 6.129476070404053,
+        "y": 4.637059688568115,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPatapan_II",
+        "x": 7.614780902862549,
+        "y": 3.1701788902282715,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPatitihan",
+        "x": 9.288980484008789,
+        "y": 4.8985915184021,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPenampihan",
+        "x": 8.638872146606445,
+        "y": 1.0036462545394897,
+        "cluster": 9,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKPesindon",
+        "x": 8.465887069702148,
+        "y": 5.4393815994262695,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPlalangan",
+        "x": 7.011808395385742,
+        "y": 7.099342346191406,
+        "cluster": 2,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPlered",
+        "x": 5.392667770385742,
+        "y": 0.698724091053009,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPoh",
+        "x": 7.580467224121094,
+        "y": 2.1648619174957275,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPucangan",
+        "x": 9.564854621887207,
+        "y": 6.1538472175598145,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKPuhawangGlis",
+        "x": 6.390968322753906,
+        "y": 5.03754186630249,
+        "cluster": 4,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRabvan",
+        "x": 6.460840702056885,
+        "y": 6.622504234313965,
+        "cluster": 2,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKRaKidanI",
+        "x": 6.773316860198975,
+        "y": 5.12336540222168,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRameswarapura",
+        "x": 8.91836929321289,
+        "y": 5.503274440765381,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRampal",
+        "x": 6.375443458557129,
+        "y": -0.04902397841215134,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRembang",
+        "x": 7.9005022048950195,
+        "y": 6.580778121948242,
+        "cluster": 1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRongkab",
+        "x": 6.5010504722595215,
+        "y": 0.20745500922203064,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRukam",
+        "x": 8.11081314086914,
+        "y": 0.7147403359413147,
+        "cluster": 12,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKRumwigaI",
+        "x": 6.687020778656006,
+        "y": -0.06887583434581757,
+        "cluster": 13,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKRumwigaII",
+        "x": 7.584923267364502,
+        "y": 0.22600288689136505,
+        "cluster": 7,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKSadang",
+        "x": 7.378517150878906,
+        "y": 2.6274664402008057,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSalingsinganII",
+        "x": 6.3307085037231445,
+        "y": -0.18717212975025177,
+        "cluster": 13,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSamalagi",
+        "x": 7.411995887756348,
+        "y": 0.9792887568473816,
+        "cluster": 11,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKSanga",
+        "x": 5.754724025726318,
+        "y": 1.3140654563903809,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSangguran",
+        "x": 7.963220119476318,
+        "y": 2.6715688705444336,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSangHyangTapak",
+        "x": 8.263858795166016,
+        "y": 3.578979015350342,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSangsang",
+        "x": 7.7396240234375,
+        "y": 1.0243405103683472,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSankara",
+        "x": 9.54841423034668,
+        "y": 6.069435119628906,
+        "cluster": 0,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSarwadharma",
+        "x": 8.905312538146973,
+        "y": 4.82446813583374,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSatyapura",
+        "x": 8.394060134887695,
+        "y": 1.9034982919692993,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSelamandi_I",
+        "x": 6.255322456359863,
+        "y": 3.346499443054199,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSelamandi_II",
+        "x": 5.932173252105713,
+        "y": 1.992737889289856,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSikuLalawa",
+        "x": 5.547909736633301,
+        "y": 1.295305609703064,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSilamanikundala",
+        "x": 8.572970390319824,
+        "y": 1.0184186697006226,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSimaAnglayang",
+        "x": 8.619097709655762,
+        "y": 1.7212128639221191,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSindoro-PuBahut",
+        "x": 5.930142879486084,
+        "y": 0.6134080290794373,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+        "x": 5.856724739074707,
+        "y": 0.5354650616645813,
+        "cluster": 14,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSojomerto",
+        "x": 7.693510055541992,
+        "y": 6.717499256134033,
+        "cluster": 1,
+        "lang": "omy-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSriManggalaII",
+        "x": 6.908143043518066,
+        "y": 5.168705940246582,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSriManggalaIII",
+        "x": 6.655394554138184,
+        "y": 5.343926906585693,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSugihManek",
+        "x": 7.701714992523193,
+        "y": 2.768742322921753,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSukhamerta",
+        "x": 9.03467082977295,
+        "y": 5.374859809875488,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKSumundul",
+        "x": 6.139277458190918,
+        "y": 5.33372688293457,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTaji",
+        "x": 6.505216121673584,
+        "y": 1.7345231771469116,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTajiGunung",
+        "x": 5.638101100921631,
+        "y": -0.0999884307384491,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTalan",
+        "x": 9.505399703979492,
+        "y": 5.035912990570068,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTaragal",
+        "x": 5.849028587341309,
+        "y": 1.0477532148361206,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTelahap",
+        "x": 6.7948503494262695,
+        "y": 7.163209438323975,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTelangI-WanagiriI",
+        "x": 7.144031524658203,
+        "y": 0.9943189024925232,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTelangII-WanagiriII",
+        "x": 6.976546287536621,
+        "y": 1.8303834199905396,
+        "cluster": -1,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKTerep_I",
+        "x": 9.170405387878418,
+        "y": 4.4612908363342285,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTerep_II",
+        "x": 8.336149215698242,
+        "y": 1.4747940301895142,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTigaRon-TluRon",
+        "x": 7.637970924377441,
+        "y": 1.5823601484298706,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTihang",
+        "x": 8.595002174377441,
+        "y": 2.312298536300659,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTija-HaruHaru",
+        "x": 5.802087783813477,
+        "y": 1.6245404481887817,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTimbananWungkal",
+        "x": 7.623065948486328,
+        "y": 2.756946563720703,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTirah",
+        "x": 6.1035542488098145,
+        "y": 3.7341737747192383,
+        "cluster": -1,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTugu",
+        "x": 8.118372917175293,
+        "y": 6.619050025939941,
+        "cluster": 1,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTuhanyaru",
+        "x": 9.486421585083008,
+        "y": 5.054712772369385,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTukMas",
+        "x": 6.587662696838379,
+        "y": 7.227199077606201,
+        "cluster": 2,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTulangan",
+        "x": 7.072849273681641,
+        "y": 5.8831071853637695,
+        "cluster": -1,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKTulangEr",
+        "x": 8.470656394958496,
+        "y": 1.240808129310608,
+        "cluster": 9,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTunahan",
+        "x": 6.282041072845459,
+        "y": 1.1482888460159302,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKTuwuhada",
+        "x": 7.661967754364014,
+        "y": 1.0633893013000488,
+        "cluster": 11,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKUpitI",
+        "x": 6.328923225402832,
+        "y": 6.781397819519043,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWalanditA",
+        "x": 5.787098407745361,
+        "y": 4.66678524017334,
+        "cluster": 6,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWangkud",
+        "x": 6.522646427154541,
+        "y": 6.701219081878662,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWanuaTengahIII",
+        "x": 6.41947603225708,
+        "y": 1.2572476863861084,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWatuGenuk",
+        "x": 7.540493965148926,
+        "y": 6.863584041595459,
+        "cluster": 1,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWatuKuraI",
+        "x": 7.080471038818359,
+        "y": 2.7251620292663574,
+        "cluster": 8,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWatuRidang",
+        "x": 8.17265796661377,
+        "y": 2.3397574424743652,
+        "cluster": 8,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKWayuku",
+        "x": 6.651598930358887,
+        "y": 7.079948425292969,
+        "cluster": 2,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWintangMasI",
+        "x": 6.838897705078125,
+        "y": 1.1533702611923218,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWintangMasII",
+        "x": 6.815940856933594,
+        "y": 1.1202445030212402,
+        "cluster": 11,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWuangGot",
+        "x": 6.450541019439697,
+        "y": 5.431369781494141,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWukiran",
+        "x": 9.54269790649414,
+        "y": 6.121698379516602,
+        "cluster": 0,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWunganDaik",
+        "x": 5.646366596221924,
+        "y": 0.12210014462471008,
+        "cluster": 14,
+        "lang": ""
+      },
+      {
+        "id": "DHARMA_INSIDENKWurare",
+        "x": 9.322733879089355,
+        "y": 5.584575176239014,
+        "cluster": 0,
+        "lang": "san-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWuruduKidul",
+        "x": 6.496816158294678,
+        "y": 1.5163404941558838,
+        "cluster": 10,
+        "lang": "kaw-Latn"
+      },
+      {
+        "id": "DHARMA_INSIDENKWuruTunggal",
+        "x": 6.353099822998047,
+        "y": 4.90155029296875,
+        "cluster": 4,
+        "lang": "kaw-Latn"
+      }
+    ]
+  },
+  "semantic_queries": {
+    "village administration and land grants": {
+      "mean_similarity": 0.9887382984161377,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.9921690821647644,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9910235404968262,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuBahut",
+          "lang": "kaw-Latn",
+          "similarity": 0.9909759759902954,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+          "lang": "kaw-Latn",
+          "similarity": 0.9908080697059631,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKasugihan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9908000230789185,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKiringan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9907007217407227,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMarinci_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.9906972050666809,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPlered",
+          "lang": "kaw-Latn",
+          "similarity": 0.9906835556030273,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMantyasihIII",
+          "lang": "kaw-Latn",
+          "similarity": 0.9905688762664795,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKLinggawangi",
+          "lang": "osn-Latn",
+          "similarity": 0.9905474781990051,
+          "century": ""
+        }
+      ]
+    },
+    "mountain worship and sacred peaks": {
+      "mean_similarity": 0.9881675839424133,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.9931668043136597,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9910131692886353,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKLinggawangi",
+          "lang": "osn-Latn",
+          "similarity": 0.9910047054290771,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKNgadoman",
+          "lang": "kaw-Latn",
+          "similarity": 0.9907671809196472,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKHuludayeuh",
+          "lang": "osn-Latn",
+          "similarity": 0.9906147122383118,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKHuwung",
+          "lang": "kaw-Latn",
+          "similarity": 0.9905304312705994,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKawali_1a",
+          "lang": "osn-Latn",
+          "similarity": 0.990511953830719,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKUpitI",
+          "lang": "kaw-Latn",
+          "similarity": 0.9904279708862305,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+          "lang": "kaw-Latn",
+          "similarity": 0.9901604056358337,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKTirah",
+          "lang": "kaw-Latn",
+          "similarity": 0.9900535941123962,
+          "century": ""
+        }
+      ]
+    },
+    "water infrastructure irrigation dams": {
+      "mean_similarity": 0.9894662499427795,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.9930101633071899,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKasugihan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9917355179786682,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9915953874588013,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMantyasihIII",
+          "lang": "kaw-Latn",
+          "similarity": 0.991510808467865,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPlered",
+          "lang": "kaw-Latn",
+          "similarity": 0.9915054440498352,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuBahut",
+          "lang": "kaw-Latn",
+          "similarity": 0.9914095997810364,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKiringan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9913732409477234,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSelamandi_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.9913650751113892,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+          "lang": "kaw-Latn",
+          "similarity": 0.9912686347961426,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMarinci_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.9912636876106262,
+          "century": ""
+        }
+      ]
+    },
+    "royal genealogy and succession": {
+      "mean_similarity": 0.9878658056259155,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.993023693561554,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKLinggawangi",
+          "lang": "osn-Latn",
+          "similarity": 0.9906905889511108,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9904392957687378,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKawali_1b",
+          "lang": "osn-Latn",
+          "similarity": 0.9900699257850647,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKNgadoman",
+          "lang": "kaw-Latn",
+          "similarity": 0.9900108575820923,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMarinci_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.9899042844772339,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuBahut",
+          "lang": "kaw-Latn",
+          "similarity": 0.9897794723510742,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKiringan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9897403120994568,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKasugihan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9897356629371643,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMarinci_I",
+          "lang": "kaw-Latn",
+          "similarity": 0.98973548412323,
+          "century": ""
+        }
+      ]
+    },
+    "tax collection and economic regulation": {
+      "mean_similarity": 0.9880372285842896,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.9918975830078125,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9903953671455383,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPlered",
+          "lang": "kaw-Latn",
+          "similarity": 0.9903688430786133,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuBahut",
+          "lang": "kaw-Latn",
+          "similarity": 0.9903002381324768,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKasugihan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9902489185333252,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKiringan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9901981949806213,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+          "lang": "kaw-Latn",
+          "similarity": 0.9901103377342224,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMantyasihIII",
+          "lang": "kaw-Latn",
+          "similarity": 0.9899608492851257,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSelamandi_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.9898402094841003,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMarinci_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.989804208278656,
+          "century": ""
+        }
+      ]
+    },
+    "Buddhist monastery and religious donation": {
+      "mean_similarity": 0.9895658493041992,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.9932915568351746,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9917562007904053,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMarinci_II",
+          "lang": "kaw-Latn",
+          "similarity": 0.9914461970329285,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKiringan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9913960695266724,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuBahut",
+          "lang": "kaw-Latn",
+          "similarity": 0.9912887215614319,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+          "lang": "kaw-Latn",
+          "similarity": 0.991273820400238,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKLinggawangi",
+          "lang": "osn-Latn",
+          "similarity": 0.9912556409835815,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKasugihan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9911687970161438,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKTirah",
+          "lang": "kaw-Latn",
+          "similarity": 0.9911165833473206,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKNgadoman",
+          "lang": "kaw-Latn",
+          "similarity": 0.9910919666290283,
+          "century": ""
+        }
+      ]
+    },
+    "volcanic landscape fire mountain": {
+      "mean_similarity": 0.9867666363716125,
+      "top_10": [
+        {
+          "id": "DHARMA_INSIDENK00396",
+          "lang": "kaw-Latn",
+          "similarity": 0.9931718707084656,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKLinggawangi",
+          "lang": "osn-Latn",
+          "similarity": 0.9900642037391663,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKawali_1a",
+          "lang": "osn-Latn",
+          "similarity": 0.9897132515907288,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPaguhan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9896015524864197,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKKasugihan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9893805384635925,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuBahut",
+          "lang": "kaw-Latn",
+          "similarity": 0.9893603920936584,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKNgadoman",
+          "lang": "kaw-Latn",
+          "similarity": 0.9893297553062439,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKMantyasihIII",
+          "lang": "kaw-Latn",
+          "similarity": 0.9892995953559875,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKPasanggrahan",
+          "lang": "kaw-Latn",
+          "similarity": 0.9892607927322388,
+          "century": ""
+        },
+        {
+          "id": "DHARMA_INSIDENKSindoro-PuMamruk",
+          "lang": "kaw-Latn",
+          "similarity": 0.9891898036003113,
+          "century": ""
+        }
+      ]
+    }
+  }
+}

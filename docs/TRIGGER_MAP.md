@@ -161,7 +161,45 @@
 - ✓ Genuinely NEW independent data stream (no DHARMA/ABVD overlap)
 - ✓ P16 pipeline foundation ready
 - ✓ I-118 → RESULT
-- **Next trigger:** If corpus expanded to 200+ passages → BERTopic and NLI become viable (E090/EXP4/EXP6)
+- ~~**Next trigger:** If corpus expanded to 200+ passages → BERTopic and NLI become viable~~ → **FIRED (2026-03-17)**
+
+### ~~If: Corpus reaches 200+ passages~~ → **FIRED (E089 v5 + E090 v5, 2026-03-17)**
+- ✓ E089 v5: 200 entries, 12 traditions (was 106 in v3)
+- ✓ E090 v5: **16 BERTopic topics** (was 3 at N=50). VOLCANO concept z=7.39. **8/8 groups CONVERGE.**
+- ✓ Topic 4 ("volcanic, sanskrit, inscriptions") + Topic 12 ("mountain, slopes, temples, smoke") = VOLCARCH-relevant
+- ✓ P16 viability CONFIRMED → draft v0.1 written (19pp, 6 figures)
+- ✓ JAVA convergence: z=0.88→21.91 (corpus size was the only bottleneck)
+
+### ~~If: SBERT applied to original Old Javanese~~ → **FIRED (E094+E095, 2026-03-17)**
+- ✓ E094 SUCCESS: First SBERT on DHARMA translations. Volcanic silence = 0.244 (lowest). C11→C12 rupture.
+- ✓ E095 SUCCESS (MIXED): XLM-R embedding collapse (honest negative). ML-SBERT validates E094 (rho=0.336).
+- ✓ Volcanic silence CONFIRMED in original language (rank 4/7)
+- ✓ P16 limitation #1 ("English only") now addressed
+- I-022 (KawiKupas) → semantic search capability demonstrated on DHARMA corpus
+
+### ~~If: BERTopic applied to inscriptions~~ → **FIRED (E096, 2026-03-17)**
+- ✓ E096 SUCCESS: First BERTopic on any epigraphic corpus. 3 topics discovered.
+- ✓ **929 CE topic shift: chi2=16.58, p=0.0003.** Royal surges (Fisher p=0.0002). Ritual vanishes.
+- ✓ L4 cosmological overwrite = COMPUTATIONALLY CONFIRMED via NLP
+- ✓ P5/P8 revision ammo: discursive evidence for cultural shift at Mataram collapse
+- I-116 (eruption-inscription temporal) → now has computational evidence for correlation
+
+### ~~If: Anomaly detection converges with fieldwork targets~~ → **FIRED (E097, 2026-03-16)**
+- ✓ E097 SUCCESS: Isolation Forest on 378 sites. **65% overlap** with E080 top 20 targets (13/20 within 5km).
+- ✓ Kelud western slopes = dominant target. TRI top feature (0.294). 195K site-like cells with >1m burial.
+- ✓ TWO completely independent methods → same zones. Strongest validation of fieldwork targets.
+- ✓ I-020 (crop mark detection) → target zones now quantitatively defined
+- ✓ I-043 (candi siting) → environmental suitability confirmed computationally
+- ✓ Dokumen Jembatan v0.2 → 65% convergence is headline finding for collaborator outreach
+- **Phase 2 gate consideration:** 65% convergence + 6 papers + Dokumen Jembatan = approaching readiness
+
+### If: E092+E098 literature review completed → **FIRED (2026-03-16)**
+- ✓ E092 SUCCESS: 28 global comparanda. GPR max 2.5m in andosols. ERT recommended. Magnetometry for brick.
+- ✓ E098 SUCCESS: 69 sed. rates, 29 buried sites, 20 GPR surveys worldwide. GPR ≤ 2.5m in Java.
+- ✓ E093 SUCCESS: 65 publications. Only 1 published GPR study in volcanic Java (Pojoh 2007).
+- ✓ E093×E070 cross-reference: 27 publications with new depth data. Could expand E070 52→70+.
+- ✓ Dokumen Jembatan v0.2: ERT + magnetometry recommendation integrated.
+- ✓ Fieldwork methodology blueprint created (`experiments/E092.../results/methodology_blueprint.md`)
 
 ### If: P5 BKI revision requested
 - P15 content → absorbed from `papers/P5_volcanic_ritual_clock/revision_ammo/`

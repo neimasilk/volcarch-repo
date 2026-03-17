@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "experiment": "E105",
+    "n": 137
+  },
+  "topic_distances": {
+    "Sanskrit-dominant": {
+      "mean": 73.88615384615386,
+      "median": 27.58,
+      "n": 78
+    },
+    "Mixed": {
+      "mean": 46.16806451612905,
+      "median": 22.32,
+      "n": 31
+    },
+    "Indigenous-rich": {
+      "mean": 40.00428571428573,
+      "median": 25.415,
+      "n": 28
+    }
+  }
+}

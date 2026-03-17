@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "experiment": "E099",
+    "date": "2026-03-17",
+    "n_eruptions": 13,
+    "n_inscriptions": 165,
+    "period": "600-1500 CE"
+  },
+  "century_level": {
+    "spearman_eruption_count": {
+      "rho": -0.28884691392247847,
+      "p": 0.45095737689436904
+    },
+    "spearman_vei_sum": {
+      "rho": -0.28884691392247847,
+      "p": 0.45095737689436904
+    },
+    "centuries": {
+      "C7": {
+        "eruptions": 0,
+        "vei_sum": 0.0,
+        "inscriptions": 4
+      },
+      "C8": {
+        "eruptions": 0,
+        "vei_sum": 0.0,
+        "inscriptions": 55
+      },
+      "C9": {
+        "eruptions": 0,
+        "vei_sum": 0.0,
+        "inscriptions": 30
+      },
+      "C10": {
+        "eruptions": 1,
+        "vei_sum": 3.0,
+        "inscriptions": 47
+      },
+      "C11": {
+        "eruptions": 0,
+        "vei_sum": 0.0,
+        "inscriptions": 11
+      },
+      "C12": {
+        "eruptions": 0,
+        "vei_sum": 0.0,
+        "inscriptions": 2
+      },
+      "C13": {
+        "eruptions": 0,
+        "vei_sum": 0.0,
+        "inscriptions": 10
+      },
+      "C14": {
+        "eruptions": 5,
+        "vei_sum": 15.0,
+        "inscriptions": 6
+      },
+      "C15": {
+        "eruptions": 5,
+        "vei_sum": 15.0,
+        "inscriptions": 0
+      }
+    }
+  },
+  "bin_50yr": {
+    "spearman": {
+      "rho": -0.2692667675885389,
+      "p": 0.2799183232556233
+    },
+    "n_bins": 18
+  },
+  "lag_analysis": {
+    "0": {
+      "rho": -0.26029154639775354,
+      "p": 0.013223494879095634
+    },
+    "1": {
+      "rho": -0.2640161029068535,
+      "p": 0.012417881137326526
+    },
+    "2": {
+      "rho": -0.0886042739235043,
+      "p": 0.41169547655107736
+    },
+    "3": {
+      "rho": -0.1845760910597136,
+      "p": 0.08699834739927526
+    },
+    "4": {
+      "rho": -0.057548436624763506,
+      "p": 0.5986732807950823
+    },
+    "5": {
+      "rho": -0.13535279344917817,
+      "p": 0.21679058666162962
+    }
+  },
+  "quiet_vs_active": {
+    "quiet_rate_per_century": 7.712765957446809,
+    "active_rate_per_century": 32.075471698113205,
+    "ratio": 0.24045682102628288
+  },
+  "quiet_periods": [
+    {
+      "start": 1000,
+      "end": 1311,
+      "gap_years": 311,
+      "inscriptions": 24,
+      "rate_per_century": 7.717041800643087
+    },
+    {
+      "start": 1311,
+      "end": 1334,
+      "gap_years": 23,
+      "inscriptions": 0,
+      "rate_per_century": 0.0
+    },
+    {
+      "start": 1334,
+      "end": 1376,
+      "gap_years": 42,
+      "inscriptions": 5,
+      "rate_per_century": 11.904761904761905
+    }
+  ]
+}

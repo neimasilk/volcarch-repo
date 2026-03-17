@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "experiment": "E100",
+    "date": "2026-03-17",
+    "n_sites_total": 666,
+    "n_sites_with_elevation": 380,
+    "dem": "jatim_dem.tif (GLO-30)"
+  },
+  "zone_analysis": {
+    "Coastal (0-50m)": {
+      "sites": 123,
+      "area_km2": 62636.55318591997,
+      "density_per_1000km2": 1.9637095871943522
+    },
+    "Lowland (50-200m)": {
+      "sites": 87,
+      "area_km2": 20206.700305547067,
+      "density_per_1000km2": 4.305502565211851
+    },
+    "Midslope (200-500m)": {
+      "sites": 56,
+      "area_km2": 11228.899668344893,
+      "density_per_1000km2": 4.987131567117674
+    },
+    "Highland (500-1000m)": {
+      "sites": 50,
+      "area_km2": 6324.288422478227,
+      "density_per_1000km2": 7.906027786823654
+    },
+    "Mountain (>1000m)": {
+      "sites": 64,
+      "area_km2": 3438.614574867371,
+      "density_per_1000km2": 18.612147016351347
+    }
+  },
+  "inverse_u_test": {
+    "quadratic_x2_coeff": 4.1252686879027e-06,
+    "is_inverse_u": false,
+    "peak_elevation_m": -526.7272662682416,
+    "middle_vs_margin_ratio": 0.4893970850891979,
+    "chi2": 298.1722100809751,
+    "chi2_p": 2.6857633282770654e-63
+  },
+  "volcano_interaction": {
+    "elev_dist_rho": -0.49327374217166325,
+    "elev_dist_p": 1.0736448846185612e-24,
+    "blind_spot_sites": 70,
+    "visible_middle_sites": 43
+  },
+  "density_matrix": {
+    "elev_bins": [
+      "0-100",
+      "100-300",
+      "300-500",
+      "500-1000",
+      "1000+"
+    ],
+    "dist_bins": [
+      "0-10km",
+      "10-20km",
+      "20-30km",
+      "30-50km",
+      "50+km"
+    ],
+    "matrix": [
+      [
+        3.0,
+        8.0,
+        59.0,
+        45.0,
+        27.0
+      ],
+      [
+        7.0,
+        3.0,
+        14.0,
+        12.0,
+        10.0
+      ],
+      [
+        2.0,
+        10.0,
+        23.0,
+        3.0,
+        0.0
+      ],
+      [
+        18.0,
+        12.0,
+        14.0,
+        0.0,
+        3.0
+      ],
+      [
+        43.0,
+        7.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "E111_script_diffusion_timeline",
+  "date": "2026-03-17",
+  "java_lag_years": 660,
+  "java_percentile": 57,
+  "brahmi_mean_lag": 508,
+  "java_verdict": "NORMAL",
+  "organic_survival_lontar": 0.003569654102458597,
+  "three_gaps": {
+    "gap1_sumeria": "3500 years — misleading (invention vs adoption)",
+    "gap2_brahmi": "660 years — normal (57th percentile)",
+    "gap3_organic": "possibly 0 years — organic writing undetectable after 1600 yr"
+  },
+  "verdict": "Java's writing adoption lag (660 yr from Brahmi) is at the 57th percentile of all known diffusion events — slow but not anomalous. The 3,500-year comparison with Sumeria is misleading: it conflates invention with adoption. The probability of finding pre-400 CE organic writing in tropical Java is ~10^-13. The 400 CE date marks the start of STONE writing technology, not civilization. Non-written information systems (wayang, gamelan, pranata mangsa, batik, toponymy) demonstrate civilizational complexity WITHOUT writing."
+}

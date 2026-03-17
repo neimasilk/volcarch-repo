@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "experiment": "E106",
+    "n": 43
+  },
+  "zone_counts": {
+    "Court (15-30km)": 25,
+    "Periphery (>30km)": 15,
+    "Volcano (<15km)": 3
+  },
+  "material_by_zone": {
+    "Brick (temple)": {
+      "Court (15-30km)": 12,
+      "Periphery (>30km)": 5,
+      "Volcano (<15km)": 1
+    },
+    "Inscribed stone": {
+      "Court (15-30km)": 0,
+      "Periphery (>30km)": 1,
+      "Volcano (<15km)": 0
+    },
+    "Metal artifact": {
+      "Court (15-30km)": 2,
+      "Periphery (>30km)": 0,
+      "Volcano (<15km)": 0
+    },
+    "Other": {
+      "Court (15-30km)": 0,
+      "Periphery (>30km)": 1,
+      "Volcano (<15km)": 1
+    },
+    "Stone/statue": {
+      "Court (15-30km)": 11,
+      "Periphery (>30km)": 8,
+      "Volcano (<15km)": 1
+    }
+  },
+  "condition_by_zone": {
+    "buried": {
+      "Court (15-30km)": 13,
+      "Periphery (>30km)": 4,
+      "Volcano (<15km)": 0
+    },
+    "damaged": {
+      "Court (15-30km)": 2,
+      "Periphery (>30km)": 4,
+      "Volcano (<15km)": 0
+    },
+    "destroyed": {
+      "Court (15-30km)": 1,
+      "Periphery (>30km)": 1,
+      "Volcano (<15km)": 0
+    },
+    "excavated": {
+      "Court (15-30km)": 1,
+      "Periphery (>30km)": 0,
+      "Volcano (<15km)": 1
+    },
+    "found": {
+      "Court (15-30km)": 3,
+      "Periphery (>30km)": 6,
+      "Volcano (<15km)": 0
+    },
+    "intact": {
+      "Court (15-30km)": 1,
+      "Periphery (>30km)": 0,
+      "Volcano (<15km)": 1
+    },
+    "lost": {
+      "Court (15-30km)": 1,
+      "Periphery (>30km)": 0,
+      "Volcano (<15km)": 0
+    },
+    "relocated": {
+      "Court (15-30km)": 1,
+      "Periphery (>30km)": 0,
+      "Volcano (<15km)": 0
+    },
+    "scattered": {
+      "Court (15-30km)": 2,
+      "Periphery (>30km)": 0,
+      "Volcano (<15km)": 0
+    }
+  }
+}

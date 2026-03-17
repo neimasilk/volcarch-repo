@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "experiment": "E104",
+    "date": "2026-03-17"
+  },
+  "distribution": {
+    "0-10km": {
+      "candi": 0,
+      "inscriptions": 22,
+      "sites": 83
+    },
+    "10-20km": {
+      "candi": 0,
+      "inscriptions": 46,
+      "sites": 47
+    },
+    "20-30km": {
+      "candi": 0,
+      "inscriptions": 69,
+      "sites": 117
+    },
+    "30-40km": {
+      "candi": 0,
+      "inscriptions": 12,
+      "sites": 44
+    },
+    "40-60km": {
+      "candi": 0,
+      "inscriptions": 20,
+      "sites": 46
+    },
+    "60-100km": {
+      "candi": 0,
+      "inscriptions": 7,
+      "sites": 28
+    }
+  }
+}
