@@ -1,0 +1,213 @@
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Abbas(2016)}]{abbas2016}
+\bibinfo{author}{Abbas, N.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{A reinterpretation of the buried {Hindu-Buddhist}
+  remains of {Liangan}, {Central Java}}.
+\newblock \bibinfo{journal}{Amerta} \bibinfo{volume}{34},
+  \bibinfo{pages}{27--42}.
+%Type = Book
+\bibitem[{van Bemmelen(1949)}]{vanbemmelen1949}
+\bibinfo{author}{van Bemmelen, R.W.}, \bibinfo{year}{1949}.
+\newblock \bibinfo{title}{The Geology of Indonesia}.
+  volume~\bibinfo{volume}{1A}.
+\newblock \bibinfo{publisher}{Government Printing Office},
+  \bibinfo{address}{The Hague}.
+%Type = Book
+\bibitem[{Coed\`{e}s(1968)}]{coedes1968}
+\bibinfo{author}{Coed\`{e}s, G.}, \bibinfo{year}{1968}.
+\newblock \bibinfo{title}{The Indianized States of {Southeast Asia}}.
+\newblock \bibinfo{publisher}{University of Hawai'i Press},
+  \bibinfo{address}{Honolulu}.
+\newblock \bibinfo{note}{Translated by Susan Brown Cowing}.
+%Type = Book
+\bibitem[{Conyers(2004)}]{conyers2004}
+\bibinfo{author}{Conyers, L.B.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Ground-Penetrating Radar for Archaeology}.
+\newblock \bibinfo{publisher}{AltaMira Press}, \bibinfo{address}{Walnut Creek}.
+%Type = Book
+\bibitem[{Doumas(1983)}]{doumas1983}
+\bibinfo{author}{Doumas, C.G.}, \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{Thera: {Pompeii} of the {Ancient Aegean}}.
+\newblock \bibinfo{publisher}{Thames and Hudson}, \bibinfo{address}{London}.
+%Type = Book
+\bibitem[{French(2003)}]{french2003}
+\bibinfo{author}{French, C.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Geoarchaeology in Action: Studies in Soil
+  Micromorphology and Landscape Evolution}.
+\newblock \bibinfo{publisher}{Routledge}, \bibinfo{address}{London}.
+\newblock \DOIprefix\doi{10.4324/9780203166888}.
+%Type = Article
+\bibitem[{Gertisser et~al.(2012)Gertisser, Charbonnier, Keller and
+  Vidal}]{gertisser2012}
+\bibinfo{author}{Gertisser, R.}, \bibinfo{author}{Charbonnier, S.J.},
+  \bibinfo{author}{Keller, J.}, \bibinfo{author}{Vidal, C.M.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{The geological evolution of {Merapi} volcano,
+  {Central Java}, {Indonesia}}.
+\newblock \bibinfo{journal}{Bulletin of Volcanology} \bibinfo{volume}{74},
+  \bibinfo{pages}{1213--1233}.
+\newblock \DOIprefix\doi{10.1007/s00445-012-0591-3}.
+%Type = Misc
+\bibitem[{{Global Volcanism Program}(2024)}]{gvp2024}
+\bibinfo{author}{{Global Volcanism Program}}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Volcanoes of the world, v. 5.2.2}.
+\newblock \bibinfo{howpublished}{Smithsonian Institution}.
+\newblock \URLprefix \url{https://volcano.si.edu/}.
+%Type = Book
+\bibitem[{Goodman and Piro(2013)}]{goodman2013}
+\bibinfo{author}{Goodman, D.}, \bibinfo{author}{Piro, S.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{GPR Remote Sensing in Archaeology}}.
+\newblock \bibinfo{publisher}{Springer}, \bibinfo{address}{Berlin}.
+\newblock \DOIprefix\doi{10.1007/978-3-642-31857-3}.
+%Type = Article
+\bibitem[{Grattan(2006)}]{grattan2006}
+\bibinfo{author}{Grattan, J.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Aspects of {Armageddon}: An exploration of the role
+  of volcanic eruptions in human history and civilization}.
+\newblock \bibinfo{journal}{Quaternary International} \bibinfo{volume}{151},
+  \bibinfo{pages}{10--18}.
+\newblock \DOIprefix\doi{10.1016/j.quaint.2006.01.019}.
+%Type = Phdthesis
+\bibitem[{de~Groot(2009)}]{degroot2009}
+\bibinfo{author}{de~Groot, V.M.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Candi, Space and Landscape: A Study on the
+  Distribution, Orientation and Spatial Organization of {Central Javanese}
+  Temple Remains}.
+\newblock Ph.D. thesis. Leiden University.
+%Type = Book
+\bibitem[{Kinney et~al.(2003)Kinney, Klokke and Kieven}]{kinney2003}
+\bibinfo{author}{Kinney, A.R.}, \bibinfo{author}{Klokke, M.J.},
+  \bibinfo{author}{Kieven, L.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Worshipping {Siva} and {Buddha}: The Temple Art of
+  {East Java}}.
+\newblock \bibinfo{publisher}{University of Hawai'i Press},
+  \bibinfo{address}{Honolulu}.
+%Type = Article
+\bibitem[{Lavigne and Thouret(2000)}]{lavigne2000}
+\bibinfo{author}{Lavigne, F.}, \bibinfo{author}{Thouret, J.C.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Lahars at {Merapi} volcano, {Central Java}: an
+  overview}.
+\newblock \bibinfo{journal}{Journal of Volcanology and Geothermal Research}
+  \bibinfo{volume}{100}, \bibinfo{pages}{423--456}.
+\newblock \DOIprefix\doi{10.1016/S0377-0273(00)00150-5}.
+%Type = Article
+\bibitem[{Maeno et~al.(2019)Maeno, Nakada, Yoshimoto, Shimano, Hokanishi,
+  Zaennudin and Iguchi}]{maeno2019}
+\bibinfo{author}{Maeno, F.}, \bibinfo{author}{Nakada, S.},
+  \bibinfo{author}{Yoshimoto, M.}, \bibinfo{author}{Shimano, T.},
+  \bibinfo{author}{Hokanishi, N.}, \bibinfo{author}{Zaennudin, A.},
+  \bibinfo{author}{Iguchi, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{A sequence of a plinian eruption preceded by dome
+  destruction at {Kelud} volcano, {Indonesia}, on {February} 13, 2014, revealed
+  from tephra fallout and pyroclastic density current deposits}.
+\newblock \bibinfo{journal}{Journal of Volcanology and Geothermal Research}
+  \bibinfo{volume}{382}, \bibinfo{pages}{24--41}.
+\newblock \DOIprefix\doi{10.1016/j.jvolgeores.2017.03.002}.
+%Type = Article
+\bibitem[{Miksic(2004)}]{miksic2004}
+\bibinfo{author}{Miksic, J.N.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{From {Megaliths} to {Tombstones}: The transition from
+  prehistory to history in {Western Indonesia}}.
+\newblock \bibinfo{journal}{Indonesia and the Malay World}
+  \bibinfo{volume}{32}, \bibinfo{pages}{191--210}.
+\newblock \DOIprefix\doi{10.1080/1363981042000320125}.
+%Type = Article
+\bibitem[{Newhall and Self(1982)}]{newhall1982}
+\bibinfo{author}{Newhall, C.G.}, \bibinfo{author}{Self, S.},
+  \bibinfo{year}{1982}.
+\newblock \bibinfo{title}{The {Volcanic Explosivity Index} ({VEI}): An estimate
+  of explosive magnitude for historical volcanism}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Oceans}
+  \bibinfo{volume}{87}, \bibinfo{pages}{1231--1238}.
+\newblock \DOIprefix\doi{10.1029/JC087iC02p01231}.
+%Type = Article
+\bibitem[{Putra and Setyastuti(2019)}]{putra2019}
+\bibinfo{author}{Putra, P.B.}, \bibinfo{author}{Setyastuti, A.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Le complexe cultuel de {Kimpulan}, site enfoui sous
+  les cendres du {Merapi} ({Yogyakarta}, {Java} central)}.
+\newblock \bibinfo{journal}{Bulletin de l'\'{E}cole fran\c{c}aise
+  d'Extr\^{e}me-Orient} \bibinfo{volume}{105}, \bibinfo{pages}{377--402}.
+\newblock \DOIprefix\doi{10.3406/befeo.2019.6297}.
+%Type = Book
+\bibitem[{Schiffer(1987)}]{schiffer1987}
+\bibinfo{author}{Schiffer, M.B.}, \bibinfo{year}{1987}.
+\newblock \bibinfo{title}{Formation Processes of the Archaeological Record}.
+\newblock \bibinfo{publisher}{University of New Mexico Press},
+  \bibinfo{address}{Albuquerque}.
+%Type = Book
+\bibitem[{Sheets(1992)}]{sheets1992}
+\bibinfo{author}{Sheets, P.D.}, \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{The {Cer\'{e}n} Site: A Prehistoric Village Buried by
+  Volcanic Ash in {Central America}}.
+\newblock \bibinfo{publisher}{Harcourt Brace Jovanovich},
+  \bibinfo{address}{Fort Worth}.
+%Type = Article
+\bibitem[{Sigurdsson et~al.(1985)Sigurdsson, Carey, Cornell and
+  Pescatore}]{sigurdsson1985}
+\bibinfo{author}{Sigurdsson, H.}, \bibinfo{author}{Carey, S.},
+  \bibinfo{author}{Cornell, W.}, \bibinfo{author}{Pescatore, T.},
+  \bibinfo{year}{1985}.
+\newblock \bibinfo{title}{The eruption of {Vesuvius} in {A.D.} 79}.
+\newblock \bibinfo{journal}{National Geographic Research} \bibinfo{volume}{1},
+  \bibinfo{pages}{332--387}.
+%Type = Article
+\bibitem[{Thouret et~al.(2000)Thouret, Lavigne, Kelfoun and
+  Bronto}]{thouret2000}
+\bibinfo{author}{Thouret, J.C.}, \bibinfo{author}{Lavigne, F.},
+  \bibinfo{author}{Kelfoun, K.}, \bibinfo{author}{Bronto, S.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Toward a revised hazard assessment at {Merapi}
+  volcano, {Central Java}}.
+\newblock \bibinfo{journal}{Journal of Volcanology and Geothermal Research}
+  \bibinfo{volume}{100}, \bibinfo{pages}{479--502}.
+\newblock \DOIprefix\doi{10.1016/S0377-0273(00)00152-9}.
+%Type = Book
+\bibitem[{Torrence and Grattan(2002)}]{torrence2002}
+\bibinfo{author}{Torrence, R.}, \bibinfo{author}{Grattan, J.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Natural Disasters and Cultural Change}.
+\newblock \bibinfo{publisher}{Routledge}, \bibinfo{address}{London}.
+\newblock \DOIprefix\doi{10.4324/9780203165768}.
+%Type = Article
+\bibitem[{Verhagen and Whitley(2012)}]{verhagen2012}
+\bibinfo{author}{Verhagen, P.}, \bibinfo{author}{Whitley, T.G.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Integrating archaeological theory and predictive
+  modeling: A live report from the scene}.
+\newblock \bibinfo{journal}{Journal of Archaeological Method and Theory}
+  \bibinfo{volume}{19}, \bibinfo{pages}{49--100}.
+\newblock \DOIprefix\doi{10.1007/s10816-011-9102-7}.
+%Type = Article
+\bibitem[{Vogel(1918)}]{vogel1918}
+\bibinfo{author}{Vogel, J.P.}, \bibinfo{year}{1918}.
+\newblock \bibinfo{title}{The yupa inscriptions of {King Mulavarman} from
+  {Koetei} ({East Borneo})}.
+\newblock \bibinfo{journal}{Bijdragen tot de Taal-, Land- en Volkenkunde}
+  \bibinfo{volume}{74}, \bibinfo{pages}{167--232}.
+%Type = Article
+\bibitem[{Wandsnider and Camilli(1992)}]{wandsnider1992}
+\bibinfo{author}{Wandsnider, L.}, \bibinfo{author}{Camilli, E.L.},
+  \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{The character of surface archaeological deposits and
+  its influence on survey accuracy}.
+\newblock \bibinfo{journal}{Journal of Field Archaeology} \bibinfo{volume}{19},
+  \bibinfo{pages}{169--188}.
+\newblock \DOIprefix\doi{10.2307/530400}.
+
+\end{thebibliography}

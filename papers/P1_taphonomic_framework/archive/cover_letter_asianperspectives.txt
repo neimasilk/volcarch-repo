@@ -1,0 +1,40 @@
+Dear Editors,
+
+I am pleased to submit the enclosed manuscript, "Multi-Site Calibration of Volcanic Sedimentation Rates and Implications for Archaeological Visibility in Java, Indonesia," for consideration as a Research Article in Asian Perspectives.
+
+This paper presents an empirical calibration framework for estimating archaeological burial depths in volcanic Java. Using four independent archaeological sites across two volcanic systems (Kelud and Merapi), we derive a mean cumulative sedimentation rate of 4.4 +/- 1.2 mm/yr over a 1,200-year horizon. We apply these rates to project that Kanjuruhan-era (A.D. ~760) remains in the Malang basin likely lie beneath 4-8 meters of overburden—exceeding the detection limits of surface survey and conventional ground-penetrating radar. The framework offers a quantitative baseline for directing future subsurface investigations in volcanic island arcs.
+
+The manuscript is approximately 4,400 words (including references), contains 5 figures and 3 tables, and has not been published or submitted elsewhere.
+
+ABOUT THE AUTHOR:
+
+Mukhlis Amien
+Lab Data Sains, Universitas Bhinneka Nusantara, Indonesia
+Email: amien@ubhinus.ac.id
+[POSTAL ADDRESS — TODO]
+[PHONE — TODO]
+ORCID: [TODO — replace with actual ORCID]
+
+SUGGESTED REVIEWERS:
+
+1. [NAME], [INSTITUTION] — [EMAIL]
+   Expertise: [volcanic archaeology / geoarchaeology in Southeast Asia]
+
+2. [NAME], [INSTITUTION] — [EMAIL]
+   Expertise: [archaeological taphonomy / site formation processes]
+
+3. [NAME], [INSTITUTION] — [EMAIL]
+   Expertise: [Indonesian archaeology / Javanese historical archaeology]
+
+4. [NAME], [INSTITUTION] — [EMAIL]
+   Expertise: [volcanology / tephra studies in Indonesia]
+
+5. [NAME], [INSTITUTION] — [EMAIL]
+   Expertise: [GIS / spatial analysis in archaeology]
+
+I confirm that the manuscript is original work, has not been published previously, and is not under consideration elsewhere. All data and analysis scripts are publicly available at https://github.com/neimasilk/volcarch-repo.
+
+Thank you for your consideration.
+
+Sincerely,
+Mukhlis Amien
