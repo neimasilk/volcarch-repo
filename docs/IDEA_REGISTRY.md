@@ -76,6 +76,10 @@
 | I-105 | Genre Taphonomy as 5th Layer of Darkness (L5) | E048 quantified: sima inscriptions mention organic materials 90.4% vs short-format 24.1% (p<0.0001). Pre-Indic ratio also higher in long sima. Inscription FORMAT is a massive taphonomic filter — C8 "dark century" is a genre artifact, not a cultural blank. | E048 | P1, P5, Manifesto L5, Channel 1 |
 | I-106 | Canarium as Pan-Austronesian Aromatic Marker | E050 GBIF confirms Canarium in ALL Austronesian regions: Taiwan (136), Philippines (13), Madagascar (388), Melanesia (15). 4-layer aromatic substitution chain: Canarium → dammar → menyan → kamboja. Indonesia undersampled (4 records = collection bias). | E050 | P5, P9, Channel 5 |
 
+| I-110 | Dong Son drum distribution as pre-400 CE test | TESTABLE | Bernet Kempers 1988 catalog needed | Catalog accessed/digitized | Structural critique 2026-03-20 | P1, P17, Channel 1 | *If drums found in volcanic East Java → direct evidence of pre-Hindu occupation in volcanic zones. Key ref: Bernet Kempers 1988. Check Museum Nasional Jakarta + Tropenmuseum Leiden catalogs.* |
+| I-111 | Philippines-Java archaeological record comparison | TESTABLE | Need Philippines site catalog (National Museum, Bellwood 2017, Mijares 2010) | Data compiled | Structural critique 2026-03-20 | P1, P17, Channel 1 | *Philippines has richer pre-400 CE record despite LESS survey intensity → supports volcanic burial thesis. Key insight: cave availability (karst) is a 6th cascade factor. See docs/research_notes/BLIND_SPOT_PHILIPPINES_COMPARANDUM.md* |
+| I-112 | Pre-Dong Son metallurgy evidence in Java | TESTABLE | Needs literature survey of ore deposit + smelting sites | Literature compiled | Structural critique 2026-03-20 | P1, Channel 1 | *Java has copper + iron ore. Zero pre-400 CE smelting sites. Is this also taphonomic? Key ref: Van Heekeren 1958.* |
+
 ---
 
 ## SPARK — Raw Ideas, No Method Yet

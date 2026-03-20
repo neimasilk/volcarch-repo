@@ -20,9 +20,9 @@
 ## 2. Active Papers
 
 ### Paper 1: Taphonomic Bias Framework
-**Status:** SUBMITTED to Asian Perspectives (2026-03-10) — MS# 019A-0326, Submission #773
+**Status:** REJECTED by Asian Perspectives (2026-03-17, AI flag). Zenodo preprint live (DOI: 10.5281/zenodo.19081502). EGQSJ Copernicus format ready. JASREP also formatted.
 **Type:** Literature review + quantitative analysis + position paper
-**Target journal:** Asian Perspectives (Q1, $0, Univ Hawaii Press)
+**Target journal:** ~~Asian Perspectives~~ → **EGQSJ** (Copernicus, Diamond OA, Scopus+WoS) or JASREP
 **File:** `papers/P1_taphonomic_framework/submission_asianperspectives_v0.1.docx`
 **Single-author:** Mukhlis Amien
 **MVR:** Multi-site calibration of sedimentation rates (4.4 ± 1.2 mm/yr across 2 volcanic systems) — **MET**
@@ -126,28 +126,27 @@
 - Geologist co-PI for stratigraphic interpretation
 - Ethics clearance if working near cultural/spiritual sites
 
-## 8. Papers Pipeline (Updated 2026-03-11)
+## 8. Papers Pipeline (Updated 2026-03-20)
 
-### Submitted (under review)
-- **P1** — Taphonomic Bias Framework → Asian Perspectives (2026-03-10)
-- **P2** — Settlement Suitability Model → JCAA (2026-03-11)
-- **P5** — The Volcanic Ritual Clock → BKI (2026-03-09)
+### Under review (3 active)
+- **P2** — Settlement Suitability Model → JCAA (2026-03-11) — Submission #280
 - **P7** — Temporal Overlay Matrix → Antiquity Project Gallery (2026-03-06)
 - **P8** — Linguistic Fossils → Oceanic Linguistics (2026-03-11), MS# OL-03-2026-11. Authors: Amien + Go Frendi.
-- **P9** — Peripheral Conservatism Framework → JSEAS NUS Press (2026-03-12). MS# JSEAS-202603-051. 34pp, ~10,100 words, 6 figures. Authors: Amien + Gunawan.
+
+### Rejected — Retargeting (Diamond OA only)
+- **P1** — Taphonomic Bias Framework → ~~Asian Perspectives~~ REJECTED 2026-03-17. **EGQSJ ready** (Copernicus, Diamond OA). ORCID + GitHub URL fixed 2026-03-20.
+- **P5** — The Volcanic Ritual Clock → ~~BKI~~ REJECTED 2026-03-19. Targets: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) / J. Pacific Archaeology / Wacana.
+- **P9** — Peripheral Conservatism → ~~JSEAS~~ REJECTED 2026-03-20. **HOLD** until P2/P8 outcome. Targets: **DHQ** (ADHO, Diamond OA) / Wacana / Archipel.
 
 ### Drafting
-- *(none)*
+- **P11** — Temple Siting as Archaeological Proxy (v0.3, 18pp). Target: **Wacana** (UI, Scopus Q2, Diamond OA) or Indonesia (Cornell, verify if free). Next: manual review → submit post-mudik.
+- **P16** — Computational Textual Archaeology (v0.1, 19pp, 6 figs). Target: **DHQ** (ADHO, Scopus+WoS, Diamond OA). Next: user review → expand → submit.
+- **P17** — Two Javas (v0.2, 22pp, 5 figs). Target: **Archeologia e Calcolatori** or J. Pacific Archaeology (Diamond OA). Next: user review → submit.
+- **P18** — "What Words Remember" (v0.1, 16pp). **HOLD** — wait for 1 acceptance. Target TBD.
 
-### Drafting
-- **P11** — Temple Siting as Archaeological Proxy (v0.3, 18pp). Reframed from VCS to methodology paper. Target: Indonesia (Cornell, Q2). Single-author. E084+E083+E086 integrated, all self-citations removed, 10 references. Next: manual review → LaTeX→Word → Chicago 17th → submit to indonesia-journal@cornell.edu.
-
-### Draft Ready
-- **D1** — Colonial Archaeological Register of Java (52 entries from OV 1912-1929). Target: JOAD (APC £374, waiver). Single-author.
-- **D2** — Mini-NusaRC (80 sites across 8 ISEA regions). Target: JOAD (APC £374, waiver). Single-author.
-
-### Incubation (see `docs/drafts/README.md`)
-- **P16** — Computational Textual Archaeology / "Visible from the Outside" (E088-E090 pipeline built)
+### Data Papers
+- **D1** — Colonial Archaeological Register of Java (52 entries). Target: **Zenodo** (free deposit).
+- **D2** — Mini-NusaRC (80 sites). Target: **Zenodo** (free deposit).
 
 ### Dissolved
 - **P15** — TOM-R content absorbed into `papers/P5_volcanic_ritual_clock/revision_ammo/` (2026-03-10)
@@ -161,9 +160,9 @@
 - **P14** — Pararaton Volcanic Collapse (Bonferroni kills significance; E026 folded into P5 revision ammo, 2026-03-11)
 - **P-coastal** — The Invisible Shore (stub, no data, no method)
 
-**Pipeline summary (2026-03-16):** 6 under review (P1, P2, P5, P7, P8, P9) + 1 drafting (P11) + 2 draft ready (D1, D2) + 1 incubating (P16) = **10 active papers**. 91 experiments completed (E001-E091).
+**Pipeline summary (2026-03-20):** 3 under review (P2, P7, P8) + 3 rejected with Diamond OA targets (P1→EGQSJ, P5→ArchCalc, P9→HOLD) + 4 drafting (P11, P16, P17, P18-HOLD) + 2 data papers (D1, D2→Zenodo) = **12 items**. 115 experiments.
 
-### Adversarial Scorecard (2026-03-16)
+### Adversarial Scorecard (2026-03-17)
 
 | Test | Experiment | Target | Result |
 |------|-----------|--------|--------|
@@ -171,13 +170,11 @@
 | ADV-2 Non-volcanic control | E081 | L1 | INCONCLUSIVE — Fisher p=0.760, N too small |
 | ADV-3 Survey intensity | E069 | L1 | **PASSED** — p=0.0015, volcanic signal survives control |
 | ADV-4 Substrate noise | E085 | L4 | **PASSED** — p=0.0000, z=11.05, AUC 11 SD above random |
-| ADV-5 Negative control | E087 | L4 | GREY ZONE — C5 AUC=0.713 nearly matches target |
+| ADV-5 Negative control | E107 | L4 | **PASSED** — C5 reclassified as Mon-Khmer substrate (6/6 predictions confirmed) |
 
-**Verdict:** 2 PASSED, 1 PARTIAL, 1 INCONCLUSIVE, 1 GREY ZONE. No outright failures.
-
-See `docs/drafts/README.md` for full catalog.
+**Verdict:** 3 PASSED, 1 PARTIAL, 1 INCONCLUSIVE. No outright failures. ADV-5 upgraded from GREY ZONE after E107 resolved C5 as Mon-Khmer substrate.
 
 ---
 
 *This document reflects the current plan. It will be updated when phases change or pivots occur.*
-*Last updated: 2026-03-16 (91 experiments, 6 papers under review, P11 v0.3 drafted, D1/D2 ready, adversarial testing complete)*
+*Last updated: 2026-03-20 (115 experiments, 3 under review, 3 rejected with Diamond OA retargets, P11/P16/P17 drafting, D1/D2→Zenodo)*

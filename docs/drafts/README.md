@@ -17,14 +17,17 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 
 | # | Judul | Status | Lokasi |
 |---|-------|--------|--------|
-| P1 | Taphonomic Framework | **SUBMITTED** (Asian Perspectives, MS# 019A-0326) | `papers/P1_taphonomic_framework/` |
-| P2 | Settlement Suitability Model | **SUBMITTED** (JCAA, #280) | `papers/P2_settlement_model/` |
-| P5 | The Volcanic Ritual Clock | **SUBMITTED** (BKI) | `papers/P5_volcanic_ritual_clock/` |
-| P7 | Temporal Overlay Matrix | **SUBMITTED** (Antiquity) | `papers/P7_TOM/` |
-| P8 | Linguistic Fossils | **SUBMITTED** (Oceanic Linguistics, OL-03-2026-11) | `papers/P8_linguistic_fossils/` |
-| P9 | Peripheral Conservatism | **SUBMITTED** (JSEAS) | `papers/P9_peripheral_conservatism/` |
-| P11 | Volcanic Informedness | **OUTLINE v0.1** (re-scoped from VCS) | `papers/P11_volcanic_informedness/` |
+| P1 | Taphonomic Framework | ~~REJECTED~~ AP → **EGQSJ ready** (Copernicus, Diamond OA) | `papers/P1_taphonomic_framework/` |
+| P2 | Settlement Suitability Model | **Under review** (JCAA, #280) | `papers/P2_settlement_model/` |
+| P5 | The Volcanic Ritual Clock | ~~REJECTED~~ BKI → retarget Arch.Calc./Wacana | `papers/P5_volcanic_ritual_clock/` |
+| P7 | Temporal Overlay Matrix | **Under review** (Antiquity) | `papers/P7_TOM/` |
+| P8 | Linguistic Fossils | **Under review** (Oceanic Linguistics, OL-03-2026-11) | `papers/P8_linguistic_fossils/` |
+| P9 | Peripheral Conservatism | ~~REJECTED~~ JSEAS → HOLD (DHQ/Wacana) | `papers/P9_peripheral_conservatism/` |
+| P11 | Volcanic Informedness | **DRAFT v0.3** (18pp, target Wacana) | `papers/P11_volcanic_informedness/` |
 | P14 | Pararaton Volcanic Collapse | **KILLED** (Mata Elang #4, Bonferroni) | `papers/P14_pararaton_collapse/` |
+| P16 | Computational Textual Archaeology | **DRAFT v0.1** (19pp, target DHQ) | `papers/P16_computational_textual_archaeology/` |
+| P17 | Two Javas | **DRAFT v0.2** (22pp, target Arch.Calc.) | `papers/P17_two_javas/` |
+| P18 | What Words Remember | **DRAFT v0.1** (16pp, HOLD) | `papers/P18_invisible_civilization/` |
 
 ### Draft Papers (di folder ini)
 

@@ -15,25 +15,34 @@
 
 ---
 
-## Papers Under Review (WAIT — do not submit more)
+## Papers Under Review (3 active, 3 rejected)
 
 | Paper | Journal | MS# | Submitted | Status |
 |-------|---------|-----|-----------|--------|
-| P1 | Asian Perspectives (Q1) | 019A-0326 | 2026-03-10 | Awaiting reviewer |
-| P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | Awaiting reviewer |
-| P5 | BKI (Diamond OA) | — | 2026-03-09 | Awaiting reviewer |
-| P7 | Antiquity Project Gallery (Q1) | — | 2026-03-06 | Awaiting reviewer |
-| P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | Awaiting reviewer |
-| P9 | JSEAS (NUS Press) | JSEAS-202603-051 | 2026-03-11 | Desk review |
+| ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | **REJECTED** 2026-03-17 (AI flag) |
+| P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | Under review |
+| ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | **REJECTED** 2026-03-19 ("too narrow") |
+| P7 | Antiquity Project Gallery (Q1) | — | 2026-03-06 | Under review |
+| P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | Under review |
+| ~~P9~~ | ~~JSEAS~~ | JSEAS-202603-051 | 2026-03-11 | **REJECTED** 2026-03-20 ("not suitable") |
+
+### Retargeting (Diamond OA only — zero APC)
+| Paper | Rejected From | Target Options |
+|-------|---------------|----------------|
+| P1 | Asian Perspectives | **EGQSJ** (Copernicus, ready now) |
+| P5 | BKI | Archeologia e Calcolatori / J. Pacific Archaeology / Wacana |
+| P9 | JSEAS | DHQ / Wacana / Archipel (HOLD until P2/P8 outcome) |
 
 ## Papers In Progress
 
 | Paper | Target | Status | Next Step |
 |-------|--------|--------|-----------|
-| P11 | Indonesia (Cornell, Q2) | v0.3 drafted (18pp) | Manual review → LaTeX→Word → Chicago 17th → submit |
-| P16 | DSH (Oxford, Q1) | Draft v0.1 (19pp, 6 figs) | User review → expand to 8K words → submit |
-| D1 | JOAD | Draft ready | Zenodo deposit, APC waiver decision |
-| D2 | JOAD | Draft ready | Zenodo deposit, APC waiver decision |
+| P11 | Wacana (UI, Scopus Q2, Diamond OA) or Indonesia (Cornell) | v0.3 drafted (18pp) | Manual review → submit post-mudik |
+| P16 | DHQ (ADHO, Scopus+WoS, Diamond OA) | Draft v0.1 (19pp, 6 figs) | User review → expand → submit |
+| P17 | Archeologia e Calcolatori / J. Pacific Arch. (Diamond OA) | Draft v0.2 (22pp) | User review → submit |
+| P18 | HOLD — wait for 1 acceptance | Draft v0.1 (16pp) | Strengthen, do not submit yet |
+| D1 | Zenodo (free) | Draft ready | Zenodo deposit |
+| D2 | Zenodo (free) | Draft ready | Zenodo deposit |
 
 ---
 

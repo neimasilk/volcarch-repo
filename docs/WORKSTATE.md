@@ -1,50 +1,72 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-18 (P1 Zenodo published + EGQSJ Copernicus reformat done — pre-Lebaran pause)
+**Last updated:** 2026-03-20 (mudik session: P1 EGQSJ fully ready, structural critique done, Diamond OA targets verified, blind spot research written)
+**MODE: MUDIK LEBARAN (sampai 2026-03-30).** No major decisions. Light work only. Laptop lambat (no GPU). Strategic decisions resume post-Lebaran.
 
 ---
 
 ## IN PROGRESS
 
-- **P1 → ZENODO PUBLISHED, NEXT: EGQSJ**
-  - Files: `papers/P1_taphonomic_framework/submission_v1.0.tex`, `references.bib`
+- **P1 → EGQSJ FULLY READY** (submit post-mudik)
+  - Files: `papers/P1_taphonomic_framework/submission_egqsj_v1.0.tex`, `references.bib`
   - **Zenodo DOI: 10.5281/zenodo.19081502** — published 2026-03-18, CC-BY 4.0
-  - Authors: Mukhlis Amien + Go Frendi Gunawan (Universitas Bhinneka Nusantara)
-  - Target journal: **EGQSJ** (E&G Quaternary Science Journal, Copernicus, Diamond OA, Scopus+WoS)
-  - **Copernicus reformat: DONE** — `submission_egqsj_v1.0.tex` compiles clean (1.22 MiB)
-  - Next: register manuscript di editor.copernicus.org → submit EGQSJ
-  - Fallback: Berkala Arkeologi (BRIN, gratis, tapi tanpa Scopus/WoS)
-  - Manual verification needed: gertisser2012 DOI, baylisssmith1980 details, manguin2011 book title/pages, ov1925 specificity, miksic2004 correct DOI, french2003 correct DOI
-- **P11 finalization** — v0.3 drafted (18pp), closest to submission-ready
+  - Authors: Mukhlis Amien (ORCID: 0000-0002-1848-167X) + Go Frendi Gunawan (ORCID: 0000-0001-9723-5735)
+  - Target journal: **EGQSJ** (Copernicus, Diamond OA, Scopus+WoS)
+  - **ALL pre-submission items DONE:** ORCID added, GitHub URL fixed, 5/5 references verified (DOIs corrected for miksic2004 + french2003), prose audit clean
+  - Next: register at editor.copernicus.org → upload → submit
+  - Cover letter draft in `docs/HANDOFF_20260318_P1_EGQSJ.md`
+  - Revision ammo: 9 files including Philippines comparandum + Dong Son drums (new)
+- **P11 finalization** — v0.3 drafted (18pp), AI markers fixed
   - Files: `papers/P11_volcanic_informedness/draft_v0.3.tex`, `SUBMISSION_PREP.md`
-  - Next: User manual review → Chicago 17th citations → submit to indonesia-journal@cornell.edu
-- **P17 drafting** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Compiles cleanly.
+  - Target: **Wacana** (UI, Scopus Q2, Diamond OA) — current issue "Kawi culture" is directly relevant
+  - Alternative: Indonesia (Cornell, free but not OA)
+  - Next: User manual review → LaTeX→Word (Book Antiqua 11pt, 1.5sp) → abstract ≤150 words → submit
+  - **If Wacana:** Use modified Chicago citations, British spelling (-ize)
+- **P17 drafting** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Clean.
   - Files: `papers/P17_two_javas/draft_v0.2.tex`, `p17_references.bib`, `figures/`
-  - Next: User review → add Fig 6 (conceptual map) → check Antiquity submission guidelines → submit
-- **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Compiles cleanly.
+  - Target: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) — deadline Dec 31
+  - Next: User review → check ArchCalc format requirements → submit ~May 2026
+- **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Clean.
   - Files: `papers/P16_computational_textual_archaeology/draft_v0.1.tex`, `p16_references.bib`, `figures/`
-  - Next: User review → check DSH submission guidelines → rename v0.2 → submit
-- **P18 drafting (HOLD)** — Draft v0.1 (16pp, 6 figures, 15 refs). "What Words Remember." Compiles cleanly. **Do NOT submit yet** — wait for 1-2 acceptances.
-  - Files: `papers/P18_invisible_civilization/draft_v0.1.tex`, `p18_references.bib`, `figures/`, `generate_figures.py`
-  - Needs: Expand to ~9K words (Background + E113/E114 integration), Fig 6 (West Java map), literature verification, World Archaeology guidelines
-- **E076 v2 satellite** — Script written, needs internet (~30 min)
-  - Files: `experiments/E076_satellite_ndvi/02_multi_tile_analysis.py`
+  - Target: **DHQ** (ADHO, Diamond OA, Scopus+WoS) — rolling deadlines (Apr 15, Jul 15)
+  - Alternative: **Wacana** (if Kawi theme CFP open)
+  - Next: User review → convert to Word/RTF → submit ~June 2026
+- **P18 drafting (HOLD)** — Draft v0.1 (16pp, 6 figures, 15 refs). Clean.
+  - Files: `papers/P18_invisible_civilization/draft_v0.1.tex`, `p18_references.bib`, `figures/`
+  - Target: TBD (after 1 acceptance). P17 and P18 form complementary trilogy with P1, NOT duplicates.
+  - Needs: Expand to ~9K words, Fig 6, cite P1 for cascade model
+- **P5 retargeting** — Rejected from BKI. "Crucially" AI marker already fixed.
+  - Target: **Archeologia e Calcolatori** / J. Pacific Archaeology / Wacana
+  - Submit ~late May 2026
+- **P9 retargeting (HOLD)** — Rejected from JSEAS.
+  - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
+- **E076 v2 satellite** — Script written, needs internet + compute (~30 min, post-mudik)
 - **Colonial data verification** — 10 E070 entries on Delpher.nl (user manual task)
+- **JCAA APC** — P2 submitted to JCAA which charges £300-450. Verify if waiver was applied.
 
 ## PAPERS UNDER REVIEW (WAIT)
 
-| Paper | Journal | MS# | Submitted | Revision Ammo |
-|-------|---------|-----|-----------|:---:|
-| ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | REJECTED 2026-03-18 (AI flag) |
-| **P1** | **EGQSJ** (Copernicus, Diamond OA) | — | **READY TO SUBMIT** — `submission_v1.0.tex` |
-| P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **3 files** (incl. E109 confound) |
-| P5 | BKI (Diamond OA) | — | 2026-03-09 | **5 files** (incl. E112 domain gradient) |
-| P7 | Antiquity Project Gallery | — | 2026-03-06 | 1 file |
-| P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **5 files** (incl. E107 ADV-5 RESOLVED) |
-| P9 | JSEAS (NUS Press) | JSEAS-202603-051 | 2026-03-11 | **3 files** (incl. E114 comparative) |
+| Paper | Journal | MS# | Submitted | Status |
+|-------|---------|-----|-----------|--------|
+| ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
+| **P1** | **EGQSJ** (Copernicus, Diamond OA) | — | **READY TO SUBMIT** | `submission_egqsj_v1.0.tex` |
+| P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
+| ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
+| P7 | Antiquity Project Gallery | — | 2026-03-06 | **Under review** — 1 revision ammo file |
+| P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files |
+| ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
-**Total revision ammo: 26 files.** All 6 papers have pre-computed responses to anticipated critiques + new findings from E107-E114.
+**Scorecard: 3 rejected (P1-AP, P5-BKI, P9-JSEAS), 3 still under review (P2, P7, P8).**
+Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern analysis.
+
+## PAPERS NEEDING RETARGETING (DECISION REQUIRED)
+
+| Paper | Rejected From | Next Options (TBD) |
+|-------|---------------|---------------------|
+| P1 | Asian Perspectives | **EGQSJ ready** (Copernicus). Also: JASREP formatted. Zenodo preprint live. |
+| P5 | BKI | (a) Retarget archaeometry journal as-is, OR (b) major rewrite for humanities framing |
+| P9 | JSEAS | (a) World Archaeology / Cambridge Arch. J., OR (b) hold for P2/P8 outcome |
 
 ## KEY FINDINGS THIS SESSION (reference only)
 
@@ -67,6 +89,7 @@
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Mudik Session (2026-03-20)** — P1 EGQSJ: ORCID + GitHub URL + 5 reference DOIs fixed (fully ready). Structural critique: B1-B4 risks classified. Diamond OA journal targets verified for all papers. AI Prose Guide created. P11 v0.3 AI markers fixed. Blind spot research: Dong Son drums (I-110), Philippines comparandum (I-111), metallurgy (I-112). Docs synchronized (L2, L3, drafts/README, IDEA_REGISTRY). JOURNAL updated.
 - **P1 Final Review (2026-03-18)** — Review fixes (duplicate content, textbook filler, West Java claim, 3220x transparency, ov1925 reframe), AI disclosure trimmed, internal jargon cleaned (E083/RQ/H labels), DOIs verified via Playwright (3 corrected, 1 removed), versioning cleanup (renamed v1.0, archived obsolete variants).
 - **Structural Audit + Vocabulary Archaeology (2026-03-17)** — 9 new experiments (E107-E114), P18 draft, manifesto v4.0, 6 new revision ammo files, cascade model, West Java comparandum. Total: 115 experiments.
 - **Two Javas Sprint (2026-03-17)** — E099-E106, P17 v0.2 (22pp), P16 expanded (27pp), E090/E094/E096 GPU runs, P5 revision ammo.
@@ -76,10 +99,20 @@
 
 ## SESSION PROMPT
 
-STATUS: **115 experiments**. 6 under review + 4 drafting. 26 revision ammo. Phase = CONSOLIDATION.
-P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). Copernicus format ready.
-PRIORITIES: P1 submit EGQSJ → P11 submit → P17 submit → P16 submit → P18 strengthen (hold).
-**NEXT ACTION:** Register manuscript at editor.copernicus.org, upload `submission_egqsj_v1.0.tex` + PDF + figures, submit to EGQSJ.
+STATUS: **115 experiments**. 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
+P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified 2026-03-20).
+**All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
+**Structural critique completed** — see JOURNAL 2026-03-20 for B1-B4/C1-C3 findings and severity classification.
+**AI prose guide created** — `docs/AI_PROSE_GUIDE.md`. Apply checklist before every submission.
+PRIORITIES (post-mudik):
+1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL pre-submission items DONE.
+2. P11 submit Wacana (UI) or Indonesia (Cornell) — manual review needed first
+3. P17 submit Archeologia e Calcolatori — manual review needed
+4. P16 submit DHQ — user review + expand
+5. P5 retarget Archeologia e Calcolatori or Wacana — may need reformat
+6. P9 HOLD until P2/P8 outcome → then DHQ or Wacana
+7. P18 HOLD (unchanged)
+**3 new blind spot ideas:** I-110 (Dong Son drums), I-111 (Philippines comparandum), I-112 (metallurgy). See `docs/research_notes/`. Post-mudik investigation.
 
 ## DO NOT WORK ON
 
@@ -87,3 +120,4 @@ PRIORITIES: P1 submit EGQSJ → P11 submit → P17 submit → P16 submit → P18
 - New paper drafts beyond strengthening P18
 - P18 submission (wait for acceptances)
 - Phase 2 dissemination (wait for 1 acceptance)
+- GPU-dependent tasks (mudik laptop, no GPU)

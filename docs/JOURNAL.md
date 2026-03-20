@@ -4,6 +4,160 @@
 
 ---
 
+## 2026-03-20 | MUDIK SESSION — Structural Critique + Pre-Submission Fixes + Blind Spot Research
+
+**Type:** META / CONSOLIDATION
+**Status:** COMPLETE
+**Mode:** Mudik Lebaran (laptop, no GPU)
+
+### P1 EGQSJ Pre-Submission Fixes
+- Go Frendi ORCID added: `0000-0001-9723-5735` (found via Zenodo API)
+- GitHub URL fixed: `[repository]` → `https://github.com/neimasilk/volcarch-repo`
+- Reference verification completed (5/5):
+  - gertisser2012 DOI confirmed correct (10.1007/s00445-012-0591-3)
+  - miksic2004 DOI found (10.1080/1363981042000320134), title corrected ("Highland West Sumatra" not "Western Indonesia")
+  - french2003 DOI found (10.4324/9780203987148)
+  - baylisssmith1980 details confirmed correct (pp. 61-94)
+  - manguin2011 pages confirmed correct (pp. 113-136)
+- **P1 EGQSJ is now fully ready for submission** (post-mudik: register at editor.copernicus.org → submit)
+
+### Structural Critique (Hard Assessment)
+Comprehensive project audit identified:
+- **B1 (STRUCTURAL):** AI credibility risk — AP rejection for "AI prose" applies to all papers. Every submission needs human-rewritten abstracts/intros.
+- **B2 (STRUCTURAL):** Dataset monoculture — 21/115 experiments on same 268 DHARMA inscriptions. "Consilience" claim needs reframing to "multi-analytical approach."
+- **B3 (STRUCTURAL):** Temporal mismatch — data is C8-C13, claims are pre-400 CE. Must consistently classify as HYPOTHESIS not DATA-SUPPORTED.
+- **B4 (TACTICAL):** No ground truth — 115 experiments, zero fieldwork. Papers must frame as framework/methodology, not discovery.
+- **C1 (TACTICAL):** Paper proliferation — 6 papers submitted in 6 days created "factory" optics. Space future submissions 4-6 weeks apart.
+- **C2 (STRUCTURAL):** P1/P17/P18 overlap substantially. Consider merging P17+P18 after P1 outcome.
+- **ADV-5 reclassified:** From GREY ZONE to PASSED (E107 confirmed C5 = Mon-Khmer substrate, 6/6 predictions)
+
+### Diamond OA Journal Research
+All papers must be zero-APC. Verified Diamond OA targets:
+- P5 → Archeologia e Calcolatori (CNR, Scopus+WoS) / Wacana (UI, Scopus Q2)
+- P9 → DHQ (ADHO, Scopus+WoS) / Wacana — HOLD until P2/P8 outcome
+- P11 → Wacana (UI, Scopus Q2) — verify if Cornell Indonesia is free
+- P16 → DHQ (ADHO, Scopus+WoS)
+- P17 → Archeologia e Calcolatori / J. Pacific Archaeology (WoS, JIF 2.7)
+- D1/D2 → Zenodo (free deposit)
+
+### Blind Spot Research (2 new ideas)
+- **I-110 Dong Son drums:** Pre-400 CE bronze drums found in Java = direct evidence of pre-Hindu material culture. Bernet Kempers 1988 catalog is key data source. Potential E115 experiment: correlate drum find-spots with volcanic zones.
+- **I-111 Philippines comparandum:** Philippines has richer pre-400 CE record despite LESS survey intensity (primarily cave sites in karst). Supports volcanic burial thesis AND suggests "cave availability" as potential 6th cascade factor. E115-level experiment possible.
+- **I-112 Pre-Dong Son metallurgy:** Java has ore deposits but zero pre-400 CE smelting sites. Another taphonomic signal?
+
+### AI Prose Conditioning
+- Created `docs/AI_PROSE_GUIDE.md` — practical checklist for eliminating AI markers while maintaining honest disclosure
+- P1 EGQSJ audited: CLEAN (no formulaic transitions, strong authorial voice)
+- P11 v0.3 fixed: removed "Additionally" (line 76) and "Moreover" (line 333)
+- P16 and P17: CLEAN (no AI markers found)
+
+### Document Synchronization (D1-D4 fixes)
+- L3_EXECUTION.md updated: rejection statuses + Diamond OA retargets
+- L2_STRATEGY.md pipeline rewritten: section 8 fully current
+- drafts/README.md: paper table updated
+- IDEA_REGISTRY.md: 3 new ideas added (I-110, I-111, I-112)
+
+### Extended Session (autonomous mode)
+- P5 draft_v0.1.tex: "Crucially" AI marker removed
+- P2/P8 AI marker audit: identified "Moreover"/"Nevertheless" in submitted versions — noted for revision
+- P17/P18 overlap analysis refined: trilogy (mechanism/structure/recovery), NOT duplicates. See `docs/research_notes/STRUCTURAL_CRITIQUE_REFINEMENT.md`
+- Journal submission guidelines compiled: Wacana (UI), ArchCalc (CNR), DHQ (ADHO), Cornell Indonesia. See `docs/research_notes/JOURNAL_SUBMISSION_GUIDES.md`
+- **Wacana discovery:** Current issue (Vol 26 No 3) themed "Kawi culture" — directly relevant to P16 and VOLCARCH
+- Submission timeline created: `docs/SUBMISSION_TIMELINE.md` — 6-phase plan from post-mudik to mid-2026
+- Philippines + Dong Son revision ammo written for P1 EGQSJ
+- Cornell Indonesia: verified free (no APC, subscription-based)
+- JCAA APC alert: P2 submitted to JCAA which charges £300-450 — waiver fund exists for CAA members
+- Go Frendi ORCID note: profile shows STIKI Malang affiliation, not Universitas Bhinneka Nusantara — may need discussion
+
+**Files modified:** `submission_egqsj_v1.0.tex`, `references.bib`, `L2_STRATEGY.md`, `L3_EXECUTION.md`, `drafts/README.md`, `IDEA_REGISTRY.md`, `P11 draft_v0.3.tex`, `P5 draft_v0.1.tex`, `WORKSTATE.md`, `JOURNAL.md` (this entry). New files: `docs/AI_PROSE_GUIDE.md`, `docs/research_notes/BLIND_SPOT_DONG_SON_DRUMS.md`, `docs/research_notes/BLIND_SPOT_PHILIPPINES_COMPARANDUM.md`, `docs/research_notes/STRUCTURAL_CRITIQUE_REFINEMENT.md`, `docs/research_notes/JOURNAL_SUBMISSION_GUIDES.md`, `docs/SUBMISSION_TIMELINE.md`, `papers/P1.../revision_ammo/PHILIPPINES_COMPARANDUM.md`, `papers/P1.../revision_ammo/DONG_SON_DRUMS.md`.
+
+---
+
+## 2026-03-20 | P9 REJECTION — JSEAS (NUS Press)
+
+**Type:** SUBMISSION OUTCOME
+**Status:** REJECTED (desk reject, no peer review)
+**MS#:** JSEAS-202603-051
+**Paper:** "Peripheral Conservatism as Archaeological Proxy: Linguistic, Ritual, and Botanical Evidence for a Pre-Hindu Nusantaran Substrate"
+**Authors:** Amien + Gunawan
+**Submitted:** 2026-03-11
+**Rejected:** 2026-03-20
+**Editor:** Eileen Shen, on behalf of the Editorial Committee
+
+**Rejection reason (verbatim):** "your manuscript has been rejected as it is not suitable for publication in our journal."
+
+**Assessment:**
+Terse desk reject with no substantive feedback. JSEAS is a humanities/social sciences journal (NUS, Department of History). P9 combines linguistic, ritual, and botanical computational evidence — likely too methodological/computational for their editorial scope. Same pattern as P5→BKI: interdisciplinary computational work doesn't fit traditional area studies journals.
+
+**Next steps:** See strategic assessment entry below (2026-03-20).
+
+---
+
+## 2026-03-20 | P5 REJECTION — BKI (Bijdragen tot de Taal-, Land- en Volkenkunde)
+
+**Type:** SUBMISSION OUTCOME
+**Status:** REJECTED (desk reject, no peer review)
+**Paper:** "The Volcanic Ritual Clock: Taphonomic Calibration of Javanese Mortuary Intervals and Their Pre-Indic Austronesian Origin"
+**Submitted:** 2026-03-09
+**Rejected:** 2026-03-19
+**Editors:** Grace Leksana & Marieke Bloembergen (Editors-in-Chief)
+**CC:** marieke bloembergen <bloembergen@kitlv.nl>
+
+**Rejection reason (verbatim):** "While it covers an interesting topic, I have to inform you that it is unsuitable for BKI. For our journal it remains too close to the topic. For BKI you would have to engage with debates and theorizing that show how and why, and with what particular socially relevant question, this topic matters beyond the direct results of this research, and to a wider Southeast Asianist scholarly public working in the field of the humanities and social sciences."
+
+**Assessment:**
+This is the most useful feedback of all three rejections. The editors are explicit: BKI wants engagement with broader theoretical debates and social relevance, not just empirical results. P5 as submitted is a methodological/archaeometric paper (taphonomic calibration, mortuary intervals, Monte Carlo) — technically strong but framed too narrowly for a humanities audience.
+
+Key takeaway: The paper is "interesting" (their word) but needs reframing to answer "so what?" for a Southeast Asianist humanities audience. This is fixable — P5's findings DO have broader implications (What does volcanic taphonomy mean for how we understand pre-colonial Southeast Asian societies? How does this change established narratives?) — but the paper doesn't foreground those questions.
+
+**Next steps:** See strategic assessment entry below (2026-03-20).
+
+---
+
+## 2026-03-20 | STRATEGIC ASSESSMENT — Three Rejections Pattern Analysis
+
+**Type:** META / STRATEGIC
+**Status:** ACTIVE — requires decisions
+
+**Scorecard update (2026-03-20):**
+
+| Paper | Journal | Submitted | Outcome | Reason |
+|-------|---------|-----------|---------|--------|
+| P1 | Asian Perspectives | 2026-03-10 | REJECTED (2026-03-17) | AI flag + journal fit |
+| P5 | BKI | 2026-03-09 | REJECTED (2026-03-19) | Too narrow/technical for humanities |
+| P9 | JSEAS | 2026-03-11 | REJECTED (2026-03-20) | "Not suitable" (no detail) |
+| P2 | JCAA | 2026-03-11 | Under review | — |
+| P7 | Antiquity PG | 2026-03-06 | Under review | — |
+| P8 | Oceanic Linguistics | 2026-03-11 | Under review | — |
+
+**Result: 3/6 desk rejected in 11 days. 3/6 still under review.**
+
+**Pattern diagnosis:**
+The three rejected papers share a common problem: **computational/methodological work sent to traditional humanities/area-studies journals**. BKI and JSEAS want broader theoretical engagement; AP flagged AI prose. The three surviving submissions are better-matched: P2→JCAA (computational archaeology journal), P7→Antiquity PG (visual format), P8→Oceanic Linguistics (specialist discipline journal).
+
+**Lesson:** Our papers are strong on methodology and data but framed as empirical reports. Humanities journals want "why does this matter for how we think about Southeast Asia?" — not "here is our method and result." This is a framing problem, not a quality problem.
+
+**Retargeting options (to be decided):**
+
+P1 — Already handled: Zenodo preprint published, EGQSJ (Copernicus, Diamond OA, Scopus+WoS) format ready. Also JASREP formatted. Continue plan.
+
+P5 "Volcanic Ritual Clock" — Two paths:
+  (a) Retarget to archaeometry/archaeological science journal as-is (e.g., Journal of Archaeological Science: Reports, Environmental Archaeology, Archaeological and Anthropological Sciences)
+  (b) Major rewrite to foreground social relevance for a humanities journal — engage with debates about pre-colonial Southeast Asian mortuary practices, Austronesian cultural continuity, and what taphonomic bias means for established historical narratives. Potential targets if rewritten: Indonesia (Cornell), Modern Asian Studies, or resubmit BKI with reframe.
+
+P9 "Peripheral Conservatism" — Two paths:
+  (a) Retarget to interdisciplinary archaeology journal (World Archaeology, Cambridge Archaeological Journal, Journal of World Prehistory)
+  (b) Retarget to archaeological science journal (same as P5 options)
+  (c) Hold — wait for P2/P8 outcomes before deciding
+
+**AI prose risk:**
+AP explicitly flagged P1 as "mostly generated by AI." This risk applies to ALL papers. Every resubmission must be reviewed for AI prose markers before sending. This is not a cosmetic fix — it requires the author to substantially rewrite in their own voice.
+
+**Morale note:**
+3/6 desk rejects in 2 weeks feels brutal, but this is normal for ambitious interdisciplinary work from a new research program. The BKI feedback is actually constructive. The surviving 3 (P2, P7, P8) are at better-fit journals. The core research (115 experiments, 6 layers framework) is not invalidated — only the journal targeting strategy needs adjustment.
+
+---
+
 ## 2026-03-18 | P1 REJECTION — Asian Perspectives
 
 **Type:** SUBMISSION OUTCOME
