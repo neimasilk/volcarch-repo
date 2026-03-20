@@ -89,6 +89,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Mudik Session 3 (2026-03-20)** — Autonomous mode. E116 testable predictions (GPR 20 targets → expect 2.5 finds, P(zero)=7%). E117 archaeological onset analysis (detection horizon: surface survey reaches ~1900 CE). E118 information gain (3.5× search efficiency, 29% entropy reduction). Auto-sync checker tool. Falsifiability revision ammo package. README updated. TRIGGER_MAP updated. Michelson-Morley framing: project value = method, not finding. 119 experiments total.
 - **Mudik Session 2 (2026-03-20)** — E115 cascade sensitivity analysis: ROBUST (92% of 100K MC runs within 10× of observed, correlation-robust). Hard structural critique: 3 fatal risks (A1-A3), 4 structural risks (B1-B4). L1 §9 kill criteria REWRITTEN (old criteria obsolete). Pre-mortem analysis: 6 counter-arguments classified. Rejection pattern analysis: specialist journal = 100% survival rate. P1 EGQSJ AI prose audit: CLEAN. Document sync: experiment counts fixed to 116 across L1/L2/L3/EVAL/EXPERIMENT_INDEX. D1/D2 affiliations corrected.
 - **Mudik Session 1 (2026-03-20)** — P1 EGQSJ: ORCID + GitHub URL + 5 reference DOIs fixed (fully ready). Structural critique: B1-B4 risks classified. Diamond OA journal targets verified for all papers. AI Prose Guide created. P11 v0.3 AI markers fixed. Blind spot research: Dong Son drums (I-110), Philippines comparandum (I-111), metallurgy (I-112). Docs synchronized (L2, L3, drafts/README, IDEA_REGISTRY). JOURNAL updated.
 - **P1 Final Review (2026-03-18)** — Review fixes (duplicate content, textbook filler, West Java claim, 3220x transparency, ov1925 reframe), AI disclosure trimmed, internal jargon cleaned (E083/RQ/H labels), DOIs verified via Playwright (3 corrected, 1 removed), versioning cleanup (renamed v1.0, archived obsolete variants).
@@ -107,6 +108,10 @@ P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully read
 **E115 cascade robustness:** Monte Carlo 100K confirms model robust (92% within 10×, correlation-robust). Revision ammo ready.
 **E116 testable predictions:** 20 targeted GPR → expect 2.5 finds [0,6] 95% CI, P(zero)=7%. Framework IS falsifiable. See `experiments/E116_testable_predictions/`.
 **E117 onset analysis:** Detection horizon model — surface survey reaches ~1900 CE only at 4mm/yr. Zero pre-400 CE open-air sites in volcanic interior Java. See `experiments/E117_archaeological_onset/`.
+**E118 information gain:** 3.5× search efficiency, 29% entropy reduction, $16.7K per first-find. Survey deficit = bigger PROBLEM, volcanic context = better SOLUTION.
+**Falsifiability package:** `papers/P1.../revision_ammo/FALSIFIABILITY_PACKAGE.md` — pre-written response paragraph for reviewers.
+**Auto-sync checker:** `tools/check_doc_sync.py` — run to verify experiment count consistency across docs.
+**Michelson-Morley framing:** Project value = method + predictions, not discovery. Both outcomes (find/null) are contributions.
 **Pre-mortem analysis created** — `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`. 6 counter-arguments classified.
 **Rejection pattern:** specialist journals = 100% survival, broad area-studies = 0%. See `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`.
 PRIORITIES (post-mudik):

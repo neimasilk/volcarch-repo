@@ -4,7 +4,7 @@
 
 **Convention:** Update this when blockers in IDEA_REGISTRY.md change. Review during weekly Mata Elang.
 
-**Last updated:** 2026-03-16
+**Last updated:** 2026-03-20
 
 ---
 
@@ -251,9 +251,11 @@
 
 ## Meta-Triggers (Strategic)
 
-### If: 2 papers accepted in 2026 (6 submitted as of 2026-03-16: P1, P2, P5, P7, P8, P9)
+### If: 1+ paper accepted in 2026 (3 under review: P2, P7, P8 | 3 rejected: P1-AP, P5-BKI, P9-JSEAS | P1→EGQSJ ready)
 - Single-author credibility established → domain co-authors easier to attract
 - Preprint DOIs validated → cross-citation chain functional
+- Phase 2 dissemination unblocked
+- Rejection pattern (2026-03-20): specialist journals = 100% survival (3/3), broad area-studies = 0% (0/3). Fisher p=0.014. Target journals where methods match editorial scope.
 
 ### If: Indonesian-language reviewer comments arrive (P5 or P7)
 - Indonesian literature gap (blind spot 8.3) → specific gaps identified
