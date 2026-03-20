@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Last updated:** 2026-03-17
-**Total:** 115 experiments (E001-E114 + E095 activated, minus E021/E045-E047/E072/E077 unused)
+**Last updated:** 2026-03-20
+**Total:** 117 experiments (E001-E116 + E095 activated, minus E021/E045-E047/E072/E077 unused)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -227,6 +227,18 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | **E113** | **Inscription sophistication** | **SUCCESS** | **P18, L3** | **EARLY_PEAK. No learning curve. Hapax ratio p=0.006, Sanskrit phonology p<0.001 (early > mature). Pre-existing organic-media literary tradition.** |
 | E114 | Pre-literate comparanda | SUCCESS | P18, L3 | Nusantara #1/10 pre-literate societies (CCI=23, z=2.12). Exceeds Cahokia, Great Zimbabwe. |
 
+### Sensitivity & Robustness (E115)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E115** | **Cascade sensitivity analysis** | **SUCCESS** | **P1, All** | **Monte Carlo 100K: 92% of runs within 10× of observed. Correlation-robust (all scenarios 90.5-93.2%). Most uncertain: Survey Coverage (360% range). Model robust to parameter uncertainty AND factor non-independence.** |
+
+### Testable Predictions (E116)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E116** | **Testable predictions from cascade** | **SUCCESS** | **P1, All** | **20 targeted GPR → expect 2.5 finds [0,6] 95% CI, P(zero)=7%. Framework IS falsifiable. $40K-100K for decisive test.** |
+
 ---
 
 ## Revisit Candidates
@@ -264,6 +276,9 @@ These are the strongest results that survive FDR correction and adversarial test
 | E085 | Substrate signal vs noise | <0.0001, z=11.05 | ADV-4 PASSED |
 | E069 | Volcanic signal vs survey | 0.0015 | ADV-3 PASSED |
 | E083 | Tephra-site correlation | Independent dataset | Clean |
+| E110 | Cascade predicts 0.058% vs 0.031% observed | 1.9× ratio | E115 robustness check |
+| E115 | Cascade robust under MC + correlation | 92% within 10× | Addresses independence assumption |
+| **E116** | **Testable predictions: 20 GPR → [0,6] finds** | P(zero)=7% | **Falsifiability established** |
 | **E108** | **Demographic gap 3,220×** | Population model | **Null hypothesis test** |
 | **E107** | **ADV-5 resolved: C5 = MK substrate** | p<0.0001 (6 tests) | **Upgrades E027/L4** |
 

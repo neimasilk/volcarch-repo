@@ -47,4 +47,4 @@ CC BY 4.0
 
 ## Author
 
-Mukhlis Amien, Department of Computer Science, Universitas Muhammadiyah Malang, Indonesia. ORCID: 0000-0002-1848-167X
+Mukhlis Amien, Department of Computer Science, Universitas Bhinneka Nusantara, Indonesia. ORCID: 0000-0002-1848-167X

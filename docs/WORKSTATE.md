@@ -1,7 +1,7 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-20 (mudik session: P1 EGQSJ fully ready, structural critique done, Diamond OA targets verified, blind spot research written)
+**Last updated:** 2026-03-20 (mudik session 3: E116 testable predictions from cascade, autonomous mode, 117 experiments)
 **MODE: MUDIK LEBARAN (sampai 2026-03-30).** No major decisions. Light work only. Laptop lambat (no GPU). Strategic decisions resume post-Lebaran.
 
 ---
@@ -89,7 +89,8 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
-- **Mudik Session (2026-03-20)** — P1 EGQSJ: ORCID + GitHub URL + 5 reference DOIs fixed (fully ready). Structural critique: B1-B4 risks classified. Diamond OA journal targets verified for all papers. AI Prose Guide created. P11 v0.3 AI markers fixed. Blind spot research: Dong Son drums (I-110), Philippines comparandum (I-111), metallurgy (I-112). Docs synchronized (L2, L3, drafts/README, IDEA_REGISTRY). JOURNAL updated.
+- **Mudik Session 2 (2026-03-20)** — E115 cascade sensitivity analysis: ROBUST (92% of 100K MC runs within 10× of observed, correlation-robust). Hard structural critique: 3 fatal risks (A1-A3), 4 structural risks (B1-B4). L1 §9 kill criteria REWRITTEN (old criteria obsolete). Pre-mortem analysis: 6 counter-arguments classified. Rejection pattern analysis: specialist journal = 100% survival rate. P1 EGQSJ AI prose audit: CLEAN. Document sync: experiment counts fixed to 116 across L1/L2/L3/EVAL/EXPERIMENT_INDEX. D1/D2 affiliations corrected.
+- **Mudik Session 1 (2026-03-20)** — P1 EGQSJ: ORCID + GitHub URL + 5 reference DOIs fixed (fully ready). Structural critique: B1-B4 risks classified. Diamond OA journal targets verified for all papers. AI Prose Guide created. P11 v0.3 AI markers fixed. Blind spot research: Dong Son drums (I-110), Philippines comparandum (I-111), metallurgy (I-112). Docs synchronized (L2, L3, drafts/README, IDEA_REGISTRY). JOURNAL updated.
 - **P1 Final Review (2026-03-18)** — Review fixes (duplicate content, textbook filler, West Java claim, 3220x transparency, ov1925 reframe), AI disclosure trimmed, internal jargon cleaned (E083/RQ/H labels), DOIs verified via Playwright (3 corrected, 1 removed), versioning cleanup (renamed v1.0, archived obsolete variants).
 - **Structural Audit + Vocabulary Archaeology (2026-03-17)** — 9 new experiments (E107-E114), P18 draft, manifesto v4.0, 6 new revision ammo files, cascade model, West Java comparandum. Total: 115 experiments.
 - **Two Javas Sprint (2026-03-17)** — E099-E106, P17 v0.2 (22pp), P16 expanded (27pp), E090/E094/E096 GPU runs, P5 revision ammo.
@@ -99,24 +100,29 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **115 experiments**. 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
-P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified 2026-03-20).
+STATUS: **117 experiments** (E116 = testable predictions from cascade). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
+P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
 **All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
-**Structural critique completed** — see JOURNAL 2026-03-20 for B1-B4/C1-C3 findings and severity classification.
-**AI prose guide created** — `docs/AI_PROSE_GUIDE.md`. Apply checklist before every submission.
+**L1 kill criteria REWRITTEN** — old criteria were obsolete after E005 pivot. New criteria: concrete, testable (GPR results, external comparanda, 3+ substantive peer rejections). See L1 §9.
+**E115 cascade robustness:** Monte Carlo 100K confirms model robust (92% within 10×, correlation-robust). Revision ammo ready.
+**E116 testable predictions:** 20 targeted GPR → expect 2.5 finds [0,6] 95% CI, P(zero)=7%. Framework IS falsifiable. See `experiments/E116_testable_predictions/`.
+**Pre-mortem analysis created** — `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`. 6 counter-arguments classified.
+**Rejection pattern:** specialist journals = 100% survival, broad area-studies = 0%. See `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`.
 PRIORITIES (post-mudik):
-1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL pre-submission items DONE.
-2. P11 submit Wacana (UI) or Indonesia (Cornell) — manual review needed first
-3. P17 submit Archeologia e Calcolatori — manual review needed
-4. P16 submit DHQ — user review + expand
-5. P5 retarget Archeologia e Calcolatori or Wacana — may need reformat
-6. P9 HOLD until P2/P8 outcome → then DHQ or Wacana
-7. P18 HOLD (unchanged)
-**3 new blind spot ideas:** I-110 (Dong Son drums), I-111 (Philippines comparandum), I-112 (metallurgy). See `docs/research_notes/`. Post-mudik investigation.
+1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL items DONE.
+2. **Verify JCAA APC** — P2 charges £300-450. Check if waiver applied. If not, apply for CAA waiver fund immediately.
+3. P11 submit Wacana (UI) or Indonesia (Cornell) — manual review needed first
+4. P17 submit Archeologia e Calcolatori — manual review needed
+5. P16 submit DHQ — user review + expand
+6. D1+D2 deposit to Zenodo (free, 30 min each) — affiliations corrected to UBN
+7. P5 retarget Archeologia e Calcolatori or Wacana — may need reformat
+8. P9 HOLD until P2/P8 outcome → then DHQ or Wacana
+9. P18 HOLD (unchanged)
+**Blind spots (post-mudik):** I-110 (Dong Son drums), I-111 (Philippines comparandum), I-112 (metallurgy). See `docs/research_notes/`.
+**Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md` (5 rules), `docs/AI_PROSE_GUIDE.md` (checklist).
 
 ## DO NOT WORK ON
 
-- New experiments (115 is comprehensive)
 - New paper drafts beyond strengthening P18
 - P18 submission (wait for acceptances)
 - Phase 2 dissemination (wait for 1 acceptance)

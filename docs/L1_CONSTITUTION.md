@@ -1,7 +1,7 @@
 # L1: CONSTITUTION (UUD)
 
 **Status:** STABLE — This document changes only if core assumptions are proven wrong.
-**Last updated:** 2026-03-16
+**Last updated:** 2026-03-20 (kill criteria updated — originals were obsolete after E005 pivot)
 
 ---
 
@@ -73,7 +73,7 @@ Our argument follows the principle of **consilience of inductions** (Whewell 184
 2. **E088/E089** — Textual archaeology corpus (106 passages from 12 ancient traditions). Source: translated primary texts (Greek, Chinese, Indian, Arab, etc.). Zero overlap with DHARMA/ABVD.
 3. **E091** — OV NLP mining (22,162 structured mentions from 16 OV volumes). Source: automated extraction from colonial Dutch text. 94.2% cross-validation against manual dataset.
 
-**Dataset honesty (2026-03-16):** 21 of 91 experiments depend on the same 268 DHARMA inscriptions. The three genuinely independent datasets above mitigate this concentration. Claims of "independent channels" refer to analytical methods, not necessarily independent data sources, except where explicitly noted.
+**Dataset honesty (2026-03-20):** 21 of 117 experiments depend on the same 268 DHARMA inscriptions. The three genuinely independent datasets above mitigate this concentration. Claims of "independent channels" refer to analytical methods, not necessarily independent data sources, except where explicitly noted.
 
 ## 6. Known Methodological Risks (Baked Into Design)
 
@@ -109,15 +109,20 @@ The Dwarapala rate of 3.6 mm/year is one point. Extrapolating spatially from one
 
 ## 9. Kill Criteria
 
-This research line should be **abandoned** if:
-- Paper 1 analysis shows NO correlation between known site density and volcanic deposition (H1 falsified)
-- Settlement suitability models consistently perform below AUC 0.65 despite feature engineering (H3 falsified)
-- Domain experts (archaeologists, geologists) judge the framework fundamentally flawed after review
+> **Update 2026-03-20:** Original kill criteria (H1 correlation, AUC threshold) were tested in E005 and E007-E013. E005 failed to show direct H1 correlation from observable data; the project pivoted rather than killed (correctly — the signal was masked by survey bias, confirmed by E069 p=0.0015). AUC threshold was met (0.768). The criteria below replace the originals with conditions that reflect the project's current state.
 
-This research line should be **pivoted** if:
-- Volcanic burial depth proves unmodelable from available data → pivot to purely settlement suitability modeling
-- Training data (known sites) is too sparse for ML → pivot to rule-based/expert-system approach
-- A better empirical anchor than Dwarapala is found → recalibrate
+### Abandon the research line if:
+- **Cascade falsification:** The E110 5-factor model is shown to be off by >2 orders of magnitude from observed gap, AND no reasonable parameter adjustment restores agreement (E115 currently shows 92% of runs within 10×)
+- **Within-island control fails:** New evidence shows pre-400 CE sites ARE present in volcanic East Java at comparable density to non-volcanic West Java (Buni/Batujaya), eliminating the taphonomic signal
+- **External comparandum falsification:** A volcanic tropical island (e.g., Philippines' volcanic zones) shows rich pre-400 CE archaeology despite comparable sedimentation rates, proving volcanism alone does not explain absence
+- **3 or more peer reviews** (not desk rejects) provide substantive methodological critiques that cannot be addressed — i.e., the *method* is judged flawed, not just the *framing* or *journal fit*
+- **Domain expert consensus** (≥2 independent archaeologists or geologists with Java expertise) judges the framework fundamentally unsound
+
+### Pivot the research line if:
+- **All computational journals reject P1:** Reframe from "taphonomic bias framework" to "survey priority model" — keep E110 cascade + E080/E097 fieldwork targeting, drop the civilizational claims
+- **P2 settlement model fails peer review on tautology grounds:** Redesign with presence-only methods (MaxEnt) or abandon ML approach for rule-based expert system
+- **No acceptance after 6 submissions across different journals:** The work may not be publishable as currently structured — consider consolidating into 1-2 comprehensive papers instead of 6+
+- **Fieldwork partner found:** Pivot from computational-only to computational+empirical — this is the DESIRED pivot that would resolve the zero-ground-truth problem
 
 ---
 

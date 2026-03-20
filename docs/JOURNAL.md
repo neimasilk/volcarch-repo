@@ -4,6 +4,98 @@
 
 ---
 
+## 2026-03-20 | MUDIK SESSION 3 — E116 Testable Predictions + Autonomous Mode
+
+**Type:** EXPERIMENT / AUTONOMOUS
+**Status:** IN PROGRESS
+**Mode:** Mudik Lebaran (laptop, no GPU). Autonomous mode activated.
+
+### E116: Testable Predictions from the Cascade Model (NEW EXPERIMENT)
+- Converts E110 cascade model into concrete, falsifiable fieldwork predictions
+- 4 scenarios: targeted GPR, random coring, construction monitoring, Japan-level survey
+- **KEY RESULT:** 20 GPR surveys at E080 targets → expect 2.5 finds, 95% CI [0, 6], P(zero)=7%
+- Framework IS falsifiable: combined GPR + coring null result → P ≈ 2.1%
+- Cost estimate: $40K-100K for decisive test (2-4 weeks fieldwork)
+- Directly addresses pre-mortem Counter 1 (nobody lived there) and Counter 3 (unfalsifiable)
+- Results: `experiments/E116_testable_predictions/results/e116_results.json`
+- **Total: 117 experiments** (E001-E116)
+
+### Document Sync
+- Experiment counts updated to 117 across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
+- E116 added to EXPERIMENT_INDEX Cathedral Findings table
+
+---
+
+## 2026-03-20 | MUDIK SESSION 2 — Hard Structural Critique + E115 Sensitivity + Pre-Mortem
+
+**Type:** META / STRUCTURAL / EXPERIMENT
+**Status:** COMPLETE
+**Mode:** Mudik Lebaran (laptop, no GPU)
+
+### E115: Monte Carlo Sensitivity Analysis (NEW EXPERIMENT)
+- Created E115: 100,000-run Monte Carlo + Gaussian copula correlation analysis of E110 cascade model
+- **RESULT: ROBUST.** 92% of independent runs within 10× of observed gap
+- All 5 correlation scenarios tested (F1↔F2, F1↔F3, F4↔F5, worst-case all): <1% change in median
+- Most uncertain parameter: Survey Coverage (360% range relative to best estimate)
+- Volcanic Burial is the BEST-CONSTRAINED factor (60% range)
+- Independence assumption is NOT load-bearing
+- Revision ammo created: `papers/P1.../revision_ammo/CASCADE_ROBUSTNESS.md`
+- **Total: 116 experiments** (E001-E115)
+
+### Hard Structural Critique (System/Research Designer Perspective)
+Comprehensive critique delivered covering 7 areas:
+
+**Fatal risks identified:**
+- A1: Unfalsifiability trap — "absence IS evidence" is epistemologically dangerous. **FIX: new kill criteria written in L1 §9** (concrete, testable: GPR results, external comparanda, 3+ substantive rejections)
+- A2: 115 experiments, zero ground truth — frame as framework/methodology, not discovery
+- A3: Temporal logic gap — data C8-C13, claims pre-400 CE. **FIX: E115 shows cascade robust to parameter variation**
+
+**Structural risks:**
+- B1: Paper factory (12 items, 2-person team) — recommend max 3 active papers
+- B2: Dataset monoculture worse than stated — ALL data from Java
+- B3: Over-documentation (15+ meta-docs) — proposed merger to 5 active documents
+- B4: Co-author gap — Go Frendi engagement needs verification
+
+**Framework contributions:**
+- Testing framework designed (agent-agent, agent-human, human-human)
+- Failure classification system (F-DATA, F-LOGIC, F-FRAME, F-VOICE, F-SCOPE, F-META)
+- Critique selection mechanism (classify → source-weight → cost-benefit → default rules)
+
+### Pre-Mortem Analysis (NEW)
+Created `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`:
+- 6 strongest counter-arguments to VOLCARCH thesis, with severity and settlement evidence
+- Counter 1 (nobody lived there) = HIGHEST risk, needs fieldwork to resolve
+- Counter 3 (cascade is unfalsifiable) = addressed by West Java out-of-sample prediction
+- What would KILL: systematic GPR survey finding nothing
+- What would PROVE: GPR anomaly in Zone B, Philippines comparison
+
+### Rejection Pattern Analysis (NEW)
+Created `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`:
+- 3/3 rejected papers sent to BROAD area-studies journals
+- 3/3 surviving papers sent to SPECIALIST computational journals
+- Fisher's exact p=0.014 for specialist vs broad as predictor of survival
+- 5 actionable rules derived (match methods to journal, lead with "so what?", human-rewrite gate, space submissions, short papers survive better)
+
+### AI Prose Audit — P1 EGQSJ
+- Ran full AI Prose Checklist against `submission_egqsj_v1.0.tex`
+- **RESULT: CLEAN.** Zero AI markers found. Strong authorial voice confirmed.
+- P1 will NOT trigger AP-style AI flag
+
+### Document Sync Fixes
+- L1 §9 kill criteria: REWRITTEN (old criteria were obsolete after E005 pivot)
+- L1 §5 dataset honesty: updated from "21/91" to "21/116"
+- L3_EXECUTION: experiment count corrected to 116
+- L2_STRATEGY: experiment count updated to 116
+- EVAL.md: experiment count updated to 116
+- EXPERIMENT_INDEX: E115 added, cathedral findings updated, total corrected to 116
+- D1/D2 zenodo_README: author affiliation corrected (UBN, not UMM)
+
+### Files modified/created:
+**New:** `experiments/E115_cascade_sensitivity/` (README.md, cascade_sensitivity.py, results/), `papers/P1.../revision_ammo/CASCADE_ROBUSTNESS.md`, `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`
+**Modified:** L1_CONSTITUTION.md (§9 kill criteria, §5 dataset count), L2_STRATEGY.md (counts), L3_EXECUTION.md (counts), EVAL.md (counts), EXPERIMENT_INDEX.md (E115 + cathedral), D1/D2 zenodo_README.md (affiliation), JOURNAL.md (this entry), WORKSTATE.md
+
+---
+
 ## 2026-03-20 | MUDIK SESSION — Structural Critique + Pre-Submission Fixes + Blind Spot Research
 
 **Type:** META / CONSOLIDATION

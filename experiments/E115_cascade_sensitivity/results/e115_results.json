@@ -1,0 +1,147 @@
+{
+  "experiment": "E115_cascade_sensitivity",
+  "date": "2026-03-20",
+  "purpose": "Stress-test E110 cascade model under parameter uncertainty and correlation",
+  "monte_carlo": {
+    "method": "independent_uniform_100K",
+    "p_visible_mean": 0.0014217454682159058,
+    "p_visible_median": 0.0011268094975196165,
+    "p_visible_ci95": [
+      0.00019248829068210847,
+      0.004286359555894851
+    ],
+    "p_visible_ci90": [
+      0.0002530360334142806,
+      0.003594105398271599
+    ],
+    "observed_p": 0.0003105911585050212,
+    "within_2x": 0.23467,
+    "within_5x": 0.65248,
+    "within_10x": 0.91888,
+    "median_over_observed": 3.6279509788473256,
+    "gap_median": 887.4614583990035,
+    "gap_ci95": [
+      233.2982072532139,
+      5195.121201708555
+    ]
+  },
+  "tornado": [
+    {
+      "factor": "Organic Decay",
+      "swing_pct": 0.05800000000000001,
+      "ratio": 3.0000000000000004
+    },
+    {
+      "factor": "Survey Coverage",
+      "swing_pct": 0.05800000000000001,
+      "ratio": 3.0000000000000004
+    },
+    {
+      "factor": "Recognition",
+      "swing_pct": 0.05800000000000001,
+      "ratio": 3.0000000000000004
+    },
+    {
+      "factor": "Volcanic Burial",
+      "swing_pct": 0.058,
+      "ratio": 3.0
+    },
+    {
+      "factor": "Publication",
+      "swing_pct": 0.058,
+      "ratio": 3.0
+    }
+  ],
+  "correlated_scenarios": {
+    "independent": {
+      "description": "All factors independent (E110 baseline)",
+      "correlations": {},
+      "p_visible_median": 0.0011300321308239732,
+      "p_visible_ci95": [
+        0.00019037582052742571,
+        0.004327304340223531
+      ],
+      "within_10x_of_observed": 0.91721,
+      "median_over_observed": 3.6383267838762525
+    },
+    "burial_accelerates_decay": {
+      "description": "F1↔F2 positive: volcanic soil accelerates organic decay",
+      "correlations": {
+        "F1_volcanic_burial↔F2_organic_decay": 0.5
+      },
+      "p_visible_median": 0.0011264021262089876,
+      "p_visible_ci95": [
+        0.00017527205423732036,
+        0.004608255725423272
+      ],
+      "within_10x_of_observed": 0.90462,
+      "median_over_observed": 3.6266393790175373
+    },
+    "burial_attracts_survey": {
+      "description": "F1↔F3 negative: near-volcano zones are MORE surveyed (E109 finding)",
+      "correlations": {
+        "F1_volcanic_burial↔F3_survey_coverage": -0.4
+      },
+      "p_visible_median": 0.0011220968391758347,
+      "p_visible_ci95": [
+        0.00021449595750186958,
+        0.003981735294249874
+      ],
+      "within_10x_of_observed": 0.9324,
+      "median_over_observed": 3.6127777898664624
+    },
+    "recognition_helps_publication": {
+      "description": "F4↔F5 positive: if recognized, more likely published",
+      "correlations": {
+        "F4_recognition↔F5_publication": 0.3
+      },
+      "p_visible_median": 0.0011256008124544967,
+      "p_visible_ci95": [
+        0.00018222931334466684,
+        0.00451269033986116
+      ],
+      "within_10x_of_observed": 0.90939,
+      "median_over_observed": 3.6240594158326616
+    },
+    "worst_case_all_correlated": {
+      "description": "All plausible correlations active simultaneously",
+      "correlations": {
+        "F1_volcanic_burial↔F2_organic_decay": 0.5,
+        "F1_volcanic_burial↔F3_survey_coverage": -0.4,
+        "F4_recognition↔F5_publication": 0.3
+      },
+      "p_visible_median": 0.001116681317617628,
+      "p_visible_ci95": [
+        0.00018864466499327075,
+        0.004565795917933717
+      ],
+      "within_10x_of_observed": 0.90853,
+      "median_over_observed": 3.5953416156228895
+    }
+  },
+  "elasticity": [
+    {
+      "factor": "Survey Coverage",
+      "range_over_best": 3.6
+    },
+    {
+      "factor": "Organic Decay",
+      "range_over_best": 1.2499999999999998
+    },
+    {
+      "factor": "Recognition",
+      "range_over_best": 0.9999999999999999
+    },
+    {
+      "factor": "Publication",
+      "range_over_best": 0.7999999999999999
+    },
+    {
+      "factor": "Volcanic Burial",
+      "range_over_best": 0.603448275862069
+    }
+  ],
+  "verdict": "ROBUST: 92% of independent Monte Carlo runs produce P(visible) within 10x of observed rate.\nCORRELATION-ROBUST: All plausible correlation scenarios maintain model-data agreement.\nMOST UNCERTAIN FACTOR: Survey Coverage (range = 360% of best estimate). Narrowing this parameter would most reduce output uncertainty.",
+  "robust": true,
+  "correlation_robust": true
+}

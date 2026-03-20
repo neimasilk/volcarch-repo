@@ -1,0 +1,49 @@
+{
+  "experiment": "E116_testable_predictions",
+  "date": "2026-03-20",
+  "purpose": "Convert E110 cascade model into falsifiable fieldwork predictions",
+  "predictions": {
+    "gpr_targeted": {
+      "scenario": "20 GPR surveys at E080 high-suitability targets",
+      "expected_finds": 2.5,
+      "prediction_interval_95": [
+        0,
+        6
+      ],
+      "p_zero": 0.0695,
+      "falsification": "0 finds possible but unlikely",
+      "cost_estimate": "$2,000-5,000 per survey = $40,000-100,000 total",
+      "timeframe": "2-4 weeks of fieldwork"
+    },
+    "random_cores": {
+      "scenario": "50 random 10m cores in Malang basin",
+      "expected_finds": 1.2,
+      "prediction_interval_95": [
+        0,
+        4
+      ],
+      "p_zero": 0.3026,
+      "falsification": "0 finds in 50 cores would be concerning but not decisive (P=30.3%)",
+      "cost_estimate": "$200-500 per core = $10,000-25,000 total",
+      "timeframe": "1-2 weeks"
+    },
+    "construction_monitoring": {
+      "scenario": "Monitor 250 deep construction projects over 5 years",
+      "expected_finds": 2.2,
+      "prediction_interval_95": [
+        0,
+        6
+      ],
+      "cost_estimate": "Minimal (piggyback on existing construction)",
+      "timeframe": "5 years passive monitoring",
+      "historical_rate": "~1 accidental find per 15 years in Central Java"
+    },
+    "japan_level": {
+      "scenario": "Indonesia surveys at Japan-level intensity",
+      "expected_detectable": 112,
+      "current_detectable": 5,
+      "improvement_factor": 20
+    }
+  },
+  "verdict": "The cascade model generates testable predictions. 20 targeted GPR surveys should find 0-6 anomalies (95% CI). Zero finds would reject the framework (P=0.070). Japan-level survey intensity would increase detectable pre-Hindu sites from ~6 to ~112."
+}

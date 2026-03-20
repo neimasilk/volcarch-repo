@@ -11,7 +11,7 @@
 **Phase:** CONTRACTION + VALIDATION (post-Mata Elang #8 structural critique).
 6 papers awaiting review. No new submissions. Build datasets, validate existing work, computational deepening.
 
-**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **99-experiment** registry (E092-E098 + E095 activated).
+**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **117-experiment** registry (E001-E115, minus 6 unused IDs).
 
 ---
 
