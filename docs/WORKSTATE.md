@@ -1,7 +1,7 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-20 (mudik session 3: E116-E118, auto-sync checker, 119 experiments)
+**Last updated:** 2026-03-20 (mudik session 3: E116-E119, falsifiability package, auto-sync checker, Michelson-Morley framing, 120 experiments)
 **MODE: MUDIK LEBARAN (sampai 2026-03-30).** No major decisions. Light work only. Laptop lambat (no GPU). Strategic decisions resume post-Lebaran.
 
 ---
@@ -81,6 +81,11 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 | Nusantara #1/10 pre-literate societies | E114 | CCI=23, z=2.12 |
 | Survey deficit = 40× leverage, burial = 1.7× | E110 | Reframe: survey first, burial second |
 | West Java smoking gun (Buni + Batujaya) | E110 | Within-island taphonomic control |
+| Cascade robust: 92% within 10×, correlation-robust | E115 | Model survives Monte Carlo |
+| GPR 20 targets → expect 2.5 finds [0,6], P(zero)=7% | E116 | Framework IS falsifiable |
+| Surface survey reaches ~1900 CE only at 4mm/yr | E117 | Detection horizon quantified |
+| 3.5× search efficiency, 29% entropy reduction | E118 | Volcanic context = practical value |
+| Synthesis figure: burial diagonal × detection horizons | E119 | Visual elevator pitch |
 
 ## BLOCKED
 
@@ -89,7 +94,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
-- **Mudik Session 3 (2026-03-20)** — Autonomous mode. E116 testable predictions (GPR 20 targets → expect 2.5 finds, P(zero)=7%). E117 archaeological onset analysis (detection horizon: surface survey reaches ~1900 CE). E118 information gain (3.5× search efficiency, 29% entropy reduction). Auto-sync checker tool. Falsifiability revision ammo package. README updated. TRIGGER_MAP updated. Michelson-Morley framing: project value = method, not finding. 119 experiments total.
+- **Mudik Session 3 (2026-03-20)** — Autonomous mode. 5 new experiments: E116 testable predictions (GPR → [0,6] finds, P(zero)=7%), E117 detection horizon (surface survey ~1900 CE only), E118 information gain (3.5×, 29% entropy), E119 synthesis figure (data for matplotlib). Auto-sync checker (`tools/check_doc_sync.py`). Falsifiability revision ammo package. README refreshed with current results. TRIGGER_MAP updated (rejection pattern). Michelson-Morley framing: value = method + predictions, both outcomes are contributions. Failed experiment rescue analysis (E024→E083, E039→E103 already done). 120 experiments total.
 - **Mudik Session 2 (2026-03-20)** — E115 cascade sensitivity analysis: ROBUST (92% of 100K MC runs within 10× of observed, correlation-robust). Hard structural critique: 3 fatal risks (A1-A3), 4 structural risks (B1-B4). L1 §9 kill criteria REWRITTEN (old criteria obsolete). Pre-mortem analysis: 6 counter-arguments classified. Rejection pattern analysis: specialist journal = 100% survival rate. P1 EGQSJ AI prose audit: CLEAN. Document sync: experiment counts fixed to 116 across L1/L2/L3/EVAL/EXPERIMENT_INDEX. D1/D2 affiliations corrected.
 - **Mudik Session 1 (2026-03-20)** — P1 EGQSJ: ORCID + GitHub URL + 5 reference DOIs fixed (fully ready). Structural critique: B1-B4 risks classified. Diamond OA journal targets verified for all papers. AI Prose Guide created. P11 v0.3 AI markers fixed. Blind spot research: Dong Son drums (I-110), Philippines comparandum (I-111), metallurgy (I-112). Docs synchronized (L2, L3, drafts/README, IDEA_REGISTRY). JOURNAL updated.
 - **P1 Final Review (2026-03-18)** — Review fixes (duplicate content, textbook filler, West Java claim, 3220x transparency, ov1925 reframe), AI disclosure trimmed, internal jargon cleaned (E083/RQ/H labels), DOIs verified via Playwright (3 corrected, 1 removed), versioning cleanup (renamed v1.0, archived obsolete variants).
