@@ -101,7 +101,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **119 experiments** (E118 = information gain from volcanic context). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
+STATUS: **120 experiments** (E119 = synthesis figure data). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
 P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
 **All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
 **L1 kill criteria REWRITTEN** — old criteria were obsolete after E005 pivot. New criteria: concrete, testable (GPR results, external comparanda, 3+ substantive peer rejections). See L1 §9.

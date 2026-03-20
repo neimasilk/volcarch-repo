@@ -1,7 +1,7 @@
 # Experiment Index
 
 **Last updated:** 2026-03-20
-**Total:** 119 experiments (E001-E118 + E095 activated, minus E021/E045-E047/E072/E077 unused)
+**Total:** 120 experiments (E001-E119 + E095 activated, minus E021/E045-E047/E072/E077 unused)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -250,6 +250,12 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
 | **E118** | **Information gain from volcanic context** | **SUCCESS** | **P1, P2** | **3.5× search efficiency, 29% entropy reduction, $16.7K savings per first-find. Survey deficit is the bigger PROBLEM; volcanic context is the better SOLUTION.** |
+
+### Synthesis (E119)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E119** | **Synthesis figure (burial depth vs time)** | **SUCCESS** | **P1, All** | **One figure tells the whole story: burial depth diagonal × detection horizons × known sites. Pre-400 CE at 6.5m+ = beyond all standard methods. Data ready, matplotlib rendering post-mudik.** |
 
 ---
 

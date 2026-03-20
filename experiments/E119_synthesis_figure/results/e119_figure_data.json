@@ -1,0 +1,442 @@
+{
+  "experiment": "E119_synthesis_figure",
+  "date": "2026-03-20",
+  "sedimentation_rate_mm_yr": 4.0,
+  "burial_depth_timeline": [
+    {
+      "century_ce": -4000,
+      "age_yr": 6026,
+      "depth_m": 24.1
+    },
+    {
+      "century_ce": -3900,
+      "age_yr": 5926,
+      "depth_m": 23.7
+    },
+    {
+      "century_ce": -3800,
+      "age_yr": 5826,
+      "depth_m": 23.3
+    },
+    {
+      "century_ce": -3700,
+      "age_yr": 5726,
+      "depth_m": 22.9
+    },
+    {
+      "century_ce": -3600,
+      "age_yr": 5626,
+      "depth_m": 22.5
+    },
+    {
+      "century_ce": -3500,
+      "age_yr": 5526,
+      "depth_m": 22.1
+    },
+    {
+      "century_ce": -3400,
+      "age_yr": 5426,
+      "depth_m": 21.7
+    },
+    {
+      "century_ce": -3300,
+      "age_yr": 5326,
+      "depth_m": 21.3
+    },
+    {
+      "century_ce": -3200,
+      "age_yr": 5226,
+      "depth_m": 20.9
+    },
+    {
+      "century_ce": -3100,
+      "age_yr": 5126,
+      "depth_m": 20.5
+    },
+    {
+      "century_ce": -3000,
+      "age_yr": 5026,
+      "depth_m": 20.1
+    },
+    {
+      "century_ce": -2900,
+      "age_yr": 4926,
+      "depth_m": 19.7
+    },
+    {
+      "century_ce": -2800,
+      "age_yr": 4826,
+      "depth_m": 19.3
+    },
+    {
+      "century_ce": -2700,
+      "age_yr": 4726,
+      "depth_m": 18.9
+    },
+    {
+      "century_ce": -2600,
+      "age_yr": 4626,
+      "depth_m": 18.5
+    },
+    {
+      "century_ce": -2500,
+      "age_yr": 4526,
+      "depth_m": 18.1
+    },
+    {
+      "century_ce": -2400,
+      "age_yr": 4426,
+      "depth_m": 17.7
+    },
+    {
+      "century_ce": -2300,
+      "age_yr": 4326,
+      "depth_m": 17.3
+    },
+    {
+      "century_ce": -2200,
+      "age_yr": 4226,
+      "depth_m": 16.9
+    },
+    {
+      "century_ce": -2100,
+      "age_yr": 4126,
+      "depth_m": 16.5
+    },
+    {
+      "century_ce": -2000,
+      "age_yr": 4026,
+      "depth_m": 16.1
+    },
+    {
+      "century_ce": -1900,
+      "age_yr": 3926,
+      "depth_m": 15.7
+    },
+    {
+      "century_ce": -1800,
+      "age_yr": 3826,
+      "depth_m": 15.3
+    },
+    {
+      "century_ce": -1700,
+      "age_yr": 3726,
+      "depth_m": 14.9
+    },
+    {
+      "century_ce": -1600,
+      "age_yr": 3626,
+      "depth_m": 14.5
+    },
+    {
+      "century_ce": -1500,
+      "age_yr": 3526,
+      "depth_m": 14.1
+    },
+    {
+      "century_ce": -1400,
+      "age_yr": 3426,
+      "depth_m": 13.7
+    },
+    {
+      "century_ce": -1300,
+      "age_yr": 3326,
+      "depth_m": 13.3
+    },
+    {
+      "century_ce": -1200,
+      "age_yr": 3226,
+      "depth_m": 12.9
+    },
+    {
+      "century_ce": -1100,
+      "age_yr": 3126,
+      "depth_m": 12.5
+    },
+    {
+      "century_ce": -1000,
+      "age_yr": 3026,
+      "depth_m": 12.1
+    },
+    {
+      "century_ce": -900,
+      "age_yr": 2926,
+      "depth_m": 11.7
+    },
+    {
+      "century_ce": -800,
+      "age_yr": 2826,
+      "depth_m": 11.3
+    },
+    {
+      "century_ce": -700,
+      "age_yr": 2726,
+      "depth_m": 10.9
+    },
+    {
+      "century_ce": -600,
+      "age_yr": 2626,
+      "depth_m": 10.5
+    },
+    {
+      "century_ce": -500,
+      "age_yr": 2526,
+      "depth_m": 10.1
+    },
+    {
+      "century_ce": -400,
+      "age_yr": 2426,
+      "depth_m": 9.7
+    },
+    {
+      "century_ce": -300,
+      "age_yr": 2326,
+      "depth_m": 9.3
+    },
+    {
+      "century_ce": -200,
+      "age_yr": 2226,
+      "depth_m": 8.9
+    },
+    {
+      "century_ce": -100,
+      "age_yr": 2126,
+      "depth_m": 8.5
+    },
+    {
+      "century_ce": 0,
+      "age_yr": 2026,
+      "depth_m": 8.1
+    },
+    {
+      "century_ce": 100,
+      "age_yr": 1926,
+      "depth_m": 7.7
+    },
+    {
+      "century_ce": 200,
+      "age_yr": 1826,
+      "depth_m": 7.3
+    },
+    {
+      "century_ce": 300,
+      "age_yr": 1726,
+      "depth_m": 6.9
+    },
+    {
+      "century_ce": 400,
+      "age_yr": 1626,
+      "depth_m": 6.5
+    },
+    {
+      "century_ce": 500,
+      "age_yr": 1526,
+      "depth_m": 6.1
+    },
+    {
+      "century_ce": 600,
+      "age_yr": 1426,
+      "depth_m": 5.7
+    },
+    {
+      "century_ce": 700,
+      "age_yr": 1326,
+      "depth_m": 5.3
+    },
+    {
+      "century_ce": 800,
+      "age_yr": 1226,
+      "depth_m": 4.9
+    },
+    {
+      "century_ce": 900,
+      "age_yr": 1126,
+      "depth_m": 4.5
+    },
+    {
+      "century_ce": 1000,
+      "age_yr": 1026,
+      "depth_m": 4.1
+    },
+    {
+      "century_ce": 1100,
+      "age_yr": 926,
+      "depth_m": 3.7
+    },
+    {
+      "century_ce": 1200,
+      "age_yr": 826,
+      "depth_m": 3.3
+    },
+    {
+      "century_ce": 1300,
+      "age_yr": 726,
+      "depth_m": 2.9
+    },
+    {
+      "century_ce": 1400,
+      "age_yr": 626,
+      "depth_m": 2.5
+    },
+    {
+      "century_ce": 1500,
+      "age_yr": 526,
+      "depth_m": 2.1
+    },
+    {
+      "century_ce": 1600,
+      "age_yr": 426,
+      "depth_m": 1.7
+    },
+    {
+      "century_ce": 1700,
+      "age_yr": 326,
+      "depth_m": 1.3
+    },
+    {
+      "century_ce": 1800,
+      "age_yr": 226,
+      "depth_m": 0.9
+    },
+    {
+      "century_ce": 1900,
+      "age_yr": 126,
+      "depth_m": 0.5
+    },
+    {
+      "century_ce": 2000,
+      "age_yr": 26,
+      "depth_m": 0.1
+    }
+  ],
+  "detection_methods": {
+    "Surface survey": {
+      "depth_m": 0.5,
+      "color": "green",
+      "label": "Surface survey (0.5m)"
+    },
+    "Shallow excavation": {
+      "depth_m": 1.0,
+      "color": "yellow",
+      "label": "Shallow excavation (1m)"
+    },
+    "Standard excavation": {
+      "depth_m": 2.0,
+      "color": "orange",
+      "label": "Standard excavation (2m)"
+    },
+    "GPR": {
+      "depth_m": 5.0,
+      "color": "red",
+      "label": "GPR (5m effective in volcanic ash)"
+    },
+    "Deep coring": {
+      "depth_m": 10.0,
+      "color": "darkred",
+      "label": "Deep coring (10m)"
+    }
+  },
+  "known_sites": [
+    {
+      "name": "Song Keplek",
+      "century_ce": -7050,
+      "type": "cave",
+      "depth": 0,
+      "note": "9ka"
+    },
+    {
+      "name": "Buni Complex",
+      "century_ce": -100,
+      "type": "coastal",
+      "depth": 0,
+      "note": "200 BCE"
+    },
+    {
+      "name": "Batujaya",
+      "century_ce": 400,
+      "type": "coastal",
+      "depth": 0,
+      "note": "4th c CE"
+    },
+    {
+      "name": "Kendeng Lembu",
+      "century_ce": -2000,
+      "type": "open_air_nonvolcanic",
+      "depth": 0,
+      "note": "karst"
+    },
+    {
+      "name": "Dieng",
+      "century_ce": 750,
+      "type": "temple_found",
+      "depth": 2.5,
+      "note": "buried 2.5m"
+    },
+    {
+      "name": "Borobudur",
+      "century_ce": 800,
+      "type": "temple_found",
+      "depth": 0,
+      "note": "exposed"
+    },
+    {
+      "name": "Prambanan",
+      "century_ce": 850,
+      "type": "temple_found",
+      "depth": 5.5,
+      "note": "partially buried"
+    },
+    {
+      "name": "Sambisari",
+      "century_ce": 850,
+      "type": "temple_found",
+      "depth": 6.5,
+      "note": "fully buried"
+    },
+    {
+      "name": "Kedulan",
+      "century_ce": 900,
+      "type": "temple_found",
+      "depth": 6.0,
+      "note": "fully buried"
+    },
+    {
+      "name": "Singosari Dwarapala",
+      "century_ce": 1268,
+      "type": "temple_found",
+      "depth": 1.85,
+      "note": "half buried"
+    },
+    {
+      "name": "Trowulan/Majapahit",
+      "century_ce": 1350,
+      "type": "temple_found",
+      "depth": 4.3,
+      "note": "buried"
+    }
+  ],
+  "key_intersections": {
+    "Surface survey": {
+      "depth_m": 0.5,
+      "oldest_detectable_ce": 1901
+    },
+    "Shallow excavation": {
+      "depth_m": 1.0,
+      "oldest_detectable_ce": 1776
+    },
+    "Standard excavation": {
+      "depth_m": 2.0,
+      "oldest_detectable_ce": 1526
+    },
+    "GPR": {
+      "depth_m": 5.0,
+      "oldest_detectable_ce": 776
+    },
+    "Deep coring": {
+      "depth_m": 10.0,
+      "oldest_detectable_ce": -474
+    }
+  },
+  "figure_description": "X-axis: time (centuries CE/BCE). Y-axis: predicted burial depth at 4mm/yr (meters, increasing downward). Diagonal line: burial depth as function of age. Horizontal lines: detection limits for each survey method. Symbols: known Java sites (circles=caves at depth 0, triangles=temples at observed depth, squares=coastal sites at depth 0). Shaded region below diagonal: INVISIBLE ZONE. The figure shows why pre-400 CE open-air sites cannot be found by any current method.",
+  "rendering_instructions": "Use matplotlib with inverted Y-axis (depth increases downward). Diagonal from top-left to bottom-right = burial depth vs time. Horizontal dashed lines = detection limits. Color zones: green (detectable), yellow (marginal), red (invisible). Mark known sites with different symbols per type. Highlight the 'invisible zone' with gray shading."
+}

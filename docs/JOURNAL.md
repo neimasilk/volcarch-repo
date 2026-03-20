@@ -39,6 +39,13 @@
 - Key insight: "Survey deficit is the bigger PROBLEM. Volcanic context is the better SOLUTION."
 - **Total: 119 experiments** (E001-E118)
 
+### E119: Synthesis Figure — One Figure Tells the Whole Story (NEW EXPERIMENT)
+- Burial depth diagonal (4mm/yr) × detection horizons × known sites = visual summary of VOLCARCH
+- Pre-400 CE at 6.5m+ depth = beyond ALL standard archaeological methods
+- Data saved as JSON for matplotlib rendering post-mudik
+- The "elevator pitch" for the entire framework in a single visualization
+- **Total: 120 experiments** (E001-E119)
+
 ### Auto-Sync Checker Tool
 - Created `tools/check_doc_sync.py` — permanent fix for B3 (document drift)
 - Checks experiment counts across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
@@ -46,8 +53,8 @@
 - All 6 docs confirmed consistent at 118 experiments
 
 ### Document Sync
-- Experiment counts updated to 119 across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
-- E116, E117, E118 added to EXPERIMENT_INDEX
+- Experiment counts updated to 120 across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
+- E116, E117, E118, E119 added to EXPERIMENT_INDEX
 
 ---
 
