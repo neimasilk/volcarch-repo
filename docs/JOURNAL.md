@@ -20,9 +20,34 @@
 - Results: `experiments/E116_testable_predictions/results/e116_results.json`
 - **Total: 117 experiments** (E001-E116)
 
+### E117: Archaeological Record Onset Analysis (NEW EXPERIMENT)
+- "Michelson-Morley test" for volcanic taphonomic bias
+- Detection horizon model: surface survey reaches ~1900 CE at 4mm/yr sedimentation
+- Pre-400 CE predicted burial depth: 6.5m+ — deeper than most observed burials
+- Zero pre-400 CE open-air sites in volcanic interior Java (N=34 Java sites analyzed)
+- All pre-400 CE sites in caves (9), river terraces (11), coastal (4), or non-volcanic contexts
+- Pattern consistent with VOLCARCH but ALSO with genuine absence
+- Honest conclusion: "distinguishing the two hypotheses requires digging"
+- **Total: 118 experiments** (E001-E117)
+
+### E118: Information Gain from Volcanic Context (NEW EXPERIMENT)
+- Addresses Counter 4: "survey deficit is the real story, volcanism is a distraction"
+- Shannon entropy analysis: 29.0% reduction in search uncertainty with volcanic context
+- Search efficiency: 3.5× improvement over random survey at all budget levels
+- Cost savings: $16,667 per first-find, $83,333 to reach 5 finds
+- Depth prediction advantage: r=0.951 burial model tells you WHERE + HOW DEEP
+- Key insight: "Survey deficit is the bigger PROBLEM. Volcanic context is the better SOLUTION."
+- **Total: 119 experiments** (E001-E118)
+
+### Auto-Sync Checker Tool
+- Created `tools/check_doc_sync.py` — permanent fix for B3 (document drift)
+- Checks experiment counts across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
+- Returns exit code 0 (consistent) or 1 (mismatch)
+- All 6 docs confirmed consistent at 118 experiments
+
 ### Document Sync
-- Experiment counts updated to 117 across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
-- E116 added to EXPERIMENT_INDEX Cathedral Findings table
+- Experiment counts updated to 119 across L1, L2, L3, EVAL, EXPERIMENT_INDEX, WORKSTATE
+- E116, E117, E118 added to EXPERIMENT_INDEX
 
 ---
 

@@ -1,7 +1,7 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-20 (mudik session 3: E116 testable predictions from cascade, autonomous mode, 117 experiments)
+**Last updated:** 2026-03-20 (mudik session 3: E116-E118, auto-sync checker, 119 experiments)
 **MODE: MUDIK LEBARAN (sampai 2026-03-30).** No major decisions. Light work only. Laptop lambat (no GPU). Strategic decisions resume post-Lebaran.
 
 ---
@@ -100,12 +100,13 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **117 experiments** (E116 = testable predictions from cascade). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
+STATUS: **119 experiments** (E118 = information gain from volcanic context). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
 P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
 **All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
 **L1 kill criteria REWRITTEN** — old criteria were obsolete after E005 pivot. New criteria: concrete, testable (GPR results, external comparanda, 3+ substantive peer rejections). See L1 §9.
 **E115 cascade robustness:** Monte Carlo 100K confirms model robust (92% within 10×, correlation-robust). Revision ammo ready.
 **E116 testable predictions:** 20 targeted GPR → expect 2.5 finds [0,6] 95% CI, P(zero)=7%. Framework IS falsifiable. See `experiments/E116_testable_predictions/`.
+**E117 onset analysis:** Detection horizon model — surface survey reaches ~1900 CE only at 4mm/yr. Zero pre-400 CE open-air sites in volcanic interior Java. See `experiments/E117_archaeological_onset/`.
 **Pre-mortem analysis created** — `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`. 6 counter-arguments classified.
 **Rejection pattern:** specialist journals = 100% survival, broad area-studies = 0%. See `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`.
 PRIORITIES (post-mudik):

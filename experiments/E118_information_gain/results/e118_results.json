@@ -1,0 +1,18 @@
+{
+  "experiment": "E118_information_gain",
+  "date": "2026-03-20",
+  "purpose": "Quantify practical value of volcanic context for fieldwork targeting",
+  "info_gain_bits": 0.1769,
+  "entropy_reduction_pct": 29.0,
+  "search_speedup_mean": 3.5,
+  "cost_first_find_random": 23333,
+  "cost_first_find_volcanic": 6667,
+  "cost_ratio": 3.5,
+  "depth_prediction_r": 0.951,
+  "zone_densities": {
+    "high": 3.5,
+    "medium": 0.62,
+    "low": 0.12
+  },
+  "verdict": "Volcanic context provides 29.0% entropy reduction in site search, 3.5× mean search efficiency improvement, and $16,667 savings per first-find. Survey deficit is the bigger problem; volcanic context is the better solution. VOLCARCH's value is TARGETING (where + how deep), not explanation (why sites are missing)."
+}

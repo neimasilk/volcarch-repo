@@ -1,7 +1,7 @@
 # Experiment Index
 
 **Last updated:** 2026-03-20
-**Total:** 117 experiments (E001-E116 + E095 activated, minus E021/E045-E047/E072/E077 unused)
+**Total:** 119 experiments (E001-E118 + E095 activated, minus E021/E045-E047/E072/E077 unused)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -238,6 +238,18 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
 | **E116** | **Testable predictions from cascade** | **SUCCESS** | **P1, All** | **20 targeted GPR → expect 2.5 finds [0,6] 95% CI, P(zero)=7%. Framework IS falsifiable. $40K-100K for decisive test.** |
+
+### Archaeological Onset Analysis (E117)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E117** | **Archaeological record onset analysis** | **SUCCESS** | **P1, P18** | **Detection horizon: surface survey reaches ~1900 CE only. Pre-400 CE sites at 6.5m+ depth. Zero open-air volcanic interior sites pre-400 CE. Pattern consistent with VOLCARCH but also with absence.** |
+
+### Information Gain (E118)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E118** | **Information gain from volcanic context** | **SUCCESS** | **P1, P2** | **3.5× search efficiency, 29% entropy reduction, $16.7K savings per first-find. Survey deficit is the bigger PROBLEM; volcanic context is the better SOLUTION.** |
 
 ---
 
