@@ -41,6 +41,16 @@
 ### Doc Sync Check
 - `python tools/check_doc_sync.py` → PASS, all 6 docs agree on 120 experiments
 
+### P19 "Before the Inscriptions" — BKI Long-Term Paper Initiated
+- **Decision:** GO for BKI, but as a genuinely NEW humanities essay, not a reformat of P5
+- **Core argument:** Lombard's *carrefour javanais* identified 3 cultural layers. There is a 4th — the pre-Indic Austronesian layer — invisible due to taphonomic + historiographic processes.
+- **Theoretical engagement:** Wolters (localization → what was the RECEIVING culture?), Lombard (3 layers → 4), Bloembergen & Eickhoff 2020 (heritage politics — **Bloembergen is BKI editor!**), Sears (colonial construction), Schiffer (formation processes), Fox (Austronesian models)
+- **Key difference from P5:** Theory-led, not method-led. VOLCARCH findings = evidence, not contribution. No AUC, no p-values in running text. Humanities essay with computational support.
+- **Phase 1 complete:** Roadmap, outline (8 sections), literature map (30 references in 3 tiers), risk register
+- **Files:** `papers/P19_before_the_inscriptions/ROADMAP.md`, `notes/literature_map.md`
+- **Target:** September 2026 (6 months after P5 rejection). Requires Pak Amien deep reading + human writing.
+- **Strategic note:** Engaging with Bloembergen & Eickhoff 2020 is both intellectually necessary AND strategically important (she's BKI editor). NOT flattery — genuine engagement with heritage politics framework.
+
 ---
 
 ## 2026-03-20 | MUDIK SESSION 3 — E116 Testable Predictions + Autonomous Mode

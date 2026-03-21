@@ -148,6 +148,9 @@
 - **D1** — Colonial Archaeological Register of Java (52 entries). Target: **Zenodo** (free deposit).
 - **D2** — Mini-NusaRC (80 sites). Target: **Zenodo** (free deposit).
 
+### Incubating (BKI long-term)
+- **P19** — "Before the Inscriptions" — Humanities essay for BKI. Lombard's 4th layer. Engages Wolters, Bloembergen, Sears. VOLCARCH evidence used lightly. Target: September 2026. Phase 1 complete (outline + literature map). **Requires deep reading by Pak Amien + human writing.**
+
 ### Dissolved
 - **P15** — TOM-R content absorbed into `papers/P5_volcanic_ritual_clock/revision_ammo/` (2026-03-10)
 

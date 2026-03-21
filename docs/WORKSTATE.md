@@ -39,6 +39,14 @@
 - **P5 retargeting** — Rejected from BKI. "Crucially" AI marker already fixed.
   - Target: **Archeologia e Calcolatori** / J. Pacific Archaeology / Wacana
   - Submit ~late May 2026
+- **P19 "Before the Inscriptions"** — NEW. Humanities essay for BKI. NOT a reformat of P5.
+  - Argument: Lombard's 3 layers have a 4th (pre-Indic Austronesian), invisible due to taphonomic + historiographic processes
+  - Engages: Wolters (localization), Lombard (layers), Bloembergen & Eickhoff (heritage politics), Sears (colonial construction)
+  - Uses VOLCARCH findings as LIGHT evidence, not main contribution
+  - **Phase 1 complete:** outline + literature map + roadmap
+  - **Next:** Deep reading (Lombard Vol.3, Bloembergen 2020, Wolters 1999). Pak Amien reads, not Claude.
+  - Target submission: ~September 2026
+  - Files: `papers/P19_before_the_inscriptions/`
 - **P9 retargeting (HOLD)** — Rejected from JSEAS.
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
 - **E076 v2 satellite** — Script written, needs internet + compute (~30 min, post-mudik)
