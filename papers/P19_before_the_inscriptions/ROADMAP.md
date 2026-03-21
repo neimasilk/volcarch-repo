@@ -1,12 +1,16 @@
 # P19 Roadmap — "Before the Inscriptions"
 # Target: BKI (Bijdragen tot de Taal-, Land- en Volkenkunde)
 
-**Status:** Phase 1 (Foundation)
+**Status:** Phase 2 (Deep Reading + Style Study) — skeleton v0.2 complete
 **Created:** 2026-03-21
 **Target submission:** ~September 2026 (6 months after P5 rejection)
 **Word limit:** 12,000 (including notes + bibliography)
-**Format:** Double-blind, BKI house style (Palatino, double-spaced, Chicago-adjacent citations)
-**APC:** Diamond OA — zero cost
+**Format:** Double-blind, BKI house style — see `notes/bki_style_guide.md` for full specifications
+**Citation style:** Author-date in text: (Wolters 1999:45-6). Footnotes for substantive discussion.
+**Language:** British English (honour, realise, organise)
+**Submission:** Editorial Manager at editorialmanager.com/bki
+**Editor-in-chief:** Dr. Freek Colombijn (f.colombijn@vu.nl) — VU Amsterdam
+**APC:** Diamond OA — zero cost (waived by KITLV)
 
 ---
 
@@ -105,32 +109,42 @@ Lombard (1990) described Java as a *carrefour* — a crossroads of three cultura
 ### 8. Conclusion: The Carrefour Has a Basement (~500 words)
 - Lombard was right about the crossroads — but there is a level below the street
 - We don't claim to have found this layer — we claim to have shown WHY it is invisible and WHERE to look
-- The Michelson-Morley analogy: the value is in the METHOD and the PREDICTIONS, not in the discovery
-- Close with the honest claim: "framework, not confirmation"
+- Not a discovery claim but a visibility claim: framework for understanding why evidence is absent
+- Close with the honest claim: "the door is buried, but we know where to dig"
+- Final footnote: cite P1 preprint (Zenodo DOI) as quantitative foundation for the narrative arguments
 
 ---
 
 ## Phases
 
-### Phase 1: Foundation (CURRENT — March 2026)
+### Phase 1: Foundation (COMPLETE — 2026-03-21)
 - [x] Literature landscape mapped (Wolters, Lombard, Sears, Bloembergen, Fox, Schiffer)
 - [x] Paper outline with theoretical architecture
-- [x] Integrated into VOLCARCH system (P19, WORKSTATE)
-- [ ] Read Lombard Vol. 3 closely (library or digital)
-- [ ] Read Bloembergen & Eickhoff 2020 Ch. 1-3 (heritage politics framing)
-- [ ] Read Wolters 1999 Ch. 1 + Ch. 5 (localization theory)
-- [ ] Collect 5-10 recent BKI articles to study tone, structure, citation style
+- [x] Integrated into VOLCARCH system (P19, WORKSTATE, L2)
+- [x] BKI style guide compiled (`notes/bki_style_guide.md`)
+- [x] Skeleton v0.1 → v0.2 (BKI-conformant headings, British English, ~200-word abstract)
+- [x] Analysed Griffiths et al. (2024) BKI article for writing craft
+- [x] Analysed Bloembergen (2011) BKI article for heritage politics framing
+- [x] BKI author instructions extracted (word limit, citation format, all specs)
 
-### Phase 2: Deep Reading (April 2026)
-- [ ] Read & annotate 15-20 core references
-- [ ] Write 1-page summary of each debate (Indianization, localization, heritage politics)
+### Phase 2: Deep Reading (CURRENT — April 2026)
+**Pak Amien reading tasks:**
+- [ ] Read Lombard Vol. 3 closely (library or digital — Indonesian translation available)
+- [ ] Read Bloembergen & Eickhoff 2020 Ch. 1-3 (heritage politics framing)
+- [ ] Read Wolters 1999 Ch. 1 + Ch. 5 (localisation theory)
+- [ ] Read 5 recent BKI articles (any topic, to absorb tone — see bki_style_guide.md)
+- [ ] Read Wisseman Christie 1995 BKI article (open access on Brill)
+
+**Claude tasks (after readings):**
+- [ ] Read and annotate 15-20 core references (as available online)
+- [ ] Write 1-page summary of each debate (Indianisation, localisation, heritage politics)
 - [ ] Identify which VOLCARCH findings to include (MAX 7, lightly)
 - [ ] Draft annotated bibliography (30-40 references, mostly humanities)
 
-### Phase 3: Skeleton Draft (May 2026)
-- [ ] Write section-by-section skeleton (~500 words/section)
-- [ ] Mark "HUMAN VOICE" zones — sections that MUST be rewritten by Pak Amien
-- [ ] Internal review: does it read like a humanities essay or a methods paper?
+### Phase 3: Full Skeleton Draft (May 2026)
+- [ ] Expand skeleton v0.2 to ~500-800 words per section
+- [ ] Review: does it read like a humanities essay or a methods paper?
+- [ ] Pak Amien writes first attempt at Introduction (Section 1)
 
 ### Phase 4: Full Draft (June-July 2026)
 - [ ] Expand skeleton to ~10,000 words
@@ -139,11 +153,13 @@ Lombard (1990) described Java as a *carrefour* — a crossroads of three cultura
 - [ ] Cross-check: every section engages with at least 2 BKI-tradition scholars
 
 ### Phase 5: Polish (August 2026)
-- [ ] BKI formatting (Palatino, double-spaced, (Author Year:page) citations)
-- [ ] Abstract ≤150 words (human-written)
+- [ ] BKI formatting (Palatino for diacritics, double-spaced, (Author Year:page) citations)
+- [ ] Abstract ~200 words + 2-6 keywords (human-written)
+- [ ] British English check throughout (honour, realise, organise, -ise endings except organize)
+- [ ] No abbreviations (write out "for example," "that is," never e.g./i.e.)
 - [ ] Informal review by humanities colleague (if available)
 - [ ] AI prose audit (more stringent than usual — humanities audience)
-- [ ] Anonymize for double-blind review
+- [ ] Anonymise for double-anonymous review
 
 ### Phase 6: Submit (September 2026)
 - [ ] Register at Editorial Manager

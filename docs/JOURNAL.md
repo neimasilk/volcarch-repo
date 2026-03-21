@@ -51,6 +51,30 @@
 - **Target:** September 2026 (6 months after P5 rejection). Requires Pak Amien deep reading + human writing.
 - **Strategic note:** Engaging with Bloembergen & Eickhoff 2020 is both intellectually necessary AND strategically important (she's BKI editor). NOT flattery — genuine engagement with heritage politics framework.
 
+### P19 Phase 2 Progress — BKI Style Study
+- **BKI Author Instructions extracted** (from Brill PDF, last revised 2013-11-11):
+  - Word limit: 12,000 including notes + bibliography
+  - Citation: author-date in text (Wolters 1999:45-6), footnotes for substantive discussion
+  - Abstract: ~200 words + 2-6 keywords
+  - Language: British English (honour, realise, organise)
+  - Headings: numbered (1, 1.1, 1.1.2) — no § symbol
+  - No abbreviations (write out "for example," not "e.g.")
+  - Submission via Editorial Manager (editorialmanager.com/bki)
+  - Editor-in-chief: Dr. Freek Colombijn (VU Amsterdam)
+  - Book reviews editor: Dr. Marieke Bloembergen (KITLV) — she handles reviews, not article submissions
+  - APC: waived by KITLV — Diamond OA confirmed
+- **Griffiths, Sastrawan & Bastiawan (2024) analysed** — "Restoring a Javanese Inscription" (BKI 180:133-211, 80 pages):
+  - Opening strategy: narrative hook (vivid historical scene, 928 CE ceremony), not literature review
+  - Citation: author-date in text + extensive substantive footnotes
+  - Tone: scholarly but accessible, narrative-driven, colonial provenance as detective story
+  - Heritage/repatriation angle adds contemporary relevance
+  - Section structure: numbered (1 Introduction, 2 Provenance, 3 History of Research, etc.)
+  - Keywords: lowercase, separated by en dashes
+- **Bloembergen (2011) confirmed** — "Conserving the past" (BKI 167:405-436): heritage politics through power transitions, anchored in specific sites (Prambanan)
+- **Skeleton v0.1 → v0.2:** BKI-conformant headings, British English, ~200-word abstract, experiment labels removed, Michelson-Morley replaced with humanities framing, opening strategy revised
+- **BKI style guide compiled:** `papers/P19_before_the_inscriptions/notes/bki_style_guide.md`
+- **Key editorial insight:** BKI explicitly rejects "articles requiring significant technical knowledge." VOLCARCH evidence must be presented NARRATIVELY.
+
 ---
 
 ## 2026-03-20 | MUDIK SESSION 3 — E116 Testable Predictions + Autonomous Mode
