@@ -1,8 +1,8 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-20 (mudik session 3: E116-E119, falsifiability package, auto-sync checker, Michelson-Morley framing, 120 experiments)
-**MODE: MUDIK LEBARAN (sampai 2026-03-30).** No major decisions. Light work only. Laptop lambat (no GPU). Strategic decisions resume post-Lebaran.
+**Last updated:** 2026-03-21 (post-mudik session 1: structural critique, E119 figure rendered, P1 cover letter finalized, JCAA APC partial verification)
+**MODE: POST-MUDIK — CONSOLIDATION.** Priority: get P1 accepted at EGQSJ. Moratorium on new experiments.
 
 ---
 
@@ -43,7 +43,7 @@
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
 - **E076 v2 satellite** — Script written, needs internet + compute (~30 min, post-mudik)
 - **Colonial data verification** — 10 E070 entries on Delpher.nl (user manual task)
-- **JCAA APC** — P2 submitted to JCAA which charges £300-450. Verify if waiver was applied.
+- **JCAA APC** — P2 submitted to JCAA which charges **£450**. CAA waiver fund exists (for members without institutional funding). **UNRESOLVED:** check if waiver was applied to submission #280. If not, apply immediately or join CAA International (~€30-50/yr) then apply. Contact: journal@caa-international.org
 
 ## PAPERS UNDER REVIEW (WAIT)
 
@@ -94,6 +94,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Post-Mudik Session 1 (2026-03-21)** — Structural critique (7 sections: fatal/structural risks, over-complexity, weak assumptions, collaboration architecture, testing framework, critique selection). E119 synthesis figure rendered (matplotlib PNG+PDF). P1 EGQSJ cover letter finalized with checklist + suggested reviewers. JCAA APC verified: £450, CAA waiver fund available (check if applied). Doc sync: PASS.
 - **Mudik Session 3 (2026-03-20)** — Autonomous mode. 5 new experiments: E116 testable predictions (GPR → [0,6] finds, P(zero)=7%), E117 detection horizon (surface survey ~1900 CE only), E118 information gain (3.5×, 29% entropy), E119 synthesis figure (data for matplotlib). Auto-sync checker (`tools/check_doc_sync.py`). Falsifiability revision ammo package. README refreshed with current results. TRIGGER_MAP updated (rejection pattern). Michelson-Morley framing: value = method + predictions, both outcomes are contributions. Failed experiment rescue analysis (E024→E083, E039→E103 already done). 120 experiments total.
 - **Mudik Session 2 (2026-03-20)** — E115 cascade sensitivity analysis: ROBUST (92% of 100K MC runs within 10× of observed, correlation-robust). Hard structural critique: 3 fatal risks (A1-A3), 4 structural risks (B1-B4). L1 §9 kill criteria REWRITTEN (old criteria obsolete). Pre-mortem analysis: 6 counter-arguments classified. Rejection pattern analysis: specialist journal = 100% survival rate. P1 EGQSJ AI prose audit: CLEAN. Document sync: experiment counts fixed to 116 across L1/L2/L3/EVAL/EXPERIMENT_INDEX. D1/D2 affiliations corrected.
 - **Mudik Session 1 (2026-03-20)** — P1 EGQSJ: ORCID + GitHub URL + 5 reference DOIs fixed (fully ready). Structural critique: B1-B4 risks classified. Diamond OA journal targets verified for all papers. AI Prose Guide created. P11 v0.3 AI markers fixed. Blind spot research: Dong Son drums (I-110), Philippines comparandum (I-111), metallurgy (I-112). Docs synchronized (L2, L3, drafts/README, IDEA_REGISTRY). JOURNAL updated.

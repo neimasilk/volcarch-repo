@@ -4,6 +4,45 @@
 
 ---
 
+## 2026-03-21 | POST-MUDIK SESSION 1 — Structural Critique + E119 Render + P1 Cover Letter
+
+**Type:** REVIEW / RENDER / SUBMISSION PREP
+**Status:** PARTIAL (interrupted, to resume)
+
+### Structural Critique Delivered
+- 7-section critical review of entire VOLCARCH architecture
+- **3 Fatal Risks:** (A1) 0% acceptance rate with 120 experiments = inverted conversion ratio; (A2) AI prose flagging is existential — "fix markers" insufficient, need full human rewrite; (A3) fieldwork dependency = single point of failure
+- **4 Structural Risks:** (B1) 18 paper IDs for 1-2 people = scattershot; (B2) independence of evidence overstated — 2 genuinely independent datasets, not 4; (B3) cascade model is descriptive not predictive; (B4) kill criteria shifted when approached (E005 failure reframed, new criteria harder to trigger)
+- **Over-complexity:** 15+ coordination documents, 6 layers × 11 channels × 5 factors = Borges 1:1 map territory
+- **Weak assumptions:** N=6 rejection pattern overfit, 3220× gap uses uncertain carrying capacity, Buni/Batujaya is "supporting evidence" not "smoking gun"
+- **Collaboration architecture:** Claude writes / human approves is backwards for publishing. Speed creates illusion of progress. No external feedback loop.
+- **Recommendation:** ONE paper accepted > 50 more experiments. Lock kill criteria. Moratorium on new experiments. Human rewrite of all papers.
+- **Critique selection mechanism:** act on threats to acceptance (AI prose, targeting), evaluate threats to thesis carefully, deprioritize internal organization
+
+### E119 Synthesis Figure Rendered
+- matplotlib publication-quality: PNG (300 DPI) + PDF (vector)
+- Shows burial depth diagonal × detection horizons × known archaeological sites by type
+- Key visual: pre-400 CE open-air sites in invisible zone, all known sites are caves/coastal/non-volcanic
+- File: `experiments/E119_synthesis_figure/render_figure.py` → `results/e119_synthesis_figure.png|pdf`
+- Uncertainty band added (2.4–6.2 mm/yr sedimentation rate range)
+
+### P1 EGQSJ Cover Letter Finalized
+- File: `papers/P1_taphonomic_framework/cover_letter_egqsj.md`
+- Includes copy-paste text for Copernicus editor, submission checklist, 3 suggested reviewers (Lavigne, Barker, Holmberg)
+- Ready for submission at editor.copernicus.org
+
+### JCAA APC Verification (PARTIAL)
+- JCAA charges **£450 APC** (not £300 as previously estimated)
+- **CAA waiver fund** exists: for CAA International members without institutional funding, full or partial waiver available
+- **UNRESOLVED:** Was waiver applied to P2 submission #280? Need to check submission confirmation email or JCAA editorial system
+- Contact: journal@caa-international.org
+- **ACTION REQUIRED:** If waiver NOT applied, apply immediately or join CAA International (membership ~€30-50/yr) then apply
+
+### Doc Sync Check
+- `python tools/check_doc_sync.py` → PASS, all 6 docs agree on 120 experiments
+
+---
+
 ## 2026-03-20 | MUDIK SESSION 3 — E116 Testable Predictions + Autonomous Mode
 
 **Type:** EXPERIMENT / AUTONOMOUS
