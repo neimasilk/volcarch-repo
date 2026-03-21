@@ -5,6 +5,7 @@
 **Format:** BKI house style (see `notes/bki_style_guide.md`)
 **Voice note:** Sections marked [HUMAN VOICE] must be written/rewritten by Pak Amien.
 **Changes from v0.1:** BKI-conformant headings (numbered, no §), abstract expanded to ~200 words, experiment labels removed, Michelson-Morley analogy replaced with humanities framing, opening strategy revised per Griffiths (2024) model.
+**Changes v0.2a (2026-03-21):** Integrated blind spot findings: Sulawesi cave art (67,800 BP), Tuban nekara (~300 BCE in volcanic East Java), Liangan as VOLCARCH validation case, Java megaliths engagement, Cerén comparison.
 
 ---
 
@@ -69,7 +70,9 @@ These two processes are not independent. The colonial and postcolonial periodisa
 
 We do not claim to have found the missing layer. We do not claim that pre-Hindu Java was a "lost civilisation" of any particular sophistication. We claim something more modest and more defensible: that the absence of evidence has been mistaken for evidence of absence, and that this mistake has structural causes that can be identified and, in principle, corrected.
 
-*[Footnote here: acknowledge the slogan "absence of evidence is not evidence of absence" and note that in this case the claim is stronger — the absence is PREDICTED by known geological processes.]*
+It is worth noting what is NOT missing. Java's megalithic traditions — menhirs, dolmens, punden berundak (stepped terraces) — are visible, pre-Hindu, and made of stone. They survive because stone resists volcanic sedimentation. What is missing is not all pre-Hindu culture, but specifically the organic, lowland, settlement-scale material culture — the houses, fields, markets, and workshops — that volcanic sedimentation buries and tropical decay destroys.
+
+*[Footnote here: Java's megaliths (for example Gunung Padang, Cipari, the Bondowoso dolmens) demonstrate pre-Hindu organisational capacity. The "missing" layer is the complement: the daily-life infrastructure that megaliths alone do not represent. On megaliths see Simanjuntak (2015), Yondri (in Archaeology Magazine, 2024).]*
 
 ---
 
@@ -123,7 +126,9 @@ Tell the story of the Dwarapala of Singosari: half-buried when rediscovered in 1
 
 These are not exceptional events. They are the normal condition of volcanic Java. At measured rates of 2 to 6 millimetres per year, any archaeological deposit from before the fourth century of the common era now lies at depths of 6 to 10 metres — below the reach of surface survey, standard excavation, and most geophysical methods.
 
-*[Footnote: cite Newhall et al. 2000 on Sambisari/Kedulan stratigraphy; Verbeek 1891 on Dwarapala.]*
+The most dramatic demonstration is Liangan, discovered in 2008 during sand mining on the slopes of Mount Sindoro in Central Java. Beneath metres of volcanic debris lay a complete Mataram-era settlement — not just a temple, but wooden houses, roads, water management systems, metalworking evidence, and plant remains, all sealed and preserved by volcanic burial. Liangan is Java's Pompeii, and it was found by accident. For every Liangan discovered by chance, there may be dozens — or hundreds — still buried.
+
+*[Footnote: On Liangan see Abbas (ed.) 2016; on Sambisari and Kedulan see Newhall et al. 2000; on the Dwarapala see Verbeek 1891. Liangan is Hindu-period (8th-10th century), not pre-Hindu. But it demonstrates the mechanism: volcanic burial can preserve entire settlements, including organic material, and accidental discovery during construction is the primary discovery pathway.]*
 
 ### 3.2 The Inscription Bias
 
@@ -221,6 +226,14 @@ The Javanese agricultural calendar (Pranata Mangsa) divides the year into season
 
 *[Footnote: Daldjoeni (1984) on Pranata Mangsa; compare with Fox (2006) on Austronesian "calendrical knowledge" as a category of environmental expertise.]*
 
+### 6.3 Bronze Before the Temples
+
+A bronze drum (nekara) of the Dong Son tradition, classified Heger Type II and dated to approximately 300 BCE, was found in Tuban Regency, East Java. The drum — now in Museum Mpu Tantular, Surabaya — contained a bronze elephant statue, indicating ceremonial use. Tuban lies within the volcanic zone, roughly eighty kilometres from Kelud.
+
+This is direct evidence of pre-Hindu material culture in volcanic East Java. Bronze drums survive because metal resists the processes that destroy organic material. The settlements that produced, traded, and used this drum did not survive — they were made of materials that volcanic sedimentation buries and tropical decay destroys. The drum is the negative imprint of a vanished world: it tells us that the world existed, even as the world itself is gone.
+
+*[Footnote: On the Tuban nekara, see Museum Mpu Tantular catalog; on Dong Son drums in Indonesia see Bernet Kempers 1988. The Dong Son exchange network (approximately 600 BCE to 200 CE) connected Vietnam, mainland Southeast Asia, and the Indonesian archipelago. Java's participation demonstrates pre-Hindu inter-regional trade networks.]*
+
 ---
 
 ## 7 The Politics of the Invisible (~2,000 words) [HUMAN VOICE]
@@ -236,6 +249,8 @@ If the foundational layer of Javanese civilisation lies underground — buried b
 ### 7.2 National Identity
 
 Indonesian school textbooks teach that Indonesian "history" begins with the Hindu-Buddhist kingdoms — Kutai, Tarumanagara, Sriwijaya. The implication is that "civilisation" arrived from outside — from India. The pre-Hindu period is *prasejarah* — literally, before history.
+
+The absurdity of this label is thrown into relief by a discovery in a different part of the archipelago. In the karst caves of Maros-Pangkep, South Sulawesi, archaeologists have found the oldest figurative art in the world: a narrative hunting scene dated to at least 51,200 years before the present, and hand stencils dated to at least 67,800 years ago. The world's oldest known art is Indonesian. These paintings survive because Sulawesi's karst geology preserves what Java's volcanic geology destroys. To call the culture that produced them "pre-historic" is to reveal the word's emptiness.
 
 But this periodisation is an artefact of what survived the taphonomic filter. Kutai's Yupa pillars were carved in stone in volcanic-free Kalimantan — they survived because there was nothing to bury them. If equivalent inscriptions existed in volcanic Java, they would now lie under 7 to 10 metres of sediment. The "oldest kingdom" is the most visible one, not necessarily the oldest one.
 

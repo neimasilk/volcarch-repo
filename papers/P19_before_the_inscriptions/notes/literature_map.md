@@ -87,6 +87,12 @@
 | 28 | van Bemmelen (1949) *The Geology of Indonesia* | Java's volcanic geography |
 | 29 | Hendrajaya et al. (2020) on slametan intervals | Primary ethnographic source for Section 5 |
 | 30 | Aizid (2015) on slametan pre-Hindu origin | Supporting source |
+| 31 | **Aubert, M. et al.** (2024) "Narrative cave art in Indonesia by 51,200 years ago." *Nature* 635: 53-59. | World's oldest narrative art — Sulawesi, Indonesia. Section 7. |
+| 32 | **Brumm, A. et al.** (2025) "Rock art from at least 67,800 years ago in Sulawesi." *Nature*. | Oldest cave art in the world — hand stencils, Maros-Pangkep. Section 7. |
+| 33 | **Abbas, Novida** (ed.) (2016) *Liangan: Mozaik Peradaban Mataram Kuno di Lereng Sindoro.* Yogyakarta: Kepel Press. | "Java's Pompeii" — complete buried settlement, organic preservation. Section 3. |
+| 34 | **Bernet Kempers, A.J.** (1988) *The Kettledrums of Southeast Asia.* Rotterdam: Balkema. | Dong Son drum catalog — Java findspots including Tuban (East Java). Section 6. |
+| 35 | **Sheets, Payson** (2002) *Before the Volcano Erupted: The Ancient Cerén Village in Central America.* UT Press. | Cerén — closest analog to VOLCARCH's prediction. Section 3 footnote. |
+| 36 | **Simanjuntak, H.T.** (2015) various on megalithic traditions in Java/Indonesia | Pre-Hindu stone constructions — what IS visible. Section 1. |
 
 ---
 

@@ -23,7 +23,7 @@ This is THE comprehensive catalog. Bernet Kempers documented **~200 Dong Son-typ
 - **Java:** Multiple finds, concentrated in:
   - **Pejeng drum** (Bali, actually) — the "Moon of Pejeng," largest known (186.5 cm diameter), possibly locally cast. In Pura Penataran Sasih temple.
   - **West Java / Banten coast:** Several finds (non-volcanic zone — consistent with Buni Complex maritime network)
-  - **East Java:** Finds documented but details need verification from Bernet Kempers
+  - **East Java:** **CONFIRMED — Nekara from Tuban Regency** (Museum Mpu Tantular, Surabaya, catalog entry 1907, acquired 1979-06-20). Classified Heger Type II, ~300 BCE. Found WITH bronze elephant statue INSIDE the drum. Designated Cultural Heritage of East Java Province in 2021. Tuban = volcanic zone (Kelud ~80 km, Arjuno-Welirang ~100 km). **THIS IS DIRECT EVIDENCE OF PRE-HINDU MATERIAL CULTURE IN VOLCANIC EAST JAVA.**
   - **Central Java:** At least several documented finds
 
 - **Sumatra:** Multiple finds, including Lampung and highlands

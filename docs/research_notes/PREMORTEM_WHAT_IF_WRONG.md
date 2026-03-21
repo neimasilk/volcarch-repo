@@ -22,9 +22,12 @@
 - If NOT found after systematic subsurface survey → the counter-argument wins
 - The West Java smoking gun (Buni/Batujaya) partially addresses this — people DID live on Java pre-400 CE — but those are COASTAL sites, not volcanic interior
 
-**Current evidence weight:** 60/40 in VOLCARCH's favor. Buni Complex proves pre-Hindu Javanese society existed. But the specific claim about INTERIOR occupation is still hypothesis.
+**Current evidence weight:** 70/30 in VOLCARCH's favour (upgraded 2026-03-21). Three lines of evidence now exist:
+1. **Buni Complex** (West Java coast) — proves pre-Hindu Javanese society existed on Java
+2. **Tuban nekara** (East Java) — Heger Type II bronze drum (~300 BCE) found in volcanic East Java (Museum Mpu Tantular, Surabaya). Bronze elephant statue inside. Pre-Hindu material culture IN the volcanic zone.
+3. **Bondowoso megaliths** (East Java) — dolmens and sarcophagi in volcanic region, pre-Hindu stone constructions
 
-**Honest assessment:** We cannot distinguish between "buried" and "never there" without digging. This is the fundamental limitation.
+**Honest assessment:** We cannot distinguish between "buried" and "never there" without digging. But the Tuban nekara significantly weakens Counter 1 — at least SOME pre-Hindu communities were present in volcanic East Java, as evidenced by their participation in the Dong Son bronze exchange network (~300 BCE).
 
 ---
 
