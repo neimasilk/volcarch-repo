@@ -107,6 +107,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Post-Mudik Session 6 (2026-03-22)** — Sustainability deliverables: YouTube Ep1 script (15 min, Bahasa Indonesia), NatGeo Explorer Grant outline ($20K GPR/ERT pilot), DRPM Penelitian Dasar skeleton (Rp 500M/3yr). All pushed to GitHub.
 - **Post-Mudik Session 5 (2026-03-22)** — **Strategic pivot: dissemination.** Comparative civilization gap analysis (11 civilizations, 5 patterns, 7 gaps, 5 possibilities). Dissemination roadmap created (`docs/DISSEMINATION_ROADMAP.md`): 4-tier strategy from GitHub/YouTube to funding/documentary. LiDAR contact identified (needs 1-page pitch). Technical: P1 ORCID fixed, P11 +4 refs +Liangan section +Ceren sentence, P17 experiment count fixed +spelling +fig:model removed. All pushed to GitHub.
 - **Post-Mudik Session 4 (2026-03-22)** — Handoff document created (`docs/HANDOFF_20260321_SESSION4.md`). WORKSTATE updated. Continuation prompt delivered to Pak Amien.
 - **Post-Mudik Session 2 (2026-03-21)** — Comprehensive blind spot analysis (8 blind spots, 8 new ideas I-120–I-127). Liangan research note created (I-120: 15+ references, burial depths, organic preservation, Cerén comparison gap). P19 skeleton enriched v0.2a (megaliths, Sulawesi cave art, Liangan, Tuban nekara). PREMORTEM Counter 1 upgraded 70/30. **P11 pre-flight complete:** Wacana NOT viable (thematic, Kawi published), recommend Indonesia (Cornell) or ArchCalc. **P17 pre-flight complete:** strongest paper, recommend ArchCalc, issues flagged (Fig 6 missing, experiment count, double-blind prep). **Strategic discovery:** Wacana Vol 28 "Prehistoric art in Indonesia" (April 2027) = P19 fallback if BKI fails.
@@ -164,6 +165,8 @@ PRIORITIES (post-mudik):
 **Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md` (5 rules), `docs/AI_PROSE_GUIDE.md` (checklist).
 **Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` — the GTD-style doc. Revisit weekly.
 **Read for sustainability:** `docs/SUSTAINABILITY_ROADMAP.md` — 6 income streams, AK projection, "keep it alive" system. Revisit monthly.
+**Funding documents ready:** `docs/funding/natgeo_explorer_outline.md` (apply after P1 accepted), `docs/funding/drpm_penelitian_dasar_skeleton.md` (submit Jan-Feb 2027).
+**YouTube script ready:** `docs/dissemination/youtube_ep1_script.md` — "Kenapa Sejarah Indonesia Dimulai dari 400 Masehi?" Production-ready.
 
 ## DO NOT WORK ON
 
