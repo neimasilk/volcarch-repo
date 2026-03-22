@@ -29,21 +29,30 @@
 - **Indexing:** Scopus + WoS ESCI
 - **Note:** Must communicate to broad DH readership, not just specialists
 
-## Wacana (Universitas Indonesia) — P5, P9, P11, P17
+## Wacana (Universitas Indonesia) — P19 (fallback)
 - **Format:** MS Word 2003+ (plus PDF). NO LaTeX.
 - **Word limit:** 20-40 A4 pages (excl. abstract/refs)
 - **Abstract:** Max 150 words
-- **Citation style:** Modified Chicago — (Author Year: page) in text, full bibliography
+- **Citation style:** House style (NOT standard Chicago) — `(Author Year: page)` in text, full bibliography. No Latin abbreviations (ibid, op cit). Repeat author+date each time.
 - **Font:** Book Antiqua 11pt, 1.5 spacing
 - **Language:** English only (British spelling, -ize variant, Oxford standards)
+- **No abbreviations:** Write out "for example" not "e.g.", etc.
 - **APC:** Diamond OA (zero cost), CC BY-NC 4.0
 - **Indexing:** Scopus Q2, SINTA S1, DOAJ
 - **Frequency:** 2 thematic issues/year
 - **Scope:** literature, linguistics, archaeology, history, philosophy, religion, art, interdisciplinary
-- **Submit via:** scholarhub.ui.ac.id/wacana/ (online) or email
+- **Submit via:** scholarhub.ui.ac.id/wacana/ (online) or email (wacana@ui.ac.id)
+- **Review:** Double anonymous, ~21 weeks submission→publication
 - **Special:** Author bio required (affiliation, interests, 2 publications). High-res figures 300+ dpi.
-- **Note:** Current issue (Vol 26 No 3, 2025) themed "Kawi culture" — directly relevant to VOLCARCH!
-- **Action:** Papers need LaTeX→Word conversion before submission
+- **Editor-in-chief:** Lilie M. Roosman. English editor: Rosemary Robson-MacKillop.
+- **Style guide:** https://scholarhub.ui.ac.id/wacana/styleguide.html
+- **CRITICAL: Wacana is THEMATIC** — all submissions must target a specific upcoming issue.
+- ~~"Kawi culture" (Vol 26 No 3, 2025) — ALREADY PUBLISHED, not an open CFP~~
+- **Open issues relevant to VOLCARCH:**
+  - Vol 28 Nos 1-2 (April 2027): **"Prehistoric art in Indonesia and related regions"** — OPEN. Best for P19 fallback.
+  - Vol 28 No 3 (October 2027): "Muarajambi; Society and civilization in Sumatra, 7th-13th centuries" — less relevant
+  - Vol 29 No 3 (October 2028): "Contemporary relevance of traditional Javanese literature" — possible for P9
+- **Action:** Papers need LaTeX→Word conversion. Must indicate target issue in submission.
 
 ## Indonesia (Cornell SEAP) — P11
 - **Format:** MS Word, double-spaced

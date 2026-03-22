@@ -91,11 +91,11 @@ P7 (short gallery format) survived. Shorter papers have less surface area for cr
 | Paper | Target | Rule Match? | Prediction |
 |---|---|---|---|
 | P1 | EGQSJ | R1 ✓ | LIKELY SURVIVE desk review (Quaternary science = methods) |
-| P11 | Wacana | R2 needed | MODERATE risk — needs strong "Kawi culture" framing |
+| P11 | Indonesia (Cornell) or ArchCalc | R1 ✓ | ~~Wacana~~ NOT viable (thematic, Kawi published). Indonesia easy path; ArchCalc fits but overlaps P17. |
 | P17 | ArchCalc | R1 ✓ | LIKELY SURVIVE (computational archaeology) |
 | P5 | ArchCalc/JPA | R1 ✓ | LIKELY SURVIVE if computational framing maintained |
 | P16 | DHQ | R1 ✓ | LIKELY SURVIVE (digital humanities) |
-| P9 | DHQ/Wacana | R1-R2 | MODERATE — needs reframing if humanities journal |
+| P9 | DHQ | R1 ✓ | ~~Wacana~~ NOT viable (thematic). DHQ is best fit for computational linguistic analysis. |
 
 ---
 

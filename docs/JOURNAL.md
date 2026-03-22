@@ -4,10 +4,106 @@
 
 ---
 
+## 2026-03-22 | POST-MUDIK SESSION 5 — Comparative Civilization Gap + Dissemination Pivot
+
+**Type:** DISCUSSION / STRATEGY / TECHNICAL
+**Status:** COMPLETE
+
+### Comparative Civilization Discussion
+Deep analysis of why Indonesian civilization appears to start at ~400 CE. Compared with 11 "lost" civilizations (Mesopotamia, Harappa, Minoan, Hittite, Gobekli Tepe, Catalhoyuk, Pompeii, Troy, Angkor, Great Zimbabwe, Amazon). Identified 5 recurring patterns in civilization rediscovery. Found 7 critical research gaps no one is addressing. Established 5-possibility framework (A-E) for the Indonesian gap. Key insight: Java has WORST possible combination for preservation (wood + tropical wet + active volcanism + low survey intensity).
+
+### Strategic Pivot: Dissemination
+Identified that VOLCARCH's bottleneck shifted from science to visibility. Created comprehensive `docs/DISSEMINATION_ROADMAP.md` with 4-tier strategy:
+- Tier 1 (immediate): GitHub public, Zenodo preprints, LiDAR pitch, P1 submit
+- Tier 2 (May-Jul): YouTube "Peradaban Tersembunyi" series, Twitter threads, interactive map
+- Tier 3 (Aug-Dec): Conference talks (IPPA/CAA/PIA), media outreach, collaboration proposals
+- Tier 4 (2027+): Funding apps (Wenner-Gren, NatGeo, Toyota Found.), documentary, rescue archaeology advocacy
+- Unconventional: prediction registry, construction company data MoU, low-cost coring ($6K for 20 cores)
+
+**Key opportunity:** Pak Amien has LiDAR contact at a company. Needs compelling 1-page pitch. Amazon LiDAR precedent (2024 Nature) is the key reference.
+
+### Technical Fixes
+1. **P1 EGQSJ:** Fixed Pak Amien's ORCID in author line (was email, now 0000-0002-1848-167X). All ready.
+2. **P11 v0.3:** +DHARMA citation, +Liangan validation section, +Ceren comparative sentence, +4 references (Abbas, DHARMA, Schiffer, Sheets). 10->14 refs. GitHub URL standardized.
+3. **P17 v0.2:** Experiment count 107->120, dangling fig:model removed, spelling standardized (Indianised->Indianized, Sanskritised->Sanskritized, Javanisation->Javanization). GitHub URL added.
+4. **JCAA APC:** Guidance provided for P2 waiver check.
+
+All changes committed and pushed to GitHub.
+
+---
+
+## 2026-03-22 | POST-MUDIK SESSION 4 — Handoff & Documentation
+
+**Type:** DOCUMENTATION
+**Status:** COMPLETE
+
+Session continuity after context compaction. Created handoff document (`docs/HANDOFF_20260321_SESSION4.md`) documenting all Session 2 work: P11/P17 pre-flights, Wacana thematic discovery, Liangan research note, phytolith literature review, Cerén comparison. Updated WORKSTATE with session completion. Delivered continuation prompt.
+
+---
+
+## 2026-03-21 | POST-MUDIK SESSION 2 — Blind Spots, Pre-Flights, Phytolith Discovery
+
+**Type:** REVIEW / RESEARCH / STRATEGY
+**Status:** COMPLETE
+
+### Phytolith Literature Review (I-125) — TRANSFORMATIVE FINDING
+- Literature research on phytolith survival in volcanic sediment: **STRONGLY POSITIVE**
+- Phytoliths survive **90,000 years** in volcanic tephra (Aso, Japan — Miyabuchi & Sugiyama 2011, 2015)
+- Phytoliths survive under **74,000-year-old** Toba super-eruption ash (Petraglia et al. 2012)
+- Javanese andisol pH (5-7 when weathered) = **excellent preservation range**. Fresh tephra pH (8.5-8.9) is BELOW critical dissolution threshold (pH > 9)
+- Rice phytoliths are diagnostic: double-peaked glume cells (husk) + bulliform fish-scale decorations (leaf) can distinguish wild from domesticated rice (Zhao 1998, Zhang 2019)
+- **NO ONE has systematically looked for pre-Hindu phytoliths in Javanese volcanic deposits** — clear exploitable gap
+- Potential collaboration: Cristina Castillo (UCL, worked on Liangan rice), PVMBG (volcanic cores), Zhenhua Deng (rice phytoliths in Indonesia)
+- I-125 upgraded from HYPOTHESIS → **TESTABLE**
+- File: `docs/research_notes/PHYTOLITH_VOLCANIC_PRESERVATION.md`
+- [BRIDGE → P20?, I-125]
+
+### Wacana Thematic Discovery — Strategic Impact
+- **Wacana (UI) is thematic** — all submissions must target a specific upcoming issue
+- "Kawi culture" issue (Vol 26 No 3, 2025) is ALREADY PUBLISHED — NOT an open CFP
+- **Open issue for VOLCARCH:** Vol 28 Nos 1-2 (April 2027) = "Prehistoric art in Indonesia and related regions" — P19 fallback if BKI fails. Deadline likely ~October 2026.
+- P11, P16 CANNOT target Wacana without a suitable thematic issue
+- JOURNAL_SUBMISSION_GUIDES updated with correct Wacana info + upcoming issues
+
+### Cerén Comparison Research Note (I-124)
+- Comprehensive comparison: Joya de Cerén (El Salvador) as volcanic preservation analog for Java
+- Key data: ~AD 600, Loma Caldera, phreatomagmatic, 5-7m depth, ~200 people, Maya farming village
+- Preserved: thatch, wood, food in pots, sleeping mats, manioc fields, woven items, footprints
+- Evacuated (like Liangan) — no mass death
+- **NO formal Cerén-Java comparison in published literature** — publication opportunity
+- Key difference: Cerén = single catastrophic event (cool ash), Java = cumulative burial (hot PDCs + lahars)
+- Key similarity: both prove organic preservation under volcanic burial in tropical climates
+- File: `docs/research_notes/CEREN_COMPARISON.md`
+
+### AI Prose Audit — P11 and P17
+- Both papers scanned against `docs/AI_PROSE_GUIDE.md` markers
+- P11: PASS — zero flags
+- P17: PASS — zero flags (one "robust" in legitimate statistical context)
+
+### P17 Cross-Reference Check
+- Confirmed: `\ref{fig:model}` on line 314 has NO matching `\label{fig:model}` — dangling reference
+- All other 6 cross-references match correctly
+- Must create Figure 6 or remove reference before submission
+
+### Summary of All Work This Session
+1. ✅ Comprehensive blind spot analysis (8 blind spots, I-120 to I-127)
+2. ✅ P19 skeleton enriched v0.2a (megaliths, Sulawesi, Liangan, Tuban nekara)
+3. ✅ PREMORTEM Counter 1 upgraded (70/30)
+4. ✅ P11 pre-flight review — Wacana NOT viable, recommend Indonesia (Cornell) or ArchCalc
+5. ✅ P17 pre-flight review — strongest paper, recommend ArchCalc
+6. ✅ Liangan research note (15+ references, validation case)
+7. ✅ Phytolith literature review — STRONGLY POSITIVE, I-125 upgraded
+8. ✅ Cerén comparison research note (I-124) — no formal comparison in literature
+9. ✅ AI prose audit P11 + P17 — both PASS
+10. ✅ P17 cross-reference check — 1 dangling ref confirmed
+11. ✅ All docs updated (WORKSTATE, JOURNAL, IDEA_REGISTRY, TRIGGER_MAP, JOURNAL_SUBMISSION_GUIDES, REJECTION_PATTERN_ANALYSIS)
+
+---
+
 ## 2026-03-21 | POST-MUDIK SESSION 1 — Structural Critique + E119 Render + P1 Cover Letter
 
 **Type:** REVIEW / RENDER / SUBMISSION PREP
-**Status:** PARTIAL (interrupted, to resume)
+**Status:** COMPLETE
 
 ### Structural Critique Delivered
 - 7-section critical review of entire VOLCARCH architecture
@@ -50,6 +146,46 @@
 - **Files:** `papers/P19_before_the_inscriptions/ROADMAP.md`, `notes/literature_map.md`
 - **Target:** September 2026 (6 months after P5 rejection). Requires Pak Amien deep reading + human writing.
 - **Strategic note:** Engaging with Bloembergen & Eickhoff 2020 is both intellectually necessary AND strategically important (she's BKI editor). NOT flattery — genuine engagement with heritage politics framework.
+
+### Comprehensive Blind Spot Analysis
+- **8 blind spots identified** (3 critical, 5 significant):
+  - BS-1: Megaliths of Java — visible pre-Hindu evidence not engaged with
+  - BS-2: Sulawesi cave art 67,800 BP — world's oldest art is Indonesian
+  - BS-3: Liangan "Java's Pompeii" — VOLCARCH validation case unexploited
+  - BS-4: Tuban nekara (~300 BCE) — pre-Hindu bronze in volcanic East Java
+  - BS-5: Rice agriculture chronology — phytolith survival question
+  - BS-6: Comparative volcanic archaeology gaps (Cerén, Iceland)
+  - BS-7: Gender and social organisation — zero analysis
+  - BS-8: Oral tradition as structured data source
+- **8 new idea IDs** (I-120 to I-127) added to IDEA_REGISTRY
+- **P19 skeleton enriched** (v0.2a): megaliths engagement (§1), Liangan (§3), Tuban nekara (§6.3), Sulawesi cave art (§7.2)
+- **PREMORTEM updated**: Counter 1 evidence weight 60/40 → 70/30 (Tuban nekara + Bondowoso megaliths)
+- File: `docs/research_notes/BLIND_SPOT_COMPREHENSIVE_2026_03_21.md`
+
+### P11 Pre-Flight Review — CRITICAL FINDING
+- **Wacana (UI) is NOT viable for P11** — thematic journal, "Kawi culture" issue (Vol 26 No 3, 2025) already published. No open issue fits P11.
+- **STRATEGIC DISCOVERY:** Wacana Vol 28 Nos 1-2 (April 2027) = "Prehistoric art in Indonesia and related regions" — excellent fallback for **P19** if BKI fails. Likely deadline ~October 2026.
+- **Revised P11 targets:** (A) Indonesia (Cornell) — ready to submit, free but not Diamond OA; (B) Archeologia e Calcolatori — Diamond OA, Scopus+WoS, perfect scope, but P17 also targets ArchCalc → overlap risk
+- **Content:** draft strong (4 statistical tests, inscription-candi divergence, Japan comparandum). Issues: thin references (10), DHARMA citation missing, settlement model source uncited.
+- **Recommendation:** P17 → ArchCalc (stronger paper), P11 → Indonesia (Cornell) or J. Pacific Archaeology
+- File: `papers/P11_volcanic_informedness/PREFLIGHT_REVIEW.md`
+
+### Liangan Research Note Created (I-120)
+- Comprehensive research note on Liangan/Liyangan site (Temanggung, Central Java)
+- Key data: buried by Sindoro PDC ~1.1-1.2 ka BP, 6-8m depth, C-14 dates 587-971 AD
+- Organic preservation: carbonised rice (tropical japonica — first in Indonesia, Castillo 2014), maize in bamboo basket, wooden houses, iron metallurgy
+- No published sedimentation rates → gap for E121
+- No formal Cerén comparison in literature → publication opportunity
+- 15+ references compiled from web research
+- File: `docs/research_notes/LIANGAN_VALIDATION_CASE.md`
+
+### P17 Pre-Flight Review
+- Draft v0.2: ~7K words, 5 figures, 30 references, 5 independent analyses → STRONGEST paper in portfolio
+- "Two Javas" is a memorable, citable concept. 929 CE natural experiment is methodologically elegant.
+- Issues: experiment count outdated (107→120), missing Figure 6, self-citations need anonymisation for double-blind, spelling inconsistency, P11 overlap risk with ArchCalc
+- **Recommendation:** P17 → ArchCalc (best fit), P11 → elsewhere to avoid overlap
+- Timeline: ArchCalc deadline Dec 31 2026, comfortable margin
+- File: `papers/P17_two_javas/PREFLIGHT_REVIEW.md`
 
 ### P19 Phase 2 Progress — BKI Style Study
 - **BKI Author Instructions extracted** (from Brill PDF, last revised 2013-11-11):

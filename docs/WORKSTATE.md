@@ -1,8 +1,9 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-21 (post-mudik session 1: structural critique, E119 figure rendered, P1 cover letter finalized, JCAA APC partial verification)
-**MODE: POST-MUDIK — CONSOLIDATION.** Priority: get P1 accepted at EGQSJ. Moratorium on new experiments.
+**Last updated:** 2026-03-22 (post-mudik session 5: dissemination pivot + P1/P11/P17 fixes + comparative civilization analysis)
+**MODE: POST-MUDIK — CONSOLIDATION + DISSEMINATION.** Priority: (1) submit P1 to EGQSJ, (2) aggressive dissemination. Moratorium on new experiments.
+**NEW:** Dissemination roadmap created: `docs/DISSEMINATION_ROADMAP.md`. LiDAR contact opportunity identified.
 
 ---
 
@@ -17,20 +18,23 @@
   - Next: register at editor.copernicus.org → upload → submit
   - Cover letter draft in `docs/HANDOFF_20260318_P1_EGQSJ.md`
   - Revision ammo: 9 files including Philippines comparandum + Dong Son drums (new)
-- **P11 finalization** — v0.3 drafted (18pp), AI markers fixed
-  - Files: `papers/P11_volcanic_informedness/draft_v0.3.tex`, `SUBMISSION_PREP.md`
-  - Target: **Wacana** (UI, Scopus Q2, Diamond OA) — current issue "Kawi culture" is directly relevant
-  - Alternative: Indonesia (Cornell, free but not OA)
-  - Next: User manual review → LaTeX→Word (Book Antiqua 11pt, 1.5sp) → abstract ≤150 words → submit
-  - **If Wacana:** Use modified Chicago citations, British spelling (-ize)
-- **P17 drafting** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Clean.
-  - Files: `papers/P17_two_javas/draft_v0.2.tex`, `p17_references.bib`, `figures/`
+- **P11 finalization** — v0.3 drafted (18pp), AI markers fixed, **PRE-FLIGHT COMPLETE**
+  - Files: `papers/P11_volcanic_informedness/draft_v0.3.tex`, `SUBMISSION_PREP.md`, `PREFLIGHT_REVIEW.md`
+  - ~~Target: Wacana~~ — **WACANA NOT VIABLE** (thematic journal, "Kawi" issue already published, no suitable open issue)
+  - **NEW TARGET:** (A) **Indonesia (Cornell)** — free, accepts general submissions, essentially ready; OR (B) **Archeologia e Calcolatori** — Diamond OA, but risks overlap with P17
+  - **RECOMMENDATION: Indonesia (Cornell)** — send P17 to ArchCalc instead (stronger paper, better fit)
+  - Next: Pak Amien decides target → format conversion if needed → submit
+  - Content issues: add DHARMA citation, consider adding 3-4 references, add Liangan sentence in Discussion
+- **P17 drafting** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Clean. **PRE-FLIGHT COMPLETE**
+  - Files: `papers/P17_two_javas/draft_v0.2.tex`, `p17_references.bib`, `figures/`, `PREFLIGHT_REVIEW.md`
   - Target: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) — deadline Dec 31
-  - Next: User review → check ArchCalc format requirements → submit ~May 2026
+  - **STRONGEST paper in portfolio.** "Two Javas" is a memorable, citable concept.
+  - Issues: experiment count outdated (107→120), missing Fig 6, self-citations need anonymising for double-blind, spelling consistency
+  - Next: **Download ArchCalc editorial rules** (blocking) → User review → format conversion → submit ~September 2026
 - **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Clean.
   - Files: `papers/P16_computational_textual_archaeology/draft_v0.1.tex`, `p16_references.bib`, `figures/`
   - Target: **DHQ** (ADHO, Diamond OA, Scopus+WoS) — rolling deadlines (Apr 15, Jul 15)
-  - Alternative: **Wacana** (if Kawi theme CFP open)
+  - ~~Alternative: Wacana (if Kawi theme open)~~ — Kawi issue already published
   - Next: User review → convert to Word/RTF → submit ~June 2026
 - **P18 drafting (HOLD)** — Draft v0.1 (16pp, 6 figures, 15 refs). Clean.
   - Files: `papers/P18_invisible_civilization/draft_v0.1.tex`, `p18_references.bib`, `figures/`
@@ -43,9 +47,10 @@
   - Argument: Lombard's 3 layers have a 4th (pre-Indic Austronesian), invisible due to taphonomic + historiographic processes
   - Engages: Wolters (localization), Lombard (layers), Bloembergen & Eickhoff (heritage politics), Sears (colonial construction)
   - Uses VOLCARCH findings as LIGHT evidence, not main contribution
-  - **Phase 1 complete:** outline + literature map + roadmap
+  - **Phase 2 in progress:** BKI style study complete, skeleton v0.2a enriched with megaliths/Sulawesi/Liangan/Tuban
   - **Next:** Deep reading (Lombard Vol.3, Bloembergen 2020, Wolters 1999). Pak Amien reads, not Claude.
-  - Target submission: ~September 2026
+  - Target submission: ~September 2026 (BKI primary)
+  - **FALLBACK:** Wacana Vol 28 Nos 1-2 (April 2027) = "Prehistoric art in Indonesia and related regions" — OPEN. Deadline likely ~October 2026.
   - Files: `papers/P19_before_the_inscriptions/`
 - **P9 retargeting (HOLD)** — Rejected from JSEAS.
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
@@ -102,6 +107,9 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Post-Mudik Session 5 (2026-03-22)** — **Strategic pivot: dissemination.** Comparative civilization gap analysis (11 civilizations, 5 patterns, 7 gaps, 5 possibilities). Dissemination roadmap created (`docs/DISSEMINATION_ROADMAP.md`): 4-tier strategy from GitHub/YouTube to funding/documentary. LiDAR contact identified (needs 1-page pitch). Technical: P1 ORCID fixed, P11 +4 refs +Liangan section +Ceren sentence, P17 experiment count fixed +spelling +fig:model removed. All pushed to GitHub.
+- **Post-Mudik Session 4 (2026-03-22)** — Handoff document created (`docs/HANDOFF_20260321_SESSION4.md`). WORKSTATE updated. Continuation prompt delivered to Pak Amien.
+- **Post-Mudik Session 2 (2026-03-21)** — Comprehensive blind spot analysis (8 blind spots, 8 new ideas I-120–I-127). Liangan research note created (I-120: 15+ references, burial depths, organic preservation, Cerén comparison gap). P19 skeleton enriched v0.2a (megaliths, Sulawesi cave art, Liangan, Tuban nekara). PREMORTEM Counter 1 upgraded 70/30. **P11 pre-flight complete:** Wacana NOT viable (thematic, Kawi published), recommend Indonesia (Cornell) or ArchCalc. **P17 pre-flight complete:** strongest paper, recommend ArchCalc, issues flagged (Fig 6 missing, experiment count, double-blind prep). **Strategic discovery:** Wacana Vol 28 "Prehistoric art in Indonesia" (April 2027) = P19 fallback if BKI fails.
 - **Post-Mudik Session 1 (2026-03-21)** — Structural critique (7 sections: fatal/structural risks, over-complexity, weak assumptions, collaboration architecture, testing framework, critique selection). E119 synthesis figure rendered (matplotlib PNG+PDF). P1 EGQSJ cover letter finalized with checklist + suggested reviewers. JCAA APC verified: £450, CAA waiver fund available (check if applied). Doc sync: PASS.
 - **Mudik Session 3 (2026-03-20)** — Autonomous mode. 5 new experiments: E116 testable predictions (GPR → [0,6] finds, P(zero)=7%), E117 detection horizon (surface survey ~1900 CE only), E118 information gain (3.5×, 29% entropy), E119 synthesis figure (data for matplotlib). Auto-sync checker (`tools/check_doc_sync.py`). Falsifiability revision ammo package. README refreshed with current results. TRIGGER_MAP updated (rejection pattern). Michelson-Morley framing: value = method + predictions, both outcomes are contributions. Failed experiment rescue analysis (E024→E083, E039→E103 already done). 120 experiments total.
 - **Mudik Session 2 (2026-03-20)** — E115 cascade sensitivity analysis: ROBUST (92% of 100K MC runs within 10× of observed, correlation-robust). Hard structural critique: 3 fatal risks (A1-A3), 4 structural risks (B1-B4). L1 §9 kill criteria REWRITTEN (old criteria obsolete). Pre-mortem analysis: 6 counter-arguments classified. Rejection pattern analysis: specialist journal = 100% survival rate. P1 EGQSJ AI prose audit: CLEAN. Document sync: experiment counts fixed to 116 across L1/L2/L3/EVAL/EXPERIMENT_INDEX. D1/D2 affiliations corrected.
@@ -128,18 +136,33 @@ P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully read
 **Michelson-Morley framing:** Project value = method + predictions, not discovery. Both outcomes (find/null) are contributions.
 **Pre-mortem analysis created** — `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`. 6 counter-arguments classified.
 **Rejection pattern:** specialist journals = 100% survival, broad area-studies = 0%. See `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`.
+**Wacana is thematic** — "Kawi culture" (Vol 26 No 3) ALREADY PUBLISHED. No suitable open issue for P11/P16. P19 fallback: "Prehistoric art in Indonesia" (Vol 28, April 2027, OPEN, deadline ~Oct 2026).
+**P11 target revised:** Wacana → Indonesia (Cornell) or ArchCalc. Pre-flight review complete.
+**P17 pre-flight issues FIXED (session 5):** Experiment count 107→120, dangling fig:model removed, spelling standardized. Remaining: download ArchCalc editorial rules (blocking), double-blind prep.
+**Liangan research note complete:** `docs/research_notes/LIANGAN_VALIDATION_CASE.md`. Key validation case for VOLCARCH. No published sedimentation rates (E121 gap). No Cerén comparison in literature (publication opportunity).
+**Blind spots analysed:** 8 identified (3 critical, 5 significant). New ideas I-120–I-127 in IDEA_REGISTRY. PREMORTEM updated.
+**Liangan research note:** `docs/research_notes/LIANGAN_VALIDATION_CASE.md`. 15+ references. No sedimentation rates (E121 gap). No Cerén comparison in literature.
+**Phytolith research (I-125):** STRONGLY POSITIVE. Survive 90K yr in tephra. Andisol pH favourable. I-125 upgraded HYPOTHESIS → TESTABLE. See `docs/research_notes/PHYTOLITH_VOLCANIC_PRESERVATION.md`.
+**Cerén comparison (I-124):** No formal Cerén-Java comparison in literature. Publication opportunity. See `docs/research_notes/CEREN_COMPARISON.md`.
+**AI prose audit:** P11 PASS, P17 PASS. P17 dangling `fig:model` FIXED (session 5).
+**P11 DHARMA/Liangan/Ceren DONE (session 5):** +4 refs (10→14), +Liangan validation subsection, +Ceren sentence. Essentially ready for Indonesia (Cornell).
+**DISSEMINATION ROADMAP:** `docs/DISSEMINATION_ROADMAP.md` — 4-tier strategy. LiDAR contact needs 1-page pitch (highest impact single action).
 PRIORITIES (post-mudik):
-1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL items DONE.
-2. **Verify JCAA APC** — P2 charges £300-450. Check if waiver applied. If not, apply for CAA waiver fund immediately.
-3. P11 submit Wacana (UI) or Indonesia (Cornell) — manual review needed first
-4. P17 submit Archeologia e Calcolatori — manual review needed
-5. P16 submit DHQ — user review + expand
-6. D1+D2 deposit to Zenodo (free, 30 min each) — affiliations corrected to UBN
-7. P5 retarget Archeologia e Calcolatori or Wacana — may need reformat
-8. P9 HOLD until P2/P8 outcome → then DHQ or Wacana
-9. P18 HOLD (unchanged)
-**Blind spots (post-mudik):** I-110 (Dong Son drums), I-111 (Philippines comparandum), I-112 (metallurgy). See `docs/research_notes/`.
+1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL items DONE. ORCID fixed session 5.
+2. **Verify JCAA APC** — P2 charges £450. Check if waiver applied. If not, apply for CAA waiver fund immediately.
+3. **LiDAR 1-page pitch** — create for Pak Amien's contact. Amazon precedent + 10 GPS targets + PR value.
+4. **GitHub repo go public** — review, clean, rewrite README. Permanent visibility.
+5. **P11 submit Indonesia (Cornell)** — DHARMA/Liangan/Ceren fixes DONE. Decide target → submit.
+6. **P17 submit Archeologia e Calcolatori** — download editorial rules (blocking), user review, deadline Dec 31
+7. P16 submit DHQ — user review + expand
+8. D1+D2 deposit to Zenodo (free, 30 min each) — affiliations corrected to UBN
+9. **YouTube "Peradaban Tersembunyi" Episode 1** — script + slides. Target: 10K views.
+10. P5 retarget Archeologia e Calcolatori or J. Pacific Archaeology — NOT Wacana (thematic constraint)
+11. P9 HOLD until P2/P8 outcome → then DHQ
+12. P18 HOLD (unchanged)
+**Blind spots (comprehensive):** See `docs/research_notes/BLIND_SPOT_COMPREHENSIVE_2026_03_21.md`. I-110 to I-127 in IDEA_REGISTRY.
 **Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md` (5 rules), `docs/AI_PROSE_GUIDE.md` (checklist).
+**Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` — the GTD-style doc. Revisit weekly.
 
 ## DO NOT WORK ON
 

@@ -4,7 +4,7 @@
 
 **Convention:** Update this when blockers in IDEA_REGISTRY.md change. Review during weekly Mata Elang.
 
-**Last updated:** 2026-03-20
+**Last updated:** 2026-03-22
 
 ---
 
@@ -24,7 +24,12 @@
 ### If: Geologist co-author found (UB / ITB / PVMBG)
 - P3 resurrection → Tephra2/FALL3D modeling possible
 - I-052 → Tephrochronology Java becomes executable
-- I-082 → Phytolith preservation chemistry gets lab validation
+- I-125 → Phytolith extraction from volcanic cores (literature shows chemistry favourable, needs lab access). **POTENTIALLY TRANSFORMATIVE** — see `docs/research_notes/PHYTOLITH_VOLCANIC_PRESERVATION.md`
+
+### If: Archaeobotanist collaboration (Cristina Castillo/UCL, Zhenhua Deng)
+- I-125 → Phytolith extraction from Liangan matrix or PVMBG cores → could prove pre-Hindu agriculture at depth
+- **Key contact:** Castillo already worked on Liangan rice (Castillo 2014). Deng validated rice phytolith method for Indonesia (Sulawesi 3,500 BP)
+- This would be the single strongest evidence for VOLCARCH if rice phytoliths found in pre-400 CE deposits
 
 ### If: Anthropologist co-author found (UGM / UI / Leiden)
 - P5 revision → reviewer response strengthened with domain expertise
@@ -48,6 +53,12 @@
 ### If: PVMBG soil core access granted
 - I-052 → Tephrochronology calibration on real cores
 - P10 ADS methodology → can calibrate on known buried sites (Sambisari, Kedulan)
+- **I-125 → Phytolith extraction from volcanic cores** — literature confirms phytoliths survive 90K yr in tephra. Andisol pH (5-7) favourable. Could detect pre-Hindu agriculture. Game-changer if rice phytoliths found at depth.
+
+### If: Liangan excavation matrix samples accessed (Balai Arkeologi Yogyakarta)
+- I-120 → Sedimentation rate calibration (E121) from Sindoro system
+- **I-125 → Phytolith extraction from volcanic deposits sealing Liangan** — Castillo found carbonised rice but NO phytolith analysis of the matrix itself. Lowest-barrier entry point for phytolith research.
+- Contact: Sugeng Riyanto (Balai Arkeologi Yogyakarta)
 
 ### If: Pertamina/ESDM sonar data released
 - I-080 → Sunda Shelf submerged settlement detection (game-changer)
@@ -246,6 +257,36 @@
 ### If: Conference presentation accepted
 - Indonesian academic community engagement → blind spot 8.4 addressed
 - Potential collaborator recruitment pathway opened
+
+---
+
+## Dissemination Triggers (NEW 2026-03-22)
+
+### If: LiDAR 1-page pitch created + meeting with contact
+- I-128 → LiDAR survey could happen → Phase 2 fieldwork
+- I-130 → Prediction registry becomes testable
+- **This is the single highest-impact action in the pipeline.**
+
+### If: GitHub repo goes public + README rewritten
+- I-129 → YouTube series can link to repo
+- I-130 → Prediction registry can be published there
+- I-131 → Coring campaign can point to methodology
+- All papers → repo URL becomes live, verifiable
+
+### If: 1st YouTube episode published
+- I-129 → Subsequent episodes follow (series momentum)
+- Public awareness → potential contacts emerge (archaeologists, funders, media)
+- Indonesian academic community → VOLCARCH becomes known outside journal readers
+
+### If: Media coverage obtained (Kompas, Tempo, NatGeo Indonesia)
+- Potential funder attention (corporate, government, international)
+- BPCB/BRIN awareness → formal collaboration pathways
+- Public support for rescue archaeology → policy angle
+
+### If: Conference talk accepted (IPPA/CAA/PIA)
+- Collaborator recruitment (face-to-face > email)
+- I-128 → LiDAR partnership pitch in person
+- Phytolith collaboration pitch to archaeobotanists
 
 ---
 
