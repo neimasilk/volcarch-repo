@@ -163,6 +163,7 @@ PRIORITIES (post-mudik):
 **Blind spots (comprehensive):** See `docs/research_notes/BLIND_SPOT_COMPREHENSIVE_2026_03_21.md`. I-110 to I-127 in IDEA_REGISTRY.
 **Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md` (5 rules), `docs/AI_PROSE_GUIDE.md` (checklist).
 **Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` — the GTD-style doc. Revisit weekly.
+**Read for sustainability:** `docs/SUSTAINABILITY_ROADMAP.md` — 6 income streams, AK projection, "keep it alive" system. Revisit monthly.
 
 ## DO NOT WORK ON
 
