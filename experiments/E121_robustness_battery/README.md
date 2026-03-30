@@ -40,7 +40,16 @@ Parameters: seed=42, n_bootstrap=1000, n_permutation=10000.
 | **E051** | Court effect (Yogya 11% vs others 22%) | 5.3e-8 | [0.078, 0.138] | 0.0000 | **ROBUST** |
 | **E083** | Buried fraction (72.5%) | 8.9e-4 | [0.61, 0.84] | 0.577 | **ROBUST** |
 
-**Summary: 5/6 ROBUST (83%), 0 MARGINAL, 1 FRAGILE (17%)**
+**Wave 1: 5/6 ROBUST (83%), 0 MARGINAL, 1 FRAGILE (17%)**
+
+### Wave 2: ML + Spatial
+
+| Experiment | Test | Original | Boot CI | Perm p | Verdict |
+|-----------|------|:---:|---|:---:|:---:|
+| **E027/E085** | RF 10-fold CV AUC (n=1357) | 1.000 | [1.000, 1.000] | 0.0000 | **ROBUST** |
+| **E084** | Inscription-candi distance (41.2 km gap) | MW p~0 | [15.4, 78.6] | 0.0000 | **ROBUST** |
+
+**Combined (W1+W2): 7/8 ROBUST (88%), 0 MARGINAL, 1 FRAGILE (12%)**
 
 ### Analysis
 

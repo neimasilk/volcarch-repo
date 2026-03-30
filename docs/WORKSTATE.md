@@ -1,9 +1,9 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-30 (session 7: back at campus — 3 deliverables completed)
-**MODE: CONSOLIDATION + DISSEMINATION.** Priority: (1) submit P1 to EGQSJ, (2) aggressive dissemination. Moratorium on new experiments.
-**NEW (session 7):** LiDAR 1-page pitch DONE (`docs/dissemination/lidar_pitch.md`). README.md rewritten for GitHub go-public (professional, citable, Zenodo badge). YouTube Ep2 outline DONE (`docs/dissemination/youtube_ep2_outline.md`).
+**Last updated:** 2026-03-30 (session 7 final: 3 deliverables + 2 autoresearch experiments)
+**MODE: CONSOLIDATION + DISSEMINATION + AUTORESEARCH.** Priority: (1) submit P1 to EGQSJ, (2) aggressive dissemination. Moratorium on new experiments EXCEPT autoresearch robustness.
+**Session 7 deliverables:** LiDAR pitch, README rewrite, YouTube Ep2 outline, E120 cascade stress test, E121 robustness battery (7/8 ROBUST). AutoResearch PoC validated. 3 proposals (P20-P22) routed. InBox empty.
 
 ---
 
@@ -132,7 +132,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **120 experiments** (E119 = synthesis figure data). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). Phase = CONSOLIDATION + RETARGETING.
+STATUS: **122 experiments** (E121 = robustness battery). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). 3 new proposals (P20-P22). Phase = CONSOLIDATION + AUTORESEARCH.
 P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
 **All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
 **L1 kill criteria REWRITTEN** — old criteria were obsolete after E005 pivot. New criteria: concrete, testable (GPR results, external comparanda, 3+ substantive peer rejections). See L1 §9.
