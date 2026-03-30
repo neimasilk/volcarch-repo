@@ -1,0 +1,31 @@
+{
+  "experiment": "E127_ancient_references",
+  "total_references": 15,
+  "pre_400ce_references": 13,
+  "traditions": {
+    "Greco-Roman": 3,
+    "Indian epic": 1,
+    "Indian Buddhist": 1,
+    "Indian political treatise": 1,
+    "Indo-Greek Buddhist": 1,
+    "Chinese dynastic history": 3,
+    "Chinese Buddhist travel": 1,
+    "Arab-Persian geography": 1,
+    "Material evidence": 2,
+    "Linguistic reconstruction": 1
+  },
+  "confidence_distribution": {
+    "MEDIUM": 7,
+    "HIGH": 2,
+    "MEDIUM-HIGH (literary, not historical, but geographic specificity is notable)": 1,
+    "MEDIUM-HIGH": 1,
+    "VERY HIGH (eyewitness)": 1,
+    "VERY HIGH (material evidence)": 2,
+    "VERY HIGH (multiple independent linguistic analyses)": 1
+  },
+  "earliest_java_mention": "~300 BCE (Ramayana: Yavadvipa)",
+  "earliest_material_evidence": "~200 BCE (Rouletted Ware at Buni)",
+  "earliest_diplomatic": "132 CE (Embassy to Han court)",
+  "key_paradox": "15 external sources + material evidence confirm pre-400 CE societies, but zero local open-air archaeological trace in volcanic Java",
+  "implications_count": 8
+}
