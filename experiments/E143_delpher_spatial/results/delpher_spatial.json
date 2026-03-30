@@ -1,0 +1,10 @@
+{
+  "experiment": "E143_delpher_spatial",
+  "geocoded_finds": 33,
+  "near_e080_targets": 13,
+  "mean_dist_volcano_km": 166.45151515151517,
+  "random_mean_dist_km": 75.0298618552179,
+  "mann_whitney_p": 0.2147033635701467,
+  "finds_within_30km_volcano": 13,
+  "conclusion": "No significant clustering"
+}
