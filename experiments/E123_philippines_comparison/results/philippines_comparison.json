@@ -1,0 +1,63 @@
+{
+  "experiment": "E123_philippines_comparison",
+  "java_data": {
+    "name": "Java",
+    "area_km2": 129000,
+    "holocene_volcanoes": 45,
+    "volcano_density_per_1000km2": 348.8372093023256,
+    "population_2020": 150000000,
+    "known_pre400ce_open_air_volcanic_interior": 0,
+    "known_pre400ce_cave": 3,
+    "known_pre400ce_coastal": 3,
+    "known_pre400ce_total": 6,
+    "earliest_inscription": 400,
+    "earliest_open_air_volcanic": null,
+    "survey_institutions": 2,
+    "rescue_archaeology_law": false,
+    "sedimentation_rate_mm_yr": 4.4
+  },
+  "philippines_data": {
+    "name": "Philippines",
+    "area_km2": 300000,
+    "holocene_volcanoes": 23,
+    "volcano_density_per_1000km2": 76.66666666666666,
+    "population_2020": 109000000,
+    "known_pre400ce_open_air_volcanic_interior": 2,
+    "known_pre400ce_cave": 5,
+    "known_pre400ce_coastal": 3,
+    "known_pre400ce_total": 10,
+    "earliest_inscription": 900,
+    "earliest_open_air_volcanic": -709000,
+    "survey_institutions": 3,
+    "rescue_archaeology_law": false,
+    "sedimentation_rate_mm_yr": null
+  },
+  "volcano_density_ratio": 4.5500505561172915,
+  "verdict": {
+    "comparison_valid": true,
+    "key_finding": "Philippines has 2 open-air pre-colonial sites in/near volcanic regions (Kalinga 709ka, Cagayan shell middens). Java has ZERO. But Java has 4.5x higher volcano density and much higher sustained tephra production. The comparison SUPPORTS VOLCARCH: higher volcanic intensity = deeper burial = fewer surviving sites.",
+    "caveats": [
+      "Philippines data is sparse too \u2014 both countries are under-surveyed",
+      "Kalinga (709ka) is in Cagayan Valley which is not directly on a volcanic flank",
+      "Different volcanic styles: Java = steady ash rain, Philippines = episodic large events",
+      "Survey effort comparison is qualitative, not quantitative"
+    ],
+    "implications": [
+      "The taphonomic pattern is DOSE-DEPENDENT: more volcanic activity = more burial",
+      "Java's 4.5x volcano density is a plausible explanation for why its archaeological record is more depleted",
+      "Philippines serves as a PARTIAL control: similar region, less volcanism, slightly better record",
+      "This is NOT a perfect negative control (Philippines has its own biases)"
+    ],
+    "volcarch_supported": true,
+    "strength": "MODERATE \u2014 supports but doesn't prove. Need quantitative sedimentation comparison."
+  },
+  "data_sources": [
+    "GVP (volcano.si.edu) 2025: Philippines Holocene volcanoes",
+    "PHIVOLCS: 24 active volcanoes (2018 classification)",
+    "Mijares et al. 2010: Callao Cave, Homo luzonensis",
+    "Ingicco et al. 2018: Kalinga site, 709 ka",
+    "Bellwood 2017: Batanes Neolithic chronology",
+    "Fox 1970: Tabon Caves, Palawan",
+    "E086 (VOLCARCH): Japan comparison data"
+  ]
+}
