@@ -1,0 +1,21 @@
+{
+  "experiment": "E134_inscription_chronology",
+  "total_dated": 166,
+  "century_distribution": {
+    "C6": 1,
+    "C7": 4,
+    "C8": 55,
+    "C9": 28,
+    "C10": 49,
+    "C11": 11,
+    "C12": 2,
+    "C13": 10,
+    "C14": 6
+  },
+  "dark_centuries": [
+    "C6",
+    "C12"
+  ],
+  "peak_century": "C8 (55 inscriptions)",
+  "pre_indic_trend": "rho=0.071, p=0.8790"
+}
