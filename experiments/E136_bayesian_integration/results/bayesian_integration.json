@@ -1,0 +1,11 @@
+{
+  "experiment": "E136_bayesian_integration",
+  "prior": 0.1,
+  "composite_bf": 72000000000.0,
+  "posterior": 0.9999999998750001,
+  "evidence_lines": 10,
+  "strongest_evidence": "E127: 15 ancient external references confirm pre-400CE societies",
+  "weakest_evidence": "E131: Writing adoption timing normal for SE Asia",
+  "gpr_null_posterior": 0.9999999982142858,
+  "verdict": "Posterior = 100.00%. Thesis is overwhelmingly supported by integrated evidence."
+}
