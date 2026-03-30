@@ -1,0 +1,25 @@
+{
+  "experiment": "E122_gap_sensitivity",
+  "baseline_gap": 9620.82,
+  "monte_carlo": {
+    "n_runs": 100000,
+    "median_gap": 1242.3535738600222,
+    "p_gap_gt_100x": 0.95671,
+    "p_gap_gt_1000x": 0.54842,
+    "p_gap_lt_10x": 0.0,
+    "ci_5_95": [
+      108.38681199789394,
+      15253.32624747766
+    ]
+  },
+  "adversarial_minimum": {
+    "scenario": "Pure hunter-gatherer (0.1/km2)",
+    "gap": 18.919999999999998,
+    "verdict": "Even at pure HG density, gap = 19x (3 sites). STILL EXISTS."
+  },
+  "threshold_for_trivial": {
+    "gap_10x_needs_density": 0.052854122621564484,
+    "gap_10x_comparison": "< hunter-gatherer bands"
+  },
+  "verdict": "GAP IS REAL REGARDLESS OF POPULATION ASSUMPTIONS. Even at pure hunter-gatherer density (0.1/km2), gap = 19x. Monte Carlo: P(gap > 100x) = 96%. Magnitude is parameter-dependent (median MC = 1,242x), but existence of gap is robust."
+}
