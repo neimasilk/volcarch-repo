@@ -1,0 +1,10 @@
+{
+  "experiment": "E147_inscription_length_distance",
+  "total_with_wordcount": 164,
+  "mean_words": 355.1646341463415,
+  "median_words": 127.0,
+  "century_trend_rho": 0.6071428571428572,
+  "century_trend_p": 0.14823116148116164,
+  "preindic_wordcount_rho": 0.5874749432118676,
+  "preindic_wordcount_p": 1.353219405072373e-16
+}
