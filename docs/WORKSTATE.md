@@ -3,7 +3,7 @@
 **READ THIS FIRST. Continue in-progress items before starting new work.**
 **Last updated:** 2026-03-30 (Mata Elang #10 + autonomous day: 12 new experiments)
 **MODE: CONSOLIDATION + AUTORESEARCH.** Priority: (1) submit P1 to EGQSJ, (2) reframe narasi, (3) fieldwork partnership.
-**Autonomous day:** E120-E131 (12 experiments). 132 total. Key new findings: gap robust (E122), Philippines comparison (E123), Java globally unique (E126), 15 ancient references (E127), OV depths replicate E083 (E128), 73% temple bias (E129), 438 substrate words (E130), 400 CE = visibility threshold not start (E131).
+**Autonomous day:** E120-E134 (15 experiments). 135 total. Key findings: gap robust P(gap<10x)=0.0% (E122), Philippines comparison (E123), Java globally unique (E126), 15 ancient references (E127), OV depths replicate E083 p=0.54 (E128), 73% temple bias (E129), 438 substrate words (E130), 400 CE = visibility threshold (E131), sedimentation map (E132 PARTIAL), complete synthesis (E133), C8 paradox + hyang resurgence (E134).
 
 ---
 
@@ -132,7 +132,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **132 experiments** (E131 = writing adoption comparison). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). 3 new proposals (P20-P22). Phase = CONSOLIDATION + AUTORESEARCH.
+STATUS: **135 experiments** (E134 = inscription chronology gap analysis). 3 under review (P2, P7, P8) + 3 rejected with Diamond OA retargets (P1→EGQSJ ready, P5→ArchCalc/Wacana, P9→HOLD). 4 drafting (P11, P16, P17, P18-HOLD). 3 new proposals (P20-P22). Phase = CONSOLIDATION + AUTORESEARCH.
 **Mata Elang #10 key findings:** (1) Cascade model is descriptive not predictive — needs fieldwork. (2) Reframe: VOLCARCH = settlement prediction methodology, not volcanic burial. (3) Gap robust: P(gap<10x)=0.0%. (4) Philippines 4.6x less volcanoes → slightly better record. (5) 7/8 robustness tests ROBUST. (6) F3 (survey) is only structurally necessary cascade factor.
 P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
 **All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
