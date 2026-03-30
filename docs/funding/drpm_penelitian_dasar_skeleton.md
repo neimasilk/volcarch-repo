@@ -43,7 +43,7 @@
 
 Pulau Jawa memiliki 45 gunung api aktif di area 129.000 km². Tidak ada titik di Jawa yang berjarak lebih dari 27 km dari gunung api aktif. Sedimentasi vulkanik terus-menerus mengubur permukaan tanah dengan kecepatan rata-rata 4,4 ± 1,2 mm/tahun — divalidasi dari empat situs kalibrasi (Dwarapala Singosari, Candi Sambisari, Candi Kedulan, Candi Kimpulan). Pada kecepatan ini, situs arkeologi dari periode pra-Hindu (~400 M) kini terkubur di bawah 7+ meter overburden vulkanik, tidak terdeteksi oleh survei permukaan konvensional.
 
-Penelitian ini menggunakan pendekatan komputasional multi-faktor untuk memprediksi lokasi situs arkeologi terkubur di Jawa. Melalui 120 eksperimen komputasional, kami telah mengembangkan: (1) model kalibrasi laju sedimentasi multi-situs, (2) model kesesuaian pemukiman berbasis machine learning (AUC = 0,768), dan (3) model cascade visibilitas arkeologis lima faktor yang memprediksi visibilitas 0,058% — cocok dengan observasi (0,031%) dalam faktor dua.
+Penelitian ini menggunakan pendekatan komputasional multi-faktor untuk memprediksi lokasi situs arkeologi terkubur di Jawa. Melalui 147 eksperimen komputasional (hingga Maret 2026), kami telah mengembangkan: (1) model kalibrasi laju sedimentasi multi-situs, (2) model kesesuaian pemukiman berbasis machine learning (AUC = 0,768), dan (3) model cascade visibilitas arkeologis lima faktor yang memprediksi visibilitas 0,058% — cocok dengan observasi (0,031%) dalam faktor dua.
 
 Penelitian ini bertujuan memvalidasi model prediktif tersebut melalui survei geofisika (GPR dan ERT) di 5-10 lokasi target prioritas tinggi, analisis fitolith dari sampel inti bor, dan penanggalan radiometrik. Hasil penelitian akan memberikan kontribusi metodologis untuk arkeologi lansekap vulkanik secara global, serta peta prediksi untuk pengelolaan cagar budaya di Indonesia.
 
@@ -59,7 +59,7 @@ Penelitian ini bertujuan memvalidasi model prediktif tersebut melalui survei geo
 Indonesia memiliki catatan arkeologis pra-Hindu yang sangat minim dibandingkan negara-negara tetangga di Asia Tenggara (Thailand: Ban Chiang 3.600 SM; Vietnam: Dong Son 1.000 SM; Filipina: Gua Tabon 50.000 tahun). Paradoks ini terutama mencolok di Jawa, pulau terpadat dan tersubur di kepulauan ini.
 
 **Paragraf 2 — Gap spesifik:**
-Estimasi konservatif berdasarkan daya dukung pertanian padi tradisional menunjukkan populasi 590.000-3.900.000 jiwa di Jawa sebelum 400 M. Dengan ukuran desa Austronesia standar (100-200 orang), ini berarti ~3.000-20.000 pemukiman. Jumlah situs pra-400 M yang ditemukan di interior vulkanik: 0-3. Gap 3.220× lipat ini tidak dapat dijelaskan oleh kepadatan populasi rendah saja.
+Estimasi konservatif berdasarkan daya dukung pertanian padi tradisional menunjukkan populasi 590.000-3.900.000 jiwa di Jawa sebelum 400 M. Dengan ukuran desa Austronesia standar (100-200 orang), ini berarti ~3.000-20.000 pemukiman. Jumlah situs pra-400 M yang ditemukan di interior vulkanik: 0-3. Gap 3.220x lipat ini tidak dapat dijelaskan oleh kepadatan populasi rendah saja (Monte Carlo 100.000 runs: P(gap<10x) = 0,0%, bahkan pada densitas hunter-gatherer murni).
 
 **Paragraf 3 — Hipotesis vulkanik:**
 Kami mengajukan hipotesis bahwa bias tafonomi vulkanik — proses sedimentasi terus-menerus yang mengubur bukti material — adalah penyebab utama kekosongan rekam arkeologi ini. Penemuan aksidental Liangan (2008) — pemukiman lengkap era Mataram Kuno terkubur di bawah 6-8m deposit piroklastik — memberikan validasi dramatis terhadap hipotesis ini.
