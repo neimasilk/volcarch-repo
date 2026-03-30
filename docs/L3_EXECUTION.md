@@ -1,7 +1,7 @@
 # L3: EXECUTION (Active Tasks)
 
 **Status:** ACTIVE
-**Sprint:** Sprint 11 — Senter v3 Computational Deepening
+**Sprint:** Sprint 12 — Consolidation + AutoResearch Integration
 **Last updated:** 2026-03-16
 
 ---
@@ -11,7 +11,7 @@
 **Phase:** CONTRACTION + VALIDATION (post-Mata Elang #8 structural critique).
 6 papers awaiting review. No new submissions. Build datasets, validate existing work, computational deepening.
 
-**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **120-experiment** registry (E001-E115, minus 6 unused IDs).
+**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **122-experiment** registry (E001-E115, minus 6 unused IDs).
 
 ---
 
