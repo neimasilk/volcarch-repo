@@ -130,7 +130,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **146 experiments** (E145 = eruption vs visibility). Autonomous day: 26 new experiments (E120-E145). **P1 SUBMITTED egqsj-2026-3.** 4 under review (P1-EGQSJ, P2, P7, P8). P11 Cornell DOCX ready. P17 ArchCalc rules downloaded. Delpher API working (529 records + 48 finds extracted). Phase = CONSOLIDATION + AUTORESEARCH.
+STATUS: **148 experiments** (E147 = inscription length). **Record day: 28 new experiments (E120-E147).** P1 SUBMITTED egqsj-2026-3. 4 under review (P1-EGQSJ, P2, P7, P8). P11 Cornell DOCX ready. P17 ArchCalc rules downloaded. Delpher API working (529 records + 48 finds). Book outline v0.1. Workshop proposal. DRPM skeleton updated. Phase = CONSOLIDATION + AUTORESEARCH. **NEXT SESSION: Mata Elang #11 — review + cleanup of E120-E147 before adding more.**
 **Mata Elang #10 key findings:** (1) Cascade model is descriptive not predictive — needs fieldwork. (2) Reframe: VOLCARCH = settlement prediction methodology, not volcanic burial. (3) Gap robust: P(gap<10x)=0.0%. (4) Philippines 4.6x less volcanoes → slightly better record. (5) 7/8 robustness tests ROBUST. (6) F3 (survey) is only structurally necessary cascade factor.
 P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
 **All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
