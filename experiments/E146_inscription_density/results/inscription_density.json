@@ -1,0 +1,11 @@
+{
+  "experiment": "E146_inscription_density",
+  "regions_compared": 8,
+  "java_density": 0.20775193798449615,
+  "cambodia_density": 0.8592568042398185,
+  "ratio_cambodia_java": 4.135974915930469,
+  "ratio_india_java": 61.68315720448947,
+  "volcanic_mean": 0.10840172006326707,
+  "non_volcanic_mean": 3.266438191871597,
+  "pattern": "MORE VOLCANOES = FEWER INSCRIPTIONS PER KM2"
+}
