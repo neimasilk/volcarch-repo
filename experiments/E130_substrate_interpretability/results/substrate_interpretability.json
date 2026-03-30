@@ -1,0 +1,62 @@
+{
+  "experiment": "E130_substrate_interpretability",
+  "total_forms": 1357,
+  "high_confidence_substrate": 438,
+  "high_confidence_cognate": 919,
+  "domain_analysis": {
+    "ACTION": {
+      "total": 392,
+      "substrate_count": 177,
+      "cognate_count": 215,
+      "substrate_rate": 0.45153061224489793
+    },
+    "QUALITY": {
+      "total": 177,
+      "substrate_count": 67,
+      "cognate_count": 110,
+      "substrate_rate": 0.3785310734463277
+    },
+    "GRAMMAR": {
+      "total": 157,
+      "substrate_count": 59,
+      "cognate_count": 98,
+      "substrate_rate": 0.37579617834394907
+    },
+    "NUMBER": {
+      "total": 84,
+      "substrate_count": 27,
+      "cognate_count": 57,
+      "substrate_rate": 0.32142857142857145
+    },
+    "NATURE": {
+      "total": 178,
+      "substrate_count": 42,
+      "cognate_count": 136,
+      "substrate_rate": 0.23595505617977527
+    },
+    "BODY": {
+      "total": 163,
+      "substrate_count": 30,
+      "cognate_count": 133,
+      "substrate_rate": 0.18404907975460122
+    },
+    "OTHER": {
+      "total": 206,
+      "substrate_count": 36,
+      "cognate_count": 170,
+      "substrate_rate": 0.17475728155339806
+    }
+  },
+  "top_features": {
+    "n_cognate_sets": 0.4735211799149187,
+    "max_cognate_set_size": 0.4045432849690282,
+    "concept_residual_rate": 0.05098183734090172,
+    "concept_cross_lang_count": 0.042361812996032616,
+    "n_vowels": 0.009252481948633524,
+    "form_length": 0.007100154964571177,
+    "has_glottal": 0.0037161697713668515,
+    "vowel_ratio": 0.0024930043723219945,
+    "n_consonant_clusters": 0.002374718555425641,
+    "has_prefix_like": 0.0014550959019062099
+  }
+}

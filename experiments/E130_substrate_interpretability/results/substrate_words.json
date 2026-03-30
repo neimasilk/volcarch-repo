@@ -1,0 +1,3068 @@
+[
+  {
+    "form": "kangkaha",
+    "language": "Muna",
+    "concept": "road/path",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "apingka",
+    "language": "Muna",
+    "concept": "to turn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "towu",
+    "language": "Muna",
+    "concept": "back",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ghule-ghule",
+    "language": "Muna",
+    "concept": "intestines",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aefekiri",
+    "language": "Muna",
+    "concept": "to think",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aegau",
+    "language": "Muna",
+    "concept": "to cook",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aesia",
+    "language": "Muna",
+    "concept": "to bite",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aewura",
+    "language": "Muna",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aewora",
+    "language": "Muna",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "andiwawa",
+    "language": "Muna",
+    "concept": "to yawn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mie no lambu",
+    "language": "Muna",
+    "concept": "husband",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mie no lambu",
+    "language": "Muna",
+    "concept": "wife",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "anahi",
+    "language": "Muna",
+    "concept": "wife",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kakoo",
+    "language": "Muna",
+    "concept": "rope",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aekooli",
+    "language": "Muna",
+    "concept": "to tie up, fasten",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ahulo",
+    "language": "Muna",
+    "concept": "to hunt",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aewogha",
+    "language": "Muna",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aebhera",
+    "language": "Muna",
+    "concept": "to cut, hack",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aeladu",
+    "language": "Muna",
+    "concept": "to plant",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "notente",
+    "language": "Muna",
+    "concept": "to swell",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ghundeletu",
+    "language": "Muna",
+    "concept": "worm (earthworm)",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "karuku",
+    "language": "Muna",
+    "concept": "grass",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "nosolo",
+    "language": "Muna",
+    "concept": "to flow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "katebho",
+    "language": "Muna",
+    "concept": "lake",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "karumbu",
+    "language": "Muna",
+    "concept": "woods/forest",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "nomeme",
+    "language": "Muna",
+    "concept": "wet",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "dea",
+    "language": "Muna",
+    "concept": "red",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aekope",
+    "language": "Muna",
+    "concept": "to hide",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "we panda",
+    "language": "Muna",
+    "concept": "below",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "bhe",
+    "language": "Muna",
+    "concept": "and",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.975
+  },
+  {
+    "form": "pedahai",
+    "language": "Muna",
+    "concept": "how?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pedahamai",
+    "language": "Muna",
+    "concept": "how?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aefeapi",
+    "language": "Muna",
+    "concept": "to count",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "riwu",
+    "language": "Muna",
+    "concept": "One Thousand",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "joppa",
+    "language": "Bugis",
+    "concept": "to walk",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "jokka",
+    "language": "Bugis",
+    "concept": "to walk",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "monri",
+    "language": "Bugis",
+    "concept": "back",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "baua",
+    "language": "Bugis",
+    "concept": "belly",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "gəmməʔ",
+    "language": "Bugis",
+    "concept": "hair",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "manre",
+    "language": "Bugis",
+    "concept": "to eat",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "doccili",
+    "language": "Bugis",
+    "concept": "ear",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "maŋ-aleale",
+    "language": "Bugis",
+    "concept": "to yawn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lewuu",
+    "language": "Bugis",
+    "concept": "to lie down",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "liwuu",
+    "language": "Bugis",
+    "concept": "to lie down",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "təttoŋ",
+    "language": "Bugis",
+    "concept": "to stand",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "makunrai",
+    "language": "Bugis",
+    "concept": "woman/female",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pabbiŋəŋ",
+    "language": "Bugis",
+    "concept": "thatch/roof",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mak-kədaa",
+    "language": "Bugis",
+    "concept": "to say",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pau",
+    "language": "Bugis",
+    "concept": "to say",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "tulu",
+    "language": "Bugis",
+    "concept": "rope",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mas-sio",
+    "language": "Bugis",
+    "concept": "to tie up, fasten",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "rəŋŋəŋ",
+    "language": "Bugis",
+    "concept": "to hunt",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maʔ-gajaŋ",
+    "language": "Bugis",
+    "concept": "to stab, pierce",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "soppaʔ",
+    "language": "Bugis",
+    "concept": "to stab, pierce",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tətteʔ",
+    "language": "Bugis",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mennau",
+    "language": "Bugis",
+    "concept": "to steal",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pueʔ",
+    "language": "Bugis",
+    "concept": "to split",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "pue",
+    "language": "Bugis",
+    "concept": "to split",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-kunru",
+    "language": "Bugis",
+    "concept": "dull, blunt",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "tassipi",
+    "language": "Bugis",
+    "concept": "to squeeze",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mak-katənni",
+    "language": "Bugis",
+    "concept": "to hold",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "warəkkəŋ",
+    "language": "Bugis",
+    "concept": "to hold",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "timpaʔ",
+    "language": "Bugis",
+    "concept": "to open, uncover",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "maʔ-dempəʔ",
+    "language": "Bugis",
+    "concept": "to throw",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mabuəŋ",
+    "language": "Bugis",
+    "concept": "to fall",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "luttu",
+    "language": "Bugis",
+    "concept": "to fly",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "juku",
+    "language": "Bugis",
+    "concept": "meat/flesh",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lunraʔ",
+    "language": "Bugis",
+    "concept": "fat/grease",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-kəbboŋ",
+    "language": "Bugis",
+    "concept": "rotten",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sarii",
+    "language": "Bugis",
+    "concept": "grass",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sərii",
+    "language": "Bugis",
+    "concept": "grass",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pəjje",
+    "language": "Bugis",
+    "concept": "salt",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "əlluŋ",
+    "language": "Bugis",
+    "concept": "cloud",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mat-tappoʔ",
+    "language": "Bugis",
+    "concept": "to blow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-pəlla",
+    "language": "Bugis",
+    "concept": "warm",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-ricaʔ",
+    "language": "Bugis",
+    "concept": "wet",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-tanəʔ",
+    "language": "Bugis",
+    "concept": "heavy",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-cəllaʔ",
+    "language": "Bugis",
+    "concept": "red",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-kudaraʔ",
+    "language": "Bugis",
+    "concept": "green",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-biccuʔ",
+    "language": "Bugis",
+    "concept": "small",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-rənniʔ",
+    "language": "Bugis",
+    "concept": "small",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-poncoʔ",
+    "language": "Bugis",
+    "concept": "short",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "ma-umpəʔ",
+    "language": "Bugis",
+    "concept": "thick",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "ma-cipi",
+    "language": "Bugis",
+    "concept": "narrow",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-deceŋ",
+    "language": "Bugis",
+    "concept": "good",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maʔkasubbu",
+    "language": "Bugis",
+    "concept": "to hide",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-caweʔ",
+    "language": "Bugis",
+    "concept": "near",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kegi",
+    "language": "Bugis",
+    "concept": "where?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ia-manəŋ",
+    "language": "Bugis",
+    "concept": "they",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "niga",
+    "language": "Bugis",
+    "concept": "who?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "laiŋ",
+    "language": "Bugis",
+    "concept": "other",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "manəŋ",
+    "language": "Bugis",
+    "concept": "all",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "sibawa",
+    "language": "Bugis",
+    "concept": "and",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "nakko",
+    "language": "Bugis",
+    "concept": "if",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "rekko",
+    "language": "Bugis",
+    "concept": "if",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "arua",
+    "language": "Bugis",
+    "concept": "Eight",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "baŋkeŋ",
+    "language": "Makassar",
+    "concept": "leg/foot",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "agaŋ",
+    "language": "Makassar",
+    "concept": "road/path",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "battu",
+    "language": "Makassar",
+    "concept": "to come",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "raʔmasaʔ",
+    "language": "Makassar",
+    "concept": "dirty",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "alimbuʔbuʔ",
+    "language": "Makassar",
+    "concept": "dust",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 0.98
+  },
+  {
+    "form": "bukku lɛŋ",
+    "language": "Makassar",
+    "concept": "skin",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "ammikkiriʔ",
+    "language": "Makassar",
+    "concept": "to think",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mallaʔ",
+    "language": "Makassar",
+    "concept": "to fear",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kaʔmuru",
+    "language": "Makassar",
+    "concept": "nose",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aʔmaiʔ",
+    "language": "Makassar",
+    "concept": "to breathe",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "aŋŋaraʔ",
+    "language": "Makassar",
+    "concept": "to sniff, smell",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ammakkalaʔ",
+    "language": "Makassar",
+    "concept": "to laugh",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aŋŋarruʔ",
+    "language": "Makassar",
+    "concept": "to cry",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "laŋŋɛ",
+    "language": "Makassar",
+    "concept": "to vomit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "taʔlaŋŋɛ",
+    "language": "Makassar",
+    "concept": "to vomit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "appiʔru",
+    "language": "Makassar",
+    "concept": "to spit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "añcaʔma",
+    "language": "Makassar",
+    "concept": "to chew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "appallu",
+    "language": "Makassar",
+    "concept": "to cook",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "acciniʔ",
+    "language": "Makassar",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aʔlaulau",
+    "language": "Makassar",
+    "concept": "to yawn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "assoʔna",
+    "language": "Makassar",
+    "concept": "to dream",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ammempo",
+    "language": "Makassar",
+    "concept": "to sit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ammenteŋ",
+    "language": "Makassar",
+    "concept": "to stand",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maŋgɛ",
+    "language": "Makassar",
+    "concept": "father",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.985
+  },
+  {
+    "form": "pattoŋkoʔ",
+    "language": "Makassar",
+    "concept": "thatch/roof",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aŋkana",
+    "language": "Makassar",
+    "concept": "to say",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "otɛrɛʔ",
+    "language": "Makassar",
+    "concept": "rope",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "aññikkoʔ",
+    "language": "Makassar",
+    "concept": "to tie up, fasten",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "andoaŋ",
+    "language": "Makassar",
+    "concept": "to hunt",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "annoboʔ",
+    "language": "Makassar",
+    "concept": "to stab, pierce",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "annunruŋ",
+    "language": "Makassar",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "allukka",
+    "language": "Makassar",
+    "concept": "to steal",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tallasaʔ",
+    "language": "Makassar",
+    "concept": "to live, be alive",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ammuɛ",
+    "language": "Makassar",
+    "concept": "to split",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "pokkoloʔ",
+    "language": "Makassar",
+    "concept": "dull, blunt",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "attimbo",
+    "language": "Makassar",
+    "concept": "to grow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ammaccoʔ",
+    "language": "Makassar",
+    "concept": "to squeeze",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "annaʔgalaʔ",
+    "language": "Makassar",
+    "concept": "to hold",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aŋŋɛkɛ",
+    "language": "Makassar",
+    "concept": "to dig",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aññuŋkɛ",
+    "language": "Makassar",
+    "concept": "to open, uncover",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aññambila",
+    "language": "Makassar",
+    "concept": "to throw",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tuʔguruʔ",
+    "language": "Makassar",
+    "concept": "to fall",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "koŋkoŋ",
+    "language": "Makassar",
+    "concept": "dog",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "jaŋanɟaŋaŋ",
+    "language": "Makassar",
+    "concept": "bird",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "bayâo",
+    "language": "Makassar",
+    "concept": "egg",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kaʔñiʔ",
+    "language": "Makassar",
+    "concept": "wing",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "jukuʔ",
+    "language": "Makassar",
+    "concept": "fish",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.985
+  },
+  {
+    "form": "bottoʔ",
+    "language": "Makassar",
+    "concept": "rotten",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lɛkoʔ",
+    "language": "Makassar",
+    "concept": "leaf",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "rapporappo",
+    "language": "Makassar",
+    "concept": "fruit",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "jeʔneʔ",
+    "language": "Makassar",
+    "concept": "water",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tamparaŋ",
+    "language": "Makassar",
+    "concept": "sea",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "cɛʔla",
+    "language": "Makassar",
+    "concept": "salt",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "rammaŋ",
+    "language": "Makassar",
+    "concept": "cloud",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "saliu",
+    "language": "Makassar",
+    "concept": "fog",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bambaŋ",
+    "language": "Makassar",
+    "concept": "warm",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kalotoroʔ",
+    "language": "Makassar",
+    "concept": "dry",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pɛpɛʔ",
+    "language": "Makassar",
+    "concept": "fire",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "lɛʔlɛŋ",
+    "language": "Makassar",
+    "concept": "black",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kɛboʔ",
+    "language": "Makassar",
+    "concept": "white",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "ɛja",
+    "language": "Makassar",
+    "concept": "red",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "moncoŋ bulo",
+    "language": "Makassar",
+    "concept": "green",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "caʔdi",
+    "language": "Makassar",
+    "concept": "small",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lompo",
+    "language": "Makassar",
+    "concept": "big",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ecereʔ",
+    "language": "Makassar",
+    "concept": "narrow",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "kodi",
+    "language": "Makassar",
+    "concept": "bad, evil",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "riŋapanna",
+    "language": "Makassar",
+    "concept": "when?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "añjo",
+    "language": "Makassar",
+    "concept": "that",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kɛmàɛ",
+    "language": "Makassar",
+    "concept": "where?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "iya ŋasɛŋ",
+    "language": "Makassar",
+    "concept": "they",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maraɛŋ",
+    "language": "Makassar",
+    "concept": "other",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "punna",
+    "language": "Makassar",
+    "concept": "if",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "antekamma",
+    "language": "Makassar",
+    "concept": "how?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "taɛna",
+    "language": "Makassar",
+    "concept": "no, not",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tɛna",
+    "language": "Makassar",
+    "concept": "no, not",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sagantuju",
+    "language": "Makassar",
+    "concept": "Eight",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ruampulo",
+    "language": "Makassar",
+    "concept": "Twenty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "limampulo",
+    "language": "Makassar",
+    "concept": "Fifty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sibilaŋŋaŋ",
+    "language": "Makassar",
+    "concept": "One Hundred",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sisaʔbu",
+    "language": "Makassar",
+    "concept": "One Thousand",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kawa",
+    "language": "Wolio",
+    "concept": "to come",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "umba",
+    "language": "Wolio",
+    "concept": "to come",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lari",
+    "language": "Wolio",
+    "concept": "to turn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "beŋku",
+    "language": "Wolio",
+    "concept": "to turn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ŋkaluŋkalu",
+    "language": "Wolio",
+    "concept": "intestines",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "baa",
+    "language": "Wolio",
+    "concept": "head",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "poinuñca",
+    "language": "Wolio",
+    "concept": "to breathe",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "naŋku",
+    "language": "Wolio",
+    "concept": "to chew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "paŋa",
+    "language": "Wolio",
+    "concept": "to chew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "sumpu",
+    "language": "Wolio",
+    "concept": "to drink",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bembaru",
+    "language": "Wolio",
+    "concept": "to bite",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "papaki",
+    "language": "Wolio",
+    "concept": "to bite",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tompa",
+    "language": "Wolio",
+    "concept": "to bite",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kamata",
+    "language": "Wolio",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pomea",
+    "language": "Wolio",
+    "concept": "to yawn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kole",
+    "language": "Wolio",
+    "concept": "to sleep",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "uncura",
+    "language": "Wolio",
+    "concept": "to sit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kabalebale",
+    "language": "Wolio",
+    "concept": "to stand",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mañcuana",
+    "language": "Wolio",
+    "concept": "wife",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "pada",
+    "language": "Wolio",
+    "concept": "thatch/roof",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "saro",
+    "language": "Wolio",
+    "concept": "name",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kooni",
+    "language": "Wolio",
+    "concept": "to say",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "puloli",
+    "language": "Wolio",
+    "concept": "rope",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "posorumba",
+    "language": "Wolio",
+    "concept": "to sew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sorumba",
+    "language": "Wolio",
+    "concept": "needle",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bebe",
+    "language": "Wolio",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "rambi",
+    "language": "Wolio",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kaŋkaru",
+    "language": "Wolio",
+    "concept": "to scratch",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ndamu",
+    "language": "Wolio",
+    "concept": "to cut, hack",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "laelae",
+    "language": "Wolio",
+    "concept": "to cut, hack",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "weta",
+    "language": "Wolio",
+    "concept": "to split",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "makundu",
+    "language": "Wolio",
+    "concept": "dull, blunt",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "tente",
+    "language": "Wolio",
+    "concept": "to swell",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "gende",
+    "language": "Wolio",
+    "concept": "to swell",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "keni",
+    "language": "Wolio",
+    "concept": "to hold",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "purokoti",
+    "language": "Wolio",
+    "concept": "to pound, beat",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pasaki",
+    "language": "Wolio",
+    "concept": "to pound, beat",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "banaka",
+    "language": "Wolio",
+    "concept": "to throw",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mantoa",
+    "language": "Wolio",
+    "concept": "dog",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "polaka",
+    "language": "Wolio",
+    "concept": "to fly",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bokoti",
+    "language": "Wolio",
+    "concept": "rat",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lenci",
+    "language": "Wolio",
+    "concept": "tail",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kawaowaode",
+    "language": "Wolio",
+    "concept": "mosquito",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tawa",
+    "language": "Wolio",
+    "concept": "leaf",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kulese",
+    "language": "Wolio",
+    "concept": "root",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "siwulu",
+    "language": "Wolio",
+    "concept": "to flow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "andala",
+    "language": "Wolio",
+    "concept": "sea",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "koo",
+    "language": "Wolio",
+    "concept": "woods/forest",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bula",
+    "language": "Wolio",
+    "concept": "sky",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ta'ina ŋalu",
+    "language": "Wolio",
+    "concept": "cloud",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wao",
+    "language": "Wolio",
+    "concept": "rain",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "berese",
+    "language": "Wolio",
+    "concept": "lightning",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "towii",
+    "language": "Wolio",
+    "concept": "to blow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "masodo",
+    "language": "Wolio",
+    "concept": "warm",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "matuu",
+    "language": "Wolio",
+    "concept": "dry",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "matamo",
+    "language": "Wolio",
+    "concept": "heavy",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "waa",
+    "language": "Wolio",
+    "concept": "fire",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maŋau",
+    "language": "Wolio",
+    "concept": "to burn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "walo",
+    "language": "Wolio",
+    "concept": "ashes",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maoge",
+    "language": "Wolio",
+    "concept": "big",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lewa",
+    "language": "Wolio",
+    "concept": "big",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "maewa",
+    "language": "Wolio",
+    "concept": "wide",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mapii",
+    "language": "Wolio",
+    "concept": "painful, sick",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mancuana",
+    "language": "Wolio",
+    "concept": "old",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "malape",
+    "language": "Wolio",
+    "concept": "good",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "opo",
+    "language": "Wolio",
+    "concept": "to hide",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "nuñca",
+    "language": "Wolio",
+    "concept": "in, inside",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "i tambe",
+    "language": "Wolio",
+    "concept": "below",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sii",
+    "language": "Wolio",
+    "concept": "this",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "humai",
+    "language": "Wolio",
+    "concept": "that",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "makasu",
+    "language": "Wolio",
+    "concept": "near",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "marido",
+    "language": "Wolio",
+    "concept": "far",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "i apai",
+    "language": "Wolio",
+    "concept": "where?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "incia",
+    "language": "Wolio",
+    "concept": "they",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "mosagaanana",
+    "language": "Wolio",
+    "concept": "other",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "maliŋu",
+    "language": "Wolio",
+    "concept": "all",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ande",
+    "language": "Wolio",
+    "concept": "if",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "nama",
+    "language": "Wolio",
+    "concept": "Six",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ʔana",
+    "language": "Wolio",
+    "concept": "Six",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "rua pulu",
+    "language": "Wolio",
+    "concept": "Twenty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lima pulu",
+    "language": "Wolio",
+    "concept": "Fifty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "saatu",
+    "language": "Wolio",
+    "concept": "One Hundred",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sarewu",
+    "language": "Wolio",
+    "concept": "One Thousand",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "letteʔ",
+    "language": "Toraja-Sadan",
+    "concept": "leg/foot",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sae",
+    "language": "Toraja-Sadan",
+    "concept": "to come",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "oroŋ",
+    "language": "Toraja-Sadan",
+    "concept": "to swim",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tambuk",
+    "language": "Toraja-Sadan",
+    "concept": "intestines",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "taŋaʔ",
+    "language": "Toraja-Sadan",
+    "concept": "to think",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "sadaŋ",
+    "language": "Toraja-Sadan",
+    "concept": "mouth",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "met-tudu",
+    "language": "Toraja-Sadan",
+    "concept": "to spit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "tiro",
+    "language": "Toraja-Sadan",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mammaʔ",
+    "language": "Toraja-Sadan",
+    "concept": "to sleep",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mammaʔ",
+    "language": "Toraja-Sadan",
+    "concept": "to lie down",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "noʔkoʔ",
+    "language": "Toraja-Sadan",
+    "concept": "to sit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bendan",
+    "language": "Toraja-Sadan",
+    "concept": "to stand",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pia",
+    "language": "Toraja-Sadan",
+    "concept": "child",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "po-kada",
+    "language": "Toraja-Sadan",
+    "concept": "to say",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pori",
+    "language": "Toraja-Sadan",
+    "concept": "to tie up, fasten",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "dasiʔ",
+    "language": "Toraja-Sadan",
+    "concept": "to sew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lola",
+    "language": "Toraja-Sadan",
+    "concept": "to hunt",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bamba",
+    "language": "Toraja-Sadan",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "boko",
+    "language": "Toraja-Sadan",
+    "concept": "to steal",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-pumpu",
+    "language": "Toraja-Sadan",
+    "concept": "dull, blunt",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "tue",
+    "language": "Toraja-Sadan",
+    "concept": "to hold",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "tibe",
+    "language": "Toraja-Sadan",
+    "concept": "to throw",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tobaŋ",
+    "language": "Toraja-Sadan",
+    "concept": "to fall",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "kalintiŋ",
+    "language": "Toraja-Sadan",
+    "concept": "worm (earthworm)",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kasisiʔ",
+    "language": "Toraja-Sadan",
+    "concept": "mosquito",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bosi",
+    "language": "Toraja-Sadan",
+    "concept": "rotten",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "riu",
+    "language": "Toraja-Sadan",
+    "concept": "grass",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "salebuʔ",
+    "language": "Toraja-Sadan",
+    "concept": "cloud",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pamurruʔ",
+    "language": "Toraja-Sadan",
+    "concept": "to blow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-sakkaʔ",
+    "language": "Toraja-Sadan",
+    "concept": "cold",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ma-gasa",
+    "language": "Toraja-Sadan",
+    "concept": "heavy",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kapua",
+    "language": "Toraja-Sadan",
+    "concept": "big",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kondiʔ",
+    "language": "Toraja-Sadan",
+    "concept": "short",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "dioŋ",
+    "language": "Toraja-Sadan",
+    "concept": "below",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "inda",
+    "language": "Toraja-Sadan",
+    "concept": "who?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "seŋaʔ",
+    "language": "Toraja-Sadan",
+    "concept": "other",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "iake",
+    "language": "Toraja-Sadan",
+    "concept": "if",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "taeʔ",
+    "language": "Toraja-Sadan",
+    "concept": "no, not",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "misa'",
+    "language": "Toraja-Sadan",
+    "concept": "One",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 0.985
+  },
+  {
+    "form": "annan",
+    "language": "Toraja-Sadan",
+    "concept": "Six",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "sangpulo",
+    "language": "Toraja-Sadan",
+    "concept": "Ten",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "duaŋpulo",
+    "language": "Toraja-Sadan",
+    "concept": "Twenty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "limaŋpulo",
+    "language": "Toraja-Sadan",
+    "concept": "Fifty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "saratuʔ",
+    "language": "Toraja-Sadan",
+    "concept": "One Hundred",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "saŋsaʔbu",
+    "language": "Toraja-Sadan",
+    "concept": "One Thousand",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "leu",
+    "language": "Tolaki",
+    "concept": "to come",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "putara",
+    "language": "Tolaki",
+    "concept": "to turn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bunggu",
+    "language": "Tolaki",
+    "concept": "back",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "usu",
+    "language": "Tolaki",
+    "concept": "intestines",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "bohe",
+    "language": "Tolaki",
+    "concept": "shoulder",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "to'ori",
+    "language": "Tolaki",
+    "concept": "to know, be knowledgeable",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "motaku",
+    "language": "Tolaki",
+    "concept": "to fear",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "beli",
+    "language": "Tolaki",
+    "concept": "blood",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "woroko",
+    "language": "Tolaki",
+    "concept": "neck",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mehonahona",
+    "language": "Tolaki",
+    "concept": "to breathe",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "penao",
+    "language": "Tolaki",
+    "concept": "to breathe",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "siusiu",
+    "language": "Tolaki",
+    "concept": "to sniff, smell",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pondu",
+    "language": "Tolaki",
+    "concept": "mouth",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "mototao",
+    "language": "Tolaki",
+    "concept": "to laugh",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "umi'ia",
+    "language": "Tolaki",
+    "concept": "to cry",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "hono",
+    "language": "Tolaki",
+    "concept": "to cry",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'ua",
+    "language": "Tolaki",
+    "concept": "to vomit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'eni",
+    "language": "Tolaki",
+    "concept": "to spit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kaa",
+    "language": "Tolaki",
+    "concept": "to chew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "mo'inu",
+    "language": "Tolaki",
+    "concept": "to drink",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kaa",
+    "language": "Tolaki",
+    "concept": "to bite",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "podea",
+    "language": "Tolaki",
+    "concept": "to hear",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ki'ii",
+    "language": "Tolaki",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ki'i",
+    "language": "Tolaki",
+    "concept": "to see",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'iso",
+    "language": "Tolaki",
+    "concept": "to sleep",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'iso'iso",
+    "language": "Tolaki",
+    "concept": "to lie down",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'ipi",
+    "language": "Tolaki",
+    "concept": "to dream",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mererehu",
+    "language": "Tolaki",
+    "concept": "to sit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "menggokora",
+    "language": "Tolaki",
+    "concept": "to stand",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "toono",
+    "language": "Tolaki",
+    "concept": "person/human being",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "langgai",
+    "language": "Tolaki",
+    "concept": "man/male",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "langgai",
+    "language": "Tolaki",
+    "concept": "husband",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tina",
+    "language": "Tolaki",
+    "concept": "wife",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "laika",
+    "language": "Tolaki",
+    "concept": "house",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tamo",
+    "language": "Tolaki",
+    "concept": "name",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "te'eni",
+    "language": "Tolaki",
+    "concept": "to say",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "oloo",
+    "language": "Tolaki",
+    "concept": "rope",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "onggo",
+    "language": "Tolaki",
+    "concept": "to tie up, fasten",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "moseu",
+    "language": "Tolaki",
+    "concept": "to sew",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "toni",
+    "language": "Tolaki",
+    "concept": "to hit",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ponini",
+    "language": "Tolaki",
+    "concept": "to steal",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "laa",
+    "language": "Tolaki",
+    "concept": "to live, be alive",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pole'i",
+    "language": "Tolaki",
+    "concept": "to cut, hack",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "pole",
+    "language": "Tolaki",
+    "concept": "to cut, hack",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tangge",
+    "language": "Tolaki",
+    "concept": "stick/wood",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.985
+  },
+  {
+    "form": "monggaso",
+    "language": "Tolaki",
+    "concept": "sharp",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mombaho",
+    "language": "Tolaki",
+    "concept": "to work",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mombaho",
+    "language": "Tolaki",
+    "concept": "to plant",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mepili",
+    "language": "Tolaki",
+    "concept": "to choose",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "toro",
+    "language": "Tolaki",
+    "concept": "to grow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "po'indi",
+    "language": "Tolaki",
+    "concept": "to hold",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "metanggali",
+    "language": "Tolaki",
+    "concept": "to dig",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "po'oli",
+    "language": "Tolaki",
+    "concept": "to buy",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "hungga",
+    "language": "Tolaki",
+    "concept": "to open, uncover",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "moaliali",
+    "language": "Tolaki",
+    "concept": "to pound, beat",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kali",
+    "language": "Tolaki",
+    "concept": "to throw",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'isa",
+    "language": "Tolaki",
+    "concept": "to fall",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "ti'olu",
+    "language": "Tolaki",
+    "concept": "egg",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wulumanumanu",
+    "language": "Tolaki",
+    "concept": "feather",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "kae",
+    "language": "Tolaki",
+    "concept": "wing",
+    "semantic_domain": "BODY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "lumaa",
+    "language": "Tolaki",
+    "concept": "to fly",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ramo",
+    "language": "Tolaki",
+    "concept": "meat/flesh",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ekoro",
+    "language": "Tolaki",
+    "concept": "tail",
+    "semantic_domain": "BODY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "uleule",
+    "language": "Tolaki",
+    "concept": "worm (earthworm)",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "tawa",
+    "language": "Tolaki",
+    "concept": "leaf",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "akara",
+    "language": "Tolaki",
+    "concept": "root",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wulele",
+    "language": "Tolaki",
+    "concept": "flower",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "rembu",
+    "language": "Tolaki",
+    "concept": "grass",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "woi",
+    "language": "Tolaki",
+    "concept": "water",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lumaa",
+    "language": "Tolaki",
+    "concept": "to flow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "peanihi",
+    "language": "Tolaki",
+    "concept": "salt",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ahoma",
+    "language": "Tolaki",
+    "concept": "woods/forest",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "lahuene",
+    "language": "Tolaki",
+    "concept": "sky",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wotiti",
+    "language": "Tolaki",
+    "concept": "star",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "gowa",
+    "language": "Tolaki",
+    "concept": "cloud",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "pua",
+    "language": "Tolaki",
+    "concept": "wind",
+    "semantic_domain": "NATURE",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mepua",
+    "language": "Tolaki",
+    "concept": "to blow",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mokula",
+    "language": "Tolaki",
+    "concept": "warm",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "morini",
+    "language": "Tolaki",
+    "concept": "cold",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mowatu",
+    "language": "Tolaki",
+    "concept": "dry",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "meiwoi",
+    "language": "Tolaki",
+    "concept": "wet",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "mobea",
+    "language": "Tolaki",
+    "concept": "heavy",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "hunu",
+    "language": "Tolaki",
+    "concept": "to burn",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "me'eto",
+    "language": "Tolaki",
+    "concept": "black",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mowila",
+    "language": "Tolaki",
+    "concept": "white",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "momea",
+    "language": "Tolaki",
+    "concept": "red",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mokuni",
+    "language": "Tolaki",
+    "concept": "yellow",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mo'osu",
+    "language": "Tolaki",
+    "concept": "green",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mohewu",
+    "language": "Tolaki",
+    "concept": "small",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wo'ose",
+    "language": "Tolaki",
+    "concept": "big",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "putu",
+    "language": "Tolaki",
+    "concept": "short",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mendaa",
+    "language": "Tolaki",
+    "concept": "long",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "mohewu",
+    "language": "Tolaki",
+    "concept": "narrow",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "molua",
+    "language": "Tolaki",
+    "concept": "wide",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mohaki",
+    "language": "Tolaki",
+    "concept": "painful, sick",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "kohanu",
+    "language": "Tolaki",
+    "concept": "shy, ashamed",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "motu'o",
+    "language": "Tolaki",
+    "concept": "old",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wo'ohu",
+    "language": "Tolaki",
+    "concept": "new",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "meambo",
+    "language": "Tolaki",
+    "concept": "good",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mosaa",
+    "language": "Tolaki",
+    "concept": "bad, evil",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "meara'i",
+    "language": "Tolaki",
+    "concept": "correct, true",
+    "semantic_domain": "QUALITY",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "wingi",
+    "language": "Tolaki",
+    "concept": "night",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "oleo",
+    "language": "Tolaki",
+    "concept": "day",
+    "semantic_domain": "OTHER",
+    "prob_substrate": 0.99
+  },
+  {
+    "form": "hi'i",
+    "language": "Tolaki",
+    "concept": "to hide",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "momone",
+    "language": "Tolaki",
+    "concept": "to climb",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "i wawo",
+    "language": "Tolaki",
+    "concept": "above",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "i lolu",
+    "language": "Tolaki",
+    "concept": "below",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "inono",
+    "language": "Tolaki",
+    "concept": "this",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "nggitu'o",
+    "language": "Tolaki",
+    "concept": "that",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "merambi",
+    "language": "Tolaki",
+    "concept": "near",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mondae",
+    "language": "Tolaki",
+    "concept": "far",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "humbee",
+    "language": "Tolaki",
+    "concept": "where?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "inaku",
+    "language": "Tolaki",
+    "concept": "I",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "inggo'o",
+    "language": "Tolaki",
+    "concept": "thou",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "i'ia",
+    "language": "Tolaki",
+    "concept": "he/she",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "ie'i",
+    "language": "Tolaki",
+    "concept": "he/she",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "inggomiu",
+    "language": "Tolaki",
+    "concept": "you",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mehira",
+    "language": "Tolaki",
+    "concept": "they",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mehiro",
+    "language": "Tolaki",
+    "concept": "they",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "hawo",
+    "language": "Tolaki",
+    "concept": "what?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "inae",
+    "language": "Tolaki",
+    "concept": "who?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "luwuako",
+    "language": "Tolaki",
+    "concept": "all",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "ronga",
+    "language": "Tolaki",
+    "concept": "and",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mano",
+    "language": "Tolaki",
+    "concept": "if",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "mombake hawo",
+    "language": "Tolaki",
+    "concept": "how?",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "oki",
+    "language": "Tolaki",
+    "concept": "no, not",
+    "semantic_domain": "GRAMMAR",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "do'a",
+    "language": "Tolaki",
+    "concept": "to count",
+    "semantic_domain": "ACTION",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "omba",
+    "language": "Tolaki",
+    "concept": "Four",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "hoalu",
+    "language": "Tolaki",
+    "concept": "Eight",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "hopulo",
+    "language": "Tolaki",
+    "concept": "Ten",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "ruambulo",
+    "language": "Tolaki",
+    "concept": "Twenty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "limambulo",
+    "language": "Tolaki",
+    "concept": "Fifty",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  },
+  {
+    "form": "aso'etu",
+    "language": "Tolaki",
+    "concept": "One Hundred",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 0.995
+  },
+  {
+    "form": "aso-sou",
+    "language": "Tolaki",
+    "concept": "One Thousand",
+    "semantic_domain": "NUMBER",
+    "prob_substrate": 1.0
+  }
+]
