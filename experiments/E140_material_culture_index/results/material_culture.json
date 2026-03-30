@@ -1,0 +1,19 @@
+{
+  "experiment": "E140_material_culture_index",
+  "total_mentions": 625,
+  "organic_pct": 59.519999999999996,
+  "inorganic_pct": 37.28,
+  "top_item": "bamboo/pring",
+  "top_item_count": 84,
+  "category_totals": {
+    "ORGANIC_PLANT": 304,
+    "METAL": 135,
+    "STONE_CERAMIC": 98,
+    "FOOD_AGRICULTURE": 46,
+    "TEXTILE_CRAFT": 22,
+    "WATER_MARITIME": 14,
+    "RITUAL_RELIGIOUS": 6,
+    "ORGANIC_ANIMAL": 0
+  },
+  "key_finding": "60% of material culture mentioned in inscriptions is organic (archaeologically invisible). The archaeological record preserves only the elite/ritual 37%."
+}
