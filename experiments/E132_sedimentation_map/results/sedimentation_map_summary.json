@@ -1,0 +1,10 @@
+{
+  "experiment": "E132_sedimentation_map",
+  "grid_cells": 2700,
+  "resolution_km": 5.5,
+  "model": "exponential decay from volcanoes, additive, decay_km=15",
+  "validation_rmse": 2.5366001373692306,
+  "validation_corr": 0.16152995129460296,
+  "mean_rate": 1.0203518518518517,
+  "pct_gt_4mmyr": 0.012222222222222223
+}
