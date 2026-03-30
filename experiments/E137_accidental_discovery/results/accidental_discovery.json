@@ -1,0 +1,9 @@
+{
+  "experiment": "E137_accidental_discovery",
+  "total_discovery_rate_yr": 3.052625,
+  "mean_wait_years": 0.32758691290282954,
+  "p_find_10yr": 0.9999999999999447,
+  "p_find_50yr": 1.0,
+  "liangan_paradox_resolved": true,
+  "key_insight": "Accidental discovery probability drops exponentially with depth. Pre-Hindu sites at 5-10m have ~0.07 discovery/year vs post-Hindu at 3-5m with ~3 discovery/year."
+}
