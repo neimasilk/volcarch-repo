@@ -6291,3 +6291,19 @@ Other options evaluated: Springer Nature (Indonesia not listed for waivers), T&F
 5. Register at editor.copernicus.org → upload → submit
 
 **Session paused: pre-Lebaran holiday. Resuming post-Eid.**
+
+## 2026-03-30 | DELPHER API ACCESS — Working Without Registration
+
+**Type:** DATA ACQUISITION
+**Status:** SUCCESS
+
+KB SRU API is **publicly accessible** without registration for public domain collections.
+
+- **Endpoint:** `https://jsru.kb.nl/sru/sru`
+- **Collection:** `DDD_artikel` (newspaper articles)
+- **Query syntax:** CQL with AND operator
+- **Test query:** `opgegraven AND diepte AND Java` → **281 results**
+- **Notable finds:** "OOST-JAVA Oudheidkundige Vondsten" (1939), "OPGRAVING IN KAMPONG" (1938)
+- Email to `dataservices@kb.nl` sent for full documentation
+
+P21 ColonialMine can begin immediately. No registration blocker.
