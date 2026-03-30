@@ -1,0 +1,112 @@
+{
+  "experiment": "E138_detection_methods",
+  "methods_analyzed": 8,
+  "detection_matrix": {
+    "surface_survey": {
+      "0.5m": 0.0,
+      "1m": 0.0,
+      "2m": 0.0,
+      "3m": 0.0,
+      "5m": 0.0,
+      "7m": 0.0,
+      "10m": 0.0,
+      "15m": 0.0,
+      "20m": 0.0,
+      "cost_per_km2_usd": 500,
+      "max_depth_m": 0.5
+    },
+    "shovel_test_pit": {
+      "0.5m": 1.0,
+      "1m": 0.5,
+      "2m": 0.0,
+      "3m": 0.0,
+      "5m": 0.0,
+      "7m": 0.0,
+      "10m": 0.0,
+      "15m": 0.0,
+      "20m": 0.0,
+      "cost_per_km2_usd": 5000,
+      "max_depth_m": 1.5
+    },
+    "GPR_ground_penetrating_radar": {
+      "0.5m": 0.9,
+      "1m": 0.9,
+      "2m": 0.7,
+      "3m": 0.4,
+      "5m": 0.0,
+      "7m": 0.0,
+      "10m": 0.0,
+      "15m": 0.0,
+      "20m": 0.0,
+      "cost_per_km2_usd": 20000,
+      "max_depth_m": 5.0
+    },
+    "ERT_electrical_resistivity": {
+      "0.5m": 0.6,
+      "1m": 0.6,
+      "2m": 0.6,
+      "3m": 0.6,
+      "5m": 0.4,
+      "7m": 0.4,
+      "10m": 0.2,
+      "15m": 0.2,
+      "20m": 0.0,
+      "cost_per_km2_usd": 15000,
+      "max_depth_m": 20.0
+    },
+    "magnetic_survey": {
+      "0.5m": 0.8,
+      "1m": 0.5,
+      "2m": 0.2,
+      "3m": 0.0,
+      "5m": 0.0,
+      "7m": 0.0,
+      "10m": 0.0,
+      "15m": 0.0,
+      "20m": 0.0,
+      "cost_per_km2_usd": 8000,
+      "max_depth_m": 3.0
+    },
+    "LiDAR_airborne": {
+      "0.5m": 0.1,
+      "1m": 0.0,
+      "2m": 0.0,
+      "3m": 0.0,
+      "5m": 0.0,
+      "7m": 0.0,
+      "10m": 0.0,
+      "15m": 0.0,
+      "20m": 0.0,
+      "cost_per_km2_usd": 100,
+      "max_depth_m": 0
+    },
+    "mechanical_coring": {
+      "0.5m": 0.3,
+      "1m": 0.3,
+      "2m": 0.3,
+      "3m": 0.3,
+      "5m": 0.3,
+      "7m": 0.3,
+      "10m": 0.3,
+      "15m": 0.2,
+      "20m": 0.2,
+      "cost_per_km2_usd": 50000,
+      "max_depth_m": 30.0
+    },
+    "satellite_NDVI": {
+      "0.5m": 0.1,
+      "1m": 0.1,
+      "2m": 0.05,
+      "3m": 0.05,
+      "5m": 0.0,
+      "7m": 0.0,
+      "10m": 0.0,
+      "15m": 0.0,
+      "20m": 0.0,
+      "cost_per_km2_usd": 0,
+      "max_depth_m": 0
+    }
+  },
+  "optimal_budget_usd": "35,000-70,000",
+  "recommendation": "LiDAR/satellite -> GPR/ERT -> targeted coring (3-phase approach)"
+}
