@@ -1,9 +1,9 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-22 (post-mudik session 5: dissemination pivot + P1/P11/P17 fixes + comparative civilization analysis)
-**MODE: POST-MUDIK — CONSOLIDATION + DISSEMINATION.** Priority: (1) submit P1 to EGQSJ, (2) aggressive dissemination. Moratorium on new experiments.
-**NEW:** Dissemination roadmap created: `docs/DISSEMINATION_ROADMAP.md`. LiDAR contact opportunity identified.
+**Last updated:** 2026-03-30 (session 7: back at campus — 3 deliverables completed)
+**MODE: CONSOLIDATION + DISSEMINATION.** Priority: (1) submit P1 to EGQSJ, (2) aggressive dissemination. Moratorium on new experiments.
+**NEW (session 7):** LiDAR 1-page pitch DONE (`docs/dissemination/lidar_pitch.md`). README.md rewritten for GitHub go-public (professional, citable, Zenodo badge). YouTube Ep2 outline DONE (`docs/dissemination/youtube_ep2_outline.md`).
 
 ---
 
@@ -107,6 +107,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Session 7 (2026-03-30)** — Back at campus. 3 deliverables: (1) LiDAR 1-page pitch for company contact — 10 GPS targets, Amazon precedent, value proposition, (2) README.md professional rewrite for GitHub go-public — Zenodo badge, 120 experiments summary, citation block, (3) YouTube Ep2 "Patung yang Ditelan Bumi" full outline — 10-min Dwarapala Singosari deep dive. Dissemination roadmap tracking updated.
 - **Post-Mudik Session 6 (2026-03-22)** — Sustainability deliverables: YouTube Ep1 script (15 min, Bahasa Indonesia), NatGeo Explorer Grant outline ($20K GPR/ERT pilot), DRPM Penelitian Dasar skeleton (Rp 500M/3yr). All pushed to GitHub.
 - **Post-Mudik Session 5 (2026-03-22)** — **Strategic pivot: dissemination.** Comparative civilization gap analysis (11 civilizations, 5 patterns, 7 gaps, 5 possibilities). Dissemination roadmap created (`docs/DISSEMINATION_ROADMAP.md`): 4-tier strategy from GitHub/YouTube to funding/documentary. LiDAR contact identified (needs 1-page pitch). Technical: P1 ORCID fixed, P11 +4 refs +Liangan section +Ceren sentence, P17 experiment count fixed +spelling +fig:model removed. All pushed to GitHub.
 - **Post-Mudik Session 4 (2026-03-22)** — Handoff document created (`docs/HANDOFF_20260321_SESSION4.md`). WORKSTATE updated. Continuation prompt delivered to Pak Amien.
@@ -151,8 +152,8 @@ P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully read
 PRIORITIES (post-mudik):
 1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL items DONE. ORCID fixed session 5.
 2. **Verify JCAA APC** — P2 charges £450. Check if waiver applied. If not, apply for CAA waiver fund immediately.
-3. **LiDAR 1-page pitch** — create for Pak Amien's contact. Amazon precedent + 10 GPS targets + PR value.
-4. **GitHub repo go public** — review, clean, rewrite README. Permanent visibility.
+3. ~~**LiDAR 1-page pitch**~~ — **DONE** (session 7). `docs/dissemination/lidar_pitch.md`. Send to contact.
+4. **GitHub repo go public** — README DONE (session 7). Review for sensitive files → go public.
 5. **P11 submit Indonesia (Cornell)** — DHARMA/Liangan/Ceren fixes DONE. Decide target → submit.
 6. **P17 submit Archeologia e Calcolatori** — download editorial rules (blocking), user review, deadline Dec 31
 7. P16 submit DHQ — user review + expand

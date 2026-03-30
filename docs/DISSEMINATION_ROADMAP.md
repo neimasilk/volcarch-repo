@@ -199,10 +199,11 @@ VOLCARCH has 120 experiments, 5+ papers ready/submitted, and strong evidence. Th
 | Item | Status | Blocker | Next Action |
 |------|--------|---------|-------------|
 | P1 EGQSJ submit | READY | Pak Amien registers at Copernicus | Register + upload |
-| GitHub public | NOT STARTED | Review repo contents | Clean + rewrite README |
+| GitHub public | **README DONE** | Pak Amien review sensitive files | Go public |
 | Zenodo P17 | NOT STARTED | Pak Amien review | Deposit after review |
-| LiDAR pitch | NOT STARTED | None | Create 1-pager |
-| YouTube Ep.1 script | NOT STARTED | Time + back at office | Write script |
+| LiDAR pitch | **DONE** | None | `docs/dissemination/lidar_pitch.md` — send to contact |
+| YouTube Ep.1 script | **DONE** (session 6) | Production (Canva + voiceover) | Record |
+| YouTube Ep.2 outline | **DONE** | Ep.1 published first | `docs/dissemination/youtube_ep2_outline.md` |
 | Interactive map | NOT STARTED | E119 data compilation | Build Folium map |
 | Conference research | NOT STARTED | Back at office | Check IPPA/CAA/PIA dates |
 | Collaboration letters | NOT STARTED | 1 accepted paper | Draft after acceptance |
