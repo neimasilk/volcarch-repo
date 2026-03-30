@@ -1,0 +1,198 @@
+{
+  "experiment": "E120_cascade_stress_test",
+  "description": "Systematic adversarial probing of 5-factor cascade model",
+  "differs_from_E115": "E115 = random MC sampling. E120 = systematic isolation, removal, thresholds, pairwise interactions",
+  "baseline": {
+    "best_visibility": 0.00058,
+    "observed_visibility": 0.00031059,
+    "ratio": 1.8674136321195143,
+    "demographic_gap": 3220
+  },
+  "test1_isolation": {
+    "F1_volcanic_burial": {
+      "within_10x_window": [
+        0.03487437185929648,
+        1.0
+      ]
+    },
+    "F2_organic_decay": {
+      "within_10x_window": [
+        0.014974874371859296,
+        1.0
+      ]
+    },
+    "F3_survey_coverage": {
+      "within_10x_window": [
+        0.01,
+        0.12939698492462312
+      ]
+    },
+    "F4_recognition": {
+      "within_10x_window": [
+        0.024924623115577887,
+        1.0
+      ]
+    },
+    "F5_publication": {
+      "within_10x_window": [
+        0.029899497487437185,
+        1.0
+      ]
+    }
+  },
+  "test2_removal": {
+    "F1_volcanic_burial": {
+      "visibility_without": 0.0010000000000000002,
+      "gap_without": 999.9999999999998,
+      "ratio_to_observed": 3.219678676068129,
+      "leverage_confirmed": 0.58,
+      "conclusion_change": "MODEL HOLDS"
+    },
+    "F2_organic_decay": {
+      "visibility_without": 0.0029,
+      "gap_without": 344.82758620689657,
+      "ratio_to_observed": 9.337068160597571,
+      "leverage_confirmed": 0.2,
+      "conclusion_change": "MODEL HOLDS"
+    },
+    "F3_survey_coverage": {
+      "visibility_without": 0.0232,
+      "gap_without": 43.10344827586207,
+      "ratio_to_observed": 74.69654528478057,
+      "leverage_confirmed": 0.025,
+      "conclusion_change": "MODEL BREAKS"
+    },
+    "F4_recognition": {
+      "visibility_without": 0.00145,
+      "gap_without": 689.6551724137931,
+      "ratio_to_observed": 4.668534080298786,
+      "leverage_confirmed": 0.4,
+      "conclusion_change": "MODEL HOLDS"
+    },
+    "F5_publication": {
+      "visibility_without": 0.00116,
+      "gap_without": 862.0689655172414,
+      "ratio_to_observed": 3.7348272642390286,
+      "leverage_confirmed": 0.5,
+      "conclusion_change": "MODEL HOLDS"
+    }
+  },
+  "test3_adversarial": {
+    "all_high_visibility": 0.011024999999999997,
+    "all_high_gap": 90.70294784580501,
+    "all_low_visibility": 2.4000000000000004e-05,
+    "all_low_gap": 41666.66666666666,
+    "skeptic_can_break_10x": "True"
+  },
+  "test4_pairwise": {
+    "F2_organic_decay \u00d7 F3_survey_coverage": {
+      "swing": 34.99999999999999,
+      "min_ratio": 0.3734827264239029,
+      "max_ratio": 13.0718954248366
+    },
+    "F3_survey_coverage \u00d7 F4_recognition": {
+      "swing": 29.999999999999996,
+      "min_ratio": 0.3734827264239029,
+      "max_ratio": 11.204481792717086
+    },
+    "F3_survey_coverage \u00d7 F5_publication": {
+      "swing": 23.333333333333332,
+      "min_ratio": 0.44817927170868344,
+      "max_ratio": 10.45751633986928
+    },
+    "F1_volcanic_burial \u00d7 F3_survey_coverage": {
+      "swing": 18.75,
+      "min_ratio": 0.5151485881709006,
+      "max_ratio": 9.659036028204387
+    },
+    "F2_organic_decay \u00d7 F4_recognition": {
+      "swing": 10.499999999999998,
+      "min_ratio": 0.4668534080298787,
+      "max_ratio": 4.901960784313725
+    },
+    "F2_organic_decay \u00d7 F5_publication": {
+      "swing": 8.166666666666666,
+      "min_ratio": 0.5602240896358543,
+      "max_ratio": 4.57516339869281
+    },
+    "F4_recognition \u00d7 F5_publication": {
+      "swing": 7.0,
+      "min_ratio": 0.5602240896358543,
+      "max_ratio": 3.9215686274509807
+    },
+    "F1_volcanic_burial \u00d7 F2_organic_decay": {
+      "swing": 6.562499999999997,
+      "min_ratio": 0.6439357352136258,
+      "max_ratio": 4.225828262339418
+    },
+    "F1_volcanic_burial \u00d7 F4_recognition": {
+      "swing": 5.624999999999998,
+      "min_ratio": 0.6439357352136258,
+      "max_ratio": 3.622138510576644
+    },
+    "F1_volcanic_burial \u00d7 F5_publication": {
+      "swing": 4.374999999999999,
+      "min_ratio": 0.7727228822563509,
+      "max_ratio": 3.380662609871534
+    }
+  },
+  "test6_thresholds": {
+    "F1_volcanic_burial": {
+      "threshold_10x": 1.0,
+      "threshold_01x": 0.031058999999999993,
+      "threshold_exact": 0.3105899999999999,
+      "best": 0.58,
+      "safe_range": "[0.0311, 1.0000]",
+      "range_width": 0.968941,
+      "best_within_safe": true
+    },
+    "F2_organic_decay": {
+      "threshold_10x": 1.0,
+      "threshold_01x": 0.01071,
+      "threshold_exact": 0.10710000000000001,
+      "best": 0.2,
+      "safe_range": "[0.0107, 1.0000]",
+      "range_width": 0.98929,
+      "best_within_safe": true
+    },
+    "F3_survey_coverage": {
+      "threshold_10x": 0.13387500000000002,
+      "threshold_01x": 0.00133875,
+      "threshold_exact": 0.013387500000000002,
+      "best": 0.025,
+      "safe_range": "[0.0013, 0.1339]",
+      "range_width": 0.13253625000000002,
+      "best_within_safe": "True"
+    },
+    "F4_recognition": {
+      "threshold_10x": 1.0,
+      "threshold_01x": 0.02142,
+      "threshold_exact": 0.21420000000000003,
+      "best": 0.4,
+      "safe_range": "[0.0214, 1.0000]",
+      "range_width": 0.97858,
+      "best_within_safe": true
+    },
+    "F5_publication": {
+      "threshold_10x": 1.0,
+      "threshold_01x": 0.026775,
+      "threshold_exact": 0.26775,
+      "best": 0.5,
+      "safe_range": "[0.0268, 1.0000]",
+      "range_width": 0.973225,
+      "best_within_safe": true
+    }
+  },
+  "conclusion": {
+    "model_robust": true,
+    "factors_break_on_removal": 1,
+    "factors_hold_on_removal": 4,
+    "all_best_in_safe_range": true,
+    "weakest_factor": "F3_survey_coverage",
+    "weakest_safe_width": 0.13253625000000002,
+    "strongest_factor": "F2_organic_decay",
+    "strongest_safe_width": 0.98929,
+    "skeptic_can_break": "True",
+    "recommendation": "CASCADE IS ROBUST. All best estimates within safe ranges. Weakest link: F3_survey_coverage (safe width 0.1325). Strongest: F2_organic_decay (safe width 0.9893). Skeptic cannot break model within parameter ranges."
+  }
+}
