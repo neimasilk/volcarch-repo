@@ -1,0 +1,24 @@
+{
+  "experiment": "E126_global_volcanic_archaeology",
+  "total_sites": 20,
+  "countries": {
+    "Italy": 4,
+    "Greece": 1,
+    "El Salvador": 1,
+    "Mexico": 2,
+    "Japan": 3,
+    "Indonesia": 5,
+    "New Zealand": 1,
+    "Iceland": 1,
+    "Philippines": 1,
+    "Tanzania": 1
+  },
+  "java_sites": 5,
+  "java_all_hindu_era": true,
+  "java_pre_hindu_buried": 0,
+  "global_depth_mean": 5.2275,
+  "global_depth_median": 5.0,
+  "discovery_pattern": "Most volcanic-buried sites discovered accidentally",
+  "java_uniqueness": "Only major volcanic region with zero pre-400 CE buried open-air sites despite 1M+ year occupation",
+  "implication": "Pre-Hindu sites would only be found by activities reaching >5m depth, which are rare in Java"
+}
