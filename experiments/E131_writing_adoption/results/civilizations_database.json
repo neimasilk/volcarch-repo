@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Sumeria",
+    "region": "Mesopotamia",
+    "first_writing": -3400,
+    "system": "Cuneiform",
+    "medium": "clay tablet",
+    "context": "accounting/trade"
+  },
+  {
+    "name": "Egypt",
+    "region": "North Africa",
+    "first_writing": -3200,
+    "system": "Hieroglyphic",
+    "medium": "stone/papyrus",
+    "context": "royal/religious"
+  },
+  {
+    "name": "Indus Valley",
+    "region": "South Asia",
+    "first_writing": -2600,
+    "system": "Indus script (undeciphered)",
+    "medium": "seal/pottery",
+    "context": "trade/admin"
+  },
+  {
+    "name": "China",
+    "region": "East Asia",
+    "first_writing": -1200,
+    "system": "Oracle bone script",
+    "medium": "bone/shell",
+    "context": "divination"
+  },
+  {
+    "name": "Mesoamerica (Zapotec)",
+    "region": "Central America",
+    "first_writing": -600,
+    "system": "Zapotec",
+    "medium": "stone",
+    "context": "calendar/political"
+  },
+  {
+    "name": "Mesoamerica (Maya)",
+    "region": "Central America",
+    "first_writing": -300,
+    "system": "Maya hieroglyphic",
+    "medium": "stone/bark",
+    "context": "political/calendar"
+  },
+  {
+    "name": "Greece",
+    "region": "Mediterranean",
+    "first_writing": -800,
+    "system": "Greek alphabet",
+    "medium": "stone/pottery",
+    "context": "various"
+  },
+  {
+    "name": "Phoenicia",
+    "region": "Levant",
+    "first_writing": -1050,
+    "system": "Phoenician alphabet",
+    "medium": "stone",
+    "context": "trade"
+  },
+  {
+    "name": "Rome",
+    "region": "Mediterranean",
+    "first_writing": -600,
+    "system": "Latin",
+    "medium": "stone/wax",
+    "context": "legal/political"
+  },
+  {
+    "name": "India (Brahmi)",
+    "region": "South Asia",
+    "first_writing": -300,
+    "system": "Brahmi",
+    "medium": "stone/copper",
+    "context": "royal/Buddhist"
+  },
+  {
+    "name": "Korea",
+    "region": "East Asia",
+    "first_writing": 400,
+    "system": "Chinese characters (borrowed)",
+    "medium": "stone/wood",
+    "context": "royal"
+  },
+  {
+    "name": "Japan",
+    "region": "East Asia",
+    "first_writing": 400,
+    "system": "Chinese characters (borrowed)",
+    "medium": "various",
+    "context": "royal/Buddhist"
+  },
+  {
+    "name": "Ethiopia (Aksumite)",
+    "region": "East Africa",
+    "first_writing": 100,
+    "system": "Ge'ez",
+    "medium": "stone",
+    "context": "royal"
+  },
+  {
+    "name": "Tibet",
+    "region": "Central Asia",
+    "first_writing": 600,
+    "system": "Tibetan (from Brahmi)",
+    "medium": "stone/paper",
+    "context": "Buddhist"
+  },
+  {
+    "name": "Cambodia (Funan/Chenla)",
+    "region": "SE Asia",
+    "first_writing": 250,
+    "system": "Sanskrit/Pallava",
+    "medium": "stone",
+    "context": "royal/religious"
+  },
+  {
+    "name": "Champa (Vietnam)",
+    "region": "SE Asia",
+    "first_writing": 200,
+    "system": "Sanskrit/Cham",
+    "medium": "stone",
+    "context": "royal"
+  },
+  {
+    "name": "Java/Nusantara",
+    "region": "SE Asia",
+    "first_writing": 400,
+    "system": "Sanskrit/Pallava (Yupa inscriptions)",
+    "medium": "stone pillar",
+    "context": "royal/religious"
+  },
+  {
+    "name": "Thailand (Dvaravati)",
+    "region": "SE Asia",
+    "first_writing": 500,
+    "system": "Mon/Sanskrit",
+    "medium": "stone",
+    "context": "Buddhist"
+  },
+  {
+    "name": "Myanmar (Pyu)",
+    "region": "SE Asia",
+    "first_writing": 200,
+    "system": "Brahmi derivative",
+    "medium": "stone/gold",
+    "context": "Buddhist"
+  },
+  {
+    "name": "Philippines",
+    "region": "SE Asia",
+    "first_writing": 900,
+    "system": "Baybayin (Kawi derivative)",
+    "medium": "copper/bamboo",
+    "context": "legal (Laguna Copperplate)"
+  },
+  {
+    "name": "Madagascar",
+    "region": "Indian Ocean",
+    "first_writing": 1000,
+    "system": "Arabic (Sorabe)",
+    "medium": "paper",
+    "context": "Islamic"
+  },
+  {
+    "name": "Scandinavia (Runes)",
+    "region": "Northern Europe",
+    "first_writing": 150,
+    "system": "Runic",
+    "medium": "stone/wood/metal",
+    "context": "magical/memorial"
+  },
+  {
+    "name": "Polynesia",
+    "region": "Pacific",
+    "first_writing": 1200,
+    "system": "Rongorongo (Easter Island, debated)",
+    "medium": "wood",
+    "context": "unclear (possibly mnemonic)"
+  },
+  {
+    "name": "Sub-Saharan Africa (Nsibidi)",
+    "region": "West Africa",
+    "first_writing": -400,
+    "system": "Nsibidi (ideographic)",
+    "medium": "body/cloth/wall",
+    "context": "secret society/communication"
+  },
+  {
+    "name": "Aboriginal Australia",
+    "region": "Oceania",
+    "first_writing": null,
+    "system": "No writing system adopted pre-colonially",
+    "medium": "oral + art",
+    "context": "Oldest continuous culture (65,000+ years) without writing"
+  }
+]
