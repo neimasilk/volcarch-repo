@@ -9,15 +9,13 @@
 
 ## IN PROGRESS
 
-- **P1 → EGQSJ FULLY READY** (submit post-mudik)
-  - Files: `papers/P1_taphonomic_framework/submission_egqsj_v1.0.tex`, `references.bib`
-  - **Zenodo DOI: 10.5281/zenodo.19081502** — published 2026-03-18, CC-BY 4.0
-  - Authors: Mukhlis Amien (ORCID: 0000-0002-1848-167X) + Go Frendi Gunawan (ORCID: 0000-0001-9723-5735)
-  - Target journal: **EGQSJ** (Copernicus, Diamond OA, Scopus+WoS)
-  - **ALL pre-submission items DONE:** ORCID added, GitHub URL fixed, 5/5 references verified (DOIs corrected for miksic2004 + french2003), prose audit clean
-  - Next: register at editor.copernicus.org → upload → submit
-  - Cover letter draft in `docs/HANDOFF_20260318_P1_EGQSJ.md`
-  - Revision ammo: 9 files including Philippines comparandum + Dong Son drums (new)
+- **P1 → EGQSJ SUBMITTED** (2026-03-30)
+  - **MS# egqsj-2026-3** | Copernicus User ID: 883530
+  - Submitted via Playwright automation. PDF uploaded + finalized.
+  - Waiver 100% APC requested (justification: developing country, no institutional funding)
+  - Zenodo preprint live: DOI 10.5281/zenodo.19081502
+  - **Next: WAIT for editor assignment + reviewer feedback (2-6 months)**
+  - Revision ammo ready: 9 files + E120-E140 new findings
 - **P11 finalization** — v0.3 drafted (18pp), AI markers fixed, **PRE-FLIGHT COMPLETE**
   - Files: `papers/P11_volcanic_informedness/draft_v0.3.tex`, `SUBMISSION_PREP.md`, `PREFLIGHT_REVIEW.md`
   - ~~Target: Wacana~~ — **WACANA NOT VIABLE** (thematic journal, "Kawi" issue already published, no suitable open issue)
@@ -70,7 +68,7 @@
 | Paper | Journal | MS# | Submitted | Status |
 |-------|---------|-----|-----------|--------|
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
-| **P1** | **EGQSJ** (Copernicus, Diamond OA) | — | **READY TO SUBMIT** | `submission_egqsj_v1.0.tex` |
+| **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
 | P7 | Antiquity Project Gallery | — | 2026-03-06 | **Under review** — 1 revision ammo file |

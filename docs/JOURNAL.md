@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-03-30 | P1 SUBMITTED TO EGQSJ — egqsj-2026-3
+
+**Type:** SUBMISSION
+**Status:** COMPLETE
+
+P1 "Multi-Site Calibration of Volcanic Sedimentation Rates and Implications for Archaeological Visibility in Java, Indonesia" submitted to E&G Quaternary Science Journal (Copernicus, Diamond OA, Scopus+WoS).
+
+- **MS#:** egqsj-2026-3
+- **Authors:** Mukhlis Amien (CA) + Go Frendi Gunawan (CA)
+- **Subject areas:** Geoarchaeology + Quaternary geology
+- **APC:** 100% waiver requested
+- **Preprint:** Zenodo DOI 10.5281/zenodo.19081502
+- **Previous submission:** Asian Perspectives (rejected, AI flag)
+- **Pre-submission fixes this session:** Figure 1 (side-by-side comparison), Figure 2 (timeline layout), Figure 4 (legend position), prose humanization, cascade model justification added, "Java-wide" claim softened
+- **Adversarial review:** Gemini + ChatGPT reviewed; 2 fixes adopted, 7 already addressed in Limitations
+
+Submitted via Playwright browser automation from Claude Code.
+
+---
+
 ## 2026-03-30 | AUTONOMOUS RESEARCH DAY — 14 New Experiments (E120-E133)
 
 **Type:** AUTONOMOUS EXECUTION / STRATEGIC REVIEW / SYNTHESIS
