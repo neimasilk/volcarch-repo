@@ -25,8 +25,9 @@ FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def fig1_dwarapala_timeline():
-    """Fig 1: Dwarapala burial timeline showing sedimentation accumulation."""
-    fig, ax = plt.subplots(figsize=(10, 5.5))
+    """Fig 1: Dwarapala burial timeline showing sedimentation accumulation.
+    Now with larger figure, more spacing to prevent text overlap."""
+    fig, ax = plt.subplots(figsize=(12, 7))
 
     # Timeline parameters
     years = [1268, 1803, 2026]
@@ -37,83 +38,83 @@ def fig1_dwarapala_timeline():
     ]
     burial_cm = [0, 185, 185 + (2026 - 1803) * 0.36]  # 0.36 cm/yr
 
-    # Draw timeline axis
-    ax.axhline(y=0.5, xmin=0.05, xmax=0.95, color="#333", linewidth=2, zorder=1)
+    # Draw timeline axis — moved up to give more room below
+    ax.axhline(y=0.55, xmin=0.05, xmax=0.95, color="#333", linewidth=2, zorder=1)
 
-    # Position markers
-    x_positions = [0.15, 0.55, 0.85]
+    # Position markers — more spread
+    x_positions = [0.12, 0.52, 0.88]
     for i, (xp, yr, lbl, depth) in enumerate(zip(x_positions, years, labels, burial_cm)):
         # Vertical marker
-        ax.plot([xp, xp], [0.45, 0.55], color="#333", linewidth=2, zorder=2,
+        ax.plot([xp, xp], [0.50, 0.60], color="#333", linewidth=2, zorder=2,
                 transform=ax.transAxes)
         # Circle marker
         color = ["#D32F2F", "#1565C0", "#2E7D32"][i]
-        ax.plot(xp, 0.5, "o", color=color, markersize=14, zorder=3,
+        ax.plot(xp, 0.55, "o", color=color, markersize=14, zorder=3,
                 transform=ax.transAxes)
-        # Label above
-        ax.text(xp, 0.68, lbl, ha="center", va="center", fontsize=9,
+        # Label above — more padding
+        ax.text(xp, 0.73, lbl, ha="center", va="center", fontsize=9,
                 fontweight="bold", transform=ax.transAxes)
         # Burial depth below
         if i > 0:
-            ax.text(xp, 0.30, f"Burial: ~{depth:.0f} cm\n({depth/100:.1f} m)",
+            ax.text(xp, 0.35, f"Burial: ~{depth:.0f} cm\n({depth/100:.1f} m)",
                     ha="center", va="center", fontsize=8.5, color="#555",
                     transform=ax.transAxes)
 
-    # Arrows between points with duration
-    ax.annotate("", xy=(0.55, 0.50), xytext=(0.15, 0.50),
+    # Arrows between points with duration — adjusted y
+    ax.annotate("", xy=(0.52, 0.55), xytext=(0.12, 0.55),
                 arrowprops=dict(arrowstyle="->", color="#888", lw=1.5),
                 xycoords="axes fraction")
-    ax.text(0.35, 0.56, "535 years\n3.6 mm/yr sedimentation",
+    ax.text(0.32, 0.62, "535 years\n3.6 mm/yr sedimentation",
             ha="center", va="bottom", fontsize=8, color="#666",
             transform=ax.transAxes)
 
-    ax.annotate("", xy=(0.85, 0.50), xytext=(0.55, 0.50),
+    ax.annotate("", xy=(0.88, 0.55), xytext=(0.52, 0.55),
                 arrowprops=dict(arrowstyle="->", color="#888", lw=1.5),
                 xycoords="axes fraction")
-    ax.text(0.70, 0.56, "223 years\ncontinuing burial",
+    ax.text(0.70, 0.62, "223 years\ncontinuing burial",
             ha="center", va="bottom", fontsize=8, color="#666",
             transform=ax.transAxes)
 
-    # Statue schematic at bottom
+    # Statue schematic at bottom — more vertical space
     # 1268: fully exposed
-    rect1 = FancyBboxPatch((0.11, 0.05), 0.08, 0.18, boxstyle="round,pad=0.01",
+    rect1 = FancyBboxPatch((0.08, 0.08), 0.08, 0.20, boxstyle="round,pad=0.01",
                             facecolor="#D4A574", edgecolor="#8B6914", linewidth=1.5,
                             transform=ax.transAxes)
     ax.add_patch(rect1)
-    ax.text(0.15, 0.14, "370 cm\nexposed", ha="center", va="center", fontsize=6.5,
+    ax.text(0.12, 0.18, "370 cm\nexposed", ha="center", va="center", fontsize=7,
             transform=ax.transAxes)
 
     # 1803: half buried
-    rect2_top = FancyBboxPatch((0.51, 0.14), 0.08, 0.09, boxstyle="round,pad=0.01",
+    rect2_top = FancyBboxPatch((0.48, 0.18), 0.08, 0.10, boxstyle="round,pad=0.01",
                                 facecolor="#D4A574", edgecolor="#8B6914", linewidth=1.5,
                                 transform=ax.transAxes)
-    rect2_buried = FancyBboxPatch((0.51, 0.05), 0.08, 0.09, boxstyle="round,pad=0.01",
+    rect2_buried = FancyBboxPatch((0.48, 0.08), 0.08, 0.10, boxstyle="round,pad=0.01",
                                    facecolor="#A0522D", edgecolor="#8B6914", linewidth=1.5,
                                    transform=ax.transAxes, alpha=0.5)
     ax.add_patch(rect2_buried)
     ax.add_patch(rect2_top)
-    ax.axhline(y=0.14, xmin=0.48, xmax=0.62, color="#654321", linewidth=1.5,
+    ax.axhline(y=0.18, xmin=0.44, xmax=0.60, color="#654321", linewidth=1.5,
                linestyle="--", alpha=0.7)
-    ax.text(0.55, 0.185, "185 cm\nexposed", ha="center", va="center", fontsize=6.5,
+    ax.text(0.52, 0.235, "185 cm\nexposed", ha="center", va="center", fontsize=7,
             transform=ax.transAxes)
-    ax.text(0.55, 0.095, "185 cm\nburied", ha="center", va="center", fontsize=6.5,
+    ax.text(0.52, 0.13, "185 cm\nburied", ha="center", va="center", fontsize=7,
             color="white", transform=ax.transAxes)
 
     # Ground level label
-    ax.text(0.63, 0.14, "ground\nlevel", ha="left", va="center", fontsize=6,
+    ax.text(0.61, 0.18, "ground\nlevel", ha="left", va="center", fontsize=6.5,
             color="#654321", style="italic", transform=ax.transAxes)
 
-    # Key finding box
+    # Key finding box — at very bottom
     bbox_props = dict(boxstyle="round,pad=0.4", facecolor="#FFF9C4", edgecolor="#F9A825",
                       linewidth=1.5)
-    ax.text(0.50, -0.08,
-            "Rate = 185 cm / 510 yr = 3.6 mm/yr  |  Kelud: ~20 eruptions in period  |  "
-            "Cross-system mean: 4.4 ± 1.2 mm/yr",
+    ax.text(0.50, -0.05,
+            "Rate = 185 cm / 535 yr = 3.5 mm/yr  |  Kelud: ~20 eruptions in period  |  "
+            "Cross-system mean: 4.4 +/- 1.2 mm/yr",
             ha="center", va="center", fontsize=8, transform=ax.transAxes,
             bbox=bbox_props)
 
     ax.set_xlim(0, 1)
-    ax.set_ylim(-0.15, 0.85)
+    ax.set_ylim(-0.12, 0.90)
     ax.axis("off")
     ax.set_title("Dwarapala Singosari: Empirical Calibration of Volcanic Sedimentation Rate",
                  fontsize=12, fontweight="bold", pad=15)
@@ -155,8 +156,8 @@ def fig2_burial_depth_projections():
 
     # GPR effective range
     ax.axhspan(0, 5, alpha=0.08, color="green", zorder=0)
-    ax.text(len(eras) - 0.3, 2.5, "GPR effective\nrange (0-5 m)",
-            ha="right", va="center", fontsize=7.5, color="#2E7D32", style="italic")
+    ax.text(len(eras) - 0.15, 4.5, "GPR effective\nrange (0-5 m)",
+            ha="right", va="top", fontsize=7.5, color="#2E7D32", style="italic")
 
     ax.axhline(y=5, color="#2E7D32", linestyle="--", alpha=0.4, linewidth=1)
 
@@ -165,9 +166,9 @@ def fig2_burial_depth_projections():
     ax.set_ylabel("Estimated Burial Depth (meters)", fontsize=10)
     ax.set_title("Projected Burial Depth by Era\n(based on 4 calibration points across 2 volcanic systems)",
                  fontsize=11, fontweight="bold")
-    ax.legend(loc="upper left", fontsize=8, framealpha=0.9)
+    ax.legend(loc="lower left", fontsize=8, framealpha=0.9)
     ax.set_ylim(0, max([(2026 - 400) * 6.2 / 1000]) + 1.5)
-    ax.invert_yaxis()  # Depth goes down
+    ax.invert_yaxis()  # Depth goes down — "lower left" in inverted = visually top-left (shallow, short bars)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
 
@@ -294,9 +295,54 @@ def fig4_density_vs_distance():
     print(f"Saved: {out}")
 
 
+def fig0_dwarapala_comparison():
+    """Fig 0: Side-by-side colonial (1860) vs present Dwarapala photos.
+    Creates composite from existing images in figures/ directory."""
+    from PIL import Image
+
+    colonial_path = FIGURES_DIR / "fig0a_dwarapala_1860.jpg"
+    modern_path = FIGURES_DIR / "fig0b_dwarapala_present.png"
+
+    if not colonial_path.exists() or not modern_path.exists():
+        print(f"  SKIPPED fig0: need both {colonial_path.name} and {modern_path.name}")
+        return
+
+    colonial = Image.open(colonial_path)
+    modern = Image.open(modern_path)
+
+    # Resize to same height
+    target_h = 800
+    c_w = int(colonial.width * target_h / colonial.height)
+    m_w = int(modern.width * target_h / modern.height)
+    colonial = colonial.resize((c_w, target_h), Image.LANCZOS)
+    modern = modern.resize((m_w, target_h), Image.LANCZOS)
+
+    # Create figure with two panels
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
+
+    ax1.imshow(colonial)
+    ax1.set_title("c. 1860 (Leiden University Library)\nHalf buried after ~592 years", fontsize=10, fontweight="bold")
+    ax1.axis("off")
+
+    ax2.imshow(modern)
+    ax2.set_title("Present day (2026)\nFully excavated, now a landmark", fontsize=10, fontweight="bold")
+    ax2.axis("off")
+
+    fig.suptitle("Dwarapala Guardian Statues at Candi Singosari, Malang\n"
+                 "Built ~1268 CE | 370 cm tall | Monolithic andesite | Sedimentation rate: 3.5 mm/yr",
+                 fontsize=12, fontweight="bold", y=1.02)
+
+    plt.tight_layout()
+    out = FIGURES_DIR / "fig0_dwarapala_comparison.png"
+    plt.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")
+    plt.close()
+    print(f"Saved: {out}")
+
+
 if __name__ == "__main__":
     print("Generating Paper 1 figures...")
     print()
+    fig0_dwarapala_comparison()
     fig1_dwarapala_timeline()
     fig2_burial_depth_projections()
     fig3_calibration_points()
