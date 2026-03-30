@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-03-30 | MATA ELANG #10 — Kritik Struktural + 4 Eksperimen Baru
+
+**Type:** STRATEGIC REVIEW / ADVERSARIAL / EXPERIMENT
+**Status:** COMPLETE
+
+### Kritik Keras (3 fatal + 5 structural + 3 blind spots)
+- F1: Cascade model deskriptif bukan prediktif (fitting 5 params ke 1 datapoint)
+- F2: Nama proyek menekankan volcanism (1.7x) bukan settlement prediction (40x leverage)
+- F3: Zero cross-geographic test → **E123 EXECUTED (Philippines)**
+- S4: Gap 3,220x parameter-dependent → **E122 EXECUTED (robust, P(gap<10x)=0.0%)**
+- B1: Survey asymmetry tidak terkuantifikasi → DEFERRED (data unavailable)
+- Full critique: `docs/research_notes/MATA_ELANG_10_2026_03_30.md`
+
+### 4 Eksperimen Baru (124 total)
+- **E120:** Cascade stress test — F3 (survey) satu-satunya faktor structurally necessary
+- **E121:** Robustness battery W1+W2 — 7/8 ROBUST (88%). Cathedral findings rock-solid.
+- **E122:** Gap sensitivity — P(gap<10x) = 0.0% in 100K Monte Carlo. Even HG density = 19x gap.
+- **E123:** Philippines comparison (I-111) — 4.6x less volcanoes = slightly better record. MODERATE.
+
+### Doc Sync
+L1/L2/L3/EVAL: experiment count → 124, phase → CONSOLIDATION + AUTORESEARCH.
+
+### Critique Selection Mechanism
+Not all critiques need action. Framework: fixable by Claude → DO NOW; needs Pak Amien → FLAG; needs fieldwork → ACKNOWLEDGE; fundamental → ACCEPT.
+
+---
+
 ## 2026-03-30 | SESSION 7 — Back at Campus + AutoResearch Integration Concept
 
 **Type:** DELIVERABLE / STRATEGY / INBOX PROCESSING
