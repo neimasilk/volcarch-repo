@@ -1,0 +1,138 @@
+{
+  "wave2_summary": {
+    "total": 2,
+    "robust": 2,
+    "marginal": 0,
+    "fragile": 0
+  },
+  "combined_summary": {
+    "total": 8,
+    "robust": 7,
+    "marginal": 0,
+    "fragile": 1
+  },
+  "wave2_tests": [
+    {
+      "experiment": "E027/E085",
+      "test": "RF 10-fold CV AUC (n=1357)",
+      "original_stat": 1.0,
+      "original_p": 0.0,
+      "bootstrap_ci_low": 1.0,
+      "bootstrap_ci_high": 1.0,
+      "perm_p": 0.0,
+      "jackknife_mean": 1.0,
+      "jackknife_std": 0.0,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E084",
+      "test": "Insc-Candi distance diff (41.2 km)",
+      "original_stat": 41.16128609997914,
+      "original_p": 3.296549791038989e-09,
+      "bootstrap_ci_low": 15.402435750941763,
+      "bootstrap_ci_high": 78.56139986819926,
+      "perm_p": 0.0,
+      "jackknife_mean": 40.976857868542055,
+      "jackknife_std": 1.159667457102747,
+      "verdict": "ROBUST"
+    }
+  ],
+  "all_tests": [
+    {
+      "experiment": "E004",
+      "test": "Spearman(density, distance)",
+      "original_stat": -0.9549937104572925,
+      "original_p": 0.0008055353363017573,
+      "bootstrap_ci_low": -1.0,
+      "bootstrap_ci_high": -0.6830517997873738,
+      "perm_p": 0.0045,
+      "jackknife_mean": -0.9485481111520518,
+      "jackknife_std": 0.024273140304672997,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E005",
+      "test": "Spearman(residual, distance)",
+      "original_stat": -0.5664335664335665,
+      "original_p": 0.054842119775407906,
+      "bootstrap_ci_low": -0.8946001796945193,
+      "bootstrap_ci_high": 0.13279569892473103,
+      "perm_p": 0.0568,
+      "jackknife_mean": -0.5613636363636364,
+      "jackknife_std": 0.08472325715546059,
+      "verdict": "FRAGILE"
+    },
+    {
+      "experiment": "E031",
+      "test": "ZoneA overrepresentation ratio",
+      "original_stat": 25.352112676056336,
+      "original_p": 0.0,
+      "bootstrap_ci_low": 23.74245472837022,
+      "bootstrap_ci_high": 26.76056338028169,
+      "perm_p": 0.0,
+      "jackknife_mean": 25.345491388044575,
+      "jackknife_std": 0.05497329266970826,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E031b",
+      "test": "Rayleigh R (mean_dir=279deg)",
+      "original_stat": 0.34789842284598743,
+      "original_p": 3.434771327361257e-08,
+      "bootstrap_ci_low": 258.3048712017173,
+      "bootstrap_ci_high": 295.7964557930374,
+      "perm_p": 0.0,
+      "jackknife_mean": 0.347453708435485,
+      "jackknife_std": 0.004510322385587859,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E051",
+      "test": "Court effect (Yogya 0.110 vs others 0.219)",
+      "original_stat": 0.10922898680058626,
+      "original_p": 5.3367784298106545e-08,
+      "bootstrap_ci_low": 0.07769664287556148,
+      "bootstrap_ci_high": 0.13794133904255793,
+      "perm_p": 0.0,
+      "jackknife_mean": 0.10925766564928219,
+      "jackknife_std": 0.01538200929624891,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E083",
+      "test": "Buried fraction",
+      "original_stat": 0.7254901960784313,
+      "original_p": 0.0008845985918934929,
+      "bootstrap_ci_low": 0.6078431372549019,
+      "bootstrap_ci_high": 0.8431372549019608,
+      "perm_p": 0.5772,
+      "jackknife_mean": 0.7254901960784312,
+      "jackknife_std": 0.008925338569992981,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E027/E085",
+      "test": "RF 10-fold CV AUC (n=1357)",
+      "original_stat": 1.0,
+      "original_p": 0.0,
+      "bootstrap_ci_low": 1.0,
+      "bootstrap_ci_high": 1.0,
+      "perm_p": 0.0,
+      "jackknife_mean": 1.0,
+      "jackknife_std": 0.0,
+      "verdict": "ROBUST"
+    },
+    {
+      "experiment": "E084",
+      "test": "Insc-Candi distance diff (41.2 km)",
+      "original_stat": 41.16128609997914,
+      "original_p": 3.296549791038989e-09,
+      "bootstrap_ci_low": 15.402435750941763,
+      "bootstrap_ci_high": 78.56139986819926,
+      "perm_p": 0.0,
+      "jackknife_mean": 40.976857868542055,
+      "jackknife_std": 1.159667457102747,
+      "verdict": "ROBUST"
+    }
+  ]
+}
