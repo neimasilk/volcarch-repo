@@ -1,0 +1,11 @@
+{
+  "experiment": "E145_eruption_visibility",
+  "centuries_analyzed": 11,
+  "eruption_inscription_rho": 0.9082951062292475,
+  "eruption_inscription_p": 0.00010968766448978909,
+  "eruption_site_rho": 0.7603767374628301,
+  "eruption_site_p": 0.006595480187652446,
+  "cumulative_inscription_rho": 0.2545454545454546,
+  "cumulative_inscription_p": 0.45003657688882837,
+  "conclusion": "Eruption frequency does not predict inscription survival within centuries. Taphonomic effect is cumulative over centuries, not immediate per-eruption."
+}
