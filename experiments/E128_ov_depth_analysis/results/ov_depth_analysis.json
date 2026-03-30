@@ -1,0 +1,10 @@
+{
+  "experiment": "E128_ov_depth_analysis",
+  "total_depth_mentions": 25,
+  "reasonable_range": 24,
+  "mean_depth": 5.8688,
+  "median_depth": 2.5,
+  "high_value_finds": 15,
+  "independence": "CONFIRMED (zero overlap with E083 literature-derived data)",
+  "comparison_e083": "Distributions consistent"
+}
