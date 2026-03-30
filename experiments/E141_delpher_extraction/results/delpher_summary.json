@@ -1,0 +1,10 @@
+{
+  "experiment": "E141_delpher_extraction",
+  "api_endpoint": "https://jsru.kb.nl/sru/sru",
+  "collection": "DDD_artikel",
+  "queries_run": 12,
+  "total_unique_records": 529,
+  "high_relevance": 30,
+  "with_depth_value": 0,
+  "depth_values": []
+}
