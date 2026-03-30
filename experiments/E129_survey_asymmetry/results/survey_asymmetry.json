@@ -1,0 +1,19 @@
+{
+  "experiment": "E129_survey_asymmetry",
+  "total_sites": 391,
+  "classification": {
+    "temple/candi": 277,
+    "other/unclassified": 87,
+    "inscription/statue": 9,
+    "tourism_site": 6,
+    "cave": 6,
+    "archaeological_site": 5,
+    "museum": 1
+  },
+  "temple_monument_pct": 73.1457800511509,
+  "cave_pct": 1.5345268542199488,
+  "settlement_pct": 1.278772378516624,
+  "temple_mean_volcano_dist_km": 14.254404549141176,
+  "non_temple_mean_volcano_dist_km": 25.810358635943274,
+  "conclusion": "73% of known sites are temples/monuments \u2014 massive survey targeting bias toward monumental Hindu-Buddhist architecture"
+}
