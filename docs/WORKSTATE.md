@@ -54,9 +54,16 @@
   - Files: `papers/P19_before_the_inscriptions/`
 - **P9 retargeting (HOLD)** — Rejected from JSEAS.
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
-- **E076 v2 satellite** — Script written, needs internet + compute (~30 min, post-mudik)
-- **Colonial data verification** — 10 E070 entries on Delpher.nl (user manual task)
-- **JCAA APC** — P2 submitted to JCAA which charges **£450**. CAA waiver fund exists (for members without institutional funding). **UNRESOLVED:** check if waiver was applied to submission #280. If not, apply immediately or join CAA International (~€30-50/yr) then apply. Contact: journal@caa-international.org
+- **E076 v2 satellite** — Script written, needs internet + compute (~30 min). **BLOCKED** (no time, post-mudik workload)
+- **Colonial data verification** — 10 E070 entries on Delpher.nl. **BLOCKED** (manual task, no time)
+- **JCAA APC** — P2 charges £450. CAA waiver fund exists. **BLOCKED** (check email when time permits). Contact: journal@caa-international.org
+- **P11 submit** — **BLOCKED** (needs target decision: Cornell vs ArchCalc)
+- **P17 ArchCalc submit** — **BLOCKED** (needs editorial rules download)
+- **P19 deep reading** — **BLOCKED** (Lombard Vol.3, Bloembergen, Wolters — manual reading)
+- **NEW: P20 TobaSim** — Proposal in `docs/drafts/P20_tobasim_proposal_v0.1.md`. FALL3D Toba 74ka simulation. Needs geologist co-author.
+- **NEW: P21 ColonialMine** — Proposal in `docs/drafts/P21_colonialmine_proposal_v0.1.md`. Dutch colonial NLP. Most actionable of 3 new proposals.
+- **NEW: P22 JavaTephroChron** — Proposal in `docs/drafts/P22_javatephroChron_proposal_v0.1.md`. Depends on P20 FALL3D infra.
+- **NEW: AutoResearch integration** — Concept in `docs/AUTORESEARCH_CONCEPT.md`. 5 research programs proposed. Needs Pak Amien decision on Phase 1.
 
 ## PAPERS UNDER REVIEW (WAIT)
 

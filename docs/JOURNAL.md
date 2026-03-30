@@ -4,6 +4,43 @@
 
 ---
 
+## 2026-03-30 | SESSION 7 — Back at Campus + AutoResearch Integration Concept
+
+**Type:** DELIVERABLE / STRATEGY / INBOX PROCESSING
+**Status:** COMPLETE
+
+### Deliverables
+1. **LiDAR 1-page pitch** (`docs/dissemination/lidar_pitch.md`) — 10 GPS targets, Amazon 2024 precedent, value proposition for LiDAR company. Production-ready.
+2. **README.md professional rewrite** — Zenodo badge, 120 experiments summary, bibtex citation, structured for GitHub go-public.
+3. **YouTube Ep2 outline** (`docs/dissemination/youtube_ep2_outline.md`) — "Patung yang Ditelan Bumi", 10-min Dwarapala Singosari deep dive, full script structure.
+
+### InBox Processing
+- **3 mudik proposals routed to `docs/drafts/`** with renumbered IDs:
+  - P20 TobaSim-Nusantara (was mislabeled P17) — Toba 74ka FALL3D simulation
+  - P21 ColonialMine (was mislabeled P18) — Dutch colonial NLP via Delpher.nl
+  - P22 JavaTephroChron (was mislabeled P19) — multi-eruption stratigraphic clock
+- **`autoresearch/` folder** — Karpathy's autoresearch project (separate repo, inspirational reference). Not VOLCARCH material.
+- All items processed. `drafts/README.md` updated.
+
+### AutoResearch Integration Concept
+Inspired by Karpathy's autoresearch (agent modifies code, trains 5min, evaluates, keep/discard, loop forever), adapted for VOLCARCH's multi-hypothesis scientific research.
+
+**Key insight:** VOLCARCH already has all components (manifesto = program.md, falsification criteria = evaluation metric, experiment protocol = keep/discard logic). Missing: loop runner + research programs.
+
+5 research programs proposed:
+1. **Robustness Battery** — stress-test 30 FDR-surviving experiments (safest, start here)
+2. **ColonialMine NLP** — P21, Delpher.nl pipeline (most actionable new paper)
+3. **Cascade Stress Test** — adversarial sensitivity on 5-factor model (~1 hour)
+4. **TobaSim** — P20, FALL3D (long-term, needs geologist)
+5. **Anomaly Refinement** — improve E097 overlap from 65% → >80%
+
+Concept document: `docs/AUTORESEARCH_CONCEPT.md`
+
+### Blocked Items
+All manual tasks (P1 EGQSJ submit, JCAA APC, colonial verification, P19 reading, E076) marked BLOCKED — user busy with post-mudik campus workload.
+
+---
+
 ## 2026-03-22 | POST-MUDIK SESSION 5 — Comparative Civilization Gap + Dissemination Pivot
 
 **Type:** DISCUSSION / STRATEGY / TECHNICAL

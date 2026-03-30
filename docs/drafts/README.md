@@ -60,6 +60,16 @@ Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 
 | P16 | `P16_textual_archaeology_v0.1.md` | Visible from the Outside: External Textual Corroboration | Full draft | LITERATURE (6 traditions: Greek, Roman, Indian, Chinese, Arab, chemical) | **EVALUATE** — see Mata Elang #8 assessment |
 
+### New Proposals (from mudik, March 2026)
+
+| # | File | Judul | Maturity | Data? | Prioritas |
+|---|------|-------|----------|-------|-----------|
+| P20 | `P20_tobasim_proposal_v0.1.md` | TobaSim-Nusantara: Toba 74ka Dispersal Simulation | Proposal v0.1 | AVAILABLE (GEBCO, PMIP4, GVP) | MEDIUM — needs FALL3D setup + geologist co-author |
+| P21 | `P21_colonialmine_proposal_v0.1.md` | ColonialMine: Dutch Colonial Text Mining via Delpher.nl | Proposal v0.1 | AVAILABLE (Delpher API, free) | HIGH — extends E083/E091, NLP skills match |
+| P22 | `P22_javatephroChron_proposal_v0.1.md` | JavaTephroChron: Multi-Eruption Stratigraphic Clock | Proposal v0.1 | AVAILABLE (GVP, literature) | MEDIUM — depends on P20 FALL3D infra |
+
+**Note:** These proposals were generated during mudik as "ide liar" (wild ideas). Original numbering (P17/P18/P19) conflicted with existing papers — renumbered to P20/P21/P22. All three are compute-heavy and leverage the 4× RTX 4080 setup. P21 (ColonialMine) is most immediately actionable. P20 → P22 form a dependency chain (TobaSim infra feeds JavaTephroChron).
+
 ### Dokumen Lain
 
 | File | Deskripsi |
