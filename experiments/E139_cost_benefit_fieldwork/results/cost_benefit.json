@@ -1,0 +1,44 @@
+{
+  "experiment": "E139_cost_benefit_fieldwork",
+  "scenarios": {
+    "A_minimal_satellite_only": {
+      "cost_usd": 0,
+      "expected_finds": 1.0,
+      "cost_per_find": 0.0,
+      "p_at_least_one": 0.6415140775914581
+    },
+    "B_LiDAR_survey": {
+      "cost_usd": 30000,
+      "expected_finds": 1.5,
+      "cost_per_find": 20000.0,
+      "p_at_least_one": 0.8031255956592774
+    },
+    "C_GPR_targeted": {
+      "cost_usd": 40000,
+      "expected_finds": 4.0,
+      "cost_per_find": 10000.0,
+      "p_at_least_one": 0.9939533824
+    },
+    "D_GPR_plus_ERT": {
+      "cost_usd": 70000,
+      "expected_finds": 10.0,
+      "cost_per_find": 7000.0,
+      "p_at_least_one": 0.9999990463256836
+    },
+    "E_full_validation": {
+      "cost_usd": 100000,
+      "expected_finds": 12.0,
+      "cost_per_find": 8333.333333333334,
+      "p_at_least_one": 0.9999999890048837
+    },
+    "F_low_cost_coring": {
+      "cost_usd": 6000,
+      "expected_finds": 3.0,
+      "cost_per_find": 2000.0,
+      "p_at_least_one": 0.9612404689154856
+    }
+  },
+  "cheapest_meaningful": "F_low_cost_coring ($6,000)",
+  "best_value": "C_GPR_targeted ($40,000, $10K/find)",
+  "definitive": "E_full_validation ($100,000)"
+}
