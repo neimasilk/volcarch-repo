@@ -32,4 +32,4 @@ Lab Data Sains
 Universitas Bhinneka Nusantara
 Malang, Indonesia
 ORCID: 0000-0002-1848-167X
-mukhlis.amien@ubhara.ac.id
+amien@ubhinus.ac.id

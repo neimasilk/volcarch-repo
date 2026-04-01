@@ -49,3 +49,6 @@ Thumbs.db
 
 # Secrets
 .env
+
+# Claude Code local settings (contains personal paths)
+.claude/
