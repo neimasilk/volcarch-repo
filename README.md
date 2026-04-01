@@ -43,7 +43,7 @@ The framework is **falsifiable**. Pre-registered prediction:
 
 ## Key Results
 
-153 tracked experiments (E001-E152) across six evidence layers:
+175 tracked experiments (E001-E175) across six evidence layers:
 
 | Result | Value | Experiment |
 |--------|-------|------------|
@@ -57,6 +57,10 @@ The framework is **falsifiable**. Pre-registered prediction:
 | Substrate signal | z = 11.05, genuine pre-Indic linguistic signal in court zone vocabulary | E085 |
 | Cascade robustness | 92% of 100K Monte Carlo runs within 10x of observed | E115 |
 | Falsifiability | GPR predictions registered: expect 2.5 finds in [0,6] 95% CI | E116 |
+| Cross-regional validation | Cascade predicts visibility rank across 5 regions (rho = 1.0, p = 0.017) | E155 |
+| Population estimate | Java at 400 CE: 3.3 million (50K Monte Carlo, 7/7 calibration points) | E172 |
+| Ghost vocabulary | 230 pre-Indic words lost from inscriptions after 929 CE, including "aku" (I/self) | E165 |
+| FDR re-audit | 65/83 statistical tests survive Benjamini-Hochberg (78.3%, up from 73.2%) | E154 |
 
 ### Six Evidence Layers
 
@@ -75,7 +79,7 @@ The framework is **falsifiable**. Pre-registered prediction:
 | P2 | GIS settlement model | JCAA (Diamond OA) | Under review |
 | P7 | Theory of Motivated cartography | Antiquity Project Gallery (Q1) | Under review |
 | P8 | Linguistic fossils in Old Javanese | Oceanic Linguistics (Q1) | Under review |
-| P11 | Temple siting as archaeological proxy | Indonesia (Cornell) | Drafting |
+| P11 | Temple siting as archaeological proxy | Archipel (INALCO, Diamond OA) | Drafting |
 | P16 | Computational textual archaeology | DHQ (ADHO, Diamond OA) | Drafting |
 | P17 | Two Javas: sacred vs. administrative landscapes | Archeologia e Calcolatori (Diamond OA) | Drafting |
 
@@ -91,17 +95,17 @@ volcarch/
 │   ├── L3_EXECUTION.md        Active tasks & experiments (per-week)
 │   ├── EVAL.md                Evaluation criteria & validation protocol
 │   ├── JOURNAL.md             Research log (append-only)
-│   ├── EXPERIMENT_INDEX.md    Master index of all 153 experiments
+│   ├── EXPERIMENT_INDEX.md    Master index of all 175 experiments
 │   └── dissemination/         Outreach materials, slides, scripts
 ├── data/
 │   ├── raw/                   Original datasets (never modified)
 │   ├── processed/             Cleaned/transformed data
 │   └── schema.md              Data format definitions
-├── experiments/               153 tracked, self-contained experiments
+├── experiments/               175 tracked, self-contained experiments
 │   ├── E001_site_density_vs_volcanic_proximity/
 │   ├── E005_sedimentation_rate_calibration/
 │   ├── ...
-│   └── E152_post929_natural_experiment/
+│   └── E175_candi_spatial_statistics/
 ├── papers/                    Paper drafts, submission files, revision ammo
 ├── models/                    Trained models & configurations
 ├── maps/                      Generated probability maps & visualizations

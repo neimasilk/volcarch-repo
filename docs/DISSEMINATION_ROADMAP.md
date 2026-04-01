@@ -8,7 +8,13 @@
 
 ## WHY THIS DOCUMENT EXISTS
 
-VOLCARCH has 153 experiments, 5+ papers ready/submitted, and strong evidence. The bottleneck is no longer scientific — it's social. The right people need to know, care, and act. Traditional journal publications alone reach ~200 readers each. We need 100x that to trigger fieldwork.
+VOLCARCH has 175 experiments, 8 papers submitted/drafting, and strong evidence. The bottleneck is no longer scientific — it's social. The right people need to know, care, and act. Traditional journal publications alone reach ~200 readers each. We need 100x that to trigger fieldwork.
+
+### Dual-Track Publication Strategy (NEW 2026-04-01)
+Papers now target two audiences simultaneously:
+- **NLP/Technical Track:** ArchCalc, DHQ, EGQSJ, JCAA — methodology-led, computational audience
+- **Humanities Track:** Archipel, BKI, Wacana, Asian Ethnology — narrative-led, larger audience, higher citation impact
+Same data, different framing. This doubles the potential readership without duplicating content.
 
 **Goal:** Create enough visibility and compelling materials that:
 1. A fieldwork partner emerges (archaeologist with permits)
@@ -25,7 +31,7 @@ VOLCARCH has 153 experiments, 5+ papers ready/submitted, and strong evidence. Th
 - **Blocker:** Need to review what's in repo, remove anything sensitive (GPS targets at coarse resolution only)
 - **README structure:**
   - Hook: "Java has 45 volcanoes. Its early archaeological record is almost empty. This is not a coincidence."
-  - Key numbers: 3,220x gap, 4.4 mm/yr, 153 experiments
+  - Key numbers: 3,220x gap, 4.4 mm/yr, 175 experiments, 3.3M population at 400 CE
   - Visual: E119 synthesis figure
   - Papers: list with DOIs/preprint links
   - Call to action: "We need fieldwork partners. Contact: amien@ubhinus.ac.id"
@@ -54,10 +60,14 @@ VOLCARCH has 153 experiments, 5+ papers ready/submitted, and strong evidence. Th
 - **Impact:** Could trigger Phase 2 fieldwork — the most important single document
 
 ### 1D. Submit P1 to EGQSJ
-- **Status:** READY. ORCID fixed. Cover letter done. Step-by-step instructions in HANDOFF.
-- **Blocker:** Pak Amien needs to register at editor.copernicus.org and upload
-- **Effort:** 30 min
-- **Impact:** First Diamond OA submission. If accepted, instant credibility anchor for all dissemination.
+- **Status:** ~~READY~~ **SUBMITTED** (2026-03-30). MS# egqsj-2026-3. Finalized.
+- **Next:** Wait for editor assignment (2-6 months)
+
+### 1E. Submit P11 to Archipel (NEW — Humanities Track)
+- **Status:** READY. v0.4 humanities reframe done. Cover letter drafted.
+- **Blocker:** Pak Amien review of reframed draft
+- **Effort:** 30 min (email to archipel@ehess.fr)
+- **Impact:** First humanities-track submission. Archipel is the home journal for Insulindian studies — if accepted, opens door for P5 and P19 at similar journals.
 
 ---
 

@@ -43,9 +43,12 @@
   - Files: `papers/P18_invisible_civilization/draft_v0.1.tex`, `p18_references.bib`, `figures/`
   - Target: TBD (after 1 acceptance). P17 and P18 form complementary trilogy with P1, NOT duplicates.
   - Needs: Expand to ~9K words, Fig 6, cite P1 for cascade model
-- **P5 retargeting** — Rejected from BKI. "Crucially" AI marker already fixed.
-  - Target: **Archeologia e Calcolatori** / J. Pacific Archaeology / Wacana
-  - Submit ~late May 2026
+- **P5 retargeting (HUMANITIES TRACK)** — Rejected from BKI ("too narrow for humanities"). Needs full humanities reframe.
+  - Target: **Asian Ethnology** (Nanzan U, zero APC, Scopus Q2) — Austronesian comparative, ethnographic
+  - Reframe: "taphonomic calibration" → "indigenous knowledge resilience through structural invisibility"
+  - Strategy document: `papers/P5_volcanic_ritual_clock/HUMANITIES_REFRAME_STRATEGY.md`
+  - Backup: Wacana, South East Asia: A Multidisciplinary Journal, Oceania
+  - Submit ~June-August 2026 (after rewrite + humanities review)
 - **P19 "Before the Inscriptions"** — NEW. Humanities essay for BKI. NOT a reformat of P5.
   - Argument: Lombard's 3 layers have a 4th (pre-Indic Austronesian), invisible due to taphonomic + historiographic processes
   - Engages: Wolters (localization), Lombard (layers), Bloembergen & Eickhoff (heritage politics), Sears (colonial construction)
@@ -161,16 +164,24 @@ STATUS: **175 experiments** (E001-E175). **Mata Elang #12 CLOSED.** Session 9 CO
 | E156 | Sunda Shelf population displacement | SUCCESS | L1xL2 double erasure. 94K into volcanic zones. |
 | E157 | Ethnographic volcanic analog | SUCCESS | F4 validated. F2 triple convergence. |
 
-### Standing Priorities (ME#12 Reordered)
-1. **P17 submit ArchCalc** — THE priority (ME#12 recommendation). Trim 7K→6K, pandoc, anonymize. Deadline Dec 31.
-2. ~~P1 submit EGQSJ~~ — **SUBMITTED.** Wait for editor assignment (2-6 months).
-3. ~~P11 submit Cornell~~ — **REJECTED** (scope mismatch). Retarget: Internet Archaeology / BIPPA / Aziatische Studien.
-4. **JCAA APC crisis** — £593, waiver very difficult. Email journal@caa-international.org ASAP.
-5. **GitHub repo go public** — README updated to 157. Review for sensitive files.
-6. P16 submit DHQ — user review + expand.
-7. D1+D2 deposit to Zenodo (free, 30 min each).
-8. P5 retarget — NOT Wacana (thematic).
-9. P9 HOLD until P2/P8 outcome.
+### Standing Priorities (Updated 2026-04-01)
+
+**TECHNICAL TRACK (NLP/computational — user expertise):**
+1. **P17 submit ArchCalc** — THE priority. v0.3 ready, 7 manual steps remain. Deadline Dec 31.
+2. P16 submit DHQ — user review + expand.
+3. ~~P1 submit EGQSJ~~ — **SUBMITTED.** Wait (2-6 months).
+
+**HUMANITIES TRACK (narrative/heritage — Claude assists framing):**
+4. **P11 submit Archipel** — v0.4 reframe DONE. Pak Amien review → email archipel@ehess.fr.
+5. **P5 reframe for Asian Ethnology** — Strategy doc ready. Needs full rewrite (~June 2026).
+6. P19 submit BKI — deep reading phase (manual).
+
+**OPERATIONAL:**
+7. **JCAA APC crisis** — £593, waiver very difficult. Email journal@caa-international.org ASAP.
+8. **GitHub repo go public** — README updated to 175. Review for sensitive files.
+9. D1+D2 deposit to Zenodo (free, 30 min each).
+10. Zenodo deposit for E171 prediction registry (metadata ready).
+11. P9 HOLD until P2/P8 outcome.
 **All future submissions: ZERO APC (absolute, non-negotiable). Free-to-publish journals OK even if not Diamond OA. Q2-Q4 all acceptable.** See `memory/feedback_zero_apc.md`.
 **Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/AI_PROSE_GUIDE.md`.
 **Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` (revisit weekly).
