@@ -30,7 +30,7 @@ Sincerely,
 Mukhlis Amien (corresponding author)
 Universitas Bhinneka Nusantara
 ORCID: 0000-0002-1848-167X
-Email: mukhlis.amien@bfrens.ac.id
+Email: amien@ubhinus.ac.id
 
 Go Frendi Gunawan
 Universitas Bhinneka Nusantara

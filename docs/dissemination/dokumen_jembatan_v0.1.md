@@ -210,7 +210,7 @@ Proyek ini membutuhkan keahlian yang tidak dimiliki satu orang:
 **Mukhlis Amien**
 Lab Data Sains, Universitas Bhinneka Nusantara
 Jl. Soekarno-Hatta 408, Malang 65141
-Email: mukhlis.amien@ubhara.ac.id
+Email: amien@ubhinus.ac.id
 ORCID: 0000-0002-1848-167X
 
 ---
