@@ -1,0 +1,11 @@
+{
+  "japan_sites": 460000,
+  "indonesia_java_sites": 666,
+  "site_density_ratio": 235.72749282121595,
+  "excavation_ratio": 557.6355649624093,
+  "counterfactual_pre400_estimate": 1791.7851709769163,
+  "currently_known": 3,
+  "missing_sites": 1788.7851709769163,
+  "sites_destroyed_per_year": 4.5,
+  "accidental_discoveries": 5
+}

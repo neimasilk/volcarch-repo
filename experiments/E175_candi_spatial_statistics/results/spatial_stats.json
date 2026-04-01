@@ -1,0 +1,10 @@
+{
+  "n_candi": 142,
+  "clark_evans_R": 0.1714808179766535,
+  "mean_nn_km": 2.0351028950677117,
+  "ripley_L_max": 62.88862658405006,
+  "ripley_L_max_r_km": 50,
+  "volcano_dist_mean": 16.52360400991098,
+  "volcano_dist_median": 14.648272610667703,
+  "power_law_exponent": -0.7007184393862425
+}

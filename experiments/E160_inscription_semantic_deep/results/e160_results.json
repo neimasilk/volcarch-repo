@@ -1,0 +1,69 @@
+{
+  "n_inscriptions": 127,
+  "n_dated": 77,
+  "embedding_dim": 768,
+  "model": "all-mpnet-base-v2",
+  "device": "cuda",
+  "query_results": {
+    "volcanic_landscape": {
+      "mean_similarity": 0.1415960043668747,
+      "max_similarity": 0.2955161929130554,
+      "top_match": "DHARMA_INSIDENKLinggawangi.xml"
+    },
+    "sacred_mountain": {
+      "mean_similarity": 0.29914161562919617,
+      "max_similarity": 0.6235331296920776,
+      "top_match": "DHARMA_INSIDENKBorobudurHB124A.xml"
+    },
+    "water_agriculture": {
+      "mean_similarity": 0.1604520082473755,
+      "max_similarity": 0.5261540412902832,
+      "top_match": "DHARMA_INSIDENKLanda.xml"
+    },
+    "royal_court": {
+      "mean_similarity": 0.24051406979560852,
+      "max_similarity": 0.44726288318634033,
+      "top_match": "DHARMA_INSIDENKRameswarapura.xml"
+    },
+    "land_administration": {
+      "mean_similarity": 0.2845722734928131,
+      "max_similarity": 0.5526006817817688,
+      "top_match": "DHARMA_INSIDENKKebantenan_4.xml"
+    },
+    "ritual_ceremony": {
+      "mean_similarity": 0.294894278049469,
+      "max_similarity": 0.5658393502235413,
+      "top_match": "DHARMA_INSIDENKBorobudurHB124A.xml"
+    },
+    "trade_commerce": {
+      "mean_similarity": 0.10606591403484344,
+      "max_similarity": 0.27780911326408386,
+      "top_match": "DHARMA_INSIDENKTirah.xml"
+    },
+    "warfare_conflict": {
+      "mean_similarity": 0.13775137066841125,
+      "max_similarity": 0.29886099696159363,
+      "top_match": "DHARMA_INSIDENKParung_II.xml"
+    },
+    "buddhist_hindu": {
+      "mean_similarity": 0.3103765547275543,
+      "max_similarity": 0.5789448618888855,
+      "top_match": "DHARMA_INSIDENKSugihManek.xml"
+    },
+    "daily_life": {
+      "mean_similarity": 0.14649765193462372,
+      "max_similarity": 0.5155838131904602,
+      "top_match": "DHARMA_INSIDENKdevadravya.xml"
+    }
+  },
+  "century_distribution": {
+    "13": 6,
+    "14": 5,
+    "11": 6,
+    "10": 20,
+    "9": 19,
+    "7": 2,
+    "8": 17,
+    "12": 2
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bali_pre400_sites": 4,
+  "ejava_pre400_open_air": 0,
+  "bali_volcanic_zone_pre400": 0,
+  "bali_coastal_pre400": 4,
+  "cascade_prediction_ratio": 14.2,
+  "observed_ratio": 12.0,
+  "prediction_error_pct": 18.3,
+  "predictions_confirmed": "5/5",
+  "factors": {
+    "F1_volcanic_burial": {
+      "east_java": 0.58,
+      "bali": 0.92
+    },
+    "F2_organic_decay": {
+      "east_java": 0.2,
+      "bali": 0.2
+    },
+    "F3_survey_coverage": {
+      "east_java": 0.025,
+      "bali": 0.15
+    },
+    "F4_recognition": {
+      "east_java": 0.4,
+      "bali": 0.5
+    },
+    "F5_publication": {
+      "east_java": 0.5,
+      "bali": 0.6
+    }
+  }
+}

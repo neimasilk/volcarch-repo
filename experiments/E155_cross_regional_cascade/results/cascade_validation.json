@@ -1,0 +1,72 @@
+{
+  "regions": {
+    "Java": {
+      "predicted": 0.00058,
+      "observed": 0.00031,
+      "ratio": 1.870967741935484,
+      "factors": {
+        "F1_volcanic_burial": 0.58,
+        "F2_organic_decay": 0.2,
+        "F3_survey_coverage": 0.025,
+        "F4_recognition": 0.4,
+        "F5_publication": 0.5
+      }
+    },
+    "Bali": {
+      "predicted": 0.008244000000000001,
+      "observed": 0.00372,
+      "ratio": 2.2161290322580647,
+      "factors": {
+        "F1_volcanic_burial": 0.916,
+        "F2_organic_decay": 0.2,
+        "F3_survey_coverage": 0.15,
+        "F4_recognition": 0.5,
+        "F5_publication": 0.6
+      }
+    },
+    "Sulawesi": {
+      "predicted": 0.00171,
+      "observed": 0.00093,
+      "ratio": 1.8387096774193548,
+      "factors": {
+        "F1_volcanic_burial": 0.95,
+        "F2_organic_decay": 0.4,
+        "F3_survey_coverage": 0.015,
+        "F4_recognition": 0.6,
+        "F5_publication": 0.5
+      }
+    },
+    "Philippines": {
+      "predicted": 0.0030937500000000006,
+      "observed": 0.00217,
+      "ratio": 1.4256912442396317,
+      "factors": {
+        "F1_volcanic_burial": 0.75,
+        "F2_organic_decay": 0.25,
+        "F3_survey_coverage": 0.05,
+        "F4_recognition": 0.55,
+        "F5_publication": 0.6
+      }
+    },
+    "Japan": {
+      "predicted": 0.24786000000000002,
+      "observed": 0.5,
+      "ratio": 0.49572000000000005,
+      "factors": {
+        "F1_volcanic_burial": 0.85,
+        "F2_organic_decay": 0.45,
+        "F3_survey_coverage": 0.8,
+        "F4_recognition": 0.9,
+        "F5_publication": 0.9
+      }
+    }
+  },
+  "spearman_rho": 0.9999999999999999,
+  "spearman_p": 1.4042654220543608e-24,
+  "mc_rank_match_pct": 48.27,
+  "mc_rho_mean": 0.92571,
+  "mc_rho_ci_95": [
+    0.7,
+    0.9999999999999999
+  ]
+}

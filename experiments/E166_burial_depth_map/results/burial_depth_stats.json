@@ -1,0 +1,23 @@
+{
+  "model": "rate = 8.0 * exp(-d/15.0)",
+  "volcanoes": 7,
+  "dem_shape": [
+    8356,
+    13345
+  ],
+  "resolution_m": 30,
+  "zone_areas_km2": {
+    "Zone_A_surface": 0.0,
+    "Zone_B_shallow": 12810.5694,
+    "Zone_C_deep": 5864.1606,
+    "Zone_D_very_deep": 2709.0351,
+    "Zone_E_no_burial": 56374.835399999996
+  },
+  "depth_stats_pre400CE": {
+    "mean_m": 1.8646410611736393,
+    "max_m": 13.005255111937139,
+    "pct_gt_1m": 21.515067100897888,
+    "pct_gt_3m": 8.625837400104496,
+    "pct_gt_6m": 2.725669295496873
+  }
+}

@@ -41,9 +41,22 @@ If recognition is 600x worse than modeled (F4 = 0.0007 instead of 0.40):
 - This actually HELPS explain the gap without needing volcanic burial to be dominant
 - **Survey deficit x recognition failure alone may explain >99% of the gap**
 
+### F4 Discrepancy Resolution (Mata Elang #11)
+
+**E137's F4 ≠ E110's F4.** These measure categorically different processes:
+
+| Context | F4 Value | What it measures |
+|---------|----------|------------------|
+| E110 cascade | 0.40 | Probability that a **trained archaeologist with GPR** correctly identifies a subsurface anomaly as archaeological |
+| E137 accidental | 0.0007 | Probability that a **sand miner** recognizes pottery sherds as ancient, stops work, AND reports to authorities |
+
+The 570× discrepancy is real but not contradictory — accidental discovery by untrained workers and systematic detection by professionals are fundamentally different processes. E110's F4 applies to the PLANNED fieldwork scenario (E116 predictions). E137's F4 explains why ACCIDENTAL finds are so rare despite frequent deep excavation.
+
+**Implication:** The cascade model (E110) remains valid for its intended use case — predicting outcomes of systematic archaeological survey. E137 adds a complementary insight: the lack of accidental finds is explained by recognition/reporting failure, not by absence of buried material.
+
 ## Conclusion
 
-**PARTIAL.** Model concept valid but parameters need calibration. The key finding is UNEXPECTED: recognition/reporting barriers are far more severe than E110 estimated. This strengthens, not weakens, VOLCARCH — it means the gap is even MORE explainable by non-burial factors.
+**PARTIAL.** Model concept valid but parameters need calibration. The key finding is UNEXPECTED: recognition/reporting barriers for **accidental** discovery are far more severe than E110's cascade (which models **systematic** discovery) estimated. This strengthens, not weakens, VOLCARCH — it means the lack of accidental finds is not evidence against buried sites, but evidence of recognition failure.
 
 ## Scripts
 

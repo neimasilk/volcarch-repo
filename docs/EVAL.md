@@ -170,7 +170,7 @@ Implementation: Divide study area into spatial blocks (e.g., 5km × 5km grid). E
 
 **Documented in E068 (FDR Meta-Audit, 2026-03-13).**
 
-Across 122 experiments (as of 2026-03-20, originally audited at 90), 41 distinct statistical hypothesis tests were identified. Applied Benjamini-Hochberg procedure at α=0.05.
+Across 153 experiments (as of 2026-03-30, originally audited at 90), 41+ distinct statistical hypothesis tests were identified. Applied Benjamini-Hochberg procedure at α=0.05.
 
 | Category | Count |
 |----------|-------|

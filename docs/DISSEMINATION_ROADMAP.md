@@ -8,7 +8,7 @@
 
 ## WHY THIS DOCUMENT EXISTS
 
-VOLCARCH has 120 experiments, 5+ papers ready/submitted, and strong evidence. The bottleneck is no longer scientific — it's social. The right people need to know, care, and act. Traditional journal publications alone reach ~200 readers each. We need 100x that to trigger fieldwork.
+VOLCARCH has 153 experiments, 5+ papers ready/submitted, and strong evidence. The bottleneck is no longer scientific — it's social. The right people need to know, care, and act. Traditional journal publications alone reach ~200 readers each. We need 100x that to trigger fieldwork.
 
 **Goal:** Create enough visibility and compelling materials that:
 1. A fieldwork partner emerges (archaeologist with permits)
@@ -25,7 +25,7 @@ VOLCARCH has 120 experiments, 5+ papers ready/submitted, and strong evidence. Th
 - **Blocker:** Need to review what's in repo, remove anything sensitive (GPS targets at coarse resolution only)
 - **README structure:**
   - Hook: "Java has 45 volcanoes. Its early archaeological record is almost empty. This is not a coincidence."
-  - Key numbers: 3,220x gap, 4.4 mm/yr, 120 experiments
+  - Key numbers: 3,220x gap, 4.4 mm/yr, 153 experiments
   - Visual: E119 synthesis figure
   - Papers: list with DOIs/preprint links
   - Call to action: "We need fieldwork partners. Contact: amien@ubhinus.ac.id"

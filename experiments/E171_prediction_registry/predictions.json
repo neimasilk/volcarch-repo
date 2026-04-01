@@ -1,0 +1,72 @@
+[
+  {
+    "id": "VOLCARCH-P001",
+    "name": "Kelud Western Flank Alpha",
+    "lat": -7.95,
+    "lon": 112.18,
+    "elev_m": 450,
+    "predicted_depth_m": "3.0-5.0",
+    "predicted_age": "pre-400 CE (1600+ years burial)",
+    "method": "GPR (1-3m) + ERT (3-6m)",
+    "cost": 600,
+    "rationale": "E080 Target 1 + E097 anomaly convergence (65%). Western flank = downslope from Kelud summit. River confluence = settlement attractor. E013 high suitability. Zero known sites within 10 km.",
+    "expected_finds": "Cultural layer with charcoal, ceramic, phytoliths at 3-5m depth",
+    "falsification": "If sterile volcanic sediment with no cultural indicators at all depths (0-8m)"
+  },
+  {
+    "id": "VOLCARCH-P002",
+    "name": "Arjuno Northern Slope",
+    "lat": -7.68,
+    "lon": 112.55,
+    "elev_m": 600,
+    "predicted_depth_m": "4.0-7.0",
+    "predicted_age": "pre-800 CE (1200+ years burial)",
+    "method": "ERT (3-10m) + deep coring",
+    "cost": 800,
+    "rationale": "E080 Target 3. Northern slope = lahar channel zone. High settlement suitability (moderate slope, river proximity). E097 anomaly overlap. Inscription desert zone (E169).",
+    "expected_finds": "Brick fragments, ceramic, or cultural soil horizon at 4-7m",
+    "falsification": "If no anthropogenic signal in 10m core"
+  },
+  {
+    "id": "VOLCARCH-P003",
+    "name": "Singosari Axis Extension",
+    "lat": -7.91,
+    "lon": 112.64,
+    "elev_m": 430,
+    "predicted_depth_m": "2.0-4.0",
+    "predicted_age": "pre-Singosari (pre-1222 CE, 800+ years)",
+    "method": "GPR",
+    "cost": 400,
+    "rationale": "Along axis from Dwarapala (3.5 mm/yr calibration) toward Kelud. Pre-Singosari settlement likely existed here. Dwarapala proves 1.85m burial in 755 years = sites from 400 CE should be at 2-4m.",
+    "expected_finds": "Stone foundations (umpak) or ceramic scatter at 2-3m depth",
+    "falsification": "If GPR shows only volcanic stratigraphy with no reflectors"
+  },
+  {
+    "id": "VOLCARCH-P004",
+    "name": "Brantas River Confluence",
+    "lat": -7.97,
+    "lon": 112.25,
+    "elev_m": 350,
+    "predicted_depth_m": "2.5-4.5",
+    "predicted_age": "pre-400 CE",
+    "method": "GPR + borehole",
+    "cost": 500,
+    "rationale": "E156 Double Erasure: Sunda Shelf populations entered Java through Brantas system. River confluence = maximum settlement probability. E166 Zone B (GPR-detectable). No known pre-Hindu sites in this zone.",
+    "expected_finds": "Cultural layer (charcoal + ceramic) at river terrace level, 2.5-4.5m depth",
+    "falsification": "If alluvial sequence with no cultural interruption"
+  },
+  {
+    "id": "VOLCARCH-P005",
+    "name": "Penanggungan Western Valley",
+    "lat": -7.62,
+    "lon": 112.55,
+    "elev_m": 500,
+    "predicted_depth_m": "3.0-6.0",
+    "predicted_age": "pre-Majapahit (pre-1293 CE)",
+    "method": "ERT + borehole",
+    "cost": 700,
+    "rationale": "Penanggungan = sacred mountain with 81 known candi on slopes. E065 Zone A 17.9x overrepresented. If 81 temples exist on the surface, associated settlements must exist buried nearby. E153: 81% non-temple sites within 10km of candi.",
+    "expected_finds": "Settlement debris (ceramic, brick fragments, charcoal) associated with temple-building communities",
+    "falsification": "If only volcanic stratigraphy around known candi sites"
+  }
+]

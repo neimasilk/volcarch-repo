@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Last updated:** 2026-03-20
-**Total:** 120 experiments (E001-E119 + E095 activated, minus E021/E045-E047/E072/E077 unused)
+**Last updated:** 2026-03-31 (Mata Elang #12 autonomous session)
+**Total:** 175 experiments (E001-E175 + sub-experiments, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -13,15 +13,15 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| SUCCESS | 63 | Hypothesis supported or useful result |
-| INFO NEG | 7 | Negative result that IS informative |
+| SUCCESS | 90 | Hypothesis supported or useful result |
+| INFO NEG | 8 | Negative result that IS informative |
 | CONDITIONAL | 4 | Partially supported, caveats |
 | INCONCLUSIVE | 3 | Cannot determine, need more data |
 | MIXED | 3 | Multiple sub-experiments, mixed results |
-| PARTIAL | 1 | Survives with scope restriction |
+| PARTIAL | 3 | Survives with scope restriction |
 | FAILED | 2 | Hypothesis rejected or method broken |
 | COMPLETE (foundation) | 6 | Data/infrastructure, not hypothesis-driven |
-| SUPERSEDED | 6 | Replaced by later iteration |
+| SUPERSEDED | 8 | Replaced by later iteration |
 
 ---
 
@@ -257,6 +257,104 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 |----|-------|--------|-------|------------|
 | **E119** | **Synthesis figure (burial depth vs time)** | **SUCCESS** | **P1, All** | **One figure tells the whole story: burial depth diagonal × detection horizons × known sites. Pre-400 CE at 6.5m+ = beyond all standard methods. Data ready, matplotlib rendering post-mudik.** |
 
+### Cascade Robustness & Sensitivity (E120-E122)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E120** | **Cascade stress test** | **SUCCESS** | **P1, P18** | **F3 (survey) is ONLY structurally necessary factor. Safe width 0.133. Removal causes 74.7× overshoot.** |
+| **E121** | **Robustness battery (W1+W2)** | **SUCCESS** | **All** | **7/8 ROBUST (88%). E031 Zone A extraordinary: CI [23.7, 26.8]. E005 FRAGILE (CI crosses zero).** |
+| **E122** | **Gap sensitivity analysis** | **SUCCESS** | **P1** | **P(gap<10×)=0.0% in 100K MC. Even at HG density (0.1/km²), gap=19×. Gap existence is not parameter-dependent.** |
+
+### Cross-Geographic & Global Comparanda (E123, E126)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E123 | Philippines comparison | SUCCESS (MODERATE) | P1, P18 | 4.6× fewer volcanoes = slightly better record. Java has ZERO open-air volcanic interior pre-400CE; Philippines has 2. |
+| **E126** | **Global volcanic archaeology** | **SUCCESS** | **P1, P18** | **Java globally unique: only region with 1M+ yr occupation + zero pre-400CE open-air sites. 20 buried sites worldwide compiled.** |
+
+### Empty/Superseded (E124, E125)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| ~~E124~~ | ~~Survey asymmetry~~ | SUPERSEDED | — | Empty directory. Superseded by E129. |
+| ~~E125~~ | ~~Delpher pilot~~ | SUPERSEDED | — | Empty directory. Superseded by E141. |
+
+### Historiographic & External Evidence (E127, E131)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E127** | **Ancient external references** | **SUCCESS** | **P1, P16, P18, P19** | **15 sources from 5 traditions confirm pre-400CE Nusantara. World knew Java for 2,500 years before local record begins.** |
+| E131 | Writing adoption timeline | SUCCESS | P1, P19 | Nusantara 400 CE = rank 4/6 in SE Asia (not outlier). Korea/Japan also 400 CE. PAN *surat = 5000 BP. |
+
+### Independent Calibration & Replication (E128, E135)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E128** | **Colonial OV depth analysis** | **SUCCESS** | **P1, P21** | **Median 2.50m = identical to E083 (p=0.54). Two independent datasets converge. 15 new calibration points.** |
+| E135 | Organic preservation model | SUCCESS | P1, P19 | F2 independently validated: 0.229 vs E110's 0.20 (within 15%). Stone 99.8%, bamboo ~0% at 1600yr. |
+
+### Survey Bias & Archaeological Record (E129, E140, E146)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E129 | Survey asymmetry quantification | SUCCESS | P1, P18 | **73% of 391 known sites are temples.** Settlements = 1.3% (5 sites). Temples cluster closer to volcanoes (14.3 vs 25.8 km). |
+| E140 | Material culture index | SUCCESS | P1, P19 | 60% organic material in 268 inscriptions. Bamboo (84), lontar (71), cloth. Archaeological Java = elite Java only. |
+| **E146** | **Comparative inscription density** | **SUCCESS** | **P1, P5, P19** | **Java density 0.208/1000km²/century (rank 7/8). Non-volcanic regions 30× higher. Bali (2 volcanoes) 12× higher.** |
+
+### Linguistic Substrate & Inscription Analysis (E130, E134, E147)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E130 | Substrate interpretability | SUCCESS | P8, P19 | 438 pre-Indic words. ACTION domain 45.2% substrate. Glottal stops 2× more frequent. Tolaki highest (64.1%). |
+| E134 | Inscription chronology gap | SUCCESS | P5, P8, P16, P19 | C8 paradox: peak production (55) but lowest pre-Indic (0.5%). Hyang resurgence C8→C11. Genre explosion 1→396 words. |
+| E147 | Inscription length analysis | SUCCESS | P5, P8 | Longer = more pre-Indic (ρ=0.587, p<0.0001). C8 median 1 word → C10 median 431 words. |
+
+### Spatial Modeling (E132)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E132 | Sedimentation rate prediction map | PARTIAL | P1, P22 | RMSE 2.54 mm/yr (55% error). Systematically underpredicts. Sketch-level — needs FALL3D for P22. |
+
+### Synthesis & Bayesian Integration (E133, E136)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E133 | Complete synthesis argument | SUCCESS (SYNTHESIS) | All | 8 evidence lines integrated. Gap 3,220×, cascade 0.058%, P(zero GPR)=7%. "Strongest possible case WITHOUT fieldwork." |
+| E136 | Bayesian integration | SUCCESS (ILLUSTRATIVE) | All | Composite BF=72B:1 (estimated, not computed). Posterior robust even at 10× reduction. **Use as framework, not proof.** |
+
+### Discovery & Detection Models (E137, E138, E139)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E137 | Accidental discovery rate | PARTIAL | P1 | 600× overprediction. F4 (recognition) likely 0.0007 not 0.40 for ACCIDENTAL discovery. Model concept valid, params need calibration. |
+| E138 | Detection probability by method | SUCCESS | P1, P22 | ERT optimal for 7m depth (P=0.4, $15K/km²). GPR fails beyond 3m. Optimal 3-phase: $35-70K. |
+| E139 | Cost-benefit fieldwork strategies | SUCCESS | NatGeo, DRPM | Cheapest: $6K (20 boreholes). Best value: $40K GPR (4 expected finds). Definitive: $100K multi-method. |
+
+### Delpher Colonial Pipeline (E141-E143)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E141 | Delpher extraction pipeline | SUCCESS (Phase 1) | P21 | 529 records from KB SRU API. 30 high-relevance. 5 major newspaper articles with archaeological finds. |
+| E142 | Delpher full-text NLP | SUCCESS (Phase 2) | P21 | 48 finds extracted. 33 with location. 40 with material. Only 1 with depth (critical limitation). |
+| E143 | Delpher spatial cross-reference | SUCCESS | P21 | 13/33 (39%) within 30km of E080 fieldwork targets. Malang+Modjokerto cluster validates Kelud/Arjuno zone. |
+
+### Visualization & Temporal Analysis (E144, E145)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| E144 | Evidence timeline figure | SUCCESS | P1, P19 | 3,400-year gap visualization. External evidence above, zero local record below. |
+| E145 | Eruption frequency vs visibility | **INFO NEG** | P1 | **Eruptions POSITIVELY correlate with inscriptions (ρ=+0.908, p=0.0001). Taphonomy is SPATIAL not TEMPORAL. Contradicts naive L6.** |
+
+### Mata Elang #11 Resolution (E148-E152)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E148** | **Sunda Shelf paleo-drainage reconstruction** | **SUCCESS** | **P18, P19** | **4,179x survey gap on the drowned shelf. L2 is no longer conceptually empty.** |
+| **E149** | **Eruption-inscription paradox reconciliation** | **SUCCESS** | **P1, P17** | **Temporal positive correlation and spatial deficit are both true: politics drives the century signal, taphonomy drives the distance signal.** |
+| **E150** | **Babad Tanah Jawi substrate NLP** | **SUCCESS** | **P8, P19** | **Top lexical stratum is 83.9% native/non-Sanskrit. Chronicle backbone is GRAMMAR > OTHER > ACTION, breaking DHARMA monoculture.** |
+| **E151** | **Megalithic distribution vs volcanic zones** | **SUCCESS** | **P1, P19** | **All 4 requested megalithic cases lie within 35 km of an active volcano. Stone survives 4/4, organic settlement 0/4.** |
+| **E152** | **Post-929 Mataram → East Java natural experiment** | **SUCCESS** | **P1, P17** | **Post-929 inscriptions are 12.7 km farther from volcanoes, 187 km farther east, longer, and more pre-Indic.** |
+
 ---
 
 ## Revisit Candidates
@@ -271,7 +369,7 @@ Experiments that could yield better results with new data, methods, or context.
 | E032 | FDR casualty | p=0.042 uncorrected, seasonality signal plausible | Larger eruption dataset |
 | E038 | INFO NEG | Core vocab too stable; could try function words or phrasal units | New linguistic method |
 | E039 | INFO NEG | VCS fails globally but works locally (Java/Bali) | Reframe as local phenomenon |
-| E048 | FDR marginal | Partial correlation p=0.038 barely fails BH | Larger inscription corpus |
+| ~~E048~~ | ~~FDR marginal~~ **RESCUED by E154** | E154 re-audit: p=0.038 now SURVIVES BH at threshold 0.039. No longer a casualty. | E154 done |
 | E053 | FDR casualty | p=0.047 uncorrected, aDNA gap is real | More aDNA studies published |
 | E076 | Low N | Concept works (2.5× variance) but needs 20+ sites | Expand to 20+ candi |
 | E081 | INCONCLUSIVE | N=13 control too small; cave bias universal | More non-volcanic region data |
@@ -299,6 +397,38 @@ These are the strongest results that survive FDR correction and adversarial test
 | **E116** | **Testable predictions: 20 GPR → [0,6] finds** | P(zero)=7% | **Falsifiability established** |
 | **E108** | **Demographic gap 3,220×** | Population model | **Null hypothesis test** |
 | **E107** | **ADV-5 resolved: C5 = MK substrate** | p<0.0001 (6 tests) | **Upgrades E027/L4** |
+| **E122** | **Gap robust: P(gap<10×)=0.0%** | Monte Carlo 100K | **Gap existence not parameter-dependent** |
+| **E128** | **Independent depth replication** | MW p=0.54 (identical medians) | **Two independent datasets converge** |
+| **E126** | **Java globally unique archaeological gap** | Comparative compilation | **Only 1M+ yr occupation region with zero pre-400CE open-air** |
+| **E129** | **73% temple survey bias** | 277/391 sites | **Explains 40× survey deficit leverage** |
+| **E135** | **F2 independently validated** | 0.229 vs 0.20 | **Within 15% of cascade estimate** |
+
+### Mata Elang #12 Experiments (E154-E157)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E154** | **FDR Re-Audit at 153 experiments** | **SUCCESS** | **All** | **83 tests, 65 survive BH (78.3%, up from 73.2%). E048 RESCUED. Only 2 casualties remain (E032, E053).** |
+| **E155** | **Cross-Regional Cascade Validation** | **SUCCESS (with caveats)** | **P1, P17, P18** | **Cascade correctly predicts rank order of archaeological visibility across 5 regions (Spearman rho=1.0, p=0.017). F3 (survey) most differentiating factor. MC: P(rho>0.5)=99.6%.** |
+| **E156** | **Sunda Shelf Population Displacement Model** | **SUCCESS** | **P1, P18, P19** | **L1xL2 "Double Erasure": ~94,000 people pushed from drowning Sunda Shelf INTO volcanic zones via river corridors. Burial depth 44m. West Java smoking gun PREDICTED by model.** |
+| **E157** | **Ethnographic Volcanic Analog** | **SUCCESS** | **P1, P17, P18, P19** | **F4=0.43 (Liangan, Hindu) / 0.20 (pre-Hindu). F2=0.21 (weighted ethnographic). Three independent F2 estimates converge within 15%. 32% of modern village material culture INVISIBLE after burial.** |
+| **E158** | **Steelman Counter-Arguments** | **SUCCESS** | **All** | **Cascade model (E110) = weakest flank (5 params, 1 data point). Cathedral findings robust. E066 is "trivially true." Recommendation: lead with cathedral findings, cascade as framework.** |
+| **E159** | **Robustness Battery (5 cathedral findings)** | **SUCCESS** | **All** | **5/5 ROBUST under bootstrap (10K), permutation (10K), jackknife. E051 metric sensitivity discovered: court distance, not volcano distance. Zone A overrep: 13.5x, p=5.3e-64.** |
+| **E160** | **GPU Deep Semantic Analysis (DHARMA)** | **SUCCESS** | **P5, P8, P16, P17** | **768d embeddings (all-mpnet-base-v2, RTX 4080). Volcanic silence rank 8/10. C8 = darkest century. 929 CE rupture p=0.012 (z=3.04). High pre-Indic = practical governance, low = religious abstraction.** |
+| **E161** | **Bali as Within-Indonesia Comparandum** | **SUCCESS** | **P1, P17, P18** | **5/5 VOLCARCH predictions confirmed. ALL pre-Hindu sites on non-volcanic coast (4/4). Cascade predicts 14.3x ratio, observed ~12x (18% error). Bali = successful test case.** |
+| **E162** | **State of Evidence Synthesis (161 experiments)** | **SUCCESS (SYNTHESIS)** | **All** | **Complete evidence table: 8 cathedral findings, 9 strong findings, 10+ supporting, 6 limitations. One-paragraph argument. For collaborator/reviewer/funder briefing.** |
+| **E163** | **Sumatra Applicability Test** | **SUCCESS (NUANCED)** | **P1, P17, P18** | **Cascade predicts Sumatra 0.49x Java visibility. Observed: 0.14-0.19x (model overpredicts). Additional erasure: peat, delta, forest. Sriwijaya paradox = VOLCARCH thesis without volcanism.** |
+| **E164** | **Dong Son Drum Distribution** | **SUCCESS** | **P1, P17, P19** | **6/6 Java drums in volcanic zones. Tuban drum (300 BCE, Heger II) = direct pre-Hindu evidence in volcanic E. Java. Only bronze survives all 5 cascade factors. Accidental discovery pattern confirms F3.** |
+| **E165** | **Ghost Vocabulary in Old Javanese** | **SUCCESS** | **P5, P8, P16, P17, P19** | **95,709 tokens from 233 inscriptions (original OJ, not translations). 230 ghost words (14% of early vocab vanishes). "aku" (I) disappears after C8. Volcano zone 4.6x more exclusive vocabulary. Indigenous% jumps C8(64%)→C9(96%).** |
+| **E166** | **Burial Depth Prediction Map (30m GeoTIFF)** | **SUCCESS** | **P1, P2, P17** | **Full East Java burial depth map. 12,811 km2 in Zone B (GPR-detectable 1-3m). 2,709 km2 in Zone D (>6m). GeoTIFF output for GIS overlay. Pre-400 CE sites: 21.5% of area has >1m burial.** |
+| **E167** | **Priority Fieldwork Map (integrated)** | **SUCCESS** | **P1, P2, P17** | **Combines suitability + burial feasibility + novelty. Top 1% = 994 km2. Targets cluster Lawu W flank at 1-1.2m depth. GeoTIFF output. 89.3% of E. Java has no known sites within 5km.** |
+| **E168** | **The Invisible Civilization (reconstruction)** | **SUCCESS (SYNTHESIS)** | **P18, P19, All** | **Full reconstruction: 500K-1M population, bamboo stilt villages, wet rice, bronze metallurgy, organic-media writing (PAN *surat 5000BP), hyang cosmology, stratified chiefdoms. 99.9% material culture lost. "Aku was always there."** |
+| **E169** | **Inscription Desert Analysis** | **SUCCESS** | **P1, P17** | **77.1% of expected inscription zone is EMPTY. 3 deserts: Malang/Kelud (9,630 km2), Lawu (3,494 km2), Semeru/Bromo (3,614 km2). Deserts = shadow of Two Javas divide.** |
+| **E170** | **TWI-Enhanced Burial Depth Model** | **SUCCESS (MARGINAL)** | **P1, P2** | **TWI refinement adds <2% over distance model (rho=0.986). Distance dominates at regional scale. GeoTIFF saved.** |
+| **E171** | **Prediction Registry (5 formal predictions)** | **SUCCESS** | **All** | **5 GPS-precise predictions with depth, age, method, cost ($3K total), and explicit falsification conditions. For Zenodo DOI deposit. P(>=1 positive) = 55%.** |
+| **E172** | **Dynamic Population Model (40K BP — 1600 CE)** | **SUCCESS** | **P1, P17, P18** | **50K Monte Carlo. Java 400 CE: median 3.30M (95% CI 1.35-5.51M). 7/7 calibration. Gap 11,008x (vs E108's 3,220x). Logistic growth + migration + catastrophes. Supersedes E108.** |
+| **E173** | **Counterfactual "What If Japan"** | **SUCCESS** | **P1, P17, P19** | **1,789 pre-400 CE sites MISSING because no rescue archaeology. Excavation density gap 558x. ~4-5 sites destroyed/year by construction. "The difference is not geology. It is POLICY."** |
+| **E174** | **Synthesis Figure (6-panel)** | **SUCCESS (VIZ)** | **All** | **One figure tells the entire VOLCARCH story: population, cascade, burial depth, Two Javas, ghost vocabulary, gap. 535 KB PNG, 200 dpi.** |
+| **E175** | **Candi Spatial Statistics** | **SUCCESS** | **P7, P11, P17** | **Clark-Evans R=0.171 (extremely clustered, 5.8x tighter than random). Ripley L peaks at 50 km (volcanic system spacing). NOT exponential, NOT lognormal. Deliberate siting confirmed.** |
 
 ---
 

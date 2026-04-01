@@ -164,7 +164,7 @@
 - **P14** — Pararaton Volcanic Collapse (Bonferroni kills significance; E026 folded into P5 revision ammo, 2026-03-11)
 - **P-coastal** — The Invisible Shore (stub, no data, no method)
 
-**Pipeline summary (2026-03-20):** 3 under review (P2, P7, P8) + 3 rejected with Diamond OA targets (P1→EGQSJ, P5→ArchCalc, P9→HOLD) + 4 drafting (P11, P16, P17, P18-HOLD) + 2 data papers (D1, D2→Zenodo) = **12 items**. 122 experiments.
+**Pipeline summary (2026-03-30):** 4 under review (P1-EGQSJ, P2, P7, P8) + 2 rejected with Diamond OA targets (P5→ArchCalc, P9→HOLD) + 4 drafting (P11, P16, P17, P18-HOLD) + 2 data papers (D1, D2→Zenodo) = **12 items**. 153 experiments.
 
 ### Adversarial Scorecard (2026-03-17)
 
@@ -181,4 +181,4 @@
 ---
 
 *This document reflects the current plan. It will be updated when phases change or pivots occur.*
-*Last updated: 2026-03-30 (122 experiments, 3 under review, 3 rejected with Diamond OA retargets, P11/P16/P17 drafting, D1/D2→Zenodo)*
+*Last updated: 2026-03-30 (153 experiments, 4 under review incl. P1-EGQSJ, 2 rejected with Diamond OA retargets, P11/P16/P17 drafting, D1/D2→Zenodo)*

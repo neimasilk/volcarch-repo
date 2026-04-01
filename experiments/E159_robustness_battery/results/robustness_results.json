@@ -1,0 +1,61 @@
+{
+  "E069": {
+    "finding": "Volcanic signal survives survey control",
+    "original_p": 0.0015,
+    "partial_rho": -0.1308265053114381,
+    "partial_p": 0.0005060429124929721,
+    "bootstrap_ci": [
+      -0.19488487895124254,
+      -0.05829408096950358
+    ],
+    "permutation_p": 0.0001,
+    "jackknife_max_influence": 0.005794242848345538,
+    "verdict": "ROBUST"
+  },
+  "E031": {
+    "finding": "Candi cluster west of volcanoes",
+    "original_p": 3.4e-08,
+    "mean_direction": 278.7264391117957,
+    "R_bar": 0.34789842284598743,
+    "rayleigh_Z": 17.186730391859015,
+    "rayleigh_p": 2.1154776559957442e-08,
+    "bootstrap_rbar_ci": [
+      0.24632333898615433,
+      0.4549576023954032
+    ],
+    "permutation_p": 0.0,
+    "jackknife_max_influence": 0.009413187530495526,
+    "west_fraction": 0.6619718309859155,
+    "verdict": "ROBUST"
+  },
+  "E051": {
+    "finding": "Pre-Hindu toponyms increase with volcano distance",
+    "original_p": 5.1e-14,
+    "spearman_rho": 0.061958477344822696,
+    "bootstrap_ci": [
+      -0.1310619840211803,
+      0.2499358783211538
+    ],
+    "permutation_p": 0.4975,
+    "jackknife_max_influence": 0.0216563276672423,
+    "most_influential": "Kabupaten Sampang",
+    "verdict": "FRAGILE"
+  },
+  "E084": {
+    "finding": "Inscriptions farther from volcanoes than candi",
+    "original_p": 5.2e-08,
+    "inscription_median_km": 27.58,
+    "candi_median_km": 14.648272610667703,
+    "mann_whitney_p": 4.261443290848512e-08,
+    "bootstrap_diff_ci": [
+      6.57340566865534,
+      17.859986198530244
+    ],
+    "permutation_p": 0.0,
+    "verdict": "ROBUST"
+  },
+  "E065_zone_a": {
+    "verdict": "ERROR",
+    "error": "module 'scipy.stats' has no attribute 'binom_test'"
+  }
+}

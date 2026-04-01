@@ -1,0 +1,17 @@
+FIGURE CAPTIONS
+
+Figure 1. Distance distributions of candi (orange, n = 142) and inscriptions (blue, n = 176) from nearest volcano. Dashed lines indicate medians. Candi cluster in the volcano zone (0-15 km); inscriptions cluster in the court zone (15-30 km). The 13 km median gap represents a fundamental spatial division between sacred architecture and administrative text.
+
+Figure 2. Archaeological site density by elevation zone in East Java (n = 391). Density increases monotonically from 1.96 sites per 1000 km2 at 0-50 m to 18.61 at >1000 m -- a 9.5-fold increase. The expected inverse-U pattern is absent.
+
+Figure 3. Vocabulary composition by burial depth zone. Indigenous vocabulary increases from 9.3% in shallow zones (<2 m) to 56.4% in deep zones (5-10 m) -- a 5.8-fold increase. Sanskrit vocabulary shows the inverse pattern.
+
+Figure 4. Pre-Indic vocabulary ratio over time, split by volcanic distance zone. The temporal trend (rho = 0.781, p < 0.0001) is driven entirely by the court zone (20-40 km). Volcano and peripheral zones show no significant temporal trend. The vertical dotted line marks 929 CE (Mataram collapse).
+
+Figure 5. Vocabulary composition by zone, before and after 929 CE. Pre-929 inscriptions concentrate in the court zone with Sanskrit dominance. Post-929 inscriptions shift to the periphery with indigenous and mixed vocabulary.
+
+TABLE CAPTIONS
+
+Table 1. Summary of five analyses supporting the Two Javas model.
+
+Table 2. Distribution of candi and inscriptions by volcanic distance zone.

@@ -1,0 +1,181 @@
+{
+  "total_inscriptions": 233,
+  "dated_inscriptions": 134,
+  "total_tokens": 95709,
+  "unique_tokens": 16538,
+  "ghost_words_count": 230,
+  "reverse_ghosts_count": 2486,
+  "persistent_count": 1416,
+  "ghost_ratio_pct": 13.973268529769136,
+  "ghost_sanskrit": 2,
+  "ghost_indigenous": 0,
+  "ghost_unknown": 228,
+  "top_ghost_words": [
+    {
+      "word": "sit",
+      "early_frequency": 50,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "takura",
+      "early_frequency": 28,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "karay\u0101n",
+      "early_frequency": 12,
+      "centuries": [
+        8,
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "tath\u0101pi",
+      "early_frequency": 7,
+      "centuries": [
+        7,
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "tuh\u0101las",
+      "early_frequency": 7,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "sadugala",
+      "early_frequency": 7,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "par\u0101vis",
+      "early_frequency": 6,
+      "centuries": [
+        7
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "vrat",
+      "early_frequency": 6,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "suhan",
+      "early_frequency": 6,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "parvuvus",
+      "early_frequency": 6,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "mula",
+      "early_frequency": 5,
+      "centuries": [
+        7,
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "makajar",
+      "early_frequency": 5,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "\u0101ku",
+      "early_frequency": 5,
+      "centuries": [
+        7,
+        8
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "sisim",
+      "early_frequency": 5,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "kalivuan",
+      "early_frequency": 5,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "nivunu",
+      "early_frequency": 4,
+      "centuries": [
+        7
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "glis",
+      "early_frequency": 4,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "ruhutan",
+      "early_frequency": 4,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "sayut",
+      "early_frequency": 4,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    },
+    {
+      "word": "kvak",
+      "early_frequency": 4,
+      "centuries": [
+        9
+      ],
+      "classification": "unknown"
+    }
+  ],
+  "volcano_only_count": 632,
+  "court_only_count": 138
+}

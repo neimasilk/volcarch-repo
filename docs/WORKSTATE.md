@@ -1,9 +1,10 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-30 (Mata Elang #10 + autonomous day: 12 new experiments)
-**MODE: CONSOLIDATION + AUTORESEARCH.** Priority: (1) submit P1 to EGQSJ, (2) reframe narasi, (3) fieldwork partnership.
-**Autonomous day:** E120-E136 (17 experiments). 137 total. Key findings: gap robust P(gap<10x)=0.0% (E122), Philippines comparison (E123), Java globally unique (E126), 15 ancient references (E127), OV depths replicate E083 p=0.54 (E128), 73% temple bias (E129), 438 substrate words (E130), 400 CE = visibility threshold (E131), sedimentation map (E132 PARTIAL), complete synthesis (E133), C8 paradox + hyang resurgence (E134), F2 validated 0.229 vs 0.20 (E135), Bayesian posterior ~100% BF=72B (E136).
+**Last updated:** 2026-03-31 (ME#12 autonomous session COMPLETE, E154-E174, 174 experiments)
+**MODE: CONSOLIDATION.** Priority: (1) SUBMIT P17 to ArchCalc, (2) wait reviews, (3) resolve JCAA APC, (4) repo go public.
+**SESSION 9 COMPLETE:** 21 new experiments, ME#12 critique, P17 v0.3 ready, manifesto v4.2, synthesis figure, population model 3.3M, handoff document.
+**HANDOFF:** `docs/HANDOFF_20260331_ME12_SESSION.md` — full navigation guide for all new files.
 
 ---
 
@@ -16,19 +17,23 @@
   - Zenodo preprint live: DOI 10.5281/zenodo.19081502
   - **Next: WAIT for editor assignment + reviewer feedback (2-6 months)**
   - Revision ammo ready: 9 files + E120-E140 new findings
-- **P11 finalization** — v0.3 drafted (18pp), AI markers fixed, **PRE-FLIGHT COMPLETE**
-  - Files: `papers/P11_volcanic_informedness/draft_v0.3.tex`, `SUBMISSION_PREP.md`, `PREFLIGHT_REVIEW.md`
-  - ~~Target: Wacana~~ — **WACANA NOT VIABLE** (thematic journal, "Kawi" issue already published, no suitable open issue)
-  - **NEW TARGET:** (A) **Indonesia (Cornell)** — free, accepts general submissions, essentially ready; OR (B) **Archeologia e Calcolatori** — Diamond OA, but risks overlap with P17
-  - **RECOMMENDATION: Indonesia (Cornell)** — send P17 to ArchCalc instead (stronger paper, better fit)
-  - Next: Pak Amien decides target → format conversion if needed → submit
-  - Content issues: add DHARMA citation, consider adding 3-4 references, add Liangan sentence in Discussion
-- **P17 drafting** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Clean. **PRE-FLIGHT COMPLETE**
+- **P11 → REJECTED Indonesia (Cornell)** (2026-04-01, desk rejection)
+  - Reason: "beyond the thematic and stylistic purview" — journal is sociology/political science, not archaeology
+  - **RETARGET → Archipel (INALCO/EHESS, Paris).** Zero APC, Scopus Q3, WoS A&HCI. "Monde insulindien" = perfect scope.
+  - Submit to: archipel@ehess.fr (varia issue). Word limit 9K (P11 = 3.2K). Flexible ref style. English OK.
+  - **Adaptation needed (MANUAL):** Reframe intro/abstract — lead with heritage/historical implications, Monte Carlo as supporting tool. Soften computational framing. Add paragraph connecting to Insulindian studies discourse.
+  - Backup: Wacana Vol.28 No.3 "Muarajambi" (Oct 2027) or PCI Archaeology (preprint-first, Scopus+WoS).
+  - Files ready: 14pp, 14 refs, Word + LaTeX, E153 included
+- **P17 → ArchCalc (CNR) CONFIRMED** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Clean. **PRE-FLIGHT COMPLETE**
   - Files: `papers/P17_two_javas/draft_v0.2.tex`, `p17_references.bib`, `figures/`, `PREFLIGHT_REVIEW.md`
   - Target: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) — deadline Dec 31
   - **STRONGEST paper in portfolio.** "Two Javas" is a memorable, citable concept.
-  - Issues: experiment count outdated (107→120), missing Fig 6, self-citations need anonymising for double-blind, spelling consistency
-  - Next: **Download ArchCalc editorial rules** (blocking) → User review → format conversion → submit ~September 2026
+  - **ArchCalc rules downloaded** → `papers/P17_two_javas/ARCHCALC_RULES.md`
+  - **CRITICAL: 6,000 word limit** (P17 is ~7K → needs ~1K trim). Double-blind (anonymize). Word/RTF only. Max 10 figs+tables. Figures separate ZIP. Bibliography separate file. Paragraphs numbered. No footnotes.
+  - Issues: experiment count outdated (107→153), missing Fig 6, self-citations need anonymising, spelling consistency
+  - Next: User review → trim to 6K → pandoc conversion → anonymize → submit ~September 2026
+  - Portal: https://submission.archcalc.cnr.it/ (create account)
+  - Zotero CSL: https://submission.archcalc.cnr.it/public/journals/2/archeologia-e-calcolatori.csl
 - **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Clean.
   - Files: `papers/P16_computational_textual_archaeology/draft_v0.1.tex`, `p16_references.bib`, `figures/`
   - Target: **DHQ** (ADHO, Diamond OA, Scopus+WoS) — rolling deadlines (Apr 15, Jul 15)
@@ -54,9 +59,10 @@
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
 - **E076 v2 satellite** — Script written, needs internet + compute (~30 min). **BLOCKED** (no time, post-mudik workload)
 - **Colonial data verification** — 10 E070 entries on Delpher.nl. **BLOCKED** (manual task, no time)
-- **JCAA APC** — P2 charges £450. CAA waiver fund exists. **BLOCKED** (check email when time permits). Contact: journal@caa-international.org
-- **P11 submit** — **BLOCKED** (needs target decision: Cornell vs ArchCalc)
-- **P17 ArchCalc submit** — **BLOCKED** (needs editorial rules download)
+- **JCAA APC CRISIS** — P2 charges **£593** (was £450, increased). CAA Publication Fund waiver requires: (a) paper ACCEPTED first, (b) CAA member ≥2 of last 4 years, (c) max 5/year, (d) cap £550 (gap ~£43). **Alternative:** 30% reviewer discount if you review for JCAA. **ACTION NEEDED:** Email journal@caa-international.org to ask about developing-country waiver options. If waiver impossible and P2 accepted, must withdraw and retarget to free journal.
+- ~~P11 submit~~ — **SUBMITTED** 2026-03-31 to Indonesia (Cornell). Wait for response.
+- **P17 ArchCalc submit** — **UNBLOCKED** → Rules downloaded. Needs: trim 7K→6K, pandoc conversion, anonymize, Fig 6, experiment count update.
+- **P11 Zenodo preprint** — **BLOCKED** (manual upload, besok)
 - **P19 deep reading** — **BLOCKED** (Lombard Vol.3, Bloembergen, Wolters — manual reading)
 - **NEW: P20 TobaSim** — Proposal in `docs/drafts/P20_tobasim_proposal_v0.1.md`. FALL3D Toba 74ka simulation. Needs geologist co-author.
 - **NEW: P21 ColonialMine** — Proposal in `docs/drafts/P21_colonialmine_proposal_v0.1.md`. Dutch colonial NLP. Most actionable of 3 new proposals.
@@ -69,13 +75,14 @@
 |-------|---------|-----|-----------|--------|
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
 | **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
+| ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
 | P7 | Antiquity Project Gallery | — | 2026-03-06 | **Under review** — 1 revision ammo file |
 | P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files |
 | ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
-**Scorecard: 3 rejected (P1-AP, P5-BKI, P9-JSEAS), 3 still under review (P2, P7, P8).**
+**Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 4 under review (P1-EGQSJ, P2, P7, P8).**
 Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern analysis.
 
 ## PAPERS NEEDING RETARGETING (DECISION REQUIRED)
@@ -85,6 +92,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 | P1 | Asian Perspectives | **EGQSJ ready** (Copernicus). Also: JASREP formatted. Zenodo preprint live. |
 | P5 | BKI | (a) Retarget archaeometry journal as-is, OR (b) major rewrite for humanities framing |
 | P9 | JSEAS | (a) World Archaeology / Cambridge Arch. J., OR (b) hold for P2/P8 outcome |
+| P11 | Indonesia (Cornell) | Internet Archaeology (Diamond OA) / BIPPA (free) / Aziatische Studien (Diamond OA) |
 
 ## KEY FINDINGS THIS SESSION (reference only)
 
@@ -112,6 +120,8 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Session 9 (2026-03-31)** — **Mata Elang #12 autonomous session (extended).** Deepest structural critique to date. **10 new experiments (E154-E163):** E154 FDR re-audit (78.3%), E155 cross-regional cascade (rho=1.0), E156 L1xL2 double erasure, E157 ethnographic F4/F2, E158 steelman counter-args, E159 robustness battery (5/5 ROBUST), E160 GPU NLP (929 CE z=3.04), E161 Bali (5/5 confirmed), E162 synthesis, E163 Sumatra (nuanced: Sriwijaya paradox). **Plus:** P17 v0.3 ArchCalc-ready (anonymized, ~5.2K words), interactive prediction map, borehole targeting protocol ($6K for 20 holes). **163 experiments total.**
+- **Session 8 (2026-03-31)** — Post-ME#11 pipeline. **P11 SUBMITTED** to Indonesia (Cornell): Chicago 17th conversion, E153 candi-settlement proxy test (p<0.0001), Liangan validation strengthened, AI prose audit passed, cover letter sent. P17 target confirmed: ArchCalc, rules downloaded (6K word limit, needs trim). JCAA APC crisis: £593, waiver very difficult. E153 experiment: 154 experiments total. KB.nl Delpher reply received — colonial data already public, no action needed.
 - **Session 7 (2026-03-30)** — Back at campus. 3 deliverables: (1) LiDAR 1-page pitch for company contact — 10 GPS targets, Amazon precedent, value proposition, (2) README.md professional rewrite for GitHub go-public — Zenodo badge, 120 experiments summary, citation block, (3) YouTube Ep2 "Patung yang Ditelan Bumi" full outline — 10-min Dwarapala Singosari deep dive. Dissemination roadmap tracking updated.
 - **Post-Mudik Session 6 (2026-03-22)** — Sustainability deliverables: YouTube Ep1 script (15 min, Bahasa Indonesia), NatGeo Explorer Grant outline ($20K GPR/ERT pilot), DRPM Penelitian Dasar skeleton (Rp 500M/3yr). All pushed to GitHub.
 - **Post-Mudik Session 5 (2026-03-22)** — **Strategic pivot: dissemination.** Comparative civilization gap analysis (11 civilizations, 5 patterns, 7 gaps, 5 possibilities). Dissemination roadmap created (`docs/DISSEMINATION_ROADMAP.md`): 4-tier strategy from GitHub/YouTube to funding/documentary. LiDAR contact identified (needs 1-page pitch). Technical: P1 ORCID fixed, P11 +4 refs +Liangan section +Ceren sentence, P17 experiment count fixed +spelling +fig:model removed. All pushed to GitHub.
@@ -130,54 +140,50 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **148 experiments** (E147 = inscription length). **Record day: 28 new experiments (E120-E147).** P1 SUBMITTED egqsj-2026-3. 4 under review (P1-EGQSJ, P2, P7, P8). P11 Cornell DOCX ready. P17 ArchCalc rules downloaded. Delpher API working (529 records + 48 finds). Book outline v0.1. Workshop proposal. DRPM skeleton updated. Phase = CONSOLIDATION + AUTORESEARCH. **NEXT SESSION: Mata Elang #11 — review + cleanup of E120-E147 before adding more.**
-**Mata Elang #10 key findings:** (1) Cascade model is descriptive not predictive — needs fieldwork. (2) Reframe: VOLCARCH = settlement prediction methodology, not volcanic burial. (3) Gap robust: P(gap<10x)=0.0%. (4) Philippines 4.6x less volcanoes → slightly better record. (5) 7/8 robustness tests ROBUST. (6) F3 (survey) is only structurally necessary cascade factor.
-P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502). **P1 EGQSJ fully ready** (ORCID, GitHub URL, references all verified, AI prose audit CLEAN, cascade robustness revision ammo ready).
-**All future submissions: Diamond OA only (zero APC).** See `memory/project_diamond_oa_journals.md` for verified targets.
-**L1 kill criteria REWRITTEN** — old criteria were obsolete after E005 pivot. New criteria: concrete, testable (GPR results, external comparanda, 3+ substantive peer rejections). See L1 §9.
-**E115 cascade robustness:** Monte Carlo 100K confirms model robust (92% within 10×, correlation-robust). Revision ammo ready.
-**E116 testable predictions:** 20 targeted GPR → expect 2.5 finds [0,6] 95% CI, P(zero)=7%. Framework IS falsifiable. See `experiments/E116_testable_predictions/`.
-**E117 onset analysis:** Detection horizon model — surface survey reaches ~1900 CE only at 4mm/yr. Zero pre-400 CE open-air sites in volcanic interior Java. See `experiments/E117_archaeological_onset/`.
-**E118 information gain:** 3.5× search efficiency, 29% entropy reduction, $16.7K per first-find. Survey deficit = bigger PROBLEM, volcanic context = better SOLUTION.
-**Falsifiability package:** `papers/P1.../revision_ammo/FALSIFIABILITY_PACKAGE.md` — pre-written response paragraph for reviewers.
-**Auto-sync checker:** `tools/check_doc_sync.py` — run to verify experiment count consistency across docs.
-**Michelson-Morley framing:** Project value = method + predictions, not discovery. Both outcomes (find/null) are contributions.
-**Pre-mortem analysis created** — `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`. 6 counter-arguments classified.
-**Rejection pattern:** specialist journals = 100% survival, broad area-studies = 0%. See `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`.
-**Wacana is thematic** — "Kawi culture" (Vol 26 No 3) ALREADY PUBLISHED. No suitable open issue for P11/P16. P19 fallback: "Prehistoric art in Indonesia" (Vol 28, April 2027, OPEN, deadline ~Oct 2026).
-**P11 target revised:** Wacana → Indonesia (Cornell) or ArchCalc. Pre-flight review complete.
-**P17 pre-flight issues FIXED (session 5):** Experiment count 107→120, dangling fig:model removed, spelling standardized. Remaining: download ArchCalc editorial rules (blocking), double-blind prep.
-**Liangan research note complete:** `docs/research_notes/LIANGAN_VALIDATION_CASE.md`. Key validation case for VOLCARCH. No published sedimentation rates (E121 gap). No Cerén comparison in literature (publication opportunity).
-**Blind spots analysed:** 8 identified (3 critical, 5 significant). New ideas I-120–I-127 in IDEA_REGISTRY. PREMORTEM updated.
-**Liangan research note:** `docs/research_notes/LIANGAN_VALIDATION_CASE.md`. 15+ references. No sedimentation rates (E121 gap). No Cerén comparison in literature.
-**Phytolith research (I-125):** STRONGLY POSITIVE. Survive 90K yr in tephra. Andisol pH favourable. I-125 upgraded HYPOTHESIS → TESTABLE. See `docs/research_notes/PHYTOLITH_VOLCANIC_PRESERVATION.md`.
-**Cerén comparison (I-124):** No formal Cerén-Java comparison in literature. Publication opportunity. See `docs/research_notes/CEREN_COMPARISON.md`.
-**AI prose audit:** P11 PASS, P17 PASS. P17 dangling `fig:model` FIXED (session 5).
-**P11 DHARMA/Liangan/Ceren DONE (session 5):** +4 refs (10→14), +Liangan validation subsection, +Ceren sentence. Essentially ready for Indonesia (Cornell).
-**DISSEMINATION ROADMAP:** `docs/DISSEMINATION_ROADMAP.md` — 4-tier strategy. LiDAR contact needs 1-page pitch (highest impact single action).
-PRIORITIES (post-mudik):
-1. **P1 submit EGQSJ** — register at editor.copernicus.org → upload → submit. ALL items DONE. ORCID fixed session 5.
-2. **Verify JCAA APC** — P2 charges £450. Check if waiver applied. If not, apply for CAA waiver fund immediately.
-3. ~~**LiDAR 1-page pitch**~~ — **DONE** (session 7). `docs/dissemination/lidar_pitch.md`. Send to contact.
-4. **GitHub repo go public** — README DONE (session 7). Review for sensitive files → go public.
-5. **P11 submit Indonesia (Cornell)** — DHARMA/Liangan/Ceren fixes DONE. Decide target → submit.
-6. **P17 submit Archeologia e Calcolatori** — download editorial rules (blocking), user review, deadline Dec 31
-7. P16 submit DHQ — user review + expand
-8. D1+D2 deposit to Zenodo (free, 30 min each) — affiliations corrected to UBN
-9. **YouTube "Peradaban Tersembunyi" Episode 1** — script + slides. Target: 10K views.
-10. P5 retarget Archeologia e Calcolatori or J. Pacific Archaeology — NOT Wacana (thematic constraint)
-11. P9 HOLD until P2/P8 outcome → then DHQ
-12. P18 HOLD (unchanged)
-**Blind spots (comprehensive):** See `docs/research_notes/BLIND_SPOT_COMPREHENSIVE_2026_03_21.md`. I-110 to I-127 in IDEA_REGISTRY.
-**Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md` (5 rules), `docs/AI_PROSE_GUIDE.md` (checklist).
-**Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` — the GTD-style doc. Revisit weekly.
-**Read for sustainability:** `docs/SUSTAINABILITY_ROADMAP.md` — 6 income streams, AK projection, "keep it alive" system. Revisit monthly.
-**Funding documents ready:** `docs/funding/natgeo_explorer_outline.md` (apply after P1 accepted), `docs/funding/drpm_penelitian_dasar_skeleton.md` (submit Jan-Feb 2027).
-**YouTube script ready:** `docs/dissemination/youtube_ep1_script.md` — "Kenapa Sejarah Indonesia Dimulai dari 400 Masehi?" Production-ready.
+STATUS: **175 experiments** (E001-E175). **Mata Elang #12 CLOSED.** Session 9 COMPLETE. All docs synced. Handoff ready. UNCOMMITTED — needs git add + commit.
+**Papers:** P1 SUBMITTED EGQSJ, P11 REJECTED Cornell (retarget needed). 4 under review (P1-EGQSJ, P2, P7, P8). P16/P17 drafting. P18 HOLD.
+**Phase:** CONSOLIDATION + AUTORESEARCH. P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502).
+
+### Mata Elang #12 Key Findings
+1. **Verification Ladder**: Saturated at Level 0. Need Level 1 (peer acceptance) — P17 at ArchCalc is the critical path.
+2. **FDR re-audit**: 78.3% survival (up from 73.2%). E048 rescued. Only 2 casualties.
+3. **Cascade validated cross-regionally**: Correctly predicts visibility rank across 5 regions (rho=1.0).
+4. **L1xL2 "Double Erasure"**: Sunda Shelf drowning pushed ~94K people into volcanic zones. West Java smoking gun is model-predicted.
+5. **Ethnographic calibration**: F4=0.43 (Hindu), F4=0.20 (pre-Hindu). F2=0.21 (three independent estimates converge).
+6. **Full critique**: `docs/research_notes/MATA_ELANG_12_2026_03_31.md`
+
+### ME#12 Experiments (E154-E157)
+
+| ID | Finding | Status | Key Result |
+|----|---------|--------|------------|
+| E154 | FDR re-audit at 157 experiments | SUCCESS | 65/83 survive BH (78.3%). E048 rescued. |
+| E155 | Cross-regional cascade validation | SUCCESS | rho=1.0, p=0.017. F3 most differentiating. |
+| E156 | Sunda Shelf population displacement | SUCCESS | L1xL2 double erasure. 94K into volcanic zones. |
+| E157 | Ethnographic volcanic analog | SUCCESS | F4 validated. F2 triple convergence. |
+
+### Standing Priorities (ME#12 Reordered)
+1. **P17 submit ArchCalc** — THE priority (ME#12 recommendation). Trim 7K→6K, pandoc, anonymize. Deadline Dec 31.
+2. ~~P1 submit EGQSJ~~ — **SUBMITTED.** Wait for editor assignment (2-6 months).
+3. ~~P11 submit Cornell~~ — **REJECTED** (scope mismatch). Retarget: Internet Archaeology / BIPPA / Aziatische Studien.
+4. **JCAA APC crisis** — £593, waiver very difficult. Email journal@caa-international.org ASAP.
+5. **GitHub repo go public** — README updated to 157. Review for sensitive files.
+6. P16 submit DHQ — user review + expand.
+7. D1+D2 deposit to Zenodo (free, 30 min each).
+8. P5 retarget — NOT Wacana (thematic).
+9. P9 HOLD until P2/P8 outcome.
+**All future submissions: ZERO APC (absolute, non-negotiable). Free-to-publish journals OK even if not Diamond OA. Q2-Q4 all acceptable.** See `memory/feedback_zero_apc.md`.
+**Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/AI_PROSE_GUIDE.md`.
+**Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` (revisit weekly).
+
+### Stop Doing
+- More cascade sensitivity analyses (E115/E120/E121/E122 = saturated)
+- Counting figures/syntheses as experiments
+- Analyzing DHARMA without genuinely new questions
+- Computing Bayes Factors from estimated priors
 
 ## DO NOT WORK ON
 
 - New paper drafts beyond strengthening P18
 - P18 submission (wait for acceptances)
 - Phase 2 dissemination (wait for 1 acceptance)
-- GPU-dependent tasks (mudik laptop, no GPU)
+- GPU-dependent tasks (no GPU available)

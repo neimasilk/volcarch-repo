@@ -1,0 +1,3 @@
+# Prompt untuk Sesi Berikutnya
+
+Baca `docs/HANDOFF_20260330_ME11_CLOSEOUT.md` lalu `docs/WORKSTATE.md`. Anggap Mata Elang #11 sudah selesai penuh: E150-E152 selesai, docs sudah sinkron ke 153 eksperimen, dan `tools/check_doc_sync.py` sudah PASS, jadi jangan ulang eksperimen atau doc sync itu. Fokus sesi ini adalah melanjutkan pipeline pasca-closeout: prioritaskan keputusan dan persiapan submit P11 (rekomendasi target: Indonesia/Cornell), lalu cek blocker P17 yaitu editorial rules ArchCalc, dan jika ada waktu cek status waiver/APC P2 di JCAA. Worktree sedang dirty dari sesi-sesi sebelumnya, jadi jangan revert perubahan lama yang bukan bagian tugas baru.

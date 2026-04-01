@@ -1,7 +1,7 @@
 # E136: Bayesian Integration of All VOLCARCH Evidence
 
 **Date:** 2026-03-30
-**Status:** SUCCESS
+**Status:** SUCCESS (ILLUSTRATIVE — see caveats)
 **Paper:** ALL (meta-analysis)
 **Layer:** ALL
 
@@ -39,11 +39,23 @@ Can we compute a composite posterior probability for the VOLCARCH thesis by inte
 - Even after hypothetical GPR null result: 100.0000%
 - To bring posterior to 50/50: need 8 billion:1 AGAINST thesis
 
-### Interpretation
+### Interpretation (Mata Elang #11 — REFRAMED)
 
-The thesis is not "probably right." It is **overwhelmingly supported** by 10 independent evidence lines from textual, archaeological, linguistic, material science, and comparative geographic domains. No single evidence line is decisive, but their integration is.
+**This experiment is an ILLUSTRATIVE FRAMEWORK, not a quantitative proof.**
 
-**IMPORTANT CAVEAT:** These BFs are estimated, not computed from data. Individual BFs could be debated. But even reducing ALL BFs by 10x each (10^10 = 10 billion reduction), composite BF would still be 7.2:1, and posterior still >44%.
+The individual Bayes Factors are ESTIMATED based on effect sizes and judgment, NOT computed from formal likelihood ratios. A reviewer would rightly challenge the source of each BF. The composite number (72 billion) should NEVER be cited in a paper as evidence.
+
+**What IS valid:**
+- The QUALITATIVE conclusion: 10 independent evidence lines all point in the same direction
+- The ROBUSTNESS check: even with all BFs reduced by 10× each (10^10 reduction), composite remains 7.2:1
+- The STRUCTURE: identifying which evidence lines are independent and which share data
+
+**What is NOT valid:**
+- The exact composite BF number (72 billion is an artifact of estimated inputs)
+- The "~100% posterior" claim (depends entirely on estimated BFs)
+- Any claim that this constitutes formal statistical proof
+
+**How to use this experiment:** As a conceptual map showing evidence convergence. In papers, cite the individual experiments with their real p-values and effect sizes — not E136's composite number.
 
 ### What the thesis CAN'T claim
 
@@ -53,7 +65,7 @@ The thesis is not "probably right." It is **overwhelmingly supported** by 10 ind
 
 ## Conclusion
 
-**SUCCESS.** The VOLCARCH thesis — that pre-400 CE Nusantara civilizations existed but are archaeologically invisible due to taphonomic processes — is supported by 10 independent evidence lines with a composite Bayes Factor of 72 billion:1. The question is no longer WHETHER the gap is taphonomic, but WHERE to dig and WHAT to find.
+**SUCCESS (ILLUSTRATIVE).** The VOLCARCH thesis is supported by 10 independent evidence lines that all converge. The Bayesian framework demonstrates this convergence, but the composite BF (72 billion:1) is illustrative, not a formal computation. The qualitative conclusion — that evidence strongly favors taphonomic explanation over demographic absence — is robust even under 10× reduction of all individual estimates. Cite individual experiments with real statistics, not this composite number.
 
 ## Scripts
 

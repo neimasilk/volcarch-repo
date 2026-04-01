@@ -1,0 +1,30 @@
+{
+  "test1_candi_settlement": {
+    "n_non_temple": 108,
+    "n_candi": 142,
+    "mean_distance_km": 6.78,
+    "median_distance_km": 3.94,
+    "within_5km_pct": 60.2,
+    "within_10km_pct": 80.6,
+    "within_15km_pct": 87.0,
+    "monte_carlo_p": 0.0,
+    "monte_carlo_n": 10000
+  },
+  "test2_liangan": {
+    "distance_to_sundoro_km": 5.53,
+    "bearing_from_sundoro": 290.7,
+    "zone": "A",
+    "quadrant": "West",
+    "predicted_high_priority": true,
+    "actually_buried": true
+  },
+  "test3_volcanic_zones": {
+    "candi_mean_volcano_dist": 16.52,
+    "non_temple_mean_volcano_dist": 22.85,
+    "non_temple_zone_a_pct": 18.5,
+    "candi_zone_a_pct": 88.7,
+    "mann_whitney_U": 5342.0,
+    "mann_whitney_z": -4.107,
+    "mann_whitney_p": 2.9e-05
+  }
+}

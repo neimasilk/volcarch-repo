@@ -1,0 +1,84 @@
+Rank	Experiment	Test	p_value	BH_threshold	Status
+1	E066	Candi equinox binomial	4.900000e-14	0.000602	SURVIVE
+2	E051	Yogyakarta court chi2	5.100000e-14	0.001205	SURVIVE
+3	E066b	Candi cardinal binomial	8.600000e-14	0.001807	SURVIVE
+4	E152a	Post-929 longitude shift MW	3.890000e-12	0.002410	SURVIVE
+5	E031	Candi west-clustering Rayleigh	3.400000e-08	0.003012	SURVIVE
+6	E084	Inscription-volcano MW	5.200000e-08	0.003614	SURVIVE
+7	E057a	Genre taphonomy pre-Indic MW	1.000000e-07	0.004217	SURVIVE
+8	E057b	Genre taphonomy organic MW	1.000000e-07	0.004819	SURVIVE
+9	E065a	Zone A overrepresentation chi2	1.000000e-07	0.005422	SURVIVE
+10	E065b	Azimuthal clustering Rayleigh	1.000000e-07	0.006024	SURVIVE
+11	E085	Substrate noise permutation	1.000000e-05	0.006627	SURVIVE
+12	E004	Site density vs distance Spearman	1.500000e-05	0.007229	SURVIVE
+13	E152d	Post-929 word count MW	2.500000e-05	0.007831	SURVIVE
+14	E005	Residuals vs distance Spearman	1.000000e-04	0.008434	SURVIVE
+15	E027	ML substrate AUC permutation	1.000000e-04	0.009036	SURVIVE
+16	E040	Bamboo binomial	1.000000e-04	0.009639	SURVIVE
+17	E102	Vocabulary x burial depth rho	1.000000e-04	0.010241	SURVIVE
+18	E108	Demographic gap null rejection	1.000000e-04	0.010843	SURVIVE
+19	E121b	E031 Zone A replication	1.000000e-04	0.011446	SURVIVE
+20	E121c	E051 court effect replication	1.000000e-04	0.012048	SURVIVE
+21	E121d	E027/E085 ML replication	1.000000e-04	0.012651	SURVIVE
+22	E121e	E084 inscription-candi replication	1.000000e-04	0.013253	SURVIVE
+23	E145	Eruption freq vs inscription temporal rho	1.000000e-04	0.013855	SURVIVE
+24	E147	Inscription length vs pre-Indic rho	1.000000e-04	0.014458	SURVIVE
+25	E149a	Eruption-inscription paradox temporal rho	1.000000e-04	0.015060	SURVIVE
+26	E153	Candi-settlement spatial MC	1.000000e-04	0.015663	SURVIVE
+27	E152c	Post-929 pre-Indic vocabulary MW	1.360000e-04	0.016265	SURVIVE
+28	E152e	Post-929 topic shift chi2	2.510000e-04	0.016867	SURVIVE
+29	E152b	Post-929 volcano distance MW	6.680000e-04	0.017470	SURVIVE
+30	E025	Slametan Monte Carlo	1.000000e-03	0.018072	SURVIVE
+31	E030	Pre-Indic temporal rho	1.000000e-03	0.018675	SURVIVE
+32	E050	Canarium GBIF distribution	1.000000e-03	0.019277	SURVIVE
+33	E054	Pan-AN global cognacy	1.000000e-03	0.019880	SURVIVE
+34	E058	Kakawin domain chi2	1.000000e-03	0.020482	SURVIVE
+35	E062	Visibility PCA	1.000000e-03	0.021084	SURVIVE
+36	E063	Domain conservation KW	1.000000e-03	0.021687	SURVIVE
+37	E028	Cross-method kappa	1.000000e-03	0.022289	SURVIVE
+38	E036	Hanacaraka phonology	1.000000e-03	0.022892	SURVIVE
+39	E019	Spatial segregation Cohen's d	1.000000e-03	0.023494	SURVIVE
+40	E006	Nominatim reanalysis	1.000000e-03	0.024096	SURVIVE
+41	E035	Botanical keywords	1.000000e-03	0.024699	SURVIVE
+42	E041	IPA validation	1.000000e-03	0.025301	SURVIVE
+43	E042	Syllable validation	1.000000e-03	0.025904	SURVIVE
+44	E100	Coastal-highland monotonic	1.000000e-03	0.026506	SURVIVE
+45	E103	Pre-Indic spatial gradient rho	1.000000e-03	0.027108	SURVIVE
+46	E105	Topic geography Sanskrit court	1.000000e-03	0.027711	SURVIVE
+47	E107	Mon-Khmer substrate (6 predictions)	1.000000e-03	0.028313	SURVIVE
+48	E109	Forward simulation survey-burial	1.000000e-03	0.028916	SURVIVE
+49	E110	Cascade 5-factor product	1.000000e-03	0.029518	SURVIVE
+50	E113b	Sanskrit phonology early vs mature	1.000000e-03	0.030120	SURVIVE
+51	E069	Volcanic signal quasi-Poisson	1.500000e-03	0.030723	SURVIVE
+52	E121a	E004 permutation replication	4.500000e-03	0.031325	SURVIVE
+53	E113	Hapax ratio early vs mature	6.000000e-03	0.031928	SURVIVE
+54	E056	Candi x toponym MW	7.000000e-03	0.032530	SURVIVE
+55	E149c	Kingdom power vs eruptions rho	8.000000e-03	0.033133	SURVIVE
+56	E029	Phonological clustering	1.000000e-02	0.033735	SURVIVE
+57	E037	Prasasti dating MAE	1.000000e-02	0.034337	SURVIVE
+58	E101	Burial depth multivariate rho	1.200000e-02	0.034940	SURVIVE
+59	E104	Court zone candi-inscription Fisher	1.200000e-02	0.035542	SURVIVE
+60	E099	Eruption x inscription decade rho	1.300000e-02	0.036145	SURVIVE
+61	E149b	Kingdom power vs inscriptions rho	1.300000e-02	0.036747	SURVIVE
+62	E061	Script simplification MW	2.700000e-02	0.037349	SURVIVE
+63	E033	Indianization curve Spearman	3.000000e-02	0.037952	SURVIVE
+64	E114	CCI z-score pre-literate	3.400000e-02	0.038554	SURVIVE
+65	E048	Partial correlation length-controlled	3.800000e-02	0.039157	SURVIVE
+66	E032	Chi2 eruption monthly	4.200000e-02	0.039759	FAIL
+67	E053	Fisher Java aDNA	4.700000e-02	0.040361	FAIL
+68	E149d	Volcano distance vs inscriptions rho	5.200000e-02	0.040964	FAIL
+69	E043a	McNemar Bal vs Jav cognacy	6.400000e-02	0.041566	FAIL
+70	E043b	McNemar Mal vs Jav cognacy	7.300000e-02	0.042169	FAIL
+71	E129	Temple vs non-temple distance t-test	9.000000e-02	0.042771	FAIL
+72	E039b	VCS continuous global	9.200000e-02	0.043373	FAIL
+73	E034	Panji Malagasy info neg	1.000000e-01	0.043976	FAIL
+74	E111	Script adoption lag percentile	1.000000e-01	0.044578	FAIL
+75	E134	Eruption freq vs inscription Spearman	1.300000e-01	0.045181	FAIL
+76	E067	Volcanic toponyms Spearman	1.460000e-01	0.045783	FAIL
+77	E038	Volcanic vocab drift	1.500000e-01	0.046386	FAIL
+78	E106	Colonial two Javas	2.170000e-01	0.046988	FAIL
+79	E128	OV depth vs E083 MW	5.400000e-01	0.047590	FAIL
+80	E121f	E083 buried fraction	5.770000e-01	0.048193	FAIL
+81	E081	Cave ratio Fisher non-volcanic	7.600000e-01	0.048795	FAIL
+82	E020	Cave bias universal Fisher	7.610000e-01	0.049398	FAIL
+83	E039	VCS binary global	9.730000e-01	0.050000	FAIL

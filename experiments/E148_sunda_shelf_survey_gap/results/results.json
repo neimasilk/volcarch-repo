@@ -1,0 +1,261 @@
+{
+  "experiment": "E148",
+  "title": "Sunda Shelf Marine Archaeological Survey Gap Analysis",
+  "date": "2026-03-30",
+  "regions": {
+    "Mediterranean_Sea": {
+      "shelf_area_km2": 600000,
+      "surveys_count": 5000,
+      "area_surveyed_km2": 12000,
+      "coverage_pct": 2.0,
+      "marine_archaeologists": 500,
+      "archaeologists_per_M_km2": 833.33,
+      "settlement_focused": true,
+      "systematic_since": 1960,
+      "notable_finds": [
+        "Atlit-Yam (Israel, 8500 BCE submerged Neolithic village)",
+        "Pavlopetri (Greece, Bronze Age submerged city)",
+        "Cosquer Cave (France, Paleolithic art at -37m)",
+        "Franchthi Cave (Greece, submerged Mesolithic deposits)",
+        "Numerous Roman/Greek shipwrecks (>3000 catalogued)",
+        "Bouldnor Cliff (UK/Channel, submerged Mesolithic site)",
+        "La Draga (Spain, submerged Neolithic lakeside settlement)",
+        "Submerged Neolithic wells off Israel (Galili et al. 2019)"
+      ],
+      "techniques": [
+        "side-scan sonar",
+        "sub-bottom profiler",
+        "multibeam bathymetry",
+        "ROV",
+        "diver survey",
+        "grab sampling",
+        "magnetometry",
+        "photogrammetry",
+        "seismic reflection"
+      ],
+      "sources": [
+        "Flemming et al. 2017. Submerged Landscapes of the European Continental Shelf. Wiley.",
+        "SPLASHCOS viewer: http://splashcos-viewer.eu/ (~2500 submerged sites in Europe)",
+        "Galili et al. 2019. Israel's submerged prehistoric sites. In Bailey et al. (eds).",
+        "Dunkley 2015. ICOMOS/ICUCH Underwater Cultural Heritage at Risk.",
+        "Blondel & Caiti 2007. Buried Waste in the Seabed (sonar methodology overview)."
+      ]
+    },
+    "North_Sea_Doggerland": {
+      "shelf_area_km2": 23000,
+      "surveys_count": 350,
+      "area_surveyed_km2": 3500,
+      "coverage_pct": 15.217391,
+      "marine_archaeologists": 100,
+      "archaeologists_per_M_km2": 4347.83,
+      "settlement_focused": true,
+      "systematic_since": 2005,
+      "notable_finds": [
+        "Dogger Bank flint tools (trawler finds since 1930s)",
+        "Brown Bank Neanderthal skull fragment",
+        "Mesolithic antler and bone tools from aggregate dredging",
+        "Submerged forest stumps off Norfolk/Yorkshire coast",
+        "Europe's Lost Frontiers: mapped Bronze Age landscapes",
+        "Mammoth remains from North Sea floor (numerous)",
+        "Rotterdam Europoort Mesolithic finds"
+      ],
+      "techniques": [
+        "3D seismic (repurposed from oil/gas industry)",
+        "sub-bottom profiler",
+        "multibeam bathymetry",
+        "grab sampling",
+        "vibrocoring",
+        "diver survey",
+        "aggregate screening (BMAPA protocol)"
+      ],
+      "sources": [
+        "Gaffney et al. 2009. Europe's Lost World: The Rediscovery of Doggerland. CBA Research Report 160.",
+        "Vos et al. 2015. North Sea Prehistory Research and Management Framework (NSPRMF).",
+        "Sturt et al. 2013. Palaeo-landscapes of the English Channel region.",
+        "Wessex Archaeology 2008. BMAPA/EH protocol for aggregate dredging.",
+        "Gaffney et al. 2020. Europe's Lost Frontiers project results."
+      ]
+    },
+    "English_Channel": {
+      "shelf_area_km2": 75000,
+      "surveys_count": 450,
+      "area_surveyed_km2": 2500,
+      "coverage_pct": 3.333333,
+      "marine_archaeologists": 80,
+      "archaeologists_per_M_km2": 1066.67,
+      "settlement_focused": true,
+      "systematic_since": 1995,
+      "notable_finds": [
+        "A562 hand-axe (Palaeolithic, dredged from Channel)",
+        "Bouldnor Cliff Mesolithic site (8000 BP)",
+        "Submerged forests off Isle of Wight",
+        "Numerous shipwrecks (Mary Rose, etc.)",
+        "Palaeolithic tools from aggregate dredging",
+        "Mapped palaeo-Solent river system"
+      ],
+      "techniques": [
+        "side-scan sonar",
+        "sub-bottom profiler",
+        "multibeam",
+        "diver survey",
+        "vibrocoring",
+        "grab sampling",
+        "magnetometry"
+      ],
+      "sources": [
+        "Sturt et al. 2013. Palaeogeographies of the English Channel. Archaeologia Maritima Mediterranea 10.",
+        "Momber et al. 2011. Bouldnor Cliff: multi-period submerged site.",
+        "Wessex Archaeology (multiple ALSF reports 2004-2011)."
+      ]
+    },
+    "Sunda_Shelf": {
+      "shelf_area_km2": 2089415,
+      "surveys_count": 2,
+      "area_surveyed_km2": 10,
+      "coverage_pct": 0.000479,
+      "marine_archaeologists": 2,
+      "archaeologists_per_M_km2": 0.96,
+      "settlement_focused": false,
+      "systematic_since": null,
+      "notable_finds": [
+        "Gittins et al. 2025: hominin fossil from Madura Strait dredging",
+        "Song Doc (Vietnam): lithic artifacts offshore (& nearby)",
+        "Belitung shipwreck (9th c. Arab dhow — maritime, not settlement)",
+        "Cirebon shipwreck (10th c. — maritime, not settlement)",
+        "Various pottery/anchors from shipping lanes (all maritime trade)",
+        "Isolated trawler finds: animal bones, possible stone tools (unpublished)"
+      ],
+      "techniques": [
+        "opportunistic dredge finds (not planned survey)",
+        "limited grab sampling",
+        "no systematic sonar/profiler survey for settlements"
+      ],
+      "sources": [
+        "Gittins et al. 2025. Hominin fossil from Madura Strait. Nature Communications.",
+        "Ford 2011. Maritime Archaeology in Southeast Asia. In Endere & Chaparro (eds).",
+        "Dunkley 2015. ICOMOS: underwater heritage in SE Asia minimal.",
+        "Ngoentip 2019. Underwater archaeology in Thailand (mostly shipwrecks).",
+        "SEAMEO-SPAFA. Underwater Heritage Inventory for SE Asia (mostly shipwrecks)."
+      ]
+    },
+    "South_China_Sea": {
+      "shelf_area_km2": 500000,
+      "surveys_count": 100,
+      "area_surveyed_km2": 250,
+      "coverage_pct": 0.05,
+      "marine_archaeologists": 30,
+      "archaeologists_per_M_km2": 60.0,
+      "settlement_focused": false,
+      "systematic_since": 2009,
+      "notable_finds": [
+        "Nanhai I (Song dynasty shipwreck, recovered 2007)",
+        "Huaguangjiao I (Song dynasty shipwreck)",
+        "Cu Lao Cham shipwrecks (Vietnam)",
+        "Paracel Islands surface finds (disputed)",
+        "NO prehistoric settlement finds"
+      ],
+      "techniques": [
+        "side-scan sonar (for shipwrecks)",
+        "diver survey",
+        "ROV",
+        "no sub-bottom profiler for settlement layers"
+      ],
+      "sources": [
+        "Kimura 2011. Underwater cultural heritage in East Asia. ICOMOS.",
+        "Li Qingxin 2010. Maritime Silk Road archaeology. China Social Sciences Press.",
+        "Dunkley 2015. ICOMOS underwater heritage overview."
+      ]
+    },
+    "Strait_of_Malacca": {
+      "shelf_area_km2": 65000,
+      "surveys_count": 20,
+      "area_surveyed_km2": 25,
+      "coverage_pct": 0.038462,
+      "marine_archaeologists": 5,
+      "archaeologists_per_M_km2": 76.92,
+      "settlement_focused": false,
+      "systematic_since": 2000,
+      "notable_finds": [
+        "Desaru shipwreck (Malaysia)",
+        "Singapore Strait shipwrecks (colonial-era)",
+        "No prehistoric settlement finds"
+      ],
+      "techniques": [
+        "side-scan sonar (for shipwrecks)",
+        "diver survey"
+      ],
+      "sources": [
+        "Flecker 2002. Treasure from the Orient. Maritime archaeology of the Strait of Malacca.",
+        "ISEAS Maritime Archaeology Programme."
+      ]
+    },
+    "Java_Sea": {
+      "shelf_area_km2": 320000,
+      "surveys_count": 10,
+      "area_surveyed_km2": 15,
+      "coverage_pct": 0.004687,
+      "marine_archaeologists": 1,
+      "archaeologists_per_M_km2": 3.12,
+      "settlement_focused": false,
+      "systematic_since": null,
+      "notable_finds": [
+        "Belitung shipwreck (9th c. Arab dhow, discovered 1998)",
+        "Cirebon shipwreck (10th c., discovered 2003)",
+        "Karawang wreck site",
+        "No prehistoric settlement finds"
+      ],
+      "techniques": [
+        "commercial salvage diving (problematic)",
+        "limited side-scan sonar",
+        "diver survey"
+      ],
+      "sources": [
+        "Flecker 2002. The Belitung wreck. In Krahl et al. (eds) Shipwrecked.",
+        "BPCB Jawa Timur (Indonesian heritage agency, limited maritime capacity)."
+      ]
+    }
+  },
+  "gap_analysis": {
+    "coverage_gap_vs_mediterranean": 4178.8,
+    "coverage_gap_vs_north_sea": 31795.4,
+    "coverage_gap_vs_english_channel": 6964.7,
+    "archaeologist_density_gap_vs_med": 870.6,
+    "med_site_density_per_km2_surveyed": 0.208,
+    "sunda_area_if_med_coverage_km2": 41788.0,
+    "expected_sites_if_med_coverage": 8706.0,
+    "expected_sites_conservative": 4353.0,
+    "area_for_1pct_sunda_coverage_km2": 20894.0,
+    "med_annual_survey_rate_km2": 184.6,
+    "years_for_1pct_sunda_at_med_rate": 113.0
+  },
+  "aggregate_comparison": {
+    "europe": {
+      "total_shelf_km2": 698000,
+      "total_surveyed_km2": 18000,
+      "coverage_pct": 2.5787965616045847,
+      "total_archaeologists": 680,
+      "archaeologists_per_M_km2": 974.2120343839542,
+      "regions": [
+        "Mediterranean_Sea",
+        "North_Sea_Doggerland",
+        "English_Channel"
+      ]
+    },
+    "se_asia": {
+      "total_shelf_km2": 2974415,
+      "total_surveyed_km2": 300,
+      "coverage_pct": 0.010086016914250366,
+      "total_archaeologists": 38,
+      "archaeologists_per_M_km2": 12.775621424717128,
+      "regions": [
+        "Sunda_Shelf",
+        "South_China_Sea",
+        "Strait_of_Malacca",
+        "Java_Sea"
+      ]
+    }
+  },
+  "status": "SUCCESS",
+  "key_finding": "Sunda Shelf survey coverage is 4179x less than Mediterranean, 31795x less than North Sea. If Mediterranean-level survey were applied, 4353-8706 submerged prehistoric sites would be expected.",
+  "cathedral_finding": "The Sunda Shelf — Earth's largest submerged habitable landscape — has received near-zero systematic prehistoric settlement survey. The gap vs comparable regions exceeds 4179x."
+}

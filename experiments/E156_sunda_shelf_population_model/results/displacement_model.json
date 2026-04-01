@@ -1,0 +1,146 @@
+{
+  "timeline": [
+    {
+      "year_bp": 21000,
+      "sea_level_m": -120,
+      "area_km2": 2089415,
+      "pop_low": 208941.5,
+      "pop_mod": 626824.5,
+      "pop_high": 2089415.0,
+      "notes": "Last Glacial Maximum"
+    },
+    {
+      "year_bp": 19000,
+      "sea_level_m": -115,
+      "area_km2": 2017061.25,
+      "pop_low": 201706.125,
+      "pop_mod": 605118.375,
+      "pop_high": 2017061.25,
+      "notes": "Early deglaciation"
+    },
+    {
+      "year_bp": 17000,
+      "sea_level_m": -100,
+      "area_km2": 1800000.0,
+      "pop_low": 180000.0,
+      "pop_mod": 540000.0,
+      "pop_high": 1800000.0,
+      "notes": "Progressive warming"
+    },
+    {
+      "year_bp": 16000,
+      "sea_level_m": -90,
+      "area_km2": 1600000.0,
+      "pop_low": 160000.0,
+      "pop_mod": 480000.0,
+      "pop_high": 1600000.0,
+      "notes": "Approaching MWP-1A"
+    },
+    {
+      "year_bp": 14600,
+      "sea_level_m": -80,
+      "area_km2": 1400000.0,
+      "pop_low": 140000.0,
+      "pop_mod": 420000.0,
+      "pop_high": 1400000.0,
+      "notes": "Start of Meltwater Pulse 1A"
+    },
+    {
+      "year_bp": 14300,
+      "sea_level_m": -60,
+      "area_km2": 1000000.0,
+      "pop_low": 100000.0,
+      "pop_mod": 300000.0,
+      "pop_high": 1000000.0,
+      "notes": "End of MWP-1A (20m in 300 years)"
+    },
+    {
+      "year_bp": 13000,
+      "sea_level_m": -55,
+      "area_km2": 900000.0,
+      "pop_low": 90000.0,
+      "pop_mod": 270000.0,
+      "pop_high": 900000.0,
+      "notes": "B\u00f8lling-Aller\u00f8d interstadial"
+    },
+    {
+      "year_bp": 12000,
+      "sea_level_m": -50,
+      "area_km2": 800000.0,
+      "pop_low": 80000.0,
+      "pop_mod": 240000.0,
+      "pop_high": 800000.0,
+      "notes": "Younger Dryas onset"
+    },
+    {
+      "year_bp": 11600,
+      "sea_level_m": -50,
+      "area_km2": 800000.0,
+      "pop_low": 80000.0,
+      "pop_mod": 240000.0,
+      "pop_high": 800000.0,
+      "notes": "Younger Dryas (stable)"
+    },
+    {
+      "year_bp": 10000,
+      "sea_level_m": -40,
+      "area_km2": 500000.0,
+      "pop_low": 50000.0,
+      "pop_mod": 150000.0,
+      "pop_high": 500000.0,
+      "notes": "Early Holocene"
+    },
+    {
+      "year_bp": 8000,
+      "sea_level_m": -15,
+      "area_km2": 100000.0,
+      "pop_low": 10000.0,
+      "pop_mod": 30000.0,
+      "pop_high": 100000.0,
+      "notes": "Mid-Holocene transgression"
+    },
+    {
+      "year_bp": 7000,
+      "sea_level_m": -5,
+      "area_km2": 20000.0,
+      "pop_low": 2000.0,
+      "pop_mod": 6000.0,
+      "pop_high": 20000.0,
+      "notes": "Near-modern levels"
+    },
+    {
+      "year_bp": 6000,
+      "sea_level_m": 0,
+      "area_km2": 0,
+      "pop_low": 0.0,
+      "pop_mod": 0.0,
+      "pop_high": 0.0,
+      "notes": "Holocene optimum (slight highstand +2m)"
+    },
+    {
+      "year_bp": 4000,
+      "sea_level_m": 0,
+      "area_km2": 0,
+      "pop_low": 0.0,
+      "pop_mod": 0.0,
+      "pop_high": 0.0,
+      "notes": "Modern levels reached"
+    }
+  ],
+  "entry_points": [
+    "Solo River System (Bengawan Solo)",
+    "Brantas River System",
+    "Progo/Opak River System (Central Java)",
+    "Citarum River System (West Java)"
+  ],
+  "total_displaced_moderate": 626824.5,
+  "pop_to_java": 156706.125,
+  "pop_to_volcanic_zones": 94023.675,
+  "estimated_burial_depth_m": 44.0,
+  "settlement_estimates": {
+    "conservative (1/100)": 940.23675,
+    "moderate (1/50)": 1880.4735,
+    "dense (1/20)": 4701.18375
+  },
+  "double_erasure": "L1 (volcanic burial) \u00d7 L2 (coastal submersion) compound taphonomy"
+}

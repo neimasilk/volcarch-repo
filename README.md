@@ -5,7 +5,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19081502.svg)](https://doi.org/10.5281/zenodo.19081502)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Experiments](https://img.shields.io/badge/Experiments-120-green.svg)](#key-results)
+[![Experiments](https://img.shields.io/badge/Experiments-175-green.svg)](#key-results)
 
 > Java has 45 active volcanoes. Its early archaeological record is almost empty. This is not a coincidence.
 
@@ -43,7 +43,7 @@ The framework is **falsifiable**. Pre-registered prediction:
 
 ## Key Results
 
-120 experiments (E001-E119) across six evidence layers:
+153 tracked experiments (E001-E152) across six evidence layers:
 
 | Result | Value | Experiment |
 |--------|-------|------------|
@@ -71,7 +71,7 @@ The framework is **falsifiable**. Pre-registered prediction:
 
 | Paper | Title | Target Journal | Status |
 |-------|-------|---------------|--------|
-| P1 | Taphonomic framework + cascade model | EGQSJ (Copernicus, Diamond OA) | Ready to submit |
+| P1 | Taphonomic framework + cascade model | EGQSJ (Copernicus, Diamond OA) | Submitted (egqsj-2026-3) |
 | P2 | GIS settlement model | JCAA (Diamond OA) | Under review |
 | P7 | Theory of Motivated cartography | Antiquity Project Gallery (Q1) | Under review |
 | P8 | Linguistic fossils in Old Javanese | Oceanic Linguistics (Q1) | Under review |
@@ -91,17 +91,17 @@ volcarch/
 │   ├── L3_EXECUTION.md        Active tasks & experiments (per-week)
 │   ├── EVAL.md                Evaluation criteria & validation protocol
 │   ├── JOURNAL.md             Research log (append-only)
-│   ├── EXPERIMENT_INDEX.md    Master index of all 120 experiments
+│   ├── EXPERIMENT_INDEX.md    Master index of all 153 experiments
 │   └── dissemination/         Outreach materials, slides, scripts
 ├── data/
 │   ├── raw/                   Original datasets (never modified)
 │   ├── processed/             Cleaned/transformed data
 │   └── schema.md              Data format definitions
-├── experiments/               120 numbered, self-contained experiments
+├── experiments/               153 tracked, self-contained experiments
 │   ├── E001_site_density_vs_volcanic_proximity/
 │   ├── E005_sedimentation_rate_calibration/
 │   ├── ...
-│   └── E119_synthesis_figure/
+│   └── E152_post929_natural_experiment/
 ├── papers/                    Paper drafts, submission files, revision ammo
 ├── models/                    Trained models & configurations
 ├── maps/                      Generated probability maps & visualizations

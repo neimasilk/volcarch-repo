@@ -73,7 +73,7 @@ Our argument follows the principle of **consilience of inductions** (Whewell 184
 2. **E088/E089** — Textual archaeology corpus (106 passages from 12 ancient traditions). Source: translated primary texts (Greek, Chinese, Indian, Arab, etc.). Zero overlap with DHARMA/ABVD.
 3. **E091** — OV NLP mining (22,162 structured mentions from 16 OV volumes). Source: automated extraction from colonial Dutch text. 94.2% cross-validation against manual dataset.
 
-**Dataset honesty (2026-03-20):** 21 of 122 experiments depend on the same 268 DHARMA inscriptions. The three genuinely independent datasets above mitigate this concentration. Claims of "independent channels" refer to analytical methods, not necessarily independent data sources, except where explicitly noted.
+**Dataset honesty (2026-03-30):** ~25 of 153 experiments depend on the same 268 DHARMA inscriptions. The three genuinely independent datasets above mitigate this concentration. Claims of "independent channels" refer to analytical methods, not necessarily independent data sources, except where explicitly noted.
 
 ## 6. Known Methodological Risks (Baked Into Design)
 

@@ -1,0 +1,35 @@
+{
+  "n_inscriptions_java": 174,
+  "n_deserts": 3,
+  "total_desert_area_km2": 16738,
+  "desert_fraction_pct": 77.14430566437757,
+  "top_deserts": [
+    {
+      "rank": 1,
+      "lat": -7.877409337491465,
+      "lon": 112.65271682162782,
+      "area_km2": 9630,
+      "mean_desert_score": 0.8116575836586287,
+      "mean_volcano_dist_km": 25.47867628814429,
+      "mean_elevation_m": 287.59291344072267
+    },
+    {
+      "rank": 2,
+      "lat": -7.624326776726633,
+      "lon": 111.20241091758515,
+      "area_km2": 3494,
+      "mean_desert_score": 0.8162783894991327,
+      "mean_volcano_dist_km": 26.57714789650569,
+      "mean_elevation_m": 235.74175821881875
+    },
+    {
+      "rank": 3,
+      "lat": -8.116449434236635,
+      "lon": 114.03947824769985,
+      "area_km2": 3614,
+      "mean_desert_score": 0.8098856570118318,
+      "mean_volcano_dist_km": 26.854724404694966,
+      "mean_elevation_m": 489.4907216292161
+    }
+  ]
+}

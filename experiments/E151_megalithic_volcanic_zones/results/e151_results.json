@@ -1,0 +1,54 @@
+{
+  "experiment": "E151_megalithic_volcanic_zones",
+  "title": "Megalithic Distribution vs Volcanic Zones",
+  "date": "2026-03-30",
+  "status": "SUCCESS",
+  "sample": {
+    "n_cases": 4,
+    "sites": [
+      "Gunung Padang",
+      "Cipari / Kuningan megalithic",
+      "Bondowoso megalithic cluster",
+      "Pasemah highlands"
+    ],
+    "mean_distance_km": 23.975,
+    "max_distance_km": 33.7,
+    "within_35km_count": 4
+  },
+  "core_asymmetry": {
+    "stone_monuments_survive": "4/4",
+    "organic_settlement_visible": "0/4",
+    "interpretation": "All four megalithic case studies remain visible as stone monuments in volcanic landscapes; none yields a comparably visible organic/domestic settlement package."
+  },
+  "cross_experiment_context": {
+    "E117": {
+      "pre_400ce_predicted_depth_m": 6.5,
+      "verdict": "ALL 24 pre-400 CE Java sites are in protected contexts (caves, river terraces, coastal). Zero open-air volcanic interior sites. Predicted burial depth for pre-400 CE: 6.5m — deeper than any observed burial (9.1m max). Pattern consistent with VOLCARCH but also with genuine absence. Decisive test: E116 GPR predictions."
+    },
+    "E129": {
+      "temple_monument_pct": 73.1457800511509,
+      "settlement_pct": 1.278772378516624,
+      "conclusion": "73% of known sites are temples/monuments — massive survey targeting bias toward monumental Hindu-Buddhist architecture"
+    },
+    "E140": {
+      "organic_pct": 59.519999999999996,
+      "key_finding": "60% of material culture mentioned in inscriptions is organic (archaeologically invisible). The archaeological record preserves only the elite/ritual 37%."
+    }
+  },
+  "taphonomic_support": {
+    "Garahan_ash_layer": "OV 1921: grave between Garahan and Mrawan was covered by ~20 cm earth, ~18 cm ash/sand, then humus; the ash layer was attributed to nearby Raung.",
+    "Pasemah_Dempo_context": "OV 1922: Pasemah antiquities were described as lying at the foot of volcano Dempo in South Sumatra."
+  },
+  "verdict": "Megaliths do not refute VOLCARCH. They specify the exception class: stone, monumental, mortuary, often upland contexts survive. The missing record is lowland, domestic, organic settlement archaeology.",
+  "implications": [
+    "The claim should be refined from 'pre-Hindu evidence is absent' to 'organic settlement-scale evidence is absent.'",
+    "Visible megaliths are exactly what a volcanic taphonomic model predicts should survive best: stone and monumental features.",
+    "Bondowoso/Garahan shows that even megalithic contexts can sit beneath ash horizons while the stone marker survives.",
+    "Pasemah generalizes the same logic beyond Java: volcanic highlands preserve sculpture better than domestic life."
+  ],
+  "limitations": [
+    "This is a curated case-study test, not a complete Indonesian megalith database.",
+    "Bondowoso and Pasemah use cluster/highland proxy coordinates because exact monument coordinates are not yet cataloged in repo.",
+    "Organic absence is archaeological visibility, not proof of true absence."
+  ]
+}

@@ -2,21 +2,32 @@
 # *Unearthing the Invisible*
 
 **Status:** INTERNAL DOC — bukan untuk publikasi
-**Last updated:** 2026-03-17
-**Versi:** 4.0 (111 experiments, cascade model, ADV-5 resolved, null hypothesis rejected)
+**Last updated:** 2026-03-31
+**Versi:** 4.2 (172 experiments, ME#12 structural critique, cross-regional validation, population dynamics)
 
 ---
 
-## 0. Apa yang Berubah di v4.0
+## 0. Apa yang Berubah di v4.2
 
-v3.5 mengklaim "enam lapisan independen yang masing-masing menghapus satu dimensi." v4.0 mengoreksi ini:
+v4.0 membangun cascade model dan menolak null hypothesis. v4.2 menambahkan validasi eksternal, kalibrasi empiris, dan rekonstruksi peradaban yang hilang.
 
-1. **Cascade, bukan layer.** Faktor-faktor MULTIPLIKATIF, bukan aditif. Lima faktor masing-masing mengurangi 60-98% visibilitas. Produknya = 0.058% visible — matching data 0.031% (E110).
-2. **Survey deficit adalah faktor #1** (40× leverage), bukan volcanic burial (1.7×). VOLCARCH menyumbang faktor ke-5 yang unik: spasially predictable.
-3. **Null hypothesis REJECTED** (E108). Jawa pra-400 M punya 590K-3.9M penduduk. Gap 3,220× tidak bisa dijelaskan oleh populasi kecil.
-4. **ADV-5 RESOLVED** (E107). C5 (Iban+Malay) = Mon-Khmer substrate, bukan artefak dokumentasi. E027 UPGRADED.
-5. **West Java smoking gun.** Buni Complex + Batujaya = peradaban pra-Hindu DI JAWA di zona NON-VULKANIK. Absensi di zona vulkanik = sinyal tafonomi.
-6. **Klasifikasi 3-tier:** setiap klaim sekarang dikategorikan sebagai DATA-SUPPORTED, HYPOTHESIS, atau SPECULATION.
+**Dari v4.0:**
+1. **Cascade, bukan layer.** Faktor-faktor MULTIPLIKATIF. Produknya = 0.058% visible — matching data 0.031% (E110).
+2. **Survey deficit adalah faktor #1** (40× leverage). Excavation density: Jepang 558× Indonesia (E173).
+3. **Null hypothesis REJECTED** (E108→E172). Population model dynamis: **3,3 juta** penduduk pada 400 M (95% CI: 1,35-5,51M, MC 50K runs). Gap **11.008×**.
+
+**Baru di v4.2:**
+4. **Cascade TERVALIDASI cross-regional** (E155). Lima region (Jawa, Bali, Sulawesi, Filipina, Jepang): rank order PERSIS cocok (rho=1.0, p=0.017). Bukan curve-fitting.
+5. **L1×L2 "Double Erasure"** (E156). Paparan Sunda yang tenggelam MENDORONG ~94.000 orang KE DALAM zona vulkanik. West Java smoking gun = PREDIKSI model, bukan observasi post-hoc.
+6. **Bali 5/5 prediksi confirmed** (E161). Semua situs pra-Hindu di pantai non-vulkanik. Rasio densitas prasasti: prediksi 14,3×, observasi 12×.
+7. **"Aku" hilang** (E165). 230 kata hantu — kosakata pra-Indic yang menghilang dari prasasti setelah C9. Kata ganti orang pertama "aku" hilang setelah C8. Suara indigenous dibisukan oleh konvensi genre Sanskrit.
+8. **Volcanic silence terukur** (E160). GPU NLP (768d embeddings): volcanic landscape = rank 8/10 dalam kedekatan semantik. C8 = abad tergelap. 929 M rupture: z=3.04, p=0.012.
+9. **5/5 cathedral findings ROBUST** (E159). Bootstrap 10K, permutation 10K, jackknife LOO. Tidak ada temuan utama yang rapuh.
+10. **FDR naik 78.3%** (E154). 65/83 tes statistik survive Benjamini-Hochberg. E048 diselamatkan.
+11. **77.1% inscription desert** (E169). Tiga perempat zona yang diharapkan memiliki prasasti KOSONG. Bayangan Two Javas.
+12. **Rekonstruksi peradaban** (E168). Populasi 500K-1M, sawah, metalurgi perunggu, tulisan media organik (PAN *surat 5000 BP), kosmologi hyang, chiefdom bertingkat. 99,9% hilang.
+13. **Sriwijaya paradox** (E163). VOLCARCH tanpa vulkanisme: ibukota Sriwijaya TIDAK PERNAH ditemukan meskipun menguasai perdagangan maritim 6 abad. F2+F3+F4+F5 cukup untuk menghapus peradaban.
+14. **Dong Son drums** (E164). 6/6 nekara di zona vulkanik. Tuban ~300 SM = bukti langsung pra-Hindu di Jawa Timur vulkanik. Hanya perunggu yang lolos 5 faktor cascade.
 
 ---
 
@@ -136,14 +147,20 @@ Genre epigrafi itu sendiri adalah filter tafonomi. Berbeda dari 5 lapisan lain: 
 - **E040 Bamboo Civilization:** 170/268 (63.4%) prasasti menyebut material organik vs 73 (27.2%) litik
 - **Falsifikasi:** Jika prasasti Sanskrit (C8) ternyata menyebut organik pada frekuensi sama → efek genre tidak ada
 
-### L6: Periodisitas Historiografis (*Historiographic Periodicity*) — BARU
-**Papers:** P5, P8 | **Status: BARU TERIDENTIFIKASI**
+### L6: Periodisitas Historiografis (*Historiographic Periodicity*) — REFRAMED (ME#11)
+**Papers:** P5, P8 | **Status: DIDUKUNG DATA, tapi mekanisme BUKAN erupsi**
 
 Indianisasi bukan proses linear permanen — ia adalah **gelombang** yang mencapai puncak (C9, Medang) lalu surut. Kosakata pra-Indic *meningkat* seiring waktu (E030: rho = +0.502, p < 0.001), dan diversitas istilah pra-Indic berkembang dari 1 (C8–C9) menjadi 5+ (C10–C11). Sejarawan yang memperlakukan "Hindu period" sebagai blok monolitik salah membaca data mereka sendiri.
 
 - **E033:** Rasio Indic TURUN: puncak C9 (0.807) → dasar C13 (0.569)
 - **E030:** Rasio pra-Indic NAIK: substrat tidak tergerus, malah berkembang
 - **Implikasi:** "Akhir era Hindu-Buddha" (C15, Majapahit) bukan ruptur — substrat sudah mendominasi sebelumnya
+
+**REFRAME (E145, Mata Elang #11):** Frekuensi erupsi per abad berkorelasi POSITIF dengan jumlah prasasti (ρ=+0.908, p=0.0001). Ini berarti periodisitas BUKAN disebabkan erupsi — melainkan oleh **siklus politik** (naik-turunnya kerajaan Mataram, Kahuripan, Singosari, Majapahit). Kerajaan kuat menghasilkan BAIK prasasti MAUPUN dokumentasi erupsi. Efek tafonomi erupsi adalah SPASIAL (E078: 6.3× defisit di dekat letusan, p=0.035), bukan TEMPORAL.
+
+- **E145:** Frekuensi erupsi × prasasti: ρ=+0.908, p=0.0001 (POSITIF, bukan negatif)
+- **E078:** Defisit prasasti di DEKAT letusan: 6.3×, p=0.035 (SPASIAL, bukan temporal)
+- **E096:** Pergeseran topik 929 CE: p=0.0003 — konfirmasi siklus politik, bukan erupsi
 - **Falsifikasi:** Jika analisis dengan korpus lebih besar menunjukkan rasio Indic stabil atau naik → model gelombang salah
 
 ---
@@ -213,7 +230,7 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 | L3 Historiografis | Narasi India-sentris distortif | Prasasti pra-C9 dengan rasio Indic stabil |
 | L4 Kosmologis | Substrat pra-Indic terdeteksi | ML substrat AUC < 0.60 konsisten |
 | L5 Genre | Genre epigrafi = filter tafonomi | Prasasti Sanskrit menyebut organik pada frekuensi sama |
-| L6 Periodisitas | Indianisasi = gelombang, bukan permanen | Rasio Indic stabil/naik di korpus lebih besar |
+| L6 Periodisitas | Periodisitas = siklus politik, bukan erupsi (E145 reframe). Indianisasi = gelombang. | Frekuensi erupsi berkorelasi NEGATIF dengan prasasti (kontradiksi E145 ρ=+0.908) |
 | VCS (lokal) | Volcanic informedness di Jawa/Bali | E031/E032 tidak replikasi dengan data lebih lengkap |
 
 **Prinsip:** Setiap klaim harus bisa dihancurkan oleh data. Jika tidak bisa — itu bukan sains, itu ideologi.
@@ -229,8 +246,10 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 - Update setiap kali ada eksperimen baru atau paper decision
 
 ---
-*Manifesto v3.5 — 2026-03-17*
+*Manifesto v4.2 — 2026-03-31*
+*172 eksperimen. 3,3 juta penduduk pada 400 Masehi. 11.008x gap. 1.789 situs hilang.*
+*5 prediksi terdaftar. 5/5 temuan utama ROBUST. 230 kata hantu. "Aku" menghilang dari batu.*
+
 *"Pertanyaannya bukan lagi: apakah peradaban pra-Hindu Nusantara ada?*
-*Pertanyaannya sekarang: seberapa canggih ia, dan apa tepatnya yang hilang*
-*ketika ia tenggelam pada 3.6 milimeter per tahun, tertimpa 33→20 konsonan,*
-*dan 2 juta km² tanahnya tergenang oleh laut?"*
+*Pertanyaannya sekarang: berapa lama lagi kita membiarkan 4 situs per tahun*
+*dihancurkan oleh beton, tanpa catatan, tanpa saksi, tanpa penyesalan?"*

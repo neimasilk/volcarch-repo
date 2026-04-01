@@ -1,0 +1,192 @@
+{
+  "experiment": "E150_babad_substrate_nlp",
+  "title": "Babad Tanah Jawi Substrate NLP",
+  "date": "2026-03-30",
+  "status": "SUCCESS",
+  "data_sources": {
+    "babad_html_chapters": 25,
+    "e058_lexicon": "kakawin_vocabulary.csv",
+    "e130_reference": "substrate_interpretability.json"
+  },
+  "corpus": {
+    "chapter_count": 25,
+    "total_tokens": 25743,
+    "unique_tokens": 4455,
+    "top_window_size": 150,
+    "top_window_token_mass": 13669,
+    "top_window_coverage": 0.5309792953424232
+  },
+  "top_window_composition": {
+    "native_tokens": 11462,
+    "native_share": 0.8385397615041335,
+    "sanskrit_tokens": 898,
+    "sanskrit_share": 0.06569610066574,
+    "foreign_tokens": 1281,
+    "foreign_share": 0.09371570707440194,
+    "unknown_tokens": 28,
+    "unknown_share": 0.0020484307557246326
+  },
+  "native_domain_distribution": {
+    "ACTION": 0.10652591170825336,
+    "QUALITY": 0.052259640551387196,
+    "GRAMMAR": 0.5567963706159483,
+    "NUMBER": 0.03507241319141511,
+    "NATURE": 0.045367300645611584,
+    "BODY": 0.006368871052172396,
+    "OTHER": 0.19760949223521201
+  },
+  "top_native_domains_ranked": [
+    "GRAMMAR",
+    "OTHER",
+    "ACTION",
+    "QUALITY",
+    "NATURE",
+    "NUMBER",
+    "BODY"
+  ],
+  "top_e130_domains_ranked": [
+    "ACTION",
+    "QUALITY",
+    "GRAMMAR",
+    "NUMBER",
+    "NATURE",
+    "BODY",
+    "OTHER"
+  ],
+  "comparison_to_e130": {
+    "spearman_rho": 0.25,
+    "spearman_p": 0.5887244480896832,
+    "e150_top_domain": "GRAMMAR",
+    "e130_top_domain": "ACTION",
+    "interpretation": "Babad native vocabulary is grammar-heavy and chronicle/polity-heavy, whereas E130 substrate vocabulary is action-heavy."
+  },
+  "top_native_content_terms": [
+    {
+      "token": "wong",
+      "count": 452,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "tanah",
+      "count": 326,
+      "class": "native",
+      "domain": "NATURE"
+    },
+    {
+      "token": "tahun",
+      "count": 305,
+      "class": "native",
+      "domain": "NUMBER"
+    },
+    {
+      "token": "dadi",
+      "count": 182,
+      "class": "native",
+      "domain": "ACTION"
+    },
+    {
+      "token": "jawa",
+      "count": 170,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "padha",
+      "count": 162,
+      "class": "native",
+      "domain": "ACTION"
+    },
+    {
+      "token": "para",
+      "count": 150,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "banget",
+      "count": 137,
+      "class": "native",
+      "domain": "QUALITY"
+    },
+    {
+      "token": "banten",
+      "count": 121,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "bisa",
+      "count": 117,
+      "class": "native",
+      "domain": "ACTION"
+    },
+    {
+      "token": "akeh",
+      "count": 116,
+      "class": "native",
+      "domain": "QUALITY"
+    },
+    {
+      "token": "menyang",
+      "count": 115,
+      "class": "native",
+      "domain": "ACTION"
+    },
+    {
+      "token": "ratu",
+      "count": 106,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "kutha",
+      "count": 98,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "bangsa",
+      "count": 97,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "gedhe",
+      "count": 78,
+      "class": "native",
+      "domain": "QUALITY"
+    },
+    {
+      "token": "mataram",
+      "count": 77,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "karajan",
+      "count": 74,
+      "class": "native",
+      "domain": "OTHER"
+    },
+    {
+      "token": "perang",
+      "count": 72,
+      "class": "native",
+      "domain": "ACTION"
+    },
+    {
+      "token": "jumeneng",
+      "count": 69,
+      "class": "native",
+      "domain": "ACTION"
+    }
+  ],
+  "conclusion": "Babad Tanah Jawi breaks DHARMA monoculture cleanly. In the highest-frequency lexical stratum, native Javanese tokens dominate while Sanskrit is a small elite overlay. The domain profile diverges from E130: the chronicle preserves a GRAMMAR + polity backbone rather than the ACTION-heavy substrate seen in comparative lexicon data.",
+  "limitations": [
+    "Classification is intentionally conservative and focused on the highest-frequency token window.",
+    "Romanized orthography flattens historical spelling distinctions.",
+    "Proper names and polity names are grouped into OTHER rather than a separate historical domain.",
+    "This is token-frequency analysis, not full morphological parsing."
+  ]
+}

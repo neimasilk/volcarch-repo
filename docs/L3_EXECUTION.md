@@ -2,24 +2,25 @@
 
 **Status:** ACTIVE
 **Sprint:** Sprint 12 — Consolidation + AutoResearch Integration
-**Last updated:** 2026-03-16
+**Last updated:** 2026-03-30
 
 ---
 
 ## Current Focus
 
-**Phase:** CONTRACTION + VALIDATION (post-Mata Elang #8 structural critique).
-6 papers awaiting review. No new submissions. Build datasets, validate existing work, computational deepening.
+**Phase:** CONSOLIDATION + AUTORESEARCH.
+P1 re-submitted to EGQSJ, 4 papers active in the review/submission pipeline, and live priorities now tracked in `docs/WORKSTATE.md`.
 
-**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **122-experiment** registry (E001-E115, minus 6 unused IDs).
+**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **153-experiment** registry (E001-E152, minus 6 unused IDs, 2 superseded).
 
 ---
 
-## Papers Under Review (3 active, 3 rejected)
+## Papers Under Review / Submitted (4 active, 3 rejected)
 
 | Paper | Journal | MS# | Submitted | Status |
 |-------|---------|-----|-----------|--------|
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | **REJECTED** 2026-03-17 (AI flag) |
+| **P1** | **EGQSJ (Copernicus, Diamond OA)** | **egqsj-2026-3** | **2026-03-30** | **SUBMITTED** |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | Under review |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | **REJECTED** 2026-03-19 ("too narrow") |
 | P7 | Antiquity Project Gallery (Q1) | — | 2026-03-06 | Under review |
@@ -29,7 +30,7 @@
 ### Retargeting (Diamond OA only — zero APC)
 | Paper | Rejected From | Target Options |
 |-------|---------------|----------------|
-| P1 | Asian Perspectives | **EGQSJ** (Copernicus, ready now) |
+| P1 | Asian Perspectives | **EGQSJ submitted 2026-03-30** |
 | P5 | BKI | Archeologia e Calcolatori / J. Pacific Archaeology / Wacana |
 | P9 | JSEAS | DHQ / Wacana / Archipel (HOLD until P2/P8 outcome) |
 

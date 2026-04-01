@@ -83,7 +83,7 @@ Setiap hibah yang diterima = dana penelitian + angka kredit + legitimasi + beli 
 
 **Strategi:** Setelah 1 paper accepted, apply DRPM Penelitian Dasar. Topik: "Prediksi Lokasi Situs Arkeologi Terkubur di Jawa Vulkanik Menggunakan Machine Learning dan GIS." Ini TRL rendah (basic research) tapi punya output jelas (probability maps + fieldwork targets).
 
-**Key advantage:** VOLCARCH sudah punya preliminary results (120 experiments). Proposal dengan preliminary data JAUH lebih kuat daripada proposal spekulatif.
+**Key advantage:** VOLCARCH sudah punya preliminary results (153 experiments). Proposal dengan preliminary data JAUH lebih kuat daripada proposal spekulatif.
 
 ### Hibah Luar Negeri
 

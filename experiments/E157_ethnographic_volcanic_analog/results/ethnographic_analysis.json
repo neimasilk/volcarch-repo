@@ -1,0 +1,28 @@
+{
+  "modern_village_visibility": {
+    "HIGH": 12,
+    "MODERATE": 6,
+    "LOW": 6,
+    "INVISIBLE": 11,
+    "total": 34,
+    "recognition_rate": 0.5294117647058824
+  },
+  "liangan_recognition_rate": 0.42857142857142855,
+  "pre_hindu_recognition_rate": 0.2,
+  "f4_comparison": {
+    "e110_cascade": 0.4,
+    "liangan_empirical": 0.42857142857142855,
+    "pre_hindu_estimate": 0.2
+  },
+  "f2_comparison": {
+    "e110_cascade": 0.2,
+    "e135_validation": 0.229,
+    "ethnographic_weighted": 0.21000000000000002
+  },
+  "deposition_types": {
+    "Ashfall (tephra)": 0.3,
+    "Pyroclastic density current (PDC)": 0.05,
+    "Lahar (volcanic mudflow)": 0.15,
+    "Phreatomagmatic (cool, wet)": 0.5
+  }
+}
