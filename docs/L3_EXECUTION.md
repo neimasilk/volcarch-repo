@@ -11,7 +11,7 @@
 **Phase:** CONSOLIDATION + AUTORESEARCH.
 P1 re-submitted to EGQSJ, 4 papers active in the review/submission pipeline, and live priorities now tracked in `docs/WORKSTATE.md`.
 
-**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **153-experiment** registry (E001-E152, minus 6 unused IDs, 2 superseded).
+**Experiments:** See `docs/EXPERIMENT_INDEX.md` for the complete **175-experiment** registry (E001-E175, minus 6 unused IDs, 2 superseded).
 
 ---
 

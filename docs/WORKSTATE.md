@@ -1,7 +1,7 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-03-31 (ME#12 autonomous session COMPLETE, E154-E174, 174 experiments)
+**Last updated:** 2026-04-01 (ME#12 CLOSED, E154-E175, 175 experiments. P11 REJECTED Cornell → retarget Archipel. Dual-track strategy active.)
 **MODE: CONSOLIDATION.** Priority: (1) SUBMIT P17 to ArchCalc, (2) wait reviews, (3) resolve JCAA APC, (4) repo go public.
 **SESSION 9 COMPLETE:** 21 new experiments, ME#12 critique, P17 v0.3 ready, manifesto v4.2, synthesis figure, population model 3.3M, handoff document.
 **HANDOFF:** `docs/HANDOFF_20260331_ME12_SESSION.md` — full navigation guide for all new files.

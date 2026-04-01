@@ -1,0 +1,52 @@
+{
+  "title": "VOLCARCH Prediction Registry: Five Falsifiable Archaeological Predictions for Volcanic Java",
+  "upload_type": "dataset",
+  "description": "This dataset contains five GPS-referenced, falsifiable archaeological predictions derived from the VOLCARCH (Volcanic Taphonomic Bias in Indonesian Archaeological Records) research project. Each prediction specifies: (1) geographic coordinates, (2) predicted burial depth, (3) predicted age of buried material, (4) recommended survey method, (5) expected findings, and (6) explicit falsification criteria. The predictions are based on 175 computational experiments analysing spatial patterns in 142 Hindu-Buddhist temples (candi), 176 georeferenced inscriptions, 391 archaeological sites, and 51 documented eruption-burial correlations across Java, Indonesia. This registry establishes temporal priority for the predictions and enables independent validation.",
+  "creators": [
+    {
+      "name": "Amien, Mukhlis",
+      "affiliation": "Universitas Bhinneka Nusantara, Malang, Indonesia",
+      "orcid": "0000-0002-1848-167X"
+    },
+    {
+      "name": "Gunawan, Go Frendi",
+      "affiliation": "Universitas Bhinneka Nusantara, Malang, Indonesia"
+    }
+  ],
+  "keywords": [
+    "archaeological prediction",
+    "volcanic taphonomy",
+    "Java",
+    "Indonesia",
+    "candi",
+    "buried sites",
+    "GPR targets",
+    "falsifiable predictions",
+    "spatial archaeology"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.19081502",
+      "relation": "isPartOf",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/neimasilk/volcarch-repo",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "communities": [
+    {"identifier": "archaeology"}
+  ],
+  "notes": "Precise GPS coordinates are provided for research purposes. Users are requested to coordinate with Indonesian heritage authorities (BPCB, Balai Arkeologi) before conducting fieldwork at these locations. AI tools (Claude, Anthropic) were used for spatial analysis and prediction derivation. All predictions, interpretations, and research design are the authors' work.",
+  "subjects": [
+    {"term": "Archaeology", "scheme": "dewey", "identifier": "930.1"},
+    {"term": "Volcanology", "scheme": "dewey", "identifier": "551.21"}
+  ],
+  "language": "eng",
+  "publication_date": "2026-04-01",
+  "version": "1.0"
+}

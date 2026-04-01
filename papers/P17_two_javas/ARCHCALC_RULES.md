@@ -87,18 +87,27 @@ https://submission.archcalc.cnr.it/public/journals/2/archeologia-e-calcolatori.c
 
 ## P17 Conversion Checklist
 
-- [ ] Trim from ~7K to ≤6K words
-- [ ] Convert LaTeX → Word (pandoc)
-- [ ] Anonymize: remove author name, affiliation, self-identifying references
-- [ ] Number all paragraphs
-- [ ] Format headings per hierarchy (ALL CAPS title, small caps L1, italic L1.1)
-- [ ] Remove all footnotes (move content to main text)
-- [ ] Extract bibliography to separate DOCX
-- [ ] Extract figure captions to separate DOCX
-- [ ] Convert figures to JPG 300 dpi, package in ZIP
-- [ ] Check figure count ≤ 10
-- [ ] Download Zotero CSL for bibliography formatting
-- [ ] Update experiment count (107→153)
-- [ ] Create missing Fig 6
-- [ ] Create account at https://submission.archcalc.cnr.it/
-- [ ] Check spelling consistency throughout
+- [x] Trim from ~7K to ≤6K words — **DONE** (~5.2K words)
+- [x] Convert LaTeX → Word (pandoc) — **DONE** (`archcalc_submission/P17_manuscript.docx`)
+- [x] Anonymize: remove author name, affiliation, self-identifying references — **DONE**
+- [ ] Number all paragraphs — **MANUAL** (in Word, add "1.", "2.", etc. to each paragraph)
+- [ ] Format headings per hierarchy (ALL CAPS title, small caps L1, italic L1.1) — **MANUAL** (in Word)
+- [x] Remove all footnotes (move content to main text) — **DONE** (no footnotes in v0.3)
+- [x] Extract bibliography to separate DOCX — **DONE** (`archcalc_submission/P17_bibliography.txt`, convert to DOCX)
+- [x] Extract figure captions to separate DOCX — **DONE** (`archcalc_submission/P17_figure_captions.docx.txt`)
+- [x] Convert figures to JPG 300 dpi, package in ZIP — **DONE** (`archcalc_submission/P17_figures.zip`)
+- [x] Check figure count ≤ 10 — **OK** (5 figures + 2 tables = 7, within limit)
+- [ ] Download Zotero CSL for bibliography formatting — **OPTIONAL** (bibliography already formatted manually)
+- [x] Update experiment count (107→175) — **DONE** (updated 2026-04-01)
+- [ ] Create missing Fig 6 — **DROPPED** (5 figures sufficient, within limit)
+- [ ] Create account at https://submission.archcalc.cnr.it/ — **MANUAL**
+- [ ] Check spelling consistency throughout — **MANUAL** (final proofread)
+
+### Remaining MANUAL steps for Pak Amien:
+1. Open `P17_manuscript.docx` in Word
+2. Add paragraph numbers (1, 2, 3...) to each body paragraph
+3. Format headings: title = ALL CAPS, section headings = small caps, subsections = italic
+4. Final proofread for spelling consistency (British vs American)
+5. Convert `P17_bibliography.txt` to `.docx`
+6. Create account at https://submission.archcalc.cnr.it/
+7. Upload 4 files: manuscript, bibliography, figures ZIP, captions

@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links" [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link "Ga naar resultaten" [ref=e5] [cursor=pointer]:
+          - /url: ""
+      - listitem [ref=e6]:
+        - link "Ga naar filters" [ref=e7] [cursor=pointer]:
+          - /url: ""
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - link "Delpher logo, terug naar homepage" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+      - button "Open eenvoudig zoeken" [ref=e14] [cursor=pointer]:
+        - img
+      - button "Hoofdmenu" [ref=e15] [cursor=pointer]:
+        - img
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - alert [ref=e19]:
+          - generic [ref=e74]: 118 krantenartikelen gevonden
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: Klik om te verwijderen
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - link "Opgegraven Java diepte meter" [ref=e81] [cursor=pointer]:
+                - /url: /nl/kranten/results?coll=ddd
+                - text: Opgegraven Java diepte meter
+                - img [ref=e82]
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - button "relevantie" [ref=e85] [cursor=pointer]:
+              - generic: relevantie
+              - generic:
+                - img
+            - button "Toon informatie over relevantiesortering" [ref=e86] [cursor=pointer]:
+              - img
+          - generic [ref=e22]:
+            - link "Toon de resultaten in een grafiek" [ref=e23] [cursor=pointer]:
+              - /url: /nl/kranten/ngram?query=opgegraven+Java+diepte+meter&coll=ddd
+              - img [ref=e24]
+            - button "Compacte weergave" [ref=e26] [cursor=pointer]:
+              - img
+            - button "Uitgebreide weergave" [disabled] [ref=e27]:
+              - img
+      - main [ref=e88]:
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - article [ref=e91]:
+              - generic [ref=e92]:
+                - 'link "Preview van: MIDDEN-JAVA Het sprekende Vrouwenbeeld OPGRAVING IN KAMPONG." [ref=e93] [cursor=pointer]':
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB27:021093037:mpeg21:a00152&resultsidentifier=MMKB27:021093037:mpeg21:a00152&rowid=1
+                  - 'img "Preview van: MIDDEN-JAVA Het sprekende Vrouwenbeeld OPGRAVING IN KAMPONG." [ref=e95]'
+                - button "Voeg toe aan favorieten" [ref=e97] [cursor=pointer]:
+                  - img
+              - generic [ref=e98]:
+                - 'link "MIDDEN-JAVA Het sprekende Vrouwenbeeld OPGRAVING IN KAMPONG. j tezelfdertijd een stem, een smeekbede hoorde: „Pak, akoe djaloek metoe” (Pak, laat me er uit). Toen heeft Pak Todiwirijo op dat plekje de aarde opgegraven en om 10 uur ’s avonds geluk" [ref=e99] [cursor=pointer]':
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB27:021093037:mpeg21:a00152&resultsidentifier=MMKB27:021093037:mpeg21:a00152&rowid=1
+                  - heading "MIDDEN-JAVA Het sprekende Vrouwenbeeld OPGRAVING IN KAMPONG." [level=2] [ref=e100]
+                  - generic [ref=e102]:
+                    - text: "j tezelfdertijd een stem, een smeekbede hoorde: „Pak, akoe djaloek metoe” (Pak, laat me er uit). Toen heeft Pak Todiwirijo op dat plekje de aarde"
+                    - emphasis [ref=e103]: opgegraven
+                    - text: en om 10 uur ’s avonds geluk
+                - generic [ref=e104]:
+                  - term [ref=e105]: Krantentitel
+                  - definition [ref=e106]:
+                    - link "De avondpost" [ref=e107] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22431582173%22%29&coll=ddd
+                  - term [ref=e108]: Datum
+                  - definition [ref=e109]:
+                    - link "23-10-1938" [ref=e110] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2223-10-1938%22%29&coll=ddd
+                - button "Meer details" [ref=e111] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e112]:
+            - article [ref=e113]:
+              - generic [ref=e114]:
+                - 'link "Preview van: OOST-JAVA Oudheidkundige Vondsten STEENEN, MESSEN, SPEREN EN BIJLEN." [ref=e115] [cursor=pointer]':
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB27:021096085:mpeg21:a00117&resultsidentifier=MMKB27:021096085:mpeg21:a00117&rowid=2
+                  - 'img "Preview van: OOST-JAVA Oudheidkundige Vondsten STEENEN, MESSEN, SPEREN EN BIJLEN." [ref=e117]'
+                - button "Voeg toe aan favorieten" [ref=e119] [cursor=pointer]:
+                  - img
+              - generic [ref=e120]:
+                - link "OOST-JAVA Oudheidkundige Vondsten STEENEN, MESSEN, SPEREN EN BIJLEN. n, welker vorm geheel verschilde van die der andere opgehaalde steenen. Zoo werden er vele grillig gevormde kalksteenachtige voorwerpen uit den grond opgegraven, aan welke wij verschillende p" [ref=e121] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB27:021096085:mpeg21:a00117&resultsidentifier=MMKB27:021096085:mpeg21:a00117&rowid=2
+                  - heading "OOST-JAVA Oudheidkundige Vondsten STEENEN, MESSEN, SPEREN EN BIJLEN." [level=2] [ref=e122]
+                  - generic [ref=e124]:
+                    - text: n, welker vorm geheel verschilde van die der andere opgehaalde steenen. Zoo werden er vele grillig gevormde kalksteenachtige voorwerpen uit den grond
+                    - emphasis [ref=e125]: opgegraven
+                    - text: ", aan welke wij verschillende p"
+                - generic [ref=e126]:
+                  - term [ref=e127]: Krantentitel
+                  - definition [ref=e128]:
+                    - link "De avondpost" [ref=e129] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22431582173%22%29&coll=ddd
+                  - term [ref=e130]: Datum
+                  - definition [ref=e131]:
+                    - link "20-08-1939" [ref=e132] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2220-08-1939%22%29&coll=ddd
+                - button "Meer details" [ref=e133] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e134]:
+            - article [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e137] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=KBNRC01:000030191:mpeg21:a0167&resultsidentifier=KBNRC01:000030191:mpeg21:a0167&rowid=3
+                - button "Voeg toe aan favorieten" [ref=e140] [cursor=pointer]:
+                  - img
+              - generic [ref=e141]:
+                - link "Australië onmiddellijk na IJstijden door de mens gekoloniseerd" [ref=e142] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=KBNRC01:000030191:mpeg21:a0167&resultsidentifier=KBNRC01:000030191:mpeg21:a0167&rowid=3
+                  - heading "Australië onmiddellijk na IJstijden door de mens gekoloniseerd" [level=2] [ref=e143]
+                - generic [ref=e144]:
+                  - term [ref=e145]: Krantentitel
+                  - definition [ref=e146]:
+                    - link "NRC Handelsblad" [ref=e147] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22400367629%22%29&coll=ddd
+                  - term [ref=e148]: Datum
+                  - definition [ref=e149]:
+                    - link "04-12-1986" [ref=e150] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2204-12-1986%22%29&coll=ddd
+                - button "Meer details" [ref=e151] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e152]:
+            - article [ref=e153]:
+              - generic [ref=e154]:
+                - link [ref=e155] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB19:000475031:mpeg21:a00121&resultsidentifier=MMKB19:000475031:mpeg21:a00121&rowid=4
+                - button "Voeg toe aan favorieten" [ref=e158] [cursor=pointer]:
+                  - img
+              - generic [ref=e159]:
+                - link "Interessante Oudheid kundige Vondsten." [ref=e160] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB19:000475031:mpeg21:a00121&resultsidentifier=MMKB19:000475031:mpeg21:a00121&rowid=4
+                  - heading "Interessante Oudheid kundige Vondsten." [level=2] [ref=e161]
+                - generic [ref=e162]:
+                  - term [ref=e163]: Krantentitel
+                  - definition [ref=e164]:
+                    - link "Algemeen handelsblad voor Nederlandsch-Indië" [ref=e165] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22424436442%22%29&coll=ddd
+                  - term [ref=e166]: Datum
+                  - definition [ref=e167]:
+                    - link "04-08-1939" [ref=e168] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2204-08-1939%22%29&coll=ddd
+                - button "Meer details" [ref=e169] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e170]:
+            - article [ref=e171]:
+              - generic [ref=e172]:
+                - link [ref=e173] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB19:000469033:mpeg21:a00149&resultsidentifier=MMKB19:000469033:mpeg21:a00149&rowid=5
+                - button "Voeg toe aan favorieten" [ref=e176] [cursor=pointer]:
+                  - img
+              - generic [ref=e177]:
+                - link "Onderzoekingen van den Oudheidkundi- gen Dienst in het Landschap Loewoe." [ref=e178] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB19:000469033:mpeg21:a00149&resultsidentifier=MMKB19:000469033:mpeg21:a00149&rowid=5
+                  - heading "Onderzoekingen van den Oudheidkundi- gen Dienst in het Landschap Loewoe." [level=2] [ref=e179]
+                - generic [ref=e180]:
+                  - term [ref=e181]: Krantentitel
+                  - definition [ref=e182]:
+                    - link "Algemeen handelsblad voor Nederlandsch-Indië" [ref=e183] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22424436442%22%29&coll=ddd
+                  - term [ref=e184]: Datum
+                  - definition [ref=e185]:
+                    - link "08-11-1937" [ref=e186] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2208-11-1937%22%29&coll=ddd
+                - button "Meer details" [ref=e187] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e188]:
+            - article [ref=e189]:
+              - generic [ref=e190]:
+                - link [ref=e191] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=ddd:010229943:mpeg21:a0115&resultsidentifier=ddd:010229943:mpeg21:a0115&rowid=6
+                - button "Voeg toe aan favorieten" [ref=e194] [cursor=pointer]:
+                  - img
+              - generic [ref=e195]:
+                - link "Wetenschappen Het Prae-historisch Onderzoek op Celebes. De Reis van Dr. Van Stein Callenfels." [ref=e196] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=ddd:010229943:mpeg21:a0115&resultsidentifier=ddd:010229943:mpeg21:a0115&rowid=6
+                  - heading "Wetenschappen Het Prae-historisch Onderzoek op Celebes. De Reis van Dr. Van Stein Callenfels." [level=2] [ref=e197]
+                - generic [ref=e198]:
+                  - term [ref=e199]: Krantentitel
+                  - definition [ref=e200]:
+                    - link "Het nieuws van den dag voor Nederlandsch-Indië" [ref=e201] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22045114242%22%29&coll=ddd
+                  - term [ref=e202]: Datum
+                  - definition [ref=e203]:
+                    - link "04-11-1933" [ref=e204] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2204-11-1933%22%29&coll=ddd
+                - button "Meer details" [ref=e205] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e206]:
+            - article [ref=e207]:
+              - generic [ref=e208]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=ddd:010284911:mpeg21:a0110&resultsidentifier=ddd:010284911:mpeg21:a0110&rowid=7
+                - button "Voeg toe aan favorieten" [ref=e212] [cursor=pointer]:
+                  - img
+              - generic [ref=e213]:
+                - link "WETENSCHAPPEN. PRAEHISTORISCH ONDERZOEK. Dr. Van Stem Callenfels op Celebes. NEOLITHISCHE CULTUUR. Een „zot” idee." [ref=e214] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=ddd:010284911:mpeg21:a0110&resultsidentifier=ddd:010284911:mpeg21:a0110&rowid=7
+                  - heading "WETENSCHAPPEN. PRAEHISTORISCH ONDERZOEK. Dr. Van Stem Callenfels op Celebes. NEOLITHISCHE CULTUUR. Een „zot” idee." [level=2] [ref=e215]
+                - generic [ref=e216]:
+                  - term [ref=e217]: Krantentitel
+                  - definition [ref=e218]:
+                    - link "De Indische courant" [ref=e219] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22044787111%22%29&coll=ddd
+                  - term [ref=e220]: Datum
+                  - definition [ref=e221]:
+                    - link "03-11-1933" [ref=e222] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2203-11-1933%22%29&coll=ddd
+                - button "Meer details" [ref=e223] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e224]:
+            - article [ref=e225]:
+              - generic [ref=e226]:
+                - link [ref=e227] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=ddd:010970942:mpeg21:a0094&resultsidentifier=ddd:010970942:mpeg21:a0094&rowid=8
+                - button "Voeg toe aan favorieten" [ref=e230] [cursor=pointer]:
+                  - img
+              - generic [ref=e231]:
+                - link "BINNENLAND Praehistorisch onderzoek. DR. VAN STEIN CALLENFELS OP CELEBES." [ref=e232] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=ddd:010970942:mpeg21:a0094&resultsidentifier=ddd:010970942:mpeg21:a0094&rowid=8
+                  - heading "BINNENLAND Praehistorisch onderzoek. DR. VAN STEIN CALLENFELS OP CELEBES." [level=2] [ref=e233]
+                - generic [ref=e234]:
+                  - term [ref=e235]: Krantentitel
+                  - definition [ref=e236]:
+                    - link "De Sumatra post" [ref=e237] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22045042624%22%29&coll=ddd
+                  - term [ref=e238]: Datum
+                  - definition [ref=e239]:
+                    - link "14-11-1933" [ref=e240] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2214-11-1933%22%29&coll=ddd
+                - button "Meer details" [ref=e241] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e242]:
+            - article [ref=e243]:
+              - generic [ref=e244]:
+                - link [ref=e245] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB15:000123034:mpeg21:a00054&resultsidentifier=MMKB15:000123034:mpeg21:a00054&rowid=9
+                - button "Voeg toe aan favorieten" [ref=e248] [cursor=pointer]:
+                  - img
+              - generic [ref=e249]:
+                - link "EEN URNEN VELD UIT DE PRAEHISTORIE" [ref=e250] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMKB15:000123034:mpeg21:a00054&resultsidentifier=MMKB15:000123034:mpeg21:a00054&rowid=9
+                  - heading "EEN URNEN VELD UIT DE PRAEHISTORIE" [level=2] [ref=e251]
+                - generic [ref=e252]:
+                  - term [ref=e253]: Krantentitel
+                  - definition [ref=e254]:
+                    - link "Deli courant" [ref=e255] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22424744597%22%29&coll=ddd
+                  - term [ref=e256]: Datum
+                  - definition [ref=e257]:
+                    - link "09-11-1937" [ref=e258] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2209-11-1937%22%29&coll=ddd
+                - button "Meer details" [ref=e259] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+          - listitem [ref=e260]:
+            - article [ref=e261]:
+              - generic [ref=e262]:
+                - link [ref=e263] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMDA03:000096533:mpeg21:a0012&resultsidentifier=MMDA03:000096533:mpeg21:a0012&rowid=10
+                - button "Voeg toe aan favorieten" [ref=e266] [cursor=pointer]:
+                  - img
+              - generic [ref=e267]:
+                - link "Finantiële berigten." [ref=e268] [cursor=pointer]:
+                  - /url: /nl/kranten/view?query=opgegraven+Java+diepte+meter&coll=ddd&identifier=MMDA03:000096533:mpeg21:a0012&resultsidentifier=MMDA03:000096533:mpeg21:a0012&rowid=10
+                  - heading "Finantiële berigten." [level=2] [ref=e269]
+                - generic [ref=e270]:
+                  - term [ref=e271]: Krantentitel
+                  - definition [ref=e272]:
+                    - link "Provinciale Drentsche en Asser courant" [ref=e273] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28ppn+exact+%22398540756%22%29&coll=ddd
+                  - term [ref=e274]: Datum
+                  - definition [ref=e275]:
+                    - link "14-06-1877" [ref=e276] [cursor=pointer]:
+                      - /url: /nl/kranten/results?cql%5B%5D=%28date+%3D+%2214-06-1877%22%29&coll=ddd
+                - button "Meer details" [ref=e277] [cursor=pointer]:
+                  - generic: Meer details
+                  - generic:
+                    - img
+      - generic [ref=e29]:
+        - generic [ref=e279]:
+          - paragraph [ref=e280]: Resultaten per pagina
+          - button "10" [ref=e282] [cursor=pointer]:
+            - generic: "10"
+            - generic:
+              - img
+        - navigation [ref=e283]:
+          - generic "Vorige pagina" [ref=e284]:
+            - img [ref=e285]
+          - generic [ref=e287]:
+            - generic [ref=e288]: Ga naar paginanummer
+            - spinbutton "Ga naar paginanummer" [ref=e289]: "1"
+            - generic [ref=e290]: /12
+          - link "Volgende pagina" [ref=e291] [cursor=pointer]:
+            - /url: /nl/kranten/results/?query=opgegraven+Java+diepte+meter&coll=ddd&page=2
+            - img [ref=e292]
+  - contentinfo [ref=e30]:
+    - generic [ref=e31]:
+      - link "Delpher logo, terug naar homepage" [ref=e33] [cursor=pointer]:
+        - /url: /
+        - img [ref=e34]
+      - list [ref=e37]:
+        - listitem [ref=e38]:
+          - link "Over Delpher" [ref=e39] [cursor=pointer]:
+            - /url: /over-delpher/wat-is-delpher
+        - listitem [ref=e40]:
+          - link "Thema's" [ref=e41] [cursor=pointer]:
+            - /url: /thema
+        - listitem [ref=e42]:
+          - link "Favorieten" [ref=e43] [cursor=pointer]:
+            - /url: /nl/platform/favourites
+        - listitem [ref=e44]: Bekeken objecten
+        - listitem [ref=e45]:
+          - link "Instellingen" [ref=e46] [cursor=pointer]:
+            - /url: /nl/platform/settings
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Zoekhulp" [ref=e50] [cursor=pointer]:
+            - /url: /thema/zoekhulp
+        - listitem [ref=e51]:
+          - link "Gebruiksvoorwaarden" [ref=e52] [cursor=pointer]:
+            - /url: /over-delpher/gebruiksvoorwaarden
+        - listitem [ref=e53]:
+          - link "Privacyverklaring" [ref=e54] [cursor=pointer]:
+            - /url: /over-delpher/privacyverklaring
+        - listitem [ref=e55]:
+          - link "Toegankelijkheidsverklaring" [ref=e56] [cursor=pointer]:
+            - /url: /over-delpher/toegankelijkheid
+        - listitem [ref=e57]:
+          - link "Disclaimer" [ref=e58] [cursor=pointer]:
+            - /url: /over-delpher/disclaimer
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Nieuwsbrief" [ref=e62] [cursor=pointer]:
+            - /url: https://m2.mailplus.nl/wp7a9XCHY7pL-1072-50681
+        - listitem [ref=e63]:
+          - link "Contact" [ref=e64] [cursor=pointer]:
+            - /url: /over-delpher/contact
+        - listitem [ref=e65]:
+          - link "Facebook logo, ga naar het facebookforum van Delpher" [ref=e66] [cursor=pointer]:
+            - /url: https://www.facebook.com/groups/Delpher
+            - img [ref=e67]
+      - generic [ref=e69]:
+        - generic [ref=e70]: Ontwikkeld door de
+        - link "KB Nationale Bibliotheek logo, ga naar de site www.kb.nl" [ref=e71] [cursor=pointer]:
+          - /url: https://www.kb.nl
+          - img [ref=e72]

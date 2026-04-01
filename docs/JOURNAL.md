@@ -4,6 +4,53 @@
 
 ---
 
+## 2026-04-01 | AUTONOMOUS SESSION — Dual-Track Strategy + Deliverables
+
+**Type:** AUTONOMOUS EXECUTION
+**Status:** IN PROGRESS
+**Mode:** Autonomous (user at work, Claude running independently)
+
+### P11 Rejection & Retargeting
+- P11 REJECTED by Indonesia (Cornell) — desk rejection, same day. Scope mismatch (sociology/political science, not archaeology).
+- 4th rejection total (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell). Pattern: computational papers rejected from humanities journals.
+- **Retarget → Archipel (INALCO/EHESS, Paris).** Zero APC, Scopus Q3, WoS A&HCI. "Monde insulindien" = Java's home journal.
+- Internet Archaeology ELIMINATED (APC ~£2,000, not Diamond OA). Journal of Pacific Archaeology ELIMINATED (Java outside "Pacific" scope).
+
+### Dual-Track Publication Strategy (NEW)
+Strategic decision: VOLCARCH papers split into two tracks:
+1. **NLP/Technical Track** — User expertise. ArchCalc, DHQ, EGQSJ, JCAA. Methodology-led.
+2. **Humanities Track** — Claude assists with framing, higher impact audience. Archipel, BKI, Wacana, Asian Ethnology. Heritage/historical implications-led.
+Same data, same arguments, different language. This is translation, not duplication.
+
+### P11 Humanities Reframe — COMPLETE
+- Created `draft_v0.4_archipel.tex` — full rewrite for humanities audience
+- Title: "Temples Without Villages: Candi and the Hidden Settlement Geography of Volcanic Java"
+- Added Lombard, Wolters, Miksic references (Insulindian studies discourse)
+- Abstract ≤130 words (Archipel requirement), narrative-focused
+- Compiles to 9 pages, ~2,600 words (within 9,000 limit)
+- Word conversion done (`draft_v0.4_archipel.docx`)
+- Cover letter drafted (`cover_letter_archipel.md`)
+- Submission prep document created (`ARCHIPEL_SUBMISSION_PREP.md`)
+
+### P17 ArchCalc Final Formatting
+- Updated experiment count 162→175
+- Extracted bibliography to ArchCalc format (`P17_bibliography.txt`)
+- Updated checklist: most items DONE, 7 manual steps remain for Pak Amien
+
+### P5 Humanities Reframe Analysis — COMPLETE
+- Created `HUMANITIES_REFRAME_STRATEGY.md` with detailed reframe plan
+- Key narrative shift: "taphonomic calibration" → "indigenous knowledge resilience"
+- Primary target: Asian Ethnology (Nanzan U, zero APC, Scopus Q2)
+- Reframed abstract drafted. Reframed structure outlined.
+
+### Other Deliverables
+- Root files cleaned up (screenshots moved to appropriate directories)
+- Zenodo metadata prepared for E171 prediction registry
+- All tracking documents synced (L2, L3, EVAL: 153→175 experiments)
+- WORKSTATE updated with P11 rejection, dual-track strategy, Archipel retarget
+
+---
+
 ## 2026-04-01 | P11 REJECTED — Indonesia (Cornell)
 
 **Type:** REJECTION
