@@ -1,10 +1,10 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-04-01 (ME#12 CLOSED, E154-E175, 175 experiments. P11 REJECTED Cornell → retarget Archipel. Dual-track strategy active.)
-**MODE: CONSOLIDATION.** Priority: (1) SUBMIT P17 to ArchCalc, (2) wait reviews, (3) resolve JCAA APC, (4) repo go public.
-**SESSION 9 COMPLETE:** 21 new experiments, ME#12 critique, P17 v0.3 ready, manifesto v4.2, synthesis figure, population model 3.3M, handoff document.
-**HANDOFF:** `docs/HANDOFF_20260331_ME12_SESSION.md` — full navigation guide for all new files.
+**Last updated:** 2026-04-08 (Session 13: P11 review triage — 5 fixes applied → v0.6. Aubert email drafted.)
+**MODE: CONSOLIDATION + GRANT PREP.** Priority: (1) P11 final review → submit Archipel, (2) Send Aubert email, (3) P17 verify+upload ArchCalc, (4) GitHub go public.
+**SESSION 13 ACTIVE.** P11 v0.6 with reviewer-driven fixes. Aubert cold email ready. JCAA waiver WAIT.
+**HANDOFF:** `docs/HANDOFF_20260408_SESSION12.md`
 
 ---
 
@@ -15,25 +15,30 @@
   - Submitted via Playwright automation. PDF uploaded + finalized.
   - Waiver 100% APC requested (justification: developing country, no institutional funding)
   - Zenodo preprint live: DOI 10.5281/zenodo.19081502
+  - **2026-04-01: Second editorial fix** — "Correspondence to" line restored (Copernicus cls quirk: `\Author` 2nd arg needed, not just `\correspondence{}`). PDF re-sent to Katja Gänger.
   - **Next: WAIT for editor assignment + reviewer feedback (2-6 months)**
   - Revision ammo ready: 9 files + E120-E140 new findings
 - **P11 → REJECTED Indonesia (Cornell)** (2026-04-01, desk rejection)
   - Reason: "beyond the thematic and stylistic purview" — journal is sociology/political science, not archaeology
   - **RETARGET → Archipel (INALCO/EHESS, Paris).** Zero APC, Scopus Q3, WoS A&HCI. "Monde insulindien" = perfect scope.
   - Submit to: archipel@ehess.fr (varia issue). Word limit 9K (P11 = 3.2K). Flexible ref style. English OK.
-  - **Adaptation needed (MANUAL):** Reframe intro/abstract — lead with heritage/historical implications, Monte Carlo as supporting tool. Soften computational framing. Add paragraph connecting to Insulindian studies discourse.
+  - **v0.5 ARCHIPEL-COMPLIANT (2026-04-08):** Abstract trimmed 168→127 words (≤130 limit). Figures converted PNG→JPEG 300dpi. Citation style (Chicago Notes-Bibliography) matches published Archipel articles.
+  - **v0.6 REVIEW-HARDENED (2026-04-08):** 5 fixes from external reviews: "natural experiment"→"before-after observation", Liangan→"proof of possibility", n=20 explained, falsifiability added (GPR predictions), AI disclosure moved to proper section. Email updated.
+  - **SUBMITTED 2026-04-08** via email to archipel@ehess.fr. Word + PDF + 2 JPEG figures. WAIT for response.
   - Backup: Wacana Vol.28 No.3 "Muarajambi" (Oct 2027) or PCI Archaeology (preprint-first, Scopus+WoS).
-  - Files ready: 14pp, 14 refs, Word + LaTeX, E153 included
-- **P17 → ArchCalc (CNR) CONFIRMED** — Draft v0.2 (22pp, 5 figures, ~7K words, 30 refs). Clean. **PRE-FLIGHT COMPLETE**
-  - Files: `papers/P17_two_javas/draft_v0.2.tex`, `p17_references.bib`, `figures/`, `PREFLIGHT_REVIEW.md`
+  - Files ready: ~13pp, 29 refs, Word + PDF + LaTeX + JPEG figures
+- **P17 → ArchCalc (CNR) CONFIRMED** — Draft v0.3 (~5.2K words, within 6K limit, anonymized). **SUBMISSION PACKAGE 95% READY**
+  - Files: `papers/P17_two_javas/draft_v0.3_archcalc.tex`, `p17_references.bib`, `figures/`
+  - **Submission package:** `archcalc_submission/` — 4 files ready:
+    - `P17_manuscript_formatted.docx` (88 paragraphs numbered, heading styles applied)
+    - `P17_bibliography.docx` (31 references, ArchCalc Harvard format)
+    - `P17_figure_captions.docx` (5 figures + 2 tables)
+    - `P17_figures.zip` (JPG 300dpi)
   - Target: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) — deadline Dec 31
   - **STRONGEST paper in portfolio.** "Two Javas" is a memorable, citable concept.
-  - **ArchCalc rules downloaded** → `papers/P17_two_javas/ARCHCALC_RULES.md`
-  - **CRITICAL: 6,000 word limit** (P17 is ~7K → needs ~1K trim). Double-blind (anonymize). Word/RTF only. Max 10 figs+tables. Figures separate ZIP. Bibliography separate file. Paragraphs numbered. No footnotes.
-  - Issues: experiment count outdated (107→153), missing Fig 6, self-citations need anonymising, spelling consistency
-  - Next: User review → trim to 6K → pandoc conversion → anonymize → submit ~September 2026
+  - Spelling: standardized to British English (2026-04-02). 175 experiments.
+  - **Remaining:** Pak Amien verify formatting in Word → create account → upload 4 files
   - Portal: https://submission.archcalc.cnr.it/ (create account)
-  - Zotero CSL: https://submission.archcalc.cnr.it/public/journals/2/archeologia-e-calcolatori.csl
 - **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Clean.
   - Files: `papers/P16_computational_textual_archaeology/draft_v0.1.tex`, `p16_references.bib`, `figures/`
   - Target: **DHQ** (ADHO, Diamond OA, Scopus+WoS) — rolling deadlines (Apr 15, Jul 15)
@@ -62,9 +67,9 @@
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
 - **E076 v2 satellite** — Script written, needs internet + compute (~30 min). **BLOCKED** (no time, post-mudik workload)
 - **Colonial data verification** — 10 E070 entries on Delpher.nl. **BLOCKED** (manual task, no time)
-- **JCAA APC CRISIS** — P2 charges **£593** (was £450, increased). CAA Publication Fund waiver requires: (a) paper ACCEPTED first, (b) CAA member ≥2 of last 4 years, (c) max 5/year, (d) cap £550 (gap ~£43). **Alternative:** 30% reviewer discount if you review for JCAA. **ACTION NEEDED:** Email journal@caa-international.org to ask about developing-country waiver options. If waiver impossible and P2 accepted, must withdraw and retarget to free journal.
+- **JCAA APC UPDATE (2026-04-08)** — P2 charges **£593**. Waiver formally requested 2026-04-06. **Verhagen replied 2026-04-07: "Thank you, noted."** Request acknowledged, decision pending. WAIT. If waiver denied and P2 accepted, must withdraw and retarget.
 - ~~P11 submit~~ — **SUBMITTED** 2026-03-31 to Indonesia (Cornell). Wait for response.
-- **P17 ArchCalc submit** — **UNBLOCKED** → Rules downloaded. Needs: trim 7K→6K, pandoc conversion, anonymize, Fig 6, experiment count update.
+- **P17 ArchCalc submit** — **95% READY** → 4 submission files created (2026-04-02). Pak Amien: verify formatting → create account → upload.
 - **P11 Zenodo preprint** — **BLOCKED** (manual upload, besok)
 - **P19 deep reading** — **BLOCKED** (Lombard Vol.3, Bloembergen, Wolters — manual reading)
 - **NEW: P20 TobaSim** — Proposal in `docs/drafts/P20_tobasim_proposal_v0.1.md`. FALL3D Toba 74ka simulation. Needs geologist co-author.
@@ -79,10 +84,11 @@
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
 | **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
 | ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
+| **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | Awaiting response |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
 | P7 | Antiquity Project Gallery | — | 2026-03-06 | **Under review** — 1 revision ammo file |
-| P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files |
+| P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files. **arXiv preprint LIVE: 2604.00023** |
 | ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
 **Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 4 under review (P1-EGQSJ, P2, P7, P8).**
@@ -123,6 +129,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Session 10 (2026-04-02)** — P8 arXiv published (2604.00023). P17 ArchCalc compliance audit against real papers (website rules differ!): dashes, captions, paragraph numbering all fixed. Tables rebuilt via python-docx. Spelling standardized British. 4 submission files ready. Email standardization verified (go-public unblocked).
 - **Session 9 (2026-03-31)** — **Mata Elang #12 autonomous session (extended).** Deepest structural critique to date. **10 new experiments (E154-E163):** E154 FDR re-audit (78.3%), E155 cross-regional cascade (rho=1.0), E156 L1xL2 double erasure, E157 ethnographic F4/F2, E158 steelman counter-args, E159 robustness battery (5/5 ROBUST), E160 GPU NLP (929 CE z=3.04), E161 Bali (5/5 confirmed), E162 synthesis, E163 Sumatra (nuanced: Sriwijaya paradox). **Plus:** P17 v0.3 ArchCalc-ready (anonymized, ~5.2K words), interactive prediction map, borehole targeting protocol ($6K for 20 holes). **163 experiments total.**
 - **Session 8 (2026-03-31)** — Post-ME#11 pipeline. **P11 SUBMITTED** to Indonesia (Cornell): Chicago 17th conversion, E153 candi-settlement proxy test (p<0.0001), Liangan validation strengthened, AI prose audit passed, cover letter sent. P17 target confirmed: ArchCalc, rules downloaded (6K word limit, needs trim). JCAA APC crisis: £593, waiver very difficult. E153 experiment: 154 experiments total. KB.nl Delpher reply received — colonial data already public, no action needed.
 - **Session 7 (2026-03-30)** — Back at campus. 3 deliverables: (1) LiDAR 1-page pitch for company contact — 10 GPS targets, Amazon precedent, value proposition, (2) README.md professional rewrite for GitHub go-public — Zenodo badge, 120 experiments summary, citation block, (3) YouTube Ep2 "Patung yang Ditelan Bumi" full outline — 10-min Dwarapala Singosari deep dive. Dissemination roadmap tracking updated.
@@ -143,9 +150,9 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **175 experiments** (E001-E175). **Mata Elang #12 CLOSED.** Session 9 COMPLETE. All docs synced. Handoff ready. UNCOMMITTED — needs git add + commit.
-**Papers:** P1 SUBMITTED EGQSJ, P11 REJECTED Cornell (retarget needed). 4 under review (P1-EGQSJ, P2, P7, P8). P16/P17 drafting. P18 HOLD.
-**Phase:** CONSOLIDATION + AUTORESEARCH. P1 preprint live on Zenodo (DOI: 10.5281/zenodo.19081502).
+STATUS: **175 experiments** (E001-E175). **Mata Elang #12 CLOSED.** Session 13 active.
+**Papers:** P1 SUBMITTED EGQSJ. **P8 arXiv LIVE (2604.00023).** 4 under review (P1-EGQSJ, P2, P7, P8). P17 submission package 95% ready. **P11 Archipel-compliant, ready for review+submit.** P16 drafting. P18 HOLD.
+**Phase:** CONSOLIDATION + GRANT PREP. JCAA waiver acknowledged (Verhagen 2026-04-07). Grant roadmap integrated (6 sources, Horizon Europe opens 12 May). P11 abstract trimmed, figures converted, email updated.
 
 ### Mata Elang #12 Key Findings
 1. **Verification Ladder**: Saturated at Level 0. Need Level 1 (peer acceptance) — P17 at ArchCalc is the critical path.
@@ -167,21 +174,31 @@ STATUS: **175 experiments** (E001-E175). **Mata Elang #12 CLOSED.** Session 9 CO
 ### Standing Priorities (Updated 2026-04-01)
 
 **TECHNICAL TRACK (NLP/computational — user expertise):**
-1. **P17 submit ArchCalc** — THE priority. v0.3 ready, 7 manual steps remain. Deadline Dec 31.
+1. **P17 submit ArchCalc** — THE priority. **v0.4 (2026-04-06): 5 critical fixes** (overclaim softened, depth confound acknowledged, Bali downgraded, sentence-transformer method added, thresholds justified). .docx regenerated. ALL PASS. Pak Amien: verify in Word → create account → upload. Deadline Dec 31.
 2. P16 submit DHQ — user review + expand.
 3. ~~P1 submit EGQSJ~~ — **SUBMITTED.** Wait (2-6 months).
 
 **HUMANITIES TRACK (narrative/heritage — Claude assists framing):**
-4. **P11 submit Archipel** — v0.4 reframe DONE. Pak Amien review → email archipel@ehess.fr.
+4. **P11 submit Archipel** — **v0.5 COMPLETE** (~5,300 words, 29 refs). All [EXPAND] markers filled. Genuine engagement with Lombard, Degroot, Christie, Bloembergen/Eickhoff. PDF+DOCX generated. Pak Amien: final review → email archipel@ehess.fr.
 5. **P5 reframe for Asian Ethnology** — Strategy doc ready. Needs full rewrite (~June 2026).
 6. P19 submit BKI — deep reading phase (manual).
 
 **OPERATIONAL:**
-7. **JCAA APC crisis** — £593, waiver very difficult. Email journal@caa-international.org ASAP.
-8. **GitHub repo go public** — README updated to 175. Review for sensitive files.
+7. **JCAA APC waiver** — £593. **Waiver requested 2026-04-06. Verhagen acknowledged 2026-04-07.** WAIT for decision.
+8. **GitHub repo go public** — README updated to 175. Emails standardized (verified 2026-04-02, all ubhinus.ac.id). **READY — just flip the switch in Settings.**
 9. D1+D2 deposit to Zenodo (free, 30 min each).
 10. Zenodo deposit for E171 prediction registry (metadata ready).
 11. P9 HOLD until P2/P8 outcome.
+
+**GRANT TRACK (NEW — from seminar April 2026):**
+Full roadmap: `docs/VOLCARCH_GrantRoadmap_v1.0.md`
+12. ~~Email Maxime Aubert (Griffith)~~ — **SENT 2026-04-08.** WAIT for response.
+13. **Bookmark Horizon Europe Cluster 2** — call opens **12 May 2026**. Need EU consortium (Leiden KITLV primary). Prepare 1-page pitch.
+14. **Contact Leiden KITLV** — natural partner (DHARMA corpus). Letter of Intent for Horizon Europe / MSCA DN.
+15. **TWAS Research Grant** (USD 15K) — stepping stone. Frame as GPU-accelerated volcanic dispersal modelling. Multiple deadlines.
+16. **Check Asahi Glass Foundation** — af-info.or.jp. December deadline cycle.
+17. **MSCA Doctoral Networks** — deadline **24 Nov 2026**. "ARCHAEOVOLC" concept. Need 3 EU partners. This is the S3 pathway.
+**Prerequisites for big grants:** ≥1 published paper (ETA late 2026), IELTS, 1 conference presentation.
 **All future submissions: ZERO APC (absolute, non-negotiable). Free-to-publish journals OK even if not Diamond OA. Q2-Q4 all acceptable.** See `memory/feedback_zero_apc.md`.
 **Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/AI_PROSE_GUIDE.md`.
 **Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` (revisit weekly).

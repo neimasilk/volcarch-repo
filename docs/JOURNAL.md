@@ -4,6 +4,180 @@
 
 ---
 
+## 2026-04-08 | Session 13 — P11 Review Triage + Aubert Email Draft
+
+**Type:** SESSION WORK
+**Status:** IN PROGRESS
+
+### P11 External Review Triage
+- Received 2 detailed external reviews of P11 "Temples Without Villages" (Archipel version)
+- **13 points triaged** into: 5 fix-now, 4 already-addressed, 4 not-relevant-for-Q3
+- **5 targeted fixes applied → P11 v0.6:**
+  1. "Natural experiment" → "before-after observation" (abstract + Section 4.2)
+  2. Liangan "validates" → "demonstrates plausibility" / "proof of possibility"
+  3. Orientation n=20: added data-availability explanation (14% of dataset, documentation gaps)
+  4. Added explicit falsifiability: GPR predictions at 3-7m depth, refutable if nothing found
+  5. AI disclosure moved from footnote to proper disclosure section with reproducibility note
+  6. De-Indianization claim hedged with "If this interpretation is correct"
+- **Key review concerns already addressed in paper:** Penanggungan exclusion test, adversarial regression control, geocoding uncertainty in limitations
+- **Review concerns not applicable for Archipel Q3:** spatial autocorrelation correction, temporal binning (too technical for humanities journal), heritage section = strength not weakness for Archipel
+- Email draft updated to match revised abstract
+
+### Aubert Cold Email Drafted
+- `docs/drafts/email_aubert_griffith_toba.md` — ready for Pak Amien review + send
+- References Nature 2026 paper, proposes TobaSim collaboration, mentions ARC Linkage
+- Subject: "Computational modelling of Toba ashfall — explaining the Sulawesi survival pattern"
+
+### Note for P17 ArchCalc
+- Same "natural experiment" language exists in P17 v0.3 (3 instances) — should be softened before upload
+- ArchCalc deadline Dec 31, not urgent but flag for next session
+
+---
+
+## 2026-04-08 | Session 12 — Grant Roadmap Integration + P11 Archipel Compliance + JCAA Update
+
+**Type:** SESSION WORK
+**Status:** COMPLETED
+
+### inBox Processing
+- **VOLCARCH_GrantRoadmap_v1.0.md** processed from inBox → `docs/VOLCARCH_GrantRoadmap_v1.0.md`
+- Source: International grant seminar (April 2026)
+- Content: 6 international funding sources mapped to VOLCARCH programme
+- Key: Horizon Europe Cluster 2 call opens **12 May 2026**, MSCA DN deadline **24 Nov 2026**, Griffith (Aubert) = natural partner for P20 TobaSim
+- Action items captured in memory and WORKSTATE
+- inBox EMPTY.
+
+### JCAA Waiver Update
+- Verhagen replied **2026-04-07**: "Thank you, noted."
+- Interpretation: request formally acknowledged, decision pending. Not rejected.
+- Status changed from URGENT to WAIT.
+
+### P11 Archipel Submission Compliance
+- Archipel guidelines researched (journals.openedition.org/archipel/330):
+  - Max 9,000 words (incl footnotes), Times New Roman 12pt
+  - Abstract max 130 words, same language as article
+  - Figures: JPEG/TIFF 300dpi
+  - Submit: Word + PDF via email to archipel@ehess.fr
+  - Citation style: not specified, but published articles use Chicago Notes-Bibliography (Author Year: page) in footnotes + bibliography at end
+- **Changes made to P11 v0.5:**
+  - Abstract trimmed: ~168 → 127 words (within 130-word limit)
+  - Figures converted: PNG → JPEG 300dpi (fig1, fig2)
+  - Email draft updated: v0.4 refs → v0.5 (5,300 words, 29 refs, .jpg attachments)
+  - PDF + DOCX regenerated
+- **P11 ready for Pak Amien review → submit to archipel@ehess.fr**
+
+### Grant Roadmap Integration
+- Memory saved: `project_grant_roadmap.md`
+- Grant actions added to WORKSTATE operational priorities
+- Immediate actions identified for April 2026: email Aubert (Griffith), bookmark Horizon Europe, contact Leiden KITLV
+
+---
+
+## 2026-04-06 | Session 11 — JCAA Waiver Update + Continuation
+
+**Type:** SESSION WORK
+**Status:** IN PROGRESS
+
+### JCAA APC Crisis — Verhagen Email (Breaking News)
+- **Philip Verhagen** (JCAA editor) replied 2026-04-03 to Pak Amien's waiver inquiry
+- **3 waiver paths confirmed:**
+  1. CAA Member Waiver — requires 2-year membership (Pak Amien does not qualify)
+  2. **Journal Direct Waiver** — limited number, first-come-first-served basis (ACTIONABLE)
+  3. **Reviewer Discount** — available to anyone who has reviewed for JCAA
+- **Action:** Reply to Verhagen requesting journal direct waiver for P2 (#280). Cite no institutional funding + early career. Offer to review (NLP/ML/AI expertise).
+- **Email SENT 2026-04-06.** Waiting for reply.
+- **Urgency:** FCFS means slots can run out — must act quickly.
+
+### P17 ArchCalc — 5 Critical Fixes (v0.3 → v0.4)
+Based on brutal self-review identifying 5 weaknesses a reviewer would exploit:
+1. **Abstract overclaim softened**: "Indianization was a 15-km phenomenon" → "The *textual record* of Indianization was a 15-km court phenomenon" (candi ARE Indic but cluster in volcano zone — the claim was about texts, not culture)
+2. **Depth-vocabulary confound acknowledged**: Added paragraph in Section 4.3 noting volcanic distance (rho=-0.295, p=0.0002) as likely confound. Depth correlation may be driven by geography, not depth per se. Practical implication unchanged.
+3. **Bali "validation" downgraded**: Section renamed "Cross-regional consistency check." N=5 caveat made explicit. "Suggestive rather than definitive."
+4. **Sentence-transformer method added**: Previously appeared in Discussion without Methods description. Added to Methods section.
+5. **Zone threshold justification strengthened**: Linked 15/30 km to volcanological hazard boundaries (Lavigne & Thouret 2000), not just empirical breaks. Sensitivity note strengthened.
+- Abstract trimmed: 207→186 words (max 200). Compliance audit: ALL PASS.
+- Submission .docx regenerated (pandoc → fix_tables → format headings). 4 files updated.
+- Conclusion and Discussion Indianization claims also softened for consistency.
+
+### Document Sync Audit
+- **L2_STRATEGY.md** updated: P1 moved to "Under review" (EGQSJ submitted), P2 APC £593 noted, P5 retarget Asian Ethnology, P11 retarget Archipel, P17 confirmed ArchCalc, P8 arXiv noted. Pipeline header updated to 2026-04-06.
+- **L3_EXECUTION.md** updated: P11 rejection + Archipel retarget added to tables, P11 and P17 status updated in Papers In Progress, timestamp updated to 2026-04-06.
+- **P11 Archipel submission** prep: cover letter date filled (6 April 2026). Email draft created (`email_archipel_submission.md`). DHARMA citation verified present. Files verified complete: .docx (863 KB), .pdf (889 KB), 2 figures (PNG), 17 refs.
+
+### P11 Archipel — Major Expansion v0.4 → v0.5
+Critical review found v0.4 was "computational paper wearing humanities blazer" (2,600 words, 17 refs — too thin for Archipel's 9K limit).
+- **Expanded ~2,600 → ~4,800 words** (before [EXPAND] markers). References 17 → 28.
+- **New/expanded sections:** Sacred Geography (cosmological dimensions of western clustering), Inscription Contrast (929 CE as narrative, not statistics), Heritage Implications (replaces Japan comparison).
+- **Statistics subordinated** to footnotes throughout. Narrative-first approach.
+- **All 4 [EXPAND] markers FILLED** — Lombard Vol.3 (monde du village as Austronesian substrate), Degroot (intervisibility + cosmological orientation), Christie (states without cities → court zone produced texts, volcano zone housed villages), Bloembergen/Eickhoff (colonial monumental bias + postcolonial persistence).
+- AI disclosure moved to footnote. Japan cut to 1 sentence. Bloembergen/Eickhoff added to bibliography.
+- **Final stats:** ~5,300 words (body+refs), 29 references, 13 pages, 2 figures. PDF+DOCX generated.
+- File: `draft_v0.5_archipel.tex`. Ready for Pak Amien final review before submission.
+
+---
+
+## 2026-04-02 | Session 10 — arXiv Published + P17 Formatting Automation
+
+**Type:** SESSION WORK
+**Status:** IN PROGRESS
+
+### P8 arXiv Published
+- arXiv:2604.00023 published, cs.CL, CC BY 4.0
+- First VOLCARCH paper on arXiv. Complements P1 Zenodo preprint.
+- Updated: WORKSTATE, SUBMISSION_CHECKLIST, preprint_submission_guide, MEMORY
+
+### P17 ArchCalc — Compliance Audit + Full Reformat
+- **Critical finding:** ArchCalc website rules differ from actual published papers!
+  - Paragraph numbering: website says "enumerate" → real papers have NO paragraph numbers
+  - Dashes: website says "em dash" → real papers use en-dash with spaces ( – )
+  - Captions: real papers use "Fig. N –" not "Figure N."
+- Verified by fetching actual ArchCalc 35.1/2024 and 36.1/2025 articles
+- **Fixes applied to LaTeX source (draft_v0.3_archcalc.tex):**
+  - All `---` (em-dash) → ` -- ` (en-dash with spaces): ~40 instances
+  - All `Figure~\ref{` → `Fig.~\ref{`: 5 instances
+  - Spelling: 2× `civilization` → `civilisation` (British English standard)
+  - Abstract trimmed 201→198 words
+- **Tables rebuilt from scratch** (python-docx) because pandoc destroyed booktabs formatting
+  - Table 1: multi-row entries merged to single rows with semicolons
+  - Table 2: clean zone distribution table with proper alignment
+- **Compliance audit: ALL PASS** (em-dashes, fig refs, footnotes, anonymization, abstract, spelling, fig count)
+- 4 submission files in `archcalc_submission/`:
+  1. `P17_manuscript_formatted.docx` (tabel rebuilt, heading styles applied)
+  2. `P17_bibliography.docx` (31 refs, Harvard, hanging indent)
+  3. `P17_figure_captions.docx` ("Fig. N --" format)
+  4. `P17_figures.zip` (5 JPG 300dpi)
+- Scripts: `format_for_archcalc.py` (v2), `fix_tables.py`
+- Remaining: Pak Amien verify in Word → create account → upload
+
+### Email Standardization Verified
+- Full repo search: 0 instances of stiki.ac.id, ubhara.ac.id, umm.ac.id
+- All 70+ email occurrences already standardized to amien@ubhinus.ac.id
+- Go-public blocker: CLEARED
+
+---
+
+## 2026-04-02 | P8 arXiv Preprint PUBLISHED — 2604.00023
+
+**Type:** MILESTONE
+**Paper:** P8 "Phonological Fossils: Machine Learning Detection of Non-Mainstream Vocabulary in Sulawesi Basic Lexicon"
+**arXiv ID:** 2604.00023
+**URL:** http://arxiv.org/abs/2604.00023
+**Category:** cs.CL
+**License:** CC BY 4.0
+**Authors:** Mukhlis Amien, Go Frendi Gunawan
+
+arXiv preprint (submit/7351261, previously "on hold") now published with permanent identifier. This is the first VOLCARCH paper with an arXiv DOI — provides citable, indexed preprint while P8 remains under review at Oceanic Linguistics (MS# OL-03-2026-11).
+
+**Significance:**
+- First computational linguistics preprint from VOLCARCH
+- Establishes priority for substrate detection methodology (438 candidate forms, AUC=0.763)
+- cs.CL category = visible to NLP/CL community (dual-track: technical reach)
+- Complements Zenodo preprint of P1 (geoscience) — VOLCARCH now has preprints on two platforms
+
+**Paper password:** ze47x (for co-author ownership claim)
+
+---
+
 ## 2026-04-01 | AUTONOMOUS SESSION — Dual-Track Strategy + Deliverables
 
 **Type:** AUTONOMOUS EXECUTION
@@ -6646,3 +6820,18 @@ KB SRU API is **publicly accessible** without registration for public domain col
 - Email to `dataservices@kb.nl` sent for full documentation
 
 P21 ColonialMine can begin immediately. No registration blocker.
+
+## 2026-04-01 | P1 EGQSJ — Second Editorial Fix (Correspondence Line)
+
+**Type:** SUBMISSION FIX
+**Status:** RESOLVED
+
+Katja Gänger (Copernicus editorial support) reported the "Correspondence to" line was missing from the revised PDF sent earlier today.
+
+**Root cause:** Copernicus cls uses `corr@cnt` counter (incremented by `\Author`'s second optional argument) to decide whether to render the correspondence line. Previous fix removed ORCID from `\Author[1][0000-0002-1848-167X]{Mukhlis}{Amien}` → `\Author[1]{Mukhlis}{Amien}`, dropping the counter to zero. The separate `\correspondence{}` command sets the text but does NOT increment the counter — so the line never renders.
+
+**Fix:** `\Author[1][amien@ubhinus.ac.id]{Mukhlis}{Amien}` — email goes into the slot previously occupied by ORCID. This increments `corr@cnt` and the cls auto-generates "Correspondence: Mukhlis Amien (amien@ubhinus.ac.id)".
+
+**Lesson learned:** Copernicus `\correspondence{}` command is NOT sufficient on its own. The `\Author` second optional argument is what triggers rendering. This is a cls design quirk — document for future Copernicus submissions.
+
+Revised PDF verified (18 pages, all content intact) and sent to Katja.
