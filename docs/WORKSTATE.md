@@ -195,10 +195,10 @@ Full roadmap: `docs/VOLCARCH_GrantRoadmap_v1.0.md`
 12. ~~Email Maxime Aubert (Griffith)~~ — **SENT 2026-04-08.** WAIT for response.
 13. **Bookmark Horizon Europe Cluster 2** — call opens **12 May 2026**. Need EU consortium (Leiden KITLV primary). Prepare 1-page pitch.
 14. **Contact Leiden KITLV** — natural partner (DHARMA corpus). Letter of Intent for Horizon Europe / MSCA DN.
-15. **TWAS Research Grant** (USD 15K) — stepping stone. Frame as GPU-accelerated volcanic dispersal modelling. Multiple deadlines.
-16. **Check Asahi Glass Foundation** — af-info.or.jp. December deadline cycle.
+15. ~~TWAS Research Grant~~ — **INELIGIBLE.** Requires PhD (Pak Amien = S2). Individual deadline 3 Apr 2026 PASSED. Collaborative deadline 31 Mar 2026 PASSED. Both require PI with PhD. **Revisit after S3.**
+16. **Asahi Glass Foundation** — af-info.or.jp. Deadline Aug-Oct 2026. **BARRIER: application documents in Japanese.** Need Japanese collaborator or translator. Check if English application available.
 17. **MSCA Doctoral Networks** — deadline **24 Nov 2026**. "ARCHAEOVOLC" concept. Need 3 EU partners. This is the S3 pathway.
-**Prerequisites for big grants:** ≥1 published paper (ETA late 2026), IELTS, 1 conference presentation.
+**Prerequisites for big grants:** ≥1 published paper (ETA late 2026), IELTS, 1 conference presentation, **PhD for TWAS/most PI roles** (Pak Amien = S2, S3 = critical path).
 **All future submissions: ZERO APC (absolute, non-negotiable). Free-to-publish journals OK even if not Diamond OA. Q2-Q4 all acceptable.** See `memory/feedback_zero_apc.md`.
 **Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/AI_PROSE_GUIDE.md`.
 **Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` (revisit weekly).
