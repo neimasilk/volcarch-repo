@@ -72,5 +72,6 @@
 - [x] Update L3_EXECUTION.md (P8 → SUBMITTED)
 - [x] Update MEMORY.md
 - [x] arXiv preprint submitted (cs.CL, submit/7351261, on hold pending moderation)
+- [x] **arXiv PUBLISHED** (2026-04-02): **arXiv:2604.00023** — http://arxiv.org/abs/2604.00023
 - [ ] Change OL password (exposed in chat)
 - [ ] Change arXiv password (exposed in chat)

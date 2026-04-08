@@ -90,11 +90,11 @@ https://submission.archcalc.cnr.it/public/journals/2/archeologia-e-calcolatori.c
 - [x] Trim from ~7K to ≤6K words — **DONE** (~5.2K words)
 - [x] Convert LaTeX → Word (pandoc) — **DONE** (`archcalc_submission/P17_manuscript.docx`)
 - [x] Anonymize: remove author name, affiliation, self-identifying references — **DONE**
-- [ ] Number all paragraphs — **MANUAL** (in Word, add "1.", "2.", etc. to each paragraph)
-- [ ] Format headings per hierarchy (ALL CAPS title, small caps L1, italic L1.1) — **MANUAL** (in Word)
+- [x] Number all paragraphs — **DONE** (88 paragraphs numbered via `format_for_archcalc.py`)
+- [x] Format headings per hierarchy (ALL CAPS title, small caps L1, italic L1.1) — **DONE** (automated)
 - [x] Remove all footnotes (move content to main text) — **DONE** (no footnotes in v0.3)
-- [x] Extract bibliography to separate DOCX — **DONE** (`archcalc_submission/P17_bibliography.txt`, convert to DOCX)
-- [x] Extract figure captions to separate DOCX — **DONE** (`archcalc_submission/P17_figure_captions.docx.txt`)
+- [x] Extract bibliography to separate DOCX — **DONE** (`archcalc_submission/P17_bibliography.docx`)
+- [x] Extract figure captions to separate DOCX — **DONE** (`archcalc_submission/P17_figure_captions.docx`)
 - [x] Convert figures to JPG 300 dpi, package in ZIP — **DONE** (`archcalc_submission/P17_figures.zip`)
 - [x] Check figure count ≤ 10 — **OK** (5 figures + 2 tables = 7, within limit)
 - [ ] Download Zotero CSL for bibliography formatting — **OPTIONAL** (bibliography already formatted manually)
@@ -104,10 +104,10 @@ https://submission.archcalc.cnr.it/public/journals/2/archeologia-e-calcolatori.c
 - [ ] Check spelling consistency throughout — **MANUAL** (final proofread)
 
 ### Remaining MANUAL steps for Pak Amien:
-1. Open `P17_manuscript.docx` in Word
-2. Add paragraph numbers (1, 2, 3...) to each body paragraph
-3. Format headings: title = ALL CAPS, section headings = small caps, subsections = italic
-4. Final proofread for spelling consistency (British vs American)
-5. Convert `P17_bibliography.txt` to `.docx`
+1. ~~Open `P17_manuscript.docx` and add paragraph numbers~~ → **DONE** (automated, 88 paragraphs)
+2. ~~Format headings~~ → **DONE** (automated: ALL CAPS title, small caps sections, italic subsections)
+3. ~~Convert bibliography .txt to .docx~~ → **DONE** (`P17_bibliography.docx`)
+4. Open `P17_manuscript_formatted.docx` in Word → **verify formatting looks correct**
+5. Final proofread for spelling consistency — **mostly clean** (British English standardised, only LaTeX commands have American spelling)
 6. Create account at https://submission.archcalc.cnr.it/
-7. Upload 4 files: manuscript, bibliography, figures ZIP, captions
+7. Upload 4 files: `P17_manuscript_formatted.docx`, `P17_bibliography.docx`, `P17_figures.zip`, `P17_figure_captions.docx`

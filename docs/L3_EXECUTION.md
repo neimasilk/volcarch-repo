@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE
 **Sprint:** Sprint 12 — Consolidation + AutoResearch Integration
-**Last updated:** 2026-03-30
+**Last updated:** 2026-04-06
 
 ---
 
@@ -26,21 +26,23 @@ P1 re-submitted to EGQSJ, 4 papers active in the review/submission pipeline, and
 | P7 | Antiquity Project Gallery (Q1) | — | 2026-03-06 | Under review |
 | P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | Under review |
 | ~~P9~~ | ~~JSEAS~~ | JSEAS-202603-051 | 2026-03-11 | **REJECTED** 2026-03-20 ("not suitable") |
+| ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED** 2026-04-01 (scope mismatch) |
 
-### Retargeting (Diamond OA only — zero APC)
+### Retargeting (zero APC only)
 | Paper | Rejected From | Target Options |
 |-------|---------------|----------------|
 | P1 | Asian Perspectives | **EGQSJ submitted 2026-03-30** |
-| P5 | BKI | Archeologia e Calcolatori / J. Pacific Archaeology / Wacana |
+| P5 | BKI | **Asian Ethnology** (Nanzan U, zero APC, Scopus Q2). Needs rewrite ~June 2026. |
 | P9 | JSEAS | DHQ / Wacana / Archipel (HOLD until P2/P8 outcome) |
+| P11 | Indonesia (Cornell) | **Archipel** (INALCO/EHESS, zero APC, Scopus Q3, WoS A&HCI). v0.4 ready. |
 
 ## Papers In Progress
 
 | Paper | Target | Status | Next Step |
 |-------|--------|--------|-----------|
-| P11 | Wacana (UI, Scopus Q2, Diamond OA) or Indonesia (Cornell) | v0.3 drafted (18pp) | Manual review → submit post-mudik |
+| P11 | **Archipel** (INALCO/EHESS, zero APC, Scopus Q3, WoS A&HCI) | v0.4 reframed "Temples Without Villages" (~2,600 words) | Pak Amien review → email archipel@ehess.fr |
 | P16 | DHQ (ADHO, Scopus+WoS, Diamond OA) | Draft v0.1 (19pp, 6 figs) | User review → expand → submit |
-| P17 | Archeologia e Calcolatori / J. Pacific Arch. (Diamond OA) | Draft v0.2 (22pp) | User review → submit |
+| P17 | **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) | v0.3 (~5.2K words), submission package 95% ready | Pak Amien verify Word → create account → upload |
 | P18 | HOLD — wait for 1 acceptance | Draft v0.1 (16pp) | Strengthen, do not submit yet |
 | D1 | Zenodo (free) | Draft ready | Zenodo deposit |
 | D2 | Zenodo (free) | Draft ready | Zenodo deposit |

@@ -40,7 +40,7 @@
 ### Paper 2: Settlement Suitability Model
 **Status:** SUBMITTED to JCAA (2026-03-11) — Submission #280
 **Type:** ML/GIS computational paper
-**Target journal:** JCAA (Diamond OA, $0, Ubiquity Press, Scopus-indexed)
+**Target journal:** JCAA (Ubiquity Press, Scopus-indexed). **APC £593 — journal direct waiver requested 2026-04-06 (Verhagen confirmed FCFS waiver exists).**
 **File:** `papers/P2_settlement_model/submission_jcaa_v0.1.tex` (24 pages)
 **Compile:** `pdflatex → bibtex → pdflatex → pdflatex`
 **Authors:** Mukhlis Amien (corresponding), Go Frendi Gunawan (both Universitas Bhinneka Nusantara)
@@ -127,22 +127,24 @@
 - Geologist co-PI for stratigraphic interpretation
 - Ethics clearance if working near cultural/spiritual sites
 
-## 8. Papers Pipeline (Updated 2026-03-20)
+## 8. Papers Pipeline (Updated 2026-04-06)
 
-### Under review (3 active)
-- **P2** — Settlement Suitability Model → JCAA (2026-03-11) — Submission #280
+### Under review (4 active)
+- **P1** — Taphonomic Bias Framework → **EGQSJ** (Copernicus, Diamond OA) — SUBMITTED 2026-03-30, MS# egqsj-2026-3. Zenodo preprint: 10.5281/zenodo.19081502.
+- **P2** — Settlement Suitability Model → JCAA (2026-03-11) — Submission #280. **APC £593 — journal direct waiver requested 2026-04-06.**
 - **P7** — Temporal Overlay Matrix → Antiquity Project Gallery (2026-03-06)
-- **P8** — Linguistic Fossils → Oceanic Linguistics (2026-03-11), MS# OL-03-2026-11. Authors: Amien + Go Frendi.
+- **P8** — Linguistic Fossils → Oceanic Linguistics (2026-03-11), MS# OL-03-2026-11. Authors: Amien + Go Frendi. **arXiv preprint LIVE: 2604.00023.**
 
-### Rejected — Retargeting (Diamond OA only)
-- **P1** — Taphonomic Bias Framework → ~~Asian Perspectives~~ REJECTED 2026-03-17. **EGQSJ ready** (Copernicus, Diamond OA). ORCID + GitHub URL fixed 2026-03-20.
-- **P5** — The Volcanic Ritual Clock → ~~BKI~~ REJECTED 2026-03-19. Targets: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) / J. Pacific Archaeology / Wacana.
+### Rejected — Retargeting (zero APC only)
+- ~~**P1**~~ — ~~Asian Perspectives~~ REJECTED 2026-03-17 (AI flag) → **RESUBMITTED to EGQSJ** (see above).
+- **P5** — The Volcanic Ritual Clock → ~~BKI~~ REJECTED 2026-03-19. **Retarget → Asian Ethnology** (Nanzan U, zero APC, Scopus Q2). Needs full humanities rewrite ~June 2026.
 - **P9** — Peripheral Conservatism → ~~JSEAS~~ REJECTED 2026-03-20. **HOLD** until P2/P8 outcome. Targets: **DHQ** (ADHO, Diamond OA) / Wacana / Archipel.
+- **P11** — ~~Indonesia (Cornell)~~ REJECTED 2026-04-01 (scope mismatch). **Retarget → Archipel** (INALCO/EHESS, zero APC, Scopus Q3, WoS A&HCI). v0.4 ready.
 
 ### Drafting
-- **P11** — Temple Siting as Archaeological Proxy (v0.3, 18pp). Target: **Wacana** (UI, Scopus Q2, Diamond OA) or Indonesia (Cornell, verify if free). Next: manual review → submit post-mudik.
+- **P11** — "Temples Without Villages" (v0.4, ~2,600 words). ~~Indonesia (Cornell) REJECTED 2026-04-01.~~ **Retarget → Archipel** (INALCO/EHESS, zero APC, Scopus Q3, WoS A&HCI). Cover letter ready. Next: Pak Amien review → email archipel@ehess.fr.
 - **P16** — Computational Textual Archaeology (v0.1, 19pp, 6 figs). Target: **DHQ** (ADHO, Scopus+WoS, Diamond OA). Next: user review → expand → submit.
-- **P17** — Two Javas (v0.2, 22pp, 5 figs). Target: **Archeologia e Calcolatori** or J. Pacific Archaeology (Diamond OA). Next: user review → submit.
+- **P17** — Two Javas (v0.3, ~5.2K words, 5 figs). Target: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) CONFIRMED. Submission package 95% ready. Next: Pak Amien verify Word → create account → upload.
 - **P18** — "What Words Remember" (v0.1, 16pp). **HOLD** — wait for 1 acceptance. Target TBD.
 
 ### Data Papers

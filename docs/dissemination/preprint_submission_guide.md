@@ -14,17 +14,18 @@
 
 ---
 
-## P8 → arXiv (cs.CL) — ALREADY SUBMITTED
+## P8 → arXiv (cs.CL) — PUBLISHED 2026-04-02
 
+**arXiv ID:** 2604.00023
+**URL:** http://arxiv.org/abs/2604.00023
 **Submission ID:** submit/7351261
 **Category:** cs.CL (Computation and Language)
 **License:** CC BY 4.0
-**Status:** On hold (submitted 2026-03-11)
+**Status:** ~~On hold~~ → **PUBLISHED** (appeared in 2026-04-02 mailing)
 
-### Action needed:
-1. Go to arxiv.org → login → "Check submission status"
-2. If "on hold" > 5 days, email moderation@arxiv.org
-3. Package already prepared: `papers/P8_linguistic_fossils/arxiv_P8_submission.zip`
+### No further action needed.
+- Package: `papers/P8_linguistic_fossils/arxiv_P8_submission.zip`
+- Paper password (co-author claim): ze47x
 
 ---
 

@@ -2,7 +2,7 @@
 
 **To:** The Editors, *Archipel*
 **From:** Mukhlis Amien, Universitas Bhinneka Nusantara, Malang, Indonesia
-**Date:** [DATE]
+**Date:** 6 April 2026
 **Re:** Manuscript submission — "Temples Without Villages: Candi and the Hidden Settlement Geography of Volcanic Java"
 
 ---
