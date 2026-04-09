@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Last updated:** 2026-03-31 (Mata Elang #12 autonomous session)
-**Total:** 175 experiments (E001-E175 + sub-experiments, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED)
+**Last updated:** 2026-04-09 (Mata Elang #13 autonomous session)
+**Total:** 185 experiments (E001-E185 + sub-experiments, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -429,6 +429,20 @@ These are the strongest results that survive FDR correction and adversarial test
 | **E173** | **Counterfactual "What If Japan"** | **SUCCESS** | **P1, P17, P19** | **1,789 pre-400 CE sites MISSING because no rescue archaeology. Excavation density gap 558x. ~4-5 sites destroyed/year by construction. "The difference is not geology. It is POLICY."** |
 | **E174** | **Synthesis Figure (6-panel)** | **SUCCESS (VIZ)** | **All** | **One figure tells the entire VOLCARCH story: population, cascade, burial depth, Two Javas, ghost vocabulary, gap. 535 KB PNG, 200 dpi.** |
 | **E175** | **Candi Spatial Statistics** | **SUCCESS** | **P7, P11, P17** | **Clark-Evans R=0.171 (extremely clustered, 5.8x tighter than random). Ripley L peaks at 50 km (volcanic system spacing). NOT exponential, NOT lognormal. Deliberate siting confirmed.** |
+
+### Mata Elang #13 Experiments (E176-E179)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E176** | **Cascade Minimal Model Comparison** | **SUCCESS** | **P1, P17, All** | **5-factor cascade is over-parameterized. 5/10 possible 3-factor models bracket observed gap. 83.8% of random 5-factor draws within 10x. AIC: 3-factor (6.73) vs 5-factor (6.25) = marginal improvement. F1 (volcanic burial) is LEAST necessary factor (2/5 minimal models). F3 (survey) is structurally necessary (5/5). Honest reframing: "pedagogically useful but empirically underdetermined."** |
+| **E177** | **Sunda Shelf Paleo-Drainage Reconstruction** | **SUCCESS** | **P18, L2** | **First computational L2 model. 340K on shelf at LGM. ~250K displaced toward Java via 3 paleo-river systems (62% draining to Java). 5 entry-point predictions: Surabaya (HIGHEST), Tangerang, Semarang, Jakarta, Cirebon. L1xL2 double stratigraphy predicted at Surabaya.** |
+| **E178** | **Philippines Archaeological Density Regression** | **SUCCESS** | **P1, P17, P19** | **Java volcanic = ONLY region with ZERO pre-400 CE sites across 8 SE Asian regions. Philippines volcanic has 25 sites (0.25/1000km2). Multiple regression R2=0.733, volcanic density most negative predictor. KARST is hidden 6th factor: Philippines karst 0.20 vs Java 0.08. Cascade needs karst bypass term.** |
+| **E179** | **Factor Independence Test** | **SUCCESS** | **P1, P17** | **F1-F2 coupling (burial preserves organics) shifts cascade 1.7x. F3-F4 coupling 1.8x. Full coupling = 3.0x total shift (from ratio 1.9x to 5.6x). Coupling makes prediction WORSE (further from observed). If Java lahars destroy organics (hot lahar scenario), coupling improves fit to 0.8x. Within E115 MC spread.** |
+| **E181** | **Ghost Dictionary** | **SUCCESS** | **P5, P8, P16, P17, P19** | **47 ghost words classified. 55% OJ, 23% SK, 19% PMP. Admin vocab = biggest casualty. 66% completely lost, 26% survive in modern speech. Material terms survive, abstract/admin replaced. "aku" (1st person pronoun) = most symbolically significant ghost — indigenous VOICE silenced from C8.** |
+| **E182** | **Karst-Augmented Cascade** | **SUCCESS (PARTIAL)** | **P1, P17** | **Karst bypass improves rank prediction (rho 0.321->0.500) but magnitude calibration poor. Model: P(vis) = cascade + karst*P(cave). Philippines volcanic 0.20 karst vs Java 0.08 = hidden factor. Best P(cave)=0.05 gives rho=0.607.** |
+| **E183** | **Register Split Quantification** | **SUCCESS** | **P5, P8, P16, P19** | **85% of ghost words die in C9 (mass extinction). C9=peak indigenous% AND peak ghost deaths (paradox: last breath of old genre). C10 corpus explodes 3.2x -> standardization prunes indigenous terms. Register split maps onto modern ngoko/krama diglossia. "Sanskritization" = KRAMA-IFICATION of written register. Novel finding.** |
+| **E184** | **Spatial Autocorrelation (Moran's I)** | **SUCCESS (INFO NEG)** | **P17, P1** | **Moran's I for volcano distance = 0.937 (p<0.001, strongly autocorrelated). Volcano-century correlation (rho=0.490) COLLAPSES after spatial lag correction (rho=-0.198, p=0.111). Temporal claims in P17 may be inflated by spatial dependence. Two Javas SEGREGATION (Mann-Whitney) is more robust than regression. Addresses ME#13 Risk 6 (methodology gap).** |
+| **E185** | **Spatially-Constrained Permutation** | **SUCCESS** | **P17** | **Two Javas segregation ROBUST: KS p<10^-8, Cohen's d~2.0 (very large), Cliff's delta~0.97. Permutation (10K) p<0.000001. E184's spatial autocorrelation warning applies to REGRESSION, NOT to TWO-SAMPLE distributional comparison. Core P17 finding survives all spatial tests.** |
 
 ---
 

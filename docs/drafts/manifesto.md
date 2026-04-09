@@ -2,17 +2,26 @@
 # *Unearthing the Invisible*
 
 **Status:** INTERNAL DOC — bukan untuk publikasi
-**Last updated:** 2026-03-31
-**Versi:** 4.2 (172 experiments, ME#12 structural critique, cross-regional validation, population dynamics)
+**Last updated:** 2026-04-09
+**Versi:** 4.3 (179 experiments, ME#13 The Reckoning, cascade reframed, karst factor, L2 predictions)
 
 ---
 
-## 0. Apa yang Berubah di v4.2
+## 0. Apa yang Berubah di v4.3
 
-v4.0 membangun cascade model dan menolak null hypothesis. v4.2 menambahkan validasi eksternal, kalibrasi empiris, dan rekonstruksi peradaban yang hilang.
+v4.2 membangun cascade model dan validasi cross-regional. v4.3 melakukan **the reckoning** — kritik struktural terdalam yang menantang klaim cascade, memperkenalkan karst sebagai faktor ke-6, dan membangun model L2 pertama.
 
-**Dari v4.0:**
-1. **Cascade, bukan layer.** Faktor-faktor MULTIPLIKATIF. Produknya = 0.058% visible — matching data 0.031% (E110).
+**Dari v4.2:**
+1. **Cascade DI-REFRAME (E176).** Model 5-faktor terlalu banyak parameter (5 parameter, 1 data point). Model 3-faktor juga bracket observasi. 83.8% random draws cocok. Cascade sekarang = "plausible mechanistic decomposition," BUKAN "validated model."
+2. **KARST = faktor ke-6 (E178).** Filipina vulkanik punya 25 situs pra-400 M; Jawa vulkanik = 0. Bedanya: Filipina punya gua (karst 0.20 vs 0.08). Situs gua bypass SEMUA faktor cascade. P(visible) = [F1xF2xF3xF4xF5] + [karst x P(cave)].
+3. **L2 PERTAMA PUNYA PREDIKSI (E177).** 340K di Paparan Sunda saat LGM. ~250K displaced ke Jawa via 3 sistem paleo-sungai. 5 entry-point: Surabaya (#1), Tangerang, Semarang, Jakarta, Cirebon.
+4. **Ghost Dictionary (E181).** 47 kata hantu diklasifikasi. 55% Jawa Kuno, 23% Sanskrit, 19% PMP. Admin vocabulary = korban terbesar. "aku" (pronoun persona pertama) hilang setelah C8.
+5. **Factor coupling tested (E179).** Coupling F1-F2 menggeser cascade 3.0x. Skenario lahar panas (menghancurkan organik) justru memperbaiki fit.
+6. **West Java smoking gun DI-UPGRADE ke bukti #1.** Lebih kuat dari cascade model.
+7. **Honest experiment count:** 179 entri, tapi hanya ~20-22 tes hipotesis genuinely novel.
+
+**PERUBAHAN KRITIS dari v4.2:**
+1. **Cascade, bukan layer.** Faktor-faktor MULTIPLIKATIF. Produknya = 0.058% visible — **consistent with** (bukan "matching") data 0.031% (E110). **CAVEAT: model underdetermined (E176). 3 faktor cukup.**
 2. **Survey deficit adalah faktor #1** (40× leverage). Excavation density: Jepang 558× Indonesia (E173).
 3. **Null hypothesis REJECTED** (E108→E172). Population model dynamis: **3,3 juta** penduduk pada 400 M (95% CI: 1,35-5,51M, MC 50K runs). Gap **11.008×**.
 
@@ -48,7 +57,15 @@ Peradaban pra-Hindu Nusantara tidak absen — ia **tak terlihat**. Ketidaktampak
 | F5 | Publikasi & Katalogisasi | 0.50 | 2.0× | E093, hambatan bahasa |
 | | **PRODUK** | **0.058%** | | **Observasi: 0.031% (E108)** |
 
-**Model matches data within 2×.** Survey coverage adalah intervensi paling impactful (40× leverage). Volcanic burial adalah satu-satunya faktor yang bisa dimodel secara spasial → memungkinkan targeted recovery (E080, E097).
+**Model consistent with data within 2× (CAVEAT: underdetermined — E176 menunjukkan model 3-faktor juga bracket observasi; 83.8% random draws 5-faktor juga cocok).** Survey coverage adalah intervensi paling impactful (40× leverage). Volcanic burial adalah satu-satunya faktor yang bisa dimodel secara spasial → memungkinkan targeted recovery (E080, E097).
+
+**Faktor Ke-6: Karst Bypass (E178, baru di v4.3)**
+
+| # | Faktor | Mekanisme | Bukti |
+|---|--------|-----------|-------|
+| F6 | **Karst Bypass** | Situs gua bypass SEMUA 5 faktor cascade | E178: Filipina vulkanik 25 situs vs Jawa 0. Karst 0.20 vs 0.08. |
+
+Model augmented: P(visible) = [F1×F2×F3×F4×F5] + [karst × P(cave_preserved)]. Jawa vulkanik hampir tanpa karst → tidak ada "jalur keluar" dari cascade. Filipina, Sulawesi, dan wilayah berkarst tetap punya situs di gua meskipun vulkanik.
 
 ### Klasifikasi 3-Tier
 

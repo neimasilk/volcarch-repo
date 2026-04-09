@@ -400,9 +400,10 @@ If the Two Javas model generalises, Bali's pre-Hindu sites should cluster in non
 
 Both expectations are met.
 All four known pre-400~CE Bali sites (Gilimanuk, Sembiran, Pacung, Bondalem) are located on the non-volcanic northern coast.
-Bali's inscription density exceeds East Java's by approximately 12-fold, consistent with the 14-fold ratio predicted by a multiplicative cascade model (Spearman $\rho = 1.0$, $p = 0.017$, $N = 5$ regions).
-However, five data points producing a perfect rank correlation should be interpreted cautiously: $N = 5$ is too small for robust inference, and the observed values involve analyst estimation.
-This result is suggestive rather than definitive, and cross-regional testing with larger samples remains a priority.
+Bali's inscription density exceeds East Java's by approximately 12-fold, consistent with the 14-fold ratio estimated by a multiplicative visibility model (Spearman $\rho = 1.0$, $p = 0.017$, $N = 5$ regions).
+However, this model is empirically underdetermined: with five estimated parameters and limited independent data points, reduced models with fewer factors bracket the same observations.
+Five data points producing a perfect rank correlation should also be interpreted cautiously: $N = 5$ is too small for robust inference, and the observed values involve analyst estimation.
+This result is suggestive rather than definitive, and cross-regional testing with empirically derived factor values remains a priority.
 All key statistical findings reported in Sections 4.1--4.5 survived bootstrap (10,000 resamples), permutation (10,000 shuffles), and leave-one-out jackknife robustness tests.
 
 \subsection{Implications for fieldwork}
@@ -432,6 +433,14 @@ The classification of terms as ``Sanskrit,'' ``indigenous,'' or ``ambiguous'' in
 The burial depth matching is geographic (nearest burial site within 100~km), not site-specific.
 An inscription matched to a nearby burial site may not have been buried at the same depth.
 This introduces noise but should not produce the systematic correlations we observe unless the underlying relationship is real.
+
+A comparative analysis of volcanic regions across Southeast Asia suggests that karst availability may be a confounding factor: volcanic zones with extensive karst (e.g.\ the Philippines) retain pre-400~CE cave sites even where open-air sites are absent.
+Java's volcanic interior has relatively little karst, which may contribute to its uniquely sparse pre-Hindu record beyond volcanism alone.
+
+Volcanic distance is spatially autocorrelated (Moran's $I = 0.937$, $p < 0.001$): nearby inscriptions share similar distances to volcanoes because they occupy the same geographic region.
+Simple correlations between volcanic distance and inscription properties may therefore be inflated by spatial dependence.
+The distributional segregation of candi and inscriptions (Mann-Whitney $p < 0.000001$) is less susceptible to this inflation because it compares two sample populations rather than fitting a regression.
+Formal spatial regression (spatial lag or spatial error models) would provide definitive confirmation of the temporal trends.
 
 Finally, the colonial validation sample ($N = 43$) is too small for robust statistical inference.
 It serves as a directional check, not a definitive test.

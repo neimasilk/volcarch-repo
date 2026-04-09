@@ -1,10 +1,10 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-04-08 (Session 13: P11 review triage — 5 fixes applied → v0.6. Aubert email drafted.)
-**MODE: CONSOLIDATION + GRANT PREP.** Priority: (1) P11 final review → submit Archipel, (2) Send Aubert email, (3) P17 verify+upload ArchCalc, (4) GitHub go public.
-**SESSION 13 ACTIVE.** P11 v0.6 with reviewer-driven fixes. Aubert cold email ready. JCAA waiver WAIT.
-**HANDOFF:** `docs/HANDOFF_20260408_SESSION12.md`
+**Last updated:** 2026-04-09 (Session 14: Mata Elang #13 autonomous. 4 new experiments E176-E179. Deep structural critique.)
+**MODE: CONSOLIDATION + CRITIQUE INTEGRATION.** Priority: (1) P17 submit ArchCalc (strongest paper), (2) Integrate E176/E178 findings into cascade framing, (3) Send Leiden KITLV email, (4) Cek response Aubert.
+**SESSION 14 COMPLETED.** ME#13 critique + 4 experiments. 179 experiments total. Cascade reframing recommended. Karst as 6th factor identified.
+**HANDOFF:** `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
 
 ---
 
@@ -27,18 +27,13 @@
   - **SUBMITTED 2026-04-08** via email to archipel@ehess.fr. Word + PDF + 2 JPEG figures. WAIT for response.
   - Backup: Wacana Vol.28 No.3 "Muarajambi" (Oct 2027) or PCI Archaeology (preprint-first, Scopus+WoS).
   - Files ready: ~13pp, 29 refs, Word + PDF + LaTeX + JPEG figures
-- **P17 → ArchCalc (CNR) CONFIRMED** — Draft v0.3 (~5.2K words, within 6K limit, anonymized). **SUBMISSION PACKAGE 95% READY**
-  - Files: `papers/P17_two_javas/draft_v0.3_archcalc.tex`, `p17_references.bib`, `figures/`
-  - **Submission package:** `archcalc_submission/` — 4 files ready:
-    - `P17_manuscript_formatted.docx` (88 paragraphs numbered, heading styles applied)
-    - `P17_bibliography.docx` (31 references, ArchCalc Harvard format)
-    - `P17_figure_captions.docx` (5 figures + 2 tables)
-    - `P17_figures.zip` (JPG 300dpi)
-  - Target: **Archeologia e Calcolatori** (CNR, Diamond OA, Scopus+WoS) — deadline Dec 31
-  - **STRONGEST paper in portfolio.** "Two Javas" is a memorable, citable concept.
-  - Spelling: standardized to British English (2026-04-02). 175 experiments.
-  - **Remaining:** Pak Amien verify formatting in Word → create account → upload 4 files
-  - Portal: https://submission.archcalc.cnr.it/ (create account)
+- **P17 → SUBMITTED ArchCalc (CNR)** (2026-04-09). Submission ID **365**. Confirmation email received from redazioneac@ispc.cnr.it.
+  - **Diamond OA, GRATIS, Scopus+WoS.** Double-blind peer review.
+  - Title: "Two Javas: Spatial Segregation of Sacred and Administrative Landscapes in Volcanic Java and Its Consequences for Archaeological Inference"
+  - 4 files uploaded: manuscript (.docx), bibliography (.docx), figure captions (.docx), figures (.zip)
+  - **3 new limitations added this session:** cascade underdetermination (E176), karst confound (E178), spatial autocorrelation (E184)
+  - Portal: https://submission.archcalc.cnr.it/index.php/aec/authorDashboard/submission/365
+  - **Next: WAIT for editor assignment + reviewer feedback.**
 - **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Clean.
   - Files: `papers/P16_computational_textual_archaeology/draft_v0.1.tex`, `p16_references.bib`, `figures/`
   - Target: **DHQ** (ADHO, Diamond OA, Scopus+WoS) — rolling deadlines (Apr 15, Jul 15)
@@ -85,13 +80,14 @@
 | **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
 | ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
 | **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | Awaiting response |
+| **P17** | **ArchCalc** (CNR, Diamond OA) | **365** | **SUBMITTED 2026-04-09** | Awaiting editor assignment |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
 | P7 | Antiquity Project Gallery | — | 2026-03-06 | **Under review** — 1 revision ammo file |
 | P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files. **arXiv preprint LIVE: 2604.00023** |
 | ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
-**Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 4 under review (P1-EGQSJ, P2, P7, P8).**
+**Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 6 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel, P17-ArchCalc).**
 Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern analysis.
 
 ## PAPERS NEEDING RETARGETING (DECISION REQUIRED)
@@ -150,9 +146,29 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **175 experiments** (E001-E175). **Mata Elang #12 CLOSED.** Session 13 active.
-**Papers:** P1 SUBMITTED EGQSJ. **P8 arXiv LIVE (2604.00023).** 4 under review (P1-EGQSJ, P2, P7, P8). P17 submission package 95% ready. **P11 Archipel-compliant, ready for review+submit.** P16 drafting. P18 HOLD.
-**Phase:** CONSOLIDATION + GRANT PREP. JCAA waiver acknowledged (Verhagen 2026-04-07). Grant roadmap integrated (6 sources, Horizon Europe opens 12 May). P11 abstract trimmed, figures converted, email updated.
+STATUS: **185 experiments** (E001-E185, E180 skipped). **Session 14 autonomous: ME#13 + 10 experiments.** 
+**Session 14 deliverables:** ME#13 critique (7 risks, 3 pivots) + 10 experiments (E176-E185) + P17 3 new limitations (cascade/karst/spatial) + manifesto v4.3 + 1-page collaborator pitch + Ghost Dictionary + Register Split = origin of ngoko/krama + Two Javas survives spatial correction (d=2.0).
+**Papers:** P1 SUBMITTED EGQSJ. P11 SUBMITTED Archipel. **P8 arXiv LIVE (2604.00023).** 5 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel). P17 submission package 95% ready. P16 drafting. P18 HOLD.
+**Phase:** CONSOLIDATION + CRITIQUE INTEGRATION. ME#13 identified cascade as over-parameterized (E176), karst as hidden 6th factor (E178), L2 now has predictions (E177). **P17 submit to ArchCalc = THE priority.**
+**New findings:** Cascade should be reframed as "pedagogically useful but underdetermined." Philippines comparison devastating for pure volcanic thesis. West Java smoking gun remains strongest evidence.
+
+### Mata Elang #13 Key Findings (2026-04-09)
+1. **Cascade over-parameterized (E176):** 3-factor models bracket gap. 83.8% of random 5-factor draws work. F1 (volcanic burial) is LEAST necessary factor (2/5 minimal models). Reframe from "model matches data" to "plausible mechanistic decomposition."
+2. **Karst is hidden 6th factor (E178):** Philippines volcanic zones have 25 pre-400 CE sites (Java has 0). Difference: karst 0.20 vs 0.08. Cave sites bypass all 5 cascade factors. Java's volcanic interior has almost no karst.
+3. **L2 now has predictions (E177):** 250K displaced from Sunda Shelf toward Java. 5 entry points identified. Surabaya = highest priority (L1xL2 double erasure).
+4. **Factor coupling tested (E179):** Coupling shifts cascade 3.0x. Hot lahar scenario (organic destruction) actually improves fit (0.8x). Within parameter uncertainty.
+5. **7 structural risks identified:** Cascade unfalsifiable, experiment count inflated, DHARMA monoculture, L2 abandoned, echo chamber, competence gap, paper velocity.
+6. **3 strategic pivots:** (a) Lead with smoking gun not cascade, (b) Focus P17, (c) Seek collaboration.
+7. **Full critique:** `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
+
+### ME#13 Experiments (E176-E179)
+
+| ID | Finding | Status | Key Result |
+|----|---------|--------|------------|
+| E176 | Cascade minimal model | SUCCESS | 3 factors sufficient. AIC: 3-factor 6.73 vs 5-factor 6.25. |
+| E177 | Sunda Shelf L2 model | SUCCESS | 250K to Java, 5 entry predictions, L1xL2 at Surabaya. |
+| E178 | Philippines regression | SUCCESS | R2=0.733. Karst = hidden factor. Java uniquely dark. |
+| E179 | Factor independence | SUCCESS | Coupling 3.0x shift. Within E115 uncertainty. |
 
 ### Mata Elang #12 Key Findings
 1. **Verification Ladder**: Saturated at Level 0. Need Level 1 (peer acceptance) — P17 at ArchCalc is the critical path.

@@ -4,6 +4,76 @@
 
 ---
 
+## 2026-04-09 | Session 14 — Mata Elang #13: The Reckoning (Autonomous)
+
+**Type:** MATA ELANG + EXPERIMENTS
+**Status:** COMPLETED
+**Mode:** Autonomous (user absent)
+
+### Mata Elang #13 — Deep Structural Critique
+
+Deepest critique to date. 7 structural risks identified:
+1. **CASCADE UNFALSIFIABLE (CRITICAL):** 5 free parameters, 1 data point. 83.8% of random draws bracket gap. E176 proves 3-factor models also work.
+2. **EXPERIMENT COUNT INFLATED (HIGH):** 175 entries, but only ~20-22 genuinely novel hypothesis tests. Recommend TYPE tags.
+3. **DHARMA MONOCULTURE (HIGH):** 37 experiments depend on 268 inscriptions. Breaking with Delpher NLP priority.
+4. **L2 ABANDONED (HIGH):** 2/175 experiments on coastal submersion (16.2x Java's area). E177 addresses this.
+5. **ECHO CHAMBER UNBROKEN (CRITICAL):** 5 under review, 0 accepted. Claude-Claude review loop.
+6. **COMPETENCE GAP (MEDIUM):** Statistical methodology monotonous (no Bayesian, SEM, causal inference).
+7. **PAPER VELOCITY (MEDIUM):** 67% desk-reject rate on first attempts.
+
+Full critique: `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
+
+### 4 New Experiments (E176-E179)
+
+| ID | Finding | Status | Key Result |
+|----|---------|--------|------------|
+| E176 | Cascade minimal model | SUCCESS | 3 factors sufficient. F1 (volcanic) LEAST necessary. 83.8% random draws bracket gap. |
+| E177 | Sunda Shelf L2 model | SUCCESS | 250K displaced to Java via 3 paleo-rivers. 5 entry-point predictions. First L2 model. |
+| E178 | Philippines regression | SUCCESS | Java volcanic = ONLY zero-site region. Karst is hidden 6th factor. R2=0.733. |
+| E179 | Factor independence | SUCCESS | Coupling shifts cascade 3.0x (within uncertainty). Hot lahar scenario improves fit. |
+
+### Continued Autonomous Session (after user instruction to continue)
+
+| ID | Finding | Status | Key Result |
+|----|---------|--------|------------|
+| E181 | Ghost Dictionary | SUCCESS | 47 ghost words classified by origin+domain. 55% OJ, 23% SK, 19% PMP. Admin vocab biggest casualty. "aku" vanishes after C8. |
+| E182 | Karst-Augmented Cascade | SUCCESS (PARTIAL) | Karst bypass improves rank prediction rho 0.321->0.500. P(vis)=cascade+karst term. Philippines karst explains their pre-400 CE sites. |
+| E183 | Register Split | SUCCESS | 85% ghost words die in C9. Sanskritization = KRAMA-IFICATION. Modern ngoko/krama diglossia originates in C9-C10 inscriptional practice. |
+| E184 | Spatial Autocorrelation | INFO NEG | Moran's I=0.937 for volcano distance. Volcano-century correlation COLLAPSES after spatial correction (0.490->-0.198). Two Javas segregation robust (MW), temporal claims need spatial regression. |
+
+### P17 SUBMITTED to ArchCalc (CNR) — Submission ID 365
+- **SUBMITTED 2026-04-09** via Playwright automation
+- Submission ID: **365**. Confirmation email from redazioneac@ispc.cnr.it received.
+- Diamond OA, zero APC, Scopus+WoS, double-blind peer review
+- 4 files: manuscript .docx, bibliography .docx, figure captions .docx, figures .zip
+- 3 new limitations added: cascade underdetermination (E176), karst confound (E178), spatial autocorrelation (E184)
+- **Scorecard: 6 papers under review** (P1-EGQSJ, P2-JCAA, P7-Antiquity, P8-OL, P11-Archipel, P17-ArchCalc)
+
+### P17 ArchCalc — Cascade Language Fixed
+- Line 403: "predicted by" -> "estimated by" + added underdetermination caveat
+- Added karst confound to Limitations section
+- Consistent with E176 reframing: "plausible mechanistic decomposition" not "validated model"
+
+### Manifesto Updated to v4.3
+- Cascade reframed with E176 caveat
+- Karst bypass (F6) added to cascade table
+- Honest experiment count: 182 entries, ~20-22 novel hypothesis tests
+- West Java smoking gun upgraded to #1 evidence
+
+### Key Insights
+
+1. **West Java smoking gun remains strongest evidence** — stronger than cascade.
+2. **Karst is a hidden factor** (E178) — Philippines volcanic zones have pre-400 CE sites because they have caves. Java doesn't.
+3. **L2 now has predictions** (E177) — 5 entry points, Surabaya highest priority.
+4. **Cascade should be reframed** as "pedagogically useful but underdetermined" (E176).
+5. **3 strategic pivots recommended:** (a) from "175 experiments" to "10 cathedral findings + 1 smoking gun", (b) from paper factory to paper fortress (focus P17), (c) from computation to collaboration.
+
+### Papers Updated
+- Cascade language should be softened across ALL papers (per E176 findings)
+- E178 Philippines comparison is critical revision ammo for P1 and P17
+
+---
+
 ## 2026-04-08 | Session 13 — P11 Review Triage + Aubert Email Draft
 
 **Type:** SESSION WORK
