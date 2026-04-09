@@ -1,7 +1,7 @@
 # Experiment Index
 
 **Last updated:** 2026-04-09 (Mata Elang #13 autonomous session)
-**Total:** 185 experiments (E001-E185 + sub-experiments, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
+**Total:** 186 entries (E001-E186, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -9,19 +9,33 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 
 ---
 
+## Experiment Type Summary (ME#13 honest count)
+
+| Type | Tag | Count | Can genuinely fail? | Examples |
+|------|:---:|:-----:|:---:|---|
+| **Novel hypothesis test** | [H] | **~25** | Yes | E069, E085, E108, E110, E178, E183 |
+| Robustness/validation | [R] | ~25 | Yes (rarely do) | E115, E121, E159, E176, E185 |
+| Database/compilation | [D] | ~30 | No | E001, E070, E082, E091, E181 |
+| NLP pipeline development | [P] | ~20 | Partially | E090, E094, E141, E160, E165 |
+| Model iteration (superseded) | — | ~15 | N/A | E007-E012, E124-E125 |
+| Synthesis/figure/methodology | [S] | ~25 | No | E055, E119, E162, E168, E174 |
+| Empty/unused IDs | — | ~8 | N/A | E021, E045-E047, E072, E077 |
+
+**Honest reporting:** "186 experiment entries including ~25 novel hypothesis tests, ~25 robustness checks, and ~30 database compilations." The ~25 novel tests and ~25 robustness checks are the scientifically meaningful core. Database compilations and syntheses are infrastructure.
+
 ## Status Summary
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| SUCCESS | 90 | Hypothesis supported or useful result |
-| INFO NEG | 8 | Negative result that IS informative |
+| SUCCESS | ~100 | Hypothesis supported or useful result |
+| INFO NEG | ~10 | Negative result that IS informative |
 | CONDITIONAL | 4 | Partially supported, caveats |
 | INCONCLUSIVE | 3 | Cannot determine, need more data |
 | MIXED | 3 | Multiple sub-experiments, mixed results |
 | PARTIAL | 3 | Survives with scope restriction |
 | FAILED | 2 | Hypothesis rejected or method broken |
 | COMPLETE (foundation) | 6 | Data/infrastructure, not hypothesis-driven |
-| SUPERSEDED | 8 | Replaced by later iteration |
+| SUPERSEDED | ~10 | Replaced by later iteration |
 
 ---
 
