@@ -4,7 +4,7 @@
 **Last updated:** 2026-04-09 (Session 14: Mata Elang #13 autonomous. 4 new experiments E176-E179. Deep structural critique.)
 **MODE: CONSOLIDATION + CRITIQUE INTEGRATION.** Priority: (1) P17 submit ArchCalc (strongest paper), (2) Integrate E176/E178 findings into cascade framing, (3) Send Leiden KITLV email, (4) Cek response Aubert.
 **SESSION 14 COMPLETED.** ME#13 critique + 4 experiments. 179 experiments total. Cascade reframing recommended. Karst as 6th factor identified.
-**HANDOFF:** `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
+**HANDOFF:** `docs/HANDOFF_20260409_SESSION14_FINAL.md`
 
 ---
 
