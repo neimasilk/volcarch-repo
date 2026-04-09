@@ -222,8 +222,15 @@ Full roadmap: `docs/VOLCARCH_GrantRoadmap_v1.0.md`
 ### Stop Doing
 - More cascade sensitivity analyses (E115/E120/E121/E122 = saturated)
 - Counting figures/syntheses as experiments
-- Analyzing DHARMA without genuinely new questions
+- **DHARMA mining OFFICIALLY CLOSED** (Pak Amien decision 2026-04-09). 268 inscriptions exhausted. ~37 experiments sudah cukup. Temuan terakhir: Ghost Dictionary (E181), Register Split (E183). Hasil sudah didokumentasikan. Untuk pertanyaan linguistik/epigrafis baru → butuh corpus BARU (Delpher, kakawin, Babad), BUKAN DHARMA lagi.
 - Computing Bayes Factors from estimated priors
+
+### Next Frontier: SATELLITE ARCHAEOLOGY
+- **Sentinel-2** (multispectral, free) + **Sentinel-1** (SAR/radar, free) + **RTX 4080** (U-Net training)
+- Proven: Amazon LiDAR cities (Nature 2024), Egyptian subsurface (Parcak), Angkor (Evans)
+- **BELUM PERNAH** diterapkan di andosol vulkanik tropis Jawa
+- Target: crop marks, soil moisture anomalies, microtopography di Zone B/C (E080/E097 targets)
+- Lihat: `docs/research_notes/SATELLITE_ARCHAEOLOGY_FRONTIER.md`
 
 ## DO NOT WORK ON
 
