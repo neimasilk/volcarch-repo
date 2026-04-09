@@ -146,7 +146,7 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **185 experiments** (E001-E185, E180 skipped). **Session 14 autonomous: ME#13 + 10 experiments.** 
+STATUS: **186 experiments** (E001-E186, E180 skipped). **Session 14 autonomous COMPLETED.** ME#13 + 11 experiments + P17 SUBMITTED ArchCalc. 
 **Session 14 deliverables:** ME#13 critique (7 risks, 3 pivots) + 10 experiments (E176-E185) + P17 3 new limitations (cascade/karst/spatial) + manifesto v4.3 + 1-page collaborator pitch + Ghost Dictionary + Register Split = origin of ngoko/krama + Two Javas survives spatial correction (d=2.0).
 **Papers:** P1 SUBMITTED EGQSJ. P11 SUBMITTED Archipel. **P8 arXiv LIVE (2604.00023).** 5 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel). P17 submission package 95% ready. P16 drafting. P18 HOLD.
 **Phase:** CONSOLIDATION + CRITIQUE INTEGRATION. ME#13 identified cascade as over-parameterized (E176), karst as hidden 6th factor (E178), L2 now has predictions (E177). **P17 submit to ArchCalc = THE priority.**
