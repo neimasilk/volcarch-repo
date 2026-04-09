@@ -79,7 +79,7 @@
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
 | **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
 | ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
-| **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | Awaiting response |
+| **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | **EiC acknowledged 2026-04-09.** Editorial board meeting ~June 2026. |
 | **P17** | **ArchCalc** (CNR, Diamond OA) | **365** | **SUBMITTED 2026-04-09** | Awaiting editor assignment |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |

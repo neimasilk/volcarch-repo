@@ -41,6 +41,12 @@ Full critique: `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
 | E183 | Register Split | SUCCESS | 85% ghost words die in C9. Sanskritization = KRAMA-IFICATION. Modern ngoko/krama diglossia originates in C9-C10 inscriptional practice. |
 | E184 | Spatial Autocorrelation | INFO NEG | Moran's I=0.937 for volcano distance. Volcano-century correlation COLLAPSES after spatial correction (0.490->-0.198). Two Javas segregation robust (MW), temporal claims need spatial regression. |
 
+### P11 Archipel — EiC Acknowledged (BREAKING)
+- **Prof. Dr. Daniel Perret** (Editor-in-Chief, Archipel) replied 2026-04-09
+- "Your manuscript will be discussed during our next editorial board meeting to be held around June 2026."
+- **NOT desk-rejected.** Goes directly to editorial board. Very positive signal.
+- Pak Amien replied: "Thank you, looking forward to it."
+
 ### P17 SUBMITTED to ArchCalc (CNR) — Submission ID 365
 - **SUBMITTED 2026-04-09** via Playwright automation
 - Submission ID: **365**. Confirmation email from redazioneac@ispc.cnr.it received.
