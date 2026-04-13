@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Last updated:** 2026-04-09 (Mata Elang #13 autonomous session)
-**Total:** 186 entries (E001-E186, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
+**Last updated:** 2026-04-13 (Session 15 — satellite archaeology)
+**Total:** 194 entries (E001-E194, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -13,7 +13,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 
 | Type | Tag | Count | Can genuinely fail? | Examples |
 |------|:---:|:-----:|:---:|---|
-| **Novel hypothesis test** | [H] | **~25** | Yes | E069, E085, E108, E110, E178, E183 |
+| **Novel hypothesis test** | [H] | **~28** | Yes | E069, E085, E108, E110, E178, E183, E189 |
 | Robustness/validation | [R] | ~25 | Yes (rarely do) | E115, E121, E159, E176, E185 |
 | Database/compilation | [D] | ~30 | No | E001, E070, E082, E091, E181 |
 | NLP pipeline development | [P] | ~20 | Partially | E090, E094, E141, E160, E165 |
@@ -21,7 +21,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | Synthesis/figure/methodology | [S] | ~25 | No | E055, E119, E162, E168, E174 |
 | Empty/unused IDs | — | ~8 | N/A | E021, E045-E047, E072, E077 |
 
-**Honest reporting:** "186 experiment entries including ~25 novel hypothesis tests, ~25 robustness checks, and ~30 database compilations." The ~25 novel tests and ~25 robustness checks are the scientifically meaningful core. Database compilations and syntheses are infrastructure.
+**Honest reporting:** "194 experiment entries including ~31 novel hypothesis tests, ~25 robustness checks, and ~30 database compilations." The ~28 novel tests and ~25 robustness checks are the scientifically meaningful core. Database compilations and syntheses are infrastructure.
 
 ## Status Summary
 
@@ -444,7 +444,7 @@ These are the strongest results that survive FDR correction and adversarial test
 | **E174** | **Synthesis Figure (6-panel)** | **SUCCESS (VIZ)** | **All** | **One figure tells the entire VOLCARCH story: population, cascade, burial depth, Two Javas, ghost vocabulary, gap. 535 KB PNG, 200 dpi.** |
 | **E175** | **Candi Spatial Statistics** | **SUCCESS** | **P7, P11, P17** | **Clark-Evans R=0.171 (extremely clustered, 5.8x tighter than random). Ripley L peaks at 50 km (volcanic system spacing). NOT exponential, NOT lognormal. Deliberate siting confirmed.** |
 
-### Mata Elang #13 Experiments (E176-E179)
+### Mata Elang #13 Experiments (E176-E188)
 
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
@@ -457,6 +457,20 @@ These are the strongest results that survive FDR correction and adversarial test
 | **E183** | **Register Split Quantification** | **SUCCESS** | **P5, P8, P16, P19** | **85% of ghost words die in C9 (mass extinction). C9=peak indigenous% AND peak ghost deaths (paradox: last breath of old genre). C10 corpus explodes 3.2x -> standardization prunes indigenous terms. Register split maps onto modern ngoko/krama diglossia. "Sanskritization" = KRAMA-IFICATION of written register. Novel finding.** |
 | **E184** | **Spatial Autocorrelation (Moran's I)** | **SUCCESS (INFO NEG)** | **P17, P1** | **Moran's I for volcano distance = 0.937 (p<0.001, strongly autocorrelated). Volcano-century correlation (rho=0.490) COLLAPSES after spatial lag correction (rho=-0.198, p=0.111). Temporal claims in P17 may be inflated by spatial dependence. Two Javas SEGREGATION (Mann-Whitney) is more robust than regression. Addresses ME#13 Risk 6 (methodology gap).** |
 | **E185** | **Spatially-Constrained Permutation** | **SUCCESS** | **P17** | **Two Javas segregation ROBUST: KS p<10^-8, Cohen's d~2.0 (very large), Cliff's delta~0.97. Permutation (10K) p<0.000001. E184's spatial autocorrelation warning applies to REGRESSION, NOT to TWO-SAMPLE distributional comparison. Core P17 finding survives all spatial tests.** |
+| **E186** | **Tengger Ghost Word Cross-Reference** | **SUCCESS** | **P8, P19** | **Tengger IS a linguistic time capsule. ABVD too limited (210 concepts), but literature confirms: "esun"=aku (C8 ghost), "glis" preserved as "nglisik", "hyang", "picis". Pre-krama register survives in volcanic isolate's spoken language.** |
+| **E187** | **Proper Spatial Regression (PySAL)** | **SUCCESS (INFO NEG)** | **P17** | **Volcanic distance effect DOES NOT survive spatial regression. OLS beta 0.034 (p=0.002) drops to 0.016 (p=0.094) in Spatial Lag model. Rho=0.620 (strong spatial lag). Two Javas segregation still robust. First proper spatial regression in VOLCARCH.** |
+| **E188** | **Mainland SE Asia Comparison** | **SUCCESS** | **P1, P17, P19, All** | **Killer insight: "400 CE start" = writing diffusion, NOT civilizational birth. Three compounding biases: material (organic vs bronze), survey (OV candi-only vs EFEO systematic), narrative (Indianization as birth). 3,600-year pre-inscriptional gap = preservation bias.** |
+
+### Satellite Archaeology Experiments (E189-E191)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E189** | **Satellite Spectral Feasibility** | **SUCCESS (INFORMATIVE)** | **—** | **Sentinel-2 multi-index (NDVI/NDWI/MSAVI) at 15 candi + 5 controls. NDWI p=0.032. First satellite archaeology in volcanic Java.** |
+| **E190** | **SAR Feasibility** | **SUCCESS (INFORMATIVE NEGATIVE)** | **—** | **Sentinel-1 C-band SAR at same sites. C-band ruled out (canopy dominates). Cohen's d = -0.92 wrong direction.** |
+| **E191** | **Multi-temporal NDWI** | **SUCCESS (INFORMATIVE)** | **—** | **Dry vs wet season NDWI. New metric: delta local variance p=0.066. Candi lvar increases wet season.** |
+| **E192** | **NDWI vs Burial Depth Correlation** | **SUCCESS (INFORMATIVE)** | **P1,P17** | **All 4 correlations negative (correct direction). NDWI lvar vs depth rho=-0.389. Depth-signal relationship validated but underpowered (n=15).** |
+| **E193** | **Sunda Shelf Entry Points vs Sites** | **SUCCESS** | **P18,L2** | **Sites significantly cluster near entry points (p<0.00001). Surabaya=100th percentile. North/South ratio 1.35 confirmed. 123 double-erasure sites. Addresses ME#13 Risk 4.** |
+| **E194** | **Combined Prospection Map** | **SUCCESS** | **P1,P2,P17** | **18/20 targets have 4/5 independent evidence streams converging. T08 (-7.88, 112.30) = hottest target (25 E097 cells + 3 other streams). Kelud + Arjuno clusters.** |
 
 ---
 

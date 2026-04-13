@@ -1,0 +1,37 @@
+{
+  "experiment": "E189",
+  "title": "Satellite Spectral Feasibility",
+  "date": "2026-04-13",
+  "n_candi": 15,
+  "n_control": 5,
+  "tests": {
+    "NDVI_diff": {
+      "U": 43.0,
+      "p": 0.3362358101135191,
+      "sig": "False"
+    },
+    "NDWI_diff": {
+      "U": 50.0,
+      "p": 0.1527992776057792,
+      "sig": "False"
+    },
+    "MSAVI_diff": {
+      "U": 44.0,
+      "p": 0.3057920536635707,
+      "sig": "False"
+    },
+    "NDVI_lvar": {
+      "U": 55.0,
+      "p": 0.07088493292053664,
+      "sig": "False"
+    },
+    "NDWI_lvar": {
+      "U": 54.0,
+      "p": 0.08397832817337463,
+      "sig": "False"
+    }
+  },
+  "verdict": "NO_SIGNAL",
+  "n_significant": 0,
+  "n_tests": 5
+}

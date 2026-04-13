@@ -34,9 +34,29 @@ Dutch colonial newspapers (1800-1942) contain hundreds of incidental archaeologi
 - "OUDHEDEN HEBBEN DOOR BEVING..." (1937) — artifacts exposed by earthquake
 - "Natuur en Historie op het Diëng-Plateau" (1935) — Dieng volcanic + historical
 
-### Phase 2 Needed
+### Phase 2 COMPLETED (2026-04-13)
 
-Depth values not extracted yet — DC metadata doesn't include full OCR text. Phase 2: fetch individual article full-text via resolver API, then apply NLP depth/location extraction (reuse E091 pipeline).
+Full-text fetched + NLP extraction for 96 high-relevance records.
+
+| Metric | Value |
+|--------|:---:|
+| Full-text fetched | 96/96 |
+| With geocoded locations | 68 |
+| With depth values (archaeological) | 2 (after filtering oil exploration) |
+| With volcanic context | 22 |
+| **Near E080 fieldwork targets (25km)** | **19 (28%)** |
+
+**Key finds:**
+- **Penataran/Kelud slope, 1.0m depth** (1939) — validates burial model prediction
+- **Singosari cluster** — 4 reports 1938-1941, 13km from E080 target
+- **28% of geocoded colonial reports are near VOLCARCH's predicted fieldwork zones**
+- **22 reports mention volcanic context** — colonial observers already noted the volcano-archaeology link
+
+Materials: statues (55), temples (47), stone (42), metal (22), tools (19), inscriptions (11), bone (9), pottery (4).
+
+Top locations: Batavia (32), Modjokerto (22), Malang (16), Kediri (15), Boroboedoer (12), Prambanan (11), Singosari (10), Blitar (10).
+
+Files: `results/delpher_phase2_fulltext.csv`, `results/delpher_phase2_summary.json`
 
 ## API Details
 

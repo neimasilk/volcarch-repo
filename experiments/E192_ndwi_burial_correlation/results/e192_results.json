@@ -1,0 +1,37 @@
+{
+  "experiment": "E192",
+  "date": "2026-04-13",
+  "n_sites": 15,
+  "correlations": {
+    "ndwi_diff_vs_depth": {
+      "rho": -0.154,
+      "p": 0.5837
+    },
+    "ndvi_diff_vs_depth": {
+      "rho": -0.2525,
+      "p": 0.364
+    },
+    "ndwi_lvar_vs_depth": {
+      "rho": -0.3885,
+      "p": 0.1524
+    },
+    "ndvi_lvar_vs_depth": {
+      "rho": -0.3742,
+      "p": 0.1694
+    },
+    "ndwi_diff_vs_volcdist": {
+      "rho": 0.125,
+      "p": 0.6571
+    },
+    "depth_vs_volcdist": {
+      "rho": -0.5175,
+      "p": 0.0482
+    },
+    "partial_ndwi_depth": {
+      "rho": -0.1464,
+      "p": 0.6025
+    }
+  },
+  "verdict": "NO_CORRELATION",
+  "interpretation": "NDWI signal is depth-independent. Satellite detects surface drainage patterns, not buried structures directly."
+}

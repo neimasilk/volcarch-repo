@@ -1,10 +1,10 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-04-09 (Session 14: Mata Elang #13 autonomous. 4 new experiments E176-E179. Deep structural critique.)
-**MODE: CONSOLIDATION + CRITIQUE INTEGRATION.** Priority: (1) P17 submit ArchCalc (strongest paper), (2) Integrate E176/E178 findings into cascade framing, (3) Send Leiden KITLV email, (4) Cek response Aubert.
-**SESSION 14 COMPLETED.** ME#13 critique + 4 experiments. 179 experiments total. Cascade reframing recommended. Karst as 6th factor identified.
-**HANDOFF:** `docs/HANDOFF_20260409_SESSION14_FINAL.md`
+**Last updated:** 2026-04-13 (Session 15: AutoResearch autonomous — 9 experiments + E141 extended)
+**MODE: CONSOLIDATION + NEW DATA FRONTIERS.** Satellite Phase A complete. Colonial Delpher pipeline operational. 6 papers under review.
+**SESSION 15 COMPLETED (2026-04-13).** 9 new experiments (E189-E197) + E141 multi-phase. 197 total. Satellite + L2 + AHA + population + colonial validation.
+**HANDOFF:** `docs/HANDOFF_20260413_SESSION15.md`
 
 ---
 
@@ -33,7 +33,8 @@
   - 4 files uploaded: manuscript (.docx), bibliography (.docx), figure captions (.docx), figures (.zip)
   - **3 new limitations added this session:** cascade underdetermination (E176), karst confound (E178), spatial autocorrelation (E184)
   - Portal: https://submission.archcalc.cnr.it/index.php/aec/authorDashboard/submission/365
-  - **Next: WAIT for editor assignment + reviewer feedback.**
+  - **2026-04-09: Editor Alessandra Caravale ACKNOWLEDGED.** Text will be considered for 2027 issue. Editorial process begins after 2026 issues published. Review expected ~late 2026.
+  - **Next: WAIT for review (expected late 2026 → publication 2027).**
 - **P16 drafting** — Draft v0.1 EXPANDED (27pp, ~8K words, 6 figures). Clean.
   - Files: `papers/P16_computational_textual_archaeology/draft_v0.1.tex`, `p16_references.bib`, `figures/`
   - Target: **DHQ** (ADHO, Diamond OA, Scopus+WoS) — rolling deadlines (Apr 15, Jul 15)
@@ -60,7 +61,8 @@
   - Files: `papers/P19_before_the_inscriptions/`
 - **P9 retargeting (HOLD)** — Rejected from JSEAS.
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
-- **E076 v2 satellite** — Script written, needs internet + compute (~30 min). **BLOCKED** (no time, post-mudik workload)
+- ~~E076 v2 satellite~~ — **SUPERSEDED by E189.** E076 pipeline used as foundation for E189 multi-index analysis.
+- **E189 satellite spectral feasibility** — **COMPLETED (core).** WEAK SIGNAL: NDVI local variance p=0.071, Cohen's d=0.356. Candi show 49% higher heterogeneity. Full 60-site run in progress. Next: Phase B (SAR).
 - **Colonial data verification** — 10 E070 entries on Delpher.nl. **BLOCKED** (manual task, no time)
 - **JCAA APC UPDATE (2026-04-08)** — P2 charges **£593**. Waiver formally requested 2026-04-06. **Verhagen replied 2026-04-07: "Thank you, noted."** Request acknowledged, decision pending. WAIT. If waiver denied and P2 accepted, must withdraw and retarget.
 - ~~P11 submit~~ — **SUBMITTED** 2026-03-31 to Indonesia (Cornell). Wait for response.
@@ -80,14 +82,14 @@
 | **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
 | ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
 | **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | **EiC acknowledged 2026-04-09.** Editorial board meeting ~June 2026. |
-| **P17** | **ArchCalc** (CNR, Diamond OA) | **365** | **SUBMITTED 2026-04-09** | Awaiting editor assignment |
+| **P17** | **ArchCalc** (CNR, Diamond OA) | **365** | **SUBMITTED 2026-04-09** | **ACKNOWLEDGED 2026-04-09.** Considered for 2027 issue. Review starts after 2026 issues published. |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision ammo files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
 | P7 | Antiquity Project Gallery | — | 2026-03-06 | **Under review** — 1 revision ammo file |
 | P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files. **arXiv preprint LIVE: 2604.00023** |
 | ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
-**Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 6 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel, P17-ArchCalc).**
+**Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 6 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel, P17-ArchCalc). P17 + P11 both ACKNOWLEDGED same day (2026-04-09).**
 Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern analysis.
 
 ## PAPERS NEEDING RETARGETING (DECISION REQUIRED)
@@ -146,11 +148,11 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **186 experiments** (E001-E186, E180 skipped). **Session 14 autonomous COMPLETED.** ME#13 + 11 experiments + P17 SUBMITTED ArchCalc. 
-**Session 14 deliverables:** ME#13 critique (7 risks, 3 pivots) + 10 experiments (E176-E185) + P17 3 new limitations (cascade/karst/spatial) + manifesto v4.3 + 1-page collaborator pitch + Ghost Dictionary + Register Split = origin of ngoko/krama + Two Javas survives spatial correction (d=2.0).
-**Papers:** P1 SUBMITTED EGQSJ. P11 SUBMITTED Archipel. **P8 arXiv LIVE (2604.00023).** 5 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel). P17 submission package 95% ready. P16 drafting. P18 HOLD.
-**Phase:** CONSOLIDATION + CRITIQUE INTEGRATION. ME#13 identified cascade as over-parameterized (E176), karst as hidden 6th factor (E178), L2 now has predictions (E177). **P17 submit to ArchCalc = THE priority.**
-**New findings:** Cascade should be reframed as "pedagogically useful but underdetermined." Philippines comparison devastating for pure volcanic thesis. West Java smoking gun remains strongest evidence.
+STATUS: **197 experiments** (E001-E197, E180 skipped). **Session 15 autonomous.** Satellite + L2 + AHA + population + colonial.
+**Session 15 (9 experiments + E141 extended):** E189-E192 satellite, E193 L2, E194 map, **E195 AHA (rho=+0.53)**, **E196 population (1-2M, ≥694× suppression)**, **E197 depth validation (Wilcoxon p=0.131, model confirmed by 33 colonial records)**. E141: 1.768 records, 5.8× enrichment. DHARMA monoculture broken.
+**Papers:** 6 under review (P1-EGQSJ, P2-JCAA, P7-Antiquity, P8-OL, P11-Archipel, P17-ArchCalc). P16 drafting. P18 HOLD.
+**Phase:** SATELLITE FRONTIER + CONSOLIDATION. DHARMA mining CLOSED. Next: SAR (Sentinel-1) for subsurface moisture detection.
+**Key context:** Cascade reframed (E176). Karst = 6th factor (E178). West Java smoking gun = strongest evidence.
 
 ### Mata Elang #13 Key Findings (2026-04-09)
 1. **Cascade over-parameterized (E176):** 3-factor models bracket gap. 83.8% of random 5-factor draws work. F1 (volcanic burial) is LEAST necessary factor (2/5 minimal models). Reframe from "model matches data" to "plausible mechanistic decomposition."

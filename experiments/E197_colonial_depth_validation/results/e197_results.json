@@ -1,0 +1,22 @@
+{
+  "experiment": "E197",
+  "date": "2026-04-13",
+  "n_ov": 24,
+  "n_newspaper": 9,
+  "n_combined": 33,
+  "observed": {
+    "median": 2.5,
+    "iqr": [
+      1.2,
+      4.28
+    ],
+    "mean": 3.25
+  },
+  "predicted": {
+    "low": 2.3,
+    "high": 5.4,
+    "midpoint": 3.8
+  },
+  "wilcoxon_p": 0.1309,
+  "model_consistent": true
+}

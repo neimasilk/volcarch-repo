@@ -1,0 +1,55 @@
+{
+  "experiment": "E196",
+  "date": "2026-04-13",
+  "n_monte_carlo": 100000,
+  "methods": {
+    "Growth back-projection": {
+      "median": 1679646,
+      "p5": 983951,
+      "p25": 1279840,
+      "p75": 2197631,
+      "p95": 2864586,
+      "mean": 1774630
+    },
+    "Carrying capacity": {
+      "median": 10727482,
+      "p5": 4626394,
+      "p25": 7474509,
+      "p75": 14567468,
+      "p95": 20374669,
+      "mean": 11361187
+    },
+    "Comparative island scaling": {
+      "median": 1267444,
+      "p5": 631059,
+      "p25": 950241,
+      "p75": 1680797,
+      "p95": 2420385,
+      "mean": 1361513
+    },
+    "Sunda displacement floor": {
+      "median": 10000000,
+      "p5": 4107936,
+      "p25": 10000000,
+      "p75": 10000000,
+      "p95": 10000000,
+      "mean": 9279262
+    }
+  },
+  "synthesis": {
+    "geometric_mean": 3887416,
+    "minimum_plausible": 631059,
+    "conservative_floor": 4626394
+  },
+  "density_400ce": {
+    "minimum_per_km2": 4.9,
+    "central_per_km2": 30.1
+  },
+  "archaeological_implication": {
+    "expected_sites_minimum": 693,
+    "expected_sites_central": 4272,
+    "observed_sites": 0,
+    "suppression_factor": 693
+  },
+  "invisible_person_centuries": 46648999
+}

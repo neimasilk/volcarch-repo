@@ -45,11 +45,22 @@ DHARMA mining officially CLOSED (37 eksperimen, 268 prasasti, exhausted). VOLCAR
 
 ## Strategi Bertahap
 
-### Phase A: Feasibility Study (~1 minggu)
-1. Download Sentinel-2 tiles untuk 3 target zones dari E080/E097
-2. Compute vegetation indices (NDVI, NDWI, MSAVI) + band ratios
-3. Compare known candi locations with spectral signatures
-4. Question: apakah buried structures menghasilkan anomali spektral di andosol?
+### Phase A: Feasibility Study — **COMPLETED (E189)**
+1. ~~Download Sentinel-2 tiles untuk 3 target zones dari E080/E097~~
+2. ~~Compute vegetation indices (NDVI, NDWI, MSAVI) + band ratios~~
+3. ~~Compare known candi locations with spectral signatures~~
+4. ~~Question: apakah buried structures menghasilkan anomali spektral di andosol?~~
+**Result: WEAK BUT REAL SIGNAL.** NDWI (water index) p=0.032, NDVI p=0.095, all 5 metrics favor candi (sign test p=0.031). Buried stone alters soil moisture → detectable at 10m. But insufficient for standalone prospection. **→ Proceed to Phase B (SAR).**
+
+### Phase A.2: SAR Feasibility — **COMPLETED (E190, RULED OUT)**
+- Sentinel-1 GRD C-band (VV/VH) tested at 15 candi + 5 controls
+- **C-band SAR RULED OUT:** reflects off canopy, not ground (Cohen's d = -0.92 wrong direction)
+- L-band SAR (ALOS PALSAR, 24 cm) could penetrate deeper — untested
+
+### Phase A.3: Multi-temporal — **COMPLETED (E191)**
+- Dry vs wet season NDWI comparison at all 20 sites
+- **New metric: delta local variance (p=0.066)** — candi lvar increases wet season, controls decrease
+- Dry-season optical NDWI remains best single metric (p=0.032)
 
 ### Phase B: Training Data (~1 minggu)
 1. Compile GLOBAL training dataset dari published satellite archaeology:

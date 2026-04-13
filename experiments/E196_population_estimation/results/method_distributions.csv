@@ -1,0 +1,29 @@
+method,percentile,population
+Growth back-projection,5,983951
+Growth back-projection,10,1069796
+Growth back-projection,25,1279840
+Growth back-projection,50,1679646
+Growth back-projection,75,2197631
+Growth back-projection,90,2630955
+Growth back-projection,95,2864586
+Carrying capacity,5,4626394
+Carrying capacity,10,5469016
+Carrying capacity,25,7474509
+Carrying capacity,50,10727482
+Carrying capacity,75,14567468
+Carrying capacity,90,18154297
+Carrying capacity,95,20374669
+Comparative island scaling,5,631059
+Comparative island scaling,10,732078
+Comparative island scaling,25,950241
+Comparative island scaling,50,1267444
+Comparative island scaling,75,1680797
+Comparative island scaling,90,2134373
+Comparative island scaling,95,2420385
+Sunda displacement floor,5,4107936
+Sunda displacement floor,10,6348677
+Sunda displacement floor,25,10000000
+Sunda displacement floor,50,10000000
+Sunda displacement floor,75,10000000
+Sunda displacement floor,90,10000000
+Sunda displacement floor,95,10000000

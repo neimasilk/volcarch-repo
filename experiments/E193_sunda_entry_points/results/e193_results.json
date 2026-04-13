@@ -1,0 +1,75 @@
+{
+  "experiment": "E193",
+  "date": "2026-04-13",
+  "n_coastal_sites": 84,
+  "n_interior_sites": 307,
+  "entry_points": [
+    {
+      "name": "Surabaya/Madura Strait",
+      "lat": -7.25,
+      "lon": 112.75,
+      "priority": 1,
+      "system": "East Sunda",
+      "displaced_k": 100,
+      "sites_25km": 34,
+      "sites_50km": 42,
+      "sites_100km": 67,
+      "percentile_50km": 100.0
+    },
+    {
+      "name": "Tangerang/Banten",
+      "lat": -6.2,
+      "lon": 106.55,
+      "priority": 2,
+      "system": "North+South Sunda",
+      "displaced_k": 75,
+      "sites_25km": 0,
+      "sites_50km": 0,
+      "sites_100km": 0,
+      "percentile_50km": NaN
+    },
+    {
+      "name": "Semarang",
+      "lat": -6.95,
+      "lon": 110.4,
+      "priority": 3,
+      "system": "North Sunda East",
+      "displaced_k": 40,
+      "sites_25km": 0,
+      "sites_50km": 0,
+      "sites_100km": 3,
+      "percentile_50km": NaN
+    },
+    {
+      "name": "Jakarta Bay",
+      "lat": -6.1,
+      "lon": 106.85,
+      "priority": 4,
+      "system": "South Sunda",
+      "displaced_k": 20,
+      "sites_25km": 0,
+      "sites_50km": 0,
+      "sites_100km": 0,
+      "percentile_50km": NaN
+    },
+    {
+      "name": "Cirebon",
+      "lat": -6.7,
+      "lon": 108.55,
+      "priority": 5,
+      "system": "North Sunda West",
+      "displaced_k": 15,
+      "sites_25km": 0,
+      "sites_50km": 0,
+      "sites_100km": 0,
+      "percentile_50km": NaN
+    }
+  ],
+  "north_south_ratio": 1.3548387096774193,
+  "double_erasure_sites": 123,
+  "clustering_test": {
+    "site_mean_dist": 52.3,
+    "random_mean_dist": 100.3,
+    "MW_p": 0.0
+  }
+}

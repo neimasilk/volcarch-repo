@@ -1,0 +1,15 @@
+{
+  "experiment": "E194",
+  "date": "2026-04-13",
+  "n_targets": 20,
+  "top_tier": 18,
+  "mid_tier": 2,
+  "max_convergence": 4,
+  "evidence_streams": [
+    "E080 fieldwork",
+    "E097 anomaly",
+    "Volcanic sweet spot",
+    "L1xL2 double erasure",
+    "Significant burial depth"
+  ]
+}

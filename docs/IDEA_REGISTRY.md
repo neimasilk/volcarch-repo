@@ -129,6 +129,10 @@
 | I-087 | Ruwatan structural analysis (pre-Hindu structure, post-Hindu vocab) | Good test case for syncretic Class C classification | P12 draft §8 |
 | I-088 | Effective population size (Ne) from modern DNA | Constraint for pre-Hindu population estimates | Working note aDNA §6 |
 | I-089 | Peripheral Krama fieldwork via istri's family network (Tegal) | Informal access to Tegal/Banyumas dialect data | P9 draft notes |
+| I-133 | Sago→rice transition as 7th taphonomic layer | Pre-rice Jawa ate sagu/umbi — leaves ZERO archaeological trace. Even without volcanism, sago civilization is archaeologically ephemeral. "sego" ← "sagu" etymology testable via ABVD cognate tracing. Double invisibility: organic material + volcanic burial. Potential 7th Layer of Darkness. | Session 15 discussion 2026-04-13 |
+| I-134 | ~~ML population estimation for pre-400 CE Java~~ → **E196 SUCCESS** | Four-method Monte Carlo: 1-2M people at 400 CE. Suppression ≥694×. 46.6M person-centuries invisible. Philippines comparison devastating. | Session 15 → E196 2026-04-13 |
+| I-135 | Collective Brain / Volcanic Innovation Paradox | Harari/Henrich/Boserup: dense population (E196: 1-2M) REQUIRES social innovation or it collapses. Java didn't collapse → innovations existed but evidence destroyed. Vulkan = both DRIVER (pressure to innovate) and DESTROYER (buries evidence). Parallel: Japan earthquake culture. Formalize with Kremer (1993) model. Could be powerful humanities paper (BKI/World Archaeology). Framework for P18 "Invisible Civilization." | Session 15 discussion 2026-04-13 |
+| I-136 | Java in world civilization context at 400 CE | E196 shows Java density (8-15/km²) comparable to Roman Empire (11/km²), 2× Persia (5/km²). Java = 0.5-1% of world population. Funan with same population has hundreds of sites. Formal comparative table as paper figure. | Session 15 discussion 2026-04-13 |
 
 ---
 
@@ -179,8 +183,8 @@
 
 | Channel | Ideas |
 |---------|-------|
-| 1. Geology/Taphonomy | I-020, I-040, I-043, I-052, I-090-I-093, I-105 |
-| 2. Maritime/Coastal | I-029, I-045, I-054, I-080, I-102 |
+| 1. Geology/Taphonomy | I-020, I-040, I-043, I-052, I-090-I-093, I-105, **I-133**, **I-134** |
+| 2. Maritime/Coastal | I-029, I-045, I-054, I-080, I-102, **I-134** |
 | 3. Genetics/DNA | I-028, I-051, I-078, I-079, I-088, I-101 |
 | 5. Ethnobotany | I-008, I-011, I-024, I-072, I-106 |
 | 6. Linguistics | I-003, I-007, I-022, I-023, I-025, I-026, I-027, I-095-I-096, I-103, I-104 |

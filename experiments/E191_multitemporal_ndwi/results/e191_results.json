@@ -1,0 +1,29 @@
+{
+  "experiment": "E191",
+  "date": "2026-04-13",
+  "n_candi": 15,
+  "n_control": 5,
+  "tests": {
+    "candi_wet_vs_dry": {
+      "T": 85.0,
+      "p": 0.08441162109375,
+      "sig": "False"
+    },
+    "delta_diff_candi_ctrl": {
+      "U": 36.0,
+      "p": 0.9327915376676987,
+      "sig": "False"
+    },
+    "wet_ndwi_candi_ctrl": {
+      "U": 55.0,
+      "p": 0.07088493292053664,
+      "sig": "False"
+    },
+    "delta_lvar": {
+      "U": 59.0,
+      "p": 0.06553147574819401,
+      "sig": "False"
+    }
+  },
+  "n_significant": 0
+}

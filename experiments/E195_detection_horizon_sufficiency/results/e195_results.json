@@ -1,0 +1,12 @@
+{
+  "experiment": "E195",
+  "date": "2026-04-13",
+  "n_inscriptions": 63,
+  "spearman_rho": 0.525,
+  "spearman_p": 1e-05,
+  "near_median_century": 10.0,
+  "far_median_century": 11.0,
+  "mannwhitney_p": 0.0002,
+  "n_predicted_invisible": 2,
+  "verdict": "UNEXPECTED"
+}
