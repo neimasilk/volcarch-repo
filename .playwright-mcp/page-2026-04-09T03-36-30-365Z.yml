@@ -1,0 +1,113 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Archeologia e Calcolatori" [ref=e4] [cursor=pointer]:
+      - /url: https://submission.archcalc.cnr.it/index.php/aec/index
+    - generic [ref=e5]:
+      - button "Tasks" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+        - generic [ref=e9]: Tasks
+      - button "neimasilk" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: 
+        - generic [ref=e13]: neimasilk
+  - navigation "Site Navigation" [ref=e14]:
+    - link "⟵ Back to Submissions" [ref=e15] [cursor=pointer]:
+      - /url: https://submission.archcalc.cnr.it/index.php/aec/submissions
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - heading "Submit an Article" [level=1] [ref=e19]
+      - generic [ref=e20]:
+        - tablist [ref=e21]:
+          - tab "1. Start" [ref=e22]:
+            - link "1. Start" [ref=e23] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/1?submissionId=365&sectionId=0
+          - tab "2. Upload Submission" [expanded] [selected] [ref=e24]:
+            - link "2. Upload Submission" [ref=e25]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/2?submissionId=365&sectionId=0
+          - tab "3. Enter Metadata" [disabled] [ref=e26]:
+            - link "3. Enter Metadata" [disabled] [ref=e27] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/3?submissionId=365&sectionId=0
+          - tab "4. Confirmation" [disabled] [ref=e28]:
+            - link "4. Confirmation" [disabled] [ref=e29] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/4?submissionId=365&sectionId=0
+          - tab "5. Next Steps" [disabled] [ref=e30]:
+            - link "5. Next Steps" [disabled] [ref=e31] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/5?submissionId=365&sectionId=0
+        - tabpanel "2. Upload Submission" [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e38]:
+                  - heading "Files" [level=2] [ref=e40]
+                  - button "Add File" [ref=e42] [cursor=pointer]
+                - list [ref=e52]:
+                  - listitem [ref=e53]:
+                    - generic [ref=e55]:
+                      - link "P17_manuscript_formatted.docx" [ref=e58] [cursor=pointer]:
+                        - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/api/file/file-api/download-file?submissionFileId=1654&submissionId=365&stageId=1
+                        - generic [ref=e59]: 
+                        - text: P17_manuscript_formatted.docx
+                      - generic [ref=e60]:
+                        - generic [ref=e71]: Article Text
+                        - button "Edit" [ref=e61] [cursor=pointer]
+                        - button "Remove" [ref=e62] [cursor=pointer]
+                  - listitem [ref=e72]:
+                    - generic [ref=e73]:
+                      - generic [ref=e74]:
+                        - link "P17_bibliography.docx" [ref=e77] [cursor=pointer]:
+                          - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/api/file/file-api/download-file?submissionFileId=1655&submissionId=365&stageId=1
+                          - generic [ref=e78]: 
+                          - text: P17_bibliography.docx
+                        - generic [ref=e79]:
+                          - button "Edit" [ref=e80] [cursor=pointer]
+                          - button "Remove" [ref=e81] [cursor=pointer]
+                      - alert [ref=e83]:
+                        - generic [ref=e84]: 
+                        - text: What kind of file is this?
+                        - button "Article Text" [ref=e85] [cursor=pointer]
+                        - button "Figures" [ref=e86] [cursor=pointer]
+                        - button "Figure captions" [ref=e87] [cursor=pointer]
+                        - button "Other" [ref=e88] [cursor=pointer]
+              - generic:
+                - generic [ref=e47]: Drop files here to upload
+                - paragraph
+                - paragraph
+              - status [ref=e70]: Uploading 100% complete
+              - dialog [ref=e91]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - heading "Edit P17_bibliography.docx" [level=2] [ref=e95]
+                    - button "Close" [active] [ref=e96] [cursor=pointer]:
+                      - text: ×
+                      - generic [ref=e97]: Close
+                  - generic [ref=e101]:
+                    - group [ref=e102]:
+                      - group "What kind of file is this?" [ref=e104]:
+                        - generic [ref=e105]: What kind of file is this?
+                        - generic [ref=e106]: Choose the option that best describes this file.
+                        - generic [ref=e108]:
+                          - generic [ref=e109] [cursor=pointer]:
+                            - radio "Article Text" [ref=e110]
+                            - text: Article Text
+                          - generic [ref=e111] [cursor=pointer]:
+                            - radio "Figures" [ref=e112]
+                            - text: Figures
+                          - generic [ref=e113] [cursor=pointer]:
+                            - radio "Figure captions" [ref=e114]
+                            - text: Figure captions
+                          - generic [ref=e115] [cursor=pointer]:
+                            - radio "Data Set" [ref=e116]
+                            - text: Data Set
+                          - generic [ref=e117] [cursor=pointer]:
+                            - radio "Source Texts" [ref=e118]
+                            - text: Source Texts
+                          - generic [ref=e119] [cursor=pointer]:
+                            - radio "Other" [ref=e120]
+                            - text: Other
+                    - generic [ref=e121]:
+                      - status
+                      - button "Save" [ref=e123] [cursor=pointer]
+            - generic [ref=e48]:
+              - button "Save and continue" [ref=e50] [cursor=pointer]
+              - link "Cancel" [ref=e51] [cursor=pointer]:
+                - /url: "#"
+  - status

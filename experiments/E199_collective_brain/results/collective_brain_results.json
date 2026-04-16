@@ -1,0 +1,23 @@
+{
+  "experiment": "E199",
+  "title": "Collective Brain / Volcanic Innovation Paradox",
+  "idea": "I-135",
+  "status": "SUCCESS",
+  "key_findings": {
+    "java_population_400ce": "1-2 million (E196)",
+    "density_per_km2": "8-15",
+    "boserup_stage": "3-4 (short fallow to annual cropping)",
+    "required_innovations": "irrigation, surplus management, social coordination",
+    "innovation_gap_vs_funan": "25x",
+    "innovation_gap_vs_median": "188x",
+    "kremer_prediction": "1-2M population = comparable innovation to Funan",
+    "volcanic_paradox": "fertility drives population; eruption destroys evidence",
+    "japan_analog": "earthquake culture with documentary survival (Java lacks this)"
+  },
+  "implications": {
+    "for_P17": "Two Javas = tip of buried iceberg; formalized via Kremer/Boserup",
+    "for_P18": "Invisible Civilization framework now has economic theory backing",
+    "for_PhD": "Collective Brain argument strengthens VOC-NLP motivation",
+    "for_L7": "Links to E198 (sago subsistence adds organic invisibility layer)"
+  }
+}

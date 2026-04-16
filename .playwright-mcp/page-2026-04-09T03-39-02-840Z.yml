@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Archeologia e Calcolatori" [ref=e4] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/index
+      - generic [ref=e5]:
+        - button "Tasks" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: 
+          - generic [ref=e9]: Tasks
+        - button "neimasilk" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 
+          - generic [ref=e13]: neimasilk
+    - navigation "Site Navigation" [ref=e14]:
+      - link "⟵ Back to Submissions" [ref=e15] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/submissions
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Submit an Article" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - tablist [ref=e21]:
+            - tab "1. Start" [ref=e22]:
+              - link "1. Start" [ref=e23] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/1?submissionId=365&sectionId=0
+            - tab "2. Upload Submission" [ref=e24]:
+              - link "2. Upload Submission" [ref=e25] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/2?submissionId=365&sectionId=0
+            - tab "3. Enter Metadata" [ref=e26]:
+              - link "3. Enter Metadata" [ref=e27] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/3?submissionId=365&sectionId=0
+            - tab "4. Confirmation" [expanded] [selected] [ref=e28]:
+              - link "4. Confirmation" [ref=e29]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/4?submissionId=365&sectionId=0
+            - tab "5. Next Steps" [disabled] [ref=e30]:
+              - link "5. Next Steps" [disabled] [ref=e31] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/5?submissionId=365&sectionId=0
+          - text:                       
+          - tabpanel "4. Confirmation" [ref=e315]:
+            - generic [ref=e316]:
+              - paragraph [ref=e317]: Your submission has been uploaded and is ready to be sent. You may go back to review and adjust any of the information you have entered before continuing. When you are ready, click "Finish Submission".
+              - generic [ref=e318]:
+                - button "Finish Submission" [ref=e320] [cursor=pointer]
+                - link "Cancel" [ref=e321] [cursor=pointer]:
+                  - /url: "#"
+    - status
+  - status
+  - status

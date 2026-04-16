@@ -1,0 +1,507 @@
+{
+  "total_files": 50,
+  "total_paragraphs": 34545,
+  "total_words": 6263205,
+  "per_file": {
+    "10098A.txt": {
+      "raw_lines": 7044,
+      "after_metadata_strip": 6181,
+      "after_rejoin": 5138,
+      "after_filter": 4566,
+      "paragraphs": 238,
+      "total_chars": 179350,
+      "avg_paragraph_length": 753.5714285714286,
+      "total_words": 30658
+    },
+    "10119A.txt": {
+      "raw_lines": 24445,
+      "after_metadata_strip": 21962,
+      "after_rejoin": 19361,
+      "after_filter": 17721,
+      "paragraphs": 759,
+      "total_chars": 691277,
+      "avg_paragraph_length": 910.7733860342556,
+      "total_words": 110947
+    },
+    "10119B.txt": {
+      "raw_lines": 36724,
+      "after_metadata_strip": 33761,
+      "after_rejoin": 27858,
+      "after_filter": 25891,
+      "paragraphs": 955,
+      "total_chars": 763535,
+      "avg_paragraph_length": 799.5130890052357,
+      "total_words": 125560
+    },
+    "10119C.txt": {
+      "raw_lines": 34485,
+      "after_metadata_strip": 31708,
+      "after_rejoin": 25392,
+      "after_filter": 23556,
+      "paragraphs": 897,
+      "total_chars": 718369,
+      "avg_paragraph_length": 800.8573021181717,
+      "total_words": 117564
+    },
+    "10121A.txt": {
+      "raw_lines": 27791,
+      "after_metadata_strip": 25008,
+      "after_rejoin": 20950,
+      "after_filter": 19110,
+      "paragraphs": 845,
+      "total_chars": 715073,
+      "avg_paragraph_length": 846.2402366863905,
+      "total_words": 115709
+    },
+    "10121B.txt": {
+      "raw_lines": 35661,
+      "after_metadata_strip": 32320,
+      "after_rejoin": 26197,
+      "after_filter": 23985,
+      "paragraphs": 1078,
+      "total_chars": 769870,
+      "avg_paragraph_length": 714.165120593692,
+      "total_words": 127351
+    },
+    "10129A.txt": {
+      "raw_lines": 11828,
+      "after_metadata_strip": 10413,
+      "after_rejoin": 8578,
+      "after_filter": 7650,
+      "paragraphs": 383,
+      "total_chars": 283051,
+      "avg_paragraph_length": 739.0365535248042,
+      "total_words": 47622
+    },
+    "10129B.txt": {
+      "raw_lines": 19230,
+      "after_metadata_strip": 17311,
+      "after_rejoin": 13334,
+      "after_filter": 12070,
+      "paragraphs": 530,
+      "total_chars": 465151,
+      "avg_paragraph_length": 877.6433962264151,
+      "total_words": 79894
+    },
+    "10130A.txt": {
+      "raw_lines": 19807,
+      "after_metadata_strip": 17726,
+      "after_rejoin": 13878,
+      "after_filter": 12506,
+      "paragraphs": 671,
+      "total_chars": 699912,
+      "avg_paragraph_length": 1043.0879284649777,
+      "total_words": 111590
+    },
+    "10130B.txt": {
+      "raw_lines": 27151,
+      "after_metadata_strip": 24794,
+      "after_rejoin": 20541,
+      "after_filter": 18985,
+      "paragraphs": 667,
+      "total_chars": 703001,
+      "avg_paragraph_length": 1053.974512743628,
+      "total_words": 111749
+    },
+    "1053.txt": {
+      "raw_lines": 49647,
+      "after_metadata_strip": 45514,
+      "after_rejoin": 40330,
+      "after_filter": 37589,
+      "paragraphs": 1039,
+      "total_chars": 1798592,
+      "avg_paragraph_length": 1731.0798845043312,
+      "total_words": 296858
+    },
+    "11008A.txt": {
+      "raw_lines": 26906,
+      "after_metadata_strip": 24711,
+      "after_rejoin": 20356,
+      "after_filter": 18908,
+      "paragraphs": 579,
+      "total_chars": 603390,
+      "avg_paragraph_length": 1042.1243523316061,
+      "total_words": 99561
+    },
+    "11008B.txt": {
+      "raw_lines": 25905,
+      "after_metadata_strip": 23332,
+      "after_rejoin": 20366,
+      "after_filter": 18666,
+      "paragraphs": 725,
+      "total_chars": 589862,
+      "avg_paragraph_length": 813.6027586206897,
+      "total_words": 97034
+    },
+    "11013A.txt": {
+      "raw_lines": 15880,
+      "after_metadata_strip": 14219,
+      "after_rejoin": 11299,
+      "after_filter": 10207,
+      "paragraphs": 430,
+      "total_chars": 399410,
+      "avg_paragraph_length": 928.8604651162791,
+      "total_words": 67473
+    },
+    "11013B.txt": {
+      "raw_lines": 14871,
+      "after_metadata_strip": 13108,
+      "after_rejoin": 10905,
+      "after_filter": 9745,
+      "paragraphs": 466,
+      "total_chars": 453010,
+      "avg_paragraph_length": 972.1244635193133,
+      "total_words": 75447
+    },
+    "1171A.txt": {
+      "raw_lines": 26514,
+      "after_metadata_strip": 24457,
+      "after_rejoin": 21953,
+      "after_filter": 20597,
+      "paragraphs": 642,
+      "total_chars": 911131,
+      "avg_paragraph_length": 1419.2071651090343,
+      "total_words": 145034
+    },
+    "1171B.txt": {
+      "raw_lines": 18140,
+      "after_metadata_strip": 16437,
+      "after_rejoin": 13826,
+      "after_filter": 12706,
+      "paragraphs": 445,
+      "total_chars": 439310,
+      "avg_paragraph_length": 987.2134831460675,
+      "total_words": 70010
+    },
+    "1179B.txt": {
+      "raw_lines": 25871,
+      "after_metadata_strip": 23550,
+      "after_rejoin": 20549,
+      "after_filter": 19016,
+      "paragraphs": 698,
+      "total_chars": 830343,
+      "avg_paragraph_length": 1189.603151862464,
+      "total_words": 135654
+    },
+    "1402A.txt": {
+      "raw_lines": 13339,
+      "after_metadata_strip": 12581,
+      "after_rejoin": 12127,
+      "after_filter": 11637,
+      "paragraphs": 240,
+      "total_chars": 450411,
+      "avg_paragraph_length": 1876.7125,
+      "total_words": 75960
+    },
+    "1430A.txt": {
+      "raw_lines": 16453,
+      "after_metadata_strip": 15710,
+      "after_rejoin": 15159,
+      "after_filter": 14679,
+      "paragraphs": 227,
+      "total_chars": 746626,
+      "avg_paragraph_length": 3289.101321585903,
+      "total_words": 121797
+    },
+    "1457A.txt": {
+      "raw_lines": 41281,
+      "after_metadata_strip": 37868,
+      "after_rejoin": 34540,
+      "after_filter": 32275,
+      "paragraphs": 1118,
+      "total_chars": 1124744,
+      "avg_paragraph_length": 1006.0322003577818,
+      "total_words": 199285
+    },
+    "1457B.txt": {
+      "raw_lines": 31584,
+      "after_metadata_strip": 29593,
+      "after_rejoin": 25026,
+      "after_filter": 23714,
+      "paragraphs": 600,
+      "total_chars": 827972,
+      "avg_paragraph_length": 1379.9533333333334,
+      "total_words": 153816
+    },
+    "1457C.txt": {
+      "raw_lines": 29422,
+      "after_metadata_strip": 27281,
+      "after_rejoin": 21657,
+      "after_filter": 20239,
+      "paragraphs": 566,
+      "total_chars": 694170,
+      "avg_paragraph_length": 1226.4487632508833,
+      "total_words": 139548
+    },
+    "1604A.txt": {
+      "raw_lines": 17969,
+      "after_metadata_strip": 16500,
+      "after_rejoin": 15357,
+      "after_filter": 14393,
+      "paragraphs": 452,
+      "total_chars": 465256,
+      "avg_paragraph_length": 1029.3274336283187,
+      "total_words": 77503
+    },
+    "1604B.txt": {
+      "raw_lines": 17992,
+      "after_metadata_strip": 16733,
+      "after_rejoin": 15047,
+      "after_filter": 14223,
+      "paragraphs": 350,
+      "total_chars": 621970,
+      "avg_paragraph_length": 1777.057142857143,
+      "total_words": 117388
+    },
+    "1604C.txt": {
+      "raw_lines": 20476,
+      "after_metadata_strip": 18647,
+      "after_rejoin": 17326,
+      "after_filter": 16122,
+      "paragraphs": 528,
+      "total_chars": 664614,
+      "avg_paragraph_length": 1258.7386363636363,
+      "total_words": 115547
+    },
+    "1615A.txt": {
+      "raw_lines": 21088,
+      "after_metadata_strip": 19892,
+      "after_rejoin": 18829,
+      "after_filter": 18047,
+      "paragraphs": 379,
+      "total_chars": 668285,
+      "avg_paragraph_length": 1763.2849604221635,
+      "total_words": 108534
+    },
+    "1615B.txt": {
+      "raw_lines": 4645,
+      "after_metadata_strip": 4451,
+      "after_rejoin": 3814,
+      "after_filter": 3700,
+      "paragraphs": 49,
+      "total_chars": 162907,
+      "avg_paragraph_length": 3324.6326530612246,
+      "total_words": 27943
+    },
+    "1615C.txt": {
+      "raw_lines": 9522,
+      "after_metadata_strip": 8917,
+      "after_rejoin": 8122,
+      "after_filter": 7734,
+      "paragraphs": 185,
+      "total_chars": 307739,
+      "avg_paragraph_length": 1663.454054054054,
+      "total_words": 49399
+    },
+    "2352A.txt": {
+      "raw_lines": 15938,
+      "after_metadata_strip": 15291,
+      "after_rejoin": 13061,
+      "after_filter": 12645,
+      "paragraphs": 203,
+      "total_chars": 471593,
+      "avg_paragraph_length": 2323.118226600985,
+      "total_words": 78245
+    },
+    "2352B.txt": {
+      "raw_lines": 15813,
+      "after_metadata_strip": 15187,
+      "after_rejoin": 13155,
+      "after_filter": 12752,
+      "paragraphs": 196,
+      "total_chars": 548890,
+      "avg_paragraph_length": 2800.4591836734694,
+      "total_words": 91467
+    },
+    "2352C.txt": {
+      "raw_lines": 16227,
+      "after_metadata_strip": 15637,
+      "after_rejoin": 13119,
+      "after_filter": 12741,
+      "paragraphs": 185,
+      "total_chars": 502045,
+      "avg_paragraph_length": 2713.7567567567567,
+      "total_words": 84028
+    },
+    "2352D.txt": {
+      "raw_lines": 13712,
+      "after_metadata_strip": 13110,
+      "after_rejoin": 11265,
+      "after_filter": 10879,
+      "paragraphs": 188,
+      "total_chars": 325674,
+      "avg_paragraph_length": 1732.3085106382978,
+      "total_words": 54284
+    },
+    "2352E.txt": {
+      "raw_lines": 11199,
+      "after_metadata_strip": 10483,
+      "after_rejoin": 9014,
+      "after_filter": 8552,
+      "paragraphs": 227,
+      "total_chars": 282117,
+      "avg_paragraph_length": 1242.8061674008811,
+      "total_words": 47031
+    },
+    "4084A.txt": {
+      "raw_lines": 9393,
+      "after_metadata_strip": 8668,
+      "after_rejoin": 7206,
+      "after_filter": 6737,
+      "paragraphs": 195,
+      "total_chars": 274572,
+      "avg_paragraph_length": 1408.0615384615385,
+      "total_words": 59992
+    },
+    "4084B.txt": {
+      "raw_lines": 8318,
+      "after_metadata_strip": 7674,
+      "after_rejoin": 6063,
+      "after_filter": 5649,
+      "paragraphs": 164,
+      "total_chars": 211458,
+      "avg_paragraph_length": 1289.378048780488,
+      "total_words": 39620
+    },
+    "7872A.txt": {
+      "raw_lines": 5217,
+      "after_metadata_strip": 4756,
+      "after_rejoin": 3624,
+      "after_filter": 3332,
+      "paragraphs": 113,
+      "total_chars": 135325,
+      "avg_paragraph_length": 1197.5663716814158,
+      "total_words": 22377
+    },
+    "7872B.txt": {
+      "raw_lines": 5529,
+      "after_metadata_strip": 4966,
+      "after_rejoin": 4236,
+      "after_filter": 3876,
+      "paragraphs": 150,
+      "total_chars": 175030,
+      "avg_paragraph_length": 1166.8666666666666,
+      "total_words": 29787
+    },
+    "9013A.txt": {
+      "raw_lines": 69266,
+      "after_metadata_strip": 63465,
+      "after_rejoin": 55140,
+      "after_filter": 51288,
+      "paragraphs": 1918,
+      "total_chars": 2106630,
+      "avg_paragraph_length": 1098.347236704901,
+      "total_words": 340163
+    },
+    "9013B.txt": {
+      "raw_lines": 62741,
+      "after_metadata_strip": 57678,
+      "after_rejoin": 48287,
+      "after_filter": 44925,
+      "paragraphs": 1671,
+      "total_chars": 1753084,
+      "avg_paragraph_length": 1049.1226810293238,
+      "total_words": 297656
+    },
+    "9014A.txt": {
+      "raw_lines": 82637,
+      "after_metadata_strip": 75930,
+      "after_rejoin": 63472,
+      "after_filter": 59016,
+      "paragraphs": 2216,
+      "total_chars": 2281873,
+      "avg_paragraph_length": 1029.726083032491,
+      "total_words": 371673
+    },
+    "9014B.txt": {
+      "raw_lines": 67175,
+      "after_metadata_strip": 61446,
+      "after_rejoin": 52692,
+      "after_filter": 48887,
+      "paragraphs": 1891,
+      "total_chars": 2033598,
+      "avg_paragraph_length": 1075.4087784241142,
+      "total_words": 332934
+    },
+    "9015A.txt": {
+      "raw_lines": 51252,
+      "after_metadata_strip": 46909,
+      "after_rejoin": 39025,
+      "after_filter": 36145,
+      "paragraphs": 1427,
+      "total_chars": 1411983,
+      "avg_paragraph_length": 989.4765241765942,
+      "total_words": 225321
+    },
+    "9015B.txt": {
+      "raw_lines": 51023,
+      "after_metadata_strip": 46596,
+      "after_rejoin": 39207,
+      "after_filter": 36270,
+      "paragraphs": 1456,
+      "total_chars": 1401976,
+      "avg_paragraph_length": 962.8956043956044,
+      "total_words": 223636
+    },
+    "9015C.txt": {
+      "raw_lines": 59428,
+      "after_metadata_strip": 54353,
+      "after_rejoin": 45557,
+      "after_filter": 42189,
+      "paragraphs": 1668,
+      "total_chars": 1638264,
+      "avg_paragraph_length": 982.1726618705036,
+      "total_words": 270234
+    },
+    "9524I.txt": {
+      "raw_lines": 19205,
+      "after_metadata_strip": 16914,
+      "after_rejoin": 14442,
+      "after_filter": 12929,
+      "paragraphs": 575,
+      "total_chars": 501706,
+      "avg_paragraph_length": 872.5321739130435,
+      "total_words": 82356
+    },
+    "9524II.txt": {
+      "raw_lines": 17305,
+      "after_metadata_strip": 15746,
+      "after_rejoin": 12385,
+      "after_filter": 11359,
+      "paragraphs": 488,
+      "total_chars": 430186,
+      "avg_paragraph_length": 881.5286885245902,
+      "total_words": 69775
+    },
+    "9615A.txt": {
+      "raw_lines": 9818,
+      "after_metadata_strip": 8967,
+      "after_rejoin": 7309,
+      "after_filter": 6755,
+      "paragraphs": 267,
+      "total_chars": 248520,
+      "avg_paragraph_length": 930.7865168539325,
+      "total_words": 44450
+    },
+    "9626A.txt": {
+      "raw_lines": 40374,
+      "after_metadata_strip": 36427,
+      "after_rejoin": 32445,
+      "after_filter": 29829,
+      "paragraphs": 1194,
+      "total_chars": 897597,
+      "avg_paragraph_length": 751.7562814070352,
+      "total_words": 150105
+    },
+    "9626B.txt": {
+      "raw_lines": 49530,
+      "after_metadata_strip": 44929,
+      "after_rejoin": 40330,
+      "after_filter": 37278,
+      "paragraphs": 1412,
+      "total_chars": 1201081,
+      "avg_paragraph_length": 850.6239376770538,
+      "total_words": 195636
+    }
+  }
+}

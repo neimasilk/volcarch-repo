@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "A&C Logo" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img "A&C Logo" [ref=e5]
+    - paragraph [ref=e7]:
+      - generic [ref=e8]: Archeologia e Calcolatori
+      - generic [ref=e9]: Peer Reviewed Open Access Journal
+      - generic [ref=e10]: ISSN 1220-6861, e-ISSN 2385-1953
+    - link "CNR - Istituto di Scienze del Patrimonio Culturale" [ref=e12] [cursor=pointer]:
+      - /url: https://www.ispc.cnr.it
+      - img "CNR - Istituto di Scienze del Patrimonio Culturale" [ref=e13]
+  - banner [ref=e14]:
+    - generic [ref=e16]:
+      - link "HOME" [ref=e17] [cursor=pointer]:
+        - /url: /
+      - link "ABOUT " [ref=e19] [cursor=pointer]:
+        - /url: "#"
+        - text: ABOUT
+        - generic [ref=e20]: 
+      - link "VOLUMES " [ref=e22] [cursor=pointer]:
+        - /url: "#"
+        - text: VOLUMES
+        - generic [ref=e23]: 
+      - link "SPECIAL ISSUES " [ref=e25] [cursor=pointer]:
+        - /url: "#"
+        - text: SPECIAL ISSUES
+        - generic [ref=e26]: 
+      - link "SEARCH" [ref=e27] [cursor=pointer]:
+        - /url: /search
+      - link "3D GALLERY" [ref=e28] [cursor=pointer]:
+        - /url: /3d-gallery?page=1
+      - link "IADI" [ref=e29] [cursor=pointer]:
+        - /url: https://iadi.archcalc.cnr.it
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - paragraph [ref=e34]:
+          - text: Journal established in 1990 by Mauro Cristofani and Riccardo Francovich
+          - text: formerly directed by
+          - link "Paola Moscati" [ref=e35] [cursor=pointer]:
+            - /url: https://www.ispc.cnr.it/it_it/team/moscati-paola/
+          - text: (1990-2022)
+        - paragraph [ref=e36]:
+          - text: "Editor in chief:"
+          - link "Alessandra Caravale" [ref=e37] [cursor=pointer]:
+            - /url: https://www.ispc.cnr.it/it_it/team/caravale-alessandra/
+        - paragraph [ref=e38]:
+          - text: Since 1990, Archeologia e Calcolatori (ISSN 1120-6861, e-ISSN 2385-1953) has been an international observatory of theoretical and methodological aspects of computing and information technology applied to archaeology. In 2007 the journal expanded to include a series of
+          - link "Supplements" [ref=e39] [cursor=pointer]:
+            - /url: /volumes/supplements
+          - text: (ISSN 2385-202X, e-ISSN 2385-2038).
+        - paragraph [ref=e40]:
+          - text: Archeologia e Calcolatori is an ANVUR (Italian National Agency for the Evaluation of the Universities and Research Institutes)
+          - link "A-rated Journal" [ref=e41] [cursor=pointer]:
+            - /url: https://www.anvur.it/attivita/classificazione-delle-riviste/classificazione-delle-riviste-ai-fini-dellabilitazione-scientifica-nazionale/elenchi-di-riviste-scientifiche-e-di-classe-a/
+          - text: in the scientific Areas 8 and 10. It is indexed in
+          - link "Scopus" [ref=e42] [cursor=pointer]:
+            - /url: https://www.scopus.com/sourceid/21100815385?origin=sbrowse#tabs=1
+          - text: and in the Clarivate Analytics' Emerging Sources Citation Index. It is included in
+          - link "ERIH PLUS" [ref=e43] [cursor=pointer]:
+            - /url: https://kanalregister.hkdir.no/publiseringskanaler/erihplus/periodical/info.action?id=482808
+          - text: and articles are stored in the CNR
+          - link "SOLAR" [ref=e44] [cursor=pointer]:
+            - /url: http://eprints.bice.rm.cnr.it/view/journal_volume/Archeologia_e_Calcolatori/
+          - text: (Scientific Open-access Literature Archive and Repository) database of scientific publications.
+        - paragraph [ref=e45]:
+          - text: In 2005 Archeologia e Calcolatori joined the Open Archives Initiative, adopting the
+          - link "OAI-PMH protocol" [ref=e46] [cursor=pointer]:
+            - /url: https://www.archcalc.cnr.it/oai
+          - text: . The journal is registered in the list of OAI Data Providers and OAIster contributors and in the Directory of Open Access Journals (
+          - link "DOAJ" [ref=e47] [cursor=pointer]:
+            - /url: https://doaj.org/search/journals?%23=%23.VlhvqL8jXG8&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Archeologia%20e%20Calcolatori%22%2C%22default_operator%22%3A%22AND%22%7D%7D%2C%22size%22%3A50%2C%22sort%22%3A%5B%7B%22created_date%22%3A%7B%22order%22%3A%22desc%22%7D%7D%5D%2C%22track_total_hits%22%3Atrue%7D#.VlhvqL8jXG8
+          - text: ). Archeologia e Calcolatori is a data provider of the Open Access Infrastructure for Research in Europe (
+          - link "OpenAIRE" [ref=e48] [cursor=pointer]:
+            - /url: https://explore.openaire.eu/search/dataprovider?datasourceId=openaire____::f3a35cc23d629e74e8d5fe0d8bca1684
+          - text: ). Moreover,
+          - link "CulturaItalia" [ref=e49] [cursor=pointer]:
+            - /url: http://www.culturaitalia.it/opencms/opencms/system/modules/com.culturaitalia_stage.liberologico/templates/ricerca.jsp?searchType=&imageField.x=0&imageField.y=0&language=it&q=archeologia+e+calcolatori&cat=indice
+          - text: and
+          - link "Europeana" [ref=e50] [cursor=pointer]:
+            - /url: https://www.europeana.eu/it/search?query=archeologia+e+calcolatori&view=grid&page=1
+          - text: expose over 900 resources from the journal's archive.
+        - heading "Latest issues" [level=3] [ref=e51]
+        - generic [ref=e52]:
+          - link "Archeologia e Calcolatori supplemento 13" [ref=e54] [cursor=pointer]:
+            - /url: /supplements/volumes/13/
+            - img [ref=e55]
+            - generic [ref=e56]: Archeologia e Calcolatori supplemento 13
+          - link "Archeologia e Calcolatori 36.2" [ref=e58] [cursor=pointer]:
+            - /url: /journal/volumes/36/2
+            - img [ref=e59]
+            - generic [ref=e60]: Archeologia e Calcolatori 36.2
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: Anniversaries
+            - figure "20th Anniversary" [ref=e65] [cursor=pointer]:
+              - link "20th anniversary" [ref=e66]:
+                - /url: /pages/anniversary20
+                - img "20th anniversary" [ref=e67]
+              - generic [ref=e68]:
+                - text: "20"
+                - superscript [ref=e69]: th
+                - text: Anniversary
+            - figure "30th Anniversary" [ref=e70] [cursor=pointer]:
+              - link "30th anniversary" [ref=e71]:
+                - /url: /pages/anniversary30
+                - img "30th anniversary" [ref=e72]
+              - generic [ref=e73]:
+                - text: "30"
+                - superscript [ref=e74]: th
+                - text: Anniversary
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Related projects
+            - figure "VMAC" [ref=e77] [cursor=pointer]:
+              - link "Virtual Museum of Archaeological Computing" [ref=e78]:
+                - /url: https://archaeologicalcomputing.lincei.it
+                - img "Virtual Museum of Archaeological Computing" [ref=e79]
+              - generic [ref=e80]: VMAC
+            - figure "H2IOSC" [ref=e81] [cursor=pointer]:
+              - link "H2IOSC" [ref=e82]:
+                - /url: /pages/h2iosc
+                - img "H2IOSC" [ref=e83]
+              - generic [ref=e84]: H2IOSC
+          - generic [ref=e85]:
+            - paragraph [ref=e86]: OA resources
+            - figure "ACN" [ref=e87] [cursor=pointer]:
+              - link "Archaeological Computing Newsletter" [ref=e88]:
+                - /url: /pages/newsletter
+                - img "Archaeological Computing Newsletter" [ref=e89]
+              - generic [ref=e90]: ACN
+            - figure "Futuro Anteriore" [ref=e91] [cursor=pointer]:
+              - 'link "New series: Futuro Anteriore" [ref=e92]':
+                - /url: /pages/futuro-anteriore
+                - 'img "New series: Futuro Anteriore" [ref=e93]'
+              - generic [ref=e94]: Futuro Anteriore
+      - generic [ref=e95]:
+        - heading "Indexed by" [level=4] [ref=e96]
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Scopus" [ref=e99] [cursor=pointer]:
+              - /url: https://www.scopus.com/sourceid/21100815385?origin=sbrowse#tabs=1
+          - listitem [ref=e100]:
+            - link "Scimago" [ref=e101] [cursor=pointer]:
+              - /url: https://www.scimagojr.com/journalsearch.php?q=21100815385&tip=sid&clean=0
+          - listitem [ref=e102]:
+            - text: ANVUR (
+            - link "Area 08" [ref=e103] [cursor=pointer]:
+              - /url: https://www.anvur.it/wp-content/uploads/2024/03/Area08_scientifiche_14032024.pdf
+            - text: ","
+            - link "Area 10" [ref=e104] [cursor=pointer]:
+              - /url: https://www.anvur.it/wp-content/uploads/2024/03/Area10_scientifiche_14032024.pdf
+            - text: )
+          - listitem [ref=e105]:
+            - link "ERIH PLUS" [ref=e106] [cursor=pointer]:
+              - /url: https://kanalregister.hkdir.no/publiseringskanaler/erihplus/periodical/info.action?id=482808
+          - listitem [ref=e107]:
+            - link "SOLAR" [ref=e108] [cursor=pointer]:
+              - /url: http://eprints.bice.rm.cnr.it/view/journal_volume/Archeologia_e_Calcolatori/
+          - listitem [ref=e109]:
+            - link "DOAJ" [ref=e110] [cursor=pointer]:
+              - /url: https://doaj.org/toc/1120-6861
+          - listitem [ref=e111]:
+            - link "CulturaItalia" [ref=e112] [cursor=pointer]:
+              - /url: http://www.culturaitalia.it/opencms/opencms/system/modules/com.culturaitalia_stage.liberologico/templates/ricerca.jsp?searchType=&imageField.x=0&imageField.y=0&language=it&q=archeologia+e+calcolatori&cat=indice
+          - listitem [ref=e113]:
+            - link "Europeana" [ref=e114] [cursor=pointer]:
+              - /url: https://www.europeana.eu/it/search?query=archeologia+e+calcolatori&view=grid&page=1
+          - listitem [ref=e115]:
+            - link "OpenAIRE" [ref=e116] [cursor=pointer]:
+              - /url: https://explore.openaire.eu/search/dataprovider?datasourceId=openaire____::f3a35cc23d629e74e8d5fe0d8bca1684
+          - listitem [ref=e117]:
+            - link "AWOL" [ref=e118] [cursor=pointer]:
+              - /url: https://ancientworldonline.blogspot.com/2015/12/alphabetical-list-of-open-access.html
+          - listitem [ref=e119]:
+            - link "Peer Community in (PCI-Friendly Journal)" [ref=e120] [cursor=pointer]:
+              - /url: https://www.peercommunityin.org/pci-friendly-journals/
+        - generic [ref=e122]:
+          - img [ref=e123]
+          - link "OAI-PMH Repository" [ref=e124] [cursor=pointer]:
+            - /url: /oai
+        - paragraph [ref=e126]:
+          - link "CNR - Dipartimento Scienze Umane e Sociali, Patrimonio Culturale" [ref=e127] [cursor=pointer]:
+            - /url: https://www.dsu.cnr.it
+        - paragraph [ref=e128]:
+          - link "Istituto di Scienze del Patrimonio Culturale" [ref=e129] [cursor=pointer]:
+            - /url: https://www.ispc.cnr.it
+        - paragraph [ref=e130]:
+          - link "Edizioni All'Insegna del Giglio" [ref=e131] [cursor=pointer]:
+            - /url: https://www.insegnadelgiglio.it/categoria-prodotto/periodici/archeologia-calcolatori/
+    - text: ✕
+  - contentinfo [ref=e142]:
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - paragraph [ref=e145]:
+          - link "CNR - Istituto di Scienze del Patrimonio Culturale" [ref=e146] [cursor=pointer]:
+            - /url: https://www.ispc.cnr.it
+            - img "CNR - Istituto di Scienze del Patrimonio Culturale" [ref=e147]
+        - paragraph [ref=e148]:
+          - link "Archeologia e Calcolatori" [ref=e149] [cursor=pointer]:
+            - /url: http://www.archcalc.cnr.it
+            - img "Archeologia e Calcolatori" [ref=e150]
+      - paragraph [ref=e152]:
+        - link [ref=e153] [cursor=pointer]:
+          - /url: https://x.com/ISPCAEC
+          - img [ref=e154]
+        - link [ref=e155] [cursor=pointer]:
+          - /url: https://www.facebook.com/archeologiaecalcolatori
+          - img [ref=e156]
+      - list [ref=e160]:
+        - listitem [ref=e161] [cursor=pointer]:
+          - link "Privacy policy" [ref=e162]:
+            - /url: /pages/privacy
+        - listitem [ref=e163] [cursor=pointer]:
+          - link "Credits and Contacts" [ref=e164]:
+            - /url: /pages/credits
+        - listitem [ref=e165] [cursor=pointer]:
+          - link "Terms" [ref=e166]:
+            - /url: /pages/terms
+        - listitem [ref=e167] [cursor=pointer]:
+          - link "REST API beta" [ref=e168]:
+            - /url: /api
+      - text: beta
+      - generic [ref=e169]:
+        - paragraph [ref=e170]: © CNR - Istituto di Scienze del Patrimonio Culturale (2026)
+        - paragraph [ref=e171]:
+          - link "Creative Commons License" [ref=e172] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+            - img "Creative Commons License" [ref=e173]

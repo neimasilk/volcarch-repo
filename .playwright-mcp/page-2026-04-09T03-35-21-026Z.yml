@@ -1,0 +1,200 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "Skip to main navigation menu" [ref=e2] [cursor=pointer]:
+      - /url: "#pragma_content_header"
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - link "Skip to site footer" [ref=e4] [cursor=pointer]:
+      - /url: "#pragma_content_footer"
+  - banner [ref=e5]:
+    - navigation [ref=e6]:
+      - heading "Admin menu" [level=2] [ref=e7]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - button "neimasilk" [ref=e10] [cursor=pointer]
+    - navigation [ref=e11]:
+      - link "##common.pageHeaderLogo.altText##" [ref=e13] [cursor=pointer]:
+        - /url: "\t\t\t\thttps://submission.archcalc.cnr.it/index.php/aec/index\n\t\t\t"
+        - img "##common.pageHeaderLogo.altText##" [ref=e14]
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - link "About the Journal" [ref=e18] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about
+        - listitem [ref=e19]:
+          - link "Submissions" [ref=e20] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/submissions
+        - listitem [ref=e21]:
+          - link "Privacy Statement" [ref=e22] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/privacy
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/contact
+        - listitem [ref=e25]:
+          - link "Announcements" [ref=e26] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/announcement
+  - main [ref=e27]:
+    - generic [ref=e29]:
+      - heading "Submissions" [level=1] [ref=e31]
+      - generic [ref=e32]:
+        - link "Make a new submission" [ref=e33] [cursor=pointer]:
+          - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/wizard
+        - text: or
+        - link "view your pending submissions" [ref=e34] [cursor=pointer]:
+          - /url: https://submission.archcalc.cnr.it/index.php/aec/submissions
+        - text: .
+      - generic [ref=e35]:
+        - heading "Submission Preparation Checklist" [level=2] [ref=e36]
+        - paragraph [ref=e37]: As part of the submission process, authors are required to check off their submission's compliance with all of the following items, and submissions may be returned to authors that do not adhere to these guidelines.
+        - list [ref=e38]:
+          - listitem [ref=e39]: The submission has not been previously published, nor is it before another journal for consideration.
+          - listitem [ref=e40]: The submission file is in Microsoft Word (DOCX), or RTF document file format.
+          - listitem [ref=e41]: The bibliography (references) is provided as a separate DOCX or RTF file.
+          - listitem [ref=e42]: Where available, URLs for the references are provided.
+          - listitem [ref=e43]: The text adheres to the stylistic and bibliographic requirements outlined in the Author Guidelines.
+          - listitem [ref=e44]: Images are attached separately, compressed in a single ZIP archive, and are NOT included in the main text.
+          - listitem [ref=e45]: A separate file for image captions is provided in DOCX or RTF format.
+      - generic [ref=e46]:
+        - heading "Author Guidelines" [level=2] [ref=e47]
+        - paragraph [ref=e48]: The adaptation of your text to A&C editorial guidelines is an essential requirement for its evaluation and publication. Below you will find all the necessary information.
+        - paragraph [ref=e49]:
+          - text: Papers (ca. 6000 words, including references, figure captions, Author’s names and contact details) should be submitted using the
+          - link "dedicated online system" [ref=e50] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/submissions
+          - text: ", after creating an account."
+        - paragraph [ref=e51]: An abstract in English (max 200 words) should accompany the text.
+        - paragraph [ref=e52]: Papers can be submitted in French, English, German, Italian or Spanish (RTF or DOC formats) and should be prepared using the Times New Roman font (12 pt, justified), 24-point spacing. with 1 cm indent at the beginning of each paragraph.
+        - paragraph [ref=e53]: Please, enumerate the paragraphs in order to make evident their hierarchical structure.
+        - paragraph [ref=e54]:
+          - text: "The title of the article should be in CAPITAL LETTERS; headings: 1. Small caps; subheadings: 1.1"
+          - emphasis [ref=e55]: Italics
+          - text: ; 1.2 Regular
+        - paragraph [ref=e56]: For articles with more than one author, the authors should provide the order in which their names should appear in the header.
+        - paragraph [ref=e57]: Bulleted items in a list should begin with an initial capital letter and be preceded by ‘– ’. Avoid using more than two levels in the lists.
+        - paragraph [ref=e58]:
+          - text: "The Em Dash (long dash) ‘–' should be used as a punctuation symbol (with a leading and trailing space). In all other cases, the En Dash (short dash) ‘-’ should be used, with no leading or trailing spaces. The multiplication sign should be the × symbol (ASCII code: Alt+158), not the letter ‘x’."
+          - emphasis [ref=e59]: Et cetera
+          - text: should be written ‘etc.’, preceded by a comma.
+        - paragraph [ref=e60]:
+          - text: In the article’s body, locutions in Latin or in a foreign language, should be written in italics only if they are not commonly used.
+          - emphasis [ref=e61]: Ibid., supra, infra, et al.
+          - text: should instead be always in italics. For articles written in languages other than English, commonly occurring English words (file, record, software...) should be written in regular font.
+        - paragraph [ref=e62]: File format names should always be capitalized (e.g., PDF, CSV, ZIP etc.), names of programming languages should follow the standard form defined in relevant official documentation (e.g., Python, SQL, C++, etc.). Software names should be in regular font with capital initials (e.g., Microsoft Excel, Adobe Illustrator, Zotero, etc.). Web URLs should be written in full notation, including the protocol (e.g., https://zenodo.org/).
+        - paragraph [ref=e63]: Text citations should be enclosed in French quotation marks (« »), followed by the bibliography reference and by the page number where the cited quote appears (e.g., Author year, 56). Double quotes “ ” are used to highlight a word.
+        - paragraph [ref=e64]: "Bibliographic references in the text should follow the Harvard system of referencing: Author’s last name followed by the year of publication, all in round brackets; e.g., (Rossi 1994). When the number of authors is three or more, references in the text should be (Rossi et al. 1995). At the end of the paper, all references should be listed in alphabetical order and all authors should be included."
+        - paragraph [ref=e65]: "Multiple quotes in parentheses (which should follow chronological order) should be separated by a semicolon (;). If the author is the same, the name should not be repeated (Author 2008, 2009). Where there are multiple citations for the same author and year, they should be written as follows: Author 1978a, 1978b."
+        - paragraph [ref=e66]: Please avoid footnotes and integrate the text in the main structure of the paper.
+        - paragraph [ref=e67]:
+          - text: Use standard abbreviations for metric units (km, kg, m, etc.) without final full stops. Square metres should be expressed as m
+          - superscript [ref=e68]: "2"
+          - text: . Cardinal points should be indicated by capital letters without full stops (N, S, E, and O/W).
+        - paragraph [ref=e69]:
+          - strong [ref=e70]:
+            - emphasis [ref=e71]: Images
+        - paragraph [ref=e72]:
+          - text: "All illustrations should have a progressive unique enumeration for each type: Fig. (pictures, drawings, graphs); Tab. (tables), and should have their own reference in the text. References to figures in the text are written in regular uppercase (Fig., Tab.); references to figures of cited volumes are in regular lowercase (fig., tav.)."
+          - text: B/W and colour figures (max 10), with captions, should be sent separately from the text (.jpg or .tiff formats, 300 dpi). The online version will support colour figures; however, the same figures in the printed version could be in black and white. Please, verify that this will not compromise their quality.
+          - text: "Text in captions should be preceded by the figure number followed by a long dash: Fig. 1 – ..."
+          - text: Authors must obtain permission to publish illustrations taken from a copyrighted source. The figure caption should include the appropriate credit information.
+        - paragraph [ref=e73]:
+          - strong [ref=e74]:
+            - emphasis [ref=e75]: References
+        - paragraph [ref=e76]:
+          - text: References to other publications should be in Harvard style. They should contain full bibliographical details. Journal titles should not be abbreviated. References should be presented at the end of the paper in alphabetical order. In the reference list all authors should be included.
+          - text: Guidelines for bibliography references should be followed rigorously, otherwise the bibliography will be sent back to authors requesting necessary amendments.
+          - text: The final bibliography, limited to references cited in the text, can include a dedicated section for web sources (webography).
+          - text: English titles should be written with capital initials if they are monographs. In the case of journal articles or conference proceedings, initials should be lowercase.
+          - text: Journal titles should be enclosed in French quotation marks « » and should be written in full (no abbreviations).
+          - text: For volumes, the publisher should always be included after the publishing place.
+          - text: For conference proceedings, curators’ names should always be included, followed by (eds.). The place and year of the conference should be written in italics between parentheses after its title.
+        - paragraph [ref=e77]: For online publications, the DOI code, where available, or the relevant URL should be included at the end of the reference.
+        - paragraph [ref=e78]:
+          - emphasis [ref=e79]:
+            - strong [ref=e80]: Zotero citation style (CSL)
+        - paragraph [ref=e81]:
+          - text: A
+          - link "Citation Style Language (CSL) template is available" [ref=e82] [cursor=pointer]:
+            - /url: https://www.zotero.org/styles/archeologia-e-calcolatori
+            - emphasis [ref=e83]: Citation Style Language
+            - text: (CSL) template is available
+          - text: . The style can be imported in Zotero or similar compatible software to automatically generate formatted bibliographic citations.
+        - paragraph [ref=e84]:
+          - emphasis [ref=e85]:
+            - strong [ref=e86]: Bibliography reference examples
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - emphasis [ref=e89]: Book
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - text: Doran J.E., Hodson F.R. 1975,
+                - emphasis [ref=e92]: Mathematics and Computers in Archaeology
+                - text: ", Edinburgh, Edinburgh University Press."
+          - listitem [ref=e93]:
+            - emphasis [ref=e94]: Book Chapter
+            - list [ref=e95]:
+              - listitem [ref=e96]:
+                - text: Moscati P. 1990,
+                - emphasis [ref=e97]: Indirizzi e sviluppi dell’Archeologia Quantitativa
+                - text: ", in P. Moscati (ed.),"
+                - emphasis [ref=e98]: Trattamento di dati negli studi archeologici e storici
+                - text: ", Roma, Bulzoni, 1-54."
+          - listitem [ref=e99]:
+            - emphasis [ref=e100]: Journal Article
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - text: Genet J.-Ph. 1992,
+                - emphasis [ref=e103]: Calcul ou logicisme?
+                - emphasis [ref=e104]: À propos d’un ouvrage récent
+                - text: ", «Histoire & Mesure», 7, 1-2, 171-179 (https://doi.org/10.3406/hism.1992.1591)."
+              - listitem [ref=e105]:
+                - text: Caravale A., Ceccarelli L. 2019,
+                - emphasis [ref=e106]: La banca dati bibliografica degli anni Novanta. Dati quantitativi e analisi statistiche
+                - text: ", in P. Moscati (ed.),"
+                - emphasis [ref=e107]: 30 anni di Archeologia e Calcolatori. Tra memoria e progettualità
+                - text: ", «Archeologia e Calcolatori», 30, 109-122 (https://doi. org/10.19282/ac.30.2019.08)."
+          - listitem [ref=e108]:
+            - emphasis [ref=e109]: Conference Proceedings
+            - list [ref=e110]:
+              - listitem [ref=e111]:
+                - text: Cowgill G.L. 2001,
+                - emphasis [ref=e112]: Past, present and future of quantitative methods in United States archaeology
+                - text: ", in Z. Stančič, T. Veljanovski (eds.),"
+                - emphasis [ref=e113]:
+                  - text: Computing Archaeology for Understanding the Past. CAA 2000. Computer Applications and Quantitative Methods in Archaeology, Proceedings of the 28
+                  - superscript [ref=e114]: th
+                  - text: Conference (Ljubljana 2000)
+                - text: ", Oxford, BAR International Series 931, Archaeopress, 35-40 (https://proceedings.caaconference.org/files/2000/06_Cowgill_CAA_2000.pdf)."
+          - listitem [ref=e115]:
+            - emphasis [ref=e116]: Other
+            - list [ref=e117]:
+              - listitem [ref=e118]:
+                - text: Guaitoli M. (ed.) 2003,
+                - emphasis [ref=e119]: Lo sguardo di Icaro. Le collezioni dell’Aerofototeca Nazionale per la conoscenza del territorio
+                - text: ", Catalogo della mostra, Roma, Campisano Editore"
+        - paragraph [ref=e120]:
+          - strong [ref=e121]:
+            - emphasis [ref=e122]: Proofs
+        - paragraph [ref=e123]: Authors can make corrections only on the first proofs. The Editors reserve the right to make further editorial changes to adjust style to certain standards of uniformity.
+      - generic [ref=e124]:
+        - heading "Privacy Statement" [level=2] [ref=e125]
+        - paragraph [ref=e126]: The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.
+      - generic [ref=e127]:
+        - heading "Sections" [level=2] [ref=e128]
+        - generic [ref=e129]:
+          - heading "Articles" [level=3] [ref=e130]
+          - paragraph [ref=e131]:
+            - text: Make a new submission to the
+            - link "Articles" [ref=e132] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/wizard?sectionId=3
+            - text: section.
+        - generic [ref=e133]:
+          - heading "Note e recensioni" [level=3] [ref=e134]
+          - paragraph [ref=e135]:
+            - text: Make a new submission to the
+            - link "Note e recensioni" [ref=e136] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/wizard?sectionId=8
+            - text: section.
+  - contentinfo [ref=e137]:
+    - complementary [ref=e140]:
+      - link "More information about the publishing system, Platform and Workflow by OJS/PKP." [ref=e141] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/about/aboutThisPublishingSystem
+        - img "More information about the publishing system, Platform and Workflow by OJS/PKP." [ref=e142]

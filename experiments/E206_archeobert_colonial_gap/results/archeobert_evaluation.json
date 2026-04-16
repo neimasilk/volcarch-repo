@@ -1,0 +1,962 @@
+{
+  "experiment": "E206",
+  "model": "alexbrandsen/ArcheoBERTje-NER",
+  "input": {
+    "source": "OV colonial archaeological reports (1912-1929)",
+    "n_segments": 2000,
+    "sample_from": "OV_1912_fulltext.txt"
+  },
+  "archeobert_results": {
+    "total_entities": 988,
+    "entity_counts": {
+      "PER": 151,
+      "ART": 244,
+      "LOC": 249,
+      "SPE": 176,
+      "CON": 61,
+      "MAT": 107
+    },
+    "entity_examples": {
+      "PER": [
+        {
+          "word": "1912",
+          "score": 0.9733986258506775,
+          "context": "Oudheidkundig Verslag over het eerstc kwartaal 1912 . . . . 1"
+        },
+        {
+          "word": "1912",
+          "score": 0.9844173192977905,
+          "context": "Oudheidkundig Verslag over het tu’eede kwartaal 1912. . . . 21"
+        },
+        {
+          "word": "1912",
+          "score": 0.978402316570282,
+          "context": "Oudheidkundig Verslag over het derde kwartaal 1912 . . . . 57"
+        },
+        {
+          "word": "1912",
+          "score": 0.9841080904006958,
+          "context": "Oudheidkundig \\'ersiag over het vierde kwartaal 1912 . . . . 73"
+        },
+        {
+          "word": "1912",
+          "score": 0.9838356971740723,
+          "context": "Eerste kwartaal 1912."
+        },
+        {
+          "word": "1912",
+          "score": 0.9786636829376221,
+          "context": "en Eeredienst dd. 16 Februari 1912 No. 2565 is eeu wij-"
+        },
+        {
+          "word": "1912",
+          "score": 0.9885149598121643,
+          "context": "Bij Oouv. Besl. van 10 Maart 1912 No. 24 werd aan"
+        },
+        {
+          "word": "1912",
+          "score": 0.9879604578018188,
+          "context": "Bij Gouv. Besl. van 14 Maart 1912 No. 15 werd de Heer"
+        },
+        {
+          "word": "Batavia",
+          "score": 0.8229742646217346,
+          "context": "Van de op verzoek van de Direetie van her Bataviaasch"
+        },
+        {
+          "word": "Batavia",
+          "score": 0.867885947227478,
+          "context": "Batavia. Ook de Heer Kne];el nuiakte geen reizen. De Heer"
+        },
+        {
+          "word": "1911",
+          "score": 0.8848795890808105,
+          "context": "bet Rapport van 1911 gedrukt worden."
+        },
+        {
+          "word": "Batavia",
+          "score": 0.49782583117485046,
+          "context": "Batavia is, is nog niet ontcijterd."
+        },
+        {
+          "word": "118",
+          "score": 0.9567215442657471,
+          "context": "waarvan er een, die van 1188. in het Oudheidkundm"
+        },
+        {
+          "word": "1911",
+          "score": 0.962832510471344,
+          "context": "Rapport van 1911 wordt gepnblieeerd. Verder hield ik mij"
+        },
+        {
+          "word": "1902",
+          "score": 0.9522736668586731,
+          "context": "tempelrestes, wier cimtrdle van 1902 dateert en waar in"
+        },
+        {
+          "word": "1911",
+          "score": 0.9748148322105408,
+          "context": "dat over 1911 zijn op bet oogenblik zes vel ufgedrukt."
+        },
+        {
+          "word": "Batavia",
+          "score": 0.8297058343887329,
+          "context": "AaQ boehivvrkcn wenlen oiitvarigen: van het Bataviaa^ch"
+        },
+        {
+          "word": "1904",
+          "score": 0.9602060914039612,
+          "context": "deiilijk van Xot. Bat. Gen. 1904 Bijl. Ill en van Tijdschrift"
+        },
+        {
+          "word": "1899",
+          "score": 0.975836992263794,
+          "context": "voor het Binn. Best. 1899 p. 409-411, beide van zijn hand."
+        },
+        {
+          "word": "1912",
+          "score": 0.9855104684829712,
+          "context": "op grond van het Gouv. Bt>l. van 23 Maart 1912 No. 12 een"
+        }
+      ],
+      "ART": [
+        {
+          "word": "te",
+          "score": 0.8993894457817078,
+          "context": "Bijlage B, Stand van het teekenwerk 13"
+        },
+        {
+          "word": "##eken",
+          "score": 0.5645490884780884,
+          "context": "Bijlage B, Stand van het teekenwerk 13"
+        },
+        {
+          "word": "te",
+          "score": 0.8071014285087585,
+          "context": "Bijlage E. Stand van het teekenwerk . 31"
+        },
+        {
+          "word": "##eke",
+          "score": 0.5768607258796692,
+          "context": "Bijlage E. Stand van het teekenwerk . 31"
+        },
+        {
+          "word": "te",
+          "score": 0.7262624502182007,
+          "context": "Bijlage L. Stand van het teekenwerk 67"
+        },
+        {
+          "word": "##eke",
+          "score": 0.5486668348312378,
+          "context": "Bijlage L. Stand van het teekenwerk 67"
+        },
+        {
+          "word": "te",
+          "score": 0.8700971007347107,
+          "context": "Bijlage O. Stand van het teekenwerk 88"
+        },
+        {
+          "word": "##eke",
+          "score": 0.6954240798950195,
+          "context": "Bijlage O. Stand van het teekenwerk 88"
+        },
+        {
+          "word": "li",
+          "score": 0.570234477519989,
+          "context": "genamen ’ indruk inoet maken. kan men liaar in de eerste"
+        },
+        {
+          "word": "z",
+          "score": 0.8218811750411987,
+          "context": "Ook deed de Heer Mehille onderzoek naar de zicli buiten"
+        },
+        {
+          "word": "steen",
+          "score": 0.8308568000793457,
+          "context": "steen draagt het jaartal 1472 eu in verbaiid daarmede ver-"
+        },
+        {
+          "word": "bier",
+          "score": 0.5216773152351379,
+          "context": "verzamelingen bier te lande kwam geen bericht in, nocb"
+        },
+        {
+          "word": "Bij",
+          "score": 0.9846091270446777,
+          "context": "deiilijk van Xot. Bat. Gen. 1904 Bijl. Ill en van Tijdschrift"
+        },
+        {
+          "word": "##l",
+          "score": 0.9241731762886047,
+          "context": "deiilijk van Xot. Bat. Gen. 1904 Bijl. Ill en van Tijdschrift"
+        },
+        {
+          "word": "ornament",
+          "score": 0.6658296585083008,
+          "context": "iiioiisterkop eii ornament aan"
+        },
+        {
+          "word": "lu",
+          "score": 0.9615755081176758,
+          "context": ". luonsterkop en ornament aaii"
+        },
+        {
+          "word": "##onsterkop",
+          "score": 0.7467568516731262,
+          "context": ". luonsterkop en ornament aaii"
+        },
+        {
+          "word": "moi",
+          "score": 0.9195177555084229,
+          "context": "moiisterkop eii ornament aan"
+        },
+        {
+          "word": "##isterkop",
+          "score": 0.8726683855056763,
+          "context": "moiisterkop eii ornament aan"
+        },
+        {
+          "word": "te",
+          "score": 0.9567170739173889,
+          "context": "Stand van het teekenwerk."
+        }
+      ],
+      "LOC": [
+        {
+          "word": "Java",
+          "score": 0.936474621295929,
+          "context": "Bijlage C. Voorloopige lijst van monumenten. I Oost Java . . H"
+        },
+        {
+          "word": "Padangsche Boven",
+          "score": 0.9332665205001831,
+          "context": "Bijlage G. Inventaris der oudheden in de Padangsche Boven-"
+        },
+        {
+          "word": "Pa",
+          "score": 0.9244361519813538,
+          "context": "ten van Pagarroejoeng en Soeroeaso 51"
+        },
+        {
+          "word": "##roejoen",
+          "score": 0.652637243270874,
+          "context": "ten van Pagarroejoeng en Soeroeaso 51"
+        },
+        {
+          "word": "Soeroea",
+          "score": 0.6974887847900391,
+          "context": "ten van Pagarroejoeng en Soeroeaso 51"
+        },
+        {
+          "word": "Java",
+          "score": 0.5104855895042419,
+          "context": "Bijlage Q. Voorloopige hjst van monumenten II. Midden Java. 113"
+        },
+        {
+          "word": "Pase",
+          "score": 0.941437304019928,
+          "context": "werkzaamheden in Pase . 118"
+        },
+        {
+          "word": "Java",
+          "score": 0.9136584401130676,
+          "context": "Oudheidkundig Onderzoek op Java en MadoeraJ* dun echter"
+        },
+        {
+          "word": "Mad",
+          "score": 0.776417076587677,
+          "context": "Oudheidkundig Onderzoek op Java en MadoeraJ* dun echter"
+        },
+        {
+          "word": "Java",
+          "score": 0.9791799187660217,
+          "context": "maken van den oudheidkundigen inventaris van Java en"
+        },
+        {
+          "word": "Java",
+          "score": 0.9517821073532104,
+          "context": "mers van het eigen lijke Java resteii nog sleehts de in"
+        },
+        {
+          "word": "Ban",
+          "score": 0.5231842398643494,
+          "context": "Banjoemas en Pekalongan."
+        },
+        {
+          "word": "Pe",
+          "score": 0.7268469929695129,
+          "context": "Banjoemas en Pekalongan."
+        },
+        {
+          "word": "##ong",
+          "score": 0.5541046261787415,
+          "context": "Banjoemas en Pekalongan."
+        },
+        {
+          "word": "Pase",
+          "score": 0.8743011951446533,
+          "context": "oudheidkandig onderzoek in Pase. Deze voorbereiding had"
+        },
+        {
+          "word": "Tiebongan",
+          "score": 0.8367509841918945,
+          "context": "in de vlakte van Prain])anan en naar Tiebongan en een"
+        },
+        {
+          "word": "Grissee",
+          "score": 0.8281381726264954,
+          "context": "naar Grissee: in Februari bezoeht bij de tempels van Dj*^-"
+        },
+        {
+          "word": "Pra",
+          "score": 0.8497021794319153,
+          "context": "inaal begat'. Over de reizen naar Pram ban an (Irissee zie"
+        },
+        {
+          "word": "Melville",
+          "score": 0.9711614847183228,
+          "context": "Bij een eoiitrole-bezoek van den fleer Melville aan de"
+        },
+        {
+          "word": "Venturis",
+          "score": 0.907066822052002,
+          "context": "aanvrage in. Deze in Venturis zal op de gewone wyze bij"
+        }
+      ],
+      "SPE": [
+        {
+          "word": "ab",
+          "score": 0.7198156118392944,
+          "context": "lijkste soorten van abkiatsebeii. Deze proeven zijn nog niet"
+        },
+        {
+          "word": "##kiatsebeii",
+          "score": 0.5743799209594727,
+          "context": "lijkste soorten van abkiatsebeii. Deze proeven zijn nog niet"
+        },
+        {
+          "word": "be",
+          "score": 0.7208015322685242,
+          "context": "Inmiddels werd eveneens voortgegaan met bet bijeeiibreugeii"
+        },
+        {
+          "word": "gapura",
+          "score": 0.8991692066192627,
+          "context": "tot beboud van de gapura te Gfisscc wtu’d in bet vorig ver-"
+        },
+        {
+          "word": "Xoordelijke",
+          "score": 0.5126944780349731,
+          "context": "dus tegenover de trap van de eerst-ontdekte Xoordelijke tjandi;"
+        },
+        {
+          "word": "i ^ aug",
+          "score": 0.7593263983726501,
+          "context": "Tjandi i^augkal (afd."
+        },
+        {
+          "word": "ga",
+          "score": 0.817136824131012,
+          "context": "maatregelen tot behoiid der gapnra gedurende zijn afwezig-"
+        },
+        {
+          "word": "##p",
+          "score": 0.5784508585929871,
+          "context": "maatregelen tot behoiid der gapnra gedurende zijn afwezig-"
+        },
+        {
+          "word": "##n",
+          "score": 0.5517528057098389,
+          "context": "maatregelen tot behoiid der gapnra gedurende zijn afwezig-"
+        },
+        {
+          "word": "ga",
+          "score": 0.882623553276062,
+          "context": "gap lira te Grissee. De opgave liiero nitre nt is opgenomen"
+        },
+        {
+          "word": "li",
+          "score": 0.6918562054634094,
+          "context": "gap lira te Grissee. De opgave liiero nitre nt is opgenomen"
+        },
+        {
+          "word": "##ra",
+          "score": 0.4299338459968567,
+          "context": "gap lira te Grissee. De opgave liiero nitre nt is opgenomen"
+        },
+        {
+          "word": "lingga",
+          "score": 0.827443540096283,
+          "context": "1. de lingga van Boeloes, genummerd 272. met een lange"
+        },
+        {
+          "word": "ma",
+          "score": 0.6108849048614502,
+          "context": "6. bovendrempel met ..mabaprattaya san ranguntiiVk ge-"
+        },
+        {
+          "word": "terra",
+          "score": 0.9535306692123413,
+          "context": "beelden staan nu op een terra.-je op een rij : op den duiir"
+        },
+        {
+          "word": "Pet",
+          "score": 0.9886279702186584,
+          "context": "Petoeugombo (Malang),"
+        },
+        {
+          "word": "##oeugombo",
+          "score": 0.9411428570747375,
+          "context": "Petoeugombo (Malang),"
+        },
+        {
+          "word": "Malang",
+          "score": 0.9619638323783875,
+          "context": "Petoeugombo (Malang),"
+        },
+        {
+          "word": "herten",
+          "score": 0.9880129098892212,
+          "context": "(pot, boom, herten en he-"
+        },
+        {
+          "word": "bet",
+          "score": 0.7396277785301208,
+          "context": "vrouwelijk pendant van bet"
+        }
+      ],
+      "CON": [
+        {
+          "word": "tempel",
+          "score": 0.8912490606307983,
+          "context": "tempels van Vrumh^ntijn werrlen dt^ze alle, voorzoover bezocbt,"
+        },
+        {
+          "word": "tempel",
+          "score": 0.6439520120620728,
+          "context": "eii tempels van Djedong, Bangkal, Kesimau-tengah, Rimbi,"
+        },
+        {
+          "word": "tempel",
+          "score": 0.91539466381073,
+          "context": "tempelrestes, wier cimtrdle van 1902 dateert en waar in"
+        },
+        {
+          "word": "tempel",
+          "score": 0.9828224778175354,
+          "context": "hoek van tleii derden tempel."
+        },
+        {
+          "word": "graf",
+          "score": 0.9893116354942322,
+          "context": "Grissee, bij bet graf van"
+        },
+        {
+          "word": "tempel",
+          "score": 0.7153748273849487,
+          "context": "hefc geheele tempelconiplex sameugesteld."
+        },
+        {
+          "word": "tempel",
+          "score": 0.8387831449508667,
+          "context": "steenen beelden van tempel-"
+        },
+        {
+          "word": "tempelcoin",
+          "score": 0.8016771078109741,
+          "context": "De plattegronii van het tempelcoinplex werd gecalqneerd."
+        },
+        {
+          "word": "toren",
+          "score": 0.9812373518943787,
+          "context": "hebben nit een hooge toren in den vorm van een ge-"
+        },
+        {
+          "word": "Xota",
+          "score": 0.826192319393158,
+          "context": "bpzonderheden zijn te vinden in een Xota met afteeke-"
+        },
+        {
+          "word": "zuilen",
+          "score": 0.4879749119281769,
+          "context": "14. 8teenen zuilen met versiering, in den trant van de bo-"
+        },
+        {
+          "word": "be",
+          "score": 0.5055450201034546,
+          "context": "in die bescbryving ecbter niet gerept. Het bier be-"
+        },
+        {
+          "word": "graven",
+          "score": 0.9435362219810486,
+          "context": "waar ik begon de graven ten Oosten van het"
+        },
+        {
+          "word": "graf",
+          "score": 0.9822198152542114,
+          "context": "vorsteneomplex bloot te leggen. Op een graf na waren alle"
+        },
+        {
+          "word": "z",
+          "score": 0.7521448135375977,
+          "context": "boomeii lateii happen : aan dew voet van elk dier zuiltjes"
+        },
+        {
+          "word": "##uil",
+          "score": 0.9704409241676331,
+          "context": "boomeii lateii happen : aan dew voet van elk dier zuiltjes"
+        },
+        {
+          "word": "graven",
+          "score": 0.9709223508834839,
+          "context": "door zijn reusaehtige wortels de graven, die in de nabijheid"
+        },
+        {
+          "word": "graven",
+          "score": 0.8903714418411255,
+          "context": "tels besebreven marmeren platen eu tragmenten Tan de graven"
+        },
+        {
+          "word": "graven",
+          "score": 0.9558389782905579,
+          "context": "Toen ik met deze antoriteiten de marmeren graven van"
+        },
+        {
+          "word": "graven",
+          "score": 0.9784770607948303,
+          "context": "afdak te bouwen over deze graven en. zoo er nog meer"
+        }
+      ],
+      "MAT": [
+        {
+          "word": "steen",
+          "score": 0.44984596967697144,
+          "context": "Ponorogo toegezonden van den in § 7 genoennlen steen."
+        },
+        {
+          "word": "eii",
+          "score": 0.522594690322876,
+          "context": "iiioiisterkop eii ornament aan"
+        },
+        {
+          "word": "eii",
+          "score": 0.293912410736084,
+          "context": "moiisterkop eii ornament aan"
+        },
+        {
+          "word": "Hay",
+          "score": 0.6635376214981079,
+          "context": "tic ulier bezit bevindend zeer merkwaardig Hayagrlva-bronsje."
+        },
+        {
+          "word": "bronzen",
+          "score": 0.9961651563644409,
+          "context": "vroeger daar bevindend doch thans verdwenen bronzen beeldje."
+        },
+        {
+          "word": "steen",
+          "score": 0.8044193387031555,
+          "context": "kop van een steenen beeld."
+        },
+        {
+          "word": "steen",
+          "score": 0.935053288936615,
+          "context": "steenen beelden van tempel-"
+        },
+        {
+          "word": "##en",
+          "score": 0.6740070581436157,
+          "context": "steenen beelden van tempel-"
+        },
+        {
+          "word": "steen",
+          "score": 0.4947591722011566,
+          "context": "steenen beeld van een man"
+        },
+        {
+          "word": "steen",
+          "score": 0.9773470759391785,
+          "context": "steenen mannebeeld (als"
+        },
+        {
+          "word": "##en",
+          "score": 0.8435262441635132,
+          "context": "steenen mannebeeld (als"
+        },
+        {
+          "word": "steen",
+          "score": 0.4947591722011566,
+          "context": "steenen beeld van een man"
+        },
+        {
+          "word": "steen",
+          "score": 0.6689369678497314,
+          "context": "zittende steenen beelden."
+        },
+        {
+          "word": "steen",
+          "score": 0.8807738423347473,
+          "context": "steenen beeld van een godin."
+        },
+        {
+          "word": "##en",
+          "score": 0.457440048456192,
+          "context": "steenen beeld van een godin."
+        },
+        {
+          "word": "bronzen",
+          "score": 0.9914814233779907,
+          "context": "bronzen beeld van Avaloki-"
+        },
+        {
+          "word": "bronzen",
+          "score": 0.9925296902656555,
+          "context": "bronzen beeld van Qiva."
+        },
+        {
+          "word": "bronzen",
+          "score": 0.993848979473114,
+          "context": "bronzen beeld van Hayagriva."
+        },
+        {
+          "word": "##steen",
+          "score": 0.7536191344261169,
+          "context": "1 . Baksteenen rume, genaamd biaro, waaromtrent niets"
+        },
+        {
+          "word": "zilver",
+          "score": 0.9640123248100281,
+          "context": "een rand van zilver, terwiji de door oxydatie vergane"
+        }
+      ]
+    }
+  },
+  "gap_analysis": {
+    "archeobert_types": [
+      "PER",
+      "ART",
+      "LOC",
+      "SPE",
+      "CON",
+      "MAT"
+    ],
+    "archeobert_total": 988,
+    "phd_required_types": [
+      "LOCATION",
+      "DEPTH",
+      "MATERIAL",
+      "TEMPORAL",
+      "FIND_EVENT",
+      "VOLCANIC_CONTEXT",
+      "SOIL_CONTEXT"
+    ],
+    "phd_gap_types": [
+      "DEPTH",
+      "FIND_EVENT",
+      "VOLCANIC_CONTEXT"
+    ],
+    "gap_description": {
+      "DEPTH": "ArcheoBERTje has NO depth extraction. Colonial texts contain 'diepte', 'meter', 'voet', 'el' measurements critical for VOLCARCH validation.",
+      "FIND_EVENT": "ArcheoBERTje has NO find-event extraction. Colonial texts describe discoveries ('gevonden', 'ontdekt', 'opgegraven') that anchor settlement data.",
+      "VOLCANIC_CONTEXT": "ArcheoBERTje has NO volcanic context. Colonial texts mention 'vulkaan', 'uitbarsting', 'lava', 'lahar' — the core VOLCARCH signal."
+    },
+    "overlap_types": {
+      "LOCATION": "ArcheoBERTje's 'Places' partially covers this, but colonial Dutch spelling (Soerabaja vs Surabaya) and Malay place names reduce accuracy.",
+      "TEMPORAL": "ArcheoBERTje's 'Time periods' partially covers this, but colonial date formats ('den 14den Maart 1687') and reign references need specialized handling.",
+      "MATERIAL": "ArcheoBERTje's 'Artefacts' + 'Materials' partially cover this, but colonial Dutch material terms (17th-18th c.) differ from modern archaeological terminology."
+    }
+  },
+  "e091_comparison": {
+    "experiment": "E091",
+    "title": "Automated NLP Extraction from OV Colonial Reports",
+    "date": "2026-03-16",
+    "input": {
+      "n_volumes": 16,
+      "volumes": [
+        "OV_1912",
+        "OV_1914",
+        "OV_1916",
+        "OV_1917",
+        "OV_1918",
+        "OV_1919",
+        "OV_1920",
+        "OV_1921",
+        "OV_1922",
+        "OV_1923",
+        "OV_1924",
+        "OV_1925",
+        "OV_1926",
+        "OV_1927",
+        "OV_1928",
+        "OV_1929"
+      ],
+      "total_lines": 5927009
+    },
+    "extraction_totals": {
+      "total_mentions": 22162,
+      "depth_numeric": 26,
+      "burial_qualitative": 260,
+      "volcanic": 742,
+      "sites": 6932,
+      "materials": 9238,
+      "locations": 4933,
+      "cooccurrence_2plus": 12968,
+      "high_value_3plus": 4820
+    },
+    "unique_paragraphs": {
+      "with_depth": 23,
+      "with_volcanic": 613,
+      "with_cooccurrence": 3015
+    },
+    "depth_stats": {
+      "n_values": 26,
+      "min_m": 0.0,
+      "max_m": 60.0,
+      "mean_m": 5.64
+    },
+    "volcano_distribution": {
+      "mountain": 175,
+      "tephra": 166,
+      "ijen": 128,
+      "dieng": 76,
+      "lahar": 39,
+      "kelud": 21,
+      "eruption": 20,
+      "lamongan": 17,
+      "tengger": 14,
+      "welirang": 12,
+      "crater": 10,
+      "lava": 9,
+      "wilis": 9,
+      "ungaran": 8,
+      "merapi": 8,
+      "lawu": 5,
+      "slamet": 5,
+      "ringgit": 4,
+      "general": 4,
+      "semeru": 4,
+      "arjuno": 3,
+      "merbabu": 2,
+      "bromo": 2,
+      "raung": 1
+    },
+    "volume_stats": {
+      "OV_1912": {
+        "n_paragraphs": 427,
+        "n_chars": 160835,
+        "n_mentions": 687,
+        "categories": {
+          "volcanic": 20,
+          "location": 134,
+          "site": 283,
+          "material": 245,
+          "depth": 3,
+          "burial": 2
+        }
+      },
+      "OV_1914": {
+        "n_paragraphs": 1054,
+        "n_chars": 281180,
+        "n_mentions": 1409,
+        "categories": {
+          "volcanic": 37,
+          "location": 596,
+          "site": 269,
+          "material": 474,
+          "burial": 29,
+          "depth": 3,
+          "dimension": 1
+        }
+      },
+      "OV_1916": {
+        "n_paragraphs": 568,
+        "n_chars": 241665,
+        "n_mentions": 1025,
+        "categories": {
+          "site": 420,
+          "material": 350,
+          "location": 213,
+          "volcanic": 34,
+          "burial": 6,
+          "dimension": 2
+        }
+      },
+      "OV_1917": {
+        "n_paragraphs": 713,
+        "n_chars": 233191,
+        "n_mentions": 1201,
+        "categories": {
+          "volcanic": 35,
+          "location": 267,
+          "site": 469,
+          "material": 407,
+          "burial": 17,
+          "dimension": 6
+        }
+      },
+      "OV_1918": {
+        "n_paragraphs": 698,
+        "n_chars": 200239,
+        "n_mentions": 880,
+        "categories": {
+          "volcanic": 33,
+          "location": 184,
+          "material": 329,
+          "site": 327,
+          "burial": 5,
+          "dimension": 2
+        }
+      },
+      "OV_1919": {
+        "n_paragraphs": 899,
+        "n_chars": 249513,
+        "n_mentions": 1147,
+        "categories": {
+          "volcanic": 86,
+          "location": 212,
+          "material": 514,
+          "site": 327,
+          "burial": 7,
+          "dimension": 1
+        }
+      },
+      "OV_1920": {
+        "n_paragraphs": 918,
+        "n_chars": 343459,
+        "n_mentions": 1775,
+        "categories": {
+          "site": 684,
+          "material": 643,
+          "location": 361,
+          "volcanic": 60,
+          "burial": 25,
+          "depth": 2
+        }
+      },
+      "OV_1921": {
+        "n_paragraphs": 1383,
+        "n_chars": 469551,
+        "n_mentions": 1184,
+        "categories": {
+          "location": 298,
+          "site": 315,
+          "material": 530,
+          "volcanic": 29,
+          "burial": 12
+        }
+      },
+      "OV_1922": {
+        "n_paragraphs": 1044,
+        "n_chars": 375762,
+        "n_mentions": 1328,
+        "categories": {
+          "location": 263,
+          "material": 634,
+          "site": 385,
+          "volcanic": 38,
+          "burial": 8
+        }
+      },
+      "OV_1923": {
+        "n_paragraphs": 1663,
+        "n_chars": 469619,
+        "n_mentions": 2186,
+        "categories": {
+          "material": 828,
+          "location": 775,
+          "site": 486,
+          "volcanic": 68,
+          "burial": 18,
+          "dimension": 9,
+          "depth": 2
+        }
+      },
+      "OV_1924": {
+        "n_paragraphs": 1395,
+        "n_chars": 439234,
+        "n_mentions": 1853,
+        "categories": {
+          "location": 377,
+          "site": 620,
+          "burial": 25,
+          "material": 787,
+          "dimension": 1,
+          "volcanic": 41,
+          "depth": 2
+        }
+      },
+      "OV_1925": {
+        "n_paragraphs": 1299,
+        "n_chars": 505636,
+        "n_mentions": 1570,
+        "categories": {
+          "location": 342,
+          "site": 486,
+          "volcanic": 64,
+          "material": 644,
+          "burial": 28,
+          "depth": 6
+        }
+      },
+      "OV_1926": {
+        "n_paragraphs": 314,
+        "n_chars": 146798,
+        "n_mentions": 1,
+        "categories": {
+          "material": 1
+        }
+      },
+      "OV_1927": {
+        "n_paragraphs": 1297,
+        "n_chars": 501038,
+        "n_mentions": 1748,
+        "categories": {
+          "location": 237,
+          "site": 765,
+          "material": 632,
+          "volcanic": 73,
+          "burial": 38,
+          "dimension": 3
+        }
+      },
+      "OV_1928": {
+        "n_paragraphs": 2527,
+        "n_chars": 676048,
+        "n_mentions": 2086,
+        "categories": {
+          "site": 532,
+          "location": 345,
+          "material": 1131,
+          "volcanic": 42,
+          "depth": 5,
+          "burial": 26,
+          "dimension": 5
+        }
+      },
+      "OV_1929": {
+        "n_paragraphs": 1866,
+        "n_chars": 633241,
+        "n_mentions": 2082,
+        "categories": {
+          "location": 329,
+          "site": 564,
+          "material": 1089,
+          "volcanic": 82,
+          "burial": 14,
+          "dimension": 1,
+          "depth": 3
+        }
+      }
+    },
+    "ds1_validation": {
+      "total_ds1": 52,
+      "found": 49,
+      "coverage_pct": 94.2,
+      "missing": [
+        "Submerged city at Bale Kambang",
+        "Generic buried temple observation (Krom)",
+        "Bastion excavation (6m+ without floor)"
+      ]
+    }
+  }
+}

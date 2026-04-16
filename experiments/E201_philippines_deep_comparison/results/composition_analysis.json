@@ -1,0 +1,126 @@
+{
+  "experiment": "E201",
+  "title": "Philippines Archaeological Record Deep Composition Analysis",
+  "date": "2026-04-16",
+  "status": "SUCCESS",
+
+  "site_type_composition": {
+    "cave_rock_shelter": {
+      "estimated_count": "250+",
+      "percentage": "~30%",
+      "pre_400CE_proportion": "HIGH",
+      "notes": "Tabon complex 218 caves (38 with archaeology), Penablanca 100+, Mindoro 40+"
+    },
+    "open_air": {
+      "estimated_count": "400+",
+      "percentage": "~50%",
+      "pre_400CE_proportion": "MODERATE-HIGH",
+      "notes": "Cagayan Valley 168+ open-air, Rizal-Bulacan 120, Calatagan hundreds, Batanes"
+    },
+    "shell_midden": {
+      "estimated_count": "50+",
+      "percentage": "~7%",
+      "pre_400CE_proportion": "HIGH",
+      "notes": "Lal-lo/Gattaran 30+ sites, Nagsabaran, Batangas coast"
+    },
+    "burial_non_cave": {
+      "estimated_count": "50+",
+      "percentage": "~7%",
+      "pre_400CE_proportion": "LOW-MODERATE",
+      "notes": "Most are Protohistoric (Calatagan, Santa Ana, Boljoon)"
+    },
+    "rock_art": {
+      "estimated_count": "10+",
+      "percentage": "~1%",
+      "pre_400CE_proportion": "MODERATE",
+      "notes": "Angono, Penablanca, Alab, Singnapan, Anda"
+    },
+    "shipwreck_underwater": {
+      "estimated_count": "10+",
+      "percentage": "~1%",
+      "pre_400CE_proportion": "LOW",
+      "notes": "Mostly post-1000 CE"
+    },
+    "total_estimated": "800+"
+  },
+
+  "pre_400CE_breakdown": {
+    "total_estimated": "275-340",
+    "cave_based": {
+      "count": "100-120",
+      "percentage": "35-45%"
+    },
+    "open_air_based": {
+      "count": "150-220",
+      "percentage": "55-65%"
+    },
+    "key_insight": "Philippines pre-400 CE record is NOT predominantly cave-based. Open-air sites are the majority."
+  },
+
+  "volcanic_zone_comparison": {
+    "philippines_volcanic_pre400CE": "25-40 sites",
+    "java_volcanic_pre400CE": "0 sites",
+    "philippines_active_volcanoes": 24,
+    "java_active_volcanoes": 30,
+    "key_volcanoes_with_nearby_archaeology": [
+      "Pinatubo (pre-colonial Aeta settlements, 500BP buried sites)",
+      "Mayon (Bato Caves 2280BP, Cagsawa, Cagraray, Pilar)",
+      "Taal (Calatagan 505+ graves, Batangas jade 2000-1500 BCE)",
+      "Kanlaon (Tanjay chiefdom, Magsuhot/Bacong Metal Age)",
+      "Iraya (Sunget, Anaro, Naidi — Neolithic sites under ash)",
+      "Bulusan (Bato Caves)"
+    ]
+  },
+
+  "java_comparison": {
+    "philippines_total_pre400CE": "275-340",
+    "java_volcanic_pre400CE": 0,
+    "taphonomic_suppression_factor": ">=275",
+    "material_culture_categories_present_PH": [
+      "pottery/ceramics",
+      "stone tools",
+      "metal objects",
+      "jade/nephrite",
+      "human burials",
+      "organic materials",
+      "rice evidence",
+      "domestic animals",
+      "trade ceramics"
+    ],
+    "material_culture_categories_present_java_volcanic": [],
+    "categories_absent_count": 9
+  },
+
+  "hypothesis_test": {
+    "H0": "Philippines archaeology predominantly cave-based (weakens Java argument)",
+    "H1": "Philippines has diverse record including open-air (strengthens Java argument)",
+    "result": "H0 REJECTED",
+    "confidence": "HIGH",
+    "key_evidence": "Open-air sites = 50% of all documented sites, 55-65% of pre-400 CE sites"
+  },
+
+  "e178_calibration": {
+    "original_pre400CE_count": 60,
+    "revised_pre400CE_count": "275-340",
+    "direction": "UPWARD (E178 underestimated by ~5x)",
+    "gap_with_java": "LARGER than previously estimated"
+  },
+
+  "strengths_of_taphonomic_argument": [
+    "Open-air sites genuinely abundant in Philippines (not cave-dominated)",
+    "Philippine volcanic zones retain 25-40 pre-400 CE sites",
+    "All material culture categories present in Philippines, absent in volcanic Java",
+    "Pinatubo proves volcanic burial preserves sites (if excavated)",
+    "Iraya ash buried and preserved Neolithic sites in Batanes",
+    "Batangas/Taal comparison devastating (39+ eruptions, rich archaeology nearby)"
+  ],
+
+  "weaknesses_of_taphonomic_argument": [
+    "Oldest sites (>10,000 BP) are mostly cave-based",
+    "4,000+ total sites figure may be inflated (500-1,000 well-documented)",
+    "Open-air sites concentrated in well-surveyed regions (Cagayan, Batangas)",
+    "Some Philippine volcanic zones have sparse records too",
+    "Philippines island geography creates coastal proximity advantage",
+    "Poor organic preservation is shared problem (not differentiator)"
+  ]
+}

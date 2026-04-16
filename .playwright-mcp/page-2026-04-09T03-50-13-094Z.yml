@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Image of the GEBCO logoGEBCO Grid Subsetting App New" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Image of the GEBCO logo" [ref=e5]
+        - text: GEBCO Grid Subsetting App
+        - generic [ref=e6]: New
+      - generic [ref=e7]:
+        - link "Help" [ref=e8] [cursor=pointer]:
+          - /url: /help
+        - link "Other downloads" [ref=e9] [cursor=pointer]:
+          - /url: /downloads
+        - link "About GEBCO" [ref=e10] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e12]:
+    - toolbar "Toolbar with button groups" [ref=e22]:
+      - group [ref=e23]:
+        - button "Data:GEBCO 2025 Global" [disabled]:
+          - text: "Data:"
+          - strong: GEBCO 2025 Global
+        - button "Select" [ref=e24] [cursor=pointer]
+      - group [ref=e25]:
+        - group [ref=e26]:
+          - button "Map layers" [ref=e27] [cursor=pointer]
+        - button "Zoom in" [ref=e28] [cursor=pointer]:
+          - img [ref=e29]
+        - button "Zoom out" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+        - button "Show grid lines" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+      - group [ref=e41]:
+        - button "Select subset options" [ref=e42] [cursor=pointer]:
+          - text: Select subset options
+          - img [ref=e43]
+      - group [ref=e46]:
+        - button "0" [ref=e47] [cursor=pointer]:
+          - img [ref=e48]
+          - superscript [ref=e51]: "0"
+        - button "Download" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+  - alert [ref=e11]

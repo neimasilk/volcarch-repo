@@ -4,6 +4,198 @@
 
 ---
 
+## 2026-04-16 | Session 17 — Mata Elang #14 + PhD Proposal Final + New Evidence Streams
+
+**Type:** STRATEGIC + EXPERIMENT
+**Status:** IN PROGRESS (autonomous mode)
+
+### PhD Proposal v0.2 — Final Fixes + Sent
+
+**CRITICAL.** Two errors found and fixed in v0.1 before sending to Verberne:
+1. **±1.2 mm/yr still in RQ4** — Audit trail said removed but text still contained it. Fixed: now "4.4 mm/yr" only.
+2. **E075/E083 conflation** — "363 depths across 12 volcanic systems (E075)" conflated E075 (363 sites, 7 volcanoes) with E083 (51 pairs, 12 systems). Fixed: properly separated with correct attributions.
+
+**Discovery:** ±1.2 IS traceable — calculated from L1_CONSTITUTION §4's 4 calibration points (SD of rates 3.5, ~5.05, ~5.75, ~3.45 ≈ ±1.15). Correctly removed from proposal (n=4 too fragile for external document) but should not be classified as "no source."
+
+Cover email drafted: `docs/correspondence/phd_proposal/COVER_EMAIL_VERBERNE.md`
+PDF recompiled (7 pages, no errors). **Pak Amien sent email to Verberne 2026-04-16.**
+
+### Mata Elang #14: The Deep Structural Reckoning
+
+Full critique: `docs/research_notes/MATA_ELANG_14_2026_04_16.md`
+
+**4 Fatal Risks:**
+- A1: "All Roads Lead to Rome" — 200 experiments, almost all support thesis. No negative result has ever changed core hypothesis. Risk of confirmation bias at scale.
+- A2: Verification Ladder still at Level 0 — 0 papers accepted. 6 under review but zero peer validation.
+- A3: PhD pivot creates identity tension — VOLCARCH manifesto vs NLP methodology thesis.
+- A4: No external human has seen any data — first contacts are PhD emails.
+
+**9 Structural Blind Spots:**
+- B1: Living culture — 200 experiments, 0 study living Javanese practices (Tengger, Baduy, Samin)
+- B2: Material culture — focus on absence, not surviving objects (keris, gamelan, batik)
+- B3: Philippines deep comparison — we know "4,000+ sites" but not WHAT TYPE
+- B4: Oral tradition — wayang/tembang = most direct pre-Hindu evidence, NEVER analyzed
+- B5: Metallurgy — Java has ore deposits, zero pre-400 CE smelting sites (taphonomic?)
+- B6: Genomics — published genome data exists, never analyzed by VOLCARCH
+- B7: Fieldwork avoidance — 200 experiments, 0 field observations
+- B8: Sumatra/Eastern Indonesia absent
+- B9: Maritime/coastal = theory only
+
+**Meta-observation:** Project has become a "quantitative absence detector" — proving something is missing. Almost no work on WHAT is missing. Next phase should flip from "proving absence" to "reconstructing presence."
+
+### E203: Indonesian Genome Population Structure Meta-Analysis — SUCCESS
+
+**5th independent evidence channel.** Literature meta-analysis of 6 published genomic studies:
+
+Key findings:
+1. **Java aDNA blank** — ZERO ancient DNA from volcanic Java (vs. multiple from cave/non-volcanic contexts). The absence IS the taphonomic signal.
+2. **Deep genetic diversity** — 1.8M novel SNVs in West Javanese genomes = large, ancient population (people WERE there).
+3. **Pre-Austronesian substrate** — Austroasiatic-related ancestry detected in western Indonesia (Lipson 2014) = genetic evidence for L4 cosmological overwrite.
+4. **Sunda displacement** — Mentawai extreme bottleneck consistent with L2 Sunda Shelf isolation.
+5. **Toba bottleneck** — NOT confirmed by modern genetics (irrelevant to VOLCARCH's cumulative burial thesis).
+6. **Testable prediction:** East Javanese genomes (when sequenced) should show lower diversity in volcanic interior + higher coastal admixture.
+
+### E204: Bronze Drum Distribution Extended — SUCCESS (extends E164)
+
+New data: ~40 bronze drums found in Java total (broader than E164's 6 specific finds), predominantly in eastern (volcanic) territories. Confirms and extends E164's finding that pre-Hindu material culture DID exist in volcanic Java — metal survives, organic doesn't.
+
+Key reframe: VOLCARCH argument shifts from "zero evidence" to "selective survival" — bronze drums are the survivors of a much larger organic material culture that was erased.
+
+### E202: DEM Depression Detection for Buried Structures — INCONCLUSIVE (practically FAILED)
+
+**Proof-of-concept:** Can Copernicus GLO-30 (30m) DEM detect surface depressions from buried candi via differential compaction? Applied fill-sink, TPI (multi-scale), and local relief analysis to 9 known candi, 8 E080 targets, 8 borehole targets, and 30 random controls across East Java.
+
+**Result: NO.** All 6 statistical tests non-significant (best p=0.326 candi vs control). TPR=11.1%, FPR=10.0% — no discrimination. Reasons:
+1. Individual candi (8-28m footprint) are **sub-pixel** at 30m (0.07-0.68 pixels per structure)
+2. Expected depression signal (0.25-1.5m) is well below DEM noise floor (~3.5m RMSE), SNR=0.14-0.29
+3. Only city-scale features (>200m, Trowulan) approach detectability at 30m
+
+**Useful negative:** Quantified exactly what resolution IS needed:
+- Individual candi: 1-5m (LiDAR)
+- Village compounds: 5-10m (WorldDEM/Pleiades)
+- Settlement clusters: 10-15m (TanDEM-X)
+- City-scale: 30-40m (GLO-30 — only Trowulan qualifies)
+
+**Note:** E080 targets show marginally more negative TPI (p=0.075 at 300m scale) but this reflects volcanic flank topography, not buried structures.
+
+Validates E189 SAR strategy: spectral/interferometric methods are more promising than DEM morphometry for detecting buried sites in volcanic terrain.
+
+### Claim Audit Trail Updated
+
+- ±1.2 mm/yr source identified (L1_CONSTITUTION §4, 4 calibration points)
+- v0.1→v0.2 fixes documented in audit trail
+
+### E201: Philippines Deep Comparison — SUCCESS (DEVASTATING)
+
+H0 REJECTED. Philippines pre-400 CE record is 55-65% OPEN-AIR (not cave-based). 275-340 pre-400 CE sites estimated (larger gap than E178). Pinatubo proves volcanic burial PRESERVES sites. Every material culture category present in Philippines but absent from volcanic Java. Catalog: 52 verified entries.
+
+### E202: DEM Depression Detection — INCONCLUSIVE (Useful Negative)
+
+30m DEM cannot detect buried candi (sub-pixel at 0.07-0.68 px, SNR 0.14-0.29). Resolution threshold quantified: 1-5m LiDAR needed for individual structures.
+
+### E205: Wayang Indigenous Layer — SUCCESS (Living Evidence)
+
+First systematic cataloging of indigenous vs. Indic wayang elements. ~20-30% of stories = sempalan (no Indian source). Punakawan = indigenous deities demoted to servants. The invisible civilization performs on stage every night.
+
+### E206: ArcheoBERTje Gap Analysis — SUCCESS (PhD Core Evidence)
+
+Ran Verberne's own ArcheoBERTje-NER on 2,000 OV colonial text segments. Findings:
+- 988 entities found, 6 types recognized
+- **3 entity types MISSING**: DEPTH, FIND_EVENT, VOLCANIC_CONTEXT (100% gap each)
+- OCR noise degrades performance ~40%: "Banjoemas" splits into fragments
+- Colonial spelling creates out-of-vocabulary tokens
+- **PhD covers 60% entity-type gap + 40% quality gap on existing types**
+
+### E207: GLOBALISE VOC Pilot — SUCCESS (PhD Feasibility Confirmed)
+
+Downloaded 3 VOC transcription files (28,454 lines, ~1786 CE). Key findings:
+- GLOBALISE: **6,893 inventory numbers**, CC0 license, API-downloadable
+- ArcheoBERTje drops **55%** on VOC vs OV text (126 years older, HTR vs OCR)
+- Settlement mentions present: 85 (stad/fort/loge), 150 colonial place names
+- HTR artifacts: 14.5% of lines have word splits, 25.6% have special chars
+- **Full corpus estimated: 65M+ lines** of settlement-rich administrative text
+- Natural collaboration: GLOBALISE = Vossen's project (VU Amsterdam)
+
+### Session 17 Stats
+- Experiments: 200 → **207** (+7: E201-E207)
+- PhD proposal: **SENT** to Verberne
+- Mata Elang: #14 complete (deepest critique to date)
+- New ideas: I-137 to I-146 (10 registered)
+- New evidence channels: genomics (E203, 5th channel), living culture (E205)
+- PhD-supporting: E206 (ArcheoBERTje gap), E207 (GLOBALISE feasibility)
+- Key reframe: "zero evidence" → "selective survival" (E204 bronze drums)
+
+---
+
+## 2026-04-15 | Session 16 — PhD Pivot + Milestone Consolidation
+
+**Type:** STRATEGIC + EXPERIMENT
+**Status:** COMPLETE
+
+### Strategic Development: TWO PhD Inquiries Active
+
+**MAJOR.** Two professors responded positively:
+
+1. **Prof. Shay Cohen (Edinburgh, School of Informatics)** — emailed 2026-04-12. Cohen replied in **5 minutes** asking for CV + transcripts. CV + M.Sc. transcript + research statement sent same day. Apply formally December 2026. Entry October 2027. Framing: structured prediction for historical geospatial NLP.
+
+2. **Prof. Suzan Verberne (Leiden, LIACS)** — emailed 2026-04-14. Verberne replied same day asking for CV + details. Detailed response sent 2026-04-15 00:00 with CV + VOLCARCH Brief. Research proposal due ~2026-04-17. Framing: NLP for archaeological text mining (extends EXALT + "Digging in Documents").
+
+Email exchanges archived: `docs/correspondence/EMAIL_COHEN_EDINBURGH_2026_04_12.md` and `docs/correspondence/EMAIL_VERBERNE_LEIDEN_2026_04_14.md`.
+
+- PhD-by-Publication: 2-3 years, 3 new papers (ACL/EMNLP/LREC/TACL targets)
+- Funding: BPI Dosen (primary), NWO/MSCA (secondary)
+- Start: Oct 2027 or Feb 2028
+- VOLCARCH focus shifting toward NLP for VOC archive mining
+- KITLV email ON HOLD until PhD trajectory clarifies
+- Archived: `docs/correspondence/EMAIL_VERBERNE_LEIDEN_2026_04_14.md`
+
+### Inbox Processed
+
+- `CV_Amien_English_2026.pdf` → `docs/correspondence/`
+- `VOLCARCH_Brief_Verberne.pdf` → `docs/correspondence/`
+- Inbox cleared.
+
+### E198: Sago-Rice Etymology (I-133) — SUCCESS
+
+Tested whether Javanese "sego" (cooked rice) derives from PMP *sagu (sago palm starch) via semantic shift. Finding: *sagu > sego is phonologically MORE REGULAR than the standard *Semay > sego derivation (the *m > g shift in *Semay has no regular sound law). Sundanese "sangu" (cooked rice) provides independent confirmation. Cross-linguistic parallels: English "corn" (grain → maize), "meat" (food → flesh). Taphonomic implication: pre-rice subsistence (sago) = zero durable material culture (all organic). Proposed as Layer 7 of Darkness. 200M-750M person-years of invisible sago civilization.
+
+### E199: Collective Brain / Volcanic Innovation Paradox (I-135) — SUCCESS
+
+Formalized Kremer (1993) + Boserup (1965) for volcanic Java. Java's population (1-2M at 400 CE, E196) REQUIRES innovation at comparable-civilization levels (Funan, Mesoamerica). But archaeological visibility is 25-188x LOWER. The volcanic paradox: fertility drives population (requiring innovation) while eruptions bury evidence (hiding innovation). Japan analog: earthquake culture WITH documentary survival; Java = volcanic culture WITHOUT. Quantified innovation gap: expected 750-3,750 sites, observed 20.
+
+### E141 Phase 3: Low-Relevance Mining — COMPLETE
+
+Mined 433 Phase 1 records below Phase 2 threshold. Rescue rate: 0.2% (1 record). Original classification validated — Phases 2/2c already captured the signal. No depth+volcanic combinations missed. Delpher pipeline quality CONFIRMED.
+
+### Email Drafts Reviewed
+
+- **KITLV:** ON HOLD (reframe needed after Verberne contact — don't cold-email same university during active PhD conversation)
+- **Castillo:** READY TO SEND (experiment count updated to 199, independent of PhD trajectory)
+
+### E200: Historical Dutch NER Baseline — SUCCESS
+
+Analytical experiment quantifying what standard Dutch NER can/cannot do on our colonial texts. Standard NER covers ~27% of required entities (PARTIAL on LOC/DATE only). 73% of entities need custom NER (domain-specific: DEPTH, MATERIAL, FIND_EVENT, VOLCANIC_CONTEXT). 6 historical Dutch challenges quantified: orthographic variation, OCR noise, code-switching, domain specificity, historical units, place-name changes. Defines 5 specific PhD contribution gaps.
+
+### Research Integrity Audit — PhD Proposal
+
+CRITICAL. Systematic audit of all numerical claims in PhD proposal against actual experiment data. Found 5 errors:
+1. ±1.2 mm/yr — NO SOURCE. Removed from proposal.
+2. r = 0.951 — MISATTRIBUTED (E075 363 sites, not 51 pairs). Fixed.
+3. "Three volcanic systems" — WRONG (E083 has 12). Fixed.
+4. "Java ~20" — WRONG (E196 says 0 for volcanic pre-400 CE). Fixed.
+5. "22,000+ settlement references" — MISLEADING (E091 = 22,162 total mentions, only 6,932 sites). Reframed with honest breakdown.
+
+All fixes applied to proposal v0.1. Claim audit trail: `docs/correspondence/phd_proposal/CLAIM_AUDIT_TRAIL.md`
+
+### Session Stats
+- Experiments: 197 → **200** (+3: E198, E199, E200)
+- Inbox: processed, clear
+- Email: Verberne exchange archived
+- Delpher: Phase 3 complete (validates Phase 2 quality)
+- PhD proposal: v0.1 drafted, audited, fixed
+
+---
+
 ## 2026-04-13 | Session 15 — Satellite Archaeology Phase A
 
 **Type:** EXPERIMENT

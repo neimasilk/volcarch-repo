@@ -1,0 +1,684 @@
+{
+  "experiment": "E207",
+  "data_source": "GLOBALISE VOC Transcriptions v2 (CC0)",
+  "data_url": "https://datasets.iisg.amsterdam/dataset.xhtml?persistentId=hdl:10622/LVXSBW",
+  "files_downloaded": {
+    "voc_15440.txt": 12409,
+    "voc_16653.txt": 4988,
+    "voc_17581.txt": 11057
+  },
+  "total_lines": 28454,
+  "historical_dutch_analysis": {
+    "ij_for_y": {
+      "count": 10420,
+      "examples": [
+        {
+          "match": "Ceijlon",
+          "context": "Ceijlon No. 5 A: Stel nu voor Zeeland"
+        },
+        {
+          "match": "Januarij",
+          "context": "„ 2: Kopia Setreete resolutien van den 28: Januarij 1786 tot den 4 Januarij"
+        },
+        {
+          "match": "Januarij",
+          "context": "„ 2: Kopia Setreete resolutien van den 28: Januarij 1786 tot den 4 Januarij"
+        },
+        {
+          "match": "Eij",
+          "context": "India, Goiverneur en direkteur van 't Eij„"
+        },
+        {
+          "match": "Cijlon",
+          "context": "„land Cijlon, met dies onderherigheeden, ne„"
+        }
+      ]
+    },
+    "double_vowel": {
+      "count": 48848,
+      "examples": [
+        {
+          "match": "Ceijlon",
+          "context": "Ceijlon No. 5 A: Stel nu voor Zeeland"
+        },
+        {
+          "match": "voor",
+          "context": "Ceijlon No. 5 A: Stel nu voor Zeeland"
+        },
+        {
+          "match": "Zeeland",
+          "context": "Ceijlon No. 5 A: Stel nu voor Zeeland"
+        },
+        {
+          "match": "Deel",
+          "context": "Deel"
+        },
+        {
+          "match": "bief",
+          "context": "N:o 1: onig. bief door en aan als in den hoofde deses geschreeven"
+        }
+      ]
+    },
+    "line_break_hyphen": {
+      "count": 4117,
+      "examples": [
+        {
+          "match": "plaat„",
+          "context": "„ 6: kopia afgegaene sekreete en apparte brieven na diverse plaat„"
+        },
+        {
+          "match": "heer„",
+          "context": "van den wel Edelen Groot Achtb: heer„"
+        },
+        {
+          "match": "Graaff„",
+          "context": "Willem Iakob Van de Graaff„"
+        },
+        {
+          "match": "Eij„",
+          "context": "India, Goiverneur en direkteur van 't Eij„"
+        },
+        {
+          "match": "ne„",
+          "context": "„land Cijlon, met dies onderherigheeden, ne„"
+        }
+      ]
+    },
+    "old_date": {
+      "count": 15,
+      "examples": [
+        {
+          "match": "5. e Januarij",
+          "context": "bij brief van den 5. e Januarij om de kontracten"
+        },
+        {
+          "match": "7=e februarij",
+          "context": "„korijn Den 7=e februarij Ao 1786. —"
+        },
+        {
+          "match": "16. e Maart",
+          "context": "„patnam Den 16. e Maart 1786. —"
+        },
+        {
+          "match": "4. e April",
+          "context": "„ 17. Duplicaat gemeene brieven de datis 18. Maart, 4. e April,"
+        },
+        {
+          "match": "4.e April",
+          "context": "„ 18. do _„ Secreete brief de dato 4.e April, 26 Maij, 26. Juni"
+        }
+      ]
+    },
+    "colonial_place": {
+      "count": 150,
+      "examples": [
+        {
+          "match": "Batavia",
+          "context": "„ 3: kopia afgegaene sekreete brieven na Batavia van den 4. April"
+        },
+        {
+          "match": "Batavia",
+          "context": "regeering te Batavia geschreeven"
+        },
+        {
+          "match": "Ceilon",
+          "context": "tijd 't behoud van Ceilon daar van afhangge"
+        },
+        {
+          "match": "Ceilon",
+          "context": "verbeetering aan de vesting werken op Ceilon, onze ne„"
+        },
+        {
+          "match": "Ceilon",
+          "context": "heid van geschut en andere ammonitie goederen op Ceilon"
+        }
+      ]
+    },
+    "voc_title": {
+      "count": 239,
+      "examples": [
+        {
+          "match": "Gouverneur",
+          "context": "heer Ceijlons Gouverneur aan de hoog indiasch"
+        },
+        {
+          "match": "Gouverneur",
+          "context": "„dig te onderhouden. Jn september is de Gouverneur"
+        },
+        {
+          "match": "Gouverneur",
+          "context": "Eenigen tijd voor 't vertrek van den Gouverneur"
+        },
+        {
+          "match": "Gouverneur",
+          "context": "„king gemaakt heeft, en door den Gouverneur over de ge="
+        },
+        {
+          "match": "Gouverneur",
+          "context": "door den Gouverneur gelast om opteneemen de hoe veel"
+        }
+      ]
+    },
+    "measurement": {
+      "count": 3,
+      "examples": [
+        {
+          "match": "3 duim",
+          "context": "Bommen voor 12 /3 duim Mortier - 200"
+        },
+        {
+          "match": "7. voet",
+          "context": "lang 60½ voet breed 15. en diep 7. voet"
+        },
+        {
+          "match": "9. duim",
+          "context": "9. duim gekost rd=s 266:12. en die te"
+        }
+      ]
+    },
+    "currency": {
+      "count": 2,
+      "examples": [
+        {
+          "match": "20. stuiver",
+          "context": "dan om de Guldens teegens 20. stuiver"
+        },
+        {
+          "match": "150. stuiver",
+          "context": "op 150. stuiver word bepaald t: hebben wij volgens re„"
+        }
+      ]
+    },
+    "geographic_admin": {
+      "count": 2,
+      "examples": [
+        {
+          "match": "landschap",
+          "context": "genoomen, zijnde een landschap, tribu„"
+        },
+        {
+          "match": "landschap",
+          "context": "wadie en het landschap Pringie sje„"
+        }
+      ]
+    },
+    "settlement_mention": {
+      "count": 85,
+      "examples": [
+        {
+          "match": "stad",
+          "context": "stad voor de punten. Delft en Hoorn."
+        },
+        {
+          "match": "reede",
+          "context": "en wijders ook dat het deeze vergadering reede„"
+        },
+        {
+          "match": "fort",
+          "context": "aanwyzing doen. Van het fort Oostenburg."
+        },
+        {
+          "match": "stad",
+          "context": "van de oude stad die het naast aan het kasteel"
+        },
+        {
+          "match": "fort",
+          "context": "de Hollanders op deese kust buijten 't fort geen"
+        }
+      ]
+    },
+    "archaeological": {
+      "count": 5,
+      "examples": [
+        {
+          "match": "oudheid",
+          "context": "oudheid van veele rechten waarop wij ons alter"
+        },
+        {
+          "match": "steen",
+          "context": "steen achtige grond opgevuld en belegd, waar door"
+        },
+        {
+          "match": "Graf",
+          "context": "Heer Burg Graf de Sonillac en noo¬"
+        },
+        {
+          "match": "steen",
+          "context": "206. 2. steen Zeep suratse - - - - - - - - - - - - - —. 1. 6„ 14. 6. 8. —. 2. 3„"
+        },
+        {
+          "match": "steen",
+          "context": "huijs van steen en kalk te laaten"
+        }
+      ]
+    },
+    "volcanic": {
+      "count": 10,
+      "examples": [
+        {
+          "match": "berg",
+          "context": "gang aan den voet van den berg te maaken, de"
+        },
+        {
+          "match": "berg",
+          "context": "aan den voet van den berg te maaken, de drooge"
+        },
+        {
+          "match": "berg",
+          "context": "„berg, met -"
+        },
+        {
+          "match": "Berg",
+          "context": "/:getekend:/ W: A: Berg„"
+        },
+        {
+          "match": "asch",
+          "context": "asch guarnisoen bestemd op een"
+        }
+      ]
+    },
+    "depth": {
+      "count": 9,
+      "examples": [
+        {
+          "match": "diep",
+          "context": "Ik heb de eer met alle diep ontzach te zijn"
+        },
+        {
+          "match": "diepte",
+          "context": "kunnen houden. En rond om dezelven is diepte genoeg"
+        },
+        {
+          "match": "diep",
+          "context": "uitgenoomen, is de gracht maar 6. a 6½ voet diep, en"
+        },
+        {
+          "match": "diepte",
+          "context": "de Punt Delft maar groote 4. voeten diepte."
+        },
+        {
+          "match": "diep",
+          "context": "plaatsen maar 6. voeten diep,"
+        }
+      ]
+    }
+  },
+  "htr_quality_issues": {
+    "line_break_artifacts": 4117,
+    "equals_in_dates": 43,
+    "special_chars": 7283,
+    "very_short_lines": 2256,
+    "number_fragments": 693,
+    "mixed_case_words": 0
+  },
+  "archeobert_on_voc": {
+    "entity_counts": {
+      "LOC": 31,
+      "PER": 18,
+      "ART": 13,
+      "SPE": 17,
+      "CON": 14,
+      "MAT": 7
+    },
+    "total_entities": 100,
+    "n_segments": 500,
+    "entity_examples": [
+      {
+        "type": "LOC",
+        "word": "Zeeland",
+        "score": 0.9886950850486755,
+        "context": "Ceijlon No. 5 A: Stel nu voor Zeeland"
+      },
+      {
+        "type": "PER",
+        "word": "178",
+        "score": 0.9673882126808167,
+        "context": "„ 2: Kopia Setreete resolutien van den 28: Januarij 1786 tot den 4 Januarij"
+      },
+      {
+        "type": "PER",
+        "word": "##6",
+        "score": 0.7593660950660706,
+        "context": "„ 2: Kopia Setreete resolutien van den 28: Januarij 1786 tot den 4 Januarij"
+      },
+      {
+        "type": "PER",
+        "word": "Batavia",
+        "score": 0.9646715521812439,
+        "context": "„ 3: kopia afgegaene sekreete brieven na Batavia van den 4. April"
+      },
+      {
+        "type": "LOC",
+        "word": "de Kaap",
+        "score": 0.542090654373169,
+        "context": "„ 4: kopia afgegaene setreete brief na de Kaap onder heedigen dato"
+      },
+      {
+        "type": "ART",
+        "word": "kop",
+        "score": 0.8871081471443176,
+        "context": "„ 6: kopia afgegaene sekreete en apparte brieven na diverse plaat„"
+      },
+      {
+        "type": "SPE",
+        "word": "Ze",
+        "score": 0.8994991779327393,
+        "context": "Generaale Vorte sterkte van de Zeevarende ten deese"
+      },
+      {
+        "type": "SPE",
+        "word": "##evaren",
+        "score": 0.6170793771743774,
+        "context": "Generaale Vorte sterkte van de Zeevarende ten deese"
+      },
+      {
+        "type": "LOC",
+        "word": "Batavia",
+        "score": 0.7339798212051392,
+        "context": "regeering te Batavia geschreeven"
+      },
+      {
+        "type": "PER",
+        "word": "178",
+        "score": 0.8604437112808228,
+        "context": "Molombo den 30. Januarij Ao 1787—"
+      },
+      {
+        "type": "PER",
+        "word": "##7",
+        "score": 0.7494726777076721,
+        "context": "Molombo den 30. Januarij Ao 1787—"
+      },
+      {
+        "type": "PER",
+        "word": "178",
+        "score": 0.9844218492507935,
+        "context": "Kolombo den 30. ' Januarij 1787 —"
+      },
+      {
+        "type": "PER",
+        "word": "##7",
+        "score": 0.8341267108917236,
+        "context": "Kolombo den 30. ' Januarij 1787 —"
+      },
+      {
+        "type": "LOC",
+        "word": "Edele Achtbaare Heeren",
+        "score": 0.9148156046867371,
+        "context": "Aan de wel Edele Achtbaare Heeren"
+      },
+      {
+        "type": "PER",
+        "word": "1786",
+        "score": 0.7832525372505188,
+        "context": "22. ' Februarij 1786. hebben we de eere gehad uwel"
+      },
+      {
+        "type": "LOC",
+        "word": "Ce",
+        "score": 0.6081205606460571,
+        "context": "tijd 't behoud van Ceilon daar van afhangge"
+      },
+      {
+        "type": "ART",
+        "word": "geb",
+        "score": 0.6779612302780151,
+        "context": "Uijt hoofde van de veele gebreeken die de kapitaale"
+      },
+      {
+        "type": "LOC",
+        "word": "Delft",
+        "score": 0.9936362504959106,
+        "context": "de punt Delft tot de punt Middelburg, 't hasteel"
+      },
+      {
+        "type": "LOC",
+        "word": "Middelburg",
+        "score": 0.9929660558700562,
+        "context": "de punt Delft tot de punt Middelburg, 't hasteel"
+      },
+      {
+        "type": "CON",
+        "word": "Con",
+        "score": 0.7983159422874451,
+        "context": "te versterken met Contregardes en ravelijns. Wij de"
+      },
+      {
+        "type": "CON",
+        "word": "##tre",
+        "score": 0.6810806393623352,
+        "context": "te versterken met Contregardes en ravelijns. Wij de"
+      },
+      {
+        "type": "CON",
+        "word": "##gard",
+        "score": 0.44284483790397644,
+        "context": "te versterken met Contregardes en ravelijns. Wij de"
+      },
+      {
+        "type": "CON",
+        "word": "rav",
+        "score": 0.9364585280418396,
+        "context": "te versterken met Contregardes en ravelijns. Wij de"
+      },
+      {
+        "type": "CON",
+        "word": "##elijn",
+        "score": 0.6104410290718079,
+        "context": "te versterken met Contregardes en ravelijns. Wij de"
+      },
+      {
+        "type": "LOC",
+        "word": "Middelburg",
+        "score": 0.9936431646347046,
+        "context": "punt Middelburg in 't bijzonder, schijnt het van een"
+      },
+      {
+        "type": "LOC",
+        "word": "Delft",
+        "score": 0.9947658777236938,
+        "context": "stad voor de punten. Delft en Hoorn."
+      },
+      {
+        "type": "LOC",
+        "word": "Hoorn",
+        "score": 0.993359386920929,
+        "context": "stad voor de punten. Delft en Hoorn."
+      },
+      {
+        "type": "CON",
+        "word": "kasteel",
+        "score": 0.509863018989563,
+        "context": "het tusschen in geleegen gedeelte van 't kasteel dat tee"
+      },
+      {
+        "type": "ART",
+        "word": "vi",
+        "score": 0.6895681023597717,
+        "context": "gens 't lak uijtkomt, wijl de attaque bij een vijan„"
+      },
+      {
+        "type": "CON",
+        "word": "kasteel",
+        "score": 0.8657848834991455,
+        "context": "„kende gedeelte van 't kasteel, waar op onder anderen de"
+      },
+      {
+        "type": "LOC",
+        "word": "Gaalze",
+        "score": 0.7484006881713867,
+        "context": "Gaalze Poort; van een allerdringen te noodzake„"
+      },
+      {
+        "type": "PER",
+        "word": "1786",
+        "score": 0.7278392314910889,
+        "context": "1786. hebben we bereeds de eer gehad uwel Edele"
+      },
+      {
+        "type": "LOC",
+        "word": "Ceilon",
+        "score": 0.9501767754554749,
+        "context": "verbeetering aan de vesting werken op Ceilon, onze ne„"
+      },
+      {
+        "type": "LOC",
+        "word": "Edel",
+        "score": 0.507318913936615,
+        "context": "Missive aan Hunne Hoog Edelheeden de Edele Hooge"
+      },
+      {
+        "type": "PER",
+        "word": "178",
+        "score": 0.9937527775764465,
+        "context": "Jndiasche Regeering van den 5 November anno 1785."
+      },
+      {
+        "type": "PER",
+        "word": "##5",
+        "score": 0.9798473119735718,
+        "context": "Jndiasche Regeering van den 5 November anno 1785."
+      },
+      {
+        "type": "PER",
+        "word": "178",
+        "score": 0.9875962734222412,
+        "context": "onzen nedrigen van den 28:e Januarij 1786. omstan„"
+      },
+      {
+        "type": "PER",
+        "word": "##6",
+        "score": 0.7706733345985413,
+        "context": "onzen nedrigen van den 28:e Januarij 1786. omstan„"
+      },
+      {
+        "type": "LOC",
+        "word": "Oostenburg",
+        "score": 0.9479149580001831,
+        "context": "van Oostenburg, en om te gelijker tijd zoo veel het geschi„"
+      },
+      {
+        "type": "SPE",
+        "word": "##weeg",
+        "score": 0.6941086053848267,
+        "context": "eerst en tot dat wa op de voorstellen derweegens gedaan"
+      },
+      {
+        "type": "PER",
+        "word": "178",
+        "score": 0.9947723746299744,
+        "context": "van den 26. Junij 1786. §. 38 door de Minis„"
+      },
+      {
+        "type": "PER",
+        "word": "##6",
+        "score": 0.9810289740562439,
+        "context": "van den 26. Junij 1786. §. 38 door de Minis„"
+      },
+      {
+        "type": "ART",
+        "word": "app",
+        "score": 0.5259070992469788,
+        "context": "bij ze van elk der voorsz: plaatzen appart aanwij„"
+      },
+      {
+        "type": "LOC",
+        "word": "Ravelijn",
+        "score": 0.7433258295059204,
+        "context": "„deren daar bij aan, dat het Ravelijn dat reeds"
+      },
+      {
+        "type": "LOC",
+        "word": "Oosten",
+        "score": 0.8383814096450806,
+        "context": "doen. van 't front Oostenburg hebben ze ook"
+      },
+      {
+        "type": "CON",
+        "word": "ge",
+        "score": 0.647412896156311,
+        "context": "zoude kunnen worden in agt genoomen. ze toonen"
+      },
+      {
+        "type": "LOC",
+        "word": "pa",
+        "score": 0.7299472689628601,
+        "context": "Dat de pagoodsberg de hoofdplaats zijn moet, en"
+      },
+      {
+        "type": "LOC",
+        "word": "##n",
+        "score": 0.5276342630386353,
+        "context": "tenburg, naar het voorgeschreevene bij deeze Memorie"
+      },
+      {
+        "type": "LOC",
+        "word": "Trinkenomal",
+        "score": 0.92811119556427,
+        "context": "hebben te Trinkenomale zijnde reeds daar over hunne ge"
+      },
+      {
+        "type": "LOC",
+        "word": "Trinkenoma",
+        "score": 0.7164161205291748,
+        "context": "plans voor Trinkenomale en oostenburg ontwerpen, die"
+      }
+    ]
+  },
+  "ov_vs_voc_comparison": {
+    "ART": {
+      "ov_count": 244,
+      "ov_rate": 0.122,
+      "voc_count": 13,
+      "voc_rate": 0.026,
+      "ratio_voc_over_ov": 0.21
+    },
+    "CON": {
+      "ov_count": 61,
+      "ov_rate": 0.0305,
+      "voc_count": 14,
+      "voc_rate": 0.028,
+      "ratio_voc_over_ov": 0.92
+    },
+    "LOC": {
+      "ov_count": 249,
+      "ov_rate": 0.1245,
+      "voc_count": 31,
+      "voc_rate": 0.062,
+      "ratio_voc_over_ov": 0.5
+    },
+    "MAT": {
+      "ov_count": 107,
+      "ov_rate": 0.0535,
+      "voc_count": 7,
+      "voc_rate": 0.014,
+      "ratio_voc_over_ov": 0.26
+    },
+    "PER": {
+      "ov_count": 151,
+      "ov_rate": 0.0755,
+      "voc_count": 18,
+      "voc_rate": 0.036,
+      "ratio_voc_over_ov": 0.48
+    },
+    "SPE": {
+      "ov_count": 176,
+      "ov_rate": 0.088,
+      "voc_count": 17,
+      "voc_rate": 0.034,
+      "ratio_voc_over_ov": 0.39
+    }
+  },
+  "phd_implications": {
+    "data_volume": "GLOBALISE has 6,893 inventory numbers with TXT transcriptions = ~65377807 estimated total lines",
+    "htr_challenges": "Line break artifacts (word splits across lines), equals-sign dates, special characters — all WORSE than OV OCR",
+    "18th_century_challenges": [
+      "Spelling: Januarij, Meij, Julij (pre-reform Dutch)",
+      "Abbreviations: M=r (Mijnheer), UE: (Uw Edelheid)",
+      "Administrative vocabulary: Gouverneur Generaal, Raaden van Indie",
+      "Mixed languages: Dutch + Malay + Portuguese place names",
+      "HTR line breaks split words: 'ver„rigtingen', 'hou„vernements'"
+    ],
+    "settlement_extraction_potential": "Administrative correspondence mentions forts, trading posts, settlements — structured settlement data IF entities can be extracted"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "experiment": "E200",
+  "title": "Historical Dutch NER Baseline",
+  "status": "SUCCESS",
+  "e091_total_mentions": 22162,
+  "e091_site_mentions": 6932,
+  "e091_location_mentions": 4933,
+  "e091_material_mentions": 9238,
+  "e141_total_records": 1768,
+  "e141_geocoded": 165,
+  "standard_ner_coverage_estimate": "27% (PARTIAL on LOC/DATE only)",
+  "domain_specific_gap": "73% of entities have NO standard NER coverage",
+  "phd_gaps_identified": 5,
+  "colonial_spelling_variants_per_entity": "2-5 average",
+  "ocr_error_rate_estimate": "3-8%",
+  "non_dutch_entity_fraction": "~15%"
+}

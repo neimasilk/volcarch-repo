@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "A&C Logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "A&C Logo" [ref=e5]
+      - link "Archeologia e Calcolatori" [ref=e6] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e7]:
+      - link "HOME" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "ABOUT " [ref=e10] [cursor=pointer]:
+        - /url: "#"
+        - text: ABOUT
+        - generic [ref=e11]: 
+      - link "VOLUMES " [ref=e13] [cursor=pointer]:
+        - /url: "#"
+        - text: VOLUMES
+        - generic [ref=e14]: 
+      - link "SPECIAL ISSUES " [ref=e16] [cursor=pointer]:
+        - /url: "#"
+        - text: SPECIAL ISSUES
+        - generic [ref=e17]: 
+      - link "SEARCH" [ref=e18] [cursor=pointer]:
+        - /url: /search
+      - link "3D GALLERY" [ref=e19] [cursor=pointer]:
+        - /url: /3d-gallery?page=1
+      - link "IADI" [ref=e20] [cursor=pointer]:
+        - /url: https://iadi.archcalc.cnr.it
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - heading "Terms and Conditions" [level=1] [ref=e23]
+      - paragraph [ref=e24]:
+        - text: Except where otherwise noted, content on this site is licensed under a
+        - link "CC BY-NC-ND 4.0" [ref=e25] [cursor=pointer]:
+          - /url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+        - text: Licence.
+      - paragraph [ref=e26]: Articles published in Archeologia e Calcolatori, from issue 9 (1998) onwards, are Open Access. For the previous issues, descriptive metadata and abstracts can be downloaded. Content may be used only under the terms of the CC BY-NC-ND 4.0 Licence.
+      - paragraph [ref=e27]:
+        - text: Since 2000, articles are also stored in the
+        - link "CNR SOLAR" [ref=e28] [cursor=pointer]:
+          - /url: http://eprints.bice.rm.cnr.it/
+        - text: (Scientific Open-access Literature Archive and Repository) database.
+      - paragraph [ref=e29]: The opinions stated in the articles do not necessarily reflect the opinions of the management or editorial staff of the Journal.
+      - paragraph [ref=e30]: "Please contact the journal for any further information: redazioneac@ispc.cnr.it"
+    - text: ✕
+  - contentinfo [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - paragraph [ref=e34]:
+          - link "CNR - Istituto di Scienze del Patrimonio Culturale" [ref=e35] [cursor=pointer]:
+            - /url: https://www.ispc.cnr.it
+            - img "CNR - Istituto di Scienze del Patrimonio Culturale" [ref=e36]
+        - paragraph [ref=e37]:
+          - link "Archeologia e Calcolatori" [ref=e38] [cursor=pointer]:
+            - /url: http://www.archcalc.cnr.it
+            - img "Archeologia e Calcolatori" [ref=e39]
+      - paragraph [ref=e41]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://x.com/ISPCAEC
+          - img [ref=e43]
+        - link [ref=e44] [cursor=pointer]:
+          - /url: https://www.facebook.com/archeologiaecalcolatori
+          - img [ref=e45]
+      - list [ref=e49]:
+        - listitem [ref=e50] [cursor=pointer]:
+          - link "Privacy policy" [ref=e51]:
+            - /url: /pages/privacy
+        - listitem [ref=e52] [cursor=pointer]:
+          - link "Credits and Contacts" [ref=e53]:
+            - /url: /pages/credits
+        - listitem [ref=e54] [cursor=pointer]:
+          - link "Terms" [ref=e55]:
+            - /url: /pages/terms
+        - listitem [ref=e56] [cursor=pointer]:
+          - link "REST API beta" [ref=e57]:
+            - /url: /api
+      - text: beta
+      - generic [ref=e58]:
+        - paragraph [ref=e59]: © CNR - Istituto di Scienze del Patrimonio Culturale (2026)
+        - paragraph [ref=e60]:
+          - link "Creative Commons License" [ref=e61] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+            - img "Creative Commons License" [ref=e62]

@@ -1,10 +1,42 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-04-13 (Session 15: AutoResearch autonomous — 9 experiments + E141 extended)
-**MODE: CONSOLIDATION + NEW DATA FRONTIERS.** Satellite Phase A complete. Colonial Delpher pipeline operational. 6 papers under review.
-**SESSION 15 COMPLETED (2026-04-13).** 9 new experiments (E189-E197) + E141 multi-phase. 197 total. Satellite + L2 + AHA + population + colonial validation.
-**HANDOFF:** `docs/HANDOFF_20260413_SESSION15.md`
+**Last updated:** 2026-04-16 (Session 17: ME#14 + PhD sent + core stack)
+**MODE: RISET DALAM DIAM.** No more paper submissions. Papers = PhD ammo. Core stack building.
+**SESSION 17 COMPLETED (2026-04-16).** 7 new experiments (E201-E207). 207 total. PhD proposal SENT to Verberne. GLOBALISE pipeline built. 6.26M words preprocessed.
+**HANDOFF:** `docs/HANDOFF_20260416_SESSION17.md`
+
+## *** STRATEGIC DEVELOPMENT: THREE PhD TRACKS ACTIVE ***
+
+### Track 1: Suzan Verberne (Leiden, LIACS) — PROPOSAL READY
+- NLP for archaeological text mining (extends EXALT + "Digging in Documents")
+- **Research proposal v0.1 READY** (7pp, audited): `docs/correspondence/phd_proposal/PhD_Proposal_Amien_Leiden_v0.1.pdf`
+- **Claim audit trail**: `docs/correspondence/phd_proposal/CLAIM_AUDIT_TRAIL.md`
+- **Cover email READY** (copy-paste)
+- **Timeline: Pak Amien review → kirim ~17 April**
+- Email exchange: `docs/correspondence/EMAIL_VERBERNE_LEIDEN_2026_04_14.md`
+
+### Track 2: Piek Vossen (VU Amsterdam, CLTL/GLOBALISE) — EMAIL DRAFTED
+- GLOBALISE PI = 5M+ VOC manuscript pages. Spinoza Prize winner.
+- PhD student Stella Verkijk already doing VOC Event Reconstruction → complementary
+- **Email draft READY**: `docs/drafts/email_vossen_vu_globalise.md`
+- **Timeline: kirim ~21-22 April** (3-5 hari setelah Verberne)
+- Potential: promotor utama, atau co-promotor dengan Verberne
+
+### Track 3: Shay Cohen (Edinburgh, Informatics) — CV SENT, WAITING
+- Structured prediction + multilingual NLP. Responded in 5 minutes.
+- CV + transcript + research statement sudah dikirim 2026-04-12
+- **Timeline: apply formal December 2026, entry October 2027**
+- Email exchange: `docs/correspondence/EMAIL_COHEN_EDINBURGH_2026_04_12.md`
+- Backup track — Edinburgh mahal (tuition £30K+/yr) tapi NLP reputation top-5 world
+
+### Strategy
+- Prioritas: **Belanda** (arsip VOC di sana, employment model, no tuition)
+- Dua-duanya Leiden + VU bisa jadi joint supervision (promotor + co-promotor)
+- Edinburgh = backup kalau Belanda tidak jalan
+- **KITLV email ON HOLD** — tunggu PhD trajectory
+- **Castillo email READY TO SEND** — independent of PhD
+- **IELTS: mid-2026**
 
 ---
 
@@ -61,13 +93,13 @@
   - Files: `papers/P19_before_the_inscriptions/`
 - **P9 retargeting (HOLD)** — Rejected from JSEAS.
   - Target: **DHQ** / Wacana — wait for P2/P8 outcome first
-- ~~E076 v2 satellite~~ — **SUPERSEDED by E189.** E076 pipeline used as foundation for E189 multi-index analysis.
-- **E189 satellite spectral feasibility** — **COMPLETED (core).** WEAK SIGNAL: NDVI local variance p=0.071, Cohen's d=0.356. Candi show 49% higher heterogeneity. Full 60-site run in progress. Next: Phase B (SAR).
-- **Colonial data verification** — 10 E070 entries on Delpher.nl. **BLOCKED** (manual task, no time)
-- **JCAA APC UPDATE (2026-04-08)** — P2 charges **£593**. Waiver formally requested 2026-04-06. **Verhagen replied 2026-04-07: "Thank you, noted."** Request acknowledged, decision pending. WAIT. If waiver denied and P2 accepted, must withdraw and retarget.
-- ~~P11 submit~~ — **SUBMITTED** 2026-03-31 to Indonesia (Cornell). Wait for response.
-- **P17 ArchCalc submit** — **95% READY** → 4 submission files created (2026-04-02). Pak Amien: verify formatting → create account → upload.
-- **P11 Zenodo preprint** — **BLOCKED** (manual upload, besok)
+- ~~E076 v2 satellite~~ — **SUPERSEDED by E189.**
+- **E189 satellite spectral feasibility** — **COMPLETED.** NDVI local variance p=0.071. Next: Phase B (SAR).
+- **E198 sago-rice etymology (I-133)** — **COMPLETED 2026-04-15.** *sagu > sego phonologically regular. Sundanese "sangu" confirms. Layer 7 proposed. 199 experiments total.
+- **E199 Collective Brain (I-135)** — **COMPLETED 2026-04-15.** Kremer/Boserup formalized. Innovation gap 25-188x. Volcanic paradox quantified.
+- **E141 Phase 3** — **COMPLETED 2026-04-15.** 433 low-relevance records mined. Rescue rate 0.2%. Classification quality VALIDATED.
+- **Colonial data verification** — 10 E070 entries on Delpher.nl. **BLOCKED** (manual task)
+- **JCAA APC** — Waiver requested 2026-04-06. Verhagen acknowledged 2026-04-07. WAIT.
 - **P19 deep reading** — **BLOCKED** (Lombard Vol.3, Bloembergen, Wolters — manual reading)
 - **NEW: P20 TobaSim** — Proposal in `docs/drafts/P20_tobasim_proposal_v0.1.md`. FALL3D Toba 74ka simulation. Needs geologist co-author.
 - **NEW: P21 ColonialMine** — Proposal in `docs/drafts/P21_colonialmine_proposal_v0.1.md`. Dutch colonial NLP. Most actionable of 3 new proposals.
@@ -127,6 +159,8 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## COMPLETED PREVIOUS SESSIONS
 
+- **Session 16 (2026-04-15)** — PhD pivot + milestone consolidation. Prof. Suzan Verberne (LIACS, Leiden) responded positively to PhD inquiry (NLP for colonial Dutch archives). Research proposal due ~2026-04-17. 2 new experiments: E198 sago-rice etymology (Layer 7, *sagu > sego phonologically regular), E199 Collective Brain (Kremer/Boserup, innovation gap 25-188x). E141 Phase 3 validated Phase 2 quality (0.2% rescue rate). KITLV email on hold. Castillo email ready. 199 experiments total.
+- **Session 15 (2026-04-13)** — AutoResearch autonomous. 9 new experiments (E189-E197). Satellite Phase A (NDWI p=0.032), L2 entry points, AHA (E195 rho=+0.53), population 1-2M (E196), colonial depth validation (E197). E141 extended: 1,768 records, 165 geocoded, 33 depths. DHARMA monoculture broken.
 - **Session 10 (2026-04-02)** — P8 arXiv published (2604.00023). P17 ArchCalc compliance audit against real papers (website rules differ!): dashes, captions, paragraph numbering all fixed. Tables rebuilt via python-docx. Spelling standardized British. 4 submission files ready. Email standardization verified (go-public unblocked).
 - **Session 9 (2026-03-31)** — **Mata Elang #12 autonomous session (extended).** Deepest structural critique to date. **10 new experiments (E154-E163):** E154 FDR re-audit (78.3%), E155 cross-regional cascade (rho=1.0), E156 L1xL2 double erasure, E157 ethnographic F4/F2, E158 steelman counter-args, E159 robustness battery (5/5 ROBUST), E160 GPU NLP (929 CE z=3.04), E161 Bali (5/5 confirmed), E162 synthesis, E163 Sumatra (nuanced: Sriwijaya paradox). **Plus:** P17 v0.3 ArchCalc-ready (anonymized, ~5.2K words), interactive prediction map, borehole targeting protocol ($6K for 20 holes). **163 experiments total.**
 - **Session 8 (2026-03-31)** — Post-ME#11 pipeline. **P11 SUBMITTED** to Indonesia (Cornell): Chicago 17th conversion, E153 candi-settlement proxy test (p<0.0001), Liangan validation strengthened, AI prose audit passed, cover letter sent. P17 target confirmed: ArchCalc, rules downloaded (6K word limit, needs trim). JCAA APC crisis: £593, waiver very difficult. E153 experiment: 154 experiments total. KB.nl Delpher reply received — colonial data already public, no action needed.
@@ -148,11 +182,13 @@ Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern
 
 ## SESSION PROMPT
 
-STATUS: **197 experiments** (E001-E197, E180 skipped). **Session 15 autonomous.** Satellite + L2 + AHA + population + colonial.
-**Session 15 (9 experiments + E141 extended):** E189-E192 satellite, E193 L2, E194 map, **E195 AHA (rho=+0.53)**, **E196 population (1-2M, ≥694× suppression)**, **E197 depth validation (Wilcoxon p=0.131, model confirmed by 33 colonial records)**. E141: 1.768 records, 5.8× enrichment. DHARMA monoculture broken.
-**Papers:** 6 under review (P1-EGQSJ, P2-JCAA, P7-Antiquity, P8-OL, P11-Archipel, P17-ArchCalc). P16 drafting. P18 HOLD.
-**Phase:** SATELLITE FRONTIER + CONSOLIDATION. DHARMA mining CLOSED. Next: SAR (Sentinel-1) for subsurface moisture detection.
-**Key context:** Cascade reframed (E176). Karst = 6th factor (E178). West Java smoking gun = strongest evidence.
+STATUS: **207 experiments** (E001-E207, E180 skipped). **Session 17.** Riset dalam diam + core stack.
+**Session 17 (7 experiments):** E201 Philippines deep comparison (55-65% open-air, gap LARGER), E202 DEM depression (30m fails), E203 genome meta-analysis (5th evidence channel), E204 bronze drums extended (selective survival), E205 wayang indigenous layer (living evidence), E206 ArcheoBERTje gap (60% missing for PhD), E207 GLOBALISE VOC pilot (6,893 files, 55% drop).
+**PhD SENT:** Proposal v0.2 sent to Verberne 2026-04-16. WAITING response. Cohen track: apply Dec 2026. Vossen email: ON HOLD.
+**Strategy:** RISET DALAM DIAM. No more paper submissions. Papers = PhD ammo. Core stack building.
+**Papers:** 6 under review (P1-EGQSJ, P2-JCAA, P7-Antiquity, P8-OL, P11-Archipel, P17-ArchCalc). NO NEW SUBMISSIONS.
+**Core Stack:** GLOBALISE downloader + VOC preprocessor + spelling normalizer BUILT. 50 files downloaded (6.26M words preprocessed). ArcheoBERTje gap quantified (60% entity types missing, 55% quality drop on VOC).
+**Key context:** Argument reframed from "zero evidence" to "selective survival" (E204 bronze drums). Philippines comparison strengthened (E201: 275-340 pre-400 CE sites vs Java 0). Genome = 5th independent evidence channel (E203). Wayang = living evidence (E205).
 
 ### Mata Elang #13 Key Findings (2026-04-09)
 1. **Cascade over-parameterized (E176):** 3-factor models bracket gap. 83.8% of random 5-factor draws work. F1 (volcanic burial) is LEAST necessary factor (2/5 minimal models). Reframe from "model matches data" to "plausible mechanistic decomposition."
@@ -189,50 +225,61 @@ STATUS: **197 experiments** (E001-E197, E180 skipped). **Session 15 autonomous.*
 | E156 | Sunda Shelf population displacement | SUCCESS | L1xL2 double erasure. 94K into volcanic zones. |
 | E157 | Ethnographic volcanic analog | SUCCESS | F4 validated. F2 triple convergence. |
 
-### Standing Priorities (Updated 2026-04-01)
+### Standing Priorities (Updated 2026-04-16)
 
-**TECHNICAL TRACK (NLP/computational — user expertise):**
-1. **P17 submit ArchCalc** — THE priority. **v0.4 (2026-04-06): 5 critical fixes** (overclaim softened, depth confound acknowledged, Bali downgraded, sentence-transformer method added, thresholds justified). .docx regenerated. ALL PASS. Pak Amien: verify in Word → create account → upload. Deadline Dec 31.
-2. P16 submit DHQ — user review + expand.
-3. ~~P1 submit EGQSJ~~ — **SUBMITTED.** Wait (2-6 months).
+**#0 — CORE STACK (PhD-agnostic pipeline):**
+0. **Gold-standard NER annotations** — 500 sentences from OV + VOC, annotated with 7 entity types. This is the evaluation benchmark.
+1. **Colonial place-name gazetteer** — Extract E091 names → map to modern GIS coordinates. Concrete deliverable.
+2. **Scale GLOBALISE corpus** — Download more files (currently 50/6,893). Preprocessing pipeline ready.
+3. **Fine-tune ArcheoBERTje on colonial Dutch** — After annotations ready. Compare with baseline (E206).
 
-**HUMANITIES TRACK (narrative/heritage — Claude assists framing):**
-4. **P11 submit Archipel** — **v0.5 COMPLETE** (~5,300 words, 29 refs). All [EXPAND] markers filled. Genuine engagement with Lombard, Degroot, Christie, Bloembergen/Eickhoff. PDF+DOCX generated. Pak Amien: final review → email archipel@ehess.fr.
-5. **P5 reframe for Asian Ethnology** — Strategy doc ready. Needs full rewrite (~June 2026).
-6. P19 submit BKI — deep reading phase (manual).
+**#1 — WAIT (external dependencies):**
+4. **Verberne response** — Proposal SENT 2026-04-16. WAIT ~1-2 minggu.
+5. **6 papers under review** — P1, P2, P7, P8, P11, P17. WAIT.
+6. **JCAA APC waiver** — Verhagen acknowledged. WAIT.
+7. **Cohen formal application** — Dec 2026. Prepare closer to deadline.
 
-**OPERATIONAL:**
-7. **JCAA APC waiver** — £593. **Waiver requested 2026-04-06. Verhagen acknowledged 2026-04-07.** WAIT for decision.
-8. **GitHub repo go public** — README updated to 175. Emails standardized (verified 2026-04-02, all ubhinus.ac.id). **READY — just flip the switch in Settings.**
-9. D1+D2 deposit to Zenodo (free, 30 min each).
-10. Zenodo deposit for E171 prediction registry (metadata ready).
-11. P9 HOLD until P2/P8 outcome.
+**#2 — HOLD (until PhD trajectory clear):**
+8. Vossen email — tunggu Verberne response
+9. ~~GitHub go public~~ — HOLD (riset dalam diam)
+10. ~~P16 submit~~ — HOLD (becomes PhD ammo)
+11. ~~New paper submissions~~ — STOPPED
+12. KITLV email — ON HOLD
+13. Castillo email — READY but not urgent
 
-**GRANT TRACK (NEW — from seminar April 2026):**
-Full roadmap: `docs/VOLCARCH_GrantRoadmap_v1.0.md`
-12. ~~Email Maxime Aubert (Griffith)~~ — **SENT 2026-04-08.** WAIT for response.
-13. **Bookmark Horizon Europe Cluster 2** — call opens **12 May 2026**. Need EU consortium (Leiden KITLV primary). Prepare 1-page pitch.
-14. **Contact Leiden KITLV** — natural partner (DHARMA corpus). Letter of Intent for Horizon Europe / MSCA DN.
-15. ~~TWAS Research Grant~~ — **INELIGIBLE.** Requires PhD (Pak Amien = S2). Individual deadline 3 Apr 2026 PASSED. Collaborative deadline 31 Mar 2026 PASSED. Both require PI with PhD. **Revisit after S3.**
-16. **Asahi Glass Foundation** — af-info.or.jp. Deadline Aug-Oct 2026. **BARRIER: application documents in Japanese.** Need Japanese collaborator or translator. Check if English application available.
-17. **MSCA Doctoral Networks** — deadline **24 Nov 2026**. "ARCHAEOVOLC" concept. Need 3 EU partners. This is the S3 pathway.
-**Prerequisites for big grants:** ≥1 published paper (ETA late 2026), IELTS, 1 conference presentation, **PhD for TWAS/most PI roles** (Pak Amien = S2, S3 = critical path).
-**All future submissions: ZERO APC (absolute, non-negotiable). Free-to-publish journals OK even if not Diamond OA. Q2-Q4 all acceptable.** See `memory/feedback_zero_apc.md`.
-**Read before next submission:** `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/AI_PROSE_GUIDE.md`.
-**Read for dissemination:** `docs/DISSEMINATION_ROADMAP.md` (revisit weekly).
+**#3 — VOLCARCH EVIDENCE (continue building):**
+14. VOLCARCH experiments — continue as "background motivation" for PhD
+15. New evidence streams from ME#14: living culture (I-139), oral tradition (I-140), kakawin NLP (I-141)
 
 ### Stop Doing
-- More cascade sensitivity analyses (E115/E120/E121/E122 = saturated)
-- Counting figures/syntheses as experiments
-- **DHARMA mining OFFICIALLY CLOSED** (Pak Amien decision 2026-04-09). 268 inscriptions exhausted. ~37 experiments sudah cukup. Temuan terakhir: Ghost Dictionary (E181), Register Split (E183). Hasil sudah didokumentasikan. Untuk pertanyaan linguistik/epigrafis baru → butuh corpus BARU (Delpher, kakawin, Babad), BUKAN DHARMA lagi.
+- **Submitting new papers** (papers = PhD ammo now, not standalone goals)
+- **Going public** (riset dalam diam until PhD trajectory clear)
+- More cascade sensitivity analyses (saturated)
+- DHARMA mining (CLOSED)
 - Computing Bayes Factors from estimated priors
 
-### Next Frontier: SATELLITE ARCHAEOLOGY
-- **Sentinel-2** (multispectral, free) + **Sentinel-1** (SAR/radar, free) + **RTX 4080** (U-Net training)
-- Proven: Amazon LiDAR cities (Nature 2024), Egyptian subsurface (Parcak), Angkor (Evans)
-- **BELUM PERNAH** diterapkan di andosol vulkanik tropis Jawa
-- Target: crop marks, soil moisture anomalies, microtopography di Zone B/C (E080/E097 targets)
-- Lihat: `docs/research_notes/SATELLITE_ARCHAEOLOGY_FRONTIER.md`
+### Core Stack Status
+| Component | Status | File |
+|-----------|--------|------|
+| GLOBALISE downloader | **DONE** | `tools/globalise_pipeline/download_globalise.py` |
+| VOC preprocessor | **DONE** | `tools/globalise_pipeline/preprocess_voc.py` |
+| Spelling normalizer | **DONE** (10/10 tests) | `tools/globalise_pipeline/normalize_colonial_dutch.py` |
+| Corpus (50 files) | **DONE** (6.26M words) | `data/processed/globalise_voc/` |
+| NER annotations | PENDING | 500 sentences, 7 entity types |
+| Colonial gazetteer | PENDING | E091 names → GIS |
+| Fine-tuned NER model | BLOCKED (needs annotations) | — |
+- **Key experiments supporting PhD:** E091, E141-E143, E160, E197 (colonial NLP/data mining)
+
+## COMPLETED THIS SESSION (2026-04-15)
+
+- Inbox processed: CV + VOLCARCH Brief archived to `docs/correspondence/`
+- Verberne email exchange archived: `docs/correspondence/EMAIL_VERBERNE_LEIDEN_2026_04_14.md`
+- E198: Sago-rice etymology (SUCCESS, Layer 7 proposed)
+- E199: Collective Brain paradox (SUCCESS, innovation gap 25-188x)
+- E141 Phase 3: Low-relevance mining (COMPLETE, 0.2% rescue rate — classification validated)
+- KITLV email: ON HOLD (reframed after Verberne contact)
+- Castillo email: updated, READY TO SEND
+- IDEA_REGISTRY updated (I-133, I-135 → RESULT)
 
 ## DO NOT WORK ON
 
@@ -240,3 +287,4 @@ Full roadmap: `docs/VOLCARCH_GrantRoadmap_v1.0.md`
 - P18 submission (wait for acceptances)
 - Phase 2 dissemination (wait for 1 acceptance)
 - GPU-dependent tasks (no GPU available)
+- KITLV cold email (wait for PhD trajectory)

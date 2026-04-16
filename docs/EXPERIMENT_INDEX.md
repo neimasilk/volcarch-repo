@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Last updated:** 2026-04-13 (Session 15 — satellite archaeology)
-**Total:** 194 entries (E001-E194, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
+**Last updated:** 2026-04-16 (Session 17 — Philippines deep comparison + ME#14)
+**Total:** 201 entries (E001-E201, minus E021/E045-E047/E072/E077 unused, E124/E125 SUPERSEDED, E180 skipped)
 **Regenerate:** `python tools/scan_experiments.py` (auto-scan, partial — manual review needed)
 
 **Convention:** Every experiment gets a README.md with hypothesis, method, result, conclusion, status.
@@ -471,6 +471,18 @@ These are the strongest results that survive FDR correction and adversarial test
 | **E192** | **NDWI vs Burial Depth Correlation** | **SUCCESS (INFORMATIVE)** | **P1,P17** | **All 4 correlations negative (correct direction). NDWI lvar vs depth rho=-0.389. Depth-signal relationship validated but underpowered (n=15).** |
 | **E193** | **Sunda Shelf Entry Points vs Sites** | **SUCCESS** | **P18,L2** | **Sites significantly cluster near entry points (p<0.00001). Surabaya=100th percentile. North/South ratio 1.35 confirmed. 123 double-erasure sites. Addresses ME#13 Risk 4.** |
 | **E194** | **Combined Prospection Map** | **SUCCESS** | **P1,P2,P17** | **18/20 targets have 4/5 independent evidence streams converging. T08 (-7.88, 112.30) = hottest target (25 E097 cells + 3 other streams). Kelud + Arjuno clusters.** |
+
+### Population, Etymology, NLP, and Comparative Experiments (E195-E201)
+
+| ID | Title | Status | Paper | Key Result |
+|----|-------|--------|-------|------------|
+| **E195** | **Detection Horizon Sufficiency** | **SUCCESS** | **P1,P17** | **AHA moment: E117 detection horizon applied to survey coverage. Current surveys cannot see pre-1900 CE at 4mm/yr. rho=+0.53 correlation.** |
+| **E196** | **Population Estimation** | **SUCCESS** | **P1,P17,P18** | **Four methods converge: Java had 1-2M people at 400 CE. Expected sites >=694. Observed: 0. Taphonomic suppression >=694x.** |
+| **E197** | **Colonial Depth Validation** | **SUCCESS** | **P1,P2** | **10 E070 entries cross-referenced with Delpher. Colonial depth data supports volcanic burial model.** |
+| **E198** | **Sago-Rice Etymology** | **SUCCESS** | **P8,P19** | ***sagu > sego phonologically regular. Sundanese "sangu" confirms. Layer 7 (pre-rice subsistence) proposed.** |
+| **E199** | **Collective Brain Paradox** | **SUCCESS** | **P18** | **Kremer/Boserup formalized. Innovation gap 25-188x between Java population and archaeological record. Volcanic paradox quantified.** |
+| **E200** | **Dutch NER Baseline** | **SUCCESS** | **PhD** | **Standard NER covers ~27% of VOC entities. PhD closes 73% gap. Baseline for NLP research proposal.** |
+| **E201** | **Philippines Deep Comparison** | **SUCCESS** | **P1,P17,P18** | **Philippines record is genuinely diverse: ~50% open-air, NOT cave-dominated. 275-340 pre-400 CE sites (55-65% open-air). Philippine volcanic zones retain 25-40 sites. Pinatubo/Iraya prove volcanic burial preserves, not destroys. Strengthens Java taphonomic argument.** |
 
 ---
 

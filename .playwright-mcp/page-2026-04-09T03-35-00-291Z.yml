@@ -1,0 +1,81 @@
+- generic [ref=e1]:
+  - generic:
+    - link "Skip to main navigation menu" [ref=e2] [cursor=pointer]:
+      - /url: "#pragma_content_header"
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - link "Skip to site footer" [ref=e4] [cursor=pointer]:
+      - /url: "#pragma_content_footer"
+  - banner [ref=e5]:
+    - navigation [ref=e6]:
+      - heading "Admin menu" [level=2] [ref=e7]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Register" [ref=e10] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/user/register
+        - listitem [ref=e11]:
+          - link "Login" [ref=e12] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/login
+    - navigation [ref=e13]:
+      - heading "##common.pageHeaderLogo.altText##" [level=1] [ref=e14]:
+        - link "##common.pageHeaderLogo.altText##" [ref=e15] [cursor=pointer]:
+          - /url: "\t\t\t\thttps://submission.archcalc.cnr.it/index.php/aec/index\n\t\t\t"
+          - img "##common.pageHeaderLogo.altText##" [ref=e16]
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link "About the Journal" [ref=e20] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about
+        - listitem [ref=e21]:
+          - link "Submissions" [ref=e22] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/submissions
+        - listitem [ref=e23]:
+          - link "Privacy Statement" [ref=e24] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/privacy
+        - listitem [ref=e25]:
+          - link "Contact" [ref=e26] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/contact
+        - listitem [ref=e27]:
+          - link "Announcements" [ref=e28] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/announcement
+  - main [ref=e29]:
+    - generic [ref=e32]:
+      - heading "Archeologia e Calcolatori" [level=2] [ref=e33]
+      - article [ref=e34]:
+        - heading "About the Journal" [level=3] [ref=e35]
+        - paragraph [ref=e36]:
+          - link "Archeologia e Calcolatori" [ref=e37] [cursor=pointer]:
+            - /url: http://www.archcalc.cnr.it
+            - strong [ref=e38]: Archeologia e Calcolatori
+          - text: is a peer reviewed open access journal in the field of computing and information technology applied to archaeology.
+        - paragraph [ref=e39]:
+          - link "More info" [ref=e40] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about
+  - contentinfo [ref=e42]:
+    - complementary [ref=e45]:
+      - link "More information about the publishing system, Platform and Workflow by OJS/PKP." [ref=e46] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/about/aboutThisPublishingSystem
+        - img "More information about the publishing system, Platform and Workflow by OJS/PKP." [ref=e47]
+  - dialog [active] [ref=e48]:
+    - document:
+      - generic [ref=e50]:
+        - button "Close" [ref=e51] [cursor=pointer]: ×
+        - group [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - text: Username *
+              - generic [ref=e56]: Required
+            - textbox "Username Required" [ref=e57]
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: Password *
+              - generic [ref=e60]: Required
+            - textbox "Password Required" [ref=e61]
+            - generic [ref=e62]:
+              - checkbox "Keep me logged in" [checked] [ref=e63]
+              - generic [ref=e64]: Keep me logged in
+          - generic [ref=e65]:
+            - button "Login" [ref=e66] [cursor=pointer]
+            - link "Register" [ref=e67] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/user/register?source=
+            - link "Forgot your password?" [ref=e68] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/login/lostPassword

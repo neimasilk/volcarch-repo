@@ -1,0 +1,94 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Archeologia e Calcolatori" [ref=e4] [cursor=pointer]:
+      - /url: https://submission.archcalc.cnr.it/index.php/aec/index
+    - generic [ref=e5]:
+      - button "Tasks" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+        - generic [ref=e9]: Tasks
+      - button "neimasilk" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: 
+        - generic [ref=e13]: neimasilk
+  - navigation "Site Navigation" [ref=e14]:
+    - link "⟵ Back to Submissions" [ref=e15] [cursor=pointer]:
+      - /url: https://submission.archcalc.cnr.it/index.php/aec/submissions
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - heading "Submit an Article" [level=1] [ref=e19]
+      - generic [ref=e20]:
+        - tablist [ref=e21]:
+          - tab "1. Start" [ref=e22]:
+            - link "1. Start" [ref=e23] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/1?submissionId=365&sectionId=0
+          - tab "2. Upload Submission" [expanded] [selected] [ref=e24]:
+            - link "2. Upload Submission" [ref=e25]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/2?submissionId=365&sectionId=0
+          - tab "3. Enter Metadata" [disabled] [ref=e26]:
+            - link "3. Enter Metadata" [disabled] [ref=e27] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/3?submissionId=365&sectionId=0
+          - tab "4. Confirmation" [disabled] [ref=e28]:
+            - link "4. Confirmation" [disabled] [ref=e29] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/4?submissionId=365&sectionId=0
+          - tab "5. Next Steps" [disabled] [ref=e30]:
+            - link "5. Next Steps" [disabled] [ref=e31] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/5?submissionId=365&sectionId=0
+        - tabpanel "2. Upload Submission" [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e38]:
+                  - heading "Files" [level=2] [ref=e40]
+                  - button "Add File" [ref=e42] [cursor=pointer]
+                - list [ref=e52]:
+                  - listitem [ref=e53]:
+                    - generic [ref=e55]:
+                      - link "P17_manuscript_formatted.docx" [ref=e58] [cursor=pointer]:
+                        - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/api/file/file-api/download-file?submissionFileId=1654&submissionId=365&stageId=1
+                        - generic [ref=e59]: 
+                        - text: P17_manuscript_formatted.docx
+                      - generic [ref=e60]:
+                        - generic [ref=e71]: Article Text
+                        - button "Edit" [ref=e61] [cursor=pointer]
+                        - button "Remove" [ref=e62] [cursor=pointer]
+                  - listitem [ref=e72]:
+                    - generic [ref=e74]:
+                      - link "P17_bibliography.docx" [ref=e77] [cursor=pointer]:
+                        - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/api/file/file-api/download-file?submissionFileId=1655&submissionId=365&stageId=1
+                        - generic [ref=e78]: 
+                        - text: P17_bibliography.docx
+                      - generic [ref=e79]:
+                        - generic [ref=e124]: Other
+                        - button "Edit" [ref=e80] [cursor=pointer]
+                        - button "Remove" [ref=e81] [cursor=pointer]
+                  - listitem [ref=e125]:
+                    - generic [ref=e127]:
+                      - link "P17_figure_captions.docx" [ref=e130] [cursor=pointer]:
+                        - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/api/file/file-api/download-file?submissionFileId=1656&submissionId=365&stageId=1
+                        - generic [ref=e131]: 
+                        - text: P17_figure_captions.docx
+                      - generic [ref=e132]:
+                        - generic [ref=e142]: Figure captions
+                        - button "Edit" [ref=e133] [cursor=pointer]
+                        - button "Remove" [ref=e134] [cursor=pointer]
+                  - listitem [ref=e143]:
+                    - generic [ref=e145]:
+                      - link "P17_figures.zip" [ref=e148] [cursor=pointer]:
+                        - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/api/file/file-api/download-file?submissionFileId=1657&submissionId=365&stageId=1
+                        - generic [ref=e149]: 
+                        - text: P17_figures.zip
+                      - generic [ref=e150]:
+                        - generic [ref=e160]: Figures
+                        - button "Edit" [active] [ref=e151] [cursor=pointer]
+                        - button "Remove" [ref=e152] [cursor=pointer]
+              - generic:
+                - generic [ref=e47]: Drop files here to upload
+                - paragraph
+                - paragraph
+                - paragraph
+                - paragraph
+              - status [ref=e70]: Uploading 100% complete
+            - generic [ref=e48]:
+              - button "Save and continue" [ref=e50] [cursor=pointer]
+              - link "Cancel" [ref=e51] [cursor=pointer]:
+                - /url: "#"
+  - status

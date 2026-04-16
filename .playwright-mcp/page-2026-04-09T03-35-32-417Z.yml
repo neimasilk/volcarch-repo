@@ -1,0 +1,33 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Archeologia e Calcolatori" [ref=e4] [cursor=pointer]:
+      - /url: https://submission.archcalc.cnr.it/index.php/aec/index
+    - generic [ref=e5]:
+      - button "Tasks" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+        - generic [ref=e9]: Tasks
+      - button "neimasilk" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: 
+        - generic [ref=e13]: neimasilk
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - heading "Submit an Article" [level=1] [ref=e17]
+      - generic [ref=e18]:
+        - tablist [ref=e19]:
+          - tab "1. Start" [disabled] [expanded] [selected] [ref=e20]:
+            - link "1. Start" [disabled] [ref=e21]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/1?submissionId=&sectionId=3
+          - tab "2. Upload Submission" [disabled] [ref=e22]:
+            - link "2. Upload Submission" [disabled] [ref=e23] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/2?submissionId=&sectionId=3
+          - tab "3. Enter Metadata" [disabled] [ref=e24]:
+            - link "3. Enter Metadata" [disabled] [ref=e25] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/3?submissionId=&sectionId=3
+          - tab "4. Confirmation" [disabled] [ref=e26]:
+            - link "4. Confirmation" [disabled] [ref=e27] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/4?submissionId=&sectionId=3
+          - tab "5. Next Steps" [disabled] [ref=e28]:
+            - link "5. Next Steps" [disabled] [ref=e29] [cursor=pointer]:
+              - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/5?submissionId=&sectionId=3
+        - tabpanel "1. Start" [ref=e30]
+  - status

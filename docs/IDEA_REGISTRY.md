@@ -129,9 +129,9 @@
 | I-087 | Ruwatan structural analysis (pre-Hindu structure, post-Hindu vocab) | Good test case for syncretic Class C classification | P12 draft §8 |
 | I-088 | Effective population size (Ne) from modern DNA | Constraint for pre-Hindu population estimates | Working note aDNA §6 |
 | I-089 | Peripheral Krama fieldwork via istri's family network (Tegal) | Informal access to Tegal/Banyumas dialect data | P9 draft notes |
-| I-133 | Sago→rice transition as 7th taphonomic layer | Pre-rice Jawa ate sagu/umbi — leaves ZERO archaeological trace. Even without volcanism, sago civilization is archaeologically ephemeral. "sego" ← "sagu" etymology testable via ABVD cognate tracing. Double invisibility: organic material + volcanic burial. Potential 7th Layer of Darkness. | Session 15 discussion 2026-04-13 |
+| I-133 | ~~Sago→rice transition as 7th taphonomic layer~~ → **E198 SUCCESS** | *sagu > sego phonologically MORE REGULAR than *Semay > sego. Sundanese "sangu" independent confirmation. Layer 7: 200M-750M person-years of invisible sago civilization. | Session 15 discussion → E198 2026-04-15 |
 | I-134 | ~~ML population estimation for pre-400 CE Java~~ → **E196 SUCCESS** | Four-method Monte Carlo: 1-2M people at 400 CE. Suppression ≥694×. 46.6M person-centuries invisible. Philippines comparison devastating. | Session 15 → E196 2026-04-13 |
-| I-135 | Collective Brain / Volcanic Innovation Paradox | Harari/Henrich/Boserup: dense population (E196: 1-2M) REQUIRES social innovation or it collapses. Java didn't collapse → innovations existed but evidence destroyed. Vulkan = both DRIVER (pressure to innovate) and DESTROYER (buries evidence). Parallel: Japan earthquake culture. Formalize with Kremer (1993) model. Could be powerful humanities paper (BKI/World Archaeology). Framework for P18 "Invisible Civilization." | Session 15 discussion 2026-04-13 |
+| I-135 | ~~Collective Brain / Volcanic Innovation Paradox~~ → **E199 SUCCESS** | Kremer (1993) + Boserup (1965) formalized. Innovation gap 25-188x vs comparables. Volcanic paradox: fertility → population → required innovation, but eruption → evidence destruction. Japan analog: earthquake culture WITH documentary survival. Framework for P18. | Session 15 discussion → E199 2026-04-15 |
 | I-136 | Java in world civilization context at 400 CE | E196 shows Java density (8-15/km²) comparable to Roman Empire (11/km²), 2× Persia (5/km²). Java = 0.5-1% of world population. Funan with same population has hundreds of sites. Formal comparative table as paper figure. | Session 15 discussion 2026-04-13 |
 
 ---
@@ -194,6 +194,23 @@
 | 10. Material Culture | I-046, I-049, I-050, I-084 |
 | 11. Acoustics | I-048 |
 | 12. Script Archaeology | I-005, I-006, I-053, I-109 |
+
+---
+
+## Mata Elang #14 Ideas — 2026-04-16
+
+| ID | Title | Maturity | Source | Links |
+|----|-------|----------|--------|-------|
+| I-137 | ~~Genome population structure meta-analysis~~ → **E203 SUCCESS** | 5th independent evidence channel. Java aDNA blank + deep genetic diversity + pre-Austronesian substrate. Genuinely independent from all other VOLCARCH evidence. | ME#14 blind spot B6 → E203 2026-04-16 | P1, P17, Channel 3 |
+| I-138 | Philippines deep comparison — site TYPE analysis | TESTABLE | What types are the 4,000+ Philippine sites? Cave vs open-air vs shell midden determines whether Java's gap is taphonomic or cultural. THE most important data gap. | ME#14 blind spot B3 | P1, P17, Channel 1 |
+| I-139 | Living culture computational analysis (Tengger, Baduy, Samin) | TESTABLE | Ethnographic data on living communities who preserve pre-Hindu practices. 200 experiments, 0 on living culture. Biggest blind spot. Needs literature survey of Koentjaraningrat, Geertz, Hefner. | ME#14 blind spot B1 | P5, P19, Channel 7 |
+| I-140 | Oral tradition NLP — wayang carangan inventory | TESTABLE | Wayang has carangan (original, non-Indian stories). Classify all lakon: Ramayana-derived vs Mahabharata-derived vs carangan. Quantify the indigenous layer. | ME#14 blind spot B4 | P12, P19, Channel 8 |
+| I-141 | Kakawin/Babad geographic mentions NLP | TESTABLE | Extract place names from Old Javanese literary texts (Nagarakretagama, Pararaton, Babad Tanah Jawi). Map geographic knowledge of pre-colonial Java. DHARMA successor corpus. | ME#14 C2 | P16, Channel 6 |
+| I-142 | DEM depression detection for buried structures | TESTABLE | Copernicus GLO-30 DEM already downloaded (E003). Topographic Position Index analysis at known candi sites → apply to unknown targets. Done in Mesoamerica, never in Java. | ME#14 C3 | P1, P17, Channel 1 |
+| I-143 | Geological borehole data mining | TESTABLE | ESDM/PVMBG borehole logs may contain anthropogenic material mentions. NLP extraction. Also: construction company soil profiles (I-132). | ME#14 C1 | P1, Channel 1 |
+| I-144 | Satellite 10-year NDWI time series | TESTABLE | Sentinel-2 archive 2015-2026 at E080/E097 targets. Seasonal decomposition for buried architecture. Extends E189. | ME#14 C4 | P1, Channel 1 |
+| I-145 | East Java vs West Java genome prediction | HYPOTHESIS | When East Javanese WGS is published, predict: lower diversity in volcanic interior, higher coastal admixture. Pre-registered VOLCARCH prediction for future validation. | E203 Finding 6 | Channel 3 |
+| I-146 | Selective survival reframe — from "zero evidence" to "selective presence" | RESULT | E164+E204: ~40 bronze drums in volcanic Java prove pre-Hindu culture existed. Metal survives, organic doesn't. The argument is not "zero evidence" but "selective survival." MUCH stronger. | ME#14 + E204 | P1, P17, P19 |
 
 ---
 

@@ -1,0 +1,177 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Archeologia e Calcolatori" [ref=e4] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/index
+      - generic [ref=e5]:
+        - button "Tasks" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: 
+          - generic [ref=e9]: Tasks
+        - button "neimasilk" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 
+          - generic [ref=e13]: neimasilk
+    - navigation "Site Navigation" [ref=e14]:
+      - link "⟵ Back to Submissions" [ref=e15] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/submissions
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Submit an Article" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - tablist [ref=e21]:
+            - tab "1. Start" [ref=e22]:
+              - link "1. Start" [ref=e23] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/1?submissionId=365&sectionId=0
+            - tab "2. Upload Submission" [ref=e24]:
+              - link "2. Upload Submission" [ref=e25] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/2?submissionId=365&sectionId=0
+            - tab "3. Enter Metadata" [expanded] [selected] [ref=e26]:
+              - link "3. Enter Metadata" [ref=e27]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/3?submissionId=365&sectionId=0
+            - tab "4. Confirmation" [disabled] [ref=e28]:
+              - link "4. Confirmation" [disabled] [ref=e29] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/4?submissionId=365&sectionId=0
+            - tab "5. Next Steps" [disabled] [ref=e30]:
+              - link "5. Next Steps" [disabled] [ref=e31] [cursor=pointer]:
+                - /url: https://submission.archcalc.cnr.it/index.php/aec/submission/step/5?submissionId=365&sectionId=0
+          - text:    
+          - tabpanel "3. Enter Metadata" [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e164]:
+                - generic [ref=e165] [cursor=pointer]: Title*
+                - textbox "Title*" [ref=e167]: "Two Javas: Spatial Segregation of Sacred and Administrative Landscapes in Volcanic Java and Its Consequences for Archaeological Inference"
+              - generic [ref=e168]:
+                - generic [ref=e169] [cursor=pointer]: Abstract*
+                - paragraph [ref=e170]: The abstract must be 200 words or less.
+                - application [ref=e172]:
+                  - generic [ref=e173]:
+                    - group [ref=e176]:
+                      - toolbar [ref=e178]:
+                        - generic [ref=e179]:
+                          - group [ref=e180]:
+                            - generic [ref=e181]:
+                              - button "Copy" [ref=e182]:
+                                - button "" [ref=e183] [cursor=pointer]:
+                                  - generic [ref=e184]: 
+                              - button "Paste" [ref=e185]:
+                                - button "" [ref=e186] [cursor=pointer]:
+                                  - generic [ref=e187]: 
+                          - group [ref=e188]:
+                            - generic [ref=e189]:
+                              - button "Bold" [ref=e190]:
+                                - button "" [ref=e191] [cursor=pointer]:
+                                  - generic [ref=e192]: 
+                              - button "Italic" [ref=e193]:
+                                - button "" [ref=e194] [cursor=pointer]:
+                                  - generic [ref=e195]: 
+                              - button "Underline" [ref=e196]:
+                                - button "" [ref=e197] [cursor=pointer]:
+                                  - generic [ref=e198]: 
+                          - group [ref=e199]:
+                            - generic [ref=e200]:
+                              - button "Bullet list" [ref=e201]:
+                                - button "" [ref=e202] [cursor=pointer]:
+                                  - generic [ref=e203]: 
+                              - button "Numbered list" [ref=e204]:
+                                - button "" [ref=e205] [cursor=pointer]:
+                                  - generic [ref=e206]: 
+                          - group [ref=e207]:
+                            - generic [ref=e208]:
+                              - button "Superscript" [ref=e209]:
+                                - button "" [ref=e210] [cursor=pointer]:
+                                  - generic [ref=e211]: 
+                              - button "Subscript" [ref=e212]:
+                                - button "" [ref=e213] [cursor=pointer]:
+                                  - generic [ref=e214]: 
+                          - group [ref=e215]:
+                            - generic [ref=e216]:
+                              - button "Insert/edit link" [ref=e217]:
+                                - button "" [ref=e218] [cursor=pointer]:
+                                  - generic [ref=e219]: 
+                              - button "Remove link" [ref=e220]:
+                                - button "" [ref=e221] [cursor=pointer]:
+                                  - generic [ref=e222]: 
+                              - button "Source code" [ref=e223]:
+                                - button "" [ref=e224] [cursor=pointer]:
+                                  - generic [ref=e225]: 
+                              - button "Fullscreen" [ref=e226]:
+                                - button "" [ref=e227] [cursor=pointer]:
+                                  - generic [ref=e228]: 
+                          - group [ref=e229]:
+                            - button "Insert/edit image" [ref=e231]:
+                              - button "" [ref=e232] [cursor=pointer]:
+                                - generic [ref=e233]: 
+                          - group [ref=e234]:
+                            - button "Insert Tag" [ref=e236]:
+                              - button "" [ref=e237] [cursor=pointer]:
+                                - generic [ref=e238]: 
+                    - group [ref=e239]:
+                      - iframe [ref=e240]:
+                        - paragraph [ref=f2e2]: The archaeological record of Java is commonly treated as uniformly sparse before 400 CE. This paper demonstrates that the record is spatially structured along volcanic distance gradients. Analysis of 142 temples (candi), 176 geocoded inscriptions, and 391 archaeological sites reveals two distinct archaeological worlds. "Volcano Java" (0-15 km from active volcanoes) is dominated by sacred architecture with relatively indigenous vocabulary, progressively buried at 2.4-6.2 mm/year. "Court Java" (15-30 km) is dominated by administrative inscriptions with Sanskrit-heavy content. Candi peak at a median distance of 14.6 km from the nearest volcano; inscriptions peak at 27.6 km (p < 0.000001). The temporal trend of increasing pre-Indic vocabulary occurs exclusively in the court zone. After the 929 CE Mataram collapse, epigraphic activity abandons the court zone entirely, shifting to the periphery with indigenous-rich content. Indigenous vocabulary correlates with burial depth, meaning that volcanic burial preferentially conceals the most culturally indigenous inscriptions. The textual record of "Indianization" was a 15-kilometre-wide court phenomenon, not a civilisation-wide transformation.
+                    - group [ref=e241]:
+                      - generic [ref=e242]:
+                        - generic [ref=e243]: "Words: 162"
+                        - generic [ref=e245]: 
+                        - generic [ref=e246]:
+                          - text: Powered by
+                          - link "Tiny" [ref=e247] [cursor=pointer]:
+                            - /url: https://www.tiny.cloud/?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - heading "List of Contributors" [level=4] [ref=e251]
+                  - list [ref=e252]:
+                    - listitem
+                    - listitem [ref=e253]:
+                      - link "Add Contributor" [ref=e254] [cursor=pointer]:
+                        - /url: https://submission.archcalc.cnr.it/index.php/aec/$$$call$$$/grid/users/author/author-grid/add-author?submissionId=365&publicationId=365
+                - table [ref=e255]:
+                  - rowgroup [ref=e262]:
+                    - row "Name E-mail Role Primary Contact In Browse Lists" [ref=e263]:
+                      - columnheader "Name" [ref=e264]
+                      - columnheader "E-mail" [ref=e265]
+                      - columnheader "Role" [ref=e266]
+                      - columnheader "Primary Contact" [ref=e267]
+                      - columnheader "In Browse Lists" [ref=e268]
+                  - rowgroup [ref=e269]:
+                    - row "Settings Mukhlis Amien amien@ubhinus.ac.id Author  " [ref=e270]:
+                      - cell "Settings Mukhlis Amien" [ref=e271]:
+                        - link "Settings" [ref=e272] [cursor=pointer]:
+                          - /url: "#"
+                          - generic [ref=e273]: Settings
+                        - generic [ref=e274]: Mukhlis Amien
+                        - text: 
+                      - cell "amien@ubhinus.ac.id" [ref=e275]:
+                        - generic [ref=e276]: amien@ubhinus.ac.id
+                      - cell "Author" [ref=e277]:
+                        - generic [ref=e278]: Author
+                      - cell "" [ref=e279]:
+                        - generic [ref=e281]: 
+                      - cell "" [ref=e282]:
+                        - generic [ref=e284]: 
+                    - row
+              - group "Additional Refinements" [ref=e285]:
+                - generic [ref=e286]: Additional Refinements
+                - generic [ref=e287]:
+                  - generic [ref=e288]: Subjects
+                  - generic [ref=e289] [cursor=pointer]: Add additional information for your submission. Press 'enter' after each term.
+                  - list [ref=e290]:
+                    - listitem [ref=e291]:
+                      - textbox [ref=e292]
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Keywords
+                  - generic [ref=e295] [cursor=pointer]: Add additional information for your submission. Press 'enter' after each term.
+                  - list [ref=e296]:
+                    - listitem [ref=e303]:
+                      - text: spatial archaeology
+                      - generic [ref=e304] [cursor=pointer]: ×
+                    - listitem [ref=e305]:
+                      - text: volcanic taphonomy
+                      - generic [ref=e306] [cursor=pointer]: ×
+                    - listitem [ref=e297]:
+                      - textbox [active] [ref=e298]
+              - generic [ref=e299]:
+                - button "Save and continue" [ref=e301] [cursor=pointer]
+                - link "Cancel" [ref=e302] [cursor=pointer]:
+                  - /url: "#"
+    - status
+  - status
+  - status

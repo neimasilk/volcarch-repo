@@ -1,0 +1,25 @@
+{
+  "phase": "3_low_relevance_mining",
+  "date": "2026-04-15",
+  "records_analyzed": 433,
+  "with_depth": 1,
+  "with_volcanic": 13,
+  "with_construction": 11,
+  "with_material": 2,
+  "with_any_signal": 27,
+  "rescuable_score_ge_2": 1,
+  "depth_volcanic_combo": 0,
+  "location_distribution": {
+    "Sumatra": 12,
+    "East Java": 41,
+    "West Java": 9,
+    "Central Java": 19,
+    "Other islands": 4,
+    "Bali": 3
+  },
+  "score_distribution": {
+    "2": 1,
+    "1": 26,
+    "0": 406
+  }
+}

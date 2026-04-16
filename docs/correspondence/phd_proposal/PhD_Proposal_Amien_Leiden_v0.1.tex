@@ -1,0 +1,245 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=blue!60!black,
+  urlcolor=blue!60!black
+}
+
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0em}
+
+\title{\textbf{PhD Research Proposal}\\[0.5em]
+\large NLP for Colonial Dutch Archives:\\
+Reconstructing Pre-Colonial Indonesian Settlements\\
+from VOC Administrative Records\\[1em]
+\normalsize Prepared for Prof.\ dr.\ Suzan Verberne, LIACS, Leiden University}
+
+\author{Mukhlis Amien\\
+\small Universitas Bhinneka Nusantara, Malang, Indonesia\\
+\small amien@ubhinus.ac.id\quad|\quad ORCID: 0000-0002-1848-167X}
+
+\date{April 2026}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+
+This proposal outlines a PhD project that applies NLP to colonial Dutch administrative archives (1602--1800) to extract structured settlement data for pre-colonial Indonesia, and validates the extractions against an independent geophysical model of volcanic site burial. The project produces three peer-reviewed publications targeting ACL/EMNLP/LREC venues, plus introductory and concluding chapters. It extends LIACS's ``Digging in Documents'' and EXALT research lines from modern excavation reports to primary colonial sources---the earliest systematic documentation of Indonesian settlement geography. The PhD is designed as a cumulative thesis (PhD by publication) over 2--3 years of active research.
+
+\section{Background and Motivation}
+
+\subsection{The Archaeological Gap}
+
+Conventional archaeological survey in volcanic Indonesia recovers almost none of the expected pre-colonial settlement record. A burial model validated against 363 observed site depths across 7 volcanic systems in East Java (E075) yields Pearson $r = 0.951$ between predicted and observed burial depths. A separate cross-referenced dataset of 51 eruption-site pairs across 12 volcanic systems (E083) confirms median burial depths of 2.5~m at typical settlement locations, with a calibrated mean sedimentation rate of 4.4~mm/yr. Over a 1,000-year pre-colonial window, this places typical sites at depths well below the $\sim$2~m threshold of standard archaeological survey. A five-factor cascade model (E133) estimates that $\geq$99.94\% of the expected pre-1600 settlement signal in volcanic Java is archaeologically invisible (Amien 2026a).
+
+This is not a theoretical claim. The Philippines, at comparable population density but with non-volcanic (karst) geology, has 4,000+ pre-colonial sites. Volcanic Java has zero confirmed open-air pre-400~CE sites. Population estimation via four independent Monte Carlo methods (E196) yields 1--2 million people at 400~CE, implying a minimum of 694 expected sites at Philippine rates. The taphonomic suppression factor is $\geq$694$\times$ (Amien 2026b).
+
+\subsection{Why Colonial Dutch Archives?}
+
+If the physical archaeological record is inaccessible, reconstruction must come from textual, epigraphic, or remote-sensing sources. The textual source with the highest volume and density is the Dutch East India Company (VOC) archive and its successors (1602--1942). A pilot NLP extraction from 16 volumes of the colonial archaeological service reports (OV, 1912--1929) alone yielded 22,162 structured mentions---including 6,932 named sites, 4,933 administrative locations, and 9,238 material descriptions (E091). A separate Delpher newspaper extraction (E141) recovered 1,768 archaeological records from 46 search queries. The full colonial corpus---spanning dagregisters, scientific journals, technical reports, and newspapers across 340 years---remains largely unmined.
+
+Three characteristics make this archive uniquely valuable:
+\begin{enumerate}[nosep]
+  \item \textbf{Scale.} The VOC operated 100+ trading posts across the archipelago for 200 years. Administrative reports, dagregisters, and correspondence contain systematic settlement mentions with geographic specificity.
+  \item \textbf{Incidental stratigraphy.} Colonial infrastructure projects (railways, canals, irrigation, wells) produced thousands of accidental archaeological observations recorded in newspapers, technical reports, and scientific journals---observations free from archaeological selection bias.
+  \item \textbf{Digital accessibility.} Delpher.nl (Koninklijke Bibliotheek) and GLOBALISE (Huygens Institute / VU Amsterdam) have digitised and OCR'd major portions of this corpus, making it computationally accessible for the first time.
+\end{enumerate}
+
+\subsection{Alignment with LIACS Research}
+
+This project is a direct extension of LIACS's archaeological text mining programme:
+
+\begin{itemize}[nosep]
+  \item \textbf{``Digging in Documents'' (2017--2021)} developed ArcheoBERTje, a BERT model pre-trained on 658~million words of Dutch archaeological excavation reports, and built an information extraction pipeline for grey literature. The proposed PhD extends this from \emph{modern} excavation reports to \emph{historical} primary sources---the colonial documents that precede modern archaeology.
+  \item \textbf{EXALT (2021--2024)} built multilingual semantic search for archaeological archives across English, Dutch, and German. The proposed PhD addresses the same multilingual NER challenge but in a historical register: 17th--18th century Dutch with code-switching to Malay and variable orthography.
+  \item \textbf{GLOBALISE} (Huygens Institute, with Piek Vossen's group at VU CLTL) is digitising 5+ million handwritten VOC manuscript pages. The PhD's NER and IE methods are directly applicable to GLOBALISE output, creating a natural collaboration point.
+\end{itemize}
+
+The PhD adds two elements not present in the existing programme: (a)~a physically grounded, non-textual validation signal (the VOLCARCH sedimentation model), and (b)~a focus on settlement geography rather than artefact description.
+
+\section{Research Questions}
+
+\begin{description}[style=nextline,leftmargin=2em]
+  \item[RQ1: Named Entity Recognition for Historical Dutch]
+  How accurately can a fine-tuned Transformer model identify settlement names, depth measurements, material descriptions, temporal markers, and find events in 17th--19th century Dutch administrative texts, given orthographic variation, OCR noise, and Dutch-Malay code-switching?
+
+  \item[RQ2: Temporal Information Extraction and Normalisation]
+  Can temporal expressions in colonial Dutch texts (dates, reign references, relative chronological markers) be extracted and normalised to absolute timelines with sufficient precision to serve as archaeological dating evidence?
+
+  \item[RQ3: Historical Place-Name Disambiguation]
+  To what extent can colonial Dutch place names (e.g., \emph{Soerabaja}, \emph{Buitenzorg}) be automatically disambiguated against modern GIS coordinates, and what is the spatial uncertainty of the resulting geocoded records?
+
+  \item[RQ4: Physical Validation of Textual Extractions]
+  Do NLP-extracted settlement locations and burial depths correlate with the independent predictions of the VOLCARCH sedimentation model? Specifically: are extracted settlements near volcanoes reported at greater depths, consistent with the calibrated burial rate of 4.4~mm/yr?
+\end{description}
+
+RQ1--RQ3 are NLP research questions with contributions to historical NLP methodology. RQ4 is an integration question that connects NLP output to physical science---an unusual validation paradigm for historical text mining, where ground truth is typically textual.
+
+\section{Methodology}
+
+\subsection{Corpus}
+
+The primary corpus consists of three source types:
+\begin{enumerate}[nosep]
+  \item \textbf{Delpher.nl newspapers and journals} (Koninklijke Bibliotheek): colonial newspapers (\emph{De Locomotief}, \emph{Bataviaasch Nieuwsblad}), scientific journals (\emph{Tijdschrift voor Indische Taal-, Land- en Volkenkunde}), and archaeological reports (\emph{Rapporten Oudheidkundigen Dienst}, 1910--1942). Full-text search and bulk download via KB SRU API.
+  \item \textbf{GLOBALISE VOC transcriptions}: structured text from VOC manuscripts being produced by the GLOBALISE project (5+ million pages in pipeline).
+  \item \textbf{Nationaal Archief}: VOC dagregisters (1624--1799) and administrative correspondence.
+\end{enumerate}
+
+\subsection{NER for Historical Dutch (RQ1)}
+
+\textbf{Base model.} ArcheoBERTje (pre-trained on modern Dutch archaeological texts) or BERTje (Dutch BERT) as starting point. Fine-tune on manually annotated colonial Dutch data.
+
+\textbf{Entity types.} LOCATION, DEPTH, MATERIAL, TEMPORAL, FIND\_EVENT, SOIL\_CONTEXT.
+
+\textbf{Challenges.} (a) Orthographic variation in colonial Dutch (\emph{ij} $\rightarrow$ \emph{y}, \emph{oe} $\rightarrow$ \emph{oo}, variable capitalisation). (b) OCR noise from digitised historical print. (c) Code-switching: Dutch text frequently includes Malay place names, Javanese terminology, and Sanskrit-derived archaeological vocabulary. (d) Domain shift from modern to historical register.
+
+\textbf{Approach.} Spelling normalisation as preprocessing (rule-based + neural), followed by fine-tuned Transformer NER. Data augmentation via back-translation and synthetic OCR noise injection. Evaluation on held-out manually annotated test set (inter-annotator agreement reported).
+
+\subsection{Temporal IE and Normalisation (RQ2)}
+
+Colonial texts use heterogeneous temporal expressions: absolute dates (``den 14den Maart 1687''), reign references (``ten tijde van Mataram''), relative markers (``oud'', ``Hindoesch tijdperk''). The challenge is normalising these to absolute timelines.
+
+\textbf{Approach.} Rule-based extraction for explicit dates; Transformer-based classification for implicit temporal markers; alignment with the VOLCARCH chronological framework (5 archaeological periods: pre-400~CE, 400--900, 900--1500, 1500--1600, 1600--1942).
+
+\subsection{Place-Name Disambiguation (RQ3)}
+
+Colonial Dutch used systematic but non-standard romanisation of Indonesian toponyms. Many names have changed or disappeared.
+
+\textbf{Approach.} Three-tier disambiguation: (a) exact match against historical gazetteer (World Historical Gazetteer, HISGIS); (b) phonological fuzzy matching for spelling variants; (c) contextual disambiguation using surrounding geographic mentions and administrative hierarchy (residency $\rightarrow$ regency $\rightarrow$ district). Assign spatial uncertainty radius (city: $\pm$5~km, region: $\pm$25~km).
+
+\subsection{Physical Validation (RQ4)}
+
+The VOLCARCH sedimentation model predicts burial depth as a function of distance from volcanic centre, eruption frequency, and elapsed time. NLP-extracted depth measurements from colonial reports provide an \emph{independent} test: if the model is correct, colonial finds near volcanoes should be reported at greater depths than finds far from volcanoes.
+
+\textbf{Preliminary result.} A pilot study (E197, 33 colonial depth records from Delpher, 1870--1941) shows consistency with the VOLCARCH model: Wilcoxon test $p = 0.131$ (non-rejection of model predictions), and a 5.8$\times$ enrichment of colonial finds near VOLCARCH-predicted target locations ($p < 0.00001$).
+
+This is, to my knowledge, an unusual validation paradigm for historical NLP: a concrete, physically grounded, non-textual ground truth.
+
+\section{Thesis Structure (Cumulative)}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lllp{5.5cm}@{}}
+\toprule
+\textbf{Chapter} & \textbf{Type} & \textbf{Target venue} & \textbf{Content} \\
+\midrule
+1 & Introduction & --- & Problem statement, VOLCARCH motivation, literature review, thesis outline \\
+2 & Paper 1 (RQ1) & ACL / EMNLP / LREC & NER for historical colonial Dutch: model, evaluation, error analysis \\
+3 & Paper 2 (RQ2--3) & TACL / DSH & Temporal IE + place-name disambiguation: methods, colonial gazetteer, spatial uncertainty quantification \\
+4 & Paper 3 (RQ4) & ACL / EACL & Integration: NLP-extracted settlements vs.\ VOLCARCH predictions. Physical validation of textual extractions \\
+5 & Discussion & --- & Synthesis, limitations, implications for Indonesian archaeology, future work \\
+\bottomrule
+\end{tabular}
+\caption{Proposed thesis chapters. Existing VOLCARCH papers (under review) serve as background cited in Ch.~1, not as thesis chapters.}
+\end{table}
+
+\section{Timeline}
+
+Assuming start date October 2027 or February 2028. Active research period: 2--3 years.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lp{9cm}@{}}
+\toprule
+\textbf{Period} & \textbf{Activities} \\
+\midrule
+Months 1--6 & Corpus assembly (Delpher API, GLOBALISE liaison). Annotation guidelines + gold standard (500--1,000 sentences). ArcheoBERTje fine-tuning for colonial Dutch NER. Paper~1 draft. \\
+Months 7--12 & Temporal IE pipeline. Historical gazetteer construction. Place-name disambiguation evaluation. Paper~1 submission. Paper~2 draft. \\
+Months 13--18 & Full pipeline run on complete corpus. Geocoding + spatial overlay with VOLCARCH model. Physical validation analysis. Paper~2 submission. Paper~3 draft. \\
+Months 19--24 & Paper~3 submission. Introduction + discussion chapters. Thesis assembly. Defence preparation. \\
+Months 25--30 & Buffer for revisions, resubmissions, and defence. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Preliminary Results}
+
+The feasibility of this project is supported by existing pilot work:
+
+\begin{enumerate}[nosep]
+  \item \textbf{E141: Delpher Colonial Extraction Pipeline} (2026). Rule-based pipeline extracted 1,768 records from Delpher newspaper corpus via KB SRU API across 46 queries. Of these, 165 were geocoded to specific locations and 9 contained archaeological depth measurements. 5.8$\times$ enrichment of finds near VOLCARCH-predicted target zones ($p < 0.00001$). This demonstrates that the data exists in newspapers and is computationally extractable.
+  \item \textbf{E197: Colonial Depth Validation} (2026). 33 colonial depth measurements (24 from E091/OV reports + 9 from E141/newspapers) compared to VOLCARCH sedimentation model predictions. Wilcoxon $p = 0.131$: model not rejected. Cross-century validation (colonial observations 1870--1941 vs.\ pre-colonial sedimentation model).
+  \item \textbf{E091: OV (Oudheidkundig Verslag) NLP} (2026). Rule-based Dutch NLP on 16 OV volumes (1912--1929, 259K lines). Extracted 22,162 structured mentions: 6,932 site names, 4,933 administrative locations, 9,238 material descriptions, 742 volcanic references, 26 numeric depth values. Cross-validated against 52 manual entries: 94.2\% recall.
+  \item \textbf{Six papers under review} at international venues (EGQSJ, JCAA, Antiquity, Oceanic Linguistics, Archipel, Archeologia e Calcolatori), establishing the VOLCARCH framework that motivates the NLP application.
+  \item \textbf{arXiv preprint}: arXiv:2604.00023 (phonological substrate detection via ML---demonstrates NLP competence in a heritage linguistics context).
+\end{enumerate}
+
+\section{Infrastructure and Collaboration}
+
+\begin{description}[style=nextline,leftmargin=1em]
+  \item[Compute] 4$\times$ Intel Core i9, 4$\times$ NVIDIA RTX 4080, 128~GB RAM (available at UBHINUS, Malang). Sufficient for Transformer fine-tuning and corpus-scale inference.
+  \item[GLOBALISE] Natural collaboration point. GLOBALISE produces structured VOC transcriptions; our pipeline adds settlement-focused NER and geographic grounding. Piek Vossen's group (VU CLTL) has expertise in historical Dutch NLP and could provide linguistic validation.
+  \item[Delpher.nl] Public API, no registration required for public-domain collections. Colonial material pre-1924 is copyright-free.
+  \item[Leiden libraries] KITLV (Royal Netherlands Institute of Southeast Asian and Caribbean Studies), University Library Special Collections: access to non-digitised colonial materials.
+  \item[Domain validation] Historian/linguist collaboration for annotation quality and 17th-century Dutch interpretation. I do not read 17th-century Dutch---this constraint is designed into the methodology: NLP as primary instrument, with human expert validation of outputs.
+\end{description}
+
+\section{Funding Plan}
+
+\textbf{Primary: BPI Dosen (Beasiswa Pendidikan Indonesia).} Indonesian government scholarship for permanent university lecturers. Age limit $\sim$57 (candidate is 48). Funds up to 4 years abroad; 2--3 years claimed for this project. Application cycle: quarterly (March, June, September, December). A Letter of Acceptance from Leiden would materially strengthen the application.
+
+\textbf{Secondary options:}
+\begin{itemize}[nosep]
+  \item NWO / ERC / Horizon Europe-funded positions in the LIACS group, if available within the relevant timeframe.
+  \item MSCA Doctoral Networks (deadline November 2026; no age limit). If Leiden participates in a consortium relevant to heritage NLP, this could serve as an alternative funding vehicle.
+\end{itemize}
+
+\textbf{Logistics.} Family and university clearance obtained for full relocation to Leiden for the research period. Flexible on residency pattern (full relocation or periodic research visits).
+
+\section{Candidate Profile}
+
+\begin{itemize}[nosep]
+  \item M.Sc.\ Computer Science, Universitas Indonesia (2016). Thesis: deep learning for biomarker discovery.
+  \item Lecturer (Dosen Tetap), UBHINUS, since 2010. Courses: ML, NLP, Computer Vision.
+  \item Published NLP work: Indonesian NLP survey (arXiv:2304.02746), low-resource dataset creation, sub-word segmentation, morphological analysis library (ModernKataKupas, PyPI).
+  \item VOLCARCH project: 199 tracked experiments, 6 papers under review, arXiv preprint.
+  \item Additional NLP portfolio: KorupsiNLP (693 court verdicts, sentencing prediction), NusantaraAgent (neuro-symbolic legal reasoning).
+\end{itemize}
+
+\section{What This PhD Is and Is Not}
+
+This PhD \emph{is}:
+\begin{itemize}[nosep]
+  \item An NLP thesis with contributions to historical text mining methodology
+  \item Grounded in a concrete, physically validated archaeological application
+  \item Designed to produce reusable tools and open datasets (Colonial Settlement Gazetteer, annotated historical Dutch NER corpus)
+\end{itemize}
+
+This PhD is \emph{not}:
+\begin{itemize}[nosep]
+  \item An archaeology thesis (the archaeological interpretation is motivation, not contribution)
+  \item A historical philology thesis (the candidate does not read 17th-century Dutch; the methodology is designed around this constraint)
+  \item A repackaging of existing VOLCARCH work (all three papers are new; existing work is cited background)
+\end{itemize}
+
+\section*{References}
+
+\begin{small}
+\begin{description}[style=nextline,leftmargin=0em,font=\normalfont]
+  \item Amien, M. (2026a). Taphonomic framework and cascade model. \emph{E\&G Quaternary Science Journal}, under review (MS: egqsj-2026-3).
+  \item Amien, M. (2026b). Two Javas: Spatial segregation of sacred and administrative landscapes. \emph{Archeologia e Calcolatori}, under review (MS: 365).
+  \item Amien, M. \& Gunawan, G.F. (2026). Phonological fossils: ML detection of non-mainstream vocabulary. \emph{Oceanic Linguistics}, under review. arXiv:2604.00023.
+  \item Brandsen, A., Verberne, S., Lambers, K. \& Wansleeben, M. (2022). Can BERT dig it? Named entity recognition for information extraction in the archaeology domain. \emph{Journal on Computing and Cultural Heritage}, 15(3), 1--18.
+  \item Brandsen, A., Verberne, S. et al.\ (2020). Creating a dataset for named entity recognition in the archaeology domain. \emph{LREC 2020}.
+  \item Kremer, M. (1993). Population growth and technological change: One million B.C.\ to 1990. \emph{Quarterly Journal of Economics}, 108(3), 681--716.
+  \item van Strien, D., Smits, T. \& Wevers, M. (2020). Assessing the impact of OCR quality on downstream NLP tasks. \emph{Digital Humanities Quarterly}, 14(2).
+  \item Wevers, M. \& Smits, T. (2020). The visual digital turn: Using neural networks to study historical images. \emph{Digital Scholarship in the Humanities}, 35(1), 194--207.
+\end{description}
+\end{small}
+
+\end{document}

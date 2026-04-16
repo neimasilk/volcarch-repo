@@ -1,0 +1,53 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "Skip to main navigation menu" [ref=e2] [cursor=pointer]:
+      - /url: "#pragma_content_header"
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - link "Skip to site footer" [ref=e4] [cursor=pointer]:
+      - /url: "#pragma_content_footer"
+  - banner [ref=e5]:
+    - navigation [ref=e6]:
+      - heading "Admin menu" [level=2] [ref=e7]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - button "neimasilk" [ref=e10] [cursor=pointer]
+    - navigation [ref=e11]:
+      - heading "##common.pageHeaderLogo.altText##" [level=1] [ref=e12]:
+        - link "##common.pageHeaderLogo.altText##" [ref=e13] [cursor=pointer]:
+          - /url: "\t\t\t\thttps://submission.archcalc.cnr.it/index.php/aec/index\n\t\t\t"
+          - img "##common.pageHeaderLogo.altText##" [ref=e14]
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - link "About the Journal" [ref=e18] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about
+        - listitem [ref=e19]:
+          - link "Submissions" [ref=e20] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/submissions
+        - listitem [ref=e21]:
+          - link "Privacy Statement" [ref=e22] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/privacy
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about/contact
+        - listitem [ref=e25]:
+          - link "Announcements" [ref=e26] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/announcement
+  - main [ref=e27]:
+    - generic [ref=e30]:
+      - heading "Archeologia e Calcolatori" [level=2] [ref=e31]
+      - article [ref=e32]:
+        - heading "About the Journal" [level=3] [ref=e33]
+        - paragraph [ref=e34]:
+          - link "Archeologia e Calcolatori" [ref=e35] [cursor=pointer]:
+            - /url: http://www.archcalc.cnr.it
+            - strong [ref=e36]: Archeologia e Calcolatori
+          - text: is a peer reviewed open access journal in the field of computing and information technology applied to archaeology.
+        - paragraph [ref=e37]:
+          - link "More info" [ref=e38] [cursor=pointer]:
+            - /url: https://submission.archcalc.cnr.it/index.php/aec/about
+  - contentinfo [ref=e40]:
+    - complementary [ref=e43]:
+      - link "More information about the publishing system, Platform and Workflow by OJS/PKP." [ref=e44] [cursor=pointer]:
+        - /url: https://submission.archcalc.cnr.it/index.php/aec/about/aboutThisPublishingSystem
+        - img "More information about the publishing system, Platform and Workflow by OJS/PKP." [ref=e45]

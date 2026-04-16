@@ -1,0 +1,53 @@
+site_name,site_type,island_region,province,period,date_range,material_culture,pre_400CE,near_volcano,volcano_name,source
+Callao Cave,cave,Luzon,Cagayan,Paleolithic,134000-67000 BP,H. luzonensis fossils; faunal remains,yes,no,,Mijares 2022
+Tabon Cave Complex,cave,Palawan,Palawan,Paleolithic-Neolithic,50000-9000 BP,stone tools; Tabon Man fossils; jar burials,yes,no,,Fox 1970
+Ille Cave,rock_shelter,Palawan,Palawan,Paleolithic-Neolithic,14000 cal BP,cremation burials 9000BP; stone/iron tools,yes,no,,Ille Cave excavations
+Pilanduk Cave,cave,Palawan,Palawan,Paleolithic,25000-20000 BP,LGM human activity evidence,yes,no,,Bellwood 2017
+Manunggul Cave,cave,Palawan,Palawan,Metal_Age,890-710 BCE,78 burial jars; decorated boat-scene lids,yes,no,,Fox 1970
+Duyong Cave,cave,Palawan,Palawan,Neolithic-Metal_Age,various,burials; organic material,yes,no,,Fox 1970
+Kalanay Cave,cave,Masbate,Masbate,Metal_Age-Protohistoric,400 BCE-1500 CE,Sa Huynh-Kalanay pottery,yes,no,,Solheim 1964
+Arku Cave,cave,Luzon,Cagayan,Metal_Age,1255-605 BCE,bark cloth beater; burials,yes,no,,NM Philippines
+Ayub Cave,cave,Mindanao,Sarangani,Metal_Age,5 BCE-370 CE,anthropomorphic burial jars,yes,no,,Dizon 1996
+Sagel Cave,cave,Mindanao,Sarangani,Metal_Age,various,burial jars,possibly,no,,NM Philippines
+Balobok Cave,cave,Tawi-Tawi,Tawi-Tawi,Neolithic,8810-5190 BP,flake tools; earthenware; bone tools,yes,no,,Ono et al.
+Kulaman Plateau caves,cave,Mindanao,Sultan_Kudarat,Neolithic-Metal_Age,various,limestone burial urns,yes,no,,NM Philippines
+Bato Caves,cave,Luzon,Sorsogon,Neolithic,2280 BP,burial jar; stone tools; no metal,yes,yes,Bulusan/Mayon,Evangelista & Fox
+Cagraray Caves,cave,Luzon,Albay,Metal_Age+,various,pottery; Chinese porcelain,possibly,yes,Mayon,NM Philippines
+Bilat Cave,cave,Mindoro,Mindoro,Paleolithic,25000-20000 BP,LGM human activity,yes,no,,Mindoro Arch. Project
+Bubog 1,rock_shelter,Mindoro/Ilin,Mindoro,Paleolithic,40000+ BP,stone tools; shell middens; burials,yes,no,,Mindoro Arch. Project
+Kabayan Mummies,cave,Luzon,Benguet,Neolithic-Protohistoric,2000 BCE-1500s CE,mummified human remains,yes,no,,NM Philippines
+Bohol caves (9),cave,Bohol,Bohol,Metal_Age-Protohistoric,6000 BP+,boat coffin burials; head-binding,yes,no,,NM Philippines
+Minori Cave,cave,Luzon,Cagayan,Paleolithic,various,stone tools,yes,no,,Mijares
+Rizal/Kalinga,open_air,Luzon,Kalinga,Paleolithic,709000 BP,57 stone tools; butchered rhinoceros,yes,no,,Ingicco et al. 2018
+Arubo 1,open_air,Luzon,Nueva_Ecija,Paleolithic,Middle Pleistocene,18 bifacial tools (hand axe; cleaver),yes,no,,Pawlik 2004
+Cagayan Valley open sites (100+),open_air,Luzon,Cagayan/Kalinga,Paleolithic-Neolithic,various,stone tool assemblages,yes,no,,NM Philippines 1970s
+Awidon Mesa sites (68+),open_air,Luzon,Cagayan,Paleolithic,various,stone tools in fossil-bearing deposits,yes,no,,Cagayan Valley Arch. Project
+Novaliches/Rizal-Bulacan survey (120),open_air,Luzon,Rizal/Bulacan,Various,various,~500000 artifacts catalogued,mixed,no,,Beyer 1926-1930
+Calatagan,open_air,Luzon,Batangas,Protohistoric,14th-16th c CE,505+ graves; 1000+ burials; pottery; trade ceramics,no,yes,Taal,Fox 1958; NM Philippines
+Santa Ana riverside,open_air,Luzon,Manila,Protohistoric,12th-14th c CE,open-air riverside burials,no,no,,NM Philippines
+Tanjay complex,open_air,Negros,Negros_Oriental,Metal_Age-Protohistoric,various,settlement; trade goods; emerging chiefdom,possibly,yes,Kanlaon,Junker 1999
+Butuan boat sites,open_air,Mindanao,Agusan,Protohistoric,10th-13th c CE,11 balanghay boats; gold workshops; 100+ crucibles,no,no,,NM Philippines
+Sunget,open_air,Batanes,Batanes,Neolithic-Metal_Age,1200 BCE-500 CE,pottery; stone adzes; buried under Iraya ash,yes,yes,Iraya,Bellwood & Dizon 2013
+Anaro,open_air,Batanes,Batanes,Neolithic-Iron_Age,2500+ BP,jade workshop; nephrite lingling-o,yes,yes,Iraya,Bellwood & Dizon 2013
+Batangas jade sites,open_air,Luzon,Batangas,Neolithic,2000-1500 BCE,tens of thousands of jade artifacts,yes,yes,Taal,Beyer
+Cuenca sites,open_air,Luzon,Batangas,Various,various,multi-period artifacts,mixed,yes,Taal,Batangas Arch. Survey
+Old Kiyyangan Village,open_air,Luzon,Ifugao,Protohistoric,pre-1650 CE+,trade beads; ceramics; organic,no,no,,Acabado 2017
+Cabarruan,open_air,Luzon,Cagayan,Protohistoric,15th c CE,open-air inland jar burials,no,no,,NM Philippines
+Pilar burial jars,open_air,Luzon,Sorsogon,Pre-colonial,various,24 burial jars (open-air context),possibly,yes,Bulusan,Galang & Maceda 1938
+Boljoon cemetery,open_air,Cebu,Cebu,Protohistoric,16th-17th c CE,open-air coastal burials,no,no,,NM Philippines
+Lal-lo/Gattaran complex (~30),shell_midden,Luzon,Cagayan,Neolithic+,7000 BP-recent,shells >5m deep; pottery; tools,yes,no,,NM Philippines; UNESCO
+Nagsabaran,shell_midden,Luzon,Cagayan,Neolithic-Metal_Age,7000 BP-Metal Age,earliest decorated pottery; pig bones; rice,yes,no,,Hung et al.
+Andarayan,shell_midden,Luzon,Cagayan,Neolithic,3935-3060 BP,earliest rice evidence Philippines 1500-1400 BCE,yes,no,,Snow et al.
+Magapit,shell_midden,Luzon,Cagayan,Neolithic+,7000 BP+,largest shell deposits in Philippines,yes,no,,NM Philippines
+Bangag,shell_midden,Luzon,Cagayan,Neolithic+,7000 BP+,massive shell deposits,yes,no,,NM Philippines
+Kay Tomas,shell_midden,Luzon,Batangas,Pre-colonial,various,shell heaps + graves,possibly,yes,Taal,Fox 1958
+Pulong Bakaw,shell_midden,Luzon,Batangas,Pre-colonial,various,shell heaps + graves,possibly,yes,Taal,Fox 1958
+Angono Petroglyphs,rock_art,Luzon,Rizal,Late_Neolithic,various,127 human/animal engravings,yes,no,,NM Philippines
+Penablanca petrographs,rock_art,Luzon,Cagayan,Neolithic,various,petroglyphs/petrographs,yes,no,,NM Philippines
+Alab Petroglyphs,rock_art,Luzon,Mountain_Province,Neolithic,various,petroglyphs,yes,no,,NM Philippines
+Singnapan petrographs,rock_art,Palawan,Palawan,Neolithic,various,petrographs,yes,no,,NM Philippines
+Anda petrographs,rock_art,Bohol,Bohol,Neolithic,various,petrographs,yes,no,,NM Philippines
+Pandanan shipwreck,shipwreck,Palawan,Palawan,Protohistoric,15th c CE,trade cargo from Vietnam/China,no,no,,NM Philippines 1995
+Pinatubo pre-colonial sites,open_air,Luzon,Zambales/Pampanga,Pre-colonial,~500 BP+,settlement buried by tephra; recoverable,possibly,yes,Pinatubo,Bautista et al.
+Cagsawa church site,open_air,Luzon,Albay,Colonial,1587+; destroyed 1814,Franciscan church under Mayon lahar,no,yes,Mayon,NM Philippines
+Budiao Archaeological Site,open_air,Luzon,Albay,Pre-colonial,various,declared National Cultural Treasure,possibly,yes,Mayon,NM Philippines

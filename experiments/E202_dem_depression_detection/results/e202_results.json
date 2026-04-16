@@ -1,0 +1,2676 @@
+{
+  "experiment": "E202",
+  "title": "DEM Depression Detection for Buried Structures",
+  "date": "2026-04-16",
+  "status": "INCONCLUSIVE",
+  "verdict": "Marginal positive signal at candi sites, but not statistically significant. 30m DEM provides no reliable discrimination.",
+  "dem_info": {
+    "file": "data/processed/dem/jatim_dem.tif",
+    "resolution_m": 30,
+    "crs": "EPSG:32749",
+    "study_area_shape": [
+      2155,
+      2704
+    ],
+    "study_bounds_latlon": {
+      "south": -8.15,
+      "north": -7.55,
+      "west": 112.05,
+      "east": 112.8
+    }
+  },
+  "sites_analyzed": {
+    "candi": [
+      "Singosari",
+      "Kidal",
+      "Jago",
+      "Tikus",
+      "Sumberawan",
+      "Jawi",
+      "Badut",
+      "Kotes",
+      "Gambar_Wetan"
+    ],
+    "e080": [
+      "T01_Kelud_NW",
+      "T02_Kelud_SW",
+      "T03_Arjuno_N",
+      "T04_Kelud_W",
+      "T05_Kelud_mid",
+      "T06_Kelud_close",
+      "T07_Kelud_NW2",
+      "T08_top"
+    ],
+    "borehole": [
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K8",
+      "A1",
+      "N4_Singosari",
+      "N6_between"
+    ],
+    "control": 30,
+    "out_of_bounds": [
+      "candi_Surawana"
+    ]
+  },
+  "statistical_tests_candi_vs_control": {
+    "depression_depth": {
+      "test": "Mann-Whitney U (one-sided: candi > control (deeper depressions))",
+      "U_statistic": 135.0,
+      "p_value": 1.0,
+      "n_candi": 9,
+      "n_control": 30,
+      "candi_mean": 0.0,
+      "candi_std": 0.0,
+      "control_mean": 0.0,
+      "control_std": 0.0,
+      "effect_size_cohens_d": 0.0
+    },
+    "tpi_150m": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 137.0,
+      "p_value": 0.5332067518526223,
+      "n_candi": 9,
+      "n_control": 30,
+      "candi_mean": -1.5282329135481898,
+      "candi_std": 7.9595286758690635,
+      "control_mean": -0.12089251200422477,
+      "control_std": 6.664288605223747,
+      "effect_size_cohens_d": -0.19172183647201618
+    },
+    "tpi_300m": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 121.0,
+      "p_value": 0.32635522028791997,
+      "n_candi": 9,
+      "n_control": 30,
+      "candi_mean": -5.7872806017884,
+      "candi_std": 16.88826130095868,
+      "control_mean": -0.7435049531816058,
+      "control_std": 9.13595245724065,
+      "effect_size_cohens_d": -0.37148951417225384
+    },
+    "relief_deviation": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 140.0,
+      "p_value": 0.5727317593030405,
+      "n_candi": 9,
+      "n_control": 30,
+      "candi_mean": -2.3343303529793946,
+      "candi_std": 9.924446345599861,
+      "control_mean": -0.42678894169074794,
+      "control_std": 7.645508574486694,
+      "effect_size_cohens_d": -0.21533294286156957
+    },
+    "relief_range": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 139.0,
+      "p_value": 0.5596176923702425,
+      "n_candi": 9,
+      "n_control": 30,
+      "candi_mean": 44.94958835177951,
+      "candi_std": 38.87524816913679,
+      "control_mean": 41.48816960652669,
+      "control_std": 44.431833971312926,
+      "effect_size_cohens_d": 0.08291599004662799
+    },
+    "multiscale_tpi": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 138.0,
+      "p_value": 0.5464378970049223,
+      "n_candi": 9,
+      "n_control": 30,
+      "candi_mean": -0.2777633489099451,
+      "candi_std": 1.1225047309132594,
+      "control_mean": -0.027224165965832013,
+      "control_std": 0.7114116063282657,
+      "effect_size_cohens_d": -0.2666122739826096
+    }
+  },
+  "statistical_tests_e080_vs_control": {
+    "depression_depth": {
+      "test": "Mann-Whitney U (one-sided: candi > control (deeper depressions))",
+      "U_statistic": 120.0,
+      "p_value": 1.0,
+      "n_candi": 8,
+      "n_control": 30,
+      "candi_mean": 0.0,
+      "candi_std": 0.0,
+      "control_mean": 0.0,
+      "control_std": 0.0,
+      "effect_size_cohens_d": 0.0
+    },
+    "tpi_150m": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 95.0,
+      "p_value": 0.19381826557498189,
+      "n_candi": 8,
+      "n_control": 30,
+      "candi_mean": -1.7961087703712195,
+      "candi_std": 5.291397335443117,
+      "control_mean": -0.12089251200422477,
+      "control_std": 6.664288605223747,
+      "effect_size_cohens_d": -0.2784080062063182
+    },
+    "tpi_300m": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 79.0,
+      "p_value": 0.07480363569947111,
+      "n_candi": 8,
+      "n_control": 30,
+      "candi_mean": -3.143668518789049,
+      "candi_std": 6.700711673226686,
+      "control_mean": -0.7435049531816058,
+      "control_std": 9.13595245724065,
+      "effect_size_cohens_d": -0.2995934032040315
+    },
+    "relief_deviation": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 92.0,
+      "p_value": 0.16578325326952115,
+      "n_candi": 8,
+      "n_control": 30,
+      "candi_mean": -2.4911885852656184,
+      "candi_std": 5.723746379705225,
+      "control_mean": -0.42678894169074794,
+      "control_std": 7.645508574486694,
+      "effect_size_cohens_d": -0.3056859414400402
+    },
+    "relief_range": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 126.0,
+      "p_value": 0.5902366644901348,
+      "n_candi": 8,
+      "n_control": 30,
+      "candi_mean": 40.083377838134766,
+      "candi_std": 32.547910743066,
+      "control_mean": 41.48816960652669,
+      "control_std": 44.431833971312926,
+      "effect_size_cohens_d": -0.03607040847396203
+    },
+    "multiscale_tpi": {
+      "test": "Mann-Whitney U (one-sided: candi < control (more negative = depression))",
+      "U_statistic": 89.0,
+      "p_value": 0.1404107297695633,
+      "n_candi": 8,
+      "n_control": 30,
+      "candi_mean": -0.1967064870912909,
+      "candi_std": 0.5754283203840479,
+      "control_mean": -0.027224165965832013,
+      "control_std": 0.7114116063282657,
+      "effect_size_cohens_d": -0.2619500633650586
+    }
+  },
+  "detection_rates": {
+    "threshold": "multiscale_TPI_zscore < -0.5",
+    "true_positive_rate": 0.111,
+    "false_positive_rate": 0.1,
+    "e080_detection_rate": 0.25,
+    "candi_n": 9,
+    "candi_detections": 1,
+    "control_n": 30,
+    "control_detections": 3,
+    "e080_n": 8,
+    "e080_detections": 2,
+    "borehole_n": 8,
+    "borehole_detections": 1
+  },
+  "resolution_analysis": {
+    "Singosari (main temple)": {
+      "footprint_m": "14x14",
+      "area_m2": 196,
+      "pixels_at_30m": 0.22,
+      "nyquist_min_res_m": 7.0,
+      "practical_min_res_m": 2.8,
+      "detectable_at_30m": false
+    },
+    "Kidal": {
+      "footprint_m": "8x8",
+      "area_m2": 64,
+      "pixels_at_30m": 0.07,
+      "nyquist_min_res_m": 4.0,
+      "practical_min_res_m": 1.6,
+      "detectable_at_30m": false
+    },
+    "Jago": {
+      "footprint_m": "9x14",
+      "area_m2": 126,
+      "pixels_at_30m": 0.14,
+      "nyquist_min_res_m": 4.5,
+      "practical_min_res_m": 1.8,
+      "detectable_at_30m": false
+    },
+    "Tikus (Trowulan bath)": {
+      "footprint_m": "28x22",
+      "area_m2": 616,
+      "pixels_at_30m": 0.68,
+      "nyquist_min_res_m": 11.0,
+      "practical_min_res_m": 4.4,
+      "detectable_at_30m": false
+    },
+    "Typical village compound": {
+      "footprint_m": "50x50",
+      "area_m2": 2500,
+      "pixels_at_30m": 2.78,
+      "nyquist_min_res_m": 25.0,
+      "practical_min_res_m": 10.0,
+      "detectable_at_30m": false
+    },
+    "Trowulan city block": {
+      "footprint_m": "200x200",
+      "area_m2": 40000,
+      "pixels_at_30m": 44.44,
+      "nyquist_min_res_m": 100.0,
+      "practical_min_res_m": 40.0,
+      "detectable_at_30m": true
+    },
+    "Trowulan entire city": {
+      "footprint_m": "1000x1000",
+      "area_m2": 1000000,
+      "pixels_at_30m": 1111.11,
+      "nyquist_min_res_m": 500.0,
+      "practical_min_res_m": 200.0,
+      "detectable_at_30m": true
+    }
+  },
+  "signal_noise": {
+    "dem_vertical_accuracy_rmse_m": 3.5,
+    "burial_5m_depression_m": [
+      0.25,
+      0.75
+    ],
+    "burial_10m_depression_m": [
+      0.5,
+      1.5
+    ],
+    "snr_5m_burial": 0.143,
+    "snr_10m_burial": 0.286,
+    "conclusion": "Expected depression signal (0.25-1.5m) is well below DEM noise floor (3.5m RMSE). SNR = 0.14-0.29.",
+    "minimum_for_individual_candi": "1-5m LiDAR",
+    "minimum_for_settlement_cluster": "5-10m satellite DEM",
+    "what_30m_can_detect": "Features >200m (old channels, city-scale depressions)"
+  },
+  "all_samples": {
+    "depression_depth": {
+      "candi": {
+        "Singosari": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "Kidal": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.1783447265625,
+          "mean": 0.0071337890625,
+          "in_bounds": true
+        },
+        "Jago": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "Tikus": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "Sumberawan": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "Jawi": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0673828125,
+          "mean": 0.0026953125,
+          "in_bounds": true
+        },
+        "Badut": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.4842529296875,
+          "mean": 0.02884765625,
+          "in_bounds": true
+        },
+        "Kotes": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "Gambar_Wetan": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        }
+      },
+      "e080": {
+        "T01_Kelud_NW": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.567718505859375,
+          "mean": 0.045079345703125,
+          "in_bounds": true
+        },
+        "T02_Kelud_SW": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.068695068359375,
+          "mean": 0.002747802734375,
+          "in_bounds": true
+        },
+        "T03_Arjuno_N": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "T04_Kelud_W": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.115936279296875,
+          "mean": 0.004637451171875,
+          "in_bounds": true
+        },
+        "T05_Kelud_mid": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "T06_Kelud_close": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.1778564453125,
+          "mean": 0.0071142578125,
+          "in_bounds": true
+        },
+        "T07_Kelud_NW2": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "T08_top": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        }
+      },
+      "control": {
+        "rand_00": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_01": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_02": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.1556396484375,
+          "mean": 0.0062255859375,
+          "in_bounds": true
+        },
+        "rand_03": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_04": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_05": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_06": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_07": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_08": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_09": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.005584716796875,
+          "mean": 0.000223388671875,
+          "in_bounds": true
+        },
+        "rand_10": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_11": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_12": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.436676025390625,
+          "mean": 0.017467041015625,
+          "in_bounds": true
+        },
+        "rand_13": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0316162109375,
+          "mean": 0.0012646484375,
+          "in_bounds": true
+        },
+        "rand_14": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_15": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_16": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.1248779296875,
+          "mean": 0.0049951171875,
+          "in_bounds": true
+        },
+        "rand_17": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.1519012451171875,
+          "mean": 0.012110595703125,
+          "in_bounds": true
+        },
+        "rand_18": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_19": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_20": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 3.01373291015625,
+          "mean": 0.15285400390625,
+          "in_bounds": true
+        },
+        "rand_21": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_22": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_23": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.4147186279296875,
+          "mean": 0.0165887451171875,
+          "in_bounds": true
+        },
+        "rand_24": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_25": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.1322174072265625,
+          "mean": 0.00779266357421875,
+          "in_bounds": true
+        },
+        "rand_26": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_27": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "rand_28": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.121337890625,
+          "mean": 0.00533355712890625,
+          "in_bounds": true
+        },
+        "rand_29": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        }
+      },
+      "borehole": {
+        "K1": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.567718505859375,
+          "mean": 0.045079345703125,
+          "in_bounds": true
+        },
+        "K2": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.095794677734375,
+          "mean": 0.003831787109375,
+          "in_bounds": true
+        },
+        "K3": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "K4": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.068695068359375,
+          "mean": 0.002747802734375,
+          "in_bounds": true
+        },
+        "K8": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "A1": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        },
+        "N4_Singosari": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.292236328125,
+          "mean": 0.01822509765625,
+          "in_bounds": true
+        },
+        "N6_between": {
+          "center": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "in_bounds": true
+        }
+      }
+    },
+    "tpi_150m": {
+      "candi": {
+        "Singosari": {
+          "center": 2.3532821655265934,
+          "min": -0.37924118042064947,
+          "max": 4.863504028319426,
+          "mean": 2.277011108397669,
+          "in_bounds": true
+        },
+        "Kidal": {
+          "center": -0.13837280273509123,
+          "min": -3.2411743164067275,
+          "max": 3.2996780395499172,
+          "mean": -0.1708340301520684,
+          "in_bounds": true
+        },
+        "Jago": {
+          "center": -0.14153060913133686,
+          "min": -1.2158332824712375,
+          "max": 2.0901634216302227,
+          "mean": 0.2505397491449435,
+          "in_bounds": true
+        },
+        "Tikus": {
+          "center": -23.370982360841936,
+          "min": -30.07617645263872,
+          "max": -6.85173797607672,
+          "mean": -18.39386676025596,
+          "in_bounds": true
+        },
+        "Sumberawan": {
+          "center": 1.754183959959164,
+          "min": -3.367561340334305,
+          "max": 12.598229980466613,
+          "mean": 3.727653747556569,
+          "in_bounds": true
+        },
+        "Jawi": {
+          "center": -1.284024047853336,
+          "min": -9.470657348635086,
+          "max": -1.1056732177753474,
+          "mean": -3.729702880861296,
+          "in_bounds": true
+        },
+        "Badut": {
+          "center": 0.2957931518547525,
+          "min": -2.5571105957038185,
+          "max": 1.6126213073721942,
+          "mean": -0.5816438903815561,
+          "in_bounds": true
+        },
+        "Kotes": {
+          "center": 0.9757492065425026,
+          "min": -1.1968723297123915,
+          "max": 0.9757492065425026,
+          "mean": 0.10336296081494765,
+          "in_bounds": true
+        },
+        "Gambar_Wetan": {
+          "center": 5.80180511474498,
+          "min": -19.80967483520601,
+          "max": 11.459314727782157,
+          "mean": -2.756529388428776,
+          "in_bounds": true
+        }
+      },
+      "e080": {
+        "T01_Kelud_NW": {
+          "center": -0.5455062866216167,
+          "min": -1.9477985382085308,
+          "max": 2.5049701690667803,
+          "mean": -0.0596603698735953,
+          "in_bounds": true
+        },
+        "T02_Kelud_SW": {
+          "center": -5.975403213501636,
+          "min": -6.3687995910651125,
+          "max": 5.879872512816746,
+          "mean": -1.807539184570951,
+          "in_bounds": true
+        },
+        "T03_Arjuno_N": {
+          "center": 2.901159667967363,
+          "min": -18.777859497071518,
+          "max": 6.205489349363802,
+          "mean": -2.753037231446633,
+          "in_bounds": true
+        },
+        "T04_Kelud_W": {
+          "center": -0.9523178100590144,
+          "min": -4.209284210205567,
+          "max": 7.590225601195812,
+          "mean": 0.6684742126460196,
+          "in_bounds": true
+        },
+        "T05_Kelud_mid": {
+          "center": -13.18880920410254,
+          "min": -16.52269515991304,
+          "max": 8.375815582274072,
+          "mean": -8.529113189698265,
+          "in_bounds": true
+        },
+        "T06_Kelud_close": {
+          "center": -2.2892398834231926,
+          "min": -4.293672561645906,
+          "max": 5.801936340331622,
+          "mean": 0.8129752197261405,
+          "in_bounds": true
+        },
+        "T07_Kelud_NW2": {
+          "center": 0.7018276214593584,
+          "min": -1.6891094207771857,
+          "max": 1.4042568206780857,
+          "mean": 0.17830133056574368,
+          "in_bounds": true
+        },
+        "T08_top": {
+          "center": 4.979418945311522,
+          "min": -17.41897277832129,
+          "max": 12.101598358153296,
+          "mean": -1.3301646423350348,
+          "in_bounds": true
+        }
+      },
+      "control": {
+        "rand_00": {
+          "center": 2.5441101074208063,
+          "min": -5.900880432129952,
+          "max": 4.081525421141464,
+          "mean": 0.18086248779188735,
+          "in_bounds": true
+        },
+        "rand_01": {
+          "center": -2.073789978028344,
+          "min": -3.2173629760752647,
+          "max": 2.980192565916809,
+          "mean": -0.7297890930185804,
+          "in_bounds": true
+        },
+        "rand_02": {
+          "center": 4.933704376219794,
+          "min": -17.211686706544015,
+          "max": 12.250097656248727,
+          "mean": 0.04744232177632512,
+          "in_bounds": true
+        },
+        "rand_03": {
+          "center": 3.160753250121445,
+          "min": -13.777676391602142,
+          "max": 3.853931427001271,
+          "mean": -1.9115708312993547,
+          "in_bounds": true
+        },
+        "rand_04": {
+          "center": -0.21748428344761805,
+          "min": -0.8337139129642424,
+          "max": 0.5934417724606362,
+          "mean": -0.16105921936071582,
+          "in_bounds": true
+        },
+        "rand_05": {
+          "center": 0.44214286804145786,
+          "min": -2.5192806243901487,
+          "max": 1.693477249145019,
+          "mean": 0.16213108825633982,
+          "in_bounds": true
+        },
+        "rand_06": {
+          "center": -0.984974670411134,
+          "min": -1.1084243774423612,
+          "max": 1.7537879943839698,
+          "mean": -0.139968338013623,
+          "in_bounds": true
+        },
+        "rand_07": {
+          "center": 15.485581970213616,
+          "min": -9.155625915528617,
+          "max": 19.251676177977174,
+          "mean": 5.233653350828767,
+          "in_bounds": true
+        },
+        "rand_08": {
+          "center": 0.5153320312496135,
+          "min": -2.5194972991949385,
+          "max": 1.5147876739497974,
+          "mean": -0.20927116394095266,
+          "in_bounds": true
+        },
+        "rand_09": {
+          "center": 0.7766256332394335,
+          "min": -1.0209497451785126,
+          "max": 1.5920745849607272,
+          "mean": 0.2102040710446738,
+          "in_bounds": true
+        },
+        "rand_10": {
+          "center": -18.9274864196791,
+          "min": -28.387854766846772,
+          "max": 7.272950744627337,
+          "mean": -12.297528076173199,
+          "in_bounds": true
+        },
+        "rand_11": {
+          "center": 0.18568363189669412,
+          "min": -1.3744737625125367,
+          "max": 1.2309244155880776,
+          "mean": 0.12434908294646903,
+          "in_bounds": true
+        },
+        "rand_12": {
+          "center": 4.660280990600285,
+          "min": -3.6660331726077118,
+          "max": 6.159098434447941,
+          "mean": 0.6879551010129012,
+          "in_bounds": true
+        },
+        "rand_13": {
+          "center": 0.05945892333897973,
+          "min": -1.0313133239756098,
+          "max": 1.101308441161109,
+          "mean": -0.1456301879891953,
+          "in_bounds": true
+        },
+        "rand_14": {
+          "center": 0.9597774505610346,
+          "min": -1.130796051025925,
+          "max": 6.473398971557174,
+          "mean": 1.2277707519526324,
+          "in_bounds": true
+        },
+        "rand_15": {
+          "center": 5.595606231688407,
+          "min": -4.288671875000773,
+          "max": 23.871437072752656,
+          "mean": 7.746220153807526,
+          "in_bounds": true
+        },
+        "rand_16": {
+          "center": -0.32543563842847334,
+          "min": -0.8889549255378029,
+          "max": 1.074439239501146,
+          "mean": -0.07374461364818216,
+          "in_bounds": true
+        },
+        "rand_17": {
+          "center": -0.8833774566651442,
+          "min": -1.609157085418829,
+          "max": 3.3327152252196157,
+          "mean": -0.16414910507213962,
+          "in_bounds": true
+        },
+        "rand_18": {
+          "center": 2.870221710204646,
+          "min": -4.365642929077637,
+          "max": 4.62197875976517,
+          "mean": 1.4300652770991495,
+          "in_bounds": true
+        },
+        "rand_19": {
+          "center": -3.917433166504793,
+          "min": -5.4474136352547475,
+          "max": 7.468522644042082,
+          "mean": -0.9009436035165754,
+          "in_bounds": true
+        },
+        "rand_20": {
+          "center": -21.01363906860422,
+          "min": -29.188171386719432,
+          "max": 9.922789001464139,
+          "mean": -13.578594024658933,
+          "in_bounds": true
+        },
+        "rand_21": {
+          "center": -2.3855667114260655,
+          "min": -3.6384115219119053,
+          "max": 4.881906318664306,
+          "mean": -0.8623806457522335,
+          "in_bounds": true
+        },
+        "rand_22": {
+          "center": -7.805546188355152,
+          "min": -7.805546188355152,
+          "max": 1.6110454559319578,
+          "mean": -3.7051960754401647,
+          "in_bounds": true
+        },
+        "rand_23": {
+          "center": -0.7932352066042654,
+          "min": -4.766124534607201,
+          "max": 1.7801733016964931,
+          "mean": -1.4316627578737962,
+          "in_bounds": true
+        },
+        "rand_24": {
+          "center": 9.327878570555413,
+          "min": -12.063126373292448,
+          "max": 21.962600708006562,
+          "mean": 6.941417175291708,
+          "in_bounds": true
+        },
+        "rand_25": {
+          "center": -0.19220829010021134,
+          "min": -1.0213638305665285,
+          "max": 0.9040252685545482,
+          "mean": -0.1881649398804757,
+          "in_bounds": true
+        },
+        "rand_26": {
+          "center": 0.4404857635490771,
+          "min": -4.122766113282182,
+          "max": 2.645021438597837,
+          "mean": 0.17456375121992096,
+          "in_bounds": true
+        },
+        "rand_27": {
+          "center": 3.1789421081534783,
+          "min": -7.024150848389695,
+          "max": 4.066958618163085,
+          "mean": -0.5700773010263538,
+          "in_bounds": true
+        },
+        "rand_28": {
+          "center": -0.7770454406739731,
+          "min": -1.0943560600281899,
+          "max": 1.3433313369749413,
+          "mean": -0.1917567367554949,
+          "in_bounds": true
+        },
+        "rand_29": {
+          "center": 1.5338615417475694,
+          "min": -0.4267745971687873,
+          "max": 2.4828948974601417,
+          "mean": 1.214646057128207,
+          "in_bounds": true
+        }
+      },
+      "borehole": {
+        "K1": {
+          "center": -0.5455062866216167,
+          "min": -1.9477985382085308,
+          "max": 2.5049701690667803,
+          "mean": -0.0596603698735953,
+          "in_bounds": true
+        },
+        "K2": {
+          "center": 1.9675987243646205,
+          "min": -1.524696350098452,
+          "max": 6.495278930663517,
+          "mean": 1.0169830780023268,
+          "in_bounds": true
+        },
+        "K3": {
+          "center": 0.737676239012842,
+          "min": -0.5845668792732113,
+          "max": 3.639517593382891,
+          "mean": 0.8984378356926254,
+          "in_bounds": true
+        },
+        "K4": {
+          "center": -5.975403213501636,
+          "min": -6.3687995910651125,
+          "max": 5.879872512816746,
+          "mean": -1.807539184570951,
+          "in_bounds": true
+        },
+        "K8": {
+          "center": 0.7018276214593584,
+          "min": -1.6891094207771857,
+          "max": 1.4042568206780857,
+          "mean": 0.17830133056574368,
+          "in_bounds": true
+        },
+        "A1": {
+          "center": 2.901159667967363,
+          "min": -18.777859497071518,
+          "max": 6.205489349363802,
+          "mean": -2.753037231446633,
+          "in_bounds": true
+        },
+        "N4_Singosari": {
+          "center": 0.307086944579396,
+          "min": -1.8551879882818412,
+          "max": 1.3842090606682405,
+          "mean": -0.12822029113833877,
+          "in_bounds": true
+        },
+        "N6_between": {
+          "center": 7.887911987303141,
+          "min": -11.543586730958282,
+          "max": 10.60478744506679,
+          "mean": 1.5387890319808275,
+          "in_bounds": true
+        }
+      }
+    },
+    "tpi_300m": {
+      "candi": {
+        "Singosari": {
+          "center": 6.608738186995311,
+          "min": 2.4233989474157624,
+          "max": 8.103910228876316,
+          "mean": 5.955731826977403,
+          "in_bounds": true
+        },
+        "Kidal": {
+          "center": -0.4569846044598762,
+          "min": -3.0865338482421407,
+          "max": 2.5048320142540774,
+          "mean": -0.41793801223045646,
+          "in_bounds": true
+        },
+        "Jago": {
+          "center": -0.4529483650288739,
+          "min": -1.7778883342487006,
+          "max": 2.1735770310043563,
+          "mean": 0.043695528056075544,
+          "in_bounds": true
+        },
+        "Tikus": {
+          "center": -50.81546329546177,
+          "min": -56.420889166333154,
+          "max": -31.030616856824054,
+          "mean": -44.582695157976374,
+          "in_bounds": true
+        },
+        "Sumberawan": {
+          "center": 6.079150236111218,
+          "min": 1.3595129085547342,
+          "max": 13.54187436647544,
+          "mean": 7.41875098892966,
+          "in_bounds": true
+        },
+        "Jawi": {
+          "center": -14.272430033617638,
+          "min": -18.530556594264,
+          "max": -12.697908039328468,
+          "mean": -14.921070216692215,
+          "in_bounds": true
+        },
+        "Badut": {
+          "center": 0.4894152291230398,
+          "min": -2.546382372890605,
+          "max": 1.6481038347091044,
+          "mean": -0.47542505191677037,
+          "in_bounds": true
+        },
+        "Kotes": {
+          "center": 1.0327755891834727,
+          "min": -1.4310007216043346,
+          "max": 1.0327755891834727,
+          "mean": 0.1934407255932615,
+          "in_bounds": true
+        },
+        "Gambar_Wetan": {
+          "center": -0.29777835894049076,
+          "min": -26.18666945831501,
+          "max": 7.491524998147952,
+          "mean": -8.243536917768951,
+          "in_bounds": true
+        }
+      },
+      "e080": {
+        "T01_Kelud_NW": {
+          "center": -0.6204915107038573,
+          "min": -1.980692609954815,
+          "max": 2.4037623345109296,
+          "mean": -0.1655607740172968,
+          "in_bounds": true
+        },
+        "T02_Kelud_SW": {
+          "center": -6.294696083550491,
+          "min": -6.505203729942195,
+          "max": 6.175442755978111,
+          "mean": -2.0120888239208536,
+          "in_bounds": true
+        },
+        "T03_Arjuno_N": {
+          "center": -3.5587573473942484,
+          "min": -25.39268725431191,
+          "max": 4.499787922149494,
+          "mean": -7.984413583487485,
+          "in_bounds": true
+        },
+        "T04_Kelud_W": {
+          "center": -0.879096598563649,
+          "min": -3.6127216966835363,
+          "max": 7.828655098059357,
+          "mean": 0.9911157419724168,
+          "in_bounds": true
+        },
+        "T05_Kelud_mid": {
+          "center": -18.419718875158537,
+          "min": -21.99134227897366,
+          "max": 5.5862807261817125,
+          "mean": -12.929097251407034,
+          "in_bounds": true
+        },
+        "T06_Kelud_close": {
+          "center": -2.235929899576888,
+          "min": -4.906337641461505,
+          "max": 6.221813926214963,
+          "mean": 0.6419125211700952,
+          "in_bounds": true
+        },
+        "T07_Kelud_NW2": {
+          "center": 0.5141074265121119,
+          "min": -2.325351956522411,
+          "max": 1.3447017428257482,
+          "mean": -0.03862740431992506,
+          "in_bounds": true
+        },
+        "T08_top": {
+          "center": 6.3452347381231675,
+          "min": -17.848411270332576,
+          "max": 16.598353325568155,
+          "mean": 0.5311580995994063,
+          "in_bounds": true
+        }
+      },
+      "control": {
+        "rand_00": {
+          "center": 2.343681432026301,
+          "min": -8.127020147779831,
+          "max": 4.904663858537106,
+          "mean": -0.006052840990605546,
+          "in_bounds": true
+        },
+        "rand_01": {
+          "center": -2.535047506982437,
+          "min": -4.340979467462148,
+          "max": 2.702529327780667,
+          "mean": -0.9796730060798245,
+          "in_bounds": true
+        },
+        "rand_02": {
+          "center": 9.04485427277325,
+          "min": -16.91785749604128,
+          "max": 17.685875421840933,
+          "mean": 4.185333985923194,
+          "in_bounds": true
+        },
+        "rand_03": {
+          "center": -11.418179958680184,
+          "min": -23.60352479958692,
+          "max": -7.5638388138769415,
+          "mean": -15.445925872415069,
+          "in_bounds": true
+        },
+        "rand_04": {
+          "center": -0.695131229448009,
+          "min": -1.064847970309529,
+          "max": 0.24742952177885513,
+          "mean": -0.5332965377604592,
+          "in_bounds": true
+        },
+        "rand_05": {
+          "center": -0.05106402046982339,
+          "min": -3.599677749825787,
+          "max": 2.5279322757007208,
+          "mean": -0.0685126080079931,
+          "in_bounds": true
+        },
+        "rand_06": {
+          "center": 0.3527770223515745,
+          "min": 0.008399673656981577,
+          "max": 2.4143869907057933,
+          "mean": 0.9026139464578137,
+          "in_bounds": true
+        },
+        "rand_07": {
+          "center": 13.686198946798754,
+          "min": -8.001664946347319,
+          "max": 17.819877527940093,
+          "mean": 4.167413994514391,
+          "in_bounds": true
+        },
+        "rand_08": {
+          "center": 1.00421384014777,
+          "min": -1.725697288029096,
+          "max": 1.8613236825689228,
+          "mean": 0.2075240702580322,
+          "in_bounds": true
+        },
+        "rand_09": {
+          "center": 1.3312120558346123,
+          "min": -0.4156337206871399,
+          "max": 2.2002386262151674,
+          "mean": 0.7730980498886788,
+          "in_bounds": true
+        },
+        "rand_10": {
+          "center": -26.67178093632174,
+          "min": -33.647938788688066,
+          "max": 4.350170280363955,
+          "mean": -19.50681224967473,
+          "in_bounds": true
+        },
+        "rand_11": {
+          "center": 0.41114923018506033,
+          "min": -2.10353281528063,
+          "max": 0.698402887658915,
+          "mean": 0.21500663467668119,
+          "in_bounds": true
+        },
+        "rand_12": {
+          "center": 4.70864390119786,
+          "min": -3.0732923580114573,
+          "max": 6.77220670482842,
+          "mean": 1.2019153546689643,
+          "in_bounds": true
+        },
+        "rand_13": {
+          "center": -0.12865554229927056,
+          "min": -1.2047928435871427,
+          "max": 0.5013624746609366,
+          "mean": -0.38226554001212665,
+          "in_bounds": true
+        },
+        "rand_14": {
+          "center": 2.7694248247760243,
+          "min": 0.822888627837699,
+          "max": 7.953673350661347,
+          "mean": 2.891981676319956,
+          "in_bounds": true
+        },
+        "rand_15": {
+          "center": 14.983069311217037,
+          "min": -6.270059899436546,
+          "max": 37.39053943489455,
+          "mean": 16.852326196600576,
+          "in_bounds": true
+        },
+        "rand_16": {
+          "center": -0.6533005147027211,
+          "min": -1.0287461099732127,
+          "max": 0.7377932584751647,
+          "mean": -0.4335065353958862,
+          "in_bounds": true
+        },
+        "rand_17": {
+          "center": -1.5915786888023433,
+          "min": -2.175178262251549,
+          "max": 2.4581384779533835,
+          "mean": -0.7121500541587937,
+          "in_bounds": true
+        },
+        "rand_18": {
+          "center": 3.622703069374552,
+          "min": -8.915664383126682,
+          "max": 6.067808899699685,
+          "mean": 2.219324425807299,
+          "in_bounds": true
+        },
+        "rand_19": {
+          "center": 0.026763143421362656,
+          "min": -3.7625317151004083,
+          "max": 13.617615132394917,
+          "mean": 2.2551851914832377,
+          "in_bounds": true
+        },
+        "rand_20": {
+          "center": -30.149272484113453,
+          "min": -39.34162844887021,
+          "max": 3.757737558101553,
+          "mean": -22.563523513212427,
+          "in_bounds": true
+        },
+        "rand_21": {
+          "center": -2.498633372632071,
+          "min": -3.7115634483621136,
+          "max": 5.440040153793774,
+          "mean": -1.0873109069045301,
+          "in_bounds": true
+        },
+        "rand_22": {
+          "center": -11.828656160377363,
+          "min": -11.828656160377363,
+          "max": -1.1969646985003237,
+          "mean": -6.8055312183220416,
+          "in_bounds": true
+        },
+        "rand_23": {
+          "center": -3.124540449697122,
+          "min": -5.938061822818213,
+          "max": -0.4634175843823698,
+          "mean": -3.5477582617644816,
+          "in_bounds": true
+        },
+        "rand_24": {
+          "center": 4.382308959964007,
+          "min": -20.274258191069066,
+          "max": 16.80777479727385,
+          "mean": 2.770645867845833,
+          "in_bounds": true
+        },
+        "rand_25": {
+          "center": -0.021805702885160372,
+          "min": -0.9905425687376237,
+          "max": 1.7231217396413285,
+          "mean": -0.08215772508035571,
+          "in_bounds": true
+        },
+        "rand_26": {
+          "center": 2.5015795743935314,
+          "min": -2.4465411222416265,
+          "max": 5.031974213034573,
+          "mean": 2.2936320746716503,
+          "in_bounds": true
+        },
+        "rand_27": {
+          "center": 4.192912813985458,
+          "min": -4.906160958202918,
+          "max": 6.802837420115566,
+          "mean": 0.348272569875794,
+          "in_bounds": true
+        },
+        "rand_28": {
+          "center": -0.26668538926500673,
+          "min": -0.7386587843107719,
+          "max": 2.1817212648031727,
+          "mean": 0.28836721685889244,
+          "in_bounds": true
+        },
+        "rand_29": {
+          "center": 3.9676909627813757,
+          "min": 1.9509868380411035,
+          "max": 5.041526118413117,
+          "mean": 3.590982337663809,
+          "in_bounds": true
+        }
+      },
+      "borehole": {
+        "K1": {
+          "center": -0.6204915107038573,
+          "min": -1.980692609954815,
+          "max": 2.4037623345109296,
+          "mean": -0.1655607740172968,
+          "in_bounds": true
+        },
+        "K2": {
+          "center": 2.7426956756216896,
+          "min": -1.5789733114108913,
+          "max": 7.81963280786556,
+          "mean": 1.788601897035619,
+          "in_bounds": true
+        },
+        "K3": {
+          "center": 0.33172984063048716,
+          "min": -1.2252157670016572,
+          "max": 3.035505270657893,
+          "mean": 0.4793241901655824,
+          "in_bounds": true
+        },
+        "K4": {
+          "center": -6.294696083550491,
+          "min": -6.505203729942195,
+          "max": 6.175442755978111,
+          "mean": -2.0120888239208536,
+          "in_bounds": true
+        },
+        "K8": {
+          "center": 0.5141074265121119,
+          "min": -2.325351956522411,
+          "max": 1.3447017428257482,
+          "mean": -0.03862740431992506,
+          "in_bounds": true
+        },
+        "A1": {
+          "center": -3.5587573473942484,
+          "min": -25.39268725431191,
+          "max": 4.499787922149494,
+          "mean": -7.984413583487485,
+          "in_bounds": true
+        },
+        "N4_Singosari": {
+          "center": 0.6795147280170113,
+          "min": -1.8682276085942249,
+          "max": 2.677568459814381,
+          "mean": 0.3588922350938105,
+          "in_bounds": true
+        },
+        "N6_between": {
+          "center": 6.863452573369045,
+          "min": -15.210308799257518,
+          "max": 10.791007319586356,
+          "mean": 0.06076196598437946,
+          "in_bounds": true
+        }
+      }
+    },
+    "relief_deviation": {
+      "candi": {
+        "Singosari": {
+          "center": 3.6606394870221948,
+          "min": -0.06420646226115423,
+          "max": 5.585755403376766,
+          "mean": 3.255362155378348,
+          "in_bounds": true
+        },
+        "Kidal": {
+          "center": -0.045158953706106786,
+          "min": -3.3419282771338885,
+          "max": 3.1592528288029484,
+          "mean": -0.22069319795971068,
+          "in_bounds": true
+        },
+        "Jago": {
+          "center": -0.19560783953704686,
+          "min": -1.3049576183981344,
+          "max": 2.061420030830334,
+          "mean": 0.17167107195893094,
+          "in_bounds": true
+        },
+        "Tikus": {
+          "center": -29.475770556237194,
+          "min": -36.21239830836771,
+          "max": -12.445233810046375,
+          "mean": -23.992538295777393,
+          "in_bounds": true
+        },
+        "Sumberawan": {
+          "center": 3.537877106469523,
+          "min": -1.552891754907023,
+          "max": 12.601735012590325,
+          "mean": 4.888197919356926,
+          "in_bounds": true
+        },
+        "Jawi": {
+          "center": -4.341939122223721,
+          "min": -12.344970703125,
+          "max": -4.007605686660554,
+          "mean": -6.583176209000503,
+          "in_bounds": true
+        },
+        "Badut": {
+          "center": 0.36190367139073487,
+          "min": -2.644636674360811,
+          "max": 1.5911744172908016,
+          "mean": -0.5776047585227252,
+          "in_bounds": true
+        },
+        "Kotes": {
+          "center": 0.9187584238604245,
+          "min": -1.2289716231921375,
+          "max": 0.9187584238604245,
+          "mean": 0.1494884043291563,
+          "in_bounds": true
+        },
+        "Gambar_Wetan": {
+          "center": 4.570324606146642,
+          "min": -21.91901189630687,
+          "max": 10.686436676782023,
+          "mean": -4.01372177250129,
+          "in_bounds": true
+        }
+      },
+      "e080": {
+        "T01_Kelud_NW": {
+          "center": -0.5155289074606344,
+          "min": -1.9587205618865937,
+          "max": 2.546958986392667,
+          "mean": -0.032055795212424985,
+          "in_bounds": true
+        },
+        "T02_Kelud_SW": {
+          "center": -6.398210509749504,
+          "min": -6.565613045180157,
+          "max": 5.546789248127595,
+          "mean": -2.068600489088326,
+          "in_bounds": true
+        },
+        "T03_Arjuno_N": {
+          "center": 0.8349755657606011,
+          "min": -20.694010080384828,
+          "max": 6.151184586454065,
+          "mean": -4.007905031314558,
+          "in_bounds": true
+        },
+        "T04_Kelud_W": {
+          "center": -0.8301058682528151,
+          "min": -3.8227708044130964,
+          "max": 7.3889308960969515,
+          "mean": 0.7279211930204019,
+          "in_bounds": true
+        },
+        "T05_Kelud_mid": {
+          "center": -15.87677859471853,
+          "min": -19.31576109326579,
+          "max": 8.629319372255964,
+          "mean": -10.75753629826317,
+          "in_bounds": true
+        },
+        "T06_Kelud_close": {
+          "center": -1.5274842317439266,
+          "min": -3.845255701995086,
+          "max": 5.321000784881846,
+          "mean": 0.9905665373999204,
+          "in_bounds": true
+        },
+        "T07_Kelud_NW2": {
+          "center": 0.5893400838552338,
+          "min": -1.7433683537254865,
+          "max": 1.3738436107793177,
+          "mean": 0.15933106477595402,
+          "in_bounds": true
+        },
+        "T08_top": {
+          "center": 3.794283780184628,
+          "min": -18.238764487022195,
+          "max": 9.258801168646642,
+          "mean": -1.528307822992001,
+          "in_bounds": true
+        }
+      },
+      "control": {
+        "rand_00": {
+          "center": 2.5041922577156583,
+          "min": -6.540369963842977,
+          "max": 4.5544796778150385,
+          "mean": 0.21364949880553014,
+          "in_bounds": true
+        },
+        "rand_01": {
+          "center": -2.3691567665289313,
+          "min": -3.4891327156508396,
+          "max": 2.8495256408186833,
+          "mean": -0.9539636331353222,
+          "in_bounds": true
+        },
+        "rand_02": {
+          "center": 4.817005504261374,
+          "min": -17.718114427298588,
+          "max": 13.171677266270649,
+          "mean": 0.6440131876291297,
+          "in_bounds": true
+        },
+        "rand_03": {
+          "center": 0.5461319852466318,
+          "min": -16.19257020556239,
+          "max": 1.1335527404280583,
+          "mean": -4.349724262332136,
+          "in_bounds": true
+        },
+        "rand_04": {
+          "center": -0.3397306331918344,
+          "min": -0.99727044223755,
+          "max": 0.6409284103015125,
+          "mean": -0.2491751729161331,
+          "in_bounds": true
+        },
+        "rand_05": {
+          "center": 0.3536939384523521,
+          "min": -2.7903972026730344,
+          "max": 1.8317651669840984,
+          "mean": 0.10311575897469766,
+          "in_bounds": true
+        },
+        "rand_06": {
+          "center": -0.6802464004390458,
+          "min": -0.8308771306818699,
+          "max": 1.908085090069676,
+          "mean": 0.12414237030280674,
+          "in_bounds": true
+        },
+        "rand_07": {
+          "center": 16.076815014043177,
+          "min": -8.694531149115392,
+          "max": 20.04315336873708,
+          "mean": 5.718743361796223,
+          "in_bounds": true
+        },
+        "rand_08": {
+          "center": 0.6432691842071563,
+          "min": -2.3866662900309734,
+          "max": 1.5392811672746802,
+          "mean": -0.12570294340779584,
+          "in_bounds": true
+        },
+        "rand_09": {
+          "center": 0.8279427772711188,
+          "min": -0.9363755155200693,
+          "max": 1.642320491065675,
+          "mean": 0.31141422996836243,
+          "in_bounds": true
+        },
+        "rand_10": {
+          "center": -22.990087083548588,
+          "min": -32.070122837035115,
+          "max": 7.002473184885048,
+          "mean": -15.556608180526863,
+          "in_bounds": true
+        },
+        "rand_11": {
+          "center": 0.24385323012171511,
+          "min": -1.2252497397178388,
+          "max": 1.4323101201333373,
+          "mean": 0.23011063504810067,
+          "in_bounds": true
+        },
+        "rand_12": {
+          "center": 4.290534405668893,
+          "min": -3.5662042286770372,
+          "max": 6.379932498143717,
+          "mean": 0.724962016964746,
+          "in_bounds": true
+        },
+        "rand_13": {
+          "center": 0.016325138817137486,
+          "min": -1.0779903191180438,
+          "max": 0.996631969105124,
+          "mean": -0.18400102095170495,
+          "in_bounds": true
+        },
+        "rand_14": {
+          "center": 1.4004587220751432,
+          "min": -0.5870424380972281,
+          "max": 6.694902152069346,
+          "mean": 1.6286232688210225,
+          "in_bounds": true
+        },
+        "rand_15": {
+          "center": 7.189955530087786,
+          "min": -0.7124689275568699,
+          "max": 26.571805087002872,
+          "mean": 9.560974262332124,
+          "in_bounds": true
+        },
+        "rand_16": {
+          "center": -0.34681487280477086,
+          "min": -0.8513501380100479,
+          "max": 0.9537635992381297,
+          "mean": -0.12758711381392232,
+          "in_bounds": true
+        },
+        "rand_17": {
+          "center": -1.0930731907363764,
+          "min": -1.5986045648243845,
+          "max": 3.0208388399486665,
+          "mean": -0.30060888369221517,
+          "in_bounds": true
+        },
+        "rand_18": {
+          "center": 3.4194361158639026,
+          "min": -5.7430291294066365,
+          "max": 4.926000673908845,
+          "mean": 1.7542685667936484,
+          "in_bounds": true
+        },
+        "rand_19": {
+          "center": -3.2704165119770323,
+          "min": -5.586683036867271,
+          "max": 10.17390227514852,
+          "mean": -0.3552426677104768,
+          "in_bounds": true
+        },
+        "rand_20": {
+          "center": -24.95819243123708,
+          "min": -30.825508559045716,
+          "max": 7.523945453738406,
+          "mean": -16.542254588229596,
+          "in_bounds": true
+        },
+        "rand_21": {
+          "center": -2.6672210693359375,
+          "min": -3.6073309527940864,
+          "max": 5.3064297762784065,
+          "mean": -0.971539705134619,
+          "in_bounds": true
+        },
+        "rand_22": {
+          "center": -9.697438137590382,
+          "min": -9.697438137590382,
+          "max": -0.26768405378356874,
+          "mean": -5.207044566761365,
+          "in_bounds": true
+        },
+        "rand_23": {
+          "center": -1.4959731929558302,
+          "min": -5.02287910398374,
+          "max": 1.4911876079464719,
+          "mean": -1.9702555254471201,
+          "in_bounds": true
+        },
+        "rand_24": {
+          "center": 9.927446349593197,
+          "min": -14.398307863345849,
+          "max": 23.5087204610021,
+          "mean": 6.904142420745102,
+          "in_bounds": true
+        },
+        "rand_25": {
+          "center": -0.12192529095105442,
+          "min": -1.0411866243220516,
+          "max": 1.0435831999975846,
+          "mean": -0.13072461593249612,
+          "in_bounds": true
+        },
+        "rand_26": {
+          "center": 0.5508450594815031,
+          "min": -4.0260867284349615,
+          "max": 3.1321416177040646,
+          "mean": 0.4658768582935181,
+          "in_bounds": true
+        },
+        "rand_27": {
+          "center": 2.9513156354919374,
+          "min": -6.5471554590650385,
+          "max": 4.738468895273741,
+          "mean": -0.3208497102595584,
+          "in_bounds": true
+        },
+        "rand_28": {
+          "center": -0.6964707177532574,
+          "min": -1.0095221779563275,
+          "max": 1.4980608096792736,
+          "mean": -0.12189045299183192,
+          "in_bounds": true
+        },
+        "rand_29": {
+          "center": 2.163857199928998,
+          "min": 0.04418894870218537,
+          "max": 3.262876400277605,
+          "mean": 1.829922096946034,
+          "in_bounds": true
+        }
+      },
+      "borehole": {
+        "K1": {
+          "center": -0.5155289074606344,
+          "min": -1.9587205618865937,
+          "max": 2.546958986392667,
+          "mean": -0.032055795212424985,
+          "in_bounds": true
+        },
+        "K2": {
+          "center": 2.2577787036738073,
+          "min": -1.4886333370997136,
+          "max": 6.990905005084585,
+          "mean": 1.3312867925974912,
+          "in_bounds": true
+        },
+        "K3": {
+          "center": 1.156058571555377,
+          "min": -0.6389657012687167,
+          "max": 3.700294431576083,
+          "mean": 1.0422311325703686,
+          "in_bounds": true
+        },
+        "K4": {
+          "center": -6.398210509749504,
+          "min": -6.565613045180157,
+          "max": 5.546789248127595,
+          "mean": -2.068600489088326,
+          "in_bounds": true
+        },
+        "K8": {
+          "center": 0.5893400838552338,
+          "min": -1.7433683537254865,
+          "max": 1.3738436107793177,
+          "mean": 0.15933106477595402,
+          "in_bounds": true
+        },
+        "A1": {
+          "center": 0.8349755657606011,
+          "min": -20.694010080384828,
+          "max": 6.151184586454065,
+          "mean": -4.007905031314558,
+          "in_bounds": true
+        },
+        "N4_Singosari": {
+          "center": 0.31365285826120726,
+          "min": -2.0488361957644656,
+          "max": 1.6520400874870802,
+          "mean": -0.11506396080836793,
+          "in_bounds": true
+        },
+        "N6_between": {
+          "center": 7.914039800974933,
+          "min": -9.878837144079284,
+          "max": 10.201879075736088,
+          "mean": 1.737514224722363,
+          "in_bounds": true
+        }
+      }
+    },
+    "relief_range": {
+      "candi": {
+        "Singosari": {
+          "center": 35.01495361328125,
+          "min": 20.54071044921875,
+          "max": 36.81134033203125,
+          "mean": 33.85257080078125,
+          "in_bounds": true
+        },
+        "Kidal": {
+          "center": 9.3802490234375,
+          "min": 8.160980224609375,
+          "max": 11.823394775390625,
+          "mean": 9.842779541015625,
+          "in_bounds": true
+        },
+        "Jago": {
+          "center": 6.8138427734375,
+          "min": 6.4495849609375,
+          "max": 10.06475830078125,
+          "mean": 8.2153564453125,
+          "in_bounds": true
+        },
+        "Tikus": {
+          "center": 120.436767578125,
+          "min": 113.5146484375,
+          "max": 148.3837890625,
+          "mean": 130.9001025390625,
+          "in_bounds": true
+        },
+        "Sumberawan": {
+          "center": 87.122314453125,
+          "min": 73.7879638671875,
+          "max": 91.46240234375,
+          "mean": 83.319033203125,
+          "in_bounds": true
+        },
+        "Jawi": {
+          "center": 70.4959716796875,
+          "min": 51.6619873046875,
+          "max": 102.982177734375,
+          "mean": 71.2151708984375,
+          "in_bounds": true
+        },
+        "Badut": {
+          "center": 7.390838623046875,
+          "min": 5.645477294921875,
+          "max": 7.390838623046875,
+          "mean": 6.717203369140625,
+          "in_bounds": true
+        },
+        "Kotes": {
+          "center": 11.5732421875,
+          "min": 11.5732421875,
+          "max": 12.945465087890625,
+          "mean": 12.024283447265624,
+          "in_bounds": true
+        },
+        "Gambar_Wetan": {
+          "center": 56.318115234375,
+          "min": 47.099365234375,
+          "max": 59.5819091796875,
+          "mean": 55.13182373046875,
+          "in_bounds": true
+        }
+      },
+      "e080": {
+        "T01_Kelud_NW": {
+          "center": 11.6981201171875,
+          "min": 9.5103759765625,
+          "max": 12.711761474609375,
+          "mean": 11.366905517578125,
+          "in_bounds": true
+        },
+        "T02_Kelud_SW": {
+          "center": 17.635711669921875,
+          "min": 17.635711669921875,
+          "max": 21.255126953125,
+          "mean": 18.970020751953125,
+          "in_bounds": true
+        },
+        "T03_Arjuno_N": {
+          "center": 101.80194091796875,
+          "min": 89.3927001953125,
+          "max": 111.197509765625,
+          "mean": 101.02406494140625,
+          "in_bounds": true
+        },
+        "T04_Kelud_W": {
+          "center": 16.129119873046875,
+          "min": 13.988433837890625,
+          "max": 16.499420166015625,
+          "mean": 15.508448486328126,
+          "in_bounds": true
+        },
+        "T05_Kelud_mid": {
+          "center": 54.74456787109375,
+          "min": 50.34796142578125,
+          "max": 73.2237548828125,
+          "mean": 58.9544189453125,
+          "in_bounds": true
+        },
+        "T06_Kelud_close": {
+          "center": 22.834075927734375,
+          "min": 16.66204833984375,
+          "max": 29.525970458984375,
+          "mean": 23.125245361328126,
+          "in_bounds": true
+        },
+        "T07_Kelud_NW2": {
+          "center": 15.1453857421875,
+          "min": 13.955902099609375,
+          "max": 17.735137939453125,
+          "mean": 15.641942138671874,
+          "in_bounds": true
+        },
+        "T08_top": {
+          "center": 80.6781005859375,
+          "min": 63.57550048828125,
+          "max": 92.5506591796875,
+          "mean": 79.76157958984375,
+          "in_bounds": true
+        }
+      },
+      "control": {
+        "rand_00": {
+          "center": 21.2286376953125,
+          "min": 17.8963623046875,
+          "max": 26.409912109375,
+          "mean": 21.95575927734375,
+          "in_bounds": true
+        },
+        "rand_01": {
+          "center": 33.529296875,
+          "min": 28.24481201171875,
+          "max": 43.02264404296875,
+          "mean": 34.36657958984375,
+          "in_bounds": true
+        },
+        "rand_02": {
+          "center": 51.11553955078125,
+          "min": 43.61474609375,
+          "max": 77.3297119140625,
+          "mean": 54.66656005859375,
+          "in_bounds": true
+        },
+        "rand_03": {
+          "center": 44.880645751953125,
+          "min": 38.503204345703125,
+          "max": 80.75820922851562,
+          "mean": 54.60152099609375,
+          "in_bounds": true
+        },
+        "rand_04": {
+          "center": 15.615737915039062,
+          "min": 13.125839233398438,
+          "max": 18.891036987304688,
+          "mean": 15.909818725585938,
+          "in_bounds": true
+        },
+        "rand_05": {
+          "center": 24.10821533203125,
+          "min": 19.049346923828125,
+          "max": 28.6424560546875,
+          "mean": 23.54235107421875,
+          "in_bounds": true
+        },
+        "rand_06": {
+          "center": 25.77117919921875,
+          "min": 8.9281005859375,
+          "max": 37.262420654296875,
+          "mean": 24.0806689453125,
+          "in_bounds": true
+        },
+        "rand_07": {
+          "center": 150.988037109375,
+          "min": 101.68310546875,
+          "max": 166.40667724609375,
+          "mean": 136.542109375,
+          "in_bounds": true
+        },
+        "rand_08": {
+          "center": 15.860595703125,
+          "min": 14.1864013671875,
+          "max": 19.184844970703125,
+          "mean": 16.167213134765625,
+          "in_bounds": true
+        },
+        "rand_09": {
+          "center": 6.4604644775390625,
+          "min": 5.973663330078125,
+          "max": 9.336654663085938,
+          "mean": 7.141345825195312,
+          "in_bounds": true
+        },
+        "rand_10": {
+          "center": 181.69146728515625,
+          "min": 161.32977294921875,
+          "max": 184.08056640625,
+          "mean": 176.95715576171875,
+          "in_bounds": true
+        },
+        "rand_11": {
+          "center": 8.528045654296875,
+          "min": 6.2644500732421875,
+          "max": 12.918807983398438,
+          "mean": 9.439099731445312,
+          "in_bounds": true
+        },
+        "rand_12": {
+          "center": 15.595901489257812,
+          "min": 11.648391723632812,
+          "max": 17.200973510742188,
+          "mean": 14.649330444335938,
+          "in_bounds": true
+        },
+        "rand_13": {
+          "center": 7.7386474609375,
+          "min": 6.9334716796875,
+          "max": 8.3824462890625,
+          "mean": 7.48539794921875,
+          "in_bounds": true
+        },
+        "rand_14": {
+          "center": 26.12078857421875,
+          "min": 18.837646484375,
+          "max": 32.17645263671875,
+          "mean": 25.592059326171874,
+          "in_bounds": true
+        },
+        "rand_15": {
+          "center": 152.91259765625,
+          "min": 151.4185791015625,
+          "max": 164.8431396484375,
+          "mean": 158.8381982421875,
+          "in_bounds": true
+        },
+        "rand_16": {
+          "center": 7.148895263671875,
+          "min": 5.945404052734375,
+          "max": 7.7569580078125,
+          "mean": 6.936234130859375,
+          "in_bounds": true
+        },
+        "rand_17": {
+          "center": 10.464118957519531,
+          "min": 4.8439483642578125,
+          "max": 12.481964111328125,
+          "mean": 9.93150146484375,
+          "in_bounds": true
+        },
+        "rand_18": {
+          "center": 30.30255126953125,
+          "min": 25.174774169921875,
+          "max": 30.950958251953125,
+          "mean": 29.157255859375,
+          "in_bounds": true
+        },
+        "rand_19": {
+          "center": 41.23883056640625,
+          "min": 33.02606201171875,
+          "max": 56.1822509765625,
+          "mean": 43.32463134765625,
+          "in_bounds": true
+        },
+        "rand_20": {
+          "center": 72.14935302734375,
+          "min": 61.8748779296875,
+          "max": 86.83880615234375,
+          "mean": 70.6890869140625,
+          "in_bounds": true
+        },
+        "rand_21": {
+          "center": 17.621414184570312,
+          "min": 17.164947509765625,
+          "max": 18.5386962890625,
+          "mean": 17.764415893554688,
+          "in_bounds": true
+        },
+        "rand_22": {
+          "center": 56.47747802734375,
+          "min": 45.057708740234375,
+          "max": 98.53713989257812,
+          "mean": 62.653193359375,
+          "in_bounds": true
+        },
+        "rand_23": {
+          "center": 20.940750122070312,
+          "min": 13.72113037109375,
+          "max": 22.357101440429688,
+          "mean": 19.488092651367186,
+          "in_bounds": true
+        },
+        "rand_24": {
+          "center": 78.65460205078125,
+          "min": 76.310791015625,
+          "max": 84.04339599609375,
+          "mean": 79.53790283203125,
+          "in_bounds": true
+        },
+        "rand_25": {
+          "center": 9.541572570800781,
+          "min": 5.0102996826171875,
+          "max": 10.716812133789062,
+          "mean": 8.502454833984375,
+          "in_bounds": true
+        },
+        "rand_26": {
+          "center": 28.131103515625,
+          "min": 24.854705810546875,
+          "max": 34.964996337890625,
+          "mean": 28.194329833984376,
+          "in_bounds": true
+        },
+        "rand_27": {
+          "center": 47.51416015625,
+          "min": 32.5938720703125,
+          "max": 82.3934326171875,
+          "mean": 53.278955078125,
+          "in_bounds": true
+        },
+        "rand_28": {
+          "center": 5.599250793457031,
+          "min": 4.684211730957031,
+          "max": 8.045341491699219,
+          "mean": 5.402335815429687,
+          "in_bounds": true
+        },
+        "rand_29": {
+          "center": 36.7152099609375,
+          "min": 26.977783203125,
+          "max": 47.860595703125,
+          "mean": 36.55619140625,
+          "in_bounds": true
+        }
+      },
+      "borehole": {
+        "K1": {
+          "center": 11.6981201171875,
+          "min": 9.5103759765625,
+          "max": 12.711761474609375,
+          "mean": 11.366905517578125,
+          "in_bounds": true
+        },
+        "K2": {
+          "center": 18.43609619140625,
+          "min": 16.456298828125,
+          "max": 19.03857421875,
+          "mean": 17.966142578125,
+          "in_bounds": true
+        },
+        "K3": {
+          "center": 22.650848388671875,
+          "min": 17.2364501953125,
+          "max": 26.92010498046875,
+          "mean": 22.8599951171875,
+          "in_bounds": true
+        },
+        "K4": {
+          "center": 17.635711669921875,
+          "min": 17.635711669921875,
+          "max": 21.255126953125,
+          "mean": 18.970020751953125,
+          "in_bounds": true
+        },
+        "K8": {
+          "center": 15.1453857421875,
+          "min": 13.955902099609375,
+          "max": 17.735137939453125,
+          "mean": 15.641942138671874,
+          "in_bounds": true
+        },
+        "A1": {
+          "center": 101.80194091796875,
+          "min": 89.3927001953125,
+          "max": 111.197509765625,
+          "mean": 101.02406494140625,
+          "in_bounds": true
+        },
+        "N4_Singosari": {
+          "center": 3.879913330078125,
+          "min": 3.879913330078125,
+          "max": 8.340118408203125,
+          "mean": 4.5194091796875,
+          "in_bounds": true
+        },
+        "N6_between": {
+          "center": 78.57440185546875,
+          "min": 50.49462890625,
+          "max": 78.57440185546875,
+          "mean": 71.80070556640625,
+          "in_bounds": true
+        }
+      }
+    },
+    "multiscale_tpi": {
+      "candi": {
+        "Singosari": {
+          "center": 0.374264091934109,
+          "min": 0.06835141024666058,
+          "max": 0.5292239740470767,
+          "mean": 0.3365671221462708,
+          "in_bounds": true
+        },
+        "Kidal": {
+          "center": -0.015953696666554055,
+          "min": -0.32944725178871825,
+          "max": 0.3559661317922899,
+          "mean": -0.020416876270641097,
+          "in_bounds": true
+        },
+        "Jago": {
+          "center": -0.04255101810519437,
+          "min": -0.15094701685682793,
+          "max": 0.22783221520488883,
+          "mean": 0.02147410137991623,
+          "in_bounds": true
+        },
+        "Tikus": {
+          "center": -3.3613592924929123,
+          "min": -4.056809178928507,
+          "max": -1.6799004191556637,
+          "mean": -2.8434781104213176,
+          "in_bounds": true
+        },
+        "Sumberawan": {
+          "center": 0.2734402929402847,
+          "min": -0.22250423451499318,
+          "max": 1.3236776005149717,
+          "mean": 0.49662810697107185,
+          "in_bounds": true
+        },
+        "Jawi": {
+          "center": -0.4521305802811228,
+          "min": -1.1685888377767744,
+          "max": -0.40985984707826645,
+          "mean": -0.6659422806524903,
+          "in_bounds": true
+        },
+        "Badut": {
+          "center": 0.06799412472044604,
+          "min": -0.2890105520375992,
+          "max": 0.15319428097718518,
+          "mean": -0.06194587846314877,
+          "in_bounds": true
+        },
+        "Kotes": {
+          "center": 0.11097258974286546,
+          "min": -0.14453561574285595,
+          "max": 0.11097258974286546,
+          "mean": 0.011975079639697852,
+          "in_bounds": true
+        },
+        "Gambar_Wetan": {
+          "center": 0.5454533480185726,
+          "min": -2.292682582863912,
+          "max": 0.9469549216052323,
+          "mean": -0.4666853325726623,
+          "in_bounds": true
+        }
+      },
+      "e080": {
+        "T01_Kelud_NW": {
+          "center": -0.07397633921287551,
+          "min": -0.21035427591569408,
+          "max": 0.24728029206712457,
+          "mean": -0.01597866187980589,
+          "in_bounds": true
+        },
+        "T02_Kelud_SW": {
+          "center": -0.6371563338682737,
+          "min": -0.6900524510826568,
+          "max": 0.6601186427973815,
+          "mean": -0.1680850644838067,
+          "in_bounds": true
+        },
+        "T03_Arjuno_N": {
+          "center": 0.16601691191423348,
+          "min": -2.157154789989415,
+          "max": 0.464184580529993,
+          "mean": -0.43085519040685044,
+          "in_bounds": true
+        },
+        "T04_Kelud_W": {
+          "center": -0.13915195957363516,
+          "min": -0.40957353327774493,
+          "max": 0.8271340544734859,
+          "mean": 0.08935613766660776,
+          "in_bounds": true
+        },
+        "T05_Kelud_mid": {
+          "center": -1.3794077073834863,
+          "min": -1.7727486698188937,
+          "max": 0.7237598863674721,
+          "mean": -0.9485300756517034,
+          "in_bounds": true
+        },
+        "T06_Kelud_close": {
+          "center": -0.28928776248132093,
+          "min": -0.48571279981950255,
+          "max": 0.682074784791143,
+          "mean": 0.06746685718156945,
+          "in_bounds": true
+        },
+        "T07_Kelud_NW2": {
+          "center": 0.06561251927323306,
+          "min": -0.20243890228959743,
+          "max": 0.14305803598854355,
+          "mean": 0.007673615358913337,
+          "in_bounds": true
+        },
+        "T08_top": {
+          "center": 0.7136987746017976,
+          "min": -1.755368897820683,
+          "max": 1.183736527465455,
+          "mean": -0.05422778858911125,
+          "in_bounds": true
+        }
+      },
+      "control": {
+        "rand_00": {
+          "center": 0.27113587307953835,
+          "min": -0.7120962141142387,
+          "max": 0.4573643036839214,
+          "mean": -0.0029176299093444523,
+          "in_bounds": true
+        },
+        "rand_01": {
+          "center": -0.21514663012151408,
+          "min": -0.3313545383869674,
+          "max": 0.346129220993788,
+          "mean": -0.059361186191768486,
+          "in_bounds": true
+        },
+        "rand_02": {
+          "center": 0.7576315977554302,
+          "min": -1.6855251617852633,
+          "max": 1.4900713340681004,
+          "mean": 0.1802781262019532,
+          "in_bounds": true
+        },
+        "rand_03": {
+          "center": -0.230525891850278,
+          "min": -1.776090389814265,
+          "max": -0.020716847677558946,
+          "mean": -0.715613603950464,
+          "in_bounds": true
+        },
+        "rand_04": {
+          "center": -0.03662245125548367,
+          "min": -0.06700191395518562,
+          "max": 0.05059189545992826,
+          "mean": -0.017508039545776382,
+          "in_bounds": true
+        },
+        "rand_05": {
+          "center": 0.011111363662612478,
+          "min": -0.2946760600827858,
+          "max": 0.2095140318395059,
+          "mean": 0.008498983158360493,
+          "in_bounds": true
+        },
+        "rand_06": {
+          "center": -0.044315853364621086,
+          "min": -0.06233758813606447,
+          "max": 0.20879638047283783,
+          "mean": 0.021058990777183526,
+          "in_bounds": true
+        },
+        "rand_07": {
+          "center": 1.5360203695714463,
+          "min": -1.0773176285661663,
+          "max": 2.0632958801431522,
+          "mean": 0.4921330617218475,
+          "in_bounds": true
+        },
+        "rand_08": {
+          "center": 0.09027909573038065,
+          "min": -0.2698367637173857,
+          "max": 0.19580015895608657,
+          "mean": -0.009787983525561149,
+          "in_bounds": true
+        },
+        "rand_09": {
+          "center": 0.10690017010589399,
+          "min": -0.08134621422754656,
+          "max": 0.1982883207092237,
+          "mean": 0.04182744021099856,
+          "in_bounds": true
+        },
+        "rand_10": {
+          "center": -2.069581723921881,
+          "min": -2.954746576858027,
+          "max": 0.6245436454068684,
+          "mean": -1.4538914135640846,
+          "in_bounds": true
+        },
+        "rand_11": {
+          "center": 0.02357857602214334,
+          "min": -0.1974760182989105,
+          "max": 0.08986748063701808,
+          "mean": 0.007325526096649057,
+          "in_bounds": true
+        },
+        "rand_12": {
+          "center": 0.5028313895336213,
+          "min": -0.38209660280998503,
+          "max": 0.6959697666923714,
+          "mean": 0.09352616780829034,
+          "in_bounds": true
+        },
+        "rand_13": {
+          "center": 0.002117727643343485,
+          "min": -0.12253303661152001,
+          "max": 0.09452518747613362,
+          "mean": -0.026892863213179564,
+          "in_bounds": true
+        },
+        "rand_14": {
+          "center": 0.14084785826824722,
+          "min": -0.07081395406584805,
+          "max": 0.7536254007321056,
+          "mean": 0.1795020015750016,
+          "in_bounds": true
+        },
+        "rand_15": {
+          "center": 0.7460409061989245,
+          "min": -0.13912904905261594,
+          "max": 2.9002886885678265,
+          "mean": 1.0847817393962504,
+          "in_bounds": true
+        },
+        "rand_16": {
+          "center": -0.04723730932889425,
+          "min": -0.11417394717733162,
+          "max": 0.11781670488446208,
+          "mean": -0.021224032114900346,
+          "in_bounds": true
+        },
+        "rand_17": {
+          "center": -0.12407244684401922,
+          "min": -0.18000287675839427,
+          "max": 0.35735120349716587,
+          "mean": -0.02751636959143302,
+          "in_bounds": true
+        },
+        "rand_18": {
+          "center": 0.30162624275000127,
+          "min": -0.5770618044467126,
+          "max": 0.4004166446804936,
+          "mean": 0.15905814601394916,
+          "in_bounds": true
+        },
+        "rand_19": {
+          "center": -0.22041663762396047,
+          "min": -0.4263103375519572,
+          "max": 0.8957004026020494,
+          "mean": 0.03537461358066991,
+          "in_bounds": true
+        },
+        "rand_20": {
+          "center": -2.3185175090121555,
+          "min": -3.3919994420765285,
+          "max": 0.896349933734028,
+          "mean": -1.6279558955490605,
+          "in_bounds": true
+        },
+        "rand_21": {
+          "center": -0.2583477976462465,
+          "min": -0.37319098185839583,
+          "max": 0.5333852084553579,
+          "mean": -0.09680282060494191,
+          "in_bounds": true
+        },
+        "rand_22": {
+          "center": -0.8779556227239244,
+          "min": -0.8779556227239244,
+          "max": 0.20344754798416367,
+          "mean": -0.4016933594684871,
+          "in_bounds": true
+        },
+        "rand_23": {
+          "center": -0.12768976516043729,
+          "min": -0.5578608089656781,
+          "max": 0.13146231651895912,
+          "mean": -0.20734116668221703,
+          "in_bounds": true
+        },
+        "rand_24": {
+          "center": 0.6066104401818525,
+          "min": -1.3344092027113041,
+          "max": 1.901500974830252,
+          "mean": 0.5383943133018776,
+          "in_bounds": true
+        },
+        "rand_25": {
+          "center": -0.007553241618663653,
+          "min": -0.10008154255507673,
+          "max": 0.13468840128931844,
+          "mean": -0.015959738002348716,
+          "in_bounds": true
+        },
+        "rand_26": {
+          "center": 0.12368319449308995,
+          "min": -0.37990952275852957,
+          "max": 0.33900662222206057,
+          "mean": 0.09527748703409113,
+          "in_bounds": true
+        },
+        "rand_27": {
+          "center": 0.3559356790588397,
+          "min": -0.7248629221604019,
+          "max": 0.49825915709900065,
+          "mean": -0.0655565786315851,
+          "in_bounds": true
+        },
+        "rand_28": {
+          "center": -0.06478546013087715,
+          "min": -0.10389199797221801,
+          "max": 0.16261835646989115,
+          "mean": -0.001460830140454179,
+          "in_bounds": true
+        },
+        "rand_29": {
+          "center": 0.24969287757263037,
+          "min": 0.05955556132861476,
+          "max": 0.3511975896154755,
+          "mean": 0.2177414718044863,
+          "in_bounds": true
+        }
+      },
+      "borehole": {
+        "K1": {
+          "center": -0.07397633921287551,
+          "min": -0.21035427591569408,
+          "max": 0.24728029206712457,
+          "mean": -0.01597866187980589,
+          "in_bounds": true
+        },
+        "K2": {
+          "center": 0.21976286826769292,
+          "min": -0.14915707615977977,
+          "max": 0.7655816246507027,
+          "mean": 0.1292216722091764,
+          "in_bounds": true
+        },
+        "K3": {
+          "center": 0.029274786077582528,
+          "min": -0.09503066599441731,
+          "max": 0.36923673566762394,
+          "mean": 0.0670155423729807,
+          "in_bounds": true
+        },
+        "K4": {
+          "center": -0.6371563338682737,
+          "min": -0.6900524510826568,
+          "max": 0.6601186427973815,
+          "mean": -0.1680850644838067,
+          "in_bounds": true
+        },
+        "K8": {
+          "center": 0.06561251927323306,
+          "min": -0.20243890228959743,
+          "max": 0.14305803598854355,
+          "mean": 0.007673615358913337,
+          "in_bounds": true
+        },
+        "A1": {
+          "center": 0.16601691191423348,
+          "min": -2.157154789989415,
+          "max": 0.464184580529993,
+          "mean": -0.43085519040685044,
+          "in_bounds": true
+        },
+        "N4_Singosari": {
+          "center": 0.06418534401361278,
+          "min": -0.18047936201504627,
+          "max": 0.18722299599734754,
+          "mean": 0.011499689619491583,
+          "in_bounds": true
+        },
+        "N6_between": {
+          "center": 0.8351482063601153,
+          "min": -1.3309384296662674,
+          "max": 1.0739015990871572,
+          "mean": 0.10047930702968122,
+          "in_bounds": true
+        }
+      }
+    }
+  },
+  "key_finding": "The Copernicus GLO-30 DEM at 30m horizontal resolution and ~3.5m vertical RMSE cannot reliably detect surface depressions caused by buried individual candi structures (8-28m footprint). The expected compaction-induced depression signal (0.25-1.5m) is well below the DEM noise floor. No metric shows statistically significant difference between candi sites and random terrain. Only city-scale features (>200m, like Trowulan) approach detectability at 30m. LiDAR at 1-5m resolution is required for individual structure detection.",
+  "recommendations": [
+    "Acquire LiDAR data (1-5m) for the Malang-Kelud corridor",
+    "Test with SRTM/ALOS differencing for anomalous fill patterns",
+    "Apply to Trowulan (1km+ city) where 30m might detect city-scale features",
+    "Continue E189 satellite SAR track \u2014 better subsurface sensitivity than optical DEM",
+    "Consider TanDEM-X (12m, commercial) as intermediate between GLO-30 and LiDAR"
+  ]
+}
