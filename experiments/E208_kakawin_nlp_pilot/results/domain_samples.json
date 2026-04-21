@@ -1,0 +1,522 @@
+{
+  "Attributes": [
+    {
+      "lemma": "abrĕsih",
+      "synset": "clean.a.01",
+      "definition": "free from dirt or impurities; or having clean habits"
+    },
+    {
+      "lemma": "abrĕsih",
+      "synset": "pure.a.06",
+      "definition": "(used of persons or behaviors) having no faults; sinless; - Sylvia Plath"
+    },
+    {
+      "lemma": "abrĕsih",
+      "synset": "pure.a.01",
+      "definition": "free of extraneous elements of any kind"
+    },
+    {
+      "lemma": "agöṅ",
+      "synset": "large.a.01",
+      "definition": "above average in size or number or quantity or magnitude or extent"
+    },
+    {
+      "lemma": "agöṅ",
+      "synset": "great.s.01",
+      "definition": "relatively large in size or number or extent; larger than others of its kind"
+    },
+    {
+      "lemma": "ahaṅĕt",
+      "synset": "warm.a.01",
+      "definition": "having or producing a comfortable and agreeable degree of heat or imparting or m"
+    },
+    {
+      "lemma": "ahĕniṅ",
+      "synset": "clear.a.11",
+      "definition": "free from clouds or mist or haze"
+    },
+    {
+      "lemma": "ahĕniṅ",
+      "synset": "pure.a.01",
+      "definition": "free of extraneous elements of any kind"
+    },
+    {
+      "lemma": "ahĕniṅ",
+      "synset": "diaphanous.s.01",
+      "definition": "so thin as to transmit light"
+    },
+    {
+      "lemma": "ahurip",
+      "synset": "alive.a.01",
+      "definition": "possessing life"
+    }
+  ],
+  "Nature/Environment": [
+    {
+      "lemma": "abdhi",
+      "synset": "ocean.n.01",
+      "definition": "a large body of water constituting a principal part of the hydrosphere"
+    },
+    {
+      "lemma": "abu",
+      "synset": "ash.n.01",
+      "definition": "the residue that remains when something is burned"
+    },
+    {
+      "lemma": "acala",
+      "synset": "mountain.n.01",
+      "definition": "a land mass that projects well above its surroundings; higher than a hill"
+    },
+    {
+      "lemma": "adri",
+      "synset": "mountain.n.01",
+      "definition": "a land mass that projects well above its surroundings; higher than a hill"
+    },
+    {
+      "lemma": "aho",
+      "synset": "day.n.01",
+      "definition": "time for Earth to make a complete rotation on its axis"
+    },
+    {
+      "lemma": "ajur",
+      "synset": "liquid.n.03",
+      "definition": "fluid matter having no fixed shape but a fixed volume"
+    },
+    {
+      "lemma": "alas-alasan",
+      "synset": "forest.n.02",
+      "definition": "land that is covered with trees and shrubs"
+    },
+    {
+      "lemma": "ambu",
+      "synset": "water.n.01",
+      "definition": "binary compound that occurs at room temperature as a clear colorless odorless ta"
+    },
+    {
+      "lemma": "ambuda",
+      "synset": "cloud.n.02",
+      "definition": "a visible mass of water or ice particles suspended at a considerable altitude"
+    },
+    {
+      "lemma": "anāgatakāla",
+      "synset": "future.n.01",
+      "definition": "the time yet to come"
+    }
+  ],
+  "Social/Governance": [
+    {
+      "lemma": "abĕṭĕk",
+      "synset": "cook.n.01",
+      "definition": "someone who cooks food"
+    },
+    {
+      "lemma": "abhyāgata",
+      "synset": "guest.n.01",
+      "definition": "a visitor to whom hospitality is extended"
+    },
+    {
+      "lemma": "adhikārapuruṣa",
+      "synset": "hero.n.01",
+      "definition": "a man distinguished by exceptional courage and nobility and strength"
+    },
+    {
+      "lemma": "adhipati",
+      "synset": "king.n.01",
+      "definition": "a male sovereign; ruler of a kingdom"
+    },
+    {
+      "lemma": "agraśekhara",
+      "synset": "general.n.01",
+      "definition": "a general officer of the highest rank"
+    },
+    {
+      "lemma": "ahita",
+      "synset": "enemy.n.03",
+      "definition": "any hostile group of people"
+    },
+    {
+      "lemma": "ahita",
+      "synset": "enemy.n.02",
+      "definition": "an armed adversary (especially a member of an opposing military force)"
+    },
+    {
+      "lemma": "aji",
+      "synset": "king.n.01",
+      "definition": "a male sovereign; ruler of a kingdom"
+    },
+    {
+      "lemma": "akaki",
+      "synset": "grandfather.n.01",
+      "definition": "the father of your father or mother"
+    },
+    {
+      "lemma": "amaṅ",
+      "synset": "nurse.n.01",
+      "definition": "one skilled in caring for young children or the sick (usually under the supervis"
+    }
+  ],
+  "Knowledge/Cognition": [
+    {
+      "lemma": "ābhādha",
+      "synset": "pain.n.03",
+      "definition": "a somatic sensation of acute discomfort"
+    },
+    {
+      "lemma": "abhidhana",
+      "synset": "name.n.01",
+      "definition": "a language unit by which a person or thing is known"
+    },
+    {
+      "lemma": "abhimata",
+      "synset": "purpose.n.01",
+      "definition": "an anticipated outcome that is intended or that guides your planned actions"
+    },
+    {
+      "lemma": "abhiprāya",
+      "synset": "purpose.n.01",
+      "definition": "an anticipated outcome that is intended or that guides your planned actions"
+    },
+    {
+      "lemma": "ādeśa",
+      "synset": "guidance.n.01",
+      "definition": "something that provides direction or advice as to a decision or course of action"
+    },
+    {
+      "lemma": "ādeśa",
+      "synset": "advice.n.01",
+      "definition": "a proposal for an appropriate course of action"
+    },
+    {
+      "lemma": "adhyāya",
+      "synset": "chapter.n.01",
+      "definition": "a subdivision of a written work; usually numbered and titled"
+    },
+    {
+      "lemma": "ādi",
+      "synset": "beginning.n.03",
+      "definition": "the first part or section of something"
+    },
+    {
+      "lemma": "ajar",
+      "synset": "information.n.01",
+      "definition": "a message received and understood"
+    },
+    {
+      "lemma": "ājñā",
+      "synset": "command.n.01",
+      "definition": "an authoritative direction or instruction to do something"
+    }
+  ],
+  "Ritual/Cosmology": [
+    {
+      "lemma": "ābhādha",
+      "synset": "pain.n.02",
+      "definition": "emotional distress; a fundamental feeling that people try to avoid"
+    },
+    {
+      "lemma": "abhilāṣa",
+      "synset": "desire.n.01",
+      "definition": "the feeling that accompanies an unsatisfied state"
+    },
+    {
+      "lemma": "abhimata",
+      "synset": "desire.n.01",
+      "definition": "the feeling that accompanies an unsatisfied state"
+    },
+    {
+      "lemma": "aṅgā",
+      "synset": "desire.n.01",
+      "definition": "the feeling that accompanies an unsatisfied state"
+    },
+    {
+      "lemma": "ātura",
+      "synset": "suffering.n.04",
+      "definition": "feelings of mental or physical pain"
+    },
+    {
+      "lemma": "awalepa",
+      "synset": "contempt.n.01",
+      "definition": "lack of respect accompanied by a feeling of intense dislike"
+    },
+    {
+      "lemma": "bhogi",
+      "synset": "pleasure.n.01",
+      "definition": "a fundamental feeling that is hard to define but that people desire to experienc"
+    },
+    {
+      "lemma": "bilasa",
+      "synset": "desire.n.01",
+      "definition": "the feeling that accompanies an unsatisfied state"
+    },
+    {
+      "lemma": "brahmatya",
+      "synset": "anger.n.01",
+      "definition": "a strong emotion; a feeling that is oriented toward some real or supposed grieva"
+    },
+    {
+      "lemma": "brama",
+      "synset": "anger.n.01",
+      "definition": "a strong emotion; a feeling that is oriented toward some real or supposed grieva"
+    }
+  ],
+  "Actions/States": [
+    {
+      "lemma": "abhyudaya",
+      "synset": "increase.n.03",
+      "definition": "a process of becoming larger or longer or more numerous or more important"
+    },
+    {
+      "lemma": "abhyudaya",
+      "synset": "prosperity.n.01",
+      "definition": "an economic state of growth with rising profits and full employment"
+    },
+    {
+      "lemma": "adhyāya",
+      "synset": "lesson.n.01",
+      "definition": "a unit of instruction"
+    },
+    {
+      "lemma": "adhyāya",
+      "synset": "lecture.n.03",
+      "definition": "teaching by giving a discourse on some subject (typically to a class)"
+    },
+    {
+      "lemma": "adyan-adyan",
+      "synset": "blessing.n.01",
+      "definition": "the formal act of approving"
+    },
+    {
+      "lemma": "ajar",
+      "synset": "training.n.01",
+      "definition": "activity leading to skilled behavior"
+    },
+    {
+      "lemma": "aṇḍĕg",
+      "synset": "stop.n.03",
+      "definition": "a brief stay in the course of a journey"
+    },
+    {
+      "lemma": "aṇḍĕṅ",
+      "synset": "extent.n.01",
+      "definition": "the point or degree to which something extends"
+    },
+    {
+      "lemma": "andhakāra",
+      "synset": "dark.n.01",
+      "definition": "absence of light or illumination"
+    },
+    {
+      "lemma": "aṅgā",
+      "synset": "conformity.n.02",
+      "definition": "acting according to certain accepted standards"
+    }
+  ],
+  "Craft/Technology": [
+    {
+      "lemma": "ādhāra",
+      "synset": "support.n.10",
+      "definition": "any device that bears the weight of another thing"
+    },
+    {
+      "lemma": "alaṅkara",
+      "synset": "decoration.n.01",
+      "definition": "something used to beautify"
+    },
+    {
+      "lemma": "alaṅkṛta",
+      "synset": "decoration.n.01",
+      "definition": "something used to beautify"
+    },
+    {
+      "lemma": "ālekhana",
+      "synset": "drawing.n.02",
+      "definition": "a representation of forms or objects on a surface by means of lines"
+    },
+    {
+      "lemma": "ālekhana",
+      "synset": "painting.n.01",
+      "definition": "graphic art consisting of an artistic composition made by applying paints to a s"
+    },
+    {
+      "lemma": "ali-ali",
+      "synset": "ring.n.08",
+      "definition": "jewelry consisting of a circlet of precious metal (often set with jewels) worn o"
+    },
+    {
+      "lemma": "ambara",
+      "synset": "apparel.n.01",
+      "definition": "clothing in general"
+    },
+    {
+      "lemma": "ambe",
+      "synset": "bed.n.01",
+      "definition": "a piece of furniture that provides a place to sleep"
+    },
+    {
+      "lemma": "ambe",
+      "synset": "sofa.n.01",
+      "definition": "an upholstered seat for more than one person"
+    },
+    {
+      "lemma": "anak niṅ sañjata",
+      "synset": "arrow.n.02",
+      "definition": "a projectile with a straight thin shaft and an arrowhead on one end and stabiliz"
+    }
+  ],
+  "Spatial/Navigation": [
+    {
+      "lemma": "adhirājya",
+      "synset": "capital.n.03",
+      "definition": "a seat of government"
+    },
+    {
+      "lemma": "ala",
+      "synset": "side.n.04",
+      "definition": "a surface forming part of the outside of an object"
+    },
+    {
+      "lemma": "antya",
+      "synset": "end.n.09",
+      "definition": "a boundary marking the extremities of something"
+    },
+    {
+      "lemma": "awasawya",
+      "synset": "right.n.02",
+      "definition": "location near or direction toward the right side; i.e. the side to the south whe"
+    },
+    {
+      "lemma": "āyatanasthāna",
+      "synset": "residence.n.01",
+      "definition": "any address at which you dwell more than temporarily"
+    },
+    {
+      "lemma": "āyatanasthāna",
+      "synset": "topographic_point.n.01",
+      "definition": "a point located with respect to surface features of some region"
+    },
+    {
+      "lemma": "barat",
+      "synset": "west.n.08",
+      "definition": "a location in the western part of a country, region, or city"
+    },
+    {
+      "lemma": "bhawana",
+      "synset": "residence.n.01",
+      "definition": "any address at which you dwell more than temporarily"
+    },
+    {
+      "lemma": "byoma",
+      "synset": "eden.n.01",
+      "definition": "any place of complete bliss and delight and peace"
+    },
+    {
+      "lemma": "deśa",
+      "synset": "region.n.03",
+      "definition": "a large indefinite location on the surface of the Earth"
+    }
+  ],
+  "Body/Medicine": [
+    {
+      "lemma": "ākṛti",
+      "synset": "human_body.n.01",
+      "definition": "alternative names for the body of a human being"
+    },
+    {
+      "lemma": "aṇḍah",
+      "synset": "duck.n.01",
+      "definition": "small wild or domesticated web-footed broad-billed swimming bird usually having "
+    },
+    {
+      "lemma": "aṇḍaja",
+      "synset": "bird.n.01",
+      "definition": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modi"
+    },
+    {
+      "lemma": "aṇḍoja",
+      "synset": "bird.n.01",
+      "definition": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modi"
+    },
+    {
+      "lemma": "aṅguṣṭha",
+      "synset": "thumb.n.01",
+      "definition": "the thick short innermost digit of the forelimb"
+    },
+    {
+      "lemma": "añjiṅ",
+      "synset": "dog.n.01",
+      "definition": "a member of the genus Canis (probably descended from the common wolf) that has b"
+    },
+    {
+      "lemma": "asu",
+      "synset": "dog.n.01",
+      "definition": "a member of the genus Canis (probably descended from the common wolf) that has b"
+    },
+    {
+      "lemma": "aśwa",
+      "synset": "horse.n.01",
+      "definition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times"
+    },
+    {
+      "lemma": "āsya",
+      "synset": "mouth.n.01",
+      "definition": "the opening through which food is taken in and vocalizations emerge"
+    },
+    {
+      "lemma": "āsya",
+      "synset": "face.n.01",
+      "definition": "the front of the human head from the forehead to the chin and ear to ear"
+    }
+  ],
+  "Agriculture/Plants": [
+    {
+      "lemma": "aṇḍa",
+      "synset": "egg.n.02",
+      "definition": "oval reproductive body of a fowl (especially a hen) used as food"
+    },
+    {
+      "lemma": "asin",
+      "synset": "salt.n.02",
+      "definition": "white crystalline form of especially sodium chloride used to season and preserve"
+    },
+    {
+      "lemma": "bhojana",
+      "synset": "meal.n.01",
+      "definition": "the food served and eaten at one time"
+    },
+    {
+      "lemma": "bwah",
+      "synset": "fruit.n.01",
+      "definition": "the ripened reproductive body of a seed plant"
+    },
+    {
+      "lemma": "cacar",
+      "synset": "meal.n.01",
+      "definition": "the food served and eaten at one time"
+    },
+    {
+      "lemma": "caraṅ",
+      "synset": "branch.n.02",
+      "definition": "a division of a stem, or secondary stem arising from the main stem of a plant"
+    },
+    {
+      "lemma": "ḍahar",
+      "synset": "meal.n.01",
+      "definition": "the food served and eaten at one time"
+    },
+    {
+      "lemma": "dhānya",
+      "synset": "corn.n.03",
+      "definition": "ears of corn that can be prepared and served for human food"
+    },
+    {
+      "lemma": "dhānya",
+      "synset": "grain.n.02",
+      "definition": "foodstuff prepared from the starchy grains of cereal grasses"
+    },
+    {
+      "lemma": "duwi",
+      "synset": "spine.n.03",
+      "definition": "a small sharp-pointed tip resembling a spike on a stem or leaf"
+    }
+  ]
+}

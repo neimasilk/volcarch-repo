@@ -1,0 +1,59 @@
+# Hostile Cross-Model Review — P1 — DeepSeek deepseek-chat
+
+**Paper:** `D:\documents\volcarch-repo\papers\P1_taphonomic_framework\submission_jasrep_v3.0.tex`
+**Model:** `deepseek-chat`
+**Target addendum:** `P1`
+**Prompt tokens:** 9607
+**Completion tokens:** 2472
+**Elapsed seconds:** 107.1
+
+## Review
+**Referee Report: Manuscript JASREP-D-26-XXXXX**
+
+**1. SUMMARY**
+The manuscript presents a geomorphological calibration of cumulative volcanic sedimentation rates in Java, using four archaeological sites as benchmarks. The central claim is that a mean rate of 4.4 ± 1.2 mm/yr, derived from the burial of stone monuments, is a systematic, Java-wide phenomenon. The authors project that this rate places archaeological remains from the Kanjuruhan period (~760 CE) at depths of 3.0–7.9 meters and pre-400 CE remains at 3.9–10.1 meters, thereby exceeding the detection limits of conventional surface survey and ground-penetrating radar (GPR). The paper’s contribution is framed as a methodological foundation for directing future subsurface investigations in volcanic landscapes.
+
+**2. OVERALL ASSESSMENT**
+**Reject.** The paper’s core methodological and inferential flaws are fundamental and cannot be remedied without a complete re-conceptualization and collection of new, appropriate data.
+
+**3. MAJOR CONCERNS**
+1.  **The Calibration is Not a Calibration.** The paper misuses the term "calibration." A calibration requires an independent, known standard to adjust a measurement model. Here, the authors use four *archaeological sites* of unknown initial relationship to the paleo-surface to derive a *post-hoc* rate. The Dwarapala statues (Sect. 3.2) are the lynchpin, but the key observation—that they were "half buried" in 1803—is not a measurement. It is a qualitative colonial-era description ("*separuh tubuh terpendam*"). The authors assume this represents pure vertical aggradation of 185 cm, ignoring the possibility of slope processes, intentional partial burial during installation, or later excavation/backfilling around the statue base. This is not a calibration point; it is an unverified anecdote elevated to a quantitative datum. **This cannot be addressed without primary archival research and geoarchaeological investigation at the site itself.**
+
+2.  **The Sample is Fatally Biased and Non-Representative.** The four "calibration" sites are all stone temples (*candi*). These are the worst possible proxies for estimating landscape-scale aggradation rates relevant to settlement archaeology. Temples are often built on platforms, in excavated pits, or within enclosures that actively trap sediment. Their survival and discovery are non-random events linked to their monumental nature. The paper acknowledges this caveat (Sect. 5.3) but then proceeds to build its entire argument on this biased sample. The claim that the 51-pair eruption-site dataset "validates" this rate is circular, as that dataset is also compiled from historical records likely biased towards notable (i.e., monumental) sites affected by dramatic events. This sample cannot tell us the burial rate for a wooden posthole, a pottery scatter, or a hearth. **This concern can only be addressed by abandoning the monument-based rate and deriving rates from natural sedimentary sequences (e.g., dated tephra layers in soil pits or cores) adjacent to, but independent of, archaeological features.**
+
+3.  **The "Convergence" is Statistically Meaningless and Geologically Naive.** The claim of a "central finding" of cross-system convergence (Abstract, Sect. 4.1) around 4.4 mm/yr is an artifact of small sample size and inappropriate averaging. The reported range is 2.4–6.2 mm/yr—a factor of 2.6 difference. Presenting a mean and standard deviation for n=4, drawn from two different volcanic systems with different eruptive styles, frequencies, and site-specific geomorphologies (basin vs. plain), is misleading. It implies a precision and universality that does not exist. Volcanologists would expect rates to vary by orders of magnitude over short distances based on topography, wind direction, and eruption magnitude. The "convergence" is a narrative device, not a robust empirical result. **This is addressed by removing the claim of convergence and reframing the results as a demonstration of highly variable, context-specific rates.**
+
+4.  **The Projections are Unwarranted Extrapolations.** Using a linear model (Sect. 3.6) to project burial depths over 1600 years is geomorphologically invalid. The authors note deposition is episodic but proceed with linear modeling anyway. They briefly mention compaction (Sect. 5.4) but do not incorporate it into their depth table (Table 2), which presents their most impactful finding. A rate of 4.4 mm/yr over 1626 years yields 7.15 m of deposit. With 20-30% compaction, the actual depth to the ~400 CE surface would be 5.0–5.7 m—a significant difference for field methods. Furthermore, the model assumes no erosion, a patently false assumption for most of Java's landscape outside of closed basins. The projections are therefore best-case (maximum) estimates, not expected depths. **This can be addressed by presenting the projections as illustrative, maximum potential depths with explicit, quantified uncertainty bounds that include compaction and a probability of erosion.**
+
+5.  **The Spatial Analysis is Confounded and Its Presentation is Disingenuous.** Section 3.7 and 4.4 present a spatial analysis correlating site density with volcanic proximity. The authors correctly state this "cannot serve as a test of the calibration framework" and is for "descriptive context only" (Sect. 4.4). Yet, they still report a "strong negative correlation" and a residual effect after controlling for terrain, knowing full well the data is spatially autocorrelated (Moran’s I = 0.937). Including this analysis is at best a distraction; at worst, it implies a pattern the authors themselves argue is uninterpretable due to severe survey bias. It adds nothing to the geomorphological calibration argument and should be removed entirely. **This is addressed by deleting Sections 3.7, 4.4, and associated figures/tables from the manuscript.**
+
+**4. METHODOLOGICAL CONCERNS**
+*   **Statistical Methods:** The use of summary statistics (mean, SD) for n=4 is inappropriate. The Spearman correlation on spatially autocorrelated data (Sect. 4.4) is invalid. The "independent validation" using the 51-pair dataset suffers from hidden dependence: both datasets ultimately rely on the same class of evidence (historical records of notable sites).
+*   **Evidence Channels:** The paper presents two lines of evidence: the four-site calibration and the 51-pair dataset. These are not independent. Both are drawn from the same historical-archaeological literature and share the same bias towards monumental, recorded sites.
+*   **Comparisons/Controls:** The comparison to non-volcanic Kutai (Sect. 2.4) is appropriate but superficial. The claim that the calibration is "consistent" with the 51-pair dataset's mean depth is a weak comparison, as consistency does not imply correctness or accuracy.
+*   **Falsifiability:** The central claim—that high sedimentation rates render older sites invisible—is technically falsifiable by discovering a well-preserved, shallow pre-400 CE settlement site in the Malang basin. However, the paper's structure makes it unfalsifiable in practice because any *lack* of such sites can be attributed to the proposed taphonomic bias, creating a circular argument.
+*   **Reproducibility:** The computational methods for site compilation and spatial analysis appear reproducible. The critical failure is in the primary data: the Dwarapala measurement cannot be reproduced or verified from the sources provided.
+
+**5. SPECIFIC CLAIMS TO CHALLENGE**
+*   **Claim:** "The cross-system convergence is the central finding." **(d) Unfalsifiable / (c) Overreach.** As argued above, the convergence is not statistically meaningful and is an overinterpretation of limited data.
+*   **Claim:** The 4.4 mm/yr rate is a "Java-wide phenomenon." **(c) Overreach.** Data from two systems cannot support a "Java-wide" claim. This is an extrapolation far beyond the data.
+*   **Claim:** The depth projections (Table 2) are a useful guide for fieldwork. **(b) Plausible but under-supported.** The *idea* that older sites are deeper is plausible. The *specific depths* provided are under-supported by the flawed calibration and linear model.
+*   **Claim:** The Dwarapala observation provides a "calibrated sedimentation rate of 3.5 mm/yr." **(c) Overreach.** This transforms a qualitative historical note into a precise quantitative datum without critical source criticism or geoarchaeological validation.
+
+**6. WHAT THE PAPER DOES WELL**
+1.  **Identifies a Significant Problem:** The paper correctly highlights a critical, under-discussed issue in Southeast Asian archaeology: the potential taphonomic bias caused by cumulative volcanic sedimentation. This is a valuable conceptual contribution.
+2.  **Synthesizes Disparate Information:** The compilation of the 51-pair eruption-site dataset, while biased, is a useful collation of information from historical and volcanological sources.
+3.  **Clear Structure and Writing:** The manuscript is generally well-written and organized, making its argument easy to follow, even if one disagrees with it.
+
+**7. WHAT THE PAPER SHOULD BE, IF NOT THIS**
+A modest and acceptable version of this paper would be a **critical review and research proposal**. It would:
+*   Clearly state the hypothesis: that cumulative volcanic sedimentation may systematically bury pre-monumental archaeology in Java.
+*   Critically review existing evidence *against* this hypothesis, including known shallow early sites in volcanic areas (if any).
+*   Abandon the pseudo-quantitative "calibration" from monuments. Instead, propose a rigorous methodology for establishing *landscape aggradation rates* using geomorphological techniques (e.g., OSL dating of sediments, tephrochronology in soil cores) in areas of high settlement potential.
+*   Use the 51-pair dataset not as validation, but as a catalog of case studies demonstrating the *potential* for burial.
+*   Conclude by outlining a specific, testable field research program (e.g., "To test this, we propose a coring transect in the Malang basin targeting these coordinates, using these methods").
+
+**8. ONE QUESTION FOR THE AUTHORS**
+**What primary archival source (manuscript, map, or drawing) did Nicolaus Engelhard produce in 1803 that documents the Dwarapala statues as being buried under 185 cm of sediment, and what geoarchaeological evidence (e.g., a soil profile or excavation section) exists to demonstrate that this burial was due to syn-depositional volcanic aggradation rather than later slope wash, intentional placement, or excavation backfill?**
+
+**Summary for Editor:** This reviewer recommends rejection. The manuscript's core argument rests on a fundamental methodological error: using the burial depth of monumental stone temples as a direct proxy for regional landscape aggradation rates. The key "calibration" point from the Dwarapala statues is based on an unverified historical anecdote, not measurable geoarchaeological data. The sample size (n=4) is far too small and biased to support claims of "convergence" or a "Java-wide" rate. The subsequent linear projections of burial depth are geomorphologically unsound extrapolations. While the paper usefully identifies an important taphonomic problem, its execution is fatally flawed. The authors should be encouraged to recast their work as a critical review and research proposal, focusing on designing a proper geomorphological study to test their hypothesis, rather than presenting these computationally derived but empirically weak conclusions as established fact.

@@ -21,9 +21,9 @@
 ## 2. Active Papers
 
 ### Paper 1: Taphonomic Bias Framework
-**Status:** REJECTED by Asian Perspectives (2026-03-17, AI flag). Zenodo preprint live (DOI: 10.5281/zenodo.19081502). EGQSJ Copernicus format ready. JASREP also formatted.
+**Status:** REJECTED 2× — Asian Perspectives (2026-03-17, AI flag), EGQSJ (2026-04-16, desk rejection: structure/wording). Science validated by both editors ("certainly interesting"). Needs structural rewrite (bullet→prose, tighten scientific language). Zenodo preprint live (DOI: 10.5281/zenodo.19081502).
 **Type:** Literature review + quantitative analysis + position paper
-**Target journal:** ~~Asian Perspectives~~ → **EGQSJ** (Copernicus, Diamond OA, Scopus+WoS) or JASREP
+**Target journal:** ~~Asian Perspectives~~ → ~~EGQSJ~~ → **JASREP** (Elsevier, Scopus Q1, FREE under subscription model). v2.0 rewritten to fix all structural issues. Backup: Archaeological Research in Asia (Elsevier, same free model).
 **File:** `papers/P1_taphonomic_framework/submission_asianperspectives_v0.1.docx`
 **Single-author:** Mukhlis Amien
 **MVR:** Multi-site calibration of sedimentation rates (4.4 ± 1.2 mm/yr across 2 volcanic systems) — **MET**

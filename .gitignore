@@ -52,3 +52,17 @@ Thumbs.db
 
 # Claude Code local settings (contains personal paths)
 .claude/
+
+# Playwright browser automation artifacts (ephemeral)
+.playwright-mcp/
+
+# Screenshots from Playwright session debugging (repo root)
+/compose-*.png
+/page-*.png
+
+# LaTeX build artifacts not already covered
+*.bbl
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

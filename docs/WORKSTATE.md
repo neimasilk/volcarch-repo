@@ -1,10 +1,90 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-04-16 (Session 17: ME#14 + PhD sent + core stack)
+**Last updated:** 2026-04-20 (Session 18: P1 MASTERPIECE RECKONING + PATH B PROPOSED)
 **MODE: RISET DALAM DIAM.** No more paper submissions. Papers = PhD ammo. Core stack building.
-**SESSION 17 COMPLETED (2026-04-16).** 7 new experiments (E201-E207). 207 total. PhD proposal SENT to Verberne. GLOBALISE pipeline built. 6.26M words preprocessed.
-**HANDOFF:** `docs/HANDOFF_20260416_SESSION17.md`
+**SESSION 18 (2026-04-20).** Autonomous critique session. Mata Elang #15 produced. P0 (masterpiece) skeleton drafted. P1 audit #1 arithmetic fixed. Hostile reviewer prompt + hostile review of P1 produced. OJW Wordnet (5,020 synsets) downloaded for E208 scoping.
+
+## *** SESSION 19 END — PAK AMIEN BRIEFING FIRST ***
+
+**READ: `docs/PAK_AMIEN_BRIEFING_2026_04_21.md`** — 30 min, 4 decisions, contains DeepSeek hostile review findings + response classification.
+
+**Session 19 (2026-04-21) delivered:**
+- Counter-SLR + E108 replicability + P0 claim audit (7 flags fixed) + DeepSeek cross-model reviews on both P1-core v3.0 + P0 draft v0.1
+- **Both DeepSeek reviews recommend REJECT with substantive methodological critiques** that self-review did not catch — validates echo-chamber hypothesis
+- L1 §9 kill criteria updated per Pak Amien trust grant (#1 partial violation acknowledged, #3 operationalised, #6 cross-model added)
+- Response classification: 4 ACCEPT fixes + 2 PARTIAL for P1-core; P0 needs strategic reframe
+
+**4 decisions pending:** (A) Run second cross-model? (B) Apply P1 fixes autonomous? (C) P0 direction (withdraw / reframe / proceed)? (D) Override L1 §9 edits?
+
+**Budget state:** $3.287 remaining ($3.30 start, $0.013 spent on 4 hostile reviews).
+
+**Session 19 ADDENDUM (post-briefing):** Gemini 2.5 Flash hostile reviews completed. **Kill Criterion #6 (cross-model methodology critique) TRIGGERED for both P1-core v3.0 and P0 draft v0.1.** Convergence analysis: `papers/P0_invisible_civilization/external_reviews/CROSS_MODEL_CONVERGENCE_2026_04_21.md`.
+
+**Session 19 ADDENDUM 2 (per "lanjutkan"):** P1-core v4.0 methodology pivot EXECUTED. New file `submission_jasrep_v4.0.tex`, 25pp compile clean. Retitled to "Cumulative Volcanic Burial and the Archaeological Detection Horizon in Java, Indonesia: Preliminary Measurement Anchors and a Research Program." New §5.7 "A Research Program for Rigorous Testing" (5 concrete testing strategies). DeepSeek re-review on v4.0 still REJECT with softer kritik — new sharp concern "sampling on dependent variable" remains structurally unresolvable by wording. Verdict: `papers/P1_taphonomic_framework/external_reviews/V4_PIVOT_VERDICT_2026_04_21.md`. **New decision required — Options X1 (submit v4.0 as-is), X2 (further pivot to perspective paper, ~3-4hr), X3 (withhold pending fieldwork).** Decision C on P0 direction remains as well.
+
+---
+
+## *** REVIEW TRIAGE FOR PAK AMIEN ***
+
+Per ME#15 §6C + §7B, each active deliverable has a review tag. This keeps Pak Amien's limited review bandwidth focused on what matters.
+
+- **[DEEP]** = read carefully, 2-3 days. Blocking on your approval.
+- **[SKIM]** = glance sufficient, 10-30 min. Escalate only if something feels off.
+- **[FYI]** = no review expected. Documented for context.
+
+### Awaiting Pak Amien action
+
+| Tag | Item | Rationale |
+|---|---|---|
+| [DEEP] | P1-core v3.0 (`papers/P1_taphonomic_framework/submission_jasrep_v3.0.pdf`, 21pp) | Masterpiece bar + JASREP submission decision |
+| [DEEP] | P0 draft v0.1 + SKELETON (`papers/P0_invisible_civilization/`) | Full manifesto synthesis; Session 19 claim audit applied |
+| [DEEP] | `docs/research_notes/MATA_ELANG_15_2026_04_20.md` | Strategic critique + Path B rationale |
+| [DEEP] | `docs/research_notes/KILL_CRITERION_AUDIT_2026_04_21.md` | L1 §9 #1 and #3 flagged for rewrite |
+| [SKIM] | Counter-SLR execution log (`docs/bibliography/counter_evidence/COUNTER_SLR_EXECUTION_2026_04_21.md`) | 1 material qualifier (aDNA Channel 4 reframe), otherwise confirmatory |
+| [SKIM] | Counter-thesis engagement (`docs/bibliography/counter_evidence/COUNTER_THESIS_ENGAGEMENT_2026_04_21.md`) | Wolters supports VOLCARCH; Coedès is already minority |
+| [SKIM] | E108 replicability audit (`docs/bibliography/counter_evidence/E108_REPLICABILITY_AUDIT_2026_04_21.md`) | Math replicates exactly |
+| [FYI] | `docs/LITERATURE_SLR_PROGRESS.md` | Living log |
+| [FYI] | `docs/HANDOFF_20260420_SESSION18.md` | Past session |
+| [FYI] | `docs/bibliography/` (14 files) | SLR catalog |
+
+### Decisions blocking autonomous work
+
+- **[DEEP]** P1-core v3.0 approve/revise → JASREP submission
+- **[DEEP]** $50 Fiverr stats review budget approval (before P1-core submit)
+- **[DEEP]** $5-20 DeepSeek API for hostile cross-model review (API key in `.env`)
+- **[DEEP]** Whether to rewrite L1 §9 criterion #1 (cascade) + #3 (comparandum) per audit
+- **[DEEP]** Approve Session 19 autonomous work product (this triage)
+
+---
+
+## *** URGENT DECISION PENDING (before 2026-04-21 Monday) ***
+
+**Mata Elang #15 recommends PATH B:** split P1 into P1-core (calibration, ~15pp) + P0 (synthesis masterpiece, ~25-30pp). Do NOT submit JASREP Monday as planned. Allow 2-3 weeks for structural rework.
+
+**Full analysis:** `docs/research_notes/MATA_ELANG_15_2026_04_20.md`
+**P0 skeleton:** `papers/P0_invisible_civilization/SKELETON_v0.1.md`
+**Hostile review of P1:** `papers/P1_taphonomic_framework/external_reviews/hostile_review_claude_persona_20260420.md`
+
+**GO/NO-GO decision required from Pak Amien on:**
+1. Monday JASREP submission (default NO-GO; override possible if momentum > masterpiece)
+2. Path B adoption (split P1, build P0)
+3. P0 target journal (recommendation: *Journal of Anthropological Archaeology*)
+4. External reviewer budget ($50-200)
+5. Cross-model review budget ($5-20 DeepSeek if available)
+
+**If Pak Amien APPROVES Path B:**
+- Monday = begin P1-core surgical cut (remove §2.2, §2.5, §5.5 to P0)
+- Week 1 = P0 §1-3 draft
+- Week 2 = P1-core + hostile cross-model review
+- Week 3 = P1-core JASREP submit + P0 §4-5
+
+**If Pak Amien OVERRIDES to Path A (submit Monday):**
+- Monday = apply 10 audit issues to v2.0, submit as-is
+- P0 still gets built as parallel project (8-10 weeks)
+- Cross-model hostile review becomes post-hoc
+
+**HANDOFF:** `docs/HANDOFF_20260420_SESSION18.md` (latest; 2026-04-20, Path B + SLR complete + E208 NLP run)
 
 ## *** STRATEGIC DEVELOPMENT: THREE PhD TRACKS ACTIVE ***
 
@@ -42,14 +122,59 @@
 
 ## IN PROGRESS
 
-- **P1 → EGQSJ SUBMITTED** (2026-03-30)
+- **P1 → EGQSJ REJECTED** (2026-04-16, desk rejection by Chief Editor Christopher Lüthgens)
   - **MS# egqsj-2026-3** | Copernicus User ID: 883530
-  - Submitted via Playwright automation. PDF uploaded + finalized.
-  - Waiver 100% APC requested (justification: developing country, no institutional funding)
-  - Zenodo preprint live: DOI 10.5281/zenodo.19081502
-  - **2026-04-01: Second editorial fix** — "Correspondence to" line restored (Copernicus cls quirk: `\Author` 2nd arg needed, not just `\correspondence{}`). PDF re-sent to Katja Gänger.
-  - **Next: WAIT for editor assignment + reviewer feedback (2-6 months)**
+  - **Rejection reason:** "scientific approach is certainly interesting" BUT "very poorly structured," "lacks scientific rigor in wording," methodology section uses bullet points (unacceptable). "Too early a stage of development." NOT sent to peer review.
+  - **Diagnosis:** Form/structure problem, NOT content/science problem. Fixable with rewrite.
+  - **Action required:** (1) Structural rewrite — bullet points → flowing prose, tighten scientific language (**DONE: v2.0**), (2) Retarget to **JASREP** (Elsevier, Scopus Q1, FREE under subscription model — already formatted in repo). Backup: Archaeological Research in Asia (Elsevier, same free subscription model).
+  - **CORRECTION:** Open Quaternary and Internet Archaeology are NOT Diamond OA (both charge APC). JASREP subscription route = guaranteed zero cost.
+  - Zenodo preprint stays live: DOI 10.5281/zenodo.19081502
   - Revision ammo ready: 9 files + E120-E140 new findings
+  - **Score: 2× rejected (Asian Perspectives = AI flag, EGQSJ = structure). Science validated by both editors.**
+  - **v2.0 WRITTEN** (`submission_v2.0.tex`, `submission_jasrep_v2.0.tex`) — all bullet points→prose, language tightened, compiles clean (26pp)
+  - **PRE-FLIGHT AUDIT DONE 2026-04-16 — 10 issues found, ALL fixable. See below.**
+  - **Next (Monday 2026-04-21):** Fix all audit issues → rewrite as `elsarticle` class → submit JASREP via Editorial Manager
+
+### P1 JASREP Pre-Flight Audit (2026-04-16) — FIX BEFORE SUBMIT
+
+**FATAL:**
+1. **Population arithmetic wrong (Sect 2.2):** Text says "roughly half of 129,000 km²" (~64,500 km²) but claims population 590,000-3,900,000. Correct math: 5×64,500=322,500, 30×64,500=1,935,000. Fix: change to "325,000--1,950,000" OR fix the area fraction. The 3,220-fold gap derivation (325,000/100 persons per village = 3,250 villages vs 0-3 sites) still works.
+
+**HIGH:**
+2. **Kanjuruhan depth inconsistent:** Abstract/Intro say "4.0--7.8 m" but Table 2/Conclusions say "3.0--7.9 m". The table is correct (2.4×1266=3038mm, 6.2×1266=7849mm). Fix: harmonize to 3.0--7.9 m everywhere.
+3. **Kutai depth cited 3 different ways:** Abstract "7--10 m", Section 2.4 "4--10 m", Discussion "~7 m". Table says 3.9--10.1 m. Fix: use "approximately 4--10 m" consistently.
+4. **Tables 1 & 2 overflow** in single-column layout (159pt and 87pt overfull hbox). Fix: use `\small` or `table*` or `tabularx`.
+5. **Abstract too long:** ~327 words, JASREP limit is 250. Cut ~80 words.
+6. **Must use `elsarticle` document class** (not `article`). Requires `\begin{frontmatter}`, `\ead{}`, `\cortext`, keyword separator `\sep`, `\journal{Journal of Archaeological Science: Reports}`.
+7. **HIGHLIGHTS required:** 3-5 bullet points, max 85 characters each (including spaces). Submit as separate file or in frontmatter.
+
+**MEDIUM:**
+8. **Add compaction + erosion to Limitations (Sect 5.6):** Soil compaction reduces effective depth at 5+ m (projections are upper bounds). Erosion on slopes/ridges counteracts deposition (rates only apply to basins).
+9. **Funding statement required:** "This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors."
+10. **CRediT author statement** must use exact Elsevier CRediT taxonomy (13 roles). Current statement is close but needs exact role names.
+
+**LOW:**
+11. Fix "within 3%" to "within 4%" or "approximately 3%" (actual: 3.2%)
+12. Remove .tex header comments revealing EGQSJ submission history
+13. "Amien, in preparation" → "a companion study currently in preparation"
+14. DHARMA phrasing: "268 Javanese inscriptions catalogued in" (not "all 268 surviving")
+15. Verify figure float order in compiled PDF
+16. Add DOIs to bibliography entries where possible
+
+### JASREP Submission Checklist
+- [ ] Rewrite in `elsarticle` class with `authoryear` option
+- [ ] Fix all 10 audit issues above
+- [ ] Abstract ≤250 words
+- [ ] Highlights file (3-5 bullets, ≤85 chars each)
+- [ ] Cover letter (scope statement, not under review elsewhere, preprint disclosure, AI disclosure)
+- [ ] CRediT statement (Elsevier exact taxonomy)
+- [ ] Funding statement
+- [ ] Competing interests declaration
+- [ ] AI disclosure (Elsevier template format, before References)
+- [ ] Bibliography: `elsarticle-harv.bst` (Harvard author-date)
+- [ ] Compile: `pdflatex → bibtex → pdflatex × 2`
+- [ ] Submit via https://www.editorialmanager.com/jasrep/ (subscription route, zero APC)
+- [ ] ORCID: 0000-0002-1848-167X
 - **P11 → REJECTED Indonesia (Cornell)** (2026-04-01, desk rejection)
   - Reason: "beyond the thematic and stylistic purview" — journal is sociology/political science, not archaeology
   - **RETARGET → Archipel (INALCO/EHESS, Paris).** Zero APC, Scopus Q3, WoS A&HCI. "Monde insulindien" = perfect scope.
@@ -111,7 +236,7 @@
 | Paper | Journal | MS# | Submitted | Status |
 |-------|---------|-----|-----------|--------|
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
-| **P1** | **EGQSJ** (Copernicus, Diamond OA) | **egqsj-2026-3** | **SUBMITTED 2026-03-30** | Finalized, awaiting editor assignment |
+| ~~P1~~ | ~~EGQSJ (Copernicus)~~ | egqsj-2026-3 | 2026-03-30 | **REJECTED 2026-04-16** (desk: structure/wording, NOT content) |
 | ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
 | **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | **EiC acknowledged 2026-04-09.** Editorial board meeting ~June 2026. |
 | **P17** | **ArchCalc** (CNR, Diamond OA) | **365** | **SUBMITTED 2026-04-09** | **ACKNOWLEDGED 2026-04-09.** Considered for 2027 issue. Review starts after 2026 issues published. |
@@ -121,14 +246,14 @@
 | P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision ammo files. **arXiv preprint LIVE: 2604.00023** |
 | ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
-**Scorecard: 4 rejected (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell), 6 under review (P1-EGQSJ, P2, P7, P8, P11-Archipel, P17-ArchCalc). P17 + P11 both ACKNOWLEDGED same day (2026-04-09).**
+**Scorecard: 5 rejected (P1-AP, P1-EGQSJ, P5-BKI, P9-JSEAS, P11-Cornell), 5 under review (P2, P7, P8, P11-Archipel, P17-ArchCalc). P1 needs structural rewrite before retarget #3.**
 Revision ammo still available for all papers. See JOURNAL 2026-03-20 for pattern analysis.
 
 ## PAPERS NEEDING RETARGETING (DECISION REQUIRED)
 
 | Paper | Rejected From | Next Options (TBD) |
 |-------|---------------|---------------------|
-| P1 | Asian Perspectives | **EGQSJ ready** (Copernicus). Also: JASREP formatted. Zenodo preprint live. |
+| P1 | Asian Perspectives, EGQSJ | **v2.0 REWRITTEN** (all lists→prose, language tightened). Target: **JASREP** (Elsevier, Scopus Q1, free subscription route). Already formatted. Backup: Archaeological Research in Asia. |
 | P5 | BKI | (a) Retarget archaeometry journal as-is, OR (b) major rewrite for humanities framing |
 | P9 | JSEAS | (a) World Archaeology / Cambridge Arch. J., OR (b) hold for P2/P8 outcome |
 | P11 | Indonesia (Cornell) | Internet Archaeology (Diamond OA) / BIPPA (free) / Aziatische Studien (Diamond OA) |
@@ -186,7 +311,7 @@ STATUS: **207 experiments** (E001-E207, E180 skipped). **Session 17.** Riset dal
 **Session 17 (7 experiments):** E201 Philippines deep comparison (55-65% open-air, gap LARGER), E202 DEM depression (30m fails), E203 genome meta-analysis (5th evidence channel), E204 bronze drums extended (selective survival), E205 wayang indigenous layer (living evidence), E206 ArcheoBERTje gap (60% missing for PhD), E207 GLOBALISE VOC pilot (6,893 files, 55% drop).
 **PhD SENT:** Proposal v0.2 sent to Verberne 2026-04-16. WAITING response. Cohen track: apply Dec 2026. Vossen email: ON HOLD.
 **Strategy:** RISET DALAM DIAM. No more paper submissions. Papers = PhD ammo. Core stack building.
-**Papers:** 6 under review (P1-EGQSJ, P2-JCAA, P7-Antiquity, P8-OL, P11-Archipel, P17-ArchCalc). NO NEW SUBMISSIONS.
+**Papers:** 5 under review (P2-JCAA, P7-Antiquity, P8-OL, P11-Archipel, P17-ArchCalc). P1 REJECTED from EGQSJ (2026-04-16, desk: structure). **v2.0 rewritten, pre-flight audit done, 10 issues to fix → submit JASREP Monday 2026-04-21.**
 **Core Stack:** GLOBALISE downloader + VOC preprocessor + spelling normalizer BUILT. 50 files downloaded (6.26M words preprocessed). ArcheoBERTje gap quantified (60% entity types missing, 55% quality drop on VOC).
 **Key context:** Argument reframed from "zero evidence" to "selective survival" (E204 bronze drums). Philippines comparison strengthened (E201: 275-340 pre-400 CE sites vs Java 0). Genome = 5th independent evidence channel (E203). Wayang = living evidence (E205).
 
@@ -235,7 +360,7 @@ STATUS: **207 experiments** (E001-E207, E180 skipped). **Session 17.** Riset dal
 
 **#1 — WAIT (external dependencies):**
 4. **Verberne response** — Proposal SENT 2026-04-16. WAIT ~1-2 minggu.
-5. **6 papers under review** — P1, P2, P7, P8, P11, P17. WAIT.
+5. **5 papers under review** — P2, P7, P8, P11, P17. WAIT. (P1 rejected, needs rewrite.)
 6. **JCAA APC waiver** — Verhagen acknowledged. WAIT.
 7. **Cohen formal application** — Dec 2026. Prepare closer to deadline.
 

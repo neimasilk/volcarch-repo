@@ -1,0 +1,116 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=blue!60!black,
+  urlcolor=blue!60!black
+}
+
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0em}
+
+\title{\textbf{PhD Concept Note}\\[0.4em]
+\large AI for Colonial Heritage:\\
+NLP and Spatial Machine Learning for Pre-Colonial\\
+Indonesian Settlement Reconstruction from VOC Archives\\[0.8em]
+\normalsize Prepared for Dr.\ Houda Lamqaddam and Dr.\ Delfina Martinez Pandiani\\
+\normalsize University of Amsterdam --- AI, Culture \& Society\\
+\normalsize (with Prof.\ Tobias Blanke as promoter)}
+
+\author{Mukhlis Amien\\
+\small Universitas Bhinneka Nusantara, Malang, Indonesia\\
+\small amien@ubhinus.ac.id\quad|\quad ORCID: 0000-0002-1848-167X}
+
+\date{April 2026}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+
+This concept note outlines a PhD project that applies NLP and spatial machine learning to Dutch East India Company (VOC) and late-colonial Dutch archives (1602--1942) in order to reconstruct pre-colonial Indonesian settlement geography. The project treats systematic bias in the archaeological and textual record --- colonial, volcanic, historiographic --- as the object of study, rather than as noise to be averaged out. It produces three peer-reviewed publications, a reusable colonial settlement gazetteer, and an open historical Dutch NER resource. The project fits HAICu's mandate of AI for unlocking colonial heritage collections and extends the AI, Culture \& Society research line into a domain where $\geq$99.94\% of the expected pre-1600 archaeological signal is physically missing (E133) and must be reconstructed from text.
+
+\section{The Archaeological Gap}
+
+Conventional archaeological survey in volcanic Indonesia recovers almost none of the expected pre-colonial record. A burial model calibrated against 363 site depths (E075, Pearson $r=0.951$) and cross-referenced with 51 eruption-site pairs (E083) yields a median burial depth of 2.5~m and a mean sedimentation rate of 4.4~mm/yr. Over a 1{,}000-year pre-colonial window this places typical settlements well below the $\sim$2~m threshold of standard archaeological survey. A cascade model (E133) estimates that $\geq$99.94\% of the expected pre-1600 settlement signal in volcanic Java is archaeologically invisible.
+
+The Philippines, at comparable pre-colonial population density but with non-volcanic (karst) geology, has 4{,}000+ pre-colonial sites. Volcanic Java has zero confirmed open-air pre-400~CE sites. Monte Carlo population estimation (E196) places 1--2 million people in Java at 400~CE, implying a minimum of 694 expected sites. The taphonomic suppression factor is $\geq$694$\times$.
+
+\section{Why Colonial Dutch Archives}
+
+If the physical record is inaccessible, reconstruction must come from textual, epigraphic, or remote-sensing sources. The highest-volume textual source is the VOC archive and its colonial-era successors. A pilot rule-based extraction from 16 volumes of the colonial archaeological service reports (OV, 1912--1929) alone yielded 22{,}162 structured mentions --- 6{,}932 named sites, 4{,}933 administrative locations, 9{,}238 material descriptions (E091). A separate Delpher extraction (E141) recovered 1{,}768 records from 46 queries. GLOBALISE (Huygens Institute / VU Amsterdam) is producing structured text from 5M+ handwritten VOC pages. The full corpus --- spanning 340 years of dagregisters, scientific journals, technical reports and newspapers --- remains largely unmined.
+
+Colonial infrastructure projects (railways, canals, wells) produced thousands of incidental archaeological observations recorded in newspapers and technical reports --- observations made \emph{without} archaeological selection bias, a rare property in the source material.
+
+\section{Three AI Challenges}
+
+\begin{description}[style=nextline,leftmargin=1.5em]
+  \item[Challenge 1 --- NER and IE for historical Dutch with code-switching.] Fine-tuned Transformer NER (ArcheoBERTje / BERTje base) on 17th--19th century Dutch with orthographic variation, OCR noise, Dutch--Malay code-switching, and Sanskrit-derived toponyms. Entity types: LOCATION, DEPTH, MATERIAL, TEMPORAL, FIND\_EVENT. Preprocessing combines rule-based and neural spelling normalisation with synthetic OCR noise augmentation.
+  \item[Challenge 2 --- Historical place-name disambiguation.] Three-tier pipeline: exact match against a historical gazetteer (World Historical Gazetteer, HISGIS); phonological fuzzy matching for orthographic variants; contextual disambiguation via administrative hierarchy (residency $\rightarrow$ regency $\rightarrow$ district). Each record carries a calibrated spatial uncertainty radius.
+  \item[Challenge 3 --- Integration of uncertain textual and spatial evidence.] Bayesian integration of NLP-extracted settlement locations with a prior probability surface from the VOLCARCH sedimentation and visibility model. Each record carries textual-extraction confidence, geocoding uncertainty, and physical-prior consistency. Output: a probabilistic settlement map with quantified, legible uncertainty.
+\end{description}
+
+\section{Alignment with UvA --- AI, Culture \& Society}
+
+Three concrete connection points with the group's current work:
+
+\begin{enumerate}[nosep]
+  \item \textbf{Historical structured-data extraction (Lamqaddam).} Recent work applying OCR and LLMs to convert digitised 19th-century exhibition catalogues into structured data maps directly onto the technical core of this project. The VOC/Delpher pipeline is the same problem class at archive scale, in a different linguistic register, and with a spatial validation target.
+  \item \textbf{Ethical and explainable AI for cultural heritage (Martinez Pandiani).} This project treats systematic bias --- colonial, taphonomic, historiographic --- as the object of analysis rather than a source of error to be minimised. The central question --- \emph{whose knowledge gets preserved, and how computational methods can expose rather than reproduce those erasures} --- is a heritage-AI ethics question in the operational sense. Explainability is load-bearing here: downstream users (archaeologists, historians, Indonesian heritage institutions) will act on uncertain predictions, so uncertainty must be legible, not hidden behind a point estimate.
+  \item \textbf{HAICu --- AI for unlocking colonial heritage collections (Blanke, promoter).} Indonesia's colonial heritage is among the largest and least computationally explored in the world: the VOC operated across the archipelago for nearly 200 years. The project fits HAICu's scope as an applied case with an unusual extension into spatial modelling.
+\end{enumerate}
+
+\section{What Makes This Unusual: Physical Validation}
+
+Historical NLP is typically evaluated against other textual annotations. This project has access to a non-textual ground truth: a calibrated geophysical sedimentation model. NLP-extracted depth measurements from colonial reports provide an independent test --- if the model is correct, colonial finds near volcanoes should be reported at greater depths than finds far from them. A pilot (E197, 33 colonial depth records from Delpher, 1870--1941) gave Wilcoxon $p=0.131$ (consistent with model predictions; $n=33$ is under-powered for the depth-distribution test alone) and 5.8$\times$ enrichment of finds near VOLCARCH-predicted target zones ($p<0.00001$). To my knowledge this is an unusual validation paradigm for historical text mining.
+
+\section{Preliminary Results}
+
+\begin{itemize}[nosep]
+  \item \textbf{E091.} Rule-based Dutch NLP on 16 OV volumes (259K lines). 22{,}162 structured mentions; 94.2\% recall against manual gold standard.
+  \item \textbf{E141.} Delpher extraction via KB SRU API. 1{,}768 records, 46 queries, 165 geocoded, 9 archaeological depth measurements.
+  \item \textbf{E197.} Cross-century depth validation. 33 colonial records vs.\ sedimentation model; Wilcoxon $p=0.131$; 5.8$\times$ enrichment at predicted target zones.
+  \item \textbf{Six VOLCARCH papers under review} (EGQSJ, JCAA, Antiquity, Oceanic Linguistics, Archipel, Archeologia e Calcolatori). Preprints: Zenodo DOI \texttt{10.5281/zenodo.19081502} (taphonomic framework, E\&G submission); arXiv:2604.00023 (phonological ML, Oceanic Linguistics submission).
+\end{itemize}
+
+\section{Thesis Structure (Cumulative)}
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}lp{3.2cm}p{8.5cm}@{}}
+\toprule
+\textbf{Paper} & \textbf{Target venue} & \textbf{Content} \\
+\midrule
+1 & ACL / EMNLP / LREC & NER for historical colonial Dutch: model, evaluation, error analysis \\
+2 & TACL / DSH & Temporal IE and place-name disambiguation; colonial gazetteer; spatial uncertainty quantification \\
+3 & ACL / EACL & Bayesian integration of NLP extractions with the VOLCARCH prior; explainable uncertainty propagation for heritage applications \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Funding and Timeline}
+
+Multiple funding pathways are being explored. Understanding that HAICu and DEEP CULTURE are fully allocated, the candidate seeks (a)~guidance on upcoming EU grant calls (NWO, ERC, MSCA Doctoral Networks) where a VOC-archive + spatial-ML project might fit, and, as a parallel option, (b)~Indonesia's \textbf{BPI Dosen} scholarship --- a fully-funded programme for permanent Indonesian lecturers (tuition and living allowance, up to 4 years). A Letter of Acceptance from UvA would materially strengthen a BPI Dosen application. Flexible on start date: October 2027 or October 2028.
+
+\section{Candidate Profile (short)}
+
+\begin{itemize}[nosep]
+  \item M.Sc.\ Computer Science, Universitas Indonesia (2016). Lecturer, UBHINUS, since 2010. Courses: Machine Learning, NLP, Computer Vision.
+  \item NLP portfolio: Indonesian NLP survey (arXiv:2304.02746), morphological analysis library (ModernKataKupas, PyPI), low-resource dataset creation.
+  \item VOLCARCH: 207 tracked experiments, 6 papers under review, two preprints (Zenodo \texttt{10.5281/zenodo.19081502}; arXiv:2604.00023). Public repository: \url{https://github.com/neimasilk/volcarch-repo}.
+  \item Compute: 4 workstations (Intel Core i9, NVIDIA RTX 4080 each), 128~GB RAM aggregate (UBHINUS, Malang).
+\end{itemize}
+
+A full CV is attached separately.
+
+\end{document}

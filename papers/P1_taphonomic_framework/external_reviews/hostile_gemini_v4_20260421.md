@@ -1,0 +1,25 @@
+# Hostile Cross-Model Review — P1 — gemini-2.5-flash
+
+**Paper:** `D:\documents\volcarch-repo\papers\P1_taphonomic_framework\submission_jasrep_v4.0.tex`
+**Model:** `gemini-2.5-flash`
+**Target addendum:** `P1`
+**Prompt tokens:** 12162
+**Completion tokens:** 1003
+**Elapsed seconds:** 41.2
+
+## Review
+This manuscript, "Cumulative Volcanic Burial and the Archaeological Detection Horizon in Java, Indonesia: Preliminary Measurement Anchors and a Research Program," posits that cumulative volcanic sedimentation has buried pre-Hindu and early historical archaeological sites in Java to depths exceeding conventional detection limits. The authors, computational researchers, derive preliminary sedimentation rates (2.4â6.2 mm/yr) from four monumental stone sites (Dwarapala Singosari, Sambisari, Kedulan, Kimpulan) and project these rates to suggest that pre-400 CE deposits lie 3.9â10.1 meters deep. While acknowledging the preliminary nature of their "measurement anchors" and proposing a research program for validation, the paper implicitly frames the lack of early Javanese archaeological material as a taphonomic problem rather than an absence of past activity.
+
+**OVERALL ASSESSMENT:** Reject. The manuscript presents a compelling hypothesis but fails to provide sufficient empirical support for its central claims, particularly the quantitative rates and their extrapolation. It is a research proposal disguised as a scientific paper, and its methodological weaknesses, especially the reliance on anecdotal and monument-biased data, render its conclusions premature and potentially misleading for the archaeological community.
+
+### 3. MAJOR CONCERNS
+
+1.  **Misrepresentation of "Measurement Anchors" as Empirical Data (Sect. 3.2, 3.3, 4.1, Table 1):** The paper presents four sites as "preliminary measurement anchors" for sedimentation rates. However, these are not direct measurements of landscape aggradation.
+    *   **Why it matters:** The entire quantitative framework of the paper rests on these four numbers. If the "anchors" are not robust, the projections are meaningless. The term "measurement anchor" implies a direct, verifiable measurement, which is not the case for the Dwarapala site, and is an oversimplification for the temple sites.
+    *   **Dwarapala:** The 3.5 mm/yr rate for Dwarapala (Sect. 3.2) is derived from a qualitative colonial observation ("approximately half their bodies below ground"). This is not a measurement; it is an interpretation of a vague historical report. The authors acknowledge this as a limitation (Sect. 5.6) and propose primary-source verification (Sect. 5.7), but then proceed to use this highly uncertain value as a foundational "anchor" for all subsequent projections. This is circular: the paper's core evidence is simultaneously presented as preliminary and requiring verification.
+    *   **Merapi Temples (Sambisari, Kedulan, Kimpulan):** While these temples were indeed buried, the "depths" cited (e.g., 500-650 cm for Sambisari, 600-700 cm for Kedulan) are often maximum depths to the lowest architectural elements, not necessarily the original ground surface of the surrounding landscape. As someone who has supervised excavations at Kedulan, I can attest that the stratigraphy around such monuments is complex, involving construction fill, erosion, and multiple depositional events. A simple "depth divided by elapsed time" (Sect. 3.3) oversimplifies a highly dynamic geoarchaeological process. The original ground surface for these temples is rarely a flat, easily identifiable datum.
+    *   **How to address:** The authors must either conduct the proposed primary-source archival work and geoarchaeological investigations *before* presenting these as "measurement anchors," or reframe the paper as a purely theoretical exercise on the *potential* for burial, explicitly stating that no *actual* rates have yet been established. The current presentation is misleading.
+
+2.  **Lack of Independence and Hidden Dependence in "Multiple Lines of Evidence" (Sect. 3.4, 4.2):** The paper claims an "independent validation" from a "51-pair eruption--site correlation dataset" (Sect. 3.4), stating it "shares no sites with the primary calibration." However, it immediately caveats that this dataset "was compiled from the same corpus of colonial and volcanological reports that document the four anchor sites; the two lines of evidence share selection biases... and therefore are not fully independent in the strict sense" (Sect. 4.2).
+    *   **Why it matters:** Presenting something as "independent validation" while simultaneously admitting it is not truly independent undermines the scientific rigor. If the underlying data sources and selection biases are shared, the "validation" merely confirms the consistency of those biases, not the robustness of the rates.
+    *   **How to address:** Remove the claim of "independent validation." Reframe this section as a "literature review of reported burial depths" and explicitly discuss how the shared biases limit its

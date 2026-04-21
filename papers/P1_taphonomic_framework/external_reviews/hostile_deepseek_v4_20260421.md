@@ -1,0 +1,55 @@
+# Hostile Cross-Model Review — P1 — deepseek-chat
+
+**Paper:** `D:\documents\volcarch-repo\papers\P1_taphonomic_framework\submission_jasrep_v4.0.tex`
+**Model:** `deepseek-chat`
+**Target addendum:** `P1`
+**Prompt tokens:** 11682
+**Completion tokens:** 2219
+**Elapsed seconds:** 104.5
+
+## Review
+**Referee Report: Manuscript JASREP-D-26-XXXXX**
+
+**1. SUMMARY**
+The manuscript presents a hypothesis that cumulative volcanic sedimentation in Java has created a substantial archaeological detection horizon, potentially obscuring pre-monumental (pre-10th century CE) settlement evidence. Its central contribution is a set of four preliminary "measurement anchors" (site-specific sedimentation rates of 2.4–6.2 mm/yr) derived from the burial depths of known stone monuments. The authors use these rates to project that Kanjuruhan-era (~760 CE) and earlier deposits may lie 3–10 meters below the modern surface, depths exceeding standard survey methods. They conclude by proposing a research program (OSL dating, tephrochronology, targeted coring) to test these preliminary anchors, explicitly framing the current work as a starting point rather than a validated calibration.
+
+**2. OVERALL ASSESSMENT**
+**Reject.** The paper's core argument—that preliminary measurements justify a major revision of Java's archaeological visibility—is fundamentally unsupported by its own data and methodology. The proposed research program is sound, but it is what the paper *should have been*; the present manuscript builds a speculative edifice on a foundation of anecdote, circular logic, and statistically invalid inferences.
+
+**3. MAJOR CONCERNS**
+1.  **The "Dwarapala Anchor" is Anecdotal, Not Empirical (Sections 3.2, 5.4).** The entire Kelud-system rate (3.5 mm/yr), which anchors half the study's geographic range, rests on a single, unverified colonial-era description ("approximately half buried"). The authors admit they have not consulted the primary archival source. In geoarchaeology, a qualitative 19th-century observation cannot serve as a quantitative "measurement anchor." This is not a minor limitation; it invalidates the claim of a two-system comparison. The rate is a guess, not data.
+2.  **Fatal Circularity in Evidence Selection.** All four "anchors" are stone monuments (*candi*) discovered precisely *because* they were buried and then exposed by modern activity or excavation. This creates a perfect circularity: the dataset is selected for sites that confirm deep burial. The paper then uses this biased sample to argue for widespread deep burial. This is a classic case of sampling on the dependent variable. The authors acknowledge the "monument-bias" but proceed to build projections from it anyway, rendering the central quantitative exercise meaningless for understanding the burial of the non-monumental settlement record they claim is invisible.
+3.  **Spatial Analysis is Presented as "Descriptive Context" but is Interpretively Misleading (Section 4.4).** The strong negative correlation between site density and volcanic proximity is presented neutrally but will inevitably be read as evidence for the taphonomic hypothesis. The authors note the dataset is biased towards monumental sites and areas of intensive survey (the Singosari-Majapahit heartland, which is also volcanically active). However, they then perform a terrain-suitability correction and regression, giving a false impression of analytical rigor. With a dataset comprising only *found* sites (a product of survey bias and monument survivorship), any correlation with volcano distance is uninterpretable for testing a hypothesis about *unfound* sites. This section should be removed entirely; it adds nothing but noise.
+4.  **The "51-pair literature compilation" is an Opaque, Non-Independent Check (Sections 3.4, 4.2).** Describing a mean depth from 24 sites as "order-of-magnitude consistent" with the anchor rates is scientifically vacuous without the full dataset. More critically, the authors state this compilation shares the "same corpus" and "selection biases" as the anchor sites. Therefore, it is not an independent test but a slightly larger pool of the same biased data. Calling it a "consistency comparison" is misleading; it is consistency within a shared, flawed sample frame.
+5.  **The Projections are Scientifically Unwarranted.** Using a linear model (D = R * T) to project depths over 1600 years based on four monument-derived rates, one of which is anecdotal, is an extreme over-extrapolation. The authors mention compaction and episodic deposition but then proceed with the projections regardless. Table 2 and Figure 2 present these speculative depths with a precision (tenths of a meter) that belies their complete lack of empirical foundation for open settlements. This invites misuse by future researchers seeking a "depth estimate" for planning surveys.
+
+**4. METHODOLOGICAL CONCERNS**
+*   **Statistical Methods:** The use of an arithmetic mean and standard deviation for n=4 is descriptively poor but not the core issue. The fundamental statistical flaw is the complete lack of a defined population or valid sampling strategy. The "anchors" are a convenience sample of exceptional cases.
+*   **Evidence Channels:** The paper presents two main lines: the four anchors and the 51-pair compilation. As argued above, these are not independent; both are drawn from the same biased universe of documented, monumental, or accidentally discovered buried sites. They are one channel, not two.
+*   **Comparisons & Confounders:** The comparison to non-volcanic Kutai is appropriate but simplistic. The critical confounder—the systematic difference in survey intensity, preservation expectations, and research history between volcanic Java and non-volcanic Kalimantan—is not addressed. The mere surface visibility of Kutai's inscriptions does not calibrate a burial rate in Java.
+*   **Falsifiability:** The paper's final framing ("consistent with") is nearly unfalsifiable. Any deep find supports it; the absence of finds is explained by the proposed detection horizon. The proposed research program in Section 5.7, however, outlines excellent falsification tests (e.g., targeted coring at settlement-suitable locations). This highlights the contradiction: the paper knows what rigorous testing looks like but chooses not to do it.
+*   **Reproducibility:** The GitHub repository is commendable. However, reproducibility of code cannot compensate for the non-reproducibility of the core data selection logic.
+
+**5. SPECIFIC CLAIMS TO CHALLENGE**
+*   Claim: "The four measurement anchors... yield preliminary site-level cumulative aggradation rates" (Abstract, Conclusions). **Assessment: (c) Overreach.** They yield *monument-specific burial rates* for four unusual contexts. "Aggradation rate" implies a landscape process; this is not demonstrated.
+*   Claim: "The evidence is sufficient to motivate the research program" (Conclusions). **Assessment: (b) Plausible but under-supported.** The anecdote of Dwarapala and the known buried *candi* are sufficient to suggest *a question*, not to motivate a full research program. A rigorous literature review of known burial depths would have been sufficient motivation.
+*   Claim: The distribution of sites is "consistent with" a taphonomic bias (throughout). **Assessment: (d) Unfalsifiable as presented.** Given the known survey biases, almost any distribution would be "consistent with" this hypothesis. The analysis does nothing to rule out the simpler, dominant explanation: survey effort.
+*   Claim: The 51-pair compilation is "order-of-magnitude consistent" with anchor rates. **Assessment: (c) Overreach.** Without the full data, this is an assertion. Even if true, consistency within a biased sample proves nothing about the broader landscape.
+
+**6. WHAT THE PAPER DOES WELL**
+1.  **Problem Framing:** It correctly identifies a critical, under-discussed geoarchaeological issue in Southeast Asia: the potential impact of cumulative volcanism on archaeological visibility. This is a valuable contribution to regional discourse.
+2.  **Research Program (Section 5.7):** This section is excellent. It identifies specific, feasible, and methodologically sound steps (OSL, tephrochronology, targeted coring) to move from speculation to science. It is precisely the kind of proposal that should be funded and executed.
+3.  **Transparency on Limitations:** The manuscript is unusually candid about its weaknesses (monument bias, anecdotal Dwarapala source, small n, linear model simplicity). This honesty is praiseworthy, but it ultimately underscores why the paper should not be published in its current form.
+
+**7. WHAT THE PAPER SHOULD BE, IF NOT THIS**
+This should be a **research proposal or a perspective paper**, not a primary research article claiming "preliminary measurement anchors." A publishable version would:
+*   Remove all quantitative rate calculations and depth projections derived from the monument sample.
+*   Present a systematic review of *all* documented cases of archaeological burial by volcanic sedimentation in Island Southeast Asia, discussing the range of observed depths and contexts (monument vs. settlement).
+*   Use the Dwarapala story and the Merapi *candi* as illustrative case studies within that review, not as quantitative anchors.
+*   Delete the spatial analysis of the biased site database entirely.
+*   Expand Section 5.7 into the paper's core, detailing the methodological pipeline for establishing a true landscape-scale aggradation rate and detection horizon. The "preliminary" evidence would then be the existence of the problem, not spurious numbers.
+
+**8. ONE QUESTION FOR THE AUTHORS**
+If you conducted your proposed OSL program in the Malang basin and obtained a landscape aggradation rate of 0.8 mm/yr—substantially lower than your monument-derived anchors—would you (a) reject your current anchors as non-representative, or (b) argue that monuments trap sediment and thus overestimate the rate relevant for settlements? Your answer will reveal whether your anchors are truly testable hypotheses or assumed truths.
+
+**Summary for Editor:** I recommend rejection. The reviewers identify a significant and valid problem—the potential for cumulative volcanic burial to obscure Java's archaeological record. However, the manuscript's attempt to provide quantitative "preliminary anchors" is fundamentally flawed. The primary data point (Dwarapala) is an unverified anecdote, the sample of four monuments is circular and non-representative, and the spatial analysis is confounded beyond recovery. The authors' own extensive caveats effectively deconstruct their argument. The valuable part of the manuscript is Section 5.7, which outlines a rigorous research program. The paper should be recast as a perspective piece or proposal focusing on that program, not on the unsupported quantitative projections that dominate the current version. Publishing this as a research article would set a poor methodological precedent and could mislead future fieldwork.
