@@ -79,9 +79,9 @@ The framework is **falsifiable**. Pre-registered prediction:
 | P2 | GIS settlement model | JCAA (Diamond OA) | Under review |
 | P7 | Theory of Motivated cartography | Antiquity Project Gallery (Q1) | Under review |
 | P8 | Linguistic fossils in Old Javanese | Oceanic Linguistics (Q1) | Under review |
-| P11 | Temple siting as archaeological proxy | Archipel (INALCO, Diamond OA) | Drafting |
+| P11 | Temples Without Villages | Archipel (INALCO, Diamond OA) | Submitted 2026-04-08 (under review) |
 | P16 | Computational textual archaeology | DHQ (ADHO, Diamond OA) | Drafting |
-| P17 | Two Javas: sacred vs. administrative landscapes | Archeologia e Calcolatori (Diamond OA) | Drafting |
+| P17 | Two Javas: sacred vs. administrative landscapes | Archeologia e Calcolatori (Diamond OA) | Submitted 2026-04-09 (MS#365, under review) |
 
 **Preprint:** [Zenodo DOI 10.5281/zenodo.19081502](https://doi.org/10.5281/zenodo.19081502) (CC BY 4.0)
 
