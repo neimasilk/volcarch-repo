@@ -71,7 +71,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
-| E017 | Tephra POC (Pyle 1989) | **FAILED** | ~~P3~~ | 1/4 sites pass. Killed P3 |
+| E017 | Tephra POC (Pyle 1989) | **FAILED** | ~~P3~~ | 1/4 sites pass. Discontinued P3 |
 | E018 | TOM proof of concept | INCONCLUSIVE | P7 | Cave-site confound |
 | E019 | Spatial distribution test | SUCCESS | P7 | Cohen's d=1.005 |
 | E020 | Mini-NusaRC | SUCCESS | P7,D2 | 80 sites, cave bias universal (p=0.761) |
@@ -84,7 +84,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | E023 | Ritual screening (DHARMA) | SUCCESS | P5 | 268 inscriptions, 43% hyaṁ |
 | E024 | Borehole screening | **FAILED** | P9 | n=18 too small, pattern visible |
 | E025 | Slametan quantitative | SUCCESS | P5 | p<0.001 Monte Carlo |
-| E026 | Pararaton volcanic corr. | SUCCESS | ~~P14~~ | p=0.037 (Bonferroni kills → P5 ammo) |
+| E026 | Pararaton volcanic corr. | SUCCESS | ~~P14~~ | p=0.037 (Bonferroni eliminates → P5 supporting material) |
 | E027 | ML substrate detection | SUCCESS | P8 | **AUC=0.762**, LOLO 5/6≥0.65 |
 | E027b | Substrate expansion (16 langs) | SUCCESS | P8 | Sulawesi>Western Indonesian |
 | E028 | Cross-method consensus | SUCCESS | P8 | kappa=0.61, 266 substrates |
@@ -130,7 +130,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | E056 | Candi × toponym crossref | SUCCESS | P7,P11 | MW p=0.007 |
 | E057 | Genre taphonomy deep dive | SUCCESS | L5 | +63.9pp organic C8→C9. L5 verified |
 | E058 | Kakawin NLP | SUCCESS | P5,P8 | Agriculture 91% native, religion 86% Sanskrit |
-| E059 | Fieldwork targets | SUCCESS | P1,P2 | Top 10 GPS at Kelud, 13.1 mm/yr |
+| E059 | Fieldwork candidates | SUCCESS | P1,P2 | Top 10 GPS at Kelud, 13.1 mm/yr |
 | E060 | Pre-400 CE reconstruction | SUCCESS | All | 8 channels, 6 domains |
 
 ### Advanced Spatial & Temporal (E061-E067)
@@ -140,12 +140,12 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | E061 | Script simplification | CONDITIONAL | P8 | MW p=0.027 |
 | E062 | Visibility curve | CONDITIONAL | P5 | PC1=51.3%, C8 dark century |
 | E063 | Domain conservation | SUCCESS | P8,P9 | KW p<0.001 |
-| E064 | Master evidence table | SUCCESS | All | 50 experiments catalogued, revision ammo |
+| E064 | Master evidence table | SUCCESS | All | 50 experiments catalogued, revision support material |
 | E065 | Candi spatial analysis | SUCCESS | P7,P11 | Zone A 17.9× overrepresented |
 | E066 | Candi archaeoastronomy | SUCCESS | P11 | 85% equinox, p=4.9e-14 |
 | E067 | Volcanic toponyms | INFO NEG | P11 | No proximity effect (rho=+0.14, p=0.15) |
 
-### Meta-Audit & Adversarial (E068-E070, E081, E085-E087)
+### Meta-Audit & Critical (E068-E070, E081, E085-E087)
 
 | ID | Title | Status | Paper | Key Result |
 |----|-------|--------|-------|------------|
@@ -235,7 +235,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 | **E107** | **ADV-5 Re-examination** | **SUCCESS** | **P8, L4** | **C5 = Mon-Khmer substrate, NOT documentation artifact. All 6 MK predictions confirmed (p<0.001). E027 UPGRADED.** |
 | **E108** | **Demographic null model** | **SUCCESS** | **All** | **Java pre-400 CE carrying capacity 590K-3.9M. Archaeological gap 3,220×. Null hypothesis REJECTED.** |
 | E109 | Forward simulation | MIXED | P1, L1 | Survey-burial confound: density INCREASES with depth. τ=∞, ρ=181m. 824 hidden sites. Survey deficit > burial. |
-| **E110** | **Visibility cascade model** | **SUCCESS** | **All** | **5-factor cascade predicts 0.058% visible vs 0.031% observed (1.9×). Survey 40× leverage. West Java smoking gun.** |
+| **E110** | **Visibility cascade model** | **SUCCESS** | **All** | **5-factor cascade predicts 0.058% visible vs 0.031% observed (1.9×). Survey 40× leverage. West Java decisive case.** |
 | E111 | Script diffusion timing | SUCCESS | L3 | Java's 660yr script adoption lag = 57th percentile globally. Normal, not anomalous. |
 | E112 | Vocabulary archaeology | SUCCESS | P18, L3 | Ghost writing (PAN *surat indigenous). 9 cultural domains reconstructed. Agriculture 91% native vs Religion 86% Sanskrit. |
 | **E113** | **Inscription sophistication** | **SUCCESS** | **P18, L3** | **EARLY_PEAK. No learning curve. Hapax ratio p=0.006, Sanskrit phonology p<0.001 (early > mature). Pre-existing organic-media literary tradition.** |
@@ -350,7 +350,7 @@ Failed experiments are NOT deleted — they are documented and may be revisited.
 |----|-------|--------|-------|------------|
 | E141 | Delpher extraction pipeline | SUCCESS (Phase 1) | P21 | 529 records from KB SRU API. 30 high-relevance. 5 major newspaper articles with archaeological finds. |
 | E142 | Delpher full-text NLP | SUCCESS (Phase 2) | P21 | 48 finds extracted. 33 with location. 40 with material. Only 1 with depth (critical limitation). |
-| E143 | Delpher spatial cross-reference | SUCCESS | P21 | 13/33 (39%) within 30km of E080 fieldwork targets. Malang+Modjokerto cluster validates Kelud/Arjuno zone. |
+| E143 | Delpher spatial cross-reference | SUCCESS | P21 | 13/33 (39%) within 30km of E080 fieldwork candidates. Malang+Modjokerto cluster validates Kelud/Arjuno zone. |
 
 ### Visualization & Temporal Analysis (E144, E145)
 
@@ -395,9 +395,9 @@ Experiments that could yield better results with new data, methods, or context.
 
 ## Cathedral Findings (survive ALL scrutiny)
 
-These are the strongest results that survive FDR correction and adversarial testing.
+These are the strongest results that survive FDR correction and robustness testing.
 
-| ID | Finding | p-value | Adversarial? |
+| ID | Finding | p-value | Critical? |
 |----|---------|---------|-------------|
 | E066 | Candi equinox orientation | 4.9e-14 | Trivially true but quantified |
 | E051 | Toponymic substrate | 5.1e-14 | Needs linguist validation |
@@ -423,7 +423,7 @@ These are the strongest results that survive FDR correction and adversarial test
 |----|-------|--------|-------|------------|
 | **E154** | **FDR Re-Audit at 153 experiments** | **SUCCESS** | **All** | **83 tests, 65 survive BH (78.3%, up from 73.2%). E048 RESCUED. Only 2 casualties remain (E032, E053).** |
 | **E155** | **Cross-Regional Cascade Validation** | **SUCCESS (with caveats)** | **P1, P17, P18** | **Cascade correctly predicts rank order of archaeological visibility across 5 regions (Spearman rho=1.0, p=0.017). F3 (survey) most differentiating factor. MC: P(rho>0.5)=99.6%.** |
-| **E156** | **Sunda Shelf Population Displacement Model** | **SUCCESS** | **P1, P18, P19** | **L1xL2 "Double Erasure": ~94,000 people pushed from drowning Sunda Shelf INTO volcanic zones via river corridors. Burial depth 44m. West Java smoking gun PREDICTED by model.** |
+| **E156** | **Sunda Shelf Population Displacement Model** | **SUCCESS** | **P1, P18, P19** | **L1xL2 "Double Erasure": ~94,000 people pushed from drowning Sunda Shelf INTO volcanic zones via river corridors. Burial depth 44m. West Java decisive case PREDICTED by model.** |
 | **E157** | **Ethnographic Volcanic Analog** | **SUCCESS** | **P1, P17, P18, P19** | **F4=0.43 (Liangan, Hindu) / 0.20 (pre-Hindu). F2=0.21 (weighted ethnographic). Three independent F2 estimates converge within 15%. 32% of modern village material culture INVISIBLE after burial.** |
 | **E158** | **Steelman Counter-Arguments** | **SUCCESS** | **All** | **Cascade model (E110) = weakest flank (5 params, 1 data point). Cathedral findings robust. E066 is "trivially true." Recommendation: lead with cathedral findings, cascade as framework.** |
 | **E159** | **Robustness Battery (5 cathedral findings)** | **SUCCESS** | **All** | **5/5 ROBUST under bootstrap (10K), permutation (10K), jackknife. E051 metric sensitivity discovered: court distance, not volcano distance. Zone A overrep: 13.5x, p=5.3e-64.** |
@@ -459,7 +459,7 @@ These are the strongest results that survive FDR correction and adversarial test
 | **E185** | **Spatially-Constrained Permutation** | **SUCCESS** | **P17** | **Two Javas segregation ROBUST: KS p<10^-8, Cohen's d~2.0 (very large), Cliff's delta~0.97. Permutation (10K) p<0.000001. E184's spatial autocorrelation warning applies to REGRESSION, NOT to TWO-SAMPLE distributional comparison. Core P17 finding survives all spatial tests.** |
 | **E186** | **Tengger Ghost Word Cross-Reference** | **SUCCESS** | **P8, P19** | **Tengger IS a linguistic time capsule. ABVD too limited (210 concepts), but literature confirms: "esun"=aku (C8 ghost), "glis" preserved as "nglisik", "hyang", "picis". Pre-krama register survives in volcanic isolate's spoken language.** |
 | **E187** | **Proper Spatial Regression (PySAL)** | **SUCCESS (INFO NEG)** | **P17** | **Volcanic distance effect DOES NOT survive spatial regression. OLS beta 0.034 (p=0.002) drops to 0.016 (p=0.094) in Spatial Lag model. Rho=0.620 (strong spatial lag). Two Javas segregation still robust. First proper spatial regression in VOLCARCH.** |
-| **E188** | **Mainland SE Asia Comparison** | **SUCCESS** | **P1, P17, P19, All** | **Killer insight: "400 CE start" = writing diffusion, NOT civilizational birth. Three compounding biases: material (organic vs bronze), survey (OV candi-only vs EFEO systematic), narrative (Indianization as birth). 3,600-year pre-inscriptional gap = preservation bias.** |
+| **E188** | **Mainland SE Asia Comparison** | **SUCCESS** | **P1, P17, P19, All** | **Decisive insight: "400 CE start" = writing diffusion, NOT civilizational birth. Three compounding biases: material (organic vs bronze), survey (OV candi-only vs EFEO systematic), narrative (Indianization as birth). 3,600-year pre-inscriptional gap = preservation bias.** |
 
 ### Satellite Archaeology Experiments (E189-E191)
 

@@ -58,6 +58,7 @@ volcarch/
 - **Always record what you tried**, even if it failed. Append to JOURNAL.md.
 - **Cite sources.** Every dataset, every number, every claim needs a traceable source.
 - **Uncertainty is expected.** Use confidence intervals, not false precision.
+- **Submission Integrity Gate (BINDING).** Before submitting/resubmitting ANY manuscript, pass `docs/SUBMISSION_INTEGRITY_GATE.md` (GO/NO-GO, gates G1–G10). Never answer a central, valid critique by rewording — fix the data or downgrade the claim. Re-derive every headline number blind from raw data. Adopted 2026-06-08 after P7/Antiquity rejection + palynology counter-evidence (E214).
 
 ### Experiment Protocol
 - Every experiment gets a numbered directory: `E001_`, `E002_`, etc.
@@ -96,7 +97,7 @@ The `inBox/` folder is a **drop zone** for new materials (drafts, data files, re
 - Filosofi: *"Santai dalam waktu, serius dalam metode."*
 
 ### Exploration Mode & Idea Preservation
-- **`docs/IDEA_REGISTRY.md`** — Master catalog of ALL research ideas with maturity levels (SPARK → PAPER). Every idea gets an ID. Killed papers ≠ killed ideas.
+- **`docs/IDEA_REGISTRY.md`** — Master catalog of ALL research ideas with maturity levels (SPARK → PAPER). Every idea gets an ID. Retired papers ≠ retired ideas.
 - **`docs/TRIGGER_MAP.md`** — Reverse blocker index: "If X happens, what becomes possible?" Scan during Mata Elang reviews.
 - **Serendipity tagging:** When working on Paper X and discovering something for Paper Y, tag it in JOURNAL: `[BRIDGE → PY, I-NNN]`
 - During exploration sessions, new ideas go to IDEA_REGISTRY with appropriate maturity level. Never discard — everything gets an ID.

@@ -24,7 +24,7 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 | P8 | Linguistic Fossils | **Under review** (Oceanic Linguistics, OL-03-2026-11) | `papers/P8_linguistic_fossils/` |
 | P9 | Peripheral Conservatism | ~~REJECTED~~ JSEAS → HOLD (DHQ/Wacana) | `papers/P9_peripheral_conservatism/` |
 | P11 | Volcanic Informedness | **DRAFT v0.3** (18pp, target Wacana) | `papers/P11_volcanic_informedness/` |
-| P14 | Pararaton Volcanic Collapse | **KILLED** (Mata Elang #4, Bonferroni) | `papers/P14_pararaton_collapse/` |
+| P14 | Pararaton Volcanic Collapse | **DISCONTINUED** (Mata Elang #4, Bonferroni) | `papers/P14_pararaton_collapse/` |
 | P16 | Computational Textual Archaeology | **DRAFT v0.1** (19pp, target DHQ) | `papers/P16_computational_textual_archaeology/` |
 | P17 | Two Javas | **DRAFT v0.2** (22pp, target Arch.Calc.) | `papers/P17_two_javas/` |
 | P18 | What Words Remember | **DRAFT v0.1** (16pp, HOLD) | `papers/P18_invisible_civilization/` |
@@ -38,7 +38,7 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 | P9-alt | `P09alt_borehole_archaeology.md` | Borehole Archaeology | Raw idea | PARTIAL | MEDIUM |
 | P11 | `P11_volcanic_cultural_selection.md` | ~~VCS~~ → **RE-SCOPED** as Volcanic Informedness | Concept draft (superseded by `papers/P11_volcanic_informedness/outline_v0.1.md`) | YES (E031+E032+E039) | HIGH |
 
-### Killed / Dissolved (Mata Elang #3, 2026-03-10)
+### Retired / Dissolved (Mata Elang #3, 2026-03-10)
 
 | # | File | Reason |
 |---|------|--------|
@@ -49,7 +49,7 @@ Filosofi: *"Santai dalam waktu, serius dalam metode."*
 | P15 | `P15_terminology_without_structure.md` | **Dissolved** into `papers/P5_volcanic_ritual_clock/revision_ammo/` — salami-slicing risk if separate |
 | P-cst | `Pcst_coastal_taphonomy.md` | Stub, no data, no method |
 
-**Ide-ide dari killed papers TIDAK hilang.** Semuanya sudah dipindahkan ke `docs/IDEA_REGISTRY.md` dengan ID unik:
+**Ide-ide dari retired papers TIDAK hilang.** Semuanya sudah dipindahkan ke `docs/IDEA_REGISTRY.md` dengan ID unik:
 - P4 → I-045 (estuarine resilience), I-054 (Surabaya-Venice), I-055 (Mongol 1293)
 - P6 → I-022 (KawiKupas), I-023 (Kawi clustering)
 - P10 → I-052 (tephrochronology), ADS framework ideas (I-082, I-083)
@@ -76,13 +76,13 @@ Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 |------|-----------|
 | `manifesto.md` | Grand narrative — 6 lapisan kegelapan + kriteria falsifikasi (internal, bukan publikasi) |
 | `parking_lot_vcs_colonial.md` | Raw ideas: VCS + colonial resistance + population estimates |
-| `working_note_ancient_dna.md` | Working note: aDNA preservation paradox di Java |
+| `working_note_ancient_dna.md` | *(moved to `/genetics/working_note_ancient_dna.md`)* |
 
 ### Strategy (di `docs/`)
 
 | File | Deskripsi |
 |------|-----------|
-| `docs/master_attack_map.md` | 11 evidential channels × paper mapping (consilience framework) |
+| `docs/master_evidence_map.md` | 11 evidential channels × paper mapping (consilience framework) |
 
 ## Konflik Nomor (Resolved)
 
@@ -90,14 +90,14 @@ Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 |-------|---------|----------|
 | P9 | Peripheral Substrate vs Borehole Archaeology | **P9 = Peripheral Substrate** (konsisten dgn memory). Borehole = `P09alt` |
 | P14 | Pararaton Collapse vs VCS Colonial (parking lot) | **P14 = Pararaton**. VCS Colonial → `parking_lot` |
-| P15 | ~~Terminology Without Structure~~ | **DISSOLVED** into P5 revision ammo (2026-03-10) |
+| P15 | ~~Terminology Without Structure~~ | **DISSOLVED** into P5 revision support material (2026-03-10) |
 
 ## Urutan Eksekusi yang Disarankan (post Mata Elang #3)
 
 1. **P9** (Peripheral Substrate) — partial draft, connects P5+P8 findings
 2. **P11** (VCS) — needs P5+P9 as foundation
 
-*P14 moved to `papers/P14_pararaton_collapse/` (pivoting to research note). P8 moved to `papers/P8_linguistic_fossils/` (draft complete). P4, P6, P10, P12, P15, P-coastal killed/dissolved.*
+*P14 moved to `papers/P14_pararaton_collapse/` (pivoting to research note). P8 moved to `papers/P8_linguistic_fossils/` (draft complete). P4, P6, P10, P12, P15, P-coastal retired/dissolved.*
 
 ## Archive
 

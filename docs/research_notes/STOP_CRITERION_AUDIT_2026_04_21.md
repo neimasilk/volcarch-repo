@@ -1,12 +1,12 @@
-# Kill-Criterion Audit — Session 19 (2026-04-21)
+# Stop-Criterion Audit — Session 19 (2026-04-21)
 
-**Context:** ME#15 §7C recommended quarterly kill-criterion audit. This is the first formal audit. Covers post-E176, E178, E201, E203 state.
+**Context:** ME#15 §7C recommended quarterly stop-criterion audit. This is the first formal audit. Covers post-E176, E178, E201, E203 state.
 
-**Method:** Re-read L1_CONSTITUTION §9 kill + pivot criteria. Assess current state against each. Flag any triggered or close-to-triggered.
+**Method:** Re-read L1_CONSTITUTION §9 drop + pivot criteria. Assess current state against each. Flag any triggered or close-to-triggered.
 
 ---
 
-## Kill criteria (abandon research line if triggered)
+## Stop criteria (abandon research line if triggered)
 
 ### #1 Cascade falsification — **PARTIALLY VIOLATED IN SPIRIT**
 
@@ -15,7 +15,7 @@
 **Current state after E176 (ME#13):**
 - Cascade NOT off by 2 orders — it DOES match observation (0.058% predicted vs 0.031% observed, within factor of 2).
 - **BUT** 83.8% of random 5-factor draws also bracket observation (E176). The cascade is *over-parameterized*: its "match" is not evidence for the specific mechanism, only evidence that multi-factor decomposition is flexible enough to match.
-- Cascade has been downgraded from "model matches data" (original framing) to "plausible mechanistic decomposition" (manifesto v4.1 update).
+- Cascade has been downgraded from "model matches data" (original framing) to "plausible mechanistic decomposition" (research statement v4.1 update).
 
 **Verdict:** The literal criterion is NOT triggered. But the criterion's underlying purpose — validating the cascade's explanatory power — is defeated by E176 over-parameterization. **The criterion is incoherent with current state** and should be replaced.
 
@@ -47,7 +47,7 @@ Current state: No comparandum satisfies all three. Criterion is not triggered un
 
 **Current state:** All rejections have been desk-level (AI flag, structure/wording, scope mismatch). ZERO substantive methodology critiques received.
 
-**Verdict:** NOT TRIGGERED, but also not meaningfully tested. This is a critical gap in the project's epistemic validation — the methodology has never been adversarially peer-reviewed. The criterion cannot be applied until some reviewer engages the method substantively.
+**Verdict:** NOT TRIGGERED, but also not meaningfully tested. This is a critical gap in the project's epistemic validation — the methodology has never been independently peer-reviewed. The criterion cannot be applied until some reviewer engages the method substantively.
 
 **Implication:** The project remains at Verification Ladder Level 0 (per ME#12). Level 1 (peer acceptance) has not been reached on ANY paper yet.
 
@@ -91,9 +91,9 @@ No change. Castillo, KITLV on hold. PhD trajectory is partial answer.
 
 ## Overall assessment
 
-**No kill criterion is literally triggered.** But two are in a state that suggests the criteria themselves were poorly specified (#1, #3) and two have never been tested (#4, #5).
+**No stop criterion is literally triggered.** But two are in a state that suggests the criteria themselves were poorly specified (#1, #3) and two have never been tested (#4, #5).
 
-**The absence of test is itself concerning.** ME#14 flagged "0/200 experiments kill L1 §2." The kill criteria were designed to function as external tests. They function as internal-only when domain experts and peer reviewers are absent. Until at least one substantive peer review is received, the kill criteria are on paper only.
+**The absence of test is itself concerning.** ME#14 flagged "0/200 experiments drop L1 §2." The stop criteria were designed to function as external tests. They function as internal-only when domain experts and peer reviewers are absent. Until at least one substantive peer review is received, the stop criteria are on paper only.
 
 **Specific actions proposed:**
 
@@ -104,4 +104,4 @@ No change. Castillo, KITLV on hold. PhD trajectory is partial answer.
 
 ---
 
-*Kill-criterion audit produced 2026-04-21. Closes ME#15 §7C recommendation. Criteria #1 and #3 flagged for rewrite.*
+*Stop-criterion audit produced 2026-04-21. Closes ME#15 §7C recommendation. Criteria #1 and #3 flagged for rewrite.*

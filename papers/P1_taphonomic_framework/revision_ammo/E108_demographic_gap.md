@@ -1,4 +1,4 @@
-# P1 Revision Ammo: E108 Demographic Gap — The Null Hypothesis Killer
+# P1 Revision Support Material: E108 Demographic Gap — The Null Hypothesis Decisive
 
 **Paper:** Asian Perspectives MS# 019A-0326
 **Date:** 2026-03-17

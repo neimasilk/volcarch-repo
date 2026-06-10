@@ -1,6 +1,6 @@
-# HANDOFF — Session 18 (2026-04-20)
+﻿# HANDOFF — Session 18 (2026-04-20)
 
-**Duration:** Extended autonomous session (Sunday, full day)
+**Duration:** Extended pipeline-driven session (Sunday, full day)
 **Mode:** User authorised max-effort + autonomous + pivot-eligible
 **Trigger:** Pak Amien's dissatisfaction with P1 pre-submission state; request for masterpiece-quality review
 **Outcome:** Path B adopted (split P1, build P0 masterpiece), SLR launched and completed all 10 subfields, E208 NLP pipeline executed
@@ -14,7 +14,7 @@
 3. **P0 target:** *Journal of Anthropological Archaeology* (Elsevier Q1, subscription route = zero APC). Backup: Current Anthropology, Antiquity, Cambridge Archaeological Journal.
 4. **Full SLR launched** — subfield-driven, symmetric-bias-mitigated, pivot-eligible. Completed all 10 subfields in one extended session.
 5. **PhD-waiting-period priority rule installed:** prioritise autonomous NLP-heavy computational work during Verberne response wait; skip manual-human-bandwidth tasks.
-6. **Godfather-level definition operationalised** in ME#15: 7 explicit criteria for P0 quality bar.
+6. **Landmark definition operationalised** in ME#15: 7 explicit criteria for P0 quality bar.
 
 ---
 
@@ -24,7 +24,7 @@
 - `docs/research_notes/MATA_ELANG_15_2026_04_20.md` — 10-section architect's critique + critique-selection protocol + three-path analysis with Path B recommendation
 - `docs/LITERATURE_SLR_PROTOCOL.md` — full SLR protocol with 10-subfield scope + tagging schema + bias-mitigation rules
 - `docs/LITERATURE_SLR_PROGRESS.md` — living progress tracker (session 18a/b/c)
-- `tools/hostile_reviewer_prompt.md` — cross-model review prompt + special-focus addenda for P1-core and P0
+- `tools/critical_reviewer_prompt.md` — cross-model review prompt + special-focus addenda for P1-core and P0
 
 ### P0 masterpiece (new paper)
 - `papers/P0_invisible_civilization/SKELETON_v0.1.md` — 10-section scaffold (8-10K words target)
@@ -36,7 +36,7 @@
 - `papers/P1_taphonomic_framework/submission_jasrep_v3.0.tex` — surgical cut removing §2.2 last 2 paragraphs (demographic → P0), §2.5 West Java (→ P0), §5.5 cascade (→ P0), §5.4 Kutai (merged), §5.2 near-volcano (compressed), plus added compaction/erosion/spatial autocorrelation/monument-vs-settlement caveats in §5.6. **Compiles clean, 21pp with refs.**
 - `papers/P1_taphonomic_framework/submission_jasrep_v3.0.pdf` — compiled
 - `papers/P1_taphonomic_framework/references.bib` — +Reid 1988 + placeholder for amien_synthesis_forthcoming (P0 cite)
-- `papers/P1_taphonomic_framework/external_reviews/hostile_review_claude_persona_20260420.md` — simulated hostile reviewer pass, 9 actionable items
+- `papers/P1_taphonomic_framework/external_reviews/critical_review_claude_persona_20260420.md` — simulated skeptical reviewer pass, 9 actionable items
 
 ### SLR bibliography (12 files)
 ```
@@ -135,14 +135,14 @@ Jia 2024 Jatim beads (via peer-reviewed paper) + Wolters 1967 Ye-tiao 132 CE emb
 1. **Review P1-core v3.0** — surgical cut completed, compiles clean; Pak Amien read + approve/revise
 2. **Approve Path B formally** (implicit from "sesuai rekomendasi semua" but worth confirming in writing)
 3. **Budget $50-200 for external statistics reviewer** before P0 submission
-4. **DeepSeek API access** if/when cross-model hostile review desired
+4. **DeepSeek API access** if/when cross-model critical review desired
 5. **E208 Phase 2b execution approval** (would require ~2-3 hours and ACD access — free)
 
 ---
 
 ## 6. Next session priority queue (in order)
 
-### Tier 1 — Autonomous work (Claude-executable in isolation)
+### Tier 1 — pipeline work (Claude-executable in isolation)
 1. **SLR Fase C: CSV inventory extraction** — mechanical consolidation of 12 bibliography files into `docs/bibliography/_INVENTORY.csv` with structured columns (citekey, title, year, subfield, relation, chronology, method, quality, volcarch_use). Probably 1-2 hours.
 2. **SLR Fase D: synthesis** — cluster analysis of findings, counter-evidence audit, revised P0 evidence inventory. Produces `docs/bibliography/_SYNTHESIS_for_P0.md`. Probably 2-3 hours.
 3. **P0 §3.3 Linguistic channel draft** — now with nuanced E058/E208 interpretation. Uses findings from both. ~1-2 hours.
@@ -199,3 +199,4 @@ Read MATA_ELANG_15, WORKSTATE, and this HANDOFF first. Path B is locked: P1-core
 ---
 
 *HANDOFF document produced 2026-04-20 end-of-session 18. Next session will consume it first.*
+

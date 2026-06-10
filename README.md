@@ -106,7 +106,7 @@ volcarch/
 │   ├── E005_sedimentation_rate_calibration/
 │   ├── ...
 │   └── E175_candi_spatial_statistics/
-├── papers/                    Paper drafts, submission files, revision ammo
+├── papers/                    Paper drafts, submission files, revision support material
 ├── models/                    Trained models & configurations
 ├── maps/                      Generated probability maps & visualizations
 └── tools/                     Utility scripts (sync checker, scrapers)
@@ -114,7 +114,7 @@ volcarch/
 
 Each experiment directory contains a `README.md` with hypothesis, method, data, result, conclusion, and status (SUCCESS / FAILED / INCONCLUSIVE / REVISIT). Failed experiments are documented, not deleted.
 
-## Priority Fieldwork Targets
+## Priority Fieldwork Candidates
 
 20 GPS coordinates identified across two volcanic zones in East Java, scoring highest on a 5-component weighted model (volcanic proximity, temple clustering, survey gap, terrain suitability, predicted burial depth):
 

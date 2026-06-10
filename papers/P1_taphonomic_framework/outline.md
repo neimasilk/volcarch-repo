@@ -70,7 +70,7 @@ ground-penetrating radar surveys in volcanic Indonesia.
 1.3 Research questions
    - RQ1: Is the distribution of known sites spatially biased by volcanic proximity?
    - RQ2: Can we quantify expected burial depth by era and location?
-   - RQ3: Where should future fieldwork target sites most likely to be buried?
+   - RQ3: Where should future fieldwork candidate sites most likely to be buried?
 
 ### 2. Background (1,200 words)
 

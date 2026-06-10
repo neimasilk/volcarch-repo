@@ -83,7 +83,7 @@ Dan inilah kuncinya: **faktor terbesar bukan gunung api — melainkan defisit su
 
 ---
 
-## Bagian 2: Bukti Terkuat — "West Java Smoking Gun"
+## Bagian 2: Bukti Terkuat — "West Java Decisive Case"
 
 Dari 186 eksperimen, satu temuan paling kuat dan paling mudah dijelaskan:
 
@@ -107,7 +107,7 @@ Saat ini kami memiliki **6 paper di meja editor** — semuanya menunggu review. 
 
 **Perjalanan:** Awalnya submit ke *Asian Perspectives* (jurnal arkeologi Asia terkemuka, Q1) pada 10 Maret 2026. Ditolak 17 Maret — editor mendeteksi jejak AI dalam bahasa. Diperbaiki, dikirim ulang ke **EGQSJ** (*E&G Quaternary Science Journal*, Copernicus, Diamond OA — gratis) pada 30 Maret. Preprint sudah live di Zenodo (DOI: 10.5281/zenodo.19081502).
 
-**Kekuatan:** Multi-site calibration (bukan satu titik), survei 666 situs arkeologi, korelasi densitas-vulkanisme rho = -0,955, West Java smoking gun.
+**Kekuatan:** Multi-site calibration (bukan satu titik), survei 666 situs arkeologi, korelasi densitas-vulkanisme rho = -0,955, West Java decisive case.
 
 **Kelemahan yang kami akui:** Kalibrasi pada 4-5 titik (sampel kecil), asumsi laju konstan, extrapolasi spasial.
 
@@ -141,7 +141,7 @@ Yang menarik: hanya 7 dari 20 candi yang pintunya menghadap gunung api (35%, tid
 
 **Temuan kunci:** Substrat pra-Indic terdeteksi secara komputasional. 266 kata substrat diidentifikasi. Hanacaraka (aksara Jawa) memiliki 20 konsonan — align dengan Proto-Austronesia (~17), **bukan** Sanskrit (33). Ini jejak fonologis: aksara Jawa didesain untuk mulut Austronesia, bukan untuk mulut India.
 
-**Temuan bonus (E107):** Uji adversarial ADV-5 berhasil — 6 dari 6 bahasa Mon-Khmer diklasifikasi dengan benar sebagai "substrat." Model benar-benar mendeteksi sinyal, bukan noise.
+**Temuan bonus (E107):** Uji critical ADV-5 berhasil — 6 dari 6 bahasa Mon-Khmer diklasifikasi dengan benar sebagai "substrat." Model benar-benar mendeteksi sinyal, bukan noise.
 
 **Perjalanan:** Submit ke *Oceanic Linguistics* (University of Hawai'i, Q1, zero APC) pada 11 Maret 2026, MS# OL-03-2026-11. Co-author: Go Frendi Gunawan. **Preprint sudah live di arXiv** (2604.00023, cs.CL, CC BY 4.0) — artinya sudah bisa disitasi siapa pun di dunia.
 
@@ -236,7 +236,7 @@ Catatan jujur: 186 *entri*, bukan 186 *tes hipotesis*. Tes hipotesis yang genuin
 | Ditolak dan retarget | 4 (P1-AP, P5-BKI, P9-JSEAS, P11-Cornell) |
 | Dibunuh | 5 (P3, P4, P6, P14, P-coastal) |
 
-### Adversarial Tests
+### Critical Tests
 
 Kami secara sengaja mencoba menghancurkan temuan kami sendiri:
 
@@ -338,6 +338,6 @@ VOLCARCH bukan klaim bahwa kami sudah menemukan peradaban yang hilang. VOLCARCH 
 
 ---
 
-*Dokumen ini disusun dari 186 eksperimen VOLCARCH (E001-E186), manifesto v4.3, 11 Mata Elang review, dan 6 paper submission. Seluruh data, kode, dan eksperimen tersedia di repositori GitHub proyek.*
+*Dokumen ini disusun dari 186 eksperimen VOLCARCH (E001-E186), research statement v4.3, 11 Mata Elang review, dan 6 paper submission. Seluruh data, kode, dan eksperimen tersedia di repositori GitHub proyek.*
 
 *Santai dalam waktu, serius dalam metode.*

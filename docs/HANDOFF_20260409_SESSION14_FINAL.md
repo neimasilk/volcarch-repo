@@ -1,4 +1,4 @@
-# HANDOFF: Session 14 FINAL — ME#13 + 13 Experiments + P17 SUBMITTED (2026-04-09)
+﻿# HANDOFF: Session 14 FINAL — ME#13 + 13 Experiments + P17 SUBMITTED (2026-04-09)
 
 **Dari:** Claude (sesi 14, full autonomous)
 **Untuk:** Sesi berikutnya
@@ -8,7 +8,7 @@
 
 ## RINGKASAN 30 DETIK
 
-Sesi autonomous terbesar dalam sejarah VOLCARCH. **13 eksperimen baru** (E176-E188). **P17 "Two Javas" SUBMITTED** ke ArchCalc (ID 365, Diamond OA, gratis). **P11 Archipel EiC acknowledged** — editorial board Juni 2026. Mata Elang #13 = kritik struktural terdalam (7 risiko, 5 fixed). Temuan terpenting: **E188 — "400 CE start" = difusi tulisan Indic, bukan kelahiran peradaban. Tiga bias berlapis (material/survei/narasi) menjelaskan kenapa Nusantara tampak "terlambat."** Scorecard: **6 papers under review, 188 experiments.**
+sesi pipeline terbesar dalam sejarah VOLCARCH. **13 eksperimen baru** (E176-E188). **P17 "Two Javas" SUBMITTED** ke ArchCalc (ID 365, Diamond OA, gratis). **P11 Archipel EiC acknowledged** — editorial board Juni 2026. Mata Elang #13 = kritik struktural terdalam (7 risiko, 5 fixed). Temuan terpenting: **E188 — "400 CE start" = difusi tulisan Indic, bukan kelahiran peradaban. Tiga bias berlapis (material/survei/narasi) menjelaskan kenapa Nusantara tampak "terlambat."** Scorecard: **6 papers under review, 188 experiments.**
 
 ---
 
@@ -34,12 +34,12 @@ Sesi autonomous terbesar dalam sejarah VOLCARCH. **13 eksperimen baru** (E176-E1
 | E185 | Two Javas ROBUST d=2.0 | Distributional immune |
 | E186 | Tengger = linguistic time capsule | "esun"=aku, "glis" preserved |
 | E187 | **PySAL spatial regression** | Effect p=0.094 (NOT survive) but Two Javas ROBUST |
-| E188 | **Mainland comparison — killer insight** | EFEO vs OV, 3 bias layers, decolonial reframe |
+| E188 | **Mainland comparison — Decisive insight** | EFEO vs OV, 3 bias layers, decolonial reframe |
 
 ### Dokumen Baru
 - `docs/research_notes/MATA_ELANG_13_2026_04_09.md` — Kritik terdalam
 - `docs/drafts/VOLCARCH_1page_pitch_v1.md` — Collaborator pitch
-- `docs/drafts/email_castillo_phytolith.md` — Killer experiment email
+- `docs/drafts/email_castillo_phytolith.md` — decisive experiment email
 - `papers/P17_two_javas/revision_ammo/ANTICIPATED_REVIEWER_QUESTIONS.md` — 8 Q&As
 - `papers/P1_taphonomic_framework/revision_ammo/E176_CASCADE_REFRAMING.md`
 - `papers/P1_taphonomic_framework/revision_ammo/E178_KARST_FACTOR.md`
@@ -93,7 +93,7 @@ Sesi autonomous terbesar dalam sejarah VOLCARCH. **13 eksperimen baru** (E176-E1
 | P11 status | Submitted | **EiC acknowledged** |
 | ME#13 risks fixed | 0/7 | **5/7** |
 | Novel findings | — | **3** (E183, E187, E188) |
-| Revision ammo files | — | **+6** (P1 + P17) |
+| Revision support material files | — | **+6** (P1 + P17) |
 | Email drafts | 1 (Leiden) | **+1** (Castillo) |
 | Git commits | — | **8** |
 
@@ -101,3 +101,5 @@ Sesi autonomous terbesar dalam sejarah VOLCARCH. **13 eksperimen baru** (E176-E1
 
 *"Pertanyaannya bukan: kenapa peradaban Nusantara mulai terlambat?*
 *Pertanyaannya: kenapa kita PIKIR itu mulai terlambat?"*
+
+

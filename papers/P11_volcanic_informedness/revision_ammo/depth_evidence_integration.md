@@ -1,4 +1,4 @@
-# P11 Revision Ammo: Depth Evidence Integration
+# P11 Revision Support Material: Depth Evidence Integration
 
 **Paper:** P11 "Temple Siting as Archaeological Proxy for Volcanic Informedness"
 **Target journal:** Indonesia (Cornell, Q2)

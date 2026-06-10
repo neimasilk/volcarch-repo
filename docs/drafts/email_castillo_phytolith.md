@@ -2,7 +2,7 @@
 
 **To:** c.castillo@ucl.ac.uk
 **Subject:** Phytolith analysis of volcanic matrices in Java — computational framework meets archaeobotany
-**Status:** READY TO SEND — Pak Amien review + send (independent of PhD trajectory)
+**Status:** ⏸ ARCHIVED / DEFERRED 2026-06-08 (Pak Amien) — phytolith collaboration is the decisive thesis test (E215) BUT is an external/fieldwork bottleneck. Portfolio-first priority (0 papers accepted). Revisit after first acceptance. **Also: this draft must be rewritten before any future send** — stale/overclaimed lines ("6 journals under review", "20 GPS targets", "199 experiments", "transformative finding") fail the Submission Integrity Gate; replace with honest falsification-pitch.
 
 ---
 

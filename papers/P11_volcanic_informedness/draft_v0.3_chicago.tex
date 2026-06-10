@@ -27,7 +27,7 @@
 \noindent\textbf{Corresponding author:} Mukhlis Amien (\texttt{amien@ubhinus.ac.id})
 
 \begin{abstract}
-Volcanic sedimentation in Java buries archaeological sites at rates of 3--13~mm/yr, creating systematic gaps in the pre-modern record. We propose using surviving Hindu-Buddhist temple (\emph{candi}) distributions as spatial proxies for undiscovered sites. Analysis of 142 candi reveals three exploitable patterns: (1) candi cluster on western volcanic flanks (Rayleigh $p=3.4\times10^{-8}$); (2) Zone A ($<$10~km from volcanic peaks) is overrepresented by 17.9$\times$; and (3) temple orientations follow canonical prescription ($85\%$ equinox-facing, $p=4.9\times10^{-14}$) while siting follows volcanic logic. Comparison with 170 georeferenced inscriptions confirms that this volcanic proximity is specific to sacred architecture: inscriptions are 9.2~km farther from volcanoes (Mann-Whitney $p=5.2\times10^{-8}$), demonstrating that temple siting reflects intentional landscape decisions, not general settlement geography. A dataset of 51 eruption-site correlations with measured burial depths (mean 3.41~m, max 9.14~m) independently confirms the severity of volcanic burial. An adversarial regression controlling for survey intensity confirms that the volcanic-zone site deficit is substantive ($p=0.0015$). Comparison with Japan---which has 100--200$\times$ greater survey intensity and finds buried volcanic sites through rescue archaeology---clarifies that the archaeological gap reflects the interaction of volcanic burial with insufficient survey investment, not volcanism alone. We derive ten fieldwork targets with predicted burial depths of 7--21~m, showing that surviving monumental architecture can guide the recovery of buried non-monumental remains.
+Volcanic sedimentation in Java buries archaeological sites at rates of 3--13~mm/yr, creating systematic gaps in the pre-modern record. We propose using surviving Hindu-Buddhist temple (\emph{candi}) distributions as spatial proxies for undiscovered sites. Analysis of 142 candi reveals three exploitable patterns: (1) candi cluster on western volcanic flanks (Rayleigh $p=3.4\times10^{-8}$); (2) Zone A ($<$10~km from volcanic peaks) is overrepresented by 17.9$\times$; and (3) temple orientations follow canonical prescription ($85\%$ equinox-facing, $p=4.9\times10^{-14}$) while siting follows volcanic logic. Comparison with 170 georeferenced inscriptions confirms that this volcanic proximity is specific to sacred architecture: inscriptions are 9.2~km farther from volcanoes (Mann-Whitney $p=5.2\times10^{-8}$), demonstrating that temple siting reflects intentional landscape decisions, not general settlement geography. A dataset of 51 eruption-site correlations with measured burial depths (mean 3.41~m, max 9.14~m) independently confirms the severity of volcanic burial. An robustness regression controlling for survey intensity confirms that the volcanic-zone site deficit is substantive ($p=0.0015$). Comparison with Japan---which has 100--200$\times$ greater survey intensity and finds buried volcanic sites through rescue archaeology---clarifies that the archaeological gap reflects the interaction of volcanic burial with insufficient survey investment, not volcanism alone. We derive ten fieldwork targets with predicted burial depths of 7--21~m, showing that surviving monumental architecture can guide the recovery of buried non-monumental remains.
 
 \vspace{0.5em}
 \noindent\textbf{Keywords:} archaeological prediction, volcanic taphonomy, candi, Java, site discovery, spatial analysis, inscription georeferencing
@@ -61,7 +61,7 @@ We propose that the distribution of surviving Hindu-Buddhist temples (\emph{cand
     \item The contrast between candi siting (volcanically informed) and candi orientation (canonically determined) shows that temple placement reflects intentional landscape decisions, not random scatter.
 \end{enumerate}
 
-This paper extracts these spatial patterns from 142 candi and translates them into actionable fieldwork predictions. We validate the approach using an adversarial survey-intensity test and generate specific GPS targets ranked by predicted burial depth and site probability.
+This paper extracts these spatial patterns from 142 candi and translates them into actionable fieldwork predictions. We validate the approach using an robustness survey-intensity test and generate specific GPS targets ranked by predicted burial depth and site probability.
 
 % ============================================================
 \section{Study Area and Data}
@@ -114,7 +114,7 @@ For each of 142 candi, we computed the bearing from the nearest volcanic peak. W
 
 For 20 candi with documented entrance orientations, we tested: (a) whether entrances face cardinal directions vs.\ random (binomial test against 25\%), (b) whether entrances face toward the nearest volcano (angular threshold $<$45\textdegree), and (c) McNemar's test comparing the siting-vs-orientation contrast.
 
-\subsection{Adversarial Survey Intensity Test}
+\subsection{Robustness Survey Intensity Test}
 \label{sec:adv3}
 
 To exclude the possibility that the volcanic-zone site deficit is an artifact of differential survey effort, we performed a nested Poisson regression:
@@ -255,7 +255,7 @@ This creates a critical methodological distinction: \emph{where} to build was vo
 \subsection{Survey Intensity Does Not Explain the Deficit}
 \label{sec:adv3results}
 
-The adversarial regression confirms that the volcanic-zone site deficit is substantive:
+The robustness regression confirms that the volcanic-zone site deficit is substantive:
 
 \begin{table}[h]
 \centering
@@ -369,7 +369,7 @@ We demonstrate that the spatial distribution of 142 Hindu-Buddhist candi in Java
     \item Candi cluster on western volcanic flanks ($p=3.4\times10^{-8}$) with Zone A ($<$10~km) overrepresented by $17.9\times$, indicating that past settlement concentrated in areas now most affected by volcanic burial.
     \item Comparison with 170 georeferenced inscriptions confirms that this volcanic proximity is specific to sacred architecture ($p=5.2\times10^{-8}$), not a reflection of general settlement geography. Temple siting is a behavioral signal, not a taphonomic artifact.
     \item Fifty-one documented eruption-site correlations with measured burial depths (mean 3.41~m, max 9.14~m) confirm that volcanic burial is severe enough to render sites invisible to surface survey.
-    \item An adversarial regression confirms that the volcanic-zone site deficit persists after controlling for survey intensity ($p=0.0015$), and comparison with Japan clarifies that the archaeological gap reflects the \emph{interaction} of volcanic burial with insufficient survey investment.
+    \item An robustness regression confirms that the volcanic-zone site deficit persists after controlling for survey intensity ($p=0.0015$), and comparison with Japan clarifies that the archaeological gap reflects the \emph{interaction} of volcanic burial with insufficient survey investment.
 \end{enumerate}
 
 From these patterns, we derive ten GPS-referenced fieldwork targets with predicted burial depths of 7--21~m. This ``iceberg methodology''---using surviving monumental architecture to locate buried non-monumental remains---offers a cost-effective approach to directing limited survey resources in volcanic terrain. The methodology is generalizable to any volcanic landscape with surviving surface features.

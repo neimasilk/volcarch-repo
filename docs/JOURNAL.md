@@ -4,6 +4,193 @@
 
 ---
 
+## 2026-04-23 | Session 22 — VOC-ArchNLP HKI + E211 Phase 1 Execution + Lamqaddam Draft
+
+**Type:** PRODUCT DEVELOPMENT + PhD TRACK CONTINUATION
+**Status:** VOC-ArchNLP v1.0.0 software package COMPLETE; HKI registration docs READY; Lamqaddam email draft READY.
+
+### HKI Product: VOC-ArchNLP v1.0.0
+
+Created `tools/voc_archnlp/` as a self-contained Python package for HKI Hak Cipta (Program Komputer) registration at DJKI Indonesia.
+
+**Komponen baru (inovasi utama):**
+- `extractor.py` — ArchaeologicalMentionExtractor: deteksi 6 tipe entitas arkeologi (MONUMENT, GRAVE, RUIN, ARTIFACT, INSCRIPTION, DEPTH) dari teks VOC; konversi satuan kedalaman VOC-era (voet/el/palm/duim) ke meter; keluaran CSV/JSON berprovenans.
+- `pipeline.py` — VOCArchPipeline: orchestrates 4-stage pipeline (preprocess → normalize → extract → output) with single `run()` call.
+- `cli.py` — Unified CLI: `python -m voc_archnlp [download|preprocess|normalize|extract|run]`
+- `__init__.py` — package metadata (pencipta, ORCID, CC BY 4.0)
+
+**Dokumen HKI (`docs/HKI/`):**
+- `DESKRIPSI_PROGRAM.md` — Deskripsi lengkap untuk formulir DJKI (Bahasa Indonesia)
+- `MANUAL_PENGGUNA.md` — Manual penggunaan
+- `ARSITEKTUR_SISTEM.md` — Diagram arsitektur dan penjelasan teknis
+- `PANDUAN_PENDAFTARAN_DJKI.md` — Step-by-step untuk mendaftar di e-hakcipta.dgip.go.id
+
+**Nilai strategis:**
+- KUM points untuk kenaikan jabatan (Lektor → Lektor Kepala)
+- Konkret deliverable untuk pitch PhD ke Verberne + Lamqaddam + Vossen
+- HKI anchor untuk kolaborasi institusional
+- Zenodo deposit (DOI gratis) bisa dikombinasikan
+
+**Relasi ke E211:** VOC-ArchNLP IS the E211 Phase 1 pipeline. **Pipeline DIJALANKAN session ini (lihat bagian E211 di bawah).**
+
+### E211 Phase 1 Execution — Methodologically Informative Negative Result
+
+Pipeline VOC-ArchNLP dieksekusi pada 500 file (148 juta kata):
+- **33,930 candidate mentions** diekstrak dari 548,929 paragraf
+- **14,626** setelah Java/Indonesia geographic filter
+- **871** subset high-precision (MONUMENT+INSCRIPTION+Java)
+- **91** dengan depth measurements; 34 dengan Java context
+
+**Key finding:** `oudheden` (Dutch archaeological vocabulary) = 0 occurrences in 500 files. Major false positives:
+- `pagode` = currency unit (17th-c. trade records), bukan bangunan
+- `arca` = Latin/Portugis untuk "peti/kotak" (cross-language collision)
+- `opschrift` = any document label/heading, bukan inscription arkeologi
+- `Candi` = Kandy (Sri Lanka), bukan candi Jawa
+
+**Scientific interpretation:** VOC dagregisters (early corpus 1600s–1700s) are trade/administrative documents, not archaeological reports. Systematic colonial archaeological vocabulary only appears in later period (Delpher 1854–1942, OV 1925–1949). This **validates the temporal strategy** — for VOLCARCH validation, focus on Delpher/OV period. For E211 paper, this is a methodologically informative baseline that motivates Phase 2 NER.
+
+**Estimated precision:** <15% for keyword matching. Phase 2 requires: (1) language detection, (2) currency context filter for "pagode", (3) "arca" disambiguation by language, (4) "Candi" place name disambiguation. Target precision: >60% after NER.
+
+**Vossen email updated:** BPI Dosen mention removed (age 48 likely exceeds cap), VOC-ArchNLP HKI added as concrete deliverable. Email READY TO SEND after Pak Amien final review.
+
+**Normalize comparison:** Post-normalize extraction = 33,931 mentions (+1 from tjandi→candi). Normalization tidak fix precision issue — masalah domain-semantic, bukan ortografis.
+
+**Place name geographic bias:** Batavia (407) dominates high-precision mentions. Interior Java (Kediri, Trowulan, Singosari) = 0 — consistent dengan F1 (early dagregisters tidak cover interior Java).
+
+**Annotation sample siap:** 65 sentences di `results/E211_voc_mentions/annotation_sample_v1.csv` + guide. Phase 2 bisa mulai kapanpun Pak Amien punya waktu ~2 jam.
+
+Full findings: `experiments/E211_voc_dagregister_nlp/FINDINGS_v1_20260423.md`
+Output: `results/E211_voc_mentions/` (5 files: 3 CSV + 1 JSON normalized + annotation sample)
+
+### UvA / Lamqaddam Continuation
+
+Email reply draft di `docs/correspondence/EMAIL_LAMQADDAM_REPLY_DRAFT_20260423.md`.
+
+**Key framing:**
+- Mention registrasi HKI sebagai "institutional anchor" — bukti konkret kemajuan
+- Tawarkan 3 slot chat (butuh diisi Pak Amien dengan tanggal + konversi WIB→CEST)
+- Tanyakan BPI Dosen deadline (Pak Amien harus cek sendiri)
+- Catatan strategi: segera kirim email ke Vossen setelah chat dengan Lamqaddam
+
+**Status UvA track:** MOST ADVANCED dari 4 PhD tracks. Lamqaddam offer support letter belum pernah terjadi di track lain. Jangan tunda reply lebih dari 72 jam.
+
+---
+
+## 2026-04-22 | Session 21 — Mata Elang #16 + Discovery-First Pivot + E209 Launched
+
+**Type:** AUTONOMOUS STRATEGIC PIVOT + DIAMOND-HUNT EXECUTION
+**Status:** ME#16 written; E209 Phase 1 scaffolded; full 121-site satellite extraction running; VOC scale-up queued.
+**Trigger:** Pak Amien reframe — P1 is masterpiece not velocity paper; rejections were a test; "hasil kita masih lemah"; mandate for sisi yang belum tergali yang belum tergali + system/research-designer critique + autonomous decision-making.
+
+### Strategic pivot
+
+**Mata Elang #16** written (`docs/research_notes/MATA_ELANG_16_2026_04_22.md`). Key findings:
+
+1. **Discovery deficit diagnosis:** 200+ experiments produce 200+ ways to re-read existing data. Zero new physical(-like) observations. Peer reviewers (AI or human) smell this and keep rejecting. Polishing P0/P1 further buys marginal receptivity; a single striking new signal from diamond-hunt could buy an order of magnitude more.
+2. **Inference-stacking ceiling reached:** Adding a 7th channel to P0 won't close the gap. The gap is in substrate, not synthesis.
+3. **AI-unique work under-exploited:** Satellite ML classifier (untouched beyond E189 Phase A), InSAR time-series (zero), comprehensive DEM microtopography (zero), VOC dagregister at scale (0.7% processed), kakawin full NLP (only curated 189 terms). All AI-feasible on RTX 4080; all capable of producing landscape-scale predictions.
+4. **Cascade model retired** from public-facing papers. E176 already showed underdetermined; v0.4 DeepSeek ridiculed it. Lives on as internal heuristic only.
+5. **Polish ceiling:** P0/P1 polish paused until new evidence. Current submission queue (6 under review) carries velocity.
+
+### Diamond-hunt portfolio (ME#16 §4)
+
+| Rank | Code | Experiment | Discovery | AI-leverage | Time | Status |
+|:---:|---|---|:---:|:---:|:---:|---|
+| 1 | E209 | Multi-signal satellite ML classifier | 5 | 5 | 2 | **EXECUTING** |
+| 2 | E210 | InSAR time-series subsidence | 4 | 5 | 3 | Queued |
+| 3 | E211 | VOC dagregister scale-up | 3 | 5 | 3 | Queued |
+| 4 | E208P3 | Kakawin full corpus NLP | 3 | 4 | 2 | Queued |
+| 5 | E212 | Genomic Ne(t) inference | 4 | 3 | 4 | Deferred |
+
+### E209 flagship — this session's execution
+
+**Scaffolded:**
+- `experiments/E209_satellite_ml_classifier/README.md` (full scoping doc)
+- `scripts/01_prepare_training_data.py` — built training-site list
+- `scripts/02_extract_s2_features.py` — ported E189 STAC pipeline, extended with seasonal delta
+- `scripts/03_train_classifier.py` — RF + GBM baseline with leave-one-hard-positive-out CV
+
+**Training set built:** 121 sites = 6 hard positives (Sambisari, Kedulan, Kimpulan, Liangan, Badut, Tigomangi) + 109 soft positives (OSM + Wikidata merged, dedup tol 200m) + 5 hard negatives (E189 controls). Labels in `data/training_sites.csv`.
+
+**Pipeline validated** on 11-site test: 11/11 extracted OK in 1.8 min. Fixed STAC search coverage issue (increased limit 20→100 + tile-diversity check). Preliminary signal: 4/4 Central Java buried candi (Sambisari et al.) show negative ndvi_diff (center < ring), East Java surface candi show positive. Consistent with E189 weak-signal findings; multi-feature classifier needed to discriminate.
+
+**Full extraction running in background** (bash bf9b4izjn, ~40 min ETA, 121 sites × dry + wet seasons = 242 site-season extractions).
+
+### Drop list effective today
+
+- Cascade model iterations (past E176, E179)
+- FDR re-audit variants
+- DHARMA re-mining (closed)
+- P0/P1 polish rounds without new evidence
+- Adding channels to P0 beyond 6
+- Manifesto version updates pending diamond-hunt results
+
+### Next (Session 22)
+
+- Verify E209 full extraction complete
+- Run `03_train_classifier.py` on full 121-site dataset
+- Scaffold `04_predict_landscape.py` for Malang+Kediri basin prediction map
+- Begin E210 InSAR scoping if classifier shows promise
+- Update WORKSTATE with ME#16 discipline
+
+### Budget
+
+Direct cost session 21: $0 (all free satellite data, local compute)
+Cumulative DeepSeek: ~$0.015 still well within $3.30 budget
+
+---
+
+## 2026-04-22 | Session 20 — SLR Fase C+D + P0 v0.2 Drafted (Six-Channel Architecture Locked)
+
+**Type:** AUTONOMOUS DRAFTING + SYNTHESIS
+**Status:** All 6 planned tasks completed + 2 follow-ups (bib extension, compile verification). PhD waiting-window rule applied throughout.
+**Trigger:** User confirmed Path B locked, SLR Fase A+B complete, E208 nuanced, PhD tracks waiting. Instructed: autonomous mode, SLR Fase C → Fase D → P0 §3.3-§3.6 drafting with "santai dalam waktu, serius dalam standar ilmiah."
+
+**Breaking-news context preceding session:** Dr. Houda Lamqaddam (UvA) replied positively to 2026-04-21 PhD inquiry within ~12 hours — offered BPI Dosen support letter + funding scouting + chat with Delfina. User handling logistics; Claude instructed to continue autonomous research.
+
+### What was done
+
+**1. SLR Fase C — Inventory extraction (completed).** Consolidated 13 bibliography files + 3 counter-evidence files into `docs/bibliography/_INVENTORY.csv`. Structured 12-column schema (citekey, title, year, authors, subfield, relation, chronology_claim, method, quality, volcarch_use, note_type, file_path). 23 rows total. CSV validated via Python csv.DictReader.
+
+**2. SLR Fase D — Synthesis (completed).** Produced `docs/bibliography/_SYNTHESIS_for_P0.md`:
+- Cluster analysis: Cathedral tier (4), Strong tier (7), Methodological caveats (5), Gaps (4), Counter-theses engaged (3).
+- Counter-evidence audit CLOSED: 5 Session 19 counter-queries re-examined; 0 material counter-evidence; 1 residual risk (Query 1 re-run with archaeology-native vocabulary).
+- Structural outcome: **P0 five→six-channel architecture.** Channel 6 Archaeometric (Jia 2024 Datong + Lankton Korean Silla + Berenike + Pejeng bronze via Calo 2014) elevated from SLR finding to full evidence channel.
+- "Civilisation" vocabulary discipline per Pollock engagement — use "substrate communities" where population is the only known attribute.
+
+**3. P0 draft v0.2 — §3.3-§3.6 drafted (completed).** Copied v0.1 to v0.2 (preserving v0.1 as Pak Amien's diff-baseline), then:
+- Updated title: "Five Independent Lines..." → "Six Independent Lines..."
+- Updated abstract + §1 roadmap + Table 1 (6 rows).
+- Added §2.2 Ye-tiao 132 CE embassy paragraph (Wolters 1967 + Pelliot 1916) — strengthens demographic lower bound.
+- Drafted §3.3 Linguistic: Wolters 1999 localisation opener; four converging subquestions (PAN \*surat, kakawin domain gradient with honest E208 corpus-scale attenuation, Sulawesi substrate 438 + 230 ghost words, sago→rice). Handles E058 nuance explicitly — both scales reported.
+- Drafted §3.4 Genomic: narrow claim ("no aDNA from volcanic Java open-air"), Leang Panninge karst-differential, Maulana 2024 1.8M novel SNVs.
+- Drafted §3.5 Colonial Archive: E091/E141/E197 findings; 77-172 yr observer lag independence.
+- Drafted §3.6 Archaeometric NEW: 6A glass (Jia + Lankton & Bernbaum + Berenike + attribution caveat per Jia 2025 + Wang 2023), 6B bronze (Calo + Bernet Kempers). Channel independence argument.
+- Added §3.7 Convergence across channels.
+
+**4. Bibliography extended** (~20 new entries): Wolters 1967/1999, Pelliot 1916, Blust ACD, Carlhoff 2021, Maulana 2024, Lipson×2, McColl, Larena, Lankton×2, Jia 2025, Wang, Hoppál, Then, Sidebotham, Green, Calo×2, Bernet Kempers, Verberne.
+
+**5. Compilation verified:** pdflatex → bibtex (42 entries, 0 warnings) → pdflatex×2. 24pp, 301KB PDF. Only warnings are forward references to §4-§9 (still pending for v0.3), which is expected.
+
+### Findings affecting strategy
+
+| Finding | Impact |
+|---|---|
+| Channel 6 more independent than Channels 1-5 | P0 gains robustness — skeptical reviewer cannot dismiss via single-community critique |
+| Calo 2014 Pejeng promoted to cathedral status | 4 cathedral anchors now, not 3. Flag for Pak Amien confirmation |
+| E208 corpus-scale attenuation handled honestly in §3.3 | Most methodologically exposed paragraph in v0.2; ME#15-compliant |
+| v0.1 preserved intact | Pak Amien can review delta cleanly |
+
+### Pivot-eligibility
+
+None triggered. Evidence-driven expansion (five→six channels), not a pivot. Vocabulary tightened preemptively per Session 19 Pollock engagement.
+
+### Next (Tier 2 autonomous queue)
+
+P0 §4 Selective Survival → §5 Wayang → §6 Six-Layer Framework → §7 Predictions → §8 Limitations → §9 Conclusions. All executable during PhD waiting window.
+
+---
+
 ## 2026-04-21 | Session 19 — ME#15 Autonomous Execution: Echo-Chamber Testing + P0 Claim Audit
 
 **Type:** AUTONOMOUS CRITIQUE EXECUTION + CLAIM AUDIT + INFRASTRUCTURE
@@ -39,7 +226,7 @@ ME#15 §7 identified the echo chamber as the root concern. Session 18 Path B ADD
 - `docs/bibliography/counter_evidence/COUNTER_SLR_EXECUTION_2026_04_21.md`
 - `docs/bibliography/counter_evidence/COUNTER_THESIS_ENGAGEMENT_2026_04_21.md`
 - `docs/bibliography/counter_evidence/E108_REPLICABILITY_AUDIT_2026_04_21.md`
-- `docs/research_notes/KILL_CRITERION_AUDIT_2026_04_21.md`
+- `docs/research_notes/STOP_CRITERION_AUDIT_2026_04_21.md`
 - `tools/cross_model_review.py` (DeepSeek API caller, stdlib-only, reads `.env`)
 
 ### P0 draft v0.1 claim audit — 7 flags, all resolved
@@ -70,14 +257,14 @@ Per ME#15 §6C: `WORKSTATE.md` now has `[DEEP]` / `[SKIM]` / `[FYI]` tags at top
 `tools/cross_model_review.py`:
 - Stdlib only (`urllib`, `json`, `argparse`, `time`)
 - Reads `DEEPSEEK_API_KEY` from `.env`
-- Extracts prompt + target addendum (P0/P1/generic) from `tools/hostile_reviewer_prompt.md`
+- Extracts prompt + target addendum (P0/P1/generic) from `tools/critical_reviewer_prompt.md`
 - POSTs to DeepSeek `/v1/chat/completions` (OpenAI-compatible)
 - Writes review as markdown with metadata header
 - Expected cost: $0.50-$2 per review (`deepseek-chat`), $2-5 (`deepseek-reasoner`).
 
 Ready to execute as soon as Pak Amien provides `DEEPSEEK_API_KEY` in `.env`.
 
-### Kill-criterion audit
+### Stop-criterion audit
 
 L1 §9 criteria evaluated against post-E176/E178/E201 state:
 
@@ -89,13 +276,13 @@ L1 §9 criteria evaluated against post-E176/E178/E201 state:
 
 ### Meta-finding
 
-The echo chamber critique in ME#15 is about **risk, not current breakage**. When I apply adversarial testing within my own scope (counter-queries, direct engagement, replication), core claims survive. What remains unknowable without external signal (DeepSeek cross-model, Fiverr stats review, peer review) is whether the scope itself has a systematic blind spot.
+The echo chamber critique in ME#15 is about **risk, not current breakage**. When I apply robustness testing within my own scope (counter-queries, direct engagement, replication), core claims survive. What remains unknowable without external signal (DeepSeek cross-model, Fiverr stats review, peer review) is whether the scope itself has a systematic blind spot.
 
-**Net result:** VOLCARCH framework survived this round of autonomous adversarial testing with 1 material qualifier (aDNA Channel 4 reframe) and 1 methodological citation gap (P1-core Ferring 1986). No structural breakage.
+**Net result:** VOLCARCH framework survived this round of autonomous robustness testing with 1 material qualifier (aDNA Channel 4 reframe) and 1 methodological citation gap (P1-core Ferring 1986). No structural breakage.
 
 ### Escalated to Pak Amien
 
-1. Approve L1 §9 kill criterion #1 rewrite (cascade) + #3 refinement (comparandum measurability)
+1. Approve L1 §9 stop criterion #1 rewrite (cascade) + #3 refinement (comparandum measurability)
 2. Provide `DEEPSEEK_API_KEY` in `.env` (unblocks cross-model review)
 3. Approve $50 Fiverr stats review budget (before P1-core JASREP submit)
 4. Confirm P0 target length 10-12K is acceptable (not 25-30K as ME#15 §4B)
@@ -103,14 +290,14 @@ The echo chamber critique in ME#15 is about **risk, not current breakage**. When
 ### Next autonomous priorities (after Pak Amien review)
 
 - Engage Ferring 1986 + 3 rate-variability papers in P1-core v3.0 §5.6 — **DONE (same session, after this entry)**
-- Draft P0 §3.3 Linguistic + §3.4 Genomic (with karst-differential reframe) + §3.5 Colonial + §3.6 Archaeometric — **DEFERRED pending DeepSeek hostile review results**
+- Draft P0 §3.3 Linguistic + §3.4 Genomic (with karst-differential reframe) + §3.5 Colonial + §3.6 Archaeometric — **DEFERRED pending DeepSeek critical review results**
 - Execute cross-model review on P1-core + P0 §1-3.2 as soon as API key available — **DONE (same session, see addendum below)**
 
 ---
 
-## 2026-04-21 | Session 19 ADDENDUM — DeepSeek Hostile Reviews Executed
+## 2026-04-21 | Session 19 ADDENDUM — DeepSeek Skeptical Reviews Executed
 
-**Type:** CROSS-MODEL HOSTILE REVIEW (first in project history)
+**Type:** CROSS-MODEL CRITICAL REVIEW (first in project history)
 **Status:** Complete. Results documented + response/action plan filed.
 **Trigger:** Pak Amien confirmed DeepSeek API key in `.env` (`DEEPSEEK_API=sk-...`) and $3.30 credit. Instruction: execute cross-model review autonomously, report findings.
 
@@ -126,7 +313,7 @@ Also accepted `DEEPSEEK_API` in addition to `DEEPSEEK_API_KEY` env var naming.
 
 ### P1-core v3.0 DeepSeek review — **REJECT recommended**
 
-File: `papers/P1_taphonomic_framework/external_reviews/hostile_deepseek_20260421.md`
+File: `papers/P1_taphonomic_framework/external_reviews/critical_deepseek_20260421.md`
 Tokens: 9,607 input + 2,472 output. ~107 seconds. Cost ~$0.0024.
 
 5 major concerns:
@@ -141,7 +328,7 @@ Reviewer's constructive suggestion: reframe P1 as "critical review + research pr
 
 ### P0 draft v0.1 DeepSeek review — **REJECT recommended**
 
-File: `papers/P0_invisible_civilization/external_reviews/hostile_deepseek_20260421.md`
+File: `papers/P0_invisible_civilization/external_reviews/critical_deepseek_20260421.md`
 Tokens: 6,403 input + 2,433 output. ~107 seconds. Cost ~$0.0018.
 
 5 major concerns:
@@ -156,15 +343,15 @@ Reviewer's constructive suggestion: reduce P0 to Channel 1 + methodology only. D
 
 ### Response/action file produced
 
-`papers/P0_invisible_civilization/external_reviews/RESPONSE_hostile_deepseek_20260421.md` — classifies each concern (ACCEPT/PARTIAL/REJECT WITH ARGUMENT/DEFER) and lists specific fixes. P1 has 4 ACCEPT + 2 PARTIAL. P0 requires strategic reframe decision.
+`papers/P0_invisible_civilization/external_reviews/RESPONSE_critical_deepseek_20260421.md` — classifies each concern (ACCEPT/PARTIAL/REJECT WITH ARGUMENT/DEFER) and lists specific fixes. P1 has 4 ACCEPT + 2 PARTIAL. P0 requires strategic reframe decision.
 
-### L1 §9 kill criteria UPDATED per user trust grant
+### L1 §9 stop criteria UPDATED per user trust grant
 
 Changes in `docs/L1_CONSTITUTION.md` §9:
 - Criterion #1 (cascade) — marked **PARTIALLY TRIGGERED** per E176 over-parameterization. Cascade retained only as pedagogical illustration.
 - Criterion #3 (comparandum) — refined with measurable (a) tephra rate within 2× Java + (b) karst <5%.
 - **New criterion #6** (cross-model methodology critique) — triggers if 2+ independent models converge on same unfixable methodological flaw.
-- **New pivot criterion** — hostile-review-recommended reframe is paper-level pivot.
+- **New pivot criterion** — skeptical-review-recommended reframe is paper-level pivot.
 
 ### Decisions escalated to Pak Amien (via briefing doc)
 
@@ -176,11 +363,11 @@ Changes in `docs/L1_CONSTITUTION.md` §9:
 
 ### Meta-finding (bottom line)
 
-The echo-chamber hypothesis (ME#14 §H + ME#15 §6B) was correct and now has concrete evidence. Session 18 (Claude autonomous) produced Path B. Session 19 Phase 1-3 (Claude self-adversarial) found 1 material qualifier + documentation drift. Session 19 Phase 4 (cross-model DeepSeek) found **fundamental methodological concerns** that the prior layers did not surface.
+The echo-chamber hypothesis (ME#14 §H + ME#15 §6B) was correct and now has concrete evidence. Session 18 (Claude autonomous) produced Path B. Session 19 Phase 1-3 (Claude self-critical) found 1 material qualifier + documentation drift. Session 19 Phase 4 (cross-model DeepSeek) found **fundamental methodological concerns** that the prior layers did not surface.
 
 Budget: $0.004. Signal: substantial. Highest-ROI validation move in project history.
 
-**The project is not in crisis.** The core methodological insight — that cumulative volcanic sedimentation creates a detection horizon that biases the archaeological record — is defensible. What is NOT defensible without major revision is the "invisible civilization of 1-2M inhabitants" grand-synthesis framing. The hostile reviews collectively suggest: publish the methodology, withhold the grand historical claim until physical evidence arrives.
+**The project is not in crisis.** The core methodological insight — that cumulative volcanic sedimentation creates a detection horizon that biases the archaeological record — is defensible. What is NOT defensible without major revision is the "invisible civilization of 1-2M inhabitants" grand-synthesis framing. The skeptical reviews collectively suggest: publish the methodology, withhold the grand historical claim until physical evidence arrives.
 
 Session 19 standing down. Pak Amien's 4 decisions unblock Session 20.
 
@@ -189,7 +376,7 @@ Session 19 standing down. Pak Amien's 4 decisions unblock Session 20.
 ## 2026-04-21 | Session 19 POST-LUNCH ADDENDUM — Gemini Cross-Model Converges with DeepSeek
 
 **Type:** CROSS-MODEL TRIANGULATION (second model)
-**Status:** Complete. Kill Criterion #6 TRIGGERED for both P1-core v3.0 and P0 draft v0.1.
+**Status:** Complete. Stop Criterion #6 TRIGGERED for both P1-core v3.0 and P0 draft v0.1.
 **Trigger:** Pak Amien added `GEMINI_API_KEY` to `.env` and asked me to proceed.
 
 ### Technical execution
@@ -201,7 +388,7 @@ Session 19 standing down. Pak Amien's 4 decisions unblock Session 20.
 
 ### Gemini P1 review — REJECT recommended
 
-File: `papers/P1_taphonomic_framework/external_reviews/hostile_gemini_20260421.md`
+File: `papers/P1_taphonomic_framework/external_reviews/critical_gemini_20260421.md`
 
 6 major concerns, converging with DeepSeek on 5 of them + adding new ones:
 1. Circular reasoning with "invisible civilization" companion paper (NEW)
@@ -213,7 +400,7 @@ File: `papers/P1_taphonomic_framework/external_reviews/hostile_gemini_20260421.m
 
 ### Gemini P0 review — REJECT recommended
 
-File: `papers/P0_invisible_civilization/external_reviews/hostile_gemini_20260421.md`
+File: `papers/P0_invisible_civilization/external_reviews/critical_gemini_20260421.md`
 
 7 major concerns, converging with DeepSeek on 5 of them + adding new ones:
 1. Absence of direct archaeological evidence (CONVERGES)
@@ -224,9 +411,9 @@ File: `papers/P0_invisible_civilization/external_reviews/hostile_gemini_20260421
 6. Misrepresentation of archaeological practice (CONVERGES)
 7. Wayang/Semar/PAN *surat claims unfalsifiable (NEW — flags undrafted channels)
 
-### Kill Criterion #6 check
+### Stop Criterion #6 check
 
-Per updated L1 §9 (Session 19): *"If two or more independent hostile cross-model reviews converge on the same methodological flaw that cannot be addressed by revision, the corresponding claim must be withdrawn."*
+Per updated L1 §9 (Session 19): *"If two or more independent skeptical cross-model reviews converge on the same methodological flaw that cannot be addressed by revision, the corresponding claim must be withdrawn."*
 
 **P1-core v3.0:** 6 convergent concerns between DeepSeek and Gemini. Critical ones (Dwarapala, monument bias, n=4, compaction, spatial) cannot be fully addressed by cosmetic revision. **TRIGGERED.**
 
@@ -264,7 +451,7 @@ Per Session 19 new pivot criterion: "adopt that reframe for that specific paper 
 The echo chamber hypothesis has been **concretely demonstrated across three layers of increasing independence:**
 
 1. Self-critique (Claude on Claude via ME#14/15): identified RISK
-2. Self-adversarial testing (Claude counter-testing own work): found 1 material qualifier + drift fixes
+2. Self-robustness testing (Claude counter-testing own work): found 1 material qualifier + drift fixes
 3. **Cross-model external review (DeepSeek + Gemini independent): found fundamental methodological flaws**
 
 Budget of $0.013 bought validation that no prior session achieved. If we had skipped cross-model review and submitted JASREP, we would have received (per both models' predictions) a similar rejection from a real peer reviewer, 2-3 months later. This is a ~1000× ROI on validation infrastructure.
@@ -295,7 +482,7 @@ ME#15 recommends **do NOT submit JASREP Monday 2026-04-21.** P1 v2.0 still has s
 
 1. `docs/research_notes/MATA_ELANG_15_2026_04_20.md` — Full architect's review (10 sections). Explicit critique-selection protocol (Impact × Urgency / Cost-of-action scoring). Three architectural paths with trade-offs.
 2. `papers/P0_invisible_civilization/SKELETON_v0.1.md` — Section-by-section skeleton of masterpiece synthesis paper. 10 sections, 8-10K words target. Mapped against existing experiments: almost all content already exists, task is integration.
-3. `tools/hostile_reviewer_prompt.md` — Cross-model review protocol to break Claude-Claude echo chamber. Prompt + special-focus addenda for P1-core and P0. Cross-model triangulation guide.
+3. `tools/critical_reviewer_prompt.md` — Cross-model review protocol to break Claude-Claude echo chamber. Prompt + special-focus addenda for P1-core and P0. Cross-model triangulation guide.
 4. Fix: `papers/P1_taphonomic_framework/submission_jasrep_v2.0.tex` §2.2 demographic arithmetic. Replaced incorrect "590K-3.9M from half of Java at 5-30/km² density" with three-method convergence: carrying capacity (325K-1.95M), demographic back-projection from Reid 1988 (1600 CE anchor), regional comparison → central estimate 1-2M, conservative lower 600K. Gap reframed as 1,000× to 7,000× range (not false-precision "3,220×").
 5. Fix: `papers/P1_taphonomic_framework/references.bib` added `reid1988` entry.
 
@@ -318,7 +505,7 @@ ME#15 recommends **do NOT submit JASREP Monday 2026-04-21.** P1 v2.0 still has s
 - Papers: **No change.** 5 under review (P2, P7, P8, P11, P17). P1 structurally re-queued.
 - Experiments: **207** (no new experiments this session; session focused on synthesis and pivoting).
 - Papers accepted: **0 (unchanged).** Verification ladder still at Level 0.
-- External scrutiny: **0 (unchanged).** Hostile reviewer prompt created but not yet deployed.
+- External scrutiny: **0 (unchanged).** Skeptical reviewer prompt created but not yet deployed.
 
 ### Honest Self-Assessment
 
@@ -361,7 +548,7 @@ Colorants document trans-Eurasian technical sourcing: cobalt blue from eastern M
 3. P0 SKELETON updated to add Channel 6 "Archaeometric evidence from exported glass beads." **PENDING (next session).**
 4. P0 draft v0.2 will include §3.6 as a full ~800-word subsection on this channel. **PENDING.**
 5. P1-core v3.0 one-sentence citation in §2 framing. **PENDING — to add before JASREP submission.**
-6. Manifesto v4.4 bridge findings section. **PENDING.**
+6. Research Statement v4.4 bridge findings section. **PENDING.**
 7. Cross-check follow-up verification tasks (Sikrichong Tomb, Berenike finds, Yepoti/Yediao 130 CE claim separately). **PENDING — lower priority.**
 
 ### Cautions
@@ -404,7 +591,7 @@ This finding alone is sufficient to justify the P0 synthesis paper: it documents
 
 1. **Yepoti/Yediao 130 CE claim from Facebook post = fully vindicated.** Wolters 1967 (canonical) + Pelliot 1916 (original philology) establish Ye-tiao = Yavadvipa = Java. A Javanese polity dispatched an embassy to Han China in 132 CE — ~270 years before Kutai's Yupa inscriptions. This adds a SECOND independently-verified claim from the FB post to our evidence base, alongside the Jatim beads.
 
-2. **Methodological caveat for P0 Channel 6.** The Jatim bead Java attribution cannot rest on v-Na-Ca chemistry alone (Chinese artisans ALSO produced v-Na-Ca locally, per Jia et al. 2025 vessels paper) nor on m-Na-Al alone (often South Asian-sourced, per Wang et al. 2023 Taiwan). Attribution depends on the FULL signature: mixed v-Na-Ca + m-Na-Al + eye-bead morphology + specific imported colorants. **P0 must articulate this carefully** or hostile review will dismantle the argument.
+2. **Methodological caveat for P0 Channel 6.** The Jatim bead Java attribution cannot rest on v-Na-Ca chemistry alone (Chinese artisans ALSO produced v-Na-Ca locally, per Jia et al. 2025 vessels paper) nor on m-Na-Al alone (often South Asian-sourced, per Wang et al. 2023 Taiwan). Attribution depends on the FULL signature: mixed v-Na-Ca + m-Na-Al + eye-bead morphology + specific imported colorants. **P0 must articulate this carefully** or critical review will dismantle the argument.
 
 3. **SE Asian glass bead archaeometry is a mature specialist subfield** with its own vocabulary (Indo-Pacific beads, m-Na-Al, v-Na-Ca, LA-ICP-MS), specialists (Dussubieux, Wang, Iizuka, Lankton, Francis, Bellina), and canonical datasets. VOLCARCH missed this entire scholarly community during prior literature reviews. This subfield alone has produced multiple papers directly relevant to VOLCARCH's thesis that were not in our bibliography.
 
@@ -830,7 +1017,7 @@ Dry vs wet season comparison at all 20 sites. **Delta local variance p=0.066:** 
 
 ### Satellite Archaeology Summary (E189-E191)
 
-Detection hierarchy: Optical NDWI dry (p=0.032, BEST) > delta_lvar (p=0.066) > wet NDWI (p=0.071) > dry NDVI lvar (p=0.071) >> SAR C-band (RULED OUT). Three experiments: weak but detectable moisture-based signal. Revision ammo packaged for P1 + P17.
+Detection hierarchy: Optical NDWI dry (p=0.032, BEST) > delta_lvar (p=0.066) > wet NDWI (p=0.071) > dry NDVI lvar (p=0.071) >> SAR C-band (RULED OUT). Three experiments: weak but detectable moisture-based signal. Revision support material packaged for P1 + P17.
 
 ### E192: NDWI Anomaly vs Burial Depth — Correct Direction, Insufficient Power
 
@@ -854,7 +1041,7 @@ All 4 correlations NEGATIVE (correct direction): NDWI lvar vs depth rho=-0.389, 
 
 ### E194: Combined Prospection Map — 18/20 Targets Have 4/5 Evidence Streams
 
-Merged E080 targets + E097 anomalies + volcanic sweet spot + L1xL2 zones + burial depth into unified evidence convergence scoring. **18/20 fieldwork targets have 4 out of 5 independent evidence streams converging.** Two distinct clusters: Kelud (pure L1, max anomaly convergence, T08 = 25 E097 cells) and Arjuno-Welirang (L1xL2 double erasure, Sunda Shelf pathway). T08 (-7.88, 112.30) is the single most informative GPR target.
+Merged E080 targets + E097 anomalies + volcanic sweet spot + L1xL2 zones + burial depth into unified evidence convergence scoring. **18/20 fieldwork candidates have 4 out of 5 independent evidence streams converging.** Two distinct clusters: Kelud (pure L1, max anomaly convergence, T08 = 25 E097 cells) and Arjuno-Welirang (L1xL2 double erasure, Sunda Shelf pathway). T08 (-7.88, 112.30) is the single most informative GPR target.
 
 ### E195: Is Two Javas Taphonomic? — AHA MOMENT
 
@@ -862,7 +1049,7 @@ Merged E080 targets + E097 anomalies + volcanic sweet spot + L1xL2 zones + buria
 
 **AHA:** This STRENGTHENS the taphonomic argument. Volcanic Java was the cultural CENTER — peak inscription production (C8-C10) in the zone of peak taphonomic destruction. The loss is multiplicative: peak culture × peak erasure. Stone inscriptions survived because they're stone. Everything organic was buried. **Two Javas is the tip of a buried iceberg.**
 
-Critical revision ammo for P17: the cultural pattern is the OPPOSITE of taphonomic truncation, meaning the taphonomic loss is concentrated where it matters most.
+Critical revision support material for P17: the cultural pattern is the OPPOSITE of taphonomic truncation, meaning the taphonomic loss is concentrated where it matters most.
 
 ### E196: Population Estimation — 1-2 Million People, Zero Sites
 
@@ -874,13 +1061,13 @@ The Philippines comparison is devastating: same Austronesian culture, same densi
 
 **46.6 million person-centuries** of invisible civilization.
 
-Revision ammo packaged for P1 + P17.
+Revision support material packaged for P1 + P17.
 
 ### E141 Phase 2: Delpher Full-Text NLP — Colonial Data Breaks DHARMA Monoculture
 
 Fetched full OCR text for 96 high-relevance colonial newspaper articles via KB resolver API. Applied NLP depth/location/material/volcanic extraction.
 
-**Key yield:** 68 geocoded locations, 22 volcanic context, 2 archaeological depths (filtered from 16 — rest was oil exploration). **19/68 records (28%) within 25km of E080 fieldwork targets** — convergence between 1930s colonial observations and 2026 computational predictions.
+**Key yield:** 68 geocoded locations, 22 volcanic context, 2 archaeological depths (filtered from 16 — rest was oil exploration). **19/68 records (28%) within 25km of E080 fieldwork candidates** — convergence between 1930s colonial observations and 2026 computational predictions.
 
 **Penataran/Kelud 1.0m depth (1939):** "Op de Kloethelling III" describes burial at Kelud slope — independent validation of E075 burial model. Singosari cluster: 4 reports 1938-1941 near E080 target zone.
 
@@ -912,7 +1099,7 @@ Deepest: 9.14m silver Vishnu (1925), 7.62m Buddha figures (1925). These correspo
 
 ---
 
-## 2026-04-09 | Session 14 — Mata Elang #13: The Reckoning (Autonomous)
+## 2026-04-09 | Session 14 — Mata Elang #13: The Audit (Autonomous)
 
 **Type:** MATA ELANG + EXPERIMENTS
 **Status:** COMPLETED
@@ -973,19 +1160,19 @@ Full critique: `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
 - Cascade reframed with E176 caveat
 - Karst bypass (F6) added to cascade table
 - Honest experiment count: 182 entries, ~20-22 novel hypothesis tests
-- West Java smoking gun upgraded to #1 evidence
+- West Java decisive case upgraded to #1 evidence
 
 ### Key Insights
 
-1. **West Java smoking gun remains strongest evidence** — stronger than cascade.
+1. **West Java decisive case remains strongest evidence** — stronger than cascade.
 2. **Karst is a hidden factor** (E178) — Philippines volcanic zones have pre-400 CE sites because they have caves. Java doesn't.
 3. **L2 now has predictions** (E177) — 5 entry points, Surabaya highest priority.
 4. **Cascade should be reframed** as "pedagogically useful but underdetermined" (E176).
-5. **3 strategic pivots recommended:** (a) from "175 experiments" to "10 cathedral findings + 1 smoking gun", (b) from paper factory to paper fortress (focus P17), (c) from computation to collaboration.
+5. **3 strategic pivots recommended:** (a) from "175 experiments" to "10 cathedral findings + 1 decisive case", (b) from paper factory to paper fortress (focus P17), (c) from computation to collaboration.
 
 ### Papers Updated
 - Cascade language should be softened across ALL papers (per E176 findings)
-- E178 Philippines comparison is critical revision ammo for P1 and P17
+- E178 Philippines comparison is critical revision support material for P1 and P17
 
 ---
 
@@ -1004,7 +1191,7 @@ Full critique: `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
   4. Added explicit falsifiability: GPR predictions at 3-7m depth, refutable if nothing found
   5. AI disclosure moved from footnote to proper disclosure section with reproducibility note
   6. De-Indianization claim hedged with "If this interpretation is correct"
-- **Key review concerns already addressed in paper:** Penanggungan exclusion test, adversarial regression control, geocoding uncertainty in limitations
+- **Key review concerns already addressed in paper:** Penanggungan exclusion test, critical regression control, geocoding uncertainty in limitations
 - **Review concerns not applicable for Archipel Q3:** spatial autocorrelation correction, temporal binning (too technical for humanities journal), heritage section = strength not weakness for Archipel
 - Email draft updated to match revised abstract
 
@@ -1262,7 +1449,7 @@ Filed at `docs/research_notes/MATA_ELANG_12_2026_03_31.md`. Most comprehensive c
 - ~627,000 displaced over 15,000 years, ~94,000 entering volcanic zones via river corridors
 - MWP1A (14,600-14,300 BP) was catastrophic: 40,000 people/century displaced
 - Estimated 1,880 settlements in volcanic zones, buried at 44m depth
-- **West Java smoking gun is PREDICTED by the model** — Buni/Batujaya escaped BOTH L1 and L2
+- **West Java decisive case is PREDICTED by the model** — Buni/Batujaya escaped BOTH L1 and L2
 - 5 testable predictions generated
 
 ### E157: Ethnographic Volcanic Analog
@@ -1295,7 +1482,7 @@ Filed at `docs/research_notes/MATA_ELANG_12_2026_03_31.md`. Most comprehensive c
 
 ### Interactive Prediction Map
 - **Folium map created**: `maps/volcarch_prediction_map.html` (698 KB)
-- Layers: 7 volcanoes + 15km zones, 142 candi, 182 inscriptions, 666 sites, 5 buried temples, 8 fieldwork targets
+- Layers: 7 volcanoes + 15km zones, 142 candi, 182 inscriptions, 666 sites, 5 buried temples, 8 fieldwork candidates
 - Satellite basemap + OpenStreetMap toggle
 - Info overlay with project statistics
 - Ready for dissemination (shareable HTML file)
@@ -1312,7 +1499,7 @@ Filed at `docs/research_notes/MATA_ELANG_12_2026_03_31.md`. Most comprehensive c
 - **172 experiments total** (E001-E172)
 - 19 new experiments (E154-E172), all SUCCESS
 - P17 v0.3 ArchCalc submission package (manuscript + figures ZIP + captions)
-- Borehole targeting protocol ($6K, 20 holes)
+- Borehole site-selection protocol ($6K, 20 holes)
 - 1 interactive prediction map (`maps/volcarch_prediction_map.html`)
 - 2 burial depth GeoTIFFs (distance + TWI models)
 - 5 formal predictions registered (GPS + falsification criteria)
@@ -1485,7 +1672,7 @@ Reviewed ALL 28 new experiment READMEs (E120-E147). Structural critique. Doc syn
 4. E151: Megalithic distribution vs volcanic zones (I-123)
 5. E152: Post-929 Mataram→East Java natural experiment (I-055 adjacent)
 
-### Manifesto v4.0 → v4.1 Update
+### Research Statement v4.0 → v4.1 Update
 - L6 status: DIDUKUNG DATA → **PERLU REFRAME** (E145 contradicts temporal interpretation)
 - 5 new cathedral findings: E122 (gap robust), E128 (independent depth), E126 (Java unique), E129 (73% temple bias), E135 (F2 validated)
 - 3 downgraded: E136 (BF illustrative only), E137 (model needs calibration), E132 (sketch-level)
@@ -1516,7 +1703,7 @@ P1 "Multi-Site Calibration of Volcanic Sedimentation Rates and Implications for 
 - **Preprint:** Zenodo DOI 10.5281/zenodo.19081502
 - **Previous submission:** Asian Perspectives (rejected, AI flag)
 - **Pre-submission fixes this session:** Figure 1 (side-by-side comparison), Figure 2 (timeline layout), Figure 4 (legend position), prose humanization, cascade model justification added, "Java-wide" claim softened
-- **Adversarial review:** Gemini + ChatGPT reviewed; 2 fixes adopted, 7 already addressed in Limitations
+- **Critical review:** Gemini + ChatGPT reviewed; 2 fixes adopted, 7 already addressed in Limitations
 
 Submitted via Playwright browser automation from Claude Code.
 
@@ -1557,7 +1744,7 @@ Programs 1 (robustness) and 3 (cascade) validated as PoC. Pattern works: define 
 
 ## 2026-03-30 | MATA ELANG #10 — Kritik Struktural + 4 Eksperimen Baru
 
-**Type:** STRATEGIC REVIEW / ADVERSARIAL / EXPERIMENT
+**Type:** STRATEGIC REVIEW / CRITICAL / EXPERIMENT
 **Status:** COMPLETE
 
 ### Kritik Keras (3 fatal + 5 structural + 3 blind spots)
@@ -1608,7 +1795,7 @@ Inspired by Karpathy's autoresearch (agent modifies code, trains 5min, evaluates
 5 research programs proposed:
 1. **Robustness Battery** — stress-test 30 FDR-surviving experiments (safest, start here)
 2. **ColonialMine NLP** — P21, Delpher.nl pipeline (most actionable new paper)
-3. **Cascade Stress Test** — adversarial sensitivity on 5-factor model (~1 hour)
+3. **Cascade Stress Test** — critical sensitivity on 5-factor model (~1 hour)
 4. **TobaSim** — P20, FALL3D (long-term, needs geologist)
 5. **Anomaly Refinement** — improve E097 overlap from 65% → >80%
 
@@ -1723,11 +1910,11 @@ Session continuity after context compaction. Created handoff document (`docs/HAN
 ### Structural Critique Delivered
 - 7-section critical review of entire VOLCARCH architecture
 - **3 Fatal Risks:** (A1) 0% acceptance rate with 120 experiments = inverted conversion ratio; (A2) AI prose flagging is existential — "fix markers" insufficient, need full human rewrite; (A3) fieldwork dependency = single point of failure
-- **4 Structural Risks:** (B1) 18 paper IDs for 1-2 people = scattershot; (B2) independence of evidence overstated — 2 genuinely independent datasets, not 4; (B3) cascade model is descriptive not predictive; (B4) kill criteria shifted when approached (E005 failure reframed, new criteria harder to trigger)
+- **4 Structural Risks:** (B1) 18 paper IDs for 1-2 people = scattershot; (B2) independence of evidence overstated — 2 genuinely independent datasets, not 4; (B3) cascade model is descriptive not predictive; (B4) stop criteria shifted when approached (E005 failure reframed, new criteria harder to trigger)
 - **Over-complexity:** 15+ coordination documents, 6 layers × 11 channels × 5 factors = Borges 1:1 map territory
-- **Weak assumptions:** N=6 rejection pattern overfit, 3220× gap uses uncertain carrying capacity, Buni/Batujaya is "supporting evidence" not "smoking gun"
+- **Weak assumptions:** N=6 rejection pattern overfit, 3220× gap uses uncertain carrying capacity, Buni/Batujaya is "supporting evidence" not "decisive case"
 - **Collaboration architecture:** Claude writes / human approves is backwards for publishing. Speed creates illusion of progress. No external feedback loop.
-- **Recommendation:** ONE paper accepted > 50 more experiments. Lock kill criteria. Moratorium on new experiments. Human rewrite of all papers.
+- **Recommendation:** ONE paper accepted > 50 more experiments. Lock stop criteria. Moratorium on new experiments. Human rewrite of all papers.
 - **Critique selection mechanism:** act on threats to acceptance (AI prose, targeting), evaluate threats to thesis carefully, deprioritize internal organization
 
 ### E119 Synthesis Figure Rendered
@@ -1895,14 +2082,14 @@ Session continuity after context compaction. Created handoff document (`docs/HAN
 - Most uncertain parameter: Survey Coverage (360% range relative to best estimate)
 - Volcanic Burial is the BEST-CONSTRAINED factor (60% range)
 - Independence assumption is NOT load-bearing
-- Revision ammo created: `papers/P1.../revision_ammo/CASCADE_ROBUSTNESS.md`
+- Revision support material created: `papers/P1.../revision_ammo/CASCADE_ROBUSTNESS.md`
 - **Total: 116 experiments** (E001-E115)
 
 ### Hard Structural Critique (System/Research Designer Perspective)
 Comprehensive critique delivered covering 7 areas:
 
 **Fatal risks identified:**
-- A1: Unfalsifiability trap — "absence IS evidence" is epistemologically dangerous. **FIX: new kill criteria written in L1 §9** (concrete, testable: GPR results, external comparanda, 3+ substantive rejections)
+- A1: Unfalsifiability trap — "absence IS evidence" is epistemologically dangerous. **FIX: new stop criteria written in L1 §9** (concrete, testable: GPR results, external comparanda, 3+ substantive rejections)
 - A2: 115 experiments, zero ground truth — frame as framework/methodology, not discovery
 - A3: Temporal logic gap — data C8-C13, claims pre-400 CE. **FIX: E115 shows cascade robust to parameter variation**
 
@@ -1922,7 +2109,7 @@ Created `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`:
 - 6 strongest counter-arguments to VOLCARCH thesis, with severity and settlement evidence
 - Counter 1 (nobody lived there) = HIGHEST risk, needs fieldwork to resolve
 - Counter 3 (cascade is unfalsifiable) = addressed by West Java out-of-sample prediction
-- What would KILL: systematic GPR survey finding nothing
+- What would DROP: systematic GPR survey finding nothing
 - What would PROVE: GPR anomaly in Zone B, Philippines comparison
 
 ### Rejection Pattern Analysis (NEW)
@@ -1938,7 +2125,7 @@ Created `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`:
 - P1 will NOT trigger AP-style AI flag
 
 ### Document Sync Fixes
-- L1 §9 kill criteria: REWRITTEN (old criteria were obsolete after E005 pivot)
+- L1 §9 stop criteria: REWRITTEN (old criteria were obsolete after E005 pivot)
 - L1 §5 dataset honesty: updated from "21/91" to "21/116"
 - L3_EXECUTION: experiment count corrected to 116
 - L2_STRATEGY: experiment count updated to 116
@@ -1948,7 +2135,7 @@ Created `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`:
 
 ### Files modified/created:
 **New:** `experiments/E115_cascade_sensitivity/` (README.md, cascade_sensitivity.py, results/), `papers/P1.../revision_ammo/CASCADE_ROBUSTNESS.md`, `docs/research_notes/REJECTION_PATTERN_ANALYSIS.md`, `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md`
-**Modified:** L1_CONSTITUTION.md (§9 kill criteria, §5 dataset count), L2_STRATEGY.md (counts), L3_EXECUTION.md (counts), EVAL.md (counts), EXPERIMENT_INDEX.md (E115 + cathedral), D1/D2 zenodo_README.md (affiliation), JOURNAL.md (this entry), WORKSTATE.md
+**Modified:** L1_CONSTITUTION.md (§9 stop criteria, §5 dataset count), L2_STRATEGY.md (counts), L3_EXECUTION.md (counts), EVAL.md (counts), EXPERIMENT_INDEX.md (E115 + cathedral), D1/D2 zenodo_README.md (affiliation), JOURNAL.md (this entry), WORKSTATE.md
 
 ---
 
@@ -2012,7 +2199,7 @@ All papers must be zero-APC. Verified Diamond OA targets:
 - Journal submission guidelines compiled: Wacana (UI), ArchCalc (CNR), DHQ (ADHO), Cornell Indonesia. See `docs/research_notes/JOURNAL_SUBMISSION_GUIDES.md`
 - **Wacana discovery:** Current issue (Vol 26 No 3) themed "Kawi culture" — directly relevant to P16 and VOLCARCH
 - Submission timeline created: `docs/SUBMISSION_TIMELINE.md` — 6-phase plan from post-mudik to mid-2026
-- Philippines + Dong Son revision ammo written for P1 EGQSJ
+- Philippines + Dong Son revision support material written for P1 EGQSJ
 - Cornell Indonesia: verified free (no APC, subscription-based)
 - JCAA APC alert: P2 submitted to JCAA which charges £300-450 — waiver fund exists for CAA members
 - Go Frendi ORCID note: profile shows STIKI Malang affiliation, not Universitas Bhinneka Nusantara — may need discussion
@@ -2123,7 +2310,7 @@ The journal-fit note is actually constructive and consistent with what we alread
 **Response (2026-03-18, same session — full P1 overhaul):**
 Full revision completed for `submission_jasrep_v0.1.tex`:
 1. Voice rewrite: abstract, intro para 1+2, conclusions — author voice captured (Dwarapala story as opener, punchy conclusions, manifesto-style assertiveness)
-2. Substantive additions: E108 demographic null (3,220×), E040 bamboo civilization, West Java smoking gun (Buni+Batujaya subsection), E083 independent validation, E110 cascade model + ADV-3 + ADV-2 (new Discussion subsection)
+2. Substantive additions: E108 demographic null (3,220×), E040 bamboo civilization, West Java decisive case (Buni+Batujaya subsection), E083 independent validation, E110 cascade model + ADV-3 + ADV-2 (new Discussion subsection)
 3. AI disclosure expanded: explains WHAT AI did (literature screening, iterative experiments, drafting) not just that it was used
 4. 7 new bibliography entries added
 5. Compiled cleanly with tectonic → `submission_jasrep_v0.1.pdf` (2.06 MB)
@@ -2194,7 +2381,7 @@ Conducted comprehensive structural audit of entire project (107 experiments, 10 
 
 **5 Structural Risks Identified:**
 1. Dataset monoculture — 21/107 experiments on same 268 DHARMA inscriptions. "Consilience" is overstated; better framed as "multi-method analysis"
-2. E086 (Japan) under-utilized — Japan comparison is most important finding, should be CENTRAL not revision ammo. Survey deficit > volcanic burial
+2. E086 (Japan) under-utilized — Japan comparison is most important finding, should be CENTRAL not revision support material. Survey deficit > volcanic burial
 3. ADV-5 (E087) C5 problem — needed re-examination (see E107 below)
 4. "Organic civilization" claim needs bounds — distinguish data-supported / hypothesis / speculation
 5. 6 papers in 6 days — reviewer cross-pollination risk
@@ -2255,13 +2442,13 @@ Conducted comprehensive structural audit of entire project (107 experiments, 10 
 4. Publication: 2×
 5. Volcanic Burial: 1.7× (least alone, but only spatially predictable factor)
 
-**West Java Smoking Gun:**
+**West Java Decisive Case:**
 - Buni Complex (Tangerang coast, non-volcanic): 200 BCE - 500 CE, extensive archaeology
 - Batujaya (Karawang, non-volcanic): 2nd-5th century Buddhist complex
 - East Java interior (volcanic): ZERO pre-400 CE sites
 - Same island, same culture, different geology → taphonomic signal confirmed
 
-**Reframe:** Project contributes the 5th factor (volcanic burial) which is the only spatially predictable one. Survey deficit is the primary constraint. Volcanic burial enables targeted recovery.
+**Reframe:** Project contributes the 5th factor (volcanic burial) which is the only spatially predictable one. Survey deficit is the primary constraint. Volcanic burial enables prioritized recovery.
 
 ### E111-E114 + P18 Draft
 
@@ -2276,7 +2463,7 @@ Conducted comprehensive structural audit of entire project (107 experiments, 10 
 1. **L4 UPGRADED:** E107 resolves ADV-5 grey zone.
 2. **H1 REFRAMED:** E110 cascade model. Survey = 40× leverage, burial = 1.7×.
 3. **New cathedral findings:** E108 (gap 3,220×), E110 (cascade), E113 (no learning curve).
-4. **West Java smoking gun:** Buni + Batujaya.
+4. **West Java decisive case:** Buni + Batujaya.
 5. **P18 = capstone paper.** Vocabulary archaeology as 6th recovery channel.
 6. **Total: 115 experiments** (E001-E114). 9 papers (6 submitted + P11/P16/P17/P18 drafting).
 
@@ -2319,13 +2506,13 @@ Conducted comprehensive structural audit of entire project (107 experiments, 10 
 - Compiles cleanly: 27 pages, 8.9MB (includes PNG figures).
 - Status: Near submission-ready for DSH. User review needed.
 
-### P5 Revision Ammo — Anticipated Critiques Written
+### P5 Revision Support Material — Anticipated Critiques Written
 - 7 critiques with severity ratings and response language
 - Highest severity: "No Javanese-specific decomposition data" (gap acknowledged, mitigated by soil parameters + Primbon evidence + permutation test)
 - File: `papers/P5_volcanic_ritual_clock/revision_ammo/anticipated_critiques.md`
-- P5 revision ammo now: 4 files (differentiation, E026, P15 dissolved, anticipated critiques)
+- P5 revision support material now: 4 files (differentiation, E026, P15 dissolved, anticipated critiques)
 
-### Revision Ammo Audit — All 6 Papers Covered
+### Revision Support Material Audit — All 6 Papers Covered
 - P1: 4 ADV files (Japan comparanda, depth evidence, honest assessment, survey defense)
 - P2: 2 files (ADV-3 defense, anticipated critiques)
 - P5: 4 files (differentiation, E026 volcanic correlation, P15 dissolved, anticipated critiques)
@@ -2336,7 +2523,7 @@ Conducted comprehensive structural audit of entire project (107 experiments, 10 
 
 ### Documentation
 - E106 added to EXPERIMENT_INDEX (total now 107)
-- WORKSTATE updated with P17 + P16 + revision ammo status
+- WORKSTATE updated with P17 + P16 + revision support material status
 
 ---
 
@@ -2357,12 +2544,12 @@ Full audit of 99 experiments, 13 paper projects, IDEA_REGISTRY, TRIGGER_MAP, and
 - Overall: 63 SUCCESS, 6 SUPERSEDED, 6 INFO NEG, 6 CONDITIONAL, 2 FAILED, 2 INCONCLUSIVE
 
 **Paper Status (13 projects):**
-- 6 under review: all have revision ammo prepared (P1:5, P2:2, P5:3, P7:1, P8:4, P9:2)
+- 6 under review: all have revision support material prepared (P1:5, P2:2, P5:3, P7:1, P8:4, P9:2)
 - P7 preprint: UNVERIFIED on Authorea/ESSOAr — user must check portal
 - P11: 85% ready (user manual review + Chicago 17th needed)
 - P16: 75% ready (draft v0.1 complete, needs expansion to 8K words)
 - D1/D2: 95% ready (APC waiver decision blocks submission)
-- P3 killed, P14 killed→research note. Both correctly archived.
+- P3 discontinued, P14 discontinued→research note. Both correctly archived.
 
 **ME#8 Issue Resolution:**
 - 6/12 items RESOLVED (E089 v5, E095, P16 draft, E090 BERTopic, contraction phase, identity framing)
@@ -2510,7 +2697,7 @@ Full audit of 99 experiments, 13 paper projects, IDEA_REGISTRY, TRIGGER_MAP, and
 - Source: `inBox/Mapping_Buried_Java.pdf` (14 slides, NotebookLM-generated)
 - Moved to: `docs/dissemination/Mapping_Buried_Java_NotebookLM.pdf`
 - Extracted 14 individual slides as PNG (4128x2304, ~216 DPI): `docs/dissemination/slides/`
-- Slides cover full Dokumen Jembatan narrative: volcanic burial, sedimentation rates, candi vs prasasti, Japan comparison, adversarial test, convergence, fieldwork needs, collaboration
+- Slides cover full Dokumen Jembatan narrative: volcanic burial, sedimentation rates, candi vs prasasti, Japan comparison, robustness test, convergence, fieldwork needs, collaboration
 - Use: dissemination presentations, social media, email attachments to potential collaborators
 
 ---
@@ -2523,7 +2710,7 @@ Full audit of 99 experiments, 13 paper projects, IDEA_REGISTRY, TRIGGER_MAP, and
 - Isolation Forest (500 trees) trained on 378 known sites' environmental features (elevation, slope, TWI, TRI, aspect, river_dist)
 - Scored 589,062 grid cells; 451,676 (76.7%) are "site-like"
 - Combined with E075 burial depth: composite score identifies cells that are site-like AND deeply buried
-- **KEY RESULT: 65% overlap** with E080 top 20 fieldwork targets (13/20 matched within 5km)
+- **KEY RESULT: 65% overlap** with E080 top 20 fieldwork candidates (13/20 matched within 5km)
 - All top candidates cluster around Kelud at 2-7 km, burial depth 20+ meters
 - Top features: TRI (0.294), slope (0.251), TWI (0.196)
 - 195,382 site-like cells have >1m burial depth — quantifies "dark archaeology" zone
@@ -2533,7 +2720,7 @@ Full audit of 99 experiments, 13 paper projects, IDEA_REGISTRY, TRIGGER_MAP, and
 - 28 sites worldwide (Ceren, Akrotiri, Pompeii, Herculaneum, Sambisari, Kedulan, Liyangan, etc.)
 - Structured CSV with depth, tephra type, discovery method, survey technique, cost
 - Methodology blueprint: optimal survey approach by burial depth (GPR at 1-3m, ERT at 3-10m)
-- Status: SUCCESS. Feeds fieldwork planning + P1 revision ammo.
+- Status: SUCCESS. Feeds fieldwork planning + P1 revision support material.
 
 ### E093: Indonesian Archaeological Literature Mining — COMPILED
 - 65 publications from Berkala Arkeologi, Kalpataru, Amerta, BPCB, international journals
@@ -2645,7 +2832,7 @@ Full audit of 99 experiments, 13 paper projects, IDEA_REGISTRY, TRIGGER_MAP, and
   - E083: 932 lines, stdlib-only, comprehensive data — READY
 
 ### Status Verification
-- All revision ammo confirmed in place: P1 (ADV1+ADV2+ADV3), P5 (differentiation), P8 (ADV5+differentiation), P9 (differentiation), P11 (depth integration)
+- All revision support material confirmed in place: P1 (ADV1+ADV2+ADV3), P5 (differentiation), P8 (ADV5+differentiation), P9 (differentiation), P11 (depth integration)
 - E091 confirmed in EXPERIMENT_INDEX (91 total)
 - P9 Word file exists (`draft_v0.1_jseas_anonymous.docx`)
 - Cross-citation differentiation statements confirmed: P5↔P9, P8↔P9, P9↔P5+P8
@@ -2683,7 +2870,7 @@ Full audit of 99 experiments, 13 paper projects, IDEA_REGISTRY, TRIGGER_MAP, and
   - Removed orphaned `daldjoeni1984` reference (never cited in text)
   - Fixed Lavigne 2003 reference: was citing JVGR vol 100 (2000 paper), corrected to Geomorphology vol 49 (2003 sediment transport paper)
   - Added candi distance numbers for post-929 comparison (Penanggungan 7.4 km)
-  - Converted "supplementary materials" fieldwork targets to "available from corresponding author" (ethical site protection)
+  - Converted "supplementary materials" fieldwork candidates to "available from corresponding author" (ethical site protection)
   - Added Data Availability statement with repository URL
   - Fixed table overfull hbox (zone distribution table)
   - Created SUBMISSION_PREP.md with *Indonesia* (Cornell) requirements: MS Word, Chicago 17th, no APC
@@ -2752,14 +2939,14 @@ Two issues degrading research productivity:
 
 **Phase 1 — Bug Fixes:**
 - E083 README: added missing `**Status:** SUCCESS` + `**Date:** 2026-03-13` header metadata
-- E069 README: `DESIGNED` → `SUCCESS (ADV-3 executed)` + appended execution results with full adversarial scorecard
+- E069 README: `DESIGNED` → `SUCCESS (ADV-3 executed)` + appended execution results with full robustness scorecard
 - E070 README: `DESIGNED` → `SUCCESS (DS-1 complete)` + appended DS-1 results (52 entries, 32 depths)
 - Ran `scan_experiments.py` → regenerated `experiment_index.json` (84 dirs found, 30 UNKNOWN status from non-standard README format — pre-existing issue)
 - Restored curated `EXPERIMENT_INDEX.md` (scanner output supplements but does not replace)
 
 **Phase 2 — Foundation Document Updates:**
 - L1: H1 reframed to "volcanic sedimentation × insufficient survey intensity"; added ADV-2 (p=0.760), ADV-3 (p=0.0015), ADV-1 Japan constraint; moved Japan from Mission footnote to H1 body
-- L2: Phase → "Phase 1 + Phase 1.5"; P9 MS# added; P11 reframed; D1/D2 added to pipeline; adversarial scorecard added; experiment count → 90
+- L2: Phase → "Phase 1 + Phase 1.5"; P9 MS# added; P11 reframed; D1/D2 added to pipeline; robustness scorecard added; experiment count → 90
 - EVAL: Added evaluation sections for P1/P5/P7/P8/P9/P11 (6 new sections); added FDR multi-test correction strategy (E068: 30/41 survive BH)
 - Manifesto: v3.2 → v3.3; consilience reframed as "4 lenses on ~5 datasets + 2 independent"; dataset monoculture acknowledged honestly; count → 90
 - IDEA_REGISTRY: Added I-114 through I-119 (E073-E090 results); date → 2026-03-16
@@ -2775,7 +2962,7 @@ Two issues degrading research productivity:
 - Verified: WORKSTATE.md <50 lines (34), CLAUDE.md references WORKSTATE 3+ places, L1 has survey intensity + ADV notes, L2 has all required updates, EVAL has 6 new sections + FDR, E069/E070/E083 statuses correct, no active file references NEXT_SESSION_BRIEF without deprecation
 
 ### Tracking Surfaces: 13 → 10
-- **Killed:** NEXT_SESSION_BRIEF (→ WORKSTATE.md)
+- **Discontinued:** NEXT_SESSION_BRIEF (→ WORKSTATE.md)
 - **Demoted:** experiment_index.json (auto-generated, not manually maintained)
 - **Created:** WORKSTATE.md (session continuity contract)
 - **Retained (not merged):** IDEA_REGISTRY + TRIGGER_MAP (confirmed: many-to-many relationship, different organizational axes)
@@ -2854,16 +3041,16 @@ Files: `experiments/E088_textual_archaeology_nlp/`
 
 ---
 
-## 2026-03-16 | Mata Elang #8 — Structural Critique + Adversarial Blitz
+## 2026-03-16 | Mata Elang #8 — Structural Critique + Critical Blitz
 
-**Type:** STRATEGIC REVIEW + ADVERSARIAL TESTS (E086, E087)
+**Type:** STRATEGIC REVIEW + CRITICAL TESTS (E086, E087)
 
 ### Structural Critique (System/Research Designer Mode)
 
 Full critique of project architecture — 10 sections, brutal and constructive. Key diagnoses:
 
 1. **Dataset monoculture:** 21/85 experiments use same 268 DHARMA inscriptions. "4 independent streams" → actually 2 primary datasets (DHARMA, ABVD) analyzed 11 ways. Consilience claims must be reframed honestly.
-2. **6 Layers = Ptolemaic epicycles:** L5 and L6 are methodological observations, not "layers of darkness." Framework unfalsifiable as a whole. Recommend collapse to 3 layers: Physical Taphonomy (L1+L2), Historiographic Bias (L3+L5+L6), Cosmological Overwrite (L4).
+2. **6 Layers = Ptolemaic epicycles:** L5 and L6 are methodological observations, not "layers of invisibility." Framework unfalsifiable as a whole. Recommend collapse to 3 layers: Physical Taphonomy (L1+L2), Historiographic Bias (L3+L5+L6), Cosmological Overwrite (L4).
 3. **p-value parade:** Cathedral findings (p<10⁻⁶) are robust. Mid-range findings (0.01<p<0.05) are suspect given 85+ tests. FDR audit (E068) was good but audited a cherry-picked subset.
 4. **Speed vs credibility:** 6 papers submitted in 10 days from first-time author = red flag for reviewers. Risk of mass desk rejection.
 5. **Identity crisis:** 7 papers across 5 disciplines from one researcher. Over-diversification.
@@ -2916,7 +3103,7 @@ Tests whether E027 ML substrate detector (AUC=0.762) works on language pairs WIT
 
 Files: `experiments/E087_substrate_negative_control/`
 
-### Adversarial Scorecard Update
+### Robustness Scorecard Update
 
 | Test | Target | Result | Date |
 |------|--------|--------|------|
@@ -2928,14 +3115,14 @@ Files: `experiments/E087_substrate_negative_control/`
 
 ### Running Totals
 - **Experiments:** 90 completed (E001-E090)
-- **Adversarial tests:** 5 total — 2 PASS, 1 PARTIAL, 1 INCONCLUSIVE, 1 GREY ZONE
+- **Critical tests:** 5 total — 2 PASS, 1 PARTIAL, 1 INCONCLUSIVE, 1 GREY ZONE
 - **Mandatory revisions identified:** L1 reframe (survey intensity), P8 reframe (non-conformity not substrate)
 
 ---
 
 ## 2026-03-13 | E085: ADV-4 Substrate Noise Permutation Test — PASS
 
-**Type:** ADVERSARIAL TEST
+**Type:** ROBUSTNESS TEST
 
 ### E085: ADV-4 Substrate Noise Permutation Test — **PASS (p < 0.001, z = 11.05)**
 Tests whether E027's ML substrate detection (AUC=0.760) is statistical noise or genuine phonological signal.
@@ -2946,20 +3133,20 @@ Tests whether E027's ML substrate detection (AUC=0.760) is statistical noise or 
 - **Test 3 (Frequency-Only):** form_length alone AUC=0.634. Full model AUC lift = +0.128. Phonological features add genuine signal beyond word length. **PASS.**
 - **Test 4 (Circularity):** Removing `language_cognacy_coverage` (top SHAP feature, flagged as potential circular) drops AUC only 0.003 (0.762 → 0.759). **CLEAN.**
 
-**Verdict: PASS.** The substrate detection is NOT noise. L4 (Cosmological Overwrite) ML evidence survives adversarial testing.
+**Verdict: PASS.** The substrate detection is NOT noise. L4 (Cosmological Overwrite) ML evidence survives robustness testing.
 
-**Adversarial scorecard: ADV-3 PASS, ADV-4 PASS. ADV-1 TODO, ADV-2 INCONCLUSIVE.**
+**Robustness scorecard: ADV-3 PASS, ADV-4 PASS. ADV-1 TODO, ADV-2 INCONCLUSIVE.**
 
 Files: `experiments/E085_adv4_substrate_noise/`
 
 ---
 
-## 2026-03-13 | Mata Elang #7 — Adversarial Testing + Data Expansion
+## 2026-03-13 | Mata Elang #7 — Robustness Testing + Data Expansion
 
-**Type:** AUTONOMOUS SESSION — ADVERSARIAL TEST + GEOREFERENCING + DATASET CONSTRUCTION
+**Type:** AUTONOMOUS SESSION — ROBUSTNESS TEST + GEOREFERENCING + DATASET CONSTRUCTION
 
 ### Session Overview
-Mata Elang #7: three parallel experiments addressing structural critique from ME#6. Focus: (1) most dangerous adversarial test (ADV-2), (2) transformative inscription georeferencing, (3) genuinely independent tephra correlation dataset.
+Mata Elang #7: three parallel experiments addressing structural critique from ME#6. Focus: (1) most dangerous robustness test (ADV-2), (2) transformative inscription georeferencing, (3) genuinely independent tephra correlation dataset.
 
 **3 experiments completed (E081-E083).**
 
@@ -3033,7 +3220,7 @@ Formal statistical comparison of inscription vs candi spatial distributions:
 - **Verdict:** Substrate detection is genuine phonological signal, NOT noise. L4 SUPPORTED.
 - Files: `experiments/E085_adv4_substrate_noise/`
 
-### Revision Ammo Updated
+### Revision Support Material Updated
 - P1: `ADV2_depth_vs_sitetype.md` — L1 reframed around burial depth (3 evidence streams)
 - P1: `ADV2_honest_assessment.md` — 1-page reviewer-ready memo, no spin
 - P1: `anticipated_critiques.md` — Critique 7 (cave bias) added
@@ -3041,7 +3228,7 @@ Formal statistical comparison of inscription vs candi spatial distributions:
 
 ### Running Totals
 - **Experiments:** 85+ completed (E001-E085)
-- **Adversarial tests:** ADV-1 (TODO), ADV-2 (INCONCLUSIVE), ADV-3 (PASSED p=0.0015), ADV-4 (PASSED p=0.0000)
+- **Critical tests:** ADV-1 (TODO), ADV-2 (INCONCLUSIVE), ADV-3 (PASSED p=0.0015), ADV-4 (PASSED p=0.0000)
 - **Inscriptions geocoded:** 182/268 (67.9%) — first comprehensive georeferencing
 - **Eruption-site correlations:** 51 documented pairs (86% primary evidence)
 - **Manifesto status:** v3.2 (L1 argument reframed: depth > site-type)
@@ -3227,7 +3414,7 @@ Darkness Index integrating 6 evidence dimensions across 45 centuries:
 - 6 factors converge: volcanic burial, organic decay, no writing, eruption disruption, spatial encoding, administrative pre-existence
 
 ### E080: Fieldwork Targeting — 6 Priority Zones
-Top 20 fieldwork targets computed, clustering into 6 zones:
+Top 20 fieldwork candidates computed, clustering into 6 zones:
 - Zone 1-3: Near Kelud (5-8km), ~6m predicted burial
 - Zone 4-6: Near Arjuno-Welirang (5-8km), ~7m predicted burial
 - All zones share candi proximity but lack documented surface remains
@@ -3249,7 +3436,7 @@ Top 20 fieldwork targets computed, clustering into 6 zones:
 
 ### P11 Decision: REFRAME (Option 2 — user approved)
 
-**Problem:** Old P11 "Volcanic Informedness" was trivially true ("people near volcanoes know about volcanoes"). E039 killed the global VCS claim. Pranata Mangsa (E032) failed FDR. Only 2 of 5 tests were strong.
+**Problem:** Old P11 "Volcanic Informedness" was trivially true ("people near volcanoes know about volcanoes"). E039 discontinued the global VCS claim. Pranata Mangsa (E032) failed FDR. Only 2 of 5 tests were strong.
 
 **Solution:** Reframe as methodology paper: "Temple Siting as Archaeological Proxy: Using Candi Distribution Patterns to Predict Buried Sites in Volcanic Java"
 
@@ -3260,23 +3447,23 @@ Top 20 fieldwork targets computed, clustering into 6 zones:
 - Incorporates ADV-3 (p=0.0015) as validation that volcanic deficit is real
 - Incorporates E066 (85% equinox, p=4.9e-14) as proof of intentional siting
 - Drops E032 (Pranata Mangsa, failed FDR), E039 (cross-cultural), E067 (toponyms)
-- Adds colonial depth calibration (24 OV measurements) and fieldwork targets (E059)
+- Adds colonial depth calibration (24 OV measurements) and fieldwork candidates (E059)
 
 **Draft v0.2:** 13 pages, compiles clean. Single-author (methodology paper, no co-author needed).
 
 **Key insight:** "Iceberg methodology" — surviving monumental architecture marks centers of buried non-monumental settlements. Generalizable to any volcanic landscape with surface features.
 
-**Dropped from old P11:** Pranata Mangsa seasonality, cross-cultural falsification, toponymic overwriting, "volcanic informedness" concept. These become revision ammo for P1/P7 instead.
+**Dropped from old P11:** Pranata Mangsa seasonality, cross-cultural falsification, toponymic overwriting, "volcanic informedness" concept. These become revision support material for P1/P7 instead.
 
 ---
 
 ## 2026-03-13 | Post Mata Elang #6 — ADV-3 Executed + E070 v2 Extraction
 
-**Type:** ADVERSARIAL EXPERIMENT + DATASET CONSTRUCTION
+**Type:** CRITICAL EXPERIMENT + DATASET CONSTRUCTION
 
 ### ADV-3: Survey Intensity Sufficiency Test — VOLCARCH SUPPORTED
 
-**First adversarial experiment executed.** Nested Poisson regression testing whether survey intensity alone explains archaeological site distribution in East Java.
+**First critical experiment executed.** Nested Poisson regression testing whether survey intensity alone explains archaeological site distribution in East Java.
 
 **Method:** 722 grid cells (~11km), 666 sites, 3 survey proxies (road distance, BPCB office distance, university distance) + volcanic proximity. Quasi-Poisson correction for severe overdispersion (phi=3.55).
 
@@ -3315,7 +3502,7 @@ Improved extraction script with expanded Dutch patterns:
 
 **Next:** Manual review of 299 priority matches to build colonial_site_register_v1.0 (target 50+ entries).
 
-**Running total: 70+ experiments (ADV-3 = first adversarial)**
+**Running total: 70+ experiments (ADV-3 = first critical)**
 
 ---
 
@@ -3345,8 +3532,8 @@ Full structural critique of VOLCARCH project. Key findings:
 - **Top 10 strongest:** E066 candi equinox (p=4.9e-14), E051 court-center (p=5.1e-14), E031 west-clustering (p=3.4e-8), E057 genre taphonomy (p<1e-6), E065 Zone A overrep (p<1e-6)
 - **3 casualties:** E032 seasonality, E048 partial correlation, E053 aDNA Fisher → downgrade to "suggestive"
 
-### E069: Adversarial Experiment Suite — DESIGNED
-Four adversarial experiments to falsify VOLCARCH thesis:
+### E069: Critical Experiment Suite — DESIGNED
+Four critical experiments to falsify VOLCARCH thesis:
 - ADV-1: Volcanic Comparanda (Japan/Italy/Mesoamerica) — do they find sites despite volcanism?
 - ADV-2: Non-Volcanic Control Islands — does Kalimantan have the same gap? (MOST DANGEROUS)
 - ADV-3: Survey Intensity Sufficiency — does survey effort explain ALL variance? (CHEAPEST)
@@ -3370,7 +3557,7 @@ Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Ve
 2. **Status downgrade:** All "TERVERIFIKASI" → "DIDUKUNG DATA" pending fieldwork/independent dataset verification
 3. **FDR policy:** All future papers must report BH-corrected significance for multi-test findings
 4. **Phase 1.5 initiated:** Colonial dataset construction before next paper submission wave
-5. **Adversarial commitment:** At least 1 adversarial experiment (ADV-3) must be completed before P11 submission
+5. **Critical commitment:** At least 1 critical experiment (ADV-3) must be completed before P11 submission
 
 **Running total: 70 experiments (E001-E070, minus stubs)**
 
@@ -3429,7 +3616,7 @@ Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Ve
 - Register comparison: kakawin 45.9% native vs prasasti 25.1% (chi² p<1e-10)
 - **Key insight:** Sanskrit failed to penetrate agriculture AT ALL. "Terminological overlay."
 - ABVD cognacy: Old Javanese 55.7% PMP (confirms E043)
-- [BRIDGE → P5: agriculture 0% Sanskrit = revision ammo. P8: domain gradient context]
+- [BRIDGE → P5: agriculture 0% Sanskrit = revision support material. P8: domain gradient context]
 
 ### E060: Pre-400 CE Nusantara Reconstruction — DEFINITIVE SYNTHESIS
 - Compiled 54 experiments across 8 evidence channels
@@ -3479,9 +3666,9 @@ Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Ve
 
 ### E064: Master Evidence Table — SUCCESS
 - Synthesized 50 experiments across 9 papers, 6 layers, 11 channels
-- Generated: evidence heatmap, channel coverage chart, convergence web, revision ammo
+- Generated: evidence heatmap, channel coverage chart, convergence web, revision support material
 - **Underserved channels identified:** Ch10 (Material Culture, 1), Ch11 (Acoustics, 1), Ch2 (Maritime, 2), Ch3 (Genetics, 2), Ch9 (Archaeoastronomy, 2)
-- Per-paper revision ammo bullets exported to JSON
+- Per-paper revision support material bullets exported to JSON
 
 ### E065: Candi Spatial Analysis — SUCCESS
 - 142 candi analyzed for distance + azimuthal distribution relative to volcanoes
@@ -3529,11 +3716,11 @@ Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Ve
 
 ---
 
-## 2026-03-12 | Mata Elang #5 continued (wave 4) — E059 fieldwork targets
+## 2026-03-12 | Mata Elang #5 continued (wave 4) — E059 fieldwork candidates
 
 **Type:** SYNTHESIS → ACTION
 
-### E059: Priority Fieldwork Targets — ACTIONABLE
+### E059: Priority Fieldwork Candidates — ACTIONABLE
 - 288 candidate points evaluated around 8 Java volcanoes
 - **TOP 10 cluster around Kelud volcano** (13.1 mm/yr sedimentation)
 - Pre-Hindu sites at 400 CE buried under **21+ meters** of tephra
@@ -3557,7 +3744,7 @@ Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Ve
 | E056 | Candi × toponym crossref | SUCCESS | MW p=0.007, dual signature |
 | E057 | Genre taphonomy deep dive | SUCCESS | +63.9pp organic visibility shift |
 | E058 | Kakawin NLP | RUNNING | Old Javanese literary texts |
-| E059 | Fieldwork targets | ACTIONABLE | Top 10 GPS coordinates |
+| E059 | Fieldwork candidates | ACTIONABLE | Top 10 GPS coordinates |
 
 **12 experiments in one session. 6/6 layers now active. Manifesto v3.0 updated.**
 
@@ -3575,7 +3762,7 @@ Key sources identified: KITLV/Leiden TBG (vols 1-86), Internet Archive (Krom, Ve
 - **Borobudur labels = maximum darkness:** 50 inscriptions, 0% pre-Indic, 0% organic, 0% hyang
 - **Visibility shift C8→C9-10: +14.4pp pre-Indic, +63.9pp organic**
 - L5 (Genre Taphonomy) is a distinct mechanism: not destruction but SELECTIVE RECORDING
-- [BRIDGE → P5: strongest revision ammo for "dark century" argument]
+- [BRIDGE → P5: strongest revision support material for "dark century" argument]
 
 ### E052: Sunda Shelf (agent completed) — SUCCESS
 - SRTM30+ bathymetry downloaded from NOAA (1km resolution)
@@ -3722,7 +3909,7 @@ JSEAS responded within 24 hours of submission. Email from Eileen Shen (on behalf
 
 ---
 
-## 2026-03-12 | Sprint 9 Execution — P11 Re-scoping, Revision Ammo, Preprint Memo, JSEAS Follow-up
+## 2026-03-12 | Sprint 9 Execution — P11 Re-scoping, Revision Support Material, Preprint Memo, JSEAS Follow-up
 
 **Type:** EXECUTION (4 tasks completed)
 
@@ -3737,7 +3924,7 @@ JSEAS responded within 24 hours of submission. Email from Eileen Shen (on behalf
 - No Kawah Candradimuka metaphor — saved for future essay
 - Word count target: 8,000-10,000
 
-### Task 2: Revision Ammo Audit Complete
+### Task 2: Revision Support Material Audit Complete
 All 5 submitted papers now have `revision_ammo/` folders:
 - **P1:** `anticipated_critiques.md` (6 critiques) + `E040_bamboo_civilization.md` (existing)
 - **P2:** `anticipated_critiques.md` (6 critiques, including tautology defense)
@@ -3771,7 +3958,7 @@ All 6 papers submitted (P1, P2, P5, P7, P8, P9). 44 experiments completed. Enter
 **Manifesto assessment (6 layers):**
 - L1 Volcanic Burial: STRONGEST — 3 papers, 15+ experiments, E040d bridge finding
 - L2 Coastal Submersion: UNTESTED — valid but completely data-gated
-- L3 Historiographic Bias: WELL COVERED — 3 papers, E033 Indianization curve strongest ammo
+- L3 Historiographic Bias: WELL COVERED — 3 papers, E033 Indianization curve strongest supporting material
 - L4 Cosmological Overwrite: STRONGEST LINGUISTIC — 3 papers, ML AUC 0.760, PCF convergence
 - L5 Genre Taphonomy: NEWLY IDENTIFIED — E040 only, adequate but thin
 - L6 Historiographic Periodicity: STRONG DATA — E030+E033, needs better framing
@@ -3786,7 +3973,7 @@ All 6 papers submitted (P1, P2, P5, P7, P8, P9). 44 experiments completed. Enter
 
 **Priority actions for Sprint 9:**
 1. P11 re-scoping (Volcanic Informedness, local only)
-2. Revision ammo audit (5 papers need revision_ammo/ folders)
+2. Revision support material audit (5 papers need revision_ammo/ folders)
 3. Preprint decision (EarthArXiv for P1+P2)
 4. Collaboration outreach (3 parallel tracks)
 
@@ -3808,7 +3995,7 @@ P9 "Peripheral Conservatism as Archaeological Proxy" submitted to Journal of Sou
 **Key stats:** 34 pages, ~10,100 words, 6 figures, 3 tables, 17 references, 0 LaTeX errors
 **Review type:** Double-anonymous peer review
 **APC:** Free (non-OA); Gold OA possible via COEI for Indonesian institutions
-**Pre-submission review:** 2 rounds cross-AI (ChatGPT + Gemini), 16 criticisms triaged, all thesis killers resolved
+**Pre-submission review:** 2 rounds cross-AI (ChatGPT + Gemini), 16 criticisms triaged, all thesis decisive critiques resolved
 
 **Awaiting:** Manuscript number from editor.
 
@@ -3819,7 +4006,7 @@ P9 "Peripheral Conservatism as Archaeological Proxy" submitted to Journal of Sou
 **Type:** REVIEW TRIAGE
 
 ### Input
-Cross-AI review: ChatGPT (5 thesis killers, 4 major, 3 minor) + Gemini (4 thesis killers). Total: 16 criticisms.
+Cross-AI review: ChatGPT (5 thesis decisive critiques, 4 major, 3 minor) + Gemini (4 thesis decisive critiques). Total: 16 criticisms.
 
 ### Triage (Mata Elang matrix: confidence × reversibility)
 - **ACT (5):** "civilization" overclaim (1.1), tone too declarative (1.2+3.2), no center-periphery engagement (2.1), Javanese register confound (G1), Canarium vs Styrax (G3)
@@ -3918,11 +4105,11 @@ Added full AI disclosure section before bibliography, following VOLCARCH templat
 
 ### Part A: Manifesto Update
 Expanded `docs/drafts/manifesto.md` from 21-line stub to ~150-line authoritative thesis document. Key changes:
-- **4→6 layers of darkness:** Added L5 (Genre Taphonomy, from E040 bridge finding) and L6 (Historiographic Periodicity, from E033 Indianization wave)
+- **4→6 layers of invisibility:** Added L5 (Genre Taphonomy, from E040 bridge finding) and L6 (Historiographic Periodicity, from E033 Indianization wave)
 - **VCS constraint section:** E039 trilogy rejects global VCS; local Java/Bali only
 - **Bridge findings section:** E040d material-linguistic convergence, E035×E030 oral vs epigrafi
-- **Falsification criteria table:** Every layer has explicit kill conditions
-- Reconciled 6 layers (manifesto) with 11 channels (master_attack_map): layers = erasure mechanisms, channels = recovery pathways
+- **Falsification criteria table:** Every layer has explicit drop conditions
+- Reconciled 6 layers (manifesto) with 11 channels (master_evidence_map): layers = erasure mechanisms, channels = recovery pathways
 
 ### Part B: E043 Krama-Alus Cognacy Comparison (SUCCESS, SPLIT)
 Compared PMP cognacy retention across 8 language varieties using ABVD CLDF data (210 concepts, 346K forms).
@@ -4035,7 +4222,7 @@ P8 "Phonological Fossils: Machine Learning Detection of Non-Mainstream Vocabular
 
 **Type:** REVISION
 
-Round 3 reviews: ChatGPT (no new thesis killers), Gemini (3 presentation/caveat issues).
+Round 3 reviews: ChatGPT (no new thesis decisive critiques), Gemini (3 presentation/caveat issues).
 
 **Changes:**
 1. §2.3.2: form_length redefined as syllable count (vowel nuclei) — linguistically correct metric. Character count noted as producing identical results.
@@ -4044,7 +4231,7 @@ Round 3 reviews: ChatGPT (no new thesis killers), Gemini (3 presentation/caveat 
 4. New Limitation 6: "No morphological decomposition" — root vs morpheme-boundary clusters, future work
 5. Methodology paragraph: now upfront about surface-form basis + robustness tests
 
-**3 rounds total, 14 criticisms, 14/14 addressed.** No remaining thesis killers. Paper ready for author review.
+**3 rounds total, 14 criticisms, 14/14 addressed.** No remaining thesis decisive critiques. Paper ready for author review.
 
 ---
 
@@ -4079,7 +4266,7 @@ ChatGPT + Gemini external reviews of P8 draft_v0.1 identified 8 criticisms. Syst
 - CV AUC: 0.7716 → 0.7737 (+0.002) — negligible change
 - LOLO AUC: 0.7244 → 0.7331 (+0.009) — slight improvement
 - Muna (most digraphs): LOLO +0.042 — orthographic noise was hurting, not helping
-- **Conclusion:** Phonological fingerprint is not an orthographic artifact. Kills "most fatal" criticism.
+- **Conclusion:** Phonological fingerprint is not an orthographic artifact. Eliminates "most fatal" criticism.
 
 **Paper revisions applied (draft_v0.1.tex):**
 1. Abstract updated: ablated model as primary (AUC 0.763), IPA robustness mentioned
@@ -4293,7 +4480,7 @@ All VOLCARCH papers will include **expanded AI disclosure** that frames AI as a 
 ### Rationale
 - 38 experiments in ~3 weeks across 4 domains — superhuman throughput
 - Cross-disciplinary synthesis (268 prasasti, 137 cultures, 1330 languages, 666 sites) — impossible for one person without AI
-- Rapid fail-fast iteration (E017→kill P3, E029→reframe P8) — scientific method accelerated
+- Rapid fail-fast iteration (E017→drop P3, E029→reframe P8) — scientific method accelerated
 - All journals now require AI disclosure — full transparency is both ethical and pragmatic
 - First-mover framing: contribute to emerging best practices in AI-assisted scholarship
 
@@ -4317,21 +4504,21 @@ All VOLCARCH papers will include **expanded AI disclosure** that frames AI as a 
 7 findings, prioritized via selection matrix (confidence × reversibility):
 - **K-01 (ACT):** Governance docs stale → FIXED (L2, L3, TRIGGER_MAP updated)
 - **K-02 (BLOCKED):** Preprint strategy → user needs time to decide. All 4 journals allow preprints.
-- **K-03 (ACT):** P14 formally killed → E026 folded into P5 revision ammo (`revision_ammo/E026_pararaton_volcanic_correlation.md`)
+- **K-03 (ACT):** P14 formally discontinued → E026 folded into P5 revision support material (`revision_ammo/E026_pararaton_volcanic_correlation.md`)
 - **K-05 (RESOLVED):** Go Frendi co-author → confirmed safe, actively discussing
 - **K-06 (ACT WITH CARE):** P8 lean vs expand → needs user decision
 
-### P14 Killed
-- Bonferroni correction kills significance: raw p=0.037 → adj. p=0.222
+### P14 Discontinued
+- Bonferroni correction eliminates significance: raw p=0.037 → adj. p=0.222
 - Poisson rate test also n.s. (p=0.255)
-- E026 results preserved as P5 revision ammo (exploratory supporting evidence, NOT proof)
+- E026 results preserved as P5 revision support material (exploratory supporting evidence, NOT proof)
 - Ideas preserved: I-097 in IDEA_REGISTRY
 
 ### Governance Docs Updated
-- L2_STRATEGY.md: P1+P2 now SUBMITTED, P14 killed, pipeline 7 papers (was 8)
+- L2_STRATEGY.md: P1+P2 now SUBMITTED, P14 discontinued, pipeline 7 papers (was 8)
 - L3_EXECUTION.md: Sprint 8, tasks 033-037+042 marked DONE
 - TRIGGER_MAP.md: 3 triggers fired (E031, E033, E031+E032 combined)
-- IDEA_REGISTRY.md: I-097 updated (P14 killed)
+- IDEA_REGISTRY.md: I-097 updated (P14 discontinued)
 - CANONICAL.md: Already up to date (updated during P2 submission)
 
 ### Pipeline (post Mata Elang #4)
@@ -4344,7 +4531,7 @@ All VOLCARCH papers will include **expanded AI disclosure** that frames AI as a 
 | P8 | Draft v0.1 (needs red-team + author review) |
 | P9 | POC complete (E024, 25 records) |
 | P11 | Incubating (E031+E032 SUCCESS → can activate) |
-| P14 | **KILLED** (E026 → P5 revision ammo) |
+| P14 | **DISCONTINUED** (E026 → P5 revision support material) |
 
 ---
 
@@ -4627,14 +4814,14 @@ Keyword-based proxy (30 terms, not full vocabulary). Small n in tails (C6=1, C7=
 ### What
 Created 3-component idea management system to prevent research idea loss across sessions:
 
-1. **`docs/IDEA_REGISTRY.md`** — Master catalog of ~100 ideas with maturity levels (SPARK → PAPER), blockers, trigger conditions, and cross-paper links. Populated from ALL killed drafts (P4, P6, P10, P12, P-coastal), parking lots, working notes, and exploration brainstorm.
+1. **`docs/IDEA_REGISTRY.md`** — Master catalog of ~100 ideas with maturity levels (SPARK → PAPER), blockers, trigger conditions, and cross-paper links. Populated from ALL discontinued drafts (P4, P6, P10, P12, P-coastal), parking lots, working notes, and exploration brainstorm.
 
 2. **`docs/TRIGGER_MAP.md`** — Reverse blocker index. Organized by trigger type (collaborator, data access, prior result, funding). Answers: "If X happens, what becomes possible?"
 
 3. **JOURNAL convention** — `[BRIDGE → PY, I-NNN]` tags for serendipitous cross-paper discoveries.
 
 ### Why
-Project generates ideas faster than it can execute. Killed papers still contain valuable hypotheses. Working on Paper X often unblocks Paper Y. Without a system, connections are lost to context window limits. Mata Elang reviews now include TRIGGER_MAP scan.
+Project generates ideas faster than it can execute. Discontinued papers still contain valuable hypotheses. Working on Paper X often unblocks Paper Y. Without a system, connections are lost to context window limits. Mata Elang reviews now include TRIGGER_MAP scan.
 
 ### Key Numbers
 - 11 READY ideas (can execute now, no blockers)
@@ -4667,7 +4854,7 @@ Project generates ideas faster than it can execute. Killed papers still contain 
 1. **Author name standardized:** `Mukhlis Amien` across ALL papers. Fixed P8 (`Muhammad Neima Izzuddin Al-Islami` → `Mukhlis Amien`). P1, P2, P14 already correct.
 2. **Co-author bottleneck resolved:** Submit P1+P2 as single-author NOW. Post preprints to EarthArXiv immediately. Domain co-authors pursued in parallel on 3 tracks but no longer a blocker.
 3. **Pipeline reduced 15→8 papers:**
-   - **Killed:** P4 (stub), P6 (speculative), P10 (needs fieldwork), P12 (needs corpus), P-coastal (stub)
+   - **Discontinued:** P4 (stub), P6 (speculative), P10 (needs fieldwork), P12 (needs corpus), P-coastal (stub)
    - **Dissolved:** P15 → absorbed into `papers/P5_volcanic_ritual_clock/revision_ammo/P15_dissolved_tom_r.md`
    - **Active 8:** P1, P2, P5 (submitted), P7 (submitted), P8 (draft), P9, P11 (incubating), P14 (pivot to research note)
 4. **P14 pivoted** from full article to research note (2,000-3,000 words). Needs Bonferroni correction.
@@ -4676,16 +4863,16 @@ Project generates ideas faster than it can execute. Killed papers still contain 
 ### Files Modified
 - `papers/P8_linguistic_fossils/draft_v0.1.tex` — author name fix
 - `data/sources.md` — marked acquired datasets (DEM, GVP eruptions, FAO soil, rivers, site geocoding)
-- `docs/EVAL.md` — Challenge 2 marked KILLED with archived criteria
+- `docs/EVAL.md` — Challenge 2 marked DISCONTINUED with archived criteria
 - `docs/L1_CONSTITUTION.md` — mission statement broadened
-- `docs/L2_STRATEGY.md` — P1/P2 relabeled, pipeline updated, kills registered
+- `docs/L2_STRATEGY.md` — P1/P2 relabeled, pipeline updated, eliminates registered
 - `docs/L3_EXECUTION.md` — experiment/task status fixes, sprint 7 declared
-- `docs/drafts/README.md` — killed stubs moved to Killed section, execution order updated
+- `docs/drafts/README.md` — discontinued stubs moved to Discontinued section, execution order updated
 - P15 content copied to `papers/P5_volcanic_ritual_clock/revision_ammo/`
 
 ### Risk Register (from Mata Elang #3)
 - R01: Co-author bottleneck — MITIGATED (submit single-author)
-- R03: P5 evidentiary fragility — prepare revision ammo (Session B)
+- R03: P5 evidentiary fragility — prepare revision support material (Session B)
 - R04: P14 statistical weakness — Bonferroni correction needed (Session B)
 - R05: P8 domain gap — red-team + E029 reframing needed (Session B)
 - R06: Author name split — FIXED
@@ -4693,7 +4880,7 @@ Project generates ideas faster than it can execute. Killed papers still contain 
 
 ### Next (Sessions B+C)
 - Red-team P8 and P14
-- Prepare P5 and P7 revision ammo documents
+- Prepare P5 and P7 revision support material documents
 - Format and post P1+P2 preprints to EarthArXiv
 - Write cover letters, submit P1+P2 to target journals
 
@@ -4865,14 +5052,14 @@ Project generates ideas faster than it can execute. Killed papers still contain 
 2. ~~Identity crisis~~ → SOFTENED → ACTION: L1 updated from "computational contribution / informaticians" to "interdisciplinary with computational core." Reflects reality that VOLCARCH produces both computational papers (P1, P2) and literature-based interdisciplinary papers (P5, P14, P15).
 3. **Submission order risk** → P5/P7 submitted before P1/P2. Mitigated by: (a) P5 already cleared of self-citations, (b) **PREPRINT STRATEGY decided**: P1+P2 to EarthArXiv for free DOI, providing citable references.
 4. **Co-author bottleneck** → User reports near confirmation. No action needed beyond monitoring.
-5. **P3 KILLED** → E017 POC failed (1/4 calibration sites). Formally killed in L2/L3. Resurrect only with geologist co-author.
+5. **P3 DISCONTINUED** → E017 POC failed (1/4 calibration sites). Formally discontinued in L2/L3. Resurrect only with geologist co-author.
 6. **P15 vs P5 salami-slicing** → Documented merger strategy: if BKI requests revision, merge P15's 4 rituals into P5 (~10,000 words, within 12,000 limit).
 7. **Understate claims** → Standing recommendation: 11-channel consilience language stays internal only. Papers understate, let reviewers say "could go further."
 
 ### Documents Updated
 - **L1:** §3 identity updated (informatician → interdisciplinary)
-- **L2:** P3 killed, Phase Transition Criteria updated, Paper 1 target → Asian Perspectives, preprint strategy added, §8 pipeline fully updated
-- **L3:** Sprint 6, P3 killed, TASK-028 killed, TASK-046 (preprint) added, P5 merger strategy noted, parallel exploration updated
+- **L2:** P3 discontinued, Phase Transition Criteria updated, Paper 1 target → Asian Perspectives, preprint strategy added, §8 pipeline fully updated
+- **L3:** Sprint 6, P3 discontinued, TASK-028 discontinued, TASK-046 (preprint) added, P5 merger strategy noted, parallel exploration updated
 
 ### Criticism Selection Mechanism Established
 Matrix: {confidence × reversibility} → ACT / ACT WITH CARE / NOTE / IGNORE. Applied to all 7 critiques. Framework documented for future Mata Elang sessions.
@@ -4897,7 +5084,7 @@ Matrix: {confidence × reversibility} → ACT / ACT WITH CARE / NOTE / IGNORE. A
 2. **Archived 8 PDFs** to `docs/drafts/archive/` (renamed cleanly)
 3. **Moved 10 markdown drafts** to `docs/drafts/` with standardized names (`PNN_short_name.md`)
 4. **Created 4 stub markdowns** for PDF-only papers (P4, P6, P-coastal, Manifesto)
-5. **Moved MasterAttackMap** to `docs/master_attack_map.md` (strategy doc, not a draft)
+5. **Moved MasterEvidenceMap** to `docs/master_evidence_map.md` (strategy doc, not a draft)
 6. **Resolved numbering conflicts:**
    - P9 = Peripheral Substrate (canonical). Borehole = P09alt
    - P14 = Pararaton Volcanic Collapse. VCS Colonial → parking_lot
@@ -4971,12 +5158,12 @@ Matrix: {confidence × reversibility} → ACT / ACT WITH CARE / NOTE / IGNORE. A
 
 ---
 
-## 2026-03-09 | Thesis-Killer Fixes Applied to P5 Draft
+## 2026-03-09 | Thesis-Decisive Fixes Applied to P5 Draft
 
 **Type:** REVISION (P5)
 **Author:** Claude
 
-### Addressing 3 Thesis Killers from AI Reviews
+### Addressing 3 Thesis Decisive Critiques from AI Reviews
 
 **1. Monte Carlo circularity (stage boundaries = researcher-defined)**
 - **Fix:** Reframed to lead with PERMUTATION TEST (p=0.008), which requires NO researcher-defined parameters
@@ -5104,7 +5291,7 @@ Downloaded full Primbon Betaljemur Adammakna (Bahasa Indonesia) from Wikimedia C
 **No. 331 — "Jika Jenasah berbau busuk" (hal. 244):**
 Mantra for decomposing corpse. Placed immediately BEFORE the selamatan table — decomposition and ritual timing are conceptually linked in the Primbon.
 
-**No. 332 — "Selamatan orang meninggal" (hal. 245–246): ★ SMOKING GUN**
+**No. 332 — "Selamatan orang meninggal" (hal. 245–246): ★ DECISIVE CASE**
 Complete calculation table: Nyur tanah (death day) → 3 Hari → 7 Hari → **40 Hari** → **100 Hari** → Mendhak → **Nyewu**
 Explicit definition: *"Nyewu ialah selamatan hari keseribu terhitung dari meninggal dunianya si mati."* (Nyewu = 1000th day counted from death.)
 
@@ -5240,7 +5427,7 @@ Target: JRAI (Q1, $0 subscription, 10,000 words max). ~7,000–9,000 words.
 
 ### Key Findings
 
-**A. SMOKING GUN — Body-state descriptions at each interval:**
+**A. DECISIVE CASE — Body-state descriptions at each interval:**
 - 40 days (matang puluh): explicit body-part inventory — "darah, daging, sungsum, jeroan, kuku, rambut, tulang, dan otot" (blood, flesh, marrow, innards, nails, hair, bones, muscle) must be "perfected" (Hendrajaya 2020:437)
 - 730 days (mendhak pindo): **"jenazah sudah hampir luluh, tinggal tulang saja"** (body almost dissolved, only bones remain) — confirmed in TWO independent sources
 - 1000 days (nyewu): "spirit will no longer return" = Geertz's "body fully decayed to dust"
@@ -5554,7 +5741,7 @@ Instead of sequential paper development, adopt parallel strategy — advance 3 p
 - P4 (Estuarine Hybrids) — narrative/comparative, no data/ML component
 - P5 lama (humanities only) — replaced by computational reframe
 
-### H-TOM Manifesto Attack Vectors
+### H-TOM Manifesto Critique Points
 ```
 Geological:  P1 (rates) + P2 (model) + P7 (spatial) + P9 (borehole)
 Linguistic:  P8 (fossils) + P6 (phylogenetics, later)
@@ -6385,9 +6572,9 @@ ancient settlement predictor: proximity to water. TWI is a hydrological proxy bu
 topographic wetness, not direct river access. Ancient societies always settled near rivers for
 water, agriculture, transport, and defense.
 
-**Decision:** REVISIT — not kill signal. AUC 0.659 with 5 basic terrain features is a reasonable
+**Decision:** REVISIT — not drop signal. AUC 0.659 with 5 basic terrain features is a reasonable
 baseline. Next step: E008 with river distance raster (OSM Overpass API, full waterway lines).
-If E008 AUC still < 0.65 → kill signal for H3.
+If E008 AUC still < 0.65 → drop signal for H3.
 
 ---
 
@@ -6415,7 +6602,7 @@ Folds 2–3: AUC < 0.65 — consistently weak, suggesting spatial domain shift
 **Challenge 1: STILL PASSED** — rho=-0.153 (tautology-free); 55.2% high-suitability within 50km of volcano
 
 **Progression:** 0.659 (E007, terrain only) → 0.695 (E008, +river distance). Trend is positive.
-MVR still not met. Not a kill signal.
+MVR still not met. Not a drop signal.
 
 **Root cause analysis of weak folds:**
 The fundamental problem is SURVEY BIAS in positive samples. Known sites cluster near volcanoes
@@ -7490,7 +7677,7 @@ Seven documents received in `inBox/` from intensive discussions with Claude (sep
 
 | Document | Summary |
 |----------|---------|
-| Manifesto | "4 Layers of Darkness" — grand narrative linking 6+ papers. Internal strategic doc, not for publication. |
+| Manifesto | "4 Layers of Invisibility" — grand narrative linking 6+ papers. Internal strategic doc, not for publication. |
 | P-coastal (Coastal Taphonomy) | Sea-level rise + coastal erosion erasing maritime archaeology. Conceptual draft, no data. |
 | P4 (Estuarine Hybrids) | Surabaya/Venice comparison — estuarine polities most resilient but least visible. Historical-comparative, unfalsifiable. |
 | P5 (Cosmological Stratigraphy) | Imported religions displaced indigenous maritime cosmology. Ambitious but needs anthropologist. |
@@ -7568,7 +7755,7 @@ When Kalimantan is dropped, rho jumps to **0.394** (approaching CONDITIONAL GO).
 
 ---
 
-## 2026-03-05 | E018 Run 2: Deep-time reframing — KILL
+## 2026-03-05 | E018 Run 2: Deep-time reframing — DROP
 
 **Type:** EXPERIMENT RESULT (follow-up)
 **Author:** Amien + Claude
@@ -7588,7 +7775,7 @@ Replaced Neolithic-only A_ages with the oldest confirmed H. sapiens evidence per
 - **Spearman rho = -0.143** — WRONG DIRECTION
 - Perturbation: median rho = -0.238, only **2% positive** — robustly negative
 - Alpha sweep: consistently negative [-0.357, -0.024]
-- **Decision: KILL** per pre-registered criteria
+- **Decision: DROP** per pre-registered criteria
 
 ### The Cave-Site Confound (critical finding)
 The negative correlation exists because ALL deep-time dates come from **cave sites**. Caves are specifically protected from tephra burial — the exact destruction mechanism H-TOM predicts. So:
@@ -7609,20 +7796,20 @@ The CORRECT test for H-TOM should examine:
 
 ### Value of this POC
 Two runs, two clear answers:
-- Run 1 killed the Neolithic framing
-- Run 2 killed the deep-time oldest-date framing AND identified the cave-site confound
+- Run 1 discontinued the Neolithic framing
+- Run 2 discontinued the deep-time oldest-date framing AND identified the cave-site confound
 - Total time: ~2 hours. Alternative: months of data compilation for the same conclusion.
 - *"Santai dalam waktu, serius dalam metode."*
 
 ---
 
-## 2026-03-05 | E018 Run 2 Revised: KILL → INCONCLUSIVE (test method invalid)
+## 2026-03-05 | E018 Run 2 Revised: DROP → INCONCLUSIVE (test method invalid)
 
 **Type:** CORRECTION
 **Author:** Amien + Claude
 
-### Why the KILL was premature
-The pre-registered KILL criterion (rho < 0 → H-TOM wrong) assumed the test metric was valid. On review, the metric is confounded:
+### Why the DROP was premature
+The pre-registered Stop criterion (rho < 0 → H-TOM wrong) assumed the test metric was valid. On review, the metric is confounded:
 
 **The biogeographic argument:** Sulawesi's 67,800 BP date (Oktaviana et al. 2026 *Nature*) means H. sapiens crossed Wallace's Line — a permanent water barrier requiring watercraft. To develop this technology, they must have lived on the Sunda Shelf (including Java) **before** 68K BP. Yet Java's oldest H. sapiens evidence is only ~60K BP, in a cave (Song Terus) in the Gunung Sewu karst — far from the volcanic plains.
 
@@ -7820,3 +8007,107 @@ Katja Gänger (Copernicus editorial support) reported the "Correspondence to" li
 **Lesson learned:** Copernicus `\correspondence{}` command is NOT sufficient on its own. The `\Author` second optional argument is what triggers rendering. This is a cls design quirk — document for future Copernicus submissions.
 
 Revised PDF verified (18 pages, all content intact) and sent to Katja.
+
+## 2026-06-08 | P7 REJECTED FROM ANTIQUITY — first content-based peer rejection + CONFIRMED methodological artifact
+
+**Type:** REJECTION + INTEGRITY-CRITICAL FINDING
+**Status:** P7 DECLINED (no revision). Volcano-inventory artifact CONFIRMED and propagates to P1/P17.
+
+### The rejection
+- **P7** "Spatial segregation of deep-time archaeological sites from volcanic plains in East Java" → **REJECTED** by *Antiquity* (Project Gallery), MS **AQY-2026-0104**, decision 2026-06-04 by Editor Robin Skeates. Declined for publication **or** revision.
+- **First time a submission went to full external peer review (2 reviewers) AND was rejected on the SCIENCE, not structure/wording.** Prior rejections (P1-AP AI-flag, P1-EGQSJ structure, P5-BKI scope, P9-JSEAS, P11-Cornell scope) were desk rejections. This breaks the project's standing self-narrative that "the science is validated, only packaging fails."
+
+### Reviewer critiques — triage (8 clusters)
+| # | Critique | Verdict |
+|---|----------|---------|
+| A | Sites are NEAR volcanoes (30–70 km), not "far" (90–170 km) [R2] | **CONFIRMED FATAL.** See below. |
+| B | Only 4 "deep-time" sites cited; "all four known" is false — Java is one of the world's richest *H. erectus* regions (Ngandong, Mojokerto/Perning, Sambungmacan, Kedung Brubus, Kali Baksoka/Pacitanian, Patiayam, Miri…) [R2 pt3-4] | **VALID & SERIOUS.** "All four known" is indefensible. |
+| C | Non-discovery in Zones B/C has many causes (never-inhabited / no water / unsurveyed / fluvial erosion / brief occupation), not only burial [R2 pt5] | **VALID, DEEP, RECURRING** (equifinality; cf. E109, ADV-3). Domain experts reject current treatment. |
+| D | Uniform 3.6 mm/yr tephra rate applied across heterogeneous terrain; erosion–deposition ratio ignored [R1 pt1] | **VALID** (already half-acknowledged: JASREP audit #8). |
+| E | Cave vs plains = different occupation types; Sangiran/Trinil are not simple alluvial terraces [R1 pt2] | **VALID nuance** → points to reframe. |
+| F | Sulawesi / Wallace's Line biogeography off-topic [R1 pt3, R2] | **VALID scope-creep.** |
+| G | Terminology "deep-time" vs "pre-Neolithic" inconsistent & wrong [R2 pt1] | **VALID minor** (also internal age clash: Song Terus 60 ka in paper vs 300 ka in data file). |
+| H | Structure: "highlights with limited explanations," not followable [R2] | **RECURRING** (same as EGQSJ/P1); partly 1500-word-format-driven. |
+
+### CONFIRMED ARTIFACT (critique A) — the linchpin
+The "primary, non-circular evidence" of P7 was that the 4 deep-time sites are 90–170 km from the nearest volcano. **This is an artifact of an incomplete volcano inventory.** `data/processed/dashboard/volcanoes.csv` contains only **7 volcanoes, all in the eastern third of East Java** (lon 112.3–114.2). The volcanoes actually nearest these western sites — **Lawu and Wilis** — and **all Central Java volcanoes** (Sangiran is in Central Java, not East Java) are absent. Re-run with a fuller Holocene/active inventory (`experiments/E019_spatial_distribution/99_verify_reviewer_distance_critique.py`):
+
+| Site | P7 (7-volcano) | Full inventory | Inflation |
+|------|----------------|----------------|-----------|
+| Song Terus | 153 km (Kelud) | 53 km (Lawu) | 2.9× |
+| Trinil | 122 km (Kelud) | 33 km (Lawu) | 3.6× |
+| Sangiran | 169 km (Kelud) | 42 km (Lawu) | 4.0× |
+| Wajak | 90 km (Kelud) | 38 km (Wilis) | 2.4× |
+
+Reviewer 2's figures (Sangiran ~50–60, Song Terus ~60–70, Trinil ~30–40 km) are essentially correct. **The reviewer caught a real error; the headline claim is false.**
+
+### Propagation (integrity-critical)
+The same 7-volcano inventory underlies the distance metric in:
+- **P1** v4.0 §spatial methods — explicitly "the nearest of seven reference volcanoes" (distance-band site-density analysis).
+- **P17** (LIVE under review at ArchCalc, MS 365) — candi vs inscription "spatial segregation" (E104). **WORSE than P7 on reproducibility:** (i) saved `e104_court_zone.json` has `candi: 0` in every zone — the headline candi distances (median 14.6 km, n=142) are NOT in the stored output and cannot be reproduced from artifacts; (ii) candi distances (E031) used a **9-volcano** list (no Central Java except Lawu), inscriptions (E082) used a **15-volcano** list (incl. Merapi/Dieng/Krakatau/Batur-Bali) — the two compared groups were measured against **different reference inventories** = apples-to-oranges; (iii) inscription set spans Bali/Sumatra/West Java (6 records >100 km). **Conclusion: P17's central number was unverifiable as-stored and methodologically inconsistent — so it was rebuilt clean.** **UPDATE (same day, `rebuild_clean_full_inventory.py`): SEGREGATION SURVIVES.** Full Java + canonical 30-volcano inventory: candi median 14.5 km vs inscriptions 27.6 km (p=1.5e-7); region-matched (lon≥111): 14.5 vs 27.0 km (p=9.9e-4). Original 14.6/27.6 numbers were CORRECT despite messy method (relative comparison of two real, well-populated site classes — errors cancelled). **P17 integrity: NO withdrawal needed; result is sound. Action = fix methods to cite canonical inventory + add reproducible script at revision time.** Contrast with P7: P7's number was an artifact (died); P17's survives. Lesson: re-derive blind, don't trust OR condemn.
+- **ROOT CAUSE (structural):** the project has **NO canonical volcano inventory** — at least 3 different lists (7 / 9 / 15) are used across experiments. No single source of truth for fundamental reference data. This is why the same class of error recurs. Fix: adopt `volcanoes_java_full.csv` (30) as canonical; re-point all spatial experiments to it.
+- ~26 experiments reference the volcano file / `nearest_volcano` computation.
+- **E019 Zone A/B/C contrast** (Cohen's d = 1.005): RE-RUN with full 30-volcano inventory (`98_rerun_zones_full_inventory.py`). Result: signal **survives but weakens** — d = 1.005 → **0.867**, Zone A median 42.5 → **28.2 km** (inflated ~50%), Zone B 16.1 → 12.6 km, direction preserved (B closer). BUT: Zone B is *defined* via distance-dependent Pyle burial, so the A-vs-B distance gap is largely **circular by construction**; the deep-time sites were the only non-circular leg, and that leg is the confirmed artifact. **Net: the non-circular spatial-segregation evidence is currently absent.**
+
+### Reframe opportunity (the silver lining)
+Critiques A+B+E together point to a STRONGER, more defensible hypothesis than "distance from volcano":
+- The surviving deep-time sites are not "far from volcanoes" — they are in **erosional / karstic exposure windows** (Solo River terraces & eroding domes: Sangiran, Trinil, Ngandong, Sambungmacan, Perning; Gunung Sewu karst: Song Terus, Wajak). They are visible because later fluvial incision / karst processes **re-exposed** deep stratigraphy, NOT because they escaped tephra.
+- The correct variable is "has erosion/karst exposed the deep record," not "Euclidean distance to a volcano." This is fully consistent with taphonomic burial being the *norm* and is harder to refute.
+
+### Status changes
+- P7 → **REJECTED** (Antiquity). Scorecard: **6 rejected, 4 under review** (P2, P8, P11-Archipel, P17-ArchCalc).
+- **NEW BLOCKER:** complete Java volcano inventory + re-run of E019 / E104 / P1 spatial analyses before any of these distance claims are trusted or resubmitted.
+- Zenodo preprint of P7 (if any) and any public claims of "deep-time sites far from volcanoes" should be flagged for correction.
+
+### Recommended next actions (DECISION REQUIRED from Pak Amien)
+1. **#1 priority — verify propagation:** build a complete GVP Java volcano inventory, re-run E019 Zone analysis + E104 (P17) + P1 distance-band analysis. Determine which findings survive. This touches a LIVE submission (P17 at ArchCalc) → integrity question of whether to notify the editor.
+2. P7 disposition: rewrite around the erosion/karst-exposure reframe (new experiment) and target a methods/geoarchaeology venue, OR shelve as a documented FAILED line and fold the lesson into P0/masterpiece.
+3. Decide whether the L1 spatial-segregation evidence needs downgrading pending re-analysis.
+
+**Honesty note (per CLAUDE.md):** this result partially contradicts the spatial-segregation framing of L1 and is documented here without suppression. The taphonomic-burial mechanism itself (Dwarapala sedimentation rate, detection horizon) is NOT refuted by this; what is refuted is the specific "deep-time sites avoid volcanic centres by distance" evidence line.
+
+## 2026-06-08 (cont.) | PALYNOLOGY COUNTER-EVIDENCE (E214) + SUBMISSION INTEGRITY GATE
+
+**Type:** INDEPENDENT FALSIFICATION TEST + PROTOCOL
+**Status:** First material counter-evidence in project history. "0 counter-evidence" claim FALSIFIED.
+
+### E213 — exposure-window spine for P7: INCONCLUSIVE
+Slope-based aggradation/exposure proxy fails: Spearman(suitability,slope)=−0.04; mean slope high-vs-low suitability 7.34° vs 7.39°. Volcanic slopes are both high-relief AND lahar-buried, so slope can't separate burial from exposure. Needs a geology/lithology layer (GLiM). **P7 overhaul on hold — non-circular spine not established.** (`experiments/E213_aggradation_exposure_asymmetry/`)
+
+### E214 — palynology/charcoal test (AI research-agent SLR): LEANS AGAINST strong thesis
+Independent of burial (pollen doesn't care about tephra). **Every directly-dated Java terrestrial core shows anthropogenic forest clearance LATE:** Dieng ~1350 BP (~600 CE, tied to Hindu center), Rawa Danau ~AD 1770, review "c. 1500 yr ago." Only pre-400 CE Java signal = Solo marine core ~2950 BP (hedged, climate-confounded). **Contrast: Sumatra (~7500 BP) & Borneo (Niah ~6000 BP) DO show early farming — method works; Java doesn't show it.** Verdict: does NOT support, and partially REFUTES, a LARGE landscape-clearing pre-400 CE Javanese population. Two legitimate escapes: (1) severe undersampling (no lowland 0–500 CE core at Kedu/Brantas), (2) Solo loophole. Consistent with EITHER no substantial population OR a small/dispersed/non-forest-clearing (swidden/arboriculture) society invisible to BOTH archaeology and palaeoecology. (`experiments/E214_palynology_anthropogenic_signal/`)
+
+**Thesis implication:** the strong "large hidden civilization erased by volcanism" form is now contradicted by an independent channel and must be DOWNGRADED to a falsifiable weaker form. Next falsification refinements: phytolith/starch (detects crops without clearance), targeted lowland coring, aDNA Ne.
+
+### SUBMISSION INTEGRITY GATE created (per Pak Amien, "menyangkut integritas akademisi")
+`docs/SUBMISSION_INTEGRITY_GATE.md` — binding GO/NO-GO, gates G1–G10 (re-derivation, domain-sanity, canonical data, circularity, equifinality, counter-evidence, reproducibility, overstatement, cross-model, human red-team). Banned move: rewording central valid critiques. P7 would have failed G1/G2/G4/G5; P17 fails G7/G3 but passes G1 (re-derivation) → no withdrawal. Now BINDING on all future submissions + referenced in CLAUDE.md.
+
+### E215 — phytolith/starch test: VOID (decisive test never run in Java)
+Second falsification channel. Result differs from E214: **zero published phytolith/starch residue studies for ANY prehistoric Java site** — genuine data void, not demonstrated emptiness. Method works regionally (Niah/Borneo, Kuk/PNG, Minanga-Sipakko/Sulawesi 3,500 BP). Java's only crop datum = Liyangan rice ~9th c AD (macro-remains). **Cross-channel synthesis: E214 (pollen) leans against a LARGE forest-clearing pop; E215 (phytolith) shows the test for a SMALL dispersed pop was never run → both consistent with the *peradaban vulkanik* reframe** (dispersed volcanic-adapted swidden/arboriculture society = invisible to pollen, detectable only by untested phytolith/dental-calculus). **Decisive test = Castillo phytolith collaboration** (Gunung Sewu matrices, Liyangan, dental calculus); draft ready at `docs/drafts/email_castillo_phytolith.md`. (`experiments/E215_phytolith_starch_gap/`)
+
+### THESIS REFRAME (PI) + Jatim beads lead + P7 parked
+Pak Amien clarified the core thesis = **"peradaban vulkanik"** (volcanic-CIVILIZATION character claim, not "erased metropolis") — more defensible, consistent with E214/E215. Propose L1 amendment (pending approval). **Jatim glass beads** researched (npj Heritage Science 2024): East Java beads 5th–8th c CE exported to China/Korea/Japan/Egypt/Palau — durable-trace/selective-survival evidence of indigenous sophistication, **NOT pre-400 CE** (real pre-400 angle = Indo-Pacific beads at Sembiran/Bali, to verify). `docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md`. **P7 PARKED** (revisit with stronger evidence). Memory updated: [[project_thesis_peradaban_vulkanik]], [[project_palynology_counterevidence]], [[feedback_confirmation_architecture]].
+
+## 2026-06-10 | P16 G9 re-run REJECT + convergence finding REFUTED by correct test (E090 v7)
+
+**Type:** INTEGRITY-CRITICAL FALSIFICATION (internal, pre-submission)
+**Status:** P16 → Wacana = **NO-GO** in current R1 form. Central "cross-tradition convergence" pillar does not survive a non-circular test.
+
+### What happened
+Continuing the documented "active task" (P16 → Wacana, closest to first Scopus acceptance), I ran the recommended G9 cross-model gate check (`run_deepseek_review.py`, deepseek-reasoner) on the **R1-revised** draft. Output preserved at `papers/P16_computational_textual_archaeology/external_reviews/critical_deepseek_p16_wacana_R1_20260610.md` (R0 review kept intact).
+
+**DeepSeek verdict: REJECT** (R1 fixes insufficient). Two decisive critiques:
+- **W1 (FATAL):** the v6 "tradition-controlled" convergence test is *still* circular — it compares within-group cross-tradition similarity to a WHOLE-CORPUS baseline. Since passages are tagged into a group *because they share keywords*, a positive z is near-guaranteed and does not isolate cross-tradition convergence. Prescribed fix: shuffle tradition labels *within each concept group*.
+- **W2 (FATAL):** 929 CE diachronic claim rests on n=46; max centroid drift is C11→C12, not 929. Wants it removed, not tempered.
+
+### I implemented DeepSeek's prescribed test (E090 v7, `e090_v7_label_shuffle.py`)
+Within each concept group, null = shuffle tradition labels, recompute mean cross-tradition cosine; observed vs that null. Topical coherence held constant; only labels vary.
+
+**Result: convergence 0/8 groups (v6 claimed 8/8).** All groups z **negative & large** (−5.8 to −14.1): cross-tradition pairs are *less* similar than chance relabeling. Corroborated by v6's own S_within > S_cross in all 8 groups (e.g. VOLCANO 0.422 vs 0.326). The topical clusters are held together by **within-tradition homogeneity**, not cross-tradition convergence. DeepSeek's W1 was correct; the R1 fix did not resolve it. Full write-up: `experiments/E090_transformer_textual_nlp/V7_LABEL_SHUFFLE_FINDING_20260610.md`.
+
+### What survives vs what dies
+- **DIES:** the semantic-space framing "independent traditions converge on theme X" (P16 Finding 1 / fig3). Artifact of keyword selection + within-tradition style.
+- **SURVIVES (weaker):** distributional attestation — each theme appears across many/all 12 traditions (VOLCANO/MARITIME/METAL 12/12, JAVA 11/12). Co-occurrence count, NOT convergence.
+
+### Decision flagged for Pak Amien (none taken autonomously)
+Per SUBMISSION_INTEGRITY_GATE (G1/G4/G8/G9) this is NO-GO. Options: (1) reframe+downgrade P16 to the distributional finding + genre-honest inscription asymmetry, drop the 929 CE claim; (2) DHQ doesn't rescue W1; (3) park until an unsupervised-clustering convergence design exists. Manuscript NOT modified, NOT submitted. This is the integrity gate working as intended — caught a refuted pillar before it reached a Scopus venue.

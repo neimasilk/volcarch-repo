@@ -38,13 +38,13 @@
 |-------|--------|----------|-------|
 | 33 colonial depth records | E197 README | YES | "24 from E091 + 9 from E141" |
 | Wilcoxon p = 0.131 | E197 README line 23 | YES | "0.131 (cannot reject)" |
-| 5.8x enrichment | E141 revision ammo doc | YES | "5.8x, chi-squared p < 0.00001" |
+| 5.8x enrichment | E141 revision support material doc | YES | "5.8x, chi-squared p < 0.00001" |
 
 ## Section 7: Preliminary Results
 
 | Claim | Source | Verified | Notes |
 |-------|--------|----------|-------|
-| E141: 165 geocoded | Revision ammo + Phase 2 summary | YES | Combined across phases |
+| E141: 165 geocoded | Revision support material + Phase 2 summary | YES | Combined across phases |
 | E141: 9 depth records from newspapers | E197 README | YES | "9 from E141/newspapers" |
 | E091: 94.2% cross-validation | E091 README line 56 | YES | "94.2% (49/52)" |
 | 6 papers under review | WORKSTATE.md papers table | YES | P1, P2, P7, P8, P11, P17 |

@@ -1,4 +1,4 @@
-# Revision Ammo: Karst as Hidden Factor (E178)
+# Revision Support Material: Karst as Hidden Factor (E178)
 
 **Use when:** Reviewer asks "Why is Java uniquely dark?" or "Philippines is also volcanic but has pre-400 CE sites."
 

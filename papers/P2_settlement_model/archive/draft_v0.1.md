@@ -58,7 +58,7 @@ Paper 2 tests whether a settlement suitability model can still learn stable envi
 - Decision thresholds:
   - AUC > 0.75: GO
   - 0.65 <= AUC <= 0.75: REVISIT
-- AUC < 0.65: kill-signal territory
+- AUC < 0.65: drop-signal territory
 
 Spatially structured validation is used to avoid optimistic leakage from nearby training samples [2,3]. TSS is included to complement threshold-independent AUC interpretation [4].
 Model implementations follow established tree-ensemble formulations [5,6] via the scikit-learn ecosystem [7].

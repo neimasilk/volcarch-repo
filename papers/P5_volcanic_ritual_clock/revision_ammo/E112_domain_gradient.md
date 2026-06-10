@@ -1,4 +1,4 @@
-# P5 Revision Ammo: E112 Domain Gradient — Sanskrit Was Elite Overlay
+# P5 Revision Support Material: E112 Domain Gradient — Sanskrit Was Elite Overlay
 
 **Paper:** BKI (Diamond OA)
 **Date:** 2026-03-17

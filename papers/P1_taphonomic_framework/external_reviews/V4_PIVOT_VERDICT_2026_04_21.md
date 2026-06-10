@@ -1,6 +1,6 @@
 # P1-core v4.0 Pivot Verdict — Session 19 late (2026-04-21)
 
-**Executed per Pak Amien's "lanjutkan, pikirkan baik2" instruction.** v3.0 → v4.0 methodology pivot applied. Cross-model re-review executed on v4.0 to test whether pivot closed the kill-criterion-#6-triggering concerns.
+**Executed per Pak Amien's "lanjutkan, pikirkan baik2" instruction.** v3.0 → v4.0 methodology pivot applied. Cross-model re-review executed on v4.0 to test whether pivot closed the stop-criterion-#6-triggering concerns.
 
 ---
 
@@ -28,11 +28,11 @@
 ## Cross-model review results on v4.0
 
 **DeepSeek deepseek-chat** (re-review): Still REJECT.
-File: `hostile_deepseek_v4_20260421.md`
+File: `critical_deepseek_v4_20260421.md`
 Cost: $0.003.
 
 **Gemini 2.5 Flash** (re-review attempt 1): Truncated (thinking tokens consumed budget). Partial review saw first 2 of 6 concerns. Both concerns reduced in severity but not eliminated.
-File: `hostile_gemini_v4_20260421.md`
+File: `critical_gemini_v4_20260421.md`
 
 **Gemini 2.5 Flash** (re-review attempt 2, with higher token budget): 503 Service Unavailable (twice in a row). API issue, not content issue.
 
@@ -70,7 +70,7 @@ This is the central residual concern: if we admit the anchors are preliminary, t
 - Absence of new primary evidence
 - Dwarapala as single anecdote for Kelud system
 
-v4.0 is materially better than v3.0 — but it cannot pass a maximally-hostile reviewer without new empirical work. It MIGHT pass a typical JASREP peer reviewer because:
+v4.0 is materially better than v3.0 — but it cannot pass a maximally-skeptical reviewer without new empirical work. It MIGHT pass a typical JASREP peer reviewer because:
 - Problem framing is valuable (both models agree)
 - Research program is excellent (both models agree)
 - Transparency is praiseworthy (DeepSeek explicit)

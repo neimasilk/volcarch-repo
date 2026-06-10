@@ -15,7 +15,7 @@
 In Javanese wayang cosmology, Kawah Candradimuka is a volcanic crater 
 into which the infant Gatot Kaca is thrown. He emerges not destroyed 
 but perfected — the most powerful warrior in the pantheon. The crater 
-does not kill. It *forges*.
+does not drop. It *forges*.
 
 We propose that this is not merely metaphor. It is cultural memory 
 of an empirical process: 74,000 years of repeated volcanic stress 
@@ -274,7 +274,7 @@ SCENARIO A — Single catastrophic event:
 → Result: cultural RESET
 
 SCENARIO B — Multiple smaller events:
-→ Each event: kills poorly-adapted communities
+→ Each event: eliminates poorly-adapted communities
 → Survivors: communities with better practices
 → Cultural knowledge: refined with each event
 → Archaeological signature: continuity with 

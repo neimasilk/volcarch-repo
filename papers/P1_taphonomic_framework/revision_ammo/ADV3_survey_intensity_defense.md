@@ -1,11 +1,11 @@
-# ADV-3: Survey Intensity Defense — Revision Ammo for P1
+# ADV-3: Survey Intensity Defense — Revision Support Material for P1
 
 ## Anticipated Critique
 "The site deficit near volcanoes could simply reflect lower survey effort in volcanic terrain, not actual burial. Roads are worse, BPCB offices are distant, and fewer archaeologists work in those areas."
 
 ## Defense
 
-We conducted an adversarial regression specifically designed to test this critique (ADV-3). Using a grid-based Poisson regression over East Java:
+We conducted an critical regression specifically designed to test this critique (ADV-3). Using a grid-based Poisson regression over East Java:
 
 **Survey proxies controlled:**
 1. Road distance (from OpenStreetMap-derived raster)

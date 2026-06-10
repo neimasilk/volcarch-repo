@@ -1,6 +1,6 @@
-# Response to Hostile Cross-Model Review — P0 (DeepSeek, 2026-04-21)
+# Response to Skeptical Cross-Model Review — P0 (DeepSeek, 2026-04-21)
 
-**Review:** `hostile_deepseek_20260421.md`
+**Review:** `critical_deepseek_20260421.md`
 **Assessment given:** Reject
 **Tokens:** 8,836 (~$0.002)
 **Processing:** Before drafting P0 §3.3-3.6. Critical to address BEFORE extending draft.
@@ -9,7 +9,7 @@
 
 ## Executive verdict
 
-**Both the P1 and P0 DeepSeek hostile reviews were substantive, methodologically coherent, and produced critiques that ME#14/#15 did not articulate at this depth.** This validates the ME#15 echo-chamber hypothesis: Claude-Claude review did not surface certain methodological concerns. Two hostile reviews were executed in Session 19 (2026-04-21). Both recommend REJECT. Both suggest a modest reframing that would be publishable.
+**Both the P1 and P0 DeepSeek skeptical reviews were substantive, methodologically coherent, and produced critiques that ME#14/#15 did not articulate at this depth.** This validates the ME#15 echo-chamber hypothesis: Claude-Claude review did not surface certain methodological concerns. Two skeptical reviews were executed in Session 19 (2026-04-21). Both recommend REJECT. Both suggest a modest reframing that would be publishable.
 
 **Key common finding:** Reviews diagnose a circular dependency between P1 and P0 that the split-into-two-papers strategy does NOT resolve — it just distributes the circularity. This is a deeper critique than ME#15's "split identity" diagnosis.
 
@@ -47,7 +47,7 @@ Legend: **ACCEPT** = concern is valid; revise. **PARTIAL** = concern has merit b
 
 ### The split (Path B) does not solve the circularity
 
-ME#15 recommended splitting P1 (calibration) + P0 (synthesis) to address the "split identity" problem. Both hostile reviews argue this is insufficient. The *calibration* itself is the weak link (monuments as proxies), and the *synthesis* relies on the calibration being solid. Splitting just distributes the same circular dependency across two papers.
+ME#15 recommended splitting P1 (calibration) + P0 (synthesis) to address the "split identity" problem. Both skeptical reviews argue this is insufficient. The *calibration* itself is the weak link (monuments as proxies), and the *synthesis* relies on the calibration being solid. Splitting just distributes the same circular dependency across two papers.
 
 ### The honest publishable path
 
@@ -84,7 +84,7 @@ Both reviews independently suggest a modest version that would be publishable:
 
 2. **Draft response-to-reviewer as supplementary doc** ready for JASREP cover letter.
 
-3. **Defer P0 §3.3-3.6 drafting** until strategic decision on whether to (a) pivot per hostile review, (b) proceed and accept risk, or (c) withdraw P0 and refocus.
+3. **Defer P0 §3.3-3.6 drafting** until strategic decision on whether to (a) pivot per critical review, (b) proceed and accept risk, or (c) withdraw P0 and refocus.
 
 ### Strategic (Pak Amien decision)
 
@@ -101,14 +101,14 @@ Both reviews independently suggest a modest version that would be publishable:
 
 ## Meta-finding
 
-This is exactly the outcome ME#15 §6B predicted: **cross-model review surfaces concerns that single-model self-review misses.** Session 18 (Claude autonomous) produced Path B. Session 19 Phase 1 (Claude counter-testing self) produced 1 material qualifier + refinements. Session 19 Phase 4 (cross-model hostile review) produced fundamental methodological critiques that *neither* prior layer caught.
+This is exactly the outcome ME#15 §6B predicted: **cross-model review surfaces concerns that single-model self-review misses.** Session 18 (Claude autonomous) produced Path B. Session 19 Phase 1 (Claude counter-testing self) produced 1 material qualifier + refinements. Session 19 Phase 4 (cross-model critical review) produced fundamental methodological critiques that *neither* prior layer caught.
 
 The budget was $0.004. The value is substantial.
 
-**Recommendation to Pak Amien:** Take these hostile reviews seriously. Engage them as if they were real peer reviews. The fixes ranged from simple (change word "convergence" to "agreement") to fundamental (reframe Dwarapala's epistemic role). They are mostly actionable in 2-3 hours of focused work. They dramatically improve the paper's defensibility.
+**Recommendation to Pak Amien:** Take these skeptical reviews seriously. Engage them as if they were real peer reviews. The fixes ranged from simple (change word "convergence" to "agreement") to fundamental (reframe Dwarapala's epistemic role). They are mostly actionable in 2-3 hours of focused work. They dramatically improve the paper's defensibility.
 
 **What NOT to do:** Dismiss the reviews as "just AI" or "too harsh." The substance is legitimate. A real peer reviewer at JASREP or JAnthArch may well write something similar.
 
 ---
 
-*Response document produced 2026-04-21 Session 19. Corresponds to `hostile_deepseek_20260421.md` review files in P0/ and P1/external_reviews/.*
+*Response document produced 2026-04-21 Session 19. Corresponds to `critical_deepseek_20260421.md` review files in P0/ and P1/external_reviews/.*

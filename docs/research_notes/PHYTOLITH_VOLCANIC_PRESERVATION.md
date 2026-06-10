@@ -5,6 +5,8 @@
 **Status:** Literature review complete. STRONGLY POSITIVE for VOLCARCH.
 **Maturity:** HYPOTHESIS → TESTABLE (upgrade recommended)
 
+> **UPDATE 2026-06-08:** A systematic SLR (experiment **E215**) confirms the "exploitable gap" empirically: **no phytolith/starch residue study has ever been published for ANY prehistoric Java site**, while the method works regionally (Niah, Kuk, Minanga-Sipakko 3,500 BP). Combined with E214 (palynology leans against a *large* population) and the *peradaban vulkanik* reframe, this is now **THE decisive falsification test** — see `experiments/E215_phytolith_starch_gap/README.md`. The Castillo collaboration (`docs/drafts/email_castillo_phytolith.md`) is the mechanism.
+
 ---
 
 ## Executive Summary
@@ -161,7 +163,7 @@ Rice (*Oryza sativa*) produces multiple diagnostic phytolith types:
 
 | Paper | How to use phytolith findings |
 |-------|------------------------------|
-| **P1 (EGQSJ)** | Revision ammo: "phytolith analysis of volcanic cores could directly test the taphonomic hypothesis" — 1 sentence in Outlook section |
+| **P1 (EGQSJ)** | Revision support material: "phytolith analysis of volcanic cores could directly test the taphonomic hypothesis" — 1 sentence in Outlook section |
 | **P19 (BKI)** | Section 4 or 6: phytoliths as potential evidence of pre-Hindu agriculture, currently untested. Narrative opportunity: "the rice is still there, waiting in the ash" |
 | **Future proposal** | Collaborative project with Castillo/PVMBG: phytolith extraction from Javanese volcanic cores. Low budget, high impact. |
 

@@ -1,4 +1,4 @@
-# MASTERPIECE NOTES — The Godfather Paper
+# MASTERPIECE NOTES — The Landmark Paper
 
 **Protocol:** Slow-craft. Accumulate insights. Wait for AHA moment. Do not rush.
 **Status:** COLLECTING RAW MATERIAL

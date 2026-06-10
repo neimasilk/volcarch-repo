@@ -1,4 +1,4 @@
-# Revision Ammo: Satellite Archaeology Results (E189-E191)
+# Revision Support Material: Satellite Archaeology Results (E189-E191)
 
 **For:** P1 (EGQSJ), P17 (ArchCalc)
 **Date:** 2026-04-13

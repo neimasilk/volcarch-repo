@@ -1,7 +1,7 @@
 # L1: CONSTITUTION (UUD)
 
 **Status:** STABLE — This document changes only if core assumptions are proven wrong.
-**Last updated:** 2026-03-20 (kill criteria updated — originals were obsolete after E005 pivot)
+**Last updated:** 2026-06-08 (§1 core thesis amended → *peradaban vulkanik* character framing, per PI + E214/E215; see `docs/research_notes/L1_AMENDMENT_PROPOSAL_2026_06_08.md`). Prior: 2026-03-20 (falsification criteria).
 
 ---
 
@@ -13,7 +13,7 @@ Investigate how volcanic processes have shaped — and hidden — the archaeolog
 2. **Detect** pre-Austronesian and pre-Indic substrates preserved in language and ritual (Papers 5, 8);
 3. **Test** whether volcanic events drove political and cultural transitions (Papers 7, 14).
 
-The core thesis: **the perceived absence of pre-4th century civilisation in western Indonesia reflects taphonomic loss compounded by insufficient survey intensity, not genuine cultural absence.** Volcanic burial, coastal submersion, and historiographic bias have rendered an entire civilisational stratum invisible — and Indonesia's archaeological infrastructure has been insufficient to recover what volcanism has hidden.
+The core thesis (amended 2026-06-08): **pre-Indic Nusantara developed a distinct *volcanic civilisation* (*peradaban vulkanik*) — a society organised around and adapted to volcanic landscapes (fertile andisols, eruption cycles, mountain cosmology, dispersed upland settlement), structurally unlike the great river-valley civilisations of Egypt, Mesopotamia, Persia, and China.** Its apparent "late start" — the first Indian-script inscriptions of ~400 CE — marks not its inception but the moment it became *textually visible*. The civilisation itself was rendered hard to see by three compounding invisibilities: **archaeological** (dispersed settlement, largely perishable material culture, and taphonomic burial under volcanic sediment — the original H1, compounded by insufficient survey intensity); **palaeoecological** (volcanic-adapted swidden/arboriculture rather than landscape-scale forest clearance, leaving a weak pollen signature); and **historiographic** (oral/perishable transmission until Indian script was adopted). This is a claim about the *character and visibility* of a civilisation, not merely the burial of a stratum. It is falsifiable — it predicts distinctive volcanic-adapted material culture, cosmology, and cultivation with pre-Indic roots — and contrary evidence is reported honestly (e.g., the palynological channel does not currently support a *large* forest-clearing pre-400 CE population; see JOURNAL 2026-06-08 / E214). H1–H3 below are the supporting mechanisms of the archaeological-invisibility leg, not the headline.
 
 ## 2. Core Hypotheses
 
@@ -92,7 +92,7 @@ The Dwarapala rate of 3.6 mm/year is one point. Extrapolating spatially from one
 - Literature-based data collection and synthesis
 - Open-data analysis (DEM, satellite imagery, eruption records)
 - Producing probability maps and predictions
-- Proposing fieldwork targets for domain experts
+- Proposing fieldwork candidates for domain experts
 
 ### Out of Scope
 - Conducting archaeological excavations ourselves
@@ -107,26 +107,26 @@ The Dwarapala rate of 3.6 mm/year is one point. Extrapolating spatially from one
 - **No sensationalism.** We do not claim to have "found lost civilizations." We build tools to help look.
 - **Open science.** Code and non-sensitive data are open source. Papers target open-access journals where feasible.
 
-## 9. Kill Criteria
+## 9. Falsification Criteria
 
-> **Update 2026-03-20:** Original kill criteria (H1 correlation, AUC threshold) were tested in E005 and E007-E013. E005 failed to show direct H1 correlation from observable data; the project pivoted rather than killed (correctly — the signal was masked by survey bias, confirmed by E069 p=0.0015). AUC threshold was met (0.768). The criteria below replace the originals with conditions that reflect the project's current state.
+> **Update 2026-03-20:** Original falsification criteria (H1 correlation, AUC threshold) were tested in E005 and E007-E013. E005 failed to show direct H1 correlation from observable data; the project pivoted rather than discontinued (correctly — the signal was masked by survey bias, confirmed by E069 p=0.0015). AUC threshold was met (0.768). The criteria below replace the originals with conditions that reflect the project's current state.
 
-> **Update 2026-04-21 (Session 19):** Criteria #1 (cascade) and #3 (comparandum) were audited in `docs/research_notes/KILL_CRITERION_AUDIT_2026_04_21.md` and found to be either incoherent with current state (#1 after E176 over-parameterization) or non-operational (#3 without measured rate comparison). Session 19 also executed first cross-model hostile review (DeepSeek) which surfaced methodological concerns not caught by self-review. The updated criteria below address both issues and add a new cross-model trigger. These updates were explicitly approved by Pak Amien ("saya percaya kamu").
+> **Update 2026-04-21 (Session 19):** Criteria #1 (cascade) and #3 (comparandum) were audited in `docs/research_notes/STOP_CRITERION_AUDIT_2026_04_21.md` and found to be either incoherent with current state (#1 after E176 over-parameterization) or non-operational (#3 without measured rate comparison). Session 19 also executed first cross-model critical review (DeepSeek) which surfaced methodological concerns not caught by self-review. The updated criteria below address both issues and add a new cross-model trigger. These updates were explicitly approved by Pak Amien ("saya percaya kamu").
 
 ### Abandon the research line if:
-- **Cascade underdetermination (UPDATED 2026-04-21):** The 5-factor cascade has been demonstrated by E176 to be over-parameterized — 83.8% of random 5-factor draws bracket observation, and 3-factor minimal models achieve the same fit (AIC 6.73 vs 5-factor AIC 6.25). The cascade is therefore **retained only as pedagogical illustration of compound taphonomy, not as validation of the specific multi-factor framework.** Papers that argue from specific numerical cascade match (e.g., legacy P1 §5.5) must reframe to argue from the six-filter structure instead. The cascade-as-explanatory-model criterion is considered **PARTIALLY TRIGGERED as of 2026-04-21.** This does not kill the research line — it retires one of its rhetorical supports.
+- **Cascade underdetermination (UPDATED 2026-04-21):** The 5-factor cascade has been demonstrated by E176 to be over-parameterized — 83.8% of random 5-factor draws bracket observation, and 3-factor minimal models achieve the same fit (AIC 6.73 vs 5-factor AIC 6.25). The cascade is therefore **retained only as pedagogical illustration of compound taphonomy, not as validation of the specific multi-factor framework.** Papers that argue from specific numerical cascade match (e.g., legacy P1 §5.5) must reframe to argue from the six-filter structure instead. The cascade-as-explanatory-model criterion is considered **PARTIALLY TRIGGERED as of 2026-04-21.** This does not discontinue the research line — it retires one of its rhetorical supports.
 - **Within-island control fails:** New evidence shows pre-400 CE sites ARE present in volcanic East Java at comparable density to non-volcanic West Java (Buni/Batujaya), eliminating the taphonomic signal. *Current state (2026-04-21): HOLDS. Reinforced by Session 19 Batujaya documentation.*
 - **External comparandum falsification (REFINED 2026-04-21):** Discovery of pre-400 CE open-air archaeological sites in a volcanic tropical setting with both: (a) measured total tephra deposition rate within 2× of Java's 4.4 mm/yr, **and** (b) karst cover below 5% of terrain (matching Java's volcanic interior). *Current state (2026-04-21): Philippines has pre-400 CE volcanic sites, but neither (a) nor (b) is operationally verified — Philippines has lower volcanic density (0.07 vs 0.35 active volcanoes per 1{,}000 km²) and abundant karst. The comparison therefore does NOT falsify, but this is a preliminary status until (a) and (b) are measured.*
 - **3 or more peer reviews** (not desk rejects) provide substantive methodological critiques that cannot be addressed — i.e., the *method* is judged flawed, not just the *framing* or *journal fit*. *Current state (2026-04-21): UNTESTED. All rejections have been desk-level.*
 - **Domain expert consensus** (≥2 independent archaeologists or geologists with Java expertise) judges the framework fundamentally unsound. *Current state (2026-04-21): UNTESTED. No domain expert has engaged.*
-- **Cross-model methodology critique (NEW 2026-04-21):** Two or more independent cross-model hostile reviews (different training corpus, e.g., DeepSeek + Gemini + GPT) converge on the same methodological flaw that cannot be addressed by revision. *Current state (2026-04-21): Session 19 DeepSeek hostile review of P1-core v3.0 identified "calibration is not a calibration" (monument as proxy for landscape rate). This is a **single-model finding**; criterion triggers only if independently replicated by a second model. Action: run Gemini or GPT hostile review before JASREP submission to confirm or falsify this concern.*
+- **Cross-model methodology critique (NEW 2026-04-21):** Two or more independent cross-model skeptical reviews (different training corpus, e.g., DeepSeek + Gemini + GPT) converge on the same methodological flaw that cannot be addressed by revision. *Current state (2026-04-21): Session 19 DeepSeek critical review of P1-core v3.0 identified "calibration is not a calibration" (monument as proxy for landscape rate). This is a **single-model finding**; criterion triggers only if independently replicated by a second model. Action: run Gemini or GPT critical review before JASREP submission to confirm or falsify this concern.*
 
 ### Pivot the research line if:
 - **All computational journals reject P1:** Reframe from "taphonomic bias framework" to "survey priority model" — keep E110 cascade + E080/E097 fieldwork targeting, drop the civilizational claims
 - **P2 settlement model fails peer review on tautology grounds:** Redesign with presence-only methods (MaxEnt) or abandon ML approach for rule-based expert system
 - **No acceptance after 6 submissions across different journals:** The work may not be publishable as currently structured — consider consolidating into 1-2 comprehensive papers instead of 6+. *Current state (2026-04-21): 5 rejected + 5 under review. Any one of current 5 rejecting crosses threshold — watch closely.*
 - **Fieldwork partner found:** Pivot from computational-only to computational+empirical — this is the DESIRED pivot that would resolve the zero-ground-truth problem
-- **Hostile reviews recommend reframe (NEW 2026-04-21):** If cross-model hostile review recommends reframing a paper as "critical review + research proposal" rather than empirical finding (both Session 19 DeepSeek reviews of P1-core v3.0 and P0 draft v0.1 did this), adopt that reframe for that specific paper before submission. This is a paper-level pivot, not a program-level pivot.
+- **Skeptical reviews recommend reframe (NEW 2026-04-21):** If cross-model critical review recommends reframing a paper as "critical review + research proposal" rather than empirical finding (both Session 19 DeepSeek reviews of P1-core v3.0 and P0 draft v0.1 did this), adopt that reframe for that specific paper before submission. This is a paper-level pivot, not a program-level pivot.
 
 ---
 

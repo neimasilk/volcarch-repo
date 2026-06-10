@@ -231,7 +231,7 @@ Explicit list. Each with: method, expected outcome if framework correct, expecte
 7. **Phytolith extraction (Liangan or equivalent):** Should find domesticated rice and tuber phytoliths at depths matching Hindu-Buddhist era.
 8. **DEM depression detection + field verification:** Predicted depression anomalies at >10 sites; >1 should be archaeological when verified.
 
-**Kill criteria** (inherited from L1 §9, hardened):
+**Stop criteria** (inherited from L1 §9, hardened):
 - If ≥3 of the above predictions fail independently: the framework is falsified.
 - If Philippines pre-400 CE sites turn out to be retracted or misdated: the comparative channel collapses.
 - If independent aDNA recovery from volcanic Java succeeds, the genomic taphonomy argument requires revision.
@@ -239,7 +239,7 @@ Explicit list. Each with: method, expected outcome if framework correct, expecte
 ### §8. Limitations and Methodological Caveats (~500 words)
 
 1. **Zero physical evidence from field.** The framework rests entirely on computational and literature-based analysis. No core, no excavation, no phytolith.
-2. **Single-research-pair echo chamber.** 207 experiments by one human-AI dyad. Cross-model hostile review is a partial mitigation but not a substitute for peer engagement.
+2. **Single-research-pair echo chamber.** 207 experiments by one human-AI dyad. Cross-model critical review is a partial mitigation but not a substitute for peer engagement.
 3. **Cascade underdetermination (E176).** Multiple parameterizations bracket observation. The cascade is diagnostic, not predictive.
 4. **Dataset concentration.** ~25 experiments depend on DHARMA (268 inscriptions). The colonial archive, wayang, and genomic channels mitigate but do not eliminate this.
 5. **Comparative independence limits.** Philippines and Java share Austronesian cultural heritage; the comparison controls for ecology but not for all confounders.
@@ -320,12 +320,12 @@ Explicit list. Each with: method, expected outcome if framework correct, expecte
 - P1-core v3.0: surgical cut from v2.0 (remove §2.2 demographic, §2.5 West Java, §5.5 cascade; refocus to calibration + projection + detection horizon). Target 15-18pp.
 - P0 draft v0.2: integrate §1-3 from existing materials. Target 4,000 words.
 - Fix P1 audit #1 arithmetic regardless of path.
-- Draft hostile reviewer prompt for DeepSeek / cross-model use.
+- Draft skeptical reviewer prompt for DeepSeek / cross-model use.
 
 ### Week 2 (2026-04-28 to 2026-05-04)
 - P0 draft v0.3: §4-5 (selective survival + wayang). Target 6,500 words.
 - P1-core final check + audit fixes + elsarticle reformat.
-- Cross-model hostile review on P1-core. Iterate.
+- Cross-model critical review on P1-core. Iterate.
 
 ### Week 3 (2026-05-05 to 2026-05-11)
 - P1-core SUBMIT to JASREP.

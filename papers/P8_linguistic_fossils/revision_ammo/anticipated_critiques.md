@@ -1,4 +1,4 @@
-# P8 Revision Ammo: Anticipated Critiques & Pre-Computed Responses
+# P8 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "Detecting Pre-Austronesian Substrate Signals in Western Indonesian Languages Using Machine Learning"
 **Journal:** Oceanic Linguistics (Q1, UH Press), MS# OL-03-2026-11

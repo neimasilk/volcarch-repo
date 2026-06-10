@@ -54,7 +54,7 @@
 ### 5. Discussion (2,000 words)
 - 5.1 "Vocabulary Archaeology" as Method (6th recovery channel)
 - 5.2 Reframing the "Hindu Period" (elite overlay, not transformation)
-- 5.3 The West Java Smoking Gun (Buni + Batujaya within-island control)
+- 5.3 The West Java Decisive Case (Buni + Batujaya within-island control)
 - 5.4 Implications for the Indianization Debate (new model: "terminological overlay")
 - 5.5 Limitations
 

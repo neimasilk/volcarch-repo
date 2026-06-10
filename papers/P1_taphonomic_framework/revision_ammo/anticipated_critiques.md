@@ -1,11 +1,11 @@
-# P1 Revision Ammo: Anticipated Critiques & Pre-Computed Responses
+# P1 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "Volcanic Taphonomic Bias in Indonesian Archaeological Records: A Sedimentation-Rate Framework"
 **Journal:** Asian Perspectives (Q1), MS# 019A-0326
 **Author:** Mukhlis Amien (single-author)
 **Prepared:** 2026-03-12
 
-**Note:** Companion file `E040_bamboo_civilization.md` in this folder provides specific ammo for the organic material culture argument.
+**Note:** Companion file `E040_bamboo_civilization.md` in this folder provides specific supporting material for the organic material culture argument.
 
 ---
 
@@ -116,7 +116,7 @@ We note that our empirical calibration (measured burial depths at known-age site
 - **P2 → P1:** P2's predictive model independently identifies Zone B as high-probability/zero-site — same conclusion from ML rather than geological modeling.
 - **P7 → P1:** P7's spatial segregation (Cohen's d=1.005) provides statistical confirmation of the geographic pattern P1 explains mechanistically.
 - **P9 → P1:** P9's peripheral conservatism framework provides an independent reason to expect that volcanic-zone cultural evidence was buried rather than never created.
-- **E040 → P1:** See companion file. Strongest single piece of revision ammo.
+- **E040 → P1:** See companion file. Strongest single piece of revision support material.
 - **ADV-2 → P1:** Site-type ratios are NOT valid L1 evidence. See `ADV2_depth_vs_sitetype.md` and `ADV2_honest_assessment.md`.
 - **ADV-3 → P1:** Volcanic signal survives survey intensity control (p=0.0015). See `ADV3_survey_intensity_defense.md`.
 - **E083 → P1:** 51 eruption-site pairs with physical burial measurements. Strongest independent evidence.

@@ -1,4 +1,4 @@
-# Hostile Cross-Model Review — P0 — gemini-2.5-flash
+# Skeptical Cross-Model Review — P0 — gemini-2.5-flash
 
 **Paper:** `D:\documents\volcarch-repo\papers\P0_invisible_civilization\draft_v0.1.tex`
 **Model:** `gemini-2.5-flash`

@@ -1,6 +1,6 @@
 # Cross-Model Convergence Analysis — Session 19 (2026-04-21)
 
-**Context:** L1 §9 Kill Criterion #6 specifies: *"If two or more independent hostile cross-model reviews (different training corpus, different prompt instance) converge on the same methodological flaw that cannot be addressed by revision, the corresponding claim must be withdrawn."*
+**Context:** L1 §9 Stop Criterion #6 specifies: *"If two or more independent skeptical cross-model reviews (different training corpus, different prompt instance) converge on the same methodological flaw that cannot be addressed by revision, the corresponding claim must be withdrawn."*
 
 **Two reviews completed:**
 - **DeepSeek** (`deepseek-chat`, Chinese-trained corpus) on P1 + P0
@@ -53,11 +53,11 @@
 
 ---
 
-## L1 §9 Kill Criterion #6 — STATUS
+## L1 §9 Stop Criterion #6 — STATUS
 
 **TRIGGERED for both P1-core v3.0 and P0 draft v0.1.**
 
-Both independent cross-model hostile reviews converge on the same class of methodological flaws. This is a formal kill-criterion trigger per the updated L1 §9 (session 19).
+Both independent cross-model skeptical reviews converge on the same class of methodological flaws. This is a formal stop-criterion trigger per the updated L1 §9 (session 19).
 
 ### What the criterion requires
 
@@ -79,23 +79,23 @@ Per criterion text: *"the corresponding claim must be withdrawn."*
 
 ## Pivot criterion also TRIGGERED
 
-L1 §9 new pivot criterion (added session 19): *"If cross-model hostile review recommends reframing the paper as 'critical review + research proposal' rather than empirical finding, adopt that reframe for that specific paper before submission."*
+L1 §9 new pivot criterion (added session 19): *"If cross-model critical review recommends reframing the paper as 'critical review + research proposal' rather than empirical finding, adopt that reframe for that specific paper before submission."*
 
 **Both models recommended identical reframes:**
 - P1-core → methodology/research-proposal framing
 - P0 → Channel 1 + methodology only
 
-This is **triggered**. Paper-level pivot is now mandated by our own kill criterion.
+This is **triggered**. Paper-level pivot is now mandated by our own stop criterion.
 
 ---
 
 ## Implications for Session 20 priorities
 
-### Must do (per our own kill criterion)
+### Must do (per our own stop criterion)
 
 1. **P1-core v3.0 → P1-core v4.0 pivot:** Rewrite to remove "calibration" framing, re-present as "detection horizon hypothesis + research proposal for rigorous geoarchaeological testing." Keep data and analysis; change epistemic status of claims.
 
-2. **P0 reframe decision:** Either (a) reduce to Channel 1 + methodology ("Archaeological Invisibility in Volcanic Tropical Landscapes: A Framework"), or (b) withdraw grand synthesis until direct evidence arrives. Option (c) "proceed with current" is now incompatible with triggered kill criterion #6.
+2. **P0 reframe decision:** Either (a) reduce to Channel 1 + methodology ("Archaeological Invisibility in Volcanic Tropical Landscapes: A Framework"), or (b) withdraw grand synthesis until direct evidence arrives. Option (c) "proceed with current" is now incompatible with triggered stop criterion #6.
 
 3. **Update WORKSTATE** to reflect that JASREP submission of P1-core v3.0 is now blocked by criterion #6. Revised target: P1-core v4.0 (with methodological reframe) ready in 2-3 weeks.
 
@@ -116,4 +116,4 @@ This is **triggered**. Paper-level pivot is now mandated by our own kill criteri
 
 ---
 
-*Cross-model convergence analysis produced 2026-04-21 Session 19. Both P1-core and P0 kill-criterion #6 triggered. Pivot mandated.*
+*Cross-model convergence analysis produced 2026-04-21 Session 19. Both P1-core and P0 stop-criterion #6 triggered. Pivot mandated.*

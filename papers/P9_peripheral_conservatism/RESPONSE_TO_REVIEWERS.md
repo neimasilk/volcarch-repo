@@ -14,7 +14,7 @@ We thank the reviewers for their detailed and constructive engagement with the m
 
 ## Reviewer 1 (ChatGPT)
 
-### Thesis Killers
+### Thesis Decisive Critiques
 
 **1.1 "Civilization" overclaim — "This reads as an argument for an organic Nusantaran civilization, but the paper doesn't actually prove that."**
 
@@ -162,7 +162,7 @@ We acknowledge this concern for final submission. The current figures (matplotli
 
 ## Reviewer 2 (Gemini)
 
-### Thesis Killers
+### Thesis Decisive Critiques
 
 **G1 Javanese register confound (Krama/Ngoko) — "The ABVD Javanese wordlist may contain Krama (high-register) forms derived from Sanskrit, artificially deflating PMP cognacy for Javanese and inflating the Balinese advantage."**
 
@@ -252,7 +252,7 @@ The revision acknowledges the political reality while maintaining the taphonomic
 
 ## Round 2 Addendum (Final Pre-Submission Review)
 
-Both reviewers confirmed that all Round 1 thesis killers have been resolved. Three residual attack surfaces were identified:
+Both reviewers confirmed that all Round 1 thesis decisive critiques have been resolved. Three residual critique surfaces were identified:
 
 ### R2-1. Convergent evolution defense strengthened (ChatGPT 2.1)
 
@@ -294,4 +294,4 @@ Changed "IGNORE. Within journal limits." to "We respectfully note that the manus
 | Body words | ~7,650 |
 | Total words | ~10,100 |
 | LaTeX errors | 0 |
-| Remaining attack surfaces | 0 thesis killers, ~2 interpretive debates (normal) |
+| Remaining critique surfaces | 0 thesis decisive critiques, ~2 interpretive debates (normal) |

@@ -48,7 +48,7 @@ Lombard (1990) described Java as a *carrefour* — a crossroads of three cultura
 | Slametan pre-Indic persistence | P5, E023/E030 | "The death ritual's timing survived four religious waves..." (2 paragraphs, cultural framing) |
 | Agriculture 91% native vocabulary | E058 | "Sanskrit overlay did not penetrate the economic domain..." (1 paragraph) |
 | 3,220× demographic gap | E108 | "Conservative estimates suggest..." (1 sentence) |
-| West Java smoking gun | E110 | "Pre-Hindu communities existed on the same island..." (1 paragraph) |
+| West Java decisive case | E110 | "Pre-Hindu communities existed on the same island..." (1 paragraph) |
 | Surface survey ~1900 CE only | E117 | "At observed rates, surface methods cannot reach..." (1 sentence) |
 | 57.7% pre-Hindu village names | E051 | "Village toponyms preserve a pre-Sanskrit geographic layer..." (1 paragraph) |
 

@@ -1,4 +1,4 @@
-# HANDOFF: Mata Elang #12 Autonomous Session (2026-03-31)
+﻿# HANDOFF: Mata Elang #12 pipeline-driven session (2026-03-31)
 
 **Dari:** Claude (sesi otonom)
 **Untuk:** Pak Amien
@@ -34,8 +34,8 @@ Saya menjalankan sesi otonom terpanjang VOLCARCH. Dari 153 → 174 eksperimen. T
 
 ### Prioritas 3: Interactive Map
 - **File:** `maps/volcarch_prediction_map.html`
-- **Buka di browser.** Toggle layers: volcanoes, candi, inscriptions, sites, fieldwork targets.
-- **ACTION:** Review, especially fieldwork targets — apakah lokasi masuk akal?
+- **Buka di browser.** Toggle layers: volcanoes, candi, inscriptions, sites, fieldwork candidates.
+- **ACTION:** Review, especially fieldwork candidates — apakah lokasi masuk akal?
 
 ### Prioritas 4: Borehole Protocol
 - **File:** `docs/fieldwork/BOREHOLE_PROTOCOL_v1.md`
@@ -85,12 +85,12 @@ Saya menjalankan sesi otonom terpanjang VOLCARCH. Dari 153 → 174 eksperimen. T
 | Priority GeoTIFF | `experiments/E167_.../results/priority_score.tif` |
 | Prediction Registry | `experiments/E171_.../predictions.json` |
 | AutoResearch Runner | `tools/autoresearch/` |
-| Manifesto v4.2 | `docs/drafts/manifesto.md` |
+| Research Statement v4.2 | `docs/drafts/manifesto.md` |
 | Synthesis Figure | `experiments/E174_.../results/volcarch_synthesis_6panel.png` |
 | VOLCARCH Narrative | `docs/dissemination/narrative_volcarch.md` |
 | Population Trajectories | `experiments/E172_.../results/trajectories.npz` |
-| P1 Revision Ammo | `papers/P1_.../revision_ammo/E172_population_dynamics.md` |
-| P17 Revision Ammo | `papers/P17_.../revision_ammo/ME12_new_evidence.md` |
+| P1 Revision Support Material | `papers/P1_.../revision_ammo/E172_population_dynamics.md` |
+| P17 Revision Support Material | `papers/P17_.../revision_ammo/ME12_new_evidence.md` |
 
 ---
 
@@ -119,7 +119,7 @@ git add docs/ maps/ tools/autoresearch/
 git add papers/P17_two_javas/ papers/P1_taphonomic_framework/revision_ammo/
 git add README.md
 
-git commit -m "feat: ME#12 autonomous session — 22 experiments (E154-E175), 175 total
+git commit -m "feat: ME#12 pipeline-driven session — 22 experiments (E154-E175), 175 total
 
 - ME#12 structural critique (verification ladder, echo chamber)
 - E154 FDR 78.3% (up from 73.2%), E048 rescued
@@ -137,7 +137,7 @@ git commit -m "feat: ME#12 autonomous session — 22 experiments (E154-E175), 17
 - E175 candi spatial stats (R=0.171, extremely clustered)
 - P17 v0.3 ArchCalc ready
 - Interactive map, borehole protocol, prediction registry
-- Manifesto v4.2, AutoResearch runner v0.1
+- Research Statement v4.2, AutoResearch runner v0.1
 
 Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
 ```
@@ -145,3 +145,4 @@ Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
 ---
 
 *"175 eksperimen. 3,3 juta penduduk. 11.008x gap. 1.789 situs hilang. 230 kata hantu. Satu kata yang menghilang: aku."*
+

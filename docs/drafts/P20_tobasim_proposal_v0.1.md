@@ -154,7 +154,7 @@ Peta topografi Sundaland pada 74.000 tahun lalu menunjukkan:
 - UV spike duration (dari ozone depletion model)
 
 **Framework analisis:**
-1. **Habitat disruption:** Abu >10 cm → complete vegetation kill. Abu 1–10 cm → partial disruption. Abu <1 cm → recoverable dalam 1–3 tahun.
+1. **Habitat disruption:** Abu >10 cm → complete vegetation drop. Abu 1–10 cm → partial disruption. Abu <1 cm → recoverable dalam 1–3 tahun.
 2. **Savanna loss:** H. soloensis adalah spesies savanna-adapted (punah saat savanna → hutan tropis). Abu tebal di savanna corridor Jawa Tengah = habitat loss langsung.
 3. **Food web collapse:** Extinctions megafauna pasca-Toba terdokumentasi. Loss of primary prey species → population crash untuk predator/scavenger besar.
 4. **Population viability analysis:** Dengan population size estimates dari fosil record, berapa lama isolated population bisa bertahan di refugia pasca-Toba?

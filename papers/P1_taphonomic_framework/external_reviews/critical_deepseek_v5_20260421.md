@@ -1,4 +1,4 @@
-# Hostile Cross-Model Review — P1 — deepseek-chat
+# Skeptical Cross-Model Review — P1 — deepseek-chat
 
 **Paper:** `D:\documents\volcarch-repo\papers\P1_taphonomic_framework\submission_v5.0.tex`
 **Model:** `deepseek-chat`

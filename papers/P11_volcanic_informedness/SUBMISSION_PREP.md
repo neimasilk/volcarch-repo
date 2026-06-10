@@ -62,7 +62,7 @@ pandoc draft_v0.3_chicago.tex --from=latex --to=docx -o draft_v0.3_cornell_chica
 
 - [ ] Read aloud for flow (especially Japan paragraph)
 - [x] Verify all numbers match experiment READMEs — ALL MATCH (checked 2026-03-16)
-- [ ] Decide: include fieldwork target table or keep "available on request"?
+- [ ] Decide: include fieldwork candidate table or keep "available on request"?
 - [ ] Clean up Word file (Unicode, figures, tables, footnotes)
 - [ ] Write cover letter
 - [ ] **Confirm GitHub repo is public** before submission (data availability statement references it)

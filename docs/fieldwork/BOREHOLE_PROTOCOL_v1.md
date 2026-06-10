@@ -1,4 +1,4 @@
-# VOLCARCH Borehole Targeting Protocol v1.0
+# VOLCARCH Borehole Site-Selection Protocol v1.0
 
 **Purpose:** 20 geotechnical boreholes at predicted buried-site locations. $6,000 budget. Cheapest possible decisive test of the VOLCARCH framework.
 **Status:** READY TO EXECUTE (needs funding + geotechnical company contact)
@@ -177,4 +177,4 @@ If ANY borehole hits a clear cultural layer at predicted depth:
 
 ---
 
-*Protocol prepared by VOLCARCH project, 2026-03-31. Based on E080 (fieldwork targets), E097 (anomaly detection), E116 (testable predictions), E138 (detection probability), E139 (cost-benefit analysis).*
+*Protocol prepared by VOLCARCH project, 2026-03-31. Based on E080 (fieldwork candidates), E097 (anomaly detection), E116 (testable predictions), E138 (detection probability), E139 (cost-benefit analysis).*

@@ -1,8 +1,8 @@
-# Hostile Peer Review — P1 v2.0 JASREP
+# Skeptical Peer Review — P1 v2.0 JASREP
 
 **Reviewed manuscript:** `submission_jasrep_v2.0.tex` (2026-04-20 state, post audit-#1 fix)
 **Reviewer persona:** Senior Southeast Asian archaeologist with 25+ years Java field experience
-**Produced by:** Claude (persona-adopted), simulating external review per `tools/hostile_reviewer_prompt.md`
+**Produced by:** Claude (persona-adopted), simulating external review per `tools/critical_reviewer_prompt.md`
 **Status:** NOT a real peer review. A simulated pre-commit check. Real external review still required.
 **Cross-model redundancy:** NOT RUN. Recommend also running on DeepSeek R1 + GPT-5 before submission.
 
@@ -44,7 +44,7 @@ Section 2.2 (demographic null hypothesis, now correctly arithmeticized to 1-2 mi
 
 A geoarchaeology paper on volcanic sedimentation rates does not need a cascade model, a demographic null, and a comparative archaeology argument. Readers coming to this paper for the calibration will find these sections distracting. Readers coming for the "invisible civilization" argument will find the calibration underspecified for their purposes.
 
-More concerning, each of these ancillary sections opens attack surfaces that are disproportionate to the calibration's value:
+More concerning, each of these ancillary sections opens critique surfaces that are disproportionate to the calibration's value:
 - The demographic estimate at 1-2M has uncertainty ranges that span an order of magnitude.
 - The Buni/Batujaya comparison is weakened by the authors' own caveat that coastal-interior economic divergence is a confounder.
 - The cascade model's "0.058% matches 0.031%" claim is, as the authors admit in the limitations, consistent with parameter uncertainty being larger than the claimed match.
@@ -81,7 +81,7 @@ Moreover, the prediction is conditional on funding ($40-100K, 2-4 weeks). The pr
 
 ### 3.7 The "circular trap" issue is mentioned but not resolved
 
-§4.4 identifies three reasons distribution data cannot test the framework: survivorship, survey, and discovery-mechanism bias. The conclusion is "the taphonomic bias hypothesis therefore cannot be confirmed or rejected from distribution data alone." This is honest but it means §3 and §4 of the paper do NOT test the framework they claim. The test is §5.3 (projections + fieldwork targets) + §7 (predictions). The intervening sections are scaffolding.
+§4.4 identifies three reasons distribution data cannot test the framework: survivorship, survey, and discovery-mechanism bias. The conclusion is "the taphonomic bias hypothesis therefore cannot be confirmed or rejected from distribution data alone." This is honest but it means §3 and §4 of the paper do NOT test the framework they claim. The test is §5.3 (projections + fieldwork candidates) + §7 (predictions). The intervening sections are scaffolding.
 
 **Recommendation:** Either reorganize so that §3-4 are methods for §5-6, or explicitly flag §3-4 as "descriptive context" rather than "empirical test."
 
@@ -156,7 +156,7 @@ Remove everything else. Submit the synthesis paper separately.
 
 ## Post-Review Triage (for Pak Amien)
 
-The hostile review flags **six actionable items** that should inform P1-core rewrite regardless of Path A/B/C:
+The critical review flags **six actionable items** that should inform P1-core rewrite regardless of Path A/B/C:
 
 | # | Item | Severity | Fix effort |
 |---|---|:---:|:---:|
@@ -172,10 +172,10 @@ The hostile review flags **six actionable items** that should inform P1-core rew
 
 **If Path A (Monday submit):** Minimum fixes are 3.1, 3.4, 4.1, 4.3, 4.4. Drop 3.3 (surgical cut) and 3.5 (registration). Estimated 6-8 hours.
 
-**If Path B (2-week pause):** All items addressed. 3.3 becomes the defining action. Estimated 2-3 focused days for P1-core; hostile-review findings directly inform the restructuring.
+**If Path B (2-week pause):** All items addressed. 3.3 becomes the defining action. Estimated 2-3 focused days for P1-core; skeptical-review findings directly inform the restructuring.
 
 ---
 
-*Hostile review produced 2026-04-20 per Mata Elang #15 recommendation.*
+*Critical review produced 2026-04-20 per Mata Elang #15 recommendation.*
 *This is a SIMULATED review. Real external review still required before submission.*
 *Recommended next step: run the same prompt on DeepSeek R1 or GPT-5 for cross-model triangulation.*

@@ -272,6 +272,6 @@ Note: The SHAP beeswarm plot (Figure 1) was trained with character-count form_le
 | 3 | 3 | 3/3 (methodology reframed + caveats + limitation) |
 | **Total** | **14** | **14/14** |
 
-No remaining thesis killers identified by either reviewer after 3 rounds.
+No remaining thesis decisive critiques identified by either reviewer after 3 rounds.
 
 *Updated 2026-03-11 after Round 3 reviews.*

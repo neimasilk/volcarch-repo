@@ -1,6 +1,9 @@
 ---
 subfield: 05 Paleogenomics of Indonesian Populations
 session: 18 (2026-04-20)
+genetics_folder: /genetics/bibliography_paleogenomics/_SUBFIELD_SUMMARY_paleogenomics_session18.md
+note: "Konten dipindahkan ke /genetics/. File ini tetap ada sebagai referensi. Gunakan Opus 4.8 untuk sesi yang membahas channel ini."
+---
 status: RISK ZONE TESTED — no counter-evidence found; VOLCARCH claim holds
 ---
 
@@ -32,7 +35,7 @@ status: RISK ZONE TESTED — no counter-evidence found; VOLCARCH claim holds
 
 "The humid tropics are very unforgiving on DNA preservation in ancient human bones and teeth."
 
-Universal acknowledgment in the field that tropical contexts are DNA-hostile. **The karst/cave vs volcanic/open-air differential is precisely VOLCARCH's predicted pattern:** protected microenvironments preserve DNA; exposed tropical volcanic contexts destroy it.
+Universal acknowledgment in the field that tropical contexts are DNA-skeptical. **The karst/cave vs volcanic/open-air differential is precisely VOLCARCH's predicted pattern:** protected microenvironments preserve DNA; exposed tropical volcanic contexts destroy it.
 
 ### 3. Does this subfield contradict VOLCARCH?
 

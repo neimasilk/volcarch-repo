@@ -89,4 +89,4 @@ Both cultures received Brahmic scripts. Japan encoded Indian philosophy. Java en
 
 ---
 
-*Documented 2026-03-11. Do NOT add to P8 draft until after author review. Use as revision ammo or for expanded version.*
+*Documented 2026-03-11. Do NOT add to P8 draft until after author review. Use as revision support material or for expanded version.*

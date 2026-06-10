@@ -10,7 +10,7 @@ relation: supports
 chronology_claim: 398-494 CE (tomb date range); Jatim production therefore attested by mid-5th century CE at latest
 method: archaeometric (SEM-EDS, 3D microscopy, Corning standards comparison)
 quality: Q1 peer-review
-volcarch_use: P0 channel 6 (CATHEDRAL ANCHOR); P1-core §2 framing sentence; manifesto v4.4 bridge finding
+volcarch_use: P0 channel 6 (CATHEDRAL ANCHOR); P1-core §2 framing sentence; research statement v4.4 bridge finding
 ---
 
 # Notes

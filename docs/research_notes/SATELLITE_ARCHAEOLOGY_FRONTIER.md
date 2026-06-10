@@ -77,7 +77,7 @@ DHARMA mining officially CLOSED (37 eksperimen, 268 prasasti, exhausted). VOLCAR
 4. RTX 4080: batch training overnight, inference on full East Java ~2-4 jam
 
 ### Phase D: Validation & Integration (~1 minggu)
-1. Compare model predictions vs E080/E097 fieldwork targets
+1. Compare model predictions vs E080/E097 fieldwork candidates
 2. Overlap analysis: do spectral anomalies coincide with settlement model (E013)?
 3. Generate "dig here" probability map overlay
 4. Register predictions for Zenodo (falsifiable, GPS-precise)
@@ -105,7 +105,7 @@ SAR menembus vegetasi dan sensitif terhadap kelembaban tanah. Struktur terkubur 
 | Existing | Connection |
 |----------|------------|
 | E013 (settlement model, AUC 0.768) | Overlay: model prediksi + satelit anomali |
-| E080 (fieldwork targets, 20 GPS) | Validasi: apakah target tumpang tindih? |
+| E080 (fieldwork candidates, 20 GPS) | Validasi: apakah target tumpang tindih? |
 | E097 (anomaly detection, 65% overlap) | Triple convergence: model + anomaly + satellite |
 | E166 (burial depth map) | Filter: hanya area dengan kedalaman <3m (SAR max depth) |
 | E076 v2 (NDVI script, belum jalan) | Starting point: script sudah ada |

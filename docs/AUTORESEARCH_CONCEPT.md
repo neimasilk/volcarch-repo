@@ -8,7 +8,7 @@
 
 ## Prinsip Kunci dari Karpathy
 
-> "You're not touching Python files like you normally would as a researcher. Instead, you are programming the `program.md` Markdown files that set up your autonomous research org."
+> "You're not touching Python files like you normally would as a researcher. Instead, you are programming the `program.md` Markdown files that set up your iterative research pipeline."
 
 Pola Karpathy:
 1. **Satu metrik** (val_bpb) — objektif, terukur, comparable
@@ -16,11 +16,11 @@ Pola Karpathy:
 3. **Budget waktu tetap** (5 menit) — membuat eksperimen comparable
 4. **Keep/discard binary** berdasarkan metrik
 5. **`program.md`** = "research org code" yang ditulis manusia
-6. **Loop tak terbatas** — agent otonom, manusia tidur
+6. **Iterasi pipeline berjalan tanpa interaksi aktif peneliti**
 
-Insight Pak Amien yang tepat: *"Agent kalau dibebaskan di luar kotak akan lebih kreatif, asalkan manusia memberikan testing atau tujuan yang jelas."*
+Insight Pak Amien yang tepat: *"Pipeline yang diberi ruang eksplorasi luas menghasilkan hipotesis lebih beragam, asalkan manusia memberikan evaluasi dan tujuan yang jelas."*
 
-Ini bisa diformulasi: **Kreativitas agent berbanding lurus dengan kejelasan evaluasi.**
+Ini bisa diformulasi: **Kualitas output pipeline berbanding lurus dengan kejelasan evaluasi.**
 
 ---
 
@@ -37,7 +37,7 @@ VOLCARCH sudah punya semua komponen yang dibutuhkan:
 | Keep/discard logic | SUCCESS / FAILED / INCONCLUSIVE | **YA** |
 | Fixed budget | Setiap eksperimen self-contained | **YA** |
 
-Yang belum ada: **loop runner** dan **program.md khusus per research program**.
+Yang belum ada: **pipeline controller** dan **program.md khusus per research program**.
 
 ---
 
@@ -45,7 +45,7 @@ Yang belum ada: **loop runner** dan **program.md khusus per research program**.
 
 Karpathy mengoptimasi SATU metrik. Riset ilmiah punya BANYAK pertanyaan. Solusi: **pecah jadi research programs**, masing-masing dengan metrik sendiri.
 
-### Research Program = Unit Otonom
+### Research Program = Unit Pipeline
 
 Setiap program punya:
 - **Goal** (satu kalimat)
@@ -82,7 +82,7 @@ FOR each of 30 FDR-surviving experiments:
 
 **Estimasi:** 30 eksperimen × 4 tests × 5 min = ~10 jam compute. Bisa jalan overnight.
 
-**Nilai:** Sebelum submit paper, bisa bilang "semua klaim di-stress-test secara otonom." Reviewer-proof.
+**Nilai:** Sebelum submit paper, bisa bilang "semua klaim di-stress-test secara otomatis." Reviewer-proof.
 
 **Risiko:** Rendah. Tidak mengubah klaim, hanya menguji.
 
@@ -105,13 +105,13 @@ WHILE F1 < target:
   6. Try: different models, rules, features, thresholds
 ```
 
-**Estimasi:** Pipeline setup 1 minggu, then autonomous iteration. GPU: 2-4 jam fine-tune per iteration.
+**Estimasi:** Pipeline setup 1 minggu, then iterative fine-tuning cycles. GPU: 2-4 jam per siklus.
 
-**Nilai:** Dataset genuinely independent dari DHARMA/ABVD. Extends E083/E091. Langsung bisa jadi revision ammo untuk P1.
+**Nilai:** Dataset genuinely independent dari DHARMA/ABVD. Extends E083/E091. Langsung bisa jadi revision support material untuk P1.
 
 ---
 
-### Program 3: "Cascade Stress Test" — ADVERSARIAL
+### Program 3: "Cascade Stress Test" — CRITICAL
 
 **Goal:** Temukan faktor terlemah dalam 5-factor cascade (E110).
 
@@ -159,7 +159,7 @@ WHILE RMSE can improve:
 
 ### Program 5: "Anomaly Refinement" — EXTENDS E097
 
-**Goal:** Improve anomaly detection overlap dengan E080 fieldwork targets dari 65% → >80%.
+**Goal:** Improve anomaly detection overlap dengan E080 fieldwork candidates dari 65% → >80%.
 
 **Metrik:** Overlap percentage dengan E080 targets.
 
@@ -205,7 +205,7 @@ VOLCARCH AutoResearch Runner
 Inspired by Karpathy's autoresearch
 
 Usage: Tell Claude Code to "run program_robustness.md"
-Agent reads program, executes loop, logs results.
+Pipeline reads program file, runs training cycle, logs results.
 """
 
 # Human writes program.md → defines goal, metric, scope
@@ -213,9 +213,9 @@ Agent reads program, executes loop, logs results.
 # Results logged to TSV → human reviews in morning
 
 # Key difference from Karpathy:
-# - Karpathy: one metric, one file, infinite loop
+# - Karpathy: one metric, one file, iterative refinement cycle
 # - VOLCARCH: one metric PER PROGRAM, multiple scripts,
-#   loop with human checkpoints
+#   iterative cycle with human checkpoints
 ```
 
 ### Perbedaan Kunci vs Karpathy
@@ -248,19 +248,19 @@ Agent reads program, executes loop, logs results.
 - Outcome: Apakah pola autoresearch bekerja untuk VOLCARCH?
 
 ### Phase 2: Robustness Battery (Minggu depan — overnight run)
-- Setup Program 1 sebagai script yang bisa dijalankan otonom
+- Setup Program 1 sebagai script yang bisa dijalankan otomatis
 - Target: 30 eksperimen × 4 robustness tests = 120 checks
 - Claude Code jalan overnight, Pak Amien review pagi
 
 ### Phase 3: ColonialMine Sprint (April 2026)
 - Setup Delpher API access + Dutch NLP pipeline
-- Autonomous NER iteration
-- Target: >100 extracted colonial finds → revision ammo untuk P1 di EGQSJ
+- Iterative NER pipeline
+- Target: >100 extracted colonial finds → revision support material untuk P1 di EGQSJ
 
 ### Phase 4: Full Integration (Mei 2026+)
-- Multiple programs running in parallel di 4 GPU
+- Multiple research programs running concurrently across 4 GPU
 - Programs feed into each other (ColonialMine → Cascade → Paper revision)
-- Agent proposes new programs berdasarkan results
+- Pipeline proposes new programs berdasarkan results
 
 ---
 
@@ -276,7 +276,7 @@ P21 (ColonialMine) paling cocok dimulai duluan karena:
 1. Skills match (NLP, sudah ada pengalaman E091)
 2. Data free (Delpher.nl public domain)
 3. Tidak butuh co-author untuk memulai
-4. Hasilnya langsung jadi revision ammo
+4. Hasilnya langsung jadi revision support material
 
 ---
 
@@ -285,9 +285,9 @@ P21 (ColonialMine) paling cocok dimulai duluan karena:
 1. **Mau mulai dari mana?** Rekomendasi: Program 3 (Cascade, 1 jam) sebagai proof of concept.
 2. **Overnight runs OK?** Claude Code jalan semalaman di kampus = ~100 micro-experiments.
 3. **4× RTX 4080 — mana yang available?** Program 4 (TobaSim) butuh dedicated GPU.
-4. **Risk appetite:** Apakah temuan otonom yang MENOLAK hipotesis harus langsung di-flag, atau boleh dilanjut agent?
+4. **Risk appetite:** Apakah temuan otomatis yang MENOLAK hipotesis harus langsung di-flag, atau boleh dilanjut pipeline?
 5. **autoresearch/ folder di inBox** — ini project terpisah dari Karpathy. Delete dari inBox setelah kita paham konsepnya? Atau simpan sebagai reference di `tools/`?
 
 ---
 
-*"Pertanyaannya bukan: apakah agent bisa melakukan riset otonom. Pertanyaannya: apakah kita bisa memberikan evaluasi yang cukup jelas agar kreativitasnya produktif, bukan destruktif."*
+*"Pertanyaannya bukan: apakah pipeline bisa berjalan otomatis. Pertanyaannya: apakah kita bisa memberikan evaluasi yang cukup jelas agar hasilnya produktif, bukan menyesatkan."*

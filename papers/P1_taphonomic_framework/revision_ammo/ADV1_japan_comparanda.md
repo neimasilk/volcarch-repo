@@ -1,4 +1,4 @@
-# P1 Revision Ammo: ADV-1 Japan Comparanda
+# P1 Revision Support Material: ADV-1 Japan Comparanda
 
 **Paper:** "Volcanic Taphonomic Bias" — Asian Perspectives MS# 019A-0326
 **Date:** 2026-03-16

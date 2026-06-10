@@ -1,9 +1,9 @@
-# Revision Ammo: Jatim Beads in Northern Wei Tomb (Datong, China) — Channel 6 Material Evidence
+# Revision Support Material: Jatim Beads in Northern Wei Tomb (Datong, China) — Channel 6 Material Evidence
 
 **Date recorded:** 2026-04-20
 **Status:** CONFIRMED via peer-reviewed paper (Jia, Cui & Cao 2024, Heritage Science, Nature portfolio)
 **Priority:** CATHEDRAL EVIDENCE — potentially the strongest single external corroboration of VOLCARCH's invisible-civilisation thesis
-**Used in:** P0 Channel 6 (NEW), P1-core §2 single sentence, P17 revision ammo, P18 revision ammo, manifesto v4.4 update
+**Used in:** P0 Channel 6 (NEW), P1-core §2 single sentence, P17 revision support material, P18 revision support material, research statement v4.4 update
 **Source trigger:** Facebook post in group "Kerajaan Jawa Terbuka" (Lintang Angrem, 2026-04-20) flagged by Pak Amien; independently verified via primary literature
 
 ---
@@ -102,9 +102,9 @@ https://doi.org/10.1186/s40494-024-01319-w
 | P0 | Fig 4 Venn/spoke diagram | Add Channel 6 node |
 | P0 | §4 Selective Survival | Bronze drums (E204) + Jatim beads (new) = two-object exemplification |
 | **P1-core v3.0** | §2 (one sentence citation) | "Direct material evidence of organised industrial activity in Java by the 5th century CE is attested independently through archaeometric analysis of Javanese glass beads exported to Northern Wei China (Jia et al. 2024)." |
-| **P17 Two Javas** | Revision ammo if reviewer queries pre-Hindu evidence | Glass industry as durable pre-900 CE evidence |
+| **P17 Two Javas** | Revision support material if reviewer queries pre-Hindu evidence | Glass industry as durable pre-900 CE evidence |
 | **P18 Invisible Civilization** | Direct corroboration paragraph | Cite + quote |
-| **Manifesto v4.4** | Bridge findings section | Add as "E200-style external corroboration" |
+| **Research Statement v4.4** | Bridge findings section | Add as "E200-style external corroboration" |
 | **PhD proposal** | Motivation section | Cite as independent confirmation from Chinese archaeology |
 
 ## Additional Verification Tasks (Follow-up)

@@ -1,4 +1,4 @@
-# Hostile Cross-Model Review — P0 — DeepSeek deepseek-chat
+# Skeptical Cross-Model Review — P0 — DeepSeek deepseek-chat
 
 **Paper:** `D:\documents\volcarch-repo\papers\P0_invisible_civilization\draft_v0.1.tex`
 **Model:** `deepseek-chat`

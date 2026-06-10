@@ -1,4 +1,4 @@
-# P1 Revision Ammo: E172 Population Dynamics Model
+# P1 Revision Support Material: E172 Population Dynamics Model
 
 **Use when reviewer asks:** "How do you know Java had a large pre-400 CE population?"
 

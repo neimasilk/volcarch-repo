@@ -1,4 +1,4 @@
-# P7 Revision Ammo: Anticipated Critiques & Pre-Computed Responses
+# P7 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "A Temporal Overlay Matrix for Indonesian Archaeological Site Distribution" (Short Communication)
 **Journal:** Antiquity Project Gallery (Q1)

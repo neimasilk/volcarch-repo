@@ -1,4 +1,4 @@
-# P8 Revision Ammo: E107 ADV-5 RESOLVED — C5 Is Mon-Khmer Substrate
+# P8 Revision Support Material: E107 ADV-5 RESOLVED — C5 Is Mon-Khmer Substrate
 
 **Paper:** Oceanic Linguistics MS# OL-03-2026-11
 **Date:** 2026-03-17

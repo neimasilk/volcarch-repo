@@ -10,7 +10,7 @@ relation: supports (strongly — mainstream scholarly canon for Chinese textual 
 chronology_claim: 3rd-7th century CE Chinese records on Sumatra and Java polities
 method: historical-textual (Chinese dynastic histories cross-referenced with SE Asian archaeology)
 quality: canonical monograph (cited in every subsequent synthesis)
-volcarch_use: P0 Channel 3; P0 §2.2 framing of demographic plausibility; manifesto v4.4 historiographic ammunition
+volcarch_use: P0 Channel 3; P0 §2.2 framing of demographic plausibility; research statement v4.4 historiographic supporting material
 ---
 
 # Notes

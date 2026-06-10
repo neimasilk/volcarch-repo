@@ -40,12 +40,12 @@ My autonomous judgment (if you want me to choose): **X2**. But X1 is defensible.
 
 **Gemini 2.5 Flash review ran while you were at lunch. Results converge with DeepSeek on 6/6 P1 concerns + 8/8 P0 concerns.**
 
-**Kill Criterion #6 (cross-model methodology critique) is NOW TRIGGERED** for both papers per our updated L1 §9 criteria. The new pivot criterion (hostile-review-recommended reframe) is also triggered.
+**Stop Criterion #6 (cross-model methodology critique) is NOW TRIGGERED** for both papers per our updated L1 §9 criteria. The new pivot criterion (skeptical-review-recommended reframe) is also triggered.
 
 This changes Decision B and C from the briefing below:
 
-- **Decision B (P1-core fixes):** The simple ACCEPT fixes alone no longer suffice. Per kill criterion #6, the "calibration" framing must be withdrawn. P1-core needs v4.0 = methodology/research-proposal reframe, not just v3.0 patches.
-- **Decision C (P0 direction):** Option 3 "proceed with current" is now incompatible with our own kill criterion. Choice is between Option 1 (withdraw) and Option 2 (reframe to methodology-only).
+- **Decision B (P1-core fixes):** The simple ACCEPT fixes alone no longer suffice. Per stop criterion #6, the "calibration" framing must be withdrawn. P1-core needs v4.0 = methodology/research-proposal reframe, not just v3.0 patches.
+- **Decision C (P0 direction):** Option 3 "proceed with current" is now incompatible with our own stop criterion. Choice is between Option 1 (withdraw) and Option 2 (reframe to methodology-only).
 
 **Full convergence analysis:** `papers/P0_invisible_civilization/external_reviews/CROSS_MODEL_CONVERGENCE_2026_04_21.md`
 
@@ -57,19 +57,19 @@ This changes Decision B and C from the briefing below:
 
 ## TL;DR
 
-DeepSeek hostile review executed on both P1-core v3.0 + P0 draft v0.1. **Both recommend REJECT — with substantive, actionable methodological critiques that ME#14/ME#15 self-review did not surface.** This validates the echo-chamber hypothesis concretely. Good news: the critiques are mostly fixable. Bad news: some fixes require reframing, not just editing.
+DeepSeek critical review executed on both P1-core v3.0 + P0 draft v0.1. **Both recommend REJECT — with substantive, actionable methodological critiques that ME#14/ME#15 self-review did not surface.** This validates the echo-chamber hypothesis concretely. Good news: the critiques are mostly fixable. Bad news: some fixes require reframing, not just editing.
 
 **Cost so far:** $0.004 (4 tenths of a cent) for both reviews. Budget remaining: $3.29.
 
 ---
 
-## Priority 1 — READ these two hostile reviews (30 min)
+## Priority 1 — READ these two skeptical reviews (30 min)
 
-1. `papers/P1_taphonomic_framework/external_reviews/hostile_deepseek_20260421.md` (~2,500 words)
-2. `papers/P0_invisible_civilization/external_reviews/hostile_deepseek_20260421.md` (~2,400 words)
+1. `papers/P1_taphonomic_framework/external_reviews/critical_deepseek_20260421.md` (~2,500 words)
+2. `papers/P0_invisible_civilization/external_reviews/critical_deepseek_20260421.md` (~2,400 words)
 
 Then read my response/classification:
-3. `papers/P0_invisible_civilization/external_reviews/RESPONSE_hostile_deepseek_20260421.md`
+3. `papers/P0_invisible_civilization/external_reviews/RESPONSE_critical_deepseek_20260421.md`
 
 **What you'll find:** DeepSeek articulated concerns like:
 - P1: "The calibration is not a calibration" — Dwarapala is colonial anecdote, not geoarchaeological measurement
@@ -84,7 +84,7 @@ These are the kind of critique that surfaces AT peer review. Cheaper to fix now 
 
 ### Decision A — ~~Cross-model repeat on different model?~~ **DONE — TRIGGERED**
 
-~~Original recommendation was to run Gemini.~~ **Done while you were at lunch. Gemini 2.5 Flash converged with DeepSeek on all major methodological concerns.** Kill Criterion #6 is now formally triggered per L1 §9.
+~~Original recommendation was to run Gemini.~~ **Done while you were at lunch. Gemini 2.5 Flash converged with DeepSeek on all major methodological concerns.** Stop Criterion #6 is now formally triggered per L1 §9.
 
 **Optional next:** Run Gemini 2.5 Pro (needs paid tier) or Anthropic Claude Sonnet (via Claude API if you have it) for 3rd independent signal. Not strictly needed — criterion already triggered by 2 models.
 
@@ -104,24 +104,24 @@ Three levels of revision possible:
 
 **Both DeepSeek and Gemini converged: the grand-synthesis "invisible civilization" framing is not defensible without direct evidence.**
 
-Option 3 "proceed with current" is now incompatible with triggered kill criterion #6. Remaining options:
+Option 3 "proceed with current" is now incompatible with triggered stop criterion #6. Remaining options:
 
 1. **Withdraw P0 grand synthesis entirely.** Refocus PhD pitch to "methodology for detecting taphonomic invisibility." Honest. Less ambitious. Saves time.
 2. **Reframe P0 to Channel 1 + methodology only.** Retitle to something like "Archaeological Invisibility in Volcanic Tropical Landscapes: A Framework for Detection-Horizon-Aware Survey Design." Shorter (~6-8K words), defensible. Publishable at JAnthArch or similar.
-3. ~~Proceed with current~~ — not available per kill criterion.
+3. ~~Proceed with current~~ — not available per stop criterion.
 
-**My recommendation: Option 2.** The "kegelisahan" you expressed ("belum puas") will NOT be satisfied by pushing a paper past reviewers — it will be satisfied by work that survives scrutiny. Option 2 survives scrutiny. It also does NOT kill the "invisible civilization" thesis — it just holds that thesis for when direct evidence arrives (borehole, GPR, field collaboration).
+**My recommendation: Option 2.** The "kegelisahan" you expressed ("belum puas") will NOT be satisfied by pushing a paper past reviewers — it will be satisfied by work that survives scrutiny. Option 2 survives scrutiny. It also does NOT drop the "invisible civilization" thesis — it just holds that thesis for when direct evidence arrives (borehole, GPR, field collaboration).
 
 **Tell me "P0 option 1/2."** If option 2, I draft the reframed skeleton this session.
 
-### Decision D — L1 §9 kill criteria update (already implemented)
+### Decision D — L1 §9 stop criteria update (already implemented)
 
 I updated `docs/L1_CONSTITUTION.md` §9 per your "saya percaya kamu" grant. Changes:
 
 - Criterion #1 (cascade): marked **PARTIALLY TRIGGERED**, cascade retained only as pedagogical illustration
 - Criterion #3 (external comparandum): refined with measurable (a) and (b) conditions
 - Added Criterion #6: cross-model methodology critique
-- Added pivot criterion: hostile-review-recommended reframe
+- Added pivot criterion: skeptical-review-recommended reframe
 
 **Review and override if disagree.** Diff visible via git.
 
@@ -140,7 +140,7 @@ Session 19 = autonomous execution of ME#15 critique recommendations.
 | 3 | E108 replicability | 3,220× gap math replicates EXACTLY |
 | 4 | P0 Flags B-F (7 fixes) | All applied, draft compiles clean 13pp |
 | 5 | P0 target length correction | 10-12K (not 25-30K) |
-| 6 | Kill criterion audit | #1 partial violation, #3 yellow |
+| 6 | Stop criterion audit | #1 partial violation, #3 yellow |
 | 7 | WORKSTATE review triage | [DEEP]/[SKIM]/[FYI] tags added |
 | 8 | DeepSeek cross-model tool | Built + debugged (Windows SSL issue); 2 reviews executed |
 | 9 | Ferring 1986 added to P1-core §5.6 | Recompiled, 21pp clean |
@@ -184,7 +184,7 @@ Total: ~30 min of your time → unlocks next major work block.
 The DeepSeek reviews are harsh. I had to weigh whether to present them straight or soften. I chose straight. Two reasons:
 
 1. You said "jangan halu, jangan bohong" earlier this session. The reviews contain critiques I did not see and should have. Softening would be dishonest.
-2. These are EXACTLY what a hostile peer reviewer at JASREP will write. Better to face them now ($0.004 budget) than post-rejection (2-3 month cycle).
+2. These are EXACTLY what a skeptical peer reviewer at JASREP will write. Better to face them now ($0.004 budget) than post-rejection (2-3 month cycle).
 
 The project is not in crisis. The kegelisahan you felt is real, and the path forward is to raise the bar, not abandon it. But "raise the bar" means accepting that some of our framing was too ambitious for the evidence we have.
 

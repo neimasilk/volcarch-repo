@@ -1,4 +1,4 @@
-# P17 Revision Ammo: E172 Population Dynamics
+# P17 Revision Support Material: E172 Population Dynamics
 
 **Use when reviewer asks:** "How many people are we talking about in Volcano Java vs Court Java?"
 

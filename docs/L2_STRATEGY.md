@@ -1,13 +1,13 @@
 # L2: STRATEGY (Active Phase)
 
 **Status:** ACTIVE — Updates per phase/quarter.
-**Current Phase:** Phase 1 + Phase 1.5 (Colonial Dataset + Adversarial Testing)
+**Current Phase:** Phase 1 + Phase 1.5 (Colonial Dataset + Robustness Testing)
 **As of 2026-03-30: Phase = CONSOLIDATION + AUTORESEARCH. See WORKSTATE.md.**
 **Last updated:** 2026-03-30
 
 ---
 
-## 1. Current Phase: Phase 1 + Phase 1.5 (Colonial Dataset + Adversarial Testing)
+## 1. Current Phase: Phase 1 + Phase 1.5 (Colonial Dataset + Robustness Testing)
 
 **Duration:** ~6–12 months (Q1 2026 – Q4 2026)
 **Resources:** 4× RTX 4080, Claude Code, public data, literature
@@ -57,11 +57,11 @@
 - [ ] Post preprint to EarthArXiv
 
 ### Paper 3: Volcanic Burial Depth Model
-**Status:** KILLED (2026-03-10, Mata Elang review #2)
+**Status:** DISCONTINUED (2026-03-10, Mata Elang review #2)
 **Type:** Geospatial modeling
 **Target journal:** Was J. Volcanology & Geothermal Research (Q1)
 **MVR:** Model predicts Dwarapala burial depth within ±30% (130–240 cm vs actual ~185 cm) — **NOT MET**
-**Kill reason:** E017 Tephra POC FAILED (1/4 calibration sites pass). Pyle 1989 generic model insufficient; requires per-volcano calibration with Tephra2/FALL3D and geologist co-author. Resurface only if geologist collaborator joins.
+**Discontinued because:** E017 Tephra POC FAILED (1/4 calibration sites pass). Pyle 1989 generic model insufficient; requires per-volcano calibration with Tephra2/FALL3D and geologist co-author. Resurface only if geologist collaborator joins.
 **Data preserved:** E002 eruption records (168), E017 results documented.
 
 ## 3. Data Strategy
@@ -100,7 +100,7 @@
 **Move to Phase 2 when ALL of:**
 - [x] Paper 1 submitted (or accepted) — **SUBMITTED** to Asian Perspectives (2026-03-10)
 - [x] Paper 2 model achieves MVR (AUC > 0.75) — **MET** (AUC=0.768)
-- ~~Paper 3 model achieves MVR~~ — **KILLED** (E017 POC failed; removed from gate criteria)
+- ~~Paper 3 model achieves MVR~~ — **DISCONTINUED** (E017 POC failed; removed from gate criteria)
 - [x] Challenge 1 (tautology test) passed — **CONDITIONAL PASS** (T3-T4 robust; definitive proof requires fieldwork/GPR)
 - [ ] At least one domain collaborator engaged
 - [ ] BIMA or equivalent funding proposal drafted
@@ -115,7 +115,7 @@
 **See:** `docs/EVAL.md` section 3.
 
 ### Challenge 2: Multi-Source Calibration
-**Status:** KILLED (2026-03-10) — E017 POC failed. Challenge cannot be met with current tools/data.
+**Status:** DISCONTINUED (2026-03-10) — E017 POC failed. Challenge cannot be met with current tools/data.
 **Question:** Can burial depth be predicted from eruption data across multiple volcanic systems?
 **Result:** 1/4 calibration sites passed. Generic Pyle 1989 model insufficient.
 **Resurrection condition:** Geologist collaborator + Tephra2/FALL3D access.
@@ -157,18 +157,18 @@
 ### Dissolved
 - **P15** — TOM-R content absorbed into `papers/P5_volcanic_ritual_clock/revision_ammo/` (2026-03-10)
 
-### Killed
+### Retired
 - **P3** — Volcanic Burial Depth Model (E017 POC FAILED, 2026-03-10)
 - **P4** — Estuarine Hybrids (stub, no data, no path to execution)
 - **P6** — Linguistic Phylogenetics (depends on P8 + linguist, too speculative for 2026)
 - **P10** — Archaeological Biosignatures (requires fieldwork, no partner)
 - **P12** — Computational Mythology (requires corpus construction, no corpus)
-- **P14** — Pararaton Volcanic Collapse (Bonferroni kills significance; E026 folded into P5 revision ammo, 2026-03-11)
+- **P14** — Pararaton Volcanic Collapse (Bonferroni eliminates significance; E026 folded into P5 revision support material, 2026-03-11)
 - **P-coastal** — The Invisible Shore (stub, no data, no method)
 
 **Pipeline summary (2026-04-01):** 4 under review (P1-EGQSJ, P2, P7, P8) + 3 rejected with retargets (P5→Asian Ethnology, P9→HOLD, P11→Archipel) + 3 drafting (P16-DHQ, P17-ArchCalc, P19-BKI) + P18 HOLD + 2 data papers (D1, D2→Zenodo) = **13 items**. 175 experiments. **Dual-track strategy:** NLP/technical + humanities.
 
-### Adversarial Scorecard (2026-03-17)
+### Robustness Scorecard (2026-03-17)
 
 | Test | Experiment | Target | Result |
 |------|-----------|--------|--------|

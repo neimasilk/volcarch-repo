@@ -34,7 +34,7 @@
 
 3. **The 929 CE natural experiment** is methodologically elegant. It's the best evidence in the paper — a political collapse that removes the Sanskrit overlay and reveals the indigenous substrate. Reviewers will appreciate this.
 
-4. **Statistical rigour** — Spearman correlations, Mann-Whitney, Fisher's exact, chi-square, partial correlation controlling for confounds. The adversarial approach (controlling for inscription length in the vocabulary-depth correlation) pre-empts reviewer objections.
+4. **Statistical rigour** — Spearman correlations, Mann-Whitney, Fisher's exact, chi-square, partial correlation controlling for confounds. The critical approach (controlling for inscription length in the vocabulary-depth correlation) pre-empts reviewer objections.
 
 5. **Good comparative context** — Pompeii, Akrotiri, Cerén comparison in Discussion (Section 5.5). Distinguishes catastrophic vs. cumulative burial.
 
@@ -90,7 +90,7 @@ They differ in:
 2. Submit both but acknowledge the companion paper and differentiate clearly
 3. Merge into one comprehensive paper (but this would be very long)
 
-**Recommendation:** Option 1 is safest. P17 is the stronger paper and better fits ArchCalc's theoretical scope. P11's practical focus (fieldwork targets) fits applied venues like Indonesia (Cornell) or J. Pacific Archaeology.
+**Recommendation:** Option 1 is safest. P17 is the stronger paper and better fits ArchCalc's theoretical scope. P11's practical focus (fieldwork candidates) fits applied venues like Indonesia (Cornell) or J. Pacific Archaeology.
 
 **B2. Data availability URL (LOW)**
 Line 449: "VOLCARCH repository" without specific URL. Need to add GitHub URL and verify it's public before submission.

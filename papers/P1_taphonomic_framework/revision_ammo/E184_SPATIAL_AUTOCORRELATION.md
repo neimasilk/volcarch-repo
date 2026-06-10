@@ -1,4 +1,4 @@
-# Revision Ammo: Spatial Autocorrelation (E184)
+# Revision Support Material: Spatial Autocorrelation (E184)
 
 **Use when:** Reviewer asks about spatial dependence or statistical methodology.
 

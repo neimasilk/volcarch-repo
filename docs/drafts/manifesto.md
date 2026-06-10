@@ -3,13 +3,13 @@
 
 **Status:** INTERNAL DOC — bukan untuk publikasi
 **Last updated:** 2026-04-09
-**Versi:** 4.3 (179 experiments, ME#13 The Reckoning, cascade reframed, karst factor, L2 predictions)
+**Versi:** 4.3 (179 experiments, ME#13 The Audit, cascade reframed, karst factor, L2 predictions)
 
 ---
 
 ## 0. Apa yang Berubah di v4.3
 
-v4.2 membangun cascade model dan validasi cross-regional. v4.3 melakukan **the reckoning** — kritik struktural terdalam yang menantang klaim cascade, memperkenalkan karst sebagai faktor ke-6, dan membangun model L2 pertama.
+v4.2 membangun cascade model dan validasi cross-regional. v4.3 melakukan **the audit** — kritik struktural terdalam yang menantang klaim cascade, memperkenalkan karst sebagai faktor ke-6, dan membangun model L2 pertama.
 
 **Dari v4.2:**
 1. **Cascade DI-REFRAME (E176).** Model 5-faktor terlalu banyak parameter (5 parameter, 1 data point). Model 3-faktor juga bracket observasi. 83.8% random draws cocok. Cascade sekarang = "plausible mechanistic decomposition," BUKAN "validated model."
@@ -17,7 +17,7 @@ v4.2 membangun cascade model dan validasi cross-regional. v4.3 melakukan **the r
 3. **L2 PERTAMA PUNYA PREDIKSI (E177).** 340K di Paparan Sunda saat LGM. ~250K displaced ke Jawa via 3 sistem paleo-sungai. 5 entry-point: Surabaya (#1), Tangerang, Semarang, Jakarta, Cirebon.
 4. **Ghost Dictionary (E181).** 47 kata hantu diklasifikasi. 55% Jawa Kuno, 23% Sanskrit, 19% PMP. Admin vocabulary = korban terbesar. "aku" (pronoun persona pertama) hilang setelah C8.
 5. **Factor coupling tested (E179).** Coupling F1-F2 menggeser cascade 3.0x. Skenario lahar panas (menghancurkan organik) justru memperbaiki fit.
-6. **West Java smoking gun DI-UPGRADE ke bukti #1.** Lebih kuat dari cascade model.
+6. **West Java decisive case DI-UPGRADE ke bukti #1.** Lebih kuat dari cascade model.
 7. **Honest experiment count:** 179 entri, tapi hanya ~20-22 tes hipotesis genuinely novel.
 
 **PERUBAHAN KRITIS dari v4.2:**
@@ -27,7 +27,7 @@ v4.2 membangun cascade model dan validasi cross-regional. v4.3 melakukan **the r
 
 **Baru di v4.2:**
 4. **Cascade TERVALIDASI cross-regional** (E155). Lima region (Jawa, Bali, Sulawesi, Filipina, Jepang): rank order PERSIS cocok (rho=1.0, p=0.017). Bukan curve-fitting.
-5. **L1×L2 "Double Erasure"** (E156). Paparan Sunda yang tenggelam MENDORONG ~94.000 orang KE DALAM zona vulkanik. West Java smoking gun = PREDIKSI model, bukan observasi post-hoc.
+5. **L1×L2 "Double Erasure"** (E156). Paparan Sunda yang tenggelam MENDORONG ~94.000 orang KE DALAM zona vulkanik. West Java decisive case = PREDIKSI model, bukan observasi post-hoc.
 6. **Bali 5/5 prediksi confirmed** (E161). Semua situs pra-Hindu di pantai non-vulkanik. Rasio densitas prasasti: prediksi 14,3×, observasi 12×.
 7. **"Aku" hilang** (E165). 230 kata hantu — kosakata pra-Indic yang menghilang dari prasasti setelah C9. Kata ganti orang pertama "aku" hilang setelah C8. Suara indigenous dibisukan oleh konvensi genre Sanskrit.
 8. **Volcanic silence terukur** (E160). GPU NLP (768d embeddings): volcanic landscape = rank 8/10 dalam kedekatan semantik. C8 = abad tergelap. 929 M rupture: z=3.04, p=0.012.
@@ -44,7 +44,7 @@ v4.2 membangun cascade model dan validasi cross-regional. v4.3 melakukan **the r
 
 Peradaban pra-Hindu Nusantara tidak absen — ia **tak terlihat**. Ketidaktampakan ini bukan produk dari satu mekanisme, melainkan **cascade multiplikatif** dari lima faktor independen yang masing-masing mengurangi visibilitas arkeologis. Ketika kelimanya bekerja bersamaan — seperti di Jawa vulkanik — hasilnya adalah kegelapan arkeologis 99.97%.
 
-**West Java Smoking Gun:** Kompleks Buni (Tangerang, 200 SM-500 M) dan Batujaya (Karawang, abad 2-5 M) membuktikan masyarakat kompleks pra-Hindu di pantai NON-VULKANIK Jawa. Padanan mereka di Jawa Timur vulkanik = HILANG. Pulau yang sama. Budaya yang sama. Geologi beda.
+**West Java Decisive Case:** Kompleks Buni (Tangerang, 200 SM-500 M) dan Batujaya (Karawang, abad 2-5 M) membuktikan masyarakat kompleks pra-Hindu di pantai NON-VULKANIK Jawa. Padanan mereka di Jawa Timur vulkanik = HILANG. Pulau yang sama. Budaya yang sama. Geologi beda.
 
 ### Cascade Multiplikatif (E110)
 
@@ -57,7 +57,7 @@ Peradaban pra-Hindu Nusantara tidak absen — ia **tak terlihat**. Ketidaktampak
 | F5 | Publikasi & Katalogisasi | 0.50 | 2.0× | E093, hambatan bahasa |
 | | **PRODUK** | **0.058%** | | **Observasi: 0.031% (E108)** |
 
-**Model consistent with data within 2× (CAVEAT: underdetermined — E176 menunjukkan model 3-faktor juga bracket observasi; 83.8% random draws 5-faktor juga cocok).** Survey coverage adalah intervensi paling impactful (40× leverage). Volcanic burial adalah satu-satunya faktor yang bisa dimodel secara spasial → memungkinkan targeted recovery (E080, E097).
+**Model consistent with data within 2× (CAVEAT: underdetermined — E176 menunjukkan model 3-faktor juga bracket observasi; 83.8% random draws 5-faktor juga cocok).** Survey coverage adalah intervensi paling impactful (40× leverage). Volcanic burial adalah satu-satunya faktor yang bisa dimodel secara spasial → memungkinkan prioritized recovery (E080, E097).
 
 **Faktor Ke-6: Karst Bypass (E178, baru di v4.3)**
 
@@ -71,7 +71,7 @@ Model augmented: P(visible) = [F1×F2×F3×F4×F5] + [karst × P(cave_preserved)
 
 | Tier | Definisi | Contoh |
 |------|----------|--------|
-| **DATA-SUPPORTED** | Didukung data, survive FDR + adversarial | E069, E085, E066, E108, E107, E110 |
+| **DATA-SUPPORTED** | Didukung data, survive FDR + critical | E069, E085, E066, E108, E107, E110 |
 | **HYPOTHESIS** | Didukung bukti sugestif, perlu fieldwork | L1 (burial specifically), L2 (coastal), E053 (aDNA) |
 | **SPECULATION** | Secara logis plausibel, bukti minimal | "Seberapa canggih peradaban?", L6, populasi >1M |
 
@@ -86,7 +86,7 @@ Model augmented: P(visible) = [F1×F2×F3×F4×F5] + [karst × P(cave_preserved)
 - **E094 (DHARMA SBERT):** Volcanic themes = PALING JARANG dalam epigrafi (cosine sim 0.244). Mountain worship = TERTINGGI (0.395). Mountains di prasasti = kosmologis, BUKAN geologis. C11→C12 = semantic rupture terbesar.
 - **E095 (#99, cross-lingual):** XLM-R embedding collapse (honest negative). ML-SBERT validates E094 (rho=0.336). Volcanic silence confirmed di ORIGINAL Old Javanese.
 - **E096 (diachronic BERTopic):** 929 CE topic shift chi2=16.58, p=0.0003. Royal/political SURGES (Fisher p=0.0002). Ritual/calendrical VANISHES entirely.
-- **E097 (anomaly detection):** 65% overlap dengan E080 fieldwork targets. Dua metode independen → zona yang sama.
+- **E097 (anomaly detection):** 65% overlap dengan E080 fieldwork candidates. Dua metode independen → zona yang sama.
 - **P16:** Draft v0.1 complete. "What Ancient Texts Remember and Inscriptions Forget." Target DSH (Oxford, Q1).
 - **P7 preprint:** DOI 10.22541/au.177368991.14332505/v1 (Authorea, live 2026-03-16).
 
@@ -99,7 +99,7 @@ Model augmented: P(visible) = [F1×F2×F3×F4×F5] + [karst × P(cave_preserved)
 
 ---
 
-## 2. Enam Lapisan Kegelapan (*Six Layers of Darkness*)
+## 2. Enam Lapisan Kegelapan (*Six Layers of Invisibility*)
 
 ### L1: Penguburan Vulkanik (*Volcanic Burial*)
 **Papers:** P1, P2, P9 | **Status: DIDUKUNG DATA** *(downgraded dari "terverifikasi" — verifikasi definitif membutuhkan subsurface survey, E068)*
@@ -114,7 +114,7 @@ Sedimentasi vulkanik mengubur situs arkeologis pada laju 2.4–6.2 mm/tahun (rer
 - **Falsifikasi:** Jika soil core di Zona B/C tidak menunjukkan sinyal ADS → ketidakhadiran genuine, bukan penguburan
 
 ### L2: Penenggelaman Pesisir (*Coastal Submersion*)
-**Papers:** P1 (revision ammo) | **Status: TERKUANTIFIKASI (E052)** *(kuantifikasi area, bukan verifikasi arkeologis)*
+**Papers:** P1 (revision support material) | **Status: TERKUANTIFIKASI (E052)** *(kuantifikasi area, bukan verifikasi arkeologis)*
 
 Kenaikan muka laut pasca-LGM menenggelamkan Paparan Sunda (Sunda Shelf) — **2.089.415 km² daratan yang layak huni** (16,2× Jawa). Tiga sistem sungai utama (N. Sunda, E. Sunda, Siam) menyediakan koridor populasi. 81,5% paparan datar dan dekat sungai — habitat ideal.
 
@@ -208,7 +208,7 @@ Tanaman mortuary (menyan, kamboja) ABSEN dari 268 prasasti (E035), sementara hya
 
 ### E053: Jerat Sirkular aDNA (*The Circular Trap*)
 
-Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% berhasil. Fisher p = 0,047. Situs berhasil rata-rata 490 km dari gunung api; gagal 144 km (Mann-Whitney p = 0,002). **Ketiadaan aDNA Jawa ADALAH bukti** — tafonomi vulkanik menghancurkan materi genetik. Jerat sirkular: "Tidak ada aDNA → tidak bisa membuktikan populasi → asumsikan kosong → peradaban dimulai dengan India."
+Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% berhasil. Fisher p = 0,047. Situs berhasil rata-rata 490 km dari gunung api; gagal 144 km (Mann-Whitney p = 0,002). **Ketiadaan aDNA Jawa ADALAH bukti** — tafonomi vulkanik menghancurkan DNA purba. Jerat sirkular: "Tidak ada aDNA → tidak bisa membuktikan populasi → asumsikan kosong → peradaban dimulai dengan India."
 
 ### E051 × E056: Model Pusat-Pinggiran (*Court-Center Model*)
 
@@ -259,11 +259,11 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 - Bahasa Indonesia sebagai bahasa utama, label bilingual untuk aksesibilitas
 - Dokumen internal — framing untuk keseluruhan proyek VOLCARCH
 - Bukan paper akademik; thesis statement dan peta bukti
-- Rekonsiliasi: 6 lapisan (manifesto) ⊂ 11 channel (master_attack_map) — lapisan = mekanisme penghapusan, channel = jalur bukti untuk pemulihan
+- Rekonsiliasi: 6 lapisan (manifesto) ⊂ 11 channel (master_evidence_map) — lapisan = mekanisme penghapusan, channel = jalur bukti untuk pemulihan
 - Update setiap kali ada eksperimen baru atau paper decision
 
 ---
-*Manifesto v4.2 — 2026-03-31*
+*Research Statement v4.2 — 2026-03-31*
 *172 eksperimen. 3,3 juta penduduk pada 400 Masehi. 11.008x gap. 1.789 situs hilang.*
 *5 prediksi terdaftar. 5/5 temuan utama ROBUST. 230 kata hantu. "Aku" menghilang dari batu.*
 

@@ -1,4 +1,4 @@
-# Revision Ammo: Falsifiability Package
+# Revision Support Material: Falsifiability Package
 
 **Use when:** Reviewer asks "Is this framework falsifiable?" or "How can this be tested?" or "Isn't survey deficit the real issue?"
 

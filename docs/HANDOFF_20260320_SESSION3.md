@@ -1,8 +1,8 @@
-# HANDOFF — Mudik Session 3 (2026-03-20)
+﻿# HANDOFF — Mudik Session 3 (2026-03-20)
 
 ## Apa yang Dikerjakan
 
-Sesi otonom: 3 sesi sebelumnya (Session 1-2) menghasilkan E115 + structural critique + pre-mortem. Session 3 melanjutkan dalam mode fully autonomous.
+Sesi otonom: 3 sesi sebelumnya (Session 1-2) menghasilkan E115 + structural critique + pre-mortem. Session 3 melanjutkan dalam mode pipeline-driven.
 
 ### Eksperimen Baru (E116-E119)
 
@@ -74,3 +74,4 @@ MODIFIED:
 49a2ad9 feat: E115-E116, pre-mortem analysis, rejection patterns, cascade robustness — mudik session 2-3
 c3b38f2 feat: P1 EGQSJ fully ready + structural critique + Diamond OA targets — mudik session
 ```
+

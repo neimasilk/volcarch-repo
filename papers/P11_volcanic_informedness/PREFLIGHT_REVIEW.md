@@ -89,7 +89,7 @@ If Diamond OA is relaxed for free-to-publish journals, **Option A (Indonesia/Cor
 
 1. **Four independent statistical tests** — Rayleigh, Mann-Whitney, chi-square, Poisson regression — all significant. Reviewer-proof.
 2. **Clear narrative arc:** problem → proxy → evidence → prediction → validation → targets
-3. **Adversarial framing** (Section 4.5) — pre-empts "it's just survey bias" by testing and rejecting it
+3. **Critical framing** (Section 4.5) — pre-empts "it's just survey bias" by testing and rejecting it
 4. **Japan comparandum** — sophisticated, not dismissive ("Japan overcame the barrier through institutional investment")
 5. **Practical output** — 10 GPS targets, actionable for heritage bodies
 6. **Honest limitations** — Penanggungan dominance, no subsurface validation, temporal range
@@ -171,7 +171,7 @@ Section 5.3 mentions a "companion settlement suitability model" but doesn't cite
 ### Optional Improvements
 8. Add 1-2 sentences on Liangan in Discussion (A2)
 9. Clarify settlement suitability model source (A5)
-10. Consider whether to include fieldwork target table or keep "available on request"
+10. Consider whether to include fieldwork candidate table or keep "available on request"
 
 ### Strategic Note
 If submitting to Indonesia (Cornell), this can go NOW — the manuscript is essentially ready after minor fixes (A1, Chicago citations). If targeting ArchCalc, more prep work needed (format check, possible reformatting), but deadline is Dec 31 — no rush.

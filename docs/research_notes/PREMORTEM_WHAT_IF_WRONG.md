@@ -20,7 +20,7 @@
 **What would settle it:**
 - Find pre-400 CE material culture in volcanic interior contexts (GPR, deep coring)
 - If NOT found after systematic subsurface survey → the counter-argument wins
-- The West Java smoking gun (Buni/Batujaya) partially addresses this — people DID live on Java pre-400 CE — but those are COASTAL sites, not volcanic interior
+- The West Java decisive case (Buni/Batujaya) partially addresses this — people DID live on Java pre-400 CE — but those are COASTAL sites, not volcanic interior
 
 **Current evidence weight:** 70/30 in VOLCARCH's favour (upgraded 2026-03-21). Three lines of evidence now exist:
 1. **Buni Complex** (West Java coast) — proves pre-Hindu Javanese society existed on Java
@@ -73,7 +73,7 @@
 - Compare survey-normalized discovery rates across volcanic and non-volcanic regions of Java. E069 already does this (p=0.0015 after controlling for survey proxies). The volcanic signal persists.
 - But the critique has a point: if Indonesia surveyed at Japan-level intensity, most pre-Hindu sites would be found with or without the volcanic framework. VOLCARCH's contribution is TARGETING, not necessity.
 
-**Current evidence weight:** The critique is partially correct. VOLCARCH's value is not "volcanic burial explains everything" (it doesn't — 1.7× leverage). Its value is "volcanic burial is the only spatially predictable factor, enabling targeted recovery." This reframe is already in E110 and P1 EGQSJ.
+**Current evidence weight:** The critique is partially correct. VOLCARCH's value is not "volcanic burial explains everything" (it doesn't — 1.7× leverage). Its value is "volcanic burial is the only spatially predictable factor, enabling prioritized recovery." This reframe is already in E110 and P1 EGQSJ.
 
 ---
 
@@ -108,14 +108,14 @@
 
 ---
 
-## Summary: What Would Kill VOLCARCH?
+## Summary: What Would Drop VOLCARCH?
 
 | Evidence | Impact | Probability |
 |---|---|---|
-| Systematic GPR survey of Zone B finds NOTHING | KILL — framework is wrong | Unknown |
-| Non-volcanic interior Java has equally sparse pre-400 CE record | KILL — volcanism is irrelevant | LOW (Buni/Batujaya argue against) |
+| Systematic GPR survey of Zone B finds NOTHING | DROP — framework is wrong | Unknown |
+| Non-volcanic interior Java has equally sparse pre-400 CE record | DROP — volcanism is irrelevant | LOW (Buni/Batujaya argue against) |
 | Philippines volcanic zones have rich pre-400 CE record | SEVERE DAMAGE — volcanism doesn't suppress elsewhere | MEDIUM (needs data) |
-| 3+ peer reviews find fundamental methodological flaw | KILL — method is unsound | LOW (E115 shows robustness) |
+| 3+ peer reviews find fundamental methodological flaw | DROP — method is unsound | LOW (E115 shows robustness) |
 | All 5+ journal submissions rejected for substantive reasons | PIVOT — framework is unpublishable | MEDIUM |
 
 ## What Would Prove VOLCARCH?

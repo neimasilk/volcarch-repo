@@ -8,7 +8,7 @@
 
 Indonesia's archaeological record begins abruptly around 400 CE with the adoption of Indian writing systems. Before this date, volcanic Java -- home to over 30 active volcanoes and millions of people -- has *zero* confirmed open-air archaeological sites. This is unique globally: no other region with 1M+ years of human occupation has such a complete archaeological blank.
 
-## The Smoking Gun
+## The Decisive Case
 
 **Non-volcanic West Java has pre-400 CE archaeology. Volcanic East Java has none.**
 
@@ -30,7 +30,7 @@ The Buni Complex (Tangerang, 200 BCE--500 CE) and Batujaya (Karawang, 2nd--5th c
 
 | Collaboration | What it unlocks | Who |
 |---|---|---|
-| **Phytolith extraction** from volcanic cores or Liangan matrix | Direct organic evidence of pre-Hindu agriculture at depth. *The killer experiment.* | Archaeobotanist (Castillo/UCL?) |
+| **Phytolith extraction** from volcanic cores or Liangan matrix | Direct organic evidence of pre-Hindu agriculture at depth. *The decisive test.* | Archaeobotanist (Castillo/UCL?) |
 | **Toba ashfall modelling** (FALL3D) | Sulawesi survival pattern explained; extends framework to 74 ka timescale | Volcanologist (Aubert/Griffith? PVMBG?) |
 | **GPR/ERT survey** at 20 predicted targets | First subsurface test of the model. Budget: ~$40K for decisive result. | Geophysicist + institutional partner |
 | **Horizon Europe / MSCA DN consortium** | Multi-partner funding for ARCHAEOVOLC doctoral network | EU partner (Leiden KITLV?) |

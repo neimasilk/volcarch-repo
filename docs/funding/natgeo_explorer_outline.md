@@ -21,7 +21,7 @@ Java has 45 active volcanoes across 129,000 km2. Its early archaeological record
 
 The VOLCARCH project (120 computational experiments, multiple peer-reviewed papers) has established that volcanic sedimentation buries archaeological sites at 2.4-6.2 mm/year across Java. At this rate, remains from 400 CE now lie beneath 7+ meters of volcanic overburden — invisible to surface survey. A five-factor visibility cascade model predicts archaeological visibility of 0.058%, matching the observed rate (0.031%) within a factor of two.
 
-We have identified 10 high-priority fieldwork targets where computational models predict both high settlement suitability AND deep volcanic burial. This proposal requests funding for a pilot subsurface survey at the top 5 targets using ground-penetrating radar (GPR) and electrical resistivity tomography (ERT), to test whether buried cultural layers exist at predicted depths.
+We have identified 10 high-priority fieldwork candidates where computational models predict both high settlement suitability AND deep volcanic burial. This proposal requests funding for a pilot subsurface survey at the top 5 targets using ground-penetrating radar (GPR) and electrical resistivity tomography (ERT), to test whether buried cultural layers exist at predicted depths.
 
 The accidental discovery of Liangan (2008) — a complete Mataram-era settlement buried under 6-8m of pyroclastic deposits, found by sand miners — validates our prediction that systematic subsurface survey would recover evidence invisible to current methods.
 

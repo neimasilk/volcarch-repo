@@ -1,4 +1,4 @@
-# Revision Ammo: Philippines as Archaeological Comparandum
+# Revision Support Material: Philippines as Archaeological Comparandum
 
 **Use when:** Reviewer asks "What about other volcanic regions?" or "Is the pattern specific to Java?" or "How do you distinguish volcanic burial from organic decay?"
 

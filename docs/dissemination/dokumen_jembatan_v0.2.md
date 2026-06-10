@@ -88,7 +88,7 @@ Situs "Pompeii Jepang" (permukiman terkubur erupsi Gunung Haruna abad ke-6, keda
 
 **Kesimpulan:** Bukan vulkanisme yang membuat peradaban tak terlihat. Vulkanisme **dikombinasikan dengan intensitas survei yang tidak memadai** yang membuat situs tidak terdeteksi. Jepang mengatasi hambatan geologis melalui investasi institusional. Indonesia belum.
 
-### Uji Adversarial: Sinyal Vulkanik Bertahan
+### Uji Critical: Sinyal Vulkanik Bertahan
 
 Untuk mengecualikan kemungkinan bahwa defisit situs di zona vulkanik hanya artefak dari survei yang tidak merata, dilakukan regresi nested Poisson:
 

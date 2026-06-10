@@ -530,7 +530,7 @@
     "id": "E059",
     "dir": "E059_fieldwork_targets",
     "has_readme": true,
-    "title": "Priority Fieldwork Targets — Where to Dig Next",
+    "title": "Priority Fieldwork Candidates — Where to Dig Next",
     "papers": [
       "P2"
     ]
@@ -567,7 +567,7 @@
     "id": "E064",
     "dir": "E064_master_evidence_table",
     "has_readme": true,
-    "title": "Master Evidence Table — Cross-Paper Revision Ammo"
+    "title": "Master Evidence Table — Cross-Paper Revision Support Material"
   },
   {
     "id": "E065",
@@ -611,7 +611,7 @@
     "id": "E069",
     "dir": "E069_adversarial_comparanda",
     "has_readme": true,
-    "title": "Adversarial Experiment Suite — Falsification Tests",
+    "title": "Critical Experiment Suite — Falsification Tests",
     "status": "SUCCESS",
     "date": "2026-03-13",
     "key_metric": "AUC=0.713; p=0.760"

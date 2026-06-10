@@ -1,4 +1,4 @@
-# HANDOFF: Dual-Track Strategy Session (2026-04-01)
+﻿# HANDOFF: Dual-Track Strategy Session (2026-04-01)
 
 **Dari:** Claude (sesi otonom)
 **Untuk:** Pak Amien
@@ -84,9 +84,10 @@ Data sama, argumen sama, bahasa berbeda. Bukan duplikasi — translasi untuk aud
 9485a8a chore: add .claude/ to .gitignore, fix JCAA email address
 2a2540e docs: README updated to 175 experiments, WORKSTATE priorities rewritten for dual-track
 aa69980 feat: dual-track strategy — P11 Archipel reframe, P5 humanities analysis, doc sync
-115b247 feat: ME#11 closeout + ME#12 autonomous session — 28 experiments (E124-E175), 175 total
+115b247 feat: ME#11 closeout + ME#12 pipeline-driven session — 28 experiments (E124-E175), 175 total
 ```
 
 ---
 
 *"Data yang sama, cerita yang berbeda. Satu untuk yang menghitung, satu untuk yang mendengar."*
+

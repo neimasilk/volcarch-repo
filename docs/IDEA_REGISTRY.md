@@ -1,6 +1,6 @@
 # IDEA REGISTRY — Master Catalog of Research Ideas
 
-**Purpose:** Prevent idea loss. Every hypothesis, method, and research direction gets an ID here — even if it can't be executed yet. Killed papers ≠ killed ideas.
+**Purpose:** Prevent idea loss. Every hypothesis, method, and research direction gets an ID here — even if it can't be executed yet. Retired papers ≠ retired ideas.
 
 **Convention:**
 - ID format: `I-NNN` (never recycled)
@@ -61,9 +61,9 @@
 | I-045 | Estuarine hybrid resilience model | Most resilient polities (Sriwijaya, Surabaya, Demak) = river-sea confluence. Most archaeologically invisible due to organic + tidal erosion. Testable: map polity longevity vs estuarine position. | P4 draft | P4, Channel 2 |
 | I-046 | Volcanic density × colonial exploitation model | More volcanic density → more complex state → different colonial exploitation type. Java (in situ) vs Maluku (removal). Testable: GVP density × VOC records. | Parking lot VCS-colonial | P11, Channel 10 |
 | I-047 | Trunyan copper plate analysis | 833 Saka (~10th c.) inscription at Trunyan — any mention of burial practice? If yes, earliest written attestation of mepasah. | P9 draft notes | P5, P9, Channel 7 |
-| I-048 | Gamelan pelog × volcanic tremor frequency | Pelog tuning system has no Indian parallel. Correlate pelog frequency ratios with Merapi/Kelud tremor spectrograms. | Master attack map Ch.11 | P11, Channel 11 |
+| I-048 | Gamelan pelog × volcanic tremor frequency | Pelog tuning system has no Indian parallel. Correlate pelog frequency ratios with Merapi/Kelud tremor spectrograms. | Master evidence map Ch.11 | P11, Channel 11 |
 | I-049 | Keris pamor as volcanic material culture | Pamor technique uses volcanic magnetite + meteoritic nickel = unique to Nusantara. Date earliest keris finds vs Hindu arrival. | P11 draft §6 parking lot | P11, Channel 10 |
-| I-050 | Batik motif substrate detection | Some traditional batik patterns have no Hindu parallel. Apply visual classifier (same logic as P12) to batik images. | Master attack map Ch.10 | P12, Channel 10 |
+| I-050 | Batik motif substrate detection | Some traditional batik patterns have no Hindu parallel. Apply visual classifier (same logic as P12) to batik images. | Master evidence map Ch.10 | P12, Channel 10 |
 | I-051 | Volcanic ash as aDNA preservative | Volcanic burial that destroys surface record may PRESERVE aDNA (sealed, anaerobic). Java's aDNA blank spot may be best preservation site. **I-101 confirms: no Java aDNA exists at all — the blank IS the taphonomic signal.** | Working note aDNA §5 | P7, Channel 3 |
 | I-052 | Tephrochronology calendar for Java | Use known tephra layers (Kelud, Tambora, Krakatau, Toba) as stratigraphic dating framework — same method as Iceland archaeology. | P10 draft §4b | P1, P10, Channel 1 |
 | I-053 | ~~Pangram narrative uniqueness test~~ → **DESK RESEARCH: CONFIRMED UNIQUE** | Hanacaraka is the only known script whose pangram encodes a complete NARRATIVE (characters, conflict, resolution). Iroha (Japanese) = lyric/philosophical poem, no characters/plot. Old Slavonic letter names = debatable didactic message. Thai/Burmese/Khmer/Baybayin/Devanagari = phonological tables only. Caveat: Hanacaraka story is Neo-Javanese (not in OJ texts), dating uncertain. Recommended framing: "only writing system whose canonical learning sequence is a complete narrative with named characters and dramatic arc." | Web search 2026-03-11 | P8, P12, Channel 12 |
@@ -119,11 +119,11 @@
 | I-077 | Phosphorus survey of Trowulan (Majapahit heartland) | Already done by anyone? Literature check. | P10 draft notes |
 | I-078 | Song Terus aDNA extraction attempt | Pacitan cave, fauna bones exist — any human aDNA attempt? | Working note aDNA §10 |
 | I-079 | Muna Island post-Oktaviana 2026 aDNA sampling | Any planned aDNA from cave art site? | Working note aDNA §10 |
-| I-080 | Pertamina/ESDM sonar data for Sunda Shelf | Oil/gas sonar may contain submerged settlement anomalies | Master attack map Ch.2 |
+| I-080 | Pertamina/ESDM sonar data for Sunda Shelf | Oil/gas sonar may contain submerged settlement anomalies | Master evidence map Ch.2 |
 | I-081 | BATAN AMS radiocarbon capability + cost | What is current turnaround? For future P10 fieldwork. | P10 draft notes |
 | I-082 | Phytolith survival in volcanic soil literature check | Alkaline ash may ENHANCE phytolith preservation | P10 draft notes |
 | I-083 | Liangan adjacent soil cores | Most accessible deeply buried Javanese site (sand mining 2008) | P10 draft notes |
-| I-084 | Borobudur base reliefs without Indian iconographic source | Which panels are NOT from Indian texts? | Master attack map Ch.10 |
+| I-084 | Borobudur base reliefs without Indian iconographic source | Which panels are NOT from Indian texts? | Master evidence map Ch.10 |
 | I-085 | La Galigo NLP — motif extraction from Bugis epic | 6000 pages, pre-Islamic, zero Hindu pantheon | P12 draft §8 |
 | I-086 | ~~Batara Kala as Class A candidate~~ → **DESK RESEARCH: CLASS C** | Not Class A — deity concept clearly Indic (Shiva/Kala/Mahakala, Rahu/Ketu). But ruwatan ceremony (wayang exorcism) and sukerta children taxonomy appear uniquely Javanese institutional innovations on Indic frame. Class C (syncretic). | Web search 2026-03-11 |
 | I-087 | Ruwatan structural analysis (pre-Hindu structure, post-Hindu vocab) | Good test case for syncretic Class C classification | P12 draft §8 |
@@ -142,7 +142,7 @@
 |----|-------|--------|------------|-------|
 | I-002 | Pranata Mangsa × eruption seasonality | RESULT | E032 | Kapitu peak 3.8x, chi2 p=0.042, Rayleigh p=0.032 |
 | I-004 | Cerita Panji in Malagasy (informative neg.) | RESULT | E034 | Panji absent (post-dates migration). Ibonia = Ramayana-era. |
-| I-003 | The Indianization Curve (Sanskrit ratio temporal) | RESULT | E033 | P5 revision ammo (rho=-0.211, p=0.030) |
+| I-003 | The Indianization Curve (Sanskrit ratio temporal) | RESULT | E033 | P5 revision support material (rho=-0.211, p=0.030) |
 | I-001 | Candi orientation vs volcanic peak alignment (split) | RESULT | E031 | Siting: west-cluster p<0.0001; Orientation: null (35%, p=0.94) |
 | I-008 | Prasasti botanical keyword expansion | RESULT | E035 | 15 plants, menyan+kamboja ABSENT. Mortuary = oral tradition. |
 | I-006 | Hanacaraka 33→20 phonological mapping | RESULT | E036 | Aspiration+retroflex+sibilant lost. Aligns PAn. tha/dha paradox. |
@@ -155,7 +155,7 @@
 | I-094 | Pre-Indic vocabulary persistence in prasasti | RESULT | E030 | P5 (submitted) |
 | I-095 | Phonological substrate detection via ML | PAPER | E022-E029 | P8 (draft v0.1) |
 | I-096 | Substrate clustering → shared language (REJECTED) | RESULT | E029 | P8 (informative negative: p=0.569) |
-| I-097 | Pararaton-Kelud temporal correlation | RESULT | E026 | ~~P14~~ KILLED (Bonferroni adj. p=0.222). E026 folded into P5 revision ammo. |
+| I-097 | Pararaton-Kelud temporal correlation | RESULT | E026 | ~~P14~~ DISCONTINUED (Bonferroni adj. p=0.222). E026 folded into P5 revision support material. |
 | I-098 | Slametan-decomposition taphonomic link | PAPER | E023 | P5 (submitted) |
 | I-099 | Mini-NusaRC cave bias test | RESULT | E020 | P7 (informative negative: p=0.761) |
 | I-100 | Borehole burial gradient | RESULT | E024 | P9 (POC complete, 25 records) |
@@ -179,7 +179,7 @@
 
 ---
 
-## Index by Channel (Master Attack Map)
+## Index by Channel (Master Evidence Map)
 
 | Channel | Ideas |
 |---------|-------|

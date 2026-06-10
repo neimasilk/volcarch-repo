@@ -1,6 +1,6 @@
-# HANDOFF: Session 15 — AutoResearch Autonomous (2026-04-13)
+﻿# HANDOFF: Session 15 — AutoResearch Autonomous (2026-04-13)
 
-**Dari:** Claude (sesi 15, autonomous mode)
+**Dari:** Claude (sesi 15, pipeline mode)
 **Untuk:** Sesi berikutnya
 **Durasi:** ~4 jam autonomous
 
@@ -8,7 +8,7 @@
 
 ## RINGKASAN 30 DETIK
 
-Sesi autonomous terbesar kedua. **9 eksperimen baru (E189-E197), 197 total.** Empat frontier dimajukan: satellite archaeology (4 eksperimen), L2 coastal (1), population estimation (1), colonial data mining (E141 extended + E197). **Tiga temuan utama:** (1) E195 AHA — prasasti dekat gunung api LEBIH TUA, artinya pusat kebudayaan = zona penghancuran; (2) E196 — Jawa 400 CE punya 1-2 juta penduduk, suppression ≥694×; (3) E197 — 33 kedalaman kolonial memvalidasi burial model (Wilcoxon p=0.131). Colonial Delpher pipeline sekarang operational: 1.768 records, 5.8× enrichment dekat target prediksi.
+sesi pipeline terbesar kedua. **9 eksperimen baru (E189-E197), 197 total.** Empat frontier dimajukan: satellite archaeology (4 eksperimen), L2 coastal (1), population estimation (1), colonial data mining (E141 extended + E197). **Tiga temuan utama:** (1) E195 AHA — prasasti dekat gunung api LEBIH TUA, artinya pusat kebudayaan = zona penghancuran; (2) E196 — Jawa 400 CE punya 1-2 juta penduduk, suppression ≥694×; (3) E197 — 33 kedalaman kolonial memvalidasi burial model (Wilcoxon p=0.131). Colonial Delpher pipeline sekarang operational: 1.768 records, 5.8× enrichment dekat target prediksi.
 
 ---
 
@@ -38,7 +38,7 @@ Sesi autonomous terbesar kedua. **9 eksperimen baru (E189-E197), 197 total.** Em
 | Phase 2c (expanded NLP) | 117 analyzed | 97 geocoded, 4 new depths |
 | **Combined** | **1.768** | **165 geocoded, 33 depths, 5.8× enrichment** |
 
-### Revision Ammo Created
+### Revision Support Material Created
 
 | File | For | Content |
 |------|-----|---------|
@@ -96,7 +96,7 @@ Sesi autonomous terbesar kedua. **9 eksperimen baru (E189-E197), 197 total.** Em
 | Delpher records | 529 | **1.768** (3.3×) |
 | Geocoded colonial locations | 0 | **165** |
 | Colonial depth records | 0 | **33** |
-| Revision ammo files | — | **+4** |
+| Revision support material files | — | **+4** |
 | Ideas documented | I-132 | **I-136** (+4) |
 | ME#13 risks addressed | 5/7 | **7/7** (Risk 3 broken, Risk 4 expanded) |
 
@@ -105,3 +105,4 @@ Sesi autonomous terbesar kedua. **9 eksperimen baru (E189-E197), 197 total.** Em
 *"Pertanyaannya bukan: kenapa peradaban Nusantara mulai terlambat?*
 *Pertanyaannya: kenapa 1-2 juta orang meninggalkan nol jejak arkeologis?*
 *Jawabannya: karena mereka tinggal di atas 45 gunung berapi aktif."*
+

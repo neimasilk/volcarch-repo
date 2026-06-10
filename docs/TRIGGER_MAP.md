@@ -111,39 +111,39 @@
 
 ### ~~If: I-003 (Sanskrit ratio temporal) shows clear decline/curve~~ → **FIRED (E033, 2026-03-10)**
 - ✓ E033 SUCCESS: Indic ratio DECLINES (rho=-0.211, p=0.030). Peak C9, trough C13.
-- "Indianization curve" IS publishable → strongest P5 revision ammo
-- P5 revision ammo → quantitative evidence for substrate persistence (READY)
+- "Indianization curve" IS publishable → strongest P5 revision support material
+- P5 revision support material → quantitative evidence for substrate persistence (READY)
 - I-022 → KawiKupas tool justified as general research instrument
 
 ### ~~If: E048 genre taphonomy replicated across additional corpora~~ → **PARTIALLY FIRED (E048, 2026-03-12)**
 - ✓ E048 SUCCESS: Genre is massive taphonomic filter — sima 90.4% vs short 24.1% organic (p<0.0001)
 - ✓ C8 = "dark century" (peak Sanskrit format → minimum visibility of indigenous culture)
 - I-105 → L5 (Genre Taphonomy) becomes **STRONGLY SUPPORTED** → upgrades to VERIFIED if replicated on non-DHARMA corpus
-- P1 revision ammo → genre artifact explains part of the archaeological blank
-- P5 revision ammo → pre-Indic vocabulary correlated with organic mentions (partial rho=+0.162)
+- P1 revision support material → genre artifact explains part of the archaeological blank
+- P5 revision support material → pre-Indic vocabulary correlated with organic mentions (partial rho=+0.162)
 - **Next replication needed:** Non-Javanese inscription corpus (Sumatran, Balinese) to confirm genre taphonomy is universal
 
 ### ~~If: E049 maritime conservation confirmed~~ → **FIRED (E049, 2026-03-12)**
 - ✓ E049 SUCCESS: Maritime #2 most conserved domain in peripheries (Bal 60% vs Jav 40%)
 - ✓ "Sea" (laut): PMP cognate retained in Balinese, REPLACED in Javanese
 - I-104 → Pre-Hindu substrate was maritime-organic (not just organic) → strengthens P9 peripheral conservatism thesis
-- E049 data usable as P8 revision ammo (domain-level phonological fingerprint)
+- E049 data usable as P8 revision support material (domain-level phonological fingerprint)
 
 ### ~~If: Canarium pan-Austronesian distribution confirmed~~ → **FIRED (E050, 2026-03-12)**
 - ✓ E050 SUCCESS (GBIF): Canarium present in ALL Austronesian regions — Taiwan, Philippines, Melanesia, Madagascar
 - ✓ Madagascar 388 records (25.9% of total) — not marginal, major flora component
 - I-106 → 4-layer aromatic substitution chain validated (Canarium → dammar → menyan → kamboja)
 - I-024 → E044 botanical findings independently confirmed via distribution data
-- P5 revision ammo → Canarium replaces Plumeria as pre-Hindu aromatic (E044 correction strengthened)
-- P9 revision ammo → pan-Austronesian botanical link between Java and Madagascar confirmed
+- P5 revision support material → Canarium replaces Plumeria as pre-Hindu aromatic (E044 correction strengthened)
+- P9 revision support material → pan-Austronesian botanical link between Java and Madagascar confirmed
 
 ### ~~If: E058 Kakawin NLP completes~~ → **FIRED (E058, 2026-03-12)**
 - ✓ E058 SUCCESS (NUANCED): 189 curated terms, 9 domains classified
 - ✓ Agriculture 91% native — Sanskrit had ZERO agricultural vocabulary to offer
 - ✓ Register stratification confirmed: kakawin heterogeneous, prasasti uniform Sanskrit overlay
 - I-022 → KawiKupas tool MORE justified: token-frequency analysis would turn E058 type-based ratio into definitive token-based ratio
-- P5 revision ammo → agriculture vocabulary = strongest substrate marker
-- P8 revision ammo → domain gradient provides context for ML substrate detection
+- P5 revision support material → agriculture vocabulary = strongest substrate marker
+- P8 revision support material → domain gradient provides context for ML substrate detection
 - **New trigger:** If digitized kakawin corpus obtained → E058 becomes definitive (token-level, not type-level)
 
 ### ~~If: E060 synthesis completes~~ → **FIRED (E060, 2026-03-12)**
@@ -155,7 +155,7 @@
 ### ~~If: ADV-1 Japan comparanda completed~~ → **FIRED (E086, 2026-03-16)**
 - ✓ E086 PARTIAL: Japan 100-200× more survey, Kikai-Akahoya IS VOLCARCH-type, Java 32× deeper burial
 - ✓ L1 Constitution reframed: volcanism × survey deficit (not volcanism alone)
-- ✓ P1 revision ammo created: `papers/P1_taphonomic_framework/revision_ammo/ADV1_japan_comparanda.md`
+- ✓ P1 revision support material created: `papers/P1_taphonomic_framework/revision_ammo/ADV1_japan_comparanda.md`
 - ✓ I-119 → RESULT
 - **Remaining:** I-074 (Shinto volcano deities comparison) becomes more relevant — Japan is now explicit comparandum
 
@@ -163,7 +163,7 @@
 - ✓ E087 GREY ZONE: C1 (Tagalog+Cebuano) AUC=0.568 PASS, but C5 (Iban+Malay) AUC=0.713 ALARMING
 - ✓ Detector conflates ABVD documentation gaps with substrate signal
 - ✓ P8 MUST reframe: "phonological non-conformity" not "substrate detection"
-- ✓ P8 revision ammo created: `papers/P8_linguistic_fossils/revision_ammo/ADV5_negative_control.md`
+- ✓ P8 revision support material created: `papers/P8_linguistic_fossils/revision_ammo/ADV5_negative_control.md`
 - **New blocker:** ABVD documentation quality limits substrate detection → need better lexical database
 
 ### ~~If: Textual archaeology corpus built~~ → **FIRED (E088-E090, 2026-03-16)**
@@ -192,13 +192,13 @@
 - ✓ E096 SUCCESS: First BERTopic on any epigraphic corpus. 3 topics discovered.
 - ✓ **929 CE topic shift: chi2=16.58, p=0.0003.** Royal surges (Fisher p=0.0002). Ritual vanishes.
 - ✓ L4 cosmological overwrite = COMPUTATIONALLY CONFIRMED via NLP
-- ✓ P5/P8 revision ammo: discursive evidence for cultural shift at Mataram collapse
+- ✓ P5/P8 revision support material: discursive evidence for cultural shift at Mataram collapse
 - I-116 (eruption-inscription temporal) → now has computational evidence for correlation
 
-### ~~If: Anomaly detection converges with fieldwork targets~~ → **FIRED (E097, 2026-03-16)**
+### ~~If: Anomaly detection converges with fieldwork candidates~~ → **FIRED (E097, 2026-03-16)**
 - ✓ E097 SUCCESS: Isolation Forest on 378 sites. **65% overlap** with E080 top 20 targets (13/20 within 5km).
 - ✓ Kelud western slopes = dominant target. TRI top feature (0.294). 195K site-like cells with >1m burial.
-- ✓ TWO completely independent methods → same zones. Strongest validation of fieldwork targets.
+- ✓ TWO completely independent methods → same zones. Strongest validation of fieldwork candidates.
 - ✓ I-020 (crop mark detection) → target zones now quantitatively defined
 - ✓ I-043 (candi siting) → environmental suitability confirmed computationally
 - ✓ Dokumen Jembatan v0.2 → 65% convergence is headline finding for collaborator outreach
@@ -300,7 +300,7 @@
 
 ### If: Indonesian-language reviewer comments arrive (P5 or P7)
 - Indonesian literature gap (blind spot 8.3) → specific gaps identified
-- Response-to-reviewer preparation → activates revision ammo docs
+- Response-to-reviewer preparation → activates revision support material docs
 
 ---
 

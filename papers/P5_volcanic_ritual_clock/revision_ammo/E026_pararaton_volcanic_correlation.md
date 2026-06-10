@@ -1,6 +1,6 @@
-# E026 Pararaton Volcanic Correlation — Revision Ammo for P5
+# E026 Pararaton Volcanic Correlation — Revision Support Material for P5
 
-**Source:** P14 (killed 2026-03-11, Mata Elang #4). E026 results folded here.
+**Source:** P14 (discontinued 2026-03-11, Mata Elang #4). E026 results folded here.
 **IDEA_REGISTRY:** I-097
 
 ## Key Finding
@@ -12,7 +12,7 @@ Pararaton narrative events cluster near volcanic eruptions:
 
 ## Caveats
 
-- **Bonferroni correction kills significance:** adj. p=0.222 (6 tests). Does NOT survive multiple comparison correction.
+- **Bonferroni correction eliminates significance:** adj. p=0.222 (6 tests). Does NOT survive multiple comparison correction.
 - **Poisson rate test:** p=0.255, not significant. Clustering is suggestive, not conclusive.
 - Small sample (6 events, ~350 year period).
 - Pararaton is a literary text, not a contemporary chronicle — events may be telescoped.

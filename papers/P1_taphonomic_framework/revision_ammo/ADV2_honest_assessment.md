@@ -59,4 +59,4 @@ This is a stronger position than the pre-ADV-2 framing, because it is honestly g
 
 ---
 
-*Prepared 2026-03-13. Intellectual honesty is the best revision ammo.*
+*Prepared 2026-03-13. Intellectual honesty is the best revision support material.*

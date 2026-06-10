@@ -1,23 +1,23 @@
-# HANDOFF: Session 14 — ME#13 The Reckoning + P17 SUBMITTED (2026-04-09)
+﻿# HANDOFF: Session 14 — ME#13 The Audit + P17 SUBMITTED (2026-04-09)
 
 **Dari:** Claude (sesi 14, autonomous)
 **Untuk:** Sesi berikutnya
-**Durasi:** ~4 jam (full autonomous mode)
+**Durasi:** ~4 jam (unattended session)
 
 ---
 
 ## RINGKASAN 30 DETIK
 
-Sesi autonomous terbesar. Mata Elang #13 = kritik struktural terdalam (7 risiko, 3 pivot). 11 eksperimen baru (E176-E186). P17 "Two Javas" SUBMITTED ke ArchCalc (ID 365, Diamond OA, gratis). Cascade model di-downgrade dari "validated" ke "plausible decomposition." Karst teridentifikasi sebagai faktor ke-6. Register split C9-C10 = asal usul ngoko/krama. Scorecard: **6 papers under review.**
+sesi pipeline terbesar. Mata Elang #13 = kritik struktural terdalam (7 risiko, 3 pivot). 11 eksperimen baru (E176-E186). P17 "Two Javas" SUBMITTED ke ArchCalc (ID 365, Diamond OA, gratis). Cascade model di-downgrade dari "validated" ke "plausible decomposition." Karst teridentifikasi sebagai faktor ke-6. Register split C9-C10 = asal usul ngoko/krama. Scorecard: **6 papers under review.**
 
 ---
 
 ## DELIVERABLES
 
-### 1. Mata Elang #13 — The Reckoning
+### 1. Mata Elang #13 — The Audit
 - `docs/research_notes/MATA_ELANG_13_2026_04_09.md`
 - 7 risiko struktural (2 CRITICAL, 3 HIGH, 2 MEDIUM)
-- 3 pivot strategis: smoking gun > cascade, paper fortress, collaboration
+- 3 pivot strategis: decisive case > cascade, paper fortress, collaboration
 - Mekanisme seleksi kritik: AKOMODASI / PERHATIKAN / ABAIKAN
 
 ### 2. P17 SUBMITTED to ArchCalc
@@ -44,7 +44,7 @@ Sesi autonomous terbesar. Mata Elang #13 = kritik struktural terdalam (7 risiko,
 
 ### 4. Dokumen Lain
 - `docs/drafts/VOLCARCH_1page_pitch_v1.md` — 1-page pitch untuk kolaborator
-- Manifesto v4.3 — cascade reframed, karst added
+- Research Statement v4.3 — cascade reframed, karst added
 - All docs synced: WORKSTATE, JOURNAL, EXPERIMENT_INDEX, MEMORY
 
 ---
@@ -73,7 +73,7 @@ Sesi autonomous terbesar. Mata Elang #13 = kritik struktural terdalam (7 risiko,
 | **Delpher NLP (E180)** | PENDING | Needs internet for API |
 | **Tengger full lexicon** | BLOCKED | Needs Conners 2008 PhD |
 | **ArchCalc password** | CHANGE NOW | Pak Amien: ganti password |
-| **Castillo email** | NOT STARTED | Phytolith pitch (killer experiment) |
+| **Castillo email** | NOT STARTED | Phytolith pitch (decisive experiment) |
 | **Horizon Europe** | Opens 12 May | Monitor, prepare pitch |
 
 ---
@@ -84,9 +84,11 @@ Sesi autonomous terbesar. Mata Elang #13 = kritik struktural terdalam (7 risiko,
 
 2. **Karst = faktor ke-6** (E178). Filipina vulkanik punya 25 situs pra-400 M; Jawa vulkanik = 0. Bedanya bukan cuma vulkanisme — Jawa hampir tanpa gua (karst 0.08 vs 0.20). Situs gua bypass SEMUA faktor cascade.
 
-3. **Cascade over-parameterized** (E176). 5 parameter, 1 data point. Model 3-faktor juga bracket. West Java smoking gun lebih kuat dari seluruh model cascade.
+3. **Cascade over-parameterized** (E176). 5 parameter, 1 data point. Model 3-faktor juga bracket. West Java decisive case lebih kuat dari seluruh model cascade.
 
 ---
 
 *"Pertanyaannya bukan lagi: berapa banyak eksperimen yang bisa kita jalankan?*
 *Pertanyaannya sekarang: yang 10 mana yang cukup kuat untuk bertahan di hadapan orang yang ingin kita salah?"*
+
+

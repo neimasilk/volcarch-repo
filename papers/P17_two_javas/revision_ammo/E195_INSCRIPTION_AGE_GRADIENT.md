@@ -1,4 +1,4 @@
-# Revision Ammo: Inscription Age Gradient (E195)
+# Revision Support Material: Inscription Age Gradient (E195)
 
 **For:** P17 "Two Javas" (ArchCalc, ID 365)
 **Priority:** HIGH — addresses potential reviewer question about cultural vs taphonomic interpretation

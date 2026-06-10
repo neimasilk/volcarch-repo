@@ -85,7 +85,7 @@ Same data, different framing. This doubles the potential readership without dupl
 | 2 | "Patung yang Ditelan Bumi" | Dwarapala Singosari — visual, dramatic | 10 min |
 | 3 | "Liangan: Pompeii-nya Indonesia" | Complete village under a volcano | 12 min |
 | 4 | "3.220x: Angka yang Mengubah Sejarah" | The impossible demographic gap | 10 min |
-| 5 | "Di Mana Kita Harus Menggali?" | Prediction maps, fieldwork targets | 10 min |
+| 5 | "Di Mana Kita Harus Menggali?" | Prediction maps, fieldwork candidates | 10 min |
 | 6 | "Undangan Terbuka" | Call for collaboration | 8 min |
 
 - **Blocker:** Time + basic video editing capability. No need for high production — authenticity > polish
@@ -104,7 +104,7 @@ Same data, different framing. This doubles the potential readership without dupl
 - **What:** Web-based map (Folium or Kepler.gl) showing:
   - 666 known archaeological sites
   - Predicted burial depths (heatmap)
-  - 10 fieldwork targets (at coarse resolution)
+  - 10 fieldwork candidates (at coarse resolution)
   - Volcanic systems overlay
   - Sedimentation rate zones
 - **Host:** GitHub Pages (free)

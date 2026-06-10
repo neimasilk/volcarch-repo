@@ -47,7 +47,7 @@
 
 ### Structural Critique — 10-Section System/Research Design Review
 - Dataset monoculture identified: 21/85 experiments depend on same 268 DHARMA inscriptions
-- 6 Layers of Darkness → recommend collapse to 3 (Physical Taphonomy, Historiographic Bias, Cosmological Overwrite)
+- 6 Layers of Invisibility → recommend collapse to 3 (Physical Taphonomy, Historiographic Bias, Cosmological Overwrite)
 - Speed/credibility risk flagged (6 papers in 10 days from first-time author)
 - Prescription: **CONTRACTION, not expansion** — validate existing work, stop adding experiments
 
@@ -57,16 +57,16 @@
 - Kikai-Akahoya (7300 BP) IS a VOLCARCH-type phenomenon
 - Java 32× deeper sustained burial (tropical lahar regime)
 - **L1 MUST be reframed:** volcanism × survey deficit, not volcanism alone
-- L1 Constitution updated. P1 revision ammo created.
+- L1 Constitution updated. P1 revision support material created.
 
 ### E087/ADV-5: Substrate Negative Control — GREY ZONE
 - C1 (Tagalog+Cebuano) AUC=0.568 — PASS
 - C5 (Iban+Malay) AUC=0.713 — ALARMING (nearly matches Sulawesi 0.727)
 - Detector conflates ABVD documentation gaps with substrate signal
 - **P8 MUST reframe:** "phonological non-conformity" not "substrate detection"
-- P8 revision ammo created.
+- P8 revision support material created.
 
-### Adversarial Scorecard — COMPLETE (5/5 tests done)
+### Robustness Scorecard — COMPLETE (5/5 tests done)
 
 | Test | Target | Result |
 |------|--------|--------|
@@ -115,15 +115,15 @@
 | E088 Textual Archaeology | `experiments/E088_textual_archaeology_nlp/` |
 | E089 Expanded Corpus | `experiments/E089_expanded_textual_corpus/` |
 | E090 Transformer NLP | `experiments/E090_transformer_textual_nlp/` |
-| P1 Japan revision ammo | `papers/P1_taphonomic_framework/revision_ammo/ADV1_japan_comparanda.md` |
-| P8 negative control ammo | `papers/P8_linguistic_fossils/revision_ammo/ADV5_negative_control.md` |
+| P1 Japan revision support material | `papers/P1_taphonomic_framework/revision_ammo/ADV1_japan_comparanda.md` |
+| P8 negative control supporting material | `papers/P8_linguistic_fossils/revision_ammo/ADV5_negative_control.md` |
 | Structural critique | Journal entry 2026-03-16 |
 
 ---
 
-## 5. Cathedral Findings (survive ALL adversarial scrutiny)
+## 5. Cathedral Findings (survive ALL critical scrutiny)
 
-| Finding | p-value | Adversarial status |
+| Finding | p-value | Critical status |
 |---------|---------|-------------------|
 | E066 equinox orientation | 4.9e-14 | Trivially true (temples face east) — low novelty |
 | E065 Zone A overrepresentation | <1e-6 | Needs population density control |

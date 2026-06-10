@@ -1,4 +1,4 @@
-# P2 Revision Ammo: Anticipated Critiques & Pre-Computed Responses
+# P2 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "Volcanic Taphonomic Bias in Settlement Pattern Analysis: A Predictive Model for East Java"
 **Journal:** JCAA (J. Computer Applications in Archaeology), Submission #280

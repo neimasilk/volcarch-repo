@@ -1,4 +1,4 @@
-# P8 Revision Ammo: E087 Negative Control Results
+# P8 Revision Support Material: E087 Negative Control Results
 
 **Paper:** "Linguistic Fossils" — Oceanic Linguistics MS# OL-03-2026-11
 **Date:** 2026-03-16

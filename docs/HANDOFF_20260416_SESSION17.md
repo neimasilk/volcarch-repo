@@ -1,8 +1,8 @@
-# HANDOFF: Session 17 — Mata Elang #14 + PhD Sent + Core Stack (2026-04-16)
+﻿# HANDOFF: Session 17 — Mata Elang #14 + PhD Sent + Core Stack (2026-04-16)
 
 **Dari:** Claude (sesi 17)
 **Untuk:** Sesi berikutnya
-**Durasi:** ~6 jam (autonomous mode)
+**Durasi:** ~6 jam (pipeline mode)
 
 ---
 
@@ -48,7 +48,7 @@ Sesi otonom terpanjang sejauh ini. PhD proposal **SENT** ke Verberne (2 fix krit
 
 | ID | Temuan | Status | PhD? |
 |----|--------|--------|:--:|
-| E201 | Philippines 55-65% open-air, gap LARGER | SUCCESS | Revision ammo |
+| E201 | Philippines 55-65% open-air, gap LARGER | SUCCESS | Revision support material |
 | E202 | 30m DEM can't detect candi (sub-pixel) | INCONCLUSIVE | LiDAR planning |
 | E203 | Genome: 5th evidence channel, Java aDNA blank | SUCCESS | Independent evidence |
 | E204 | Bronze drums: ~40 in volcanic Java | SUCCESS | "Selective survival" reframe |
@@ -102,7 +102,7 @@ Sesi otonom terpanjang sejauh ini. PhD proposal **SENT** ke Verberne (2 fix krit
 | GLOBALISE accessed | No | **Yes** (API, 50 files downloaded) |
 | Mata Elang | #13 | **#14** (deepest critique) |
 | New ideas | I-136 | **I-146** (+10) |
-| Strategy | Submit papers | **Riset dalam diam** (PhD ammo) |
+| Strategy | Submit papers | **Riset dalam diam** (PhD evidence base) |
 
 ---
 
@@ -136,3 +136,4 @@ Sesi otonom terpanjang sejauh ini. PhD proposal **SENT** ke Verberne (2 fix krit
 - `docs/correspondence/phd_proposal/CLAIM_AUDIT_TRAIL.md` (updated: ±1.2 source found, v0.2 fixes)
 - `docs/JOURNAL.md` (updated: Session 17 entry)
 - `docs/IDEA_REGISTRY.md` (updated: I-137 to I-146)
+

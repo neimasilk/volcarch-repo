@@ -1,4 +1,4 @@
-# ADV-2: Depth-Based Evidence vs Site-Type Ratios — Revision Ammo for P1
+# ADV-2: Depth-Based Evidence vs Site-Type Ratios — Revision Support Material for P1
 
 **Paper:** P1 "Volcanic Taphonomic Bias in Indonesian Archaeological Records"
 **Prepared:** 2026-03-13

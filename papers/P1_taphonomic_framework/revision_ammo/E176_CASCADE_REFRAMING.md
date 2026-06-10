@@ -1,4 +1,4 @@
-# Revision Ammo: Cascade Model Reframing (E176)
+# Revision Support Material: Cascade Model Reframing (E176)
 
 **Use when:** Reviewer challenges "the cascade matches data" or asks about model validation.
 
@@ -19,4 +19,4 @@ WITH:
 - E176: 5/10 possible 3-factor models also bracket observed gap
 - E176: AIC barely improves from 3-factor (6.73) to 5-factor (6.25)
 - E178: Karst is a confounding factor not in the model (Philippines volcanic has 25 pre-400 CE sites because of caves)
-- West Java smoking gun remains the STRONGEST evidence (independent of cascade arithmetic)
+- West Java decisive case remains the STRONGEST evidence (independent of cascade arithmetic)

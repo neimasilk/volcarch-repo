@@ -148,7 +148,7 @@ Suggestive but unconfirmed:
 
 | Paper | How to use Liangan |
 |-------|-------------------|
-| **P1 (EGQSJ)** | Revision ammo — validation that volcanic burial preserves organic settlements. 1-2 sentences in discussion. |
+| **P1 (EGQSJ)** | Revision support material — validation that volcanic burial preserves organic settlements. 1-2 sentences in discussion. |
 | **P11** | Table 5 already mentions Liangan (4m). Expand to 1-2 sentences in Section 5 (Discussion). |
 | **P19 (BKI)** | Section 3 — "Java's Pompeii": what a buried settlement looks like, what the pre-Hindu equivalent might contain. Cerén comparison. |
 | **P17** | "Two Javas" — Liangan demonstrates that the volcanic Java has buried settlements; the non-volcanic Java's settlements decomposed. |

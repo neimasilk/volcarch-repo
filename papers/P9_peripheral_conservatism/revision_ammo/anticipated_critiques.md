@@ -1,4 +1,4 @@
-# P9 Revision Ammo: Anticipated Critiques & Pre-Computed Responses
+# P9 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "Peripheral Conservatism in Western Austronesian Linguistic and Ritual Systems: Evidence from Java, Bali, and Madagascar"
 **Journal:** JSEAS (Journal of Southeast Asian Studies, NUS Press)

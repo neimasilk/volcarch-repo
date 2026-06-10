@@ -1,0 +1,71 @@
+# Skeptical Cross-Model Review — P0 — deepseek-chat
+
+**Paper:** `papers\P0_invisible_civilization\draft_v0.4.tex`
+**Model:** `deepseek-chat`
+**Target addendum:** `P0`
+**Prompt tokens:** 21616
+**Completion tokens:** 2833
+**Elapsed seconds:** 104.2
+
+## Review
+**Referee Report**
+
+**Manuscript Title:** The Invisible Civilisation: Six Independent Lines of Evidence for an Archaeologically Erased Pre-Hindu Nusantara
+**Authors:** Mukhlis Amien & Go Frendi Gunawan
+**Target Journal:** Journal of Anthropological Archaeology
+
+---
+
+### 1. SUMMARY
+The manuscript argues that the apparent absence of pre-4th century CE archaeological sites in the volcanic interior of Java is not evidence of a sparse population, but the result of a severe, multi-factor taphonomic filter that has rendered a substantial "substrate civilisation" archaeologically invisible. The central contribution is a synthetic framework, supported by six "independent" evidence channels (sedimentation rates, Philippines comparison, linguistic substrate, paleogenomic data, colonial archive text mining, and archaeometric evidence from exported goods), which posits that Java supported a population of 1-2 million people by 400 CE. The authors contend that this population's organic settlement matrix has been erased by volcanic burial and other filters, while traces survive in durable exports, linguistic substrates, and living traditions like wayang.
+
+### 2. OVERALL ASSESSMENT
+**Reject.** The paper presents an ambitious and intellectually stimulating synthesis, but its core argument is fundamentally unsupported by the evidence presented. It substitutes computational correlation for archaeological causation, relies on a chain of speculative inferences, and fails to meet the basic disciplinary standard that extraordinary claims require extraordinary evidence derived from primary archaeological data.
+
+### 3. MAJOR CONCERNS
+1.  **The Argument is Built on an Absence, Explained by an Absence.** The entire thesis hinges on a demographic estimate (1-2 million people by 400 CE) that is itself a model built on ecological carrying capacities and back-projections. The authors then note the absence of archaeology for this modelled population and propose taphonomic filters as the cause. This is a classic "absence of evidence" argument, rendered circular by using the *assumed* population to justify the *inferred* taphonomy, which then explains the absence. The paper provides no *positive* archaeological evidence for the existence of this civilisation within Java itself. The "evidence" is entirely circumstantial (exports, linguistics, genetics of modern populations) or predictive (sedimentation models). This is not how archaeological claims are substantiated.
+
+2.  **Misuse of "Independent" Evidence Channels.** The claim of six independent lines of evidence is misleading. The channels are not epistemically independent; they are all marshalled in service of the same prior hypothesis. More critically, several channels do not provide evidence *for the specific claim* of a pre-Hindu Javanese civilisation.
+    *   **Channel 3 (Linguistics):** Demonstrating a pre-Indic Austronesian substrate is unremarkable and expected. It speaks to cultural and linguistic continuity, not to the scale, complexity, or material footprint of a "civilisation" in Java specifically. The domain gradient in Old Javanese texts is interesting but shows localisation of Indic culture, not proof of a prior complex society.
+    *   **Channel 4 (Paleogenomics):** The authors correctly note the tautology: the lack of ancient DNA is because we lack skeletal remains. The data from modern genomes shows deep ancestry, which again is expected and indicates population continuity, not a specific, organised, pre-4th century CE polity. This channel provides a necessary condition (people were there) but not a sufficient one for the claimed civilisation.
+    *   **Channel 6 (Archaeometric Exports):** This is the most tangible evidence, but it is grievously misapplied. The Pejeng drums (1st-3rd c. CE) and *Jatim* beads (4th-6th c. CE) demonstrate sophisticated craft production and participation in long-distance networks. **This does not equate to evidence for a widespread, settled, agricultural "civilisation" in Java's interior.** It is entirely plausible, and indeed more parsimonious, that these were products of coastal or peri-coastal entrepôts or specialist communities—precisely the areas (like Buni) where archaeology *is* found. Using evidence of elite trade goods found abroad to argue for a missing heartland civilisation is a logical leap of staggering proportions.
+
+3.  **The Philippines Comparison is Flawed and Inappropriately Used as a "Natural Experiment."** The comparison is not controlled. The Philippines and Java differ in countless ways beyond volcanic density and karst availability: historical trajectories of trade, political centralisation, soil types, island size and shape, and the intensity of archaeological research for the relevant periods. To claim that the difference of ~300 pre-400 CE sites vs. ~0 in Java is primarily due to taphonomy ignores these profound historical and geographical variables. Furthermore, citing Philippine sites in volcanic zones like Batangas undermines their own argument: if Batangas preserves archaeology next to Taal volcano, why doesn't Java? The answer cannot simply be "more volcanoes," as the sedimentation model would then predict similar burial and invisibility in Batangas. This comparison is not a test; it is a suggestive analogy stretched into a false control.
+
+4.  **The "Six-Filter Framework" is a Post-Hoc Justification, Not a Testable Model.** The filters (L1-L6) are a descriptive list of general biases in the archaeological and historical record (e.g., volcanic burial, historiographic bias). Presenting them as a multiplicative "cascade" (Section 7) gives a false impression of quantitative rigor. The model is underdetermined and unfalsifiable in its current form, as the authors half-admit. It can "explain" any outcome. The pre-registered predictions (Section 8) are an admirable gesture, but they are mostly proposals for future research that *might* find evidence. They do not validate the core claim made *now*. A prediction like "GPR in 20 zones will yield 2.5 finds" is not a robust test; a null result can be explained away by adjusting the "filter" parameters.
+
+5.  **Disregard for Alternative, Parsimonious Explanations.** The paper dismisses the possibility that the population was simply much smaller and less complex without engaging seriously with the material implications. If the population was, say, 200,000 people living in dispersed, shifting settlements with predominantly organic material culture, the archaeological signature in a volcanic tropical environment could indeed be virtually nil. The paper treats the high-end demographic model as a fact to be explained, rather than a hypothesis to be tested against the negative evidence. The 132 CE Ye-tiao embassy is noted, but a single diplomatic mission does not require a million-strong hinterland; it requires a coastal polity with maritime connections.
+
+### 4. METHODOLOGICAL CONCERNS
+*   **Statistical & Evidential Independence:** The claim of independence is repeatedly undermined. Channels 1 (sedimentation) and 5 (colonial archives) are linked, as the archive mining looks for patterns predicted by the sedimentation model. Channels 2 (Philippines) and 6 (exports) both rely on comparative logic. The "convergence" is of inferences pointing in the same direction, not of independent datasets confirming a single fact.
+*   **Hidden Dependence on a Priori Assumptions:** The entire edifice depends on the high population estimate from Section 2. This estimate is not a neutral observation; it is a model output sensitive to debatable parameters (carrying capacity densities, growth rates). The paper builds a complex argument on this fragile foundation.
+*   **Falsifiability:** The stated stop criteria are either too weak (failure of 3+ future predictions) or concern external facts (relocation of Pejeng origin). The core thesis—that a major civilisation existed—is not directly falsifiable by any proposed test because a negative result can be attributed to the "filters" not being severe enough or survey not looking in the right place. This is the hallmark of an unfalsifiable theory.
+*   **Reproducibility & Transparency:** While the paper references many "E" numbered experiments, these are presumably internal reports. The computational methods for text mining, linguistic analysis, and demographic modelling are not detailed here, making assessment and replication impossible.
+
+### 5. SPECIFIC CLAIMS TO CHALLENGE
+*   **Claim:** "Java at 400 CE supported roughly one to two million inhabitants." **Assessment: (c) Overreach.** The estimate is a highly speculative model, presented with unjustified certainty as the anchor for the entire argument.
+*   **Claim:** The six channels "converge on the existence of such an erased substrate civilisation." **Assessment: (d) Unfalsifiable / (c) Overreach.** The channels converge on the possibility of a more complex pre-4th century past, but not on the existence of a specific, widespread "civilisation" that has been erased. The leap from "people were there and making things" to "there was a civilisation awaiting discovery" is not supported.
+*   **Claim:** The Philippines comparison provides "the strongest single external constraint." **Assessment: (c) Overreach.** It is an illustrative analogy with too many uncontrolled variables to serve as a constraint.
+*   **Claim:** The *Jatim* bead evidence shows "the invisibility regime extends into the early state period." **Assessment: (b) Plausible but under-supported.** It shows workshops are archaeologically elusive. It does not demonstrate an "invisibility regime" affecting a whole civilisation; elite specialist production is often archaeologically sparse everywhere.
+*   **Claim:** Wayang's sempalan repertoire is "direct evidence for a substantive pre-Indic narrative tradition." **Assessment: (b) Plausible but under-supported.** It is evidence for pre-Indic cultural elements. Using it as a proxy for a *material* civilisation is a category error.
+
+### 6. WHAT THE PAPER DOES WELL
+1.  **Synthesis and Provocation:** The paper forcefully challenges a potential complacency in Javanese archaeology regarding the pre-Hindu period. It compiles a wide range of data and asks a big, important question: are we missing a major part of the story due to taphonomy and bias?
+2.  **Highlighting Taphonomic Severity:** The sedimentation rate calibration (Channel 1), particularly the Dwarapala observation, is a compelling and clearly presented argument that volcanic burial is a major, quantifiable factor that must be accounted for in survey methodology. This is a valuable contribution.
+3.  **Future Research Agenda:** The pre-registered predictions, while not saving the current argument, outline a serious and testable research programme. Suggestions like deep coring at paleo-river outlets and systematic archaeometric study of coastal assemblages are excellent proposals.
+
+### 7. WHAT THE PAPER SHOULD BE, IF NOT THIS
+This paper should be reframed as a **methodological proposal and research agenda paper**, not as a presentation of evidence for a specific historical claim. A modest and publishable version would:
+*   Title: "The Volcanic Filter: A Taphonomic Framework and Research Agenda for Pre-Hindu Archaeology in Java."
+*   Focus: Center the paper on the demonstrated sedimentation problem (Channel 1). Use the Dwarapala and temple data to model a "detection horizon."
+*   Reframe the Argument: Posit the demographic estimates and the Philippines comparison not as evidence for a civilisation, but as *motivations* for questioning the sufficiency of surface survey. The question becomes: "Given these demographic possibilities and taphonomic severity, how should we search for earlier periods?"
+*   Present the Framework: The six filters can be presented as a heuristic checklist for evaluating archaeological visibility in tropical volcanic settings, not as an explanation for a specific historical absence.
+*   Feature the Predictions: Make the proposed tests (deep coring, GPR surveys, archaeometric sourcing) the core of the paper, as a concrete agenda for overcoming the taphonomic challenges.
+*   Severely Reduce Speculation: Remove claims about the "existence" of an erased civilisation. The conclusion would be that the current record is insufficient to characterize the pre-4th century period, and a new methodological approach is required.
+
+### 8. ONE QUESTION FOR THE AUTHORS
+What single, positive, *in situ* archaeological discovery within the volcanic interior of Java—of a type and context that would be unambiguously pre-4th century CE and indicative of settlement (e.g., a stratified midden with pottery, domestic features, and chronometric dates)—would your framework predict is *impossible* to find? If your answer is "none, our framework just says it's deep and hard to find," then you have articulated a non-falsifiable position.
+
+---
+
+**Summary for Editor:** This reviewer recommends rejection. The manuscript proposes an extraordinary claim—the existence of a major, archaeologically erased pre-Hindu civilisation in Java—based on a synthesis of indirect, circumstantial, and often misapplied evidence. Its foundation is a speculative demographic model, and its argument is circular, using the assumed population to justify the taphonomic filters that explain the population's absence. While the paper usefully highlights severe taphonomic challenges (particularly volcanic sedimentation) and proposes a future research agenda, it fails to provide the primary archaeological evidence required to support its central historical thesis. The "six independent lines" are neither independent nor conclusive. The paper would be suitable for publication only after a fundamental restructuring that recasts it as a methodological critique and proposal for future fieldwork, stripping out the unsupported claims about the existence of a specific vanished civilisation.

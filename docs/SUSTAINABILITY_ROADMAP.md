@@ -81,7 +81,7 @@ Setiap hibah yang diterima = dana penelitian + angka kredit + legitimasi + beli 
 | **BRIN** | Riset Dasar | Varies | Butuh afiliasi/mitra BRIN | GOOD |
 | **LPDP** | Pendanaan Riset | Varies | Kompetitif | POSSIBLE |
 
-**Strategi:** Setelah 1 paper accepted, apply DRPM Penelitian Dasar. Topik: "Prediksi Lokasi Situs Arkeologi Terkubur di Jawa Vulkanik Menggunakan Machine Learning dan GIS." Ini TRL rendah (basic research) tapi punya output jelas (probability maps + fieldwork targets).
+**Strategi:** Setelah 1 paper accepted, apply DRPM Penelitian Dasar. Topik: "Prediksi Lokasi Situs Arkeologi Terkubur di Jawa Vulkanik Menggunakan Machine Learning dan GIS." Ini TRL rendah (basic research) tapi punya output jelas (probability maps + fieldwork candidates).
 
 **Key advantage:** VOLCARCH sudah punya preliminary results (153 experiments). Proposal dengan preliminary data JAUH lebih kuat daripada proposal spekulatif.
 

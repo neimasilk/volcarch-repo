@@ -1,4 +1,4 @@
-# Hostile Cross-Model Review — P1 — gemini-2.5-flash
+# Skeptical Cross-Model Review — P1 — gemini-2.5-flash
 
 **Paper:** `D:\documents\volcarch-repo\papers\P1_taphonomic_framework\submission_jasrep_v4.0.tex`
 **Model:** `gemini-2.5-flash`

@@ -102,7 +102,7 @@ P1 re-submitted to EGQSJ, 4 papers active in the review/submission pipeline, and
 ---
 
 <details>
-<summary>Archived Tasks (completed, resolved, or killed)</summary>
+<summary>Archived Tasks (completed, resolved, or discontinued)</summary>
 
 All completed tasks from Sprint 0-9 are archived here. See JOURNAL.md for full history.
 
@@ -113,17 +113,17 @@ All completed tasks from Sprint 0-9 are archived here. See JOURNAL.md for full h
 - TASK-052: E048-E050 block → COMPLETE
 - TASK-053: E048-E060 Mata Elang #5 → COMPLETE (14 experiments)
 - TASK-054: E061-E065 block → COMPLETE
-- TASK-048: Revision ammo audit → DONE
+- TASK-048: Revision support material audit → DONE
 - TASK-044: P8 submission → DONE (MS# OL-03-2026-11)
 - TASK-041: P7 submission → DONE (Antiquity)
 - TASK-045: P5 submission → DONE (BKI)
 - TASK-036/037: P1/P2 submission → DONE
 - TASK-032: ORCID → DONE (0000-0002-1848-167X)
 
-**Killed:**
-- TASK-028: P3 scoping → KILLED (E017 FAILED)
-- P14 → KILLED (Bonferroni)
-- P15 → DISSOLVED into P5 ammo
+**Retired:**
+- TASK-028: P3 scoping → DISCONTINUED (E017 FAILED)
+- P14 → DISCONTINUED (Bonferroni)
+- P15 → DISSOLVED into P5 supporting material
 
 **Sprint 0-3:** See git history for TASK-001 through TASK-025.
 

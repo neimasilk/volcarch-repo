@@ -178,3 +178,25 @@ Primary caveats are methodological (attribution rigour for archaeometric claims)
 ---
 
 *Session 18 COMPLETE 2026-04-20. 10 of 10 subfields surveyed in single extended session. Next session = Fase C.*
+
+---
+
+## Session 20 — 2026-04-22 — FASE C + FASE D COMPLETE
+
+**Produced this session:**
+- `docs/bibliography/_INVENTORY.csv` — 23 rows across 12 columns (citekey, title, year, authors, subfield, relation, chronology_claim, method, quality, volcarch_use, note_type, file_path). Validated via Python csv.DictReader.
+- `docs/bibliography/_SYNTHESIS_for_P0.md` — cluster analysis, counter-evidence audit closure, revised six-channel P0 architecture, ready-to-use drafting bundles for §3.3–§3.6.
+
+**Key structural outcome:** Channel 6 (Archaeometric) elevated from "SLR finding" to full sixth evidence channel in P0 — Jatim glass (Jia 2024 + Lankton + Berenike + Lankton 2008 canonical + Green 2018) + Pejeng bronze (Calo 2014 + Bernet Kempers 1988). SKELETON v0.1 needs minor updates (Appendix §5 of synthesis).
+
+**Cathedral-grade anchors (4, counted from inventory):** Jia 2024, Wolters 1967, Lankton & Bernbaum Gyeongju corpus, Calo 2014 Pejeng. Skeleton previously counted 3; adding Calo is evidence-driven (subfield 07 summary explicitly called it "sibling channel" to Jia). Worth flagging for Pak Amien review.
+
+**Counter-evidence audit CLOSED:** 5 Session 19 counter-queries re-examined. 0 material counter-evidence across entire SLR. 1 residual risk (Query 1 re-run with archaeology-native vocabulary — scheduled for future session).
+
+**Pivot-eligibility:** No pivot triggered. One evidence-driven expansion (five→six channels) and one vocabulary-tightening discipline ("civilisation" → "substrate communities" where only population is known).
+
+**Fase C + D: COMPLETE. Next:** §3.3 Linguistic drafting, then §3.4 Genomic, §3.5 Colonial, §3.6 Archaeometric.
+
+---
+
+*Session 20 closes Fase C + D. Bibliography infrastructure complete. Drafting §3.3-§3.6 begins.*

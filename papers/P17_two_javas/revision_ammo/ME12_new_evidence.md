@@ -73,7 +73,7 @@ P17 needs to SHRINK from ~7K to ≤6K words. Adding new evidence requires cuttin
 **Priority cuts:**
 1. Reduce Introduction literature review (currently ~1500 words → ~800)
 2. Merge E100 (elevation) and E104 (court zone) into single Results subsection
-3. Remove E106 colonial validation (SUGGESTIVE only, p=0.217) — save as revision ammo
+3. Remove E106 colonial validation (SUGGESTIVE only, p=0.217) — save as revision support material
 4. Trim Discussion from ~2000 to ~1200 words
 
 **Priority additions (within word budget):**

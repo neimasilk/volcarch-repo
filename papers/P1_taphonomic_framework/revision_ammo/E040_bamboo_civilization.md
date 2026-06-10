@@ -1,4 +1,4 @@
-# E040: Bamboo Civilization — P1 Revision Ammo
+# E040: Bamboo Civilization — P1 Revision Support Material
 
 **Date:** 2026-03-11
 **Experiment:** E040 (+ E040b, E040c, E040d)

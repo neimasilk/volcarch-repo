@@ -8,7 +8,7 @@
 
 ## RINGKASAN 30 DETIK
 
-Grant roadmap dari seminar internasional di-route dari inBox dan diintegrasikan ke workflow (6 funding sources, Horizon Europe opens 12 Mei). JCAA waiver status updated: Verhagen acknowledged "Thank you, noted" (2026-04-07) — WAIT. P11 Archipel compliance selesai: abstract trimmed 168→127 words, figures PNG→JPEG, email updated v0.5, PDF+DOCX regenerated. Masterpiece Protocol established: satu paper "godfather level" di-slow-craft di samping pipeline reguler, file `docs/MASTERPIECE_NOTES.md` dibuat sebagai buku catatan AHA moments.
+Grant roadmap dari seminar internasional di-route dari inBox dan diintegrasikan ke workflow (6 funding sources, Horizon Europe opens 12 Mei). JCAA waiver status updated: Verhagen acknowledged "Thank you, noted" (2026-04-07) — WAIT. P11 Archipel compliance selesai: abstract trimmed 168→127 words, figures PNG→JPEG, email updated v0.5, PDF+DOCX regenerated. Masterpiece Protocol established: satu paper "landmark" di-slow-craft di samping pipeline reguler, file `docs/MASTERPIECE_NOTES.md` dibuat sebagai buku catatan AHA moments.
 
 ---
 

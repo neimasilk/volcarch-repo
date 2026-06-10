@@ -1,4 +1,4 @@
-# P1 Revision Ammo: E110 Visibility Cascade — Why Survey Deficit Is #1
+# P1 Revision Support Material: E110 Visibility Cascade — Why Survey Deficit Is #1
 
 **Paper:** Asian Perspectives MS# 019A-0326
 **Date:** 2026-03-17
@@ -34,9 +34,9 @@ Observed rate (E108): 3/9,659 = 0.031%. **Model matches data within 2×.**
 ## Key Reframe for Reviewers
 
 **OLD framing:** "Volcanic burial hides ancient sites"
-**NEW framing:** "Five compounding factors create near-total invisibility. Survey deficit is the primary constraint (40× leverage). Volcanic burial is the computationally predictable factor that enables targeted recovery."
+**NEW framing:** "Five compounding factors create near-total invisibility. Survey deficit is the primary constraint (40× leverage). Volcanic burial is the computationally predictable factor that enables prioritized recovery."
 
-## The West Java Smoking Gun
+## The West Java Decisive Case
 
 - **Buni Complex** (Tangerang coast, 200 BCE–500 CE): extensive pottery, beads, metalwork — NON-VOLCANIC
 - **Batujaya** (Karawang, 2nd–5th century CE): Buddhist brick complex — NON-VOLCANIC
@@ -46,7 +46,7 @@ Same island. Same culture. Same timeframe. Different geology.
 
 ## Suggested Paragraph
 
-> "Post-submission modeling reveals that volcanic burial operates within a multiplicative cascade of five independent factors. A five-factor visibility model — combining volcanic burial (P=0.58), organic material decay (P=0.20), archaeological survey coverage (P=0.025), recognition probability (P=0.40), and publication probability (P=0.50) — predicts 0.058% archaeological visibility, matching the observed 0.031% gap between modeled and actual site counts. Sensitivity analysis identifies survey coverage as the highest-leverage intervention (40×), with volcanic burial contributing 1.7× as an individual factor but serving as the only factor that generates spatially predictable fieldwork targets. Within-island comparison supports this model: non-volcanic coastal West Java (Buni Complex, Batujaya) preserves rich pre-400 CE archaeology, while the volcanic interior preserves none."
+> "Post-submission modeling reveals that volcanic burial operates within a multiplicative cascade of five independent factors. A five-factor visibility model — combining volcanic burial (P=0.58), organic material decay (P=0.20), archaeological survey coverage (P=0.025), recognition probability (P=0.40), and publication probability (P=0.50) — predicts 0.058% archaeological visibility, matching the observed 0.031% gap between modeled and actual site counts. Sensitivity analysis identifies survey coverage as the highest-leverage intervention (40×), with volcanic burial contributing 1.7× as an individual factor but serving as the only factor that generates spatially predictable fieldwork candidates. Within-island comparison supports this model: non-volcanic coastal West Java (Buni Complex, Batujaya) preserves rich pre-400 CE archaeology, while the volcanic interior preserves none."
 
 ## Supporting Data
 

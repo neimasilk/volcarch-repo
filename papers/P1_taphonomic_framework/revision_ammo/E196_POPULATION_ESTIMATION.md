@@ -1,4 +1,4 @@
-# Revision Ammo: Population Estimation (E196)
+# Revision Support Material: Population Estimation (E196)
 
 **For:** P1 (EGQSJ), P17 (ArchCalc), P18 (future)
 **Priority:** HIGH — transforms "absence of evidence" into quantitative suppression factor

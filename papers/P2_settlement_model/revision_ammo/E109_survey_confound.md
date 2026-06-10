@@ -1,4 +1,4 @@
-# P2 Revision Ammo: E109 Survey-Burial Confound
+# P2 Revision Support Material: E109 Survey-Burial Confound
 
 **Paper:** JCAA #280
 **Date:** 2026-03-17

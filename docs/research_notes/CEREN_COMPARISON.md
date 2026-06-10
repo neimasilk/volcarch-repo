@@ -110,7 +110,7 @@ Specifically:
 
 This gap could be filled by:
 1. A comparative paragraph in **P19 Section 3** (Why the Layer is Invisible) — Cerén as global precedent
-2. A revision ammo paragraph for **P1** — "volcanic preservation is a demonstrated global phenomenon"
+2. A revision support material paragraph for **P1** — "volcanic preservation is a demonstrated global phenomenon"
 3. A future short paper comparing volcanic taphonomy across Cerén (El Salvador), Liangan (Java), Akrotiri (Santorini), and Pompeii — a comparative volcanic archaeology synthesis
 
 ---
@@ -128,7 +128,7 @@ This gap could be filled by:
 
 | Paper | How to use Cerén |
 |-------|-----------------|
-| **P1 (EGQSJ)** | Revision ammo: "Cerén demonstrates volcanic preservation of organic settlements is a global phenomenon" |
+| **P1 (EGQSJ)** | Revision support material: "Cerén demonstrates volcanic preservation of organic settlements is a global phenomenon" |
 | **P19 (BKI)** | Section 3: Cerén narrative as global precedent. "In El Salvador, a single eruption preserved a complete Maya village including thatch roofs and sleeping mats. Java has had hundreds of such eruptions." |
 | **P17** | Section 5.5 already cites Sheets 2002 — adequate as-is |
 | **Future** | Comparative volcanic taphonomy paper: Cerén × Liangan × Akrotiri × Pompeii |

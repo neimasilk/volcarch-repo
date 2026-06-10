@@ -47,7 +47,7 @@ The project needs to PRECISELY define what is "missing." Megaliths prove Java ha
 
 **For P19:** This should be in Section 7 (Politics of the Invisible). The fact that the world's oldest art is in Indonesia while Indonesian textbooks call pre-Hindu Java "prehistoric" is a devastating indictment of the current periodisation.
 
-**For P1 EGQSJ:** Potential revision ammo — Sulawesi demonstrates that absence in volcanic Java is geological, not cultural.
+**For P1 EGQSJ:** Potential revision support material — Sulawesi demonstrates that absence in volcanic Java is geological, not cultural.
 
 ---
 

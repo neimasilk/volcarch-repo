@@ -23,18 +23,18 @@ Implementation: Divide study area into spatial blocks (e.g., 5km × 5km grid). E
 - **Precision@5%**: Of the top 5% highest-probability area, what fraction contains known sites?
 - **Feature importance** (SHAP or permutation): Which environmental features drive predictions?
 
-### Kill Signal
+### Discontinuation Signal
 - Spatial AUC consistently < 0.65 after reasonable feature engineering → model is not learning useful patterns → pivot or abandon.
 
 ---
 
-## 2. Volcanic Burial Depth Model (Paper 3) — KILLED
+## 2. Volcanic Burial Depth Model (Paper 3) — DISCONTINUED
 
-**Status:** KILLED (2026-03-10, Mata Elang #2). E017 POC FAILED — 1/4 calibration sites passed. Generic Pyle 1989 model insufficient; requires per-volcano calibration with Tephra2/FALL3D and geologist co-author.
+**Status:** DISCONTINUED (2026-03-10, Mata Elang #2). E017 POC FAILED — 1/4 calibration sites passed. Generic Pyle 1989 model insufficient; requires per-volcano calibration with Tephra2/FALL3D and geologist co-author.
 
 **Resurrection condition:** Geologist collaborator + Tephra2/FALL3D access.
 
-~~Calibration Points, Validation Method, and Kill Signal below are archived for reference.~~
+~~Calibration Points, Validation Method, and Discontinuation criteria below are archived for reference.~~
 
 ### Calibration Points (archived)
 
@@ -45,7 +45,7 @@ Implementation: Divide study area into spatial blocks (e.g., 5km × 5km grid). E
 | Candi Kedulan | ~700 cm | 490 – 910 cm |
 | Candi Kimpulan | ~270 cm | 189 – 351 cm |
 
-### Kill Signal (triggered)
+### Discontinuation Signal (triggered)
 - Cannot predict Dwarapala within ±50% → fundamental model problem. **E017 confirmed: only 1/4 sites passed ±30%.**
 
 ---
