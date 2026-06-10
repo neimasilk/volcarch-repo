@@ -19,7 +19,7 @@ by 6 intersecting mechanisms.
 
 ## Key Synthesis
 Evidence converges from 6 independent domains:
-1. GEOLOGICAL: volcanic burial (P1,P2) + aDNA destruction (E053)
+1. GEOLOGICAL: volcanic burial (P1,P2) + molecular-preservation loss (E053)
 2. LINGUISTIC: vocabulary substrates (P8) + phonological fingerprints (E027)
 3. EPIGRAPHIC: pre-Indic terms persist (E030) + organic world described (E040)
 4. BOTANICAL: Canarium pan-Austronesian trail (E050) + burial substitution (E044)
