@@ -4435,9 +4435,9 @@ Austronesian cultures on volcanic high islands show higher ritual complexity tha
 
 ---
 
-## 2026-03-11 | P8 Red-Team + Ablation Experiment
+## 2026-03-11 | P8 Independent Review + Ablation Experiment
 
-**Type:** RED-TEAM / EXPERIMENT
+**Type:** INDEPENDENT REVIEW / EXPERIMENT
 **Author:** Amien + Claude
 
 ### Ablation Experiment (Script 04)
@@ -4455,7 +4455,7 @@ Austronesian cultures on volcanic high islands show higher ritual complexity tha
 - Slam dunk defense against the biggest reviewer concern
 - Script: `experiments/E027_ml_substrate_detection/04_ablation_cognacy_coverage.py`
 
-### Red-Team Findings (4 critical, 3 important)
+### Independent Review Findings (4 critical, 3 important)
 All 4 critical fixes applied:
 - **C-1:** Ablation results added as new subsection (Table 5) + Limitation 4 updated
 - **C-2:** Thomason & Kaufman (1988) cited — foundational contact linguistics work
@@ -4465,7 +4465,7 @@ All 4 critical fixes applied:
 ### Verdict
 **LEAN SUBMISSION viable.** Paper is complete at ~5,200 words with 6 experiments' worth of evidence. Ablation transforms the biggest weakness into a strength.
 
-Full report: `papers/P8_linguistic_fossils/RED_TEAM_REPORT.md`
+Full report: `papers/P8_linguistic_fossils/INDEPENDENT_REVIEW_REPORT.md`
 
 ---
 
@@ -4528,7 +4528,7 @@ All VOLCARCH papers will include **expanded AI disclosure** that frames AI as a 
 | P2 | SUBMITTED to JCAA |
 | P5 | SUBMITTED to BKI |
 | P7 | SUBMITTED to Antiquity |
-| P8 | Draft v0.1 (needs red-team + author review) |
+| P8 | Draft v0.1 (needs independent review + author review) |
 | P9 | POC complete (E024, 25 records) |
 | P11 | Incubating (E031+E032 SUCCESS → can activate) |
 | P14 | **DISCONTINUED** (E026 → P5 revision support material) |
@@ -4874,12 +4874,12 @@ Project generates ideas faster than it can execute. Discontinued papers still co
 - R01: Co-author bottleneck — MITIGATED (submit single-author)
 - R03: P5 evidentiary fragility — prepare revision support material (Session B)
 - R04: P14 statistical weakness — Bonferroni correction needed (Session B)
-- R05: P8 domain gap — red-team + E029 reframing needed (Session B)
+- R05: P8 domain gap — independent review + E029 reframing needed (Session B)
 - R06: Author name split — FIXED
 - R09: Documentation debt — FIXED (this session)
 
 ### Next (Sessions B+C)
-- Red-team P8 and P14
+- Independent review P8 and P14
 - Prepare P5 and P7 revision support material documents
 - Format and post P1+P2 preprints to EarthArXiv
 - Write cover letters, submit P1+P2 to target journals
@@ -8080,7 +8080,7 @@ Independent of burial (pollen doesn't care about tephra). **Every directly-dated
 **Thesis implication:** the strong "large hidden civilization erased by volcanism" form is now contradicted by an independent channel and must be DOWNGRADED to a falsifiable weaker form. Next falsification refinements: phytolith/starch (detects crops without clearance), targeted lowland coring, aDNA Ne.
 
 ### SUBMISSION INTEGRITY GATE created (per Pak Amien, "menyangkut integritas akademisi")
-`docs/SUBMISSION_INTEGRITY_GATE.md` — binding GO/NO-GO, gates G1–G10 (re-derivation, domain-sanity, canonical data, circularity, equifinality, counter-evidence, reproducibility, overstatement, cross-model, human red-team). Banned move: rewording central valid critiques. P7 would have failed G1/G2/G4/G5; P17 fails G7/G3 but passes G1 (re-derivation) → no withdrawal. Now BINDING on all future submissions + referenced in CLAUDE.md.
+`docs/SUBMISSION_INTEGRITY_GATE.md` — binding GO/NO-GO, gates G1–G10 (re-derivation, domain-sanity, canonical data, circularity, equifinality, counter-evidence, reproducibility, overstatement, cross-model, human independent review). Banned move: rewording central valid critiques. P7 would have failed G1/G2/G4/G5; P17 fails G7/G3 but passes G1 (re-derivation) → no withdrawal. Now BINDING on all future submissions + referenced in CLAUDE.md.
 
 ### E215 — phytolith/starch test: VOID (decisive test never run in Java)
 Second falsification channel. Result differs from E214: **zero published phytolith/starch residue studies for ANY prehistoric Java site** — genuine data void, not demonstrated emptiness. Method works regionally (Niah/Borneo, Kuk/PNG, Minanga-Sipakko/Sulawesi 3,500 BP). Java's only crop datum = Liyangan rice ~9th c AD (macro-remains). **Cross-channel synthesis: E214 (pollen) leans against a LARGE forest-clearing pop; E215 (phytolith) shows the test for a SMALL dispersed pop was never run → both consistent with the *peradaban vulkanik* reframe** (dispersed volcanic-adapted swidden/arboriculture society = invisible to pollen, detectable only by untested phytolith/dental-calculus). **Decisive test = Castillo phytolith collaboration** (Gunung Sewu matrices, Liyangan, dental calculus); draft ready at `docs/drafts/email_castillo_phytolith.md`. (`experiments/E215_phytolith_starch_gap/`)
@@ -8111,3 +8111,87 @@ Within each concept group, null = shuffle tradition labels, recompute mean cross
 
 ### Decision flagged for Pak Amien (none taken autonomously)
 Per SUBMISSION_INTEGRITY_GATE (G1/G4/G8/G9) this is NO-GO. Options: (1) reframe+downgrade P16 to the distributional finding + genre-honest inscription asymmetry, drop the 929 CE claim; (2) DHQ doesn't rescue W1; (3) park until an unsupervised-clustering convergence design exists. Manuscript NOT modified, NOT submitted. This is the integrity gate working as intended — caught a refuted pillar before it reached a Scopus venue.
+
+## 2026-06-10 | ME#18 residual integrity purges COMPLETE (E031/E082 canonical re-runs + P9/P16/P0 artifact removal)
+
+**Type:** Integrity sweep continuation (autonomous, per "lanjutkan review menyeluruh")
+**Status:** All ME#18 "I can do now" residuals closed. No live submission touched.
+
+### E031 re-run with canonical 30-volcano inventory — SURVIVES
+`experiments/E031_candi_orientation/e031_rerun_canonical30.py` → `results/canonical30/`.
+Original used 16 volcanoes (7 dashboard + 9 hardcoded). Canonical-30: median distance 14.6→14.5 km; west-clustering *strengthens* (R 0.348→0.380, Rayleigh p=1.2e-9); quadrant chi2 still p<1e-4; entrance-orientation null result identical (7/20 face volcano, p=0.94). Conclusion unchanged.
+
+### E082 re-run with canonical 30-volcano inventory — SURVIVES, magnitude shrinks
+`experiments/E082_inscription_georeferencing/e082_rerun_canonical30.py` → `results/canonical30/`. Reuses geocoding; recomputes distances with canonical 30 + Agung/Batur (Bali); Krakatau dropped (non-Java, absorbed Sumatran outliers in v1).
+- Java/Bali subset (n=175): mean 25.5→22.2 km, **median 27.6 km unchanged** (matches P17's verified segregation figure exactly — cross-consistent with E104 rebuild).
+- **Candi-vs-inscription mean gap: 9.2 → 6.1 km** (bootstrap CI 3.2–9.1), Mann-Whitney p=2.8e-7. Direction + significance survive.
+- **PROPAGATION → P11:** abstract + §Test 3 cite "9.2 km (CI 5.5–12.7, p=5.2e-8)". Submitted manuscript (Archipel, under review) NOT touched; correction queued for revision: **6.1 km (CI 3.2–9.1, p=2.8e-7)**. Combined with the E153 note (Test 1 headline robust at 6.78 km mean candi–settlement), P11's revision package is now fully specified.
+- Century trend remains non-significant (rho=0.607, p=0.148) — README already honest about this; no paper cites it.
+
+### P0 Channel 5 — claims confirmed non-reproducible, flagged in draft
+Attempted re-derivation of the "2.4% within 0–15 km" figure from E141 geocoded records with canonical 30: gives **4.1%** (delpher_expanded_nlp, n=97 Java-geocoded) or **1.5%** (phase2_fulltext, n=68); the "uniform distribution" baseline was never computed. "5.8× enrichment (E197)" confirmed mis-cited — E197 contains only the depth validation (median 2.5 m, n=33, Wilcoxon p=0.13, model-consistent). **Verdict for the P0 major rewrite: CUT the volcano-distance-gradient and 5.8× claims; KEEP only the depth-distribution match.** Flags inserted in `draft_v0.4.tex` (Ch5 block + both synthesis paragraphs) so the claims cannot silently survive into v0.5.
+
+### P9 line-83 footnote — DELETED
+`papers/P9_peripheral_conservatism/draft_v0.1.tex`: removed the footnote importing the dead "earliest sites correlate with volcanic distance" claim (P7 truncated-inventory artifact). Main sentence stands on the substrate argument (E107/E069). JSEAS submission archives left frozen.
+
+### P16 line-468 + "45 volcanoes" — VERIFIED ALREADY PURGED
+`SIG_signoff.md` confirms the court-zone citation and "45 volcanoes" were removed during the Wacana R1 revision. WORKSTATE item was stale.
+
+**Net effect:** every ME#18 "REDO with canonical-30" experiment is now done (E019 ✓, E004 ✓, E104 ✓, E153 ✓, E031 ✓, E082 ✓). The truncated-inventory artifact's full propagation audit is closed: only P7's headline died; E031/E082 survive with corrected magnitudes; P11 has a complete revision correction queued.
+
+## 2026-06-10 | P16 PARKED (keputusan PI) + paket koreksi revisi P11/P17 disiapkan
+
+**Type:** Keputusan strategis + revision-readiness
+**Keputusan Pak Amien:** "untuk arah P16 parkir dulu, catat semua" → P16 = **PARKED** (Opsi 3 dari JOURNAL entry pertama hari ini). Bukan reframe, bukan DHQ.
+
+### P16 — dicatat lengkap
+- `papers/P16_computational_textual_archaeology/PARKED.md` dibuat: kronologi falsifikasi (G9 R0 → R1 → E090 v7 label-shuffle 0/8), tabel mati-vs-selamat, 3 opsi + keputusan, **syarat unpark** (desain konvergensi non-sirkular via unsupervised clustering LOLOS, atau keputusan reframe-downgrade), peta file. CANONICAL.md diupdate (status PARKED, naskah frozen). Tidak ada file dihapus.
+
+### P11 — paket koreksi inventori kanonik SIAP (apply saat revisi Archipel)
+`papers/P11_volcanic_informedness/revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md`. Provenance semua angka dilacak + direproduksi persis dari pairs lama sebelum dikoreksi:
+- Baris ~116: bearing 279°→298°, barat 47.2%→47.9%, timur "<4%"→9.2%, Rayleigh 3.4e-8→**1.2e-9 (menguat)**
+- Baris ~139: Zone A 42.3%→45.1%, overrep 17.9×→**19.1× (menguat)** — E065 ratio direproduksi (17.9× exact) lalu di-re-derive dengan pairs kanonik
+- Baris ~171 + abstrak: gap 9.2→**6.1 km** (CI 3.2–9.1), p 5.2e-8→2.8e-7 (mengecil, tetap signifikan)
+- **Mis-atribusi WORKSTATE pagi DIKOREKSI:** "9.2 km" berasal dari E082 (20-gunung), bukan E153. P11 baris ~110 (E153: 81%/6.8 km) VERIFIED cocok dengan re-run (80.6%/6.78 km) — tidak perlu koreksi.
+
+### P17 — methods/repro fix SIAP (apply saat review ArchCalc ~akhir 2026)
+`papers/P17_two_javas/revision_ammo/CANONICAL_INVENTORY_FIX_20260610.md`. Naskah ArchCalc memakai "10 major Java volcanoes" — non-kanonik. Tabel pengganti lengkap dari E031+E082 canonical30: median 14.5/27.6 km (gap 13 km tetap), MW U=8267 p=2.8e-7, zona candi 0–10 km 42.3%→45.1%, Fisher volcano-vs-court **menguat** (p=0.012→<1e-4, konsentrasi 1.72×). Kesimpulan Two Javas tidak berubah. Plus instruksi teks Methods + regenerasi figure + kalimat transparansi Limitations.
+
+**Posisi portofolio setelah hari ini:** P16 parkir; jalur akselerasi tinggal menunggu eksternal (P8 OL, P17 ArchCalc, P2 JCAA, P11 Archipel — semua punya paket revisi/coreksi siap); pekerjaan aktif berikutnya per ME#16 = diamond-hunts (E209 dkk) + SPAFA reframe untuk P9/P11 bila ditolak.
+
+## 2026-06-10 | ME#19 — "The audit about the audits" + ChatGPT review routed
+
+**Type:** Strategic meta-review (system/research-designer mandate)
+**Status:** Diagnosis = non-exposure, not rigor. Forcing function imposed.
+
+Routed an untracked ChatGPT critical review of the ME#16 pivot (`chatgpt_review.json` in repo root → `docs/research_notes/ME16_CHATGPT_PIVOT_REVIEW_20260610.md`; json deleted). It landed three critiques the internal DeepSeek/Gemini reviews and ME#17/#18 missed, all accepted as valid:
+- **F9 — channel convergence is not independent evidence** (correlated bias amplification; shared latent variables across satellite/DEM/InSAR, VOC/kakawin NLP, genomics/linguistics). P16's death (E090 v7) is the worked example.
+- **F10 — the manifesto is interpretively elastic**, not a falsifiable theory; demote from prior/evidence to motivation.
+- **Institutional-incentive mismatch** — the ME#16 discovery-first pivot conflicts with what PhD/BPI/Dikti pipelines reward (credible, reliable, on-time execution). Career-timing critique: a 2–3 month diamond-hunt can cost a full intake cycle.
+
+**ME#19 (`docs/research_notes/MATA_ELANG_19_2026_06_10.md`):** Three deep audits in three days, zero submissions, still 0/14-months acceptances → the binding constraint is **non-exposure (F8)**, and the multi-model review loop is now a procrastination engine. Resolution: decouple **Track A (career: land P8/P17/P2/P11, send PhD emails, Zenodo D1/D2)** from **Track B (curiosity, slow, untimed: ONE independent falsification channel — palynology/phytolith/Castillo).** Diamond-hunts demoted flagship→exploratory.
+
+**SIG extended:** F8 non-exposure, F9 correlated-channel convergence, F10 interpretive elasticity.
+**Forcing function (binding):** external judge must receive something within 14 days; next ME forbidden until then. This week: D1/D2→Zenodo, P8 SIG+sweep, send Lamqaddam/Verberne.
+
+## 2026-06-10 | ME#19 Execution — D1/D2 Zenodo packages READY + P8 SIG prep DONE
+
+**Type:** TRACK A EXPOSURE EXECUTION (no new audit — ME#19 forcing function honored)
+**Trigger:** Pak Amien re-sent the comprehensive-review prompt; the review already exists (ME#19, same day). This session executed its action list instead of writing ME#20.
+
+### D1+D2 → Zenodo (action #2): packages READY, Pak Amien uploads
+- Staging: `papers/D1_colonial_register/zenodo_upload/` (CSV + README + REGISTER_NOTES) and `papers/D2_mini_nusarc/zenodo_upload/` (CSV + README). Step-by-step metadata guide: `docs/ZENODO_UPLOAD_GUIDE_20260610.md`.
+- **Mini-G1 blind recompute on both datasets before packaging.** D1: 52 records/21 fields/43 coords ✓; depth mean 2.88, range 0.60–9.14 ✓. D2: 80 records/17 fields/8 regions ✓. **Two integrity fixes made in the package copies (sources untouched):**
+  1. **D1 median was wrong-by-subset:** README/NOTES claimed "median 2.00 m (n=32)"; blind recompute gives **1.75 m** over the 32 positive depths — 2.00 is the measured-only subset (n=27). Package README/NOTES now state both, explicitly. Backport to `experiments/E070_.../REGISTER_NOTES.md` pending confirmation.
+  2. **False "[submitted]" citation removed:** both zenodo_READMEs cited "*Journal of Open Archaeology Data* [submitted]" — D1/D2 were never submitted to JOAD (APC-blocked). Replaced with Zenodo self-citation + "data paper in preparation".
+- Also: depth-count ambiguity documented (34 entries record a value; 32 positive; 2 surface finds at 0 m).
+
+### P8 SIG prep (action #1): `papers/P8_linguistic_fossils/SIG_PREP_20260610.md`
+- Manuscript under review at OL — NOT touched. Gate states recorded: no RED; G1 (blind recompute of AUC 0.763/LOLO/E041) and G7 (single regen script) = PENDING, to be done when reviews return (runbook in doc, target response ≤7 days).
+- G8 overstatement scan run today: none/always/proven/unprecedented/certainly/"rules out" = 0; "first" 5× all ordinal. Clean.
+- Terminology map: "substrate" 82× (≈14 hypothesis-context KEEP; remainder mostly the field's method name). Full sweep only if OL reviewers raise it (both pre-submission external reviews did) — response template in the prep doc.
+
+### Remaining this-week items (Pak Amien)
+1. **Upload D1+D2 to Zenodo** (~15 min each; guide ready). Paste the two DOIs into next session.
+2. **Send Lamqaddam reply** (fill BPI deadline + 3 chat slots) **+ Verberne follow-up.**
+Next ME remains forbidden until an external judge receives something.
