@@ -1,0 +1,5 @@
+name,lat,lon,age_bp,context,source,dem,slope,tri,river_dist_m,geomorph_context
+Song Terus,-8.017,110.917,300000,cave,"Sémah et al. 2004; Simanjuntak 2002. Gunung Sewu karst, East Java.",150.79718017578125,0.6017860770225525,0.24871444702148438,1011.9052124023438,karst cave (Gunung Sewu) - EXPOSURE
+Trinil,-7.374,111.358,500000,river_terrace,"Dubois 1894; Huffman et al. 2010. Solo River terrace, Ngawi.",57.881290435791016,6.463402271270752,2.8339452743530273,130.095458984375,Solo River terrace (incision) - EXPOSURE
+Sangiran,-7.45,110.85,1600000,river_erosion,"von Koenigswald 1940; Larick et al. 2001. Solo basin dome, eroded by Cemoro River.",,,,0.0,eroding dome / Cemoro R. - EXPOSURE (edge of DEM)
+Wajak,-8.033,111.5,28000,cave,"Dubois 1922; Storm et al. 2013. Tulungagung karst, East Java.",860.8427124023438,4.8204779624938965,2.209747314453125,3286.18017578125,karst cave (S. Mountains) - EXPOSURE
