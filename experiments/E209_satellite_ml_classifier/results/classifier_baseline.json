@@ -1,0 +1,50 @@
+{
+  "n_samples": 190,
+  "n_features": 51,
+  "n_positive": 112,
+  "n_negative": 78,
+  "classifiers": {
+    "rf_skfold": {
+      "mean_auc": 0.8441600790513835,
+      "std_auc": 0.060444563293182346,
+      "mean_acc": 0.8052631578947368,
+      "fold_aucs": [
+        0.8724637681159421,
+        0.9449275362318841,
+        0.8153409090909092,
+        0.8210227272727273,
+        0.7670454545454546
+      ],
+      "leave_one_hp_out": [
+        {
+          "name": "Candi Sambisari",
+          "score": 0.9652575897113157
+        },
+        {
+          "name": "Candi Kedulan",
+          "score": 0.9296414262409163
+        },
+        {
+          "name": "Candi Kimpulan",
+          "score": 0.8825228520410507
+        },
+        {
+          "name": "Candi Liangan",
+          "score": 0.8586310741129383
+        },
+        {
+          "name": "Candi Badut",
+          "score": 0.9654931100023759
+        },
+        {
+          "name": "Candi Tigomangi",
+          "score": 0.58815676604123
+        }
+      ]
+    },
+    "gb_skfold": {
+      "mean_auc": 0.8329611330698288,
+      "std_auc": 0.04821168686420399
+    }
+  }
+}

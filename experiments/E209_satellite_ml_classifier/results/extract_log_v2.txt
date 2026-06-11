@@ -1,0 +1,445 @@
+E209 Step 02: Sentinel-2 feature extraction
+============================================================
+Sites: 320
+Seasons: ['dry', 'wet']
+Already done: 237 site-season pairs (skipped)
+
+Fetching PC SAS token...
+  Token length: 296
+
+=== Season: dry ===
+BBox: [104.96498759678062, -8.998822774877866, 114.56949445297994, -5.902080841603093]
+Searching scenes...
+  Found 100 scenes
+  [0] 2024-09-24 cloud=0.0%
+  [1] 2024-08-28 cloud=0.0%
+  [2] 2024-08-25 cloud=0.0%
+  [90/320] OSM93      Candi Satu                (dry) ... SKIP (no valid scene)
+  [95/320] OSM99      Candi Plaosan             (dry) ... SKIP (no valid scene)
+  [111/320] OSM167     Candi Agung               (dry) ... SKIP (no valid scene)
+  [121/320] RN0001     RandomNeg_0001            (dry) ... SKIP (no valid scene)
+  [122/320] RN0002     RandomNeg_0002            (dry) ... SKIP (no valid scene)
+  [123/320] RN0003     RandomNeg_0003            (dry) ... OK ndvi_diff=+0.003
+  [124/320] RN0004     RandomNeg_0004            (dry) ... SKIP (no valid scene)
+  [125/320] RN0005     RandomNeg_0005            (dry) ... SKIP (no valid scene)
+  [126/320] RN0006     RandomNeg_0006            (dry) ... OK ndvi_diff=+0.000
+  [127/320] RN0007     RandomNeg_0007            (dry) ... SKIP (no valid scene)
+  [128/320] RN0008     RandomNeg_0008            (dry) ... OK ndvi_diff=-0.008
+  [129/320] RN0009     RandomNeg_0009            (dry) ... OK ndvi_diff=-0.000
+  [130/320] RN0010     RandomNeg_0010            (dry) ... SKIP (no valid scene)
+  [131/320] RN0011     RandomNeg_0011            (dry) ... OK ndvi_diff=+0.000
+  [132/320] RN0012     RandomNeg_0012            (dry) ... SKIP (no valid scene)
+  [133/320] RN0013     RandomNeg_0013            (dry) ... SKIP (no valid scene)
+  [134/320] RN0014     RandomNeg_0014            (dry) ... SKIP (no valid scene)
+  [135/320] RN0015     RandomNeg_0015            (dry) ... OK ndvi_diff=-0.054
+  [136/320] RN0016     RandomNeg_0016            (dry) ... OK ndvi_diff=+0.000
+  [137/320] RN0017     RandomNeg_0017            (dry) ... OK ndvi_diff=+0.001
+  [138/320] RN0018     RandomNeg_0018            (dry) ... OK ndvi_diff=-0.000
+  [139/320] RN0019     RandomNeg_0019            (dry) ... SKIP (no valid scene)
+  [140/320] RN0020     RandomNeg_0020            (dry) ... SKIP (no valid scene)
+  [141/320] RN0021     RandomNeg_0021            (dry) ... SKIP (no valid scene)
+  [142/320] RN0022     RandomNeg_0022            (dry) ... SKIP (no valid scene)
+  [143/320] RN0023     RandomNeg_0023            (dry) ... SKIP (no valid scene)
+  [144/320] RN0024     RandomNeg_0024            (dry) ... SKIP (no valid scene)
+  [145/320] RN0025     RandomNeg_0025            (dry) ... SKIP (no valid scene)
+  [146/320] RN0026     RandomNeg_0026            (dry) ... OK ndvi_diff=-0.004
+  [147/320] RN0027     RandomNeg_0027            (dry) ... SKIP (no valid scene)
+  [148/320] RN0028     RandomNeg_0028            (dry) ... SKIP (no valid scene)
+  [149/320] RN0029     RandomNeg_0029            (dry) ... OK ndvi_diff=+0.000
+  [150/320] RN0030     RandomNeg_0030            (dry) ... OK ndvi_diff=+0.001
+  [151/320] RN0031     RandomNeg_0031            (dry) ... OK ndvi_diff=+0.001
+  [152/320] RN0032     RandomNeg_0032            (dry) ... SKIP (no valid scene)
+  [153/320] RN0033     RandomNeg_0033            (dry) ... SKIP (no valid scene)
+  [154/320] RN0034     RandomNeg_0034            (dry) ... SKIP (no valid scene)
+  [155/320] RN0035     RandomNeg_0035            (dry) ... SKIP (no valid scene)
+  [156/320] RN0036     RandomNeg_0036            (dry) ... SKIP (no valid scene)
+  [157/320] RN0037     RandomNeg_0037            (dry) ... OK ndvi_diff=+0.000
+  [158/320] RN0038     RandomNeg_0038            (dry) ... SKIP (no valid scene)
+  [159/320] RN0039     RandomNeg_0039            (dry) ... SKIP (no valid scene)
+  [160/320] RN0040     RandomNeg_0040            (dry) ... OK ndvi_diff=-0.001
+  [161/320] RN0041     RandomNeg_0041            (dry) ... SKIP (no valid scene)
+  [162/320] RN0042     RandomNeg_0042            (dry) ... OK ndvi_diff=-0.001
+  [163/320] RN0043     RandomNeg_0043            (dry) ... SKIP (no valid scene)
+  [164/320] RN0044     RandomNeg_0044            (dry) ... SKIP (no valid scene)
+  [165/320] RN0045     RandomNeg_0045            (dry) ... OK ndvi_diff=+0.001
+  [166/320] RN0046     RandomNeg_0046            (dry) ... SKIP (no valid scene)
+  [167/320] RN0047     RandomNeg_0047            (dry) ... OK ndvi_diff=-0.001
+  [168/320] RN0048     RandomNeg_0048            (dry) ... OK ndvi_diff=-0.002
+  [169/320] RN0049     RandomNeg_0049            (dry) ... SKIP (no valid scene)
+  [170/320] RN0050     RandomNeg_0050            (dry) ... OK ndvi_diff=-0.001
+  [171/320] RN0051     RandomNeg_0051            (dry) ... SKIP (no valid scene)
+  [172/320] RN0052     RandomNeg_0052            (dry) ... SKIP (no valid scene)
+  [173/320] RN0053     RandomNeg_0053            (dry) ... SKIP (no valid scene)
+  [174/320] RN0054     RandomNeg_0054            (dry) ... SKIP (no valid scene)
+  [175/320] RN0055     RandomNeg_0055            (dry) ... OK ndvi_diff=-0.077
+  [176/320] RN0056     RandomNeg_0056            (dry) ... SKIP (no valid scene)
+  [177/320] RN0057     RandomNeg_0057            (dry) ... SKIP (no valid scene)
+  [178/320] RN0058     RandomNeg_0058            (dry) ... OK ndvi_diff=-0.001
+  [179/320] RN0059     RandomNeg_0059            (dry) ... OK ndvi_diff=-0.000
+  [180/320] RN0060     RandomNeg_0060            (dry) ... SKIP (no valid scene)
+  [181/320] RN0061     RandomNeg_0061            (dry) ... SKIP (no valid scene)
+  [182/320] RN0062     RandomNeg_0062            (dry) ... OK ndvi_diff=-0.092
+  [183/320] RN0063     RandomNeg_0063            (dry) ... SKIP (no valid scene)
+  [184/320] RN0064     RandomNeg_0064            (dry) ... OK ndvi_diff=-0.001
+  [185/320] RN0065     RandomNeg_0065            (dry) ... SKIP (no valid scene)
+  [186/320] RN0066     RandomNeg_0066            (dry) ... OK ndvi_diff=-0.001
+  [187/320] RN0067     RandomNeg_0067            (dry) ... SKIP (no valid scene)
+  [188/320] RN0068     RandomNeg_0068            (dry) ... OK ndvi_diff=+0.086
+  [189/320] RN0069     RandomNeg_0069            (dry) ... OK ndvi_diff=-0.081
+  [190/320] RN0070     RandomNeg_0070            (dry) ... SKIP (no valid scene)
+  [191/320] RN0071     RandomNeg_0071            (dry) ... OK ndvi_diff=-0.001
+  [192/320] RN0072     RandomNeg_0072            (dry) ... SKIP (no valid scene)
+  [193/320] RN0073     RandomNeg_0073            (dry) ... OK ndvi_diff=+0.001
+  [194/320] RN0074     RandomNeg_0074            (dry) ... OK ndvi_diff=-0.052
+  [195/320] RN0075     RandomNeg_0075            (dry) ... SKIP (no valid scene)
+  [196/320] RN0076     RandomNeg_0076            (dry) ... OK ndvi_diff=-0.074
+  [197/320] RN0077     RandomNeg_0077            (dry) ... SKIP (no valid scene)
+  [198/320] RN0078     RandomNeg_0078            (dry) ... SKIP (no valid scene)
+  [199/320] RN0079     RandomNeg_0079            (dry) ... SKIP (no valid scene)
+  [200/320] RN0080     RandomNeg_0080            (dry) ... SKIP (no valid scene)
+  [201/320] RN0081     RandomNeg_0081            (dry) ... SKIP (no valid scene)
+  [202/320] RN0082     RandomNeg_0082            (dry) ... SKIP (no valid scene)
+  [203/320] RN0083     RandomNeg_0083            (dry) ... OK ndvi_diff=+0.001
+  [204/320] RN0084     RandomNeg_0084            (dry) ... OK ndvi_diff=+0.001
+  [205/320] RN0085     RandomNeg_0085            (dry) ... SKIP (no valid scene)
+  [206/320] RN0086     RandomNeg_0086            (dry) ... SKIP (no valid scene)
+  [207/320] RN0087     RandomNeg_0087            (dry) ... SKIP (no valid scene)
+  [208/320] RN0088     RandomNeg_0088            (dry) ... OK ndvi_diff=-0.030
+  [209/320] RN0089     RandomNeg_0089            (dry) ... SKIP (no valid scene)
+  [210/320] RN0090     RandomNeg_0090            (dry) ... OK ndvi_diff=-0.001
+  [211/320] RN0091     RandomNeg_0091            (dry) ... SKIP (no valid scene)
+  [212/320] RN0092     RandomNeg_0092            (dry) ... OK ndvi_diff=+0.000
+  [213/320] RN0093     RandomNeg_0093            (dry) ... SKIP (no valid scene)
+  [214/320] RN0094     RandomNeg_0094            (dry) ... SKIP (no valid scene)
+  [215/320] RN0095     RandomNeg_0095            (dry) ... OK ndvi_diff=-0.002
+  [216/320] RN0096     RandomNeg_0096            (dry) ... SKIP (no valid scene)
+  [217/320] RN0097     RandomNeg_0097            (dry) ... OK ndvi_diff=+0.022
+  [218/320] RN0098     RandomNeg_0098            (dry) ... OK ndvi_diff=+0.001
+  [219/320] RN0099     RandomNeg_0099            (dry) ... SKIP (no valid scene)
+  [220/320] RN0100     RandomNeg_0100            (dry) ... SKIP (no valid scene)
+  [221/320] RN0101     RandomNeg_0101            (dry) ... SKIP (no valid scene)
+  [222/320] RN0102     RandomNeg_0102            (dry) ... OK ndvi_diff=+0.008
+  [223/320] RN0103     RandomNeg_0103            (dry) ... OK ndvi_diff=+0.000
+  [224/320] RN0104     RandomNeg_0104            (dry) ... OK ndvi_diff=-0.062
+  [225/320] RN0105     RandomNeg_0105            (dry) ... SKIP (no valid scene)
+  [226/320] RN0106     RandomNeg_0106            (dry) ... OK ndvi_diff=-0.001
+  [227/320] RN0107     RandomNeg_0107            (dry) ... OK ndvi_diff=-0.013
+  [228/320] RN0108     RandomNeg_0108            (dry) ... SKIP (no valid scene)
+  [229/320] RN0109     RandomNeg_0109            (dry) ... OK ndvi_diff=-0.074
+  [230/320] RN0110     RandomNeg_0110            (dry) ... SKIP (no valid scene)
+  [231/320] RN0111     RandomNeg_0111            (dry) ... OK ndvi_diff=+0.059
+  [232/320] RN0112     RandomNeg_0112            (dry) ... SKIP (no valid scene)
+  [233/320] RN0113     RandomNeg_0113            (dry) ... SKIP (no valid scene)
+  [234/320] RN0114     RandomNeg_0114            (dry) ... OK ndvi_diff=+0.057
+  [235/320] RN0115     RandomNeg_0115            (dry) ... OK ndvi_diff=-0.006
+  [236/320] RN0116     RandomNeg_0116            (dry) ... SKIP (no valid scene)
+  [237/320] RN0117     RandomNeg_0117            (dry) ... SKIP (no valid scene)
+  [238/320] RN0118     RandomNeg_0118            (dry) ... OK ndvi_diff=+0.153
+  [239/320] RN0119     RandomNeg_0119            (dry) ... SKIP (no valid scene)
+  [240/320] RN0120     RandomNeg_0120            (dry) ... OK ndvi_diff=+0.010
+  [241/320] RN0121     RandomNeg_0121            (dry) ... SKIP (no valid scene)
+  [242/320] RN0122     RandomNeg_0122            (dry) ... SKIP (no valid scene)
+  [243/320] RN0123     RandomNeg_0123            (dry) ... SKIP (no valid scene)
+  [244/320] RN0124     RandomNeg_0124            (dry) ... OK ndvi_diff=+0.023
+  [245/320] RN0125     RandomNeg_0125            (dry) ... SKIP (no valid scene)
+  [246/320] RN0126     RandomNeg_0126            (dry) ... OK ndvi_diff=-0.001
+  [247/320] RN0127     RandomNeg_0127            (dry) ... SKIP (no valid scene)
+  [248/320] RN0128     RandomNeg_0128            (dry) ... SKIP (no valid scene)
+  [249/320] RN0129     RandomNeg_0129            (dry) ... SKIP (no valid scene)
+  [250/320] RN0130     RandomNeg_0130            (dry) ... SKIP (no valid scene)
+  [251/320] RN0131     RandomNeg_0131            (dry) ... OK ndvi_diff=-0.056
+  [252/320] RN0132     RandomNeg_0132            (dry) ... SKIP (no valid scene)
+  [253/320] RN0133     RandomNeg_0133            (dry) ... SKIP (no valid scene)
+  [254/320] RN0134     RandomNeg_0134            (dry) ... SKIP (no valid scene)
+  [255/320] RN0135     RandomNeg_0135            (dry) ... SKIP (no valid scene)
+  [256/320] RN0136     RandomNeg_0136            (dry) ... OK ndvi_diff=-0.001
+  [257/320] RN0137     RandomNeg_0137            (dry) ... SKIP (no valid scene)
+  [258/320] RN0138     RandomNeg_0138            (dry) ... OK ndvi_diff=-0.001
+  [259/320] RN0139     RandomNeg_0139            (dry) ... SKIP (no valid scene)
+  [260/320] RN0140     RandomNeg_0140            (dry) ... SKIP (no valid scene)
+  [261/320] RN0141     RandomNeg_0141            (dry) ... OK ndvi_diff=+0.000
+  [262/320] RN0142     RandomNeg_0142            (dry) ... OK ndvi_diff=+0.030
+  [263/320] RN0143     RandomNeg_0143            (dry) ... SKIP (no valid scene)
+  [264/320] RN0144     RandomNeg_0144            (dry) ... SKIP (no valid scene)
+  [265/320] RN0145     RandomNeg_0145            (dry) ... SKIP (no valid scene)
+  [266/320] RN0146     RandomNeg_0146            (dry) ... SKIP (no valid scene)
+  [267/320] RN0147     RandomNeg_0147            (dry) ... SKIP (no valid scene)
+  [268/320] RN0148     RandomNeg_0148            (dry) ... OK ndvi_diff=+0.001
+  [269/320] RN0149     RandomNeg_0149            (dry) ... SKIP (no valid scene)
+  [270/320] RN0150     RandomNeg_0150            (dry) ... SKIP (no valid scene)
+  [271/320] RN0151     RandomNeg_0151            (dry) ... OK ndvi_diff=-0.001
+  [272/320] RN0152     RandomNeg_0152            (dry) ... OK ndvi_diff=+0.001
+  [273/320] RN0153     RandomNeg_0153            (dry) ... SKIP (no valid scene)
+  [274/320] RN0154     RandomNeg_0154            (dry) ... SKIP (no valid scene)
+  [275/320] RN0155     RandomNeg_0155            (dry) ... SKIP (no valid scene)
+  [276/320] RN0156     RandomNeg_0156            (dry) ... SKIP (no valid scene)
+  [277/320] RN0157     RandomNeg_0157            (dry) ... OK ndvi_diff=+0.054
+  [278/320] RN0158     RandomNeg_0158            (dry) ... SKIP (no valid scene)
+  [279/320] RN0159     RandomNeg_0159            (dry) ... SKIP (no valid scene)
+  [280/320] RN0160     RandomNeg_0160            (dry) ... SKIP (no valid scene)
+  [281/320] RN0161     RandomNeg_0161            (dry) ... SKIP (no valid scene)
+  [282/320] RN0162     RandomNeg_0162            (dry) ... OK ndvi_diff=+0.005
+  [283/320] RN0163     RandomNeg_0163            (dry) ... SKIP (no valid scene)
+  [284/320] RN0164     RandomNeg_0164            (dry) ... SKIP (no valid scene)
+  [285/320] RN0165     RandomNeg_0165            (dry) ... OK ndvi_diff=-0.002
+  [286/320] RN0166     RandomNeg_0166            (dry) ... SKIP (no valid scene)
+  [287/320] RN0167     RandomNeg_0167            (dry) ... SKIP (no valid scene)
+  [288/320] RN0168     RandomNeg_0168            (dry) ... SKIP (no valid scene)
+  [289/320] RN0169     RandomNeg_0169            (dry) ... SKIP (no valid scene)
+  [290/320] RN0170     RandomNeg_0170            (dry) ... OK ndvi_diff=+0.007
+  [291/320] RN0171     RandomNeg_0171            (dry) ... OK ndvi_diff=-0.055
+  [292/320] RN0172     RandomNeg_0172            (dry) ... OK ndvi_diff=-0.086
+  [293/320] RN0173     RandomNeg_0173            (dry) ... SKIP (no valid scene)
+  [294/320] RN0174     RandomNeg_0174            (dry) ... OK ndvi_diff=+0.000
+  [295/320] RN0175     RandomNeg_0175            (dry) ... OK ndvi_diff=+0.008
+  [296/320] RN0176     RandomNeg_0176            (dry) ... SKIP (no valid scene)
+  [297/320] RN0177     RandomNeg_0177            (dry) ... SKIP (no valid scene)
+  [298/320] RN0178     RandomNeg_0178            (dry) ... OK ndvi_diff=-0.000
+  [299/320] RN0179     RandomNeg_0179            (dry) ... SKIP (no valid scene)
+  [300/320] RN0180     RandomNeg_0180            (dry) ... OK ndvi_diff=+0.001
+  [301/320] RN0181     RandomNeg_0181            (dry) ... SKIP (no valid scene)
+  [302/320] RN0182     RandomNeg_0182            (dry) ... SKIP (no valid scene)
+  [303/320] RN0183     RandomNeg_0183            (dry) ... OK ndvi_diff=+0.001
+  [304/320] RN0184     RandomNeg_0184            (dry) ... OK ndvi_diff=+0.001
+  [305/320] RN0185     RandomNeg_0185            (dry) ... OK ndvi_diff=+0.012
+  [306/320] RN0186     RandomNeg_0186            (dry) ... SKIP (no valid scene)
+  [307/320] RN0187     RandomNeg_0187            (dry) ... OK ndvi_diff=-0.066
+  [308/320] RN0188     RandomNeg_0188            (dry) ... OK ndvi_diff=+0.021
+  [309/320] RN0189     RandomNeg_0189            (dry) ... SKIP (no valid scene)
+  [310/320] RN0190     RandomNeg_0190            (dry) ... SKIP (no valid scene)
+  [311/320] RN0191     RandomNeg_0191            (dry) ... SKIP (no valid scene)
+  [312/320] RN0192     RandomNeg_0192            (dry) ... SKIP (no valid scene)
+  [313/320] RN0193     RandomNeg_0193            (dry) ... SKIP (no valid scene)
+  [314/320] RN0194     RandomNeg_0194            (dry) ... OK ndvi_diff=+0.001
+  [315/320] RN0195     RandomNeg_0195            (dry) ... SKIP (no valid scene)
+  [316/320] RN0196     RandomNeg_0196            (dry) ... SKIP (no valid scene)
+  [317/320] RN0197     RandomNeg_0197            (dry) ... OK ndvi_diff=+0.001
+  [318/320] RN0198     RandomNeg_0198            (dry) ... SKIP (no valid scene)
+  [319/320] RN0199     RandomNeg_0199            (dry) ... SKIP (no valid scene)
+  [320/320] RN0200     RandomNeg_0200            (dry) ... SKIP (no valid scene)
+  Season dry: 78 ok, 125 fail, 7.9 min
+
+=== Season: wet ===
+BBox: [104.96498759678062, -8.998822774877866, 114.56949445297994, -5.902080841603093]
+Searching scenes...
+  Found 100 scenes
+  [0] 2024-02-03 cloud=0.0%
+  [1] 2024-03-19 cloud=0.0%
+  [2] 2024-02-23 cloud=0.034724%
+  [121/320] RN0001     RandomNeg_0001            (wet) ... SKIP (no valid scene)
+  [122/320] RN0002     RandomNeg_0002            (wet) ... SKIP (no valid scene)
+  [123/320] RN0003     RandomNeg_0003            (wet) ... OK ndvi_diff=+0.002
+  [124/320] RN0004     RandomNeg_0004            (wet) ... SKIP (no valid scene)
+  [125/320] RN0005     RandomNeg_0005            (wet) ... SKIP (no valid scene)
+  [126/320] RN0006     RandomNeg_0006            (wet) ... OK ndvi_diff=+0.001
+  [127/320] RN0007     RandomNeg_0007            (wet) ... SKIP (no valid scene)
+  [128/320] RN0008     RandomNeg_0008            (wet) ... OK ndvi_diff=+0.002
+  [129/320] RN0009     RandomNeg_0009            (wet) ... OK ndvi_diff=-0.002
+  [130/320] RN0010     RandomNeg_0010            (wet) ... SKIP (no valid scene)
+  [131/320] RN0011     RandomNeg_0011            (wet) ... OK ndvi_diff=+0.000
+  [132/320] RN0012     RandomNeg_0012            (wet) ... SKIP (no valid scene)
+  [133/320] RN0013     RandomNeg_0013            (wet) ... OK ndvi_diff=+0.001
+  [134/320] RN0014     RandomNeg_0014            (wet) ... SKIP (no valid scene)
+  [135/320] RN0015     RandomNeg_0015            (wet) ... OK ndvi_diff=-0.093
+  [136/320] RN0016     RandomNeg_0016            (wet) ... SKIP (no valid scene)
+  [137/320] RN0017     RandomNeg_0017            (wet) ... OK ndvi_diff=-0.001
+  [138/320] RN0018     RandomNeg_0018            (wet) ... OK ndvi_diff=+0.001
+  [139/320] RN0019     RandomNeg_0019            (wet) ... SKIP (no valid scene)
+  [140/320] RN0020     RandomNeg_0020            (wet) ... SKIP (no valid scene)
+  [141/320] RN0021     RandomNeg_0021            (wet) ... SKIP (no valid scene)
+  [142/320] RN0022     RandomNeg_0022            (wet) ... SKIP (no valid scene)
+  [143/320] RN0023     RandomNeg_0023            (wet) ... OK ndvi_diff=-0.000
+  [144/320] RN0024     RandomNeg_0024            (wet) ... SKIP (no valid scene)
+  [145/320] RN0025     RandomNeg_0025            (wet) ... OK ndvi_diff=-0.107
+  [146/320] RN0026     RandomNeg_0026            (wet) ... OK ndvi_diff=-0.005
+  [147/320] RN0027     RandomNeg_0027            (wet) ... OK ndvi_diff=-0.001
+  [148/320] RN0028     RandomNeg_0028            (wet) ... OK ndvi_diff=+0.003
+  [149/320] RN0029     RandomNeg_0029            (wet) ... OK ndvi_diff=+0.000
+  [150/320] RN0030     RandomNeg_0030            (wet) ... OK ndvi_diff=+0.000
+  [151/320] RN0031     RandomNeg_0031            (wet) ... SKIP (no valid scene)
+  [152/320] RN0032     RandomNeg_0032            (wet) ... SKIP (no valid scene)
+  [153/320] RN0033     RandomNeg_0033            (wet) ... SKIP (no valid scene)
+  [154/320] RN0034     RandomNeg_0034            (wet) ... D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\scripts\02_extract_s2_features.py:176: RuntimeWarning: invalid value encountered in divide
+  ndvi = np.where(d > 0, (b08 - b04) / d, np.nan)
+D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\scripts\02_extract_s2_features.py:179: RuntimeWarning: invalid value encountered in divide
+  ndwi = np.where(d2 > 0, (b03r - b08) / d2, np.nan)
+D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\scripts\02_extract_s2_features.py:217: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  v = np.nanvar(ndvi[i - 1:i + 2, j - 1:j + 2])
+D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\scripts\02_extract_s2_features.py:220: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  v2 = np.nanvar(ndwi[i - 1:i + 2, j - 1:j + 2])
+D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\scripts\02_extract_s2_features.py:249: RuntimeWarning: invalid value encountered in divide
+  clay = np.where(b12r > 0, b11r / b12r, np.nan)
+D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\scripts\02_extract_s2_features.py:250: RuntimeWarning: invalid value encountered in divide
+  iron = np.where(b03 > 0, b04 / b03, np.nan)
+OK ndvi_diff=-0.002
+  [155/320] RN0035     RandomNeg_0035            (wet) ... SKIP (no valid scene)
+  [156/320] RN0036     RandomNeg_0036            (wet) ... OK ndvi_diff=-0.001
+  [157/320] RN0037     RandomNeg_0037            (wet) ... OK ndvi_diff=-0.000
+  [158/320] RN0038     RandomNeg_0038            (wet) ... SKIP (no valid scene)
+  [159/320] RN0039     RandomNeg_0039            (wet) ... SKIP (no valid scene)
+  [160/320] RN0040     RandomNeg_0040            (wet) ... OK ndvi_diff=-0.001
+  [161/320] RN0041     RandomNeg_0041            (wet) ... SKIP (no valid scene)
+  [162/320] RN0042     RandomNeg_0042            (wet) ... OK ndvi_diff=+0.001
+  [163/320] RN0043     RandomNeg_0043            (wet) ... SKIP (no valid scene)
+  [164/320] RN0044     RandomNeg_0044            (wet) ... OK ndvi_diff=+0.001
+  [165/320] RN0045     RandomNeg_0045            (wet) ... OK ndvi_diff=-0.000
+  [166/320] RN0046     RandomNeg_0046            (wet) ... OK ndvi_diff=-0.003
+  [167/320] RN0047     RandomNeg_0047            (wet) ... OK ndvi_diff=+0.001
+  [168/320] RN0048     RandomNeg_0048            (wet) ... OK ndvi_diff=+0.001
+  [169/320] RN0049     RandomNeg_0049            (wet) ... OK ndvi_diff=+0.019
+  [170/320] RN0050     RandomNeg_0050            (wet) ... OK ndvi_diff=+0.001
+  [171/320] RN0051     RandomNeg_0051            (wet) ... OK ndvi_diff=+0.056
+  [172/320] RN0052     RandomNeg_0052            (wet) ... SKIP (no valid scene)
+  [173/320] RN0053     RandomNeg_0053            (wet) ... SKIP (no valid scene)
+  [174/320] RN0054     RandomNeg_0054            (wet) ... SKIP (no valid scene)
+  [175/320] RN0055     RandomNeg_0055            (wet) ... OK ndvi_diff=-0.058
+  [176/320] RN0056     RandomNeg_0056            (wet) ... OK ndvi_diff=-0.010
+  [177/320] RN0057     RandomNeg_0057            (wet) ... SKIP (no valid scene)
+  [178/320] RN0058     RandomNeg_0058            (wet) ... OK ndvi_diff=-0.001
+  [179/320] RN0059     RandomNeg_0059            (wet) ... OK ndvi_diff=-0.000
+  [180/320] RN0060     RandomNeg_0060            (wet) ... SKIP (no valid scene)
+  [181/320] RN0061     RandomNeg_0061            (wet) ... OK ndvi_diff=-0.002
+  [182/320] RN0062     RandomNeg_0062            (wet) ... OK ndvi_diff=-0.009
+  [183/320] RN0063     RandomNeg_0063            (wet) ... SKIP (no valid scene)
+  [184/320] RN0064     RandomNeg_0064            (wet) ... OK ndvi_diff=+0.000
+  [185/320] RN0065     RandomNeg_0065            (wet) ... SKIP (no valid scene)
+  [186/320] RN0066     RandomNeg_0066            (wet) ... OK ndvi_diff=-0.002
+  [187/320] RN0067     RandomNeg_0067            (wet) ... SKIP (no valid scene)
+  [188/320] RN0068     RandomNeg_0068            (wet) ... OK ndvi_diff=-0.008
+  [189/320] RN0069     RandomNeg_0069            (wet) ... OK ndvi_diff=-0.064
+  [190/320] RN0070     RandomNeg_0070            (wet) ... SKIP (no valid scene)
+  [191/320] RN0071     RandomNeg_0071            (wet) ... OK ndvi_diff=+0.000
+  [192/320] RN0072     RandomNeg_0072            (wet) ... SKIP (no valid scene)
+  [193/320] RN0073     RandomNeg_0073            (wet) ... OK ndvi_diff=+0.002
+  [194/320] RN0074     RandomNeg_0074            (wet) ... OK ndvi_diff=-0.184
+  [195/320] RN0075     RandomNeg_0075            (wet) ... SKIP (no valid scene)
+  [196/320] RN0076     RandomNeg_0076            (wet) ... OK ndvi_diff=-0.054
+  [197/320] RN0077     RandomNeg_0077            (wet) ... SKIP (no valid scene)
+  [198/320] RN0078     RandomNeg_0078            (wet) ... OK ndvi_diff=+0.000
+  [199/320] RN0079     RandomNeg_0079            (wet) ... OK ndvi_diff=-0.033
+  [200/320] RN0080     RandomNeg_0080            (wet) ... SKIP (no valid scene)
+  [201/320] RN0081     RandomNeg_0081            (wet) ... OK ndvi_diff=+0.076
+  [202/320] RN0082     RandomNeg_0082            (wet) ... SKIP (no valid scene)
+  [203/320] RN0083     RandomNeg_0083            (wet) ... OK ndvi_diff=+0.002
+  [204/320] RN0084     RandomNeg_0084            (wet) ... OK ndvi_diff=+0.004
+  [205/320] RN0085     RandomNeg_0085            (wet) ... SKIP (no valid scene)
+  [206/320] RN0086     RandomNeg_0086            (wet) ... SKIP (no valid scene)
+  [207/320] RN0087     RandomNeg_0087            (wet) ... SKIP (no valid scene)
+  [208/320] RN0088     RandomNeg_0088            (wet) ... OK ndvi_diff=-0.036
+  [209/320] RN0089     RandomNeg_0089            (wet) ... SKIP (no valid scene)
+  [210/320] RN0090     RandomNeg_0090            (wet) ... OK ndvi_diff=+0.000
+  [211/320] RN0091     RandomNeg_0091            (wet) ... SKIP (no valid scene)
+  [212/320] RN0092     RandomNeg_0092            (wet) ... OK ndvi_diff=-0.001
+  [213/320] RN0093     RandomNeg_0093            (wet) ... SKIP (no valid scene)
+  [214/320] RN0094     RandomNeg_0094            (wet) ... OK ndvi_diff=-0.000
+  [215/320] RN0095     RandomNeg_0095            (wet) ... OK ndvi_diff=-0.002
+  [216/320] RN0096     RandomNeg_0096            (wet) ... SKIP (no valid scene)
+  [217/320] RN0097     RandomNeg_0097            (wet) ... OK ndvi_diff=+0.018
+  [218/320] RN0098     RandomNeg_0098            (wet) ... OK ndvi_diff=+0.001
+  [219/320] RN0099     RandomNeg_0099            (wet) ... SKIP (no valid scene)
+  [220/320] RN0100     RandomNeg_0100            (wet) ... SKIP (no valid scene)
+  [221/320] RN0101     RandomNeg_0101            (wet) ... SKIP (no valid scene)
+  [222/320] RN0102     RandomNeg_0102            (wet) ... OK ndvi_diff=+0.029
+  [223/320] RN0103     RandomNeg_0103            (wet) ... OK ndvi_diff=-0.001
+  [224/320] RN0104     RandomNeg_0104            (wet) ... OK ndvi_diff=-0.002
+  [225/320] RN0105     RandomNeg_0105            (wet) ... SKIP (no valid scene)
+  [226/320] RN0106     RandomNeg_0106            (wet) ... OK ndvi_diff=+0.001
+  [227/320] RN0107     RandomNeg_0107            (wet) ... OK ndvi_diff=-0.045
+  [228/320] RN0108     RandomNeg_0108            (wet) ... SKIP (no valid scene)
+  [229/320] RN0109     RandomNeg_0109            (wet) ... OK ndvi_diff=-0.102
+  [230/320] RN0110     RandomNeg_0110            (wet) ... SKIP (no valid scene)
+  [231/320] RN0111     RandomNeg_0111            (wet) ... OK ndvi_diff=-0.082
+  [232/320] RN0112     RandomNeg_0112            (wet) ... SKIP (no valid scene)
+  [233/320] RN0113     RandomNeg_0113            (wet) ... SKIP (no valid scene)
+  [234/320] RN0114     RandomNeg_0114            (wet) ... OK ndvi_diff=+0.099
+  [235/320] RN0115     RandomNeg_0115            (wet) ... OK ndvi_diff=-0.033
+  [236/320] RN0116     RandomNeg_0116            (wet) ... OK ndvi_diff=+0.000
+  [237/320] RN0117     RandomNeg_0117            (wet) ... OK ndvi_diff=-0.035
+  [238/320] RN0118     RandomNeg_0118            (wet) ... OK ndvi_diff=-0.000
+  [239/320] RN0119     RandomNeg_0119            (wet) ... SKIP (no valid scene)
+  [240/320] RN0120     RandomNeg_0120            (wet) ... OK ndvi_diff=+0.013
+  [241/320] RN0121     RandomNeg_0121            (wet) ... SKIP (no valid scene)
+  [242/320] RN0122     RandomNeg_0122            (wet) ... SKIP (no valid scene)
+  [243/320] RN0123     RandomNeg_0123            (wet) ... OK ndvi_diff=+0.013
+  [244/320] RN0124     RandomNeg_0124            (wet) ... OK ndvi_diff=+0.037
+  [245/320] RN0125     RandomNeg_0125            (wet) ... SKIP (no valid scene)
+  [246/320] RN0126     RandomNeg_0126            (wet) ... SKIP (no valid scene)
+  [247/320] RN0127     RandomNeg_0127            (wet) ... SKIP (no valid scene)
+  [248/320] RN0128     RandomNeg_0128            (wet) ... SKIP (no valid scene)
+  [249/320] RN0129     RandomNeg_0129            (wet) ... SKIP (no valid scene)
+  [250/320] RN0130     RandomNeg_0130            (wet) ... OK ndvi_diff=+0.000
+  [251/320] RN0131     RandomNeg_0131            (wet) ... OK ndvi_diff=-0.025
+  [252/320] RN0132     RandomNeg_0132            (wet) ... SKIP (no valid scene)
+  [253/320] RN0133     RandomNeg_0133            (wet) ... SKIP (no valid scene)
+  [254/320] RN0134     RandomNeg_0134            (wet) ... OK ndvi_diff=+0.001
+  [255/320] RN0135     RandomNeg_0135            (wet) ... SKIP (no valid scene)
+  [256/320] RN0136     RandomNeg_0136            (wet) ... OK ndvi_diff=+0.001
+  [257/320] RN0137     RandomNeg_0137            (wet) ... SKIP (no valid scene)
+  [258/320] RN0138     RandomNeg_0138            (wet) ... OK ndvi_diff=+0.002
+  [259/320] RN0139     RandomNeg_0139            (wet) ... SKIP (no valid scene)
+  [260/320] RN0140     RandomNeg_0140            (wet) ... OK ndvi_diff=+0.000
+  [261/320] RN0141     RandomNeg_0141            (wet) ... OK ndvi_diff=+0.000
+  [262/320] RN0142     RandomNeg_0142            (wet) ... OK ndvi_diff=+0.013
+  [263/320] RN0143     RandomNeg_0143            (wet) ... SKIP (no valid scene)
+  [264/320] RN0144     RandomNeg_0144            (wet) ... OK ndvi_diff=+0.068
+  [265/320] RN0145     RandomNeg_0145            (wet) ... OK ndvi_diff=-0.054
+  [266/320] RN0146     RandomNeg_0146            (wet) ... SKIP (no valid scene)
+  [267/320] RN0147     RandomNeg_0147            (wet) ... SKIP (no valid scene)
+  [268/320] RN0148     RandomNeg_0148            (wet) ... OK ndvi_diff=+0.012
+  [269/320] RN0149     RandomNeg_0149            (wet) ... OK ndvi_diff=-0.025
+  [270/320] RN0150     RandomNeg_0150            (wet) ... OK ndvi_diff=-0.049
+  [271/320] RN0151     RandomNeg_0151            (wet) ... OK ndvi_diff=+0.044
+  [272/320] RN0152     RandomNeg_0152            (wet) ... OK ndvi_diff=-0.001
+  [273/320] RN0153     RandomNeg_0153            (wet) ... OK ndvi_diff=+0.017
+  [274/320] RN0154     RandomNeg_0154            (wet) ... OK ndvi_diff=+0.010
+  [275/320] RN0155     RandomNeg_0155            (wet) ... SKIP (no valid scene)
+  [276/320] RN0156     RandomNeg_0156            (wet) ... SKIP (no valid scene)
+  [277/320] RN0157     RandomNeg_0157            (wet) ... OK ndvi_diff=+0.034
+  [278/320] RN0158     RandomNeg_0158            (wet) ... OK ndvi_diff=+0.103
+  [279/320] RN0159     RandomNeg_0159            (wet) ... SKIP (no valid scene)
+  [280/320] RN0160     RandomNeg_0160            (wet) ... SKIP (no valid scene)
+  [281/320] RN0161     RandomNeg_0161            (wet) ... SKIP (no valid scene)
+  [282/320] RN0162     RandomNeg_0162            (wet) ... OK ndvi_diff=+0.115
+  [283/320] RN0163     RandomNeg_0163            (wet) ... SKIP (no valid scene)
+  [284/320] RN0164     RandomNeg_0164            (wet) ... OK ndvi_diff=+0.004
+  [285/320] RN0165     RandomNeg_0165            (wet) ... OK ndvi_diff=+0.001
+  [286/320] RN0166     RandomNeg_0166            (wet) ... SKIP (no valid scene)
+  [287/320] RN0167     RandomNeg_0167            (wet) ... SKIP (no valid scene)
+  [288/320] RN0168     RandomNeg_0168            (wet) ... SKIP (no valid scene)
+  [289/320] RN0169     RandomNeg_0169            (wet) ... SKIP (no valid scene)
+  [290/320] RN0170     RandomNeg_0170            (wet) ... OK ndvi_diff=+0.036
+  [291/320] RN0171     RandomNeg_0171            (wet) ... OK ndvi_diff=-0.091
+  [292/320] RN0172     RandomNeg_0172            (wet) ... OK ndvi_diff=+0.085
+  [293/320] RN0173     RandomNeg_0173            (wet) ... OK ndvi_diff=+0.006
+  [294/320] RN0174     RandomNeg_0174            (wet) ... OK ndvi_diff=-0.002
+  [295/320] RN0175     RandomNeg_0175            (wet) ... OK ndvi_diff=+0.005
+  [296/320] RN0176     RandomNeg_0176            (wet) ... SKIP (no valid scene)
+  [297/320] RN0177     RandomNeg_0177            (wet) ... OK ndvi_diff=-0.001
+  [298/320] RN0178     RandomNeg_0178            (wet) ... OK ndvi_diff=-0.005
+  [299/320] RN0179     RandomNeg_0179            (wet) ... SKIP (no valid scene)
+  [300/320] RN0180     RandomNeg_0180            (wet) ... OK ndvi_diff=-0.004
+  [301/320] RN0181     RandomNeg_0181            (wet) ... SKIP (no valid scene)
+  [302/320] RN0182     RandomNeg_0182            (wet) ... SKIP (no valid scene)
+  [303/320] RN0183     RandomNeg_0183            (wet) ... OK ndvi_diff=-0.002
+  [304/320] RN0184     RandomNeg_0184            (wet) ... OK ndvi_diff=+0.002
+  [305/320] RN0185     RandomNeg_0185            (wet) ... OK ndvi_diff=+0.049
+  [306/320] RN0186     RandomNeg_0186            (wet) ... SKIP (no valid scene)
+  [307/320] RN0187     RandomNeg_0187            (wet) ... OK ndvi_diff=+0.057
+  [308/320] RN0188     RandomNeg_0188            (wet) ... SKIP (no valid scene)
+  [309/320] RN0189     RandomNeg_0189            (wet) ... SKIP (no valid scene)
+  [310/320] RN0190     RandomNeg_0190            (wet) ... OK ndvi_diff=+0.000
+  [311/320] RN0191     RandomNeg_0191            (wet) ... SKIP (no valid scene)
+  [312/320] RN0192     RandomNeg_0192            (wet) ... SKIP (no valid scene)
+  [313/320] RN0193     RandomNeg_0193            (wet) ... OK ndvi_diff=+0.021
+  [314/320] RN0194     RandomNeg_0194            (wet) ... SKIP (no valid scene)
+  [315/320] RN0195     RandomNeg_0195            (wet) ... SKIP (no valid scene)
+  [316/320] RN0196     RandomNeg_0196            (wet) ... SKIP (no valid scene)
+  [317/320] RN0197     RandomNeg_0197            (wet) ... OK ndvi_diff=+0.001
+  [318/320] RN0198     RandomNeg_0198            (wet) ... SKIP (no valid scene)
+  [319/320] RN0199     RandomNeg_0199            (wet) ... OK ndvi_diff=-0.005
+  [320/320] RN0200     RandomNeg_0200            (wet) ... OK ndvi_diff=-0.005
+  Season wet: 110 ok, 90 fail, 9.0 min
+
+============================================================
+Features written to: D:\documents\volcarch-repo\experiments\E209_satellite_ml_classifier\data\features_s2.csv
+Next: scripts/03_train_classifier.py

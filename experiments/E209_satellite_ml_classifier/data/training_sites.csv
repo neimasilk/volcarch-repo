@@ -1,0 +1,322 @@
+site_id,name,lat,lon,label,class,category,source,notes
+HP001,Candi Sambisari,-7.7628,110.4561,hard_positive,2,discovered_buried_candi,literature,"Buried 6.5m by Merapi, 9th c. CE, discovered 1966"
+HP002,Candi Kedulan,-7.7308,110.4503,hard_positive,2,discovered_buried_candi,literature,"Buried 7m by Merapi, 9th c. CE, discovered 1993"
+HP003,Candi Kimpulan,-7.7636,110.4147,hard_positive,2,discovered_buried_candi,literature,"Buried 4-5m by Merapi, 9th-10th c. CE, discovered 2009"
+HP004,Candi Liangan,-7.2667,110.0611,hard_positive,2,discovered_buried_candi,literature,Buried under Sindoro ash; wooden material preserved
+HP005,Candi Badut,-7.9578,112.5986,hard_positive,2,discovered_buried_candi,Wikidata Q3517536,"Partially buried, Malang volcanic plain, 8th c. CE"
+HP006,Candi Tigomangi,-7.97,112.42,hard_positive,2,discovered_buried_candi,literature,"1358 CE, Semar relief, East Java (approx coords)"
+OSM0,Candi Jawi,-7.6624877,112.669879,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM1,Candi Tikus,-7.5718035,112.4035341,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM2,Candi Bajang Ratu,-7.5677409,112.3987632,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM3,Candi jolotundo,-7.6100965,112.595732,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM4,Candi Naga 1,-7.608458,112.6105279,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM5,Candi Putri,-7.611832,112.6093412,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM6,Candi Gentong,-7.6111708,112.6122723,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM7,Candi Bayi,-7.6139718,112.6055954,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM9,Candi Kendalisodo,-7.6067777,112.6076324,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM10,Candi Tawangalun,-7.3988488,112.7891649,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM11,Candi Kethek,-7.5939326,111.1602927,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM12,Candi Wisnu,-7.6147858,112.613817,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM14,Candi Selokelir,-7.6251042,112.6080982,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM15,Candi,-7.6176551,112.610255,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM16,Candi Naga,-7.6138526,112.6106987,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM18,Candi,-7.6252159,112.6159826,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM19,Candi Merak,-7.6066004,112.6133722,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM20,Candi Penampihan,-7.9027228,111.7952694,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM21,Candi Rengganis,-7.9647946,113.5730157,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM22,Candi Tumpak Wolu,-7.6032232,112.6158902,soft_positive,1,archaeology,east_java_sites.geojson,
+WIKI0006,Candi Wayang,-7.605485,112.621598,soft_positive,1,kuil,Wikidata SPARQL (Q137690757),
+OSM26,Candi Griya,-7.6032082,112.6206324,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM29,Candi Gedog,-8.0877749,112.1841994,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM30,Candi Dadi,-8.1302386,111.9268294,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM31,Candi Ketawanggede,-7.946843,112.6123534,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM32,Candi Karang Besuki,-7.9523146,112.5997549,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM33,Situs Peninggalan Lesung Purbalingga,-7.9485617,112.5993642,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM34,Watu Prasasti,-7.596268,112.6128719,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM36,Candi Simping,-8.1640797,112.1461388,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM37,Candi Sirah Kencong,-7.9800031,112.4278234,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM38,Candi Gambar Wetan,-7.9680444,112.2388364,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM39,Situs Umpak Balekambang,-8.0143318,112.2227457,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM40,Candi Wringin Branjang,-8.0027503,112.2817723,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM41,Situs Gadungan,-8.0000331,112.2816472,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM42,Candi Brahu,-7.5429066,112.3743651,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM43,Candi Gentong,-7.5435102,112.3780875,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM44,Candi Wringin Lawang,-7.5418917,112.3909426,soft_positive,1,archaeology,east_java_sites.geojson,
+WIKI0002,Candi Jago,-8.00579,112.76405,soft_positive,1,kuil,Wikidata SPARQL (Q12091291),
+OSM46,Kompleks Candi Sumberawan,-7.8553516,112.6448151,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM47,Candi Pari,-7.5161315,112.6834255,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM48,Situs Watu Gong,-7.9388986,112.5975542,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM49,Candi Cetho,-7.5957362,111.1581311,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM50,Candi Menak Jinggo,-7.5583872,112.3865115,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM51,Situs Kumitir,-7.5707338,112.4117737,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM52,Situs Genting,-7.5714269,112.5898064,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM53,Candi Bangkal,-7.543221,112.6355351,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM54,Situs Tarik Raden Wijaya Majapahit,-7.4527626,112.4827118,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM55,Candi Petirtaan Belahan,-7.6075228,112.6513504,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM56,Situs Candi Terung,-7.3947721,112.6203456,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM57,Candi Kesiman,-7.6504231,112.5299286,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM58,Situs Gapura Majapahit,-7.4274762,112.3593053,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM59,Candi Patakan,-7.2836656,112.2565327,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM60,Prasasti Cunggrang,-7.5798158,112.6849627,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM61,Situs Petirtaan Brumbung,-7.799256,112.2885931,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM62,Candi Surowono,-7.7464638,112.2180204,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM63,Candi Tegowangi,-7.7347204,112.1611752,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM64,Situs Petirtaan Sumberbeji,-7.6658053,112.2562369,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM65,Situs Gua Selomangleng,-7.8072612,111.9729852,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM66,Situs Arca Totok Kerot,-7.7979459,112.0701523,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM67,Situs Candi Tondowongso,-7.7905516,112.1422892,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM68,Candi Mirigambar,-8.1341345,111.9759543,soft_positive,1,archaeology,east_java_sites.geojson,
+WIKI0003,Candi Penataran,-8.01611111,112.20916667,soft_positive,1,situs_arkeologi,Wikidata SPARQL (Q2491478),
+OSM70,Situs Candi Gempur Adan-Adan,-7.769902,112.1171099,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM71,Situs Watu Umpak Grobogon,-7.6011296,112.3480411,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM72,Situs Kedaton Jombang,-7.6346011,112.2532318,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM73,Candi Ngetos,-7.6935104,111.8424528,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM74,Situs Dam Pipo,-7.78122,112.2578354,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM75,Situs Watu Gilang Pujon,-7.8289325,112.4220203,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM76,Situs Candi Ganter,-7.8271272,112.3939101,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM77,Situs Sendang Made,-7.4030121,112.3122484,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM78,Situs Makam Gunung Ratu,-7.2640867,112.2370884,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM79,Prasasti Gurit,-7.403138,112.2881247,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM80,Prasasti Sumbersari,-7.2892372,112.235266,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM81,Candi Situsumpak,-7.5406294,112.4025429,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM82,Situs Yoni Lebak Jabung,-7.619221,112.4114903,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM83,Candi Kedaton,-7.5704583,112.3796406,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM85,Situs Siti Hinggil,-7.5503366,112.3692731,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM86,candi jawar,-8.1680934,112.8953201,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM87,Cagar Budaya Candi Pendem,-7.497183,111.2241471,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM88,Candi Songgoriti,-7.8672218,112.4927191,soft_positive,1,archaeology,east_java_sites.geojson,
+WIKI0001,Candi Badut,-7.95776,112.59857,excluded_dup_hard_pos,0,situs_arkeologi,Wikidata SPARQL (Q3517536),
+WIKI0005,Candi Sumberawan,-7.85722,112.652,soft_positive,1,kuil,Wikidata SPARQL (Q11124430),
+WIKI0016,Situs Menggung,-7.67177,111.13019,soft_positive,1,situs_arkeologi,Wikidata SPARQL (Q97219273),
+WIKI0017,Situs Plangatan,-7.63508,111.13254,soft_positive,1,situs_arkeologi,Wikidata SPARQL (Q106309212),
+OSM93,Candi Satu,-8.4078258,114.1649588,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM94,Candi Jepara,-6.5245208,110.7752538,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM95,Candi Borobudur,-8.2011378,111.088786,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM96,Candi Mendut,-7.9405761,112.6271802,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM98,Candi Prambanan,-8.1992747,111.0914972,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM99,Candi Plaosan,-8.2182728,114.3671726,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM100,Candi Plaosan Kidul,-7.7426813,110.5047479,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM101,Candi Sewu,-7.940663,112.6343583,soft_positive,1,archaeology,east_java_sites.geojson,
+WIKI0004,Candi Sukuh,-7.6274,111.13118,soft_positive,1,kuil,Wikidata SPARQL (Q3101506),
+OSM106,Candi Arjuna,-7.8767471,112.6705275,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM107,Candi Bima,-7.9435133,112.6349423,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM109,Candi Bubrah (Jepara),-6.6034772,110.8649112,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM111,Candi Kalasan,-7.9423387,112.6396959,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM112,Candi Ratu Boko,-7.7710173,110.5040988,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM113,Candi Sari,-7.9418671,112.6317556,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM114,Candi Ijo,-7.7837641,110.5114895,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM118,Candi Kidal,-8.0258439,112.7091054,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM119,Candi Singosari,-7.8877437,112.6639091,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM125,Candi Lor,-8.1796471,113.0723519,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM150,Candi Baru,-7.2716198,112.664791,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM164,Candi Deres,-8.2989723,113.4190438,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM167,Candi Agung,-8.396529,114.1601135,soft_positive,1,archaeology,east_java_sites.geojson,
+OSM168,Candi,-7.4853909,112.726104,soft_positive,1,archaeology,east_java_sites.geojson,
+WIKI0009,Kolam Segaran,-7.558,112.3829,soft_positive,1,situs_arkeologi,Wikidata SPARQL (Q25259415),
+WIKI0019,Trinil,-7.3743,111.3578,soft_positive,1,situs_arkeologi,Wikidata SPARQL (Q1318724),
+WIKI0020,Trowulan,-7.55,112.366667,soft_positive,1,situs_arkeologi,Wikidata SPARQL (Q962410),
+HN001,Ctrl_plain_north,-7.45,112.6,hard_negative,-2,control,E189,"Agricultural plain, no known archaeology"
+HN002,Ctrl_slope_south,-8.15,112.7,hard_negative,-2,control,E189,"Volcanic slope, no known archaeology"
+HN003,Ctrl_plain_east,-7.85,113.0,hard_negative,-2,control,E189,Alluvial plain east
+HN004,Ctrl_slope_north,-7.6,112.45,hard_negative,-2,control,E189,Volcanic slope north
+HN005,Ctrl_plain_west,-7.9,112.15,hard_negative,-2,control,E189,Alluvial plain west
+RN0001,RandomNeg_0001,-7.0456622844721375,105.25010755222667,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0002,RandomNeg_0002,-8.102414976729554,107.23210738148823,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0003,RandomNeg_0003,-6.764233478924364,111.76699487422911,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0004,RandomNeg_0004,-6.312679253655949,105.86938832629416,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0005,RandomNeg_0005,-7.676426722912716,105.2979721943807,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0006,RandomNeg_0006,-8.26594987306955,110.05355288103362,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0007,RandomNeg_0007,-8.823045687916796,106.98837650686649,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0008,RandomNeg_0008,-7.015335130439382,110.44941480603217,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0009,RandomNeg_0009,-8.26072219608198,110.89265683875908,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0010,RandomNeg_0010,-6.552651675634303,105.06498759678061,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0011,RandomNeg_0011,-6.563124169684857,111.98139394988227,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0012,RandomNeg_0012,-7.913273502097824,106.55479499811781,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0013,RandomNeg_0013,-6.124082090600334,108.36594545112627,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0014,RandomNeg_0014,-8.631037054197572,105.96716376833464,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0015,RandomNeg_0015,-6.4422663375923666,111.03726031366891,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0016,RandomNeg_0016,-6.5593280075042975,112.29731786693817,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0017,RandomNeg_0017,-6.494726473666315,111.18519752364246,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0018,RandomNeg_0018,-6.4010499890987465,110.77352145256762,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0019,RandomNeg_0019,-6.856741674976722,105.45824383655662,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0020,RandomNeg_0020,-8.239095000610515,107.89387963602107,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0021,RandomNeg_0021,-8.668603266921481,107.3279088636103,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0022,RandomNeg_0022,-8.607095854711785,107.77973603110092,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0023,RandomNeg_0023,-7.05651511163324,108.64832178970084,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0024,RandomNeg_0024,-7.8264751953610405,107.09507030771488,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0025,RandomNeg_0025,-8.125764316057571,114.36654587712493,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0026,RandomNeg_0026,-7.020697382784879,111.09131005666988,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0027,RandomNeg_0027,-8.403697920225518,112.29126797950349,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0028,RandomNeg_0028,-8.426132768090408,108.79455441757648,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0029,RandomNeg_0029,-6.030382283153873,111.39999759854093,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0030,RandomNeg_0030,-7.284845743053526,111.84614250989874,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0031,RandomNeg_0031,-6.455729431449552,112.75999911546245,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0032,RandomNeg_0032,-8.235760591304098,105.32100243904038,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0033,RandomNeg_0033,-7.985186160628663,107.67740875975703,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0034,RandomNeg_0034,-8.288149753599654,114.42909714335055,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0035,RandomNeg_0035,-6.35853388322926,108.14677880798477,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0036,RandomNeg_0036,-6.999227870644848,108.95631901060665,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0037,RandomNeg_0037,-6.2478119897524245,109.588518525874,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0038,RandomNeg_0038,-8.131847517155649,107.46627507693984,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0039,RandomNeg_0039,-7.272032410926863,107.62741608522936,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0040,RandomNeg_0040,-7.204700628351732,113.97822883602477,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0041,RandomNeg_0041,-7.741738535092848,107.19320759157283,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0042,RandomNeg_0042,-6.00714094116418,110.09526293676464,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0043,RandomNeg_0043,-8.636362704695998,105.47116375424734,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0044,RandomNeg_0044,-8.582017521983088,111.2744604170309,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0045,RandomNeg_0045,-6.602969843347404,109.22159966799684,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0046,RandomNeg_0046,-8.715769652159324,108.81619286506537,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0047,RandomNeg_0047,-6.01124799730372,110.29114345099137,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0048,RandomNeg_0048,-6.083872704920507,113.60779702234498,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0049,RandomNeg_0049,-8.866705036365824,112.20721819360195,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0050,RandomNeg_0050,-6.9230399298229335,110.36970330408795,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0051,RandomNeg_0051,-8.126206949137627,111.40961798579808,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0052,RandomNeg_0052,-8.576498696571958,109.34765250669105,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0053,RandomNeg_0053,-6.360026472903238,107.63389050751091,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0054,RandomNeg_0054,-7.448300272154135,106.78651880530131,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0055,RandomNeg_0055,-6.253379265900021,113.70518569836767,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0056,RandomNeg_0056,-8.034510104798965,111.38949494866006,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0057,RandomNeg_0057,-7.1339863868293,106.52839268549634,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0058,RandomNeg_0058,-6.6887186797820615,110.39379030119626,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0059,RandomNeg_0059,-6.641983211971381,110.30353672195177,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0060,RandomNeg_0060,-8.898341501228964,108.24156057004673,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0061,RandomNeg_0061,-8.843517447081087,114.29098616264616,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0062,RandomNeg_0062,-6.351706554312766,113.3166552936118,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0063,RandomNeg_0063,-8.008209036332282,105.57925166494188,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0064,RandomNeg_0064,-6.353772162308283,114.46949445297994,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0065,RandomNeg_0065,-8.651604989003152,109.85990463316614,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0066,RandomNeg_0066,-8.699283696441688,112.60602165257231,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0067,RandomNeg_0067,-6.679080155009736,106.28391464499762,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0068,RandomNeg_0068,-7.5216811035136795,110.49803593494944,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0069,RandomNeg_0069,-8.13133577607383,113.72433041085257,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0070,RandomNeg_0070,-7.672899973417428,107.11798205442082,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0071,RandomNeg_0071,-7.336041342539571,112.29931069089976,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0072,RandomNeg_0072,-8.316661916169883,108.11716291300895,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0073,RandomNeg_0073,-6.0140668656834055,111.49878057639454,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0074,RandomNeg_0074,-7.629509756647939,110.17575841035591,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0075,RandomNeg_0075,-8.54908783198203,107.24697337031557,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0076,RandomNeg_0076,-7.91955186977238,110.88308718457233,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0077,RandomNeg_0077,-8.232667275469927,107.2021738445156,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0078,RandomNeg_0078,-8.694120050573806,111.31102957270099,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0079,RandomNeg_0079,-8.236068826947653,114.05420013006128,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0080,RandomNeg_0080,-6.407057339264135,105.70857349888654,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0081,RandomNeg_0081,-8.209786560329913,111.6897777829628,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0082,RandomNeg_0082,-8.278713258625729,106.32311848725026,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0083,RandomNeg_0083,-6.187008702316055,110.71043093325284,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0084,RandomNeg_0084,-7.529254023695797,112.84619424290753,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0085,RandomNeg_0085,-6.558258706476734,106.90409914361878,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0086,RandomNeg_0086,-8.618900638736413,109.31051182406378,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0087,RandomNeg_0087,-7.67162199324223,109.67024668036674,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0088,RandomNeg_0088,-6.785680036566433,111.73364547293302,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0089,RandomNeg_0089,-6.045920887038698,105.98417871151959,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0090,RandomNeg_0090,-7.7323982819034205,108.39302605394963,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0091,RandomNeg_0091,-6.401149644576906,107.48656333920286,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0092,RandomNeg_0092,-8.348394165521647,109.48613547833132,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0093,RandomNeg_0093,-7.676543244480228,107.7854514466694,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0094,RandomNeg_0094,-8.175561301141908,114.23265599276013,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0095,RandomNeg_0095,-7.614920839344975,113.61349104761831,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0096,RandomNeg_0096,-7.3040565938954405,105.50588329524881,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0097,RandomNeg_0097,-6.002080841603092,113.36027585079952,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0098,RandomNeg_0098,-6.089910853874221,114.26366983008128,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0099,RandomNeg_0099,-6.438782370198514,106.66311110603914,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0100,RandomNeg_0100,-7.491640736192917,107.13747299199181,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0101,RandomNeg_0101,-7.736983151606587,105.5863539997218,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0102,RandomNeg_0102,-8.13091113130076,112.8407060194857,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0103,RandomNeg_0103,-7.580475734716485,109.23007485990163,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0104,RandomNeg_0104,-7.2882718621237075,112.18408275296326,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0105,RandomNeg_0105,-8.451089206705214,107.96707825494565,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0106,RandomNeg_0106,-6.09074284158944,110.79180290816257,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0107,RandomNeg_0107,-7.327633916014605,112.47975560379064,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0108,RandomNeg_0108,-8.7342207085683,110.84177594458971,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0109,RandomNeg_0109,-7.441733889533411,113.52719892048285,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0110,RandomNeg_0110,-8.667676750802299,106.85824960980723,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0111,RandomNeg_0111,-7.1743981912949195,111.75212553604091,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0112,RandomNeg_0112,-8.2179087044973,106.19886613947124,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0113,RandomNeg_0113,-6.318166789024631,107.46215347788625,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0114,RandomNeg_0114,-7.175894454753021,111.19381510332103,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0115,RandomNeg_0115,-7.68424774552597,110.83672289291225,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0116,RandomNeg_0116,-7.3839301249573195,114.34706257736427,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0117,RandomNeg_0117,-8.307648321671744,112.16191800789414,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0118,RandomNeg_0118,-8.207810737414047,108.95785846791254,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0119,RandomNeg_0119,-6.952098353416083,107.99997079798763,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0120,RandomNeg_0120,-7.983086130811624,112.51864492414403,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0121,RandomNeg_0121,-8.689624967969845,109.58285522618586,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0122,RandomNeg_0122,-8.687543908811065,107.13154312267041,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0123,RandomNeg_0123,-8.130918797223837,114.33259377993708,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0124,RandomNeg_0124,-6.345493896309325,113.79270242484543,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0125,RandomNeg_0125,-7.828371442657237,106.57746832357232,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0126,RandomNeg_0126,-6.48213963154456,112.03539925087371,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0127,RandomNeg_0127,-7.003468678638876,105.07823107152159,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0128,RandomNeg_0128,-6.530398008165161,107.99378752199978,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0129,RandomNeg_0129,-8.510555768259234,106.15428670419102,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0130,RandomNeg_0130,-8.589595664642689,110.53223640884816,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0131,RandomNeg_0131,-8.110190184287033,111.04829827030224,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0132,RandomNeg_0132,-6.818924657297487,107.03597312327453,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0133,RandomNeg_0133,-7.060709919233269,107.6398390163041,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0134,RandomNeg_0134,-7.4832576287668084,114.05336491079323,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0135,RandomNeg_0135,-6.44629923144492,105.92298467712733,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0136,RandomNeg_0136,-8.889717501645432,112.71119223019627,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0137,RandomNeg_0137,-7.052371205825999,107.61955262434348,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0138,RandomNeg_0138,-6.750430365791001,110.51680421126392,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0139,RandomNeg_0139,-7.65970793495603,105.0966969960834,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0140,RandomNeg_0140,-8.681792805786076,113.83106393300143,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0141,RandomNeg_0141,-6.27860714247631,110.45590289205522,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0142,RandomNeg_0142,-6.479674442330552,110.82509566489794,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0143,RandomNeg_0143,-8.470528021854301,106.27445519282139,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0144,RandomNeg_0144,-8.006050785202612,113.9898148874259,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0145,RandomNeg_0145,-6.591245315824679,113.60702582000903,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0146,RandomNeg_0146,-6.293118554073224,107.10076538339754,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0147,RandomNeg_0147,-8.176363756253519,106.02793621671786,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0148,RandomNeg_0148,-6.637662898572817,113.84134701451009,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0149,RandomNeg_0149,-7.721505569486862,111.20661510150713,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0150,RandomNeg_0150,-8.451795318836608,114.29881015693674,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0151,RandomNeg_0151,-6.548762012172849,113.81416204663324,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0152,RandomNeg_0152,-8.828119550495254,112.36564471755082,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0153,RandomNeg_0153,-7.936662142955357,114.30815886048326,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0154,RandomNeg_0154,-6.573518097082298,113.64064028375279,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0155,RandomNeg_0155,-6.548826981934273,107.66805709594472,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0156,RandomNeg_0156,-6.616613923507134,106.08095626402957,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0157,RandomNeg_0157,-6.37071632957234,113.58593251337781,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0158,RandomNeg_0158,-8.254942219117574,113.16586605596929,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0159,RandomNeg_0159,-7.5651206194310685,108.05190867338601,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0160,RandomNeg_0160,-6.593498052456701,107.2759548740777,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0161,RandomNeg_0161,-8.831373139365791,106.93129788327708,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0162,RandomNeg_0162,-7.948040341526651,113.64352942030287,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0163,RandomNeg_0163,-6.096021598259753,107.79124992721871,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0164,RandomNeg_0164,-7.03970295803788,108.99678384360061,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0165,RandomNeg_0165,-6.054665907125045,110.36215732478722,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0166,RandomNeg_0166,-6.176212293058324,106.15341751851427,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0167,RandomNeg_0167,-6.085838228035539,106.78567816172463,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0168,RandomNeg_0168,-6.1086504842914895,107.65466362522969,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0169,RandomNeg_0169,-6.7872193241071574,108.13677314194992,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0170,RandomNeg_0170,-7.141994325412185,110.11423059669478,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0171,RandomNeg_0171,-7.782933243300292,110.765880434966,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0172,RandomNeg_0172,-8.161304732198113,112.0878528383417,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0173,RandomNeg_0173,-8.895095293165975,114.25575165499083,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0174,RandomNeg_0174,-7.338489208430904,112.19429999144846,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0175,RandomNeg_0175,-6.748344774265519,111.70628504433,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0176,RandomNeg_0176,-7.843757731834334,105.6997381112631,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0177,RandomNeg_0177,-6.973710713757311,108.30200036042596,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0178,RandomNeg_0178,-7.9896446293307575,113.48015279506336,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0179,RandomNeg_0179,-6.812712637259544,108.00322268211264,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0180,RandomNeg_0180,-8.003074479594906,109.08392908619217,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0181,RandomNeg_0181,-7.733038877532599,107.95655202525947,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0182,RandomNeg_0182,-8.530865382728456,109.20446333772908,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0183,RandomNeg_0183,-6.172945354882469,111.77317945272733,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0184,RandomNeg_0184,-6.28186391737551,111.15514915951381,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0185,RandomNeg_0185,-8.02724536375986,110.47937213135698,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0186,RandomNeg_0186,-8.898822774877866,107.86913716868928,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0187,RandomNeg_0187,-7.65332436502948,110.79984781195682,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0188,RandomNeg_0188,-7.001353691261093,109.64988190247014,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0189,RandomNeg_0189,-7.617736582016059,107.137014009891,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0190,RandomNeg_0190,-7.5277600608629545,114.01180825828254,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0191,RandomNeg_0191,-6.591528195632337,106.69691396198054,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0192,RandomNeg_0192,-8.654092943497147,110.15452009915217,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0193,RandomNeg_0193,-7.064471518279193,108.35188255409801,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0194,RandomNeg_0194,-6.526571952843674,112.51138137540732,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0195,RandomNeg_0195,-6.948892555384216,107.24640665997288,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0196,RandomNeg_0196,-8.322523195092929,105.24425387726826,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0197,RandomNeg_0197,-8.189956622172785,109.75136344218805,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0198,RandomNeg_0198,-6.435760685588278,105.72828229184569,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0199,RandomNeg_0199,-7.698121068106614,111.29765380737713,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
+RN0200,RandomNeg_0200,-8.336137813454844,111.96354250490505,random_negative,-1,random_control,auto_generated,Random negative ≥5.0km from any positive site
