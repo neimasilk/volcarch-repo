@@ -66,3 +66,19 @@ Thumbs.db
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# GLOBALISE VOC corpus (multi-GB, regenerable via tools/voc_archnlp downloader)
+# NOTE: first batch (50 raw + 100 clean files, ~113 MB) was committed before this
+# rule and stays tracked; everything new is excluded.
+data/raw/globalise_voc/
+data/processed/globalise_voc/clean_*.txt
+data/processed/globalise_voc/paras_*.txt
+data/normalized/
+
+# E211 bulk extraction outputs (50-125 MB each; regenerable via voc_archnlp extract)
+# Small files kept: ANNOTATION_GUIDE_v1.md, annotation_sample_v1.csv, voc_mentions_high_precision.csv
+results/E211_voc_mentions/voc_archaeological_mentions.csv
+results/E211_voc_mentions/voc_archaeological_mentions.json
+results/E211_voc_mentions/voc_mentions_java_filtered.csv
+results/E211_voc_mentions/voc_mentions_normalized.csv
+results/E211_voc_mentions/voc_mentions_normalized.json
