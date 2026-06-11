@@ -1,7 +1,7 @@
 """
-Cross-Model Hostile Review — DeepSeek API caller
+Cross-Model Critical Review — DeepSeek API caller
 
-Purpose: Break the Claude-Claude echo chamber by running hostile peer review
+Purpose: Break the Claude-Claude echo chamber by running critical peer review
 prompts through a non-Claude model. Addresses Mata Elang #15 §6B.
 
 Usage:
@@ -12,13 +12,13 @@ Usage:
     python tools/cross_model_review.py \\
         --paper papers/P1_taphonomic_framework/submission_jasrep_v3.0.tex \\
         --target P1 \\
-        --out papers/P1_taphonomic_framework/external_reviews/hostile_deepseek_$(date +%Y%m%d).md
+        --out papers/P1_taphonomic_framework/external_reviews/critical_deepseek_$(date +%Y%m%d).md
 
     # Review P0:
     python tools/cross_model_review.py \\
         --paper papers/P0_invisible_civilization/draft_v0.1.tex \\
         --target P0 \\
-        --out papers/P0_invisible_civilization/external_reviews/hostile_deepseek_$(date +%Y%m%d).md
+        --out papers/P0_invisible_civilization/external_reviews/critical_deepseek_$(date +%Y%m%d).md
 
     # Use R1 (reasoning model, ~2x cost, deeper critique):
     python tools/cross_model_review.py --paper ... --model deepseek-reasoner
@@ -41,7 +41,7 @@ import time
 from pathlib import Path
 
 
-HOSTILE_PROMPT_FILE = Path(__file__).parent / "hostile_reviewer_prompt.md"
+CRITICAL_PROMPT_FILE = Path(__file__).parent / "critical_reviewer_prompt.md"
 REPO_ROOT = Path(__file__).parent.parent
 ENV_FILE = REPO_ROOT / ".env"
 
@@ -77,7 +77,7 @@ def extract_prompt(prompt_file: Path, target: str) -> str:
     # Extract main prompt block between first ``` and second ```
     main_match = re.search(r"## The Prompt\s*```\s*(.*?)```", text, re.DOTALL)
     if not main_match:
-        sys.exit("Could not parse main prompt from hostile_reviewer_prompt.md")
+        sys.exit("Could not parse main prompt from critical_reviewer_prompt.md")
     main_prompt = main_match.group(1).strip()
 
     # Extract target-specific addendum
@@ -249,7 +249,7 @@ def format_output(response: dict, paper_path: Path, prompt: str,
     elapsed = response.get("_elapsed_seconds", "?")
 
     header = [
-        f"# Hostile Cross-Model Review — {target} — {model}",
+        f"# Critical Cross-Model Review — {target} — {model}",
         "",
         f"**Paper:** `{paper_path}`",
         f"**Model:** `{model}`",
@@ -266,7 +266,7 @@ def format_output(response: dict, paper_path: Path, prompt: str,
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Cross-model hostile review via DeepSeek API."
+        description="Cross-model critical review via DeepSeek API."
     )
     parser.add_argument("--paper", type=Path, required=True,
                         help="Path to paper source (.tex/.md/.txt).")
@@ -282,8 +282,8 @@ def main() -> None:
                         help="Output markdown file path.")
     parser.add_argument("--max-tokens", type=int, default=8000,
                         help="Max response tokens.")
-    parser.add_argument("--prompt-file", type=Path, default=HOSTILE_PROMPT_FILE,
-                        help="Alternative hostile reviewer prompt file.")
+    parser.add_argument("--prompt-file", type=Path, default=CRITICAL_PROMPT_FILE,
+                        help="Alternative critical reviewer prompt file.")
     args = parser.parse_args()
 
     load_env()

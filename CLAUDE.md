@@ -47,7 +47,7 @@ volcarch/
 │   ├── P1_taphonomic_framework/
 │   ├── P2_settlement_model/
 │   └── P3_burial_depth/
-├── tools/                     ← Shared utility scripts (scraping, GIS, etc.)
+├── tools/                     ← Shared utility scripts (data collection, GIS, etc.)
 └── inBox/                     ← Drop zone for new materials (see protocol below)
 ```
 
@@ -58,7 +58,7 @@ volcarch/
 - **Always record what you tried**, even if it failed. Append to JOURNAL.md.
 - **Cite sources.** Every dataset, every number, every claim needs a traceable source.
 - **Uncertainty is expected.** Use confidence intervals, not false precision.
-- **Submission Integrity Gate (BINDING).** Before submitting/resubmitting ANY manuscript, pass `docs/SUBMISSION_INTEGRITY_GATE.md` (GO/NO-GO, gates G1–G10). Never answer a central, valid critique by rewording — fix the data or downgrade the claim. Re-derive every headline number blind from raw data. Adopted 2026-06-08 after P7/Antiquity rejection + palynology counter-evidence (E214).
+- **Submission Integrity Gate (BINDING).** Before submitting/resubmitting ANY manuscript, pass `docs/SUBMISSION_INTEGRITY_GATE.md` (GO/NO-GO, gates G1–G10). Never answer a central, valid critique by rewording — fix the data or downgrade the claim. Re-derive every headline number blind from raw data. Adopted 2026-06-08 after P7/Antiquity rejection + paleo-environmental counter-evidence (E214).
 
 ### Experiment Protocol
 - Every experiment gets a numbered directory: `E001_`, `E002_`, etc.

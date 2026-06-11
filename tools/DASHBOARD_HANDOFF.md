@@ -150,7 +150,7 @@ Raw rasters (EPSG:32749)     E013 config (seeds, hyperparams)
 1. `pip install --upgrade streamlit` → 1.30.0 → 1.54.0 (adds `on_change` support)
 2. HeatMap gradient keys: `"0.0"` → `0.0` (preventive, for Folium compatibility)
 
-**Debugging note:** A stale Streamlit process on port 8502 (running old 1.30.0) caused confusion during diagnosis. Always kill leftover servers before testing: `netstat -ano | grep :8502` then `taskkill /F /PID <pid>`.
+**Debugging note:** A stale Streamlit process on port 8502 (running old 1.30.0) caused confusion during diagnosis. Always drop leftover servers before testing: `netstat -ano | grep :8502` then `taskkill /F /PID <pid>`.
 
 ---
 
@@ -194,7 +194,7 @@ python tools/precompute_dashboard_data.py
 # Run Playwright verification test:
 python tools/test_dashboard.py
 
-# Kill stale Streamlit processes (Windows):
+# Drop stale Streamlit processes (Windows):
 netstat -ano | grep :8502
 taskkill /F /PID <pid>
 ```

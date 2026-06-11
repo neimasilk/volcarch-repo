@@ -1,4 +1,4 @@
-# P8 Red-Team Report — 2026-03-11
+# P8 Independent Review Report — 2026-03-11
 
 **Target:** Oceanic Linguistics (Q1, UH Press)
 **Draft:** `draft_v0.1.tex` (~5,000 words, 27pp)

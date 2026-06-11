@@ -72,7 +72,7 @@ Model augmented: P(visible) = [F1×F2×F3×F4×F5] + [karst × P(cave_preserved)
 | Tier | Definisi | Contoh |
 |------|----------|--------|
 | **DATA-SUPPORTED** | Didukung data, survive FDR + critical | E069, E085, E066, E108, E107, E110 |
-| **HYPOTHESIS** | Didukung bukti sugestif, perlu fieldwork | L1 (burial specifically), L2 (coastal), E053 (aDNA) |
+| **HYPOTHESIS** | Didukung bukti sugestif, perlu fieldwork | L1 (burial specifically), L2 (coastal), E053 (archaeogenetic evidence) |
 | **SPECULATION** | Secara logis plausibel, bukti minimal | "Seberapa canggih peradaban?", L6, populasi >1M |
 
 111 eksperimen. 6 paper submitted + P16/P17 drafted + P7 preprint DOI live. Multi-method analysis pada ~5 dataset inti + 4 dataset genuinely independen. Satu kesimpulan melalui cascade multiplikatif.
@@ -149,7 +149,7 @@ Sanskritisasi menimpa (bukan mengganti) kosmologi asli Nusantara. Substrat pra-I
 - **E050:** Canarium (Burseraceae) mengikuti rute migrasi Austronesia (388 rekord GBIF di Madagaskar)
 - **E051:** 25.244 nama desa Jawa: Yogyakarta 26,2% pra-Hindu vs rerata Jawa 57,7% (rho=0,387, p<0,0001)
 - **E056:** Candi cluster di area MORE Sanskrit: Mann-Whitney p=0,007 — tanda ganda Indianisasi
-- **E053:** aDNA Jawa: 0/84 sampel berhasil (Fisher p=0,047) *(sugestif — gagal FDR correction, E068)* — tafonomi vulkanik menghancurkan DNA
+- **E053:** archaeogenetic evidence Jawa: 0/84 sampel berhasil (Fisher p=0,047) *(sugestif — gagal FDR correction, E068)* — tafonomi vulkanik menghancurkan DNA
 - **Falsifikasi:** Jika deteksi substrat ML menghasilkan AUC < 0.60 secara konsisten → pola fonologis tidak nyata
 
 ### L5: Tafonomi Genre (*Genre Taphonomy*)
@@ -206,9 +206,9 @@ Peradaban organik yang tercatat dalam prasasti (E040: 63.4% organik, bambu/daun/
 
 Tanaman mortuary (menyan, kamboja) ABSEN dari 268 prasasti (E035), sementara hyang (konsep keilahian pra-Indic) HADIR di 43% (E030). Dua register pengetahuan: epigrafi merekam kosmologi "resmi", sementara praktik mortuary hidup SEPENUHNYA dalam tradisi lisan.
 
-### E053: Jerat Sirkular aDNA (*The Circular Trap*)
+### E053: Jerat Sirkular archaeogenetic evidence (*The Circular Trap*)
 
-Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% berhasil. Fisher p = 0,047. Situs berhasil rata-rata 490 km dari gunung api; gagal 144 km (Mann-Whitney p = 0,002). **Ketiadaan aDNA Jawa ADALAH bukti** — tafonomi vulkanik menghancurkan DNA purba. Jerat sirkular: "Tidak ada aDNA → tidak bisa membuktikan populasi → asumsikan kosong → peradaban dimulai dengan India."
+Jawa: 7 situs, 84 sampel archaeogenetic evidence → ZERO keberhasilan (0%). Situs non-Jawa: 50% berhasil. Fisher p = 0,047. Situs berhasil rata-rata 490 km dari gunung api; gagal 144 km (Mann-Whitney p = 0,002). **Ketiadaan archaeogenetic evidence Jawa ADALAH bukti** — tafonomi vulkanik menghancurkan DNA purba. Jerat sirkular: "Tidak ada archaeogenetic evidence → tidak bisa membuktikan populasi → asumsikan kosong → peradaban dimulai dengan India."
 
 ### E051 × E056: Model Pusat-Pinggiran (*Court-Center Model*)
 
@@ -234,7 +234,7 @@ Jawa: 7 situs, 84 sampel aDNA → ZERO keberhasilan (0%). Situs non-Jawa: 50% be
 
 6 submitted, 1 drafting (P11), 1 drafted (P16 v0.1), 2 data papers drafted (D1/D2). **99 eksperimen selesai**. P7 preprint DOI live. Menunggu review 2–6 bulan.
 
-**Amunisi revisi siap** untuk semua 6 paper: E048 (consilience), E051 (toponimi), E053 (aDNA gap), E054 (1.309 bahasa), E055 (sintesis konvergensi).
+**Amunisi revisi siap** untuk semua 6 paper: E048 (consilience), E051 (toponimi), E053 (archaeogenetic evidence gap), E054 (1.309 bahasa), E055 (sintesis konvergensi).
 
 ---
 

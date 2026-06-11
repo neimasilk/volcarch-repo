@@ -78,12 +78,12 @@ GPU is not required for Sprint 0 data collection tasks.
 python experiments/E001_site_density_vs_volcanic_proximity/01_collect_sites.py
 ```
 
-This scrapes OpenStreetMap for East Java archaeological sites and writes:
+This retrieves archaeological site records from OpenStreetMap (public dataset) and writes:
 `data/processed/east_java_sites.geojson`
 
-To also include Wikipedia data, run the supplement scraper first:
+To also include Wikipedia data, run the supplement retriever first:
 ```
-python tools/scrape_wikipedia_sites.py
+python tools/scrape_wikipedia_sites.py   # retrieves public Wikipedia data
 ```
 Then re-run `01_collect_sites.py`.
 

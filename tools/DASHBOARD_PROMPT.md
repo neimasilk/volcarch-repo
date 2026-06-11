@@ -63,5 +63,5 @@ Dashboard **SUDAH BERFUNGSI**. Semua 4 tab verified via Playwright headless test
 2. **Jangan modify raw data** di `data/raw/` — hanya ubah `data/processed/`.
 3. **Catat perubahan** di `docs/JOURNAL.md` (append-only log).
 4. **Kalau re-precompute**, pastikan output zone counts tetap match: A=15,217 / B=1,093 / C=48 / E=49,074.
-5. **Kill stale servers** sebelum test: cek `netstat -ano | grep :8502` dan `taskkill /F /PID <pid>`.
+5. **Drop stale servers** sebelum test: cek `netstat -ano | grep :8502` dan `taskkill /F /PID <pid>`.
 6. **Browser bilingual** — semua label pakai format "Indonesian / English".

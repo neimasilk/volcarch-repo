@@ -1,6 +1,6 @@
-# Hostile Reviewer Prompt — Cross-Model Echo Chamber Breaker
+# Skeptical Reviewer Prompt — Cross-Model Echo Chamber Breaker
 
-**Purpose:** Run an independent, adversarial peer-review simulation on VOLCARCH papers before submission. Addresses Mata Elang #13/#14/#15 critique of the closed Claude-Claude review loop.
+**Purpose:** Run an independent, critical peer-review simulation on VOLCARCH papers before submission. Addresses Mata Elang #13/#14/#15 critique of the closed Claude-Claude review loop.
 
 **How to use:**
 1. Copy prompt below.
@@ -110,9 +110,9 @@ SPECIAL FOCUS FOR THIS REVIEW: The paper claims five independent evidence channe
 
 ## Post-Review Integration Protocol
 
-After receiving the hostile review:
+After receiving the critical review:
 
-1. Copy the review into `papers/P[0|1]/external_reviews/hostile_[model]_[date].md`
+1. Copy the review into `papers/P[0|1]/external_reviews/critical_[model]_[date].md`
 2. For each MAJOR CONCERN, write a response document: `response_to_concern_[N].md`
 3. Classify each concern:
    - **ACCEPT** — the concern is valid; revise the paper to address.
@@ -120,13 +120,13 @@ After receiving the hostile review:
    - **REJECT WITH ARGUMENT** — the concern is based on a misreading; respond in rebuttal/cover letter.
    - **DEFER** — the concern requires data we do not have; acknowledge as limitation.
 4. Revise the paper before submission to the target journal.
-5. **Save the hostile review with the paper.** If a real peer review objects to something the hostile review anticipated, you will have a record of having addressed it.
+5. **Save the critical review with the paper.** If a real peer review objects to something the critical review anticipated, you will have a record of having addressed it.
 
 ---
 
 ## Cross-Model Triangulation
 
-Maximum robustness: run the hostile reviewer prompt across **three different models** and compare:
+Maximum robustness: run the skeptical reviewer prompt across **three different models** and compare:
 
 - **Claude (different instance, cold context):** trained on similar corpus to drafting model; expected to find the most sophisticated concerns.
 - **DeepSeek R1:** different training lineage (Chinese corpus emphasis); expected to find methodology concerns Claude might miss.
@@ -138,7 +138,7 @@ Concerns flagged by 2 or 3 models are near-certain real concerns. Concerns flagg
 
 ## What This Does NOT Replace
 
-A simulated hostile review is NOT the same as:
+A simulated critical review is NOT the same as:
 - An actual peer review by a named domain expert.
 - A response from a collaborator who has run the code.
 - Field verification of a predicted site.

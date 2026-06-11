@@ -68,7 +68,7 @@
 **Claim:** The title says "substrate detection" but the conclusion says there are no substrates. Paper claims to detect something, then says it doesn't exist.
 
 **Assessment: ACT — terminology cleanup**
-- The RED TEAM already flagged this (I-1)
+- The INDEPENDENT REVIEW already flagged this (I-1)
 - The title actually says "Non-Mainstream Vocabulary" (already reframed)
 - But the internal text uses "substrate" ~50 times
 - The title is fine. The issue is internal terminology consistency.

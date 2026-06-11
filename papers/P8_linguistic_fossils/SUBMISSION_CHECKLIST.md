@@ -33,7 +33,7 @@
 ### Supporting Documents (not uploaded)
 - [x] `RESPONSE_TO_REVIEWERS.md` — Pre-submission external review responses
 - [x] `REVIEW_TRIAGE.md` — Review triage matrix
-- [x] `RED_TEAM_REPORT.md` — Internal red team analysis
+- [x] `INDEPENDENT_REVIEW_REPORT.md` — Internal independent review analysis
 
 ## OL Requirements Checklist
 

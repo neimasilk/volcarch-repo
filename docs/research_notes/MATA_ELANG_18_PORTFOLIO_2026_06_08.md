@@ -36,7 +36,7 @@
 | **P11** Temples w/o villages | under review | **REVISE (downgrade claim)** | LOW-MED | Archipel | **partial**: 9.2km→6.2km not reproduced; E153 used 7-volcano | downgrade "far more extensively settled" (equifinality, E214-refuted); re-derive E153 canonical; fix v0.5/v0.6 |
 | **P9** Peripheral conservatism | draft (rejected JSEAS) | **REVISE (narrow hard)** | LOW-MED | Wacana / DHQ | partial (line-83 footnote imports dead claim) | delete footnote; pick ONE spine; p=0.064→exploratory; cut AI-boast |
 | **P19** Before the inscriptions | **skeleton only** | **DEVELOP** (the single humanities essay) | MED (if human-written) | BKI | none (keep clean) | unblock manual reading; deconflict slametan w/P5 + thesis w/P0 |
-| **P0** Invisible civilization | draft v0.4 | **MAJOR-REWRITE** (don't submit) | 5-10%→35-50% reframed | PCI Archaeology (not JAA) | **Channel 5 non-reproducible** | fix/cut Channel 5; foreground E214/E215; downgrade to peradaban-vulkanik; drop cascade; G10 human red-team |
+| **P0** Invisible civilization | draft v0.4 | **MAJOR-REWRITE** (don't submit) | 5-10%→35-50% reframed | PCI Archaeology (not JAA) | **Channel 5 non-reproducible** | fix/cut Channel 5; foreground E214/E215; downgrade to peradaban-vulkanik; drop cascade; G10 human independent review |
 | **P7** TOM | rejected/parked | **DROP** | ~0 | — | **fatal** | archive FAILED; reframe→P0 only after lithology layer |
 | **P18** Words remember | draft | **DROP standalone** (→ P0) | LOW | — | partial (cascade) | salvage domain-gradient into P0; stop separate dev |
 | P3, P14 | — | DISCONTINUED (confirmed) | — | — | — | — |
@@ -59,7 +59,7 @@
 7. **P1 v5.0** → ARiA after SIG (G4 downgrade + G6 + blind recompute).
 
 **TIER 4 — slow/structural:**
-8. **P0** major-rewrite into a reframed research-agenda paper (+ G10 human red-team) — no longer the near-term priority.
+8. **P0** major-rewrite into a reframed research-agenda paper (+ G10 human independent review) — no longer the near-term priority.
 9. **P5** humanities reframe; **P9** narrow hard; **P19** develop as the single humanities essay (unblock reading).
 
 ---
