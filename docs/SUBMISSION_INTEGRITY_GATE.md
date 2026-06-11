@@ -63,7 +63,7 @@ Structural/central problems (artifact, circularity, equifinality, sampling-on-de
 **Check:** ≥1 critical review by a different model (DeepSeek/Gemini) prompted to REJECT. Each Validity≥1/Centrality=2 critique is either fixed-with-data or the claim is downgraded. (Existing practice — keep it, but note G1–G6 catch what prose-review cannot.)
 **Failure code:** F2–F6 residuals.
 
-### G10 — Human domain red-team (recommended, ≤ $100)
+### G10 — Human domain independent review (recommended, ≤ $100)
 **Check (for the flagship / masterpiece):** one human geoarchaeologist/archaeologist audits the central claims. Optional for minor notes; **required before P0/masterpiece submission.**
 **Why:** the missing role in the collaboration (ME#17 §5). A domain human catches F1/F4 the AI+author pair miss.
 
@@ -71,6 +71,11 @@ Structural/central problems (artifact, circularity, equifinality, sampling-on-de
 
 ## Failure taxonomy (for classifying any caught problem)
 F1 domain-fact · F2 shared-substrate artifact · F3 circular construction · F4 equifinal interpretation · F5 scope-creep · F6 overstatement · F7 non-reproducible · R1 confirmation-seeking.
+
+**Added ME#19 (2026-06-10) — process/strategy failure modes (not paper-internal, but they drop the program):**
+- **F8 non-exposure / controlled isolation** — detect: "In the last 30 days, did any artifact reach an external judge (journal/supervisor/reviewer) for a binding decision?" If no while internal output is high → RED. The AI–PI loop optimizes for internal coherence and lacks finality; only external review supplies it.
+- **F9 correlated-channel convergence** — detect: for every "N independent channels converge" claim, name the shared latent variable (landscape prior, elite-textual bias, population-continuity assumption); if one exists, discount the convergence. Multiplying likelihoods with shared hidden variables inflates confidence without truth.
+- **F10 interpretive elasticity** — detect: "What result would have updated the central frame *against* the thesis?" If no such result is specifiable, the frame is not a theory and may not be cited as evidence/prior. Applies to the manifesto.
 
 ## Worked examples (this session)
 - **P7 (Antiquity):** G1 RED (distance artifact), G2 RED ("all four", Sangiran), G4 RED (Zone B circular), G5 RED (equifinality). → correctly NO-GO. Should never have been submitted.
@@ -89,7 +94,7 @@ G6 counter-evidence: [ ]  independent channel(s) tested:
 G7 reproducibility: [ ]  regen script:
 G8 overstatement: [ ]
 G9 cross-model: [ ]  reviewer + verdict:
-G10 human red-team: [GREEN/RED/N/A]
+G10 human independent review: [GREEN/RED/N/A]
 Downgrades made to pass: <list>
 DECISION: GO / NO-GO
 ```
