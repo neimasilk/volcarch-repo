@@ -116,3 +116,18 @@ Entrance orientation is determined by **religious convention** (East = Hindu sta
 ## Conclusion
 
 **SUCCESS (split result).** Candi siting is strongly non-random relative to volcanoes (west-clustering, p < 0.0001), but entrance orientation follows religious convention, not volcanic direction (35%, p = 0.94). The siting pattern is consistent with volcanic taphonomic selection (western slopes = less burial) but confounded by population geography. A dedicated study with complete orientation data could resolve the population confound.
+
+## RE-RUN 2026-06-10 — canonical 30-volcano inventory (ME#18 integrity sweep)
+
+The original run used dashboard `volcanoes.csv` (7 eastern E. Java peaks) + 9 hardcoded = 16 volcanoes — the truncated-inventory class of error that killed P7's headline. Re-run with canonical `volcanoes_java_full.csv` (30 peaks): `e031_rerun_canonical30.py`, outputs in `results/canonical30/`.
+
+**Verdict: findings SURVIVE.**
+
+| Metric | 16-volcano (orig) | Canonical 30 |
+|---|---|---|
+| Distance mean / median (km) | 16.5 / 14.6 | 16.1 / 14.5 |
+| Azimuthal clustering R (Rayleigh p) | 0.348 (~0) | 0.380 (1.2e-9) |
+| Quadrant chi2 (p) | 54.7 (<1e-4) | 46.1 (<1e-4) |
+| Entrance faces volcano | 7/20 (35%), p=0.94 | 7/20 (35%), p=0.94 |
+
+West-clustering slightly strengthens; orientation null result identical. Conclusion unchanged.

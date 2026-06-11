@@ -1,0 +1,42 @@
+{
+  "experiment": "E082_inscription_georeferencing (canonical-30 re-run, 2026-06-10)",
+  "volcano_inventory": "volcanoes_java_full.csv (30) + Agung/Batur (Bali); Krakatau dropped",
+  "n_geocoded_reused": 182,
+  "java_bali_subset": 175,
+  "distance_stats": {
+    "java_mean": 22.2,
+    "java_median": 27.6
+  },
+  "zone_distribution": {
+    "zone_A_0_10km": 23,
+    "zone_B_10_30km": 120,
+    "zone_C_gt_30km": 32
+  },
+  "candi_comparison": {
+    "candi_mean": 16.1,
+    "candi_median": 14.5,
+    "inscription_mean": 22.2,
+    "inscription_median": 27.6,
+    "mean_gap_km": 6.1,
+    "median_gap_km": 13.1,
+    "mean_gap_bootstrap_ci95": [
+      3.2,
+      9.1
+    ],
+    "mannwhitney_p": 2.791246091186252e-07,
+    "p11_cited_value_old_inventory": 9.2
+  },
+  "century_mean_distances": {
+    "C8": 18.2,
+    "C9": 12.9,
+    "C10": 17.6,
+    "C11": 32.0,
+    "C12": 35.3,
+    "C13": 24.1,
+    "C14": 27.6
+  },
+  "century_spearman": {
+    "rho": 0.607,
+    "p": 0.1482
+  }
+}

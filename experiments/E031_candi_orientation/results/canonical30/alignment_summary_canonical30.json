@@ -1,0 +1,30 @@
+{
+  "experiment": "E031_candi_orientation (canonical-30 re-run, 2026-06-10)",
+  "volcano_inventory": "data/processed/dashboard/volcanoes_java_full.csv",
+  "n_candi_geocoded": 142,
+  "n_candi_with_orientation": 20,
+  "n_volcanoes": 30,
+  "siting_analysis": {
+    "distance_mean_km": 16.1,
+    "distance_median_km": 14.5,
+    "pct_within_10km": 45.1,
+    "rayleigh_R": 0.3802,
+    "rayleigh_p": 1.217138591886196e-09,
+    "quadrant_counts": {
+      "N": 34,
+      "E": 13,
+      "S": 27,
+      "W": 68
+    },
+    "quadrant_chi2": 46.11,
+    "quadrant_p": 0.0
+  },
+  "orientation_analysis": {
+    "faces_volcano_count": 7,
+    "total": 20,
+    "pct_faces_volcano": 35.0,
+    "binomial_p": 0.9423,
+    "mean_angular_diff": 95.1,
+    "median_angular_diff": 102.0
+  }
+}

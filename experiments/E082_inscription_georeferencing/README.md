@@ -86,3 +86,19 @@ Successfully geocoded 182/268 inscriptions (68%), far exceeding the 50-inscripti
 - `results/geocoding_summary.txt` — Summary statistics
 - `results/volcanic_proximity_analysis.txt` — Detailed proximity analysis
 - `results/e082_results.json` — Machine-readable results
+
+## RE-RUN 2026-06-10 — canonical 30-volcano inventory (ME#18 integrity sweep)
+
+Original used 20 hardcoded volcanoes (missing most W./C. Java peaks; included Krakatau, which absorbed Sumatran outliers). Re-run: `e082_rerun_canonical30.py` — reuses the geocoding (`geocoded_inscriptions.csv`), recomputes distances with `volcanoes_java_full.csv` (30) + Agung/Batur for Bali; Krakatau dropped. Outputs in `results/canonical30/`.
+
+**Verdict: direction & significance SURVIVE; magnitude shrinks.**
+
+| Metric | 20-volcano (orig) | Canonical 30 |
+|---|---|---|
+| Java/Bali mean / median (km) | 25.5 / 27.6 | 22.2 / 27.6 |
+| Zone A / B / C | 22 / 115 / 38 | 23 / 120 / 32 |
+| Candi-vs-inscription mean gap | 9.2 km (CI 5.5–12.7) | **6.1 km (CI 3.2–9.1)** |
+| Mann-Whitney p | 5.2e-8 | 2.8e-7 |
+| Century Spearman | rho=0.643, n.s. | rho=0.607, p=0.148, n.s. |
+
+**Propagation: P11 cites "9.2 km" (abstract + §Test 3) → must be corrected to 6.1 km (CI 3.2–9.1, p=2.8e-7) at revision.** P17's median segregation figures (14.5 vs 27.6 km) match the canonical numbers exactly — already consistent.

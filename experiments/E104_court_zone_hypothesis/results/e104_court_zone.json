@@ -1,8 +1,17 @@
 {
   "meta": {
     "experiment": "E104",
-    "date": "2026-03-17"
+    "date": "2026-03-17",
+    "clean_rebuild_2026_06_08": {
+      "note": "Original run was non-reproducible (candi:0 below) and used inconsistent volcano lists. Rebuilt via rebuild_clean_full_inventory.py with canonical 30-volcano inventory + Java filter.",
+      "candi_median_km": 14.5,
+      "inscription_median_km": 27.6,
+      "mannwhitney_p": 1.53e-07,
+      "region_matched_p": 9.85e-04,
+      "verdict": "SEGREGATION SURVIVES — candi closer than inscriptions, robust to inventory and region-matching. P17 claim verified."
+    }
   },
+  "_original_below_candi_field_was_never_populated": true,
   "distribution": {
     "0-10km": {
       "candi": 0,

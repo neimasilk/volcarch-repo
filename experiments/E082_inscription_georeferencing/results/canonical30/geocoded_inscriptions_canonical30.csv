@@ -1,0 +1,176 @@
+filename,title,lang,date_ce,century,lat,lon,geocode_method,confidence,geocode_note,nearest_volcano,volcano_dist_km,nearest_volcano_c30,volcano_dist_km_c30
+DHARMA_INSIDENK00186.xml,"Makara of Candi Kedaton (N. 186), 10/11th c. CE",kaw-Latn,,,-7.4853909,112.726104,candi_match,medium,Matched candi: candi,Penanggungan,17.3,Penanggungan,18.337396692690415
+DHARMA_INSIDENK00388.xml,"Silver vase of the deity at Dieng, early 10th c. CE",kaw-Latn,,,-7.21,109.92,known_location,high,Dieng Plateau,Dieng,1.11,Dieng,1.1119492664455637
+DHARMA_INSIDENK00526.xml,Kamalagyan charter (959 Śaka),kaw-Latn,1037.0,11.0,-7.55,112.39,known_location,medium,Trowulan area,Penanggungan,25.95,Penanggungan,27.5746415703154
+DHARMA_INSIDENKAdanAdan.xml,Adan-Adan (1223 Śaka),kaw-Latn,1301.0,14.0,-7.8,112.01,known_location,medium,Kediri area,Kelud,36.07,Wilis,27.775847962526772
+DHARMA_INSIDENKAirAsih.xml,Air Asih (between 1177 and 1208 Śaka),kaw-Latn,1286.0,13.0,-7.8,112.01,known_location,medium,Kediri area,Kelud,36.07,Wilis,27.775847962526772
+DHARMA_INSIDENKAirKali.xml,Air Kali (849-850 Śaka),kaw-Latn,928.0,10.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKAmoghapasaPlaqueTropenmuseum.xml,Singasari Amoghapāśa plaque Tropenmuseum,san-Latn,,,-7.89,112.65,known_location,high,"Singasari, Malang",Arjuno,18.98,Arjuno-Welirang,19.717008360413857
+DHARMA_INSIDENKAyamTeas_I.xml,Ayam Teas I (822 Śaka),kaw-Latn,900.0,9.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKAyamTeas_II.xml,Charter of Ayam Teas II,kaw-Latn,,,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKAyamTeas_III.xml,"Charter of Ayam Teas III (822 Śaka, 901-01-01)",kaw-Latn,900.0,9.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKBarahasrama.xml,"Barahasrama (837 Śaka, 915-12-14)",kaw-Latn,915.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKBatur.xml,Batur,kaw-Latn,,,-8.24,115.37,known_location,medium,"Batur, Bali",Batur,0.0,Batur,0.5934764124093873
+DHARMA_INSIDENKBatutulis.xml,Batutulis,osn-Latn,,,-6.61,106.8,known_location,high,"Bogor, West Java",Tangkubanperahu,89.91,Salak,13.63135872171528
+DHARMA_INSIDENKBhatari.xml,"Bhatari (829 Śaka, 907-10-07)",,907.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKBorobudurHB021.xml,"Relief label from Borobudur's hidden base, no. 21 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB024.xml,"Relief label from Borobudur's hidden base, no. 24",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB029.xml,"Relief label from Borobudur's hidden base, no. 29",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB043.xml,"Relief label from Borobudur's hidden base, no. 43 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB121A.xml,"Relief label from Borobudur's hidden base, no. 121A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB121B.xml,"Relief label from Borobudur's hidden base, no. 121B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB122.xml,"Relief label from Borobudur's hidden base, no. 122 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB123.xml,"Relief label from Borobudur's hidden base, no. 123 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB124A.xml,"Relief label from Borobudur's hidden base, no. 124A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB124B.xml,"Relief label from Borobudur's hidden base, no. 124B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB125A.xml,"Relief label from Borobudur's hidden base, no. 125A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB125B.xml,"Relief label from Borobudur's hidden base, no. 125B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB126A.xml,"Relief label from Borobudur's hidden base, no. 126A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB126B.xml,"Relief label from Borobudur's hidden base, no. 126B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB127A.xml,"Relief label from Borobudur's hidden base, no. 127A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB127B.xml,"Relief label from Borobudur's hidden base, no. 127B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB128.xml,"Relief label from Borobudur's hidden base, no. 128 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB129.xml,"Relief label from Borobudur's hidden base, no. 129 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB130.xml,"Relief label from Borobudur's hidden base, no. 130 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB131A.xml,"Relief label from Borobudur's hidden base, no. 131A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB131B.xml,"Relief label from Borobudur's hidden base, no. 131B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB132.xml,"Relief label from Borobudur's hidden base, no. 132 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB133.xml,"Relief label from Borobudur's hidden base, no. 133 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB134A.xml,"Relief label from Borobudur's hidden base, no. 134A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB134B.xml,"Relief label from Borobudur's hidden base, no. 134B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB135A.xml,"Relief label from Borobudur's hidden base, no. 135A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB135B.xml,"Relief label from Borobudur's hidden base, no. 135B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB137.xml,"Relief label from Borobudur's hidden base, no. 137 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB138A.xml,"Relief label from Borobudur's hidden base, no. 138A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB138B.xml,"Relief label from Borobudur's hidden base, no. 138B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB139.xml,"Relief label from Borobudur's hidden base, no. 139 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB140.xml,"Relief label from Borobudur's hidden base, no. 140 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB141.xml,"Relief label from Borobudur's hidden base, no. 141 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB142.xml,"Relief label from Borobudur's hidden base, no. 142 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB144.xml,"Relief label from Borobudur's hidden base, no. 144 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB147.xml,"Relief label from Borobudur's hidden base, no. 147 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB148A.xml,"Relief label from Borobudur's hidden base, no. 148A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB148B.xml,"Relief label from Borobudur's hidden base, no. 148B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB149.xml,"Relief label from Borobudur's hidden base, no. 149 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB150A.xml,"Relief label from Borobudur's hidden base, no. 150A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB150B.xml,"Relief label from Borobudur's hidden base, no. 150B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB151.xml,"Relief label from Borobudur's hidden base, no. 151 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB152A.xml,"Relief label from Borobudur's hidden base, no. 152A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB152B.xml,"Relief label from Borobudur's hidden base, no. 152B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB153A.xml,"Relief label from Borobudur's hidden base, no. 153A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB153B.xml,"Relief label from Borobudur's hidden base, no. 153B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB154A.xml,"Relief label from Borobudur's hidden base, no. 154A (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB154B.xml,"Relief label from Borobudur's hidden base, no. 154B (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB154C.xml,"Relief label from Borobudur's hidden base, no. 154C (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBorobudurHB157.xml,"Relief label from Borobudur's hidden base, no. 157 (8th c. CE)",san-Latn,,,-7.61,110.2,known_location,high,"Borobudur, Magelang",Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKBromoSemeru2.xml,Bromo Semeru 2,kaw-Latn,,,-7.94,112.95,known_location,high,Bromo-Semeru area,Bromo,0.0,Bromo-Tengger,0.22238985328909297
+DHARMA_INSIDENKBromoSemeru4.xml,Bromo Semeru 4,kaw-Latn,,,-7.94,112.95,known_location,high,Bromo-Semeru area,Bromo,0.0,Bromo-Tengger,0.22238985328909297
+DHARMA_INSIDENKBromoSemeru6.xml,Bromo Semeru 6,kaw-Latn,,,-7.94,112.95,known_location,high,Bromo-Semeru area,Bromo,0.0,Bromo-Tengger,0.22238985328909297
+DHARMA_INSIDENKBukateja.xml,Embossed Image of Śiva in Gold Leaf from Central Java (8th c. CE),omy-Latn,,,-7.6,110.35,known_location,low,Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKBularut.xml,Bularut charter (964 Śaka),kaw-Latn,1042.0,11.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKCanggal.xml,The stela of Canggal or Gunung Wukir (654 Śaka),san-Latn,732.0,8.0,-7.6,110.3,known_location,high,"Gunung Wukir, Magelang",Merapi,16.81,Merapi,17.37881574367825
+DHARMA_INSIDENKCanggu.xml,Canggu inscription,kaw-Latn,,,-7.47,112.65,known_location,medium,Sidoarjo/Surabaya area,Penanggungan,14.83,Penanggungan,16.824311761123898
+DHARMA_INSIDENKDalinan.xml,"Charter for the demarcation of Wukajana, Tumpak & Wuru Telu villages for the monastery at Dalinan (825 Śaka, 5 March 904)",kaw-Latn,903.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKDawangsari.xml,"A poem in honor of Gaṇeśa found at Dawangsari, 9th c. CE",kaw-Latn,,,-7.77,110.49,known_location,medium,Prambanan area,Merapi,26.16,Merapi,25.92121406084278
+DHARMA_INSIDENKdevadravya.xml,Inventory of a Śaiva temple at Dieng (9th c. CE),omy-Latn,,,-7.21,109.92,known_location,high,Dieng Plateau,Dieng,1.11,Dieng,1.1119492664455637
+DHARMA_INSIDENKDinoyoIIa.xml,Two connected charters on a stone from Dinoyo (772 and 786 Śaka),kaw-Latn,864.0,9.0,-7.97,112.63,known_location,high,"Dinoyo, Malang",Arjuno,27.05,Kawi-Butak,20.58787833109346
+DHARMA_INSIDENKGajahMada.xml,Gajah Mada's foundation of a caitya (1351-04-27),kaw-Latn,,,-7.55,112.39,known_location,medium,Trowulan/Majapahit area,Penanggungan,25.95,Penanggungan,27.5746415703154
+DHARMA_INSIDENKGandasuli.xml,Gandasuli (early 8th century CE),omy-Latn,,,-7.28,110.4,known_location,high,"Temanggung, Central Java",Merbabu,19.41,Telomoyo,10.00754339801027
+DHARMA_INSIDENKGarung.xml,Garung,kaw-Latn,,,-7.35,109.95,known_location,medium,Near Dieng,Sindoro,7.1,Sundoro,7.23649631282921
+DHARMA_INSIDENKGondangLor.xml,Akṣobhya Statue from Gondang Lor (11th or 12th c. CE),san-Latn,,,-7.5,112.0,known_location,medium,East Java,Kelud,58.76,Wilis,43.40719295978015
+DHARMA_INSIDENKGulungGulung.xml,Gulung-Gulung (851 Śaka),kaw-Latn,929.0,10.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKHampran.xml,Gift of Hampran village (674 Śaka),,752.0,8.0,-7.58,110.4,known_location,medium,Kedu Plain,Merapi,6.26,Merapi,6.672037394484059
+DHARMA_INSIDENKHering.xml,Charter of Hering (870 Śaka),san-Latn,948.0,10.0,-7.6,112.0,known_location,medium,"East Java, Brantas area",Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKHimadvalandit.xml,Himad Walandit,kaw-Latn,,,-7.58,112.55,known_location,medium,Penanggungan area,Penanggungan,8.03,Penanggungan,9.875745027582164
+DHARMA_INSIDENKHorren.xml,"Charter of Horren, ca. 975 Śaka",kaw-Latn,1053.0,11.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKHuludayeuh.xml,Huludayeuh,osn-Latn,,,-6.72,107.37,known_location,medium,Bogor area,Tangkubanperahu,25.78,Tangkubanparahu,25.999232722232257
+DHARMA_INSIDENKHumanding.xml,The Polengan plates: Humanding charter (797 Śaka),kaw-Latn,875.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area (Polengan),Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKJeruJeru.xml,Jeru-Jeru (852 Śaka),kaw-Latn,930.0,10.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKJragung.xml,Jragung,san-Latn,,,-7.6,110.35,known_location,low,Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKJurungan.xml,The Polengan plates: Jurungan charter (798 Śaka),kaw-Latn,876.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area (Polengan),Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKKalasan.xml,Kalasan,san-Latn,,,-7.77,110.47,known_location,high,"Candi Kalasan, Sleman",Merapi,25.79,Merapi,25.600631153727445
+DHARMA_INSIDENKKanjuruhan.xml,The Kanjuruhan Charter (682 Śaka),san-Latn,760.0,8.0,-7.97,112.63,known_location,high,Malang area,Arjuno,27.05,Kawi-Butak,20.58787833109346
+DHARMA_INSIDENKKarangloMojokerto.xml,Karang Lo (1019 Śaka),kaw-Latn,1097.0,11.0,-7.47,112.65,known_location,medium,Mojokerto area,Penanggungan,14.83,Penanggungan,16.824311761123898
+DHARMA_INSIDENKKasugihan.xml,"Kasugihan (829 Śaka, 907-11-18)",kaw-Latn,907.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKKawali_1a.xml,Kawali I (a),osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKawali_1b.xml,Kawali I (b),osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKawali_2.xml,Kawali 2,osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKawali_3.xml,Kawali 3,osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKawali_4.xml,Kawali 4,osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKawali_5.xml,Kawali 5,osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKawali_6.xml,Kawali VI,osn-Latn,,,-7.19,108.36,known_location,high,"Ciamis, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKKayuAraHiwang.xml,Kayu Ara Hiwang (823 Śaka),kaw-Latn,901.0,10.0,-7.6,110.35,xml_provenance,medium,XML hint: found in Sugih Manek from Malang.,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKKayumwungan.xml,Kayumwungan charter of the Veṇuvanavihāra (746 Śaka),kaw-Latn,824.0,9.0,-7.58,110.4,known_location,high,Kedu Plain (Karang Tengah),Merapi,6.26,Merapi,6.672037394484059
+DHARMA_INSIDENKKebantenan_1.xml,Kebantenan 1,osn-Latn,,,-6.38,107.0,known_location,high,"Bekasi, West Java",Tangkubanperahu,78.6,Gede-Pangrango,45.310225811995416
+DHARMA_INSIDENKKebantenan_2.xml,Kebantenan 2,osn-Latn,,,-6.38,107.0,known_location,high,"Bekasi, West Java",Tangkubanperahu,78.6,Gede-Pangrango,45.310225811995416
+DHARMA_INSIDENKKebantenan_3.xml,Kebantenan 3,osn-Latn,,,-6.38,107.0,known_location,high,"Bekasi, West Java",Tangkubanperahu,78.6,Gede-Pangrango,45.310225811995416
+DHARMA_INSIDENKKebantenan_4.xml,Kebantenan 4,osn-Latn,,,-6.38,107.0,known_location,high,"Bekasi, West Java",Tangkubanperahu,78.6,Gede-Pangrango,45.310225811995416
+DHARMA_INSIDENKKinewu.xml,Kinewu (829 Śaka – 907-11-20),,907.0,10.0,-7.93,112.31,known_location,medium,"Near Kelud, Blitar",Kelud,0.0,Kelud,0.22026321955283346
+DHARMA_INSIDENKKubu-Kubu.xml,"Kubu-Kubu (827 Ś, 905-10-17)",kaw-Latn,,,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKKurungan.xml,Kurungan (Randusari II),kaw-Latn,,,-7.9418671,112.6317556,candi_match,medium,Matched candi: sari,Arjuno,24.0,Kawi-Butak,20.164130928051865
+DHARMA_INSIDENKKusambyan.xml,Kusambyan charter (945 Śaka),kaw-Latn,1023.0,11.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKLinggasuntan.xml,Linggasuntan (851 Śaka),kaw-Latn,929.0,10.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKLinggawangi.xml,Linggawangi,osn-Latn,,,-7.19,108.36,known_location,medium,"Ciamis area, West Java",Galunggung,33.76,Ciremai,33.42881896118726
+DHARMA_INSIDENKLintakan.xml,"Lintakan (841 Śaka, 919-07-12)",kaw-Latn,919.0,10.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKLurah.xml,Lurah (E. 14),,,,-7.613422,112.6118635,candi_match,medium,Matched candi: lurah,Penanggungan,1.74,Penanggungan,2.128515832769061
+DHARMA_INSIDENKMadhawapura.xml,Madhawapura (13th c. CE),kaw-Latn,,,-7.6115047,112.6106941,candi_match,medium,Matched candi: pura,Penanggungan,1.64,Penanggungan,2.3280444854051057
+DHARMA_INSIDENKMamali.xml,The Polengan plates: Mamali Charter (800 Śaka),kaw-Latn,878.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area (Polengan),Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKManahimanuk.xml,Manah i Manuk Charter (1350–1356 CE),kaw-Latn,1356.0,14.0,-7.55,112.39,known_location,medium,Majapahit area,Penanggungan,25.95,Penanggungan,27.5746415703154
+DHARMA_INSIDENKManjusrigerha.xml,Manjusrigerha (792 CE),omy-Latn,792.0,8.0,-7.61,110.2,known_location,medium,Kedu area,Merapi,27.58,Merapi,28.179794391320918
+DHARMA_INSIDENKMantyasihI.xml,The Charter of Mantyasih I,kaw-Latn,,,-7.47,110.18,known_location,high,"Magelang, Kedu",Sumbing,15.72,Sumbing,15.445219451666702
+DHARMA_INSIDENKMantyasihII.xml,"Mantyasih II (829 Śaka, 907-04-11)",kaw-Latn,907.0,10.0,-7.47,110.18,known_location,high,"Magelang, Kedu",Sumbing,15.72,Sumbing,15.445219451666702
+DHARMA_INSIDENKMantyasihIII.xml,The Charter of Mantyasih III,kaw-Latn,,,-7.47,110.18,known_location,high,"Magelang, Kedu",Sumbing,15.72,Sumbing,15.445219451666702
+DHARMA_INSIDENKMaribong.xml,The Maribong Charter of Wisnuwardhana (1170 Śaka),kaw-Latn,1248.0,13.0,-8.0,112.5,known_location,medium,Malang area,Kelud,22.32,Kawi-Butak,10.461815669920975
+DHARMA_INSIDENKMasahar.xml,Charter of Masahar (852 Śaka),kaw-Latn,930.0,10.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKMula-Malurung.xml,Mula-Malurung,kaw-Latn,,,-8.05,112.45,known_location,medium,Malang area,Kelud,20.39,Kawi-Butak,14.455340463792723
+DHARMA_INSIDENKMunggut.xml,Munggut charter (944 Śaka),kaw-Latn,1022.0,11.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKNarasinghanagara.xml,Narasinghanagara,kaw-Latn,,,-7.6138526,112.6106987,candi_match,medium,Matched candi: naga,Penanggungan,1.85,Penanggungan,2.2343967979434036
+DHARMA_INSIDENKNglumbangDungik.xml,Stone from Nglumbang Dungik (9th-10th c. CE),san-Latn,,,-7.6,112.0,known_location,low,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKPakisWetan.xml,The Pakis Wetan Charter of Kertanagara (1188 Śaka),kaw-Latn,1266.0,13.0,-8.02,112.65,known_location,medium,Malang area,Semeru,31.37,Kawi-Butak,24.671993118131176
+DHARMA_INSIDENKPalepangan.xml,Palepangan charter (828 Śaka),kaw-Latn,906.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKPananggaran.xml,Pananggaran (791 Śaka),kaw-Latn,869.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKPanunggalan.xml,"Panunggalan charter (818 Śaka, 896-08-15 CE)",kaw-Latn,896.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKParablyan.xml,Parablyan (between 1177 and 1208 Śaka),kaw-Latn,1286.0,13.0,-7.8,112.01,known_location,medium,Kediri area,Kelud,36.07,Wilis,27.775847962526772
+DHARMA_INSIDENKPenampihan.xml,Penampihan,,,,-7.9027228,111.7952694,candi_match,medium,Matched candi: penampihan,Kelud,56.77,Wilis,11.304467359339712
+DHARMA_INSIDENKPlalangan.xml,Stone from Plalangan (9th-10th c. CE),san-Latn,,,-7.6,110.35,known_location,low,Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKPoh.xml,Charter of Poh (Randusari I),kaw-Latn,,,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKPucangan.xml,Charter of Pucangan (1041-11-6),kaw-Latn,,,-7.52,111.6,known_location,high,Surabaya area,Lawu,46.82,Wilis,36.451579546807395
+DHARMA_INSIDENKRabvan.xml,"Rabvan (827 Śaka, 906-02-03)",,905.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKRameswarapura.xml,Rameswarapura charter (1197 Śaka),kaw-Latn,1275.0,13.0,-7.55,112.39,known_location,medium,Majapahit area,Penanggungan,25.95,Penanggungan,27.5746415703154
+DHARMA_INSIDENKRukam.xml,Charter of Rukam (829 Śaka),kaw-Latn,907.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKRumwigaI.xml,"Rumwiga I (826 Śaka, 904-12-28)",,904.0,10.0,-7.75,110.4,known_location,medium,Bantul area (Payak),Merapi,23.76,Merapi,23.78624088375595
+DHARMA_INSIDENKRumwigaII.xml,"Rumwiga II (827 Śaka, 905-07-05)",,905.0,10.0,-7.75,110.4,known_location,medium,Bantul area (Payak),Merapi,23.76,Merapi,23.78624088375595
+DHARMA_INSIDENKSalingsinganII.xml,Donation Record of Salingsingan II (802 Śaka) and Kikil Batu Addendum (827 Śaka),kaw-Latn,880.0,9.0,-7.6,110.35,known_location,medium,Near Candi Asu/Lumbung,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKSangguran.xml,Sangguran Charter (928-08-02),kaw-Latn,,,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKSangHyangTapak.xml,Sang Hyang Tapak Charter of Jayabhūpati (952 Śaka),kaw-Latn,1030.0,11.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKSangMakudur.xml,"Sang Makudur (~830 Śaka, ~908 CE)",,908.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKSarwadharma.xml,Sarwadharma (1191 Śaka),kaw-Latn,1269.0,13.0,-7.55,112.4,known_location,high,East Java,Penanggungan,24.88,Penanggungan,26.519070558611403
+DHARMA_INSIDENKSatyapura.xml,Satyapura,kaw-Latn,,,-7.6115047,112.6106941,candi_match,medium,Matched candi: pura,Penanggungan,1.64,Penanggungan,2.3280444854051057
+DHARMA_INSIDENKSilamanikundala.xml,Foundation of a Dam Called Śilāmaṇi-kuṇḍala (1272 Śaka),kaw-Latn,1350.0,14.0,-7.55,112.39,known_location,medium,Majapahit area,Penanggungan,25.95,Penanggungan,27.5746415703154
+DHARMA_INSIDENKSimaAnglayang.xml,Sima Anglayang charter (in or after 968 Śaka),kaw-Latn,1046.0,11.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKSindoro-PuBahut.xml,Pu Bahut (828 Śaka),kaw-Latn,906.0,10.0,-7.3,109.99,known_location,medium,Near Sindoro volcano,Sindoro,0.0,Sundoro,0.22058725956676015
+DHARMA_INSIDENKSindoro-PuMamruk.xml,Pu Mamruk (828 Śaka),kaw-Latn,906.0,10.0,-7.3,109.99,known_location,medium,Near Sindoro volcano,Sindoro,0.0,Sundoro,0.22058725956676015
+DHARMA_INSIDENKSojomerto.xml,Sojomerto (7th or 8th century CE),omy-Latn,,,-7.1,109.75,known_location,high,"Batang, Central Java",Dieng,23.02,Dieng,21.80449140133201
+DHARMA_INSIDENKSugihManek.xml,"Sugih Manek Charter (837 Śaka, 915-09-13)",kaw-Latn,915.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKSukhamerta.xml,Sukhamerta,kaw-Latn,,,-7.58,112.55,known_location,medium,Penanggungan area,Penanggungan,8.03,Penanggungan,9.875745027582164
+DHARMA_INSIDENKTaji.xml,"The Charter of Taji (823 Śaka, 8 April 901)",kaw-Latn,901.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKTajiGunung.xml,"Taji Gunung (Sañjaya 194, 910-12-21)",kaw-Latn,,,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKTalan.xml,Charter of Talan (941 and 1058 Śaka),kaw-Latn,1136.0,12.0,-7.6,112.0,known_location,medium,East Java,Kelud,50.13,Wilis,35.29900196463691
+DHARMA_INSIDENKTaragal.xml,The Polengan plates: Taragal Charter (802 Śaka),kaw-Latn,880.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area (Polengan),Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKTerep_I.xml,Terep I,kaw-Latn,,,-7.58,112.55,known_location,medium,Penanggungan area,Penanggungan,8.03,Penanggungan,9.875745027582164
+DHARMA_INSIDENKTerep_II.xml,Terep II,kaw-Latn,,,-7.58,112.55,known_location,medium,Penanggungan area,Penanggungan,8.03,Penanggungan,9.875745027582164
+DHARMA_INSIDENKTigaRon-TluRon.xml,Charter of Tiga Ron also called Təlu Ron (822 Śaka – 900-03-30),kaw-Latn,900.0,9.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKTihang.xml,"Tihang charter (Sañjaya 198, 836 Śaka, 914-11-08 CE)",kaw-Latn,914.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKTugu.xml,Tugu Boulder Inscription of Pūrṇavarman (ca. 6th c. CE),san-Latn,,,-6.15,106.94,known_location,high,"Tugu, North Jakarta",Tangkubanperahu,99.59,Salak,66.7769220867516
+DHARMA_INSIDENKTukMas.xml,Praise of a mountain stream (mid-7th c. CE),san-Latn,,,-7.25,110.35,known_location,high,"Temanggung, Central Java",Merbabu,24.35,Ungaran,8.090292923550491
+DHARMA_INSIDENKTulangan.xml,"Tulangan (832 Śaka, 910-08-13)",,910.0,10.0,-7.47,112.65,known_location,medium,"Tulangan, Sidoarjo",Penanggungan,14.83,Penanggungan,16.824311761123898
+DHARMA_INSIDENKTunahan.xml,The Polengan plates: Tunahan Charter (794 Śaka),kaw-Latn,872.0,9.0,-7.6,110.35,known_location,medium,Kedu-Prambanan area (Polengan),Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKTuruMangambil.xml,"Turu Mangambil (~830 Śaka, ~908 CE)",,908.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKWalanditA.xml,Walandit A,kaw-Latn,,,-7.58,112.55,known_location,medium,Penanggungan area,Penanggungan,8.03,Penanggungan,9.875745027582164
+DHARMA_INSIDENKWanuaTengahIII.xml,Wanua Tengah III,kaw-Latn,,,-7.58,110.4,known_location,high,Kedu Plain,Merapi,6.26,Merapi,6.672037394484059
+DHARMA_INSIDENKWatuGenuk.xml,Watu Genuk slab (8th c. CE),san-Latn,,,-7.6,110.35,known_location,low,Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKWatuRidang.xml,"Watu Ridang (832 Śaka, 910-03-22)",,910.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKWintangMasII.xml,"Wintang Mas II (841 Śaka, 919-10-12)",kaw-Latn,919.0,10.0,-7.6,110.35,xml_provenance,medium,"XML hint: found in Maṅulihi (line 7), Wintang Mas I (line 3,7,8) and B",Merapi,11.96,Merapi,12.450374766925789
+DHARMA_INSIDENKWukiran.xml,"Stela of Pereng, also known as Wukiran inscription (784 Śaka, 863-1-25 CE)",kaw-Latn,862.0,9.0,-7.66,110.35,known_location,high,"Pereng, near Prambanan",Merapi,16.63,Merapi,16.94246247961942
+DHARMA_INSIDENKWurare.xml,Wurare,san-Latn,,,-7.89,112.65,known_location,medium,Singasari area,Arjuno,18.98,Arjuno-Welirang,19.717008360413857
+DHARMA_INSIDENKWuruTunggal.xml,Wuru Tunggal (833 Śaka),kaw-Latn,911.0,10.0,-7.6,110.35,known_location,medium,Mataram Central Java,Merapi,11.96,Merapi,12.450374766925789
