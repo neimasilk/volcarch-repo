@@ -1,8 +1,26 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-06-10 malam (ME#19 execution: paket Zenodo D1+D2 READY + P8 SIG prep DONE — bukan audit baru)
+**Last updated:** 2026-06-25 (E216 "paleo-ecological interferometer" designed by Opus — Track B, gated, not yet executed)
 **HANDOFF TERBARU: `docs/HANDOFF_20260611.md`** — baca itu untuk resume cepat. (Handoff pagi: `docs/HANDOFF_20260610.md`.)
+
+## *** 2026-06-25 — E216 DESIGN SELESAI (Track B, belum dieksekusi) ***
+
+**E216 "The Paleo-Ecological Interferometer"** — desain lengkap oleh Claude Opus 4.8 (ultracode multi-agent). File: `experiments/E216_paleoecological_interferometer/README.md`. Ide I-147/I-148/I-149 terdaftar. Catatan JOURNAL ditambahkan. **Status: DESIGNED, EXECUTION GATED.** Eksekusi baru boleh dimulai setelah forcing-function ME#19 terpenuhi (Verberne / Zenodo / Lamqaddam) + portfolio aktif dilayani. Langkah pertama: tulis `PREREG.md` → S1+S2 → GO/NO-GO.
+
+## *** 2026-06-22 — STATUS SAAT INI (baca sebelum mulai) ***
+
+**Forcing function ME#19 SUDAH JATUH TEMPO (2026-06-24, sudah terlewat 1 hari).** 11 hari tanpa aktivitas repo sejak 06-11. Belum ada bukti exposure eksternal terjadi (tidak ada DOI tercatat, email belum tampak terkirim). **STOP list masih mengikat: tidak ada audit/paper/review-sprint baru** — yang dibutuhkan AKSI EKSTERNAL Pak Amien, bukan kerja internal baru.
+
+**KOREKSI handoff (penting):** handoff 06-10 bilang "Verberne belum balas ~8 minggu, kirim follow-up." **SALAH/STALE.** Verberne **sudah balas 2026-06-08** dengan 2 pertanyaan (setelah konsultasi kolega TU Delft). Balasan sudah didraft (v3, 06-09). **Sesi ini menutup 1 item terakhir** (skema NER GLOBALISE diverifikasi: 7 tipe entitas — persons/locations/organisations/polities/commodities/ships/documents + dates — tak satupun arkeologis → entitas baru proposal DEPTH/MATERIAL/FIND_EVENT/SOIL_CONTEXT memang di luar skema mereka). **Balasan kini v4 SEND-READY, nol open item** → `docs/correspondence/EMAIL_VERBERNE_REPLY_DRAFT_20260609.md`.
+
+**3 AKSI BLOKIR (semua milik Pak Amien, butuh akun beliau) — urut prioritas:**
+1. **KIRIM balasan Verberne v4** — menggantung **14 hari**; profesor aktif menunggu; exposure paling penting + paling mendesak. Tinggal kirim.
+2. **Upload D1+D2 ke Zenodo** (`docs/ZENODO_UPLOAD_GUIDE_20260610.md`, ~15 mnt/dataset) → tempel 2 DOI di chat.
+3. **Kirim balasan Lamqaddam** (isi deadline BPI + 3 slot chat) — `docs/correspondence/EMAIL_LAMQADDAM_REPLY_DRAFT_20260423.md`.
+**Salah satu dari ketiganya memenuhi forcing function.** Verberne = paling urgent.
+
+**Claude (saat DOI/konfirmasi masuk):** catat DOI ke MEMORY/WORKSTATE/JOURNAL + sitasi README paket; backport median 1.75 m ke `experiments/E070_.../REGISTER_NOTES.md` (perlu OK Pak Amien); commit repo (perubahan sesi ini belum di-commit — minta izin). Selebihnya WAIT (4 paper under review) + Track B pelan (Castillo, milik Pak Amien).
 **MODE: DISCOVERY-FIRST (ME#16, 2026-04-22).** Polishing paused; diamond-hunts primary. Papers continue on current trajectory; new evidence from hunts is the gate for future submissions.
 
 **2026-06-10 — Vocabulary normalisation (maintenance, NON-research).** Plain-language pass across docs, memory, and papers so the newest model's topic-classifier stops mis-flagging the repo at session start. 19 record files renamed (cross-model review records → `critical_*`; the §9 audit → `STOP_CRITERION_AUDIT_2026_04_21.md`). Re-runnable normalisers: `tools/reword_triggers.py` (+ `tools/reword_triggers_tex.py`). **No numbers, claims, or findings changed.** Known harmless leftover: experiment folder `E069_…_comparanda` keeps its original name (renaming would break its scripts).

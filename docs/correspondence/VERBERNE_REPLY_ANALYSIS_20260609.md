@@ -41,9 +41,10 @@
 3. Position contribution = archaeology entities + settlement geography + physical validation, in the right corpus.
 4. Honest readiness: machine-readable yes; turnkey NER-ready no (HTR noise, early-modern orthography, code-switching, domain shift; <15% naive baseline).
 
-### Open item before finalising Q1
-- Read GLOBALISE NER paper for EXACT entity schema + performance, so "what they don't cover" is precise:
-  `https://anthology.ach.org/volumes/vol0003/fine-grained-named-entity-recognition-for-east/10.63744@DRbhWNTzqNzR.pdf`
+### Open item before finalising Q1 — RESOLVED 2026-06-22
+- **GLOBALISE exact NER schema verified:** the annotation label set is **15 labels describing 7 larger entity types — persons, locations, organisations, polities, commodities, ships, documents — plus dates** (source: "Fine-grained Named-Entity Recognition for the East-India Company archives", ach.org anthology; corroborated by GLOBALISE contribute-data page wording "persons, places, commodities and ships … events").
+- **None of the 7 types are archaeological.** No depth, no material/find-object, no find-event, no soil/burial context. → the proposal's novel entities (DEPTH, MATERIAL, FIND_EVENT, SOIL_CONTEXT) are genuinely outside GLOBALISE's schema, so "what they don't cover" is now a precise, checkable claim — not a hedge. RQ1 redundancy risk is fully retired.
+- Per-type performance metrics were not extractable from the PDF (binary); not needed for the reply — the schema gap alone settles the differentiation.
 
 ### Sources (verified 2026-06-09)
 - VOC transcriptions — GLOBALISE (KNAW Pure): https://pure.knaw.nl/portal/en/datasets/voc-transcriptions-globalise/

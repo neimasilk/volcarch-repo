@@ -8195,3 +8195,46 @@ Routed an untracked ChatGPT critical review of the ME#16 pivot (`chatgpt_review.
 1. **Upload D1+D2 to Zenodo** (~15 min each; guide ready). Paste the two DOIs into next session.
 2. **Send Lamqaddam reply** (fill BPI deadline + 3 chat slots) **+ Verberne follow-up.**
 Next ME remains forbidden until an external judge receives something.
+
+## 2026-06-22 | Verberne reply finalised (send-ready) + forcing-function clock at ~2 days
+
+**Type:** TRACK A EXPOSURE — closing the last open item on the most career-critical email (no new audit/paper/review; ME#19 STOP list honored).
+**Trigger:** "baca handoff dan lanjutkan." Resumed from `docs/HANDOFF_20260611.md`. 11 days of no repo activity; today (2026-06-22) is ~2 days before the ME#19 forcing-function deadline (~2026-06-24).
+
+**Stale-handoff correction (important):** the 06-10 handoff listed "Verberne — no reply ~8 weeks, send a follow-up." That is **stale.** Verberne actually **replied 2026-06-08** with two substantive questions (after consulting a TU Delft colleague), and a near-send-ready reply (v3, 2026-06-09) already existed with one open item. So the action is not "follow up" — it is "send the answer that has been sitting 14 days." Highest-value exposure item in the portfolio, and overdue.
+
+**Closed the one open item (Q1 GLOBALISE-NER precision):**
+- Verified GLOBALISE's published fine-grained NER schema = **15 labels / 7 entity types — persons, locations, organisations, polities, commodities, ships, documents — plus dates** (ach.org anthology "Fine-grained NER for the East-India Company archives"; corroborated by GLOBALISE contribute-data page). PDF binary blocked per-type metrics, but the schema gap alone settles the point.
+- **None of the 7 types are archaeological** → the proposal's novel entities (DEPTH / MATERIAL / FIND_EVENT / SOIL_CONTEXT) sit precisely outside their schema. RQ1 redundancy risk retired; "what they don't cover" is now a checkable claim.
+- Edited the email's Q1 sentence to list their entities accurately (kept as natural prose to preserve the AI-detection-resistant register); marked draft **v4 SEND-READY, no open items**; recorded the verified schema + sources in `VERBERNE_REPLY_ANALYSIS_20260609.md`.
+
+**Files touched:** `docs/correspondence/EMAIL_VERBERNE_REPLY_DRAFT_20260609.md` (v3→v4, send-ready), `docs/correspondence/VERBERNE_REPLY_ANALYSIS_20260609.md` (Q1 open item RESOLVED).
+
+**Blocking on Pak Amien (all external, his accounts):** (1) **send Verberne reply v4** — overdue, do first; (2) upload D1+D2 to Zenodo (guide ready) → paste 2 DOIs; (3) send Lamqaddam reply (fill BPI deadline + 3 chat slots). Any one satisfies the forcing function; the Verberne reply is both the most urgent and the most valuable.
+
+## 2026-06-25 | E216 designed — the "paleo-ecological interferometer" (Michelson-Morley falsification instrument)
+
+**Type:** PAPER DESIGN (Track B, curiosity, untimed). DESIGN ONLY — not executed (PI directive: keep ultracode reasoning for design; hand off execution to a cheaper model). Execution gated behind the ME#19 forcing function.
+**Trigger:** PI mandate — "build ONE additional paper idea; like Michelson-Morley which 'failed' to find the ether, I am fine 'failing' to find a pre-400 CE civilization, **as long as it is proven definitively and falsifiably.**" Plus the prior-turn verdict that P7 stays parked but its IDEA is the *honest evolution into a falsification instrument*.
+
+**Method:** two ultracode multi-agent workflows. (1) P7-revive-or-bury (6 agents: salvage/kill/feasibility/strategy advocates → synthesis → red-team) → verdict: keep P7 parked; the salvageable kernel becomes a falsification-first design, not a resubmission. (2) michelson-morley-paper-design (9 agents: 4 candidate channels → adversarial escape-hatch stress-test → synthesis).
+
+**Chosen design = E216, the paleo-ecological detection-function paper.** Converts E214's qualitative "leans against" into a quantified, symmetric exclusion bound on the size of a pre-400 CE forest-clearing Java population. Full hand-off spec: `experiments/E216_paleoecological_interferometer/README.md` (pre-registered 3-outcome rule, S0–S9 method, named data sources, power analysis, equifinality closures, both-outcome papers, SIG G1–G10 map, execution checklist).
+
+**Why this channel won (and the others lost):**
+- It is the ONLY candidate with a *demonstrated within-network positive control* — the same Java cores that show NO pre-400 CE clearance DO record the post-600 CE Hindu-Javanese clearance (Dieng ~600 CE; Rawa Danau ~AD 1770). That proves the interferometer is sensitive, so a null means "the ether is not there," not "we had no interferometer." This is the Michelson-Morley property the rivals structurally lack.
+- **Radiocarbon-SPD ("demographic interferometer") REJECTED:** data-starved. Mini-NusaRC v3 has ~1 Java record in the 0–500 CE window; p3k14c explicitly excludes Island SE Asia → the SPD power analysis is mathematically inapplicable; it would only "lean" like E214. (Used only as a dating-completeness sanity layer / proof the 14C channel is blind in-window.)
+- **Archaeogenetic Ne REJECTED for now:** underpowered at ~65 generations, controlled-access data (EGA/dbGaP), needs a stats-genetics co-author; Ne/N confound moves the dispersed-society hatch rather than closing it → needs_collaboration, not claude_now.
+- **Convergent multi-channel detectability:** good flagship vision but scope-creep for one paper; its quantifiable core IS the pollen channel, so it was folded in as grafts.
+
+**Two grafts hardening the winner:** (1) from the radiocarbon design — make the forward-simulation power curve a co-headline and, where power is low, specify the single decisive missing core (location/basin radius/resolution/0–500 CE span/taxa) as a designed, fundable result; (2) from the genomics design — run TWO contrasted forward models (landscape-clearing vs dispersed forest-garden) through the identical pipeline and report a separation statement, handing the residual dispersed-mode population (which pollen cannot see) explicitly to E215 phytoliths.
+
+**Honest expected outcome:** the modal result is OUTCOME-3 (loose bound → missing-core spec), because E214 already showed no heartland-proximal high-resolution 0–500 CE lowland core exists. Designed for: that is itself the project's first honest "here is exactly what would settle it" deliverable. The mode E216 can *decisively* exclude (large forest-clearing) is the thesis already abandoned after E214; the live dispersed mode is out of pollen's reach — stated as a contribution, not overclaimed. This is what makes it Michelson-Morley rather than another confirmation brick.
+
+**Integrity framing:** E216 is the SIG-compliant successor to P7 — it does NOT touch the contaminated spatial/inscription/Pyle-burial substrate (sidesteps F1/F2/F3), builds E214 counter-evidence INTO the instrument (G6), and is the project's first flagship structurally designed to *disconfirm* L1 (cures the confirmation-architecture diagnosis, ME#17 R1).
+
+**Ideas registered:** I-147 (E216 framework), I-148 (power curve + missing-core spec), I-149 (two-mode separation). See IDEA_REGISTRY 2026-06-25.
+
+**Target venue (zero APC):** Vegetation History and Archaeobotany (Q1, Green-OA) primary; Quaternary International / JCAA / Internet Archaeology alternatives; AVOID Open Quaternary (APC). Zenodo preprint regardless.
+
+**P7 disposition (this session):** keep PARKED; do NOT resubmit (resubmission of the distance/population claim = SIG Banned Move; fails G1/G2/G4/G5). The salvageable kernel (Dwarapala anchor, detection-horizon framing, erosion/karst-exposure hypothesis) is preserved as a future Track-B item gated on acquiring a geology/lithology layer (GLiM/PSG) + a passing E213-redux; lesson folds into P0 only after that layer exists. P7's intellectual successor is E216.

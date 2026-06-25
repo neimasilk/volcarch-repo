@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-06-09
 **In reply to:** Verberne email 2026-06-08 22:02 (after consulting Delft colleague)
-**Status:** DRAFT v3 — humanised + tightened (~410 words, em-dashes stripped, bullet/structure removed, GLOBALISE-NER point folded into Q1). Reads as plain academic prose to reduce AI-detection risk. Near send-ready; see STILL OPEN.
+**Status:** DRAFT v4 — SEND-READY (2026-06-22). v3 humanised + tightened (~410 words, em-dashes stripped, bullet/structure removed, GLOBALISE-NER point folded into Q1). v4 closes the last open item: GLOBALISE's exact NER schema verified (15 labels / 7 types — persons, locations, organisations, polities, commodities, ships, documents + dates; NO archaeological types), so the Q1 entity list is now accurate and the "what they don't cover" claim is backed. Reads as plain academic prose to reduce AI-detection risk. **No open items.**
 
 ---
 
@@ -27,8 +27,8 @@
 2. Collaboration is **enrichment, not critical path**. The thesis must complete on near-tier (existing data + light in-house audit) alone.
 3. Lead RQ4 with the **non-significant** pilot (p=0.131), not the brief's 99.94%/r=0.951 (P7-contested).
 
-### STILL OPEN
-- **Q1 email section not yet revised** for the GLOBALISE-already-does-NER repositioning (RQ1 redundancy risk). Pending a read of the GLOBALISE NER paper for the exact entity schema, then rewrite Q1 to position contribution = archaeology entities + settlement geography. See analysis §Q1 "Open item".
+### STILL OPEN — none (closed 2026-06-22)
+- **Q1 GLOBALISE-NER repositioning — CLOSED.** GLOBALISE's published fine-grained NER schema verified: **15 labels across 7 entity types — persons, locations, organisations, polities, commodities, ships, documents — plus dates** (Fine-grained NER for the East-India Company archives; corroborated by the GLOBALISE contribute-data page: "persons, places, commodities and ships … events"). **None of their types are archaeological** — no depth, material/find-object, find-event, or soil/burial context. So the proposal's novel entities (DEPTH, MATERIAL, FIND_EVENT, SOIL_CONTEXT) sit precisely outside their schema; the Q1 sentence now lists their entities accurately and the contribution = archaeology entities + settlement geography is backed, not asserted.
 
 ## Context for you (NOT for the email)
 - The gate is still **BPI Dosen funding** (competitive, not secured). A good reply converts interest, it does not secure a position. Keep expectations calibrated.
@@ -46,7 +46,7 @@ Thank you for this, and please thank your colleague in Delft too. Both questions
 
 On the dataset. What I'm building on is GLOBALISE, the Huygens Institute's machine transcription of the handwritten VOC archive, about five million pages, all released under CC0. It is certainly digitised and readable, and I've already cleaned a 500-volume slice of it, roughly 146 million words. What it isn't is ready for NER as it stands. So instead of just asserting that, I ran a quick keyword baseline over the slice to see how bad things were, and the answer was: quite bad. Well under 15% precision on inspection, drowning in false positives. The false positives are the telling part. In this corpus "pagode" almost always means a coin, not a temple; "arca" turns out to be the Latin word for a chest; and Dutch, Portuguese, Latin and Malay sit on the same page as often as not. It needs precisely the work I'm proposing — language identification, a domain-adapted NER model, normalisation — before it gives up anything usable. I've put the pipeline, the cleaning statistics and that baseline output online, in case you or your colleague would sooner see it than take my word for it: https://huggingface.co/datasets/neimasilk/voc-archnlp-mentions
 
-One thing I should be honest about, since you know the team well: GLOBALISE already recognises persons, places, ships and commodities, and I've no wish to redo their work. What I would add sits where their schema stops — archaeological mentions like depth, material and finds, and the tying of settlement names to coordinates. And for that archaeological vocabulary the richer material is really in the later printed reports, the Oudheidkundig Verslag and the Delpher newspapers; the VOC registers themselves carry much less of it. So I would be building on GLOBALISE, not alongside it.
+One thing I should be honest about, since you know the team well: GLOBALISE already recognises the entities its own historians need — persons, places, organisations, polities, ships, commodities, documents and dates — and I've no wish to redo any of that. What I would add sits where their schema stops — archaeological mentions like depth, material and finds, and the tying of settlement names to coordinates. And for that archaeological vocabulary the richer material is really in the later printed reports, the Oudheidkundig Verslag and the Delpher newspapers; the VOC registers themselves carry much less of it. So I would be building on GLOBALISE, not alongside it.
 
 On the validation, which is the fair worry, and honestly part of why I'm writing to Leiden in particular. The first thing to say is that it needs no new excavation at all. It compares depth figures already written into the colonial texts against an independent burial model — one calibrated from geological sedimentation rates, not from the records it is then tested on — and my small pilot of 33 such records held up against it (Wilcoxon p = 0.131). I try to treat that as a real test rather than a box to tick; in fact another, independent strand of the project recently went against one of my central claims, and I revised the claim.
 
