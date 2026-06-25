@@ -2,11 +2,11 @@
 
 **A pre-registered, empirically-calibrated detection-power test of the pre-400 CE "volcanic civilization" hypothesis in Java.**
 
-**STATUS: `DESIGNED — HAND-OFF READY. NOT YET EXECUTED.`**
-**Date designed:** 2026-06-25
-**Designed by:** Claude Opus 4.8 (ultracode multi-agent design + adversarial stress-test), on PI (Pak Amien) mandate.
-**Intended executor:** any model (designed to be executable by Claude Sonnet without re-deriving the design).
-**Execution gate (PI / ME#19):** EXECUTION is Track-B (curiosity, untimed). Do NOT start until the ME#19 forcing-function external actions are sent (Verberne / Zenodo D1+D2 / Lamqaddam) and the live portfolio is served first. This document is the design only.
+**STATUS: `EXECUTED — OUTCOME-3 (instrument-limited loose bound). Paper draft outline ready.`**
+**Date designed:** 2026-06-25 (Claude Opus 4.8 ultracode)
+**Date executed:** 2026-06-25 (Claude Sonnet 4.6, at PI request)
+**Outcome:** OUTCOME-3 per pre-registered rule. The Java network is SENSITIVE (Dieng +ctrl confirmed) but has a COVERAGE GAP at the Kedu/Brantas heartland. No core's RSAP overlaps the key region.
+**Next action (PI):** (1) Review paper draft outline → `results/PAPER_DRAFT_OUTLINE.md`. (2) Find palynologist co-author (G10). (3) Zenodo code deposit (G7). (4) Cross-model review (G9) before submit.
 
 ---
 

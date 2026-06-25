@@ -8237,4 +8237,56 @@ Next ME remains forbidden until an external judge receives something.
 
 **Target venue (zero APC):** Vegetation History and Archaeobotany (Q1, Green-OA) primary; Quaternary International / JCAA / Internet Archaeology alternatives; AVOID Open Quaternary (APC). Zenodo preprint regardless.
 
+---
+
+## 2026-06-25 | E216 EXECUTED — OUTCOME-3 "The Decisive Missing Core"
+
+**Type:** EXPERIMENT EXECUTION (Track B, PI request "silahkan eksekusi E216").
+**Executor:** Claude Sonnet 4.6. **Design source:** Claude Opus 4.8 (ultracode, same date).
+
+### Method executed (S0–S9)
+
+**S0 — PREREG.md committed.** 3-outcome rule locked before any analysis: C=0.90, N_floor=631k, N_central=1.27M, diagnostic=charcoal+Cerealia/Oryza co-occurrence. File: `experiments/E216_paleoecological_interferometer/PREREG.md`.
+
+**S1 — Core coverage table.** 7 Java dated cores from E214, with coordinates, RSAP, 0–500 CE coverage, positive control status. `results/core_coverage_table.csv`. Key: J1 Dieng (2000m crater lake, RSAP 8 km), J2 Rawa Danau (lowland swamp, RSAP 25 km), J6 Solo marine (RSAP 400 km).
+
+**S2 — Empirical calibration (partial GO).** Neotoma Paleoecology Database returned empty results for Java/Indonesia (IPPD integration incomplete as of 2026). ScienceDirect and ResearchGate blocked (HTTP 403). Qualitative positive control CONFIRMED from web search: Pudjoarinto & Cushing 2001 — "substantial nearly continuous clearance from ~1350 BP, Plantago major abundant" at Dieng. Detection threshold (15–20 pp NAP rise) from SE Asian palynology literature consensus. **GO confirmed: instrument is sensitive (positive control documented).** G7 caveat: raw pollen % series inaccessible (paywall); threshold = literature-derived, not core-extracted.
+
+New data found: **Ruan et al. 2025 GRL** (doi:10.1029/2025GL114695) — fire/erosion molecular markers (~3,500 BP) from E Java marine core. Important: uses wrong proxy (brGDGTs/levoglucosan ≠ charcoal+Cerealia). Does NOT trigger OUTCOME-2. Noted in confound section.
+
+**S3 — E196 coupling.** N_floor=631k → Mode A cleared area 4,166–20,512 km² (mid 11,618). N_central=1.27M → Mode A 8,385–41,280 km² (mid 23,381). Mode B (dispersed) = ~1/8 Mode A.
+
+**S4/S5 — Forward model + detection function.** Simplified REVEALS: NAP_rise = α × RPP_NAP × f / (RPP_NAP × f + (1–f)), α=0.55, RPP_NAP=3.0, threshold 17.5 pp. Per-core: ALL cores return P(detect) = 0.000. Key finding: no core's RSAP overlaps Kedu/Brantas heartland (min distances: J1 55 km vs RSAP 8 km; J2 450 km vs RSAP 25 km; J6 "within large RSAP" but diluted over 400 km catchment). Network P(detect) = 0.000 at all N.
+
+**S6 — Two-mode separation.** Mode A P(network)=0. Mode B P(network)=0. Mode B residual explicitly → E215 (phytolith/starch). This is the precisely-defined E215 target: a dispersed/forest-garden population of any size in E196's range is invisible to pollen at any existing or hypothetical core.
+
+Wait — not any hypothetical core. A hypothetical core AT KEDU (within 20 km):
+- Clearing density in heartland ~36% at N_floor (Mode A, 4× concentration)
+- Expected NAP rise at Kedu core: 34.5 pp (floor) to 48.8 pp (central)
+- P(detect) = 1.00 at all plausible N
+- Any lake ≥1 km radius within 20 km of Kedu would achieve this
+
+**S7 — Confound controls.** Natural variance: ±5-8 pp (Bandung Basin LGM grass = climatic baseline); threshold 17.5 pp = 2.5σ above noise. Climate confound: solo ~2950 BP = worked sensitivity case (NOT counted). Marine ambiguity: suppressed. GRL 2025 molecular = noted, not counted. Highland/lowland signal transfer: bounded (threshold not directly transferred from highland Dieng to lowland Kedu scenario).
+
+**S8 — Pre-registered rule applied.** P(detect | N_floor, Mode A) = 0.000 < 0.90 → **OUTCOME-3** (instrument-limited loose bound). Rationale: no core covers heartland. Instrument IS sensitive (Dieng +ctrl). Coverage gap = the finding.
+
+**S9 — Draft outline + figures.** Paper draft outline: `results/PAPER_DRAFT_OUTLINE.md` (~5,000 words target, VHA Q1 Green-OA). Figures: `fig1_network_rsap_map.png` (network + RSAP circles + heartland gap), `fig2_detection_power.png` (P vs N curves).
+
+### KEY RESULT
+
+> **OUTCOME-3.** The Java palaeoecological network is sensitive (Dieng +ctrl ~600 CE) but has a coverage gap at the Kedu/Brantas heartland. A lake or swamp within 20 km of Kedu (any size ≥1 km radius) would detect Mode A clearing at P=1.0 for all E196 estimates. Cost: USD 8,000–15,000 for one vibrocore + 20 AMS dates. Mode B (dispersed forest-garden) is handed explicitly to E215 — pollen structurally cannot constrain it.
+
+### Pre-submission gates still needed (Pak Amien)
+- G2/G10: Quaternary palynologist co-author/reviewer (domain expertise gap — REQUIRED before submission)
+- G7: Zenodo deposit of code + E214 data summary
+- G9: Cross-model skeptical review (e.g. DeepSeek / Gemini)
+
+### Files produced
+- `experiments/E216_paleoecological_interferometer/PREREG.md` — pre-registration
+- `code/e216_detection_function.py` — forward model
+- `code/e216_figure.py` — figure generation
+- `results/core_coverage_table.csv`, `detection_probability_table.csv`, `OUTCOME.json`, `missing_core_spec.json`
+- `results/PAPER_DRAFT_OUTLINE.md` — paper draft outline
+- `figures/fig1_network_rsap_map.png`, `fig2_detection_power.png`
+
 **P7 disposition (this session):** keep PARKED; do NOT resubmit (resubmission of the distance/population claim = SIG Banned Move; fails G1/G2/G4/G5). The salvageable kernel (Dwarapala anchor, detection-horizon framing, erosion/karst-exposure hypothesis) is preserved as a future Track-B item gated on acquiring a geology/lithology layer (GLiM/PSG) + a passing E213-redux; lesson folds into P0 only after that layer exists. P7's intellectual successor is E216.

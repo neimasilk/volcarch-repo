@@ -1,0 +1,29 @@
+core_id,core_name,archive,rsap_km,dist_kedu_km,dist_brantas_km,heartland_in_rsap,cleared_in_rsap_km2,expected_nap_rise,threshold_nap_rise,p_detect,positive_control,mode,N_pop
+J1,Dieng/Telaga Balekambang,crater_lake,8,35.1,240.9,False,0.18,0.0015,0.175,0.0,True,A,631059
+J2,Rawa Danau,lowland_swamp,25,475.2,696.3,False,1.77,0.0015,0.175,0.0,True,A,631059
+J3,Teluk Banten,marine_estuarine,200,461.8,681.3,False,113.18,0.0015,0.175,0.0,False,A,631059
+J4,Bandung Basin,lacustrine,35,273.0,495.4,False,3.47,0.0015,0.175,0.0,False,A,631059
+J5,Situ Bayongbong,highland_lake,7,246.7,469.6,False,0.14,0.0015,0.175,0.0,False,A,631059
+J6,Marine Solo River,marine,400,247.2,144.6,True,151.31,0.0005,0.175,0.0,True,A,631059
+J7,Song Gupuh (Gunung Sewu karst),cave_alluvial,4,78.3,166.7,False,0.05,0.0015,0.175,0.0,False,A,631059
+J1,Dieng/Telaga Balekambang,crater_lake,8,35.1,240.9,False,0.02,0.0002,0.175,0.0,True,B,631059
+J2,Rawa Danau,lowland_swamp,25,475.2,696.3,False,0.21,0.0002,0.175,0.0,True,B,631059
+J3,Teluk Banten,marine_estuarine,200,461.8,681.3,False,13.58,0.0002,0.175,0.0,False,B,631059
+J4,Bandung Basin,lacustrine,35,273.0,495.4,False,0.42,0.0002,0.175,0.0,False,B,631059
+J5,Situ Bayongbong,highland_lake,7,246.7,469.6,False,0.02,0.0002,0.175,0.0,False,B,631059
+J6,Marine Solo River,marine,400,247.2,144.6,True,18.16,0.0001,0.175,0.0,True,B,631059
+J7,Song Gupuh (Gunung Sewu karst),cave_alluvial,4,78.3,166.7,False,0.01,0.0002,0.175,0.0,False,B,631059
+J1,Dieng/Telaga Balekambang,crater_lake,8,35.1,240.9,False,0.36,0.003,0.175,0.0,True,A,1270000
+J2,Rawa Danau,lowland_swamp,25,475.2,696.3,False,3.56,0.003,0.175,0.0,True,A,1270000
+J3,Teluk Banten,marine_estuarine,200,461.8,681.3,False,227.77,0.003,0.175,0.0,False,A,1270000
+J4,Bandung Basin,lacustrine,35,273.0,495.4,False,6.98,0.003,0.175,0.0,False,A,1270000
+J5,Situ Bayongbong,highland_lake,7,246.7,469.6,False,0.28,0.003,0.175,0.0,False,A,1270000
+J6,Marine Solo River,marine,400,247.2,144.6,True,304.5,0.001,0.175,0.0,True,A,1270000
+J7,Song Gupuh (Gunung Sewu karst),cave_alluvial,4,78.3,166.7,False,0.09,0.003,0.175,0.0,False,A,1270000
+J1,Dieng/Telaga Balekambang,crater_lake,8,35.1,240.9,False,0.04,0.0004,0.175,0.0,True,B,1270000
+J2,Rawa Danau,lowland_swamp,25,475.2,696.3,False,0.43,0.0004,0.175,0.0,True,B,1270000
+J3,Teluk Banten,marine_estuarine,200,461.8,681.3,False,27.33,0.0004,0.175,0.0,False,B,1270000
+J4,Bandung Basin,lacustrine,35,273.0,495.4,False,0.84,0.0004,0.175,0.0,False,B,1270000
+J5,Situ Bayongbong,highland_lake,7,246.7,469.6,False,0.03,0.0004,0.175,0.0,False,B,1270000
+J6,Marine Solo River,marine,400,247.2,144.6,True,36.54,0.0001,0.175,0.0,True,B,1270000
+J7,Song Gupuh (Gunung Sewu karst),cave_alluvial,4,78.3,166.7,False,0.01,0.0004,0.175,0.0,False,B,1270000

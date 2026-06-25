@@ -4,9 +4,13 @@
 **Last updated:** 2026-06-25 (E216 "paleo-ecological interferometer" designed by Opus — Track B, gated, not yet executed)
 **HANDOFF TERBARU: `docs/HANDOFF_20260611.md`** — baca itu untuk resume cepat. (Handoff pagi: `docs/HANDOFF_20260610.md`.)
 
-## *** 2026-06-25 — E216 DESIGN SELESAI (Track B, belum dieksekusi) ***
+## *** 2026-06-25 — E216 DIEKSEKUSI — OUTCOME-3 "The Decisive Missing Core" ***
 
-**E216 "The Paleo-Ecological Interferometer"** — desain lengkap oleh Claude Opus 4.8 (ultracode multi-agent). File: `experiments/E216_paleoecological_interferometer/README.md`. Ide I-147/I-148/I-149 terdaftar. Catatan JOURNAL ditambahkan. **Status: DESIGNED, EXECUTION GATED.** Eksekusi baru boleh dimulai setelah forcing-function ME#19 terpenuhi (Verberne / Zenodo / Lamqaddam) + portfolio aktif dilayani. Langkah pertama: tulis `PREREG.md` → S1+S2 → GO/NO-GO.
+**E216 COMPLETE.** Desain (Opus, ultracode) + eksekusi (Sonnet, sesi ini). Pre-registrasi dikunci sebelum analisis. S0–S9 selesai. **Hasil: OUTCOME-3** — jaringan inti palaeoekologi Jawa sensitif (Dieng +ctrl ~600 CE terkonfirmasi) tetapi punya COVERAGE GAP di heartland Kedu/Brantas — tidak ada inti yang RSAP-nya mencakup wilayah tersebut. P(detect)=0 di semua inti yang ada; P(detect)=1.0 jika ada danau/rawa dalam 20 km dari Kedu. Biaya: USD 8-15k untuk satu vibrocore + 20 tanggal AMS.
+
+**File dihasilkan:** `PREREG.md`, `code/e216_detection_function.py`, `code/e216_figure.py`, `results/core_coverage_table.csv`, `results/detection_probability_table.csv`, `results/OUTCOME.json`, `results/missing_core_spec.json`, `results/PAPER_DRAFT_OUTLINE.md`, `figures/fig1_network_rsap_map.png`, `figures/fig2_detection_power.png`.
+
+**Langkah berikutnya (Pak Amien):** (1) Review draft outline → `results/PAPER_DRAFT_OUTLINE.md`. (2) Cari co-author paleobotanist/palynolog (G2/G10 — wajib sebelum submit). (3) Zenodo deposit kode + data (G7). (4) Cross-model review G9 sebelum kirim. Target: *Vegetation History and Archaeobotany* (Q1, Green-OA, zero APC).
 
 ## *** 2026-06-22 — STATUS SAAT INI (baca sebelum mulai) ***
 

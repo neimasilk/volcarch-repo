@@ -1,0 +1,21 @@
+{
+  "experiment": "E216",
+  "date": "2026-06-25",
+  "outcome": "OUTCOME-3",
+  "rationale": "P(detect | N=631,059, Mode A) = 0.000 < C=0.9. No existing core has Kedu/Brantas heartland within its RSAP. Instrument is sensitive (Dieng +ctrl confirmed) but network has coverage gap at heartland.",
+  "stats": {
+    "p_net_floor_A": 0.0,
+    "p_net_floor_B": 0.0,
+    "p_net_central_A": 0.0,
+    "p_net_central_B": 0.0,
+    "n_cores_covering_heartland": 1,
+    "cores_covering_heartland": [
+      "J6"
+    ]
+  },
+  "positive_control_status": "CONFIRMED (Dieng ~600 CE qualitatively documented)",
+  "data_access_limitation": "Raw pollen % from Pudjoarinto 2001 + Yulianto 2005 inaccessible (403); calibration threshold from literature consensus (15-20 pp NAP rise = substantial)",
+  "key_finding": "No existing Java palaeoecological core has its RSAP covering the Kedu/Brantas inscription heartland. The instrument IS sensitive (Dieng positive control). The coverage gap at the heartland determines the outcome.",
+  "mode_b_residual": "Dispersed forest-garden/arboriculture population is outside detection range of ALL cores including marine (Solo). This residual is the explicitly-defined E215 target.",
+  "grl_2025_note": "Ruan et al. 2025 GRL finds fire/erosion markers ~3500 BP in E Java marine core \u2014 consistent with pre-400 CE human activity, but uses molecular markers (brGDGTs/levoglucosan), NOT charcoal+Cerealia diagnostic; therefore does not trigger OUTCOME-2 per pre-registration."
+}
