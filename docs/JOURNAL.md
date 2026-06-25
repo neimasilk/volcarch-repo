@@ -8290,3 +8290,43 @@ Wait — not any hypothetical core. A hypothetical core AT KEDU (within 20 km):
 - `figures/fig1_network_rsap_map.png`, `fig2_detection_power.png`
 
 **P7 disposition (this session):** keep PARKED; do NOT resubmit (resubmission of the distance/population claim = SIG Banned Move; fails G1/G2/G4/G5). The salvageable kernel (Dwarapala anchor, detection-horizon framing, erosion/karst-exposure hypothesis) is preserved as a future Track-B item gated on acquiring a geology/lithology layer (GLiM/PSG) + a passing E213-redux; lesson folds into P0 only after that layer exists. P7's intellectual successor is E216.
+
+---
+
+## 2026-06-25 (sore) | E216 — Opus review of the Sonnet execution + Monday handoff
+
+**Type:** CROSS-MODEL REVIEW (Opus reviewing Sonnet) + SESSION-END HANDOFF
+**Status:** OUTCOME-3 upheld as correct & honest; 4 defects filed; NOT submission-ready.
+
+Pak Amien shared Sonnet's E216 execution summary and asked for a finished handoff before
+leaving for the weekend (resume Monday). I re-read PREREG.md, the data tables, and the
+detection code rather than trusting the summary, and re-ran the missing-core forward model
+across honest parameter corners.
+
+**Verdict:** OUTCOME-3 is correctly assigned, pre-registration was respected, and the
+location-vs-RSAP insight is the genuine contribution. Filed `OPUS_REVIEW_20260625.md` with
+4 defects that must be fixed before any external submission (none fatal to the conclusion;
+all fatal to a clean submission):
+
+1. **`OUTCOME.json` internal contradiction.** `n_cores_covering_heartland=1` (J6) vs
+   `key_finding`="no core covers heartland". J6 (marine Solo) geometrically *reaches* the
+   heartland (RSAP 400 km) but cannot *resolve* it (catchment dilution → signal ~0).
+   Coverage ≠ resolution; reword everywhere. Sonnet's "semua 7 inti terlalu jauh" is wrong for J6.
+2. **"P(detect)" is effectively deterministic** — a step function on whether the midpoint
+   signal clears 17.5 pp; only n=300 count noise is stochastic (negligible). Parameter
+   uncertainty (RPP 2–4, threshold 15–20 pp, clustering, cultivation fractions) is NOT
+   propagated, despite PREREG equifinality-control #4 promising a sensitivity interval.
+3. **Positive control is qualitative** (Dieng raw data 403-paywalled) → this was actually the
+   PREREG S2 **NO-GO** branch. "CONFIRMED" overstates; the 15–20 pp threshold is imported
+   literature consensus, not re-derived (SIG G1).
+4. **(Most important) The "decisive missing core P(detect)=1.0" headline hides a failing corner.**
+   It depends on a hardcoded, uncited `CONCENTRATION_FACTOR=4.0`. Re-running the spec's own model:
+   at floor population (631k) + uniform clearing, heartland density = 9% → NAP rise **12.6 pp <
+   17.5 pp threshold → even a perfectly placed core does NOT detect.** "Decisive" holds only for
+   clustered clearing OR central population. The caveat must be in the abstract, not in a constant.
+
+**Strategic:** E216 is Track B; it does NOT discharge the ME#19 forcing function (overdue).
+Monday's priority is the three external actions (Verberne v4 reply → Zenodo D1/D2 → Lamqaddam),
+not polishing E216. E216 fixes can wait for the palynologist co-author it needs anyway (G2/G10).
+
+**E216 status:** SUCCESS as a Track-B specification study; NOT submission-ready. WORKSTATE updated.

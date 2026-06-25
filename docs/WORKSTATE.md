@@ -1,8 +1,26 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-06-25 (E216 "paleo-ecological interferometer" designed by Opus — Track B, gated, not yet executed)
+**Last updated:** 2026-06-25 (E216 executed by Sonnet → reviewed by Opus; 4 defects filed; forcing function STILL the priority)
 **HANDOFF TERBARU: `docs/HANDOFF_20260611.md`** — baca itu untuk resume cepat. (Handoff pagi: `docs/HANDOFF_20260610.md`.)
+
+## *** 2026-06-25 (sore) — HANDOFF UNTUK SENIN (Pak Amien tinggal akhir pekan) ***
+
+**SENIN, KERJAKAN INI DULU — bukan E216.** Forcing function ME#19 masih BELUM tertutup & lewat tempo. Constraint = NON-EXPOSURE, bukan rigor. E216 (di bawah) adalah Track B; menyenangkan tapi TIDAK menggugurkan forcing function. Memproduksi artefak internal kedua sementara balasan Verberne menggantung 14+ hari = persis pola prokrastinasi yang didiagnosa ME#19.
+
+**3 AKSI EKSTERNAL (semua milik Pak Amien, urut prioritas — salah satu menutup forcing function):**
+1. **KIRIM balasan Verberne v4** → `docs/correspondence/EMAIL_VERBERNE_REPLY_DRAFT_20260609.md` (send-ready, nol open item, menggantung 14+ hari — PALING URGENT).
+2. **Upload D1+D2 ke Zenodo** → `docs/ZENODO_UPLOAD_GUIDE_20260610.md` (~15 mnt/dataset) → tempel 2 DOI di chat.
+3. **Kirim balasan Lamqaddam** (isi BPI deadline + 3 slot chat) → `docs/correspondence/EMAIL_LAMQADDAM_REPLY_DRAFT_20260423.md`.
+
+**Opus review E216 (sesi ini) — `experiments/E216_paleoecological_interferometer/OPUS_REVIEW_20260625.md`:** OUTCOME-3 BENAR & jujur. Tapi **4 defect harus diperbaiki sebelum submit** (jangan buru-buru — butuh co-author palinolog dulu, jadi ada waktu):
+- **D1 (must-fix):** `OUTCOME.json` kontradiksi internal — `n_cores_covering_heartland=1` (J6) vs `key_finding`="no core covers heartland". J6 (marine Solo) *menjangkau* heartland secara geometris tapi *tidak bisa meresolusi* (dilusi catchment). Reword: coverage ≠ resolution.
+- **D2 (must-fix):** "P(detect)" sebenarnya deterministik (step function di threshold); ketidakpastian PARAMETER tak dipropagasi. PREREG #4 janji "sensitivity interval" — belum dihitung. Jangan sebut "probability" sampai disweep.
+- **D3 (must-flag):** positive control Dieng cuma kualitatif (data 403 paywall) → ini sebenarnya cabang **NO-GO** di PREREG S2. "CONFIRMED" overstate; threshold 15-20pp itu impor literatur, bukan re-derive (SIG G1).
+- **D4 (paling penting):** headline "missing core P(detect)=1.0" menyembunyikan pojok konservatif. Di **floor population + uniform clearing**, NAP rise = 12.6pp < 17.5pp threshold → core sempurna pun GAGAL deteksi. Bergantung `CONCENTRATION_FACTOR=4.0` hardcoded tanpa sitasi. Caveat WAJIB di abstract.
+- **Status E216:** SUCCESS sebagai studi spesifikasi Track-B, **BUKAN submission-ready.** Urutan: fix D1-D4 → co-author (G2/G10) → Zenodo (G7) → cross-model G9 — SEMUA setelah forcing function tertutup.
+
+**Claude (saat DOI/konfirmasi Verberne masuk):** catat ke MEMORY/WORKSTATE/JOURNAL. Selebihnya WAIT (4 paper under review).
 
 ## *** 2026-06-25 — E216 DIEKSEKUSI — OUTCOME-3 "The Decisive Missing Core" ***
 
