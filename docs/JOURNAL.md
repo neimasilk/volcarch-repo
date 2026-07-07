@@ -8217,7 +8217,7 @@ Next ME remains forbidden until an external judge receives something.
 **Type:** PAPER DESIGN (Track B, curiosity, untimed). DESIGN ONLY — not executed (PI directive: keep ultracode reasoning for design; hand off execution to a cheaper model). Execution gated behind the ME#19 forcing function.
 **Trigger:** PI mandate — "build ONE additional paper idea; like Michelson-Morley which 'failed' to find the ether, I am fine 'failing' to find a pre-400 CE civilization, **as long as it is proven definitively and falsifiably.**" Plus the prior-turn verdict that P7 stays parked but its IDEA is the *honest evolution into a falsification instrument*.
 
-**Method:** two ultracode multi-agent workflows. (1) P7-revive-or-bury (6 agents: salvage/kill/feasibility/strategy advocates → synthesis → red-team) → verdict: keep P7 parked; the salvageable kernel becomes a falsification-first design, not a resubmission. (2) michelson-morley-paper-design (9 agents: 4 candidate channels → adversarial escape-hatch stress-test → synthesis).
+**Method:** two ultracode multi-agent workflows. (1) P7-revive-or-bury (6 agents: salvage/drop/feasibility/strategy advocates → synthesis → independent review) → verdict: keep P7 parked; the salvageable kernel becomes a falsification-first design, not a resubmission. (2) michelson-morley-paper-design (9 agents: 4 candidate channels → critical escape-hatch stress-test → synthesis).
 
 **Chosen design = E216, the paleo-ecological detection-function paper.** Converts E214's qualitative "leans against" into a quantified, symmetric exclusion bound on the size of a pre-400 CE forest-clearing Java population. Full hand-off spec: `experiments/E216_paleoecological_interferometer/README.md` (pre-registered 3-outcome rule, S0–S9 method, named data sources, power analysis, equifinality closures, both-outcome papers, SIG G1–G10 map, execution checklist).
 
@@ -8330,3 +8330,38 @@ Monday's priority is the three external actions (Verberne v4 reply → Zenodo D1
 not polishing E216. E216 fixes can wait for the palynologist co-author it needs anyway (G2/G10).
 
 **E216 status:** SUCCESS as a Track-B specification study; NOT submission-ready. WORKSTATE updated.
+
+---
+
+## 2026-06-29 | P11 REJECTED by Archipel (editorial board, no peer review)
+
+**Type:** REJECTION (paper status change)
+**Status:** P11 now 2× rejected (Cornell *Indonesia* scope → Archipel board). No actionable feedback.
+
+**Email received** 2026-06-29 ~10:02 from **Prof. Daniel Perret, Editor-in-chief, Archipel** (INALCO/EHESS).
+Verbatim: the article *"Temples Without Villages: Candi and the Hidden Settlement Geography of
+Volcanic Java"* was "discussed during the latest meeting of the editorial board of Archipel.
+It has unfortunately not been accepted for publication." No reviewer reports, no revise-and-resubmit.
+
+**Classification:** EDITORIAL-BOARD rejection, not content peer review. Like the Cornell desk-reject,
+this gives **zero actionable critique** — it is a fit/quality verdict at board level, not a refutation
+of the science. Timeline: submitted 2026-04-08, EiC acknowledged 2026-04-09, board verdict ~2.5 months
+later. This matches the standing pattern (JOURNAL 2026-03-20): generalist/area-studies venues desk- or
+board-reject; the genuine peer reviews have come only from specialist journals.
+
+**Scorecard now: 7 rejected, 3 under review** (P2-JCAA, P8-OL, P17-ArchCalc). P11-Archipel leaves the
+under-review queue.
+
+**Disposition (no autonomous resubmission — Pak Amien decision):**
+- The P11 core finding is **inventory-independent and robust** (candi–settlement gap mean 6.78 km, 80.6%
+  within 10 km, p<1e-6; E153 Test 1). The science is not what was rejected.
+- **Any resubmission is gated** on: (1) applying the queued canonical-inventory corrections
+  (`papers/P11_volcanic_informedness/revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md` — abstract
+  four-number swap: Rayleigh 3.4e-8→1.2e-9, Zone A 17.9×→19.1×, gap 9.2→6.1 km, eastern quadrant <4%→9.2%);
+  (2) passing `docs/SUBMISSION_INTEGRITY_GATE.md`.
+- **Candidate venues** (Scopus + zero APC, not yet tried): **SPAFA Journal** (SEAMEO-SPAFA, SE-Asia
+  archaeology, best thematic fit) primary; **Wacana** "Prehistoric art in Indonesia" issue (Vol 28, ~Apr 2027)
+  fallback; PCI Archaeology (preprint-first) as a third.
+- **ME#19 forcing function still governs:** the binding constraint is non-exposure, and the three external
+  actions (send Verberne v4 reply, upload D1+D2 to Zenodo, send Lamqaddam reply) remain the priority over
+  retargeting P11. Retargeting is queued behind them, not ahead.

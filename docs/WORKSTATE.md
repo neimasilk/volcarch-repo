@@ -1,8 +1,24 @@
 # WORKSTATE — Session Continuity Contract
 
 **READ THIS FIRST. Continue in-progress items before starting new work.**
-**Last updated:** 2026-06-25 (E216 executed by Sonnet → reviewed by Opus; 4 defects filed; forcing function STILL the priority)
-**HANDOFF TERBARU: `docs/HANDOFF_20260611.md`** — baca itu untuk resume cepat. (Handoff pagi: `docs/HANDOFF_20260610.md`.)
+**Last updated:** 2026-06-29 (P11 REJECTED by Archipel editorial board — no peer review; scorecard 7 rejected / 3 under review; forcing function STILL the priority)
+**HANDOFF TERBARU: `docs/HANDOFF_20260629.md`** — penolakan P11/Archipel + root-cause review portfolio. (Sebelumnya: `docs/HANDOFF_20260611.md`.)
+
+## *** 2026-06-29 — P11 REJECTED by Archipel (editorial board, no peer review) ***
+
+Email dari **Prof. Daniel Perret (EiC Archipel)** 2026-06-29: *"Temples Without Villages"* dibahas di rapat
+dewan redaksi dan **tidak diterima.** Tanpa laporan reviewer, tanpa R&R. Ini penolakan tingkat-dewan (seperti
+desk-reject Cornell), **bukan** peer review konten — verdict fit/kualitas, bukan sanggahan ilmu. **P11 sekarang
+2× ditolak.** Scorecard: **7 ditolak, 3 under review** (P2-JCAA, P8-OL, P17-ArchCalc). Dicatat di JOURNAL 2026-06-29.
+
+**Tidak ada resubmit otomatis — keputusan Pak Amien.** Temuan inti P11 SELAMAT & inventory-independent (gap
+candi–settlement 6.78 km, 80.6% <10 km, p<1e-6; E153 Test 1) — yang ditolak bukan ilmunya. **Resubmit di-gate:**
+(1) terapkan koreksi kanonik di `papers/P11_volcanic_informedness/revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md`
+(swap 4 angka abstrak); (2) lolos `docs/SUBMISSION_INTEGRITY_GATE.md`. **Kandidat venue** (Scopus + nol APC, belum dicoba):
+**SPAFA Journal** (SEAMEO, arkeologi Asia Tenggara — fit terbaik) primer; **Wacana** "Prehistoric art" (Vol 28, ~Apr 2027) fallback; PCI Archaeology ketiga.
+
+**PENTING — forcing function ME#19 tetap berlaku:** kendala mengikat = NON-EXPOSURE. Tiga aksi eksternal di bawah
+(Verberne → Zenodo → Lamqaddam) TETAP prioritas di atas retarget P11. Retarget P11 mengantre di belakangnya, bukan di depan.
 
 ## *** 2026-06-25 (sore) — HANDOFF UNTUK SENIN (Pak Amien tinggal akhir pekan) ***
 
@@ -384,7 +400,7 @@ Per ME#15 §6C + §7B, each active deliverable has a review tag. This keeps Pak 
 | ~~P1~~ | ~~Asian Perspectives~~ | 019A-0326 | 2026-03-10 | REJECTED 2026-03-17 (AI flag) |
 | ~~P1~~ | ~~EGQSJ (Copernicus)~~ | egqsj-2026-3 | 2026-03-30 | **REJECTED 2026-04-16** (desk: structure/wording, NOT content) |
 | ~~P11~~ | ~~Indonesia (Cornell)~~ | — | 2026-03-31 | **REJECTED 2026-04-01** (scope mismatch) |
-| **P11** | **Archipel** (INALCO/EHESS) | — | **SUBMITTED 2026-04-08** | **EiC acknowledged 2026-04-09.** Editorial board meeting ~June 2026. |
+| ~~P11~~ | ~~Archipel (INALCO/EHESS)~~ | — | 2026-04-08 | **REJECTED 2026-06-29** (editorial board, no peer review; fit/quality verdict). 2nd rejection for P11. Retarget TBD — see retargeting table. |
 | **P17** | **ArchCalc** (CNR, Diamond OA) | **365** | **SUBMITTED 2026-04-09** | **ACKNOWLEDGED 2026-04-09.** Considered for 2027 issue. Review starts after 2026 issues published. |
 | P2 | JCAA (Diamond OA) | #280 | 2026-03-11 | **Under review** — 3 revision support material files |
 | ~~P5~~ | ~~BKI~~ | — | 2026-03-09 | REJECTED 2026-03-19 ("too narrow for humanities") |
@@ -392,7 +408,7 @@ Per ME#15 §6C + §7B, each active deliverable has a review tag. This keeps Pak 
 | P8 | Oceanic Linguistics (Q1) | OL-03-2026-11 | 2026-03-11 | **Under review** — 5 revision support material files. **arXiv preprint LIVE: 2604.00023** |
 | ~~P9~~ | ~~JSEAS (NUS Press)~~ | JSEAS-202603-051 | 2026-03-11 | REJECTED 2026-03-20 ("not suitable") |
 
-**Scorecard: 6 rejected (P1-AP, P1-EGQSJ, P5-BKI, P9-JSEAS, P11-Cornell, P7-Antiquity), 4 under review (P2, P8, P11-Archipel, P17-ArchCalc).**
+**Scorecard: 7 rejected (P1-AP, P1-EGQSJ, P5-BKI, P9-JSEAS, P11-Cornell, P7-Antiquity, P11-Archipel), 3 under review (P2, P8, P17-ArchCalc).**
 **⚠ 2026-06-08: P7 = FIRST content-based peer rejection. Confirmed methodological artifact (7-volcano inventory) propagates to P1 §spatial + ~26 experiments. See JOURNAL 2026-06-08 + `docs/research_notes/MATA_ELANG_17_2026_06_08.md`. P17 RE-VERIFIED clean (`E104/rebuild_clean_full_inventory.py`): candi-vs-inscription segregation SURVIVES (14.5 vs 27.6 km, p=1.5e-7) → no withdrawal; fix methods at revision. Canonical inventory now = `volcanoes_java_full.csv` (30). **E213 (exposure-window spine for P7) ran 2026-06-08 → INCONCLUSIVE:** slope-proxy fails (suitability⊥slope ρ=−0.04; volcanic slopes are both high-relief AND lahar-buried). A valid test needs a geology/lithology layer (GLiM or PSG maps). **P7 overhaul ON HOLD — spine not established; do not rewrite on a failed spine.** **E214 paleo-environmental test (independent channel) DONE → LEANS AGAINST strong thesis:** Java forest-clearance reads LATE (Dieng ~600 CE), while Sumatra/Borneo show early farming → partially REFUTES a LARGE pre-400 CE Javanese population (escapes: undersampling + Solo marine loophole). **"0 counter-evidence" claim is now FALSE.** Thesis must downgrade: large-hidden-civilization → small/dispersed/low-visibility society (falsify next via plant-microfossil, lowland coring, population-scale evidence). **SUBMISSION INTEGRITY GATE created & BINDING: `docs/SUBMISSION_INTEGRITY_GATE.md` (G1–G10).** Pending decisions: thesis recalibration in P0; apply SIG to live papers (P17/P2/P8/P11). **P7 PARKED** (Pak Amien 2026-06-08 — revisit only with stronger evidence). **Thesis reframed by PI → "peradaban vulkanik"** (volcanic-civilization CHARACTER claim, not erased-metropolis; consistent with paleo-environmental analysis; propose L1 amendment — see `project_thesis_peradaban_vulkanik` memory). **New lead: Jatim glass beads** (`docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md`, durable-trace, 5th–8th c CE, NOT pre-400). **E215 plant-microfossil DONE → VOID** (no plant-microfossil study ever run on any prehistoric Java site; method works regionally). Cross-channel E214(paleo-environmental, leans-against-LARGE)+E215(plant-microfossil, void-for-SMALL) → both consistent with peradaban-vulkanik reframe. **DECISIVE NEXT TEST = Castillo plant-microfossil collaboration** (Gunung Sewu matrices/Liyangan/dental samples; draft ready `docs/drafts/email_castillo_phytolith.md`). **Stage 0 integrity sweep COMPLETE** (E019/E104/E004 survive inventory fix; only P7 headline died). **L1 amended → peradaban-vulkanik ✓. Castillo archived ✓ (bottleneck, portfolio-first). Sembiran VERIFIED** (India trade ~2nd c BCE, pre-400 positive).
 
 **★ MATA ELANG #18 PORTFOLIO TRIAGE DONE** (`docs/research_notes/MATA_ELANG_18_PORTFOLIO_2026_06_08.md`, 4-agent review). Verdicts: **DROP** P7 (dead) + P18 (absorb→P0); **MAJOR-REWRITE** P0 (masterpiece = current liability, Channel 5 non-reproducible, fails 7/10 gates); **REVISE** P1v5/P5/P9/P11/P16/P17/D1/D2; **clean** P8/P2 (wait for review). **PATH TO 1st ACCEPTANCE (CORRECTED 2026-06-08 — Pak Amien wants Scopus peer-reviewed journal, NOT Zenodo).** Verified Scopus+free venue map: `docs/research_notes/SCOPUS_FREE_VENUE_MAP_2026_06_08.md`. Diagnosis: 0/6 was wrong-fit journals (5 desk-rejects = generalist) + the 4 genuine peer reviews (P8-OL, P17-ArchCalc, P2-JCAA[APC+waiver], P11-Archipel — all Scopus+free) are still PENDING. **Strategy:** (1) CONVERT pipeline (gate + revisions so they don't bounce); (2) **P16 → Wacana: R1 REVISION DONE, CONDITIONAL GO.** `submission_wacana_v1.0.tex` compiles clean (18pp, 1.1MB, abstract 139w, 0 undef refs/cit, 0 errors). DeepSeek G9 caught a FATAL flaw (convergence test) BEFORE submission → **R1 done & verified:** W1 RESOLVED (tradition-controlled test: cross-tradition convergence SURVIVES 8/8, volcano z=7.1; `e090_v6_tradition_controlled.py`; integrated + fig3 regenerated); W2/W3/W4/W5 tempered (volcanic-silence honest, 929 sample-limited, hedged+equifinality, BH-MTC). **Remaining = W6 humanities-deepening (Pak Amien, ~2¶) OR switch to DHQ; optional re-run G9; Pak Amien final read + submit.** Full state: `docs/HANDOFF_20260608.md`. See `SIG_signoff.md`. (3) **SPAFA Journal** (Scopus+free+SE-Asia-archaeology = never tried) = next archaeology paper (reframed P9/P11). No magic-fast venue; realistic 1st accept ~Q3–Q4 2026. D1/D2 Zenodo = NOT a Scopus accept (demoted to preprint-DOI only). Residual artifact purges: P9 line-83, P16 line-468, P0 Ch5, P11 E153+9.2km. Re-run E031/E082/E153 canonical. CANONICAL.md P1 fixed ✓.
@@ -405,7 +421,7 @@ Revision support material still available for all papers. See JOURNAL 2026-03-20
 | P1 | Asian Perspectives, EGQSJ | **v2.0 REWRITTEN** (all lists→prose, language tightened). Target: **JASREP** (Elsevier, Scopus Q1, free subscription route). Already formatted. Backup: Archaeological Research in Asia. |
 | P5 | BKI | (a) Retarget archaeometry journal as-is, OR (b) major rewrite for humanities framing |
 | P9 | JSEAS | (a) World Archaeology / Cambridge Arch. J., OR (b) hold for P2/P8 outcome |
-| P11 | Indonesia (Cornell) | Internet Archaeology (Diamond OA) / BIPPA (free) / Aziatische Studien (Diamond OA) |
+| P11 | Indonesia (Cornell), **Archipel (2026-06-29)** | **2× rejected** (both editorial-level, no peer review). Gate first: apply `revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md` + SIG. Venues (Scopus+free): **SPAFA Journal** (SE-Asia archaeology, best fit) → **Wacana** "Prehistoric art" Vol 28 ~Apr 2027 → PCI Archaeology. **Queued behind ME#19 external actions — not ahead.** |
 
 ## KEY FINDINGS THIS SESSION (reference only)
 
