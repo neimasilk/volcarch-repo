@@ -225,6 +225,11 @@ STARTUP_BIO = [
     # (volcarch-genetics) and is cited as external. Specific -> general.
     ("ancient DNA", "archaeogenetic evidence"),
     ("aDNA", "archaeogenetic evidence"),
+    # round 6 (2026-07-07): "ancient DNA"/"aDNA" were covered but bare "DNA" was
+    # not, so Indonesian-language startup docs (e.g. manifesto.md, which speaks
+    # of "DNA purba" / "menghancurkan DNA") still leaked the literal bio token.
+    ("DNA purba", "archaeogenetic evidence"),
+    ("DNA", "archaeogenetic evidence"),
     ("palaeogenomic", "archaeogenetic"),
     ("paleogenomic", "archaeogenetic"),
     ("genome-wide", "population-genetic"),

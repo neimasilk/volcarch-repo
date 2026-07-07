@@ -216,7 +216,7 @@
 
 ## Session 2026-06-25 — Michelson-Morley Falsification Instrument (E216)
 
-PI mandate: build ONE new paper as a *decisive, falsifiable* test of a pre-400 CE Nusantara population, where a clean NULL is a publishable triumph (Michelson-Morley logic). Designed via 9-agent ultracode workflow (4 candidate channels → adversarial escape-hatch stress-test → synthesis). Winner = the **paleo-ecological detection-function** channel (pollen/charcoal), because it is the only one with a *demonstrated within-network positive control* (cores that show no pre-400 clearance DO record post-600 CE clearance → instrument provably sensitive). Radiocarbon-SPD, archaeogenetic-Ne, and convergent-detectability candidates considered and REJECTED (data-starved / underpowered / scope). **Full design (hand-off ready, NOT executed): `experiments/E216_paleoecological_interferometer/README.md`.**
+PI mandate: build ONE new paper as a *decisive, falsifiable* test of a pre-400 CE Nusantara population, where a clean NULL is a publishable triumph (Michelson-Morley logic). Designed via 9-agent ultracode workflow (4 candidate channels → critical escape-hatch stress-test → synthesis). Winner = the **paleo-ecological detection-function** channel (pollen/charcoal), because it is the only one with a *demonstrated within-network positive control* (cores that show no pre-400 clearance DO record post-600 CE clearance → instrument provably sensitive). Radiocarbon-SPD, archaeogenetic-Ne, and convergent-detectability candidates considered and REJECTED (data-starved / underpowered / scope). **Full design (hand-off ready, NOT executed): `experiments/E216_paleoecological_interferometer/README.md`.**
 
 | ID | Title | Maturity | Source | Links |
 |----|-------|----------|--------|-------|

@@ -149,7 +149,7 @@ Sanskritisasi menimpa (bukan mengganti) kosmologi asli Nusantara. Substrat pra-I
 - **E050:** Canarium (Burseraceae) mengikuti rute migrasi Austronesia (388 rekord GBIF di Madagaskar)
 - **E051:** 25.244 nama desa Jawa: Yogyakarta 26,2% pra-Hindu vs rerata Jawa 57,7% (rho=0,387, p<0,0001)
 - **E056:** Candi cluster di area MORE Sanskrit: Mann-Whitney p=0,007 — tanda ganda Indianisasi
-- **E053:** archaeogenetic evidence Jawa: 0/84 sampel berhasil (Fisher p=0,047) *(sugestif — gagal FDR correction, E068)* — tafonomi vulkanik menghancurkan DNA
+- **E053:** archaeogenetic evidence Jawa: 0/84 sampel berhasil (Fisher p=0,047) *(sugestif — gagal FDR correction, E068)* — tafonomi vulkanik menghancurkan archaeogenetic evidence
 - **Falsifikasi:** Jika deteksi substrat ML menghasilkan AUC < 0.60 secara konsisten → pola fonologis tidak nyata
 
 ### L5: Tafonomi Genre (*Genre Taphonomy*)
@@ -208,7 +208,7 @@ Tanaman mortuary (menyan, kamboja) ABSEN dari 268 prasasti (E035), sementara hya
 
 ### E053: Jerat Sirkular archaeogenetic evidence (*The Circular Trap*)
 
-Jawa: 7 situs, 84 sampel archaeogenetic evidence → ZERO keberhasilan (0%). Situs non-Jawa: 50% berhasil. Fisher p = 0,047. Situs berhasil rata-rata 490 km dari gunung api; gagal 144 km (Mann-Whitney p = 0,002). **Ketiadaan archaeogenetic evidence Jawa ADALAH bukti** — tafonomi vulkanik menghancurkan DNA purba. Jerat sirkular: "Tidak ada archaeogenetic evidence → tidak bisa membuktikan populasi → asumsikan kosong → peradaban dimulai dengan India."
+Jawa: 7 situs, 84 sampel archaeogenetic evidence → ZERO keberhasilan (0%). Situs non-Jawa: 50% berhasil. Fisher p = 0,047. Situs berhasil rata-rata 490 km dari gunung api; gagal 144 km (Mann-Whitney p = 0,002). **Ketiadaan archaeogenetic evidence Jawa ADALAH bukti** — tafonomi vulkanik menghancurkan archaeogenetic evidence. Jerat sirkular: "Tidak ada archaeogenetic evidence → tidak bisa membuktikan populasi → asumsikan kosong → peradaban dimulai dengan India."
 
 ### E051 × E056: Model Pusat-Pinggiran (*Court-Center Model*)
 
