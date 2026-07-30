@@ -8929,3 +8929,51 @@ Diagnosis dari survei repo:
   menginstruksikan menaruhnya sebagai direktori *sibling*. Menunggu izin PI untuk dipindah.
 
 **Belum di-commit** — menunggu izin PI, bersama dua sesi sebelumnya (2026-07-07, 2026-07-27).
+
+---
+
+## 2026-07-30 (2) | Addendum — genetics dipindah, 213 eksperimen dipetakan, 3 sesi di-commit
+
+**Type:** STRUCTURAL (lanjutan entri 2026-07-30) · **Status:** SELESAI
+
+Entri sebelumnya menutup dengan tiga temuan menggantung. Ketiganya diselesaikan setelah PI menyetujui.
+
+### Koreksi atas entri 2026-07-30 (1)
+
+Entri itu menyebut "`COMPANION_REPOS.md` bilang E203 sudah pindah tapi `experiments/E203_*` masih ada —
+dua dokumen bertentangan." **Itu salah baca.** `experiments/E203_genome_population_structure/` isinya
+**nol file** — hanya subdirektori `results/` kosong, dan tidak ter-track git. Pemindahan 2026-06-10
+memang tuntas; yang tertinggal cuma husk kosong yang membuatnya *tampak* belum pindah.
+`COMPANION_REPOS.md` akurat sejak awal. Husk dihapus.
+
+### Dikerjakan
+
+1. **`volcarch-genetics` → `D:\documents\volcarch-genetics`** (sibling, sesuai instruksi
+   `COMPANION_REPOS.md` sendiri). Sebelumnya bersarang di dalam volcarch-repo dan memang muncul sebagai
+   `?? volcarch-genetics/` di `git status`. Git history repo itu utuh. README-nya dikoreksi: teks lama
+   bilang `experiments/` di sana "salinan bacaan, kanonik tetap di volcarch-repo" — **sudah tidak
+   benar**, E053 + E203 kanonik di sana (di-commit di repo itu: `703fa18`). `COMPANION_REPOS.md`
+   diperbarui + ditambah peringatan eksplisit bahwa pemecahan ini **bukan preseden** untuk memecah
+   topik lain (alasannya penolakan-topik oleh model, bukan fokus).
+2. **Pemetaan eksperimen → jalur, lengkap.** `tools/scan_experiments.py` ditambah `LINE_MAP` eksplisit
+   yang bisa diaudit (bukan heuristik kata kunci — tebakan regex akan salah-file secara diam-diam),
+   plus laporan **UNMAPPED** kalau eksperimen baru lupa didaftarkan, plus deteksi ghost-entry.
+   Output baru: seksi "By Line of Inquiry" di `EXPERIMENT_INDEX.md` dan field `lines` di JSON.
+   **Indeks 84 → 213 entri; 213/213 terpetakan; 16 eksperimen lintas-jalur** (jalur utama di posisi
+   pertama). Sebaran: 01 spatial 77 · 02 taphonomy 46 · 03 paleoenv 3 · 04 language 62 ·
+   05 archival 14 · 06 thesis 27 · 07 career 0.
+3. **D2 / Mini-NusaRC dipindah dari jalur 01 ke 02.** Setelah membaca README-nya: itu database
+   **radiocarbon** untuk pengujian **H-TOM**, bukan dataset model-situs.
+4. **Tiga sesi di-commit** di branch `reorg/lines-navigation` (bukan langsung `main`):
+   `4f8d961` E216 hardening (17 file) · `a433ab3` E217–E223 + paket review (187 file) ·
+   `801669a` reorganisasi navigasi (59 file, termasuk 35 rename handoff).
+   Commit pertama sempat menyerap 35 rename handoff karena rename-nya sudah ter-stage di index sebelum
+   branch dibuat; diperbaiki lewat `reset --soft` + re-commit. `git diff` antara tree lama dan baru
+   **kosong** — hanya batas commit yang berubah, tidak ada isi yang hilang.
+
+**Working tree bersih.** Belum di-push; belum di-merge ke `main`.
+
+### Catatan metode
+
+Angka 214 di entri (1) adalah jumlah direktori **sebelum** husk E203 dibuang; sesudahnya **213**.
+Kedua angka benar untuk waktunya masing-masing.
