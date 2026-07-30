@@ -19,6 +19,135 @@ EXPERIMENTS_DIR = os.path.join(REPO_ROOT, "experiments")
 OUTPUT_MD = os.path.join(REPO_ROOT, "docs", "EXPERIMENT_INDEX.md")
 OUTPUT_JSON = os.path.join(REPO_ROOT, "docs", "experiment_index.json")
 
+# ---------------------------------------------------------------------------
+# LINE ASSIGNMENT (lines/ navigation layer — see lines/README.md)
+#
+# Explicit and auditable ON PURPOSE. A regex/keyword guess would silently
+# mis-file experiments, and a stale mapping is exactly the failure this layer
+# exists to prevent. An experiment MAY belong to several lines — the first
+# entry is its primary line. Never partition experiments/ on disk.
+#
+# WHEN YOU ADD AN EXPERIMENT: add it here too. The script exits non-zero-ish
+# loud (prints an UNMAPPED block) if you forget.
+# ---------------------------------------------------------------------------
+LINES = {
+    "01_spatial":       "Predictive modelling & site distribution",
+    "02_taphonomy":     "Burial, erosion, exposure",
+    "03_paleoenv":      "Paleo-environmental falsification",
+    "04_language_text": "Language & text",
+    "05_archival_nlp":  "Colonial archives & NLP",
+    "06_thesis":        "Original question / synthesis",
+    "07_career":        "Career & exposure (no experiments)",
+}
+EXTERNAL = "external:volcarch-genetics"
+
+LINE_MAP = {
+    # --- 01 spatial ---------------------------------------------------------
+    "E003": ["01_spatial"], "E004": ["01_spatial"], "E005": ["01_spatial"],
+    "E006": ["01_spatial"], "E007": ["01_spatial"], "E008": ["01_spatial"],
+    "E009": ["01_spatial"], "E010": ["01_spatial"], "E011": ["01_spatial"],
+    "E012": ["01_spatial"], "E013": ["01_spatial"], "E014": ["01_spatial"],
+    "E015": ["01_spatial"], "E016": ["01_spatial"], "E019": ["01_spatial"],
+    "E031": ["01_spatial"], "E059": ["01_spatial"], "E065": ["01_spatial"],
+    "E066": ["01_spatial"], "E076": ["01_spatial"], "E080": ["01_spatial"],
+    "E097": ["01_spatial"], "E100": ["01_spatial"], "E103": ["01_spatial"],
+    "E104": ["01_spatial"], "E106": ["01_spatial"], "E108": ["01_spatial"],
+    "E110": ["01_spatial"], "E115": ["01_spatial"], "E116": ["01_spatial"],
+    "E118": ["01_spatial"], "E120": ["01_spatial"], "E121": ["01_spatial"],
+    "E122": ["01_spatial"], "E124": ["01_spatial"], "E129": ["01_spatial"],
+    "E139": ["01_spatial"], "E151": ["01_spatial"], "E152": ["01_spatial"],
+    "E153": ["01_spatial"], "E155": ["01_spatial"], "E159": ["01_spatial"],
+    "E163": ["01_spatial"], "E167": ["01_spatial"], "E171": ["01_spatial"],
+    "E172": ["01_spatial"], "E175": ["01_spatial"], "E176": ["01_spatial"],
+    "E183": ["01_spatial"], "E184": ["01_spatial"], "E185": ["01_spatial"],
+    "E187": ["01_spatial"], "E189": ["01_spatial"], "E190": ["01_spatial"],
+    "E191": ["01_spatial"], "E192": ["01_spatial"], "E194": ["01_spatial"],
+    "E196": ["01_spatial"], "E202": ["01_spatial"], "E209": ["01_spatial"],
+    "E210": ["01_spatial"], "E217": ["01_spatial"], "E218": ["01_spatial"],
+    "E219": ["01_spatial"], "E220": ["01_spatial"], "E221": ["01_spatial"],
+    "E222": ["01_spatial"], "E223": ["01_spatial"],
+    # --- 02 taphonomy -------------------------------------------------------
+    "E002": ["02_taphonomy"], "E017": ["02_taphonomy"], "E018": ["02_taphonomy"],
+    "E020": ["02_taphonomy"], "E024": ["02_taphonomy"], "E052": ["02_taphonomy"],
+    "E069": ["02_taphonomy"], "E075": ["02_taphonomy"], "E081": ["02_taphonomy"],
+    "E083": ["02_taphonomy"], "E086": ["02_taphonomy"], "E092": ["02_taphonomy"],
+    "E101": ["02_taphonomy"], "E117": ["02_taphonomy"], "E123": ["02_taphonomy"],
+    "E132": ["02_taphonomy"], "E135": ["02_taphonomy"], "E137": ["02_taphonomy"],
+    "E138": ["02_taphonomy"], "E140": ["02_taphonomy"], "E148": ["02_taphonomy"],
+    "E156": ["02_taphonomy"], "E157": ["02_taphonomy"], "E161": ["02_taphonomy"],
+    "E170": ["02_taphonomy"], "E173": ["02_taphonomy"], "E177": ["02_taphonomy"],
+    "E178": ["02_taphonomy"], "E188": ["02_taphonomy"], "E193": ["02_taphonomy"],
+    "E201": ["02_taphonomy"], "E213": ["02_taphonomy"],
+    # --- 03 paleoenv --------------------------------------------------------
+    "E214": ["03_paleoenv"], "E215": ["03_paleoenv"], "E216": ["03_paleoenv"],
+    # --- 04 language & text -------------------------------------------------
+    "E022": ["04_language_text"], "E023": ["04_language_text"],
+    "E025": ["04_language_text"], "E026": ["04_language_text"],
+    "E027": ["04_language_text"], "E028": ["04_language_text"],
+    "E029": ["04_language_text"], "E030": ["04_language_text"],
+    "E032": ["04_language_text"], "E033": ["04_language_text"],
+    "E034": ["04_language_text"], "E035": ["04_language_text"],
+    "E036": ["04_language_text"], "E037": ["04_language_text"],
+    "E038": ["04_language_text"], "E039": ["04_language_text"],
+    "E040": ["04_language_text"], "E041": ["04_language_text"],
+    "E042": ["04_language_text"], "E043": ["04_language_text"],
+    "E044": ["04_language_text"], "E049": ["04_language_text"],
+    "E050": ["04_language_text"], "E051": ["04_language_text"],
+    "E054": ["04_language_text"], "E056": ["04_language_text"],
+    "E057": ["04_language_text"], "E058": ["04_language_text"],
+    "E061": ["04_language_text"], "E063": ["04_language_text"],
+    "E067": ["04_language_text"], "E074": ["04_language_text"],
+    "E088": ["04_language_text"], "E089": ["04_language_text"],
+    "E090": ["04_language_text"], "E094": ["04_language_text"],
+    "E095": ["04_language_text"], "E096": ["04_language_text"],
+    "E102": ["04_language_text"], "E105": ["04_language_text"],
+    "E111": ["04_language_text"], "E112": ["04_language_text"],
+    "E113": ["04_language_text"], "E114": ["04_language_text"],
+    "E130": ["04_language_text"], "E131": ["04_language_text"],
+    "E134": ["04_language_text"], "E146": ["04_language_text"],
+    "E147": ["04_language_text"], "E150": ["04_language_text"],
+    "E160": ["04_language_text"], "E165": ["04_language_text"],
+    "E169": ["04_language_text"], "E181": ["04_language_text"],
+    "E186": ["04_language_text"], "E198": ["04_language_text"],
+    "E205": ["04_language_text"], "E208": ["04_language_text"],
+    # --- 05 archival NLP ----------------------------------------------------
+    "E070": ["05_archival_nlp"], "E091": ["05_archival_nlp"],
+    "E093": ["05_archival_nlp"], "E098": ["05_archival_nlp"],
+    "E125": ["05_archival_nlp"], "E141": ["05_archival_nlp"],
+    "E142": ["05_archival_nlp"], "E143": ["05_archival_nlp"],
+    "E200": ["05_archival_nlp"], "E206": ["05_archival_nlp"],
+    "E207": ["05_archival_nlp"], "E211": ["05_archival_nlp"],
+    # --- 06 thesis / synthesis ---------------------------------------------
+    "E048": ["06_thesis"], "E055": ["06_thesis"], "E060": ["06_thesis"],
+    "E062": ["06_thesis"], "E064": ["06_thesis"], "E068": ["06_thesis"],
+    "E071": ["06_thesis"], "E073": ["06_thesis"], "E078": ["06_thesis"],
+    "E079": ["06_thesis"], "E099": ["06_thesis"], "E119": ["06_thesis"],
+    "E127": ["06_thesis"], "E133": ["06_thesis"], "E136": ["06_thesis"],
+    "E144": ["06_thesis"], "E145": ["06_thesis"], "E149": ["06_thesis"],
+    "E154": ["06_thesis"], "E158": ["06_thesis"], "E162": ["06_thesis"],
+    "E168": ["06_thesis"], "E174": ["06_thesis"], "E199": ["06_thesis"],
+    # --- cross-line (primary first) ----------------------------------------
+    "E001": ["02_taphonomy", "01_spatial"],
+    "E082": ["04_language_text", "01_spatial"],
+    "E084": ["02_taphonomy", "01_spatial"],
+    "E085": ["04_language_text", "02_taphonomy"],
+    "E087": ["04_language_text", "02_taphonomy"],
+    "E107": ["04_language_text", "02_taphonomy"],
+    "E109": ["01_spatial", "02_taphonomy"],
+    "E126": ["02_taphonomy", "01_spatial"],
+    "E128": ["02_taphonomy", "05_archival_nlp"],
+    "E164": ["02_taphonomy", "06_thesis"],
+    "E166": ["02_taphonomy", "01_spatial"],
+    "E179": ["06_thesis", "01_spatial"],
+    "E182": ["01_spatial", "02_taphonomy"],
+    "E195": ["02_taphonomy", "01_spatial"],
+    "E197": ["02_taphonomy", "05_archival_nlp"],
+    "E204": ["02_taphonomy", "06_thesis"],
+    # --- external (companion repo; no local directory) ----------------------
+    "E053": [EXTERNAL],
+    "E203": [EXTERNAL],
+}
+
 
 def extract_from_readme(readme_path):
     """Parse a README.md and extract key fields."""
@@ -138,6 +267,9 @@ def scan_all_experiments():
             if info:
                 exp.update(info)
 
+        # Line assignment (lines/ navigation layer). Primary line first.
+        exp["lines"] = LINE_MAP.get(eid, [])
+
         experiments.append(exp)
 
     return experiments
@@ -162,21 +294,57 @@ def generate_index(experiments):
         lines.append(f"- **{s}:** {c}")
     lines.append("")
 
+    # Per-line breakdown (lines/ navigation layer)
+    lines.append("## By Line of Inquiry")
+    lines.append("")
+    lines.append("Navigation layer: `lines/<name>/`. See `lines/README.md`. An experiment may serve")
+    lines.append("several lines — it is listed under each, and its **primary** line is listed first in")
+    lines.append("the table below. `experiments/` itself stays flat and shared; it is never partitioned.")
+    lines.append("")
+    for lname, ldesc in LINES.items():
+        members = [e["id"] for e in experiments if lname in e.get("lines", [])]
+        primary = [e["id"] for e in experiments if e.get("lines", [None])[:1] == [lname]]
+        lines.append(f"### `{lname}` — {ldesc}")
+        lines.append("")
+        if members:
+            lines.append(f"**{len(members)}** experiments ({len(primary)} primary): "
+                         + " · ".join(members))
+        else:
+            lines.append("*(no experiments — this line's work is not experimental)*")
+        lines.append("")
+
+    ext = [e["id"] for e in experiments if EXTERNAL in e.get("lines", [])]
+    lines.append(f"### `{EXTERNAL}`")
+    lines.append("")
+    lines.append("Canonical in the companion repo `D:\\documents\\volcarch-genetics` — **no local")
+    lines.append("directory**, by design (see `docs/COMPANION_REPOS.md`). Cite as external evidence.")
+    lines.append("")
+    lines.append("E053 · E203" if not ext else " · ".join(ext))
+    lines.append("")
+
+    unmapped = [e["id"] for e in experiments if not e.get("lines")]
+    if unmapped:
+        lines.append("### ⚠ UNMAPPED — add to `LINE_MAP` in `tools/scan_experiments.py`")
+        lines.append("")
+        lines.append(" · ".join(unmapped))
+        lines.append("")
+
     # Main table
     lines.append("## All Experiments")
     lines.append("")
-    lines.append("| ID | Title | Status | Layer | Paper | Key Metric |")
-    lines.append("|-----|-------|--------|-------|-------|------------|")
+    lines.append("| ID | Title | Status | Line | Layer | Paper | Key Metric |")
+    lines.append("|-----|-------|--------|------|-------|-------|------------|")
 
     for e in experiments:
         eid = e["id"]
         title = e.get("title", e["dir"].replace(eid + "_", "").replace("_", " "))[:50]
         status = e.get("status", "NO README" if not e["has_readme"] else "?")
+        elines = ",".join(l.replace("external:", "ext:") for l in e.get("lines", [])) or "**?**"
         layers = ",".join(e.get("layers", [""]))
         papers = ",".join(e.get("papers", [""]))
         metric = e.get("key_metric", "")[:40]
 
-        lines.append(f"| {eid} | {title} | {status} | {layers} | {papers} | {metric} |")
+        lines.append(f"| {eid} | {title} | {status} | {elines} | {layers} | {papers} | {metric} |")
 
     lines.append("")
 
@@ -235,6 +403,26 @@ def main():
         print(f"\nMISSING READMEs ({len(no_readme)}):")
         for e in no_readme:
             print(f"  {e['dir']}")
+
+    # Line coverage — the check that keeps lines/ from going stale
+    print("\nLine coverage:")
+    for lname in LINES:
+        n = sum(1 for e in experiments if lname in e.get("lines", []))
+        print(f"  {lname}: {n}")
+
+    unmapped = [e["id"] for e in experiments if not e.get("lines")]
+    if unmapped:
+        print(f"\n*** UNMAPPED ({len(unmapped)}) — add these to LINE_MAP in this file: ***")
+        print("  " + " ".join(unmapped))
+    else:
+        print(f"\nAll {len(experiments)} local experiments mapped to a line. OK")
+
+    # Stale entries: mapped IDs with no directory (expected only for EXTERNAL)
+    local_ids = {e["id"] for e in experiments}
+    ghosts = [k for k, v in LINE_MAP.items()
+              if k not in local_ids and EXTERNAL not in v]
+    if ghosts:
+        print(f"\nWARNING: LINE_MAP references IDs with no directory: {' '.join(ghosts)}")
 
 
 if __name__ == "__main__":

@@ -3,112 +3,158 @@
 ## Project: VOLCARCH
 **Volcanic Taphonomic Bias in Indonesian Archaeological Records**
 
-This is a **research repository**, not a software project. The "product" is knowledge (papers, models, maps), not an application. Applications are side-products that serve the research.
+This is a **research repository**, not a software project. The "product" is knowledge (papers,
+models, maps), not an application. Applications are side-products that serve the research.
 
-## How to Navigate This Repo
+It began as one question — *was there a Nusantara society before 400 CE, and did volcanism erase its
+record?* — and has since branched into several distinct method-communities, plus a career/PhD track.
+**The branching is intentional and fine.** `lines/` is how it is kept navigable.
 
-**Always read in this order before starting any task:**
+---
 
-0. `docs/WORKSTATE.md` — **Read this FIRST, always.** Current in-progress work, blocked items, and session prompt. This is your work contract — continue unfinished items before starting new work.
-1. `docs/L1_CONSTITUTION.md` — The "UUD". Core hypotheses, philosophy, ethics. Almost never changes. Read this to understand *why* this project exists.
-2. `docs/L2_STRATEGY.md` — Current research phase and active papers. Changes per phase. Read this to understand *what we are working on now*.
-3. `docs/L3_EXECUTION.md` — Active tasks and experiments. Changes frequently. Read this to understand *what to do next*.
-4. `docs/EVAL.md` — Evaluation criteria and validation protocol. Read this to understand *how we measure success*.
-5. `docs/JOURNAL.md` — Append-only research log. Read recent entries to understand *what has been tried and what happened*.
-6. `data/schema.md` — Data format definitions. Read when working with datasets.
+## 1. Work out which MODE you are in BEFORE reading anything else
 
-## Repo Structure
+**Check your working directory.**
+
+### 🔬 FOCUS MODE — cwd is inside `lines/<nn>_<name>/`
+
+That line's `CLAUDE.md` is your contract. Its `STATE.md` is your work queue. Read those two, then
+only what they point at.
+
+**Do NOT** read other lines' `STATE.md`, other lines' manuscripts, the full `docs/JOURNAL.md`, or
+`docs/WORKSTATE.md`. If the task genuinely needs a second line, **say so and stop** — crossing lines
+is an orbit-mode decision, not yours to make silently.
+
+Canonical content stays at the repo root (`papers/`, `experiments/`, `data/`, `tools/`). A line
+folder holds only its contract, its state, and pointers — nothing is duplicated. Launch so you can
+reach both, while keeping search scoped to the line:
 
 ```
-volcarch/
-├── CLAUDE.md                  ← You are here
-├── README.md                  ← Public-facing project description
-├── docs/
-│   ├── L1_CONSTITUTION.md     ← Layer 1: Core hypotheses & philosophy (stable)
-│   ├── L2_STRATEGY.md         ← Layer 2: Current phase & methodology (per-phase)
-│   ├── L3_EXECUTION.md        ← Layer 3: Active tasks & experiments (per-week)
-│   ├── EVAL.md                ← Evaluation criteria & validation protocol (stable-ish)
-│   └── JOURNAL.md             ← Research log: decisions, results, failures (append-only)
-├── data/
-│   ├── raw/                   ← Original downloaded data (never modify)
-│   ├── processed/             ← Cleaned/transformed data
-│   ├── schema.md              ← Data format definitions
-│   └── sources.md             ← Data provenance documentation
-├── experiments/
-│   ├── E001_site_density_vs_volcanic_proximity/
-│   │   ├── README.md          ← Hypothesis, method, result, conclusion
-│   │   ├── ...code files...
-│   │   └── results/
-│   ├── E002_.../
-│   └── ...
-├── models/                    ← Trained ML models + configs
-├── maps/                      ← Generated probability maps, visualizations
-├── papers/
-│   ├── P1_taphonomic_framework/
-│   ├── P2_settlement_model/
-│   └── P3_burial_depth/
-├── tools/                     ← Shared utility scripts (data collection, GIS, etc.)
-└── inBox/                     ← Drop zone for new materials (see protocol below)
+cd lines/01_spatial && claude --add-dir ../..     # or run /add-dir ../.. in-session
 ```
 
-## Rules for Claude Code
+### 🛰 ORBIT MODE — cwd is the repo root
+
+Read **`docs/WORKSTATE.md`** first. It is the orbit dashboard: overdue external actions, the status
+of every line, decisions waiting on the PI. Then `lines/README.md` for the line map.
+
+Orbit mode is for what no single line can do: portfolio review, **Mata Elang**, hunting for topics,
+retargeting rejected papers, unparking ideas, and accounting for the forcing function. It is **not**
+for doing a line's work — enter the line for that.
+
+> ⚠ **The documented failure mode of this project is using orbit mode as an escape hatch:** step out
+> one level, find an interesting new topic, and don't send the email that is months overdue. 223
+> experiments, 0 acceptances, 7 rejections. The binding constraint is **non-exposure, not rigor**
+> (ME#19, memory `feedback_non_exposure`). This is why `WORKSTATE.md` opens with the exposure ledger
+> and not with `IDEA_REGISTRY.md`.
+
+---
+
+## 2. Binding rules — apply in BOTH modes
 
 ### Research Integrity
 - **Never fabricate data.** If data is unavailable, document the gap.
-- **Always record what you tried**, even if it failed. Append to JOURNAL.md.
+- **Always record what you tried**, even if it failed. Append to `docs/JOURNAL.md`.
 - **Cite sources.** Every dataset, every number, every claim needs a traceable source.
 - **Uncertainty is expected.** Use confidence intervals, not false precision.
-- **Submission Integrity Gate (BINDING).** Before submitting/resubmitting ANY manuscript, pass `docs/SUBMISSION_INTEGRITY_GATE.md` (GO/NO-GO, gates G1–G10). Never answer a central, valid critique by rewording — fix the data or downgrade the claim. Re-derive every headline number blind from raw data. Adopted 2026-06-08 after P7/Antiquity rejection + paleo-environmental counter-evidence (E214).
+- **Submission Integrity Gate (BINDING).** Before submitting/resubmitting ANY manuscript, pass
+  `docs/SUBMISSION_INTEGRITY_GATE.md` (GO/NO-GO, gates G1–G10). **Never answer a central, valid
+  critique by rewording** — fix the data or downgrade the claim. Re-derive every headline number
+  blind from raw data. Adopted 2026-06-08 after the P7/Antiquity rejection + E214 counter-evidence.
+- **F9:** do not count "N converging channels" as strength — the channels are correlated.
+- **F10:** do not cite `docs/drafts/manifesto.md` as evidence. It is a claim, not a source.
 
 ### Experiment Protocol
-- Every experiment gets a numbered directory: `E001_`, `E002_`, etc.
-- Every experiment directory has a `README.md` with: hypothesis, method, data used, result, conclusion, and status (SUCCESS / FAILED / INCONCLUSIVE / REVISIT).
+- Numbered directory: `experiments/ENNN_short_name/`. **Numbering is global and flat** — never
+  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E223).
+- Every experiment has a `README.md` with hypothesis, method, data used, result, conclusion, and
+  status (SUCCESS / FAILED / INCONCLUSIVE / REVISIT). Pre-register the design in `DESIGN.md` when
+  the result could go either way — E217–E223 are the model to copy.
 - Failed experiments are NOT deleted. They are documented and tagged FAILED.
-- If revisiting a failed experiment, create a new experiment (e.g., `E005_revisit_E002_...`).
+- Revisiting a failed experiment creates a NEW experiment (e.g. `E005_revisit_E002_...`).
+- Tag which line(s) an experiment serves in its README. An experiment may serve several — that is
+  normal and is why `experiments/` is a shared flat pool, not partitioned by line.
 
 ### Code Style
 - Python 3.10+, prefer scripts over notebooks for reproducibility.
-- Use `requirements.txt` or `pyproject.toml` for dependencies.
+- `requirements.txt` / `pyproject.toml` for dependencies.
 - Prefer well-known libraries: geopandas, rasterio, scikit-learn, xgboost, folium.
 - Comment with *why*, not *what*.
+- Windows cp1252: use a UTF-8 wrapper.
 
 ### When Unsure
-- If a task involves domain expertise (archaeology, geology) that you lack confidence in, **flag it** in JOURNAL.md and suggest consulting a domain expert.
-- If a task could take the project in a fundamentally new direction, **ask first** rather than executing.
-- If an experiment result contradicts the core hypothesis (L1), **document it honestly** and flag for review. Do not suppress inconvenient results.
+- Domain expertise you lack confidence in (archaeology, geology) → **flag it** in JOURNAL.md and
+  suggest a domain expert.
+- A task that could take the project in a fundamentally new direction → **ask first**.
+- A result that contradicts the core hypothesis → **document it honestly** and flag for review.
+  **Do not suppress inconvenient results.** E214 and E217–E223 are the project's most valuable
+  work precisely because they are disconfirming.
+
+### Session Continuity
+- **Session start:** in focus mode read the line's `STATE.md`; in orbit mode read
+  `docs/WORKSTATE.md`. Continue in-progress items before starting anything new.
+- **After compaction:** re-read the same file to re-anchor.
+- **Session end (MANDATORY):** update the `STATE.md` of every line you touched, and
+  `docs/WORKSTATE.md` if a line's headline status or a PI decision changed. Append to `JOURNAL.md`.
+- **Rule:** never let work disappear between sessions. In-progress ⇒ it is written down.
+- Handoff docs: only the **current** one lives in `docs/`. Older ones → `docs/archive/handoffs/`.
 
 ### inBox Protocol
-The `inBox/` folder is a **drop zone** for new materials (drafts, data files, references, etc.) added by the researcher between sessions.
+`inBox/` is a drop zone for new material added by the researcher between sessions.
+- At session start, read everything in `inBox/`, identify it, and route it: drafts → `docs/drafts/`
+  (+ entry in its README); data → `data/raw|processed/` (+ entry in `data/sources.md`); literature →
+  the owning line's paper folder or `docs/bibliography/`; code → `tools/` or the experiment folder.
+- **Also record which line it belongs to** in that line's `STATE.md`.
+- After processing, `inBox/` must be **empty**. Log every routed item in `JOURNAL.md`.
 
-**Rules:**
-- Anything new goes into `inBox/` first.
-- At the start of each session, Claude reads everything in `inBox/`, determines what it is, and routes it:
-  - **Draft papers/ideas** → `docs/drafts/` (with entry in `docs/drafts/README.md`)
-  - **Data files** → `data/raw/` or `data/processed/` (with entry in `data/sources.md`)
-  - **References/literature** → relevant paper folder or `docs/`
-  - **Code/tools** → `tools/` or relevant experiment folder
-- After processing, `inBox/` must be **empty**. Nothing lives there permanently.
-- Every item processed from `inBox/` gets logged in `docs/JOURNAL.md`.
+### Ideas — never discarded
+- `docs/IDEA_REGISTRY.md` — every idea gets an `I-NNN` and a maturity (SPARK → HYPOTHESIS →
+  TESTABLE → READY → EXPERIMENT → RESULT → PAPER). **Retired papers ≠ retired ideas.**
+- `docs/TRIGGER_MAP.md` — reverse blocker index: "if X happens, what becomes possible?"
+- Parked papers keep a `PARKED.md` in their folder stating the **unpark conditions**
+  (`papers/P16_computational_textual_archaeology/PARKED.md` is the template).
+- Serendipity: found something for another line while working this one? Tag it in JOURNAL as
+  `[BRIDGE → <line>, I-NNN]` and add it to that line's `STATE.md` inbox. Do not chase it now.
+- `docs/drafts/` incubates paper ideas. A draft goes active only on: **testable hypothesis +
+  accessible data + executable methodology.** *"Santai dalam waktu, serius dalam metode."*
 
-### Draft Papers Pipeline
-- `docs/drafts/` holds incubating paper ideas — frameworks discussed but not yet backed by data/experiments.
-- See `docs/drafts/README.md` for the catalog with priorities and status.
-- A draft enters active development only after passing the gate: **testable hypothesis + accessible data + executable methodology**.
-- Filosofi: *"Santai dalam waktu, serius dalam metode."*
+---
 
-### Exploration Mode & Idea Preservation
-- **`docs/IDEA_REGISTRY.md`** — Master catalog of ALL research ideas with maturity levels (SPARK → PAPER). Every idea gets an ID. Retired papers ≠ retired ideas.
-- **`docs/TRIGGER_MAP.md`** — Reverse blocker index: "If X happens, what becomes possible?" Scan during Mata Elang reviews.
-- **Serendipity tagging:** When working on Paper X and discovering something for Paper Y, tag it in JOURNAL: `[BRIDGE → PY, I-NNN]`
-- During exploration sessions, new ideas go to IDEA_REGISTRY with appropriate maturity level. Never discard — everything gets an ID.
-- Mata Elang weekly reviews: scan TRIGGER_MAP for newly unblocked ideas, update IDEA_REGISTRY maturity levels.
+## 3. Repo layout
 
-### Session Continuity Protocol
-- **Session start:** Read `docs/WORKSTATE.md` FIRST. Continue in-progress items before starting anything new. WORKSTATE is a work contract, not background reading.
-- **After context compaction:** If you lose context mid-session, re-read `docs/WORKSTATE.md` to re-anchor on what you were doing.
-- **Session end:** Update `docs/WORKSTATE.md` (MANDATORY). Move completed items out, update next actions, record any new blockers. This is how future sessions know what to continue.
-- **Rule:** Never let work disappear between sessions. If something is in progress, it must be in WORKSTATE.md.
+```
+volcarch-repo/
+├── CLAUDE.md              ← you are here (both modes)
+├── lines/                 ← ★ THE ENTRY LAYER. One folder per line of inquiry.
+│   ├── README.md           ← line map (orbit-mode index)
+│   └── NN_name/{CLAUDE.md, STATE.md}
+├── docs/
+│   ├── WORKSTATE.md        ← ★ orbit dashboard (short, by design)
+│   ├── L1_CONSTITUTION.md  ← core hypotheses & ethics. Owned by line 06.
+│   ├── L2_STRATEGY.md      ← phase/methodology. Background; stale since 2026-03-30.
+│   ├── L3_EXECUTION.md     ← superseded by line STATE.md files. Background only.
+│   ├── EVAL.md             ← how success is measured
+│   ├── SUBMISSION_INTEGRITY_GATE.md  ← BINDING pre-submit gate
+│   ├── JOURNAL.md          ← append-only log (8.8k lines — grep it, don't read it)
+│   ├── IDEA_REGISTRY.md · TRIGGER_MAP.md · COMPANION_REPOS.md
+│   ├── HANDOFF_<latest>.md ← current handoff only
+│   ├── archive/            ← superseded handoffs + WORKSTATE logs
+│   ├── correspondence/ · research_notes/ · bibliography/ · funding/ · HKI/ · drafts/
+├── experiments/ENNN_*/     ← flat, global, SHARED across lines (2.2 GB)
+├── papers/PNN_*/           ← manuscripts, canonical (383 MB)
+├── data/{raw,processed}/   ← SHARED (7.9 GB). raw/ is never modified.
+├── tools/                  ← shared scripts + voc_archnlp + globalise_pipeline + dashboard
+├── maps/ · models/ · results/ · deploy/
+└── inBox/                  ← drop zone; must be empty after processing
+```
 
-## Current Status
-→ See `docs/WORKSTATE.md` for immediate work contract (what to continue NOW).
-→ See `docs/L3_EXECUTION.md` for full task list and context.
+**External:** the molecular/population-data channel lives in the **`volcarch-genetics`** repo — see
+`docs/COMPANION_REPOS.md`. Cite it as external evidence with commit/DOI pinning. It is separate for
+**model-compatibility** reasons, not organisational ones; do not use it as a precedent for splitting
+other lines out of this repo.
+
+---
+
+## 4. Current status
+→ **Focus mode:** the line's own `STATE.md`.
+→ **Orbit mode:** `docs/WORKSTATE.md`, then the latest `docs/HANDOFF_*.md`.

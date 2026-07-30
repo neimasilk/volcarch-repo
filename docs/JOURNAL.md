@@ -8365,3 +8365,567 @@ under-review queue.
 - **ME#19 forcing function still governs:** the binding constraint is non-exposure, and the three external
   actions (send Verberne v4 reply, upload D1+D2 to Zenodo, send Lamqaddam reply) remain the priority over
   retargeting P11. Retargeting is queued behind them, not ahead.
+
+---
+
+## 2026-07-07 | Fable strategic plan (WS-A) — E216 hardened, all 4 Opus defects fixed
+
+**Type:** STRATEGIC PLANNING + EXPERIMENT HARDENING
+**Status:** Fable (planning pass) produced `docs/research_notes/FABLE_STRATEGIC_PLAN_20260707.md`;
+Sonnet 5 executed Workstream A (flagship: harden E216) in this session.
+
+**Context:** Pak Amien asked Fable (highest-capability model, one-shot) to read the manifesto and the
+full project state, then produce a mata-elang strategic plan for Sonnet to execute — explicitly NOT a
+new audit/critique sprint (ME#19's stop-list still applies). Four parallel research agents mapped: (1)
+WORKSTATE/L2/L3/EVAL state, (2) E209-E216 experiment results, (3) structural critiques (ME#17/18/19, SIG,
+confirmation-architecture/non-exposure/palynology-counterevidence/peradaban-vulkanik memories), (4) paper
+pipeline + discovery assets (Masterpiece, E209 satellite, E211 VOC-ArchNLP).
+
+**Core diagnosis (Fable):** 216 experiments, 14+ months, 0 acceptances, 7 rejections, 3 under review —
+and the project's own reviewers repeatedly find the same three wounds: correlated-channel convergence
+(F9), manifesto interpretive elasticity (F10), and near-zero disconfirmation. The healthiest recent
+development is E214 (first material counter-evidence) and the honest downgrade to "peradaban vulkanik."
+**Strategic reframe:** stop framing the project as "the invisible civilization exists" (unfalsifiable —
+this is what sank P7 via equifinality); reframe as "here is how to decide it, and here is the one
+measurement that would settle it" — E216 already embodies this and was promoted to flagship status
+(Workstream A) ahead of the Masterpiece rewrite (WS-B), discovery-hunt honest disposition (WS-C),
+exposure-pipeline prep (WS-D), and a project-wide blind re-derivation sweep (WS-E).
+
+**WS-A executed this session — all 4 Opus-review defects (`OPUS_REVIEW_20260625.md`) fixed in
+`experiments/E216_paleoecological_interferometer/`:**
+
+- **D1 (coverage≠resolution self-contradiction):** `apply_prereg_rule()` in `code/e216_detection_function.py`
+  now computes `n_cores_covering_heartland` (geometric RSAP overlap, =1, core J6) separately from
+  `n_cores_resolving_heartland` (actually clears the detection threshold, =0). `OUTCOME.json` key_finding
+  reworded to state both explicitly. No more contradiction between stats and prose.
+- **D2 (deterministic "P(detect)" with no propagated parameter uncertainty):** new
+  `code/e216_sensitivity_sweep.py` sweeps RPP_NAP × threshold × alpha (27-point grid) for both population
+  levels and both modes. Result: network-level P(detect)=0.000 at **every single grid point** — the
+  heartland resolution gap is a structural geometry finding, not a parameter-tuning artifact. This
+  strengthens OUTCOME-3 rather than weakening it. Outputs: `results/sensitivity_network_detection.csv`,
+  `results/sensitivity_summary.json`.
+- **D3 (positive control overstated "CONFIRMED"):** downgraded to "QUALITATIVE ONLY... NOT re-derived from
+  raw data (403 paywall)"; new `go_no_go_branch` field in `OUTCOME.json` discloses that PREREG.md's S2
+  GO/NO-GO gate was technically hit at NO-GO (threshold imported from literature, not extracted from
+  primary data) — OUTCOME-3 is now stated as supported by two independent reasons, not one.
+- **D4 (missing-core headline hid a failing corner):** `compute_missing_core_spec()` rewritten to report
+  the full population×clustering corner table instead of one hardcoded `CONCENTRATION_FACTOR=4.0` headline.
+  Reproduces Opus's reference table exactly (floor+uniform: 12.6pp, does NOT detect; floor+clustered:
+  34.5pp, detects; central+uniform: 21.9pp, detects; central+clustered: 48.8pp, detects). Extended sweep
+  shows the conservative corner (floor+uniform) fails to detect in 85.2% of its own 27-point parameter
+  grid — confirming this is not a one-off bad parameter pick. New outputs: `results/missing_core_corner_table.csv`,
+  `results/sensitivity_missing_core_corners.csv`.
+
+**Also fixed (same defects, different surface):** `code/e216_figure.py` Fig. 1 title/annotation ("no core
+within RSAP" → "resolution gap, J6 covers but dilutes") and Fig. 2 (added a second "uniform clearing"
+line alongside the original "clustered" line, so the floor-population caveat is now visible in the figure
+itself, not just in text — see `figures/fig2_detection_power.png`).
+
+**Rewrote `results/PAPER_DRAFT_OUTLINE.md`** end-to-end with the corrected numbers and honest framing
+throughout (abstract now leads with the caveat, not buries it). **Created `SUBMISSION_CHECKLIST.md`**
+explicitly separating Sonnet-executable work (done) from human-gated steps (palynologist co-author G2/G10,
+cross-model review G9, Zenodo upload G7, actual submission) with required sequencing. **Created
+`zenodo_upload/` skeleton** (structure + metadata suggestions + mini-G1 blind-recompute instructions;
+upload itself not performed — human-gated).
+
+**E216 status change:** SUCCESS (Track-B specification study) → **HARDENED, still NOT submission-ready**
+(needs co-author + G9, per SUBMISSION_CHECKLIST.md). This does not discharge the ME#19 forcing function —
+the three external actions (Verberne reply, Zenodo D1/D2, Lamqaddam reply) remain priority-zero and were
+not touched this session (correctly out of scope for an AI-executable workstream).
+
+**Not yet done from the Fable plan (deferred, in priority order):** WS-A A5 (full VH&A manuscript prose,
+beyond the outline), WS-B (Masterpiece/P0 reframe around the detection-power question), WS-C (E209 honest
+reframe/retire), WS-D (paper revision packages + manifesto v5.0), WS-E (project-wide blind re-derivation
+sweep). Full plan: `docs/research_notes/FABLE_STRATEGIC_PLAN_20260707.md`.
+
+---
+
+## 2026-07-27 | P2/JCAA #280 — FIRST REVISE-AND-RESUBMIT (decision 2026-07-23)
+
+**Editor Philip Verhagen requests revisions** on "Tautology-Free Settlement Suitability Modeling in East
+Java Under Survey and Taphonomic Bias" (JCAA submission #280, submitted 2026-03-11). Revisions "may then
+undergo further peer review prior to acceptance." Deadline stated: 4 weeks → **2026-08-20**.
+
+**This is the project's first R&R in 14 months** and the first content-level review that did not end in
+rejection. Scorecard update: 7 rejected, **1 R&R (P2-JCAA)**, 2 still under review (P8-OL, P17-ArchCalc).
+
+**Reviewer split.** R1 = *Resubmit for Review* (method framework "one of the strongest aspects"; originality
+Fair). R2 = *Resubmit Elsewhere* (originality Excellent, but framing of research question **Poor**, journal
+relevance Fair). The editor overrode toward revision. **R2 is the gate, not R1** — effort is weighted to
+R2's structural asks.
+
+**Two decisive scientific asks, both requiring new runs:**
+- **R1:** benchmark against **MaxEnt** or justify its absence ("essential", stated twice) → **E217** planned:
+  maxnet under identical block-CV folds across the same E007→E013 background ladder. If the pseudo-absence
+  gain replicates in MaxEnt the central claim becomes algorithm-independent — a stronger result than the
+  current single-family evidence. Pre-registered failure branch: if MaxEnt matches/beats XGBoost, report it
+  and reframe algorithm choice as interpretability, not performance.
+- **R2:** elevation/slope may drive low suitability in rugged terrain regardless of volcanism — **compare
+  volcanic to environmentally similar non-volcanic uplands** → **E218** planned: terrain-matched
+  (elevation × slope × TRI × TWI) volcanic vs non-volcanic uplands (Southern Mountains karst, Kendeng
+  limestone hills), comparing predicted suitability and observed site density, with a **pre-registered
+  decision rule including the branch that refutes the taphonomic reading** and reduces the paper to a purely
+  methodological contribution. Links to E178 (karst as hidden factor). Also **E219**: two-stage
+  "suitable but absent" decomposition per R2's proposed design.
+
+**Both reviewers independently flagged the same overclaim: "tautology-free".** The manuscript's own Table 4
+returns CONDITIONAL PASS with T1–T2 in the grey zone, so the title contradicts the results. Title downgrade
+proposed (3 candidates) — a claim-to-evidence alignment, which SIG permits, as distinct from rewording a
+critique away, which it forbids.
+
+**INT-1 — volcano inventory defect found in P2, same class as the one that sank P7.**
+`enhanced_tautology_tests.py` and `E013/01_settlement_model_v7.py` hardcode **7** volcanoes (Kelud, Semeru,
+Arjuno-Welirang, Bromo, Lamongan, Raung, Ijen). The canonical `volcanoes_java_full.csv` has **13** centres
+inside the paper's own stated bounds (111–115°E) — additionally **Lawu, Wilis, Kawi-Butak, Penanggungan,
+Iyang-Argapura, Baluran**. Kawi-Butak and Penanggungan lie inside the Malang–Mojokerto site concentration,
+so the distance field is distorted exactly where the sites are. **Impact is contained:** volcano distance is
+not a training feature, so all model AUCs stand; it affects the Test 1 diagnostic (ρ = −0.163) and Figure 2.
+Recompute both before resubmission and disclose the correction in the response letter.
+
+**INT-2 — `revision_ammo/anticipated_critiques.md` flagged STALE.** Written 2026-03-12 against an earlier
+draft; it describes the temporal split as chronological (pre/post-1000 CE) when the submitted E014 split is
+an accessibility proxy (road distance ≤1 km vs >1 km), and assumes volcanic predictors are in the model when
+the submitted model excludes them entirely. Using it verbatim in a reviewer letter would have misdescribed
+the analysis. Header warning added in-file; superseded.
+
+**Full plan:** `papers/P2_settlement_model/revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md` — 17 reviewer
+items triaged to response type, 3 new experiments with pre-registered decision rules, 4-week timeline,
+5 decisions pending from Pak Amien (GO on experiments, title choice, `pip install elapid`, APC waiver
+re-raise, acceptance of the E218 refutation branch).
+
+**Bearing on ME#19:** the forcing function was about non-exposure. An external judge has now returned a
+substantive verdict, and it is a revise-and-resubmit with a hard deadline. P2 revision therefore takes
+priority over the queued internal work (WS-A prose, WS-B/C/D/E). The three external actions (Verberne reply,
+Zenodo D1+D2, Lamqaddam reply) remain Pak Amien's and remain undischarged.
+
+---
+
+## 2026-07-27 (2) | E217 — MaxEnt benchmark REFUTES P2's central claim (SIG NO-GO on resubmitting as-is)
+
+Ran E217 to answer JCAA Reviewer 1's "essential" ask (benchmark against MaxEnt). The benchmark was built,
+pre-registered, and executed. It answered the reviewer — and in doing so refuted the manuscript's headline
+finding. Full write-up: `experiments/E217_maxent_benchmark/README.md`.
+
+**Pipeline validated first.** The independent reimplementation reproduces the submitted paper:
+E013 hybrid seed-averaged XGBoost AUC **0.750** (published: 0.751); realised hard-negative fraction
+**0.623** (published: 0.62 — an idiosyncratic value the manuscript itself flagged as unexplained).
+So what follows is a property of the paper's design, not of a divergent implementation.
+
+**Run 01 (each design scored on its own background):** no algorithm — MaxEnt included — produced a
+monotonic random → tgb → hybrid ladder. Background gain +0.022 was already below the +0.045 gain from
+adding one feature.
+
+**Run 02 (all designs scored on ONE common evaluation background, plus site-buffer ablation):**
+- Background redesign, common evaluation: MaxEnt **0/5** seeds positive, XGBoost **1/5**, RF **2/5**.
+  Mean effect **−0.014**. No reliable positive in any algorithm.
+- Adding river distance: **+0.042 AUC, positive in 60/60** paired comparisons.
+- Inflation from scoring each design on its own background: **+0.041 to +0.051 AUC, 15/15 positive** —
+  the same magnitude as the entire reported E007 → E013 improvement.
+
+**Mechanism.** The hybrid background sits further from the presences in environmental space than a random
+one (realised zdist ≥ 2 fraction 0.623 vs 0.503). Discriminating presences from more dissimilar negatives
+is an easier problem, so AUC rises with no gain in transfer. This is the standard Lobo et al. (2008)
+caution that AUC is not comparable across different background samples — **which the manuscript already
+cites and never applies to its own ladder.** Reviewer 1's demand to engage the MaxEnt/ENM literature led
+straight to the critique that literature would have supplied.
+
+**Consequence.** The abstract's stated main finding — *"pseudo-absence realism, not feature count alone,
+is the dominant lever for spatial transfer under survey-biased archaeological data"* — does not survive a
+matched-evaluation test; under a common evaluation background the ranking reverses. Per
+`docs/SUBMISSION_INTEGRITY_GATE.md` this must be fixed or downgraded, **never reworded**. Resubmitting the
+current claim to JCAA would be a G1 violation. **PI decision required — no path taken autonomously.**
+
+**Not a disaster.** "The apparent benefit of background redesign in archaeological presence-background
+models is an evaluation artefact; designs must be compared on a held-fixed evaluation set" is a genuine,
+transferable methodological contribution, under-applied in archaeological predictive modelling, and it
+answers both reviewers at once. E217 is logged **SUCCESS (negative result)**, not FAILED.
+
+**Note on the discovery route:** this is the first time in the project that engaging a reviewer's demand
+produced a self-refutation rather than a defence. It is exactly the disconfirmation the confirmation-
+architecture critique (ME#17, `feedback_confirmation_architecture`) said was structurally missing.
+
+**E218 (non-volcanic terrain-matched control) and E219 (absence decomposition) are NOT started** — under
+two of the three candidate paths they are out of scope, so building them before the direction decision
+would be waste.
+
+---
+
+## 2026-07-27 (3) | E218 — E217's refutation CONFIRMED; my proposed mechanism REFUTED
+
+Pre-registered in `experiments/E218_evaluation_artefact/DESIGN.md` before running, per PI instruction to
+think it through rather than email the editor immediately. Purpose: turn the same adversarial treatment on
+my own refutation of P2 that E217 turned on the paper.
+
+**Stage A (decisive).** 3 training designs × **4 fixed evaluation backgrounds** × 3 algorithms × **20 seeds**.
+Pre-registered prediction: if the artefact is real, the hybrid design wins ONLY against hybrid-like
+negatives; if the paper was right, hybrid wins under all four. Result: **hybrid ranked best in 0/3
+algorithms under uniform, 0/3 under tgb, 0/3 under stratified, and 3/3 under hybrid evaluation.**
+Paired per seed, hybrid − random AUC for XGBoost: **4/20 seeds under uniform evaluation, 19/20 under
+hybrid evaluation.** The sign flips only when the evaluation background matches the training design.
+TSS reproduces the signature (0/3, 0/3, 2/3, 0/3).
+
+**Artefact-immune metric.** Continuous Boyce index (Hirzel et al. 2006), computed against a fixed uniform
+availability sample. Hybrid − random over 20 seeds: MaxEnt +0.017 (11/20 — chance), XGBoost +0.041 (13/20 —
+weak), RandomForest **−0.095 (2/20 — reliably worse)**. Stated as "no reliable benefit under an honest
+metric", NOT as "background design does nothing" — the latter would be our own overclaim.
+
+**Stage B (block size 40/50/60 km):** hybrid − random on common evaluation is −0.020 to +0.004 at every
+scale. **Stage D (~150 m lattice instead of ~300 m):** ladder persists on own-background scoring (+0.047),
+vanishes on common-background scoring (−0.001). The sampling frame is not doing the work.
+
+**Stage C — MY MECHANISM HYPOTHESIS FAILED, and the test was badly designed.** Predicted that inflation
+rises with background environmental dissimilarity: Spearman **−0.077, p = 0.41**. Diagnosis matters more
+than the null: sampling a narrow zdist *band* builds a background concentrated in a thin environmental
+shell, trivially separable regardless of distance (auc_own hit **0.98** at the NEAREST band — opposite of
+the hypothesis) and useless for generalisation (auc_common 0.55–0.59, near chance). The construction
+confounded distance-from-presences with concentration-in-a-shell and never tested the intended quantity.
+**The manuscript must not claim inflation is proportional to dissimilarity.** Redesign specified (E218b):
+sweep the paper's own `hard_frac` knob over the natural candidate pool instead of a band.
+
+**Net position.** The refutation of P2's central claim survived every check designed to break it — four
+evaluation backgrounds, 20 seeds, three algorithms, three metrics, three block sizes, two lattice
+resolutions. Two things remain unestablished and are flagged as such: the mechanism, and any claim that
+background design is worthless.
+
+**Next:** E219 (does background design change the predicted MAP even when it does not change the score?)
+is now the highest-value remaining experiment — it is the only one that answers Reviewer 2's objection
+that the work is not specifically archaeological, which the methodological reframe otherwise makes worse.
+
+**Editor email remains ON HOLD** per PI (`docs/correspondence/EMAIL_VERHAGEN_JCAA_DISCLOSURE_DRAFT_20260727.md`),
+but the case for sending it is now much stronger and the window should be short: Verhagen is himself a
+leading archaeological predictive-modelling researcher, so he is simultaneously the best-qualified judge of
+whether this finding is useful or merely rediscovers Lobo et al. (2008), and the person who must make the
+revision-vs-fresh-submission call.
+
+---
+
+## 2026-07-27 (4) | E219 — something constructive survives; INT-1 closed; R2-F answered
+
+Full write-up: `experiments/E219_map_divergence/README.md`. 378 presences, 588,535 frame cells,
+5 seeds × 3 background designs × 3 algorithms = 45 full-landscape prediction surfaces.
+
+**Part A — the map moves even though the score does not.** Compared between designs (same seed) AND
+within a design (different seeds), so a design effect has to beat a measured noise floor. Top-10%
+survey-priority Jaccard: MaxEnt within 0.684 vs between **0.466**; XGBoost 0.549 vs 0.488; RandomForest
+0.690 vs 0.651 (not beyond noise). By pair, the hybrid design is what moves the map — random↔tgb agrees
+0.55–0.73 while random↔hybrid drops to **0.345** under MaxEnt. **Half the recommended survey targets change
+while every discrimination metric says the models are equivalent.**
+
+**Second finding, arguably bigger: the priority map is unstable to the random seed alone.** Re-running the
+SAME design with only a different seed turns over 31–45% of the top-decile cells. That is a
+reproducibility result with direct field consequences and it is absent from the submitted manuscript.
+
+**Part B — partial support for the bias-correction rationale, stated as partial.** The hybrid background
+does shift predicted suitability toward the least road-accessible ground (mean percentile-rank shift
++0.067 to +0.101 in the most remote quintile, slightly negative in Q1–Q4), which is the direction TGB
+predicts. But the effect is confined to the extreme quintile, the overall association is weak
+(Spearman +0.065 to +0.124), and **elevation is a competing explanation of comparable or greater strength**
+(up to +0.305 for MaxEnt). Reported as a directional signal with a live confound.
+
+**Part C — INT-1 CLOSED.** Canonical inventory has **13** volcanoes inside the paper's own 111–115°E
+bounds vs the **7** hardcoded in the submitted code (missing Lawu, Wilis, Kawi-Butak, Penanggungan,
+Iyang-Argapura, Baluran). Test 1 correlation recomputed: legacy 7 → ρ = −0.243; canonical 13 → **ρ = −0.281**.
+(Manuscript reports −0.163 for the legacy set; ours differs because the model and frame are independently
+reimplemented, so this is a directional correction, not a claim to reproduce their exact figure.)
+**The correction strengthens the correlation but stays far below the 0.5 FAIL threshold — the paper's
+Test 1 GREY_ZONE verdict survives the inventory fix.** Real defect, must be disclosed, does not overturn
+the tautology conclusion.
+
+**Part C — Reviewer 2's R2-F answered, and not the way either side expected.** Terrain-matched (coarsened
+exact matching on elevation × slope × TRI × TWI, 90 of 100 strata occupied in both arms): model predicts
+only **+0.055** higher suitability in volcanic uplands (0.2249 vs 0.1702), while observed site density
+differs by roughly **29×** (0.01377/km², 145 sites vs 0.00048/km², 2 sites). So the model is **not** a
+disguised volcano-proximity detector — R2's concern answered in the negative with a matched design. But
+the flip side must be stated too: the terrain covariates barely see whatever actually structures this
+distribution. **Caveat that must travel with the number: the non-volcanic arm holds 2 sites — direction
+unambiguous, ratio fragile.**
+
+**Net.** The replacement claim for the manuscript is archaeological, not statistical: *background design
+changes which cells a fieldworker is sent to while leaving every discrimination metric unchanged, so
+discrimination metrics cannot be used to choose one.* Plus the seed-instability finding. NOT established:
+that the different maps are *better* — no ground truth exists to adjudicate, so the paper must say
+"different and consequential", never "improved".
+
+**E218b (mechanism redesign, hard_frac sweep) running.** First E219 run crashed at the final console print
+(Unicode arrow on cp1252) after all results were written; fixed to ASCII.
+
+---
+
+## 2026-07-27 (5) | E218b — mechanism ESTABLISHED, and the two metrics run in opposite directions
+
+Redesign of the Stage C mechanism test that failed earlier today (band sampling confounded distance with
+concentration). Replaced with a sweep of the manuscript's own `hard_frac` knob, 0.0 → 1.0, drawing from the
+natural candidate pool. 5 seeds × 11 settings × 3 algorithms.
+Write-up: `experiments/E218_evaluation_artefact/README.md` (§E218b).
+
+**Result.** As background dissimilarity rises with the knob:
+- AUC scored on the design's **own background** climbs **0.721 → 0.844** (Spearman +0.886)
+- AUC on a **common evaluation background** falls **0.699 → 0.602** (Spearman **−0.708**, p = 2.0e-26)
+- inflation tracks dissimilarity at **Spearman +0.961** (p = 1.1e-92)
+
+**The number a paper would report and the model's actual generalisation move in OPPOSITE directions.**
+This is sharper than Lobo et al. (2008), which says AUC is not comparable across background samples. The
+finding here is that **optimising the reported metric systematically selects worse models**, with a
+monotonic dose–response across the full range of a parameter practitioners actually tune. That is the
+novelty argument Reviewer 1's "not entirely novel" comment demanded, and it did not exist this morning.
+
+**It indicts the manuscript's own tuning.** E013 swept `hard_frac` ∈ {0.0, 0.15, 0.30} and picked 0.30 —
+the maximum offered, and the row whose realised zdist≥2 fraction is 0.622, matching the 0.62 the Methods
+section flags as unexplained. Across that range reported AUC rose **+0.018** while generalisation fell
+**−0.004**: the tuning gained nothing real. Extended to 1.0 it would have reported 0.844 for a model
+generalising at 0.602.
+
+**Pre-registered branch 3 did not occur and its opposite did.** The sweep was pre-committed to report a
+partial rehabilitation of the paper's intuition if `auc_common` rose with `hard_frac`. It falls. Hard
+negatives actively degrade generalisation here. Recorded because it was pre-committed.
+
+**Where P2 now stands.** The refuted claim is replaced by three findings that did not exist in the
+submitted manuscript: (1) the inverse metric relationship above; (2) background design changes which cells
+a fieldworker is sent to while every discrimination metric stays flat (E219); (3) the priority map is
+unstable to the random seed alone, 31–45% turnover (E219). Plus INT-1 fixed and Reviewer 2's R2-F answered
+with a matched design. The editor email remains ON HOLD per PI, but the case it would make is now much
+stronger than the "we found our claim is an artefact" message drafted this morning.
+
+---
+
+## 2026-07-27 (6) | Review co-author (Go Frendi, via Claude Code): Q1-Q4 terjawab, dua celah mesin refutasi ditutup
+
+PI meminta sesi Claude Code memerankan review co-author atas paket `review_package_20260727/`. Prosedur:
+baca keempat dokumen + seluruh kode E217/E218/E218b/E219 baris per baris, turunkan ulang setiap angka
+headline dari CSV/JSON mentah, lalu coba patahkan refutasinya sebelum menyetujuinya. Dokumen:
+`05_REVIEW_COAUTHOR_GO_FRENDI.md`.
+
+**Verifikasi: 9/9 angka headline cocok persis dengan file mentah** (dekomposisi E217b, sign counts E218
+Stage A, tabel E218b, fitur +0.042 60/60, inflasi +0.046 15/15, Jaccard E219, INT-1, matching R2-F).
+Empat serangan dicoba: "common background arbitrer" (gugur — matriks 4 background), "AUC mengutuk AUC
+sirkular" (gugur — Boyce/TSS), dan dua yang MENINGGALKAN lubang nyata: evaluation background ditarik dari
+frame tanpa buffer situs, dan Boyce kita sendiri punya knob jendela yang belum dirobustifikasi. Keduanya
+dijadwalkan penutupan di E220.
+
+**Jawaban:** Q1 — klaim inti setuju dicabut, tanpa syarat. Q2 — common evaluation background benar (ganti
+pool negatif = ganti estimand), dengan 3 penajaman: beri nama estimand, uniform sebagai primer +
+4-background sebagai robustness, tutup celah buffered-eval. Q3 — fenomena tidak baru, demonstrasi
+terkuantifikasi + konsekuensi keputusan baru; framing wajib "quantified pathology + corrected protocol",
+diposisikan eksplisit terhadap Lobo 2008, Jiménez-Valverde 2012, Barve 2011, Fourcade 2018 (GEB —
+diverifikasi Crossref), Ploton 2020 (Nat Comms — diverifikasi Crossref), Roberts 2017. Q4 — tetap
+co-author dengan 3 syarat tercatat; persetujuan sah harus dikonfirmasi PI ke Go Frendi manusia.
+
+**Temuan wording untuk v0.2:** "turnover 31–45%" = 1−Jaccard; definisi baku bagian-terganti =
+(1−J)/(1+J) = 18–29%. Keduanya benar, beda denominator — naskah harus memilih dan menyatakan.
+
+## 2026-07-27 (7) | E220 + E221: seleksi salah arah terbukti maksimal; instabilitas seed punya obat; efek desain bukan noise
+
+Dua eksperimen baru dari review co-author, keduanya pre-registrasi (`DESIGN.md`) sebelum run.
+Hasil: `papers/P2_settlement_model/review_package_20260727/06_HASIL_E220_E221.md`.
+
+**E220 (SUCCESS).** Aturan seleksi naskah (argmax AUC-background-sendiri) memilih hard_frac ≥ 0.7 di
+**100%/60 kasus** (56 memilih 1.0), pilihannya (hampir) terburuk di 93%, dan **biaya cross-fitted +0.094
+AUC** — absolutnya 0.55–0.63 vs 0.66–0.72. Dosis-respons dikonfirmasi ulang di 20 seed (inflasi +0.967,
+common −0.689). Wilcoxon: biaya seleksi p=1.6e-11; "perolehan" E013 (0.3 vs 0.0) p=0.07–0.29 = tidak
+nyata. Satu perbaikan kontrol vs E218b: fit sekali per fold, skor kedua test set pada fold identik.
+**Fork P4 jatuh ke cabang "Boyce berisik":** Boyce memuncak di hard_frac 0.2–0.6 (rehabilitasi parsial
+kecil intuisi lama, Δ≈+0.05, tidak menyelamatkan tangga) lalu kolaps ke 0.17 di 1.0 → pesan protokol
+berubah dari "pakai metrik jujur" menjadi **"deklarasikan availability evaluasi, patok, nyatakan aturan
+seleksi"** — tidak ada satu metrik pun cukup. Kedua celah dari review (buffered-eval; jendela Boyce):
+ranking/tanda stabil. Inilah bentuk konkret argumen novelty vs R1: bukan "AUC tidak komparabel" (Lobo),
+melainkan "prosedur seleksi yang mengoptimalkan perbandingan itu memilih model yang terukur lebih buruk,
+ini dosis-respons dan harganya".
+
+**E221 (SUCCESS).** 10 seed × 3 desain × 3 algoritma, 90 permukaan tersimpan. **k\* = 7 seed (XGB) / 4
+(RF, MaxEnt)** untuk J≥0.9 → rekomendasi protokol: ensemble ≥7 seed; satu run tunggal hanya sepakat
+0.65–0.80 dengan ensemble-10. Kontrol split-half 5+5 (skrip 02; putusan first-pass skrip 01 memakai
+referensi tidak cocok dan digantikan — terdokumentasi): **gap hybrid bertahan di level ensemble di ketiga
+algoritma** (lantai 0.75–0.87 vs 0.41–0.73); random↔tgb tepat di lantai. Prioritas **robust** memuat
+densitas situs 2–5,6× lipat **contingent** (40.8 vs 9.4; 30.7 vs 15.9; 31.7 vs 5.7 per 1000 km²); fringe
+contingent MaxEnt = dataran tinggi terpencil (median 1,0 km dari jalan, 1.107 m). Produk peta untuk figur
+blok F tersimpan (`e221_priority_sets_*.npz`). Turnover dua definisi terukur (1−J 28–47%;
+bagian-terganti 16–31%).
+
+**Disiplin klaim tambahan untuk v0.2:** +0.094 adalah biaya *seleksi*, bukan "kesalahan model"; densitas
+robust/contingent adalah *konsistensi* (situs melatih model), bukan validasi.
+**Belum:** commit repo (izin PI), email Verhagen (PI; posisi kini jauh lebih kuat), naskah v0.2 (blok A–B).
+
+---
+
+## 2026-07-27 (8) | Review keras Q1 (babak 2) + E222 ground-truth sintetik + E223 robustness statistik
+
+PI meminta babak kedua: bukan hanya co-author, tapi reviewer keras standar Q1. Delapan kritik mayor
+dirumuskan sekuat mungkin (dokumen `07_REVIEW_KERAS_Q1_GO_FRENDI.md`): M1 tidak ada ground truth;
+M2 "no benefit" = absence of evidence; M3 seed bukan unit replikasi; M4 MaxEnt satu konfigurasi;
+M5 kontradiksi Boyce internal; M6 k* arbitrer; M7 satu wilayah; M8 "peta mana yang harus dipakai?".
+Setiap kritik ditutup eksperimen pre-registered (E222, E223), bukan kata-kata.
+
+**E222 (dunia A/B) — patologi seleksi tereplikasi melawan GROUND TRUTH.** Lattice Jawa Timur nyata,
+intensitas sintetik diketahui (A: 4 driver terrain; B: +clay disembunyikan = misspecified), bias survei
+jalan diterapkan sengaja (TGB-shaped — rasional diberi kesempatan terbaik), pipeline kode identik, 10
+dunia × 6 konfigurasi × 3 algoritma per surface. Aturan seleksi naskah memilih hybrid(1.0) di **60/60**
+kasus (laporan 0.890 > random 0.847) padahal kebenaran bilang random lebih baik **median +0.194
+AUC_true, 100% positif** (biaya peta 0.35–0.53 Jaccard). **Koreksi klaim wajib (P1 gagal seperti
+terdaftar):** di sintetik auc_true NAIK dengan hard_frac (0.54→0.62), di data nyata TURUN (0.699→0.602)
+— tanda slope kebenaran **kontingen rejim**. Yang struktural di semua dunia: angka laporan selalu
+terinflasi dan dial menggerakkannya ~10× lebih cepat daripada kebenaran, ke arah mana pun. Klaim
+mekanisme diasah: dari "slope negatif" menjadi "inkomparabilitas struktural + seleksi rusak". Wawasan
+baru: **kontaminasi kuota** — mencocokkan background ke distribusi rekaman menyuntikkan false negative
+di klaster presence.
+
+**E223 — paket robustness.** A: 12/12 CI 95% (hybrid−random, 20 seed) **menolak** tangga terbit +0.092
+(MaxEnt bahkan menolak 0). B: bootstrap blok spasial 30 replikasi (OOB): semua algoritma menolak +0.092
+(batas atas ≤ +0.026); pernyataan daya jujur: efek < ~+0.03 tak tersingkirkan pada n=378. C: MaxEnt
+beta 0.5–4.0 → hybrid−random ≈ −0.02 di semua. D: k* = 2–5 / 4–7 / 7–9 seed (J≥0.85/0.90/0.95) —
+rekomendasi kini rentang.
+
+## 2026-07-27 (9) | E222 World C + D: kuota gagal di semua rejim; set klaim final untuk v0.2
+
+Dua fork terdaftar untuk menguji kuota regional di rejim yang memihaknya, keduanya jatuh ke cabang NO.
+**World C** (bias survei regional [1.0, 0.4, 0.15, 0.05], kebenaran terkonsentrasi): quota − random =
+**−0.246 AUC_true / −0.469 Jaccard, 0/30 positif**. **World D** (kebenaran diseimbangkan antar wilayah
+sehingga konsentrasi rekaman murni dari survei — rejim paling ramah yang bisa dibangun): **−0.203 /
+−0.283, 0/30**. Mekanisme sama di semua dunia: mencocokkan background ke distribusi rekaman (TGB via
+jalan, kuota via wilayah) memusatkan negatif di klaster presence → false negative persis di tempat
+model paling harus belajar. **Di 4 rejim sintetik, tidak ada desain yang mengalahkan uniform pada
+kebenaran; AUC laporan selalu memilih desain paling ekstrem.** (Batas jujur: n≈300–500 per dunia, 4
+bentuk bias — bukan bantahan universal Phillips 2009.)
+
+**Set klaim final v0.2 (pasca syarat R1–R4 dokumen 7):** (1) evaluasi background-sendiri selalu
+terinflasi secara struktural; tangga terbit DITOLAK (12/12 CI + bootstrap); (2) dial desain
+menggerakkan angka laporan ~10× lebih cepat dari kebenaran ke arah mana pun → seleksi pada angka
+laporan rusak secara prinsip (biaya cross-fitted +0.094 nyata; +0.194 ground-truth); (3) peta berubah
+melampaui noise seed, instabil terhadap seed, obatnya ensemble ≥4–7 seed; (4) produk lapangan = inti
+robust + fringe hipotesis; (5) R2-F terjawab, INT-1 tertutup. Boyce turun pangkat jadi sanity check.
+Semua p-value dilabeli unit replikasinya.
+
+**Menunggu PI:** konfirmasi kepengarangan ke Go Frendi manusia; email Verhagen (draft perlu diperbarui
+dengan E220–E222) + perpanjangan ke 2026-09-30; izin commit (2 babak kerja belum di-commit); GO v0.2.
+
+---
+
+## 2026-07-27 (10) | Review menyeluruh atas paket babak 2 — 2 klaim headline tidak didukung
+
+Dokumen: `papers/P2_settlement_model/review_package_20260727/09_REVIEW_ATAS_BABAK2.md`.
+Verifikasi independen atas dokumen 07 (review keras Go Frendi) + E222/E223.
+
+**Yang terverifikasi: semuanya.** 10 dari 10 angka yang dicek cocok persis dengan `results/` mentah —
+tabel utama E222, biaya kebenaran +0.1937, P1 gagal (0.4395), P3 TGB null (−0.010/47%), P4 Boyce
+(0.5009/0.5429), World C (−0.2457/−0.4688/0), World D (−0.2027/−0.2826/0), E223-A (12/12), E223-B (n=29,
+batas atas +0.008…+0.026), E223-C (−0.0198…−0.0217). Desain E222 diperiksa dan sehat: bias survei
+simulasi memakai fungsi identik dengan `draw_tgb`, jadi TGB diberi kondisi teorinya.
+
+**MAYOR-1 — patologi seleksi LENYAP di grid yang benar-benar dipakai naskah.** Grid E013 adalah
+`hard_frac ∈ {0.0, 0.15, 0.30}`; E222 memakai sampai 1.0. Re-seleksi dihitung ulang sendiri:
+
+| Kandidat | AUC laporan pilih | Biaya median | Salah |
+|---|---|---|---|
+| Grid penuh E222 (≤1.0) | hybrid(1.0) 60/60 | +0.1937 | 60/60 |
+| **Grid naskah (≤0.30)** | **random 50, tgb 10** | **+0.0000** | **0/60** |
+
+Sama di data nyata: biaya +0.0044 di grid naskah vs +0.0973 di dial penuh. Jadi angka headline +0.194 dan
++0.094 **seluruhnya bergantung pada memperluas dial melewati apa yang naskah pernah pakai.** Lebih jauh:
+di dunia sintetik, kriteria naskah pada grid naskah memilih **random**, bukan hybrid — jadi E222 tidak
+mereproduksi perilaku seleksi data nyata di titik operasi naskah (celah kalibrasi, wajib diungkap).
+**M1 tidak tertutup untuk klaim "seleksi naskah berjalan salah".** Yang bertahan dan tetap berharga:
+kriteria itu **tidak punya optimum interior** — naskah berhenti di 0.30 hanya karena gridnya berhenti.
+
+**MAYOR-2 — faktor "~10×" di R1 salah sekitar 5×.** Dihitung dari data: sintetik 2.01× (slope per-run
+2.12×), data nyata 1.26×. R1 adalah klaim mekanisme utama v0.2; kalau masuk naskah apa adanya, reviewer
+yang menghitung sendiri akan menemukannya — pada paper yang isinya tentang pelaporan angka yang jujur.
+
+**MODERAT — "selalu terinflasi" sebenarnya 343/360 = 95.3%** (min −0.031). Kuantor absolut tanpa dukungan;
+kelas kesalahan yang sama dengan yang sedang dikoreksi.
+
+**MODERAT (konstruktif) — diagnosis yang hilang untuk null TGB.** `road_dist` BUKAN fitur model, jadi
+model tidak bisa mengekspresikan bias survei; TGB membatalkan s(x) di ruang fitur, dan kalau s(x) tidak
+terepresentasi di sana, tidak ada yang dibatalkan. Mengubah null yang mengejutkan jadi null yang
+terprediksi, plus syarat teruji: koreksi target-group hanya menolong bila variabel biasnya berkorelasi
+dengan ruang fitur. Uji konfirmasi murah: masukkan `road_dist` ke fitur, ulangi P3.
+
+**Koreksi klaim SAYA sendiri:** laporan pagi ini "hard negative aktif menurunkan generalisasi" adalah
+over-generalisasi — E222 menunjukkan tanda slope kebenaran kontingen terhadap rejim bias (di sintetik
+auc_true justru naik 0.541→0.617). Dokumen 07 benar menuntut reframing itu.
+
+**Putusan:** setuju M2/M3/M4/M5/M6/M7/M8 tertutup; eksekusi E222/E223 kuat; pelaporan P1-gagal dan dua
+fork jatuh-NO adalah praktik teladan. **Tidak setuju M1 tertutup, dan R1 tidak boleh masuk naskah apa
+adanya.** Tiga perbaikan wajib — semuanya koreksi klaim, bukan eksperimen baru.
+
+---
+
+## 2026-07-27 (11) | Sesi ditutup — handoff induk dibuat
+
+`docs/HANDOFF_20260727.md` dibuat sebagai handoff terbaru (menggantikan `HANDOFF_20260707.md`), dan
+pointer di `docs/WORKSTATE.md` diperbarui.
+
+**Alasan handoff ini perlu lebih dari biasanya:** ada **tiga babak kerja pada hari yang sama**, dan babak
+belakangan mengoreksi babak sebelumnya. Dokumen 08 menyebut set klaimnya "FINAL untuk v0.2"; dokumen 09
+menunjukkan dua klaim headline di dalamnya tidak didukung datanya sendiri. Sesi baru yang membaca 07/08
+tanpa 09 akan mulai menulis naskah dari angka yang salah — persis kegagalan yang sedang kita koreksi.
+Karena itu peringatan eksplisit dipasang di dua tempat: kepala WORKSTATE dan §2 handoff.
+
+Isi handoff: urutan baca, K1–K3 (koreksi wajib), status tiap eksperimen E217–E223, keputusan menunggu per
+pemilik, sisa pekerjaan blok A–I dengan blok **B'** baru (terapkan K1–K3 sebelum menulis v0.2), daftar yang
+sengaja tidak dikerjakan, peta file, dan konteks proyek yang tidak boleh hilang (forcing function ME#19
+masih menggantung; kerja hari ini menambah rigor besar tapi exposure nol).
+
+**Keadaan repo saat ditutup:** 11 file termodifikasi, 19 untracked (seluruh E217–E223 + paket review +
+draft email + rencana revisi). **Belum ada commit hari ini** — menunggu izin PI.
+
+---
+
+## 2026-07-30 | Reorganisasi navigasi — dua mode (FOCUS / ORBIT) + lapisan `lines/`
+
+**Type:** STRUCTURAL / REPO ORGANISATION
+**Status:** SELESAI (lapisan navigasi). Tidak ada konten kanonik yang dipindah. Belum di-commit.
+
+### Masalah yang dipecahkan
+
+Permintaan PI: proyek ini mulai sebagai satu pertanyaan (peradaban Nusantara sebelum 400 M), lalu
+melebar — banyak ide, banyak paper, plus amunisi S3. PI ingin bisa **masuk ke satu folder untuk fokus
+satu topik**, lalu **keluar satu tingkat untuk mencari topik / review menyeluruh / Mata Elang**.
+
+Diagnosis dari survei repo:
+- `docs/WORKSTATE.md` = **871 baris** — sudah jadi log tempel, tidak bisa lagi berfungsi sebagai
+  "kontrak kerja yang dibaca pertama".
+- **37** `HANDOFF_*.md` datar di `docs/`; `JOURNAL.md` 8.868 baris.
+- `experiments/` 214 direktori (indeks hanya mencakup 84); `data/` **7,9 GB**, `experiments/` **2,2 GB**,
+  keduanya **dipakai bersama**; 10 dari 84 eksperimen terindeks melayani lebih dari satu paper.
+
+### Keputusan desain
+
+1. **JANGAN partisi `experiments/`, `papers/`, atau `data/` per topik.** 10 GB substrat bersama, dan
+   eksperimen melayani beberapa paper. Memindahkannya akan merusak path relatif di ~214 README, figur
+   LaTeX, dan dashboard — demi keuntungan yang murni navigasional.
+2. **Unit fokus bukan paper, melainkan *jalur penelitian* (line).** Paper itu volatil (7 ditolak, 1
+   parkir, beberapa retarget); E216 bahkan tidak punya folder paper. Dan "keluar satu tingkat" dari
+   `papers/P2/` hanya mendarat di daftar paper, bukan titik pandang.
+3. **Pisahkan dua alasan yang selama ini tercampur.** (a) *Fokus/konteks* → folder ber-CLAUDE.md di
+   dalam satu repo, reversible, cross-link utuh. (b) *Model menolak topik* → satu-satunya alasan
+   `volcarch-genetics` jadi repo terpisah (Fable menolak biologi). Alasan (b) berlaku untuk satu kanal
+   itu saja dan **bukan preseden** untuk memecah repo lagi.
+
+### Yang dibangun
+
+- **`lines/`** — 7 jalur, masing-masing hanya `CLAUDE.md` (identitas, ruang lingkup, paper, eksperimen
+  jangkar, model yang disarankan, aturan jalur) + `STATE.md` (antrean kerja, otoritatif untuk jalur itu):
+  `01_spatial` · `02_taphonomy` · `03_paleoenv` · `04_language_text` · `05_archival_nlp` · `06_thesis` ·
+  `07_career`. **Folder jalur tidak memuat konten kanonik — hanya penunjuk.**
+- **`CLAUDE.md` root ditulis ulang** jadi sadar-mode. FOCUS: cwd di `lines/<nn>_*/` → baca kontrak jalur
+  itu saja; jangan baca STATE jalur lain, JOURNAL penuh, atau WORKSTATE. ORBIT: cwd di root → baca
+  `docs/WORKSTATE.md`. Semua aturan yang mengikat (integritas riset, SIG, protokol eksperimen, F9/F10,
+  inBox, kontinuitas sesi, IDEA_REGISTRY) dipertahankan utuh.
+- **`docs/WORKSTATE.md` jadi dasbor orbit ~120 baris.** Log 871 baris disimpan verbatim di
+  `docs/archive/WORKSTATE_LOG_thru_20260727.md`. **Dasbor dibuka dengan ledger exposure** (3 aksi
+  tertunggak beserta *umur*: Verberne ~51 hari, Zenodo ~50, Lamqaddam ~98) — baru sesudahnya status
+  jalur. Ini disengaja: mode orbit adalah pintu kabur proyek ini (keluar satu tingkat, temukan topik
+  menarik, email tidak terkirim), jadi `IDEA_REGISTRY.md` boleh dijangkau tapi tidak pernah pertama.
+- **35 handoff usang → `docs/archive/handoffs/`** via `git mv` (terlacak, reversible). `docs/*.md`
+  turun dari 66 → 30 file. `HANDOFF_20260727.md` + `HANDOFF_20260707.md` tetap di `docs/`.
+
+### Temuan sampingan (belum diselesaikan)
+
+- `docs/experiment_index.json` hanya mencakup **84 dari 214** direktori eksperimen → pemetaan
+  eksperimen→paper basi. Perlu `tools/scan_experiments.py` dijalankan ulang + tambah field `line`.
+- `docs/COMPANION_REPOS.md` menyatakan E203 sudah pindah ke `volcarch-genetics`, tapi
+  `experiments/E203_*` **masih ada di sini** (E053 memang sudah pindah). Dua dokumen saling
+  bertentangan.
+- `volcarch-genetics` **bersarang di dalam** volcarch-repo, padahal `COMPANION_REPOS.md` sendiri
+  menginstruksikan menaruhnya sebagai direktori *sibling*. Menunggu izin PI untuk dipindah.
+
+**Belum di-commit** — menunggu izin PI, bersama dua sesi sebelumnya (2026-07-07, 2026-07-27).
