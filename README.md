@@ -15,9 +15,11 @@
 | `working_note_ancient_dna.md` | Working note: 4 gelombang migrasi ke Nusantara, aDNA landscape SE Asia, pre-Austronesian substrate. Sumber asal: `docs/drafts/working_note_ancient_dna.md` (masih ada di sana sebagai pointer). |
 | `bibliography_paleogenomics/_SUBFIELD_SUMMARY_paleogenomics_session18.md` | SLR Subfield 05 — Paleogenomics: Leang Panninge aDNA, McColl/Lipson/Carlhoff/Larena, Maulana WGS 227 Java, watching brief BRIN. Sumber asal: `docs/bibliography/05_paleogenomics/`. |
 
-### Eksperimen (mirror — canonical tetap di experiments/)
+### Eksperimen (KANONIK di sini sejak 2026-06-10)
 
-Folder `experiments/` di sini adalah **salinan bacaan** untuk sesi Opus. Kanonik + kode asli tetap di `experiments/` root. Jangan edit yang di sini — edit yang di `experiments/`.
+> **Dikoreksi 2026-07-30.** Teks lama bilang folder ini "salinan bacaan (mirror), kanonik tetap di `experiments/` root volcarch-repo". **Itu sudah tidak benar.** E053 dan E203 dipindah keluar penuh pada 2026-06-10 — **di sini kanoniknya, edit di sini.** Di volcarch-repo yang tertinggal hanya direktori `E203_*/results/` kosong (nol file), dan itu sudah dihapus 2026-07-30. Jangan membuat ulang keduanya di volcarch-repo.
+>
+> **Lokasi repo ini:** `D:\documents\volcarch-genetics` — *sibling* dari `volcarch-repo`, bukan bersarang di dalamnya (sebelum 2026-07-30 ia bersarang, dan itu memunculkan path-nya di `git status` volcarch-repo).
 
 | Folder | Deskripsi |
 |--------|-----------|
