@@ -8977,3 +8977,24 @@ memang tuntas; yang tertinggal cuma husk kosong yang membuatnya *tampak* belum p
 
 Angka 214 di entri (1) adalah jumlah direktori **sebelum** husk E203 dibuang; sesudahnya **213**.
 Kedua angka benar untuk waktunya masing-masing.
+
+---
+
+## 2026-07-30 (3) | Sesi ditutup — handoff dibuat
+
+**Type:** SESSION CLOSE
+
+`docs/HANDOFF_20260730.md` dibuat. Sesuai protokol baru ("hanya handoff terkini yang tinggal di
+`docs/`"), `HANDOFF_20260727.md` dan `HANDOFF_20260707.md` dipindah ke `docs/archive/handoffs/` — tapi
+`docs/archive/README.md` sekarang menyebut eksplisit bahwa **kedua file itu masih dikutip dokumen
+hidup** (rantai bukti P2, dan rencana strategis Fable), supaya "diarsipkan" tidak terbaca sebagai
+"tidak relevan".
+
+Handoff sengaja **tipis**: sejak state permanen pindah ke `lines/*/CLAUDE.md` dan `lines/*/STATE.md`,
+handoff tidak perlu lagi mengangkut isi — cukup mengorientasi dan menunjuk. K1–K3 misalnya tidak
+diduplikasi di handoff; rumahnya `lines/01_spatial/CLAUDE.md`.
+
+Peringatan git ditambahkan ke kepala `WORKSTATE.md`: branch `reorg/lines-navigation`, 4 commit di depan
+`main`, belum di-push. Merge dan push menunggu PI.
+
+**Working tree bersih. `inBox/` kosong.**

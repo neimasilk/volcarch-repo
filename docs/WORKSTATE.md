@@ -11,8 +11,14 @@
 >
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
-> **Latest handoff: `docs/HANDOFF_20260727.md`** (read it for the P2 story; three rounds happened on
-> one day and later rounds correct earlier ones).
+>
+> **Latest handoff: `docs/HANDOFF_20260730.md`.** For the P2 evidence chain read
+> `docs/archive/handoffs/HANDOFF_20260727.md` — but note that three rounds happened on that one day
+> and later rounds correct earlier ones; `papers/P2_settlement_model/review_package_20260727/09_REVIEW_ATAS_BABAK2.md`
+> is the authoritative one. The K1–K3 corrections themselves live in `lines/01_spatial/CLAUDE.md`.
+>
+> ⚠ **Git: branch `reorg/lines-navigation`, 4 commits ahead of `main`, not pushed.** Merge and push
+> both await the PI.
 
 ---
 
