@@ -1,0 +1,33 @@
+{
+  "experiment": "E222",
+  "n_worlds": 10,
+  "n_runs": 360,
+  "P1_inflation_spearman_hybrid": 0.4395,
+  "P1_p_inflation": 9.305512532847714e-13,
+  "P1_frac_Rown_picks_hybrid1.0": 1.0,
+  "P2_cost_true_median": 0.1937,
+  "P2_frac_cost_true_positive": 1.0,
+  "P2_cost_map_median": 0.3989,
+  "P3_tgb_minus_random_mapjaccard_mean": -0.01,
+  "P3_frac_positive": 0.4667,
+  "P3_remote_spearman_gain_mean": -0.0031,
+  "P3_remote_frac_positive": 0.4,
+  "P4_boyce_vs_map_spearman_median": 0.5009,
+  "P4_boyce_vs_auctrue_spearman_median": 0.5429,
+  "P1_supported": false,
+  "P2_supported": true,
+  "P3_tgb_helps_map": false,
+  "P4_boyce_tracks_truth": true,
+  "P5_A_observed": {
+    "mean_auc_true_random": 0.8298,
+    "mean_map_jaccard_random": 0.7145,
+    "mean_map_jaccard_tgb": 0.6898,
+    "cost_true_median": 0.1947
+  },
+  "P5_B_misspecified": {
+    "mean_auc_true_random": 0.8258,
+    "mean_map_jaccard_random": 0.4458,
+    "mean_map_jaccard_tgb": 0.4504,
+    "cost_true_median": 0.1937
+  }
+}

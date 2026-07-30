@@ -1,0 +1,10 @@
+algorithm,train_design,uniform,tgb,hybrid,stratified
+maxent,hybrid,0.6605,0.6626,0.7051,0.675
+maxent,random,0.6939,0.6891,0.6985,0.7071
+maxent,tgb,0.6909,0.6867,0.696,0.7058
+randomforest,hybrid,0.7025,0.6992,0.7334,0.7095
+randomforest,random,0.7118,0.7063,0.7236,0.7151
+randomforest,tgb,0.7144,0.7086,0.7253,0.718
+xgboost,hybrid,0.706,0.7052,0.7414,0.7147
+xgboost,random,0.7145,0.7089,0.7259,0.7189
+xgboost,tgb,0.7187,0.7124,0.7285,0.7207

@@ -1,0 +1,227 @@
+{
+  "experiment": "E223",
+  "published_ladder_gain": 0.092,
+  "A_all_cells_exclude_published": true,
+  "A_uniform_rows": [
+    {
+      "algorithm": "maxent",
+      "eval_background": "uniform",
+      "n": 20,
+      "mean": -0.0334,
+      "ci_lo": -0.0389,
+      "ci_hi": -0.0279,
+      "excludes_published_+0.092": true
+    },
+    {
+      "algorithm": "randomforest",
+      "eval_background": "uniform",
+      "n": 20,
+      "mean": -0.0094,
+      "ci_lo": -0.0134,
+      "ci_hi": -0.0053,
+      "excludes_published_+0.092": true
+    },
+    {
+      "algorithm": "xgboost",
+      "eval_background": "uniform",
+      "n": 20,
+      "mean": -0.0085,
+      "ci_lo": -0.0131,
+      "ci_hi": -0.0039,
+      "excludes_published_+0.092": true
+    }
+  ],
+  "B_all_algorithms_exclude_published": true,
+  "B_summary": [
+    {
+      "algorithm": "maxent",
+      "n_replicates": 29,
+      "mean": -0.0185,
+      "ci_lo_pct": -0.0589,
+      "ci_hi_pct": 0.0082,
+      "excludes_published_+0.092": true
+    },
+    {
+      "algorithm": "xgboost",
+      "n_replicates": 29,
+      "mean": -0.0047,
+      "ci_lo_pct": -0.0241,
+      "ci_hi_pct": 0.0253,
+      "excludes_published_+0.092": true
+    },
+    {
+      "algorithm": "randomforest",
+      "n_replicates": 29,
+      "mean": -0.0011,
+      "ci_lo_pct": -0.0173,
+      "ci_hi_pct": 0.0256,
+      "excludes_published_+0.092": true
+    }
+  ],
+  "C_maxent_beta_diff_max": -0.0198,
+  "C_all_betas_nonpositive": true,
+  "D_kstar_by_threshold": [
+    {
+      "threshold": 0.85,
+      "algorithm": "maxent",
+      "design": "hybrid",
+      "kstar": 3
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "maxent",
+      "design": "random",
+      "kstar": 3
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "maxent",
+      "design": "tgb",
+      "kstar": 2
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "randomforest",
+      "design": "hybrid",
+      "kstar": 3
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "randomforest",
+      "design": "random",
+      "kstar": 2
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "randomforest",
+      "design": "tgb",
+      "kstar": 2
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "xgboost",
+      "design": "hybrid",
+      "kstar": 5
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "xgboost",
+      "design": "random",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.85,
+      "algorithm": "xgboost",
+      "design": "tgb",
+      "kstar": 5
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "maxent",
+      "design": "hybrid",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "maxent",
+      "design": "random",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "maxent",
+      "design": "tgb",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "randomforest",
+      "design": "hybrid",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "randomforest",
+      "design": "random",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "randomforest",
+      "design": "tgb",
+      "kstar": 4
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "xgboost",
+      "design": "hybrid",
+      "kstar": 7
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "xgboost",
+      "design": "random",
+      "kstar": 7
+    },
+    {
+      "threshold": 0.9,
+      "algorithm": "xgboost",
+      "design": "tgb",
+      "kstar": 7
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "maxent",
+      "design": "hybrid",
+      "kstar": 8
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "maxent",
+      "design": "random",
+      "kstar": 8
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "maxent",
+      "design": "tgb",
+      "kstar": 7
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "randomforest",
+      "design": "hybrid",
+      "kstar": 8
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "randomforest",
+      "design": "random",
+      "kstar": 7
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "randomforest",
+      "design": "tgb",
+      "kstar": 7
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "xgboost",
+      "design": "hybrid",
+      "kstar": 9
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "xgboost",
+      "design": "random",
+      "kstar": 9
+    },
+    {
+      "threshold": 0.95,
+      "algorithm": "xgboost",
+      "design": "tgb",
+      "kstar": 9
+    }
+  ]
+}

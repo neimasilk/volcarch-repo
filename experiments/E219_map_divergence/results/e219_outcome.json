@@ -1,0 +1,40 @@
+{
+  "experiment": "E219",
+  "n_seeds": 5,
+  "n_presences": 378,
+  "frame_cells": 588535,
+  "partA": {
+    "xgboost": {
+      "within_design_spearman": 0.9315224193782491,
+      "between_design_spearman": 0.8719542122611778,
+      "within_design_jaccard": 0.5489127358246352,
+      "between_design_jaccard": 0.4879220305662129,
+      "design_effect_exceeds_noise_floor": true
+    },
+    "randomforest": {
+      "within_design_spearman": 0.9739344211741906,
+      "between_design_spearman": 0.9263749689316135,
+      "within_design_jaccard": 0.6901309182982015,
+      "between_design_jaccard": 0.6512887806113645,
+      "design_effect_exceeds_noise_floor": false
+    },
+    "maxent": {
+      "within_design_spearman": 0.9493398162778125,
+      "between_design_spearman": 0.8320911801180862,
+      "within_design_jaccard": 0.6836644569543187,
+      "between_design_jaccard": 0.4660604144140944,
+      "design_effect_exceeds_noise_floor": true
+    }
+  },
+  "int1_test1_rho_legacy_7_volcanoes": -0.2435,
+  "int1_test1_rho_canonical_volcanoes": -0.2811,
+  "int1_n_canonical_in_bounds": 13,
+  "partC": {
+    "suitability_volcanic_matched": 0.2248963493010171,
+    "suitability_nonvolcanic_matched": 0.170237512292881,
+    "site_density_volcanic": 0.01377218722233909,
+    "site_density_nonvolcanic": 0.0004781505179497081,
+    "n_matched_strata": 90
+  },
+  "maps_differ_beyond_noise": true
+}

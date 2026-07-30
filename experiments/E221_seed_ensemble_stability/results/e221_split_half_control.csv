@@ -1,0 +1,10 @@
+algorithm,pair,ensemble_jaccard,split_half_floor,below_floor
+maxent,random|tgb,0.8259,0.8576,False
+maxent,random|hybrid,0.4056,0.8576,True
+maxent,tgb|hybrid,0.4314,0.8576,True
+randomforest,random|tgb,0.8644,0.8655,False
+randomforest,random|hybrid,0.7344,0.8655,True
+randomforest,tgb|hybrid,0.7192,0.8655,True
+xgboost,random|tgb,0.7646,0.7507,False
+xgboost,random|hybrid,0.6105,0.7507,True
+xgboost,tgb|hybrid,0.6161,0.7507,True

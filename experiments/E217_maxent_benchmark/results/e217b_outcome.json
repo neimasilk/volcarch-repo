@@ -1,0 +1,72 @@
+{
+  "experiment": "E217b",
+  "n_seeds": 5,
+  "n_presences": 378,
+  "eval_background_n": 1890,
+  "per_algorithm": {
+    "maxent": {
+      "common_eval": {
+        "random_nobuffer": 0.6953,
+        "random_buffered": 0.689,
+        "tgb": 0.6906,
+        "hybrid": 0.6634
+      },
+      "own_background": {
+        "random_nobuffer": 0.6905,
+        "random_buffered": 0.6893,
+        "tgb": 0.6865,
+        "hybrid": 0.705
+      },
+      "gain_site_buffer_only": -0.0063,
+      "gain_tgb_over_buffered_random": 0.0015,
+      "gain_hybrid_over_tgb": -0.0272,
+      "gain_total_common": -0.0319,
+      "gain_total_own_background": 0.0145,
+      "monotonic_common": false
+    },
+    "xgboost": {
+      "common_eval": {
+        "random_nobuffer": 0.7155,
+        "random_buffered": 0.7154,
+        "tgb": 0.7134,
+        "hybrid": 0.708
+      },
+      "own_background": {
+        "random_nobuffer": 0.7066,
+        "random_buffered": 0.712,
+        "tgb": 0.7129,
+        "hybrid": 0.7497
+      },
+      "gain_site_buffer_only": -0.0001,
+      "gain_tgb_over_buffered_random": -0.0021,
+      "gain_hybrid_over_tgb": -0.0053,
+      "gain_total_common": -0.0074,
+      "gain_total_own_background": 0.0431,
+      "monotonic_common": false
+    },
+    "randomforest": {
+      "common_eval": {
+        "random_nobuffer": 0.7094,
+        "random_buffered": 0.7152,
+        "tgb": 0.7136,
+        "hybrid": 0.7062
+      },
+      "own_background": {
+        "random_nobuffer": 0.703,
+        "random_buffered": 0.7143,
+        "tgb": 0.7103,
+        "hybrid": 0.7403
+      },
+      "gain_site_buffer_only": 0.0058,
+      "gain_tgb_over_buffered_random": -0.0016,
+      "gain_hybrid_over_tgb": -0.0074,
+      "gain_total_common": -0.0032,
+      "gain_total_own_background": 0.0373,
+      "monotonic_common": false
+    }
+  },
+  "mean_gain_from_adding_river_feature_common": 0.0424,
+  "mean_gain_from_background_redesign_common": -0.0142,
+  "background_effect_exceeds_feature_effect": false,
+  "inflation_from_own_background_evaluation": 0.0458
+}

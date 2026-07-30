@@ -1,0 +1,10 @@
+algorithm,pair,jaccard_top10
+xgboost,random|tgb,0.8211158213943126
+xgboost,random|hybrid,0.6463759196575937
+xgboost,tgb|hybrid,0.6557554614637989
+randomforest,random|tgb,0.9033958602846054
+randomforest,random|hybrid,0.7529599237493857
+randomforest,tgb|hybrid,0.7386924281367249
+maxent,random|tgb,0.8411124319589564
+maxent,random|hybrid,0.4078823036899707
+maxent,tgb|hybrid,0.433708084142316

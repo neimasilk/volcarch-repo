@@ -1,3 +1,13 @@
+> **⚠ STALE — DO NOT USE VERBATIM (flagged 2026-07-27).**
+> This file was written 2026-03-12 against an earlier draft and **contradicts the manuscript actually
+> submitted to JCAA** (`submission_jcaa_v0.1.tex`) in two material ways:
+> (1) Critique 2 describes the temporal split as **chronological** (pre-1000 CE vs post-1000 CE) — the
+> submitted E014 split is an **accessibility proxy** (road distance ≤1 km vs >1 km), not chronology;
+> (2) Critiques 2 and 4 assume **volcanic predictors are in the model** — the submitted model excludes
+> volcanic variables from training entirely.
+> Using these responses in a reviewer letter would misdescribe the analysis.
+> **Superseded by `JCAA_R1_RESPONSE_PLAN_20260727.md`.** Kept for audit trail only.
+
 # P2 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "Volcanic Taphonomic Bias in Settlement Pattern Analysis: A Predictive Model for East Java"

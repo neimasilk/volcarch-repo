@@ -1,0 +1,7 @@
+algorithm,comparison,spearman,jaccard_top10
+maxent,between_design,0.8321,0.4661
+maxent,within_design,0.9493,0.6837
+randomforest,between_design,0.9264,0.6513
+randomforest,within_design,0.9739,0.6901
+xgboost,between_design,0.872,0.4879
+xgboost,within_design,0.9315,0.5489

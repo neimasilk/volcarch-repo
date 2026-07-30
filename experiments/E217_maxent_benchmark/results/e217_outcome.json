@@ -1,0 +1,36 @@
+{
+  "experiment": "E217",
+  "question": "Does the pseudo-absence effect replicate under MaxEnt? (JCAA R1, Reviewer 1)",
+  "n_presences": 378,
+  "n_background_target": 1890,
+  "n_seeds": 5,
+  "cv": "5-fold deterministic spatial block CV, 0.45 deg blocks",
+  "per_algorithm": {
+    "maxent": {
+      "random": 0.6922,
+      "tgb": 0.688,
+      "hybrid": 0.7149,
+      "gain_random_to_hybrid": 0.0227,
+      "monotonic": false
+    },
+    "xgboost": {
+      "random": 0.7189,
+      "tgb": 0.7051,
+      "hybrid": 0.7422,
+      "gain_random_to_hybrid": 0.0233,
+      "monotonic": false
+    },
+    "randomforest": {
+      "random": 0.7179,
+      "tgb": 0.71,
+      "hybrid": 0.7386,
+      "gain_random_to_hybrid": 0.0206,
+      "monotonic": false
+    }
+  },
+  "mean_gain_from_background_redesign": 0.0222,
+  "mean_gain_from_adding_river_feature": 0.0454,
+  "background_effect_exceeds_feature_effect": false,
+  "maxent_replicates_monotonic_ladder": false,
+  "maxent_vs_xgboost_at_hybrid": -0.0273
+}

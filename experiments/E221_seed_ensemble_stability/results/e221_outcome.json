@@ -1,0 +1,109 @@
+{
+  "experiment": "E221",
+  "n_seeds": 10,
+  "n_presences": 378,
+  "kstar_jac0.9": {
+    "xgboost|random": 7,
+    "xgboost|tgb": 7,
+    "xgboost|hybrid": 7,
+    "randomforest|random": 4,
+    "randomforest|tgb": 4,
+    "randomforest|hybrid": 4,
+    "maxent|random": 4,
+    "maxent|tgb": 4,
+    "maxent|hybrid": 4
+  },
+  "single_run_vs_ensemble": {
+    "xgboost|random": 0.6832,
+    "xgboost|tgb": 0.672,
+    "xgboost|hybrid": 0.6495,
+    "randomforest|random": 0.8014,
+    "randomforest|tgb": 0.8015,
+    "randomforest|hybrid": 0.7672,
+    "maxent|random": 0.7778,
+    "maxent|tgb": 0.7904,
+    "maxent|hybrid": 0.7838
+  },
+  "ensemble_between_design": {
+    "xgboost|random|tgb": 0.8211,
+    "xgboost|random|hybrid": 0.6464,
+    "xgboost|tgb|hybrid": 0.6558,
+    "randomforest|random|tgb": 0.9034,
+    "randomforest|random|hybrid": 0.753,
+    "randomforest|tgb|hybrid": 0.7387,
+    "maxent|random|tgb": 0.8411,
+    "maxent|random|hybrid": 0.4079,
+    "maxent|tgb|hybrid": 0.4337
+  },
+  "turnover_by_algo_design": {
+    "xgboost|random": {
+      "jaccard": 0.5655,
+      "one_minus_jaccard": 0.4345,
+      "replaced_share": 0.2777
+    },
+    "xgboost|tgb": {
+      "jaccard": 0.5514,
+      "one_minus_jaccard": 0.4486,
+      "replaced_share": 0.2893
+    },
+    "xgboost|hybrid": {
+      "jaccard": 0.5257,
+      "one_minus_jaccard": 0.4743,
+      "replaced_share": 0.3111
+    },
+    "randomforest|random": {
+      "jaccard": 0.7152,
+      "one_minus_jaccard": 0.2848,
+      "replaced_share": 0.1668
+    },
+    "randomforest|tgb": {
+      "jaccard": 0.7191,
+      "one_minus_jaccard": 0.2809,
+      "replaced_share": 0.1639
+    },
+    "randomforest|hybrid": {
+      "jaccard": 0.666,
+      "one_minus_jaccard": 0.334,
+      "replaced_share": 0.2028
+    },
+    "maxent|random": {
+      "jaccard": 0.687,
+      "one_minus_jaccard": 0.313,
+      "replaced_share": 0.186
+    },
+    "maxent|tgb": {
+      "jaccard": 0.7052,
+      "one_minus_jaccard": 0.2948,
+      "replaced_share": 0.1733
+    },
+    "maxent|hybrid": {
+      "jaccard": 0.7065,
+      "one_minus_jaccard": 0.2935,
+      "replaced_share": 0.1725
+    }
+  },
+  "protocol_recommendation_min_seeds": 7,
+  "all_combos_stabilise_by_6": false,
+  "between_design_survives_ensembling": {
+    "xgboost": false,
+    "randomforest": false,
+    "maxent": true
+  },
+  "robust_vs_contingent_site_density": {
+    "xgboost": {
+      "robust": 40.785,
+      "contingent": 9.404,
+      "robust_higher": true
+    },
+    "randomforest": {
+      "robust": 30.741,
+      "contingent": 15.896,
+      "robust_higher": true
+    },
+    "maxent": {
+      "robust": 31.74,
+      "contingent": 5.65,
+      "robust_higher": true
+    }
+  }
+}

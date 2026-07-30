@@ -1,0 +1,8 @@
+{
+  "note": "matched split-half (5+5) ensemble control; supersedes e221_outcome.json[between_design_survives_ensembling]",
+  "design_gap_survives_ensembling": {
+    "maxent": true,
+    "randomforest": true,
+    "xgboost": true
+  }
+}

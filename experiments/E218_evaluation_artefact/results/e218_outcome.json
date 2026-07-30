@@ -1,0 +1,332 @@
+{
+  "experiment": "E218",
+  "n_seeds_main": 20,
+  "n_presences": 378,
+  "stageA": {
+    "auc": {
+      "uniform": {
+        "maxent": {
+          "random": 0.6939,
+          "tgb": 0.6909,
+          "hybrid": 0.6605,
+          "hybrid_minus_random": -0.0334,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.7145,
+          "tgb": 0.7187,
+          "hybrid": 0.706,
+          "hybrid_minus_random": -0.0085,
+          "hybrid_best": false
+        },
+        "randomforest": {
+          "random": 0.7118,
+          "tgb": 0.7144,
+          "hybrid": 0.7025,
+          "hybrid_minus_random": -0.0094,
+          "hybrid_best": false
+        }
+      },
+      "tgb": {
+        "maxent": {
+          "random": 0.6891,
+          "tgb": 0.6867,
+          "hybrid": 0.6626,
+          "hybrid_minus_random": -0.0265,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.7089,
+          "tgb": 0.7124,
+          "hybrid": 0.7052,
+          "hybrid_minus_random": -0.0037,
+          "hybrid_best": false
+        },
+        "randomforest": {
+          "random": 0.7063,
+          "tgb": 0.7086,
+          "hybrid": 0.6992,
+          "hybrid_minus_random": -0.0071,
+          "hybrid_best": false
+        }
+      },
+      "hybrid": {
+        "maxent": {
+          "random": 0.6985,
+          "tgb": 0.696,
+          "hybrid": 0.7051,
+          "hybrid_minus_random": 0.0066,
+          "hybrid_best": true
+        },
+        "xgboost": {
+          "random": 0.7259,
+          "tgb": 0.7285,
+          "hybrid": 0.7414,
+          "hybrid_minus_random": 0.0155,
+          "hybrid_best": true
+        },
+        "randomforest": {
+          "random": 0.7236,
+          "tgb": 0.7253,
+          "hybrid": 0.7334,
+          "hybrid_minus_random": 0.0098,
+          "hybrid_best": true
+        }
+      },
+      "stratified": {
+        "maxent": {
+          "random": 0.7071,
+          "tgb": 0.7058,
+          "hybrid": 0.675,
+          "hybrid_minus_random": -0.0321,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.7189,
+          "tgb": 0.7207,
+          "hybrid": 0.7147,
+          "hybrid_minus_random": -0.0041,
+          "hybrid_best": false
+        },
+        "randomforest": {
+          "random": 0.7151,
+          "tgb": 0.718,
+          "hybrid": 0.7095,
+          "hybrid_minus_random": -0.0056,
+          "hybrid_best": false
+        }
+      }
+    },
+    "tss": {
+      "uniform": {
+        "maxent": {
+          "random": 0.3917,
+          "tgb": 0.3854,
+          "hybrid": 0.3402,
+          "hybrid_minus_random": -0.0515,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.4246,
+          "tgb": 0.4271,
+          "hybrid": 0.3946,
+          "hybrid_minus_random": -0.03,
+          "hybrid_best": false
+        },
+        "randomforest": {
+          "random": 0.4147,
+          "tgb": 0.4125,
+          "hybrid": 0.4059,
+          "hybrid_minus_random": -0.0088,
+          "hybrid_best": false
+        }
+      },
+      "tgb": {
+        "maxent": {
+          "random": 0.3844,
+          "tgb": 0.3801,
+          "hybrid": 0.3399,
+          "hybrid_minus_random": -0.0445,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.4158,
+          "tgb": 0.4175,
+          "hybrid": 0.3945,
+          "hybrid_minus_random": -0.0213,
+          "hybrid_best": false
+        },
+        "randomforest": {
+          "random": 0.4073,
+          "tgb": 0.4033,
+          "hybrid": 0.4049,
+          "hybrid_minus_random": -0.0024,
+          "hybrid_best": false
+        }
+      },
+      "hybrid": {
+        "maxent": {
+          "random": 0.4026,
+          "tgb": 0.3989,
+          "hybrid": 0.3974,
+          "hybrid_minus_random": -0.0052,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.4467,
+          "tgb": 0.448,
+          "hybrid": 0.4509,
+          "hybrid_minus_random": 0.0042,
+          "hybrid_best": true
+        },
+        "randomforest": {
+          "random": 0.4378,
+          "tgb": 0.434,
+          "hybrid": 0.4448,
+          "hybrid_minus_random": 0.0069,
+          "hybrid_best": true
+        }
+      },
+      "stratified": {
+        "maxent": {
+          "random": 0.4085,
+          "tgb": 0.4082,
+          "hybrid": 0.3566,
+          "hybrid_minus_random": -0.052,
+          "hybrid_best": false
+        },
+        "xgboost": {
+          "random": 0.4317,
+          "tgb": 0.4311,
+          "hybrid": 0.4104,
+          "hybrid_minus_random": -0.0213,
+          "hybrid_best": false
+        },
+        "randomforest": {
+          "random": 0.4194,
+          "tgb": 0.4192,
+          "hybrid": 0.4154,
+          "hybrid_minus_random": -0.004,
+          "hybrid_best": false
+        }
+      }
+    },
+    "boyce": {
+      "uniform": {
+        "maxent": {
+          "random": 0.6205,
+          "tgb": 0.5854,
+          "hybrid": 0.6375,
+          "hybrid_minus_random": 0.0171,
+          "hybrid_best": true
+        },
+        "xgboost": {
+          "random": 0.5082,
+          "tgb": 0.5192,
+          "hybrid": 0.5496,
+          "hybrid_minus_random": 0.0414,
+          "hybrid_best": true
+        },
+        "randomforest": {
+          "random": 0.663,
+          "tgb": 0.6525,
+          "hybrid": 0.5681,
+          "hybrid_minus_random": -0.0949,
+          "hybrid_best": false
+        }
+      },
+      "tgb": {
+        "maxent": {
+          "random": 0.6167,
+          "tgb": 0.5845,
+          "hybrid": 0.6421,
+          "hybrid_minus_random": 0.0254,
+          "hybrid_best": true
+        },
+        "xgboost": {
+          "random": 0.5083,
+          "tgb": 0.5233,
+          "hybrid": 0.5405,
+          "hybrid_minus_random": 0.0321,
+          "hybrid_best": true
+        },
+        "randomforest": {
+          "random": 0.6666,
+          "tgb": 0.6508,
+          "hybrid": 0.5652,
+          "hybrid_minus_random": -0.1014,
+          "hybrid_best": false
+        }
+      },
+      "hybrid": {
+        "maxent": {
+          "random": 0.6167,
+          "tgb": 0.5926,
+          "hybrid": 0.6648,
+          "hybrid_minus_random": 0.0482,
+          "hybrid_best": true
+        },
+        "xgboost": {
+          "random": 0.517,
+          "tgb": 0.5266,
+          "hybrid": 0.5498,
+          "hybrid_minus_random": 0.0328,
+          "hybrid_best": true
+        },
+        "randomforest": {
+          "random": 0.6624,
+          "tgb": 0.6524,
+          "hybrid": 0.5643,
+          "hybrid_minus_random": -0.0981,
+          "hybrid_best": false
+        }
+      },
+      "stratified": {
+        "maxent": {
+          "random": 0.6331,
+          "tgb": 0.6075,
+          "hybrid": 0.6547,
+          "hybrid_minus_random": 0.0216,
+          "hybrid_best": true
+        },
+        "xgboost": {
+          "random": 0.5094,
+          "tgb": 0.5295,
+          "hybrid": 0.5478,
+          "hybrid_minus_random": 0.0384,
+          "hybrid_best": true
+        },
+        "randomforest": {
+          "random": 0.6584,
+          "tgb": 0.6487,
+          "hybrid": 0.5594,
+          "hybrid_minus_random": -0.099,
+          "hybrid_best": false
+        }
+      }
+    }
+  },
+  "stageA_hybrid_wins_by_eval_background": {
+    "uniform": 0,
+    "tgb": 0,
+    "hybrid": 3,
+    "stratified": 0
+  },
+  "artefact_confirmed": true,
+  "paper_claim_survives": false,
+  "stageB_hybrid_minus_random_by_block": {
+    "~40km|maxent": -0.0158,
+    "~40km|randomforest": -0.0057,
+    "~40km|xgboost": 0.0008,
+    "~50km|maxent": -0.0196,
+    "~50km|randomforest": -0.0064,
+    "~50km|xgboost": 0.0021,
+    "~60km|maxent": -0.0148,
+    "~60km|randomforest": -0.0024,
+    "~60km|xgboost": 0.0042
+  },
+  "stageC": {
+    "spearman_dissimilarity_vs_inflation": -0.0767,
+    "p_inflation": 0.40483323842983887,
+    "spearman_dissimilarity_vs_auc_own": 0.192,
+    "spearman_dissimilarity_vs_auc_common": 0.4583,
+    "p_common": 1.4119452800402078e-07
+  },
+  "mechanism_confirmed": false,
+  "stageD": {
+    "hybrid": {
+      "auc_own": 0.7574,
+      "auc_common": 0.7038
+    },
+    "random": {
+      "auc_own": 0.7106,
+      "auc_common": 0.7052
+    },
+    "tgb": {
+      "auc_own": 0.7173,
+      "auc_common": 0.7096
+    }
+  },
+  "stageD_ladder_persists_on_own_bg": true,
+  "stageD_ladder_flat_on_common_bg": true
+}

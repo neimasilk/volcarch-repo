@@ -1,0 +1,46 @@
+{
+  "experiment": "E222 World C",
+  "n_worlds": 10,
+  "mean_obs_region0_share": 0.4277,
+  "quota_vs_random_auc_true": {
+    "mean": -0.2457,
+    "frac_positive": 0.0
+  },
+  "quota_vs_random_map_jaccard": {
+    "mean": -0.4688,
+    "frac_positive": 0.0
+  },
+  "tgb_vs_random_auc_true": {
+    "mean": -0.001,
+    "frac_positive": 0.5667
+  },
+  "tgb_vs_random_map_jaccard": {
+    "mean": -0.0048,
+    "frac_positive": 0.4333
+  },
+  "mean_auc_true_by_config": {
+    "hybrid|0.0": 0.5763,
+    "hybrid|0.3": 0.5844,
+    "hybrid|0.7": 0.6049,
+    "hybrid|1.0": 0.6368,
+    "random|-1.0": 0.822,
+    "tgb|-1.0": 0.821
+  },
+  "mean_map_jaccard_by_config": {
+    "hybrid|0.0": 0.0255,
+    "hybrid|0.3": 0.0231,
+    "hybrid|0.7": 0.0505,
+    "hybrid|1.0": 0.1505,
+    "random|-1.0": 0.4943,
+    "tgb|-1.0": 0.4895
+  },
+  "mean_auc_own_by_config": {
+    "hybrid|0.0": 0.7363,
+    "hybrid|0.3": 0.7734,
+    "hybrid|0.7": 0.8322,
+    "hybrid|1.0": 0.881,
+    "random|-1.0": 0.8229,
+    "tgb|-1.0": 0.818
+  },
+  "quota_validated_in_home_regime": false
+}

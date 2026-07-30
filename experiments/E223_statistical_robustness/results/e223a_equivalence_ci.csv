@@ -1,0 +1,13 @@
+algorithm,eval_background,n,mean,ci_lo,ci_hi,excludes_published_+0.092
+maxent,hybrid,20,0.0066,0.0016,0.0116,True
+maxent,stratified,20,-0.0321,-0.0373,-0.027,True
+maxent,tgb,20,-0.0265,-0.031,-0.0221,True
+maxent,uniform,20,-0.0334,-0.0389,-0.0279,True
+randomforest,hybrid,20,0.0098,0.0058,0.0138,True
+randomforest,stratified,20,-0.0056,-0.0088,-0.0025,True
+randomforest,tgb,20,-0.0071,-0.0109,-0.0032,True
+randomforest,uniform,20,-0.0094,-0.0134,-0.0053,True
+xgboost,hybrid,20,0.0155,0.0096,0.0213,True
+xgboost,stratified,20,-0.0041,-0.0088,0.0005,True
+xgboost,tgb,20,-0.0037,-0.0091,0.0017,True
+xgboost,uniform,20,-0.0085,-0.0131,-0.0039,True
