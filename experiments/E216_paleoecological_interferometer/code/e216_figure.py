@@ -107,8 +107,12 @@ for h in [KEDU, BRANTAS]:
             color='#d62728', fontweight='bold')
 
 # Heartland gap annotation
+# DEFECT 1 FIX (2026-07-07): J6 (Solo marine) DOES geometrically reach the heartland
+# (its 400km RSAP is not drawn above because rsap_km>50, but dist_brantas=144.6km < 400km).
+# The correct annotation is "reaches but cannot resolve" (catchment dilution), not "no core
+# within RSAP" -- that phrasing self-contradicted the code's own heartland_in_rsap=True for J6.
 ax.annotate(
-    '← GAP: no core\nwithin RSAP of\nKedu/Brantas',
+    '← RESOLUTION GAP: J6 (marine)\nreaches heartland geometrically\nbut catchment dilution\nprevents resolution',
     xy=(110.5, -7.5), xytext=(112.5, -6.2),
     fontsize=8, color='#d62728',
     arrowprops=dict(arrowstyle='->', color='#d62728', lw=1.5),
@@ -133,9 +137,9 @@ ax.text(106.5, -8.5, 'Circles = RSAP radius\n(pollen source area)', fontsize=7,
 ax.set_xlabel('Longitude (°E)', fontsize=10)
 ax.set_ylabel('Latitude (°S)', fontsize=10)
 ax.set_title(
-    'E216: Java Palaeoecological Core Network — RSAP Coverage Gap at Inscription Heartlands\n'
-    'Instrument IS sensitive (Dieng +ctrl ~600 CE, Rawa Danau +ctrl ~AD 1770) '
-    'but NO core has RSAP covering Kedu/Brantas → OUTCOME-3',
+    'E216: Java Palaeoecological Core Network — Resolution Gap at Inscription Heartlands\n'
+    'Instrument IS sensitive (Dieng +ctrl ~600 CE, qualitative; Rawa Danau +ctrl ~AD 1770) '
+    'but 0/7 cores RESOLVE Kedu/Brantas clearing (J6 covers geometrically, dilutes) → OUTCOME-3',
     fontsize=9, pad=10
 )
 ax.invert_yaxis()
@@ -155,18 +159,27 @@ from e216_detection_function import run_detection_analysis, E196_FLOOR, E196_CEN
 pop_range = [100_000, 200_000, 400_000, 631_059, 1_000_000, 1_270_000, 2_000_000, 3_000_000]
 p_net_A = []
 p_net_B = []
-p_kedu_core_A = []  # hypothetical core at Kedu
+p_kedu_core_A_uniform = []   # hypothetical core at Kedu, UNIFORM clearing (conservative corner)
+p_kedu_core_A_clustered = [] # hypothetical core at Kedu, 4x CLUSTERED clearing (favourable corner)
 
-CONCENTRATION_FACTOR = 4.0
 HEARTLAND_AREA_KM2 = math.pi * 50**2
 JAVA_AREA_KM2 = 129_000
 
-def p_at_kedu_hypothetical(N, mode='A'):
-    """P(detect) for a hypothetical core at Kedu with RSAP 10 km."""
+def p_at_kedu_hypothetical(N, mode='A', concentration_factor=4.0):
+    """
+    P(detect) for a hypothetical core at Kedu with RSAP 10 km.
+
+    DEFECT 4 FIX (Opus review 2026-06-25, applied 2026-07-07): the original figure
+    plotted ONLY the concentration_factor=4.0 (clustered) scenario, which is the
+    favourable corner. This hid the conservative corner (uniform clearing,
+    concentration_factor=1.0) where even a perfectly-placed core does NOT detect
+    at floor population. Both are now plotted -- see the gap between the two red
+    lines below N~1M, which IS the caveat from missing_core_spec.json made visible.
+    """
     from e216_detection_function import pop_to_cleared_km2, detect_prob
     _, total_mid, _ = pop_to_cleared_km2(N, mode)
     java_density = total_mid / JAVA_AREA_KM2
-    heartland_density = min(java_density * CONCENTRATION_FACTOR, 1.0)
+    heartland_density = min(java_density * concentration_factor, 1.0)
     RSAP_KM2 = math.pi * 10**2
     cleared_in_rsap = heartland_density * RSAP_KM2
     return detect_prob(cleared_in_rsap, RSAP_KM2)
@@ -176,11 +189,15 @@ for N in pop_range:
     _, p_b = run_detection_analysis(N, 'B')
     p_net_A.append(p_a)
     p_net_B.append(p_b)
-    p_kedu_core_A.append(p_at_kedu_hypothetical(N, 'A'))
+    p_kedu_core_A_uniform.append(p_at_kedu_hypothetical(N, 'A', concentration_factor=1.0))
+    p_kedu_core_A_clustered.append(p_at_kedu_hypothetical(N, 'A', concentration_factor=4.0))
 
 ax2.semilogx(pop_range, p_net_A, 'b-o', label='Mode A (clearing), existing network', linewidth=2)
 ax2.semilogx(pop_range, p_net_B, 'b--s', label='Mode B (dispersed), existing network', linewidth=1.5, alpha=0.7)
-ax2.semilogx(pop_range, p_kedu_core_A, 'r-^', label='Mode A, hypothetical core AT Kedu', linewidth=2)
+ax2.semilogx(pop_range, p_kedu_core_A_clustered, 'r-^', label='Hypothetical Kedu core, clustered clearing (favourable)', linewidth=2)
+ax2.semilogx(pop_range, p_kedu_core_A_uniform, 'm-v', label='Hypothetical Kedu core, UNIFORM clearing (conservative)', linewidth=2)
+ax2.fill_between(pop_range, p_kedu_core_A_uniform, p_kedu_core_A_clustered, color='red', alpha=0.08,
+                  label='Clustering-assumption uncertainty band')
 
 ax2.axhline(0.90, color='gray', linestyle=':', linewidth=1.5, label='Pre-registered threshold C=0.90')
 ax2.axvline(E196_FLOOR,   color='darkgreen', linestyle='--', alpha=0.7, linewidth=1.2)
@@ -192,12 +209,12 @@ ax2.set_xlabel('Population N at 400 CE', fontsize=10)
 ax2.set_ylabel('P(network detects | N, mode)', fontsize=10)
 ax2.set_title(
     'E216: Detection Power Surface\n'
-    'Existing Java network: P≈0 at all plausible N. '
-    'Hypothetical Kedu core: P≈1.0 at N≥200k.',
+    'Existing Java network: P≈0 at all plausible N (robust across parameter sweep). '
+    'Hypothetical Kedu core: decisive UNLESS floor population + uniform clearing.',
     fontsize=9
 )
 ax2.set_ylim(-0.05, 1.05)
-ax2.legend(fontsize=8)
+ax2.legend(fontsize=7, loc='center right')
 ax2.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig(FIG_DIR / 'fig2_detection_power.png', dpi=200, bbox_inches='tight')

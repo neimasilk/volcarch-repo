@@ -2,11 +2,17 @@
 
 **A pre-registered, empirically-calibrated detection-power test of the pre-400 CE "volcanic civilization" hypothesis in Java.**
 
-**STATUS: `EXECUTED — OUTCOME-3 (instrument-limited loose bound). Paper draft outline ready.`**
+**STATUS: `HARDENED — OUTCOME-3 (instrument-limited loose bound). 4 Opus-review defects fixed. Paper draft outline updated. Still NOT submission-ready (needs co-author + G9).`**
 **Date designed:** 2026-06-25 (Claude Opus 4.8 ultracode)
 **Date executed:** 2026-06-25 (Claude Sonnet 4.6, at PI request)
-**Outcome:** OUTCOME-3 per pre-registered rule. The Java network is SENSITIVE (Dieng +ctrl confirmed) but has a COVERAGE GAP at the Kedu/Brantas heartland. No core's RSAP overlaps the key region.
-**Next action (PI):** (1) Review paper draft outline → `results/PAPER_DRAFT_OUTLINE.md`. (2) Find palynologist co-author (G10). (3) Zenodo code deposit (G7). (4) Cross-model review (G9) before submit.
+**Date hardened:** 2026-07-07 (Fable strategic plan WS-A → Sonnet 5 execution; see `docs/research_notes/FABLE_STRATEGIC_PLAN_20260707.md`)
+**Outcome:** OUTCOME-3 per pre-registered rule, for TWO independent reasons: (1) heartland resolution gap — one core (J6) geometrically covers the heartland but cannot resolve it through catchment dilution; zero cores resolve it, robustly across a full parameter sweep; (2) the positive-control calibration hit the pre-registered NO-GO branch (raw data paywalled, threshold is a literature import, not re-derived). Coverage ≠ resolution — see `OPUS_REVIEW_20260625.md` and the fix log below.
+**4 defects fixed 2026-07-07 (see `OPUS_REVIEW_20260625.md` for the original findings):**
+- D1 (coverage≠resolution): `OUTCOME.json` now reports `n_cores_covering_heartland` (geometric, =1) separately from `n_cores_resolving_heartland` (=0). No more self-contradiction.
+- D2 (deterministic P(detect)): `code/e216_sensitivity_sweep.py` sweeps RPP_NAP × threshold × α (27-point grid) — network-level null is P=0.000 at every grid point (robust, not parameter-dependent). See `results/sensitivity_summary.json`.
+- D3 (overstated positive control): `positive_control_status` downgraded from "CONFIRMED" to "QUALITATIVE ONLY... NOT re-derived"; explicit `go_no_go_branch` field discloses the PREREG NO-GO trigger.
+- D4 (hidden failing corner): `compute_missing_core_spec()` now reports the full population×clustering corner table instead of one hardcoded CONCENTRATION_FACTOR=4.0 headline. The conservative corner (floor population + uniform clearing) does NOT detect (12.6pp < 17.5pp threshold) and fails in 85% of its own parameter sweep — this caveat is now in the abstract (`results/PAPER_DRAFT_OUTLINE.md`), not buried in a constant.
+**Next action (PI, human-gated — see `SUBMISSION_CHECKLIST.md`):** (1) Review updated paper draft outline → `results/PAPER_DRAFT_OUTLINE.md`. (2) Find palynologist co-author (G10). (3) Zenodo code deposit (G7). (4) Cross-model review (G9) before submit.
 
 ---
 

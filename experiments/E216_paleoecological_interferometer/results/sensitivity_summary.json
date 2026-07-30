@@ -1,0 +1,78 @@
+{
+  "purpose": "PREREG.md equifinality control #4 promised an RPP-uncertainty sensitivity interval. This file is that interval. Do not report a single p_detect value in the manuscript without citing the corresponding range here.",
+  "network_detection_sensitivity": {
+    "central_modeA": {
+      "p_network_detect_min": 0.0,
+      "p_network_detect_max": 0.0,
+      "p_network_detect_mid": 0.0,
+      "n_grid_points": 27,
+      "fraction_grid_exceeding_C90": 0.0
+    },
+    "central_modeB": {
+      "p_network_detect_min": 0.0,
+      "p_network_detect_max": 0.0,
+      "p_network_detect_mid": 0.0,
+      "n_grid_points": 27,
+      "fraction_grid_exceeding_C90": 0.0
+    },
+    "floor_modeA": {
+      "p_network_detect_min": 0.0,
+      "p_network_detect_max": 0.0,
+      "p_network_detect_mid": 0.0,
+      "n_grid_points": 27,
+      "fraction_grid_exceeding_C90": 0.0
+    },
+    "floor_modeB": {
+      "p_network_detect_min": 0.0,
+      "p_network_detect_max": 0.0,
+      "p_network_detect_mid": 0.0,
+      "n_grid_points": 27,
+      "fraction_grid_exceeding_C90": 0.0
+    }
+  },
+  "missing_core_corner_sensitivity": {
+    "central_cf1.0": {
+      "n_grid_points": 27,
+      "n_detecting": 19,
+      "fraction_detecting": 0.7037,
+      "nap_rise_min_pp": 12.28,
+      "nap_rise_max_pp": 32.87
+    },
+    "central_cf2.0": {
+      "n_grid_points": 27,
+      "n_detecting": 27,
+      "fraction_detecting": 1.0,
+      "nap_rise_min_pp": 21.28,
+      "nap_rise_max_pp": 48.62
+    },
+    "central_cf4.0": {
+      "n_grid_points": 27,
+      "n_detecting": 27,
+      "fraction_detecting": 1.0,
+      "nap_rise_min_pp": 33.62,
+      "nap_rise_max_pp": 63.94
+    },
+    "floor_cf1.0": {
+      "n_grid_points": 27,
+      "n_detecting": 4,
+      "fraction_detecting": 0.1481,
+      "nap_rise_min_pp": 6.61,
+      "nap_rise_max_pp": 19.85
+    },
+    "floor_cf2.0": {
+      "n_grid_points": 27,
+      "n_detecting": 19,
+      "fraction_detecting": 0.7037,
+      "nap_rise_min_pp": 12.21,
+      "nap_rise_max_pp": 32.74
+    },
+    "floor_cf4.0": {
+      "n_grid_points": 27,
+      "n_detecting": 27,
+      "fraction_detecting": 1.0,
+      "nap_rise_min_pp": 21.19,
+      "nap_rise_max_pp": 48.48
+    }
+  },
+  "headline_robustness_check": "The floor+uniform corner (conservative) fails to detect in 85% of the swept parameter grid -- i.e. the 'core at Kedu settles it' claim is NOT robust at floor population with unclustered clearing across most plausible parameter choices, confirming Opus Defect 4 is not an artifact of one bad parameter pick but a structural feature of the conservative corner."
+}

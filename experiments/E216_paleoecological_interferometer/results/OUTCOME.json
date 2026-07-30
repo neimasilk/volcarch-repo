@@ -1,8 +1,9 @@
 {
   "experiment": "E216",
   "date": "2026-06-25",
+  "defects_fixed_date": "2026-07-07 (Opus review 4 defects \u2014 Fable/Sonnet hardening pass)",
   "outcome": "OUTCOME-3",
-  "rationale": "P(detect | N=631,059, Mode A) = 0.000 < C=0.9. No existing core has Kedu/Brantas heartland within its RSAP. Instrument is sensitive (Dieng +ctrl confirmed) but network has coverage gap at heartland.",
+  "rationale": "P(detect | N=631,059, Mode A) = 0.000 < C=0.9. 1 core(s) geometrically overlap the Kedu/Brantas heartland (RSAP polygon reaches it) but 0 core(s) can actually RESOLVE heartland clearing above the detection threshold. Coverage is not resolution. Instrument is sensitive (Dieng +ctrl, qualitative -- see positive_control_status) but the network has a resolution gap at the heartland.",
   "stats": {
     "p_net_floor_A": 0.0,
     "p_net_floor_B": 0.0,
@@ -11,11 +12,15 @@
     "n_cores_covering_heartland": 1,
     "cores_covering_heartland": [
       "J6"
-    ]
+    ],
+    "n_cores_resolving_heartland": 0,
+    "cores_resolving_heartland": [],
+    "coverage_vs_resolution_note": "Coverage != resolution. A core's RSAP can geometrically reach the heartland while still failing to resolve clearing there, if the catchment is large enough to dilute the signal below the detection threshold (this is exactly J6/marine Solo: geometric coverage=yes, resolution=no)."
   },
-  "positive_control_status": "CONFIRMED (Dieng ~600 CE qualitatively documented)",
-  "data_access_limitation": "Raw pollen % from Pudjoarinto 2001 + Yulianto 2005 inaccessible (403); calibration threshold from literature consensus (15-20 pp NAP rise = substantial)",
-  "key_finding": "No existing Java palaeoecological core has its RSAP covering the Kedu/Brantas inscription heartland. The instrument IS sensitive (Dieng positive control). The coverage gap at the heartland determines the outcome.",
+  "positive_control_status": "QUALITATIVE ONLY \u2014 NOT re-derived from raw data. The 15-20pp NAP-rise threshold is imported from the original authors' interpretation of Dieng ~600 CE clearance (Pudjoarinto & Cushing 2001) and Rawa Danau ~1770 CE (Yulianto et al. 2005); the raw pollen count series behind both is paywalled (HTTP 403) and was never independently extracted. This does not invalidate OUTCOME-3 (see go_no_go_branch below) but means the threshold is a literature import, not a blind re-derivation (SIG G1).",
+  "go_no_go_branch": "NO-GO, technically. PREREG.md S2 GO/NO-GO gate specifies: GO only if the Dieng signal magnitude is extractable from published data; NO-GO/direct-OUTCOME-3 if S2 thresholds cannot be quantified from available sources. Raw data was inaccessible, so this run hit the NO-GO branch. OUTCOME-3 is therefore independently supported by TWO reasons: (a) the heartland coverage/resolution gap (geometric+forward-model result) and (b) the calibration threshold being unextractable from raw data (NO-GO branch). Report both in any write-up -- do not rely on (a) alone.",
+  "data_access_limitation": "Raw pollen % from Pudjoarinto 2001 + Yulianto 2005 inaccessible (403); calibration threshold from literature consensus (15-20 pp NAP rise = substantial), not re-derived.",
+  "key_finding": "1 core(s) geometrically overlap the Kedu/Brantas heartland (RSAP reaches it) -- core J6 (marine Solo) is the case: its 400km RSAP reaches Brantas (144.6 km away). But 0 core(s) can actually RESOLVE heartland clearing above the detection threshold: catchment dilution drives J6's expected signal ~3 orders of magnitude below threshold. Coverage is not resolution. The instrument IS sensitive at the cores that DO have direct local RSAP (Dieng qualitative positive control), but no existing core combines heartland proximity with a resolving (non-diluted) archive type.",
   "mode_b_residual": "Dispersed forest-garden/arboriculture population is outside detection range of ALL cores including marine (Solo). This residual is the explicitly-defined E215 target.",
   "grl_2025_note": "Ruan et al. 2025 GRL finds fire/erosion markers ~3500 BP in E Java marine core \u2014 consistent with pre-400 CE human activity, but uses molecular markers (brGDGTs/levoglucosan), NOT charcoal+Cerealia diagnostic; therefore does not trigger OUTCOME-2 per pre-registration."
 }

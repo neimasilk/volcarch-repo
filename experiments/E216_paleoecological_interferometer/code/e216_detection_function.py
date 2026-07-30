@@ -195,16 +195,23 @@ def nap_rise(cleared_km2, rsap_km2, rpp_nap=RPP_NAP_MID, nap_bg=NAP_BACKGROUND_M
 
 
 def detect_prob(cleared_within_rsap_km2, rsap_km2, rpp_nap=RPP_NAP_MID,
-                nap_bg=NAP_BACKGROUND_MID, threshold=NAP_THRESHOLD_MID):
+                nap_bg=NAP_BACKGROUND_MID, threshold=NAP_THRESHOLD_MID, alpha=0.55):
     """
     Binary detection: P = 1.0 if signal > threshold, else 0.0.
     In practice, add uncertainty from count statistics (±5pp for 300-grain count).
     P(detect) = probability that observed NAP rise >= threshold, given Poisson count uncertainty.
     Approximated as: P = Phi((rise - threshold) / count_sigma)
     where count_sigma = sqrt(rise/300) (binomial approx for pollen count)
+
+    NOTE (Opus review 2026-06-25, Defect 2): this count-statistics term is a MINOR
+    source of uncertainty (~5pp) relative to the PARAMETER uncertainty in rpp_nap,
+    threshold, and alpha (each spanning a 2-4x range in the literature). A single
+    call to this function at MID parameter values is a point estimate, not a
+    calibrated probability. Use e216_sensitivity_sweep.py to get the parameter-space
+    interval before reporting "P(detect)" as a probability in any write-up.
     """
     import math
-    rise = nap_rise(cleared_within_rsap_km2, rsap_km2, rpp_nap, nap_bg)
+    rise = nap_rise(cleared_within_rsap_km2, rsap_km2, rpp_nap, nap_bg, alpha)
     count_sigma = math.sqrt(max(rise, 0.01) * (1 - max(rise, 0.01)) / 300)
     # Standard normal CDF
     z = (rise - threshold) / count_sigma if count_sigma > 0 else float('inf')
@@ -214,7 +221,7 @@ def detect_prob(cleared_within_rsap_km2, rsap_km2, rpp_nap=RPP_NAP_MID,
 
 # ── S5: Per-core and network detection function ───────────────────────────
 
-def run_detection_analysis(N_pop, mode='A', rpp_nap=RPP_NAP_MID, threshold=NAP_THRESHOLD_MID):
+def run_detection_analysis(N_pop, mode='A', rpp_nap=RPP_NAP_MID, threshold=NAP_THRESHOLD_MID, alpha=0.55):
     """
     For population N with mode A or B:
     1. Compute total cleared area in Java
@@ -275,8 +282,8 @@ def run_detection_analysis(N_pop, mode='A', rpp_nap=RPP_NAP_MID, threshold=NAP_T
             cleared_effective = cleared_in_rsap
 
         # P(detect)
-        p_detect = detect_prob(cleared_effective, rsap_km2, rpp_nap, NAP_BACKGROUND_MID, threshold)
-        nap_signal = nap_rise(cleared_effective, rsap_km2, rpp_nap, NAP_BACKGROUND_MID)
+        p_detect = detect_prob(cleared_effective, rsap_km2, rpp_nap, NAP_BACKGROUND_MID, threshold, alpha)
+        nap_signal = nap_rise(cleared_effective, rsap_km2, rpp_nap, NAP_BACKGROUND_MID, alpha)
 
         results.append({
             'core_id': c['id'],
@@ -306,10 +313,10 @@ def run_detection_analysis(N_pop, mode='A', rpp_nap=RPP_NAP_MID, threshold=NAP_T
 
 # ── S6: Two-mode separation ───────────────────────────────────────────────
 
-def run_both_modes(N_pop):
+def run_both_modes(N_pop, rpp_nap=RPP_NAP_MID, threshold=NAP_THRESHOLD_MID, alpha=0.55):
     """Run Mode A (clearing) and Mode B (dispersed) and compare."""
-    res_a, p_net_a = run_detection_analysis(N_pop, mode='A')
-    res_b, p_net_b = run_detection_analysis(N_pop, mode='B')
+    res_a, p_net_a = run_detection_analysis(N_pop, mode='A', rpp_nap=rpp_nap, threshold=threshold, alpha=alpha)
+    res_b, p_net_b = run_detection_analysis(N_pop, mode='B', rpp_nap=rpp_nap, threshold=threshold, alpha=alpha)
     return res_a, p_net_a, res_b, p_net_b
 
 
@@ -351,22 +358,42 @@ CONFOUND_ANALYSIS = {
 
 # ── S8: Apply pre-registered rule ─────────────────────────────────────────
 
-def apply_prereg_rule(n_floor, n_central, threshold=0.90):
+def apply_prereg_rule(n_floor, n_central, threshold=0.90, resolve_threshold=0.5):
     """
     Apply the pre-registered 3-outcome rule.
     Returns the outcome label and key supporting data.
-    """
-    # Run for floor and central estimates, both modes
-    _, p_net_floor_A, _, p_net_floor_B   = run_both_modes(n_floor)
-    _, p_net_central_A, _, p_net_central_B = run_both_modes(n_central)
 
-    # Check: does any core have heartland in RSAP?
+    DEFECT 1 FIX (Opus review 2026-06-25): OUTCOME.json previously reported
+    n_cores_covering_heartland=1 (J6, geometric RSAP overlap) alongside a
+    key_finding claiming "no core covers the heartland" -- a direct self-
+    contradiction. The reconciliation is that GEOMETRIC COVERAGE (does the
+    core's RSAP polygon reach the heartland?) and RESOLUTION (does the
+    resulting diluted signal actually clear the detection threshold?) are
+    different questions. J6 (marine Solo) covers but does not resolve: its
+    400km RSAP geometrically reaches Brantas (144.6 km away) but catchment
+    dilution drives the expected signal ~3 orders of magnitude below
+    threshold. We now compute and report BOTH counts explicitly.
+    """
+    # Run for floor and central estimates, both modes -- capture per-core results
+    res_floor_A, p_net_floor_A, res_floor_B, p_net_floor_B   = run_both_modes(n_floor)
+    res_central_A, p_net_central_A, res_central_B, p_net_central_B = run_both_modes(n_central)
+
+    # Geometric coverage: does the core's RSAP polygon reach the heartland at all?
     cores_covering_heartland = [c for c in CORES
                                  if min(haversine_km(c['lat'], c['lon'], KEDU_LAT, KEDU_LON),
                                         haversine_km(c['lat'], c['lon'], BRANTAS_LAT, BRANTAS_LON))
                                  <= c['rsap_mid']]
 
-    print(f"\nCores with heartland (Kedu/Brantas) within RSAP: {[c['id'] for c in cores_covering_heartland]}")
+    # Resolution: of the covering cores, which ones actually clear the detection
+    # threshold at floor population under Mode A (the more detectable clearing mode)?
+    # p_detect >= resolve_threshold means the expected signal is not just nonzero but
+    # crosses the calibrated NAP-rise threshold with meaningful confidence.
+    covering_ids = {c['id'] for c in cores_covering_heartland}
+    cores_resolving_heartland = [r['core_id'] for r in res_floor_A
+                                  if r['core_id'] in covering_ids and r['p_detect'] >= resolve_threshold]
+
+    print(f"\nCores with heartland (Kedu/Brantas) geometrically within RSAP: {[c['id'] for c in cores_covering_heartland]}")
+    print(f"Of those, cores that actually RESOLVE heartland clearing (p_detect>={resolve_threshold}): {cores_resolving_heartland}")
     print(f"P(network detects | N_floor={n_floor:,}, Mode A): {p_net_floor_A:.4f}")
     print(f"P(network detects | N_floor={n_floor:,}, Mode B): {p_net_floor_B:.4f}")
     print(f"P(network detects | N_central={n_central:,}, Mode A): {p_net_central_A:.4f}")
@@ -384,8 +411,11 @@ def apply_prereg_rule(n_floor, n_central, threshold=0.90):
         outcome = 'OUTCOME-3'
         rationale = (
             f'P(detect | N={n_floor:,}, Mode A) = {p_net_floor_A:.3f} < C={threshold}. '
-            f'No existing core has Kedu/Brantas heartland within its RSAP. '
-            f'Instrument is sensitive (Dieng +ctrl confirmed) but network has coverage gap at heartland.'
+            f'{len(cores_covering_heartland)} core(s) geometrically overlap the Kedu/Brantas heartland '
+            f'(RSAP polygon reaches it) but {len(cores_resolving_heartland)} core(s) can actually RESOLVE '
+            f'heartland clearing above the detection threshold. Coverage is not resolution. '
+            f'Instrument is sensitive (Dieng +ctrl, qualitative -- see positive_control_status) '
+            f'but the network has a resolution gap at the heartland.'
         )
 
     return outcome, rationale, {
@@ -395,67 +425,94 @@ def apply_prereg_rule(n_floor, n_central, threshold=0.90):
         'p_net_central_B': p_net_central_B,
         'n_cores_covering_heartland': len(cores_covering_heartland),
         'cores_covering_heartland': [c['id'] for c in cores_covering_heartland],
+        'n_cores_resolving_heartland': len(cores_resolving_heartland),
+        'cores_resolving_heartland': cores_resolving_heartland,
+        'coverage_vs_resolution_note': (
+            "Coverage != resolution. A core's RSAP can geometrically reach the heartland "
+            "while still failing to resolve clearing there, if the catchment is large enough "
+            "to dilute the signal below the detection threshold (this is exactly J6/marine Solo: "
+            "geometric coverage=yes, resolution=no)."
+        ),
     }
 
 
 # ── S8b: Missing-core specification ──────────────────────────────────────
 
+def compute_missing_core_corner_table(N_floor=E196_FLOOR, N_central=E196_CENTRAL, mode='A',
+                                       rpp_nap=RPP_NAP_MID, threshold=NAP_THRESHOLD_MID, alpha=0.55):
+    """
+    DEFECT 4 FIX (Opus review 2026-06-25): the original compute_missing_core_spec()
+    reported a single p_detect=1.0 headline built on a HARDCODED, UNCITED
+    CONCENTRATION_FACTOR=4.0 (heartland assumed 4x Java-average clearing density).
+    That hid a conservative corner where the claim reverses: at FLOOR population +
+    UNIFORM (unclustered) clearing, even a perfectly co-located core does NOT clear
+    the detection threshold (NAP rise 12.6pp < 17.5pp).
+
+    This function reports the full 2x2 corner table (population floor/central x
+    clustering uniform/clustered) instead of cherry-picking the favourable corner.
+    concentration_factor=1.0 means clearing is spread uniformly across Java (no
+    preferential heartland concentration); concentration_factor=4.0 assumes the
+    heartland has ~4x Java-average density (lowland agricultural preference --
+    plausible but NOT independently sourced, hence 1.0 is retained as the honest
+    lower bound rather than omitted).
+    """
+    def rise_at_density(density, rpp=rpp_nap, a=alpha):
+        f = density
+        return a * rpp * f / (rpp * f + (1 - f))
+
+    rows = []
+    for pop_label, N in [('floor', N_floor), ('central', N_central)]:
+        _, cleared_mid, _ = pop_to_cleared_km2(N, mode)
+        for cf_label, cf in [('uniform', 1.0), ('clustered_4x', 4.0)]:
+            density = min((cleared_mid / JAVA_AREA_KM2) * cf, 1.0)
+            rise = rise_at_density(density)
+            p_detect = detect_prob(density * 314, 314, rpp_nap=rpp_nap, threshold=threshold, alpha=alpha)
+            rows.append({
+                'population_label': pop_label,
+                'population_n': N,
+                'clustering_label': cf_label,
+                'concentration_factor': cf,
+                'heartland_clearing_density_pct': round(density * 100, 1),
+                'nap_rise_pp': round(rise * 100, 1),
+                'threshold_pp': round(threshold * 100, 1),
+                'detects': bool(rise >= threshold),
+                'p_detect': round(p_detect, 3),
+            })
+    return rows
+
+
 def compute_missing_core_spec(N_floor=E196_FLOOR, N_central=E196_CENTRAL, mode='A'):
     """
     Specify the decisive missing core.
 
-    Key geometric insight: the barrier is NOT lake size but LOCATION.
-    A core placed AT the Kedu/Brantas heartland will ALWAYS have its RSAP
-    overlap with local clearing, because clearing IS at the heartland.
+    Key geometric insight (retained -- this is real and is the paper's contribution):
+    the barrier is NOT lake size but LOCATION. A core placed AT the Kedu/Brantas
+    heartland will see local clearing directly, because clearing IS at the heartland,
+    regardless of the core's RSAP radius.
 
-    Clearing density in heartland (uniform within 50 km radius):
-      total_cleared_mid / (JAVA_AREA) × concentration_factor
-    A core at Kedu with any RSAP sees f_cleared = heartland clearing density.
-    P(detect) = f(f_cleared, RPP_NAP, threshold)
-
-    Concentration factor: Mode A clearing is preferentially in productive lowlands,
-    so heartland density ≈ 3-5× Java average.
+    DEFECT 4 FIX: the "decisive" claim is NOT uniform across the honest parameter
+    corners (see compute_missing_core_corner_table). This function now reports the
+    corner table plus an explicit caveat instead of a single overclaimed p_detect=1.0.
     """
-    HEARTLAND_RADIUS_KM    = 50
-    HEARTLAND_AREA_KM2     = math.pi * HEARTLAND_RADIUS_KM**2  # 7854 km²
-    CONCENTRATION_FACTOR   = 4.0   # heartland has ~4× Java avg density (lowland agricultural)
-
-    _, total_mid_floor, _  = pop_to_cleared_km2(N_floor,   mode)
-    _, total_mid_central, _ = pop_to_cleared_km2(N_central, mode)
-
-    # Clearing density in heartland zone (km² cleared per km² heartland)
-    clearing_density_floor   = min((total_mid_floor   / JAVA_AREA_KM2) * CONCENTRATION_FACTOR, 1.0)
-    clearing_density_central = min((total_mid_central / JAVA_AREA_KM2) * CONCENTRATION_FACTOR, 1.0)
-
-    # For any lake at Kedu with RSAP radius R:
-    #   cleared_in_rsap = clearing_density × (π × R²)
-    #   f = cleared_in_rsap / (π × R²) = clearing_density (size-independent!)
-    #   NAP_rise = alpha × RPP × f / (RPP × f + (1-f))
-    alpha = 0.55
-    def rise_at_kedu(density):
-        f = density
-        return alpha * RPP_NAP_MID * f / (RPP_NAP_MID * f + (1 - f))
-
-    rise_floor   = rise_at_kedu(clearing_density_floor)
-    rise_central = rise_at_kedu(clearing_density_central)
-    p_detect_floor   = detect_prob(clearing_density_floor   * 314,  314)  # 10 km RSAP
-    p_detect_central = detect_prob(clearing_density_central * 314, 314)
-
-    # Minimum lake size (RSAP) needed: even small lakes detect if AT the heartland
-    # Key constraint: age model resolution and 0-500 CE coverage
-    # For 50-yr resolution over 2000 yr → 40 samples, ~20 AMS dates needed
+    corners = compute_missing_core_corner_table(N_floor, N_central, mode)
+    conservative_corner = next(r for r in corners
+                                if r['population_label'] == 'floor' and r['clustering_label'] == 'uniform')
+    favourable_corner = next(r for r in corners
+                              if r['population_label'] == 'central' and r['clustering_label'] == 'clustered_4x')
+    conservative_fails = not conservative_corner['detects']
 
     return {
         'target_population_floor':    N_floor,
         'target_population_central':  N_central,
         'mode':                        mode,
-        'heartland_clearing_density_floor_pct':   round(clearing_density_floor * 100, 1),
-        'heartland_clearing_density_central_pct': round(clearing_density_central * 100, 1),
-        'expected_nap_rise_at_kedu_floor_pp':     round(rise_floor * 100, 1),
-        'expected_nap_rise_at_kedu_central_pp':   round(rise_central * 100, 1),
-        'detection_threshold_pp':                 round(NAP_THRESHOLD_MID * 100, 1),
-        'p_detect_if_core_at_kedu_floor':         round(p_detect_floor, 3),
-        'p_detect_if_core_at_kedu_central':       round(p_detect_central, 3),
+        'corner_table':                corners,
+        'conservative_corner':         'floor population + uniform (unclustered) clearing',
+        'conservative_corner_detects': conservative_corner['detects'],
+        'conservative_corner_nap_rise_pp': conservative_corner['nap_rise_pp'],
+        'favourable_corner':           'central population + 4x clustered clearing',
+        'favourable_corner_detects':   favourable_corner['detects'],
+        'favourable_corner_nap_rise_pp': favourable_corner['nap_rise_pp'],
+        'detection_threshold_pp':      round(NAP_THRESHOLD_MID * 100, 1),
         'KEY_CONSTRAINT':              'LOCATION not lake size — any lake/swamp within 20 km of Kedu/Brantas',
         'required_location':           'Kedu Plain (~-7.5S, 110.0E) OR Brantas headwaters (~-7.8S, 112.0E)',
         'required_max_dist_from_heartland_km': 20,
@@ -469,7 +526,15 @@ def compute_missing_core_spec(N_floor=E196_FLOOR, N_central=E196_CENTRAL, mode='
         'existing_core_nearest':      'J7 Song Gupuh (karst cave, 60 km from Kedu, wrong archive type)',
         'existing_core_gap_km':       60,
         'estimated_cost_usd':         '8,000-15,000 (vibrocore + AMS dating of 20 levels)',
-        'why_decisive':               'Clearing density ~9-36% at heartland → NAP rise 13-36 pp at ANY co-located core; positive control (Dieng ~600 CE) confirms instrument sensitivity',
+        'why_decisive_CAVEATED': (
+            f"A core at Kedu/Brantas would settle the question at CENTRAL population "
+            f"({N_central:,}) under either clustering assumption, and at FLOOR population "
+            f"({N_floor:,}) IF clearing was spatially clustered (4x concentration). "
+            f"It does NOT settle the question at floor population + uniform clearing "
+            f"(NAP rise {conservative_corner['nap_rise_pp']}pp < {round(NAP_THRESHOLD_MID*100,1)}pp threshold) "
+            f"-- that residual stays open and passes to the dispersed-mode channel (E215). "
+            f"This caveat must appear in the abstract, not only here."
+        ),
     }
 
 
@@ -534,23 +599,57 @@ def main():
         writer.writeheader()
         writer.writerows(all_rows)
 
-    # Outcome record
+    # Missing-core corner table (Defect 4 fix) — save as its own CSV for transparency
+    corner_rows = compute_missing_core_corner_table(E196_FLOOR, E196_CENTRAL, mode='A')
+    with open(OUT / "missing_core_corner_table.csv", 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=corner_rows[0].keys())
+        writer.writeheader()
+        writer.writerows(corner_rows)
+
+    # Outcome record (Defects 1 and 3 fixed: coverage-vs-resolution distinction;
+    # positive control downgraded from overstated "CONFIRMED" to honest "qualitative import")
     outcome_data = {
         'experiment': 'E216',
         'date': '2026-06-25',
+        'defects_fixed_date': '2026-07-07 (Opus review 4 defects — Fable/Sonnet hardening pass)',
         'outcome': outcome,
         'rationale': rationale,
         'stats': stats,
-        'positive_control_status': 'CONFIRMED (Dieng ~600 CE qualitatively documented)',
-        'data_access_limitation': 'Raw pollen % from Pudjoarinto 2001 + Yulianto 2005 inaccessible (403); calibration threshold from literature consensus (15-20 pp NAP rise = substantial)',
-        'key_finding': 'No existing Java palaeoecological core has its RSAP covering the Kedu/Brantas inscription heartland. The instrument IS sensitive (Dieng positive control). The coverage gap at the heartland determines the outcome.',
+        'positive_control_status': (
+            'QUALITATIVE ONLY — NOT re-derived from raw data. The 15-20pp NAP-rise threshold '
+            'is imported from the original authors\' interpretation of Dieng ~600 CE clearance '
+            '(Pudjoarinto & Cushing 2001) and Rawa Danau ~1770 CE (Yulianto et al. 2005); the raw '
+            'pollen count series behind both is paywalled (HTTP 403) and was never independently '
+            'extracted. This does not invalidate OUTCOME-3 (see go_no_go_branch below) but means the '
+            'threshold is a literature import, not a blind re-derivation (SIG G1).'
+        ),
+        'go_no_go_branch': (
+            'NO-GO, technically. PREREG.md S2 GO/NO-GO gate specifies: GO only if the Dieng signal '
+            'magnitude is extractable from published data; NO-GO/direct-OUTCOME-3 if S2 thresholds '
+            'cannot be quantified from available sources. Raw data was inaccessible, so this run '
+            'hit the NO-GO branch. OUTCOME-3 is therefore independently supported by TWO reasons: '
+            '(a) the heartland coverage/resolution gap (geometric+forward-model result) and '
+            '(b) the calibration threshold being unextractable from raw data (NO-GO branch). '
+            'Report both in any write-up -- do not rely on (a) alone.'
+        ),
+        'data_access_limitation': 'Raw pollen % from Pudjoarinto 2001 + Yulianto 2005 inaccessible (403); calibration threshold from literature consensus (15-20 pp NAP rise = substantial), not re-derived.',
+        'key_finding': (
+            f"{stats['n_cores_covering_heartland']} core(s) geometrically overlap the Kedu/Brantas "
+            f"heartland (RSAP reaches it) -- core J6 (marine Solo) is the case: its 400km RSAP "
+            f"reaches Brantas (144.6 km away). But {stats['n_cores_resolving_heartland']} core(s) can "
+            f"actually RESOLVE heartland clearing above the detection threshold: catchment dilution "
+            f"drives J6's expected signal ~3 orders of magnitude below threshold. Coverage is not "
+            f"resolution. The instrument IS sensitive at the cores that DO have direct local RSAP "
+            f"(Dieng qualitative positive control), but no existing core combines heartland proximity "
+            f"with a resolving (non-diluted) archive type."
+        ),
         'mode_b_residual': 'Dispersed forest-garden/arboriculture population is outside detection range of ALL cores including marine (Solo). This residual is the explicitly-defined E215 target.',
         'grl_2025_note': 'Ruan et al. 2025 GRL finds fire/erosion markers ~3500 BP in E Java marine core — consistent with pre-400 CE human activity, but uses molecular markers (brGDGTs/levoglucosan), NOT charcoal+Cerealia diagnostic; therefore does not trigger OUTCOME-2 per pre-registration.',
     }
     with open(OUT / "OUTCOME.json", 'w', encoding='utf-8') as f:
         json.dump(outcome_data, f, indent=2)
 
-    # Missing-core spec
+    # Missing-core spec (Defect 4 fixed: corner table + caveat, no single overclaimed p=1.0)
     spec = compute_missing_core_spec(E196_FLOOR, E196_CENTRAL, mode='A')
     with open(OUT / "missing_core_spec.json", 'w', encoding='utf-8') as f:
         json.dump(spec, f, indent=2)
@@ -558,9 +657,10 @@ def main():
     print("\nOutputs saved to results/")
     print(f"\n{'='*70}")
     print(f"VERDICT: {outcome}")
-    print(f"The Java palaeoecological network is SENSITIVE (Dieng positive control)")
-    print(f"but has a COVERAGE GAP at the inscription heartlands (Kedu/Brantas).")
-    print(f"No core's RSAP overlaps the key region. This is the paper's headline.")
+    print(f"The Java palaeoecological network has cores whose RSAP GEOMETRICALLY reaches")
+    print(f"the heartland (n={stats['n_cores_covering_heartland']}) but none that RESOLVES it")
+    print(f"(n={stats['n_cores_resolving_heartland']}) -- coverage != resolution. This is the paper's headline.")
+    print(f"Missing-core claim is CAVEATED: fails at floor population + uniform clearing.")
     print(f"{'='*70}")
 
 
