@@ -27,9 +27,11 @@ forcing-function deadline: **~2026-06-24 — passed.** All three items are send-
 
 | # | Action | Ready since | Days waiting |
 |---|---|---|---|
-| 1 | Send **Verberne** reply v4 (Leiden PhD — she asked 2 questions and is waiting) | 2026-06-09 | **~51** |
-| 2 | Upload **D1 + D2 to Zenodo** → paste 2 DOIs | 2026-06-10 | **~50** |
-| 3 | Send **Lamqaddam** reply (UvA — offered a BPI Dosen support letter) | 2026-04-23 | **~98** |
+| 1 | Send **Verberne** reply v4 (Leiden PhD — she asked 2 questions and is waiting) | 2026-06-09 | **~55** |
+| 2 | Upload **D1 + D2 to Zenodo** → paste 2 DOIs | 2026-06-10 | **~54** |
+| 3 | Send **Lamqaddam** reply (UvA — offered a BPI Dosen support letter) | 2026-04-23 | **~102** |
+| 4 | **NEW —** send the **P17 correction note** to the ArchCalc editor (paper is under review now) | 2026-08-03 | 0 |
+| 5 | **NEW —** post the **P7 preprint correction notice** | 2026-06-04 (defect known) | **~60** |
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
