@@ -16,7 +16,7 @@
 > now `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug) — it
 > supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since withdrawn.
 >
-> ⚠ **Git: on `main`, 11 commits from 2026-08-03, not pushed.** Push awaits the PI.
+> ⚠ **Git: on `main`, the whole 2026-08-03 session is committed and unpushed** (`git rev-list --count origin/main..main`). Push awaits the PI.
 
 ---
 
@@ -80,7 +80,7 @@ is still under review. Draft: `docs/correspondence/EMAIL_ARCHCALC_P17_CORRECTION
 `papers/P7_TOM/CORRECTION_NOTICE_DRAFT_20260803.md`.
 **Other:** authorise the E211 corpus run (since 2026-04-23) · file DJKI HKI (4 docs ready) ·
 palynologist co-author outreach for E216 · L1 amendment (adopt *"peradaban vulkanik"*) · send the
-Vossen/VU email · **push 11 commits to GitHub**.
+Vossen/VU email · **push the 2026-08-03 commits to GitHub**.
 
 ---
 
