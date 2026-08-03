@@ -8998,3 +8998,103 @@ Peringatan git ditambahkan ke kepala `WORKSTATE.md`: branch `reorg/lines-navigat
 `main`, belum di-push. Merge dan push menunggu PI.
 
 **Working tree bersih. `inBox/` kosong.**
+
+---
+
+## 2026-08-03 | Sesi lanjutan otonom — P2 blok B′/D/G/H, E224, WS-E jalur 02
+
+**Type:** RESEARCH + INTEGRITY · **Status:** SELESAI · **Jalur:** 01 spatial (utama), 02 taphonomy
+
+Instruksi PI: "baca handoff, lanjutkan yang bisa dilanjutkan, lakukan sebanyak yang kamu bisa tanpa
+konfirmasi." Sesi pagi hari yang sama sudah menutup keputusan tenggat (tidak minta perpanjangan;
+revisi #280 dikerjakan sampai 20 Agt) — itu memindahkan prioritas dari WS-E ke item P2 yang tak
+terhalang siapa pun.
+
+### 1. B′ — K1–K3 diterapkan, dan prosesnya menemukan K5–K7
+
+Membangun re-derivasi buta (SIG G1) untuk seluruh angka headline v0.2: 61 pemeriksaan, dihitung dari
+file per-run, `*_outcome.json` sengaja tidak dibaca. Skrip
+`papers/P2_settlement_model/revision_ammo/verify_headline_numbers.py`, laporan
+`SIG_G1_VERIFICATION_20260803.md`.
+
+Tiga mismatch awal ternyata **bug definisi skrip saya sendiri** dan itu instruktif: "quota" di World
+C/D adalah hybrid(hf=0.0) bukan hybrid(1.0); `gain_total_common` E217b hanya dihitung pada
+`feature_set == terrain_river`; "slope per-run" dokumen 09 adalah OLS, bukan selisih endpoint.
+Ketiganya kini terdokumentasi di skrip — angka tanpa definisi estimator tidak bisa diverifikasi siapa
+pun, termasuk oleh penulisnya tiga bulan kemudian.
+
+Empat mismatch sisanya cacat klaim nyata, **semuanya di dokumen 08 §3 yang berlabel "set klaim FINAL"**:
+- **K5** "aturan memilih konfigurasi TERBURUK 100% kasus" — salah. Yang dipilih hybrid(1.0); yang
+  terburuk-menurut-kebenaran hybrid(0.0) di 50/60 kasus. hybrid(1.0) tidak pernah jadi yang terburuk.
+- **K6** "naik monoton sampai ujung dial" — di data nyata ada satu penurunan (0.0→0.1, −0.0071).
+- **K7** densitas robust/fringe "2–5,6×" — batas bawah sebenarnya **1,93×**.
+- **G1c** ρ Test 1 terbit (−0.163) **tidak tereproduksi**; re-run 5-seed memberi −0.243. Itu
+  ketidakstabilan seed (temuan D1 jalur ini sendiri) muncul di dalam diagnostik tautologi naskah.
+
+Set klaim terkoreksi: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` — kini otoritatif,
+menggantikan dokumen 08 §3.
+
+### 2. E224 — hipotesis K4 diuji dan GAGAL
+
+K4 mengusulkan penjelasan rapi untuk null TGB di E222: `road_dist` bukan fitur, jadi bias survei tak
+terwakili di ruang fitur dan TGB tak punya apa pun untuk dibatalkan. Pra-registrasi ditulis dan
+di-commit sebelum eksekusi (dua cabang keputusan, metrik primer dikunci ke `map_jaccard`).
+
+Hasil: **tidak ada bedanya.** TGB − random = −0.0217 dengan `road_dist` di fitur, −0.0254 tanpa; 30%
+pasangan positif di kedua lengan. Lengan kontrol mereproduksi E222 (max |Δ| auc_true 0.0004) → run
+valid. K4 turun dari diagnosis jadi conjecture yang gugur; naskah harus bilang nullnya **tidak
+terjelaskan**.
+
+Metrik **sekunder** `auc_true` naik dari 36,7% → 60% positif. Tanpa pra-registrasi, godaan menafsir
+ulang ke sana akan besar. Tidak dilakukan. Difile **FAILED, bukan REFUTED**, karena `road_dist`
+ternyata berkorelasi +0.49 dengan `river_dist` — manipulasinya tidak sebersih yang diasumsikan.
+
+### 3. Blok D — matriks kovariat, dan INT-4
+
+Matriks per-eksperimen dibangun dengan **membaca skripnya**, bukan teks naskah
+(`revision_ammo/COVARIATE_MATRIX.md` + `.csv`). Menyingkap:
+- **INT-4:** berkas hasil E014 salah label. Skripnya punya dua cabang; yang jalan adalah cabang
+  accessibility (road ≤1 km vs >1 km), tapi template output mencetak label "Split year 2000 /
+  Pre-2000: 333 / Post-2000: 45". Diverifikasi: sampling raster jarak-jalan di 378 lokasi situs
+  memberi **persis 333 dan 45**. Naskah menjelaskan split-nya dengan benar; hanya artefaknya salah.
+  Template diperbaiki, berkas lama diberi correction notice.
+- `road_dist` memikul **empat peran** (background TGB, pool hybrid, split E014, proxy Test 1 & 3)
+  sambil sengaja bukan fitur. Setelah E217 itu tidak cukup lagi ditaruh di limitations.
+- "temporal split" adalah misnomer yang sudah menyesatkan satu dokumen internal (INT-2) → usul ganti
+  jadi "accessibility-proxy holdout".
+
+### 4. Blok G — Response to Reviewers, 17 item
+
+`revision_ammo/RESPONSE_TO_REVIEWERS_v0.2_DRAFT.md`. R1-A…I dan R2-A…H dijawab satu per satu, plus
+enam pengungkapan yang tidak diminta siapa pun: INT-1, INT-4, ρ yang tidak tereproduksi, K1–K7, E224
+yang gagal, dan daftar yang sengaja tidak dikerjakan. Belum dikirim; tiga prasyarat tertulis di
+kepala berkas.
+
+### 5. WS-E jalur 02 — P17 (under review) disapu
+
+P17 menghitung semua angkanya dari **10 gunung pilihan tangan**; kanonik 30. Diderivasi ulang buta:
+
+- **Klaim inti SELAMAT dan menguat.** Median 14.5 vs 27.6 km, gap 13.1 km, MW p = 1.5e-7. Konsentrasi
+  court zone **1.86× → 2.70×** — angka terbit *mengecilkan* efek papernya sendiri.
+- **Kalimat metodenya tidak menggambarkan komputasinya.** Daftar 10 yang disebut naskah memberi
+  15.4/28.2 km, bukan 14.6/27.6. Konsisten dengan catatan rebuild E104: aslinya 9 gunung untuk candi,
+  15 untuk prasasti — dua penggaris untuk dua kelompok yang justru sedang dibandingkan.
+- n prasasti 176 → **174**.
+- `e104_court_zone.json` punya `candi: 0` di seluruh blok distribusinya sejak run asli; blok kanonik
+  ditambahkan.
+- Jebakan yang memakan waktu: file kanonik mengeja Sindoro sebagai **"Sundoro"** (bentuk GVP).
+
+Draft nota koreksi ke editor ArchCalc dibuat (`docs/correspondence/EMAIL_ARCHCALC_P17_CORRECTION_DRAFT_20260803.md`).
+Draft correction notice preprint P7 juga dibuat (`papers/P7_TOM/CORRECTION_NOTICE_DRAFT_20260803.md`) —
+tertunggak sejak 2026-06-04.
+
+### Pola yang layak dicatat
+
+Tiga kali hari ini, **pemeriksaan mekanis menangkap klaim yang enak dibaca dan tidak didukung
+datanya** — K5/K6/K7 di dokumen yang berlabel FINAL, K4 di penjelasan yang hampir masuk naskah, dan
+kalimat metode P17 di naskah yang sedang di-review. Ketiganya lolos pembacaan manusia berkali-kali.
+Yang menangkap: re-derivasi buta dan pra-registrasi dua cabang. Itu argumen operasional untuk
+mempertahankan G1, bukan sekadar prinsip.
+
+**Commit:** 8 commit di `main`. **Eksperimen:** 224 (E224 baru). **Exposure: masih nol** — semua yang
+dibuat hari ini adalah draft yang menunggu PI.

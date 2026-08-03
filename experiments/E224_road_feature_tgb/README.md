@@ -1,6 +1,6 @@
 # E224 — Does target-group background work once the bias variable is a feature?
 
-**Status: FAILED (hypothesis not supported) — and that is the result, not a problem with the run.**
+**Status:** FAILED — hypothesis not supported. That is the result, not a problem with the run.
 **Date:** 2026-08-03 · **Line:** 01 spatial (serves P2/JCAA #280 v0.2) · **Model:** Opus 5
 **Pre-registration:** `DESIGN.md`, committed **before** execution (`d4f44af`).
 

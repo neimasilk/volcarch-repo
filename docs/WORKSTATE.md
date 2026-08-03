@@ -1,6 +1,6 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-07-30 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-08-03 · **This file is short by design. Keep it that way.**
 
 > **In FOCUS MODE (cwd inside `lines/<nn>_*/`) you should not be reading this.** Read that line's
 > `CLAUDE.md` + `STATE.md`. This file is the **orbit** view: what the whole portfolio is doing, what is
@@ -12,13 +12,11 @@
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
-> **Latest handoff: `docs/HANDOFF_20260730.md`.** For the P2 evidence chain read
-> `docs/archive/handoffs/HANDOFF_20260727.md` — but note that three rounds happened on that one day
-> and later rounds correct earlier ones; `papers/P2_settlement_model/review_package_20260727/09_REVIEW_ATAS_BABAK2.md`
-> is the authoritative one. The K1–K3 corrections themselves live in `lines/01_spatial/CLAUDE.md`.
+> **Latest handoff: `docs/HANDOFF_20260803.md`.** For the P2 claim set, the authoritative document is
+> now `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug) — it
+> supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since withdrawn.
 >
-> ⚠ **Git: branch `reorg/lines-navigation`, 4 commits ahead of `main`, not pushed.** Merge and push
-> both await the PI.
+> ⚠ **Git: on `main`, 8 commits from 2026-08-03, not pushed.** Push awaits the PI.
 
 ---
 
@@ -35,9 +33,12 @@ forcing-function deadline: **~2026-06-24 — passed.** All three items are send-
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
-**Scorecard: 0 acceptances · 7 rejections · 3 under review · 223 experiments.**
-The 2026-07-27 session added world-class rigor and **zero** exposure. That was correct work and it did
-not move the constraint. Nothing on this dashboard changes until items 1–3 are done.
+**Scorecard: 0 acceptances · 7 rejections · 3 under review · 224 experiments.**
+The 2026-07-27 session added world-class rigor and **zero** exposure; 2026-07-30 added infrastructure
+and zero exposure; **2026-08-03 added a claim set, a response letter, a failed experiment and two
+correction drafts — and zero exposure.** Every one of those was correct work. None of it moved the
+constraint. Three of the five things now waiting on the PI are *send* actions, and two of them
+(P17 correction, P7 notice) have a clock on them.
 
 ---
 
@@ -45,7 +46,7 @@ not move the constraint. Nothing on this dashboard changes until items 1–3 are
 
 | Deadline | Item |
 |---|---|
-| **2026-08-20** (**21 days**) | **P2 resubmission to JCAA.** Remaining work was estimated at 3–4 weeks *before* the K1–K3 corrections were added. **Extension to 2026-09-30 is the standing recommendation** and sits inside the held Verhagen email. |
+| **2026-08-20** (**17 days**) | **P2 resubmission to JCAA — no extension will be requested** (PI decision 2026-08-03: every `[RUN]` item is done or dissolved, so the reason would not have been true, and asking the scope question risks inviting "new submission"). Remaining work is prose: v0.2 manuscript + figures. Claim set, response letter, covariate tables and the integrity gate are **done**. |
 | Dec 2026 | Edinburgh PhD application window (entry Oct 2027) |
 
 ---
@@ -54,8 +55,8 @@ not move the constraint. Nothing on this dashboard changes until items 1–3 are
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | Apply **K1–K3** to the claim set (blocks all v0.2 prose) | Claude, then PI |
-| **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E** integrity sweep — mechanical, unblocks 01/06 | **Claude — best unblocked work in the repo** |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | **Write v0.2 prose** — claim set (doc 10), response letter, covariate tables and SIG G1 are all done as of 3 Aug. Only gate left: co-author sign-off | Claude, then PI |
+| **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E: P17 arm DONE** (core claim survives and strengthens; methods sentence + 3 numbers need correcting **with a live journal**). Next: P1, P11, P5, P8, manifesto | Claude; editor note = PI |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Write the E216 prose manuscript (parallel to co-author search) | Claude; co-author = PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🔧 READY | Pre-write E211 eval protocol; 10-file smoke test | Claude; run authorisation = PI |
@@ -67,13 +68,17 @@ not move the constraint. Nothing on this dashboard changes until items 1–3 are
 
 ## 4. Decisions waiting on the PI
 
-**P2 / JCAA (5):** confirm authorship with the human Go Frendi (the new manuscript reaches the
-*opposite* conclusion he signed in March) · send the Verhagen email (currently **HELD**) · revision of
-#280 vs. new submission · v0.2 title · GO to write v0.2.
-**Repo:** **permission to commit** — two full sessions (2026-07-07, 2026-07-27) are uncommitted.
+**P2 / JCAA (2 left of 5):** ~~Verhagen email~~ withdrawn 3 Aug · ~~scope~~ settled (revision of #280) ·
+~~commit permission~~ done · **sign-off from the human Go Frendi on the corrected claim set** (send him
+`10_SET_KLAIM_TERKOREKSI.md`; he knows the conclusion reversed, he has not signed the new claims) ·
+**v0.2 title** (candidates resting on "selection picks the worst design" are dead — K5).
+**P17 / ArchCalc #365 — NEW, time-sensitive:** send the correction note to the editor while the paper
+is still under review. Draft: `docs/correspondence/EMAIL_ARCHCALC_P17_CORRECTION_DRAFT_20260803.md`.
+**P7:** post the preprint correction notice — overdue since 2026-06-04, costs one login. Draft:
+`papers/P7_TOM/CORRECTION_NOTICE_DRAFT_20260803.md`.
 **Other:** authorise the E211 corpus run (since 2026-04-23) · file DJKI HKI (4 docs ready) ·
 palynologist co-author outreach for E216 · L1 amendment (adopt *"peradaban vulkanik"*) · send the
-Vossen/VU email · approve the workstream order in `research_notes/FABLE_STRATEGIC_PLAN_20260707.md`.
+Vossen/VU email · **push 8 commits to GitHub**.
 
 ---
 
@@ -81,8 +86,8 @@ Vossen/VU email · approve the workstream order in `research_notes/FABLE_STRATEG
 
 | Paper | Line | Status |
 |---|---|---|
-| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20. Core claim self-refuted; reframing around the artefact (Jalur A). |
-| **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. |
+| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20, no extension. Core claim self-refuted; reframing around the artefact. Claim set + response letter + tables + G1 gate **done 3 Aug**; prose outstanding. |
+| **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. ⚠ **WS-E (3 Aug): finding survives and strengthens (court concentration 1.86× → 2.70×), but the methods sentence does not describe the computation and 3 numbers are wrong.** Correction note to the editor is drafted and waiting. |
 | **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11. arXiv:2604.00023. |
 | **P11** Volcanic informedness | 01 | rejected 2× (both editorial). Core finding survives. Retarget SPAFA — queued behind §1. |
 | **P1** Taphonomic framework | 02 | rejected 2×. v2.0 rewritten → JASREP. Needs WS-E + SIG. |

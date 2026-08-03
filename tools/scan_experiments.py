@@ -65,7 +65,7 @@ LINE_MAP = {
     "E196": ["01_spatial"], "E202": ["01_spatial"], "E209": ["01_spatial"],
     "E210": ["01_spatial"], "E217": ["01_spatial"], "E218": ["01_spatial"],
     "E219": ["01_spatial"], "E220": ["01_spatial"], "E221": ["01_spatial"],
-    "E222": ["01_spatial"], "E223": ["01_spatial"],
+    "E222": ["01_spatial"], "E223": ["01_spatial"], "E224": ["01_spatial"],
     # --- 02 taphonomy -------------------------------------------------------
     "E002": ["02_taphonomy"], "E017": ["02_taphonomy"], "E018": ["02_taphonomy"],
     "E020": ["02_taphonomy"], "E024": ["02_taphonomy"], "E052": ["02_taphonomy"],

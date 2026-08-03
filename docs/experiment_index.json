@@ -3148,5 +3148,19 @@
     "lines": [
       "01_spatial"
     ]
+  },
+  {
+    "id": "E224",
+    "dir": "E224_road_feature_tgb",
+    "has_readme": true,
+    "title": "Does target-group background work once the bias variable is a feature?",
+    "status": "FAILED",
+    "papers": [
+      "P2"
+    ],
+    "date": "2026-08-03",
+    "lines": [
+      "01_spatial"
+    ]
   }
 ]
