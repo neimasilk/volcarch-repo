@@ -88,14 +88,23 @@ memberi 2.01×. Tulis **"sekitar dua kali"** dan lampirkan definisinya di catata
 | D2 | Obatnya murah dan bisa dijadikan protokol: ensemble seed. | k\* = 2–5 (J≥0.85), **4–7** (J≥0.90), 7–9 (J≥0.95) | `e223d_kstar_thresholds.csv` | ✅ |
 | D3 | Produk lapangan: inti *robust* punya densitas situs lebih tinggi daripada *fringe* pada ketiga algoritma. | **1,9× / 4,3× / 5,6×** (rf / xgb / maxent) — bukan "2–5,6×" | `e221_priority_sets.csv` | ✅ |
 
-### K-E · Diagnosis TGB (K4) — mengubah kelemahan jadi kontribusi
+### K-E · Null TGB — ⛔ DIAGNOSIS K4 DIUJI DAN GAGAL (E224, 2026-08-03)
 
 | # | Klaim | Angka | Sumber | G1 |
 |---|---|---|---|---|
-| E1 | TGB tidak menolong di simulasi kami, dan alasannya **struktural, bukan kegagalan metode**: `road_dist` bukan fitur model, jadi bias survei masuk sebagai label noise, bukan distorsi di ruang fitur. TGB dirancang membatalkan s(x) **di ruang fitur**; kalau s(x) tak terwakili di sana, tidak ada yang perlu dibatalkan. | TGB − random pada map Jaccard: **−0.010**, 46,7% positif | `e222_runs.csv` | ✅ |
-| E2 | Syarat yang bisa diuji: **koreksi target-group hanya bisa menolong kalau variabel biasnya berkorelasi dengan ruang fitur model.** | uji konfirmasi = masukkan `road_dist` ke fitur, ulangi P3 (→ **E224**) | pra-registrasi | — |
-| E3 | Konsisten dengan E1: TGB **netral, bukan merugikan**, di rejim bias regional. | World C −0.0010 (56,7% positif), World D **+0.0022 (73,3% positif)** | `e222c/d_runs.csv` | ✅ |
+| E1 | TGB tidak menolong di simulasi kami. **Nullnya nyata dan tetap dilaporkan.** | TGB − random pada map Jaccard: **−0.010**, 46,7% positif | `e222_runs.csv` | ✅ |
+| ~~E2~~ | ~~"Alasannya struktural: `road_dist` bukan fitur, jadi TGB tak punya apa pun untuk dibatalkan"~~ | **DIUJI DI E224 DAN TIDAK DIDUKUNG.** Dengan `road_dist` dimasukkan ke fitur, TGB − random = **−0.0217** (30% positif); tanpa itu **−0.0254** (30% positif). Tidak berubah. | `e224_outcome.json` | ✅ |
+| E2′ | Rumusan pengganti yang boleh dipakai: **null-nya belum terjelaskan.** Kami mengajukan satu penjelasan, mengujinya, dan penjelasan itu gagal. | lihat E224 README | pra-registrasi | ✅ |
+| E2″ | Keterbatasan uji itu sendiri, wajib disebut: `road_dist` **tidak ortogonal** terhadap fitur yang sudah ada (`river_dist` **+0.49**, elevation +0.31), jadi separuh sinyalnya sudah terjangkau sebelum manipulasi. Uji yang bersih butuh permukaan bias yang ortogonal by construction — **future work**. | korelasi di `e224_outcome.json` | ✅ |
+| E3 | TGB **netral, bukan merugikan**, di rejim bias regional. | World C −0.0010 (56,7% positif), World D **+0.0022 (73,3% positif)** | `e222c/d_runs.csv` | ✅ |
 | E4 | Satu-satunya kondisi di mana TGB unggul adalah misspecification — kecil, tapi disebutkan (m-b). | Jaccard tgb **0.4504** vs random 0.4458 (dunia B) | `e222_runs.csv` | ✅ |
+
+> **Pelajaran metodologisnya justru lebih berharga daripada diagnosis yang gugur:** K4 lahir sebagai
+> penjelasan yang rapi dan masuk akal untuk hasil yang mengganggu, dan sudah hampir masuk naskah
+> sebagai "null yang terprediksi". Yang menghentikannya adalah pra-registrasi dengan dua cabang
+> keputusan tertulis di depan. Kalau E224 dijalankan tanpa itu, godaan menafsir ulang `auc_true`
+> (yang memang naik dari 36,7% → 60% positif — metrik **sekunder**, jauh di bawah ambang) akan sangat
+> besar. **Jangan lakukan itu.** Ambangnya dikunci pada `map_jaccard`, dan `map_jaccard` bilang tidak.
 
 ### K-F · Fork kuota yang jatuh (dilaporkan apa adanya)
 

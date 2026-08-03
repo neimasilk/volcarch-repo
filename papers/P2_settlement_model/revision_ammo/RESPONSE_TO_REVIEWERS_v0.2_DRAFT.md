@@ -287,7 +287,24 @@ Each was caught by a blind re-derivation of every headline number from the raw p
 a pre-submission gate. We mention this because it is the same failure mode the paper is about, it
 recurred in our own correction of it, and only a mechanical check caught it.
 
-**5. What we did not do.** Additional synthetic bias regimes (non-stationary bias, bias correlated with
+**5. An explanation we proposed, tested, and had to withdraw.** Our synthetic experiments found that
+target-group background did not improve truth-anchored recovery over a random background — an
+uncomfortable result, since target-group background is the standard bias correction and our simulation
+gave it exactly the condition its theory requires. We proposed an explanation: the model's feature set
+does not contain road distance, so the survey-bias factor is not representable in feature space and
+target-group correction has nothing to cancel. It was a tidy account and it nearly entered this
+manuscript as a "predicted null".
+
+We pre-registered a test with both decision branches written down, then ran it (E224): the same
+synthetic worlds with road distance added to the feature set. **It made no difference.** Target-group
+background remained slightly worse than random: −0.022 in top-decile map agreement with road distance
+in the features, −0.025 without, with 30% of the 30 paired comparisons positive in both conditions.
+We therefore report the null as **unexplained** rather than predicted, and note the limitation of our
+own test: road distance correlates +0.49 with river distance, so the model had partial access to the
+bias signal even in the control condition, and a clean test would need a survey-effort surface
+orthogonal to terrain by construction. That is future work.
+
+**6. What we did not do.** Additional synthetic bias regimes (non-stationary bias, bias correlated with
 non-road covariates) and replication in a second real region are declared future work. Our synthetic
 evidence covers four regimes with n ≈ 300–500 observed presences; it is not a general refutation of
 target-group background, and we do not claim one. The bootstrap can exclude effects of about +0.03 or
@@ -303,5 +320,6 @@ revision itself.
 
 ---
 
-*Draft prepared 2026-08-03. Numbers verified against `SIG_G1_VERIFICATION_20260803.md`. Pending items:
-E224 result [PENDING], v0.2 section cross-references, co-author sign-off.*
+*Draft prepared 2026-08-03. Numbers verified against `SIG_G1_VERIFICATION_20260803.md`. E224 completed
+the same day and its result is incorporated (disclosure 5). Pending items: v0.2 section
+cross-references, co-author sign-off.*

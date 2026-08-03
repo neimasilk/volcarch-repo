@@ -68,3 +68,28 @@ Traceback (most recent call last):  File "D:\documents\volcarch-repo\experiments
   File "C:\Users\neima\anaconda3\Lib\site-packages\bottleneck\__init__.py", line 7, in <module>
     from .move import (move_argmax, move_argmin, move_max, move_mean, move_median,
 AttributeError: _ARRAY_API not found
+==============================================================================
+E224: TGB with and without the bias variable in the feature set (K4 confirmation)
+==============================================================================
+  frame cells (clay-complete, as E222): 555,609
+  road_dist correlation with existing features: elevation +0.314, slope +0.284, twi -0.220, tri +0.291, aspect +0.002, river_dist +0.492
+  world 1/10 done (observed=501)
+  world 2/10 done (observed=498)
+  world 3/10 done (observed=501)
+  world 4/10 done (observed=496)
+  world 5/10 done (observed=500)
+  world 6/10 done (observed=503)
+  world 7/10 done (observed=494)
+  world 8/10 done (observed=494)
+  world 9/10 done (observed=498)
+  world 10/10 done (observed=494)
+
+==============================================================================
+PRE-REGISTERED READOUT
+==============================================================================
+  no_road    TGB - random   map_jaccard -0.0254 (30% positive, n=30)   auc_true -0.0006 (37%)
+  with_road  TGB - random   map_jaccard -0.0217 (30% positive, n=30)   auc_true -0.0000 (60%)
+  control arm reproduces E222 : True  {'auc_true': {'n': 60, 'max_abs_diff': 0.00041, 'mean_abs_diff': 3.8e-05}, 'map_jaccard': {'n': 60, 'max_abs_diff': 0.016952, 'mean_abs_diff': 0.001255}, 'auc_own': {'n': 60, 'max_abs_diff': 0.000316, 'mean_abs_diff': 3.3e-05}}
+  H SUPPORTED                 : False
+
+  -> D:\documents\volcarch-repo\experiments\E224_road_feature_tgb\results\e224_outcome.json

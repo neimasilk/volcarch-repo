@@ -1,6 +1,6 @@
 {
   "experiment": "E224",
-  "n_worlds": 1,
+  "n_worlds": 10,
   "road_dist_collinearity": {
     "elevation": 0.3142,
     "slope": 0.2835,
@@ -12,102 +12,102 @@
   "arms": {
     "no_road": {
       "map_jaccard": {
-        "n_pairs": 3,
-        "mean": -0.0142,
-        "median": -0.0165,
-        "frac_positive": 0.3333
+        "n_pairs": 30,
+        "mean": -0.0254,
+        "median": -0.0194,
+        "frac_positive": 0.3
       },
       "auc_true": {
-        "n_pairs": 3,
-        "mean": -0.0041,
-        "median": 0.0005,
-        "frac_positive": 0.6667
+        "n_pairs": 30,
+        "mean": -0.0006,
+        "median": -0.0005,
+        "frac_positive": 0.3667
       },
       "spearman_remote": {
-        "n_pairs": 3,
-        "mean": -0.0039,
-        "median": -0.0065,
-        "frac_positive": 0.3333
+        "n_pairs": 30,
+        "mean": -0.0009,
+        "median": -0.0012,
+        "frac_positive": 0.4667
       },
       "auc_own": {
-        "n_pairs": 3,
-        "mean": -0.003,
-        "median": -0.0026,
-        "frac_positive": 0.0
+        "n_pairs": 30,
+        "mean": -0.0055,
+        "median": -0.0063,
+        "frac_positive": 0.1667
       },
       "levels": {
         "map_jaccard": {
-          "random": 0.627,
-          "tgb": 0.6128
+          "random": 0.7145,
+          "tgb": 0.689
         },
         "auc_true": {
-          "random": 0.8173,
-          "tgb": 0.8132
+          "random": 0.8298,
+          "tgb": 0.8292
         },
         "auc_own": {
-          "random": 0.8461,
-          "tgb": 0.8431
+          "random": 0.8491,
+          "tgb": 0.8435
         }
       }
     },
     "with_road": {
       "map_jaccard": {
-        "n_pairs": 3,
-        "mean": -0.0118,
-        "median": -0.0038,
-        "frac_positive": 0.3333
+        "n_pairs": 30,
+        "mean": -0.0217,
+        "median": -0.0102,
+        "frac_positive": 0.3
       },
       "auc_true": {
-        "n_pairs": 3,
-        "mean": -0.0005,
-        "median": -0.0002,
-        "frac_positive": 0.3333
+        "n_pairs": 30,
+        "mean": -0.0,
+        "median": 0.0002,
+        "frac_positive": 0.6
       },
       "spearman_remote": {
-        "n_pairs": 3,
-        "mean": -0.004,
-        "median": 0.0005,
-        "frac_positive": 0.6667
+        "n_pairs": 30,
+        "mean": -0.0039,
+        "median": -0.0037,
+        "frac_positive": 0.4
       },
       "auc_own": {
-        "n_pairs": 3,
-        "mean": -0.0026,
-        "median": -0.003,
-        "frac_positive": 0.0
+        "n_pairs": 30,
+        "mean": -0.0058,
+        "median": -0.0052,
+        "frac_positive": 0.1667
       },
       "levels": {
         "map_jaccard": {
-          "random": 0.6185,
-          "tgb": 0.6067
+          "random": 0.7075,
+          "tgb": 0.6858
         },
         "auc_true": {
-          "random": 0.8158,
-          "tgb": 0.8153
+          "random": 0.8292,
+          "tgb": 0.8292
         },
         "auc_own": {
-          "random": 0.8489,
-          "tgb": 0.8463
+          "random": 0.8495,
+          "tgb": 0.8436
         }
       }
     }
   },
   "H_supported": false,
-  "control_arm_null_as_in_E222": true,
+  "control_arm_null_as_in_E222": false,
   "control_arm_replicates_E222": {
     "auc_true": {
-      "n": 6,
-      "max_abs_diff": 0.000279,
-      "mean_abs_diff": 4.7e-05
+      "n": 60,
+      "max_abs_diff": 0.00041,
+      "mean_abs_diff": 3.8e-05
     },
     "map_jaccard": {
-      "n": 6,
-      "max_abs_diff": 0.011121,
-      "mean_abs_diff": 0.00284
+      "n": 60,
+      "max_abs_diff": 0.016952,
+      "mean_abs_diff": 0.001255
     },
     "auc_own": {
-      "n": 6,
-      "max_abs_diff": 9.3e-05,
-      "mean_abs_diff": 2.9e-05
+      "n": 60,
+      "max_abs_diff": 0.000316,
+      "mean_abs_diff": 3.3e-05
     }
   },
   "run_void": false
