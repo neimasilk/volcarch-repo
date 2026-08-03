@@ -1,5 +1,17 @@
 # Draft email — JCAA #280: self-disclosure + extension request
 
+> ⛔ **SUPERSEDED 2026-08-03 — JANGAN KIRIM DRAFT INI.**
+> Pengganti: **`EMAIL_VERHAGEN_EXTENSION_REQUEST_20260803.md`** (permintaan perpanjangan pendek;
+> koreksi klaim dipindahkan ke *Response to Reviewers*, tempat yang semestinya).
+>
+> **Kenapa basi:** draft ini ditulis **pagi 27 Jul**, sebelum babak 2 (E222/E223). Angka-angkanya —
+> termasuk *"mean −0.014 AUC, positive in 3 of 15"* dan bingkai *"the manuscript's main finding does
+> not hold"* — sudah dikoreksi sendiri di `papers/P2_settlement_model/review_package_20260727/09_REVIEW_ATAS_BABAK2.md`
+> §7 sebagai **over-generalisasi dari satu dataset**. `08_HANDOFF_BABAK2.md` juga sudah menandai draft
+> ini butuh diperbarui ("isinya berubah materiil setelah babak 2").
+>
+> Disimpan sebagai jejak audit, bukan untuk dipakai.
+
 **To:** Dr Philip Verhagen <journal@caa-international.org>, cc j.w.h.p.verhagen@vu.nl
 **Subject:** Re: Editor Decision, JCAA #280 — revision scope query and extension request
 **Status:** ⛔ **ON HOLD — DO NOT SEND (PI instruction, 2026-07-27).** Deadline is 2026-08-20; there is time
