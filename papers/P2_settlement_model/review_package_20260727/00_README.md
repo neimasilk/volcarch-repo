@@ -18,16 +18,29 @@ utama naskah kita sendiri**. Bukan temuan reviewer — temuan kita, saat menurut
 
 Sebagai co-author, Mas Go Frendi berhak tahu dan berhak tidak setuju sebelum apa pun bergerak.
 
-## Empat dokumen, baca urut
+## Sepuluh dokumen — tapi jangan baca urut nomor
+
+Paket ini tumbuh dalam tiga babak pada satu hari (27 Jul) plus satu babak koreksi (3 Agt), dan
+**babak yang lebih baru mengoreksi yang lebih lama.** Urutan bacanya:
 
 | # | Dokumen | Isi | Perkiraan waktu |
 |---|---|---|---|
 | 1 | `01_naskah_asli_jcaa_v0.1.pdf` (+ `.tex`, `.bib`) | Naskah persis seperti yang disubmit 2026-03-11 | 30–45 mnt |
 | 2 | `02_LAPORAN_REVIEWER.md` | Keputusan editor + dua laporan reviewer, verbatim | 20 mnt |
-| 3 | `03_TEMUAN_REVISI.md` | **Dokumen inti.** Apa yang gugur, buktinya, letak tiap eksperimen dan tiap angka | 45–60 mnt |
-| 4 | `04_HANDOFF.md` | Status sekarang, keputusan yang menunggu, apa yang harus dikerjakan siapa | 15 mnt |
+| 3 | `03_TEMUAN_REVISI.md` | **Dokumen inti babak 1.** Apa yang gugur, buktinya, letak tiap eksperimen | 45–60 mnt |
+| 4 | `04_HANDOFF.md` | Status babak 1 | 15 mnt |
+| 5 | `05_REVIEW_COAUTHOR_GO_FRENDI.md` | Analisis posisi co-author (**bukan** tanda tangan) | 15 mnt |
+| 6 | `06_HASIL_E220_E221.md` | Hasil seleksi + stabilitas seed | 10 mnt |
+| 7 | `07_REVIEW_KERAS_Q1_GO_FRENDI.md` | Review bermusuhan, 8 kritik mayor, syarat R1–R4 | 20 mnt |
+| 8 | `08_HANDOFF_BABAK2.md` | Handoff babak 2. **§3 "set klaim FINAL" sudah GUGUR** — pakai dokumen 10 | 10 mnt |
+| 9 | `09_REVIEW_ATAS_BABAK2.md` | Verifikasi independen. Menemukan K1–K3 | 20 mnt |
+| **10** | **`10_SET_KLAIM_TERKOREKSI.md`** | ⭐ **PALING BARU (3 Agt) dan otoritatif.** Set klaim v0.2 pasca K1–K7 + hasil SIG G1 | **25 mnt** |
 
-**Kalau waktu terbatas:** baca dokumen 3 bagian "Ringkasan Satu Halaman" dan dokumen 4. Sisanya rujukan.
+**Kalau waktu terbatas:** baca **dokumen 10** (set klaim yang akan masuk naskah) lalu dokumen 2
+(apa yang reviewer minta). Dokumen 3 §1 kalau ingin cerita lengkap bagaimana klaim lama gugur.
+
+⚠ **Jangan mengutip angka dari dokumen 07 atau 08 tanpa mengeceknya ke dokumen 10.** Tujuh klaim di
+sana lebih kuat daripada datanya sendiri; semuanya sudah dikoreksi.
 
 ## Yang diminta dari Mas Go Frendi
 

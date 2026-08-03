@@ -30,18 +30,27 @@ E218/E218b confirmed it and named the mechanism, E222 tested it against syntheti
 E223 gave it CIs. Reported AUC and true generalisation move in **opposite directions**.
 
 Then a hard review (`09_REVIEW_ATAS_BABAK2.md`) found that **two of our replacement headline claims
-were themselves overstated.** Corrections K1–K3 are mandatory and **not yet applied**:
+were themselves overstated** (K1–K3). Applying them on 2026-08-03 under SIG G1 — a blind re-derivation
+of all 61 numbers from the per-run files — turned up **three more** (K5–K7). All are applied and live in
+**`review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`**, which is now the authoritative claim set.
 
 | | Overstated claim | Measured truth |
 |---|---|---|
-| **K1** | "the manuscript's selection rule picks the worst design 60/60" | True only on a dial extended to `hard_frac=1.0`. On the grid the manuscript actually used (`{0.0, 0.15, 0.30}`): **0/60 wrong, cost +0.0000**. What survives: the criterion has **no interior optimum** — the manuscript stopped at 0.30 only because its grid stopped. |
-| **K2** | "reported number moves ~10× faster than truth" | **2.01×** synthetic, **1.26×** real. |
-| **K3** | "always inflated" | **343/360 = 95.3%** (min −0.031). |
-| **K4** | *(constructive)* the TGB null was reported as a surprise | `road_dist` is **not a model feature**, so the model cannot express survey bias and TGB has nothing to cancel. Turns a weakness into a tested condition. Cheap confirmation: add `road_dist`, re-run E222 P3. |
+| **K1** | "the manuscript's selection rule picks the worst design 60/60" | True only on a dial extended to `hard_frac=1.0`. On the grid the manuscript actually used (`{0.0, 0.15, 0.30}`): cost **+0.0000** median synthetic, **+0.0044** real. What survives: the criterion has **no interior optimum** — the manuscript stopped at 0.30 only because its grid stopped. |
+| **K2** | "reported number moves ~10× faster than truth" | **2.01×** synthetic (endpoint) / 2.12× (per-run OLS slope — name the estimator). Real data: the two move in **opposite directions**. |
+| **K3** | "always inflated" | **343/360 = 95.3%** (min −0.031, median +0.187). |
+| **K4** | *(constructive)* the TGB null was reported as a surprise | `road_dist` is **not a model feature**, so the model cannot express survey bias and TGB has nothing to cancel. Turns a weakness into a tested condition. Confirmation run pre-registered as **E224**. |
+| **K5** | "the rule picks the **worst** configuration 100% of the time" (doc 08 §3) | **False.** It picks hybrid(1.0), which is **never** the truth-worst (that is hybrid(0.0), 50/60). Correct wording: it costs **+0.194 against the best available design**. |
+| **K6** | "the reported criterion rises **monotonically** to the end of the dial" | Synthetic yes; real data has one dip (0.0→0.1, −0.0071). Correct wording: **its maximum always sits at the edge of whatever grid is swept.** |
+| **K7** | "robust-core site density 2–5.6× the fringe" | **1.93×** / 4.34× / 5.62× (rf / xgb / maxent). The low end is 1.9, not 2. |
 
-**Do not draft manuscript v0.2 from `08_HANDOFF_BABAK2.md` §3.** It calls itself final; it is not.
-K1–K3 are an application of the SIG rule to our own work: *never answer a valid critique by
-rewording.*
+Plus **G1c**, found by the same sweep: the published Test-1 correlation **ρ = −0.163 does not reproduce**
+— a 5-seed re-run on the same 7-volcano inventory gives −0.243. That is the seed instability of this
+line's own D1 finding appearing inside the manuscript's tautology diagnostic. Disclose it.
+
+**Do not draft manuscript v0.2 from `08_HANDOFF_BABAK2.md` §3.** It calls itself final; three of its
+five claims are now withdrawn. K1–K7 are an application of the SIG rule to our own work: *never answer
+a valid critique by rewording.*
 
 ---
 

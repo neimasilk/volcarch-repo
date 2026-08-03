@@ -6,40 +6,47 @@
 
 ## Hard deadline
 
-**P2 resubmission to JCAA: 2026-08-20.** Remaining work was estimated at 3–4 weeks *before* the K1–K3
-corrections were added. **An extension request to 2026-09-30 is the standing recommendation** and is
-part of the held Verhagen email.
+**P2 resubmission to JCAA: 2026-08-20 — no extension will be requested.** PI decision 2026-08-03: every
+`[RUN]` item is done, dissolved, or out of scope, so the remaining revision is **writing**, and asking
+for more time on run-related grounds would have given the editor a reason that is not true. Asking the
+scope question ("revision or new submission?") was also dropped — it risks inviting the answer "new
+submission", which would discard the only non-reject this project has had in 14 months. Withdrawn draft
+and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_20260803.md`.
+
+**Consequence: v0.2 is a revision of #280, and the corrections go in the Response to Reviewers.**
 
 ---
 
 ## Blocked on PI (nothing downstream can move)
 
-| # | Item | Since |
-|---|---|---|
-| A | **Confirm authorship with the human Go Frendi.** The new manuscript reaches the *opposite* conclusion from the one he signed in March. `review_package_20260727/05_*` is Claude's analysis of his likely position, **not a signature.** | 2026-07-27 |
-| B | **Send the Verhagen email** (disclosure + extension request). Draft exists, status **HELD**. Needs updating with E217–E223 **and K1–K3**. | 2026-07-27 |
-| C | **Decide scope:** revision of #280 vs. new submission. Determines whether v0.2 is a revision or a new paper. | 2026-07-27 |
-| D | **Permission to commit.** ~11 modified + 19 untracked files, including all of E217–E223 and the review package. **Zero commits made on 2026-07-27.** | 2026-07-27 |
-| E | **v0.2 title** — candidates in `revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md` §3. The "tautology-free" claim in the current title must be downgraded. | 2026-07-27 |
+| # | Item | Since | Status |
+|---|---|---|---|
+| A | **Confirm authorship with the human Go Frendi.** The new manuscript reaches the *opposite* conclusion from the one he signed in March. `review_package_20260727/05_*` is Claude's analysis of his likely position, **not a signature.** | 2026-07-27 | PI confirmed on 2026-08-03 that Go Frendi **knows** the conclusion reversed. An explicit sign-off on the v0.2 claim set is still outstanding — send him `10_SET_KLAIM_TERKOREKSI.md`. |
+| B | ~~Send the Verhagen email~~ | 2026-07-27 | **CLOSED 2026-08-03 — withdrawn, no email will be sent.** |
+| C | ~~Decide scope: revision vs new submission~~ | 2026-07-27 | **CLOSED — revision of #280.** |
+| D | ~~Permission to commit~~ | 2026-07-27 | **CLOSED — committed.** |
+| E | **v0.2 title** — candidates in `revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md` §3. Candidates resting on "selection picks the worst design" are dead (K5); those resting on **evaluation incomparability** survive. | 2026-07-27 | open |
 
 ---
 
 ## Next actions for Claude (in order)
 
-- [ ] **B′ — apply K1–K3 to the claim set.** *Claim corrections, not new experiments.* This is the
-      only unblocked item that matters, and it must precede any prose. See `../CLAUDE.md` for the
-      table. Output: a corrected claim set doc, then update `03_TEMUAN_REVISI.md`.
-- [ ] **K4 confirmation run** (cheap, optional but valuable): add `road_dist` to the feature set,
-      re-run E222 P3. Converts the TGB null from an unexplained result into a tested condition.
-- [ ] Block D — **R2 covariate table**: per-experiment covariates + analytic role. Not started.
-- [ ] Block F — **new figures**: material ready in `E220_*`, `E222_*`,
-      `E221_priority_sets_*.npz`. Not started.
-- [ ] Block E — **old figures** (Fig 1, 4, 5) refresh. Not started.
-- [ ] Block G — **reviewer response letter**, 17 items. Not started.
-- [ ] Block H — **SIG G1 blind re-derivation** of every headline number incl. E217–E223. Partial.
-- [ ] Block I — **cross-model review (G9).** Not started.
-- [ ] **Manuscript v0.2 prose** — 🛑 do NOT start until A, B/C, and B′ are closed. Writing 30 pages
-      before knowing whether the editor wants a revision or a new submission is waste.
+- [x] **B′ — apply K1–K3 to the claim set.** ✅ 2026-08-03 →
+      `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. The blind re-derivation found **three more**
+      defects (K5 "picks the worst" is false, K6 monotonicity, K7 density 1.9× not 2×) plus **G1c**
+      (published ρ = −0.163 does not reproduce; 5-seed re-run gives −0.243).
+- [x] Block H — **SIG G1 blind re-derivation.** ✅ 61 checks, script
+      `revision_ammo/verify_headline_numbers.py`, report `revision_ammo/SIG_G1_VERIFICATION_20260803.md`.
+      Re-run it before upload; the 4 expected mismatches are the withdrawn claims K5/K6/K7/G1c.
+- [ ] **E224 — K4 confirmation run.** Pre-registered; add `road_dist` to the feature set and repeat
+      E222's P3. Converts the TGB null from an unexplained result into a tested condition.
+- [ ] Block D — **R2 covariate table**: per-experiment covariates + analytic role.
+- [ ] Block G — **reviewer response letter**, 17 items.
+- [ ] Block F — **new figures**: material ready in `E220_*`, `E222_*`, `E221_priority_sets_*.npz`.
+- [ ] Block E — **old figures** (Fig 1, 4, 5) refresh.
+- [ ] Block I — **cross-model review (G9).**
+- [ ] **Manuscript v0.2 prose** — scope and deadline are now settled, and the claim set is closed, so
+      the only remaining gate is the co-author sign-off (A). Draft from **doc 10**, never from doc 08 §3.
 
 ## Deliberately NOT doing
 

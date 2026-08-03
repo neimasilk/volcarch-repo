@@ -3,6 +3,14 @@
 **Tanggal:** 2026-07-27 | **Untuk:** Go Frendi Gunawan (co-author) | **Status:** menunggu review co-author
 **Semua kode, data, dan hasil ada di repo — bisa dijalankan ulang. Perintahnya di §7.**
 
+> ⚠ **DIKOREKSI SEBAGIAN — 2026-08-03.** Dokumen ini benar untuk babak 1, tetapi set klaim yang akan
+> masuk naskah v0.2 **sudah bergerak dua kali** sejak ditulis: dokumen 09 (K1–K3) lalu dokumen 10
+> (K5–K7 + hasil SIG G1). **Untuk angka yang boleh dikutip, pakai `10_SET_KLAIM_TERKOREKSI.md`.**
+> Yang berubah dari dokumen ini: inflasi "+0.041…+0.051, 15/15" adalah rata-rata per-algoritma —
+> per sel seed × algoritma rentangnya **+0.005…+0.084, 60/60 positif**; dan INT-1 ternyata memunculkan
+> temuan kedua (nilai terbit ρ = −0.163 tidak tereproduksi; re-run 5-seed = −0.243).
+
+
 ---
 
 ## 1. Ringkasan Satu Halaman
