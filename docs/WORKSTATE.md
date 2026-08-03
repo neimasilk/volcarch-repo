@@ -88,7 +88,7 @@ Vossen/VU email · **push 7 commits to GitHub**.
 
 | Paper | Line | Status |
 |---|---|---|
-| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20, no extension. Core claim self-refuted; reframing around the artefact. Claim set + response letter + tables + G1 gate **done 3 Aug**; prose outstanding. |
+| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20, no extension. Core claim self-refuted; reframing around the artefact. **SIG run 3 Aug → 🔴 NO-GO** (`SIG_signoff.md`): G4/G6 green, G7 red, G2/G8/G9 unrunnable — **the v0.2 manuscript does not exist yet.** All `[RUN]` items are done; what remains is prose + figures. |
 | **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. ⚠ **WS-E (3 Aug): finding survives and strengthens (court concentration 1.86× → 2.70×), but the methods sentence does not describe the computation and 3 numbers are wrong.** Correction note to the editor is drafted and waiting. |
 | **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11. arXiv:2604.00023. |
 | **P11** Volcanic informedness | 01 | rejected 2× (both editorial). Core finding survives. Retarget SPAFA — queued behind §1. |
