@@ -1,0 +1,114 @@
+{
+  "experiment": "E224",
+  "n_worlds": 1,
+  "road_dist_collinearity": {
+    "elevation": 0.3142,
+    "slope": 0.2835,
+    "twi": -0.2201,
+    "tri": 0.2911,
+    "aspect": 0.0017,
+    "river_dist": 0.4916
+  },
+  "arms": {
+    "no_road": {
+      "map_jaccard": {
+        "n_pairs": 3,
+        "mean": -0.0142,
+        "median": -0.0165,
+        "frac_positive": 0.3333
+      },
+      "auc_true": {
+        "n_pairs": 3,
+        "mean": -0.0041,
+        "median": 0.0005,
+        "frac_positive": 0.6667
+      },
+      "spearman_remote": {
+        "n_pairs": 3,
+        "mean": -0.0039,
+        "median": -0.0065,
+        "frac_positive": 0.3333
+      },
+      "auc_own": {
+        "n_pairs": 3,
+        "mean": -0.003,
+        "median": -0.0026,
+        "frac_positive": 0.0
+      },
+      "levels": {
+        "map_jaccard": {
+          "random": 0.627,
+          "tgb": 0.6128
+        },
+        "auc_true": {
+          "random": 0.8173,
+          "tgb": 0.8132
+        },
+        "auc_own": {
+          "random": 0.8461,
+          "tgb": 0.8431
+        }
+      }
+    },
+    "with_road": {
+      "map_jaccard": {
+        "n_pairs": 3,
+        "mean": -0.0118,
+        "median": -0.0038,
+        "frac_positive": 0.3333
+      },
+      "auc_true": {
+        "n_pairs": 3,
+        "mean": -0.0005,
+        "median": -0.0002,
+        "frac_positive": 0.3333
+      },
+      "spearman_remote": {
+        "n_pairs": 3,
+        "mean": -0.004,
+        "median": 0.0005,
+        "frac_positive": 0.6667
+      },
+      "auc_own": {
+        "n_pairs": 3,
+        "mean": -0.0026,
+        "median": -0.003,
+        "frac_positive": 0.0
+      },
+      "levels": {
+        "map_jaccard": {
+          "random": 0.6185,
+          "tgb": 0.6067
+        },
+        "auc_true": {
+          "random": 0.8158,
+          "tgb": 0.8153
+        },
+        "auc_own": {
+          "random": 0.8489,
+          "tgb": 0.8463
+        }
+      }
+    }
+  },
+  "H_supported": false,
+  "control_arm_null_as_in_E222": true,
+  "control_arm_replicates_E222": {
+    "auc_true": {
+      "n": 6,
+      "max_abs_diff": 0.000279,
+      "mean_abs_diff": 4.7e-05
+    },
+    "map_jaccard": {
+      "n": 6,
+      "max_abs_diff": 0.011121,
+      "mean_abs_diff": 0.00284
+    },
+    "auc_own": {
+      "n": 6,
+      "max_abs_diff": 9.3e-05,
+      "mean_abs_diff": 2.9e-05
+    }
+  },
+  "run_void": false
+}

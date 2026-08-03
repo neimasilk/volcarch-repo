@@ -1,0 +1,19 @@
+experiment,version,elevation,slope,twi,tri,aspect,river_dist,clay_silt,road_dist,volcano_dist,background_design,reported_spatial_auc,notes
+E007,v1,feature,feature,feature,feature,feature,none,none,none,none,uniform random 1:5 (2 km site buffer),0.659,terrain only
+E008,v2,feature,feature,feature,feature,feature,feature,none,none,none,uniform random 1:5,0.695,river distance added
+E009,v3,feature,feature,feature,feature,feature,feature,feature,none,none,uniform random 1:5,0.664,SoilGrids clay+silt lowered AUC; dropped afterwards
+E010,v4,feature,feature,feature,feature,feature,feature,none,background,none,TGB decay 12 km / max road 40 km / min p 0.03,0.711,first target-group background
+E011,v5,feature,feature,feature,feature,feature,feature,none,background,none,TGB parameters swept,0.725,
+E012,v6,feature,feature,feature,feature,feature,feature,none,background,none,TGB expanded road classes / max road 20 km,0.730,
+E013,v7,feature,feature,feature,feature,feature,feature,none,background,none,hybrid = TGB pool + region blend {0/0.3/0.5/0.7} + hard fraction {0/0.15/0.30} z in [2;5],0.768 best run / 0.751 seed-averaged,published headline configuration
+E014,holdout,feature,feature,feature,feature,feature,feature,none,split variable,diagnostic,E013 background; presences split at road distance 1 km,0.755 holdout vs 0.785 spatial CV,INT-4: stored result file was mislabelled as a discovery-year split
+E015,SHAP,feature,feature,feature,feature,feature,feature,none,background,none,E013,,interpretation only
+E016,zones,feature,feature,feature,feature,feature,feature,none,background,none,E013,,zoning only
+E217,MaxEnt benchmark,feature,feature,feature,feature,feature,feature (2 feature sets),none,background,none,random / TGB / hybrid scored on a common evaluation background,,background redesign -0.0142 vs river feature +0.0424 on common background
+E218,artefact,feature,feature,feature,feature,feature,feature,none,background,none,3 train designs x 4 evaluation backgrounds,,hybrid wins only on its own background (3/3 vs 0/3)
+E219,divergence,feature,feature,feature,feature,feature,feature,none,background,diagnostic,E013 + terrain-matched volcanic/non-volcanic control,,closes INT-1; Test 1 rho -0.281 on the canonical inventory
+E220,selection,feature,feature,feature,feature,feature,feature,none,background,none,dial sweep with cross-fitted selection,,
+E221,seed stability,feature,feature,feature,feature,feature,feature,none,background,none,E013 x 10 seeds,,turnover 28.1-47.4%; k* 4-7 at Jaccard 0.90
+E222,synthetic truth,feature,feature,feature,feature,feature,feature,none,background,none,random / TGB / hybrid dial on synthetic worlds A-D,,ground-truth anchored
+E223,robustness,feature,feature,feature,feature,feature,feature,none,background,none,equivalence CIs / block bootstrap / MaxEnt beta / k*,,published +0.092 ladder rejected 12/12
+E224,K4 diagnostic,feature,feature,feature,feature,feature,feature,none,FEATURE (diagnostic only),none,random / TGB on synthetic ground truth,pre-registered,only experiment where road_dist is a predictor; diagnostic not a recommended design

@@ -636,28 +636,35 @@ def main():
         ch1 = "TAUTOLOGY-FREE"
     
     # Save results
-    results_txt = f"""E014 - Temporal Split Validation Results
+    # INT-4 (2026-08-03): the split has two branches and the old template printed the
+    # temporal labels whichever one ran, so the stored file could not tell you which
+    # number you were looking at. Record the branch that actually executed.
+    split_label = ("discovery year < / >= %d" % SPLIT_YEAR
+                   if split_method == "actual_discovery_year"
+                   else "road distance <= / > 1000 m (accessibility proxy for discovery order)")
+    results_txt = f"""E014 - Split Validation Results
 =========================================
 Date: 2026-02-26
-Split year: {SPLIT_YEAR}
+SPLIT METHOD ACTUALLY USED: {split_method}
+  criterion: {split_label}
 Feature set: {FEAT_COLS}
 
 Data Split:
-  Pre-{SPLIT_YEAR} (training presences): {len(pre_2000)} sites
-  Post-{SPLIT_YEAR} (test presences): {len(post_2000)} sites
+  Train presences ({split_method}): {len(pre_2000)} sites
+  Test presences  ({split_method}): {len(post_2000)} sites
   Training pseudo-absences: {len(train_absences)}
   Test pseudo-absences: {len(test_absences)}
 
-TEMPORAL VALIDATION (Train: Pre-{SPLIT_YEAR}, Test: Post-{SPLIT_YEAR}):
+HOLDOUT VALIDATION (train on the first group, test on the second):
   XGBoost AUC: {results['xgb_auc']:.3f}
   RandomForest AUC: {results['rf_auc']:.3f}
   
-SPATIAL CV BASELINE (Train: Pre-{SPLIT_YEAR}, 5-fold spatial CV):
+SPATIAL CV BASELINE (training group only, 5-fold spatial CV):
   XGBoost AUC: {spatial_results['xgb_mean_auc']:.3f} +/- {spatial_results['xgb_std_auc']:.3f}
   RandomForest AUC: {spatial_results['rf_mean_auc']:.3f} +/- {spatial_results['rf_std_auc']:.3f}
 
 Comparison:
-  Temporal vs Spatial AUC difference: {results['xgb_auc'] - spatial_results['xgb_mean_auc']:+.3f}
+  Holdout vs spatial-CV AUC difference: {results['xgb_auc'] - spatial_results['xgb_mean_auc']:+.3f}
 
 Challenge 1 (Tautology Test):
   rho(suitability, volcano_dist) = {rho_taut:.3f} (p={p_taut:.4f})

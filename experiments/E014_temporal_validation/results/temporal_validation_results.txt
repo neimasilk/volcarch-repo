@@ -1,3 +1,22 @@
+!!! CORRECTION NOTICE - added 2026-08-03, INT-4 !!!
+The header below says "Split year: 2000" and labels the two groups "Pre-2000" and
+"Post-2000". THAT IS A LABELLING ARTEFACT OF THE OLD OUTPUT TEMPLATE, NOT WHAT RAN.
+
+The script has two branches (01_temporal_split_test.py, l.416): it uses the real
+discovery-year split only if >=30 pre-2000 AND >=10 post-2000 sites carry a known
+discovery year. The hardcoded date table covers ~25 site names, nearly all colonial,
+so that test fails and the ACCESSIBILITY-PROXY branch runs: road distance <=1000 m
+(train) vs >1000 m (test).
+
+Verified independently on 2026-08-03 by sampling jatim_road_dist_expanded.tif at the
+378 valid site locations: exactly 333 sites are <=1000 m and 45 are >1000 m -- the
+same counts printed below. The split was accessibility, not chronology.
+
+The manuscript (submission_jcaa_v0.1.tex, Test 4) describes the accessibility split
+CORRECTLY; only this results file was mislabelled. AUC = 0.755 is unaffected.
+The output template has been fixed to record the branch that ran.
+=====================================================================
+
 E014 - Temporal Split Validation Results
 =========================================
 Date: 2026-02-26
