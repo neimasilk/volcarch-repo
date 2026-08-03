@@ -25,10 +25,38 @@ withdraw)*.
 
 ---
 
+## Progress — 2026-08-03
+
+**P17 arm of WS-E: DONE.** `papers/P17_two_javas/revision_ammo/WSE_CANONICAL_INVENTORY_20260803.md`
+(+ `verify_p17_numbers.py`, `p17_inventory_comparison.csv`).
+
+- ✅ **The core claim survives and strengthens.** Canonical 30-volcano medians 14.5 vs 27.6 km, gap
+  13.1 km, Mann-Whitney p = 1.5 × 10⁻⁷. Court-zone concentration **1.86× → 2.70×** — the published
+  number *understates* the paper's own effect.
+- ❌ **The methods statement does not describe the computation.** Neither published median is
+  reproducible from the stated 10-volcano list (it gives 15.4 / 28.2 km). Consistent with the E104
+  rebuild note that the original used **9 volcanoes for candi and 15 for inscriptions** — two rulers
+  for the two groups being compared.
+- ❌ n = 176 inscriptions published; the paper's own Java filter gives **174**.
+- ⚠ **PI action:** P17 is live at ArchCalc #365. A short correction note to the editor is worth
+  sending *before* review completes. Draft not yet written.
+- Also fixed: `e104_court_zone.json` had `candi: 0` throughout its distribution block (original run
+  never populated it) — a canonical block is now appended.
+- Gotcha for any future name-matching: the canonical file spells Sindoro **"Sundoro"** (GVP form).
+  Prefix matching silently drops it.
+
+**P2 arm: INT-1 confirmed closed** while working line 01 — E219 recomputed Test 1 on the canonical
+inventory (ρ −0.281, 13 centres in bounds), verdict unchanged. But the *published* ρ = −0.163 does not
+reproduce even on the old 7-volcano list (5-seed re-run gives −0.243): a single-instance value. That is
+this line's defect showing up as seed instability, and it is now disclosed in the P2 response letter.
+
 ## Next actions for Claude
 
-- [ ] **WS-E sweep** (above). Start with P17, because it is under review right now and a correction
-      may need to reach the editor.
+- [ ] **Draft the P17 correction note to the ArchCalc editor** — highest-value remaining item in this
+      line. Content is ready in the WS-E report §4; it needs to become a short, sendable note.
+- [ ] **WS-E, remaining papers:** P1, P11, P5, P8, `docs/drafts/manifesto.md`. P11 has a head start
+      (`revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md`); P1 is the one that gates a
+      submission.
 - [ ] **P7 correction notice** for preprint `10.22541/au.177368991.14332505/v1`. A published preprint
       with a number we know is false is a live integrity exposure. Draft the notice; posting is a PI
       action.

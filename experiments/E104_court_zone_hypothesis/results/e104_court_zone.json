@@ -7,8 +7,8 @@
       "candi_median_km": 14.5,
       "inscription_median_km": 27.6,
       "mannwhitney_p": 1.53e-07,
-      "region_matched_p": 9.85e-04,
-      "verdict": "SEGREGATION SURVIVES — candi closer than inscriptions, robust to inventory and region-matching. P17 claim verified."
+      "region_matched_p": 0.000985,
+      "verdict": "SEGREGATION SURVIVES \u2014 candi closer than inscriptions, robust to inventory and region-matching. P17 claim verified."
     }
   },
   "_original_below_candi_field_was_never_populated": true,
@@ -43,5 +43,50 @@
       "inscriptions": 7,
       "sites": 28
     }
+  },
+  "wse_sweep_2026_08_03": {
+    "note": "WS-E sweep. The 'distribution' block below is from the original, non-reproducible run and its candi counts were never populated (all zeros). These are the canonical 30-volcano counts, re-derived from raw coordinates by papers/P17_two_javas/revision_ammo/verify_p17_numbers.py.",
+    "inventory": "data/processed/dashboard/volcanoes_java_full.csv (30 centres)",
+    "n_candi": 142,
+    "n_inscriptions": 174,
+    "candi_median_km": 14.5,
+    "inscription_median_km": 27.6,
+    "median_gap_km": 13.1,
+    "mannwhitney_U": 8125,
+    "mannwhitney_p": 1.531e-07,
+    "distribution_canonical": {
+      "0-10km": {
+        "candi": 64,
+        "inscriptions": 22
+      },
+      "10-20km": {
+        "candi": 25,
+        "inscriptions": 50
+      },
+      "20-30km": {
+        "candi": 36,
+        "inscriptions": 70
+      },
+      "30-40km": {
+        "candi": 8,
+        "inscriptions": 26
+      },
+      "40-60km": {
+        "candi": 5,
+        "inscriptions": 5
+      },
+      "60km+": {
+        "candi": 4,
+        "inscriptions": 1
+      }
+    },
+    "fisher_court_concentration": {
+      "odds_ratio": 2.7,
+      "p": 4.6e-05,
+      "published_value": 1.86,
+      "published_p": 0.012,
+      "verdict": "published value UNDERSTATES the effect"
+    },
+    "verdict": "P17 core claim SURVIVES and strengthens; methods statement and 3 numbers need correcting"
   }
 }
