@@ -9098,3 +9098,59 @@ mempertahankan G1, bukan sekadar prinsip.
 
 **Commit:** 8 commit di `main`. **Eksperimen:** 224 (E224 baru). **Exposure: masih nol** — semua yang
 dibuat hari ini adalah draft yang menunggu PI.
+
+---
+
+## 2026-08-04 | Naskah v0.2 (DRAFT) — langkah #1 dari handoff dikerjakan
+
+Sesi dimulai di **ORBIT mode**. PI: "baca handoff dan lanjutkan yg bisa dilanjutkan." Handoff 2026-08-03
+§6 menetapkan jalur kritis #1 = **prosa naskah v0.2**, yang eksplisit "tidak menunggu siapa pun" (hanya
+*submit*-nya yang menunggu sign-off Go Frendi). Maka yang bisa dilanjutkan tanpa PI = persis ini.
+
+### Yang dilakukan
+
+- **Menulis `papers/P2_settlement_model/submission_jcaa_v0.2.tex`** — naskah lengkap, 24 halaman,
+  dikompilasi bersih (pdflatex→bibtex→pdflatex×3; nol undefined ref/citation; nol multiply-defined).
+  Klaim sentral v0.1 **ditarik dan diganti**: tangga AUC adalah artefak desain evaluasi, bukan gain
+  koreksi bias. **Setiap angka ditelusuri ke `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`**
+  (K-A…K-G + K-F) — diverifikasi ulang manual terhadap doc 10, bukan dari doc 08 §3 (yang dilarang).
+- **Judul** = kandidat 3 ("An Evaluation Artefact in Presence–Background Archaeological Modelling…").
+  Claim-set §4 + response-plan §3 memvet kandidat 1 & 3 sebagai aman (bertumpu inkomparabilitas
+  evaluasi). **Ditandai butuh konfirmasi PI** (item E) — bukan keputusan Claude.
+- **Aturan jalur 01 #4 dipatuhi:** tidak ada kuantor absolut tanpa pecahannya (95.3% bukan "selalu";
+  +0.194 lawan terbaik bukan "memilih yang terburuk"; ~2× bukan ~10×; 1.9–5.6× bukan 2–5.6×).
+- **Integritas sitasi:** kunci `\citep` yang dipakai SEMUA sudah ada di `references.bib`. Sitasi ENM
+  baru yang dijanjikan surat balasan (Yaworsky, Banks, Franklin, Howey, Noviello) **tidak bisa
+  diverifikasi**, jadi ditandai `[NEEDS CITATION: …]` inline — **tidak mengarang DOI/jilid/halaman**.
+- **Gambar baru** (blok E/F, langkah #2) belum ada → dimasukkan via makro `\figtodo` (kotak placeholder)
+  agar kompilasi bersih sekarang, bukan diblok. 2 placeholder (review 5 Agt: 4 gambar lain belum di-stub
+  sama sekali); gambar lama pakai nama file yang ada.
+- **Mengganti nama "temporal split" → "accessibility-proxy holdout"** (INT-4) di seluruh naskah.
+
+### Yang TIDAK dilakukan (dan kenapa)
+
+- **Tidak commit.** PI tidak meminta commit; izin commit adalah keputusan terpisah. Berkas baru
+  (`submission_jcaa_v0.2.{tex,pdf,aux,bbl,log,out}`) belum ter-commit.
+- **Tidak menjalankan ulang SIG.** G2/G8/G9 menggerbangi pada persis prosa ini yang baru jadi; re-run
+  G1 + SIG sign-off penuh = langkah #5–#6 handoff, setelah gambar. Mengklaim "G1 lolos" sekarang
+  akan bohong.
+- **Tidak menyentuh jalur lain / Mata Elang.** Stop-list ME#19 aktif; fokus tetap P2.
+
+### Integritas angka — self-audit terhadap doc 10
+
+Setiap angka headline di v0.2 dicek ulang terhadap doc 10: A1 (95.3%/+0.187/−0.031), A4 (−0.0142 /
++0.0424 / +0.0054), A5 (12/12 CI; bootstrap +0.008/+0.025/+0.026), B5 (+0.194 vs best; hybrid(0.0)
+50/60 terburuk), C1 (2.01×/2.12×/2.00×), E1 (−0.010/46.7%), E224 (−0.0217/−0.0254, 30%/30%),
+D3 (1.93×/4.34×/5.62×), G1a (−0.281 vs −0.243), G1c (−0.163→−0.243), G2a (0.2249/0.1702), G2b
+(0.01377/0.00048, n=2), F1/F2 (0/30 keduanya), lantai deteksi ~+0.03 @ n=378, Boyce +0.50/+0.54.
+Semua cocok. Verifikasi mekanis penuh (`verify_headline_numbers.py`) tetap wajib sebelum upload.
+
+### Pelacakan diperbarui
+
+- `lines/01_spatial/STATE.md`: item "Manuscript v0.2 prose" ✅ (DRAFT); item baru "Figures (blocks E/F)"
+  kini jadi #1 blocker. Temperature 21→16 hari.
+- `docs/WORKSTATE.md`: baris P2 + line 01 diperbarui ("v0.2 prose DRAFT done 4 Aug"; G2/G8/G9 kini
+  runnable). Tanggal → 2026-08-04.
+
+**Exposure hari ini: nol.** Naskah adalah draft yang menunggu PI (konfirmasi judul) dan kerja
+lanjutan Claude (gambar → gerbang → SIG). Tidak ada yang dikirim ke luar.

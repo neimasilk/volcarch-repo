@@ -1,6 +1,10 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-07-30 · **Temperature:** 🔥 HOT — hard deadline in **21 days**
+**Updated:** 2026-08-05 · **Temperature:** 🔥 HOT — hard deadline in **15 days**
+
+> 📄 **Naskah v0.2 sudah di-review penuh (2026-08-05).** 4 blocker + 4 temuan serius, dengan nomor
+> baris dan urutan kerja: **`docs/HANDOFF_20260805.md`**. Baca itu sebelum menyunting `.tex`.
+> Ringkas: angka & disiplin klaim **lolos**; yang menahan = gambar, literatur ENM, dan item A di bawah.
 
 ---
 
@@ -21,7 +25,7 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
 
 | # | Item | Since | Status |
 |---|---|---|---|
-| A | **Confirm authorship with the human Go Frendi.** The new manuscript reaches the *opposite* conclusion from the one he signed in March. `review_package_20260727/05_*` is Claude's analysis of his likely position, **not a signature.** | 2026-07-27 | PI confirmed on 2026-08-03 that Go Frendi **knows** the conclusion reversed. An explicit sign-off on the v0.2 claim set is still outstanding — send him `10_SET_KLAIM_TERKOREKSI.md`. |
+| A | **Confirm authorship with the human Go Frendi.** The new manuscript reaches the *opposite* conclusion from the one he signed in March. `review_package_20260727/05_*` is Claude's analysis of his likely position, **not a signature.** | 2026-07-27 | 🔴 **ESCALATED 2026-08-05.** PI confirmed 2026-08-03 that Go Frendi **knows** the conclusion reversed, but an explicit sign-off on the v0.2 claim set is still outstanding. **`submission_jcaa_v0.2.tex:544` now asserts *"Both authors approved the withdrawal of the central claim"* — a statement in Authors' Contributions that this file contradicts.** Either obtain the sign-off or fix the sentence; send him `10_SET_KLAIM_TERKOREKSI.md`. See `docs/HANDOFF_20260805.md` §2 B1. |
 | B | ~~Send the Verhagen email~~ | 2026-07-27 | **CLOSED 2026-08-03 — withdrawn, no email will be sent.** |
 | C | ~~Decide scope: revision vs new submission~~ | 2026-07-27 | **CLOSED — revision of #280.** |
 | D | ~~Permission to commit~~ | 2026-07-27 | **CLOSED — committed.** |
@@ -45,8 +49,17 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
 - [ ] Block F — **new figures**: material ready in `E220_*`, `E222_*`, `E221_priority_sets_*.npz`.
 - [ ] Block E — **old figures** (Fig 1, 4, 5) refresh.
 - [ ] Block I — **cross-model review (G9).**
-- [ ] **Manuscript v0.2 prose** — scope and deadline are now settled, and the claim set is closed, so
-      the only remaining gate is the co-author sign-off (A). Draft from **doc 10**, never from doc 08 §3.
+- [x] **Manuscript v0.2 prose** — ✅ **2026-08-04 (DRAFT)** → `submission_jcaa_v0.2.tex` (24 pp,
+      compiles clean, natbib). Central claim reversed per doc 10; every number traced to
+      `10_SET_KLAIM_TERKOREKSI.md`. **Still open on this draft:** (a) title = candidate 3, needs PI
+      confirm (item E); (b) figures — 2 are `\figtodo` placeholders (blocks E/F, step #2; 4 more
+      planned figures not yet stubbed — see HANDOFF_20260805.md §2 B3); (c) a few
+      ENM citations marked `[NEEDS CITATION]` inline (not fabricated); (d) G2/G8/G9 + re-run G1 +
+      full SIG re-sign-off gate on this prose. **Does not wait on Go Frendi's sign-off (A) — only
+      *submit* does.**
+- [ ] **Figures** (blocks E & F) — now the #1 blocker for the prose draft. New: artefact two-panel,
+      hard-frac dose-response, plus redraw Fig 1 (data-flow) / study-area (13 volcanoes) / Fig 3
+      (overlay common-bg) / Fig 5 caption. Material ready in `e220_*`, `e222_*`, `e221_priority_sets_*.npz`.
 
 ## Deliberately NOT doing
 
