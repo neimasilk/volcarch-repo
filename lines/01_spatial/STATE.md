@@ -2,9 +2,12 @@
 
 **Updated:** 2026-08-05 · **Temperature:** 🔥 HOT — hard deadline in **15 days**
 
-> 📄 **Naskah v0.2 sudah di-review penuh (2026-08-05).** 4 blocker + 4 temuan serius, dengan nomor
-> baris dan urutan kerja: **`docs/HANDOFF_20260805.md`**. Baca itu sebelum menyunting `.tex`.
-> Ringkas: angka & disiplin klaim **lolos**; yang menahan = gambar, literatur ENM, dan item A di bawah.
+> 📄 **Naskah v0.2 selesai diimplementasi (2026-08-05).** Semua blocker/temuan handoff 5 Agt ditutup:
+> gambar (6 figur dari data mentah), literatur ENM (5 sitasi terverifikasi), S1–S4 (Tabel 4, tautology,
+> latar arkeologi, abstrak 216 kata), surat balasan selaras. **SIG re-sign-off 5 Agt = 🟢 GO pada
+> integritas naskah (9/9 gerbang hijau)**: G1 (64 check/60 OK), G2, G8, dan G9 (review adversarial —
+> tak ada klaim tertolak, 3 frasa dikencangkan). **Submit kini hanya menggerbangi item A (sign-off Go
+> Frendi = PI).**
 
 ---
 
@@ -35,31 +38,30 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
 
 ## Next actions for Claude (in order)
 
-- [x] **B′ — apply K1–K3 to the claim set.** ✅ 2026-08-03 →
-      `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. The blind re-derivation found **three more**
-      defects (K5 "picks the worst" is false, K6 monotonicity, K7 density 1.9× not 2×) plus **G1c**
-      (published ρ = −0.163 does not reproduce; 5-seed re-run gives −0.243).
-- [x] Block H — **SIG G1 blind re-derivation.** ✅ 61 checks, script
-      `revision_ammo/verify_headline_numbers.py`, report `revision_ammo/SIG_G1_VERIFICATION_20260803.md`.
-      Re-run it before upload; the 4 expected mismatches are the withdrawn claims K5/K6/K7/G1c.
-- [ ] **E224 — K4 confirmation run.** Pre-registered; add `road_dist` to the feature set and repeat
-      E222's P3. Converts the TGB null from an unexplained result into a tested condition.
-- [ ] Block D — **R2 covariate table**: per-experiment covariates + analytic role.
-- [ ] Block G — **reviewer response letter**, 17 items.
-- [ ] Block F — **new figures**: material ready in `E220_*`, `E222_*`, `E221_priority_sets_*.npz`.
-- [ ] Block E — **old figures** (Fig 1, 4, 5) refresh.
-- [ ] Block I — **cross-model review (G9).**
-- [x] **Manuscript v0.2 prose** — ✅ **2026-08-04 (DRAFT)** → `submission_jcaa_v0.2.tex` (24 pp,
-      compiles clean, natbib). Central claim reversed per doc 10; every number traced to
-      `10_SET_KLAIM_TERKOREKSI.md`. **Still open on this draft:** (a) title = candidate 3, needs PI
-      confirm (item E); (b) figures — 2 are `\figtodo` placeholders (blocks E/F, step #2; 4 more
-      planned figures not yet stubbed — see HANDOFF_20260805.md §2 B3); (c) a few
-      ENM citations marked `[NEEDS CITATION]` inline (not fabricated); (d) G2/G8/G9 + re-run G1 +
-      full SIG re-sign-off gate on this prose. **Does not wait on Go Frendi's sign-off (A) — only
-      *submit* does.**
-- [ ] **Figures** (blocks E & F) — now the #1 blocker for the prose draft. New: artefact two-panel,
-      hard-frac dose-response, plus redraw Fig 1 (data-flow) / study-area (13 volcanoes) / Fig 3
-      (overlay common-bg) / Fig 5 caption. Material ready in `e220_*`, `e222_*`, `e221_priority_sets_*.npz`.
+- [x] **B′ — apply K1–K3 to the claim set.** ✅ 2026-08-03 → doc 10 (K5/K6/K7/G1c added same day).
+- [x] Block H — **SIG G1 blind re-derivation.** ✅ 61 checks 2026-08-03; **re-run 2026-08-05: 62
+      checks, 58 OK, 4 mismatch** (persis klaim lama yang ditarik K5/K6/K7/G1c) + **A7** baru
+      (0.706 common-bg, lolos).
+- [x] **E224 — K4 confirmation run.** ✅ 2026-08-03 — FAILED; TGB null dilaporkan **unexplained** (§3.5).
+- [x] Block D — **R2 covariate table.** ✅ Table 1 (roles) + Table 2 (inclusion) di v0.2 (§2.1, §2.3).
+- [x] Block G — **reviewer response letter.** ✅ diselaraskan 2026-08-05 ke naskah final: semua
+      `[NEEDS v0.2]` diselesaikan, R2-H menyatakan 7 figur v0.1 yang dihapus, penomoran E218/E219
+      disamakan (E219 part C kini di naskah §3.8).
+- [x] Block F — **new figures.** ✅ 2026-08-05: fig14 artefact, fig15 dose-response, fig16 robust/
+      contingent map, fig17 stabilisasi — semua dari file hasil mentah via `build_v02_figures.py`.
+- [x] Block E — **old figures refresh.** ✅ fig10 di-redraw dengan 13 pusat kanonik (INT-1); fig3
+      di-restate sebagai ladder under examination; prefix caption "Figure N."/“Table N.” manual dihapus.
+- [x] **Manuscript v0.2 prose + perbaikan.** ✅ **26 pp, kompilasi bersih, nol overfull.** S1 (klaim
+      level Tabel 4 ditambal, A7), S2 (Test 1/3 didefinisikan di §2.4), S3 (latar arkeologi East Java),
+      S4 (abstrak 216 kata, satu angka headline +0.042), ENM lit (5 sitasi terverifikasi, `[NEEDS
+      CITATION]` hilang).
+- [x] Block I — **cross-model review (G9).** ✅ 2026-08-05 — subagent adversarial (diminta menolak):
+      **tak ada klaim tertolak, tak ada mismatch angka**; 3 frasa dikencangkan (Limitation 3 agregat,
+      scope "seed-ensembled", scope AI-disclosure) + inflasi home-court dinyatakan spesifik hybrid
+      (A8/A9, check lolos).
+- [x] **SIG re-sign-off final.** ✅ 2026-08-05 → `SIG_signoff.md` = **🟢 GO pada integritas naskah**
+      (9/9 gerbang hijau). Sesi ter-commit (e38987d + sesi ini). **Tersisa sebelum submit: item A
+      (sign-off Go Frendi), judul (item E), G1 final re-run, push.**
 
 ## Deliberately NOT doing
 

@@ -67,6 +67,19 @@ def e222_core() -> dict:
     check("K3 median inflation", "e222_runs.csv", "+0.187", f"{infl.median():+.4f}",
           close(infl.median(), 0.187, 5e-4))
 
+    # --- G9 tightening (doc 10 A9): 'no design beats uniform on truth' is ---
+    # aggregate-only. Per-run, TGB beats random on auc_true in 27/60 runs.
+    tg = runs[runs.config == "tgb"]
+    rd = runs[runs.config == "random"]
+    m9 = tg.merge(rd, on=["surface", "world", "algorithm", "hard_frac"], suffixes=("_t", "_r"))
+    n_tgb_win = int((m9["auc_true_t"] > m9["auc_true_r"]).sum())
+    agg = m9["auc_true_t"].mean() - m9["auc_true_r"].mean()
+    check("No design exceeds uniform on truth by a meaningful margin (aggregate)",
+          "e222_runs.csv", "-0.0004 AUC; TGB>random 27/60",
+          f"{agg:+.4f} AUC; TGB>random {n_tgb_win}/{len(m9)}",
+          close(agg, -0.0004, 5e-4) and n_tgb_win == 27,
+          "G9: holds only as an aggregate mean; per-run TGB wins ~45%")
+
     # --- K2: how much faster does the reported number move than the truth? ---
     lo = runs[(runs.config == "hybrid") & (runs.hard_frac == 0.0)]
     hi = runs[(runs.config == "hybrid") & (runs.hard_frac == 1.0)]
@@ -307,6 +320,30 @@ def e218a() -> None:
           f"{int((infl > 0).sum())}/{len(infl)} positive (mean {infl.mean():+.4f})",
           bool((infl > 0).all()),
           "range quoted in doc 08 was per-algorithm means, not per-run")
+
+    # S1 level-claim consequence (doc 10 A7): the E013 design family (hybrid) on a
+    # common (uniform) evaluation background, XGBoost (the primary learner), mean
+    # over seeds. This is the apples-to-apples comparison against the DKNS null
+    # (0.646) reported in Table 4, which currently mixes backgrounds.
+    xh = h[h.algorithm == "xgboost"]
+    xp = xh.pivot(index="seed", columns="eval_background", values="auc")
+    check("E013 hybrid design on common (uniform) background (XGBoost)",
+          "e218_stageA_raw.csv", "0.706",
+          f"{xp['uniform'].mean():.3f}",
+          close(xp["uniform"].mean(), 0.706, 2e-3),
+          "level claim survives but the margin vs DKNS shrinks from +0.122 to ~+0.06")
+
+    # G9 tightening (doc 10 A8): home-court inflation is hybrid-SPECIFIC. TGB
+    # scores HIGHER on the uniform background than on its own, so the ladder's TGB
+    # rungs are invalidated by the common-background comparison, not by inflation.
+    ht = raw[raw.train_design == "tgb"]
+    pt = ht.pivot(index=["seed", "algorithm"], columns="eval_background", values="auc")
+    infl_t = (pt["tgb"] - pt["uniform"]).dropna()
+    check("TGB home-court inflation (own tgb minus uniform)",
+          "e218_stageA_raw.csv", "-0.0054 mean, 22/60 positive",
+          f"{infl_t.mean():+.4f} mean, {int((infl_t > 0).sum())}/{len(infl_t)} positive",
+          close(infl_t.mean(), -0.0054, 5e-4),
+          "G9: the 60/60 inflation is hybrid-specific; TGB has no home-court gain")
 
 
 # ---------------------------------------------------------------------------

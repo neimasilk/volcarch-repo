@@ -50,6 +50,9 @@ Kolom **G1** = sudah diverifikasi ulang dari file per-run hari ini.
 | A4 | Perancangan ulang background menyumbang ≈0 pada background bersama, sementara **satu** fitur hidrologi menyumbang jauh lebih besar. | redesain **−0.0142**; fitur sungai **+0.0424** (12/12 positif) | `e217b_raw_results.csv` | ✅ |
 | A5 | Tangga AUC +0.092 yang terbit **ditolak**, bukan sekadar tak terbukti. | 12/12 CI sel mengecualikannya; bootstrap blok 3/3 (batas atas +0.008 / +0.025 / +0.026) | `e223a_*`, `e223b_*` | ✅ |
 | A6 | Bukan artefak regularisasi MaxEnt. | β 0.5–4.0: −0.0198…−0.0217, 1/10 run positif | `e223c_beta_summary.csv` | ✅ |
+| A7 | **Konsekuensi level (tambalan S1).** Tabel 4 mencampur background: E013 di background-nya sendiri (0.751 seed-avg) vs null di grid seragam. Ditahan di background bersama (uniform), keluarga desain E013 (XGBoost) mencapai **0.706** — masih di atas null interpolasi DKNS 0.646, tapi margin menyusut dari +0.122 ke **~+0.06**, dan margin seed terburuk (+0.083) bergerak menuju lantai deteksi ~+0.03. **Klaim level bertahan; besarnya tidak.** | 0.706 (XGB, uniform) | `e218_stageA_raw.csv` | ✅ |
+| A8 | **Inflasi home-court SPESIFIK hybrid (pemutakhiran G9).** TGB justru *lebih tinggi* di uniform daripada own-bg (mean **−0.0054**, 22/60 positif); random 0/60 (own=uniform by construction). Anak tangga TGB E010–E012 gugur karena perbandingan common-bg (≈0, lihat A4), **bukan** inflasi home-court. | +0.037 (hybrid), −0.0054 (TGB), 0.0000 (random) | `e218_stageA_raw.csv` | ✅ |
+| A9 | **"Tak ada desain mengalahkan uniform pada kebenaran" benar HANYA pada agregat (pemutakhiran G9).** TGB−random agregat = **−0.0004 AUC**; TGB>random per-run hanya **27/60**. | −0.0004; 27/60 | `e222_runs.csv` | ✅ |
 
 **Catatan A4:** −0.0142 berlaku untuk himpunan fitur penuh (`terrain_river`), yaitu model naskah. Pada
 `terrain` saja angkanya **+0.0054**. Keduanya ≈0 dibandingkan efek fitur; sebutkan himpunan fiturnya

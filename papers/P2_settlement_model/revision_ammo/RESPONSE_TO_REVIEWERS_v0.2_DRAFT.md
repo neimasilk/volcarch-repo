@@ -1,14 +1,14 @@
 # Response to Reviewers — JCAA #280, revision v0.2
 
-**STATUS: DRAFT prepared by Claude Code, 2026-08-03. NOT SENT. The PI submits.**
-**Before upload, three things must be true:** (1) manuscript v0.2 exists and its section numbers match
-the cross-references below; (2) the co-author has signed off on the reversed conclusion;
-(3) `verify_headline_numbers.py` has been re-run and every number below still matches.
+**STATUS: DRAFT prepared by Claude Code, 2026-08-03; cross-references and figure map aligned to the
+final v0.2 manuscript on 2026-08-05. NOT SENT. The PI submits.**
+**Before upload, three things must be true:** (1) the co-author has signed off on the reversed
+conclusion (blocker B1 — pending); (2) `verify_headline_numbers.py` has been re-run against the final
+manuscript and every number below still matches; (3) the v0.2 title is confirmed.
 Every figure in this letter is taken from `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`
 and verified in `SIG_G1_VERIFICATION_20260803.md`.
-
-Markers used below: **[NEEDS v0.2]** = the sentence points at manuscript text that is not yet written.
-**[PENDING]** = a result not yet in hand at the time of drafting.
+All **[NEEDS v0.2]** markers were resolved 2026-08-05: the manuscript now has the sections the letter
+references, and the figure deletions required by the reframing are stated under R2-H.
 
 ---
 
@@ -52,11 +52,11 @@ you consider appropriate.
 | # | Change | Driven by |
 |---|---|---|
 | 1 | Central claim withdrawn and replaced: the reported ladder is an evaluation artefact | R1-D (MaxEnt), our own E217 |
-| 2 | Title changed; "tautology-free" removed **[NEEDS v0.2]** | R1-B, R2 |
-| 3 | New results section: E217–E223, including synthetic ground truth **[NEEDS v0.2]** | R1-D |
+| 2 | Title changed; "tautology-free" removed | R1-B, R2 |
+| 3 | New results section: E217–E223, including synthetic ground truth | R1-D |
 | 4 | New §1 taxonomy of the four absence mechanisms; scope restricted to suitability | R2-A |
 | 5 | Two new tables: covariate inclusion matrix and analytical roles | R2-D, R2-E |
-| 6 | Archaeological framing expanded; heritage-management section added **[NEEDS v0.2]** | R1-E, R1-F, R2-B |
+| 6 | Archaeological framing expanded; heritage-management section added | R1-E, R1-F, R2-B |
 | 7 | Abstract rewritten; jargon defined at first use; TRI/TWI defined in text | R1-G, R1-I |
 | 8 | ENM/MaxEnt literature engaged; novelty claim moderated | R1-A |
 | 9 | Volcano inventory corrected (7 → 13 centres in bounds); Test 1 recomputed | INT-1, self-reported |
@@ -73,7 +73,7 @@ you consider appropriate.
 novel; it has turned out not to be a finding at all. The revised contribution sits *inside* the ENM
 literature rather than beside it: we show that the target-group background correction (Phillips et al.
 2009) can appear to help for a reason that has nothing to do with bias correction — because it also
-changes the evaluation set. **[NEEDS v0.2]** §1 now engages Yaworsky et al. (2020), Banks et al.
+changes the evaluation set. §1.3 now engages Yaworsky et al. (2020), Banks et al.
 (ecocultural niche modelling), Franklin, Howey, Verhagen & Whitley (2012) and Noviello et al., and the
 novelty claim is stated narrowly: not "background design matters", but "comparisons of background
 design are not identified unless the evaluation background is fixed, and we quantify what happens when
@@ -83,8 +83,9 @@ it is not."
 
 **Accepted in full.** Both reviewers flagged it and the manuscript's own Table 4 already said
 CONDITIONAL PASS with T1–T2 in the grey zone. The term is removed from the title, abstract and
-conclusions. **[NEEDS v0.2]** §3 now defines exactly what the test suite can and cannot establish: it
-can detect correlation between predictions and three visibility proxies; it cannot demonstrate the
+conclusions. §2.4 now defines exactly what the surviving tautology diagnostics (Tests 1 and 3 of the
+earlier suite) can and cannot establish: they
+can detect correlation between predictions and visibility proxies; they cannot demonstrate the
 absence of tautology, which is not an identifiable property of observational data. We also retire the
 "temporal split" label for Test 4 — the split is an accessibility proxy for discovery order, and
 calling it temporal was an overstatement of what the data support (see INT-4 below).
@@ -92,7 +93,7 @@ calling it temporal was an overstatement of what the data support (see INT-4 bel
 ### R1-C — "Structure obscures the research question behind methodological complexity."
 
 **Accepted.** The E007–E013 iteration narrative is collapsed into a single progression table with two
-paragraphs of interpretation; per-iteration detail moves to the supplement. **[NEEDS v0.2]** This is
+paragraphs of interpretation; per-iteration detail moves to the supplement (§2.3, Table 2). This is
 easier in v0.2 than it would have been in v0.1, because the iterations are no longer the argument —
 they are the object being examined.
 
@@ -122,35 +123,36 @@ We are grateful for this request. It cost the paper its headline and gave it a b
 
 ### R1-E — "The archaeological side is underdeveloped; the road/accessibility motive appears only at the end."
 
-**Accepted.** **[NEEDS v0.2]** The survey-bias rationale for the road rasters moves to §2.1, where the
+**Accepted.** The survey-bias rationale for the road rasters moves to §2.1, where the
 covariates are first introduced, and is stated as the design's core commitment rather than a technical
-aside. The East Java archaeological background is expanded, and the new covariate-role table (R2-E)
-makes the accessibility channel explicit from the start. This item and R2-B are answered by the same
-revision: the archaeological content of this design lives in the background, not in the label set.
+aside. The East Java archaeological background is expanded (§1.4), and the new covariate-role table
+(Table 1, R2-E) makes the accessibility channel explicit from the start. This item and R2-B are
+answered by the same revision: the archaeological content of this design lives in the background, not
+in the label set.
 
 ### R1-F — "Put the results in the context of current and future heritage management in East Java."
 
-**Accepted.** **[NEEDS v0.2]** A new discussion subsection covers the Cagar Budaya framework (UU
+**Accepted.** A new discussion subsection (§4.4) covers the Cagar Budaya framework (UU
 11/2010), BPCB Jawa Timur survey practice, and how a suitability surface would enter permitting and
 rescue prioritisation. This connects to a result we can now state responsibly: priority maps are
 unstable under random seed alone (28.1%–47.4% of top-decile cells turn over between seeds), so a
 single-seed map is not a defensible basis for a survey permit. We report a **robust core** (cells
-selected by every seed) and a **contingent fringe**, with observed site densities in the robust core
-1.9×, 4.3× and 5.6× the fringe for RandomForest, XGBoost and MaxEnt respectively.
+selected by every seed) and a **contingent fringe** (Figure 5), with observed site densities in the
+robust core 1.9×, 4.3× and 5.6× the fringe for RandomForest, XGBoost and MaxEnt respectively.
 
 ### R1-G — "Jargon undefined; the abstract is too technical."
 
-**Accepted.** **[NEEDS v0.2]** "Tautology suite", "conditional pass" and "null-model ceiling" are
+**Accepted.** "Tautology suite", "conditional pass" and "null-model ceiling" are
 either defined at first use or removed. TGB, DKNS, MVR, TRI and TWI are spelled out at first use. The
-abstract is rewritten without per-iteration AUC values and carries a single headline number.
+abstract is rewritten without per-iteration AUC values and carries a single headline number (+0.042).
 
 ### R1-H — "Citations are used descriptively rather than to support specific claims."
 
-**Accepted.** **[NEEDS v0.2]** A pass over §1 attaches every citation to a specific proposition.
+**Accepted.** A pass over §1 attaches every citation to a specific proposition.
 
 ### R1-I — "Define TRI and TWI in the text, not only in the figures."
 
-**Done.** **[NEEDS v0.2]** Both are defined at first use in §2.1.
+**Done.** Both are defined at first use in §2.1.
 
 ---
 
@@ -158,7 +160,7 @@ abstract is rewritten without per-iteration AUC values and carries a single head
 
 ### R2-A — "The research question is ambiguous: suitability, site prediction, burial detection and survey-bias correction are different questions."
 
-**Accepted; this was the most consequential comment we received.** **[NEEDS v0.2]** §1 now opens with
+**Accepted; this was the most consequential comment we received.** §1.2 now opens with
 an explicit taxonomy of the four reasons a site may be absent from the record — environmentally
 unsuitable, not surveyed, buried, destroyed — and states that **this paper models suitability only**.
 The other three are the interpretive frame, not the output.
@@ -176,7 +178,7 @@ and it is why they are archaeological rather than generic ML choices.
 
 This also sharpens the paper's finding: because the archaeological content lives in the background,
 and because the background is also what the model was evaluated against, the very thing that made the
-design archaeological is what contaminated its evaluation. **[NEEDS v0.2]** §2.4 and §4 state this.
+design archaeological is what contaminated its evaluation. §2.4 and §4.2 state this.
 
 ### R2-C — "A two-stage design would be stronger: model known settlements, then find suitable-but-absent areas and test which mechanism explains the absence."
 
@@ -184,13 +186,13 @@ design archaeological is what contaminated its evaluation. **[NEEDS v0.2]** §2.
 of this design (E219) and can report the mechanics, but the second stage tests *why sites are absent* —
 a question that requires the site-prediction claim we have now withdrawn. Attributing absence to burial
 versus survey effort with the evidence available to us would reproduce exactly the error this revision
-exists to correct. **[NEEDS v0.2]** §5 states the two-stage design as the natural continuation and
-specifies what it would require: burial-depth data (not currently available at survey resolution) and a
+exists to correct. §4.6 (Limitations) declares the two-stage design future work and specifies what it
+would require: burial-depth data (not currently available at survey resolution) and a
 survey-effort record independent of road distance.
 
 ### R2-D — "Cannot tell which variables are in and out per experiment; the model is not clearly reproducible."
 
-**Accepted.** **[NEEDS v0.2]** A per-experiment covariate inclusion matrix is added (new Table 2),
+**Accepted.** A per-experiment covariate inclusion matrix is added (Table 2, §2.3),
 built by reading the analysis scripts rather than the prose. Alongside it: presences n = 378 with valid
 covariates inside 111–115°E, pseudo-absence ratio 1:5 throughout, deterministic 5-fold spatial block CV
 at 0.45°, 2 km presence buffer, and the exact background parameters per experiment.
@@ -200,7 +202,7 @@ under "Further disclosures". We report it because the reviewer's concern was jus
 
 ### R2-E — "Separate variables by analytical role: suitability, accessibility/survey effort, preservation."
 
-**Accepted, and adopted as an organising principle.** **[NEEDS v0.2]** New Table 1 assigns every
+**Accepted, and adopted as an organising principle.** New Table 1 (§2.1) assigns every
 variable a single role: elevation, slope, TWI, TRI, aspect and river distance are **suitability**
 predictors; road distance is **accessibility/survey effort** and is deliberately *never* a training
 feature; volcano distance is a **taphonomic diagnostic** applied post hoc and never a predictor; clay
@@ -225,7 +227,7 @@ effect — but the non-volcanic arm contains **only 2 known sites**, so we prese
 not validation, and we do not build an argument on it.
 
 More decisively: the taphonomic claim is withdrawn regardless of this control, because the model
-comparison that supported it does not survive R1's MaxEnt benchmark. **[NEEDS v0.2]** §4 states that
+comparison that supported it does not survive R1's MaxEnt benchmark. §3.9 and §4.3 state that
 low predicted suitability near volcanoes is not evidence of buried sites, in the reviewer's own terms.
 
 ### R2-G — "Low suitability ≠ buried site; high suitability ≠ site exists."
@@ -236,14 +238,24 @@ suitability surface with declared limits, not a discovery map.
 
 ### R2-H — "Figure 1 is too simple; labels overflow in Figures 1 and 4; Figure 5 must explain how importance is computed and interpreted."
 
-**Accepted.** **[NEEDS v0.2]** Figure 1 is redrawn as a data-flow diagram showing how archaeological,
-environmental and computational inputs combine, with the background-construction path made explicit.
-Label overflow in Figures 1 and 4 is fixed. The Figure 5 caption now states that importance is
-gain-based, cross-checked against SHAP (ρ = 0.94), and explains what the dominance of elevation and
-slope does *not* mean — it is not evidence of terrain preference in the past, since the same ranking is
-produced by terrain-structured survey access. New figures show the dose-response curve of the reported
-metric against the design dial, reported-versus-true performance in the synthetic worlds, and the
-seed-stabilisation curve.
+**Accepted, and the figure set has changed with the paper's argument. We state the changes explicitly
+rather than quietly, because the reframing (R1-D) means the figures you asked us to repair are no
+longer the figures the paper needs.**
+
+- **v0.1 Figure 1 (interdisciplinary framework) — removed.** It illustrated the old argument. The
+  pipeline it depicted is now carried by the covariate-inclusion table (Table 2) and §2.2 prose: which
+  covariates enter as features, which enter only through the background, and what each analytical role
+  is.
+- **v0.1 Figure 4 (AUC/TSS progression) — retained, relabelled Figure 2.** Labels are corrected.
+- **v0.1 Figure 5 (feature importance) — removed.** Feature importance across the old E007–E013
+  pipeline was part of the argument we have replaced; with the taphonomic interpretation withdrawn, the
+  ranking of elevation and slope is no longer a finding, so we do not expand its caption.
+- **New figures carry the reframed argument.** Figure 3 shows reported vs common-background AUC across
+  the design ladder together with the histogram of own-background inflation (E218/E222); Figure 4 shows
+  the dose-response of the reported metric against the design dial, real and synthetic; Figure 5 shows
+  the robust core / contingent fringe priority map; Figure 6 shows the seed-stabilisation curve. The
+  study-area map (Figure 1) now labels all 13 canonical volcanic centres inside the paper's stated
+  bounds — the inventory correction (INT-1) made visible.
 
 ---
 

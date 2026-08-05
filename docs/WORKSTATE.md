@@ -1,6 +1,6 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-08-04 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-08-05 · **This file is short by design. Keep it that way.**
 
 > **In FOCUS MODE (cwd inside `lines/<nn>_*/`) you should not be reading this.** Read that line's
 > `CLAUDE.md` + `STATE.md`. This file is the **orbit** view: what the whole portfolio is doing, what is
@@ -12,9 +12,11 @@
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
-> **Latest handoff: `docs/HANDOFF_20260803.md`.** For the P2 claim set, the authoritative document is
-> now `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug) — it
-> supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since withdrawn.
+> **Latest handoff: `docs/HANDOFF_20260805.md`** (older ones in `docs/archive/handoffs/`). For the P2
+> claim set, the authoritative document is
+> `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug, +A7–A9 on
+> 5 Aug) — it supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since
+> withdrawn.
 >
 > ⚠ **Git: on `main`, the whole 2026-08-03 session is committed and unpushed** (`git rev-list --count origin/main..main`). Push awaits the PI.
 
@@ -48,7 +50,7 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 | Deadline | Item |
 |---|---|
-| **2026-08-20** (**17 days**) | **P2 resubmission to JCAA — no extension will be requested** (PI decision 2026-08-03: every `[RUN]` item is done or dissolved, so the reason would not have been true, and asking the scope question risks inviting "new submission"). Remaining work is prose: v0.2 manuscript + figures. Claim set, response letter, covariate tables and the integrity gate are **done**. |
+| **2026-08-20** (**15 days**) | **P2 resubmission to JCAA — no extension will be requested** (PI decision 2026-08-03). **Manuscript v0.2 essentially complete (5 Aug):** 6 figures from raw data, ENM literature, S1–S4 prose, response letter aligned, **SIG re-sign-off = GO on manuscript integrity (9/9 gates)**, 27 pp clean compile. Remaining before submit: **Go Frendi's sign-off on the claim set (B1, PI)** → then G1 final re-run + upload. |
 | Dec 2026 | Edinburgh PhD application window (entry Oct 2027) |
 
 ---
@@ -57,7 +59,7 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | **Build figures (blocks E/F)** — v0.2 **prose draft done 4 Aug** (`submission_jcaa_v0.2.tex`, 24 pp, compiles clean, claim reversed per doc 10). Figures are now the prose blocker; then G2/G8/G9 + SIG re-run. Submit gates on co-author sign-off only | Claude, then PI |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | **v0.2 implemented (5 Aug): 6 figures, ENM lit, S1–S4, response letter aligned, SIG = GO (9/9 gates green).** 27 pp clean compile. **Submit now gates only on Go Frendi's sign-off (B1, PI)** then G1 final re-run + upload | Claude done; **PI: sign-off** |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E: P17 arm DONE** (core claim survives and strengthens; methods sentence + 3 numbers need correcting **with a live journal**). Next: P1, P11, P5, P8, manifesto | Claude; editor note = PI |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Write the E216 prose manuscript (parallel to co-author search) | Claude; co-author = PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
@@ -88,7 +90,7 @@ Vossen/VU email · **push the 2026-08-03 commits to GitHub**.
 
 | Paper | Line | Status |
 |---|---|---|
-| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20, no extension. Core claim self-refuted; reframing around the artefact. **v0.2 prose DRAFT done 4 Aug** (`submission_jcaa_v0.2.tex`, 24 pp, compiles clean) — reverses the claim per doc 10. **SIG run 3 Aug → 🔴 NO-GO** (`SIG_signoff.md`): G4/G6 green; G2/G8/G9 were unrunnable only because the prose didn't exist — now runnable. Still red until: figures (blocks E/F), G2/G8/G9, re-run G1, full SIG re-sign-off. |
+| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20, no extension. Core claim self-refuted; reframed around the artefact. **v0.2 complete 5 Aug** (`submission_jcaa_v0.2.tex`, 27 pp, clean compile): 6 figures from raw data (`build_v02_figures.py`), ENM literature verified, S1–S4, response letter aligned (R2-H deletions stated). **SIG re-sign-off 5 Aug → 🟢 GO on manuscript integrity** (`SIG_signoff.md`, 9/9 gates: G1 64 checks/60 OK, G2, G3–G8, G9 adversarial passed). **Submit gates only on Go Frendi sign-off (B1).** |
 | **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. ⚠ **WS-E (3 Aug): finding survives and strengthens (court concentration 1.86× → 2.70×), but the methods sentence does not describe the computation and 3 numbers are wrong.** Correction note to the editor is drafted and waiting. |
 | **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11. arXiv:2604.00023. |
 | **P11** Volcanic informedness | 01 | rejected 2× (both editorial). Core finding survives. Retarget SPAFA — queued behind §1. |

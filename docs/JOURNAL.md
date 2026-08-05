@@ -9154,3 +9154,46 @@ Semua cocok. Verifikasi mekanis penuh (`verify_headline_numbers.py`) tetap wajib
 
 **Exposure hari ini: nol.** Naskah adalah draft yang menunggu PI (konfirmasi judul) dan kerja
 lanjutan Claude (gambar → gerbang → SIG). Tidak ada yang dikirim ke luar.
+
+---
+
+## 2026-08-05 — Sesi implementasi P2 (Claude Code, di repo; mengikuti HANDOFF_20260805.md §7)
+
+Eksekusi urutan kerja handoff 5 Agt. **Ringkas: gambar selesai, literatur ENM selesai, S1–S4
+selesai, surat balasan selaras, G1/G2/G8 hijau, G9 dijalankan (subagent adversarial).**
+
+- **Commit baseline dulu** (instruksi handoff §8): `e38987d` — v0.2.tex/pdf + HANDOFF_05 + docs sesi 4 Agt
+  masuk version control; koreksi hitungan placeholder `\figtodo` 6→2 di JOURNAL/STATE.
+- **Perbaikan kilat** (§7 #0): `:347` "It is not." → "The rise is not real."; dua `[FIGURE: …]`
+  dikeluarkan dari `\caption{}` (akan ter-render); pecahan 0/60 ditambah untuk hybrid(1.0) di §3.3.
+- **Gambar blok E/F** (§7 #1, jalur kritis G7): `build_v02_figures.py` baru, semua dari file hasil
+  mentah. 6 figur: fig14 artefact dua-panel, fig15 dose-response, fig16 peta robust/contingent (baru),
+  fig17 kurva stabilisasi seed (baru), fig10 study area di-redraw dengan 13 pusat kanonik (INT-1),
+  fig3 progresi di-restate sebagai objek yang diperiksa. Dua `\figtodo` diganti `\includegraphics`;
+  caption "Figure 4./5." manual dihapus (dobel auto-number). Overfull Tabel 1/2 diperbaiki via
+  `\resizebox`; prefix "Table N." manual dihapus (inkonsisten dengan auto-number).
+- **Literatur ENM** (§7 #2, R1-A): 5 sitasi diverifikasi terhadap catatan penerbit (Yaworsky et al.
+  2020 PLoS ONE; Banks et al. 2006 PaleoAnthropology; Franklin 2009 CUP; Howey et al. 2016 PNAS;
+  Noviello et al. 2018 Applied Geography) → masuk `references.bib`; blok `[NEEDS CITATION]` di §1.3
+  dihapus. Tidak ada metadata yang dikarang.
+- **Tambal lubang Tabel 4** (§7 #3, S1): ditemukan null model dievaluasi di grid seragam TAPI E013
+  = 0.751 hardcoded dari background-nya sendiri → margin +0.122 mencampur background. Pada background
+  bersama (uniform), keluarga desain E013 = **0.706** (XGB, E218) → klaim level bertahan, margin
+  menyusut ke ~+0.06, mendekati lantai deteksi +0.03. Angka 0.706 masuk dokumen 10 sebagai **A7** +
+  check baru di `verify_headline_numbers.py` (lolos). Paragraf + caption Tabel 4 diperbarui.
+- **Prosa** (§7 #4, S2/S3/S4): Test 1/Test 3 didefinisikan operasional di §2.4 (jawab R1-B);
+  §3.8 di-rename jadi "Corrections to our own diagnostics…"; latar arkeologi East Java diperluas di
+  §1.4 (Singhasari/Majapahit, Brantas, sebaran candi — jawab R1-E); abstrak 328→216 kata, satu angka
+  headline (+0.042), nilai AUC per-iterasi dibuang (jawab R1-G).
+- **Surat balasan selaras** (§7 #5): semua marker `[NEEDS v0.2]` diselesaikan; referensi seksi
+  diperbarui ke struktur final naskah; **R2-H ditulis ulang** untuk menyatakan 7 figur v0.1 yang
+  dihapus (framework + feature importance dihapus, AUC/TSS dipertahankan sebagai Figure 2, 4 figur baru
+  memikul argumen); penomoran E218/E219 disamakan (E219 part C untuk kontrol terrain-matched, kini
+  dilabel di naskah §3.8).
+- **Gerbang**: **G8** grep bersih (tidak ada frasa terlarang K5/K6/K7); **G2** 5 pertanyaan domain baru
+  untuk paper metode, semua lolos pada pengungkapan naskah sendiri
+  (`revision_ammo/SIG_G2_DOMAIN_20260805.md`); **G1** re-run → 62 check, 58 OK, 4 mismatch = persis
+  klaim lama yang ditarik (K5/K6/K7/G1c). **G9** subagent adversarial berjalan.
+- **Kompilasi**: `pdflatex → bibtex → pdflatex ×2`, 26 halaman, nol error, nol undefined, nol overfull.
+- **Exposure hari ini: nol.** Semua kerja intra-repo; tidak ada yang dikirim ke luar.
+
