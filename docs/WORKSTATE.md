@@ -12,7 +12,9 @@
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
-> **Latest handoff: `docs/HANDOFF_20260805.md`** (older ones in `docs/archive/handoffs/`). For the P2
+> **Latest handoff: `docs/HANDOFF_20260805b.md`** (older ones in `docs/archive/handoffs/`). P2 v0.2 is
+> implemented, SIG = GO, **NOT yet submitted** — next session runs a comprehensive review (Pak Go + AI)
+> before upload. For the P2
 > claim set, the authoritative document is
 > `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug, +A7–A9 on
 > 5 Aug) — it supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since
