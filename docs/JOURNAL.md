@@ -9197,3 +9197,11 @@ selesai, surat balasan selaras, G1/G2/G8 hijau, G9 dijalankan (subagent adversar
 - **Kompilasi**: `pdflatex → bibtex → pdflatex ×2`, 26 halaman, nol error, nol undefined, nol overfull.
 - **Exposure hari ini: nol.** Semua kerja intra-repo; tidak ada yang dikirim ke luar.
 
+
+## 2026-08-05 — B1 RESOLVED (sign-off Go Frendi)
+
+PI (Pak Amien) confirmed same-day that **Go Frendi is OK** dengan set klaim yang dibalik. Kalimat
+Authors' Contributions `submission_jcaa_v0.2.tex:573` (*"Both authors approved the withdrawal of the
+central claim reported in this revision"*) kini benar secara faktual. Semua dokumen pelacakan
+diperbarui (STATE item A → RESOLVED; WORKSTATE §4 → 1-of-5 tersisa; SIG_signoff B1 → resolved).
+**Sisa sebelum upload: konfirmasi judul (item E), re-run G1 final, push, upload.**

@@ -6,8 +6,8 @@
 > gambar (6 figur dari data mentah), literatur ENM (5 sitasi terverifikasi), S1–S4 (Tabel 4, tautology,
 > latar arkeologi, abstrak 216 kata), surat balasan selaras. **SIG re-sign-off 5 Agt = 🟢 GO pada
 > integritas naskah (9/9 gerbang hijau)**: G1 (64 check/60 OK), G2, G8, dan G9 (review adversarial —
-> tak ada klaim tertolak, 3 frasa dikencangkan). **Submit kini hanya menggerbangi item A (sign-off Go
-> Frendi = PI).**
+> tak ada klaim tertolak, 3 frasa dikencangkan). **Item A (sign-off Go Frendi) RESOLVED 5 Agt (per PI).**
+> Sisa sebelum upload: konfirmasi judul (E), G1 final, push, upload.
 
 ---
 
@@ -28,7 +28,7 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
 
 | # | Item | Since | Status |
 |---|---|---|---|
-| A | **Confirm authorship with the human Go Frendi.** The new manuscript reaches the *opposite* conclusion from the one he signed in March. `review_package_20260727/05_*` is Claude's analysis of his likely position, **not a signature.** | 2026-07-27 | 🔴 **ESCALATED 2026-08-05.** PI confirmed 2026-08-03 that Go Frendi **knows** the conclusion reversed, but an explicit sign-off on the v0.2 claim set is still outstanding. **`submission_jcaa_v0.2.tex:544` now asserts *"Both authors approved the withdrawal of the central claim"* — a statement in Authors' Contributions that this file contradicts.** Either obtain the sign-off or fix the sentence; send him `10_SET_KLAIM_TERKOREKSI.md`. See `docs/HANDOFF_20260805.md` §2 B1. |
+| A | **Confirm authorship with the human Go Frendi.** The new manuscript reaches the *opposite* conclusion from the one he signed in March. `review_package_20260727/05_*` is Claude's analysis of his likely position, **not a signature.** | 2026-07-27 | ✅ **RESOLVED 2026-08-05.** PI confirmed Go Frendi is OK with the reversed claim set. The Authors' Contributions sentence (`submission_jcaa_v0.2.tex:573`) is now factually true. No further action. |
 | B | ~~Send the Verhagen email~~ | 2026-07-27 | **CLOSED 2026-08-03 — withdrawn, no email will be sent.** |
 | C | ~~Decide scope: revision vs new submission~~ | 2026-07-27 | **CLOSED — revision of #280.** |
 | D | ~~Permission to commit~~ | 2026-07-27 | **CLOSED — committed.** |

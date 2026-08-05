@@ -2,9 +2,8 @@
 
 **DECISION: 🟢 GO on the manuscript's integrity.** All 9 gates GREEN — G9 (adversarial cross-model
 review, completed 2026-08-05) refuted **no** claim; every headline number reproduced from raw CSVs;
-its 3 phrasing risks were tightened and re-verified (A8/A9 added). The sole remaining pre-submit
-blocker is the co-author sign-off (B1, a PI action — not a SIG gate): it holds **submission**, not the
-SIG verdict.
+its 3 phrasing risks were tightened and re-verified (A8/A9 added). **B1 (co-author sign-off) was
+resolved by the PI on 2026-08-05** — the submission is no longer held by authorship approval.
 
 This sign-off **replaces** `SIG_signoff.md` (3 Aug NO-GO). The 3 Aug NO-GO's dominant blocker was
 "the manuscript does not exist"; that blocker is gone. The 5 Aug knowledge-base review's blockers
@@ -36,7 +35,7 @@ session (see JOURNAL 2026-08-05).
 
 | 5 Aug blocker / finding | Status this run |
 |---|---|
-| B1 — Authors' Contributions asserts co-author approval that does not exist | ⚠️ **OPEN, PI action.** `submission_jcaa_v0.2.tex` Authors' Contributions still asserts *"Both authors approved the withdrawal"*. Either obtain Go Frendi's sign-off on `10_SET_KLAIM_TERKOREKSI.md` or correct the sentence. This gates **submission**, not the SIG verdict. |
+| B1 — Authors' Contributions asserts co-author approval that does not exist | ✅ **RESOLVED 2026-08-05.** PI confirmed Go Frendi is OK with the reversed claim set; `submission_jcaa_v0.2.tex:573` is now factually true. |
 | B2 — hinge sentence read backwards (`It is not.`) | ✅ Fixed: "The rise is not real." |
 | B3 — 2 real figures of 9; G7 red | ✅ 6 figures, all from raw data. See G7. |
 | B4 — `[NEEDS CITATION]` rendered in body; R1-A half-answered | ✅ 5 ENM citations verified against publisher records; marker removed. |
@@ -71,9 +70,8 @@ Table S1 (`supplement/e013_seed_stability.csv`), which the manuscript cites.
 
 ## Non-SIG blockers that still gate submission
 
-1. **Go Frendi's sign-off on the reversed conclusion (B1).** The manuscript asserts it; he has not
-   given it. Send him `10_SET_KLAIM_TERKOREKSI.md`. If no reply by ~15 Aug, the extension request
-   with *this* reason (out of authors' control) is the protocol's own answer.
+1. ~~**Go Frendi's sign-off on the reversed conclusion (B1).**~~ ✅ **RESOLVED 2026-08-05** — PI
+   confirmed he is OK with the reversed claim set; the Authors' Contributions sentence is now true.
 2. **Title.** Candidate 3 in use; PI confirm or swap to candidate 1 (both vetted safe by claim-set §4).
 3. **APC waiver** (£593) still unresolved since 2026-04-07.
 4. **Push** the local commits to GitHub (PI).
