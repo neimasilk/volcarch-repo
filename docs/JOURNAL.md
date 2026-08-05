@@ -9205,3 +9205,10 @@ Authors' Contributions `submission_jcaa_v0.2.tex:573` (*"Both authors approved t
 central claim reported in this revision"*) kini benar secara faktual. Semua dokumen pelacakan
 diperbarui (STATE item A → RESOLVED; WORKSTATE §4 → 1-of-5 tersisa; SIG_signoff B1 → resolved).
 **Sisa sebelum upload: konfirmasi judul (item E), re-run G1 final, push, upload.**
+
+## 2026-08-05 — Judul v0.2 RESOLVED (kandidat 3)
+
+PI memilih **kandidat 3**: "An Evaluation Artefact in Presence–Background Archaeological Modelling:
+Evidence from East Java and a Corrected Comparison Protocol" — sama dengan yang sudah terpasang di
+naskah; tidak ada perubahan file. STATE item E → RESOLVED; WORKSTATE §4 → 0-of-5 tersisa.
+**P2 siap-upload; tersisa hanya aksi PI: push, re-run G1 saat hendak upload, dan upload ke portal.**

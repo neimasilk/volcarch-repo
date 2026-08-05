@@ -6,8 +6,8 @@
 > gambar (6 figur dari data mentah), literatur ENM (5 sitasi terverifikasi), S1–S4 (Tabel 4, tautology,
 > latar arkeologi, abstrak 216 kata), surat balasan selaras. **SIG re-sign-off 5 Agt = 🟢 GO pada
 > integritas naskah (9/9 gerbang hijau)**: G1 (64 check/60 OK), G2, G8, dan G9 (review adversarial —
-> tak ada klaim tertolak, 3 frasa dikencangkan). **Item A (sign-off Go Frendi) RESOLVED 5 Agt (per PI).**
-> Sisa sebelum upload: konfirmasi judul (E), G1 final, push, upload.
+> tak ada klaim tertolak, 3 frasa dikencangkan). **Item A (sign-off Go Frendi) dan item E (judul,
+> kandidat 3) RESOLVED 5 Agt.** Sisa sebelum upload: G1 final, push, upload (PI).
 
 ---
 
@@ -32,7 +32,7 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
 | B | ~~Send the Verhagen email~~ | 2026-07-27 | **CLOSED 2026-08-03 — withdrawn, no email will be sent.** |
 | C | ~~Decide scope: revision vs new submission~~ | 2026-07-27 | **CLOSED — revision of #280.** |
 | D | ~~Permission to commit~~ | 2026-07-27 | **CLOSED — committed.** |
-| E | **v0.2 title** — candidates in `revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md` §3. Candidates resting on "selection picks the worst design" are dead (K5); those resting on **evaluation incomparability** survive. | 2026-07-27 | open |
+| E | **v0.2 title** — candidates in `revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md` §3. Candidates resting on "selection picks the worst design" are dead (K5); those resting on **evaluation incomparability** survive. | 2026-07-27 | ✅ **RESOLVED 2026-08-05 — kandidat 3 terkonfirmasi** ("An Evaluation Artefact in Presence–Background Archaeological Modelling…"). Naskah tidak berubah. |
 
 ---
 

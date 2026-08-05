@@ -59,7 +59,7 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | **v0.2 implemented (5 Aug): 6 figures, ENM lit, S1–S4, response letter aligned, SIG = GO (9/9 gates green).** 27 pp clean compile. **Sign-off Go Frendi RESOLVED (PI, 5 Aug).** Remaining before upload: title (E), G1 final, push | Claude done; **PI: title + push** |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | **v0.2 implemented (5 Aug): 6 figures, ENM lit, S1–S4, response letter aligned, SIG = GO (9/9 gates green).** 27 pp clean compile. **Sign-off Go Frendi + title RESOLVED (PI, 5 Aug).** Remaining before upload: G1 final, push | Claude done; **PI: push + upload** |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E: P17 arm DONE** (core claim survives and strengthens; methods sentence + 3 numbers need correcting **with a live journal**). Next: P1, P11, P5, P8, manifesto | Claude; editor note = PI |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Write the E216 prose manuscript (parallel to co-author search) | Claude; co-author = PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
@@ -74,8 +74,8 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 **P2 / JCAA (1 left of 5):** ~~Verhagen email~~ withdrawn 3 Aug · ~~scope~~ settled (revision of #280) ·
 ~~commit permission~~ done · ~~**Go Frendi sign-off**~~ ✅ **RESOLVED 2026-08-05** (PI confirmed he is OK
-with the reversed claim set; Authors' Contributions sentence now true) · **v0.2 title** (candidates
-resting on "selection picks the worst design" are dead — K5; 1 & 3 both vetted safe).
+with the reversed claim set; Authors' Contributions sentence now true) · ~~**v0.2 title**~~ ✅
+**RESOLVED 2026-08-05 — kandidat 3** (no manuscript change).
 **P17 / ArchCalc #365 — NEW, time-sensitive:** send the correction note to the editor while the paper
 is still under review. Draft: `docs/correspondence/EMAIL_ARCHCALC_P17_CORRECTION_DRAFT_20260803.md`.
 **P7:** post the preprint correction notice — overdue since 2026-06-04, costs one login. Draft:
