@@ -1,4 +1,40 @@
-# SIG sign-off — P2 / JCAA #280 revision v0.2 — 2026-08-05 — run by Claude
+# SIG sign-off — P2 / JCAA #280 revision v0.2
+
+## ⚠ 2026-08-10 ADDENDUM — what this sign-off missed, and the gate that should exist
+
+**Decision unchanged: 🟢 GO.** But the comprehensive pre-submission review of 2026-08-10 found
+**13 problems that this 9/9 GREEN sign-off did not catch, four of them blocking.** They are recorded
+here rather than quietly fixed, because the pattern is the point.
+
+**All four blockers were non-numerical claims:**
+
+| Blocker | Why G1–G10 could not see it |
+|---|---|
+| AI Disclosure asserted the AI did not contribute to research design — contradicted by the archived pre-registrations in the **public** repo the paper's own Data Availability statement points to | G1 verifies numbers against raw files. It has no notion of a claim about process. |
+| Supplementary Tables S3–S6 were promised in the manuscript and did not exist in any form | No gate checks that a promised deliverable exists. |
+| The Response to Reviewers still carried "DRAFT prepared by Claude Code / NOT SENT / sign-off pending" | No gate reads the covering documents as an editor would. |
+| Data Availability claimed an MIT licence with no `LICENSE` file in the repo | No gate checks external-facing factual claims. |
+
+Three further findings were substantive and are worth recording: R1's "not entirely novel" objection
+applied **more** strongly to the replacement claim and the bibliography engaged none of the closest
+prior art (fixed: six Crossref-verified ENM references, §1.3 rewritten); two miscitations sat in the
+two most load-bearing prior-work sentences (`georganos2021`, `jimenez2020`); and **Table 4 mixed
+best-run with seed-average estimators inside the very paragraph that corrects mixing evaluation
+backgrounds** (fixed: gaps recomputed to +0.251/+0.170/+0.105, disclosed to the editor).
+
+> **Proposed G11 for `docs/SUBMISSION_INTEGRITY_GATE.md` — the non-numerical claim gate.**
+> Before submission, verify every *non-numerical* external claim the manuscript makes: AI/authorship
+> disclosure against the actual record, licence claims against the licence file, data/code
+> availability against what is actually published, and every promised supplementary item against a
+> file that exists. A numbers-only gate reports GREEN on a package that would embarrass the authors.
+
+**Post-review state (2026-08-10):** manuscript 29 pp, 0 errors, 0 undefined citations, 0 overfull;
+supplement 5 pp / 6 tables; G1 re-run = 64 checks, 4 mismatches (exactly the withdrawn K5/K6/K7/G1c);
+G8 clean. Remaining before submission: `git push`, portal upload — both PI.
+
+---
+
+# Original sign-off — 2026-08-05 — run by Claude
 
 **DECISION: 🟢 GO on the manuscript's integrity.** All 9 gates GREEN — G9 (adversarial cross-model
 review, completed 2026-08-05) refuted **no** claim; every headline number reproduced from raw CSVs;

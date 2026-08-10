@@ -1,16 +1,19 @@
+<!--
+INTERNAL NOTE — DELETE THIS COMMENT BLOCK BEFORE UPLOADING.
+Everything below this block is the text intended for the editor and reviewers, and
+nothing below it refers to internal process, drafting or sign-off status.
+Pre-upload checklist:
+  [x] co-author sign-off on the reversed conclusion (resolved 2026-08-05)
+  [x] verify_headline_numbers.py re-run against the final manuscript
+      (2026-08-10: 64 checks, 4 mismatches = the four deliberately withdrawn claims)
+  [x] v0.2 title confirmed (candidate 3)
+  [ ] paste as plain text into the JCAA portal under article component
+      "Response to Reviewers"
+Numbers are sourced to review_package_20260727/10_SET_KLAIM_TERKOREKSI.md and
+verified in revision_ammo/SIG_G1_VERIFICATION_20260810.md.
+-->
+
 # Response to Reviewers — JCAA #280, revision v0.2
-
-**STATUS: DRAFT prepared by Claude Code, 2026-08-03; cross-references and figure map aligned to the
-final v0.2 manuscript on 2026-08-05. NOT SENT. The PI submits.**
-**Before upload, three things must be true:** (1) the co-author has signed off on the reversed
-conclusion (blocker B1 — pending); (2) `verify_headline_numbers.py` has been re-run against the final
-manuscript and every number below still matches; (3) the v0.2 title is confirmed.
-Every figure in this letter is taken from `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`
-and verified in `SIG_G1_VERIFICATION_20260803.md`.
-All **[NEEDS v0.2]** markers were resolved 2026-08-05: the manuscript now has the sections the letter
-references, and the figure deletions required by the reframing are stated under R2-H.
-
----
 
 ## Cover note to the editor
 
@@ -35,11 +38,12 @@ held fixed, and a selection criterion computed on a design's own background has 
 Seven new experiments (E217–E223) establish this, including validation against synthetic ground truth
 where the true intensity surface is known.
 
-We also report, unprompted, four defects we found in our own work while preparing this revision: an
+We also report, unprompted, five defects we found in our own work while preparing this revision: an
 incomplete volcano inventory (INT-1), a mislabelled result file (INT-4), a published correlation that
-does not reproduce (§ "Further disclosures", item 3), and seven overstated claims in our own internal
-revision documents that we caught and corrected before they reached this manuscript (K1–K7). We would
-rather you have all of it.
+does not reproduce, a null-model comparison in the submitted version whose margins were quoted
+against a single best run rather than the seed average, and seven overstated claims in our own
+internal revision documents that we caught and corrected before they reached this manuscript. All
+five are itemised under "Further disclosures" below. We would rather you have all of it.
 
 We recognise that this is an unusual revision, and that a paper reaching the opposite conclusion from
 the submitted version may in your judgement warrant fresh review. We are content with whatever process
@@ -62,6 +66,10 @@ you consider appropriate.
 | 9 | Volcano inventory corrected (7 → 13 centres in bounds); Test 1 recomputed | INT-1, self-reported |
 | 10 | Seed-ensembling protocol added (k ≥ 7); single-seed maps withdrawn | E221 |
 | 11 | Taphonomic interpretation withdrawn; terrain-matched control reported | R2-F, R2-G |
+| 12 | Six further ENM references added (Lobo 2008; Barve 2011; Hijmans 2012; Warren & Seifert 2011; Radosavljevic & Anderson 2014; Guillera-Arroita 2015); §1.3 concedes the prior art before claiming the delta | R1-A |
+| 13 | Maximum Entropy implementation and settings named (maxnet via `elapid`; linear/hinge/product features, β = 1.5, cloglog); bootstrap replicate count stated | R1-D, R2-D |
+| 14 | Sampling deviation of E217–E224 disclosed in the methods (§2.6): benchmark backgrounds are lattice-drawn, so only within-benchmark contrasts are interpreted | self-reported |
+| 15 | Supplementary tables S1–S6 supplied as one generated document, built from raw result files by script | R2-D |
 
 ---
 
@@ -70,14 +78,29 @@ you consider appropriate.
 ### R1-A — "The empirical finding is not entirely novel; ecological niche modelling has established this, and archaeological examples are missing."
 
 **Accepted, and the situation has changed.** The reviewer was right that our original finding was not
-novel; it has turned out not to be a finding at all. The revised contribution sits *inside* the ENM
-literature rather than beside it: we show that the target-group background correction (Phillips et al.
-2009) can appear to help for a reason that has nothing to do with bias correction — because it also
-changes the evaluation set. §1.3 now engages Yaworsky et al. (2020), Banks et al.
-(ecocultural niche modelling), Franklin, Howey, Verhagen & Whitley (2012) and Noviello et al., and the
-novelty claim is stated narrowly: not "background design matters", but "comparisons of background
-design are not identified unless the evaluation background is fixed, and we quantify what happens when
-it is not."
+novel; it has turned out not to be a finding at all.
+
+We have taken the criticism as applying with equal force to the *replacement* finding, and rewritten
+§1.3 to concede the prior art explicitly before claiming anything. It now states that the phenomenon
+is established: **Lobo, Jiménez-Valverde & Real (2008)** showed AUC is not comparable between models
+whose background differs; **Barve et al. (2011)** formalised the availability domain as the accessible
+area *M* and showed its delineation conditions both fitting and evaluation; **Hijmans (2012)** showed
+that the spatial arrangement of background relative to presences inflates cross-validated AUC and
+proposed a null-model calibration. §1.3 further notes that criteria computed inside a single
+background are known to be unreliable guides to transferability (**Warren & Seifert 2011**;
+**Radosavljevic & Anderson 2014**) and that discrimination metrics answer a narrower question than
+applications ask of them (**Guillera-Arroita et al. 2015**). On the archaeological side it engages
+Yaworsky et al. (2020), Banks et al. (2006), Franklin (2009), Howey (2016), Verhagen & Whitley (2012)
+and Noviello et al. (2018).
+
+Against that background we claim three things and no more: (i) we *execute* the comparison this
+literature implies but rarely runs end to end, on one dataset with identical folds; (ii) we
+characterise the criterion a modeller actually optimises and show it has **no interior optimum**, and
+we are not aware of a comparable dose-response measurement of reported against true performance along
+a background-design dial; (iii) we give the effect a size in an archaeological setting, where the
+inflation turns out to be the same order as the gain routinely reported as a result. The novelty claim
+is therefore not "background design matters" — it is the mechanism, its dose-response, and its
+magnitude.
 
 ### R1-B — "The 'tautology-free' claim exceeds the evidence and needs definition and support."
 
@@ -115,8 +138,7 @@ Two results:
    range +0.005…+0.084) — the same magnitude as the entire reported E007→E013 gain.
 
 We then tested the published number directly. Equivalence confidence intervals reject the published
-+0.092 ladder gain in **12/12** algorithm × evaluation-background cells, and a spatially blocked
-bootstrap (29 replicates) rejects it for all three algorithms, with CI upper bounds of +0.008, +0.025
++0.092 ladder gain in **12/12** algorithm × evaluation-background cells, and a bootstrap that resamples presence blocks rather than points (30 replicates) rejects it for all three algorithms, with CI upper bounds of +0.008, +0.025
 and +0.026. MaxEnt regularisation β from 0.5 to 4.0 changes nothing (−0.020 to −0.022 throughout).
 
 We are grateful for this request. It cost the paper its headline and gave it a better one.
@@ -287,10 +309,14 @@ as ρ = −0.163. A five-seed re-run on the *same* 7-volcano inventory gives **�
 value came from a single model instance. We report this not only as a correction but as evidence for
 the protocol we now recommend: the instability we document in priority maps (28.1%–47.4% top-decile
 turnover between seeds) also affects the manuscript's own diagnostics. Single-seed values should not be
-reported, including by us. All values in v0.2 are seed-ensembled, with k ≥ 7 (the number of seeds
-required for Jaccard ≥ 0.90 in our stability analysis is 4–7 depending on algorithm; 7–9 for ≥ 0.95).
+reported, including by us. The corrected diagnostics in v0.2 are seed-ensembled; the E007–E013 ladder
+is reproduced as the original published pipeline, because it is the object under examination rather
+than a result we are asserting. The number of seeds required for Jaccard ≥ 0.90 in our stability
+analysis is 4–7 depending on algorithm, and 7–9 for ≥ 0.95, so we recommend k ≥ 7.
 
-**4. Seven overstated claims in our own revision drafts, caught before submission.** In preparing this
+**4. A null-model margin quoted against the wrong estimator (corrected).** The submitted version's null-model table reported the gap between our model and each null as +0.268, +0.187 and +0.122 AUC. Those margins were computed against E013's **best run** (0.768) while the table's headline value, and the value we quoted in the text, was the **seed-average** (0.751). Each margin was therefore overstated by 0.017. Table 4 now reports gaps against the seed average (+0.251, +0.170, +0.105) and says so in the caption. We found this while checking that the manuscript did not mix estimators in the very section where it criticises mixing evaluation backgrounds; it did.
+
+**5. Seven overstated claims in our own revision drafts, caught before submission.** In preparing this
 revision we wrote internal documents that themselves overstated the new findings — "the selection rule
 picks the worst design in 100% of cases" (it picks a design costing +0.194 against the best, but never
 the worst), "the reported number moves ~10× faster than the truth" (≈2×), "always inflated" (95.3%,
@@ -299,7 +325,7 @@ Each was caught by a blind re-derivation of every headline number from the raw p
 a pre-submission gate. We mention this because it is the same failure mode the paper is about, it
 recurred in our own correction of it, and only a mechanical check caught it.
 
-**5. An explanation we proposed, tested, and had to withdraw.** Our synthetic experiments found that
+**6. An explanation we proposed, tested, and had to withdraw.** Our synthetic experiments found that
 target-group background did not improve truth-anchored recovery over a random background — an
 uncomfortable result, since target-group background is the standard bias correction and our simulation
 gave it exactly the condition its theory requires. We proposed an explanation: the model's feature set
@@ -316,7 +342,7 @@ own test: road distance correlates +0.49 with river distance, so the model had p
 bias signal even in the control condition, and a clean test would need a survey-effort surface
 orthogonal to terrain by construction. That is future work.
 
-**6. What we did not do.** Additional synthetic bias regimes (non-stationary bias, bias correlated with
+**7. What we did not do.** Additional synthetic bias regimes (non-stationary bias, bias correlated with
 non-road covariates) and replication in a second real region are declared future work. Our synthetic
 evidence covers four regimes with n ≈ 300–500 observed presences; it is not a general refutation of
 target-group background, and we do not claim one. The bootstrap can exclude effects of about +0.03 or
@@ -332,6 +358,4 @@ revision itself.
 
 ---
 
-*Draft prepared 2026-08-03. Numbers verified against `SIG_G1_VERIFICATION_20260803.md`. E224 completed
-the same day and its result is incorporated (disclosure 5). Pending items: v0.2 section
-cross-references, co-author sign-off.*
+

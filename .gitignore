@@ -82,3 +82,16 @@ results/E211_voc_mentions/voc_archaeological_mentions.json
 results/E211_voc_mentions/voc_mentions_java_filtered.csv
 results/E211_voc_mentions/voc_mentions_normalized.csv
 results/E211_voc_mentions/voc_mentions_normalized.json
+
+# --- Confidential peer-review material and internal review simulations ---
+# The paper's Data Availability statement points reviewers and editors at this
+# repository. These files must NOT be browsable there:
+#  - 02_LAPORAN_REVIEWER.md holds the JCAA #280 editor decision and both
+#    reviewer reports verbatim; peer review is confidential and it is not ours
+#    to publish, least of all while the paper is still in revision.
+#  - 05_/07_*GO_FRENDI.md are AI-written simulated reviews carrying a real
+#    person's name; publishing them would misrepresent him.
+# They stay on disk as the working record; they simply stop being published.
+papers/P2_settlement_model/review_package_20260727/02_LAPORAN_REVIEWER.md
+papers/P2_settlement_model/review_package_20260727/05_REVIEW_COAUTHOR_GO_FRENDI.md
+papers/P2_settlement_model/review_package_20260727/07_REVIEW_KERAS_Q1_GO_FRENDI.md

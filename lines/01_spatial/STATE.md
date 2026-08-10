@@ -1,13 +1,25 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-08-05 · **Temperature:** 🔥 HOT — hard deadline in **15 days**
+**Updated:** 2026-08-10 · **Temperature:** 🔥 HOT — hard deadline in **10 days**
 
-> 📄 **Naskah v0.2 selesai diimplementasi (2026-08-05).** Semua blocker/temuan handoff 5 Agt ditutup:
-> gambar (6 figur dari data mentah), literatur ENM (5 sitasi terverifikasi), S1–S4 (Tabel 4, tautology,
-> latar arkeologi, abstrak 216 kata), surat balasan selaras. **SIG re-sign-off 5 Agt = 🟢 GO pada
-> integritas naskah (9/9 gerbang hijau)**: G1 (64 check/60 OK), G2, G8, dan G9 (review adversarial —
-> tak ada klaim tertolak, 3 frasa dikencangkan). **Item A (sign-off Go Frendi) dan item E (judul,
-> kandidat 3) RESOLVED 5 Agt.** Sisa sebelum upload: G1 final, push, upload (PI).
+> 📄 **Review menyeluruh pra-submit SELESAI (2026-08-10).** Naskah v0.2 lulus. Review menemukan
+> **13 masalah yang lolos dari SIG 9/9 GREEN**, 4 blocking — semuanya sudah diperbaiki. Rinciannya:
+> `docs/HANDOFF_20260810.md`.
+>
+> **Empat blocker itu bukan angka**, dan itulah sebabnya G1 tidak menangkapnya: (1) AI Disclosure
+> menyangkal kontribusi AI pada research design, dibantah oleh pra-registrasi di repo **publik** yang
+> ditunjuk Data Availability sendiri; (2) Tabel suplemen S3–S6 dijanjikan tapi tidak ada; (3) surat
+> balasan masih berkepala "DRAFT prepared by Claude Code / NOT SENT / sign-off pending"; (4) klaim
+> lisensi MIT tanpa file `LICENSE`. **Usul G11 untuk SIG: gerbang klaim non-numerik.**
+>
+> Perbaikan substantif terpenting: **6 rujukan ENM diverifikasi Crossref lalu ditambahkan**
+> (lobo2008, hijmans2012, barve2011, warren2011, radosavljevic2014, guillera2015) dan §1.3 ditulis
+> ulang untuk mengakui prior art lebih dulu — ini menutup kritik R1 "not entirely novel" yang
+> sebelumnya masih terbuka lebar terhadap klaim baru. Dua miscitation dibuang. **Tabel 4 dikoreksi**:
+> gap dihitung terhadap seed-average (0.751), bukan best run (0.768) → +0.122 menjadi **+0.105**.
+>
+> **Status: naskah (29 hal, kompilasi bersih) + suplemen (5 hal, 6 tabel) + surat balasan SIAP.
+> Tersisa hanya `git push` + upload portal — keduanya PI.**
 
 ---
 
@@ -60,8 +72,20 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
       scope "seed-ensembled", scope AI-disclosure) + inflasi home-court dinyatakan spesifik hybrid
       (A8/A9, check lolos).
 - [x] **SIG re-sign-off final.** ✅ 2026-08-05 → `SIG_signoff.md` = **🟢 GO pada integritas naskah**
-      (9/9 gerbang hijau). Sesi ter-commit (e38987d + sesi ini). **Tersisa sebelum submit: item A
-      (sign-off Go Frendi), judul (item E), G1 final re-run, push.**
+      (9/9 gerbang hijau).
+- [x] **Review menyeluruh pra-submit (permintaan PI, handoff 5 Agt §2).** ✅ 2026-08-10 — 13 temuan,
+      4 blocking, semuanya ditutup hari ini. Naskah 29 hal kompilasi bersih; suplemen S1–S6 dibuat
+      (`build_supplement.py` → `supplementary_tables_v0.2.pdf`); 6 rujukan ENM diverifikasi Crossref;
+      Tabel 4 dikoreksi ke seed-average; AI Disclosure ditulis ulang jujur; `LICENSE` dibuat; laporan
+      reviewer rahasia berhenti dipublikasikan. **G1 final: 64 check, 4 mismatch** (= K5/K6/K7/G1c
+      yang memang ditarik) → `SIG_G1_VERIFICATION_20260810.md`.
+
+## Tersisa sebelum submit — SEMUANYA PI
+
+- [ ] **`git push`** (19 commit). Tanpa ini pernyataan Data Availability belum benar.
+- [ ] **Upload portal JCAA**: naskah + **suplemen** + surat balasan (komponen "Response to
+      Reviewers"). **Hapus blok komentar `<!-- … -->` di kepala surat balasan sebelum paste.**
+- [ ] Putuskan cara mengangkat **APC waiver £593**.
 
 ## Deliberately NOT doing
 

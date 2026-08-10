@@ -324,14 +324,16 @@ def e218a() -> None:
     # S1 level-claim consequence (doc 10 A7): the E013 design family (hybrid) on a
     # common (uniform) evaluation background, XGBoost (the primary learner), mean
     # over seeds. This is the apples-to-apples comparison against the DKNS null
-    # (0.646) reported in Table 4, which currently mixes backgrounds.
+    # (0.646) reported in Table 4, which still mixes backgrounds. NB the pre-
+    # correction margin is +0.105 against the seed average, not +0.122 against
+    # the best run -- see doc 10 A7 and disclosure 4 in the response letter.
     xh = h[h.algorithm == "xgboost"]
     xp = xh.pivot(index="seed", columns="eval_background", values="auc")
     check("E013 hybrid design on common (uniform) background (XGBoost)",
           "e218_stageA_raw.csv", "0.706",
           f"{xp['uniform'].mean():.3f}",
           close(xp["uniform"].mean(), 0.706, 2e-3),
-          "level claim survives but the margin vs DKNS shrinks from +0.122 to ~+0.06")
+          "level claim survives but the margin vs DKNS shrinks from +0.105 to ~+0.06; +0.105 = 0.751 seed-avg - 0.646, NOT +0.122 which used the 0.768 best run")
 
     # G9 tightening (doc 10 A8): home-court inflation is hybrid-SPECIFIC. TGB
     # scores HIGHER on the uniform background than on its own, so the ladder's TGB

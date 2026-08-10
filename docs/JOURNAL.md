@@ -9212,3 +9212,57 @@ PI memilih **kandidat 3**: "An Evaluation Artefact in Presence–Background Arch
 Evidence from East Java and a Corrected Comparison Protocol" — sama dengan yang sudah terpasang di
 naskah; tidak ada perubahan file. STATE item E → RESOLVED; WORKSTATE §4 → 0-of-5 tersisa.
 **P2 siap-upload; tersisa hanya aksi PI: push, re-run G1 saat hendak upload, dan upload ke portal.**
+
+
+---
+
+## 2026-08-10 — P2/JCAA: review menyeluruh pra-submit (sesi review, bukan sesi upload)
+
+**Konteks.** Handoff 5 Agt menetapkan bahwa sesi berikutnya adalah review → finalisasi → baru upload.
+PI meminta satu tinjauan AI menyeluruh atas naskah FINAL. Itu dijalankan hari ini.
+
+**Hasil: 13 temuan yang lolos dari SIG "9/9 GREEN", 4 di antaranya blocking.** SIG G1 memverifikasi
+angka; keempat blocker bukan angka.
+
+BLOCKING (4):
+1. AI Disclosure menyatakan AI tidak berkontribusi pada research design/hypothesis/interpretation —
+   dibantah oleh pra-registrasi di repo PUBLIK yang ditunjuk Data Availability sendiri
+   (E224/DESIGN.md:102 "Pre-registered by Claude Opus 5"; E218/DESIGN.md sudut pandang orang pertama AI).
+   docs/AI_DISCLOSURE_TEMPLATE.md sendiri menandai P2 "expand during revision" — tak pernah dilakukan.
+   -> Ditulis ulang jujur (keputusan PI).
+2. Tabel suplemen S3-S6 dijanjikan naskah tapi tidak ada. -> build_supplement.py +
+   supplementary_tables_v0.2.pdf (5 hal, 6 tabel) dari file hasil mentah.
+3. Response to Reviewers masih berkepala "DRAFT prepared by Claude Code / NOT SENT / B1 pending".
+   -> dibersihkan; blok checklist jadi komentar HTML internal.
+4. Data Availability mengklaim lisensi MIT; tidak ada file LICENSE. -> LICENSE dibuat.
+
+SERIUS (4):
+5. Kritik R1 "not entirely novel, well established in ENM" berlaku LEBIH kuat pada klaim baru, dan
+   bibliografi tak menyentuh prior art terdekat. -> 6 rujukan diverifikasi Crossref lalu ditambahkan
+   (lobo2008, hijmans2012, barve2011, warren2011, radosavljevic2014, guillera2015); §1.3 ditulis ulang
+   supaya mengakui prior art dulu, baru menyatakan delta.
+6. Dua miscitation: georganos2021 (geographical random forests) dipakai 2x untuk klaim background
+   design; jimenez2020 (fundamental niche) untuk klaim TSS/prevalence; kohavi1995 untuk spatial
+   clustering. -> diganti.
+7. Tabel 4 mencampur estimator DI DALAM kalimat yang mengoreksi pencampuran: kolom gap dihitung
+   terhadap best run 0.768, baris headline seed-average 0.751. -> gap dihitung ulang (+0.251/+0.170/
+   +0.105); §3.2 +0.122 -> +0.105; doc 10 A7 + komentar verify script disinkronkan; masuk surat
+   balasan sebagai pengungkapan mandiri no. 4.
+8. Repo publik memuat 02_LAPORAN_REVIEWER.md (keputusan editor + teks verbatim kedua reviewer) dan
+   dua dokumen review simulasi-AI beratas-nama Go Frendi, sementara naskah mengarahkan editor/reviewer
+   ke repo itu. -> git rm --cached + .gitignore (keputusan PI); tetap di disk sebagai catatan kerja.
+
+PERLU (5): deviasi sampling lattice E217-E224 diungkap di §2.6 (+ verifikasi ulang re-run ~150 m dari
+e218_stageD_decimation.csv: own 0.711->0.757, common 0.705->0.704); MaxEnt dinamai (elapid/maxnet,
+linear+hinge+product, beta=1.5, cloglog); bootstrap 30 replikat dinyatakan (surat balasan salah tulis
+"29"); "60/60" diberi ruang lingkup hybrid di depan kalimat; kode reviewer internal (R1-D/R2-C/R2-F)
+dibersihkan dari naskah.
+
+**Verifikasi akhir:** naskah 29 hal, 0 error, 0 sitasi tak terdefinisi, 0 overfull. G1 = 64 check,
+4 mismatch (persis K5/K6/K7/G1c yang memang ditarik). G8 bersih.
+
+**Status:** naskah + suplemen + surat balasan SIAP. Tersisa hanya push + upload (PI).
+
+**Usul untuk SUBMISSION_INTEGRITY_GATE.md — G11:** gerbang klaim NON-NUMERIK. Empat blocker hari ini
+lolos G1-G10 karena semuanya klaim non-angka (disclosure, lisensi, ketersediaan kode, janji suplemen).
+Gerbang berbasis-angka tidak menangkapnya.

@@ -11,22 +11,30 @@
 % authoritative claim set). DO NOT draft further from 08_HANDOFF_BABAK2.md §3 —
 % three of its five claims are withdrawn (K5/K6/K7).
 %
-% OPEN ITEMS BEFORE THIS CAN BE SUBMITTED (handoff §6 steps 2–6, then PI):
-%   [TITLE]   v0.2 title is candidate 3 ("evaluation incomparability" framing).
-%             Claim-set §4 + response-plan §3 vet candidates 1 & 3 as safe;
-%             candidate 3 used here. PI DECISION (item E) — confirm or swap to 1.
-%   [FIGURES] All four required figures now exist (built 2026-08-05 from raw
-%             per-run files by build_v02_figures.py): fig14 artefact two-panel,
-%             fig15 dose-response, fig16 robust/contingent map, fig17 seed
-%             stabilisation; fig10 study area redrawn with the canonical 13
-%             centres (INT-1) and fig3 restated as the ladder under examination.
-%             No \figtodo remains. \figtodo macro kept (unused) for safety.
-%   [CITES]   ENM citations resolved 2026-08-05: banks2006, franklin2009,
-%             howey2016, noviello2018, yaworsky2020 verified against publisher
-%             records and added to references.bib. No [NEEDS CITATION] remains.
-%   [SIG]     verify_headline_numbers.py must be re-run; re-run full SIG sign-off
-%             (step #6). v0.2 currently exists only as this draft, so G2/G8/G9
-%             are not yet runnable — they gate on exactly this prose.
+% STATUS 2026-08-10 — pre-submission review pass applied. Changes this pass:
+%   [LIT]     Six ENM references verified against Crossref and added: lobo2008,
+%             hijmans2012, barve2011, warren2011, radosavljevic2014,
+%             guillera2015. §1.3 rewritten to concede the prior art explicitly
+%             and state the delta — this answers R1's "not entirely novel"
+%             objection, which the previous draft left exposed.
+%   [CITE-FIX] georganos2021 removed from two prior-work sentences (it is about
+%             geographical random forests, not background design); jimenez2020
+%             removed from the TSS/prevalence claim (it is about the fundamental
+%             niche); kohavi1995 replaced by hijmans2012/roberts2017 for the
+%             spatial-clustering claim.
+%   [TAB4]    Null-model gaps recomputed against the E013 seed-average (0.751),
+%             not the best run (0.768). +0.122 -> +0.105 in Table 4 and §3.2.
+%   [SCOPE]   60/60 own-background inflation labelled hybrid-specific up front
+%             (§3.2, §4.1); E217-E224 lattice-sampling deviation disclosed
+%             (§2.6); MaxEnt named as elapid/maxnet with its settings (§2.2);
+%             bootstrap replicate count (30) and its limits disclosed (§3.2).
+%   [SUPP]    Tables S3-S6 now exist — build_supplement.py generates
+%             supplementary_tables_v0.2.pdf from raw result files.
+%   [AI]      AI Disclosure rewritten to match the record in the public repo
+%             the paper links to. The previous sentence denied AI involvement in
+%             research design; the archived pre-registrations contradict it.
+% REMAINING BEFORE UPLOAD: re-run verify_headline_numbers.py; strip the draft
+%   headers from RESPONSE_TO_REVIEWERS before it is uploaded; git push; PI.
 % ============================================================================
 
 \documentclass[12pt]{article}
@@ -83,7 +91,7 @@ Evidence from East Java and a Corrected Comparison Protocol}
 \noindent
 Presence--background (presence-only) archaeological predictive models are usually evaluated by cross-validation against the same background points used to fit them.
 We show that this can manufacture an apparent performance gain where none exists.
-We built a settlement suitability model for East Java (378 presences; XGBoost, RandomForest and a maxnet-equivalent Maximum Entropy model under fixed spatial-block cross-validation) and originally reported a monotone AUC ladder, which we attributed to increasingly realistic pseudo-absence (background) design.
+We built a settlement suitability model for East Java (378 presences; XGBoost, RandomForest and a Maximum Entropy model under fixed spatial-block cross-validation) and originally reported a monotone AUC ladder, which we attributed to increasingly realistic pseudo-absence (background) design.
 A benchmark requested by a reviewer refuted that attribution: held to a common evaluation background, redesigning the background contributes approximately nothing, whereas adding a single hydrological feature contributes \textbf{$+0.042$ AUC}.
 The reported gain is an artefact of evaluation --- each design was scored against the negatives it had selected for itself.
 Synthetic worlds of known ground truth show why: the selection criterion computed on a design's own background has \emph{no interior optimum}, and reported and true performance move in opposite directions on the real data.
@@ -112,7 +120,7 @@ The standard correction for survey-biased data is target-group background (TGB):
 A model improved in this way is judged by cross-validation against held-out points, and the held-out \emph{negatives} are drawn from the same background distribution the model was trained on.
 This is where the delicacy lies.
 If two background designs are each scored against their own background, the comparison is not identified: a design that makes its own background easier to separate from presences will look better, for a reason that has nothing to do with how well either model captures the phenomenon.
-Random train/test splits are known to overestimate transfer under spatial clustering \citep{kohavi1995}; spatially structured cross-validation is the recommended corrective \citep{roberts2017, valavi2019}.
+Random train/test splits overestimate transfer when observations are spatially clustered, because held-out points sit close to training points \citep{hijmans2012, roberts2017}; spatially structured cross-validation is the recommended corrective \citep{valavi2019}.
 But spatial blocking fixes where the folds are; it does not, by itself, fix \emph{which} background the held-out negatives come from.
 That second choice is the subject of this paper.
 
@@ -136,16 +144,22 @@ We state this restraint up front because the earlier version of this manuscript 
 
 \subsection{Contribution and relation to prior work}
 
-This is the first revise-and-resubmit the project has received, and the reviewer who asked us to benchmark against Maximum Entropy \citep[R1-D;][]{elith2006} asked for what turned out to be the decisive analysis.
+A reviewer of the previous version asked us to benchmark against Maximum Entropy \citep{elith2006}, and that request turned out to be the decisive analysis.
 The benchmark refuted our own central claim (\S3.2): the AUC ladder we attributed to background realism is an evaluation artefact.
 We have therefore not revised the paper's argument; we have replaced it.
 The same empirical material now supports a narrower and, we believe, more useful proposition: \emph{background designs in presence--background modelling cannot be compared unless the evaluation background is held fixed, and a selection criterion computed on a design's own background has no interior optimum.}
 
-Our contribution sits \emph{inside} the ENM literature rather than beside it.
-The target-group background correction is a known technique \citep{phillips2009}, and the concern that background choice drives reported performance is not new in ecology \citep{barbet2012, senay2013, georganos2021}.
-Recent machine-learning work in archaeology shows strong performance gains when spatial context and terrain logic are integrated, while flagging data-quality and validation constraints \citep{castiello2021, wang2023, comer2023}.
-The transfer of species-distribution modelling into archaeology is likewise established --- from eco-cultural niche modelling \citep{banks2006}, through MaxEnt-based prediction of archaeological site distributions \citep{yaworsky2020, howey2016, noviello2018}, to the standard methodological reference \citep{franklin2009}.
-What we add is not ``background design matters'' but a quantification of \emph{why} it appears to matter when it does not: the comparison becomes a tautology of the evaluation set, and the resulting inflation is of the same order as the gain typically reported.
+Our contribution sits \emph{inside} the ENM literature rather than beside it, and we state its boundary precisely, because a reviewer of the previous version observed --- correctly --- that this family of problems is well established in adjacent fields.
+
+It is established. \citet{lobo2008} showed that AUC is not comparable between models whose background differs, because the metric is computed over whatever availability domain the modeller supplied; \citet{barve2011} formalised that domain as the accessible area $M$ and showed that its delineation conditions both the fitted model and its evaluation; and \citet{hijmans2012} demonstrated that the spatial arrangement of background relative to presences inflates cross-validated AUC, proposing a null-model calibration for it.
+Model-selection criteria computed within a single background are likewise known to be unreliable guides to transferability \citep{warren2011, radosavljevic2014}, and discrimination metrics in general are known to answer a narrower question than applications ask of them \citep{guillera2015, lobo2010}.
+That the target-group correction is standard \citep{phillips2009} and that pseudo-absence choice moves reported performance \citep{barbet2012, senay2013} are both settled points.
+The transfer of species-distribution modelling into archaeology is equally established --- from eco-cultural niche modelling \citep{banks2006}, through MaxEnt-based prediction of archaeological site distributions \citep{yaworsky2020, howey2016, noviello2018}, to the standard methodological reference \citep{franklin2009} --- and recent machine-learning work in archaeology reports strong gains from integrating spatial context and terrain logic while flagging data-quality and validation constraints \citep{castiello2021, wang2023, comer2023}.
+
+Three things here are ours, and none of them is ``background design matters''.
+First, we execute on one dataset the comparison this literature implies but rarely runs end to end: the same designs, the same folds, scored both on their own background and on a common one, so the artefact is \emph{measured} rather than argued (\S\ref{sec:artefact}).
+Second, we characterise the criterion a modeller actually optimises --- AUC on the design's own background --- and show it has \emph{no interior optimum}, so it cannot tell them when to stop; we are not aware of a comparable dose-response measurement of reported against true performance along a background-design dial (\S\ref{sec:nooptimum}).
+Third, we give the effect a size in an archaeological setting: the inflation is of the same order as the gain that we, and others, report as a result --- which is why this is a substantive hazard and not only a metrological caveat.
 
 The honest shape of this revision is worth stating.
 A title can be softened to match weaker evidence, but when the evidence supports a different proposition, softening is not enough; the proposition has to be replaced.
@@ -207,9 +221,11 @@ After the benchmark reported in \S3, it is the paper's actual subject, because t
 
 We model binary presence/background suitability.
 The pseudo-absence (background) ratio is fixed at 1:5 throughout.
-Three learners are compared: XGBoost \citep{chen2016} (primary), RandomForest \citep{breiman2001}, and a maxnet-equivalent Maximum Entropy model \citep{elith2006, phillips2006} added in response to R1-D.
+Three learners are compared: XGBoost \citep{chen2016} (primary), RandomForest \citep{breiman2001}, and a Maximum Entropy model \citep{phillips2006, elith2006} added at a reviewer's request.
+The Maximum Entropy model is the \texttt{elapid} implementation of maxnet, with linear, hinge and product features, regularisation multiplier $\beta = 1.5$ and a cloglog transform; $\beta$ is swept from $0.5$ to $4.0$ in \S\ref{sec:artefact} to confirm the result is not an artefact of that setting.
 Validation uses 5-fold deterministic spatial block cross-validation at a baseline block size of 0.45\textdegree{} ($\sim$50~km).
-Primary metrics are AUC and the True Skill Statistic (TSS), the latter preferred to kappa for presence--background models as it is independent of prevalence \citep{allouche2006, jimenez2020}.
+Primary metrics are AUC and the True Skill Statistic (TSS), the latter preferred to kappa because it does not vary with prevalence in the way kappa does \citep{allouche2006}.
+Both are discrimination metrics computed against whatever background is supplied to them, which is precisely the property this paper is about \citep{lobo2008, guillera2015}.
 Our minimum viable result (MVR) criterion is spatial AUC $> 0.75$ under block cross-validation.
 
 \subsection{The experiment progression, as the object under examination}
@@ -270,7 +286,14 @@ We previously called this a ``temporal split''; we now call it an \emph{accessib
 
 The seven experiments that overturn the ladder were pre-registered (decision rules written before the runs) and are the paper's centrepiece.
 
-\paragraph{E217 -- common-background benchmark (answers R1-D).}
+One deviation from the published pipeline must be stated before the results, because it bears on how they should be read.
+E217--E224 draw background points from a decimated raster lattice ($\sim$300~m spacing) rather than by the continuous-coordinate rejection sampling used in E007--E013.
+This was a deliberate choice: it gives every background design a single shared sampling frame, which is a precondition for the common-background comparison, and it keeps a factorial benchmark tractable.
+The cost is that absolute AUCs in E217--E224 are not directly comparable to the published E007--E013 values.
+The quantities we interpret are therefore \emph{within-benchmark contrasts} --- design against design, and own-background against common-background, under identical folds --- and not the absolute levels.
+Because the decimation is ours and not the paper's, E218 re-ran the comparison at half that spacing ($\sim$150~m, 5 seeds): the ladder persists on own backgrounds (random $0.711 \rightarrow$ hybrid $0.757$) and stays flat on the common background (random $0.705 \rightarrow$ hybrid $0.704$), so the conclusion does not depend on the lattice.
+
+\paragraph{E217 -- common-background benchmark (answers the Maximum Entropy request).}
 MaxEnt, XGBoost and RandomForest are run under \emph{identical} spatial-block folds and \emph{identical} background designs as E007--E013, but each design is scored against a \emph{common} evaluation background shared across designs, so that the comparison is identified.
 A second feature set (\texttt{terrain} alone, 5 vars vs \texttt{terrain\_river}, 6 vars) lets us compare a feature effect against a background-design effect.
 
@@ -337,14 +360,14 @@ E013 & Hybrid bias-corrected  & 0.768 $\pm$ 0.069 & 0.742 $\pm$ 0.070 & 0.768 & 
 \toprule
 Model & AUC & Std & Gap vs E013 \\
 \midrule
-Random (chance)              & 0.500 & 0.000 & $+$0.268 \\
-Heuristic (river $<$ 2 km)   & 0.581 & 0.054 & $+$0.187 \\
-DKNS (spatial interpolation) & 0.646 & 0.032 & $+$0.122 \\
+Random (chance)              & 0.500 & 0.000 & $+$0.251 \\
+Heuristic (river $<$ 2 km)   & 0.581 & 0.054 & $+$0.170 \\
+DKNS (spatial interpolation) & 0.646 & 0.032 & $+$0.105 \\
 \textbf{E013 XGB (seed-avg)} & \textbf{0.751} & 0.013 & --- \\
 E013 XGB (best run)          & 0.768 & 0.069 & --- \\
 \bottomrule
 \end{tabular}
-\caption{Null-model comparison under spatial CV. The nulls are scored on a regular grid of all cells, while the E013 column is the model's own-background seed-average --- so the margins shown mix evaluation backgrounds, a defect corrected in \S\ref{sec:artefact}, where the consequence for this level comparison is stated. DKNS (distance to known nearest site) uses site locations as an unfair upper bound.}
+\caption{Null-model comparison under spatial CV. Gaps are computed against the E013 seed-average (0.751), not the best run, because a single run is not a reportable quantity (\S\ref{sec:prioritymaps}); the submitted version quoted these gaps against the best run (0.768), which overstated each by 0.017. The nulls are scored on a regular grid of all cells, while the E013 column is the model's own-background seed-average --- so the margins shown still mix evaluation backgrounds, a defect corrected in \S\ref{sec:artefact}, where the consequence for this level comparison is stated. DKNS (distance to known nearest site) uses site locations as an unfair upper bound.}
 \label{tab:nullmodel}
 \end{table}
 
@@ -357,16 +380,17 @@ The hybrid design beats the random design in 3/3 algorithms when each is scored 
 The advantage evaporates the moment it is judged anywhere but at home.
 
 How large is judging at home?
-The inflation from own-background evaluation is positive in \textbf{60/60} seed$\times$algorithm cells (mean $+0.037$, range $+0.005 \ldots +0.084$) --- the same order of magnitude as the entire reported E007$\rightarrow$E013 gain.
-This home-court inflation is specific to the hybrid design: the TGB design scored \emph{higher} on the uniform background than on its own (mean $-0.0054$, 22/60 cells positive).
+For the hybrid design --- the top rung of the ladder --- the inflation from own-background evaluation is positive in \textbf{60/60} seed$\times$algorithm cells (mean $+0.037$, range $+0.005 \ldots +0.084$), the same order of magnitude as the entire reported E007$\rightarrow$E013 gain.
+This home-court inflation is specific to that design, and we state the scope rather than let it read as general: the TGB design scored \emph{higher} on the uniform background than on its own (mean $-0.0054$, 22/60 cells positive).
 The TGB rungs of the ladder (E010--E012) are therefore invalidated not by home-court inflation but by the common-background comparison itself, which contributed approximately zero once identified.
 Aggregated over the synthetic worlds, a model scored on its own background is reported higher than its truth in \textbf{343/360 runs (95.3\%; median $+0.187$, minimum $-0.031$)} (Figure~\ref{fig:artefact}).
-We reject the published ladder gain ($+0.092$) directly: equivalence confidence intervals exclude it in \textbf{12/12} algorithm$\times$evaluation-background cells, and a spatially blocked bootstrap rejects it for all three algorithms (CI upper bounds $+0.008$, $+0.025$, $+0.026$).
+We reject the published ladder gain ($+0.092$) directly: equivalence confidence intervals exclude it in \textbf{12/12} algorithm$\times$evaluation-background cells, and a bootstrap that resamples presence \emph{blocks} rather than points (30 replicates, fitted in-bag and scored out-of-bag) rejects it for all three algorithms, with CI upper bounds of $+0.008$, $+0.025$ and $+0.026$. Thirty replicates is a small bootstrap; we report it because the rejection margin is wide relative to the resampling noise, not because the interval endpoints are precisely estimated.
 Changing the MaxEnt regularisation $\beta$ across $0.5$--$4.0$ changes nothing ($-0.020$ to $-0.022$, 1/10 runs positive), so the artefact is not an overfit of an unregularised model.
 
 One consequence for the level claim reported in Table~\ref{tab:nullmodel} must be stated plainly.
-That table scored the E013 model on its own (hybrid) background but scored the null models on a regular grid of all cells; given the inflation above, the reported $+0.122$ margin over the DKNS null mixed the two backgrounds.
-Held to a common (uniform) background --- the sampling on which the nulls were scored --- the E013 design family reaches $0.706$ (XGBoost, the primary learner; E218), which still exceeds the spatial-interpolation null ($0.646$), but the margin shrinks from $+0.122$ to roughly $+0.06$, and the reported worst-seed margin ($+0.083$) moves toward the $+0.03$ detection floor of \S\ref{sec:ci}.
+That table scored the E013 model on its own (hybrid) background but scored the null models on a regular grid of all cells; given the inflation above, the $+0.105$ seed-average margin over the DKNS null mixed the two backgrounds.
+Held to a common (uniform) background --- the sampling on which the nulls were scored --- the E013 design family reaches $0.706$ (XGBoost, the primary learner, seed-mean; E218), which still exceeds the spatial-interpolation null ($0.646$), but the margin shrinks from $+0.105$ to roughly $+0.06$, and the reported worst-seed margin ($+0.083$) moves toward the $+0.03$ detection floor of \S\ref{sec:ci}.
+The two figures are not measured under identical sampling --- $0.751$ comes from the published pipeline and $0.706$ from the lattice-based benchmark (\S\ref{sec:refutation}) --- so the shrinkage should be read as an order of magnitude, not a difference of differences.
 The qualitative level claim --- that the environmental features capture structure beyond nearest-site interpolation --- survives the correction; its size does not.
 We therefore treat Table~\ref{tab:nullmodel} as an upper bound on the model's advantage over the nulls, not a robust floor.
 
@@ -464,7 +488,7 @@ A five-seed re-run on the same 7-volcano inventory gives \textbf{$-0.243$}.
 This is the seed instability of \S\ref{sec:prioritymaps} appearing \emph{inside} the manuscript's own tautology diagnostic, and it is direct internal evidence that the seed-ensemble protocol is needed, not optional.
 The corrected values reported here are seed-ensembled; the E007--E013 ladder in Table~\ref{tab:progression} is the original published pipeline, reproduced as the object under examination.
 
-\textbf{The terrain-matched control.} A reviewer asked whether low suitability near volcanoes reflects burial or merely rugged terrain (R2-F).
+\textbf{The terrain-matched control.} A reviewer asked whether low suitability near volcanoes reflects burial or merely rugged terrain.
 We coarsened-exact-matched raster cells on elevation $\times$ slope $\times$ TRI $\times$ TWI (90 strata; E219 part C), comparing volcanic uplands with East Java's non-volcanic uplands (Southern Mountains karst, Kendeng limestone).
 Matched mean suitability is $0.2249$ (volcanic) vs $0.1702$ (non-volcanic) and site density is $0.01377$ vs $0.00048$ sites/km$^2$ --- directionally consistent with a volcanic-specific effect, but with $n=2$ in the non-volcanic arm it is consistency, not validation.
 
@@ -482,9 +506,10 @@ We also report, without softening, a quota background design we tested in its ho
 \subsection{The lesson: hold the evaluation background fixed}
 
 The central methodological finding is that a background-design comparison is not identified unless the evaluation background is held fixed across the designs being compared, and that the artefact this produces is large enough to masquerade as a result.
-We are not the first to worry that background choice drives reported performance \citep{phillips2009, georganos2021}; what we contribute is the mechanism (a selection criterion with no interior optimum, \S\ref{sec:nooptimum}) and a direct quantification of the inflation it produces (95.3\% of synthetic runs; 60/60 real seed$\times$algorithm cells).
+We are not the first to observe that background choice drives reported performance \citep{phillips2009, lobo2008, hijmans2012}; what we contribute is the mechanism (a selection criterion with no interior optimum, \S\ref{sec:nooptimum}) and a direct quantification of the inflation it produces (95.3\% of synthetic runs; for the hybrid design, 60/60 real seed$\times$algorithm cells).
 The practical recommendation follows directly: \emph{report background designs on a common evaluation background, and state the evaluation availability domain of every metric}.
-A metric without a declared availability domain is the lesson of this line of work, learned about our own model.
+This is the accessible-area requirement of \citet{barve2011} applied to evaluation rather than to fitting: the domain over which a metric is computed is part of the metric, and a number reported without it cannot be compared with another.
+That is the lesson of this line of work, and we learned it about our own model.
 
 \subsection{The archaeological content is in the background}
 
@@ -527,7 +552,7 @@ We summarise the protocol that follows from the above, which is the constructive
   \item \textbf{A detection floor of $\sim +0.03$} at $n=378$: smaller effects are indeterminate, not absent (\S\ref{sec:ci}).
   \item \textbf{The Boyce index is a direction check, not a selector.} Its optimum is uncalibrated to truth (median $+0.50/+0.54$, borderline); we use it only to confirm direction, and we have aligned the audit flag with this narrative so the two do not contradict.
   \item \textbf{$n=2$ in the non-volcanic arm} of the terrain-matched control: the density ratios are consistency, not validation (\S\ref{sec:diagnostics}).
-  \item \textbf{The two-stage ``suitable but absent'' decomposition} (R2-C) is declared future work: it tests \emph{why} sites are absent, which requires the site-prediction claim we have withdrawn, and burial-depth data at survey resolution are not yet available.
+  \item \textbf{The two-stage ``suitable but absent'' decomposition} is declared future work: it tests \emph{why} sites are absent, which requires the site-prediction claim we have withdrawn, and burial-depth data at survey resolution are not yet available.
   \item \textbf{External transfer beyond East Java is untested.}
 \end{enumerate}
 
@@ -548,11 +573,15 @@ We have applied it to our own work, including to the internal revision drafts th
 \section*{Supplementary Materials}
 % ============================================================================
 
+Supplied as a single document, \texttt{supplementary\_tables\_v0.2.pdf}. Every table in it is generated directly from the raw result files by \texttt{build\_supplement.py} (included in the code repository); no value is retyped.
+
 \begin{itemize}
-  \item \textbf{Table S1:} Seed stability --- XGBoost and RandomForest AUC across 20 alternate seeds for E013.
-  \item \textbf{Table S2:} Block-size sensitivity --- spatial CV at $\sim$40, $\sim$50, $\sim$60 km.
-  \item \textbf{Tables S3--S5:} E217 common-background benchmark; E218 own- vs common-background matrix; E222 synthetic-world reported-vs-true tables.
-  \item \textbf{Table S6:} Per-experiment covariate inclusion, E217--E224 (extends Table 2).
+  \item \textbf{Table S1:} Seed stability --- XGBoost and RandomForest AUC and TSS across the 20 alternate seeds for E013.
+  \item \textbf{Table S2:} Block-size sensitivity --- spatial CV at $\sim$40, $\sim$50 and $\sim$60 km, with 95\% intervals.
+  \item \textbf{Table S3:} E217 common-background benchmark --- every design $\times$ feature set $\times$ algorithm, scored on its own background and on a common background.
+  \item \textbf{Table S4:} E218 own- versus common-background matrix --- three training designs against four evaluation backgrounds.
+  \item \textbf{Table S5:} E222 synthetic worlds --- reported against true AUC by background configuration and algorithm.
+  \item \textbf{Table S6:} Per-experiment design matrix for E217--E224 (extends Table~\ref{tab:inclusion}), including which experiments used \texttt{road\_dist} as a feature.
 \end{itemize}
 
 % ============================================================================
@@ -584,9 +613,12 @@ Both authors approved the withdrawal of the central claim reported in this revis
 
 \subsection*{AI Disclosure}
 
-AI-assisted tools (Claude, Anthropic) were used during manuscript preparation for code development, data-analysis scripting, and figure generation.
-The AI tools did not contribute to research design, hypothesis formulation, or scientific interpretation.
-All results were independently verified by the authors, and every headline number in this revision was re-derived from the raw per-run outputs before submission, or from the stored experiment results where no per-run file exists.
+This research used an AI-augmented workflow (Claude, Anthropic) throughout, and we describe its extent rather than minimise it, because a paper about not claiming more than the evidence supports should not begin by understating its own method.
+The AI assistant was used for literature synthesis, statistical and geospatial scripting, figure generation, drafting and editing of this manuscript, and --- materially --- for drafting the pre-registered designs of the refutation experiments reported in \S\ref{sec:refutation}, which are archived with authorship recorded in the repository cited under Data Availability.
+It was also used as an adversarial reader: one review pass was run with the assistant instructed to refute the manuscript's claims from the raw output files.
+The research questions, the decision to withdraw the central claim, the domain interpretation, and every final scholarly judgement are the authors'.
+The revision's disclosures arose from the same workflow rather than despite it: the corrections listed in the Response to Reviewers were found by a mechanical, blind re-derivation of every headline number from the raw per-run outputs, run as a pre-submission gate (script cited under Data Availability), or from the stored experiment results where no per-run file exists.
+All results, code and text were reviewed and verified by the authors, who take full responsibility for the content.
 
 \bibliography{references}
 
