@@ -9336,3 +9336,40 @@ bukan sekadar biaya yang membesar; (c) blok 10 Agt di lines/01_spatial/STATE.md 
 "Tersisa hanya git push + upload portal" -- ditandai sebagai catatan sejarah, bukan instruksi.
 Pelajaran kecil: setelah status berubah besar, blok lama di file yang sama menjadi instruksi palsu.
 Grep untuk frasa keadaan lama, jangan hanya menambah blok baru di atas.
+
+
+**2026-08-11 (sesi orbit-kritik).** PI minta review menyeluruh sebagai research/system designer plus mandat otonom (RTX 4080, DeepSeek, satelit). Saya kirim kritik struktural, bukan eksplorasi baru. Tiga risiko utama: R1 north-star manifesto basi (v4.3 / 179 ekspt, tak match realitas 224 ekspt + self-refute P2); R2 arsitektur konfirmasi (~0 disconfirm + shared-substrate artefak P7 yang menular lintas eksperimen "independen"); R3 loop manusia-AI = mesin penghindar eksposur = binding constraint (ME#19). Disertai taxonomy kegagalan (F-EXP/F-RIGOR/F-SCOPE/F-PREC/F-DRIFT/F-CONFIRM/F-CMPLX/F-SUBST), enam regression test (T1 exposure ratio block, T2 disconfirm ratio >= 1/10, T3 re-derivation blind, T4 substrate-independence, T5 complexity budget, T6 north-star freshness), rubrik seleksi kritik (validitas x sentralitas x arah; aturan satu-baris: kritik yang mengecilkan+terfalsifikasi = akomodasi, yang membesarkan+sulit-disalahkan = tolak), dan reframing "sisi gelap AI" menjadi NLP-mining literatur abu-abu Indonesia (Balai Arkeologi/BPCB/PUSLIT) untuk SATU ground-truth positif di cell Zona B/C prediksi P2 -- ofensif, bukan defensif absensi. PI pilih jalur "bersihkan exposure ledger dulu" (honor stop-list ME#19). Re-derivation P17 dijalankan (papers/P17_two_javas/revision_ammo/verify_p17_numbers.py): 6 angka cocok blind (candi 14.5, prasasti 27.6, gap 13.1, U=8125 p=1.53e-07, court OR 2.70 p=0, n=174), catatan koreksi ArchCalc siap-kirim. Track PhD correspondence (Verberne, Lamqaddam, Edinburgh, Vossen) DIPARKIR PI 2026-08-11; draft tetap di disk untuk revival. Ledger 5 -> 3 item aktif (P17, Zenodo D1+D2, P7 notice), ketiganya sudah re-derived. WORKSTATE s1 dan lines/07_career/STATE.md diperbarui.
+
+
+**Manifesto v5.0 ditulis (docs/drafts/manifesto.md).** Arsitektur dua-lapis anti-expired: s1 Piagam + s2 Arah permanen, s3 State sengaja kedaluwarsa + pointer ke EXPERIMENT_INDEX. Cascade dipensiunkan dari headline (underdetermined, tanpa angka), 6 lapisan -> 2 mekanisme (destruction + recording bias), L6 periodisitas diturunkan jadi temuan bukan lapisan. Eksperimen alami Jawa Barat dinaikkan jadi tulang punggung (decisive test), bukan terkubur di paragraf 47. s2 menjawab pertanyaan arah "ke mana lanjut": (1) eksperimen alami Jawa Barat -> paper mandiri [stop-list-gated], (2) predict-then-detect kanal termurah-dulu (NLP literatur abu-abu > GPR > soil core), (3) program falsifikasi tetap satu-per-kuartal, (4) sintesis line 06 lambat. Implikasi kapabilitas: agen paling berharga = manusia ahli domain skeptis, bukan AI lebih kuat. v4.3 diarsipkan utuh ke docs/archive/manifesto_v4.3_20260331.md.
+
+
+**2026-08-11 (tutup sesi — koreksi ledger).** Jawaban PI mengunci realitas: **P17 correction note
+TERKIRIM** ke editor ArchCalc via portal (queryId 162, terverifikasi landed) — item 1 ledger tuntas,
+saat P17 masih di-review (jendela murah yang memang jadi alasan prioritasnya). **P7 preprint notice
+DIPARKIR** (Authorea/Wiley bekukan self-service edit preprint yang sudah ada — dikonfirmasi 2026-08-11;
+PI pilih biarkan preprint apa adanya). Track PhD (item 2+5) tetap parkir. **Ledger eksposur kini:
+1 aktif (item 3 Zenodo D1+D2) + 4 parkir/tuntas.** Upload Zenodo adalah proses terakhir sebelum
+restart komputer — statusnya di portal menunggu konfirmasi PI (login ORCID), belum ada DOI tercatat.
+Draft email Authorea disimpan untuk revival bila preprint dikutip:
+`docs/correspondence/EMAIL_AUTHOREA_SUPPORT_P7_CORRECTION_DRAFT_20260811.md`. Semua dokumen
+selaras; sapuan konsistensi kedua hari ini.
+
+
+**2026-08-11 (🚀 LEDGER EKSPOSUR KOSONG — 5/5).** D1 + D2 **DITERBITKAN di Zenodo** via Playwright
+(sesi portal, bukan repo). **DOI riil:**
+- **D1 — CARJ** (Colonial Archaeological Register of Java, 52 situs, v1.0): `10.5281/zenodo.21882007`
+  (concept all-versions `10.5281/zenodo.21882006`)
+- **D2 — Mini-NusaRC** (80 situs, v3): `10.5281/zenodo.21882247` (concept `10.5281/zenodo.21882246`)
+
+Proses: restart komputer memotong upload D1 di tengah (file sudah naik, metadata kosong). Sesi recovery
+mengisi metadata via Playwright (DOI = "No, I need one", resource type Dataset, penulis Amien+ORCID,
+deskripsi dari README, lisensi CC BY 4.0, 8 keyword, version, language English). Dua pelajaran teknis
+dari D1: (a) radio DOI Semantic UI tidak ter-commit lewat klik label sembarang — harus klik elemen
+`<label>` asli; (b) verifikasi ground truth lewat `GET /api/records/<id>/draft` (cek `pids` kosong =
+benar "No, I need one") sebelum publish, karena render DOM radio bisa menipu.
+
+**Dampak: ledger eksposur WORKSTATE §1 KOSONG — kelima item tuntas/parkir.** Status "0 output
+eksternal" (ME#19 forcing function, sejak 2026-06-10) **berakhir**: proyek kini punya 2 dataset terbuka
+tersitasi + P2 dikirim + koreksi P17 terkirim. Stop-list ME#19 untuk karya baru = keputusan PI sesi
+berikutnya.

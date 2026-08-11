@@ -1,6 +1,8 @@
 # Draft — correction note to the ArchCalc editor, submission 365 (P17 *Two Javas*)
 
-**Status: DRAFT, NOT SENT. PI action.** Written 2026-08-03 by Claude Code.
+**Status: ✅ SENT 2026-08-11 by PI via the ArchCalc portal's discussion channel (queryId 162, verified
+landed).** Draft written 2026-08-03 by Claude Code; sent by PI 2026-08-11. Kept as the record of what
+went out.
 **Evidence:** `papers/P17_two_javas/revision_ammo/WSE_CANONICAL_INVENTORY_20260803.md`
 (reproduce with `verify_p17_numbers.py`).
 
@@ -17,8 +19,9 @@ inventory, they find numbers that do not match ours and a methods sentence that 
 that is the P7/*Antiquity* scenario, and P7 was rejected for precisely this. If nobody checks and the
 paper is accepted, the correction becomes an erratum on a published article.
 
-**Do not send until:** (a) Pak Amien has read the WS-E report, and (b) the corrected numbers have been
-re-derived once more from the script. Both take under an hour.
+**Sent 2026-08-11** after (a) Pak Amien read the WS-E report and (b) `verify_p17_numbers.py` re-derived
+the corrected numbers blind — 6/6 matched (candi 14.5, prasasti 27.6, gap 13.1, U=8125 p=1.53e-07,
+court OR 2.70, n=174).
 
 ## Sending notes
 

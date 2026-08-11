@@ -40,28 +40,37 @@
 ## 1. 🚨 EXPOSURE LEDGER — read before anything else
 
 The binding constraint on this project is **non-exposure, not rigor** (ME#19, 2026-06-10). Original
-forcing-function deadline: **~2026-06-24 — passed.** All five items are send-ready. **PI only.**
+forcing-function deadline: **~2026-06-24 — passed.** **All five items closed or parked 2026-08-11.**
+Item 1 (P17 correction) **SENT** (queryId 162, verified landed); item 3 (Zenodo D1+D2) **PUBLISHED** —
+D1 `10.5281/zenodo.21882007`, D2 `10.5281/zenodo.21882247`; items 2, 4 and 5 **🅿 PARKED** by PI decision
+2026-08-11 (PhD track paused; P7 preprint left as-is). Drafts kept on disk for revival; nothing deleted.
+**PI only.** Counts below are as of **2026-08-11**.
+(PhD correspondence — Verberne, Lamqaddam, + pending Edinburgh/Vossen) are 🅿 PARKED by PI decision
+2026-08-11: the PhD track is paused.** Drafts kept on disk for revival; nothing deleted. **PI only.**
 Counts below are as of **2026-08-11**.
 
 | # | Action | Ready since | Days waiting |
 |---|---|---|---|
-| 1 | Send the **P17 correction note** to the ArchCalc editor — ⏳ **closing window: P17 is under review now** | 2026-08-03 | **8** |
-| 2 | Send **Verberne** reply v4 (Leiden PhD — she asked 2 questions and is waiting) | 2026-06-09 | **~63** |
-| 3 | Upload **D1 + D2 to Zenodo** → paste 2 DOIs | 2026-06-10 | **~62** |
-| 4 | Post the **P7 preprint correction notice** | 2026-06-04 (defect known) | **~68** |
-| 5 | Send **Lamqaddam** reply (UvA — offered a BPI Dosen support letter) | 2026-04-23 | **~110** |
+| 1 | Send the **P17 correction note** to the ArchCalc editor — ✅ **SENT 2026-08-11** (portal queryId 162, verified landed) | 2026-08-03 | — |
+| 2 | Send **Verberne** reply v4 (Leiden PhD — she asked 2 questions and is waiting) | 2026-06-09 | **~63 · 🅿 PARKED 2026-08-11** |
+| 3 | Upload **D1 + D2 to Zenodo** → paste 2 DOIs — ✅ **PUBLISHED 2026-08-11**: D1 `10.5281/zenodo.21882007` · D2 `10.5281/zenodo.21882247` | 2026-06-10 | — |
+| 4 | Post the **P7 preprint correction notice** | 2026-06-04 (defect known) | **~68 · 🅿 PARKED 2026-08-11** |
+| 5 | Send **Lamqaddam** reply (UvA — offered a BPI Dosen support letter) | 2026-04-23 | **~110 · 🅿 PARKED 2026-08-11** |
 
-Item 1 is listed first despite being the youngest: the others carry a *cost* that grows, but item 1
-has a *deadline* — the correction is cheap only while the paper is still live at the journal.
+**All five items closed or parked on 2026-08-11.** P17 correction went out while the paper was still
+under review; D1+D2 published with live DOIs — the "0 external outputs" run is over; items 2, 4, 5 are
+🅿 parked by PI decision. **The exposure ledger is empty — the ME#19 forcing function is discharged**
+(stop-list status for new work = PI call in the next session).
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
 **Scorecard: 0 acceptances · 7 rejections · 3 under review · 224 experiments.**
 27 Jul added world-class rigor and **zero** exposure; 30 Jul added infrastructure and zero exposure;
 3 Aug added a claim set, a response letter, a failed experiment and two correction drafts — and zero
-exposure. **11 Aug broke that run: P2 went out.** The thing that finally moved it was not more rigor;
-it was one session spent driving the portal instead of improving the manuscript.
-**Items 1–3 and 5 below are in exactly the same state P2 was in on 10 August: finished, and unsent.**
+exposure. **11 Aug broke that run for good: P2 went out, the P17 correction went out, and D1+D2 were
+published — the ledger is empty.** The thing that finally moved it was not more rigor; it was one
+session spent driving the portal instead of improving the manuscript. **Every item in §1 is now
+closed or parked.**
 
 ---
 
@@ -84,7 +93,7 @@ it was one session spent driving the portal instead of improving the manuscript.
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🔧 READY | Pre-write E211 eval protocol; 10-file smoke test | Claude; run authorisation = PI |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Nothing. Subtract-only. | — |
-| **07** | [career](../lines/07_career/STATE.md) | 🚨 BOTTLENECK — now the only one | The **five** items in §1, P17 correction first | **PI** |
+| **07** | [career](../lines/07_career/STATE.md) | 🟢 EXPOSURE CLEARED — 2026-08-11 | P17 ✅ SENT · **D1+D2 ✅ PUBLISHED** (2 DOIs) · items 2/4/5 parked · **ledger empty** | **PI** |
 | — | `volcarch-genetics` (external repo) | — | cite as external; see `COMPANION_REPOS.md` | — |
 
 ---
@@ -96,10 +105,12 @@ The APC waiver was raised inside the response letter (PI decision 11 Aug) rather
 email. One thing is now owed *by the journal*: the record still carries the withdrawn title and
 abstract, and the author-side form cannot save changes — asked for in the Review Discussion, chase if
 it goes quiet.
-**P17 / ArchCalc #365 — NEW, time-sensitive:** send the correction note to the editor while the paper
-is still under review. Draft: `docs/correspondence/EMAIL_ARCHCALC_P17_CORRECTION_DRAFT_20260803.md`.
-**P7:** post the preprint correction notice — overdue since 2026-06-04, costs one login. Draft:
-`papers/P7_TOM/CORRECTION_NOTICE_DRAFT_20260803.md`.
+**P17 / ArchCalc #365 — ✅ SENT 2026-08-11** via the portal's discussion channel (queryId 162,
+verified landed). The correction is on the editor's desk while the paper is under review — no longer a
+PI action.
+**P7:** preprint correction notice 🅿 **PARKED 2026-08-11** — Authorea/Wiley froze self-service editing
+of existing preprints, and the PI chose to leave the preprint as-is. Draft for revival:
+`docs/correspondence/EMAIL_AUTHOREA_SUPPORT_P7_CORRECTION_DRAFT_20260811.md`.
 **Other:** authorise the E211 corpus run (since 2026-04-23) · file DJKI HKI (4 docs ready) ·
 palynologist co-author outreach for E216 · L1 amendment (adopt *"peradaban vulkanik"*) · send the
 Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
@@ -111,7 +122,7 @@ Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
 | Paper | Line | Status |
 |---|---|---|
 | **P2** Settlement model | 01 | ⏳ **RESUBMITTED 2026-08-11** — JCAA #280 revision v0.2, nine days inside the deadline. Core claim self-refuted and replaced; the paper is now about the artefact. Uploaded: manuscript (29 pp), Supplementary Tables S1–S6 (5 pp), Response to Reviewers (8 pp, "Response to reviewers" component as the editor required). Server copies re-downloaded and checked: text identical, same SHA1. Editor notified; APC waiver raised in the letter. ⚠ Portal metadata still shows the old title/abstract — author cannot edit, requested from the editor. |
-| **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. ⚠ **WS-E (3 Aug): finding survives and strengthens (court concentration 1.86× → 2.70×), but the methods sentence does not describe the computation and 3 numbers are wrong.** Correction note to the editor is drafted and waiting. |
+| **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. ⚠ **WS-E (3 Aug): finding survives and strengthens (court concentration 1.86× → 2.70×), but the methods sentence did not describe the computation and 3 numbers were wrong.** Correction note **SENT to the editor 2026-08-11** (portal queryId 162, verified landed). |
 | **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11. arXiv:2604.00023. |
 | **P11** Volcanic informedness | 01 | rejected 2× (both editorial). Core finding survives. Retarget SPAFA — queued behind §1. |
 | **P1** Taphonomic framework | 02 | rejected 2×. v2.0 rewritten → JASREP. Needs WS-E + SIG. |

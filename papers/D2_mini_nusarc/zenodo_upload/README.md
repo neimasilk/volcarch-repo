@@ -39,7 +39,7 @@ A georeferenced compilation of 80 dated archaeological sites from eight geograph
 
 ## Citation
 
-Amien, M. (2026). Mini-NusaRC: A Georeferenced Archaeological Site Database for Island Southeast Asia and Madagascar (1,200-1,600,000 BP) (Version 3) [Data set]. Zenodo. DOI to be assigned on publication.
+Amien, M. (2026). Mini-NusaRC: A Georeferenced Archaeological Site Database for Island Southeast Asia and Madagascar (1,200-1,600,000 BP) (Version 3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21882247
 
 A data paper describing this dataset is in preparation.
 

@@ -44,7 +44,7 @@ A georeferenced database of 52 archaeological site observations extracted from D
 
 ## Citation
 
-Amien, M. (2026). The Colonial Archaeological Register of Java: A Digitized Database of Site Observations from Dutch *Oudheidkundig Verslag* Reports (1912-1929) (Version 1.0) [Data set]. Zenodo. DOI to be assigned on publication.
+Amien, M. (2026). The Colonial Archaeological Register of Java: A Digitized Database of Site Observations from Dutch *Oudheidkundig Verslag* Reports (1912-1929) (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21882007
 
 A data paper describing this dataset is in preparation.
 
