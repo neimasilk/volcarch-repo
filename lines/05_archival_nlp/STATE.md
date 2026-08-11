@@ -32,8 +32,9 @@ is on disk, and no external human is required.
       is the reason this comes first, not after.
 - [ ] Dry-run VOC-ArchNLP end-to-end on a **10-file sample** to prove the four modules chain cleanly
       and to size the full run. A smoke test is not the corpus run and does not need approval.
-- [ ] Prepare D1's Zenodo fallback package, so a JOAD waiver refusal does not block the DOI (see
-      `docs/ZENODO_UPLOAD_GUIDE_20260610.md`).
+- [x] ~~Prepare D1's Zenodo fallback package~~ — **MOOT 2026-08-11**: D1 published directly on Zenodo
+      (`10.5281/zenodo.21882007`), DOI already live, no JOAD dependency. The separate JOAD
+      submission question (waiver fund) is a career-line decision, not a blocking prerequisite.
 - [ ] Check whether the SCC/GDPR question actually blocks anything in the planned E211 output. If the
       output is entities + counts only, it does not — write that down so it stops being a vague
       worry.

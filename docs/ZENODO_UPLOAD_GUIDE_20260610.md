@@ -4,6 +4,10 @@
 
 **Waktu:** ~15 menit per dataset. Butuh akun Zenodo (login bisa via ORCID).
 
+> **STATUS: ✅ EXECUTED 2026-08-11.** D1 (CARJ) published → `10.5281/zenodo.21882007`; D2
+> (Mini-NusaRC) → `10.5281/zenodo.21882247`. Keduanya via sesi portal (login ORCID). Panduan ini
+> disimpan sebagai rekam jejak / resep untuk deposit berikutnya.
+
 ---
 
 ## Persiapan (sekali saja)

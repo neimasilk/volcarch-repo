@@ -144,14 +144,16 @@ withdrawn.
 
 ## Other papers in this line
 
-- **P17** (ArchCalc 365) — under review. No action. Do not touch the manuscript; it is live and
-  double-blind.
-- **P11** — retarget to SPAFA is **queued behind the [07_career](../07_career/) exposure actions** by
-  PI decision. Do not start it as an alternative to P2 work.
-- **D2** — Zenodo upload is a [07_career](../07_career/) item.
+- **P17** (ArchCalc 365) — under review. Correction note **SENT to the editor 2026-08-11** (queryId
+  162, verified landed). Do not touch the manuscript; it is live and double-blind.
+- **P11** — retarget to SPAFA: previously queued behind the [07_career](../07_career/) exposure
+  ledger — **now unblocked (ledger empty, 2026-08-11)**. Still do not start it as an alternative to
+  P2 work; it needs SIG + the 4-number abstract swap.
+- **D1/D2** — both **published on Zenodo 2026-08-11**: D1 (CARJ) `10.5281/zenodo.21882007`, D2
+  (Mini-NusaRC) `10.5281/zenodo.21882247`. No longer career-line items.
 
 ## Inbox (found while working, not yet triaged)
 
-- `docs/experiment_index.json` covers only **84 of 214** experiment directories, so the
-  experiment→paper mapping is stale. Re-run `tools/scan_experiments.py` and add a `line` field.
-  Cheap, and it is what makes this whole layer self-maintaining.
+- ✅ **RESOLVED 2026-08-11:** `tools/scan_experiments.py` re-run — **214/214 local experiments mapped
+  to a line** (this inbox note had flagged it as 84/214 stale). Index regenerated:
+  `docs/EXPERIMENT_INDEX.md`.

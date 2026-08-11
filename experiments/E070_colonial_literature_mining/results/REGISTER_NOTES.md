@@ -27,10 +27,15 @@ All entries are extracted from *Oudheidkundig Verslag* (OV) reports, the annual 
 
 ## Key Findings
 
-### Burial Depth Statistics (n=32 with measurements)
-- Range: 0.60 — 9.14 m
-- Mean: 2.88 m
-- Median: 2.00 m
+### Burial Depth Statistics
+- Entries recording a depth value: 34 of 52 (29 measured + 5 estimated); 32 are positive, 2 are surface finds recorded as 0 m
+- Positive burial depths (n=32): range 0.60 — 9.14 m, mean 2.88 m, **median 1.75 m**
+- Measured subset only (n=27): median 2.00 m
+
+> Correction (2026-08-11): median was previously reported as 2.00 m, which holds only for the
+> measured-only subset (n=27). Recomputed blind against the register, the median over all positive
+> depths (n=32) is 1.75 m. Backported from the Zenodo verification; the published dataset
+> (`10.5281/zenodo.21882007`) carries the corrected statistics.
 
 ### Notable Depth Records
 | Site | Depth (m) | Volcanic system | OV |

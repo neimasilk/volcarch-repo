@@ -74,14 +74,14 @@ FEAT_LABELS = {
 }
 
 # ── Volcanoes (EPSG:4326) ────────────────────────────────────────────────
+# Canonical 30-centre inventory (volcanoes_java_full.csv). The old hardcoded
+# 7-entry dict (Kelud..Ijen) was the P7 defect: eastern East Java only, omitting
+# Lawu, Wilis and all of Central Java. NOTE: VOLCANOES feeds the distance
+# features, so re-running this script re-derives the model on the full inventory
+# — a deliberate regeneration, not a refresh.
 VOLCANOES = {
-    "Kelud":           {"lat": -7.9300, "lon": 112.3080, "gvp_id": 263280},
-    "Semeru":          {"lat": -8.1080, "lon": 112.9220, "gvp_id": 263300},
-    "Arjuno-Welirang": {"lat": -7.7290, "lon": 112.5750, "gvp_id": 263260},
-    "Bromo":           {"lat": -7.9420, "lon": 112.9500, "gvp_id": 263310},
-    "Lamongan":        {"lat": -7.9770, "lon": 113.3430, "gvp_id": 263320},
-    "Raung":           {"lat": -8.1250, "lon": 114.0420, "gvp_id": 263340},
-    "Ijen":            {"lat": -8.0580, "lon": 114.2420, "gvp_id": 263350},
+    row["name"]: {"lat": row["lat"], "lon": row["lon"]}
+    for _, row in pd.read_csv(OUT_DIR / "volcanoes_java_full.csv").iterrows()
 }
 
 # ── Pyle (1989) exponential thinning parameters ─────────────────────────

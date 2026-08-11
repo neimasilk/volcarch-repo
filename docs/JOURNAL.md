@@ -9373,3 +9373,20 @@ benar "No, I need one") sebelum publish, karena render DOM radio bisa menipu.
 eksternal" (ME#19 forcing function, sejak 2026-06-10) **berakhir**: proyek kini punya 2 dataset terbuka
 tersitasi + P2 dikirim + koreksi P17 terkirim. Stop-list ME#19 untuk karya baru = keputusan PI sesi
 berikutnya.
+
+
+**2026-08-11 (sesi bersih-bersih & debug pasca-ledger-kosong).** Tidak ada eksperimen baru; yang dibuat
+hanya memperkuat/merapikan yang ada. Empat item selesai:
+(1) **Bug dashboard gunung api** — `tools/dashboard.py` masih membaca `volcanoes.csv` (7 pusat timur
+E. Jawa = cacat P7; omit Lawu/Wilis/Central Java) padahal `volcanoes_java_full.csv` (30, kanonik) ada
+di dir yang sama; `precompute_dashboard_data.py` juga masih menulis dari dict keras 7-pusat. Keduanya
+dialihkan ke inventori kanonik; `DASHBOARD_HANDOFF.md` diperbarui. **Catatan penting**: `VOLCANOES`
+memberi makan fitur jarak model (line 149-152), jadi run ulang precompute = regenerasi model pada 30
+pusat — keputusan sadar, TIDAK dijalankan di sini.
+(2) **Backport median D1** ke `experiments/E070_colonial_literature_mining/results/REGISTER_NOTES.md` —
+median 2.00 → **1.75 m** (n=32 positif; 2.00 hanya subset measured n=27), konsisten dengan yang terbit
+di Zenodo. (3) **Index eksperimen diregenerasi** — `tools/scan_experiments.py`: **214/214** eksperimen
+terpetakan ke line; inbox lama 01_spatial "84/214 stale" di-resolve. (4) **Referensi basi dibersihkan** —
+01_spatial (P11 unblocked setelah ledger kosong; D1/D2 published), 05_archival_nlp (fallback Zenodo D1
+moot), `ZENODO_UPLOAD_GUIDE` diberi status EXECUTED. 03_paleoenv TIDAK diubah: referensi "Zenodo
+deposit (G7)" di sana milik E216 sendiri, bukan D1/D2.

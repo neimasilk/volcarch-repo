@@ -29,7 +29,7 @@ All 4 tabs verified via Playwright headless browser testing. Screenshots in `too
 | `shap_bar.png` | 71 KB | Mean |SHAP| bar chart |
 | `shap_summary.csv` | 355 B | Feature-level SHAP statistics |
 | `sites.csv` | 27 KB | 378 sites with name, lat, lon, suitability, burial_depth_cm, zone |
-| `volcanoes.csv` | 179 B | 7 volcanoes with name, lat, lon |
+| `volcanoes.csv` | 179 B | 7 volcanoes — **legacy P7-era inventory** (eastern E. Java only). Dashboard now reads the canonical **`volcanoes_java_full.csv`** (30 centres); `volcanoes.csv` kept only for history until the next `precompute_dashboard_data.py` run, which rewrites it from the canonical file. |
 | `zone_statistics.csv` | 163 B | Zone-level aggregated statistics |
 | `metadata.json` | 1 KB | Model stats, AUC progression, validation results |
 

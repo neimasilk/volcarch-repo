@@ -39,7 +39,9 @@ def load_sites():
 
 @st.cache_data
 def load_volcanoes():
-    return pd.read_csv(DASHBOARD_DIR / "volcanoes.csv")
+    # Canonical 30-centre inventory. The old volcanoes.csv held only 7 eastern
+    # East Java centres (omitting Lawu, Wilis, Central Java) — the P7 defect.
+    return pd.read_csv(DASHBOARD_DIR / "volcanoes_java_full.csv")
 
 
 @st.cache_data
