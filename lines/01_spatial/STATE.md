@@ -1,6 +1,34 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-08-10 · **Temperature:** 🔥 HOT — hard deadline in **10 days**
+**Updated:** 2026-08-11 · **Temperature:** 🟢 COOLING — P2 **TERKIRIM**, 9 hari sebelum tenggat
+
+> ## ✅ P2 v0.2 DIKIRIM KE JCAA — 2026-08-11
+>
+> Status portal Round 1 kini: **"Submission has been resubmitted for another review round."**
+> Tenggat 2026-08-20 terpenuhi dengan sisa 9 hari. **Tidak ada lagi item P2 yang menunggu PI.**
+>
+> **Yang masuk ke portal** (grid Revisions, submission #280):
+>
+> | ID | Nama di portal | Komponen | Berkas sumber |
+> |---|---|---|---|
+> | 9970 | Manuscript (revised) | Manuscript | `submission_jcaa_v0.2.pdf` (29 hal) |
+> | 9971 | Supplementary Tables S1-S6 | Supplementary file (for review) | `supplementary_tables_v0.2.pdf` (5 hal) |
+> | 9972 | Response to Reviewers | Response to reviewers | `revision_ammo/RESPONSE_TO_REVIEWERS_v0.2_UPLOAD.pdf` (8 hal) |
+>
+> **Verifikasi pasca-unggah (bukan asumsi).** Salinan server diunduh kembali dan dibandingkan dengan
+> berkas lokal: naskah **29 hal, teks identik, SHA1 sama**. Portal menulis ulang wadah PDF dua berkas
+> (Producer `MiKTeX pdfTeX` → `mPDF 8.3.1`, ukuran byte berubah) tetapi **isi tidak tersentuh**;
+> surat balasan (xelatex) lolos tanpa diubah sama sekali. Pola ini mengikuti komponen, bukan berkas.
+>
+> **Catatan Review Discussion terkirim** ke Verhagen + Gonzalez-Perez (2026-08-11 02:11 BST).
+>
+> **Temuan baru yang belum tertutup — metadata portal.** Judul dan abstrak di rekaman JCAA **masih
+> versi lama** ("Tautology-Free…"; abstrak yang menyatakan *pseudo-absence realism is the dominant
+> lever* dan *tautology suite conditional pass* — semuanya sudah ditarik v0.2). Penulis **tidak bisa
+> memperbaikinya**: field menerima ketikan tetapi tombol Save mati, dan setelah reload suntingan
+> hilang. Diuji langsung, bukan disimpulkan. Sudah diminta ke editor lewat catatan di atas.
+> **Jika editor tidak merespons, ini perlu ditagih** — klaim yang ditarik jangan sampai hidup di basis
+> data jurnal, apalagi terbawa ke produksi.
 
 > 📄 **Review menyeluruh pra-submit SELESAI (2026-08-10).** Naskah v0.2 lulus. Review menemukan
 > **13 masalah yang lolos dari SIG 9/9 GREEN**, 4 blocking — semuanya sudah diperbaiki. Rinciannya:
@@ -80,12 +108,26 @@ and full reasoning: `docs/correspondence/EMAIL_VERHAGEN_EXTENSION_REQUEST_202608
       reviewer rahasia berhenti dipublikasikan. **G1 final: 64 check, 4 mismatch** (= K5/K6/K7/G1c
       yang memang ditarik) → `SIG_G1_VERIFICATION_20260810.md`.
 
-## Tersisa sebelum submit — SEMUANYA PI
+## Submit — SELESAI 2026-08-11
 
-- [ ] **`git push`** (19 commit). Tanpa ini pernyataan Data Availability belum benar.
-- [ ] **Upload portal JCAA**: naskah + **suplemen** + surat balasan (komponen "Response to
-      Reviewers"). **Hapus blok komentar `<!-- … -->` di kepala surat balasan sebelum paste.**
-- [ ] Putuskan cara mengangkat **APC waiver £593**.
+- [x] **`git push`** (19 commit). ✅ `origin/main` sinkron. Pernyataan Data Availability kini benar.
+      Efek samping penting: tiga berkas rahasia (`02_LAPORAN_REVIEWER.md` + dua dok review
+      beratas-nama Go Frendi) **berhenti dipublikasikan** — sebelum push, ketiganya masih terbuka di
+      GitHub, di repo yang naskahnya sendiri tunjuk ke editor. Riwayat lama masih memuatnya; keputusan
+      PI tetap **jangan** rewrite history.
+- [x] **Upload portal JCAA** ✅ 3 berkas, komponen benar, terverifikasi byte-per-byte.
+      Surat balasan siap-unggah dibuat sebagai `RESPONSE_TO_REVIEWERS_v0.2_UPLOAD.md/.pdf`: blok
+      komentar internal dibuang, penanda "(PI decision…)" dihapus, tanda tangan ditambahkan.
+      ⚠ Saat konversi, percobaan pertama **diam-diam menghilangkan** `≥ ≤ ≈ ≠ β ρ` (font tanpa
+      glyph) — "k ≥ 7" jadi "k  7". Diperbaiki dengan Times New Roman + xelatex, lalu diverifikasi
+      simbol per simbol. **Pelajaran: selalu cek glyph setelah md→PDF.**
+- [x] **APC waiver £593** ✅ diangkat di surat balasan (keputusan PI 2026-08-11), bukan email terpisah.
+
+## Tersisa — menunggu jurnal
+
+- [ ] **Metadata portal**: minta editor mengganti judul + abstrak (lihat kotak di atas). Sudah diminta
+      2026-08-11; **tagih jika belum berubah saat kontak berikutnya.**
+- [ ] Balasan editor / ronde review kedua. Tidak ada aksi kita sampai itu datang.
 
 ## Deliberately NOT doing
 

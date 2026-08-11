@@ -9266,3 +9266,61 @@ dibersihkan dari naskah.
 **Usul untuk SUBMISSION_INTEGRITY_GATE.md — G11:** gerbang klaim NON-NUMERIK. Empat blocker hari ini
 lolos G1-G10 karena semuanya klaim non-angka (disclosure, lisensi, ketersediaan kode, janji suplemen).
 Gerbang berbasis-angka tidak menangkapnya.
+
+---
+
+## 2026-08-11 — P2 DIKIRIM KE JCAA (#280). Eksposur pertama sejak ME#19.
+
+Sesi ini tidak memperbaiki naskah. Sesi ini mengirimkannya. Naskah sudah siap sejak 10 Agt; yang
+kurang adalah dua aksi portal yang sejak awal ditandai "milik PI". Dikerjakan hari ini dengan
+Playwright, PI login sendiri.
+
+**PUSH.** 19 commit ke origin/main. Ini menjadikan pernyataan Data Availability benar. Temuan yang
+membalik asumsi HANDOFF_20260810 §3.4: handoff itu menilai berkas reviewer rahasia "sudah lama publik,
+biarkan saja". Benar sudah publik — tetapi 19 commit yang tertahan itulah yang MENGHAPUSNYA. Jadi
+penundaan push justru yang membuat 02_LAPORAN_REVIEWER.md + dua dok review beratas-nama Go Frendi tetap
+terbuka di GitHub, di repo yang naskahnya sendiri tunjuk ke editor. Setelah push: hilang dari tip.
+Riwayat lama tetap memuatnya; keputusan tetap jangan rewrite history.
+
+**SURAT BALASAN siap-unggah** dibuat (RESPONSE_TO_REVIEWERS_v0.2_UPLOAD.md/.pdf): blok komentar
+internal dibuang, penanda "(PI decision...)" pada seksi APC dihapus, tanda tangan ditambahkan (draft
+berakhir menggantung pada garis pemisah). APC waiver diputuskan tetap di dalam surat, bukan email
+terpisah.
+
+GAGAL LALU DIPERBAIKI — konversi md->PDF percobaan pertama DIAM-DIAM menghilangkan simbol
+>= <= ~= != beta rho karena font default tak punya glyph-nya. "k >= 7" akan terkirim sebagai "k  7".
+Tidak ada error, hanya baris "Missing character" di log. Diperbaiki: xelatex + mainfont Times New
+Roman, lalu tiap simbol dicek ulang di PDF hasil. Aturan baru: verifikasi glyph setelah md->PDF.
+
+**UPLOAD.** Mengikuti persis instruksi surat keputusan editor (Upload File DI DALAM Revisions ->
+pilih komponen -> Continue -> perbaiki nama berkas -> Continue -> Add Another File / Complete).
+Tiga berkas: 9970 Manuscript (revised) [Manuscript, 29 hal]; 9971 Supplementary Tables S1-S6
+[Supplementary file (for review), 5 hal]; 9972 Response to Reviewers [Response to reviewers, 8 hal --
+komponen ini diminta eksplisit oleh editor]. Status Round 1 berubah menjadi "Submission has been
+resubmitted for another review round." Tenggat 20 Agt terpenuhi dengan sisa 9 hari.
+
+**VERIFIKASI PASCA-UNGGAH.** Salinan server diunduh kembali. Byte TIDAK sama dengan lokal: naskah
+1.491.981 -> 1.460.157, suplemen 156.637 -> 160.971 (membesar), surat 137.938 -> identik. Producer
+berubah MiKTeX pdfTeX-1.40.25 -> mPDF 8.3.1 pada dua berkas pertama. Portal menulis ulang PDF, dan
+polanya mengikuti KOMPONEN bukan berkas: Manuscript + Supplementary diproses, Response to reviewers
+tidak. Dibuktikan lossless: naskah server = 29 hal, teks identik setelah normalisasi spasi, SHA1 sama
+(5fc701c775ebe834); halaman 1 di-render dan dibandingkan visual, identik (penomoran baris berasal dari
+lineno di naskah kita, bukan tambahan portal). Kebiasaan baru: jangan berhenti pada "dialog menampilkan
+nama berkas yang benar" -- unduh kembali dan bandingkan teks.
+
+**TEMUAN BARU, BELUM TERTUTUP — metadata portal masih memuat klaim yang ditarik.** Judul di rekaman
+JCAA masih "Tautology-Free ..." dan abstraknya masih menyatakan "pseudo-absence realism ... dominant
+lever", "tautology suite conditional pass", dan "AUC 0.751 exceeding the minimum viable threshold" --
+ketiganya sudah dicabut v0.2. Penulis TIDAK BISA memperbaikinya, dan ini diuji langsung: field Title
+dan Abstract menerima ketikan (widget TinyMCE tidak ikut terkunci) sehingga tampak bisa diedit, tetapi
+tombol Save mati sejak halaman dimuat, dan setelah reload sungguhan seluruh suntingan hilang. Diminta
+ke editor lewat Review Discussion (Verhagen + Gonzalez-Perez, 02:11 BST) bersama kabar unggahan dan
+penunjuk ke cover note. TAGIH jika tidak ada respons.
+
+**Usul gerbang baru untuk SIG:** G12 -- gerbang PASCA-KIRIM. Unduh kembali apa yang diterima portal dan
+bandingkan dengan yang dikirim. (G11 dari 10 Agt -- gerbang klaim non-numerik -- masih berdiri.)
+
+**Pelajaran ME#19 yang dikonfirmasi:** yang menutup item ini bukan tambahan rigor. Naskah tidak berubah
+sejak kemarin. Yang berubah adalah satu sesi dipakai untuk mengirim. Empat item di WORKSTATE §1
+(P17 correction ~8 hari dan paling mendesak karena P17 sedang di-review; Verberne ~63; Zenodo ~62;
+P7 notice ~68; Lamqaddam ~110) berada persis dalam keadaan yang sama: selesai, dan tidak terkirim.

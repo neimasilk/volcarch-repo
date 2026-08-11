@@ -1,6 +1,16 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-08-10 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-08-11 · **This file is short by design. Keep it that way.**
+
+> # 🎉 P2 DIKIRIM KE JCAA — 2026-08-11
+>
+> **Setelah 14 bulan dan 224 eksperimen, eksposur terjadi.** Naskah + suplemen + surat balasan
+> terunggah ke portal #280, komponen benar, 9 hari sebelum tenggat. Status Round 1: *"Submission has
+> been resubmitted for another review round."* 19 commit ter-push. Rincian dan verifikasi:
+> [`lines/01_spatial/STATE.md`](../lines/01_spatial/STATE.md).
+>
+> **Ini menutup satu-satunya item paling lama di §2 dan mengosongkan §4 untuk P2.** Yang tersisa di
+> §1 adalah tepatnya jenis aksi yang sama: sesuatu yang sudah siap, tinggal dikirim.
 
 > **In FOCUS MODE (cwd inside `lines/<nn>_*/`) you should not be reading this.** Read that line's
 > `CLAUDE.md` + `STATE.md`. This file is the **orbit** view: what the whole portfolio is doing, what is
@@ -12,17 +22,18 @@
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
-> **Latest handoff: `docs/HANDOFF_20260810.md`** (older ones in `docs/archive/handoffs/`). The
-> comprehensive pre-submission review the PI asked for **ran on 10 Aug and is closed**: 13 findings
-> that SIG's 9/9 GREEN had missed, 4 of them blocking, all now fixed. **P2 is submission-ready and
-> still NOT submitted — the only remaining steps are `git push` and the portal upload, both PI.**
+> **Latest handoff: `docs/HANDOFF_20260811.md`** (older ones in `docs/archive/handoffs/`). It records
+> the submission itself; `HANDOFF_20260810.md` before it recorded the pre-submission review that
+> cleared the way (13 findings past SIG's 9/9 GREEN, 4 blocking, all fixed). **P2 is SUBMITTED.**
 > For the P2
 > claim set, the authoritative document is
 > `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug, +A7–A9 on
 > 5 Aug) — it supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since
 > withdrawn.
 >
-> ⚠ **Git: on `main`, the whole 2026-08-03 session is committed and unpushed** (`git rev-list --count origin/main..main`). Push awaits the PI.
+> ✅ **Git: `main` is pushed and in sync with `origin/main` (2026-08-11).** This is what makes the
+> manuscript's Data Availability statement true, and it is also what stopped the confidential JCAA
+> reviewer report from being publicly browsable.
 
 ---
 
@@ -42,11 +53,11 @@ forcing-function deadline: **~2026-06-24 — passed.** All three items are send-
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
 **Scorecard: 0 acceptances · 7 rejections · 3 under review · 224 experiments.**
-The 2026-07-27 session added world-class rigor and **zero** exposure; 2026-07-30 added infrastructure
-and zero exposure; **2026-08-03 added a claim set, a response letter, a failed experiment and two
-correction drafts — and zero exposure.** Every one of those was correct work. None of it moved the
-constraint. Three of the five things now waiting on the PI are *send* actions, and two of them
-(P17 correction, P7 notice) have a clock on them.
+27 Jul added world-class rigor and **zero** exposure; 30 Jul added infrastructure and zero exposure;
+3 Aug added a claim set, a response letter, a failed experiment and two correction drafts — and zero
+exposure. **11 Aug broke that run: P2 went out.** The thing that finally moved it was not more rigor;
+it was one session spent driving the portal instead of improving the manuscript.
+**Items 1–3 and 5 below are in exactly the same state P2 was in on 10 August: finished, and unsent.**
 
 ---
 
@@ -54,7 +65,7 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 | Deadline | Item |
 |---|---|
-| **2026-08-20** (**10 days**) | **P2 resubmission to JCAA — no extension will be requested** (PI decision 2026-08-03). **Manuscript v0.2 complete and reviewed (10 Aug):** 29 pp clean compile, supplementary tables S1–S6 generated, 6 ENM references added after the pre-submission review, Table 4 estimator corrected, AI disclosure rewritten. G1 final: 64 checks / 4 mismatch (the deliberately withdrawn claims). **Remaining: `git push` + portal upload — both PI.** |
+| ~~2026-08-20~~ | ~~P2 resubmission to JCAA~~ ✅ **MET 2026-08-11, nine days early.** Nothing owed to JCAA now; the next move is theirs. |
 | Dec 2026 | Edinburgh PhD application window (entry Oct 2027) |
 
 ---
@@ -63,7 +74,7 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | **Pre-submission review CLOSED (10 Aug): 13 findings past SIG, 4 blocking, all fixed.** Manuscript 29 pp + supplement 5 pp + response letter all ready. Claude's work on P2 is **done**. | **PI: push + upload** |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟢 COOLING | **P2 SENT 11 Aug** — 3 files uploaded, verified byte-for-byte against the server copies, editor notified. Open: portal metadata still shows the withdrawn title/abstract and authors cannot edit it — requested from the editor, **chase if unanswered**. Next line work: P11 retarget, still queued behind §1. | journal |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E: P17 arm DONE** (core claim survives and strengthens; methods sentence + 3 numbers need correcting **with a live journal**). Next: P1, P11, P5, P8, manifesto | Claude; editor note = PI |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Write the E216 prose manuscript (parallel to co-author search) | Claude; co-author = PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
@@ -76,17 +87,18 @@ constraint. Three of the five things now waiting on the PI are *send* actions, a
 
 ## 4. Decisions waiting on the PI
 
-**P2 / JCAA (1 left of 5):** ~~Verhagen email~~ withdrawn 3 Aug · ~~scope~~ settled (revision of #280) ·
-~~commit permission~~ done · ~~**Go Frendi sign-off**~~ ✅ **RESOLVED 2026-08-05** (PI confirmed he is OK
-with the reversed claim set; Authors' Contributions sentence now true) · ~~**v0.2 title**~~ ✅
-**RESOLVED 2026-08-05 — kandidat 3** (no manuscript change).
+**P2 / JCAA — ✅ NOTHING LEFT.** All five decisions closed and the paper is submitted (11 Aug).
+The APC waiver was raised inside the response letter (PI decision 11 Aug) rather than as a separate
+email. One thing is now owed *by the journal*: the record still carries the withdrawn title and
+abstract, and the author-side form cannot save changes — asked for in the Review Discussion, chase if
+it goes quiet.
 **P17 / ArchCalc #365 — NEW, time-sensitive:** send the correction note to the editor while the paper
 is still under review. Draft: `docs/correspondence/EMAIL_ARCHCALC_P17_CORRECTION_DRAFT_20260803.md`.
 **P7:** post the preprint correction notice — overdue since 2026-06-04, costs one login. Draft:
 `papers/P7_TOM/CORRECTION_NOTICE_DRAFT_20260803.md`.
 **Other:** authorise the E211 corpus run (since 2026-04-23) · file DJKI HKI (4 docs ready) ·
 palynologist co-author outreach for E216 · L1 amendment (adopt *"peradaban vulkanik"*) · send the
-Vossen/VU email · **push the 2026-08-03 commits to GitHub**.
+Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
 
 ---
 
@@ -94,7 +106,7 @@ Vossen/VU email · **push the 2026-08-03 commits to GitHub**.
 
 | Paper | Line | Status |
 |---|---|---|
-| **P2** Settlement model | 01 | 🔥 **R&R** JCAA #280, deadline 2026-08-20, no extension. Core claim self-refuted; reframed around the artefact. **v0.2 complete and pre-submission-reviewed (10 Aug):** `submission_jcaa_v0.2.tex` 29 pp clean compile; `supplementary_tables_v0.2.pdf` (6 tables, generated from raw results); response letter upload-ready; 6 ENM references added (Crossref-verified) closing R1's "not novel" exposure; Table 4 gaps corrected to the seed-average (+0.122 → +0.105); AI disclosure rewritten to match the public record; `LICENSE` added; confidential reviewer report un-published. **G1 10 Aug: 64 checks / 4 mismatch** (the withdrawn claims). **Remaining: push + upload (PI).** |
+| **P2** Settlement model | 01 | ⏳ **RESUBMITTED 2026-08-11** — JCAA #280 revision v0.2, nine days inside the deadline. Core claim self-refuted and replaced; the paper is now about the artefact. Uploaded: manuscript (29 pp), Supplementary Tables S1–S6 (5 pp), Response to Reviewers (8 pp, "Response to reviewers" component as the editor required). Server copies re-downloaded and checked: text identical, same SHA1. Editor notified; APC waiver raised in the letter. ⚠ Portal metadata still shows the old title/abstract — author cannot edit, requested from the editor. |
 | **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365, Diamond OA. Best odds. ⚠ **WS-E (3 Aug): finding survives and strengthens (court concentration 1.86× → 2.70×), but the methods sentence does not describe the computation and 3 numbers are wrong.** Correction note to the editor is drafted and waiting. |
 | **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11. arXiv:2604.00023. |
 | **P11** Volcanic informedness | 01 | rejected 2× (both editorial). Core finding survives. Retarget SPAFA — queued behind §1. |
