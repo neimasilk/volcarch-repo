@@ -30,9 +30,12 @@
 > **Jika editor tidak merespons, ini perlu ditagih** — klaim yang ditarik jangan sampai hidup di basis
 > data jurnal, apalagi terbawa ke produksi.
 
-> 📄 **Review menyeluruh pra-submit SELESAI (2026-08-10).** Naskah v0.2 lulus. Review menemukan
+> 📄 **CATATAN SEJARAH — keadaan 2026-08-10, sehari sebelum kirim.** Disimpan karena isinya pelajaran,
+> bukan instruksi. Kalimat penutupnya sudah tidak berlaku; lihat kotak di atas untuk keadaan live.
+>
+> **Review menyeluruh pra-submit SELESAI (2026-08-10).** Naskah v0.2 lulus. Review menemukan
 > **13 masalah yang lolos dari SIG 9/9 GREEN**, 4 blocking — semuanya sudah diperbaiki. Rinciannya:
-> `docs/HANDOFF_20260810.md`.
+> `docs/archive/handoffs/HANDOFF_20260810.md`.
 >
 > **Empat blocker itu bukan angka**, dan itulah sebabnya G1 tidak menangkapnya: (1) AI Disclosure
 > menyangkal kontribusi AI pada research design, dibantah oleh pra-registrasi di repo **publik** yang
@@ -46,8 +49,10 @@
 > sebelumnya masih terbuka lebar terhadap klaim baru. Dua miscitation dibuang. **Tabel 4 dikoreksi**:
 > gap dihitung terhadap seed-average (0.751), bukan best run (0.768) → +0.122 menjadi **+0.105**.
 >
-> **Status: naskah (29 hal, kompilasi bersih) + suplemen (5 hal, 6 tabel) + surat balasan SIAP.
-> Tersisa hanya `git push` + upload portal — keduanya PI.**
+> ~~**Status: naskah + suplemen + surat balasan SIAP. Tersisa hanya `git push` + upload portal.**~~
+> ✅ **Keduanya dikerjakan 2026-08-11.** Perhatikan bahwa paket sudah "SIAP" selama satu hari penuh
+> tanpa terkirim — itu bentuk kecil dari pola yang sama yang menahan lima item di
+> [07_career](../07_career/STATE.md) selama 8–110 hari.
 
 ---
 

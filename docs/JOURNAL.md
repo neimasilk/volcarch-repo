@@ -9324,3 +9324,15 @@ bandingkan dengan yang dikirim. (G11 dari 10 Agt -- gerbang klaim non-numerik --
 sejak kemarin. Yang berubah adalah satu sesi dipakai untuk mengirim. Empat item di WORKSTATE §1
 (P17 correction ~8 hari dan paling mendesak karena P17 sedang di-review; Verberne ~63; Zenodo ~62;
 P7 notice ~68; Lamqaddam ~110) berada persis dalam keadaan yang sama: selesai, dan tidak terkirim.
+
+**Sapuan konsistensi dokumen (sesi yang sama, setelah kirim).** Menutup sesi mengungkap tiga dokumen
+yang masih memuat keadaan pra-kirim: (a) lines/07_career/STATE.md masih mencantumkan "izin commit"
+dan tenggat P2 sebagai blocker PI, masih memuat ledger 3 item padahal WORKSTATE sudah 5, dan masih
+menyimpan to-do memperbarui draf Verhagen yang sudah DITARIK 3 Agt -- ditulis ulang, item mati
+ditandai closed/dropped supaya tidak dihidupkan lagi; (b) hitungan hari ledger di WORKSTATE masih
+angka lama (55/54/102/0/60) -> disegarkan ke 2026-08-11 (P17 8, Verberne 63, Zenodo 62, P7 68,
+Lamqaddam 110) dan diurutkan dengan P17 di puncak karena ia satu-satunya yang punya jendela menutup,
+bukan sekadar biaya yang membesar; (c) blok 10 Agt di lines/01_spatial/STATE.md masih berbunyi
+"Tersisa hanya git push + upload portal" -- ditandai sebagai catatan sejarah, bukan instruksi.
+Pelajaran kecil: setelah status berubah besar, blok lama di file yang sama menjadi instruksi palsu.
+Grep untuk frasa keadaan lama, jangan hanya menambah blok baru di atas.

@@ -40,15 +40,19 @@
 ## 1. 🚨 EXPOSURE LEDGER — read before anything else
 
 The binding constraint on this project is **non-exposure, not rigor** (ME#19, 2026-06-10). Original
-forcing-function deadline: **~2026-06-24 — passed.** All three items are send-ready. **PI only.**
+forcing-function deadline: **~2026-06-24 — passed.** All five items are send-ready. **PI only.**
+Counts below are as of **2026-08-11**.
 
 | # | Action | Ready since | Days waiting |
 |---|---|---|---|
-| 1 | Send **Verberne** reply v4 (Leiden PhD — she asked 2 questions and is waiting) | 2026-06-09 | **~55** |
-| 2 | Upload **D1 + D2 to Zenodo** → paste 2 DOIs | 2026-06-10 | **~54** |
-| 3 | Send **Lamqaddam** reply (UvA — offered a BPI Dosen support letter) | 2026-04-23 | **~102** |
-| 4 | **NEW —** send the **P17 correction note** to the ArchCalc editor (paper is under review now) | 2026-08-03 | 0 |
-| 5 | **NEW —** post the **P7 preprint correction notice** | 2026-06-04 (defect known) | **~60** |
+| 1 | Send the **P17 correction note** to the ArchCalc editor — ⏳ **closing window: P17 is under review now** | 2026-08-03 | **8** |
+| 2 | Send **Verberne** reply v4 (Leiden PhD — she asked 2 questions and is waiting) | 2026-06-09 | **~63** |
+| 3 | Upload **D1 + D2 to Zenodo** → paste 2 DOIs | 2026-06-10 | **~62** |
+| 4 | Post the **P7 preprint correction notice** | 2026-06-04 (defect known) | **~68** |
+| 5 | Send **Lamqaddam** reply (UvA — offered a BPI Dosen support letter) | 2026-04-23 | **~110** |
+
+Item 1 is listed first despite being the youngest: the others carry a *cost* that grows, but item 1
+has a *deadline* — the correction is cheap only while the paper is still live at the journal.
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
@@ -80,7 +84,7 @@ it was one session spent driving the portal instead of improving the manuscript.
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🔧 READY | Pre-write E211 eval protocol; 10-file smoke test | Claude; run authorisation = PI |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Nothing. Subtract-only. | — |
-| **07** | [career](../lines/07_career/STATE.md) | 🚨 BOTTLENECK | The three items in §1 | **PI** |
+| **07** | [career](../lines/07_career/STATE.md) | 🚨 BOTTLENECK — now the only one | The **five** items in §1, P17 correction first | **PI** |
 | — | `volcarch-genetics` (external repo) | — | cite as external; see `COMPANION_REPOS.md` | — |
 
 ---
