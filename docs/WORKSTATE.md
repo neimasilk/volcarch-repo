@@ -22,9 +22,9 @@
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
-> **Latest handoff: `docs/HANDOFF_20260811.md`** (older ones in `docs/archive/handoffs/`). It records
-> the submission itself; `HANDOFF_20260810.md` before it recorded the pre-submission review that
-> cleared the way (13 findings past SIG's 9/9 GREEN, 4 blocking, all fixed). **P2 is SUBMITTED.**
+> **Latest handoff: `docs/HANDOFF_20260811b.md`** (older ones in `docs/archive/handoffs/`). It records
+> the ledger going empty (P17 sent, D1+D2 published with DOIs, P7+PhD parked) + the cleanup pass.
+> The prior `HANDOFF_20260811.md` (P2 submission) is now archived.
 > For the P2
 > claim set, the authoritative document is
 > `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug, +A7–A9 on
