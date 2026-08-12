@@ -9390,3 +9390,80 @@ terpetakan ke line; inbox lama 01_spatial "84/214 stale" di-resolve. (4) **Refer
 01_spatial (P11 unblocked setelah ledger kosong; D1/D2 published), 05_archival_nlp (fallback Zenodo D1
 moot), `ZENODO_UPLOAD_GUIDE` diberi status EXECUTED. 03_paleoenv TIDAK diubah: referensi "Zenodo
 deposit (G7)" di sana milik E216 sendiri, bukan D1/D2.
+
+
+**2026-08-11 (🛰 KRITIK SISTEM / RESEARCH-DESIGNER REVIEW — orbit).** Ledger eksposur kosong (5/5)
+⇒ sesi review sistem, bukan eksperimen baru. Output: `docs/research_notes/CRITIQUE_SYSTEM_DESIGN_20260811.md`.
+
+**Vonis:** proyek telah membangun *mesin refutasi* kelas dunia (SIG G1–G10, pre-registration, re-derivasi
+buta, reversal P2, E214/E217–224) tapi belum punya *mesin penemuan*: 214 eksperimen, 0 acceptance,
+7 rejection, flagship kini bercerita tentang artefaknya sendiri. Rasio 142 SUCCESS / 3 FAILED / 34
+UNKNOWN adalah profil mesin konfirmasi, bukan penemuan.
+
+**Tujuh risiko struktural (R1–R7):** (R1) inflasi label sukses — indeks tak bisa memilah
+defensif/ofensif/disconfirming; (R2) **angka hantu di dokumen kontrak** — `lines/01_spatial/CLAUDE.md:92`
+menulis "E209 AUC 0.844" padahal E209 belum pernah menjalankan classifier (kill-criterion 0.60,
+hipotesis 0.75) — kelas volcanoes.csv yang membunuh P7, hidup di dokumen yang dibaca pertama tiap sesi;
+plus hitungan "224 vs 214" yang tak pernah rekonsiliasi (224=nomor alokasi, 214=folder lokal, 10 nomor
+tak dibuat; E053/E203 eksternal); (R3) uji paling menentukan tak pernah dijalankan (E215: nol studi
+mikrobotani pada situs prasejarah Jawa — satu inti bisa menyelesaikan tesis, komputasi tidak); (R4)
+eksperimen alami Jawa Barat punya konfound upaya-survei (E109: defisit survei > burial) DAN belum punya
+naskah; (R5) konflasi geografis "Nusantara"≠"Jawa" — puzzle 400 M adalah puzzle Jawa+aksara, bukan
+Nusantara (E214: Sumatra/Borneo bertani lebih awal; E201: Filipina 275–340 situs pre-400 CE); (R6)
+botol manusia kini kendala pengikat — E211 otorisasi 110 hari, outreach palynologist belum terjadi;
+(R7) antrian paper jebakan sunk-cost (P1/P5/P9/P18-P22) + AutoResearch zombie (`tools/autoresearch/results/`
+kosong; Program 3 objeknya sudah pensiun).
+
+**Arsitektur manusia–AI:** fungsi adversarial tidak terpisah struktural (loop yang sama memproduksi dan
+meninjau); gerbang 4-AI menguji prosa bukan derivasi + 4 LLM berbagi substrat (F9) → G1 wajib sebelum
+gerbang; keputusan manusia tidak di-batch (solusi: decision hour mingguan + default). Kapabilitas AI
+BUKAN kendala — satu arkeobotanis dengan satu inti tanah lebih menentukan daripada 1000 eksperimen.
+
+**Framework testing:** matriks 7 interaksi (T0 re-derivasi berdiri, T1 kanari dokumen, T2 label status,
+T3 escape-question audit/F10, T4 correlated-error, T5 robustness, T6 adversarial human, T7 aging) —
+bukan kode baru, tapi jadwal berdiri. **Mekanisme seleksi kritik:** usulkan `docs/CRITIQUE_LEDGER.md`
+(Validity×Centrality, 4 disposisi FIX/FIX-CHEAP/PARK/REJECT-with-reason, tanpa drop senyap; REJECT =
+katup anti-penunda F8).
+
+**Rekomendasi:** TERMINATE (autoresearch, P21 folder kosong, P5 reframe≤2 sesi atau parkir) · PIVOT
+(P11→SPAFA minggu ini setelah sweep WS-E kanonikal; draf letter Jawa Barat 2–3 sesi dengan kontrol
+survei dari baris 1; kanal NLP literatur abu-abu) · REFACTOR (rekonsiliasi hitungan "214 lokal",
+bangkitkan check_doc_sync sebagai kanari, sahkan G11+G12, label status ofensif/defensif) · BUILD
+(ledger kritik + jadwal falsifikasi dengan tanggal tetap) · KEEP (P17/P2/P8/D1/D2/MASTERPIECE/genetics).
+
+**Sisi gelap (5 kanal bawah-representasi):** arsip penghapusan (NLP kolonial utk mengukur tafonomi
+genre — "sisi gelap yang dibuka AI" harfiah), selective survival (E204 genderang, manik Jatim, Dong Son),
+uji mikrobotani E215/I-125, bentang terendam (GEBCO+paleoshoreline → peta target), budaya hidup
+(I-139 wayang/slametan/Tengger).
+
+**Keputusan diminta ke PI (satu decision hour ≤30 mnt):** otorisasi E211 (default YA) · prioritas 2
+minggu (P11+letter Jawa Barat) · jadwal kanal NLP · outreach arkeobotanis · sahkan G11/G12 + ledger +
+falsifikasi berjadwal · rekonsiliasi hitungan · disagregasi Jawa/Nusantara di L1. **Peringatan F8:**
+audit ini hanya bernilai bila 2 minggu ke depan berisi pengiriman, bukan kritik berikutnya.
+
+
+**2026-08-11 (⚙️ EKSEKUSI REKOMENDASI KRITIK SISTEM — orbit, tanpa eksperimen baru).** Setelah kritik
+sistem (lihat entri sebelumnya), 7 rekomendasi dieksekusi:
+
+**1. Kanari.** "E209 AUC 0.844" dihapus dari `lines/01_spatial/CLAUDE.md` (E209 = scaffolding, belum ada
+AUC; diganti pernyataan jujur). Hitungan direkonsiliasi: 214 folder lokal (E001–E224; 10 nomor tak
+pernah dibuat, E053/E203 eksternal). **2. Mekanisme.** `docs/CRITIQUE_LEDGER.md` dibuat (Validity×Centrality,
+4 disposisi FIX/FIX-CHEAP/PARK/REJECT, tanpa drop senyap) + G11 (non-numeric claims gate) + G12
+(post-submission re-download gate) ditambahkan ke SIG. **3. P11 → SPAFA.** `draft_v0.6_spafa.tex` dibuat
+dari v0.5; 6 koreksi kanonik diterapkan (298°/p=1.2e-9/47.9%/9.2%/45.1%/19.1×/6.1 km/p=2.8e-7 + kalimat
+inventori 30-puncak). Re-derivasi buta G1 dari `canonical30/` mengonfirmasi persis (mean 297.9°,
+p=1.217e-9). **Temuan penting:** `generate_figures.py` MENHARDCODE angka lama (279°/47.2%/3.5%/3.4e-8)
+dan membaca file E031 non-kanonik — teks sudah dikoreksi tapi figur masih lama; pasti tertangkap
+reviewer. Figur fig1+fig2 diregenerasi dari canonical30 (toolchain fig4 boxplot API matplotlib
+diperbaiki); PDF final 14 halaman bersih. SIG sign-off CONDITIONAL GO (5 syarat: E069 kanonik, G9
+cross-model, format SPAFA, G8 baris 104/266, konversi+submit=PI). `SPAFA_SUBMISSION_PREP.md` + cover
+letter. **4. Skeleton letter Jawa Barat** (`docs/drafts/WEST_JAVA_DECISIVE_CASE_SKELETON_v0.1.md`) —
+eksperimen alami dirancang dengan **kontrol upaya-survei sebagai seksi kelas-satu** (3 lapis: E069
+quasi-Poisson + normalisasi densitas ekskavasi per-wilayah [kompilasi baru, belum ada] + counterfactual
+E086), penanganan counter-arguments premortem, keterbatasan jujur (Fisher p=1.0 E117), dan falsifiability.
+**5. AutoResearch** 🅿 SUPERSEDED (arsip konsep). **6/7. Queue:** kanal NLP literatur abu-abu, T2 label
+status, jadwal falsifikasi, prep E211 — tersisa, dirangkum di WORKSTATE §4.
+
+**Pelajaran:** mesin re-derivasi G1 terbukti sekali lagi menangkap artefak — kali ini bukan di angka
+teks, tapi di **figur yang menhardcode nilai lama** yang nyaris terkirim bersama naskah. Ini argumen
+terkuat untuk G3/G7 sebagai gerbang rutin, bukan reaktif.

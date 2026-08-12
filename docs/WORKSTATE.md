@@ -4,7 +4,7 @@
 
 > # 🎉 P2 DIKIRIM KE JCAA — 2026-08-11
 >
-> **Setelah 14 bulan dan 224 eksperimen, eksposur terjadi.** Naskah + suplemen + surat balasan
+> **Setelah 14 bulan dan 214 eksperimen (E001–E224), eksposur terjadi.** Naskah + suplemen + surat balasan
 > terunggah ke portal #280, komponen benar, 9 hari sebelum tenggat. Status Round 1: *"Submission has
 > been resubmitted for another review round."* 19 commit ter-push. Rincian dan verifikasi:
 > [`lines/01_spatial/STATE.md`](../lines/01_spatial/STATE.md).
@@ -64,7 +64,7 @@ under review; D1+D2 published with live DOIs — the "0 external outputs" run is
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
-**Scorecard: 0 acceptances · 7 rejections · 3 under review · 224 experiments.**
+**Scorecard: 0 acceptances · 7 rejections · 3 under review · 214 experiments** (214 folder lokal; "224" = nomor alokasi E001–E224, 10 nomor tak pernah dibuat — rekonsiliasi 2026-08-11).
 27 Jul added world-class rigor and **zero** exposure; 30 Jul added infrastructure and zero exposure;
 3 Aug added a claim set, a response letter, a failed experiment and two correction drafts — and zero
 exposure. **11 Aug broke that run for good: P2 went out, the P17 correction went out, and D1+D2 were
@@ -111,6 +111,7 @@ PI action.
 **P7:** preprint correction notice 🅿 **PARKED 2026-08-11** — Authorea/Wiley froze self-service editing
 of existing preprints, and the PI chose to leave the preprint as-is. Draft for revival:
 `docs/correspondence/EMAIL_AUTHOREA_SUPPORT_P7_CORRECTION_DRAFT_20260811.md`.
+**System-designer review + eksekusi (2026-08-11):** kritik → `docs/research_notes/CRITIQUE_SYSTEM_DESIGN_20260811.md`. ✅ **SUDAH DIKERJAKAN:** ledger kritik aktif (`docs/CRITIQUE_LEDGER.md`) · G11+G12 di SIG · kanari E209 "AUC 0.844" dihapus · hitungan 214/224 direkonsiliasi · **P11 → SPAFA siap-kirim konten** (`draft_v0.6_spafa.tex`, figur canonical30, `SIG_signoff.md` CONDITIONAL GO, `SPAFA_SUBMISSION_PREP.md` + cover letter; 5 syarat tersisa: E069 kanonik, G9, format SPAFA, G8, konversi+submit=PI) · **skeleton letter Jawa Barat** (`docs/drafts/WEST_JAVA_DECISIVE_CASE_SKELETON_v0.1.md`, kontrol upaya-survei seksi kelas-satu) · AutoResearch 🅿 SUPERSEDED. ⏳ **MASIH PI/queue:** otorisasi E211 (default YA) · outreach arkeobotanis · disagregasi Jawa/Nusantara di L1 · jadwal kanal NLP literatur abu-abu · jadwal falsifikasi bertanggal · kompilasi densitas ekskavasi (lapis 2 letter).
 **Other:** authorise the E211 corpus run (since 2026-04-23) · file DJKI HKI (4 docs ready) ·
 palynologist co-author outreach for E216 · L1 amendment (adopt *"peradaban vulkanik"*) · send the
 Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.

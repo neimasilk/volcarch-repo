@@ -67,6 +67,23 @@ Structural/central problems (artifact, circularity, equifinality, sampling-on-de
 **Check (for the flagship / masterpiece):** one human geoarchaeologist/archaeologist audits the central claims. Optional for minor notes; **required before P0/masterpiece submission.**
 **Why:** the missing role in the collaboration (ME#17 §5). A domain human catches F1/F4 the AI+author pair miss.
 
+### G11 — Non-numeric claims gate (added 2026-08-11)
+**Check:** every **non-numeric / qualitative / causal** claim (e.g. "because", "despite", "implies",
+"reflects") has a testable implication, OR is explicitly downgraded to a description/observation.
+Grep the manuscript for causal connectors and verify each has a cited basis.
+**Why:** the numeric pipeline is gated (G1–G3) but causal prose is not; K4 in P2 was a *beautiful*
+causal story that pre-registration had to kill. Prose carries the same artifact risk as numbers.
+**Failure code:** F6 (overstatement) / F4 (equifinal causal claim).
+
+### G12 — Post-submission re-download gate (added 2026-08-11)
+**Check:** after ANY upload to a journal/Zenodo portal, **download the file back and compare** (byte
+hash / SHA1; for PDFs check producer + glyphs). If the server copy ≠ local copy → contact the editor
+BEFORE it is processed.
+**Why:** JCAA rewrites some article components (Producer `MiKTeX pdfTeX` → `mPDF 8.3.1`); Zenodo
+metadata can silently land empty (D1 lesson, 2026-08-11); portals carry stale titles/abstracts
+(P2 metadata). The portal is not a trusted pipe — verify ground truth via `GET`/re-download.
+**Failure code:** F8-adjacent (external-side integrity).
+
 ---
 
 ## Failure taxonomy (for classifying any caught problem)

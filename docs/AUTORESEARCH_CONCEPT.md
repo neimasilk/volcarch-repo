@@ -1,7 +1,10 @@
 # VOLCARCH AutoResearch — Konsep Integrasi
 
 **Tanggal:** 2026-03-30
-**Status:** PROPOSAL — perlu keputusan Pak Amien
+**Status:** 🅿 SUPERSEDED 2026-08-11 — belum pernah diimplementasikan (`tools/autoresearch/results/`
+kosong); prioritasnya digantikan manifesto v5.0 §2; Program 3 (cascade) objeknya sudah pensiun.
+Diaramkan sebagai arsip konsep; jangan dibangun pipeline controller (keputusan kritik sistem).
+**Sebelumnya:** PROPOSAL — perlu keputusan Pak Amien
 **Inspirasi:** [Karpathy autoresearch](https://github.com/karpathy/autoresearch) (Maret 2026)
 
 ---

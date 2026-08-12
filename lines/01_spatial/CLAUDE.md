@@ -89,8 +89,8 @@ Plan: `revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md`.
 (survey–burial confound), `E122` (gap sensitivity), `E126`, `E129`, `E152`, `E153`, `E175`, `E179`
 **Spatial statistics:** `E184` (autocorrelation), `E185`, `E187`, `E183`
 **Cascade (DOWNGRADED — over-parameterised, keep as pedagogy only):** `E110`, `E115`, `E176`, `E182`
-**Prospection / remote sensing:** `E189`–`E194`, `E202`, `E209` (AUC 0.844 — a Hindu-Buddhist site
-detector, **not** pre-Hindu), `E210`
+**Prospection / remote sensing:** `E189`–`E194`, `E202`, `E209` (satellite buried-site classifier —
+scaffolded PHASE 1, **belum ada AUC**; target ≥0.75, kill <0.60, README E209), `E210`
 **Priority maps & fieldwork:** `E059`, `E080`, `E139`, `E166`, `E167`, `E171`
 
 Canonical volcano file: **`data/processed/dashboard/volcanoes_java_full.csv`** (30 volcanoes).

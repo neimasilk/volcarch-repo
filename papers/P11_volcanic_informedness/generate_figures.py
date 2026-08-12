@@ -39,7 +39,7 @@ plt.rcParams.update({
 # ===========================================================
 def fig1_polar_bearings():
     print("Generating Figure 1: Candi-volcano bearing polar plot...")
-    df = pd.read_csv(os.path.join(E031, "candi_volcano_pairs.csv"))
+    df = pd.read_csv(os.path.join(E031, "canonical30", "candi_volcano_pairs_canonical30.csv"))
 
     # azimuth_from_volcano = bearing FROM volcano TO candi
     azimuths = df['azimuth_from_volcano'].values
@@ -63,22 +63,22 @@ def fig1_polar_bearings():
                c='#1F77B4', alpha=0.6, s=40, label=f'Other volcanoes (n={(~is_penang).sum()})', zorder=3)
 
     # Mean direction arrow
-    mean_az = np.deg2rad(279)  # from E065 results
+    mean_az = np.deg2rad(298)  # canonical30 re-derivation 2026-08-11 (was 279)
     ax.annotate('', xy=(mean_az, ax.get_rmax()*0.85), xytext=(0, 0),
                 arrowprops=dict(arrowstyle='->', color='black', lw=2.5))
-    ax.text(mean_az, ax.get_rmax()*0.95, 'Mean: 279°\n(West)',
+    ax.text(mean_az, ax.get_rmax()*0.95, 'Mean: 298°\n(WNW)',
             ha='center', va='bottom', fontsize=10, fontweight='bold',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='lightyellow', alpha=0.9))
 
     # Shade western quadrant
     theta_fill = np.linspace(np.deg2rad(225), np.deg2rad(315), 50)
-    ax.fill_between(theta_fill, 0, ax.get_rmax(), alpha=0.08, color='green', label='Western quadrant (47.2%)')
+    ax.fill_between(theta_fill, 0, ax.get_rmax(), alpha=0.08, color='green', label='Western quadrant (47.9%)')
 
     # Shade eastern quadrant (nearly empty)
     theta_fill_e = np.linspace(np.deg2rad(45), np.deg2rad(135), 50)
-    ax.fill_between(theta_fill_e, 0, ax.get_rmax(), alpha=0.08, color='red', label='Eastern quadrant (3.5%)')
+    ax.fill_between(theta_fill_e, 0, ax.get_rmax(), alpha=0.08, color='red', label='Eastern quadrant (9.2%)')
 
-    ax.set_title('Bearing from Volcano to Candi (n=142)\nRayleigh p = 3.4×10⁻⁸', pad=20, fontsize=14)
+    ax.set_title('Bearing from Volcano to Candi (n=142)\nRayleigh p = 1.2×10⁻⁹', pad=20, fontsize=14)
     ax.set_rlabel_position(45)
     ax.set_ylabel('Distance (km)', labelpad=30)
     ax.legend(loc='lower left', bbox_to_anchor=(-0.15, -0.15), fontsize=9, framealpha=0.9)
@@ -98,7 +98,7 @@ def fig1_polar_bearings():
 # ===========================================================
 def fig2_penanggungan_detail():
     print("Generating Figure 2: Penanggungan detail map...")
-    df = pd.read_csv(os.path.join(E031, "candi_volcano_pairs.csv"))
+    df = pd.read_csv(os.path.join(E031, "canonical30", "candi_volcano_pairs_canonical30.csv"))
     penang = df[df['nearest_volcano'] == 'Penanggungan'].copy()
 
     # Penanggungan peak coordinates (approximate)
@@ -141,12 +141,12 @@ def fig2_penanggungan_detail():
                  fontsize=9, ha='center', color='brown',
                  bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.8))
 
-    # Right: Quadrant bar chart for all 142 candi
-    with open(os.path.join(E065, "e065_results.json")) as f:
+    # Right: Quadrant bar chart for all 142 candi (canonical30)
+    with open(os.path.join(E031, "canonical30", "alignment_summary_canonical30.json")) as f:
         e065 = json.load(f)
 
-    quads = e065['azimuthal_stats']['quadrants']
-    labels = ['North', 'East', 'South', 'West']
+    quads = e065['siting_analysis']['quadrant_counts']
+    labels = ['N', 'E', 'S', 'W']
     counts = [quads[q] for q in labels]
     colors = ['#7FB3D8', '#FF9999', '#7FB3D8', '#77DD77']
     expected = 142 / 4
@@ -159,7 +159,7 @@ def fig2_penanggungan_detail():
                 f'{count}\n({count/142*100:.1f}%)', ha='center', fontsize=10, fontweight='bold')
 
     ax2.set_ylabel('Number of Candi')
-    ax2.set_title('Quadrant Distribution (all Java, n=142)\nχ² = 54.68, p < 0.0001')
+    ax2.set_title('Quadrant Distribution (all Java, n=142)\nχ² = 46.11, p < 0.0001')
     ax2.legend(fontsize=10)
     ax2.set_ylim(0, max(counts) * 1.25)
 
@@ -321,8 +321,9 @@ def fig4_crosscultural_scatter():
     non_volcanic = ritual_scores[ritual_scores['is_volcanic'] == 0]['ritual_complexity'].dropna()
 
     bp = ax2.boxplot([volcanic.values, non_volcanic.values],
-                     labels=['Volcanic\nIslands', 'Non-Volcanic\nIslands'],
                      patch_artist=True, widths=0.5)
+    ax2.set_xticks([1, 2])
+    ax2.set_xticklabels(['Volcanic\nIslands', 'Non-Volcanic\nIslands'])
     bp['boxes'][0].set_facecolor('#FF9999')
     bp['boxes'][1].set_facecolor('#99CCFF')
 
