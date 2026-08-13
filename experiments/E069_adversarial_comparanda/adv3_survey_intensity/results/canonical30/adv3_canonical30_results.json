@@ -1,0 +1,46 @@
+{
+  "experiment": "ADV-3 Survey Intensity Sufficiency \u2014 CANONICAL-30 RE-RUN",
+  "date": "2026-08-13",
+  "volcano_source": "D:\\documents\\volcarch-repo\\data\\processed\\dashboard\\volcanoes_java_full.csv",
+  "n_volcanoes": 30,
+  "n_sites": 666,
+  "n_cells": 722,
+  "n_valid_cells": 703,
+  "n_occupied_cells": 110,
+  "model1": {
+    "log_likelihood": -682.6255697004046,
+    "aic": 1373.2511394008093,
+    "pseudo_r2": 0.3819777857957656,
+    "coefficients": {
+      "road_dist": -7.149594909917037,
+      "bpcb_dist": -1.3312048680839412,
+      "uni_dist": -0.5259014179365581
+    }
+  },
+  "model2": {
+    "log_likelihood": -636.4855404690375,
+    "aic": 1282.971080938075,
+    "pseudo_r2": 0.42375114485926035,
+    "coefficients": {
+      "road_dist": -7.844206695702886,
+      "bpcb_dist": -1.1867873509070683,
+      "uni_dist": -0.3601682041543427,
+      "volcano_dist": -0.8310093385336599
+    }
+  },
+  "likelihood_ratio_test": {
+    "lr_statistic": 92.28005846273436,
+    "df": 1,
+    "p_value": 7.523864052379594e-22
+  },
+  "dispersion_ratio": 14.162571834992887,
+  "dispersion_phi": 3.5029325038760017,
+  "adjusted_lr_p": 2.8575556694200656e-07,
+  "delta_pseudo_r2": 0.041773359063494775,
+  "aic_improvement": 90.28005846273436,
+  "verdict": "VOLCARCH SUPPORTED",
+  "baseline_7volcano": {
+    "beta": -0.47659563995396126,
+    "adjusted_p": 0.0015436974286970916
+  }
+}

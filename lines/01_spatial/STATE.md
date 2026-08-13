@@ -146,9 +146,10 @@ withdrawn.
 
 - **P17** (ArchCalc 365) — under review. Correction note **SENT to the editor 2026-08-11** (queryId
   162, verified landed). Do not touch the manuscript; it is live and double-blind.
-- **P11** — SPAFA: `draft_v0.6_spafa.tex` + SIG **CONDITIONAL GO** (08-11). **Target kirim ≤
-  2026-08-20** (keputusan PI 08-13, D1). 5 syarat tersisa di `SPAFA_SUBMISSION_PREP.md`: E069 kanonik,
-  G9 cross-model, format SPAFA, G8 baris 104, konversi+submit=PI.
+- **P11** — SPAFA: **🟢 SIG GO — 5 syarat SELESAI 08-13.** `draft_v0.7_spafa.tex` (Harvard
+  author-date, dual-language ID, 29 referensi semua-penulis) → PDF 14 hal + `spafa_assets/P11_submission_v0.7.docx`
+  (template SPAFA) + draf Figure Form. **Aksi PI:** review DOCX + terjemahan ID → isi/tanda-tangani
+  Figure Form → submit portal spafajournal.org. **Target ≤ 2026-08-20** (D1).
 - **D1/D2** — both **published on Zenodo 2026-08-11**: D1 (CARJ) `10.5281/zenodo.21882007`, D2
   (Mini-NusaRC) `10.5281/zenodo.21882247`. No longer career-line items.
 

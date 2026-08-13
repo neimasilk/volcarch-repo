@@ -9501,11 +9501,53 @@ keluaran paling andal sistem; (4) angka hantu kini 3 sub-kelas: tanpa sumber / b
 layak-lapor (tandai, jangan hapus) / pointer hantu.
 
 **Menunggu PI (agenda decision hour D1–D7, dokumen §8):** SPAFA target ≤20 Agt · otorisasi E211 ·
-karya baru E209 spatial-CV re-run + E226 literatur abu-abu · outreach Castillo+Vida/BRIN · L1
+karya baru E209 spatial-CV re-run + E225 literatur abu-abu · outreach Castillo+Vida/BRIN · L1
 disagregasi Jawa/Nusantara · falsifikasi bertanggal 15 Sep · aturan audit + daftar TERMINATE zombie.
 
 **Decision hour (akhir sesi) — D1–D4 dijawab PI, semua YA:** SPAFA target ≤2026-08-20 · E211
-DIOTORISASI (112 hari selesai) · karya baru keduanya (E209 + E226) · dua email outreach (Claude draf,
+DIOTORISASI (112 hari selesai) · karya baru keduanya (E209 + E225) · dua email outreach (Claude draf,
 PI approve). D5–D7 menunggu konfirmasi teks (D6/D7 default YA). Handoff baru:
 `docs/HANDOFF_20260813.md`; `HANDOFF_20260811b.md` dipindah ke `docs/archive/handoffs/`. Seluruh
 perubahan sesi di-commit + push.
+
+## 2026-08-13 (mode otonom) — P11→SPAFA tuntas ke aksi PI + E211/E225/outreach siap
+
+**P11 → SPAFA — kelima syarat SIG selesai dalam satu segmen:**
+1. **E069 kanonik** (`adv3_survey_intensity_canonical30.py`): β −0.477→**−0.831**, p 0.0015→
+   **2.9×10⁻⁷** — temuan menguat pada inventori 30 puncak; naskah + footnote diperbarui.
+2. **G8**: kalimat "colonial-era earthworks" ditulis ulang jujur (Sambisari 1966, Kimpulan 2009);
+   277/391 = **70.8%** (73.1% = candi+arca+prasasti) — verifikasi E129 menemukan "73%" salah label.
+3. **Format SPAFA diverifikasi dari situs resmi** (Author Guidelines 31 Des 2025): **NO APC
+   verbatim**; Word/.RTF; dual-language EN+ID; **Harvard author-date** (catatan kaki hanya diskusi);
+   Figure Submission Form wajib; AI disclosure wajib di Acknowledgments dengan versi+tanggal;
+   en-dash tanpa em-dash; "per cent". Template + form diunduh (`spafa_assets/`).
+4. **G9 cross-model** (subagent diprogram menolak): tidak ada fabrikasi; klaim inti selamat;
+   **10 luka presisi ditemukan dan SEMUA diperbaiki** — mekanisme angin terbalik secara klimatologis
+   (monsun tenggara, bukan barat→timur) ditulis ulang; seksi 929 M di-re-derive kanonik
+   (`e105_rerun_canonical30.py`: 57/91/53/89 → **58.0/91.4/48.4/86.7**, n=100/31, footnote transparan);
+   Liangan 6–8 m → **4–6 m** (E153); n prasasti 170 → **182/175** (E082 kanonik); 12.9 → **13.1%**;
+   harmoni kedalaman 2–9 m; wording LR-test.
+5. **Konversi**: agent terpisah mengonversi 28 footnote sitasi → Harvard author-date (10 footnote
+   diskusi/data dipertahankan), em-dash→en-dash, "per cent", Acknowledgements+AI disclosure
+   (Claude versi 4–5, Feb–Agu 2026), References 29 entri (Newhall 18 penulis diverifikasi Crossref,
+   Whitten 1996 diberi sitasi in-text). Perbaikan G9 diterapkan ulang ke v0.7 (agent membaca v0.6
+   pra-G9). Hasil: `draft_v0.7_spafa.pdf` 14 hal bersih, glyph OK, + `spafa_assets/P11_submission_v0.7.docx`
+   (template SPAFA, 924 KB) + draf Figure Form + cover letter. **SIG final: 🟢 GO — tinggal aksi PI
+   (review + form + submit portal ≤ 20 Agt).**
+
+**E211**: protokol evaluasi pra-registrasi (`EVAL_PROTOCOL_20260813.md`: 7 tipe entitas, 300+200
+kalimat held-out berstrata, κ≥0.6, F1≥0.70 publikasi, kill <0.40, seleksi dibekukan) — smoke test
+10 file adalah gerbang berikutnya.
+
+**E225** (koreksi nomor dari "E226" — next free = E225): pra-registrasi `DESIGN.md` selesai
+(H1 ≥1 kandidat pra-400 M/100 dokumen; kill 0/100+ → negatif informatif; ≤$10 DeepSeek).
+
+**Outreach**: dua draf email jujur (`EMAIL_CASTILLO_PHYTOLITH_DRAFT_20260813.md` pitch falsifikasi
+— draf lama ditandai overclaim; `EMAIL_VIDA_BRIN_DRAFT_20260813.md` menindaklanjuti lead 8 Jun) —
+menunggu approve PI.
+
+**Pelajaran sesi:** (1) agent konversi membaca file pra-perbaikan → perbaikan harus diterapkan ulang
+ke output agent — urutkan: review adversarial DULU, baru konversi; (2) kritik sistem menulis "E226"
+tanpa cek nomor berikutnya yang bebas (E225) — penomoran eksperimen harus dicek `ls -d experiments/E*`
+sebelum menulis kritik; (3) verifikasi persentase footnote terhadap sumbernya (70.8 vs 73) menangkap
+salah label yang lolos G1 — G8 bekerja.

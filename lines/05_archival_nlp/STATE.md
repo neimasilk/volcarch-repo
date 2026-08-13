@@ -27,11 +27,11 @@ is on disk, and no external human is required.
 
 ## Next actions for Claude
 
-- [ ] **Pre-write the E211 evaluation protocol** *before* the run is authorised: annotated held-out
-      set, entity types, metrics, and the selection rule — declared in advance. Line 01's refutation
-      is the reason this comes first, not after.
-- [ ] Dry-run VOC-ArchNLP end-to-end on a **10-file sample** to prove the four modules chain cleanly
-      and to size the full run. A smoke test is not the corpus run and does not need approval.
+- [x] **E211 evaluation protocol pre-written** ✅ 2026-08-13 → `experiments/E211_voc_dagregister_nlp/EVAL_PROTOCOL_20260813.md`
+      (7 tipe entitas, 300+200 kalimat held-out berstrata, κ≥0.6, F1≥0.70 = publikasi, kill <0.40,
+      seleksi publikasi dibekukan). Run diotorisasi PI 13 Aug (D2).
+- [ ] Dry-run VOC-ArchNLP end-to-end on a **10-file sample** (protokol §6: file pertama urutan nama,
+      cek 4 modul + skema + waktu per file) — ini gerbang sebelum full run 500 file.
 - [x] ~~Prepare D1's Zenodo fallback package~~ — **MOOT 2026-08-11**: D1 published directly on Zenodo
       (`10.5281/zenodo.21882007`), DOI already live, no JOAD dependency. The separate JOAD
       submission question (waiver fund) is a career-line decision, not a blocking prerequisite.

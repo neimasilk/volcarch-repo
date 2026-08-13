@@ -1,0 +1,53 @@
+{
+  "experiment": "E105 topic x zone contingency \u2014 CANONICAL-30 RE-RUN",
+  "date": "2026-08-13",
+  "n_joined": 131,
+  "n_pre_929": 100,
+  "n_post_929": 31,
+  "zone_table_pre_929": {
+    "Volcano": {
+      "Sanskrit-dominant": 14,
+      "Mixed": 14,
+      "Indigenous-rich": 10
+    },
+    "Court": {
+      "Sanskrit-dominant": 53,
+      "Mixed": 3,
+      "Indigenous-rich": 2
+    },
+    "Periphery": {
+      "Indigenous-rich": 1,
+      "Mixed": 2,
+      "Sanskrit-dominant": 1
+    }
+  },
+  "zone_table_post_929": {
+    "Volcano": {
+      "Sanskrit-dominant": 2,
+      "Indigenous-rich": 1,
+      "Mixed": 1
+    },
+    "Court": {
+      "Sanskrit-dominant": 3,
+      "Mixed": 4,
+      "Indigenous-rich": 5
+    },
+    "Periphery": {
+      "Sanskrit-dominant": 2,
+      "Mixed": 6,
+      "Indigenous-rich": 7
+    }
+  },
+  "headline": {
+    "pre_929_court_pct": 58.0,
+    "pre_929_court_sanskrit_pct": 91.4,
+    "post_929_periphery_pct": 48.4,
+    "post_929_periphery_mixedindigenous_pct": 86.7
+  },
+  "baseline_20260317": {
+    "pre_court": 57,
+    "pre_court_sanskrit": 91,
+    "post_periphery": 53,
+    "post_periphery_mixind": 89
+  }
+}

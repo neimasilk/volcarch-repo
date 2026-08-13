@@ -23,7 +23,7 @@
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
 > **Latest handoff: `docs/HANDOFF_20260813.md`** (older ones in `docs/archive/handoffs/`). It records
-> kritik sistem putaran 2 + decision hour D1–D4 (SPAFA ≤20 Agt · E211 authorised · E209+E226 ·
+> kritik sistem putaran 2 + decision hour D1–D4 (SPAFA ≤20 Agt · E211 authorised · E209+E225 ·
 > outreach). The prior `HANDOFF_20260811b.md` (ledger empty, DOIs live) is now archived.
 > For the P2
 > claim set, the authoritative document is
@@ -60,7 +60,7 @@ Counts below are as of **2026-08-11**.
 **All five items closed or parked on 2026-08-11.** P17 correction went out while the paper was still
 under review; D1+D2 published with live DOIs — the "0 external outputs" run is over; items 2, 4, 5 are
 🅿 parked by PI decision. **The exposure ledger is empty — the ME#19 forcing function is discharged** (stop-list: **karya baru
-diizinkan PI 2026-08-13** — decision hour D3: E209 spatial-CV re-run + E226 pra-registrasi).
+diizinkan PI 2026-08-13** — decision hour D3: E209 spatial-CV re-run + E225 pra-registrasi).
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
@@ -87,7 +87,7 @@ closed or parked.**
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟢 COOLING | **P2 SENT 11 Aug**. Next: **P11 → SPAFA — 5 syarat, target kirim ≤ 2026-08-20** (keputusan D1, 13 Aug). Portal metadata JCAA: tagih bila editor diam. | journal |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟢 COOLING | **P2 SENT 11 Aug**. **P11 → SPAFA: 5 syarat ✅ SELESAI 13 Aug** (v0.7 Harvard + docx + Figure Form draf) — tinggal review PI + submit portal (target ≤ 2026-08-20, D1). Portal metadata JCAA: tagih bila editor diam. | journal |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E: P17 arm DONE** (core claim survives and strengthens; methods sentence + 3 numbers need correcting **with a live journal**). Next: P1, P11, P5, P8, manifesto | Claude; editor note = PI |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Write the E216 prose manuscript (parallel to co-author search) | Claude; co-author = PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
@@ -121,10 +121,10 @@ Audit 3 subagent + pembacaan langsung: eksekusi putaran 1 sebagian besar mendara
 C003 DONE-overstated (manifesto masih "224"), fix E209 salah kelas (angka bersumber dihapus),
 taksonomi T bertabrakan, EVAL.md zombie di daftar binding gate, decision hour tak pernah dijadwalkan,
 P11 mengulangi pola "siap-tanpa-kirim". **Agenda decision hour D1–D7 di dokumen §8** (SPAFA tanggal ·
-E211 · karya baru E209/E226 · outreach · L1 · falsifikasi bertanggal · aturan audit). Kanari v2 hijau
+E211 · karya baru E209/E225 · outreach · L1 · falsifikasi bertanggal · aturan audit). Kanari v2 hijau
 dan dipasang sebagai ritual awal-sesi (CLAUDE.md).
 **DECISION HOUR 2026-08-13 — 4/7 dijawab, semua YA:** D1 SPAFA target ≤2026-08-20 · D2 E211
-DIOTORISASI (112 hari selesai) · D3 kedua karya baru (E209 spatial-CV re-run + E226 pra-registrasi) ·
+DIOTORISASI (112 hari selesai) · D3 kedua karya baru (E209 spatial-CV re-run + E225 pra-registrasi) ·
 D4 dua email outreach (Claude draf, PI approve). ⏳ **Menunggu konfirmasi teks (default YA):** D6
 falsifikasi bertanggal 2026-09-15 · D7 aturan audit (pemicu kiriman/14 hari) + daftar TERMINATE
 zombie. **Tanpa default (PI):** D5 disagregasi Jawa/Nusantara di L1.

@@ -25,17 +25,41 @@
 cross-model pada v0.6 · (3) cek format SPAFA · (4) soften G8 baris ~104 + verifikasi baris ~266 ·
 (5) konversi format + submit = PI. Detail: `SIG_signoff.md`.
 
-## 3. Yang BELUM (tindakan tersisa, urut prioritas)
+## 3. Yang BELUM (tindakan tersisa, urut prioritas) — status 2026-08-13
 
-1. **Cek format SPAFA Journal** — muat pedoman penulis situs SPAFA (SEAMEO SPAFA, Bangkok): panjang,
-   gaya kutipan, format gambar, Word/LaTeX. ⚠ JANGAN submit sebelum ini. (Belum diverifikasi sesi ini —
-   tidak boleh di-fabrikasi.)
-2. **Re-derive E069** (`β=−0.477, p=0.0015`, baris ~259) dari data kanonik — cek apakah dependen
-   inventori gunung; bila ya, hitung ulang.
-3. **G9 cross-model** — jalankan `tools/critical_reviewer_prompt.md` pada v0.6 di DeepSeek; masukkan
-   hasilnya ke `external_reviews/`.
-4. **G8** — lunakkan baris ~104; verifikasi angka baris ~266 (391 situs, 277 candi, 5 pemukiman).
-5. **Konversi + submit** (portal SPAFA = PI) — ikuti checklist format di item 1.
+1. ~~**Cek format SPAFA Journal**~~ ✅ **VERIFIED 2026-08-13** dari situs resmi (spafajournal.org →
+   Submissions → Author Guidelines, "Last updated: 31 December 2025"). Ringkasan yang mengikat:
+   - **NO APC** (verbatim: "The SPAFA Journal has no article processing charges (APCs) or any other
+     charges.") — syarat zero-APC terpenuhi.
+   - **Format: Microsoft Word / OpenOffice / .RTF** (bukan PDF/LaTeX) — konversi wajib. Template:
+     SPJ Template 2026 Edition (diunduh: `spafa_assets/SPJ_Template_2026.docx`).
+   - **Dual-language:** judul + abstrak + kata kunci wajib dalam bahasa Inggris DAN bahasa Asia
+     Tenggara terkait (→ Bahasa Indonesia; draf ada di `SPAFA_DUAL_LANGUAGE_20260813.md`).
+   - **Sitasi: Harvard author-date** — "(Binford 1983: 6)"; catatan kaki HANYA untuk diskusi, bukan
+     sitasi. ⚠ Naskah kita memakai footnote Chicago penuh → **konversi sitasi wajib** sebelum submit.
+   - **Figure Submission Form** wajib untuk setiap naskah berfigur (form diunduh:
+     `spafa_assets/SPAFA_Figure_Submission_Form.docx`; draf isian di `SPAFA_FIGURE_FORM_DRAFT_20260813.md`).
+   - Figur ≥240 dpi, disisipkan di dalam teks, caption dengan "Source: ..." — figur kita 300 dpi ✓
+     (generate_figures.py `savefig.dpi: 300`), Source = "by the authors".
+   - **AI policy:** AI boleh untuk editing bahasa + analisis data, WAJIB dideklarasi di bagian
+     **Acknowledgments** dengan nama+versi tool, tanggal pemakaian, dan deskripsi singkat. AI-generated
+     images dilarang (figur kita plot matplotlib dari data — aman, nyatakan di deklarasi).
+   - Gaya: ejaan Inggris (British disukai), **tanpa em dash** (pakai en dash), "per cent" dieja di
+     prosa, CE/BCE, 12pt single-spaced, angka satu-sembilan dieja.
+   - Submit via portal OJS spafajournal.org (Login/Register) — aksi PI.
+2. ~~**Re-derive E069**~~ ✅ **DONE 2026-08-13** — `adv3_survey_intensity_canonical30.py`: β = **−0.831**,
+   p = **2.9×10⁻⁷** (quasi-LR) — **menguat** dari β=−0.477/p=0.0015. Catatan:
+   `experiments/E069_adversarial_comparanda/adv3_survey_intensity/RESULTS_CANONICAL30_20260813.md`.
+   Teks + footnote naskah baris ~259 diperbarui; kompilasi bersih, glyph OK.
+3. **G9 cross-model** — ⏳ berjalan (subagent adversarial diprogram menolak, 2026-08-13); hasil →
+   `external_reviews/G9_CROSS_MODEL_20260813.md`.
+4. ~~**G8**~~ ✅ **DONE 2026-08-13** — baris ~104 dilunakkan ("the 142 compiled candi"); baris ~266
+   diverifikasi ke sumber E129: 277/391 = **70.8%** (bukan 73%); 73.1% = candi+arca+prasasti.
+   Teks + footnote dikoreksi.
+5. **Konversi + submit** — tersisa: (a) konversi sitasi footnote→Harvard author-date + reformat
+   bibliography; (b) terjemahan dual-language dimasukkan; (c) deklarasi AI → Acknowledgments dengan
+   versi+tanggal; (d) gaya SPAFA (en-dash, per cent, ejaan); (e) ekspor .docx via pandoc dari template;
+   (f) isi Figure Submission Form + tanda tangan PI; (g) submit portal = PI.
 
 ## 4. Cover letter (SPAFA)
 

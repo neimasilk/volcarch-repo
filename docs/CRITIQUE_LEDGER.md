@@ -61,9 +61,9 @@ Format baris: `[id] tanggal — klaim — V×C → DISPOSISI — status`
 | C011 | Fix E209 putaran 1 salah kelas: angka bersumber dihapus, diganti klaim kontradiktif (R9) | 2×1 | FIX | ✅ DONE 08-13 — `01_spatial/CLAUDE.md` kini berpointer ke FINDINGS_v1 |
 | C012 | Taksonomi T/F bertabrakan (pagi T1–T6 vs malam T0–T7; F- dua keluarga) (R10) | 2×1 | FIX-CHEAP | OPEN — namespace tunggal: SIG + C-NNN |
 | C013 | Kanari merah tak terpasang ke awal sesi; tak bandingkan disk (R10) | 2×2 | FIX | ✅ DONE 08-13 — `check_doc_sync.py` v2 hijau, dipasang ke CLAUDE.md |
-| C014 | P11: 5 syarat SPAFA tanpa tanggal — pola "siap-tanpa-kirim" berulang (R12) | 2×1 | FIX | IN PROGRESS — D1 DIJAWAB PI 08-13: **target kirim ≤ 2026-08-20**; 5 syarat = kerja Claude sesi berikutnya |
+| C014 | P11: 5 syarat SPAFA tanpa tanggal — pola "siap-tanpa-kirim" berulang (R12) | 2×1 | FIX | ✅ **5 SYARAT SELESAI 2026-08-13** (E069 kanonik · G9+10 perbaikan · format terverifikasi · G8 · konversi v0.7+docx+form); **tinggal aksi PI**: review + Figure Form + submit portal ≤ 2026-08-20 |
 | C015 | TRIGGER_MAP 5 bulan tanpa FIRED; IDEA_REGISTRY READY basi (R11) | 2×1 | FIX-CHEAP | OPEN — audit atau pensiun |
-| C016 | Decision hour tak pernah dijadwalkan; E211 112 hari (R13) | 2×2 | FIX | ✅ **DECISION HOUR HELD 2026-08-13** — D1–D4 dijawab PI (semua YA: SPAFA ≤20 Agt · E211 · E209+E226 · outreach); D5–D7 menunggu konfirmasi teks (default YA untuk D6/D7) |
+| C016 | Decision hour tak pernah dijadwalkan; E211 112 hari (R13) | 2×2 | FIX | ✅ **DECISION HOUR HELD 2026-08-13** — D1–D4 dijawab PI (semua YA: SPAFA ≤20 Agt · E211 · E209+E225 · outreach); D5–D7 menunggu konfirmasi teks (default YA untuk D6/D7) |
 | C017 | E209 spatial-CV re-run (revival diamond-hunt, $0, 1 sesi komputasi) (R14) | 2×1 | PARK | ✅ **UNPARKED 2026-08-13** (D3 YA) — spatial-CV + ≥7 seeds; selamat → kandidat P23 + top-20 target |
 | C018 | P5: ultimatum putaran 1 kedaluwarsa tanpa parkir/reframe (R12) | 2×1 | FIX-CHEAP | OPEN — PARKED.md atau reframe |
 | C019 | Manifesto §2 "permanen" memuat angka volatil (AUC 0.768, "224") (R10) | 2×1 | FIX | ✅ DONE 08-13 — §2 bebas angka, §3 = 214 |

@@ -16,8 +16,10 @@ G10 human independent review: [N/A] — notulen pendek; direkomendasikan jika re
 Downgrades made: inventori 16→30 menggeser angka tanpa mengubah arah kesimpulan (semua menguat atau tetap signifikan): 279°→298° (WNW), 47.2%→47.9%, kuadran timur "fewer than 4%"→"under 10%" (9.2%), Rayleigh 3.4e-8→1.2e-9, Zone A 42.3%→45.1%, overrep 17.9×→19.1×, gap candi↔inskripsi 9.2→6.1 km, MW p 5.2e-8→2.8e-7.
 
 DECISION: **CONDITIONAL GO** — syarat sebelum kirim:
-1. Re-derive E069 survey-control pada inventori kanonik (G1 tersisa).
-2. Jalankan G9 cross-model pada v0.6.
-3. Cek format SPAFA Journal (`SPAFA_SUBMISSION_PREP.md` item 1).
-4. Soften G8 baris ~104 + verifikasi baris ~266.
-5. Kompilasi final + konversi format sesuai SPAFA; portal submission = PI.
+1. Re-derive E069 survey-control pada inventori kanonik (G1 tersisa). → ✅ **DONE 2026-08-13** — β = −0.831, p = 2.9×10⁻⁷ (menguat); `RESULTS_CANONICAL30_20260813.md`.
+2. Jalankan G9 cross-model pada v0.6. → ✅ **DONE 2026-08-13** — `external_reviews/G9_CROSS_MODEL_20260813.md`: tidak ada fabrikasi, klaim inti selamat, 10 temuan presisi — **semua 10 diperbaiki** di v0.6 + v0.7 (mekanisme angin dikoreksi klimatologis, seksi 929 M di-re-derive kanonik 58/91/48/87%, Liangan 4–6 m, n=175, 13.1%, 2–9 m).
+3. Cek format SPAFA Journal. → ✅ **VERIFIED 2026-08-13** — lihat `SPAFA_SUBMISSION_PREP.md` §3 (no-APC verbatim, Word/.RTF, dual-language, Harvard author-date, Figure Form, AI policy).
+4. Soften G8 baris ~104 + verifikasi baris ~266. → ✅ **DONE** — kalimat ditulis ulang jujur (Sambisari 1966/Kimpulan 2009); 277/391 = 70.8% (73.1% komposit), terverifikasi E129.
+5. Kompilasi final + konversi format sesuai SPAFA; portal submission = PI. → ✅ **SIAP** — `draft_v0.7_spafa.tex` (Harvard author-date, en-dash, per cent, Acknowledgements+AI disclosure, dual-language ID, References 29 entri semua-penulis via Crossref) → PDF 14 hal bersih + `spafa_assets/P11_submission_v0.7.docx` (template SPAFA) + Figure Form draf + cover letter.
+
+**FINAL: 🟢 GO** — tinggal aksi PI: (a) review DOCX + terjemahan ID, (b) isi+tandatangani Figure Submission Form, (c) daftar di portal spafajournal.org dan submit (target ≤ 2026-08-20).

@@ -246,7 +246,7 @@ Ledger putaran 1 benar dan dipertahankan. Tiga amandemen dari temuan putaran ini
    target lapangan. Ini "satu deteksi positif" termurah yang tersedia saat ini.
 4. **Dua email outreach mikrobotani** — Castillo (UCL) + Vida Kusmartono (BRIN; lead 8 Jun, ia sudah
    menyuarakan argumen tafonomi proyek di media). Menghidupkan C004+C009 dalam satu gerakan. $0.
-5. **E226 — kanal NLP literatur abu-abu** (desain di §7), pra-registrasi DESIGN.md, jalankan mining
+5. **E225 — kanal NLP literatur abu-abu** (desain di §7), pra-registrasi DESIGN.md, jalankan mining
    pass pertama. $0–10.
 
 ### REFACTOR (Claude, sesi ini/berikutnya)
@@ -279,7 +279,7 @@ termurah yang sudah setengah jadi: E209** (lihat PIVOT 3) — classifier yang me
 0.86–0.97 saat di-hold-out (Sambisari 0.965, Kedulan 0.930) *sudah ada*, hanya tidak layak lapor dalam
 bentuknya sekarang. Satu sesi komputasi memisahkannya dari "temuan" atau "kill".
 
-**Desain singkat E226 (kanal arsip-penghapusan, siap pra-registrasi):**
+**Desain singkat E225 (kanal arsip-penghapusan, siap pra-registrasi):**
 - *Pertanyaan:* berapa banyak situs/horizon pra-400 M yang sudah tercatat di literatur abu-abu
   arkeologi Indonesia (Berita Penelitian Arkeologi, Kalpataru, Amerta, laporan Balai/BPCB/PUSLIT) tapi
   tidak ada di database modern proyek (E001/NusaRC)?
@@ -299,7 +299,7 @@ berarti sebagian batimetrinya sintetik; klaim paleoshoreline di atas data sintet
 (presisi hantu). GEBCO asli atau tidak sama sekali; (5) GPR — jangan. Biayanya ribuan dolar per hari
 survei, bukan $100; posisinya validasi pasca-deteksi (manifesto §2.2b sudah benar).
 
-**Anggaran $100 PI:** habiskan untuk kuota DeepSeek API E226 (≤$10) + bila ada sisa, satu monograf
+**Anggaran $100 PI:** habiskan untuk kuota DeepSeek API E225 (≤$10) + bila ada sisa, satu monograf
 Balai Arkeologi berbayar yang tak ada di korpus publik. Tidak untuk GPR, tidak untuk soil core
 (soil core butuh kolaborator, bukan uang $100).
 
@@ -311,7 +311,7 @@ Balai Arkeologi berbayar yang tak ada di korpus publik. Tidak untuk GPR, tidak u
 |---|---|---|---|
 | D1 | P11→SPAFA: target kirim ≤2026-08-20, Claude kerjakan 5 syarat | **YA** | submit tetap PI |
 | D2 | Otorisasi E211 (112 hari) | **YA** | menyuplai 4 trek PhD + kanal arsip |
-| D3 | Karya baru pasca-stop-list: E209 re-run + E226 pra-registrasi | **YA** | keduanya $0–10, 2–3 sesi |
+| D3 | Karya baru pasca-stop-list: E209 re-run + E225 pra-registrasi | **YA** | keduanya $0–10, 2–3 sesi |
 | D4 | Dua email outreach (Castillo + Vida/BRIN) — Claude draf, PI approve | **YA** | $0, menghidupkan C004+C009 |
 | D5 | L1 disagregasi Jawa/Nusantara | PI | amandemen piagam — tanpa default |
 | D6 | Falsifikasi berdiri bertanggal: 2026-09-15 | **YA** | kandidat disepakati di jam ini |
