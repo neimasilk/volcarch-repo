@@ -46,7 +46,7 @@ independently of any paper acceptance — see [07_career](../07_career/).
 
 | Item | Folder | Status |
 |---|---|---|
-| **D1** Colonial register | `papers/D1_colonial_register/` | Data paper, **52 entries**. DRAFT READY for **JOAD**. ⚠ **JOAD is NOT Diamond OA — APC £374.** It does have a waiver fund; request it in the cover letter. Zenodo is the free DOI fallback. |
+| **D1** Colonial register | `papers/D1_colonial_register/` | Data paper, **52 entries**. ✅ **PUBLISHED on Zenodo 2026-08-11** — `10.5281/zenodo.21882007` (v1.0). JOAD no longer a dependency; the register lives as an open dataset. |
 | **P21** ColonialMine | `papers/P21_colonialmine/` | Proposal (a *mudik* idea). Not started. |
 
 ---
@@ -55,7 +55,7 @@ independently of any paper acceptance — see [07_career](../07_career/).
 
 | Experiment | What it is | Status |
 |---|---|---|
-| `E211_voc_dagregister_nlp` | **Phase 1 pipeline = VOC-ArchNLP.** 500 files downloaded. | 🛑 **awaiting PI approval to run** |
+| `E211_voc_dagregister_nlp` | **Phase 1 pipeline = VOC-ArchNLP.** 500 files downloaded. | 🛑 **awaiting PI approval to run (112 days as of 2026-08-13)** |
 | `E207_globalise_voc_pilot` | GLOBALISE pilot | done — schema verified |
 | `E200_dutch_ner_baseline` | Dutch NER baseline | done |
 | `E206_archeobert_colonial_gap` | ArcheoBERT on the colonial gap | done |

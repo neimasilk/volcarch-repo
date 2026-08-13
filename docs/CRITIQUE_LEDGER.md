@@ -46,13 +46,30 @@ Format baris: `[id] tanggal — klaim — V×C → DISPOSISI — status`
 |---|---|---|---|---|
 | C001 | Inflasi label sukses: indeks tak memilah defensif/ofensif/disconfirming (R1) | 2×1 | FIX-CHEAP | OPEN — T2 di `scan_experiments.py` |
 | C002 | Angka hantu "E209 AUC 0.844" di `01_spatial/CLAUDE.md` (R2) | 2×2 | FIX | ✅ DONE 2026-08-11 (dihapus, diganti status jujur) |
-| C003 | Hitungan eksperimen "224" vs indeks 214 tak rekonsiliasi (R2) | 2×1 | FIX | ✅ DONE 2026-08-11 (214 lokal, E001–E224) |
-| C004 | Uji decisive mikrobotani (E215) tak pernah dijalankan (R3) | 2×2 | PARK | OPEN — unpark: outreach arkeobotanis (Castillo/UCL/BRIN); pemilik: PI |
+| C003 | Hitungan eksperimen "224" vs indeks 214 tak rekonsiliasi (R2) | 2×1 | FIX | 🔄 **PARTIAL** — WORKSTATE/memory/indeks ✓ 08-11; manifesto+lines/README baru dibereskan 08-13; status DONE sebelumnya overstated (C020) |
+| C004 | Uji decisive mikrobotani (E215) tak pernah dijalankan (R3) | 2×2 | PARK | IN PROGRESS — PI setuju 08-13 (D4): draf email Castillo+Vida dikerjakan Claude, PI approve sebelum kirim; unpark penuh saat terkirim |
 | C005 | Eksperimen alami Jawa Barat: konfound upaya-survei + tanpa naskah (R4) | 2×2 | FIX | IN PROGRESS — kontrol survei dibangun di skeleton letter (2026-08-11) |
 | C006 | Konflasi "Nusantara" ≠ "Jawa" di piagam (R5) | 2×2 | PARK | OPEN — unpark: amandemen L1 (disaggregasi); pemilik: PI |
 | C007 | Botol manusia: keputusan tak di-batch, E211 110 hari (R6) | 2×1 | FIX-CHEAP | OPEN — decision hour mingguan |
 | C008 | AutoResearch zombie + antrian paper sunk-cost (R7) | 2×1 | FIX-CHEAP | OPEN — arsip AUTORESEARCH_CONCEPT, park P5 jika tak reframe |
-| C009 | Kapabilitas AI bukan kendala; satu arkeobotanis > 1000 eksperimen (R6) | 2×2 | FIX | OPEN — outreach, pemilik: PI |
+| C009 | Kapabilitas AI bukan kendala; satu arkeobotanis > 1000 eksperimen (R6) | 2×2 | FIX | IN PROGRESS — PI setuju 08-13 (D4): dua email, Claude draf, PI approve |
+
+### Sesi 2026-08-13 (kritik sistem putaran 2 — semua masuk dari `CRITIQUE_SYSTEM_DESIGN_20260813.md`)
+| id | Kritik | V×C | Disposisi | Status |
+|---|---|---|---|---|
+| C010 | EVAL.md zombie binding-gate: klaim tautologi yang sudah ditarik masih "mengikat" (R8) | 2×2 | FIX | OPEN — rewrite sebagai pointer/arsip |
+| C011 | Fix E209 putaran 1 salah kelas: angka bersumber dihapus, diganti klaim kontradiktif (R9) | 2×1 | FIX | ✅ DONE 08-13 — `01_spatial/CLAUDE.md` kini berpointer ke FINDINGS_v1 |
+| C012 | Taksonomi T/F bertabrakan (pagi T1–T6 vs malam T0–T7; F- dua keluarga) (R10) | 2×1 | FIX-CHEAP | OPEN — namespace tunggal: SIG + C-NNN |
+| C013 | Kanari merah tak terpasang ke awal sesi; tak bandingkan disk (R10) | 2×2 | FIX | ✅ DONE 08-13 — `check_doc_sync.py` v2 hijau, dipasang ke CLAUDE.md |
+| C014 | P11: 5 syarat SPAFA tanpa tanggal — pola "siap-tanpa-kirim" berulang (R12) | 2×1 | FIX | IN PROGRESS — D1 DIJAWAB PI 08-13: **target kirim ≤ 2026-08-20**; 5 syarat = kerja Claude sesi berikutnya |
+| C015 | TRIGGER_MAP 5 bulan tanpa FIRED; IDEA_REGISTRY READY basi (R11) | 2×1 | FIX-CHEAP | OPEN — audit atau pensiun |
+| C016 | Decision hour tak pernah dijadwalkan; E211 112 hari (R13) | 2×2 | FIX | ✅ **DECISION HOUR HELD 2026-08-13** — D1–D4 dijawab PI (semua YA: SPAFA ≤20 Agt · E211 · E209+E226 · outreach); D5–D7 menunggu konfirmasi teks (default YA untuk D6/D7) |
+| C017 | E209 spatial-CV re-run (revival diamond-hunt, $0, 1 sesi komputasi) (R14) | 2×1 | PARK | ✅ **UNPARKED 2026-08-13** (D3 YA) — spatial-CV + ≥7 seeds; selamat → kandidat P23 + top-20 target |
+| C018 | P5: ultimatum putaran 1 kedaluwarsa tanpa parkir/reframe (R12) | 2×1 | FIX-CHEAP | OPEN — PARKED.md atau reframe |
+| C019 | Manifesto §2 "permanen" memuat angka volatil (AUC 0.768, "224") (R10) | 2×1 | FIX | ✅ DONE 08-13 — §2 bebas angka, §3 = 214 |
+| C020 | C003 DONE overstated — ledger mencatat klaim eksekusi salah (R10) | 2×1 | FIX | ✅ DONE 08-13 — C003 dikoreksi ke PARTIAL; aturan "DONE = artefak bernama terverifikasi" |
+| C021 | Zombie fisik + CANONICAL P2 menunjuk file yang salah (R12) | 2×1 | FIX-CHEAP | IN PROGRESS — CANONICAL ✅ 08-13; daftar TERMINATE §6 menunggu D7 |
+| C022 | Kontrak CLAUDE/STATE 6 line basi pasca-08-11 (≥15 blok; audit line 2026-08-13) | 2×1 | FIX | ✅ DONE 08-13 — kontrak 01–07 + lines/README + CANONICAL P2 disapu; kanari hijau verifikator |
 
 ### Referensi kritik terdahulu yang sudah diproses (untuk jejak)
 - **P7/Antiquity reviewer** — inventori gunung terpotong → FIX (G1/G3), menimbulkan WS-E + kanonik 30

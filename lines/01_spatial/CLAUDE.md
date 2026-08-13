@@ -58,11 +58,11 @@ a valid critique by rewording.*
 
 | Paper | Folder | Status |
 |---|---|---|
-| **P2** Settlement model | `papers/P2_settlement_model/` | 🔥 **R&R, JCAA #280, deadline 2026-08-20.** First R&R in 14 months. R2 is the gate (framing "Poor"). Direction chosen: **Jalur A** — reframe around the artefact finding. APC £593 waiver still undecided. |
+| **P2** Settlement model | `papers/P2_settlement_model/` | 📤 **RESUBMITTED 2026-08-11** — JCAA #280 v0.2 (artefact reframe), 9 hari sebelum tenggat. APC waiver diangkat di surat balasan; jawabannya milik jurnal. Kejar metadata portal bila editor diam. |
 | **P17** Two Javas | `papers/P17_two_javas/` | Under review — ArchCalc (CNR, Diamond OA) submission **365**, double-blind. WAIT. Best odds in the portfolio. |
-| **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | Rejected 2× (Cornell *Indonesia* scope; *Archipel* editorial). Core finding survives: temple–settlement gap 6.78 km, 80.6% <10 km, p<1e-6, inventory-independent. Retarget **SPAFA Journal** → Wacana → PCI Archaeology. Gated on: apply `revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md` (4-number abstract swap) + pass SIG. |
+| **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | Rejected 2× (editorial). Core finding survives (gap 6.78 km, 80.6% <10 km, p<1e-6, inventory-independent). **SPAFA siap-kirim konten** (v0.6, SIG CONDITIONAL GO 08-11); 5 syarat tersisa di `SPAFA_SUBMISSION_PREP.md`; target kirim ≤ 2026-08-20. |
 
-**77 experiments** are assigned to this line (66 primary). Authoritative list:
+**78 experiments** are assigned to this line (71 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 *(D2 / Mini-NusaRC moved to [02_taphonomy](../02_taphonomy/): it is a radiocarbon database built for
@@ -90,7 +90,9 @@ Plan: `revision_ammo/JCAA_R1_RESPONSE_PLAN_20260727.md`.
 **Spatial statistics:** `E184` (autocorrelation), `E185`, `E187`, `E183`
 **Cascade (DOWNGRADED — over-parameterised, keep as pedagogy only):** `E110`, `E115`, `E176`, `E182`
 **Prospection / remote sensing:** `E189`–`E194`, `E202`, `E209` (satellite buried-site classifier —
-scaffolded PHASE 1, **belum ada AUC**; target ≥0.75, kill <0.60, README E209), `E210`
+first-cut RF random-CV AUC 0.844 ± 0.060, optik saja, 1 seed → **belum layak lapor**; wajib spatial-CV
++ ≥7 seeds [aturan line 1–3] sebelum klaim apa pun; sumber `experiments/E209_satellite_ml_classifier/FINDINGS_v1_20260422.md`;
+target ≥0.75, kill <0.60), `E210`
 **Priority maps & fieldwork:** `E059`, `E080`, `E139`, `E166`, `E167`, `E171`
 
 Canonical volcano file: **`data/processed/dashboard/volcanoes_java_full.csv`** (30 volcanoes).
@@ -101,7 +103,7 @@ Never use the old 7-volcano `volcanoes.csv` — see [02_taphonomy](../02_taphono
 ## Line rules
 
 1. **SIG G1 is live here.** Every headline number in v0.2 gets re-derived blind from raw
-   `results/`, including E217–E223. Partially done.
+   `results/`, including E217–E223. ✅ Done (64 check, 4 mismatch = K5/K6/K7/G1c yang memang ditarik).
 2. **Declare the estimand.** This line's whole lesson is that a metric without a declared
    availability domain is meaningless. State background design, benchmark, and selection rule
    explicitly in every claim.
@@ -109,5 +111,5 @@ Never use the old 7-volcano `volcanoes.csv` — see [02_taphonomy](../02_taphono
    not reportable — 31–45% of top-decile cells turn over on seed alone.
 4. **No absolute quantifiers** ("always", "never", "all") without the fraction next to them. K3 is
    why.
-5. **Nothing goes to the editor without the PI.** The Verhagen disclosure email is **HELD** by PI
-   instruction: `docs/correspondence/EMAIL_VERHAGEN_JCAA_DISCLOSURE_DRAFT_20260727.md`.
+5. **Nothing goes to the editor without the PI.** The Verhagen disclosure email was **WITHDRAWN
+   2026-08-03** (PI) — do not revive it.

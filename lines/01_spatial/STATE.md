@@ -146,9 +146,9 @@ withdrawn.
 
 - **P17** (ArchCalc 365) — under review. Correction note **SENT to the editor 2026-08-11** (queryId
   162, verified landed). Do not touch the manuscript; it is live and double-blind.
-- **P11** — retarget to SPAFA: previously queued behind the [07_career](../07_career/) exposure
-  ledger — **now unblocked (ledger empty, 2026-08-11)**. Still do not start it as an alternative to
-  P2 work; it needs SIG + the 4-number abstract swap.
+- **P11** — SPAFA: `draft_v0.6_spafa.tex` + SIG **CONDITIONAL GO** (08-11). **Target kirim ≤
+  2026-08-20** (keputusan PI 08-13, D1). 5 syarat tersisa di `SPAFA_SUBMISSION_PREP.md`: E069 kanonik,
+  G9 cross-model, format SPAFA, G8 baris 104, konversi+submit=PI.
 - **D1/D2** — both **published on Zenodo 2026-08-11**: D1 (CARJ) `10.5281/zenodo.21882007`, D2
   (Mini-NusaRC) `10.5281/zenodo.21882247`. No longer career-line items.
 

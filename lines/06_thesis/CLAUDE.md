@@ -17,9 +17,9 @@ levelled at itself lands here:
 |---|---|
 | **F9** | Counting "N converging channels" as strength. The channels share corpora, share the site inventory, and are **correlated**. Consilience across dependent evidence is not consilience. |
 | **F10** | Citing `docs/drafts/manifesto.md` as evidence. It is a claim document. Circular. |
-| **Confirmation architecture** | 223 experiments produced ~2 disconfirmations (E214, E090 v7). That ratio is the diagnosis, not a score. See memory `feedback_confirmation_architecture`. |
+| **Confirmation architecture** | 214 experiments (lokal, E001–E224) produced ~2 disconfirmations (E214, E090 v7). That ratio is the diagnosis, not a score. See memory `feedback_confirmation_architecture`. |
 | **Equifinality** | *"The invisible civilization existed"* is unfalsifiable as stated. This is precisely what two *Antiquity* reviewers used to reject P7. |
-| **ME#19 stop-list** | No new papers. No new review rounds as a default. Binding constraint is **non-exposure, not rigor**. |
+| **ME#19 stop-list** | **DISCHARGED 2026-08-11** (ledger eksposur kosong). New-work status = PI call. The diagnosed binding constraint remains **non-exposure, not rigor** — it stays the lens even after discharge. |
 
 ### The honest current position
 

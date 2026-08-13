@@ -1,6 +1,6 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-07-30 · **Temperature:** 🔧 Tooling complete, corpus run not authorised
+**Updated:** 2026-08-13 · **Temperature:** 🔧 Tooling complete, corpus run not authorised
 
 ---
 
@@ -19,9 +19,9 @@ is on disk, and no external human is required.
 
 | # | Item | Since |
 |---|---|---|
-| 1 | **Approve the E211 run** on the 500 downloaded files. | 2026-04-23 |
+| ~~1~~ | ~~**Approve the E211 run** on the 500 downloaded files.~~ ✅ **AUTHORISED 2026-08-13** (decision hour D2, after 112 days). Sequence: pre-write eval protocol → 10-file smoke test → full run. | 2026-04-23 |
 | 2 | **DJKI HKI submission** — 4 registration documents are ready in `docs/HKI/`. Filing is a PI action. | 2026-04-23 |
-| 3 | **D1 → JOAD** submission incl. the APC-waiver request in the cover letter. | — |
+| ~~3~~ | ~~**D1 → JOAD** submission~~ — **MOOT 2026-08-11**: D1 published directly on Zenodo (`10.5281/zenodo.21882007`). JOAD waiver question = career-line decision, not a blocker here. | — |
 
 ---
 

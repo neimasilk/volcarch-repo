@@ -1,7 +1,13 @@
 # Paper 2 — Canonical File Pointer
 
-**Current working manuscript:** `submission_remote_sensing_v0.3.tex`
-**Compiled PDF:** `submission_remote_sensing_FINAL.pdf` (was v0.4, renamed for clarity)
+**Current working manuscript:** `submission_jcaa_v0.2.tex` — **RESUBMITTED to JCAA #280 on 2026-08-11**
+(v0.2, artefact reframe; 29 pp + Supplementary Tables S1–S6 + Response to Reviewers).
+
+> ⚠ **Klaim yang mengikat kini** = `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (K1–K7,
+> A7–A9). Baris v0.3/v0.4 di bawah adalah catatan sejarah: kerangka "tautology-resistant" dan
+> angka-angka yang ditarik di v0.2 tidak berlaku.
+
+**Compiled PDF (submitted):** `submission_jcaa_v0.2.pdf`
 **BibTeX references:** `references.bib`
 
 All other text files are historical drafts (kept for audit trail):
@@ -38,4 +44,4 @@ All other text files are historical drafts (kept for audit trail):
 - Cover letter: `cover_letter_jcaa.txt`
 - APC waiver requested
 
-**Next canonical version** would be `submission_jcaa_v0.2.tex` (if reviewer revisions needed).
+~~**Next canonical version** would be `submission_jcaa_v0.2.tex` (if reviewer revisions needed).~~ ✅ **DONE — v0.2 written and resubmitted 2026-08-11.**

@@ -7,7 +7,7 @@ yang dapat difalsifikasi + arah**. Angka hidup di §3 (kotak bertanggal) dan di
 `docs/EXPERIMENT_INDEX.md`; regenerasi: `python tools/scan_experiments.py`.
 
 > **v5.0 mengapa ditulis ulang.** v4.3 (2026-03-31, 179 eksperimen) sudah tidak menggambarkan proyek:
-> 224 eksperimen sekarang, dan klaim inti P2 baru saja di-self-refute (E217–E223). Lebih dalam dari itu,
+> 214 eksperimen lokal sekarang (E001–E224; 10 nomor tak pernah dibuat), dan klaim inti P2 baru saja di-self-refute (E217–E223). Lebih dalam dari itu,
 > v4.3 *mudah expired* karena mencampur cita-cita permanen dengan angka yang cepat busuk. v5.0
 > **memisahkan lapisan**: §1 Piagam dan §2 Arah dirancang tidak bergerak; §3 State sengaja dibuat
 > kedaluwarsa dan hanya menunjuk ke sumber live. Cascade dipensiunkan dari headline (underdetermined).
@@ -69,7 +69,7 @@ jalur pembunuhan yang sah.
 
 # §2 — Arah (*Where the research goes next*)
 
-Kelemahan struktural proyek: dari 224 eksperimen, nyaris semua **defensif** (menjelaskan mengapa
+Kelemahan struktural proyek: dari 214 eksperimen lokal, nyaris semua **defensif** (menjelaskan mengapa
 rekaman kosong). Pergeseran strategis: **dari defensif ke ofensif — dari menjelaskan ketidakhadiran
 ke menghasilkan satu deteksi positif.** Satu temuan positif yang diprediksi lebih decisif daripada
 200 eksperimen absensi.
@@ -79,7 +79,7 @@ Urutan prioritas:
 1. **Eksperimen alami Jawa Barat → paper mandiri.** Dikeluarkan dari P1, sebagai *natural-experiment
    letter* ke venue zero-APC. Ini menyatakan tesis dalam bentuk terkuat dan paling legibel, dan adalah
    **kemenangan eksposur jangka pendek** yang sedang dibutuhkan.
-2. **Predict-then-detect (inti ofensif).** P2 sudah memprediksi di mana situs terkubur (AUC 0.768).
+2. **Predict-then-detect (inti ofensif).** P2 sudah memprediksi di mana situs terkubur (klaim set terkoreksi v0.2 — angka hidup di §3, bukan di sini).
    Fase berikutnya adalah **menemukan satu**. Tiga kanal, termurah dulu:
    - **(a) NLP literatur abu-abu** — tambang laporan ekskavasi Balai Arkeologi / BPCB / PUSLIT
      Arkenas untuk horizon pra-400 M yang **sudah tercatat tapi terlupakan**, di sel yang diprediksi.
@@ -90,7 +90,7 @@ Urutan prioritas:
      *menyangkal* menjadi *mengkonfirmasi*.
 3. **Program falsifikasi tetap (*standing falsification*).** Satu eksperimen per kuartal yang **didisain
    untuk melukai** tesis. E214 (palinologi) adalah modelnya — ia benar-benar menyangkal klaim kuat, lalu
-   klaim diturunkan. Defisit disconfirm (≈0/211) adalah risiko struktural terdalam proyek; program ini
+   klaim diturunkan. Defisit disconfirm (≈0/214) adalah risiko struktural terdalam proyek; program ini
    memperbaikinya langsung.
 4. **Pernyataan sintetik (line 06, lambat).** Karya "peradaban vulkanik" yang merangkum, **gated on
    (1)–(3)**. Bukan sekarang.
@@ -104,7 +104,7 @@ mereka.
 
 # §3 — State Saat Ini (*Current State*) — bertanggal; bagian ini sengaja kedaluwarsa
 
-**Per 2026-08-11 · 224 eksperimen · 0 accepted · 7 rejected · 3 under review.** Angka di kotak ini
+**Per 2026-08-13 · 214 eksperimen lokal (E001–E224) · 0 accepted · 7 rejected · 3 under review.** Angka di kotak ini
 adalah cuplikan; sumber otoritatif ada di `docs/EXPERIMENT_INDEX.md` + `lines/*/STATE.md`.
 
 - **Bertahan dari semua scrutiny (the cathedral):** eksperimen alami Jawa Barat · mekanisme

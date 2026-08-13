@@ -54,9 +54,9 @@ sites because they have **caves**; Java does not.
 | **P1** Taphonomic framework | `papers/P1_taphonomic_framework/` | Rejected 2× — *Asian Perspectives* (2026-03-17, AI flag), *EGQSJ* (2026-04-16, desk: structure/wording; science "certainly interesting"). **v2.0 rewritten** (lists→prose). Target **JASREP** (Elsevier, Scopus Q1, free under subscription). Backup: *Archaeological Research in Asia*. Zenodo preprint 10.5281/zenodo.19081502. Co-authors: Amien + Go Frendi. |
 | **P7** TOM | `papers/P7_TOM/` | ☠ **DEAD** — peer-rejected. Keep as the record of the defect and the lesson. Do not revive without the exposure reframe and a clean inventory. |
 | **P3** Burial depth | `papers/P3_burial_depth/` | DISCONTINUED (2026-03-10, Mata Elang #2). |
-| **D2** Mini-NusaRC | `papers/D2_mini_nusarc/` | Data paper — preliminary **radiocarbon** database (80 sites) built for **H-TOM** testing, which is why it sits in this line rather than 01. Zenodo upload pending → [07_career](../07_career/) §1. |
+| **D2** Mini-NusaRC | `papers/D2_mini_nusarc/` | Data paper — preliminary **radiocarbon** database (80 sites) built for **H-TOM** testing, which is why it sits in this line rather than 01. ✅ **PUBLISHED on Zenodo 2026-08-11** — `10.5281/zenodo.21882247`. |
 
-**46 experiments** are assigned to this line (32 primary). Authoritative list:
+**46 experiments** are assigned to this line (41 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 

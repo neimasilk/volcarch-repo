@@ -8,8 +8,9 @@
 
 Three independent gates all point the same way:
 
-1. **ME#19 forcing function** — the binding constraint is non-exposure. This line generates rigor and
-   zero exposure. It is the most tempting place to spend a session and the least useful.
+1. **ME#19 forcing function** — **DISCHARGED 2026-08-11** (ledger eksposur kosong: P2 kirim, koreksi
+   P17 kirim, D1+D2 terbit). New-work status = PI call. The diagnosis stands: this line generates
+   rigor and zero exposure. It is the most tempting place to spend a session and the least useful.
 2. **Fable plan sequencing** — WS-B (the P0 detection-power reframe) waits on WS-A (E216 manuscript,
    [03_paleoenv](../03_paleoenv/)), and ideally on WS-E (number sweep,
    [02_taphonomy](../02_taphonomy/)) so P0 quotes clean figures.
@@ -47,8 +48,8 @@ Three independent gates all point the same way:
 ## Do NOT do
 
 - ❌ Draft new P0 prose sections. ❌ Open a new synthesis figure. ❌ Add a seventh channel.
-- ❌ Start WS-B. ❌ Start Masterpiece Phase 1. ❌ Run a new Mata Elang or audit (orbit-mode, and
-  currently stop-listed).
+- ❌ Start WS-B. ❌ Start Masterpiece Phase 1. ❌ Run a new Mata Elang or audit (orbit-mode; audit
+  cadence kini = pemicu kiriman ATAU interval 14 hari, per kritik sistem 2026-08-13).
 - ❌ Re-import the genetics channel.
 
 ## Inbox

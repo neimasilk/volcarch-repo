@@ -22,16 +22,16 @@
 > **Session log ≠ work contract.** Narrative goes to `docs/JOURNAL.md`. The 871-line append-log this
 > file used to be is preserved verbatim at `docs/archive/WORKSTATE_LOG_thru_20260727.md`.
 >
-> **Latest handoff: `docs/HANDOFF_20260811b.md`** (older ones in `docs/archive/handoffs/`). It records
-> the ledger going empty (P17 sent, D1+D2 published with DOIs, P7+PhD parked) + the cleanup pass.
-> The prior `HANDOFF_20260811.md` (P2 submission) is now archived.
+> **Latest handoff: `docs/HANDOFF_20260813.md`** (older ones in `docs/archive/handoffs/`). It records
+> kritik sistem putaran 2 + decision hour D1–D4 (SPAFA ≤20 Agt · E211 authorised · E209+E226 ·
+> outreach). The prior `HANDOFF_20260811b.md` (ledger empty, DOIs live) is now archived.
 > For the P2
 > claim set, the authoritative document is
 > `papers/P2_settlement_model/review_package_20260727/10_SET_KLAIM_TERKOREKSI.md` (3 Aug, +A7–A9 on
 > 5 Aug) — it supersedes doc 08 §3 and carries K1–K7. Docs 07 and 08 contain numbers we have since
 > withdrawn.
 >
-> ✅ **Git: `main` is pushed and in sync with `origin/main` (2026-08-11).** This is what makes the
+> ✅ **Git: `main` is pushed and in sync with `origin/main` (2026-08-13).** This is what makes the
 > manuscript's Data Availability statement true, and it is also what stopped the confidential JCAA
 > reviewer report from being publicly browsable.
 
@@ -59,8 +59,8 @@ Counts below are as of **2026-08-11**.
 
 **All five items closed or parked on 2026-08-11.** P17 correction went out while the paper was still
 under review; D1+D2 published with live DOIs — the "0 external outputs" run is over; items 2, 4, 5 are
-🅿 parked by PI decision. **The exposure ledger is empty — the ME#19 forcing function is discharged**
-(stop-list status for new work = PI call in the next session).
+🅿 parked by PI decision. **The exposure ledger is empty — the ME#19 forcing function is discharged** (stop-list: **karya baru
+diizinkan PI 2026-08-13** — decision hour D3: E209 spatial-CV re-run + E226 pra-registrasi).
 
 Detail + drafts: [`lines/07_career/STATE.md`](../lines/07_career/STATE.md).
 
@@ -87,11 +87,11 @@ closed or parked.**
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟢 COOLING | **P2 SENT 11 Aug** — 3 files uploaded, verified byte-for-byte against the server copies, editor notified. Open: portal metadata still shows the withdrawn title/abstract and authors cannot edit it — requested from the editor, **chase if unanswered**. Next line work: P11 retarget, still queued behind §1. | journal |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟢 COOLING | **P2 SENT 11 Aug**. Next: **P11 → SPAFA — 5 syarat, target kirim ≤ 2026-08-20** (keputusan D1, 13 Aug). Portal metadata JCAA: tagih bila editor diam. | journal |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | **WS-E: P17 arm DONE** (core claim survives and strengthens; methods sentence + 3 numbers need correcting **with a live journal**). Next: P1, P11, P5, P8, manifesto | Claude; editor note = PI |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Write the E216 prose manuscript (parallel to co-author search) | Claude; co-author = PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | **P5 rewrite** → *Asian Ethnology* (overdue since ~June) | Claude |
-| **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🔧 READY | Pre-write E211 eval protocol; 10-file smoke test | Claude; run authorisation = PI |
+| **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🔧 READY | **E211 AUTHORISED 2026-08-13** (D2, 112 hari selesai). Next: pre-write eval protocol → 10-file smoke test → full run. | Claude |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Nothing. Subtract-only. | — |
 | **07** | [career](../lines/07_career/STATE.md) | 🟢 EXPOSURE CLEARED — 2026-08-11 | P17 ✅ SENT · **D1+D2 ✅ PUBLISHED** (2 DOIs) · items 2/4/5 parked · **ledger empty** | **PI** |
 | — | `volcarch-genetics` (external repo) | — | cite as external; see `COMPANION_REPOS.md` | — |
@@ -112,9 +112,22 @@ PI action.
 of existing preprints, and the PI chose to leave the preprint as-is. Draft for revival:
 `docs/correspondence/EMAIL_AUTHOREA_SUPPORT_P7_CORRECTION_DRAFT_20260811.md`.
 **System-designer review + eksekusi (2026-08-11):** kritik → `docs/research_notes/CRITIQUE_SYSTEM_DESIGN_20260811.md`. ✅ **SUDAH DIKERJAKAN:** ledger kritik aktif (`docs/CRITIQUE_LEDGER.md`) · G11+G12 di SIG · kanari E209 "AUC 0.844" dihapus · hitungan 214/224 direkonsiliasi · **P11 → SPAFA siap-kirim konten** (`draft_v0.6_spafa.tex`, figur canonical30, `SIG_signoff.md` CONDITIONAL GO, `SPAFA_SUBMISSION_PREP.md` + cover letter; 5 syarat tersisa: E069 kanonik, G9, format SPAFA, G8, konversi+submit=PI) · **skeleton letter Jawa Barat** (`docs/drafts/WEST_JAVA_DECISIVE_CASE_SKELETON_v0.1.md`, kontrol upaya-survei seksi kelas-satu) · AutoResearch 🅿 SUPERSEDED. ⏳ **MASIH PI/queue:** otorisasi E211 (default YA) · outreach arkeobotanis · disagregasi Jawa/Nusantara di L1 · jadwal kanal NLP literatur abu-abu · jadwal falsifikasi bertanggal · kompilasi densitas ekskavasi (lapis 2 letter).
-**Other:** authorise the E211 corpus run (since 2026-04-23) · file DJKI HKI (4 docs ready) ·
-palynologist co-author outreach for E216 · L1 amendment (adopt *"peradaban vulkanik"*) · send the
-Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
+**Other:** ✅ ~~authorise the E211 corpus run (since 2026-04-23)~~ **AUTHORISED 2026-08-13** (D2) ·
+file DJKI HKI (4 docs ready) · palynologist co-author outreach for E216 · L1 amendment (adopt
+*"peradaban vulkanik"*) · send the Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
+**Kritik sistem putaran 2 (2026-08-13):** `docs/research_notes/CRITIQUE_SYSTEM_DESIGN_20260813.md`.
+Audit 3 subagent + pembacaan langsung: eksekusi putaran 1 sebagian besar mendarat (4 LANDED,
+3 PARTIAL), **tetapi peralatan auditnya sendiri drift dalam 48 jam** — kanari merah tak terlihat,
+C003 DONE-overstated (manifesto masih "224"), fix E209 salah kelas (angka bersumber dihapus),
+taksonomi T bertabrakan, EVAL.md zombie di daftar binding gate, decision hour tak pernah dijadwalkan,
+P11 mengulangi pola "siap-tanpa-kirim". **Agenda decision hour D1–D7 di dokumen §8** (SPAFA tanggal ·
+E211 · karya baru E209/E226 · outreach · L1 · falsifikasi bertanggal · aturan audit). Kanari v2 hijau
+dan dipasang sebagai ritual awal-sesi (CLAUDE.md).
+**DECISION HOUR 2026-08-13 — 4/7 dijawab, semua YA:** D1 SPAFA target ≤2026-08-20 · D2 E211
+DIOTORISASI (112 hari selesai) · D3 kedua karya baru (E209 spatial-CV re-run + E226 pra-registrasi) ·
+D4 dua email outreach (Claude draf, PI approve). ⏳ **Menunggu konfirmasi teks (default YA):** D6
+falsifikasi bertanggal 2026-09-15 · D7 aturan audit (pemicu kiriman/14 hari) + daftar TERMINATE
+zombie. **Tanpa default (PI):** D5 disagregasi Jawa/Nusantara di L1.
 
 ---
 
@@ -131,7 +144,7 @@ Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
 | **P9** Peripheral conservatism | 04 | rejected (JSEAS). HOLD → DHQ. |
 | **P16** Textual archaeology | 04 | 🅿 PARKED — convergence refuted (E090 v7). Unpark conditions in `PARKED.md`. |
 | **P0** / MASTERPIECE | 06 | fallow. WS-B reframe queued behind WS-A. |
-| **D1** / **D2** | 05 / 02 | drafts ready; Zenodo upload = §1 item 2. |
+| **D1** / **D2** | 05 / 02 | ✅ **PUBLISHED 2026-08-11** — D1 `10.5281/zenodo.21882007` · D2 `10.5281/zenodo.21882247`. |
 | **P7** TOM | 02 | ☠ dead — peer-rejected; preprint needs a correction notice. |
 | **P3, P14** | 02, 04 | discontinued. **P18** HOLD. **P15** dissolved into P5. |
 
@@ -143,10 +156,10 @@ Vossen/VU email · ~~push the commits to GitHub~~ ✅ done 2026-08-11.
 `docs/TRIGGER_MAP.md` for newly unblocked ideas; update maturity levels in `docs/IDEA_REGISTRY.md`.
 Records: `docs/research_notes/MATA_ELANG_*.md` (through #19).
 
-> ⚠ **ME#19 STOP-LIST IS ACTIVE.** No new Mata Elang / audit / skeptical-review sprint, no new papers,
-> no new lines, until **exposure happens** (§1). This dashboard opens with the ledger and not with
-> `IDEA_REGISTRY.md` for exactly this reason: stepping out one level must not become the way to avoid
-> sending an email.
+> ⚠ **ME#19 STOP-LIST — status: DISCHARGED 2026-08-11 (ledger kosong).** Whether new work resumes is a
+> PI call — decision batch D1–D7 in §4 (kritik sistem putaran 2, 2026-08-13). This dashboard opens with
+> the ledger and not with `IDEA_REGISTRY.md` for exactly this reason: stepping out one level must not
+> become the way to avoid sending an email.
 
 **Where ideas are kept safe** (so that parking something is not losing it):
 `docs/IDEA_REGISTRY.md` (I-NNN, SPARK→PAPER) · `docs/TRIGGER_MAP.md` (if X unblocks, what opens) ·
@@ -168,4 +181,7 @@ Records: `docs/research_notes/MATA_ELANG_*.md` (through #19).
   nested — it was polluting this repo's `git status`). The apparent E203 contradiction was an **empty
   `results/` husk**, now deleted; E053 + E203 are canonical in that repo. `COMPANION_REPOS.md` and the
   genetics README both corrected.
+- ✅ **2026-08-13:** kanari doc-sync **v2** (`tools/check_doc_sync.py`) — bandingkan hitungan live
+  docs vs disk, docs historis = warning; **hijau**; dipasang ke CLAUDE.md §Session Continuity
+  (merah ⇒ perbaiki drift sebelum karya baru).
 - `.claude/` holds stale Feb 2026 handoffs and CODEX prompts mixed with `settings.local.json`.

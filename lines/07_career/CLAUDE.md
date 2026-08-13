@@ -11,8 +11,8 @@ to medium. The work here is not hard — it is **unsent**.
 ## Why this line exists at all
 
 The project's own diagnosis (ME#19, 2026-06-10, memory `feedback_non_exposure`) is that the binding
-constraint is **NON-EXPOSURE, not rigor.** 223 experiments, 14+ months, **0 acceptances, 7
-rejections**. Adding rigor has repeatedly failed to change the outcome because the bottleneck is
+constraint is **NON-EXPOSURE, not rigor.** 214 experiments (lokal, E001–E224), 14+ months,
+**0 acceptances, 7 rejections**. Adding rigor has repeatedly failed to change the outcome because the bottleneck is
 elsewhere: replies not sent, deposits not uploaded, filings not filed.
 
 The 2026-07-27 session is the clean illustration — it added an enormous amount of rigor (E217–E223, a
@@ -45,10 +45,10 @@ almost all of them are PI actions that cannot be delegated.
 
 | Track | Who | Status |
 |---|---|---|
-| **Leiden** ⭐ | Suzan Verberne (LIACS) — NLP for VOC archives | **Proposal SENT 2026-04-16.** Verberne **replied 2026-06-08** with 2 questions. **Reply v4 is send-ready and UNSENT.** |
-| **UvA** | Blanke + Lamqaddam + Pandiani | Lamqaddam **replied positively in ~12h on 2026-04-21**, offering a **BPI Dosen support letter**, funding scouting, and a first chat. **Reply UNSENT.** |
+| **Leiden** ⭐ | Suzan Verberne (LIACS) — NLP for VOC archives | **Proposal SENT 2026-04-16.** Verberne **replied 2026-06-08** with 2 questions. 🅿 **PARKED 2026-08-11 (PI)** — reply v4 kept for revival. |
+| **UvA** | Blanke + Lamqaddam + Pandiani | Lamqaddam **replied positively in ~12h on 2026-04-21**, offering a **BPI Dosen support letter**, funding scouting, and a first chat. 🅿 **PARKED 2026-08-11 (PI)** — reply draft kept for revival. |
 | **Edinburgh** | Shay Cohen (Informatics) — structured prediction for historical NLP | Cohen replied in **5 minutes** (2026-04-12). CV sent. Apply **Dec 2026**, entry Oct 2027. Designated **backup**. |
-| **VU** | Vossen | Email drafted, not sent. |
+| **VU** | Vossen | Email drafted; 🅿 parked with the PhD track (2026-08-11, PI). |
 
 **Strategy:** prioritise the Netherlands (VOC archive access); Edinburgh is the backup.
 **All four are NLP-facing** — which is why a completed E211 run
@@ -62,7 +62,8 @@ almost all of them are PI actions that cannot be delegated.
    APC venue is not, regardless of prestige. Verify before proposing any venue:
    - ❌ **NOT** Diamond OA: *Open Quaternary* (GBP 1,040) · *Internet Archaeology* (GBP 2–3k) ·
      **JOAD (GBP 374 — has a waiver fund, must be requested)**
-   - JCAA: £593, waiver requested 2026-04-06, acknowledged, **still undecided**
+   - JCAA: £593, waiver requested 2026-04-06, acknowledged, **re-raised inside the v0.2 response
+     letter (2026-08-11)** — the answer is now the journal's to give.
 2. **Every paper carries an AI disclosure.** Template: `docs/AI_DISCLOSURE_TEMPLATE.md`.
 3. **Claude drafts; the PI sends.** Never send an email, never upload a deposit, never file a
    registration. Draft it, mark it send-ready, and say so plainly.

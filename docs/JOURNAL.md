@@ -9467,3 +9467,45 @@ status, jadwal falsifikasi, prep E211 — tersisa, dirangkum di WORKSTATE §4.
 **Pelajaran:** mesin re-derivasi G1 terbukti sekali lagi menangkap artefak — kali ini bukan di angka
 teks, tapi di **figur yang menhardcode nilai lama** yang nyaris terkirim bersama naskah. Ini argumen
 terkuat untuk G3/G7 sebagai gerbang rutin, bukan reaktif.
+
+
+## 2026-08-13 — Kritik sistem putaran 2 (audit 3 subagent) + eksekusi FIX-CHEAP
+
+**Konteks.** PI minta review menyeluruh lagi (mandat otonom). Dijalankan audit 3 subagent independen
+(kontrak 7 line · eksekusi C001–C009 vs disk · inventori portfolio) + pembacaan langsung, lalu ditulis
+`docs/research_notes/CRITIQUE_SYSTEM_DESIGN_20260813.md`.
+
+**Vonis:** putaran 1 bekerja (4 LANDED, 3 PARTIAL — G11/G12, skeleton Jawa Barat, ledger, P11 v0.6),
+**tetapi peralatan auditnya sendiri drift dalam 48 jam**: kanari `check_doc_sync.py` (sudah ada sejak
+30 Mar, "bangkitkan" ternyata "jalankan") MERAH tak terlihat; C003 DONE-overstated (manifesto masih
+"224"); fix E209 salah kelas — `FINDINGS_v1_20260422.md` membuktikan 0.844 **bersumber** (RF random-CV
+fase 1, optik saja); klaim baru "belum ada AUC" justru kontradiktif dengan folder eksperimennya;
+taksonomi T pagi (T1–T6) vs malam (T0–T7) bertabrakan; **EVAL.md zombie di daftar binding gate**
+(tautology CONDITIONAL PASS yang ditarik masih "mengikat"); decision hour tak pernah dijadwalkan (E211
+112 hari); P11 mengulangi pola "siap-tanpa-kirim" P2 (5 syarat tanpa tanggal, 2 hari); TRIGGER_MAP 5
+bulan tanpa FIRED; 10/19 folder paper dorman >60 hari; 18/26 draft yatim.
+
+**Eksekusi hari ini (FIX-CHEAP, Claude-owned):** manifesto dibersihkan (§2 bebas angka volatil,
+§3 = 214 lokal); E209 → kalimat berpointer jujur ("belum layak lapor" + sumber); CANONICAL P2 →
+`submission_jcaa_v0.2`; `check_doc_sync.py` **v2** (bandingkan live docs vs disk; docs historis =
+warning) kini **HIJAU** dan dipasang ke CLAUDE.md sebagai ritual awal-sesi (merah ⇒ perbaiki drift
+sebelum karya baru); sapuan kontrak 7 line + `lines/README.md` (≥20 blok basi: D1/D2 pending→published
+dengan DOI, P17 "draft belum ditulis"→SENT, P7→parked PI, Verhagen HELD→withdrawn, stop-list→
+discharged, hitungan 223/213→214, per-line counts, header Updated); ledger C003 dikoreksi ke PARTIAL
+(DONE sebelumnya overstated) + C010–C022 ditambahkan; WORKSTATE §4/§5/§6/§7 diperbarui.
+
+**Aturan baru yang lahir:** (1) DONE di ledger = artefak yang disebut namanya terverifikasi di disk;
+(2) kritik wajib berpenunjuk file:baris — kritik pun bisa membawa angka hantu (kasus E209); (3) audit
+berikutnya dipicu kiriman ATAU interval 14 hari, bukan oleh sesi — produksi kritik tidak boleh menjadi
+keluaran paling andal sistem; (4) angka hantu kini 3 sub-kelas: tanpa sumber / bersumber-tapi-tak-
+layak-lapor (tandai, jangan hapus) / pointer hantu.
+
+**Menunggu PI (agenda decision hour D1–D7, dokumen §8):** SPAFA target ≤20 Agt · otorisasi E211 ·
+karya baru E209 spatial-CV re-run + E226 literatur abu-abu · outreach Castillo+Vida/BRIN · L1
+disagregasi Jawa/Nusantara · falsifikasi bertanggal 15 Sep · aturan audit + daftar TERMINATE zombie.
+
+**Decision hour (akhir sesi) — D1–D4 dijawab PI, semua YA:** SPAFA target ≤2026-08-20 · E211
+DIOTORISASI (112 hari selesai) · karya baru keduanya (E209 + E226) · dua email outreach (Claude draf,
+PI approve). D5–D7 menunggu konfirmasi teks (D6/D7 default YA). Handoff baru:
+`docs/HANDOFF_20260813.md`; `HANDOFF_20260811b.md` dipindah ke `docs/archive/handoffs/`. Seluruh
+perubahan sesi di-commit + push.

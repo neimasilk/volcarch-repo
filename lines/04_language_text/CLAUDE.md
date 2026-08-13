@@ -23,8 +23,8 @@ whether the sum of channels proves a civilization (→ [06_thesis](../06_thesis/
 ## Two facts that constrain everything here
 
 **1. The DHARMA corpus is closed and it was a monoculture.**
-Mining of the 268 DHARMA inscriptions was **officially closed 2026-04-09**. Roughly **25 experiments**
-depend on that single corpus. Any new claim resting only on DHARMA inherits that dependency — say so
+Mining of the 268 DHARMA inscriptions was **officially closed 2026-04-09**. A cluster of experiments
+depends on that single corpus — count them via `docs/EXPERIMENT_INDEX.md` before quoting a number. Any new claim resting only on DHARMA inherits that dependency — say so
 explicitly. The corpora that break the monoculture: `E091` (OV), `E092`, `E098`, `E141`–`E143`
 (Delpher; those now belong to [05_archival_nlp](../05_archival_nlp/)).
 
@@ -71,7 +71,7 @@ etymology
 **Ritual & genre:** `E023` ritual screening, `E026` Pararaton correlation, `E032` pranata mangsa,
 `E057` genre taphonomy, `E204` bronze drums
 
-**62 experiments** are assigned to this line (58 primary). Authoritative list:
+**62 experiments** are assigned to this line (62 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 

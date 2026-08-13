@@ -25,7 +25,7 @@ rates (→ [02_taphonomy](../02_taphonomy/)).
 **This is the only line in the project that has produced real disconfirmation.**
 
 `E214` (2026-06-08) **partially refutes** the strong pre-400 CE thesis. Before it, the project's
-honest count of counter-evidence was zero across 213 experiments — a documented red flag
+honest count of counter-evidence was zero across 214 experiments — a documented red flag
 (memory `feedback_confirmation_architecture`, ME#17). E214 forced the thesis to be downgraded to a
 *dispersed, low-visibility society*, and it is why `L1_CONSTITUTION.md` has a pending amendment.
 

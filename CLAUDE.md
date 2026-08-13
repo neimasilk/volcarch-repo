@@ -93,6 +93,9 @@ for doing a line's work — enter the line for that.
 ### Session Continuity
 - **Session start:** in focus mode read the line's `STATE.md`; in orbit mode read
   `docs/WORKSTATE.md`. Continue in-progress items before starting anything new.
+- **Session start (both modes): run `python tools/check_doc_sync.py`** — the doc-sync canary
+  (v2, 2026-08-13). **RED ⇒ fix doc drift BEFORE starting new work** (kritik sistem putaran 2,
+  `docs/research_notes/CRITIQUE_SYSTEM_DESIGN_20260813.md` §4).
 - **After compaction:** re-read the same file to re-anchor.
 - **Session end (MANDATORY):** update the `STATE.md` of every line you touched, and
   `docs/WORKSTATE.md` if a line's headline status or a PI decision changed. Append to `JOURNAL.md`.

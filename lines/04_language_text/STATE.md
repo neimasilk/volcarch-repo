@@ -6,7 +6,7 @@
 
 ## Current position
 
-- **P8** is under review at *Oceanic Linguistics*. Submitted 2026-03-11 — **~4.5 months out.** No
+- **P8** is under review at *Oceanic Linguistics*. Submitted 2026-03-11 — **~5.1 months out** (as of 2026-08-13). No
   action available. If a decision arrives, record it in `docs/WORKSTATE.md`, memory, and JOURNAL
   immediately.
 - **P5 is the only writable paper in this line, and its rewrite is overdue** (planned ~June 2026).

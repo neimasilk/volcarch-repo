@@ -1,12 +1,13 @@
 # STATE — Line 02 TAPHONOMY
 
-**Updated:** 2026-07-30 · **Temperature:** ⚠ WARM — no deadline, but owes a debt to every other line
+**Updated:** 2026-08-13 · **Temperature:** ⚠ WARM — no deadline, but owes a debt to every other line
 
 ---
 
 ## The one job
 
-**WS-E — the integrity sweep. Not started.**
+**WS-E — the integrity sweep. P17 arm DONE (08-03, koreksi SENT 08-11); P11 arm DONE (08-11,
+v0.6 canonical30). Remaining: P1, P5, P8, manifesto.**
 
 Enumerate every headline number in P1, P2, P5, P8, P11, P17, and `docs/drafts/manifesto.md` that
 depends on volcano positions or the site inventory, then **blind re-derive each one** against
@@ -38,8 +39,8 @@ withdraw)*.
   rebuild note that the original used **9 volcanoes for candi and 15 for inscriptions** — two rulers
   for the two groups being compared.
 - ❌ n = 176 inscriptions published; the paper's own Java filter gives **174**.
-- ⚠ **PI action:** P17 is live at ArchCalc #365. A short correction note to the editor is worth
-  sending *before* review completes. Draft not yet written.
+- ✅ **P17 correction note SENT 2026-08-11** (portal queryId 162, verified landed) — while the paper
+  is still under review.
 - Also fixed: `e104_court_zone.json` had `candi: 0` throughout its distribution block (original run
   never populated it) — a canonical block is now appended.
 - Gotcha for any future name-matching: the canonical file spells Sindoro **"Sundoro"** (GVP form).
@@ -52,14 +53,14 @@ this line's defect showing up as seed instability, and it is now disclosed in th
 
 ## Next actions for Claude
 
-- [ ] **Draft the P17 correction note to the ArchCalc editor** — highest-value remaining item in this
-      line. Content is ready in the WS-E report §4; it needs to become a short, sendable note.
+- [x] **P17 correction note to the ArchCalc editor** ✅ **SENT 2026-08-11** (queryId 162, verified
+      landed). Nothing further until the journal responds.
 - [ ] **WS-E, remaining papers:** P1, P11, P5, P8, `docs/drafts/manifesto.md`. P11 has a head start
       (`revision_ammo/CANONICAL_INVENTORY_CORRECTIONS_20260610.md`); P1 is the one that gates a
       submission.
-- [ ] **P7 correction notice** for preprint `10.22541/au.177368991.14332505/v1`. A published preprint
-      with a number we know is false is a live integrity exposure. Draft the notice; posting is a PI
-      action.
+- [x] **P7 correction notice** — 🅿 **PARKED by PI 2026-08-11**: Authorea/Wiley froze self-service
+      editing of existing preprints; PI chose to leave the preprint as-is. Draft for revival:
+      `docs/correspondence/EMAIL_AUTHOREA_SUPPORT_P7_CORRECTION_DRAFT_20260811.md`.
 - [ ] **P1 → JASREP submission prep.** v2.0 is rewritten but has **not** passed SIG, and it contains
       spatial numbers touched by the defect. Sequence: WS-E on P1 → SIG → PI GO.
 - [ ] Fold `E213` (aggradation/exposure asymmetry) into the P1 v2.0 exposure-window argument — it is
@@ -70,7 +71,7 @@ this line's defect showing up as seed instability, and it is now disclosed in th
 | Item | Blocker |
 |---|---|
 | P1 submission to JASREP | needs WS-E + SIG + PI GO |
-| P7 correction notice posting | PI (author action on the preprint server) |
+| ~~P7 correction notice posting~~ | 🅿 parked by PI 2026-08-11 (draft kept for revival) |
 | Depth-data expansion (ADV-2's real fix) | needs borehole/excavation depth records — no accessible source yet. Standing item in `docs/TRIGGER_MAP.md`. |
 
 ## Inbox
@@ -78,5 +79,5 @@ this line's defect showing up as seed instability, and it is now disclosed in th
 - E107 resolved ADV-5 (Mon-Khmer substrate) and **upgraded E027**, but that upgrade is a
   [04_language_text](../04_language_text/) fact — check it is reflected there.
 - The exposure/karst reframe (E178) is arguably a stronger paper than P1 v2.0 in its current form.
-  Not an action — a note for the next orbit-mode review. Do **not** open a new paper here; ME#19
-  stop-list.
+  Not an action — a note for the next orbit-mode review. ME#19 forcing function discharged 2026-08-11;
+  new-paper status = PI call.
