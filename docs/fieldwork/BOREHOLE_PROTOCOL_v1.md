@@ -1,7 +1,20 @@
 # VOLCARCH Borehole Site-Selection Protocol v1.0
 
 **Purpose:** 20 geotechnical boreholes at predicted buried-site locations. $6,000 budget. Cheapest possible decisive test of the VOLCARCH framework.
-**Status:** READY TO EXECUTE (needs funding + geotechnical company contact)
+**Status:** 🅿 RETIRED 2026-10-01 — do not execute. *(Previously: "READY TO EXECUTE (needs funding + geotechnical company contact)".)*
+
+> **Why retired** (orbit re-entry audit 2026-10-01; `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5; ledger
+> C023, C035, C037):
+> 1. **The targets come from E080/E166.** E166's burial raster counts sea pixels: 69.2% of its no-burial
+>    zone is sea (C035). The survey-control result it leaned on (E069) had the wrong sign (C023).
+> 2. **It assumes "higher burial = deeper site".** No dated section supports a general depth for the
+>    ±400 CE surface. Open sources give only 9th-c. floor depths of ±2–7 m, and those are lower bounds (desk
+>    test T4, C038).
+> 3. **Its method cannot do the job.** CPT does not recover samples. Charcoal counts as a positive
+>    indicator, yet charcoal inside pyroclastic flows dates eruptions, not occupation (Liyangan, C037).
+>
+> **Superseded by** test T4 in the note (§5): dated tephra/¹⁴C sections with an occupied 8th–10th c. horizon as
+> a positive control, a pilot first, and depth zones from T4-desk. The file is kept for the record.
 **Created:** 2026-03-31 (ME#12 autonomous session)
 
 ---

@@ -36,4 +36,4 @@ Model: `rate(d) = 8.0 mm/yr × exp(-d / 15 km)`
 
 This map directly answers the question: **"Where should we dig?"** The 12,811 km2 Zone B area can be narrowed to specific fieldwork targets by overlaying with E080 anomaly detection (65% overlap with E097) and E013 settlement suitability model (AUC=0.768).
 
-The intersection of Zone B + high suitability + anomaly detection = the borehole targets in the BOREHOLE_PROTOCOL (`docs/fieldwork/BOREHOLE_PROTOCOL_v1.md`).
+The intersection of Zone B + high suitability + anomaly detection = the borehole targets in the BOREHOLE_PROTOCOL (`docs/fieldwork/BOREHOLE_PROTOCOL_v1.md`). *(That protocol was RETIRED on 2026-10-01; see its header and ledger C035.)*
