@@ -17,7 +17,7 @@
 > 2. 🔴 **UPDATE SORE 2026-10-01: P11 NO-GO — jangan kirim v0.7 maupun v0.8.** Re-check SIG v0.8 (diverifikasi
      orkestrator): tanpa Penanggungan, 73 candi sisanya tidak mengelompok ke barat (Rayleigh p=0,26, inventori
      kanonik); 39 dari 142 baris candi berkoordinat ganda; docx tanpa abstrak. Rincian dan daftar perbaikan:
-     `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. P17 (daftar candi yang sama) **bertahan** setelah de-duplikasi (gap 11,0 km, p=1,3×10⁻⁵).
+     `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. P17 (daftar candi yang sama) bertahan terhadap de-duplikasi candi *saja* (gap 11,0 km, p=1,3×10⁻⁵).
      Teks di bawah adalah rencana pagi hari, disimpan untuk jejak. **(rencana lama) P11 → SPAFA: kirim v0.8, BUKAN v0.7.** v0.7 berbunyi "The deficit is real, not a survey artefact"
 >    berdasar E069, yang **salah tanda** (ledger C023): koefisien pada *jarak*, jadi situs justru lebih
 >    banyak di dekat gunung api. v0.8 membuang regresi itu dan menyatakan keberatan upaya-survei sebagai

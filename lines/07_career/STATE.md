@@ -12,7 +12,7 @@
 > | 0 | 🔴 **P17 integrity decision**: central result is a geocoding artefact (C032) — withdraw, or notify the ArchCalc editor and offer a revised paper | 2026-10-01 | `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md` |
 > | 1 | **Send the P2 abstract reply** to the JCAA editor (asked 31 Aug; unanswered 31 days) | 2026-10-01 | **Gmail Drafts** (thread "RE: Revised files uploaded …") · `papers/P2_settlement_model/EDITOR_REPLY_ABSTRACT_20261001.md` |
 > | 2 | ~~Submit P11 to SPAFA~~ → **🔴 NO-GO after the afternoon SIG re-check** (western-flank claim is a Penanggungan pattern; 39/142 duplicate candi; docx lacks abstracts). Not an exposure item until reworked | — | `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01 |
-> | 3 | **Send outreach v2** (Castillo/UCL, Vida/BRIN); v1 withdrawn | 2026-10-01 | `docs/correspondence/EMAIL_*_v2_20261001.md` |
+> | 3 | **Send the BRIN VEGAN outreach email** (replaces Vida v2; Castillo held) | 2026-10-01 | `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md` |
 >
 > Journals (Gmail, 2026-10-01): P2 in round-2 review since 31 Aug; P17 and P8 — no email since 10 Aug.
 > PhD: the PI is pursuing a separate, non-VOLCARCH route for a 2027 intake (PI-owned, not tracked here);

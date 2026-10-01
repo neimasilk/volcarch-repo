@@ -1,6 +1,6 @@
 # Experiment Index
 
-**Generated:** 2026-10-01 14:12
+**Generated:** 2026-10-01 14:42
 **Total:** 217 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
@@ -237,7 +237,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E175 | Spatial Statistics of Candi Distribution | SUCCESS | 01_spatial |  | P11,P17,P7 |  |
 | E176 | Cascade Minimal Model Comparison | SUCCESS | 01_spatial |  | P1,P17 |  |
 | E177 | Sunda Shelf Paleo-Drainage Reconstruction | SUCCESS | 02_taphonomy | L2 | P18 |  |
-| E178 | Philippines Archaeological Density Regression | SUCCESS | 02_taphonomy |  | P1,P17,P19 |  |
+| E178 | Philippines Archaeological Density Regression | SUCCESS | 02_taphonomy |  |  | p=1.0; ρ=0.000 |
 | E179 | Factor Independence Test — Cascade Coupling Analys | SUCCESS | 06_thesis,01_spatial |  | P1,P17 |  |
 | E181 | Ghost Dictionary — Semantic Clustering of 230 Vani | SUCCESS | 04_language_text |  | P16,P17,P19,P5,P8 |  |
 | E182 | Karst-Augmented Cascade Model | SUCCESS | 01_spatial,02_taphonomy |  | P1,P17 | rho=0.607 |

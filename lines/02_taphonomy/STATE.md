@@ -19,8 +19,10 @@
 >   2009), not "non-volcanic"; Bondowoso megaliths date 7th–14th c CE; Batujaya's brick temples are
 >   5th/6th–10th c (only the Buni burial phase beneath is pre-400). The West Java skeleton's arms need
 >   rebuilding before any letter.
-> - **Consequences:** the 6.5 m detection horizon is illustrative and near-vent only; **P1 must not go to
->   JASREP** before a WS-E-style audit of its calibration anchors (C024). Synthesis: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`.
+> - **Consequences:** the 6.5 m detection horizon is illustrative and near-vent only; **P1 (current v5.0 →
+>   Archaeological Research in Asia; superseded JASREP v4.0 also corrected) must not be submitted** before a
+>   WS-E-style audit of its calibration anchors (C024). Its public Zenodo preprint needs the correction notice
+>   (`docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md`). Synthesis: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`.
 > - **Next:** verify C024–C030 one by one (each is cheap); then the decisive tests T2 (register of chance
 >   finds at depth) and T4 (dated sand-quarry faces) from the synthesis note.
 

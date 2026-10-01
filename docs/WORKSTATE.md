@@ -33,7 +33,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 | **0** | 🔴 **P17 integrity decision (most urgent).** P17 (under review, ArchCalc #365) rests on a candi-vs-inscription contrast that is a **geocoding artefact** (50 Borobudur captions at one point + 42 region placeholders; precise findspots only: gap 13.1 → 0.2–2.3 km, p 0.07–0.85; ledger C032, verified). Tell the editor: withdraw, or notify and offer a revised artefact paper | 2026-10-01 | `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md` (send via the portal channel used on 11 Aug; double-blind) |
 | 1 | **Send the P2 abstract reply** to the JCAA editor. He corrected the title on 31 Aug but refused the abstract ("focuses on the reviewing process, not the work"); unanswered 31 days while round-2 reviewers read the old record | 2026-10-01 (request: 08-31) | **Gmail → Drafts** ("RE: Revised files uploaded …") · `papers/P2_settlement_model/EDITOR_REPLY_ABSTRACT_20261001.md` |
 | 2 | ~~Submit P11 to SPAFA~~ → **🔴 P11 NO-GO (2026-10-01) — send neither v0.7 nor v0.8.** On the canonical inventory the western-flank clustering vanishes without Penanggungan (73 candi: p=0.26); 39 of 142 candi rows are duplicate coordinates; the docx has no abstract in either language. Needs rework + a PI decision on reframing | — | `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01 |
-| 3 | **Send outreach v2** (Castillo/UCL; Vida/BRIN). v1 drafts withdrawn (claims invalidated today) | 2026-10-01 | `docs/correspondence/EMAIL_*_v2_20261001.md` (verify addresses — block at file bottom) |
+| 3 | **Send the outreach email to BRIN's VEGAN group** (phytolith/starch/pollen; head Nia Marniati Etie Fajari). Replaces the Vida draft (both its questions are answered publicly); Castillo held as a reserve (UCL post likely lapsed). v1 drafts withdrawn | 2026-10-01 | `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md` (find the address on the VEGAN page; fallback praps@brin.go.id); old v2 files kept for the record |
 
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
@@ -58,7 +58,7 @@ Journals per Gmail check 2026-10-01: **P2** in round-2 review since 31 Aug · **
 |---|---|---|---|---|
 | **01** | [spatial](../lines/01_spatial/STATE.md) | 🔥 HOT | §1 item 1: P2 abstract reply (Gmail draft) · **P11 NO-GO** → rework (de-duplicate candi, re-derive, restore abstracts) after a PI reframing decision | **PI** + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | Verify C024–C030 one by one; **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
-| **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | Outreach v2 (§1 item 3) is the unblock; T5 (microbotanical) | **PI** |
+| **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | 🧊 BLOCKED | BRIN VEGAN email (§1 item 3) is the unblock; T5 needs pre-400 paleosols (after T4-desk) | **PI** |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | P8 under review; P5 rewrite or PARKED.md (C018, overdue) | Claude |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🔧 READY | **Proposed next experiment: T2** (register of chance finds at depth; extends E225; DeepSeek key now in `.env`) — pre-register first. E211 smoke test pending | Claude |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Objective answer written (subtract-only). L1 amendments await PI (§4) | PI |
@@ -78,17 +78,22 @@ Journals per Gmail check 2026-10-01: **P2** in round-2 review since 31 Aug · **
   falsifier.
 - **Manifesto §1 "decisive test":** the West Java natural experiment in its skeleton form cannot carry the
   thesis (three of its four arms factually wrong, coast-vs-interior confound). Proposed replacement:
-  **T2 + T4** (register of chance finds at depth → dated sand-quarry faces). PI's document; not edited.
-- **Research direction, next 3 months** (default YES): T1 regional onset table (publishable, $0) → T2
-  (NLP, ≤$10, pre-registered with a kill criterion; doubles as the overdue D6 standing falsification) →
-  partners for T4/T5.
+  **T0 + T4-desk + T7**, then field T4. PI's document; not edited.
+- **Research direction, next 3 months** (default YES; ordered by decisive power, per the WF2 methodology review):
+  Week 0 = the §1 actions (P17 decision, JCAA reply, P1 Zenodo notice, VEGAN email) → weeks 1–3: **T0** (verify
+  Liyangan's early ¹⁴C dates) and **T4-desk** (depth of the ±400 CE surface from published dated sections and
+  borelogs; doubles as the D6 standing falsification: median <2 m across ≥10 sections withdraws P1's detection
+  horizon) → weeks 2–5: **T7** (detection calibration: villages named in 8th–10th c. inscriptions vs recorded
+  settlements — the first test that can separate H3 from H6) → then **T2** (pre-registered, zones from T4-desk).
+  Submission milestone: an Indonesian-language synthesis ("why Nusantara's history starts ~400 CE") to a
+  national zero-APC journal. Details: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5, §7.
 - **P17 (urgent):** withdraw, or notify the editor and offer a revised paper about the geocoding artefact (§1 item 0).
-- **P11:** NO-GO. Choose: (a) reframe as a Penanggungan-centred paper (the strong, real pattern: 69 candi, 62% west,
+- **P11:** NO-GO. Choose: (a) reframe as a Penanggungan-centred paper (strong pattern: 69 candi, 62% west — but 14 of the 43 "western" rows are Trowulan temples 26–56 km away on the Brantas plain, so partly "Trowulan lies west of Penanggungan";
   p=1.4×10⁻²⁰), (b) rework the island-wide version on de-duplicated data and accept a weaker claim, or (c) park.
-- **P1:** hold JASREP until its calibration anchors pass a WS-E-style audit (default YES).
-- **P1 Zenodo preprint (public record):** `10.5281/zenodo.19081502` (2026-03-18) states the inverted E069 claim
-  (lines ~401–405). Post a correction: a new Zenodo version or a correction note in the record description.
-  Unlike Authorea (P7), Zenodo allows new versions. Claude can draft the note; publishing = PI.
+- **P1:** hold v5.0 (→ Archaeological Research in Asia) until its calibration anchors pass a WS-E-style audit (default YES).
+- **P1 Zenodo preprint (public record) — mandatory, ~15 min:** `10.5281/zenodo.19081502` (2026-03-18) states the
+  inverted E069 claim (PDF lines 400–406) and a "Java-wide taphonomic baseline" from assumed burial-start dates
+  (abstract). Notice text, verbatim quotes: `docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md`.
 
 **Carried over:** D5 L1 Java/Nusantara disaggregation · D7 audit rule (submission trigger or 14 days) ·
 DJKI HKI filing (4 docs ready) · dashboard model regeneration on the 30-volcano inventory.
@@ -103,7 +108,7 @@ DJKI HKI filing (4 docs ready) · dashboard model regeneration on the 30-volcano
 | **P17** Two Javas | 01 | ⏳ under review — ArchCalc #365 (since 2026-04-09). 🔴 **Central result is a geocoding artefact (C032, verified 2026-10-01):** 50 of 175 "inscriptions" are Borobudur relief captions at one point and 42 sit on region placeholders; with precise findspots only, the candi–inscription gap is 0.2–2.3 km (p 0.07–0.85), not 13.1 km. Supersedes the 11 Aug "survives and strengthens" correction. **PI decision: withdraw, or notify and offer a revised artefact paper** — `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`. |
 | **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11 (since 2026-03-11). |
 | **P11** Volcanic informedness | 01 | 🔴 **NO-GO 2026-10-01** — western-flank claim is a Penanggungan pattern (p=0.26 without it); 39/142 duplicate candi; docx lacks abstracts; E069 claim already removed (v0.8). Rework queued; reframe = PI. `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. Rejected 2× before (editorial). |
-| **P1** Taphonomic framework | 02 | rejected 2×. JASREP v4.0: E069 sentence corrected 2026-10-01; **calibration anchors need audit (C024) before submission**. |
+| **P1** Taphonomic framework | 02 | rejected 2×. Current manuscript **v5.0 → *Archaeological Research in Asia*** (per `CANONICAL.md`; the E069 passage was already deleted there; superseded JASREP v4.0 corrected anyway). v5.0 still reports the 4.4 mm/yr "baseline" → **C024 audit before submission**. Public preprint needs the correction notice (§4). |
 | **P5** Volcanic ritual clock | 04 | rejected (BKI) → *Asian Ethnology*. Rewrite overdue (C018). |
 | **P9** Peripheral conservatism | 04 | rejected (JSEAS). HOLD → DHQ. |
 | **P16** Textual archaeology | 04 | 🅿 PARKED — convergence refuted (E090 v7). |

@@ -65,7 +65,10 @@ run to October 2026; running heads still read "Title of article".
 
 **P17 cross-check (same candi list):** with the 103 unique coordinates the P17 contrast survives —
 candi median 16.6 km vs inscriptions 27.6 km (was 14.5), gap 11.0 km (was 13.1), Mann–Whitney p=1.3×10⁻⁵
-(was 1.1×10⁻⁷). The numbers shift; the conclusion holds.
+(was 1.1×10⁻⁷). The numbers shift; the conclusion holds **for candi de-duplication alone**.
+⚠ **Superseded later the same day (ledger C032):** removing the 50 Borobudur relief captions (one point) and
+the 42 region-level placeholder inscriptions collapses the contrast to 0.2–2.3 km (p 0.07–0.85). P17's
+central result is a geocoding artefact; see `experiments/E082_inscription_georeferencing/README.md`.
 
 **Decision: 🔴 NO-GO for SPAFA.** Do not submit v0.7 or v0.8. Needed before the next SIG: de-duplicate
 the candi list; re-derive E031/E065/E105/E153 on it; downgrade the island-wide western-flank claim (it is

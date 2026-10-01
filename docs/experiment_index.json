@@ -2497,12 +2497,8 @@
     "has_readme": true,
     "title": "Philippines Archaeological Density Regression",
     "status": "SUCCESS",
-    "papers": [
-      "P1",
-      "P17",
-      "P19"
-    ],
     "date": "2026-04-09",
+    "key_metric": "p=1.0; ρ=0.000",
     "lines": [
       "02_taphonomy"
     ]

@@ -1,6 +1,10 @@
 # Draf Email v2: Vida Pervaya Rusianti Kusmartono (BRIN) — Paparan Sunda & mikrobotani
 
-**Status:** DRAF v2, 2026-10-01. **Menggantikan** `EMAIL_VIDA_BRIN_DRAFT_20260813.md` (v1, tidak dikirim).
+**⛔ TIDAK DIPERLUKAN LAGI (2026-10-01, sore):** kedua pertanyaannya terjawab oleh informasi publik — kajian
+sungai purba berasal dari paparan webinar (belum ada publikasi ber-DOI), dan BRIN sudah punya kelompok
+mikrobotani VEGAN. Diganti `EMAIL_BRIN_VEGAN_DRAFT_20261001.md`. Alamat Vida yang terverifikasi bila
+kelak diperlukan: vida001@brin.go.id.
+**Status lama:** DRAF v2, 2026-10-01. **Menggantikan** `EMAIL_VIDA_BRIN_DRAFT_20260813.md` (v1, tidak dikirim).
 **Keputusan (PI mendelegasikan "pikirkan baik-baik, putuskan", 2026-10-01):** v1 **ditarik** karena memuat
 klaim yang gugur dalam audit hari yang sama: "defisit situs di zona vulkanik yang bertahan setelah
 kontrol upaya survei" (salah tanda E069, ledger C023), "tiga tahun" (≈16 bulan), dan "214 eksperimen"

@@ -46,6 +46,15 @@ ORCID 0000-0002-1848-167X
 
 ---
 
+## ⏸ STATUS 2026-10-01 (later the same day): HELD as a reserve
+Fact-check: her UCL profile now returns 404; ORCID shows *Research Fellow in Archaeobotany, UCL IoA, Sept
+2022–2025* (likely lapsed); `c.castillo@ucl.ac.uk` is unverified. If pursued, route via Dorian Fuller
+(d.fuller@ucl.ac.uk) or her ORCID. Her Liangan chapter: Castillo, C.C. (2014) "The rice remains from
+Temanggung: First evidence of tropical japonica in Indonesia", in Abbas, N. (ed.), *Liangan: Mozaik Peradaban
+Mataram Kuno di Lereng Sindoro*, Kepel Press, pp. 267–278 (macro-remains, not phytoliths/starch). Note that a
+starch study on Liyangan grinding stones exists (Nisa 2023, UGM thesis). **Local first:** the BRIN VEGAN group
+— see `EMAIL_BRIN_VEGAN_DRAFT_20261001.md`.
+
 ## Verification block (fill before sending)
 
 - Address: *(pending verification by background check 2026-10-01; v1 used `c.castillo@ucl.ac.uk`)*

@@ -2,6 +2,11 @@
 
 **Updated:** 2026-10-01 · **Temperature:** 🧊 BLOCKED on a human — honest outreach v2 ready for the PI
 
+> **2026-10-01 (late update):** outreach now goes to **BRIN's VEGAN group** (phytolith/starch/pollen, PR
+> Arkeometri; head Nia Marniati Etie Fajari) — `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md`. The Vida
+> draft is superseded (its questions are answered publicly); Castillo is held as a reserve (UCL post likely lapsed).
+> T5 now targets dated pre-400 paleosols (after T4-desk), with Batujaya's waterlogged layers as the positive
+> control for the pollen/phytolith proxies.
 > **2026-10-01:** the two outreach drafts of 13 Aug were **withdrawn** (they carried claims invalidated by
 > the re-entry audit, incl. the E069 "deficit survives survey control" sentence) and rewritten as honest
 > v2s: `docs/correspondence/EMAIL_CASTILLO_PHYTOLITH_DRAFT_v2_20261001.md` and

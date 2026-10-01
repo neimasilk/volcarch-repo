@@ -3,7 +3,15 @@
 **Status:** DRAFT 2026-10-01 · not yet an experiment number (becomes **E226** if the PI approves the 3-month
 direction in `docs/WORKSTATE.md` §4). Source: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5.
 **Line:** 04_language_text (primary) + 06_thesis. **Cost:** $0, 1–2 sessions, desk only.
-**Why this first:** it answers the PI's literal question ("why does history start ~400 CE?") with a
+> **Revised 2026-10-01 after the WF2 review:** T1 *documents* H0; it is **not a test** (the outcome is known,
+> n≈10, predictors collinear), and DHARMA (already in the repo, E023) settles its key comparison: Tuk Mas
+> (mid-7th c., volcanic interior) is no later than Kedukan Bukit (682, non-volcanic Sumatra), and Tarumanagara's
+> corpus lies in volcanic Bogor. Add one discriminating variable: the **lag from first evidence of contact to the
+> first local inscription** per region (Bali ≈900 yr at a coastal node; West Java Buni → Tarumanagara ≈400 yr).
+> Output: a background table for an Indonesian-language synthesis, not a stand-alone international paper.
+> It is no longer the first test to run — see `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5/§7.
+
+**Why this first (original reasoning):** it answers the PI's literal question ("why does history start ~400 CE?") with a
 publishable, falsifiable comparison, and it is cheap. It will probably confirm the mainstream view (H0).
 That is fine; the point is to close one question cleanly and in public.
 
@@ -55,6 +63,6 @@ polities" point (Kundungga; the Tugu canal), which is the PI's question answered
 ## 5. Known limits (state in the note)
 
 Palaeographic dating carries roughly ±100 years. Some foreign-text identifications (Yediao, Iabadiou,
-Yepoti) are contested and are excluded from `onset`. The DHARMA corpus lacks Kutai and Tarumanagara, so
-those rows come from editions and secondary syntheses, which need a specialist's check before
-publication (G10).
+Yepoti) are contested and are excluded from `onset`. DHARMA includes Tugu (Tarumanagara, dated there to ca. 6th
+c.) and Tuk Mas; the Kutai row comes from editions and secondary syntheses and needs a specialist's check
+before publication (G10).

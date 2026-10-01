@@ -9680,3 +9680,38 @@ WORKSTATE, lalu ditarik. Pelajaran: setiap temuan subagen dicek sebelum disebark
 sama*, sehingga artefak di dalam data (titik pengganti, duplikat, label relief) lolos. Re-derivasi harus
 mencakup **audit unit data** (berapa koordinat unik? apa sumber tiap baris?) dan **arah/tanda** (C023), dan harus
 memeriksa **berkas yang benar-benar diunggah** (C033).
+
+### 2026-10-01 (akhir) — tinjauan adversarial atas jawaban obyektif (3 skeptis Opus) → v2; keputusan outreach final
+
+**WF2 `objective-answer-adversarial`:** proto-sejarah/epigrafi, geomorfologi/vulkanologi, metodologi —
+**ketiganya SOUND_WITH_FIXES.** Jawaban intinya bertahan (±400 M = onset prasasti Sanskerta regional;
+masyarakat pra-400 ada; interior vulkanik masih terbuka), tetapi catatan v1 **condong melawan tesis di
+beberapa tempat**. Perbaikan utama di v2 (`docs/research_notes/OBJECTIVE_ANSWER_20261001.md`):
+- Kronologi: Jawa Tengah ±pertengahan abad ke-7 (Tuk Mas, DHARMA), bukan 732; Kedukan Bukit 682; Bali abad
+  ke-8; Tugu ±abad ke-6 (DHARMA). Keterlambatan Jateng ±100–250 tahun, bukan 250–350.
+- "Prasasti", bukan "tulisan" (Funan abad ke-3 sudah punya "buku dan arsip"); gelombang bertahap ±500 tahun;
+  mekanismenya norma prasasti Sanskerta India abad ke-4. **Argumen terkuat: prasasti Purnawarman bertahan di
+  permukaan lanskap vulkanik Bogor.**
+- §0(3) dipecah: (3a) keterlambatan prasasti tak butuh penguburan; (3b) permukiman = pertanyaan terbuka.
+  Model simpul dagang saja tak meramalkan urutan (Kutai pedalaman paling awal).
+- H1 dipecah: **H1a** (permukaan pra-400 terkubur — pasti di zona tertentu lewat superposisi) vs **H1b**
+  (berpenghuni — belum teruji). E166 ("56,7%", sebagian besar laut) dan E109 dibuang dari "melawan H1"
+  (simetri). Liyangan (±10 m; hunian ±akhir abad ke-6; klaim ¹⁴C lebih tua) ditampilkan.
+- H3 diakui sebagai hipotesis lama (Bronson & Wisseman 1976) dengan kontrol dalam-Jawa; H4 dinaikkan; dukungan
+  polen untuk H6 dikoreksi; kaskade E110/E120 tak dihitung untuk H2.
+- Uji: **T0** (tanggal Liyangan), **T4-meja** (kedalaman permukaan ±400 M; falsifikasi D6 bertaruh nyata),
+  **T7 baru** (kalibrasi deteksi: desa dalam prasasti abad ke-8–10 vs permukiman tercatat — uji pertama yang
+  bisa memisahkan H3 dari H6), T2 dirancang ulang secara adil, T1 = dokumentasi, bukan uji.
+- Skeptis metodologi: refit E069 hanya sel darat (NB2 + offset luas darat) β=−0,58, p≈2e-5 — tanda koreksi
+  kokoh; 225/703 sel "valid" ternyata laut; null daratan-saja E153: 31,4 km vs 6,78 km (gap P11 tetap kokoh).
+
+**Keputusan outreach (didelegasikan PI), final:** agen verifikasi Sonnet menemukan (a) profil UCL Castillo 404
+dan jabatannya kemungkinan berakhir 2025 → **ditahan sebagai cadangan**; bab Liangan-nya (2014) tentang sisa
+makro padi; studi pati batu pipisan Liyangan sudah ada (Nisa 2023, UGM) → draf v1 Castillo ternyata juga keliru
+fakta; (b) kedua pertanyaan draf Vida terjawab publik → **tidak dikirim**; (c) BRIN punya kelompok mikrobotani
+**VEGAN** (ketua Nia Marniati Etie Fajari) → **satu email baru**: `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md`.
+
+**P1:** `CANONICAL.md` menunjuk **v5.0** (→ Archaeological Research in Asia), bukan JASREP v4.0; v5.0 sudah tak
+memuat paragraf E069 tetapi masih mengklaim 4,4 mm/thn sebagai "Java-wide taphonomic baseline". Draf koreksi
+Zenodo diperbaiki dengan **kutipan verbatim** dari PDF terbit (baris 400–406 dan abstrak 17–22) dan menjadi
+**wajib** (bukan opsional) menurut skeptis metodologi.
