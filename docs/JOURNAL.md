@@ -9767,3 +9767,17 @@ Zenodo diperbaiki dengan **kutipan verbatim** dari PDF terbit (baris 400–406 d
 Dua agen Sonnet diluncurkan di latar untuk mencari salinan terbuka sumber T4 (suplemen Gertisser 2012, JVGR
 100) dan T0 (monografi Abbas 2014, Putra dkk. 2013, Suhendro 2026). Hasilnya dicatat di handoff §2c bila
 selesai sebelum penutupan sesi.
+
+## 2026-10-01 (penutupan) — sesi ditutup karena jatah habis
+
+Tambahan setelah uji meja:
+- protokol bor v1 dipensiunkan, dengan alasan, dan filenya disimpan;
+- kerangka naskah sintesis berbahasa Indonesia: `docs/drafts/SINTESIS_400M_OUTLINE_DRAFT_20261001.md`.
+
+**Belum terintegrasi**, karena empat pekerjaan latar belum selesai saat sesi ditutup:
+- audit hilir C023/C032 atas 11 eksperimen;
+- pemeriksaan independen literatur C037/C038;
+- pencarian salinan terbuka sumber T4;
+- pencarian salinan terbuka sumber T0.
+
+Rinciannya di handoff §2c. Ulangi di sesi berikutnya.
