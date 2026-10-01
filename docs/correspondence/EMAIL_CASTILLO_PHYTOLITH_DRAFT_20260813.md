@@ -1,5 +1,7 @@
 # Email Draft: Cristina Castillo (UCL) — phytolith/starch on volcanic Java
 
+> ⛔ **DITARIK 2026-10-01 — JANGAN DIKIRIM.** Memuat klaim yang gugur dalam audit re-entry (C023/C024) dan pernyataan berisiko tentang Liyangan. Pakai `EMAIL_CASTILLO_PHYTOLITH_DRAFT_v2_20261001.md`.
+
 **To:** [verifikasi alamat terkini — draf lama memakai c.castillo@ucl.ac.uk; cek laman staf UCL]
 **Subject:** A decisive test for the "invisible pre-400 CE Java" question — phytolith/starch in volcanic matrices
 **Status:** DRAFT 2026-08-13 — dibuat atas keputusan PI (D4, 13 Aug). **PI approve sebelum kirim.**

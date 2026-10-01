@@ -1,6 +1,13 @@
 # STATE — Line 03 PALEOENV
 
-**Updated:** 2026-07-30 · **Temperature:** 🧊 BLOCKED on a human, but has real parallel work available
+**Updated:** 2026-10-01 · **Temperature:** 🧊 BLOCKED on a human — honest outreach v2 ready for the PI
+
+> **2026-10-01:** the two outreach drafts of 13 Aug were **withdrawn** (they carried claims invalidated by
+> the re-entry audit, incl. the E069 "deficit survives survey control" sentence) and rewritten as honest
+> v2s: `docs/correspondence/EMAIL_CASTILLO_PHYTOLITH_DRAFT_v2_20261001.md` and
+> `EMAIL_VIDA_BRIN_DRAFT_v2_20261001.md`. The ask is now tied to decisive tests T4/T5 in `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`
+> (microbotanical analysis of deep, dated sediments, e.g. sand-quarry faces). Send = PI. The synthesis
+> treats E214 as literature-level and E216 as a power result — neither discriminates H3 from H6.
 
 ---
 

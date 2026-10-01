@@ -1,14 +1,27 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-08-13 · **Temperature:** 🔧 Tooling complete, corpus run not authorised
+**Updated:** 2026-10-01 · **Temperature:** 🔧 Tooling complete — next experiment proposed (T2)
+
+> **2026-10-01 inbox (orbit re-entry):** (a) E225 added to `LINE_MAP` (it was unmapped). (b) The re-entry
+> synthesis recommends **T2 — a register of chance archaeological finds at depth** (sand mining, wells,
+> foundations; Liangan, Kedulan, Kimpulan and Wonoboyo were all found this way) as the next experiment:
+> a natural extension of E225's gray-literature corpus plus Indonesian news archives, and the PI's NLP
+> strength. It needs a pre-registered design with a written kill criterion before any mining (`docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5).
+> (c) `.env` now holds a `DEEPSEEK_API` key, so E225's ≤$10 extraction budget is unblocked. (d) E211 smoke
+> test still pending (not run this session). (e) ✅ Reconciled 2026-10-01: the Phase-1 keyword outputs exist
+> (`results/E211_voc_mentions/`, 33,930 mentions); "Current position" below now says so.
 
 ---
 
 ## Current position
 
-The pipeline exists, is registered as an HKI product, and has **not been pointed at the corpus.**
-500 dagregister files are downloaded. E211 Phase 1 has been ready since **2026-04-23** and is waiting
-on one PI decision.
+The pipeline exists and is registered as an HKI product. **Corrected 2026-10-01:** it *has* been pointed
+at the corpus once — the E211 **Phase 1 keyword run finished on 2026-04-23** (500 GLOBALISE files →
+33,930 candidate mentions → 14,626 Java-filtered → 871 high-precision; 0 hits for oudheden/prasasti/stupa;
+outputs in repo-root `results/E211_voc_mentions/`, findings in
+`experiments/E211_voc_dagregister_nlp/FINDINGS_v1_20260423.md`). What is pending is the **pre-registered
+evaluated run** (`EVAL_PROTOCOL_20260813.md`), **authorised by the PI on 2026-08-13 (D2)**: 10-file smoke
+test first, then annotation of the 300+200 held-out sentences.
 
 This is the cheapest large result available anywhere in the project: the instrument is built, the data
 is on disk, and no external human is required.

@@ -1,15 +1,15 @@
 # Experiment Index
 
-**Generated:** 2026-08-11 11:41
-**Total:** 214 experiments
+**Generated:** 2026-10-01 14:12
+**Total:** 217 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 142
+- **SUCCESS:** 140
 - **UNKNOWN:** 34
-- **REVISIT:** 6
-- **INFO NEG:** 6
+- **REVISIT:** 8
+- **INFO NEG:** 8
 - **IN PROGRESS:** 4
 - **FAILED:** 3
 - **INCONCLUSIVE:** 3
@@ -26,6 +26,7 @@
 - **SCOPING — Phase 0 (p:** 1
 - **Phase 0 — corpus sec:** 1
 - **PRE-REGISTERED (deci:** 1
+- **PRE-REGISTERED (DESI:** 1
 
 ## By Line of Inquiry
 
@@ -39,7 +40,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `02_taphonomy` — Burial, erosion, exposure
 
-**46** experiments (41 primary): E001 · E002 · E017 · E018 · E020 · E024 · E052 · E069 · E075 · E081 · E083 · E084 · E085 · E086 · E087 · E092 · E101 · E107 · E109 · E117 · E123 · E126 · E128 · E132 · E135 · E137 · E138 · E140 · E148 · E156 · E157 · E161 · E164 · E166 · E170 · E173 · E177 · E178 · E182 · E188 · E193 · E195 · E197 · E201 · E204 · E213
+**47** experiments (42 primary): E001 · E002 · E017 · E018 · E020 · E024 · E052 · E053 · E069 · E075 · E081 · E083 · E084 · E085 · E086 · E087 · E092 · E101 · E107 · E109 · E117 · E123 · E126 · E128 · E132 · E135 · E137 · E138 · E140 · E148 · E156 · E157 · E161 · E164 · E166 · E170 · E173 · E177 · E178 · E182 · E188 · E193 · E195 · E197 · E201 · E204 · E213
 
 ### `03_paleoenv` — Paleo-environmental falsification
 
@@ -51,22 +52,15 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `05_archival_nlp` — Colonial archives & NLP
 
-**14** experiments (12 primary): E070 · E091 · E093 · E098 · E125 · E128 · E141 · E142 · E143 · E197 · E200 · E206 · E207 · E211
+**15** experiments (13 primary): E070 · E091 · E093 · E098 · E125 · E128 · E141 · E142 · E143 · E197 · E200 · E206 · E207 · E211 · E225
 
 ### `06_thesis` — Original question / synthesis
 
-**27** experiments (25 primary): E048 · E055 · E060 · E062 · E064 · E068 · E071 · E073 · E078 · E079 · E099 · E119 · E127 · E133 · E136 · E144 · E145 · E149 · E154 · E158 · E162 · E164 · E168 · E174 · E179 · E199 · E204
+**29** experiments (26 primary): E048 · E053 · E055 · E060 · E062 · E064 · E068 · E071 · E073 · E078 · E079 · E099 · E119 · E127 · E133 · E136 · E144 · E145 · E149 · E154 · E158 · E162 · E164 · E168 · E174 · E179 · E199 · E203 · E204
 
 ### `07_career` — Career & exposure (no experiments)
 
 *(no experiments — this line's work is not experimental)*
-
-### `external:volcarch-genetics`
-
-Canonical in the companion repo `D:\documents\volcarch-genetics` — **no local
-directory**, by design (see `docs/COMPANION_REPOS.md`). Cite as external evidence.
-
-E053 · E203
 
 ## All Experiments
 
@@ -120,6 +114,7 @@ E053 · E203
 | E050 | Canarium spp. Global Distribution — Austronesian A | ? | 04_language_text |  |  |  |
 | E051 | Java Toponymic Substrate Analysis | SUCCESS | 04_language_text |  | P5,P8,P9 | p=2.2e-20; rho=0.387 |
 | E052 | Sunda Shelf Paleo-Drainage Reconstruction | SUCCESS | 02_taphonomy |  |  |  |
+| E053 | Ancient DNA Taphonomic Gap in Island Southeast Asi | REVISIT | 02_taphonomy,06_thesis |  |  | p=0.25 |
 | E054 | Pan-Austronesian Cognacy Gradient — Continental-Sc | ? | 04_language_text |  | P9 | p=0.002; rho=-0.088 |
 | E055 | Multi-Evidence Convergence Synthesis | ? | 06_thesis | L2,L5 |  |  |
 | E056 | Candi Location × Toponymic Substrate Cross-Referen | ? | 04_language_text |  |  | p=0.007; rho=-0.240 |
@@ -135,7 +130,7 @@ E053 · E203
 | E066 | Candi Archaeoastronomy — Entrance Orientation vs S | SUCCESS | 01_spatial |  | P11 | p=0.0016 |
 | E067 | Volcanic Toponyms — Do Volcanic Place Names Cluste | INFO NEG | 04_language_text |  | P11 | p=0.146; rho=+0.140 |
 | E068 | FDR Meta-Analytic Audit | SUCCESS | 06_thesis |  |  |  |
-| E069 | Adversarial Experiment Suite — Falsification Tests | SUCCESS | 02_taphonomy |  |  | AUC=0.713; p=0.760 |
+| E069 | Adversarial Experiment Suite — Falsification Tests | INFO NEG | 02_taphonomy |  |  | AUC=0.713; p=0.760 |
 | E070 | Colonial Literature Mining — Independent Dataset C | SUCCESS | 05_archival_nlp |  | P1,P11,P2,P7 |  |
 | E071 | Pre-400 CE Evidence Database | SUCCESS | 06_thesis | L1,L3,L6 | P11 |  |
 | E073 | Spatial vs Linguistic Evidence Meta-Test | ? | 06_thesis |  |  |  |
@@ -192,7 +187,7 @@ E053 · E203
 | E125 | Delpher Pilot Study | SUPERSEDED | 05_archival_nlp |  |  |  |
 | E126 | Global Volcanic Archaeology Compilation | SUCCESS | 02_taphonomy,01_spatial | L1 | P1,P18 |  |
 | E127 | Ancient External References to Pre-400 CE Nusantar | SUCCESS | 06_thesis | L3 | P1,P16,P18,P19 |  |
-| E128 | Colonial OV Depth Analysis — Independent Burial Ca | SUCCESS | 02_taphonomy,05_archival_nlp | L1 | P1,P21 |  |
+| E128 | Colonial OV Depth Analysis — Independent Burial Ca | SUCCESS | 02_taphonomy,05_archival_nlp |  |  |  |
 | E129 | Survey Asymmetry Quantification | SUCCESS | 01_spatial | L1 | P1,P18 | p=0.09 |
 | E130 | Substrate Detection Interpretability | SUCCESS | 04_language_text | L4 | P19,P8 | AUC=0.76 |
 | E131 | Comparative Writing System Adoption Timeline | SUCCESS | 04_language_text | L3 | P1,P19 |  |
@@ -258,7 +253,7 @@ E053 · E203
 | E192 | NDWI Anomaly vs Burial Depth Correlation | SUCCESS | 01_spatial | L1 | P1,P17 | p=0.048; rho=-0.39 |
 | E193 | Sunda Shelf Entry Points vs Coastal Site Distribut | SUCCESS | 02_taphonomy | L2 | P18 |  |
 | E194 | Combined Archaeological Prospection Map | SUCCESS | 01_spatial | L1,L2 | P1,P17,P2 |  |
-| E195 | Is Two Javas Taphonomic? — The Inverse Discovery | SUCCESS | 02_taphonomy,01_spatial | L1 | P1,P17,P18 |  |
+| E195 | Is Two Javas Taphonomic? — The Inverse Discovery | INFO NEG | 02_taphonomy,01_spatial |  |  | p=1e-5; ρ=+0.525 |
 | E196 | Pre-400 CE Java Population Estimation | SUCCESS | 01_spatial | L1,L2 | P1,P17,P18 |  |
 | E197 | Colonial Depth Records vs E075 Burial Model | SUCCESS | 02_taphonomy,05_archival_nlp | L1 | P1,P17 | p=0.131 |
 | E198 | Sago-Rice Etymology — The "sego" ← "*sagu" Hypothe | SUCCESS | 04_language_text |  |  |  |
@@ -266,6 +261,7 @@ E053 · E203
 | E200 | Historical Dutch NER Baseline Analysis | SUCCESS | 05_archival_nlp |  |  | p=0.131 |
 | E201 | Philippines Archaeological Record — Deep Compositi | SUCCESS | 02_taphonomy |  | P1,P17,P18 |  |
 | E202 | DEM Depression Detection for Buried Archaeological | FAILED | 01_spatial | L1 | P1,P11,P18 | p=0.326 |
+| E203 | Indonesian Genome Population Structure — Meta-Anal | REVISIT | 06_thesis |  |  |  |
 | E204 | Bronze Drum (Nekara) Distribution — Extended Analy | SUCCESS | 02_taphonomy,06_thesis | L1,L4 | P1,P17,P19 |  |
 | E205 | The Indigenous Layer in Wayang — Quantifying Pre-H | SUCCESS | 04_language_text | L4,L5 | P19,P5 |  |
 | E206 | ArcheoBERTje-NER on Colonial Dutch — Quantifying t | SUCCESS | 05_archival_nlp |  |  |  |
@@ -286,6 +282,7 @@ E053 · E203
 | E222 | Synthetic Ground-Truth Validation | SUCCESS | 01_spatial |  |  |  |
 | E223 | Statistical Robustness Package | SUCCESS | 01_spatial |  |  |  |
 | E224 | Does target-group background work once the bias va | FAILED | 01_spatial |  | P2 |  |
+| E225 | Gray-Literature Mining — Forgotten Pre-400 CE Reco | PRE-REGISTERED (DESI | 05_archival_nlp |  |  |  |
 
 ## Revisit Candidates
 
@@ -305,7 +302,9 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E037 | Prasasti Dating Model (ML on Undated Ins | INFO NEG | *(check README)* |
 | E038 | Volcanic Vocabulary Semantic Drift Acros | INFO NEG | *(check README)* |
 | E039 | Volcanic Cultural Selection — Cross-Cult | INFO NEG | *(check README)* |
+| E053 | Ancient DNA Taphonomic Gap in Island Sou | REVISIT | *(check README)* |
 | E067 | Volcanic Toponyms — Do Volcanic Place Na | INFO NEG | *(check README)* |
+| E069 | Adversarial Experiment Suite — Falsifica | INFO NEG | *(check README)* |
 | E087 | Substrate Detector Negative Control | CONDITIONAL | *(check README)* |
 | E099 | Eruption Frequency x Inscription Visibil | INCONCLUSIVE | *(check README)* |
 | E101 | Colonial Burial Depth Multivariate Model | PARTIAL | *(check README)* |
@@ -313,7 +312,9 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E132 | Sedimentation Rate Prediction Map | PARTIAL | *(check README)* |
 | E137 | Accidental Discovery Rate Model | PARTIAL | *(check README)* |
 | E145 | Eruption Frequency vs Archaeological Vis | INFO NEG | *(check README)* |
+| E195 | Is Two Javas Taphonomic? — The Inverse D | INFO NEG | *(check README)* |
 | E202 | DEM Depression Detection for Buried Arch | FAILED | *(check README)* |
+| E203 | Indonesian Genome Population Structure — | REVISIT | *(check README)* |
 | E213 | Aggradation–Exposure Geomorphic Asymmetr | INCONCLUSIVE | *(check README)* |
 | E224 | Does target-group background work once t | FAILED | *(check README)* |
 

@@ -244,7 +244,7 @@ Kami secara sengaja mencoba menghancurkan temuan kami sendiri:
 |-----|-------|
 | ADV-1: Jepang vulkanik tapi punya rekam 38.000 tahun? | PARTIAL — survives dengan constraint: volcanism + survey deficit |
 | ADV-2: Cave bias sama di vulkanik dan non-vulkanik? | INCONCLUSIVE — harus pakai data kedalaman, bukan tipe situs |
-| ADV-3: Sinyal vulkanik survive setelah kontrol survei? | **PASSED** (p = 0,0015) |
+| ADV-3: Sinyal vulkanik survive setelah kontrol survei? | ~~PASSED (p = 0,0015)~~ ⚠ **TERBALIK** — koreksi 2026-10-01 (C023): situs justru lebih banyak di dekat gunung api setelah kontrol survei |
 | ADV-4: Substrat linguistik bukan noise? | **PASSED** (z = 11,05) |
 | ADV-5: Mon-Khmer negative control? | **PASSED** (6/6 benar) |
 

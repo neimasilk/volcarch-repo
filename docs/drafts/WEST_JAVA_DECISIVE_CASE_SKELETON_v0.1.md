@@ -71,6 +71,7 @@ pernah di-survei sebanding."* Jawabannya bukan paragraf — jawabannya adalah **
 survei**, dalam tiga lapis:
 
 1. **Kontrol statistik (sudah ada):** E069 quasi-Poisson — setelah mengontrol tiga proksi intensitas
+   ⚠ **Koreksi 2026-10-01 (ledger C023):** tanda ADV-3 salah baca. Koefisien ada pada *jarak* ke gunung api, jadi nilai negatif berarti situs tercatat **lebih banyak** di dekat gunung api setelah kontrol survei — bukan defisit yang bertahan. Lihat `experiments/E069_adversarial_comparanda/adv3_survey_intensity/README.md` §CORRECTION. **Lapis 1 karenanya GUGUR sebagai kontrol upaya-survei** — letter tidak boleh memakainya; lapis 2 (densitas ekskavasi) kini satu-satunya jalan, dan definisi kelas "open-air interior" harus dipra-registrasi (ledger C030).
    survei (jarak jalan, jarak kantor BPCB, jarak universitas), proksimitas vulkanik **mempertahankan**
    efek independen (β=−0.477, **p=0.0015**). ⚠ **Harus di-re-derive pada inventori kanonik 30**
    sebelum dipakai di letter (aksi P11 yang sama).

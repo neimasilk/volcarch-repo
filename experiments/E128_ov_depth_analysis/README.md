@@ -1,5 +1,11 @@
 # E128: Colonial OV Depth Analysis — Independent Burial Calibration
 
+> ⚠ **Correction 2026-10-01 (ledger C025):** this is **not** an independent replication of E083. Of E083's 18
+> unique positive depth values, 13 reappear among E128's 19 (both mined from the same colonial OV reports); the
+> "independence CONFIRMED" string in the script is hard-coded and compares against a typed list, not the E083
+> CSV. The depths remain real colonial measurements of what was found at depth — useful as such, but they are one
+> source, not two.
+
 **Date:** 2026-03-30
 **Status:** SUCCESS
 **Paper:** P1, P21

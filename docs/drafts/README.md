@@ -76,7 +76,9 @@ Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 |------|-----------|
 | `manifesto.md` | Grand narrative — 6 lapisan kegelapan + kriteria falsifikasi (internal, bukan publikasi) |
 | `parking_lot_vcs_colonial.md` | Raw ideas: VCS + colonial resistance + population estimates |
-| `working_note_ancient_dna.md` | *(moved to `/genetics/working_note_ancient_dna.md`)* |
+| `working_note_ancient_dna.md` | Working note (2026-03-07): pre-Austronesian Java & the population-evidence channel — full text restored 2026-10-01 from the re-merged companion repo |
+| `T1_REGIONAL_ONSET_DESIGN_DRAFT_20261001.md` | Design draft (pre-registration candidate, becomes E226 on PI approval): why written history starts ~400 CE — regional onset of local writing vs volcanic setting vs trade-node position |
+| `WEST_JAVA_DECISIVE_CASE_SKELETON_v0.1.md` | ⚠ 2026-10-01: three of four arms factually wrong (Batujaya dates, Kendeng Lembu volcanic, Bondowoso post-400) and E069 layer inverted — rebuild or park (see `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`) |
 
 ### Strategy (di `docs/`)
 

@@ -1,6 +1,28 @@
 # STATE — Line 02 TAPHONOMY
 
-**Updated:** 2026-08-13 · **Temperature:** ⚠ WARM — no deadline, but owes a debt to every other line
+**Updated:** 2026-10-01 · **Temperature:** ⚠ WARM — the integrity debt grew today (re-entry audit)
+
+> ## ⚠ 2026-10-01 re-entry audit — what changed for this line
+>
+> - **E069 / ADV-3 was mis-signed since 2026-03-13** (ledger **C023**, verified independently): the
+>   coefficient is on *distance*, so β<0 = a **surplus** of recorded sites near volcanoes after survey
+>   control, not a deficit. README, canonical note and both scripts corrected; the canonical re-run
+>   reproduces every number with verdict `SURPLUS NEAR VOLCANOES (not a burial deficit)`. P1 JASREP v4.0
+>   l.270, this line's contract, L1, VOLCARCH_STORY, PREMORTEM and the West Java skeleton corrected or
+>   annotated. ADV-3's pre-registered criterion was direction-agnostic — the deeper flaw.
+> - **Reported by an evidence reader, verification pending (C024–C030):** "4 mm/yr" is depth ÷ *assumed*
+>   monument age (E132 hand list), not an E083 output; rates span ~0.5 (Lake Borobudur) to ~7–9 mm/yr
+>   (Sambisari fan); E132/E166 calibration distances mistyped; E128 not independent of E083; E075
+>   "validation" is model-vs-model; E178 karst not carried by its own statistics; E195's failed
+>   prediction relabelled "AHA"; the 666-site base used by E069/E109 is unvetted (E001 never run).
+> - **External literature (fact-check 2026-10-01):** Kendeng Lembu sits on a Raung volcanic fan (Noerwidi
+>   2009), not "non-volcanic"; Bondowoso megaliths date 7th–14th c CE; Batujaya's brick temples are
+>   5th/6th–10th c (only the Buni burial phase beneath is pre-400). The West Java skeleton's arms need
+>   rebuilding before any letter.
+> - **Consequences:** the 6.5 m detection horizon is illustrative and near-vent only; **P1 must not go to
+>   JASREP** before a WS-E-style audit of its calibration anchors (C024). Synthesis: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`.
+> - **Next:** verify C024–C030 one by one (each is cheap); then the decisive tests T2 (register of chance
+>   finds at depth) and T4 (dated sand-quarry faces) from the synthesis note.
 
 ---
 

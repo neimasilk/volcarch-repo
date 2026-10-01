@@ -23,7 +23,24 @@ Structural/central problems (artifact, circularity, equifinality, sampling-on-de
 ### G1 — Re-derivation (blind recompute)
 **Check:** Every headline number is recomputed *from raw data, by a fresh script or agent that has NOT seen the paper.* If the blind number ≠ the paper number → RED.
 **Why:** caught the P7 volcano artifact (90–170 km → 33–53 km); cleared P17 (14.6/27.6 km reproduced exactly). Reviewing prose never catches this.
+⚠ **2026-10-01: that "clearance" was the failure.** P17's numbers reproduced exactly *because the recompute
+read the same contaminated file*: 50 Borobudur captions at one point and 42 region placeholders produce the
+whole contrast (ledger C032). A G1 that re-runs the numbers without auditing the data units is not a gate.
+See **G1-bis** below.
 **Failure code:** F2 (shared/contaminated-substrate artifact).
+
+### G1-bis — Data-unit, direction and uploaded-file audit (added 2026-10-01; provisional until PI ratifies)
+**Check, before any GREEN on G1:**
+1. **Units:** count distinct coordinates or records against the row count; list the sources behind each
+   row class; flag placeholders (region centroids, default dates), duplicates, and many records sitting on one
+   object (e.g. 50 captions from one monument). Any headline that moves materially once these are removed → RED.
+2. **Direction:** for every coefficient or difference, state the predicted **sign** in words and check it
+   against the variable's definition (distance vs proximity). E069 was reported inverted for seven months (C023).
+3. **The uploaded file:** run the checks on the exact file that goes to the portal (docx/pdf), not only on the
+   source .tex. The P11 SPAFA docx had no abstract in either language behind a "FINAL GO" (C033).
+**Why:** on 2026-10-01 the re-entry audit found that three "verified" results (E069, P17, P11) had all
+passed a numbers-only G1.
+**Failure code:** F2.
 
 ### G2 — Domain-sanity
 **Check:** Answer 5 basic domain-fact questions a field expert would ask about the central claim. (e.g. "Is Sangiran really far from any volcano?" → No, it's in the Solo basin by Lawu.) Any wrong answer that the paper depends on → RED.

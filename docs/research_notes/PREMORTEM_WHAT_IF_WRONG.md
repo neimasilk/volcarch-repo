@@ -71,6 +71,7 @@
 
 **What would settle it:**
 - Compare survey-normalized discovery rates across volcanic and non-volcanic regions of Java. E069 already does this (p=0.0015 after controlling for survey proxies). The volcanic signal persists.
+  ⚠ **Correction 2026-10-01 (ledger C023):** the ADV-3 sign was misread. The coefficient is on *distance* to the nearest volcano, so a negative value means recorded sites are **more** numerous near volcanoes after survey control — not a surviving deficit. See `experiments/E069_adversarial_comparanda/adv3_survey_intensity/README.md` §CORRECTION. So this check has **not** been passed; it still needs real excavation-effort data.
 - But the critique has a point: if Indonesia surveyed at Japan-level intensity, most pre-Hindu sites would be found with or without the volcanic framework. VOLCARCH's contribution is TARGETING, not necessity.
 
 **Current evidence weight:** The critique is partially correct. VOLCARCH's value is not "volcanic burial explains everything" (it doesn't — 1.7× leverage). Its value is "volcanic burial is the only spatially predictable factor, enabling prioritized recovery." This reframe is already in E110 and P1 EGQSJ.

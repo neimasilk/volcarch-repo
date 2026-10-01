@@ -1,5 +1,26 @@
 # E082: DHARMA Inscription Georeferencing
 
+> ## ⚠ CORRECTION 2026-10-01 (re-entry audit, ledger C032) — the candi–inscription contrast is a geocoding artefact
+>
+> The canonical file `results/canonical30/geocoded_inscriptions_canonical30.csv` has 175 rows but only **42
+> distinct coordinates**; 65.7% of rows sit on five points: **50 Borobudur relief captions** at one point
+> ("Borobudur, Magelang", 28.2 km from a volcano) and **42 region-level placeholders** ("Mataram Central Java"
+> 20, "East Java" 18, "Central Java" 4). `geocode_method` labels all of them `known_location`, so no filter
+> caught them. Re-run (`robustness_geocoding_20261001.py` → `results/canonical30/robustness_geocoding_20261001.txt`):
+>
+> | Inscriptions vs candi | n ins / candi | median ins vs candi | gap | MW p |
+> |---|---|---|---|---|
+> | as published (P17/P11 numbers, U=8125) | 175 / 142 | 27.6 vs 14.5 km | 13.1 km | 1.1e-7 |
+> | precise findspots only (no captions, no placeholders) | 83 / 142 | 16.8 vs 14.5 km | 2.3 km | 0.068 |
+> | precise findspots, candi de-duplicated (103 unique coords) | 83 / 103 | 16.8 vs 16.6 km | 0.2 km | 0.27 |
+> | precise findspots, East Java only, candi de-duplicated | 37 / 103 | 16.8 vs 16.6 km | 0.2 km | 0.85 |
+>
+> **The "two geographies" contrast does not survive.** It was produced by one monument's captions and by
+> province-level placeholder points that happen to sit in the 15–30 km "court zone". This affects P17
+> (under review, ArchCalc #365), P11 (pillar 2), and E105's 929 CE result (48 of 58 pre-929 "court-zone"
+> records are the Borobudur captions, per the 2026-10-01 verifier). Found by an Opus verifier, then re-derived
+> independently by the orchestrator.
+
 ## Hypothesis
 Inscriptions cluster away from active volcanoes, suggesting volcanic zones are under-represented in the epigraphic record. This would support the "Invisible Millennium" thesis: volcanic landscapes erase or bury the material evidence of past civilizations, including stone inscriptions.
 

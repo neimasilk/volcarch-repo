@@ -1,0 +1,21 @@
+inscription rows: 175
+geocode_method: [('known_location', 166), ('candi_match', 7), ('xml_provenance', 2)]
+confidence: [('medium', 86), ('high', 84), ('low', 5)]
+titles mentioning relief/Borobudur: 50 | distinct coords among them: 1
+distinct coordinates: 42 | share on top-5 points: 65.7 %
+    51 rows at (-7.61,110.2)  method=known_location note='Borobudur, Magelang'
+    34 rows at (-7.6,110.35)  method=known_location note='Mataram Central Java'
+    17 rows at (-7.6,112.0)  method=known_location note='East Java'
+     8 rows at (-7.19,108.36)  method=known_location note='Ciamis, West Java'
+     5 rows at (-7.55,112.39)  method=known_location note='Trowulan area'
+as published (175 inscriptions, 142 candi rows)                n_ins=175  n_candi=142  med candi  14.5 | med ins  27.6 | gap  13.1 km | p=1.1e-07
+minus relief/Borobudur captions                                n_ins=125  n_candi=142  med candi  14.5 | med ins  15.4 | gap   0.9 km | p=0.0033
+methods treated as placeholders: set()
+minus captions and placeholder-geocoded rows                   n_ins=125  n_candi=142  med candi  14.5 | med ins  15.4 | gap   0.9 km | p=0.0033
+minus captions and placeholders, de-duplicated candi           n_ins=125  n_candi=103  med candi  16.6 | med ins  15.4 | gap  -1.1 km | p=0.047
+East Java only (lon >= 111) precise inscriptions, de-dup candi n_ins=55   n_candi=103  med candi  16.6 | med ins  27.6 | gap  11.0 km | p=0.0025
+
+region placeholders dropped: 42 | precise findspots kept: 83
+precise findspots (no captions, no region placeholders), 142 candi n_ins=83   n_candi=142  med candi  14.5 | med ins  16.8 | gap   2.3 km | p=0.068
+precise findspots, de-duplicated candi (103)                   n_ins=83   n_candi=103  med candi  16.6 | med ins  16.8 | gap   0.2 km | p=0.27
+precise findspots, East Java only (lon>=111), de-dup candi     n_ins=37   n_candi=103  med candi  16.6 | med ins  16.8 | gap   0.2 km | p=0.85

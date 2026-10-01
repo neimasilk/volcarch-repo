@@ -1,6 +1,33 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-08-11 · **Temperature:** 🟢 COOLING — P2 **TERKIRIM**, 9 hari sebelum tenggat
+**Updated:** 2026-10-01 · **Temperature:** 🔥 HOT — dua aksi eksposur siap, tinggal PI
+
+> ## 🔴 2026-10-01 (re-entry setelah jeda 7 minggu) — dua hal yang hanya PI bisa selesaikan
+>
+> 0. 🔴 **UPDATE SORE — P17 (ArchCalc #365, under review): inti temuannya artefak geocoding** (ledger C032,
+>    terverifikasi). 50 dari 175 "prasasti" = label relief Borobudur di satu titik; 42 di titik pengganti
+>    wilayah. Lokasi temuan sebenarnya saja: gap candi–prasasti 0,2–2,3 km (p 0,07–0,85), bukan 13,1 km.
+>    Keputusan PI: tarik, atau beri tahu editor + tawarkan naskah artefak. Draf: `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`.
+>
+> 1. **P2 / JCAA — balas editor soal abstrak.** 31 Agt editor memperbaiki judul tetapi **menolak
+>    abstrak baru** (dinilai menceritakan proses review, bukan karyanya); paper masuk review ronde 2 hari
+>    itu juga. Abstrak pengganti yang berfokus pada karya, diverifikasi 2 pemeriksa Opus:
+>    `papers/P2_settlement_model/EDITOR_REPLY_ABSTRACT_20261001.md` — **sudah ada sebagai draf Gmail** di
+>    utas editor (Drafts → "RE: Revised files uploaded …"). Baca → Send.
+> 2. 🔴 **UPDATE SORE 2026-10-01: P11 NO-GO — jangan kirim v0.7 maupun v0.8.** Re-check SIG v0.8 (diverifikasi
+     orkestrator): tanpa Penanggungan, 73 candi sisanya tidak mengelompok ke barat (Rayleigh p=0,26, inventori
+     kanonik); 39 dari 142 baris candi berkoordinat ganda; docx tanpa abstrak. Rincian dan daftar perbaikan:
+     `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. P17 (daftar candi yang sama) **bertahan** setelah de-duplikasi (gap 11,0 km, p=1,3×10⁻⁵).
+     Teks di bawah adalah rencana pagi hari, disimpan untuk jejak. **(rencana lama) P11 → SPAFA: kirim v0.8, BUKAN v0.7.** v0.7 berbunyi "The deficit is real, not a survey artefact"
+>    berdasar E069, yang **salah tanda** (ledger C023): koefisien pada *jarak*, jadi situs justru lebih
+>    banyak di dekat gunung api. v0.8 membuang regresi itu dan menyatakan keberatan upaya-survei sebagai
+>    terbuka; inti makalah (candi di lereng barat, dua geografi) tidak berubah. Berkas:
+>    `draft_v0.8_spafa.tex/.pdf`, `spafa_assets/P11_submission_v0.8.docx`, skrip `make_v0.8_e069_fix.py`.
+>    Re-check SIG: `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. Paket v0.7 tidak pernah
+>    terkirim (target ≤20 Agt lewat selama jeda) — untung.
+>
+> Status jurnal (cek Gmail 2026-10-01): P2 review ronde 2 sejak 31 Agt; P17 (ArchCalc #365) dan P8
+> (OL) tanpa email sejak 10 Agt. Sintesis lintas-line: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`.
 
 > ## ✅ P2 v0.2 DIKIRIM KE JCAA — 2026-08-11
 >

@@ -66,7 +66,7 @@ for doing a line's work — enter the line for that.
 
 ### Experiment Protocol
 - Numbered directory: `experiments/ENNN_short_name/`. **Numbering is global and flat** — never
-  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E223).
+  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E225; next free E226).
 - Every experiment has a `README.md` with hypothesis, method, data used, result, conclusion, and
   status (SUCCESS / FAILED / INCONCLUSIVE / REVISIT). Pre-register the design in `DESIGN.md` when
   the result could go either way — E217–E223 are the model to copy.
@@ -151,10 +151,11 @@ volcarch-repo/
 └── inBox/                  ← drop zone; must be empty after processing
 ```
 
-**External:** the molecular/population-data channel lives in the **`volcarch-genetics`** repo — see
-`docs/COMPANION_REPOS.md`. Cite it as external evidence with commit/DOI pinning. It is separate for
-**model-compatibility** reasons, not organisational ones; do not use it as a precedent for splitting
-other lines out of this repo.
+**Population-evidence channel (E053, E203):** it was a separate `volcarch-genetics` repo from
+2026-06-10 to 2026-09, for model-compatibility reasons only, and was **re-merged on 2026-10-01** at the
+PI's request. Both experiments are back in `experiments/` like any other (companion history: tag
+`archive/volcarch-genetics-20260730`; record: `docs/COMPANION_REPOS.md`). It is one sub-channel of the
+original question, not a line of its own — and like every channel it is subject to F9.
 
 ---
 

@@ -37,8 +37,9 @@ Central Java.
   Zone A 17.9×→19.1×. The finding survived; the number did not.
 
 **The surviving reframe is EXPOSURE, not distance:** erosion and karst *windows* determine what is
-findable, not proximity to a volcano. E178 is the key: Philippine volcanic zones have pre-400 CE
-sites because they have **caves**; Java does not.
+findable, not proximity to a volcano. ⚠ **2026-10-01: this reframe is an untested idea, not a result.**
+E178 ("karst is the key") is not carried by its own statistics (karst ρ=0.000; ledger C028), and E213's
+slope operationalisation failed. Treat exposure as a hypothesis awaiting a geology layer.
 
 > **WS-E (from `docs/research_notes/FABLE_STRATEGIC_PLAN_20260707.md`) belongs to this line and is
 > NOT done:** enumerate and blind re-derive every headline number in P1/P2/P5/P8/P11/P17/manifesto
@@ -56,7 +57,7 @@ sites because they have **caves**; Java does not.
 | **P3** Burial depth | `papers/P3_burial_depth/` | DISCONTINUED (2026-03-10, Mata Elang #2). |
 | **D2** Mini-NusaRC | `papers/D2_mini_nusarc/` | Data paper — preliminary **radiocarbon** database (80 sites) built for **H-TOM** testing, which is why it sits in this line rather than 01. ✅ **PUBLISHED on Zenodo 2026-08-11** — `10.5281/zenodo.21882247`. |
 
-**46 experiments** are assigned to this line (41 primary). Authoritative list:
+**47 experiments** are assigned to this line (42 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 
@@ -70,15 +71,15 @@ sites because they have **caves**; Java does not.
 **Adversarial controls (the robustness scorecard):**
 `E086` ADV-1 Japan → PARTIAL (L1 = volcanism × survey deficit, not volcanism alone) ·
 `E081` ADV-2 non-volcanic control → INCONCLUSIVE (cave bias is universal; must use **depth** data) ·
-`E069` ADV-3 survey → **PASSED** p=0.0015 · `E085` ADV-4 noise → **PASSED** z=11.05 ·
+`E069` ADV-3 survey → ⚠ **INVERTED** (2026-10-01, C023: β on distance <0 = *surplus* of sites near volcanoes, not a deficit) · `E085` ADV-4 noise → **PASSED** z=11.05 ·
 `E087` ADV-5 negative control → resolved by `E107` (Mon-Khmer substrate)
 
-**Rates & mechanisms:** `E002` (eruption history), `E017` tephra PoC, `E075` sedimentation model,
-`E132` sedimentation map (**55% error — downgraded**), `E170` lahar flow, `E213` aggradation/exposure
-asymmetry
+**Rates & mechanisms:** `E002` (eruption history), `E017` tephra PoC, `E075` sedimentation model
+(its r=0.951 "validation" is model-vs-model, C026), `E132` sedimentation map (**55% error — downgraded**;
+its calibration ages are partly assumed, C024), `E170` lahar flow, `E213` aggradation/exposure asymmetry
 **Depth & subsurface:** `E024` borehole screening, `E101` burial depth model, `E128` OV depth
-(independent), `E166` burial depth map, `E197` colonial depth validation
-**Exposure & confounds:** `E178` **karst is the hidden 6th factor**, `E109` survey–burial confound,
+(**not** independent of E083 — same OV source, C025), `E166` burial depth map, `E197` colonial depth validation
+**Exposure & confounds:** `E178` karst idea (**not supported by its own statistics**, C028), `E109` survey–burial confound,
 `E135` organic preservation, `E137` accidental discovery, `E138` detection methods
 **Spatial/tephra correlation:** `E001`, `E083`, `E084`, `E117`, `E145`
 **Coastal submersion (L2 layer, shared with 01):** `E052`, `E148`, `E156`, `E177`, `E193`

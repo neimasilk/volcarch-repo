@@ -55,18 +55,18 @@ independently of any paper acceptance — see [07_career](../07_career/).
 
 | Experiment | What it is | Status |
 |---|---|---|
-| `E211_voc_dagregister_nlp` | **Phase 1 pipeline = VOC-ArchNLP.** 500 files downloaded. | 🛑 **awaiting PI approval to run (112 days as of 2026-08-13)** |
+| `E211_voc_dagregister_nlp` | **Phase 1 pipeline = VOC-ArchNLP.** 500 files downloaded. | Phase 1 keyword run done 2026-04-23 (33,930 mentions; informative negative). **Evaluated run AUTHORISED 2026-08-13 (D2)** — smoke test pending |
 | `E207_globalise_voc_pilot` | GLOBALISE pilot | done — schema verified |
 | `E200_dutch_ner_baseline` | Dutch NER baseline | done |
 | `E206_archeobert_colonial_gap` | ArcheoBERT on the colonial gap | done |
 | `E091_ov_nlp_mining` | *Oudheidkundig Verslag* mining — **breaks the DHARMA monoculture** | done |
-| `E128_ov_depth_analysis` | OV depth evidence (also cited by [02_taphonomy](../02_taphonomy/)) | independent replication |
+| `E128_ov_depth_analysis` | OV depth evidence (also cited by [02_taphonomy](../02_taphonomy/)) | done — **not** independent of E083 (same OV source; ledger C025) |
 | `E141`–`E143` | Delpher extraction / fulltext / spatial | done |
 | `E125_delpher_pilot` | Delpher pilot | SUPERSEDED |
 | `E070`, `E093`, `E098` | colonial & Indonesian literature mining, lit database | done |
 | `E197_colonial_depth_validation` | colonial depth validation | done |
 
-**14 experiments** are assigned to this line (12 primary). Authoritative list:
+**15 experiments** are assigned to this line (13 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 
@@ -82,8 +82,8 @@ independently of any paper acceptance — see [07_career](../07_career/).
 
 ## Line rules
 
-1. **E211 does not run without PI approval.** 500 files are downloaded and waiting; that decision is
-   the PI's, and it has been pending since April.
+1. **E211 runs only under its pre-registered protocol** (`experiments/E211_voc_dagregister_nlp/EVAL_PROTOCOL_20260813.md`).
+   The PI authorised the evaluated run on 2026-08-13 (D2); the 10-file smoke test comes first.
 2. **Never redistribute Delpher/KB full text.** Derived counts, entities, and coordinates are fine;
    source text is not, absent the SCC.
 3. **Evaluate against a held-out annotated set before reporting any extraction number.** The lesson

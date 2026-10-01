@@ -39,6 +39,8 @@ LINES = {
     "06_thesis":        "Original question / synthesis",
     "07_career":        "Career & exposure (no experiments)",
 }
+# No experiment is external since 2026-10-01 (volcarch-genetics re-merged);
+# the tag is kept so a future companion repo can reuse the mechanism.
 EXTERNAL = "external:volcarch-genetics"
 
 LINE_MAP = {
@@ -117,6 +119,7 @@ LINE_MAP = {
     "E142": ["05_archival_nlp"], "E143": ["05_archival_nlp"],
     "E200": ["05_archival_nlp"], "E206": ["05_archival_nlp"],
     "E207": ["05_archival_nlp"], "E211": ["05_archival_nlp"],
+    "E225": ["05_archival_nlp"],
     # --- 06 thesis / synthesis ---------------------------------------------
     "E048": ["06_thesis"], "E055": ["06_thesis"], "E060": ["06_thesis"],
     "E062": ["06_thesis"], "E064": ["06_thesis"], "E068": ["06_thesis"],
@@ -143,9 +146,11 @@ LINE_MAP = {
     "E195": ["02_taphonomy", "01_spatial"],
     "E197": ["02_taphonomy", "05_archival_nlp"],
     "E204": ["02_taphonomy", "06_thesis"],
-    # --- external (companion repo; no local directory) ----------------------
-    "E053": [EXTERNAL],
-    "E203": [EXTERNAL],
+    # --- population-evidence channel: back in this repo since 2026-10-01 ----
+    # (was the external volcarch-genetics companion repo 2026-06-10 → 2026-09;
+    # its history is kept at tag archive/volcarch-genetics-20260730)
+    "E053": ["02_taphonomy", "06_thesis"],
+    "E203": ["06_thesis"],
 }
 
 
@@ -313,14 +318,15 @@ def generate_index(experiments):
             lines.append("*(no experiments — this line's work is not experimental)*")
         lines.append("")
 
+    # Only emitted if something is external again; since 2026-10-01 nothing is.
     ext = [e["id"] for e in experiments if EXTERNAL in e.get("lines", [])]
-    lines.append(f"### `{EXTERNAL}`")
-    lines.append("")
-    lines.append("Canonical in the companion repo `D:\\documents\\volcarch-genetics` — **no local")
-    lines.append("directory**, by design (see `docs/COMPANION_REPOS.md`). Cite as external evidence.")
-    lines.append("")
-    lines.append("E053 · E203" if not ext else " · ".join(ext))
-    lines.append("")
+    if ext:
+        lines.append(f"### `{EXTERNAL}`")
+        lines.append("")
+        lines.append("Canonical in a companion repo — see `docs/COMPANION_REPOS.md`.")
+        lines.append("")
+        lines.append(" · ".join(ext))
+        lines.append("")
 
     unmapped = [e["id"] for e in experiments if not e.get("lines")]
     if unmapped:

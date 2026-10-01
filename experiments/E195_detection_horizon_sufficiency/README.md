@@ -1,7 +1,12 @@
 # E195: Is Two Javas Taphonomic? — The Inverse Discovery
 
+> ⚠ **Correction 2026-10-01 (ledger C027):** the pre-stated prediction was that inscriptions near volcanoes
+> would be *younger* (older ones buried). The result is the opposite (ρ=+0.525, p=1e-5; near-volcano median
+> century 10 vs far 11; MW p=0.0002; results JSON verdict `UNEXPECTED`). That is a failed prediction, recorded
+> here as an informative negative. The "AHA" reinterpretation below is a post-hoc rescue, kept for the record.
+
 **Date:** 2026-04-13
-**Status:** SUCCESS (AHA — unexpected direction reveals deeper insight)
+**Status:** INFO NEG — the burial-truncation prediction did not hold (corrected 2026-10-01; originally labelled "AHA")
 **Paper:** P17 (critical revision ammo), P1, P18
 **Layer:** L1
 

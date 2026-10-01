@@ -52,7 +52,7 @@ genuinely finished.** *One flagship finished beats five half-done.*
 | **P18** Invisible civilization (alt) | `papers/P18_invisible_civilization/` | HOLD. |
 | Constitution | `docs/L1_CONSTITUTION.md` | Core hypotheses, philosophy, ethics. Amendment pending. |
 | Manifesto | `docs/drafts/manifesto.md` | v2.0. **A claim, never a citation (F10).** |
-| Evidence map | `docs/master_evidence_map.md` | The channel architecture. Channels 7/8 point to the external genetics repo. |
+| Evidence map | `docs/master_evidence_map.md` | The channel architecture. Channel 3 = the population-evidence channel (E053/E203 — local again since 2026-10-01). |
 | Narrative | `docs/VOLCARCH_STORY.md` | Public-facing story. |
 | Pre-mortem | `docs/research_notes/PREMORTEM_WHAT_IF_WRONG.md` | Read this before adding any synthesis claim. |
 | Evaluation | `docs/EVAL.md` | How success is measured. |
@@ -73,8 +73,8 @@ genuinely finished.** *One flagship finished beats five half-done.*
 **Synthesis experiments:** `E048`, `E055`, `E060`, `E062`, `E064`, `E071`, `E119`, `E127`, `E133`,
 `E144`, `E168`, `E174`, `E195`, `E199`
 **Adversarial self-attack:** `E158` steelman counter-arguments, `E068`/`E154` FDR audits
-(65/83 survive BH = 78.3%; casualties E032 and E053 — **E053 now lives in the external
-`volcarch-genetics` repo**, there is no local directory for it), `E179` factor independence
+(65/83 survive BH = 78.3%; casualties E032 and E053 — E053 was in the separate
+`volcarch-genetics` repo until 2026-09 and is **back in `experiments/` since 2026-10-01**), `E179` factor independence
 
 ---
 
@@ -87,8 +87,9 @@ genuinely finished.** *One flagship finished beats five half-done.*
    experiment quotes volcano distances it is blocked on [02_taphonomy](../02_taphonomy/)'s WS-E sweep.
 4. **State the falsifier.** Any claim entering P0 comes with: *what observation would refute this?*
    If the answer is "none", it does not go in. That rule is what P7's rejection bought.
-5. **Cite the genetics channel as external** (`volcarch-genetics` at `D:\documents\volcarch-genetics`,
-   commit/DOI pinned). Do not re-import it. See `docs/COMPANION_REPOS.md`. **27 experiments** are
-   assigned to this line (24 primary) — authoritative list in `docs/EXPERIMENT_INDEX.md`
+5. **The population-evidence channel is local again** (E053, E203 re-merged 2026-10-01 at the PI's
+   request — see `docs/COMPANION_REPOS.md`). It is one sub-channel of the original question; F9
+   applies; E053 is an E154 FDR casualty — re-check before citing. **29 experiments** are
+   assigned to this line (26 primary) — authoritative list in `docs/EXPERIMENT_INDEX.md`
    §"By Line of Inquiry".
 6. **The 4-AI consensus gate applies to the Masterpiece** — not to be waived for convenience.

@@ -32,7 +32,7 @@ Ali **nuances rather than contradicts** Pollock's framework. He:
 - **Ali 2011:** Pollock's language-to-politics link is complex, not straightforward.
 - **VOLCARCH:** There was a pre-Indic substrate civilization; Sanskrit was an elite overlay on top of an existing complex society that had its own material organisation and maritime reach.
 
-VOLCARCH is broadly COMPATIBLE with Ali's nuanced reading of Pollock. Both Ali and VOLCARCH reject the straightforward "Indianization = civilization" equation. The key addition VOLCARCH makes is empirical: the pre-Indic substrate wasn't just culturally present — it produced material culture (Jatim beads, bronze drums, maritime trade to Han China in 132 CE) that Pollock's framework doesn't specifically address.
+VOLCARCH is broadly COMPATIBLE with Ali's nuanced reading of Pollock. Both Ali and VOLCARCH reject the straightforward "Indianization = civilization" equation. The key addition VOLCARCH makes is empirical: the pre-Indic substrate wasn't just culturally present — it produced material culture (Jatim beads, bronze drums, a tribute embassy from 'Yediao' recorded in the Hou Hanshu for 131/132 CE [correction 2026-10-01: a tribute embassy, not trade, and Yediao's location — Java, Sumatra or Borneo — is contested; cite with that caveat]) that Pollock's framework doesn't specifically address.
 
 **P0 should engage Ali seriously** because Ali represents the sophisticated contemporary form of the Indianization debate. Dismissing only Coedès is too easy.
 

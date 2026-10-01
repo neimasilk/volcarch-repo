@@ -1,5 +1,7 @@
 # Email Draft: Vida Pervaya Rusianti Kusmartono (BRIN) — Sunda Shelf & mikrobotani
 
+> ⛔ **DITARIK 2026-10-01 — JANGAN DIKIRIM.** Memuat klaim "defisit situs yang bertahan setelah kontrol upaya survei", yang salah tanda (ledger C023). Pakai `EMAIL_VIDA_BRIN_DRAFT_v2_20261001.md`.
+
 **To:** [verifikasi alamat — cari profil di laman BRIN; PR Arkeologi Prasejarah & Sejarah]
 **Subject:** Menindaklanjuti kajian Sungai Purba Paparan Sunda — pertanyaan tafonomi yang sama
 **Status:** DRAFT 2026-08-13 — dibuat atas keputusan PI (D4, 13 Aug). **PI approve sebelum kirim.**

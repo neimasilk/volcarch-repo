@@ -1,5 +1,14 @@
 # ADV-3 — Re-derivasi Kanonik 30 Puncak (WS-E / SIG G1) — 2026-08-13
 
+> ⚠ **KOREKSI 2026-10-01 — kesimpulan di bawah TERBALIK.** Angka-angkanya benar dan tereproduksi
+> persis, tetapi `volcano_dist` adalah **jarak**: β negatif = jumlah situs **turun** saat menjauhi
+> gunung api = **lebih banyak situs di dekat gunung api**. "Sinyal vulkanik pada defisit situs justru
+> lebih tajam" (paragraf Kesimpulan) salah arah: yang menguat adalah **surplus** situs tercatat di
+> dekat gunung api setelah kontrol survei, bukan defisit. Verdict JSON kini
+> `SURPLUS NEAR VOLCANOES (not a burial deficit)` (skrip dijalankan ulang 2026-10-01, angka identik).
+> Rincian + cek independen: `README.md` §CORRECTION; propagasi: ledger C023. Re-derivasi G1 tanggal 13
+> Agt memverifikasi **angka** tetapi tidak **arah** — pelajaran untuk SIG (lihat C023).
+
 **Konteks:** syarat 1 dari 5 menuju submit P11 → SPAFA (`SIG_signoff.md` 2026-08-11):
 angka survey-control E069 (`β=-0.477, p=0.0015`) belum pernah di-re-derive pada inventori
 kanonik 30 gunung.

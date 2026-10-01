@@ -46,3 +46,21 @@ If candi are proxies for surrounding settlements, then known non-temple archaeol
 
 ## Implication for P11
 Directly addresses the "temples ≠ settlements" reviewer objection. Can add 2-3 sentences citing E153 results.
+
+## Robustness addendum 2026-10-01 (re-entry audit, ledger C029)
+
+The site base (`data/processed/east_java_sites.geojson`, OSM/Wikipedia) contains modern features: 78 names
+match modern-monument patterns (Tugu, Monumen, Patung, …) and 662/666 have period `unknown`. Only 391 sites
+carry geometry. Because E153's rule puts type `monument` on the temple side, most modern monuments never
+entered the non-temple set. Re-computed with `robustness_modern_features_20261001.py`
+(output `results/robustness_modern_features_20261001.txt`, Monte Carlo 2,000 draws, same bounding-box null):
+
+| Non-temple set | n | mean km | median km | <10 km | null mean km | MC p |
+|---|---|---|---|---|---|---|
+| E153 rule (baseline, reproduces README) | 108 | 6.78 | 3.94 | 80.6% | 53.76 | 0.0005 |
+| minus modern/non-ancient names | 103 | 6.61 | 3.62 | 81.6% | 53.66 | 0.0005 |
+| strict: typed archaeological_site/ruins only | 94 | 6.22 | 3.62 | 81.9% | 53.74 | 0.0005 |
+
+**Verdict: Test 1 is robust to the modern-feature contamination** (it tightens slightly). The remaining
+weakness is the null: random points in a bounding box ignore shared geography (roads, rivers, survey routes),
+so a survey-aware null (e.g. random points along the road network) is still an open test.

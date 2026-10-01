@@ -371,22 +371,25 @@ def main():
     # Use the quasi-adjusted p-value if overdispersed
     final_p = adj_p if dispersion > 1.5 else lr_pvalue
 
+    # CORRECTED 2026-10-01: volcano_dist is a DISTANCE, so the sign mapping below was inverted
+    # until this date (negative was read as "fewer sites near volcanoes"). A negative coefficient
+    # on distance means MORE sites near volcanoes; a burial deficit needs a POSITIVE one.
     if final_p < 0.05:
-        if volc_coef < 0:
-            verdict = "VOLCARCH SUPPORTED"
+        if volc_coef > 0:
+            verdict = "DEFICIT NEAR VOLCANOES (consistent with burial)"
             explanation = (
-                f"Adding volcanic proximity SIGNIFICANTLY improves the model (p={final_p:.4f}).\n"
-                f"Volcanic coefficient is NEGATIVE (beta={volc_coef:.4f}), meaning:\n"
+                f"Adding volcanic distance SIGNIFICANTLY improves the model (p={final_p:.4f}).\n"
+                f"Coefficient on distance is POSITIVE (beta={volc_coef:.4f}), meaning:\n"
                 f"  Fewer sites closer to volcanoes, EVEN AFTER controlling for survey intensity.\n"
                 f"  This is consistent with volcanic burial suppressing site discovery."
             )
         else:
-            verdict = "VOLCARCH COMPLICATED"
+            verdict = "SURPLUS NEAR VOLCANOES (not a burial deficit)"
             explanation = (
-                f"Adding volcanic proximity significantly improves the model (p={final_p:.4f}),\n"
-                f"but coefficient is POSITIVE (beta={volc_coef:.4f}), meaning:\n"
+                f"Adding volcanic distance significantly improves the model (p={final_p:.4f}),\n"
+                f"but the coefficient on distance is NEGATIVE (beta={volc_coef:.4f}), meaning:\n"
                 f"  MORE sites near volcanoes after survey control.\n"
-                f"  Volcanic fertile soil may ATTRACT settlement (confound)."
+                f"  Temple siting, fertile soil or survey focus may ATTRACT records (confound)."
             )
     else:
         verdict = "VOLCARCH WEAKENED"

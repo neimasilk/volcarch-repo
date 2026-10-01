@@ -1,0 +1,5 @@
+candi: 142  sites: 391  non-temple (E153 rule): 108
+non-temple sites with modern/non-ancient names: 5 e.g. ['Watu Tugu', 'Jembatan Bok Buntung', 'Stasiun Kabat', 'Museum Manusia Purba Gilimanuk', 'Taman Nasional Bali Barat']
+E153 rule (baseline, should match README)      n=108  mean=  6.78 km  median= 3.94  <10km= 80.6%  null mean= 53.76  MC p=0.0005
+minus modern/non-ancient names                 n=103  mean=  6.61 km  median= 3.62  <10km= 81.6%  null mean= 53.66  MC p=0.0005
+strict: typed archaeological_site/ruins only   n=94   mean=  6.22 km  median= 3.62  <10km= 81.9%  null mean= 53.74  MC p=0.0005

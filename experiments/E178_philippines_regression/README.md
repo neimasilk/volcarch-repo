@@ -1,5 +1,11 @@
 # E178: Philippines Archaeological Density Regression
 
+> ⚠ **Correction 2026-10-01 (ledger C028):** the script's own statistics do not carry the karst story. Re-run
+> read-only: Spearman karst vs pre-400 site density ρ=0.000 (p=1.0); volcanic density vs site density ρ=+0.185
+> (p=0.69, Japan excluded — the wrong sign for a volcanic deficit); the regression's karst coefficient is −3.217;
+> its own table ranks Bali (karst 0.05) densest (0.865/1000 km²). Region counts are hand-entered. Treat "karst is
+> the hidden 6th factor" as an untested idea, not a finding.
+
 **Date:** 2026-04-09
 **Paper:** P1, P17, P19 (comparative framework)
 **Status:** SUCCESS — Java's darkness is uniquely volcanic BUT karst is a hidden 6th factor

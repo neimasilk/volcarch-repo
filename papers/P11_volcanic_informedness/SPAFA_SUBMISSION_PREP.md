@@ -1,6 +1,7 @@
 # P11 → SPAFA Journal — Submission Prep (2026-08-11)
 
-**Status:** SIAP-KIRIM secara konten (SIG CONDITIONAL GO). Portal submission = PI.
+**Status (2026-10-01, sore):** 🔴 **NO-GO — jangan kirim v0.7 maupun v0.8.** Lihat `SIG_signoff.md` §2026-10-01 (pola lereng barat = efek Penanggungan; 39/142 candi duplikat; docx tanpa abstrak). Cover letter di bawah perlu ditulis ulang setelah rework.
+**Status lama:** SIAP-KIRIM secara konten (SIG CONDITIONAL GO).
 **Draf:** `draft_v0.6_spafa.tex` → `draft_v0.6_spafa.pdf` (14 halaman, kompilasi bersih).
 **Riwayat:** tolak 2× (Cornell *Indonesia* — scope; *Archipel* — editorial). Temuan inti selamat
 (candi–pemukiman gap 6.78 km, 80.6% <10 km, p<1e-6, kebal inventori). Retarget: **SPAFA Journal**.
@@ -77,19 +78,19 @@ Hidden Settlement Geography of Volcanic Java."
 
 The paper argues that Java's surviving Hindu-Buddhist temples (candi) serve as spatial markers of a
 settlement landscape that volcanic sedimentation has rendered invisible to archaeological survey.
-Through analysis of 142 candi and 170 georeferenced inscriptions, we show that temples cluster on the
+Through analysis of 142 candi and 175 georeferenced inscriptions, we show that temples cluster on the
 west-northwest flanks of the island's volcanoes — precisely the zones where burial by pyroclastic
 deposits is most intense — while their orientation follows religious canon, demonstrating deliberate
 landscape reading by their builders. Inscriptions sit on average ~6 km farther from volcanoes than
 temples, marking a separate administrative geography. The 2008 discovery of the buried village of
-Liangan validates this framework.
+Liangan shows that this framework is plausible.
 
 We believe this paper suits SPAFA Journal because it addresses a core Southeast Asian archaeological
 question — the taphonomy of the region's volcanic landscapes and what it hides — with a method
 (spatial statistics of standing monuments) directly relevant to heritage practice across the
 archipelago.
 
-The manuscript is approximately 3,200 words with 2 figures. It has not been published elsewhere and
+The manuscript is approximately 4,300 words in total, including references and the Indonesian title, abstract and keywords, with 2 figures. It has not been published elsewhere and
 is not under consideration at any other journal. All data and computational scripts are publicly
 available (https://github.com/neimasilk/volcarch-repo).
 

@@ -271,13 +271,18 @@ def main():
     print("\n" + "=" * 70)
     print("INTERPRETATION")
     print("=" * 70)
+    # CORRECTED 2026-10-01: volcano_dist is a DISTANCE (km, z-scored). In a Poisson model a
+    # NEGATIVE coefficient means expected counts FALL with distance, i.e. MORE recorded sites
+    # near volcanoes. The original mapping (volc_coef < 0 -> "VOLCARCH SUPPORTED") read that as
+    # a deficit near volcanoes and so inverted the result. A burial-driven detection deficit
+    # predicts a POSITIVE coefficient on distance. See README "CORRECTION 2026-10-01".
     if final_p < 0.05:
-        if volc_coef < 0:
-            verdict = "VOLCARCH SUPPORTED"
+        if volc_coef > 0:
+            verdict = "DEFICIT NEAR VOLCANOES (consistent with burial)"
         else:
-            verdict = "VOLCARCH COMPLICATED"
+            verdict = "SURPLUS NEAR VOLCANOES (not a burial deficit)"
     else:
-        verdict = "VOLCARCH WEAKENED"
+        verdict = "NO RESIDUAL VOLCANIC SIGNAL"
     print(f"VERDICT: {verdict}  (volc beta={volc_coef:.4f}, final p={final_p:.6f})")
 
     delta_r2 = pr2_2 - pr2_1

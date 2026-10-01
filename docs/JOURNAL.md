@@ -9551,3 +9551,132 @@ ke output agent — urutkan: review adversarial DULU, baru konversi; (2) kritik 
 tanpa cek nomor berikutnya yang bebas (E225) — penomoran eksperimen harus dicek `ls -d experiments/E*`
 sebelum menulis kritik; (3) verifikasi persentase footnote terhadap sumbernya (70.8 vs 73) menangkap
 salah label yang lolos G1 — G8 bekerja.
+
+---
+
+## 2026-10-01 — Sesi re-entry (orbit, Opus 5.5, ultracode) — riset dilanjutkan setelah jeda 7 minggu
+
+**Konteks dari PI:** riset dihentikan sejak pertengahan Agustus karena model Fable mem-flag repo ini
+sebagai topik "biologi". PI menegaskan: ini **bukan** riset biologi — kanal genetika hanyalah satu
+sub-bagian untuk menjawab pertanyaan inti (*mengapa sejarah Nusantara "dimulai" ~400 M*), dan PI
+ingin jawaban yang **obyektif**. PI memindahkan `volcarch-genetics/` kembali ke dalam repo dan
+meminta repo dirapikan dulu.
+
+**Keadaan saat masuk:** tidak ada berkas terlacak yang berubah sejak commit `7cee3a9` (13 Agt);
+hanya `AGENTS.md` (salinan CLAUDE.md untuk Codex, 4 Sep) dan `volcarch-genetics/` (repo bersarang,
+2 commit, tanpa remote) yang baru. **Kanari MERAH** (disk 215 vs dokumen 214) — E225 dibuat 13 Agt
+*setelah* kanari hijau, dan dokumen tak diperbarui (handoff 13 Agt menulis "214 … E001–E225" — sudah
+tak konsisten saat ditulis).
+
+**Integrasi ulang genetics (dikerjakan):**
+1. Riwayat repo pendamping disimpan dulu: `git fetch ./volcarch-genetics master` → tag beranotasi
+   **`archive/volcarch-genetics-20260730`** (5c7304c..703fa18; 11 berkas). Tidak ada yang hilang.
+2. E053 + E203 dikembalikan ke path aslinya di `experiments/` — **identik byte-per-byte** dengan
+   versi pra-split (`14a2fc2^`), jadi riwayat path bersambung.
+3. Working note utuh (8,6 KB) menggantikan stub penunjuk 443 B di `docs/drafts/`; ringkasan subfield
+   → `docs/bibliography/05_paleogenomics/` (versi pendamping: tanpa front-matter penunjuk, kata asli
+   "DNA-hostile" dipulihkan dari normalisasi "skeptical"); README pendamping diarsip
+   (`docs/archive/volcarch-genetics_README_20260730.md`). Kerangka `.git` bersarang dihapus setelah
+   tag terverifikasi.
+4. `scan_experiments.py`: E053 → 02_taphonomy+06_thesis, E203 → 06_thesis, **E225 → 05** (sebelumnya
+   tak terpetakan); seksi "external" hanya dicetak bila ada anggota. Indeks diregenerasi.
+5. Penunjuk diperbarui: CLAUDE.md + AGENTS.md (paragraf kanal populasi; "currently through E225; next
+   free E226"), `COMPANION_REPOS.md` (ditulis ulang sebagai catatan sejarah), `lines/README.md`,
+   kontrak line 02/05/06 (hitungan 47/15/29), line 06 STATE (larangan "re-import" dicoret), drafts
+   README, WORKSTATE (skor + housekeeping), manifesto §3 (217) dan §2 (sisa angka "214" dihapus —
+   §2 dirancang bebas angka; C019 menandainya DONE padahal belum).
+6. **Kanari HIJAU: 217** (E001–E225; 8 nomor tak pernah dibuat: E021, E045–E047, E072, E077, E180,
+   E212; 17 eksperimen lintas-line). Nomor bebas berikutnya **E226**.
+
+**Catatan kosakata:** tidak ada pass eufemisme baru. Berkas start-path hanya memuat penunjuk polos
+("population-evidence channel (E053, E203)"). Sesi Opus 5.5 membaca seluruh konten kanal tanpa
+masalah. Bila model lain salah-flag lagi: `/feedback`, bukan split ulang.
+
+**Keadaan eksposur yang perlu dicek PI (tak bisa diverifikasi dari repo):** P11→SPAFA (target ≤20 Agt
+— terkirim?), keputusan jurnal P2/JCAA, P17/ArchCalc, P8/OL selama 7 minggu, dua draf email outreach.
+
+### 2026-10-01 (lanjutan) — audit re-entry: jawaban obyektif, E069 salah tanda, P11 v0.8, eksposur disiapkan
+
+**Workflow (ultracode, PI meminta Sonnet/Haiku untuk tugas ringan):** `volcarch-objective-answer` (4 pembaca
+bukti Sonnet per klaster + 2 pemeriksa literatur Sonnet ber-WebSearch). **3 dari 6 agen menolak di run
+pertama** karena membaca pesan PI "riset ini saya hentikan" sebagai perintah berhenti; diulang dengan
+pembuka konteks yang eksplisit (`volcarch-objective-answer-rerun`). Pelajaran: subagen workflow melihat
+pesan PI; setiap prompt perlu satu paragraf yang menjelaskan bahwa jeda adalah masa lalu.
+
+**Temuan terbesar — E069/ADV-3 salah tanda sejak 2026-03-13 (ledger C023, diverifikasi independen):**
+koefisien ada pada *jarak* ke gunung api; β=−0.477 (7 gunung) / −0.831 (kanonik 30) berarti situs tercatat
+**lebih banyak** di dekat gunung api setelah kontrol tiga proksi survei, bukan defisit. Bukti: refit
+mereproduksi β persis; efek parsial p10 > p90; data mentah 3,18 situs/sel ≤10 km vs 0 di >100 km. Verdict
+skrip (`volc_coef < 0 → SUPPORTED`) dan README membalik tanda; kriteria pra-registrasi ADV-3 juga tak berarah.
+Re-derivasi G1 13 Agt memeriksa angka, bukan arah. Dikoreksi: README + RESULTS_CANONICAL30 + kedua skrip
+(re-run kanonik: angka identik, verdict `SURPLUS NEAR VOLCANOES`), `direction_check_20261001.py`. Propagasi:
+P11 v0.7 (→ v0.8), P1 JASREP v4.0 l.270, skeleton Jawa Barat, kontrak line 02, catatan di L1/STORY/PREMORTEM,
+memori scorecard. **Hilir yang belum diaudit:** E109, E120, E136, E154, E159, E073, E085, E080, E098, E158;
+cek apakah preprint P1 Zenodo memuat klaim ini.
+
+**Temuan lain (pembaca, verifikasi tertunda → ledger C024–C030):** "4 mm/thn" = kedalaman ÷ umur yang
+diasumsikan (daftar ketik-tangan E132); laju bervariasi ~1 orde; jarak kalibrasi salah ketik; E128 bukan
+replikasi independen E083; validasi E075 model-vs-model; karst E178 tak didukung statistiknya sendiri;
+E195 prediksi gagal dilabeli "AHA"; basis 666 situs (OSM/Wikipedia, periode "unknown") tak tervalidasi.
+**Literatur eksternal (bersumber):** Kendeng Lembu di kipas vulkanik Raung (Noerwidi 2009); megalit
+Bondowoso abad 7–14 M; candi bata Batujaya abad 5/6–10 (fase Buni di bawahnya yang pra-400); muka laut
+0–400 M ≥ sekarang dan delta utara Jawa maju (L2 tak didukung); tak ada aDNA Jawa terbit; tabel aDNA
+E203 keliru (Kalimantan, Timor, Sumatra); "1,8 juta SNV baru" = varian langka/panel referensi; sitasi
+E053/E203 tertukar. E053 & E203 diberi catatan koreksi + status REVISIT.
+
+**Jawaban obyektif untuk PI:** `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` — ±400 M adalah batas
+adopsi tulisan Indik yang regional (bukan anomali Nusantara, bukan efek vulkanik); prasasti pertama sendiri
+membuktikan kompleksitas pra-400; untuk interior vulkanik Jawa, penguburan vs upaya survei vs karakter
+tak-kasat-mata vs kepadatan rendah **belum bisa dibedakan**. Uji penentu T1–T6; rekomendasi T1 → T2
+(register temuan kebetulan di kedalaman, NLP) → mitra untuk T4 (penampang galian pasir bertanggal)/T5.
+Ditinjau 3 skeptis Opus (workflow `objective-answer-adversarial`; hasil di §8 catatan).
+
+**Eksposur (cek Gmail via Playwright, read-only, kredensial dari `.env`; IMAP ditolak Google):** P2 masuk
+review ronde 2 pada 31 Agt; **editor menolak abstrak baru** (fokus pada proses review) dan meminta tulis
+ulang — tak dijawab 31 hari. Abstrak pengganti ditulis, diverifikasi 2 pemeriksa Opus (SEND_WITH_EDITS,
+semua perbaikan diterapkan), disimpan di `papers/P2_settlement_model/EDITOR_REPLY_ABSTRACT_20261001.md` dan
+**sebagai draf Gmail di utas editor (tidak dikirim)**. P17/P8: tanpa email sejak 10 Agt. P11 → SPAFA tak
+pernah dikirim; **v0.8** dibuat (`make_v0.8_e069_fix.py`: regresi E069 dan klaim "deficit is real" dibuang,
+keberatan survei dinyatakan terbuka, kalimat penutup diturunkan; docx: 4 paragraf + catatan kaki 56
+dihapus; PDF bersih, 0 glyph hilang). Re-check SIG v0.8 oleh 2 verifikator Opus.
+
+**Outreach (PI mendelegasikan keputusan):** draf 13 Agt **ditarik** (memuat klaim yang gugur hari ini:
+"defisit bertahan setelah kontrol survei", "tiga tahun", "214 eksperimen", klaim berisiko tentang
+Liyangan). Ditulis ulang sebagai v2 jujur yang terikat ke uji T4/T5; verifikasi alamat/fakta oleh agen
+Sonnet. Kirim = PI.
+
+**Catatan PI di luar VOLCARCH (dari email, tidak ditindaklanjuti):** ada jalur PhD baru non-VOLCARCH
+untuk intake 2027; klaim "Dec 2026 Edinburgh window" di WORKSTATE perlu konfirmasi PI.
+
+### 2026-10-01 (sore) — re-check SIG P11 menjatuhkan dua temuan andalan: P11 NO-GO, inti P17 artefak
+
+**Re-check SIG v0.8 (2 verifikator Opus, `p11-v08-sig-recheck`) → NO_GO dari keduanya.** Saya turunkan ulang
+semua klaim kuantitatifnya sendiri sebelum bertindak:
+- **C031 (P11):** 142 baris candi = **103 koordinat unik** (39 duplikat; sumber OSM/Wikipedia, bukan katalog
+  terbit). Pola "lereng barat" se-Jawa = **efek Penanggungan**: Penanggungan (69) Rayleigh p=1,4e-20, 62% barat;
+  **73 candi lainnya R=0,136, p=0,26** pada inventori kanonik (naskah mengutip p=0,0009 dari run 16-gunung).
+- **C033:** docx SPAFA v0.7/v0.8 **tanpa abstrak** (EN dan ID) — terlewat oleh "SIG FINAL GO" 13 Agt.
+- **C032 (P17, under review ArchCalc #365): kontras candi–prasasti = artefak geocoding.** 175 prasasti di 42
+  koordinat; 65,7% di 5 titik (50 label relief Borobudur di satu titik; 20 "Mataram Central Java"; 18 "East
+  Java"; 4 "Central Java"; semuanya berlabel `known_location`). Lokasi temuan sebenarnya (83): gap 13,1 → 2,3 km
+  (p=0,068); candi de-dup: 0,2 km (p=0,27); Jawa Timur: 0,2 km (p=0,85). Angka P17 terbit (U=8125) = run yang
+  memuat artefak. Skrip: `E082/robustness_geocoding_20261001.py` + hasil di `results/canonical30/`.
+- **C034 (E105, 929 M):** menurut verifikator 48/58 catatan pra-929 "court-zone" = label Borobudur (belum
+  diverifikasi angka persisnya; mekanismenya sama dengan C032).
+- E153 (gap candi–situs P11) **kokoh** terhadap pembuangan fitur modern (6,78 → 6,22–6,61 km), tetapi sisi
+  "non-candi"-nya bukan permukiman dan null-nya kotak acak.
+
+**Dampak:** P11 → NO-GO (reframe ke Penanggungan atau parkir = PI). P17 → **keputusan integritas PI**: tarik,
+atau beri tahu editor dan tawarkan naskah artefak (jalur P2); draf `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`.
+Koreksi 11 Agt ("survives and strengthens") ikut gugur. Juga: preprint P1 Zenodo memuat klaim E069 terbalik
+(baris ±401–405) → draf koreksi `docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md`.
+
+**Verifikasi ledger hari ini:** C023–C030 semuanya diverifikasi langsung dari file (C028: skrip E178
+dijalankan ulang read-only). **Satu temuan pemeriksa ternyata salah baca** ("L1 menyebut Buni/Batujaya di Jawa
+Timur vulkanik"; L1 sebenarnya menempatkannya benar di Jawa Barat) — sempat masuk ke catatan sintesis dan
+WORKSTATE, lalu ditarik. Pelajaran: setiap temuan subagen dicek sebelum disebarkan, termasuk yang kecil.
+
+**Pelajaran sistemik (untuk SIG):** G1 "re-derivasi buta" tanggal 13 Agt mereproduksi *angka* dari *file yang
+sama*, sehingga artefak di dalam data (titik pengganti, duplikat, label relief) lolos. Re-derivasi harus
+mencakup **audit unit data** (berapa koordinat unik? apa sumber tiap baris?) dan **arah/tanda** (C023), dan harus
+memeriksa **berkas yang benar-benar diunggah** (C033).

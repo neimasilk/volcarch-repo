@@ -69,8 +69,8 @@ jalur pembunuhan yang sah.
 
 # §2 — Arah (*Where the research goes next*)
 
-Kelemahan struktural proyek: dari 214 eksperimen lokal, nyaris semua **defensif** (menjelaskan mengapa
-rekaman kosong). Pergeseran strategis: **dari defensif ke ofensif — dari menjelaskan ketidakhadiran
+Kelemahan struktural proyek: dari ratusan eksperimen lokal (hitungan hidup di §3), nyaris semua
+**defensif** (menjelaskan mengapa rekaman kosong). Pergeseran strategis: **dari defensif ke ofensif — dari menjelaskan ketidakhadiran
 ke menghasilkan satu deteksi positif.** Satu temuan positif yang diprediksi lebih decisif daripada
 200 eksperimen absensi.
 
@@ -90,7 +90,7 @@ Urutan prioritas:
      *menyangkal* menjadi *mengkonfirmasi*.
 3. **Program falsifikasi tetap (*standing falsification*).** Satu eksperimen per kuartal yang **didisain
    untuk melukai** tesis. E214 (palinologi) adalah modelnya — ia benar-benar menyangkal klaim kuat, lalu
-   klaim diturunkan. Defisit disconfirm (≈0/214) adalah risiko struktural terdalam proyek; program ini
+   klaim diturunkan. Defisit disconfirm (nyaris nol; lihat §3) adalah risiko struktural terdalam proyek; program ini
    memperbaikinya langsung.
 4. **Pernyataan sintetik (line 06, lambat).** Karya "peradaban vulkanik" yang merangkum, **gated on
    (1)–(3)**. Bukan sekarang.
@@ -104,8 +104,10 @@ mereka.
 
 # §3 — State Saat Ini (*Current State*) — bertanggal; bagian ini sengaja kedaluwarsa
 
-**Per 2026-08-13 · 214 eksperimen lokal (E001–E224) · 0 accepted · 7 rejected · 3 under review.** Angka di kotak ini
+**Per 2026-10-01 · 217 eksperimen lokal (E001–E225) · 0 accepted · 7 rejected · 3 under review.** Angka di kotak ini
 adalah cuplikan; sumber otoritatif ada di `docs/EXPERIMENT_INDEX.md` + `lines/*/STATE.md`.
+(+E225 pra-registrasi 13 Agt; +E053/E203 kembali dari repo pendamping 1 Okt. Status jurnal belum
+dicek ulang sejak 13 Agt — riset jeda 7 minggu.)
 
 - **Bertahan dari semua scrutiny (the cathedral):** eksperimen alami Jawa Barat · mekanisme
   penguburan & horizon deteksi (laju Dwarapala/Sambisari/Kedulan) · segregasi spasial candi↔prasasti

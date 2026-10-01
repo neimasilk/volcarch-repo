@@ -1,6 +1,6 @@
 # E069: Adversarial Experiment Suite — Falsification Tests
 
-**Status:** SUCCESS (ADV-3 executed; ADV-1/2/4/5 in separate E-dirs)
+**Status:** INFO NEG — ADV-3 verdict inverted, corrected 2026-10-01 (recorded sites are MORE numerous near volcanoes after survey control, not fewer; see `adv3_survey_intensity/README.md` §CORRECTION). ADV-1/2/4/5 in separate E-dirs.
 **Date:** 2026-03-13
 **Type:** ADVERSARIAL / FALSIFICATION
 **Papers:** ALL (thesis-level test)
@@ -59,6 +59,11 @@ Design and execute experiments that could genuinely DISPROVE the VOLCARCH thesis
 **Falsifies VOLCARCH if:** Survey intensity alone explains >90% variance; volcanic proximity adds nothing (p > 0.05).
 
 **Supports VOLCARCH if:** Residual volcanic signal after controlling for survey effort.
+
+> ⚠ **2026-10-01:** this criterion is **direction-agnostic**: a residual *surplus* of sites near
+> volcanoes also passes it, though the burial hypothesis predicts a residual *deficit*. That is what
+> happened: the residual is a surplus, and it was reported as support. Future survey-control tests must
+> state the predicted **sign** before running. See `adv3_survey_intensity/README.md` §CORRECTION.
 
 **Data:** E001 sites + road_dist (E013) + new survey intensity proxies. **Effort:** 2-3 weeks. CHEAPEST to run (most data exists).
 

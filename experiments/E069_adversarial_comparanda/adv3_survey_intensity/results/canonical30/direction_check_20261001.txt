@@ -1,0 +1,19 @@
+volcano csv columns: ['name', 'lat', 'lon'] | n = 30
+valid cells: 703 | sites in grid: 375
+
+RAW: sites per cell by distance band to nearest of the 30 volcanoes
+             count  sum   mean
+volc30_km                     
+(0, 10]         28   89  3.179
+(10, 25]       125  117  0.936
+(25, 50]       216  140  0.648
+(50, 100]      295   29  0.098
+(100, 1000]     39    0  0.000
+
+7-volcano (as saved): beta(volcano distance, z-scored) = -0.476
+  expected sites/cell NEAR (p10 = 21 km) = 0.006  vs  FAR (p90 = 130 km) = 0.002
+  => MORE sites near volcanoes (no burial deficit at this scale)
+
+canonical-30 (recomputed): beta(volcano distance, z-scored) = -0.831
+  expected sites/cell NEAR (p10 = 15 km) = 0.004  vs  FAR (p90 = 91 km) = 0.000
+  => MORE sites near volcanoes (no burial deficit at this scale)

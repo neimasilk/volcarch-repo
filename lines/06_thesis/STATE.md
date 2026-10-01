@@ -1,6 +1,15 @@
 # STATE — Line 06 THESIS
 
-**Updated:** 2026-07-30 · **Temperature:** 🛑 FALLOW BY DESIGN — this is not a backlog to clear
+**Updated:** 2026-10-01 · **Temperature:** 🛑 FALLOW BY DESIGN — this is not a backlog to clear
+
+> **2026-10-01 — the PI asked for an objective answer to the original question; it is here:** `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` (orbit audit, subtract-only: it downgrades claims and adds
+> none). Headline: ~400 CE is a region-wide writing-adoption boundary, so volcanism cannot explain *that*; the
+> first inscriptions themselves attest pre-400 complexity; for Java's volcanic interior, burial vs survey effort
+> vs low-visibility character vs genuinely low density **cannot yet be told apart** (E069 was mis-signed, C023).
+> **Blocked on PI (new):** L1 amendments proposed in §7 of that note — the §9 "within-island control" criterion
+> is confounded (coast vs interior, trade node) and cannot stay HOLDS, the Kutai-"oldest" framing (onset is regional; Vo Canh may be older),
+> layer L2 coastal submersion for 0–400 CE (unsupported: sea level at/above present, deltas prograding), and one
+> operational falsifier for the "peradaban vulkanik" character claim. E053/E203 downgrades are recorded there (§3).
 
 ---
 
@@ -50,7 +59,7 @@ Three independent gates all point the same way:
 - ❌ Draft new P0 prose sections. ❌ Open a new synthesis figure. ❌ Add a seventh channel.
 - ❌ Start WS-B. ❌ Start Masterpiece Phase 1. ❌ Run a new Mata Elang or audit (orbit-mode; audit
   cadence kini = pemicu kiriman ATAU interval 14 hari, per kritik sistem 2026-08-13).
-- ❌ Re-import the genetics channel.
+- ~~❌ Re-import the genetics channel.~~ → superseded 2026-10-01: the PI re-merged it.
 
 ## Inbox
 
@@ -58,3 +67,7 @@ Three independent gates all point the same way:
   It was an empty `results/` husk (zero files, untracked), not the experiment. Husk deleted; E053 and
   E203 are canonical in `volcarch-genetics`, which now sits at `D:\documents\volcarch-genetics` as a
   sibling rather than nested inside this repo. Cite both as external — do not re-create them here.
+- **2026-10-01 — re-merged at the PI's request** (the 2026-07-30 note above is now historical). E053 +
+  E203 restored to `experiments/`, byte-identical to the pre-split versions; companion history at tag
+  `archive/volcarch-genetics-20260730`. Open, subtract-only: E053 is an E154 FDR casualty, and E203
+  carries interpretive claims that have never been through the SIG.

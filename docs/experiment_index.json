@@ -619,6 +619,18 @@
     ]
   },
   {
+    "id": "E053",
+    "dir": "E053_adna_taphonomic_gap",
+    "has_readme": true,
+    "title": "Ancient DNA Taphonomic Gap in Island Southeast Asia",
+    "status": "REVISIT",
+    "key_metric": "p=0.25",
+    "lines": [
+      "02_taphonomy",
+      "06_thesis"
+    ]
+  },
+  {
     "id": "E054",
     "dir": "E054_pan_austronesian_cognacy",
     "has_readme": true,
@@ -795,7 +807,7 @@
     "dir": "E069_adversarial_comparanda",
     "has_readme": true,
     "title": "Adversarial Experiment Suite — Falsification Tests",
-    "status": "SUCCESS",
+    "status": "INFO NEG",
     "date": "2026-03-13",
     "key_metric": "AUC=0.713; p=0.760",
     "lines": [
@@ -1694,13 +1706,6 @@
     "has_readme": true,
     "title": "Colonial OV Depth Analysis — Independent Burial Calibration",
     "status": "SUCCESS",
-    "layers": [
-      "L1"
-    ],
-    "papers": [
-      "P1",
-      "P21"
-    ],
     "date": "2026-03-30",
     "lines": [
       "02_taphonomy",
@@ -2768,16 +2773,9 @@
     "dir": "E195_detection_horizon_sufficiency",
     "has_readme": true,
     "title": "Is Two Javas Taphonomic? — The Inverse Discovery",
-    "status": "SUCCESS",
-    "layers": [
-      "L1"
-    ],
-    "papers": [
-      "P1",
-      "P17",
-      "P18"
-    ],
+    "status": "INFO NEG",
     "date": "2026-04-13",
+    "key_metric": "p=1e-5; ρ=+0.525",
     "lines": [
       "02_taphonomy",
       "01_spatial"
@@ -2891,6 +2889,17 @@
     "key_metric": "p=0.326",
     "lines": [
       "01_spatial"
+    ]
+  },
+  {
+    "id": "E203",
+    "dir": "E203_genome_population_structure",
+    "has_readme": true,
+    "title": "Indonesian Genome Population Structure — Meta-Analysis for Taphonomic Prediction",
+    "status": "REVISIT",
+    "date": "2026-04-16",
+    "lines": [
+      "06_thesis"
     ]
   },
   {
@@ -3161,6 +3170,16 @@
     "date": "2026-08-03",
     "lines": [
       "01_spatial"
+    ]
+  },
+  {
+    "id": "E225",
+    "dir": "E225_gray_literature_mining",
+    "has_readme": true,
+    "title": "Gray-Literature Mining — Forgotten Pre-400 CE Records",
+    "status": "PRE-REGISTERED (DESI",
+    "lines": [
+      "05_archival_nlp"
     ]
   }
 ]
