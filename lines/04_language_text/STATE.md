@@ -2,6 +2,8 @@
 
 **Updated:** 2026-10-01 · **Temperature:** ⏳ WAITING, with one overdue rewrite
 
+> **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E085, E105 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
+
 > **2026-10-01 inbox (orbit re-entry; [BRIDGE → 04]):** the objective-answer synthesis
 > (`docs/research_notes/OBJECTIVE_ANSWER_20261001.md`) puts two text tests on this line. **T1** (regional onset
 > of Sanskrit inscriptions, with DHARMA as the dating authority; documentation of H0, not a test) — draft

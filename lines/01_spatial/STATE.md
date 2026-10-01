@@ -2,6 +2,8 @@
 
 **Updated:** 2026-10-01 · **Temperature:** 🔥 HOT — dua aksi eksposur siap, tinggal PI
 
+> **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E080, E109, E120, E159 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
+
 > ## 🔴 2026-10-01 (re-entry setelah jeda 7 minggu) — dua hal yang hanya PI bisa selesaikan
 >
 > 0. 🔴 **UPDATE SORE — P17 (ArchCalc #365, under review): inti temuannya artefak geocoding** (ledger C032,

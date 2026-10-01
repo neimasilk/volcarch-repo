@@ -1,3 +1,6 @@
+> ⚠ **2026-10-01 (ledger C042):** any "enrichment" relative to E080 targets is not evidence. E080's targets
+> are 20 of 29 cells tied at the top score and are built from hand-typed inputs.
+
 # Revision Support Material: Colonial Newspaper Data Validation (E141 Phase 2)
 
 **For:** P1 (EGQSJ), P17 (ArchCalc)

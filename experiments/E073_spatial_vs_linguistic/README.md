@@ -1,5 +1,15 @@
 # E073: Spatial vs Linguistic Evidence Meta-Test
 
+> **CORRECTION 2026-10-01 (ledger C041; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: SUCCESS.**
+> "ALL spatial tests detect volcanic informedness" and "perfect separation" are not supported:
+> - ADV-3 is a surplus near volcanoes (C023);
+> - the Rayleigh row is the Penanggungan cluster (C031);
+> - E065's ratio shrinks on a land-masked baseline;
+> - the E066 rows test hand-coded cardinal labels;
+> - the nine p-values are typed by hand and Fisher-combined, although they share one channel (F9).
+>
+> Retire "p=0.008, r=1.0" (I-114).
+
 ## Hypothesis
 Volcanic informedness in pre-modern Java is **behavioral/spatial, not lexical**. Evidence of volcanic awareness should be detectable in architectural siting patterns but absent from linguistic markers (vocabulary, toponyms, phonological substrates).
 
@@ -40,7 +50,7 @@ Meta-analysis combining 9 tests from 6 experiments across two evidence domains:
 - Fisher's exact OR = ∞, p = 0.008
 
 ## Conclusion
-**STATUS: SUCCESS**
+**STATUS: INFO NEG — corrected 2026-10-01 (see note at top)**
 
 The asymmetry is striking and statistically significant:
 - ALL spatial tests detect volcanic informedness

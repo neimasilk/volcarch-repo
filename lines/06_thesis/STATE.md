@@ -2,6 +2,8 @@
 
 **Updated:** 2026-10-01 · **Temperature:** 🛑 FALLOW BY DESIGN — this is not a backlog to clear
 
+> **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E073, E136, E154, E158 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
+
 > **2026-10-01 — the PI asked for an objective answer to the original question; it is here:** `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` (orbit audit, subtract-only: it downgrades claims and adds
 > none). Headline: ~400 CE is a region-wide writing-adoption boundary, so volcanism cannot explain *that*; the
 > first inscriptions themselves attest pre-400 complexity; for Java's volcanic interior, burial vs survey effort

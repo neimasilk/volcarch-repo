@@ -9807,3 +9807,33 @@ terhitung.
 
 **Dokumen yang diperbarui:** OBJECTIVE_ANSWER (§2, H1a, H1b, §9), `DESK_TESTS…` (bagian Tambahan), ledger
 C037, dan handoff §2c. Workflow audit hilir dijalankan ulang.
+
+## 2026-10-01 (malam) — audit hilir C023/C032 selesai dan koreksi diterapkan
+
+**Workflow `downstream-audit-c023-c032`** (3 pembaca Sonnet; dihentikan saat jatah habis lalu dilanjutkan).
+Catatan lengkapnya: `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`.
+
+**Vonis:**
+- **Terkena di klaim utama:** E109, E136, E154, E159, E073, E080, E105, E158.
+- **Terkena ringan:** E120, E085, E098.
+
+**Diverifikasi orkestrator dari file:**
+- **E109:** dari 592 sel gabungan, 210 sel <10% darat dengan 0 situs, 199 di antaranya tanpa darat sama sekali.
+- **E159:** JSON-nya sendiri berbunyi ROBUST, ROBUST, FRAGILE, ROBUST, ERROR, bukan "5/5".
+- **E154:** baris 26 berisi nilai p "estimated from typical VOLCARCH results".
+- **E080:** skor maksimum 0,855 dimiliki 29 sel.
+- **Paparan:**
+  - naskah P2 v0.2 dan surat jawaban reviewer yang terkirim ke JCAA bersih dari E069/E109;
+  - docx P17 yang terkirim memuat hasil E105 (929 M) dan kalimat ketahanan E159. Draf surat integritas P17
+    ditambah satu kalimat.
+
+**Diterapkan:**
+- README dengan catatan koreksi dan status baru: E109, E136, E154, E159, E073, E080, E105 → INFO NEG; E120 →
+  INCONCLUSIVE; E158 → PARTIAL; E085 dan E098 hanya diberi catatan. Indeks diregenerasi; kanari hijau.
+- Ledger C039–C043.
+- Banner DO NOT USE / SUPERSEDED di `revision_ammo`: P2 E109, P17 ME12, P17 ANTICIPATED, dan E141 di P1/P17.
+- Anotasi satu baris di IDEA_REGISTRY (I-114), EVAL, L2_STRATEGY, TRIGGER_MAP, dan VOLCARCH_STORY.
+- Catatan di STATE line 01/02/04/05/06.
+- OBJECTIVE_ANSWER §4 ditambah satu paragraf.
+
+**Akibat untuk jawaban inti:** tidak ada. Eksperimen-eksperimen ini tidak menopang jawaban §0.

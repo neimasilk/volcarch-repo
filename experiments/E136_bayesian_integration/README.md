@@ -1,7 +1,15 @@
 # E136: Bayesian Integration of All VOLCARCH Evidence
 
+> **CORRECTION 2026-10-01 (ledger C041; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: "SUCCESS (ILLUSTRATIVE)".**
+> "10 independent evidence lines all point the same way" is false. Three of its inputs are broken:
+> - the E069 line (BF 10) is inverted (C023);
+> - the E129 line (BF 5) is tautological (C036);
+> - E083 and E128 (BF 15) are not independent (C025).
+>
+> The remaining lines are correlated (F9), and all Bayes factors are typed by hand. Do not cite the composite.
+
 **Date:** 2026-03-30
-**Status:** SUCCESS (ILLUSTRATIVE — see caveats)
+**Status:** INFO NEG — retired; illustrative only, not evidence (corrected 2026-10-01; see note)
 **Paper:** ALL (meta-analysis)
 **Layer:** ALL
 

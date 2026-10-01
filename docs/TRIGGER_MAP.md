@@ -233,7 +233,7 @@
 - ✗ E067 INFORMATIVE NEGATIVE: rho=+0.140, p=0.146 (no proximity effect)
 - ✓ 1,073/25,244 (4.3%) villages have volcanic morphemes — distributed evenly across Java
 - ✓ "agung" (great), "gede" (big) = semantically broadened, NOT volcanic indicators
-- P11 Discussion: volcanic informedness = BEHAVIORAL (architecture, calendar), NOT LEXICAL
+- P11 Discussion: volcanic informedness = BEHAVIORAL (architecture, calendar), NOT LEXICAL ⚠ *2026-10-01: E073 basis not supported (C041); P11 NO-GO.*
 - Constrains VI claim: operates through spatial practice, not linguistic landscape marking
 
 ### ~~If: E031-E032 succeed (candi orientation + Pranata Mangsa)~~ → **FIRED (both SUCCESS, 2026-03-10)**

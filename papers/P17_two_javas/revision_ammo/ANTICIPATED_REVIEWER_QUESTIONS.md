@@ -1,3 +1,7 @@
+> ⛔ **SUPERSEDED (2026-10-01; ledgers C032, C034, C040).** The bootstrap/robustness answers below rest on the
+> geocoding artefact. P17 awaits the PI's integrity decision
+> (`docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`).
+
 # P17 "Two Javas" — Anticipated Reviewer Questions & Pre-Written Responses
 
 **Journal:** Archeologia e Calcolatori (computational archaeology, double-blind)

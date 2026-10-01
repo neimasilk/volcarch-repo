@@ -1,5 +1,11 @@
 # E085: ADV-4 Substrate Noise Permutation Test
 
+> **NOTE 2026-10-01 (ledger C043; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`).**
+> - The ADV-3 row in this README ("PASSED") is inverted: it is a surplus near volcanoes (C023, INFO NEG).
+> - The ADV-4 result shows that the features discriminate E022's residual labels (AUC 0.76 vs 0.50). It does
+>   not show that those labels are substrate.
+> - Report p < 0.001 (0/1000 permutations), not "p = 0.0000".
+
 **Status: SUCCESS — VOLCARCH L4 SUPPORTED**
 
 **Type:** Adversarial test (ADV-4)

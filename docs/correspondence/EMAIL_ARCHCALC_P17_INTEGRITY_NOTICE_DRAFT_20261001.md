@@ -21,6 +21,9 @@ Either way, **the editor should hear about this soon.** The 11 Aug correction no
 
 ---
 
+*Updated 2026-10-01 evening: the downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`) found
+that the submitted docx also carries the E105 "929 CE relocation" result and the E159 robustness sentence; one sentence added.*
+
 ## Text (Option A; the bracketed line gives Option B)
 
 > Dear Editor,
@@ -33,7 +36,10 @@ Either way, **the editor should hear about this soon.** The 11 Aug correction no
 > "Central Java"), which happen to fall in the distance band the paper describes. When only inscriptions
 > with specific findspots are used (83 records), the difference in median distance to the nearest volcano
 > falls from 13.1 km to between 0.2 and 2.3 km. It is no longer statistically distinguishable (p between
-> 0.07 and 0.85, depending on whether duplicate temple coordinates are removed). This also supersedes the
+> 0.07 and 0.85, depending on whether duplicate temple coordinates are removed). The same problem affects
+> the paper's second result, the shift of Sanskrit inscriptions from the court zone to the periphery after
+> 929 CE, which depends on the same caption and placeholder points. The robustness checks reported in the
+> paper were run on the same coordinates, so they support neither result. This also supersedes the
 > correction we sent on 11 August.
 >
 > Because the central claim does not survive, we wish to withdraw the submission. [Option B instead: We

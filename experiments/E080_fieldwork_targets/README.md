@@ -1,7 +1,19 @@
 # E080: Fieldwork Targeting — Priority Zones
 
+> **CORRECTION 2026-10-01 (ledger C042; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: SUCCESS.**
+> - **The top score 0.855 is shared by 29 of 4,600 cells** (verified), so the "top 20" is grid-scan order.
+> - **The inputs are typed by hand:**
+>   - 7 volcanoes;
+>   - 14 candi that disagree with E031 by up to 49 km;
+>   - a latitude "terrain" proxy;
+>   - an assumed burial formula.
+>
+>   They are not the E005/E013/E069/E075 outputs the README lists.
+> - **Nothing may cite E080 as a prediction or validation.** That includes E141's "enrichment 5.8x" and the
+>   borehole protocol, which was RETIRED on 2026-10-01.
+
 **Date:** 2026-03-13
-**Status:** SUCCESS
+**Status:** INFO NEG — targets are not evidence (corrected 2026-10-01; see note)
 **Paper:** P1, P2, P11
 **Layer:** L1
 

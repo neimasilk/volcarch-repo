@@ -1,3 +1,6 @@
+> ⛔ **DO NOT USE (2026-10-01; ledgers C031, C032, C040).** "E084 and E031 are ROBUST" is void. E084 is the
+> geocoding artefact, E031 is the Penanggungan cluster, and E159's battery ran on the same coordinates.
+
 # P17 "Two Javas" — New Evidence from ME#12 Session (2026-03-31)
 
 ## Summary

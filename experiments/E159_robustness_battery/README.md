@@ -1,6 +1,16 @@
 # E159: Robustness Battery for Cathedral Findings
 
-**Status:** SUCCESS (with one important discovery)
+> **CORRECTION 2026-10-01 (ledger C040; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: "SUCCESS (with one important discovery)".**
+> - **The README's own output contradicts "5/5 ROBUST":** `results/robustness_results.json` gives E069 ROBUST,
+>   E031 ROBUST, **E051 FRAGILE**, E084 ROBUST, **E065 ERROR** (verified).
+> - **The robust rows rest on withdrawn results:**
+>   - E084: the geocoding artefact (C032);
+>   - E031: the Penanggungan cluster (C031);
+>   - E069: a surplus near volcanoes, not a deficit (C023).
+> - **The submitted P17 manuscript cites this battery** ("survived bootstrap, permutation, jackknife"). That is
+>   now part of the P17 integrity notice.
+
+**Status:** INFO NEG — the "5/5 robust" summary is retracted (corrected 2026-10-01; see note)
 **Date:** 2026-03-31
 **Type:** [R] Robustness / Quality control
 **Papers:** All

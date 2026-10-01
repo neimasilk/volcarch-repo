@@ -250,6 +250,18 @@ koordinat unik, apa sumber tiap baris, mana titik pengganti (kasus P17, P11). (4
 
 ---
 
+**Audit hilir (malam 10-01; ledger C039–C043; `DOWNSTREAM_AUDIT_C023_C032_20261001.md`).** 8 dari 11 eksperimen
+yang memakai hasil gugur ikut terkena di klaim utamanya:
+- E109 "824 situs tersembunyi": separuh berasal dari sel laut;
+- E159 "5/5 robust": dibantah keluarannya sendiri;
+- E154: tabel FDR buta-tanda;
+- E073 dan E136: komposit "semua bukti searah";
+- E080: target lapangan dari skor seri;
+- E105: relokasi 929 M;
+- E158: peringkat steelman.
+
+Tidak satu pun menjadi bukti untuk atau melawan H1. Jawaban §0 tidak bergantung pada eksperimen-eksperimen itu.
+
 ## 5. Uji yang benar-benar bisa memutuskan
 
 Diurutkan menurut **daya putus per biaya**, bukan biaya saja.

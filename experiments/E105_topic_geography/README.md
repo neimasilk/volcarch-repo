@@ -1,6 +1,14 @@
 # E105 — BERTopic Topics × Geographic Distribution
 
-**Status:** SUCCESS (descriptive, not statistically strong)
+> **CORRECTION 2026-10-01 (ledgers C032/C034; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: "SUCCESS (descriptive ...)".**
+> - **Both headline results are produced by artefacts:** the 72% court-zone Sanskrit concentration and the
+>   929 CE court-to-periphery shift. 48 Borobudur relief captions sit on one coordinate, dated 750 CE by a
+>   century midpoint, and the rest of the effect comes from region placeholders.
+> - **Without the captions** the pre-929 court share is about 1 in 5.
+> - **The submitted P17 manuscript carries this result.** See the P17 integrity notice.
+> - `RESULTS_CANONICAL30_20260813.md` is superseded.
+
+**Status:** INFO NEG — not supported after the geocoding correction (corrected 2026-10-01; see note)
 **Date:** 2026-03-17
 **Layer:** L4 × L6 × L1 (overwrite × periodicity × geography)
 **Papers:** P5, P7, P9

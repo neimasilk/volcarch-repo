@@ -217,7 +217,7 @@ Keduanya siap deposit ke Zenodo (gratis, DOI instant). Ini kontribusi infrastruk
 | Kategori | Jumlah | Contoh |
 |----------|:---:|---|
 | Tes hipotesis genuinely novel | ~25 | E069 (survei-vulkanik), E108 (demografi gap), E178 (karst) |
-| Robustness/validasi | ~25 | E115 (Monte Carlo), E159 (bootstrap 10K), E176 (minimal model) |
+| Robustness/validasi | ~25 | E115 (Monte Carlo), E159 (bootstrap 10K), E176 (minimal model) | ⚠ *2026-10-01: "5/5 robust" retracted (C040).*
 | Database/kompilasi | ~30 | E001 (666 situs), E091 (22.162 NLP mentions) |
 | NLP pipeline | ~20 | E090 (12 tradisi kuno), E094 (SBERT epigrafi) |
 | Sintesis/figur | ~25 | E119 (visual elevator pitch), E168 (rekonstruksi peradaban) |

@@ -2,6 +2,8 @@
 
 **Updated:** 2026-10-01 · **Temperature:** ⚠ WARM — the integrity debt grew today (re-entry audit)
 
+> **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E085, E109 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
+
 > ## ⚠ 2026-10-01 re-entry audit — what changed for this line
 >
 > - **Desk tests (afternoon, `docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`):**

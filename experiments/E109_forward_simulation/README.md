@@ -1,8 +1,20 @@
 # E109: Forward Simulation — Archaeological Record Under Burial Hypothesis
 
+> **CORRECTION 2026-10-01 (ledger C039; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: "MIXED — ... estimates 824 hidden sites".**
+> - **The "824 hidden sites / 30.2% detection / 1,181 total" figures are withdrawn.** The estimated total is
+>   λ0 × number of cells. 210 of the 592 merged cells are <10% land and hold 0 sites (199 have no land at all;
+>   re-derived by the orchestrator). The audit's land-only refit gives 357 hidden (50% detection), and with a
+>   cleaned inventory 181–457.
+> - **The observed 357 come from the unvalidated geojson** (C029): monuments and modern memorials are included.
+> - **The cross-references at lines ~54 and ~73 are inverted.** E069 did not "resolve" or "isolate" a burial
+>   effect: β<0 on distance = MORE recorded sites near volcanoes (C023).
+> - **`trend_p = 0.0`** for n = 4 quartile points is not a valid p-value.
+> - **What survives:** recorded density rises with modelled burial depth. That is the same surplus signal as
+>   the corrected E069, and it is not evidence of hidden settlements.
+
 **Date:** 2026-03-17
 **Paper:** P1, P2, L1
-**Status:** MIXED — Reveals survey-burial confound; estimates 824 hidden sites
+**Status:** INFO NEG — headline numbers withdrawn 2026-10-01 (see the correction note at the top)
 
 ## Hypothesis
 

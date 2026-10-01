@@ -1,6 +1,13 @@
 # E154: Comprehensive FDR Re-Audit at 153 Experiments
 
-**Status:** SUCCESS
+> **CORRECTION 2026-10-01 (ledger C040; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: SUCCESS.**
+> - **The table is sign-blind.** E004, E005, E069 and E109 are significant in the direction *opposite* to
+>   burial (C023), so "foundation STRONGER" is withdrawn.
+> - **21 rows carry p-values "estimated from typical VOLCARCH results"** (`fdr_reaudit.py` line 26; verified).
+> - **Six rows depend on the E082 geocoding** (C032).
+> - "65/83 survive BH (78.3%)" must not be cited.
+
+**Status:** INFO NEG — the survival count is not valid (corrected 2026-10-01; see note)
 **Date:** 2026-03-31
 **Type:** [R] META / QUALITY CONTROL
 **Papers:** ALL

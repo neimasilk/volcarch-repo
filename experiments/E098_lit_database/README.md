@@ -1,5 +1,12 @@
 # E098: Systematic Literature Database — Sedimentation, Burial, and GPR Feasibility
 
+> **NOTE 2026-10-01 (ledger C043; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`).**
+> - "E069: p=0.0015 for survey bias" in `meta_analysis.md` is withdrawn. β<0 on distance = more recorded sites
+>   near volcanoes, and it measures no survey bias (C023).
+> - The E075 shares are fractions of an unmasked 2,838-cell rectangle (C035).
+> - "Three independent approaches" are not independent: E083 draws on E070 (F9; cf. C025/C026).
+> - The Liyangan depth here (~3 m) disagrees with the 4–12 m reported elsewhere (C037).
+
 **Status:** SUCCESS
 **Date:** 2026-03-16
 **Type:** LITERATURE REVIEW / META-ANALYSIS

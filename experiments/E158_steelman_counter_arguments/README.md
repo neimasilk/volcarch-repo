@@ -1,6 +1,18 @@
 # E158: Steelman Counter-Arguments for Cathedral Findings
 
-**Status:** SUCCESS
+> **CORRECTION 2026-10-01 (ledger C043; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: SUCCESS.**
+> - **Withdrawn:** Finding 3's rating and the Overall Assessment.
+>   - E069's β = −0.477 is on distance, so it is a surplus near volcanoes (C023).
+>   - E084 and E105 rest on the geocoding artefact (C032/C034).
+>
+>   Neither is a "cathedral finding that survives any statistical correction".
+> - **Also flagged:**
+>   - the E129-based rebuttal (C036);
+>   - the siting rebuttal (C031);
+>   - the 85% figure, which is 17/20 candi.
+> - Findings 2 and 4 are not affected.
+
+**Status:** PARTIAL — several ratings rest on withdrawn results (corrected 2026-10-01; see note)
 **Date:** 2026-03-31
 **Type:** [R] Adversarial / Quality control
 **Papers:** All

@@ -2,6 +2,8 @@
 
 **Updated:** 2026-10-01 · **Temperature:** 🔧 Tooling complete — next experiment proposed (T7, then T2)
 
+> **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E098 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
+
 > **2026-10-01 afternoon:** **T7** (detection calibration from DHARMA village names) is now proposed as this
 > line's next experiment, ahead of T2.
 > - Design draft: `docs/drafts/T7_DETECTION_CALIBRATION_DESIGN_DRAFT_20261001.md`.

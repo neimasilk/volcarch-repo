@@ -1,7 +1,14 @@
 # E120: Cascade Stress Test — Systematic Adversarial Probing
 
+> **CORRECTION 2026-10-01 (ledger C043; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: SUCCESS.**
+> - **The script reads no data.** Every output is arithmetic on E110's hand-set factors, and "observed 0.031%" is
+>   3/9,659 with "3" set as "generous". So it neither tests nor supports the thesis.
+> - **Withdrawn:** "contradicts ADV-3 (E069, p=0.0015)", "independently supported by ADV-3/E086", and
+>   "spatially predictable" support. That p is the inverted volcano-distance test (C023), not a survey-coverage
+>   test, and the support is circular because E110 chose F3 by citing E069 and E086.
+
 **Date:** 2026-03-30
-**Status:** SUCCESS
+**Status:** INCONCLUSIVE — arithmetic on hand-set factors (corrected 2026-10-01; see note)
 **Paper:** P1 (revision ammo), P18
 **Layer:** L1-L5 (all cascade factors)
 **AutoResearch:** Program 3 (Proof of Concept)

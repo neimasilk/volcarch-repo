@@ -174,7 +174,7 @@
 |------|-----------|--------|--------|
 | ADV-1 Japan comparanda | E086 | L1 | **PARTIAL** — survives with survey intensity constraint |
 | ADV-2 Non-volcanic control | E081 | L1 | INCONCLUSIVE — Fisher p=0.760, N too small |
-| ADV-3 Survey intensity | E069 | L1 | **PASSED** — p=0.0015, volcanic signal survives control |
+| ADV-3 Survey intensity | E069 | L1 | **PASSED** — p=0.0015, volcanic signal survives control | ⚠ *2026-10-01: inverted — surplus near volcanoes (C023).*
 | ADV-4 Substrate noise | E085 | L4 | **PASSED** — p=0.0000, z=11.05, AUC 11 SD above random |
 | ADV-5 Negative control | E107 | L4 | **PASSED** — C5 reclassified as Mon-Khmer substrate (6/6 predictions confirmed) |
 

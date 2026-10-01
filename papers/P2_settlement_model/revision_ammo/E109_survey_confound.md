@@ -1,3 +1,7 @@
+> ⛔ **DO NOT USE (2026-10-01; ledgers C023, C039).** This reviewer-response text rests on the inverted E069
+> reading and on E109's withdrawn "824 hidden sites". It was NOT part of the v0.2 package submitted to JCAA
+> (checked 2026-10-01). Never paste it into any response.
+
 # P2 Revision Support Material: E109 Survey-Burial Confound
 
 **Paper:** JCAA #280

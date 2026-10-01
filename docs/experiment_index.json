@@ -855,6 +855,7 @@
     "dir": "E073_spatial_vs_linguistic",
     "has_readme": true,
     "title": "Spatial vs Linguistic Evidence Meta-Test",
+    "key_metric": "p=0.008",
     "lines": [
       "06_thesis"
     ]
@@ -913,15 +914,7 @@
     "dir": "E080_fieldwork_targets",
     "has_readme": true,
     "title": "Fieldwork Targeting — Priority Zones",
-    "status": "SUCCESS",
-    "layers": [
-      "L1"
-    ],
-    "papers": [
-      "P1",
-      "P11",
-      "P2"
-    ],
+    "status": "INFO NEG",
     "date": "2026-03-13",
     "lines": [
       "01_spatial"
@@ -981,9 +974,6 @@
     "dir": "E085_adv4_substrate_noise",
     "has_readme": true,
     "title": "ADV-4 Substrate Noise Permutation Test",
-    "layers": [
-      "L4"
-    ],
     "date": "2026-03-13",
     "key_metric": "AUC: 0.7599; p=0.760",
     "lines": [
@@ -1203,14 +1193,8 @@
     "has_readme": true,
     "title": "Systematic Literature Database — Sedimentation, Burial, and GPR Feasibility",
     "status": "SUCCESS",
-    "layers": [
-      "L1"
-    ],
-    "papers": [
-      "P1",
-      "P11"
-    ],
     "date": "2026-03-16",
+    "key_metric": "p=0.0015",
     "lines": [
       "05_archival_nlp"
     ]
@@ -1343,17 +1327,7 @@
     "dir": "E105_topic_geography",
     "has_readme": true,
     "title": "BERTopic Topics × Geographic Distribution",
-    "status": "SUCCESS",
-    "layers": [
-      "L1",
-      "L4",
-      "L6"
-    ],
-    "papers": [
-      "P5",
-      "P7",
-      "P9"
-    ],
+    "status": "INFO NEG",
     "date": "2026-03-17",
     "key_metric": "p=0.580; rho=0.502",
     "lines": [
@@ -1415,14 +1389,7 @@
     "dir": "E109_forward_simulation",
     "has_readme": true,
     "title": "Forward Simulation — Archaeological Record Under Burial Hypothesis",
-    "status": "MIXED",
-    "layers": [
-      "L1"
-    ],
-    "papers": [
-      "P1",
-      "P2"
-    ],
+    "status": "INFO NEG",
     "date": "2026-03-17",
     "key_metric": "p=0.0015",
     "lines": [
@@ -1573,15 +1540,7 @@
     "dir": "E120_cascade_stress_test",
     "has_readme": true,
     "title": "Cascade Stress Test — Systematic Adversarial Probing",
-    "status": "SUCCESS",
-    "layers": [
-      "L1",
-      "L5"
-    ],
-    "papers": [
-      "P1",
-      "P18"
-    ],
+    "status": "INCONCLUSIVE",
     "date": "2026-03-30",
     "key_metric": "p=0.0015",
     "lines": [
@@ -1843,7 +1802,7 @@
     "dir": "E136_bayesian_integration",
     "has_readme": true,
     "title": "Bayesian Integration of All VOLCARCH Evidence",
-    "status": "SUCCESS",
+    "status": "INFO NEG",
     "date": "2026-03-30",
     "key_metric": "z=11.05",
     "lines": [
@@ -2116,7 +2075,7 @@
     "dir": "E154_fdr_reaudit",
     "has_readme": true,
     "title": "Comprehensive FDR Re-Audit at 153 Experiments",
-    "status": "SUCCESS",
+    "status": "INFO NEG",
     "date": "2026-03-31",
     "key_metric": "p<10",
     "lines": [
@@ -2182,7 +2141,7 @@
     "dir": "E158_steelman_counter_arguments",
     "has_readme": true,
     "title": "Steelman Counter-Arguments for Cathedral Findings",
-    "status": "SUCCESS",
+    "status": "PARTIAL",
     "date": "2026-03-31",
     "key_metric": "AUC=0.762; p=0.0015",
     "lines": [
@@ -2194,7 +2153,7 @@
     "dir": "E159_robustness_battery",
     "has_readme": true,
     "title": "Robustness Battery for Cathedral Findings",
-    "status": "SUCCESS",
+    "status": "INFO NEG",
     "date": "2026-03-31",
     "key_metric": "p=0.51; rho=-0.131",
     "lines": [

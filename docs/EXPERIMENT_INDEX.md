@@ -1,26 +1,25 @@
 # Experiment Index
 
-**Generated:** 2026-10-01 15:09
+**Generated:** 2026-10-01 16:56
 **Total:** 217 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 139
+- **SUCCESS:** 132
 - **UNKNOWN:** 34
-- **INFO NEG:** 9
+- **INFO NEG:** 15
 - **REVISIT:** 8
 - **IN PROGRESS:** 4
+- **INCONCLUSIVE:** 4
+- **PARTIAL:** 4
 - **FAILED:** 3
-- **INCONCLUSIVE:** 3
-- **PARTIAL:** 3
 - **SUPERSEDED:** 2
 - **QUEUED:** 1
 - **BLOCKED (needs E001 :** 1
 - **READY TO RUN:** 1
 - **CONDITIONAL:** 1
 - **SUGGESTIVE (low N, d:** 1
-- **MIXED:** 1
 - **PHASE 1 + 2a COMPLET:** 1
 - **PHASE 1 — data pipel:** 1
 - **SCOPING — Phase 0 (p:** 1
@@ -133,18 +132,18 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E069 | Adversarial Experiment Suite — Falsification Tests | INFO NEG | 02_taphonomy |  |  | AUC=0.713; p=0.760 |
 | E070 | Colonial Literature Mining — Independent Dataset C | SUCCESS | 05_archival_nlp |  | P1,P11,P2,P7 |  |
 | E071 | Pre-400 CE Evidence Database | SUCCESS | 06_thesis | L1,L3,L6 | P11 |  |
-| E073 | Spatial vs Linguistic Evidence Meta-Test | ? | 06_thesis |  |  |  |
+| E073 | Spatial vs Linguistic Evidence Meta-Test | ? | 06_thesis |  |  | p=0.008 |
 | E074 | DHARMA Deep NLP — Mining the Invisible Millennium | ? | 04_language_text |  |  |  |
 | E075 | Volcanic Sedimentation Burial Model for Java | ? | 02_taphonomy |  |  |  |
 | E076 | Satellite NDVI Anomaly Detection at Candi Sites | ? | 01_spatial | L2 |  |  |
 | E078 | Eruption-Inscription Correlation — Volcanic Dark P | ? | 06_thesis |  |  | p=0.43; rho=-0.77 |
 | E079 | The Archaeological Darkness Index — Grand Synthesi | ? | 06_thesis |  |  |  |
-| E080 | Fieldwork Targeting — Priority Zones | SUCCESS | 01_spatial | L1 | P1,P11,P2 |  |
+| E080 | Fieldwork Targeting — Priority Zones | INFO NEG | 01_spatial |  |  |  |
 | E081 | ADV-2 Non-Volcanic Control Test | ? | 02_taphonomy | L1 |  | p=0.003 |
 | E082 | DHARMA Inscription Georeferencing | ? | 04_language_text,01_spatial |  |  | p=0.148; rho=0.643 |
 | E083 | Tephra-Archaeological Correlation Dataset | SUCCESS | 02_taphonomy |  |  |  |
 | E084 | Formal Inscription-Volcano Spatial Analysis | ? | 02_taphonomy,01_spatial |  | P11 |  |
-| E085 | ADV-4 Substrate Noise Permutation Test | ? | 04_language_text,02_taphonomy | L4 |  | AUC: 0.7599; p=0.760 |
+| E085 | ADV-4 Substrate Noise Permutation Test | ? | 04_language_text,02_taphonomy |  |  | AUC: 0.7599; p=0.760 |
 | E086 | ADV-1 Japan Comparanda Test | ? | 02_taphonomy | L1 | P1,P11,P2 |  |
 | E087 | Substrate Detector Negative Control | CONDITIONAL | 04_language_text,02_taphonomy | L4 | P8 | AUC=0.762; p=0.0000 |
 | E088 | Computational Textual Archaeology — NLP Pipeline | SUCCESS | 04_language_text | L3 | P16 | p=0.000000. |
@@ -157,18 +156,18 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E095 | Cross-Lingual Analysis on Original Old Javanese In | SUCCESS | 04_language_text | L4,L5 | P16 |  |
 | E096 | DHARMA Diachronic BERTopic | SUCCESS | 04_language_text | L4 | P16,P5,P8 |  |
 | E097 | Anomaly Detection on Settlement Model Feature Stac | ? | 01_spatial |  |  |  |
-| E098 | Systematic Literature Database — Sedimentation, Bu | SUCCESS | 05_archival_nlp | L1 | P1,P11 |  |
+| E098 | Systematic Literature Database — Sedimentation, Bu | SUCCESS | 05_archival_nlp |  |  | p=0.0015 |
 | E099 | Eruption Frequency x Inscription Visibility Gradie | INCONCLUSIVE | 06_thesis | L1,L6 | P11,P5 | p=0.013 |
 | E100 | Coastal-Highland Archaeological Visibility Inversi | SUCCESS | 01_spatial | L1,L2 | P1,P2 | p<0.0001 |
 | E101 | Colonial Burial Depth Multivariate Model | PARTIAL | 02_taphonomy | L1 | P1 | p=0.012; rho=0.373 |
 | E102 | Vocabulary Richness × Burial Depth Nexus | SUCCESS | 04_language_text | L1,L4 | P1,P5,P8 | p<0.0001; rho=0.797 |
 | E103 | Pre-Indic Vocabulary Spatial Gradient | SUCCESS | 01_spatial | L1,L4,L6 | P5,P9 | p<0.0001; rho=+0.502 |
 | E104 | Court Zone Hypothesis: Multi-Dataset Spatial Segre | SUCCESS | 01_spatial | L1,L3,L4 | P11,P5,P7,P9 | rho=0.781 |
-| E105 | BERTopic Topics × Geographic Distribution | SUCCESS | 04_language_text | L1,L4,L6 | P5,P7,P9 | p=0.580; rho=0.502 |
+| E105 | BERTopic Topics × Geographic Distribution | INFO NEG | 04_language_text |  |  | p=0.580; rho=0.502 |
 | E106 | Colonial Two Javas Validation | SUGGESTIVE (low N, d | 01_spatial | L1,L3 | P1,P17 | p=0.217 |
 | E107 | ADV-5 Re-examination — Is Iban+Malay Really a Nega | SUCCESS | 04_language_text,02_taphonomy | L4 | P8 | AUC=0.713 |
 | E108 | Demographic Null Model — Pre-400 CE Java Carrying  | SUCCESS | 01_spatial |  |  |  |
-| E109 | Forward Simulation — Archaeological Record Under B | MIXED | 01_spatial,02_taphonomy | L1 | P1,P2 | p=0.0015 |
+| E109 | Forward Simulation — Archaeological Record Under B | INFO NEG | 01_spatial,02_taphonomy |  |  | p=0.0015 |
 | E110 | Multiplicative Visibility Cascade Model | SUCCESS | 01_spatial |  |  |  |
 | E111 | Script Diffusion Timeline — Is Java's 650-Year Gap | SUCCESS | 04_language_text |  | P18 |  |
 | E112 | Vocabulary Archaeology — Computational Reconstruct | SUCCESS | 04_language_text |  | P18 |  |
@@ -179,7 +178,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E117 | Archaeological Record Onset Analysis — The Michels | SUCCESS | 02_taphonomy |  | P1,P18 | p=1.0 |
 | E118 | Information Gain from Volcanic Context | SUCCESS | 01_spatial |  | P1,P2 |  |
 | E119 | The VOLCARCH Synthesis Figure | SUCCESS | 06_thesis |  | P1 |  |
-| E120 | Cascade Stress Test — Systematic Adversarial Probi | SUCCESS | 01_spatial | L1,L5 | P1,P18 | p=0.0015 |
+| E120 | Cascade Stress Test — Systematic Adversarial Probi | INCONCLUSIVE | 01_spatial |  |  | p=0.0015 |
 | E121 | Robustness Battery — Automated Resampling Tests | SUCCESS | 01_spatial | L1,L5 |  | p=1000; rho=-0.57 |
 | E122 | Demographic Gap Sensitivity Analysis | SUCCESS | 01_spatial | L1 | P1 |  |
 | E123 | Philippines Cross-Geographic Comparison | SUCCESS | 02_taphonomy | L1 | P1,P18 |  |
@@ -195,7 +194,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E133 | The Complete Argument — Why Nusantara's History "B | SUCCESS | 06_thesis |  |  | p<10; z=11.05 |
 | E134 | Inscription Chronology Gap Analysis | SUCCESS | 04_language_text | L5,L6 | P16,P19,P5,P8 | p=0.13.; rho=0.58 |
 | E135 | Organic Material Preservation Model | SUCCESS | 02_taphonomy | L1 | P1,P19 |  |
-| E136 | Bayesian Integration of All VOLCARCH Evidence | SUCCESS | 06_thesis |  |  | z=11.05 |
+| E136 | Bayesian Integration of All VOLCARCH Evidence | INFO NEG | 06_thesis |  |  | z=11.05 |
 | E137 | Accidental Discovery Rate Model | PARTIAL | 02_taphonomy | L1 | P1 |  |
 | E138 | Detection Probability by Archaeological Method | SUCCESS | 02_taphonomy |  | P1,P22 |  |
 | E139 | Cost-Benefit Analysis of Fieldwork Strategies | SUCCESS | 01_spatial |  |  |  |
@@ -213,12 +212,12 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E151 | Megalithic Distribution vs Volcanic Zones | SUCCESS | 01_spatial | L1 | P1,P19 |  |
 | E152 | Post-929 CE Mataram -> East Java Natural Experimen | SUCCESS | 01_spatial | L1,L6 | P1,P17 |  |
 | E153 | Candi-Settlement Spatial Association Test | ? | 01_spatial |  |  | p=0.000029 |
-| E154 | Comprehensive FDR Re-Audit at 153 Experiments | SUCCESS | 06_thesis |  |  | p<10 |
+| E154 | Comprehensive FDR Re-Audit at 153 Experiments | INFO NEG | 06_thesis |  |  | p<10 |
 | E155 | Cross-Regional Cascade Validation | SUCCESS | 01_spatial |  | P1,P17,P18 | p=0.017; rho: 0.926 |
 | E156 | Sunda Shelf Population Displacement → Java Volcani | SUCCESS | 02_taphonomy | L1,L2 | P1,P18,P19 |  |
 | E157 | Ethnographic Analog — Modern Volcanic Community Ma | SUCCESS | 02_taphonomy |  | P1,P17,P18,P19 |  |
-| E158 | Steelman Counter-Arguments for Cathedral Findings | SUCCESS | 06_thesis |  |  | AUC=0.762; p=0.0015 |
-| E159 | Robustness Battery for Cathedral Findings | SUCCESS | 01_spatial |  |  | p=0.51; rho=-0.131 |
+| E158 | Steelman Counter-Arguments for Cathedral Findings | PARTIAL | 06_thesis |  |  | AUC=0.762; p=0.0015 |
+| E159 | Robustness Battery for Cathedral Findings | INFO NEG | 01_spatial |  |  | p=0.51; rho=-0.131 |
 | E160 | GPU-Powered Deep Semantic Analysis of DHARMA Inscr | SUCCESS | 04_language_text | L6 | P16,P17,P5,P8 | p=0.012; z=3.04 |
 | E161 | Bali as Within-Indonesia Volcanic Comparandum | SUCCESS | 02_taphonomy |  | P1,P17,P18 |  |
 | E162 | State of Evidence at 161 Experiments | SUCCESS | 06_thesis |  |  | p=0.012; rho=1.0 |
@@ -305,14 +304,21 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E053 | Ancient DNA Taphonomic Gap in Island Sou | REVISIT | *(check README)* |
 | E067 | Volcanic Toponyms — Do Volcanic Place Na | INFO NEG | *(check README)* |
 | E069 | Adversarial Experiment Suite — Falsifica | INFO NEG | *(check README)* |
+| E080 | Fieldwork Targeting — Priority Zones | INFO NEG | *(check README)* |
 | E087 | Substrate Detector Negative Control | CONDITIONAL | *(check README)* |
 | E099 | Eruption Frequency x Inscription Visibil | INCONCLUSIVE | *(check README)* |
 | E101 | Colonial Burial Depth Multivariate Model | PARTIAL | *(check README)* |
-| E109 | Forward Simulation — Archaeological Reco | MIXED | *(check README)* |
+| E105 | BERTopic Topics × Geographic Distributio | INFO NEG | *(check README)* |
+| E109 | Forward Simulation — Archaeological Reco | INFO NEG | *(check README)* |
+| E120 | Cascade Stress Test — Systematic Adversa | INCONCLUSIVE | *(check README)* |
 | E129 | Survey Asymmetry Quantification | INFO NEG | *(check README)* |
 | E132 | Sedimentation Rate Prediction Map | PARTIAL | *(check README)* |
+| E136 | Bayesian Integration of All VOLCARCH Evi | INFO NEG | *(check README)* |
 | E137 | Accidental Discovery Rate Model | PARTIAL | *(check README)* |
 | E145 | Eruption Frequency vs Archaeological Vis | INFO NEG | *(check README)* |
+| E154 | Comprehensive FDR Re-Audit at 153 Experi | INFO NEG | *(check README)* |
+| E158 | Steelman Counter-Arguments for Cathedral | PARTIAL | *(check README)* |
+| E159 | Robustness Battery for Cathedral Finding | INFO NEG | *(check README)* |
 | E195 | Is Two Javas Taphonomic? — The Inverse D | INFO NEG | *(check README)* |
 | E202 | DEM Depression Detection for Buried Arch | FAILED | *(check README)* |
 | E203 | Indonesian Genome Population Structure — | REVISIT | *(check README)* |
