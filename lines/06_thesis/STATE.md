@@ -6,6 +6,13 @@
 > none). Headline: ~400 CE is a region-wide writing-adoption boundary, so volcanism cannot explain *that*; the
 > first inscriptions themselves attest pre-400 complexity; for Java's volcanic interior, burial vs survey effort
 > vs low-visibility character vs genuinely low density **cannot yet be told apart** (E069 was mis-signed, C023).
+>
+> **2026-10-01 afternoon — desk tests (§9 of the note):**
+> - Liyangan is not a pre-400 case (C037), so H1b has no candidate.
+> - 9th-c. floor depths on the Merapi ring plain are ±2–7 m, not 5–9 m (C038).
+> - E129 is unusable as H2/H3 evidence (C036). The H3 in-Java control is test T7, not yet run.
+>
+> The direction of the answer is unchanged.
 > **Blocked on PI (new):** L1 amendments proposed in §7 of that note — the §9 "within-island control" criterion
 > is confounded (coast vs interior, trade node) and cannot stay HOLDS, the Kutai-"oldest" framing (onset is regional; Vo Canh may be older),
 > layer L2 coastal submersion for 0–400 CE (unsupported: sea level at/above present, deltas prograding), and one

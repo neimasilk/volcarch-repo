@@ -1,15 +1,15 @@
 # Experiment Index
 
-**Generated:** 2026-10-01 14:42
+**Generated:** 2026-10-01 15:09
 **Total:** 217 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 140
+- **SUCCESS:** 139
 - **UNKNOWN:** 34
+- **INFO NEG:** 9
 - **REVISIT:** 8
-- **INFO NEG:** 8
 - **IN PROGRESS:** 4
 - **FAILED:** 3
 - **INCONCLUSIVE:** 3
@@ -188,7 +188,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E126 | Global Volcanic Archaeology Compilation | SUCCESS | 02_taphonomy,01_spatial | L1 | P1,P18 |  |
 | E127 | Ancient External References to Pre-400 CE Nusantar | SUCCESS | 06_thesis | L3 | P1,P16,P18,P19 |  |
 | E128 | Colonial OV Depth Analysis — Independent Burial Ca | SUCCESS | 02_taphonomy,05_archival_nlp |  |  |  |
-| E129 | Survey Asymmetry Quantification | SUCCESS | 01_spatial | L1 | P1,P18 | p=0.09 |
+| E129 | Survey Asymmetry Quantification | INFO NEG | 01_spatial | L1 | P1,P18 | p=0.09 |
 | E130 | Substrate Detection Interpretability | SUCCESS | 04_language_text | L4 | P19,P8 | AUC=0.76 |
 | E131 | Comparative Writing System Adoption Timeline | SUCCESS | 04_language_text | L3 | P1,P19 |  |
 | E132 | Sedimentation Rate Prediction Map | PARTIAL | 02_taphonomy | L1 | P1,P22 |  |
@@ -309,6 +309,7 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E099 | Eruption Frequency x Inscription Visibil | INCONCLUSIVE | *(check README)* |
 | E101 | Colonial Burial Depth Multivariate Model | PARTIAL | *(check README)* |
 | E109 | Forward Simulation — Archaeological Reco | MIXED | *(check README)* |
+| E129 | Survey Asymmetry Quantification | INFO NEG | *(check README)* |
 | E132 | Sedimentation Rate Prediction Map | PARTIAL | *(check README)* |
 | E137 | Accidental Discovery Rate Model | PARTIAL | *(check README)* |
 | E145 | Eruption Frequency vs Archaeological Vis | INFO NEG | *(check README)* |

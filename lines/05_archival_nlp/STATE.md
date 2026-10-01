@@ -1,6 +1,14 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-01 · **Temperature:** 🔧 Tooling complete — next experiment proposed (T2)
+**Updated:** 2026-10-01 · **Temperature:** 🔧 Tooling complete — next experiment proposed (T7, then T2)
+
+> **2026-10-01 afternoon:** **T7** (detection calibration from DHARMA village names) is now proposed as this
+> line's next experiment, ahead of T2.
+> - Design draft: `docs/drafts/T7_DETECTION_CALIBRATION_DESIGN_DRAFT_20261001.md`.
+> - Denominator in hand: 111 dated 8th–10th c. inscriptions, about 150–200 village names, mostly Kedu and
+>   Prambanan.
+> - Numerator: no dated settlement register exists. E129 is not one (C036).
+> - It gets an E-number (E226) after PI approval. Desk scan: `docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`.
 
 > **2026-10-01 inbox (orbit re-entry):** (a) E225 added to `LINE_MAP` (it was unmapped). (b) The re-entry
 > synthesis recommends **T2 — a register of chance archaeological finds at depth** (sand mining, wells,

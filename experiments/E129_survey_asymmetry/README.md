@@ -1,10 +1,25 @@
 # E129: Survey Asymmetry Quantification
 
 **Date:** 2026-03-30
-**Status:** SUCCESS
+**Status:** INFO NEG — corrected 2026-10-01 (the original label is recorded in the correction note below)
 **Paper:** P1, P18
 **Layer:** L1 (survey deficit mechanism)
 **Mata Elang:** #10 Blind Spot B1
+
+> **CORRECTION 2026-10-01 (ledger C036; desk test T7; re-derived from `results/survey_asymmetry.json` and
+> `data/processed/east_java_sites_wiki.csv`).**
+> 1. **The temple share is built into the frame.** 369 of the 391 rows come from two Wikipedia *temple-list*
+>    pages: 295 from "Daftar candi di Indonesia" and 74 from "List of Hindu temples in Indonesia". The other
+>    22 are Wikidata rows. A 70.8% temple share therefore says nothing about survey bias in the
+>    archaeological record.
+> 2. **"Settlement 1.3%" is not a settlement count.** The script's `settlement` class matched 0 rows. The
+>    reported 1.28% is 5 generic `situs_arkeologi` rows: Kolam Segaran, Situs Menggung, Situs Plangatan,
+>    Trinil (a Pleistocene hominin site) and Trowulan (14th c.).
+> 3. **388 of the 391 rows have period `unknown`.**
+>
+> Do not cite E129 as a measure of H2 (survey bias) or as the in-Java control for H3. The H3 control is
+> test T7 (`docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`). The numbers below are kept as
+> originally written. Original status label: SUCCESS.
 
 ---
 

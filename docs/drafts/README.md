@@ -79,6 +79,7 @@ Lihat `docs/TRIGGER_MAP.md` untuk kondisi yang akan meng-unblock ide-ide ini.
 | `working_note_ancient_dna.md` | Working note (2026-03-07): pre-Austronesian Java & the population-evidence channel — full text restored 2026-10-01 from the re-merged companion repo |
 | `T1_REGIONAL_ONSET_DESIGN_DRAFT_20261001.md` | Design draft (pre-registration candidate, becomes E226 on PI approval): why written history starts ~400 CE — regional onset of local writing vs volcanic setting vs trade-node position |
 | `T2_DEEP_CHANCE_FINDS_DESIGN_DRAFT_20261001.md` | Design draft (pre-registration candidate; extends E225; doubles as the D6 standing falsification): register of chance archaeological finds at depth in volcanic Java, with kill criteria and a reporting-propensity control |
+| `T7_DETECTION_CALIBRATION_DESIGN_DRAFT_20261001.md` | Design draft (pre-registration candidate; proposed as the next desk test after the 2026-10-01 desk scan; E-number on PI approval): detection rate *d* of 8th–10th c. villages named in DHARMA charters vs recorded settlement deposits — tests whether "no pre-400 settlement found" is informative (H6 inference), not which of H1a/H2/H3 causes low visibility |
 | `WEST_JAVA_DECISIVE_CASE_SKELETON_v0.1.md` | ⚠ 2026-10-01: three of four arms factually wrong (Batujaya dates, Kendeng Lembu volcanic, Bondowoso post-400) and E069 layer inverted — rebuild or park (see `docs/research_notes/OBJECTIVE_ANSWER_20261001.md`) |
 
 ### Strategy (di `docs/`)

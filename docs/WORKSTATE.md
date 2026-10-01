@@ -88,6 +88,15 @@ Journals per Gmail check 2026-10-01: **P2** in round-2 review since 31 Aug · **
   settlements — the first test that can separate H3 from H6) → then **T2** (pre-registered, zones from T4-desk).
   Submission milestone: an Indonesian-language synthesis ("why Nusantara's history starts ~400 CE") to a
   national zero-APC journal. Details: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5, §7.
+  - **Update 2026-10-01 afternoon (desk tests; note §9, `docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`):**
+    - **T0:** Liyangan is not a pre-400 case. Its early dates are soil samples and charcoal with no context or
+      lab codes (C037), so H1b now has no candidate.
+    - **T4-desk:** cannot reach D6 from open sources. The 9th-c. floors at ±2–7 m are lower bounds (C038), and
+      the key sources are closed.
+    - **T7:** feasible, but the numerator register is missing. E129 is unusable (C036).
+    - **Proposed re-order:** **T7 next** (draft `docs/drafts/T7_DETECTION_CALIBRATION_DESIGN_DRAFT_20261001.md`;
+      the PI fixes N_ref and m). T0 and T4 wait on external data (lab sheets from the excavator; the Gertisser
+      2012 supplement; JVGR 100). T2 follows T4.
 - **P17 (urgent):** withdraw, or notify the editor and offer a revised paper about the geocoding artefact (§1 item 0).
 - **P11:** NO-GO. Choose: (a) reframe as a Penanggungan-centred paper (strong pattern: 69 candi, 62% west — but 14 of the 43 "western" rows are Trowulan temples 26–56 km away on the Brantas plain, so partly "Trowulan lies west of Penanggungan";
   p=1.4×10⁻²⁰), (b) rework the island-wide version on de-duplicated data and accept a weaker claim, or (c) park.

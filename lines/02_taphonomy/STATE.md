@@ -4,6 +4,12 @@
 
 > ## ⚠ 2026-10-01 re-entry audit — what changed for this line
 >
+> - **Desk tests (afternoon, `docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`):**
+>   - **T4-desk did not reach D6.** Open sources give only 9th-c. floor depths of ±2–7 m (Kedulan ±7, Sambisari
+>     6.5, Kimpulan ±4.1, Pendem ±2). These are lower bounds for the 400 CE surface (C038). Kelud: no data.
+>   - **Liyangan:** 4–7 m of pyroclastic deposits in at least four sequences, not one eruption of ±10 m. Its
+>     pre-400 dates are insecure (C037).
+>   - **Next:** the Gertisser et al. 2012 supplement (126 ¹⁴C ages), JVGR 100, and sondage logs from BPK Wilayah X.
 > - **E069 / ADV-3 was mis-signed since 2026-03-13** (ledger **C023**, verified independently): the
 >   coefficient is on *distance*, so β<0 = a **surplus** of recorded sites near volcanoes after survey
 >   control, not a deficit. README, canonical note and both scripts corrected; the canonical re-run

@@ -38,7 +38,7 @@ Jawa memiliki 45 gunung api aktif. Sedimentasi vulkanik mengubur situs arkeologi
 | Candi Sambisari | Merapi (Jawa Tengah) | 4,4–5,7 |
 | Candi Kedulan | Merapi (Jawa Tengah) | 5,3–6,2 |
 | Candi Kimpulan (UII) | Merapi (Jawa Tengah) | 2,4–4,5 |
-| Candi Liangan | Sundoro (Jawa Tengah) | Katastrofik (5–9 m) |
+| Candi Liangan | Sundoro (Jawa Tengah) | Katastrofik (4–7 m) |
 
 Rerata: **4,4 plus-minus 1,2 mm/tahun**. Konsistensi lintas dua sistem vulkanik membuktikan ini fenomena se-Jawa, bukan lokal.
 

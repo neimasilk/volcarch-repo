@@ -4,6 +4,12 @@
 **Idea Registry:** I-120
 **Status:** Research note complete. Experiment E121 (sedimentation rate calibration) pending.
 
+> **Correction 2026-10-01 (desk test T0, `DESK_TESTS_T0_T4_T7_20261001.md`; ledger C037).** The 587-971 CE
+> dates carry no lab codes and no context. The "2nd century" claim rests on soil samples and one charcoal
+> date without context from an unpublished 2016 report, so it is not secure evidence of pre-400 CE
+> occupation. The *Archipel* review is Degroot (2017), *Archipel* 94: 191-209, not "Griffiths 2019".
+> Burial: 4-7 m in at least four sequences (Tanudirjo et al. 2019).
+
 ---
 
 ## Site Summary
@@ -110,7 +116,7 @@ This is a gap VOLCARCH can fill (E121). Approach:
 
 Suggestive but unconfirmed:
 - C-14 date of **587 AD** from bamboo predates typical Hindu period inscription evidence in this region (8th century)
-- One source claims occupation extends to **2nd century AD** — but Griffiths (2019, Archipel) warns this may date pyroclastic material, not cultural occupation
+- One source claims occupation extends to **2nd century AD** — but Degroot (2017, *Archipel* 94) warns this may date pyroclastic material, not cultural occupation
 - All documented religious artifacts are Hindu-Shaivite (8th-10th century)
 - The question remains open. If pre-Hindu layers exist at Liangan, they would be deeper than current excavation (below 8 m?)
 
@@ -134,7 +140,7 @@ Suggestive but unconfirmed:
 - **Harijoko, A. et al. (2018).** "Estimated Emplacement Temperatures for Pyroclastic Deposits from the Sundoro Volcano, Indonesia, using Charcoal Reflectance Analyses." *Indonesian Journal on Geoscience* 5(1): 1-11.
 
 ### Reviews
-- **Griffiths, A. (2019).** "The Liangan Temple Site in Central Java." Review of Abbas (2016). *Archipel* 97. [Critical review — notes stratigraphic gaps, C-14 cautions]
+- **Degroot, V. (2017).** "The Liangan Temple Site in Central Java." Review of Abbas (2016). *Archipel* 94: 191-209, doi:10.4000/archipel.456. *(Corrected 2026-10-01; earlier cited as "Griffiths 2019, Archipel 97".)* [Critical review — notes stratigraphic gaps, C-14 cautions]
 
 ### Geophysics
 - **Hidayat, W. et al. (2024).** "Fertile grounds for ancient civilization: Geophysical insights into the Liyangan site on Mount Sindoro." *AIP Conference Proceedings* 3167(1): 040020.

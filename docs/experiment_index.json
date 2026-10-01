@@ -1717,7 +1717,7 @@
     "dir": "E129_survey_asymmetry",
     "has_readme": true,
     "title": "Survey Asymmetry Quantification",
-    "status": "SUCCESS",
+    "status": "INFO NEG",
     "layers": [
       "L1"
     ],

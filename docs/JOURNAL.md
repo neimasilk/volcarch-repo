@@ -9715,3 +9715,55 @@ fakta; (b) kedua pertanyaan draf Vida terjawab publik → **tidak dikirim**; (c)
 memuat paragraf E069 tetapi masih mengklaim 4,4 mm/thn sebagai "Java-wide taphonomic baseline". Draf koreksi
 Zenodo diperbaiki dengan **kutipan verbatim** dari PDF terbit (baris 400–406 dan abstrak 17–22) dan menjadi
 **wajib** (bukan opsional) menurut skeptis metodologi.
+
+---
+
+## 2026-10-01 (sore) — Uji meja T0 · T4-meja · T7 dan koreksi turunannya
+
+**Workflow `desk-tests-t0-t4-t7`** (3 agen meja). Hasil lengkap per butir beserta sumbernya:
+`docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`. Ringkasan: `OBJECTIVE_ANSWER_20261001.md` §9.
+
+- **T0, Liyangan: tidak ada bukti aman hunian pra-400.**
+  - Tanggal pra-400 hanya ada di seri 2016 yang tak terbit: 23 SM dan 181 M dari *tanah*, 234 M dari arang
+    tanpa konteks. Tak ada kode lab maupun kedalaman.
+  - Paleosol 2231±25 BP = umur tanah tempat kubur abad ke-9–10 digali.
+  - Arang ±1720 th = umur erupsi.
+  - "Abad II–XI" bersumber tunggal (Riyanto 2017).
+  - **H1b kini tanpa kandidat.**
+- **T4-meja: D6 belum terjangkau.**
+  - Lantai candi abad ke-9 berada ±2–7 m (Kedulan ±7, Sambisari 6,5, Kimpulan ±4,1, Pendem ±2), bukan 5–9 m.
+    Angka ini batas bawah.
+  - Horizon 0–400 M berkedalaman hanya ±3, dan tak satu pun bersih. Kelud: nol data.
+  - Sumber kuncinya tertutup (suplemen Gertisser 2012; JVGR 100).
+- **T7: *d* belum bisa dihitung.**
+  - Penyebut: 111 prasasti abad ke-8–10 dan ±150–200 nama desa, di Kedu/Prambanan.
+  - Pembilang: register permukiman bertanggal tidak ada.
+
+**Diturunkan ulang sendiri (orkestrator):**
+- E129. Kelas `settlement` di skripnya cocok 0 baris; 1,28% = 5 baris `situs_arkeologi` (Kolam Segaran,
+  Menggung, Plangatan, Trinil, Trowulan). 369 dari 391 baris bingkainya berasal dari dua halaman *daftar
+  candi*, jadi "70,8% candi" tautologis. 388 baris periode `unknown`.
+- "vanua 501 dalam 63 file" = hitungan substring seluruh file.
+- Ulasan *Archipel* 94 (hlm. 191–209) atas Abbas 2016 ditulis **Degroot 2017**, bukan "Griffiths 2019".
+
+**Koreksi yang diterapkan:**
+- ledger **C036–C038**;
+- README E129 → **INFO NEG**, indeks diregenerasi;
+- OBJECTIVE_ANSWER: §0 (3b), §1 H1a/H1b/H2/H3, §2 Liyangan, §5 T0/T4/T7, §9 baru;
+- `LIANGAN_VALIDATION_CASE.md` (Degroot; banner koreksi);
+- `VOLCARCH_STORY.md` (Liangan 4–7 m);
+- draf email VEGAN: kedalaman dikoreksi; pertanyaan 3 ditambahkan (AMS sisa berumur pendek di Liyangan), tetap
+  satu email;
+- draf pra-registrasi baru `docs/drafts/T7_DETECTION_CALIBRATION_DESIGN_DRAFT_20261001.md`, berisi masker
+  peluang-kebetulan *d*₀, cek kelengkapan register, dan pemfalsifikasi kontrol H3;
+- WORKSTATE §4: usulan urutan baru, **T7 dulu**; T0/T4 menunggu data dari luar.
+
+**Usaha yang belum berhasil:**
+- Tidak ada kode lab Liyangan di sumber terbuka mana pun.
+- Suhendro dkk. 2026 (JVGR) tertutup, tanpa abstrak.
+- Rujukan "Griffiths 2019" tidak ditemukan; ulasan yang dimaksud adalah Degroot 2017.
+- Host Berkala Arkeologi tidak terjangkau langsung, sehingga dibaca lewat Wayback.
+
+Dua agen Sonnet diluncurkan di latar untuk mencari salinan terbuka sumber T4 (suplemen Gertisser 2012, JVGR
+100) dan T0 (monografi Abbas 2014, Putra dkk. 2013, Suhendro 2026). Hasilnya dicatat di handoff §2c bila
+selesai sebelum penutupan sesi.

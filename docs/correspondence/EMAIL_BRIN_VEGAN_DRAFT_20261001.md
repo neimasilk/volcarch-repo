@@ -1,6 +1,7 @@
 # Draf Email: Kelompok Riset VEGAN, Pusat Riset Arkeometri BRIN — analisis mikrobotani sedimen terkubur
 
-**Status:** DRAF 2026-10-01, **belum dikirim**. **Kirim = PI.**
+**Status:** DRAF 2026-10-01, **belum dikirim**. **Kirim = PI.** *Diperbarui sore 2026-10-01: angka kedalaman
+dikoreksi (C038), dan pertanyaan 3 (Liyangan, uji T0) ditambahkan supaya tetap satu email.*
 **Keputusan outreach (PI mendelegasikan "pikirkan baik-baik, putuskan", 2026-10-01).** Setelah pemeriksaan
 fakta hari yang sama (agen verifikasi, sumber di bawah):
 - **Draf Vida v2 tidak lagi diperlukan.** Kedua pertanyaannya sudah terjawab oleh informasi publik:
@@ -31,9 +32,9 @@ pesisir. Kesimpulan jujur saya sejauh ini: data yang ada tidak bisa membedakan a
 tidak pernah dicari, tersebar dan berbahan organik, atau memang jarang. Yang bisa membedakannya adalah
 bukti langsung dari sedimen yang bertanggal.
 
-Satu hal sudah cukup pasti secara geologis. Di dataran kaki selatan Merapi, permukaan abad ke-9 kini
-berada 5–9 m di bawah tanah (Sambisari, Kedulan), sehingga permukaan sebelum 400 M di sana pasti lebih
-dalam lagi. Tanah purba semacam itu kadang tersingkap di dinding galian pasir. Saya ingin bertanya, tanpa
+Satu hal sudah cukup pasti secara geologis. Di dataran kaki selatan Merapi, lantai candi abad ke-9 kini
+berada ±4–7 m di bawah tanah (Kimpulan, Sambisari, Kedulan), sehingga permukaan sebelum 400 M di sana
+setidaknya sedalam itu. Tanah purba semacam itu kadang tersingkap di dinding galian pasir. Saya ingin bertanya, tanpa
 komitmen apa pun:
 
 1. Menurut Ibu, apakah analisis fitolit (dan pati, bila tanahnya tertutup endapan dingin, bukan aliran
@@ -41,6 +42,9 @@ komitmen apa pun:
    budidaya sebelum 400 M?
 2. Apakah kelompok VEGAN bersedia berdiskusi tentang studi percontohan kecil, misalnya mulai dari
    penampang yang horizon abad ke-8–10-nya sudah diketahui sebagai kontrol (Liyangan atau Kedulan)?
+3. Khusus Liyangan: apakah sisa berumur pendek (misalnya butir padi) dari lantai yang terdokumentasi
+   pernah ditanggali dengan AMS? Sejauh yang bisa saya akses, tanggal ¹⁴C Liyangan yang terbit belum
+   disertai kode lab dan konteks lapisan, sehingga saya belum bisa menilai tanggal-tanggal tertuanya.
 
 Dari sisi saya: kompilasi kedalaman dan tanggal situs terkubur, kandidat lokasi penampang, dan kode
 analisis, semuanya terbuka untuk Ibu periksa. Rancangan dan biayanya sepenuhnya untuk didiskusikan.
