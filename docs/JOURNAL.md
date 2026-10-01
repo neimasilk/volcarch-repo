@@ -9781,3 +9781,5 @@ Tambahan setelah uji meja:
 - pencarian salinan terbuka sumber T0.
 
 Rinciannya di handoff §2c. Ulangi di sesi berikutnya.
+
+- **Tambahan penutupan:** pemeriksa literatur independen selesai, dengan 6/6 klaim kunci C037/C038 dikonfirmasi terhadap PDF primer (catatan di ledger dan di `DESK_TESTS…`, bagian Verifikasi). Tiga pekerjaan latar lain tetap belum terintegrasi (handoff §2c).

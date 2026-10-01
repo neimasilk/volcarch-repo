@@ -10,7 +10,8 @@ diusulkan di `OBJECTIVE_ANSWER_20261001.md` §5. Ringkasan dan dampaknya ada di 
   - "vanua 501 dalam 63 file" = hitungan substring seluruh file;
   - ulasan Archipel 94 atas Abbas (2016) ditulis Degroot (2017), bukan "Griffiths 2019".
 - **Klaim literatur** (tanggal, kedalaman, kutipan) adalah laporan agen dari sumber yang dibacanya. DOI/URL
-  tercantum per butir, tetapi **belum saya periksa ulang satu per satu**. Kalibrasi IntCal20 di bawah adalah
+  tercantum per butir. **Enam klaim kunci kemudian dikonfirmasi pembaca kedua terhadap PDF primer** (bagian
+  Verifikasi di akhir); sisanya belum diperiksa ulang. Kalibrasi IntCal20 di bawah adalah
   hitungan kasar agen dan harus diulang di OxCal sebelum dipakai.
 - Tidak ada data baru yang dibuat. Celah ditulis sebagai celah.
 
@@ -538,3 +539,46 @@ Unit: attested village (distinct toponym within a named watak/region), 8th-10th 
 - Assemble the numerator register from external sources, blind to the village list: Balai Arkeologi DIY/Jateng and BPK Wilayah X/XI reports, SRN Cagar Budaya, Liyangan publications. Count settlement-type 8th-10th c. occupations only. Run the Liyangan positive control and the matching-radius sensitivity.
 - Decide with the PI and a domain expert (Indonesian archaeologist or epigrapher) the value of N_ref and m, and whether a Brantas arm is worth doing. The local DHARMA corpus gives about 5 distinct East Java village names, so it would need the full upstream corpus or Sindok-era literature.
 - State in the write-up that d reflects H3 + H1a + H2 jointly. Report it as a test of whether 'no pre-400 settlement found' is informative, not as evidence for H1b. Flag for review that the 8th-10th c. window sits exactly in the burial zone being tested.
+
+---
+
+## Verifikasi independen (pembaca kedua, Sonnet, 2026-10-01 sore)
+
+**Hasil: 6 dari 6 klaim DIKONFIRMASI terhadap PDF primer.** Caranya:
+- salinan Wayback dari PDF jurnal itu sendiri, ditemukan lewat CDX;
+- pemetaan DOI → ID artikel dicek;
+- tanda ± dicek pada halaman yang dirender;
+- artikel 908 berupa pindaian, jadi dicek dari citra halaman.
+
+1. **Riyanto 2017** (BA 37(2), ID 177)
+   - Hlm. 145: keenam tanggal 2016 cocok, termasuk bahan dan kotaknya. Kutipannya: "terlalu tua" (1113 SM) dan
+     "kronologi SM harus didalami".
+   - Abstrak hlm. 141: "setidaknya dari abad II hingga XI Masehi".
+   - Hlm. 144: 1060 BP ± 110 → 971 M. Hlm. 145: "587, 742, 846, dan 913".
+   - *Catatan:* hlm. 143 menyebut ulang hasil 2016 sebagai "181, 234, 921, dan 1061", sehingga rentang II–XI diam-diam
+     membuang dua tanggal SM. Ketiga tanggal tertua adalah sampel tanah, dan arang tertua 234 M.
+   - Judul laporannya: "Laporan Penelitian Situs Liangan, Temanggung, Jawa Tengah", Balai Arkeologi DIY, tidak terbit.
+2. **Tanudirjo, Yuwono & Adi 2019** (BA 39(2), ID 474)
+   - Hlm. 108: "tidak akurat".
+   - Hlm. 103: "umur tanah" (hlm. 108 lebih berhati-hati: "bisa jadi").
+   - Hlm. 109: ±1.720 th → "sekitar 230 M", dan erupsi 230/470 disebut "terlalu awal".
+   - Hlm. 98: "4–7 meter", **tanpa rujukan**. Hlm. 99: "hingga 7 meter … empat lapisan atau sekuen" (Putra dkk. 2013).
+   - Hlm. 110: erupsi "dalam atau sesudah abad ke-10", **bersifat sementara** dan berbasis artefak.
+3. **Noerwidi 2016** (BA 36(1), ID 226)
+   - Hlm. 94–95: 2231 ± 25 BP, paleosol dari dalam fitur kubur, PATIR-BATAN.
+   - Hlm. 95: rangka abad ke-9–10 dikubur kembali bersama tanah abad ke-2–3 SM; buli-buli Dinasti Tang.
+   - *Catatan:* tafsiran kubur sekunder adalah interpretasi, karena rangkanya sendiri tidak ditanggali.
+4. **Masyhudi 2005** (BA 25(1), ID 908)
+   - Hlm. 31: "tertimbun oleh lahar … setinggi 6,5 meter".
+   - Hlm. 32: *maaiveld* 6,5 m di bawah permukaan.
+   - Hlm. 33 dan 37: ±18 km dari Merapi.
+5. **Husein dkk. 2010** (JAG 2(1))
+   - Hlm. 48: 14 lapisan fluvio-vulkanik, rerata 7 m, **mengutip Pramumijoyo dkk. 2005**, jadi bukan ukuran baru.
+   - Material vulkanik bertanggal pertama di atas lantai candi berumur 1285 M, lalu lahar 1587 M dan abad ke-18.
+   - Jarak 22 km.
+6. **Hidayatullah dkk. 2020** (Anuva 4(2))
+   - Hlm. 146: digali ±410 cm ke dasar candi, dengan tanah penutup ±270 cm.
+   - "15 km" dan "seribu tahun" berasal dari keterangan informan (hlm. 145), bukan pengukuran.
+
+PDF yang dipakai disimpan di scratchpad sesi; URL Wayback-nya tercatat di laporan agen. Pendem (±2 m) dan seluruh
+butir T7/T4 lainnya belum diperiksa ulang.

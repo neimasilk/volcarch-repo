@@ -346,7 +346,8 @@ Hasil lengkap dengan sumber per butir ada di `docs/research_notes/DESK_TESTS_T0_
 Pembagian kerjanya:
 - Tiga agen meja membaca literatur terbuka.
 - Klaim tentang isi repo saya turunkan ulang sendiri: E129, hitungan *vanua*, dan penulis ulasan Archipel.
-- Klaim literatur belum saya periksa ulang satu per satu.
+- Enam klaim literatur kunci (tanggal Liyangan; kedalaman Sambisari, Kedulan, Kimpulan) kemudian dikonfirmasi
+  pembaca kedua terhadap PDF primer. Sisanya belum diperiksa ulang.
 
 **T0 — tanggal awal Liyangan. Hasil: mungkin, tetapi tidak aman. Hunian pra-400 tidak terbukti.**
 (Keyakinan sedang–tinggi; laporan 2016 dan monografi Abbas tidak terbaca.)
