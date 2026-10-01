@@ -1,6 +1,15 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-07-30 · **Temperature:** ⏳ WAITING, with one overdue rewrite
+**Updated:** 2026-10-01 · **Temperature:** ⏳ WAITING, with one overdue rewrite
+
+> **2026-10-01 inbox (orbit re-entry; [BRIDGE → 04]):** the objective-answer synthesis
+> (`docs/research_notes/OBJECTIVE_ANSWER_20261001.md`) puts two text tests on this line. **T1** (regional onset
+> of Sanskrit inscriptions, with DHARMA as the dating authority; documentation of H0, not a test) — draft
+> `docs/drafts/T1_REGIONAL_ONSET_DESIGN_DRAFT_20261001.md`. **T7** (detection calibration: villages named in
+> 8th–10th c. inscriptions vs recorded settlements; shared with line 05) — feasibility scan run 2026-10-01.
+> Also: the reviewers rate the **P8 negative result** (no coherent shared substrate) and **E090 v7** as
+> legitimate negative findings; E131's hand-typed onset table is not to be cited until corrected.
+> P5 (C018) still needs PARKED.md or a reframe.
 
 ---
 

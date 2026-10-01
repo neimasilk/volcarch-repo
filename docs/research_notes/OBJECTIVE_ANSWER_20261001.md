@@ -157,7 +157,7 @@ dukungan.
    geocoding (§4).
    - **Gap candi–situs (P11/E153)** tetap bertahan sebagai pernyataan deskriptif tentang lanskap abad
      ke-8–15. Ia kokoh terhadap pembuangan fitur modern (6,78 → 6,22–6,61 km) dan terhadap null daratan-saja
-     (null ±31,4 km, 95%: 26,6–36,2, p<0,002, menurut skeptis metodologi).
+     (diverifikasi ulang: null 31,6 km, 95%: 27,0–36,3, p<0,0005; kotak acak semula hanya 53% daratan).
    - Namun sisi "non-candi"-nya bukan permukiman. Uraian "10.000 permutasi" di P11 juga keliru, karena
      nullnya titik acak dalam kotak. Gap ini tidak menguji penguburan.
 5. **P2 (setelah koreksi diri E217–E223):** artefak evaluasi itu nyata dan merupakan kontribusi metodologis
@@ -209,12 +209,12 @@ Ini daftar yang menyakitkan, dan justru paling berharga, karena proyek ini didia
 
 | Aset | Temuan | Verifikasi |
 |---|---|---|
-| **E069 / ADV-3** ("katedral": survei dikontrol, defisit vulkanik bertahan) | **Salah tanda.** β pada *jarak* negatif berarti **lebih banyak** situs di dekat gunung api. Kriteria pra-registrasinya juga tak berarah. Dibaca benar pun, E069 **tidak diagnostik**: inventori OSM/Wikipedia tanpa periode (C029), semua periode digabung, ±71% candi, dan pita "jauh" berisi medan non-vulkanik. Surplus yang terkoreksi **bukan bukti melawan H1**. Ia selaras dengan penempatan candi dan tanah vulkanik subur (klaim karakter), dan netral terhadap permukiman pra-400 | ✅ diverifikasi independen (refit + efek parsial; rasionya sah). Skeptis metodologi: 225 dari 703 sel "valid" ternyata laut; pada 429 sel darat NB2 + offset luas darat memberi β=−0,58, p≈2×10⁻⁵ |
+| **E069 / ADV-3** ("katedral": survei dikontrol, defisit vulkanik bertahan) | **Salah tanda.** β pada *jarak* negatif berarti **lebih banyak** situs di dekat gunung api. Kriteria pra-registrasinya juga tak berarah. Dibaca benar pun, E069 **tidak diagnostik**: inventori OSM/Wikipedia tanpa periode (C029), semua periode digabung, ±71% candi, dan pita "jauh" berisi medan non-vulkanik. Surplus yang terkoreksi **bukan bukti melawan H1**. Ia selaras dengan penempatan candi dan tanah vulkanik subur (klaim karakter), dan netral terhadap permukiman pra-400 | ✅ diverifikasi independen (refit + efek parsial; rasionya sah). Dicek ulang sendiri (`direction_check_land_20261001.py`): 225 dari 703 sel "valid" berdaratan <10%; pada 478 sel darat dengan offset luas darat, NB2 β=−0,58 (p=1,1×10⁻⁷) dan quasi-Poisson β=−0,73 (p=0,001). Tanda koreksi kokoh |
 | "4 mm/thn" laju interior | Kedalaman ÷ umur monumen yang **diasumsikan**; E117 meng-hardcode 3,5/4,0/4,4 "dari E083" padahal E083 tak mengeluarkan laju. Banyak "kedalaman penguburan" adalah **kedalaman objek** (sumur, sumuran, timbunan), satu temuan dari Kalimantan, satu dari karst Gunung Kidul, dan satu temuan yang lokasinya berpindah antar-eksperimen | ✅ file + literatur |
 | E128 "replikasi independen" | 13 nilai kedalaman unik identik dengan E083 (sumber OV yang sama) | ✅ file |
 | E075 "validasi r=0,951" | Model melawan model | ✅ kode |
 | E117 horizon deteksi | Tak bisa membedakan penguburan dari ketiadaan (Fisher p=1,0) | file hasil |
-| E166 peta kedalaman ("56,7% Jatim tanpa penguburan") · E109 | E166: ±69% zona "tanpa penguburan" adalah laut (daratan saja ±22% dengan 30 gunung), memakai 7 gunung dan jarak salah ketik. E109: tak diagnostik menurut README-nya sendiri (τ=∞), dan merupakan sinyal E069 yang sama. **Keduanya tidak dipakai untuk maupun melawan H1** | laporan dua skeptis (verifikasi file tertunda) |
+| E166 peta kedalaman ("56,7% Jatim tanpa penguburan") · E109 | E166: ±69% zona "tanpa penguburan" adalah laut (daratan saja ±22% dengan 30 gunung), memakai 7 gunung dan jarak salah ketik. E109: tak diagnostik menurut README-nya sendiri (τ=∞), dan merupakan sinyal E069 yang sama. **Keduanya tidak dipakai untuk maupun melawan H1** | ✅ E166 diverifikasi dari raster: **69,2% zona "tanpa penguburan" = laut**; di darat zona itu 32,8% dari piksel (model 7 gunung). E109 dari README-nya |
 | E178 karst | Statistik skripnya sendiri tidak mendukung | ✅ skrip dijalankan ulang |
 | Basis 666 "situs arkeologi" | OSM/Wikipedia; 662 periode `unknown`; 78 nama monumen modern | ✅ file |
 | E195 | Prediksi gagal dilabeli "AHA"; status kini INFO NEG | ✅ diperbaiki |

@@ -1,0 +1,4 @@
+cells: 703 | cells with <10% land: 225
+land cells: 478 | NB2(alpha=1) beta(volcano distance, canonical 30) = -0.584, p = 1.1e-07
+land cells: 478 | quasi-Poisson beta(volcano distance, canonical 30) = -0.734, p = 0.0012
+Negative = more recorded sites closer to volcanoes (the corrected reading).
