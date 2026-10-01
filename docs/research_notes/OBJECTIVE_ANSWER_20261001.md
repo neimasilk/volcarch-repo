@@ -100,8 +100,9 @@ berpenghuni (H1b). Kedua, apakah tipisnya jejak mencerminkan survei (H2), karakt
 (H3), atau kepadatan yang memang rendah (H6). **Bukti saat ini belum bisa membedakan semuanya.**
 
 Belum ada dari 217 eksperimen proyek yang mengukur penguburan di atas permukaan pra-400 yang bertanggal.
-Penampang bertanggal Merapi yang melintasi 0–400 M dan klaim tanggal awal Liyangan sudah ada di literatur,
-tetapi belum pernah dibaca proyek untuk tujuan ini. Literatur baku tentang keterlambatan kota-kota awal
+Penampang bertanggal Merapi yang melintasi 0–400 M dan klaim tanggal awal Liyangan sudah ada di literatur.
+Proyek baru membacanya untuk tujuan ini pada uji meja 1 Okt (§9): klaim Liyangan ternyata tidak aman, dan
+penampang bertanggal yang terbuka belum cukup untuk D6. Literatur baku tentang keterlambatan kota-kota awal
 (Bronson & Wisseman 1976) membahas kurangnya penelitian, kelangkaan nyata, dan polity yang tidak mencolok,
 tanpa menyebut penguburan. Menurut kajian itu, kelangkaan situs kota awal bersifat regional di Asia
 Tenggara kepulauan, bukan khas zona vulkanik. Dalam pencarian satu hari (sebagian besar sumber berbahasa

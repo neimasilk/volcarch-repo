@@ -87,7 +87,7 @@ Journals per Gmail check 2026-10-01: **P2** in round-2 review since 31 Aug · **
   horizon) → weeks 2–5: **T7** (detection calibration: villages named in 8th–10th c. inscriptions vs recorded
   settlements — the first test that can separate H3 from H6) → then **T2** (pre-registered, zones from T4-desk).
   Submission milestone: an Indonesian-language synthesis ("why Nusantara's history starts ~400 CE") to a
-  national zero-APC journal. Details: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5, §7.
+  national zero-APC journal (outline: `docs/drafts/SINTESIS_400M_OUTLINE_DRAFT_20261001.md`). Details: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §5, §7.
   - **Update 2026-10-01 afternoon (desk tests; note §9, `docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md`):**
     - **T0:** Liyangan is not a pre-400 case. Its early dates are soil samples and charcoal with no context or
       lab codes (C037), so H1b now has no candidate.
