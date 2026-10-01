@@ -95,3 +95,6 @@ results/E211_voc_mentions/voc_mentions_normalized.json
 papers/P2_settlement_model/review_package_20260727/02_LAPORAN_REVIEWER.md
 papers/P2_settlement_model/review_package_20260727/05_REVIEW_COAUTHOR_GO_FRENDI.md
 papers/P2_settlement_model/review_package_20260727/07_REVIEW_KERAS_Q1_GO_FRENDI.md
+
+# Local cache of downloaded literature (PDF/ESM/full text) - not redistributed; see data/sources.md
+data/raw/literature_cache/

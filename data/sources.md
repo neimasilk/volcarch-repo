@@ -23,6 +23,8 @@ All data used in this project must be documented here with source, license, and 
 | Kelud isopach maps | Published volcanological papers | PARTIAL (E017 used Pyle 1989 generic model; per-volcano isopachs not acquired) |
 | Dwarapala measurements | BPCB Jawa Timur, news sources | COMPLETE (see JOURNAL.md) |
 | Mini-NusaRC v0.1 | 10+ published papers (Nature, JHE, Science, PLoS ONE) | v0.1 COMPLETE (51 records) |
+| Merapi ¹⁴C ages 1500–2300 BP (`data/processed/literature/merapi_14c_1500_2300bp_gertisser2012_esm1.csv`) | Gertisser, Charbonnier, Keller & Quidelleur 2012, *Bull. Volcanol.* 74:1213–1233, doi:10.1007/s00445-012-0591-3, Electronic Supplementary Material 1 ("Merapi radiocarbon database"), sheet "Sorted chronologically" | EXTRACTED 2026-10-01 (32 rows; lab codes, material, deposit type, locality, sector, coordinates where given, distance to the canonical-30 Merapi summit, calibrated ranges as published). **No depth column in the source.** |
+| Local literature cache (`data/raw/literature_cache/`, **gitignored, not redistributed**) | PDFs/ESM/full text downloaded 2026-10-01 for desk tests T0/T4: Abbas (ed.) 2014 *Liangan: Mozaik Peradaban Mataram Kuno di Lereng Sindoro* (full PDF + extracted text); Berkala Arkeologi articles (Riyanto 2015, 2017; Noerwidi 2016, 2017; Tanudirjo et al. 2019; Masyhudi 2005); Husein et al. 2010; Gertisser et al. 2012 ESM1–2; Gertisser et al. 2023 ch. 6 | LOCAL ONLY — re-download from the DOIs/URLs in `docs/research_notes/DESK_TESTS_T0_T4_T7_20261001.md` if missing |
 
 ### Mini-NusaRC v0.1 (`data/raw/nusarc_v0.1.csv`)
 

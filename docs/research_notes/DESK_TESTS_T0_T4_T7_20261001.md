@@ -582,3 +582,69 @@ Unit: attested village (distinct toponym within a named watak/region), 8th-10th 
 
 PDF yang dipakai disimpan di scratchpad sesi; URL Wayback-nya tercatat di laporan agen. Pendem (±2 m) dan seluruh
 butir T7/T4 lainnya belum diperiksa ulang.
+
+---
+
+## Tambahan sumber primer (2026-10-01, ±16:30–17:00)
+
+Agen pencari sumber sempat mengunduh dua sumber kunci sebelum dihentikan. Keduanya saya baca sendiri.
+
+### T0 — Monografi Abbas (ed.) 2014, *Liangan: Mozaik Peradaban Mataram Kuno di Lereng Sindoro*
+
+Bab Riyanto. Teks lengkapnya ada di cache lokal.
+
+- **Peta lokasi sampel pertanggalan 2011–2014** (hlm. 102). Peta itu memberi bahan dan simpangan baku setiap
+  tanggal. Kode lab, kedalaman, dan lapisan **tetap tidak ada**.
+
+  | Tanggal | Bahan | Lokasi di denah |
+  |---|---|---|
+  | **587 ± 20 M** | **arang bambu** | selatan, dekat simbol rumah, di tepi sungai |
+  | 742 ± 34 M | arang kayu | |
+  | 846 ± 33 M | arang bambu | |
+  | 913 ± 27 M | arang bambu | dekat batur |
+  | 971 ± 112 M | arang pohon | = 1060 ± 110 BP tahun 2011, dikonversi daring di radiocarbon.ldeo.columbia.edu (hlm. 58–59) |
+  | 312 ± 64 SM | matriks rangka | |
+
+- **Teks hlm. 101–103:**
+  - "beberapa lokasi dan konteks yang berbeda";
+  - rentang hunian "akhir abad ke-6 hingga akhir abad ke-10";
+  - matriks rangka ditafsirkan sebagai tanah lebih tua dari lubang kubur;
+  - sampel rangka dan gigi dikirim ke **University of Arizona** untuk AMS. Hasilnya belum ditemukan terbit.
+- **Akibat untuk T0:**
+  - Tanggal tertua yang relatif kuat adalah **587 ± 20 M pada bahan berumur pendek** (bambu, tanpa efek kayu
+    tua), dengan lokasi sampel dipetakan. Hunian **abad ke-6** di Liyangan lebih kuat daripada yang ditulis
+    sebelumnya.
+  - Klaim pra-400 tetap hanya bersandar pada seri 2016 (Riyanto 2017), yang **tidak muncul di monografi ini**.
+- **Tebal timbunan menurut monografi berbeda-beda:**
+  - "6–9 m" (pengantar);
+  - "6–10 m (Riyanto 2013: 767)";
+  - "tidak kurang dari 10 m" (hlm. 3);
+  - "7–12 m" (penelitian 2011);
+  - "hingga 7 m" (area tambang).
+
+  Bersama Tanudirjo dkk. 2019 (4–7 m), **rentang yang dilaporkan 4–12 m, tanpa satu pun penampang terukur yang
+  terbit**.
+- **Rujukan literatur yang relevan untuk H1** (hlm. 3–4, dikutip Riyanto): Sheets (1999: 39–40) menyatakan
+  bahwa situs yang tertutup tefra **<1,5–2 m tidak terawetkan dengan baik**, sedangkan yang lebih tebal sulit
+  ditemukan. Itu argumen pengawetan versus deteksi, dan perlu dicek ke sumber primernya.
+
+### T4 — Suplemen Gertisser dkk. 2012 (ESM1, "Merapi radiocarbon database")
+
+Ekstraknya ada di `data/processed/literature/merapi_14c_1500_2300bp_gertisser2012_esm1.csv`.
+
+- **32 tanggal berkode lab** antara 1500 dan 2300 BP. **15 di antaranya bermedian kalibrasi 66–398 M**
+  (kalibrasi seperti diterbitkan, SHCal04).
+- Semuanya **aliran piroklastik atau *ash-cloud surge***, di sektor N, NNW, S, SSE, dan WNW.
+- Lokasi yang bertitik koordinat (20 dari 32) berjarak **3,8–11,8 km dari puncak** (median 6,0 km).
+- **Tidak ada kolom kedalaman.** Jadi D6, yang meminta kedalaman permukaan ±400 M pada 5–30 km, tetap **tidak
+  bisa dihitung**.
+- **Akibat untuk T4:** untuk zona **proksimal (<12 km)**, permukaan 0–400 M berulang kali dilanda aliran
+  piroklastik, dan kini ada daftar berkode lab sebagai buktinya. Belum jelas apakah setiap tanggal adalah
+  peristiwa terpisah. Untuk **dataran kaki medial (15–30 km)**, tempat candi-candi terkubur, sumber ini tidak
+  memberi data.
+
+### Yang masih kurang
+
+- Kode lab dan lapisan Liyangan, dan hasil AMS dari Arizona. Ini permintaan ke ekskavator (BRIN).
+- Penampang bertanggal dengan kedalaman di 15–30 km. Sumbernya Newhall dkk. 2000, Andreastuti dkk. 2000,
+  Mulyaningsih 2006, dan log sondase BPK Wilayah X.

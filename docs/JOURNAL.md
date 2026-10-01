@@ -9783,3 +9783,27 @@ Tambahan setelah uji meja:
 Rinciannya di handoff §2c. Ulangi di sesi berikutnya.
 
 - **Tambahan penutupan:** pemeriksa literatur independen selesai, dengan 6/6 klaim kunci C037/C038 dikonfirmasi terhadap PDF primer (catatan di ledger dan di `DESK_TESTS…`, bagian Verifikasi). Tiga pekerjaan latar lain tetap belum terintegrasi (handoff §2c).
+
+## 2026-10-01 (±16:30–17:00, setelah jatah pulih) — dua sumber kunci T0/T4 dibaca
+
+Agen pencari yang dihentikan pukul ±15:22 ternyata sempat mengunduh dua sumber kunci. Keduanya kini disimpan
+di `data/raw/literature_cache/`, yang lokal dan gitignored (entri di `data/sources.md`).
+
+**T0.** Monografi Abbas (ed.) 2014, hlm. 102, memuat peta lokasi sampel 2011–2014 dengan bahan dan σ:
+- 587 ± 20 M dari **arang bambu**;
+- 742 ± 34 M dari arang kayu;
+- 846 ± 33 M dan 913 ± 27 M dari arang bambu;
+- 971 ± 112 M dari arang pohon;
+- 312 ± 64 SM dari matriks rangka.
+
+Kode lab dan lapisannya tidak ada. Akibatnya hunian abad ke-6 relatif kuat, sedangkan klaim pra-400 tetap
+hanya bersandar pada seri 2016. Tebal timbunan dilaporkan 4–12 m di berbagai sumber. Sampel rangka dikirim ke
+Univ. of Arizona, dan hasilnya belum ditemukan.
+
+**T4.** Suplemen Gertisser dkk. 2012 (ESM1) memuat 32 tanggal berkode lab antara 1500 dan 2300 BP. 15 di
+antaranya bermedian 66–398 M, semuanya aliran piroklastik pada 3,8–11,8 km dari puncak, **tanpa kedalaman**.
+Ekstraknya ada di `data/processed/literature/merapi_14c_1500_2300bp_gertisser2012_esm1.csv`. D6 tetap tidak
+terhitung.
+
+**Dokumen yang diperbarui:** OBJECTIVE_ANSWER (§2, H1a, H1b, §9), `DESK_TESTS…` (bagian Tambahan), ledger
+C037, dan handoff §2c. Workflow audit hilir dijalankan ulang.

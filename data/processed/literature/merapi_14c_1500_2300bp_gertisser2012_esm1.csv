@@ -1,0 +1,33 @@
+data_source,sample_no,lab_no,material,method,deposit_type,location,sector,lat,lon,dist_summit_km,conv_14c_bp,error,cal_median_ad,cal_min_ad,cal_max_ad
+Gertisser and Keller (2003a),M97-0973,Hd-20540,Charcoal,Conventional,Pyroclastic flow,Kali Apu,N,-7.512216666666666,110.42293333333333,4.1,1532,25,591,561,617
+Gertisser and Keller (2003a),M96-111,Hd-19270,Charcoal,Conventional,Pyroclastic flow,Pelem-Kinarejo,S,-7.593816666666667,110.43943333333333,5.9,1577,41,543,441,600
+Gertisser and Keller (2003a),M99-033,Hd-21194,Charcoal,Conventional,Pyroclastic flow,Kali Apu,N,-7.50705,110.44096666666667,3.8,1585,75,522,434,599
+Gertisser and Keller (2003a),M98-0492,KIA 12101,Charcoal,AMS,Pyroclastic flow,Ngringin - Kali Gandul,NE,-7.515183333333333,110.49343333333333,6.0,1590,40,522,436,580
+Gertisser and Keller (2003a),M97-070,Hd-20692,Charcoal,Conventional,Pyroclastic flow,Pelem-Kinarejo,S,-7.584316666666666,110.44423333333333,4.8,1614,36,494,434,544
+Gertisser and Keller (2003a),M97-018,Hd-19653,Charcoal,Conventional,Pyroclastic flow,Kali Apu,N,-7.5150500000000005,110.41325,4.6,1634,23,484,434,534
+Gertisser and Keller (2003a),M96-036,Hd-20552,Charcoal,Conventional,Pyroclastic surge,Pelem-Kinarejo,S,-7.583333333333333,110.444,4.7,1639,23,484,431,533
+Newhall et al. (2000),M12-NB-3C,W-5375,Charcoal,Conventional,Pyroclastic flow (ash-cloud surge),Pelem,S,,,,1640,120,461,346,601
+Gertisser and Keller (2003a),M96-0772,Hd-18812,Charcoal,Conventional,Pyroclastic flow,Jurangjero - Kali Putih ,SW,-7.557766666666667,110.40021666666667,5.4,1643,55,478,420,539
+Andreastuti et al. (2000),M4,WK4405,Not specified,Not specified,Pyroclastic flow,Ngrangkah,S,,,,1650,50,474,421,535
+Gertisser and Keller (2003a),M99-034,Hd-20760,Charcoal,Conventional,Fluviatile deposit,Kali Apu,N,-7.50705,110.44096666666667,3.8,1670,113,433,263,566
+Newhall et al. (2000),MN-50t,W-5421,Charcoal,Conventional,Pyroclastic flow (ash-cloud surge),Pelem,S,,,,1700,120,398,257,542
+Gertisser and Keller (2003a),M99-024,Hd-20771,Charcoal,Conventional,Pyroclastic flow,Kali Apu,N,-7.506066666666666,110.40026666666667,6.4,1739,25,363,269,410
+Gertisser and Keller (2003a),M97-007,Hd-20541,Charcoal,Conventional,Pyroclastic flow,Kali Pabelan,N,-7.508583333333333,110.39746666666667,6.5,1772,21,328,259,382
+Gertisser and Keller (2003a),M96-115,Hd-20210,Charcoal,Conventional,Pyroclastic flow,Pelem-Kinarejo,S,-7.583333333333333,110.444,4.7,1796,86,294,177,409
+Gertisser and Keller (2003a),M97-005,Hd-20209,Charcoal,Conventional,Pyroclastic flow,Kali Pabelan,N,-7.508583333333333,110.39746666666667,6.5,1815,34,285,234,338
+Newhall et al. (2000),MN-49f,W-5370,Charcoal,Conventional,Pyroclastic flow,Kinarejo,S,,,,1840,150,242,74,412
+Gertisser and Keller (2003a),M96-053,Hd-19282,Charcoal,Conventional,Pyroclastic flow,Jrakah,N,-7.494016666666667,110.41028333333334,6.5,1859,35,212,137,251
+Gertisser and Keller (2003a),M99-022,Hd-21192,Charcoal,Conventional,Pyroclastic flow,Kali Pabelan,WNW,-7.527333333333333,110.33983333333333,11.8,1865,80,213,90,329
+Newhall et al. (2000),MN-420,WW-1620,Charcoal,Conventional,Pyroclastic flow,Blorong - Siturejo - Kemalang,SSE,,,,1900,50,172,89,237
+Newhall et al. (2000),Jr-1 (RS/RIT),W-5163,Charcoal,Conventional,Pyroclastic flow,Jrakah - Kali Apu,NNW,,,,1900,80,176,71,312
+Gertisser and Keller (2003a),M97-013,Hd-19659,Charcoal,Conventional,Pyroclastic flow,Kali Apu,N,-7.514633333333333,110.39525,6.3,1905,110,171,30,325
+Gertisser and Keller (2003a),M98-0771,Hd-20199,Charcoal,Conventional,Pyroclastic flow,Gowoksabrang,WNW,-7.516616666666667,110.3928,6.5,1947,105,122,-18,245
+Andreastuti et al. (2000),M7,WK5614,Not specified,Not specified,Pyroclastic flow,Bakalan,NNW,,,,1960,60,105,26,210
+Gertisser and Keller (2003a),M96-057,Hd-18815,Charcoal,Conventional,Pyroclastic flow,Deles,SSE,-7.580283333333333,110.46476666666666,4.8,1965,47,98,23,207
+Newhall et al. (2000),MN-41b,W-5379,Charcoal,Conventional,Pyroclastic flow,Kali Gendol,SSE,,,,1990,140,66,-104,243
+Andreastuti et al. (2000),M8,WK6392,Not specified,Not specified,Palaeosol,Plalangan,N,,,,2190,60,-174,-350,-54
+Newhall et al. (2000),MN-421,WW-1621,Charcoal,Conventional,Pyroclastic flow,Road to Deles,SSE,,,,2190,50,-172,-348,-57
+Camus et al. (2000),MP255,Gif sur Yvette No. 7624,Charcoal,Not specified,Subplinian and phreatoplinian,Jurangjero,SW,,,,2220,160,-209,-393,-2
+Newhall et al. (2000),MN-106i,W-5841,Charcoal,Conventional,Pyroclastic surge,Grintingan,SE,,,,2220,100,-209,-361,-103
+Gertisser and Keller (2003a),M98-029,KIA 12100,Charcoal,AMS,Pyroclastic flow,Kali Batang,SW,-7.574883333333333,110.38686666666666,7.5,2260,30,-283,-358,-204
+Gertisser and Keller (2003a),M99-031,Hd-20775,Charcoal,Conventional,Pyroclastic flow,Kajangkoso - Kali Senowo,WNW,-7.53435,110.35908333333333,9.6,2264,73,-263,-376,-199

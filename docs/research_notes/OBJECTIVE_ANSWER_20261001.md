@@ -123,8 +123,8 @@ Indonesia belum diperiksa, jadi klaim kebaruan ditunda.
 |---|---|---|---|---|
 | **H0** | Batas adopsi prasasti Sanskerta, regional dan bertahap | Onset akhir abad ke-4–5 di beberapa simpul Asia Tenggara, termasuk tempat tanpa gunung api busur aktif; mekanismenya mengikuti norma prasasti India abad ke-4 (Pollock 2006; Salomon 1998); prasasti Purnawarman bertahan di permukaan lanskap vulkanik | Tak menjelaskan *seberapa banyak* masyarakat pra-400 di interior | **Didukung kuat** untuk "kenapa 400". Konsensus ilmiah. |
 | **H7** | Keterlambatan Jawa Tengah/Timur (3a) karena posisi dagang/basis agraris, konsolidasi polity, atau lokalisasi | Hall 1985 *(halaman perlu dicek)*; Wisseman Christie 1995; Wolters 1999 | Urutan prasasti tak cocok dengan model simpul dagang saja (Kutai pedalaman paling awal; Sumatra 682). Bila manik "Jatim" terbukti buatan Jawa Timur (makam Wei Utara 398–494, makam Silla abad ke-5–6), Jawa Timur sudah terhubung jauh pada abad ke-5 | **Hipotesis sejarawan, belum teruji.** |
-| **H1a** | *Geologis:* permukaan 0–400 M di zona tertentu terkubur di luar jangkauan survei biasa | **Superposisi:** di dataran kaki selatan Merapi (±17–24 km dari puncak) lantai candi abad ke-9 kini ±2–7 m (Kedulan ±7 m dalam 14–15 unit; Sambisari 6,5 m, menurut Newhall dkk. 2000 ±0,4 m abu + ±6 m sedimen fluvial *(perlu dicek)*; Kimpulan ±4,1 m; Pendem ±2 m, lemah; T4-meja §9). Liyangan: 4–7 m endapan jatuhan dan aliran piroklastik dalam ≥4 sekuen (Tanudirjo dkk. 2019; 6–10 m menurut Nurnusanto via Noerwidi 2017), bukan satu erupsi. Merapi aktif eksplosif sepanjang 0–400 M (Andreastuti dkk. 2000; Gertisser dkk. 2012, 2023) | Penguburan **episodik dan bergantung bentuklahan**: Sambisari bertahan ±5 abad lalu tertimbun cepat; pada jarak serupa dari Merapi kedalaman berkisar 0,7 m (Candirejo) sampai 5–7 m | **Terbukti di zona tertentu** (koridor lahar/fluvial dataran kaki Merapi, lereng proksimal Sindoro, dataran banjir). Luasnya belum dipetakan. |
-| **H1b** | *Arkeologis:* permukaan terkubur itu **berpenghuni** sebelum 400 M | **T0 (uji meja 1 Okt): kandidat satu-satunya tidak aman. Tidak ada bukti aman hunian pra-400 di Liyangan.** Tanggal pra-400 hanya ada di seri 2016 yang tak terbit. 23 SM dan 181 M berasal dari sampel *tanah*. 234 M berasal dari arang kayu tanpa konteks; mungkin ia setara dengan arang ±1720 th dalam aliran piroklastik, yaitu umur erupsi. Tak satu pun punya kode lab, kedalaman, atau kaitan dengan lantai. Paleosol 2231±25 BP adalah umur tanah yang dipotong lubang kubur abad ke-9–10. "Abad II–XI" bersumber tunggal (Riyanto 2017, diulang 2022/2023) dan dikritik Tanudirjo dkk. 2019 serta Degroot 2017. Yang aman: abad ke-6–10 (¹⁴C tanpa konteks) dan abad ke-9–10 (keramik Tang) | Belum ada permukaan pra-400 bertanggal yang diuji. Data kedalaman proyek sering **kedalaman objek** (sumur, sumuran), bukan kedalaman permukaan (C024) | **Belum teruji, kini tanpa kandidat.** Inilah pertanyaan terbuka yang sebenarnya. Langkah murah berikut: lembar lab 2011/2013/2016 dari ekskavator, dan AMS pada sisa berumur pendek (padi) dari lantai terdokumentasi. |
+| **H1a** | *Geologis:* permukaan 0–400 M di zona tertentu terkubur di luar jangkauan survei biasa | **Superposisi:** di dataran kaki selatan Merapi (±17–24 km dari puncak) lantai candi abad ke-9 kini ±2–7 m (Kedulan ±7 m dalam 14–15 unit; Sambisari 6,5 m, menurut Newhall dkk. 2000 ±0,4 m abu + ±6 m sedimen fluvial *(perlu dicek)*; Kimpulan ±4,1 m; Pendem ±2 m, lemah; T4-meja §9). Liyangan: dilaporkan 4–12 m endapan jatuhan dan aliran piroklastik dalam beberapa sekuen (4–7 m dengan ≥4 sekuen menurut Tanudirjo dkk. 2019; 6–12 m di monografi Abbas 2014), bukan satu erupsi; belum ada penampang terukur yang terbit. Merapi aktif eksplosif sepanjang 0–400 M (Andreastuti dkk. 2000; Gertisser dkk. 2012, 2023). Suplemen Gertisser dkk. 2012 memuat 15 tanggal berkode lab bermedian 66–398 M, semuanya aliran piroklastik pada 3,8–11,8 km dari puncak dan tanpa kedalaman | Penguburan **episodik dan bergantung bentuklahan**: Sambisari bertahan ±5 abad lalu tertimbun cepat; pada jarak serupa dari Merapi kedalaman berkisar 0,7 m (Candirejo) sampai 5–7 m | **Terbukti di zona tertentu** (koridor lahar/fluvial dataran kaki Merapi, lereng proksimal Sindoro, dataran banjir). Luasnya belum dipetakan. |
+| **H1b** | *Arkeologis:* permukaan terkubur itu **berpenghuni** sebelum 400 M | **T0 (uji meja 1 Okt): kandidat satu-satunya tidak aman. Tidak ada bukti aman hunian pra-400 di Liyangan.** Tanggal pra-400 hanya ada di seri 2016 yang tak terbit. 23 SM dan 181 M berasal dari sampel *tanah*. 234 M berasal dari arang kayu tanpa konteks; mungkin ia setara dengan arang ±1720 th dalam aliran piroklastik, yaitu umur erupsi. Tak satu pun punya kode lab, kedalaman, atau kaitan dengan lantai. Paleosol 2231±25 BP adalah umur tanah yang dipotong lubang kubur abad ke-9–10. "Abad II–XI" bersumber tunggal (Riyanto 2017, diulang 2022/2023) dan dikritik Tanudirjo dkk. 2019 serta Degroot 2017. Yang relatif aman: abad ke-6–10 dari ¹⁴C pada arang bambu/kayu yang lokasinya dipetakan (587 ± 20 M pada bambu; tanpa kode lab dan lapisan; Abbas 2014 hlm. 102), dan abad ke-9–10 dari keramik Tang | Belum ada permukaan pra-400 bertanggal yang diuji. Data kedalaman proyek sering **kedalaman objek** (sumur, sumuran), bukan kedalaman permukaan (C024) | **Belum teruji, kini tanpa kandidat.** Inilah pertanyaan terbuka yang sebenarnya. Langkah murah berikut: lembar lab 2011/2013/2016 dari ekskavator, dan AMS pada sisa berumur pendek (padi) dari lantai terdokumentasi. |
 | **H2** | Bias upaya survei/riset | E129 ("70,8% candi") **tidak bisa dipakai**: 369 dari 391 barisnya diambil dari dua halaman *daftar candi* Wikipedia, sehingga porsi candi tautologis, dan "permukiman 1,3%" adalah 5 baris generik (C036; inventori belum divalidasi, C029); Jepang 100–200× lebih intensif (E086, estimasi literatur) | Proksi survei kasar. Model kaskade E110/E120 **tidak dihitung**: parameternya ditetapkan tangan, ia mengandaikan ±9.659 permukiman pra-400 (E108; artinya mengandaikan H6 salah), dan E120 ada di daftar audit C023. H1 dan H2 **tidak independen**: penguburan mengubah jangkauan kedalaman ekskavasi menjadi soal upaya | **Masuk akal, belum diukur**, belum bisa diperingkat terhadap H1. |
 | **H3** | Visibilitas rendah karena karakter (bangunan ringan, organik, tersebar) | **Hipotesis lama di literatur**: polity "tanpa kota namun beradab", berbangunan ringan, tanpa pusat upacara tahan lama (Bronson & Wisseman 1976). **Kontrol dalam-Jawa (belum diukur):** desa abad ke-8–10 disebut ratusan kali dalam prasasti (±150–200 nama desa dalam 111 prasasti DHARMA; T7 §9), tetapi seberapa jarang mereka tercatat sebagai permukiman arkeologis **belum dihitung**. Angka "E129: 1,3%" yang dulu dikutip di sini **bukan hitungan permukiman**: isinya 5 baris `situs_arkeologi` generik, yaitu Kolam Segaran, Menggung, Plangatan, Trinil, dan Trowulan (C036). Bila kontrol ini terukur, "tidak ada permukiman" bukan bukti "tidak ada penduduk" (bdk. Wisseman Christie 1991 *(perlu dicek)*) | Belum diuji untuk pra-400; tesis karakter "peradaban vulkanik" belum punya pemfalsifikasi operasional di L1 | **Belum teruji, tetapi bukan tambalan ad hoc.** Butuh pemfalsifikasi tertulis (uji T7). T7 belum bisa dihitung karena register permukiman abad ke-8–10 bertanggal belum ada di repo. |
 | **H4** | Media mudah rusak / penyaringan genre | **Mekanisme terdokumentasi di kawasan:** "buku dan arsip" Funan abad ke-3; prasasti awal mengandaikan budaya naskah (Tuk Mas meniru *Raghuvaṃśa* karya Kālidāsa); E134/E147 menunjukkan genre menyaring isi prasasti setelah abad ke-6 | Waktu paruh di E111 diketik tangan; semua aksara Nusantara turunan Brahmi/Pallava | **Mekanisme nyata; tak teruji untuk Nusantara pra-400.** Tidak mengubah kesimpulan "bukan vulkanisme". |
@@ -158,11 +158,13 @@ dukungan.
      tidak merata, bukan bukti tanpa penguburan.
 3. **Penguburan nyata, dan menurut superposisi menjangkau permukaan pra-400 di zona tertentu (H1a).**
    - Sambisari, Kedulan, dan Kimpulan adalah candi abad ke-9–10 yang terkubur secara episodik.
-   - **Liyangan** adalah permukiman abad ke-9–10 menurut artefak (keramik Tang, gaya candi). Ada ¹⁴C tanpa
-     konteks sampai ±587 M (seri BATAN 2013, tanpa kode lab; T0 §9). Bila tanggal itu bertahan, Liyangan
-     adalah permukiman interior vulkanik bertanggal tertua yang diketahui, ±150 tahun sebelum Canggal. Ia
-     ditemukan hanya karena penambangan pasir, dan terkubur 4–7 m endapan piroklastik dalam ≥4 sekuen
-     (Tanudirjo dkk. 2019), bukan oleh satu erupsi.
+   - **Liyangan** adalah permukiman abad ke-9–10 menurut artefak (keramik Tang, gaya candi). ¹⁴C tertuanya
+     587 ± 20 M pada arang bambu, bahan berumur pendek. Lokasi sampelnya dipetakan di denah situs (Abbas
+     ed. 2014 hlm. 102), tetapi kode lab dan lapisannya tidak ada (T0 §9). Bila tanggal itu bertahan,
+     Liyangan adalah permukiman interior vulkanik bertanggal tertua yang diketahui, ±150 tahun sebelum
+     Canggal. Ia ditemukan hanya karena penambangan pasir. Tebal timbunannya dilaporkan 4–12 m dalam beberapa
+     sekuen (4–7 m menurut Tanudirjo dkk. 2019; 6–12 m di monografi 2014), tanpa penampang terukur yang terbit,
+     dan bukan hasil satu erupsi.
      Liyangan bukan bukti horizon pra-400, tetapi rekam permukiman interior tertua kita memang berasal dari
      paparan dalam yang kebetulan.
 4. ~~**Segregasi spasial candi ↔ prasasti (P17)**~~ **GUGUR (C032, terverifikasi):** kontrasnya artefak
@@ -363,8 +365,12 @@ Pembagian kerjanya:
   Tanggal 234 M mungkin sama dengan peristiwa itu *(hipotesis)*.
 - **Rentang "abad II–XI"** bersumber tunggal, dari Riyanto 2017 yang mengutip laporan 2016, lalu diulang
   pada 2022 dan 2023 tanpa data baru. Tanudirjo dkk. 2019 menyebut penanggalannya "tidak akurat".
-- **Yang aman:** abad ke-6–10 menurut ¹⁴C (587–971 M, BATAN, tanpa kode lab dan konteks) dan abad ke-9–10
-  menurut keramik Tang.
+- **Yang relatif aman:** abad ke-6–10 menurut ¹⁴C, dan abad ke-9–10 menurut keramik Tang.
+  - Monografi Abbas (ed.) 2014 (hlm. 102, dibaca sore ini) memetakan lokasi setiap sampel dan memberi
+    bahannya: **587 ± 20 M dari arang bambu**, bahan berumur pendek; 742 M dari arang kayu; 846 M dan 913 M
+    dari arang bambu; 971 M dari arang pohon.
+  - Kode lab dan lapisannya tetap tidak ada.
+  - Jadi hunian **abad ke-6** lebih kuat daripada hunian pra-400, yang tetap tidak didukung.
 - **Akibatnya:** H1b kehilangan satu-satunya kandidat dan kini **belum teruji tanpa kasus**. Liyangan tetap
   mendukung H1a untuk permukaan abad ke-9–10.
 - **Langkah berikut:**
@@ -384,9 +390,15 @@ Pembagian kerjanya:
 - **Apakah ada yang <2 m?** Mungkin di tepi cekungan danau yang tenang (satu data sekunder dari
   Borobudur). Tidak didukung data di koridor lahar Merapi. **Kelud: tidak ada data.**
 - **Koreksi:** "5–9 m" menjadi ±2–7 m (sudah diterapkan di §0 dan §1).
-- **Langkah berikut:** sumber kunci tertutup, yaitu Gertisser dkk. 2012 dengan 126 tanggal ¹⁴C di
-  suplemennya, Newhall/Andreastuti/Camus 2000 (JVGR 100), dan Mulyaningsih 2006. Jalannya permintaan
-  ke perpustakaan atau penulis, dan log sondase di bawah lantai candi dari BPK Wilayah X.
+- **Tambahan sore: suplemen Gertisser dkk. 2012 sudah diperoleh.**
+  - Isinya 15 tanggal berkode lab bermedian 66–398 M, semuanya aliran piroklastik pada 3,8–11,8 km dari
+    puncak.
+  - **Tidak ada kolom kedalaman.** Zona proksimal terbukti berulang kali dilanda, tetapi D6 tetap tidak
+    terhitung.
+  - Ekstraknya: `data/processed/literature/merapi_14c_1500_2300bp_gertisser2012_esm1.csv`.
+- **Langkah berikut:** penampang berkedalaman di 15–30 km. Sumbernya Newhall/Andreastuti/Camus 2000 (JVGR
+  100) dan Mulyaningsih 2006, lewat permintaan ke perpustakaan atau penulis, ditambah log sondase di bawah
+  lantai candi dari BPK Wilayah X.
 
 **T7 — kalibrasi deteksi. Hasil: *d* belum bisa dihitung dari isi repo.**
 - **Penyebut tersedia.** Ada 111 prasasti abad ke-8–10 (tanpa 50 label Borobudur) dengan 440 token
