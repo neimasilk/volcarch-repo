@@ -35,6 +35,9 @@ are matched often (S/|G| − d₀ ≥ 0.25, |G| ≥ 30), the "villages are invis
   (*banuA*, *banva*), which adds 155 → **595 occurrences** (2 are *baṅun* "build", left for the coders to reject).
   Inscriptions with ≥1 village noun: 69 → 73. (Amendment A1.)
 - Region is the inscription's findspot region, not the villages' location (threat 8).
+- Bug fixed 2026-10-02 before coding results: region matched Kedu/Prambanan names against the *desa* string
+  too, so Ayam Teas III (Wonogiri, desa "Pulutan Kulon") passed as Kulon Progo. Now kabupaten only, as
+  DESIGN §2 specifies. Occurrence IDs and coder input unchanged.
 
 ## Result / Conclusion
 

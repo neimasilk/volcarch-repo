@@ -154,7 +154,8 @@ def xlsx_date(h):
 
 
 def region(prov, kab, desa, gnote):
-    s = " ".join(str(v).lower() for v in (prov, kab, desa) if v)
+    # Kabupaten only: matching on the desa string let "…Kulon" desa names in Wonogiri pass as Kulon Progo.
+    s = str(kab or "").lower()
     if prov:
         if "timur" in str(prov).lower():
             return "East Java", "xlsx"
