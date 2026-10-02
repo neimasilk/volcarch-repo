@@ -98,3 +98,9 @@ papers/P2_settlement_model/review_package_20260727/07_REVIEW_KERAS_Q1_GO_FRENDI.
 
 # Local cache of downloaded literature (PDF/ESM/full text) - not redistributed; see data/sources.md
 data/raw/literature_cache/
+
+# tools/mail: browser profiles hold login cookies — never commit
+tools/mail/gmail_profile/
+tools/mail/gmail_out/
+tools/mail/portal_profile/
+tools/mail/*.png
