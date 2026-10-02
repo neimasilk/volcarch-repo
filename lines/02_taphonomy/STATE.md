@@ -1,6 +1,11 @@
 # STATE — Line 02 TAPHONOMY
 
-**Updated:** 2026-10-01 · **Temperature:** ⚠ WARM — the integrity debt grew today (re-entry audit)
+**Updated:** 2026-10-02 · **Temperature:** ⚠ WARM — public P1 record corrected; C024 audit still owed
+
+> **2026-10-02:** ✅ **P1 Zenodo correction notice live** (10.5281/zenodo.19081502, metadata edit 10:28 WIB; same DOI
+> and PDF). It withdraws the inverted E069 passage and downgrades the 4.4 mm/yr "Java-wide baseline" to a preliminary
+> anchor (n = 4). Still owed before any P1 submission: the C024 calibration audit; then a corrected PDF as a new version.
+
 
 > **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E085, E109 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
 

@@ -1,3 +1,12 @@
+# ✅ POSTED 2026-10-02 10:28 WIB — correction notice live on Zenodo 10.5281/zenodo.19081502
+
+Prepended to the record description (dated **2 October 2026**; text otherwise as below), via the PI's logged-in
+session (account amien@ubhinus.ac.id). Metadata-only edit: same DOI, same file `submission_v1.0.pdf`
+(md5 cb8a9057…4239d10). Verified on the public API: notice present, original description kept below it,
+`updated` 2026-10-02T03:28:27Z. A corrected PDF can follow after the C024 audit (new version).
+
+---
+
 # Draft: public correction for the P1 preprint on Zenodo (PI publishes)
 
 **Record:** 10.5281/zenodo.19081502 — *Multi-Site Calibration of Volcanic Sedimentation Rates and

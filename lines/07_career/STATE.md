@@ -1,6 +1,13 @@
 # STATE — Line 07 CAREER & EXPOSURE
 
-**Updated:** 2026-10-01 · **Temperature:** 🔴 LEDGER REFILLED — three items, each prepared to the last click
+**Updated:** 2026-10-02 · **Temperature:** ✅ LEDGER CLEARED — all four items done 2026-10-02
+
+> ## ✅ 2026-10-02 — ledger cleared (PI delegated: "silahkan dilakukan sesuai dengan rekomendasimu")
+> JCAA abstract reply sent 10:09 · VEGAN/BRIN email sent 10:11 · **P17 withdrawn** at ArchCalc 10:22 (portal) +
+> 10:24 (email to redazioneac@ispc.cnr.it, because the portal's notification failed) · P1 Zenodo notice live 10:28.
+> Scorecard now: 0 accepted · 7 rejected · 2 under review (P2, P8) · 1 withdrawn (P17). Next exposure: wait for
+> the journals; follow up VEGAN ≈ 23 Oct.
+
 
 > ## 🔴 2026-10-01 — the exposure ledger is not empty any more
 >

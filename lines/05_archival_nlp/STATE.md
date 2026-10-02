@@ -1,6 +1,12 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-02 · **Temperature:** 🔥 E226 (T7) in progress — matching blocked on PI (N_ref, m)
+**Updated:** 2026-10-02 · **Temperature:** 🅿 E226 (T7) parked as REVISIT ("digodok dulu") — identification is the bottleneck
+
+> **2026-10-02 (late morning) — E226 PARKED (REVISIT).** Frame done (266 villages, 170 Kedu/Prambanan, κ 0.90).
+> Register frozen: 1 qualifying settlement (Liyangan) + 9 unclear within web reach. **I2 = 0, I1 = 11/170** → |G| far
+> below the pre-registered 30; step 4 not run (would manufacture an "uninformative" verdict from small n). Unpark:
+> Kusen 1990/91 or Resiyani 2010 toponym lists (Nastiti / Griffiths / UGM), or a domain expert coding I1 for ≥30
+> villages. Reusable now: `results/t7_village_frame.csv`.
 
 > **2026-10-02 — E226 (T7) opened** (`experiments/E226_t7_detection_calibration/`). Pre-registration
 > `DESIGN.md` frozen and pushed before any register or matching. Step 1a done: 595 village-noun occurrences in
