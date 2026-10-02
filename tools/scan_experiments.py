@@ -120,6 +120,7 @@ LINE_MAP = {
     "E200": ["05_archival_nlp"], "E206": ["05_archival_nlp"],
     "E207": ["05_archival_nlp"], "E211": ["05_archival_nlp"],
     "E225": ["05_archival_nlp"],
+    "E226": ["05_archival_nlp", "06_thesis"],
     # --- 06 thesis / synthesis ---------------------------------------------
     "E048": ["06_thesis"], "E055": ["06_thesis"], "E060": ["06_thesis"],
     "E062": ["06_thesis"], "E064": ["06_thesis"], "E068": ["06_thesis"],

@@ -38,7 +38,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
-**Scorecard: 0 acceptances · 7 rejections · 3 under review · 217 experiments** (217 folder lokal, E001–E225; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01).
+**Scorecard: 0 acceptances · 7 rejections · 3 under review · 218 experiments** (218 folder lokal, E001–E226; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt).
 Journals per Gmail check 2026-10-01: **P2** in round-2 review since 31 Aug · **P17** (ArchCalc #365) and
 **P8** (OL) — no email since 10 Aug.
 

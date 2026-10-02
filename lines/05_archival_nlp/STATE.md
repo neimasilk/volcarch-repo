@@ -1,8 +1,14 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-01 · **Temperature:** 🔧 Tooling complete — next experiment proposed (T7, then T2)
+**Updated:** 2026-10-02 · **Temperature:** 🔥 E226 (T7) in progress — matching blocked on PI (N_ref, m)
 
-> **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E098 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
+> **2026-10-02 — E226 (T7) opened** (`experiments/E226_t7_detection_calibration/`). Pre-registration
+> `DESIGN.md` frozen and pushed before any register or matching. Step 1a done: 595 village-noun occurrences in
+> 73 of 111 inscriptions (the desk scan's 440 missed the *banuA/banva* spellings). Two blind coders + a blind
+> settlement-register agent running. Desa gazetteer (Kepmendagri 2025, 3,802 desa) in
+> `data/processed/gazetteer/`. **PI: fill N_ref and m in DESIGN §5 before step 4.**
+
+> **2026-10-01 (16:57, not evening) — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E098 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
 
 > **2026-10-01 afternoon:** **T7** (detection calibration from DHARMA village names) is now proposed as this
 > line's next experiment, ahead of T2.

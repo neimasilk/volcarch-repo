@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Generated:** 2026-10-01 16:56
-**Total:** 217 experiments
+**Generated:** 2026-10-02 09:26
+**Total:** 218 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
@@ -10,7 +10,7 @@
 - **UNKNOWN:** 34
 - **INFO NEG:** 15
 - **REVISIT:** 8
-- **IN PROGRESS:** 4
+- **IN PROGRESS:** 5
 - **INCONCLUSIVE:** 4
 - **PARTIAL:** 4
 - **FAILED:** 3
@@ -51,11 +51,11 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `05_archival_nlp` — Colonial archives & NLP
 
-**15** experiments (13 primary): E070 · E091 · E093 · E098 · E125 · E128 · E141 · E142 · E143 · E197 · E200 · E206 · E207 · E211 · E225
+**16** experiments (14 primary): E070 · E091 · E093 · E098 · E125 · E128 · E141 · E142 · E143 · E197 · E200 · E206 · E207 · E211 · E225 · E226
 
 ### `06_thesis` — Original question / synthesis
 
-**29** experiments (26 primary): E048 · E053 · E055 · E060 · E062 · E064 · E068 · E071 · E073 · E078 · E079 · E099 · E119 · E127 · E133 · E136 · E144 · E145 · E149 · E154 · E158 · E162 · E164 · E168 · E174 · E179 · E199 · E203 · E204
+**30** experiments (26 primary): E048 · E053 · E055 · E060 · E062 · E064 · E068 · E071 · E073 · E078 · E079 · E099 · E119 · E127 · E133 · E136 · E144 · E145 · E149 · E154 · E158 · E162 · E164 · E168 · E174 · E179 · E199 · E203 · E204 · E226
 
 ### `07_career` — Career & exposure (no experiments)
 
@@ -282,6 +282,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E223 | Statistical Robustness Package | SUCCESS | 01_spatial |  |  |  |
 | E224 | Does target-group background work once the bias va | FAILED | 01_spatial |  | P2 |  |
 | E225 | Gray-Literature Mining — Forgotten Pre-400 CE Reco | PRE-REGISTERED (DESI | 05_archival_nlp |  |  |  |
+| E226 | T7 detection calibration (villages named in 8th–10 | IN PROGRESS | 05_archival_nlp,06_thesis |  |  |  |
 
 ## Revisit Candidates
 
