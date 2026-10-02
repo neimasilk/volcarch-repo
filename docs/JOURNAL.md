@@ -9928,3 +9928,9 @@ Keputusan: P23 **dibingkai ulang menjadi studi kasus kritis** (argumen: identifi
 yang membatasi prasasti sebagai catatan permukiman; dataset menyertai argumen). DHQ tipe "Case Study" sebagai sasaran;
 JDMDH cadangan; pengunci akhir setelah validasi manusia dan inquiry pra-submisi. Tanpa gerbang G15, naskah ini akan
 ditulis sebagai paper dataset dan kemungkinan ditolak di meja editor — pola yang sama dengan 4 penolakan "salah jurnal".
+
+## 2026-10-02 (sore, ±16:05) — tutup sesi
+
+Handoff ditulis ulang utuh (`docs/HANDOFF_20261002.md`). Skrip email/portal dipindah dari scratchpad ke
+`tools/mail/` (profil browser di-gitignore). Satu draf Gmail sisa mode inspeksi (duplikat email Nastiti)
+ditemukan PI dan dihapus. Tidak ada pekerjaan setengah jalan.
