@@ -1,6 +1,6 @@
 # Experiment Index
 
-**Generated:** 2026-10-02 09:26
+**Generated:** 2026-10-02 10:07
 **Total:** 218 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
@@ -9,8 +9,8 @@
 - **SUCCESS:** 132
 - **UNKNOWN:** 34
 - **INFO NEG:** 15
-- **REVISIT:** 8
-- **IN PROGRESS:** 5
+- **REVISIT:** 9
+- **IN PROGRESS:** 4
 - **INCONCLUSIVE:** 4
 - **PARTIAL:** 4
 - **FAILED:** 3
@@ -282,7 +282,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E223 | Statistical Robustness Package | SUCCESS | 01_spatial |  |  |  |
 | E224 | Does target-group background work once the bias va | FAILED | 01_spatial |  | P2 |  |
 | E225 | Gray-Literature Mining — Forgotten Pre-400 CE Reco | PRE-REGISTERED (DESI | 05_archival_nlp |  |  |  |
-| E226 | T7 detection calibration (villages named in 8th–10 | IN PROGRESS | 05_archival_nlp,06_thesis |  |  |  |
+| E226 | T7 detection calibration (villages named in 8th–10 | REVISIT | 05_archival_nlp,06_thesis |  |  |  |
 
 ## Revisit Candidates
 
@@ -325,6 +325,7 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E203 | Indonesian Genome Population Structure — | REVISIT | *(check README)* |
 | E213 | Aggradation–Exposure Geomorphic Asymmetr | INCONCLUSIVE | *(check README)* |
 | E224 | Does target-group background work once t | FAILED | *(check README)* |
+| E226 | T7 detection calibration (villages named | REVISIT | *(check README)* |
 
 ---
 

@@ -3142,7 +3142,7 @@
     "dir": "E226_t7_detection_calibration",
     "has_readme": true,
     "title": "T7 detection calibration (villages named in 8th–10th c. inscriptions vs recorded",
-    "status": "IN PROGRESS",
+    "status": "REVISIT",
     "lines": [
       "05_archival_nlp",
       "06_thesis"
