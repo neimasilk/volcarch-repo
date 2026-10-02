@@ -1,6 +1,10 @@
 # STATE — Line 03 PALEOENV
 
-**Updated:** 2026-10-01 · **Temperature:** 🧊 BLOCKED on a human — honest outreach v2 ready for the PI
+**Updated:** 2026-10-02 · **Temperature:** ⏳ WAITING — VEGAN email SENT 2026-10-02 10:11
+
+> **2026-10-02:** ✅ email to Nia M. E. Fajari (VEGAN, BRIN) **sent** 10:11 to niamarniatief@yahoo.com (the
+> author address printed in *Naditira Widya* 12(2) 2018; no BRIN address public). If it bounces or there is no
+> reply in ~3 weeks (≈ 23 Oct), resend via the Pusat Riset Arkeometri / Berkala Arkeologi channel.
 
 > **2026-10-01 (late update):** outreach now goes to **BRIN's VEGAN group** (phytolith/starch/pollen, PR
 > Arkeometri; head Nia Marniati Etie Fajari) — `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md`. The Vida

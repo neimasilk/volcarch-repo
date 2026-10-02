@@ -1,6 +1,10 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-01 · **Temperature:** 🔥 HOT — dua aksi eksposur siap, tinggal PI
+**Updated:** 2026-10-02 · **Temperature:** 🔥 HOT — JCAA reply sent; P17 withdrawal pending portal login
+
+> **2026-10-02:** ✅ **P2/JCAA abstract reply SENT** 10:09 (Gmail, editor's thread). Next at the next revision: port
+> the abstract into `submission_jcaa_v0.2.tex` and fix the "true performance" wording (claim C2). **P17:** PI delegated the choice ("sesuai rekomendasimu"); Claude
+> recommends withdrawal (Option A) — sending via the ArchCalc portal once the PI is logged in.
 
 > **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E080, E109, E120, E159 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
 
