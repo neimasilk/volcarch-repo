@@ -9865,3 +9865,35 @@ working tree identik dengan commit. Tidak ada kerja yang hilang; scratchpad sesi
   bernama identik di seluruh 16 kabupaten; 110 desa berasal dari prasasti tanpa kabupaten temuan. Hasil T7
   bergantung pada I1 (identifikasi terbit). Aturan I2 tidak dilonggarkan.
 - **Berjalan:** agen register permukiman (buta terhadap kerangka), agen I1 (buta terhadap register).
+
+## 2026-10-02 (siang) — E226 diparkir; ledger eksposur dikosongkan (P17 ditarik)
+
+**Arahan PI (±10:05):** "penelitian serius tapi santai — kalau belum ada temuan signifikan, digodok dulu; yang
+sudah submit dll silahkan dilakukan sesuai rekomendasimu, pikirkan baik-baik; kalau perlu login saya loginkan."
+
+**E226 (T7) → REVISIT.** Register buta (Sonnet, 22 baris, dibekukan dengan sha256): hanya **Liyangan** memenuhi
+definisi permukiman abad 8–10 bertanggal di Kedu/Prambanan; 9 UNCLEAR (berita/keramik Tang, ekskavasi lama).
+Identifikasi I1 (Sonnet, buta register): **11 dari 170** nama utama, 3 tingkat desa (Atmodjo 1988: Mantyasih =
+Meteseh, Wadung Poh = Dumpoh, Kuning = Kembang Kuning). Bersama I2 = 0, |G| ≤ 11 < 30 pra-registrasi. Langkah 4
+**tidak dijalankan**: dengan n ≈ 11, N₉₅ besar apa pun S, jadi vonis "uninformative" akan datang dari n kecil, bukan
+dari data. Syarat buka: daftar toponim Kusen 1990/91 / Resiyani 2010, atau pakar mengode I1 ≥ 30 desa. Skrip
+pencocokan disiapkan (menolak jalan tanpa N_ref/m; cek hash register; N₉₅ mereproduksi tabel desk scan).
+Insiden kecil: model WebFetch mengarang alamat "nia.oktrivia@gmail.com" (mencampur nama editor lain) — ditolak;
+alamat yang dipakai diverifikasi dari PDF.
+
+**Ledger eksposur — keempat butir selesai (semua diverifikasi setelah kirim):**
+1. **JCAA/P2:** balasan abstrak terkirim 10:09 (draf Gmail kemarin; penerima tunggal editor; cek Sent).
+2. **VEGAN/BRIN:** email ke Nia M. E. Fajari terkirim 10:11 ke niamarniatief@yahoo.com (alamat penulis di
+   *Naditira Widya* 12(2) 2018; ORCID/artikel 2025 tanpa email). Q3 dikoreksi sebelum kirim (monograf Liangan 2014
+   memuat bahan+σ dan peta sampel; yang kurang hanya kode lab). Tindak lanjut ±23 Okt bila sunyi.
+3. **P17/ArchCalc #365 → DITARIK (Opsi A, rekomendasi Claude; PI mendelegasikan).** Alasan memilih tarik, bukan
+   tawaran revisi: kedua hasil (segregasi + pergeseran 929 M) gugur, sisanya tipis, dan arahan PI "digodok dulu"
+   tidak cocok dengan komitmen menulis makalah metode baru. Portal menunjukkan naskah **masih tahap Submission sejak
+   9 Apr** (belum ke reviewer), sehingga dua frasa dikoreksi ("under review" → "still at the submission stage";
+   "you and the reviewers" → "you"). Diskusi portal terkirim 10:22; portal melaporkan gagal mengirim notifikasi
+   email, jadi teks yang sama dikirim ke **redazioneac@ispc.cnr.it** (alamat redaksi resmi) 10:24.
+4. **Zenodo P1:** catatan koreksi (bertanggal 2 Okt) ditempel di atas deskripsi 10:28; DOI dan PDF sama; dicek
+   lewat API publik.
+
+PI login sendiri ke ArchCalc dan Zenodo di jendela Chrome terpisah (CDP); kredensial portal tidak pernah dilihat
+Claude. Skor: 0 diterima · 7 ditolak · 2 di-review (P2, P8) · 1 ditarik (P17).
