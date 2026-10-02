@@ -1,4 +1,4 @@
-# P2 / JCAA #280 — reply to the editor's abstract request (READY TO SEND, PI action)
+# P2 / JCAA #280 — reply to the editor's abstract request — ✅ SENT 2026-10-02 10:09 WIB (Gmail reply in the editor's thread; verified in Sent)
 
 **Prepared:** 2026-10-01 (Claude, autonomous session; PI away). **Not sent.** Sending is the PI's call.
 **Why:** on **31 Aug 2026** the handling editor (Dr César González-Pérez) corrected the title in the record
