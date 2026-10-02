@@ -9849,3 +9849,19 @@ keliru: semuanya terjadi sebelum 16:57. Handoff §2c dikoreksi.
 dengan menulis ulang ref ke 365b28b (+ ref pelacak `origin/main`, yang masih e6ef52c). `git fsck` bersih,
 working tree identik dengan commit. Tidak ada kerja yang hilang; scratchpad sesi kemarin hanya berisi skrip cek.
 **Pelajaran:** hentikan kerja ±16:45 pada hari yang listriknya dipadamkan pukul 17:00.
+
+## 2026-10-02 (pagi) — E226 (T7) dibuka: pra-registrasi, kerangka desa, gazetir
+
+**Sesi:** orbit, Opus 5.5. PI meminta antrian diteruskan ("kalau bisa diteruskan teruskan").
+- **Pra-registrasi** `experiments/E226_t7_detection_calibration/DESIGN.md` di-commit (b28b148) sebelum register
+  dan pencocokan. N_ref dan m dibiarkan kosong untuk PI; langkah 4 diblokir sampai terisi.
+- **Kandidat:** 595 kemunculan kata desa di 73 dari 111 prasasti 701–1000 M. Desk scan 10-01 (440) melewatkan
+  ejaan *banuA/banva* (amandemen A1). Bug wilayah ("Kulon" pada nama desa Wonogiri) diperbaiki sebelum hasil.
+- **Dua pengode buta (Sonnet):** κ Y-vs-bukan-Y = 0,90 (setuju 96,6%), κ 3-kategori 0,87, Jaccard nama 0,88.
+  78 baris diajudikasi orkestrator (aturan batas nama P1 dicatat per baris), 16 varian ejaan digabung lewat peta
+  alias eksplisit → **266 desa; 170 dari prasasti Kedu/Prambanan** (72 hanya dari prasasti bertanggal-judul).
+- **Gazetir:** Kepmendagri 300.2.2-2430/2025 via cahyadsn/wilayah → 3.802 desa di 16 kabupaten (`data/sources.md`).
+- **Temuan: I2 (nama persis, kabupaten temuan yang sama) = 0 dari 266.** Hanya 8 nama kuno punya desa modern
+  bernama identik di seluruh 16 kabupaten; 110 desa berasal dari prasasti tanpa kabupaten temuan. Hasil T7
+  bergantung pada I1 (identifikasi terbit). Aturan I2 tidak dilonggarkan.
+- **Berjalan:** agen register permukiman (buta terhadap kerangka), agen I1 (buta terhadap register).
