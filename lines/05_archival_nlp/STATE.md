@@ -1,6 +1,11 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-02 · **Temperature:** 🅿 E226 (T7) parked as REVISIT ("digodok dulu") — identification is the bottleneck
+**Updated:** 2026-10-02 · **Temperature:** 📝 P23 opened (Naskah A, DHQ) · E226 T7 parked REVISIT
+
+> **2026-10-02 (afternoon) — P23 opened** (`papers/P23_sima_village_toponyms/`): resource/method paper on the
+> 266-village frame, target **DHQ**. Core missing piece: an epigrapher validates a random sample (the two coders
+> were LLM agents). Reader asked: Dr Titi Surti Nastiti (BRIN), 13:55, with the list attached; also asked for the
+> Kusen/Resiyani toponym lists (= E226 unpark). Follow up ≈ 23 Oct. Submission blocked by SIG G13 for now.
 
 > **2026-10-02 (late morning) — E226 PARKED (REVISIT).** Frame done (266 villages, 170 Kedu/Prambanan, κ 0.90).
 > Register frozen: 1 qualifying settlement (Liyangan) + 9 unclear within web reach. **I2 = 0, I1 = 11/170** → |G| far
