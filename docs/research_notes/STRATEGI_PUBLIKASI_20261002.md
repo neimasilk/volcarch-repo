@@ -57,7 +57,7 @@ terlalu terburu-buru… pikirkan baik-baik strateginya."
 | Prioritas | Naskah | Jurnal | Catatan |
 |---|---|---|---|
 | 1 | **P2** (JCAA) | sudah di review | Peluang terbaik. Jawab review dengan teliti; jangan buru-buru. |
-| 2 | **Naskah A — data/metode NLP:** toponim desa dalam prasasti sīma abad ke-8–10 (kerangka E226: 595 kemunculan, 266 desa, dua pengode κ 0,90, pelajaran ejaan b/v) | DH/NLP tanpa APC (DHQ, workshop keluarga ACL, atau jurnal informatika SINTA). **Cek biaya registrasi terhadap aturan nol-APC.** | Kandang PI; klaim kecil dan bisa diverifikasi. Mengajak epigraf (tim DHARMA) sebagai rekan penulis sekaligus membuka daftar Kusen. |
+| 2 | **Naskah A — data/metode NLP:** toponim desa dalam prasasti sīma abad ke-8–10 (kerangka E226: 595 kemunculan, 266 desa, dua pengode model AI κ 0,90 — perlu validasi epigraf manusia, pelajaran ejaan b/v) | DH/NLP tanpa APC (DHQ, workshop keluarga ACL, atau jurnal informatika SINTA). **Cek biaya registrasi terhadap aturan nol-APC.** | Kandang PI; klaim kecil dan bisa diverifikasi. Mengajak epigraf (tim DHARMA) sebagai rekan penulis sekaligus membuka daftar Kusen. |
 | 3 | **Naskah B — sintesis berbahasa Indonesia** (jawaban obyektif ±400 M) | jurnal arkeologi nasional BRIN (diamond OA, SINTA) | Sebaiknya dengan rekan penulis BRIN; dibaca pakar sebelum dikirim. |
 | tahan | P1 (setelah audit C024; mungkin dilebur ke B), P5, P9, P11, P0/MASTERPIECE | — | Tidak ada naskah baru sampai A atau B siap. |
 
@@ -69,3 +69,19 @@ terlalu terburu-buru… pikirkan baik-baik strateginya."
 3. Apakah biaya registrasi konferensi atau workshop termasuk larangan "nol-APC"?
 4. Siapa pembaca manusia yang bisa dimintai tolong: kolega, BRIN, atau UGM?
 5. Naskah A atau B lebih dulu? Usulan Claude: **A**, karena lebih kecil, di kandang sendiri, dan datanya sudah ada.
+
+---
+
+## 5. Keputusan (2026-10-02, didelegasikan PI: "kasih rekomendasi… langsung saja jalankan")
+
+| # | Keputusan | Diterapkan di |
+|---|---|---|
+| 1 | **YA.** Batas pekerjaan berjalan, masa endap ≥ 14 hari, pembaca manusia, jurnal dipilih dulu, prosa PI → gerbang wajib **G13–G16**; G10 wajib untuk jurnal arkeologi/humaniora. | `docs/SUBMISSION_INTEGRITY_GATE.md` |
+| 2 | **Rekan penulis ranah = default** untuk naskah ke jurnal arkeologi/humaniora. Mereka diundang sejak awal, dan kepengarangan sesuai kontribusi nyata (CRediT). Penulis tunggal tetap boleh untuk naskah metode/NLP di kandang PI. Rekan penulis ranah tidak pernah menjadi alasan menunda selamanya: bila tak ada yang bersedia, cukup satu pembaca G10. | memori, catatan ini |
+| 3 | **Nol biaya untuk semua jenis biaya**: APC, submission fee, page charge, registrasi wajib. Pengecualian hanya bila universitas membayar di muka. Claude tidak memutuskan pengeluaran pribadi PI. | G15, memori `feedback_zero_apc` |
+| 4 | **Pembaca:** Naskah A → epigraf (Titi Surti Nastiti, BRIN, dihubungi lebih dulu; Arlo Griffiths/DHARMA sebagai cadangan dan untuk kesopanan data). Naskah B → arkeolog BRIN (jalur VEGAN atau Nastiti). Satu kolega Ubhinus untuk keterbacaan: PI menunjuk. | email ke Nastiti; `papers/P23_…/README.md` |
+| 5 | **Naskah A lebih dulu** (dataset/metode toponim desa sīma). Naskah B menyusul setelah A dibekukan. | `papers/P23_…/` |
+
+**Status WIP saat keputusan diambil:** under review = 2 (P2, P8), sehingga G13 penuh. Naskah A sedang
+disusun (1). **Tidak ada pengiriman baru** sampai salah satu keputusan dari P2 atau P8 keluar, atau sampai A
+lolos G14.

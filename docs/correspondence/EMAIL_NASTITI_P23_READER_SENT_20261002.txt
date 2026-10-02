@@ -1,0 +1,21 @@
+Yth. Ibu Dr. Titi Surti Nastiti,
+
+Perkenalkan, saya Mukhlis Amien, dosen di Universitas Bhinneka Nusantara, Malang, dengan bidang pemrosesan bahasa alami (NLP). Beberapa bulan terakhir saya mengolah edisi prasasti DHARMA secara komputasional. Saya menulis kepada Ibu karena satu pekerjaan kecil yang membutuhkan mata seorang epigraf.
+
+Dari 111 prasasti bertanggal abad ke-8 sampai ke-10 M dalam korpus DHARMA, kami menjaring 595 kemunculan kata wanua, banua, wanwa, dan thāni beserta konteksnya. Setiap kemunculan lalu ditandai, apakah menyebut desa tertentu dan apa namanya. Penandaan ini dilakukan dua kali secara terpisah dengan bantuan model AI (kesepakatan antar-penanda κ = 0,90), dan perbedaannya diputuskan satu per satu, juga dengan bantuan AI. Hasilnya daftar 266 nama desa; 170 di antaranya berasal dari prasasti yang ditemukan di Kedu dan dataran Prambanan. Daftar itu saya lampirkan (Excel). Karena penandaannya dibantu mesin, daftar ini belum pernah diperiksa oleh epigraf.
+
+Ada dua hal yang ingin saya mohonkan, tanpa kewajiban apa pun:
+
+1. Apakah Ibu berkenan memeriksa daftar tersebut, misalnya sebagian kecilnya saja, terutama batas nama yang kami ragukan (seperti "tuṅgu manoṅan", "vuAtan sugiḥ", dan "kuniṁ kagunturan")? Kami ingin menuliskannya sebagai artikel data dan metode yang singkat. Bila masukan Ibu substansial, kami akan sangat senang mengajak Ibu sebagai rekan penulis.
+
+2. Dari 170 nama itu, hanya 11 yang identifikasi lokasi modernnya bisa kami temukan dalam publikasi; mencocokkan langsung dengan nama desa sekarang hampir selalu gagal. Apakah Ibu tahu cara mengakses laporan Kusen (1990/91), "Identifikasi Toponim dalam Prasasti Jawa Kuno Abad IX–X dari Prambanan dan Sekitarnya dengan Toponim Masa Kini", atau skripsi Resiyani (UGM, 2010) tentang toponim di Temanggung?
+
+Pertanyaan yang lebih besar di balik pekerjaan ini adalah berapa banyak desa yang kita tahu pernah ada dari prasasti yang jejak permukimannya sudah ditemukan secara arkeologis. Untuk itu, identifikasi lokasi desa menjadi kuncinya.
+
+Terima kasih banyak atas waktu Ibu.
+
+Hormat saya,
+
+Mukhlis Amien
+Universitas Bhinneka Nusantara, Malang · amien@ubhinus.ac.id
+ORCID 0000-0002-1848-167X

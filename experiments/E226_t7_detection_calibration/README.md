@@ -16,7 +16,7 @@ are matched often (S/|G| − d₀ ≥ 0.25, |G| ≥ 30), the "villages are invis
 | Step | What | Script / file | State |
 |---|---|---|---|
 | 1a | Village-noun occurrences with KWIC, 701–1000 CE, edition text | `scripts/01_build_candidates.py` → `frame/candidates_kwic.csv`, `frame/inscriptions_701_1000.csv` | ✅ 595 occurrences in 73 of 111 inscriptions |
-| 1b | Two independent coders + adjudication → frame V_r | `frame/CODEBOOK.md`, `frame/coder_A/B.csv`, `scripts/02_reconcile.py` → `results/t7_village_frame.csv` | ✅ κ(Y vs not-Y)=0.90 (96.6%), 78 rows adjudicated, 16 spelling merges → **266 villages, 170 from Kedu/Prambanan inscriptions** (72 title-dated only) |
+| 1b | Two independent coders (**both LLM agents**, run blind to each other — not humans) + adjudication by the orchestrator (also an LLM) → frame V_r | `frame/CODEBOOK.md`, `frame/coder_A/B.csv`, `scripts/02_reconcile.py` → `results/t7_village_frame.csv` | ✅ κ(Y vs not-Y)=0.90 (96.6%), 78 rows adjudicated, 16 spelling merges → **266 villages, 170 from Kedu/Prambanan inscriptions** (72 title-dated only) |
 | 2a | Modern desa gazetteer (Kepmendagri 2025) | `scripts/03_gazetteer.py` → `data/processed/gazetteer/desa_kedu_mataram_buffer_2025.csv` | ✅ 3,802 desa |
 | 2b | Identification tiers I1/I2/I3 | `scripts/03b_identify_I2.py` → `results/t7_identification_I2.csv`; I1 → `frame/identifications_I1.csv` | I2 as pre-registered = **0** (see notes); I1 = **11 of 170 primary names** (6 stated, 3 at desa level, all Atmodjo 1988 / Magelang) → G far below the pre-registered |G| ≥ 30 |
 | 3 | Settlement register, built blind to the frame | `register/PROMPT.md` → `register/t7_settlement_register_candidates.csv`, `register/REGISTER_NOTES.md` | ✅ **frozen 2026-10-02**, sha256 (LF-normalised) `e515fe3e…728e51`: 22 rows, **1 YES (Liyangan)**, 9 UNCLEAR, 12 NO |
@@ -58,7 +58,7 @@ are matched often (S/|G| − d₀ ≥ 0.25, |G| ≥ 30), the "villages are invis
 
 **INCONCLUSIVE at step 2: *d* cannot be estimated from open sources.** The obstacle is identifying the toponyms,
 not only the register.
-- Frame: 170 villages from Kedu/Prambanan inscriptions (two coders, κ 0.90).
+- Frame: 170 villages from Kedu/Prambanan inscriptions (two LLM coders, κ 0.90; **no human epigrapher has validated it yet**).
 - I2 (exact desa name): 0. I1 (published identifications): 11 names, 3 at desa level → |G| ≤ 11, below the
   pre-registered |G| ≥ 30. With n ≈ 11, N₉₅ would be large whatever S is, so the "uninformative" reading would
   follow from the small n, not from the data; running step 4 now would manufacture a result.

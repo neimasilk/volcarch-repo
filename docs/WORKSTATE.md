@@ -74,8 +74,10 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 ## 4. Decisions waiting on the PI
 
 **NEW 2026-10-02 — publication strategy after 7 rejections:** `docs/research_notes/STRATEGI_PUBLIKASI_20261002.md`
-(diagnosis: 10 submissions in 35 days, 6/7 rejections at the desk; proposal: WIP limit, home-field NLP paper first,
-domain partner, PI's own prose, "digodok" ≥2 weeks). Five PI decisions listed there.
+(diagnosis: 10 submissions in 35 days, 6/7 rejections at the desk). **DECIDED same day (PI delegated):** SIG gates
+G13–G16 binding (WIP ≤2 in review / 1 drafting; rest ≥14 days; venue first + zero cost of any kind; PI's own prose);
+G10 human domain reader required for archaeology venues; domain co-author by default there; **Naskah A (P23, sīma
+village toponyms) first**. G13 is full now (P2, P8 in review) → no new submission until a decision arrives.
 
 **Urgent (one sitting, each prepared):** the three §1 actions.
 

@@ -9904,3 +9904,20 @@ PI: "7 ditolak, mungkin terlalu terburu-buru — pikirkan strateginya." Diagnosi
 dalam 35 hari (mulai 12 hari setelah repo dibuat), 6 dari 7 penolakan di meja editor (2 tulisan/struktur, 4 salah
 jurnal), 1 penolakan isi (P7, kesalahan data). Usulan dan 5 keputusan PI:
 `docs/research_notes/STRATEGI_PUBLIKASI_20261002.md`.
+
+## 2026-10-02 (siang) — lima keputusan strategi dijalankan (PI mendelegasikan)
+
+PI: "untuk keputusan saya, kasih rekomendasi, pikirkan baik2, dan langsung saja jalankan rekomendasinya."
+1. **SIG G13–G16** ditambahkan (batas WIP ≤2 di review / 1 ditulis; endap ≥14 hari; jurnal dulu + nol biaya
+   apa pun; prosa PI). **G10 wajib** untuk jurnal arkeologi/humaniora.
+2. **Rekan penulis ranah = default** untuk jurnal arkeologi/humaniora (CRediT; tak boleh jadi alasan menunda).
+3. **Nol biaya untuk semua jenis biaya**; pengecualian hanya bila universitas membayar di muka (memori diperbarui).
+4. **Pembaca epigraf untuk Naskah A:** email ke Dr Titi Surti Nastiti (BRIN) terkirim 13:55 ke tsnastiti@yahoo.com
+   (alamat dari artikelnya di *Kalpataru*), dengan lampiran daftar 266 desa. Email menyatakan terang bahwa
+   pengodean dibantu model AI dan belum divalidasi epigraf; meminta pemeriksaan sampel + akses Kusen/Resiyani;
+   menawarkan kepenulisan bila masukannya substansial.
+5. **Naskah A = P23** (`papers/P23_sima_village_toponyms/`). Jurnal: **DHQ** ("does not charge any fees of any
+   kind"; Scopus-listed, ESCI); cadangan JDMDH (diamond, non-Scopus); JOHD dikeluarkan (APC). Templat genre dari
+   ≥5 artikel DHQ sedang disusun agen (G15).
+**Koreksi kejujuran:** README E226 dan lampiran kini menyebut bahwa kedua "pengode" adalah agen LLM, bukan
+manusia. Konsekuensinya untuk P23: validasi manusia pada sampel menjadi inti naskah, bukan pelengkap.
