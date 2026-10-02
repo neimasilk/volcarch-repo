@@ -1,6 +1,6 @@
 # Draf Email: Kelompok Riset VEGAN, Pusat Riset Arkeometri BRIN — analisis mikrobotani sedimen terkubur
 
-**Status:** DRAF 2026-10-01, **belum dikirim**. **Kirim = PI.** *Diperbarui sore 2026-10-01: angka kedalaman
+**Status:** ✅ DIKIRIM 2026-10-02 (Gmail amien@ubhinus.ac.id, atas otorisasi PI hari itu); Q3 dikoreksi sebelum kirim (monograf 2014 memuat bahan+σ dan peta sampel, tanpa kode lab). *Diperbarui sore 2026-10-01: angka kedalaman
 dikoreksi (C038), dan pertanyaan 3 (Liyangan, uji T0) ditambahkan supaya tetap satu email.*
 **Keputusan outreach (PI mendelegasikan "pikirkan baik-baik, putuskan", 2026-10-01).** Setelah pemeriksaan
 fakta hari yang sama (agen verifikasi, sumber di bawah):
@@ -17,7 +17,7 @@ fakta hari yang sama (agen verifikasi, sumber di bawah):
   Marniati Etie Fajari**; anggota antara lain Alifah, Ati Rati Hidayah, dan Sofwan Noerwidi. Fajari pernah
   memimpin ekskavasi Gua Payung bersama Vida Kusmartono.
 
-**Kepada:** Ibu Nia Marniati Etie Fajari, Kelompok Riset VEGAN, Pusat Riset Arkeometri BRIN — *alamat email
+**Kepada:** Ibu Nia Marniati Etie Fajari — **niamarniatief@yahoo.com** (tercetak sebagai alamat penulis di *Naditira Widya* 12(2), 2018, artikel Situs Pulau Sirang; diverifikasi dari PDF 2026-10-02; alamat BRIN tidak ditemukan di ORCID/artikel 2025), Kelompok Riset VEGAN, Pusat Riset Arkeometri BRIN — *alamat email
 belum ditemukan; cek laman kelompok* https://brin.go.id/orarbastra/pusat-riset-arkeometri/page/vegetal-and-organic-analysis-in-archaeology-vegan
 *atau email korespondensi di artikel beliau (mis. Naditira Widya). Alternatif kanal: praps@brin.go.id.*
 **Subjek:** Kemungkinan analisis fitolit/pati pada tanah purba terkubur di dataran kaki Merapi
@@ -43,8 +43,9 @@ komitmen apa pun:
 2. Apakah kelompok VEGAN bersedia berdiskusi tentang studi percontohan kecil, misalnya mulai dari
    penampang yang horizon abad ke-8–10-nya sudah diketahui sebagai kontrol (Liyangan atau Kedulan)?
 3. Khusus Liyangan: apakah sisa berumur pendek (misalnya butir padi) dari lantai yang terdokumentasi
-   pernah ditanggali dengan AMS? Sejauh yang bisa saya akses, tanggal ¹⁴C Liyangan yang terbit belum
-   disertai kode lab dan konteks lapisan, sehingga saya belum bisa menilai tanggal-tanggal tertuanya.
+   pernah ditanggali dengan AMS? Sejauh yang bisa saya akses, tanggal ¹⁴C Liyangan yang terbit (misalnya
+   dalam monografi Liangan 2014) mencantumkan bahan dan simpangan baku, tetapi belum disertai kode lab,
+   sehingga saya belum bisa menilai tanggal-tanggal tertuanya.
 
 Dari sisi saya: kompilasi kedalaman dan tanggal situs terkubur, kandidat lokasi penampang, dan kode
 analisis, semuanya terbuka untuk Ibu periksa. Rancangan dan biayanya sepenuhnya untuk didiskusikan.
