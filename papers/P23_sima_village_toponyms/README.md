@@ -4,21 +4,29 @@
 **Line:** 05_archival_nlp (primary), 04_language_text. **Author:** Mukhlis Amien (first); domain co-author invited
 (see Reader). **Source experiment:** E226 (frame step only; T7 matching is parked and is **not** this paper's claim).
 
-## The paper in one sentence (claim size fixed now)
+## The paper in one sentence (re-scoped 2026-10-02 after `VENUE.md`)
 
-A reproducible pipeline and a checked list of the villages named in 8th–10th c. CE Old Javanese charters
-(DHARMA corpus), with an honest account of what it takes to locate them — **a resource/method paper, not a
-claim about settlement history or volcanism.**
+**A critical case study:** machine reading can recover the villages named in 8th–10th c. Old Javanese charters
+cheaply and checkably, but *locating* them cannot be automated — toponym resolution, not text extraction, is
+what limits the use of charters as a settlement record (0 of 266 names match a modern desa exactly; 11 of 170
+have a published identification). The dataset accompanies the argument; it is not the argument. **Not** a
+claim about settlement history or volcanism.
 
-## Venue (G15)
+## Venue (G15) — decided 2026-10-02, final lock after human validation
 
-- **Target: Digital Humanities Quarterly (DHQ).** "DHQ does not charge any fees of any kind" (about page, checked
-  2026-10-02); Scopus-listed, WoS ESCI (JIF 2024 0.8); review typically 2–4 months; CC BY-ND default (CC BY
-  available).
-- **Backup: Journal of Data Mining & Digital Humanities (JDMDH)** — diamond OA (episciences), DOAJ/DBLP, not
-  Scopus.
-- **Excluded:** JOHD (APC with waiver fund — not guaranteed zero); ACL-family workshops (registration fee).
-- Genre template from ≥5 recent DHQ articles: `VENUE.md` (being compiled).
+- **Target: DHQ, article type "Case Study"** (≈6–7k words; technical evaluation in an appendix; AI use
+  acknowledged in the body, as DHQ requires). DHQ is zero-cost ("does not charge any fees of any kind"), ESCI
+  (JIF 2024 0.8); Scopus listing claimed on its About page but not independently verified. **Fit caveat (VENUE.md):** DHQ's FAQ excludes "routine analyses of data
+  sets or text corpora" and "standalone data sets" → the case-study framing above is required, not optional.
+  Acceptance is low and falling (18% 2023 → 15% 2024 → ~7% 2025, pending). 0 of 210 DHQ items 2023–26 treat
+  Southeast Asian or Indic epigraphy (novelty, but also no ready reviewers). Next realistic deadline 2027-01-15.
+- **Before drafting the full text:** the human validation result (`validation/PROTOCOL.md`); then a short
+  pre-submission inquiry to dhqinfo@digitalhumanities.org (G15).
+- **Backup: JDMDH** — diamond (no author fees), welcomes short dataset/tool articles (genre fit), but not
+  Scopus/WoS and slow (median ≈ 313 days to acceptance). Choose it if the DHQ inquiry is negative or if the
+  validation turns the paper into a pure method lesson.
+- **Excluded:** JOHD (APC £1,070, waiver not guaranteed); ACL workshops (registration fee); jTEI (fees unverified).
+- Full survey, genre template and section skeleton: `VENUE.md`.
 
 ## What exists already (from E226)
 
@@ -49,6 +57,6 @@ claim about settlement history or volcanism.**
 |---|---|
 | G13 WIP | FULL now (P2, P8 in review) → P23 may be drafted, not submitted, until a decision arrives |
 | G14 rest | not started (no frozen draft) |
-| G15 venue | DHQ chosen, fees verified; `VENUE.md` pending |
+| G15 venue | DHQ (Case Study framing) chosen, fees verified, `VENUE.md` done; pre-submission inquiry after validation |
 | G10 reader | asked (Nastiti) |
 | G16 voice | PI writes |

@@ -9921,3 +9921,10 @@ PI: "untuk keputusan saya, kasih rekomendasi, pikirkan baik2, dan langsung saja 
    ≥5 artikel DHQ sedang disusun agen (G15).
 **Koreksi kejujuran:** README E226 dan lampiran kini menyebut bahwa kedua "pengode" adalah agen LLM, bukan
 manusia. Konsekuensinya untuk P23: validasi manusia pada sampel menjadi inti naskah, bukan pelengkap.
+
+**14:20 — G15 di P23 bekerja.** Survei agen atas 210 artikel DHQ (8 diprofilkan; `papers/P23_sima_village_toponyms/VENUE.md`):
+FAQ DHQ menolak "routine analyses of data sets" dan "standalone data sets"; acceptance turun 18% → 15% → ~7%.
+Keputusan: P23 **dibingkai ulang menjadi studi kasus kritis** (argumen: identifikasi toponim, bukan ekstraksi,
+yang membatasi prasasti sebagai catatan permukiman; dataset menyertai argumen). DHQ tipe "Case Study" sebagai sasaran;
+JDMDH cadangan; pengunci akhir setelah validasi manusia dan inquiry pra-submisi. Tanpa gerbang G15, naskah ini akan
+ditulis sebagai paper dataset dan kemungkinan ditolak di meja editor — pola yang sama dengan 4 penolakan "salah jurnal".
