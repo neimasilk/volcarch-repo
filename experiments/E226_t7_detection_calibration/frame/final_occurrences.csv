@@ -1,0 +1,596 @@
+occ_id,inscription,date,date_src,region,code,name,key,watak,role,how
+INS12Gilikan#001,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,N,,,,,agreed
+INS12Gilikan#002,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,N,,,,,agreed
+INS12Gilikan#003,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,N,,,,,agreed
+INS12Gilikan#004,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,Y,tamviṅ,tamvin,talaṅ,witness,agreed
+INS12Gilikan#005,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,Y,kasugihan,kasugihan,,witness,agreed
+INS12Gilikan#006,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,N,,,,,agreed
+INS12Gilikan#007,INS12Gilikan,901-1000,alias: xlsx Gilikan I 10th c.,Unlocated,Y,turu,turu,,witness,agreed
+INSIDENKAirKali#001,INSIDENKAirKali,928,title,East Java,N,,,,,agreed
+INSIDENKAyamTeas_I#001,INSIDENKAyamTeas_I,900,title,Kedu,Y,ayam təas,ayamteas,,sima,agreed
+INSIDENKAyamTeas_II#001,INSIDENKAyamTeas_II,901,xlsx CE,Other Central Java,N,,,,sima,adjudicated
+INSIDENKAyamTeas_III#001,INSIDENKAyamTeas_III,901,title,Other Central Java,Y,ayam təas,ayamteas,,sima,agreed
+INSIDENKBarahasrama#001,INSIDENKBarahasrama,915,title,Central Java (unspecific),Y,poḥ galuḥ,pohgaluh,layaṁ,sima,agreed
+INSIDENKBarahasrama#002,INSIDENKBarahasrama,915,title,Central Java (unspecific),Y,poḥ galuḥ,pohgaluh,layaṁ,sima,agreed
+INSIDENKBarahasrama#003,INSIDENKBarahasrama,915,title,Central Java (unspecific),Y,er kuviṁ,erkuvim,,sima,agreed
+INSIDENKBarahasrama#004,INSIDENKBarahasrama,915,title,Central Java (unspecific),Y,poḥ galuḥ,pohgaluh,,sima,agreed
+INSIDENKBarahasrama#005,INSIDENKBarahasrama,915,title,Central Java (unspecific),Y,poḥ galuḥ,pohgaluh,,sima,agreed
+INSIDENKBarahasrama#006,INSIDENKBarahasrama,915,title,Central Java (unspecific),Y,poḥ galuḥ,pohgaluh,,sima,agreed
+INSIDENKBarsahan#001,INSIDENKBarsahan,908,xlsx CE,Unlocated,N,,,,,agreed
+INSIDENKBhatari#001,INSIDENKBhatari,907,title,Central Java (unspecific),Y,mantyāsiḥ,mantyasih,makudur,witness,agreed
+INSIDENKBhatari#002,INSIDENKBhatari,907,title,Central Java (unspecific),Y,gunuṅan,gununan,taṅkilan,witness,agreed
+INSIDENKBhatari#003,INSIDENKBhatari,907,title,Central Java (unspecific),Y,turuvanban,turuvanban,tiru raṇu,witness,agreed
+INSIDENKBhatari#004,INSIDENKBhatari,907,title,Central Java (unspecific),Y,pās,pas,pās,witness,agreed
+INSIDENKBhatari#005,INSIDENKBhatari,907,title,Central Java (unspecific),Y,vuṅkuḍu,vunkudu,kilipan,witness,agreed
+INSIDENKBhatari#006,INSIDENKBhatari,907,title,Central Java (unspecific),Y,tuṅgu manoṅan,tungumanonan,,witness,adjudicated
+INSIDENKBhatari#007,INSIDENKBhatari,907,title,Central Java (unspecific),Y,ugiḥhan,ugihan,dalinan,witness,agreed
+INSIDENKBhatari#008,INSIDENKBhatari,907,title,Central Java (unspecific),Y,muṅgi,mungi,,witness,agreed
+INSIDENKBhatari#009,INSIDENKBhatari,907,title,Central Java (unspecific),Y,vatu antan,vatuantan,vatu antan,witness,agreed
+INSIDENKBhatari#010,INSIDENKBhatari,907,title,Central Java (unspecific),Y,rahu,rahu,turu hayu,witness,agreed
+INSIDENKDalinan#001,INSIDENKDalinan,903,title,Central Java (unspecific),Y,patapān,patapan,,other,agreed
+INSIDENKDalinan#002,INSIDENKDalinan,903,title,Central Java (unspecific),Y,vukajana,vukajana,kalaṁ vuṅkal,sima,agreed
+INSIDENKDalinan#003,INSIDENKDalinan,903,title,Central Java (unspecific),Y,dalinan,dalinan,husaḍar,sima,adjudicated
+INSIDENKDalinan#004,INSIDENKDalinan,903,title,Central Java (unspecific),Y,vukajana,vukajana,,sima,agreed
+INSIDENKDalinan#005,INSIDENKDalinan,903,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKDalinan#006,INSIDENKDalinan,903,title,Central Java (unspecific),Y,vukajana,vukajana,,sima,agreed
+INSIDENKDinoyoIIa#001,INSIDENKDinoyoIIa,864,title,East Java,N,,,,,agreed
+INSIDENKDisunuh#001,INSIDENKDisunuh,787,title,Unlocated,Y,ḍisunuḥ,disunuh,,sima,agreed
+INSIDENKGandasuli#001,INSIDENKGandasuli,701-800,title,Kedu,N,,,,,agreed
+INSIDENKGulungGulung#001,INSIDENKGulungGulung,929,title,East Java,N,,,,,agreed
+INSIDENKGulungGulung#002,INSIDENKGulungGulung,929,title,East Java,N,,,,,agreed
+INSIDENKGuntur#001,INSIDENKGuntur,907,xlsx CE,Kedu,Y,guntur,guntur,,other,agreed
+INSIDENKGuntur#002,INSIDENKGuntur,907,xlsx CE,Kedu,Y,pulu vatu,puluvatu,,other,agreed
+INSIDENKHarinjing#001,INSIDENKHarinjing,804-927,alias: xlsx Harinjing A/B/C 804/921/927 ambiguous,Unlocated,N,,,,,agreed
+INSIDENKHarinjing#002,INSIDENKHarinjing,804-927,alias: xlsx Harinjing A/B/C 804/921/927 ambiguous,Unlocated,N,,,,,agreed
+INSIDENKHarinjing#003,INSIDENKHarinjing,804-927,alias: xlsx Harinjing A/B/C 804/921/927 ambiguous,Unlocated,N,,,,,agreed
+INSIDENKHering#001,INSIDENKHering,948,title,East Java,N,,,,,agreed
+INSIDENKHujungGaluh-Sangsang#001,INSIDENKHujungGaluh-Sangsang,907,title,Unlocated,Y,saṁsaṁ,samsam,lamva,sima,agreed
+INSIDENKHujungGaluh-Sangsang#002,INSIDENKHujungGaluh-Sangsang,907,title,Unlocated,Y,hujuṅ galuḥ,hujungaluh,lamva,sima,adjudicated
+INSIDENKHujungGaluh-Sangsang#003,INSIDENKHujungGaluh-Sangsang,907,title,Unlocated,Y,saṁsaṁ,samsam,,sima,agreed
+INSIDENKHujungGaluh-Sangsang#004,INSIDENKHujungGaluh-Sangsang,907,title,Unlocated,N,,,,,agreed
+INSIDENKHujungGaluh-Sangsang#005,INSIDENKHujungGaluh-Sangsang,907,title,Unlocated,Y,kilipan,kilipan,,witness,agreed
+INSIDENKHumanding#001,INSIDENKHumanding,875,title,Kedu/Prambanan (E082 area label),Y,guntur,guntur,,boundary,adjudicated
+INSIDENKJamwi#001,INSIDENKJamwi,901-1000,alias: xlsx Sinaguha 10th c.? uncertain,Unlocated,N,,,,,agreed
+INSIDENKJamwi#002,INSIDENKJamwi,901-1000,alias: xlsx Sinaguha 10th c.? uncertain,Unlocated,Y,samalagi,samalagi,hasam pañjaṁ,witness,agreed
+INSIDENKJeruJeru#001,INSIDENKJeruJeru,930,title,East Java,Y,jru-jru,jrujru,,sima,agreed
+INSIDENKJeruJeru#002,INSIDENKJeruJeru,930,title,East Java,Y,liṅgasuntan,lingasuntan,hujuṁ,other,agreed
+INSIDENKJeruJeru#003,INSIDENKJeruJeru,930,title,East Java,N,,,,,agreed
+INSIDENKJeruJeru#004,INSIDENKJeruJeru,930,title,East Java,N,,,,,agreed
+INSIDENKJurungan#001,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKJurungan#002,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),Y,juruṅan,jurunan,,other,agreed
+INSIDENKJurungan#003,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKJurungan#004,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKJurungan#005,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKJurungan#006,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKJurungan#007,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKJurungan#008,INSIDENKJurungan,876,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKKaladi#001,INSIDENKKaladi,909,xlsx CE,East Java,N,,,,,agreed
+INSIDENKKaladi#002,INSIDENKKaladi,909,xlsx CE,East Java,N,,,,,agreed
+INSIDENKKandangan#001,INSIDENKKandangan,906,xlsx CE,Prambanan-Mataram,Y,kaṇḍaṅan,kandanan,,sima,agreed
+INSIDENKKandangan#002,INSIDENKKandangan,906,xlsx CE,Prambanan-Mataram,Y,er hijo,erhijo,vuṅkal,sima,agreed
+INSIDENKKandangan#003,INSIDENKKandangan,906,xlsx CE,Prambanan-Mataram,Y,kaṇḍaṅan,kandanan,,sima,agreed
+INSIDENKKandangan#004,INSIDENKKandangan,906,xlsx CE,Prambanan-Mataram,Y,vuṅkal tpat,vunkaltpat,,other,adjudicated
+INSIDENKKasugihan#001,INSIDENKKasugihan,907,title,Other Central Java,Y,kasugihan,kasugihan,,sima,agreed
+INSIDENKKasugihan#002,INSIDENKKasugihan,907,title,Other Central Java,Y,vatu-vatu,vatuvatu,pagar vsi,witness,agreed
+INSIDENKKasugihan#003,INSIDENKKasugihan,907,title,Other Central Java,Y,saninai,saninai,bunut-bunut,witness,agreed
+INSIDENKKasugihan#004,INSIDENKKasugihan,907,title,Other Central Java,Y,poḥ,poh,,witness,adjudicated
+INSIDENKKasugihan#005,INSIDENKKasugihan,907,title,Other Central Java,Y,valakay,valakay,valakas,witness,agreed
+INSIDENKKasugihan#006,INSIDENKKasugihan,907,title,Other Central Java,Y,vurakuṁ,vurakum,limvayan,witness,agreed
+INSIDENKKasugihan#007,INSIDENKKasugihan,907,title,Other Central Java,Y,taṅgalan,tangalan,jalinan,witness,agreed
+INSIDENKKasugihan#008,INSIDENKKasugihan,907,title,Other Central Java,Y,sahiḍan,sahidan,kilipan,witness,agreed
+INSIDENKKasugihan#009,INSIDENKKasugihan,907,title,Other Central Java,Y,kuraṁ pkan,kurampkan,sirikan,witness,agreed
+INSIDENKKasugihan#010,INSIDENKKasugihan,907,title,Other Central Java,Y,haji huma,hajihuma,patapān,witness,agreed
+INSIDENKKasugihan#011,INSIDENKKasugihan,907,title,Other Central Java,Y,karihuan,karihuan,,witness,agreed
+INSIDENKKasugihan#012,INSIDENKKasugihan,907,title,Other Central Java,Y,vugaṁ,vugam,tilimpik,witness,agreed
+INSIDENKKasugihan#013,INSIDENKKasugihan,907,title,Other Central Java,Y,vuru paṅguṁ,vurupangum,manimpiki,witness,agreed
+INSIDENKKasugihan#014,INSIDENKKasugihan,907,title,Other Central Java,Y,paṇḍamuan,pandamuan,ayam təAs,witness,agreed
+INSIDENKKasugihan#015,INSIDENKKasugihan,907,title,Other Central Java,Y,mira-miraḥ,mirahmirah,ayam təAs,witness,agreed
+INSIDENKKasugihan#016,INSIDENKKasugihan,907,title,Other Central Java,Y,paṇḍamuan,pandamuan,ayam təAs,witness,agreed
+INSIDENKKasugihan#017,INSIDENKKasugihan,907,title,Other Central Java,Y,kasugihan,kasugihan,,sima,agreed
+INSIDENKKayuAraHiwang#001,INSIDENKKayuAraHiwang,901,title,Unlocated,N,,,,other,adjudicated
+INSIDENKKayuAraHiwang#002,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,parivutan,parivutan,,other,agreed
+INSIDENKKayuAraHiwang#003,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,kayu āra hivaṁ,kayuarahivam,vatu tihaṁ,sima,agreed
+INSIDENKKayuAraHiwang#004,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,kayu ara hivaṁ,kayuarahivam,,sima,agreed
+INSIDENKKayuAraHiwang#005,INSIDENKKayuAraHiwang,901,title,Unlocated,N,,,,other,adjudicated
+INSIDENKKayuAraHiwang#006,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,kayu ara hivaṁ,kayuarahivam,,sima,agreed
+INSIDENKKayuAraHiwang#007,INSIDENKKayuAraHiwang,901,title,Unlocated,N,,,,other,adjudicated
+INSIDENKKayuAraHiwang#008,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,gulak,gulak,mamali-deśa,witness,agreed
+INSIDENKKayuAraHiwang#009,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,paraṅgaṁ,parangam,paraṅgaṁ,witness,agreed
+INSIDENKKayuAraHiwang#010,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,paḍa muan,padamuan,vadihati,witness,agreed
+INSIDENKKayuAraHiwang#011,INSIDENKKayuAraHiwang,901,title,Unlocated,N,,,,,agreed
+INSIDENKKayuAraHiwang#012,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,mantyasiḥ,mantyasih,makudur,witness,agreed
+INSIDENKKayuAraHiwang#013,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,mḍaṁ,mdam,makudur,witness,agreed
+INSIDENKKayuAraHiwang#014,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,pupur,pupur,vadihati,witness,agreed
+INSIDENKKayuAraHiwang#015,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,taji,taji,taji,witness,agreed
+INSIDENKKayuAraHiwang#016,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,kasugihan,kasugihan,ugihan,witness,agreed
+INSIDENKKayuAraHiwang#017,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,paṅgumulan,pangumulan,manuṅkuli,witness,agreed
+INSIDENKKayuAraHiwang#018,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,kalaṁkyaṁ,kalamkyam,pagar vsi,witness,agreed
+INSIDENKKayuAraHiwang#019,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,sumumilak,sumumilak,vka,witness,agreed
+INSIDENKKayuAraHiwang#020,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,poha,poha,vka,witness,agreed
+INSIDENKKayuAraHiwang#021,INSIDENKKayuAraHiwang,901,title,Unlocated,Y,koluṅan,kolunan,vka,witness,agreed
+INSIDENKKayumwungan#001,INSIDENKKayumwungan,824,title,Unlocated,Y,ji,ji,,witness,agreed
+INSIDENKKayumwungan#002,INSIDENKKayumwungan,824,title,Unlocated,Y,valiṁbiṁ,valimbim,,witness,agreed
+INSIDENKKayumwungan#003,INSIDENKKayumwungan,824,title,Unlocated,N,,,,witness,adjudicated
+INSIDENKKayumwungan#004,INSIDENKKayumwungan,824,title,Unlocated,Y,tyusan,tyusan,,witness,agreed
+INSIDENKKayumwungan#005,INSIDENKKayumwungan,824,title,Unlocated,Y,tri haji,trihaji,,witness,agreed
+INSIDENKKayumwungan#006,INSIDENKKayumwungan,824,title,Unlocated,Y,tri haji,trihaji,,witness,agreed
+INSIDENKKiringan#001,INSIDENKKiringan,917,title,Unlocated,Y,vuga,vuga,pəAr,other,agreed
+INSIDENKKiringan#002,INSIDENKKiringan,917,title,Unlocated,Y,kiriṅan,kirinan,,sima,agreed
+INSIDENKKiringan#003,INSIDENKKiringan,917,title,Unlocated,Y,kiriṅan,kirinan,,sima,agreed
+INSIDENKKiringan#004,INSIDENKKiringan,917,title,Unlocated,Y,joho,joho,,witness,agreed
+INSIDENKKiringan#005,INSIDENKKiringan,917,title,Unlocated,Y,kavuṅ-kavuṁ,kavunkavum,vatu humalaṁ,witness,agreed
+INSIDENKKiringan#006,INSIDENKKiringan,917,title,Unlocated,Y,vulakan,vulakan,taṅkilan,witness,agreed
+INSIDENKKiringan#007,INSIDENKKiringan,917,title,Unlocated,Y,bākul,bakul,lampyar,witness,agreed
+INSIDENKKiringan#008,INSIDENKKiringan,917,title,Unlocated,Y,bākul,bakul,lampyar,witness,agreed
+INSIDENKKiringan#009,INSIDENKKiringan,917,title,Unlocated,Y,lāḍahu,ladahu,,witness,agreed
+INSIDENKKiringan#010,INSIDENKKiringan,917,title,Unlocated,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKKiringan#011,INSIDENKKiringan,917,title,Unlocated,Y,siṇaguha,sinaguha,siṇaguha,witness,agreed
+INSIDENKKiringan#012,INSIDENKKiringan,917,title,Unlocated,Y,kiriṅan,kirinan,,sima,agreed
+INSIDENKKiringan#013,INSIDENKKiringan,917,title,Unlocated,Y,taṅgalan,tangalan,dalinan,witness,agreed
+INSIDENKKiringan#014,INSIDENKKiringan,917,title,Unlocated,Y,joho,joho,,witness,agreed
+INSIDENKKiringan#015,INSIDENKKiringan,917,title,Unlocated,Y,kavuṁ-kavuṁ,kavumkavum,vatu humalaṁ,witness,agreed
+INSIDENKKubu-Kubu#001,INSIDENKKubu-Kubu,905,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKKubu-Kubu#002,INSIDENKKubu-Kubu,905,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKKubu-Kubu#003,INSIDENKKubu-Kubu,905,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKKubu-Kubu#004,INSIDENKKubu-Kubu,905,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKKurungan#001,INSIDENKKurungan,885,alias: xlsx Randusari II 807 Saka (?),Prambanan-Mataram,Y,parhyaṅan,parhyanan,,sima,adjudicated
+INSIDENKKurungan#002,INSIDENKKurungan,885,alias: xlsx Randusari II 807 Saka (?),Prambanan-Mataram,Y,kavaṅyan,kavanyan,,witness,agreed
+INSIDENKKurungan#003,INSIDENKKurungan,885,alias: xlsx Randusari II 807 Saka (?),Prambanan-Mataram,Y,galuḥ,galuh,,witness,agreed
+INSIDENKKurungan#004,INSIDENKKurungan,885,alias: xlsx Randusari II 807 Saka (?),Prambanan-Mataram,Y,vuru tuṅgal,vurutungal,,witness,agreed
+INSIDENKLinggasuntan#001,INSIDENKLinggasuntan,929,title,East Java,Y,liṅgasuntan,lingasuntan,hujuṁ,sima,agreed
+INSIDENKLinggasuntan#002,INSIDENKLinggasuntan,929,title,East Java,Y,liṅgasuntan,lingasuntan,,sima,agreed
+INSIDENKLinggasuntan#003,INSIDENKLinggasuntan,929,title,East Java,N,,,,,agreed
+INSIDENKLinggasuntan#004,INSIDENKLinggasuntan,929,title,East Java,Y,liṅgasuntan,lingasuntan,,sima,agreed
+INSIDENKLinggasuntan#005,INSIDENKLinggasuntan,929,title,East Java,Y,liṅgasuntan,lingasuntan,,sima,agreed
+INSIDENKLinggasuntan#006,INSIDENKLinggasuntan,929,title,East Java,Y,liṅgasuntan,lingasuntan,,sima,agreed
+INSIDENKLinggasuntan#007,INSIDENKLinggasuntan,929,title,East Java,Y,liṅgasuntan,lingasuntan,,sima,agreed
+INSIDENKLintakan#001,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,mira-miraḥ,mirahmirah,,witness,agreed
+INSIDENKLintakan#002,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,ḍatar,datar,ḍatar,witness,agreed
+INSIDENKLintakan#003,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,kinaliṁ,kinalim,,witness,agreed
+INSIDENKLintakan#004,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,puluṁ,pulum,makudur,witness,agreed
+INSIDENKLintakan#005,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,sumbhāgi,sumbhagi,paṁhr̥mban,witness,agreed
+INSIDENKLintakan#006,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,juruṅan,jurunan,pagar vsi,witness,agreed
+INSIDENKLintakan#007,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,vuṅkuḍu,vunkudu,kilipan,witness,agreed
+INSIDENKLintakan#008,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,hilyan,hilyan,padlagan,witness,agreed
+INSIDENKLintakan#009,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,tamyaṁ,tamyam,,witness,adjudicated
+INSIDENKLintakan#010,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,srāṅan,sranan,srāṅan,witness,agreed
+INSIDENKLintakan#011,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,huntu,huntu,putad ḍaṇu,witness,agreed
+INSIDENKLintakan#012,INSIDENKLintakan,919,title,Prambanan-Mataram,?,siddhakāryya,sidhakarya,,witness,adjudicated
+INSIDENKLintakan#013,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,jahayan,jahayan,halu,witness,agreed
+INSIDENKLintakan#014,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,sumuḍaḥ,sumudah,əḍəṅan,witness,agreed
+INSIDENKLintakan#015,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,muntaṁ,muntam,upit,witness,agreed
+INSIDENKLintakan#016,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,ra kadut,rakadut,ra nyu,witness,agreed
+INSIDENKLintakan#017,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,maṅguluṅi,manguluni,maṅguluṅi,witness,agreed
+INSIDENKLintakan#018,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,mataram,mataram,kahulunan,witness,agreed
+INSIDENKLintakan#019,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,kabanyāgān,kabanyagan,,witness,agreed
+INSIDENKLintakan#020,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,vuga,vuga,pəAr,witness,agreed
+INSIDENKLintakan#021,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,mandahi,mandahi,mandahi,witness,agreed
+INSIDENKLintakan#022,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,kahuripan,kahuripan,pagar vsi,witness,agreed
+INSIDENKLintakan#023,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,talaga,talaga,mamrati,witness,agreed
+INSIDENKLintakan#024,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,vər̥ḥnya,virhnya,tilimpik,witness,agreed
+INSIDENKLintakan#025,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,lua,lua,luA,witness,agreed
+INSIDENKLintakan#026,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,lua,lua,tañjuṁ,witness,agreed
+INSIDENKLintakan#027,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,panavuṅan,panavunan,tirip,witness,agreed
+INSIDENKLintakan#028,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,skar amvay,skaramvay,,witness,agreed
+INSIDENKLintakan#029,INSIDENKLintakan,919,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKLintakan#030,INSIDENKLintakan,919,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKLintakan#031,INSIDENKLintakan,919,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKLintakan#032,INSIDENKLintakan,919,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKLintakan#033,INSIDENKLintakan,919,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKLintakan#034,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,gilikan,gilikan,,other,agreed
+INSIDENKLintakan#035,INSIDENKLintakan,919,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKLintakan#036,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,paglutan,paglutan,tiru ranu,witness,agreed
+INSIDENKLintakan#037,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,kahutanan,kahutanan,mataram,witness,agreed
+INSIDENKLintakan#038,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,maṅəvəl,manevel,aṅgul,witness,agreed
+INSIDENKLintakan#039,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,vəṅkal,venkal,dalinan,witness,agreed
+INSIDENKLintakan#040,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,paniruan,paniruan,paṅgil hyaṁ,witness,agreed
+INSIDENKLintakan#041,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,pakalaṅkyaṅan,pakalamkyanan,pagar vsi,witness,agreed
+INSIDENKLintakan#042,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,vatu-vatu,vatuvatu,vatu-vatu,witness,agreed
+INSIDENKLintakan#043,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,kaṇḍaṁ,kandam,paku vaṅi,witness,agreed
+INSIDENKLintakan#044,INSIDENKLintakan,919,title,Prambanan-Mataram,Y,tər̥nəḥ,terneh,taṅkil,witness,agreed
+INSIDENKLuitan#001,INSIDENKLuitan,901,xlsx CE,Other Central Java,Y,luītan,luitan,kapuṁ,sima,agreed
+INSIDENKLuitan#002,INSIDENKLuitan,901,xlsx CE,Other Central Java,Y,kataṅgaran,katangaran,kataṅgaran,witness,agreed
+INSIDENKMamali#001,INSIDENKMamali,878,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKMamali#002,INSIDENKMamali,878,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKMamali#003,INSIDENKMamali,878,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKMamali#004,INSIDENKMamali,878,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKMamali#005,INSIDENKMamali,878,title,Kedu/Prambanan (E082 area label),N,,,,,agreed
+INSIDENKMantyasihI#001,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,mantyāsiḥ,mantyasih,,sima,agreed
+INSIDENKMantyasihI#002,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,kuniṁ,kunim,,sima,adjudicated
+INSIDENKMantyasihI#003,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,kuniṁ,kunim,,sima,agreed
+INSIDENKMantyasihI#004,INSIDENKMantyasihI,907,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKMantyasihI#005,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,miraḥ-miraḥ,mirahmirah,ayam təAs,witness,agreed
+INSIDENKMantyasihI#006,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,paṇḍamuan,pandamuan,Ayam təAs,witness,agreed
+INSIDENKMantyasihI#007,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,vaduṁ poḥ,vadumpoh,paṅkur poḥ,witness,agreed
+INSIDENKMantyasihI#008,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,kataṅguhan,katanguhan,haməAs,witness,agreed
+INSIDENKMantyasihI#009,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKMantyasihI#010,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,sumaṅka,sumanka,kaluṁ barak,witness,agreed
+INSIDENKMantyasihI#011,INSIDENKMantyasihI,907,xlsx CE,Kedu,?,vḍi,vdi,,witness,adjudicated
+INSIDENKMantyasihI#012,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,sumaṅka,sumanka,taṅkil sugiḥ,witness,agreed
+INSIDENKMantyasihI#013,INSIDENKMantyasihI,907,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKMantyasihI#014,INSIDENKMantyasihI,907,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKMantyasihI#015,INSIDENKMantyasihI,907,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKMantyasihI#016,INSIDENKMantyasihI,907,xlsx CE,Kedu,Y,mantyāsiḥ,mantyasih,,sima,agreed
+INSIDENKMantyasihII#001,INSIDENKMantyasihII,907,title,Other Central Java,Y,mantyasih,mantyasih,,sima,agreed
+INSIDENKMantyasihII#002,INSIDENKMantyasihII,907,title,Other Central Java,Y,kuniṁ,kunim,,sima,adjudicated
+INSIDENKMantyasihIII#001,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,miraḥ-miraḥ,mirahmirah,ayam təAs,witness,adjudicated
+INSIDENKMantyasihIII#002,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,paṇḍamuan,pandamuan,Ayam təR̥b,witness,agreed
+INSIDENKMantyasihIII#003,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,vaduṁ poḥ,vadumpoh,paṅkur poḥ,witness,agreed
+INSIDENKMantyasihIII#004,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,katguhan,katguhan,haməAs,witness,agreed
+INSIDENKMantyasihIII#005,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKMantyasihIII#006,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,sumaṅka,sumanka,kaluṁ varak,witness,agreed
+INSIDENKMantyasihIII#007,INSIDENKMantyasihIII,907,xlsx CE,Kedu,?,vḍi,vdi,,witness,adjudicated
+INSIDENKMantyasihIII#008,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,sumaṅka,sumanka,taṅkil sugiḥ,witness,agreed
+INSIDENKMantyasihIII#009,INSIDENKMantyasihIII,907,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKMantyasihIII#010,INSIDENKMantyasihIII,907,xlsx CE,Kedu,?,magəṁ,magem,,boundary,adjudicated
+INSIDENKMantyasihIII#011,INSIDENKMantyasihIII,907,xlsx CE,Kedu,?,maḍmit,madmit,,boundary,adjudicated
+INSIDENKMantyasihIII#012,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,mantyāsiḥ,mantyasih,,sima,agreed
+INSIDENKMantyasihIII#013,INSIDENKMantyasihIII,907,xlsx CE,Kedu,Y,kuniṁ,kunim,,sima,adjudicated
+INSIDENKMarsemu#001,INSIDENKMarsemu,875,title,Unlocated,Y,marsmu,marsmu,,sima,agreed
+INSIDENKMasahar#001,INSIDENKMasahar,930,title,East Java,N,,,,,agreed
+INSIDENKMasahar#002,INSIDENKMasahar,930,title,East Java,N,,,,,agreed
+INSIDENKMasahar#003,INSIDENKMasahar,930,title,East Java,Y,masahar,masahar,,sima,agreed
+INSIDENKMasahar#004,INSIDENKMasahar,930,title,East Java,N,,,,,agreed
+INSIDENKMasahar#005,INSIDENKMasahar,930,title,East Java,N,,,,,agreed
+INSIDENKMasahar#006,INSIDENKMasahar,930,title,East Java,N,,,,,agreed
+INSIDENKPalepangan#001,INSIDENKPalepangan,906,title,Kedu,N,,,,,agreed
+INSIDENKPalepangan#002,INSIDENKPalepangan,906,title,Kedu,Y,srāṅan,sranan,,witness,agreed
+INSIDENKPalepangan#003,INSIDENKPalepangan,906,title,Kedu,Y,syutan,syutan,tiru raṇu,witness,agreed
+INSIDENKPalepangan#004,INSIDENKPalepangan,906,title,Kedu,N,,,,,agreed
+INSIDENKPalepangan#005,INSIDENKPalepangan,906,title,Kedu,Y,lampahan,lampahan,,other,agreed
+INSIDENKPananggaran#001,INSIDENKPananggaran,869,title,Prambanan-Mataram,Y,muṅgv antan,mungvantan,tira,witness,agreed
+INSIDENKPananggaran#002,INSIDENKPananggaran,869,title,Prambanan-Mataram,Y,panaṅgaran,panangaran,,sima,agreed
+INSIDENKPanggumulanA#001,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,vuatan sugiḥ,vuatansugih,vulakan,other,adjudicated
+INSIDENKPanggumulanA#002,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṅgumulan,pangumulan,pulu vatu,sima,agreed
+INSIDENKPanggumulanA#003,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#004,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paməhaṅan,pamehanan,,other,adjudicated
+INSIDENKPanggumulanA#005,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,cukulan,cukulan,tilimpik,witness,agreed
+INSIDENKPanggumulanA#006,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,babahan,babahan,pulu vatu,witness,agreed
+INSIDENKPanggumulanA#007,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṁramuan,pamramuan,vadihati,witness,agreed
+INSIDENKPanggumulanA#008,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,mantyāsiḥ,mantyasih,makudur,witness,agreed
+INSIDENKPanggumulanA#009,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKPanggumulanA#010,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,palikət,paliket,makudur,witness,agreed
+INSIDENKPanggumulanA#011,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,gunuṅan,gununan,taṅkil,witness,agreed
+INSIDENKPanggumulanA#012,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,tamaliṅgaṁ,tamalingam,sirikan,witness,agreed
+INSIDENKPanggumulanA#013,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,pakalaṁkyaṅan,pakalamkyanan,pagar vsi,witness,agreed
+INSIDENKPanggumulanA#014,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,siṅha,sinha,hino,witness,agreed
+INSIDENKPanggumulanA#015,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,limus,limus,pulu vatu,witness,agreed
+INSIDENKPanggumulanA#016,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,skar tān,skartan,layu vataṁ,witness,agreed
+INSIDENKPanggumulanA#017,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,vanua tṅaḥ,vanuatnah,vuru tuṅgal,witness,adjudicated
+INSIDENKPanggumulanA#018,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,vanua tṅaḥ,vanuatnah,vuru tuṅgal,witness,adjudicated
+INSIDENKPanggumulanA#019,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,vuṅkuḍu,vunkudu,kilipan,witness,agreed
+INSIDENKPanggumulanA#020,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,tulumpuk,tulumpuk,kaṇḍuḥ,witness,agreed
+INSIDENKPanggumulanA#021,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṅaruhan,panaruhan,,witness,agreed
+INSIDENKPanggumulanA#022,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,vukulan,vukulan,tilimpik,witness,agreed
+INSIDENKPanggumulanA#023,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,siṅhapura,sinhapura,halu madāṁ,witness,agreed
+INSIDENKPanggumulanA#024,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,rilam,rilam,aluhur,witness,agreed
+INSIDENKPanggumulanA#025,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,srai,srai,hampuṅan,witness,agreed
+INSIDENKPanggumulanA#026,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paraṁ,param,,witness,agreed
+INSIDENKPanggumulanA#027,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,ra lua,ralua,vuru tuṅgal,witness,agreed
+INSIDENKPanggumulanA#028,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,vuatan pai,vuatanpai,vatu humalaṁ,witness,agreed
+INSIDENKPanggumulanA#029,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṅgumulan,pangumulan,,sima,adjudicated
+INSIDENKPanggumulanA#030,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#031,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#032,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#033,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#034,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#035,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṅgumulan,pangumulan,,sima,agreed
+INSIDENKPanggumulanA#036,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#037,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPanggumulanA#038,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṅgumulan,pangumulan,pulu vatu,sima,agreed
+INSIDENKPanggumulanA#039,INSIDENKPanggumulanA,902,alias: xlsx Panggumulan I/A 824 Saka,Prambanan-Mataram,Y,paṅgumulan,pangumulan,pulu vatu,sima,agreed
+INSIDENKPanunggalan#001,INSIDENKPanunggalan,896,title,Other Central Java,Y,priṁ suṅudan,primsunudan,,witness,agreed
+INSIDENKPanunggalan#002,INSIDENKPanunggalan,896,title,Other Central Java,Y,rayun haruan,rayunharuan,,witness,agreed
+INSIDENKPanunggalan#003,INSIDENKPanunggalan,896,title,Other Central Java,Y,air pəluṁ ḍəṇḍa,airpelumdenda,,witness,adjudicated
+INSIDENKPanunggalan#004,INSIDENKPanunggalan,896,title,Other Central Java,Y,brahmā marhyaṁ,brahmamarhyam,,witness,adjudicated
+INSIDENKPasanggrahan#001,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,?,ṇḍar,ndar,,witness,adjudicated
+INSIDENKPasanggrahan#002,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,vuṅkuḍu,vunkudu,kilipan,witness,agreed
+INSIDENKPasanggrahan#003,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,hinapit,hinapit,vka,witness,agreed
+INSIDENKPasanggrahan#004,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,ra lua,ralua,vuru siki,witness,agreed
+INSIDENKPasanggrahan#005,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,nuatan pe,nuatanpe,,witness,agreed
+INSIDENKPasanggrahan#006,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,vuatan pe,vuatanpai,vatu humalaṁ,witness,agreed
+INSIDENKPasanggrahan#007,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,gilikan,gilikan,mamrati,witness,agreed
+INSIDENKPasanggrahan#008,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,vuluyu,vuluyu,tiruAn,witness,agreed
+INSIDENKPasanggrahan#009,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,paṅunṅan tvaḍa,panunantvada,,witness,adjudicated
+INSIDENKPasanggrahan#010,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,laṅkavan,lankavan,pagar vsi,witness,agreed
+INSIDENKPasanggrahan#011,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,?,,,,witness,adjudicated
+INSIDENKPasanggrahan#012,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,paraan,paran,vadihati,witness,agreed
+INSIDENKPasanggrahan#013,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,?,mamanar,mamanar,,witness,adjudicated
+INSIDENKPasanggrahan#014,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,makur,makur,,witness,agreed
+INSIDENKPasanggrahan#015,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,kahaṅitan,kahanitan,məAn,witness,agreed
+INSIDENKPasanggrahan#016,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,matgal,matgal,,witness,agreed
+INSIDENKPasanggrahan#017,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,turai,turai,turai,witness,agreed
+INSIDENKPasanggrahan#018,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,gunuṅan,gununan,taṅkilan,witness,agreed
+INSIDENKPasanggrahan#019,INSIDENKPasanggrahan,900-910,alias: title ca. 900-910,Unlocated,Y,paravutan,parivutan,tiru raṇu,witness,agreed
+INSIDENKPoh#001,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,poḥ,poh,,sima,agreed
+INSIDENKPoh#002,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,rumasan,rumasan,kinivaṁ,sima,agreed
+INSIDENKPoh#003,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#004,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#005,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kavu,kavu,,witness,agreed
+INSIDENKPoh#006,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,mira-miraḥ,mirahmirah,vadihati,witness,agreed
+INSIDENKPoh#007,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,paṁramvan,pamramuan,vadihati,witness,agreed
+INSIDENKPoh#008,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,mantyāsiḥ,mantyasih,makudur,witness,agreed
+INSIDENKPoh#009,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kahaṅatan,kahanatan,hamyas,witness,agreed
+INSIDENKPoh#010,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,gunuṅan,gununan,taṅkilan,witness,agreed
+INSIDENKPoh#011,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,?,taṅkilan,tankilan,,witness,adjudicated
+INSIDENKPoh#012,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,paṇḍavutan,pandavutan,tiru rāṇu,witness,agreed
+INSIDENKPoh#013,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,truvanban,turuvanban,tiru rāṇu,witness,agreed
+INSIDENKPoh#014,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,pās tamvir,pastamvir,,witness,adjudicated
+INSIDENKPoh#015,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,skar ttān,skartan,layu vataṁ,witness,agreed
+INSIDENKPoh#016,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vanua tṅaḥ,vanuatnah,vuru siki,witness,adjudicated
+INSIDENKPoh#017,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vanua tṅaḥ,vanuatnah,vuru siki,witness,adjudicated
+INSIDENKPoh#018,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vuṅkuḍu,vunkudu,kilipan,witness,agreed
+INSIDENKPoh#019,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#020,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,hinapit,hinapit,vka,witness,agreed
+INSIDENKPoh#021,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vvatan,vatan,dalinan,witness,agreed
+INSIDENKPoh#022,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,tuṅgu manoṅan,tungumanonan,,witness,adjudicated
+INSIDENKPoh#023,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,hinapit,hinapit,vka,witness,agreed
+INSIDENKPoh#024,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,siṁhapura,simhapura,halu madāṁ,witness,agreed
+INSIDENKPoh#025,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,ralua,ralua,vuru siki,witness,agreed
+INSIDENKPoh#026,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,ugihan,ugihan,dalinan,witness,agreed
+INSIDENKPoh#027,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,taṅkilan,tankilan,mamrati,witness,agreed
+INSIDENKPoh#028,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,varak-varak,varakvarak,hino,witness,agreed
+INSIDENKPoh#029,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,marumvi,marumvi,hino,witness,agreed
+INSIDENKPoh#030,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,paməhaṅan,pamehanan,manimpiki,witness,agreed
+INSIDENKPoh#031,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,siṅhapura,sinhapura,halu,witness,agreed
+INSIDENKPoh#032,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,samalagi,samalagi,asam pañjaṁ,witness,agreed
+INSIDENKPoh#033,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,glaṁ-glaṁ,glamglam,kalum varak,witness,agreed
+INSIDENKPoh#034,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,tarum vajaṁ,tarumvajam,hino,witness,agreed
+INSIDENKPoh#035,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,matṅər patīrthān,matnerpatirthan,,witness,adjudicated
+INSIDENKPoh#036,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kahuripan,kahuripan,lunturan,witness,agreed
+INSIDENKPoh#037,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kavu,kavu,,witness,agreed
+INSIDENKPoh#038,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vuaṁ kalaṁ,vuamkalam,kinivaṁ,witness,agreed
+INSIDENKPoh#039,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vvaraṁ,vram,talaṁ,witness,agreed
+INSIDENKPoh#040,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kilipan,kilipan,kilipan,witness,agreed
+INSIDENKPoh#041,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kaṇḍaṁ,kandam,valakas,witness,agreed
+INSIDENKPoh#042,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,tamyaṁ,tamyam,paku vaṅi,witness,agreed
+INSIDENKPoh#043,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,tuṅguyuṁ,tunguyum,kinivaṁ,witness,agreed
+INSIDENKPoh#044,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,tarum bajaṁ,tarumvajam,,witness,agreed
+INSIDENKPoh#045,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kilipan,kilipan,kinivaṁ,witness,agreed
+INSIDENKPoh#046,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vinaṅun,vinanun,kinivaṁ,witness,agreed
+INSIDENKPoh#047,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,səaṁ,seam,,witness,agreed
+INSIDENKPoh#048,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,səaṁ,seam,,witness,agreed
+INSIDENKPoh#049,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vinaṅun,vinanun,kinivaṁ,witness,agreed
+INSIDENKPoh#050,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#051,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,poḥ,poh,,sima,agreed
+INSIDENKPoh#052,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#053,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,pulai,pulai,galaṁ,witness,agreed
+INSIDENKPoh#054,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#055,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vtuan,vtuan,kinivaṁ,witness,agreed
+INSIDENKPoh#056,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#057,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,dadam,dadam,,witness,agreed
+INSIDENKPoh#058,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#059,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vuaṁṅ hijo,vuamnhijo,luvakan,witness,agreed
+INSIDENKPoh#060,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,sukup,sukup,,witness,agreed
+INSIDENKPoh#061,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#062,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,kasisap,kasisap,kayo,witness,agreed
+INSIDENKPoh#063,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,paskaran,paskaran,laṅitan,witness,agreed
+INSIDENKPoh#064,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,sampū,sampu,,witness,agreed
+INSIDENKPoh#065,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,səaṁ,seam,,witness,agreed
+INSIDENKPoh#066,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,buṅur,bunur,kinivaṁ,witness,agreed
+INSIDENKPoh#067,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#068,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,N,,,,,agreed
+INSIDENKPoh#069,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vaduri,vaduri,rumviga,witness,agreed
+INSIDENKPoh#070,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vraṁ,vram,,witness,agreed
+INSIDENKPoh#071,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,maho,maho,vka,witness,agreed
+INSIDENKPoh#072,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,marhyaṁ,marhyam,,other,adjudicated
+INSIDENKPoh#073,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,ra vuaṁ,ravuam,kinivaṁ,witness,agreed
+INSIDENKPoh#074,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,vuaṁ vulu,vuamvulu,luvakan,witness,agreed
+INSIDENKPoh#075,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,ra poḥ,rapoh,,witness,agreed
+INSIDENKPoh#076,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,hināṅan,hinanan,luvakan,witness,agreed
+INSIDENKPoh#077,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,hijo,hijo,luvakan,witness,agreed
+INSIDENKPoh#078,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,savyan,savyan,kinivaṁ,witness,agreed
+INSIDENKPoh#079,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,tira,tira,mḍaṁ,witness,agreed
+INSIDENKPoh#080,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,rasuk,rasuk,luvakan,witness,agreed
+INSIDENKPoh#081,INSIDENKPoh,905,alias: xlsx Poh/Randusari I 827 Saka,Prambanan-Mataram,Y,luṁlaṁ,lumlam,tnəp,witness,agreed
+INSIDENKRampal#001,INSIDENKRampal,875,title,Unlocated,N,,,,,agreed
+INSIDENKRampal#002,INSIDENKRampal,875,title,Unlocated,Y,skar rava,skarava,,other,agreed
+INSIDENKRukam#001,INSIDENKRukam,907,title,Kedu,Y,rukam,rukam,,sima,agreed
+INSIDENKRukam#002,INSIDENKRukam,907,title,Kedu,?,jro,jro,,sima,adjudicated
+INSIDENKRukam#003,INSIDENKRukam,907,title,Kedu,Y,mira-miraḥ,mirahmirah,vadihati,witness,agreed
+INSIDENKRukam#004,INSIDENKRukam,907,title,Kedu,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKRukam#005,INSIDENKRukam,907,title,Kedu,Y,mantyāsiḥ,mantyasih,makudur,witness,agreed
+INSIDENKRukam#006,INSIDENKRukam,907,title,Kedu,Y,kahaṅattan,kahanatan,haməAs,witness,agreed
+INSIDENKRukam#007,INSIDENKRukam,907,title,Kedu,Y,gunuṁṅan,gununan,taṁkilan,witness,agreed
+INSIDENKRukam#008,INSIDENKRukam,907,title,Kedu,Y,tamaliṅgaṁ,tamalingam,sirikan,witness,agreed
+INSIDENKRukam#009,INSIDENKRukam,907,title,Kedu,Y,paṇḍavuttan,pandavutan,tiru raṇu,witness,agreed
+INSIDENKRukam#010,INSIDENKRukam,907,title,Kedu,Y,turuvanban,turuvanban,tiru raṇu,witness,agreed
+INSIDENKRukam#011,INSIDENKRukam,907,title,Kedu,Y,pās,pas,pās,witness,agreed
+INSIDENKRukam#012,INSIDENKRukam,907,title,Kedu,Y,skar tāl,skartal,layu vataṁ,witness,agreed
+INSIDENKRukam#013,INSIDENKRukam,907,title,Kedu,Y,vanua tṅaḥ,vanuatnah,vuru siki,witness,adjudicated
+INSIDENKRukam#014,INSIDENKRukam,907,title,Kedu,Y,vanua tṅaḥ,vanuatnah,vuru siki,witness,adjudicated
+INSIDENKRukam#015,INSIDENKRukam,907,title,Kedu,Y,vuṅkuḍu,vunkudu,kilipan,witness,agreed
+INSIDENKRukam#016,INSIDENKRukam,907,title,Kedu,N,,,,,agreed
+INSIDENKRukam#017,INSIDENKRukam,907,title,Kedu,Y,hinapit,hinapit,vka,witness,agreed
+INSIDENKRukam#018,INSIDENKRukam,907,title,Kedu,Y,vuatan,vuatan,dalinan,witness,agreed
+INSIDENKRukam#019,INSIDENKRukam,907,title,Kedu,Y,tuṅgu manoṅan,tungumanonan,,witness,adjudicated
+INSIDENKRukam#020,INSIDENKRukam,907,title,Kedu,Y,hihapit,hihapit,vka,witness,agreed
+INSIDENKRukam#021,INSIDENKRukam,907,title,Kedu,Y,siṅhapura,sinhapura,mamrati,witness,agreed
+INSIDENKRukam#022,INSIDENKRukam,907,title,Kedu,Y,ra lua,ralua,vuru sisiki,witness,agreed
+INSIDENKRukam#023,INSIDENKRukam,907,title,Kedu,Y,ugihan,ugihan,dalinan,witness,agreed
+INSIDENKRukam#024,INSIDENKRukam,907,title,Kedu,Y,ra lua,ralua,vuru siki,witness,agreed
+INSIDENKRukam#025,INSIDENKRukam,907,title,Kedu,Y,muṅgi,mungi,,witness,agreed
+INSIDENKRukam#026,INSIDENKRukam,907,title,Kedu,Y,vatu antan,vatuantan,vatu antan,witness,agreed
+INSIDENKRukam#027,INSIDENKRukam,907,title,Kedu,Y,mira-miraḥ,mirahmirah,vadihati,witness,agreed
+INSIDENKRukam#028,INSIDENKRukam,907,title,Kedu,Y,hopra,hopra,pikatan,witness,agreed
+INSIDENKRukam#029,INSIDENKRukam,907,title,Kedu,N,,,,,agreed
+INSIDENKRukam#030,INSIDENKRukam,907,title,Kedu,Y,rukam,rukam,,sima,agreed
+INSIDENKRukam#031,INSIDENKRukam,907,title,Kedu,Y,kənər,kener,kənər,witness,agreed
+INSIDENKRukam#032,INSIDENKRukam,907,title,Kedu,Y,mataram,mataram,,witness,agreed
+INSIDENKRumwigaI#001,INSIDENKRumwigaI,904,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKRumwigaI#002,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,viru-viru,viruviru,sigaran,witness,agreed
+INSIDENKRumwigaI#003,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,rumviga,rumviga,,witness,agreed
+INSIDENKRumwigaI#004,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,viru-viru,viruviru,sigaran,witness,agreed
+INSIDENKRumwigaI#005,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,kaḍotan,kadotan,taṅunan,witness,agreed
+INSIDENKRumwigaI#006,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,pakudākan,pakudakan,hino,witness,agreed
+INSIDENKRumwigaI#007,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,tumapal,tumapal,vintrəṁ,witness,agreed
+INSIDENKRumwigaI#008,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,rumviga,rumviga,,sima,agreed
+INSIDENKRumwigaI#009,INSIDENKRumwigaI,904,title,Prambanan-Mataram,?,juvuṁ,juvum,,witness,adjudicated
+INSIDENKRumwigaI#010,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,rumviga,rumviga,,sima,agreed
+INSIDENKRumwigaI#011,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,turu haji,turuhaji,hino,witness,agreed
+INSIDENKRumwigaI#012,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,paṁḍamuan,pandamuan,ayaṁ təAs,witness,agreed
+INSIDENKRumwigaI#013,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,mira-miraḥ,mirahmirah,,witness,agreed
+INSIDENKRumwigaI#014,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,paṇḍamuan,pandamuan,ayaṁ təAs,witness,agreed
+INSIDENKRumwigaI#015,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,turu ayun,turuayun,sigaran,witness,agreed
+INSIDENKRumwigaI#016,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,maṁgīgī,mamgigi,hamyas,witness,agreed
+INSIDENKRumwigaI#017,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,vaduri,vaduri,rumviga,witness,agreed
+INSIDENKRumwigaI#018,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,paṁgumulan,pangumulan,paṁgumulan,witness,agreed
+INSIDENKRumwigaI#019,INSIDENKRumwigaI,904,title,Prambanan-Mataram,Y,rumviga,rumviga,,sima,agreed
+INSIDENKRumwigaII#001,INSIDENKRumwigaII,905,title,Prambanan-Mataram,Y,rumviga,rumviga,,sima,agreed
+INSIDENKRumwigaII#002,INSIDENKRumwigaII,905,title,Prambanan-Mataram,Y,taṅkilan,tankilan,taṅkilan,witness,agreed
+INSIDENKRumwigaII#003,INSIDENKRumwigaII,905,title,Prambanan-Mataram,Y,ampukan,ampukan,dalinan,witness,agreed
+INSIDENKRumwigaII#004,INSIDENKRumwigaII,905,title,Prambanan-Mataram,Y,tumapəl,tumapal,bintr̥ṁ,witness,agreed
+INSIDENKSalingsinganII#001,INSIDENKSalingsinganII,880,title,Unlocated,N,,,,,agreed
+INSIDENKSamalagi#001,INSIDENKSamalagi,902,title,Unlocated,Y,paməhaṅan,pamehanan,,other,adjudicated
+INSIDENKSamalagi#002,INSIDENKSamalagi,902,title,Unlocated,N,,,,sima,adjudicated
+INSIDENKSamalagi#003,INSIDENKSamalagi,902,title,Unlocated,Y,gunuṅan,gununan,taṅkilan,witness,agreed
+INSIDENKSamalagi#004,INSIDENKSamalagi,902,title,Unlocated,Y,tamaliṅgaṁ,tamalingam,sirikan,witness,agreed
+INSIDENKSamalagi#005,INSIDENKSamalagi,902,title,Unlocated,Y,pakalaṁkyaṅan,pakalamkyanan,pagər vsi,witness,agreed
+INSIDENKSamalagi#006,INSIDENKSamalagi,902,title,Unlocated,Y,siṁha,simha,hino,witness,agreed
+INSIDENKSamalagi#007,INSIDENKSamalagi,902,title,Unlocated,Y,limus,limus,pulu vuṅkal,witness,agreed
+INSIDENKSangguran#001,INSIDENKSangguran,928,title,East Java,Y,saṁguran,samguran,vaharu,sima,agreed
+INSIDENKSangguran#002,INSIDENKSangguran,928,title,East Java,Y,saṅguran,sanguran,,sima,agreed
+INSIDENKSangguran#003,INSIDENKSangguran,928,title,East Java,Y,saṁguran,samguran,,sima,agreed
+INSIDENKSangguran#004,INSIDENKSangguran,928,title,East Java,Y,saṅguran,sanguran,,sima,agreed
+INSIDENKSangguran#005,INSIDENKSangguran,928,title,East Java,Y,saṁguran,samguran,,sima,agreed
+INSIDENKSangguran#006,INSIDENKSangguran,928,title,East Java,Y,saṁguran,samguran,,sima,agreed
+INSIDENKSangsang#001,INSIDENKSangsang,907,xlsx CE,Other Central Java,Y,patapān,patapan,,other,agreed
+INSIDENKSangsang#002,INSIDENKSangsang,907,xlsx CE,Other Central Java,Y,saṁsaṁ,samsam,lamva,sima,agreed
+INSIDENKSangsang#003,INSIDENKSangsang,907,xlsx CE,Other Central Java,Y,hujuṅ galuḥ,hujungaluh,lamva,sima,adjudicated
+INSIDENKSangsang#004,INSIDENKSangsang,907,xlsx CE,Other Central Java,Y,saṁsaṁ,samsam,,sima,agreed
+INSIDENKSangsang#005,INSIDENKSangsang,907,xlsx CE,Other Central Java,N,,,,,agreed
+INSIDENKSangsang#006,INSIDENKSangsang,907,xlsx CE,Other Central Java,Y,kilipan,kilipan,,witness,agreed
+INSIDENKSindoro-PuBahut#001,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,ḍanu vuaḥ,danuvuah,ḍanu vuAḥ,witness,agreed
+INSIDENKSindoro-PuBahut#002,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,vayur,vayur,halu,witness,agreed
+INSIDENKSindoro-PuBahut#003,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,kamalagyan,kamalagyan,uṅgaḥ karas,witness,agreed
+INSIDENKSindoro-PuBahut#004,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,vuṅkal hujuṁ,vunkalhujum,,witness,adjudicated
+INSIDENKSindoro-PuBahut#005,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,hujuṁ,hujum,pikatan,witness,agreed
+INSIDENKSindoro-PuBahut#006,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,pucaṅ anak,pucananak,pulu vatu,witness,adjudicated
+INSIDENKSindoro-PuBahut#007,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,lalar,lalar,tilimpik,witness,agreed
+INSIDENKSindoro-PuBahut#008,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,karumvyan,karumvyan,halu,witness,agreed
+INSIDENKSindoro-PuBahut#009,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,galagākan,galagakan,vuṅkal humalaṁ,witness,agreed
+INSIDENKSindoro-PuBahut#010,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,tamyaṁ,tamyam,,witness,agreed
+INSIDENKSindoro-PuBahut#011,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,hulu vanua,huluvanua,pagar vsi,witness,adjudicated
+INSIDENKSindoro-PuBahut#012,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,hulu vanua,huluvanua,pagar vsi,witness,adjudicated
+INSIDENKSindoro-PuBahut#013,INSIDENKSindoro-PuBahut,906,title,Other Central Java,Y,sirikan,sirikan,sirikan,witness,agreed
+INSIDENKSindoro-PuMamruk#001,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,vugaṁ,vugam,tilimpik,witness,agreed
+INSIDENKSindoro-PuMamruk#002,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,pəar,pear,alum varak,witness,agreed
+INSIDENKSindoro-PuMamruk#003,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,saliṅsiṅan,salinsinan,,witness,adjudicated
+INSIDENKSindoro-PuMamruk#004,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,pucaṅ anak,pucananak,pulu vatu,witness,adjudicated
+INSIDENKSindoro-PuMamruk#005,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,lalar,lalar,tilimpik,witness,agreed
+INSIDENKSindoro-PuMamruk#006,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,vvāhan,vahan,muntiṁ,witness,agreed
+INSIDENKSindoro-PuMamruk#007,INSIDENKSindoro-PuMamruk,906,title,Other Central Java,Y,sirikan,sirikan,sirikan,witness,agreed
+INSIDENKSriManggalaII#001,INSIDENKSriManggalaII,874,title,Kedu,N,,,,,agreed
+INSIDENKSriManggalaII#002,INSIDENKSriManggalaII,874,title,Kedu,Y,poḥ,poh,,other,agreed
+INSIDENKSriManggalaIII#001,INSIDENKSriManggalaIII,874,title,Unlocated,N,,,,,agreed
+INSIDENKSriManggalaIII#002,INSIDENKSriManggalaIII,874,title,Unlocated,Y,poḥ,poh,,other,agreed
+INSIDENKSugihManek#001,INSIDENKSugihManek,915,title,Central Java (unspecific),Y,limus,limus,kanuruhan,sima,agreed
+INSIDENKSugihManek#002,INSIDENKSugihManek,915,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKSumundul#001,INSIDENKSumundul,869,title,Prambanan-Mataram,Y,muṅgv antan,mungvantan,tira,witness,agreed
+INSIDENKSumundul#002,INSIDENKSumundul,869,title,Prambanan-Mataram,Y,parhyaṁṅan,parhyanan,,sima,adjudicated
+INSIDENKTaji#001,INSIDENKTaji,901,title,Central Java (unspecific),Y,taji,taji,,other,agreed
+INSIDENKTaji#002,INSIDENKTaji,901,title,Central Java (unspecific),Y,gurantiṁ,gurantim,ra nyū,witness,agreed
+INSIDENKTaji#003,INSIDENKTaji,901,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKTaji#004,INSIDENKTaji,901,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKTaji#005,INSIDENKTaji,901,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKTajiGunung#001,INSIDENKTajiGunung,910,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKTajiGunung#002,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKTajiGunung#003,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKTajiGunung#004,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,gunuṅan,gununan,taṁkillan,witness,agreed
+INSIDENKTajiGunung#005,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,vaduṁ poḥ,vadumpoh,makudur,witness,agreed
+INSIDENKTajiGunung#006,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,ra təguḥ,rateguh,khaməhas,witness,agreed
+INSIDENKTajiGunung#007,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,kahaṅattan,kahanatan,khaməhas,witness,agreed
+INSIDENKTajiGunung#008,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,liṅai,linai,makudur,witness,agreed
+INSIDENKTajiGunung#009,INSIDENKTajiGunung,910,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKTajiGunung#010,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,taṁkillan,tankilan,taṁkillan,witness,adjudicated
+INSIDENKTajiGunung#011,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,poḥ,poh,pagar vsi,witness,agreed
+INSIDENKTajiGunung#012,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,galagaḥ,galagah,khino,witness,agreed
+INSIDENKTajiGunung#013,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,guva,guva,khīno,witness,agreed
+INSIDENKTajiGunung#014,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,trirava,trirava,,witness,agreed
+INSIDENKTajiGunung#015,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,trirava,trirava,,witness,agreed
+INSIDENKTajiGunung#016,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,vuatan nəmmas,vuatanemas,,witness,agreed
+INSIDENKTajiGunung#017,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,bakal,bakal,,witness,agreed
+INSIDENKTajiGunung#018,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,hulu vanua,huluvanua,,witness,adjudicated
+INSIDENKTajiGunung#019,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,hulu vanua,huluvanua,,witness,adjudicated
+INSIDENKTajiGunung#020,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,bhavantan,bhavantan,,witness,agreed
+INSIDENKTajiGunung#021,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,vuattan śrī,vuatansri,,witness,adjudicated
+INSIDENKTajiGunung#022,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,hijo,hijo,,witness,agreed
+INSIDENKTajiGunung#023,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,muṅgu,mungu,taṅkillan,witness,agreed
+INSIDENKTajiGunung#024,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,tumurun,tumurun,,witness,agreed
+INSIDENKTajiGunung#025,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,parahita,parahita,halu,witness,agreed
+INSIDENKTajiGunung#026,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,layaṁ,layam,layaṁ,witness,agreed
+INSIDENKTajiGunung#027,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,hulu vanua,huluvanua,,other,adjudicated
+INSIDENKTajiGunung#028,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,bakal,bakal,,witness,agreed
+INSIDENKTajiGunung#029,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,vuattan śrī,vuatansri,,witness,adjudicated
+INSIDENKTajiGunung#030,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,taji gunuṁ,tajigunum,,sima,agreed
+INSIDENKTajiGunung#031,INSIDENKTajiGunung,910,title,Prambanan-Mataram,Y,vuattan śrī,vuatansri,,witness,adjudicated
+INSIDENKTaragal#001,INSIDENKTaragal,880,title,Kedu/Prambanan (E082 area label),Y,ruhutan,ruhutan,,other,agreed
+INSIDENKTelangI-WanagiriI#001,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,manṅahi,manahi,,other,agreed
+INSIDENKTelangI-WanagiriI#002,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,tlaṁ,tlam,,sima,agreed
+INSIDENKTelangI-WanagiriI#003,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,N,,,,,agreed
+INSIDENKTelangI-WanagiriI#004,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,tlaṁ,tlam,,sima,agreed
+INSIDENKTelangI-WanagiriI#005,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,kalimvayan,kalimvayan,,witness,agreed
+INSIDENKTelangI-WanagiriI#006,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,tlaṁ,tlam,,sima,agreed
+INSIDENKTelangI-WanagiriI#007,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,tlaṁ,tlam,,sima,agreed
+INSIDENKTelangI-WanagiriI#008,INSIDENKTelangI-WanagiriI,904,xlsx CE,Other Central Java,Y,tlaṁ,tlam,,sima,agreed
+INSIDENKTelangII-WanagiriII#001,INSIDENKTelangII-WanagiriII,904,title,Unlocated,Y,tlaṁ,tlam,huvusan,sima,agreed
+INSIDENKTigaRon-TluRon#001,INSIDENKTigaRon-TluRon,900,title,Central Java (unspecific),N,,,,,agreed
+INSIDENKTihang#001,INSIDENKTihang,914,title,Kedu,Y,tihaṁ,tiham,tiru raṇu,sima,agreed
+INSIDENKTihang#002,INSIDENKTihang,914,title,Kedu,Y,tihaṁ,tiham,,sima,agreed
+INSIDENKTihang#003,INSIDENKTihang,914,title,Kedu,Y,tihaṁ,tiham,,sima,agreed
+INSIDENKTihang#004,INSIDENKTihang,914,title,Kedu,Y,tihaṁ,tiham,,sima,agreed
+INSIDENKTihang#005,INSIDENKTihang,914,title,Kedu,Y,tihaṁ,tiham,,sima,agreed
+INSIDENKTulangEr#001,INSIDENKTulangEr,914,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKTulangEr#002,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,karamas,karamas,,witness,agreed
+INSIDENKTulangEr#003,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,vrik-vrik,vrikvrik,vrik-vrik,witness,agreed
+INSIDENKTulangEr#004,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,karāmas,karamas,aṅinn-aṅin,witness,agreed
+INSIDENKTulangEr#005,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,amvilan,amvilan,paku vaṅi,witness,agreed
+INSIDENKTulangEr#006,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,hayan səma,hayansema,,witness,adjudicated
+INSIDENKTulangEr#007,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,karamas,karamas,aṅinn-aṅin,witness,agreed
+INSIDENKTulangEr#008,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,vuga,vuga,tilimpik,witness,agreed
+INSIDENKTulangEr#009,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,palihattan,palihatan,,witness,agreed
+INSIDENKTulangEr#010,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,tasikk anak,tasikanak,tilimpik,witness,adjudicated
+INSIDENKTulangEr#011,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,vir̥ḥnya,virhnya,tilimpik,witness,agreed
+INSIDENKTulangEr#012,INSIDENKTulangEr,914,title,Prambanan-Mataram,Y,vir̥ḥnya,virhnya,tilimpik,witness,agreed
+INSIDENKTulangEr#013,INSIDENKTulangEr,914,title,Prambanan-Mataram,N,,,,,agreed
+INSIDENKWangkud#001,INSIDENKWangkud,874,title,Kedu,?,,,,other,adjudicated
+INSIDENKWanuaTengahIII#001,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,pikatan,sima,adjudicated
+INSIDENKWanuaTengahIII#002,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,sima,adjudicated
+INSIDENKWanuaTengahIII#003,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,sima,adjudicated
+INSIDENKWanuaTengahIII#004,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,N,,,,other,adjudicated
+INSIDENKWanuaTengahIII#005,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,sima,adjudicated
+INSIDENKWanuaTengahIII#006,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,sima,adjudicated
+INSIDENKWanuaTengahIII#007,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,witness,adjudicated
+INSIDENKWanuaTengahIII#008,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKWanuaTengahIII#009,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,witness,adjudicated
+INSIDENKWanuaTengahIII#010,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKWanuaTengahIII#011,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,hulu vanua,huluvanua,,other,adjudicated
+INSIDENKWanuaTengahIII#012,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,N,,,,,agreed
+INSIDENKWanuaTengahIII#013,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,lua,lua,,witness,agreed
+INSIDENKWanuaTengahIII#014,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,titiḥ,titih,pikatan,witness,agreed
+INSIDENKWanuaTengahIII#015,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,varuk,varuk,,witness,agreed
+INSIDENKWanuaTengahIII#016,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,witness,adjudicated
+INSIDENKWanuaTengahIII#017,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vanua tṅaḥ,vanuatnah,,witness,adjudicated
+INSIDENKWanuaTengahIII#018,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,hinor,hinor,,witness,agreed
+INSIDENKWanuaTengahIII#019,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,paṅsur,pansur,ayam təAs,witness,agreed
+INSIDENKWanuaTengahIII#020,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,kahaṅatan,kahanatan,hamməAs,witness,agreed
+INSIDENKWanuaTengahIII#021,INSIDENKWanuaTengahIII,908,xlsx CE,Kedu,Y,vaduṁ poḥ,vadumpoh,paṅkur poḥ,witness,agreed
+INSIDENKWintangMasI#001,INSIDENKWintangMasI,878,title,Unlocated,N,,,,,agreed
+INSIDENKWukiran#001,INSIDENKWukiran,862,title,Unlocated,N,,,,,agreed
+INSIDENKWunganDaik#001,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,pamilihan,pamilihan,kalum varak,witness,agreed
+INSIDENKWunganDaik#002,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,gammaḥ,gamah,vatu humalaṁ,witness,agreed
+INSIDENKWunganDaik#003,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,sabokan,sabokan,amviran,witness,agreed
+INSIDENKWunganDaik#004,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,mira-miraḥ,mirahmirah,vadihati,witness,agreed
+INSIDENKWunganDaik#005,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,paṇḍamuan,pandamuan,vadihati,witness,agreed
+INSIDENKWunganDaik#006,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,ra tguḥ,rateguh,,witness,agreed
+INSIDENKWunganDaik#007,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,vugu,vugu,,witness,agreed
+INSIDENKWunganDaik#008,INSIDENKWunganDaik,901-1000,alias: xlsx Wunandaik 10th c.,Unlocated,Y,taṅga vuṅkal,tangavunkal,,witness,adjudicated
+INSIDENKWuruTunggal#001,INSIDENKWuruTunggal,911,title,Central Java (unspecific),Y,vuru tuṅgal,vurutungal,,other,agreed
+INSIDENKWuruTunggal#002,INSIDENKWuruTunggal,911,title,Central Java (unspecific),Y,vuru tuṅgal,vurutungal,,other,agreed
+INSIDENKWuruTunggal#003,INSIDENKWuruTunggal,911,title,Central Java (unspecific),Y,pilaṁ,pilam,paṅgil hyaṁ,witness,agreed
+INSIDENKWuruTunggal#004,INSIDENKWuruTunggal,911,title,Central Java (unspecific),Y,valeṁ,valem,valeṁ,witness,agreed
+INSIDENKWuruTunggal#005,INSIDENKWuruTunggal,911,title,Central Java (unspecific),Y,taṅga,tanga,hino,witness,agreed
+INSIDENKWuruTunggal#006,INSIDENKWuruTunggal,911,title,Central Java (unspecific),Y,limo,limo,pagar vsi,witness,agreed
+INSIDENKWuruduKidul#001,INSIDENKWuruduKidul,922,alias: xlsx Wurudu Kidul A 844 Saka,Other Central Java,N,,,,,agreed
+INSIDENKWuruduKidul#002,INSIDENKWuruduKidul,922,alias: xlsx Wurudu Kidul A 844 Saka,Other Central Java,N,,,,,agreed
+INSIDENKWuruduKidul#003,INSIDENKWuruduKidul,922,alias: xlsx Wurudu Kidul A 844 Saka,Other Central Java,Y,maṁhuri,mamhuri,,other,adjudicated

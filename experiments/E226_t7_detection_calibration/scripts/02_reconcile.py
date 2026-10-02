@@ -32,6 +32,17 @@ def nkey(s):
     return s
 
 
+# Spelling variants merged by the adjudicator after inspecting skeleton collisions (2026-10-02).
+# Only orthographic alternations (nasal ṁ/ṅ/ṇ, ə/a, h-drop, ai/e, u/v, b/v, epenthetic vowel).
+ALIAS = {
+    "miramirah": "mirahmirah", "ratguh": "rateguh", "tumapel": "tumapal", "paravutan": "parivutan",
+    "pakalankyanan": "pakalamkyanan", "pamdamuan": "pandamuan", "pamgumulan": "pangumulan",
+    "pamramvan": "pamramuan", "parhyamnan": "parhyanan", "gunumnan": "gununan", "tarumbajam": "tarumvajam",
+    "verhnya": "virhnya", "truvanban": "turuvanban", "tamkilan": "tankilan", "varam": "vram",
+    "vuatanpe": "vuatanpai",
+}
+
+
 def kappa(pairs, cats):
     n = len(pairs)
     po = sum(a == b for a, b in pairs) / n
@@ -86,7 +97,7 @@ def main():
             code, name, how = A[i]["village_named"], A[i]["name"], "agreed"
         c = cand[i]
         final.append(dict(occ_id=i, inscription=c["inscription"], date=c["date"], date_src=c["date_src"],
-                          region=c["region"], code=code, name=name.strip().lower(), key=nkey(name),
+                          region=c["region"], code=code, name=name.strip().lower(), key=ALIAS.get(nkey(name), nkey(name)),
                           watak=A[i]["watak"] or B[i]["watak"], role=A[i]["role"] or B[i]["role"], how=how))
     with open(F("frame", "final_occurrences.csv"), "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(final[0]))

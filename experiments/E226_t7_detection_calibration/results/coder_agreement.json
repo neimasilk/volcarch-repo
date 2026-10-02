@@ -1,0 +1,22 @@
+{
+ "n": 595,
+ "kappa_3cat": 0.871,
+ "agree_3cat": 0.955,
+ "kappa_Y_vs_notY": 0.901,
+ "agree_Y": 0.966,
+ "A_counts": {
+  "N": 106,
+  "Y": 474,
+  "?": 15
+ },
+ "B_counts": {
+  "N": 107,
+  "Y": 460,
+  "?": 28
+ },
+ "both_Y": 457,
+ "both_Y_same_name": 416,
+ "name_jaccard": 0.878,
+ "names_A": 279,
+ "names_B": 273
+}

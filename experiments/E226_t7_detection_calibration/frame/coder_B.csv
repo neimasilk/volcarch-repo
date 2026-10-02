@@ -8,7 +8,7 @@ INSIDENKWuruTunggal#004,Y,valeṁ,valeṁ,witness,
 INSIDENKWuruTunggal#003,Y,pilaṁ,paṅgil hyaṁ,witness,watak 'paṅgil hyaṁ' (hyaṁ possibly not part of watak)
 INSIDENKWuruTunggal#002,Y,vuru tuṅgal,,witness,resident of Vuru Tuṅgal in tutugan list; village is also the sīma village
 INSIDENKWuruTunggal#001,Y,vuru tuṅgal,,witness,resident of Vuru Tuṅgal in tutugan list; village is also the sīma village
-INSIDENKWunganDaik#008,?,taṅga vuṅkal,,witness,could be taṅga alone with vuṅkal sīma kudur being something else; segmentation unclear
+INSIDENKWunganDaik#008,Y,taṅga vuṅkal,,witness,"sīma kudur follows as status label (cf. Poh sukup/dadam sīma kudur), so taṅga vuṅkal is likely the name; vuṅkal could be a title"
 INSIDENKWunganDaik#007,Y,vugu,,witness,sīmăniṁ vihāra I vuṅaṇ ḍaik follows but is a separate phrase
 INSIDENKWunganDaik#006,Y,ra tguḥ,,witness,stop before Aṁraṅkappi
 INSIDENKWunganDaik#005,Y,paṇḍamuAn,vadihati,witness,
@@ -26,9 +26,9 @@ INSIDENKWanuaTengahIII#017,Y,vanuA tṅaḥ,,witness,noun is the head of the top
 INSIDENKWanuaTengahIII#016,Y,vanuA tṅaḥ,,witness,Anag vanuA I vanuA tṅaḥ; toponym vs generic 'middle village' ambiguity but parallel to named-village list
 INSIDENKWanuaTengahIII#015,Y,varuk,,witness,
 INSIDENKWanuaTengahIII#014,Y,titiḥ,pikatan,witness,
-INSIDENKWanuaTengahIII#013,?,luA,,witness,I luA I kabikvan: luA may be 'outside' adverb or toponym; kabikvan an institution
+INSIDENKWanuaTengahIII#013,Y,luA,,witness,I luA I kabikvan: parallel to ra luA village (Rukam) and to other named villages in list; luA could also be adverb outside; kabikvan an institution
 INSIDENKWanuaTengahIII#012,N,,,,si vaṅun = personal name / false lexical match
-INSIDENKWanuaTengahIII#011,N,,,,hulu vanuA = village head title followed by person (si ruAṁ galuḥ)
+INSIDENKWanuaTengahIII#011,Y,hulu vanuA,,other,"kalima I hulu vanuA si ruAṁ galuḥ; hulu vanuA fills the place slot (cf. Taji Gunung, Sindoro); could be generic upper village or title"
 INSIDENKWanuaTengahIII#010,N,,,,si vaṅun = personal name / false lexical match
 INSIDENKWanuaTengahIII#009,Y,vanuA tṅaḥ,,other,rāma māgman I vanuA tṅaḥ; toponym vs generic 'middle village' ambiguity
 INSIDENKWanuaTengahIII#008,N,,,,si vanuAn = personal name after si
@@ -48,7 +48,7 @@ INSIDENKTulangEr#009,Y,palihattan,,witness,sima kalaṁ ri ḍahan follows; uncl
 INSIDENKTulangEr#008,Y,vuga,tilimpik,witness,
 INSIDENKTulangEr#007,Y,karamas,aṅinn-aṅin,witness,
 INSIDENKTulangEr#006,Y,hayan,,witness,səma I taṅkil follows; hayan səma may be one name
-INSIDENKTulangEr#005,Y,amvilan,paku,witness,vaṅi after paku uncertain
+INSIDENKTulangEr#005,Y,amvilan,paku vaṅi,witness,vaṅi taken as part of watak (cf. Poh#042 paku vaṅi)
 INSIDENKTulangEr#004,Y,karāmas,aṅinn-aṅin,witness,
 INSIDENKTulangEr#003,Y,vrik-vrik,vrik-vrik,witness,
 INSIDENKTulangEr#002,Y,karamas,,witness,Pu Rahula resident of karamas
@@ -59,3 +59,538 @@ INSIDENKTihang#003,Y,tihaṁ,,sima,
 INSIDENKTihang#002,Y,tihaṁ,,sima,
 INSIDENKTihang#001,Y,tihaṁ,tiru raṇu,sima,susukan is a verb after the watak
 INSIDENKTigaRon-TluRon#001,N,,,,"Anak vanuA pinakahavān = villagers collective, no name"
+INSIDENKTelangII-WanagiriII#001,Y,tlaṁ,huvusan,sima,vanuA I tlaṁ muAṁ I mahai I paparahuAn: Tlaṁ with nested/parallel locators; watak huvusan not adjacent
+INSIDENKTelangI-WanagiriI#008,Y,tlaṁ,,sima,residents of the sīma village; Iṁ mahe Iṁ paparahuAn nested locators
+INSIDENKTelangI-WanagiriI#007,Y,tlaṁ,,sima,Iṁ mahe Iṁ paparahuAn follow as nested locators
+INSIDENKTelangI-WanagiriI#006,Y,tlaṁ,,sima,I mahe Iṁ paparahuAn nested locators
+INSIDENKTelangI-WanagiriI#005,Y,kalimvayan,,witness,kalaṁ of the village receives silver (recipient list)
+INSIDENKTelangI-WanagiriI#004,Y,tlaṁ,,sima,noun after tpi siriṁnikanaṁ = neighbours OF the village of Tlaṁ; Tlaṁ is the sīma village
+INSIDENKTelangI-WanagiriI#003,N,,,,"Anak vanuA I tpi siriṁ = villagers of the neighbouring villages (generic category), named village follows only after the second vanuA"
+INSIDENKTelangI-WanagiriI#002,Y,tlaṁ,,sima,vanuA I tlaṁ muAṁ Iṁ mahe: Mahe may be a second village
+INSIDENKTelangI-WanagiriI#001,Y,manṅahi,,other,home village of the petitioner pu valuḥ
+INSIDENKTaragal#001,Y,ruhutan,,sima,villagers petition for ricefields/land
+INSIDENKTajiGunung#031,Y,vuAttan śrĭ,,witness,"śrĭ may be part of name (cf. #021, #029); gift list"
+INSIDENKTajiGunung#030,Y,taji gunuṁ,,sima,
+INSIDENKTajiGunung#029,Y,vuAttan śrī,,witness,śrī may be part of name
+INSIDENKTajiGunung#028,Y,bakal,,witness,
+INSIDENKTajiGunung#027,Y,hulu vanuA,,other,"kalaṁ I hulu vanuA pu bhūmi; noun inside hulu vanuA; name slot, generic vs toponym ambiguity"
+INSIDENKTajiGunung#026,Y,layaṁ,layaṁ,witness,
+INSIDENKTajiGunung#025,Y,parahita,halu,witness,"Ataḥ is a particle, not part of name"
+INSIDENKTajiGunung#024,Y,tumurun,,witness,
+INSIDENKTajiGunung#023,Y,muṅgu,taṅkillan,witness,
+INSIDENKTajiGunung#022,Y,hijo,,witness,sīma Aṅasə I talun follows as separate phrase
+INSIDENKTajiGunung#021,Y,vuattan śrĭ,,witness,sĭma Aṅasə I ḍihyaṁ follows
+INSIDENKTajiGunung#020,Y,bhavantan,,witness,maṅla after name probably title or verb
+INSIDENKTajiGunung#019,Y,hulu vanuA,,witness,"noun inside hulu vanuA; name slot, generic vs toponym ambiguity"
+INSIDENKTajiGunung#018,Y,hulu vanuA,,witness,"Anak banuA I hulu vanuA; name slot, generic vs toponym ambiguity"
+INSIDENKTajiGunung#017,Y,bakal,,witness,vatak khino belongs to the next person pu Asiki (separated by mūvaḥ)
+INSIDENKTajiGunung#016,Y,vuAtan n əmmas,,witness,n əmmas may be a separate element
+INSIDENKTajiGunung#015,Y,trirava,,witness,
+INSIDENKTajiGunung#014,Y,trirava,,witness,
+INSIDENKTajiGunung#013,Y,guva,khīno,witness,
+INSIDENKTajiGunung#012,Y,galagaḥ,khino,witness,
+INSIDENKTajiGunung#011,Y,poḥ,pagar vsi,witness,
+INSIDENKTajiGunung#010,?,ulu kabikuAn,taṁkillan,witness,Iṅ ulu kabikuAn ri taṁkillan: unclear whether village name or locator within the watak Taṁkillan (kabikuAn = institution)
+INSIDENKTajiGunung#009,N,,,,"nikai banuA An sinĭma = this village which was made sīma; refers back, no name given here"
+INSIDENKTajiGunung#008,Y,liṅai,makudur,witness,watak slot 'vatak makudur' may be a role rather than a watak
+INSIDENKTajiGunung#007,Y,kahaṅat tan,khaməhas,witness,text has 'kahaṅat tan' probably kahaṅatan split by line break
+INSIDENKTajiGunung#006,Y,ra təguḥ,khaməhas,witness,
+INSIDENKTajiGunung#005,Y,vaduṁ poḥ,makudur,witness,'vatak makudur' may be a role not a watak
+INSIDENKTajiGunung#004,Y,gunuṅan,taṁkillan,witness,
+INSIDENKTajiGunung#003,Y,paṇḍamuAn,vadihati,witness,
+INSIDENKTajiGunung#002,Y,paṇḍamuAn,vadihati,witness,
+INSIDENKTajiGunung#001,N,,,,Ikai banuA = this village (the sīma village) referring back to Ayam təhas ṅūni; no new name
+INSIDENKTaji#005,N,,,,Anak vanuA kabaiḥ = all villagers
+INSIDENKTaji#004,N,,,,tuha banuA title without person
+INSIDENKTaji#003,N,,,,"tpi siriṁniṁ vanuA 7 = the 7 neighbouring villages, counted, no names"
+INSIDENKTaji#002,Y,gurantiṁ,ra nyū,witness,
+INSIDENKTaji#001,Y,taji,,sima,villagers of Taji are the landholders of the sīma land
+INSIDENKSumundul#002,?,parhyaṁṅan,,sima,"vanva I parhyaṁṅan: same formula slot as vanva I panaṅgaran in Pananggaran, so parhyaṁṅan (shrine) may be the village name; or generic locator"
+INSIDENKSumundul#001,Y,muṅgv antan,tira,witness,antan may be separate word or line-split of muṅgvantan
+INSIDENKSugihManek#002,N,,,,"juru banva = official title (village head), no name"
+INSIDENKSugihManek#001,Y,limus,kanuruhan,sima,
+INSIDENKSriManggalaIII#002,Y,poḥ,,witness,saṁ daivakarmma I vanuA poḥ; kapuA vinaiḥ vḍihan = recipients
+INSIDENKSriManggalaIII#001,N,,,,"tuha banuA title, followed by marhyaṁ (title)"
+INSIDENKSriManggalaII#002,Y,poḥ,,witness,rāma I śrī maṅgala I vanuA poḥ; Śrī Maṅgala precedes as another locator
+INSIDENKSriManggalaII#001,N,,,,tuha vanuA title (9 = edition footnote marker)
+INSIDENKSindoro-PuMamruk#007,Y,sirikan,sirikan,witness,
+INSIDENKSindoro-PuMamruk#006,Y,vvāhan,muntiṁ,witness,
+INSIDENKSindoro-PuMamruk#005,Y,lalar,tilimpik,witness,
+INSIDENKSindoro-PuMamruk#004,Y,pucaṅ,pulu vatu,witness,anak before vatək = persons of the watak
+INSIDENKSindoro-PuMamruk#003,?,saliṅsiṅan,,witness,vanuA I saliṅsiṅan vetan iṁ parhyaṅan: saliṅsiṅan may be generic 'surroundings' not a name
+INSIDENKSindoro-PuMamruk#002,Y,pəAr,alum varak,witness,
+INSIDENKSindoro-PuMamruk#001,Y,vugaṁ,tilimpik,witness,
+INSIDENKSindoro-PuBahut#013,Y,sirikan,sirikan,witness,
+INSIDENKSindoro-PuBahut#012,Y,hulu vanuA,pagar vsi,witness,noun inside 'hulu vanuA'; hulu vanuA fills the name slot before vatək; could be generic 'upper village' or title
+INSIDENKSindoro-PuBahut#011,Y,hulu vanuA,pagar vsi,witness,"vanuA I hulu vanuA vatək pagar vsi; name slot filled by hulu vanuA, ambiguity generic vs toponym"
+INSIDENKSindoro-PuBahut#010,Y,tamyaṁ,,witness,kapatihan after name may be part of name or an office
+INSIDENKSindoro-PuBahut#009,Y,galagākan,vuṅkal humalaṁ,witness,
+INSIDENKSindoro-PuBahut#008,Y,karumvyan,halu,witness,
+INSIDENKSindoro-PuBahut#007,Y,lalar,tilimpik,witness,
+INSIDENKSindoro-PuBahut#006,Y,pucaṅ,pulu vatu,witness,anak before vatək = persons of the watak
+INSIDENKSindoro-PuBahut#005,Y,hujuṁ,pikatan,witness,
+INSIDENKSindoro-PuBahut#004,?,vuṅkal hujuṁ,,witness,vuṅkal is a known title; hujuṁ is a village elsewhere (#005); vinavaniṁ patiḥ vuṅkal liman follows
+INSIDENKSindoro-PuBahut#003,Y,kamalagyan,Uṅgaḥ karas,witness,
+INSIDENKSindoro-PuBahut#002,Y,vayur,halu,witness,
+INSIDENKSindoro-PuBahut#001,Y,ḍanu vuAḥ,ḍanu vuAḥ,witness,
+INSIDENKSangsang#006,Y,kilipan,,witness,
+INSIDENKSangsang#005,N,,,,"Irikanaṁ vanuA = that village, refers back; no name here (vihāra I hujuṅ galuḥ is a different noun)"
+INSIDENKSangsang#004,Y,saṁsaṁ,,sima,
+INSIDENKSangsang#003,?,hujuṅ galuḥ,lamva,sima,vanuA vuAra kuṭī I hujuṅ galuḥ vatak lamva: unclear whether 'vuAra kuṭī' or 'hujuṅ galuḥ' (or both) is the name
+INSIDENKSangsang#002,Y,saṁsaṁ,lamva,sima,
+INSIDENKSangsang#001,Y,patapān,,other,home village of the samgat lamva pu layaṁ who executes the order
+INSIDENKSangguran#006,Y,saṁguran,,sima,
+INSIDENKSangguran#005,Y,saṁguran,,sima,vanuA sĭma I saṁguran
+INSIDENKSangguran#004,Y,saṅguran,,sima,
+INSIDENKSangguran#003,Y,saṁguran,,sima,vanuA śīma I saṁguran
+INSIDENKSangguran#002,Y,saṅguran,,sima,
+INSIDENKSangguran#001,Y,saṁguran,vaharu,sima,
+INSIDENKSamalagi#007,Y,limus,pulu vuṅkal,witness,
+INSIDENKSamalagi#006,Y,siṁha,hino,witness,
+INSIDENKSamalagi#005,Y,pakalaṁkyaṅan,pagər vsi,witness,underscore in 'pagə_r' dropped as editorial noise
+INSIDENKSamalagi#004,Y,tamaliṅgaṁ,sirikan,witness,
+INSIDENKSamalagi#003,Y,gunuṅan,taṅkilan,witness,underscore in 'ta_ṅkilan' dropped
+INSIDENKSamalagi#002,Y,vadihati,,sima,vadihati is a watak in other inscriptions but here a village made sīma
+INSIDENKSamalagi#001,?,paməhaṅan,,other,Anak vanuA Iṁ haji kabikuAn I paməhaṅan: institution (royal kabikuAn) then place Paməhaṅan; unclear whether the village is named
+INSIDENKSalingsinganII#001,N,,,,anak bānuA = villagers generic
+INSIDENKRumwigaII#004,Y,tumapəl,bintr̥ṁ,witness,
+INSIDENKRumwigaII#003,Y,Ampukan,dalinan,witness,
+INSIDENKRumwigaII#002,Y,taṅkilan,taṅkilan,witness,
+INSIDENKRumwigaII#001,Y,rumviga,,sima,
+INSIDENKRumwigaI#019,Y,rumviga,,sima,
+INSIDENKRumwigaI#018,Y,paṁgumulan,paṁgumulan,witness,
+INSIDENKRumwigaI#017,Y,vaduri,rumviga,witness,
+INSIDENKRumwigaI#016,Y,maṁgīgī,hamyas,witness,
+INSIDENKRumwigaI#015,Y,turu Ayun,sigaran,witness,
+INSIDENKRumwigaI#014,Y,paṇḍamuAn,Ayaṁ təAs,witness,line-join hyphen dropped; kapva between name and vatək
+INSIDENKRumwigaI#013,Y,mira-miraḥ,,witness,juru maṁraṁkəpi is a title
+INSIDENKRumwigaI#012,Y,paṁḍamuAn,Ayaṁ təAs,witness,
+INSIDENKRumwigaI#011,Y,turu haji,hino,witness,
+INSIDENKRumwigaI#010,Y,rumviga,,witness,huler rikāṁ vanuA I rumviga: gift list
+INSIDENKRumwigaI#009,?,juvuṁ,,witness,rāma miśra rikāṁ vanva huler ri juvuṁ: vanva has no name directly; huler may be a title and juvuṁ the place
+INSIDENKRumwigaI#008,Y,rumviga,,witness,māgaman rikāṁ vanuA I rumviga: gift list
+INSIDENKRumwigaI#007,Y,tumapal,vin trəṁ,witness,vin trəṁ probably vintrəṁ split
+INSIDENKRumwigaI#006,Y,pakudākan,hino,witness,hulu kuvu is a title
+INSIDENKRumwigaI#005,Y,kaḍotan,taṅunan,witness,
+INSIDENKRumwigaI#004,Y,viru-viru,sigaran,witness,
+INSIDENKRumwigaI#003,Y,rumviga,,witness,Anak vanva I rumviga juru lampuran
+INSIDENKRumwigaI#002,Y,viru-viru,sigaran,witness,
+INSIDENKRumwigaI#001,N,,,,vanuAnira = possessive 'their village'
+INSIDENKRukam#032,Y,mataram,,witness,Iṁ parhyaṅan haji follows as locator
+INSIDENKRukam#031,Y,kənər,kənər,witness,
+INSIDENKRukam#030,Y,rukam,,sima,
+INSIDENKRukam#029,N,,,,si vaṅun = personal name / false lexical match
+INSIDENKRukam#028,Y,hopra,pikatan,witness,
+INSIDENKRukam#027,Y,mira-miraḥ,vadihati,witness,
+INSIDENKRukam#026,Y,vatu Antan,vatu Antan,witness,
+INSIDENKRukam#025,Y,muṅgi,,witness,sīma I tirip follows as separate phrase
+INSIDENKRukam#024,Y,ra luA,vuru siki,witness,"ra X pattern as in ra tguḥ, ra poḥ"
+INSIDENKRukam#023,Y,ugihan,dalinan,witness,Iy = I + y sandhi
+INSIDENKRukam#022,Y,ra luA,vuru sisiki,witness,
+INSIDENKRukam#021,Y,siṅhapura,mamrati,witness,
+INSIDENKRukam#020,Y,hihapit,vka,witness,
+INSIDENKRukam#019,Y,tuṅgu manoṅan,,witness,manoṅan may be a watak without vatak marker; kept as part of name
+INSIDENKRukam#018,Y,vuAtan,dalinan,witness,
+INSIDENKRukam#017,Y,hinapit,vka,witness,
+INSIDENKRukam#016,N,,,,"saṁ ra vanu = personal name, false lexical match (vanu not vanuA)"
+INSIDENKRukam#015,Y,vuṅkuḍu,kilipan,witness,
+INSIDENKRukam#014,Y,vanuA tṅaḥ,vuru siki,witness,noun inside vanuA tṅaḥ (cf. Wanua Tengah III); toponym vs generic ambiguity
+INSIDENKRukam#013,Y,vanuA tṅaḥ,vuru siki,witness,toponym vs generic 'middle village' ambiguity
+INSIDENKRukam#012,Y,skar tāl,layu vataṁ,witness,
+INSIDENKRukam#011,Y,pās,pās,witness,
+INSIDENKRukam#010,Y,turuvanban,tiru raṇu,witness,
+INSIDENKRukam#009,Y,paṇḍavuttan,tiru raṇu,witness,
+INSIDENKRukam#008,Y,tamaliṅgaṁ,sirikan,witness,
+INSIDENKRukam#007,Y,gunuṁṅan,taṁkilan,witness,
+INSIDENKRukam#006,Y,kahaṅattan,haməAs,witness,
+INSIDENKRukam#005,Y,mantyāsiḥ,makudur,witness,
+INSIDENKRukam#004,Y,paṇḍamuAn,vadihati,witness,'sīma vadihati' stands in the watak slot
+INSIDENKRukam#003,Y,mira-miraḥ,vadihati,witness,
+INSIDENKRukam#002,?,jro,,other,"Ikanaṁ vanuA I rukam vanuA I jro saṁkā yan hilaṁ deniṁ guntur: 'village in the interior (jro)' in apposition to Rukam, or a place name; unclear"
+INSIDENKRukam#001,Y,rukam,,sima,
+INSIDENKRampal#002,Y,skar rava,,other,saṁ kulumpaṁ vanvaA ri skar rava; piliḥ mas follows
+INSIDENKRampal#001,N,,,,"hutaṁniṁ vanuA = the village's debt, no name"
+INSIDENKPoh#081,Y,luṁlaṁ,tnəp,witness,
+INSIDENKPoh#080,Y,rasuk,luvakan,witness,
+INSIDENKPoh#079,Y,tira,mḍaṁ,witness,
+INSIDENKPoh#078,Y,savyan,kinivaṁ,witness,
+INSIDENKPoh#077,Y,hijo,luvakan,witness,
+INSIDENKPoh#076,Y,hināṅan,luvakan,witness,
+INSIDENKPoh#075,Y,ra poḥ,,witness,
+INSIDENKPoh#074,Y,vuAṁ vulu,luvakan,witness,
+INSIDENKPoh#073,Y,ra vuAṁ,kinivaṁ,witness,
+INSIDENKPoh#072,?,marhyaṁ,,witness,"Anak vanuA I marhyaṁ I sīma śrī mahārāja lumāḥ Iṁ śataśr̥ṅga: marhyaṁ is a title/sacred term; village designated by the sīma of the late king, name unclear"
+INSIDENKPoh#071,Y,maho,vka,witness,
+INSIDENKPoh#070,Y,vraṁ,,witness,sĭmaniṁ vihāra vaitanniṁ havān follows as attribute
+INSIDENKPoh#069,Y,vaduri,rumviga,witness,
+INSIDENKPoh#068,N,,,,sapuluḥ vanuA = ten villages (counting)
+INSIDENKPoh#067,N,,,,"piṇḍa vanuA tpi siriṁ = collective neighbouring villages, no name"
+INSIDENKPoh#066,Y,buṅur,kinivaṁ,witness,
+INSIDENKPoh#065,Y,səAṁ,,witness,vahuta ri kinivaṁ after name is a title phrase
+INSIDENKPoh#064,Y,sampū,,witness,sīma haji maṅmit savaḥ haji follows as attribute
+INSIDENKPoh#063,Y,paskaran,laṅitan,witness,
+INSIDENKPoh#062,Y,kasisap,kayo,witness,
+INSIDENKPoh#061,N,,,,tuha banuA title followed by person si dhanyā
+INSIDENKPoh#060,Y,sukup,,witness,sīma kudur follows as status label
+INSIDENKPoh#059,Y,vuAṁṅ hijo,luvakan,witness,
+INSIDENKPoh#058,N,,,,tuha banua title followed by person
+INSIDENKPoh#057,Y,dadam,,witness,sīma kudur follows as status label
+INSIDENKPoh#056,N,,,,si vaṅun = personal name / false lexical match
+INSIDENKPoh#055,Y,vtuAn,kinivaṁ,witness,
+INSIDENKPoh#054,N,,,,tuha banva title followed by person
+INSIDENKPoh#053,Y,pulai,galaṁ,witness,
+INSIDENKPoh#052,N,,,,tuha banuA title followed by person
+INSIDENKPoh#051,Y,poḥ,,sima,kabayan pratiśāra of the village of Poḥ (the sīma village)
+INSIDENKPoh#050,N,,,,Irikanaṁ vanuA sinuśuk = that village made sīma; refers back to Poḥ named just before
+INSIDENKPoh#049,Y,vinaṅun,kinivaṁ,witness,vinaṅun resembles baṅun 'build' but is clearly in name slot after Anak vanuA I
+INSIDENKPoh#048,Y,səAṁ,,witness,
+INSIDENKPoh#047,Y,səAṁ,,witness,"kavahutān I kinivaṁ follows, not a watak marker"
+INSIDENKPoh#046,Y,vinaṅun,kinivaṁ,witness,
+INSIDENKPoh#045,Y,kilipan,kinivaṁ,witness,
+INSIDENKPoh#044,Y,tarum bajaṁ,,witness,
+INSIDENKPoh#043,Y,tuṅguyuṁ,kinivaṁ,witness,
+INSIDENKPoh#042,Y,tamyaṁ,paku vaṅi,witness,
+INSIDENKPoh#041,Y,kaṇḍaṁ,valakas,witness,
+INSIDENKPoh#040,Y,kilipan,kilipan,witness,
+INSIDENKPoh#039,Y,vvaraṁ,talaṁ,witness,
+INSIDENKPoh#038,Y,vuAṁ kalaṁ,kinivaṁ,witness,
+INSIDENKPoh#037,Y,kavu,,witness,kapatihan after name is an attribute (cf. kavu sīma kapatihan in #005)
+INSIDENKPoh#036,Y,kahuripan,lunturan,witness,
+INSIDENKPoh#035,?,matṅər patīrthān,,witness,matṅər appears as an office word elsewhere; patīrthān = sacred bathing place; unclear whether a village name or an institution
+INSIDENKPoh#034,Y,tarum vajaṁ,hino,witness,
+INSIDENKPoh#033,Y,glaṁ-glaṁ,kalum varak,witness,
+INSIDENKPoh#032,Y,samalagi,Asam pañjaṁ,witness,
+INSIDENKPoh#031,Y,siṅhapura,halu,witness,
+INSIDENKPoh#030,Y,paməhaṅan,manimpiki,witness,
+INSIDENKPoh#029,Y,marumvi,hino,witness,
+INSIDENKPoh#028,Y,varak-varak,hino,witness,
+INSIDENKPoh#027,Y,taṅkilan,mamrati,witness,
+INSIDENKPoh#026,Y,ugihan,dalinan,witness,Iy = I + y
+INSIDENKPoh#025,Y,raluA,vuru siki,witness,raluA = ra luA joined
+INSIDENKPoh#024,Y,siṁhapura,halu,witness,
+INSIDENKPoh#023,Y,hinapit,vka,witness,
+INSIDENKPoh#022,Y,tuṅgu manoṅan,,witness,manoṅan may be a watak without vatak marker
+INSIDENKPoh#021,Y,vvatan,dalinan,witness,
+INSIDENKPoh#020,Y,hinapit,vka,witness,
+INSIDENKPoh#019,N,,,,"saṁ ra vanu = personal name, false lexical match"
+INSIDENKPoh#018,Y,vuṅkuḍu,kilipan,witness,
+INSIDENKPoh#017,Y,vanuA tṅaḥ,vuru siki,witness,noun inside vanuA tṅaḥ; toponym vs generic ambiguity
+INSIDENKPoh#016,Y,vanuA tṅaḥ,vuru siki,witness,toponym vs generic ambiguity
+INSIDENKPoh#015,Y,skar ttān,layu vataṁ,witness,
+INSIDENKPoh#014,Y,pās tamvir,,witness,tamvir may be a watak without vatak marker
+INSIDENKPoh#013,Y,truvanban,tiru rāṇu,witness,
+INSIDENKPoh#012,Y,paṇḍavutan,tiru rāṇu,witness,
+INSIDENKPoh#011,?,taṅkilan,,witness,Anak vanuA I tutuganniṁ taṇḍa I taṅkilan: category label (tutugan ning taṇḍa) then place; unclear what is the village
+INSIDENKPoh#010,Y,gunuṅan,taṅkilan,witness,
+INSIDENKPoh#009,Y,kahaṅatan,hamyas,witness,
+INSIDENKPoh#008,Y,mantyāsiḥ,makudur,witness,
+INSIDENKPoh#007,Y,paṁramvan,vadihati,witness,sīma vadihati stands in the watak slot
+INSIDENKPoh#006,Y,mira-miraḥ,vadihati,witness,
+INSIDENKPoh#005,Y,kavu,,witness,sīma kapatihan follows as attribute
+INSIDENKPoh#004,N,,,,"vanva I dalam = category of inner (court) people in an exemption formula, not a village name"
+INSIDENKPoh#003,N,,,,"vanvanya = its village, possessive"
+INSIDENKPoh#002,Y,rumasan,,sima,ri rumasan riṁ nyū: riṁ nyū nested locator or part of name; kapva vatak kinivaṁ follows
+INSIDENKPoh#001,Y,poḥ,,sima,Poḥ and its child village (anaknya) made sīma
+INSIDENKPasanggrahan#019,Y,paravutan,tiru raṇu,witness,
+INSIDENKPasanggrahan#018,Y,gunuṅan,taṅkilan,witness,
+INSIDENKPasanggrahan#017,Y,turai,turai,witness,
+INSIDENKPasanggrahan#016,Y,matgal,,witness,si ravadi is a person
+INSIDENKPasanggrahan#015,Y,kahaṅitan,məAn,witness,
+INSIDENKPasanggrahan#014,Y,makur,,witness,
+INSIDENKPasanggrahan#013,?,ma ma nar,,witness,spaced letters; maṅkipisa after it may be a title; segmentation unclear
+INSIDENKPasanggrahan#012,Y,paraAn,vadihati,witness,
+INSIDENKPasanggrahan#011,?,,,witness,Anak vanuA I then vinaiḥ (was given): name appears to be missing (lacuna or omission); I taran belongs to the preceding parujar haji
+INSIDENKPasanggrahan#010,Y,laṅkavan,pagar vsi,witness,
+INSIDENKPasanggrahan#009,Y,paṅunṅan tvaḍa,,witness,tvaḍa may be part of name or an unmarked watak
+INSIDENKPasanggrahan#008,Y,vuluyu,tiruAn,witness,rake paḍa sasir follows (title+person)
+INSIDENKPasanggrahan#007,Y,gilikan,mamrati,witness,
+INSIDENKPasanggrahan#006,Y,vuAtan pe,vatu humalaṁ,witness,
+INSIDENKPasanggrahan#005,Y,nuAtan pe,,witness,no particle; nuAtan probably = vuAtan (cf. #006)
+INSIDENKPasanggrahan#004,Y,ra luA,vuru siki,witness,
+INSIDENKPasanggrahan#003,Y,hinapit,vka,witness,spaced 'vata k vka'
+INSIDENKPasanggrahan#002,Y,vuṅkuḍu,kilipan,witness,
+INSIDENKPasanggrahan#001,?,ṇḍar vajak°ja nu,,witness,garbled text after I; segmentation unclear
+INSIDENKPanunggalan#004,?,brahmā marhyaṁ,,witness,Iṁ brahmā marhyaṁ: name slot like other entries but marhyaṁ is an honorific; could be a shrine rather than a village
+INSIDENKPanunggalan#003,Y,Air pəluṁ ḍəṇḍa,,witness,ḍəṇḍa may be a separate word
+INSIDENKPanunggalan#002,Y,rayun haruAn,,witness,
+INSIDENKPanunggalan#001,Y,priṁ suṅudan,,witness,
+INSIDENKPanggumulanA#039,Y,paṅgumulan,pulu vatu,sima,
+INSIDENKPanggumulanA#038,Y,paṅgumulan,pulu vatu,sima,
+INSIDENKPanggumulanA#037,N,,,,anak vanuA kabaiḥ = all villagers
+INSIDENKPanggumulanA#036,N,,,,Anak vanuA kabaiḥ = all villagers
+INSIDENKPanggumulanA#035,Y,paṅgumulan,,sima,
+INSIDENKPanggumulanA#034,N,,,,"anak vanuA kabaiḥ tpi siriṁ = all neighbouring villagers, generic"
+INSIDENKPanggumulanA#033,N,,,,"piṇḍa vanuA siriṅan = collective neighbouring villages, no name"
+INSIDENKPanggumulanA#032,N,,,,"vaṅun amvək: matched token is vaṅun inside a place name phrase, not the village noun (false lexical match)"
+INSIDENKPanggumulanA#031,N,,,,"saṁ I siriṅaniṁ vanuA = those of the neighbouring village(s), generic"
+INSIDENKPanggumulanA#030,N,,,,tuha banuA title followed by person
+INSIDENKPanggumulanA#029,Y,paṅgumulan,,sima,vanuA sinusuk I paṅgumulan: village made sīma at Paṅgumulan
+INSIDENKPanggumulanA#028,Y,vuAtan pai,vatu humalaṁ,witness,
+INSIDENKPanggumulanA#027,Y,ra luA,vuru tuṅgal,witness,
+INSIDENKPanggumulanA#026,Y,paraṁ,,witness,"maṁjahij-jahit follows, probably occupational; paraṁ taken as the name"
+INSIDENKPanggumulanA#025,Y,srai,hampuṅan,witness,
+INSIDENKPanggumulanA#024,Y,rilam,Aluhur,witness,
+INSIDENKPanggumulanA#023,Y,siṅhapura,halu,witness,
+INSIDENKPanggumulanA#022,Y,vukulan,tilimpik,witness,
+INSIDENKPanggumulanA#021,Y,paṅaruhan,,witness,paṇḍai tamvagā (coppersmiths) follows as occupation
+INSIDENKPanggumulanA#020,Y,tulumpuk,kaṇḍuḥ,witness,I sumiṅkar follows as nested locator or second name
+INSIDENKPanggumulanA#019,Y,vuṅkuḍu,kilipan,witness,
+INSIDENKPanggumulanA#018,Y,vanuA tṅaḥ,vuru tuṅgal,witness,noun inside vanuA tṅaḥ; toponym vs generic ambiguity
+INSIDENKPanggumulanA#017,Y,vanuA tṅaḥ,vuru tuṅgal,witness,vanva ri vanuA tṅaḥ; toponym vs generic ambiguity
+INSIDENKPanggumulanA#016,Y,skar tān,layu vataṁ,witness,
+INSIDENKPanggumulanA#015,Y,limus,pulu vatu,witness,
+INSIDENKPanggumulanA#014,Y,siṅha,hino,witness,
+INSIDENKPanggumulanA#013,Y,pakalaṁkyaṅan,pagar vsi,witness,
+INSIDENKPanggumulanA#012,Y,tamaliṅgaṁ,sirikan,witness,
+INSIDENKPanggumulanA#011,Y,gunuṅan,taṅkil,witness,
+INSIDENKPanggumulanA#010,Y,palikət,makudur,witness,
+INSIDENKPanggumulanA#009,Y,paṇḍamuAn,vadihati,witness,vatak marker omitted before vadihati
+INSIDENKPanggumulanA#008,Y,mantyāsiḥ,makudur,witness,
+INSIDENKPanggumulanA#007,Y,paṁramuAn,vadihati,witness,
+INSIDENKPanggumulanA#006,Y,babahan,pulu vatu,witness,watak introduced by I not vatak
+INSIDENKPanggumulanA#005,Y,cukulan,tilimpik,witness,
+INSIDENKPanggumulanA#004,?,paməhaṅan,,other,Anak vanuA Iṅ haji kabikuAn I paməhaṅan: royal kabikuAn then place Paməhaṅan; unclear whether the village is named
+INSIDENKPanggumulanA#003,N,,,,"tuha dagaṁ vanuA I dalam kataṅgaran: category list of royal servants (I dalam = inner), not a village name"
+INSIDENKPanggumulanA#002,Y,paṅgumulan,pulu vatu,sima,
+INSIDENKPanggumulanA#001,Y,vuAtan sugiḥ,vulakan,other,home village of the donor pu pālaka (rakryān I vantil)
+INSIDENKPananggaran#002,Y,panaṅgaran,,sima,vanva I panaṅgaran vyavastha
+INSIDENKPananggaran#001,Y,muṅgv antan,tira,witness,antan may be a separate word or line-split
+INSIDENKPalepangan#005,Y,lampahan,,other,tuha banuA I lampahan pu gammar: village head of Lampahan (title followed by place then person)
+INSIDENKPalepangan#004,N,,,,tuha banuA title followed by persons
+INSIDENKPalepangan#003,Y,syutan,tiru raṇu,witness,
+INSIDENKPalepangan#002,Y,srāṅan,,witness,pumpunanni bihāra Iṁ pahai follows as attribute
+INSIDENKPalepangan#001,N,,,,"sapasug banuA = the whole village, collective"
+INSIDENKMasahar#006,N,,,,vilaṁ vanuA viji in a list of occupations/titles; no name
+INSIDENKMasahar#005,N,,,,rāma I jro vanuA = headmen of the interior villages (generic); jro not taken as a name
+INSIDENKMasahar#004,N,,,,Irikanaṁ vanuA si bhayī: refers back to the village of Masahar named just before
+INSIDENKMasahar#003,Y,masahar,,witness,nayaka of the village of Masahar among gift recipients
+INSIDENKMasahar#002,N,,,,"sapasug banuA = the whole village, collective"
+INSIDENKMasahar#001,N,,,,tuha banuA title followed by person
+INSIDENKMarsemu#001,Y,marsmu,,other,Anak vanuA I marsmu I vuĀ: I vuĀ nested locator or part of name; role unclear
+INSIDENKMantyasihIII#013,Y,kuniṁ,,sima,"kagunturan after name is a participle 'struck by guntur', kept out of the name"
+INSIDENKMantyasihIII#012,Y,mantyāsiḥ,,sima,
+INSIDENKMantyasihIII#011,N,,,,"Ikanaṁ vanuA maḍmit = a class of villages (small/adjacent?), not a name"
+INSIDENKMantyasihIII#010,N,,,,"Ikanaṁ vanuA magəṁ = a class of villages (large?), not a name"
+INSIDENKMantyasihIII#009,N,,,,vinkas si banuA I kḍu: banuA is a personal name after si
+INSIDENKMantyasihIII#008,Y,sumaṅka,taṅkil sugiḥ,witness,
+INSIDENKMantyasihIII#007,N,,,,"vanuA I kabikuAn Iṁ vḍi taḍaḥ haji puṁgul: institutional description (kabikuAn), no clear place name"
+INSIDENKMantyasihIII#006,Y,sumaṅka,kaluṁ varak,witness,
+INSIDENKMantyasihIII#005,Y,paṇḍamuAn,vadihati,witness,sĭma in the watak slot
+INSIDENKMantyasihIII#004,Y,katguhan,haməAs,witness,
+INSIDENKMantyasihIII#003,Y,vaduṁ poḥ,paṅkur poḥ,witness,
+INSIDENKMantyasihIII#002,Y,paṇḍamuAn,Ayam təR̥b,witness,śĭma in the watak slot
+INSIDENKMantyasihIII#001,Y,mira-miraḥ,Ayam təAs,witness,
+INSIDENKMantyasihII#002,Y,kūni,,sima,name precedes the noun (ikūni vanua katungguan); sīma village Kuniṁ
+INSIDENKMantyasihII#001,Y,mantyasih,,sima,
+INSIDENKMantyasihI#016,Y,mantyāsiḥ,,sima,
+INSIDENKMantyasihI#015,N,,,,"vanuA gaṇa = village assembly in curse formula, no name"
+INSIDENKMantyasihI#014,N,,,,"Iṁ vanuA = 'in the village', no name"
+INSIDENKMantyasihI#013,N,,,,vinkas si banua I kḍu: personal name after si
+INSIDENKMantyasihI#012,Y,sumaṅka,taṅkil sugiḥ,witness,
+INSIDENKMantyasihI#011,N,,,,"vanuA Iṁ kabikuAn Iṁ vḍi taḍaḥ haji puṅgul: institutional description, no clear place name"
+INSIDENKMantyasihI#010,Y,sumaṅka,kaluṁ barak,witness,
+INSIDENKMantyasihI#009,Y,paṇḍamuan,vadihati,witness,sīma in watak slot
+INSIDENKMantyasihI#008,Y,kataṅguhan,haməAs,witness,
+INSIDENKMantyasihI#007,Y,vaduṁ poḥ,paṅkur poḥ,witness,
+INSIDENKMantyasihI#006,Y,paṇḍamuAn,Ayam təAs,witness,sīma in watak slot
+INSIDENKMantyasihI#005,Y,miraḥ-miraḥ,Ayam təAs,witness,
+INSIDENKMantyasihI#004,N,,,,ikanaṁ vanuA kāliḥ = that village again; refers back to Kuniṁ
+INSIDENKMantyasihI#003,Y,kuniṁ,,sima,
+INSIDENKMantyasihI#002,Y,kuniṁ,,sima,name precedes the noun (pomahan Iṁ kuniṁ vanuA kagunturan)
+INSIDENKMantyasihI#001,Y,mantyāsiḥ,,sima,
+INSIDENKMamali#005,N,,,,si vanva = personal name
+INSIDENKMamali#004,N,,,,tuha banuA title followed by person
+INSIDENKMamali#003,N,,,,tuha banuA title followed by person
+INSIDENKMamali#002,N,,,,tuha banuA title followed by person
+INSIDENKMamali#001,N,,,,tuha banuA title followed by person
+INSIDENKLuitan#002,Y,kataṅgaran,kataṅgaran,witness,
+INSIDENKLuitan#001,Y,luĪtan,kapuṁ,sima,petitioning villagers of Luitan; presumably the sīma village
+INSIDENKLintakan#044,Y,təR̥nəḥ,taṅkil,witness,
+INSIDENKLintakan#043,Y,kaṇḍaṁ,paku vaṅi,witness,
+INSIDENKLintakan#042,Y,vatu-vatu,vatu-vatu,witness,
+INSIDENKLintakan#041,Y,pakalaṅkyaṅan,pagar vsi,witness,
+INSIDENKLintakan#040,Y,paniruAn,paṅgil hyaṁ,witness,
+INSIDENKLintakan#039,Y,vəṅkal,dalinan,witness,
+INSIDENKLintakan#038,Y,maṅəvəl,Aṅgul,witness,
+INSIDENKLintakan#037,Y,kahutanan,mataram,witness,
+INSIDENKLintakan#036,Y,paglutan,tiru ranu,witness,
+INSIDENKLintakan#035,N,,,,"tuha banuA kabaiḥ Iṁ tpi siriṁ = all village heads of the neighbours, generic"
+INSIDENKLintakan#034,Y,gilikan,,other,tuha banuA I gilikan si kalamvuAy: village head of Gilikan
+INSIDENKLintakan#033,N,,,,tuha banuA title followed by person
+INSIDENKLintakan#032,N,,,,tuha banuA title followed by person
+INSIDENKLintakan#031,N,,,,tuha banuA title followed by person
+INSIDENKLintakan#030,N,,,,tuha banuA si mahi: title followed by person
+INSIDENKLintakan#029,N,,,,tuha vanuA si jaluṁ: title followed by person
+INSIDENKLintakan#028,Y,skar amvay,,witness,punpunan I taṅar follows
+INSIDENKLintakan#027,Y,panavuṅan,tirip,witness,
+INSIDENKLintakan#026,Y,luA,tañjuṁ,witness,luA as village name (cf. next row luA vatak luA)
+INSIDENKLintakan#025,Y,luA,luA,witness,
+INSIDENKLintakan#024,Y,vəR̥ḥnya,tilimpik,witness,
+INSIDENKLintakan#023,Y,talaga,mamrati,witness,
+INSIDENKLintakan#022,Y,kahuripan,pagar vsi,witness,
+INSIDENKLintakan#021,Y,mandahi,mandahi,witness,
+INSIDENKLintakan#020,Y,vuga,pəAr,witness,
+INSIDENKLintakan#019,Y,kabanyāgān,,witness,text has I ṁ kabanyāgān; Iṅ galuḥ nested locator; editorial gap marks follow
+INSIDENKLintakan#018,Y,mataram,kahulunan,witness,Iṁ kamaṇikan nested locator before vatak
+INSIDENKLintakan#017,Y,maṅguluṅi,maṅguluṅi,witness,
+INSIDENKLintakan#016,Y,ra kadut,ra nyu,witness,
+INSIDENKLintakan#015,Y,muntaṁ,Upit,witness,
+INSIDENKLintakan#014,Y,sumuḍaḥ,əḍəṅan,witness,
+INSIDENKLintakan#013,Y,jahayan,halu,witness,
+INSIDENKLintakan#012,?,siddhakāryya,,witness,Anak vanuA Iṁ kabikuAn Iṁ siddhakāryya: institution (kabikuAn) then a Sanskrit name; unclear whether it names a village
+INSIDENKLintakan#011,Y,huntu,putad ḍaṇu,witness,
+INSIDENKLintakan#010,Y,srāṅan,srāṅan,witness,
+INSIDENKLintakan#009,?,tamyaṁ,,witness,Anak banuA Iṁ kabikuAn Iṁ tamyaṁ Iṁ jantur: institution then nested places; unclear which is the village name
+INSIDENKLintakan#008,Y,hilyan,padlagan,witness,
+INSIDENKLintakan#007,Y,vuṅkuḍu,kilipan,witness,
+INSIDENKLintakan#006,Y,juruṅan,pagar vsi,witness,
+INSIDENKLintakan#005,Y,sumbhāgi,paṁhr̥mban,witness,
+INSIDENKLintakan#004,Y,puluṁ,makudur,witness,
+INSIDENKLintakan#003,Y,kinaliṁ,,witness,"kabini-hajyan after name is probably an institution/attribute (cf. kapatihan), not part of name"
+INSIDENKLintakan#002,Y,ḍatar,ḍatar,witness,
+INSIDENKLintakan#001,Y,mira-miraḥ,,witness,
+INSIDENKLinggasuntan#007,Y,liṅgasuntan,,sima,vanuA sīma I liṅgasuntan
+INSIDENKLinggasuntan#006,Y,liṅgasuntan,,sima,vanuA sīma I liṅgasuntan
+INSIDENKLinggasuntan#005,Y,liṅgasuntan,,sima,vanuA sīma I liṅgasuntan
+INSIDENKLinggasuntan#004,Y,liṅgasuntan,,sima,vanuA sīma I liṅgasuntan
+INSIDENKLinggasuntan#003,N,,,,vilaṁ vanuA in a list of occupations/titles; no name
+INSIDENKLinggasuntan#002,Y,liṅgasuntan,,sima,"watak hujuṁ appears later (māri vatak hujuṁ), not adjacent"
+INSIDENKLinggasuntan#001,Y,liṅgasuntan,hujuṁ,sima,
+INSIDENKKurungan#004,Y,vuru tuṅgal,,witness,saṅke vanva I vuru tuṅgal = from the village of Vuru Tuṅgal (person list)
+INSIDENKKurungan#003,Y,galuḥ,,witness,saṅke vanva galuḥ = from the village of Galuḥ; no particle
+INSIDENKKurungan#002,Y,kavaṅyan,,witness,saṅke vanva I kavaṅyan
+INSIDENKKurungan#001,?,parhyaṅan,,other,"hutaṁniṁ vanva I parhyaṅan: village of the shrine, or village named Parhyaṅan (cf. patiḥ saṁ parhyaṅan)"
+INSIDENKKubu-Kubu#004,N,,,,Anak banva kabaiḥ = all villagers
+INSIDENKKubu-Kubu#003,N,,,,tuha banva title followed by person
+INSIDENKKubu-Kubu#002,N,,,,juru banva = title; Iṁ pakaraṇan is not a place name
+INSIDENKKubu-Kubu#001,N,,,,"sapasuk banva = all villages, collective"
+INSIDENKKiringan#015,Y,kavuṁ-kavuṁ,vatu humalaṁ,witness,
+INSIDENKKiringan#014,Y,joho,,witness,vadvā rarai is a title
+INSIDENKKiringan#013,Y,taṅgalan,dalinan,other,"ya vanuA I taṅgalan, linked to the sīma village Kiriṅan by maṅasəAkan; role unclear"
+INSIDENKKiringan#012,Y,kiriṅan,,sima,
+INSIDENKKiringan#011,Y,siṇaguha,siṇaguha,witness,
+INSIDENKKiringan#010,Y,paṇḍamuAn,vadihati,witness,
+INSIDENKKiringan#009,Y,lāḍahu,,witness,vatək follows with no watak name before the next Anak; watak left blank
+INSIDENKKiringan#008,Y,bākul,lampyar,witness,line-join hyphen dropped; eccentric_ductus noise ignored
+INSIDENKKiringan#007,Y,bākul,lampyar,witness,line-join hyphen dropped
+INSIDENKKiringan#006,Y,vulakan,taṅkilan,witness,
+INSIDENKKiringan#005,Y,kavuṅ-kavuṁ,vatu humalaṁ,witness,
+INSIDENKKiringan#004,Y,joho,,witness,
+INSIDENKKiringan#003,Y,kiriṅan,,sima,
+INSIDENKKiringan#002,Y,kiriṅan,,sima,
+INSIDENKKiringan#001,Y,vuga,pəAr,witness,
+INSIDENKKayumwungan#006,Y,tri haji,,witness,name-like but could also be a generic phrase
+INSIDENKKayumwungan#005,Y,tri haji,,witness,
+INSIDENKKayumwungan#004,Y,tyusan,,witness,
+INSIDENKKayumwungan#003,?,havuryyan,,witness,saṅ anak banva magavai ri havuryyan: noun followed by a verb phrase before the place; unclear whether villagers of Havuryyan or those working at Havuryyan
+INSIDENKKayumwungan#002,Y,valiṁbiṁ,,witness,"garbled 'vatak si C la 1' after name, watak left blank"
+INSIDENKKayumwungan#001,Y,ji,,witness,
+INSIDENKKayuAraHiwang#021,Y,koluṅan,vka,witness,
+INSIDENKKayuAraHiwang#020,Y,poha,vka,witness,
+INSIDENKKayuAraHiwang#019,Y,sumumilak,vka,witness,text 'sumu mila k' spaced letters closed
+INSIDENKKayuAraHiwang#018,Y,kalaṁkyaṁ,pagar vsi,witness,
+INSIDENKKayuAraHiwang#017,Y,paṅgumulan,manuṅkuli,witness,'vata k' spaced
+INSIDENKKayuAraHiwang#016,Y,kasugihan,Ugihan,witness,text 'ka sugihan' spaced closed
+INSIDENKKayuAraHiwang#015,Y,taji,taji,witness,
+INSIDENKKayuAraHiwang#014,Y,pupur,vadihati,witness,text 'vadi hati' spaced closed
+INSIDENKKayuAraHiwang#013,Y,mḍaṁ,makudur,witness,
+INSIDENKKayuAraHiwang#012,Y,mantyasiḥ,makudur,witness,no particle
+INSIDENKKayuAraHiwang#011,N,,,,"saṁ vaṅun sugiḥ = personal name, false lexical match"
+INSIDENKKayuAraHiwang#010,Y,paḍamuAn,vadihati,witness,text 'paḍa muAn' spaced closed (cf. paṇḍamuAn elsewhere)
+INSIDENKKayuAraHiwang#009,Y,paraṅgaṁ,paraṅgaṁ,witness,
+INSIDENKKayuAraHiwang#008,Y,gulak,mamali-deśa,witness,
+INSIDENKKayuAraHiwang#007,?,poḥ,,other,rake vanu A poḥ = honorific title 'rake of Wanua Poḥ'; noun embedded in a personal title
+INSIDENKKayuAraHiwang#006,Y,kayu Ara hivaṁ,,sima,villagers of the sīma village Kayu Ara Hiwang
+INSIDENKKayuAraHiwang#005,?,poḥ,,other,rake vanuA poḥ = honorific title; noun embedded in a personal title
+INSIDENKKayuAraHiwang#004,Y,kayu Ara hivaṁ,,sima,
+INSIDENKKayuAraHiwang#003,Y,kayu Āra hivaṁ,vatu tihaṁ,sima,
+INSIDENKKayuAraHiwang#002,Y,parivutan,,other,text 'parivuta n'; saṁ ratu bajra of this village performs the sumusuk
+INSIDENKKayuAraHiwang#001,?,poḥ,,other,rake vanuA poḥ dyaḥ mala = honorific title; noun embedded in a personal title
+INSIDENKKasugihan#017,Y,kasugihan,,sima,
+INSIDENKKasugihan#016,Y,paṇḍamuAn,Ayam təAs,witness,
+INSIDENKKasugihan#015,Y,mira-miraḥ,Ayam təAs,witness,
+INSIDENKKasugihan#014,Y,paṇḍamuAn,Ayam təAs,witness,
+INSIDENKKasugihan#013,Y,vuru paṅguṁ,manimpiki,witness,
+INSIDENKKasugihan#012,Y,vugaṁ,tilimpik,witness,
+INSIDENKKasugihan#011,Y,karihuAn,,witness,Amasaṅakən after name is a verb/title
+INSIDENKKasugihan#010,Y,haji huma,patapān,witness,
+INSIDENKKasugihan#009,Y,kuraṁ pkan,sirikan,witness,
+INSIDENKKasugihan#008,Y,sahiḍan,kilipan,witness,
+INSIDENKKasugihan#007,Y,taṅgalan,jalinan,witness,
+INSIDENKKasugihan#006,Y,vurakuṁ,limvayan,witness,
+INSIDENKKasugihan#005,Y,valakay,valakas,witness,
+INSIDENKKasugihan#004,Y,poḥ,,witness,poḥ kabikuAn I lḍaṁ: kabikuAn taken as attribute; could also be a different segmentation
+INSIDENKKasugihan#003,Y,saninai,bunut-bunut,witness,
+INSIDENKKasugihan#002,Y,vatu-vatu,pagar vsi,witness,
+INSIDENKKasugihan#001,Y,kasugihan,,sima,
+INSIDENKKandangan#004,N,,,,"rāma vanuA I vuṅkal tpat: vuṅkal tpat is a watak (cf. #002), so no individual village named here"
+INSIDENKKandangan#003,Y,kaṇḍaṅan,,sima,vanuA sīma I kaṇḍaṅan muAṁ I Er hijo
+INSIDENKKandangan#002,Y,Er hijo,vuṅkal tpat,sima,child village (anaknya) of Kaṇḍaṅan
+INSIDENKKandangan#001,Y,kaṇḍaṅan,,sima,text 'ka ṇḍaṅan' spaced closed
+INSIDENKKaladi#002,N,,,,anak banuA kabaiḥ = all villagers
+INSIDENKKaladi#001,N,,,,vilaṁ vanva viji in a list of occupations/titles; no name
+INSIDENKJurungan#008,N,,,,"vanuA I tpi siriṁ = neighbouring villages, generic"
+INSIDENKJurungan#007,N,,,,si baṅun = personal name / false lexical match
+INSIDENKJurungan#006,N,,,,tuha vanuA followed by persons
+INSIDENKJurungan#005,N,,,,si vaṅun = personal name / false lexical match
+INSIDENKJurungan#004,N,,,,si vaṅun = personal name / false lexical match
+INSIDENKJurungan#003,N,,,,tuha vanuA 2 followed by person
+INSIDENKJurungan#002,Y,juruṅan,,witness,dinmakan ya mas follows (payment verb)
+INSIDENKJurungan#001,N,,,,paṅuraṁ Iṁ vanuA 2 = of 2 villages (counting)
+INSIDENKJeruJeru#004,N,,,,juru banuA title
+INSIDENKJeruJeru#003,N,,,,vilaṁ banuA viji in a list of occupations/titles; no name
+INSIDENKJeruJeru#002,Y,liṅgasuntan,hujuṁ,other,Anak iṁ vanuA I liṅgasuntan vatək hujuṁ tapak mas su 3: villagers of Liṅgasuntan involved in the transaction; role unclear
+INSIDENKJeruJeru#001,Y,jru-jru,,sima,Umalaku Ikaṁ vanuA I jru-jru; the village acted upon in the grant
+INSIDENKJamwi#002,Y,samalagi,hasam pañjaṁ,witness,
+INSIDENKJamwi#001,N,,,,trīṇi vanuA = three villages (counting)
+INSIDENKHumanding#001,N,,,,"vanuA I tpi siriṁ = neighbouring villages, generic; Iṅ guntur follows as a locator of the group"
+INSIDENKHujungGaluh-Sangsang#005,Y,kilipan,,witness,
+INSIDENKHujungGaluh-Sangsang#004,N,,,,"Irikanaṁ vanuA = that village, refers back; no name here"
+INSIDENKHujungGaluh-Sangsang#003,Y,saṁsaṁ,,sima,
+INSIDENKHujungGaluh-Sangsang#002,?,hujuṅ galuḥ,lamva,sima,vanuA vuAra kuṭī I hujuṅ galuḥ vatak lamva: unclear whether 'vuAra kuṭī' or 'hujuṅ galuḥ' (or both) is the name
+INSIDENKHujungGaluh-Sangsang#001,Y,saṁsaṁ,lamva,sima,
+INSIDENKHering#001,N,,,,vilaṁ vanva viji in a list of occupations/titles; no name
+INSIDENKHarinjing#003,N,,,,sakveḥnikaṁ vanuA kasamvahan = all the villages (collective)
+INSIDENKHarinjing#002,N,,,,"ḍaman vanuA parvuvus = title-like list entry, no name"
+INSIDENKHarinjing#001,N,,,,"ḍaman baṅun = title/person, false lexical match"
+INSIDENKGuntur#002,Y,pulu vatu,,other,pu gallam vanuA I pulu vatu: party in a legal matter; pulu vatu is a watak elsewhere but here in the village slot
+INSIDENKGuntur#001,Y,guntur,,other,Anag vanuA Iṁ guntur punpunaniṁ vihāre garuṁ: home village of a party
+INSIDENKGulungGulung#002,N,,,,juru vanuA title
+INSIDENKGulungGulung#001,N,,,,vilaṁ vanuA viji in a list of occupations/titles; no name
+INSIDENKGandasuli#001,N,,,,"vaṅun baharu = 'newly built', false lexical match"
+INSIDENKDisunuh#001,Y,ḍisunuḥ,,sima,
+INSIDENKDinoyoIIa#001,N,,,,tuha vanva title with a stray letter l after it; no name
+INSIDENKDalinan#006,Y,vukajana,,sima,"vanuA I vukajana I tumpak I vuru tlu: nested locators, first taken as the name"
+INSIDENKDalinan#005,N,,,,"Irikanaṁ vanuA = that village, refers back; no name here"
+INSIDENKDalinan#004,Y,vukajana,,sima,nested locators I tumpak I vuru tlu follow
+INSIDENKDalinan#003,?,dalinan,husaḍar,sima,vanuA vuAra kuṭi I dalinan vatak husaḍar: unclear whether 'vuAra kuṭi' or 'dalinan' is the name
+INSIDENKDalinan#002,Y,vukajana,kalaṁ vuṅkal,sima,watak after nested locators I tumpak I vuru tlu
+INSIDENKDalinan#001,Y,patapān,,other,home village of samgat kalaṁ vuṅkal pu layaṁ who executes the order
+INSIDENKBhatari#010,Y,rahu,turu hayu,witness,
+INSIDENKBhatari#009,Y,vatu Antan,vatu Antan,witness,
+INSIDENKBhatari#008,Y,muṅgi,,witness,sīma I tirip follows as separate phrase
+INSIDENKBhatari#007,Y,ugiḥhan,dalinan,witness,Iy = I + y
+INSIDENKBhatari#006,Y,tuṅgu manoṅan,,witness,manoṅan may be an unmarked watak
+INSIDENKBhatari#005,Y,vuṅkuḍu,kilipan,witness,
+INSIDENKBhatari#004,Y,pās,pās,witness,
+INSIDENKBhatari#003,Y,turuvanban,tiru raṇu,witness,noun not preceded by Anak (garbled vuṅkal k)
+INSIDENKBhatari#002,Y,gunuṅan,taṅkilan,witness,
+INSIDENKBhatari#001,Y,mantyāsiḥ,makudur,witness,
+INSIDENKBarsahan#001,N,,,,vilaṁ thāni viji in a list of occupations/titles; no name
+INSIDENKBarahasrama#006,Y,poḥ galuḥ,,sima,second village ri Er kuviṁ follows
+INSIDENKBarahasrama#005,Y,poḥ galuḥ,,sima,
+INSIDENKBarahasrama#004,Y,poḥ galuḥ,,sima,
+INSIDENKBarahasrama#003,Y,Er kuviṁ,,sima,
+INSIDENKBarahasrama#002,Y,poḥ galuḥ,layaṁ,sima,watak layaṁ from preceding clause (both villages kapuA vatak layaṁ)
+INSIDENKBarahasrama#001,Y,poḥ galuḥ,layaṁ,sima,watak layaṁ follows the pair of villages (poḥ galuḥ and Er kuviṁ)
+INSIDENKAyamTeas_III#001,Y,Ayam təAs,,sima,
+INSIDENKAyamTeas_II#001,?,viṇ vadihatī,,sima,anak vanuA ṇyā śīma viṇ vadihatī: garbled; name unclear (cf. the other two versions of the formula)
+INSIDENKAyamTeas_I#001,Y,Ayam təAs,,sima,
+INSIDENKAirKali#001,N,,,,"anak thani = villagers, generic"
+INS12Gilikan#007,Y,turu,,witness,"maṅamvil vidu follows as a function, not a place"
+INS12Gilikan#006,N,,,,si vanua = personal name
+INS12Gilikan#005,Y,kasugihan,,witness,
+INS12Gilikan#004,Y,tamviṅ,talaṅ,witness,watak talaṅ split over a plate break (ta- Plate Y verso laṅ); ri piṭapuag precedes the noun
+INS12Gilikan#003,N,,,,tuha banua title followed by person
+INS12Gilikan#002,N,,,,tuha banua title followed by person
+INS12Gilikan#001,N,,,,saṁ Anak vanuA tlas = all villagers (tlas = whole)

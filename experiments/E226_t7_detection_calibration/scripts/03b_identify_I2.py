@@ -18,7 +18,7 @@ GAZ = os.path.join(ROOT, "data", "processed", "gazetteer", "desa_kedu_mataram_bu
 
 
 def modern_key(s):
-    s = (s or "").lower().replace("ṅ", "ng").replace("ñ", "ny").replace("r̥", "re").replace("l̥", "le")
+    s = (s or "").lower().replace("ṁ", "ng").replace("ṅ", "ng").replace("ñ", "ny").replace("r̥", "re").replace("l̥", "le")
     s = unicodedata.normalize("NFD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = s.replace("ə", "e").replace("w", "v")
