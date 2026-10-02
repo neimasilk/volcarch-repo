@@ -60,9 +60,8 @@ def n95(S, n, m):
 
 def main():
     nref_txt, ms = read_design()
-    assert hashlib.sha256(open(REG, "rb").read().replace(b"
-", b"
-")).hexdigest() == REG_SHA, "register changed after freezing"
+    raw = open(REG, "rb").read().replace(bytes([13, 10]), bytes([10]))
+    assert hashlib.sha256(raw).hexdigest() == REG_SHA, "register changed after freezing"
     frame = [r for r in csv.DictReader(open(os.path.join(HERE, "results", "t7_village_frame.csv"), encoding="utf-8"))
              if r["primary"] == "True"]
     V = len(frame)
