@@ -95,3 +95,8 @@ window sits in the same burial zone.
 6. Heritage registers are temple-centred → S may be ≈0 by construction; literature counts are required.
 7. Frame uses only village-noun contexts; *rāma i X* witness villages are omitted (frame is a subset).
 8. The frame is restricted by inscription findspot, not village location.
+
+## 8. Amendments (logged before the step they affect)
+
+- **A1 (2026-10-02 ±10:00, before coding):** b-initial spellings (*banuA*, *banva*…) added to the vanua/vanva
+  family after the KWIC sample showed "Anak banuA I hinapit" etc. Orthographic variant, not a rule change.
