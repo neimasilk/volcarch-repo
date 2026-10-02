@@ -1,3 +1,28 @@
+# ✅ SENT 2026-10-02 — P17 WITHDRAWN (Option A)
+
+**PI delegated the choice on 2026-10-02 ("silahkan dilakukan sesuai dengan rekomendasimu"); Claude recommended withdrawal.**
+- **Portal:** discussion "Submission 365 — withdrawal: the central result is a georeferencing artefact" posted
+  10:22 WIB (server 05:22) on submission 365, participants Alessandra Caravale + Paola Moscati (section editors).
+  The portal then reported "There was a problem sending an email message" (notification may not have gone out).
+- **Email backup:** same text sent 10:24 WIB from amien@ubhinus.ac.id to **redazioneac@ispc.cnr.it** (editorial
+  address on archcalc.cnr.it/pages/credits), subject "Archeologia e Calcolatori, submission 365: withdrawal".
+- Portal status at sending: still **Submission stage** (never sent to review since 2026-04-09), so two phrases were
+  corrected before sending: "currently under review" → "still at the submission stage"; "you and the reviewers" →
+  "you".
+
+### Text as sent (portal)
+
+> Dear Editor,
+>
+> We are writing about submission 365, which is still at the submission stage. While re-auditing our data, we found that the paper's central result does not hold. The paper reports that Hindu-Buddhist temples and inscriptions occupy different distance zones relative to Java's volcanoes. That contrast is an artefact of how the inscriptions were georeferenced. Of the 175 inscription records, 50 are relief captions from a single monument placed at one point, and 42 are placed at region-level centroids ("East Java", "Central Java"), which happen to fall in the distance band the paper describes. When only inscriptions with specific findspots are used (83 records), the difference in median distance to the nearest volcano falls from 13.1 km to between 0.2 and 2.3 km. It is no longer statistically distinguishable (p between 0.07 and 0.85, depending on whether duplicate temple coordinates are removed). The same problem affects the paper's second result, the shift of Sanskrit inscriptions from the court zone to the periphery after 929 CE, which depends on the same caption and placeholder points. The robustness checks reported in the paper were run on the same coordinates, so they support neither result. This also supersedes the correction we sent on 11 August.
+>
+> Because the central claim does not survive, we wish to withdraw the submission. We apologise for the time this has taken from you, and we are grateful that it can be corrected before publication.
+>
+> With regards,
+> The author
+
+---
+
 # DRAFT — notice to the Archeologia e Calcolatori editor: P17's central result does not hold
 
 **Status:** DRAFT 2026-10-01, **not sent**. This is a PI decision with consequences: it concerns a paper
