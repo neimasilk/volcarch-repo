@@ -13,6 +13,7 @@ All data used in this project must be documented here with source, license, and 
 | ERA5 wind reanalysis | Copernicus Climate Data Store | 31 km / hourly | Free (registration) | NOT ACQUIRED |
 | FAO soil map (HWSD) | FAO | ~1 km | Free | ACQUIRED (E007+, used in settlement model) |
 | River network | OpenStreetMap / HydroSHEDS | Varies | ODbL / Public domain | ACQUIRED (river distance features, E007+) |
+| Kode & nama wilayah (desa/kelurahan) Kepmendagri No. 300.2.2-2430/2025 | github.com/cahyadsn/wilayah `db/wilayah.sql` (last edit 2026-02-13), downloaded 2026-10-02 → `data/raw/gazetteer/kemendagri_wilayah_2025_cahyadsn.sql` | desa names, no coordinates | MIT (compilation of government data) | ACQUIRED (E226 identification tier I2) |
 
 ## Literature-Derived Data
 
