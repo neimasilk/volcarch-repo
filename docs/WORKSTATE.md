@@ -73,6 +73,10 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 ## 4. Decisions waiting on the PI
 
+**NEW 2026-10-02 — publication strategy after 7 rejections:** `docs/research_notes/STRATEGI_PUBLIKASI_20261002.md`
+(diagnosis: 10 submissions in 35 days, 6/7 rejections at the desk; proposal: WIP limit, home-field NLP paper first,
+domain partner, PI's own prose, "digodok" ≥2 weeks). Five PI decisions listed there.
+
 **Urgent (one sitting, each prepared):** the three §1 actions.
 
 **New from the 2026-10-01 audit** (details: `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` §7):

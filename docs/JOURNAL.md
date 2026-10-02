@@ -9897,3 +9897,10 @@ alamat yang dipakai diverifikasi dari PDF.
 
 PI login sendiri ke ArchCalc dan Zenodo di jendela Chrome terpisah (CDP); kredensial portal tidak pernah dilihat
 Claude. Skor: 0 diterima · 7 ditolak · 2 di-review (P2, P8) · 1 ditarik (P17).
+
+## 2026-10-02 (siang) — usulan strategi publikasi
+
+PI: "7 ditolak, mungkin terlalu terburu-buru — pikirkan strateginya." Diagnosis berbasis catatan: 10 pengiriman
+dalam 35 hari (mulai 12 hari setelah repo dibuat), 6 dari 7 penolakan di meja editor (2 tulisan/struktur, 4 salah
+jurnal), 1 penolakan isi (P7, kesalahan data). Usulan dan 5 keputusan PI:
+`docs/research_notes/STRATEGI_PUBLIKASI_20261002.md`.
