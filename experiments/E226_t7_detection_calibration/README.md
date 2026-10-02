@@ -20,7 +20,7 @@ are matched often (S/|G| − d₀ ≥ 0.25, |G| ≥ 30), the "villages are invis
 | 2a | Modern desa gazetteer (Kepmendagri 2025) | `scripts/03_gazetteer.py` → `data/processed/gazetteer/desa_kedu_mataram_buffer_2025.csv` | ✅ 3,802 desa |
 | 2b | Identification tiers I1/I2/I3 | `scripts/03b_identify_I2.py` → `results/t7_identification_I2.csv`; I1 → `frame/identifications_I1.csv` | I2 as pre-registered = **0** (see notes); I1 compilation running |
 | 3 | Settlement register, built blind to the frame | `register/PROMPT.md` → `register/t7_settlement_register_candidates.csv`, `register/REGISTER_NOTES.md` | ✅ **frozen 2026-10-02**, sha256 `10c7d0e0…388133`: 22 rows, **1 YES (Liyangan)**, 9 UNCLEAR, 12 NO |
-| 4 | Matching, d, d₀, N₉₅, decision | — | **blocked on PI (N_ref, m)** |
+| 4 | Matching, d, d₀, N₉₅, decision | `scripts/04_match.py` (exits BLOCKED until DESIGN §5 is filled; checks register sha256; N₉₅ reproduces the desk-scan table) | **blocked on PI (N_ref, m)** + step 2c (coordinates of identified desa) |
 
 ## Data used
 

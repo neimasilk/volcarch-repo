@@ -14,6 +14,7 @@ All data used in this project must be documented here with source, license, and 
 | FAO soil map (HWSD) | FAO | ~1 km | Free | ACQUIRED (E007+, used in settlement model) |
 | River network | OpenStreetMap / HydroSHEDS | Varies | ODbL / Public domain | ACQUIRED (river distance features, E007+) |
 | Kode & nama wilayah (desa/kelurahan) Kepmendagri No. 300.2.2-2430/2025 | github.com/cahyadsn/wilayah `db/wilayah.sql` (last edit 2026-02-13), downloaded 2026-10-02 → `data/raw/gazetteer/kemendagri_wilayah_2025_cahyadsn.sql` | desa names, no coordinates | MIT (compilation of government data) | ACQUIRED (E226 identification tier I2) |
+| Indonesia ADM2 (kabupaten/kota) boundaries, simplified | geoBoundaries gbOpen IDN ADM2, commit 9469f09 (source: BPS, WFP, OCHA ROAP), downloaded 2026-10-02 → `data/raw/gazetteer/geoBoundaries-IDN-ADM2_simplified.geojson` | simplified polygons | CC BY 3.0 IGO | ACQUIRED (E226 chance-match null d₀) |
 
 ## Literature-Derived Data
 
