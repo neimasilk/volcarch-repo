@@ -9837,3 +9837,15 @@ Catatan lengkapnya: `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`
 - OBJECTIVE_ANSWER §4 ditambah satu paragraf.
 
 **Akibat untuk jawaban inti:** tidak ada. Eksperimen-eksperimen ini tidak menopang jawaban §0.
+
+## 2026-10-02 (pagi) — re-anchor: ref git rusak oleh pemadaman listrik 17:00, dipulihkan
+
+**Pertanyaan PI:** apakah sesi 10-01 lanjut melewati 16:30, dan sampai kapan? (lampu dimatikan pukul 17:00.)
+**Jawaban (dari reflog dan stempel waktu berkas):** ya. Commit terakhir `365b28b` (audit hilir) dibuat dan **di-push
+pukul 16:57**; `git ls-remote origin main` = 365b28b. Label "malam/evening" di handoff, JOURNAL, dan STATE line
+keliru: semuanya terjadi sebelum 16:57. Handoff §2c dikoreksi.
+**Insiden:** listrik padam beberapa detik setelah commit, sehingga `.git/refs/heads/main` tertulis 41 byte nol
+(`fatal: your current branch appears to be broken`; seluruh pohon tampak "A"). Objek commit utuh. Diperbaiki
+dengan menulis ulang ref ke 365b28b (+ ref pelacak `origin/main`, yang masih e6ef52c). `git fsck` bersih,
+working tree identik dengan commit. Tidak ada kerja yang hilang; scratchpad sesi kemarin hanya berisi skrip cek.
+**Pelajaran:** hentikan kerja ±16:45 pada hari yang listriknya dipadamkan pukul 17:00.
