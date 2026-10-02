@@ -21,7 +21,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 HERE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 REG = os.path.join(HERE, "register", "t7_settlement_register_candidates.csv")
-REG_SHA = "10c7d0e0173521cd13f94a51145dd0f419482155b78e10dcc01070d676388133"
+REG_SHA = "e515fe3eab25ea941d8ef1b2c440c064586c14920aa232a9b24411d854728e51"  # sha256 with CRLF folded to LF (git may rewrite line endings)
 ADM2 = os.path.join(ROOT, "data", "raw", "gazetteer", "geoBoundaries-IDN-ADM2_simplified.geojson")
 RHOS = (0.5, 1.0, 2.0)
 N_NULL = 1000
@@ -60,7 +60,9 @@ def n95(S, n, m):
 
 def main():
     nref_txt, ms = read_design()
-    assert hashlib.sha256(open(REG, "rb").read()).hexdigest() == REG_SHA, "register changed after freezing"
+    assert hashlib.sha256(open(REG, "rb").read().replace(b"
+", b"
+")).hexdigest() == REG_SHA, "register changed after freezing"
     frame = [r for r in csv.DictReader(open(os.path.join(HERE, "results", "t7_village_frame.csv"), encoding="utf-8"))
              if r["primary"] == "True"]
     V = len(frame)
