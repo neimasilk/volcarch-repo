@@ -1,0 +1,93 @@
+cell,scope,language,concept,form,abvd_form_id,cognacy,p_candidate_oof25,on_E022_15_concept_list
+candidate & no profile,all six,Makassar,road/path,agaŋ,166-6_roadpath-1,,0.02,0
+candidate & no profile,all six,Toraja-Sadan,mouth,sadaŋ,226-30_mouth-1,,0.037,0
+candidate & no profile,all six,Wolio,rat,bokoti,192-102_rat-1,,0.056,0
+candidate & no profile,all six,Wolio,thatch/roof,pada,192-62_thatchroof-1,,0.056,0
+candidate & no profile,all six,Toraja-Sadan,rotten,bosi,226-112_rotten-1,,0.061,0
+candidate & no profile,Bugis,Bugis,meat/flesh,juku,48-103_meatflesh-1,,0.081,0
+candidate & no profile,Bugis,Bugis,Eight,arua,48-204_eight-1,,0.086,0
+candidate & no profile,Bugis,Bugis,cloud,əlluŋ,48-131_cloud-1,,0.099,1
+candidate & no profile,Makassar,Makassar,road/path,agaŋ,166-6_roadpath-1,,0.02,0
+candidate & no profile,Makassar,Makassar,fish,jukuʔ,166-111_fish-1,,0.07,0
+candidate & no profile,Makassar,Makassar,that,añjo,166-178_that-2,,0.107,0
+candidate & no profile,Muna,Muna,back,towu,27-13_back-1,,0.083,0
+candidate & no profile,Muna,Muna,One Thousand,riwu,27-210_onethousand-1,,0.089,1
+candidate & no profile,Muna,Muna,"to cut, hack",aebhera,27-78_tocuthack-1,,0.126,0
+candidate & no profile,Tolaki,Tolaki,wing,kae,674-100_wing-1,,0.061,0
+candidate & no profile,Tolaki,Tolaki,Four,omba,674-200_four-1,,0.071,0
+candidate & no profile,Tolaki,Tolaki,mouth,pondu,674-30_mouth-1,,0.084,0
+candidate & no profile,Toraja-Sadan,Toraja-Sadan,mouth,sadaŋ,226-30_mouth-1,,0.037,0
+candidate & no profile,Toraja-Sadan,Toraja-Sadan,rotten,bosi,226-112_rotten-1,,0.061,0
+candidate & no profile,Toraja-Sadan,Toraja-Sadan,Six,annan,226-202_six-1,,0.069,0
+candidate & no profile,Wolio,Wolio,rat,bokoti,192-102_rat-1,,0.056,0
+candidate & no profile,Wolio,Wolio,thatch/roof,pada,192-62_thatchroof-1,,0.056,0
+candidate & no profile,Wolio,Wolio,sky,bula,192-128_sky-2,,0.066,0
+candidate & profile,all six,Tolaki,to cry,umi'ia,674-34_tocry-1,,0.963,0
+candidate & profile,all six,Tolaki,to see,ki'ii,674-46_tosee-1,,0.953,1
+candidate & profile,all six,Makassar,to think,ammikkiriʔ,166-21_tothink-1,,0.946,0
+candidate & profile,all six,Tolaki,"to cut, hack",pole'i,674-78_tocuthack-1,,0.942,0
+candidate & profile,all six,Tolaki,"to know, be knowledgeable",to'ori,674-20_toknowbeknowledgeable-1,,0.937,0
+candidate & profile,Bugis,Bugis,to hide,maʔkasubbu,48-171_tohide-1,,0.877,0
+candidate & profile,Bugis,Bugis,short,ma-poncoʔ,48-154_short-1,,0.746,0
+candidate & profile,Bugis,Bugis,"to open, uncover",timpaʔ,48-92_toopenuncover-1,,0.684,0
+candidate & profile,Makassar,Makassar,to think,ammikkiriʔ,166-21_tothink-1,,0.946,0
+candidate & profile,Makassar,Makassar,to dream,assoʔna,166-50_todream-1,,0.87,0
+candidate & profile,Makassar,Makassar,"to tie up, fasten",aññikkoʔ,166-66_totieupfasten-1,,0.869,0
+candidate & profile,Muna,Muna,wife,mie no lambu,27-58_wife-1,,0.678,0
+candidate & profile,Muna,Muna,husband,mie no lambu,27-57_husband-1,,0.614,0
+candidate & profile,Muna,Muna,how?,pedahai,27-194_how-1,,0.584,0
+candidate & profile,Tolaki,Tolaki,to cry,umi'ia,674-34_tocry-1,,0.963,0
+candidate & profile,Tolaki,Tolaki,to see,ki'ii,674-46_tosee-1,,0.953,1
+candidate & profile,Tolaki,Tolaki,"to cut, hack",pole'i,674-78_tocuthack-1,,0.942,0
+candidate & profile,Toraja-Sadan,Toraja-Sadan,to blow,pamurruʔ,226-137_toblow-1,,0.863,1
+candidate & profile,Toraja-Sadan,Toraja-Sadan,Fifty,limaŋpulo,226-208_fifty-1,,0.816,0
+candidate & profile,Toraja-Sadan,Toraja-Sadan,One Thousand,saŋsaʔbu,226-210_onethousand-1,,0.791,1
+candidate & profile,Wolio,Wolio,cloud,ta'ina ŋalu,192-131_cloud-1,,0.833,1
+candidate & profile,Wolio,Wolio,all,maliŋu,192-191_all-2,,0.76,0
+candidate & profile,Wolio,Wolio,"to cut, hack",laelae,192-78_tocuthack-2,,0.743,0
+coded & no profile,all six,Tolaki,thatch/roof,ato,674-62_thatchroof-1,1,0.007,0
+coded & no profile,all six,Muna,father,ama,27-60_father-1,1,0.008,0
+coded & no profile,all six,Tolaki,father,ama,674-60_father-1,1,0.009,0
+coded & no profile,all six,Tolaki,child,ana,674-56_child-1,1,0.009,0
+coded & no profile,all six,Muna,child,ana,27-56_child-1,1,0.009,0
+coded & no profile,Bugis,Bugis,dog,asu,48-96_dog-1,1,0.011,0
+coded & no profile,Bugis,Bugis,stick/wood,aju,48-79_stickwood-1,1,0.012,0
+coded & no profile,Bugis,Bugis,leg/foot,aje,48-4_legfoot-1,1?,0.017,0
+coded & no profile,Makassar,Makassar,right,kanaŋ,166-3_right-1,"1,73",0.016,0
+coded & no profile,Makassar,Makassar,liver,atɛ,166-17_liver-1,1,0.02,0
+coded & no profile,Makassar,Makassar,child,anaʔ,166-56_child-1,1,0.026,0
+coded & no profile,Muna,Muna,father,ama,27-60_father-1,1,0.008,0
+coded & no profile,Muna,Muna,child,ana,27-56_child-1,1,0.009,0
+coded & no profile,Muna,Muna,night,alo,27-167_night-2,25,0.01,0
+coded & no profile,Tolaki,Tolaki,thatch/roof,ato,674-62_thatchroof-1,1,0.007,0
+coded & no profile,Tolaki,Tolaki,father,ama,674-60_father-1,1,0.009,0
+coded & no profile,Tolaki,Tolaki,child,ana,674-56_child-1,1,0.009,0
+coded & no profile,Toraja-Sadan,Toraja-Sadan,dog,asu,226-96_dog-1,1,0.01,0
+coded & no profile,Toraja-Sadan,Toraja-Sadan,liver,ate,226-17_liver-1,1,0.018,0
+coded & no profile,Toraja-Sadan,Toraja-Sadan,spider,laa,226-110_spider-1,1,0.019,0
+coded & no profile,Wolio,Wolio,father,ama,192-60_father-1,1,0.01,0
+coded & no profile,Wolio,Wolio,child,ana,192-56_child-1,1,0.012,0
+coded & no profile,Wolio,Wolio,leg/foot,ae,192-4_legfoot-1,1,0.015,0
+coded & profile,all six,Wolio,red,male'i,192-149_red-1,1,0.92,1
+coded & profile,all six,Wolio,near,marampi,192-179_near-2,25,0.872,0
+coded & profile,all six,Wolio,to say,pogau,192-64_tosay-1,24,0.865,1
+coded & profile,all six,Bugis,to hear,mar-eŋkaliŋa,48-44_tohear-1,"1,81",0.821,0
+coded & profile,all six,Muna,wind,kawea,27-136_wind-1,30,0.789,0
+coded & profile,Bugis,Bugis,to hear,mar-eŋkaliŋa,48-44_tohear-1,"1,81",0.821,0
+coded & profile,Bugis,Bugis,dirty,ma-rotaʔ,48-10_dirty-1,24,0.783,0
+coded & profile,Bugis,Bugis,narrow,ma-cikkəʔ,48-158_narrow-1,1?,0.769,0
+coded & profile,Makassar,Makassar,fat/grease,jamɛʔjamɛʔ,166-104_fatgrease-1,2,0.767,0
+coded & profile,Makassar,Makassar,to hear,allaŋŋɛrɛʔ,166-44_tohear-1,1,0.767,0
+coded & profile,Makassar,Makassar,worm (earthworm),gallaŋgallaŋ,166-107_wormearthworm-1,15,0.747,0
+coded & profile,Muna,Muna,wind,kawea,27-136_wind-1,30,0.789,0
+coded & profile,Muna,Muna,night,korondoha,27-167_night-1,26,0.69,0
+coded & profile,Muna,Muna,flower,kambea,27-116_flower-1,21?,0.629,0
+coded & profile,Tolaki,Tolaki,to eat,kaa,674-37_toeat-1,1,0.729,0
+coded & profile,Tolaki,Tolaki,to walk,molako,674-5_towalk-1,1,0.607,0
+coded & profile,Tolaki,Tolaki,to swim,lumangu,674-9_toswim-1,1,0.524,0
+coded & profile,Toraja-Sadan,Toraja-Sadan,near,dappiʔ,226-179_near-1,25?,0.734,0
+coded & profile,Toraja-Sadan,Toraja-Sadan,you,kamu,226-186_you-1,1,0.7,0
+coded & profile,Toraja-Sadan,Toraja-Sadan,to walk,liŋka,226-5_towalk-1,20,0.675,0
+coded & profile,Wolio,Wolio,red,male'i,192-149_red-1,1,0.92,1
+coded & profile,Wolio,Wolio,near,marampi,192-179_near-2,25,0.872,0
+coded & profile,Wolio,Wolio,to say,pogau,192-64_tosay-1,24,0.865,1

@@ -1,0 +1,227 @@
+{
+  "V0_as_published": {
+    "forms_changed": 0,
+    "share_with_glottal_feature": 0.15475313190862197,
+    "cv_auc_25": 0.7265,
+    "cv_sd_25": 0.0066,
+    "lolo_mean_25": 0.7008,
+    "lolo_25": {
+      "Bugis": 0.706,
+      "Makassar": 0.711,
+      "Muna": 0.614,
+      "Tolaki": 0.809,
+      "Toraja-Sadan": 0.697,
+      "Wolio": 0.667
+    },
+    "cv_auc_26": 0.7626,
+    "cv_sd_26": 0.0072,
+    "lolo_mean_26": 0.7221,
+    "lolo_26": {
+      "Bugis": 0.723,
+      "Makassar": 0.738,
+      "Muna": 0.678,
+      "Tolaki": 0.81,
+      "Toraja-Sadan": 0.683,
+      "Wolio": 0.701
+    },
+    "delta_cv_25": 0.0,
+    "delta_cv_26": 0.0,
+    "delta_lolo_25": 0.0
+  },
+  "V1_q": {
+    "forms_changed": 210,
+    "share_with_glottal_feature": 0.0,
+    "cv_auc_25": 0.7103,
+    "cv_sd_25": 0.0075,
+    "lolo_mean_25": 0.681,
+    "lolo_25": {
+      "Bugis": 0.697,
+      "Makassar": 0.652,
+      "Muna": 0.622,
+      "Tolaki": 0.793,
+      "Toraja-Sadan": 0.668,
+      "Wolio": 0.655
+    },
+    "cv_auc_26": 0.7599,
+    "cv_sd_26": 0.0062,
+    "lolo_mean_26": 0.7101,
+    "lolo_26": {
+      "Bugis": 0.72,
+      "Makassar": 0.712,
+      "Muna": 0.693,
+      "Tolaki": 0.79,
+      "Toraja-Sadan": 0.663,
+      "Wolio": 0.684
+    },
+    "delta_cv_25": -0.0162,
+    "delta_cv_26": -0.0027,
+    "delta_lolo_25": -0.0198
+  },
+  "V2_k": {
+    "forms_changed": 210,
+    "share_with_glottal_feature": 0.0,
+    "cv_auc_25": 0.7104,
+    "cv_sd_25": 0.0073,
+    "lolo_mean_25": 0.6765,
+    "lolo_25": {
+      "Bugis": 0.696,
+      "Makassar": 0.659,
+      "Muna": 0.601,
+      "Tolaki": 0.79,
+      "Toraja-Sadan": 0.653,
+      "Wolio": 0.66
+    },
+    "cv_auc_26": 0.7614,
+    "cv_sd_26": 0.0061,
+    "lolo_mean_26": 0.7037,
+    "lolo_26": {
+      "Bugis": 0.707,
+      "Makassar": 0.709,
+      "Muna": 0.67,
+      "Tolaki": 0.787,
+      "Toraja-Sadan": 0.661,
+      "Wolio": 0.689
+    },
+    "delta_cv_25": -0.0161,
+    "delta_cv_26": -0.0012,
+    "delta_lolo_25": -0.0243
+  },
+  "V3_unwritten": {
+    "forms_changed": 210,
+    "share_with_glottal_feature": 0.0,
+    "cv_auc_25": 0.7204,
+    "cv_sd_25": 0.0055,
+    "lolo_mean_25": 0.6993,
+    "lolo_25": {
+      "Bugis": 0.689,
+      "Makassar": 0.672,
+      "Muna": 0.678,
+      "Tolaki": 0.79,
+      "Toraja-Sadan": 0.699,
+      "Wolio": 0.668
+    },
+    "cv_auc_26": 0.7588,
+    "cv_sd_26": 0.0049,
+    "lolo_mean_26": 0.6977,
+    "lolo_26": {
+      "Bugis": 0.702,
+      "Makassar": 0.702,
+      "Muna": 0.662,
+      "Tolaki": 0.775,
+      "Toraja-Sadan": 0.656,
+      "Wolio": 0.689
+    },
+    "delta_cv_25": -0.0061,
+    "delta_cv_26": -0.0038,
+    "delta_lolo_25": -0.0015
+  },
+  "V4_geminate": {
+    "forms_changed": 210,
+    "share_with_glottal_feature": 0.0,
+    "cv_auc_25": 0.7196,
+    "cv_sd_25": 0.0063,
+    "lolo_mean_25": 0.6959,
+    "lolo_25": {
+      "Bugis": 0.699,
+      "Makassar": 0.631,
+      "Muna": 0.667,
+      "Tolaki": 0.814,
+      "Toraja-Sadan": 0.716,
+      "Wolio": 0.649
+    },
+    "cv_auc_26": 0.7627,
+    "cv_sd_26": 0.0061,
+    "lolo_mean_26": 0.7097,
+    "lolo_26": {
+      "Bugis": 0.724,
+      "Makassar": 0.714,
+      "Muna": 0.681,
+      "Tolaki": 0.785,
+      "Toraja-Sadan": 0.664,
+      "Wolio": 0.69
+    },
+    "delta_cv_25": -0.0069,
+    "delta_cv_26": 0.0001,
+    "delta_lolo_25": -0.0049
+  },
+  "V5_all_as_glottal_letter": {
+    "forms_changed": 32,
+    "share_with_glottal_feature": 0.15475313190862197,
+    "cv_auc_25": 0.7265,
+    "cv_sd_25": 0.0066,
+    "lolo_mean_25": 0.7008,
+    "lolo_25": {
+      "Bugis": 0.706,
+      "Makassar": 0.711,
+      "Muna": 0.614,
+      "Tolaki": 0.809,
+      "Toraja-Sadan": 0.697,
+      "Wolio": 0.667
+    },
+    "cv_auc_26": 0.7626,
+    "cv_sd_26": 0.0072,
+    "lolo_mean_26": 0.7221,
+    "lolo_26": {
+      "Bugis": 0.723,
+      "Makassar": 0.738,
+      "Muna": 0.678,
+      "Tolaki": 0.81,
+      "Toraja-Sadan": 0.683,
+      "Wolio": 0.701
+    },
+    "delta_cv_25": 0.0,
+    "delta_cv_26": 0.0,
+    "delta_lolo_25": 0.0
+  },
+  "V6_feature_removed": {
+    "forms_changed": 0,
+    "share_with_glottal_feature": null,
+    "cv_auc_25": 0.7103,
+    "cv_sd_25": 0.0075,
+    "lolo_mean_25": 0.681,
+    "lolo_25": {
+      "Bugis": 0.697,
+      "Makassar": 0.652,
+      "Muna": 0.622,
+      "Tolaki": 0.793,
+      "Toraja-Sadan": 0.668,
+      "Wolio": 0.655
+    },
+    "cv_auc_26": 0.7599,
+    "cv_sd_26": 0.0062,
+    "lolo_mean_26": 0.7101,
+    "lolo_26": {
+      "Bugis": 0.72,
+      "Makassar": 0.712,
+      "Muna": 0.693,
+      "Tolaki": 0.79,
+      "Toraja-Sadan": 0.663,
+      "Wolio": 0.684
+    },
+    "delta_cv_25": -0.0162,
+    "delta_cv_26": -0.0027,
+    "delta_lolo_25": -0.0198
+  },
+  "_decision": {
+    "largest_abs_delta_cv_25": 0.0162,
+    "rule_outcome": "partial dependence (0.010–0.020)"
+  },
+  "_note_cluster_feature": {
+    "forms_whose_cluster_count_changes_when_apostrophe_is_written_as_glottal_letter": {
+      "Bugis": 0,
+      "Makassar": 0,
+      "Muna": 0,
+      "Tolaki": 0,
+      "Toraja-Sadan": 0,
+      "Wolio": 0
+    },
+    "forms_where_glottal_letter_plus_consonant_is_counted_as_a_cluster": {
+      "Bugis": 2,
+      "Makassar": 26,
+      "Muna": 0,
+      "Tolaki": 0,
+      "Toraja-Sadan": 7,
+      "Wolio": 0
+    }
+  }
+}

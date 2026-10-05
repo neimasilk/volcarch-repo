@@ -1,0 +1,166 @@
+==============================================================================
+A. CORPUS, UNITS AND LABELS
+==============================================================================
+[MATCH           ] A01 (tex 40,86) total forms, six languages: paper=1357 | recomputed=1357 | 0 forms empty after cleaning
+[MATCH           ] A02 (tex 86) forms per language: paper={'Muna': 219, 'Bugis': 242, 'Makassar': 217, 'Wolio': 254, 'Toraja-Sadan': 216, 'Tolaki': 209} | recomputed={'Bugis': 242, 'Makassar': 217, 'Muna': 219, 'Tolaki': 209, 'Toraja-Sadan': 216, 'Wolio': 254}
+[MATCH           ] A03 (tex 89) number of distinct concepts: paper=210 | recomputed=210
+[NOTE            ] A04 (tex 89) UNITS: 'each form covers one of 210 concepts' — concepts covered per language: paper=210 implied | recomputed={'Bugis': 210, 'Makassar': 210, 'Muna': 205, 'Tolaki': 200, 'Toraja-Sadan': 209, 'Wolio': 206} | concepts with >1 form per language: {'Bugis': 31, 'Makassar': 7, 'Muna': 13, 'Tolaki': 9, 'Toraja-Sadan': 7, 'Wolio': 41}; exact duplicate (lang,concept,form) rows: 0. All rates in the paper are per FORM, not per concept (meaning).
+[MATCH           ] A05 (tex 93) forms with ABVD cognacy code ('Austronesian', n=919): paper=919 | recomputed=919
+[MATCH           ] A06 (tex 40,93) forms without ABVD cognacy code (the '438 candidates'): paper=438 | recomputed=438 | per language {'Bugis': 62, 'Makassar': 80, 'Muna': 34, 'Tolaki': 134, 'Toraja-Sadan': 45, 'Wolio': 83}
+[MISMATCH        ] A07 (tex 40) abstract: '438 candidate forms (26.5% of the corpus)': paper=26.5% | recomputed=32.3% | 438/1357 = 32.3%. 26.5% is the mean of six per-language rates of a DIFFERENT, smaller set (356 forms; see A10).
+[MATCH           ] A08 (tex 235-240) Table 1 rows (total, has cognacy, residual, % residual): paper=as printed | recomputed={'Bugis': {'total': 242, 'has_cog': 180, 'residual': 49, 'pct_residual': 20.2}, 'Makassar': {'total': 217, 'has_cog': 137, 'residual': 67, 'pct_residual': 30.9}, 'Muna': {'total': 219, 'has_cog': 185, 'residual': 26, 'pct_residual': 11.9}, 'Tolaki': {'total': 209, 'has_cog': 75, 'residual': 114, 'pct_residual': 54.5}, 'Toraja-Sadan': {'total': 216, 'has_cog': 171, 'residual': 32, 'pct_residual': 14.8}, 'Wolio': {'total': 254, 'has_cog': 171, 'residual': 68, 'pct_residual': 26.8}}
+[MATCH           ] A09 (tex 110,242) mean of per-language residual rates: paper=26.5% | recomputed=26.5%
+[NOT-AS-DESCRIBED] A10 (tex 40,93,404) LABEL SETS: Table 1 residuals vs the set used as ML label / 'rule-based residuals': paper=one set implied (438) | recomputed=Table 1 set = 356 forms (26.2% of corpus); ML label set = 438 | The paper describes one rule-based residual set. There are two: 356 (after loan filter + PAn list) in Table 1, and 438 (blank cognacy only) everywhere else: ML labels, LOLO table, consensus, clustering.
+[MATCH           ] A11 (tex 107,247) forms 'rescued' by the PAn cross-check: paper=75 | recomputed=75 | per language {'Bugis': 12, 'Makassar': 12, 'Muna': 7, 'Tolaki': 16, 'Toraja-Sadan': 13, 'Wolio': 15}
+[MATCH           ] A12 (tex 107) number of PAn/PMP reconstructions in the list: paper=15 | recomputed=15
+[NOT-AS-DESCRIBED] A13 (tex 107) METHOD: PAn cross-check compares forms with reconstructions: paper=form-level check implied | recomputed=concept-level filter | Code rescues EVERY uncoded form whose MEANING is one of 15 concepts; the form itself is never compared with the reconstruction. Listed in results/pan_rescued_75.csv for a linguist to inspect.
+[MISMATCH        ] A14 (tex 93) label description: forms 'rescued through PAn cross-checking were labeled Austronesian (n=919)': paper=rescued forms inside the 919 | recomputed=0 of 75 rescued forms are inside the 919 | 919 = forms with an ABVD cognacy code only. The 75 'rescued' forms carry the ML label 'candidate'.
+[NOTE            ] A15 (tex 106) forms removed by the loanword layer (pattern lists + ABVD Loan flag): paper=not stated | recomputed=16 forms tagged; 7 of them uncoded | see results/loan_layer_hits.csv — pattern matches are string matches against Indonesian/Sanskrit words
+[MISMATCH        ] A16 (tex 111,248) concepts residual 'in five or more of the six languages' (Table-1 definition): paper=['big', 'grass', 'if', 'they', 'to bite', 'to cut, hack', 'to throw', 'to tie up, fasten'] | recomputed=['if', 'to throw', 'to tie up, fasten'] | The paper's eight are concepts with >= 5 residual FORMS (same list); a language with two or three synonyms was counted two or three times. Languages per concept: {'big': 4, 'grass': 4, 'if': 5, 'they': 4, 'to bite': 3, 'to cut, hack': 3, 'to throw': 5, 'to tie up, fasten': 5}
+[NOTE            ] A17 (tex 111) same count under the ML-label definition (blank cognacy): paper=8 (paper gives one list) | recomputed=11: ['One Thousand', 'cloud', 'if', 'rope', 'to hit', 'to hold', 'to say', 'to see', 'to stand', 'to throw', 'to tie up, fasten']
+[MATCH           ] A18 (tex 114,528) Tolaki cognacy coverage: paper=36% | recomputed=36%
+
+==============================================================================
+B. FEATURES
+==============================================================================
+[MATCH           ] B01 (tex —) stored feature matrix reproducible from raw ABVD (rows matched / columns differing): paper=n/a | recomputed=1357/1357 rows matched; differing columns: none
+[NOT-AS-DESCRIBED] B02 (tex 141) feature 'language-level cognacy coverage rate (proportion of forms with ABVD cognate codes)': paper={'Bugis': 0.744, 'Makassar': 0.631, 'Muna': 0.845, 'Tolaki': 0.359, 'Toraja-Sadan': 0.792, 'Wolio': 0.673} | recomputed={'Muna': 0.718, 'Bugis': 0.777, 'Makassar': 0.779, 'Wolio': 0.747, 'Toraja-Sadan': 0.816, 'Tolaki': 0.402} | Values are hard-coded as 1 - (an early residual rate quoted 'from memory'); e.g. Muna 0.718 vs true coverage 0.845. Rank order of languages also differs. Affects every model that keeps this feature (full Model B, SHAP figure, consensus, expansion). The headline 26-feature model drops it.
+[MATCH           ] B03 (tex 127,132-141,321) feature counts: full / ablated / pure: paper=27 / 26 / 25 | recomputed=27 / 26 / 25 | composition = 9 form features + 8 initial-segment dummies + 1 core-list flag + 7 semantic-domain dummies (+ language id, + coverage). The paper's breakdown '10 + 8 + 2 + 2' sums to 22 and counts the initial segment twice.
+[NOT-AS-DESCRIBED] B04 (tex 41) abstract: '26 phonological and distributional features — excluding all cognacy data': paper=phonological + distributional | recomputed=17 form-based, 8 semantic, 1 language identity | 'Distributional' is the paper's own name for the cognacy-derived features that Model B EXCLUDES (tex 126). 8 of the 26 are semantic, 1 is the language's identity.
+
+==============================================================================
+C. MODELS
+==============================================================================
+[MATCH           ] C01 (tex 271,279,331) Model B (27 feat.) XGBoost CV AUC: paper=0.760 ± 0.007 | recomputed=0.7599 ± 0.0073 | ± is the SD of 10 seed means; SD over the 50 folds = 0.028 (the paper says 50 splits)
+[MATCH           ] C02 (tex 41,332,497,594) HEADLINE: ablated (26 feat.) CV AUC: paper=0.763 ± 0.007 | recomputed=0.7626 ± 0.0072 | SD over folds = 0.028
+[MATCH           ] C03 (tex 333) 'pure phonological' (25 feat.) CV AUC: paper=0.727 ± 0.007 | recomputed=0.7265 ± 0.0066 | this, not the 26-feature model, is the model with no language information; it still has 8 semantic features
+[MATCH           ] C04 (tex 271) Model B XGBoost F1 / accuracy: paper=0.822 / 0.741 | recomputed=0.822 / 0.741
+[NOT-AS-DESCRIBED] C05 (tex 265-273) which class the F1 column scores: paper=not stated | recomputed=F1 of the 'Austronesian' (majority) class; F1 of the candidate class = 0.526 | In a paper about detecting non-mainstream forms the reader will take F1 = 0.82 as the detection score.
+[NOTE            ] C06 (tex 271) accuracy vs the majority-class baseline: paper=0.741 (no baseline given) | recomputed=always-'Austronesian' accuracy = 0.677 | accuracy 0.741 is ~6 points above doing nothing
+[MISMATCH        ] C07 (tex 153) XGBoost 'scale_pos_weight adjusted for class imbalance': paper=adjusted | recomputed=scale_pos_weight = 1.0 in every script | no class weighting was applied to XGBoost
+[MATCH           ] C08 (tex 272-273,280) Model B RF / LR CV AUC: paper=0.762 / 0.747 | recomputed=0.762 / 0.747
+[MATCH           ] C09 (tex 126,267) Model A feature count and CV AUC: paper=31 / 1.000 | recomputed=31 / 0.9997 | Model A needs the cognate-set features; reproduced from the stored matrix
+[MATCH           ] C10 (tex 294-299) Table 3 LOLO rows (AUC, F1, Acc, N, N_substr): paper=as printed | recomputed={'Bugis': (0.727, 0.799, 0.707, 242, 62), 'Makassar': (0.747, 0.781, 0.659, 217, 80), 'Muna': (0.618, 0.465, 0.402, 219, 34), 'Tolaki': (0.806, 0.53, 0.364, 209, 134), 'Toraja-Sadan': (0.696, 0.787, 0.69, 216, 45), 'Wolio': (0.697, 0.798, 0.669, 254, 83)} | N_substr = forms with blank cognacy (438 set), not the Table 1 residuals
+[MATCH           ] C11 (tex 301) LOLO mean AUC ± SD (27 feat.): paper=0.715 ± 0.057 | recomputed=0.715 ± 0.057
+[NOTE            ] C12 (tex 294,299) LOLO accuracy for Tolaki and Muna: paper=0.364 / 0.402 | recomputed=0.364 / 0.402; majority baselines 0.641 / 0.845 | Both far BELOW the majority baseline: with the language features the held-out language is thresholded wrongly. AUC (ranking) is unaffected; the text does not comment on these two accuracies.
+[MATCH           ] C13 (tex 332,338,498) ablated LOLO mean AUC / languages >= 0.65: paper=0.722 / 6 of 6 | recomputed=0.722 / 6 of 6 | per language {'Bugis': 0.723, 'Makassar': 0.738, 'Muna': 0.678, 'Tolaki': 0.81, 'Toraja-Sadan': 0.683, 'Wolio': 0.701}
+[MATCH           ] C14 (tex 333) pure LOLO mean AUC / languages >= 0.65: paper=0.701 / 5 of 6 | recomputed=0.701 / 5 of 6
+[MATCH           ] C15 (tex 339) Muna LOLO AUC: full -> ablated: paper=0.618 -> 0.679 | recomputed=0.618 -> 0.678
+[MATCH           ] C16 (tex 313,532) CV AUC without Tolaki (27 feat.): paper=0.698 (Δ = −0.062) | recomputed=0.6979 (Δ = -0.062)
+[NOTE            ] C17 (tex 313) same sensitivity for the HEADLINE (26 feat.) and the pure (25 feat.) model: paper=not reported | recomputed=26 feat.: 0.700 (Δ = -0.062); 25 feat.: 0.701 (Δ = -0.025) | the paper reports the Tolaki sensitivity for the 27-feature model only
+[UNSUPPORTED     ] C18 (tex 313) 'remained above the 0.65 threshold': paper=0.65 presented as a threshold | recomputed=no source | 0.65 is the project's own go/no-go line (E027 PLAN), not a convention; R2 asks what range counts as reliable
+
+==============================================================================
+D. DIRECTION OF THE FINGERPRINT PROPERTIES
+==============================================================================
+               property  mean_candidate  mean_coded  diff_Bugis  diff_Makassar  diff_Muna  diff_Tolaki  diff_Toraja-Sadan  diff_Wolio  n_langs_positive  MH_OR  MH_lo  MH_hi
+0           form_length           6.096       5.205       1.086          1.453      0.992        1.544              0.699       0.779                 6    NaN    NaN    NaN
+1              n_vowels           2.877       2.539       0.220          0.460      0.564        0.706              0.149       0.270                 6    NaN    NaN    NaN
+2  n_consonant_clusters           0.479       0.317       0.270          0.486      0.044        0.116              0.171       0.150                 6    NaN    NaN    NaN
+3           has_glottal           0.235       0.116       0.129          0.163      0.000        0.216              0.168       0.012                 5  2.669  1.882  3.785
+4       has_prefix_like           0.370       0.252       0.194          0.037      0.071        0.181              0.012       0.041                 6  1.568  1.203  2.045
+5     has_nasal_cluster           0.304       0.237       0.046          0.029      0.065        0.116              0.138       0.115                 6  1.555  1.183  2.044
+6     has_reduplication           0.119       0.098       0.116          0.026      0.050        0.069             -0.030       0.025                 5  1.678  1.120  2.513
+7         ends_in_vowel           0.785       0.792      -0.151         -0.058      0.000        0.000             -0.102       0.000                 0  0.659  0.467  0.929
+8            sem_ACTION           0.404       0.234       0.169          0.196      0.222        0.219              0.182       0.164                 6  2.462  1.894  3.201
+9         is_core_vocab           0.836       0.832       0.054         -0.138     -0.001        0.121             -0.070       0.048                 3  1.039  0.757  1.427
+[DIRECTION       ] D01 (tex 41,385,448,497) 'fewer canonical Austronesian prefixes' among non-mainstream forms: paper=fewer | recomputed=prefix-like onset: candidates 37.0% vs coded 25.2%; within-language OR = 1.57 [1.20, 2.04]; higher in 6 of 6 languages | The stated direction is the reverse of the data. Mean |SHAP| of this feature is rank 23 of 27 (E02).
+[MATCH           ] D02 (tex 41,382,563) 'higher rates of glottal stops' among non-mainstream forms: paper=higher | recomputed=candidates 23.5% vs coded 11.6%; within-language OR = 2.67 [1.88, 3.79]; higher in 5 of 6 languages | per-language detail in results/glottal_by_language.csv
+[MATCH           ] D03 (tex 41,381) 'more consonant clusters': paper=more | recomputed=mean clusters: candidates 0.48 vs coded 0.32; higher in 6 of 6 | counted on orthography: 'ng', 'ngk', 'mb' etc. count as clusters (see E05)
+[MATCH           ] D04 (tex 41,379) 'longer forms': 2.57 vs 2.29 syllables: paper=2.57 vs 2.29 | recomputed=vowel nuclei: 2.57 vs 2.29; vowel letters 2.88 vs 2.54; characters 6.10 vs 5.20; longer in 6 of 6 | 'syllable' = maximal run of vowel letters, so every vowel sequence (ae, oo, ia) counts as ONE syllable; in these languages most such sequences are two syllables, so both figures undercount
+[MATCH           ] D05 (tex 380,504) action concepts over-represented among candidates: paper=over-represented | recomputed=candidates 40.4% vs coded 23.4%; OR = 2.46 [1.89, 3.20]
+                n  glottal  apostrophe  ipa_glottal  final_q  final_k  any_q  pct_glottal  glottal_rate_candidate  glottal_rate_coded
+language                                                                                                                             
+Bugis         242       51           0           51        0        0      0         21.1                    30.6                17.8
+Makassar      217       78           0           78        0        0      0         35.9                    46.2                29.9
+Muna          219        0           0            0        0        0      0          0.0                     0.0                 0.0
+Tolaki        209       29          29            0        0        0      0         13.9                    21.6                 0.0
+Toraja-Sadan  216       48           1           47        0       11      0         22.2                    35.6                18.7
+Wolio         254        4           2            2        0        0      0          1.6                     2.4                 1.2
+[NOTE            ] D06 (tex 135,382) UNITS: how the six sources write the glottal stop: paper='ʔ or orthographic apostrophe' | recomputed={'Bugis': {'apostrophe': 0, 'ipa_glottal': 51, 'final_q': 0, 'final_k': 0, 'pct_glottal': 21.1}, 'Makassar': {'apostrophe': 0, 'ipa_glottal': 78, 'final_q': 0, 'final_k': 0, 'pct_glottal': 35.9}, 'Muna': {'apostrophe': 0, 'ipa_glottal': 0, 'final_q': 0, 'final_k': 0, 'pct_glottal': 0.0}, 'Tolaki': {'apostrophe': 29, 'ipa_glottal': 0, 'final_q': 0, 'final_k': 0, 'pct_glottal': 13.9}, 'Toraja-Sadan': {'apostrophe': 1, 'ipa_glottal': 47, 'final_q': 0, 'final_k': 11, 'pct_glottal': 22.2}, 'Wolio': {'apostrophe': 2, 'ipa_glottal': 2, 'final_q': 0, 'final_k': 0, 'pct_glottal': 1.6}} | the marker rate differs several-fold between sources; reviewer 1's point 9 is about exactly this
+
+==============================================================================
+E. SHAP
+==============================================================================
+[MATCH           ] E01 (tex 378-382) top-5 mean |SHAP| (27-feature model): paper=[('language_cognacy_coverage', 0.559), ('form_length', 0.378), ('sem_ACTION', 0.23), ('n_consonant_clusters', 0.19), ('has_glottal', 0.188)] | recomputed=[('language_cognacy_coverage', 0.559), ('form_length', 0.378), ('sem_ACTION', 0.23), ('n_consonant_clusters', 0.19), ('has_glottal', 0.187)]
+[NOTE            ] E02 (tex 385,497) rank of the prefix feature in SHAP: paper=part of the fingerprint | recomputed=rank 23 of 27 (mean |SHAP| 0.029)
+[NOT-AS-DESCRIBED] E03 (tex 366-383) SHAP analysis is of the headline model: paper=implied | recomputed=SHAP figure and values are from the 27-feature model; headline AUC is from the 26-feature model | top-5 of the 26-feature model: [('language_id_encoded', 0.586), ('form_length', 0.288), ('n_vowels', 0.285), ('sem_ACTION', 0.218), ('n_consonant_clusters', 0.214), ('has_glottal', 0.197)]
+[DIRECTION       ] E04 (tex 371) Figure 1 caption: 'positive SHAP values push toward substrate classification': paper=positive = substrate | recomputed=model output = P(has cognacy code); corr(form_length, its SHAP) = -0.83 | Positive SHAP pushes toward 'Austronesian'. The figure's own title says so ('Predicting Austronesian (label=1)'). The verbal conclusions (longer = candidate) are right; the caption is inverted.
+[NOTE            ] E05 (tex 375-383) features ranked 6th-10th are not discussed: paper=five listed | recomputed=sem_OTHER rank 6 (0.182), then n_vowels, vowel_ratio, language id, core-list flag | 206 of 1357 forms (15%) fall in the residual domain 'OTHER'
+[UNSUPPORTED     ] E06 (tex 90,139) source of the semantic domains and of the 'Swadesh-100' subset (R2 asks): paper=Swadesh (1955) cited | recomputed=hand-written concept sets inside 00_prepare_features.py (SEMANTIC_DOMAINS, SWADESH_100) | The 'Swadesh-100' set in the code has 176 concepts, 83% of forms are flagged core. Neither list is taken from Concepticon/WOLD.
+
+==============================================================================
+F. CONSENSUS (as published)
+==============================================================================
+[MATCH           ] F01 (tex 402) quadrants CS / CA / RO / MO: paper=266 / 878 / 172 / 41 | recomputed=266 / 878 / 172 / 41
+[MATCH           ] F02 (tex 43,401,597) Cohen's kappa between the two methods: paper=0.611 | recomputed=0.61
+[NOT-AS-DESCRIBED] F03 (tex 178-187,404,546) INDEPENDENCE of the two 'methods': paper='confirmed independently by ML' | recomputed=ML probabilities are IN-SAMPLE: the model was fitted to the rule label on these same 1,357 forms (in-sample AUC 0.909 vs cross-validated 0.760) | kappa = 0.61 measures how well the model memorised its own training label, not agreement between two methods. The out-of-fold version is pre-registered in E228.
+[MATCH           ] F04 (tex 404) '266 CS forms = 60.7% of all rule-based residuals': paper=60.7% | recomputed=60.7% of 438 | denominator is the 438 blank-cognacy set, not Table 1's 356
+[MATCH           ] F05 (tex 405) CS forms per language: paper={'Tolaki': 121, 'Makassar': 48, 'Bugis': 36, 'Wolio': 36, 'Toraja-Sadan': 15, 'Muna': 10} | recomputed={'Tolaki': 121, 'Makassar': 48, 'Wolio': 36, 'Bugis': 36, 'Toraja-Sadan': 15, 'Muna': 10}
+[MISMATCH        ] F06 (tex 405 vs 240) INTERNAL: Tolaki CS forms (121) exceed Tolaki residuals in Table 1 (114): paper=121 > 114 | recomputed=121 CS vs 114 Table-1 residuals | a 'consensus of both methods' cannot be larger than one of them; consequence of the two label sets (A10)
+[MATCH           ] F07 (tex 407) CS by semantic domain: paper=ACTION 117, GRAMMAR 40, QUALITY 38, NATURE 20, NUMBER 20, BODY 12 | recomputed={'ACTION': 117, 'GRAMMAR': 40, 'QUALITY': 38, 'NATURE': 20, 'NUMBER': 20, 'OTHER': 19, 'BODY': 12} | OTHER (19) is omitted from the sentence; the six listed sum to 247 of 266
+[NOTE            ] F08 (tex 407,504) 'predominance of action verbs' (44.0% of CS): paper=44.0% | recomputed=CS 44.0% vs whole corpus 28.9% | no base rate is given in the paper; sem_ACTION is also an input feature of the model that defines CS
+[MATCH           ] F09 (tex 411) RO vs CS: length / glottal / clusters: paper=5.35 vs 6.58 / 10.5% vs 32.0% / 0.35 vs 0.56 | recomputed=5.35 vs 6.58 / 10.5% vs 32.0% / 0.35 vs 0.56 | these are the model's own input features: the split is by construction, not a finding
+[MATCH           ] F10 (tex 414) MO: length / glottal / clusters (vs CA): paper=6.63 / 26.8% / 0.73 vs 0.30 | recomputed=6.63 / 26.8% / 0.73 vs 0.30
+[MISMATCH        ] F11 (tex 563) 'substrate candidates 32.0% glottal vs consensus Austronesian forms 10.5%': paper=CA = 10.5% | recomputed=CA = 10.9%; 10.5% is the RO value | wrong group named in §4.5
+[MATCH           ] F12 (tex 417) concepts that are CS in >= 4 languages: paper=['Fifty', 'One Hundred', 'Twenty', 'to hit', 'to stand'] | recomputed=['Fifty', 'One Hundred', 'Twenty', 'to hit', 'to stand']
+[MISMATCH        ] F13 (tex 417 vs 107) INTERNAL: are those concepts on the paper's own PAn list?: paper=not mentioned | recomputed=['to hit', 'to stand'] are on the 15-concept PAn list, i.e. the rule-based method had classed them as inherited | R2 asks why these five appear. Answer: the 'consensus' was computed on the label that ignores the PAn step; the other three are decimal compounds (tex 440-445).
+[MATCH           ] F14 (tex 380) top-50 candidates: 46% action, 26% quality, 16% grammatical: paper=46 / 26 / 16 | recomputed=46 / 26 / 16; languages in top-50: {'Tolaki': 49, 'Makassar': 1} | ranking is by in-sample probability of the 27-feature model
+
+==============================================================================
+G. CLUSTERING (as published)
+==============================================================================
+[MATCH           ] G01 (tex 425) Ward clustering: best k and silhouette: paper=k = 30, 0.114 | recomputed=stored row order: k = 30, 0.114 (same 266 forms: True); other row orders of the same forms: best silhouette 0.102–0.113 over 20 shuffles | the value depends on the order of the rows (ties in edit distance); the conclusion 'near zero' does not
+[NOT-AS-DESCRIBED] G02 (tex 207,425) 'optimal k = 30': paper=optimal | recomputed=k = 30 is the top of the searched range; beyond it: k=40: 0.126, k=60: 0.155, k=80: 0.191, k=100: 0.205, k=133: 0.201 | silhouette is still rising at the boundary, so 30 is not an optimum (R2 asks why 5–30). Ward linkage also assumes Euclidean distances; normalised edit distance is not Euclidean.
+[MATCH           ] G03 (tex 426) DBSCAN eps=0.3, min_samples=3: clusters / forms clustered / noise: paper=4 / 14 / 94.7% | recomputed=4 / 14 / 94.7% | 'best configuration' = highest silhouette over the 5% of forms that were not noise
+[MATCH           ] G04 (tex 213,430) concepts that are CS in >= 3 languages / mean cross-language distance: paper=20 / 0.769 | recomputed=20 / 0.769
+[MATCH           ] G05 (tex 442) distances for 'Fifty' and 'Twenty': paper=0.204 / 0.292 | recomputed=0.204 / 0.292
+[MATCH           ] G06 (tex 44,430-431) null mean ± SD and one-tailed p: paper=0.677 ± 0.226, p = 0.569 | recomputed=0.688 ± 0.218, p = 0.554 (range 0.525–0.582 over 20 seeds)
+[NOT-AS-DESCRIBED] G07 (tex 213-214,431) DESIGN of the test behind p = 0.569: paper='substrate forms vs random vocabulary' | recomputed=null = same-concept forms in 3 languages, 68% of which are cognate-coded; statistic = mean of 20 concepts compared with a distribution of single-concept draws | Two problems: (1) the null is ordinary same-meaning vocabulary, which is mostly cognate, so the test asks whether candidates resemble each other MORE than known cognates do; (2) a mean of 20 is compared with the spread of single draws. The conclusion (no detectable shared forms) may well survive, but p = 0.569 does not measure it. A concept-shuffle permutation test is pre-registered in E228.
+[NOTE            ] G08 (tex 430,440) composition of the 20 concepts: paper=two numeral compounds discussed | recomputed=numerals: ['Fifty', 'One Hundred', 'One Thousand', 'Twenty']; on the paper's PAn list: ['One Thousand', 'to blow', 'to hit', 'to hold', 'to say', 'to sit', 'to stand']
+
+==============================================================================
+H. EXPANSION (stored results)
+==============================================================================
+              n    rule      ml     auc       p
+group                                          
+E.Indonesian  2  0.3488  0.5194  0.6607  0.5197
+Original      6  0.2795  0.2311  0.8902  0.3259
+Sulawesi      8  0.4993  0.6237  0.6854  0.6058
+W.Indonesian  6  0.2838  0.3534  0.6336  0.3925
+[MATCH           ] H01 (tex 467-470) Table 5 group means: paper=as printed | recomputed={'E.Indonesian': {'n': 2, 'rule': 0.349, 'ml': 0.519, 'auc': 0.661, 'p': 0.52}, 'Original': {'n': 6, 'rule': 0.28, 'ml': 0.231, 'auc': 0.89, 'p': 0.326}, 'Sulawesi': {'n': 8, 'rule': 0.499, 'ml': 0.624, 'auc': 0.685, 'p': 0.606}, 'W.Indonesian': {'n': 6, 'rule': 0.284, 'ml': 0.353, 'auc': 0.634, 'p': 0.392}}
+[MISMATCH        ] H02 (tex 467) 'Original 6' mean rule-based rate: paper=28.0% | recomputed=stored per-language rates {'Muna': 0.155, 'Bugis': 0.223, 'Makassar': 0.221, 'Wolio': 0.253, 'Toraja-Sadan': 0.184, 'Tolaki': 0.641} vs rates of the label actually used {'Bugis': 0.256, 'Makassar': 0.369, 'Muna': 0.155, 'Tolaki': 0.641, 'Toraja-Sadan': 0.208, 'Wolio': 0.327} (mean 32.6%) | four of the six stored rates are hard-coded numbers that match neither Table 1 nor the label; the paper thus gives 26.5%, 28.0% and 32.3% for the same six languages
+[NOT-AS-DESCRIBED] H03 (tex 467,482) 'Original 6' AUC 0.890 compared with expansion AUC 0.663: paper=0.890 vs 0.663 | recomputed=0.890 is in-sample (model scored on its own training forms); the like-for-like figure is the LOLO mean 0.715
+[MATCH           ] H04 (tex 482) mean AUC over the 16 expansion languages: paper=0.663 | recomputed=0.663 | range 0.513–0.839; 4 of 16 below 0.60, 9 of 16 below the paper's own 0.65 line
+[UNSUPPORTED     ] H05 (tex 45,483) 'Sulawesi significantly higher' (0.606 vs 0.393): paper=significantly | recomputed=no test in the code (a fixed 0.03 cut-off); Mann-Whitney on the stored values: U = 42, p = 0.020 (8 vs 6 languages)
+[NOT-AS-DESCRIBED] H06 (tex 456,483) CIRCULARITY: language-level inputs given to the model for the 16 new languages: paper=not described | recomputed=coverage feature = each new language's own share of coded forms; language id = 3 for all (3 = Tolaki's code). Spearman rho(coverage, mean P_sub) across the 16 = -0.70 (p = 0.0025) | Established from the code (03_expansion_validation.py, lines 492-505), not from the correlation, which would also arise from a real signal. The model that scored the new languages was given each language's own rate of coded forms and the identity code of the language with the most candidates. The 'geographic pattern' has to be recomputed with the 25-feature model, which has no language-level input (E228, pre-registered).
+[MATCH           ] H07 (tex 468,486) Bolaang Mongondow 9.2% / Gorontalo 84.2% predicted: paper=9.2% / 84.2% | recomputed=9.2% (AUC 0.513) / 84.2% (AUC 0.567) | both languages have the two lowest AUCs of the table (near chance); the text explains Mongondow by 'Gorontalic retention' while Gorontalo itself is the opposite outlier — domain check needed (PI)
+
+==============================================================================
+I. DIGRAPHS
+==============================================================================
+[MATCH           ] I01 (tex 349) forms changed by digraph conversion / Muna: paper=75 (5.5%) / 54 (24.7%) | recomputed=75 (5.5%) / 54 (24.7%) | per language {'Bugis': 0, 'Makassar': 0, 'Muna': 54, 'Tolaki': 20, 'Toraja-Sadan': 1, 'Wolio': 0}
+[MISMATCH        ] I02 (tex 348) digraph list in the text: ng, ny (all); gh, bh (Muna): paper=4 digraphs | recomputed=code converts ['ng', 'ny'] for all, {'Muna': ['gh', 'bh', 'dh'], 'Wolio': ['gh']} | Muna dh WAS converted (to a dental fricative symbol) but is missing from the sentence; Wolio gh is also unlisted
+[NOTE            ] I03 (tex 348) REVIEWER 1 POINT 8: Muna forms containing dh / gh / bh (total, of which uncoded): paper=dh not mentioned | recomputed={'dh': '2 forms, 0 uncoded', 'gh': '29 forms, 3 uncoded', 'bh': '14 forms, 3 uncoded', 'ng': '11 forms, 2 uncoded', 'ny': '0 forms, 0 uncoded'} | dh forms: akaradhaa 'to work'; idho 'green'
+[NOTE            ] I04 (tex 135,381) UNITS: digraph 'ng' counted as a consonant cluster and as a nasal cluster: paper=not stated | recomputed=32 forms (2%) contain 'ng'; in the orthographic features each counts as CC | the cluster feature partly measures how often a language has the velar nasal
+
+==============================================================================
+{
+  "n_claims": 85,
+  "by_verdict": {
+    "MATCH": 47,
+    "NOTE": 13,
+    "NOT-AS-DESCRIBED": 11,
+    "MISMATCH": 9,
+    "UNSUPPORTED": 3,
+    "DIRECTION": 2
+  },
+  "abvd_snapshot": "lexibank/abvd CLDF, git 917c5a5 (2025-10-07)",
+  "versions": {
+    "xgboost": "3.0.3",
+    "sklearn": "1.8.0",
+    "shap": "0.50.0",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  }
+}

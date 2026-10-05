@@ -1,0 +1,16 @@
+concept,language_1,form_1,language_2,form_2,distance,numeral,on_E022_15_concept_list,both_south_sulawesi
+Fifty,Makassar,limampulo,Toraja-Sadan,limaŋpulo,0.111,1,0,1
+Fifty,Makassar,limampulo,Tolaki,limambulo,0.111,1,0,0
+Fifty,Makassar,limampulo,Wolio,lima pulu,0.222,1,0,0
+Fifty,Wolio,lima pulu,Toraja-Sadan,limaŋpulo,0.222,1,0,0
+Fifty,Toraja-Sadan,limaŋpulo,Tolaki,limambulo,0.222,1,0,0
+Fifty,Wolio,lima pulu,Tolaki,limambulo,0.333,1,0,0
+One Hundred,Wolio,saatu,Toraja-Sadan,saratuʔ,0.167,1,0,0
+One Thousand,Makassar,sisaʔbu,Toraja-Sadan,saŋsaʔbu,0.286,1,1,1
+Twenty,Makassar,ruampulo,Tolaki,ruambulo,0.125,1,0,0
+Twenty,Makassar,ruampulo,Wolio,rua pulu,0.25,1,0,0
+Twenty,Makassar,ruampulo,Toraja-Sadan,duaŋpulo,0.25,1,0,1
+"dull, blunt",Bugis,ma-kunru,Wolio,makundu,0.143,0,0,0
+heavy,Bugis,ma-tanəʔ,Wolio,matamo,0.333,0,1,0
+leaf,Wolio,tawa,Tolaki,tawa,0.0,0,0,0
+to swell,Muna,notente,Wolio,tente,0.286,0,0,0

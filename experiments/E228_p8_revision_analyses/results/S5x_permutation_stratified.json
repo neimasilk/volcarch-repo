@@ -1,0 +1,51 @@
+{
+  "plain_distance__permute_within_language (= S5 b, repeated)": {
+    "n_forms": 411,
+    "n_pairs": 440,
+    "T_observed": 0.8357,
+    "T_permutation_mean": 0.8688,
+    "T_permutation_sd": 0.006,
+    "excess_similarity": 0.0331,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 4,
+    "lookalike_pairs_expected": 0.52,
+    "p_N": 0.0016
+  },
+  "plain_distance__permute_within_language_x_domain": {
+    "n_forms": 411,
+    "n_pairs": 440,
+    "T_observed": 0.8357,
+    "T_permutation_mean": 0.8595,
+    "T_permutation_sd": 0.0058,
+    "excess_similarity": 0.0238,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 4,
+    "lookalike_pairs_expected": 0.59,
+    "p_N": 0.0027
+  },
+  "stem_tolerant__permute_within_language": {
+    "n_forms": 411,
+    "n_pairs": 440,
+    "T_observed": 0.7513,
+    "T_permutation_mean": 0.7901,
+    "T_permutation_sd": 0.0079,
+    "excess_similarity": 0.0388,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 22,
+    "lookalike_pairs_expected": 8.32,
+    "p_N": 0.0001
+  },
+  "stem_tolerant__permute_within_language_x_domain": {
+    "n_forms": 411,
+    "n_pairs": 440,
+    "T_observed": 0.7513,
+    "T_permutation_mean": 0.7833,
+    "T_permutation_sd": 0.0077,
+    "excess_similarity": 0.032,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 22,
+    "lookalike_pairs_expected": 9.86,
+    "p_N": 0.0004
+  },
+  "_status": "POST HOC / exploratory (amendment A2)"
+}

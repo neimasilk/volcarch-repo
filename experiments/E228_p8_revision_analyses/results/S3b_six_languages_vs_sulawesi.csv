@@ -1,0 +1,1355 @@
+form_id,language,concept,form,candidate,has_comparison,d,match_list,match_form,chance_0.25,chance_0.34,chance_0.5
+27-1_hand-1,Muna,hand,lima,0,1,0.0,Banggai (W.dialect),lima,0.1,0.1,0.3
+27-2_left-1,Muna,left,kema,0,1,0.0,Kambowa,kema,0.1,0.3,0.6
+27-3_right-1,Muna,right,suana,0,1,0.0,Mori,koana,0.1,0.6,0.8
+27-4_legfoot-1,Muna,leg/foot,ghaghe,0,1,0.2,Kambowa,hahe,0.0,0.0,0.4
+27-5_towalk-1,Muna,to walk,akala,0,1,0.25,Kambowa,nondala,0.3,0.8,1.0
+27-6_roadpath-1,Muna,road/path,kangkaha,1,1,0.4,Wawonii,salaha,0.0,0.0,0.2
+27-7_tocome-1,Muna,to come,amai,0,1,0.0,Kaidipang,mai,0.1,0.5,0.9
+27-8_toturn-1,Muna,to turn,apingka,1,1,0.6666666666666666,Mori,mekoana,0.0,0.0,0.6
+27-9_toswim-1,Muna,to swim,aleni,0,1,0.0,Kambowa,noleni,0.1,0.1,0.7
+27-10_dirty-1,Muna,dirty,noraku,0,1,0.4,Bolaang Mongondow,mo-romuʔ,0.0,0.6,0.9
+27-11_dust-1,Muna,dust,harabu,0,1,0.0,Buol,abu,0.0,0.4,0.8
+27-12_skin-1,Muna,skin,kuli,0,1,0.0,Mori,kuli,0.1,0.3,0.5
+27-13_back-1,Muna,back,towu,1,1,0.5,Mori,torulu,0.0,0.3,0.6
+27-14_belly-1,Muna,belly,taghi,0,1,0.4,Uma (Kantewu dialect),taʔi,0.0,0.0,0.6
+27-15_bone-1,Muna,bone,buku,0,1,0.0,Banggai (W.dialect),buku,0.1,0.5,0.7
+27-16_intestines-1,Muna,intestines,ghule-ghule,1,1,0.625,Mori,ulekompo,0.0,0.0,0.0
+27-17_liver-1,Muna,liver,ghate,0,1,0.0,Banggai (W.dialect),ate,0.2,0.3,0.7
+27-18_breast-1,Muna,breast,titi,0,1,0.0,Popalia,titi,0.0,0.3,0.6
+27-19_shoulder-1,Muna,shoulder,ghowea,0,1,0.0,Mori,owea,0.2,0.3,0.8
+27-20_toknowbeknowledgeable-1,Muna,"to know, be knowledgeable",apandehaane,0,1,0.2,Kambowa,nopandeane,0.0,0.0,0.2
+27-21_tothink-1,Muna,to think,aefekiri,1,1,0.0,Uma (Kantewu dialect),pekiri,0.0,0.0,0.2
+27-22_tofear-1,Muna,to fear,aotehi,0,1,0.0,Kambowa,nomotehi,0.0,0.1,0.5
+27-23_blood-1,Muna,blood,rea,0,1,0.0,Mori,rea,0.0,0.4,0.5
+27-24_head-1,Muna,head,fotu,0,1,0.0,Kambowa,potu,0.1,0.5,0.7
+27-25_neck-1,Muna,neck,wughu,0,1,0.25,Kaidipang,tigugu,0.0,0.1,0.6
+27-26_hair-1,Muna,hair,wulu no fotu,0,1,0.2222222222222222,Wakole dialect of Kumbewaha,βuluno poʧu,0.0,0.0,0.1
+27-27_nose-1,Muna,nose,nee,0,1,0.0,Kambowa,nee,0.0,0.1,0.5
+27-28_tobreathe-1,Muna,to breathe,afenei,0,1,0.16666666666666666,Kioko,nofeinei,0.0,0.1,0.6
+27-29_tosniffsmell-1,Muna,"to sniff, smell",aefewono,0,1,0.16666666666666666,Kioko,nofeβono,0.0,0.0,0.3
+27-30_mouth-1,Muna,mouth,wubha,0,1,0.4,Tontemboan,waʔbaʔ,0.0,0.1,0.3
+27-31_tooth-1,Muna,tooth,wangka,0,1,0.4,Tonsea,wa'ang,0.1,0.2,0.8
+27-32_tongue-1,Muna,tongue,lela,0,1,0.0,Wolio,dela,0.1,0.6,0.7
+27-33_tolaugh-1,Muna,to laugh,afu|taa,0,1,0.25,Mori,metotaa,0.0,0.0,0.7
+27-34_tocry-1,Muna,to cry,aoghae,0,1,0.3333333333333333,Kioko,noʔoʔae,0.1,0.1,0.6
+27-35_tovomit-1,Muna,to vomit,atongka,0,1,0.3333333333333333,Bolaang Mongondow,moto-tukaʔ,0.1,0.1,0.6
+27-36_tospit-1,Muna,to spit,afoghoniu,0,1,0.3333333333333333,Bungku,meʔoniu,0.0,0.1,0.3
+27-37_toeat-1,Muna,to eat,afumaa,0,1,0.0,Kioko,nomaa,0.1,0.4,0.8
+27-38_tochew-1,Muna,to chew,aemama,0,1,0.0,Bantik,mama,0.2,0.5,0.8
+27-39_tocook-1,Muna,to cook,aegau,1,1,0.25,Tomini (Tialo),gabu,0.1,0.4,0.8
+27-40_todrink-1,Muna,to drink,aforoghu,0,1,0.16666666666666666,Kambowa,noporohu,0.0,0.0,0.4
+27-41_tobite-1,Muna,to bite,aesia,1,1,0.5,Bungku (Landawe),mekea,0.0,0.3,0.6
+27-42_tosuck-1,Muna,to suck,aekomi,0,1,0.0,Wolio,gomi,0.3,0.4,0.7
+27-43_ear-1,Muna,ear,pongke,0,1,0.6666666666666666,Tontemboan,luntəng,0.0,0.2,0.4
+27-44_tohear-1,Muna,to hear,afetingke,0,1,0.5,Soboyo,mine,0.0,0.0,0.6
+27-45_eye-1,Muna,eye,mata,0,1,0.0,Banggai (W.dialect),mata,0.3,0.9,1.0
+27-46_tosee-1,Muna,to see,aewura,1,1,0.6666666666666666,Banggai (W.dialect),kita,0.3,0.5,0.7
+27-46_tosee-2,Muna,to see,aewora,1,1,0.5,Andio,momeaʔ,0.1,0.6,0.8
+27-47_toyawn-1,Muna,to yawn,andiwawa,1,1,0.4,Wakole dialect of Kumbewaha,piŋaβa,0.0,0.1,0.4
+27-48_tosleep-1,Muna,to sleep,aolodo,0,1,0.2,Kioko,nomoʔodo,0.1,0.5,0.6
+27-49_toliedown-1,Muna,to lie down,aendole,0,1,0.0,Wolio,dole,0.1,0.1,0.7
+27-50_todream-1,Muna,to dream,amonifi,0,1,0.16666666666666666,Popalia,homonihi,0.0,0.1,0.8
+27-51_tosit-1,Muna,to sit,aengkora,0,1,0.2,Kambowa,neŋkora,0.0,0.0,0.5
+27-52_tostand-1,Muna,to stand,aere,0,1,0.3333333333333333,Bantik,teŋedeʔ,0.0,0.2,0.6
+27-53_personhumanbeing-1,Muna,person/human being,mie,0,1,0.0,Kambowa,mie,0.0,0.1,0.4
+27-54_manmale-1,Muna,man/male,moghane,0,1,0.0,Kambowa,mohane,0.1,0.2,0.7
+27-55_womanfemale-1,Muna,woman/female,robhine,0,1,0.16666666666666666,Andio,bobine,0.0,0.0,0.3
+27-56_child-1,Muna,child,ana,0,1,0.0,Bantik,anaʔ,0.3,0.6,0.7
+27-57_husband-1,Muna,husband,mie no lambu,1,1,0.375,Tolaki (Asera),pekombu,0.0,0.0,0.3
+27-58_wife-1,Muna,wife,mie no lambu,1,1,0.375,Tolaki (Asera),pekombu,0.0,0.0,0.2
+27-58_wife-2,Muna,wife,anahi,1,1,0.3333333333333333,Tomini (Tialo),lapi,0.0,0.6,0.8
+27-59_mother-1,Muna,mother,ina,0,1,0.0,Banggai (W.dialect),tina,0.2,0.4,0.5
+27-60_father-1,Muna,father,ama,0,1,0.0,Banggai (W.dialect),tama,0.2,0.7,0.9
+27-61_house-1,Muna,house,lambu,0,1,0.0,Kambowa,lambu,0.3,0.3,0.9
+27-62_thatchroof-1,Muna,thatch/roof,ghato,0,1,0.0,Mori,ato,0.1,0.5,0.8
+27-63_name-1,Muna,name,nea,0,1,0.3333333333333333,Mori,nee,0.0,0.2,0.3
+27-64_tosay-1,Muna,to say,abisara,0,1,0.0,Kambowa,nobisara,0.1,0.1,0.8
+27-64_tosay-2,Muna,to say,apogau,0,1,0.0,Wolio,pogau,0.0,0.3,1.0
+27-65_rope-1,Muna,rope,kakoo,1,1,0.3333333333333333,Tolaki,oloo,0.1,0.3,0.8
+27-66_totieupfasten-1,Muna,"to tie up, fasten",aekooli,1,1,0.4,Bare'e,kombi,0.0,0.0,0.7
+27-67_tosew-1,Muna,to sew,aetampoli,0,1,0.6666666666666666,Kaidipang,motéi,0.0,0.1,0.4
+27-68_needle-1,Muna,needle,deu,0,1,0.25,Gorontalo (Hulondalo),dudetu,0.0,0.2,0.6
+27-69_tohunt-1,Muna,to hunt,ahulo,1,1,0.4,Gorontalo (Hulondalo),mo-ŋalupo,0.2,0.4,0.9
+27-70_toshoot-1,Muna,to shoot,aepana,0,1,0.0,Mori,mompana,0.2,0.3,0.7
+27-71_tostabpierce-1,Muna,"to stab, pierce",aetobo,0,1,0.0,Mori,montobo,0.1,0.5,0.8
+27-72_tohit-1,Muna,to hit,aewogha,1,1,0.5,Tomini (Tialo),lopaʔ,0.1,0.1,0.6
+27-73_tosteal-1,Muna,to steal,ambolaku,0,1,0.0,Kambowa,nombolaku,0.0,0.2,0.8
+27-74_tokill-1,Muna,to kill,aepongko,0,1,0.3333333333333333,Wolio,poŋko,0.0,0.0,0.6
+27-75_todiebedead-1,Muna,"to die, be dead",amate,0,1,0.0,Banggai (W.dialect),mate,0.2,0.3,0.6
+27-76_tolivebealive-1,Muna,"to live, be alive",adadi,0,1,0.0,Soboyo,dadi,0.0,0.5,0.7
+27-77_toscratch-1,Muna,to scratch,aekurumasi,0,1,0.375,Wolio,karusi,0.0,0.0,0.0
+27-78_tocuthack-1,Muna,"to cut, hack",aebhera,1,1,0.5,Tae' (S.Toraja),tara,0.1,0.1,0.5
+27-79_stickwood-1,Muna,stick/wood,sau,0,1,0.0,Kioko,sau,0.0,0.2,0.6
+27-80_tosplit-1,Muna,to split,aebhogha,0,1,0.5,Bare'e,ma-boka,0.0,0.0,0.2
+27-81_sharp-1,Muna,sharp,noroko,0,1,0.0,Kambowa,nomoroko,0.1,0.5,0.6
+27-82_dullblunt-1,Muna,"dull, blunt",noduko,0,1,0.3333333333333333,Wolowa dialect of Kumbewaha,ɓoko,0.2,0.3,0.5
+27-83_towork-1,Muna,to work,akaradhaa,0,1,0.125,Kambowa,nokaradaa,0.0,0.0,0.3
+27-84_toplant-1,Muna,to plant,aetisa,0,1,0.5,Uma (Kantewu dialect),tujaʔ,0.3,0.6,0.8
+27-84_toplant-2,Muna,to plant,aeladu,1,1,0.3333333333333333,Kambowa,netaɗu,0.0,0.6,0.6
+27-85_tochoose-1,Muna,to choose,aefe|pili,0,1,0.16666666666666666,Tolaki,mepili,0.0,0.0,0.3
+27-86_togrow-1,Muna,to grow,notumbu,0,1,0.0,Kulisusu,čumumbu,0.2,0.3,0.6
+27-87_toswell-1,Muna,to swell,notente,1,1,0.0,Wolio,tente,0.0,0.0,0.4
+27-88_tosqueeze-1,Muna,to squeeze,ae|feo,0,1,0.0,Kioko,nefeo,0.0,0.0,0.3
+27-89_tohold-1,Muna,to hold,aeintara,0,1,0.4,Popalia,kɔntaʔ,0.0,0.1,0.3
+27-90_todig-1,Muna,to dig,ae|seli,0,1,0.0,Wolio,seli,0.0,0.0,0.4
+27-91_tobuy-1,Muna,to buy,aegholi,0,1,0.0,Kambowa,neholi,0.0,0.0,0.7
+27-92_toopenuncover-1,Muna,"to open, uncover",aelengha,0,1,0.4,Tolaki,hungga,0.0,0.0,0.1
+27-93_topoundbeat-1,Muna,"to pound, beat",aetumbu,0,1,0.0,Makassar,annumbuʔ,0.0,0.0,0.7
+27-94_tothrow-1,Muna,to throw,aeghompa,0,1,0.42857142857142855,Wasambua dialect of Cia-Cia,pehampasi,0.0,0.0,0.2
+27-95_tofall-1,Muna,to fall,nondawu,0,1,0.16666666666666666,Kambowa,nomondaβu,0.2,0.3,0.8
+27-96_dog-1,Muna,dog,d|ahu,0,1,0.0,Mori,d|ahu,0.0,0.2,0.4
+27-97_bird-1,Muna,bird,manu-manu,0,1,0.0,Mori,manu-manu,0.0,0.0,0.6
+27-98_egg-1,Muna,egg,ghunteli,0,1,0.14285714285714285,Kambowa,huteli,0.0,0.0,0.4
+27-99_feather-1,Muna,feather,wulu,0,1,0.0,Banggai (W.dialect),bulu,0.1,0.3,0.4
+27-100_wing-1,Muna,wing,pani,0,1,0.0,Mori,paani,0.1,0.5,0.9
+27-101_tofly-1,Muna,to fly,ahoro,0,1,0.0,Kambowa,nohoro,0.2,0.6,0.9
+27-102_rat-1,Muna,rat,wulawo,0,1,0.0,Buginese (Soppeng Dialect),balawo,0.1,0.6,0.9
+27-103_meatflesh-1,Muna,meat/flesh,ihi,0,1,0.0,Bahonsuai,ihi,0.0,0.1,0.3
+27-104_fatgrease-1,Muna,fat/grease,tabha,0,1,0.2,Mori,taba,0.0,0.2,0.9
+27-105_tail-1,Muna,tail,punda,0,1,0.5,Andio,kukudiʔ,0.2,0.5,0.8
+27-106_snake-1,Muna,snake,ghule,0,1,0.0,Bantik,uleʔ,0.0,0.1,0.4
+27-107_wormearthworm-1,Muna,worm (earthworm),ghundeletu,1,1,0.0,Kambowa,hindeletu,0.0,0.0,0.3
+27-108_louse-1,Muna,louse,otu,0,1,0.3333333333333333,Bantik,kutu,0.1,0.5,0.7
+27-109_mosquito-1,Muna,mosquito,buroto,0,1,0.0,Wolio,buroto,0.4,0.4,0.9
+27-110_spider-1,Muna,spider,kabhamba,0,1,0.42857142857142855,Makassar,labalaba,0.1,0.1,0.3
+27-111_fish-1,Muna,fish,kenta,0,1,0.0,Popalia,kenta,0.2,0.2,0.5
+27-112_rotten-1,Muna,rotten,noburu,0,1,0.0,Kambowa,noburu,0.1,0.3,0.7
+27-113_branch-1,Muna,branch,ragha,0,1,0.2,Wolio,raha,0.0,0.0,0.9
+27-114_leaf-1,Muna,leaf,roo,0,1,0.0,Popalia,roʔo,0.0,0.0,0.7
+27-115_root-1,Muna,root,paraka,0,1,0.0,Mori,haka,0.0,0.7,0.8
+27-116_flower-1,Muna,flower,kambea,0,1,0.0,Kambowa,kambea,0.1,0.1,0.7
+27-117_fruit-1,Muna,fruit,bhake,0,1,0.0,Wolio,bake,0.0,0.3,0.7
+27-118_grass-1,Muna,grass,karuku,1,1,0.0,Bantik,dukuʔ,0.2,0.4,0.6
+27-119_earthsoil-1,Muna,earth/soil,wite,0,1,0.0,Kioko,βite,0.0,0.1,0.4
+27-120_stone-1,Muna,stone,kontu,0,1,0.25,Gorontalo (Hulondalo),botu,0.1,0.1,0.7
+27-121_sand-1,Muna,sand,bhone,0,1,0.0,Banggai (W.dialect),bone,0.2,0.3,0.7
+27-122_water-1,Muna,water,oe,0,1,0.3333333333333333,Kambowa,ioe,0.0,0.1,0.1
+27-123_toflow-1,Muna,to flow,nosolo,1,1,0.0,Buginese (Soppeng Dialect),mas-soloʔ,0.1,0.7,1.0
+27-124_sea-1,Muna,sea,tehi,0,1,0.25,Mori,tahi,0.1,0.4,0.7
+27-125_salt-1,Muna,salt,ghohia,0,1,0.0,Mori,ohia,0.2,0.2,0.8
+27-126_lake-1,Muna,lake,katebho,1,1,0.4,Kodeoha,βoiteobo,0.0,0.0,0.4
+27-127_woodsforest-1,Muna,woods/forest,karumbu,1,1,0.25,Tolaki (Konawe),sambu,0.1,0.1,0.8
+27-128_sky-1,Muna,sky,lani,0,1,0.25,Bantik,laŋiʔ,0.2,0.6,0.9
+27-129_moon-1,Muna,moon,wula,0,1,0.0,Mori,wula,0.2,0.3,0.5
+27-130_star-1,Muna,star,ngkolipopo,0,1,0.125,Wolio,kali[m]popo,0.0,0.0,0.1
+27-131_cloud-1,Muna,cloud,olu,0,1,0.0,Taloki,kaolu,0.0,0.2,0.5
+27-132_fog-1,Muna,fog,gawu,0,1,0.0,Wolio,gawu,0.2,0.6,0.7
+27-133_rain-1,Muna,rain,ghuse,0,1,0.0,Mori Atas (Doule),use,0.0,0.1,0.6
+27-134_thunder-1,Muna,thunder,tondu,0,1,0.0,Mori,rundu,0.3,0.7,1.0
+27-135_lightning-1,Muna,lightning,bhibhito,0,1,0.3333333333333333,Kioko,ɓiɓito,0.0,0.0,0.3
+27-136_wind-1,Muna,wind,kawea,0,1,0.2,Kambowa,kaβea,0.0,0.2,0.8
+27-137_toblow-1,Muna,to blow,no|f|iu,0,1,0.5,Soboyo,fuu,0.0,0.0,0.0
+27-138_warm-1,Muna,warm,nopana,0,1,0.0,Kumbewaha,mompana,0.0,0.7,0.9
+27-139_cold-1,Muna,cold,norindi,0,1,0.0,Wakole dialect of Kumbewaha,moɗindi,0.2,0.2,0.5
+27-140_dry-1,Muna,dry,nokele,0,1,0.0,Kambowa,nomokele,0.1,0.4,0.7
+27-141_wet-1,Muna,wet,nomeme,1,1,0.25,Soboyo,mete,0.1,0.4,0.6
+27-142_heavy-1,Muna,heavy,nobhie,0,1,0.3333333333333333,Kambowa,noɓie,0.0,0.3,0.5
+27-143_fire-1,Muna,fire,ifi,0,1,0.6666666666666666,Mori,api,0.0,0.1,0.2
+27-144_toburn-1,Muna,to burn,aetunu,0,1,0.0,Kaidipang,motunu,0.2,0.5,0.9
+27-145_smoke-1,Muna,smoke,ghumbo,0,1,0.0,Mori Atas (Doule),bombo,0.2,0.4,0.7
+27-146_ashes-1,Muna,ashes,ghabu,0,1,0.0,Bolaang Mongondow,abu,0.0,0.1,0.9
+27-147_black-1,Muna,black,ghito,0,1,0.0,Mori,mo'ito,0.2,0.8,0.9
+27-148_white-1,Muna,white,pute,0,1,0.0,Banggai (W.dialect),ute,0.0,0.1,0.4
+27-149_red-1,Muna,red,dea,1,1,0.25,Lasalimu,mondera,0.0,0.0,0.4
+27-150_yellow-1,Muna,yellow,kuni,0,1,0.0,Banggai (W.dialect),uni[w],0.0,0.3,0.9
+27-151_green-1,Muna,green,idho,0,1,0.25,Tae' (S.Toraja),ma-ido,0.0,0.3,0.6
+27-152_small-1,Muna,small,norubu,0,1,0.3333333333333333,Mori Atas (Tambee),motutu,0.1,0.4,0.7
+27-153_big-1,Muna,big,nobhala,0,1,0.25,Soboyo,haya,0.1,0.2,0.8
+27-154_short-1,Muna,short,nopanda,0,1,0.0,Wasambua dialect of Cia-Cia,mopanda,0.2,0.2,0.9
+27-154_short-2,Muna,short,nongkubu,0,1,0.5714285714285714,Totoli,podong,0.0,0.0,0.1
+27-155_long-1,Muna,long,newanta,0,1,0.25,Tomini (Tialo),alentaʔ,0.3,0.3,0.9
+27-156_thin-1,Muna,thin,nonifi,0,1,0.0,Kioko,nomonifi,0.0,0.3,0.3
+27-157_thick-1,Muna,thick,nokapa,0,1,0.0,Mori,mokapa,0.3,0.4,0.8
+27-158_narrow-1,Muna,narrow,noseke,0,1,0.0,Wolio,maseke,0.1,0.3,0.5
+27-159_wide-1,Muna,wide,noware,0,1,0.0,Lasalimu,moβare,0.0,0.3,0.4
+27-160_painfulsick-1,Muna,"painful, sick",nolea,0,1,0.0,Kambowa,nomolea,0.3,0.4,0.9
+27-161_shyashamed-1,Muna,"shy, ashamed",noambano,0,1,0.16666666666666666,Totoli,ambang,0.0,0.0,0.5
+27-162_old-1,Muna,old,nokamokula,0,1,0.0,Kambowa,kamokula,0.0,0.0,0.0
+27-163_new-1,Muna,new,nobughou,0,1,0.125,Kambowa,nobuhou,0.0,0.0,0.5
+27-164_good-1,Muna,good,netaa,0,1,0.0,Kambowa,metaa,0.1,0.2,0.7
+27-165_badevil-1,Muna,"bad, evil",nodaediu,0,1,0.5,Bantik,dalaiʔ,0.0,0.1,0.4
+27-166_correcttrue-1,Muna,"correct, true",kotughu,0,1,0.25,Wasambua dialect of Cia-Cia,koʧuhu,0.0,0.0,0.6
+27-167_night-1,Muna,night,korondoha,0,1,0.3333333333333333,Kioko,xondo,0.0,0.2,0.5
+27-167_night-2,Muna,night,alo,0,1,0.0,Wolio,malo,0.1,0.5,0.8
+27-168_day-1,Muna,day,gholeo,0,1,0.0,Tolaki,oleo,0.2,0.3,1.0
+27-169_year-1,Muna,year,taghu,0,1,0.2,Kambowa,tahu,0.2,0.2,0.8
+27-170_when-1,Muna,when?,indefie,0,1,0.25,Kioko,naifie,0.0,0.1,0.6
+27-170_when-2,Muna,when?,ne|fie,0,1,0.0,Kioko,naifie,0.0,0.1,0.2
+27-171_tohide-1,Muna,to hide,aekope,1,1,0.3333333333333333,Wolio,opo,0.0,0.0,0.6
+27-172_toclimb-1,Muna,to climb,a|foni,0,1,0.0,Kioko,nofoni,0.1,0.2,0.6
+27-173_at-1,Muna,at,we,0,1,0.5,Wasambua dialect of Cia-Cia,ve,0.0,0.0,0.0
+27-173_at-2,Muna,at,te,0,1,0.5,Gorontalo (Hulondalo),to,0.0,0.1,0.2
+27-173_at-3,Muna,at,ne,0,1,0.3333333333333333,Kambowa,nde,0.0,0.1,0.1
+27-174_ininside-1,Muna,"in, inside",we lalo,0,1,0.0,Tolaki,i lalo,0.1,0.3,0.9
+27-174_ininside-2,Muna,"in, inside",welo,0,1,0.3333333333333333,Tolaki,i lalo,0.0,0.4,0.6
+27-175_above-1,Muna,above,te wawo,0,1,0.0,Mori,i wawo[no],0.1,0.6,0.7
+27-176_below-1,Muna,below,we panda,1,1,0.0,Kambowa,βae panda,0.3,0.3,0.9
+27-177_this-1,Muna,this,aini,0,1,0.0,Kaidipang,ini,0.2,0.6,0.8
+27-178_that-1,Muna,that,aitu,0,1,0.0,Tontemboan,siitu,0.1,0.2,0.7
+27-179_near-1,Muna,near,nomaho,0,1,0.2,Kambowa,nokamaho,0.2,0.6,0.7
+27-180_far-1,Muna,far,nokodoho,0,1,0.0,Kambowa,nokodoho,0.0,0.1,0.2
+27-181_where-1,Muna,where?,nahamai,0,1,0.0,Kambowa,ndehamai,0.3,0.3,0.9
+27-181_where-2,Muna,where?,nehamai,0,1,0.0,Kambowa,ndehamai,0.0,0.0,1.0
+27-182_i-1,Muna,I,inodi,0,1,0.2,Kambowa,inoi,0.0,0.2,0.6
+27-183_thou-1,Muna,thou,ihintu,0,1,0.0,Kambowa,isuntu,0.1,0.3,0.7
+27-184_heshe-1,Muna,he/she,anoa,0,1,0.0,Kambowa,anoa,0.2,0.5,1.0
+27-185_we-1,Muna,we,intaidi,0,1,0.25,Buginese (Soppeng Dialect),idiʔ,0.1,0.1,0.9
+27-185_we-2,Muna,we,insaidi,0,1,0.25,Buginese (Soppeng Dialect),idiʔ,0.0,0.1,0.8
+27-186_you-1,Muna,you,ihintuumu,0,1,0.5,Tolaki,inggomiu,0.0,0.0,0.3
+27-187_they-1,Muna,they,andoa,0,1,0.0,Kambowa,andoa,0.2,0.3,0.9
+27-188_what-1,Muna,what?,ohae,0,1,0.0,Kambowa,ohae,0.1,0.2,0.8
+27-189_who-1,Muna,who?,la|hae,0,1,0.0,Kambowa,lahae,0.1,0.2,0.5
+27-190_other-1,Muna,other,sigaahano,0,1,0.14285714285714285,Kambowa,segahano,0.0,0.0,0.6
+27-191_all-1,Muna,all,kosibhari-bharihae,0,1,0.35714285714285715,Wolio,baribaria,0.0,0.0,0.0
+27-192_and-1,Muna,and,bhe,1,1,0.6666666666666666,Bantik,bo,0.1,0.2,0.5
+27-193_if-1,Muna,if,ane,0,1,0.0,Bare'e,ane,0.2,0.6,0.6
+27-194_how-1,Muna,how?,pedahai,1,1,0.25,Wasambua dialect of Cia-Cia,mbahae,0.1,0.1,0.8
+27-194_how-2,Muna,how?,pedahamai,1,1,0.5,Makassar,antekamma,0.0,0.1,0.6
+27-195_nonot-1,Muna,"no, not",miina,0,1,0.0,Bahonsuai,ahina,0.0,0.5,0.8
+27-196_tocount-1,Muna,to count,aefeapi,1,1,0.5,Bolaang Mongondow,moŋ-iap,0.0,0.0,0.8
+27-197_one-1,Muna,One,ise,0,1,0.0,Wolio,ʔise,0.0,0.5,0.6
+27-198_two-1,Muna,Two,dua,0,1,0.0,Bantik,dadua,0.0,0.0,0.2
+27-198_two-2,Muna,Two,rua pulo,0,1,0.5,Gorontalo (Hulondalo),duluwo,0.1,0.1,0.6
+27-199_three-1,Muna,Three,tolu,0,1,0.0,Banggai (W.dialect),tolu,0.0,0.1,0.5
+27-200_four-1,Muna,Four,paa,0,1,0.0,Mori,opaa,0.1,0.3,0.7
+27-201_five-1,Muna,Five,dima,0,1,0.0,Banggai (W.dialect),lima,0.0,0.2,0.9
+27-203_seven-1,Muna,Seven,pitu,0,1,0.0,Banggai (W.dialect),pitu,0.2,0.6,0.8
+27-204_eight-1,Muna,Eight,walu,0,1,0.0,Banggai (W.dialect),alu,0.1,0.7,1.0
+27-205_nine-1,Muna,Nine,siwa,0,1,0.25,Popalia,kesia,0.0,0.4,0.6
+27-210_onethousand-1,Muna,One Thousand,riwu,1,1,0.0,Tontemboan,mariwu,0.0,0.3,0.6
+48-1_hand-1,Bugis,hand,lima,0,1,0.0,Banggai (W.dialect),lima,0.2,0.5,0.6
+48-2_left-1,Bugis,left,abeo,0,1,0.5,Banggai (W.dialect),bobo,0.0,0.2,1.0
+48-2_left-2,Bugis,left,abio,0,1,0.4,Tontemboan,kaʔbiri,0.2,0.3,0.8
+48-3_right-1,Bugis,right,atau,0,1,0.0,Kaidipang,kitau,0.2,0.5,1.0
+48-4_legfoot-1,Bugis,leg/foot,aje,0,1,0.3333333333333333,Wolio,ae,0.0,0.2,0.7
+48-5_towalk-1,Bugis,to walk,joppa,1,1,0.3333333333333333,Makassar,aʔlampa,0.1,0.3,0.7
+48-5_towalk-2,Bugis,to walk,jokka,1,1,0.3333333333333333,Wolio,liŋka,0.1,0.5,0.9
+48-6_roadpath-1,Bugis,road/path,laləŋ,0,1,0.25,Bantik,daleŋ,0.0,0.1,0.5
+48-7_tocome-1,Bugis,to come,lao komai,0,1,0.2857142857142857,Kodeoha,hakeromai,0.0,0.1,0.5
+48-8_toturn-1,Bugis,to turn,ləsu,0,1,0.5,Bolaang Mongondow,liu,0.0,0.2,0.4
+48-9_toswim-1,Bugis,to swim,naŋe,0,1,0.25,Kaidipang,monaŋi,0.2,0.4,0.8
+48-10_dirty-1,Bugis,dirty,ma-rotaʔ,0,1,0.42857142857142855,Wolio,marombu,0.1,0.5,0.8
+48-11_dust-1,Bugis,dust,awu,0,1,0.0,Mori,awu,0.1,0.7,0.8
+48-12_skin-1,Bugis,skin,oli,0,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),kuli,0.1,0.4,0.7
+48-12_skin-2,Bugis,skin,uli,0,1,0.0,Muna (Katobu-Tongkuno Dialect),kuli,0.0,0.2,0.3
+48-13_back-1,Bugis,back,aləkkəʔ,0,1,0.5,Wolio,taliku,0.0,0.0,0.1
+48-13_back-2,Bugis,back,monri,1,1,0.75,Muna (Katobu-Tongkuno Dialect),towu,0.1,0.3,0.8
+48-14_belly-1,Bugis,belly,baua,1,1,0.3333333333333333,Kumbewaha,haβa,0.0,0.9,0.9
+48-15_bone-1,Bugis,bone,buku,0,1,0.0,Banggai (W.dialect),buku,0.2,0.4,0.8
+48-16_intestines-1,Bugis,intestines,paruu,0,1,0.2,Makassar,parruʔ,0.1,0.2,0.7
+48-16_intestines-2,Bugis,intestines,pəruu,0,1,0.3333333333333333,Makassar,parruʔ,0.0,0.1,0.3
+48-17_liver-1,Bugis,liver,ate,0,1,0.0,Banggai (W.dialect),ate,0.1,0.4,0.7
+48-18_breast-1,Bugis,breast,susu,0,1,0.0,Banggai (W.dialect),susu,0.0,0.5,0.6
+48-19_shoulder-1,Bugis,shoulder,salaŋkaŋ,0,1,0.25,Makassar,salaŋga,0.1,0.1,0.4
+48-20_toknowbeknowledgeable-1,Bugis,"to know, be knowledgeable",issəŋ,0,1,0.2,Makassar,issɛŋ,0.0,0.0,0.0
+48-21_tothink-1,Bugis,to think,man-nawa nawa,0,1,0.5,Bare'e,mo-nawa,0.0,0.0,0.4
+48-22_tofear-1,Bugis,to fear,metauu,0,1,0.25,Bantik,[ma]takuʔ,0.0,0.4,0.9
+48-23_blood-1,Bugis,blood,dara,0,1,0.0,Tae' (S.Toraja),rara,0.1,0.3,0.5
+48-24_head-1,Bugis,head,ulu,0,1,0.0,Banggai (W.dialect),ulu,0.1,0.6,0.8
+48-25_neck-1,Bugis,neck,əlloŋ,0,1,0.0,Makassar,kalloŋ,0.2,0.2,0.4
+48-26_hair-1,Bugis,hair,gəmməʔ,1,1,1.0,Banggai (W.dialect),buuk,0.0,0.1,0.2
+48-27_nose-1,Bugis,nose,iŋəʔ,0,1,0.3333333333333333,Gorontalo (Hulondalo),wuliŋo,0.0,0.0,0.0
+48-28_tobreathe-1,Bugis,to breathe,mañ-ñawa,0,1,0.5,Mori,menaa,0.1,0.1,0.8
+48-29_tosniffsmell-1,Bugis,"to sniff, smell",maŋ-əmmau,0,1,0.5714285714285714,Makassar,aŋŋaraʔ,0.0,0.0,0.2
+48-30_mouth-1,Bugis,mouth,bawa,0,1,0.0,Makassar,bawa,0.3,0.6,0.8
+48-31_tooth-1,Bugis,tooth,isi,0,1,0.0,Bantik,isi,0.0,0.3,0.4
+48-32_tongue-1,Bugis,tongue,lila,0,1,0.0,Bantik,dila,0.1,0.3,0.4
+48-33_tolaugh-1,Bugis,to laugh,macawa,0,1,0.0,Wolio,potawa,0.0,0.5,0.6
+48-34_tocry-1,Bugis,to cry,tarii,0,1,0.4,Wolio,taŋi,0.1,0.1,0.8
+48-34_tocry-2,Bugis,to cry,tərii,0,1,0.5,Banggai (W.dialect),kokiil,0.0,0.1,0.2
+48-35_tovomit-1,Bugis,to vomit,tal-lua,0,1,0.0,Soboyo,luaʔ,0.1,0.2,0.8
+48-36_tospit-1,Bugis,to spit,mam-meccu,0,1,0.5,Bare'e,me-ʔuëlu,0.0,0.0,0.0
+48-36_tospit-2,Bugis,to spit,mam-miccu,0,1,0.5,Bungku (Torete),meʔiniu,0.0,0.0,0.1
+48-37_toeat-1,Bugis,to eat,manre,1,1,0.2,Tae' (S.Toraja),k-um-ande,0.1,0.1,0.7
+48-38_tochew-1,Bugis,to chew,ota,0,1,0.3333333333333333,Popalia,munta,0.0,0.1,0.6
+48-39_tocook-1,Bugis,to cook,man-nasu,0,1,0.0,Wolio,nasu,0.0,0.0,0.8
+48-40_todrink-1,Bugis,to drink,menuŋ,0,1,0.0,Bantik,inuŋ,0.0,0.2,0.5
+48-40_todrink-2,Bugis,to drink,minuŋ,0,1,0.0,Bantik,inuŋ,0.0,0.2,0.7
+48-41_tobite-1,Bugis,to bite,mak-kokko,0,1,0.2,Makassar,aŋŋokkoʔ,0.0,0.1,0.3
+48-42_tosuck-1,Bugis,to suck,maŋ-iso,0,1,0.0,Makassar,aŋisoʔ,0.0,0.5,0.7
+48-43_ear-1,Bugis,ear,doccili,1,1,0.5,Mori,biri,0.0,0.0,0.8
+48-44_tohear-1,Bugis,to hear,mar-eŋkaliŋa,0,1,0.625,Wuna,feteŋke,0.0,0.0,0.4
+48-45_eye-1,Bugis,eye,mata,0,1,0.0,Banggai (W.dialect),mata,0.2,0.7,0.9
+48-46_tosee-1,Bugis,to see,mak-kita,0,1,0.0,Banggai (W.dialect),kita,0.1,0.2,0.6
+48-47_toyawn-1,Bugis,to yawn,maŋ-aleale,1,1,0.5,Mori,memaali,0.0,0.2,0.7
+48-48_tosleep-1,Bugis,to sleep,ma-tinro,0,1,0.0,Makassar,attinro,0.0,0.1,0.9
+48-49_toliedown-1,Bugis,to lie down,lewuu,1,1,0.5,Uma (Kantewu dialect),turu,0.0,0.0,0.5
+48-49_toliedown-2,Bugis,to lie down,liwuu,1,1,0.5,Bolaang Mongondow,siug,0.1,0.2,0.6
+48-50_todream-1,Bugis,to dream,nipi,0,1,0.0,Mori,moʔipi,0.0,0.3,0.7
+48-51_tosit-1,Bugis,to sit,tudaŋ,0,1,0.4,Bare'e,tunda,0.0,0.2,0.7
+48-52_tostand-1,Bugis,to stand,təttoŋ,1,1,0.6,Banggai (W.dialect),kokondoŋ,0.0,0.4,0.4
+48-53_personhumanbeing-1,Bugis,person/human being,tau,0,1,0.0,Makassar,tau,0.0,0.3,0.6
+48-54_manmale-1,Bugis,man/male,orane,0,1,0.0,Banggai (W.dialect),malane,0.3,0.3,0.6
+48-54_manmale-2,Bugis,man/male,burane,0,1,0.0,Banggai (W.dialect),malane,0.0,0.4,0.4
+48-55_womanfemale-1,Bugis,woman/female,makunrai,1,1,0.4,Buol,tabuai,0.0,0.0,0.7
+48-56_child-1,Bugis,child,anaʔ,0,1,0.0,Bantik,anaʔ,0.2,0.7,0.8
+48-57_husband-1,Bugis,husband,lakkai,0,1,0.0,Bare'e,laŋkai,0.1,0.4,1.0
+48-58_wife-1,Bugis,wife,baine,0,1,0.0,Mori,beine,0.0,0.1,0.6
+48-59_mother-1,Bugis,mother,indoʔ,0,1,0.0,Bare'e,indo,0.2,0.2,0.6
+48-60_father-1,Bugis,father,amboʔ,0,1,0.25,Tae' (S.Toraja),ambeʔ,0.1,0.2,0.6
+48-61_house-1,Bugis,house,bola,0,1,0.25,Buol,bole,0.2,0.4,0.8
+48-62_thatchroof-1,Bugis,thatch/roof,pabbiŋəŋ,1,1,0.625,Makassar,pattoŋkoʔ,0.0,0.0,0.0
+48-63_name-1,Bugis,name,asəŋ,0,1,0.5,Bantik,adeŋ,0.0,0.0,0.4
+48-64_tosay-1,Bugis,to say,mak-kədaa,1,1,0.4,Tae' (S.Toraja),po-kada,0.0,0.0,0.1
+48-64_tosay-2,Bugis,to say,pau,1,1,0.0,Mori,mepau,0.0,0.4,0.8
+48-65_rope-1,Bugis,rope,tulu,1,1,0.3333333333333333,Mori,ula,0.3,0.4,0.7
+48-66_totieupfasten-1,Bugis,"to tie up, fasten",mas-sio,1,1,0.3333333333333333,Totoli,soo,0.0,0.1,0.6
+48-67_tosew-1,Bugis,to sew,maʔ-jai,0,1,0.0,Makassar,anjaiʔ,0.2,0.4,0.9
+48-68_needle-1,Bugis,needle,jaruŋ,0,1,0.0,Makassar,jaruŋ,0.1,0.3,0.6
+48-69_tohunt-1,Bugis,to hunt,rəŋŋəŋ,1,1,0.6666666666666666,Makassar,andoaŋ,0.0,0.0,0.1
+48-70_toshoot-1,Bugis,to shoot,maʔ-balliliʔ,0,1,0.1111111111111111,Tae' (S.Toraja),maʔ-baliliʔ,0.0,0.0,0.4
+48-71_tostabpierce-1,Bugis,"to stab, pierce",maʔ-gajaŋ,1,1,0.7142857142857143,Bolaang Mongondow,tumbal,0.1,0.1,0.7
+48-71_tostabpierce-2,Bugis,"to stab, pierce",soppaʔ,1,1,0.5,Tontemboan,tumopok,0.1,0.2,0.8
+48-72_tohit-1,Bugis,to hit,tətteʔ,1,1,0.6,Tonsea,mapentek,0.1,0.3,0.3
+48-73_tosteal-1,Bugis,to steal,mennau,1,1,0.5,Kaidipang,monako,0.3,0.3,0.6
+48-74_tokill-1,Bugis,to kill,maʔ-buno,0,1,0.0,Bantik,buno,0.0,0.3,0.7
+48-75_todiebedead-1,Bugis,"to die, be dead",mate,0,1,0.0,Banggai (W.dialect),mate,0.0,0.2,0.8
+48-76_tolivebealive-1,Bugis,"to live, be alive",tuo,0,1,0.0,Tae' (S.Toraja),tuo,0.0,0.1,0.3
+48-77_toscratch-1,Bugis,to scratch,mak-kakkaŋ,0,1,0.16666666666666666,Makassar,aŋkaŋkaŋ,0.0,0.0,0.3
+48-78_tocuthack-1,Bugis,"to cut, hack",təttaʔ,0,1,0.3333333333333333,Soboyo,putaʔ,0.0,0.2,0.3
+48-79_stickwood-1,Bugis,stick/wood,aju,0,1,0.0,Bare'e,kaju,0.0,0.3,0.5
+48-80_tosplit-1,Bugis,to split,pueʔ,1,1,0.3333333333333333,Soboyo,kapuaʔ,0.0,0.0,0.2
+48-80_tosplit-2,Bugis,to split,pue,1,1,0.3333333333333333,Soboyo,kapuaʔ,0.0,0.0,0.1
+48-81_sharp-1,Bugis,sharp,ma-tarəŋ,0,1,0.2,Makassar,taraŋ,0.0,0.0,0.4
+48-82_dullblunt-1,Bugis,"dull, blunt",ma-kunru,1,1,0.14285714285714285,Wolio,makundu,0.1,0.1,0.9
+48-83_towork-1,Bugis,to work,maʔ-jama,0,1,0.0,Makassar,anjama,0.1,0.7,0.8
+48-84_toplant-1,Bugis,to plant,tanəŋ,0,1,0.2,Soboyo,tanoŋ,0.0,0.1,0.4
+48-85_tochoose-1,Bugis,to choose,mile,0,1,0.0,Bantik,pile,0.1,0.4,0.7
+48-86_togrow-1,Bugis,to grow,tuo,0,1,0.0,Tae' (S.Toraja),tuo,0.0,0.3,0.6
+48-87_toswell-1,Bugis,to swell,bəkkaʔ,0,1,0.3333333333333333,Popalia,baŋka,0.0,0.2,0.3
+48-88_tosqueeze-1,Bugis,to squeeze,tassipi,1,1,0.25,Wolio,pisiki,0.0,0.0,0.5
+48-89_tohold-1,Bugis,to hold,mak-katənni,1,1,0.5714285714285714,Banggai (W.dialect),kaŋgi,0.0,0.0,0.1
+48-89_tohold-2,Bugis,to hold,warəkkəŋ,1,1,0.7142857142857143,Soboyo,hako,0.0,0.0,0.0
+48-89_tohold-3,Bugis,to hold,gəŋkəŋ,0,1,0.6,Banggai (W.dialect),kaŋgi,0.0,0.0,0.0
+48-90_todig-1,Bugis,to dig,mak-kae,0,1,0.0,Bare'e,moŋ-kae,0.0,0.2,0.8
+48-91_tobuy-1,Bugis,to buy,əlli,0,1,0.0,Tae' (S.Toraja),alli,0.1,0.3,0.6
+48-92_toopenuncover-1,Bugis,"to open, uncover",timpaʔ,1,1,0.5,Bantik,bika,0.2,0.3,0.7
+48-92_toopenuncover-2,Bugis,"to open, uncover",buka,0,1,0.0,Banggai (W.dialect),buka,0.2,0.6,0.9
+48-93_topoundbeat-1,Bugis,"to pound, beat",man-nampuʔ,0,1,0.2857142857142857,Makassar,annumbuʔ,0.0,0.0,0.3
+48-93_topoundbeat-2,Bugis,"to pound, beat",təttuʔ,0,1,0.25,Soboyo,tutuʔ,0.0,0.4,0.6
+48-94_tothrow-1,Bugis,to throw,maʔ-dempəʔ,1,1,0.5,Wuna,ghompa,0.0,0.0,0.3
+48-95_tofall-1,Bugis,to fall,mabuəŋ,1,1,0.3333333333333333,Banggai (W.dialect),tuoŋ,0.0,0.0,0.4
+48-96_dog-1,Bugis,dog,asu,0,1,0.0,Banggai (W.dialect),asu,0.2,0.7,0.8
+48-97_bird-1,Bugis,bird,manuʔ manuʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),manu-manu,0.0,0.0,0.7
+48-98_egg-1,Bugis,egg,təllo,0,1,0.0,Tae' (S.Toraja),talloʔ,0.0,0.4,0.4
+48-99_feather-1,Bugis,feather,bulu,0,1,0.0,Banggai (W.dialect),bulu,0.4,0.6,0.7
+48-100_wing-1,Bugis,wing,panni,0,1,0.2,Muna (Katobu-Tongkuno Dialect),pani,0.1,0.3,0.8
+48-101_tofly-1,Bugis,to fly,luttu,1,1,0.4,Wiau,lumuu,0.0,0.3,0.5
+48-102_rat-1,Bugis,rat,balawo,0,1,0.0,Muna (Katobu-Tongkuno Dialect),wulawo,0.2,0.4,0.8
+48-103_meatflesh-1,Bugis,meat/flesh,juku,1,1,0.6666666666666666,Gorontalo (Hulondalo),tapu,0.1,0.4,0.5
+48-104_fatgrease-1,Bugis,fat/grease,lunraʔ,1,1,0.5,Soboyo,minaʔ,0.1,0.4,1.0
+48-105_tail-1,Bugis,tail,ikkoʔ,0,1,0.0,Tae' (S.Toraja),ikkoʔ,0.1,0.1,0.5
+48-106_snake-1,Bugis,snake,ula,0,1,0.0,Tontemboan,ulaʔ,0.0,0.4,0.7
+48-107_wormearthworm-1,Bugis,worm (earthworm),lati,0,1,0.0,Kaidipang,rʔuati,0.1,0.4,0.9
+48-108_louse-1,Bugis,louse,utu,0,1,0.0,Bantik,kutu,0.0,0.3,0.5
+48-109_mosquito-1,Bugis,mosquito,namoʔ,0,1,0.25,Gorontalo (Hulondalo),lamuʔo,0.0,0.4,0.7
+48-110_spider-1,Bugis,spider,garaŋkaŋ,0,1,0.2,Lasalimu,kalaŋka,0.0,0.0,0.5
+48-110_spider-2,Bugis,spider,lawa-lawa,0,1,0.0,Tontemboan,lawa-lawa,0.0,0.1,0.8
+48-111_fish-1,Bugis,fish,bale,0,1,0.0,Tae' (S.Toraja),bale,0.1,0.5,0.7
+48-112_rotten-1,Bugis,rotten,ma-kəbboŋ,1,1,0.6,Mori,moboo,0.0,0.0,0.1
+48-113_branch-1,Bugis,branch,takke,0,1,0.2,Tae' (S.Toraja),taŋke,0.0,0.1,0.5
+48-114_leaf-1,Bugis,leaf,dauŋ,0,1,0.0,Bantik,dauŋ,0.0,0.2,0.4
+48-115_root-1,Bugis,root,urəʔ,0,1,0.6666666666666666,Tolaki,akara,0.0,0.2,0.3
+48-116_flower-1,Bugis,flower,buŋa,0,1,0.0,Banggai (W.dialect),buŋa,0.1,0.2,0.8
+48-117_fruit-1,Bugis,fruit,bua,0,1,0.0,Bantik,bua,0.0,0.0,0.2
+48-118_grass-1,Bugis,grass,sarii,1,1,0.25,Soboyo,takii,0.0,0.1,0.8
+48-118_grass-2,Bugis,grass,sərii,1,1,0.3333333333333333,Soboyo,takii,0.0,0.1,0.3
+48-119_earthsoil-1,Bugis,earth/soil,tana,0,1,0.0,Bantik,tana,0.3,0.8,0.9
+48-120_stone-1,Bugis,stone,batu,0,1,0.0,Banggai (W.dialect),batu,0.3,0.4,0.8
+48-121_sand-1,Bugis,sand,kəssiʔ,0,1,0.0,Makassar,kassiʔ,0.0,0.0,0.4
+48-122_water-1,Bugis,water,uae,0,1,0.3333333333333333,Wolio,uwe,0.1,0.5,0.9
+48-123_toflow-1,Bugis,to flow,mas-soloʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),nosolo,0.1,0.1,0.5
+48-124_sea-1,Bugis,sea,tasiʔ,0,1,0.0,Bantik,tasiʔ,0.3,0.5,0.8
+48-125_salt-1,Bugis,salt,pəjje,1,1,0.6666666666666666,Bare'e,bure,0.0,0.1,0.1
+48-126_lake-1,Bugis,lake,tappárəŋ,0,1,0.375,Tae' (S.Toraja),tapparan,0.0,0.0,0.0
+48-127_woodsforest-1,Bugis,woods/forest,aləʔ,0,1,0.3333333333333333,Tae' (S.Toraja),[paŋ]alaʔ,0.0,0.3,0.6
+48-128_sky-1,Bugis,sky,laŋi,0,1,0.0,Bantik,laŋiʔ,0.0,0.1,0.7
+48-129_moon-1,Bugis,moon,wuləŋ,0,1,0.25,Bantik,bulaŋ,0.0,0.1,0.4
+48-129_moon-2,Bugis,moon,uləŋ,0,1,0.25,Bantik,bulaŋ,0.0,0.3,0.5
+48-130_star-1,Bugis,star,wittaiŋ,0,1,0.5,Kaidipang,matiti,0.1,0.1,0.6
+48-130_star-2,Bugis,star,wittuiŋ,0,1,0.5,Kaidipang,matiti,0.0,0.0,0.5
+48-131_cloud-1,Bugis,cloud,əlluŋ,1,1,0.3333333333333333,Tontemboan,kambuŋ,0.0,0.1,0.3
+48-132_fog-1,Bugis,fog,salewu,0,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),gawu,0.0,0.1,0.8
+48-132_fog-2,Bugis,fog,saliwu,0,1,0.16666666666666666,Makassar,saliu,0.0,0.3,0.8
+48-133_rain-1,Bugis,rain,bosi,0,1,0.0,Makassar,bosi,0.1,0.1,0.4
+48-134_thunder-1,Bugis,thunder,guttu,0,1,0.2,Wolio,guntu,0.1,0.3,0.5
+48-134_thunder-2,Bugis,thunder,lətte,0,1,0.6,Banggai (W.dialect),selese,0.0,0.1,0.4
+48-135_lightning-1,Bugis,lightning,billəʔ,0,1,0.25,Makassar,killaʔ,0.0,0.0,0.1
+48-136_wind-1,Bugis,wind,aŋiŋ,0,1,0.0,Makassar,aŋiŋ,0.3,0.3,0.5
+48-137_toblow-1,Bugis,to blow,mat-tappoʔ,1,1,0.6,Gorontalo (Hulondalo),hii-hiipo,0.0,0.0,0.3
+48-138_warm-1,Bugis,warm,ma-pəlla,1,1,0.42857142857142855,Tolaki (Konawe),makula,0.1,0.1,0.4
+48-139_cold-1,Bugis,cold,ma-kəcceʔ,0,1,0.6666666666666666,Tae' (S.Toraja),ma-sakkaʔ,0.0,0.0,0.0
+48-140_dry-1,Bugis,dry,ma-rakko,0,1,0.2857142857142857,Tae' (S.Toraja),ma-reŋko,0.1,0.1,0.5
+48-141_wet-1,Bugis,wet,ma-ricaʔ,1,1,0.3333333333333333,Kulisusu,mopita,0.0,0.3,0.7
+48-142_heavy-1,Bugis,heavy,ma-tanəʔ,1,1,0.3333333333333333,Wolio,matamo,0.0,0.4,0.8
+48-143_fire-1,Bugis,fire,api,0,1,0.0,Mori,api,0.0,0.4,0.7
+48-144_toburn-1,Bugis,to burn,mat-tunu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aetunu,0.2,0.2,0.7
+48-145_smoke-1,Bugis,smoke,rumpu,0,1,0.2,Makassar,rumbu,0.2,0.6,0.8
+48-146_ashes-1,Bugis,ashes,awu,0,1,0.0,Mori,awu,0.1,0.4,0.6
+48-147_black-1,Bugis,black,ma-lotoŋ,0,1,0.0,Tae' (S.Toraja),ma-lotoŋ,0.2,0.2,0.6
+48-148_white-1,Bugis,white,ma-pute,0,1,0.0,Banggai (W.dialect),ute,0.0,0.1,0.8
+48-149_red-1,Bugis,red,ma-cəllaʔ,1,1,0.5,Banggai (W.dialect),[me]mela,0.0,0.0,0.5
+48-150_yellow-1,Bugis,yellow,ma-ridi,0,1,0.16666666666666666,Tae' (S.Toraja),ma-riri,0.0,0.4,0.6
+48-151_green-1,Bugis,green,ma-kudaraʔ,1,1,0.5,Soboyo,mamaula,0.0,0.0,0.5
+48-152_small-1,Bugis,small,ma-biccuʔ,1,1,0.5,Koroni,mohiɸu,0.0,0.0,0.3
+48-152_small-2,Bugis,small,ma-rənniʔ,1,1,0.6,Bantik,kokónioʔ,0.0,0.0,0.3
+48-153_big-1,Bugis,big,ma-raja,0,1,0.3333333333333333,Soboyo,haya,0.2,0.7,0.9
+48-154_short-1,Bugis,short,ma-poncoʔ,1,1,0.4,Wolio,mampodo,0.1,0.1,0.7
+48-155_long-1,Bugis,long,ma-lampe,0,1,0.25,Wolio,marambe,0.0,0.0,0.9
+48-156_thin-1,Bugis,thin,ma-nipi,0,1,0.0,Banggai (W.dialect),nipi,0.0,0.3,0.6
+48-157_thick-1,Bugis,thick,ma-umpəʔ,1,1,0.25,Uma (Kantewu dialect),mo-kumpa,0.0,0.2,0.6
+48-158_narrow-1,Bugis,narrow,ma-cikkəʔ,0,1,0.5,Soboyo,riki,0.0,0.0,0.3
+48-158_narrow-2,Bugis,narrow,ma-cipi,1,1,0.0,Tae' (S.Toraja),siʔpiʔ,0.0,0.2,0.4
+48-159_wide-1,Bugis,wide,ma-sakka,0,1,0.2,Tae' (S.Toraja),saŋkaʔ,0.0,0.1,0.8
+48-160_painfulsick-1,Bugis,"painful, sick",pəddi,0,1,0.6,Wolio,mapii,0.0,0.0,0.1
+48-161_shyashamed-1,Bugis,"shy, ashamed",siriʔ,0,1,0.0,Makassar,siriʔ,0.1,0.1,0.5
+48-162_old-1,Bugis,old,ma-toa,0,1,0.0,Makassar,toa,0.0,0.0,0.8
+48-162_old-2,Bugis,old,ma-tua,0,1,0.0,Mori,motuʔa,0.2,0.6,1.0
+48-163_new-1,Bugis,new,ma-baru,0,1,0.0,Tae' (S.Toraja),baʔru,0.1,0.4,0.9
+48-164_good-1,Bugis,good,ma-deceŋ,1,1,0.5714285714285714,Wolio,malape,0.0,0.0,0.2
+48-165_badevil-1,Bugis,"bad, evil",ma-jaa,0,1,0.0,Bare'e,ma-jaʔa,0.1,0.4,0.6
+48-166_correcttrue-1,Bugis,"correct, true",toŋəŋ,0,1,0.4,Makassar,tojeŋ,0.0,0.0,0.3
+48-167_night-1,Bugis,night,wənni,0,1,0.3333333333333333,Tonsea,wengi,0.1,0.1,0.3
+48-168_day-1,Bugis,day,əsso,0,1,0.5,Tontemboan,əndo,0.0,0.1,0.3
+48-169_year-1,Bugis,year,tauŋ,0,1,0.0,Makassar,tauŋ,0.0,0.1,0.5
+48-170_when-1,Bugis,when?,uppanna,0,1,0.0,Makassar,siapanna,0.0,0.0,0.7
+48-171_tohide-1,Bugis,to hide,maʔkasubbu,1,1,0.6666666666666666,Wolio,buniaka,0.0,0.0,0.2
+48-172_toclimb-1,Bugis,to climb,tukaʔ,0,1,0.0,Tae' (S.Toraja),tukaʔ,0.0,0.3,0.5
+48-173_at-1,Bugis,at,ri,0,1,0.0,Makassar,ri,0.0,0.0,0.0
+48-174_ininside-1,Bugis,"in, inside",ri laləŋ,0,1,0.16666666666666666,Banggai (W.dialect),doi laloŋ,0.0,0.0,0.7
+48-175_above-1,Bugis,above,ri aseʔ,0,1,0.5,Bare'e,ri wawo,0.1,0.4,0.8
+48-175_above-2,Bugis,above,yaséʔ,0,1,0.6666666666666666,Muna (Katobu-Tongkuno Dialect),te wawo,0.0,0.1,0.4
+48-176_below-1,Bugis,below,ri awa,0,1,0.0,Makassar,irawa,0.3,0.8,1.0
+48-176_below-2,Bugis,below,yawa,0,1,0.0,Makassar,irawa,0.1,0.6,0.9
+48-177_this-1,Bugis,this,ia-e,0,1,0.25,Tae' (S.Toraja),ia-te,0.0,0.1,0.5
+48-178_that-1,Bugis,that,ia-tu,0,1,0.0,Popalia,haʔatu,0.3,0.5,0.7
+48-178_that-2,Bugis,that,ia-ro,0,1,0.25,Tae' (S.Toraja),ia-to,0.1,0.4,0.9
+48-179_near-1,Bugis,near,ma-caweʔ,1,1,0.3333333333333333,Tontemboan,tawi,0.0,0.5,0.8
+48-180_far-1,Bugis,far,ma-bela,0,1,0.0,Tae' (S.Toraja),bela,0.3,0.6,0.8
+48-181_where-1,Bugis,where?,kegi,1,1,0.5,Mori Atas (Doule),inderio,0.1,0.1,0.6
+48-182_i-1,Bugis,I,iaʔ,0,1,0.0,Bantik,iaʔ,0.0,0.1,0.2
+48-183_thou-1,Bugis,thou,iko,0,1,0.0,Bare'e,siko,0.1,0.4,0.6
+48-184_heshe-1,Bugis,he/she,ia,0,1,0.0,Tae' (S.Toraja),ia,0.0,0.1,0.1
+48-185_we-1,Bugis,we,idiʔ,0,1,0.25,Muna (Katobu-Tongkuno Dialect),intaidi,0.0,0.2,0.3
+48-185_we-2,Bugis,we,ikkəŋ,0,1,0.6,Banggai (W.dialect),ikita,0.0,0.1,0.3
+48-186_you-1,Bugis,you,iko manəŋ,0,1,0.5,Banggai (W.dialect),ikomuyu,0.0,0.1,0.4
+48-187_they-1,Bugis,they,ia-manəŋ,1,1,0.5,Popalia,amai,0.0,0.0,0.5
+48-188_what-1,Bugis,what?,aga,0,1,0.3333333333333333,Bantik,apa,0.1,0.6,0.8
+48-189_who-1,Bugis,who?,niga,1,1,0.25,Tomini (Tialo),sigau,0.1,0.3,0.5
+48-190_other-1,Bugis,other,laiŋ,1,1,0.25,Soboyo,boliŋ,0.0,0.1,0.4
+48-191_all-1,Bugis,all,manəŋ,1,1,0.5,Popalia,baʔano,0.0,0.1,0.4
+48-192_and-1,Bugis,and,sibawa,1,1,0.5,Tonsea,karia,0.0,0.5,0.8
+48-192_and-2,Bugis,and,na,0,1,0.0,Makassar,na,0.0,0.0,0.1
+48-193_if-1,Bugis,if,nakko,1,1,0.5,Tae' (S.Toraja),iake,0.1,0.3,0.7
+48-193_if-2,Bugis,if,rekko,1,1,0.6666666666666666,Banggai (W.dialect),sio,0.0,0.3,0.7
+48-194_how-1,Bugis,how?,pekua,0,1,0.25,Bantik,kakuda,0.2,0.4,0.8
+48-195_nonot-1,Bugis,"no, not",de,0,1,0.5,Ponosakan,deya',0.0,0.0,0.1
+48-196_tocount-1,Bugis,to count,bilaŋ,0,1,0.0,Tae' (S.Toraja),bilaŋ,0.0,0.1,0.5
+48-197_one-1,Bugis,One,seʔdi,0,1,0.5,Bungku (Torete),asade,0.1,0.3,0.5
+48-198_two-1,Bugis,Two,dua,0,1,0.0,Bantik,dadua,0.0,0.2,0.6
+48-199_three-1,Bugis,Three,təllu,0,1,0.0,Makassar,tallu,0.0,0.2,0.3
+48-200_four-1,Bugis,Four,əppa,0,1,0.0,Makassar,appaʔ,0.0,0.0,0.0
+48-201_five-1,Bugis,Five,lima,0,1,0.0,Banggai (W.dialect),lima,0.2,0.2,0.6
+48-202_six-1,Bugis,Six,ənnəŋ,0,1,0.25,Makassar,annaŋ,0.0,0.0,0.1
+48-203_seven-1,Bugis,Seven,fitu,0,1,0.0,Banggai (W.dialect),pitu,0.0,0.4,0.4
+48-204_eight-1,Bugis,Eight,arua,1,1,0.0,Tae' (S.Toraja),karua,0.1,0.1,1.0
+48-205_nine-1,Bugis,Nine,asera,0,1,0.0,Tae' (S.Toraja),kasera,0.0,0.3,0.5
+48-206_ten-1,Bugis,Ten,səppulo,0,1,0.0,Mori,hopulo,0.0,0.1,0.3
+48-207_twenty-1,Bugis,Twenty,duappulo,0,1,0.125,Tae' (S.Toraja),duaŋpulo,0.0,0.1,0.5
+48-208_fifty-1,Bugis,Fifty,limappulo,0,1,0.1111111111111111,Makassar,limampulo,0.0,0.1,0.5
+48-209_onehundred-1,Bugis,One Hundred,səratuu,0,1,0.2,Bantik,mahatusu,0.1,0.1,0.7
+48-210_onethousand-1,Bugis,One Thousand,sisəbbu,0,1,0.2857142857142857,Makassar,sisaʔbu,0.0,0.0,0.2
+166-1_hand-1,Makassar,hand,lima,0,1,0.0,Banggai (W.dialect),lima,0.0,0.3,0.7
+166-2_left-1,Makassar,left,kairi,0,1,0.0,Tontemboan,kaʔbiri,0.1,0.4,0.5
+166-3_right-1,Makassar,right,kanaŋ,0,1,0.2,Tontemboan,kanan,0.1,0.3,0.8
+166-4_legfoot-1,Makassar,leg/foot,baŋkeŋ,1,1,0.25,Andio,teŋker,0.1,0.1,0.7
+166-5_towalk-1,Makassar,to walk,aʔlampa,0,1,0.0,Tomini (Tialo),lampa,0.2,0.3,0.8
+166-6_roadpath-1,Makassar,road/path,agaŋ,1,1,0.5,Bantik,daleŋ,0.0,0.1,0.8
+166-7_tocome-1,Makassar,to come,battu,1,1,0.4,Banggai (W.dialect),lubat,0.2,0.4,0.7
+166-8_toturn-1,Makassar,to turn,biluʔ,0,1,0.3333333333333333,Wolio,gili,0.0,0.2,0.6
+166-9_toswim-1,Makassar,to swim,aʔlaŋɛ,0,1,0.25,Andio,laŋu,0.1,0.3,0.5
+166-10_dirty-1,Makassar,dirty,raʔmasaʔ,1,1,0.3333333333333333,Bare'e,sapa,0.0,0.4,0.8
+166-11_dust-1,Makassar,dust,awu,0,1,0.0,Mori,awu,0.0,0.5,0.8
+166-11_dust-2,Makassar,dust,alimbuʔbuʔ,1,1,0.3333333333333333,Andio,abuʔabu,0.0,0.1,0.3
+166-12_skin-1,Makassar,skin,bukku lɛŋ,1,1,0.4,Banggai (W.dialect),kulit,0.0,0.0,0.1
+166-13_back-1,Makassar,back,doŋkoʔ,0,1,0.25,Tae' (S.Toraja),bokoʔ,0.2,0.3,0.9
+166-14_belly-1,Makassar,belly,battaŋ,0,1,0.25,Bantik,tiaŋ,0.0,0.5,0.8
+166-15_bone-1,Makassar,bone,buku,0,1,0.0,Banggai (W.dialect),buku,0.1,0.2,0.6
+166-16_intestines-1,Makassar,intestines,parruʔ,0,1,0.2,Buginese (Soppeng Dialect),paruu,0.2,0.4,0.7
+166-17_liver-1,Makassar,liver,atɛ,0,1,0.3333333333333333,Banggai (W.dialect),ate,0.0,0.1,0.2
+166-18_breast-1,Makassar,breast,susu,0,1,0.0,Banggai (W.dialect),susu,0.2,0.3,0.6
+166-18_breast-2,Makassar,breast,barambaŋ,0,1,0.8,Buol,meme,0.0,0.1,0.5
+166-19_shoulder-1,Makassar,shoulder,salaŋga,0,1,0.0,Wolio,salaŋga,0.0,0.3,0.6
+166-20_toknowbeknowledgeable-1,Makassar,"to know, be knowledgeable",issɛŋ,0,1,0.2,Buginese (Soppeng Dialect),issəŋ,0.0,0.0,0.1
+166-21_tothink-1,Makassar,to think,ammikkiriʔ,1,1,0.16666666666666666,Popalia,ɸikiri,0.0,0.0,0.1
+166-22_tofear-1,Makassar,to fear,mallaʔ,1,1,0.4,Popalia,maʔaka,0.2,0.3,0.8
+166-23_blood-1,Makassar,blood,cɛraʔ,0,1,0.3333333333333333,Buginese (Soppeng Dialect),dara,0.0,0.2,0.3
+166-24_head-1,Makassar,head,ulu,0,1,0.0,Banggai (W.dialect),ulu,0.2,0.8,0.8
+166-25_neck-1,Makassar,neck,kalloŋ,0,1,0.0,Buginese (Soppeng Dialect),əlloŋ,0.1,0.3,0.6
+166-27_nose-1,Makassar,nose,kaʔmuru,1,1,0.3333333333333333,Kodeoha,ŋusu,0.2,0.7,0.8
+166-28_tobreathe-1,Makassar,to breathe,aʔmaiʔ,1,1,0.25,Soboyo,hamac,0.2,0.2,0.9
+166-29_tosniffsmell-1,Makassar,"to sniff, smell",aŋŋaraʔ,1,1,0.5714285714285714,Buginese (Soppeng Dialect),maŋ-əmmau,0.1,0.6,0.7
+166-30_mouth-1,Makassar,mouth,bawa,0,1,0.0,Buginese (Soppeng Dialect),bawa,0.1,0.6,0.8
+166-31_tooth-1,Makassar,tooth,gigi,0,1,0.25,Tolaki,ngisi,0.1,0.4,0.5
+166-32_tongue-1,Makassar,tongue,lila,0,1,0.0,Bantik,dila,0.3,0.6,0.8
+166-33_tolaugh-1,Makassar,to laugh,ammakkalaʔ,1,1,0.42857142857142855,Buginese (Soppeng Dialect),macawa,0.0,0.2,0.6
+166-34_tocry-1,Makassar,to cry,aŋŋarruʔ,1,1,0.5,Buginese (Soppeng Dialect),tarii,0.0,0.0,0.3
+166-35_tovomit-1,Makassar,to vomit,laŋŋɛ,1,1,0.6666666666666666,Mori,kolua-lua,0.0,0.0,0.4
+166-35_tovomit-2,Makassar,to vomit,taʔlaŋŋɛ,1,1,0.5714285714285714,Buginese (Soppeng Dialect),tal-lua,0.0,0.0,0.4
+166-36_tospit-1,Makassar,to spit,appiʔru,1,1,0.3333333333333333,Soboyo,takilu,0.0,0.6,0.8
+166-37_toeat-1,Makassar,to eat,aŋŋanrɛ,0,1,0.25,Buginese (Soppeng Dialect),manre,0.0,0.0,0.3
+166-38_tochew-1,Makassar,to chew,añcaʔma,1,1,0.0,Bantik,mama,0.2,0.5,0.7
+166-39_tocook-1,Makassar,to cook,appallu,1,1,0.5,Mori,monahu,0.1,0.1,0.5
+166-40_todrink-1,Makassar,to drink,aŋŋinuŋ,0,1,0.0,Bantik,inuŋ,0.0,0.0,0.1
+166-41_tobite-1,Makassar,to bite,aŋŋokkoʔ,0,1,0.2,Buginese (Soppeng Dialect),mak-kokko,0.2,0.2,0.9
+166-42_tosuck-1,Makassar,to suck,aŋisoʔ,0,1,0.0,Buginese (Soppeng Dialect),maŋ-iso,0.0,0.3,0.8
+166-43_ear-1,Makassar,ear,toli,0,1,0.25,Popalia,tuli,0.1,0.2,0.6
+166-44_tohear-1,Makassar,to hear,allaŋŋɛrɛʔ,0,1,0.6666666666666666,Wolio,raŋo,0.0,0.0,0.0
+166-45_eye-1,Makassar,eye,mata,0,1,0.0,Banggai (W.dialect),mata,0.4,0.9,0.9
+166-46_tosee-1,Makassar,to see,acciniʔ,1,1,0.3333333333333333,Tolaki,ki'ii,0.1,0.1,0.3
+166-47_toyawn-1,Makassar,to yawn,aʔlaulau,1,1,0.4,Gorontalo (Hulondalo),mo-huwabu,0.2,0.2,1.0
+166-48_tosleep-1,Makassar,to sleep,attinro,0,1,0.0,Buginese (Soppeng Dialect),ma-tinro,0.0,0.0,0.6
+166-49_toliedown-1,Makassar,to lie down,anraʔba,0,1,0.5,Tae' (S.Toraja),mammaʔ,0.2,0.3,0.7
+166-50_todream-1,Makassar,to dream,assoʔna,1,1,0.5,Banggai (W.dialect),ulumon,0.4,0.5,0.8
+166-51_tosit-1,Makassar,to sit,ammempo,1,1,0.0,Tonsea,mempo',0.1,0.1,0.6
+166-52_tostand-1,Makassar,to stand,ammenteŋ,1,1,0.42857142857142855,Mori,mentade,0.0,0.0,0.7
+166-53_personhumanbeing-1,Makassar,person/human being,tau,0,1,0.0,Buginese (Soppeng Dialect),tau,0.2,0.5,0.7
+166-54_manmale-1,Makassar,man/male,buraʔne,0,1,0.0,Banggai (W.dialect),malane,0.1,0.7,0.8
+166-55_womanfemale-1,Makassar,woman/female,bainɛ,0,1,0.2,Tae' (S.Toraja),baine,0.0,0.1,0.5
+166-56_child-1,Makassar,child,anaʔ,0,1,0.0,Bantik,anaʔ,0.0,0.4,0.8
+166-57_husband-1,Makassar,husband,buraʔnɛ,0,1,0.3333333333333333,Tae' (S.Toraja),muane,0.2,0.3,0.8
+166-58_wife-1,Makassar,wife,baine,0,1,0.0,Mori,beine,0.2,0.4,0.9
+166-59_mother-1,Makassar,mother,ammaʔ,0,1,0.25,Kambowa,ama,0.0,0.1,0.7
+166-60_father-1,Makassar,father,maŋgɛ,1,1,0.4,Totoli,amang,0.1,0.1,0.3
+166-61_house-1,Makassar,house,ballaʔ,0,1,0.3333333333333333,Buginese (Soppeng Dialect),bola,0.1,0.4,0.8
+166-62_thatchroof-1,Makassar,thatch/roof,pattoŋkoʔ,1,1,0.4,Gorontalo (Hulondalo),watopo,0.0,0.0,0.4
+166-63_name-1,Makassar,name,areŋ,0,1,0.25,Bantik,adeŋ,0.0,0.0,0.4
+166-64_tosay-1,Makassar,to say,aŋkana,1,1,0.25,Tae' (S.Toraja),po-kada,0.1,0.7,0.8
+166-65_rope-1,Makassar,rope,otɛrɛʔ,1,1,0.6,Bungku (Routa),koloro,0.0,0.0,0.0
+166-66_totieupfasten-1,Makassar,"to tie up, fasten",aññikkoʔ,1,1,0.5,Bantik,ikiʔ,0.0,0.0,0.7
+166-67_tosew-1,Makassar,to sew,anjaiʔ,0,1,0.0,Buginese (Soppeng Dialect),maʔ-jai,0.0,0.2,0.7
+166-68_needle-1,Makassar,needle,jaruŋ,0,1,0.0,Buginese (Soppeng Dialect),jaruŋ,0.0,0.0,0.6
+166-69_tohunt-1,Makassar,to hunt,andoaŋ,1,1,0.5,Kambowa,nopoasu,0.1,0.2,0.9
+166-70_toshoot-1,Makassar,to shoot,annembaʔ,0,1,0.0,Wuna,netemba,0.2,0.2,0.4
+166-71_tostabpierce-1,Makassar,"to stab, pierce",annoboʔ,1,1,0.0,Muna (Katobu-Tongkuno Dialect),aetobo,0.3,0.7,0.9
+166-72_tohit-1,Makassar,to hit,annunruŋ,1,1,0.5,Mori,montunduhi,0.0,0.0,0.1
+166-73_tosteal-1,Makassar,to steal,allukka,1,1,0.6,Popalia,homonaka,0.2,0.2,0.4
+166-74_tokill-1,Makassar,to kill,ambuno,0,1,0.0,Bantik,buno,0.1,0.4,0.9
+166-75_todiebedead-1,Makassar,"to die, be dead",matɛ,0,1,0.25,Banggai (W.dialect),mate,0.0,0.2,0.9
+166-76_tolivebealive-1,Makassar,"to live, be alive",tallasaʔ,1,1,0.25,Tolaki,laa,0.0,0.0,0.7
+166-77_toscratch-1,Makassar,to scratch,aŋkaŋkaŋ,0,1,0.16666666666666666,Buginese (Soppeng Dialect),mak-kakkaŋ,0.3,0.3,0.4
+166-78_tocuthack-1,Makassar,"to cut, hack",ammoloŋ,0,1,0.0,Buol,moŋoloŋ,0.1,0.1,0.7
+166-79_stickwood-1,Makassar,stick/wood,kayu,0,1,0.0,Bantik,kayu,0.1,0.5,0.6
+166-80_tosplit-1,Makassar,to split,ammuɛ,1,1,0.5714285714285714,Gorontalo (Hulondalo),mo-mutaʔe,0.0,0.0,0.3
+166-81_sharp-1,Makassar,sharp,taraŋ,0,1,0.2,Buginese (Soppeng Dialect),ma-tarəŋ,0.1,0.4,1.0
+166-82_dullblunt-1,Makassar,"dull, blunt",pokkoloʔ,1,1,0.5,Bantik,tiŋkopeʔ,0.1,0.1,0.5
+166-83_towork-1,Makassar,to work,anjama,0,1,0.0,Buginese (Soppeng Dialect),maʔ-jama,0.0,0.4,0.8
+166-84_toplant-1,Makassar,to plant,attanaŋ,0,1,0.2,Buginese (Soppeng Dialect),tanəŋ,0.1,0.2,0.8
+166-85_tochoose-1,Makassar,to choose,ammilɛ,0,1,0.25,Kaidipang,momili,0.0,0.1,0.3
+166-86_togrow-1,Makassar,to grow,attimbo,1,1,0.25,Totoli,sumbo,0.0,0.0,0.7
+166-87_toswell-1,Makassar,to swell,kambaŋ,0,1,0.0,Tae' (S.Toraja),kambaŋ,0.1,0.3,0.8
+166-88_tosqueeze-1,Makassar,to squeeze,ammaccoʔ,1,1,0.4,Andio,momaoʔ,0.0,0.0,0.7
+166-89_tohold-1,Makassar,to hold,annaʔgalaʔ,1,1,0.5,Muna (Katobu-Tongkuno Dialect),aeintara,0.0,0.1,0.6
+166-90_todig-1,Makassar,to dig,aŋŋɛkɛ,1,1,0.6,Kulisusu,moŋkeke,0.0,0.0,0.2
+166-91_tobuy-1,Makassar,to buy,ammalli,0,1,0.0,Tae' (S.Toraja),alli,0.1,0.1,0.4
+166-92_toopenuncover-1,Makassar,"to open, uncover",aññuŋkɛ,1,1,0.25,Uma (Kantewu dialect),huŋkaʔ,0.0,0.0,0.4
+166-93_topoundbeat-1,Makassar,"to pound, beat",annumbuʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aetumbu,0.2,0.2,0.7
+166-94_tothrow-1,Makassar,to throw,aññambila,1,1,0.5,Tontemboan,maʔwankil,0.0,0.1,0.6
+166-95_tofall-1,Makassar,to fall,tuʔguruʔ,1,1,0.3333333333333333,Bolaang Mongondow,duduʔ,0.1,0.3,0.4
+166-96_dog-1,Makassar,dog,koŋkoŋ,1,1,0.5,Bolaang Mongondow,uŋkuʔ,0.1,0.3,0.7
+166-97_bird-1,Makassar,bird,jaŋanɟaŋaŋ,1,1,0.5714285714285714,Bolaang Mongondow,lagapan,0.0,0.0,0.2
+166-98_egg-1,Makassar,egg,bayâo,1,1,0.5,Tae' (S.Toraja),talloʔ,0.0,0.4,0.6
+166-99_feather-1,Makassar,feather,bulu,0,1,0.0,Banggai (W.dialect),bulu,0.3,0.5,0.6
+166-100_wing-1,Makassar,wing,kaʔñiʔ,1,1,0.25,Popalia,kapi,0.1,0.3,0.6
+166-101_tofly-1,Makassar,to fly,anriʔba,0,1,0.5,Tae' (S.Toraja),tiaʔ,0.1,0.6,0.9
+166-102_rat-1,Makassar,rat,balao,0,1,0.0,Tae' (S.Toraja),balao,0.4,0.6,0.9
+166-103_meatflesh-1,Makassar,meat/flesh,assi,0,1,0.0,Tae' (S.Toraja),issi,0.0,0.2,0.7
+166-104_fatgrease-1,Makassar,fat/grease,jamɛʔjamɛʔ,0,1,0.5714285714285714,Buol,lamak,0.0,0.0,0.0
+166-105_tail-1,Makassar,tail,iŋkoŋ,0,1,0.4,Buginese (Soppeng Dialect),ikkoʔ,0.1,0.2,0.6
+166-106_snake-1,Makassar,snake,ularaʔ,0,1,0.3333333333333333,Tonsea,sawa,0.4,0.4,0.8
+166-107_wormearthworm-1,Makassar,worm (earthworm),gallaŋgallaŋ,0,1,0.2222222222222222,Lasalimu,ŋgalaŋgala,0.0,0.0,0.0
+166-108_louse-1,Makassar,louse,kutu,0,1,0.0,Bantik,kutu,0.1,0.5,0.8
+166-109_mosquito-1,Makassar,mosquito,lamuʔ,0,1,0.2,Gorontalo (Hulondalo),lamuʔo,0.2,0.6,0.9
+166-110_spider-1,Makassar,spider,labalaba,0,1,0.2,Buginese (Soppeng Dialect),lawa-lawa,0.0,0.0,1.0
+166-111_fish-1,Makassar,fish,jukuʔ,1,1,0.3333333333333333,Uma (Kantewu dialect),uru,0.1,0.2,0.4
+166-112_rotten-1,Makassar,rotten,bottoʔ,1,1,0.3333333333333333,Wolio,mabuto,0.2,0.3,0.9
+166-113_branch-1,Makassar,branch,taŋkɛ,0,1,0.2,Tae' (S.Toraja),taŋke,0.1,0.2,0.5
+166-114_leaf-1,Makassar,leaf,lɛkoʔ,1,1,0.6666666666666666,Gorontalo (Hulondalo),duuŋo,0.1,0.1,0.4
+166-115_root-1,Makassar,root,akaʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),paraka,0.1,0.5,0.8
+166-116_flower-1,Makassar,flower,buŋa,0,1,0.0,Banggai (W.dialect),buŋa,0.3,0.4,0.7
+166-117_fruit-1,Makassar,fruit,rapporappo,1,1,0.6666666666666666,Kaidipang,bua-buahaŋo,0.0,0.0,0.0
+166-118_grass-1,Makassar,grass,rukuʔ,0,1,0.0,Bantik,dukuʔ,0.1,0.2,0.6
+166-119_earthsoil-1,Makassar,earth/soil,butta,0,1,0.2,Bolaang Mongondow,butaʔ,0.0,0.2,0.5
+166-120_stone-1,Makassar,stone,batu,0,1,0.0,Banggai (W.dialect),batu,0.1,0.5,0.6
+166-121_sand-1,Makassar,sand,kassiʔ,0,1,0.0,Buginese (Soppeng Dialect),kəssiʔ,0.2,0.3,0.6
+166-122_water-1,Makassar,water,jeʔneʔ,1,1,0.5,Popalia,teʔe,0.0,0.3,0.9
+166-123_toflow-1,Makassar,to flow,assoloŋ,0,1,0.0,Tae' (S.Toraja),loloŋ,0.2,0.3,0.7
+166-124_sea-1,Makassar,sea,tamparaŋ,1,1,0.5,Kaidipang,borʔaŋo,0.0,0.0,0.3
+166-125_salt-1,Makassar,salt,cɛʔla,1,1,0.6666666666666666,Muna (Katobu-Tongkuno Dialect),ghohia,0.0,0.2,0.2
+166-126_lake-1,Makassar,lake,balaŋ,0,1,0.4,Popalia,talaga,0.2,0.2,0.7
+166-127_woodsforest-1,Makassar,woods/forest,romaŋ,0,1,0.25,Tolaki,ahoma,0.1,0.3,0.7
+166-128_sky-1,Makassar,sky,laŋiʔ,0,1,0.0,Bantik,laŋiʔ,0.1,0.2,0.5
+166-129_moon-1,Makassar,moon,bulaŋ,0,1,0.0,Bantik,bulaŋ,0.1,0.6,0.8
+166-130_star-1,Makassar,star,bintoɛŋ,0,1,0.2857142857142857,Tae' (S.Toraja),bintoën,0.0,0.1,0.5
+166-131_cloud-1,Makassar,cloud,rammaŋ,1,1,0.4,Tontemboan,kambuŋ,0.0,0.0,0.6
+166-132_fog-1,Makassar,fog,saliu,1,1,0.16666666666666666,Buginese (Soppeng Dialect),saliwu,0.1,0.1,1.0
+166-133_rain-1,Makassar,rain,bosi,0,1,0.0,Buginese (Soppeng Dialect),bosi,0.0,0.1,0.8
+166-134_thunder-1,Makassar,thunder,gunturuʔ,0,1,0.14285714285714285,Kaidipang,gunturʔo,0.1,0.1,0.7
+166-135_lightning-1,Makassar,lightning,killaʔ,0,1,0.2,Bantik,kilaʔ,0.0,0.3,0.7
+166-136_wind-1,Makassar,wind,aŋiŋ,0,1,0.0,Buginese (Soppeng Dialect),aŋiŋ,0.1,0.2,0.4
+166-137_toblow-1,Makassar,to blow,annuiʔ,0,1,0.3333333333333333,Bare'e,me-wui,0.0,0.1,0.6
+166-138_warm-1,Makassar,warm,bambaŋ,1,1,0.6,Muna (Katobu-Tongkuno Dialect),nopana,0.1,0.2,0.8
+166-139_cold-1,Makassar,cold,diŋiŋ,0,1,0.25,Bungku (Routa),moriŋi,0.0,0.0,0.4
+166-140_dry-1,Makassar,dry,kalotoroʔ,1,1,0.6,Banggai (W.dialect),moyon,0.0,0.0,0.3
+166-141_wet-1,Makassar,wet,basa,0,1,0.0,Ponosakan,mowasa',0.3,0.8,1.0
+166-142_heavy-1,Makassar,heavy,battalaʔ,0,1,0.5,Buginese (Soppeng Dialect),ma-tanəʔ,0.2,0.3,0.9
+166-143_fire-1,Makassar,fire,pɛpɛʔ,1,1,0.6666666666666666,Mori,api,0.0,0.1,0.2
+166-144_toburn-1,Makassar,to burn,antunu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aetunu,0.1,0.6,0.8
+166-145_smoke-1,Makassar,smoke,rumbu,0,1,0.0,Wolio,ombu,0.4,0.4,0.9
+166-146_ashes-1,Makassar,ashes,awu,0,1,0.0,Mori,awu,0.0,0.3,0.4
+166-147_black-1,Makassar,black,lɛʔlɛŋ,1,1,0.6,Buginese (Soppeng Dialect),ma-lotoŋ,0.0,0.0,0.1
+166-148_white-1,Makassar,white,kɛboʔ,1,1,0.5,Tontemboan,kuloʔ,0.0,0.0,0.2
+166-149_red-1,Makassar,red,ɛja,1,1,0.6666666666666666,Banggai (W.dialect),[me]mela,0.0,0.1,0.3
+166-150_yellow-1,Makassar,yellow,kuŋ̃iʔ,0,1,0.4,Muna (Katobu-Tongkuno Dialect),kuni,0.0,0.1,0.4
+166-151_green-1,Makassar,green,moncoŋ bulo,1,1,0.5,Mori,molowula,0.0,0.0,0.4
+166-152_small-1,Makassar,small,caʔdi,1,1,0.3333333333333333,Bare'e,kodi,0.0,0.5,0.6
+166-153_big-1,Makassar,big,lompo,1,1,0.5,Gorontalo (Hulondalo),damaŋo,0.0,0.1,0.7
+166-154_short-1,Makassar,short,bodo,0,1,0.0,Tomini (Tialo),akodoʔ,0.1,0.5,0.5
+166-155_long-1,Makassar,long,laʔbu,0,1,0.3333333333333333,Tonsea,dabo,0.2,0.4,0.6
+166-156_thin-1,Makassar,thin,nipisiʔ,0,1,0.0,Bantik,nípisiʔ,0.3,0.6,0.8
+166-157_thick-1,Makassar,thick,kapalaʔ,0,1,0.0,Bantik,kapala,0.2,0.7,0.8
+166-158_narrow-1,Makassar,narrow,ecereʔ,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),noseke,0.0,0.4,0.6
+166-159_wide-1,Makassar,wide,luaraʔ,0,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),noware,0.1,0.2,0.7
+166-160_painfulsick-1,Makassar,"painful, sick",garriŋ,0,1,0.6,Banggai (W.dialect),ma-sakit,0.0,0.5,0.7
+166-161_shyashamed-1,Makassar,"shy, ashamed",siriʔ,0,1,0.0,Buginese (Soppeng Dialect),siriʔ,0.4,0.5,0.6
+166-162_old-1,Makassar,old,toa,0,1,0.0,Buginese (Soppeng Dialect),ma-toa,0.0,0.0,0.5
+166-163_new-1,Makassar,new,bɛru,0,1,0.25,Buginese (Soppeng Dialect),ma-baru,0.1,0.2,0.2
+166-164_good-1,Makassar,good,bajiʔ,0,1,0.5,Tae' (S.Toraja),ma-pia,0.0,0.5,0.7
+166-165_badevil-1,Makassar,"bad, evil",kodi,1,1,0.5,Banggai (W.dialect),lokis,0.1,0.3,0.5
+166-166_correcttrue-1,Makassar,"correct, true",tojeŋ,0,1,0.4,Buginese (Soppeng Dialect),toŋəŋ,0.0,0.0,0.7
+166-167_night-1,Makassar,night,baŋŋi,0,1,0.25,Tontemboan,waŋi,0.0,0.0,0.5
+166-168_day-1,Makassar,day,allo,0,1,0.0,Tae' (S.Toraja),allo,0.1,0.2,0.6
+166-169_year-1,Makassar,year,tauŋ,0,1,0.0,Buginese (Soppeng Dialect),tauŋ,0.0,0.0,0.5
+166-170_when-1,Makassar,when?,siapanna,0,1,0.0,Buginese (Soppeng Dialect),uppanna,0.1,0.1,0.6
+166-170_when-2,Makassar,when?,riŋapanna,1,1,0.16666666666666666,Buginese (Soppeng Dialect),uppanna,0.0,0.0,0.3
+166-171_tohide-1,Makassar,to hide,accokko,0,1,0.0,Popalia,okko,0.4,0.4,0.8
+166-172_toclimb-1,Makassar,to climb,naiʔ,0,1,0.25,Buol,monaik,0.0,0.5,0.6
+166-173_at-1,Makassar,at,ri,0,1,0.0,Buginese (Soppeng Dialect),ri,0.0,0.0,0.0
+166-174_ininside-1,Makassar,"in, inside",ilalaŋ,0,1,0.16666666666666666,Banggai (W.dialect),doi laloŋ,0.3,0.5,1.0
+166-175_above-1,Makassar,above,iratɛ,0,1,0.5,Gorontalo (Hulondalo),to titaato,0.0,0.2,0.6
+166-176_below-1,Makassar,below,irawa,0,1,0.0,Buginese (Soppeng Dialect),ri awa,0.2,0.6,0.8
+166-177_this-1,Makassar,this,annɛ,0,1,0.5,Muna (Katobu-Tongkuno Dialect),aini,0.0,0.0,0.6
+166-178_that-1,Makassar,that,antu,0,1,0.25,Muna (Katobu-Tongkuno Dialect),aitu,0.2,0.4,0.8
+166-178_that-2,Makassar,that,añjo,1,1,0.5,Buginese (Soppeng Dialect),ia-ro,0.0,0.0,0.5
+166-179_near-1,Makassar,near,ambani,0,1,0.0,Banggai (W.dialect),lolani,0.2,0.7,0.9
+166-180_far-1,Makassar,far,bɛlla,0,1,0.2,Popalia,mɛllai,0.1,0.4,0.6
+166-181_where-1,Makassar,where?,kɛmàɛ,1,1,0.6666666666666666,Popalia,umpa,0.0,0.0,0.0
+166-182_i-1,Makassar,I,inakkɛ,0,1,0.3333333333333333,Tolaki,inaku,0.1,0.1,0.2
+166-183_thou-1,Makassar,thou,ikau,0,1,0.0,Totoli,kau,0.1,0.2,0.7
+166-184_heshe-1,Makassar,he/she,iya,0,1,0.0,Ponosakan,siya,0.0,0.3,0.4
+166-185_we-1,Makassar,we,(i)kattɛ,0,1,0.6,Banggai (W.dialect),ikita,0.0,0.0,0.2
+166-185_we-2,Makassar,we,(i)kambe,0,1,0.4,Banggai (W.dialect),ikami,0.1,0.1,0.7
+166-186_you-1,Makassar,you,ikau ŋasɛŋ,0,1,0.5555555555555556,Buginese (Soppeng Dialect),iko manəŋ,0.0,0.0,0.1
+166-187_they-1,Makassar,they,iya ŋasɛŋ,1,1,0.5,Buginese (Soppeng Dialect),ia-manəŋ,0.0,0.0,0.3
+166-188_what-1,Makassar,what?,apa,0,1,0.0,Bantik,apa,0.1,0.3,0.6
+166-189_who-1,Makassar,who?,inai,0,1,0.0,Bungku,inai,0.1,0.3,0.6
+166-190_other-1,Makassar,other,maraɛŋ,1,1,0.3333333333333333,Buginese (Soppeng Dialect),laiŋ,0.0,0.1,0.7
+166-191_all-1,Makassar,all,iya ŋasɛŋ,0,1,0.4,Tae' (S.Toraja),nasaŋ,0.0,0.0,0.2
+166-192_and-1,Makassar,and,na,0,1,0.0,Buginese (Soppeng Dialect),na,0.0,0.1,0.2
+166-193_if-1,Makassar,if,punna,1,1,0.3333333333333333,Totoli,ana,0.1,0.4,0.7
+166-194_how-1,Makassar,how?,antekamma,1,1,0.4444444444444444,Bungku,kanansema,0.0,0.0,0.2
+166-195_nonot-1,Makassar,"no, not",taɛna,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),miina,0.1,0.5,0.9
+166-195_nonot-2,Makassar,"no, not",tɛna,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),miina,0.0,0.3,0.5
+166-196_tocount-1,Makassar,to count,aŋŋituŋ,0,1,0.5,Buginese (Soppeng Dialect),bilaŋ,0.1,0.1,0.5
+166-197_one-1,Makassar,One,sɛʔrɛ,0,1,0.75,Bantik,insauʔ,0.0,0.0,0.0
+166-198_two-1,Makassar,Two,rua,0,1,0.0,Mori,orua,0.0,0.3,0.7
+166-199_three-1,Makassar,Three,tallu,0,1,0.0,Buginese (Soppeng Dialect),təllu,0.1,0.6,0.7
+166-200_four-1,Makassar,Four,appaʔ,0,1,0.0,Buginese (Soppeng Dialect),əppa,0.1,0.1,0.9
+166-201_five-1,Makassar,Five,lima,0,1,0.0,Banggai (W.dialect),lima,0.0,0.3,0.8
+166-202_six-1,Makassar,Six,annaŋ,0,1,0.2,Tae' (S.Toraja),annan,0.0,0.4,0.6
+166-203_seven-1,Makassar,Seven,tuju,0,1,0.6666666666666666,Banggai (W.dialect),pitu,0.2,0.2,0.7
+166-204_eight-1,Makassar,Eight,sagantuju,1,1,0.6666666666666666,Banggai (W.dialect),alu,0.0,0.0,0.3
+166-205_nine-1,Makassar,Nine,salapaŋ,0,1,0.6666666666666666,Buginese (Soppeng Dialect),asera,0.3,0.3,0.9
+166-206_ten-1,Makassar,Ten,sampulo,0,1,0.0,Mori,hopulo,0.0,0.0,0.8
+166-207_twenty-1,Makassar,Twenty,ruampulo,1,1,0.125,Bantik,Dua mpulro,0.0,0.0,0.4
+166-208_fifty-1,Makassar,Fifty,limampulo,1,1,0.1111111111111111,Bantik,Lrima mpulro,0.1,0.1,0.9
+166-209_onehundred-1,Makassar,One Hundred,sibilaŋŋaŋ,1,1,0.7,Banggai (W.dialect),sakat,0.0,0.0,0.3
+166-210_onethousand-1,Makassar,One Thousand,sisaʔbu,1,1,0.0,Tae' (S.Toraja),saŋsaʔbu,0.2,0.3,0.9
+192-1_hand-1,Wolio,hand,lima,0,1,0.0,Banggai (W.dialect),lima,0.0,0.2,0.5
+192-2_left-1,Wolio,left,kuai,0,1,0.4,Bantik,kuihi,0.1,0.3,0.9
+192-3_right-1,Wolio,right,kaana,0,1,0.0,Muna (Katobu-Tongkuno Dialect),suana,0.2,0.8,1.0
+192-4_legfoot-1,Wolio,leg/foot,ae,0,1,0.0,Kioko,aʔe,0.0,0.0,0.1
+192-5_towalk-1,Wolio,to walk,liŋka,0,1,0.0,Tae' (S.Toraja),liŋka,0.1,0.1,0.5
+192-6_roadpath-1,Wolio,road/path,dala,0,1,0.0,Mori,sala,0.1,0.5,0.7
+192-7_tocome-1,Wolio,to come,mai,0,1,0.0,Muna (Katobu-Tongkuno Dialect),amai,0.0,0.4,0.8
+192-7_tocome-2,Wolio,to come,kawa,1,1,0.3333333333333333,Mori,hawe,0.2,0.5,0.6
+192-7_tocome-3,Wolio,to come,umba,1,1,0.0,Wasambua dialect of Cia-Cia,umba,0.3,0.5,1.0
+192-8_toturn-1,Wolio,to turn,lari,1,1,0.3333333333333333,Tolaki,putara,0.1,0.3,0.7
+192-8_toturn-2,Wolio,to turn,gili,0,1,0.0,Bare'e,gili,0.2,0.3,0.5
+192-8_toturn-3,Wolio,to turn,beŋku,1,1,0.4,Tontemboan,meŋkor,0.1,0.3,0.5
+192-9_toswim-1,Wolio,to swim,poŋaŋo,0,1,0.0,Kodeoha,numaŋo,0.1,0.4,0.7
+192-10_dirty-1,Wolio,dirty,marombu,0,1,0.2,Bolaang Mongondow,mo-romuʔ,0.1,0.1,0.9
+192-10_dirty-2,Wolio,dirty,marewu,0,1,0.3333333333333333,Buol,molevu,0.0,0.4,0.8
+192-11_dust-1,Wolio,dust,ŋawu,0,1,0.0,Mori,awu,0.2,0.7,0.8
+192-12_skin-1,Wolio,skin,kuli,0,1,0.0,Muna (Katobu-Tongkuno Dialect),kuli,0.0,0.2,0.6
+192-13_back-1,Wolio,back,taliku,0,1,0.0,Bare'e,taliku,0.0,0.3,1.0
+192-13_back-2,Wolio,back,toruku,0,1,0.0,Kambowa,toruku,0.1,0.5,0.8
+192-14_belly-1,Wolio,belly,kompo,0,1,0.0,Mori,kompo,0.1,0.3,0.9
+192-15_bone-1,Wolio,bone,buku,0,1,0.0,Banggai (W.dialect),buku,0.2,0.4,0.5
+192-16_intestines-1,Wolio,intestines,ŋkaluŋkalu,1,1,0.0,Kumbewaha,ŋkaluŋkalu,0.0,0.0,0.1
+192-17_liver-1,Wolio,liver,ate,0,1,0.0,Banggai (W.dialect),ate,0.0,0.1,0.3
+192-18_breast-1,Wolio,breast,dudu,0,1,0.3333333333333333,Banggai (W.dialect),susu,0.2,0.3,0.5
+192-18_breast-2,Wolio,breast,susu,0,1,0.0,Banggai (W.dialect),susu,0.2,0.5,0.6
+192-19_shoulder-1,Wolio,shoulder,awaa,0,1,0.0,Bare'e,awaa,0.1,0.1,0.6
+192-19_shoulder-2,Wolio,shoulder,salaŋga,0,1,0.0,Makassar,salaŋga,0.1,0.4,0.7
+192-20_toknowbeknowledgeable-1,Wolio,"to know, be knowledgeable",matau,0,1,0.0,Kaidipang,motau,0.2,0.4,0.8
+192-21_tothink-1,Wolio,to think,fikiri,0,1,0.0,Popalia,ɸikiri,0.0,0.4,0.7
+192-22_tofear-1,Wolio,to fear,maeka,0,1,0.0,Bare'e,ma-eka,0.0,0.1,0.8
+192-23_blood-1,Wolio,blood,raa,0,1,0.0,Andio,raaʔ,0.1,0.3,0.7
+192-24_head-1,Wolio,head,baa,1,1,0.3333333333333333,Tomini (Tialo),baʔi,0.1,0.4,0.9
+192-25_neck-1,Wolio,neck,boroko,0,1,0.0,Tae' (S.Toraja),baroko,0.1,0.5,0.7
+192-26_hair-1,Wolio,hair,bulua,0,1,0.25,Soboyo,ulu,0.2,0.3,0.7
+192-27_nose-1,Wolio,nose,aŋo,0,1,0.3333333333333333,Gorontalo (Hulondalo),wuliŋo,0.0,0.4,0.6
+192-28_tobreathe-1,Wolio,to breathe,poinuñca,1,1,0.42857142857142855,Uma (Kantewu dialect),mo-ʔinohaʔ,0.0,0.0,0.3
+192-29_tosniffsmell-1,Wolio,"to sniff, smell",bou,0,1,0.25,Buol,mokobou,0.1,0.1,0.6
+192-30_mouth-1,Wolio,mouth,muñcu,0,1,0.5,Popalia,ŋusu,0.0,0.0,0.6
+192-31_tooth-1,Wolio,tooth,ŋiñci,0,1,0.4,Mori,ŋisi,0.0,0.0,0.4
+192-32_tongue-1,Wolio,tongue,dela,0,1,0.0,Muna (Katobu-Tongkuno Dialect),lela,0.0,0.3,0.7
+192-33_tolaugh-1,Wolio,to laugh,potawa,0,1,0.0,Buginese (Soppeng Dialect),macawa,0.1,0.6,0.9
+192-34_tocry-1,Wolio,to cry,taŋi,0,1,0.0,Soboyo,daŋi,0.3,0.5,0.7
+192-35_tovomit-1,Wolio,to vomit,tolua,0,1,0.0,Buginese (Soppeng Dialect),tal-lua,0.1,0.3,0.9
+192-36_tospit-1,Wolio,to spit,pewilu,0,1,0.0,Soboyo,takilu,0.0,0.2,0.5
+192-37_toeat-1,Wolio,to eat,kande,0,1,0.0,Tae' (S.Toraja),k-um-ande,0.1,0.4,0.8
+192-38_tochew-1,Wolio,to chew,mama,0,1,0.0,Bantik,mama,0.1,0.4,0.7
+192-38_tochew-2,Wolio,to chew,naŋku,1,1,0.0,Kioko,nenaŋku,0.2,0.3,0.9
+192-38_tochew-3,Wolio,to chew,paŋa,1,1,0.25,Uma (Kantewu dialect),kaŋiaʔ,0.3,0.8,0.8
+192-39_tocook-1,Wolio,to cook,nasu,0,1,0.0,Buginese (Soppeng Dialect),man-nasu,0.1,0.2,0.5
+192-40_todrink-1,Wolio,to drink,sumpu,1,1,0.0,Kumbewaha,sumpu,0.0,0.3,0.8
+192-41_tobite-1,Wolio,to bite,bembaru,1,1,0.5,Kodeoha,mogara,0.0,0.0,0.8
+192-41_tobite-2,Wolio,to bite,papaki,1,1,0.0,Wasambua dialect of Cia-Cia,papaki,0.0,0.6,0.9
+192-41_tobite-3,Wolio,to bite,tompa,1,1,0.3333333333333333,Lasalimu,kurapa,0.2,0.3,0.8
+192-42_tosuck-1,Wolio,to suck,gomi,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aekomi,0.0,0.3,0.8
+192-43_ear-1,Wolio,ear,taliŋa,0,1,0.0,Soboyo,taliŋa,0.1,0.6,0.7
+192-44_tohear-1,Wolio,to hear,raŋo,0,1,0.25,Tae' (S.Toraja),raŋi,0.1,0.5,0.9
+192-45_eye-1,Wolio,eye,mata,0,1,0.0,Banggai (W.dialect),mata,0.2,0.6,0.9
+192-46_tosee-1,Wolio,to see,kamata,1,1,0.3333333333333333,Banggai (W.dialect),kita,0.3,0.4,0.7
+192-47_toyawn-1,Wolio,to yawn,pomea,1,1,0.25,Popalia,momaʔa,0.0,0.3,0.9
+192-48_tosleep-1,Wolio,to sleep,kole,1,1,0.3333333333333333,Banggai (W.dialect),moolo,0.0,0.1,0.4
+192-49_toliedown-1,Wolio,to lie down,dole,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aendole,0.0,0.5,0.7
+192-50_todream-1,Wolio,to dream,poŋipi,0,1,0.0,Mori,moʔipi,0.2,0.4,0.8
+192-51_tosit-1,Wolio,to sit,uncura,1,1,0.0,Uma (Kantewu dialect),mo-hura,0.1,0.6,0.8
+192-51_tosit-2,Wolio,to sit,tootooro,0,1,0.14285714285714285,Wiau,kototoro,0.0,0.2,0.7
+192-52_tostand-1,Wolio,to stand,kabalebale,1,1,0.5714285714285714,Muna (Katobu-Tongkuno Dialect),aere,0.0,0.0,0.2
+192-53_personhumanbeing-1,Wolio,person/human being,mia,0,1,0.0,Mori,mia,0.0,0.3,0.5
+192-54_manmale-1,Wolio,man/male,umane,0,1,0.0,Banggai (W.dialect),malane,0.2,0.5,1.0
+192-55_womanfemale-1,Wolio,woman/female,bawine,0,1,0.0,Banggai (W.dialect),boʔine,0.1,0.4,0.6
+192-56_child-1,Wolio,child,ana,0,1,0.0,Bantik,anaʔ,0.0,0.6,0.7
+192-57_husband-1,Wolio,husband,mañcuana,0,1,0.375,Kulisusu,tamano ana,0.0,0.0,0.4
+192-58_wife-1,Wolio,wife,mañcuana,1,1,0.5714285714285714,Soboyo,coa fine,0.0,0.0,0.5
+192-59_mother-1,Wolio,mother,ina,0,1,0.0,Banggai (W.dialect),tina,0.3,0.7,0.9
+192-60_father-1,Wolio,father,ama,0,1,0.0,Banggai (W.dialect),tama,0.1,0.7,0.8
+192-61_house-1,Wolio,house,baaua,0,1,0.2,Bare'e,banua,0.0,0.6,0.9
+192-62_thatchroof-1,Wolio,thatch/roof,pada,1,1,0.25,Tae' (S.Toraja),papa,0.1,0.7,0.9
+192-63_name-1,Wolio,name,saro,1,1,0.3333333333333333,Tolaki,tamo,0.0,0.6,0.8
+192-64_tosay-1,Wolio,to say,pogau,0,1,0.0,Muna (Katobu-Tongkuno Dialect),apogau,0.4,0.5,0.8
+192-64_tosay-2,Wolio,to say,kooni,1,1,0.0,Koroni,koʔoni,0.3,0.5,0.8
+192-65_rope-1,Wolio,rope,rabuta,0,1,0.0,Wuna,rabuta,0.0,0.5,1.0
+192-65_rope-2,Wolio,rope,puloli,1,1,0.3333333333333333,Bantik,tali,0.0,0.3,0.5
+192-66_totieupfasten-1,Wolio,"to tie up, fasten",boke,0,1,0.0,Popalia,ɓoke,0.0,0.1,0.5
+192-67_tosew-1,Wolio,to sew,posorumba,1,1,0.0,Kambowa,nesorumba,0.0,0.0,0.5
+192-68_needle-1,Wolio,needle,sorumba,1,1,0.0,Kambowa,sorumba,0.1,0.2,0.7
+192-70_toshoot-1,Wolio,to shoot,temba,0,1,0.0,Wuna,netemba,0.1,0.2,0.6
+192-71_tostabpierce-1,Wolio,"to stab, pierce",toboki,0,1,0.0,Kumbewaha,toɓoki,0.1,0.2,0.8
+192-71_tostabpierce-2,Wolio,"to stab, pierce",sula,0,1,0.6,Banggai (W.dialect),suduk,0.1,0.4,0.6
+192-72_tohit-1,Wolio,to hit,bebe,1,1,0.3333333333333333,Wuna,fopepe,0.0,0.1,0.6
+192-72_tohit-2,Wolio,to hit,rambi,1,1,0.25,Tae' (S.Toraja),bamba,0.1,0.1,0.6
+192-73_tosteal-1,Wolio,to steal,manako,0,1,0.0,Kaidipang,monako,0.2,0.6,0.9
+192-74_tokill-1,Wolio,to kill,pekamate,0,1,0.0,Soboyo,kamate,0.0,0.1,0.7
+192-74_tokill-2,Wolio,to kill,poŋko,0,1,0.0,Wuna,fopoŋko,0.3,0.5,1.0
+192-75_todiebedead-1,Wolio,"to die, be dead",mate,0,1,0.0,Banggai (W.dialect),mate,0.0,0.1,0.9
+192-76_tolivebealive-1,Wolio,"to live, be alive",dadi,0,1,0.0,Muna (Katobu-Tongkuno Dialect),adadi,0.0,0.2,0.6
+192-77_toscratch-1,Wolio,to scratch,kau,0,1,0.25,Mori,mekaru,0.0,0.1,0.4
+192-77_toscratch-2,Wolio,to scratch,kaŋkaru,1,1,0.0,Mori,mekaru,0.1,0.1,0.6
+192-77_toscratch-3,Wolio,to scratch,karusi,0,1,0.25,Kumbewaha,kusai,0.1,0.3,0.5
+192-78_tocuthack-1,Wolio,"to cut, hack",ndamu,1,1,0.4,Wasambua dialect of Cia-Cia,kanda,0.0,0.7,1.0
+192-78_tocuthack-2,Wolio,"to cut, hack",laelae,1,1,0.5,Tolaki,pole,0.0,0.3,0.7
+192-79_stickwood-1,Wolio,stick/wood,kau,0,1,0.0,Banggai (W.dialect),kau,0.1,0.2,0.6
+192-80_tosplit-1,Wolio,to split,weta,1,1,0.0,Kambowa,neβeta,0.3,0.4,0.7
+192-81_sharp-1,Wolio,sharp,matada,0,1,0.16666666666666666,Bare'e,ma-taja,0.2,0.3,0.8
+192-82_dullblunt-1,Wolio,"dull, blunt",makundu,1,1,0.0,Kulisusu,mokundu,0.1,0.1,0.7
+192-83_towork-1,Wolio,to work,karajaa,0,1,0.14285714285714285,Kambowa,nokaradaa,0.1,0.1,0.7
+192-84_toplant-1,Wolio,to plant,pombula,0,1,0.0,Kulisusu,mombula,0.0,0.2,0.8
+192-85_tochoose-1,Wolio,to choose,pili,0,1,0.0,Kaidipang,momili,0.1,0.3,0.5
+192-86_togrow-1,Wolio,to grow,tuwu,0,1,0.0,Mori,tuwu,0.0,0.2,0.6
+192-87_toswell-1,Wolio,to swell,tente,1,1,0.0,Muna (Katobu-Tongkuno Dialect),notente,0.1,0.3,0.7
+192-87_toswell-2,Wolio,to swell,gende,1,1,0.25,Muna (Katobu-Tongkuno Dialect),notente,0.1,0.3,0.7
+192-87_toswell-3,Wolio,to swell,kamba,0,1,0.0,Mori,kamba,0.2,0.5,0.8
+192-88_tosqueeze-1,Wolio,to squeeze,pisi,0,1,0.0,Soboyo,pisiʔ,0.2,0.6,0.7
+192-88_tosqueeze-2,Wolio,to squeeze,pisiki,0,1,0.25,Buginese (Soppeng Dialect),tassipi,0.1,0.5,0.6
+192-89_tohold-1,Wolio,to hold,keni,1,1,0.0,Kulisusu,moŋkeni,0.1,0.4,0.9
+192-90_todig-1,Wolio,to dig,seli,0,1,0.0,Muna (Katobu-Tongkuno Dialect),ae|seli,0.1,0.2,0.3
+192-91_tobuy-1,Wolio,to buy,ali,0,1,0.0,Gorontalo (Hulondalo),mo-tali,0.0,0.4,0.6
+192-92_toopenuncover-1,Wolio,"to open, uncover",buŋkale,0,1,0.0,Kumbewaha,buŋkale,0.1,0.1,0.9
+192-93_topoundbeat-1,Wolio,"to pound, beat",purokoti,1,1,0.3333333333333333,Wawonii (Menui),morodoki,0.0,0.0,0.3
+192-93_topoundbeat-2,Wolio,"to pound, beat",pasaki,1,1,0.5,Tolaki,moaliali,0.1,0.6,0.9
+192-94_tothrow-1,Wolio,to throw,tuda,0,1,0.25,Kambowa,netuɗa,0.0,0.4,0.8
+192-94_tothrow-2,Wolio,to throw,banaka,1,1,0.3333333333333333,Bantik,páhadaʔ,0.1,0.8,1.0
+192-96_dog-1,Wolio,dog,mantoa,1,1,0.0,Kambowa,mantoa,0.2,0.4,1.0
+192-97_bird-1,Wolio,bird,manumanu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),manu-manu,0.0,0.0,0.6
+192-98_egg-1,Wolio,egg,ontolu,0,1,0.0,Soboyo,tolu,0.1,0.3,0.7
+192-99_feather-1,Wolio,feather,bulu,0,1,0.0,Banggai (W.dialect),bulu,0.1,0.6,0.9
+192-100_wing-1,Wolio,wing,pani,0,1,0.0,Muna (Katobu-Tongkuno Dialect),pani,0.1,0.4,0.6
+192-101_tofly-1,Wolio,to fly,polaka,1,1,0.3333333333333333,Wawonii,dumapa,0.2,0.6,0.9
+192-102_rat-1,Wolio,rat,bokoti,1,1,0.0,Banggai (W.dialect),bukoti,0.1,0.4,0.7
+192-103_meatflesh-1,Wolio,meat/flesh,dagi,0,1,0.0,Wuna,dagi,0.1,0.2,0.6
+192-104_fatgrease-1,Wolio,fat/grease,taba,0,1,0.0,Mori,taba,0.3,0.5,0.8
+192-105_tail-1,Wolio,tail,lenci,1,1,0.2,Kambowa,lensi,0.0,0.1,0.6
+192-106_snake-1,Wolio,snake,ulo,0,1,0.0,Andio,ulo,0.1,0.5,0.7
+192-108_louse-1,Wolio,louse,kutu,0,1,0.0,Bantik,kutu,0.0,0.2,0.7
+192-109_mosquito-1,Wolio,mosquito,buroto,0,1,0.0,Muna (Katobu-Tongkuno Dialect),buroto,0.4,0.6,1.0
+192-109_mosquito-2,Wolio,mosquito,kawaowaode,1,1,0.5714285714285714,Kambowa,kotandu,0.0,0.0,0.2
+192-110_spider-1,Wolio,spider,lawalawa,0,1,0.0,Buginese (Soppeng Dialect),lawa-lawa,0.1,0.2,0.8
+192-111_fish-1,Wolio,fish,ikane,0,1,0.3333333333333333,Buginese (Soppeng Dialect),bale,0.3,0.5,0.7
+192-111_fish-2,Wolio,fish,isa,0,1,0.0,Wasambua dialect of Cia-Cia,isa,0.0,0.3,0.6
+192-112_rotten-1,Wolio,rotten,mabuto,0,1,0.0,Lasalimu,mobuto,0.1,0.5,0.9
+192-113_branch-1,Wolio,branch,raha,0,1,0.0,Kambowa,karaha,0.3,0.9,1.0
+192-113_branch-2,Wolio,branch,lae,0,1,0.6,Buginese (Soppeng Dialect),takke,0.0,0.3,0.7
+192-114_leaf-1,Wolio,leaf,tawa,1,1,0.0,Tolaki,tawa,0.2,0.7,0.8
+192-115_root-1,Wolio,root,kulese,1,1,0.0,Wasambua dialect of Cia-Cia,kulese,0.0,0.1,0.4
+192-116_flower-1,Wolio,flower,kamba,0,1,0.0,Taloki,kamba,0.1,0.2,0.9
+192-116_flower-2,Wolio,flower,buŋa,0,1,0.0,Banggai (W.dialect),buŋa,0.1,0.6,0.8
+192-117_fruit-1,Wolio,fruit,bake,0,1,0.0,Muna (Katobu-Tongkuno Dialect),bhake,0.0,0.3,0.7
+192-118_grass-1,Wolio,grass,rumpurumpu,0,1,0.42857142857142855,Tontemboan,rumput,0.0,0.0,0.1
+192-119_earthsoil-1,Wolio,earth/soil,tana,0,1,0.0,Bantik,tana,0.3,0.5,0.7
+192-120_stone-1,Wolio,stone,batu,0,1,0.0,Banggai (W.dialect),batu,0.0,0.6,0.8
+192-121_sand-1,Wolio,sand,bone,0,1,0.0,Banggai (W.dialect),bone,0.1,0.4,0.9
+192-122_water-1,Wolio,water,uwe,0,1,0.3333333333333333,Buginese (Soppeng Dialect),uae,0.0,0.1,0.3
+192-123_toflow-1,Wolio,to flow,siwulu,1,1,0.0,Kumbewaha,βinulu,0.0,0.4,0.6
+192-124_sea-1,Wolio,sea,tawo,0,1,0.3333333333333333,Kaidipang,borʔaŋo,0.1,0.5,0.8
+192-124_sea-2,Wolio,sea,andala,1,1,0.2,Kambowa,kundalo,0.2,0.6,0.8
+192-125_salt-1,Wolio,salt,gara,0,1,0.0,Bungku (Landawe),gara,0.3,0.8,1.0
+192-126_lake-1,Wolio,lake,rano,0,1,0.0,Mori,rano,0.0,0.3,0.8
+192-127_woodsforest-1,Wolio,woods/forest,koo,1,1,0.5,Popalia,hoɸo,0.0,0.4,0.7
+192-128_sky-1,Wolio,sky,laiana,0,1,0.16666666666666666,Kioko,laiano,0.3,0.8,1.0
+192-128_sky-2,Wolio,sky,bula,1,1,0.5,Buol,guluŋ,0.5,0.5,0.8
+192-129_moon-1,Wolio,moon,bula,0,1,0.0,Muna (Katobu-Tongkuno Dialect),wula,0.2,0.5,0.8
+192-130_star-1,Wolio,star,kalipopo,0,1,0.0,Wuna,kalipopo,0.0,0.0,0.3
+192-131_cloud-1,Wolio,cloud,ta'ina ŋalu,1,1,0.42857142857142855,Bantik,binaba,0.0,0.0,0.4
+192-132_fog-1,Wolio,fog,gawu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),gawu,0.1,0.4,0.5
+192-133_rain-1,Wolio,rain,wao,1,1,0.5,Koroni,ɸaho,0.0,0.2,0.5
+192-134_thunder-1,Wolio,thunder,guntu,0,1,0.0,Tae' (S.Toraja),guntuʔ,0.3,0.3,0.7
+192-135_lightning-1,Wolio,lightning,berese,1,1,0.0,Lasalimu,ɓerese,0.1,0.3,0.6
+192-135_lightning-2,Wolio,lightning,kila,0,1,0.0,Bantik,kilaʔ,0.2,0.5,0.8
+192-136_wind-1,Wolio,wind,ŋalu,0,1,0.0,Koroni,ŋalu,0.3,0.5,0.7
+192-137_toblow-1,Wolio,to blow,towii,1,1,0.3333333333333333,Bare'e,me-wui,0.0,0.0,0.3
+192-138_warm-1,Wolio,warm,mapane,0,1,0.0,Koroni,mopane,0.1,0.5,0.7
+192-138_warm-2,Wolio,warm,masodo,1,1,0.3333333333333333,Bungku (Routa),moβolo,0.3,0.7,0.7
+192-139_cold-1,Wolio,cold,magari,0,1,0.0,Lasalimu,mogari,0.1,0.4,0.7
+192-140_dry-1,Wolio,dry,matuu,1,1,0.0,Bare'e,tuʔu,0.3,0.3,0.9
+192-141_wet-1,Wolio,wet,mabaho,0,1,0.0,Mori,mobaho,0.1,0.7,0.8
+192-142_heavy-1,Wolio,heavy,matamo,1,1,0.16666666666666666,Bare'e,ma-tomo,0.3,0.5,0.9
+192-143_fire-1,Wolio,fire,waa,1,1,0.6,Tonsea,layas,0.0,0.2,0.6
+192-144_toburn-1,Wolio,to burn,maŋau,1,1,0.25,Soboyo,sinaŋa,0.1,0.3,0.8
+192-145_smoke-1,Wolio,smoke,ombu,0,1,0.0,Makassar,rumbu,0.0,0.3,0.8
+192-146_ashes-1,Wolio,ashes,walo,1,1,0.5,Gorontalo (Hulondalo),wahu,0.0,0.5,0.8
+192-146_ashes-2,Wolio,ashes,rapu,0,1,0.3333333333333333,Gorontalo (Hulondalo),wahu,0.0,0.4,0.4
+192-147_black-1,Wolio,black,maeta,0,1,0.0,Bare'e,ma-eta,0.2,0.3,0.9
+192-148_white-1,Wolio,white,maputi,0,1,0.0,Tonsea,puti',0.0,0.1,0.6
+192-149_red-1,Wolio,red,male'i,0,1,0.0,Uma (Kantewu dialect),mo-lei,0.1,0.2,0.9
+192-150_yellow-1,Wolio,yellow,makuni,0,1,0.0,Banggai (W.dialect),uni[w],0.1,0.2,0.7
+192-151_green-1,Wolio,green,maijo,0,1,0.2,Tae' (S.Toraja),ma-ido,0.0,0.2,0.8
+192-152_small-1,Wolio,small,maidiidii,0,1,0.3333333333333333,Banggai (W.dialect),didik,0.0,0.0,0.1
+192-152_small-2,Wolio,small,makidikidi,0,1,0.2857142857142857,Taloki,ikidi,0.0,0.0,0.0
+192-153_big-1,Wolio,big,maoge,1,1,0.0,Kambowa,noge,0.0,0.3,0.7
+192-153_big-2,Wolio,big,lewa,1,1,0.3333333333333333,Tonsea,sela,0.0,0.4,0.7
+192-154_short-1,Wolio,short,mampodo,0,1,0.0,Bungku,ompodo,0.1,0.3,0.9
+192-155_long-1,Wolio,long,malaŋa,0,1,0.0,Uma (Kantewu dialect),mo-laŋa,0.4,0.5,1.0
+192-155_long-2,Wolio,long,maarate,0,1,0.0,Bare'e,ma-rate,0.1,0.1,0.8
+192-155_long-3,Wolio,long,marambe,0,1,0.25,Kaidipang,mohambé,0.1,0.1,0.8
+192-156_thin-1,Wolio,thin,manipi,0,1,0.0,Banggai (W.dialect),nipi,0.0,0.2,0.7
+192-157_thick-1,Wolio,thick,makapa,0,1,0.0,Muna (Katobu-Tongkuno Dialect),nokapa,0.1,0.5,0.9
+192-158_narrow-1,Wolio,narrow,maseke,0,1,0.0,Muna (Katobu-Tongkuno Dialect),noseke,0.0,0.4,0.7
+192-159_wide-1,Wolio,wide,maewa,1,1,0.2,Wasambua dialect of Cia-Cia,maeva,0.0,0.5,0.9
+192-160_painfulsick-1,Wolio,"painful, sick",mapii,1,1,0.0,Kulisusu,mopii,0.1,0.1,0.6
+192-161_shyashamed-1,Wolio,"shy, ashamed",maea,0,1,0.0,Bare'e,maea,0.1,0.4,0.8
+192-162_old-1,Wolio,old,mancuana,1,1,0.125,Taloki,mansuana,0.0,0.0,0.6
+192-163_new-1,Wolio,new,baau,0,1,0.25,Buginese (Soppeng Dialect),ma-baru,0.1,0.5,0.7
+192-164_good-1,Wolio,good,malape,1,1,0.3333333333333333,Tolaki (Konawe),momahe,0.0,0.5,0.9
+192-165_badevil-1,Wolio,"bad, evil",madaki,0,1,0.2,Tae' (S.Toraja),kadake,0.3,0.5,1.0
+192-166_correcttrue-1,Wolio,"correct, true",totuu,0,1,0.0,Banggai (W.dialect),tuu,0.0,0.2,0.6
+192-167_night-1,Wolio,night,malo,0,1,0.0,Muna (Katobu-Tongkuno Dialect),alo,0.2,0.5,1.0
+192-168_day-1,Wolio,day,eo,0,1,0.0,Bare'e,eo,0.0,0.0,0.2
+192-169_year-1,Wolio,year,tao,0,1,0.25,Bantik,taoŋ,0.0,0.4,0.9
+192-171_tohide-1,Wolio,to hide,opo,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),aekope,0.2,0.6,0.6
+192-171_tohide-2,Wolio,to hide,buniaka,0,1,0.42857142857142855,Bantik,buni,0.2,0.2,0.9
+192-172_toclimb-1,Wolio,to climb,pene,0,1,0.0,Tomini (Tialo),peneʔ,0.1,0.2,0.6
+192-174_ininside-1,Wolio,"in, inside",nuñca,1,1,0.6,Bantik,su huaŋ,0.0,0.0,0.3
+192-175_above-1,Wolio,above,bawo,0,1,0.0,Muna (Katobu-Tongkuno Dialect),te wawo,0.0,0.5,0.9
+192-176_below-1,Wolio,below,i tambe,1,1,0.6666666666666666,Gorontalo (Hulondalo),to tibawa,0.0,0.0,0.8
+192-177_this-1,Wolio,this,sii,1,1,0.3333333333333333,Bare'e,seʔe/seʔi,0.0,0.4,0.6
+192-178_that-1,Wolio,that,humai,1,1,0.0,Tomini (Tialo),mai,0.1,0.3,0.8
+192-179_near-1,Wolio,near,makasu,1,1,0.3333333333333333,Bare'e,mosu,0.2,0.5,0.9
+192-179_near-2,Wolio,near,marampi,0,1,0.0,Kumbewaha,motampi,0.1,0.1,0.7
+192-180_far-1,Wolio,far,marido,1,1,0.3333333333333333,Kodeoha,meilo,0.1,0.2,0.9
+192-181_where-1,Wolio,where?,i apai,1,1,0.2,Bungku (Waia),diapa,0.0,0.1,0.7
+192-182_i-1,Wolio,I,iaku,0,1,0.0,Banggai (W.dialect),iaku,0.0,0.6,0.8
+192-183_thou-1,Wolio,thou,iŋkoo,0,1,0.0,Banggai (W.dialect),ikoo,0.2,0.2,0.4
+192-184_heshe-1,Wolio,he/she,iñcia,0,1,0.3333333333333333,Tontemboan,sia,0.0,0.3,0.4
+192-185_we-1,Wolio,we,iŋkita,0,1,0.0,Banggai (W.dialect),ikita,0.0,0.4,0.6
+192-185_we-2,Wolio,we,iŋkami,0,1,0.0,Banggai (W.dialect),ikami,0.1,0.3,0.8
+192-186_you-1,Wolio,you,iŋkomiu,0,1,0.0,Mori,omiu,0.0,0.2,0.7
+192-187_they-1,Wolio,they,incia,1,1,0.3333333333333333,Bolaang Mongondow,mosia,0.0,0.3,0.4
+192-188_what-1,Wolio,what?,opea,0,1,0.25,Totoli,sopa,0.1,0.1,0.7
+192-189_who-1,Wolio,who?,incema,0,1,0.0,Mori,isema,0.0,0.4,0.9
+192-190_other-1,Wolio,other,mosagaanana,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),sigaahano,0.0,0.0,0.2
+192-191_all-1,Wolio,all,baribaria,0,1,0.1111111111111111,Wuna,baribarie,0.0,0.1,0.7
+192-191_all-2,Wolio,all,maliŋu,1,1,0.4,Bungku,saluɸu,0.0,0.2,0.8
+192-192_and-1,Wolio,and,tee,0,1,0.3333333333333333,Kulisusu,te,0.0,0.4,0.6
+192-192_and-2,Wolio,and,ko,0,1,0.5,Bantik,bo,0.0,0.0,0.1
+192-193_if-1,Wolio,if,ne,0,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),ane,0.0,0.1,0.1
+192-193_if-2,Wolio,if,ande,1,1,0.25,Muna (Katobu-Tongkuno Dialect),ane,0.4,0.4,0.7
+192-194_how-1,Wolio,how?,tua apa,0,1,0.4,Banggai (W.dialect),bulaa,0.1,0.3,0.7
+192-195_nonot-1,Wolio,"no, not",indaa,0,1,0.0,Moronene,naidaʔa,0.3,0.3,1.0
+192-196_tocount-1,Wolio,to count,lentu,0,1,0.0,Wuna,nelentu,0.4,0.4,0.8
+192-197_one-1,Wolio,One,ʔise,0,1,0.0,Muna (Katobu-Tongkuno Dialect),ise,0.1,0.2,0.4
+192-198_two-1,Wolio,Two,jua,0,1,0.3333333333333333,Banggai (W.dialect),lua,0.1,0.3,0.6
+192-198_two-2,Wolio,Two,rua,0,1,0.0,Mori,orua,0.0,0.2,0.4
+192-199_three-1,Wolio,Three,talu,0,1,0.2,Makassar,tallu,0.1,0.3,0.7
+192-200_four-1,Wolio,Four,apa,0,1,0.0,Tae' (S.Toraja),aʔpaʔ,0.0,0.4,0.8
+192-200_four-2,Wolio,Four,pata,0,1,0.0,Bare'e,pata,0.1,0.7,0.8
+192-201_five-1,Wolio,Five,lima,0,1,0.0,Banggai (W.dialect),lima,0.3,0.3,0.9
+192-202_six-1,Wolio,Six,nama,1,1,0.5,Tontemboan,enem,0.1,0.4,0.6
+192-202_six-2,Wolio,Six,ʔana,1,1,0.4,Makassar,annaŋ,0.2,0.5,0.7
+192-203_seven-1,Wolio,Seven,pitu,0,1,0.0,Banggai (W.dialect),pitu,0.2,0.4,0.8
+192-204_eight-1,Wolio,Eight,walu,0,1,0.0,Banggai (W.dialect),alu,0.0,0.3,0.9
+192-205_nine-1,Wolio,Nine,sio,0,1,0.0,Banggai (W.dialect),sio,0.1,0.1,0.4
+192-206_ten-1,Wolio,Ten,sapulu,0,1,0.0,Gorontalo (Hulondalo),mopulu,0.1,0.4,0.9
+192-207_twenty-1,Wolio,Twenty,rua pulu,1,1,0.0,Tomini (Tialo),doopulu,0.2,0.2,0.8
+192-208_fifty-1,Wolio,Fifty,lima pulu,1,1,0.0,Tomini (Tialo),limapulu,0.0,0.0,0.8
+192-209_onehundred-1,Wolio,One Hundred,saatu,1,1,0.0,Tae' (S.Toraja),saratuʔ,0.0,0.3,0.5
+192-210_onethousand-1,Wolio,One Thousand,sarewu,1,1,0.16666666666666666,Moronene,asareβu,0.1,0.3,0.4
+226-1_hand-1,Toraja-Sadan,hand,lima,0,1,0.0,Banggai (W.dialect),lima,0.0,0.4,0.9
+226-2_left-1,Toraja-Sadan,left,kairi,0,1,0.0,Tontemboan,kaʔbiri,0.1,0.4,0.7
+226-3_right-1,Toraja-Sadan,right,kanan,0,1,0.0,Tontemboan,kanan,0.1,0.1,0.6
+226-4_legfoot-1,Toraja-Sadan,leg/foot,letteʔ,1,1,0.6,Andio,teŋker,0.1,0.3,0.5
+226-5_towalk-1,Toraja-Sadan,to walk,liŋka,0,1,0.0,Wolio,liŋka,0.1,0.2,0.8
+226-6_roadpath-1,Toraja-Sadan,road/path,lalan,0,1,0.0,Tontemboan,lalan,0.1,0.1,0.8
+226-7_tocome-1,Toraja-Sadan,to come,sae,1,1,0.5,Mori,hawe,0.0,0.1,0.2
+226-8_toturn-1,Toraja-Sadan,to turn,giliŋ,0,1,0.2,Wolio,gili,0.0,0.1,0.5
+226-9_toswim-1,Toraja-Sadan,to swim,oroŋ,1,1,0.5,Bantik,moyou,0.1,0.1,0.5
+226-10_dirty-1,Toraja-Sadan,dirty,koʔdoʔ,0,1,0.3333333333333333,Bantik,suledo,0.2,0.6,1.0
+226-11_dust-1,Toraja-Sadan,dust,au,0,1,0.3333333333333333,Mori,awu,0.0,0.1,0.5
+226-12_skin-1,Toraja-Sadan,skin,kuliʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),kuli,0.1,0.2,0.7
+226-13_back-1,Toraja-Sadan,back,bokoʔ,0,1,0.25,Makassar,doŋkoʔ,0.2,0.5,0.8
+226-14_belly-1,Toraja-Sadan,belly,baʔteŋ,0,1,0.3333333333333333,Makassar,battaŋ,0.2,0.3,0.6
+226-15_bone-1,Toraja-Sadan,bone,buku,0,1,0.0,Banggai (W.dialect),buku,0.0,0.2,0.4
+226-16_intestines-1,Toraja-Sadan,intestines,tambuk,1,1,0.5714285714285714,Tomini (Tialo),taaliko,0.1,0.2,0.7
+226-17_liver-1,Toraja-Sadan,liver,ate,0,1,0.0,Banggai (W.dialect),ate,0.0,0.3,0.5
+226-18_breast-1,Toraja-Sadan,breast,susu,0,1,0.0,Banggai (W.dialect),susu,0.1,0.4,0.5
+226-19_shoulder-1,Toraja-Sadan,shoulder,palempeŋ,0,1,0.5714285714285714,Bantik,bambáŋ,0.0,0.0,0.3
+226-20_toknowbeknowledgeable-1,Toraja-Sadan,"to know, be knowledgeable",issan,0,1,0.4,Buginese (Soppeng Dialect),issəŋ,0.0,0.2,0.7
+226-21_tothink-1,Toraja-Sadan,to think,taŋaʔ,1,1,0.3333333333333333,Bare'e,mo-nawa,0.3,0.9,1.0
+226-22_tofear-1,Toraja-Sadan,to fear,takuʔ,0,1,0.0,Bantik,[ma]takuʔ,0.1,0.5,0.7
+226-23_blood-1,Toraja-Sadan,blood,rara,0,1,0.0,Buginese (Soppeng Dialect),dara,0.1,0.4,0.9
+226-24_head-1,Toraja-Sadan,head,ulu,0,1,0.0,Banggai (W.dialect),ulu,0.0,0.3,0.3
+226-25_neck-1,Toraja-Sadan,neck,baroko,0,1,0.0,Wolio,boroko,0.0,0.2,0.7
+226-26_hair-1,Toraja-Sadan,hair,beluak,0,1,0.25,Wolio,bulua,0.1,0.5,0.8
+226-27_nose-1,Toraja-Sadan,nose,illoŋ,0,1,0.0,Buol,iloŋ,0.1,0.4,0.6
+226-28_tobreathe-1,Toraja-Sadan,to breathe,naa,0,1,0.0,Mori,menaa,0.1,0.5,0.8
+226-29_tosniffsmell-1,Toraja-Sadan,"to sniff, smell",uduk,0,1,0.5,Tomini (Tialo),kundu,0.2,0.2,0.6
+226-30_mouth-1,Toraja-Sadan,mouth,sadaŋ,1,1,0.5,Banggai (W.dialect),baba,0.2,0.4,0.8
+226-31_tooth-1,Toraja-Sadan,tooth,isi,0,1,0.0,Bantik,isi,0.1,0.2,0.3
+226-32_tongue-1,Toraja-Sadan,tongue,lila,0,1,0.0,Bantik,dila,0.1,0.3,0.6
+226-33_tolaugh-1,Toraja-Sadan,to laugh,taa,0,1,0.0,Tomini (Tialo),tataa,0.1,0.3,0.8
+226-34_tocry-1,Toraja-Sadan,to cry,taŋiʔ,0,1,0.0,Soboyo,daŋi,0.4,0.6,0.8
+226-35_tovomit-1,Toraja-Sadan,to vomit,lua,0,1,0.0,Buginese (Soppeng Dialect),tal-lua,0.0,0.2,0.4
+226-36_tospit-1,Toraja-Sadan,to spit,met-tudu,1,1,0.42857142857142855,Tolaki (Mekongga),metuhe,0.3,0.3,0.7
+226-37_toeat-1,Toraja-Sadan,to eat,k-um-ande,0,1,0.0,Wolio,kande,0.2,0.2,0.9
+226-38_tochew-1,Toraja-Sadan,to chew,kema,0,1,0.3333333333333333,Bantik,mama,0.1,0.3,0.6
+226-39_tocook-1,Toraja-Sadan,to cook,nasu,0,1,0.0,Buginese (Soppeng Dialect),man-nasu,0.0,0.2,0.8
+226-40_todrink-1,Toraja-Sadan,to drink,iruʔ,0,1,0.3333333333333333,Gorontalo (Hulondalo),mo-ŋilu,0.0,0.3,0.4
+226-41_tobite-1,Toraja-Sadan,to bite,kekeʔ,0,1,0.2,Bungku (Waia),moŋkekea,0.1,0.1,0.8
+226-42_tosuck-1,Toraja-Sadan,to suck,sussuʔ,0,1,0.4,Bare'e,man-cusu,0.1,0.2,0.9
+226-43_ear-1,Toraja-Sadan,ear,taliŋa,0,1,0.0,Soboyo,taliŋa,0.0,0.6,0.8
+226-44_tohear-1,Toraja-Sadan,to hear,raŋi,0,1,0.25,Wolio,raŋo,0.1,0.4,0.8
+226-45_eye-1,Toraja-Sadan,eye,mata,0,1,0.0,Banggai (W.dialect),mata,0.3,0.6,0.7
+226-46_tosee-1,Toraja-Sadan,to see,tiro,1,1,0.3333333333333333,Tomini (Tialo),ʔito,0.0,0.3,0.7
+226-48_tosleep-1,Toraja-Sadan,to sleep,mammaʔ,1,1,0.6666666666666666,Popalia,maturu,0.0,0.2,0.9
+226-49_toliedown-1,Toraja-Sadan,to lie down,mammaʔ,1,1,0.5,Bantik,Lrumoka,0.3,0.5,0.9
+226-50_todream-1,Toraja-Sadan,to dream,impi,0,1,0.25,Mori,moʔipi,0.0,0.2,0.8
+226-51_tosit-1,Toraja-Sadan,to sit,noʔkoʔ,1,1,0.25,Tomini (Tialo),dungkoʔ,0.2,0.7,1.0
+226-52_tostand-1,Toraja-Sadan,to stand,bendan,1,1,0.5,Mori,mentade,0.1,0.2,0.9
+226-53_personhumanbeing-1,Toraja-Sadan,person/human being,tau,0,1,0.0,Buginese (Soppeng Dialect),tau,0.0,0.4,0.8
+226-54_manmale-1,Toraja-Sadan,man/male,muane,0,1,0.0,Banggai (W.dialect),malane,0.1,0.5,1.0
+226-55_womanfemale-1,Toraja-Sadan,woman/female,baine,0,1,0.0,Banggai (W.dialect),boʔine,0.1,0.3,0.7
+226-56_child-1,Toraja-Sadan,child,pia,1,1,0.6666666666666666,Banggai (W.dialect),pau,0.0,0.3,0.6
+226-57_husband-1,Toraja-Sadan,husband,muane,0,1,0.0,Buol,maane,0.0,0.5,0.8
+226-58_wife-1,Toraja-Sadan,wife,baine,0,1,0.0,Mori,beine,0.0,0.2,0.7
+226-59_mother-1,Toraja-Sadan,mother,indoʔ,0,1,0.0,Buginese (Soppeng Dialect),indoʔ,0.1,0.4,0.4
+226-60_father-1,Toraja-Sadan,father,ambeʔ,0,1,0.25,Buginese (Soppeng Dialect),amboʔ,0.1,0.2,0.8
+226-61_house-1,Toraja-Sadan,house,banua,0,1,0.0,Banggai (W.dialect),bonua,0.3,0.6,1.0
+226-62_thatchroof-1,Toraja-Sadan,thatch/roof,papa,0,1,0.25,Wolio,pada,0.1,0.3,0.7
+226-63_name-1,Toraja-Sadan,name,saŋa,0,1,0.0,Uma (Kantewu dialect),haŋaʔ,0.3,0.7,0.9
+226-64_tosay-1,Toraja-Sadan,to say,po-kada,1,1,0.25,Makassar,aŋkana,0.2,0.5,0.7
+226-65_rope-1,Toraja-Sadan,rope,ulaŋ,0,1,0.0,Bolaang Mongondow,ulaŋ,0.2,0.4,0.6
+226-66_totieupfasten-1,Toraja-Sadan,"to tie up, fasten",pori,1,1,0.5,Banggai (W.dialect),boboi,0.1,0.6,0.7
+226-67_tosew-1,Toraja-Sadan,to sew,dasiʔ,1,1,0.5,Buginese (Soppeng Dialect),maʔ-jai,0.2,0.6,1.0
+226-68_needle-1,Toraja-Sadan,needle,darun,0,1,0.25,Buginese (Soppeng Dialect),jaruŋ,0.1,0.1,0.6
+226-69_tohunt-1,Toraja-Sadan,to hunt,lola,1,1,0.3333333333333333,Wuna,nofula,0.1,0.4,0.6
+226-70_toshoot-1,Toraja-Sadan,to shoot,maʔ-baliliʔ,0,1,0.1111111111111111,Buginese (Soppeng Dialect),maʔ-balliliʔ,0.0,0.1,0.7
+226-71_tostabpierce-1,Toraja-Sadan,"to stab, pierce",tobok,0,1,0.0,Banggai (W.dialect),tobok,0.2,0.2,0.7
+226-72_tohit-1,Toraja-Sadan,to hit,bamba,1,1,0.2,Soboyo,baba,0.1,0.4,0.8
+226-73_tosteal-1,Toraja-Sadan,to steal,boko,1,1,0.3333333333333333,Bantik,tékosoʔ,0.3,0.5,0.9
+226-74_tokill-1,Toraja-Sadan,to kill,poŋko,0,1,0.0,Wuna,fopoŋko,0.3,0.5,0.9
+226-74_tokill-2,Toraja-Sadan,to kill,buno,0,1,0.0,Bantik,buno,0.1,0.3,0.8
+226-75_todiebedead-1,Toraja-Sadan,"to die, be dead",mate,0,1,0.0,Banggai (W.dialect),mate,0.1,0.2,0.7
+226-76_tolivebealive-1,Toraja-Sadan,"to live, be alive",tuo,0,1,0.0,Buginese (Soppeng Dialect),tuo,0.1,0.2,0.5
+226-77_toscratch-1,Toraja-Sadan,to scratch,kayok,0,1,0.4,Popalia,kaho,0.2,0.2,0.6
+226-78_tocuthack-1,Toraja-Sadan,"to cut, hack",tara,0,1,0.3333333333333333,Bolaang Mongondow,mo-nagaʔ,0.3,0.6,0.9
+226-79_stickwood-1,Toraja-Sadan,stick/wood,kayu,0,1,0.0,Bantik,kayu,0.0,0.4,0.9
+226-80_tosplit-1,Toraja-Sadan,to split,piak,0,1,0.3333333333333333,Bolaang Mongondow,botak,0.0,0.6,1.0
+226-80_tosplit-2,Toraja-Sadan,to split,bakka,0,1,0.3333333333333333,Bare'e,ma-boka,0.1,0.3,0.9
+226-81_sharp-1,Toraja-Sadan,sharp,ma-taran,0,1,0.2,Makassar,taraŋ,0.2,0.2,0.6
+226-82_dullblunt-1,Toraja-Sadan,"dull, blunt",ma-pumpu,1,1,0.2,Tonsea,tumpul,0.1,0.1,0.6
+226-83_towork-1,Toraja-Sadan,to work,karaŋ,0,1,0.3333333333333333,Wuna,karada,0.2,0.2,0.8
+226-84_toplant-1,Toraja-Sadan,to plant,tanan,0,1,0.2,Makassar,attanaŋ,0.1,0.2,0.5
+226-85_tochoose-1,Toraja-Sadan,to choose,pile,0,1,0.0,Bantik,pile,0.0,0.2,0.5
+226-86_togrow-1,Toraja-Sadan,to grow,tuo,0,1,0.0,Buginese (Soppeng Dialect),tuo,0.0,0.4,0.7
+226-87_toswell-1,Toraja-Sadan,to swell,kambaŋ,0,1,0.0,Makassar,kambaŋ,0.2,0.4,0.9
+226-88_tosqueeze-1,Toraja-Sadan,to squeeze,parra,0,1,0.6,Bantik,pahá,0.0,0.1,0.5
+226-89_tohold-1,Toraja-Sadan,to hold,tue,1,1,0.75,Bantik,beleŋ,0.1,0.4,0.7
+226-90_todig-1,Toraja-Sadan,to dig,kali,0,1,0.0,Banggai (W.dialect),gali,0.1,0.4,0.8
+226-91_tobuy-1,Toraja-Sadan,to buy,alli,0,1,0.0,Buginese (Soppeng Dialect),əlli,0.1,0.2,0.7
+226-92_toopenuncover-1,Toraja-Sadan,"to open, uncover",buka,0,1,0.0,Banggai (W.dialect),buka,0.1,0.4,0.7
+226-93_topoundbeat-1,Toraja-Sadan,"to pound, beat",lambuk,0,1,0.25,Popalia,tumbuʔe,0.1,0.1,0.7
+226-94_tothrow-1,Toraja-Sadan,to throw,tibe,1,1,0.25,Soboyo,tiba,0.1,0.2,0.5
+226-95_tofall-1,Toraja-Sadan,to fall,tobaŋ,1,1,0.4,Mori Bawah (Watu),metoa,0.0,0.4,0.7
+226-96_dog-1,Toraja-Sadan,dog,asu,0,1,0.0,Banggai (W.dialect),asu,0.1,0.4,0.6
+226-97_bird-1,Toraja-Sadan,bird,manuk manuk,0,1,0.1,Banggai (W.dialect),manu-manuk,0.0,0.0,0.1
+226-98_egg-1,Toraja-Sadan,egg,talloʔ,0,1,0.0,Buginese (Soppeng Dialect),[it]təllo,0.1,0.2,0.9
+226-99_feather-1,Toraja-Sadan,feather,bulu,0,1,0.0,Banggai (W.dialect),bulu,0.2,0.6,0.8
+226-100_wing-1,Toraja-Sadan,wing,paniʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),pani,0.1,0.5,0.8
+226-101_tofly-1,Toraja-Sadan,to fly,tiaʔ,0,1,0.5,Makassar,anriʔba,0.1,0.2,0.6
+226-102_rat-1,Toraja-Sadan,rat,balao,0,1,0.0,Makassar,balao,0.2,0.2,0.8
+226-103_meatflesh-1,Toraja-Sadan,meat/flesh,issi,0,1,0.0,Makassar,assi,0.1,0.2,0.6
+226-104_fatgrease-1,Toraja-Sadan,fat/grease,lompo,0,1,0.0,Totoli,lompo,0.0,0.0,0.8
+226-105_tail-1,Toraja-Sadan,tail,ikkoʔ,0,1,0.0,Buginese (Soppeng Dialect),ikkoʔ,0.0,0.0,0.2
+226-106_snake-1,Toraja-Sadan,snake,ulaʔ,0,1,0.0,Buginese (Soppeng Dialect),ula,0.2,0.3,0.6
+226-107_wormearthworm-1,Toraja-Sadan,worm (earthworm),kalintiŋ,1,1,0.5,Bantik,loloati,0.0,0.0,0.5
+226-108_louse-1,Toraja-Sadan,louse,kutu,0,1,0.0,Bantik,kutu,0.3,0.5,0.8
+226-109_mosquito-1,Toraja-Sadan,mosquito,kasisiʔ,1,1,0.2,Tomini (Tialo),sisioʔ,0.0,0.5,0.6
+226-110_spider-1,Toraja-Sadan,spider,laa,0,1,0.25,Buol,borelaa,0.0,0.4,0.9
+226-111_fish-1,Toraja-Sadan,fish,bale,0,1,0.0,Buginese (Soppeng Dialect),bale,0.1,0.3,0.8
+226-112_rotten-1,Toraja-Sadan,rotten,bosi,1,1,0.0,Kulisusu,moɓosi,0.0,0.2,0.3
+226-113_branch-1,Toraja-Sadan,branch,taŋke,0,1,0.2,Buginese (Soppeng Dialect),takke,0.0,0.2,0.5
+226-114_leaf-1,Toraja-Sadan,leaf,daun,0,1,0.0,Bolaang Mongondow,daun,0.0,0.1,0.5
+226-115_root-1,Toraja-Sadan,root,akaʔ,0,1,0.0,Muna (Katobu-Tongkuno Dialect),paraka,0.2,0.9,1.0
+226-116_flower-1,Toraja-Sadan,flower,buŋa,0,1,0.0,Banggai (W.dialect),buŋa,0.1,0.6,0.9
+226-117_fruit-1,Toraja-Sadan,fruit,bua,0,1,0.0,Bantik,bua,0.0,0.2,0.8
+226-118_grass-1,Toraja-Sadan,grass,riu,1,1,0.3333333333333333,Buginese (Soppeng Dialect),sarii,0.0,0.2,0.3
+226-119_earthsoil-1,Toraja-Sadan,earth/soil,litak,0,1,0.25,Mori,wita,0.0,0.2,0.8
+226-120_stone-1,Toraja-Sadan,stone,batu,0,1,0.0,Banggai (W.dialect),batu,0.3,0.7,0.8
+226-121_sand-1,Toraja-Sadan,sand,buŋin,0,1,0.2857142857142857,Bolaang Mongondow,buŋaion,0.0,0.1,0.5
+226-122_water-1,Toraja-Sadan,water,wai,0,1,0.3333333333333333,Mori,uwoi,0.0,0.3,0.3
+226-123_toflow-1,Toraja-Sadan,to flow,loloŋ,0,1,0.0,Makassar,assoloŋ,0.1,0.5,0.8
+226-124_sea-1,Toraja-Sadan,sea,tasik,0,1,0.0,Tonsea,tasik,0.0,0.1,0.5
+226-125_salt-1,Toraja-Sadan,salt,sia,0,1,0.3333333333333333,Bantik,asiŋ,0.0,0.1,0.8
+226-126_lake-1,Toraja-Sadan,lake,tapparan,0,1,0.375,Buginese (Soppeng Dialect),tappárəŋ,0.0,0.0,0.6
+226-127_woodsforest-1,Toraja-Sadan,woods/forest,alaʔ,0,1,0.25,Totoli,alas,0.1,0.8,0.8
+226-128_sky-1,Toraja-Sadan,sky,laŋiʔ,0,1,0.0,Bantik,laŋiʔ,0.1,0.6,0.9
+226-129_moon-1,Toraja-Sadan,moon,bulan,0,1,0.0,Bolaang Mongondow,bulan,0.3,0.4,0.7
+226-130_star-1,Toraja-Sadan,star,bintoën,0,1,0.2857142857142857,Makassar,bintoɛŋ,0.0,0.0,0.6
+226-131_cloud-1,Toraja-Sadan,cloud,salebuʔ,1,1,0.3333333333333333,Mori,seru,0.1,0.3,0.7
+226-132_fog-1,Toraja-Sadan,fog,rambu roya,0,1,0.375,Gorontalo (Hulondalo),wambulo [embun],0.0,0.0,0.4
+226-133_rain-1,Toraja-Sadan,rain,uran,0,1,0.0,Tontemboan,muran,0.0,0.2,0.9
+226-134_thunder-1,Toraja-Sadan,thunder,galugu,0,1,0.3333333333333333,Kumbewaha,ɓoxuxu,0.1,0.3,0.5
+226-134_thunder-2,Toraja-Sadan,thunder,guntuʔ,0,1,0.0,Wolio,guntu,0.0,0.4,0.8
+226-135_lightning-1,Toraja-Sadan,lightning,kilaʔ,0,1,0.0,Bantik,kilaʔ,0.0,0.5,0.8
+226-136_wind-1,Toraja-Sadan,wind,aŋin,0,1,0.25,Buginese (Soppeng Dialect),aŋiŋ,0.0,0.0,0.6
+226-137_toblow-1,Toraja-Sadan,to blow,pamurruʔ,1,1,0.4,Andio,momuur,0.1,0.1,0.7
+226-138_warm-1,Toraja-Sadan,warm,ma-lassu,0,1,0.25,Kaidipang,mopasu,0.0,0.1,0.8
+226-139_cold-1,Toraja-Sadan,cold,ma-sakkaʔ,1,1,0.5,Kodeoha,monapa,0.1,0.1,0.6
+226-140_dry-1,Toraja-Sadan,dry,ma-reŋko,0,1,0.2857142857142857,Buginese (Soppeng Dialect),ma-rakko,0.1,0.1,0.6
+226-141_wet-1,Toraja-Sadan,wet,bonak,0,1,0.25,Andio,mentak,0.2,0.2,0.9
+226-142_heavy-1,Toraja-Sadan,heavy,ma-gasa,1,1,0.5,Banggai (W.dialect),barat,0.0,0.5,0.9
+226-143_fire-1,Toraja-Sadan,fire,api,0,1,0.0,Mori,api,0.1,0.5,0.6
+226-144_toburn-1,Toraja-Sadan,to burn,tunu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aetunu,0.0,0.4,0.7
+226-145_smoke-1,Toraja-Sadan,smoke,rambu,0,1,0.0,Makassar,rumbu,0.2,0.3,0.9
+226-146_ashes-1,Toraja-Sadan,ashes,au,0,1,0.3333333333333333,Kaidipang,avu,0.0,0.3,0.4
+226-147_black-1,Toraja-Sadan,black,ma-lotoŋ,0,1,0.0,Buginese (Soppeng Dialect),ma-lotoŋ,0.6,0.7,1.0
+226-148_white-1,Toraja-Sadan,white,ma-busa,0,1,0.16666666666666666,Bare'e,ma-buya,0.0,0.4,0.8
+226-149_red-1,Toraja-Sadan,red,ma-raraŋ,0,1,0.16666666666666666,Soboyo,kabarara,0.2,0.3,0.9
+226-150_yellow-1,Toraja-Sadan,yellow,ma-riri,0,1,0.0,Lasalimu,moriri,0.0,0.2,0.5
+226-151_green-1,Toraja-Sadan,green,ma-ido,0,1,0.0,Tomini (Tialo),ido,0.0,0.3,0.8
+226-152_small-1,Toraja-Sadan,small,bittiʔ,0,1,0.5,Bahonsuai,ontidi,0.0,0.2,0.5
+226-153_big-1,Toraja-Sadan,big,kapua,1,1,0.5,Buginese (Soppeng Dialect),ma-raja,0.2,0.2,0.9
+226-154_short-1,Toraja-Sadan,short,kondiʔ,1,1,0.3333333333333333,Banggai (W.dialect),pende,0.1,0.4,0.7
+226-155_long-1,Toraja-Sadan,long,kalando,0,1,0.3333333333333333,Andio,malayoʔ,0.3,0.4,0.8
+226-156_thin-1,Toraja-Sadan,thin,ma-nipiʔ,0,1,0.0,Banggai (W.dialect),nipi,0.2,0.4,0.5
+226-157_thick-1,Toraja-Sadan,thick,ma-kamban,0,1,0.375,Wolio,makapa,0.1,0.1,0.8
+226-158_narrow-1,Toraja-Sadan,narrow,siʔpiʔ,0,1,0.0,Buginese (Soppeng Dialect),ma-cipi,0.1,0.2,0.7
+226-159_wide-1,Toraja-Sadan,wide,saŋkaʔ,0,1,0.2,Buginese (Soppeng Dialect),ma-sakka,0.3,0.4,0.8
+226-160_painfulsick-1,Toraja-Sadan,"painful, sick",ma-saki,0,1,0.0,Mori,mahaki,0.0,0.2,0.6
+226-161_shyashamed-1,Toraja-Sadan,"shy, ashamed",ma-siriʔ,0,1,0.0,Buginese (Soppeng Dialect),siriʔ,0.3,0.4,0.8
+226-162_old-1,Toraja-Sadan,old,ma-tua,0,1,0.0,Mori,motuʔa,0.3,0.4,1.0
+226-163_new-1,Toraja-Sadan,new,baʔru,0,1,0.0,Buginese (Soppeng Dialect),ma-baru,0.0,0.5,0.8
+226-164_good-1,Toraja-Sadan,good,melo,0,1,0.0,Wasambua dialect of Cia-Cia,ɓelo,0.1,0.6,0.7
+226-164_good-2,Toraja-Sadan,good,ma-pia,0,1,0.0,Bantik,pia,0.1,0.3,0.6
+226-165_badevil-1,Toraja-Sadan,"bad, evil",kadake,0,1,0.2,Wolio,madaki,0.1,0.3,0.9
+226-166_correcttrue-1,Toraja-Sadan,"correct, true",toŋan,0,1,0.4,Buginese (Soppeng Dialect),toŋəŋ,0.2,0.3,0.6
+226-167_night-1,Toraja-Sadan,night,boŋi,0,1,0.0,Padoe,βoŋi,0.0,0.3,0.5
+226-168_day-1,Toraja-Sadan,day,allo,0,1,0.0,Makassar,allo,0.0,0.1,0.8
+226-169_year-1,Toraja-Sadan,year,taun,0,1,0.0,Tontemboan,taun,0.2,0.4,0.8
+226-170_when-1,Toraja-Sadan,when?,piran,0,1,0.2,Totoli,pilan,0.1,0.2,0.5
+226-171_tohide-1,Toraja-Sadan,to hide,buni,0,1,0.0,Bantik,buni,0.0,0.2,0.7
+226-172_toclimb-1,Toraja-Sadan,to climb,tukaʔ,0,1,0.0,Buginese (Soppeng Dialect),tukaʔ,0.0,0.3,0.9
+226-173_at-1,Toraja-Sadan,at,di,0,1,0.3333333333333333,Banggai (W.dialect),doi,0.0,0.1,0.1
+226-174_ininside-1,Toraja-Sadan,"in, inside",lan,0,1,0.3333333333333333,Makassar,ilalaŋ,0.0,0.3,0.7
+226-175_above-1,Toraja-Sadan,above,doa,0,1,0.6,Tontemboan,andaŋka,0.0,0.1,0.4
+226-176_below-1,Toraja-Sadan,below,dioŋ,1,1,0.5,Waru (Lalomerui),i kuaio,0.0,0.0,0.6
+226-177_this-1,Toraja-Sadan,this,ia-te,0,1,0.25,Buginese (Soppeng Dialect),ia-e,0.1,0.5,0.8
+226-178_that-1,Toraja-Sadan,that,ia-to,0,1,0.0,Mori Bawah (Watu),raato,0.2,0.6,1.0
+226-178_that-2,Toraja-Sadan,that,ia-tu,0,1,0.0,Buginese (Soppeng Dialect),ia-tu,0.1,0.8,0.9
+226-179_near-1,Toraja-Sadan,near,dappiʔ,0,1,0.25,Wolio,marampi,0.1,0.1,0.4
+226-180_far-1,Toraja-Sadan,far,bela,0,1,0.0,Buginese (Soppeng Dialect),ma-bela,0.0,0.1,0.6
+226-181_where-1,Toraja-Sadan,where?,umba nii,0,1,0.25,Andio,arii,0.3,0.3,0.8
+226-182_i-1,Toraja-Sadan,I,aku,0,1,0.0,Banggai (W.dialect),iaku,0.0,0.4,0.4
+226-183_thou-1,Toraja-Sadan,thou,iko,0,1,0.0,Buginese (Soppeng Dialect),iko,0.0,0.3,0.5
+226-184_heshe-1,Toraja-Sadan,he/she,ia,0,1,0.0,Buginese (Soppeng Dialect),ia,0.0,0.0,0.1
+226-185_we-1,Toraja-Sadan,we,kita,0,1,0.0,Banggai (W.dialect),ikita,0.1,0.6,0.7
+226-185_we-2,Toraja-Sadan,we,kami,0,1,0.0,Banggai (W.dialect),ikami,0.1,0.3,0.6
+226-186_you-1,Toraja-Sadan,you,kamu,0,1,0.0,Buol,kamu,0.1,0.5,0.9
+226-187_they-1,Toraja-Sadan,they,ia,0,1,0.3333333333333333,Mori,ira,0.1,0.2,0.2
+226-188_what-1,Toraja-Sadan,what?,apa,0,1,0.0,Bantik,apa,0.1,0.8,0.9
+226-189_who-1,Toraja-Sadan,who?,inda,1,1,0.4,Andio,indee,0.4,0.5,0.7
+226-190_other-1,Toraja-Sadan,other,seŋaʔ,1,1,0.5,Banggai (W.dialect),meeŋ,0.0,0.1,0.5
+226-191_all-1,Toraja-Sadan,all,nasaŋ,0,1,0.25,Tontemboan,pakasa,0.2,0.3,0.8
+226-192_and-1,Toraja-Sadan,and,na,0,1,0.0,Buginese (Soppeng Dialect),na,0.0,0.1,0.1
+226-193_if-1,Toraja-Sadan,if,iake,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),ane,0.1,0.3,0.7
+226-194_how-1,Toraja-Sadan,how?,umba na-kua,0,1,0.42857142857142855,Popalia,ɸana umpa,0.0,0.0,0.4
+226-195_nonot-1,Toraja-Sadan,"no, not",taeʔ,1,1,0.25,Tomini (Tialo),taje,0.0,0.4,0.7
+226-196_tocount-1,Toraja-Sadan,to count,bilaŋ,0,1,0.0,Buginese (Soppeng Dialect),bilaŋ,0.0,0.0,0.6
+226-197_one-1,Toraja-Sadan,One,missaʔ,0,1,0.25,Bare'e,isa,0.0,0.0,0.5
+226-197_one-2,Toraja-Sadan,One,misa',1,1,0.0,Bare'e,isa,0.1,0.3,0.7
+226-198_two-1,Toraja-Sadan,Two,dua,0,1,0.0,Bantik,dadua,0.0,0.0,0.4
+226-199_three-1,Toraja-Sadan,Three,tallu,0,1,0.0,Buginese (Soppeng Dialect),təllu,0.0,0.1,0.6
+226-200_four-1,Toraja-Sadan,Four,aʔpaʔ,0,1,0.0,Wolio,apa,0.0,0.5,0.7
+226-201_five-1,Toraja-Sadan,Five,lima,0,1,0.0,Banggai (W.dialect),lima,0.0,0.2,0.7
+226-202_six-1,Toraja-Sadan,Six,annan,1,1,0.2,Makassar,annaŋ,0.0,0.2,0.5
+226-203_seven-1,Toraja-Sadan,Seven,pitu,0,1,0.0,Banggai (W.dialect),pitu,0.0,0.4,0.7
+226-204_eight-1,Toraja-Sadan,Eight,karua,0,1,0.0,Buginese (Soppeng Dialect),arua,0.2,0.3,0.9
+226-205_nine-1,Toraja-Sadan,Nine,kasera,0,1,0.0,Buginese (Soppeng Dialect),asera,0.1,0.4,0.6
+226-206_ten-1,Toraja-Sadan,Ten,sangpulo,1,1,0.2,Mori,hopulo,0.1,0.1,0.4
+226-207_twenty-1,Toraja-Sadan,Twenty,duaŋpulo,1,1,0.125,Buginese (Soppeng Dialect),duappulo,0.1,0.2,0.8
+226-208_fifty-1,Toraja-Sadan,Fifty,limaŋpulo,1,1,0.1111111111111111,Buginese (Soppeng Dialect),limappulo,0.0,0.1,0.5
+226-209_onehundred-1,Toraja-Sadan,One Hundred,saratuʔ,1,1,0.0,Wolio,saatu,0.1,0.5,0.8
+226-210_onethousand-1,Toraja-Sadan,One Thousand,saŋsaʔbu,1,1,0.0,Makassar,sisaʔbu,0.0,0.0,0.7
+674-1_hand-1,Tolaki,hand,kae,0,1,0.0,Mori,kae,0.0,0.1,0.4
+674-2_left-1,Tolaki,left,hiri,0,1,0.0,Tontemboan,kaʔbiri,0.1,0.2,0.6
+674-3_right-1,Tolaki,right,hana,0,1,0.0,Muna (Katobu-Tongkuno Dialect),suana,0.2,0.6,0.9
+674-4_legfoot-1,Tolaki,leg/foot,kare,0,1,0.0,Kodeoha,kare,0.0,0.1,0.5
+674-5_towalk-1,Tolaki,to walk,molako,0,1,0.0,Kaidipang,morʔako,0.5,0.7,1.0
+674-6_roadpath-1,Tolaki,road/path,sala,0,1,0.0,Mori,sala,0.5,0.8,0.8
+674-7_tocome-1,Tolaki,to come,leu,1,1,0.0,Bahonsuai,leu,0.0,0.1,0.2
+674-8_toturn-1,Tolaki,to turn,putara,1,1,0.3333333333333333,Wolio,lari,0.3,1.0,1.0
+674-9_toswim-1,Tolaki,to swim,lumangu,0,1,0.2,Ponosakan,(lo)languy,0.0,0.2,0.9
+674-11_dust-1,Tolaki,dust,awu,0,1,0.0,Mori,awu,0.1,0.1,0.3
+674-12_skin-1,Tolaki,skin,kuli,0,1,0.0,Muna (Katobu-Tongkuno Dialect),kuli,0.3,0.4,0.6
+674-13_back-1,Tolaki,back,bunggu,1,1,0.2857142857142857,Tomini (Tialo),bungkut,0.0,0.1,0.5
+674-14_belly-1,Tolaki,belly,tia,0,1,0.0,Banggai (W.dialect),tia,0.0,0.2,0.6
+674-15_bone-1,Tolaki,bone,tula,0,1,0.2,Bolaang Mongondow,tulan,0.0,0.4,0.7
+674-16_intestines-1,Tolaki,intestines,usu,1,1,0.6666666666666666,Buginese (Soppeng Dialect),paruu,0.2,0.4,0.7
+674-17_liver-1,Tolaki,liver,ate,0,1,0.0,Banggai (W.dialect),ate,0.1,0.3,0.7
+674-18_breast-1,Tolaki,breast,susu,0,1,0.0,Banggai (W.dialect),susu,0.0,0.3,0.4
+674-19_shoulder-1,Tolaki,shoulder,bohe,1,1,0.5,Banggai (W.dialect),beŋe,0.0,0.0,0.6
+674-20_toknowbeknowledgeable-1,Tolaki,"to know, be knowledgeable",to'ori,1,1,0.0,Mori,toʔori,0.2,0.4,0.8
+674-21_tothink-1,Tolaki,to think,mepikiri,0,1,0.0,Popalia,ɸikiri,0.0,0.0,0.2
+674-22_tofear-1,Tolaki,to fear,motaku,1,1,0.0,Bantik,[ma]takuʔ,0.1,0.7,0.9
+674-23_blood-1,Tolaki,blood,beli,1,1,0.0,Kodeoha,beli,0.0,0.2,0.6
+674-24_head-1,Tolaki,head,ulu,0,1,0.0,Banggai (W.dialect),ulu,0.1,0.5,0.7
+674-25_neck-1,Tolaki,neck,woroko,1,1,0.0,Wolio,boroko,0.2,0.5,0.9
+674-26_hair-1,Tolaki,hair,wuu,0,1,0.0,Mori,wuu,0.2,0.3,0.4
+674-27_nose-1,Tolaki,nose,enge,0,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),nee,0.2,0.5,0.8
+674-28_tobreathe-1,Tolaki,to breathe,mehonahona,1,1,0.5,Mori,menaa,0.0,0.0,0.3
+674-28_tobreathe-2,Tolaki,to breathe,penao,1,1,0.25,Mori,menaa,0.0,0.4,0.7
+674-29_tosniffsmell-1,Tolaki,"to sniff, smell",siusiu,1,1,0.5,Tomini (Tialo),kundu,0.2,0.4,0.6
+674-30_mouth-1,Tolaki,mouth,pondu,1,1,0.0,Mori Atas (Doule),pindu,0.3,0.3,0.6
+674-31_tooth-1,Tolaki,tooth,ngisi,0,1,0.0,Bantik,isi,0.2,0.5,0.8
+674-32_tongue-1,Tolaki,tongue,elo,0,1,0.0,Mori,elo,0.0,0.1,0.4
+674-33_tolaugh-1,Tolaki,to laugh,mototao,1,1,0.0,Mori Atas (Doule),motao,0.3,0.3,1.0
+674-34_tocry-1,Tolaki,to cry,umi'ia,1,1,0.0,Kodeoha,miʔia,0.1,0.4,0.7
+674-34_tocry-2,Tolaki,to cry,hono,1,1,0.3333333333333333,Moronene,meβoβo,0.2,0.5,0.8
+674-35_tovomit-1,Tolaki,to vomit,mo'ua,1,1,0.2,Totoli,molua,0.0,0.4,0.9
+674-36_tospit-1,Tolaki,to spit,mo'eni,1,1,0.0,Bungku (Tulambatu),meʔeni,0.0,0.1,0.6
+674-37_toeat-1,Tolaki,to eat,kaa,0,1,0.0,Mori,moŋkaa,0.0,0.1,0.6
+674-38_tochew-1,Tolaki,to chew,kaa,1,1,0.25,Uma (Kantewu dialect),kajaʔ,0.1,0.2,0.8
+674-39_tocook-1,Tolaki,to cook,monahu,0,1,0.0,Mori,monahu,0.1,0.4,0.9
+674-40_todrink-1,Tolaki,to drink,mo'inu,1,1,0.0,Mori,moinu,0.1,0.6,0.8
+674-41_tobite-1,Tolaki,to bite,kaa,1,1,0.25,Popalia,kaha,0.0,0.1,0.3
+674-43_ear-1,Tolaki,ear,biri,0,1,0.0,Mori,biri,0.2,0.5,0.5
+674-44_tohear-1,Tolaki,to hear,podea,1,1,0.0,Bungku,mompodea,0.1,0.2,0.6
+674-45_eye-1,Tolaki,eye,mata,0,1,0.0,Banggai (W.dialect),mata,0.0,0.7,0.9
+674-46_tosee-1,Tolaki,to see,ki'ii,1,1,0.25,Mori Bawah (Bahano),moŋkii,0.2,0.6,0.8
+674-46_tosee-2,Tolaki,to see,ki'i,1,1,0.0,Mori Bawah (Bahano),moŋkii,0.0,0.1,0.4
+674-48_tosleep-1,Tolaki,to sleep,mo'iso,1,1,0.0,Kodeoha,moʔiso,0.1,0.4,0.8
+674-49_toliedown-1,Tolaki,to lie down,mo'iso'iso,1,1,0.0,Kodeoha,moisoiso,0.0,0.1,0.5
+674-50_todream-1,Tolaki,to dream,mo'ipi,1,1,0.0,Mori,moʔipi,0.0,0.1,0.7
+674-51_tosit-1,Tolaki,to sit,mererehu,1,1,0.0,Wiau,korerehu,0.0,0.0,0.3
+674-52_tostand-1,Tolaki,to stand,menggokora,1,1,0.42857142857142855,Andio,kumokoro,0.0,0.0,0.0
+674-53_personhumanbeing-1,Tolaki,person/human being,toono,1,1,0.0,Kodeoha,toʔono,0.3,0.5,0.7
+674-54_manmale-1,Tolaki,man/male,langgai,1,1,0.14285714285714285,Tomini (Tialo),langkai,0.0,0.1,0.6
+674-55_womanfemale-1,Tolaki,woman/female,tina,0,1,0.0,Bungku,tina,0.3,0.8,0.9
+674-56_child-1,Tolaki,child,ana,0,1,0.0,Bantik,anaʔ,0.3,0.7,1.0
+674-57_husband-1,Tolaki,husband,langgai,1,1,0.42857142857142855,Buginese (Soppeng Dialect),lakkai,0.1,0.2,0.6
+674-58_wife-1,Tolaki,wife,tina,1,1,0.0,Kodeoha,sagina,0.2,0.5,0.7
+674-59_mother-1,Tolaki,mother,ina,0,1,0.0,Banggai (W.dialect),tina,0.1,0.3,0.8
+674-60_father-1,Tolaki,father,ama,0,1,0.0,Banggai (W.dialect),tama,0.2,0.7,0.8
+674-61_house-1,Tolaki,house,laika,1,1,0.5,Mori,raha,0.1,0.4,0.9
+674-62_thatchroof-1,Tolaki,thatch/roof,ato,0,1,0.0,Muna (Katobu-Tongkuno Dialect),ghato,0.0,0.5,0.6
+674-63_name-1,Tolaki,name,tamo,1,1,0.0,Kodeoha,tamo,0.2,0.4,0.9
+674-64_tosay-1,Tolaki,to say,te'eni,1,1,0.3333333333333333,Wolio,kooni,0.1,0.1,0.5
+674-65_rope-1,Tolaki,rope,oloo,1,1,0.0,Kodeoha,oloo,0.2,0.4,0.9
+674-66_totieupfasten-1,Tolaki,"to tie up, fasten",onggo,1,1,0.6,Buol,mogikot,0.2,0.2,0.7
+674-67_tosew-1,Tolaki,to sew,moseu,1,1,0.0,Mori,monseu,0.0,0.0,0.7
+674-68_needle-1,Tolaki,needle,seu,0,1,0.0,Mori,seu,0.1,0.3,0.4
+674-70_toshoot-1,Tolaki,to shoot,pana,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aepana,0.2,0.5,0.7
+674-71_tostabpierce-1,Tolaki,"to stab, pierce",tobo,0,1,0.0,Muna (Katobu-Tongkuno Dialect),aetobo,0.1,0.4,0.7
+674-72_tohit-1,Tolaki,to hit,toni,1,1,0.5,Kioko,nelolei,0.1,0.3,0.7
+674-73_tosteal-1,Tolaki,to steal,ponini,1,1,0.5,Banggai (W.dialect),bonikuk,0.0,0.1,0.4
+674-74_tokill-1,Tolaki,to kill,pate,0,1,0.0,Gorontalo (Hulondalo),mo-mate,0.0,0.1,0.4
+674-75_todiebedead-1,Tolaki,"to die, be dead",mate,0,1,0.0,Banggai (W.dialect),mate,0.0,0.4,1.0
+674-76_tolivebealive-1,Tolaki,"to live, be alive",laa,1,1,0.25,Makassar,tallasaʔ,0.1,0.3,0.7
+674-77_toscratch-1,Tolaki,to scratch,karu,0,1,0.0,Mori,mekaru,0.0,0.4,0.8
+674-78_tocuthack-1,Tolaki,"to cut, hack",pole'i,1,1,0.2,Mori,mompole,0.0,0.1,0.6
+674-78_tocuthack-2,Tolaki,"to cut, hack",pole,1,1,0.0,Mori,mompole,0.1,0.2,0.6
+674-79_stickwood-1,Tolaki,stick/wood,tangge,1,1,0.75,Tonsea,teken,0.0,0.1,0.7
+674-80_tosplit-1,Tolaki,to split,wota,0,1,0.0,Bare'e,wota,0.1,0.4,0.9
+674-81_sharp-1,Tolaki,sharp,monggaso,1,1,0.25,Mori,montaso,0.0,0.0,0.4
+674-83_towork-1,Tolaki,to work,mombaho,1,1,0.25,Uma (Kantewu dialect),mo-bago,0.1,0.2,0.9
+674-84_toplant-1,Tolaki,to plant,mombaho,1,1,0.14285714285714285,Mori,mompaho,0.1,0.2,0.9
+674-85_tochoose-1,Tolaki,to choose,mepili,1,1,0.0,Kaidipang,momili,0.2,0.4,0.7
+674-86_togrow-1,Tolaki,to grow,toro,1,1,0.25,Popalia,mɛnsoro,0.0,0.2,0.6
+674-87_toswell-1,Tolaki,to swell,kamba,0,1,0.0,Mori,kamba,0.1,0.3,0.8
+674-89_tohold-1,Tolaki,to hold,po'indi,1,1,0.2,Mori,moʔini,0.1,0.3,0.8
+674-90_todig-1,Tolaki,to dig,metanggali,1,1,0.42857142857142855,Banggai (W.dialect),gali,0.0,0.0,0.3
+674-91_tobuy-1,Tolaki,to buy,po'oli,1,1,0.0,Banggai (W.dialect),moŋ-oli,0.0,0.3,0.7
+674-92_toopenuncover-1,Tolaki,"to open, uncover",hungga,1,1,0.4,Muna (Katobu-Tongkuno Dialect),aelengha,0.2,0.3,0.7
+674-93_topoundbeat-1,Tolaki,"to pound, beat",moaliali,1,1,0.5,Wolio,pasaki,0.0,0.0,0.5
+674-94_tothrow-1,Tolaki,to throw,kali,1,1,0.3333333333333333,Buol,momaki,0.1,0.4,0.9
+674-95_tofall-1,Tolaki,to fall,mo'isa,1,1,0.4,Kodeoha,mosia,0.1,0.3,0.9
+674-96_dog-1,Tolaki,dog,dahu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),d|ahu,0.1,0.6,0.8
+674-97_bird-1,Tolaki,bird,manumanu,0,1,0.0,Muna (Katobu-Tongkuno Dialect),manu-manu,0.0,0.0,0.8
+674-98_egg-1,Tolaki,egg,ti'olu,1,1,0.0,Soboyo,tolu,0.3,0.5,0.7
+674-99_feather-1,Tolaki,feather,wulumanumanu,1,1,0.5555555555555556,Bantik,bumbulu,0.0,0.0,0.2
+674-100_wing-1,Tolaki,wing,kae,1,1,0.25,Kulisusu,kaβe,0.1,0.2,0.6
+674-101_tofly-1,Tolaki,to fly,lumaa,1,1,0.0,Bahonsuai,lumaa,0.2,0.3,0.9
+674-102_rat-1,Tolaki,rat,tehu,0,1,0.0,Mori,tehu,0.1,0.2,0.4
+674-102_rat-2,Tolaki,rat,rate,0,1,0.5,Kaidipang,burʔabu,0.0,0.2,0.8
+674-103_meatflesh-1,Tolaki,meat/flesh,ramo,1,1,0.0,Kodeoha,ramo,0.0,0.5,0.9
+674-104_fatgrease-1,Tolaki,fat/grease,taba,0,1,0.0,Mori,taba,0.2,0.8,0.9
+674-105_tail-1,Tolaki,tail,ekoro,1,1,0.5,Buginese (Soppeng Dialect),ikkoʔ,0.1,0.4,0.8
+674-106_snake-1,Tolaki,snake,ule,0,1,0.0,Bantik,uleʔ,0.1,0.4,0.5
+674-106_snake-2,Tolaki,snake,sao,0,1,0.0,Kodeoha,sao,0.0,0.2,0.5
+674-107_wormearthworm-1,Tolaki,worm (earthworm),uleule,1,1,0.0,Soboyo,ule,0.1,0.4,0.8
+674-108_louse-1,Tolaki,louse,kutu,0,1,0.0,Bantik,kutu,0.4,0.5,0.8
+674-109_mosquito-1,Tolaki,mosquito,buroto,0,1,0.0,Muna (Katobu-Tongkuno Dialect),buroto,0.1,0.7,0.8
+674-110_spider-1,Tolaki,spider,kangga,0,1,0.3333333333333333,Mori,kaaŋga,0.1,0.2,0.4
+674-111_fish-1,Tolaki,fish,ika,0,1,0.0,Bungku,ika,0.0,0.4,0.4
+674-112_rotten-1,Tolaki,rotten,mowuho,0,1,0.3333333333333333,Wolio,mabuto,0.0,0.5,0.7
+674-114_leaf-1,Tolaki,leaf,tawa,1,1,0.0,Wolio,tawa,0.1,0.3,0.8
+674-115_root-1,Tolaki,root,akara,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),paraka,0.0,0.6,0.9
+674-116_flower-1,Tolaki,flower,wulele,1,1,0.0,Bungku (Routa),βulele,0.2,0.4,0.8
+674-117_fruit-1,Tolaki,fruit,wua,0,1,0.0,Mori,wua[ŋkeu],0.0,0.0,0.3
+674-118_grass-1,Tolaki,grass,rembu,1,1,0.3333333333333333,Wasambua dialect of Cia-Cia,χumpu,0.1,0.4,0.6
+674-119_earthsoil-1,Tolaki,earth/soil,wuta,0,1,0.0,Gorontalo (Hulondalo),huta,0.2,0.5,0.8
+674-120_stone-1,Tolaki,stone,watu,0,1,0.0,Banggai (W.dialect),batu,0.2,0.5,0.9
+674-121_sand-1,Tolaki,sand,one,0,1,0.0,Banggai (W.dialect),bone,0.0,0.3,0.5
+674-122_water-1,Tolaki,water,woi,1,1,0.0,Mori,uwoi,0.0,0.2,0.2
+674-123_toflow-1,Tolaki,to flow,lumaa,1,1,0.3333333333333333,Kulisusu,βaa,0.1,0.2,0.9
+674-124_sea-1,Tolaki,sea,tahi,0,1,0.0,Mori,tahi,0.2,0.8,0.9
+674-125_salt-1,Tolaki,salt,peanihi,1,1,0.4,Moronene,tahi,0.0,0.0,0.6
+674-126_lake-1,Tolaki,lake,rano,0,1,0.0,Mori,rano,0.1,0.4,0.6
+674-127_woodsforest-1,Tolaki,woods/forest,ahoma,1,1,0.0,Uma (Kantewu dialect),oma,0.2,0.3,0.9
+674-128_sky-1,Tolaki,sky,lahuene,1,1,0.0,Bungku (Torete),lahuene,0.0,0.0,0.5
+674-129_moon-1,Tolaki,moon,wula,0,1,0.0,Muna (Katobu-Tongkuno Dialect),wula,0.1,0.4,0.8
+674-130_star-1,Tolaki,star,wotiti,1,1,0.0,Kaidipang,matiti,0.0,0.3,0.6
+674-131_cloud-1,Tolaki,cloud,gowa,1,1,0.6666666666666666,Bantik,binaba,0.0,0.5,0.6
+674-133_rain-1,Tolaki,rain,usa,0,1,0.0,Mori,usa,0.1,0.4,0.5
+674-135_lightning-1,Tolaki,lightning,kila,0,1,0.0,Bantik,kilaʔ,0.0,0.3,0.6
+674-136_wind-1,Tolaki,wind,pua,1,1,0.3333333333333333,Mori,pue,0.1,0.2,0.5
+674-137_toblow-1,Tolaki,to blow,mepua,1,1,0.4,Bare'e,me-wui,0.1,0.2,0.8
+674-138_warm-1,Tolaki,warm,mokula,1,1,0.0,Mori,mokula,0.0,0.4,1.0
+674-139_cold-1,Tolaki,cold,morini,1,1,0.0,Mori,morini,0.1,0.3,0.8
+674-140_dry-1,Tolaki,dry,mowatu,1,1,0.0,Kodeoha,moβatu,0.2,0.8,1.0
+674-141_wet-1,Tolaki,wet,meiwoi,1,1,0.5,Bare'e,wota,0.0,0.2,0.7
+674-142_heavy-1,Tolaki,heavy,mobea,1,1,0.2,Kulisusu,moɓea,0.2,0.3,0.8
+674-143_fire-1,Tolaki,fire,api,0,1,0.0,Mori,api,0.0,0.4,0.6
+674-144_toburn-1,Tolaki,to burn,hunu,1,1,0.0,Muna (Katobu-Tongkuno Dialect),aetunu,0.1,0.8,0.8
+674-145_smoke-1,Tolaki,smoke,ahu,0,1,0.0,Mori,ahu,0.2,0.7,0.7
+674-146_ashes-1,Tolaki,ashes,awu,0,1,0.0,Mori,awu,0.0,0.1,0.4
+674-147_black-1,Tolaki,black,me'eto,1,1,0.0,Kodeoha,meʔeto,0.0,0.2,0.3
+674-148_white-1,Tolaki,white,mowila,1,1,0.0,Moronene,mopila,0.0,0.3,0.9
+674-149_red-1,Tolaki,red,momea,1,1,0.0,Bungku,momea,0.3,0.4,1.0
+674-150_yellow-1,Tolaki,yellow,mokuni,1,1,0.0,Banggai (W.dialect),uni[w],0.0,0.2,0.9
+674-151_green-1,Tolaki,green,mo'osu,1,1,0.4,Bahonsuai,moʔuso,0.1,0.3,0.8
+674-152_small-1,Tolaki,small,mohewu,1,1,0.16666666666666666,Bungku,moheɸu,0.0,0.4,0.8
+674-153_big-1,Tolaki,big,wo'ose,1,1,0.0,Bungku,oɸose,0.0,0.1,0.3
+674-154_short-1,Tolaki,short,putu,1,1,0.0,Wiau,oputu,0.0,0.3,0.7
+674-155_long-1,Tolaki,long,mendaa,1,1,0.0,Kodeoha,medaa,0.1,0.2,0.8
+674-156_thin-1,Tolaki,thin,monipi,0,1,0.0,Banggai (W.dialect),nipi,0.0,0.6,0.8
+674-157_thick-1,Tolaki,thick,mokapa,0,1,0.0,Muna (Katobu-Tongkuno Dialect),nokapa,0.2,0.9,1.0
+674-158_narrow-1,Tolaki,narrow,mohewu,1,1,0.5,Kulisusu,mosuku,0.0,0.2,0.8
+674-159_wide-1,Tolaki,wide,molua,1,1,0.0,Mori,malua,0.2,0.2,0.7
+674-160_painfulsick-1,Tolaki,"painful, sick",mohaki,1,1,0.0,Mori,mahaki,0.1,0.5,0.7
+674-161_shyashamed-1,Tolaki,"shy, ashamed",kohanu,1,1,0.3333333333333333,Mori,mokoʔau,0.0,0.4,0.8
+674-162_old-1,Tolaki,old,motu'o,1,1,0.0,Kodeoha,motuo,0.0,0.4,1.0
+674-163_new-1,Tolaki,new,wo'ohu,1,1,0.0,Gorontalo (Hulondalo),bohu,0.1,0.2,0.6
+674-164_good-1,Tolaki,good,meambo,1,1,0.0,Mori Atas (Doule),meambo,0.0,0.3,0.5
+674-165_badevil-1,Tolaki,"bad, evil",mosaa,1,1,0.2,Mori,mosa'o,0.2,0.5,0.9
+674-166_correcttrue-1,Tolaki,"correct, true",meara'i,1,1,0.25,Lasalimu,banara,0.3,0.3,0.5
+674-167_night-1,Tolaki,night,wingi,1,1,0.0,Tonsea,wengi,0.0,0.1,0.5
+674-168_day-1,Tolaki,day,oleo,1,1,0.0,Muna (Katobu-Tongkuno Dialect),gholeo,0.3,0.6,1.0
+674-169_year-1,Tolaki,year,tau,0,1,0.0,Mori,taʔu,0.1,0.2,0.7
+674-170_when-1,Tolaki,when?,teipia,0,1,0.0,Mori,teʔipia,0.0,0.3,0.5
+674-171_tohide-1,Tolaki,to hide,hi'i,1,1,0.5,Andio,mimbini,0.0,0.0,0.4
+674-172_toclimb-1,Tolaki,to climb,momone,1,1,0.0,Bare'e,pone,0.1,0.4,0.7
+674-174_ininside-1,Tolaki,"in, inside",i lalo,0,1,0.0,Muna (Katobu-Tongkuno Dialect),we lalo,0.1,0.7,0.9
+674-175_above-1,Tolaki,above,i wawo,1,1,0.0,Muna (Katobu-Tongkuno Dialect),te wawo,0.1,0.6,0.6
+674-176_below-1,Tolaki,below,i lolu,1,1,0.3333333333333333,Popalia,[ka]ɸoru,0.2,0.4,0.7
+674-177_this-1,Tolaki,this,inono,1,1,0.0,Bungku,riono,0.2,0.4,0.8
+674-178_that-1,Tolaki,that,nggitu'o,1,1,0.25,Gorontalo (Hulondalo),ʔuyito,0.2,0.2,0.9
+674-179_near-1,Tolaki,near,merambi,1,1,0.0,Mori Atas (Doule),merambi,0.1,0.2,0.9
+674-180_far-1,Tolaki,far,mondae,1,1,0.3333333333333333,Bantik,daw,0.2,0.2,0.9
+674-181_where-1,Tolaki,where?,humbee,1,1,0.0,Kodeoha,ubee,0.3,0.4,0.7
+674-182_i-1,Tolaki,I,inaku,1,1,0.0,Banggai (W.dialect),iaku,0.1,0.4,0.6
+674-183_thou-1,Tolaki,thou,inggo'o,1,1,0.0,Kodeoha,igoo,0.0,0.0,0.5
+674-184_heshe-1,Tolaki,he/she,i'ia,1,1,0.0,Lasalimu,iʔia,0.0,0.0,0.2
+674-184_heshe-2,Tolaki,he/she,ie'i,1,1,0.0,Waru (Lalomerui),ieʔi,0.1,0.4,0.6
+674-185_we-1,Tolaki,we,inggito,0,1,0.0,Kodeoha,igito,0.0,0.0,0.4
+674-185_we-2,Tolaki,we,inggami,0,1,0.0,Waru,iŋgami,0.0,0.1,0.5
+674-186_you-1,Tolaki,you,inggomiu,1,1,0.2,Mori,omiu,0.0,0.0,0.1
+674-187_they-1,Tolaki,they,mehira,1,1,0.0,Mori,ira,0.0,0.3,0.6
+674-187_they-2,Tolaki,they,mehiro,1,1,0.0,Kodeoha,ihiro,0.0,0.3,0.6
+674-188_what-1,Tolaki,what?,hawo,1,1,0.25,Kodeoha,hapo,0.1,0.2,0.5
+674-189_who-1,Tolaki,who?,inae,1,1,0.0,Bungku (Landawe),inae,0.3,0.5,0.9
+674-191_all-1,Tolaki,all,luwuako,1,1,0.0,Bungku (Landawe),luβuako,0.1,0.1,0.9
+674-192_and-1,Tolaki,and,ronga,1,1,0.25,Totoli,lengan,0.1,0.3,1.0
+674-193_if-1,Tolaki,if,mano,1,1,0.3333333333333333,Muna (Katobu-Tongkuno Dialect),ane,0.3,0.4,0.8
+674-194_how-1,Tolaki,how?,mombake hawo,1,1,0.4444444444444444,Wasambua dialect of Cia-Cia,mbahae,0.0,0.0,0.2
+674-195_nonot-1,Tolaki,"no, not",oki,1,1,0.3333333333333333,Banggai (W.dialect),aki,0.1,0.3,0.5
+674-196_tocount-1,Tolaki,to count,do'a,1,1,0.0,Mori,modoa,0.0,0.3,0.6
+674-197_one-1,Tolaki,One,aso,0,1,0.0,Kodeoha,oaso,0.1,0.7,0.8
+674-198_two-1,Tolaki,Two,oruo,0,1,0.0,Kodeoha,oruo,0.1,0.2,0.9
+674-199_three-1,Tolaki,Three,tolu,0,1,0.0,Banggai (W.dialect),tolu,0.2,0.4,0.7
+674-200_four-1,Tolaki,Four,omba,1,1,0.0,Mori Atas (Doule),oomba,0.3,0.4,0.8
+674-201_five-1,Tolaki,Five,limo,0,1,0.0,Gorontalo (Hulondalo),limo,0.1,0.4,0.6
+674-202_six-1,Tolaki,Six,ono,0,1,0.0,Mori,ono,0.1,0.6,0.7
+674-203_seven-1,Tolaki,Seven,pitu,0,1,0.0,Banggai (W.dialect),pitu,0.0,0.2,0.6
+674-204_eight-1,Tolaki,Eight,hoalu,1,1,0.0,Banggai (W.dialect),alu,0.0,0.5,0.8
+674-205_nine-1,Tolaki,Nine,osio,0,1,0.0,Banggai (W.dialect),sio,0.3,0.4,0.9
+674-206_ten-1,Tolaki,Ten,hopulo,1,1,0.0,Banggai (W.dialect),soŋulo,0.1,0.6,0.6
+674-207_twenty-1,Tolaki,Twenty,ruambulo,1,1,0.0,Tomadino,ruambulo,0.0,0.0,0.6
+674-208_fifty-1,Tolaki,Fifty,limambulo,1,1,0.1111111111111111,Makassar,limampulo,0.0,0.2,0.9
+674-209_onehundred-1,Tolaki,One Hundred,aso'etu,1,1,0.0,Mori,asoetu,0.2,0.5,0.8
+674-210_onethousand-1,Tolaki,One Thousand,aso-sou,1,1,0.14285714285714285,Kodeoha,asosoβu,0.0,0.0,0.5

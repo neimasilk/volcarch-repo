@@ -71,7 +71,7 @@ etymology
 **Ritual & genre:** `E023` ritual screening, `E026` Pararaton correlation, `E032` pranata mangsa,
 `E057` genre taphonomy, `E204` bronze drums
 
-**62 experiments** are assigned to this line (62 primary). Authoritative list:
+**64 experiments** are assigned to this line (64 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 

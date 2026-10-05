@@ -1,0 +1,222 @@
+{
+  "per_language": [
+    {
+      "language": "Bima",
+      "group": "E.Indonesian",
+      "n_forms": 246,
+      "pct_candidate_label": 37.0,
+      "mean_p": 0.319,
+      "mean_p_coded_forms_only": 0.296,
+      "pct_predicted_profile": 22.4,
+      "auc_vs_own_label": 0.59,
+      "published_mean_p": 0.5367,
+      "published_auc": 0.6246
+    },
+    {
+      "language": "Manggarai",
+      "group": "E.Indonesian",
+      "n_forms": 235,
+      "pct_candidate_label": 32.8,
+      "mean_p": 0.217,
+      "mean_p_coded_forms_only": 0.189,
+      "pct_predicted_profile": 10.2,
+      "auc_vs_own_label": 0.595,
+      "published_mean_p": 0.5027,
+      "published_auc": 0.6968
+    },
+    {
+      "language": "Banggai",
+      "group": "Sulawesi",
+      "n_forms": 208,
+      "pct_candidate_label": 47.1,
+      "mean_p": 0.232,
+      "mean_p_coded_forms_only": 0.192,
+      "pct_predicted_profile": 9.6,
+      "auc_vs_own_label": 0.605,
+      "published_mean_p": 0.5788,
+      "published_auc": 0.6488
+    },
+    {
+      "language": "Bantik",
+      "group": "Sulawesi",
+      "n_forms": 233,
+      "pct_candidate_label": 28.3,
+      "mean_p": 0.317,
+      "mean_p_coded_forms_only": 0.272,
+      "pct_predicted_profile": 21.9,
+      "auc_vs_own_label": 0.691,
+      "published_mean_p": 0.6778,
+      "published_auc": 0.6806
+    },
+    {
+      "language": "Bol.Mongondow",
+      "group": "Sulawesi",
+      "n_forms": 228,
+      "pct_candidate_label": 24.6,
+      "mean_p": 0.229,
+      "mean_p_coded_forms_only": 0.242,
+      "pct_predicted_profile": 11.4,
+      "auc_vs_own_label": 0.427,
+      "published_mean_p": 0.2574,
+      "published_auc": 0.513
+    },
+    {
+      "language": "Gorontalo",
+      "group": "Sulawesi",
+      "n_forms": 215,
+      "pct_candidate_label": 33.0,
+      "mean_p": 0.414,
+      "mean_p_coded_forms_only": 0.4,
+      "pct_predicted_profile": 30.7,
+      "auc_vs_own_label": 0.556,
+      "published_mean_p": 0.7599,
+      "published_auc": 0.5666
+    },
+    {
+      "language": "Kambowa",
+      "group": "Sulawesi",
+      "n_forms": 211,
+      "pct_candidate_label": 74.4,
+      "mean_p": 0.32,
+      "mean_p_coded_forms_only": 0.234,
+      "pct_predicted_profile": 23.2,
+      "auc_vs_own_label": 0.692,
+      "published_mean_p": 0.6792,
+      "published_auc": 0.6975
+    },
+    {
+      "language": "Kulisusu",
+      "group": "Sulawesi",
+      "n_forms": 222,
+      "pct_candidate_label": 62.2,
+      "mean_p": 0.37,
+      "mean_p_coded_forms_only": 0.225,
+      "pct_predicted_profile": 29.7,
+      "auc_vs_own_label": 0.795,
+      "published_mean_p": 0.6332,
+      "published_auc": 0.8002
+    },
+    {
+      "language": "Totoli",
+      "group": "Sulawesi",
+      "n_forms": 227,
+      "pct_candidate_label": 55.1,
+      "mean_p": 0.255,
+      "mean_p_coded_forms_only": 0.194,
+      "pct_predicted_profile": 12.3,
+      "auc_vs_own_label": 0.704,
+      "published_mean_p": 0.5663,
+      "published_auc": 0.7373
+    },
+    {
+      "language": "Uma",
+      "group": "Sulawesi",
+      "n_forms": 242,
+      "pct_candidate_label": 74.8,
+      "mean_p": 0.33,
+      "mean_p_coded_forms_only": 0.176,
+      "pct_predicted_profile": 20.2,
+      "auc_vs_own_label": 0.787,
+      "published_mean_p": 0.6942,
+      "published_auc": 0.8389
+    },
+    {
+      "language": "Acehnese",
+      "group": "W.Indonesian",
+      "n_forms": 237,
+      "pct_candidate_label": 52.7,
+      "mean_p": 0.224,
+      "mean_p_coded_forms_only": 0.184,
+      "pct_predicted_profile": 8.4,
+      "auc_vs_own_label": 0.612,
+      "published_mean_p": 0.591,
+      "published_auc": 0.6181
+    },
+    {
+      "language": "Balinese",
+      "group": "W.Indonesian",
+      "n_forms": 294,
+      "pct_candidate_label": 31.3,
+      "mean_p": 0.229,
+      "mean_p_coded_forms_only": 0.21,
+      "pct_predicted_profile": 14.3,
+      "auc_vs_own_label": 0.56,
+      "published_mean_p": 0.5674,
+      "published_auc": 0.5894
+    },
+    {
+      "language": "Javanese",
+      "group": "W.Indonesian",
+      "n_forms": 217,
+      "pct_candidate_label": 23.0,
+      "mean_p": 0.204,
+      "mean_p_coded_forms_only": 0.187,
+      "pct_predicted_profile": 11.5,
+      "auc_vs_own_label": 0.635,
+      "published_mean_p": 0.2407,
+      "published_auc": 0.6442
+    },
+    {
+      "language": "Malay",
+      "group": "W.Indonesian",
+      "n_forms": 236,
+      "pct_candidate_label": 2.5,
+      "mean_p": 0.262,
+      "mean_p_coded_forms_only": 0.258,
+      "pct_predicted_profile": 19.5,
+      "auc_vs_own_label": 0.756,
+      "published_mean_p": 0.2396,
+      "published_auc": 0.737
+    },
+    {
+      "language": "Sasak",
+      "group": "W.Indonesian",
+      "n_forms": 267,
+      "pct_candidate_label": 34.8,
+      "mean_p": 0.172,
+      "mean_p_coded_forms_only": 0.156,
+      "pct_predicted_profile": 6.0,
+      "auc_vs_own_label": 0.582,
+      "published_mean_p": 0.5238,
+      "published_auc": 0.5789
+    },
+    {
+      "language": "Sundanese",
+      "group": "W.Indonesian",
+      "n_forms": 217,
+      "pct_candidate_label": 25.8,
+      "mean_p": 0.282,
+      "mean_p_coded_forms_only": 0.255,
+      "pct_predicted_profile": 19.4,
+      "auc_vs_own_label": 0.626,
+      "published_mean_p": 0.1923,
+      "published_auc": 0.6341
+    }
+  ],
+  "contrast_mean_p": {
+    "sulawesi_mean": 0.308,
+    "western_mean": 0.229,
+    "difference": 0.08,
+    "p_exact_two_sided": 0.0233,
+    "n_splits": 3003
+  },
+  "contrast_mean_p_coded_forms_only": {
+    "sulawesi_mean": 0.242,
+    "western_mean": 0.208,
+    "difference": 0.034,
+    "p_exact_two_sided": 0.366,
+    "n_splits": 3003
+  },
+  "contrast_pct_candidate_label": {
+    "sulawesi_mean": 49.938,
+    "western_mean": 28.35,
+    "difference": 21.587,
+    "p_exact_two_sided": 0.0563,
+    "n_splits": 3003
+  },
+  "n_languages_auc_ge_0.60": 10,
+  "mean_auc_16": 0.638,
+  "_decision": {
+    "rule_outcome": "geographic-pattern sentence not supported under the language-free model: remove from abstract"
+  }
+}

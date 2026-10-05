@@ -1,0 +1,72 @@
+{
+  "form_only_17": {
+    "n_inputs": 17,
+    "cv_auc": 0.6717,
+    "cv_sd_seed_means": 0.0082,
+    "lolo_mean_auc": 0.6413,
+    "lolo_per_language": {
+      "Bugis": 0.659,
+      "Makassar": 0.655,
+      "Muna": 0.573,
+      "Tolaki": 0.76,
+      "Toraja-Sadan": 0.604,
+      "Wolio": 0.597
+    },
+    "lolo_languages_ge_0.65": 3
+  },
+  "meaning_only_8": {
+    "n_inputs": 8,
+    "cv_auc": 0.646,
+    "cv_sd_seed_means": 0.0023,
+    "lolo_mean_auc": 0.658,
+    "lolo_per_language": {
+      "Bugis": 0.633,
+      "Makassar": 0.623,
+      "Muna": 0.625,
+      "Tolaki": 0.735,
+      "Toraja-Sadan": 0.677,
+      "Wolio": 0.655
+    },
+    "lolo_languages_ge_0.65": 3
+  },
+  "language_only_1": {
+    "n_inputs": 1,
+    "cv_auc": 0.6803,
+    "cv_sd_seed_means": 0.003
+  },
+  "form_plus_meaning_25": {
+    "n_inputs": 25,
+    "cv_auc": 0.7265,
+    "cv_sd_seed_means": 0.0066,
+    "lolo_mean_auc": 0.7008,
+    "lolo_per_language": {
+      "Bugis": 0.706,
+      "Makassar": 0.711,
+      "Muna": 0.614,
+      "Tolaki": 0.809,
+      "Toraja-Sadan": 0.697,
+      "Wolio": 0.667
+    },
+    "lolo_languages_ge_0.65": 5
+  },
+  "form_meaning_identity_26": {
+    "n_inputs": 26,
+    "cv_auc": 0.7626,
+    "cv_sd_seed_means": 0.0072,
+    "lolo_mean_auc": 0.7221,
+    "lolo_per_language": {
+      "Bugis": 0.723,
+      "Makassar": 0.738,
+      "Muna": 0.678,
+      "Tolaki": 0.81,
+      "Toraja-Sadan": 0.683,
+      "Wolio": 0.701
+    },
+    "lolo_languages_ge_0.65": 6
+  },
+  "_decision": {
+    "form_only_cv_auc": 0.6717,
+    "phonology_alone": "at or above the manuscript's 0.65 line",
+    "meaning_vs_form": "form-only > meaning-only"
+  }
+}

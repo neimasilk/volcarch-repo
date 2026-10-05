@@ -1,0 +1,119 @@
+{
+  "oof_25_features": {
+    "kappa": 0.308,
+    "auc_of_averaged_probability": 0.737,
+    "cells": {
+      "coded & no profile": 814,
+      "candidate & no profile": 266,
+      "candidate & profile": 172,
+      "coded & profile": 105
+    },
+    "candidate_and_profile_by_language": {
+      "Tolaki": 62,
+      "Wolio": 32,
+      "Makassar": 31,
+      "Bugis": 27,
+      "Toraja-Sadan": 15,
+      "Muna": 5
+    },
+    "share_of_candidates_with_profile_pct": 39.3
+  },
+  "oof_26_features": {
+    "kappa": 0.37,
+    "auc_of_averaged_probability": 0.774,
+    "cells": {
+      "coded & no profile": 824,
+      "candidate & no profile": 245,
+      "candidate & profile": 193,
+      "coded & profile": 95
+    },
+    "candidate_and_profile_by_language": {
+      "Tolaki": 114,
+      "Makassar": 29,
+      "Bugis": 20,
+      "Wolio": 18,
+      "Toraja-Sadan": 10,
+      "Muna": 2
+    },
+    "share_of_candidates_with_profile_pct": 44.1
+  },
+  "lolo_25_features": {
+    "kappa": 0.145,
+    "auc_of_averaged_probability": 0.65,
+    "cells": {
+      "coded & no profile": 713,
+      "candidate & no profile": 279,
+      "coded & profile": 206,
+      "candidate & profile": 159
+    },
+    "candidate_and_profile_by_language": {
+      "Wolio": 38,
+      "Tolaki": 31,
+      "Bugis": 27,
+      "Makassar": 26,
+      "Muna": 21,
+      "Toraja-Sadan": 16
+    },
+    "share_of_candidates_with_profile_pct": 36.3
+  },
+  "cv_auc": {
+    "25_features": [
+      0.7265,
+      0.0066
+    ],
+    "26_features": [
+      0.7626,
+      0.0072
+    ],
+    "lolo_25": {
+      "Bugis": 0.706,
+      "Makassar": 0.711,
+      "Muna": 0.614,
+      "Tolaki": 0.809,
+      "Toraja-Sadan": 0.697,
+      "Wolio": 0.667
+    }
+  },
+  "published_in_sample": {
+    "kappa": 0.611,
+    "cells": {
+      "CS": 266,
+      "CA": 878,
+      "RO": 172,
+      "MO": 41
+    }
+  },
+  "reviewer2_five_concepts": {
+    "Fifty": {
+      "candidate_forms": 4,
+      "of": 5,
+      "languages_with_candidate_and_profile": 3,
+      "forms": "Bug limappulo [coded]; Mak limampulo; Wol lima pulu; Tor limaŋpulo; Tol limambulo"
+    },
+    "One Hundred": {
+      "candidate_forms": 4,
+      "of": 5,
+      "languages_with_candidate_and_profile": 3,
+      "forms": "Bug səratuu [coded]; Mak sibilaŋŋaŋ; Wol saatu; Tor saratuʔ; Tol aso'etu"
+    },
+    "Twenty": {
+      "candidate_forms": 4,
+      "of": 5,
+      "languages_with_candidate_and_profile": 3,
+      "forms": "Bug duappulo [coded]; Mak ruampulo; Wol rua pulu; Tor duaŋpulo; Tol ruambulo"
+    },
+    "to hit": {
+      "candidate_forms": 7,
+      "of": 7,
+      "languages_with_candidate_and_profile": 2,
+      "forms": "Mun aewogha; Bug tətteʔ; Mak annunruŋ; Wol bebe; Wol rambi; Tor bamba; Tol toni"
+    },
+    "to stand": {
+      "candidate_forms": 5,
+      "of": 6,
+      "languages_with_candidate_and_profile": 3,
+      "forms": "Mun aere [coded]; Bug təttoŋ; Mak ammenteŋ; Wol kabalebale; Tor bendan; Tol menggokora"
+    }
+  },
+  "concepts_candidate_and_profile_in_4plus_languages": []
+}

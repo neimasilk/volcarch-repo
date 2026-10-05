@@ -1,0 +1,19 @@
+{
+  "n_claims": 85,
+  "by_verdict": {
+    "MATCH": 47,
+    "NOTE": 13,
+    "NOT-AS-DESCRIBED": 11,
+    "MISMATCH": 9,
+    "UNSUPPORTED": 3,
+    "DIRECTION": 2
+  },
+  "abvd_snapshot": "lexibank/abvd CLDF, git 917c5a5 (2025-10-07)",
+  "versions": {
+    "xgboost": "3.0.3",
+    "sklearn": "1.8.0",
+    "shap": "0.50.0",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  }
+}

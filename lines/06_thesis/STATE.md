@@ -80,3 +80,9 @@ Three independent gates all point the same way:
   E203 restored to `experiments/`, byte-identical to the pre-split versions; companion history at tag
   `archive/volcarch-genetics-20260730`. Open, subtract-only: E053 is an E154 FDR casualty, and E203
   carries interpretive claims that have never been through the SIG.
+- **2026-10-05 [BRIDGE ← 04, ledger C048/C050]:** P8's negative result has been re-tested under pre-registration
+  (`experiments/E228_p8_revision_analyses/`, S5). It no longer reads "no coherent shared substrate": a small shared
+  component is detectable among uncoded forms (permutation p = 0.0001; 4 look-alike pairs against 0.5 expected, where
+  coded forms show 472 against 8.5), and most Tolaki "candidates" are ordinary Bungku–Tolaki vocabulary (S3). Quote it
+  as **"no large shared layer across the four subgroups"**. `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` line 180
+  cites the old wording — to be corrected in orbit mode, not from line 04.

@@ -9950,3 +9950,66 @@ ditemukan PI dan dihapus. Tidak ada pekerjaan setengah jalan.
   `CLAUDE.md` + `AGENTS.md` (scorecard + public-repo hygiene rule), `docs/HANDOFF_20261002.md` (addendum), memory (`project_p8_oceanic_linguistics.md`, index lines).
 - **Tooling note:** the Gmail connector could not return the decision email (too large); the attachment was fetched in the browser session (`fetch(...view=att)` → base64 → decode) and read with PyMuPDF `page.annots()`.
 - **Not done:** any analysis, any manuscript edit, any push to the public remote (left to the PI).
+
+## 2026-10-05 (evening) — P8 revision: G1 audit (E227) and pre-registered reviewer analyses (E228)
+
+**Asked by the PI:** plan the revision; then: check every number and reference, nothing invented; then: keep the focus on the revision.
+
+**Tried, in order.**
+1. Read the reviewed text (`draft_v0.1_anonymous.tex`) and the scripts behind it (E022, E027 00–04, E028, E029, E041, E042).
+2. **E227** — one script recomputes the manuscript's statements from raw ABVD (85 statements → `results/claims_audit.csv`).
+   First run died on an f-string quoting error (fixed); three of my own first verdicts were wrong and were corrected before
+   anything was written down: the "eight concepts" count (the stored table counts forms, not languages — my language count of 3
+   was right, the reason needed stating), the clustering silhouette (0.105 in my row order, 0.114 in the stored row order —
+   the value is order-dependent), and the syllable figures (the published 2.57 / 2.29 are vowel *groups*, reproduced once
+   counted that way).
+3. **E228** — `DESIGN.md` frozen (sha256 `3b9cba13…fd13f57`) before any outcome; S1–S6 run once; **A1** (S7) added before S7
+   was run; **A2** (S5x) is **post hoc** and marked exploratory.
+4. Reference check of the `.bib` and of the reviewer-supplied references delegated to a sub-agent with web access
+   (evidence = fetched pages only); result recorded in `REVISION_WORKPLAN.md` §8.
+
+**Found.**
+- Stored results reproduce exactly (feature matrix rebuilt from raw data; every table value matches) — G7 holds.
+- The text misdescribes the pipeline: 356-form set in Table 1 vs 438-form label everywhere else; the "PAn cross-check" removed all
+  uncoded forms of 15 meanings without comparing a form; the loan lists matched five unrelated words; κ 0.61 / 266 "consensus"
+  forms are in-sample; "fewer prefixes" is reversed (37.0 % vs 25.2 %; origin: a hard-coded print statement); Figure 1 caption
+  has the sign inverted; the 16 extra languages were scored with two language-level inputs; p = 0.569 does not test what is stated.
+- Pre-registered outcomes: glottal conventions — partial dependence (max −0.016 AUC); Makasar — 39.3 % retained from PMP,
+  25.9 % coded otherwise, 34.8 % uncoded (published 62 % ≈ 60.7 %); Tolaki — 70.9 % of uncoded forms have a look-alike within
+  Bungku–Tolaki (chance 10.5 %); out-of-fold κ 0.31; permutation test p = 0.0001 for a small shared component (decision rule:
+  downgrade the negative claim); geographic sentence not supported (AUC ≥ 0.60 in 10 of 16 lists); form-only AUC 0.672.
+- **Disconfirming for the paper as submitted; documented, not softened.** The corrected picture is weaker on the ML claims and
+  stronger on the two linguistic points a reviewer asked about.
+
+**Not confident / needs a domain expert (flag):** every statement about an individual form (the 75 "rescued" forms, the
+look-alike pairs, prima-facie inherited words such as Tolaki *motaku*, *omba*, Tae' *annan*); the Javanese glottal-stop sentence in
+§4.5; whether ABVD's 210-item list may be called a Swadesh list; the Bungku–Tolaki membership of the 42 comparison lists (taken
+from ABVD names and authorship). → a historical linguist of Sulawesi (G10).
+
+**Records.** `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` (decisions D1–D7, point-by-point facts, corrected numbers,
+order of work); E227 + E228 READMEs; `docs/CRITIQUE_LEDGER.md` C044–C051; `docs/WORKSTATE.md`; `lines/04_language_text/STATE.md`;
+`revision_ammo/anticipated_critiques.md` flagged DO NOT USE; experiment count 218 → 220, next free **E229**; canary green.
+`[BRIDGE → 06_thesis, C048/C050]` the P8 negative result is to be quoted as "no large shared layer", not "no shared substrate";
+`[BRIDGE → 04/06, C050]` E087, E107, E130 and the ADV-5 scorecard line rest on the 27-input model and are **not yet audited**.
+
+**Reference check (sub-agent, fetched pages only; spot-checked on five points):** of 35 `.bib` entries 25 are right, 8 need
+correction and **2 do not exist** (`mead2005`, `vandenBerg1996` — both uncited); `ross2005` **is cited** with a false venue
+(it is a chapter in *Papuan Pasts*, not an *Oceanic Linguistics* article); `list2018` is cited for something it is not.
+The eight reviewer-supplied references all exist (two years in the report are slips: van den Berg 1996, Bulbeck et al. 2000).
+Blust 2013 §2.4.6 names eleven "microgroups" (reviewer right). G15: the journal states no fee and no absence of fees →
+ask the editor. Table with URLs: `papers/P8_linguistic_fossils/REFERENCE_CHECK_20261005.md`.
+
+**Manuscript side.** Submitted files, figures and `.bib` untouched. New working copy `papers/P8_linguistic_fossils/revision_v0.2/`
+(`p8_revision_v0.2.tex` + `CHANGES.md`): only the fifteen term substitutions reviewer 1 dictated (points 1, 4, 5, 6) and two
+path fixes; compiles with no undefined citation; header warns that it is not a corrected version.
+
+**Not done.** No new prose, no number changed in any manuscript, no `.bib` correction applied, nothing sent, uploaded or
+published; no commit. The seven decisions D1–D7 are the PI's.
+
+## 2026-10-05 (±16:05) — tutup sesi
+
+PI: rekomendasi dijalankan, tidak terburu-buru; handoff dulu, lalu push. Handoff baru `docs/HANDOFF_20261005.md`
+(yang 2 Okt ke `docs/archive/handoffs/`). Rekomendasi tetap setelah dipikir ulang: koreksi + sederhanakan, editor
+diberi tahu sebelum menulis ulang; D1–D6 dijalankan, pengiriman catatan editor (D7) dan prosa (G16) menunggu kata PI.
+Antrian sesi berikutnya di handoff §4 (tabel dan Gambar 1 untuk model 25 masukan, `.bib` terkoreksi di salinan kerja,
+kerangka isi per bagian, draf catatan editor, `VENUE.md`). Di-commit dan di-push ke `main` atas perintah PI.

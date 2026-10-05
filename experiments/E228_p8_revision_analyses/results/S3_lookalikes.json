@@ -1,0 +1,401 @@
+{
+  "S3a_tolaki": {
+    "proto_bungku_tolaki": {
+      "candidate": {
+        "n_forms_with_comparison": 97,
+        "thr_0.25": {
+          "observed_pct": 30.9,
+          "chance_pct": 0.4,
+          "excess_points": 30.5
+        },
+        "thr_0.34": {
+          "observed_pct": 35.1,
+          "chance_pct": 2.3,
+          "excess_points": 32.7
+        },
+        "thr_0.5": {
+          "observed_pct": 51.5,
+          "chance_pct": 10.2,
+          "excess_points": 41.3
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 63,
+        "thr_0.25": {
+          "observed_pct": 76.2,
+          "chance_pct": 0.6,
+          "excess_points": 75.6
+        },
+        "thr_0.34": {
+          "observed_pct": 79.4,
+          "chance_pct": 2.8,
+          "excess_points": 76.6
+        },
+        "thr_0.5": {
+          "observed_pct": 88.9,
+          "chance_pct": 10.3,
+          "excess_points": 78.6
+        }
+      }
+    },
+    "other_bungku_tolaki_lists": {
+      "candidate": {
+        "n_forms_with_comparison": 134,
+        "thr_0.25": {
+          "observed_pct": 61.2,
+          "chance_pct": 2.6,
+          "excess_points": 58.6
+        },
+        "thr_0.34": {
+          "observed_pct": 67.9,
+          "chance_pct": 9.6,
+          "excess_points": 58.3
+        },
+        "thr_0.5": {
+          "observed_pct": 79.1,
+          "chance_pct": 30.0,
+          "excess_points": 49.1
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 74,
+        "thr_0.25": {
+          "observed_pct": 89.2,
+          "chance_pct": 3.1,
+          "excess_points": 86.1
+        },
+        "thr_0.34": {
+          "observed_pct": 91.9,
+          "chance_pct": 14.4,
+          "excess_points": 77.5
+        },
+        "thr_0.5": {
+          "observed_pct": 95.9,
+          "chance_pct": 29.3,
+          "excess_points": 66.7
+        }
+      }
+    },
+    "proto_or_other_BT (decision set)": {
+      "candidate": {
+        "n_forms_with_comparison": 134,
+        "thr_0.25": {
+          "observed_pct": 63.4,
+          "chance_pct": 3.0,
+          "excess_points": 60.4
+        },
+        "thr_0.34": {
+          "observed_pct": 70.9,
+          "chance_pct": 10.5,
+          "excess_points": 60.4
+        },
+        "thr_0.5": {
+          "observed_pct": 80.6,
+          "chance_pct": 30.9,
+          "excess_points": 49.7
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 74,
+        "thr_0.25": {
+          "observed_pct": 94.6,
+          "chance_pct": 3.1,
+          "excess_points": 91.5
+        },
+        "thr_0.34": {
+          "observed_pct": 95.9,
+          "chance_pct": 14.6,
+          "excess_points": 81.3
+        },
+        "thr_0.5": {
+          "observed_pct": 97.3,
+          "chance_pct": 30.4,
+          "excess_points": 66.9
+        }
+      }
+    },
+    "tolaki_dialect_lists": {
+      "candidate": {
+        "n_forms_with_comparison": 86,
+        "thr_0.25": {
+          "observed_pct": 82.6,
+          "chance_pct": 1.7,
+          "excess_points": 80.9
+        },
+        "thr_0.34": {
+          "observed_pct": 88.4,
+          "chance_pct": 7.5,
+          "excess_points": 80.8
+        },
+        "thr_0.5": {
+          "observed_pct": 91.9,
+          "chance_pct": 21.5,
+          "excess_points": 70.3
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 54,
+        "thr_0.25": {
+          "observed_pct": 83.3,
+          "chance_pct": 0.9,
+          "excess_points": 82.5
+        },
+        "thr_0.34": {
+          "observed_pct": 96.3,
+          "chance_pct": 8.7,
+          "excess_points": 87.6
+        },
+        "thr_0.5": {
+          "observed_pct": 100.0,
+          "chance_pct": 17.6,
+          "excess_points": 82.4
+        }
+      }
+    },
+    "n_other_BT_lists": 42,
+    "candidates_matching_PBT_at_0.34": {
+      "n": 34,
+      "of_which_PBT_entry_is_cognate_coded_in_ABVD": 7
+    },
+    "_decision": {
+      "excess_points_candidates_vs_chance": 60.4,
+      "rule_outcome": "substantial low-level inheritance among Tolaki candidates (>= 20 points)"
+    }
+  },
+  "S3b_six_languages_vs_other_sulawesi_lists": {
+    "Muna": {
+      "n_comparison_lists": 75,
+      "candidate": {
+        "n_forms_with_comparison": 34,
+        "thr_0.25": {
+          "observed_pct": 35.3,
+          "chance_pct": 5.9,
+          "excess_points": 29.4
+        },
+        "thr_0.34": {
+          "observed_pct": 47.1,
+          "chance_pct": 20.3,
+          "excess_points": 26.8
+        },
+        "thr_0.5": {
+          "observed_pct": 88.2,
+          "chance_pct": 57.6,
+          "excess_points": 30.6
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 185,
+        "thr_0.25": {
+          "observed_pct": 78.9,
+          "chance_pct": 7.8,
+          "excess_points": 71.1
+        },
+        "thr_0.34": {
+          "observed_pct": 87.0,
+          "chance_pct": 25.1,
+          "excess_points": 61.9
+        },
+        "thr_0.5": {
+          "observed_pct": 97.8,
+          "chance_pct": 60.3,
+          "excess_points": 37.6
+        }
+      }
+    },
+    "Bugis": {
+      "n_comparison_lists": 76,
+      "candidate": {
+        "n_forms_with_comparison": 62,
+        "thr_0.25": {
+          "observed_pct": 16.1,
+          "chance_pct": 4.0,
+          "excess_points": 12.1
+        },
+        "thr_0.34": {
+          "observed_pct": 37.1,
+          "chance_pct": 16.6,
+          "excess_points": 20.5
+        },
+        "thr_0.5": {
+          "observed_pct": 72.6,
+          "chance_pct": 51.1,
+          "excess_points": 21.5
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 180,
+        "thr_0.25": {
+          "observed_pct": 72.8,
+          "chance_pct": 6.4,
+          "excess_points": 66.4
+        },
+        "thr_0.34": {
+          "observed_pct": 82.2,
+          "chance_pct": 24.0,
+          "excess_points": 58.2
+        },
+        "thr_0.5": {
+          "observed_pct": 95.0,
+          "chance_pct": 55.7,
+          "excess_points": 39.3
+        }
+      }
+    },
+    "Makassar": {
+      "n_comparison_lists": 76,
+      "candidate": {
+        "n_forms_with_comparison": 80,
+        "thr_0.25": {
+          "observed_pct": 20.0,
+          "chance_pct": 5.6,
+          "excess_points": 14.4
+        },
+        "thr_0.34": {
+          "observed_pct": 37.5,
+          "chance_pct": 16.6,
+          "excess_points": 20.9
+        },
+        "thr_0.5": {
+          "observed_pct": 76.2,
+          "chance_pct": 52.2,
+          "excess_points": 24.0
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 136,
+        "thr_0.25": {
+          "observed_pct": 75.7,
+          "chance_pct": 10.1,
+          "excess_points": 65.6
+        },
+        "thr_0.34": {
+          "observed_pct": 83.8,
+          "chance_pct": 28.3,
+          "excess_points": 55.5
+        },
+        "thr_0.5": {
+          "observed_pct": 93.4,
+          "chance_pct": 62.1,
+          "excess_points": 31.3
+        }
+      }
+    },
+    "Wolio": {
+      "n_comparison_lists": 76,
+      "candidate": {
+        "n_forms_with_comparison": 83,
+        "thr_0.25": {
+          "observed_pct": 49.4,
+          "chance_pct": 9.3,
+          "excess_points": 40.1
+        },
+        "thr_0.34": {
+          "observed_pct": 75.9,
+          "chance_pct": 31.2,
+          "excess_points": 44.7
+        },
+        "thr_0.5": {
+          "observed_pct": 92.8,
+          "chance_pct": 67.6,
+          "excess_points": 25.2
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 170,
+        "thr_0.25": {
+          "observed_pct": 86.5,
+          "chance_pct": 9.8,
+          "excess_points": 76.6
+        },
+        "thr_0.34": {
+          "observed_pct": 94.1,
+          "chance_pct": 33.7,
+          "excess_points": 60.4
+        },
+        "thr_0.5": {
+          "observed_pct": 98.8,
+          "chance_pct": 69.8,
+          "excess_points": 29.1
+        }
+      }
+    },
+    "Toraja-Sadan": {
+      "n_comparison_lists": 76,
+      "candidate": {
+        "n_forms_with_comparison": 45,
+        "thr_0.25": {
+          "observed_pct": 33.3,
+          "chance_pct": 10.0,
+          "excess_points": 23.3
+        },
+        "thr_0.34": {
+          "observed_pct": 51.1,
+          "chance_pct": 30.7,
+          "excess_points": 20.4
+        },
+        "thr_0.5": {
+          "observed_pct": 88.9,
+          "chance_pct": 67.6,
+          "excess_points": 21.3
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 171,
+        "thr_0.25": {
+          "observed_pct": 80.1,
+          "chance_pct": 9.2,
+          "excess_points": 70.9
+        },
+        "thr_0.34": {
+          "observed_pct": 91.8,
+          "chance_pct": 30.5,
+          "excess_points": 61.3
+        },
+        "thr_0.5": {
+          "observed_pct": 98.2,
+          "chance_pct": 68.1,
+          "excess_points": 30.2
+        }
+      }
+    },
+    "Tolaki": {
+      "n_comparison_lists": 71,
+      "candidate": {
+        "n_forms_with_comparison": 134,
+        "thr_0.25": {
+          "observed_pct": 70.9,
+          "chance_pct": 9.3,
+          "excess_points": 61.6
+        },
+        "thr_0.34": {
+          "observed_pct": 81.3,
+          "chance_pct": 28.7,
+          "excess_points": 52.7
+        },
+        "thr_0.5": {
+          "observed_pct": 96.3,
+          "chance_pct": 67.9,
+          "excess_points": 28.4
+        }
+      },
+      "coded": {
+        "n_forms_with_comparison": 74,
+        "thr_0.25": {
+          "observed_pct": 94.6,
+          "chance_pct": 10.5,
+          "excess_points": 84.1
+        },
+        "thr_0.34": {
+          "observed_pct": 98.6,
+          "chance_pct": 39.2,
+          "excess_points": 59.5
+        },
+        "thr_0.5": {
+          "observed_pct": 100.0,
+          "chance_pct": 67.3,
+          "excess_points": 32.7
+        }
+      }
+    }
+  }
+}

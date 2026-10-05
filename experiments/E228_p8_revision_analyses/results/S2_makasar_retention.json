@@ -1,0 +1,277 @@
+{
+  "unit": "concept (meaning); base = concepts present in both the language list and the proto list",
+  "forms_where_Cognacy_field_and_cognates_table_disagree": 0,
+  "PMP_sure": {
+    "Bugis": {
+      "concepts_in_base": 201,
+      "retained": 97,
+      "coded_not_proto": 57,
+      "uncoded": 47,
+      "pct_retained": 48.3,
+      "pct_not_retained": 51.7,
+      "pct_coded_not_proto": 28.4,
+      "pct_uncoded": 23.4
+    },
+    "Makassar": {
+      "concepts_in_base": 201,
+      "retained": 79,
+      "coded_not_proto": 52,
+      "uncoded": 70,
+      "pct_retained": 39.3,
+      "pct_not_retained": 60.7,
+      "pct_coded_not_proto": 25.9,
+      "pct_uncoded": 34.8
+    },
+    "Muna": {
+      "concepts_in_base": 201,
+      "retained": 72,
+      "coded_not_proto": 100,
+      "uncoded": 29,
+      "pct_retained": 35.8,
+      "pct_not_retained": 64.2,
+      "pct_coded_not_proto": 49.8,
+      "pct_uncoded": 14.4
+    },
+    "Tolaki": {
+      "concepts_in_base": 191,
+      "retained": 50,
+      "coded_not_proto": 19,
+      "uncoded": 122,
+      "pct_retained": 26.2,
+      "pct_not_retained": 73.8,
+      "pct_coded_not_proto": 9.9,
+      "pct_uncoded": 63.9
+    },
+    "Toraja-Sadan": {
+      "concepts_in_base": 200,
+      "retained": 96,
+      "coded_not_proto": 66,
+      "uncoded": 38,
+      "pct_retained": 48.0,
+      "pct_not_retained": 52.0,
+      "pct_coded_not_proto": 33.0,
+      "pct_uncoded": 19.0
+    },
+    "Wolio": {
+      "concepts_in_base": 197,
+      "retained": 84,
+      "coded_not_proto": 65,
+      "uncoded": 48,
+      "pct_retained": 42.6,
+      "pct_not_retained": 57.4,
+      "pct_coded_not_proto": 33.0,
+      "pct_uncoded": 24.4
+    }
+  },
+  "PMP_incl_doubtful": {
+    "Bugis": {
+      "concepts_in_base": 201,
+      "retained": 103,
+      "coded_not_proto": 51,
+      "uncoded": 47,
+      "pct_retained": 51.2,
+      "pct_not_retained": 48.8,
+      "pct_coded_not_proto": 25.4,
+      "pct_uncoded": 23.4
+    },
+    "Makassar": {
+      "concepts_in_base": 201,
+      "retained": 86,
+      "coded_not_proto": 45,
+      "uncoded": 70,
+      "pct_retained": 42.8,
+      "pct_not_retained": 57.2,
+      "pct_coded_not_proto": 22.4,
+      "pct_uncoded": 34.8
+    },
+    "Muna": {
+      "concepts_in_base": 201,
+      "retained": 79,
+      "coded_not_proto": 93,
+      "uncoded": 29,
+      "pct_retained": 39.3,
+      "pct_not_retained": 60.7,
+      "pct_coded_not_proto": 46.3,
+      "pct_uncoded": 14.4
+    },
+    "Tolaki": {
+      "concepts_in_base": 191,
+      "retained": 50,
+      "coded_not_proto": 19,
+      "uncoded": 122,
+      "pct_retained": 26.2,
+      "pct_not_retained": 73.8,
+      "pct_coded_not_proto": 9.9,
+      "pct_uncoded": 63.9
+    },
+    "Toraja-Sadan": {
+      "concepts_in_base": 200,
+      "retained": 109,
+      "coded_not_proto": 53,
+      "uncoded": 38,
+      "pct_retained": 54.5,
+      "pct_not_retained": 45.5,
+      "pct_coded_not_proto": 26.5,
+      "pct_uncoded": 19.0
+    },
+    "Wolio": {
+      "concepts_in_base": 197,
+      "retained": 94,
+      "coded_not_proto": 55,
+      "uncoded": 48,
+      "pct_retained": 47.7,
+      "pct_not_retained": 52.3,
+      "pct_coded_not_proto": 27.9,
+      "pct_uncoded": 24.4
+    }
+  },
+  "PAn_sure": {
+    "Bugis": {
+      "concepts_in_base": 169,
+      "retained": 67,
+      "coded_not_proto": 68,
+      "uncoded": 34,
+      "pct_retained": 39.6,
+      "pct_not_retained": 60.4,
+      "pct_coded_not_proto": 40.2,
+      "pct_uncoded": 20.1
+    },
+    "Makassar": {
+      "concepts_in_base": 169,
+      "retained": 59,
+      "coded_not_proto": 57,
+      "uncoded": 53,
+      "pct_retained": 34.9,
+      "pct_not_retained": 65.1,
+      "pct_coded_not_proto": 33.7,
+      "pct_uncoded": 31.4
+    },
+    "Muna": {
+      "concepts_in_base": 167,
+      "retained": 55,
+      "coded_not_proto": 89,
+      "uncoded": 23,
+      "pct_retained": 32.9,
+      "pct_not_retained": 67.1,
+      "pct_coded_not_proto": 53.3,
+      "pct_uncoded": 13.8
+    },
+    "Tolaki": {
+      "concepts_in_base": 163,
+      "retained": 43,
+      "coded_not_proto": 26,
+      "uncoded": 94,
+      "pct_retained": 26.4,
+      "pct_not_retained": 73.6,
+      "pct_coded_not_proto": 16.0,
+      "pct_uncoded": 57.7
+    },
+    "Toraja-Sadan": {
+      "concepts_in_base": 168,
+      "retained": 70,
+      "coded_not_proto": 71,
+      "uncoded": 27,
+      "pct_retained": 41.7,
+      "pct_not_retained": 58.3,
+      "pct_coded_not_proto": 42.3,
+      "pct_uncoded": 16.1
+    },
+    "Wolio": {
+      "concepts_in_base": 166,
+      "retained": 64,
+      "coded_not_proto": 64,
+      "uncoded": 38,
+      "pct_retained": 38.6,
+      "pct_not_retained": 61.4,
+      "pct_coded_not_proto": 38.6,
+      "pct_uncoded": 22.9
+    }
+  },
+  "candidate_share": {
+    "Bugis": {
+      "forms": 242,
+      "candidate_forms": 62,
+      "pct_forms_candidate": 25.6,
+      "pct_forms_table1_residual": 20.2,
+      "concepts": 210,
+      "pct_concepts_all_forms_candidate": 22.9
+    },
+    "Makassar": {
+      "forms": 217,
+      "candidate_forms": 80,
+      "pct_forms_candidate": 36.9,
+      "pct_forms_table1_residual": 30.9,
+      "concepts": 210,
+      "pct_concepts_all_forms_candidate": 35.7
+    },
+    "Muna": {
+      "forms": 219,
+      "candidate_forms": 34,
+      "pct_forms_candidate": 15.5,
+      "pct_forms_table1_residual": 11.9,
+      "concepts": 205,
+      "pct_concepts_all_forms_candidate": 14.6
+    },
+    "Tolaki": {
+      "forms": 209,
+      "candidate_forms": 134,
+      "pct_forms_candidate": 64.1,
+      "pct_forms_table1_residual": 54.5,
+      "concepts": 200,
+      "pct_concepts_all_forms_candidate": 64.0
+    },
+    "Toraja-Sadan": {
+      "forms": 216,
+      "candidate_forms": 45,
+      "pct_forms_candidate": 20.8,
+      "pct_forms_table1_residual": 14.8,
+      "concepts": 209,
+      "pct_concepts_all_forms_candidate": 21.1
+    },
+    "Wolio": {
+      "forms": 254,
+      "candidate_forms": 83,
+      "pct_forms_candidate": 32.7,
+      "pct_forms_table1_residual": 26.8,
+      "concepts": 206,
+      "pct_concepts_all_forms_candidate": 25.7
+    }
+  },
+  "_decision": {
+    "makasar_pct_not_retained_from_PMP": 60.7,
+    "within_10_points_of_62": true,
+    "reading": "same kind of quantity as the published 62 %; the manuscript's figure is the narrower 'uncoded' class",
+    "south_sulawesi_rows": {
+      "Makassar": {
+        "concepts_in_base": 201,
+        "retained": 79,
+        "coded_not_proto": 52,
+        "uncoded": 70,
+        "pct_retained": 39.3,
+        "pct_not_retained": 60.7,
+        "pct_coded_not_proto": 25.9,
+        "pct_uncoded": 34.8
+      },
+      "Bugis": {
+        "concepts_in_base": 201,
+        "retained": 97,
+        "coded_not_proto": 57,
+        "uncoded": 47,
+        "pct_retained": 48.3,
+        "pct_not_retained": 51.7,
+        "pct_coded_not_proto": 28.4,
+        "pct_uncoded": 23.4
+      },
+      "Toraja-Sadan": {
+        "concepts_in_base": 200,
+        "retained": 96,
+        "coded_not_proto": 66,
+        "uncoded": 38,
+        "pct_retained": 48.0,
+        "pct_not_retained": 52.0,
+        "pct_coded_not_proto": 33.0,
+        "pct_uncoded": 19.0
+      }
+    }
+  }
+}

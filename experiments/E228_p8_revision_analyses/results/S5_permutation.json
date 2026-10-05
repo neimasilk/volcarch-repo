@@ -1,0 +1,104 @@
+{
+  "a_all_candidates": {
+    "n_forms": 438,
+    "n_pairs": 474,
+    "T_observed": 0.8128,
+    "T_permutation_mean": 0.867,
+    "T_permutation_sd": 0.0057,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 15,
+    "lookalike_pairs_expected": 0.58,
+    "p_N": 0.0001,
+    "n_perm": 10000
+  },
+  "b_candidates_without_numerals (PRIMARY)": {
+    "n_forms": 411,
+    "n_pairs": 440,
+    "T_observed": 0.8357,
+    "T_permutation_mean": 0.8688,
+    "T_permutation_sd": 0.006,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 4,
+    "lookalike_pairs_expected": 0.52,
+    "p_N": 0.0016,
+    "n_perm": 10000
+  },
+  "c_b_without_E022_15_concepts": {
+    "n_forms": 341,
+    "n_pairs": 298,
+    "T_observed": 0.8258,
+    "T_permutation_mean": 0.8671,
+    "T_permutation_sd": 0.0072,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 3,
+    "lookalike_pairs_expected": 0.28,
+    "p_N": 0.0037,
+    "n_perm": 10000
+  },
+  "d_candidates_with_oof_profile": {
+    "n_forms": 172,
+    "n_pairs": 78,
+    "T_observed": 0.7857,
+    "T_permutation_mean": 0.8529,
+    "T_permutation_sd": 0.0145,
+    "p_T": 0.0002,
+    "lookalike_pairs_observed": 6,
+    "lookalike_pairs_expected": 0.15,
+    "p_N": 0.0001,
+    "n_perm": 10000
+  },
+  "d2_d_without_numerals": {
+    "n_forms": 159,
+    "n_pairs": 68,
+    "T_observed": 0.8432,
+    "T_permutation_mean": 0.8537,
+    "T_permutation_sd": 0.0157,
+    "p_T": 0.25117,
+    "lookalike_pairs_observed": 0,
+    "lookalike_pairs_expected": 0.1,
+    "p_N": 1.0,
+    "n_perm": 10000
+  },
+  "b_pairs_inside_south_sulawesi": {
+    "n_forms": 411,
+    "n_pairs": 83,
+    "T_observed": 0.8274,
+    "T_permutation_mean": 0.8731,
+    "T_permutation_sd": 0.0136,
+    "p_T": 0.0011,
+    "lookalike_pairs_observed": 0,
+    "lookalike_pairs_expected": 0.13,
+    "p_N": 1.0,
+    "n_perm": 10000
+  },
+  "b_pairs_other": {
+    "n_forms": 411,
+    "n_pairs": 357,
+    "T_observed": 0.8377,
+    "T_permutation_mean": 0.8678,
+    "T_permutation_sd": 0.0066,
+    "p_T": 0.0001,
+    "lookalike_pairs_observed": 4,
+    "lookalike_pairs_expected": 0.39,
+    "p_N": 0.0009,
+    "n_perm": 10000
+  },
+  "positive_control_coded_forms": {
+    "n_forms": 919,
+    "n_pairs": 1793,
+    "T_observed": 0.5781,
+    "T_permutation_mean": 0.8558,
+    "T_permutation_sd": 0.0034,
+    "p_T": 0.001,
+    "lookalike_pairs_observed": 472,
+    "lookalike_pairs_expected": 8.49,
+    "p_N": 0.001,
+    "n_perm": 1000
+  },
+  "_decision": {
+    "p_T_primary": 0.0001,
+    "p_N_primary": 0.0016,
+    "rule_outcome": "a shared component is detectable (p < 0.05): downgrade the statement and list the pairs"
+  },
+  "n_lookalike_pairs_listed": 15
+}

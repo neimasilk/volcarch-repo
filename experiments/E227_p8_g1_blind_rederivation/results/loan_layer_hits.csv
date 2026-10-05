@@ -1,0 +1,17 @@
+language,concept,form,has_cog,loan_flag,pat_sanskrit,pat_arabic,pat_malay
+Muna,to walk,akala,True,False,True,True,False
+Muna,to think,aefekiri,False,True,False,False,False
+Muna,to work,akaradhaa,True,True,False,False,False
+Muna,they,andoa,True,False,False,True,False
+Bugis,other,laiŋ,False,True,False,False,False
+Makassar,to think,ammikkiriʔ,False,True,False,False,False
+Makassar,thick,kapalaʔ,True,False,False,False,True
+Wolio,to think,fikiri,True,True,False,False,False
+Wolio,salt,gara,True,True,False,False,False
+Toraja-Sadan,above,doa,True,False,False,True,False
+Tolaki,to turn,putara,False,True,False,False,False
+Tolaki,intestines,usu,False,True,False,False,False
+Tolaki,to think,mepikiri,True,True,False,False,False
+Tolaki,blood,beli,False,False,False,False,True
+Tolaki,tail,ekoro,False,True,False,False,False
+Tolaki,lightning,kila,True,True,False,False,False

@@ -1,0 +1,209 @@
+form_id,language,concept,form,candidate,has_comparison,d,match_list,match_form,chance_0.25,chance_0.34,chance_0.5
+674-1_hand-1,Tolaki,hand,kae,0,1,0.0,Mori,kae,0.0,0.08,0.16
+674-2_left-1,Tolaki,left,hiri,0,1,0.0,Kulisusu,moiri,0.0,0.12,0.16
+674-3_right-1,Tolaki,right,hana,0,1,0.0,Mori,koana,0.04,0.28,0.36
+674-4_legfoot-1,Tolaki,leg/foot,kare,0,1,0.0,Kodeoha,kare,0.0,0.1,0.18
+674-5_towalk-1,Tolaki,to walk,molako,0,1,0.0,Bungku,lumolako,0.12,0.3,0.54
+674-6_roadpath-1,Tolaki,road/path,sala,0,1,0.0,Mori,sala,0.08,0.32,0.46
+674-7_tocome-1,Tolaki,to come,leu,1,1,0.0,Bahonsuai,leu,0.0,0.0,0.1
+674-8_toturn-1,Tolaki,to turn,putara,1,1,0.5,Mori,mekoana,0.16,0.28,0.44
+674-9_toswim-1,Tolaki,to swim,lumangu,0,1,0.2,Proto-Bungku-Tolaki,"*(l,n)anguy",0.0,0.0,0.28
+674-11_dust-1,Tolaki,dust,awu,0,1,0.0,Mori,awu,0.0,0.12,0.2
+674-12_skin-1,Tolaki,skin,kuli,0,1,0.0,Mori,kuli,0.04,0.18,0.42
+674-13_back-1,Tolaki,back,bunggu,1,1,0.2857142857142857,Proto-Bungku-Tolaki,*bungku°,0.0,0.02,0.14
+674-14_belly-1,Tolaki,belly,tia,0,1,0.0,Bungku,tia,0.02,0.1,0.36
+674-15_bone-1,Tolaki,bone,tula,0,1,0.3333333333333333,Kodeoha,toʔola,0.04,0.12,0.38
+674-16_intestines-1,Tolaki,intestines,usu,1,1,0.875,Mori,ulekompo,0.0,0.12,0.2
+674-17_liver-1,Tolaki,liver,ate,0,1,0.0,Mori,ate,0.04,0.2,0.22
+674-18_breast-1,Tolaki,breast,susu,0,1,0.0,Mori,susu,0.0,0.06,0.18
+674-19_shoulder-1,Tolaki,shoulder,bohe,1,1,0.5,Mori,owea,0.02,0.04,0.16
+674-20_toknowbeknowledgeable-1,Tolaki,"to know, be knowledgeable",to'ori,1,1,0.0,Mori,toʔori,0.06,0.12,0.28
+674-21_tothink-1,Tolaki,to think,mepikiri,0,1,0.7777777777777778,Mori,mompewowolo,0.0,0.0,0.12
+674-22_tofear-1,Tolaki,to fear,motaku,1,1,0.8,Mori,doito,0.04,0.22,0.46
+674-23_blood-1,Tolaki,blood,beli,1,1,0.0,Kodeoha,beli,0.02,0.08,0.2
+674-24_head-1,Tolaki,head,ulu,0,1,0.0,Mori,ulu [bagian tubuh],0.02,0.16,0.22
+674-25_neck-1,Tolaki,neck,woroko,1,1,0.0,Kodeoha,βoroko,0.02,0.14,0.38
+674-26_hair-1,Tolaki,hair,wuu,0,1,0.0,Mori,wuu,0.02,0.06,0.18
+674-27_nose-1,Tolaki,nose,enge,0,1,0.2,Proto-Bungku-Tolaki,*enge°,0.04,0.1,0.18
+674-28_tobreathe-1,Tolaki,to breathe,mehonahona,1,1,0.5,Mori,menaa,0.0,0.0,0.12
+674-28_tobreathe-2,Tolaki,to breathe,penao,1,1,0.25,Mori,menaa,0.02,0.14,0.42
+674-29_tosniffsmell-1,Tolaki,"to sniff, smell",siusiu,1,1,1.0,Mori,mowowoo,0.04,0.06,0.34
+674-30_mouth-1,Tolaki,mouth,pondu,1,1,0.0,Mori Atas (Doule),pindu,0.1,0.12,0.28
+674-31_tooth-1,Tolaki,tooth,ngisi,0,1,0.0,Mori,ŋisi,0.0,0.16,0.26
+674-32_tongue-1,Tolaki,tongue,elo,0,1,0.0,Mori,elo,0.0,0.02,0.14
+674-33_tolaugh-1,Tolaki,to laugh,mototao,1,1,0.0,Mori Atas (Doule),motao,0.1,0.1,0.44
+674-34_tocry-1,Tolaki,to cry,umi'ia,1,1,0.0,Kodeoha,miʔia,0.02,0.22,0.36
+674-34_tocry-2,Tolaki,to cry,hono,1,1,0.3333333333333333,Moronene,meβoβo,0.04,0.1,0.4
+674-35_tovomit-1,Tolaki,to vomit,mo'ua,1,1,0.2,Moronene,molua,0.02,0.16,0.54
+674-36_tospit-1,Tolaki,to spit,mo'eni,1,1,0.0,Bungku (Tulambatu),meʔeni,0.02,0.04,0.3
+674-37_toeat-1,Tolaki,to eat,kaa,0,1,0.0,Mori,moŋkaa,0.0,0.12,0.34
+674-38_tochew-1,Tolaki,to chew,kaa,1,1,0.6666666666666666,Mori,momamaki,0.02,0.16,0.34
+674-39_tocook-1,Tolaki,to cook,monahu,0,1,0.0,Mori,monahu,0.08,0.26,0.5
+674-40_todrink-1,Tolaki,to drink,mo'inu,1,1,0.0,Mori,moinu,0.0,0.1,0.3
+674-41_tobite-1,Tolaki,to bite,kaa,1,1,0.25,Kodeoha,mekara,0.02,0.16,0.36
+674-43_ear-1,Tolaki,ear,biri,0,1,0.0,Mori,biri,0.0,0.16,0.3
+674-44_tohear-1,Tolaki,to hear,podea,1,1,0.0,Bungku,mompodea,0.02,0.08,0.32
+674-45_eye-1,Tolaki,eye,mata,0,1,0.0,Mori,mata,0.06,0.36,0.5
+674-46_tosee-1,Tolaki,to see,ki'ii,1,1,0.25,Mori Bawah (Bahano),moŋkii,0.04,0.12,0.22
+674-46_tosee-2,Tolaki,to see,ki'i,1,1,0.0,Mori Bawah (Bahano),moŋkii,0.04,0.06,0.18
+674-48_tosleep-1,Tolaki,to sleep,mo'iso,1,1,0.0,Kodeoha,moʔiso,0.02,0.06,0.4
+674-49_toliedown-1,Tolaki,to lie down,mo'iso'iso,1,1,0.0,Kodeoha,moisoiso,0.02,0.02,0.16
+674-50_todream-1,Tolaki,to dream,mo'ipi,1,1,0.0,Mori,moʔipi,0.0,0.06,0.22
+674-51_tosit-1,Tolaki,to sit,mererehu,1,1,0.0,Wiau,korerehu,0.0,0.0,0.08
+674-52_tostand-1,Tolaki,to stand,menggokora,1,1,0.6,Kodeoha,mepotusa,0.0,0.0,0.04
+674-53_personhumanbeing-1,Tolaki,person/human being,toono,1,1,0.0,Kodeoha,toʔono,0.06,0.18,0.38
+674-54_manmale-1,Tolaki,man/male,langgai,1,1,0.14285714285714285,Proto-Bungku-Tolaki,*langkai,0.0,0.0,0.14
+674-55_womanfemale-1,Tolaki,woman/female,tina,0,1,0.0,Bungku,tina,0.08,0.24,0.36
+674-56_child-1,Tolaki,child,ana,0,1,0.0,Mori,ana,0.0,0.24,0.44
+674-57_husband-1,Tolaki,husband,langgai,1,1,0.6666666666666666,Mori,tama,0.02,0.02,0.22
+674-58_wife-1,Tolaki,wife,tina,1,1,0.0,Kodeoha,sagina,0.04,0.16,0.42
+674-59_mother-1,Tolaki,mother,ina,0,1,0.0,Bahonsuai,ina,0.04,0.14,0.2
+674-60_father-1,Tolaki,father,ama,0,1,0.0,Mori,ama,0.04,0.22,0.22
+674-61_house-1,Tolaki,house,laika,1,1,0.5,Mori,raha,0.0,0.08,0.38
+674-62_thatchroof-1,Tolaki,thatch/roof,ato,0,1,0.0,Mori,ato,0.02,0.18,0.28
+674-63_name-1,Tolaki,name,tamo,1,1,0.0,Kodeoha,tamo,0.04,0.16,0.36
+674-64_tosay-1,Tolaki,to say,te'eni,1,1,0.3333333333333333,Koroni,koʔoni,0.02,0.1,0.24
+674-65_rope-1,Tolaki,rope,oloo,1,1,0.0,Kodeoha,oloo,0.08,0.14,0.32
+674-66_totieupfasten-1,Tolaki,"to tie up, fasten",onggo,1,1,0.6,Kulisusu,moŋkoo,0.0,0.0,0.14
+674-67_tosew-1,Tolaki,to sew,moseu,1,1,0.0,Mori,monseu,0.02,0.04,0.32
+674-68_needle-1,Tolaki,needle,seu,0,1,0.0,Mori,seu,0.02,0.04,0.14
+674-70_toshoot-1,Tolaki,to shoot,pana,0,1,0.0,Mori,mompana,0.06,0.22,0.42
+674-71_tostabpierce-1,Tolaki,"to stab, pierce",tobo,0,1,0.0,Mori,montobo,0.1,0.18,0.42
+674-72_tohit-1,Tolaki,to hit,toni,1,1,0.3333333333333333,Proto-Bungku-Tolaki,*kona,0.04,0.08,0.4
+674-73_tosteal-1,Tolaki,to steal,ponini,1,1,0.5714285714285714,Kulisusu,monseeβi,0.08,0.16,0.3
+674-74_tokill-1,Tolaki,to kill,pate,0,1,0.0,Taloki,pepate,0.08,0.16,0.22
+674-75_todiebedead-1,Tolaki,"to die, be dead",mate,0,1,0.0,Mori,mate,0.0,0.06,0.22
+674-76_tolivebealive-1,Tolaki,"to live, be alive",laa,1,1,0.6666666666666666,Proto-Bungku-Tolaki,*tora,0.02,0.12,0.36
+674-77_toscratch-1,Tolaki,to scratch,karu,0,1,0.0,Mori,mekaru,0.02,0.14,0.34
+674-78_tocuthack-1,Tolaki,"to cut, hack",pole'i,1,1,0.2,Mori,mompole,0.02,0.04,0.38
+674-78_tocuthack-2,Tolaki,"to cut, hack",pole,1,1,0.0,Mori,mompole,0.0,0.1,0.28
+674-79_stickwood-1,Tolaki,stick/wood,tangge,1,1,0.8,Proto-Bungku-Tolaki,*kayu,0.0,0.0,0.12
+674-80_tosplit-1,Tolaki,to split,wota,0,1,0.2,Proto-Bungku-Tolaki,*wotaQ,0.06,0.24,0.44
+674-81_sharp-1,Tolaki,sharp,monggaso,1,1,0.25,Mori,montaso,0.0,0.0,0.14
+674-83_towork-1,Tolaki,to work,mombaho,1,1,0.5714285714285714,Mori,mo'ŋga,0.04,0.1,0.4
+674-84_toplant-1,Tolaki,to plant,mombaho,1,1,0.14285714285714285,Mori,mompaho,0.02,0.06,0.42
+674-85_tochoose-1,Tolaki,to choose,mepili,1,1,0.2,Kulisusu,mompileʔi,0.04,0.14,0.26
+674-86_togrow-1,Tolaki,to grow,toro,1,1,0.75,Mori,tuwu,0.08,0.16,0.4
+674-87_toswell-1,Tolaki,to swell,kamba,0,1,0.0,Mori,kamba,0.12,0.16,0.4
+674-89_tohold-1,Tolaki,to hold,po'indi,1,1,0.2,Mori,moʔini,0.02,0.04,0.34
+674-90_todig-1,Tolaki,to dig,metanggali,1,1,0.875,Mori,moŋkelee,0.0,0.0,0.08
+674-91_tobuy-1,Tolaki,to buy,po'oli,1,1,0.0,Mori,moʔoli,0.02,0.14,0.38
+674-92_toopenuncover-1,Tolaki,"to open, uncover",hungga,1,1,0.75,Proto-Bungku-Tolaki,*wawaq,0.0,0.02,0.18
+674-93_topoundbeat-1,Tolaki,"to pound, beat",moaliali,1,1,0.625,Mori,moʔisa,0.0,0.02,0.3
+674-94_tothrow-1,Tolaki,to throw,kali,1,1,0.5,Mori,tumadio,0.1,0.28,0.38
+674-95_tofall-1,Tolaki,to fall,mo'isa,1,1,0.4,Kodeoha,mosia,0.02,0.1,0.42
+674-96_dog-1,Tolaki,dog,dahu,0,1,0.0,Mori,d|ahu,0.04,0.2,0.38
+674-97_bird-1,Tolaki,bird,manumanu,0,1,0.0,Mori,manu-manu,0.0,0.0,0.12
+674-98_egg-1,Tolaki,egg,ti'olu,1,1,0.0,Waru,tiʔolu,0.02,0.12,0.36
+674-99_feather-1,Tolaki,feather,wulumanumanu,1,1,0.6666666666666666,Mori,wulu,0.0,0.0,0.06
+674-100_wing-1,Tolaki,wing,kae,1,1,0.25,Kulisusu,kaβe,0.0,0.06,0.14
+674-101_tofly-1,Tolaki,to fly,lumaa,1,1,0.0,Bahonsuai,lumaa,0.06,0.14,0.46
+674-102_rat-1,Tolaki,rat,tehu,0,1,0.0,Mori,tehu,0.0,0.1,0.22
+674-102_rat-2,Tolaki,rat,rate,0,1,0.6,Waru (Lalomerui),tadike,0.02,0.2,0.34
+674-103_meatflesh-1,Tolaki,meat/flesh,ramo,1,1,0.0,Kodeoha,ramo,0.02,0.16,0.36
+674-104_fatgrease-1,Tolaki,fat/grease,taba,0,1,0.0,Mori,taba,0.1,0.24,0.42
+674-105_tail-1,Tolaki,tail,ekoro,1,1,0.5,Proto-Bungku-Tolaki,*ikuR,0.06,0.22,0.44
+674-106_snake-1,Tolaki,snake,ule,0,1,0.0,Mori,ule,0.04,0.14,0.24
+674-106_snake-2,Tolaki,snake,sao,0,1,0.0,Kodeoha,sao,0.0,0.02,0.18
+674-107_wormearthworm-1,Tolaki,worm (earthworm),uleule,1,1,0.625,Mori,ulekonda,0.02,0.18,0.34
+674-108_louse-1,Tolaki,louse,kutu,0,1,0.0,Mori,kutu,0.02,0.14,0.36
+674-109_mosquito-1,Tolaki,mosquito,buroto,0,1,0.0,Bungku (Torete),buroto,0.06,0.1,0.26
+674-110_spider-1,Tolaki,spider,kangga,0,1,0.14285714285714285,Proto-Bungku-Tolaki,*kangga°,0.0,0.04,0.26
+674-111_fish-1,Tolaki,fish,ika,0,1,0.0,Bungku,ika,0.0,0.12,0.16
+674-112_rotten-1,Tolaki,rotten,mowuho,0,1,0.5,Mori,moboo,0.0,0.1,0.44
+674-114_leaf-1,Tolaki,leaf,tawa,1,1,0.25,Kodeoha,taβa,0.08,0.26,0.4
+674-115_root-1,Tolaki,root,akara,1,1,0.3333333333333333,Mori,haka,0.06,0.22,0.46
+674-116_flower-1,Tolaki,flower,wulele,1,1,0.0,Bungku (Routa),βulele,0.04,0.14,0.24
+674-117_fruit-1,Tolaki,fruit,wua,0,1,0.0,Mori,wua[ŋkeu],0.0,0.06,0.18
+674-118_grass-1,Tolaki,grass,rembu,1,1,0.75,Mori,seko,0.02,0.1,0.16
+674-119_earthsoil-1,Tolaki,earth/soil,wuta,0,1,0.0,Kodeoha,βuta,0.06,0.18,0.34
+674-120_stone-1,Tolaki,stone,watu,0,1,0.0,Mori,watu,0.02,0.24,0.34
+674-121_sand-1,Tolaki,sand,one,0,1,0.0,Mori,one,0.04,0.16,0.34
+674-122_water-1,Tolaki,water,woi,1,1,0.0,Mori,uwoi,0.0,0.02,0.14
+674-123_toflow-1,Tolaki,to flow,lumaa,1,1,0.3333333333333333,Kulisusu,βaa,0.04,0.12,0.52
+674-124_sea-1,Tolaki,sea,tahi,0,1,0.0,Mori,tahi,0.02,0.18,0.3
+674-125_salt-1,Tolaki,salt,peanihi,1,1,0.4,Moronene,tahi,0.02,0.02,0.26
+674-126_lake-1,Tolaki,lake,rano,0,1,0.0,Mori,rano,0.02,0.26,0.6
+674-127_woodsforest-1,Tolaki,woods/forest,ahoma,1,1,0.5,Bungku,larombana,0.06,0.16,0.46
+674-128_sky-1,Tolaki,sky,lahuene,1,1,0.0,Bungku (Torete),lahuene,0.04,0.04,0.24
+674-129_moon-1,Tolaki,moon,wula,0,1,0.0,Mori,wula,0.06,0.1,0.22
+674-130_star-1,Tolaki,star,wotiti,1,1,0.0,Kodeoha,βotiti,0.02,0.16,0.4
+674-131_cloud-1,Tolaki,cloud,gowa,1,1,0.6666666666666666,Taloki,kaolu,0.04,0.1,0.22
+674-133_rain-1,Tolaki,rain,usa,0,1,0.0,Mori,usa,0.02,0.18,0.24
+674-135_lightning-1,Tolaki,lightning,kila,0,1,0.0,Kulisusu,kila,0.04,0.16,0.28
+674-136_wind-1,Tolaki,wind,pua,1,1,0.25,Proto-Bungku-Tolaki,*pua°,0.02,0.06,0.28
+674-137_toblow-1,Tolaki,to blow,mepua,1,1,0.42857142857142855,Mori,mepuuri,0.02,0.1,0.34
+674-138_warm-1,Tolaki,warm,mokula,1,1,0.0,Mori,mokula,0.06,0.16,0.42
+674-139_cold-1,Tolaki,cold,morini,1,1,0.0,Mori,morini,0.04,0.16,0.32
+674-140_dry-1,Tolaki,dry,mowatu,1,1,0.0,Kodeoha,moβatu,0.02,0.22,0.48
+674-141_wet-1,Tolaki,wet,meiwoi,1,1,0.6666666666666666,Proto-Bungku-Tolaki,*bahoq,0.0,0.0,0.36
+674-142_heavy-1,Tolaki,heavy,mobea,1,1,0.2,Kulisusu,moɓea,0.02,0.1,0.34
+674-143_fire-1,Tolaki,fire,api,0,1,0.0,Mori,api,0.0,0.16,0.24
+674-144_toburn-1,Tolaki,to burn,hunu,1,1,0.0,Kodeoha,modunu,0.04,0.14,0.22
+674-145_smoke-1,Tolaki,smoke,ahu,0,1,0.0,Mori,ahu,0.0,0.18,0.26
+674-146_ashes-1,Tolaki,ashes,awu,0,1,0.0,Mori,awu,0.04,0.18,0.26
+674-147_black-1,Tolaki,black,me'eto,1,1,0.0,Kodeoha,meʔeto,0.02,0.1,0.22
+674-148_white-1,Tolaki,white,mowila,1,1,0.0,Moronene,mopila,0.06,0.2,0.5
+674-149_red-1,Tolaki,red,momea,1,1,0.0,Bungku,momea,0.02,0.16,0.5
+674-150_yellow-1,Tolaki,yellow,mokuni,1,1,0.0,Mori,moŋkuni,0.02,0.1,0.32
+674-151_green-1,Tolaki,green,mo'osu,1,1,0.4,Bahonsuai,moʔuso,0.02,0.12,0.52
+674-152_small-1,Tolaki,small,mohewu,1,1,0.16666666666666666,Bungku,moheɸu,0.0,0.1,0.2
+674-153_big-1,Tolaki,big,wo'ose,1,1,0.0,Bungku,oɸose,0.02,0.06,0.3
+674-154_short-1,Tolaki,short,putu,1,1,0.0,Wiau,oputu,0.04,0.18,0.38
+674-155_long-1,Tolaki,long,mendaa,1,1,0.0,Kodeoha,medaa,0.06,0.14,0.46
+674-156_thin-1,Tolaki,thin,monipi,0,1,0.0,Mori,monipi,0.04,0.2,0.46
+674-157_thick-1,Tolaki,thick,mokapa,0,1,0.0,Mori,mokapa,0.08,0.22,0.5
+674-158_narrow-1,Tolaki,narrow,mohewu,1,1,0.5,Kulisusu,mosuku,0.02,0.12,0.26
+674-159_wide-1,Tolaki,wide,molua,1,1,0.0,Mori,malua,0.04,0.08,0.56
+674-160_painfulsick-1,Tolaki,"painful, sick",mohaki,1,1,0.0,Mori,mahaki,0.02,0.16,0.56
+674-161_shyashamed-1,Tolaki,"shy, ashamed",kohanu,1,1,0.3333333333333333,Mori,mokoʔau,0.04,0.24,0.42
+674-162_old-1,Tolaki,old,motu'o,1,1,0.0,Kodeoha,motuo,0.04,0.18,0.56
+674-163_new-1,Tolaki,new,wo'ohu,1,1,0.0,Mori,woʔohu,0.02,0.08,0.22
+674-164_good-1,Tolaki,good,meambo,1,1,0.0,Mori Atas (Doule),meambo,0.02,0.1,0.34
+674-165_badevil-1,Tolaki,"bad, evil",mosaa,1,1,0.2,Mori,mosa'o,0.08,0.12,0.46
+674-166_correcttrue-1,Tolaki,"correct, true",meara'i,1,1,0.6666666666666666,Mori,mentee,0.1,0.18,0.36
+674-167_night-1,Tolaki,night,wingi,1,1,0.25,Proto-Bungku-Tolaki,"*w(i,o)ngi°",0.02,0.02,0.26
+674-168_day-1,Tolaki,day,oleo,1,1,0.0,Proto-Bungku-Tolaki,*oleo,0.06,0.06,0.3
+674-169_year-1,Tolaki,year,tau,0,1,0.0,Mori,taʔu,0.0,0.06,0.24
+674-170_when-1,Tolaki,when?,teipia,0,1,0.0,Mori,teʔipia,0.02,0.08,0.32
+674-171_tohide-1,Tolaki,to hide,hi'i,1,1,0.6666666666666666,Mori,mewuni,0.0,0.02,0.16
+674-172_toclimb-1,Tolaki,to climb,momone,1,1,0.0,Kulisusu,moone,0.02,0.12,0.42
+674-174_ininside-1,Tolaki,"in, inside",i lalo,0,1,0.2,Kulisusu,i laro,0.04,0.26,0.48
+674-175_above-1,Tolaki,above,i wawo,1,1,0.0,Mori,i wawo[no],0.0,0.16,0.34
+674-176_below-1,Tolaki,below,i lolu,1,1,0.6,Mori,i toto[no],0.04,0.1,0.36
+674-177_this-1,Tolaki,this,inono,1,1,0.0,Bungku,riono,0.04,0.16,0.42
+674-178_that-1,Tolaki,that,nggitu'o,1,1,0.25,Kodeoha,ituu,0.04,0.04,0.1
+674-179_near-1,Tolaki,near,merambi,1,1,0.0,Mori Atas (Doule),merambi,0.04,0.04,0.26
+674-180_far-1,Tolaki,far,mondae,1,1,0.3333333333333333,Bungku,olae,0.06,0.12,0.42
+674-181_where-1,Tolaki,where?,humbee,1,1,0.0,Kodeoha,ubee,0.04,0.12,0.3
+674-182_i-1,Tolaki,I,inaku,1,1,0.0,Mori,aku [fut],0.04,0.18,0.44
+674-183_thou-1,Tolaki,thou,inggo'o,1,1,0.0,Kodeoha,igoo,0.0,0.08,0.22
+674-184_heshe-1,Tolaki,he/she,i'ia,1,1,0.3333333333333333,Bungku (Landawe),iaa,0.08,0.16,0.26
+674-184_heshe-2,Tolaki,he/she,ie'i,1,1,0.0,Waru (Lalomerui),ieʔi,0.0,0.06,0.12
+674-185_we-1,Tolaki,we,inggito,0,1,0.0,Kodeoha,igito,0.02,0.02,0.2
+674-185_we-2,Tolaki,we,inggami,0,1,0.0,Waru,iŋgami,0.02,0.04,0.3
+674-186_you-1,Tolaki,you,inggomiu,1,1,0.2,Mori,omiu,0.02,0.02,0.1
+674-187_they-1,Tolaki,they,mehira,1,1,0.0,Mori,ira,0.04,0.18,0.36
+674-187_they-2,Tolaki,they,mehiro,1,1,0.0,Kodeoha,ihiro,0.04,0.18,0.42
+674-188_what-1,Tolaki,what?,hawo,1,1,0.25,Kodeoha,hapo,0.02,0.14,0.32
+674-189_who-1,Tolaki,who?,inae,1,1,0.0,Bungku (Landawe),inae,0.04,0.16,0.38
+674-191_all-1,Tolaki,all,luwuako,1,1,0.0,Bungku (Landawe),luβuako,0.04,0.04,0.32
+674-192_and-1,Tolaki,and,ronga,1,1,0.8,Mori,ka,0.02,0.06,0.38
+674-193_if-1,Tolaki,if,mano,1,1,0.6666666666666666,Mori,tewala,0.04,0.2,0.34
+674-194_how-1,Tolaki,how?,mombake hawo,1,1,0.5,Kodeoha,tebekeka,0.0,0.0,0.04
+674-195_nonot-1,Tolaki,"no, not",oki,1,1,0.6666666666666666,Mori,nahi,0.0,0.1,0.14
+674-196_tocount-1,Tolaki,to count,do'a,1,1,0.0,Mori,modoa,0.0,0.04,0.08
+674-197_one-1,Tolaki,One,aso,0,1,0.0,Kodeoha,oaso,0.0,0.2,0.32
+674-198_two-1,Tolaki,Two,oruo,0,1,0.0,Kodeoha,oruo,0.06,0.08,0.36
+674-199_three-1,Tolaki,Three,tolu,0,1,0.0,Mori,otolu,0.02,0.12,0.34
+674-200_four-1,Tolaki,Four,omba,1,1,0.0,Mori Atas (Doule),oomba,0.06,0.16,0.42
+674-201_five-1,Tolaki,Five,limo,0,1,0.0,Mori,olimo,0.0,0.08,0.22
+674-202_six-1,Tolaki,Six,ono,0,1,0.0,Mori,ono,0.04,0.22,0.42
+674-203_seven-1,Tolaki,Seven,pitu,0,1,0.0,Proto-Bungku-Tolaki,*o-pitu,0.02,0.1,0.24
+674-204_eight-1,Tolaki,Eight,hoalu,1,1,0.0,Mori,hoalu,0.02,0.26,0.36
+674-205_nine-1,Tolaki,Nine,osio,0,1,0.0,Mori,osio,0.08,0.12,0.4
+674-206_ten-1,Tolaki,Ten,hopulo,1,1,0.0,Mori,hopulo,0.0,0.16,0.32
+674-207_twenty-1,Tolaki,Twenty,ruambulo,1,1,0.0,Tomadino,ruambulo,0.04,0.04,0.18
+674-208_fifty-1,Tolaki,Fifty,limambulo,1,1,0.3333333333333333,Kulisusu,limapulu,0.0,0.0,0.12
+674-209_onehundred-1,Tolaki,One Hundred,aso'etu,1,1,0.0,Mori,asoetu,0.06,0.12,0.26
+674-210_onethousand-1,Tolaki,One Thousand,aso-sou,1,1,0.14285714285714285,Kodeoha,asosoβu,0.02,0.02,0.28

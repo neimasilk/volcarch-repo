@@ -1,0 +1,17 @@
+language,group,n_forms,pct_candidate_label,mean_p,mean_p_coded_forms_only,pct_predicted_profile,auc_vs_own_label,published_mean_p,published_auc
+Bima,E.Indonesian,246,37.0,0.319,0.296,22.4,0.59,0.5367,0.6246
+Manggarai,E.Indonesian,235,32.8,0.217,0.189,10.2,0.595,0.5027,0.6968
+Banggai,Sulawesi,208,47.1,0.232,0.192,9.6,0.605,0.5788,0.6488
+Bantik,Sulawesi,233,28.3,0.317,0.272,21.9,0.691,0.6778,0.6806
+Bol.Mongondow,Sulawesi,228,24.6,0.229,0.242,11.4,0.427,0.2574,0.513
+Gorontalo,Sulawesi,215,33.0,0.414,0.4,30.7,0.556,0.7599,0.5666
+Kambowa,Sulawesi,211,74.4,0.32,0.234,23.2,0.692,0.6792,0.6975
+Kulisusu,Sulawesi,222,62.2,0.37,0.225,29.7,0.795,0.6332,0.8002
+Totoli,Sulawesi,227,55.1,0.255,0.194,12.3,0.704,0.5663,0.7373
+Uma,Sulawesi,242,74.8,0.33,0.176,20.2,0.787,0.6942,0.8389
+Acehnese,W.Indonesian,237,52.7,0.224,0.184,8.4,0.612,0.591,0.6181
+Balinese,W.Indonesian,294,31.3,0.229,0.21,14.3,0.56,0.5674,0.5894
+Javanese,W.Indonesian,217,23.0,0.204,0.187,11.5,0.635,0.2407,0.6442
+Malay,W.Indonesian,236,2.5,0.262,0.258,19.5,0.756,0.2396,0.737
+Sasak,W.Indonesian,267,34.8,0.172,0.156,6.0,0.582,0.5238,0.5789
+Sundanese,W.Indonesian,217,25.8,0.282,0.255,19.4,0.626,0.1923,0.6341

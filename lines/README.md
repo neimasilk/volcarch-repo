@@ -37,8 +37,8 @@ costs two files, not a migration.
 | **07** | [`07_career`](07_career/) | PhD, funding, exposure, HKI. *Not a research line.* | — | 0 | ✅ exposure ledger **empty** (2026-08-11) |
 
 Strikethrough = discontinued or parked; the folder and its record stay.
-**All 218 local experiments are mapped** (E001–E226; 8 numbers never created: E021, E045–E047,
-E072, E077, E180, E212). Counts sum above 218 because 18 experiments serve two lines.
+**All 220 local experiments are mapped** (E001–E228; 8 numbers never created: E021, E045–E047,
+E072, E077, E180, E212). Counts sum above 220 because 18 experiments serve two lines.
 The population-evidence channel (E053 → 02+06, E203 → 06) was a separate repo 2026-06-10 → 2026-09
 and was **re-merged 2026-10-01**; see `docs/COMPANION_REPOS.md`.
 Authoritative per-line lists: `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry".
@@ -49,7 +49,7 @@ Authoritative per-line lists: `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry".
 
 1. **A line folder never holds canonical content.** No manuscripts, no CSVs, no code. Pointers only.
    If you catch yourself copying a file into a line folder, stop — link it instead.
-2. **Experiment numbering stays global and flat.** `E226` is the next one regardless of line.
+2. **Experiment numbering stays global and flat.** `E229` is the next one regardless of line.
 3. **An experiment may belong to several lines.** Add it to `LINE_MAP` in
    `tools/scan_experiments.py` (primary line first) and re-run the script — it prints an
    **UNMAPPED** block if you forget, which is what stops this layer from going stale the way

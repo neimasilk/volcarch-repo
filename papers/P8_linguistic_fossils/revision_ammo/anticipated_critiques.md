@@ -1,3 +1,10 @@
+> ⛔ **DO NOT USE (flagged 2026-10-05, E227).** This file does not describe the submitted manuscript: the title is
+> different, the "six-language core" named in Critique 2 (Bare'e, Muna, Tolaki, Toba Batak, Ngaju Dayak, Manggarai) is
+> not the corpus of the paper (Muna, Bugis, Makasar, Wolio, Tae', Tolaki), and `E027b_substrate_expansion` and
+> `E036_hanacaraka_phonological` do not exist. Several of its "pre-computed responses" also repeat statements that
+> the audit found to be wrong (in-sample agreement, "fewer prefixes"). Kept only as a record.
+> Use `../REVISION_WORKPLAN.md`.
+
 # P8 Revision Support Material: Anticipated Critiques & Pre-Computed Responses
 
 **Paper:** "Detecting Pre-Austronesian Substrate Signals in Western Indonesian Languages Using Machine Learning"
