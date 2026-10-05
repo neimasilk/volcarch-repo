@@ -1,6 +1,13 @@
 # STATE — Line 07 CAREER & EXPOSURE
 
-**Updated:** 2026-10-02 · **Temperature:** ✅ LEDGER CLEARED — all four items done 2026-10-02
+**Updated:** 2026-10-05 · **Temperature:** 🟢 FIRST POSITIVE DECISION — P8 conditionally accepted; ledger otherwise clear
+
+> ## 🟢 2026-10-05 — P8 (*Oceanic Linguistics*) accepted pending revisions
+> Scorecard now: **0 final acceptances · 1 conditional (P8) · 7 rejected · 1 under review (P2) · 1 withdrawn (P17)**.
+> The exposure that matters next is the **revised P8 + response letter** (no deadline stated; gates G14/G15/G16 first) —
+> new ledger item 5 in `docs/WORKSTATE.md`. Plan: `papers/P8_linguistic_fossils/REVISION_OL_20261005.md`. The journal is Scimago
+> **Q2**, and the PI is first and corresponding author. Whether this article can count toward any special requirement for the
+> PI's next academic rank depends on a rule about dissertation-derived work; that bookkeeping lives in the PI's knowledge base, not here.
 
 > ## ✅ 2026-10-02 — ledger cleared (PI delegated: "silahkan dilakukan sesuai dengan rekomendasimu")
 > JCAA abstract reply sent 10:09 · VEGAN/BRIN email sent 10:11 · **P17 withdrawn** at ArchCalc 10:22 (portal) +

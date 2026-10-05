@@ -31,7 +31,7 @@ costs two files, not a migration.
 | **01** | [`01_spatial`](01_spatial/) | Where were the settlements, and can a model find them? | P2, P17, P11 | 78 | 🟢 COOLING — P2 resubmitted 2026-08-11; P11→SPAFA |
 | **02** | [`02_taphonomy`](02_taphonomy/) | Does volcanism actually destroy or hide the record? | P1, D2, ~~P7~~, ~~P3~~ | 47 | ⚠ carrying an unrepaired data defect |
 | **03** | [`03_paleoenv`](03_paleoenv/) | Can a paleo-environmental measurement *falsify* the thesis? | (E216 → VHA) | 3 | 🧊 blocked on palynologist co-author |
-| **04** | [`04_language_text`](04_language_text/) | What do language and texts preserve of the substrate? | P8, P9, P5, P19, ~~P16~~ | 62 | ⏳ P8 under review; P5 needs rewrite |
+| **04** | [`04_language_text`](04_language_text/) | What do language and texts preserve of the substrate? | P8, P9, P5, P19, ~~P16~~ | 62 | 🟢 P8 conditionally accepted (revision); P5 needs rewrite |
 | **05** | [`05_archival_nlp`](05_archival_nlp/) | What do colonial archives record, and can NLP extract it? | D1, P21 (+ HKI product) | 16 | 🔧 tooling done, pipeline unrun |
 | **06** | [`06_thesis`](06_thesis/) | The original question. Synthesis. | P0/MASTERPIECE, P18 | 30 | 🛑 **fallow — subtract-only** |
 | **07** | [`07_career`](07_career/) | PhD, funding, exposure, HKI. *Not a research line.* | — | 0 | ✅ exposure ledger **empty** (2026-08-11) |

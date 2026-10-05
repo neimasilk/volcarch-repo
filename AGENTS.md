@@ -44,7 +44,7 @@ for doing a line's work — enter the line for that.
 
 > ⚠ **The documented failure mode of this project is using orbit mode as an escape hatch:** step out
 > one level, find an interesting new topic, and don't send the email that is months overdue. 223
-> experiments, 0 acceptances, 7 rejections. The binding constraint is **non-exposure, not rigor**
+> experiments, 0 final acceptances (1 conditional: P8, 2026-10-05), 7 rejections. The binding constraint is **non-exposure, not rigor**
 > (ME#19, memory `feedback_non_exposure`). This is why `WORKSTATE.md` opens with the exposure ledger
 > and not with `IDEA_REGISTRY.md`.
 
@@ -63,6 +63,9 @@ for doing a line's work — enter the line for that.
   blind from raw data. Adopted 2026-06-08 after the P7/Antiquity rejection + E214 counter-evidence.
 - **F9:** do not count "N converging channels" as strength — the channels are correlated.
 - **F10:** do not cite `docs/drafts/manifesto.md` as evidence. It is a claim, not a source.
+- **Public-repo hygiene:** this repo is public. Never record portal links with personal tokens, passwords, or verbatim reviewer/editor text
+  (paraphrase; keep the originals in the PI's mailbox). Journal decisions go to `docs/WORKSTATE.md`, the line `STATE.md`, `JOURNAL.md`
+  and memory the same day; a revision follows the gates (G1, G14, G15, G16) and the PI writes the prose.
 
 ### Experiment Protocol
 - Numbered directory: `experiments/ENNN_short_name/`. **Numbering is global and flat** — never

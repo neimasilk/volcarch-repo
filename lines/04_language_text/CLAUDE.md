@@ -39,7 +39,7 @@ rather than reframe it. That was the right call and it should not be quietly rev
 
 | Paper | Folder | Status |
 |---|---|---|
-| **P8** Linguistic fossils | `papers/P8_linguistic_fossils/` | ⏳ **Under review** — *Oceanic Linguistics* (Q1), MS# **OL-03-2026-11**, submitted 2026-03-11. arXiv preprint live: **arXiv:2604.00023** (cs.CL, CC BY 4.0). Co-authors: Amien + Go Frendi. **WAIT — do not touch the manuscript.** |
+| **P8** Linguistic fossils | `papers/P8_linguistic_fossils/` | 🟢 **Conditionally accepted (2026-10-05)** — *Oceanic Linguistics* (Scimago **Q2**), MS# **OL-03-2026-11**, submitted 2026-03-11. arXiv preprint live: **arXiv:2604.00023** (cs.CL, CC BY 4.0). Authors: Amien (first, corresponding) + Go Frendi. **Revision phase:** work from `papers/P8_linguistic_fossils/REVISION_OL_20261005.md`; reviewed text = `draft_v0.1_anonymous.*`; gates G1/G14/G15/G16 apply; no arXiv v2 before the PI decides. |
 | **P5** Volcanic ritual clock | `papers/P5_volcanic_ritual_clock/` | Rejected by *BKI*. Retarget **Asian Ethnology** (Nanzan U, **zero APC**, Scopus Q2) with a humanities reframe: *indigenous knowledge resilience*. Strategy doc ready; **full rewrite was scheduled for ~June 2026 and is overdue.** |
 | **P9** Peripheral conservatism | `papers/P9_peripheral_conservatism/` | Rejected by *JSEAS*. HOLD until P2/P8 resolve → then DHQ. Compile chain differs: **`pdflatex → biber → pdflatex ×2`** (biblatex). |
 | **P19** Before the inscriptions | `papers/P19_before_the_inscriptions/` | Proposal stage. |
@@ -90,7 +90,9 @@ LingPy 2.6.13.
    why P16 is parked; do not produce a claim that could not survive the same test.
 3. **Do not count channels.** F9 applies with force here — the linguistic channels share corpora and
    are correlated.
-4. **P8 is live at a journal.** No edits to its manuscript, no new preprint versions, until the
-   decision lands.
+4. **P8 is in revision at a journal (conditional acceptance, 2026-10-05).** Edit only in a separate revision
+   copy, under the gates (G1 blind re-derivation, G14 14-day freeze, G15 fee check, G16 the PI's own prose);
+   no new preprint version before the PI decides; never reword a central critique instead of analysing it.
+   Reference list entries that came from reviewers must be read by the PI before they are cited.
 5. Note the compile chains: P9 uses **biber**; P1/P2/P11 use **bibtex**. Mixing them silently
    produces an empty bibliography.

@@ -9934,3 +9934,19 @@ ditulis sebagai paper dataset dan kemungkinan ditolak di meja editor — pola ya
 Handoff ditulis ulang utuh (`docs/HANDOFF_20261002.md`). Skrip email/portal dipindah dari scratchpad ke
 `tools/mail/` (profil browser di-gitignore). Satu draf Gmail sisa mode inspeksi (duplikat email Nastiti)
 ditemukan PI dan dihapus. Tidak ada pekerjaan setengah jalan.
+
+## 2026-10-05 (sore) — P8: Oceanic Linguistics conditional acceptance recorded
+
+- **Decision:** *Oceanic Linguistics* OL-03-2026-11 — accepted pending revisions (editor Sander Adelaar, 14:17 WIB). Not final; no deadline stated;
+  the editors ask for extra attention to readability, Section 3 above all. First positive decision of the series (scorecard: 0 final acceptances, 1 conditional).
+- **Reviewers:** R1 (specialist in Sulawesi languages) 14 points; R2 24 highlights in the annotated PDF (read 2026-10-05). All paraphrased in
+  `papers/P8_linguistic_fossils/REVISION_OL_20261005.md` (public repo: no verbatim reviewer text, no portal link).
+- **Verified:** the reviewed PDF (37 pp) equals `draft_v0.1_anonymous.pdf` (31 pp) at word-sequence similarity 0.9991 (only repeated figure captions differ).
+  Journal quartile corrected to Scimago **Q2** (SJR 2024 0.212; Q1 only 2008 and 2022) from a web summary — Scimago page itself returned 403, verify manually.
+- **Corrections to earlier records:** "Oceanic Linguistics (Q1)" in `lines/04_language_text/CLAUDE.md` and `papers/P8_linguistic_fossils/SUBMISSION_CHECKLIST.md` → Q2;
+  line-04 rule "no edits until the decision lands" → revision-phase rule (separate copy, gates, no arXiv v2 before the PI decides).
+- **Gates that bind the revision:** G1 (two reviewer points need analysis, not rewording: Makasar vs a published 62 % figure; glottal-stop orthography), G14, G15 (fee check URL/date), G16 (PI's prose).
+- **Record updates:** `docs/WORKSTATE.md` (scorecard, ledger item 5, §2/§3/§4/§5), `lines/04_language_text/{STATE,CLAUDE}.md`, `lines/07_career/STATE.md`, `lines/README.md`,
+  `CLAUDE.md` + `AGENTS.md` (scorecard + public-repo hygiene rule), `docs/HANDOFF_20261002.md` (addendum), memory (`project_p8_oceanic_linguistics.md`, index lines).
+- **Tooling note:** the Gmail connector could not return the decision email (too large); the attachment was fetched in the browser session (`fetch(...view=att)` → base64 → decode) and read with PyMuPDF `page.annots()`.
+- **Not done:** any analysis, any manuscript edit, any push to the public remote (left to the PI).

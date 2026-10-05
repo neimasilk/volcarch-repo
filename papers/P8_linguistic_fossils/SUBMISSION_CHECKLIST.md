@@ -1,5 +1,8 @@
 # P8 Submission Checklist — Oceanic Linguistics
 
+> **2026-10-05 correction:** the journal is Scimago **Q2**, not Q1 (as written below); and the paper was **conditionally accepted** on
+> 2026-10-05 → see `REVISION_OL_20261005.md`. The rest of this file is the March submission record and is left as written.
+
 **Target:** Oceanic Linguistics (University of Hawai'i Press, Q1)
 **Submission Portal:** https://oceaniclinguistics.msubmit.net/cgi-bin/main.plex
 **Editor:** Alexander Adelaar (University of Melbourne / Palacky University Olomouc)

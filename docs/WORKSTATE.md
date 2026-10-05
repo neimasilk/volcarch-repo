@@ -1,7 +1,13 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-02 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-05 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
+
+> ## 🟢 2026-10-05 — P8 conditionally accepted (*Oceanic Linguistics*, OL-03-2026-11)
+> Editor Sander Adelaar, 14:17 WIB: **accepted pending revisions** — not final; **no deadline stated**; editors ask extra care for readability (Section 3).
+> R1 (Sulawesi specialist) 14 points, R2 24 highlights; mostly wording, terms and explanations; two items need analysis
+> (Makasar vs a published 62 % figure; glottal-stop orthography) plus a data-release request. Journal = Scimago **Q2**.
+> **Ledger, gates, order of work: `papers/P8_linguistic_fossils/REVISION_OL_20261005.md`.** Reviewed text verified = `draft_v0.1_anonymous.*`.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >
@@ -39,11 +45,13 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 | ~~3~~ | ✅ **SENT 2026-10-02 10:11** to niamarniatief@yahoo.com (author address, *Naditira Widya* 2018). ~~Send the outreach email to BRIN's VEGAN group~~ (phytolith/starch/pollen; head Nia Marniati Etie Fajari). Replaces the Vida draft (both its questions are answered publicly); Castillo held as a reserve (UCL post likely lapsed). v1 drafts withdrawn | 2026-10-01 | `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md` (find the address on the VEGAN page; fallback praps@brin.go.id); old v2 files kept for the record |
 | ~~4~~ | ✅ **POSTED 2026-10-02 10:28** (metadata edit, same DOI/file, verified on public API). ~~Post the P1 preprint correction on Zenodo~~ (mandatory; public record states the inverted E069 claim and a "Java-wide taphonomic baseline" from assumed burial-start dates). Zenodo allows editing; ~15 min | 2026-10-01 | `docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md` (verbatim quotes) |
 
+| 5 | **P8 revision → response letter → resubmit** at OL (conditional acceptance 2026-10-05). Claude prepares the analyses and checks; **the PI writes the revised prose and the response letter (G16)**; then G14 freeze (14 days) + G1 re-run + G15 fee check (URL/date) | 2026-10-05 (plan) | `papers/P8_linguistic_fossils/REVISION_OL_20261005.md` · OL portal link is in the decision email (not recorded here: public repo) |
+
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
-**Scorecard: 0 acceptances · 7 rejections · 2 under review (P2, P8) · 1 withdrawn (P17, 2026-10-02) · 218 experiments** (218 folder lokal, E001–E226; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt).
+**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05) · 7 rejections · 1 under review (P2) · 1 withdrawn (P17, 2026-10-02) · 218 experiments** (218 folder lokal, E001–E226; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt).
 **2026-10-02: all four ledger items done** (JCAA reply, VEGAN email, P17 withdrawal, Zenodo notice). Ledger is
-empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P8** (OL) — no email since 10 Aug.
+empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P8** (OL) — **decision 2026-10-05: accepted pending revisions** (ledger item 5).
 
 ---
 
@@ -51,7 +59,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | Deadline | Item |
 |---|---|
-| — | No hard external deadline. The JCAA editor's request (31 Aug) is the most time-sensitive item. |
+| — | No hard external deadline. The JCAA editor's request (31 Aug) is the most time-sensitive item. **P8 revision: no deadline stated** (2026-10-05); ask the editor only if one is needed. |
 | Dec 2026 | Edinburgh PhD window — **subject to the PI's current PhD plan** (PI-owned; may no longer apply) |
 
 ---
@@ -63,7 +71,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 | **01** | [spatial](../lines/01_spatial/STATE.md) | 🟡 WAITING | P2 in round-2 review (abstract reply sent 10-02) · P17 withdrawn 10-02 · **P11 NO-GO** → reframe = PI | PI + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | Verify C024–C030 one by one; **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
-| **04** | [language_text](../lines/04_language_text/STATE.md) | ⏳ WAITING | P8 under review; P5 rewrite or PARKED.md (C018, overdue) | Claude |
+| **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 REVISION | **P8 conditionally accepted 10-05** → analyses + checks for the revision (PI writes the prose); P5 rewrite or PARKED.md (C018, overdue) | PI + Claude |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🅿 E226 REVISIT | **E226 (T7) parked 10-02**: frame of 266 villages built; I1 identifications 11/170 → unpark needs Kusen 1990/91 / Resiyani 2010 lists. Next when warm: T2 or E211 | Claude |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Objective answer written (subtract-only). L1 amendments await PI (§4) | PI |
 | **07** | [career](../lines/07_career/STATE.md) | ✅ LEDGER CLEARED 10-02 | waiting on journals (P2, P8) | — |
@@ -77,7 +85,9 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 (diagnosis: 10 submissions in 35 days, 6/7 rejections at the desk). **DECIDED same day (PI delegated):** SIG gates
 G13–G16 binding (WIP ≤2 in review / 1 drafting; rest ≥14 days; venue first + zero cost of any kind; PI's own prose);
 G10 human domain reader required for archaeology venues; domain co-author by default there; **Naskah A (P23, sīma
-village toponyms) first**. G13 is full now (P2, P8 in review) → no new submission until a decision arrives.
+village toponyms) first**. G13 was full (P2, P8 in review) → no new submission until a decision arrives. **2026-10-05:** P8's
+decision arrived (conditional). Whether a manuscript in revision still occupies a G13 slot is undefined; the conservative reading is
+yes (P23 stays blocked) — **PI call**.
 
 **Urgent (one sitting, each prepared):** the three §1 actions.
 
@@ -125,7 +135,7 @@ DJKI HKI filing (4 docs ready) · dashboard model regeneration on the 30-volcano
 |---|---|---|
 | **P2** Settlement model | 01 | ⏳ **round-2 review at JCAA #280 since 2026-08-31.** Title corrected by the editor; **abstract reply owed** (§1 item 1). Claim set: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. |
 | **P17** Two Javas | 01 | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365; never left the submission stage). Central result = geocoding artefact (C032); second result (929 CE shift) rides on the same points. Record: `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`. A methods paper on the artefact is possible later (not planned). |
-| **P8** Linguistic fossils | 04 | ⏳ under review — *Oceanic Linguistics* OL-03-2026-11 (since 2026-03-11). |
+| **P8** Linguistic fossils | 04 | 🟢 **conditionally accepted 2026-10-05** — *Oceanic Linguistics* (Scimago Q2) OL-03-2026-11; revision pending, no deadline. Amien first + corresponding. Plan: `papers/P8_linguistic_fossils/REVISION_OL_20261005.md`. |
 | **P23** sīma village toponyms (Naskah A) | 05 | 📝 PLANNING (2026-10-02) — critical case study (toponym resolution is the bottleneck) from E226's frame → **DHQ "Case Study"** (no fees; JDMDH backup). Needs human validation of a sample (epigrapher asked: Nastiti, 13:55). Drafting allowed; submission blocked by G13 until P2 or P8 decides. `papers/P23_sima_village_toponyms/README.md` |
 | **P11** Volcanic informedness | 01 | 🔴 **NO-GO 2026-10-01** — western-flank claim is a Penanggungan pattern (p=0.26 without it); 39/142 duplicate candi; docx lacks abstracts; E069 claim already removed (v0.8). Rework queued; reframe = PI. `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. Rejected 2× before (editorial). |
 | **P1** Taphonomic framework | 02 | rejected 2×. Current manuscript **v5.0 → *Archaeological Research in Asia*** (per `CANONICAL.md`; the E069 passage was already deleted there; superseded JASREP v4.0 corrected anyway). v5.0 still reports the 4.4 mm/yr "baseline" → **C024 audit before submission**. Public preprint needs the correction notice (§4). |
