@@ -37,6 +37,20 @@
 >      expected by chance). Nothing on origin.
 >   5. **Cross-list test:** among uncoded forms a small excess of similarity; the coded class is not examined, so neither
 >      "a shared layer" nor "no large shared layer" follows. Inside and outside South Sulawesi are not distinguishable.
+> - **Web round, afternoon (PI: "do what a browser can do").** The source of the Makasar 38 % was found and read: it is
+>   Blust's (1981a) lexicostatistical count, quoted by Bellwood 1997: 115 beside a Western Malayo-Polynesian mean of 41 %
+>   — the same tradition as ABVD's coding, so not an independent confirmation, and not a low figure. A more independent
+>   comparator was read too: Sirk 1989, Table 1 (Makasar–Bugis 45, Makasar–Sa'dan 42, Bugis–Sa'dan 60; ABVD shared sets
+>   41 / 39 / 53). Six of the reviewer's eight references fetched with the exact pages (Mills's claim is on pp. 491–492,
+>   not 341–342); a source for the AUC scale and one saying such labels are arbitrary; candidates for R2-1; the journal's
+>   template (optional) and instructions (silent on revised manuscripts → three questions for the editor). All in
+>   `papers/P8_linguistic_fossils/REFERENCE_CHECK_20261005.md` **Part D**, `VENUE.md` and work plan §10.8; private copies in
+>   `data/raw/literature_cache/p8_refs/` (git-ignored). Still to do for Makasar: the PI reads three pages. Waiting on the
+>   PI's logins — **done the same afternoon** for arXiv, the journal's portal and JSTOR (work plan §10.8): arXiv offers no
+>   way to change a paper password → **support request sent 14:14** (help@arxiv.org; waiting for the reply); the portal shows no due date,
+>   and its record of the abstract and keywords must be rewritten at resubmission; Sneddon 1993: 2 read (nine microgroups
+>   plus Banggai). No Project MUSE access → Blust 2012 stays unread and uncited. **Figure 1 redrawn** to the press's image guidelines
+>   (E229 amendment A9: Arial, 1,000 dpi greyscale TIFF; values unchanged).
 > - **Files corrected:** the outline (every item separates *measured* from *reading*; §0 and §6 are a proposed argument);
 >   the work plan (§10.7 rewritten; cells in §1, §3, §4, §5, §6, §8, §10.3 edited in place); the editor note (fact list in
 >   Indonesian; the Makasar sentence held; "fewer prefixes" withdrawn without announcing "more"); READMEs of E227–E231; an

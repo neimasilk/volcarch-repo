@@ -479,7 +479,10 @@ T7.to_csv(OUT / "T7_examples_R1-11.csv", index=False, encoding="utf-8")
 F1.to_csv(OUT / "F1_input_importance.csv", index=False, encoding="utf-8")
 
 # ------------------------------------------------------------------------------------------- figure
-plt.rcParams["font.family"] = "DejaVu Sans"     # has the glottal-stop glyph and the arrows
+# Amendment A9 (2026-10-06): the press's image guidelines recommend Arial / Times-type fonts at 9 pt, ask for line art
+# as TIFF at 1,000 dpi (LZW) in greyscale mode, and want tints between 15 and 85 %. Arial has ʔ, ŋ and the arrows.
+# Tick labels are 8 pt (the journal's own table size): 25 labelled rows do not fit at 9 pt in a figure 312 pt wide.
+plt.rcParams["font.family"] = "Arial"
 plt.rcParams["pdf.fonttype"] = 42
 # Amendment A3: the journal's template limits a figure to 26 picas (312 pt = 4.33 in) and asks for .jpg/.tiff,
 # so the figure is drawn at that width (type stays legible without rescaling) and also saved as TIFF.
@@ -490,14 +493,14 @@ fill = {"written form": "0.30", "meaning": "0.82"}
 ax.barh(range(len(d)), d.mean_abs_shap, color=[fill[g] for g in d.group], edgecolor="black", linewidth=0.5, height=0.72)
 ax.set_yticks(range(len(d)))
 # long labels (amendment A8) are wrapped so that the plotting area keeps its width at 312 pt
-ax.set_yticklabels([textwrap.fill(t, 31) for t in d.label], fontsize=6.5, linespacing=0.9)
+ax.set_yticklabels([textwrap.fill(t, 34) for t in d.label], fontsize=8, linespacing=0.9)
 xmax = d.mean_abs_shap.max()
 for i, r in d.iterrows():
-    ax.text(r.mean_abs_shap + xmax * 0.02, i, r.direction, va="center", ha="left", fontsize=8, fontweight="bold")
+    ax.text(r.mean_abs_shap + xmax * 0.02, i, r.direction, va="center", ha="left", fontsize=9, fontweight="bold")
 ax.set_xlim(0, xmax * 1.14)
 # wrapped: at the journal width a one-line axis label runs off the figure (seen in the first rendering)
-ax.set_xlabel(textwrap.fill(LAB["fig1_axis_x"], 44), fontsize=7)
-ax.tick_params(axis="x", labelsize=7)
+ax.set_xlabel(textwrap.fill(LAB["fig1_axis_x"], 34), fontsize=9)
+ax.tick_params(axis="x", labelsize=8)
 ax.tick_params(axis="y", length=0)
 for sp in ("top", "right"):
     ax.spines[sp].set_visible(False)
@@ -507,13 +510,21 @@ handles = [plt.Rectangle((0, 0), 1, 1, facecolor=fill["written form"], edgecolor
            plt.Line2D([], [], linestyle="none"), plt.Line2D([], [], linestyle="none"), plt.Line2D([], [], linestyle="none")]
 # The legend is as wide as the plotting area at the journal's width, so anywhere inside the axes it covers bars or
 # direction marks (seen in two renderings); it goes below the axis instead.
-fig.tight_layout(pad=0.4, rect=[0, 0.105, 1, 1])
+fig.tight_layout(pad=0.4, rect=[0, 0.125, 1, 1])
 fig.legend(handles, [LAB["fig1_legend_form"], LAB["fig1_legend_meaning"], LAB["fig1_legend_up"], LAB["fig1_legend_down"],
                      LAB["fig1_legend_none"]],
-           loc="lower center", fontsize=6.5, frameon=False, handlelength=1.3, borderaxespad=0.1, labelspacing=0.35)
+           loc="lower center", fontsize=8, frameon=False, handlelength=1.3, borderaxespad=0.1, labelspacing=0.3)
 fig.savefig(OUT / "F1_input_importance.png", dpi=600)
 fig.savefig(OUT / "F1_input_importance.pdf")
-fig.savefig(OUT / "F1_input_importance.tif", dpi=600, pil_kwargs={"compression": "tiff_lzw"})
+# TIFF for the journal: 1,000 dpi, 8-bit greyscale without alpha channel, LZW (amendment A9)
+import io as _io
+from PIL import Image as _Image
+_buf = _io.BytesIO()
+fig.savefig(_buf, format="png", dpi=1000)
+_buf.seek(0)
+_im = _Image.open(_buf).convert("RGBA")
+_bg = _Image.new("RGBA", _im.size, (255, 255, 255, 255))
+_Image.alpha_composite(_bg, _im).convert("L").save(OUT / "F1_input_importance.tif", compression="tiff_lzw", dpi=(1000, 1000))
 plt.close(fig)
 
 # ------------------------------------------------------------------------------------ LaTeX fragments

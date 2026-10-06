@@ -66,7 +66,9 @@ tidak tertulis di mana pun (G15).
 6. **Ukurannya, sebatas yang pasti:** gambar dari empat menjadi satu; bagian konsensus, pengelompokan, *ablation* dan
    ekspansi geografis hilang; §4.5 (aksara Jawa) dibuang *(hanya bila D6 dikukuhkan)*. **Jangan** menjanjikan "lebih
    pendek" sebelum naskah barunya ada.
-7. **Yang ditambahkan:** untuk pertanyaan reviewer 1 tentang Makasar dan Tolaki ada hitungan dari data. Tolaki: 71
+7. **Yang ditambahkan:** untuk pertanyaan reviewer 1 tentang Makasar dan Tolaki ada hitungan dari data. *(Sumber angka
+   38 persen sudah ditemukan 2026-10-06: hitungan Blust yang dikutip Bellwood 1997:115 — `REFERENCE_CHECK` Bagian D;
+   kalimat Makasar tetap ditahan sampai PI membaca halamannya.)* Tolaki: 71
    persen bentuk tanpa kode punya padanan semakna di dalam Bungku–Tolaki (10,5 persen karena kebetulan; saringan
    mekanis, bukan etimologi; tidak berkata apa-apa tentang asal-usul). Makasar: ⚠ **kalimatnya ditahan** sampai PI
    membaca sumber angka 38 persen (`REVISION_WORKPLAN.md` §10.7) — yang pasti hanya bahwa Makasar punya lebih banyak
@@ -80,7 +82,13 @@ tidak tertulis di mana pun (G15).
    didaftar di bagian tersendiri surat tanggapan — atau editor menghendaki prosedur lain (misalnya dilihat lagi oleh
    reviewer)? Penulis mengikuti mana pun.
 10. **Pertanyaan praktis:** adakah biaya bagi penulis (halaman, gambar berwarna, atau lain)? Penulis tidak mengambil
-    opsi akses terbuka berbayar.
+    opsi akses terbuka berbayar. Dan tiga hal yang tidak dijawab petunjuk jurnal (dicek 2026-10-06): apakah naskah
+    revisi tetap anonim; apakah diminta versi dengan perubahan terlacak di samping versi bersih; apakah surat
+    tanggapan diunggah sebagai berkas tersendiri di portal. *(Halaman "revisi" di portal dibaca 2026-10-06 dan **tidak**
+    menjawabnya: jenis berkas yang tersedia hanya Author Cover Letter, Article File, Figure, Table, Supplemental
+    Material — jadi tanyakan surat tanggapan masuk sebagai yang mana.)*
+    **Saluran:** petunjuk portal menyebut "Send Manuscript Correspondence" di halaman naskah (ke Editorial Assistant;
+    ada CAPTCHA, jadi PI mengirim sendiri) untuk naskah yang sedang berjalan; membalas email keputusan juga sah.
 
 ## B. Kerangka paragraf (isi tiap paragraf; kalimatnya milik PI)
 

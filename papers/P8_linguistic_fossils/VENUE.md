@@ -104,3 +104,42 @@ the HAL and ANU copies of some of them (access denied or damaged file); the 2006
 extracted); the submission portal behind login; first names and full author lists for Billings et al., Chen et al.,
 He and Sagart (surnames from Crossref only). The points of §1 without ✔ rest on the readers' extraction of the
 template and of the two guides and were not re-read by the orchestrator.
+
+---
+
+## Additions of 2026-10-06, afternoon (second look at the journal's pages; files in the git-ignored cache `data/raw/literature_cache/p8_web/`)
+
+Source: https://uhpress.hawaii.edu/title/ol/ (the Instructions for Contributors are printed on the page itself), the
+template `OL-template-1.dotx` (https://uhpress.hawaii.edu/wp-content/uploads/2023/06/OL-template-1.dotx, 97,024 bytes,
+last modified 2023-06-16), the copy-editor's stylesheet of 2017 and the press's general author guidelines. Read by a
+Sonnet agent; the sentence on the template checked by the orchestrator in the template's own text.
+
+- **The template is optional.** Its own text: authors are not required to use it, but articles that conform appear
+  online as a pre-release ahead of print; those who did not use it at submission may implement it on acceptance. (The
+  final file must still be Word: `.docx` or `.odt`. The page also keeps an old paragraph asking for RTF and a PDF "for
+  hard copy" — ask the editor whether a PDF copy is wanted.)
+- **Nothing is said about revised manuscripts**: tracked changes or a clean copy, where the response letter goes, figure
+  and table files at revision, or whether the revision stays anonymous (the template says name and affiliation are left
+  out of initial submissions and supplied once an article "has been accepted"; a conditional acceptance is neither).
+  → three practical questions for the editor (added to the note's item A10).
+- Template: page 432 × 648 pt; body 10 pt, abstract and reference list 9 pt, tables and footnotes 8 pt; 34 paragraph
+  styles named "OL …" (article title, abstract, heading A–D level, text, text indented, example lines, caption, table
+  contents, footnote, reference list). Keywords in the abstract style.
+- House style not noted before: language-name abbreviations in small capitals (PAN, PMP — this file wrote "PAn");
+  non-standard abbreviations in an early note; "et al." only for more than three authors; no "p."/"pp."; inclusive
+  numbers abbreviated (101–8); thousands with a comma; "e.g.", "i.e." only in notes or parentheses; table notes in the
+  order † ‡ # § ‖ ¶, never an asterisk; protoforms in roman type.
+- Figures (press-wide guidelines, generic): TIFF, EPS or PDF preferred; 300 dpi for halftones, **1,000 dpi for line
+  art**; fonts embedded, **9 pt, Arial / Courier / Symbol / Times**; colour printed black-and-white unless arranged;
+  captions at the end of the text, not in the image. `E229 …/F1_input_importance.tif` was **redrawn the same afternoon**
+  (E229 amendment A9): Arial, 1,000 dpi, 8-bit greyscale, LZW, 312 pt wide; tick labels and legend at 8 pt rather than
+  the recommended 9 pt (25 labelled rows do not fit otherwise — the PI may shorten labels or show fewer inputs instead).
+- **Fees: no statement found, a second time** (journal page, instructions, template, stylesheet, press pages on author
+  guidelines, open access, ethics, subscriptions, policies). G15 stays open until the editor answers.
+
+**Portal (read on 2026-10-06 in the PI's logged-in session; nothing submitted).** Revision = four steps (Files, Manuscript
+Information, Validate, Submit). File types: Author Cover Letter, Article File, Figure, Table, Supplemental Material.
+Figures as separate files. No due date is shown for the revision. The manuscript record holds the submitted abstract,
+running title, keywords and subject areas — **they have to be updated at resubmission**. Questions about a submission in
+progress go through "Send Manuscript Correspondence" on the manuscript page (to the Editorial Assistant). The portal's
+author instructions are the web page's text; nothing on revisions or fees.

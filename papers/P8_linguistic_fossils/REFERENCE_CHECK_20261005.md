@@ -129,3 +129,64 @@ Only way to get a definite answer: ask the editor at oceanicl@hawaii.edu (addres
 - Whether Bellwood 1997, p. 115 really states the 38 percent cognate figure (I relied on A4's own citation; I did not open the book).
 - The manuscript's claim attributed to casparis1975 (Hanacaraka "33 to 20 aksara") and the use of himmelmann2005 for the claim that Sulawesi languages "share a deep geographic co-existence": I checked that the works exist, not that they support those sentences.
 - Project MUSE record pages (robot challenge, not bypassed): used Crossref, ANU research portal and the article PDF instead.
+
+---
+
+## Part D - sources fetched and read on 2026-10-06 (reading list for the PI)
+
+Fetched by plain HTTP from open-access or author/institution-hosted copies; no login, no paywall bypass. The files are
+in `data/raw/literature_cache/p8_refs/` and `…/p8_web/` (**git-ignored: private reading copies, not redistributed**;
+`p8_refs/pages_for_PI/` holds extracts of just the pages below). "Read by" says who opened the page: **O** = the
+orchestrator looked at the page itself; **A** = a Sonnet agent read it and the orchestrator spot-checked a phrase;
+**a** = agent only. Paraphrases, not quotations. **None of this replaces the PI's own reading before a work is cited.**
+
+### D1. The reviewer's eight references
+
+| Work | Copy | Pages (printed = PDF) | What the pages say | Read by | Supports the reviewer's point? |
+|---|---|---|---|---|---|
+| Bellwood 1997, rev. ed. (ANU E Press reprint 2007, open access, same pagination) | `bellwood2007_ch04_languages.pdf` (chapter 4; scan, no text layer); https://press-files.anu.edu.au/downloads/press/p80041/pdf/ch0472.pdf | 115 = PDF 20 | **The source of the 38 %.** Blust (1981a) compared 62 Austronesian languages outside Taiwan with a reconstructed 200-word list for Proto-Malayo-Polynesian. Western Malayo-Polynesian languages retain 41 % on average: Malay 59, Minangkabau 50, Tagalog 46, **Makassarese 38**, Sundanese 35; Yogyakarta Javanese 30; Oceanic 25 on average | **O** | The figure is there. It is not presented as low: three points under the group average, above Sundanese and Javanese. The step to "62 % open to investigation as pre-Austronesian" is Bulbeck et al.'s, not Bellwood's |
+| Bulbeck, Pasqua & Di Lello 2000 | ScholarSpace https://hdl.handle.net/10125/17135 (open access); `p8_web/t4/` | 103 | The passage the reviewer quotes: 38 % retention (citing Bellwood 1997: 115), the remaining 62 % "open to investigation" as borrowings from pre-Austronesian languages, much of it possibly Toalean | A (same passage as in the decision letter) | Yes — offered by its authors as a possibility |
+| Blust 2013 (open access) | `blust2013_austronesian_languages.pdf` | 82 = PDF 124; 193 = PDF 235; **340-341 = PDF 382-383**; 233-234 | pp. 340-341 (§5.10.1): retention of reconstructed PMP basic vocabulary ranges from 58 % (Malay) to about 5 % (Kaulong); mean by subgroup WMP 40.5, CMP 38.9, SHWNG 25.6, Oceanic 23.6. No figure for Makasarese or Buginese anywhere in the book (whole PDF searched). pp. 82, 193 reconfirmed | **O** for p. 341; A | — (context for the 38 %) |
+| Sirk 1989 | `sirk1989_south_sulawesi_evidential_basis.pdf` (scan) | 55-82 = PDF 1-28; **Table 1 on p. 71 = PDF 17** | Lexicostatistical percentages: Makasar-Bugis 45, Makasar-Sa'dan 42, **Bugis-Sa'dan 60**; Makasar-Mandar 37, Bugis-Mandar 54, Sa'dan-Mandar 61; Makasar with Konjo 74 and Selayar 69. He nevertheless keeps Makasar in the South Sulawesi group on qualitative evidence (p. 75, agent) | **O** for Table 1; a for p. 75 | Partly: Makasar is the outlier in his counts; he does not remove it from the group |
+| Mills 1975 (PhD dissertation, Michigan) | `mills1975_dissertation_proto_south_sulawesi_oxis.pdf` (ProQuest reproduction with OCR, hosted on the OXIS site; marked "further reproduction prohibited") | 341-342 = PDF 354-355; **491-492 = PDF 505-506**; 513-514 = PDF 527-528 | **pp. 341-342, the pages the reviewer gives, hold only cognate sets (264-269, final \*-t).** The divergence claim is on p. 491: the lexicostatistical percentages show Makasar as quite distinct from all the others, and it was apparently the first to break off; Chart 7 on p. 492 (⚠ OCR of the chart unreliable — look at the image); pp. 513-514, §3.9.4.2: a possible substratum related to Central Sulawesi languages (agent) | **O** for p. 491; a for the rest | Pp. 341-342: no. The claim: yes, at 491-492 |
+| Mills 1975 (article) | *Archipel* 10: 205-224; copy on the OXIS site | 215, 217 | A second 1975 work by Mills. p. 217: Makasar has very low percentages with all other languages; p. 215: prefixes as possible substratum influence from the Toraja languages (Austronesian) | a | ⚠ The paper must say which Mills 1975 it cites |
+| Bulbeck 1992 (PhD thesis, ANU) | `bulbeck1992_thesis_oxis/bulbeck_phd_appendix_a.pdf` (scan with spaced-letter OCR) | 512-513 = PDF 26-27 of **Appendix A** (§A.7), not the main text | The Makassar languages are strikingly distinct; relays Mills's idea of a substratum; if a substratum explains it, it could be Toalean, assuming the Toaleans spoke no Austronesian language — then sets it aside as speculation | A | Yes, as the author's own conditional speculation |
+| van den Berg 1996 | `vandenberg1996_A84_volume_…pdf` (whole volume, open access) | 89-114 = PDF 95-120; proposal on 89, 93-94 | Proposes "Celebic" for Kaili-Pamona, Bungku-Mori-Tolaki and Muna-Buton; leaves Tomini-Tolitoli and Saluan open; does not link South Sulawesi; says this is not the place for convincing evidence | a | Yes, with his own tentative status. Cite by page (his "§4" is headed 5) |
+| Mead 2003 | `mead2003_celebic_supergroup.pdf` (open access) | 115-141 = PDF 1-27; 129, 134, 137 | Celebic = Tomini-Tolitoli, Kaili-Pamona, Wotu-Wolio plus "Eastern Celebic" (Saluan-Banggai, Bungku-Tolaki, Muna-Buton); South Sulawesi excluded; parts of the evidence are called tentative | a | Yes, with qualifiers |
+| Sneddon 1993 | read online in JSTOR with the PI's own account on 2026-10-06 (one of the ten free reads of the month; no download); text of pp. 1-6 in the cache as `sneddon1993_pp1-6_text_from_jstor_reader.txt` | **2** | "Microgroup" is defined after Sneddon 1989 and Blust 1991: 77. **Nine** language microgroups in Sulawesi and offshore islands — Sangiric, Minahasan, Gorontalo-Mongondic, Tomini, Saluan, Kaili-Pamona, Bungku-Tolaki, Muna-Buton, South Sulawesi — and, in addition, Banggai treated as a single-member microgroup (hence the "ten" of Blust 2013: 193). Reasonable doubt remains only about Muna-Buton as a microgroup | **O** | Yes for the count (nine + one); his word is *microgroups*, not "primary subgroups" |
+| Blust 2012 | **not accessible**: Project MUSE, and the PI has no access (2026-10-06) | 556 | not read — do not cite; the reviewer offers it only as support for a general point (loans adapt to the borrower's phonology) | — | not read |
+
+### D2. What follows for the Makasar section (facts; the wording is the PI's)
+
+1. The 38 % is **Blust's (1981a) lexicostatistical count** against a 200-word PMP list. ABVD's PMP list is recorded as
+   "Blust (1993)" with a note citing Blust 1999. Our 39.3 % from ABVD is therefore the same kind of count in the same
+   tradition, on another Makasar word list (Abd. Rajab) — **agreement is not independent confirmation** (ledger C059).
+2. In that source the figure is ordinary for Western Malayo-Polynesian (mean 41 % / 40.5 %).
+3. A comparator with other word lists and another judge exists: **Sirk 1989, Table 1** — Makasar-Bugis 45, Makasar-Sa'dan
+   42, Bugis-Sa'dan 60. The ABVD counts of shared cognate sets for the same pairs are 41.4, 39.2 and 53.1 % (E231 B): the
+   same order and similar gaps (15 and 18 points in Sirk; 12 and 14 here).
+4. The literature's substrate claim for Makasar is itself hedged at each step (Mills: a substratum related to Central
+   Sulawesi languages; Bulbeck 1992: conditional speculation in an appendix; Bulbeck et al. 2000: "open to investigation").
+
+### D3. A verbal scale for AUC (reviewer 2)
+
+- Hosmer & Lemeshow, *Applied Logistic Regression*, ch. 5: 2nd ed. 2000, p. 162; 3rd ed. (with Sturdivant) 2013, p. 177 —
+  **page numbers from two secondary sources that agree; the book page itself was not seen** (previews blocked). As quoted
+  by others: 0.7-0.8 acceptable, 0.8-0.9 excellent, 0.9 and above outstanding; no label between 0.5 and 0.7.
+- Open access, read in full by the agent: Nahm 2022, *Korean J Anesthesiol* 75(1): 25-36, DOI 10.4097/kja.21209, Table 4
+  (0.9+ excellent, 0.8-0.9 good, 0.7-0.8 fair, 0.6-0.7 poor, 0.5-0.6 fail). `p8_web/Nahm2022_kja-21209.pdf`
+- **The caution (phrase checked by the orchestrator):** White, Parsons, Collins & Barnett 2023, *BMC Medicine* 21: 339,
+  DOI 10.1186/s12916-023-03048-6, p. 2: such thresholds have no scientific basis and follow digit preference; earlier
+  work recommends presenting AUC values without labels. `p8_web/White2023_BMCMed_21_339.pdf`
+- Not opened: Mandrekar 2010 (*J Thorac Oncol* 5: 1315-1316); de Hond, Steyerberg & van Calster 2022 (*Lancet Digit Health*).
+
+### D4. Candidates for the sentence "resists reconstruction" (reviewer 2, first highlight)
+
+No source states the sentence as written (three properties together, for Sulawesi). Only "no cognate found" is stated:
+- Reid 1994, *Oceanic Linguistics* 33(1): 37-72, §2.1 (open access, https://hdl.handle.net/10125/32986; phrase checked by
+  the orchestrator): "unique" forms, for which no cognate has been found in any other language, are 17 %, 25 % and 29 %
+  of 539 items in three Philippine Negrito languages; he weighs lost Austronesian forms, radical change and coinage
+  before preferring a non-Austronesian substratum. Philippines, not Sulawesi.
+- Blust 2013: 8 — one sentence reporting Reid's claim of a pre-Austronesian substratum in Luzon Negrito languages.
+- Bulbeck et al. 2000: 103 — for Makasar (see D1).
+- Not read, so not to be cited from this list: Donohue & Denham 2010 (*Current Anthropology* 51: 223-256; abstract only).

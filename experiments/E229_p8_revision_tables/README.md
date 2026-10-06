@@ -2,7 +2,7 @@
 
 **Status:** SUCCESS — all files produced; 75 of 75 anchors reproduce; the independent re-derivation agrees in 163 of 163 cells.
 **Lines:** 04_language_text (P8 revision). **Date:** 2026-10-06.
-**Design:** `DESIGN.md`, frozen before the script was written; eight dated amendments in its §8 (none changes a number; A6 and A7 add post hoc descriptive counts; A8 renames four labels).
+**Design:** `DESIGN.md`, frozen before the script was written; nine dated amendments in its §8 (none changes a number; A6 and A7 add post hoc descriptive counts; A8 renames four labels; A9 redraws Figure 1 to the press's image guidelines).
 **Follows:** E227 (audit), E228 (reviewer analyses). Nothing in E022–E228 was changed. **No manuscript text here** (gate G16).
 
 ## Hypothesis
@@ -120,7 +120,11 @@ Stricter versions of four inputs: `experiments/E231_p8_what_coded_means/` tables
 
 ### F1 — Figure 1 (`F1_input_importance.{png,pdf,tif,csv}`)
 
-Mean absolute SHAP value of the 25 inputs, plain greyscale bars at the journal's page width (312 pt). Largest:
+Mean absolute SHAP value of the 25 inputs, plain greyscale bars at the journal's page width (312 pt). Format after
+amendment A9 (2026-10-06, the press's image guidelines): Arial; axis label and direction marks 9 pt, tick labels and
+legend 8 pt (a stated deviation from the recommended 9 pt — 25 labelled rows do not fit otherwise); the `.tif` is
+1,000 dpi, 8-bit greyscale, LZW, 312 pt × 7.2 in (git-ignored: `*.tif`; `01_tables.py` regenerates it); `.pdf` with
+embedded fonts and `.png` at 600 dpi are committed. The plotted values did not change (75/75 anchors). Largest:
 glottal marker 0.279, length 0.276, action meaning 0.269, vowel letters 0.266, vowel share 0.210, consonant-letter
 clusters 0.198. The onset-string input ("begins with ma, me, …") is 16th (0.072) and points toward *candidate*.
 

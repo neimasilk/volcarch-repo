@@ -13,6 +13,7 @@ login cookies and are **gitignored**; the first run in a new place logs in again
 | `gmail_drafts_audit.py [--discard=SUBJ]` | lists Sent and Drafts; `--discard` removes only drafts whose subject also appears in Sent (leftover duplicates) | read-only without the flag |
 | `portal_browser.py` | opens a headed Chrome with CDP on :9333 (ArchCalc + Zenodo tabs) for the **PI to log in himself**; stays open ≤3 h | Claude never handles portal passwords |
 | `cdp.py URLSUB goto/shot/text/eval/click ARG` | one action in a tab of that logged-in browser | — |
+| `cdp_raw.py URLSUB text/goto/links/eval ARG` | the same without Playwright: talks to one tab through its own DevTools socket (use when `connect_over_cdp` hangs) | read-only helpers; e-mail addresses masked in output |
 
 **Lesson (2026-10-02):** an inspection run of `gmail_compose_send.py` leaves an autosaved draft in Gmail. After
 every send, run `gmail_drafts_audit.py` and discard the duplicate.
@@ -21,3 +22,6 @@ editorial address (redazioneac@ispc.cnr.it).
 **Lesson (2026-10-06):** the Playwright MCP browser is not always logged in; the persistent profile `gmail_profile/` of these
 scripts logged in from `.env` without a phone prompt. A `subject:"…"` search can return only hidden rows — search the plain
 phrase and pick the row by its visible text. PDF annotations of a reviewer: PyMuPDF `page.annots()` (text under a highlight via its quads).
+**Lesson (2026-10-06, afternoon):** on Chrome 154 Playwright's `connect_over_cdp` hangs once the browser has UI targets
+("omnibox-popup", "signin-dice") — i.e. as soon as the PI has typed in the address bar. `cdp_raw.py` reads `/json/list` and
+opens the tab's own websocket instead. Mask session keys before printing portal URLs.

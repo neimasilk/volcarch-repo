@@ -23,8 +23,9 @@ dan "lebih banyak prefiks"; putaran ketiga menarik koreksi yang terlalu jauh ("M
   kedua) · 5.4 · 5.6 · 5.8 · §8 · di 5.5: ukuran, tanda glotal, makna tindakan, dan bahwa untai awal serta huruf nasal
   tidak terpisahkan dari panjang · di 5.3: hasil padanan (70,9 % terhadap 10,5 %; pembanding 95,9 %) dan "daftarnya tidak
   kurang data".
-- **Belum:** semua tentang **Makasar** (§0 butir 4, abstrak butir 6, 5.2, §6 butir 2, catatan editor A7) — menunggu PI
-  membaca sumber angka 38 % · **5.7**, §6 butir 4, abstrak butir 8 — menunggu D4.
+- **Belum:** semua tentang **Makasar** (§0 butir 4, abstrak butir 6, 5.2, §6 butir 2, catatan editor A7) — tinggal
+  menunggu PI membaca tiga halaman sumber yang sudah diambil (5.2, butir "Terhadap angka terbitan"; ±15 menit) ·
+  **5.7**, §6 butir 4, abstrak butir 8 — menunggu D4.
 - **Ahli Sulawesi bukan syarat** (rekomendasi direvisi 12:00). Yang bertanda ⚠ "ahli" di bawah **tidak ditulis sebagai
   klaim**: bentuk dicetak seperti tercatat di ABVD (bentuk, glosa, nomor himpunan) dengan satu kalimat bahwa belum
   dinilai secara etimologis; hitungan diberikan tanpa tafsir (tanda glotal per daftar; tidak ada pernyataan tentang *k*
@@ -66,7 +67,11 @@ Tiap butir memisahkan yang **terukur** dari yang **tafsir**. Rumusan butir 6 men
    dikodekan": hanya 2 dari 75 mirip bentuk PMP (kira-kira satu diharapkan karena kebetulan; kepekaan saringan 38 %) dan
    10 dari 80 mirip bentuk Bugis atau Sa'dan Toraja semakna (kebetulan ±4 %; bentuk berkode: 90 dari 136). Jadi datanya **sesuai dengan**
    keterpisahan leksikal Makasar yang dilaporkan di literatur — tanpa membuktikannya, dan tanpa berkata apa-apa tentang
-   sebabnya. ⚠ Perbandingan dengan 38 % terbitan menunggu PI membaca sumbernya. · E228 S2; E231 C, D, P1, P8, P9
+   sebabnya. Angka 38 % terbitan adalah hitungan Blust (1981a) yang dikutip Bellwood 1997:115 — hitungan sejenis dari
+   tradisi yang sama, jadi kecocokannya **bukan konfirmasi mandiri**; di sumbernya angka itu biasa saja (rerata
+   Malayo-Polinesia Barat 41 %). Pembanding yang lebih mandiri: leksikostatistik Sirk 1989 (Makasar–Bugis 45,
+   Makasar–Sa'dan 42, Bugis–Sa'dan 60), polanya sama dengan hitungan ABVD (41 / 39 / 53). ⚠ PI membaca halamannya
+   sebelum menyitir (5.2). · E228 S2; E231 B, C, D, P1, P8, P9; `REFERENCE_CHECK` Bagian D
 5. Tolaki. **Terukur:** 70,9 % bentuk tanpa kodenya punya padanan semakna di dalam Bungku–Tolaki (kebetulan 10,5 %;
    bentuk berkode 95,9 %); daftarnya tidak kurang data (200 dari 210 makna terisi; 88,4 % kandidat yang tercakup muncul
    lagi di daftar dialek); pada makna yang sama (bentuk pertama tiap makna) daftar Tolaki ini berkode untuk 38 % makna
@@ -127,12 +132,17 @@ Catatan templat: singkatan dihindari di abstrak; tanpa rujukan.
 
 1. Pernyataan masalah dengan "higher-level proto-forms" (dua tempat: tex 38, 56). [R1-1] Frasa serupa di tex 60 dan 540
    dipakai dalam arti lain (metode tradisional) — PI memutuskan apakah ikut diubah.
-   ⚠ Rujukan untuk kalimat "resists reconstruction" belum ada — harus dicari dan **dibaca PI**. [R2-1] Kalimat yang disorot
+   ⚠ Rujukan untuk kalimat "resists reconstruction" [R2-1]: tidak ada sumber yang menyatakan kalimat itu seperti
+   tertulis (tiga sifat sekaligus, untuk Sulawesi). Yang ada, dan sudah dibuka: Reid 1994 §2.1 (*OL* 33: bentuk "unik",
+   tanpa kognat di bahasa lain mana pun, 17–29 % di tiga bahasa Negrito Filipina; akses terbuka), Blust 2013:8, Bulbeck
+   dkk. 2000:103 (Makasar) — semuanya hanya untuk sifat "tanpa kognat". **Dibaca PI** sebelum disitir
+   (`REFERENCE_CHECK` Bagian D4). Kalimat yang disorot
    juga menyebut tiga sifat (tanpa kognat yang masuk akal; menyimpang dari akar dwisuku; tak sesuai korespondensi bunyi).
    Dengan D1 label naskah hanyalah status pengodean di ABVD, jadi kalimat itu diciutkan ke sana, atau tiap sifat diberi
    sumbernya sendiri.
-2. Sulawesi: sebelas *microgroups* menurut Blust (2013:82); Sneddon (1993) sepuluh; kata "primary subgroups" bukan
-   kata bukunya. ⚠ Menurut catatan bacaan (`REFERENCE_CHECK` C1), bukunya menyebut dua kelompok pertama cabang primer
+2. Sulawesi: sebelas *microgroups* menurut Blust (2013:82); Sneddon (1993:2, dibaca 2026-10-06) menyebut **sembilan**
+   *microgroups* ditambah Banggai sebagai *microgroup* beranggota tunggal (itulah "sepuluh" di Blust 2013:193), dan
+   meragukan hanya Muna-Buton; kata "primary subgroups" bukan kata kedua sumber itu. ⚠ Menurut catatan bacaan (`REFERENCE_CHECK` C1), bukunya menyebut dua kelompok pertama cabang primer
    subkelompok Filipina **dan** Gorontalic bagian dari *Greater Central Philippines* — jadi tiga, bukan dua, dari
    sebelas ada di bawah Filipina; PI membaca kalimatnya sebelum menulis. Edisi yang dibaca: 2013. [R1-3]
 3. Contoh subkelompok: South Sulawesi, Bungku–Tolaki, Muna–Buton; Celebic = *supergroup* (van den Berg **1996**; Mead 2003 —
@@ -140,7 +150,8 @@ Catatan templat: singkatan dihindari di abstrak; tanpa rujukan.
    4–10, jadi tiga dari empat subkelompok naskah (Bungku–Tolaki, Muna–Buton, Wotu–Wolio) ada di dalamnya dan South
    Sulawesi di luarnya — ini membatasi kata "lintas empat subkelompok" (lihat 5.7).
 4. Klaim substrat khusus untuk Makasar ada di literatur (Mills 1975; Sirk 1989; Bulbeck 1992; Bulbeck, Pasqua & Di Lello
-   **2000**) — hanya setelah dibaca PI; inilah percakapan yang ditanyakan reviewer. [R1-2]
+   **2000**) — hanya setelah dibaca PI; inilah percakapan yang ditanyakan reviewer. [R1-2] Salinan dan halaman yang
+   tepat: `REFERENCE_CHECK` Bagian D1 (⚠ Mills: hlm. 491–492, bukan 341–342; Bulbeck 1992: Lampiran A).
 5. Definisi *profile* di sini, dengan terus terang: sebagian dari bentuk tertulis, sebagian dari makna. [R1-10, R2-24]
 6. Apa yang dikerjakan naskah: (a) memeringkat bentuk tanpa kode; (b) tiga pemeriksaan tentang apa arti "tanpa kode":
    Makasar terhadap PMP, Tolaki terhadap kerabat dekatnya, kemiripan lintas subkelompok.
@@ -199,10 +210,13 @@ dipakai. *Fakta:* Python 3.11, scikit-learn 1.8.0, xgboost 3.0.3, shap 0.50.0; X
 validasi-silang; satu daftar ditahan (inilah arti konkret "berlaku lintas bahasa"); AUC; ±; Δ; κ (bila tabel sel
 dipertahankan). *Fakta dan angka yang menyertainya:*
 - Rancangan: lima lipatan × 10 ulangan = 50 uji; satu daftar ditahan = belajar dari lima daftar, menguji pada yang keenam.
-- AUC: 0,5 = kebetulan, 1 = sempurna. Skala kata-kata [R2-14]: konvensi berbeda-beda. ⚠ Ada aturan praktis yang sering
-  dikutip (pembaca skeptis menyebut, **dari ingatan**, Hosmer & Lemeshow: 0,7–0,8 "acceptable") — belum dibaca siapa
-  pun di proyek ini. PI membaca sumbernya, lalu menaruh 0,73 dan 0,67 di skala itu apa adanya. Jangan menulis bahwa
-  skala seperti itu tidak ada. "0,65" di naskah lama adalah garis proyek sendiri → dibuang atau disebut demikian. · E227 C18
+- AUC: 0,5 = kebetulan, 1 = sempurna. Skala kata-kata [R2-14]: ada, tetapi berbeda-beda dan sewenang-wenang. Yang
+  paling sering dikutip: Hosmer & Lemeshow, *Applied Logistic Regression* (ed. 2, 2000, hlm. 162; ed. 3, 2013, hlm.
+  177 — ⚠ nomor halaman dari dua sumber sekunder, bukunya belum terlihat): 0,7–0,8 "acceptable", 0,8–0,9 "excellent".
+  Akses terbuka dan sudah dibuka: Nahm 2022 (Tabel 4: 0,7–0,8 "fair", 0,6–0,7 "poor"), dan — yang penting — White
+  dkk. 2023 (*BMC Medicine* 21:339, hlm. 2): label semacam itu tanpa dasar ilmiah; AUC sebaiknya dilaporkan tanpa
+  label. Jawaban jujur: sebut bahwa skala itu ada dan sewenang-wenang, taruh 0,73 dan 0,67 di salah satunya, beri
+  selangnya. PI membaca White dkk. dan satu sumber skala sebelum menyitir (`REFERENCE_CHECK` Bagian D3). "0,65" di naskah lama adalah garis proyek sendiri → dibuang atau disebut demikian. · E227 C18
 - Pembanding yang jujur: akurasi "semua berkode" 0,677; **mengetahui hanya dari daftar mana sebuah bentuk berasal
   memberi AUC 0,68**. · E229 T2; E228 S7
 - Selang untuk angka utama: AUC gabungan di luar lipatan 0,737 [0,709; 0,766] (bentuk + makna) dan 0,678 [0,647; 0,709]
@@ -244,8 +258,9 @@ daftar Muna kedua (Wuna, id 147); dihitung tanpa kode, Muna 35,6 %. Lima daftar 
 silang seperti itu (0 bentuk). Jadi label "berkode" tidak sama jenisnya antardaftar — Tabel 1 perlu catatan ini. · E231 P2
 Buang: 26,5 %, "75 rescued", delapan konsep "Tier 1" (yang memenuhi syarat hanya tiga; E227 A16).
 
-**5.2 Makasar.** [R1-2] ⚠ **Belum ditulis** sampai PI membaca sumber angka 38 % (ahli untuk makna-makna di butir kelima:
-pilihan, bukan syarat — tanpa itu bagian ini menulis "tidak diputuskan"). Tabel = `E228/results/TABLE_R1-2_retention_by_language.csv`; selang dan uji = E231 C; antardaftar = E231
+**5.2 Makasar.** [R1-2] ⚠ **Belum ditulis** sampai PI membaca tiga halaman sumber di butir "Terhadap angka terbitan"
+(sudah diambil; ±15 menit). Ahli untuk makna-makna di butir kelima: pilihan, bukan syarat — tanpa itu bagian ini
+menulis "tidak diputuskan". Tabel = `E228/results/TABLE_R1-2_retention_by_language.csv`; selang dan uji = E231 C; antardaftar = E231
 B; hitungan tambahan = E231 P1, P8, P9.
 - Tiga kelas, dinamai menurut apa yang dihitung: **di himpunan entri PMP** 39,3 % [32,8; 46,2] (79) · **berkode di
   himpunan lain** 25,9 % [20,3; 32,3] (52) · **tanpa kode** 34,8 % [28,6; 41,6] (70) dari 201 makna (selang Wilson 95 %).
@@ -279,11 +294,29 @@ B; hitungan tambahan = E231 P1, P8, P9.
   bentuk seperti itu hanyalah cocok dengan daftar Muna kedua, lihat 5.1). "Hanya di Sulawesi" di sini adalah kotak
   koordinat berisi 96 daftar (49 Bungku–Tolaki, 17 Bajo, tiga daftar South Sulawesi + satu proto-daftar), bukan himpunan
   bahasa Sulawesi; lebar himpunan dihitung dalam daftar, bukan bahasa. · E231 A, P2, P6
-- ⚠ Terhadap angka terbitan: reviewer mengutip retensi 38 % (dan 62 % "terbuka"). 39,3 % berdekatan dengan itu, tetapi
-  **sebelum** kata "konsisten" dipakai PI membaca dari mana 38 % itu berasal (Bulbeck dkk. 2000:103, mengutip Bellwood
-  1997:115) dan bagaimana pengodean Makasar di ABVD dibuat. Petunjuk dari metadata ABVD: daftar PMP-nya tercatat atas
-  nama Blust (1993) dengan catatan yang merujuk Blust 1999 — bila angka terbitan itu juga dari hitungan Blust, ini satu
-  data dibaca dua kali. Dengan penetapan yang diragukan ikut dihitung: 42,8 %.
+- **Terhadap angka terbitan** *(sumbernya diambil 2026-10-06 dan halamannya dilihat pengendali; PI tetap membaca
+  sendiri sebelum menyitir — salinan di `data/raw/literature_cache/p8_refs/`, tidak ikut repo; rincian:
+  `REFERENCE_CHECK_20261005.md` Bagian D)*:
+  - **Dari mana 38 % itu.** Bellwood 1997:115 (ed. revisi; cetak ulang akses terbuka ANU E Press, bab 4, hlm. PDF 20)
+    mengutip **Blust (1981a)**: 62 bahasa Austronesia di luar Taiwan dibandingkan dengan daftar rekonstruksi 200 kata
+    PMP. Di kalimat yang sama: rerata Malayo-Polinesia Barat 41 %; Melayu 59, Minangkabau 50, Tagalog 46, **Makassar
+    38**, Sunda 35; Jawa Yogyakarta 30. Blust 2013:340–341 memberi rerata 40,5 % dan rentang 58 %–5 %. → Di sumbernya
+    38 % **tidak** disajikan sebagai rendah; langkah ke "62 % terbuka sebagai kosakata pra-Austronesia" adalah tafsir
+    Bulbeck dkk. 2000:103, bukan isi Bellwood.
+  - **39,3 % kita terhadap 38 %: bukan konfirmasi mandiri.** Itu hitungan sejenis dari tradisi yang sama (daftar PMP
+    ABVD tercatat atas nama Blust 1993, catatannya merujuk Blust 1999), atas daftar kata Makasar yang lain (Abd.
+    Rajab). Yang bisa ditulis: pengodean ABVD memberi angka yang hampir sama dengan hitungan Blust yang dikutip
+    Bellwood. Dengan penetapan yang diragukan ikut dihitung 42,8 %; aturan cocok yang ditetapkan ±10 poin.
+  - **Pembanding yang lebih mandiri — Sirk 1989, Tabel 1 (hlm. 71):** leksikostatistik dengan daftar dan penilai lain:
+    Makasar–Bugis 45, Makasar–Sa'dan 42, Bugis–Sa'dan 60. Hitungan ABVD untuk pasangan yang sama 41,4 / 39,2 / 53,1 % —
+    urutan sama, selisih serupa (15 dan 18 poin di Sirk; 12 dan 14 di sini). Mills 1975 (disertasi) hlm. 491:
+    leksikostatistiknya menunjukkan Makasar cukup terpisah dari semua yang lain dan paling dulu memisah.
+  - ⚠ **Halaman yang disebut reviewer untuk Mills (341–342) hanya memuat himpunan kognat**; klaim keterpisahannya ada
+    di 491–492 dan 513–514. Dan ada **dua** karya Mills 1975 (disertasi; artikel *Archipel* 10: 205–224): naskah harus
+    menyebut yang mana.
+  - Klaim substrat di literatur itu sendiri bersyarat *(ringkasan agen; PI membaca)*: Bulbeck 1992:512–513 ada di
+    Lampiran A dan menyebutnya spekulasi; Mills 513–514 berbicara tentang substratum yang berkerabat dengan
+    bahasa-bahasa Sulawesi Tengah, bukan pra-Austronesia.
 - Reviewer menulis 30,1 %; Tabel 1 mencetak 30,9 % — disebut dengan halus.
 **5.3 Tolaki.** [R1-1, R1-7, R1-13a]
 - 36 % bentuk Tolaki berkode (75 dari 209) — itu fakta di balik kata "under-documentation", yang **dibuang**.

@@ -132,3 +132,12 @@ All dated 2026-10-06. None changes a number, a model, a threshold or which rows 
   is set by any hyphen; "prefix-like" is any form beginning with one of nine letter strings (also *mata*, *tau*);
   "length" counts hyphens, spaces and glottal marks. The labels now say what is computed. Stricter versions of the
   four inputs are tabulated in E231.
+- **A9 — Figure 1 redrawn to the press's image guidelines (2026-10-06, afternoon; format only, no plotted value
+  changes).** The University of Hawai'i Press guidelines for journal artwork (read 2026-10-06; `VENUE.md`) ask for
+  line art as TIFF at 1,000 dpi with LZW compression in greyscale mode, tints between 15 and 85 %, embedded fonts and
+  recommend Arial / Courier / Symbol / Times at 9 pt. The first version was DejaVu Sans at 6.5–8 pt, 600 dpi, with an
+  alpha channel. Now: Arial; axis label and direction marks 9 pt; tick labels, tick numbers and legend 8 pt — **a
+  deviation from the recommended 9 pt, stated here**: 25 labelled rows do not fit at 9 pt in a figure 312 pt wide
+  and one page high, and 8 pt is the journal's own size for table text. The fills (grey 0.30 and 0.82 = tints of
+  70 % and 18 %) were already inside the range. If the PI prefers 9 pt throughout, the choice is to shorten the
+  labels in `labels.csv` or to show fewer inputs.

@@ -10321,3 +10321,84 @@ project whose documented failure is stalling before exposure (ME#19). Revised:
   Sulawesi linguist — the only item where a specialist adds what the paper cannot otherwise say.
 Work plan §10.7 (decisions 2 and 3), the outline header and §5.2, the handoff, STATE, WORKSTATE and ledger C060/C062
 brought in line. The one real precondition for the Makasar section stays the PI's own reading of the source of the 38 %.
+
+## 2026-10-06 (13:35) — P8 revision: what a browser could do (sources, template, arXiv procedure)
+
+**PI:** "do whatever can be done with Playwright; I log in where needed." The Playwright MCP server did not connect in this
+session, so public pages were fetched directly; two Sonnet agents did the retrieval (about 690k tokens) and I looked at
+the decisive pages myself. Files in `data/raw/literature_cache/p8_refs/` and `…/p8_web/` (git-ignored; private copies).
+
+**The source of the Makasar 38 % — found and read by me** (Bellwood 1997, rev. ed., p. 115; ANU E Press open-access
+reprint, chapter 4, a scan without text layer, read from the rendered page): the retention figures are **Blust's (1981a)**,
+62 Austronesian languages outside Taiwan against a reconstructed 200-word PMP list; Western Malayo-Polynesian mean 41 %;
+Malay 59, Minangkabau 50, Tagalog 46, Makassarese 38, Sundanese 35, Yogyakarta Javanese 30. Blust 2013: 340–341 (read):
+mean WMP 40.5 %, range 58 % to about 5 %. Two consequences recorded: (1) our 39.3 % from ABVD is the same kind of count in
+the same tradition (ABVD's PMP list is Blust's) — agreement is not independent confirmation (C059 closed in part);
+(2) in the source the figure is ordinary, and "62 % open to investigation as pre-Austronesian" is Bulbeck et al.'s step.
+**A more independent comparator, also read by me:** Sirk 1989, Table 1 (p. 71): Makasar–Bugis 45, Makasar–Sa'dan 42,
+Bugis–Sa'dan 60 — against 41.4 / 39.2 / 53.1 % shared cognate sets in ABVD (E231 B): same order, similar gaps.
+
+**The reviewer's references (agent; seven phrases spot-checked by me, all as reported).** Six of eight fetched and the
+exact pages located. Mills 1975 pp. 341–342 (the pages the reviewer gives) hold only cognate sets; the divergence claim is
+on p. 491 ("quite distinct from all the others", read) and pp. 492, 513–514; there are two Mills 1975 works. Bulbeck 1992
+pp. 512–513 are in Appendix A and present the Toalean substratum as conditional speculation. van den Berg 1996 and Mead
+2003: Celebic with its own qualifiers. **Sneddon 1993 and Blust 2012: no open copy** (JSTOR, Project MUSE).
+
+**Other web tasks (agent).** A verbal AUC scale: Hosmer & Lemeshow, p. 162 (2nd ed.) / p. 177 (3rd ed.) by two secondary
+sources — the book page itself was not seen; open-access statements of a scale (Nahm 2022) and the caution that such labels
+are arbitrary (White et al. 2023, phrase checked by me). "Resists reconstruction" (R2-1): no source states the sentence as
+written; Reid 1994 §2.1 is the closest (phrase checked). The journal's template: optional; instructions silent on revised
+manuscripts; no statement on fees, a second time. arXiv: no self-service reset of a paper password is described; support
+portal or help@arxiv.org; the password allows an immediate ownership claim, and owners can replace or withdraw.
+Gmail (read-only): nothing from the journal since 5 October.
+
+**Found on the way.** Figure 1 does not meet the press's generic image guidelines (DejaVu Sans 6.5–8 pt instead of
+Arial/Times-type 9 pt; 600 instead of 1,000 dpi for line art; alpha channel) — to redo. Agent B left two files in the repo
+root by a shell slip and removed them itself; `git status` was clean when I looked.
+
+**Records.** `REFERENCE_CHECK_20261005.md` Part D (reading list with pages, who read what); outline §0 item 4, §3, §4 (2.5),
+§5.2; work plan §10.7 (Makasar row, decision 2) and new §10.8; `VENUE.md` additions; editor note items A7 and A10; ledger
+C059, C061; STATE, WORKSTATE, handoff.
+
+**Flags.** The PI still reads three pages before citing them (Bellwood 115; Sirk 71; Bulbeck et al. 103), and Mills 491–492
+if Mills is cited. Blust 1981a itself was not looked for (Bellwood is the cited source). Mills's Chart 7 only via OCR.
+
+**Waiting on the PI's logins:** arXiv, the journal's portal, JSTOR, Project MUSE. **Not done:** nothing sent, uploaded or
+submitted; no commit of this round yet.
+
+## 2026-10-06 (14:00) — P8 revision: login round (arXiv, journal portal, JSTOR)
+
+The PI logged in himself in a Chrome window opened for the purpose (persistent profile `tools/mail/portal_profile`, CDP on
+:9333); no Project MUSE access. **Tooling note:** on this Chrome build Playwright's `connect_over_cdp` hangs once
+browser-UI targets exist ("omnibox-popup", "signin-dice"); each tab was therefore driven through its own DevTools socket
+with a small script (now `tools/mail/cdp_raw.py`). Read-only throughout:
+nothing typed into a form, nothing submitted, uploaded or sent.
+- **arXiv** (user page): for an owned article the account offers Replace, Withdraw, Cross list, Journal ref, Link code &
+  data and "Get Paper Password" (e-mails the existing one). No change or reset. A short request to arXiv support was
+  drafted for the PI's approval (reset the password of 2604.00023; say which accounts own the article). Not sent.
+- **Journal portal**: decision "Accept for Publication, Pending Revision / 2026-10-05"; no due date; the record holds the
+  submitted abstract, running title, keywords — to be rewritten at resubmission. Revision = four steps; file types Author
+  Cover Letter, Article File, Figure, Table, Supplemental Material; "Continue" not pressed. Portal instructions = the web
+  page's text (no "revision", no fees). Contact channel for a submission in progress: "Send Manuscript Correspondence".
+- **JSTOR** (the PI's own account; one of ten free online reads used): Sneddon 1993, p. 2 — nine microgroups plus Banggai
+  as a single-member microgroup; doubt only about Muna-Buton. Read by me in the reader's text layer.
+- **Project MUSE**: not accessible. Blust 2012 unread → not to be cited. Barlow 2025 appears to be open access there but
+  sits behind a human-verification page.
+Records: `REFERENCE_CHECK` Part D1 (Sneddon, Blust 2012), outline §3 item 2, work plan §10.8, `VENUE.md`, editor note A10,
+ledger C061, STATE, handoff. Private copies in the git-ignored cache.
+
+## 2026-10-06 (14:20) — P8 revision: arXiv request sent; Figure 1 redrawn (E229 A9)
+
+**PI:** "do what needs to be done", after being shown the text of the arXiv request.
+- **arXiv support request sent 14:14** to help@arxiv.org with `tools/mail/gmail_compose_send.py --send` from the PI's
+  university address (the address of the arXiv account): reset the paper password of 2604.00023, and tell the owner which
+  accounts are registered as owners. Appears at the top of Sent; no duplicate left in Drafts (audit run). Ledger C061.
+  The old password stays in the public git history until arXiv replaces it; rewriting history remains the PI's decision.
+- **Figure 1 redrawn (E229 amendment A9; format only).** Press image guidelines read from the cached page: line art as TIFF
+  at 1,000 dpi with LZW in greyscale mode, tints 15–85 %, embedded fonts, Arial / Courier / Symbol / Times recommended at
+  9 pt. Arial has ʔ, ŋ and the arrows (checked in the font's character map). New files: `.tif` 4333 × 7200 px, 1,000 dpi,
+  mode L, LZW, 312 pt wide (git-ignored); `.pdf` with embedded fonts; `.png` 600 dpi. Axis label and direction marks 9 pt;
+  tick labels and legend 8 pt — a stated deviation (25 labelled rows do not fit at 9 pt). `01_tables.py` re-run: 75/75
+  anchors, values unchanged; I looked at the rendering (no clipping, no overlap).
+- Not done, deliberately: the note to the editor (the PI's own words, D7); "Continue" on the portal's revision page; any
+  deposit; manuscript prose.

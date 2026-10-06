@@ -40,7 +40,10 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > three options**. Outline (its header now says which sections can be written from), work plan, editor note, READMEs
 > E227–E231, ledger C055–C065 corrected; a column description for the release files written (**draft**, C065). The session had been cut off at 08:54 (API error, power cut; no damage) and was resumed.
 > ⚠ **PI action, security:** the arXiv *paper password* of the P8 preprint has been in the public git history since April
-> (C061; redacted in the working tree) → ask arXiv for a new one. Canary green 223. Committed on main at the PI's word (`450aef6` and a small follow-up); not pushed.
+> (C061; redacted in the working tree) → ask arXiv for a new one (its help pages describe no self-service reset: support
+> portal or help@arxiv.org). **Afternoon:** the source of the Makasar 38 % was found and read (Blust 1981a via Bellwood
+> 1997: 115 — same tradition as ABVD, not an independent figure; Sirk 1989 is the more independent comparator), six of
+> the reviewer's eight references fetched with exact pages — `REFERENCE_CHECK_20261005.md` Part D, work plan §10.8. Canary green 223. Committed on main at the PI's word (`450aef6` and a small follow-up); not pushed.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >
