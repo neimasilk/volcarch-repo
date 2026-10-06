@@ -10300,3 +10300,24 @@ Opus), about 2.0 million tokens; the first adversarial read ran in the morning s
 
 **Error of mine kept on record.** I adopted the third reader's Konawe illustration after re-deriving its number but
 without asking what the unit counted — the same kind of slip as the ones that reader had found in my work.
+
+## 2026-10-06 (12:00) — P8 revision: committed; "is a specialist really needed?"
+
+**Commit** `450aef6` on `main` at the PI's word (114 files; not pushed). Note: `.gitignore` excludes `*.tif`, so the
+600-dpi `F1_input_importance.tif` stays local; `01_tables.py` regenerates it, and the `.png` and `.pdf` are committed.
+
+**PI's question:** is the specialist really needed? **Answer recorded, and my earlier recommendation withdrawn.** I had
+written "bring the specialist in before drafting §3" and marked several outline items "waiting for a specialist". That
+turned an optional improvement into an outside dependency — for a paper that is already conditionally accepted, in a
+project whose documented failure is stalling before exposure (ME#19). Revised:
+- **Not a blocker.** Nothing the reviewers asked for requires a specialist's judgement from the authors. Forms are
+  printed as ABVD records them, with a sentence that they were not assessed etymologically; counts are given without
+  interpretation; claims about final *k*, hyphens, numeral etymologies, the glottal stop in Muna and Wolio, and why
+  Makasar forms are uncoded are simply not made. Reviewer 1 is a Sulawesi specialist, asked for the examples and the
+  released lists precisely to inspect them, and will see the revision.
+- **What binds is G10**, the project's own gate: one linguist (co-author or colleague, not necessarily a Sulawesi
+  specialist) reads the finished draft before resubmission. That fits in the 14-day freeze (G14).
+- **Optional, not waited for:** the 70 Makasar meanings (`E231 … P9_makasar_uncoded_meanings_for_specialist.csv`) to one
+  Sulawesi linguist — the only item where a specialist adds what the paper cannot otherwise say.
+Work plan §10.7 (decisions 2 and 3), the outline header and §5.2, the handoff, STATE, WORKSTATE and ledger C060/C062
+brought in line. The one real precondition for the Makasar section stays the PI's own reading of the source of the 38 %.

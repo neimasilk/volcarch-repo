@@ -35,12 +35,12 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > Muna list, so Table 1's lower end (15.5 %) is an effect of one extra list; (2) Makasar has more *uncoded* meanings
 > than Bugis and Sa'dan Toraja, and that is one fact, not three; whether they are uncoded cognates or replaced words is
 > not decided (a screen does not favour "merely uncoded") — **nothing on Makasar is written** before the PI has read the
-> source of the published 38 % and a specialist has seen the meanings (read 3 found round 2 over-corrected here); (3) "fewer prefixes" is withdrawn and "more prefixes" is **not**
+> source of the published 38 % (read 3 found round 2 over-corrected here; a Sulawesi specialist is optional, not a blocker); (3) "fewer prefixes" is withdrawn and "more prefixes" is **not**
 > established (not separable from word length); (4) the cross-list test says nothing about a shared layer; **D4 now has
 > three options**. Outline (its header now says which sections can be written from), work plan, editor note, READMEs
 > E227–E231, ledger C055–C065 corrected; a column description for the release files written (**draft**, C065). The session had been cut off at 08:54 (API error, power cut; no damage) and was resumed.
 > ⚠ **PI action, security:** the arXiv *paper password* of the P8 preprint has been in the public git history since April
-> (C061; redacted in the working tree) → ask arXiv for a new one. Canary green 223. Nothing committed.
+> (C061; redacted in the working tree) → ask arXiv for a new one. Canary green 223. Committed on main at the PI's word (`450aef6` and a small follow-up); not pushed.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >

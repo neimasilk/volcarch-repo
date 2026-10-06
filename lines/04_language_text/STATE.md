@@ -24,7 +24,7 @@
 >      or replaced words is **not decided**; a mechanical screen does not favour "merely uncoded" (2 of 75 resemble the PMP
 >      form; 10 of 80 a Bugis or Sa'dan Toraja form). Compatible with the divergence reported in the literature; no proof
 >      of it, nothing on its cause. ⚠ **Nothing on Makasar is to be written** before the PI has read the source of the
->      published 38 % and a specialist has seen `results/P9_makasar_uncoded_meanings_for_specialist.csv`.
+>      published 38 % (a specialist's look at `results/P9_makasar_uncoded_meanings_for_specialist.csv` is optional).
 >   3. **"Fewer prefixes" is withdrawn and "more prefixes" is not established:** the onset-string input is not separable
 >      from length (1.09 [0.80, 1.48] with all letters held fixed; 2.51 with the letters after the string held fixed); nor
 >      is the nasal input. What holds at equal length: written glottal mark (2.60) and action meaning (2.22); consonant-
@@ -45,16 +45,19 @@
 >   (Sonnet, checked line by line; it reproduced all 1,357 scores and all distances from the released strings).
 > - **What the PI can write from now** (third reader's assessment, after its corrections were made): outline §1, §3, §4,
 >   5.1, 5.4, 5.6, 5.8, §8; in 5.5 size, glottal mark, action meaning; in 5.3 the look-alike result. **Not yet:** anything
->   on Makasar; 5.7 (waits on D4); any single form, hyphen, final *k*, glottal mark in Muna and Wolio (specialist).
+>   on Makasar (the PI reads the source of the 38 % first); 5.7 (waits on D4). Etymologies of single forms, hyphens, final
+>   *k* and the glottal stop in Muna and Wolio are simply **not written as claims** — no specialist is waited for.
 >   The release description is a **draft** (ledger C065).
 > - **For the PI (new today, besides D1–D10):** (1) ⚠ the arXiv *paper password* of the P8 preprint has been in the public
 >   git history since April (C061; redacted in the working tree) → ask arXiv for a new one; (2) **D4 has three options**
 >   (§10.7; (a) recommended); (3) read the source of the Makasar 38 % before any comparison is written; (4) a note on the
 >   second Muna list under Table 1 (recommended).
-> - **Open, for a specialist (G10, C060):** whether Muna and Wolio lack a glottal stop or merely do not write it; final *k*
+> - **A Sulawesi specialist is not a blocker** (recommendation revised 12:00 after the PI asked): forms are printed as ABVD
+>   data, "not assessed etymologically"; reviewer 1 is the specialist and will see the revision; G10 = one linguist reads
+>   the finished draft during the G14 freeze. Points a specialist could settle if one is at hand (C060): whether Muna and Wolio lack a glottal stop or merely do not write it; final *k*
 >   in Sa'dan Toraja; what the hyphen marks in the Bugis and Sa'dan Toraja lists; the numeral compounds; *ma-* in the
 >   look-alike pairs; every single lexical example.
-> - **Not done, by design:** no manuscript prose, no response letter, nothing sent or uploaded, no Zenodo, no arXiv, no commit.
+> - **Not done, by design:** no manuscript prose, no response letter, nothing sent or uploaded, no Zenodo, no arXiv. Committed on main at the PI's word (`450aef6` and a small follow-up); not pushed.
 
 > **2026-10-06 — P8: the handoff queue is done; one more defect found on the way.** Start from
 > `papers/P8_linguistic_fossils/REVISION_OUTLINE_20261006.md` (what each section has to contain, facts only, in Indonesian so

@@ -24,8 +24,12 @@ dan "lebih banyak prefiks"; putaran ketiga menarik koreksi yang terlalu jauh ("M
   tidak terpisahkan dari panjang · di 5.3: hasil padanan (70,9 % terhadap 10,5 %; pembanding 95,9 %) dan "daftarnya tidak
   kurang data".
 - **Belum:** semua tentang **Makasar** (§0 butir 4, abstrak butir 6, 5.2, §6 butir 2, catatan editor A7) — menunggu PI
-  membaca sumber angka 38 % dan seorang ahli melihat makna-makna yang disebut di 5.2 · **5.7**, §6 butir 4, abstrak butir
-  8 — menunggu D4 · bentuk tunggal mana pun, tanda hubung, *k* akhir, tanda glotal di Muna dan Wolio — menunggu ahli.
+  membaca sumber angka 38 % · **5.7**, §6 butir 4, abstrak butir 8 — menunggu D4.
+- **Ahli Sulawesi bukan syarat** (rekomendasi direvisi 12:00). Yang bertanda ⚠ "ahli" di bawah **tidak ditulis sebagai
+  klaim**: bentuk dicetak seperti tercatat di ABVD (bentuk, glosa, nomor himpunan) dengan satu kalimat bahwa belum
+  dinilai secara etimologis; hitungan diberikan tanpa tafsir (tanda glotal per daftar; tidak ada pernyataan tentang *k*
+  akhir, tanda hubung, etimologi numeralia, atau mengapa bentuk Makasar tanpa kode). Reviewer 1 adalah ahlinya dan
+  akan membaca revisinya. Yang tetap mengikat: gerbang G10 — satu pembaca linguis atas draf jadi, selama jeda 14 hari.
 - Putaran ketiga dikoreksi dan angkanya ditelusuri, tetapi **tidak** dibaca skeptis lagi.
 
 ---
@@ -240,8 +244,8 @@ daftar Muna kedua (Wuna, id 147); dihitung tanpa kode, Muna 35,6 %. Lima daftar 
 silang seperti itu (0 bentuk). Jadi label "berkode" tidak sama jenisnya antardaftar — Tabel 1 perlu catatan ini. · E231 P2
 Buang: 26,5 %, "75 rescued", delapan konsep "Tier 1" (yang memenuhi syarat hanya tiga; E227 A16).
 
-**5.2 Makasar.** [R1-2] ⚠ **Belum ditulis** sampai PI membaca sumber angka 38 % dan seorang ahli melihat makna-makna di
-butir kelima. Tabel = `E228/results/TABLE_R1-2_retention_by_language.csv`; selang dan uji = E231 C; antardaftar = E231
+**5.2 Makasar.** [R1-2] ⚠ **Belum ditulis** sampai PI membaca sumber angka 38 % (ahli untuk makna-makna di butir kelima:
+pilihan, bukan syarat — tanpa itu bagian ini menulis "tidak diputuskan"). Tabel = `E228/results/TABLE_R1-2_retention_by_language.csv`; selang dan uji = E231 C; antardaftar = E231
 B; hitungan tambahan = E231 P1, P8, P9.
 - Tiga kelas, dinamai menurut apa yang dihitung: **di himpunan entri PMP** 39,3 % [32,8; 46,2] (79) · **berkode di
   himpunan lain** 25,9 % [20,3; 32,3] (52) · **tanpa kode** 34,8 % [28,6; 41,6] (70) dari 201 makna (selang Wilson 95 %).
@@ -265,7 +269,7 @@ B; hitungan tambahan = E231 P1, P8, P9.
   kecil mungkin memang kognat yang terlewat) dan **sesuai dengan** keterpisahan leksikal yang dilaporkan literatur
   untuk Makasar — tanpa membuktikannya (saringan ejaan, bukan penilaian kognat) dan tanpa berkata apa-apa tentang
   sebabnya (substrat, pinjaman, inovasi). Jangan menulis "belum berkode"; tulis "tanpa kode".
-- **Untuk ahli (kira-kira sejam kerja, dan itu yang akan memutuskan):** untuk 28 dari 70 makna Makasar tanpa kode,
+- **Pilihan, bukan syarat — untuk ahli bila ada (kira-kira sejam kerja; hanya itu yang bisa memutuskan):** untuk 28 dari 70 makna Makasar tanpa kode,
   Bugis punya bentuk di himpunan PMP (16 berkode lain, 26 tanpa kode); untuk Sa'dan Toraja 25 dari 69 (22 dan 22).
   Daftar 70 makna itu, dengan bentuk ketiga daftar dan entri PMP-nya:
   `E231/results/P9_makasar_uncoded_meanings_for_specialist.csv`. Pertanyaannya: bentuk Makasar untuk makna-makna
