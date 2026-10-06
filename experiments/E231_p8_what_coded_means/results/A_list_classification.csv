@@ -1,0 +1,2037 @@
+ID,Name,Glottocode,Latitude,Longitude,is_proto,has_coords,sulawesi
+1,Balinese,bali1278,-8.35714,115.075,False,True,False
+2,Banggai (W.dialect),bang1368,-1.58305,123.171,False,True,True
+3,Banggi,bong1289,7.29249,117.174,False,True,False
+4,Banoni,bann1247,-6.23061,155.128,False,True,False
+5,Bantik,bant1286,1.44586,124.846,False,True,True
+6,Gayo,gayo1244,4.3733,97.3456,False,True,False
+7,Gedaged,geda1237,-5.18175,145.781,False,True,False
+8,Geser,gese1240,-3.8016,130.701,False,True,False
+9,Ghari,ghar1239,-9.4791,159.917,False,True,False
+10,Gimán,gane1237,-0.42618,127.976,False,True,False
+11,Fijian (Bau),bauu1243,,,False,False,False
+12,Gorontalo (Hulondalo),goro1259,0.62689,122.288,False,True,True
+13,Hanunóo,hanu1241,12.4159,121.221,False,True,False
+14,Bima,bima1247,-8.57376,118.445,False,True,False
+15,Bintulu,bint1246,3.867,113.634,False,True,False
+16,Bobot,bobo1254,-3.43514,130.179,False,True,False
+17,Bonerate,bone1254,-7.37657,121.792,False,True,False
+18,Chamorro,cham1312,13.438011,144.74474,False,True,False
+19,Canala,xara1244,-21.7034,165.996,False,True,False
+20,Javanese,java1254,-7.001,109.287,False,True,False
+21,Kilokaka (Ysabel),zaza1245,-8.18719,159.255,False,True,False
+22,Timugon (Murut),timu1262,5.1796,115.826,False,True,False
+23,Kis,kiss1246,-3.83909,143.96,False,True,False
+24,Mor,morm1235,-2.87055,135.95,False,True,False
+25,Mota,mota1237,-13.835361,167.690924,False,True,False
+26,Motu,motu1246,-9.67492,147.424,False,True,False
+27,Muna (Katobu-Tongkuno Dialect),muna1247,-5.40419,122.541,False,True,True
+28,Iban,iban1264,2.09041,112.934,False,True,False
+29,Kaidipang,kaid1239,0.85641,123.217,False,True,True
+30,Kairiru,kair1263,-3.34608,143.558,False,True,False
+31,Kakiduge:n Ilongot,ilon1239,16.3785,121.547,False,True,False
+32,Kambera,kamb1299,-9.88447,120.235,False,True,False
+33,Kapampangan,pamp1243,14.9603,120.502,False,True,False
+34,Lamaholot Ile Mandiri (Flores Timur),lama1277,-8.36439,122.803,False,True,False
+35,Iliun (Erai),eray1237,,,False,False,False
+36,"Bontok, Guina-ang",guin1256,,,False,False,False
+37,Bughotu,bugh1239,-8.47948,159.802,False,True,False
+38,Marquesan,nort2845,-8.89412,-140.108,False,True,False
+39,Ali,kapp1237,-3.28761,142.659,False,True,False
+40,Ambai (Yapen),amba1265,-1.88126,136.526,False,True,False
+41,Mori,mori1268,-2.56016,121.37,False,True,True
+42,Atoni,uabm1237,-9.77284,124.144,False,True,False
+43,Aklanon - Bisayan,akla1241,11.5543,122.354,False,True,False
+44,Babatana,baba1268,-7.22281,157.149,False,True,False
+45,Berawan (Long Terawan),west2564,3.9815,114.528,False,True,False
+46,Biga (Misool),matb1237,-1.8801,130.075,False,True,False
+47,Bikol (Naga City),cent2087,13.7574,123.403,False,True,False
+48,Buginese (Soppeng Dialect),bugi1244,-4.47,119.977,False,True,True
+49,Buli,buli1255,1.0008,128.443,False,True,False
+50,Buru [Namrole Bay],buru1303,-3.43957,126.632,False,True,False
+51,Bwaidoga,bwai1243,,,False,False,False
+52,Hawaiian,hawa1245,19.6297,-155.43,False,True,False
+53,Hitu (Ambon),hitu1239,-3.57478,128.186,False,True,False
+54,Hoava,hoav1238,-8.19679,157.595,False,True,False
+55,Kasira (Irahutu),irar1238,-2.94438,133.586,False,True,False
+56,Kaulong (Au Village),kaul1240,-6.08192,149.696,False,True,False
+57,Kayupulau [Kajupulau],kayu1243,-2.54415,140.626,False,True,False
+58,Rarotongan,raro1241,-21.23,-159.78,False,True,False
+59,Kei (Tanimbar-Kei),keii1239,-5.63948,133.02,False,True,False
+60,Kelabit (Bario),kela1258,3.31783,115.428,False,True,False
+61,Kemak,kema1243,-9.00299,125.159,False,True,False
+62,Kenyah (Long Anap),main1275,3.42975,116.47431,False,True,False
+63,Kerinci,keri1250,-1.93668,101.403,False,True,False
+64,Nukuoro,nuku1260,3.84,154.975,False,True,False
+65,Kusaie,kosr1238,5.31,162.98,False,True,False
+66,Kwaio,kwai1243,-8.93744,160.965,False,True,False
+67,Lamogai (Mulakaino),lamo1244,-5.87071,149.321,False,True,False
+68,Lau,lauu1247,-8.51018,160.872,False,True,False
+69,Leipon,leip1237,-1.9665,147.226,False,True,False
+70,Letinese,leti1246,-8.19808,127.674,False,True,False
+71,Levei,kheh1237,-2.06626,146.746,False,True,False
+72,Likum,liku1243,-2.16157,146.695,False,True,False
+73,Loniu,loni1238,-2.06124,147.35,False,True,False
+74,Lou,louu1245,-2.38659,147.346,False,True,False
+75,Madurese,nucl1460,-7.0,113.0,False,True,False
+76,Nêlêmwa,kuma1276,-20.4035,164.193,False,True,False
+77,Yapese,yape1248,9.55811,138.125,False,True,False
+78,Yamdena,yamd1240,-7.73722,131.44,False,True,False
+79,Mussau,muss1248,,,False,False,False
+80,Murnaten (Alune),alun1238,-3.11477,128.394,False,True,False
+81,Mono,mono1274,,,False,False,False
+82,Maleu,male1289,-5.61613,148.445,False,True,False
+83,Maloh,emba1238,1.3156,112.63,False,True,False
+84,Manggarai,mang1405,-8.55748,120.329,False,True,False
+85,Maori,maor1246,-38.2881,176.541,False,True,False
+86,Maranao,mara1404,7.79414,124.175,False,True,False
+87,Marovo,maro1244,-8.37943,157.747,False,True,False
+88,Masiwang,masi1266,-3.29547,130.601,False,True,False
+89,Mekeo,meke1243,-8.23853,146.586,False,True,False
+90,Melanau (Mukah),cent2101,2.524086,111.346451,False,True,False
+91,Mengen,meng1267,-5.47036,151.373,False,True,False
+92,Merina (Malagasy),meri1243,,,False,False,False
+93,Minyaifuin (Gebe),gebe1237,-0.07877,129.424,False,True,False
+94,Misima,misi1243,-10.6821,152.696,False,True,False
+95,Moken,moke1242,10.1474,98.6765,False,True,False
+96,Nauna,naun1237,-2.21213,148.201,False,True,False
+97,Nauru,naur1243,-0.52957,166.922,False,True,False
+98,Nehan Hape,neha1247,-4.56875,154.2,False,True,False
+99,Nengone,neng1238,-21.5305,167.964,False,True,False
+100,Ngadha,ngad1261,-8.79508,120.976,False,True,False
+101,Ngaibor (S.Aru),west2538,-6.62046,134.168,False,True,False
+102,Nggela,gela1263,-9.04587,160.186,False,True,False
+103,Nguna,ngun1274,,,False,False,False
+104,Nias,nias1242,0.90691,97.4961,False,True,False
+105,Nissan,neha1247,-4.56875,154.2,False,True,False
+106,Numfor,biak1248,-0.9523,135.879,False,True,False
+107,Ogan,cent2053,-3.79673,103.137,False,True,False
+108,Paamese (South),sout2858,,,False,False,False
+109,Palauan,pala1344,7.34138,134.476678,False,True,False
+110,Paulohi,paul1238,-3.25404,128.779,False,True,False
+111,Peterara (Maewo),pete1237,,,False,False,False
+112,Popalia,tuka1249,-5.7478,123.948,False,True,True
+113,Raga,hano1246,-15.5432,168.167,False,True,False
+114,Rejang Rejang,reja1240,-3.33056,102.434,False,True,False
+115,Roti (Termanu Dialect),term1237,-10.7326,123.169,False,True,False
+116,Rotuman,rotu1241,-12.5008,177.066,False,True,False
+117,Roviana,rovi1238,-8.20493,157.408,False,True,False
+118,Samoan,samo1305,-13.92,-171.83,False,True,False
+119,Savu,sabu1255,-10.5522,121.847,False,True,False
+120,"Ambrym, South-East",sout2859,-16.2975,168.211,False,True,False
+121,Seimat,seim1238,-1.2666667,144.25,False,True,False
+122,Selaru,sela1259,-8.18376,130.961,False,True,False
+123,Sengseng,seng1281,-6.16474,149.784,False,True,False
+124,Sika,sika1262,-8.67302,122.38,False,True,False
+125,Singhi,baub1235,1.54467,109.985,False,True,False
+126,Sobei,sobe1238,-1.86998,138.75,False,True,False
+127,Soboyo,tali1262,-1.79516,124.869,False,True,True
+128,Rurutuan,ruru1237,,,False,False,False
+129,Tabar,taba1261,,,False,False,False
+130,Tahitian (18th Century),tahi1242,-17.6485,-149.45,False,True,False
+131,Tangga,tang1348,-4.08824,153.611,False,True,False
+132,Tarpia,tarp1240,-2.322279,140.115497,False,True,False
+133,Tboli (Tagabili),tbol1240,6.20377,124.538,False,True,False
+134,Tetum,tetu1246,-8.58405,125.583,False,True,False
+135,Tigak,tiga1245,-2.70951,150.893,False,True,False
+136,Tongan,tong1325,-21.17,-175.25,False,True,False
+137,Tontemboan,tont1239,1.24813,124.654,False,True,True
+138,Tsou T63,tsou1248,23.216,120.787,False,True,False
+139,Vaghua,vagh1249,-6.68712,156.542,False,True,False
+140,Vitu,mudu1242,-4.69751,149.489,False,True,False
+141,Wampar,wamp1247,-6.67364,146.662,False,True,False
+142,Waropen,waro1242,-2.31142,136.633,False,True,False
+143,Watubela,watu1247,-4.47294,131.641,False,True,False
+144,Western Bukidnon Manobo,west2555,7.6682,124.825,False,True,False
+145,Windesi Wandamen,wand1267,-2.25622,133.996,False,True,False
+146,Wogeo,woge1237,-3.20238,144.089,False,True,False
+147,Wuna,muna1247,-5.40419,122.541,False,True,True
+148,Wuvulu,wuvu1240,,,False,False,False
+149,Anejom (Aneityum),anei1239,-20.1864,169.825,False,True,False
+150,Banjarese Malay,banj1239,0.747105,115.79,False,True,False
+151,Belait,bela1260,4.96207,114.933,False,True,False
+152,Pukapuka,puka1242,-10.91,-165.83,False,True,False
+153,Cebuano,cebu1242,8.38799,124.367,False,True,False
+154,Dayak Ngaju,ngaj1237,-1.58463,112.794,False,True,False
+155,Tikopia,tiko1237,-12.2766,168.822,False,True,False
+156,Futuna-Aniwa,futu1245,-19.5303,170.215,False,True,False
+157,Itbayaten,ivat1242,20.77,121.85,False,True,False
+158,Katingan,ngaj1237,-1.58463,112.794,False,True,False
+159,Kilivila,kili1267,-8.72574,151.072,False,True,False
+160,Kisar,kisa1266,-8.05122,127.18,False,True,False
+161,Koiwai (Irian Jaya),kowi1239,-4.21954,133.468,False,True,False
+162,Lenakel,lena1238,-19.4763,169.261,False,True,False
+163,Tuvalu,tuva1244,-8.520813,179.198088,False,True,False
+164,Magori (South East Papua),mago1248,-10.2321,149.26,False,True,False
+165,Maisin,mais1250,-9.22853,148.731,False,True,False
+166,Makassar,maka1311,-5.65551,119.838,False,True,True
+167,Mambai,mamb1306,-9.19552,125.475,False,True,False
+168,Manam,mana1295,-4.07921,145.033,False,True,False
+169,Marshallese (E. Dialect),rata1243,,,False,False,False
+170,Melayu Ambon,ambo1250,-3.71342,128.184,False,True,False
+171,Lamusong,lamu1255,,,False,False,False
+172,Minangkabau,mina1268,-0.896,100.44,False,True,False
+173,Tahitian (Modern),tahi1242,-17.6485,-149.45,False,True,False
+174,Pulo Anna,pulo1240,,,False,False,False
+175,Chuukese,chuu1238,7.346993,151.598607,False,True,False
+176,Nakanai (Bileki Dialect),bile1245,,,False,False,False
+177,Paiwan (Kulalao F82),paiw1248,22.3271,120.806,False,True,False
+178,Patpatar,patp1243,-3.74711,152.493,False,True,False
+179,Ponapean,pohn1238,6.87212,158.223,False,True,False
+180,Pulau (Arguni),argu1237,-2.645798,132.5556,False,True,False
+181,Punan Kelai,sega1243,1.97695,116.954,False,True,False
+182,Ririo,riri1237,-6.88927,156.92,False,True,False
+183,Sangir,sang1336,3.50554,125.56523,False,True,False
+184,Santa Ana,sant1414,,,False,False,False
+185,Sasak,sasa1249,-8.58349,116.284,False,True,False
+186,Sekar,seka1247,-2.65849,132.469,False,True,False
+187,Teop,teop1238,-5.67474,154.971,False,True,False
+188,Toba Batak,bata1289,2.35498,99.1761,False,True,False
+189,Tunjung,tunj1244,-0.29048,115.883,False,True,False
+190,Ujir (N.Aru),ujir1237,-5.69329,134.257,False,True,False
+191,Varisi,vari1239,-6.83443,156.655,False,True,False
+192,Wolio,woli1241,-5.33,122.67,False,True,True
+193,Hiligaynon,hili1240,10.4018,122.974,False,True,False
+194,Bonfia,masi1266,-3.29547,130.601,False,True,False
+195,Bukat,buka1261,1.29075,113.246,False,True,False
+196,Dehu,dehu1237,-20.8892,167.229,False,True,False
+197,"Elat, Kei Besar",keib1237,,,False,False,False
+198,Woleai,wole1240,7.37957,143.916,False,True,False
+199,Alune,alun1238,-3.11477,128.394,False,True,False
+200,Yakan,yaka1277,6.531023,122.021729,False,True,False
+201,Carolinian,caro1242,15.205,145.765,False,True,False
+202,"Bunun F69, Southern",bunu1267,23.4116,121.025,False,True,False
+203,Kanakanabu F69,kana1286,23.3235,120.887,False,True,False
+204,"Lio, Flores Tongah",lioo1240,-8.68615,121.832,False,True,False
+205,Lahanan,laha1253,2.72734,113.947,False,True,False
+206,Rennellese,mung1271,,,False,False,False
+207,As,asss1237,-0.75267,131.728,False,True,False
+208,Bare'e,pamo1252,-1.62663,121.268,False,True,True
+209,Cheke Holo,chek1238,-8.27055,159.625,False,True,False
+210,"Futuna, East",east2447,-14.278717,-178.137222,False,True,False
+211,Gapapaiwa,gapa1238,-9.73317,149.854,False,True,False
+212,Jawe,jawe1237,-20.6648,164.676,False,True,False
+213,Kwara'ae (Solomon Islands'),kwar1239,-8.75779,160.804,False,True,False
+214,Lampung,lamp1243,-5.73463,105.037,False,True,False
+215,Ma'anyan,maan1238,-2.1239,115.092,False,True,False
+216,Mailu,mail1248,-10.3657,149.521,False,True,False
+217,Kapingamarangi,kapi1249,1.039166,154.797223,False,True,False
+218,Dobuan,dobu1241,-9.63239,150.825,False,True,False
+219,Molima,moli1248,-9.57457,150.614,False,True,False
+220,Roro,waim1251,-8.67145,146.544,False,True,False
+221,Sa'a,saaa1240,-9.60258,161.467,False,True,False
+222,Ubir,ubir1237,-9.59044,149.396,False,True,False
+223,To'ambaita,toab1237,-8.39233,160.619,False,True,False
+224,Teanu,tean1237,-11.6752,166.868,False,True,False
+225,Taiof,sapo1253,-5.64103,154.732,False,True,False
+226,Tae' (S.Toraja),tora1261,-2.97144,119.829,False,True,True
+227,Suau,suau1242,-10.6606,150.21,False,True,False
+228,"Tanna, Southwest",sout2869,-19.57953,169.35603,False,True,False
+229,Emae,emae1237,-17.052,168.399,False,True,False
+230,Sakao (Port-Olry),saka1289,-15.0757,167.051,False,True,False
+231,Numbami (Siboma),numb1247,-7.52806,147.298,False,True,False
+232,Modang,moda1244,0.80793,116.573,False,True,False
+233,Malay (Bahasa Indonesia),indo1316,-7.33458,109.716,False,True,False
+234,Zabana (Kia),zaba1237,-7.74311,158.753,False,True,False
+235,Penrhyn,penr1237,-9.082238,-157.922908,False,True,False
+236,Kédang,keda1252,-8.23039,123.77,False,True,False
+237,Kayan (Uma Juman),reja1241,2.71903,114.169,False,True,False
+238,Luangiua,onto1237,-5.49029,159.701,False,True,False
+239,Mangareva,mang1401,-23.1095,-134.97,False,True,False
+240,Bolaang Mongondow,mong1342,0.64616,124.114,False,True,True
+241,Thao B96,thao1240,23.8333,120.93,False,True,False
+242,Ifira-Mele (Mele-Fila),mele1250,-17.6841,168.275,False,True,False
+243,Sikaiana,sika1261,-8.37701,162.72522,False,True,False
+244,Takuu,taku1257,-4.773094,157.032085,False,True,False
+245,Tokelau,toke1240,-9.227642,-171.780833,False,True,False
+246,Tuamotu,tuam1242,-16.17259,-146.321755,False,True,False
+247,Niue,niue1239,-19.06,-169.86,False,True,False
+248,Iraralay,ivat1242,20.77,121.85,False,True,False
+249,Itbayat,ivat1242,20.77,121.85,False,True,False
+250,Imorod,ivat1242,20.77,121.85,False,True,False
+251,Ivasay,ivat1242,20.77,121.85,False,True,False
+252,Isamorong,ivat1242,20.77,121.85,False,True,False
+253,Anuta,anut1237,-11.61,169.85,False,True,False
+254,Yami,yami1254,22.055,121.544,False,True,False
+255,Atayal - Squliq F69,atay1247,24.5209,121.388,False,True,False
+256,Atayal - C'uli' F69 (Bandai),atay1247,24.5209,121.388,False,True,False
+257,Favorlang F69,babu1240,24.0017,120.585,False,True,False
+258,"Uvea, East",wall1257,-13.2903,-176.207,False,True,False
+259,"Uvea, West",west2516,-20.4145,166.589,False,True,False
+260,Kavalan F69,kava1241,24.6947,121.645,False,True,False
+262,Ida'an,idaa1241,5.29059,118.515,False,True,False
+263,Melayu Brunei (Dialect),brun1242,4.456045,114.429505,False,True,False
+264,Rapanui (Easter Island),rapa1244,-27.113,-109.342,False,True,False
+265,Palawan Batak,bata1301,10.1115,119.025,False,True,False
+266,Pazih F69,kulo1237,23.7562,120.976,False,True,False
+267,Proto-Central Eastern Malayo Polynesian,ruka1240,22.7738,120.844,True,True,False
+268,Proto-Central Malayo Polynesian,cent2245,,,True,False,False
+269,Proto-Malayo-Polynesian,mala1545,,,True,False,False
+270,Proto-Oceanic (Blust),ocea1241,,,True,False,False
+271,Puyuma (Chihpen F69),puyu1239,22.643,120.996,False,True,False
+272,Rukai (Budai F69),ruka1240,22.7738,120.844,False,True,False
+273,Saaroa F69,saar1237,23.2632,120.711,False,True,False
+274,Saisiyat F69,sais1237,24.6043,121.067,False,True,False
+275,Seediq F69 (Sakura),taro1264,23.9032,121.358,False,True,False
+276,Siraya F69,sira1267,22.9777,120.315,False,True,False
+277,Tagalog,taga1270,14.06,121.747,False,True,False
+278,Werinama,bobo1254,-3.43514,130.179,False,True,False
+279,Ibanag,iban1267,17.4201,121.891,False,True,False
+280,Proto-Austronesian,aust1307,,,True,False,False
+281,Lakalai,naka1262,-5.59931,150.888,False,True,False
+282,Kove,kove1237,-5.58623,149.63,False,True,False
+283,Yogya,java1254,-7.001,109.287,False,True,False
+284,Sundanese,sund1252,-6.89708,107.106,False,True,False
+285,Amara,amar1272,-5.55778,148.68,False,True,False
+286,Mouk,mouk1240,,,False,False,False
+287,Aria,mouk1239,-5.71155,149.158,False,True,False
+288,Ilokano,ilok1237,15.9361,120.993,False,True,False
+289,Babuyan,babu1242,19.48,121.96,False,True,False
+290,Old Javanese,java1254,-7.001,109.287,False,True,False
+291,Koronadal Blaan,koro1310,6.20529,125.007,False,True,False
+292,Proto-Southern Mindanaon,,,,True,False,False
+293,Sarangani Blaan,sara1326,6.03691,125.354,False,True,False
+294,'Auhelawa,auhe1237,-10.0959,151.002,False,True,False
+295,Oirata,oira1263,-8.09044,127.201,False,True,False
+296,Iliun,iliu1237,-7.84385,125.902,False,True,False
+297,Tugun,tugu1245,-7.72555,126.7,False,True,False
+298,Perai,pera1257,-7.62349,126.576,False,True,False
+299,Aputai,aput1237,-7.84732,126.496,False,True,False
+300,Galolen (Talur),galo1243,-8.61074,125.959,False,True,False
+301,Luang,luan1263,-8.18378,127.944,False,True,False
+302,East Damar,east2472,-7.16991,128.636,False,True,False
+303,Teun,teun1241,-6.97086,129.143718,False,True,False
+304,Serua,seru1245,-6.31107,130.017294,False,True,False
+305,Nila,nila1244,-6.734956,129.512131,False,True,False
+306,West Damar,west2548,-7.12065,128.585,False,True,False
+307,Dawera-Daweloor,dawe1237,-7.76324,130.06,False,True,False
+308,Dai,daii1240,-7.55894,129.687,False,True,False
+309,North Babar,nort2860,-7.84311,129.743,False,True,False
+310,South-East Babar,sout2883,-7.94359,129.8,False,True,False
+311,Serili,seri1255,-8.11241,129.901,False,True,False
+312,East Masela,east2462,-8.13455,129.873,False,True,False
+313,Central Masela,cent2072,-8.15414,129.865,False,True,False
+314,Emplawas,empl1237,-8.03209,129.721,False,True,False
+315,Tela-Masbuar,tela1241,-8.01195,129.687,False,True,False
+316,Imroing,imro1237,-7.96772,129.651,False,True,False
+317,Pondok,anak1240,-9.63425,119.605,False,True,False
+318,Kodi,kodi1247,-9.6373,119.114,False,True,False
+319,Wanukaka,wanu1241,-9.69834,119.468,False,True,False
+320,Anakalang,anak1240,-9.63425,119.605,False,True,False
+321,Baliledo,anak1240,-9.63425,119.605,False,True,False
+322,South Efate,sout2856,-17.7006,168.377,False,True,False
+323,Lamboya,lamb1273,-9.70434,119.344,False,True,False
+324,Mamboru,mamb1305,-9.42302,119.55,False,True,False
+325,Gaura Nggaura,kodi1247,-9.6373,119.114,False,True,False
+326,Wewewa (Tana Righu dialect),weje1237,-9.55099,119.349,False,True,False
+327,So'a,cent2074,-8.6778,121.04764,False,True,False
+328,"East Sumbanese Kambera, Southern dialect",kamb1299,-9.88447,120.235,False,True,False
+329,"East Sumbanese, Lewa dialect",kamb1299,-9.88447,120.235,False,True,False
+330,"East Sumbanese, Umbu Ratu Nggai dialect",kamb1299,-9.88447,120.235,False,True,False
+331,Old Chinese,oldc1244,36.12,114.32,False,True,False
+332,Roma,roma1332,-7.58643,127.428,False,True,False
+333,Komering,kome1238,-3.79215,105.107,False,True,False
+334,Yabem,yabe1254,-6.67052,147.81,False,True,False
+335,Yami,yami1254,22.055,121.544,False,True,False
+336,Puluwatese,pulu1242,7.35695,149.2005,False,True,False
+337,Pulo-Annan,pulo1240,,,False,False,False
+338,Saipan Carolinian,caro1242,15.205,145.765,False,True,False
+339,Saipan Carolinian Tanapag,tana1281,15.237,145.757,False,True,False
+340,Proto-Micronesian,micr1243,,,True,False,False
+341,Nage,nage1237,-8.70513,121.31,False,True,False
+342,Mokilese,moki1238,6.65651,159.776,False,True,False
+343,Satawalese,sata1237,7.36084,147.038,False,True,False
+344,Marshallese,mars1254,8.72,167.73,False,True,False
+345,Mortlockese,mort1237,5.50735,153.710778,False,True,False
+346,Kiribati,gilb1244,0.179,173.64,False,True,False
+347,Woleaian,wole1240,7.37957,143.916,False,True,False
+348,Proto-Chuukic,truk1243,,,True,False,False
+349,Chuukese,chuu1238,7.346993,151.598607,False,True,False
+350,Amis (Central),amis1246,23.0917,121.348,False,True,False
+351,Buyang (Langjia),emab1235,23.604572,106.030277,False,True,False
+352,Nembao,amba1266,-11.2958,166.498,False,True,False
+353,Asumboa,asum1237,-11.2969,166.499,False,True,False
+354,Tanimbili,tani1255,-11.2975,166.507,False,True,False
+355,Buma,tean1237,-11.6752,166.868,False,True,False
+356,Vano,vano1237,-11.6107,166.7984,False,True,False
+357,Tanema,tane1237,-11.68,166.97,False,True,False
+358,Amahai,amah1245,-3.32028,128.939,False,True,False
+359,Tungag / Tungak / Lavongai,tung1290,-2.52188,150.198,False,True,False
+360,Dayak Ngaju,ngaj1237,-1.58463,112.794,False,True,False
+361,Hainan Cham,tsat1238,18.3192,109.336,False,True,False
+362,Indonesian,indo1316,-7.33458,109.716,False,True,False
+363,Sisingga,sisi1250,-7.0,156.83,False,True,False
+364,Siar,siar1238,-4.62059,152.892,False,True,False
+365,Kokota,koko1269,-8.16481,159.191,False,True,False
+366,Takia,taki1248,-4.69057,145.975,False,True,False
+367,Sudest,sude1239,-11.5229,153.488,False,True,False
+368,Nalik,nali1244,-2.94411,151.332,False,True,False
+369,Basay TsYM91,basa1287,25.0046,121.857,False,True,False
+370,Nalik,nali1244,-2.94411,151.332,False,True,False
+371,Phan Rang Cham (Eastern Cham),east2563,11.2853,108.49,False,True,False
+372,Madara,mand1440,-2.7828,151.956,False,True,False
+373,Savosavo,savo1255,-9.12853,159.814,False,True,False
+374,Diodio,diod1237,-9.38654,150.168,False,True,False
+375,Vaeakau-Taumako,pile1238,-10.173335,166.247188,False,True,False
+376,Mwotlap,motl1237,-13.655015,167.706277,False,True,False
+377,Haku,hako1237,-5.06832,154.594,False,True,False
+378,Japhug Rgyalrong,jiar1240,31.60295,102.22875,False,True,False
+379,Sou Amana Teru,tule1244,-3.57785,128.31,False,True,False
+380,Vilirupu,sina1266,-9.79791,147.861,False,True,False
+381,Wedau,weda1241,-10.1246,150.172,False,True,False
+382,Tolai,kuan1248,-4.30986,152.114,False,True,False
+383,Madak,mada1285,-3.34342,151.967,False,True,False
+384,Kara (West),west2524,,,False,False,False
+385,Lihir (Sunglik),lihi1237,-3.18895,152.606,False,True,False
+386,Lunga Lunga  (Minigir),mini1251,-4.31803,152.005,False,True,False
+387,Barok,baro1253,-3.47672,152.193,False,True,False
+388,Kandas,kand1301,-4.3652,152.781,False,True,False
+389,Tagalog,taga1270,14.06,121.747,False,True,False
+390,Torau,tora1259,-6.19922,155.496,False,True,False
+391,Tiang,tian1237,-2.95505,150.935,False,True,False
+392,Bilur,bilu1244,-4.39732,152.334,False,True,False
+393,Kuni,kuni1263,-8.66368,146.874,False,True,False
+394,Maututu,maut1237,,,False,False,False
+395,Lala,lala1268,-8.93195,146.749,False,True,False
+396,Doura,tour1243,-9.10008,146.988,False,True,False
+397,Gabadi,abad1241,-9.03389,146.992,False,True,False
+398,Solos,solo1257,-5.41042,154.624,False,True,False
+399,Megiar,megi1245,,,False,False,False
+400,Matukar,matu1261,-4.9078,145.779,False,True,False
+401,Riwo,geda1237,-5.18175,145.781,False,True,False
+402,Bilibil,bilb1241,-5.26505,145.764,False,True,False
+403,Tetun Terik (Fehan dialect),tetu1245,-9.11217,125.528,False,True,False
+404,Saliba,sali1295,-10.6148,150.727,False,True,False
+405,Pangasinan,pang1290,15.9377,120.365,False,True,False
+406,Chru,chru1239,11.6625,108.529,False,True,False
+407,"Hmong, White",hmon1333,21.5461,103.164,False,True,False
+408,Tagalog (Anthony dela Paz),taga1270,14.06,121.747,False,True,False
+409,Agta,cent2084,17.9571,121.857,False,True,False
+410,"Atta, Pamplona",pamp1244,18.4738,121.3,False,True,False
+411,Balangaw,bala1310,17.0994,121.272,False,True,False
+412,"Batak, Palawan",bata1301,10.1115,119.025,False,True,False
+413,"Bilaan, Koronadal",koro1310,6.20529,125.007,False,True,False
+414,"Bilaan, Sarangani",sara1326,6.03691,125.354,False,True,False
+415,Binukid,binu1244,8.15933,124.892,False,True,False
+416,"Bontok, Guina-ang",guin1256,,,False,False,False
+417,"Dumagat, Casiguran",casi1235,16.2176,121.878,False,True,False
+418,Gaddang,gadd1244,16.5468,121.177,False,True,False
+419,"Ifugao, Amganad",amga1235,16.9016,121.042,False,True,False
+420,"Ifugao, Batad",bata1298,16.8266,121.23,False,True,False
+421,"Ifugao, Bayninan",kele1259,16.7099,121.035,False,True,False
+422,"Ilongot, Kakiduge:n",ilon1239,16.3785,121.547,False,True,False
+423,Inibaloi,ibal1244,16.4263,120.695,False,True,False
+424,"Isneg, Dibagat-Kabugao-Isneg",isna1241,18.2139,121.16,False,True,False
+425,Itbayaten,ivat1242,20.77,121.85,False,True,False
+426,"Itneg, Binongan",bino1237,17.5972,120.876,False,True,False
+427,"Ivatan, Basco Dialect",ivat1242,20.77,121.85,False,True,False
+428,Kalagan,kala1388,6.8126,125.328,False,True,False
+429,"Kalinga, Guinaang, Lubuagan Dialect",lubu1243,17.3879,121.0365,False,True,False
+430,"Kallahan, Kayapa Proper",kaya1320,16.321,120.9,False,True,False
+431,"Kallahan, Keleyqiq",kele1259,16.7099,121.035,False,True,False
+432,"Kankanay, Northern",nort2877,17.1057,120.786,False,True,False
+433,Mamanwa,mama1275,9.44744,125.548,False,True,False
+434,"Manobo, Ata (up-river)",atam1240,7.7789,125.499,False,True,False
+435,"Manobo, Ata (down-river)",atam1240,7.7789,125.499,False,True,False
+436,"Manobo, Dibabawon",diba1242,7.85664,126.018,False,True,False
+437,"Manobo, Ilianen (Kibudtungan Dialect)",ilia1236,7.34448,124.766,False,True,False
+438,"Manobo, Kalamansig Cotabato (Paril Dialect)",cota1241,6.39417,124.234,False,True,False
+439,"Manobo, Sarangani, Kayaponga Dialect",sara1327,5.84903,125.499,False,True,False
+440,"Manobo, Tigwa, Iglogsad Dialect",mati1250,7.72124,125.16,False,True,False
+441,"Manobo, Western Bukidnon",west2555,7.6682,124.825,False,True,False
+442,Mansaka,mans1262,6.79221,126.181,False,True,False
+443,"Samal, Siasi Dialect",cent2092,7.004574,118.455978,False,True,False
+444,"Sambal, Botolan",boto1242,15.2315,120.164,False,True,False
+445,"Sangil, Saragani Islands",sang1337,5.40229,125.378,False,True,False
+446,"Sangir, Tabukang Dialect",sang1336,3.50554,125.56523,False,True,False
+447,"Subanun, Sindangan",cent2089,8.12701,123.018,False,True,False
+448,"Subanon, Siocon",west2557,7.79964,122.341,False,True,False
+449,Tagabili,tbol1240,6.20377,124.538,False,True,False
+450,"Tagbanwa, Aborlan Dialect",cent2090,10.6519,119.338,False,True,False
+451,"Tagbanwa, Kalamian, Coron Island Dialect",cala1258,12.0716,120.094,False,True,False
+452,"Tausug, Jolo Dialect",taus1251,5.12236,118.88,False,True,False
+453,Nahavaq,sout2857,-16.5116,167.477,False,True,False
+454,Amami,nort2935,28.20991,129.45346,False,True,False
+455,Miyako,miya1259,24.7564,125.363,False,True,False
+456,Avava,katb1237,-16.2701,167.484,False,True,False
+457,Naman,litz1237,-16.1331,167.415,False,True,False
+458,Iranun,iran1262,4.3362,118.224,False,True,False
+459,Nese,nese1235,-15.952608,167.222769,False,True,False
+460,Tape,mara1399,-16.0695,167.33,False,True,False
+461,Fataluku,fata1247,-8.49464,127.08,False,True,False
+462,Makasae,maka1316,-8.65843,126.507,False,True,False
+463,Sye (Erromangan),siee1239,-18.8181,169.166,False,True,False
+464,Ura,urav1235,-18.6747,169.084,False,True,False
+465,Araki (Southwest Santo),arak1252,-15.632997,166.952542,False,True,False
+466,Surigaonon,suri1273,9.0,126.0,False,True,False
+467,Ilonggo,hili1240,10.4018,122.974,False,True,False
+468,Melayu,stan1306,3.08896,101.699,False,True,False
+469,Tolo,tolo1254,,,False,False,False
+470,Merei,mere1242,-15.2839,166.905,False,True,False
+471,Iaai,iaai1238,-20.6301,166.59,False,True,False
+472,Nehan,neha1247,-4.56875,154.2,False,True,False
+473,Simbo,simb1256,-8.26947,156.541,False,True,False
+474,Uruava,urua1242,-6.23314,155.573,False,True,False
+475,Namakir,nama1268,-16.8979,168.569,False,True,False
+476,Orkon,orko1234,-16.210501,168.212109,False,True,False
+477,Kwamera,kwam1252,-19.5954,169.442,False,True,False
+478,Low Malay (1773),stan1306,3.08896,101.699,False,True,False
+479,Maori (1773),maor1246,-38.2881,176.541,False,True,False
+480,Guguyimidjir (1773),gugu1255,-14.9424,144.831,False,True,False
+481,Tahiti (1773),tahi1242,-17.6485,-149.45,False,True,False
+482,Savu (1773),sabu1255,-10.5522,121.847,False,True,False
+483,Butuanon,butu1244,8.87009,125.418,False,True,False
+484,Neve'ei,vinm1237,-16.2253,167.427,False,True,False
+485,Nāti,nati1244,-16.468709,167.496054,False,True,False
+486,Lamalera (lembata),lama1278,-8.53225,123.442,False,True,False
+487,Kadorih,otda1235,-0.3955,113.469,False,True,False
+488,Dayak Bakatiq-Sara/Riok,beka1241,1.3307,109.576,False,True,False
+489,Bajo,indo1317,-3.68664,122.253,False,True,True
+490,Inabaknon,inab1237,12.4264,124.166,False,True,False
+491,Mapun,mapu1244,6.09061,118.75,False,True,False
+492,Enggano (Malakoni Village),engg1245,-5.38846,102.245,False,True,False
+493,Enggano (Banjar Sari),engg1245,-5.38846,102.245,False,True,False
+494,S.W. Palawano,sout2916,8.67624,117.36,False,True,False
+495,Bundu Dusun (Central Dusun),cent2100,6.02998,116.681,False,True,False
+496,Tonsea,tons1240,1.51393,125.052,False,True,True
+497,Biliau,awad1244,-5.59896,146.355,False,True,False
+498,Pingilapese,ping1243,6.20743,160.711,False,True,False
+499,Sonsorolese,sons1243,,,False,False,False
+500,Arosi,aros1241,-10.2441,161.432,False,True,False
+501,Äiwoo,ayiw1239,-10.30387,166.32344,False,True,False
+502,Nanggu,nang1262,-10.7441,165.887,False,True,False
+503,Ende,ende1246,-8.70998,121.555,False,True,False
+504,"Malo, Santa Cruz",malo1246,,,False,False,False
+505,"Lwepe, Santa Cruz",natu1246,-10.6771,165.835,False,True,False
+506,Tetun (Dili),tetu1246,-8.58405,125.583,False,True,False
+507,Melayu Sarawak (dialect),mala1479,1.85856,103.0,False,True,False
+508,Kubokota,kubo1244,,,False,False,False
+509,Luqa,lung1249,-8.17469,156.573,False,True,False
+510,Sivisa Titan,tita1241,-2.18168,146.888,False,True,False
+511,Gumawana,guma1254,-9.28497,150.762,False,True,False
+512,Western Fijian (Navosa),west2519,-17.8355,177.657,False,True,False
+513,Waray-Waray,wara1300,11.4911,125.012,False,True,False
+514,Kahua (Mami),kahu1241,-10.6963,162.191,False,True,False
+515,Kahua,kahu1241,-10.6963,162.191,False,True,False
+516,Tawaroga,kahu1241,-10.6963,162.191,False,True,False
+517,Fagani,faga1239,-10.4479,161.662,False,True,False
+518,Ughele,ughe1237,-8.45725,157.341,False,True,False
+519,Lavukaleve,lavu1241,-9.05569,159.119,False,True,False
+520,Lengo (Paripao),pari1257,,,False,False,False
+521,Nduke,duke1237,-7.97768,157.064,False,True,False
+522,Babatana (Katazi),kata1267,,,False,False,False
+523,Mbilua (Ndovele),bilu1245,-7.92388,156.663,False,True,False
+524,Mbilua,bilu1245,-7.92388,156.663,False,True,False
+525,Ghanongga,ghan1242,-8.02035,156.552,False,True,False
+526,Mbaniata (Lokuru),touo1238,-8.58405,157.296,False,True,False
+527,Mbaniata,touo1238,-8.58405,157.296,False,True,False
+528,Kusaghe,kusa1251,-8.04056,157.463,False,True,False
+529,Mono (Fauro),faur1237,,,False,False,False
+530,Mono (Alu),aluu1243,,,False,False,False
+531,Lengo (Ghaimuta),ghai1237,,,False,False,False
+532,Dori'o,dori1246,-9.11536,160.897,False,True,False
+533,Sa'a (Ulawa),ulaw1237,,,False,False,False
+534,Sa'a (Uki Ni Masi),ukin1237,,,False,False,False
+535,Vangunu,vang1243,-8.66826,157.997,False,True,False
+536,Babatana (Avasö),avas1237,,,False,False,False
+537,Ghari (Nggae),gaee1238,,,False,False,False
+538,Ghari (Ndi),ndii1241,,,False,False,False
+539,Ghari (Nggeri),geri1237,,,False,False,False
+540,Ghari (Tandai),tand1254,,,False,False,False
+541,Ghari (Nginia),ngin1246,,,False,False,False
+542,Malango,mala1484,-9.61383,160.118,False,True,False
+543,Talise (Koo),kooo1245,,,False,False,False
+544,Talise (Malagheti),mala1483,,,False,False,False
+545,Talise (Moli),moli1247,,,False,False,False
+546,Talise (Poleo),pole1240,,,False,False,False
+547,Talise,tali1259,-9.76764,160.231,False,True,False
+548,Mbirao,bira1254,-9.73716,160.52,False,True,False
+549,Langalanga,wala1266,-8.81936,160.741,False,True,False
+550,Kwai,gula1270,-8.74742,161.023,False,True,False
+551,Varisi (Ghone),bare1273,,,False,False,False
+552,Babatana (Lömaumbi),loma1262,,,False,False,False
+553,Laghu (Samasodu),lagh1246,-8.00509,158.961,False,True,False
+554,Mbareke,bare1273,,,False,False,False
+555,Nggao (Poro),gaoo1237,-8.35163,159.789,False,True,False
+556,Fagani (Rihu'a),rihu1237,,,False,False,False
+557,Oroha,oroh1237,-9.7386,161.513,False,True,False
+558,Santa Catalina,sant1413,,,False,False,False
+559,Bellona,mung1270,,,False,False,False
+560,Kazukuru,kazu1245,-8.23886,157.687,False,True,False
+561,Longgu,long1395,-9.75258,160.663,False,True,False
+562,Lungga,lung1249,-8.17469,156.573,False,True,False
+563,Lengo,leng1259,-9.56425,160.42,False,True,False
+564,Mbaelelea,bael1237,-8.41627,160.721,False,True,False
+565,Mbaengguu,baeg1237,-8.49014,160.771,False,True,False
+566,Fataleka,fata1245,-8.59041,160.861,False,True,False
+567,Bauro (Haununu),haun1237,,,False,False,False
+568,Marau (Guadalcanal),area1240,-9.20699,161.158,False,True,False
+569,Babatana (Tunöe),baba1268,-7.22281,157.149,False,True,False
+570,Fagani (Agufi),aguf1237,,,False,False,False
+571,Sengga,seng1280,,,False,False,False
+572,Rawo,rawo1242,,,False,False,False
+573,Maringe (Tataba),mari1427,,,False,False,False
+574,Maringe (Leleghia),mari1427,,,False,False,False
+575,Sa'a (Sa'a Village),saaa1240,-9.60258,161.467,False,True,False
+576,Sa'a (A'ulu Village),saaa1240,-9.60258,161.467,False,True,False
+577,Maringe (Kmagha),mari1427,,,False,False,False
+578,Blablanga (Ghove),blab1237,-8.15058,159.419,False,True,False
+579,Mbughotu (Dhadhaje),bugh1239,-8.47948,159.802,False,True,False
+580,Blablanga,blab1237,-8.15058,159.419,False,True,False
+581,Bauro (Pawa Village),baur1252,-10.5826,161.863,False,True,False
+582,Bauro (Baroo Village),baur1252,-10.5826,161.863,False,True,False
+583,Arosi (Oneibia Village),aros1241,-10.2441,161.432,False,True,False
+584,Arosi (Tawatana Village),aros1241,-10.2441,161.432,False,True,False
+585,'Are'are (Ma'asupa Village),area1240,-9.20699,161.158,False,True,False
+586,'Are'are (Waiahaa Village),area1240,-9.20699,161.158,False,True,False
+587,Lau (Walade),lauu1247,-8.51018,160.872,False,True,False
+588,Lau (North),lauu1247,-8.51018,160.872,False,True,False
+589,Manihiki,raka1237,-10.03,-161.09,False,True,False
+590,Kuot,kuot1243,-3.06952,151.537,False,True,False
+591,Tarangan Barat (Feruni),west2538,-6.62046,134.168,False,True,False
+592,Palu'e (Nitung),palu1252,-8.32877,121.718,False,True,False
+593,Qabiao,qabi1235,23.2384,104.812,False,True,False
+594,Komering (Kayu Agung Asli),kome1238,-3.79215,105.107,False,True,False
+595,"Komering (Ulu), Adumanis Village",kome1238,-3.79215,105.107,False,True,False
+596,"Komering (Ilir), Palau Gemantung Village",kome1238,-3.79215,105.107,False,True,False
+597,"Komering (Ulu), Perjaya Village",kome1238,-3.79215,105.107,False,True,False
+598,"Komering (Ulu), Damarpura Village",kome1238,-3.79215,105.107,False,True,False
+599,Lampung Api (Daya),lamp1243,-5.73463,105.037,False,True,False
+600,Lampung Api (Ranau),lamp1243,-5.73463,105.037,False,True,False
+601,Lampung Api (Sukau),lamp1243,-5.73463,105.037,False,True,False
+602,Lampung Api (Krui),lamp1243,-5.73463,105.037,False,True,False
+603,Lampung Api (Belalau),lamp1243,-5.73463,105.037,False,True,False
+604,Lampung Api (Way Kanan),lamp1243,-5.73463,105.037,False,True,False
+605,Lampung Api (Kota Agung),lamp1243,-5.73463,105.037,False,True,False
+606,Lampung Api (Talang Padang),lamp1243,-5.73463,105.037,False,True,False
+607,Lampung Api (Way Lima),lamp1243,-5.73463,105.037,False,True,False
+608,Lampung Api (Sungkai),lamp1243,-5.73463,105.037,False,True,False
+609,Lampung Api (Pubian),lamp1243,-5.73463,105.037,False,True,False
+610,Lampung Api (Kalianda),lamp1243,-5.73463,105.037,False,True,False
+611,Lampung Nyo (Melinting),lamp1243,-5.73463,105.037,False,True,False
+612,Lampung Api (Jabung),lamp1243,-5.73463,105.037,False,True,False
+613,Komering (Kayu Agung Pendatang),kome1238,-3.79215,105.107,False,True,False
+614,Lampung Nyo (Abung/Sukadana),lamp1242,-4.43957,105.397,False,True,False
+615,Lampung Nyo (Abung/Kotabumi),lamp1242,-4.43957,105.397,False,True,False
+616,Lampung Nyo (Menggala/Tulang Bawang),lamp1242,-4.43957,105.397,False,True,False
+617,Sewa,sewa1251,-10.0277,150.956,False,True,False
+618,Buol,buol1237,0.97727,121.519,False,True,True
+619,Bajo (Kolo Bawah),indo1317,-3.68664,122.253,False,True,True
+620,Bajo (Padei Laut),indo1317,-3.68664,122.253,False,True,True
+621,Bajo (Kayuadi),indo1317,-3.68664,122.253,False,True,True
+622,Bajo (Pitulua),indo1317,-3.68664,122.253,False,True,True
+623,Bajo (Bajoe),indo1317,-3.68664,122.253,False,True,True
+624,Bajo (Lauru),indo1317,-3.68664,122.253,False,True,True
+625,Bajo (Moramo),indo1317,-3.68664,122.253,False,True,True
+626,Bajo (Boepinang),indo1317,-3.68664,122.253,False,True,True
+627,Bajo (Lakaramba),indo1317,-3.68664,122.253,False,True,True
+628,Bajo (Kaleroang),indo1317,-3.68664,122.253,False,True,True
+629,Bajo (Lakonea),indo1317,-3.68664,122.253,False,True,True
+630,Bajo (Langara Laut),indo1317,-3.68664,122.253,False,True,True
+631,Bajo (Lapulu),indo1317,-3.68664,122.253,False,True,True
+632,Bajo (Luwuk),indo1317,-3.68664,122.253,False,True,True
+633,Bajo (Anaiwoi),indo1317,-3.68664,122.253,False,True,True
+634,Bajo (Lemo Bajo),indo1317,-3.68664,122.253,False,True,True
+635,Babuza Ts82,babu1240,24.0017,120.585,False,True,False
+636,Hoanya Ts82,papo1239,24.324,120.577,False,True,False
+637,Papora Ts82,papo1239,24.324,120.577,False,True,False
+638,Taokas Ts82,babu1240,24.0017,120.585,False,True,False
+639,Hiw,hiww1237,-13.126367,166.584857,False,True,False
+640,Eskayan,eska1234,,,False,False,False
+641,Apma (Suru Mwerani),apma1240,-15.8559,168.189,False,True,False
+642,Apma (Suru Kavian),apma1240,-15.8559,168.189,False,True,False
+643,Sa (south-eastern dialect),saaa1241,-15.9534,168.228,False,True,False
+644,Sowa,sowa1244,-15.82653,168.18653,False,True,False
+645,Ske (Seke),seke1241,-15.8839,168.197,False,True,False
+646,Muyuw,muyu1244,-9.195,152.731,False,True,False
+647,Halia (Selau),hali1244,-5.26603,154.662,False,True,False
+648,Acehnese,achi1257,3.90757,96.6032,False,True,False
+649,Lungchow,nung1283,20.8965,104.286,False,True,False
+650,Besemah,cent2053,-3.79673,103.137,False,True,False
+651,Tawala,tawa1275,-10.3115,150.644,False,True,False
+652,Ternate (Pasar-Lingua franca),nort2828,-0.86437,128.323,False,True,False
+653,Fijian (Suva Dialect),sout2864,,,False,False,False
+654,Marquesan (Nukuhiva dialect),nuku1261,,,False,False,False
+655,Palembang Malay,mala1479,1.85856,103.0,False,True,False
+656,Dusun Tuhauon (Tambunan),tamb1254,5.68284,116.373,False,True,False
+657,Kinaray-a,kina1250,10.8131,122.297,False,True,False
+658,Proto-Polynesian,poly1242,,,True,False,False
+659,Niuafo'ou,niua1240,-15.6014,-175.64,False,True,False
+660,Capisano,capi1239,11.4122,122.954,False,True,False
+661,Karo Batak,bata1293,2.12787,98.2517,False,True,False
+662,"Thai, Siamese",thai1261,14.192,100.671,False,True,False
+663,Sumbawa,sumb1241,-8.71919,117.472,False,True,False
+664,Rapa,rapa1245,-27.6304,-144.338,False,True,False
+665,Proto-Oceanic (Pawley),ocea1241,,,True,False,False
+666,Vietnamese,viet1252,20.681188,105.774071,False,True,False
+667,Khmer,cent1989,12.0515,105.015,False,True,False
+668,Proto-Central Pacific,cent2060,,,True,False,False
+669,Nimoa,nimo1246,-11.2297,153.158,False,True,False
+670,Kalaw Kawaw Ya,kala1377,-10.6748,142.196,False,True,False
+671,"Kalinga, Southern",sout2908,17.2936,121.068,False,True,False
+672,"Kalinga, Limos",limo1248,17.6081,121.381,False,True,False
+673,"Bontok, Eastern",cent2292,17.08,120.92,False,True,False
+674,Tolaki,tola1247,-4.03577,121.888,False,True,True
+675,Nuguria,nuku1259,-3.40038,154.731,False,True,False
+676,Mooriori,mori1267,-44.0,-176.5,False,True,False
+677,"Dong, Southern",sout2741,25.8874,109.222,False,True,False
+678,Itawis,itaw1240,17.7329,121.58,False,True,False
+679,Ibaloi,ibal1244,16.4263,120.695,False,True,False
+680,Shan,shan1277,21.5995,98.0342,False,True,False
+681,Kankanaey,kank1243,16.8548,120.689,False,True,False
+682,Proto-Greater Central Philippines,grea1284,,,True,False,False
+683,Mon,monn1252,15.49394,98.122465,False,True,False
+684,Proto-Southwestern Tai,wenm1239,,,True,False,False
+685,Maguindanaon,magu1243,6.9453,124.509,False,True,False
+686,Sinauna,remo1247,14.6254,121.453,False,True,False
+687,Romblon,romb1245,12.4047,122.56,False,True,False
+688,Cuyonon,cuyo1237,10.3201,119.3,False,True,False
+689,Tày (Cao Bằng),tayy1238,21.6448,106.167,False,True,False
+690,Proto-Kra,kada1291,,,True,False,False
+691,Gelao (Niupo),whit1267,23.0196,105.07,False,True,False
+692,Proto-Hlai (Norquest),hlai1238,,,True,False,False
+693,Buyang (Ecun),baha1256,23.0105,104.449,False,True,False
+694,Paha,baha1256,23.0105,104.449,False,True,False
+695,Gelao (Zhenfeng),gree1278,22.5632,104.698,False,True,False
+696,Lemerig,leme1238,-13.739697,167.420676,False,True,False
+697,Proto-Lakkja,lakk1238,24.1169,110.106,True,True,False
+698,Proto-Tai,kamt1241,,,True,False,False
+699,Gelao (Wanzi),gree1278,22.5632,104.698,False,True,False
+700,Gelao (Sanchong),gree1278,22.5632,104.698,False,True,False
+701,Laha (Ta Mit),laha1250,21.55149,103.86379,False,True,False
+702,Japanese (Tokyo),nucl1643,35.0,135.0,False,True,False
+703,Japanese (Kyoto),nucl1643,35.0,135.0,False,True,False
+704,Shuri,cent2126,26.14854,127.7816,False,True,False
+705,Naha,cent2126,26.14854,127.7816,False,True,False
+706,Yonamine,kuni1268,26.5911,128.068,False,True,False
+707,Tiruray,tiru1241,6.77321,124.127,False,True,False
+708,Bantoanon (Banton),bant1288,12.5194,122.034,False,True,False
+709,Proto-Bisayan,bisa1268,,,True,False,False
+710,Bikol (Buhinon),buhi1243,13.17,123.5,False,True,False
+711,Kalinga (Minangali),lowe1412,17.3441,121.311,False,True,False
+712,Lundayeh,lund1271,4.25064,115.5,False,True,False
+713,Yogad,yoga1237,16.7015,121.718,False,True,False
+714,Ai-Cham (Diwo),aich1238,25.4908,107.844,False,True,False
+715,Proto-Kam-Sui,kams1241,,,True,False,False
+716,Mak (Yangfeng),makc1235,25.5946,107.726,False,True,False
+717,Chadong,chad1240,25.23532,109.96041,False,True,False
+718,Proto-Austronesian (Zorc),aust1307,,,True,False,False
+719,Then,tenn1245,25.6717,107.309,False,True,False
+720,Kavalan LTs,kava1241,24.6947,121.645,False,True,False
+721,Proto-Malayo-Polynesian (Zorc),mala1545,,,True,False,False
+722,Bikol (Rinconada),irig1242,13.3896,123.331,False,True,False
+723,Proto-Atayalic,atay1246,,,True,False,False
+724,Ong Be (Lincheng),ling1262,19.885536,109.691664,False,True,False
+725,Proto-Rukai,ruka1240,22.7738,120.844,True,True,False
+726,Bunun (Takituduh L88),bunu1267,23.4116,121.025,False,True,False
+727,Proto-Tibeto-Burman,,,,True,False,False
+728,Gelao (Judu),whit1267,23.0196,105.07,False,True,False
+729,Gelao (Hongfeng),whit1267,23.0196,105.07,False,True,False
+730,Dupaningan Agta,dupa1235,17.3748,122.188,False,True,False
+731,Bouyei (Wangmo),bouy1240,24.8484,106.187,False,True,False
+732,Sama (Sibutu),sout2918,4.755836,119.483887,False,True,False
+733,Sama (Pangutaran),pang1291,6.27167,120.536,False,True,False
+734,Lao,laoo1244,19.0,102.46,False,True,False
+735,Chewong,chew1245,3.83331,102.081,False,True,False
+736,Sui,suii1243,24.0488,106.563,False,True,False
+737,Santali,sant1410,25.0317,87.8185,False,True,False
+738,Proto-Chamic,cham1330,,,True,False,False
+739,Proto-Hmong-Mien,hmon1336,,,True,False,False
+740,Proto-Malayic,mala1538,,,True,False,False
+741,Rhade,rade1240,12.979,108.41,False,True,False
+742,Atayal - C'uli' L04 (Mayrinax),atay1247,24.5209,121.388,False,True,False
+743,Proto-Puyuma,puyu1239,22.643,120.996,True,True,False
+744,Jarai,jara1266,13.6161,107.813,False,True,False
+745,"Roglai, Northern",nort2994,12.1967,108.849,False,True,False
+746,Proto-Hmongic,hmon1337,,,True,False,False
+747,Proto-Mienic,mien1242,,,True,False,False
+748,Totoli,toto1304,1.14995,120.875,False,True,True
+749,Proto-Tsouic,tsou1248,23.216,120.787,True,True,False
+750,Saek,saek1240,17.4558,104.787,False,True,False
+751,Biao (Shidong),biao1253,23.656,113.391,False,True,False
+752,Tomini (Tialo),tomi1243,0.42569,120.89,False,True,True
+753,Nanumea,nort2844,,,False,False,False
+754,Lakkja (Jinxiu),lakk1238,24.1169,110.106,False,True,False
+755,Masbatenyo,masb1238,12.21453,123.63579,False,True,False
+756,Younuo (Xiaozhai),youn1235,25.7638,110.474,False,True,False
+757,Pa-Hng (Gundong),pahn1237,22.8049,105.165,False,True,False
+758,Proto-East Mindanao,,,,True,False,False
+759,Puyuma (Nanwang Cq),puyu1239,22.643,120.996,False,True,False
+760,Pazih LTs (Auran),kulo1237,23.7562,120.976,False,True,False
+761,Mulam (Dongmen),mula1253,24.8151,108.928,False,True,False
+762,She (Lianhua),shee1238,23.0399,114.814,False,True,False
+763,South Island Maori,sout2867,,,False,False,False
+764,Proto-Lampungic,lamp1241,,,True,False,False
+765,Dongnu Bunu (Nongjing),buna1273,24.1025,107.711,False,True,False
+766,Mulao,gela1264,26.574605,107.239537,False,True,False
+767,Zhuang (Wuming),yong1276,23.1,108.15,False,True,False
+768,Jiongnai (Longhua),jion1236,23.8692,110.007,False,True,False
+769,Mak (Laliu),makc1235,25.5946,107.726,False,True,False
+770,Ai-Cham (Taiyang),aich1238,25.4908,107.844,False,True,False
+771,She (Haifeng),shee1238,23.0399,114.814,False,True,False
+772,Hlai (Baoding),hlai1239,18.8062,109.459,False,True,False
+773,Dzao Min (Daping),dzao1238,24.9754,112.326,False,True,False
+774,Mien (Jiangdi),iumi1238,20.83,101.17,False,True,False
+775,Mien (Changping),biao1256,24.6451,113.469,False,True,False
+776,Biao Min (Dongshan),biao1256,24.6451,113.469,False,True,False
+777,Proto-Koiarian,koia1260,,,True,False,False
+778,Dehong,tain1252,21.7837,99.722,False,True,False
+779,Enga,enga1252,-5.45619,143.685,False,True,False
+780,Proto-Bungku-Tolaki,bung1268,,,True,False,True
+781,Proto-Trans-New Guinea,nucl1709,,,True,False,False
+782,Lachi (Tân Lợi),whit1266,22.726,104.66,False,True,False
+783,Samar-Leyte,wara1300,11.4911,125.012,False,True,False
+784,Maonan,maon1241,25.0169,108.024,False,True,False
+785,Proto-Ongan,,,,True,False,False
+786,Kim Mun (Hainan),kimm1245,22.9856,105.024,False,True,False
+787,Proto-Sino-Tibetan,sino1245,,,True,False,False
+788,Marinduque Tagalog,taga1270,14.06,121.747,False,True,False
+789,"Dong, Northern",nort2735,26.9944,109.204,False,True,False
+790,Asilulu,asil1242,-3.67302,127.952,False,True,False
+791,Lachi (Jinchang),whit1266,22.726,104.66,False,True,False
+792,Proto-Hlai (Ostapirat),hlai1238,,,True,False,False
+793,Urak Lawoi',urak1238,7.5258,99.0768,False,True,False
+794,Pingilapese,ping1243,6.20743,160.711,False,True,False
+795,Proto-Minahasan,mina1272,,,True,False,False
+796,Proto-Sangiric,sang1335,,,True,False,False
+797,Proto-Sumba-Hawu,sumb1242,,,True,False,False
+798,"Daa kaka (West Ambrym, Vanuatu)",daka1243,-16.2696,168.013,False,True,False
+799,Amis (Fata'an),amis1246,23.0917,121.348,False,True,False
+800,Amis (Farang),amis1246,23.0917,121.348,False,True,False
+801,Sakizaya,nata1254,23.9386,121.59,False,True,False
+802,Atayal - C'uli' L04 (Skikun),atay1247,24.5209,121.388,False,True,False
+803,Bunun (Takituduh L04),bunu1267,23.4116,121.025,False,True,False
+804,Bunun (Takbanuaz),bunu1267,23.4116,121.025,False,True,False
+805,Bunun (Iskubun),bunu1267,23.4116,121.025,False,True,False
+806,Paiwan (Butanglu L04),paiw1248,22.3271,120.806,False,True,False
+807,Paiwan (Stimul L04),paiw1248,22.3271,120.806,False,True,False
+808,Paiwan (Tjubar L04),paiw1248,22.3271,120.806,False,True,False
+809,Puyuma (Pilam L04),puyu1239,22.643,120.996,False,True,False
+810,Puyuma (Lower Pinlang L04),puyu1239,22.643,120.996,False,True,False
+811,Puyuma (Katipul L04),puyu1239,22.643,120.996,False,True,False
+812,Rukai (Tanan L04),ruka1240,22.7738,120.844,False,True,False
+813,Rukai (Budai L04),ruka1240,22.7738,120.844,False,True,False
+814,Rukai (Maga L04),ruka1240,22.7738,120.844,False,True,False
+815,Rukai (Tona),ruka1240,22.7738,120.844,False,True,False
+816,Rukai (Mantauran L04),ruka1240,22.7738,120.844,False,True,False
+817,Saisiyat L04 (Tungho),sais1237,24.6043,121.067,False,True,False
+818,Saisiyat L04 (Ta'ai),sais1237,24.6043,121.067,False,True,False
+819,Atayal - Squliq L04,atay1247,24.5209,121.388,False,True,False
+820,Seediq L04 (Paran),taro1264,23.9032,121.358,False,True,False
+821,Seediq L04 (Toda),taro1264,23.9032,121.358,False,True,False
+822,Seediq L04 (Hecuo),taro1264,23.9032,121.358,False,True,False
+823,Seediq L04 (Truku),taro1264,23.9032,121.358,False,True,False
+824,Tsou (Duhtu L04),tsou1248,23.216,120.787,False,True,False
+825,Kanakanabu L04,kana1286,23.3235,120.887,False,True,False
+826,Saaroa L04,saar1237,23.2632,120.711,False,True,False
+827,Proto-Mon-Khmer,,,,True,False,False
+828,Proto-Ainu,ainu1252,,,True,False,False
+829,Old Japanese,nucl1643,35.0,135.0,False,True,False
+830,"Cham, Western",west2650,12.4771,104.026,False,True,False
+831,Favorlang OL03,babu1240,24.0017,120.585,False,True,False
+832,Basay L04,basa1287,25.0046,121.857,False,True,False
+833,Daxin,yong1275,22.8,108.0,False,True,False
+834,Debao,yong1275,22.8,108.0,False,True,False
+835,Fusui (Central),cent2009,23.95,108.0,False,True,False
+836,Guangnan Nong,yong1275,22.8,108.0,False,True,False
+837,Guigang,cent2009,23.95,108.0,False,True,False
+838,Jingxi,yong1275,22.8,108.0,False,True,False
+839,Laibin,cent2009,23.95,108.0,False,True,False
+840,Lianshan,cent2009,23.95,108.0,False,True,False
+841,Long'an,cent2009,23.95,108.0,False,True,False
+842,Longzhou,yong1275,22.8,108.0,False,True,False
+843,Ningming,yong1275,22.8,108.0,False,True,False
+844,Qinzhou,cent2009,23.95,108.0,False,True,False
+845,Shanglin,cent2009,23.95,108.0,False,True,False
+846,Shangsi,yong1275,22.8,108.0,False,True,False
+847,Wenma Tu,yong1275,22.8,108.0,False,True,False
+848,Yanshan Nong,yong1275,22.8,108.0,False,True,False
+849,Yongnan,cent2009,23.95,108.0,False,True,False
+850,Chongzuo,yong1275,22.8,108.0,False,True,False
+851,Klon,kelo1247,-8.40688,124.429,False,True,False
+852,Maybrat,maib1239,-1.3679,132.591,False,True,False
+853,Wetan,luan1263,-8.18378,127.944,False,True,False
+854,Sahu,sahu1245,1.00742,127.493,False,True,False
+855,Taba,east2440,0.07337,127.423,False,True,False
+856,West Makian,west2600,0.45332,127.63,False,True,False
+857,East Makian,east2440,0.07337,127.423,False,True,False
+858,Piva,lawu1237,-6.15201,155.129,False,True,False
+859,Bikol (Bisakol),cent2087,13.7574,123.403,False,True,False
+860,Kagayanen,kaga1256,10.4656,119.872,False,True,False
+861,Proto-South Sulawesi,sout2923,,,True,False,True
+862,Saek,saek1240,17.4558,104.787,False,True,False
+863,Angkola,bata1290,1.66127,99.60248,False,True,False
+864,Mentawai,ment1249,-1.41092,98.9401,False,True,False
+865,Tidore,tido1248,0.02461,127.746,False,True,False
+866,Red Gelao,redg1235,23.1868,104.993,False,True,False
+867,Kazakh,kaza1248,51.17,71.454,False,True,False
+868,Salar,sala1264,35.5457,102.819,False,True,False
+869,Tatar,tata1255,55.79592,49.11577,False,True,False
+870,Uighur,uigh1240,43.88,87.38,False,True,False
+871,Uzbek,nort2690,40.886,69.211,False,True,False
+872,Western Yugu,west2402,39.0548,99.3112,False,True,False
+873,Kirgiz,kirg1245,42.0,74.0,False,True,False
+875,Bahonsuai,baho1237,-2.22572,121.707,False,True,True
+876,Bungku,bung1269,-3.22197,122.212,False,True,True
+877,Bungku (Landawe),bung1269,-3.22197,122.212,False,True,True
+878,Bungku (Routa),bung1269,-3.22197,122.212,False,True,True
+879,Bungku (Torete),bung1269,-3.22197,122.212,False,True,True
+880,Bungku (Tulambatu),bung1269,-3.22197,122.212,False,True,True
+881,Bungku (Waia),bung1269,-3.22197,122.212,False,True,True
+882,Kodeoha,bung1269,-3.22197,122.212,False,True,True
+883,Koroni,koro1311,-2.6367,121.977,False,True,True
+884,Kulisusu,kuli1254,-4.58411,123.045,False,True,True
+885,Mori Atas (Doule),mori1269,-2.2555,121.035,False,True,True
+886,Mori Atas (Impo),mori1269,-2.2555,121.035,False,True,True
+887,Mori Atas (Kolo-Kolo),mori1269,-2.2555,121.035,False,True,True
+888,Mori Atas (Lolonggoio),mori1269,-2.2555,121.035,False,True,True
+889,Mori Atas (Molio'A),mori1269,-2.2555,121.035,False,True,True
+890,Mori Atas (Molongkuni),mori1269,-2.2555,121.035,False,True,True
+891,Mori Atas (Olota),mori1269,-2.2555,121.035,False,True,True
+892,Mori Atas (Tambee),mori1269,-2.2555,121.035,False,True,True
+893,Mori Atas (Ulu'Uwoi),mori1269,-2.2555,121.035,False,True,True
+894,Mori Atas (Wulanderi),mori1269,-2.2555,121.035,False,True,True
+895,Mori Bawah (Bahano),mori1268,-2.56016,121.37,False,True,True
+896,Mori Bawah (Kangua),mori1268,-2.56016,121.37,False,True,True
+897,Mori Bawah (Karunsi'E),mori1268,-2.56016,121.37,False,True,True
+898,Mori Bawah (Mo'Iki),mori1268,-2.56016,121.37,False,True,True
+899,Mori Bawah (Petasia),mori1268,-2.56016,121.37,False,True,True
+900,Mori Bawah (Roda),mori1268,-2.56016,121.37,False,True,True
+901,Mori Bawah (Soroako),mori1268,-2.56016,121.37,False,True,True
+902,Mori Bawah (Watu),mori1268,-2.56016,121.37,False,True,True
+903,Mori Bawah (Ŋgusumbatu),mori1268,-2.56016,121.37,False,True,True
+904,Moronene,moro1287,-4.62361,121.824,False,True,True
+905,Moronene (Mornene),moro1287,-4.62361,121.824,False,True,True
+906,Moronene (Tokotu'A),moro1287,-4.62361,121.824,False,True,True
+907,Padoe,pado1242,-2.60642,121.236,False,True,True
+908,Taloki,talo1252,-4.6478,122.872,False,True,True
+909,Tolaki (Asera),tola1247,-4.03577,121.888,False,True,True
+910,Tolaki (Konawe),tola1247,-4.03577,121.888,False,True,True
+911,Tolaki (Laiwui),tola1247,-4.03577,121.888,False,True,True
+912,Tolaki (Mekongga),tola1247,-4.03577,121.888,False,True,True
+913,Tolaki (Wiwirano),tola1247,-4.03577,121.888,False,True,True
+914,Tomadino,toma1248,-2.56493,121.944,False,True,True
+915,Waru,waru1266,-3.412,122.058,False,True,True
+916,Waru (Lalomerui),waru1266,-3.412,122.058,False,True,True
+917,Wawonii,wawo1239,-4.13587,123.1,False,True,True
+918,Wawonii (Menui),wawo1239,-4.13587,123.1,False,True,True
+919,Wiau,raha1237,-3.24627,121.059,False,True,True
+920,Yi (Dafang),wusa1235,25.7707,102.367,False,True,False
+921,Tai Phake,phak1238,27.8197,95.8131,False,True,False
+922,Tai Aiton,aito1238,26.5145,92.3169,False,True,False
+923,Mortlockese (Lukunosh),mort1237,5.50735,153.710778,False,True,False
+924,Gelao (Fengyan),whit1267,23.0196,105.07,False,True,False
+925,Gelao (Wantao),whit1267,23.0196,105.07,False,True,False
+926,Red Gelao (Vietnam),redg1235,23.1868,104.993,False,True,False
+927,Laha (Noong Lay),laha1250,21.55149,103.86379,False,True,False
+928,En (Nung Ven),ennn1243,22.8386,106.167,False,True,False
+929,Buyang (Yalang),yero1238,23.342,105.754,False,True,False
+930,Gelao (Bigong),redg1235,23.1868,104.993,False,True,False
+931,Gelao (Yueliangwan),whit1267,23.0196,105.07,False,True,False
+932,Gelao (Dagouchang),whit1267,23.0196,105.07,False,True,False
+933,Tai Mene,taim1250,18.34,104.729,False,True,False
+934,"Kadazan Dusun of Taginambur, Kota Belud, Sabah, Malaysia",sugu1243,6.14235,117.176,False,True,False
+935,Wusehua (Rongshui),eeee1240,24.7262,109.063,False,True,False
+936,Mulam (Siba),mula1253,24.8151,108.928,False,True,False
+937,Lakkja (Liula),lakk1238,24.1169,110.106,False,True,False
+938,Gelao (Moji),whit1267,23.0196,105.07,False,True,False
+939,Dongxiang 东乡语,dong1285,35.66354,103.38952,False,True,False
+940,Tuzu 土族语,tuuu1240,36.8177,102.117,False,True,False
+941,Eastern Yugu 东部裕固语,east2337,38.83687,99.61725,False,True,False
+942,Bao'an 保安语,bona1250,35.515,102.01778,False,True,False
+943,Mongol 蒙古语,halh1238,48.32397,106.28874,False,True,False
+944,Southwestern Mandarin (Bijie),mand1415,40.0209,116.228,False,True,False
+945,"Gelao, Hongfeng",whit1267,23.0196,105.07,False,True,False
+946,Proto-Seko,seko1241,,,True,False,False
+947,Qabiao (Phó Là),qabi1235,23.2384,104.812,False,True,False
+948,Gelao (Heijiaoyan),whit1267,23.0196,105.07,False,True,False
+949,Laha,laha1250,21.55149,103.86379,False,True,False
+950,Proto-Manide-Alabat,alab1255,,,True,False,False
+951,Proto-Lolo-Burmese,lolo1265,,,True,False,False
+952,Proto-Alor-Pantar,alor1249,,,True,False,False
+953,Mondzi,mond1267,23.446095,105.416304,False,True,False
+954,Maang,maan1239,23.555104,105.70091,False,True,False
+955,Gaokujiao Lolo,,,,False,False,False
+956,White Lolo,,,,False,False,False
+957,Black Lolo,mant1265,23.1829,105.405,False,True,False
+958,Flowery Lolo,mant1265,23.1829,105.405,False,True,False
+959,Qo Xiong (Jiwei),west2430,28.33,109.67,False,True,False
+960,Bolyu,boly1239,24.7013,104.955,False,True,False
+961,Bugan (Nala),buga1247,23.6124,104.963,False,True,False
+962,Bugan (Manlong),buga1247,23.6124,104.963,False,True,False
+963,Mantsi,mant1265,23.1829,105.405,False,True,False
+964,Mo'ang,mant1265,23.1829,105.405,False,True,False
+965,Kathu,kath1251,24.2,105.1,False,True,False
+966,Mang (Jinping),mang1378,22.37,102.884,False,True,False
+967,Pa Na,pana1310,26.263819,110.096687,False,True,False
+968,Kambowa,kiok1239,-4.99012,122.951,False,True,True
+969,Kioko,kiok1239,-4.99012,122.951,False,True,True
+970,Mongi,wusa1235,25.7707,102.367,False,True,False
+971,Caijia,caij1234,27.284,105.292,False,True,False
+972,Mori Bawah (Tofatu),mori1268,-2.56016,121.37,False,True,True
+973,Waxianghua (Guzhang),waxi1236,28.644,110.362,False,True,False
+974,Yao (Lianmin),lian1256,26.937902,110.157802,False,True,False
+975,Mien (Tashi),iumi1238,20.83,101.17,False,True,False
+976,Biao (Fengkai),biao1253,23.656,113.391,False,True,False
+977,Yi (Powu),sich1238,28.1947,102.121,False,True,False
+978,Itawis,itaw1240,17.7329,121.58,False,True,False
+979,Proto-Nisoic,,,,True,False,False
+980,Tangga (Feni),anir1237,,,False,False,False
+981,Mentawai (Madobat),ment1249,-1.41092,98.9401,False,True,False
+982,Mentawai (Salappa),ment1249,-1.41092,98.9401,False,True,False
+983,Mentawai (Ulubaga),ment1249,-1.41092,98.9401,False,True,False
+984,Mentawai (Bariulou),ment1249,-1.41092,98.9401,False,True,False
+985,Mentawai (Bosua),ment1249,-1.41092,98.9401,False,True,False
+986,Mentawai (Sioban),ment1249,-1.41092,98.9401,False,True,False
+987,Mentawai (Pasapuat),ment1249,-1.41092,98.9401,False,True,False
+988,Mentawai (Silabu),ment1249,-1.41092,98.9401,False,True,False
+989,Mentawai (Saumanganya),ment1249,-1.41092,98.9401,False,True,False
+990,Mentawai (Boriai),ment1249,-1.41092,98.9401,False,True,False
+991,Mentawai (Bulasat),ment1249,-1.41092,98.9401,False,True,False
+992,Mentawai (Sikakap),ment1249,-1.41092,98.9401,False,True,False
+993,Enggano (Meok),engg1245,-5.38846,102.245,False,True,False
+994,Simeulue,sime1241,2.50288,96.2757,False,True,False
+995,Papitalai,papi1254,-2.06222,147.417,False,True,False
+996,Moor,morm1235,-2.87055,135.95,False,True,False
+997,Andio,andi1257,-0.88368,123.174,False,True,True
+998,East Kara (Lemakot),east2453,,,False,False,False
+999,Uma (Kantewu dialect),umaa1242,-1.70416,119.968,False,True,True
+1000,Lelepa,lele1267,-17.6042,168.202,False,True,False
+1001,Vao,vaoo1237,-15.898299,167.309973,False,True,False
+1002,Maskelynes,mask1242,-16.5073,167.818,False,True,False
+1003,Paama (Lironesa),paam1238,-16.47548,168.23693,False,True,False
+1004,Futuna-Aniwa (Aniwa),aniw1237,,,False,False,False
+1005,Araki,arak1252,-15.632997,166.952542,False,True,False
+1006,Roria,rori1237,-15.4048,166.843,False,True,False
+1007,Bierebo (Yevali),bier1244,-16.6663,168.154,False,True,False
+1008,Lamenu (Visina),lame1260,-16.6098,168.171,False,True,False
+1009,Mpotovoro,mpot1241,-15.8988,167.232,False,True,False
+1010,Akei (Penantsiro),akei1237,-15.6377,166.767,False,True,False
+1011,Tutuba,tutu1241,-15.580667,167.268889,False,True,False
+1012,Uripiv-Wala-Rano-Atchin (Uripiv),urip1239,-16.00951,167.34643,False,True,False
+1013,Lapwangtoai,sout2869,-19.57953,169.35603,False,True,False
+1014,Sie,siee1239,-18.8181,169.166,False,True,False
+1015,Vunapu,vuna1239,-14.8477,166.691,False,True,False
+1016,"Ambrym, North (Ranon)",nort2839,-16.1741,168.14,False,True,False
+1017,Mwerlap (Merig),mwer1250,,,False,False,False
+1018,Uripiv-Wala-Rano-Atchin (Rano),urip1239,-16.00951,167.34643,False,True,False
+1019,Lakona,lako1245,-14.29899,167.429382,False,True,False
+1020,Malo (South),malo1243,-15.6835,167.16,False,True,False
+1021,"Ambrym, Southeast (Maat)",mele1255,,,False,False,False
+1022,Bierebo (Burupika),bier1244,-16.6663,168.154,False,True,False
+1023,Akei,akei1237,-15.6377,166.767,False,True,False
+1024,Morouas (Batunlamak),moro1286,-15.3498,166.891,False,True,False
+1025,Dixon Reef,dixo1238,-16.3267,167.516,False,True,False
+1026,Lonwolwol,lonw1238,-16.2286,168.016,False,True,False
+1027,Tangoa,tang1347,-15.5643,166.958,False,True,False
+1028,Kwamera (Isiai),kwam1252,-19.5954,169.442,False,True,False
+1029,Neve'ei,vinm1237,-16.2253,167.427,False,True,False
+1030,Emae (Makatea),emae1237,-17.052,168.399,False,True,False
+1031,Bieria (Vowa),bier1246,-16.7867,168.232,False,True,False
+1032,Koro,koro1308,-14.2943,167.467,False,True,False
+1033,Baki,baki1244,-16.7096,168.165,False,True,False
+1034,Larevat,lare1249,-16.1971,167.387,False,True,False
+1035,Axamb (Maxbaxo),axam1237,-16.4838,167.707,False,True,False
+1036,Piamatsina,piam1242,-14.9959,166.738,False,True,False
+1037,Seke,seke1241,-15.8839,168.197,False,True,False
+1038,Daakaka (Baiap),daka1243,-16.2696,168.013,False,True,False
+1039,Ikiti,sout2869,-19.57953,169.35603,False,True,False
+1040,Namakura (Makura),maku1276,,,False,False,False
+1041,Bierebo (Bonkovia),bier1244,-16.6663,168.154,False,True,False
+1042,Amblong,ambl1237,-15.5169,166.95,False,True,False
+1043,Ikiyau,sout2869,-19.57953,169.35603,False,True,False
+1044,Lamenu (Nuvi),lame1260,-16.6098,168.171,False,True,False
+1045,Mae (Orap),maee1241,-15.9914,167.288,False,True,False
+1046,Lenakel,lena1238,-19.4763,169.261,False,True,False
+1047,Labo (Ninde),labo1244,-16.4291,167.442,False,True,False
+1048,Malo (North),malo1243,-15.6835,167.16,False,True,False
+1049,Lorediakarkar,lore1244,-15.334763,167.166325,False,True,False
+1050,"Ambae, East (Lolsiwoi)",east2443,-15.3523,167.89,False,True,False
+1051,Labo (Windua),labo1244,-16.4291,167.442,False,True,False
+1052,Maragus,mara1399,-16.0695,167.33,False,True,False
+1053,Litzlitz,litz1237,-16.1331,167.415,False,True,False
+1054,Uripiv-Wala-Rano-Atchin (Tautu),urip1239,-16.00951,167.34643,False,True,False
+1055,Mele,mele1251,,,False,False,False
+1056,Narango (Nambel),nara1263,-15.5259,167.047,False,True,False
+1057,Dixon Reef,dixo1238,-16.3267,167.516,False,True,False
+1058,Hiw,hiww1237,-13.126367,166.584857,False,True,False
+1059,Paama (Faulili),paam1238,-16.47548,168.23693,False,True,False
+1060,Lamenu (Nikaura),lame1260,-16.6098,168.171,False,True,False
+1061,Nahavaq (Lembinwen),sout2857,-16.5116,167.477,False,True,False
+1062,Repanbitipmbangir,repa1237,-16.3265,167.619,False,True,False
+1063,Lenakel (Lenaukas),lena1238,-19.4763,169.261,False,True,False
+1064,Shark Bay,shar1244,-15.255284,167.138859,False,True,False
+1065,Vurës (Mosina),vure1239,-13.905677,167.451412,False,True,False
+1066,Unua,unua1237,-16.2638,167.599,False,True,False
+1067,Baetora (Nasawa),nasa1241,,,False,False,False
+1068,Aore,aore1237,-15.5753,167.166,False,True,False
+1069,Uripiv-Wala-Rano-Atchin (Uri),urip1239,-16.00951,167.34643,False,True,False
+1070,Baetora,baet1237,-15.2574,168.159,False,True,False
+1071,Vovo,vovo1238,-15.89842,167.20213,False,True,False
+1072,Wusi (Valui),wusi1237,-15.2786,166.696,False,True,False
+1073,Daakaka (Sesivi),sesi1237,,,False,False,False
+1074,Namakura (Mataso),mata1250,,,False,False,False
+1075,Maii,maii1238,-16.7388,168.211,False,True,False
+1076,"Efate, North (Siviri)",nort2836,-17.5774,168.375,False,True,False
+1077,Vera'a (Vatrata),vera1241,-13.892528,167.428701,False,True,False
+1078,"Efate, North (Pwele)",nort2836,-17.5774,168.375,False,True,False
+1079,Akei (Tasiriki),akei1237,-15.6377,166.767,False,True,False
+1080,"Maewo, Central (Peterara)",cent2058,-15.0784,168.135,False,True,False
+1081,Banam Bay (Vartavo),burm1263,-16.41653,167.73124,False,True,False
+1082,Kwamera (Yatukwey),kwam1252,-19.5954,169.442,False,True,False
+1083,"Tanna, North",nort2847,-19.3733,169.303,False,True,False
+1084,Tambotalo,tamb1253,-15.5004,167.139,False,True,False
+1085,Port Sandwich,port1285,-16.4952,167.78,False,True,False
+1086,Marino,mari1426,-14.970047,168.057941,False,True,False
+1087,Timbembe,katb1237,-16.2701,167.484,False,True,False
+1088,Eton,eton1255,-17.74,168.549,False,True,False
+1089,Baetora (Tam),baet1237,-15.2574,168.159,False,True,False
+1090,Lamenu (Mapremo),lame1260,-16.6098,168.171,False,True,False
+1091,Namakura (Tongariki),tong1322,,,False,False,False
+1092,Mota,mota1237,-13.835361,167.690924,False,True,False
+1093,Aulua,aulu1238,-16.3579,167.697,False,True,False
+1094,Axamb (Avok),avok1244,-16.536653,167.773866,False,True,False
+1095,Whitesands (Loniel),whit1269,-19.5019,169.381,False,True,False
+1096,Malua Bay,malu1245,-15.9813,167.208,False,True,False
+1097,Lelepa,lele1267,-17.6042,168.202,False,True,False
+1098,"Efate, North (Woraviu)",nort2836,-17.5774,168.375,False,True,False
+1099,Letemboi,lete1241,-16.4339,167.566,False,True,False
+1100,Butmas-Tur (Butmas),butm1237,-15.3353,167.034,False,True,False
+1101,Morouas,moro1286,-15.3498,166.891,False,True,False
+1102,Naha'ai,malf1237,-16.5499,167.509,False,True,False
+1103,Lamenu (Nul),lewo1242,-16.7612,168.334,False,True,False
+1104,Vurës (Vetumboso),vetu1237,,,False,False,False
+1105,Uripiv-Wala-Rano-Atchin (Atchin),urip1239,-16.00951,167.34643,False,True,False
+1106,Lelepa (Pango),lele1267,-17.6042,168.202,False,True,False
+1107,Lamenu,lame1260,-16.6098,168.171,False,True,False
+1108,Tasmate,tasm1246,-15.0792,166.664,False,True,False
+1109,Katbol,katb1237,-16.2701,167.484,False,True,False
+1110,"Efate, South (Eratap)",sout2856,-17.7006,168.377,False,True,False
+1111,Mwerlap (Merlav),merl1237,-14.450679,168.053527,False,True,False
+1112,Lenakel (Lonasilian),lena1238,-19.4763,169.261,False,True,False
+1113,Navut (Matae),navu1237,-15.3169,166.798,False,True,False
+1114,Wailapa,wail1242,-15.5656,166.902,False,True,False
+1115,Navut,navu1237,-15.3169,166.798,False,True,False
+1116,"Ambae, East (Wailengi)",east2443,-15.3523,167.89,False,True,False
+1117,Tiale,tial1239,-15.2334,166.842,False,True,False
+1118,Butmas-Tur (Tur),butm1237,-15.3353,167.034,False,True,False
+1119,Futuna-Aniwa (Futuna),west2515,,,False,False,False
+1120,Namakura (Bongabonga),nama1268,-16.8979,168.569,False,True,False
+1121,Banam Bay (Burmbar),burm1263,-16.41653,167.73124,False,True,False
+1122,Wusi (Mana),wusi1237,-15.2786,166.696,False,True,False
+1123,Löyöp,leha1244,-13.542726,167.343342,False,True,False
+1124,"Efate, North (Sesake)",sesa1243,,,False,False,False
+1125,Mafea,mafe1237,-15.4316,167.241,False,True,False
+1126,Lamenu (Mate),lewo1242,-16.7612,168.334,False,True,False
+1127,Kwamera (Port Resolution),kwam1252,-19.5954,169.442,False,True,False
+1128,Port Vato,port1286,-16.3083,168.046,False,True,False
+1129,Dorig,weta1242,-14.366666,167.545897,False,True,False
+1130,Mwotlap,motl1237,-13.655015,167.706277,False,True,False
+1131,"Ambrym, North (Fonah)",nort2839,-16.1741,168.14,False,True,False
+1132,Wusi (Kerepua),wusi1237,-15.2786,166.696,False,True,False
+1133,Sakao,saka1289,-15.0757,167.051,False,True,False
+1134,Wetamut,weta1242,-14.366666,167.545897,False,True,False
+1135,Lamenu (Filakara),lewo1242,-16.7612,168.334,False,True,False
+1136,Lemerig (Bek),leme1238,-13.739697,167.420676,False,True,False
+1137,"Ambae, East (Lolomatui)",east2443,-15.3523,167.89,False,True,False
+1138,Valpei,valp1237,-14.712,166.606,False,True,False
+1139,Whitesands (Iarkei),whit1269,-19.5019,169.381,False,True,False
+1140,Neverver,ling1265,-16.1986,167.499,False,True,False
+1141,Ura,urav1235,-18.6747,169.084,False,True,False
+1142,"Ambrym, Southeast (Toak)",toak1237,,,False,False,False
+1143,Paama (Laul),paam1238,-16.47548,168.23693,False,True,False
+1144,"Ambae, West (Ngwatua)",west2513,-15.4281,167.807,False,True,False
+1145,Baetora (Navenevene),baet1237,-15.2574,168.159,False,True,False
+1146,Uripiv-Wala-Rano-Atchin (Wala),urip1239,-16.00951,167.34643,False,True,False
+1147,Enfitena,sout2869,-19.57953,169.35603,False,True,False
+1148,Imreang,sout2869,-19.57953,169.35603,False,True,False
+1149,Valpei (Hukua),valp1237,-14.712,166.606,False,True,False
+1150,Rerep,rere1240,-16.2934,167.651,False,True,False
+1151,Polonombauk,polo1242,-15.4653,167.09,False,True,False
+1152,Tolomako,tolo1255,-15.1569,166.772,False,True,False
+1153,Toga,loto1240,-13.334872,166.634338,False,True,False
+1154,Narango,nara1263,-15.5259,167.047,False,True,False
+1155,Aneityum,anei1239,-20.1864,169.825,False,True,False
+1156,Baetora (Narovorovo),naro1250,,,False,False,False
+1157,"Efate, North (Nguna)",ngun1274,,,False,False,False
+1158,Merei,mere1242,-15.2839,166.905,False,True,False
+1159,Mae,maee1241,-15.9914,167.288,False,True,False
+1160,Banam Bay (Lepaxsivir),burm1263,-16.41653,167.73124,False,True,False
+1161,Nahavaq (Benour),sout2857,-16.5116,167.477,False,True,False
+1162,Apma,apma1240,-15.8559,168.189,False,True,False
+1163,Fila,fila1237,,,False,False,False
+1164,V'ënen Taut (Unmet),bign1238,-16.0903,167.239,False,True,False
+1165,Raga,hano1246,-15.5432,168.167,False,True,False
+1166,Nokuku,noku1237,-14.8974,166.603,False,True,False
+1167,Fortsenal,fort1240,-15.4484,166.931,False,True,False
+1168,Lehali,leha1243,-13.5043,167.332,False,True,False
+1169,V'ënen Taut (Leviamp),bign1238,-16.0903,167.239,False,True,False
+1170,Uripiv-Wala-Rano-Atchin (Pinalum),urip1239,-16.00951,167.34643,False,True,False
+1171,Sa,saaa1241,-15.9534,168.228,False,True,False
+1172,Nume,nume1241,-14.230149,167.593474,False,True,False
+1173,Sowa,sowa1244,-15.82653,168.18653,False,True,False
+1174,Shark Bay,shar1244,-15.255284,167.138859,False,True,False
+1175,Lemerig (Sasar),leme1238,-13.739697,167.420676,False,True,False
+1176,Axamb,axam1237,-16.4838,167.707,False,True,False
+1177,Bierebo (Tavio),bier1244,-16.6663,168.154,False,True,False
+1178,Malua Bay (Petarmur),malu1245,-15.9813,167.208,False,True,False
+1179,Wusi (Nonona),wusi1237,-15.2786,166.696,False,True,False
+1180,Ulithian,ulit1238,9.961388,139.603611,False,True,False
+1181,Fatakai (Nuaulu),sout2895,-3.23411,129.148,False,True,False
+1182,Mentawai (Ngangan Sakalagan),ment1249,-1.41092,98.9401,False,True,False
+1183,Enggano,engg1245,-5.38846,102.245,False,True,False
+1184,Malagasy (Sakalava),saka1291,-20.28,44.32,False,True,False
+1185,Mentawai (Pagai and Sipora),ment1249,-1.41092,98.9401,False,True,False
+1186,Malagasy (Tandroy),tand1256,-24.80155,45.9,False,True,False
+1187,Nyelâyu,nyal1254,-19.72,163.66,False,True,False
+1188,Houaïlou,houa1234,,,False,False,False
+1189,Proto Northern Central Vanuatu,nort3195,,,True,False,False
+1190,Malagasy (Tanala),plat1254,-19.5907,47.1211,False,True,False
+1191,Bangka Malay,bang1365,-1.73288,105.897,False,True,False
+1192,Jambi Malay,jamb1236,-2.6469,103.13,False,True,False
+1193,Lom (Mapurese),bang1365,-1.73288,105.897,False,True,False
+1194,Hewa,sika1262,-8.67302,122.38,False,True,False
+1195,Proto-Kimbe,,,,True,False,False
+1196,Portuguese,port1283,39.91,-8.1,False,True,False
+1197,"Nicobarese, Central",cent1990,7.94812,93.3921,False,True,False
+1198,Ainu,ainu1251,39.2714,76.4209,False,True,False
+1199,"Gelao, Red",redg1235,23.1868,104.993,False,True,False
+1200,Kapampangan,pamp1243,14.9603,120.502,False,True,False
+1201,Jiamao,jiam1236,18.5548,109.854,False,True,False
+1202,Bola,bola1250,-5.55792,150.095,False,True,False
+1203,Bulu,bulu1253,-5.06134,150.101,False,True,False
+1204,Lahat (Central Malay),cent2053,-3.79673,103.137,False,True,False
+1205,Meramera,mera1242,-4.97468,151.528,False,True,False
+1206,Fas,fass1245,-3.10868,141.64,False,True,False
+1207,Mangaia,mang1402,,,False,False,False
+1208,Naga Bikol,cent2087,13.7574,123.403,False,True,False
+1209,Paser,lawa1257,-1.80261,115.876,False,True,False
+1210,Nasal,nasa1239,-4.8652,103.5719,False,True,False
+1211,Arta,arta1239,16.4185,121.656,False,True,False
+1212,Nukeria,nuku1259,-3.40038,154.731,False,True,False
+1213,Ra'ivavae,raiv1237,-23.86742,-147.6551,False,True,False
+1214,Old Rapa (Rapa),rapa1245,-27.6304,-144.338,False,True,False
+1215,Ponosakan,pono1240,0.91716,124.712,False,True,True
+1216,Ninde (Opmomba),labo1244,-16.4291,167.442,False,True,False
+1217,Ninde (Lawa),labo1244,-16.4291,167.442,False,True,False
+1218,Ninde (Lorlo),labo1244,-16.4291,167.442,False,True,False
+1219,Ninde (Labo),labo1244,-16.4291,167.442,False,True,False
+1220,Ninde (Windua),labo1244,-16.4291,167.442,False,True,False
+1221,Avava (Tisvel),katb1237,-16.2701,167.484,False,True,False
+1222,Avava (Khatbol),katb1237,-16.2701,167.484,False,True,False
+1223,Avava (Timbibi),katb1237,-16.2701,167.484,False,True,False
+1224,Avava (Bangaːsak),katb1237,-16.2701,167.484,False,True,False
+1225,Salang (Dixon Reef),dixo1238,-16.3267,167.516,False,True,False
+1226,Nahavaq (Caroline Bay),sout2857,-16.5116,167.477,False,True,False
+1227,Nahavaq (Benour),sout2857,-16.5116,167.477,False,True,False
+1228,Nahavaq (Lembinwin),sout2857,-16.5116,167.477,False,True,False
+1229,Na:ti (Windua),nati1244,-16.468709,167.496054,False,True,False
+1230,Nombotkote (Usus - Melkin),lete1241,-16.4339,167.566,False,True,False
+1231,Nombotkote (Blacksands),lete1241,-16.4339,167.566,False,True,False
+1232,Nombotkote (Melaklak (Melkin)),lete1241,-16.4339,167.566,False,True,False
+1233,Letemboi (Aingelemolesa),lete1241,-16.4339,167.566,False,True,False
+1234,Letemboi (Natingatlang North),lete1241,-16.4339,167.566,False,True,False
+1235,Letemboi (Nevatanyene),lete1241,-16.4339,167.566,False,True,False
+1236,Letemboi (Newotenyene),lete1241,-16.4339,167.566,False,True,False
+1237,Nasarian (Wileven tu),nasa1240,-16.3497,167.414,False,True,False
+1238,Angavae (Dixon Reef),dixo1238,-16.3267,167.516,False,True,False
+1239,Novol (Usus - Dixon Reef),lete1241,-16.4339,167.566,False,True,False
+1240,Novol (Usus - Dixon Reef),lete1241,-16.4339,167.566,False,True,False
+1241,Novol (Usus - Dixon Reef),lete1241,-16.4339,167.566,False,True,False
+1242,Novol (Melaklak),lete1241,-16.4339,167.566,False,True,False
+1243,Neverver (Lingarak - Mindu),ling1265,-16.1986,167.499,False,True,False
+1244,Neverver (Lingarak - Sakan),ling1265,-16.1986,167.499,False,True,False
+1245,Pangkumu (Ndarmif),rere1240,-16.2934,167.651,False,True,False
+1246,Pangkumu (Datisman),rere1240,-16.2934,167.651,False,True,False
+1247,Unua (Noferai),unua1237,-16.2638,167.599,False,True,False
+1248,Unua (Mbatumbo),unua1237,-16.2638,167.599,False,True,False
+1249,Neve'ei (Vinmavis),wini1242,,,False,False,False
+1250,Neve'ei (Vinmavis),wini1242,,,False,False,False
+1251,Tesmbol (Usus),aulu1238,-16.3579,167.697,False,True,False
+1252,Tesmbol (Melaklak),aulu1238,-16.3579,167.697,False,True,False
+1253,Fifti (Khatbol),vivt1234,-16.28,167.5,False,True,False
+1254,Nitita (Khatbol),niti1249,-16.2,167.46,False,True,False
+1255,Tape (Tautu),mara1399,-16.0695,167.33,False,True,False
+1256,Naman (Litzlitz),litz1237,-16.1331,167.415,False,True,False
+1257,Ayta Mag-antsi,maga1263,15.1954,120.459,False,True,False
+1258,Manide,cama1250,14.1571,122.835,False,True,False
+1259,Utudnon,bayb1234,10.6956,124.8086,False,True,False
+1260,Inati (Nagpana),atii1237,11.1539,122.512,False,True,False
+1261,Umiray Dumaget,umir1236,14.8757,121.508,False,True,False
+1262,Ayta Abellen,aben1249,15.4131,120.2,False,True,False
+1263,Ayta Ambala,amba1267,14.8156,120.283,False,True,False
+1264,Ayta Mag-anchi,maga1263,15.1954,120.459,False,True,False
+1265,Bolinao,boli1256,16.3071,119.853,False,True,False
+1266,Botolan Sambal,boto1242,15.2315,120.164,False,True,False
+1267,Ayta Mag-indi,magi1241,14.9617,120.182,False,True,False
+1268,Sambal,tina1248,15.5797,120.095,False,True,False
+1269,Iraya,iray1237,13.381,120.65,False,True,False
+1270,Alangan,alan1249,13.0982,121.022,False,True,False
+1271,Tadyawan,tady1237,13.0211,121.305,False,True,False
+1272,Batangan,buhi1245,12.6396,121.21,False,True,False
+1273,Buhid,buhi1245,12.6396,121.21,False,True,False
+1274,Hanunoo,hanu1241,12.4159,121.221,False,True,False
+1275,Ratagnon,rata1245,12.2785,121.187,False,True,False
+1276,Sogodnin (Boracay),atii1237,11.1539,122.512,False,True,False
+1277,Sogodnin (Iloilo),atii1237,11.1539,122.512,False,True,False
+1278,Malaweg,itaw1240,17.7329,121.58,False,True,False
+1279,ßatarxobu (Benut),malu1245,-15.9813,167.208,False,True,False
+1280,ßatarxobu (Lipitav),malu1245,-15.9813,167.208,False,True,False
+1281,ßatarxobu (Limsak),malu1245,-15.9813,167.208,False,True,False
+1282,Aulua (Loxse Lanfitfit),aulu1238,-16.3579,167.697,False,True,False
+1283,Maraxus,mara1399,-16.0695,167.33,False,True,False
+1284,Venen Taute (Unmet),bign1238,-16.0903,167.239,False,True,False
+1285,Vao (Torono),vaoo1237,-15.898299,167.309973,False,True,False
+1286,"Siviti (Beterbu, Jericho)",malu1245,-15.9813,167.208,False,True,False
+1287,Venen Taute (Hamax),bign1238,-16.0903,167.239,False,True,False
+1288,Aulua (Netimb),aulu1238,-16.3579,167.697,False,True,False
+1289,Aitchin (Orap),atch1238,,,False,False,False
+1290,Malua Bay (Petarmul 1),malu1245,-15.9813,167.208,False,True,False
+1291,Tirax (Bakru),maee1241,-15.9914,167.288,False,True,False
+1292,Burmbar (Fartavo),burm1263,-16.41653,167.73124,False,True,False
+1293,Nisvai (Blacksands),nisv1234,-16.41306,167.785556,False,True,False
+1294,Uripiv (D'urpif 1),urip1240,,,False,False,False
+1295,Alavas-Wowo (Wowo 2),mpot1241,-15.8988,167.232,False,True,False
+1296,Tirax (Olamb),maee1241,-15.9914,167.288,False,True,False
+1297,Uripiv (D'urpif 2,urip1240,,,False,False,False
+1298,Wala (Botku),wala1267,,,False,False,False
+1299,Wala (Worprev A),wala1267,,,False,False,False
+1300,Venen Taute (Alpalak),bign1238,-16.0903,167.239,False,True,False
+1301,Rano (Chinambong),wala1267,,,False,False,False
+1302,Rano (Small Island),wala1267,,,False,False,False
+1303,Rano (Potora),wala1267,,,False,False,False
+1304,Vao (Peteri),vaoo1237,-15.898299,167.309973,False,True,False
+1305,Alavas 1,mpot1241,-15.8988,167.232,False,True,False
+1306,Uripiv (Potnambwe),urip1240,,,False,False,False
+1307,Nese (Matanvat),nese1235,-15.952608,167.222769,False,True,False
+1308,Espiegels' Bay (Shore),malu1245,-15.9813,167.208,False,True,False
+1309,ßatarxobu (Gunwar),malu1245,-15.9813,167.208,False,True,False
+1310,Siviti (Womol),malu1245,-15.9813,167.208,False,True,False
+1311,Espiegel's Bay (Litebral),malu1245,-15.9813,167.208,False,True,False
+1312,Malua Bay (Petarmul 2),malu1245,-15.9813,167.208,False,True,False
+1313,Najit,malu1245,-15.9813,167.208,False,True,False
+1314,Alavas-Wowo (Wowo 1),mpot1241,-15.8988,167.232,False,True,False
+1315,Aitchin (Small Island),atch1238,,,False,False,False
+1316,Mbwenelang (Xoli),bwen1239,-16.338946,167.660849,False,True,False
+1317,Tirax (Mae A),maee1241,-15.9914,167.288,False,True,False
+1318,Malua Bay (Marasup),malu1245,-15.9813,167.208,False,True,False
+1319,Tirax (Mae B),maee1241,-15.9914,167.288,False,True,False
+1320,Burmbar,burm1263,-16.41653,167.73124,False,True,False
+1321,Port Sandwich (Lamap 1),port1285,-16.4952,167.78,False,True,False
+1322,Alavas 2,mpot1241,-15.8988,167.232,False,True,False
+1323,Malua Bay (TipTir),malu1245,-15.9813,167.208,False,True,False
+1324,Aulua (Loxse Asolokh),aulu1238,-16.3579,167.697,False,True,False
+1325,Wala (Worprev B),wala1267,,,False,False,False
+1326,Port Sandwich (Lamap 2),port1285,-16.4952,167.78,False,True,False
+1327,Vao (Beetehul),vaoo1237,-15.898299,167.309973,False,True,False
+1328,Paiwan (Tjatjigel Egli),paiw1248,22.3271,120.806,False,True,False
+1329,Mato (Ramuk dialect),mato1252,-5.91639,146.859,False,True,False
+1330,Mangap-Mbula,mbul1263,-5.66965,148.041,False,True,False
+1331,Dobel (Koijabi dialect),dobe1238,-6.32531,134.638,False,True,False
+1332,Kola,kola1285,-5.48833,134.592,False,True,False
+1333,Tami,tami1290,-6.70017,147.732,False,True,False
+1334,Mumeng (Patep dialect),pate1247,-6.91988,146.639,False,True,False
+1335,Mangseng,mang1403,-5.89752,150.68,False,True,False
+1336,Bariai,bari1286,-5.5087,148.666,False,True,False
+1337,Wogeo,woge1237,-3.20238,144.089,False,True,False
+1338,Batuley,batu1258,-5.814412,134.784314,False,True,False
+1339,Ujir (Schapper),ujir1237,-5.69329,134.257,False,True,False
+1340,Label,labe1239,-4.46971,152.678,False,True,False
+1341,Ramoaaina,ramo1244,-4.17306,152.451,False,True,False
+1342,Sursurunga,surs1246,-3.99078,152.768,False,True,False
+1343,Malalamai,mala1489,-5.77495,146.642,False,True,False
+1344,Ham,mari1428,-5.349,145.59,False,True,False
+1345,Siŋorakai,sing1268,,,False,False,False
+1346,Wab,wabb1237,-5.61216,146.461,False,True,False
+1347,Biliau,awad1244,-5.59896,146.355,False,True,False
+1348,Roinji,ronj1237,-5.80782,146.731,False,True,False
+1349,Bali-Vitu,unea1237,-4.89383,149.141,False,True,False
+1350,Nenaya,nana1258,,,False,False,False
+1351,Takia,taki1248,-4.69057,145.975,False,True,False
+1352,Kumokio,kumu1247,-6.03128,147.411,False,True,False
+1353,Mindiri,mind1255,-5.5,146.15,False,True,False
+1354,Sialum,sial1240,-6.07688,147.574,False,True,False
+1355,Sio,sioo1240,-5.96037,147.353,False,True,False
+1356,Malasanga,mala1487,-5.9401,147.058,False,True,False
+1357,Kinalakna,kina1251,-6.05862,147.442,False,True,False
+1358,Mutu,mutu1242,-5.79405,148.014,False,True,False
+1359,Gitua,gitu1237,-6.0151,147.485,False,True,False
+1360,Arop,arop1242,-3.06984,142.12,False,True,False
+1361,Bebeli,bebe1252,-5.63282,150.323,False,True,False
+1362,Dadu'a,dadu1237,-8.486,125.8637,False,True,False
+1363,Fordata,ford1242,-7.28902,131.511,False,True,False
+1364,Irarutu,irar1238,-2.94438,133.586,False,True,False
+1365,Naueti,naue1237,-8.70733,126.741,False,True,False
+1366,Tetun Fehan,tetu1245,-9.11217,125.528,False,True,False
+1367,Tokodede,tuku1254,-8.6788,125.283,False,True,False
+1368,Waima'a,waim1252,-8.53416,126.317,False,True,False
+1369,Drubea,dumb1241,-22.0947,166.531,False,True,False
+1370,Novol (Bangir),lete1241,-16.4339,167.566,False,True,False
+1371,Kaniet,kani1282,-1.51777,145.086,False,True,False
+1372,Ninigo,seim1238,-1.2666667,144.25,False,True,False
+1373,Awa,auaa1241,,,False,False,False
+1374,Sori,sori1242,-1.98384,146.642,False,True,False
+1375,Lup,herm1237,-1.52891,145.075,False,True,False
+1376,Njada,nyin1250,-2.1143,146.627,False,True,False
+1377,Ponam,pona1250,-1.91705,146.887,False,True,False
+1378,Andra,andr1248,-2.05894,147.085,False,True,False
+1379,Hus,andr1248,-2.05894,147.085,False,True,False
+1380,Jiriw,nali1245,-2.14273,147.202,False,True,False
+1381,Pitilu,leip1237,-1.9665,147.226,False,True,False
+1382,Bujan,kele1258,-2.09163,147.064,False,True,False
+1383,Mokaren,moke1240,-2.01602,147.423,False,True,False
+1384,Bipi,bipi1237,-2.11115,146.398,False,True,False
+1385,Lebei,kheh1237,-2.06626,146.746,False,True,False
+1386,Tulu,tulu1259,-2.14155,146.934,False,True,False
+1387,Pak,pakt1239,-2.05269,147.767,False,True,False
+1388,Mbunai,tita1241,-2.18168,146.888,False,True,False
+1389,Baluan,balu1257,-2.5604,147.282,False,True,False
+1390,Musau,muss1248,,,False,False,False
+1391,Avau,avau1237,-6.24342,150.427,False,True,False
+1392,Hote (Misim dialect),hote1245,-7.07708,146.869,False,True,False
+1393,Nyindrou,nyin1250,-2.1143,146.627,False,True,False
+1394,Sissano (Arop dialect),siss1243,-3.01976,142.049,False,True,False
+1395,Akolet,akol1237,-6.22711,150.182,False,True,False
+1396,Na'ahai (Mbatvanui) 162-85,malf1237,-16.5499,167.509,False,True,False
+1397,Natangan (Mbonvor) 162-86,lete1241,-16.4339,167.566,False,True,False
+1398,Axamb (Small Island-Brisbane) 162-89,axam1237,-16.4838,167.707,False,True,False
+1399,Na'ahai (Mbatambang) 162-83,malf1237,-16.5499,167.509,False,True,False
+1400,Avok (Hokai) 162-98,avok1244,-16.536653,167.773866,False,True,False
+1401,Mandri (Farun) 162-91,nasv1234,-16.458173,167.639563,False,True,False
+1402,Na'axai (Malfaxal) 162-84,malf1237,-16.5499,167.509,False,True,False
+1403,Uliveo (Palongk) 162-104,mask1242,-16.5073,167.818,False,True,False
+1404,Nasvang (Farun) 162-93,nasv1234,-16.458173,167.639563,False,True,False
+1405,Natangan (Farun) 162-95b,lete1241,-16.4339,167.566,False,True,False
+1406,Na'ahai (Toman Island) 162-82,malf1237,-16.5499,167.509,False,True,False
+1407,Avok (Shiaf),avok1244,-16.536653,167.773866,False,True,False
+1408,Nasvang (Farun) 162-90,nasv1234,-16.458173,167.639563,False,True,False
+1409,Avok (Hokai) 162-97a,avok1244,-16.536653,167.773866,False,True,False
+1410,Axamb (Small Island-Maliambur) 162-88,axam1237,-16.4838,167.707,False,True,False
+1411,Navwien 162-87,navw1234,-16.502947,167.554419,False,True,False
+1412,Uliveo (Lurtes) 162-107,mask1242,-16.5073,167.818,False,True,False
+1413,Axamb (Farun) 162-94,axam1237,-16.4838,167.707,False,True,False
+1414,Uliveo (Pescaros) 162-106,mask1242,-16.5073,167.818,False,True,False
+1415,Mandri (Faru) 162-100,axam1237,-16.4838,167.707,False,True,False
+1416,Nasvang (Farun - children) 162-96,nasv1234,-16.458173,167.639563,False,True,False
+1417,Uliveo (Palongk) 162-103,mask1242,-16.5073,167.818,False,True,False
+1418,Avok (Avok) 162-101,avok1244,-16.536653,167.773866,False,True,False
+1419,Uliveo (Peskaros) 162-105,mask1242,-16.5073,167.818,False,True,False
+1420,Nasvang (Farun) 162-95a,nasv1234,-16.458173,167.639563,False,True,False
+1421,Avok (Avok) 162-99,avok1244,-16.536653,167.773866,False,True,False
+1422,Eastern Ngad'a,east2464,-8.82745,121.121,False,True,False
+1423,Anuki,anuk1239,-9.6692,149.822,False,True,False
+1424,Sinaugoro (Balawaia Dialect),bala1307,,,False,False,False
+1425,Buhutu,buhu1237,-10.5074,150.18,False,True,False
+1426,Bunama,buna1276,-10.0761,151.066,False,True,False
+1427,Bwaidoga,bwai1243,,,False,False,False
+1428,Dawawa,dawa1242,-10.1692,149.999,False,True,False
+1429,Dobu,dobu1241,-9.63239,150.825,False,True,False
+1430,"Mekeo, East",east2455,,,False,False,False
+1431,Gapapaiwa,gapa1238,-9.73317,149.854,False,True,False
+1432,Ghayavi,ghay1237,-10.011,149.84,False,True,False
+1433,Gumawana,guma1254,-9.28497,150.762,False,True,False
+1434,Hula,hula1239,-9.99427,147.705,False,True,False
+1435,Iamalele,iama1237,-9.45005,150.573,False,True,False
+1436,Iduna,idun1242,-9.34361,150.24,False,True,False
+1437,Kilivila,kili1267,-8.72574,151.072,False,True,False
+1438,Koluwawa,kolu1245,-9.42742,150.462,False,True,False
+1439,Lala,lala1268,-8.93195,146.749,False,True,False
+1440,Maisin,mais1250,-9.22853,148.731,False,True,False
+1441,Minaveha,mina1269,-9.59922,150.501,False,True,False
+1442,Misima,misi1243,-10.6821,152.696,False,True,False
+1443,Molima,moli1248,-9.57457,150.614,False,True,False
+1444,Motu,motu1246,-9.67492,147.424,False,True,False
+1445,Muyuw,muyu1244,-9.195,152.731,False,True,False
+1446,"Mekeo, North-West",nort2851,,,False,False,False
+1447,Proto Central Papuan,cent2070,,,True,False,False
+1448,Proto North Mainland/D'Entrecasteaux,nort2848,,,True,False,False
+1449,Proto Papuan Tip,papu1253,,,True,False,False
+1450,Proto Suauic,suau1243,,,True,False,False
+1451,Roro,waim1251,-8.67145,146.544,False,True,False
+1452,Saliba,sali1295,-10.6148,150.727,False,True,False
+1453,Sinaugoro (Saroa Dialect),saro1238,,,False,False,False
+1454,Sewa,sewa1251,-10.0277,150.956,False,True,False
+1455,Suau,suau1242,-10.6606,150.21,False,True,False
+1456,Sudest,sude1239,-11.5229,153.488,False,True,False
+1457,Tawala,tawa1275,-10.3115,150.644,False,True,False
+1458,Tubetube,bwan1241,-10.6599,151.034,False,True,False
+1459,Wedau,weda1241,-10.1246,150.172,False,True,False
+1460,'Auhelawa,auhe1237,-10.0959,151.002,False,True,False
+1461,'Oyaoya,oyao1237,-10.5392,150.658,False,True,False
+1462,Roon,roon1237,-2.43005,134.556,False,True,False
+1463,Isinay (Dupax),isin1239,16.3299,121.12,False,True,False
+1464,Proto-Subanen,suba1253,,,True,False,False
+1465,Proto-Manobo,mano1276,,,True,False,False
+1466,Proto-Sama-Bajaw,sama1302,,,True,False,False
+1467,Mindoro Tagalog,taga1270,14.06,121.747,False,True,False
+1468,Proto North Sarawak,nort3171,,,True,False,False
+1469,Proto Kenyah,keny1280,,,True,False,False
+1470,Lebo' Vo',main1275,3.42975,116.47431,False,True,False
+1471,Uma' Pawe,waha1238,1.56635,116.655,False,True,False
+1472,Lepo' Gah,main1275,3.42975,116.47431,False,True,False
+1473,Lepo' Laang,main1275,3.42975,116.47431,False,True,False
+1474,Lepo' Sawa,main1275,3.42975,116.47431,False,True,False
+1475,Lepo' Tau,main1275,3.42975,116.47431,False,True,False
+1476,Badeng,main1275,3.42975,116.47431,False,True,False
+1477,Ngorek,ngor1244,,,False,False,False
+1478,Kayan,bara1370,3.51211,114.482,False,True,False
+1479,Paicî,paic1239,-21.096,165.15,False,True,False
+1480,Nyelâyu (Belep Dialect),nyal1254,-19.72,163.66,False,True,False
+1481,Ansus,ansu1237,-1.7543,135.866,False,True,False
+1482,Ajiø,ajie1238,-21.3029,165.468,False,True,False
+1483,Anesù,xara1244,-21.7034,165.996,False,True,False
+1484,Aro,arho1237,-21.3183,165.161,False,True,False
+1485,Arʃa,arha1237,-21.2866,165.273,False,True,False
+1486,Iai,iaai1238,-20.6301,166.59,False,True,False
+1487,ⁿDuᵐbea,dumb1241,-22.0947,166.531,False,True,False
+1488,Jawe,jawe1237,-20.6648,164.676,False,True,False
+1489,Kapone,nume1242,-22.2689,166.705,False,True,False
+1490,Koumac,nene1250,,,False,False,False
+1491,Moeneᵐbeŋ,caac1237,-20.4114,164.578,False,True,False
+1492,Neku,neku1237,-21.6524,165.578,False,True,False
+1493,Nenema,nene1250,,,False,False,False
+1494,Neŋone,neng1238,-21.5305,167.964,False,True,False
+1495,Nɛmi,nemi1240,-20.6791,164.797,False,True,False
+1496,Pat̪i,paic1239,-21.096,165.15,False,True,False
+1497,Pinje,pije1237,-20.7824,164.942,False,True,False
+1498,Poai,fwai1237,-20.6873,164.901,False,True,False
+1499,Poamei,pwaa1237,-20.8442,164.77,False,True,False
+1500,Poapoã,pwap1237,-20.8133,164.556,False,True,False
+1501,Sirehë,zire1240,-21.6544,165.482,False,True,False
+1502,Wamoaŋ,waam1236,-20.5014,164.409,False,True,False
+1503,camuki,cemu1238,-20.8489,165.13,False,True,False
+1504,Ciri,tiri1258,-21.8147,165.792,False,True,False
+1505,ɲua,yuag1237,-20.5664,164.51,False,True,False
+1506,ʝalasu,bala1316,-20.25,164.2,False,True,False
+1507,ʰMoaekɛ,vama1243,-20.7708,165.04,False,True,False
+1508,ʰMoavekɛ,hmwa1243,-20.9246,164.768,False,True,False
+1509,ᵐBelep,nyal1254,-19.72,163.66,False,True,False
+1510,ᵐBonⁿde,yuag1237,-20.5664,164.51,False,True,False
+1511,ᵐBoewe,orow1242,-21.6269,165.473,False,True,False
+1512,‘Aragùrɛ,xara1243,-21.8223,166.376,False,True,False
+1513,’Aekɛ,haek1239,-21.0735,164.869,False,True,False
+1514,’Avekɛ,have1241,-21.0249,164.753,False,True,False
+1515,ⁿDe’u,dehu1237,-20.8892,167.229,False,True,False
+1516,Siraya A,sira1267,22.9777,120.315,False,True,False
+1517,Siraya UM (Utrecht Manuscript) dialect,sira1267,22.9777,120.315,False,True,False
+1518,Proto Siraya,sira1267,22.9777,120.315,True,True,False
+1519,Siraya Gospel dialect,sira1267,22.9777,120.315,False,True,False
+1520,Kaisabu,kaes1237,,,False,False,False
+1521,Kumbewaha,kumb1274,-5.34485,123.154,False,True,True
+1522,Lasalimu,lasa1237,-5.23602,123.129,False,True,True
+1523,Wakole dialect of Kumbewaha,kumb1274,-5.34485,123.154,False,True,True
+1524,Wasambua dialect of Cia-Cia,ciac1237,-5.68289,122.791,False,True,True
+1525,Wolowa dialect of Kumbewaha,kumb1274,-5.34485,123.154,False,True,True
+1526,Proto Malagasy,mala1537,,,True,False,False
+1527,Bwatoo,bwat1240,-21.3777,165.076,False,True,False
+1528,Pwapwâ - mBoyen,pwap1237,-20.8133,164.556,False,True,False
+1529,Haeke,haek1239,-21.0735,164.869,False,True,False
+1530,Haveke,have1241,-21.0249,164.753,False,True,False
+1531,Caac,caac1237,-20.4114,164.578,False,True,False
+1532,Javanese (Yogyakarta),java1254,-7.001,109.287,False,True,False
+1533,Tengger (Ngadas),teng1272,-7.89069,113.037,False,True,False
+1534,Javanese (Malang),java1254,-7.001,109.287,False,True,False
+1535,Old/Middle Javanese,java1254,-7.001,109.287,False,True,False
+1536,Jizhao (Li & Wu 2017),jizh1234,21.388,110.868,False,True,False
+1537,"Jizhao (Shao 2016, Shao & Meng 2016)",jizh1234,21.388,110.868,False,True,False
+1538,Jizhao (Zhang 1992),jizh1234,21.388,110.868,False,True,False
+1539,Tobati,toba1266,-2.56434,140.71,False,True,False
+1540,Ifo (Utaha),ifoo1237,-18.7668,169.007,False,True,False
+1541,Raga,hano1246,-15.5432,168.167,False,True,False
+1542,Sa (Ha),saaa1241,-15.9534,168.228,False,True,False
+1543,Sa (F Yantas),saaa1241,-15.9534,168.228,False,True,False
+1544,Sa (Bunlap),saaa1241,-15.9534,168.228,False,True,False
+1545,Lolkasai,hano1246,-15.5432,168.167,False,True,False
+1546,Proto-Danaw,dana1253,,,True,False,False
+1547,Bulalakawnon,bula1256,,,False,False,False
+1548,Inonhan (Dispoholnon),disp1238,,,False,False,False
+1549,Kamayo,kama1363,8.10796,126.314,False,True,False
+1550,Caluyanun (Semirara),semi1263,,,False,False,False
+1551,Guiangan (Sirib),gian1241,6.99967,125.359,False,True,False
+1552,Guiangan (Baguio),gian1241,6.99967,125.359,False,True,False
+1553,Inati (Hamtic),atii1237,11.1539,122.512,False,True,False
+1554,"Inati (Jordan, Guimaras)",atii1237,11.1539,122.512,False,True,False
+1555,Tandaganon (Naturalis),natu1247,,,False,False,False
+1556,Malay,indo1316,-7.33458,109.716,False,True,False
+1557,Kala,kela1255,-7.47103,147.173,False,True,False
+1558,Jiamao,jiam1236,18.5548,109.854,False,True,False
+1559,Jiamao (Lingshui),jiam1236,18.5548,109.854,False,True,False
+1560,Great Andamanese,grea1241,,,False,False,False
+1561,Proto-Austroasiatic,aust1305,,,True,False,False
+1562,Proto-Japanese,japo1237,,,True,False,False
+1563,Proto-Nivkh,gily1242,52.59,140.681,True,True,False
+1564,Kenaboi (I),kena1236,3.154162,102.01596,False,True,False
+1565,Proto-Nicobarese,nico1262,,,True,False,False
+1566,Proto-Aslian,asli1243,,,True,False,False
+1567,Kusunda,kusu1250,28.33,82.6,False,True,False
+1568,Kenaboi (II),kena1236,3.154162,102.01596,False,True,False
+1569,Agutyanen,agut1237,10.5328,119.655,False,True,False
+1570,Moklen,mokl1243,8.16761,98.3176,False,True,False
+1571,Proto-Moken-Moklen,moke1241,,,True,False,False
+1572,Nihali,niha1238,21.1886,76.3318,False,True,False
+1573,Fwâi,fwai1237,-20.6873,164.901,False,True,False
+1574,Pije (mountain),pije1237,-20.7824,164.942,False,True,False
+1575,Pije (Ocean),pije1237,-20.7824,164.942,False,True,False
+1576,Xârâcùù,xara1244,-21.7034,165.996,False,True,False
+1577,Keapara (Kalo Dialect),kalo1259,,,False,False,False
+1578,Nguluwan,ngul1236,8.45,137.34,False,True,False
+1579,Sungwadia (Naomumu),cent2058,-15.0784,168.135,False,True,False
+1580,North Ambae (Leonda),east2443,-15.3523,167.89,False,True,False
+1581,North Ambae (Havai),east2443,-15.3523,167.89,False,True,False
+1582,Sungwadia (Uta),mari1426,-14.970047,168.057941,False,True,False
+1583,Sungwadia (Marino),mari1426,-14.970047,168.057941,False,True,False
+1584,North Ambae (Leo),east2443,-15.3523,167.89,False,True,False
+1585,Mwerlap (of N. Maewo),merl1237,-14.450679,168.053527,False,True,False
+1586,Sungwadaga (Roŋnawo),cent2058,-15.0784,168.135,False,True,False
+1587,Sungwaloge (Tawet) as spoken at Naviso,cent2058,-15.0784,168.135,False,True,False
+1588,Sungwadaga (Lalaundi),cent2058,-15.0784,168.135,False,True,False
+1589,Sungwada (Ngota),cent2058,-15.0784,168.135,False,True,False
+1590,Sungwadola (Gʷaaran Uta),cent2058,-15.0784,168.135,False,True,False
+1591,Sungwadoga (Rata),cent2058,-15.0784,168.135,False,True,False
+1592,East Ambae (Sana),east2443,-15.3523,167.89,False,True,False
+1593,South Ambae (Lolovele),east2443,-15.3523,167.89,False,True,False
+1594,South Ambae (Biribiri),east2443,-15.3523,167.89,False,True,False
+1595,South Ambae (Sakao),port1296,,,False,False,False
+1596,Sungwaloge (Tawet) as spoken at Narovorovo,cent2058,-15.0784,168.135,False,True,False
+1597,East Ambae (Vuindondo),east2443,-15.3523,167.89,False,True,False
+1598,Sungwaloge (Nalemba) as spoken at Narovorovo),cent2058,-15.0784,168.135,False,True,False
+1599,West Ambae (Walaha),wala1268,,,False,False,False
+1600,East Ambae (Lolovoli),east2443,-15.3523,167.89,False,True,False
+1601,Sungwaloge (Nalemba) as spoken at Nasawa,cent2058,-15.0784,168.135,False,True,False
+1602,Sungagage (Avanbatai),cent2058,-15.0784,168.135,False,True,False
+1603,Raga,hano1246,-15.5432,168.167,False,True,False
+1604,Sungagage (Avavanvae),cent2058,-15.0784,168.135,False,True,False
+1605,Sungagage (Asanvari),cent2058,-15.0784,168.135,False,True,False
+1606,Xalangi (Baetora),baet1237,-15.2574,168.159,False,True,False
+1607,Sungwadia (Tasmaor),mari1426,-14.970047,168.057941,False,True,False
+1608,Cemuhî,cemu1238,-20.8489,165.13,False,True,False
+1609,Xârâgurè,xara1243,-21.8223,166.376,False,True,False
+1610,Hamea,meaa1237,-21.4939,165.771,False,True,False
+1611,Proto-Kra-Dai,kada1291,,,True,False,False
+1612,Tîrî (Tsîrî - Tintin),tiri1261,,,False,False,False
+1613,Nemi (Temala area),nemi1240,-20.6791,164.797,False,True,False
+1614,Nemi (East cost area),nemi1240,-20.6791,164.797,False,True,False
+1615,Numèè (Nââ Numèè),nume1242,-22.2689,166.705,False,True,False
+1616,Proto-Asmat-Kamoro,asma1256,,,True,False,False
+1617,Jawe,jawe1237,-20.6648,164.676,False,True,False
+1618,Sishëë,zire1240,-21.6544,165.482,False,True,False
+1619,Keapara (Keapara/Kerepunu Dialect),keap1239,-10.1342,147.95,False,True,False
+1620,Proto-Palawan,pala1354,,,True,False,False
+1621,Proto-Batanic,bata1315,,,True,False,False
+1622,Proto-Central Luzon,cent2080,,,True,False,False
+1623,Proto-Kalamianic,kala1389,,,True,False,False
+1624,Proto-Gorontalo-Mongondow,goro1257,,,True,False,False
+1625,Sungwadia (Naone),cent2058,-15.0784,168.135,False,True,False
+1626,Mangaia,mang1402,,,False,False,False
+1627,Tokelau Fijian,fiji1243,-18.0,178.33,False,True,False
+1628,Penrhyn (Tongareva),penr1237,-9.082238,-157.922908,False,True,False
+1629,Beothuk,beot1247,48.0,-57.0,False,True,False
+1630,Aitutaki,aitu1237,,,False,False,False
+1631,Ma'uke,mauk1238,,,False,False,False
+1632,Serewen,pomm1237,-1.64224,135.619,False,True,False
+1633,Pom,pomm1237,-1.64224,135.619,False,True,False
+1634,Biak (Northern),biak1248,-0.9523,135.879,False,True,False
+1635,Inagta Alabat,alab1246,14.1217,122.014,False,True,False
+1636,Tahitian,tahi1242,-17.6485,-149.45,False,True,False
+1637,Surigaonon,suri1273,9.0,126.0,False,True,False
+1638,Western Subanon,west2557,7.79964,122.341,False,True,False
+1639,Tugun,tugu1245,-7.72555,126.7,False,True,False
+1640,"Tobian, Hatohobeian, Ramari Hatohobei",tobi1238,3.004528,131.171295,False,True,False
+1641,Manide (Labo),cama1250,14.1571,122.835,False,True,False
+1642,Vaha (Tanna Island),sout2869,-19.57953,169.35603,False,True,False
+1643,Central Sinama,cent2092,7.004574,118.455978,False,True,False
+1644,Southern Thai,sout2746,6.85668,99.7031,False,True,False
+1645,Tai Dam 1,taid1247,18.9572,102.928,False,True,False
+1646,Tai Dam 2,taid1247,18.9572,102.928,False,True,False
+1647,Tai Nüa 1,tain1252,21.7837,99.722,False,True,False
+1648,Tai Nüa 2,tain1252,21.7837,99.722,False,True,False
+1649,Tai Nüa 3,tain1252,21.7837,99.722,False,True,False
+1650,Tai Nüa 4,tain1252,21.7837,99.722,False,True,False
+1651,Thai,thai1261,14.192,100.671,False,True,False
+1652,Lao,laoo1244,19.0,102.46,False,True,False
+1653,Shan,shan1277,21.5995,98.0342,False,True,False
+1654,Nukumanu,nuku1258,-4.576321,159.48537,False,True,False
+1655,Mandailing,bata1291,0.85805,99.898,False,True,False
+1656,Ngevin,lame1259,,,False,False,False
+1657,Nalema,lame1259,,,False,False,False
+1658,Red Ston,lame1259,,,False,False,False
+1659,Red Ston (Nakanamanga),nort2836,-17.5774,168.375,False,True,False
+1660,Taolia,lame1259,,,False,False,False
+1661,Vilakara,lame1259,,,False,False,False
+1662,Vilakara (Nakanamanga),nort2836,-17.5774,168.375,False,True,False
+1663,Lopika,lame1259,,,False,False,False
+1664,Lopika (Nakanamanga),nort2836,-17.5774,168.375,False,True,False
+1665,Tekelele,lame1259,,,False,False,False
+1666,Tekelele (Nakanamanga),nort2836,-17.5774,168.375,False,True,False
+1667,Oreao,bier1246,-16.7867,168.232,False,True,False
+1668,Oreao (Nakanamanga),nort2836,-17.5774,168.375,False,True,False
+1669,Lopalis,lame1259,,,False,False,False
+1670,Lopalis (Nakanamanga),nort2836,-17.5774,168.375,False,True,False
+1671,Tamalia,lame1259,,,False,False,False
+1672,Miapika,lame1259,,,False,False,False
+1673,nul nelsa 1-18,lame1259,,,False,False,False
+1674,sara 1-16,bier1246,-16.7867,168.232,False,True,False
+1675,votlo 1-15,bier1246,-16.7867,168.232,False,True,False
+1676,jakena,lame1259,,,False,False,False
+1677,Nouvi,lame1259,,,False,False,False
+1678,mate wan,lame1259,,,False,False,False
+1679,Lepa,lame1259,,,False,False,False
+1680,Maŋgalava,bier1246,-16.7867,168.232,False,True,False
+1681,Nivenuhe,lame1259,,,False,False,False
+1682,Morju,lame1259,,,False,False,False
+1683,Maparahu,lame1259,,,False,False,False
+1684,Niku,lame1259,,,False,False,False
+1685,Laman Bay,lame1259,,,False,False,False
+1686,Betawi Malay (Tengahan dialect),tang1384,,,False,False,False
+1687,Ulpea,,,,False,False,False
+1688,Lewo (Mate village),mate1259,,,False,False,False
+1689,Lewo (Nivu village),lewo1242,-16.7612,168.334,False,True,False
+1690,Lewo (Nikaura village),lewo1242,-16.7612,168.334,False,True,False
+1691,Buang (Headwaters dialect),mapo1242,-6.86672,146.774,False,True,False
+1692,Lamen Bay,lame1260,-16.6098,168.171,False,True,False
+1693,Proto-Atayal,atay1246,,,True,False,False
+1694,Atayal (Matu'uwal),atay1247,24.5209,121.388,False,True,False
+1695,Atayal (Plngawan),atay1247,24.5209,121.388,False,True,False
+1696,Atayal (Squliq),sqol1237,,,False,False,False
+1697,Atayal (Skikun),atay1247,24.5209,121.388,False,True,False
+1698,Atayal (Klesan),atay1247,24.5209,121.388,False,True,False
+1699,Atayal (Matu'aw),atay1247,24.5209,121.388,False,True,False
+1700,Atayal (S'uli),sqol1237,,,False,False,False
+1701,Proto-Bunun,bunu1267,23.4116,121.025,True,True,False
+1702,South African Malay (Cape Malay),mala1538,,,False,False,False
+1703,Kelinjau Modang,moda1244,0.80793,116.573,False,True,False
+1704,Wehea (Wahau),moda1244,0.80793,116.573,False,True,False
+1705,Bahau,baha1257,0.30801,115.332,False,True,False
+1706,Mahakam Kayan,kaya1324,0.91787,114.452,False,True,False
+1707,Kuanua (Makada),kuan1248,-4.30986,152.114,False,True,False
+1708,Tomoip,tomo1244,-5.30721,151.828,False,True,False
+1709,Lote,lote1237,-5.954,150.911,False,True,False
+1710,Acehnese-Lamno,achi1257,3.90757,96.6032,False,True,False
+1711,Aneityumese,anei1239,-20.1864,169.825,False,True,False
+1712,Dalkalaen,dalk1234,-16.26246,167.93334,False,True,False
+1713,Malay (1600),stan1306,3.08896,101.699,False,True,False
+1714,Tamambo,malo1243,-15.6835,167.16,False,True,False
+1715,Fijian (Rewa; Burebasaga),,,,False,False,False
+1716,Fijian (Yasayasabeqa; Yanuca),,,,False,False,False
+1717,Fijian (Vanualevuicake; Dogotuki),,,,False,False,False
+1718,Fijian (Vanualevuicake; Vaturovaivanua),,,,False,False,False
+1719,Fijian (Vanualevuiloma; Wailevuirā),,,,False,False,False
+1720,Fijian (Rakiraki; Natokea),,,,False,False,False
+1721,Fijian (Wainibuka; Nalawa),,,,False,False,False
+1722,Fijian (Vanuabalavu; Lomaloma),vanu1243,,,False,False,False
+1723,Fijian (Nadroga; Nakaria),nadr1235,,,False,False,False
+1724,Fijian (Ba; Votua),,,,False,False,False
+1725,Fijian (Nadroga; Wai),nadr1235,,,False,False,False
+1726,Fijian (Vanualevuiloma; Nukubolu),,,,False,False,False
+1727,Fijian (Vanuabalavu; Mualevu),vanu1243,,,False,False,False
+1728,Fijian (Wainimala; Vuna Tailevu),,,,False,False,False
+1729,Fijian (Nadroga; Tubaniwai/Jubaniwai),nadr1235,,,False,False,False
+1730,Fijian (Ovalau; Rukuruku Ovalau),,,,False,False,False
+1731,Fijian (Vatulawa; Mabuco),,,,False,False,False
+1732,Fijian (Vanualevuiloma; Macuata),,,,False,False,False
+1733,Fijian (Vanualevuicake; Saqani),,,,False,False,False
+1734,Fijian (Kadavu; Namālata),kada1285,,,False,False,False
+1735,Fijian (Wainibuka; Nabuto),,,,False,False,False
+1736,Fijian (Vanualevuiloma; Buca),,,,False,False,False
+1737,Fijian (Vanualevuicake; Namuka),,,,False,False,False
+1738,Fijian (Gau; Qalitū),,,,False,False,False
+1739,Fijian (Wainimala; Lutu),,,,False,False,False
+1740,Fijian (Vatulawa; Nadakeke/Narocake),,,,False,False,False
+1741,Fijian (Bau; Batiki Tailevu),bauu1243,,,False,False,False
+1742,Fijian (Tailevu; Kuku),,,,False,False,False
+1743,Fijian (Kadavu; Yawe),kada1285,,,False,False,False
+1744,Fijian (Sērua; Nadruku),namo1248,-18.5308,177.637,False,True,False
+1745,Fijian (Verata; Bureta),,,,False,False,False
+1746,Fijian (Vanualevuicake; Nadogo),,,,False,False,False
+1747,Fijian (Naitasiri; Lami),namo1248,-18.5308,177.637,False,True,False
+1748,Fijian (Kadavu; Yale),kada1285,,,False,False,False
+1749,Fijian (Nadrau; Nadrau),nadr1234,,,False,False,False
+1750,Fijian (Rewa; Kiuva),,,,False,False,False
+1751,Fijian (Vanualevuiloma; Tamonibuca),,,,False,False,False
+1752,Fijian (Yasawa; Yasawa),,,,False,False,False
+1753,Fijian (Wainibuka; Nakorotubu),,,,False,False,False
+1754,Fijian (Vanualevuicake; Udu),,,,False,False,False
+1755,Fijian (Sērua; Bajiwai/Batiwai),namo1248,-18.5308,177.637,False,True,False
+1756,Fijian (Magodro; Nāloto Bā),west2519,-17.8355,177.657,False,True,False
+1757,Fijian (Verata; Qomā),,,,False,False,False
+1758,Fijian (Bua; Wailevu Bua),west2514,,,False,False,False
+1759,Fijian (Bua; Bua),west2514,,,False,False,False
+1760,Fijian (Wainibuka; Nailuva),,,,False,False,False
+1761,Fijian (Bua; Kubulau),west2514,,,False,False,False
+1762,Fijian (Rakiraki; Navatu Nakorotubu),,,,False,False,False
+1763,Fijian (Wainibuka; Nalidi),,,,False,False,False
+1764,Fijian (Vanualevuiloma; Sēqāqāirā),,,,False,False,False
+1765,Fijian (Nadrau; Nabōbuco),nadr1234,,,False,False,False
+1766,Fijian (Bua; Natokalau Kubulau),west2514,,,False,False,False
+1767,Fijian (Yasawa; Teci),,,,False,False,False
+1768,Fijian (Ba; Nailaga,,,,False,False,False
+1769,Fijian (Verata; Nasēsara),,,,False,False,False
+1770,Fijian (Wainibuka; Nausori Rā),,,,False,False,False
+1771,Fijian (Yasayasabeqa; Sawau),,,,False,False,False
+1772,Fijian (Rakiraki; Tokaimalo),,,,False,False,False
+1773,Fijian (Verata; Nasinu),,,,False,False,False
+1774,Fijian (Naitasiri; Navunokonoko),namo1248,-18.5308,177.637,False,True,False
+1775,Fijian (Vanualevuiloma; Kiā),,,,False,False,False
+1776,Fijian (Vanualevuiloma; Wailevu),,,,False,False,False
+1777,Fijian (Vatulawa; Nasau),,,,False,False,False
+1778,Fijian (Verata; Tokou),,,,False,False,False
+1779,Fijian (Verata; Yanuca Moturiki),,,,False,False,False
+1780,Fijian (Vanualevuiloma; Naqumu),,,,False,False,False
+1781,Fijian (Vanualevuiloma; Navadra),,,,False,False,False
+1782,Fijian (Magodro; Magodro),west2519,-17.8355,177.657,False,True,False
+1783,Fijian (Naitasiri; Lomaivuna),namo1248,-18.5308,177.637,False,True,False
+1784,Fijian (Wainibuka; Nakida),,,,False,False,False
+1785,Fijian (Vanualevuiloma; Sāsā),,,,False,False,False
+1786,Fijian (Yasayasabeqa; Deuba),,,,False,False,False
+1787,Fijian (Wainibuka; Bureivanua),,,,False,False,False
+1788,Fijian (Nadroga; Bemana),nadr1235,,,False,False,False
+1789,Fijian (Wainibuka; Bureiwai),,,,False,False,False
+1790,Fijian (Kadavu; Namara Kadavu),kada1285,,,False,False,False
+1791,Fijian (Rewa; Visama),,,,False,False,False
+1792,Fijian (Yasayasabeqa; Naduruvesi),,,,False,False,False
+1793,Fijian (Nadroga; Tuva),nadr1235,,,False,False,False
+1794,Fijian (Rewa; Toga),,,,False,False,False
+1795,Fijian (Bua; Navakasiga),west2514,,,False,False,False
+1796,Fijian (Vanualevuiloma; Drakaniwai),,,,False,False,False
+1797,Fijian (Yasawa; Marou),,,,False,False,False
+1798,Fijian (Vatulawa; Wainikeli),,,,False,False,False
+1799,Fijian (Bau; Kaba),bauu1243,,,False,False,False
+1800,Fijian (Naitasiri; Navakavu),namo1248,-18.5308,177.637,False,True,False
+1801,Fijian (Wainibuka; Silana),,,,False,False,False
+1802,Fijian (Rewa; Rewa),,,,False,False,False
+1803,Fijian (Rakiraki; Raviravi Ra),,,,False,False,False
+1804,Fijian (Vuda; Buduka),,,,False,False,False
+1805,Fijian (Vanualevuiloma; Dreketi),,,,False,False,False
+1806,Fijian (Wainimala; Rārā),,,,False,False,False
+1807,Fijian (Tailevu; Burerua),,,,False,False,False
+1808,Fijian (Vatulawa; Naweni),,,,False,False,False
+1809,Fijian (Wainibuka; Namena),,,,False,False,False
+1810,Fijian (Ovalau; Cawaci),,,,False,False,False
+1811,Fijian (Vuda; Māmānuca),,,,False,False,False
+1812,Fijian (Waya; Viwa),waya1268,-17.294682,177.123396,False,True,False
+1813,Fijian (Vuda; Malolo),,,,False,False,False
+1814,Fijian (Vanualevuiloma; Naqelelevu),,,,False,False,False
+1815,Fijian (Vanualevuiloma; Bāravi),,,,False,False,False
+1816,Fijian (Vanualevuicake; Batinikama),,,,False,False,False
+1817,Fijian (Sērua; Sērua),namo1248,-18.5308,177.637,False,True,False
+1818,Fijian (Rewa; Buretū),,,,False,False,False
+1819,Fijian (Gau; Gau),,,,False,False,False
+1820,Fijian (Rewa; Nukui),,,,False,False,False
+1821,Fijian (Vanualevuicake; Koibau/Qoibau),,,,False,False,False
+1822,Fijian (Vanualevuiloma; Nasavusavu,,,,False,False,False
+1823,Fijian (Nadroga; Lomawai),nadr1235,,,False,False,False
+1824,Fijian (Waidina; Navuakece),waid1240,,,False,False,False
+1825,Fijian (Nadroga; Naqwalimare),nadr1235,,,False,False,False
+1826,Fijian (Keiasi; Vusu),,,,False,False,False
+1827,Fijian (Vanualevuiloma; Nabekavu),,,,False,False,False
+1828,Fijian (Wainibuka; Nasautoka),,,,False,False,False
+1829,Fijian (Rakiraki; Naroko),,,,False,False,False
+1830,Fijian (Vatulawa; Qamea),,,,False,False,False
+1831,Fijian (Nadroga; Davutukia/Davujukia),nadr1235,,,False,False,False
+1832,Fijian (Ba; Qaliyalatina),,,,False,False,False
+1833,Fijian (Vanualevuiloma; Dewala),,,,False,False,False
+1834,Fijian (Rewa; Naqarani),,,,False,False,False
+1835,Fijian (Keiasi; Mosi),,,,False,False,False
+1836,Fijian (Verata; Nāloto Verata),,,,False,False,False
+1837,Fijian (Bau; Taiobau),bauu1243,,,False,False,False
+1838,Fijian (Rewa; Vūtia),,,,False,False,False
+1839,Fijian (Waidina; Naitavuni),waid1240,,,False,False,False
+1840,Fijian (Vanualevuicake; Namukaicake),,,,False,False,False
+1841,Fijian (Namosi; Vunaqumu),namo1248,-18.5308,177.637,False,True,False
+1842,Fijian (Gau; Narocake),,,,False,False,False
+1843,Fijian (Nadroga; Momi),nadr1235,,,False,False,False
+1844,Fijian (Tailevu; Nacovu),,,,False,False,False
+1845,Fijian (Rewa; Noco),,,,False,False,False
+1846,Fijian (Bau; Nairai),bauu1243,,,False,False,False
+1847,Fijian (Vanualevuicake; Labasa),,,,False,False,False
+1848,Fijian (Wainibuka; Nayavu),,,,False,False,False
+1849,Fijian (Rewa; Nukutubu),,,,False,False,False
+1850,Fijian (Verata; Savuna),,,,False,False,False
+1851,Fijian (Kadavu; Nabukelevu),kada1285,,,False,False,False
+1852,Fijian (Yasayasabeqa; Naturū),,,,False,False,False
+1853,Fijian (Yasawa; Nacula),,,,False,False,False
+1854,Fijian (Bau; Batiki),bauu1243,,,False,False,False
+1855,Fijian (Yasayasabeqa; Kulu),,,,False,False,False
+1856,Fijian (Ovalau; Gavo),,,,False,False,False
+1857,Fijian (Wainibuka; Barotu),,,,False,False,False
+1858,Fijian (Wainibuka; Nababa),,,,False,False,False
+1859,Fijian (Nadroga; Cuvu),nadr1235,,,False,False,False
+1860,Fijian (Verata; Nasauvuki),,,,False,False,False
+1861,Fijian (Tailevu; Tubalevu),,,,False,False,False
+1862,Fijian (Rewa; Tokatoka),,,,False,False,False
+1863,Fijian (Wainibuka; Wailotua),,,,False,False,False
+1864,Fijian (Rewa; Nuku),,,,False,False,False
+1865,Fijian (Bua; Lekutu),west2514,,,False,False,False
+1866,Fijian (Rakiraki; Vatukaloko),,,,False,False,False
+1867,Fijian (Sērua; Mami/Bajiwaiilolo),namo1248,-18.5308,177.637,False,True,False
+1868,Fijian (Verata; Natokalau),,,,False,False,False
+1869,Fijian (Yasayasamuala; Natokalau Cicia),,,,False,False,False
+1870,Fijian (Yasayasabeqa; Raviravi),,,,False,False,False
+1871,Fijian (Sērua; Tubai),namo1248,-18.5308,177.637,False,True,False
+1872,Fijian (Rakiraki; Navatu Rā),,,,False,False,False
+1873,Fijian (Vanualevuicake; Korotubu),,,,False,False,False
+1874,Fijian (Yasayasabeqa; Vābea),,,,False,False,False
+1875,Fijian (Verata; Naicabecabe),,,,False,False,False
+1876,Fijian (Ovalau; Nasaumatua),,,,False,False,False
+1877,Fijian (Ovalau; Levuka),,,,False,False,False
+1878,Fijian (Rewa; Dravo),,,,False,False,False
+1879,Fijian (Rewa; Dreketi Rewa),,,,False,False,False
+1880,Fijian (Sērua; Vunaniu),namo1248,-18.5308,177.637,False,True,False
+1881,Fijian (Vatulawa; Natewa),,,,False,False,False
+1882,Fijian (Kadavu; Tavuki),kada1285,,,False,False,False
+1883,Fijian (Bua; Sōlevu),west2514,,,False,False,False
+1884,Fijian (Vuda; Vuda),,,,False,False,False
+1885,Fijian (Ba; Nakoroboya),,,,False,False,False
+1886,Fijian (Waidina; Waidina),waid1240,,,False,False,False
+1887,Fijian (Tailevu; Mokani),,,,False,False,False
+1888,Fijian (Bua; Dama),west2514,,,False,False,False
+1889,Fijian (Lau; Oneata),lauu1248,,,False,False,False
+1890,Fijian (Wainibuka; Nasoqo),,,,False,False,False
+1891,Fijian (Wainibuka; Dakuinuku),,,,False,False,False
+1892,Fijian (Vanualevuiloma; Cikobia),,,,False,False,False
+1893,Fijian (Ba; Vitogo),,,,False,False,False
+1894,Fijian (Bau; Bau),bauu1243,,,False,False,False
+1895,Fijian (Vanualevuiloma; Savudrodro),,,,False,False,False
+1896,Fijian (Vuda; Naua),,,,False,False,False
+1897,Fijian (Rakiraki; Yadua),,,,False,False,False
+1898,Fijian (Yasayasabeqa; Natūsara),,,,False,False,False
+1899,Fijian (Tailevu; Nausori),,,,False,False,False
+1900,Fijian (Nadroga; Namaqumaqua),nadr1235,,,False,False,False
+1901,Fijian (Bua; Kavula),west2514,,,False,False,False
+1902,Fijian (Tailevu; Vugalei),,,,False,False,False
+1903,Fijian (Bau; Viwa Bau),bauu1243,,,False,False,False
+1904,Fijian (Bua; Wainunu),west2514,,,False,False,False
+1905,Fijian (Wainibuka; Nakuailava),,,,False,False,False
+1906,Fijian (Vanualevuicake; Nakama),,,,False,False,False
+1907,Fijian (Vanualevuiloma; Muanivatu),,,,False,False,False
+1908,Fijian (Ba; Bulu),,,,False,False,False
+1909,Fijian (Vuda; Nawaka),,,,False,False,False
+1910,Fijian (Rakiraki; Vatumali),,,,False,False,False
+1911,Fijian (Ba; Tāvua/Tavua),,,,False,False,False
+1912,Fijian (Verata; Navatu Bua),,,,False,False,False
+1913,Fijian (Naitasiri; Tamavua),namo1248,-18.5308,177.637,False,True,False
+1914,Fijian (Vanualevuicake; Vaturova),,,,False,False,False
+1915,Fijian (Nadrogā; Mavua),nadr1235,,,False,False,False
+1916,Fijian (Rewa; Nabuli),,,,False,False,False
+1917,Fijian (Rewa; Nakeloiwai),,,,False,False,False
+1918,Fijian (Bau; Qalivakabau),bauu1243,,,False,False,False
+1919,Fijian (Wainibuka; Nailega),,,,False,False,False
+1920,Fijian (Rakiraki; Malake),,,,False,False,False
+1921,Fijian (Naitasiri; Nasele),namo1248,-18.5308,177.637,False,True,False
+1922,Fijian (Emalu; Emalu),,,,False,False,False
+1923,Fijian (Gonedau; Macuataiwai),gone1237,-16.5886,178.599,False,True,False
+1924,Fijian (Wainibuka; Waimarōiwai),,,,False,False,False
+1925,Fijian (Wainimala; Wailevu Wainimala),,,,False,False,False
+1926,Fijian (Vatulawa; Cawa),,,,False,False,False
+1927,Fijian (Namosi; Namosi),namo1248,-18.5308,177.637,False,True,False
+1928,Fijian (Vanualevuicake; Koroalau),,,,False,False,False
+1929,Fijian (Keiasi; Nasikawa),,,,False,False,False
+1930,Fijian (Verata; Uluibau),,,,False,False,False
+1931,Fijian (Kadavu; Galoa),kada1285,,,False,False,False
+1932,Fijian (Naitasiri; Maū),namo1248,-18.5308,177.637,False,True,False
+1933,Fijian (Lau; Ono),lauu1248,,,False,False,False
+1934,Fijian (Vatulawa; Boumā),,,,False,False,False
+1935,Fijian (Vatulawa; Nabuna),,,,False,False,False
+1936,Fijian (Keiasi; Namataku/Nabau),,,,False,False,False
+1937,Fijian (Emalu; Nalea/Naleā),,,,False,False,False
+1938,Fijian (Vanualevuicake; Bucaisau),,,,False,False,False
+1939,Fijian (Wainimala; Laselevu),,,,False,False,False
+1940,Fijian (Yasayasamuala; Muala/Moala),,,,False,False,False
+1941,Fijian (Vanualevuiloma; Turiwai/Wainiqeu),,,,False,False,False
+1942,Fijian (Vanualevuicake; Wairikiibuca),,,,False,False,False
+1943,Fijian (Bua; Vuya),west2514,,,False,False,False
+1944,Fijian (Kadavu; Tabuya),kada1285,,,False,False,False
+1945,Fijian (Ovalau; Lovoni),,,,False,False,False
+1946,Fijian (Nadroga; Lawalawa),nadr1235,,,False,False,False
+1947,Fijian (Vuda; Nadele),,,,False,False,False
+1948,Fijian (Vatulawa; Vuna),,,,False,False,False
+1949,Fijian (Verata; Kumī),,,,False,False,False
+1950,Fijian (Tailevu; Tai),,,,False,False,False
+1951,Fijian (Wainibuka; Nasau Wainibuka),,,,False,False,False
+1952,Fijian (Vuda; Sikituru),,,,False,False,False
+1953,Fijian (Nadroga; Conua),nadr1235,,,False,False,False
+1954,Fijian (Noikoro; Navatusila),west2519,-17.8355,177.657,False,True,False
+1955,Fijian (Rewa; Nakelo),,,,False,False,False
+1956,Fijian (Yasayasamuala; Totoya),,,,False,False,False
+1957,Fijian (Yasayasamuala; Matuku),,,,False,False,False
+1958,Fijian (Wainimala; Taivugalei),,,,False,False,False
+1959,Fijian (Vatulawa; Nacamaki),,,,False,False,False
+1960,Fijian (Naitasiri; Vuna Naitasiri),namo1248,-18.5308,177.637,False,True,False
+1961,Fijian (Lau; Lauicake),lauu1248,,,False,False,False
+1962,Fijian (Ba; Yākete),,,,False,False,False
+1963,Fijian (Vatulele; Vatulele),,,,False,False,False
+1964,Fijian (Bua; Drakaniwai Bua),west2514,,,False,False,False
+1965,Fijian (Vatulawa; Cakaudrove),,,,False,False,False
+1966,Fijian (Vatulawa; Tunuloa),,,,False,False,False
+1967,Fijian (Wainimala; Waimarō Naulucavu),,,,False,False,False
+1968,Fijian (Verata; Verata),,,,False,False,False
+1969,Fijian (Nadroga; Tabanivono),nadr1235,,,False,False,False
+1970,Fijian (Wainibuka; Nāloto),,,,False,False,False
+1971,Fijian (Nadroga; Rukuruku),nadr1235,,,False,False,False
+1972,Fijian (Kadavu; Nakasaleka),kada1285,,,False,False,False
+1973,Fijian (Verata; Nakodu/Naceva),,,,False,False,False
+1974,Fijian (Vanualevuiloma; Seaqāqā/Sēqāqā),,,,False,False,False
+1975,Fijian (Vanualevuiloma; Natuvu),,,,False,False,False
+1976,Fijian (Kadavu; Tabanivonolevu),kada1285,,,False,False,False
+1977,Fijian (Sērua; Narukusara),namo1248,-18.5308,177.637,False,True,False
+1978,Fijian (Rewa; Vunivaivai),,,,False,False,False
+1979,Fijian (Verata; Navuloa),,,,False,False,False
+1980,Fijian (Namosi; Wainikoroiluva),namo1248,-18.5308,177.637,False,True,False
+1981,Fijian (Sērua; Burenitū),namo1248,-18.5308,177.637,False,True,False
+1982,Fijian (Tailevu; Namara),,,,False,False,False
+1983,Fijian (Bua; Nadi Bua),west2514,,,False,False,False
+1984,Fijian (Kadavu; Sānima),kada1285,,,False,False,False
+1985,Fijian (Nadroga; Waicoba),nadr1235,,,False,False,False
+1986,Fijian (Bau; Sawaieke),bauu1243,,,False,False,False
+1987,Fijian (Naitasiri; Suva),namo1248,-18.5308,177.637,False,True,False
+1988,Fijian (Kadavu; Jioma/Tioma),kada1285,,,False,False,False
+1989,Fijian (Vuda; Vatutū),,,,False,False,False
+1990,Fijian (Vanualevuiloma; Wairiki),,,,False,False,False
+1991,Fijian (Vuda; Nadi),,,,False,False,False
+1992,Fijian (Naitasiri; Naitāsiri),namo1248,-18.5308,177.637,False,True,False
+1993,Fijian (Wainimala; Matailobau),,,,False,False,False
+1994,Fijian (Wainibuka; Saivou),,,,False,False,False
+1995,Fijian (Ovalau; Naigani),,,,False,False,False
+1996,Fijian (Rewa; Waikete),,,,False,False,False
+1997,Fijian (Waidina; Ovalau),waid1240,,,False,False,False
+1998,Fijian (Vanualevuiloma; Dogoru),,,,False,False,False
+1999,Fijian (Rakiraki; Rakiraki),,,,False,False,False
+2000,Fijian (Vanualevuiloma; Naulana),,,,False,False,False
+2001,Fijian (Bau; Naiviqeleqele),bauu1243,,,False,False,False
+2002,Fijian (Wainibuka; Dawasamu),,,,False,False,False
+2003,Fijian (Wainimala; Nabaitavo),,,,False,False,False
+2004,Fijian (Nadroga; Nasoni/Nahoni),nadr1235,,,False,False,False
+2005,Fijian (Kadavu; Ravitaki),kada1285,,,False,False,False
+2006,Fijian (Vanualevuiloma; Nabalebale),,,,False,False,False
+2007,Fijian (Yasayasamuala; Cicia),,,,False,False,False
+2008,Fijian (Wainibuka; Nalaba),,,,False,False,False
+2009,Fijian (Rakiraki; Navitilevu),,,,False,False,False
+2010,Fijian (Kadavu; Naceva/Soso),kada1285,,,False,False,False
+2011,Fijian (Vuda; Namoli),,,,False,False,False
+2012,Fijian (Vuda; Sabeto),,,,False,False,False
+2013,Fijian (Wainimala; Nasalia),,,,False,False,False
+2014,Fijian (Rewa; Waivou),,,,False,False,False
+2015,Fijian (Verata; Moturiki),,,,False,False,False
+2016,Fijian (Wainimala; Nadaravakawalu),,,,False,False,False
+2017,Fijian (Vanualevuiloma; Raviravi Macuata),,,,False,False,False
+2018,Fijian (Gonedau; Gonedau),gone1237,-16.5886,178.599,False,True,False
+2019,Fijian (Nadroga; Sanasana/Hanahana),nadr1235,,,False,False,False
+2020,Fijian (Vuda; Vaturu),,,,False,False,False
+2021,Fijian (Tailevu; Maumi),,,,False,False,False
+2022,Fijian (Vatulawa; Navatu),,,,False,False,False
+2023,Fijian (Bau; Cautatā),bauu1243,,,False,False,False
+2024,Fijian (Wainibuka; Matacaucau),,,,False,False,False
+2025,Fijian (Nadroga; Malomalo),nadr1235,,,False,False,False
+2026,Fijian (Wainibuka; Dere),,,,False,False,False
+2027,Fijian (Savatu; Savatu),,,,False,False,False
+2028,Fijian (Vuda; Navō),,,,False,False,False
+2029,Fijian (Wainibuka; Mataso),,,,False,False,False
+2030,Fijian (Tailevu; Nāmata),,,,False,False,False
+2031,Fijian (Ovalau; Levukairā),,,,False,False,False
+2032,Fijian (Noikoro; Noikoro),west2519,-17.8355,177.657,False,True,False
+2033,Fijian (Wainibuka; Lawaki),,,,False,False,False
+2034,Fijian (Wainimala; Muairā),,,,False,False,False
+2035,Fijian (Rewa; Rewa Vulagi),,,,False,False,False
+2036,Fijian (Waya; Waya),waya1268,-17.294682,177.123396,False,True,False
+2037,Fijian (Yasawa; Muairā Naviti),,,,False,False,False
+2038,Fijian (Yasayasamuala; Vanuavatu),,,,False,False,False

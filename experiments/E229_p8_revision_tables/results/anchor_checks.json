@@ -1,0 +1,617 @@
+{
+  "n_checks": 75,
+  "n_failed": 0,
+  "checks": [
+    {
+      "name": "n_forms",
+      "expected": 1357.0,
+      "got": 1357.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "n_candidates",
+      "expected": 438.0,
+      "got": 438.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "candidates_per_list (keyed by list; amendment A1)",
+      "expected": {
+        "Muna": 34,
+        "Bugis": 62,
+        "Makassar": 80,
+        "Wolio": 83,
+        "Toraja-Sadan": 45,
+        "Tolaki": 134
+      },
+      "got": {
+        "Muna": 34,
+        "Bugis": 62,
+        "Makassar": 80,
+        "Wolio": 83,
+        "Toraja-Sadan": 45,
+        "Tolaki": 134
+      },
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "cv_auc_FM25_xgb",
+      "expected": 0.7265,
+      "got": 0.7265250064051432,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "cv_auc_sd_seed_means_FM25_xgb",
+      "expected": 0.0066,
+      "got": 0.00663847683810602,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "cv_auc_F17_xgb",
+      "expected": 0.6717,
+      "got": 0.6717247842639783,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "cv_auc_sd_seed_means_F17_xgb",
+      "expected": 0.0082,
+      "got": 0.008192815614819798,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "lolo_mean_auc_FM25",
+      "expected": 0.7008,
+      "got": 0.7007676783328844,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "lolo_mean_auc_FM25_vs_S7",
+      "expected": 0.7008,
+      "got": 0.7007676783328844,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "lolo_lists_ge_0.65_FM25_vs_S7",
+      "expected": 5.0,
+      "got": 5.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_FM25_Muna_vs_S7 (3 decimals)",
+      "expected": 0.614,
+      "got": 0.614,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_FM25_Bugis_vs_S7 (3 decimals)",
+      "expected": 0.706,
+      "got": 0.706,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_FM25_Makassar_vs_S7 (3 decimals)",
+      "expected": 0.711,
+      "got": 0.711,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_FM25_Wolio_vs_S7 (3 decimals)",
+      "expected": 0.667,
+      "got": 0.667,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_FM25_Toraja-Sadan_vs_S7 (3 decimals)",
+      "expected": 0.697,
+      "got": 0.697,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_FM25_Tolaki_vs_S7 (3 decimals)",
+      "expected": 0.809,
+      "got": 0.809,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_mean_auc_F17",
+      "expected": 0.6413,
+      "got": 0.6413429540798908,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "lolo_mean_auc_F17_vs_S7",
+      "expected": 0.6413,
+      "got": 0.6413429540798908,
+      "ok": true,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "lolo_lists_ge_0.65_F17_vs_S7",
+      "expected": 3.0,
+      "got": 3.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_F17_Muna_vs_S7 (3 decimals)",
+      "expected": 0.573,
+      "got": 0.573,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_F17_Bugis_vs_S7 (3 decimals)",
+      "expected": 0.659,
+      "got": 0.659,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_F17_Makassar_vs_S7 (3 decimals)",
+      "expected": 0.655,
+      "got": 0.655,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_F17_Wolio_vs_S7 (3 decimals)",
+      "expected": 0.597,
+      "got": 0.597,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_F17_Toraja-Sadan_vs_S7 (3 decimals)",
+      "expected": 0.604,
+      "got": 0.604,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "lolo_auc_F17_Tolaki_vs_S7 (3 decimals)",
+      "expected": 0.76,
+      "got": 0.76,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "cells [CP, CnoP, CodedP, CodednoP]",
+      "expected": [
+        172,
+        266,
+        105,
+        814
+      ],
+      "got": [
+        172,
+        266,
+        105,
+        814
+      ],
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "cells_vs_S4_json",
+      "expected": [
+        172,
+        266,
+        105,
+        814
+      ],
+      "got": [
+        172,
+        266,
+        105,
+        814
+      ],
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "kappa (3 decimals)",
+      "expected": 0.308,
+      "got": 0.308,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "EXTRA max |oof P(candidate) - E228 release| (<= 0.0006, release is rounded to 3 decimals)",
+      "expected": 0.0,
+      "got": 0.000499930083751654,
+      "ok": true,
+      "tolerance": 0.0006
+    },
+    {
+      "name": "EXTRA forms whose cell differs from the E228 release",
+      "expected": 0.0,
+      "got": 0.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "shap_order_of_25_inputs",
+      "expected": [
+        "has_glottal",
+        "form_length",
+        "sem_ACTION",
+        "n_vowels",
+        "vowel_ratio",
+        "n_consonant_clusters",
+        "init_a",
+        "is_core_vocab",
+        "sem_OTHER",
+        "ends_in_vowel",
+        "sem_GRAMMAR",
+        "has_nasal_cluster",
+        "init_b",
+        "init_m",
+        "init_p",
+        "has_prefix_like",
+        "sem_BODY",
+        "sem_NUMBER",
+        "init_k",
+        "sem_QUALITY",
+        "init_s",
+        "has_reduplication",
+        "sem_NATURE",
+        "init_other",
+        "init_t"
+      ],
+      "got": [
+        "has_glottal",
+        "form_length",
+        "sem_ACTION",
+        "n_vowels",
+        "vowel_ratio",
+        "n_consonant_clusters",
+        "init_a",
+        "is_core_vocab",
+        "sem_OTHER",
+        "ends_in_vowel",
+        "sem_GRAMMAR",
+        "has_nasal_cluster",
+        "init_b",
+        "init_m",
+        "init_p",
+        "has_prefix_like",
+        "sem_BODY",
+        "sem_NUMBER",
+        "init_k",
+        "sem_QUALITY",
+        "init_s",
+        "has_reduplication",
+        "sem_NATURE",
+        "init_other",
+        "init_t"
+      ],
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "shap_max_abs_difference_in_mean_abs_shap",
+      "expected": 0.0,
+      "got": 0.0,
+      "ok": true,
+      "tolerance": 0.002
+    },
+    {
+      "name": "EXTRA shap_direction_r_equals_minus_E227_r (max abs difference)",
+      "expected": 0.0,
+      "got": 1.1102230246251565e-16,
+      "ok": true,
+      "tolerance": 0.02
+    },
+    {
+      "name": "T6 form_length mean_candidate",
+      "expected": 6.095890410958904,
+      "got": 6.095890410958904,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 form_length mean_coded",
+      "expected": 5.204570184983678,
+      "got": 5.204570184983678,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 n_vowels mean_candidate",
+      "expected": 2.8767123287671232,
+      "got": 2.8767123287671232,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 n_vowels mean_coded",
+      "expected": 2.5386289445048966,
+      "got": 2.5386289445048966,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 n_consonant_clusters mean_candidate",
+      "expected": 0.4794520547945205,
+      "got": 0.4794520547945205,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 n_consonant_clusters mean_coded",
+      "expected": 0.3166485310119695,
+      "got": 0.31664853101196955,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_glottal mean_candidate",
+      "expected": 0.2351598173515981,
+      "got": 0.23515981735159816,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_glottal mean_coded",
+      "expected": 0.1164309031556039,
+      "got": 0.11643090315560392,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_glottal MH OR",
+      "expected": 2.668638411232404,
+      "got": 2.6686384112324038,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_glottal MH lo",
+      "expected": 1.8815281989265975,
+      "got": 1.8815281989265977,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_glottal MH hi",
+      "expected": 3.785024839897623,
+      "got": 3.785024839897623,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_prefix_like mean_candidate",
+      "expected": 0.3698630136986301,
+      "got": 0.3698630136986301,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_prefix_like mean_coded",
+      "expected": 0.2524483133841131,
+      "got": 0.25244831338411317,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_prefix_like MH OR",
+      "expected": 1.5682158102315449,
+      "got": 1.5682158102315447,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_prefix_like MH lo",
+      "expected": 1.2028394167341645,
+      "got": 1.2028394167341643,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_prefix_like MH hi",
+      "expected": 2.044579511816665,
+      "got": 2.044579511816665,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_nasal_cluster mean_candidate",
+      "expected": 0.3036529680365297,
+      "got": 0.3036529680365297,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_nasal_cluster mean_coded",
+      "expected": 0.2372143634385201,
+      "got": 0.23721436343852012,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_nasal_cluster MH OR",
+      "expected": 1.5548666748499531,
+      "got": 1.5548666748499531,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_nasal_cluster MH lo",
+      "expected": 1.182911733798813,
+      "got": 1.1829117337988133,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_nasal_cluster MH hi",
+      "expected": 2.043779182741737,
+      "got": 2.043779182741737,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_reduplication mean_candidate",
+      "expected": 0.1187214611872146,
+      "got": 0.1187214611872146,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_reduplication mean_coded",
+      "expected": 0.0979325353645266,
+      "got": 0.09793253536452666,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_reduplication MH OR",
+      "expected": 1.6778925145442365,
+      "got": 1.677892514544237,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_reduplication MH lo",
+      "expected": 1.1201333225487244,
+      "got": 1.1201333225487247,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 has_reduplication MH hi",
+      "expected": 2.513382321273741,
+      "got": 2.513382321273742,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 ends_in_vowel mean_candidate",
+      "expected": 0.7853881278538812,
+      "got": 0.7853881278538812,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 ends_in_vowel mean_coded",
+      "expected": 0.7921653971708379,
+      "got": 0.7921653971708379,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 ends_in_vowel MH OR",
+      "expected": 0.6589483849934648,
+      "got": 0.6589483849934648,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 ends_in_vowel MH lo",
+      "expected": 0.4671801450406782,
+      "got": 0.46718014504067823,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 ends_in_vowel MH hi",
+      "expected": 0.929433707093198,
+      "got": 0.929433707093198,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 sem_ACTION mean_candidate",
+      "expected": 0.4041095890410959,
+      "got": 0.4041095890410959,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 sem_ACTION mean_coded",
+      "expected": 0.2339499455930359,
+      "got": 0.23394994559303592,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 sem_ACTION MH OR",
+      "expected": 2.4619697528498885,
+      "got": 2.4619697528498885,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 sem_ACTION MH lo",
+      "expected": 1.893625007903343,
+      "got": 1.893625007903343,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 sem_ACTION MH hi",
+      "expected": 3.200895128998597,
+      "got": 3.200895128998597,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 is_core_vocab mean_candidate",
+      "expected": 0.8356164383561644,
+      "got": 0.8356164383561644,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 is_core_vocab mean_coded",
+      "expected": 0.8324265505984766,
+      "got": 0.8324265505984766,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 is_core_vocab MH OR",
+      "expected": 1.03941907088954,
+      "got": 1.0394190708895399,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 is_core_vocab MH lo",
+      "expected": 0.7571341032437118,
+      "got": 0.7571341032437117,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T6 is_core_vocab MH hi",
+      "expected": 1.426949334735105,
+      "got": 1.4269493347351045,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "T7 rows and original columns identical to E228 S4_cell_examples.csv",
+      "expected": 1.0,
+      "got": 1.0,
+      "ok": true,
+      "tolerance": null
+    }
+  ]
+}

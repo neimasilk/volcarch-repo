@@ -1,9 +1,15 @@
-# E228 — analyses for the P8 revision (*Oceanic Linguistics*): what the reviewers asked, tested under pre-registration
+# E228 — analyses for the P8 revision (*Oceanic Linguistics*): what the reviewers asked, with decision rules written beforehand
 
-**Status:** SUCCESS (all sections ran; several outcomes go **against** statements of the submitted manuscript — reported as pre-registered).
+**Status:** SUCCESS (all sections ran; several outcomes go **against** statements of the submitted manuscript — reported as the rules written beforehand require; for what "pre-registration" means here see the ⚠ note three lines down).
 **Lines:** 04_language_text (P8). **Date:** 2026-10-05.
 **Pre-registration:** `DESIGN.md`, frozen before any outcome was computed (sha256 at freeze `3b9cba13…fd13f57`).
 Two amendments are recorded in its §9: **A1** (S7, written before S7 was run) and **A2** (S5x, **post hoc**, exploratory).
+⚠ **What "pre-registered" means here (added 2026-10-06 after an adversarial read):** the decision rules were written down
+before the analysis was run — the same day, by the same analyst who had just audited the data — and were **not registered
+externally**. The design file now includes the two amendments, so its current hash (`bc66a7be…`) differs from the freeze
+hash; design and results entered git in one commit. One pre-set step, the leave-one-concept-out listing of DESIGN §6,
+was **not run** in this experiment; it was run as E231 H (largest change of the mean distance 0.003).
+Readings corrected on the same day are marked below; the numbers are unchanged. See `experiments/E231_p8_what_coded_means/`.
 **Follows:** E227 (audit of the submitted numbers). Nothing in E022–E042 was changed.
 
 ## Hypotheses (one per section; decision rules in `DESIGN.md`)
@@ -43,10 +49,10 @@ none at language level. Scripts: `p8common.py`, `01_revision_analyses.py` (S1–
 210 of 1,357 forms carry a marker; Muna has none, Wolio four. The classifier stays well above chance under every
 convention, but it is **not** the same under every convention: up to 0.016 of AUC (up to 0.024 across held-out languages)
 rests on the marker being written as a distinct symbol. In Makasar (26 forms), Tae' (7) and Bugis (2) a
-glottal + consonant sequence is also counted as a "consonant cluster". The glottal property is a property of how four
-of the six sources write, and has to be described so.
+glottal + consonant sequence is also counted as a "consonant cluster". Four lists carry the mark routinely, Wolio in four forms, Muna in none
+(⚠ whether that is spelling or phonology is for a specialist; corrected 2026-10-06).
 
-### S2 — Makasar: the published 62 % is reproduced; ours is a narrower class
+### S2 — Makasar: three classes of meanings (comparison with the published figure withheld; corrected 2026-10-06)
 
 Unit = concept; base = concepts present in the list and in the PMP list (201 for Makasar).
 
@@ -59,15 +65,17 @@ Unit = concept; base = concepts present in the list and in the PMP list (201 for
 | Muna | 35.8 % | 49.8 % | 14.4 % |
 | Tolaki | 26.2 % | 9.9 % | 63.9 % |
 
-Not retained from PMP in Makasar = **60.7 %**, within 1.3 points of the 62 % the reviewer quotes (38 % retention).
-Counting doubtful assignments: retention 42.8 %. So the two figures are the same quantity, and the manuscript's
+*(Paragraph rewritten 2026-10-06 after three adversarial reads; the table is unchanged. Column 1 means "in the same ABVD
+set as the PMP entry", not "retained".)* For Makasar 39.3 % of meanings are in the PMP entry's set, 25.9 % are coded in
+another set and 34.8 % are uncoded; with doubtful assignments counted the first figure is 42.8 %. The manuscript's
 "residual" (30.9 % of forms in Table 1; 36.9 % of forms / 34.8 % of concepts under the one-label definition) is the
-part with **no** coded cognate anywhere in Austronesian. The 25.9 % in between are words with Austronesian cognates
-that do not continue the PMP word for that meaning. Makasar against its two South Sulawesi relatives: 9 points less
-retention, 11–16 points more uncoded concepts. ⚠ The 38 %/62 % comes from the reviewer's quotation; the source has to
-be read by the PI before it is cited, and this table says nothing about *why* forms are uncoded (see S3).
-
-### S3 — most Tolaki "candidates" are shared inside Bungku–Tolaki (decision rule: ≥ 20 points → **met, 60.4**)
+uncoded class. ⚠ **No comparison with the published 38 % / 62 % is made here**: the primary source is unread, and it may
+go back to the same lists as ABVD's coding (ABVD names Blust 1993 / 1999 for its PMP list). "Not retained 60.7 %" must
+not be written: an uncoded meaning counts as "not in the set" only because it is uncoded. Makasar has 11–16 points more
+uncoded meanings than Bugis and Sa'dan Toraja; its lower first column is that same fact. Whether those uncoded forms
+are uncoded cognates or replaced words is not decided by this table; a mechanical screen does not favour "merely
+uncoded" (E231 tables D, P8, P9). The middle class is not "has Austronesian cognates" (E231 A).
+### S3 — most Tolaki "candidates" have a look-alike inside Bungku–Tolaki (decision rule: ≥ 20 points → **met, 60.4**)
 
 Look-alike = stem-tolerant normalised edit distance ≤ 0.34 for the same meaning; chance = same procedure on other meanings.
 
@@ -82,16 +90,19 @@ Look-alike = stem-tolerant normalised edit distance ≤ 0.34 for the same meanin
 At the strict threshold 0.25: 63.4 % against 3.0 %. Of the 34 candidates that match a Proto-Bungku-Tolaki entry, 7
 match an entry that ABVD itself assigns to a cognate set (a coding gap in the plain sense); the other 27 match a
 proto-form that is itself uncoded. 26 of the 134 have no look-alike even at 0.50; that remainder includes forms that
-look like ordinary Austronesian words or Malay loans (*motaku* 'to fear', *metanggali* 'to dig') — ⚠ prima facie only,
+look Austronesian or like Malay loans (*motaku* 'to fear', *metanggali* 'to dig') — ⚠ prima facie only,
 to be checked by the PI against the Austronesian Comparative Dictionary before anything is said about a single form.
 
 All six languages against the other Sulawesi lists in ABVD (71–76 lists, 10 random meanings for chance), threshold 0.25:
 Muna 35 % vs 6 %, Bugis 16 % vs 4 %, Makasar 20 % vs 6 %, Wolio 49 % vs 9 %, Tae' 33 % vs 10 %, Tolaki 71 % vs 9 %.
 ABVD has few other South Sulawesi lists, so the low Bugis/Makasar figures are partly an absence of comparanda.
 
-Reading: the Tolaki rate (64 % of forms uncoded) is not "under-documentation" and not evidence of substrate. The words
-exist across Bungku–Tolaki; they lack an assignment to a *higher-level* cognate set. This is the reviewer's own
-scenario (pt 1). A look-alike is a mechanical screen, not an etymology.
+Reading *(corrected 2026-10-06)*: the Tolaki rate (64 % of forms uncoded) is not "under-documentation": the words recur
+across Bungku–Tolaki and lack an assignment to a *higher-level* cognate set. That is all the count shows. Recurrence
+inside the subgroup is **neutral on origin** (the reviewer's example in pt 1 is a loan into a low-level proto-language);
+the control — coded Tolaki forms, 95.9 % — belongs beside the 70.9 %; and by meaning (first form), on shared meanings,
+list 674 is coded for 38 % and the Tolaki dialect lists for 36–41 %, against a median of 47 % in the 42 comparison
+lists (E231 P10b). A look-alike is a mechanical screen, not an etymology.
 
 ### S4 — agreement out of fold is "fair", not "substantial"
 
@@ -104,16 +115,18 @@ scenario (pt 1). A look-alike is a mechanical screen, not an etymology.
 
 39 % of candidates carry the profile when the model has not seen them (published: 61 %). No concept is "candidate &
 profile" in four or more languages (published: five). Tolaki supplies 62 of the 172 (published: 121 of 266).
-The five concepts reviewer 2 asks about: 'Fifty', 'Twenty', 'One Hundred' are decimal compounds, uncoded in four
+The five concepts reviewer 2 asks about: 'Fifty' and 'Twenty' ⚠ look like decimal compounds (for a specialist), 'One
+Hundred' is not uniform (the Makasar form looks like a different word) *(corrected 2026-10-06)*; all three are uncoded in four
 lists and coded in Bugis; for 'to hit' and 'to stand' every language has a different form, and both meanings were
-on the submitted version's own list of inherited meanings. Example lexemes per cell: `results/S4_cell_examples.csv`. What the high-profile examples
-have in common is visible affixation, compounding or a phrase (*ammikkiriʔ* 'to think', *mie no lambu* 'wife',
+on the submitted version's own list of inherited meanings. Example lexemes per cell: `results/S4_cell_examples.csv`. ⚠ The examples are the forms the classifier scores most extreme, so they show its inputs by construction; that the high-profile examples
+look affixed, compounded or phrasal is a reading, not a test *(note added 2026-10-06)*. What they
+have in common on the surface is what looks like affixation, compounding or a phrase (*ammikkiriʔ* 'to think', *mie no lambu* 'wife',
 *limaŋpulo* 'fifty'); what the uncoded low-profile examples have in common is that they are short (*annan* 'six',
 *omba* 'four', *jukuʔ* 'fish') — several look inherited. ⚠ Same caution: prima facie.
 
 ### S5 — the negative result does **not** stand as worded (decision rule: p < 0.05 → downgrade)
 
-| Set | same-meaning pairs | mean distance: observed / permuted | p | look-alike pairs: observed / expected | p |
+| Set | same-meaning pairs | mean distance: observed / permuted | p (0.0001 = at most: no permutation of 10,000 as extreme) | look-alike pairs: observed / expected | p |
 |---|---|---|---|---|---|
 | all candidates | 474 | 0.813 / 0.867 | 0.0001 | 15 / 0.6 | 0.0001 |
 | **candidates, numerals excluded (primary)** | **440** | **0.836 / 0.869** | **0.0001** | **4 / 0.5** | **0.0016** |
@@ -131,8 +144,10 @@ Wolio *matamo* 'heavy' (`results/S5_candidate_lookalike_pairs.csv`).
 **Post hoc (A2, exploratory):** permuting inside language × semantic domain leaves an excess of 0.024 (p = 0.0001);
 with stem-tolerant distance 22 look-alike pairs against 8–10 expected (p ≤ 0.0004). The shared part is therefore not
 only shared affixes.
-What survives: there is no *large* shared layer across the four subgroups. What does not survive: "each language
-innovated independently" — S3 shows the Tolaki items are subgroup-level, and S5 shows a small cross-subgroup component.
+What can be said *(corrected 2026-10-06)*: among uncoded forms the cross-list similarity is small; the test does not
+examine the coded class, so it supports neither "a shared layer" nor "no large shared layer" (E231 A, P2). What does not survive: "each language
+innovated independently" — S3 shows that most Tolaki items recur within the subgroup, and S5 shows a small excess of
+similarity across lists (not distinguishable inside and outside South Sulawesi; E231 P7).
 
 ### S6 — the 16 additional lists: geographic sentence **not supported** (rule: p < 0.05 **and** AUC ≥ 0.60 in ≥ 12 lists)
 
@@ -162,15 +177,14 @@ model has not seen); which meaning the word has gives almost as much.
 
 Against the submitted manuscript: (1) the headline discrimination is 0.67–0.73, not 0.76, once inputs that are not
 about the form are separated out; (2) the two-method agreement falls from κ 0.61 to 0.31; (3) the cross-language test
-finds a small shared component, so the negative result has to be reworded from "none" to "no large shared layer";
-(4) the geographic pattern in 16 further lists is not supported; (5) the glottal property is partly an artefact of
-how sources write. In its favour: (6) the published Makasar figure is reproduced and decomposed; (7) the reviewer's
-suggestion that residual forms may reconstruct at a low level is confirmed for Tolaki with a large margin.
-The picture that the data support is simpler than the submitted one: *forms without a cognate-set assignment are
-longer and more often affixed, compounded or glottal-marked than coded forms; most of the Tolaki ones are ordinary
-Bungku–Tolaki vocabulary; very few are shared across subgroups.* Whether that is the paper the PI wants to publish is
-his decision (`papers/P8_linguistic_fossils/REVISION_OL_20261005.md`).
-
+finds a small shared component, so the negative result cannot stand as "none" — nor, corrected 2026-10-06, as "no large
+shared layer": the test covers uncoded forms only (E231 A);
+(4) the geographic pattern in 16 further lists is not supported; (5) the result depends in part on whether a list
+writes a glottal mark.
+*(The remainder of this conclusion was cut on 2026-10-06: it stated the Makasar and Tolaki results and a one-sentence
+"picture" in wording that three adversarial reads found too strong, and the wording of any conclusion is the PI's. The
+numbers: S2 table above; S3 70.9 % against 10.5 %, control 95.9 %; S5 0.836 against 0.869. What may be said about them:
+`papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.)*
 ## Limits
 
 Edit distance on orthography; a look-alike is not a cognate judgement. The stem tolerance ignores up to three

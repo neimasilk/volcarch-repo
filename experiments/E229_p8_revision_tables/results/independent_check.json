@@ -1,0 +1,1403 @@
+{
+ "csv_presence": {
+  "T1_label_by_list.csv": true,
+  "T2_cv_performance.csv": true,
+  "T3_lolo.csv": true
+ },
+ "t1_independent": {
+  "Muna": {
+   "forms": 219,
+   "coded": 185,
+   "candidate": 34,
+   "pct_coded": 84.5,
+   "pct_candidate": 15.5
+  },
+  "Bugis": {
+   "forms": 242,
+   "coded": 180,
+   "candidate": 62,
+   "pct_coded": 74.4,
+   "pct_candidate": 25.6
+  },
+  "Makassar": {
+   "forms": 217,
+   "coded": 137,
+   "candidate": 80,
+   "pct_coded": 63.1,
+   "pct_candidate": 36.9
+  },
+  "Wolio": {
+   "forms": 254,
+   "coded": 171,
+   "candidate": 83,
+   "pct_coded": 67.3,
+   "pct_candidate": 32.7
+  },
+  "Toraja-Sadan": {
+   "forms": 216,
+   "coded": 171,
+   "candidate": 45,
+   "pct_coded": 79.2,
+   "pct_candidate": 20.8
+  },
+  "Tolaki": {
+   "forms": 209,
+   "coded": 75,
+   "candidate": 134,
+   "pct_coded": 35.9,
+   "pct_candidate": 64.1
+  },
+  "TOTAL": {
+   "forms": 1357,
+   "coded": 919,
+   "candidate": 438,
+   "pct_coded": 67.7,
+   "pct_candidate": 32.3
+  }
+ },
+ "comparisons": [
+  {
+   "quantity": "T1 Muna forms",
+   "e229": null,
+   "independent": 219,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Muna coded",
+   "e229": null,
+   "independent": 185,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Muna candidate",
+   "e229": null,
+   "independent": 34,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Bugis forms",
+   "e229": null,
+   "independent": 242,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Bugis coded",
+   "e229": null,
+   "independent": 180,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Bugis candidate",
+   "e229": null,
+   "independent": 62,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Makassar forms",
+   "e229": null,
+   "independent": 217,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Makassar coded",
+   "e229": null,
+   "independent": 137,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Makassar candidate",
+   "e229": null,
+   "independent": 80,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Wolio forms",
+   "e229": null,
+   "independent": 254,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Wolio coded",
+   "e229": null,
+   "independent": 171,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Wolio candidate",
+   "e229": null,
+   "independent": 83,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Toraja-Sadan forms",
+   "e229": null,
+   "independent": 216,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Toraja-Sadan coded",
+   "e229": null,
+   "independent": 171,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Toraja-Sadan candidate",
+   "e229": null,
+   "independent": 45,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Tolaki forms",
+   "e229": null,
+   "independent": 209,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Tolaki coded",
+   "e229": null,
+   "independent": 75,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Tolaki candidate",
+   "e229": null,
+   "independent": 134,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 TOTAL forms",
+   "e229": null,
+   "independent": 1357,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 TOTAL coded",
+   "e229": null,
+   "independent": 919,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 TOTAL candidate",
+   "e229": null,
+   "independent": 438,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T1 csv missing"
+  },
+  {
+   "quantity": "T1 Muna candidates (vs anchor_checks.json 'got', order Muna,Bugis,Makassar,Wolio,Tae',Tolaki)",
+   "e229": 34,
+   "independent": 34,
+   "abs_diff": 0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T1 Bugis candidates (vs anchor_checks.json 'got', order Muna,Bugis,Makassar,Wolio,Tae',Tolaki)",
+   "e229": 62,
+   "independent": 62,
+   "abs_diff": 0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T1 Makassar candidates (vs anchor_checks.json 'got', order Muna,Bugis,Makassar,Wolio,Tae',Tolaki)",
+   "e229": 80,
+   "independent": 80,
+   "abs_diff": 0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T1 Wolio candidates (vs anchor_checks.json 'got', order Muna,Bugis,Makassar,Wolio,Tae',Tolaki)",
+   "e229": 83,
+   "independent": 83,
+   "abs_diff": 0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T1 Toraja-Sadan candidates (vs anchor_checks.json 'got', order Muna,Bugis,Makassar,Wolio,Tae',Tolaki)",
+   "e229": 45,
+   "independent": 45,
+   "abs_diff": 0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T1 Tolaki candidates (vs anchor_checks.json 'got', order Muna,Bugis,Makassar,Wolio,Tae',Tolaki)",
+   "e229": 134,
+   "independent": 134,
+   "abs_diff": 0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T2 FM25 XGB auc_mean",
+   "e229": 0.7265,
+   "independent": 0.7265250064051432,
+   "abs_diff": 2.5006405143135346e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 FM25 XGB accuracy_mean",
+   "e229": 0.7189,
+   "independent": 0.718941556327328,
+   "abs_diff": 4.15563273280517e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 FM25 XGB f1_candidate_mean",
+   "e229": 0.48,
+   "independent": 0.48002106932873134,
+   "abs_diff": 2.1069328731360137e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 FM25 XGB precision_candidate_mean",
+   "e229": 0.5968,
+   "independent": 0.596830224647647,
+   "abs_diff": 3.0224647647014713e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 FM25 XGB recall_candidate_mean",
+   "e229": 0.4036,
+   "independent": 0.4036442006269592,
+   "abs_diff": 4.420062695920102e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 FM25 XGB f1_coded_mean",
+   "e229": 0.8072,
+   "independent": 0.8072052909927357,
+   "abs_diff": 5.290992735718092e-06,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 FM25 XGB auc (anchor json, unrounded)",
+   "e229": 0.7265250064051432,
+   "independent": 0.7265250064051432,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T2 FM25 XGB auc SD of seed means",
+   "e229": 0.00663847683810602,
+   "independent": 0.006997569000895985,
+   "abs_diff": 0.00035909216278996476,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T2 FM25 XGB accuracy SD of 50 folds",
+   "e229": null,
+   "independent": 0.019680640402253133,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 FM25 XGB f1_cand SD of 50 folds",
+   "e229": null,
+   "independent": 0.042993091315593104,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 FM25 XGB prec_cand SD of 50 folds",
+   "e229": null,
+   "independent": 0.046258020602704224,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 FM25 XGB rec_cand SD of 50 folds",
+   "e229": null,
+   "independent": 0.04848718926796689,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 FM25 XGB f1_coded SD of 50 folds",
+   "e229": null,
+   "independent": 0.014160247240239041,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 FM25 XGB auc SD of 50 folds",
+   "e229": null,
+   "independent": 0.027530629097114657,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 FM25 always-coded accuracy",
+   "e229": null,
+   "independent": 0.677230301714782,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Muna AUC (3 dp)",
+   "e229": 0.614,
+   "independent": 0.614,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 FM25 Muna n",
+   "e229": null,
+   "independent": 219,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Muna n_cand",
+   "e229": null,
+   "independent": 34,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Muna accuracy",
+   "e229": null,
+   "independent": 0.5799086757990868,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Muna majority_acc",
+   "e229": null,
+   "independent": 0.8447488584474886,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Muna always_coded",
+   "e229": null,
+   "independent": 0.8447488584474886,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Muna f1_cand",
+   "e229": null,
+   "independent": 0.31343283582089554,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Bugis AUC (3 dp)",
+   "e229": 0.706,
+   "independent": 0.706,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 FM25 Bugis n",
+   "e229": null,
+   "independent": 242,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Bugis n_cand",
+   "e229": null,
+   "independent": 62,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Bugis accuracy",
+   "e229": null,
+   "independent": 0.6900826446280992,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Bugis majority_acc",
+   "e229": null,
+   "independent": 0.743801652892562,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Bugis always_coded",
+   "e229": null,
+   "independent": 0.743801652892562,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Bugis f1_cand",
+   "e229": null,
+   "independent": 0.4186046511627907,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Makassar AUC (3 dp)",
+   "e229": 0.711,
+   "independent": 0.711,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 FM25 Makassar n",
+   "e229": null,
+   "independent": 217,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Makassar n_cand",
+   "e229": null,
+   "independent": 80,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Makassar accuracy",
+   "e229": null,
+   "independent": 0.6682027649769585,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Makassar majority_acc",
+   "e229": null,
+   "independent": 0.631336405529954,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Makassar always_coded",
+   "e229": null,
+   "independent": 0.631336405529954,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Makassar f1_cand",
+   "e229": null,
+   "independent": 0.41935483870967744,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Wolio AUC (3 dp)",
+   "e229": 0.667,
+   "independent": 0.667,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 FM25 Wolio n",
+   "e229": null,
+   "independent": 254,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Wolio n_cand",
+   "e229": null,
+   "independent": 83,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Wolio accuracy",
+   "e229": null,
+   "independent": 0.6496062992125984,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Wolio majority_acc",
+   "e229": null,
+   "independent": 0.6732283464566929,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Wolio always_coded",
+   "e229": null,
+   "independent": 0.6732283464566929,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Wolio f1_cand",
+   "e229": null,
+   "independent": 0.46060606060606063,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan AUC (3 dp)",
+   "e229": 0.697,
+   "independent": 0.697,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan n",
+   "e229": null,
+   "independent": 216,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan n_cand",
+   "e229": null,
+   "independent": 45,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan accuracy",
+   "e229": null,
+   "independent": 0.7592592592592593,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan majority_acc",
+   "e229": null,
+   "independent": 0.7916666666666666,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan always_coded",
+   "e229": null,
+   "independent": 0.7916666666666666,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Toraja-Sadan f1_cand",
+   "e229": null,
+   "independent": 0.38095238095238093,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki AUC (3 dp)",
+   "e229": 0.809,
+   "independent": 0.809,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki n",
+   "e229": null,
+   "independent": 209,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki n_cand",
+   "e229": null,
+   "independent": 134,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki accuracy",
+   "e229": null,
+   "independent": 0.49760765550239233,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki majority_acc",
+   "e229": null,
+   "independent": 0.6411483253588517,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki always_coded",
+   "e229": null,
+   "independent": 0.3588516746411483,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 Tolaki f1_cand",
+   "e229": null,
+   "independent": 0.3712574850299401,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 FM25 mean AUC",
+   "e229": 0.7007676783328844,
+   "independent": 0.7007676783328844,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T2 F17 XGB auc_mean",
+   "e229": 0.6717,
+   "independent": 0.6717247842639783,
+   "abs_diff": 2.4784263978339105e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 F17 XGB accuracy_mean",
+   "e229": 0.6965,
+   "independent": 0.6964670609941394,
+   "abs_diff": 3.29390058606549e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 F17 XGB f1_candidate_mean",
+   "e229": 0.391,
+   "independent": 0.39096361620678743,
+   "abs_diff": 3.6383793212579896e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 F17 XGB precision_candidate_mean",
+   "e229": 0.5604,
+   "independent": 0.5603606778975009,
+   "abs_diff": 3.93221024991286e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 F17 XGB recall_candidate_mean",
+   "e229": 0.3041,
+   "independent": 0.30413531870428423,
+   "abs_diff": 3.531870428424844e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 F17 XGB f1_coded_mean",
+   "e229": 0.7975,
+   "independent": 0.7974500478345188,
+   "abs_diff": 4.995216548120407e-05,
+   "verdict": "AGREE",
+   "e229_source": "run_log.txt (4 dp)"
+  },
+  {
+   "quantity": "T2 F17 XGB auc (anchor json, unrounded)",
+   "e229": 0.6717247842639783,
+   "independent": 0.6717247842639783,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T2 F17 XGB auc SD of seed means",
+   "e229": 0.008192815614819798,
+   "independent": 0.008635985930874416,
+   "abs_diff": 0.0004431703160546179,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T2 F17 XGB accuracy SD of 50 folds",
+   "e229": null,
+   "independent": 0.02006865760830636,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 F17 XGB f1_cand SD of 50 folds",
+   "e229": null,
+   "independent": 0.0454301615872979,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 F17 XGB prec_cand SD of 50 folds",
+   "e229": null,
+   "independent": 0.06004929954927473,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 F17 XGB rec_cand SD of 50 folds",
+   "e229": null,
+   "independent": 0.05114458176974391,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 F17 XGB f1_coded SD of 50 folds",
+   "e229": null,
+   "independent": 0.015815019882371065,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 F17 XGB auc SD of 50 folds",
+   "e229": null,
+   "independent": 0.029512208760780506,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T2 F17 always-coded accuracy",
+   "e229": null,
+   "independent": 0.677230301714782,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "csv missing"
+  },
+  {
+   "quantity": "T3 F17 Muna AUC (3 dp)",
+   "e229": 0.573,
+   "independent": 0.573,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 F17 Muna n",
+   "e229": null,
+   "independent": 219,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Muna n_cand",
+   "e229": null,
+   "independent": 34,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Muna accuracy",
+   "e229": null,
+   "independent": 0.7397260273972602,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Muna majority_acc",
+   "e229": null,
+   "independent": 0.8447488584474886,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Muna always_coded",
+   "e229": null,
+   "independent": 0.8447488584474886,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Muna f1_cand",
+   "e229": null,
+   "independent": 0.2597402597402597,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Bugis AUC (3 dp)",
+   "e229": 0.659,
+   "independent": 0.659,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 F17 Bugis n",
+   "e229": null,
+   "independent": 242,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Bugis n_cand",
+   "e229": null,
+   "independent": 62,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Bugis accuracy",
+   "e229": null,
+   "independent": 0.7066115702479339,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Bugis majority_acc",
+   "e229": null,
+   "independent": 0.743801652892562,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Bugis always_coded",
+   "e229": null,
+   "independent": 0.743801652892562,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Bugis f1_cand",
+   "e229": null,
+   "independent": 0.3106796116504854,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Makassar AUC (3 dp)",
+   "e229": 0.655,
+   "independent": 0.655,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 F17 Makassar n",
+   "e229": null,
+   "independent": 217,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Makassar n_cand",
+   "e229": null,
+   "independent": 80,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Makassar accuracy",
+   "e229": null,
+   "independent": 0.663594470046083,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Makassar majority_acc",
+   "e229": null,
+   "independent": 0.631336405529954,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Makassar always_coded",
+   "e229": null,
+   "independent": 0.631336405529954,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Makassar f1_cand",
+   "e229": null,
+   "independent": 0.416,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Wolio AUC (3 dp)",
+   "e229": 0.597,
+   "independent": 0.597,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 F17 Wolio n",
+   "e229": null,
+   "independent": 254,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Wolio n_cand",
+   "e229": null,
+   "independent": 83,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Wolio accuracy",
+   "e229": null,
+   "independent": 0.6220472440944882,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Wolio majority_acc",
+   "e229": null,
+   "independent": 0.6732283464566929,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Wolio always_coded",
+   "e229": null,
+   "independent": 0.6732283464566929,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Wolio f1_cand",
+   "e229": null,
+   "independent": 0.37662337662337664,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan AUC (3 dp)",
+   "e229": 0.604,
+   "independent": 0.604,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan n",
+   "e229": null,
+   "independent": 216,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan n_cand",
+   "e229": null,
+   "independent": 45,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan accuracy",
+   "e229": null,
+   "independent": 0.7361111111111112,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan majority_acc",
+   "e229": null,
+   "independent": 0.7916666666666666,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan always_coded",
+   "e229": null,
+   "independent": 0.7916666666666666,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Toraja-Sadan f1_cand",
+   "e229": null,
+   "independent": 0.27848101265822783,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Tolaki AUC (3 dp)",
+   "e229": 0.76,
+   "independent": 0.76,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  },
+  {
+   "quantity": "T3 F17 Tolaki n",
+   "e229": null,
+   "independent": 209,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Tolaki n_cand",
+   "e229": null,
+   "independent": 134,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Tolaki accuracy",
+   "e229": null,
+   "independent": 0.4258373205741627,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Tolaki majority_acc",
+   "e229": null,
+   "independent": 0.6411483253588517,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Tolaki always_coded",
+   "e229": null,
+   "independent": 0.3588516746411483,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 Tolaki f1_cand",
+   "e229": null,
+   "independent": 0.1891891891891892,
+   "abs_diff": null,
+   "verdict": "NOT COMPARABLE (E229 value absent)",
+   "e229_source": "T3 csv missing"
+  },
+  {
+   "quantity": "T3 F17 mean AUC",
+   "e229": 0.6413429540798908,
+   "independent": 0.6413429540798908,
+   "abs_diff": 0.0,
+   "verdict": "AGREE",
+   "e229_source": "anchor_checks.json"
+  }
+ ],
+ "max_abs_diff_in_means": 4.995216548120407e-05,
+ "row_order": {
+  "stored_order_identical_to_forms_csv_order": true,
+  "matrix_ids_missing_from_forms": 0
+ },
+ "independent_stored_order": {
+  "order": "stored_order",
+  "cv": {
+   "FM25": {
+    "auc": {
+     "mean": 0.7265250064051432,
+     "sd_seed_means": 0.006997569000895985,
+     "sd_folds": 0.027530629097114657
+    },
+    "accuracy": {
+     "mean": 0.718941556327328,
+     "sd_seed_means": 0.008320311381344864,
+     "sd_folds": 0.019680640402253133
+    },
+    "f1_cand": {
+     "mean": 0.48002106932873134,
+     "sd_seed_means": 0.018435455579673774,
+     "sd_folds": 0.042993091315593104
+    },
+    "prec_cand": {
+     "mean": 0.596830224647647,
+     "sd_seed_means": 0.017491143927469144,
+     "sd_folds": 0.046258020602704224
+    },
+    "rec_cand": {
+     "mean": 0.4036442006269592,
+     "sd_seed_means": 0.019202280574012798,
+     "sd_folds": 0.04848718926796689
+    },
+    "f1_coded": {
+     "mean": 0.8072052909927357,
+     "sd_seed_means": 0.005602511343778891,
+     "sd_folds": 0.014160247240239041
+    },
+    "always_coded": {
+     "mean": 0.677230301714782,
+     "sd_seed_means": 0.0,
+     "sd_folds": 0.0014983980189586857
+    }
+   },
+   "F17": {
+    "auc": {
+     "mean": 0.6717247842639783,
+     "sd_seed_means": 0.008635985930874416,
+     "sd_folds": 0.029512208760780506
+    },
+    "accuracy": {
+     "mean": 0.6964670609941394,
+     "sd_seed_means": 0.005675957285972252,
+     "sd_folds": 0.02006865760830636
+    },
+    "f1_cand": {
+     "mean": 0.39096361620678743,
+     "sd_seed_means": 0.010588723533062188,
+     "sd_folds": 0.0454301615872979
+    },
+    "prec_cand": {
+     "mean": 0.5603606778975009,
+     "sd_seed_means": 0.01880039197599068,
+     "sd_folds": 0.06004929954927473
+    },
+    "rec_cand": {
+     "mean": 0.30413531870428423,
+     "sd_seed_means": 0.014779813562278735,
+     "sd_folds": 0.05114458176974391
+    },
+    "f1_coded": {
+     "mean": 0.7974500478345188,
+     "sd_seed_means": 0.00438684883775395,
+     "sd_folds": 0.015815019882371065
+    },
+    "always_coded": {
+     "mean": 0.677230301714782,
+     "sd_seed_means": 0.0,
+     "sd_folds": 0.0014983980189586857
+    }
+   }
+  },
+  "lolo": {
+   "FM25": {
+    "Muna": {
+     "n": 219,
+     "n_cand": 34,
+     "auc": 0.6136724960254372,
+     "accuracy": 0.5799086757990868,
+     "majority_acc": 0.8447488584474886,
+     "always_coded": 0.8447488584474886,
+     "f1_cand": 0.31343283582089554
+    },
+    "Bugis": {
+     "n": 242,
+     "n_cand": 62,
+     "auc": 0.7064964157706094,
+     "accuracy": 0.6900826446280992,
+     "majority_acc": 0.743801652892562,
+     "always_coded": 0.743801652892562,
+     "f1_cand": 0.4186046511627907
+    },
+    "Makassar": {
+     "n": 217,
+     "n_cand": 80,
+     "auc": 0.7107664233576643,
+     "accuracy": 0.6682027649769585,
+     "majority_acc": 0.631336405529954,
+     "always_coded": 0.631336405529954,
+     "f1_cand": 0.41935483870967744
+    },
+    "Wolio": {
+     "n": 254,
+     "n_cand": 83,
+     "auc": 0.667230324808004,
+     "accuracy": 0.6496062992125984,
+     "majority_acc": 0.6732283464566929,
+     "always_coded": 0.6732283464566929,
+     "f1_cand": 0.46060606060606063
+    },
+    "Toraja-Sadan": {
+     "n": 216,
+     "n_cand": 45,
+     "auc": 0.6973359324236517,
+     "accuracy": 0.7592592592592593,
+     "majority_acc": 0.7916666666666666,
+     "always_coded": 0.7916666666666666,
+     "f1_cand": 0.38095238095238093
+    },
+    "Tolaki": {
+     "n": 209,
+     "n_cand": 134,
+     "auc": 0.8091044776119404,
+     "accuracy": 0.49760765550239233,
+     "majority_acc": 0.6411483253588517,
+     "always_coded": 0.3588516746411483,
+     "f1_cand": 0.3712574850299401
+    }
+   },
+   "F17": {
+    "Muna": {
+     "n": 219,
+     "n_cand": 34,
+     "auc": 0.573449920508744,
+     "accuracy": 0.7397260273972602,
+     "majority_acc": 0.8447488584474886,
+     "always_coded": 0.8447488584474886,
+     "f1_cand": 0.2597402597402597
+    },
+    "Bugis": {
+     "n": 242,
+     "n_cand": 62,
+     "auc": 0.6589157706093189,
+     "accuracy": 0.7066115702479339,
+     "majority_acc": 0.743801652892562,
+     "always_coded": 0.743801652892562,
+     "f1_cand": 0.3106796116504854
+    },
+    "Makassar": {
+     "n": 217,
+     "n_cand": 80,
+     "auc": 0.6553375912408759,
+     "accuracy": 0.663594470046083,
+     "majority_acc": 0.631336405529954,
+     "always_coded": 0.631336405529954,
+     "f1_cand": 0.416
+    },
+    "Wolio": {
+     "n": 254,
+     "n_cand": 83,
+     "auc": 0.5965969139716761,
+     "accuracy": 0.6220472440944882,
+     "majority_acc": 0.6732283464566929,
+     "always_coded": 0.6732283464566929,
+     "f1_cand": 0.37662337662337664
+    },
+    "Toraja-Sadan": {
+     "n": 216,
+     "n_cand": 45,
+     "auc": 0.6035087719298246,
+     "accuracy": 0.7361111111111112,
+     "majority_acc": 0.7916666666666666,
+     "always_coded": 0.7916666666666666,
+     "f1_cand": 0.27848101265822783
+    },
+    "Tolaki": {
+     "n": 209,
+     "n_cand": 134,
+     "auc": 0.7602487562189055,
+     "accuracy": 0.4258373205741627,
+     "majority_acc": 0.6411483253588517,
+     "always_coded": 0.3588516746411483,
+     "f1_cand": 0.1891891891891892
+    }
+   }
+  }
+ },
+ "independent_forms_csv_order": null
+}

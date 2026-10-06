@@ -1,0 +1,185 @@
+python 3.11.7 | xgboost 3.0.3 | scikit-learn 1.8.0 | shap 0.50.0 | numpy 2.4.6 | pandas 2.3.3 | matplotlib 3.11.1
+
+==============================================================================
+T2  cross-validated performance, 2 input sets x 3 classifiers (50 folds each)
+==============================================================================
+FM25 XGBoost {'auc_mean': np.float64(0.7265), 'accuracy_mean': np.float64(0.7189), 'f1_candidate_mean': np.float64(0.48), 'precision_candidate_mean': np.float64(0.5968), 'recall_candidate_mean': np.float64(0.4036), 'f1_coded_mean': np.float64(0.8072)}
+FM25 Random Forest {'auc_mean': np.float64(0.727), 'accuracy_mean': np.float64(0.6631), 'f1_candidate_mean': np.float64(0.5435), 'precision_candidate_mean': np.float64(0.4834), 'recall_candidate_mean': np.float64(0.6221), 'f1_coded_mean': np.float64(0.7327)}
+FM25 Logistic regression {'auc_mean': np.float64(0.7002), 'accuracy_mean': np.float64(0.648), 'f1_candidate_mean': np.float64(0.5457), 'precision_candidate_mean': np.float64(0.4678), 'recall_candidate_mean': np.float64(0.6569), 'f1_coded_mean': np.float64(0.7121)}
+F17 XGBoost {'auc_mean': np.float64(0.6717), 'accuracy_mean': np.float64(0.6965), 'f1_candidate_mean': np.float64(0.391), 'precision_candidate_mean': np.float64(0.5604), 'recall_candidate_mean': np.float64(0.3041), 'f1_coded_mean': np.float64(0.7975)}
+F17 Random Forest {'auc_mean': np.float64(0.6832), 'accuracy_mean': np.float64(0.6461), 'f1_candidate_mean': np.float64(0.5143), 'precision_candidate_mean': np.float64(0.4628), 'recall_candidate_mean': np.float64(0.5811), 'f1_coded_mean': np.float64(0.7211)}
+F17 Logistic regression {'auc_mean': np.float64(0.6707), 'accuracy_mean': np.float64(0.6293), 'f1_candidate_mean': np.float64(0.5108), 'precision_candidate_mean': np.float64(0.4449), 'recall_candidate_mean': np.float64(0.6014), 'f1_coded_mean': np.float64(0.701)}
+
+==============================================================================
+T3  leave-one-language-out, XGBoost
+==============================================================================
+FM25 {'Muna': 0.614, 'Bugis': 0.706, 'Makassar': 0.711, 'Wolio': 0.667, 'Toraja-Sadan': 0.697, 'Tolaki': 0.809} mean 0.7008 >=0.65: 5
+F17 {'Muna': 0.573, 'Bugis': 0.659, 'Makassar': 0.655, 'Wolio': 0.597, 'Toraja-Sadan': 0.604, 'Tolaki': 0.76} mean 0.6413 >=0.65: 3
+
+==============================================================================
+T4  CV AUC with and without Tolaki, XGBoost
+==============================================================================
+FM25 0.7265 0.7012
+F17 0.6717 0.6455
+
+==============================================================================
+T5  label x profile cells (out-of-fold P(candidate) >= 0.5, FM25, XGBoost)
+==============================================================================
+    list_key          list    n  candidate_and_profile  candidate_and_no_profile  coded_and_profile  coded_and_no_profile  kappa
+        Muna          Muna  219                      5                        29                  9                   176  0.129
+       Bugis         Bugis  242                     27                        35                 23                   157  0.329
+    Makassar       Makasar  217                     31                        49                 19                   118  0.270
+       Wolio         Wolio  254                     32                        51                 31                   140  0.218
+Toraja-Sadan Sa'dan Toraja  216                     15                        30                 19                   152  0.244
+      Tolaki        Tolaki  209                     62                        72                  4                    71  0.341
+         ALL All six lists 1357                    172                       266                105                   814  0.308
+
+==============================================================================
+T1  label by list
+==============================================================================
+    list_key          list  forms  coded_n  coded_pct  candidate_n  candidate_pct
+        Muna          Muna    219      185       84.5           34           15.5
+       Bugis         Bugis    242      180       74.4           62           25.6
+    Makassar       Makasar    217      137       63.1           80           36.9
+       Wolio         Wolio    254      171       67.3           83           32.7
+Toraja-Sadan Sa'dan Toraja    216      171       79.2           45           20.8
+      Tolaki        Tolaki    209       75       35.9          134           64.1
+         ALL All six lists   1357      919       67.7          438           32.3
+
+==============================================================================
+T6  profile of candidates vs coded forms
+==============================================================================
+        property_key  mean_candidate  mean_coded  n_lists_same_sign_as_pooled  effect  ci_lo  ci_hi
+         form_length           6.096       5.205                            6   1.092  0.865  1.316
+            n_vowels           2.877       2.539                            6   0.395  0.295  0.492
+n_consonant_clusters           0.479       0.317                            6   0.206  0.141  0.275
+         has_glottal           0.235       0.116                            5   2.669  1.882  3.785
+     has_prefix_like           0.370       0.252                            6   1.568  1.203  2.045
+   has_nasal_cluster           0.304       0.237                            6   1.555  1.183  2.044
+   has_reduplication           0.119       0.098                            5   1.678  1.120  2.513
+       ends_in_vowel           0.785       0.792                            3   0.659  0.467  0.929
+          sem_ACTION           0.404       0.234                            6   2.462  1.894  3.201
+       is_core_vocab           0.836       0.832                            3   1.039  0.757  1.427
+
+==============================================================================
+F1  mean |SHAP| of the 25 inputs (XGBoost on all 1,357 forms)
+==============================================================================
+             feature                                                             label        group  mean_abs_shap  r_value_vs_shap_toward_candidate direction  rank
+         has_glottal                                     Glottal stop written (ʔ or ') written form          0.279                             0.893         ↑     1
+         form_length Length in characters (hyphens, spaces and glottal marks included) written form          0.276                             0.683         ↑     2
+          sem_ACTION                                                   Meaning: action      meaning          0.269                             0.930         ↑     3
+            n_vowels                                           Number of vowel letters written form          0.266                             0.687         ↑     4
+         vowel_ratio                                            Share of vowel letters written form          0.210                             0.685         ↑     5
+n_consonant_clusters                                         Consonant-letter clusters written form          0.198                             0.829         ↑     6
+              init_a                                                     Begins with a written form          0.153                            -0.900         ↓     7
+       is_core_vocab                            Meaning in the "core" set (174 of 210)      meaning          0.151                             0.454         ↑     8
+           sem_OTHER                                                    Meaning: other      meaning          0.145                            -0.861         ↓     9
+       ends_in_vowel                                                   Ends in a vowel written form          0.114                             0.886         ↑    10
+         sem_GRAMMAR                                         Meaning: grammatical word      meaning          0.111                             0.819         ↑    11
+   has_nasal_cluster                   Contains ŋ or ng, or mb, nd, nj, mp, nk, nc, nt written form          0.085                             0.836         ↑    12
+              init_b                                                     Begins with b written form          0.080                            -0.848         ↓    13
+              init_m                                                     Begins with m written form          0.075                             0.736         ↑    14
+              init_p                                                     Begins with p written form          0.075                             0.788         ↑    15
+     has_prefix_like                  Begins with ma, me, mo, pa, ka, ta, na, po or aŋ written form          0.072                             0.765         ↑    16
+            sem_BODY                                                     Meaning: body      meaning          0.071                            -0.904         ↓    17
+          sem_NUMBER                                                  Meaning: numeral      meaning          0.036                            -0.165         ·    18
+              init_k                                                     Begins with k written form          0.031                             0.620         ↑    19
+         sem_QUALITY                                                  Meaning: quality      meaning          0.030                            -0.298         ·    20
+              init_s                                                     Begins with s written form          0.029                             0.853         ↑    21
+   has_reduplication                                Hyphen or repeated letter sequence written form          0.028                             0.014         ·    22
+          sem_NATURE                                                   Meaning: nature      meaning          0.024                             0.008         ·    23
+          init_other                                        Begins with another letter written form          0.019                             0.408         ↑    24
+              init_t                                                     Begins with t written form          0.018                            -0.369         ↓    25
+
+==============================================================================
+T7  examples (the 92 rows of E228 S4_cell_examples.csv, unchanged) + extra columns
+==============================================================================
+92 rows; with PMP entry: 87 | with PAn entry: 78
+
+==============================================================================
+ANCHORS (DESIGN §4)
+==============================================================================
+OK   n_forms expected 1357 got 1357
+OK   n_candidates expected 438 got 438
+OK   candidates_per_list (keyed by list; amendment A1) expected {'Muna': 34, 'Bugis': 62, 'Makassar': 80, 'Wolio': 83, 'Toraja-Sadan': 45, 'Tolaki': 134} got {'Muna': 34, 'Bugis': 62, 'Makassar': 80, 'Wolio': 83, 'Toraja-Sadan': 45, 'Tolaki': 134}
+OK   cv_auc_FM25_xgb expected 0.7265 got 0.7265250064051432
+OK   cv_auc_sd_seed_means_FM25_xgb expected 0.0066 got 0.00663847683810602
+OK   cv_auc_F17_xgb expected 0.6717 got 0.6717247842639783
+OK   cv_auc_sd_seed_means_F17_xgb expected 0.0082 got 0.008192815614819798
+OK   lolo_mean_auc_FM25 expected 0.7008 got 0.7007676783328844
+OK   lolo_mean_auc_FM25_vs_S7 expected 0.7008 got 0.7007676783328844
+OK   lolo_lists_ge_0.65_FM25_vs_S7 expected 5 got 5
+OK   lolo_auc_FM25_Muna_vs_S7 (3 decimals) expected 0.614 got 0.614
+OK   lolo_auc_FM25_Bugis_vs_S7 (3 decimals) expected 0.706 got 0.706
+OK   lolo_auc_FM25_Makassar_vs_S7 (3 decimals) expected 0.711 got 0.711
+OK   lolo_auc_FM25_Wolio_vs_S7 (3 decimals) expected 0.667 got 0.667
+OK   lolo_auc_FM25_Toraja-Sadan_vs_S7 (3 decimals) expected 0.697 got 0.697
+OK   lolo_auc_FM25_Tolaki_vs_S7 (3 decimals) expected 0.809 got 0.809
+OK   lolo_mean_auc_F17 expected 0.6413 got 0.6413429540798908
+OK   lolo_mean_auc_F17_vs_S7 expected 0.6413 got 0.6413429540798908
+OK   lolo_lists_ge_0.65_F17_vs_S7 expected 3 got 3
+OK   lolo_auc_F17_Muna_vs_S7 (3 decimals) expected 0.573 got 0.573
+OK   lolo_auc_F17_Bugis_vs_S7 (3 decimals) expected 0.659 got 0.659
+OK   lolo_auc_F17_Makassar_vs_S7 (3 decimals) expected 0.655 got 0.655
+OK   lolo_auc_F17_Wolio_vs_S7 (3 decimals) expected 0.597 got 0.597
+OK   lolo_auc_F17_Toraja-Sadan_vs_S7 (3 decimals) expected 0.604 got 0.604
+OK   lolo_auc_F17_Tolaki_vs_S7 (3 decimals) expected 0.76 got 0.76
+OK   cells [CP, CnoP, CodedP, CodednoP] expected [172, 266, 105, 814] got [172, 266, 105, 814]
+OK   cells_vs_S4_json expected [172, 266, 105, 814] got [172, 266, 105, 814]
+OK   kappa (3 decimals) expected 0.308 got 0.308
+OK   EXTRA max |oof P(candidate) - E228 release| (<= 0.0006, release is rounded to 3 decimals) expected 0.0 got 0.000499930083751654
+OK   EXTRA forms whose cell differs from the E228 release expected 0 got 0
+OK   shap_order_of_25_inputs expected ['has_glottal', 'form_length', 'sem_ACTION', 'n_vowels', 'vowel_ratio', 'n_consonant_clusters', 'init_a', 'is_core_vocab', 'sem_OTHER', 'ends_in_vowel', 'sem_GRAMMAR', 'has_nasal_cluster', 'init_b', 'init_m', 'init_p', 'has_prefix_like', 'sem_BODY', 'sem_NUMBER', 'init_k', 'sem_QUALITY', 'init_s', 'has_reduplication', 'sem_NATURE', 'init_other', 'init_t'] got ['has_glottal', 'form_length', 'sem_ACTION', 'n_vowels', 'vowel_ratio', 'n_consonant_clusters', 'init_a', 'is_core_vocab', 'sem_OTHER', 'ends_in_vowel', 'sem_GRAMMAR', 'has_nasal_cluster', 'init_b', 'init_m', 'init_p', 'has_prefix_like', 'sem_BODY', 'sem_NUMBER', 'init_k', 'sem_QUALITY', 'init_s', 'has_reduplication', 'sem_NATURE', 'init_other', 'init_t']
+OK   shap_max_abs_difference_in_mean_abs_shap expected 0.0 got 0.0
+OK   EXTRA shap_direction_r_equals_minus_E227_r (max abs difference) expected 0.0 got 1.1102230246251565e-16
+OK   T6 form_length mean_candidate expected 6.095890410958904 got 6.095890410958904
+OK   T6 form_length mean_coded expected 5.204570184983678 got 5.204570184983678
+OK   T6 n_vowels mean_candidate expected 2.8767123287671232 got 2.8767123287671232
+OK   T6 n_vowels mean_coded expected 2.5386289445048966 got 2.5386289445048966
+OK   T6 n_consonant_clusters mean_candidate expected 0.4794520547945205 got 0.4794520547945205
+OK   T6 n_consonant_clusters mean_coded expected 0.3166485310119695 got 0.31664853101196955
+OK   T6 has_glottal mean_candidate expected 0.2351598173515981 got 0.23515981735159816
+OK   T6 has_glottal mean_coded expected 0.1164309031556039 got 0.11643090315560392
+OK   T6 has_glottal MH OR expected 2.668638411232404 got 2.6686384112324038
+OK   T6 has_glottal MH lo expected 1.8815281989265975 got 1.8815281989265977
+OK   T6 has_glottal MH hi expected 3.785024839897623 got 3.785024839897623
+OK   T6 has_prefix_like mean_candidate expected 0.3698630136986301 got 0.3698630136986301
+OK   T6 has_prefix_like mean_coded expected 0.2524483133841131 got 0.25244831338411317
+OK   T6 has_prefix_like MH OR expected 1.5682158102315449 got 1.5682158102315447
+OK   T6 has_prefix_like MH lo expected 1.2028394167341645 got 1.2028394167341643
+OK   T6 has_prefix_like MH hi expected 2.044579511816665 got 2.044579511816665
+OK   T6 has_nasal_cluster mean_candidate expected 0.3036529680365297 got 0.3036529680365297
+OK   T6 has_nasal_cluster mean_coded expected 0.2372143634385201 got 0.23721436343852012
+OK   T6 has_nasal_cluster MH OR expected 1.5548666748499531 got 1.5548666748499531
+OK   T6 has_nasal_cluster MH lo expected 1.182911733798813 got 1.1829117337988133
+OK   T6 has_nasal_cluster MH hi expected 2.043779182741737 got 2.043779182741737
+OK   T6 has_reduplication mean_candidate expected 0.1187214611872146 got 0.1187214611872146
+OK   T6 has_reduplication mean_coded expected 0.0979325353645266 got 0.09793253536452666
+OK   T6 has_reduplication MH OR expected 1.6778925145442365 got 1.677892514544237
+OK   T6 has_reduplication MH lo expected 1.1201333225487244 got 1.1201333225487247
+OK   T6 has_reduplication MH hi expected 2.513382321273741 got 2.513382321273742
+OK   T6 ends_in_vowel mean_candidate expected 0.7853881278538812 got 0.7853881278538812
+OK   T6 ends_in_vowel mean_coded expected 0.7921653971708379 got 0.7921653971708379
+OK   T6 ends_in_vowel MH OR expected 0.6589483849934648 got 0.6589483849934648
+OK   T6 ends_in_vowel MH lo expected 0.4671801450406782 got 0.46718014504067823
+OK   T6 ends_in_vowel MH hi expected 0.929433707093198 got 0.929433707093198
+OK   T6 sem_ACTION mean_candidate expected 0.4041095890410959 got 0.4041095890410959
+OK   T6 sem_ACTION mean_coded expected 0.2339499455930359 got 0.23394994559303592
+OK   T6 sem_ACTION MH OR expected 2.4619697528498885 got 2.4619697528498885
+OK   T6 sem_ACTION MH lo expected 1.893625007903343 got 1.893625007903343
+OK   T6 sem_ACTION MH hi expected 3.200895128998597 got 3.200895128998597
+OK   T6 is_core_vocab mean_candidate expected 0.8356164383561644 got 0.8356164383561644
+OK   T6 is_core_vocab mean_coded expected 0.8324265505984766 got 0.8324265505984766
+OK   T6 is_core_vocab MH OR expected 1.03941907088954 got 1.0394190708895399
+OK   T6 is_core_vocab MH lo expected 0.7571341032437118 got 0.7571341032437117
+OK   T6 is_core_vocab MH hi expected 1.426949334735105 got 1.4269493347351045
+OK   T7 rows and original columns identical to E228 S4_cell_examples.csv expected True got True
+
+75 anchor checks, 0 failed
+
+==============================================================================
+writing outputs
+==============================================================================
+files: ['F1_input_importance.csv', 'F1_input_importance.pdf', 'F1_input_importance.png', 'F1_input_importance.tif', 'N1_final_consonant_by_list.csv', 'N2_action_meaning_by_form.csv', 'T1_label_by_list.csv', 'T2_cv_performance.csv', 'T3_lolo.csv', 'T4_without_tolaki.csv', 'T5_cells_by_list.csv', 'T6_profile.csv', 'T7_examples_R1-11.csv', 'anchor_checks.json', 'independent_check.json', 'independent_check_log.txt', 'independent_comparison.csv', 'run_log.txt', 'run_log_first_run_stopped.txt', 'tables_docx', 'tables_tex'] ['T1_label_by_list.tex', 'T2_cv_performance.tex', 'T3_lolo.tex', 'T4_without_tolaki.tex', 'T5_cells_by_list.tex', 'T6_profile.tex']
+
+DONE

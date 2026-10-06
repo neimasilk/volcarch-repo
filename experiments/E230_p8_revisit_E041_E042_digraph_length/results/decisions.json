@@ -1,0 +1,382 @@
+{
+  "noise_rule": "a delta is 'not distinguishable from zero' when |mean paired seed difference| < 2*SD/sqrt(10); SD ddof=1 used here (ddof=0 flag alongside in B_variants.csv)",
+  "R1_bands_on_CV_delta": {
+    "D1_FM25": {
+      "cv_delta": -0.0003,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": -0.00026,
+      "paired_sd_ddof1": 0.00191,
+      "distinguishable_from_zero_ddof1": false,
+      "distinguishable_from_zero_ddof0": false,
+      "lolo_delta": 0.0051
+    },
+    "D1_F17": {
+      "cv_delta": 0.0028,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": 0.00285,
+      "paired_sd_ddof1": 0.0038,
+      "distinguishable_from_zero_ddof1": true,
+      "distinguishable_from_zero_ddof0": true,
+      "lolo_delta": 0.0047
+    },
+    "D2_FM25": {
+      "cv_delta": -0.0002,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": -0.00025,
+      "paired_sd_ddof1": 0.00269,
+      "distinguishable_from_zero_ddof1": false,
+      "distinguishable_from_zero_ddof0": false,
+      "lolo_delta": 0.0043
+    },
+    "D2_F17": {
+      "cv_delta": 0.0047,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": 0.00473,
+      "paired_sd_ddof1": 0.00387,
+      "distinguishable_from_zero_ddof1": true,
+      "distinguishable_from_zero_ddof0": true,
+      "lolo_delta": 0.0077
+    },
+    "L1_FM25": {
+      "cv_delta": -0.0003,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": -0.0003,
+      "paired_sd_ddof1": 0.00584,
+      "distinguishable_from_zero_ddof1": false,
+      "distinguishable_from_zero_ddof0": false,
+      "lolo_delta": -0.0085
+    },
+    "L1_F17": {
+      "cv_delta": 0.0031,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": 0.00312,
+      "paired_sd_ddof1": 0.00549,
+      "distinguishable_from_zero_ddof1": false,
+      "distinguishable_from_zero_ddof0": false,
+      "lolo_delta": 0.002
+    },
+    "L2_FM25": {
+      "cv_delta": 0.0001,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": 5e-05,
+      "paired_sd_ddof1": 0.00608,
+      "distinguishable_from_zero_ddof1": false,
+      "distinguishable_from_zero_ddof0": false,
+      "lolo_delta": 0.0012
+    },
+    "L2_F17": {
+      "cv_delta": -0.0012,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')",
+      "paired_mean": -0.00124,
+      "paired_sd_ddof1": 0.00478,
+      "distinguishable_from_zero_ddof1": false,
+      "distinguishable_from_zero_ddof0": false,
+      "lolo_delta": 0.0039
+    },
+    "L3_FM25": {
+      "cv_delta": -0.0138,
+      "band": "partial (0.010<|d|<=0.020)",
+      "outcome": "PARTIAL DEPENDENCE",
+      "paired_mean": -0.01383,
+      "paired_sd_ddof1": 0.00552,
+      "distinguishable_from_zero_ddof1": true,
+      "distinguishable_from_zero_ddof0": true,
+      "lolo_delta": -0.0306
+    },
+    "L3_F17": {
+      "cv_delta": -0.0234,
+      "band": "depends (|d|>0.020)",
+      "outcome": "MODEL DEPENDS on this convention: robustness sentence withdrawn for it",
+      "paired_mean": -0.02343,
+      "paired_sd_ddof1": 0.00718,
+      "distinguishable_from_zero_ddof1": true,
+      "distinguishable_from_zero_ddof0": true,
+      "lolo_delta": -0.0403
+    }
+  },
+  "R2_digraph_robustness_sentence": {
+    "D1_FM25": {
+      "cv_delta": -0.0003,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+    },
+    "D1_F17": {
+      "cv_delta": 0.0028,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+    },
+    "D2_FM25": {
+      "cv_delta": -0.0002,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+    },
+    "D2_F17": {
+      "cv_delta": 0.0047,
+      "band": "no dependence shown (|d|<=0.010)",
+      "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+    },
+    "verdict_robustness_sentence_withdrawn_for_digraphs": false,
+    "note": "whatever the band, 'the model detects phonological patterns rather than orthographic artifacts' is not supported by an unchanged AUC under a ~5% string change (E228 S1 already shows one orthographic dependence)"
+  },
+  "R3_length_sentence_tex359_449": {
+    "per_model": {
+      "FM25": {
+        "L3_cv_delta": -0.0138,
+        "L2_cv_delta": 0.0001,
+        "L1_cv_delta": -0.0003,
+        "L3_le_minus_0.010": true,
+        "L2_unchanged_but_L3_not": true,
+        "L3_distinguishable_from_zero_ddof1": true
+      },
+      "F17": {
+        "L3_cv_delta": -0.0234,
+        "L2_cv_delta": -0.0012,
+        "L1_cv_delta": 0.0031,
+        "L3_le_minus_0.010": true,
+        "L2_unchanged_but_L3_not": true,
+        "L3_distinguishable_from_zero_ddof1": true
+      }
+    },
+    "sentence_withdrawn": true,
+    "outcome": "WITHDRAWN: delta(L3) <= -0.010 in FM25, F17",
+    "L2_unchanged_but_L3_not_models": [
+      "FM25",
+      "F17"
+    ],
+    "note_if_any_L2_unchanged_but_L3_not": "length information was still in the model through the vowel count"
+  },
+  "R4_muna_largest_improvement_tex354": {
+    "per_variant_model": {
+      "D1_FM25": {
+        "lolo_delta_by_list": {
+          "Muna": 0.017,
+          "Bugis": -0.0035,
+          "Makassar": 0.0139,
+          "Wolio": 0.002,
+          "Toraja-Sadan": -0.0034,
+          "Tolaki": 0.0048
+        },
+        "largest_positive_list": "Muna",
+        "muna_is_largest_positive": true,
+        "muna_delta": 0.017,
+        "muna_rank_among_six": 1
+      },
+      "D1_F17": {
+        "lolo_delta_by_list": {
+          "Muna": -0.0101,
+          "Bugis": 0.0251,
+          "Makassar": 0.0439,
+          "Wolio": 0.0122,
+          "Toraja-Sadan": -0.0082,
+          "Tolaki": -0.0348
+        },
+        "largest_positive_list": "Makassar",
+        "muna_is_largest_positive": false,
+        "muna_delta": -0.0101,
+        "muna_rank_among_six": 5
+      },
+      "D2_FM25": {
+        "lolo_delta_by_list": {
+          "Muna": 0.0194,
+          "Bugis": 0.0108,
+          "Makassar": 0.0167,
+          "Wolio": 0.0063,
+          "Toraja-Sadan": -0.0238,
+          "Tolaki": -0.0035
+        },
+        "largest_positive_list": "Muna",
+        "muna_is_largest_positive": true,
+        "muna_delta": 0.0194,
+        "muna_rank_among_six": 1
+      },
+      "D2_F17": {
+        "lolo_delta_by_list": {
+          "Muna": -0.0086,
+          "Bugis": 0.0329,
+          "Makassar": 0.0376,
+          "Wolio": 0.0172,
+          "Toraja-Sadan": -0.0151,
+          "Tolaki": -0.0178
+        },
+        "largest_positive_list": "Makassar",
+        "muna_is_largest_positive": false,
+        "muna_delta": -0.0086,
+        "muna_rank_among_six": 4
+      }
+    },
+    "muna_largest_positive_in_both_models_under_D1": false,
+    "muna_largest_positive_under_D1_and_D2_both_models": false,
+    "sentence_withdrawn_strict_reading_all_four": true,
+    "sentence_withdrawn_D1_only_reading": true,
+    "note": "DESIGN s3 says 'under D1 and D2 in both models'; the strict reading (all four combinations) is the literal one, the D1-only reading is shown for comparison",
+    "no_test_no_interval": "one list, one held-out run per model"
+  },
+  "R5_digraph_list_applied_by_the_code": {
+    "mapping": {
+      "universal": [
+        [
+          "ng",
+          "ŋ"
+        ],
+        [
+          "ny",
+          "ɲ"
+        ]
+      ],
+      "by_list": {
+        "Muna": [
+          [
+            "gh",
+            "ɣ"
+          ],
+          [
+            "bh",
+            "β"
+          ],
+          [
+            "dh",
+            "ð"
+          ]
+        ],
+        "Wolio": [
+          [
+            "gh",
+            "ɣ"
+          ]
+        ],
+        "Bugis": [],
+        "Makassar": [],
+        "Toraja-Sadan": [],
+        "Tolaki": []
+      }
+    },
+    "counts_by_list": {
+      "Muna": {
+        "digraphs_applied": [
+          {
+            "digraph": "gh",
+            "forms_replaced": 29,
+            "occurrences": 31
+          },
+          {
+            "digraph": "bh",
+            "forms_replaced": 14,
+            "occurrences": 16
+          },
+          {
+            "digraph": "dh",
+            "forms_replaced": 2,
+            "occurrences": 2
+          },
+          {
+            "digraph": "ng",
+            "forms_replaced": 10,
+            "occurrences": 10
+          },
+          {
+            "digraph": "ny",
+            "forms_replaced": 0,
+            "occurrences": 0
+          }
+        ],
+        "forms_changed": 54,
+        "forms_total": 219
+      },
+      "Bugis": {
+        "digraphs_applied": [
+          {
+            "digraph": "ng",
+            "forms_replaced": 0,
+            "occurrences": 0
+          },
+          {
+            "digraph": "ny",
+            "forms_replaced": 0,
+            "occurrences": 0
+          }
+        ],
+        "forms_changed": 0,
+        "forms_total": 242
+      },
+      "Makassar": {
+        "digraphs_applied": [
+          {
+            "digraph": "ng",
+            "forms_replaced": 0,
+            "occurrences": 0
+          },
+          {
+            "digraph": "ny",
+            "forms_replaced": 0,
+            "occurrences": 0
+          }
+        ],
+        "forms_changed": 0,
+        "forms_total": 217
+      },
+      "Wolio": {
+        "digraphs_applied": [
+          {
+            "digraph": "gh",
+            "forms_replaced": 0,
+            "occurrences": 0
+          },
+          {
+            "digraph": "ng",
+            "forms_replaced": 0,
+            "occurrences": 0
+          },
+          {
+            "digraph": "ny",
+            "forms_replaced": 0,
+            "occurrences": 0
+          }
+        ],
+        "forms_changed": 0,
+        "forms_total": 254
+      },
+      "Toraja-Sadan": {
+        "digraphs_applied": [
+          {
+            "digraph": "ng",
+            "forms_replaced": 1,
+            "occurrences": 1
+          },
+          {
+            "digraph": "ny",
+            "forms_replaced": 0,
+            "occurrences": 0
+          }
+        ],
+        "forms_changed": 1,
+        "forms_total": 216
+      },
+      "Tolaki": {
+        "digraphs_applied": [
+          {
+            "digraph": "ng",
+            "forms_replaced": 20,
+            "occurrences": 20
+          },
+          {
+            "digraph": "ny",
+            "forms_replaced": 0,
+            "occurrences": 0
+          }
+        ],
+        "forms_changed": 20,
+        "forms_total": 209
+      }
+    },
+    "forms_changed_total": 75
+  },
+  "domain_flag": "symbols are placeholders; whether Muna bh/dh/gh are fricatives, implosives or dental stops is for a specialist (DESIGN s6)"
+}

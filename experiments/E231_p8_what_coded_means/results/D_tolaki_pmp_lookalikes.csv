@@ -1,0 +1,13 @@
+abvd_form_id,tolaki_form,meaning,pmp_form,distance,distance_le_0.25,tolaki_form_is_loan_flagged
+674-50_todream-1,mo'ipi,to dream,*hipi,0.0,1,0
+674-144_toburn-1,hunu,to burn,*tunu,0.0,1,0
+674-184_heshe-1,i'ia,he/she,*si-ia,0.0,1,0
+674-182_i-1,inaku,I,*i-aku,0.0,1,0
+674-150_yellow-1,mokuni,yellow,*ma-kunij,0.2,1,0
+674-22_tofear-1,motaku,to fear,*ma-takut,0.2,1,0
+674-85_tochoose-1,mepili,to choose,*piliq,0.2,1,0
+674-40_todrink-1,mo'inu,to drink,*inum,0.25,1,0
+674-160_painfulsick-1,mohaki,"painful, sick",*ma-sakit,0.25,1,0
+674-8_toturn-1,putara,to turn,*puter,0.3333,0,1
+674-91_tobuy-1,po'oli,to buy,*beli,0.3333,0,0
+674-187_they-1,mehira,they,*si-ida,0.3333,0,0

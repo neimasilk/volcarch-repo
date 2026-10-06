@@ -1,0 +1,442 @@
+{
+ "P4_hyphen_within_list_or": [
+  1.574,
+  0.942,
+  2.631
+ ],
+ "P5_comparison_lists": 42,
+ "P5_lists_at_or_below_tolaki": 4,
+ "P5_tolaki_coded_share": 0.3589,
+ "P5_sensitivity_in_set": [
+  24,
+  50
+ ],
+ "P5_other_set": [
+  1,
+  21
+ ],
+ "P6_sulawesi_lists": 96,
+ "P6_kinds": {
+  "other": 27,
+  "Bungku-Tolaki (comparison, dialect or proto list)": 49,
+  "South Sulawesi target list": 3,
+  "Bajo / Sama-Bajaw": 17
+ },
+ "P6_distinct_glottocodes_in_box": 42,
+ "P7_toraja_final_glottal_mark": 45,
+ "P7_toraja_final_k": 11,
+ "P7_split": {
+  "inside": 0.0457,
+  "elsewhere": 0.0301,
+  "difference": 0.0156,
+  "in_combined_sd": 1.03
+ },
+ "P10": {
+  "comparison_lists": 42,
+  "at_or_below_tolaki_by_meaning": 3,
+  "median_list_by_meaning": 0.4841,
+  "median_tolaki_same_meanings": 0.3835,
+  "spearman_forms_vs_share_by_form": -0.552
+ },
+ "P10b": {
+  "at_or_below_tolaki_first_form": 5,
+  "median_list_first_form": 0.4672,
+  "median_tolaki_first_form": 0.3835
+ },
+ "P8": [
+  {
+   "list": "Muna",
+   "coded_forms_in_PMP_set": 83,
+   "found_by_screen": 30,
+   "sensitivity": 0.361
+  },
+  {
+   "list": "Bugis",
+   "coded_forms_in_PMP_set": 112,
+   "found_by_screen": 41,
+   "sensitivity": 0.366
+  },
+  {
+   "list": "Makassar",
+   "coded_forms_in_PMP_set": 87,
+   "found_by_screen": 33,
+   "sensitivity": 0.379
+  },
+  {
+   "list": "Wolio",
+   "coded_forms_in_PMP_set": 101,
+   "found_by_screen": 49,
+   "sensitivity": 0.485
+  },
+  {
+   "list": "Toraja-Sadan",
+   "coded_forms_in_PMP_set": 110,
+   "found_by_screen": 58,
+   "sensitivity": 0.527
+  },
+  {
+   "list": "Tolaki",
+   "coded_forms_in_PMP_set": 50,
+   "found_by_screen": 24,
+   "sensitivity": 0.48
+  }
+ ],
+ "P9a": [
+  {
+   "relative": "Bugis",
+   "meanings_coded_in_both": 110,
+   "makasar_in_PMP_set": 70,
+   "relative_in_PMP_set": 69,
+   "mcnemar_p": 1.0,
+   "makasar_uncoded_meanings_also_in_relative_list": 70,
+   "of_which_relative_in_PMP_set": 28,
+   "of_which_relative_coded_otherwise": 16,
+   "of_which_relative_uncoded": 26
+  },
+  {
+   "relative": "Toraja-Sadan",
+   "meanings_coded_in_both": 115,
+   "makasar_in_PMP_set": 70,
+   "relative_in_PMP_set": 71,
+   "mcnemar_p": 1.0,
+   "makasar_uncoded_meanings_also_in_relative_list": 69,
+   "of_which_relative_in_PMP_set": 25,
+   "of_which_relative_coded_otherwise": 22,
+   "of_which_relative_uncoded": 22
+  }
+ ],
+ "P9b": [
+  {
+   "list": "Bugis",
+   "class": "candidate",
+   "forms_compared": 62,
+   "lookalike_in_other_two_SS_lists": 8,
+   "share": 0.129,
+   "chance_share": 0.0242
+  },
+  {
+   "list": "Bugis",
+   "class": "coded",
+   "forms_compared": 180,
+   "lookalike_in_other_two_SS_lists": 123,
+   "share": 0.6833,
+   "chance_share": 0.0453
+  },
+  {
+   "list": "Makassar",
+   "class": "candidate",
+   "forms_compared": 80,
+   "lookalike_in_other_two_SS_lists": 10,
+   "share": 0.125,
+   "chance_share": 0.0375
+  },
+  {
+   "list": "Makassar",
+   "class": "coded",
+   "forms_compared": 136,
+   "lookalike_in_other_two_SS_lists": 90,
+   "share": 0.6618,
+   "chance_share": 0.0551
+  },
+  {
+   "list": "Toraja-Sadan",
+   "class": "candidate",
+   "forms_compared": 45,
+   "lookalike_in_other_two_SS_lists": 8,
+   "share": 0.1778,
+   "chance_share": 0.0422
+  },
+  {
+   "list": "Toraja-Sadan",
+   "class": "coded",
+   "forms_compared": 171,
+   "lookalike_in_other_two_SS_lists": 103,
+   "share": 0.6023,
+   "chance_share": 0.0506
+  }
+ ],
+ "P11": [
+  {
+   "contrast": ">= 1 consonant-letter cluster",
+   "n_forms": 1357,
+   "n_with": 449,
+   "odds_ratio": 1.376,
+   "ci_lo": 0.983,
+   "ci_hi": 1.926,
+   "strata": "list x letters x glottal mark"
+  },
+  {
+   "contrast": "onset string",
+   "n_forms": 1357,
+   "n_with": 394,
+   "odds_ratio": 2.511,
+   "ci_lo": 1.852,
+   "ci_hi": 3.404,
+   "strata": "list x letters after the matched string"
+  }
+ ],
+ "P12": [
+  {
+   "inputs": "form + meaning (25 inputs)",
+   "cv_auc_label_as_published": 0.7265,
+   "cv_auc_44_muna_forms_as_candidates": 0.7415,
+   "difference": 0.015,
+   "candidates_as_published": 438,
+   "candidates_relabelled": 482
+  },
+  {
+   "inputs": "form only (17 inputs)",
+   "cv_auc_label_as_published": 0.6717,
+   "cv_auc_44_muna_forms_as_candidates": 0.6985,
+   "difference": 0.0268,
+   "candidates_as_published": 438,
+   "candidates_relabelled": 482
+  }
+ ],
+ "P1": [
+  {
+   "list": "Makasar",
+   "meanings": 201,
+   "in_PMP_set": 79,
+   "coded_meanings": 131,
+   "share_of_all": 0.393,
+   "share_of_coded": 0.6031,
+   "upper_bound_if_all_uncoded_were_in_set": 0.7413
+  },
+  {
+   "list": "Bugis",
+   "meanings": 201,
+   "in_PMP_set": 97,
+   "coded_meanings": 154,
+   "share_of_all": 0.4826,
+   "share_of_coded": 0.6299,
+   "upper_bound_if_all_uncoded_were_in_set": 0.7164
+  },
+  {
+   "list": "Tae' (Sa'dan Toraja)",
+   "meanings": 200,
+   "in_PMP_set": 96,
+   "coded_meanings": 162,
+   "share_of_all": 0.48,
+   "share_of_coded": 0.5926,
+   "upper_bound_if_all_uncoded_were_in_set": 0.67
+  },
+  {
+   "list": "Wolio",
+   "meanings": 197,
+   "in_PMP_set": 84,
+   "coded_meanings": 149,
+   "share_of_all": 0.4264,
+   "share_of_coded": 0.5638,
+   "upper_bound_if_all_uncoded_were_in_set": 0.6701
+  },
+  {
+   "list": "Muna",
+   "meanings": 201,
+   "in_PMP_set": 72,
+   "coded_meanings": 172,
+   "share_of_all": 0.3582,
+   "share_of_coded": 0.4186,
+   "upper_bound_if_all_uncoded_were_in_set": 0.5025
+  },
+  {
+   "list": "Tolaki",
+   "meanings": 191,
+   "in_PMP_set": 50,
+   "coded_meanings": 69,
+   "share_of_all": 0.2618,
+   "share_of_coded": 0.7246,
+   "upper_bound_if_all_uncoded_were_in_set": 0.9005
+  }
+ ],
+ "P2": [
+  {
+   "list": "Muna",
+   "forms": 219,
+   "coded_forms": 185,
+   "widest_set_sulawesi_only": 62,
+   "every_set_same_language_only": 44,
+   "of_which_no_other_list_at_all": 0,
+   "sulawesi_only_and_same_language_only": 44,
+   "uncoded_share_as_published": 0.1553,
+   "uncoded_share_if_same_language_sets_counted_uncoded": 0.3562,
+   "median_breadth_lists": 54.0,
+   "median_breadth_languages": 40.0
+  },
+  {
+   "list": "Bugis",
+   "forms": 242,
+   "coded_forms": 180,
+   "widest_set_sulawesi_only": 19,
+   "every_set_same_language_only": 6,
+   "of_which_no_other_list_at_all": 6,
+   "sulawesi_only_and_same_language_only": 6,
+   "uncoded_share_as_published": 0.2562,
+   "uncoded_share_if_same_language_sets_counted_uncoded": 0.281,
+   "median_breadth_lists": 284.0,
+   "median_breadth_languages": 208.0
+  },
+  {
+   "list": "Makassar",
+   "forms": 217,
+   "coded_forms": 137,
+   "widest_set_sulawesi_only": 9,
+   "every_set_same_language_only": 1,
+   "of_which_no_other_list_at_all": 1,
+   "sulawesi_only_and_same_language_only": 1,
+   "uncoded_share_as_published": 0.3687,
+   "uncoded_share_if_same_language_sets_counted_uncoded": 0.3733,
+   "median_breadth_lists": 277.0,
+   "median_breadth_languages": 204.0
+  },
+  {
+   "list": "Wolio",
+   "forms": 254,
+   "coded_forms": 171,
+   "widest_set_sulawesi_only": 16,
+   "every_set_same_language_only": 0,
+   "of_which_no_other_list_at_all": 0,
+   "sulawesi_only_and_same_language_only": 0,
+   "uncoded_share_as_published": 0.3268,
+   "uncoded_share_if_same_language_sets_counted_uncoded": 0.3268,
+   "median_breadth_lists": 207.0,
+   "median_breadth_languages": 147.0
+  },
+  {
+   "list": "Toraja-Sadan",
+   "forms": 216,
+   "coded_forms": 171,
+   "widest_set_sulawesi_only": 13,
+   "every_set_same_language_only": 1,
+   "of_which_no_other_list_at_all": 1,
+   "sulawesi_only_and_same_language_only": 1,
+   "uncoded_share_as_published": 0.2083,
+   "uncoded_share_if_same_language_sets_counted_uncoded": 0.213,
+   "median_breadth_lists": 259.0,
+   "median_breadth_languages": 192.0
+  },
+  {
+   "list": "Tolaki",
+   "forms": 209,
+   "coded_forms": 75,
+   "widest_set_sulawesi_only": 6,
+   "every_set_same_language_only": 0,
+   "of_which_no_other_list_at_all": 0,
+   "sulawesi_only_and_same_language_only": 0,
+   "uncoded_share_as_published": 0.6411,
+   "uncoded_share_if_same_language_sets_counted_uncoded": 0.6411,
+   "median_breadth_lists": 373.0,
+   "median_breadth_languages": 253.0
+  }
+ ],
+ "P3": [
+  {
+   "contrast": "onset string (anchor: E231 E original 1.57)",
+   "n_forms": 1357,
+   "n_with": 394,
+   "odds_ratio": 1.568,
+   "ci_lo": 1.203,
+   "ci_hi": 2.045,
+   "strata": "list"
+  },
+  {
+   "contrast": "onset string and >= 6 letters (anchor: E231 E strict 2.31)",
+   "n_forms": 1357,
+   "n_with": 220,
+   "odds_ratio": 2.306,
+   "ci_lo": 1.676,
+   "ci_hi": 3.171,
+   "strata": "list"
+  },
+  {
+   "contrast": "nasal strict (anchor: E231 E strict 2.05)",
+   "n_forms": 1357,
+   "n_with": 209,
+   "odds_ratio": 2.046,
+   "ci_lo": 1.473,
+   "ci_hi": 2.842,
+   "strata": "list"
+  },
+  {
+   "contrast": ">= 6 letters, alone",
+   "n_forms": 1357,
+   "n_with": 520,
+   "odds_ratio": 2.564,
+   "ci_lo": 1.982,
+   "ci_hi": 3.318,
+   "strata": "list"
+  },
+  {
+   "contrast": "onset string, among forms of >= 6 letters",
+   "n_forms": 520,
+   "n_with": 220,
+   "odds_ratio": 1.303,
+   "ci_lo": 0.849,
+   "ci_hi": 1.999,
+   "strata": "list"
+  },
+  {
+   "contrast": "onset string, among forms of <= 5 letters",
+   "n_forms": 837,
+   "n_with": 174,
+   "odds_ratio": 1.199,
+   "ci_lo": 0.808,
+   "ci_hi": 1.777,
+   "strata": "list"
+  },
+  {
+   "contrast": "onset string",
+   "n_forms": 1357,
+   "n_with": 394,
+   "odds_ratio": 1.088,
+   "ci_lo": 0.803,
+   "ci_hi": 1.476,
+   "strata": "list x number of letters"
+  },
+  {
+   "contrast": "nasal strict",
+   "n_forms": 1357,
+   "n_with": 209,
+   "odds_ratio": 1.236,
+   "ci_lo": 0.844,
+   "ci_hi": 1.811,
+   "strata": "list x number of letters"
+  },
+  {
+   "contrast": "nasal input as coded",
+   "n_forms": 1357,
+   "n_with": 351,
+   "odds_ratio": 0.949,
+   "ci_lo": 0.695,
+   "ci_hi": 1.296,
+   "strata": "list x number of letters"
+  },
+  {
+   "contrast": ">= 1 consonant-letter cluster",
+   "n_forms": 1357,
+   "n_with": 449,
+   "odds_ratio": 1.509,
+   "ci_lo": 1.091,
+   "ci_hi": 2.088,
+   "strata": "list x number of letters"
+  },
+  {
+   "contrast": "written glottal mark",
+   "n_forms": 1357,
+   "n_with": 210,
+   "odds_ratio": 2.598,
+   "ci_lo": 1.794,
+   "ci_hi": 3.762,
+   "strata": "list x number of letters"
+  },
+  {
+   "contrast": "action meaning",
+   "n_forms": 1357,
+   "n_with": 392,
+   "odds_ratio": 2.218,
+   "ci_lo": 1.667,
+   "ci_hi": 2.951,
+   "strata": "list x number of letters"
+  }
+ ]
+}

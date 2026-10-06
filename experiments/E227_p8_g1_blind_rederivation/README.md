@@ -1,5 +1,15 @@
 # E227 — P8 G1 / G1-bis audit: every number of the reviewed manuscript re-derived from raw ABVD
 
+> **Corrections of 2026-10-06 (after two adversarial reads; the audit rows themselves are unchanged).**
+> (1) "Every number" in the title and the hypothesis means the **85 statements** of `results/claims_audit.csv`
+> (47 match, 13 with a note, 11 not as described, 9 mismatch, 3 unsupported, 2 wrong direction); constants such as word
+> lists were read from the original scripts, not re-derived.
+> (2) Item 5 below ("prefix-like onsets … the data point the other way"): the input counts forms that begin with one of
+> nine letter strings; it is more frequent among uncoded forms (37.0 % vs 25.2 %), but with the number of letters held
+> fixed it does not separate them (odds ratio 1.09 [0.80, 1.48]; `experiments/E231_p8_what_coded_means/`, table P3). So
+> "fewer prefixes" fails, and "the data point the other way" is **withdrawn**: morphology was not tested.
+
+
 **Status:** SUCCESS (audit complete) — the *finding* is mixed: the stored numbers reproduce, several descriptions do not hold.
 **Lines:** 04_language_text (P8). **Date:** 2026-10-05. **Gate:** SIG G1, G1-bis, G4, G7 for the P8 revision at *Oceanic Linguistics*.
 **No pre-registration:** this is an audit of existing numbers, not a test. The tests it calls for are pre-registered in E228.

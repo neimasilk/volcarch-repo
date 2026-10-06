@@ -1,0 +1,8 @@
+list,n_coded,n_with_set_number,median_breadth,share_breadth_le5,share_breadth_le20,share_sulawesi_only,share_loan_flagged,n_loan_flagged,n_with_doubtful_assignment,n_only_doubtful,median_breadth_certain_only,share_breadth_le5_certain_only
+Muna,185,185,54.0,0.3568,0.4216,0.3351,0.0054,1,9,9,40.0,0.375
+Bugis,180,180,284.0,0.1833,0.25,0.1056,0.0,0,11,11,296.0,0.1893
+Makassar,137,137,277.0,0.1241,0.1898,0.0657,0.0,0,8,7,265.5,0.1308
+Wolio,171,171,207.0,0.1053,0.1871,0.0936,0.0117,2,12,11,188.0,0.1188
+Toraja-Sadan,171,171,259.0,0.1462,0.2281,0.076,0.0,0,18,17,251.5,0.1623
+Tolaki,75,75,373.0,0.0533,0.08,0.08,0.0267,2,0,0,368.0,0.0533
+All six,919,919,248.0,0.1774,0.2459,0.136,0.0054,5,58,55,227.0,0.1887

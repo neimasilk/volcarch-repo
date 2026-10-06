@@ -1,0 +1,3 @@
+inputs,cv_auc_label_as_published,cv_auc_44_muna_forms_as_candidates,difference,candidates_as_published,candidates_relabelled
+form + meaning (25 inputs),0.7265,0.7415,0.015,438,482
+form only (17 inputs),0.6717,0.6985,0.0268,438,482

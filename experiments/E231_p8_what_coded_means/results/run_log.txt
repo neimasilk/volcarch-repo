@@ -1,0 +1,379 @@
+
+==============================================================================
+which lists count as Sulawesi
+==============================================================================
+lists total 2036 | non-proto lists without coordinates (not Sulawesi): 446 | proto-lists: 79 | Sulawesi lists: 96
+proto-lists counted as Sulawesi by name: ['Proto-Bungku-Tolaki', 'Proto-South Sulawesi']
+proto-lists with a stray coordinate (ignored): ['Proto-Central Eastern Malayo Polynesian', 'Proto-Lakkja', 'Proto-Rukai', 'Proto-Puyuma', 'Proto-Tsouic', 'Proto Siraya', 'Proto-Nivkh', 'Proto-Bunun']
+six target lists in Sulawesi set: {'Muna': True, 'Bugis': True, 'Makassar': True, 'Wolio': True, 'Toraja-Sadan': True, 'Tolaki': True}
+non-proto lists without coordinates, first 10 by name: ['Fijian (Bau)', 'Iliun (Erai)', 'Bontok, Guina-ang', 'Bwaidoga', 'Mussau', 'Mono', 'Merina (Malagasy)', 'Nguna', 'Paamese (South)', 'Peterara (Maewo)']
+non-numeric Cognacy tokens in all of ABVD (not sets): {'I': 220, 'E': 127, 'E42': 78, 'x20': 55, 'L': 28, 'L?': 4, '66 ?': 3, 'x26': 2} | distinct sets: 19334
+
+==============================================================================
+S2 rebuilt (retained / coded-not-PMP / uncoded, base)
+==============================================================================
+{'Bugis': (97, 57, 47, 201), 'Makassar': (79, 52, 70, 201), 'Muna': (72, 100, 29, 201), 'Tolaki': (50, 19, 122, 191), 'Toraja-Sadan': (96, 66, 38, 200), 'Wolio': (84, 65, 48, 197)}
+S5 primary: 440 pairs, T = 0.8357 look-alike pairs 4
+loan-flagged forms: 11 of which uncoded: 6
+
+==============================================================================
+E  original and strict inputs, summarised like E229 T6
+==============================================================================
+                        key  n_cand_with  n_coded_with  mean_candidate  mean_coded  n_lists_same_sign_as_pooled  effect  ci_lo  ci_hi
+             nasal_original        133.0         218.0           0.304       0.237                            6   1.555  1.183  2.044
+               nasal_strict         92.0         117.0           0.210       0.127                            6   2.046  1.473  2.842
+             redup_original         52.0          90.0           0.119       0.098                            5   1.678  1.120  2.513
+               redup_strict         23.0          30.0           0.053       0.033                            5   1.611  0.871  2.979
+            contains_hyphen         29.0          64.0           0.066       0.070                            1   1.574  0.942  2.631
+            prefix_original        162.0         232.0           0.370       0.252                            6   1.568  1.203  2.045
+              prefix_strict        107.0         113.0           0.244       0.123                            6   2.306  1.676  3.171
+prefix_original_le4_letters         19.0          69.0           0.043       0.075                            6   0.423  0.241  0.741
+            length_original          NaN           NaN           6.096       5.205                            6   1.092  0.863  1.314
+             length_letters          NaN           NaN           5.733       4.972                            6   0.928  0.723  1.129
+diff per list:
+                        key  diff_Muna  diff_Bugis  diff_Makassar  diff_Wolio  diff_Toraja-Sadan  diff_Tolaki
+             nasal_original      0.065       0.046          0.029       0.115              0.138        0.116
+               nasal_strict      0.070       0.015          0.089       0.131              0.099        0.141
+             redup_original      0.050       0.116          0.026       0.025             -0.030        0.069
+               redup_strict      0.032       0.005          0.014       0.025             -0.042        0.061
+            contains_hyphen      0.019       0.122          0.000       0.000             -0.006        0.007
+            prefix_original      0.071       0.194          0.037       0.041              0.012        0.181
+              prefix_strict      0.080       0.224          0.104       0.066              0.083        0.140
+prefix_original_le4_letters     -0.016      -0.039         -0.046      -0.045             -0.044       -0.080
+            length_original      0.992       1.086          1.453       0.779              0.699        1.544
+             length_letters      0.907       0.870          1.210       0.712              0.567        1.304
+
+==============================================================================
+G  out-of-fold P(candidate), FM25 and F17
+==============================================================================
+CV AUC FM25 0.7265 0.0066 | F17 0.6717 0.0082
+
+==============================================================================
+ANCHORS (DESIGN section 3)
+==============================================================================
+OK   n_forms expected 1357 got 1357
+OK   n_candidates expected 438 got 438
+OK   S2 Makassar retained/coded-not-PMP/uncoded/base expected [79, 52, 70, 201] got [79, 52, 70, 201]
+OK   S2 Bugis retained/coded-not-PMP/uncoded/base expected [97, 57, 47, 201] got [97, 57, 47, 201]
+OK   S2 Toraja-Sadan retained/coded-not-PMP/uncoded/base expected [96, 66, 38, 200] got [96, 66, 38, 200]
+OK   S5 primary pairs expected 440 got 440
+OK   S5 primary T (4 decimals) expected 0.8357 got 0.8357
+OK   S5 primary look-alike pairs expected 4 got 4
+OK   loan-flagged forms expected 11 got 11
+OK   loan-flagged forms that are uncoded expected 6 got 6
+OK   E229 T6 has_nasal_cluster mean_candidate expected 0.3036529680365297 got 0.3036529680365297
+OK   E229 T6 has_nasal_cluster mean_coded expected 0.2372143634385201 got 0.23721436343852012
+OK   E229 T6 has_nasal_cluster effect expected 1.5548666748499531 got 1.5548666748499531
+OK   E229 T6 has_nasal_cluster CI lo expected 1.182911733798813 got 1.1829117337988133
+OK   E229 T6 has_nasal_cluster CI hi expected 2.043779182741737 got 2.043779182741737
+OK   E229 T6 has_reduplication mean_candidate expected 0.1187214611872146 got 0.1187214611872146
+OK   E229 T6 has_reduplication mean_coded expected 0.0979325353645266 got 0.09793253536452666
+OK   E229 T6 has_reduplication effect expected 1.677892514544237 got 1.6778925145442365
+OK   E229 T6 has_reduplication CI lo expected 1.1201333225487249 got 1.1201333225487244
+OK   E229 T6 has_reduplication CI hi expected 2.513382321273742 got 2.513382321273741
+OK   E229 T6 has_prefix_like mean_candidate expected 0.3698630136986301 got 0.3698630136986301
+OK   E229 T6 has_prefix_like mean_coded expected 0.2524483133841131 got 0.25244831338411317
+OK   E229 T6 has_prefix_like effect expected 1.5682158102315449 got 1.5682158102315447
+OK   E229 T6 has_prefix_like CI lo expected 1.2028394167341645 got 1.2028394167341643
+OK   E229 T6 has_prefix_like CI hi expected 2.044579511816665 got 2.044579511816665
+OK   E229 T6 form_length mean_candidate expected 6.095890410958904 got 6.095890410958904
+OK   E229 T6 form_length mean_coded expected 5.204570184983678 got 5.204570184983678
+OK   E229 T6 form_length effect expected 1.092179835807289 got 1.092179835807289
+OK   FM25 oof P(candidate) max |diff| vs E228 release (<= 0.0006) expected 0.0 got 0.000499930083751654
+
+29 anchor checks, 0 failed
+
+==============================================================================
+A  what 'coded' covers
+==============================================================================
+coded forms with no parsable set number: 0
+        list  n_coded  n_with_set_number  median_breadth  share_breadth_le5  share_breadth_le20  share_sulawesi_only  share_loan_flagged  n_loan_flagged  n_with_doubtful_assignment  n_only_doubtful  median_breadth_certain_only  share_breadth_le5_certain_only
+        Muna      185                185            54.0              0.357               0.422                0.335               0.005               1                           9                9                         40.0                           0.375
+       Bugis      180                180           284.0              0.183               0.250                0.106               0.000               0                          11               11                        296.0                           0.189
+    Makassar      137                137           277.0              0.124               0.190                0.066               0.000               0                           8                7                        265.5                           0.131
+       Wolio      171                171           207.0              0.105               0.187                0.094               0.012               2                          12               11                        188.0                           0.119
+Toraja-Sadan      171                171           259.0              0.146               0.228                0.076               0.000               0                          18               17                        251.5                           0.162
+      Tolaki       75                 75           373.0              0.053               0.080                0.080               0.027               2                           0                0                        368.0                           0.053
+     All six      919                919           248.0              0.177               0.246                0.136               0.005               5                          58               55                        227.0                           0.189
+                        list  n_middle_class_meanings  n_with_set  median_widest_breadth  share_widest_le5  share_widest_sulawesi_only  share_all_sets_sulawesi_only
+                        Muna                      100         100                    4.0             0.620                       0.580                         0.580
+                       Bugis                       57          57                    8.0             0.439                       0.263                         0.263
+                    Makassar                       52          52                   21.0             0.327                       0.173                         0.173
+                       Wolio                       65          65                   30.0             0.215                       0.185                         0.185
+                Toraja-Sadan                       66          66                   15.5             0.348                       0.167                         0.167
+                      Tolaki                       19          19                   35.0             0.158                       0.316                         0.316
+All six (meaning-list pairs)                      359         359                   13.0             0.401                       0.309                         0.309
+language    concept       form        abvd_form_id cognacy_field loan_field  coded parsed_sets  breadth  sulawesi_only
+    Muna   to think   aefekiri     27-21_tothink-1                     true      0                  NaN            NaN
+    Muna    to work  akaradhaa      27-83_towork-1            23       true      1   towork-23     35.0            0.0
+   Bugis      other       laiŋ      48-190_other-1                     true      0                  NaN            NaN
+Makassar   to think ammikkiriʔ    166-21_tothink-1                     true      0                  NaN            NaN
+   Wolio   to think     fikiri    192-21_tothink-1           22?       true      1  tothink-22     85.0            0.0
+   Wolio       salt       gara      192-125_salt-1            18       true      1     salt-18     48.0            0.0
+  Tolaki    to turn     putara      674-8_toturn-1                     true      0                  NaN            NaN
+  Tolaki intestines        usu 674-16_intestines-1                     true      0                  NaN            NaN
+  Tolaki   to think   mepikiri    674-21_tothink-1            22       true      1  tothink-22     85.0            0.0
+  Tolaki       tail      ekoro      674-105_tail-1                     true      0                  NaN            NaN
+  Tolaki  lightning       kila 674-135_lightning-1             1       true      1 lightning-1    248.0            0.0
+
+==============================================================================
+B  pairwise cognate-set sharing between the six lists
+==============================================================================
+      list_1       list_2  meanings_in_both  n_share_set  share_set  ci_lo  ci_hi  n_share_set_certain_only  share_set_certain_only  ci_lo_certain_only  ci_hi_certain_only  n_neither_has_coded_form  share_neither_has_coded_form  n_both_have_coded_form
+        Muna        Bugis               205           56      0.273  0.217  0.338                        50                   0.244               0.190               0.307                         9                         0.044                     136
+        Muna     Makassar               205           48      0.234  0.181  0.297                        43                   0.210               0.160               0.271                        12                         0.059                     115
+        Muna        Wolio               201           83      0.413  0.347  0.482                        74                   0.368               0.305               0.437                        11                         0.055                     135
+        Muna Toraja-Sadan               204           63      0.309  0.249  0.375                        55                   0.270               0.213               0.334                        10                         0.049                     146
+        Muna       Tolaki               195           38      0.195  0.145  0.256                        37                   0.190               0.141               0.251                        23                         0.118                      66
+       Bugis     Makassar               210           87      0.414  0.350  0.482                        82                   0.390               0.327               0.458                        27                         0.129                     114
+       Bugis        Wolio               206           67      0.325  0.265  0.392                        58                   0.282               0.225               0.347                        14                         0.068                     121
+       Bugis Toraja-Sadan               209          111      0.531  0.463  0.598                       100                   0.478               0.412               0.546                        19                         0.091                     137
+       Bugis       Tolaki               200           35      0.175  0.129  0.234                        33                   0.165               0.120               0.223                        31                         0.155                      60
+    Makassar        Wolio               206           53      0.257  0.202  0.321                        47                   0.228               0.176               0.290                        22                         0.107                     102
+    Makassar Toraja-Sadan               209           82      0.392  0.329  0.460                        72                   0.344               0.283               0.411                        26                         0.124                     117
+    Makassar       Tolaki               200           32      0.160  0.116  0.217                        30                   0.150               0.107               0.206                        51                         0.255                      55
+       Wolio Toraja-Sadan               205           79      0.385  0.321  0.454                        65                   0.317               0.257               0.384                        19                         0.093                     131
+       Wolio       Tolaki               197           43      0.218  0.166  0.281                        41                   0.208               0.157               0.270                        40                         0.203                      61
+Toraja-Sadan       Tolaki               200           41      0.205  0.155  0.266                        39                   0.195               0.146               0.255                        34                         0.170                      65
+
+==============================================================================
+C  intervals and paired tests for the PMP table
+==============================================================================
+        list             class   n  base  share  ci_lo  ci_hi
+        Muna retained_from_PMP  72   201  0.358  0.295  0.427
+        Muna     coded_not_PMP 100   201  0.498  0.429  0.566
+        Muna           uncoded  29   201  0.144  0.102  0.200
+       Bugis retained_from_PMP  97   201  0.483  0.414  0.551
+       Bugis     coded_not_PMP  57   201  0.284  0.226  0.349
+       Bugis           uncoded  47   201  0.234  0.181  0.297
+    Makassar retained_from_PMP  79   201  0.393  0.328  0.462
+    Makassar     coded_not_PMP  52   201  0.259  0.203  0.323
+    Makassar           uncoded  70   201  0.348  0.286  0.416
+       Wolio retained_from_PMP  84   197  0.426  0.359  0.496
+       Wolio     coded_not_PMP  65   197  0.330  0.268  0.398
+       Wolio           uncoded  48   197  0.244  0.189  0.308
+Toraja-Sadan retained_from_PMP  96   200  0.480  0.412  0.549
+Toraja-Sadan     coded_not_PMP  66   200  0.330  0.269  0.398
+Toraja-Sadan           uncoded  38   200  0.190  0.142  0.250
+      Tolaki retained_from_PMP  50   191  0.262  0.205  0.328
+      Tolaki     coded_not_PMP  19   191  0.099  0.065  0.150
+      Tolaki           uncoded 122   191  0.639  0.569  0.704
+              comparison             class  meanings_in_both_bases  makassar_yes_other_no  makassar_no_other_yes  both_yes  both_no  makassar_share  other_share  p_exact_two_sided_unadjusted
+       Makassar vs Bugis retained_from_PMP                     201                     18                     36        61       86          0.3930       0.4826                        0.0198
+       Makassar vs Bugis           uncoded                     201                     44                     21        26      110          0.3483       0.2338                        0.0059
+Makassar vs Toraja-Sadan retained_from_PMP                     200                     20                     37        59       84          0.3950       0.4800                        0.0331
+Makassar vs Toraja-Sadan           uncoded                     200                     47                     16        22      115          0.3450       0.1900                        0.0001
+
+==============================================================================
+D  Bungku-Tolaki comparison lists and PMP look-alikes
+==============================================================================
+{
+ "PBT": {
+  "n_forms": 205,
+  "n_coded": 73,
+  "coded_share": 0.35609756097560974
+ },
+ "comparison_42": {
+  "n_lists": 42,
+  "coded_share_min": 0.2988505747126437,
+  "coded_share_median": 0.4499970412450441,
+  "coded_share_max": 0.5964912280701754,
+  "n_distinct_glottocodes": 13,
+  "n_distinct_author": 3,
+  "n_distinct_source": 3,
+  "authors": [
+   "D. Mead",
+   "Hans Lapotiwa",
+   "Mead, D. (1999)"
+  ],
+  "sources": [
+   "161612",
+   "Lapotiwa-41-2005",
+   "Mead-972-2012"
+  ],
+  "total_forms": 6288,
+  "n_lists_coded_share_le_0.5": 41
+ },
+ "tolaki_dialects_5": {
+  "n_lists": 5,
+  "coded_share_min": 0.22916666666666666,
+  "coded_share_median": 0.34532374100719426,
+  "coded_share_max": 0.391304347826087,
+  "n_distinct_glottocodes": 1,
+  "authors": [
+   "Mead, D. (1999)"
+  ],
+  "sources": [
+   "161612"
+  ]
+ },
+ "tolaki_674_for_reference": {
+  "coded_share": 0.3588516746411483
+ }
+}
+              group  id                    name glottocode          author           source  n_forms  coded_share
+Proto-Bungku-Tolaki 780     Proto-Bungku-Tolaki   bung1268   David E. Mead           161612      205        0.356
+    comparison_list  41                    Mori   mori1268   Hans Lapotiwa Lapotiwa-41-2005      228        0.596
+    comparison_list 875               Bahonsuai   baho1237 Mead, D. (1999)           161612      136        0.493
+    comparison_list 876                  Bungku   bung1269 Mead, D. (1999)           161612      244        0.303
+    comparison_list 877        Bungku (Landawe)   bung1269 Mead, D. (1999)           161612      135        0.444
+    comparison_list 878          Bungku (Routa)   bung1269 Mead, D. (1999)           161612      137        0.482
+    comparison_list 879         Bungku (Torete)   bung1269 Mead, D. (1999)           161612      181        0.403
+    comparison_list 880      Bungku (Tulambatu)   bung1269 Mead, D. (1999)           161612      190        0.368
+    comparison_list 881           Bungku (Waia)   bung1269 Mead, D. (1999)           161612      137        0.460
+    comparison_list 882                 Kodeoha   bung1269 Mead, D. (1999)           161612      174        0.299
+    comparison_list 883                  Koroni   koro1311 Mead, D. (1999)           161612      138        0.435
+    comparison_list 884                Kulisusu   kuli1254         D. Mead           161612      222        0.378
+    comparison_list 885       Mori Atas (Doule)   mori1269 Mead, D. (1999)           161612      129        0.450
+    comparison_list 886        Mori Atas (Impo)   mori1269 Mead, D. (1999)           161612      128        0.477
+    comparison_list 887   Mori Atas (Kolo-Kolo)   mori1269 Mead, D. (1999)           161612      131        0.489
+    comparison_list 888  Mori Atas (Lolonggoio)   mori1269 Mead, D. (1999)           161612      131        0.443
+    comparison_list 889     Mori Atas (Molio'A)   mori1269 Mead, D. (1999)           161612      131        0.450
+    comparison_list 890  Mori Atas (Molongkuni)   mori1269 Mead, D. (1999)           161612      132        0.485
+    comparison_list 891       Mori Atas (Olota)   mori1269 Mead, D. (1999)           161612      130        0.469
+    comparison_list 892      Mori Atas (Tambee)   mori1269 Mead, D. (1999)           161612      128        0.438
+    comparison_list 893    Mori Atas (Ulu'Uwoi)   mori1269 Mead, D. (1999)           161612      131        0.443
+    comparison_list 894   Mori Atas (Wulanderi)   mori1269 Mead, D. (1999)           161612      129        0.481
+    comparison_list 895     Mori Bawah (Bahano)   mori1268 Mead, D. (1999)           161612      130        0.469
+    comparison_list 896     Mori Bawah (Kangua)   mori1268 Mead, D. (1999)           161612      131        0.466
+    comparison_list 897  Mori Bawah (Karunsi'E)   mori1268 Mead, D. (1999)           161612      129        0.488
+    comparison_list 898     Mori Bawah (Mo'Iki)   mori1268 Mead, D. (1999)           161612      133        0.489
+    comparison_list 899    Mori Bawah (Petasia)   mori1268 Mead, D. (1999)           161612      131        0.481
+    comparison_list 900       Mori Bawah (Roda)   mori1268 Mead, D. (1999)           161612      130        0.492
+    comparison_list 901    Mori Bawah (Soroako)   mori1268 Mead, D. (1999)           161612      130        0.500
+    comparison_list 902       Mori Bawah (Watu)   mori1268 Mead, D. (1999)           161612      156        0.449
+    comparison_list 903 Mori Bawah (Ŋgusumbatu)   mori1268 Mead, D. (1999)           161612      133        0.489
+    comparison_list 904                Moronene   moro1287 Mead, D. (1999)           161612      180        0.361
+    comparison_list 905      Moronene (Mornene)   moro1287 Mead, D. (1999)           161612      140        0.400
+    comparison_list 906     Moronene (Tokotu'A)   moro1287 Mead, D. (1999)           161612      190        0.321
+    comparison_list 907                   Padoe   pado1242 Mead, D. (1999)           161612      189        0.402
+    comparison_list 908                  Taloki   talo1252 Mead, D. (1999)           161612      136        0.426
+    comparison_list 914                Tomadino   toma1248 Mead, D. (1999)           161612      135        0.452
+    comparison_list 915                    Waru   waru1266 Mead, D. (1999)           161612      136        0.375
+    comparison_list 916        Waru (Lalomerui)   waru1266 Mead, D. (1999)           161612      136        0.368
+    comparison_list 917                 Wawonii   wawo1239 Mead, D. (1999)           161612      164        0.427
+    comparison_list 918         Wawonii (Menui)   wawo1239 Mead, D. (1999)           161612      139        0.475
+    comparison_list 919                    Wiau   raha1237 Mead, D. (1999)           161612      183        0.322
+    comparison_list 972     Mori Bawah (Tofatu)   mori1268         D. Mead    Mead-972-2012      135        0.481
+     tolaki_dialect 909          Tolaki (Asera)   tola1247 Mead, D. (1999)           161612      138        0.391
+     tolaki_dialect 910         Tolaki (Konawe)   tola1247 Mead, D. (1999)           161612      384        0.229
+     tolaki_dialect 911         Tolaki (Laiwui)   tola1247 Mead, D. (1999)           161612      139        0.345
+     tolaki_dialect 912       Tolaki (Mekongga)   tola1247 Mead, D. (1999)           161612      256        0.305
+     tolaki_dialect 913       Tolaki (Wiwirano)   tola1247 Mead, D. (1999)           161612      136        0.382
+        list     class  n_forms_with_pmp_entry  n_lookalike_0.34  observed_0.34  chance_0.34  excess_points_0.34  n_lookalike_0.25  observed_0.25  chance_0.25  excess_points_0.25
+        Muna candidate                      33                 0          0.000        0.010              -1.030                 0          0.000        0.002              -0.182
+        Muna     coded                     182                31          0.170        0.018              15.198                24          0.132        0.004              12.791
+       Bugis candidate                      61                 0          0.000        0.011              -1.082                 0          0.000        0.003              -0.295
+       Bugis     coded                     172                42          0.244        0.019              22.477                33          0.192        0.004              18.814
+    Makassar candidate                      75                 2          0.027        0.012               1.467                 1          0.013        0.003               1.040
+    Makassar     coded                     132                35          0.265        0.024              24.152                27          0.205        0.006              19.864
+       Wolio candidate                      77                 2          0.026        0.021               0.519                 1          0.013        0.007               0.623
+       Wolio     coded                     166                51          0.307        0.029              27.819                43          0.259        0.006              25.265
+Toraja-Sadan candidate                      39                 2          0.051        0.026               2.513                 2          0.051        0.004               4.718
+Toraja-Sadan     coded                     168                61          0.363        0.028              33.488                53          0.315        0.008              30.774
+      Tolaki candidate                     128                12          0.094        0.019               7.484                 9          0.070        0.003               6.703
+      Tolaki     coded                      71                25          0.352        0.035              31.718                21          0.296        0.007              28.901
+Tolaki candidates that are look-alikes of the PMP form of the same meaning (screen, not etymologies):
+         abvd_form_id tolaki_form       meaning  pmp_form  distance  distance_le_0.25  tolaki_form_is_loan_flagged
+     674-50_todream-1      mo'ipi      to dream     *hipi     0.000                 1                            0
+     674-144_toburn-1        hunu       to burn     *tunu     0.000                 1                            0
+      674-184_heshe-1        i'ia        he/she    *si-ia     0.000                 1                            0
+          674-182_i-1       inaku             I    *i-aku     0.000                 1                            0
+     674-150_yellow-1      mokuni        yellow *ma-kunij     0.200                 1                            0
+      674-22_tofear-1      motaku       to fear *ma-takut     0.200                 1                            0
+    674-85_tochoose-1      mepili     to choose    *piliq     0.200                 1                            0
+     674-40_todrink-1      mo'inu      to drink     *inum     0.250                 1                            0
+674-160_painfulsick-1      mohaki painful, sick *ma-sakit     0.250                 1                            0
+       674-8_toturn-1      putara       to turn    *puter     0.333                 0                            1
+       674-91_tobuy-1      po'oli        to buy     *beli     0.333                 0                            0
+       674-187_they-1      mehira          they   *si-ida     0.333                 0                            0
+
+==============================================================================
+F  final segment
+==============================================================================
+forms whose last character is neither a letter nor a glottal mark (kept in 'other_consonant'): 0 Counter()
+                                                      block                    list         group_1               group_2   n  n_candidate  candidate_share  odds_ratio  ci_lo  ci_hi
+                                        final_class_by_list                   Bugis           vowel                       156           33            0.212         NaN  0.155  0.282
+                                        final_class_by_list                   Bugis    glottal_mark                        45           17            0.378         NaN  0.251  0.524
+                                        final_class_by_list                   Bugis other_consonant                        41           12            0.293         NaN  0.176  0.445
+                                        final_class_by_list                Makassar           vowel                       111           38            0.342         NaN  0.261  0.435
+                                        final_class_by_list                Makassar    glottal_mark                        60           27            0.450         NaN  0.331  0.575
+                                        final_class_by_list                Makassar other_consonant                        46           15            0.326         NaN  0.209  0.470
+                                        final_class_by_list            Toraja-Sadan           vowel                       123           22            0.179         NaN  0.121  0.256
+                                        final_class_by_list            Toraja-Sadan    glottal_mark                        45           15            0.333         NaN  0.214  0.479
+                                        final_class_by_list            Toraja-Sadan other_consonant                        48            8            0.167         NaN  0.087  0.296
+                                        final_class_by_list      pooled three lists           vowel                       390           93            0.238         NaN  0.199  0.283
+                                        final_class_by_list      pooled three lists    glottal_mark                       150           59            0.393         NaN  0.319  0.473
+                                        final_class_by_list      pooled three lists other_consonant                       135           35            0.259         NaN  0.193  0.339
+MH_ends_in_vowel_vs_other_consonant_glottal_final_set_aside three lists, stratified     vowel-final other consonant-final 525          128            0.244       0.912  0.578  1.438
+       MH_ends_in_vowel_all_other_finals_together_reference three lists, stratified     vowel-final   all non-vowel-final 675          187            0.277       0.659  0.467  0.929
+                                            block         list   group_1              group_2   n  n_candidate  candidate_share  odds_ratio  ci_lo  ci_hi
+vowel_final_forms_by_final_vowel_and_glottal_mark         Muna any vowel      no glottal mark 219           34            0.155         NaN  0.113  0.209
+vowel_final_forms_by_final_vowel_and_glottal_mark        Bugis any vowel      no glottal mark 151           32            0.212         NaN  0.154  0.284
+vowel_final_forms_by_final_vowel_and_glottal_mark        Bugis any vowel carries glottal mark   5            1            0.200         NaN  0.036  0.624
+vowel_final_forms_by_final_vowel_and_glottal_mark     Makassar any vowel      no glottal mark  94           29            0.309         NaN  0.224  0.408
+vowel_final_forms_by_final_vowel_and_glottal_mark     Makassar any vowel carries glottal mark  17            9            0.529         NaN  0.310  0.738
+vowel_final_forms_by_final_vowel_and_glottal_mark        Wolio any vowel      no glottal mark 250           81            0.324         NaN  0.269  0.384
+vowel_final_forms_by_final_vowel_and_glottal_mark        Wolio any vowel carries glottal mark   4            2            0.500         NaN  0.150  0.850
+vowel_final_forms_by_final_vowel_and_glottal_mark Toraja-Sadan any vowel      no glottal mark 121           21            0.174         NaN  0.116  0.251
+vowel_final_forms_by_final_vowel_and_glottal_mark Toraja-Sadan any vowel carries glottal mark   2            1            0.500         NaN  0.095  0.905
+vowel_final_forms_by_final_vowel_and_glottal_mark       Tolaki any vowel      no glottal mark 180          105            0.583         NaN  0.510  0.653
+vowel_final_forms_by_final_vowel_and_glottal_mark       Tolaki any vowel carries glottal mark  29           29            1.000         NaN  0.883  1.000
+Sa'dan Toraja forms ending in k: 11 candidates 1 | Toraja forms ending in a glottal mark: 45
+         abvd_form_id         concept        form Cognacy  coded  candidate     label  carries_glottal_mark_elsewhere
+  226-16_intestines-1      intestines      tambuk              0          1 candidate                               0
+        226-97_bird-1            bird manuk manuk       1      1          0     coded                               0
+  226-119_earthsoil-1      earth/soil       litak      25      1          0     coded                               0
+        226-26_hair-1            hair      beluak       1      1          0     coded                               0
+        226-124_sea-1             sea       tasik       1      1          0     coded                               0
+ 226-93_topoundbeat-1  to pound, beat      lambuk       6      1          0     coded                               0
+   226-77_toscratch-1      to scratch       kayok      1?      1          0     coded                               0
+226-29_tosniffsmell-1 to sniff, smell        uduk      1?      1          0     coded                               0
+     226-80_tosplit-1        to split        piak       1      1          0     coded                               0
+226-71_tostabpierce-1 to stab, pierce       tobok      24      1          0     coded                               0
+        226-141_wet-1             wet       bonak      32      1          0     coded                               0
+
+==============================================================================
+G  intervals for the AUC
+==============================================================================
+inputs                           scope  n_forms    auc  ci_lo_resample_forms  ci_hi_resample_forms  ci_lo_resample_meanings  ci_hi_resample_meanings  published_protocol_cv_auc_mean  published_protocol_cv_auc_sd_seed_means
+  FM25              pooled out-of-fold     1357 0.7372                0.7087                0.7656                   0.7083                   0.7668                          0.7265                                   0.0066
+  FM25         out-of-fold inside Muna      219 0.6534                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+  FM25        out-of-fold inside Bugis      242 0.7385                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+  FM25     out-of-fold inside Makassar      217 0.7510                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+  FM25        out-of-fold inside Wolio      254 0.6638                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+  FM25 out-of-fold inside Toraja-Sadan      216 0.6685                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+  FM25       out-of-fold inside Tolaki      209 0.8538                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+   F17              pooled out-of-fold     1357 0.6781                0.6465                0.7087                   0.6456                   0.7120                          0.6717                                   0.0082
+   F17         out-of-fold inside Muna      219 0.5971                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+   F17        out-of-fold inside Bugis      242 0.6676                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+   F17     out-of-fold inside Makassar      217 0.6979                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+   F17        out-of-fold inside Wolio      254 0.5694                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+   F17 out-of-fold inside Toraja-Sadan      216 0.6117                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+   F17       out-of-fold inside Tolaki      209 0.8014                   NaN                   NaN                      NaN                      NaN                             NaN                                      NaN
+
+==============================================================================
+H  leave one concept out, S5 primary set
+==============================================================================
+T (all) = 0.8357 | pairs 440 | meanings with pairs 108
+    meaning  n_pairs  mean_distance_of_its_pairs  min_pairwise_distance  n_lookalike_pairs_le_0.34  T_without_meaning  T_all  change_in_T  rank_by_raise  in_top_15
+      heavy        6                      0.6111                 0.3333                          1             0.8388 0.8357       0.0031              1          1
+dull, blunt        6                      0.6190                 0.1429                          1             0.8387 0.8357       0.0030              2          1
+   to swell        2                      0.4286                 0.2857                          1             0.8376 0.8357       0.0019              3          1
+      grass        9                      0.7556                 0.6000                          0             0.8374 0.8357       0.0017              4          1
+       near        3                      0.6429                 0.5000                          0             0.8371 0.8357       0.0013              5          1
+    to chew        5                      0.7267                 0.5000                          0             0.8370 0.8357       0.0013              6          1
+        red        6                      0.7492                 0.6000                          0             0.8369 0.8357       0.0012              7          1
+       leaf        3                      0.6667                 0.0000                          1             0.8369 0.8357       0.0012              8          1
+       who?        3                      0.6667                 0.5000                          0             0.8369 0.8357       0.0012              9          1
+     to say       14                      0.8018                 0.5000                          0             0.8369 0.8357       0.0011             10          1
+    to bite        7                      0.7816                 0.6667                          0             0.8366 0.8357       0.0009             11          1
+        dry        3                      0.7083                 0.5000                          0             0.8366 0.8357       0.0009             12          1
+thatch/roof        3                      0.7083                 0.6250                          0             0.8366 0.8357       0.0009             13          1
+       wife        5                      0.7600                 0.7000                          0             0.8366 0.8357       0.0009             14          1
+       wing        1                      0.5000                 0.5000                          0             0.8365 0.8357       0.0008             15          1
+smallest change: -0.0024 | largest: 0.00311
+
+files: ['A_coded_breadth_by_list.csv', 'A_list_classification.csv', 'A_loan_flagged.csv', 'A_middle_class_breadth.csv', 'B_pairwise_cognate_sharing.csv', 'C_paired_tests.csv', 'C_retention_intervals.csv', 'D_bt_lists.csv', 'D_pmp_lookalikes_by_list.csv', 'D_summary.json', 'D_tolaki_pmp_lookalikes.csv', 'E_strict_variants.csv', 'F_final_segment.csv', 'F_tae_final_k.csv', 'G_auc_intervals.csv', 'H_leave_one_concept_out.csv', 'anchor_checks.json', 'run_log.txt']
+
+DONE

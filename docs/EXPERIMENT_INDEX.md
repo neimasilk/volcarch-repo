@@ -1,12 +1,12 @@
 # Experiment Index
 
-**Generated:** 2026-10-05 15:36
-**Total:** 220 experiments
+**Generated:** 2026-10-06 10:11
+**Total:** 223 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 134
+- **SUCCESS:** 137
 - **UNKNOWN:** 34
 - **INFO NEG:** 15
 - **REVISIT:** 9
@@ -47,7 +47,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `04_language_text` — Language & text
 
-**64** experiments (64 primary): E022 · E023 · E025 · E026 · E027 · E028 · E029 · E030 · E032 · E033 · E034 · E035 · E036 · E037 · E038 · E039 · E040 · E041 · E042 · E043 · E044 · E049 · E050 · E051 · E054 · E056 · E057 · E058 · E061 · E063 · E067 · E074 · E082 · E085 · E087 · E088 · E089 · E090 · E094 · E095 · E096 · E102 · E105 · E107 · E111 · E112 · E113 · E114 · E130 · E131 · E134 · E146 · E147 · E150 · E160 · E165 · E169 · E181 · E186 · E198 · E205 · E208 · E227 · E228
+**67** experiments (67 primary): E022 · E023 · E025 · E026 · E027 · E028 · E029 · E030 · E032 · E033 · E034 · E035 · E036 · E037 · E038 · E039 · E040 · E041 · E042 · E043 · E044 · E049 · E050 · E051 · E054 · E056 · E057 · E058 · E061 · E063 · E067 · E074 · E082 · E085 · E087 · E088 · E089 · E090 · E094 · E095 · E096 · E102 · E105 · E107 · E111 · E112 · E113 · E114 · E130 · E131 · E134 · E146 · E147 · E150 · E160 · E165 · E169 · E181 · E186 · E198 · E205 · E208 · E227 · E228 · E229 · E230 · E231
 
 ### `05_archival_nlp` — Colonial archives & NLP
 
@@ -285,6 +285,9 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E226 | T7 detection calibration (villages named in 8th–10 | REVISIT | 05_archival_nlp,06_thesis |  |  |  |
 | E227 | P8 G1 / G1-bis audit: every number of the reviewed | SUCCESS | 04_language_text |  | P8 |  |
 | E228 | analyses for the P8 revision (*Oceanic Linguistics | SUCCESS | 04_language_text |  | P8 |  |
+| E229 | data files behind the revised tables and Figure 1  | SUCCESS | 04_language_text |  | P8 |  |
+| E230 | the digraph ("IPA") and length checks of P8, re-de | SUCCESS | 04_language_text |  | P8 |  |
+| E231 | what "coded" covers, how the six lists compare, an | SUCCESS | 04_language_text |  | P8 |  |
 
 ## Revisit Candidates
 

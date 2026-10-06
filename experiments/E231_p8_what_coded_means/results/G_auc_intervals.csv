@@ -1,0 +1,15 @@
+inputs,scope,n_forms,auc,ci_lo_resample_forms,ci_hi_resample_forms,ci_lo_resample_meanings,ci_hi_resample_meanings,published_protocol_cv_auc_mean,published_protocol_cv_auc_sd_seed_means
+FM25,pooled out-of-fold,1357,0.7372,0.7087,0.7656,0.7083,0.7668,0.7265,0.0066
+FM25,out-of-fold inside Muna,219,0.6534,,,,,,
+FM25,out-of-fold inside Bugis,242,0.7385,,,,,,
+FM25,out-of-fold inside Makassar,217,0.751,,,,,,
+FM25,out-of-fold inside Wolio,254,0.6638,,,,,,
+FM25,out-of-fold inside Toraja-Sadan,216,0.6685,,,,,,
+FM25,out-of-fold inside Tolaki,209,0.8538,,,,,,
+F17,pooled out-of-fold,1357,0.6781,0.6465,0.7087,0.6456,0.712,0.6717,0.0082
+F17,out-of-fold inside Muna,219,0.5971,,,,,,
+F17,out-of-fold inside Bugis,242,0.6676,,,,,,
+F17,out-of-fold inside Makassar,217,0.6979,,,,,,
+F17,out-of-fold inside Wolio,254,0.5694,,,,,,
+F17,out-of-fold inside Toraja-Sadan,216,0.6117,,,,,,
+F17,out-of-fold inside Tolaki,209,0.8014,,,,,,

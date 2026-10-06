@@ -3175,5 +3175,47 @@
     "lines": [
       "04_language_text"
     ]
+  },
+  {
+    "id": "E229",
+    "dir": "E229_p8_revision_tables",
+    "has_readme": true,
+    "title": "data files behind the revised tables and Figure 1 of P8 (*Oceanic Linguistics*)",
+    "status": "SUCCESS",
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-10-06",
+    "lines": [
+      "04_language_text"
+    ]
+  },
+  {
+    "id": "E230",
+    "dir": "E230_p8_revisit_E041_E042_digraph_length",
+    "has_readme": true,
+    "title": "the digraph (\"IPA\") and length checks of P8, re-derived and re-run for the model",
+    "status": "SUCCESS",
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-10-06",
+    "lines": [
+      "04_language_text"
+    ]
+  },
+  {
+    "id": "E231",
+    "dir": "E231_p8_what_coded_means",
+    "has_readme": true,
+    "title": "what \"coded\" covers, how the six lists compare, and stricter versions of four in",
+    "status": "SUCCESS",
+    "papers": [
+      "P8"
+    ],
+    "date": "2026-10-06",
+    "lines": [
+      "04_language_text"
+    ]
   }
 ]

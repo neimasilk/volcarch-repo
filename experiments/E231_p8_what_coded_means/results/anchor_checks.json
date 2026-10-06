@@ -1,0 +1,239 @@
+{
+  "n_checks": 29,
+  "n_failed": 0,
+  "checks": [
+    {
+      "name": "n_forms",
+      "expected": 1357.0,
+      "got": 1357.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "n_candidates",
+      "expected": 438.0,
+      "got": 438.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "S2 Makassar retained/coded-not-PMP/uncoded/base",
+      "expected": [
+        79,
+        52,
+        70,
+        201
+      ],
+      "got": [
+        79,
+        52,
+        70,
+        201
+      ],
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "S2 Bugis retained/coded-not-PMP/uncoded/base",
+      "expected": [
+        97,
+        57,
+        47,
+        201
+      ],
+      "got": [
+        97,
+        57,
+        47,
+        201
+      ],
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "S2 Toraja-Sadan retained/coded-not-PMP/uncoded/base",
+      "expected": [
+        96,
+        66,
+        38,
+        200
+      ],
+      "got": [
+        96,
+        66,
+        38,
+        200
+      ],
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "S5 primary pairs",
+      "expected": 440.0,
+      "got": 440.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "S5 primary T (4 decimals)",
+      "expected": 0.8357,
+      "got": 0.8357,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "S5 primary look-alike pairs",
+      "expected": 4.0,
+      "got": 4.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "loan-flagged forms",
+      "expected": 11.0,
+      "got": 11.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "loan-flagged forms that are uncoded",
+      "expected": 6.0,
+      "got": 6.0,
+      "ok": true,
+      "tolerance": null
+    },
+    {
+      "name": "E229 T6 has_nasal_cluster mean_candidate",
+      "expected": 0.3036529680365297,
+      "got": 0.3036529680365297,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_nasal_cluster mean_coded",
+      "expected": 0.2372143634385201,
+      "got": 0.23721436343852012,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_nasal_cluster effect",
+      "expected": 1.5548666748499531,
+      "got": 1.5548666748499531,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_nasal_cluster CI lo",
+      "expected": 1.182911733798813,
+      "got": 1.1829117337988133,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_nasal_cluster CI hi",
+      "expected": 2.043779182741737,
+      "got": 2.043779182741737,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_reduplication mean_candidate",
+      "expected": 0.1187214611872146,
+      "got": 0.1187214611872146,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_reduplication mean_coded",
+      "expected": 0.0979325353645266,
+      "got": 0.09793253536452666,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_reduplication effect",
+      "expected": 1.677892514544237,
+      "got": 1.6778925145442365,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_reduplication CI lo",
+      "expected": 1.1201333225487249,
+      "got": 1.1201333225487244,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_reduplication CI hi",
+      "expected": 2.513382321273742,
+      "got": 2.513382321273741,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_prefix_like mean_candidate",
+      "expected": 0.3698630136986301,
+      "got": 0.3698630136986301,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_prefix_like mean_coded",
+      "expected": 0.2524483133841131,
+      "got": 0.25244831338411317,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_prefix_like effect",
+      "expected": 1.5682158102315449,
+      "got": 1.5682158102315447,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_prefix_like CI lo",
+      "expected": 1.2028394167341645,
+      "got": 1.2028394167341643,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 has_prefix_like CI hi",
+      "expected": 2.044579511816665,
+      "got": 2.044579511816665,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 form_length mean_candidate",
+      "expected": 6.095890410958904,
+      "got": 6.095890410958904,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 form_length mean_coded",
+      "expected": 5.204570184983678,
+      "got": 5.204570184983678,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "E229 T6 form_length effect",
+      "expected": 1.092179835807289,
+      "got": 1.092179835807289,
+      "ok": true,
+      "tolerance": 0.001
+    },
+    {
+      "name": "FM25 oof P(candidate) max |diff| vs E228 release (<= 0.0006)",
+      "expected": 0.0,
+      "got": 0.000499930083751654,
+      "ok": true,
+      "tolerance": 0.0006
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+feature,label,group,mean_abs_shap,r_value_vs_shap_toward_candidate,direction,rank
+has_glottal,Glottal stop written (ʔ or '),written form,0.2789448,0.8929059137455251,↑,1
+form_length,"Length in characters (hyphens, spaces and glottal marks included)",written form,0.27630264,0.6828098758907881,↑,2
+sem_ACTION,Meaning: action,meaning,0.2693101,0.9299415254448393,↑,3
+n_vowels,Number of vowel letters,written form,0.2661866,0.6867488443383504,↑,4
+vowel_ratio,Share of vowel letters,written form,0.20973094,0.6846890690719082,↑,5
+n_consonant_clusters,Consonant-letter clusters,written form,0.19843884,0.8288958134796945,↑,6
+init_a,Begins with a,written form,0.15306112,-0.8996319825956322,↓,7
+is_core_vocab,"Meaning in the ""core"" set (174 of 210)",meaning,0.1505197,0.4537615905704501,↑,8
+sem_OTHER,Meaning: other,meaning,0.14521788,-0.8610896655279497,↓,9
+ends_in_vowel,Ends in a vowel,written form,0.11358453,0.8858338483467383,↑,10
+sem_GRAMMAR,Meaning: grammatical word,meaning,0.11125804,0.8187538856080518,↑,11
+has_nasal_cluster,"Contains ŋ or ng, or mb, nd, nj, mp, nk, nc, nt",written form,0.08494434,0.836461524674348,↑,12
+init_b,Begins with b,written form,0.07963474,-0.8481609929439735,↓,13
+init_m,Begins with m,written form,0.07545035,0.7358500330891693,↑,14
+init_p,Begins with p,written form,0.0752509,0.7882923179778979,↑,15
+has_prefix_like,"Begins with ma, me, mo, pa, ka, ta, na, po or aŋ",written form,0.07224319,0.7652025930826503,↑,16
+sem_BODY,Meaning: body,meaning,0.071195625,-0.9039223485506422,↓,17
+sem_NUMBER,Meaning: numeral,meaning,0.0361092,-0.16528863410929365,·,18
+init_k,Begins with k,written form,0.030951012,0.6199424272802507,↑,19
+sem_QUALITY,Meaning: quality,meaning,0.030469323,-0.2982806739441791,·,20
+init_s,Begins with s,written form,0.028926818,0.8532066945922918,↑,21
+has_reduplication,Hyphen or repeated letter sequence,written form,0.027752385,0.013695683689760698,·,22
+sem_NATURE,Meaning: nature,meaning,0.023796491,0.007945480288102883,·,23
+init_other,Begins with another letter,written form,0.01856889,0.40809207620727117,↑,24
+init_t,Begins with t,written form,0.017643178,-0.36855874105096925,↓,25

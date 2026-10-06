@@ -1,0 +1,94 @@
+{
+ "rounding": "half-up on the decimal repr; AUC/accuracy/F1/precision/recall/kappa 3 dp; percentages 1 dp; means, mean differences, odds ratios 2 dp; counts integer; differences signed (a value that rounds to zero is unsigned)",
+ "total_mismatches": 0,
+ "tables": {
+  "A": {
+   "table": "label by list",
+   "source_csv": [
+    "experiments/E229_p8_revision_tables/results/T1_label_by_list.csv"
+   ],
+   "rows": 7,
+   "cols": 6,
+   "numeric_cells_checked": 35,
+   "mismatches": 0,
+   "details": []
+  },
+  "B": {
+   "table": "cross-validated performance",
+   "source_csv": [
+    "experiments/E229_p8_revision_tables/results/T2_cv_performance.csv"
+   ],
+   "rows": 6,
+   "cols": 10,
+   "numeric_cells_checked": 48,
+   "mismatches": 0,
+   "details": []
+  },
+  "C": {
+   "table": "one list held out",
+   "source_csv": [
+    "experiments/E229_p8_revision_tables/results/T3_lolo.csv"
+   ],
+   "rows": 7,
+   "cols": 8,
+   "numeric_cells_checked": 46,
+   "mismatches": 0,
+   "details": []
+  },
+  "D": {
+   "table": "label by profile cells per list",
+   "source_csv": [
+    "experiments/E229_p8_revision_tables/results/T5_cells_by_list.csv"
+   ],
+   "rows": 7,
+   "cols": 7,
+   "numeric_cells_checked": 42,
+   "mismatches": 0,
+   "details": []
+  },
+  "E": {
+   "table": "profile of candidates against coded forms",
+   "source_csv": [
+    "experiments/E229_p8_revision_tables/results/T6_profile.csv"
+   ],
+   "rows": 10,
+   "cols": 8,
+   "numeric_cells_checked": 60,
+   "mismatches": 0,
+   "details": []
+  },
+  "F": {
+   "table": "retention from Proto-Malayo-Polynesian by list",
+   "source_csv": [
+    "experiments/E228_p8_revision_analyses/results/TABLE_R1-2_retention_by_language.csv"
+   ],
+   "rows": 6,
+   "cols": 12,
+   "numeric_cells_checked": 66,
+   "mismatches": 0,
+   "details": []
+  },
+  "G": {
+   "table": "glottal-stop conventions",
+   "source_csv": [
+    "experiments/E228_p8_revision_analyses/results/TABLE_R1-9_glottal_conventions.csv"
+   ],
+   "rows": 7,
+   "cols": 9,
+   "numeric_cells_checked": 56,
+   "mismatches": 0,
+   "details": []
+  },
+  "H": {
+   "table": "digraph and length variants",
+   "source_csv": [
+    "experiments/E230_p8_revisit_E041_E042_digraph_length/results/B_variants.csv"
+   ],
+   "rows": 12,
+   "cols": 6,
+   "numeric_cells_checked": 48,
+   "mismatches": 0,
+   "details": []
+  }
+ }
+}

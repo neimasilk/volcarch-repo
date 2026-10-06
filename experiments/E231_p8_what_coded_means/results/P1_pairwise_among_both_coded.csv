@@ -1,0 +1,16 @@
+list_1,list_2,meanings_in_both,n_share_set,share_set,n_both_have_coded_form,share_among_both_coded
+Muna,Bugis,205,56,0.2732,136,0.4118
+Muna,Makassar,205,48,0.2341,115,0.4174
+Muna,Wolio,201,83,0.4129,135,0.6148
+Muna,Toraja-Sadan,204,63,0.3088,146,0.4315
+Muna,Tolaki,195,38,0.1949,66,0.5758
+Bugis,Makassar,210,87,0.4143,114,0.7632
+Bugis,Wolio,206,67,0.3252,121,0.5537
+Bugis,Toraja-Sadan,209,111,0.5311,137,0.8102
+Bugis,Tolaki,200,35,0.175,60,0.5833
+Makassar,Wolio,206,53,0.2573,102,0.5196
+Makassar,Toraja-Sadan,209,82,0.3923,117,0.7009
+Makassar,Tolaki,200,32,0.16,55,0.5818
+Wolio,Toraja-Sadan,205,79,0.3854,131,0.6031
+Wolio,Tolaki,197,43,0.2183,61,0.7049
+Toraja-Sadan,Tolaki,200,41,0.205,65,0.6308

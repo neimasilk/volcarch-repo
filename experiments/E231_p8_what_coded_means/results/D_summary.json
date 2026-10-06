@@ -1,0 +1,44 @@
+{
+  "PBT": {
+    "n_forms": 205,
+    "n_coded": 73,
+    "coded_share": 0.35609756097560974
+  },
+  "comparison_42": {
+    "n_lists": 42,
+    "coded_share_min": 0.2988505747126437,
+    "coded_share_median": 0.4499970412450441,
+    "coded_share_max": 0.5964912280701754,
+    "n_distinct_glottocodes": 13,
+    "n_distinct_author": 3,
+    "n_distinct_source": 3,
+    "authors": [
+      "D. Mead",
+      "Hans Lapotiwa",
+      "Mead, D. (1999)"
+    ],
+    "sources": [
+      "161612",
+      "Lapotiwa-41-2005",
+      "Mead-972-2012"
+    ],
+    "total_forms": 6288,
+    "n_lists_coded_share_le_0.5": 41
+  },
+  "tolaki_dialects_5": {
+    "n_lists": 5,
+    "coded_share_min": 0.22916666666666666,
+    "coded_share_median": 0.34532374100719426,
+    "coded_share_max": 0.391304347826087,
+    "n_distinct_glottocodes": 1,
+    "authors": [
+      "Mead, D. (1999)"
+    ],
+    "sources": [
+      "161612"
+    ]
+  },
+  "tolaki_674_for_reference": {
+    "coded_share": 0.3588516746411483
+  }
+}

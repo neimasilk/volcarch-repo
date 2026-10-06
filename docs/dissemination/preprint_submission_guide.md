@@ -25,7 +25,7 @@
 
 ### No further action needed.
 - Package: `papers/P8_linguistic_fossils/arxiv_P8_submission.zip`
-- Paper password (co-author claim): ze47x
+- Paper password (co-author claim): [redacted 2026-10-06 — public repo; see the arXiv account page]
 
 ---
 

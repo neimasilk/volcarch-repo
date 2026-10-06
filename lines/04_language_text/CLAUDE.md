@@ -68,10 +68,13 @@ IPA/syllable validation, `E043` krama alus cognacy, `E044` Malagasy burial botan
 vocabulary, `E050` Canarium distribution, `E054` pan-Austronesian cognacy, `E063` domain
 conservation, `E102` vocabulary preservation, `E112` vocabulary archaeology, `E198` sago/rice
 etymology
+**P8 revision (2026-10):** `E227` audit of the submitted numbers · `E228` pre-registered reviewer analyses ·
+`E229` tables and Figure 1 for the revision · `E230` digraph/length checks re-run (revisits `E041`, `E042`) ·
+`E231` what "coded" covers in ABVD, list-to-list comparison, stricter input definitions (descriptive)
 **Ritual & genre:** `E023` ritual screening, `E026` Pararaton correlation, `E032` pranata mangsa,
 `E057` genre taphonomy, `E204` bronze drums
 
-**64 experiments** are assigned to this line (64 primary). Authoritative list:
+**66 experiments** are assigned to this line (66 primary). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 

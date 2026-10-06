@@ -2,6 +2,7 @@
 
 **Updated:** 2026-10-05 (evening) · **Line:** 04 · **MS:** OL-03-2026-11 · **State:** ⏳ revision pending (no stated deadline) — **analyses and number audit done; seven PI decisions open**
 **→ Work plan, verified facts per point, corrected numbers: [`REVISION_WORKPLAN.md`](REVISION_WORKPLAN.md)** (evidence: `experiments/E227_*`, `experiments/E228_*`). This file remains the ledger of what the reviewers asked.
+**Checked against the original email and the annotated PDF on 2026-10-06:** all 13 comments of reviewer 1 (plus the opening remark) and all 24 highlights of reviewer 2 are in §4–§5; five details added in `REVISION_WORKPLAN.md` §10.1 (among them a direct question inside R1-12).
 **Owner of prose:** the PI (gate G16). This file holds the ledger, the evidence and the analysis tasks — not manuscript text.
 
 > The repo is **public**. Reviewer comments are **paraphrased** here and the personal portal link from the decision
@@ -14,7 +15,7 @@
 
 | Item | Fact |
 |---|---|
-| Decision | **Accepted pending revisions** (conditional). Editor Sander Adelaar: accepted for publication once the editors are satisfied with the suggested revisions; a formal acceptance letter is sent after that. **Not a final acceptance.** |
+| Decision | **Accepted pending revisions** (conditional). Editor Sander Adelaar: accepted for publication once the editors are satisfied with the suggested revisions. **Not a final acceptance.** A formal letter of acceptance, conditional on the revisions, is available already now (corrected 2026-10-06 after re-reading the letter; this row first said "sent after that"). |
 | Date | 2026-10-05 (submitted 2026-03-11, ≈ 7 months) |
 | Deadline | **None stated.** Ask the editor only if one is needed. |
 | Editors' extra request | Pay particular attention to **readability**, including Section 3 — the subject lies outside the remit of most readers of the journal. |
@@ -39,22 +40,22 @@ the only difference is figure captions repeated on the journal's figure pages. S
 - **G13** — whether a manuscript in revision still occupies a "under review" slot is not defined; the conservative reading is that it does (P23 stays blocked). **PI call.**
 - **Citation integrity** (`docs/research_notes/` + KB `concepts/integritas-sitasi-ai.md`): every reference supplied by a reviewer must be **read by the PI** before it is cited; the reviewers' quotations are pointers only. No AI-written description of an unread source.
 
-## 4. Reviewer 1 — 14 points (a specialist in Sulawesi languages; says the ML parts are outside their field; tone positive)
+## 4. Reviewer 1 — 13 comments and an opening remark (counted as "14 points" on 2026-10-05) (a specialist in Sulawesi languages; says the ML parts are outside their field; tone positive)
 
 Type: **T** = wording/classification fix · **C** = clarification · **A** = needs analysis or data · **D** = data release.
 
 | # | Point (paraphrased) | Type | Where / note |
 |---|---|---|---|
 | 1 | "resist reconstruction to **any** proto-form" is too strong: forms may reconstruct to a *lower-level* proto-language (e.g. Proto Muna–Buton) yet still show as residual in one language → "higher-level proto-forms" | T | tex 38, 56 |
-| 2 | **Makasar.** The Toalean-substrate claim and lexical divergence of Makasar are in the literature (Mills 1975; Sirk 1989; Bulbeck 1992; Bulbeck et al. — issue dated **2000**, the report says 2001). One source puts 62 % of Makasar basic vocabulary "open to investigation" (38 % retention from PMP) against **our residual figure** in Table 1 (the report says 30.1 %; the table prints **30.9 %**) — how do they fit, and what does this study add? | **A** | **Central.** ✅ **Done (E228 S2, pre-registered):** per concept, Makasar retains 39.3 % from PMP, 25.9 % is coded otherwise, 34.8 % is uncoded → not retained 60.7 % ≈ the published 62 %; different quantities, now shown. Add the literature **after reading it**. |
+| 2 | **Makasar.** The Toalean-substrate claim and lexical divergence of Makasar are in the literature (Mills 1975; Sirk 1989; Bulbeck 1992; Bulbeck et al. — issue dated **2000**, the report says 2001). One source puts 62 % of Makasar basic vocabulary "open to investigation" (38 % retention from PMP) against **our residual figure** in Table 1 (the report says 30.1 %; the table prints **30.9 %**) — how do they fit, and what does this study add? | **A** | **Central.** ✅ **Done (E228 S2, pre-registered):** per concept, Makasar retains 39.3 % from PMP, 25.9 % is coded otherwise, 34.8 % is uncoded → 39.3 % of meanings in the PMP entry's set — a lower bound on retention; ⚠ no comparison with the quoted 38 % / 62 % before the PI has read the source (work plan §10.7, corrected 2026-10-06); different quantities, now shown. Add the literature **after reading it**. |
 | 3 | "at least ten primary subgroups (Blust 2009)": that source lists **eleven**; Sneddon 1993 could be cited too | T | tex 57 |
 | 4 | "Celebic, South Sulawesi, Muna–Buton" — if ten primary subgroups, Celebic is not one: it is a **supergroup** (Van den Berg — the report says 1989, the paper is **1996**; Mead 2003). Say South Sulawesi, Bungku–Tolaki, Muna–Buton | T | tex 65 |
 | 5 | "parallel independent innovations" → "independent innovations" (*parallel innovation* is a technical term meaning something else) | T | tex 73, 509 (subsection title), 517, 598 (+614) |
-| 6 | "three subgroups" but four are listed; correct grouping: Muna–Buton (Muna), Wotu–Wolio (Wolio), South Sulawesi (Bugis, Makasar, Sa'dan Toraja), Bungku–Tolaki (Tolaki); Sa'dan Toraja never Celebic. Spelling: Makasar (one *s*), *Sa'dan Toraja*; drop the abbreviation "Bol. Mongondow" | T | tex 87 (+86); the abbreviation is at tex 468 (Table 5), tex 486 and inside Figure 4 (the earlier grep missed the escaped form `Bol.\ `) |
+| 6 | "three subgroups" but four are listed; correct grouping: Muna–Buton (Muna), Wotu–Wolio (Wolio), South Sulawesi (Bugis, Makasar, Sa'dan Toraja), Bungku–Tolaki (Tolaki); Sa'dan Toraja never Celebic. Side remark on spelling: *Makasar* with one *s* is what some linguists prefer (not a request; the report uses both spellings), *Sa'dan Toraja* is preferable in English; the abbreviation "Bol. Mongondow" is unnecessary | T | tex 87 (+86); the abbreviation is at tex 468 (Table 5), tex 486 and inside Figure 4 (the earlier grep missed the escaped form `Bol.\ `) |
 | 7 | "under-documentation" is unclear — it normally means very little primary data | C | tex 114, 534; what is meant = low **ABVD cognacy coverage** for Tolaki (36 % of forms assigned to cognate sets) |
 | 8 | Muna *dh* is also a digraph (interdental stop) but is missing from the digraph list — maybe none remained after loanword removal? | **A** (check) | ✅ **Done (E227 I03):** two Muna forms (*akaradhaa* 'to work', *idho* 'green'), both cognate-coded, both converted in the test; the sentence omitted *dh* (and Wolio *gh*) |
 | 9 | Glottal stop is written many ways in South Sulawesi sources (*anaq/anak/ana'/anaʔ/ana*; pre-glottalised *'d* in Sa'dan as *sakdan/saqdan/sa'dan/saddan*). Does the method give the same result under every convention? | **A** | feature = presence of ʔ or `'` (tex 135, 382); ✅ **Done (E228 S1, pre-registered):** partial dependence — up to −0.016 AUC when the marker is re-coded, −0.006 when left unwritten; the property exists only where a source writes it. **Downgrade, do not reword.** |
-| 10 | A semantic feature cannot be part of a *phonological* fingerprint | C/T | tex 41, 385, 595; separate "phonological profile" from "semantic profile". Overlaps R2 (define "fingerprint" early) |
+| 10 | The "fingerprint" is called *phonological* although one of its features is a semantic category; the two do not go together | C/T | tex 41, 385, 595; separate "phonological profile" from "semantic profile". Overlaps R2 (define "fingerprint" early) |
 | 11 | Give example lexemes for each quadrant of the four-quadrant comparison | **A** (data exists) | tex 178–184, 392–414; pull from the E022 × E027 outputs; check each example against ABVD |
 | 12 | "unlabeled positive" / "false positive" are used in different senses: (a) inherited vocabulary wrongly flagged as substrate; (b) "E022 false positive" = a form with an Austronesian phonological profile but no assigned proto-form — which is not a false positive, just a form worth a closer look (loanwords are often adapted to the borrower's phonology; Blust 2012:556 is offered) | C | tex 94, 107, 183, 247, 412, 440, 445, 520, 546, 581. Root of the confusion: in positive-unlabeled learning "positive" = *Austronesian*. **R2 asks the same thing (p. 8)** → one definition per term |
 | 13 | Does "documentation gaps" for Tolaki mean the wordlist omitted mainstream words, or that cognates are unrecognised? Also **release the 114 Tolaki residual items** (ideally every residual list) so historical linguists can inspect them | C + **D** | tex 534; release as CSV with a DOI (zero cost; check which repo/DOI service already holds the project's data — D1/D2 are on Zenodo) |
@@ -82,7 +83,7 @@ No objection to the findings; all are requests to explain terms and choices for 
    a. glottal-stop orthography robustness (R1-9) · b. *dh* digraph count (R1-8) · c. Makasar comparison with a pre-registered definition (R1-2) · d. quadrant examples (R1-11) · e. residual lists for release (R1-13).
 4. Add literature **only after the PI has read it**: Mills 1975, Sirk 1989, Bulbeck 1992, Bulbeck et al. 2000, Sneddon 1993, Van den Berg 1996, Mead 2003, Blust 2012 (details: `REFERENCE_CHECK_20261005.md`), plus a source for the "resists reconstruction" sentence.
 5. Rewrite Section 3 for non-technical readers; refer to every panel of Figure 2 and walk through Tables 2 and 5.
-6. Freeze 14 days (G14) → PI re-read → G1 re-run → response letter (R1 14 + R2 24 points) → resubmit through the portal.
+6. Freeze 14 days (G14) → PI re-read → G1 re-run → response letter (R1 13 comments + R2 24 highlights) → resubmit through the portal.
 
 ## 7. Downstream effects (decisions are the PI's)
 

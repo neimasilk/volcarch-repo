@@ -69,7 +69,7 @@ for doing a line's work — enter the line for that.
 
 ### Experiment Protocol
 - Numbered directory: `experiments/ENNN_short_name/`. **Numbering is global and flat** — never
-  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E228; next free E229).
+  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E231; next free E232).
 - Every experiment has a `README.md` with hypothesis, method, data used, result, conclusion, and
   status (SUCCESS / FAILED / INCONCLUSIVE / REVISIT). Pre-register the design in `DESIGN.md` when
   the result could go either way — E217–E223 are the model to copy.

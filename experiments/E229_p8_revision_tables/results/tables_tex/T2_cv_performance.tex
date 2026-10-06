@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+Inputs & Classifier & AUC (SD seeds; SD folds) & Accuracy & Always ``coded'' & F1 candidate & Precision candidate & Recall candidate & F1 coded \\
+\midrule
+FM25 & XGBoost & 0.727 (0.007; 0.027) & 0.719 & 0.677 & 0.480 & 0.597 & 0.404 & 0.807 \\
+FM25 & Random Forest & 0.727 (0.004; 0.026) & 0.663 & 0.677 & 0.543 & 0.483 & 0.622 & 0.733 \\
+FM25 & Logistic regression & 0.700 (0.004; 0.027) & 0.648 & 0.677 & 0.546 & 0.468 & 0.657 & 0.712 \\
+F17 & XGBoost & 0.672 (0.008; 0.029) & 0.696 & 0.677 & 0.391 & 0.560 & 0.304 & 0.797 \\
+F17 & Random Forest & 0.683 (0.006; 0.026) & 0.646 & 0.677 & 0.514 & 0.463 & 0.581 & 0.721 \\
+F17 & Logistic regression & 0.671 (0.004; 0.031) & 0.629 & 0.677 & 0.511 & 0.445 & 0.601 & 0.701 \\
+\bottomrule
+\end{tabular}

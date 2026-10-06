@@ -1,0 +1,8 @@
+list,forms,vowel_final,consonant_final,of_which_final_glottal_marker,candidate_share_vowel_final,candidate_share_consonant_final
+Muna,219,219,0,0,0.155,
+Bugis,242,156,86,45,0.212,0.337
+Makassar,217,111,106,60,0.342,0.396
+Wolio,254,254,0,0,0.327,
+Toraja-Sadan,216,123,93,45,0.179,0.247
+Tolaki,209,209,0,0,0.641,
+ALL,1357,1072,285,150,0.321,0.33

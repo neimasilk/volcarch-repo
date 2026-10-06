@@ -1,0 +1,5 @@
+comparison,class,meanings_in_both_bases,makassar_yes_other_no,makassar_no_other_yes,both_yes,both_no,makassar_share,other_share,p_exact_two_sided_unadjusted
+Makassar vs Bugis,retained_from_PMP,201,18,36,61,86,0.393,0.4826,0.0198
+Makassar vs Bugis,uncoded,201,44,21,26,110,0.3483,0.2338,0.0059
+Makassar vs Toraja-Sadan,retained_from_PMP,200,20,37,59,84,0.395,0.48,0.0331
+Makassar vs Toraja-Sadan,uncoded,200,47,16,22,115,0.345,0.19,0.0001

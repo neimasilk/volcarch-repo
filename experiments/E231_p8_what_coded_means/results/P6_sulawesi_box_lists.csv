@@ -1,0 +1,97 @@
+ID,Name,Glottocode,is_proto,kind
+2,Banggai (W.dialect),bang1368,False,other
+5,Bantik,bant1286,False,other
+12,Gorontalo (Hulondalo),goro1259,False,other
+27,Muna (Katobu-Tongkuno Dialect),muna1247,False,other
+29,Kaidipang,kaid1239,False,other
+41,Mori,mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+48,Buginese (Soppeng Dialect),bugi1244,False,South Sulawesi target list
+112,Popalia,tuka1249,False,other
+127,Soboyo,tali1262,False,other
+137,Tontemboan,tont1239,False,other
+147,Wuna,muna1247,False,other
+166,Makassar,maka1311,False,South Sulawesi target list
+192,Wolio,woli1241,False,other
+208,Bare'e,pamo1252,False,other
+226,Tae' (S.Toraja),tora1261,False,South Sulawesi target list
+240,Bolaang Mongondow,mong1342,False,other
+489,Bajo,indo1317,False,Bajo / Sama-Bajaw
+496,Tonsea,tons1240,False,other
+618,Buol,buol1237,False,other
+619,Bajo (Kolo Bawah),indo1317,False,Bajo / Sama-Bajaw
+620,Bajo (Padei Laut),indo1317,False,Bajo / Sama-Bajaw
+621,Bajo (Kayuadi),indo1317,False,Bajo / Sama-Bajaw
+622,Bajo (Pitulua),indo1317,False,Bajo / Sama-Bajaw
+623,Bajo (Bajoe),indo1317,False,Bajo / Sama-Bajaw
+624,Bajo (Lauru),indo1317,False,Bajo / Sama-Bajaw
+625,Bajo (Moramo),indo1317,False,Bajo / Sama-Bajaw
+626,Bajo (Boepinang),indo1317,False,Bajo / Sama-Bajaw
+627,Bajo (Lakaramba),indo1317,False,Bajo / Sama-Bajaw
+628,Bajo (Kaleroang),indo1317,False,Bajo / Sama-Bajaw
+629,Bajo (Lakonea),indo1317,False,Bajo / Sama-Bajaw
+630,Bajo (Langara Laut),indo1317,False,Bajo / Sama-Bajaw
+631,Bajo (Lapulu),indo1317,False,Bajo / Sama-Bajaw
+632,Bajo (Luwuk),indo1317,False,Bajo / Sama-Bajaw
+633,Bajo (Anaiwoi),indo1317,False,Bajo / Sama-Bajaw
+634,Bajo (Lemo Bajo),indo1317,False,Bajo / Sama-Bajaw
+674,Tolaki,tola1247,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+748,Totoli,toto1304,False,other
+752,Tomini (Tialo),tomi1243,False,other
+780,Proto-Bungku-Tolaki,bung1268,True,"Bungku-Tolaki (comparison, dialect or proto list)"
+861,Proto-South Sulawesi,sout2923,True,other
+875,Bahonsuai,baho1237,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+876,Bungku,bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+877,Bungku (Landawe),bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+878,Bungku (Routa),bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+879,Bungku (Torete),bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+880,Bungku (Tulambatu),bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+881,Bungku (Waia),bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+882,Kodeoha,bung1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+883,Koroni,koro1311,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+884,Kulisusu,kuli1254,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+885,Mori Atas (Doule),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+886,Mori Atas (Impo),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+887,Mori Atas (Kolo-Kolo),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+888,Mori Atas (Lolonggoio),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+889,Mori Atas (Molio'A),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+890,Mori Atas (Molongkuni),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+891,Mori Atas (Olota),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+892,Mori Atas (Tambee),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+893,Mori Atas (Ulu'Uwoi),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+894,Mori Atas (Wulanderi),mori1269,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+895,Mori Bawah (Bahano),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+896,Mori Bawah (Kangua),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+897,Mori Bawah (Karunsi'E),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+898,Mori Bawah (Mo'Iki),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+899,Mori Bawah (Petasia),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+900,Mori Bawah (Roda),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+901,Mori Bawah (Soroako),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+902,Mori Bawah (Watu),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+903,Mori Bawah (Ŋgusumbatu),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+904,Moronene,moro1287,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+905,Moronene (Mornene),moro1287,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+906,Moronene (Tokotu'A),moro1287,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+907,Padoe,pado1242,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+908,Taloki,talo1252,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+909,Tolaki (Asera),tola1247,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+910,Tolaki (Konawe),tola1247,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+911,Tolaki (Laiwui),tola1247,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+912,Tolaki (Mekongga),tola1247,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+913,Tolaki (Wiwirano),tola1247,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+914,Tomadino,toma1248,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+915,Waru,waru1266,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+916,Waru (Lalomerui),waru1266,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+917,Wawonii,wawo1239,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+918,Wawonii (Menui),wawo1239,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+919,Wiau,raha1237,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+968,Kambowa,kiok1239,False,other
+969,Kioko,kiok1239,False,other
+972,Mori Bawah (Tofatu),mori1268,False,"Bungku-Tolaki (comparison, dialect or proto list)"
+997,Andio,andi1257,False,other
+999,Uma (Kantewu dialect),umaa1242,False,other
+1215,Ponosakan,pono1240,False,other
+1521,Kumbewaha,kumb1274,False,other
+1522,Lasalimu,lasa1237,False,other
+1523,Wakole dialect of Kumbewaha,kumb1274,False,other
+1524,Wasambua dialect of Cia-Cia,ciac1237,False,other
+1525,Wolowa dialect of Kumbewaha,kumb1274,False,other

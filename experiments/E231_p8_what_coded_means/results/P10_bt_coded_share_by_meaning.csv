@@ -1,0 +1,49 @@
+group,id,name,n_forms,coded_share_by_form,shared_meanings,list_coded_share_by_meaning,tolaki_coded_share_same_meanings,list_at_or_below_tolaki
+Proto-Bungku-Tolaki,780,Proto-Bungku-Tolaki,205,0.3561,157,0.4268,0.3949,0
+comparison_list,41,Mori,228,0.5965,197,0.6447,0.3655,0
+comparison_list,875,Bahonsuai,136,0.4926,133,0.5038,0.3835,0
+comparison_list,876,Bungku,244,0.3033,133,0.5113,0.3835,0
+comparison_list,877,Bungku (Landawe),135,0.4444,133,0.4511,0.3835,0
+comparison_list,878,Bungku (Routa),137,0.4818,133,0.4962,0.3835,0
+comparison_list,879,Bungku (Torete),181,0.4033,133,0.5113,0.3835,0
+comparison_list,880,Bungku (Tulambatu),190,0.3684,133,0.4887,0.3835,0
+comparison_list,881,Bungku (Waia),137,0.4599,133,0.4737,0.3835,0
+comparison_list,882,Kodeoha,174,0.2989,133,0.3759,0.3835,1
+comparison_list,883,Koroni,138,0.4348,133,0.4436,0.3835,0
+comparison_list,884,Kulisusu,222,0.3784,199,0.4121,0.3568,0
+comparison_list,885,Mori Atas (Doule),129,0.4496,126,0.4603,0.3889,0
+comparison_list,886,Mori Atas (Impo),128,0.4766,126,0.4841,0.3889,0
+comparison_list,887,Mori Atas (Kolo-Kolo),131,0.4885,126,0.5,0.3889,0
+comparison_list,888,Mori Atas (Lolonggoio),131,0.4427,126,0.4603,0.3889,0
+comparison_list,889,Mori Atas (Molio'A),131,0.4504,126,0.4603,0.3889,0
+comparison_list,890,Mori Atas (Molongkuni),132,0.4848,126,0.5,0.3889,0
+comparison_list,891,Mori Atas (Olota),130,0.4692,126,0.4762,0.3889,0
+comparison_list,892,Mori Atas (Tambee),128,0.4375,125,0.448,0.392,0
+comparison_list,893,Mori Atas (Ulu'Uwoi),131,0.4427,126,0.4603,0.3889,0
+comparison_list,894,Mori Atas (Wulanderi),129,0.4806,126,0.4921,0.3889,0
+comparison_list,895,Mori Bawah (Bahano),130,0.4692,126,0.4841,0.3889,0
+comparison_list,896,Mori Bawah (Kangua),131,0.4656,126,0.4762,0.3889,0
+comparison_list,897,Mori Bawah (Karunsi'E),129,0.4884,125,0.504,0.392,0
+comparison_list,898,Mori Bawah (Mo'Iki),133,0.4887,126,0.5079,0.3889,0
+comparison_list,899,Mori Bawah (Petasia),131,0.4809,126,0.5,0.3889,0
+comparison_list,900,Mori Bawah (Roda),130,0.4923,126,0.5079,0.3889,0
+comparison_list,901,Mori Bawah (Soroako),130,0.5,125,0.52,0.392,0
+comparison_list,902,Mori Bawah (Watu),156,0.4487,133,0.5038,0.3835,0
+comparison_list,903,Mori Bawah (Ŋgusumbatu),133,0.4887,126,0.5159,0.3889,0
+comparison_list,904,Moronene,180,0.3611,133,0.4737,0.3835,0
+comparison_list,905,Moronene (Mornene),140,0.4,133,0.4211,0.3835,0
+comparison_list,906,Moronene (Tokotu'A),190,0.3211,133,0.4361,0.3835,0
+comparison_list,907,Padoe,189,0.4021,133,0.5038,0.3835,0
+comparison_list,908,Taloki,136,0.4265,132,0.4394,0.3864,0
+comparison_list,914,Tomadino,135,0.4519,133,0.4586,0.3835,0
+comparison_list,915,Waru,136,0.375,133,0.3835,0.3835,1
+comparison_list,916,Waru (Lalomerui),136,0.3676,133,0.3759,0.3835,1
+comparison_list,917,Wawonii,164,0.4268,133,0.5113,0.3835,0
+comparison_list,918,Wawonii (Menui),139,0.4748,133,0.4962,0.3835,0
+comparison_list,919,Wiau,183,0.3224,132,0.4318,0.3864,0
+comparison_list,972,Mori Bawah (Tofatu),135,0.4815,133,0.4887,0.3835,0
+tolaki_dialect,909,Tolaki (Asera),138,0.3913,133,0.406,0.3835,0
+tolaki_dialect,910,Tolaki (Konawe),384,0.2292,133,0.5038,0.3835,0
+tolaki_dialect,911,Tolaki (Laiwui),139,0.3453,133,0.3609,0.3835,1
+tolaki_dialect,912,Tolaki (Mekongga),256,0.3047,133,0.4662,0.3835,0
+tolaki_dialect,913,Tolaki (Wiwirano),136,0.3824,133,0.391,0.3835,0

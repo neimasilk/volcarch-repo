@@ -25,3 +25,25 @@ No number, no claim, no sentence structure was touched. The file is **not** a co
 - R1-3 (number of primary subgroups, tex 57), R1-7 ("under-documentation", tex 114), R1-8 (digraph list, tex 348), R1-10 and R1-12 (terms), every R2 item: need new wording or new numbers.
 - Labels inside the four figures (`Toraja-Sadan`, `Bol.Mongondow`, internal codes): the figures have to be regenerated.
 - Table 5 overflows further with the full name; it is to be rebuilt or dropped (decision D5).
+
+## 2026-10-06 - bibliography corrections (working copy `references.bib` in this folder)
+
+Path-only change in `p8_revision_v0.2.tex`: `\bibliography{../references}` -> `\bibliography{references}`, so that the tex file reads the corrected copy in this folder. The original `../references.bib` is untouched. Nothing else in the tex file changed.
+
+Corrections follow `REFERENCE_CHECK_20261005.md` Part B (existence and bibliographic data only). Citation keys are unchanged. Entries not listed here are unchanged, except that a comment line (starting with %) was added above lundberg2017.
+
+| key | what changed | evidence |
+|---|---|---|
+| ross2005 | `@article` in *Oceanic Linguistics* 44(2): 343-380 -> `@incollection` in *Papuan Pasts* (Pacific Linguistics 572), editors Pawley, Attenborough, Golson, Hide, pp. 15-65, Canberra | REFERENCE_CHECK_20261005.md Part B |
+| bellwood1995 | `@article` with the book title as `journal` -> `@incollection` (editors Bellwood, Fox, Tryon; booktitle *The Austronesians*; 1995 print imprint, Canberra); pages 96-111 kept but UNVERIFIED; comment above the entry gives the 2006 ANU E Press alternative (pp. 103-118, DOI 10.22459/A.09.2006.05); PI to choose one edition | REFERENCE_CHECK_20261005.md Part B |
+| swadesh1955 | `@inproceedings` with journal as `booktitle` -> `@article`, journal IJAL; DOI 10.1086/464321 added | REFERENCE_CHECK_20261005.md Part B |
+| thurgood1999 | `@article` with `journal` -> `@book` with `series` = Oceanic Linguistics Special Publication, number 28; address Honolulu added | REFERENCE_CHECK_20261005.md Part B |
+| casparis1975 | publisher "E. J. Brill / Lembaga Ilmu Pengetahuan Indonesia", place "Leiden / Jakarta" -> publisher Brill, place Leiden | REFERENCE_CHECK_20261005.md Part B |
+| mcelhanon1970 | `@article` with `journal` -> `@book` with `series` = Pacific Linguistics, Series B, number 16; publisher Research School of Pacific and Asian Studies, The Australian National University | REFERENCE_CHECK_20261005.md Part B |
+| list2012 | `@article` with proceedings title as `journal` -> `@inproceedings` with `booktitle`; publisher Association for Computational Linguistics, Avignon, France added | REFERENCE_CHECK_20261005.md Part B |
+| anderson2018 | `@inproceedings` with `booktitle` -> `@article` with `journal` = Yearbook of the Poznan Linguistic Meeting | REFERENCE_CHECK_20261005.md Part B |
+| mead2005 | entry deleted (NOT FOUND; no such chapter in *Papuan Pasts*; not cited in the draft) | REFERENCE_CHECK_20261005.md Part B |
+| vandenBerg1996 | entry deleted (NOT FOUND; no such chapter in the Atlas; not cited in the draft) | REFERENCE_CHECK_20261005.md Part B |
+| lundberg2017 | entry unchanged; comment added: page range 4765-4774 UNVERIFIED | REFERENCE_CHECK_20261005.md Part B |
+
+Open for the PI: list2018 is bibliographically correct but is cited in the text for a use it does not fit (CLICS2 is a colexification database, not a phylogenetic tool); wording is the PI's. Bellwood 1995 edition choice (see above).

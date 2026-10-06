@@ -1,0 +1,71 @@
+{
+  "all_ok": true,
+  "anchors": [
+    {
+      "name": "V0 FM25 CV AUC",
+      "expected": 0.7265,
+      "got": 0.726525,
+      "ok": true
+    },
+    {
+      "name": "V0 F17 CV AUC",
+      "expected": 0.6717,
+      "got": 0.671725,
+      "ok": true
+    },
+    {
+      "name": "V0 FM25 LOLO mean",
+      "expected": 0.7008,
+      "got": 0.700768,
+      "ok": true
+    },
+    {
+      "name": "V0 F17 LOLO mean",
+      "expected": 0.6413,
+      "got": 0.641343,
+      "ok": true
+    },
+    {
+      "name": "D1 forms changed (total)",
+      "expected": 75,
+      "got": 75,
+      "ok": true
+    },
+    {
+      "name": "D1 forms changed Muna",
+      "expected": 54,
+      "got": 54,
+      "ok": true
+    },
+    {
+      "name": "D1 forms changed Tolaki",
+      "expected": 20,
+      "got": 20,
+      "ok": true
+    },
+    {
+      "name": "D1 forms changed Tae' (Toraja-Sadan)",
+      "expected": 1,
+      "got": 1,
+      "ok": true
+    },
+    {
+      "name": "Muna forms containing dh (count)",
+      "expected": 2,
+      "got": 2,
+      "ok": true
+    },
+    {
+      "name": "Muna dh forms (E227 I03: akaradhaa, idho)",
+      "expected": [
+        "akaradhaa",
+        "idho"
+      ],
+      "got": [
+        "akaradhaa",
+        "idho"
+      ],
+      "ok": true
+    }
+  ]
+}

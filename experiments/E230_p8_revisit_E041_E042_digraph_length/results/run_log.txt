@@ -1,0 +1,153 @@
+python 3.11.7 | xgboost 3.0.3 | scikit-learn 1.8.0 | numpy 2.4.6 | pandas 2.3.3
+
+==============================================================================
+DATA (p8common loader; y = 1 coded)
+==============================================================================
+forms changed by the E041 conversion: 75 per list: {'Muna': 54, 'Bugis': 0, 'Makassar': 0, 'Wolio': 0, 'Toraja-Sadan': 1, 'Tolaki': 20}
+
+==============================================================================
+ANCHORS (DESIGN s4) -- V0 and D1 counts; the script stops if one fails
+==============================================================================
+V0 FM25: CV 0.7265  LOLO mean 0.7008  (5s)
+V0 F17: CV 0.6717  LOLO mean 0.6413  (10s)
+OK   V0 FM25 CV AUC: expected 0.7265 got 0.726525
+OK   V0 F17 CV AUC: expected 0.6717 got 0.671725
+OK   V0 FM25 LOLO mean: expected 0.7008 got 0.700768
+OK   V0 F17 LOLO mean: expected 0.6413 got 0.641343
+OK   D1 forms changed (total): expected 75 got 75
+OK   D1 forms changed Muna: expected 54 got 54
+OK   D1 forms changed Tolaki: expected 20 got 20
+OK   D1 forms changed Tae' (Toraja-Sadan): expected 1 got 1
+OK   Muna forms containing dh (count): expected 2 got 2
+OK   Muna dh forms (E227 I03: akaradhaa, idho): expected ['akaradhaa', 'idho'] got ['akaradhaa', 'idho']
+
+==============================================================================
+PART A -- re-implementation of E041 and E042 (their scripts are not run)
+==============================================================================
+E027 features_matrix.csv: 1357 rows; label==1: 919 ; languages: [np.str_('Bugis'), np.str_('Makassar'), np.str_('Muna'), np.str_('Tolaki'), np.str_('Toraja-Sadan'), np.str_('Wolio')]
+E041 re-implementation: forms changed 75 | matrix (1357, 26)
+e041_ipa         CV 0.7737 (SD 0.0285)  LOLO mean 0.7331  {np.str_('Bugis'): 0.7344, np.str_('Makassar'): 0.7523, np.str_('Muna'): 0.7127, np.str_('Tolaki'): 0.8108, np.str_('Toraja-Sadan'): 0.6881, np.str_('Wolio'): 0.7002}  (14s)
+e041_ortho       CV 0.7716 (SD 0.0274)  LOLO mean 0.7244  {np.str_('Bugis'): 0.7203, np.str_('Makassar'): 0.7301, np.str_('Muna'): 0.6707, np.str_('Tolaki'): 0.8072, np.str_('Toraja-Sadan'): 0.7038, np.str_('Wolio'): 0.7144}  (19s)
+e041_pure_ortho  CV 0.7716 (SD 0.0260)  LOLO mean 0.7246  {np.str_('Bugis'): 0.7263, np.str_('Makassar'): 0.719, np.str_('Muna'): 0.698, np.str_('Tolaki'): 0.8209, np.str_('Toraja-Sadan'): 0.6869, np.str_('Wolio'): 0.6966}  (24s)
+E042 correlation syllable ~ char: 0.8695 (stored 0.8695 )
+e042_char_length     (26 inputs) CV 0.7679  LOLO mean 0.7221  (29s)
+e042_syllable_count  (26 inputs) CV 0.7685  LOLO mean 0.7279  (38s)
+e042_both            (27 inputs) CV 0.7683  LOLO mean 0.7174  (43s)
+e042_no_length       (25 inputs) CV 0.7685  LOLO mean 0.7315  (48s)
+
+Decomposition (same inputs, other protocol; same protocol, other inputs)
+  e041_ortho_inputs_published_protocol: 0.7686
+  e042_char_inputs_published_protocol: 0.7625
+  ABL26_p8common_published_protocol: 0.7626
+  ABL26_p8common_E041_protocol: 0.7679
+  FM25_p8common_E041_protocol: 0.7286
+
+A_audit.csv: 17 rows; reproduced within 0.0006 of the stored value: 15 / 17
+  A01 CV AUC, orthographic baseline                              ms 0.772   stored 0.7716 repro 0.7716  diff 0.0  NOT-AS-DESCRIBED
+  A02 CV AUC, IPA                                                ms 0.774   stored 0.7737 repro 0.7737  diff 0.0  NOT-AS-DESCRIBED
+  A03 CV delta IPA - ortho                                       ms 0.002   stored 0.0021 repro 0.002  diff 0.0001  NOT-AS-DESCRIBED
+  A04 LOLO mean AUC, orthographic baseline                       ms 0.724   stored 0.7244 repro 0.7244  diff 0.0  NOT-AS-DESCRIBED
+  A05 LOLO mean AUC, IPA                                         ms 0.733   stored 0.7331 repro 0.7331  diff 0.0  NOT-AS-DESCRIBED
+  A06 LOLO delta IPA - ortho                                     ms 0.009   stored 0.0087 repro 0.0087  diff 0.0  NOT-AS-DESCRIBED
+  A07 All six LOLO languages >= 0.65 under IPA                   ms 6/6     stored 6.0 repro 6.0  diff 0.0  NOT-AS-DESCRIBED
+  A08 Muna LOLO delta (IPA - ortho)                              ms 0.042   stored 0.042 repro 0.0421  diff 0.0001  NOT-AS-DESCRIBED
+  A16 inference: 'orthographic digraphs were adding noise rather ms text    stored None repro None  diff None  UNSUPPORTED
+  A17 inference: 'the model detects phonological patterns, not o ms text    stored None repro None  diff None  UNSUPPORTED
+  A09 CV AUC, character-count baseline                           ms 0.768   stored 0.7679 repro 0.7679  diff 0.0  NOT-AS-DESCRIBED
+  A10 CV AUC, syllable count replaces character count            ms 0.769   stored 0.7685 repro 0.7685  diff 0.0  NOT-AS-DESCRIBED
+  A11 CV delta syllable - char                                   ms <0.001  stored 0.0006 repro 0.0006  diff 0.0  NOT-AS-DESCRIBED
+  A12 LOLO mean, character-count baseline                        ms 0.722   stored 0.7221 repro 0.7221  diff 0.0  MATCH
+  A13 LOLO mean, syllable count replaces character count         ms 0.728   stored 0.7279 repro 0.7279  diff 0.0  MATCH
+  A14 'no length' CV AUC (form_length removed; n_vowels, vowel_r ms 0.769   stored 0.7685 repro 0.7685  diff 0.0  NOT-AS-DESCRIBED
+  A15 'no length' LOLO mean                                      ms 0.732   stored 0.7315 repro 0.7315  diff 0.0  NOT-AS-DESCRIBED
+
+==============================================================================
+PART B -- variants x models, published protocol
+==============================================================================
+D1 FM25: n_inputs 25 CV 0.7263  LOLO 0.7059  (75s)
+D1 F17: n_inputs 17 CV 0.6746  LOLO 0.6460  (85s)
+D2 FM25: n_inputs 25 CV 0.7263  LOLO 0.7051  (95s)
+D2 F17: n_inputs 17 CV 0.6765  LOLO 0.6491  (99s)
+L1 FM25: n_inputs 25 CV 0.7262  LOLO 0.6922  (103s)
+L1 F17: n_inputs 17 CV 0.6748  LOLO 0.6433  (107s)
+L2 FM25: n_inputs 24 CV 0.7266  LOLO 0.7020  (110s)
+L2 F17: n_inputs 16 CV 0.6705  LOLO 0.6452  (113s)
+L3 FM25: n_inputs 23 CV 0.7127  LOLO 0.6702  (116s)
+L3 F17: n_inputs 15 CV 0.6483  LOLO 0.6010  (120s)
+
+==============================================================================
+B_variants (CV AUC, delta, paired seed difference, flag)
+==============================================================================
+variant model  cv_auc  cv_delta_vs_V0  paired_diff_mean  paired_diff_sd_ddof1 distinguishable_from_zero_ddof1 distinguishable_from_zero_ddof0  lolo_mean  lolo_delta_vs_V0                 band_on_cv_delta
+     V0  FM25  0.7265          0.0000           0.00000               0.00000                            None                            None     0.7008            0.0000                         baseline
+     V0   F17  0.6717          0.0000           0.00000               0.00000                            None                            None     0.6413            0.0000                         baseline
+     D1  FM25  0.7263         -0.0003          -0.00026               0.00191                           False                           False     0.7059            0.0051 no dependence shown (|d|<=0.010)
+     D1   F17  0.6746          0.0028           0.00285               0.00380                            True                            True     0.6460            0.0047 no dependence shown (|d|<=0.010)
+     D2  FM25  0.7263         -0.0002          -0.00025               0.00269                           False                           False     0.7051            0.0043 no dependence shown (|d|<=0.010)
+     D2   F17  0.6765          0.0047           0.00473               0.00387                            True                            True     0.6491            0.0077 no dependence shown (|d|<=0.010)
+     L1  FM25  0.7262         -0.0003          -0.00030               0.00584                           False                           False     0.6922           -0.0085 no dependence shown (|d|<=0.010)
+     L1   F17  0.6748          0.0031           0.00312               0.00549                           False                           False     0.6433            0.0020 no dependence shown (|d|<=0.010)
+     L2  FM25  0.7266          0.0001           0.00005               0.00608                           False                           False     0.7020            0.0012 no dependence shown (|d|<=0.010)
+     L2   F17  0.6705         -0.0012          -0.00124               0.00478                           False                           False     0.6452            0.0039 no dependence shown (|d|<=0.010)
+     L3  FM25  0.7127         -0.0138          -0.01383               0.00552                            True                            True     0.6702           -0.0306       partial (0.010<|d|<=0.020)
+     L3   F17  0.6483         -0.0234          -0.02343               0.00718                            True                            True     0.6010           -0.0403              depends (|d|>0.020)
+
+==============================================================================
+DECISIONS (DESIGN s3, applied literally)
+==============================================================================
+{
+ "R2_digraph_robustness_sentence": {
+  "D1_FM25": {
+   "cv_delta": -0.0003,
+   "band": "no dependence shown (|d|<=0.010)",
+   "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+  },
+  "D1_F17": {
+   "cv_delta": 0.0028,
+   "band": "no dependence shown (|d|<=0.010)",
+   "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+  },
+  "D2_FM25": {
+   "cv_delta": -0.0002,
+   "band": "no dependence shown (|d|<=0.010)",
+   "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+  },
+  "D2_F17": {
+   "cv_delta": 0.0047,
+   "band": "no dependence shown (|d|<=0.010)",
+   "outcome": "NO DEPENDENCE SHOWN at this resolution: the text may say that discrimination is unchanged under this conversion and nothing more (not that the model 'detects phonology rather than orthography')"
+  },
+  "verdict_robustness_sentence_withdrawn_for_digraphs": false,
+  "note": "whatever the band, 'the model detects phonological patterns rather than orthographic artifacts' is not supported by an unchanged AUC under a ~5% string change (E228 S1 already shows one orthographic dependence)"
+ },
+ "R3_length_sentence_tex359_449": {
+  "per_model": {
+   "FM25": {
+    "L3_cv_delta": -0.0138,
+    "L2_cv_delta": 0.0001,
+    "L1_cv_delta": -0.0003,
+    "L3_le_minus_0.010": true,
+    "L2_unchanged_but_L3_not": true,
+    "L3_distinguishable_from_zero_ddof1": true
+   },
+   "F17": {
+    "L3_cv_delta": -0.0234,
+    "L2_cv_delta": -0.0012,
+    "L1_cv_delta": 0.0031,
+    "L3_le_minus_0.010": true,
+    "L2_unchanged_but_L3_not": true,
+    "L3_distinguishable_from_zero_ddof1": true
+   }
+  },
+  "sentence_withdrawn": true,
+  "outcome": "WITHDRAWN: delta(L3) <= -0.010 in FM25, F17",
+  "L2_unchanged_but_L3_not_models": [
+   "FM25",
+   "F17"
+  ],
+  "note_if_any_L2_unchanged_but_L3_not": "length information was still in the model through the vowel count"
+ }
+}
+
+R4 Muna: {'D1_FM25': (0.017, 1, True), 'D1_F17': (-0.0101, 5, False), 'D2_FM25': (0.0194, 1, True), 'D2_F17': (-0.0086, 4, False)}
+done in 120 s

@@ -1,0 +1,153 @@
+forms 1357 candidates 438
+
+== P1 Makasar among coded meanings
+                list  meanings  in_PMP_set  coded_meanings  share_of_all  share_of_coded  upper_bound_if_all_uncoded_were_in_set
+             Makasar       201          79             131        0.3930          0.6031                                  0.7413
+               Bugis       201          97             154        0.4826          0.6299                                  0.7164
+Tae' (Sa'dan Toraja)       200          96             162        0.4800          0.5926                                  0.6700
+               Wolio       197          84             149        0.4264          0.5638                                  0.6701
+                Muna       201          72             172        0.3582          0.4186                                  0.5025
+              Tolaki       191          50              69        0.2618          0.7246                                  0.9005
+      list_1       list_2  meanings_in_both  n_share_set  share_set  n_both_have_coded_form  share_among_both_coded
+        Muna        Bugis               205           56     0.2732                     136                  0.4118
+        Muna     Makassar               205           48     0.2341                     115                  0.4174
+        Muna        Wolio               201           83     0.4129                     135                  0.6148
+        Muna Toraja-Sadan               204           63     0.3088                     146                  0.4315
+        Muna       Tolaki               195           38     0.1949                      66                  0.5758
+       Bugis     Makassar               210           87     0.4143                     114                  0.7632
+       Bugis        Wolio               206           67     0.3252                     121                  0.5537
+       Bugis Toraja-Sadan               209          111     0.5311                     137                  0.8102
+       Bugis       Tolaki               200           35     0.1750                      60                  0.5833
+    Makassar        Wolio               206           53     0.2573                     102                  0.5196
+    Makassar Toraja-Sadan               209           82     0.3923                     117                  0.7009
+    Makassar       Tolaki               200           32     0.1600                      55                  0.5818
+       Wolio Toraja-Sadan               205           79     0.3854                     131                  0.6031
+       Wolio       Tolaki               197           43     0.2183                      61                  0.7049
+Toraja-Sadan       Tolaki               200           41     0.2050                      65                  0.6308
+
+== P2 sets confined to lists of the same language
+        list  forms  coded_forms  widest_set_sulawesi_only  every_set_same_language_only  of_which_no_other_list_at_all  sulawesi_only_and_same_language_only  uncoded_share_as_published  uncoded_share_if_same_language_sets_counted_uncoded  median_breadth_lists  median_breadth_languages
+        Muna    219          185                        62                            44                              0                                    44                      0.1553                                               0.3562                  54.0                      40.0
+       Bugis    242          180                        19                             6                              6                                     6                      0.2562                                               0.2810                 284.0                     208.0
+    Makassar    217          137                         9                             1                              1                                     1                      0.3687                                               0.3733                 277.0                     204.0
+       Wolio    254          171                        16                             0                              0                                     0                      0.3268                                               0.3268                 207.0                     147.0
+Toraja-Sadan    216          171                        13                             1                              1                                     1                      0.2083                                               0.2130                 259.0                     192.0
+      Tolaki    209           75                         6                             0                              0                                     0                      0.6411                                               0.6411                 373.0                     253.0
+lists sharing a Glottocode with a target list: {'Muna': ['Wuna'], 'Bugis': [], 'Makassar': [], 'Wolio': [], 'Toraja-Sadan': [], 'Tolaki': ['Tolaki (Asera)', 'Tolaki (Konawe)', 'Tolaki (Laiwui)', 'Tolaki (Mekongga)', 'Tolaki (Wiwirano)']}
+
+== P3 onset string and nasal input with length held fixed
+                                                  contrast  n_forms  n_with  odds_ratio  ci_lo  ci_hi                   strata
+               onset string (anchor: E231 E original 1.57)     1357     394       1.568  1.203  2.045                     list
+onset string and >= 6 letters (anchor: E231 E strict 2.31)     1357     220       2.306  1.676  3.171                     list
+                 nasal strict (anchor: E231 E strict 2.05)     1357     209       2.046  1.473  2.842                     list
+                                       >= 6 letters, alone     1357     520       2.564  1.982  3.318                     list
+                 onset string, among forms of >= 6 letters      520     220       1.303  0.849  1.999                     list
+                 onset string, among forms of <= 5 letters      837     174       1.199  0.808  1.777                     list
+                                              onset string     1357     394       1.088  0.803  1.476 list x number of letters
+                                              nasal strict     1357     209       1.236  0.844  1.811 list x number of letters
+                                      nasal input as coded     1357     351       0.949  0.695  1.296 list x number of letters
+                             >= 1 consonant-letter cluster     1357     449       1.509  1.091  2.088 list x number of letters
+                                      written glottal mark     1357     210       2.598  1.794  3.762 list x number of letters
+                                            action meaning     1357     392       2.218  1.667  2.951 list x number of letters
+
+== P4 hyphenated forms
+        list  hyphenated_forms  of_which_candidates  share  other_forms  of_which_candidates_other  share_other
+       Bugis                64                   22 0.3438          178                         40       0.2247
+Toraja-Sadan                25                    5 0.2000          191                         40       0.2094
+        Muna                 3                    1 0.3333          216                         33       0.1528
+    Makassar                 0                    0    NaN          217                         80       0.3687
+       Wolio                 0                    0    NaN          254                         83       0.3268
+      Tolaki                 1                    1 1.0000          208                        133       0.6394
+hyphen alone, within lists: OR 1.574 [0.942, 2.631]; forms with a hyphen: 93
+
+== P5 Tolaki among the comparison lists; sensitivity of the PMP screen
+columns of D_bt_lists.csv: ['group', 'id', 'name', 'glottocode', 'author', 'source', 'n_forms', 'n_coded', 'coded_share']
+groups: {'Proto-Bungku-Tolaki': 1, 'comparison_list': 42, 'tolaki_dialect': 5}
+rows used as comparison lists: 42 | Tolaki coded share: 0.3589
+comparison lists at or below Tolaki: 4 | 10th percentile 0.3617 | median 0.4500
+Tolaki coded forms in the PMP entry's set: 50, of which look-alikes of the PMP form: 24 (48.0 %)
+Tolaki coded forms in another set: 21, of which look-alikes of the PMP form: 1
+        list     class  n_forms_with_pmp_entry  n_lookalike_0.34  observed_0.34  chance_0.34  excess_points_0.34  n_lookalike_0.25  observed_0.25  chance_0.25  excess_points_0.25
+        Muna candidate                      33                 0         0.0000       0.0103             -1.0303                 0         0.0000       0.0018             -0.1818
+        Muna     coded                     182                31         0.1703       0.0184             15.1978                24         0.1319       0.0040             12.7912
+       Bugis candidate                      61                 0         0.0000       0.0108             -1.0820                 0         0.0000       0.0030             -0.2951
+       Bugis     coded                     172                42         0.2442       0.0194             22.4767                33         0.1919       0.0037             18.8140
+    Makassar candidate                      75                 2         0.0267       0.0120              1.4667                 1         0.0133       0.0029              1.0400
+    Makassar     coded                     132                35         0.2652       0.0236             24.1515                27         0.2045       0.0059             19.8636
+       Wolio candidate                      77                 2         0.0260       0.0208              0.5195                 1         0.0130       0.0068              0.6234
+       Wolio     coded                     166                51         0.3072       0.0290             27.8193                43         0.2590       0.0064             25.2651
+Toraja-Sadan candidate                      39                 2         0.0513       0.0262              2.5128                 2         0.0513       0.0041              4.7179
+Toraja-Sadan     coded                     168                61         0.3631       0.0282             33.4881                53         0.3155       0.0077             30.7738
+      Tolaki candidate                     128                12         0.0938       0.0189              7.4844                 9         0.0703       0.0033              6.7031
+      Tolaki     coded                      71                25         0.3521       0.0349             31.7183                21         0.2958       0.0068             28.9014
+
+== P6 the Sulawesi box of table A
+lists counted as Sulawesi: 96 {'other': 27, 'Bungku-Tolaki (comparison, dialect or proto list)': 49, 'South Sulawesi target list': 3, 'Bajo / Sama-Bajaw': 17}
+others: Andio; Banggai (W.dialect); Bantik; Bare'e; Bolaang Mongondow; Buol; Gorontalo (Hulondalo); Kaidipang; Kambowa; Kioko; Kumbewaha; Lasalimu; Muna (Katobu-Tongkuno Dialect); Ponosakan; Popalia; Proto-South Sulawesi; Soboyo; Tomini (Tialo); Tonsea; Tontemboan; Totoli; Uma (Kantewu dialect); Wakole dialect of Kumbewaha; Wasambua dialect of Cia-Cia; Wolio; Wolowa dialect of Kumbewaha; Wuna
+lists without coordinates: 517 | of them proto: 71
+
+== P7 Sa'dan Toraja final segments; S5 split; influential meanings
+Sa'dan Toraja forms ending in a glottal mark: 45; ending in k: 11
+excess inside South Sulawesi 0.0457 (SD 0.0136); elsewhere 0.0301 (SD 0.0066); difference 0.0156 = 1.03 combined SD
+columns of H: ['meaning', 'n_pairs', 'mean_distance_of_its_pairs', 'min_pairwise_distance', 'n_lookalike_pairs_le_0.34', 'T_without_meaning', 'T_all', 'change_in_T', 'rank_by_raise', 'in_top_15']
+    meaning  candidate_forms  begin_with_ma_me_mo                                                                       forms
+      heavy                4                    4        Bugis: ma-tanəʔ; Wolio: matamo; Toraja-Sadan: ma-gasa; Tolaki: mobea
+dull, blunt                4                    3 Bugis: ma-kunru; Makassar: pokkoloʔ; Wolio: makundu; Toraja-Sadan: ma-pumpu
+   to swell                3                    0                                   Muna: notente; Wolio: tente; Wolio: gende
+      grass                5                    0  Muna: karuku; Bugis: sarii; Bugis: sərii; Toraja-Sadan: riu; Tolaki: rembu
+       near                3                    3                             Bugis: ma-caweʔ; Wolio: makasu; Tolaki: merambi
+    to chew                4                    0                   Makassar: añcaʔma; Wolio: naŋku; Wolio: paŋa; Tolaki: kaa
+        red                4                    2                   Muna: dea; Bugis: ma-cəllaʔ; Makassar: ɛja; Tolaki: momea
+       leaf                3                    0                                  Makassar: lɛkoʔ; Wolio: tawa; Tolaki: tawa
+
+== P8 sensitivity of the PMP look-alike screen, all six lists
+        list  coded_forms_in_PMP_set  found_by_screen  sensitivity
+        Muna                      83               30        0.361
+       Bugis                     112               41        0.366
+    Makassar                      87               33        0.379
+       Wolio                     101               49        0.485
+Toraja-Sadan                     110               58        0.527
+      Tolaki                      50               24        0.480
+
+== P9 Makasar and its two relatives, per meaning
+anchor (E228 S2): Makassar (79, 52, 70, 201) Bugis (97, 57, 47, 201) Toraja-Sadan (96, 66, 38, 200)
+    relative  meanings_coded_in_both  makasar_in_PMP_set  relative_in_PMP_set  mcnemar_p  makasar_uncoded_meanings_also_in_relative_list  of_which_relative_in_PMP_set  of_which_relative_coded_otherwise  of_which_relative_uncoded
+       Bugis                     110                  70                   69        1.0                                              70                            28                                 16                         26
+Toraja-Sadan                     115                  70                   71        1.0                                              69                            25                                 22                         22
+written: P9_makasar_uncoded_meanings_for_specialist.csv (70 meanings; set numbers in brackets)
+        list     class  forms_compared  lookalike_in_other_two_SS_lists  share  chance_share
+       Bugis candidate              62                                8 0.1290        0.0242
+       Bugis     coded             180                              123 0.6833        0.0453
+    Makassar candidate              80                               10 0.1250        0.0375
+    Makassar     coded             136                               90 0.6618        0.0551
+Toraja-Sadan candidate              45                                8 0.1778        0.0422
+Toraja-Sadan     coded             171                              103 0.6023        0.0506
+
+== P10 coded share by meaning, on the meanings shared with Tolaki 674
+comparison lists: 42 | at or below Tolaki on the same meanings: 3 | median list 0.4841 | median Tolaki on the same meanings 0.3835
+              group                name  n_forms  coded_share_by_form  shared_meanings  list_coded_share_by_meaning  tolaki_coded_share_same_meanings
+Proto-Bungku-Tolaki Proto-Bungku-Tolaki      205               0.3561              157                       0.4268                            0.3949
+     tolaki_dialect      Tolaki (Asera)      138               0.3913              133                       0.4060                            0.3835
+     tolaki_dialect     Tolaki (Konawe)      384               0.2292              133                       0.5038                            0.3835
+     tolaki_dialect     Tolaki (Laiwui)      139               0.3453              133                       0.3609                            0.3835
+     tolaki_dialect   Tolaki (Mekongga)      256               0.3047              133                       0.4662                            0.3835
+     tolaki_dialect   Tolaki (Wiwirano)      136               0.3824              133                       0.3910                            0.3835
+first form per meaning — comparison lists: 42 | at or below Tolaki: 5 | median list 0.4672 | median Tolaki on the same meanings 0.3835
+              group                name  n_forms  shared_meanings  meanings_with_more_than_one_form  list_coded_share_first_form  tolaki_coded_share_first_form_same_meanings
+Proto-Bungku-Tolaki Proto-Bungku-Tolaki      205              157                                39                       0.3885                                       0.3949
+     tolaki_dialect      Tolaki (Asera)      138              133                                 5                       0.4060                                       0.3835
+     tolaki_dialect     Tolaki (Konawe)      384              133                                86                       0.3684                                       0.3835
+     tolaki_dialect     Tolaki (Laiwui)      139              133                                 5                       0.3609                                       0.3835
+     tolaki_dialect   Tolaki (Mekongga)      256              133                                62                       0.3684                                       0.3835
+     tolaki_dialect   Tolaki (Wiwirano)      136              133                                 3                       0.3910                                       0.3835
+Spearman, number of forms against coded share by form (42 lists): -0.552
+
+== P11 cluster with the glottal mark also held fixed; onset string with the remaining letters held fixed
+                     contrast  n_forms  n_with  odds_ratio  ci_lo  ci_hi                                  strata
+>= 1 consonant-letter cluster     1357     449       1.376  0.983  1.926           list x letters x glottal mark
+                 onset string     1357     394       2.511  1.852  3.404 list x letters after the matched string
+
+== P12 classifier with the 44 same-language Muna forms relabelled as candidates
+                    inputs  cv_auc_label_as_published  cv_auc_44_muna_forms_as_candidates  difference  candidates_as_published  candidates_relabelled
+form + meaning (25 inputs)                     0.7265                              0.7415      0.0150                      438                    482
+     form only (17 inputs)                     0.6717                              0.6985      0.0268                      438                    482

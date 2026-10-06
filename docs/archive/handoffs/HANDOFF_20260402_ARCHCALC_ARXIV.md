@@ -16,7 +16,7 @@ P8 arXiv terbit (2604.00023). P17 ArchCalc submission package selesai diformat u
 
 - **arXiv:2604.00023** — http://arxiv.org/abs/2604.00023
 - Kategori cs.CL, CC BY 4.0. Muncul di mailing 2026-04-02.
-- Paper password untuk Go Frendi claim ownership: `ze47x`
+- Paper password untuk Go Frendi claim ownership: `[redacted 2026-10-06 — public repo; see the arXiv account page]`
 - VOLCARCH sekarang punya preprint di 2 platform: Zenodo (P1) + arXiv (P8)
 
 ## P17 ArchCalc — COMPLIANCE AUDIT + REFORMAT
@@ -76,7 +76,7 @@ P8 arXiv terbit (2604.00023). P17 ArchCalc submission package selesai diformat u
 | P11 review → submit Archipel | v0.4 ready, cover letter ready | Pak Amien email |
 | GitHub go public | UNBLOCKED (emails clean) | Pak Amien: Settings |
 | JCAA APC waiver email | Draft ready | Pak Amien kirim |
-| Go Frendi arXiv claim | Password ze47x | Pak Amien share |
+| Go Frendi arXiv claim | Password [redacted 2026-10-06 — public repo; see the arXiv account page] | Pak Amien share |
 | Zenodo deposit E171 | Metadata ready | Manual upload |
 
 ---

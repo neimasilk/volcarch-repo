@@ -1,0 +1,49 @@
+group,id,name,glottocode,author,source,n_forms,n_coded,coded_share
+Proto-Bungku-Tolaki,780,Proto-Bungku-Tolaki,bung1268,David E. Mead,161612,205,73,0.3561
+comparison_list,41,Mori,mori1268,Hans Lapotiwa,Lapotiwa-41-2005,228,136,0.5965
+comparison_list,875,Bahonsuai,baho1237,"Mead, D. (1999)",161612,136,67,0.4926
+comparison_list,876,Bungku,bung1269,"Mead, D. (1999)",161612,244,74,0.3033
+comparison_list,877,Bungku (Landawe),bung1269,"Mead, D. (1999)",161612,135,60,0.4444
+comparison_list,878,Bungku (Routa),bung1269,"Mead, D. (1999)",161612,137,66,0.4818
+comparison_list,879,Bungku (Torete),bung1269,"Mead, D. (1999)",161612,181,73,0.4033
+comparison_list,880,Bungku (Tulambatu),bung1269,"Mead, D. (1999)",161612,190,70,0.3684
+comparison_list,881,Bungku (Waia),bung1269,"Mead, D. (1999)",161612,137,63,0.4599
+comparison_list,882,Kodeoha,bung1269,"Mead, D. (1999)",161612,174,52,0.2989
+comparison_list,883,Koroni,koro1311,"Mead, D. (1999)",161612,138,60,0.4348
+comparison_list,884,Kulisusu,kuli1254,D. Mead,161612,222,84,0.3784
+comparison_list,885,Mori Atas (Doule),mori1269,"Mead, D. (1999)",161612,129,58,0.4496
+comparison_list,886,Mori Atas (Impo),mori1269,"Mead, D. (1999)",161612,128,61,0.4766
+comparison_list,887,Mori Atas (Kolo-Kolo),mori1269,"Mead, D. (1999)",161612,131,64,0.4885
+comparison_list,888,Mori Atas (Lolonggoio),mori1269,"Mead, D. (1999)",161612,131,58,0.4427
+comparison_list,889,Mori Atas (Molio'A),mori1269,"Mead, D. (1999)",161612,131,59,0.4504
+comparison_list,890,Mori Atas (Molongkuni),mori1269,"Mead, D. (1999)",161612,132,64,0.4848
+comparison_list,891,Mori Atas (Olota),mori1269,"Mead, D. (1999)",161612,130,61,0.4692
+comparison_list,892,Mori Atas (Tambee),mori1269,"Mead, D. (1999)",161612,128,56,0.4375
+comparison_list,893,Mori Atas (Ulu'Uwoi),mori1269,"Mead, D. (1999)",161612,131,58,0.4427
+comparison_list,894,Mori Atas (Wulanderi),mori1269,"Mead, D. (1999)",161612,129,62,0.4806
+comparison_list,895,Mori Bawah (Bahano),mori1268,"Mead, D. (1999)",161612,130,61,0.4692
+comparison_list,896,Mori Bawah (Kangua),mori1268,"Mead, D. (1999)",161612,131,61,0.4656
+comparison_list,897,Mori Bawah (Karunsi'E),mori1268,"Mead, D. (1999)",161612,129,63,0.4884
+comparison_list,898,Mori Bawah (Mo'Iki),mori1268,"Mead, D. (1999)",161612,133,65,0.4887
+comparison_list,899,Mori Bawah (Petasia),mori1268,"Mead, D. (1999)",161612,131,63,0.4809
+comparison_list,900,Mori Bawah (Roda),mori1268,"Mead, D. (1999)",161612,130,64,0.4923
+comparison_list,901,Mori Bawah (Soroako),mori1268,"Mead, D. (1999)",161612,130,65,0.5
+comparison_list,902,Mori Bawah (Watu),mori1268,"Mead, D. (1999)",161612,156,70,0.4487
+comparison_list,903,Mori Bawah (Ŋgusumbatu),mori1268,"Mead, D. (1999)",161612,133,65,0.4887
+comparison_list,904,Moronene,moro1287,"Mead, D. (1999)",161612,180,65,0.3611
+comparison_list,905,Moronene (Mornene),moro1287,"Mead, D. (1999)",161612,140,56,0.4
+comparison_list,906,Moronene (Tokotu'A),moro1287,"Mead, D. (1999)",161612,190,61,0.3211
+comparison_list,907,Padoe,pado1242,"Mead, D. (1999)",161612,189,76,0.4021
+comparison_list,908,Taloki,talo1252,"Mead, D. (1999)",161612,136,58,0.4265
+comparison_list,914,Tomadino,toma1248,"Mead, D. (1999)",161612,135,61,0.4519
+comparison_list,915,Waru,waru1266,"Mead, D. (1999)",161612,136,51,0.375
+comparison_list,916,Waru (Lalomerui),waru1266,"Mead, D. (1999)",161612,136,50,0.3676
+comparison_list,917,Wawonii,wawo1239,"Mead, D. (1999)",161612,164,70,0.4268
+comparison_list,918,Wawonii (Menui),wawo1239,"Mead, D. (1999)",161612,139,66,0.4748
+comparison_list,919,Wiau,raha1237,"Mead, D. (1999)",161612,183,59,0.3224
+comparison_list,972,Mori Bawah (Tofatu),mori1268,D. Mead,Mead-972-2012,135,65,0.4815
+tolaki_dialect,909,Tolaki (Asera),tola1247,"Mead, D. (1999)",161612,138,54,0.3913
+tolaki_dialect,910,Tolaki (Konawe),tola1247,"Mead, D. (1999)",161612,384,88,0.2292
+tolaki_dialect,911,Tolaki (Laiwui),tola1247,"Mead, D. (1999)",161612,139,48,0.3453
+tolaki_dialect,912,Tolaki (Mekongga),tola1247,"Mead, D. (1999)",161612,256,78,0.3047
+tolaki_dialect,913,Tolaki (Wiwirano),tola1247,"Mead, D. (1999)",161612,136,52,0.3824

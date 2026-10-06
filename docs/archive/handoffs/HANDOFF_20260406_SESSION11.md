@@ -66,7 +66,7 @@ JCAA waiver email SENT ke Verhagen (journal direct waiver, FCFS). P17 ArchCalc d
 | P11 submit | v0.5 ready, format TBC | Pak Amien review → sesuaikan format → email |
 | JCAA waiver | Email sent | Wait Verhagen reply |
 | GitHub go public | UNBLOCKED | Pak Amien: flip switch |
-| Go Frendi arXiv | Password: ze47x | Pak Amien: share |
+| Go Frendi arXiv | Password: [redacted 2026-10-06 — public repo; see the arXiv account page] | Pak Amien: share |
 
 ---
 
