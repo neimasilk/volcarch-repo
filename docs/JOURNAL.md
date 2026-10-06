@@ -10402,3 +10402,13 @@ ledger C061, STATE, handoff. Private copies in the git-ignored cache.
   anchors, values unchanged; I looked at the rendering (no clipping, no overlap).
 - Not done, deliberately: the note to the editor (the PI's own words, D7); "Continue" on the portal's revision page; any
   deposit; manuscript prose.
+
+## 2026-10-06 (14:30) — session close: handoff rewritten
+
+`docs/HANDOFF_20261006.md` rewritten as one clean record (it had been written at 08:36, before the first adversarial read
+returned, and patched four times since): what only the PI can do, in order, with the ten decisions in one table; what the
+data show now; what can be written from and what not yet; files; the day's work by time; what is awaited from outside;
+my own errors; technical notes. The top of `lines/04_language_text/STATE.md` and the two 10-06 notes of `docs/WORKSTATE.md`
+compressed to one current block each, pointing to the handoff. Gmail checked at 14:23 (read-only): no reply from arXiv
+yet, nothing new from the journal. Canary green 223. inBox empty. Closing commit on `main`; not pushed.
+Subagent use in the second session: 12 agents (10 Sonnet, 2 Opus), about 2.7 million tokens.

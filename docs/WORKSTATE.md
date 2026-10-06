@@ -21,29 +21,19 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > is stated nowhere → one line to the editor (G15). Working copy `revision_v0.2/` = reviewer-dictated term changes only.
 > **Seven PI decisions (D1–D7) before any writing: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §2.**
 
-> **2026-10-06 — everything Claude can prepare for the P8 revision is prepared; the ball is with the PI.** Tables and Figure 1 for the
-> corrected model (E229, independently re-derived), the robustness section re-run (E230: "does not depend on form length" withdrawn; its
-> printed numbers belonged to another model), corrected `.bib`, `VENUE.md` (**the journal needs a Word file for the final version; fees
-> stated nowhere**), a per-section outline of facts, and a draft note to the editor (**not sent**). The original email and annotated PDF were
-> re-read: the ledger is complete. **Start: `papers/P8_linguistic_fossils/REVISION_OUTLINE_20261006.md`; decisions: `REVISION_WORKPLAN.md` §2 + §10.5.**
-
-> **2026-10-06, 11:30 — P8: three adversarial reads, three rounds of correction; start from `REVISION_WORKPLAN.md` §10.7.**
-> The block above was written before the first read returned. Read 1 (17 findings): every number sound, several readings
-> not ("coded in ABVD" read as "inherited"; Tolaki over-read; the morphological reading stated as a result). Read 2 (14
-> findings): three of the *replacement* readings were wrong too — re-derived by the orchestrator (E231, tables P1–P7) before
-> anything was changed. **What the PI must know before writing:** (1) 44 Muna forms are "coded" only through ABVD's second
-> Muna list, so Table 1's lower end (15.5 %) is an effect of one extra list; (2) Makasar has more *uncoded* meanings
-> than Bugis and Sa'dan Toraja, and that is one fact, not three; whether they are uncoded cognates or replaced words is
-> not decided (a screen does not favour "merely uncoded") — **nothing on Makasar is written** before the PI has read the
-> source of the published 38 % (read 3 found round 2 over-corrected here; a Sulawesi specialist is optional, not a blocker); (3) "fewer prefixes" is withdrawn and "more prefixes" is **not**
-> established (not separable from word length); (4) the cross-list test says nothing about a shared layer; **D4 now has
-> three options**. Outline (its header now says which sections can be written from), work plan, editor note, READMEs
-> E227–E231, ledger C055–C065 corrected; a column description for the release files written (**draft**, C065). The session had been cut off at 08:54 (API error, power cut; no damage) and was resumed.
-> ⚠ **PI action, security:** the arXiv *paper password* of the P8 preprint has been in the public git history since April
-> (C061; redacted in the working tree) → ask arXiv for a new one (its help pages describe no self-service reset: support
-> portal or help@arxiv.org). **Afternoon:** the source of the Makasar 38 % was found and read (Blust 1981a via Bellwood
-> 1997: 115 — same tradition as ABVD, not an independent figure; Sirk 1989 is the more independent comparator), six of
-> the reviewer's eight references fetched with exact pages — `REFERENCE_CHECK_20261005.md` Part D, work plan §10.8. Canary green 223. Committed on main at the PI's word (`450aef6` and a small follow-up); not pushed.
+> **2026-10-06 (close) — P8: material ready, readings corrected three times, sources read; the ball is with the PI.**
+> Start: **`docs/HANDOFF_20261006.md` §1**, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.
+> Today: tables and Figure 1 (E229), robustness re-run (E230), what "coded" covers (E231), corrected `.bib`, `VENUE.md`,
+> outline, editor-note fact list; three adversarial reads found the numbers sound and several readings not — three rounds
+> of correction (ledger C055–C065). **What changes for the paper:** "coded in ABVD" is not "inherited" (Table 1's 15.5 %
+> for Muna rests on a second Muna list); Makasar has more *uncoded* meanings, cause undecided — the published 38 % is
+> Blust's count (Bellwood 1997: 115), the same tradition as ABVD, not an independent figure; "fewer prefixes" is
+> withdrawn and "more" is not established; the cross-list test says nothing about a shared layer (**D4: three options**).
+> Six of the reviewer's eight references fetched with exact pages (`REFERENCE_CHECK_20261005.md` Part D). Portal: no due
+> date; its stored abstract and keywords must be rewritten at resubmission. A Sulawesi specialist is not a blocker.
+> ⚠ **Security:** the arXiv paper password of the P8 preprint sat in four tracked files since April (C061; redacted) —
+> **request for a new one sent to arXiv 14:14, reply pending**; the old one is still in the public git history.
+> Canary green 223. Commits `450aef6`, `1e269f3`, `ae14804` + the closing one on `main`, **not pushed**.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >

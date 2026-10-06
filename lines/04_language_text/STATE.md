@@ -1,79 +1,36 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-06 (11:30) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — readings corrected in two rounds today; the next steps are the PI's
+**Updated:** 2026-10-06 (14:30, session close) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
 
-> **2026-10-06, 11:30 — P8: three adversarial reads, three rounds of correction. START HERE: `REVISION_WORKPLAN.md` §10.7.**
-> The block below this one (written 08:31) says "everything Claude can prepare is prepared". That was written before the
-> first adversarial read returned; what follows supersedes it wherever the two differ.
-> - **What happened.** The session was cut off at 08:54 (API error, then a power cut; no file damaged) and resumed at 10:05.
->   Read 1 (Opus; 17 findings, 7 high): every number sound, several readings not. Read 2 (Opus; 14 findings, 3 high): three
->   of the *replacement* readings were wrong as well. The orchestrator re-derived the second reader's counts with its own
->   script before changing anything. Number trace by four Sonnet readers: 902 statements, 890 matching, 12 small
->   differences, all corrected. Read 3 (Opus; closure + review of the post hoc script): the script computes what it says
->   (coarser strata and a logistic model agree); 9 new findings, 2 high — round 2 had **over-corrected Makasar** and left
->   the E228 README untouched at S2. Its counts were re-derived (tables P8–P12) and a third round of corrections made.
->   Round 3 was traced number by number (about 470 statements; all figures match; one reading — the "Konawe pair" — was
->   found to be a synonym effect and withdrawn) but **not** read adversarially again.
-> - **E231** `experiments/E231_p8_what_coded_means/` — tables A–H (descriptive; four unadjusted paired tests) and post hoc
->   tables P1–P12 (`02_posthoc_checks.py`). What it shows, in the order that matters for the paper:
->   1. **"Coded" is not one kind of label.** 44 of Muna's 185 coded forms are coded only because they recur in ABVD's second
->      Muna list (Wuna); without them Muna is 35.6 % uncoded, not 15.5 %. Tolaki's five dialect lists were not cross-coded.
->      5 of the 11 forms ABVD flags as loans carry a set number, one of them in the PMP entry's own set.
->   2. **Makasar has more uncoded meanings than Bugis and Sa'dan Toraja** (34.8 % against 23.4 % and 19.0 %); "lower
->      retention" and "fewer shared sets" are that one fact counted again. Whether the uncoded forms are uncoded cognates
->      or replaced words is **not decided**; a mechanical screen does not favour "merely uncoded" (2 of 75 resemble the PMP
->      form; 10 of 80 a Bugis or Sa'dan Toraja form). Compatible with the divergence reported in the literature; no proof
->      of it, nothing on its cause. ⚠ **Nothing on Makasar is to be written** before the PI has read the source of the
->      published 38 % (a specialist's look at `results/P9_makasar_uncoded_meanings_for_specialist.csv` is optional).
->   3. **"Fewer prefixes" is withdrawn and "more prefixes" is not established:** the onset-string input is not separable
->      from length (1.09 [0.80, 1.48] with all letters held fixed; 2.51 with the letters after the string held fixed); nor
->      is the nasal input. What holds at equal length: written glottal mark (2.60) and action meaning (2.22); consonant-
->      letter clusters are weaker (1.38 [0.98, 1.93] once the glottal mark is held fixed).
->   4. **Tolaki:** 70.9 % of its uncoded forms have a look-alike within Bungku–Tolaki (coded forms 95.9 %). By meaning (first
->      form of each meaning) list 674 is coded for 38.3 % and the five Tolaki dialect lists for 36–41 %, against a median
->      of 46.7 % in 42 comparison lists: the Tolaki lists sit on the lower side of a thinly coded subgroup, by a moderate
->      margin that depends on the unit (a first version of this item read a synonym effect in the Konawe list as a
->      coding difference; caught by the last number trace). Twelve forms look like the PMP form (about two
->      expected by chance). Nothing on origin.
->   5. **Cross-list test:** among uncoded forms a small excess of similarity; the coded class is not examined, so neither
->      "a shared layer" nor "no large shared layer" follows. Inside and outside South Sulawesi are not distinguishable.
-> - **Web round, afternoon (PI: "do what a browser can do").** The source of the Makasar 38 % was found and read: it is
->   Blust's (1981a) lexicostatistical count, quoted by Bellwood 1997: 115 beside a Western Malayo-Polynesian mean of 41 %
->   — the same tradition as ABVD's coding, so not an independent confirmation, and not a low figure. A more independent
->   comparator was read too: Sirk 1989, Table 1 (Makasar–Bugis 45, Makasar–Sa'dan 42, Bugis–Sa'dan 60; ABVD shared sets
->   41 / 39 / 53). Six of the reviewer's eight references fetched with the exact pages (Mills's claim is on pp. 491–492,
->   not 341–342); a source for the AUC scale and one saying such labels are arbitrary; candidates for R2-1; the journal's
->   template (optional) and instructions (silent on revised manuscripts → three questions for the editor). All in
->   `papers/P8_linguistic_fossils/REFERENCE_CHECK_20261005.md` **Part D**, `VENUE.md` and work plan §10.8; private copies in
->   `data/raw/literature_cache/p8_refs/` (git-ignored). Still to do for Makasar: the PI reads three pages. Waiting on the
->   PI's logins — **done the same afternoon** for arXiv, the journal's portal and JSTOR (work plan §10.8): arXiv offers no
->   way to change a paper password → **support request sent 14:14** (help@arxiv.org; waiting for the reply); the portal shows no due date,
->   and its record of the abstract and keywords must be rewritten at resubmission; Sneddon 1993: 2 read (nine microgroups
->   plus Banggai). No Project MUSE access → Blust 2012 stays unread and uncited. **Figure 1 redrawn** to the press's image guidelines
->   (E229 amendment A9: Arial, 1,000 dpi greyscale TIFF; values unchanged).
-> - **Files corrected:** the outline (every item separates *measured* from *reading*; §0 and §6 are a proposed argument);
->   the work plan (§10.7 rewritten; cells in §1, §3, §4, §5, §6, §8, §10.3 edited in place); the editor note (fact list in
->   Indonesian; the Makasar sentence held; "fewer prefixes" withdrawn without announcing "more"); READMEs of E227–E231; an
->   amendment in the E230 design; ledger C046/C048/C050/C053 corrected and **C055–C065** added; the reviewer ledger rows 2 and 10.
-> - **New:** `experiments/E228_p8_revision_analyses/release/README.md` — column description of the two release files
->   (Sonnet, checked line by line; it reproduced all 1,357 scores and all distances from the released strings).
-> - **What the PI can write from now** (third reader's assessment, after its corrections were made): outline §1, §3, §4,
->   5.1, 5.4, 5.6, 5.8, §8; in 5.5 size, glottal mark, action meaning; in 5.3 the look-alike result. **Not yet:** anything
->   on Makasar (the PI reads the source of the 38 % first); 5.7 (waits on D4). Etymologies of single forms, hyphens, final
->   *k* and the glottal stop in Muna and Wolio are simply **not written as claims** — no specialist is waited for.
->   The release description is a **draft** (ledger C065).
-> - **For the PI (new today, besides D1–D10):** (1) ⚠ the arXiv *paper password* of the P8 preprint has been in the public
->   git history since April (C061; redacted in the working tree) → ask arXiv for a new one; (2) **D4 has three options**
->   (§10.7; (a) recommended); (3) read the source of the Makasar 38 % before any comparison is written; (4) a note on the
->   second Muna list under Table 1 (recommended).
-> - **A Sulawesi specialist is not a blocker** (recommendation revised 12:00 after the PI asked): forms are printed as ABVD
->   data, "not assessed etymologically"; reviewer 1 is the specialist and will see the revision; G10 = one linguist reads
->   the finished draft during the G14 freeze. Points a specialist could settle if one is at hand (C060): whether Muna and Wolio lack a glottal stop or merely do not write it; final *k*
->   in Sa'dan Toraja; what the hyphen marks in the Bugis and Sa'dan Toraja lists; the numeral compounds; *ma-* in the
->   look-alike pairs; every single lexical example.
-> - **Not done, by design:** no manuscript prose, no response letter, nothing sent or uploaded, no Zenodo, no arXiv. Committed on main at the PI's word (`450aef6` and a small follow-up); not pushed.
+> **2026-10-06, close — P8. START HERE: `docs/HANDOFF_20261006.md` §1, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.**
+> - **Work queue (Claude):** (1) check Gmail for arXiv's reply to the request of 14:14 (new paper password for 2604.00023;
+>   ledger C061). (2) After the PI's decisions D1–D10: adjust the outline to the D4 option; if D8 = yes, start the Word
+>   file. (3) After the PI has written: language check; G1 on the new text (every number against E227–E231); G8/G11
+>   scans; portal metadata (abstract, running title, keywords) matched to the manuscript; then the G14 freeze.
+> - **Waiting on the PI:** D1–D10 (D6, D7, D8 need an explicit yes; D4 has three options, (a) recommended); reading three
+>   pages for the Makasar section (Bellwood 1997: 115, Sirk 1989: 71, Bulbeck et al. 2000: 103 — `REFERENCE_CHECK` Part
+>   D); co-author informed; the note to the editor (his own words; fact list in `docs/correspondence/`); the prose and
+>   the response letter (G16); push; what to do about the git history that still holds the old arXiv paper password.
+> - **What the data show — say no more than this** (work plan §10.7; numbers in `experiments/E231_p8_what_coded_means/`):
+>   "coded in ABVD" is neither one kind of label nor "inherited" (44 Muna forms are coded only through ABVD's second Muna
+>   list; 15.5 % → 35.6 %); **Makasar** has more *uncoded* meanings than Bugis and Sa'dan Toraja — one fact, cause
+>   undecided, a screen does not favour "merely uncoded"; the published 38 % is Blust's count via Bellwood 1997: 115
+>   (same tradition as ABVD, not independent; Sirk 1989 Table 1 is the comparator); **"fewer prefixes" withdrawn, "more"
+>   not established** (not separable from length; glottal mark and action meaning hold); **Tolaki**: look-alikes within
+>   its subgroup, lower side of a thinly coded subgroup, nothing on origin; the **cross-list test** says nothing about a
+>   shared layer; the classifier is a ranking aid (AUC 0.727 / 0.672).
+> - **Can be written from now:** outline §1, §3, §4, 5.1, 5.4, 5.6, 5.8, §8; parts of 5.3 and 5.5 (see the outline's
+>   header). **Not yet:** Makasar (PI reads the three pages first); 5.7 (D4). Claims that would need a Sulawesi
+>   specialist are simply not made — a specialist is **not** a blocker; G10 = one linguist reads the finished draft.
+> - **Done today (two sessions; the first cut off at 08:54):** E229 (tables, Figure 1 — redrawn to the press's image
+>   guidelines, amendment A9), E230, E231 (tables A–H, post hoc P1–P12); corrected `.bib`; `VENUE.md`; the outline; work
+>   plan §10 (10.7 readings, 10.8 browser round); the editor-note fact list; three adversarial reads with three rounds of
+>   correction; six of the reviewer's eight references fetched and the pages read (Sneddon 1993 in JSTOR; Blust 2012 not
+>   accessible, not to be cited); the release description (draft, C065); arXiv support request sent; ledger C052–C065.
+>   Commits `450aef6`, `1e269f3`, `ae14804` + the closing one — **not pushed**.
+> - **Not done, by design:** no manuscript prose, no response letter, nothing uploaded, no Zenodo, no arXiv v2.
 
-> **2026-10-06 — P8: the handoff queue is done; one more defect found on the way.** Start from
+> **2026-10-06, 08:31 (morning session; superseded by the block above wherever they differ) — P8: the handoff queue is done; one more defect found on the way.** Start from
 > `papers/P8_linguistic_fossils/REVISION_OUTLINE_20261006.md` (what each section has to contain, facts only, in Indonesian so
 > that the English is the PI's) and `REVISION_WORKPLAN.md` §10 (what is new since 10-05).
 > - **E229** — tables T1–T7 and Figure 1 for the 25-input model with the form-only model beside it; 75 anchors against
