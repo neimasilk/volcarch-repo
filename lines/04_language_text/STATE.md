@@ -9,8 +9,8 @@
 > notes with the numbers per section, green [Prosa PI] slots; no manuscript sentence) · `RESPONSE_LETTER_SCAFFOLD_v0.2.docx/.md`
 > (facts per reviewer point, corrections table, questions to the editors, checklist) · `references_reviewer_supplied.bib`.
 > Release description completed (C065; Bajo and 42-id choices verified against Glottolog); E231 P13. Old
-> `RESPONSE_TO_REVIEWERS.md` banner: do not use. **PI next:** three Makasar pages → co-author → note to the editor → write
-> in the skeleton → hand each section to me for G1 / G8 / G11 / language.
+> `RESPONSE_TO_REVIEWERS.md` banner: do not use. **Co-author informed (PI, 2026-10-07 ~10:00).** **PI next:** three Makasar
+> pages → note to the editor → write in the skeleton → hand each section to me for G1 / G8 / G11 / language.
 >
 > **2026-10-07 (09:00–09:20) — P8 check session (PI: "read the handoff, focus on the revision, don't widen").** Numbers
 > re-anchored against E228/E229/E231 result files: nothing to correct. **Two guards added (ledger C066; work plan §10.9;

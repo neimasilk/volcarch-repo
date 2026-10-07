@@ -10482,3 +10482,13 @@ plan §10.10 so that the PI can object.
 - Tooling notes: `docx2pdf` (Word) renders a `.docx` here; LibreOffice is not installed; pdftoppm comes with MiKTeX.
   Glottolog's `.newick.txt` for a sub-languoid returns the whole family tree — cut the sub-tree out by bracket matching.
 - Not done, by design: no prose, no letter, no note sent, no deposit, no portal action, no push. Subagents: none.
+
+## 2026-10-07 (10:00) — P8: co-author informed; the PI's three answers
+
+The PI answered the close of the previous block: (1) asked why he must read the three Makasar pages (answer given in
+chat: the project's citation-integrity rule — a reviewer-supplied work is cited only after the author has read the page
+it is cited for; the three pages are exactly what Section 3.2 will cite); (2) **Go Frendi Gunawan informed** — handoff
+§1.3 done; (3) asked for the note to the editor to be done through Playwright and (4) for me to do item 4. My previous
+reply was stopped by a safety classifier and is not reproduced. Before composing any letter or manuscript sentence I
+asked the PI for an explicit waiver of gate G16 (his own rule of 2026-10-02: the PI's own prose for manuscript and
+letters), since that gate and the AI-disclosure statement are his to change, not mine to assume.
