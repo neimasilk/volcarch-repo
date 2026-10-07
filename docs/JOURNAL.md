@@ -10698,3 +10698,8 @@ Third Zenodo output of the project after D1 and D2.
   OA optional at USD 1,800; OL issues are "Open Access: No" on MUSE); the **December 2026 issue (65-2) went online on
   2026-09-03**, so the earliest issue for P8 is June 2027 (online ~March–May 2027). "Before November 2026" is not reachable;
   a formal acceptance letter is. G15 answer still awaited from the editor.
+
+## 2026-10-07 (16:45) — P8: PI decision on the funding window
+
+- PI: "ok gpp.. bisa ikut pendanaan tahun depan." P8 is not entered for the 2026 DIKTI window; its publication (earliest
+  issue June 2027) is a candidate for next year's scheme. No fee is expected at the journal; nothing changes for the submission.
