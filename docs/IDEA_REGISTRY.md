@@ -187,7 +187,7 @@
 | 2. Maritime/Coastal | I-029, I-045, I-054, I-080, I-102, **I-134** |
 | 3. Genetics/DNA | I-028, I-051, I-078, I-079, I-088, I-101 |
 | 5. Ethnobotany | I-008, I-011, I-024, I-072, I-106 |
-| 6. Linguistics | I-003, I-007, I-022, I-023, I-025, I-026, I-027, I-095-I-096, I-103, I-104 |
+| 6. Linguistics | I-003, I-007, I-022, I-023, I-025, I-026, I-027, I-095-I-096, I-103, I-104, I-150, I-151, I-152 |
 | 7. Ritual | I-002, I-042, I-044, I-047, I-055, I-094, I-098 |
 | 8. Mythology | I-004, I-009, I-010, I-021, I-041, I-085, I-086, I-087 |
 | 9. Archaeoastronomy | I-001, I-043, I-112 |
@@ -225,6 +225,28 @@ PI mandate: build ONE new paper as a *decisive, falsifiable* test of a pre-400 C
 | I-149 | Two-mode separation (landscape-clearing vs dispersed forest-garden) bounding the live hypothesis, routing the residual to phytoliths | READY (designed) | E216 graft (genomics design) | E216, E215, Channel 1 |
 
 *Symmetric-value design: the NULL ("a forest-clearing population larger than N* is excluded at 90%") is as publishable as the positive, and the modal outcome (loose bound → "here is the single decisive missing core at Kedu/Brantas") is itself a fundable deliverable. Cures the confirmation-architecture diagnosis (ME#17 R1). Independent of the contaminated spatial/inscription/Pyle-burial substrate that sank P7.*
+
+---
+
+## Session 2026-10-07 — "Senter v2": affix-aware residue screen (registered at the PI's request; no work before P8 R1 is submitted)
+
+Origin: PI's discussion after the P8 revision ("konsep untuk menemukan bahasa kunonya jangan dibuang … pengupasan kata"),
+with his Indonesian morphological segmenter `D:\documents\modern_kata_kupas` (ModernKataKupas v1.0.1: rule-based, affix rules
+in an external JSON, root dictionary, reduplication, reconstruction; M1 frozen, human annotation pending) as the implementation
+template. What P8 established and these ideas build on (E228 release `p8_forms_all.csv`): the P8 look-alike screen already
+ignores up to three leading characters (a blind prefix strip) and that is what finds Tolaki *mo'inu* 'drink' ~ PMP \*inum,
+*mo'ipi* ~ \*hipi, *motaku* ~ \*ma-takut, *mokuni* ~ \*ma-kunij among the 12 Tolaki–PMP look-alikes; prefix-like onsets are
+44.8 % of Tolaki's uncoded forms against 26.7 % of its coded forms (Muna 14.7 / 7.6; the other four lists differ little), and at
+equal letter count the onset no longer separates the two labels (P8 Table 5). The screen recovers only 48 % of the Tolaki forms
+ABVD itself codes with the PMP entry (sound change: \*t > h, \*s > h), so morphology alone is one of three missing layers.
+
+| ID | Title | Maturity | Blocker / next step | Source | Links |
+|----|-------|----------|---------------------|--------|-------|
+| I-150 | **Affix-aware residue screen, Sulawesi pilot** — per-language affix inventories (Tolaki first, from Mead 1998; Muna van den Berg 1989; Makasar Jukes 2020) as ModernKataKupas-style rule JSON; strip, then re-run the PMP/relative screen on stems; pre-registered outcome = additional look-alikes beyond the three-character rule, with coded forms and random prefixes as controls; "no gain" is a valid result (expected gains concentrated in Tolaki, Muna, Wolio). Second layer on the same data: sound-correspondence-aware comparison (LingPy LexStat, partial cognates — List, Lopez & Bapteste 2016) | HYPOTHESIS | **P8 R1 submitted first (forcing function, ME#19).** Then: affix inventories from the grammars (a few days, no new data); root "dictionary" is only ABVD + PMP/PBT reconstructions, so precision must be measured | PI + P8 revision 2026-10-07 | P8, E228, E231, I-022, Channel 6 |
+| I-151 | **The un-derivable layer of Old Javanese** — KawiKupas (I-022) rebuilt on ModernKataKupas (Javanese affixes are close to Indonesian: N-, di-, -ake, -i, -an, ke-an, sa-, pa-), roots checked against Zoetmulder's OJED (digital; Sanskrit loans marked) and PMP via the ACD; what remains is the candidate pre-Austronesian / unknown layer, with medan-makna and phonotactic profile as discriminating predictions and a negative control language. Direct successor of the VOLCARCH pre-400 CE question on the linguistic channel; unlike P16 it is lexicon-level, not convergence-level | SPARK → HYPOTHESIS | I-150 pilot result (does stripping change the residue at all?); OJED access confirmed; P16 unpark conditions re-read before any claim | PI + Claude 2026-10-07 | I-022, I-026, E022, P16 (parked), Channel 6 |
+| I-152 | **Substrate search outside basic vocabulary** — 210 ABVD meanings are the worst place to look for substrate (basic vocabulary resists borrowing; substrate enters through flora, fauna, landscape, material culture). Digitise the large dictionaries (Cense 1979 Makasar, Matthes 1874 Bugis, van den Berg & Sidu 1996 Muna) by OCR + NLP, then run I-150's screen over the full lexicon with the ACD as the Austronesian reference | SPARK | Dictionary scans and their licences; OCR pipeline (PI's strength); Enggano as the cautionary case ("looks non-Austronesian" turned out to be regular sound change) | PI + Claude 2026-10-07 | I-150, P8, Channel 6 |
+
+*Rule for all three: none opens an experiment before the P8 revision is submitted; the first one to open gets the next free E-number and a pre-registered `DESIGN.md` (E217–E223 model). Other candidate languages noted in the discussion: Enggano, Nias, Mentawai, Punan/Penan.*
 
 ---
 

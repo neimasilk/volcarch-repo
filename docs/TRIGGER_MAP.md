@@ -4,7 +4,7 @@
 
 **Convention:** Update this when blockers in IDEA_REGISTRY.md change. Review during weekly Mata Elang.
 
-**Last updated:** 2026-03-22
+**Last updated:** 2026-10-07 (P8 R1 submission trigger added)
 
 ---
 
@@ -305,3 +305,13 @@
 ---
 
 *Scan this file during every Mata Elang review. When a trigger fires, update IDEA_REGISTRY maturity levels and move ideas to READY.*
+
+## Paper-Stage Triggers (added 2026-10-07)
+
+### If: P8 revision R1 submitted to *Oceanic Linguistics* (planned week of 2026-10-12)
+- I-150 → affix-aware residue screen pilot on the six P8 lists may open (next free E-number, pre-registered DESIGN.md)
+- I-151 / I-152 wait for I-150's result
+
+### If: a per-language affix-rule JSON exists for ModernKataKupas (Tolaki, Muna, Makasar, or Javanese)
+- I-022 KawiKupas → buildable on that code base instead of from scratch
+- I-026 Osing substrate → same tool

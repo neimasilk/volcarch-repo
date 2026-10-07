@@ -10669,3 +10669,17 @@ Third Zenodo output of the project after D1 and D2.
 ## 2026-10-07 (15:05) — Handoff penutup
 
 - `docs/HANDOFF_20261007.md` ditulis atas permintaan PI ("buat handoff untuk kita lanjutkan nanti"); `HANDOFF_20261006.md` → `docs/archive/handoffs/`; penunjuk di WORKSTATE, STATE 04 dan memori diperbarui. Kanari hijau 223. Mulai sesi berikutnya dari handoff §1, lalu rencana kerja §10.12.
+
+## 2026-10-07 (15:40) — Ideas registered: "senter v2" (I-150–I-152); focus stays on P8
+
+- PI raised his Indonesian morphological segmenter (`D:\documents\modern_kata_kupas`, ModernKataKupas v1.0.1) and the
+  original motive of P8 (a pre-Austronesian language of Sulawesi) and asked whether affix stripping could sharpen the
+  "searchlight". Checked against the P8 release data: the look-alike screen's three-leading-character rule is already a
+  blind strip and finds Tolaki *mo'inu* ~ \*inum, *mo'ipi* ~ \*hipi, *motaku* ~ \*ma-takut, *mokuni* ~ \*ma-kunij;
+  prefix-like onsets 44.8 % of Tolaki's uncoded vs 26.7 % of its coded forms (Muna 14.7 / 7.6; others differ little; at
+  equal letter count no separation, P8 Table 5); the screen recovers only 48 % of ABVD's own Tolaki–PMP codings, so
+  sound correspondences are the larger missing layer. Assessment given in conversation (three layers: morphology,
+  correspondence-aware comparison, the right vocabulary; four explanations for any residue; Enggano as the cautionary
+  case). **PI: "daftarkan dulu idenya, sekarang fokus P8."** Registered I-150 (Sulawesi pilot, HYPOTHESIS), I-151 (Old
+  Javanese un-derivable layer, successor of I-022/I-026), I-152 (substrate search outside basic vocabulary); TRIGGER_MAP
+  paper-stage trigger; line 04 inbox. No experiment opened. Memory: `project_modern_kata_kupas.md`.

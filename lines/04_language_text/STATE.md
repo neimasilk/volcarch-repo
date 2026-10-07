@@ -192,3 +192,7 @@
   durable-trace/selective-survival evidence of indigenous sophistication but **is not pre-400 CE** —
   the pre-400 angle would need Sembiran/Bali verified. Good material for P5's resilience reframe.
 - `E204` (bronze drums) reframes selective survival and is not yet used in any live manuscript.
+- **[BRIDGE → 04, I-150–I-152] "Senter v2" (2026-10-07, PI):** affix-aware residue screen built on the PI's
+  `D:\documents\modern_kata_kupas` (Sulawesi pilot I-150; Old Javanese un-derivable layer I-151 = KawiKupas successor;
+  substrate search outside basic vocabulary I-152). Registered in `docs/IDEA_REGISTRY.md`; **nothing opens before the P8
+  R1 Submit click** (PI: "sekarang fokus P8").
