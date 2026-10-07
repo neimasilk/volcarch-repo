@@ -17,7 +17,7 @@ Markdown conventions (kept deliberately small):
   [[UNNUMBERED:Heading]]   an unnumbered heading (data availability, AI declaration, acknowledgments)
   *italic*  **bold**       inline; a reconstruction's asterisk is written \\* (e.g. \\*zalan) so it is not read as italics
 """
-import csv, re, subprocess, sys, tempfile
+import csv, json, re, subprocess, sys, tempfile
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from docx import Document
@@ -32,6 +32,8 @@ E231 = REPO / "experiments/E231_p8_what_coded_means/results"
 ANON = "--anon" in sys.argv
 SRC = HERE / "P8_revision_v0.2.md"
 OUT = HERE / ("P8_revision_v0.2_anonymous.docx" if ANON else "P8_revision_v0.2.docx")
+import os
+if os.environ.get("P8_OUT"): OUT = Path(os.environ["P8_OUT"])   # build elsewhere when the target is open in Word
 BASE = HERE / "ol_base.docx"          # the journal's .dotx with its content type changed to a document (see VENUE.md)
 CSL = HERE / "unified-style-sheet-for-linguistics.csl"
 BIBS = [HERE / "references.bib", HERE / "references_reviewer_supplied.bib"]
@@ -84,7 +86,11 @@ def fmt3(x): return rnd(x, 3)
 
 def fmtd(x, nd=3):
     v = rnd(x, nd)
-    return v if v.startswith('-') or float(v) == 0 else '+' + v
+    if float(v) == 0: return v.replace('-', '')
+    return v.replace('-', '\u2212') if v.startswith('-') else '+' + v
+
+def thou(x):
+    return f"{int(x):,}"
 
 # ----------------------------------------------------------------------------- tables from the result files
 NAME = {"Muna": "Muna", "Bugis": "Bugis", "Makassar": "Makasar", "Wolio": "Wolio", "Toraja-Sadan": "Sa'dan Toraja", "Tolaki": "Tolaki"}
@@ -92,7 +98,7 @@ NAME = {"Muna": "Muna", "Bugis": "Bugis", "Makassar": "Makasar", "Wolio": "Wolio
 def T1():
     t1 = rd(E229 / "T1_label_by_list.csv")
     return (["List", "Forms", "Coded (n)", "Coded (%)", "Uncoded (n)", "Uncoded (%)"],
-            [[r["list"], r["forms"], r["coded_n"], f"{float(r['coded_pct']):.1f}", r["candidate_n"], f"{float(r['candidate_pct']):.1f}"] for r in t1])
+            [[r["list"], thou(r["forms"]), r["coded_n"], f"{float(r['coded_pct']):.1f}", r["candidate_n"], f"{float(r['candidate_pct']):.1f}"] for r in t1])
 
 def T2():
     ci = {(r["list"], r["class"]): r for r in rd(E231 / "C_retention_intervals.csv")}
@@ -115,7 +121,7 @@ def T4():
     for r in [x for x in t3 if x["input_set"] == "FM25"]:
         f = next(x for x in t3 if x["input_set"] == "F17" and x["list_key"] == r["list_key"])
         if r["list_key"] == "SUMMARY":
-            rows.append(["Mean (SD) over the six lists", "", "", f"{fmt3(r['auc'])} ({fmt3(r['auc_sd_over_lists'])})", "", f"{fmt3(f['auc'])} ({fmt3(f['auc_sd_over_lists'])})", "", ""])
+            rows.append(["Mean (standard deviation) over the six lists", "", "", f"{fmt3(r['auc'])} ({fmt3(r['auc_sd_over_lists'])})", "", f"{fmt3(f['auc'])} ({fmt3(f['auc_sd_over_lists'])})", "", ""])
         else:
             rows.append([r["list"], r["n"], r["n_candidates"], fmt3(r["auc"]), fmt3(r["accuracy"]), fmt3(f["auc"]), fmt3(f["accuracy"]), fmt3(r["accuracy_majority_answer"])])
     return (["Held-out list", "n", "Uncoded", "AUC (F+M)", "Acc. (F+M)", "AUC (F)", "Acc. (F)", "Majority"], rows)
@@ -139,7 +145,7 @@ def T5():
     return (["Property", "Uncoded", "Coded", "Same sign (of 6)", "Effect type", "Effect [95% CI]", "At equal letter count §"], rows)
 
 def T6():
-    rows = [[r["list"], r["n"], r["candidate_and_profile"], r["candidate_and_no_profile"], r["coded_and_profile"], r["coded_and_no_profile"], f"{float(r['kappa']):.2f}"] for r in rd(E229 / "T5_cells_by_list.csv")]
+    rows = [[r["list"], thou(r["n"]), r["candidate_and_profile"], r["candidate_and_no_profile"], r["coded_and_profile"], r["coded_and_no_profile"], f"{float(r['kappa']):.2f}"] for r in rd(E229 / "T5_cells_by_list.csv")]
     return (["List", "n", "Uncoded, profile", "Uncoded, no profile", "Coded, profile", "Coded, no profile", "Kappa"], rows)
 
 def T7():
@@ -158,8 +164,12 @@ def T8():
     names = {"V0_as_published": "As in the sources (ʔ or apostrophe)", "V1_q": "Mark written as q", "V2_k": "Mark written as k",
              "V3_unwritten": "Mark left unwritten", "V4_geminate": "Pre-glottalised consonant written as a geminate",
              "V5_all_as_glottal_letter": "Apostrophe written as ʔ (changes no input)", "V6_feature_removed": "Glottal input removed"}
-    g = rd(E228 / "TABLE_R1-9_glottal_conventions.csv"); base_cv = float(fmt3(g[0]["cv_auc_25"])); base_lo = float(fmt3(g[0]["lolo_mean_25"]))
-    rows = [[names[r["convention"]], r["forms_changed"], fmt3(r["cv_auc_25"]), fmtd(float(fmt3(r["cv_auc_25"])) - base_cv), fmt3(r["lolo_mean_25"]), fmtd(float(fmt3(r["lolo_mean_25"])) - base_lo)]
+    g = rd(E228 / "TABLE_R1-9_glottal_conventions.csv")
+    s1 = json.load(open(E228 / "S1_glottal_conventions.json", encoding="utf-8"))
+    def lolo_mean(k):
+        v = s1[k]["lolo_25"]; return sum(v.values()) / len(v)
+    base_lo = lolo_mean("V0_as_published")
+    rows = [[names[r["convention"]], r["forms_changed"], fmt3(r["cv_auc_25"]), fmtd(r["delta_cv_25"]), fmt3(lolo_mean(r["convention"])), fmtd(lolo_mean(r["convention"]) - base_lo)]
             for r in g]
     return (["Convention", "Forms changed", "AUC, cross-validated", "Δ", "AUC, held-out list (mean)", "Δ"], rows)
 
@@ -206,6 +216,21 @@ def main():
         if not el.tag.endswith("}sectPr"):
             body.remove(el)
 
+    # The template's odd-page header holds the words "Oceanic Linguistics Template" inside a table cell; replace that
+    # text node with the running head (the even-page header carries the journal's volume line and stays).
+    WT = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t"
+    for sec in d.sections:
+        for hdr in (sec.header, sec.first_page_header, sec.even_page_header):
+            try:
+                for t in hdr._element.iter(WT):
+                    if t.text and "template" in t.text.lower():
+                        t.text = meta.get("RUNNINGHEAD", meta["TITLE"])
+            except Exception:
+                pass
+    d.core_properties.title = meta["TITLE"]
+    d.core_properties.author = "" if ANON else "; ".join(a.split("|")[0].strip() for a in meta["AUTHOR"])
+    d.core_properties.last_modified_by = ""
+    d.core_properties.comments = ""
     para(d, meta["TITLE"], "OL article title")
     if ANON:
         para(d, "[Authors anonymised for review]", "OL author name")
@@ -228,6 +253,7 @@ def main():
             if ANON:
                 t = re.sub(r"https://github\.com/\S+", "[repository URL redacted for review]", t)
                 t = t.replace("https://doi.org/[DOI]", "[DOI redacted for review]")
+                t = re.sub(r"https://doi\.org/10\.5281/zenodo\.\d+", "[data DOI redacted for review]", t)
             para(d, t, "OL text" if first_after_heading else "OL text indented")
             first_after_heading = False
             paragraph_buf = []
@@ -237,9 +263,9 @@ def main():
         if s == "":
             flush(); i += 1; continue
         if s.startswith("## "):
-            flush(); para(d, s[3:].rstrip(".") + ".", "OL heading B-level"); first_after_heading = True; i += 1; continue
+            flush(); para(d, s[3:].rstrip(".") + ("" if s.rstrip().endswith("?") else "."), "OL heading B-level"); first_after_heading = True; i += 1; continue
         if s.startswith("# "):
-            flush(); para(d, s[2:].rstrip(".") + ".", "OL heading A-level"); first_after_heading = True; i += 1; continue
+            flush(); para(d, s[2:].rstrip(".") + ("" if s.rstrip().endswith("?") else "."), "OL heading A-level"); first_after_heading = True; i += 1; continue
         m = re.match(r"^\[\[UNNUMBERED:(.+?)\]\]$", s)
         if m:
             flush(); para(d, m.group(1).upper(), "OL references heading"); first_after_heading = True; i += 1; continue
@@ -255,19 +281,28 @@ def main():
                 header, rows, sd = spec; notes = notes + ["Standard deviation of the AUC over the ten repetition means / over the fifty test sets: " + sd + "."]
             else:
                 header, rows = spec
+            if name == "T7" and any("‡" in str(c) for row in rows for c in row):
+                notes = notes + ["‡ = flagged as a loan by ABVD."]
             table(d, cap, header, rows, notes)
             first_after_heading = False
             i = j; continue
         m = re.match(r"^\[\[FIGURE:(\d+)\|(.+?)\]\]$", s)
         if m:
             flush(); para(d, m.group(2), "OL caption")
-            p = para(d, f"[Figure {m.group(1)} about here — separate file]", "OL text");
+            FIG = {"1": "F1_input_importance.png", "2": "F2_workflow.png", "3": "F3_pmp_classes.png", "4": "F4_heldout_auc.png", "5": "F5_glottal_by_list.png"}
+            png = E229 / FIG.get(m.group(1), "none.png")
+            if not ANON and png.exists():
+                # reading copy only: the journal wants the figure as a separate file, which is uploaded beside the article
+                pp = d.add_paragraph(style="OL text"); pp.add_run().add_picture(str(png), width=Pt(312))
+                p = para(d, f"[Figure {m.group(1)}: preview for reading; the journal receives the separate TIFF file]", "OL text")
+            else:
+                p = para(d, f"[Figure {m.group(1)} about here — separate file]", "OL text")
             for r in p.runs: r.font.highlight_color = WD_COLOR_INDEX.YELLOW
             para(d, "", "OL 3pt separator"); first_after_heading = False; i += 1; continue
         if s == "[[REFERENCES]]":
             flush(); para(d, "REFERENCES", "OL references heading")
             for entry in references(keys):
-                e = entry
+                e = entry.replace(" & ", " and ").replace("languages. revised.", "languages. Revised edition.")
                 if ANON: e = re.sub(r"https://github\.com/\S+", "[repository URL redacted]", e)
                 para(d, e, "OL reference list")
             i += 1; continue

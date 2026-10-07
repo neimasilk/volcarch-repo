@@ -10595,3 +10595,27 @@ pressed Publish. Record https://zenodo.org/records/23202245, DOI 10.5281/zenodo.
 Zenodo's citation: "Amien, M., & Gunawan, G. F. (2026). Uncoded basic vocabulary … (Version 1.0) [Dataset]. Zenodo."
 DOI inserted into the manuscript's data statement; release README and metadata file updated; Word files rebuilt.
 Third Zenodo output of the project after D1 and D2.
+
+## 2026-10-07 (12:30) — P8: second correction pass, journal conventions, four new figures
+
+- **Verifier (Sonnet) on the first correction pass:** all 14 fixes confirmed; 16 residuals (7 content, 9 format). Applied:
+  "two data files" wording; "lower bound on the share ABVD would count as retained" instead of "retention"; the
+  Tolaki "recur" wording and the reviewer mention removed from the text; Table 6 note explains the 0.727 vs 0.719
+  accuracy (scores averaged over repetitions); 2.6 and the Limitations now name the same pre-stated analyses (three-class
+  count, look-alike screens, permutation test, spelling tests); Table 8 deltas computed from the 4-decimal CV deltas
+  and from per-list held-out means in the S1 JSON (no more double rounding); the nasal interval printed as 0.70 in text
+  and table alike (stored 0.695); American spelling throughout (judgment, license, recognized, …); "table 2 / figure 1 /
+  section 3" lowercase mid-sentence; serial comma in three-author names; CLDF, SHAP, AI, CI defined; "&" → "and" and
+  the "revised." glitch in the reference list; headings ending in "?" no longer get a period; thousands separators and a
+  real minus sign in tables; the running head written into the odd-page header (the template's "Oceanic Linguistics
+  Template" replaced); document properties cleared / set; the Zenodo DOI redacted in the anonymised file (it names the
+  authors). Remaining copy-editing items left to the journal: italics for titles in the reference list, the
+  "In … (ed.)" form, page-range abbreviation, acknowledgments as a first footnote.
+- **Figures.** The PI asked why the revision has no figures ("gambar dan grafik itu diperlukan untuk pembaca"). Three of
+  the four submitted figures illustrated withdrawn results and are gone; the journal wants figures as separate files.
+  Four new figures were drawn from the result files (E229 amendment A10, `07_figures_revision.py`): F2 workflow diagram
+  (end of 2.6), F3 three classes of PMP meanings (3.2), F4 held-out AUC per list (3.4), F5 glottal mark by list (3.6);
+  Figure 1 (SHAP bars) kept. The named reading copy embeds PNG previews; the anonymised upload copy carries position
+  markers, and the five TIFFs are uploaded separately. Cover letter: "24 pages, eight tables and five figures".
+- Builder: `P8_OUT` environment override added (Word held the named file open on the PI's screen); figure embedding by
+  number. Preview PDF kept beside the Word files (`P8_revision_v0.2_preview.pdf`).

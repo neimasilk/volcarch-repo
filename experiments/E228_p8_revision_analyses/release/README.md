@@ -1,4 +1,4 @@
-# Description of the two data files
+# Description of the data files
 
 > **Status 2026-10-07: DEPOSITED and published at Zenodo — DOI 10.5281/zenodo.23202245 (version 1.0; concept DOI 10.5281/zenodo.23202244; six files, 275.5 kB).** This copy of the README is the one in the deposit except for this status line. Completed earlier the same day (ledger C065). Done today: deposit metadata (section 0);
 > name concordance (section 1); the two analyst choices and their basis (section 5, checked against Glottolog on

@@ -202,3 +202,15 @@ the final version (see `papers/P8_linguistic_fossils/VENUE.md`), so they are a c
 `independent_check.json`, `independent_comparison.csv`, `N1_final_consonant_by_list.csv`, `run_log.txt`,
 `N2_action_meaning_by_form.csv`, `run_log_first_run_stopped.txt`. · `04_final_consonant_by_list.py` (note N1) ·
 `05_action_meaning_by_form.py` (note N2).
+
+## Amendment A10 (2026-10-07) — four further figures for the revision: `07_figures_revision.py`
+
+At the PI's request ("gambar, diagram dan ilustrasi diperlukan untuk pembaca"), four figures were drawn from stored result
+files only, to the press's image guidelines (greyscale, ≤ 312 pt wide, 1,000 dpi LZW TIFF, Arial): **F2** the workflow of
+the study (text boxes and arrows; no data); **F3** the three classes of meanings with a PMP entry for six lists, from
+`E228/results/TABLE_R1-2_retention_by_language.csv` (the numbers of the article's Table 2); **F4** AUC for a held-out list,
+both input sets, with the chance line, from `results/T3_lolo.csv` (Table 4); **F5** share of forms with a written glottal
+mark, uncoded against coded, by list, from `E231/results/P13_glottal_by_list.csv`. Anchors asserted in the script
+(Makasar 39.3 / 25.9 / 34.8; Tolaki held-out 0.809 / 0.760; Tolaki glottal 21.6 / 0.0) and recorded in
+`results/F2_F5_anchors.json`. Widths: F2 312, F3 312 (resampled from 316 by 1.3 %), F4 311, F5 284 pt. Outputs
+`results/F{2..5}_*.{tif,png,pdf}` (`*.tif` git-ignored). Figure 1 unchanged (A9).
