@@ -18,6 +18,7 @@ Markdown conventions (kept deliberately small):
   *italic*  **bold**       inline; a reconstruction's asterisk is written \\* (e.g. \\*zalan) so it is not read as italics
 """
 import csv, re, subprocess, sys, tempfile
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from docx import Document
 from docx.shared import Pt
@@ -75,7 +76,15 @@ def table(d, caption, header, rows, notes=()):
         para(d, n, "OL text", size=8)
     para(d, "", "OL 3pt separator")
 
-def fmt3(x): return f"{float(x):.3f}"
+def rnd(x, nd):
+    q = Decimal(1).scaleb(-nd)
+    return str(Decimal(str(x)).quantize(q, rounding=ROUND_HALF_UP))
+
+def fmt3(x): return rnd(x, 3)
+
+def fmtd(x, nd=3):
+    v = rnd(x, nd)
+    return v if v.startswith('-') or float(v) == 0 else '+' + v
 
 # ----------------------------------------------------------------------------- tables from the result files
 NAME = {"Muna": "Muna", "Bugis": "Bugis", "Makassar": "Makasar", "Wolio": "Wolio", "Toraja-Sadan": "Sa'dan Toraja", "Tolaki": "Tolaki"}
@@ -88,7 +97,7 @@ def T1():
 def T2():
     ci = {(r["list"], r["class"]): r for r in rd(E231 / "C_retention_intervals.csv")}
     def cell(lst, cls):
-        r = ci[(lst, cls)]; return f"{100*float(r['share']):.1f} [{100*float(r['ci_lo']):.1f}, {100*float(r['ci_hi']):.1f}] ({r['n']})"
+        r = ci[(lst, cls)]; return f"{rnd(100*int(r['n'])/int(r['base']), 1)} [{rnd(100*float(r['ci_lo']), 1)}, {rnd(100*float(r['ci_hi']), 1)}] ({r['n']})"
     rows = []
     for key in ("Makassar", "Bugis", "Toraja-Sadan", "Wolio", "Muna", "Tolaki"):
         rows.append([NAME[key], ci[(key, "uncoded")]["base"], cell(key, "retained_from_PMP"), cell(key, "coded_not_PMP"), cell(key, "uncoded")])
@@ -112,6 +121,9 @@ def T4():
     return (["Held-out list", "n", "Uncoded", "AUC (F+M)", "Acc. (F+M)", "AUC (F)", "Acc. (F)", "Majority"], rows)
 
 def T5():
+    p3 = {r["contrast"]: r for r in rd(E231 / "P3_length_conditioned.csv") if r["strata"] == "list x number of letters"}
+    eq = {"has_glottal": "written glottal mark", "sem_ACTION": "action meaning", "has_prefix_like": "onset string",
+          "has_nasal_cluster": "nasal input as coded", "n_consonant_clusters": ">= 1 consonant-letter cluster"}
     rows = []
     for r in rd(E229 / "T6_profile.csv"):
         if r["type"] == "0/1":
@@ -119,8 +131,12 @@ def T5():
         else:
             a, b = f"{float(r['mean_candidate']):.2f}", f"{float(r['mean_coded']):.2f}"; et = "mean difference †"
         eff = float(r["effect"]); sign = "+" if (r["type"] != "0/1" and eff > 0) else ""
-        rows.append([r["property"], a, b, r["n_lists_same_sign_as_pooled"], et, f"{sign}{eff:.2f} [{float(r['ci_lo']):.2f}, {float(r['ci_hi']):.2f}]"])
-    return (["Property", "Uncoded", "Coded", "Same sign (of 6)", "Effect type", "Effect [95% CI]"], rows)
+        if r["property_key"] in eq:
+            q = p3[eq[r["property_key"]]]; eqv = f"{rnd(q['odds_ratio'], 2)} [{rnd(q['ci_lo'], 2)}, {rnd(q['ci_hi'], 2)}]"
+        else:
+            eqv = "—"
+        rows.append([r["property"], a, b, r["n_lists_same_sign_as_pooled"], et, f"{sign}{rnd(eff, 2)} [{rnd(r['ci_lo'], 2)}, {rnd(r['ci_hi'], 2)}]", eqv])
+    return (["Property", "Uncoded", "Coded", "Same sign (of 6)", "Effect type", "Effect [95% CI]", "At equal letter count §"], rows)
 
 def T6():
     rows = [[r["list"], r["n"], r["candidate_and_profile"], r["candidate_and_no_profile"], r["coded_and_profile"], r["coded_and_no_profile"], f"{float(r['kappa']):.2f}"] for r in rd(E229 / "T5_cells_by_list.csv")]
@@ -142,8 +158,9 @@ def T8():
     names = {"V0_as_published": "As in the sources (ʔ or apostrophe)", "V1_q": "Mark written as q", "V2_k": "Mark written as k",
              "V3_unwritten": "Mark left unwritten", "V4_geminate": "Pre-glottalised consonant written as a geminate",
              "V5_all_as_glottal_letter": "Apostrophe written as ʔ (changes no input)", "V6_feature_removed": "Glottal input removed"}
-    rows = [[names[r["convention"]], r["forms_changed"], fmt3(r["cv_auc_25"]), f"{float(r['delta_cv_25']):+.3f}", fmt3(r["lolo_mean_25"]), f"{float(r['delta_lolo_25']):+.3f}"]
-            for r in rd(E228 / "TABLE_R1-9_glottal_conventions.csv")]
+    g = rd(E228 / "TABLE_R1-9_glottal_conventions.csv"); base_cv = float(fmt3(g[0]["cv_auc_25"])); base_lo = float(fmt3(g[0]["lolo_mean_25"]))
+    rows = [[names[r["convention"]], r["forms_changed"], fmt3(r["cv_auc_25"]), fmtd(float(fmt3(r["cv_auc_25"])) - base_cv), fmt3(r["lolo_mean_25"]), fmtd(float(fmt3(r["lolo_mean_25"])) - base_lo)]
+            for r in g]
     return (["Convention", "Forms changed", "AUC, cross-validated", "Δ", "AUC, held-out list (mean)", "Δ"], rows)
 
 TABLES = {"T1": T1, "T2": T2, "T3": T3, "T4": T4, "T5": T5, "T6": T6, "T7": T7, "T8": T8}
@@ -231,11 +248,11 @@ def main():
             flush(); name, cap = m.group(1), m.group(2)
             notes = []
             j = i + 1
-            while j < len(body_lines) and body_lines[j].strip()[:1] in ("†", "‡", "§"):
+            while j < len(body_lines) and (body_lines[j].strip()[:1] in ("†", "‡", "§") or body_lines[j].strip().startswith("Note.")):
                 notes.append(body_lines[j].strip()); j += 1
             spec = TABLES[name]()
             if name == "T3":
-                header, rows, sd = spec; notes = notes + ["§ Standard deviation of the AUC over the ten repetition means / over the fifty folds: " + sd + "."]
+                header, rows, sd = spec; notes = notes + ["Standard deviation of the AUC over the ten repetition means / over the fifty test sets: " + sd + "."]
             else:
                 header, rows = spec
             table(d, cap, header, rows, notes)

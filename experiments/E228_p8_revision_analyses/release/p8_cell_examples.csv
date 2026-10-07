@@ -1,0 +1,93 @@
+cell,scope,language,concept,form,abvd_form_id,cognacy,p_candidate_oof25,on_E022_15_concept_list,abvd_loan_flag,pmp_forms,pmp_cognate_codes,pan_forms,pan_cognate_codes,shares_code_with_pmp,shares_code_with_pmp_certain_only,sulawesi_lookalike_distance,sulawesi_lookalike_list,sulawesi_lookalike_form,bungku_tolaki_lookalike_distance,bungku_tolaki_lookalike_list,bungku_tolaki_lookalike_form
+candidate & no profile,all six,Makassar,road/path,agaŋ,166-6_roadpath-1,,0.02,0,0,*zalan,1,*zalan,1,0,0,0.5,Bantik,daleŋ,,,
+candidate & no profile,all six,Toraja-Sadan,mouth,sadaŋ,226-30_mouth-1,,0.037,0,0,*baqbaq,1,*ŋusu,2,0,0,0.5,Banggai (W.dialect),baba,,,
+candidate & no profile,all six,Wolio,rat,bokoti,192-102_rat-1,,0.056,0,0,*labaw,1,*labaw,1,0,0,0.0,Banggai (W.dialect),bukoti,,,
+candidate & no profile,all six,Wolio,thatch/roof,pada,192-62_thatchroof-1,,0.056,0,0,*qatep,1,*Cawali,2,0,0,0.25,Tae' (S.Toraja),papa,,,
+candidate & no profile,all six,Toraja-Sadan,rotten,bosi,226-112_rotten-1,,0.061,0,0,*ma-buʀuk ; *ma-busuk,1 ; 56,*ma-buʀaq,1,0,0,0.0,Kulisusu,moɓosi,,,
+candidate & no profile,Bugis,Bugis,meat/flesh,juku,48-103_meatflesh-1,,0.081,0,0,*hesi ; *isi,1 ; 31,*Sesi ; *isi,1 ; 31,0,0,0.667,Gorontalo (Hulondalo),tapu,,,
+candidate & no profile,Bugis,Bugis,Eight,arua,48-204_eight-1,,0.086,0,0,,,*walu,3,,,0.0,Tae' (S.Toraja),karua,,,
+candidate & no profile,Bugis,Bugis,cloud,əlluŋ,48-131_cloud-1,,0.099,1,0,*ʀabun,1,*lemlem,2,0,0,0.333,Tontemboan,kambuŋ,,,
+candidate & no profile,Makassar,Makassar,road/path,agaŋ,166-6_roadpath-1,,0.02,0,0,*zalan,1,*zalan,1,0,0,0.5,Bantik,daleŋ,,,
+candidate & no profile,Makassar,Makassar,fish,jukuʔ,166-111_fish-1,,0.07,0,0,*hikan,1,*Sikan,1,0,0,0.333,Uma (Kantewu dialect),uru,,,
+candidate & no profile,Makassar,Makassar,that,añjo,166-178_that-2,,0.107,0,0,*i na,1,,,0,0,0.5,Buginese (Soppeng Dialect),ia-ro,,,
+candidate & no profile,Muna,Muna,back,towu,27-13_back-1,,0.083,0,0,*likud,1,*likud,1,0,0,0.5,Mori,torulu,,,
+candidate & no profile,Muna,Muna,One Thousand,riwu,27-210_onethousand-1,,0.089,1,0,,,,,,,0.0,Tontemboan,mariwu,,,
+candidate & no profile,Muna,Muna,"to cut, hack",aebhera,27-78_tocuthack-1,,0.126,0,0,*taʀaq ; *tektek,1 ; 3,*taʀaq ; *tektek,1 ; 3,0,0,0.5,Tae' (S.Toraja),tara,,,
+candidate & no profile,Tolaki,Tolaki,wing,kae,674-100_wing-1,,0.061,0,0,*kapak ; *panid,1 ; 2,*paNid,2,0,0,0.25,Kulisusu,kaβe,0.25,Kulisusu,kaβe
+candidate & no profile,Tolaki,Tolaki,Four,omba,674-200_four-1,,0.071,0,0,*epat,1,*Sepat,1,0,0,0.0,Mori Atas (Doule),oomba,0.0,Mori Atas (Doule),oomba
+candidate & no profile,Tolaki,Tolaki,mouth,pondu,674-30_mouth-1,,0.084,0,0,*baqbaq,1,*ŋusu,2,0,0,0.0,Mori Atas (Doule),pindu,0.0,Mori Atas (Doule),pindu
+candidate & no profile,Toraja-Sadan,Toraja-Sadan,mouth,sadaŋ,226-30_mouth-1,,0.037,0,0,*baqbaq,1,*ŋusu,2,0,0,0.5,Banggai (W.dialect),baba,,,
+candidate & no profile,Toraja-Sadan,Toraja-Sadan,rotten,bosi,226-112_rotten-1,,0.061,0,0,*ma-buʀuk ; *ma-busuk,1 ; 56,*ma-buʀaq,1,0,0,0.0,Kulisusu,moɓosi,,,
+candidate & no profile,Toraja-Sadan,Toraja-Sadan,Six,annan,226-202_six-1,,0.069,0,0,,,*enem,1,,,0.2,Makassar,annaŋ,,,
+candidate & no profile,Wolio,Wolio,rat,bokoti,192-102_rat-1,,0.056,0,0,*labaw,1,*labaw,1,0,0,0.0,Banggai (W.dialect),bukoti,,,
+candidate & no profile,Wolio,Wolio,thatch/roof,pada,192-62_thatchroof-1,,0.056,0,0,*qatep,1,*Cawali,2,0,0,0.25,Tae' (S.Toraja),papa,,,
+candidate & no profile,Wolio,Wolio,sky,bula,192-128_sky-2,,0.066,0,0,*laŋit,1,*laŋiC,1,0,0,0.5,Buol,guluŋ,,,
+candidate & profile,all six,Tolaki,to cry,umi'ia,674-34_tocry-1,,0.963,0,0,*taŋis,1,*Caŋis,1,0,0,0.0,Kodeoha,miʔia,0.0,Kodeoha,miʔia
+candidate & profile,all six,Tolaki,to see,ki'ii,674-46_tosee-1,,0.953,1,0,*kita,1,*kita,1,0,0,0.25,Mori Bawah (Bahano),moŋkii,0.25,Mori Bawah (Bahano),moŋkii
+candidate & profile,all six,Makassar,to think,ammikkiriʔ,166-21_tothink-1,,0.946,0,1,*demdem,13,*-ajem ; *nemnem,1 ; 28,0,0,0.167,Popalia,ɸikiri,,,
+candidate & profile,all six,Tolaki,"to cut, hack",pole'i,674-78_tocuthack-1,,0.942,0,0,*taʀaq ; *tektek,1 ; 3,*taʀaq ; *tektek,1 ; 3,0,0,0.2,Mori,mompole,0.2,Mori,mompole
+candidate & profile,all six,Tolaki,"to know, be knowledgeable",to'ori,674-20_toknowbeknowledgeable-1,,0.937,0,0,*taqu,1,*bajaq,2,0,0,0.0,Mori,toʔori,0.0,Mori,toʔori
+candidate & profile,Bugis,Bugis,to hide,maʔkasubbu,48-171_tohide-1,,0.877,0,0,*buni,1,*buNi,1,0,0,0.667,Wolio,buniaka,,,
+candidate & profile,Bugis,Bugis,short,ma-poncoʔ,48-154_short-1,,0.746,0,0,*ma-babaq,54,,,0,0,0.4,Wolio,mampodo,,,
+candidate & profile,Bugis,Bugis,"to open, uncover",timpaʔ,48-92_toopenuncover-1,,0.684,0,0,*buka,1,,,0,0,0.5,Bantik,bika,,,
+candidate & profile,Makassar,Makassar,to think,ammikkiriʔ,166-21_tothink-1,,0.946,0,1,*demdem,13,*-ajem ; *nemnem,1 ; 28,0,0,0.167,Popalia,ɸikiri,,,
+candidate & profile,Makassar,Makassar,to dream,assoʔna,166-50_todream-1,,0.87,0,0,*hipi,"1,42",*Sepi,1,0,0,0.5,Banggai (W.dialect),ulumon,,,
+candidate & profile,Makassar,Makassar,"to tie up, fasten",aññikkoʔ,166-66_totieupfasten-1,,0.869,0,0,*hiket,1,,,0,0,0.5,Bantik,ikiʔ,,,
+candidate & profile,Muna,Muna,wife,mie no lambu,27-58_wife-1,,0.678,0,0,*qasawa,1,,,0,0,0.375,Tolaki (Asera),pekombu,,,
+candidate & profile,Muna,Muna,husband,mie no lambu,27-57_husband-1,,0.614,0,0,*bana ; *qasawa,1 ; 2,,,0,0,0.375,Tolaki (Asera),pekombu,,,
+candidate & profile,Muna,Muna,how?,pedahai,27-194_how-1,,0.584,0,0,*kuja ; *kua,1 ; 1,*kuja ; *numa,1 ; 2,0,0,0.25,Wasambua dialect of Cia-Cia,mbahae,,,
+candidate & profile,Tolaki,Tolaki,to cry,umi'ia,674-34_tocry-1,,0.963,0,0,*taŋis,1,*Caŋis,1,0,0,0.0,Kodeoha,miʔia,0.0,Kodeoha,miʔia
+candidate & profile,Tolaki,Tolaki,to see,ki'ii,674-46_tosee-1,,0.953,1,0,*kita,1,*kita,1,0,0,0.25,Mori Bawah (Bahano),moŋkii,0.25,Mori Bawah (Bahano),moŋkii
+candidate & profile,Tolaki,Tolaki,"to cut, hack",pole'i,674-78_tocuthack-1,,0.942,0,0,*taʀaq ; *tektek,1 ; 3,*taʀaq ; *tektek,1 ; 3,0,0,0.2,Mori,mompole,0.2,Mori,mompole
+candidate & profile,Toraja-Sadan,Toraja-Sadan,to blow,pamurruʔ,226-137_toblow-1,,0.863,1,0,*hiup,1,*Siup,1,0,0,0.4,Andio,momuur,,,
+candidate & profile,Toraja-Sadan,Toraja-Sadan,Fifty,limaŋpulo,226-208_fifty-1,,0.816,0,0,,,,,,,0.111,Buginese (Soppeng Dialect),limappulo,,,
+candidate & profile,Toraja-Sadan,Toraja-Sadan,One Thousand,saŋsaʔbu,226-210_onethousand-1,,0.791,1,0,,,,,,,0.0,Makassar,sisaʔbu,,,
+candidate & profile,Wolio,Wolio,cloud,ta'ina ŋalu,192-131_cloud-1,,0.833,1,0,*ʀabun,1,*lemlem,2,0,0,0.429,Bantik,binaba,,,
+candidate & profile,Wolio,Wolio,all,maliŋu,192-191_all-2,,0.76,0,0,*amin,1,*amin,1,0,0,0.4,Bungku,saluɸu,,,
+candidate & profile,Wolio,Wolio,"to cut, hack",laelae,192-78_tocuthack-2,,0.743,0,0,*taʀaq ; *tektek,1 ; 3,*taʀaq ; *tektek,1 ; 3,0,0,0.5,Tolaki,pole,,,
+coded & no profile,all six,Tolaki,thatch/roof,ato,674-62_thatchroof-1,1,0.007,0,0,*qatep,1,*Cawali,2,1,1,0.0,Muna (Katobu-Tongkuno Dialect),ghato,0.0,Mori,ato
+coded & no profile,all six,Muna,father,ama,27-60_father-1,1,0.008,0,0,*t-ama,1,*t-ama,1,1,1,0.0,Banggai (W.dialect),tama,,,
+coded & no profile,all six,Tolaki,father,ama,674-60_father-1,1,0.009,0,0,*t-ama,1,*t-ama,1,1,1,0.0,Banggai (W.dialect),tama,0.0,Mori,ama
+coded & no profile,all six,Tolaki,child,ana,674-56_child-1,1,0.009,0,0,*anak,1,*aNak,1,1,1,0.0,Bantik,anaʔ,0.0,Mori,ana
+coded & no profile,all six,Muna,child,ana,27-56_child-1,1,0.009,0,0,*anak,1,*aNak,1,1,1,0.0,Bantik,anaʔ,,,
+coded & no profile,Bugis,Bugis,dog,asu,48-96_dog-1,1,0.011,0,0,*asu,1,*asu ; *wasu,1 ; 1,1,1,0.0,Banggai (W.dialect),asu,,,
+coded & no profile,Bugis,Bugis,stick/wood,aju,48-79_stickwood-1,1,0.012,0,0,*kahiw,1,*kaSiw,1,1,1,0.0,Bare'e,kaju,,,
+coded & no profile,Bugis,Bugis,leg/foot,aje,48-4_legfoot-1,1?,0.017,0,0,*qaqay,1,*qaqay,1,1,0,0.333,Wolio,ae,,,
+coded & no profile,Makassar,Makassar,right,kanaŋ,166-3_right-1,"1,73",0.016,0,0,*ka-wanan,"1,62",*ka-wanaN,"1,62",1,1,0.2,Tontemboan,kanan,,,
+coded & no profile,Makassar,Makassar,liver,atɛ,166-17_liver-1,1,0.02,0,0,*qatay,1,*qaCay,1,1,1,0.333,Banggai (W.dialect),ate,,,
+coded & no profile,Makassar,Makassar,child,anaʔ,166-56_child-1,1,0.026,0,0,*anak,1,*aNak,1,1,1,0.0,Bantik,anaʔ,,,
+coded & no profile,Muna,Muna,father,ama,27-60_father-1,1,0.008,0,0,*t-ama,1,*t-ama,1,1,1,0.0,Banggai (W.dialect),tama,,,
+coded & no profile,Muna,Muna,child,ana,27-56_child-1,1,0.009,0,0,*anak,1,*aNak,1,1,1,0.0,Bantik,anaʔ,,,
+coded & no profile,Muna,Muna,night,alo,27-167_night-2,25,0.01,0,0,*beʀŋi,1,*beʀŋi,1,0,0,0.0,Wolio,malo,,,
+coded & no profile,Tolaki,Tolaki,thatch/roof,ato,674-62_thatchroof-1,1,0.007,0,0,*qatep,1,*Cawali,2,1,1,0.0,Muna (Katobu-Tongkuno Dialect),ghato,0.0,Mori,ato
+coded & no profile,Tolaki,Tolaki,father,ama,674-60_father-1,1,0.009,0,0,*t-ama,1,*t-ama,1,1,1,0.0,Banggai (W.dialect),tama,0.0,Mori,ama
+coded & no profile,Tolaki,Tolaki,child,ana,674-56_child-1,1,0.009,0,0,*anak,1,*aNak,1,1,1,0.0,Bantik,anaʔ,0.0,Mori,ana
+coded & no profile,Toraja-Sadan,Toraja-Sadan,dog,asu,226-96_dog-1,1,0.01,0,0,*asu,1,*asu ; *wasu,1 ; 1,1,1,0.0,Banggai (W.dialect),asu,,,
+coded & no profile,Toraja-Sadan,Toraja-Sadan,liver,ate,226-17_liver-1,1,0.018,0,0,*qatay,1,*qaCay,1,1,1,0.0,Banggai (W.dialect),ate,,,
+coded & no profile,Toraja-Sadan,Toraja-Sadan,spider,laa,226-110_spider-1,1,0.019,0,0,*lawaq,1,*kakaCu,2,1,1,0.25,Buol,borelaa,,,
+coded & no profile,Wolio,Wolio,father,ama,192-60_father-1,1,0.01,0,0,*t-ama,1,*t-ama,1,1,1,0.0,Banggai (W.dialect),tama,,,
+coded & no profile,Wolio,Wolio,child,ana,192-56_child-1,1,0.012,0,0,*anak,1,*aNak,1,1,1,0.0,Bantik,anaʔ,,,
+coded & no profile,Wolio,Wolio,leg/foot,ae,192-4_legfoot-1,1,0.015,0,0,*qaqay,1,*qaqay,1,1,1,0.0,Kioko,aʔe,,,
+coded & profile,all six,Wolio,red,male'i,192-149_red-1,1,0.92,1,0,*ma-iʀaq,1,*ma-taNah,2,1,1,0.0,Uma (Kantewu dialect),mo-lei,,,
+coded & profile,all six,Wolio,near,marampi,192-179_near-2,25,0.872,0,0,*ma-azani,"1,35",*ma-azaNih,"1,35",0,0,0.0,Kumbewaha,motampi,,,
+coded & profile,all six,Wolio,to say,pogau,192-64_tosay-1,24,0.865,1,0,*kaʀi ; *tutur,1 ; 2,,,0,0,0.0,Muna (Katobu-Tongkuno Dialect),apogau,,,
+coded & profile,all six,Bugis,to hear,mar-eŋkaliŋa,48-44_tohear-1,"1,81",0.821,0,0,*deŋeʀ,1,*tumaNa,2,1,1,0.625,Wuna,feteŋke,,,
+coded & profile,all six,Muna,wind,kawea,27-136_wind-1,30,0.789,0,0,*haŋin,1,*bali,2,0,0,0.2,Kambowa,kaβea,,,
+coded & profile,Bugis,Bugis,to hear,mar-eŋkaliŋa,48-44_tohear-1,"1,81",0.821,0,0,*deŋeʀ,1,*tumaNa,2,1,1,0.625,Wuna,feteŋke,,,
+coded & profile,Bugis,Bugis,dirty,ma-rotaʔ,48-10_dirty-1,24,0.783,0,0,*cemed,26,,,0,0,0.429,Wolio,marombu,,,
+coded & profile,Bugis,Bugis,narrow,ma-cikkəʔ,48-158_narrow-1,1?,0.769,0,0,*kepit,48,,,0,0,0.5,Soboyo,riki,,,
+coded & profile,Makassar,Makassar,fat/grease,jamɛʔjamɛʔ,166-104_fatgrease-1,2,0.767,0,0,*meñak ; *himaʀ ; *miñak,"1,65 ; 2 ; 1",*Simaʀ,2,1,1,0.571,Buol,lamak,,,
+coded & profile,Makassar,Makassar,to hear,allaŋŋɛrɛʔ,166-44_tohear-1,1,0.767,0,0,*deŋeʀ,1,*tumaNa,2,1,1,0.667,Wolio,raŋo,,,
+coded & profile,Makassar,Makassar,worm (earthworm),gallaŋgallaŋ,166-107_wormearthworm-1,15,0.747,0,0,*kalati ; *qali-wati,"1,69 ; 1",*kulay,2,0,0,0.222,Lasalimu,ŋgalaŋgala,,,
+coded & profile,Muna,Muna,wind,kawea,27-136_wind-1,30,0.789,0,0,*haŋin,1,*bali,2,0,0,0.2,Kambowa,kaβea,,,
+coded & profile,Muna,Muna,night,korondoha,27-167_night-1,26,0.69,0,0,*beʀŋi,1,*beʀŋi,1,0,0,0.333,Kioko,xondo,,,
+coded & profile,Muna,Muna,flower,kambea,27-116_flower-1,21?,0.629,0,0,*buŋa,1,,,0,0,0.0,Kambowa,kambea,,,
+coded & profile,Tolaki,Tolaki,to eat,kaa,674-37_toeat-1,1,0.729,0,0,*kaen,1,*kaen,1,1,1,0.0,Mori,moŋkaa,0.0,Mori,moŋkaa
+coded & profile,Tolaki,Tolaki,to walk,molako,674-5_towalk-1,1,0.607,0,0,*lakaw ; *paNaw,1 ; 2,*Nakaw,1,1,1,0.0,Kaidipang,morʔako,0.0,Bungku,lumolako
+coded & profile,Tolaki,Tolaki,to swim,lumangu,674-9_toswim-1,1,0.524,0,0,*laŋuy ; *naŋuy,"1 ; 1,45",*Naŋuy,1,1,1,0.2,Ponosakan,(lo)languy,0.2,Proto-Bungku-Tolaki,"*(l,n)anguy"
+coded & profile,Toraja-Sadan,Toraja-Sadan,near,dappiʔ,226-179_near-1,25?,0.734,0,0,*ma-azani,"1,35",*ma-azaNih,"1,35",0,0,0.25,Wolio,marampi,,,
+coded & profile,Toraja-Sadan,Toraja-Sadan,you,kamu,226-186_you-1,1,0.7,0,0,*i-kamu ; *kamiu,"1 ; 1,13",*i-kamu,1,1,1,0.0,Buol,kamu,,,
+coded & profile,Toraja-Sadan,Toraja-Sadan,to walk,liŋka,226-5_towalk-1,20,0.675,0,0,*lakaw ; *paNaw,1 ; 2,*Nakaw,1,0,0,0.0,Wolio,liŋka,,,
+coded & profile,Wolio,Wolio,red,male'i,192-149_red-1,1,0.92,1,0,*ma-iʀaq,1,*ma-taNah,2,1,1,0.0,Uma (Kantewu dialect),mo-lei,,,
+coded & profile,Wolio,Wolio,near,marampi,192-179_near-2,25,0.872,0,0,*ma-azani,"1,35",*ma-azaNih,"1,35",0,0,0.0,Kumbewaha,motampi,,,
+coded & profile,Wolio,Wolio,to say,pogau,192-64_tosay-1,24,0.865,1,0,*kaʀi ; *tutur,1 ; 2,,,0,0,0.0,Muna (Katobu-Tongkuno Dialect),apogau,,,

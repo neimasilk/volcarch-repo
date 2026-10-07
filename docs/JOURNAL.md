@@ -10503,3 +10503,82 @@ goes first without waiting for an answer; title and spelling decided (*Makasar*;
 The three Makasar pages: assembled into `pages_for_PI/P8_TIGA_HALAMAN_MAKASAR_untuk_PI.pdf` (cover sheet + Bellwood
 1997: 115, Sirk 1989: 71, Bulbeck et al. 2000: 103; each page checked visually by me) and opened on the PI's screen; his
 reading not yet confirmed — Section 3.2's citations rest on my reading until he says otherwise.
+
+## 2026-10-07 (10:36) — P8: note to the editor SENT through the portal (D7 done)
+
+The PI preferred the journal's submission system over an e-mail reply. He logged in to the portal in the Playwright
+window (the login-page URL he pasted carried a session key; not recorded); from the manuscript page I opened "Send
+Manuscript Correspondence": From amien@ubhinus.ac.id (pre-filled by the portal), recipient "Editorial Assistant" (the only
+option), subject "Oceanic Linguistics: OL-03-2026-11 - a note from the authors before we revise", body = the note of
+`docs/correspondence/EMAIL_OL_EDITOR_P8_NOTE_20261007.md` (4,027 characters, verified in the form before sending). The PI
+ticked the reCAPTCHA; I pressed "Send & Return to Manuscript" at his word; the portal returned "Email sent" at 10:36 WIB.
+Earlier the same note had been opened in inspect mode in the campus Gmail (`gmail_compose_send.py` without `--send`,
+screenshot checked: Workspace account) — not sent there; the leftover compose draft is to be removed with
+`gmail_drafts_audit.py`. The "Revise Manuscript" link (4-step upload) was not opened. Decision D7 closed; G15 and the three
+practical questions wait for the editor's answer.
+
+## 2026-10-07 (10:40) — P8: draft v0.2 of the revision written and built; two independent reads returned
+
+- **Manuscript source** `papers/P8_linguistic_fossils/revision_v0.2/P8_revision_v0.2.md` (about 8,900 words; abstract 158
+  words; sections per the outline; 24 cited works) → `build_docx.py` → `P8_revision_v0.2.docx` (OL template; 24 pages as
+  rendered with docx2pdf; 8 tables filled from the result files; Figure 1 position marked) and an anonymised twin.
+  Reference list by pandoc with the Unified Style Sheet CSL (kept beside the builder with the template base `ol_base.docx`).
+- **Cover letter + response to the reviewers** `COVER_AND_RESPONSE_v0.2.md/.docx` (9 pp.): R1 opening + 13, R2 1–24,
+  Part C corrections by the authors, Part D three questions.
+- **Number trace (Sonnet):** 186 statement rows / 481 numbers; 459 match; 7 mismatches (learning rate not default;
+  class weighting true for XGBoost only; Sa'dan Toraja within-list AUC 0.668 not 0.669; nasal interval lower bound 0.69;
+  action forms longer in five of six lists; "92 candidates" are example rows of all four cells; the release has no
+  form-only score column); 1 not found (the reviewer's "30.1 %" exists only second-hand — sentence removed); 14 loose
+  descriptions; four table cells with double rounding.
+- **Adversarial read (Opus):** numbers sound and the withdrawn readings absent; 5 HIGH (cognacy read off the screen in
+  two places; class-weighting sentence false; text promises files not in the deposit; AI declaration beyond the record),
+  17 MEDIUM (Mills/Bulbeck placement; van den Berg's Celebic membership; R1-12 misread; "a count previous counts did not
+  give"; 62 % complement not answered; list-identity baseline not compared; an untested use recommended; Table 8
+  manipulations misdescribed; hyphen interval; pre-stated rules stated inconsistently; "recur"; kappa undefined; too
+  many "earlier version"/reviewer references; 45 numbers in two paragraphs; "neither case means non-Austronesian";
+  "moderate strength"/0.65), LOW wording. Verdict: honest to the data; not yet honest about methods, deposit and
+  authorship; one correction pass then a check of the changed sentences.
+- **Verified before correcting:** `01_tables.py` uses class_weight="balanced" for the random forest and the logistic
+  regression; E228 `geminate()` deletes every mark and doubles a following consonant; Mead 2003 (PDF text) names
+  Tomini-Tolitoli, Kaili-Pamona, Saluan-Banggai, Bungku-Tolaki, Muna-Buton and Wotu-Wolio as Celebic and excludes South
+  Sulawesi; ABVD's notes: the Bugis list has additions from Fachruddin Ambo Enre and Mills (1975), the Tolaki list's
+  apostrophe is a glottal stop and the data are Konawe dialect; E231 `P3_length_conditioned.csv` holds the equal-length
+  odds ratios (added to Table 5 as a column).
+
+## 2026-10-07 (11:05) — P8: correction pass applied to draft v0.2 (all HIGH/MEDIUM findings and the 7 mismatches)
+
+Applied in one pass (`scratchpad/fix_ms.py`, 60 exact replacements, 0 failures; builder and release patched too):
+- **Methods:** XGBoost "300 trees, depth four, learning rate 0.05, no class weighting"; random forest and logistic
+  regression "classes weighted equally", with the Table 3 consequence stated; SHAP explained in a sentence; folds
+  stratified; bootstrap interval described around the pooled 0.737; decision rules stated once in 2.6 for the
+  three-class count, the permutation test and the spelling tests (same day, same analyst, not registered).
+- **Cognacy never read off the screen:** the seven Tolaki matches are "the clearest candidates for coding gaps … the match
+  is the screen's"; the conclusion's "would find their sets" replaced; "recur" replaced by look-alike wording with the
+  chance rate (abstract too); "ceiling" → "upper bound" throughout.
+- **Literature sentences:** Makasar "with Konjo and Selayar" as the most divergent part of the group (Mills 1975:491; Sirk
+  1989:71); substratum "raised and left open (Bulbeck 1992)"; no pre-Austronesian substratum attributed to Mills;
+  Celebic: proposed by van den Berg (1996), membership per Mead (2003) as verified in the PDF text; the 62 % "open to
+  investigation" answered as the complement of a retention count (R1-2); Blust 2012:556 sentence rewritten (R1-12) and
+  the remark about what the reviewer's report contains removed; the "30.1 %" sentence removed (second-hand only).
+- **Numbers:** Sa'dan Toraja within-list AUC 0.668; nasal 0.95 [0.69, 1.30]; action forms longer in five of six lists;
+  "92 example rows (73 forms, coded and uncoded)"; 68 pairs attributed to the 159 non-numeral profile forms; "about one
+  thirtieth (comparing the excesses)"; sixteen lists = 8 Sulawesi + 6 western + 2 eastern; hyphen interval printed and
+  "the data do not show that there is no difference"; Table 8 text distinguishes q from k and describes the geminate
+  variant as "unwritten but doubling a following consonant"; Table 2 shares recomputed from counts and all table
+  numbers rounded half-up (removes the double-rounding cells the tracer found); Table 5 gained a column "At equal letter
+  count §" from E231 P3.
+- **Deposit (H4):** three files copied into `experiments/E228_p8_revision_analyses/release/` — `p8_makasar_uncoded_meanings.csv`
+  (70 rows), `p8_tolaki_pmp_lookalikes.csv` (12), `p8_cell_examples.csv` (92) — described in README sections 8–10 and in
+  `ZENODO_METADATA.md`; the data statement lists exactly what the deposit holds (the 26-input score column named for what
+  it is; no form-only column claimed).
+- **AI declaration (H5):** sources "located and read with AI assistance"; the authors "approved the design choices and
+  the withdrawal of the earlier claims, reviewed the text, and take responsibility"; "no statement rests on an
+  etymological judgement, by an AI system or by the authors"; the decimal-numeral remark named as an observation.
+  ⚠ "reviewed the text" binds the PI to read the final file before upload.
+- **Discussion:** "ranking aid" without "moderate strength"; the recommended use replaced by "whether that ranking helps a
+  specialist has not been tested"; Makasar paragraph = "a decomposition … and a screen"; Tolaki paragraph aligned;
+  limitations paragraph on pre-stated rules made consistent; conclusion "in neither list does the absence of a number
+  by itself indicate non-Austronesian origin", "could reduce the dependence on notation".
+- Abstract 159 words; 24 pages rendered; no "%" or "&" in the prose. Letter (`COVER_AND_RESPONSE_v0.2.md/.docx`) updated
+  for the deposit contents, the 62 % answer and the R1-12 wording. Verification agent (Sonnet) launched on the 14 fixes
+  plus a template-compliance checklist. Gmail drafts audited: no leftover draft of the note.

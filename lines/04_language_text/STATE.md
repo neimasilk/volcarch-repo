@@ -6,6 +6,10 @@
 > one adversarial read + G1 trace replaces the 14-day rest; G10 not met (risk stated); then submit** — ledger C067, work
 > plan §10.11. Order: note to the editor → manuscript (`revision_v0.2/P8_revision_v0.2.md` → `build_docx.py` → OL
 > template) → cover + response letter → trace + skeptic read → Zenodo (PI login) → portal (PI login) → G12 → records.
+> **10:36 — D7 done:** note to the editor sent through the portal's correspondence form (PI: login + CAPTCHA; Claude:
+> text + Send). Draft v0.2 built (24 pp.); number trace (481 numbers: 7 small mismatches) and adversarial read (5 high,
+> 17 medium) returned → **correction pass applied 11:05** (all HIGH/MEDIUM + 7 mismatches; deposit gets three more files;
+> AI declaration aligned with the record); verification agent running; next Zenodo (PI login) → portal upload (PI login) → G12.
 >
 > **2026-10-07 (09:21–09:45) — P8: material finished on the PI's go-ahead ("lakukan yg perlu dilakukan"; work plan §10.10).**
 > Read as: carry out D1–D6, D8, D9 on the material; D7, D10 and all prose stay the PI's (G16). **Ready in `revision_v0.2/`:**

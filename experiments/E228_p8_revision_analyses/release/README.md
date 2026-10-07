@@ -17,7 +17,7 @@
 | Licence | CC BY 4.0 — the same licence as ABVD, from which the forms, cognate-set numbers, loan flags and names are copied; the derived columns (scores, distances, cells) are released under the same licence |
 | How to cite | Amien, Mukhlis & Go Frendi Gunawan. [year]. *[title above]* (Version 1.0) [Data set]. Zenodo. https://doi.org/[DOI] — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
 | Related publication | the article in *Oceanic Linguistics* (manuscript OL-03-2026-11), to be linked once published |
-| Files | `p8_forms_all.csv` (1,357 rows), `p8_candidates.csv` (438 rows), this `README.md` |
+| Files | `p8_forms_all.csv` (1,357 rows), `p8_candidates.csv` (438 rows), `p8_makasar_uncoded_meanings.csv` (70 rows), `p8_tolaki_pmp_lookalikes.csv` (12 rows), `p8_cell_examples.csv` (92 rows), this `README.md` (sections 8–10 describe the three smaller files) |
 | Code | the scripts that built the files and the analyses that use them are in the public project repository, folder `experiments/E228_p8_revision_analyses/` (and E227, E229–E231): [repository URL] |
 
 
@@ -126,3 +126,15 @@ They record how Table 1 of the submitted manuscript was built. The revised analy
 Muna 34, Bugis 62, Makassar 80, Wolio 83, Tae' 45, Tolaki 134 (438 of 1,357 forms).
 
 Single forms in these files have not been assessed by a specialist.
+
+## 8. `p8_makasar_uncoded_meanings.csv` — the 70 uncoded Makasar meanings (added 2026-10-07)
+
+One row per meaning for which the Makasar list has a form but no cognate-set number and the meaning has a PMP entry (70 of the 201 meanings compared in Section 3.2 of the article). Built by `experiments/E231_p8_what_coded_means/02_posthoc_checks.py` (table P9). Columns: `meaning` (ABVD label); `makasar_forms` (the Makasar form or forms, as recorded); `pmp_forms` (ABVD's Proto-Malayo-Polynesian entry or entries for the meaning, with their asterisks); `bugis_class` and `toraja_class` — how the Bugis and the Tae'/Sa'dan Toraja form of the same meaning is coded (`in_PMP_set`, `coded_other`, `uncoded`, or empty when the list has no form); `bugis_forms`, `toraja_forms` (those forms, with ABVD's set number in square brackets). Purpose: inspection by anyone able to judge whether a Makasar form is a cognate the coders missed or another word. No row has been assessed by a specialist.
+
+## 9. `p8_tolaki_pmp_lookalikes.csv` — twelve uncoded Tolaki forms that resemble the PMP entry (added 2026-10-07)
+
+The twelve forms of Section 3.3 of the article (of 128 uncoded Tolaki forms whose meaning has a PMP entry; about two are expected by chance). Built by `experiments/E231_p8_what_coded_means/01_tabulations.py` (table D). Columns: `abvd_form_id`; `tolaki_form`; `meaning`; `pmp_form` (ABVD's PMP entry); `distance` (the stem-tolerant normalised edit distance of section 5, 0.34 or less); `distance_le_0.25` (1 if the strict threshold is also met); `tolaki_form_is_loan_flagged` (ABVD's loan flag). A resemblance by this measure may be a coding gap, a chance resemblance or a loan; the file does not say which.
+
+## 10. `p8_cell_examples.csv` — the example pool behind Table 7 of the article (added 2026-10-07)
+
+92 rows (73 different forms) built by `experiments/E229_p8_revision_tables/01_tables.py`: for each of the four cells of the label-by-score table, the forms the 25-input model scores most extremely (`scope` = `all six` for the pool over all lists, otherwise per list), with ABVD's cognate-set number, the loan flag, the PMP and PAn entries of the meaning and their set numbers, whether the form shares a set with the PMP entry, and the nearest look-alikes of section 5. Because the rows are chosen by the classifier's score, they illustrate its inputs by construction; they are not evidence for any reading of the profile, and no form has been assessed etymologically.

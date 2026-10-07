@@ -40,8 +40,13 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > sitting (title, abstract content, name of the G10 reader).
 > **10-07 (09:21–09:45):** the PI said "lakukan yg perlu dilakukan" → D1–D6, D8, D9 carried out on the material (work plan
 > **§10.10**): Word skeleton in the OL template (`revision_v0.2/P8_revision_v0.2_skeleton.docx`, eight tables, references),
-> response-letter scaffold (`RESPONSE_LETTER_SCAFFOLD_v0.2.docx`), release description completed (C065), E231 P13. No prose,
-> no letter, nothing sent. **Waiting on the PI: three Makasar pages; co-author; the note to the editor (D7); then the writing.**
+> response-letter scaffold (`RESPONSE_LETTER_SCAFFOLD_v0.2.docx`), release description completed (C065), E231 P13.
+> **10:15 — PI waives G16** (ledger C067): Claude writes the revision and the letters; one adversarial read + G1 trace
+> replaces the 14-day rest; G10 not met (stated). **10:36 — D7 DONE: the note to the editor was sent through the portal's
+> "Send Manuscript Correspondence" form** (PI logged in and ticked the CAPTCHA; `docs/correspondence/EMAIL_OL_EDITOR_P8_NOTE_20261007.md`).
+> Draft v0.2 of the manuscript (OL template, 24 pp.) and the cover-and-response letter exist; two independent reads
+> returned (481 numbers traced, 7 small mismatches; 5 high / 17 medium wording findings) → correction pass, then Zenodo
+> (PI login) → portal upload (PI login) → G12.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >

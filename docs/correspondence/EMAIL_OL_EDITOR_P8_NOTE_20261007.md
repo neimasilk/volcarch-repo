@@ -1,7 +1,11 @@
 # Note to the editor of *Oceanic Linguistics* before the P8 revision is written (decision D7) — text for sending
 
-**Status:** drafted 2026-10-07 by Claude on the PI's instruction of the same morning (G16 waived for P8, ledger C067);
-**not yet sent** — shown to the PI first. Facts from `EMAIL_OL_EDITOR_P8_NOTE_DRAFT_20261006.md` (A1–A10); decisions as
+**Status: SENT 2026-10-07, 10:36 WIB**, through the portal's "Send Manuscript Correspondence" form on the manuscript page
+(recipient: Editorial Assistant — the only recipient the form offers; From: amien@ubhinus.ac.id; subject "Oceanic
+Linguistics: OL-03-2026-11 - a note from the authors before we revise"; no attachment; the portal confirmed "Email sent").
+The PI chose the portal over an e-mail reply ("korespondensi lewat sistem submisi"), logged in and ticked the CAPTCHA;
+Claude filled the form and pressed Send on his word. Text as below, with the salutation to Professor Adelaar kept
+(the assistant forwards). Drafted the same morning by Claude on the PI's instruction (G16 waived for P8, ledger C067). Facts from `EMAIL_OL_EDITOR_P8_NOTE_DRAFT_20261006.md` (A1–A10); decisions as
 of 2026-10-07 (D1–D6, D8, D9 carried out; D4 = option (a)).
 **Channel:** reply to the decision e-mail of 2026-10-05 (sender oceanicl@uhpress.org, subject "Decision Letter for
 OL-03-2026-11"), from the PI's university address, with `tools/mail/gmail_compose_send.py` (new message to that address,
@@ -38,5 +42,5 @@ Universitas Bhinneka Nusantara
 
 ## After sending
 
-Record the date here, in `docs/WORKSTATE.md` §1 and in the line STATE. The editor's answer stays in the mailbox (paraphrase
+Sent 2026-10-07 10:36 WIB (recorded in `docs/WORKSTATE.md`, the line STATE and JOURNAL). The editor's answer stays in the mailbox (paraphrase
 in the repo); the answer to the charges question closes G15 ("e-mail editor, date").
