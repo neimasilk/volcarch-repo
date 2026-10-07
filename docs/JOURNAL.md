@@ -10665,3 +10665,7 @@ Third Zenodo output of the project after D1 and D2.
   decision letter of 5 Oct gives no deadline (WORKSTATE). **Submit NOT pressed.** all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks).
   The submission checklist for next week is `REVISION_WORKPLAN.md` §10.12.
 - Scratch files of the check (downloaded PDFs, contact sheets) stay outside the repo.
+
+## 2026-10-07 (15:05) — Handoff penutup
+
+- `docs/HANDOFF_20261007.md` ditulis atas permintaan PI ("buat handoff untuk kita lanjutkan nanti"); `HANDOFF_20261006.md` → `docs/archive/handoffs/`; penunjuk di WORKSTATE, STATE 04 dan memori diperbarui. Kanari hijau 223. Mulai sesi berikutnya dari handoff §1, lalu rencana kerja §10.12.
