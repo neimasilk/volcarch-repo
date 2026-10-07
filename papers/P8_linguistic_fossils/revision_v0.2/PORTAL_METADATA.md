@@ -2,8 +2,8 @@
 
 Prepared 2026-10-07. The portal still carries the submitted abstract (438 "candidate substrate forms", AUC 0.763, "fewer canonical prefixes", 266 "high-confidence" forms, the geographic sentence), the old running title and seven keywords; all of these are replaced at resubmission. Files uploaded: Article File = `P8_revision_v0.2_anonymous.docx` (anonymised, as for the first submission; data DOI and repository URL redacted in that file only); Figures (five separate TIFF files, in `experiments/E229_p8_revision_tables/results/`) = `F1_input_importance.tif`, `F2_workflow.tif`, `F3_pmp_classes.tif`, `F4_heldout_auc.tif`, `F5_glottal_by_list.tif`; Author Cover Letter = `COVER_AND_RESPONSE_v0.2.docx`.
 
-**Title**
-Uncoded basic vocabulary in six Sulawesi word lists: What the absence of a cognate-set assignment in the Austronesian Basic Vocabulary Database does and does not show
+**Title** (the portal allows at most 18 words; the long subtitle of the draft was dropped on 2026-10-07 and the manuscript title aligned)
+Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database
 
 **Running title** (short)
 Uncoded basic vocabulary in six Sulawesi word lists

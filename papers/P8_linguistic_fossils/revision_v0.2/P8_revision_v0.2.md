@@ -1,4 +1,4 @@
-TITLE: Uncoded basic vocabulary in six Sulawesi word lists: What the absence of a cognate-set assignment in the Austronesian Basic Vocabulary Database does and does not show
+TITLE: Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database
 RUNNINGHEAD: Uncoded basic vocabulary in six Sulawesi word lists
 AUTHOR: Mukhlis Amien | Universitas Bhinneka Nusantara
 AUTHOR: Go Frendi Gunawan | Universitas Bhinneka Nusantara

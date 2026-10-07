@@ -10619,3 +10619,26 @@ Third Zenodo output of the project after D1 and D2.
   markers, and the five TIFFs are uploaded separately. Cover letter: "24 pages, eight tables and five figures".
 - Builder: `P8_OUT` environment override added (Word held the named file open on the PI's screen); figure embedding by
   number. Preview PDF kept beside the Word files (`P8_revision_v0.2_preview.pdf`).
+
+## 2026-10-07 (13:15) — P8: revision R1 prepared in the portal (not yet submitted); G12 passed; title shortened
+
+- **Title.** The portal's title field allows about 18 words; the draft's 27-word title with its subtitle was cut to
+  "Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database" (14 words) in the
+  manuscript, the letter and the portal notes; running title "Uncoded basic vocabulary in six Sulawesi word lists".
+  Word files rebuilt; the anonymised file redacts the Zenodo DOI (it names the authors) and the repository URL.
+- **Portal (revision OL-03-2026-11R1), PI logged in, Claude drove the form:** Files step — uploaded `P8_revision_v0.2_anonymous.docx`
+  (Article File), five TIFFs (Figure 1–5, captions entered, black and white), `COVER_AND_RESPONSE_v0.2.docx` twice (Author
+  Cover Letter and Revision Summary, a file type the portal offers for the point-by-point response); the first uploads
+  (old title) were replaced by deleting the rows and uploading the rebuilt files. Title step — title, running title,
+  abstract (159 words), notes for the editors (what each file is; the note of 7 Oct; the title change; Zenodo). Author
+  Information unchanged. Keywords — seven new keywords; subject areas kept. Detailed Information — no conflict, no dual
+  publication; manuscript comment names the arXiv preprint (to be replaced after the decision) and the Zenodo deposit.
+  The drag-and-drop reorder of the file list did not take; the figures sit above the article in the list (harmless).
+- **G12 before submission:** every uploaded file re-downloaded through the logged-in session and hashed in the browser:
+  SHA-256 prefixes identical to the local files for all eight (article 60,106 bytes; letter 21,786 bytes twice; the five
+  TIFFs). The portal stores the bytes unchanged.
+- **Visual check of what is uploaded:** contact sheets of all 24 pages of the anonymised article and the 9 pages of the
+  letter rendered and looked at — no overflow, tables within the margins, figure position markers in place, running head
+  correct. The PI noticed overflowing text on the divider pages of my reading package (`P8_revision_v0.2_FULL_PACKAGE.pdf`,
+  not an uploaded file); fixed in `_FULL_PACKAGE_v2.pdf` (text boxes instead of free text).
+- **Not done:** the Submit button. The PI reads the package first ("kasih ke saya pdf lengkap dulu sebelum saya submit").
