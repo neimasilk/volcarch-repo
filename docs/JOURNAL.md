@@ -10492,3 +10492,14 @@ it is cited for; the three pages are exactly what Section 3.2 will cite); (2) **
 reply was stopped by a safety classifier and is not reproduced. Before composing any letter or manuscript sentence I
 asked the PI for an explicit waiver of gate G16 (his own rule of 2026-10-02: the PI's own prose for manuscript and
 letters), since that gate and the AI-disclosure statement are his to change, not mine to assume.
+
+## 2026-10-07 (10:15) — P8: the PI waives G16; Claude writes the revision; one review pass; then submit
+
+**PI:** the data are with Claude, so the decision is Claude's; AI is the project's leverage and is disclosed openly;
+write the revision, review once more, and if it holds, submit. Co-author informed earlier. Decisions taken and recorded
+(ledger C067; work plan §10.11): G16 waived for P8 (AI-drafted prose, author-reviewed, declared); G14 replaced by an
+adversarial read + G1 number trace of the finished draft; G10 not met (stated as a risk); the note to the editor (D7)
+goes first without waiting for an answer; title and spelling decided (*Makasar*; title on uncoded basic vocabulary).
+The three Makasar pages: assembled into `pages_for_PI/P8_TIGA_HALAMAN_MAKASAR_untuk_PI.pdf` (cover sheet + Bellwood
+1997: 115, Sirk 1989: 71, Bulbeck et al. 2000: 103; each page checked visually by me) and opened on the PI's screen; his
+reading not yet confirmed — Section 3.2's citations rest on my reading until he says otherwise.

@@ -1,7 +1,12 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-07 (09:45) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
+**Updated:** 2026-10-07 (10:15) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
 
+> **2026-10-07 (10:15) — P8: the PI waives G16 ("AI adalah leverage kita"); Claude writes the revision and the letters;
+> one adversarial read + G1 trace replaces the 14-day rest; G10 not met (risk stated); then submit** — ledger C067, work
+> plan §10.11. Order: note to the editor → manuscript (`revision_v0.2/P8_revision_v0.2.md` → `build_docx.py` → OL
+> template) → cover + response letter → trace + skeptic read → Zenodo (PI login) → portal (PI login) → G12 → records.
+>
 > **2026-10-07 (09:21–09:45) — P8: material finished on the PI's go-ahead ("lakukan yg perlu dilakukan"; work plan §10.10).**
 > Read as: carry out D1–D6, D8, D9 on the material; D7, D10 and all prose stay the PI's (G16). **Ready in `revision_v0.2/`:**
 > `P8_revision_v0.2_skeleton.docx` (journal template; outline structure; eight tables from the result files; Figure 1

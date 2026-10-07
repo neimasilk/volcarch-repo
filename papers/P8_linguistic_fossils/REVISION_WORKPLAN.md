@@ -515,3 +515,28 @@ Zenodo deposit; no portal action; no arXiv; no push. **What the PI does next, in
 pages (`pages_for_PI/`), 15 minutes; (2) Go Frendi Gunawan informed; (3) the note to the editor from the fact list; (4)
 write in the skeleton, section by section, deleting the yellow notes as each is used; (5) tell me when a section is
 written — I run G1 on it (every number against E227–E231), the G8/G11 scans and the language check.
+
+### 10.11 The PI's decision of 2026-10-07 (about 10:15) and the plan to submission
+
+**The PI's words (paraphrased):** the data are with Claude, so the decision is Claude's; AI is this project's leverage and
+its use is not hidden (he cannot read Sulawesi languages, the AI can); write the revision, review it once more, and if it
+holds, submit it. Earlier the same morning: the co-author is informed; the three Makasar pages were assembled into one
+PDF and opened on his screen (not yet confirmed read).
+
+**Decisions taken by the controller on that basis (ledger C067):**
+1. **G16 is waived for P8.** The manuscript prose, the response letter and the note to the editor are written by Claude
+   and read by the PI; the AI declaration states that the text was drafted with AI assistance and reviewed by the
+   authors (the submitted version already said as much).
+2. **G14 (14-day rest) is replaced** by an independent adversarial read of the finished draft plus a number trace (G1)
+   of every figure in the text against E227–E231 — the project's own pattern of 10-06, applied once more before upload.
+3. **G10 is not met** (no human linguist reads the draft before resubmission); reviewer 1, a specialist in these
+   languages, will read it. Recorded as a risk, not hidden.
+4. **D7 first, without waiting:** the note to the editor goes out today (text shown to the PI before sending; he has
+   said "kita lakukan dengan Playwright"); the writing proceeds in parallel; the cover letter at resubmission restates
+   the note and the editor's answer, if any, closes G15 and the three practical questions.
+5. **Title and spelling:** *Makasar* (reviewer's preference, Glottolog); the title names uncoded basic vocabulary in
+   ABVD, not "phonological" or "detection".
+6. **Order:** note → manuscript source (`revision_v0.2/P8_revision_v0.2.md`, built into the OL template by
+   `revision_v0.2/build_docx.py`) → cover letter + response letter → number trace + adversarial read → corrections →
+   Zenodo deposit of the release files (PI logs in; DOI into the data statement) → portal upload (PI logs in; metadata
+   rewritten) → re-download and compare (G12) → records.
