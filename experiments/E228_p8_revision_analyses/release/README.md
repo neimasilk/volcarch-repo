@@ -1,16 +1,29 @@
-# Description of the two data files — DRAFT, not ready for deposit
+# Description of the two data files
 
-> **Before deposit (for the PI; added 2026-10-06 after an adversarial read):** (1) authors, date, version, licence of
-> the deposit and how to cite it; (2) a name concordance (this file uses ABVD's list names — Makassar, Buginese, Tae' —
-> and the paper may not); (3) the reason why the lists named "Bajo" were left out of the Sulawesi comparison, and on
-> what basis the 42 list ids were taken to be Bungku-Tolaki — neither was recorded when the analysis was written;
-> (4) the paths to scripts below point into the project repository and need a URL; (5) section 3 was drafted by an AI
-> agent from the project's results and is to be rewritten by the author in his own words; (6) the columns were
-> verified against the data (all scores and distances reproduce), single forms were not assessed by a specialist.
+> **Status 2026-10-07: completed for the PI's reading before deposit** (ledger C065). Done today: deposit metadata (section 0);
+> name concordance (section 1); the two analyst choices and their basis (section 5, checked against Glottolog on
+> 2026-10-07); repository URL placeholders; section 3 reduced to a factual description of the columns. Still the PI's:
+> read the whole file; fill the two `[…]` placeholders (repository URL, DOI); decide the version number and the date of
+> deposit; confirm the author list. Single forms were not assessed by a specialist.
+
+## 0. Deposit metadata
+
+| Field | Value |
+|---|---|
+| Title | Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release for the article [title of the revised article] |
+| Authors | Mukhlis Amien (Universitas Bhinneka Nusantara; ORCID 0000-0002-1848-167X) and Go Frendi Gunawan — *to be confirmed by both authors* |
+| Version | 1.0 (first deposit; the version of the files is the one described here, written 2026-10-05 from ABVD snapshot `917c5a5`) |
+| Date | [date of deposit] |
+| Licence | CC BY 4.0 — the same licence as ABVD, from which the forms, cognate-set numbers, loan flags and names are copied; the derived columns (scores, distances, cells) are released under the same licence |
+| How to cite | Amien, Mukhlis & Go Frendi Gunawan. [year]. *[title above]* (Version 1.0) [Data set]. Zenodo. https://doi.org/[DOI] — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
+| Related publication | the article in *Oceanic Linguistics* (manuscript OL-03-2026-11), to be linked once published |
+| Files | `p8_forms_all.csv` (1,357 rows), `p8_candidates.csv` (438 rows), this `README.md` |
+| Code | the scripts that built the files and the analyses that use them are in the public project repository, folder `experiments/E228_p8_revision_analyses/` (and E227, E229–E231): [repository URL] |
+
 
 `p8_forms_all.csv` has 1,357 rows, one for every form in six ABVD word lists. `p8_candidates.csv` has the 438 rows of the same table with `candidate_no_cognate_set` = 1: same 21 columns, sorted by list name and then by meaning.
 Format: plain text (UTF-8, no byte-order mark), comma-separated, one header row; an empty cell means "no value". In Excel use Data > From Text/CSV and choose UTF-8, otherwise ʔ, ŋ and ə are garbled.
-Written by the last section of `../01_revision_analyses.py`, using `../p8common.py`; the design is in `../DESIGN.md`.
+Written by the last section of `01_revision_analyses.py` in the repository folder `experiments/E228_p8_revision_analyses/`, using `p8common.py` there; the design is in `DESIGN.md` of the same folder ([repository URL]).
 
 ## 1. What a row is, and where the data come from
 
@@ -18,14 +31,14 @@ One row is one form that ABVD records for one meaning in one of six word lists. 
 
 Source: the Austronesian Basic Vocabulary Database (Greenhill, Blust & Gray 2008, *Evolutionary Bioinformatics* 4: 271-283), in its lexibank/abvd CLDF version, repository state `917c5a5` (7 October 2025), licence CC BY 4.0. Forms, cognate-set numbers, loan flags and list and meaning names are copied from it. Please credit ABVD and the list compilers when reusing.
 
-| ABVD id | Name in ABVD | ISO 639-3 | Compiler (ABVD "author" field) | Forms | Candidates |
-|---|---|---|---|---|---|
-| 27 | Muna (Katobu-Tongkuno Dialect) | mnb | van den Berg | 219 | 34 |
-| 48 | Buginese (Soppeng Dialect) | bug | Zainuddin Taha | 242 | 62 |
-| 166 | Makassar | mak | Abd. Rajab | 217 | 80 |
-| 192 | Wolio | wlo | J.C. Anceaux | 254 | 83 |
-| 226 | Tae' (S.Toraja) | sda | Blust from van der Veen (1940) | 216 | 45 |
-| 674 | Tolaki | lbw | Omar Abdullah Pidani | 209 | 134 |
+| ABVD id | Name in ABVD | Name used in the article | ISO 639-3 | Compiler (ABVD "author" field) | Forms | Candidates |
+|---|---|---|---|---|---|---|
+| 27 | Muna (Katobu-Tongkuno Dialect) | Muna | mnb | van den Berg | 219 | 34 |
+| 48 | Buginese (Soppeng Dialect) | Bugis | bug | Zainuddin Taha | 242 | 62 |
+| 166 | Makassar | Makasar *(or Makassar — the authors' spelling decision)* | mak | Abd. Rajab | 217 | 80 |
+| 192 | Wolio | Wolio | wlo | J.C. Anceaux | 254 | 83 |
+| 226 | Tae' (S.Toraja) | Sa'dan Toraja | sda | Blust from van der Veen (1940) | 216 | 45 |
+| 674 | Tolaki | Tolaki | lbw | Omar Abdullah Pidani | 209 | 134 |
 
 ## 2. The columns
 
@@ -53,10 +66,10 @@ Source: the Austronesian Basic Vocabulary Database (Greenhill, Blust & Gray 2008
 | `bungku_tolaki_lookalike_list` | ABVD list of that closest form | 19 list names | Section 5. |
 | `bungku_tolaki_lookalike_form` | That form, as ABVD records it | text | Section 5. |
 
-## 3. What "candidate" means, and what a cognate-set number does not mean
+## 3. What the label column records
 
-A **candidate** is a form whose Cognacy field is empty in this ABVD snapshot. That is a statement about the state of cognate coding in the database at that date. It is **not** a statement about the origin of the word.
-A cognate-set number is not a statement of inheritance either. Sets in ABVD are numbered within each meaning (set 1 of `hand` is not set 1 of `leg/foot`); they include small local sets, and forms that ABVD itself flags as loans: 5 of the 11 loan-flagged forms in these lists carry a set number.
+`candidate_no_cognate_set` = 1 means that the form's Cognacy field is empty in this ABVD snapshot; 0 means that it holds at least one cognate-set number. The column records the state of cognate coding in the database at that date and nothing else; the files make no statement about the origin of any word.
+Facts about the cognate-set numbers that a user should know: sets are numbered within each meaning (set 1 of `hand` is not set 1 of `leg/foot`); a number says that ABVD's editors grouped the form with other forms; sets range from two lists to several hundred; 5 of the 11 forms that ABVD flags as loans in these lists carry a set number (Tolaki *kila* 'lightning', ABVD comment "from Malay", sits in the same set as the Proto-Malayo-Polynesian entry).
 In the Muna list, 44 of the 185 coded forms have only sets that occur nowhere in ABVD outside the two Muna lists (id 27 and Wuna, id 147, which share one Glottolog code); the same count is 6 for Bugis, 1 for Makassar, 1 for Tae', 0 for Wolio and Tolaki. ("Only sets" means every set of the form; counting forms with at least one such set gives 45 for Muna.)
 The loan flag is ABVD's own, occasional flag: 11 forms in these six lists (Muna 2, Bugis 1, Makassar 1, Wolio 2, Tae' 0, Tolaki 5). No loanword was removed from the files.
 
@@ -97,8 +110,8 @@ Real examples from the file with distance 0.0 and different spellings:
 In the Sulawesi column 687 of the 1,354 rows with a value show 0.0, and in 380 of these the normalised spellings differ (Bungku-Tolaki column: 129 rows, 51 differ). The columns are filled for coded forms as well as for candidates (0.0 occurs for 116 of the 438 candidates and 571 of the 919 coded forms).
 
 **Which lists were compared.** Only forms with the identical ABVD meaning label are compared. Only the single closest form is listed; if several lists tie, the first one met in the ABVD file is shown.
-- **Sulawesi columns** (all six lists): every ABVD list whose coordinates in ABVD's language table lie in the rectangle latitude -6.6 to 2.0, longitude 118.5 to 125.6. Lists whose name begins with "Bajo" are excluded (the code does not say why), and so is every list with the same Glottolog code as the form's own list (for Muna this removes Wuna, for Tolaki the five Tolaki dialect lists). 77 lists lie in the rectangle; each form is compared with 75 lists (Muna), 76 (Bugis, Makassar, Wolio, Tae') or 71 (Tolaki). The other five of the six lists are among them. The rectangle was chosen by the analysts, not taken from a source; it holds Sulawesi and some adjoining islands. ("Sulawesi" is used in a second sense elsewhere in the project: experiment E231 counts cognate sets "attested only in Sulawesi" with the same rectangle but **with** the Bajo and proto-language lists, 96 lists. The two are not the same set.)
-- **Bungku-Tolaki columns** (Tolaki rows only): 43 lists: ABVD's Proto-Bungku-Tolaki list (id 780) and 42 lists chosen by ABVD id in the code (41, 875 to 908, 914 to 919, 972; Mori, Bungku, Moronene, Kulisusu, Waru and others). The five Tolaki dialect lists (909 to 913) are not used. The code does not show on what basis these ids were taken to be Bungku-Tolaki.
+- **Sulawesi columns** (all six lists): every ABVD list whose coordinates in ABVD's language table lie in the rectangle latitude -6.6 to 2.0, longitude 118.5 to 125.6. Lists whose name begins with "Bajo" are excluded, and so is every list with the same Glottolog code as the form's own list (for Muna this removes Wuna, for Tolaki the five Tolaki dialect lists). **Why the Bajo lists are left out** (reason recorded 2026-10-07; the code written on 2026-10-05 did not record it): the 17 "Bajo" lists (ABVD 489, 619–634) all carry the Glottocode indo1317, Indonesian Bajau, a Sama-Bajaw language whose speakers settled the coasts of Sulawesi from elsewhere; Glottolog does not place it under any Sulawesi group (it is not in the Bungku-Tolaki tree, checked 2026-10-07, and belongs to the Sama-Bajaw branch of Greater Barito). A comparison meant to find look-alikes in *Sulawesi* languages therefore left them out; all 17 share one set of coordinates in ABVD. 77 lists lie in the rectangle; each form is compared with 75 lists (Muna), 76 (Bugis, Makassar, Wolio, Tae') or 71 (Tolaki). The other five of the six lists are among them. The rectangle was chosen by the analysts, not taken from a source; it holds Sulawesi and some adjoining islands. ("Sulawesi" is used in a second sense elsewhere in the project: experiment E231 counts cognate sets "attested only in Sulawesi" with the same rectangle but **with** the Bajo and proto-language lists, 96 lists. The two are not the same set.)
+- **Bungku-Tolaki columns** (Tolaki rows only): 43 lists: ABVD's Proto-Bungku-Tolaki list (id 780) and 42 lists chosen by ABVD id in the code (41, 875 to 908, 914 to 919, 972; Mori, Bungku, Moronene, Kulisusu, Waru and others). The five Tolaki dialect lists (909 to 913) are not used. **Basis of the 42 ids** (recorded 2026-10-07; not recorded in the code): the 42 lists carry 13 Glottocodes — baho1237 Bahonsuai, bung1269 Bungku, koro1311 Koroni, kuli1254 Kulisusu, mori1268 Mori Bawah, mori1269 Mori Atas, moro1287 Moronene, pado1242 Padoe, raha1237 Rahambuu, talo1252 Taloki, toma1248 Tomadino, waru1266 Waru, wawo1239 Wawonii — and every one of them is a daughter of Glottolog's languoid Bungku-Tolaki (bung1268), checked on 2026-10-07 against Glottolog's classification tree (49 languoids under bung1268; Tolaki, tola1247, is one of them). 41 of the 42 lists were contributed by D. Mead (1999), one (Mori, id 41) by another compiler. Any ABVD list of a Bungku-Tolaki language outside those ids would have been missed; none was found among the lists in the rectangle.
 
 **An empty cell** in the Sulawesi columns (3 rows: `166-26_hair-1`, `192-173_at-1`, `674-173_at-1`) means the normalised spelling has fewer than 2 characters, so nothing was compared. In the Bungku-Tolaki columns it is empty for every non-Tolaki row and for `674-173_at-1` (same reason).
 

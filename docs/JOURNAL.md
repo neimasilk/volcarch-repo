@@ -10450,3 +10450,35 @@ think carefully; focus on the revision, don't widen." Canary green 223; inBox em
 - Records: `REVISION_WORKPLAN.md` §10.9, outline (three patches + the Blust note), `CRITIQUE_LEDGER.md` C066,
   `REFERENCE_CHECK` D1, line 04 STATE, WORKSTATE, handoff addendum, memory. Not done, by design: no prose, no letter,
   nothing sent or uploaded, no experiment, no push. Subagents: none.
+
+## 2026-10-07 (09:45) — P8 revision: material finished on the PI's go-ahead (Word skeleton, letter scaffold, release description)
+
+**PI (09:21):** "ok lakukan yg perlu dilakukan, kita selesaikan sekarang yg bisa diselesaikan." Read as the go-ahead for the
+recommended decisions on the material side (D1–D6, D8, D9); D7, D10 and all prose stay the PI's (G16). Recorded in the work
+plan §10.10 so that the PI can object.
+- **Word skeleton** `papers/P8_linguistic_fossils/revision_v0.2/P8_revision_v0.2_skeleton.docx`: the journal's `.dotx`
+  converted to a base `.docx` (content type changed; body emptied, section properties and the "OL …" styles kept);
+  python-docx fills the outline's structure, eight tables from E228/E229/E231 result files, the Figure 1 position, the 33
+  corrected references (Unified Style Sheet CSL via pandoc 3.7; the journal's own form is near-identical) and the 13
+  reviewer-supplied / located references highlighted "after reading". Yellow «CATATAN» paragraphs = Indonesian guidance
+  with the numbers per section; green [Prosa PI] = where the English goes; no manuscript sentence. Rendered with docx2pdf
+  (Word) and looked at: 19 pages; the OL heading styles number themselves (a first build doubled the numbers — fixed);
+  tables render at 8 pt with bold headers. Numbers in the tables come straight from the CSVs (T1, T2, T3, T5, T6, T7;
+  E228 TABLE_R1-2 + E231 C intervals; E228 TABLE_R1-9).
+- **Response-letter scaffold** `RESPONSE_LETTER_SCAFFOLD_v0.2.docx` + `.md` (14 pp.): per reviewer point the paraphrase,
+  the facts the reply must contain (from work plan §3–§4, §10.7–§10.9), the manuscript change, the evidence id and a
+  "[PI writes the reply here]" slot; Part C the thirteen corrections by the authors; Part D the questions to the editors;
+  Part E a checklist. Makasar items HOLD. The March file `RESPONSE_TO_REVIEWERS.md` (pre-submission AI reviews, superseded
+  numbers) got a DO-NOT-USE banner.
+- **Release description completed** (`experiments/E228_p8_revision_analyses/release/README.md`; ledger C065): deposit
+  metadata, name concordance, section 3 factual, URL/DOI placeholders; the two analyst choices now have a recorded and
+  **verified** basis — the 17 Bajo lists are Glottocode indo1317 (Indonesian Bajau, Sama-Bajaw), not a Sulawesi group;
+  the 42 comparison ids carry 13 Glottocodes, all daughters of Glottolog's bung1268 (Bungku-Tolaki) — checked from
+  Glottolog's Newick export (the sub-tree parsed; 49 languoids). Deposit = the PI.
+- **E231 P13** (`03_glottal_per_list.py`): the per-list glottal figures of the morning check now live in the experiment
+  (anchors 2.67 / 2.60 reproduce; README updated; outline points to P13).
+- **`references_reviewer_supplied.bib`**: 13 entries (both Mills 1975 works; Blust 2012 with *ŋa typed as Unicode after a
+  `\textipa` macro dropped the glyph in pandoc's output — caught in the rendered reference list).
+- Tooling notes: `docx2pdf` (Word) renders a `.docx` here; LibreOffice is not installed; pdftoppm comes with MiKTeX.
+  Glottolog's `.newick.txt` for a sub-languoid returns the whole family tree — cut the sub-tree out by bracket matching.
+- Not done, by design: no prose, no letter, no note sent, no deposit, no portal action, no push. Subagents: none.

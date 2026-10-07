@@ -1,3 +1,9 @@
+> ⚠ **DO NOT USE FOR THE *OCEANIC LINGUISTICS* REVISION (banner added 2026-10-07).** This file answers two
+> pre-submission AI reviews (March 2026) and quotes numbers that E227–E231 have since corrected or withdrawn
+> (AUC 0.760/0.763, the ablation table, 'LOLO 6/6', the Tolaki Δ −0.062). The journal's reviewer points and the
+> facts for each reply are in `REVISION_OL_20261005.md` and `REVISION_WORKPLAN.md` §3–§4; the response-letter
+> scaffold is `revision_v0.2/RESPONSE_LETTER_SCAFFOLD_v0.2.docx`.
+
 # P8 Response to External Reviewers
 
 **Paper:** Phonological Fossils: Machine Learning Detection of Non-Mainstream Vocabulary in Sulawesi Basic Lexicon

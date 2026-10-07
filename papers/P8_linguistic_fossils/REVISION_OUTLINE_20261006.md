@@ -371,13 +371,13 @@ tabel contoh = E229 T7; sel = E229 T5.
     huruf vokal mengukur hal yang sama; gugus huruf konsonan 0,48 vs 0,32;
   - *tanda glotal tertulis:* 23,5 % vs 11,6 % (OR 2,67 [1,88; 3,79]); lebih tinggi di empat daftar yang menuliskannya
     secara rutin; di Wolio hanya empat bentuk bertanda (dua kandidat, dua berkode); daftar Muna tidak memuat satu
-    pun (lihat 5.6). **Per daftar** (hitung ulang 2026-10-07 dari `E228/release/p8_forms_all.csv`; cocok dengan
+    pun (lihat 5.6). **Per daftar** (E231 **P13**, `03_glottal_per_list.py`, 2026-10-07; cocok dengan
     `E227/results/glottal_by_language.csv`): Bugis OR 2,04 (19 dari 62 kandidat terhadap 32 dari 180 berkode),
     Makasar 2,01 (37/80 terhadap 41/137), Sa'dan Toraja 2,40 (16/45 terhadap 32/171); di Tolaki ke-29 bentuk bertanda
     semuanya kandidat (0 dari 75 berkode) — lapisan itulah yang menaikkan OR gabungan: tanpa Tolaki MH OR **2,11**.
     Jadi cirinya ada di tiap daftar yang menuliskannya, dengan OR ±2, dan tidak bergantung pada Tolaki; pada jumlah huruf
     yang sama (di bawah) 2,60 menjadi **2,19 [1,50; 3,22]** tanpa Tolaki (tiga daftar South Sulawesi saja 2,21 [1,49;
-    3,26]); definisi tanda dan huruf sama dengan E231 P3 (2,60 dan 2,67 tereproduksi persis);
+    3,26]); definisi tanda dan huruf sama dengan E231 P3 (2,60 dan 2,67 tereproduksi persis); · E231 P13
   - *makna tindakan:* 40,4 % vs 23,4 % (OR 2,46 [1,89; 3,20]);
   - *untai awal* ("berawal dengan ma, me, mo, pa, ka, ta, na, po atau aŋ"; di kode: "mirip prefiks"): 37,0 % vs 25,2 %
     (OR 1,57 [1,20; 2,04]) — tetapi **tidak terpisahkan dari panjang**: pada jumlah huruf yang sama OR 1,09 [0,80;

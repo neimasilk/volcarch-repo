@@ -492,3 +492,26 @@ reading with a personal account; the article page was opened and "Read online" p
   That is the general pattern reviewer 1 invokes at R1-12; it can be cited for that, as a statement made about Palauan,
   once the PI has read the page (`REFERENCE_CHECK` Part D1 row updated; private text copy in the git-ignored cache).
   The reviewer's eighth reference is thereby located and read; nothing on the list remains inaccessible.
+
+### 10.10 Material finished on the PI's go-ahead — 2026-10-07, 09:21–09:45
+
+The PI's words at 09:21: *"ok lakukan yg perlu dilakukan, kita selesaikan sekarang yg bisa diselesaikan"*. Read as the
+go-ahead to carry out the recommended decisions on the **material** side — D1–D6 (one label; 25-input model with the
+form-only model beside it; consensus dropped; D4 (a); 16 lists at most one paragraph; §4.5 omitted), D8 (Word template)
+and D9 (spelling subsection one paragraph) — while **D7 (the note to the editor), D10 and every sentence of manuscript
+and letter remain the PI's (G16)**. If the PI reads his words otherwise (D6 in particular), the skeleton is adjusted; nothing
+below is irreversible.
+
+| Finished | Where | What it is / what it is not |
+|---|---|---|
+| **Word skeleton in the journal template** (D8) | `revision_v0.2/P8_revision_v0.2_skeleton.docx` (19 pp. as rendered) | Built from `OL-template-1.dotx` (its own styles, 6 × 9 in page, running head); structure = outline §1–§8 (1 Introduction · 2.1–2.7 · 3.1–3.8 · 4 · 5 · data/code availability · AI declaration · References); **eight tables** filled from the result files (T1 label by list with the Muna-list note; Makasar three classes with Wilson intervals, six lists; T2 performance with the always-coded baseline and the candidate-class scores; T3 held-out lists; T6 profile; T5 cells; T7 example pool, two per cell, flagged for the PI's check; R1-9 glottal conventions); Figure 1 position marked (file separate, as the press asks); **33 corrected references** formatted in the Unified Style Sheet (pandoc) with a note on which fall with the cuts, plus the **13 reviewer-supplied / located references** highlighted "add only after reading". Every yellow «CATATAN» paragraph is Indonesian guidance with the numbers and sources for that section, to be deleted; every green [Prosa PI] is where the English goes. **No manuscript sentence is in the file.** |
+| **Response-letter scaffold** | `revision_v0.2/RESPONSE_LETTER_SCAFFOLD_v0.2.docx` + `.md` (14 pp.) | One block per reviewer point (R1: opening remark + 13 comments; R2: 24 highlights in page order): paraphrased point, *reply must contain* (facts with numbers and evidence ids), change in the manuscript, evidence, "[PI writes the reply here]"; Part C = the thirteen corrections by the authors as a submitted / corrected table; Part D = questions to the editors (fees; anonymity; tracked changes; file type of the letter); Part E = checklist before sending. Makasar items marked HOLD. The old `RESPONSE_TO_REVIEWERS.md` (pre-submission AI reviews of March) now carries a DO-NOT-USE banner. |
+| **Release description completed** (C065) | `experiments/E228_p8_revision_analyses/release/README.md` | Deposit metadata (title, authors to confirm, version 1.0, CC BY 4.0, citation, related publication); name concordance ABVD → article; the two analyst choices now have a recorded and verified basis (Bajo lists = indo1317 Sama-Bajaw, not a Sulawesi group; the 42 ids = 13 Glottocodes, all daughters of Glottolog bung1268 — checked 2026-10-07 against Glottolog's Newick tree, 49 languoids); section 3 reduced to a factual column description; repository URL and DOI left as `[…]`. Zenodo deposit itself = the PI (public release). |
+| **E231 P13** | `experiments/E231_p8_what_coded_means/03_glottal_per_list.py`, `results/P13_*` | The per-list glottal-mark figures of §10.9 now live in the experiment (anchors 2.67 and 2.60 reproduce). |
+| **References for the reviewer's works** | `revision_v0.2/references_reviewer_supplied.bib` | 9 entries from the reviewer's list (both Mills 1975 works) + Reid 1994, Hosmer & Lemeshow 2013, Nahm 2022, White et al. 2023; keys differ from the deleted non-existent `vandenBerg1996`; each carries a note with the page and the "read before citing" rule. |
+
+**Not done, by design:** no manuscript prose; no letter text; the note to the editor not written or sent (D7, PI); no
+Zenodo deposit; no portal action; no arXiv; no push. **What the PI does next, in order:** (1) read the three Makasar
+pages (`pages_for_PI/`), 15 minutes; (2) Go Frendi Gunawan informed; (3) the note to the editor from the fact list; (4)
+write in the skeleton, section by section, deleting the yellow notes as each is used; (5) tell me when a section is
+written — I run G1 on it (every number against E227–E231), the G8/G11 scans and the language check.

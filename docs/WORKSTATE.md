@@ -37,7 +37,11 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > **10-07 (check session, 09:00–09:20):** numbers re-anchored (nothing to correct); two guards C066 (screen sensitivity =
 > upper bound; glottal OR not carried by Tolaki); **Blust 2012:556 read in JSTOR with the PI's login** — all eight reviewer
 > references now located and read; no arXiv reply, no journal mail. Work plan **§10.9** adds three items to the PI's
-> sitting (title, abstract content, name of the G10 reader). Still waiting on the PI: D1–D10, three Makasar pages, the note.
+> sitting (title, abstract content, name of the G10 reader).
+> **10-07 (09:21–09:45):** the PI said "lakukan yg perlu dilakukan" → D1–D6, D8, D9 carried out on the material (work plan
+> **§10.10**): Word skeleton in the OL template (`revision_v0.2/P8_revision_v0.2_skeleton.docx`, eight tables, references),
+> response-letter scaffold (`RESPONSE_LETTER_SCAFFOLD_v0.2.docx`), release description completed (C065), E231 P13. No prose,
+> no letter, nothing sent. **Waiting on the PI: three Makasar pages; co-author; the note to the editor (D7); then the writing.**
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >
@@ -101,7 +105,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 | **01** | [spatial](../lines/01_spatial/STATE.md) | 🟡 WAITING | P2 in round-2 review (abstract reply sent 10-02) · P17 withdrawn 10-02 · **P11 NO-GO** → reframe = PI | PI + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | Verify C024–C030 one by one; **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
-| **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 REVISION | **P8 conditionally accepted 10-05**; audit, analyses, tables, robustness re-run, outline, venue file done (E227–E231); readings corrected after two adversarial reads (10-06; work plan §10.7) → **waiting on PI decisions D1–D10 (D4: three options), the source of the Makasar 38 %, and the note to the editor**, then the PI writes; P5 rewrite or PARKED.md (C018, overdue) | **PI** |
+| **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 REVISION | **P8 conditionally accepted 10-05**; E227–E231 done; readings corrected after three adversarial reads (work plan §10.7, §10.9); **10-07: on the PI's go-ahead the material is finished** — Word skeleton in the journal template with eight tables and references, response-letter scaffold, release description, all eight reviewer references read (work plan §10.10) → **PI: read the three Makasar pages, inform the co-author, write and send the note to the editor (D7), then write in the skeleton**; P5 rewrite or PARKED.md (C018, overdue) | **PI** |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🅿 E226 REVISIT | **E226 (T7) parked 10-02**: frame of 266 villages built; I1 identifications 11/170 → unpark needs Kusen 1990/91 / Resiyani 2010 lists. Next when warm: T2 or E211 | Claude |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Objective answer written (subtract-only). L1 amendments await PI (§4) | PI |
 | **07** | [career](../lines/07_career/STATE.md) | ✅ LEDGER CLEARED 10-02 | waiting on journals (P2, P8) | — |

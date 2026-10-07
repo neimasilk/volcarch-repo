@@ -1,7 +1,17 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-07 (09:20, check session) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
+**Updated:** 2026-10-07 (09:45) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
 
+> **2026-10-07 (09:21–09:45) — P8: material finished on the PI's go-ahead ("lakukan yg perlu dilakukan"; work plan §10.10).**
+> Read as: carry out D1–D6, D8, D9 on the material; D7, D10 and all prose stay the PI's (G16). **Ready in `revision_v0.2/`:**
+> `P8_revision_v0.2_skeleton.docx` (journal template; outline structure; eight tables from the result files; Figure 1
+> position; 33 corrected references + 13 reviewer/located references highlighted "after reading"; yellow Indonesian
+> notes with the numbers per section, green [Prosa PI] slots; no manuscript sentence) · `RESPONSE_LETTER_SCAFFOLD_v0.2.docx/.md`
+> (facts per reviewer point, corrections table, questions to the editors, checklist) · `references_reviewer_supplied.bib`.
+> Release description completed (C065; Bajo and 42-id choices verified against Glottolog); E231 P13. Old
+> `RESPONSE_TO_REVIEWERS.md` banner: do not use. **PI next:** three Makasar pages → co-author → note to the editor → write
+> in the skeleton → hand each section to me for G1 / G8 / G11 / language.
+>
 > **2026-10-07 (09:00–09:20) — P8 check session (PI: "read the handoff, focus on the revision, don't widen").** Numbers
 > re-anchored against E228/E229/E231 result files: nothing to correct. **Two guards added (ledger C066; work plan §10.9;
 > outline §0 item 4, 5.2, 5.5):** the look-alike screen's sensitivity (38 % / 48 %) is an *upper bound* for missed

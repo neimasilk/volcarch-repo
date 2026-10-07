@@ -236,6 +236,7 @@ computed them with its own script (three anchors against table E reproduce: 1.56
 | P10 | coded share by **meaning** (a meaning is coded if **any** of its forms is) on the meanings shared with Tolaki 674 | 42 comparison lists: median 48.4 % against Tolaki's 38.3 % on the same meanings; 3 lists at or below. Dialect lists on the same 133 meanings: Asera 40.6, Konawe 50.4, Laiwui 36.1, Mekongga 46.6, Wiwirano 39.1 % (Tolaki 38.3 %). Spearman of list length against coded share by form: −0.55 |
 | P10b | the same with the **first form** of each meaning only (Konawe has more than one form for 86 of the 133 meanings, Mekongga for 62, list 674 for few) | 42 comparison lists: median 46.7 % against 38.3 %; 5 lists at or below. Dialect lists: Asera 40.6, Konawe 36.8, Laiwui 36.1, Mekongga 36.8, Wiwirano 39.1 %. The Konawe excess of P10 is an effect of synonyms |
 | P11 | other conditionings | ≥ 1 consonant-letter cluster with list × letters × glottal mark held fixed: 1.38 [0.98, 1.93]; onset string with list × letters **after** the matched string held fixed: 2.51 [1.85, 3.40] |
+| P13 | **(2026-10-07, `03_glottal_per_list.py`)** the written glottal mark per list, and the pooled odds ratio without Tolaki | per list, candidates vs coded with a mark: Bugis 19/62 vs 32/180 (OR 2.04), Makasar 37/80 vs 41/137 (2.01), Sa'dan Toraja 16/45 vs 32/171 (2.40), Wolio 2/83 vs 2/171 (2.09), Tolaki 29/134 vs 0/75 (infinite), Muna 0/34 vs 0/185. Mantel-Haenszel by list without Tolaki **2.11**; by list × letters without Tolaki **2.19 [1.50, 3.22]**, the three South Sulawesi lists alone 2.21 [1.49, 3.26]. Anchors: 2.67 (E229 T6) and 2.60 (P3) reproduce. The property holds in every list that writes the mark; the pooled 2.67 is pulled up by the Tolaki stratum. `results/P13_glottal_by_list.csv`, `P13_summary.json` |
 | P12 | the classifier with the 44 same-language Muna forms relabelled as candidates | CV AUC 0.7265 → 0.7415 (form + meaning), 0.6717 → 0.6985 (form only); candidates 438 → 482 |
 
 ## What the tables show (numbers only; the wording of any conclusion is the PI's)
@@ -248,9 +249,10 @@ computed them with its own script (three anchors against table E reproduce: 1.56
 3. Tolaki: tables D, P5, P10, P10b (look-alikes within the subgroup; coded share by meaning, first form: list 674 38.3 %,
    dialect lists 36–41 %, median of the comparison lists 46.7 %; twelve look-alikes of the PMP form, about two by
    chance; sensitivity of the screen 48 %).
-4. The inputs: tables E, F, P3, P4, P11 (at equal length the glottal mark and the action meaning hold; clusters are
+4. The inputs: tables E, F, P3, P4, P11, P13 (at equal length the glottal mark and the action meaning hold; clusters are
    weaker; the onset string and the nasal input are not separable from length; "reduplication" and "final vowel" do
-   not stand as separate properties).
+   not stand as separate properties; the glottal-mark contrast is present in every list that writes the mark, OR about
+   2 per list, 2.11–2.19 without Tolaki).
 5. AUC: table G (fold means 0.727 / 0.672; about ± 0.03).
 ## Limits
 
@@ -263,6 +265,6 @@ hyphen or final *k* means needs a historical linguist of Sulawesi (SIG G10).
 
 ## Files
 
-`DESIGN.md` · `01_tabulations.py` · `02_posthoc_checks.py` (post hoc; `results/P*.csv`, `P_posthoc.json`) · `results/A_*.csv`, `B_pairwise_cognate_sharing.csv`, `C_*.csv`, `D_*.csv`,
+`DESIGN.md` · `01_tabulations.py` · `02_posthoc_checks.py` (post hoc; `results/P*.csv`, `P_posthoc.json`) · `03_glottal_per_list.py` (post hoc P13, 2026-10-07) · `results/A_*.csv`, `B_pairwise_cognate_sharing.csv`, `C_*.csv`, `D_*.csv`,
 `D_summary.json`, `E_strict_variants.csv`, `F_*.csv`, `G_auc_intervals.csv`, `H_leave_one_concept_out.csv`,
 `anchor_checks.json`, `run_log.txt`
