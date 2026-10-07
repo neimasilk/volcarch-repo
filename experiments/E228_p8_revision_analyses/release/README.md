@@ -1,6 +1,6 @@
 # Description of the two data files
 
-> **Status 2026-10-07: completed for the PI's reading before deposit** (ledger C065). Done today: deposit metadata (section 0);
+> **Status 2026-10-07: DEPOSITED and published at Zenodo — DOI 10.5281/zenodo.23202245 (version 1.0; concept DOI 10.5281/zenodo.23202244; six files, 275.5 kB).** This copy of the README is the one in the deposit except for this status line. Completed earlier the same day (ledger C065). Done today: deposit metadata (section 0);
 > name concordance (section 1); the two analyst choices and their basis (section 5, checked against Glottolog on
 > 2026-10-07); repository URL placeholders; section 3 reduced to a factual description of the columns. Still the PI's:
 > read the whole file; fill the two `[…]` placeholders (repository URL, DOI); decide the version number and the date of
@@ -13,9 +13,9 @@
 | Title | Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release for the article [title of the revised article] |
 | Authors | Mukhlis Amien (Universitas Bhinneka Nusantara; ORCID 0000-0002-1848-167X) and Go Frendi Gunawan — *to be confirmed by both authors* |
 | Version | 1.0 (first deposit; the version of the files is the one described here, written 2026-10-05 from ABVD snapshot `917c5a5`) |
-| Date | [date of deposit] |
+| Date | 2026-10-07 (published) |
 | Licence | CC BY 4.0 — the same licence as ABVD, from which the forms, cognate-set numbers, loan flags and names are copied; the derived columns (scores, distances, cells) are released under the same licence |
-| How to cite | Amien, Mukhlis & Go Frendi Gunawan. [year]. *[title above]* (Version 1.0) [Data set]. Zenodo. https://doi.org/[DOI] — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
+| How to cite | Amien, Mukhlis & Go Frendi Gunawan. [year]. *[title above]* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23202245 — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
 | Related publication | the article in *Oceanic Linguistics* (manuscript OL-03-2026-11), to be linked once published |
 | Files | `p8_forms_all.csv` (1,357 rows), `p8_candidates.csv` (438 rows), `p8_makasar_uncoded_meanings.csv` (70 rows), `p8_tolaki_pmp_lookalikes.csv` (12 rows), `p8_cell_examples.csv` (92 rows), this `README.md` (sections 8–10 describe the three smaller files) |
 | Code | the scripts that built the files and the analyses that use them are in the public project repository, folder `experiments/E228_p8_revision_analyses/` (and E227, E229–E231): [repository URL] |

@@ -107,5 +107,5 @@ Found when every number of the submitted text was re-derived from the raw files 
 # Part D. Questions to the editors
 
 1. Are there any charges to the authors (page, figure or other)? We would not take a paid open-access option.
-2. Should the revised manuscript remain anonymised, and is a tracked-changes version wanted beside the clean copy? We have prepared both an anonymised and a named file and upload the one you prefer.
+2. Should the revised manuscript remain anonymised, and is a tracked-changes version wanted beside the clean copy? We upload the anonymised article file, as for the first submission, and will supply the named file, or a tracked-changes version, on request.
 3. Under which file type should this letter be uploaded in the submission system (Author Cover Letter or Supplemental Material)?

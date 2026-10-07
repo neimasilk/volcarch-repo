@@ -10582,3 +10582,16 @@ Applied in one pass (`scratchpad/fix_ms.py`, 60 exact replacements, 0 failures; 
 - Abstract 159 words; 24 pages rendered; no "%" or "&" in the prose. Letter (`COVER_AND_RESPONSE_v0.2.md/.docx`) updated
   for the deposit contents, the 62 % answer and the R1-12 wording. Verification agent (Sonnet) launched on the 14 fixes
   plus a template-compliance checklist. Gmail drafts audited: no leftover draft of the note.
+
+## 2026-10-07 (11:50) — P8 data release PUBLISHED at Zenodo: DOI 10.5281/zenodo.23202245
+
+The PI logged in to Zenodo in the Playwright window; I created the deposit (six files: `p8_forms_all.csv`,
+`p8_candidates.csv`, `p8_makasar_uncoded_meanings.csv`, `p8_tolaki_pmp_lookalikes.csv`, `p8_cell_examples.csv`,
+`README.md`; 275.5 kB; all MD5s shown at 100 %), resource type Dataset, title "Uncoded basic vocabulary in six Sulawesi
+word lists of the Austronesian Basic Vocabulary Database: form-level data release", publication date 2026-10-07, version
+1.0, CC BY 4.0, public; authors Amien, Mukhlis (ORCID 0000-0002-1848-167X; Universitas Bhinneka Nusantara) and Gunawan,
+Go Frendi (same affiliation); description from `ZENODO_METADATA.md`; ten keywords; repository URL. Saved as draft; the PI
+pressed Publish. Record https://zenodo.org/records/23202245, DOI 10.5281/zenodo.23202245 (concept DOI 10.5281/zenodo.23202244).
+Zenodo's citation: "Amien, M., & Gunawan, G. F. (2026). Uncoded basic vocabulary … (Version 1.0) [Dataset]. Zenodo."
+DOI inserted into the manuscript's data statement; release README and metadata file updated; Word files rebuilt.
+Third Zenodo output of the project after D1 and D2.

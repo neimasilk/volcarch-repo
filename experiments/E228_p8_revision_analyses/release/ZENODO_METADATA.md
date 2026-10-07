@@ -12,4 +12,5 @@ Form-level data for the article "Uncoded basic vocabulary in six Sulawesi word l
 **Language:** English (metadata); forms in six Sulawesi languages
 **Related identifiers:** is supplement to — the journal article (add the article DOI when known); is derived from — ABVD, https://abvd.eva.mpg.de and https://github.com/lexibank/abvd (commit 917c5a5); code — https://github.com/neimasilk/volcarch-repo (folders experiments/E227–E231)
 **Funding:** none
-**After publishing:** copy the DOI into `P8_revision_v0.2.md` (data statement: replace `[DOI]`), rebuild the Word files, and record the DOI in the release README section 0, `docs/WORKSTATE.md` and the line STATE.
+**PUBLISHED 2026-10-07 by the PI (Claude filled the form in the Playwright window): record https://zenodo.org/records/23202245 — DOI 10.5281/zenodo.23202245, concept DOI 10.5281/zenodo.23202244.**
+**After publishing (done):** copy the DOI into `P8_revision_v0.2.md` (data statement: replace `[DOI]`), rebuild the Word files, and record the DOI in the release README section 0, `docs/WORKSTATE.md` and the line STATE.

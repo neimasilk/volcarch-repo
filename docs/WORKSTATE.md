@@ -47,6 +47,8 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > Draft v0.2 of the manuscript (OL template, 24 pp.) and the cover-and-response letter exist; two independent reads
 > returned (481 numbers traced, 7 small mismatches; 5 high / 17 medium wording findings) → correction pass, then Zenodo
 > (PI login) → portal upload (PI login) → G12.
+> **11:50 — ZENODO PUBLISHED (D3, the P8 release): DOI 10.5281/zenodo.23202245** (six files, CC BY 4.0; the PI pressed Publish). DOI inserted
+> in the data statement; Word files rebuilt. Next: portal upload.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >
