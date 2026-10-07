@@ -10690,3 +10690,11 @@ Third Zenodo output of the project after D1 and D2.
   hasilnya tidak seheboh yg saya kira, tapi lebih jujur.. dan menurutku ok." This is the authors' reading the AI declaration
   states ("reviewed the text"); recorded as the PI's sign-off on the content. No change requested. Remaining before the
   Submit click: the editor's answer to the note of 7 Oct (fees = G15), and the PI's word at the sitting.
+
+## 2026-10-07 (16:30) — P8: fees and schedule researched (PI: DIKTI funding available if published before November)
+
+- PI: a DIKTI grant could cover publication costs provided the paper is published before November 2026. Researched
+  (`VENUE.md` addendum): no author fee is stated for OL anywhere (press statement for Pacific Science 2020: no page charges;
+  OA optional at USD 1,800; OL issues are "Open Access: No" on MUSE); the **December 2026 issue (65-2) went online on
+  2026-09-03**, so the earliest issue for P8 is June 2027 (online ~March–May 2027). "Before November 2026" is not reachable;
+  a formal acceptance letter is. G15 answer still awaited from the editor.

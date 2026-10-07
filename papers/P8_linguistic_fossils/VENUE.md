@@ -143,3 +143,18 @@ Figures as separate files. No due date is shown for the revision. The manuscript
 running title, keywords and subject areas — **they have to be updated at resubmission**. Questions about a submission in
 progress go through "Send Manuscript Correspondence" on the manuscript page (to the Editorial Assistant). The portal's
 author instructions are the web page's text; nothing on revisions or fees.
+
+## Addendum 2026-10-07 (16:30) — fees and schedule, researched at the PI's request ("adakah biayanya? … publish sebelum November")
+
+- **Fees:** a third pass over the press and journal pages (uhpress.hawaii.edu/title/ol/, the portal's Author Instructions,
+  uhpress.hawaii.edu/journals/open-access/) finds no author charge stated for *Oceanic Linguistics* and none denied. The only
+  explicit fee statement the press publishes is for *Pacific Science* (notice of 2020-02-05, uhpress.hawaii.edu/pacific-science-call-for-submissions-2/):
+  "no longer charges submission fees or page charges for accepted articles that do not require the Open Access publishing
+  option"; optional open access there costs USD 1,800. Project MUSE labels every OL issue "Open Access: No" (subscription
+  journal). The question is with the editor since the note of 7 Oct (G15); the expectation is "no charge".
+- **Schedule (Project MUSE, journal 147, read 2026-10-07):** 64-2 (Dec 2025) launched 2025-11-21; 65-1 (Jun 2026) launched
+  2026-03-26, 7 articles; **65-2 (Dec 2026) launched 2026-09-03, 10 articles — the December 2026 issue is already out.** No
+  early-release section is shown for OL on MUSE at present. The earliest issue that can carry P8 is **66-1, June 2027**, online
+  around March–May 2027 if the pattern holds; an online pre-release before that depends on the press and is not promised.
+- **Consequence:** "published before November 2026" cannot be met at this journal by any route. What can exist before
+  November is a formal acceptance letter (conditional now; final after the revision is accepted).
