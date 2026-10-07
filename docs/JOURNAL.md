@@ -10412,3 +10412,41 @@ my own errors; technical notes. The top of `lines/04_language_text/STATE.md` and
 compressed to one current block each, pointing to the handoff. Gmail checked at 14:23 (read-only): no reply from arXiv
 yet, nothing new from the journal. Canary green 223. inBox empty. Closing commit on `main`; not pushed.
 Subagent use in the second session: 12 agents (10 Sonnet, 2 Opus), about 2.7 million tokens.
+
+## 2026-10-07 (09:20) — P8 revision: check session (handoff read; two guards C066; Blust 2012 read in JSTOR)
+
+**PI:** "read the handoff, focus on the paper revised yesterday; log in where needed through Playwright; review, check,
+think carefully; focus on the revision, don't widen." Canary green 223; inBox empty.
+- Read in full: handoff §1–§8, work plan §1–§10.8, outline, E231 README, editor-note fact list, `REFERENCE_CHECK` Part D,
+  `VENUE.md` §0–§1, the submitted abstract.
+- **Numbers re-anchored** against the stored result files (E229 T1, T2, T3, T6; E228 `TABLE_R1-2`, `TABLE_R1-9`; E231 C,
+  `P_posthoc.json`): T1 438 = 32.3 %; T2 0.7265 / 0.6717, accuracy 0.719 vs 0.677, candidate F1 0.480; T3 0.701 / 0.641,
+  below the majority answer in 5 of 6 held-out lists (Makasar the exception); T6 2.67 / 1.57 / 2.46 / +1.09; Makasar
+  79 / 52 / 70 of 201, McNemar 0.0059 / 0.0001; glottal conventions −0.016 / −0.006 / −0.007. All as written — nothing to
+  correct.
+- **Two guards added — ledger C066** (outline §0 item 4, 5.2, 5.5; work plan §10.9): (a) the look-alike screen's
+  sensitivity (38 % Makasar, 48 % Tolaki; E231 P5, P8) is measured on forms ABVD coded; coders and screen both use surface
+  resemblance, so for missed cognates the sensitivity is lower — an **upper bound**; "2 of 75 against about 28 expected"
+  overstates the contrast; the verdict (the screen does not favour "merely uncoded") stands. (b) the glottal-mark OR 2.67
+  (E229 T6) carries Tolaki's stratum (29 marked forms, 0 coded); per list Bugis 2.04, Makasar 2.01, Sa'dan Toraja 2.40,
+  Wolio 2.09 (4 forms); MH without Tolaki 2.11; at equal letter count 2.19 [1.50, 3.22] without Tolaki, 2.60 with (E231
+  P3 reproduced exactly, so the definitions match). Scratch scripts in the session scratchpad (`glottal_per_list.py`,
+  `glottal_stratified.py`, from `E228/release/p8_forms_all.csv` with E231's `letters()` and `mh()`); not an experiment —
+  no conclusion changes; becomes E231 P13 if the PI prints the per-list figures.
+- **Browser round.** Gmail read-only (`gmail_check.py`; the first launch died with TargetClosed, the second ran): no reply
+  from arXiv (thread holds only the PI's request of 10-06 14:14); nothing from the journal since 10-05. Playwright MCP
+  connected today. **JSTOR:** Blust 2012 found (stable 23321867, vol. 51 no. 2, pp. 538–566; "citation access only"
+  without login); the PI logged in through Google at my request ("jstor sudah saya loginkan"); "Read online" used one
+  free read (8 of 10 left); page 19 = **p. 556** read from the reader's text layer: §9 "Silence", on Palauan loanwords —
+  in contact situations loanwords are commonly adapted to the borrowing language's phonology until borrowing reaches a
+  saturation point, after which foreign features are kept; English/Spanish loans in Palauan sometimes show the intrusive
+  final velar nasal, Japanese loans were borrowed unchanged. Supports the general remark at R1-12. Private text copy in
+  the git-ignored cache (`blust2012_p556_text_from_jstor_reader.txt`); `REFERENCE_CHECK` Part D1 row updated; outline §6
+  item 1 notes it. All eight reviewer references are now located and read by the controller; the PI reads before citing.
+- **Assessment for the PI** (work plan §10.9): D1–D10 recommendations stand, D4 (a). Three things belong in the same
+  sitting: the **title** (neither "phonological" nor "detection" survives D2 and C054), the **abstract's content** at
+  120–160 words (the cross-list result need not be in it under D4 (a); the outline's nine items are a maximum), and the
+  **name of the G10 reader** (the co-author is not a linguist).
+- Records: `REVISION_WORKPLAN.md` §10.9, outline (three patches + the Blust note), `CRITIQUE_LEDGER.md` C066,
+  `REFERENCE_CHECK` D1, line 04 STATE, WORKSTATE, handoff addendum, memory. Not done, by design: no prose, no letter,
+  nothing sent or uploaded, no experiment, no push. Subagents: none.

@@ -1,7 +1,18 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-06 (14:30, session close) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
+**Updated:** 2026-10-07 (09:20, check session) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
 
+> **2026-10-07 (09:00–09:20) — P8 check session (PI: "read the handoff, focus on the revision, don't widen").** Numbers
+> re-anchored against E228/E229/E231 result files: nothing to correct. **Two guards added (ledger C066; work plan §10.9;
+> outline §0 item 4, 5.2, 5.5):** the look-alike screen's sensitivity (38 % / 48 %) is an *upper bound* for missed
+> cognates (measured on coded forms; coders and screen both use surface similarity) — verdict unchanged, word it so; the
+> glottal-mark odds ratio is not carried by Tolaki (per list 2.0–2.4; without Tolaki 2.11, at equal letters 2.19 [1.50,
+> 3.22]). **Blust 2012:556 read in JSTOR** with the PI's login (reviewer's eighth reference; R1-12; `REFERENCE_CHECK`
+> Part D1) — all eight located and read; the PI still reads before citing. Gmail: no arXiv reply, nothing from the
+> journal. For the PI's sitting, three items added to D1–D10: the title cannot keep "phonological" or "detection";
+> the 120–160-word abstract need not carry the cross-list result under D4 (a); the G10 reader needs a name before the
+> writing ends. Nothing written, sent or uploaded; no experiment; commit on `main`, not pushed.
+>
 > **2026-10-06, close — P8. START HERE: `docs/HANDOFF_20261006.md` §1, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.**
 > - **Work queue (Claude):** (1) check Gmail for arXiv's reply to the request of 14:14 (new paper password for 2604.00023;
 >   ledger C061). (2) After the PI's decisions D1–D10: adjust the outline to the D4 option; if D8 = yes, start the Word

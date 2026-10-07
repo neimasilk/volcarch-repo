@@ -64,7 +64,9 @@ Tiap butir memisahkan yang **terukur** dari yang **tafsir**. Rumusan butir 6 men
    0,0001). "Retensi lebih rendah" dan "himpunan bersama lebih sedikit" adalah fakta yang sama dengan porsi tanpa kode
    itu — satu temuan, bukan tiga. **Yang tidak diputuskan data ini:** apakah bentuk Makasar tanpa kode itu kognat yang
    belum dikodekan atau kata yang memang tergantikan. Saringan mekanis **tidak mendukung** tafsir "sekadar belum
-   dikodekan": hanya 2 dari 75 mirip bentuk PMP (kira-kira satu diharapkan karena kebetulan; kepekaan saringan 38 %) dan
+   dikodekan": hanya 2 dari 75 mirip bentuk PMP (kira-kira satu diharapkan karena kebetulan; kepekaan saringan 38 % —
+   diukur pada bentuk yang *berhasil* dikodekan ABVD, jadi **batas atas** untuk kognat yang terlewat: penyunting dan
+   saringan sama-sama bertumpu pada kemiripan permukaan; pemeriksaan 2026-10-07, ledger C066) dan
    10 dari 80 mirip bentuk Bugis atau Sa'dan Toraja semakna (kebetulan ±4 %; bentuk berkode: 90 dari 136). Jadi datanya **sesuai dengan**
    keterpisahan leksikal Makasar yang dilaporkan di literatur — tanpa membuktikannya, dan tanpa berkata apa-apa tentang
    sebabnya. Angka 38 % terbitan adalah hitungan Blust (1981a) yang dikutip Bellwood 1997:115 — hitungan sejenis dari
@@ -278,7 +280,11 @@ B; hitungan tambahan = E231 P1, P8, P9.
   memutuskan apa-apa**: ia sama saja entah makna tanpa kode itu kognat yang belum dikodekan atau kata yang tergantikan.
 - **Apa bentuk tanpa kode itu?** Saringan mekanis (yang sama dengan untuk Tolaki) menemukan sedikit: 2 dari 75 mirip
   bentuk PMP (2,7 %; kebetulan 1,2 %, kira-kira satu bentuk), padahal saringan itu menemukan 38 % (33 dari 87) bentuk
-  Makasar yang oleh ABVD sendiri ditaruh di himpunan PMP; 10 dari 80 mirip bentuk Bugis atau Sa'dan Toraja untuk makna
+  Makasar yang oleh ABVD sendiri ditaruh di himpunan PMP — ⚠ kepekaan itu diukur pada bentuk yang berhasil dikodekan,
+  dan penyunting ABVD sendiri bertumpu pada kemiripan permukaan; untuk kognat yang terlewat (yang justru kurang mirip
+  di permukaan) kepekaannya pasti lebih rendah, jadi 38 % adalah **batas atas**, dan "2 terhadap ±28 yang diharapkan"
+  tidak boleh dicetak sebagai ukuran yang tepat (pemeriksaan 2026-10-07, ledger C066); 10 dari 80 mirip bentuk Bugis
+  atau Sa'dan Toraja untuk makna
   yang sama (12,5 %; kebetulan 3,8 % — ada kelebihan kecil di atas kebetulan), sedangkan untuk bentuk Makasar berkode
   90 dari 136 (66 %). Itu **tidak mendukung** tafsir "sekadar belum dikodekan" untuk sebagian besar bentuk (sebagian
   kecil mungkin memang kognat yang terlewat) dan **sesuai dengan** keterpisahan leksikal yang dilaporkan literatur
@@ -365,7 +371,13 @@ tabel contoh = E229 T7; sel = E229 T5.
     huruf vokal mengukur hal yang sama; gugus huruf konsonan 0,48 vs 0,32;
   - *tanda glotal tertulis:* 23,5 % vs 11,6 % (OR 2,67 [1,88; 3,79]); lebih tinggi di empat daftar yang menuliskannya
     secara rutin; di Wolio hanya empat bentuk bertanda (dua kandidat, dua berkode); daftar Muna tidak memuat satu
-    pun (lihat 5.6);
+    pun (lihat 5.6). **Per daftar** (hitung ulang 2026-10-07 dari `E228/release/p8_forms_all.csv`; cocok dengan
+    `E227/results/glottal_by_language.csv`): Bugis OR 2,04 (19 dari 62 kandidat terhadap 32 dari 180 berkode),
+    Makasar 2,01 (37/80 terhadap 41/137), Sa'dan Toraja 2,40 (16/45 terhadap 32/171); di Tolaki ke-29 bentuk bertanda
+    semuanya kandidat (0 dari 75 berkode) — lapisan itulah yang menaikkan OR gabungan: tanpa Tolaki MH OR **2,11**.
+    Jadi cirinya ada di tiap daftar yang menuliskannya, dengan OR ±2, dan tidak bergantung pada Tolaki; pada jumlah huruf
+    yang sama (di bawah) 2,60 menjadi **2,19 [1,50; 3,22]** tanpa Tolaki (tiga daftar South Sulawesi saja 2,21 [1,49;
+    3,26]); definisi tanda dan huruf sama dengan E231 P3 (2,60 dan 2,67 tereproduksi persis);
   - *makna tindakan:* 40,4 % vs 23,4 % (OR 2,46 [1,89; 3,20]);
   - *untai awal* ("berawal dengan ma, me, mo, pa, ka, ta, na, po atau aŋ"; di kode: "mirip prefiks"): 37,0 % vs 25,2 %
     (OR 1,57 [1,20; 2,04]) — tetapi **tidak terpisahkan dari panjang**: pada jumlah huruf yang sama OR 1,09 [0,80;
@@ -507,7 +519,10 @@ p = 0,37). Tabel 5 [R2-23] dan Gambar 4 hilang; tafsir Acehnese dan Bolaang Mong
    pengodean*; kebiasaan notasi tiap sumber; ⚠ pemanjangan fonologis di Makasar (ahli). Contoh T7 tidak menambah bukti
    (dipilih oleh skor penggolong). Satu-satunya pemeriksaan langsung yang dimungkinkan data — tanda hubung penyusun
    di Bugis dan Sa'dan Toraja — campuran (5.5). Laporan reviewer 1 **tidak memuat tafsir morfologis**: catatannya pada komentar 12
-   adalah bahwa pinjaman lazim disesuaikan dengan fonologi peminjam — jangan menulis tafsir ini "sejalan dengan
+   adalah bahwa pinjaman lazim disesuaikan dengan fonologi peminjam (Blust 2012:556, dibaca pengendali 2026-10-07 di
+   JSTOR dengan login PI: dalam situasi kontak, kata pinjaman lazim disesuaikan dengan fonologi bahasa peminjam sampai
+   peminjaman mencapai titik jenuh, lalu ciri asingnya lebih dipertahankan — kalimat tentang pinjaman Palau dari
+   Inggris, Spanyol, Jepang; sitir sebagai pola umum yang dinyatakan di sana; PI membaca sendiri dulu) — jangan menulis tafsir ini "sejalan dengan
    reviewer". Yang tidak bisa dikatakan: asal-usul. [R1-10, R1-12]
 2. **Makasar — apa yang ditambahkan studi ini pada percakapan itu.** [R1-2] ⚠ *Belum ditulis (lihat status di kepala
    berkas).* Pemilahan tiga kelas dengan selangnya, dan satu pengamatan: Makasar punya lebih banyak makna **tanpa kode**

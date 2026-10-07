@@ -440,3 +440,55 @@ through its own DevTools socket; nothing was typed, submitted or uploaded.
 | Journal portal, author instructions | The same text as the journal's web page; the word "revision" does not occur; nothing on fees. Contact about a submission in progress is through **"Send Manuscript Correspondence"** on the manuscript page (to the Editorial Assistant; the form has a CAPTCHA) | The note to the editor can go through that form (the PI sends it himself) or as a reply to the decision e-mail |
 | JSTOR | Sneddon 1993, p. 2: nine microgroups plus Banggai as a single-member microgroup | `REFERENCE_CHECK` Part D1; outline §3 item 2 |
 | Project MUSE | not accessible; Blust 2012 unread. Barlow 2025 is listed as open access on MUSE (article 960927) but sits behind a human-verification page | Blust 2012 is not cited; the PI can open Barlow 2025 himself |
+
+### 10.9 Check of 2026-10-07 (controller) — numbers re-anchored, two guards added, browser round
+
+The PI asked for the handoff to be read and the revision reviewed and checked — nothing wider. No prose, no letter,
+nothing sent, no new experiment.
+
+**Re-anchored from the stored result files (no re-run):** E229 T1 438 = 32.3 %, per list 34 / 62 / 80 / 83 / 45 / 134;
+T2 0.7265 / 0.6717, accuracy 0.719 against 0.677, candidate-class F1 0.480 (precision 0.597, recall 0.404); T3 mean
+0.701 / 0.641, 5 of 6 and 3 of 6 lists at or above 0.65, accuracy below the majority answer in 5 of 6 held-out lists for
+both input sets (Makasar is the exception in both); T6 glottal mark 2.67 [1.88, 3.79], onset string 1.57 [1.20, 2.04],
+action meaning 2.46 [1.89, 3.20], length +1.09 [0.87, 1.32], final vowel 0.66; E228 Makasar 79 / 52 / 70 of 201 with
+McNemar p = 0.0059 and 0.0001 (E231 C); glottal conventions −0.0162 / −0.0161 / −0.0061 / −0.0069, held-out minimum
+0.6765. All as written in §6, §10.7 and the outline. Nothing to correct.
+
+**Two guards added (ledger C066; recorded in the outline §0 item 4, 5.2, 5.5):**
+1. **The screen's sensitivity is an upper bound.** The 38 % (Makasar) and 48 % (Tolaki) were measured on forms ABVD
+   had coded (E231 P5, P8). ABVD's coders and the screen both work from surface resemblance, so the cognates the coders
+   missed are, by selection, the less similar ones — the screen's sensitivity for *them* is lower than 38 %. "2 of 75
+   against about 28 expected" therefore overstates the contrast. The verdict does not change (a mechanical screen does
+   not favour "merely uncoded"), but "upper bound" has to be printed next to the sensitivity.
+2. **The glottal-mark property is not carried by Tolaki.** In the Tolaki list all 29 marked forms are candidates and no
+   coded form carries a mark — an infinite stratum that pulls the pooled odds ratio up. Per list: Bugis 2.04 (19 of 62
+   candidates against 32 of 180 coded), Makasar 2.01 (37/80 against 41/137), Sa'dan Toraja 2.40 (16/45 against 32/171),
+   Wolio 2.09 (4 marked forms). Mantel-Haenszel without Tolaki 2.11; at equal letter count 2.19 [1.50, 3.22] without
+   Tolaki (2.60 with; the three South Sulawesi lists alone 2.21 [1.49, 3.26]). Scratch computation from
+   `E228/release/p8_forms_all.csv` with the `letters()` and `mh()` of E231 `02_posthoc_checks.py`; 2.67 and 2.60
+   reproduce exactly, so the definitions match (`E227/results/glottal_by_language.csv` gives the same per-list rates).
+   Not registered as an experiment because it changes no conclusion; if the PI prints the per-list figures, the script
+   goes into E231 as P13 first.
+
+**Assessment of the plan.** The D1–D10 recommendations stand, D4 = (a). Three things that belong in the same sitting as
+the decisions, because the writing depends on them:
+- **Title.** "Phonological Fossils: Machine Learning Detection of Non-Mainstream Vocabulary …" cannot survive D2 (the
+  profile includes meaning) and C054 (a ranking aid, not detection). A title about *uncoded basic vocabulary in ABVD*
+  for six Sulawesi lists describes the corrected paper. Words = the PI's.
+- **Abstract at 120–160 words** (VENUE) holds: problem, data, label, one ranking number, the three measured properties,
+  Makasar and Tolaki in one sentence each, the release. Under D4 (a) the cross-list result need not be in the abstract
+  at all — the outline's nine abstract items are a maximum, not a list to fill.
+- **The G10 reader has a name before the writing ends.** The co-author is not a linguist; one historical linguist
+  (Sulawesi not required) reads the frozen draft inside the 14 days. Asking during the freeze is too late.
+
+**Browser round (Playwright MCP connected today).** Gmail, read-only, 09:00–09:10: no reply from arXiv (the thread holds
+only the PI's request of 10-06 14:14); nothing from the journal since the decision letter of 10-05. JSTOR: Blust 2012 is
+on JSTOR — stable 23321867, vol. 51 no. 2 (Dec 2012), pp. 538–566, "citation access only" without login, free online
+reading with a personal account; the article page was opened and "Read online" pressed, which asks for the PI's login
+(p. 556 = page 19 of the article). Outcome: see the line below.
+- **JSTOR outcome (09:12):** the PI logged in; one free read used (8 of 10 left this month); **p. 556 read from the text
+  layer** — §9 of the article, on Palauan loanwords: in contact situations loanwords are commonly adapted to the
+  borrowing language's phonology until borrowing reaches a saturation point, after which foreign features are kept.
+  That is the general pattern reviewer 1 invokes at R1-12; it can be cited for that, as a statement made about Palauan,
+  once the PI has read the page (`REFERENCE_CHECK` Part D1 row updated; private text copy in the git-ignored cache).
+  The reviewer's eighth reference is thereby located and read; nothing on the list remains inaccessible.

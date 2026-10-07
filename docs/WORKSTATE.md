@@ -1,6 +1,6 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-06 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-07 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
 > ## 🟢 2026-10-05 — P8 conditionally accepted (*Oceanic Linguistics*, OL-03-2026-11)
@@ -34,6 +34,10 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > ⚠ **Security:** the arXiv paper password of the P8 preprint sat in four tracked files since April (C061; redacted) —
 > **request for a new one sent to arXiv 14:14, reply pending**; the old one is still in the public git history.
 > Canary green 223. Commits `450aef6`, `1e269f3`, `ae14804` + the closing one on `main`, **not pushed**.
+> **10-07 (check session, 09:00–09:20):** numbers re-anchored (nothing to correct); two guards C066 (screen sensitivity =
+> upper bound; glottal OR not carried by Tolaki); **Blust 2012:556 read in JSTOR with the PI's login** — all eight reviewer
+> references now located and read; no arXiv reply, no journal mail. Work plan **§10.9** adds three items to the PI's
+> sitting (title, abstract content, name of the G10 reader). Still waiting on the PI: D1–D10, three Makasar pages, the note.
 
 > # 🔄 RE-ENTRY 2026-10-01 — riset dilanjutkan setelah jeda 7 minggu
 >
