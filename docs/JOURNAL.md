@@ -10642,3 +10642,26 @@ Third Zenodo output of the project after D1 and D2.
   correct. The PI noticed overflowing text on the divider pages of my reading package (`P8_revision_v0.2_FULL_PACKAGE.pdf`,
   not an uploaded file); fixed in `_FULL_PACKAGE_v2.pdf` (text boxes instead of free text).
 - **Not done:** the Submit button. The PI reads the package first ("kasih ke saya pdf lengkap dulu sebelum saya submit").
+
+## 2026-10-07 (14:45) — P8: portal preparation finished; the PI defers the Submit click to next week
+
+- **What reviewers will see, looked at.** The portal's merged PDF (iText; 34 pages = the 24-page article plus, for each of
+  the five figures, a caption page and an image page) was downloaded through the logged-in browser session (Playwright
+  download event with `inline=0`; a plain HTTP request with the session cookies returns the login page) and rendered:
+  contact sheets of all 34 pages, plus the title page, Table 5, Table 8 and the reference list at 100 dpi. Glyphs ʔ ŋ Δ −
+  ± ö ë ʻ all present; tables within the margins; running heads and page numbers right; "[Figure n about here]"
+  markers in place. The portal rotates the landscape TIFFs to portrait and stamps "Figure n" on them — its own
+  rendering, the uploaded TIFFs are unchanged (G12 hashes of 13:15 stand).
+- **File order fixed.** The article sat below Figures 1–4 and above Figure 5 in the file list (yesterday's and this
+  morning's drag-and-drop had not taken). A stepwise mouse drag on the row's move handle did; "Save and Continue" →
+  "Submission data saved"; the merged PDF now reads "Contains 1 Article File and 5 Figures" and the portal re-converts
+  Figures 1–4 and the merge. the re-merged PDF (object 6284; 34 pages, article first, then Figures 1–5; article text identical to the first merge) downloaded and looked at on a contact sheet.
+- **The portal's own PDF of the cover-and-response letter** (9 pages, Microsoft Print to PDF) read page by page: Part C
+  table within the margins, no overflow.
+- **Review Manuscript Data** read against `revision_v0.2/PORTAL_METADATA.md`: title, running title, abstract (159
+  words, identical to the manuscript source character for character), notes for the editors, two authors, seven
+  keywords, three subject areas, no conflict, no dual publication, manuscript comment — all as planned.
+- **PI (about 13:45): "submitnya bisa kapan saja kan? hari ini persiapan dulu, submit beneran minggu depan."** The
+  decision letter of 5 Oct gives no deadline (WORKSTATE). **Submit NOT pressed.** all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks).
+  The submission checklist for next week is `REVISION_WORKPLAN.md` §10.12.
+- Scratch files of the check (downloaded PDFs, contact sheets) stay outside the repo.

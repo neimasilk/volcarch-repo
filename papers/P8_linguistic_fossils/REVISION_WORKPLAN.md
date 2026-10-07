@@ -540,3 +540,26 @@ PDF and opened on his screen (not yet confirmed read).
    `revision_v0.2/build_docx.py`) → cover letter + response letter → number trace + adversarial read → corrections →
    Zenodo deposit of the release files (PI logs in; DOI into the data statement) → portal upload (PI logs in; metadata
    rewritten) → re-download and compare (G12) → records.
+
+### 10.12 Submission checklist for the next sitting (prepared 2026-10-07, 14:45)
+
+The revision R1 is fully prepared in the portal and **not submitted**: the PI decided on 7 Oct ("hari ini persiapan dulu,
+submit beneran minggu depan"). The decision letter of 5 Oct gives no deadline; the draft stays saved under the PI's account.
+State at close: eight files (Article File anonymised; Figures 1–5 as TIFF with captions, black and white; Author Cover
+Letter; Revision Summary = the same letter), order Article → Figures 1–5 → letters; title, running title, abstract, notes,
+keywords, subject areas, detailed information filled and reviewed; all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; the re-merged PDF (object 6284; 34 pages, article first, then Figures 1–5; article text identical to the first merge) downloaded and looked at on a contact sheet; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks).
+
+**At the sitting (PI logs in; Claude drives the browser):**
+1. Open the R1 draft from the author home page and confirm nothing has changed: eight files in the order above, title
+   and abstract as in `revision_v0.2/PORTAL_METADATA.md`.
+2. Check the mailbox and the portal correspondence for the editor's answer to the note of 7 Oct (fees — G15; anonymised
+   versus named file; tracked-changes copy). If a tracked-changes or named copy is wanted, build it first
+   (`revision_v0.2/build_docx.py` without `--anon` for the named file) and add it as Supplemental Material before submitting;
+   if a fee of any kind is confirmed, stop (G15) and bring it to the PI.
+3. "Review Manuscript Files": if the merged PDF was regenerated, download it (browser download, `inline=0`) and look at
+   the page order and a contact sheet; tick the three Approve boxes if they are not ticked.
+4. "Review Manuscript Data": read once more. 5. "Submit Manuscript": read the page, then press Submit — **only on the
+   PI's word at that sitting**. Download or screenshot the confirmation; note the revision timestamp.
+6. Records the same day: WORKSTATE §1 (status line → "revision R1 submitted <date>"), line 04 STATE, JOURNAL, handoff
+   §1, memory `project_p8_oceanic_linguistics.md`; commit (push = PI). No portal link with a session key anywhere.
+7. Afterwards, not before the decision: arXiv replacement of the preprint; Zenodo description → shortened title (optional).

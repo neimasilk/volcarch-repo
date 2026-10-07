@@ -38,6 +38,12 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > upper bound; glottal OR not carried by Tolaki); **Blust 2012:556 read in JSTOR with the PI's login** — all eight reviewer
 > references now located and read; no arXiv reply, no journal mail. Work plan **§10.9** adds three items to the PI's
 > sitting (title, abstract content, name of the G10 reader).
+> **10-07 (close, 14:45) — revision R1 fully prepared in the portal, NOT submitted: PI defers the click to next week.**
+> Written by Claude on the PI's decision (C067): manuscript (24 pp., 8 tables, 5 figures), cover-and-response letter,
+> note to the editor (sent via the portal form 10:36), Zenodo data release (DOI 10.5281/zenodo.23202245); two adversarial
+> reads + number trace; G12 passed; the portal's merged PDF looked at page by page; file order fixed; metadata reviewed;
+> all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission". **Next sitting: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.12.** Open external items:
+> editor's answer to the note (G15 fees, anonymity, tracked changes); arXiv paper-password reply (C061).
 > **10-07 (09:21–09:45):** the PI said "lakukan yg perlu dilakukan" → D1–D6, D8, D9 carried out on the material (work plan
 > **§10.10**): Word skeleton in the OL template (`revision_v0.2/P8_revision_v0.2_skeleton.docx`, eight tables, references),
 > response-letter scaffold (`RESPONSE_LETTER_SCAFFOLD_v0.2.docx`), release description completed (C065), E231 P13.
