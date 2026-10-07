@@ -10683,3 +10683,10 @@ Third Zenodo output of the project after D1 and D2.
   case). **PI: "daftarkan dulu idenya, sekarang fokus P8."** Registered I-150 (Sulawesi pilot, HYPOTHESIS), I-151 (Old
   Javanese un-derivable layer, successor of I-022/I-026), I-152 (substrate search outside basic vocabulary); TRIGGER_MAP
   paper-stage trigger; line 04 inbox. No experiment opened. Memory: `project_modern_kata_kupas.md`.
+
+## 2026-10-07 (16:00) — P8: the PI has read the final manuscript and approves it
+
+- PI, after reading `revision_v0.2/P8_revision_v0.2_FULL_PACKAGE_v2.pdf`: "naskah final sudah saya baca, dan menarik.. walaupun
+  hasilnya tidak seheboh yg saya kira, tapi lebih jujur.. dan menurutku ok." This is the authors' reading the AI declaration
+  states ("reviewed the text"); recorded as the PI's sign-off on the content. No change requested. Remaining before the
+  Submit click: the editor's answer to the note of 7 Oct (fees = G15), and the PI's word at the sitting.

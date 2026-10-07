@@ -549,6 +549,8 @@ State at close: eight files (Article File anonymised; Figures 1–5 as TIFF with
 Letter; Revision Summary = the same letter), order Article → Figures 1–5 → letters; title, running title, abstract, notes,
 keywords, subject areas, detailed information filled and reviewed; all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; the re-merged PDF (object 6284; 34 pages, article first, then Figures 1–5; article text identical to the first merge) downloaded and looked at on a contact sheet; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks).
 
+**Reading sign-off:** the PI read the full package on 2026-10-07 (16:00) and approved it without changes ("lebih jujur … menurutku ok").
+
 **At the sitting (PI logs in; Claude drives the browser):**
 1. Open the R1 draft from the author home page and confirm nothing has changed: eight files in the order above, title
    and abstract as in `revision_v0.2/PORTAL_METADATA.md`.

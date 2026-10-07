@@ -19,6 +19,7 @@
 > minggu depan"; no deadline in the decision letter). Merged PDF (what reviewers see) downloaded and looked at page by page;
 > file order fixed (article first, then Figures 1–5); Review Manuscript Data checked against `PORTAL_METADATA.md`;
 > all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; the re-merged PDF (object 6284; 34 pages, article first, then Figures 1–5; article text identical to the first merge) downloaded and looked at on a contact sheet; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks). **Next sitting: `docs/HANDOFF_20261007.md` §1, then `REVISION_WORKPLAN.md` §10.12** (checklist, then Submit).
+> **16:00 — PI has read the final package and approves it** ("lebih jujur … menurutku ok"); no change requested.
 >
 > **2026-10-07 (09:21–09:45) — P8: material finished on the PI's go-ahead ("lakukan yg perlu dilakukan"; work plan §10.10).**
 > Read as: carry out D1–D6, D8, D9 on the material; D7, D10 and all prose stay the PI's (G16). **Ready in `revision_v0.2/`:**
