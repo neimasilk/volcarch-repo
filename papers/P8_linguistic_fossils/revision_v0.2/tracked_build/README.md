@@ -40,18 +40,21 @@ in the portal as the Article File (`../P8_revision_v0.2_anonymous.docx`, hash ch
 ## Rebuilt 2026-10-08 (afternoon) against the v0.3 article file
 
 The article file changed after the check of the letters against it (two sentences in Section 2.4, one in Section 2.5, two cells and
-one row name of Table 8; rebuilt twice the same afternoon, the second time after the adversarial read added the first sentence of 2.4; `../PACKAGE_R1_20261008.md`), so the tracked copy was rebuilt with the steps above, the revised side being
+one row name of Table 8; rebuilt three times the same afternoon: after the first adversarial read added the first sentence of 2.4, and after the second dropped one page range from the reference list; `../PACKAGE_R1_20261008.md`), so the tracked copy was rebuilt with the steps above, the revised side being
 `../P8_revision_v0.3_anonymous.docx`. Result: `../P8_revision_v0.3_tracked_changes.docx` — **this is the file to upload**; the
 v0.2 tracked copy of the morning compares against the superseded article file and stays only as a record.
 
 | Check | Result |
 |---|---|
-| Accept all | text equals the v0.3 article: word-level ratio 1.00000 (10,614 words) |
+| Accept all | text equals the v0.3 article: word-level ratio 1.00000 (10,613 words) |
 | Reject all | text equals the converted submitted text except the same 4 words as before ("A (Full)", "B (Phon.)") |
-| Revisions | 519 in Word's count |
+| Revisions | 520 in Word's count |
 | Anonymity (`check_anonymity.py`, new: every XML part searched for names, affiliation, e-mail, repository, DOI; revision authors; dates; properties) | OK for the article file and for the tracked copy. The article file's `app.xml` carries "Company: Linguistics RSPAS ANU" — that string is in the journal's own template (`ol_base.docx`), not ours |
 | Word's user name after the run | restored (read back through COM) |
 | Look | markup PDF rendered (34 pages with markup); the page with the new sentence of Section 2.5 looked at |
 
 `check_anonymity.py FILE.docx …` exits with 1 if a file fails; run it on every file that can reach a reviewer (article file,
 tracked copy, response to the reviewers) after any rebuild.
+
+**In the portal since 2026-10-08** as Supplemental Material "Tracked changes" (SHA-256 `61bb7d36…`, identical to the local file; the
+portal's PDF of it has 34 pages and shows the markup). Do not rebuild it unless the article file changes: a rebuilt file has a new hash.

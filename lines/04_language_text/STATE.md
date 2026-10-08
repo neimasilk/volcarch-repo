@@ -1,7 +1,18 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-08 (~13:30) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — R1 prepared in the portal, **Submit next week (PI's word)**; package checked and rebuilt locally in the afternoon (article v0.3, letters v0.4); **before Submit: push, Zenodo 1.1, replace the portal files**
+**Updated:** 2026-10-08 (~14:45) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — **R1 complete in the portal as a draft (nine final files, approved, G12 passed), NOT submitted**; pushed; Zenodo corrected; **open: PI reads `BACA_DULU_P8_20261008.pdf`, Sander's answer, then Submit on the PI's word (Monday 12 Oct at the earliest)**
 
+> **2026-10-08 (close, ~14:45) — P8: everything is in place except the PI's reading and the Submit click.** On the PI's go-ahead
+> (browser with his logins; Zenodo publishing allowed; the journal submission stays a draft): **pushed** (GitHub head = the closing
+> commit; E229–E231 public); **Zenodo**: draft README replaced inside the published record, DOI 10.5281/zenodo.23202245 unchanged;
+> **portal draft OL-03-2026-11R1**: Article File `P8_revision_v0.3_anonymous.docx`, Figures 1–5 (each with a white top band so that the
+> portal's "Figure n" label does not cover the drawing), Author Cover Letter `COVER_LETTER_v0.4.docx`, Revision Summary
+> `RESPONSE_TO_REVIEWERS_v0.4.docx`, Supplemental Material `P8_revision_v0.3_tracked_changes.docx`; Notes for Editors rewritten; merged
+> PDF read; **G12 nine of nine**; approvals ticked; "ready for submission"; Save and Exit. **Submit not pressed.** A second adversarial
+> pass on the corrected sentences (8 findings, one high: an unverifiable page range, now omitted) was applied before the upload.
+> **Next:** PI reads `revision_v0.2/BACA_DULU_P8_20261008.pdf` → mailbox (Sander) → co-author → Submit on his word. One-page state:
+> `revision_v0.2/PORTAL_STATE_20261008.md`. The block below is the state at ~13:30.
+>
 > **2026-10-08 (afternoon, ~13:30) — P8: claim-by-claim check of the package; v0.3 of the letter superseded before the PI read it.**
 > PI: "baca handoff, review, fokus pada p8 pikirkan baik2 apa yg perlu dilakukan, kemudian lakukan". The whole article file was read and
 > every statement of the letter looked up in it: **16 statements not borne out** (written before the correction pass of 10-07 11:05 and

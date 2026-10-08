@@ -3,7 +3,9 @@
     COVER_LETTER_v0.4.md            -> .docx / .pdf   signed; portal slot "Author Cover Letter" (editors only)
     RESPONSE_TO_REVIEWERS_v0.4.md   -> .docx / .pdf   no names; portal slot "Revision Summary" (may go to the reviewers)
 
-usage: python -X utf8 build_letters.py            (Word must be installed: docx2pdf drives it for the PDF)
+usage: python -X utf8 build_letters.py [COVER_LETTER | RESPONSE_TO_REVIEWERS]
+       (no argument = both; Word must be installed: docx2pdf drives it for the PDF. A rebuilt .docx has a new hash,
+       so rebuild only the letter that changed once files are in the portal.)
 
 pandoc writes the .docx with a reference document made here (letter_reference.docx: Times New Roman, plain black
 headings) instead of pandoc's default look. The document properties are cleared, so that the response carries no
@@ -66,7 +68,10 @@ def clear_properties(path, title):
 def main():
     make_reference()
     from docx2pdf import convert
+    only = [a for a in sys.argv[1:] if not a.startswith('-')]   # e.g. `build_letters.py COVER_LETTER`: a rebuilt .docx gets a new hash
     for stem, title in JOBS:
+        if only and stem not in only:
+            continue
         md = HERE / f"{stem}_{VERSION}.md"
         out = HERE / f"{stem}_{VERSION}.docx"
         subprocess.run(["pandoc", str(md), "-f", "markdown+smart", "-t", "docx", "--reference-doc", str(REF), "-o", str(out)], check=True)

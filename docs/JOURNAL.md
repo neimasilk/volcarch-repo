@@ -10835,3 +10835,49 @@ Guide: `papers/P8_linguistic_fossils/revision_v0.2/PACKAGE_R1_20261008.md`. Ledg
   upload, mail, push or deposit; no commit.
 - Records: `PACKAGE_R1_20261008.md`, handoff, WORKSTATE, STATE 04, work plan §10.14, ledger C069, E229 README (A11), `tracked_build/README.md`,
   `PORTAL_METADATA.md`, `release/ZENODO_METADATA.md`, memory. Canary green 223 (no new experiment; E229 amended).
+
+## 2026-10-08 (~13:30–14:45) — P8: pushed, Zenodo description corrected in place, all nine files in the portal draft; NOT submitted
+
+PI, in three messages: "lakukan yg perlu dilakukan, pakai playwright, saya loginkan.. jangan submit dulu, SEMUA harus sudah siap saat
+submit, yg perlu saya baca dimana lokasinya?" · "ok, sudah saya loginkan" · "untuk zenodo submit gpp.. yg jangan submit dan draft adalah
+yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan push.. kita lanjutkan senin, saya mau keluar kota".
+
+- **Reading copy for the PI:** `papers/P8_linguistic_fossils/revision_v0.2/BACA_DULU_P8_20261008.pdf` (15 pp.; `build_reading_pdf.py`).
+- **Commit `010b1f5` and push** (21 commits; `b543824` → `010b1f5`). Before it, a scan of the 2.5 MB of added lines: no session link, no
+  credential pattern, none of 27 reviewer/editor phrases. The scan flagged 35 tracked files `.playwright-mcp/page-2026-04-09*.yml`
+  (snapshots of the ArchCalc submission pages, no credentials): they are on GitHub since 16 April and not part of this push; the folder is
+  ignored now; untracking them is left to the PI. After the push: the five folders E227–E231 and `LICENSE` answer on github.com.
+- **Zenodo.** The record's edit form offers "Edit published files" for minor corrections within 30 days. Used that instead of a version
+  1.1: checklist answered (no new version; no modification of files that supplement an already published work), draft README deleted,
+  corrected README uploaded (its wording changed from "version 1.1" to "corrected on 2026-10-08" first), description's first sentence
+  now carries the article's current title, published. Public API without login: DOI 10.5281/zenodo.23202245 unchanged, version 1.0,
+  README md5 3952faf2… identical to the local file, CSV files unchanged. Consequence: the version DOI is cited again (named build, cover
+  letter); the concept-DOI plan of an hour earlier is dropped.
+- **Second adversarial pass** (fresh reader, only the 31 texts rewritten after the first pass): 23 borne out, 8 findings — HIGH: "one page
+  range could be confirmed only at second hand" (never confirmed; two ranges circulate) → **page range of Lundberg and Lee 2017 omitted
+  from the reference list** (`references.bib`); MEDIUM: "another model (26 inputs…)" described the headline model itself (E230 README:
+  the 26-input model under other fold seeds) and Sirk was put on the path of the 38 percent; five LOW. All verified, corrected; article
+  (anonymised text differs from v0.2 in six lines), tracked copy (520 revisions; accept-all 1.00000 on 10,613 words) and letters rebuilt;
+  `check_letters.py` passes. The new manuscript sentence on what a classifier is and the cover letter were found right.
+- **Portal** (PI logged in; Playwright MCP). *Files*: Article File, Figures 1/3/4, cover letter and revision summary replaced through the
+  rows' Replace inputs; tracked copy uploaded as Supplemental Material "Tracked changes" with a description. *Title* step: Notes for
+  Editors rewritten (signed cover letter; response without names in Revision Summary; tracked copy; DOI and repository in the cover
+  letter). *Review Manuscript Files*: merged PDF and the converted PDFs downloaded and read (merged: 34 pp., article first, no identity
+  string; response 8 pp. with ʔ, κ, Δ intact; tracked copy shows markup).
+- **Found in the merged PDF:** the portal prints a large "Figure n" over the top centre of each image (landscape ones rotated); it
+  covered the first box of Figure 2 and the first row label of Figure 1 — true of the upload of 7 October too, noted then as "its
+  rendering". Fixed on our side: E229 amendment A12, `10_tiff_top_band.py` adds a white band of 480 px at the top of the five TIFFs
+  (drawings pixel-identical below it); one sentence in the cover letter; all five figures and the cover letter uploaded again; second
+  merged PDF downloaded: the label sits on white.
+- **G12:** the nine source files fetched back inside the session and hashed in the browser — nine of nine identical to the local files
+  (`PORTAL_STATE_20261008.md` §2). The four Approve boxes ticked after opening each PDF from its row; the Submit step reads "Your
+  manuscript is ready for submission"; left with Save and Exit ("Submission data saved"). **Submit Manuscript was not pressed.**
+- **Mailbox** again at 13:35 (list only): nothing from Sander, nothing from arXiv.
+- **Tried and failed / corrected on the way:** a first click on Zenodo's Edit button timed out (the buttons are hidden below 1,400 px
+  width); "Edit files" is an accordion title, not a button; leftover one-shot dialog handlers threw "already handled" errors after the
+  portal's "Submission data saved" alert (one persistent handler instead); a conversion poll ran past the tool's 120 s and went to the
+  background; a regex in a heredoc lost a backslash again (script files through the Write tool from then on).
+- **Not done:** Submit (the PI's word, Monday at the earliest); the PI's reading; a third adversarial pass on the nine sentences changed
+  after the second; the co-author has not been told (PI).
+- Records: `PORTAL_STATE_20261008.md` (new), `PACKAGE_R1_20261008.md`, handoff, WORKSTATE, STATE 04, work plan §10.14, ledger C069, E229
+  README (A12), `tracked_build/README.md`, `PORTAL_METADATA.md`, `release/ZENODO_METADATA.md`, memory. Canary green 223.

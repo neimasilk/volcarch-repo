@@ -2,7 +2,7 @@
 
 **Status:** SUCCESS — all files produced; 75 of 75 anchors reproduce; the independent re-derivation agrees in 163 of 163 cells.
 **Lines:** 04_language_text (P8 revision). **Date:** 2026-10-06.
-**Design:** `DESIGN.md`, frozen before the script was written; nine dated amendments in its §8 and two more below (A10, A11; none changes a number; A6 and A7 add post hoc descriptive counts; A8 renames four labels; A9 redraws Figure 1 to the press's image guidelines).
+**Design:** `DESIGN.md`, frozen before the script was written; nine dated amendments in its §8 and three more below (A10, A11, A12; none changes a number; A6 and A7 add post hoc descriptive counts; A8 renames four labels; A9 redraws Figure 1 to the press's image guidelines).
 **Follows:** E227 (audit), E228 (reviewer analyses). Nothing in E022–E228 was changed. **No manuscript text here** (gate G16).
 
 ## Hypothesis
@@ -238,3 +238,15 @@ and no stored result changes; three figure files and one table source do.
   unwritten −0.001437, geminate −0.004883, input removed −0.019721.
 - `results/as_uploaded_20261007/`: the five TIFF files as uploaded to the portal on 2026-10-07 with their SHA-256
   (`SHA256.txt`; the TIFFs themselves are git-ignored) and the three replaced PNG previews.
+
+## Amendment A12 (2026-10-08) — a white band at the top of the five TIFFs: `10_tiff_top_band.py`
+
+The journal's submission system builds a merged PDF for editors and reviewers, gives every figure a page (landscape figures
+rotated) and prints a large label "Figure n" over the top centre of the image. On the files uploaded on 2026-10-07 and again on the
+first upload of 2026-10-08 that label covered the first box of Figure 2, the first row label of Figure 1 and parts of the other plots
+(seen in the downloaded merged PDF; the label takes roughly the top 400 pixels of each 1,000-dpi image). The script adds a white band
+of 480 px at the top of each `.tif` and records it in the file's ImageDescription tag (it skips a file that already has the band).
+Checked: below the band every drawing is pixel-identical to the file before; widths unchanged (≤ 312 pt). After the second upload
+the label sits on white in the merged PDF. The `.png` and `.pdf` previews carry no band. Order of scripts for a rebuild:
+`07_figures_revision.py` / `08_figure1_legend.py`, then `10_tiff_top_band.py`. Figures 2 and 5 are thus no longer byte-identical to the
+upload of 2026-10-07, but identical below the band (`papers/P8_linguistic_fossils/revision_v0.2/make_manifest.py --check`).

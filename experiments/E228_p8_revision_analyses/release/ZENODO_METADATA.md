@@ -17,33 +17,34 @@ Form-level data for the article "Uncoded basic vocabulary in six Sulawesi word l
 
 ---
 
-## Version 1.1 — PREPARED 2026-10-08, NOT YET DEPOSITED (needs the PI's login and his click on Publish)
+## 2026-10-08, afternoon — the description file was corrected INSIDE the published record (same DOI); no version 1.1
 
-**Why.** The `README.md` inside the published version 1.0 is the working draft: checked on 2026-10-08 by downloading it from the
-public record (20,773 bytes, md5 `3783944aac3876486d11026b010853f7`). It opens with an internal status note ("completed for the PI's
-reading before deposit … Still the PI's: read the whole file; fill the two placeholders …"), is headed "Description of the two
-data files", and carries unfilled fields: `[title of the revised article]`, "to be confirmed by both authors", `[date of deposit]`,
-`[year]`, `[title above]`, `https://doi.org/[DOI]`, `[repository URL]` (twice), and "Makasar (or Makassar — the authors' spelling
-decision)". The five CSV files in the record are correct (md5 identical to this folder). The first reviewer asked for exactly this
-release, so the description file should be clean before the revision is submitted.
+**Why.** The `README.md` in the record published on 2026-10-07 was the working draft (downloaded from the public record and
+read on 2026-10-08: 20,773 bytes, md5 `3783944aac3876486d11026b010853f7`): an internal status note at the top ("completed for
+the PI's reading before deposit … Still the PI's: read the whole file; fill the two placeholders …"), the heading "Description
+of the two data files", and unfilled fields — `[title of the revised article]`, "to be confirmed by both authors",
+`[date of deposit]`, `[year]`, `[title above]`, `https://doi.org/[DOI]`, `[repository URL]` (twice), "Makasar (or Makassar — the
+authors' spelling decision)". The five CSV files were right. The local copy's line "this copy is the one in the deposit except
+for this status line" was not true of three more lines.
 
-**What changes.** Only `README.md` (the file in this folder, 20,438 bytes after the correction: working note removed, fields
-filled, "How to cite" with the concept DOI, repository URL, one line saying that the data files are unchanged since 1.0). No CSV
-changes. The local note that said "this copy is the one in the deposit except for this status line" was not true of three more
-lines and is gone.
+**What was done** (PI logged in and said that publishing on Zenodo was fine; Claude drove the browser, about 13:45 WIB).
+Zenodo offers two ways to change files: a new version, or — "to correct minor errors" — unlocking the files of a record
+within 30 days of publication. This is a correction of the description only, so the second way was used: *Edit* → *Edit files*
+→ *Edit published files*; checklist answered "No" to "I want to update the files with a new version" and the box "I will not
+modify files that supplement findings/results of an already published work" ticked (true: only the description changes, and
+the article is not published); `README.md` deleted and this folder's `README.md` uploaded; in the description the first
+sentence now names the article by its current title, and a last sentence was added ("The description file (README.md) was
+corrected on 2026-10-08; the data files are unchanged."); *Publish*.
 
-**Steps at the sitting** (Zenodo → the record → *New version*; files cannot be replaced inside a published version):
-1. *New version* on record 23202245. Remove the old `README.md`, upload this folder's `README.md`; keep the five CSV files.
-2. Version: `1.1`. Publication date: the day of publishing.
-3. Description: replace the first sentence by
-   `Form-level data for the article "Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database" (Oceanic Linguistics, manuscript OL-03-2026-11, revised version).`
-   (version 1.0 names the article by an earlier, longer title), and add at the end:
-   `Version 1.1 corrects the description file (README.md) only; the data files are unchanged from version 1.0.`
-4. The PI presses Publish. Record the new version DOI here and in the line STATE; check the public record afterwards by
-   downloading `README.md` and comparing it with this folder's file (G12).
-5. **Before this step the 20 local commits must be on GitHub**: the README points to `experiments/E227` … `E231` in the public
-   repository, and E229–E231 are not there until the push.
+**Result, checked without login through the public API** (`zenodo.org/api/records/23202245`, 13:46 WIB): DOI
+**10.5281/zenodo.23202245** unchanged (concept DOI 10.5281/zenodo.23202244), version 1.0, publication date 2026-10-07;
+`README.md` 20,356 bytes, md5 `3952faf28995e9222ff71895af01edb8`, **byte-identical to this folder's file**, no placeholder
+left; the five CSV files carry the same md5 as before; description updated. The draft README is no longer downloadable from
+the record (a copy of it is in the git history of this folder: the version of commit `92c29bd` plus the status line).
 
-**Which DOI is cited.** The cover letter and the named build of the article (`P8_revision_v0.3.md`) cite the concept DOI
-`10.5281/zenodo.23202244`, which resolves to the latest version, so nothing has to be edited after version 1.1 exists. The
-anonymised article file redacts the DOI.
+**Which DOI is cited.** The version DOI 10.5281/zenodo.23202245, as in the manuscript the PI approved on 2026-10-07 (the
+named build and the cover letter; the anonymised article file redacts it). A plan to cite the concept DOI, made while a
+version 1.1 was expected, was dropped the same afternoon.
+
+**Before the correction the 21 local commits were pushed** (GitHub head `010b1f5`), so the folders `experiments/E227` … `E231`
+that the README and the record's description point to are public.

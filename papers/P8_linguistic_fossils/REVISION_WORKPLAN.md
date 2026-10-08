@@ -633,3 +633,10 @@ Order at the sitting: mailbox → push → Zenodo 1.1 → portal → G12 → Sub
 date, the claims and the abstract are unchanged. **Rule added for this paper (controller's reading):** after any correction pass on the
 manuscript, the response letter is re-traced against the final article file (`check_letters.py` plus a read of every "Section n says"
 statement), and anything already published (Zenodo, GitHub) is downloaded back and read before a letter cites it.
+
+**Carried out the same afternoon (~13:30–14:45), on the PI's go-ahead:** push; Zenodo description corrected inside the record (same
+DOI; no version 1.1 after all); second adversarial pass applied (one page range dropped from the reference list); all nine files in
+the portal draft, with a white top band on the five figure files because the portal prints "Figure n" over the image; Notes for
+Editors rewritten; merged PDF read; G12 nine of nine; approvals ticked; **not submitted**. Record: `revision_v0.2/PORTAL_STATE_20261008.md`.
+What is left of §10.12: the PI's reading (`revision_v0.2/BACA_DULU_P8_20261008.pdf`), the mailbox, step 5 (Submit on the PI's word),
+step 6 (records).

@@ -1,6 +1,6 @@
 # Description of the data files
 
-> Version 1.1 of the deposit. The five data files are unchanged from version 1.0 (published 2026-10-07); only this description was corrected: fields that version 1.0 left unfilled are completed, and a working note at the top was removed.
+> This description was corrected on 2026-10-08: fields that the first upload left unfilled are completed, and a working note at the top was removed. The five data files are unchanged since publication (2026-10-07).
 
 ## 0. Deposit metadata
 
@@ -8,10 +8,10 @@
 |---|---|
 | Title | Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release |
 | Authors | Mukhlis Amien (Universitas Bhinneka Nusantara; ORCID 0000-0002-1848-167X) and Go Frendi Gunawan (Universitas Bhinneka Nusantara) |
-| Version | 1.1 (this description corrected; the data files are those of version 1.0, written 2026-10-05 from ABVD snapshot `917c5a5`) |
-| Date | version 1.0: 2026-10-07; version 1.1: October 2026 |
+| Version | 1.0 (the data files were written 2026-10-05 from ABVD snapshot `917c5a5`; this description was corrected on 2026-10-08) |
+| Date | 2026-10-07 (published) |
 | Licence | CC BY 4.0 — the same licence as ABVD, from which the forms, cognate-set numbers, loan flags and names are copied; the derived columns (scores, distances, cells) are released under the same licence |
-| How to cite | Amien, Mukhlis & Go Frendi Gunawan. 2026. *Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23202244 (this DOI resolves to the latest version) — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
+| How to cite | Amien, Mukhlis & Go Frendi Gunawan. 2026. *Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23202245 — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
 | Related publication | the article in *Oceanic Linguistics* (manuscript OL-03-2026-11), to be linked once published |
 | Files | `p8_forms_all.csv` (1,357 rows), `p8_candidates.csv` (438 rows), `p8_makasar_uncoded_meanings.csv` (70 rows), `p8_tolaki_pmp_lookalikes.csv` (12 rows), `p8_cell_examples.csv` (92 rows), this `README.md` (sections 8–10 describe the three smaller files) |
 | Code | the scripts that built the files and the analyses that use them are in the public project repository, folder `experiments/E228_p8_revision_analyses/` (and E227, E229–E231): https://github.com/neimasilk/volcarch-repo |

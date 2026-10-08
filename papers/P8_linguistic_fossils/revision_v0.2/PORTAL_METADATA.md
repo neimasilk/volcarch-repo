@@ -26,3 +26,17 @@ Historical linguistics; Phonology; Lexicology
 - **Update 2026-10-08 (Managing Editor's reply):** the letter should be a Word document with bulleted answers → `COVER_AND_RESPONSE_v0.3.docx` replaces v0.2 in *Author Cover Letter* and *Revision Summary* (after the PI has read it; `LETTER_v0.2_to_v0.3_CHANGES.md`); a tracked-changes copy is wanted beside the clean Article File → `P8_revision_v0.2_tracked_changes.docx` goes in as *Supplemental Material* (`tracked_build/README.md`). The Article File is unchanged (anonymised, as the editor asks if another round is needed). Nine files then, not eight. No charges (G15 fee row closed).
 - **Update 2026-10-08, afternoon (supersedes the line above for the files; `PACKAGE_R1_20261008.md`):** a check of the letter against the article file found sentences the article did not bear out, two cells of Table 8 and three figure defects. To upload now: Article File = `P8_revision_v0.3_anonymous.docx`; Figures 1, 3, 4 = the redrawn TIFFs (Figures 2 and 5 stay); *Author Cover Letter* = `COVER_LETTER_v0.4.docx` (signed); *Revision Summary* = `RESPONSE_TO_REVIEWERS_v0.4.docx` (no names — it may go to the reviewers); *Supplemental Material* = `P8_revision_v0.3_tracked_changes.docx`. Title, running title, abstract, keywords and captions are unchanged. Hashes: `python -X utf8 make_manifest.py --check`. Before Submit: push to GitHub (the data statement points to folders that are not public yet) and Zenodo version 1.1 (corrected README).
 - After upload: download every file back from the portal and compare byte-for-byte or by text (gate G12); record the revision number and timestamp in `docs/WORKSTATE.md`, the line STATE and JOURNAL (no portal link with a session key).
+
+**Update 2026-10-08, ~14:30 — carried out in the portal (not submitted).** Files as in `PORTAL_STATE_20261008.md` §2 (nine files;
+all five figure files now carry a white top band). *Notes for Editors* (field `alternate_abstract` of the Title step) now reads:
+
+> Revision of OL-03-2026-11 following the decision of 5 October 2026. The Author Cover Letter is signed and lists the files, the data
+> DOI and the repository address. The point-by-point response to both reviewers, with a separate part on the corrections by the
+> authors, is uploaded as Revision Summary; it carries no author names, so that it can be passed to the reviewers. A copy of the
+> article with tracked changes is uploaded as Supplemental Material, as the Managing Editor advised on 8 October 2026; the Article File
+> is the clean copy. A note announcing the authors' own corrections was sent through the manuscript correspondence form on 7 October
+> 2026. The title has changed. The anonymised Article File redacts the data DOI and the repository URL; both are in the cover letter.
+
+Supplemental Material: title "Tracked changes"; description "Copy of the article with tracked changes: a Word conversion of the
+submitted text compared with the revised Article File. The Article File is the clean copy." Title, running title, abstract, keywords,
+subject areas, manuscript comment, figure titles and captions: unchanged.

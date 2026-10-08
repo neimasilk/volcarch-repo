@@ -43,7 +43,7 @@ for p in docx.Document(str(ART)).paragraphs:
 # 1 ------------------------------------------------------------------------------------------- numbers
 # not in either text by their nature: manuscript number and dates; the DOI; the reviewer's own figure (30.1, quoted from
 # the report); 356 = the sum of the residual column of the submitted Table 1 (26+49+32+68+67+114); pages 491/492 of Mills
-ALLOW = {"03", "2026", "7", "8", "10.5281", "23202244", "30.1", "356", "492", "1989", "2001"}
+ALLOW = {"03", "2026", "7", "8", "10.5281", "23202245", "30.1", "356", "492", "1989", "2001"}
 tok = re.compile(r"(?<![\w.])\d[\d,]*(?:\.\d+)?(?![\w])")
 print("1. numbers")
 for name, path in LETTERS.items():
