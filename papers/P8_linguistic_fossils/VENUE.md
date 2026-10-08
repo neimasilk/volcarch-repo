@@ -95,7 +95,14 @@ of evidence and says where a single item is weak.
 | Venue chosen before drafting | n/a at this stage (manuscript is in revision at the venue) |
 | ≥ 5 recent articles summarised | **partly**: 7 articles with length, kind and claim; structure and table conventions seen in **one** full text. Reading two more in full (item 7) would close it |
 | Manuscript follows the venue's template | **not yet** (LaTeX; conventions of §1 not applied) |
-| All costs verified zero, with URL and date | **open** — silence on every page (2026-10-05 and 2026-10-06); needs the editor's answer |
+| All costs verified zero, with URL and date | **CLOSED for fees, 2026-10-08** — the journal's Managing Editor wrote that there are no charges for standard publication (e-mail, not a URL; `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261008.md`). Silence on every public page (2026-10-05, -06, -07) is thus explained. Not asked: offprints/reprints; our figures are greyscale. We take no paid open-access option |
+
+> **Addendum 2026-10-08 (answers of the Managing Editor; supersedes the "open" cells above where they differ).**
+> §0 item 5 and the §1 rows "Fees, open access" and "Revised submission": **fees = none for standard publication** (G15 fee row
+> closed, see the row above); **revised submission** = anonymise if another round is needed; **tracked-changes version and clean
+> copy both wanted**; response letter as a Word document with bulleted answers, substantive points only. The editor's first name
+> and title: Owen Edwards signs as *Managing Editor* (the "assistant" in §1 comes from a 2022 instructions page). The rows
+> "Template" and "Notes" are untouched. Details and what they change in the package: `REVISION_WORKPLAN.md` §10.13.
 
 ## 5. Not opened / not verified
 

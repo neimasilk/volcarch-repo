@@ -10703,3 +10703,43 @@ Third Zenodo output of the project after D1 and D2.
 
 - PI: "ok gpp.. bisa ikut pendanaan tahun depan." P8 is not entered for the 2026 DIKTI window; its publication (earliest
   issue June 2027) is a candidate for next year's scheme. No fee is expected at the journal; nothing changes for the submission.
+
+## 2026-10-08 (~10:20) — P8: the Managing Editor of Oceanic Linguistics answered the practical questions; Sander's answer on content is still pending
+
+- **Recorded first, then reviewed** (PI: "catat dulu dan review"). Canary green 223, inBox empty at session start. Mail from Owen
+  Edwards (signs as Managing Editor) arrived 09:35 WIB, answering the note of 7 Oct; it is paraphrased in
+  `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261008.md` (original stays in the PI's mailbox).
+- **Answers (paraphrase):** no author charges for standard publication (G15 fee row closed; the journal's written word, 2026-10-08);
+  anonymise the revision if another round is needed; tracked-changes version **and** clean copy both wanted; response letter as a
+  Word document with bulleted answers, substantive points only. He leaves to Sander whether the corrections of our own may be
+  handled inside this revision and whether a further review round is needed — **no answer yet**, and nothing in the mail is a sign
+  on the substance.
+- **Review of the prepared R1 package (not submitted) against the answers:** (1) no tracked-changes file, and no Word baseline
+  exists (first submission = PDF from LaTeX) → conversion + Word Compare, with the comparer's name/properties neutralised or the
+  anonymity is lost; (2) the letter is already .docx but long prose — compress to bullets, one line for **every** reviewer point,
+  expand only the substantive ones; (3) Part D of the letter asks three questions that are now answered → replace; (4) the letter was
+  approved by the PI on 10-07 16:00, so a changed letter needs his OK again, a G1 trace, a regenerated merged PDF, Approve boxes
+  ticked again and G12. Ledger C068. **Submit date unchanged** (next week); at the sitting the mailbox is read first and, if Sander
+  asks for another procedure, Submit waits.
+- **Not done by design:** no file of the package changed, nothing sent, nothing uploaded. Tried and failed: nothing.
+- Records touched: correspondence note, `REVISION_WORKPLAN.md` §10.13, `VENUE.md` addendum + G15 row, `SUBMISSION_CHECKLIST.md`
+  (editor's title), WORKSTATE, STATE 04, handoff §1, ledger C068, memory.
+
+## 2026-10-08 (~11:00) — P8: tracked-changes copy and letter v0.3 built (PI: "lakukan yg perlu dilakukan, tapi pikirkan baik2")
+
+- **Tracked copy** (`papers/P8_linguistic_fossils/revision_v0.2/P8_revision_v0.2_tracked_changes.docx`; build + QA in `tracked_build/README.md`). The first
+  submission was a PDF from LaTeX, so the baseline is a pandoc conversion of the submitted `.tex` (images dropped, 30-odd math snippets to plain
+  text, "&" → "and" in citations), compared with the Article File now in the portal through Word's Compare. Tried and corrected on the way: a
+  first Lua filter lost a backslash level in the shell (rewrote it with the Write tool); a first serial-comma regex had the same fault; Word writes a
+  placeholder date (1900, hour 29) after "remove date and time" and a `w16du:dateUtc` attribute — both stripped; pandoc had left the submitted
+  abstract as a custom document property — deleted. QA: accept-all = revised text (ratio 1.00000), reject-all = old text except 4 words in table
+  cells with a tracked cell merge (present as tracked deletions); anonymity checked in every XML part (author "Author", no dates, no personal
+  strings, no data DOI); Word's user name restored. 519 revisions, mostly replaced blocks (Sections 2–3 were rewritten) — stated in the letter.
+- **Letter v0.3** (bulleted; Part D replaced by the practical matters; `LETTER_v0.2_to_v0.3_CHANGES.md`). Word-level diff against v0.2: only sentence
+  splits, labels, the Part C markers, one phrase and the DOI wording; every numeric token of the body unchanged; all 38 reviewer-point labels
+  present. 10 pages against 9. **Defect found in v0.2 (approved by the PI on 10-07):** it said twice that "the DOI is given in the text", while the
+  anonymised Article File redacts the data DOI and the repository URL; v0.3 states the DOI in the letter and says it is withheld in the anonymised
+  file (the PI may strike the DOI; changes note).
+- **Not done, by design:** nothing uploaded or sent; the portal still holds v0.2 and eight files; the manuscript file is untouched; no push. Ledger
+  C068 → built, awaiting the PI's reading. At the sitting: mailbox (Sander) → replace the two letter files, add the tracked copy as Supplemental
+  Material → regenerate and look at the merged PDF → Approve → G12 → Submit on the PI's word.

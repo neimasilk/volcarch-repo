@@ -1,0 +1,133 @@
+---
+title: "Cover letter and response to the reviewers — manuscript OL-03-2026-11"
+---
+
+**To the Editors of *Oceanic Linguistics***
+
+Dear Professor Adelaar,
+
+We submit the revised version of manuscript OL-03-2026-11, now titled *Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database*. We are grateful to both reviewers and to the editors. The first reviewer's comments corrected our classification and terminology and sent us to the literature on Makasar and Tolaki; the second reviewer's highlights told us, point by point, where a reader of the journal would be lost in Section 3. We have tried to answer every one of them.
+
+As we wrote in our note of 7 October 2026, the revision also corrects errors of our own that we found when we re-derived every number of the submitted text from the raw ABVD files. Part C of this letter lists them. They change the abstract, the title and the claims of the paper: the classifier is now presented as a ranking aid rather than a detector of substrate vocabulary; the "two-method consensus", the clustering, the ablation table, the sixteen-language expansion and the section on Javanese script are removed; the negative result about a shared layer is replaced by a statement of what a permutation test measures; and two subsections on Makasar and Tolaki answer the first reviewer's questions with counts from the data. One label definition is used throughout, so the Tolaki list released for inspection has 134 items rather than the 114 of the submitted Table 1.
+
+The manuscript is 24 pages in the journal's template, with eight tables and five figures (uploaded separately as TIFF files; four of them are new: a workflow diagram and three charts of the tables' numbers, added for readers who do not work with classifiers). The data files described in the data statement are deposited at Zenodo (DOI 10.5281/zenodo.23202245; the DOI and the repository address are withheld in the anonymised article file, see Part D); the analysis scripts, the decision rules written before the analyses were run, and all result files are in the public project repository named in the data statement. The declaration on the use of artificial intelligence has been rewritten to cover the text as well as the analyses.
+
+As the Managing Editor advised on 8 October 2026, the answers are given as bullets: one line for every point of the two reports (Parts A and B, in the reviewers' own numbering), with more detail where a point is substantive; Part C lists the corrections by the authors; Part D, the files and practical matters.
+
+With best regards,
+
+Mukhlis Amien (corresponding author) and Go Frendi Gunawan
+Universitas Bhinneka Nusantara
+
+---
+
+# Part A. Reviewer 1
+
+- **Opening remark — the SHAP beeswarm plot cannot be followed.** We agree.
+    - Figure 1 is now a plain bar chart of the mean absolute contribution of each input to the predictions of the final model, with the inputs named by what the code computes and the direction of the association given in the legend; the software title, the raw variable names and the caption's sign error are gone.
+    - Section 2.4 says what the bars measure, and Section 3.5 says what the figure is and is not: a description of the classifier, not of the vocabulary.
+
+- **R1-1 — "resist reconstruction to any proto-form" is too strong.** Accepted.
+    - The two sentences now speak of higher-level proto-forms (Sections 1 and 2.2).
+    - The point reaches further than wording: Section 3.3 reports that 70.9 percent of Tolaki's uncoded forms have a same-meaning look-alike in Proto-Bungku-Tolaki or in one of 42 other Bungku-Tolaki lists (10.5 percent expected by chance; 95.9 percent for the coded Tolaki forms). The text states that this is a mechanical screen across lists that are almost all one compiler's, not a set of etymologies, and that recurrence within a subgroup says nothing about origin — the reviewer's own example of a word borrowed by the speakers of a low-level proto-language is given as the reason.
+
+- **R1-2 — Makasar: how does our figure fit the published 38 percent, and what does the study add?** The new Section 3.2 and Table 2 answer this.
+    - From ABVD, per meaning (201 meanings with a PMP entry), the Makasar form is in the PMP entry's cognate set for 39.3 percent of meanings (Wilson 95 percent interval 32.8 to 46.2), coded in another set for 25.9 percent, and uncoded for 34.8 percent; Bugis 48.3 / 28.4 / 23.4, Sa'dan Toraja 48.0 / 33.0 / 19.0. We name the first class by what is counted (a form in the PMP entry's set): it is a lower bound on retention, since an uncoded meaning cannot share a set with the PMP entry whatever its origin.
+    - What distinguishes Makasar from its relatives in these data is one fact — more uncoded meanings (exact McNemar p = 0.006 against Bugis, 0.0001 against Sa'dan Toraja). Its lower share in the PMP set and its smaller share of common sets with each relative are that fact counted again, because on the meanings coded in both lists the shares are equal (70 against 69 of 110; 70 against 71 of 115).
+    - A look-alike screen finds a PMP look-alike for 2 of 75 uncoded Makasar forms (about one expected by chance; the screen's sensitivity on forms ABVD itself places in the PMP set is 38 percent, an upper bound for cognates the coders missed) and a Bugis or Sa'dan Toraja look-alike for 10 of 80 (chance 3.8 percent; 90 of 136 among coded forms). The screen therefore does not favour the reading that the uncoded forms are merely uncoded cognates; it leaves open what they are.
+    - On the published figure we read Bellwood (1997:115), Sirk (1989:71) and Bulbeck, Pasqua and Di Lello (2000:103). The 38 percent is Blust's lexicostatistical count against a 200-item PMP list as reported by Bellwood, beside a Western Malayo-Polynesian mean of 41 percent; ABVD's PMP list is Blust's too, so our 39.3 percent is a count of the same kind in the same tradition on another Makasar word list. The manuscript says that their agreement is not independent confirmation and that in its source the figure is not presented as low. Sirk's Table 1 (45 / 42 / 60 for Makasar–Bugis, Makasar–Sa'dan, Bugis–Sa'dan) is given as a more independent comparison beside ABVD's 41.4 / 39.2 / 53.1.
+    - The manuscript states that the data are compatible with the lexical divergence reported in the literature, that they do not establish it, and that they say nothing about its cause. The 70 uncoded Makasar meanings, with the Bugis and Sa'dan Toraja forms and the PMP entry, are in the released files for anyone able to judge them.
+    - Two smaller points. The report gives our earlier figure as 30.1 percent; the submitted Table 1 printed 30.9 percent. Mills's divergence claim is at pp. 491–492 of the dissertation (the pages cited in the report hold cognate sets), and the text cites it there; the 62 percent 'open to investigation' is addressed in Section 3.2 as the complement of a retention count, which cannot be set against the uncoded share of Table 1.
+
+- **R1-3 — the cited source lists eleven subgroups; Sneddon 1993 could be cited.** Accepted. Section 1 now says that Blust (2013:82) lists eleven microgroups and that Sneddon (1993:2) counts nine plus Banggai as a group of one; the word "primary subgroups" is dropped, since neither source uses it, and the edition cited is the one we read (2013).
+
+- **R1-4 — Celebic is a supergroup.** Accepted. The three subgroups named as examples are South Sulawesi, Bungku-Tolaki and Muna-Buton; Celebic is described as the supergroup proposed with reservations by van den Berg (1996) and Mead (2003). Because three of our four subgroups fall inside it, Section 3.7 notes that "across four subgroups" overstates their independence.
+
+- **R1-5 — "parallel innovation" is a technical term.** Accepted; the term is gone, as is the subsection it headed.
+    - We have not adopted "independent innovations" in its place, because the test behind the submitted negative result did not test that hypothesis (it compared a mean over twenty meanings with single draws of mostly coded vocabulary).
+    - The permutation test that replaces it (Section 3.7) finds that, among uncoded forms, same-meaning forms are slightly more alike across lists than different-meaning forms (none of 10,000 permutations; four look-alike pairs against 0.5 expected; for the coded forms 472 against 8.5). The coded class, where recognised shared vocabulary lives, is not examined by this test, so the paper now makes no claim about a shared layer, positive or negative.
+
+- **R1-6 — "three subgroups" but four listed; grouping; spelling; abbreviation.** Accepted on every point. The four subgroups are given as the reviewer gives them: Muna-Buton (Muna), Wotu-Wolio (Wolio), South Sulawesi (Bugis, Makasar, Sa'dan Toraja) and Bungku-Tolaki (Tolaki); Sa'dan Toraja is nowhere Celebic. We use *Makasar* and *Sa'dan Toraja*, and Section 2.1 says which ABVD list the Sa'dan Toraja data come from (list 226, "Tae' (S. Toraja)", from van der Veen 1940). The abbreviation of Bolaang Mongondow disappears with the sixteen-language table and figure (Part C).
+
+- **R1-7 — "under-documentation" is unclear.** The word is withdrawn (Section 3.3).
+    - What we meant is that 75 of the 209 Tolaki forms (35.9 percent) carry a cognate-set number. The list is not short of data: it fills 200 of 210 meanings, and 88.4 percent of its uncoded forms whose meaning the five Tolaki dialect lists cover recur in those lists.
+    - What is sparse is the coding of the subgroup: by meaning, on shared meanings, the Tolaki list is coded for 38.3 percent, the dialect lists for 36.1 to 40.6 percent, and the 42 other Bungku-Tolaki lists for a median of 46.7 percent (five at or below the Tolaki figure); the unit matters because the share by form falls with the length of a list.
+
+- **R1-8 — Muna *dh* is missing from the digraph list.** Two Muna forms contain *dh*: *akaradhaa* 'to work' and *idho* 'green'. Both are cognate-coded and both were converted in the test; the sentence omitted *dh* (and Wolio *gh*, which occurs in no form). The count of converted forms (75: Muna 54, Tolaki 20, Sa'dan Toraja 1) is unaffected. No loanword was removed from the classifier's data; *akaradhaa* carries ABVD's loan flag and stays in. The script's single-character placeholders for *gh*, *bh* and *dh* say nothing about Muna phonology, and the text no longer calls *dh* a fricative.
+
+- **R1-9 — the glottal stop is written in several ways; same result under every convention?** Not quite, and the paper now says so (Section 3.6, Table 8).
+    - The classifier sees only a written mark (ʔ or an apostrophe); the lists write it at very different rates (Makasar 36 percent of forms, Sa'dan Toraja 22, Bugis 21, Tolaki 14 — all with an apostrophe, and all 29 of them uncoded — Wolio four forms, Muna none), and whether these differences are notation or phonology is left to specialists.
+    - Re-coding the mark as a consonant letter costs 0.016 of cross-validated AUC (0.020 to 0.024 for the held-out lists), leaving it unwritten 0.006, writing the pre-glottalised consonant as a geminate 0.007; unifying the apostrophe to ʔ changes no input. The AUC stays at or above 0.710 in every variant (held-out lists down to 0.677). By the rule written before the run, the result depends partly on the convention. The abstract's sentence that the profile is "robust … rather than orthographic artifacts" is withdrawn.
+    - On the *k* of some South Sulawesi sources: eleven Sa'dan Toraja forms end in *k* beside 45 that end in a glottal mark in the same source, and since ABVD's PMP entries for two of those meanings end in *k*, we do not treat that *k* as a glottal stop; the text says so. Glottal mark plus consonant occurs in 35 forms and is also counted by the cluster input.
+
+- **R1-10 — a semantic feature cannot belong to a phonological fingerprint.** Accepted, and the point goes further than we had seen.
+    - Of the submitted model's 26 inputs, 17 came from the written form, 8 from the meaning and one was the identity of the source list, which was its strongest input.
+    - The final model has no list input; its AUC is 0.727 with form and meaning inputs and 0.672 with the form inputs alone (meaning alone 0.646; list identity alone 0.680). "Trained exclusively on phonological features" and "phonological fingerprint" are withdrawn. The term is now *profile*, defined in Section 1 as part orthographic and part semantic, and the title has changed accordingly.
+
+- **R1-11 — example lexemes for each quadrant.** Table 7 gives two forms for each of the four cells of Table 6, printed as ABVD records them with the cognate-set number, the PMP entry of the meaning and the nearest same-meaning form in another Sulawesi list by the screen. The text states that they have not been assessed etymologically and that, being the forms the classifier scores most extremely, they illustrate its inputs by construction. The full pool of 92 forms and the scores of all 1,357 forms are in the released files.
+
+- **R1-12 — "false positive" and "unlabeled positive" in two senses; false negative?** Yes: with "positive" meaning Austronesian, an inherited form left in the residual is a false negative, and the submitted text swapped the classes in three places.
+    - The confusion came from our two label sets and from a "rescue" step that was in fact a concept filter (Part C). The revision uses one label with two values, *coded* and *uncoded*, and the terms "positive", "false positive" and "unlabeled positive" no longer appear; "false alarm" is used once, for the decimal numeral compounds.
+    - We have taken up the reviewer's remark that loanwords are commonly adapted to the borrower's phonology (we read Blust 2012:556 for it): Section 4 says that an uncoded form that looks like the coded vocabulary is not thereby inherited and deserves a specialist's attention as much as one that does not.
+
+- **R1-13 — what "documentation gaps" means for Tolaki; release the residual items.**
+    - (a) Not the first reading — the list is not short of words. The second reading (cognates exist but are unassigned) is visible for part of the forms: of the 34 uncoded Tolaki forms that match an entry of the Proto-Bungku-Tolaki list, seven match an entry that ABVD does assign to a cognate set, and twelve of the 128 uncoded forms whose meaning has a PMP entry resemble that entry by the screen (about two expected by chance; one is loan-flagged). For the rest the study cannot decide between a coding gap, a chance resemblance and a loan, and Section 3.3 says so.
+    - (b) All forms are released, not only Tolaki's: one file with the 1,357 forms (ABVD identifiers, forms as recorded, cognate numbers and loan flags, the label, three out-of-sample scores, the nearest look-alikes), one with the 438 uncoded forms, and three smaller files (the 70 uncoded Makasar meanings with their relatives' forms, the twelve Tolaki look-alikes of PMP entries, the example pool behind Table 7), with a column description, deposited at Zenodo under CC BY 4.0 (DOI in Part D). The Tolaki subset has 134 items rather than the 114 of the submitted Table 1 because one label definition is now used (Part C).
+
+# Part B. Reviewer 2
+
+We have rewritten Sections 2 and 3 for readers who do not work with classifiers: every term is defined where it first appears, in words rather than symbols, and the internal experiment codes are gone. The bullets follow the 24 highlights in the order of the pages of the reviewer's copy.
+
+- **R2-1 — a reference for the claim that vocabulary "resists reconstruction".** The sentence now says what it means — that some forms cannot be assigned to a higher-level proto-form — and cites Reid (1994) for the counting of such forms in Philippine languages and the literature on Makasar for Sulawesi; the stronger triple claim of the submitted version (no cognates, non-canonical structure, irregular correspondences) is dropped.
+- **R2-2 — what are E027 / E028 / E022?** Internal experiment codes; they appeared 29 times and in two figure titles. All are gone; the text speaks of the label, the classifier, the screen and the permutation test.
+- **R2-3 — the source of the semantic domains.** The seven domains and the "core" set are groupings made by the authors for this study, not Concepticon or the World Loanword Database; Section 2.3 says so, and it no longer calls the core set "Swadesh-100" (it covers 174 of the 210 meanings).
+- **R2-4 — the "language identity" feature.** It was an integer numbering the six lists, and it was the strongest input of the submitted model. It has been removed, and Section 2.3 says so.
+- **R2-5 — what the classifier is and what "robustness" means.** Section 2.4 explains the classifier in words; "robust" is no longer used. Three classifiers give the same picture (Table 3), which is all the submitted "robustness" amounted to.
+- **R2-6 — implemented in scikit-learn / XGBoost — Python?** Yes; Section 2.4 gives the language and the version of each library.
+- **R2-7 — what the false positives stand for.** The term is no longer used (see R1-12).
+- **R2-8 — the "E022 binary label" cannot be found in the rule-based section.** Because the label the models used was not the one that section described. The revision has one label, defined once (Section 2.2).
+- **R2-9 — kappa: agreement?** Section 3.5 defines it where Table 6 reports it (Cohen's kappa between the label and the model's out-of-sample score at a threshold of 0.5; 0.31). The submitted 0.61 was computed on the training data and is withdrawn.
+- **R2-10 — why k = 5 to 30?** There was no reason; the clustering is removed (Part C).
+- **R2-11 — "both models" — which?** The first of them (31 inputs, four of which encoded the label) is removed; one model family remains, with a form-only variant beside it.
+- **R2-12 — "near-perfect" and how to read Table 2.** The near-perfect figure belonged to the removed model. The new Table 3 gives, for each classifier, the AUC, the accuracy beside the accuracy of calling every form coded (0.719 against 0.677), and the precision, recall and F1 of the uncoded class (the submitted F1 of 0.82 was the coded class's); Section 2.5 explains each column.
+- **R2-13 — AUC: what does it stand for and mean?** Defined in Section 2.5: the probability that a randomly chosen uncoded form outranks a randomly chosen coded one; 0.5 is chance, 1.0 is perfect.
+- **R2-14 — which range counts as moderate or reliable?** Section 2.5 says that verbal scales exist and gives one (Nahm 2022, Table 4), but that they are conventions without an empirical basis (White et al. 2023), and the paper reports numbers rather than labels. The "0.65 threshold" of the submitted text was our own working line and is dropped.
+- **R2-15 — what "generalises across Sulawesi languages" means.** Section 2.5 defines it (a model trained on five lists ranks the forms of the sixth) and Section 3.4 reports it: AUC 0.614 to 0.809 for the held-out list, mean 0.701, and — new — that at a threshold of 0.5 the classifier is below the majority answer for five of the six lists. The ranking carries over to an unseen list; the classification does not.
+- **R2-16 — "feature ablation" and the variable in typewriter font.** Ablation is explained in words (the classifier is run again without a group of inputs); the variable in question no longer exists — its values in the code were stale constants, not the coverage they were named for — and no variable names are printed.
+- **R2-17 — SHAP.** Section 2.4 explains what the bars of Figure 1 measure; Section 3.5 says that the figure describes the classifier and not the vocabulary.
+- **R2-18 — CV.** Cross-validation is explained in words in Section 2.5 (five parts, ten repetitions, fifty test sets).
+- **R2-19 — the symbol Δ.** It is written out as the change in AUC where it occurs (Table 8 and its note).
+- **R2-20 — the panels of Figure 2 are neither referred to nor explained.** Figure 2 is removed; Table 6 replaces it.
+- **R2-21 — why 'One Hundred', 'Fifty', 'Twenty', 'to stand' and 'to hit'?** Section 3.5 answers: 'Fifty' and 'Twenty' are decimal compounds whose parts recur across the lists (uncoded in four, coded in Bugis); 'One Hundred' is not uniform and does not belong with them; 'to stand' and 'to hit' were on our earlier list of inherited meanings, and the "consensus" had been computed on a label that ignored that list. Out of sample, no meaning is "uncoded, profile" in four or more lists.
+- **R2-22 — DBSCAN parameters.** Removed with the clustering.
+- **R2-23 — Table 5 is cut off.** Table 5 and Figure 4 are removed; Section 3.8 reports the sixteen-list application in one paragraph without a geographic claim (Part C).
+- **R2-24 — define "fingerprint" at the start.** The term is now *profile*, defined in Section 1; because its inputs include the meaning, it is not called phonological.
+
+We have kept the three things the reviewer singled out for approval: the limitations (now Section 4, considerably longer), the declaration on the use of artificial intelligence (rewritten to cover the text), and the open code and data (now with a Zenodo deposit).
+
+# Part C. Corrections by the authors
+
+Found when every number of the submitted text was re-derived from the raw files before this revision; not raised as such by the reviewers, though several of their questions lead to them. The stored result files reproduce from the data; the manuscript text did not describe them correctly.
+
+- **Two residual sets presented as one.** Submitted: 356 forms in Table 1; 438 in every model and in the abstract as "26.5 %". Revised: one label: 438 uncoded forms = 32.3 percent; per list 34 / 62 / 80 / 83 / 45 / 134 (Table 1).
+- **"Proto-Austronesian cross-check".** Submitted: described as a comparison of residual forms with reconstructions. Revised: it compared no forms (all uncoded forms for 15 meanings were removed); step deleted.
+- **Loanword filter.** Submitted: Sanskrit, Arabic and Malay trade-word patterns. Revised: matched five unrelated words; deleted.
+- **"Fewer canonical Austronesian prefixes".** Submitted: abstract and three places in the text. Revised: the onset-string input is more frequent among uncoded forms (37.0 vs 25.2 %) but not separable from length; neither "fewer" nor "more" is claimed (Section 3.5).
+- **Headline AUC 0.763 "phonological only".** Submitted: 26 inputs including the identity of the source list. Revised: form + meaning 0.727 (held-out list 0.701); form only 0.672 (0.641); no list input.
+- **"Two-method consensus", κ = 0.61, 266 forms.** Submitted: agreement computed on the training data. Revised: out of sample κ = 0.31; cells 172 / 266 / 105 / 814 (Table 6); the consensus framing removed.
+- **p = 0.569; "optimal k = 30".** Submitted: a test that did not test the hypothesis; the edge of the search range. Revised: permutation test: a small excess of same-meaning similarity among uncoded forms (Section 3.7); clustering removed; no claim about a shared layer either way.
+- **Sixteen-language application.** Submitted: mean score 0.606 vs 0.393 "significantly"; Table 5 with four stale constants. Revised: two list-level inputs drove the pattern; without them mean AUC 0.638 and no geographic claim (Section 3.8); Table 5 and Figure 4 removed.
+- **Robustness section.** Submitted: 0.772 → 0.774 etc.; "does not depend on form length at all". Revised: the numbers belonged to another model; digraph conversion changes nothing (75 forms), removing both size inputs costs 0.014 / 0.023 AUC; sentence withdrawn (Section 3.6).
+- **Figure 1 caption; Table 2 F1; class weighting.** Submitted: sign reversed; F1 0.82 = coded class; "class-weighted". Revised: Figure 1 regenerated; uncoded-class F1 0.480 beside the 0.677 baseline; XGBoost was not class-weighted.
+- **"Swadesh-100" flag; coverage variable; "syllable".** Submitted: 174 of 210 meanings; stale constants; vowel groups. Revised: described as what they are.
+- **Section 4.5 (Javanese script).** Submitted: "convergent evidence". Revised: removed: not asked for, outside Sulawesi, resting on properties that changed, and quoting a percentage for the wrong group.
+- **References.** Submitted: Ross 2005 given as an article in this journal; two entries for works that do not exist (uncited). Revised: corrected or deleted; eight further entries corrected.
+
+# Part D. Files and practical matters
+
+Following the reply of the Managing Editor of 8 October 2026 to our note of 7 October:
+
+- **Charges.** None for standard publication, as the Managing Editor wrote; we take no paid open-access option.
+- **Anonymity.** The Article File is anonymised: author names and affiliations, the data DOI and the repository address are withheld in it. The data DOI is 10.5281/zenodo.23202245 (Zenodo, CC BY 4.0); the repository address and a named version of the article are available on request.
+- **Clean and tracked copies.** The Article File is the clean copy; a copy with tracked changes is added as Supplemental Material. The first submission was a PDF, so the tracked copy compares a Word conversion of the submitted text with the revised Article File; in the conversion, citations and references are set in the style of the revised text and images are omitted, so that the markup shows content rather than formatting. Because Sections 2 and 3 were largely rewritten and several sections removed, much of the markup consists of replaced blocks; Parts A to C of this letter are the guide to what changed.
+- **This letter.** It is a Word file with bulleted answers; points that we judged not to be substantive are answered in a line.

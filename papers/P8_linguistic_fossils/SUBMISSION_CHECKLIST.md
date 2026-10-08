@@ -2,6 +2,10 @@
 
 > **2026-10-05 correction:** the journal is Scimago **Q2**, not Q1 (as written below); and the paper was **conditionally accepted** on
 > 2026-10-05 → see `REVISION_OL_20261005.md`. The rest of this file is the March submission record and is left as written.
+>
+> **2026-10-08 correction:** Owen Edwards signs his reply as *Managing Editor*, not "Assistant Editor" (affiliation line below not
+> re-checked). Two items at the bottom stay unchecked since March — change the OL password and the arXiv password "exposed in
+> chat" (arXiv: ledger C061; OL: not recorded as done — check at the next portal login).
 
 **Target:** Oceanic Linguistics (University of Hawai'i Press, Q1)
 **Submission Portal:** https://oceaniclinguistics.msubmit.net/cgi-bin/main.plex

@@ -565,3 +565,46 @@ keywords, subject areas, detailed information filled and reviewed; all three App
 6. Records the same day: WORKSTATE §1 (status line → "revision R1 submitted <date>"), line 04 STATE, JOURNAL, handoff
    §1, memory `project_p8_oceanic_linguistics.md`; commit (push = PI). No portal link with a session key anywhere.
 7. Afterwards, not before the decision: arXiv replacement of the preprint; Zenodo description → shortened title (optional).
+
+### 10.13 The Managing Editor's answers of 2026-10-08 (09:35 WIB) and what they change in §10.12
+
+Record: `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261008.md`; ledger C068. **Paraphrase of the answers:** no author charges for
+standard publication; anonymise the revision *if another round is needed*; a tracked-changes version **and** a clean copy are
+wanted; the response letter should be a Word document with bulleted answers, substantive points only. **Left to Sander (no answer
+yet):** may the corrections of our own be handled inside this revision, and is another round of review needed. The mail says
+nothing on the substance — not a sign of approval.
+
+| §10.12 item | After 10-08 |
+|---|---|
+| Step 2 (check the editor's answer) | Fees: **closed — none** (G15 fee row; source = the e-mail). Anonymity: keep the anonymised article. Tracked/named copy: **tracked is wanted** → build it before Submit. Still read the mailbox for **Sander's** answer first; if he asks for a different procedure, stop and bring it to the PI. |
+| "If a fee of any kind is confirmed, stop" | Not triggered. |
+| Files in the portal | Eight files today. Add the tracked copy as **Supplemental Material** (plain file name, no author or software tag). The letter files are replaced by the bulleted Word letter. |
+| Letter (Author Cover Letter and Revision Summary = same file) | Rewrite as bullets: one line for **every** reviewer point (R1 opening + R1-1…13, R2 1…24), expanded only where substantive (R1 opening, R1-2, R1-5, R1-7, R1-9, R1-10, R1-12, R1-13; R2 9, 12, 15, 21); Part C stays a separate part; Part D (three questions) and the sentence announcing it are replaced by a statement that the authors followed the answers. Numbers must be copied from the approved letter or traced (G1). |
+| PI's sign-off of 10-07 16:00 | Covers the package as it was. A changed letter needs his OK again; the manuscript is untouched, so its sign-off stands. |
+
+**Tracked-changes copy — how, and what to watch.** Baseline = the text the reviewers saw, which exists only as LaTeX/PDF
+(`draft_v0.1_anonymous.tex`, `.pdf`). Steps: (1) convert the submitted anonymised text to `.docx` (pandoc from the `.tex` with the
+`.bib`, or into the OL template through `build_docx.py`'s styles; check the tables and that no reviewer-visible text is lost);
+(2) compare it with `P8_revision_v0.2_anonymous.docx` with Word's Compare (Word is installed; automation worked for `docx2pdf`);
+(3) **before saving: set the revision author to a neutral label and strip document properties/personal information, then open the
+result and inspect the author of a few changes and the file properties** — Compare otherwise stamps the comparer's account name
+on every change, which would break the anonymity the editor asked for; (4) inspect the result — with Sections 2–3 rewritten and
+Figures 2–4 removed it will be mostly replaced blocks; say so in one sentence of the letter (baseline is a conversion of the
+submitted PDF text; the response letter is the guide to what changed); (5) G12-style check after upload (download, compare).
+
+**Not changed by this record:** the Submit date (next week, PI's word); the manuscript; the claims. Open external items:
+Sander's answer; arXiv paper-password reply (C061); the March checklist's unchecked "change OL password" (verify at the next login).
+
+**Built the same morning (PI: "silakan lakukan yg perlu dilakukan, tapi pikirkan baik2"; ~10:30–11:00):**
+- **Tracked-changes copy** `revision_v0.2/P8_revision_v0.2_tracked_changes.docx` + how and what was checked: `revision_v0.2/tracked_build/README.md`.
+  Baseline = pandoc conversion of the submitted LaTeX; Word Compare against the Article File that sits in the portal. Accept-all = revised text
+  (ratio 1.00000), reject-all = baseline text except 4 words in cells with a tracked cell merge (present as tracked deletions). Anonymity verified in
+  the file's XML: author "Author", no dates, no custom properties, none of the authors' names, affiliation, e-mail, repository or DOI; Word's
+  own user name restored. 519 revisions; with Sections 2–3 rewritten the markup is mostly replaced blocks (said so in the letter).
+- **Letter v0.3** `COVER_AND_RESPONSE_v0.3.md/.docx/.pdf` (bulleted; Part D replaced) + `LETTER_v0.2_to_v0.3_CHANGES.md`. Word-level diff against
+  v0.2: only splits, labels and the Part C markers, one phrase ("We note that" → "Two smaller points") and the DOI wording. **Found while doing it:**
+  v0.2 said twice that the DOI is "given in the text", but the anonymised Article File **redacts** the data DOI and the repository URL — fixed in
+  v0.3 (DOI stated in the letter; the PI can strike it, see the changes note).
+- **Still to do, in this order:** (1) the PI reads v0.3 (and may glance at the tracked file in Word); (2) at the sitting: mailbox first (Sander);
+  replace the two letter files, add the tracked copy as Supplemental Material, regenerate and look at the merged PDF, tick Approve, G12 for every
+  changed file, Submit on the PI's word. Nothing was uploaded, so the portal still holds v0.2 and eight files.

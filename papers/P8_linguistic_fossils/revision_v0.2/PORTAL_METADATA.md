@@ -23,4 +23,5 @@ Historical linguistics; Phonology; Lexicology
 
 **Notes for the upload**
 - The response letter has no file type of its own in this portal; it is bundled with the cover letter (Author Cover Letter), as Part D of that letter explains and asks about.
+- **Update 2026-10-08 (Managing Editor's reply):** the letter should be a Word document with bulleted answers → `COVER_AND_RESPONSE_v0.3.docx` replaces v0.2 in *Author Cover Letter* and *Revision Summary* (after the PI has read it; `LETTER_v0.2_to_v0.3_CHANGES.md`); a tracked-changes copy is wanted beside the clean Article File → `P8_revision_v0.2_tracked_changes.docx` goes in as *Supplemental Material* (`tracked_build/README.md`). The Article File is unchanged (anonymised, as the editor asks if another round is needed). Nine files then, not eight. No charges (G15 fee row closed).
 - After upload: download every file back from the portal and compare byte-for-byte or by text (gate G12); record the revision number and timestamp in `docs/WORKSTATE.md`, the line STATE and JOURNAL (no portal link with a session key).

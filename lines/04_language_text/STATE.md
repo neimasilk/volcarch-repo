@@ -1,6 +1,24 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-07 (10:15) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — material ready, readings corrected three times, sources read; **the next steps are the PI's**
+**Updated:** 2026-10-08 (~10:20) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — R1 prepared in the portal, **Submit next week (PI's word)**; package needs two additions after the editor's practical answers (below)
+
+> **2026-10-08 (~10:20) — P8: the Managing Editor of *Oceanic Linguistics* answered the practical questions of the note of 7 Oct.**
+> Paraphrase: **no author charges for standard publication** (G15 fee row closed); anonymise the revision if another round is needed;
+> **tracked-changes copy and clean copy both wanted**; response letter = **Word document, bulleted answers, substantive points only**.
+> **Sander's answer is still open** (may the corrections of our own be handled inside this revision? another review round?); the mail
+> says nothing on the substance. Record: `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261008.md`; ledger **C068**; steps in
+> `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` **§10.13**.
+> **DONE ~11:00 on the PI's go-ahead ("lakukan yg perlu dilakukan, tapi pikirkan baik2"):** tracked copy `revision_v0.2/P8_revision_v0.2_tracked_changes.docx`
+> (`tracked_build/README.md`: QA accept-all = revised text, reject-all = old text bar 4 words; anonymity checked in the XML) and letter **v0.3**
+> (`COVER_AND_RESPONSE_v0.3.*`, `LETTER_v0.2_to_v0.3_CHANGES.md`; bulleted; Part D replaced; fixed v0.2's false "the DOI is in the text" — the
+> anonymised article redacts it). **Waiting on the PI: read v0.3.** Nothing uploaded; the portal holds v0.2. The list below is what was planned.
+> **Work queue as planned at ~10:20 (steps 1–2 now done; 3 is for the sitting):** (1) tracked-changes copy: Word conversion of the
+> submitted text (it exists only as LaTeX/PDF) → Word Compare with `P8_revision_v0.2_anonymous.docx` → **neutralise the revision author and
+> document properties** (anonymity) → inspect → add as Supplemental Material; (2) response letter as bullets (one line for every reviewer
+> point, expanded where substantive; Part C stays; Part D replaced by a statement that the authors followed the answers) → PI re-reads
+> (it was approved 10-07 16:00 in its old form) → G1 trace on any number not copied verbatim → portal: replace letter files, regenerate the
+> merged PDF, tick Approve, G12; (3) at the sitting read the mailbox first — if Sander asks for another procedure, **Submit waits**.
+> The manuscript, its claims and the Submit date are unchanged.
 
 > **2026-10-07 (10:15) — P8: the PI waives G16 ("AI adalah leverage kita"); Claude writes the revision and the letters;
 > one adversarial read + G1 trace replaces the 14-day rest; G10 not met (risk stated); then submit** — ledger C067, work

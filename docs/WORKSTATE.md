@@ -1,7 +1,18 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-07 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-08 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
+
+> **2026-10-08 (~10:20) — P8: the journal's Managing Editor answered the practical questions; Sander's answer on content is pending.**
+> Fees: **none for standard publication** (G15 fee row closed). Anonymise the revision if another round is needed. A **tracked-changes
+> copy and a clean copy** are both wanted; the response letter as a **Word document with bulleted answers**, substantive points only.
+> Whether the corrections of our own may be handled inside this revision, and whether a further review round is needed, are for
+> Sander — **no answer yet; the mail is not a sign on the substance.** Review of the R1 package (still not submitted): it lacks the
+> tracked copy (no Word baseline exists), the letter is long prose and its Part D asks what is now answered (ledger C068).
+> **Built the same morning (~11:00): the tracked copy and a bulleted letter v0.3** (v0.2 wrongly said the DOI is in the text — the anonymised
+> file redacts it; fixed). **Next: the PI reads the letter v0.3**; the portal still holds v0.2 and nothing is uploaded. **Submit stays next week**,
+> PI's word; read the mailbox first. Record: `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261008.md`;
+> steps: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.13; what changed: `revision_v0.2/LETTER_v0.2_to_v0.3_CHANGES.md`.
 
 > ## 🟢 2026-10-05 — P8 conditionally accepted (*Oceanic Linguistics*, OL-03-2026-11)
 > Editor Sander Adelaar, 14:17 WIB: **accepted pending revisions** — not final; **no deadline stated**; editors ask extra care for readability (Section 3).
@@ -43,7 +54,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > note to the editor (sent via the portal form 10:36), Zenodo data release (DOI 10.5281/zenodo.23202245); two adversarial
 > reads + number trace; G12 passed; the portal's merged PDF looked at page by page; file order fixed; metadata reviewed;
 > all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission". **Next sitting: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.12.** Open external items:
-> editor's answer to the note (G15 fees, anonymity, tracked changes); arXiv paper-password reply (C061).
+> editor's answer to the note (G15 fees, anonymity, tracked changes — *practical part answered 10-08, see top block; Sander's answer on content open*); arXiv paper-password reply (C061).
 > **10-07 (09:21–09:45):** the PI said "lakukan yg perlu dilakukan" → D1–D6, D8, D9 carried out on the material (work plan
 > **§10.10**): Word skeleton in the OL template (`revision_v0.2/P8_revision_v0.2_skeleton.docx`, eight tables, references),
 > response-letter scaffold (`RESPONSE_LETTER_SCAFFOLD_v0.2.docx`), release description completed (C065), E231 P13.
@@ -92,7 +103,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 | ~~3~~ | ✅ **SENT 2026-10-02 10:11** to niamarniatief@yahoo.com (author address, *Naditira Widya* 2018). ~~Send the outreach email to BRIN's VEGAN group~~ (phytolith/starch/pollen; head Nia Marniati Etie Fajari). Replaces the Vida draft (both its questions are answered publicly); Castillo held as a reserve (UCL post likely lapsed). v1 drafts withdrawn | 2026-10-01 | `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md` (find the address on the VEGAN page; fallback praps@brin.go.id); old v2 files kept for the record |
 | ~~4~~ | ✅ **POSTED 2026-10-02 10:28** (metadata edit, same DOI/file, verified on public API). ~~Post the P1 preprint correction on Zenodo~~ (mandatory; public record states the inverted E069 claim and a "Java-wide taphonomic baseline" from assumed burial-start dates). Zenodo allows editing; ~15 min | 2026-10-01 | `docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md` (verbatim quotes) |
 
-| 5 | **P8 revision → response letter → resubmit** at OL (conditional acceptance 2026-10-05). Analyses and number audit **done 10-05** (E227, E228). **2026-10-06: tables/Figure 1 (E229), robustness re-run (E230), corrected `.bib`, `VENUE.md`, outline and the draft note to the editor are ready** — and, after two adversarial reads on 10-06, the readings in the outline, work plan (§10.7), editor note and READMEs were corrected twice (E231 with post hoc tables; see the note at the top). **Next = the PI's decisions D1–D10** (one label; headline model; drop the in-sample consensus; reword the negative result; 16-language section; §4.5; tell the editor; write in Word; shorten the robustness subsection; when to ask for the formal letter) **and sending the note to the editor** (`docs/correspondence/EMAIL_OL_EDITOR_P8_NOTE_DRAFT_20261006.md`), then reading the eight reviewer-supplied references, then **the PI writes the revised prose and the response letter (G16)**; G14 freeze (14 days) + G1 on the new text + G12 after upload | 2026-10-06 (everything but the prose) | `papers/P8_linguistic_fossils/REVISION_OUTLINE_20261006.md` (what each section must contain) · `REVISION_WORKPLAN.md` (decisions, point-by-point facts, corrected numbers; §10 = new on 10-06) · `VENUE.md` · `REVISION_OL_20261005.md` (ledger) · OL portal link is in the decision email (not recorded here: public repo) |
+| 5 | **P8 revision → response letter → resubmit** at OL (conditional acceptance 2026-10-05). **[10-08: R1 prepared in the portal, Submit next week; Managing Editor answered the practical questions — no fees, tracked + clean copy, Word letter with bullets; Sander's answer on content pending; see top block. The text below is the 10-06 state.]** Analyses and number audit **done 10-05** (E227, E228). **2026-10-06: tables/Figure 1 (E229), robustness re-run (E230), corrected `.bib`, `VENUE.md`, outline and the draft note to the editor are ready** — and, after two adversarial reads on 10-06, the readings in the outline, work plan (§10.7), editor note and READMEs were corrected twice (E231 with post hoc tables; see the note at the top). **Next = the PI's decisions D1–D10** (one label; headline model; drop the in-sample consensus; reword the negative result; 16-language section; §4.5; tell the editor; write in Word; shorten the robustness subsection; when to ask for the formal letter) **and sending the note to the editor** (`docs/correspondence/EMAIL_OL_EDITOR_P8_NOTE_DRAFT_20261006.md`), then reading the eight reviewer-supplied references, then **the PI writes the revised prose and the response letter (G16)**; G14 freeze (14 days) + G1 on the new text + G12 after upload | 2026-10-06 (everything but the prose) | `papers/P8_linguistic_fossils/REVISION_OUTLINE_20261006.md` (what each section must contain) · `REVISION_WORKPLAN.md` (decisions, point-by-point facts, corrected numbers; §10 = new on 10-06) · `VENUE.md` · `REVISION_OL_20261005.md` (ledger) · OL portal link is in the decision email (not recorded here: public repo) |
 
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
