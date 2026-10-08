@@ -10749,3 +10749,89 @@ Third Zenodo output of the project after D1 and D2.
 - `docs/HANDOFF_20261008.md` written at the PI's request ("catat dulu semua, bikin handoff, ntar saya lanjutkan"); `HANDOFF_20261007.md` →
   `docs/archive/handoffs/` with a "superseded" banner; pointers updated in WORKSTATE, STATE 04 and memory. Start from its §1. The one thing
   not to miss: the letter still in the portal (v0.2) says the DOI is in the text — replace it with v0.3 before Submit. Canary green 223.
+
+## 2026-10-08 (~12:30–13:30) — P8: review of the R1 package; letter v0.3 superseded; article v0.3, three figures, two letters v0.4; push and Zenodo README flagged
+
+PI, after the morning handoff: "baca handoff, review, fokus pada p8 pikirkan baik2 apa yg perlu dilakukan, kemudian lakukan". Controller
+Opus 5.5 from the repo root. Canary green 223, inBox empty. **Nothing uploaded, sent, pushed or deposited; the PI has read none of it.**
+Guide: `papers/P8_linguistic_fossils/revision_v0.2/PACKAGE_R1_20261008.md`. Ledger C069.
+
+- **Mailbox** (`tools/mail/gmail_check.py list "after:2026/10/06"`, list only, no thread opened; ~12:40): no answer from Sander, no reply
+  from arXiv; the only P8 message is the Managing Editor's of 09:35.
+- **Method of the review.** The morning's v0.2 → v0.3 diff could only show that v0.3 said what v0.2 said. This time the whole article file
+  in the portal (`P8_revision_v0.2_anonymous.docx`, text extracted) was read and every statement of the letter of the kind "Section n says
+  …", "the term … is gone", "… is removed" was looked up in it; statements about the submitted text were looked up in the LaTeX source;
+  the bullet headings were compared with the two reports (private copies outside the repo). A token trace of the numbers found nothing
+  (319 tokens; all in the article or the submitted text, or dates/DOI/section numbers).
+- **Found in the letter (16 items, `PACKAGE_R1_20261008.md` §1 A):** "'false alarm' is used once" (not in the article); "positive … no
+  longer appear" (three occurrences); "the two sentences … (Sections 1 and 2.2)" (one sentence, Section 1); "the three subgroups named as
+  examples are …" (no such sentence); "92 forms" (92 rows, 73 forms); "all [codes] are gone" (the data statement names folders E227–E231);
+  "Section 2.5 explains each column" and "every term is defined" (precision, recall, F1 only named); "ablation is explained" (word not
+  used); Δ "written out" (a column heading with a note); "Figure 2 / Table 5 / Figure 4 removed" (the revision has its own);
+  "sixteen-language expansion removed" (one paragraph stays); "three charts of the tables' numbers" (Figure 5 is from no table); Mills
+  "491–492 … cites it there" (text cites 491); "eight further entries corrected" (eight in all, with Ross 2005); "F1 0.480 beside the 0.677
+  baseline" (an accuracy); and the signed letter with the DOI sitting in the *Revision Summary* slot, which may go to the reviewers. Cause
+  of most: the correction pass of 10-07 11:05 changed the manuscript after the letter was written, and the letter was updated only for the
+  deposit, the 62 % answer and R1-12.
+- **Found in the article and figures:** Table 8 printed −0.019 in two cells where the text says 0.020 (`build_docx.py` averaged E228's
+  three-decimal per-list values; unrounded −0.019721); precision/recall/F1 not explained although reviewer 2 asks to be walked through the
+  table; Figure 1's legend said "more likely a candidate" and "(|r| < 0.3)" and the rule for its arrows was nowhere in the text; Figure 4's
+  legend covered two rows and "chance" sat on the tick labels; Figure 3's percentages were crossed by hatching; one "Pre-glottalised".
+- **Found outside the files:** (i) **GitHub stops at b543824 (5 Oct)** — `git ls-remote` confirms; E229–E231, which the data statement and
+  the letter cite as public, are in 20 unpushed commits. A scan of the 2.2 MB diff that a push would publish: no session link, no
+  credential, none of sixteen reviewer/editor phrases, no private path tracked. (ii) **The README inside the public Zenodo deposit is the
+  working draft** (downloaded from the record, md5 3783944a…): internal status note, "[repository URL]" twice, "[title of the revised
+  article]", "[year]", "https://doi.org/[DOI]", "to be confirmed by both authors", "Makasar (or Makassar — the authors' spelling
+  decision)". The CSV files match (md5). The local README's line "this copy is the one in the deposit except for this status line" was not
+  true.
+- **Built** (all local): `P8_revision_v0.3.md` → `P8_revision_v0.3.docx` / `_anonymous.docx` (one sentence each in Sections 2.4 and 2.5;
+  Table 8 two cells and one row name; named build: concept DOI; 24 pp.; text diff against v0.2 = those five places only) ·
+  E229 amendment A11: `08_figure1_legend.py` (redraw from the stored CSV; with the old legend texts the code reproduces the uploaded
+  figure pixel for pixel), `07_figures_revision.py` (Figures 3, 4), `09_table8_full_precision.py` → `T8_glottal_full_precision.csv` (re-run
+  of E228 S1, 25 inputs; agrees with E228 at four decimals in all seven rows), uploaded TIFFs kept in `results/as_uploaded_20261007/`;
+  Figures 2 and 5 byte-identical · `P8_revision_v0.3_tracked_changes.docx` (accept-all = v0.3, ratio 1.00000; reject-all = submitted text
+  bar the same four words; 519 revisions) · `COVER_LETTER_v0.4` (signed, 2 pp.) and `RESPONSE_TO_REVIEWERS_v0.4` (no names, 7 pp.; Times
+  New Roman via `letter_reference.docx`) with `build_letters.py` · `check_letters.py` (numbers, section references, words said to be gone,
+  38 points, anonymity: all pass) · `tracked_build/check_anonymity.py` (OK for article file, tracked copy, response; "Linguistics RSPAS
+  ANU" in `app.xml` is the journal template's own property) · `make_manifest.py` · Zenodo: `release/README.md` cleaned for a version 1.1,
+  steps in `release/ZENODO_METADATA.md`.
+- **Tried and corrected on the way:** the first version of the section check flagged "Section 4.5" (the submitted section; now written "the
+  submitted Section 4.5"); pandoc always writes an empty custom-properties part (check now looks for a property, not for the part); one
+  `cd` inside a compound command moved the session's working directory again (returned to the root); two figure PDFs changed only in their
+  timestamp when the script was re-run (restored from git).
+- **Decided by the controller, for the PI to overrule** (`PACKAGE_R1_20261008.md` §7): the manuscript and three figures were changed although
+  the PI approved the package on 10-07 — the alternative was a response letter that claims what the manuscript does not do; the fallback
+  (keep the portal's article and figures, soften two sentences of the response) is written down. Two letters instead of one. Concept DOI
+  in the cover letter and the named build.
+- **Not done:** no push (PI's step — now a precondition of Submit, not a chore after it); no Zenodo change (needs his login and click);
+  no portal access; no mail sent; the co-author not informed (PI). `.env`, profiles: untouched.
+- An independent adversarial read of both letters against the article, the submitted text and the reports (main model, fresh context) was
+  started at ~13:10; its result is recorded in the next entry.
+
+## 2026-10-08 (~13:30–14:10) — P8: the independent adversarial read of the letters v0.4; corrections; rebuild
+
+- **Reader** (main model, fresh context, read-only; it was given the two letters, the v0.3 article text, the submitted LaTeX source, the two
+  reports outside the repo and the released data, and none of my findings): 26 findings, about 195 statements borne out. HIGH: "the
+  limitations (now Section 4, considerably longer)" — false (submitted: a subsection of Section 4 with six items, 382 words; revised: one
+  paragraph, 242 words; Discussion 1,501 → 752 words — my count from the source); and the public-repository sentence, true only after the
+  push. MEDIUM: "strongest input of the submitted model" (true of the 26-input headline model; the submitted text ranked the 27-input
+  model); "no longer calls *dh* a fricative" (the submitted text never did); the AI declaration "rewritten to cover the text" (the submitted
+  one already said so); Part C "each is described as what it is"; R2-1 (no reference for the general claim); R2-5 (the score was explained,
+  not what a classifier is); R1-13 (a) and R2-21 answered beside the question; the opening remark mischaracterised (the reviewer's point is
+  the terminology, that caption being the example); anonymity is formal. LOW: "three places" (eight, all alike), "29 times" (25 printed),
+  a quoted word that the submitted text does not have, "Section 3" (nine of 24 highlights are in Section 2), two headings, "the reviewers'
+  own numbering", and smaller overstatements.
+- **I had judged the 38 bullet headings faithful and "29 codes" right; the reader showed both wrong.** Every finding was checked against
+  the source before anything was changed; none was rejected. Record: `PACKAGE_R1_20261008.md` §1 A2 and §5.
+- **Corrections:** 26 replacements in the response, 4 in the cover letter (scratch script with exact-match assertions), and **one more
+  sentence in the manuscript** — a plain definition of a classifier at the head of Section 2.4 (reviewer 2, highlight 5). Rebuilt: article
+  (text diff against the uploaded v0.2 = five changed lines: the two sentences of 2.4, the sentence of 2.5, three rows of Table 8; 24 pp.),
+  tracked copy (accept-all ratio 1.00000 on 10,614 words; reject-all as before; 519 revisions), both letters (response 8 pp., cover 2 pp.).
+  `check_letters.py`: 355 + 17 numbers, none unexplained; sections, gone-words, 38 points, anonymity pass. Manifest reprinted.
+- **Tried and failed:** a heredoc with the ledger row broke in the shell (quotes) — scripts with long quoted text now go through the
+  Write tool; a dblp and an OpenAlex lookup for the page range of Lundberg and Lee 2017 gave nothing usable (dblp blocks scripts; OpenAlex
+  has no pages) — the range stays as printed, and the response says that one page range was confirmed only at second hand.
+- **Not done:** a second adversarial pass on the corrected letters (offered to the PI as optional, `PACKAGE_R1_20261008.md` §7 h); no
+  upload, mail, push or deposit; no commit.
+- Records: `PACKAGE_R1_20261008.md`, handoff, WORKSTATE, STATE 04, work plan §10.14, ledger C069, E229 README (A11), `tracked_build/README.md`,
+  `PORTAL_METADATA.md`, `release/ZENODO_METADATA.md`, memory. Canary green 223 (no new experiment; E229 amended).

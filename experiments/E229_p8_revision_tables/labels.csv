@@ -33,6 +33,6 @@ sem_OTHER,Meaning: other
 fig1_axis_x,Mean absolute contribution to the prediction (SHAP value)
 fig1_legend_form,Input from the written form
 fig1_legend_meaning,Input from the meaning
-fig1_legend_up,↑  larger value: more likely a candidate
+fig1_legend_up,↑  larger value: more likely uncoded
 fig1_legend_down,↓  larger value: more likely coded
-fig1_legend_none,·  no clear direction (|r| < 0.3)
+fig1_legend_none,·  no clear direction

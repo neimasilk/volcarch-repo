@@ -1,6 +1,25 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-08 (~10:20) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — R1 prepared in the portal, **Submit next week (PI's word)**; package needs two additions after the editor's practical answers (below)
+**Updated:** 2026-10-08 (~13:30) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — R1 prepared in the portal, **Submit next week (PI's word)**; package checked and rebuilt locally in the afternoon (article v0.3, letters v0.4); **before Submit: push, Zenodo 1.1, replace the portal files**
+
+> **2026-10-08 (afternoon, ~13:30) — P8: claim-by-claim check of the package; v0.3 of the letter superseded before the PI read it.**
+> PI: "baca handoff, review, fokus pada p8 pikirkan baik2 apa yg perlu dilakukan, kemudian lakukan". The whole article file was read and
+> every statement of the letter looked up in it: **16 statements not borne out** (written before the correction pass of 10-07 11:05 and
+> never re-traced), **two cells of Table 8** against the text, **precision/recall/F1 unexplained** (reviewer 2, highlight 12), **Figure 1
+> legend "candidate" / "|r|"**, Figure 4 legend over the data, Figure 3 labels in the hatching, and a **signed letter in the slot that may
+> go to reviewers**. Outside the files: **GitHub stops at 5 Oct** (E229–E231 not public, though cited as public) and the **README in the
+> Zenodo deposit is the working draft**. Mailbox 12:40: nothing from Sander or arXiv.
+> **Then an independent adversarial read of the new letters** (main model, fresh context): 26 findings, two high ("limitations …
+> considerably longer" was false: 382 → 242 words; the repository sentence is true only after the push); every one verified against the
+> source and corrected; one more sentence in the manuscript (what a classifier is, Section 2.4).
+> **Built locally (nothing uploaded, sent, pushed, deposited; not committed; PI has read none of it):** `revision_v0.2/P8_revision_v0.3*`
+> (five lines differ from v0.2: three new sentences, three rows of Table 8), `P8_revision_v0.3_tracked_changes.docx`, `COVER_LETTER_v0.4.*` (signed) + `RESPONSE_TO_REVIEWERS_v0.4.*`
+> (no names), `check_letters.py`, `tracked_build/check_anonymity.py`, `make_manifest.py`; E229 amendment A11 (Figures 1, 3, 4; Table 8 at
+> full precision); `E228/release/README.md` cleaned for Zenodo 1.1. **Guide: `revision_v0.2/PACKAGE_R1_20261008.md`** (findings §1, exact
+> manuscript changes §2, checks §4, adversarial read §5, sitting §6, eight PI decisions with defaults §7). Ledger **C069**.
+> **Waiting on the PI:** read the two letters v0.4 + §2 + three figures; then at the sitting: mailbox → push → Zenodo 1.1 → portal
+> (replace Article File, Figures 1/3/4, both letters; add the tracked copy) → G12 → Submit on his word. **Handoff: `docs/HANDOFF_20261008.md` §1.**
+> The morning block below is kept as the record; its file names (v0.3 letter, v0.2 tracked copy) are superseded.
 
 > **2026-10-08 (~10:20) — P8: the Managing Editor of *Oceanic Linguistics* answered the practical questions of the note of 7 Oct.**
 > Paraphrase: **no author charges for standard publication** (G15 fee row closed); anonymise the revision if another round is needed;

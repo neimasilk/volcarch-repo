@@ -2,7 +2,7 @@
 
 usage: python build_docx.py [--anon]
 
-Source: P8_revision_v0.2.md (this folder). Output: P8_revision_v0.2.docx, or P8_revision_v0.2_anonymous.docx with --anon
+Source: P8_revision_v0.3.md (this folder). Output: P8_revision_v0.3.docx, or P8_revision_v0.3_anonymous.docx with --anon
 (author block and repository URL replaced by placeholders). Tables are filled from the result files of E228/E229/E231 at
 build time, so a number in a table can never drift from its CSV. References are formatted by pandoc with the Unified
 Style Sheet for Linguistics (CSL file beside this script) from the two .bib files, for the keys listed in CITED:.
@@ -30,8 +30,11 @@ E228 = REPO / "experiments/E228_p8_revision_analyses/results"
 E229 = REPO / "experiments/E229_p8_revision_tables/results"
 E231 = REPO / "experiments/E231_p8_what_coded_means/results"
 ANON = "--anon" in sys.argv
-SRC = HERE / "P8_revision_v0.2.md"
-OUT = HERE / ("P8_revision_v0.2_anonymous.docx" if ANON else "P8_revision_v0.2.docx")
+# v0.3 (2026-10-08): three sentences and Table 8 changed after the check of the letter against the article; the v0.2
+# files (source and both Word files) stay in the folder as uploaded to the portal on 2026-10-07.
+VERSION = "v0.3"
+SRC = HERE / f"P8_revision_{VERSION}.md"
+OUT = HERE / (f"P8_revision_{VERSION}_anonymous.docx" if ANON else f"P8_revision_{VERSION}.docx")
 import os
 if os.environ.get("P8_OUT"): OUT = Path(os.environ["P8_OUT"])   # build elsewhere when the target is open in Word
 BASE = HERE / "ol_base.docx"          # the journal's .dotx with its content type changed to a document (see VENUE.md)
@@ -162,14 +165,13 @@ def T7():
 
 def T8():
     names = {"V0_as_published": "As in the sources (ʔ or apostrophe)", "V1_q": "Mark written as q", "V2_k": "Mark written as k",
-             "V3_unwritten": "Mark left unwritten", "V4_geminate": "Pre-glottalised consonant written as a geminate",
+             "V3_unwritten": "Mark left unwritten", "V4_geminate": "Pre-glottalized consonant written as a geminate",
              "V5_all_as_glottal_letter": "Apostrophe written as ʔ (changes no input)", "V6_feature_removed": "Glottal input removed"}
-    g = rd(E228 / "TABLE_R1-9_glottal_conventions.csv")
-    s1 = json.load(open(E228 / "S1_glottal_conventions.json", encoding="utf-8"))
-    def lolo_mean(k):
-        v = s1[k]["lolo_25"]; return sum(v.values()) / len(v)
-    base_lo = lolo_mean("V0_as_published")
-    rows = [[names[r["convention"]], r["forms_changed"], fmt3(r["cv_auc_25"]), fmtd(r["delta_cv_25"]), fmt3(lolo_mean(r["convention"])), fmtd(lolo_mean(r["convention"]) - base_lo)]
+    # Unrounded means (E229 09_table8_full_precision.py, checked there against E228 at four decimals). Until v0.2 the
+    # held-out mean was taken from E228's per-list values, which are stored at three decimals, and two cells printed
+    # -0.019 for an unrounded difference of -0.0197.
+    g = rd(E229 / "T8_glottal_full_precision.csv")
+    rows = [[names[r["convention"]], r["forms_changed"], fmt3(r["cv_auc_25"]), fmtd(r["delta_cv_25"]), fmt3(r["lolo_mean_25"]), fmtd(r["delta_lolo_25"])]
             for r in g]
     return (["Convention", "Forms changed", "AUC, cross-validated", "Δ", "AUC, held-out list (mean)", "Δ"], rows)
 

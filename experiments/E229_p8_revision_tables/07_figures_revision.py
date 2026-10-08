@@ -94,7 +94,9 @@ def make_f3(w, h):
     for yi, (ai, bi, ci) in enumerate(zip(a, b, c)):
         ax.text(ai / 2, yi, f"{ai:.0f}", ha="center", va="center", color="white", fontsize=7)
         ax.text(ai + bi / 2, yi, f"{bi:.0f}", ha="center", va="center", color="black", fontsize=7)
-        ax.text(ai + bi + ci / 2, yi, f"{ci:.0f}", ha="center", va="center", color="black", fontsize=7)
+        # amendment A11 (2026-10-08): a white box behind this number; the hatch lines crossed the digits
+        ax.text(ai + bi + ci / 2, yi, f"{ci:.0f}", ha="center", va="center", color="black", fontsize=7,
+                bbox=dict(facecolor="white", edgecolor="none", pad=0.8))
     ax.set_yticks(list(y)); ax.set_yticklabels([f"{l}\n(n = {k})" for l, k in zip(labels, n)])
     ax.invert_yaxis(); ax.set_xlim(0, 100); ax.set_xlabel("Share of meanings with a PMP entry (percent)")
     ax.legend(loc="upper center", bbox_to_anchor=(0.45, -0.3), ncol=3, frameon=False, handlelength=1.2, columnspacing=0.8)
@@ -110,14 +112,16 @@ anchors["F4_tolaki"] = [round(fm[lists.index("Tolaki")], 3), round(fo[lists.inde
 def make_f4(w, h):
     fig, ax = plt.subplots(figsize=(w, h)); y = range(len(lists))
     ax.axvline(0.5, color="0.5", linewidth=0.6, linestyle="--")
-    ax.text(0.503, len(lists) - 0.6, "chance", fontsize=7, color="0.3", va="top")
+    # amendment A11 (2026-10-08): the word "chance" sat on the tick labels and the legend covered the two lowest
+    # rows; the word goes to the top of the line and the legend below the axis.
+    ax.text(0.503, -0.55, "chance", fontsize=7, color="0.3", va="center")
     for yi, (u, v) in enumerate(zip(fm, fo)):
         ax.plot([v, u], [yi, yi], color="0.6", linewidth=0.8, zorder=1)
     ax.scatter(fm, list(y), marker="o", s=22, color="black", zorder=3, label="form and meaning inputs (25)")
     ax.scatter(fo, list(y), marker="s", s=20, facecolor="white", edgecolor="black", zorder=3, label="form inputs only (17)")
-    ax.set_yticks(list(y)); ax.set_yticklabels(lists); ax.invert_yaxis(); ax.set_xlim(0.45, 0.85)
+    ax.set_yticks(list(y)); ax.set_yticklabels(lists); ax.set_ylim(len(lists) - 0.5, -0.85); ax.set_xlim(0.45, 0.85)
     ax.set_xlabel("AUC for the held-out list (model trained on the other five lists)")
-    ax.legend(loc="lower right", frameon=False, handletextpad=0.4)
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.24), ncol=2, frameon=False, handletextpad=0.4, columnspacing=1.5)
     return fig
 anchors["F4_width_pt"], _ = save(make_f4, "F4_heldout_auc", 312 / 72, 2.3)
 

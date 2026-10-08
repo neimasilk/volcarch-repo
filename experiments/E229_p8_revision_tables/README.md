@@ -2,7 +2,7 @@
 
 **Status:** SUCCESS — all files produced; 75 of 75 anchors reproduce; the independent re-derivation agrees in 163 of 163 cells.
 **Lines:** 04_language_text (P8 revision). **Date:** 2026-10-06.
-**Design:** `DESIGN.md`, frozen before the script was written; nine dated amendments in its §8 (none changes a number; A6 and A7 add post hoc descriptive counts; A8 renames four labels; A9 redraws Figure 1 to the press's image guidelines).
+**Design:** `DESIGN.md`, frozen before the script was written; nine dated amendments in its §8 and two more below (A10, A11; none changes a number; A6 and A7 add post hoc descriptive counts; A8 renames four labels; A9 redraws Figure 1 to the press's image guidelines).
 **Follows:** E227 (audit), E228 (reviewer analyses). Nothing in E022–E228 was changed. **No manuscript text here** (gate G16).
 
 ## Hypothesis
@@ -214,3 +214,27 @@ mark, uncoded against coded, by list, from `E231/results/P13_glottal_by_list.csv
 (Makasar 39.3 / 25.9 / 34.8; Tolaki held-out 0.809 / 0.760; Tolaki glottal 21.6 / 0.0) and recorded in
 `results/F2_F5_anchors.json`. Widths: F2 312, F3 312 (resampled from 316 by 1.3 %), F4 311, F5 284 pt. Outputs
 `results/F{2..5}_*.{tif,png,pdf}` (`*.tif` git-ignored). Figure 1 unchanged (A9).
+
+## Amendment A11 (2026-10-08) — Figure 1 legend, Figures 3 and 4 layout, Table 8 at full precision
+
+Found in a check of the response letter against the article file before resubmission (ledger C069). No plotted value
+and no stored result changes; three figure files and one table source do.
+
+- **Figure 1** (`08_figure1_legend.py`): the legend said "more likely a candidate" — the working name of the class the
+  article calls *uncoded* — and "(|r| < 0.3)", a symbol the article did not explain. `labels.csv` now reads "more likely
+  uncoded" and "no clear direction"; the rule behind the arrows (sign of the correlation between an input's value and its
+  attribution; a dot below 0.3 in absolute value) is stated in Section 2.4 of the article instead. The script redraws
+  the figure from `results/F1_input_importance.csv` with the drawing code of `01_tables.py`; `--check-old` shows that this
+  code reproduces the uploaded figure pixel for pixel when given the old legend texts (run: True).
+- **Figure 3** (`07_figures_revision.py`): the share printed inside the hatched segment was crossed by the hatch lines; it
+  now sits on a white box. **Figure 4**: the word "chance" sat on the tick labels and the legend covered the two lowest
+  rows; the word is at the top of the line and the legend below the axis. Anchors unchanged and asserted
+  (39.3 / 25.9 / 34.8; 0.809 / 0.760; 21.6 / 0.0). Figures 2 and 5 are byte-identical to the files uploaded on 2026-10-07.
+- **Table 8** (`09_table8_full_precision.py` → `results/T8_glottal_full_precision.csv`): E228 stores the held-out mean
+  at four decimals and the per-list values at three; the article builder averaged the three-decimal values, so two
+  cells printed −0.019 where the unrounded difference is −0.0197 (the article's text says 0.020). The script re-runs
+  E228's S1 for the 25-input model with the same functions and seeds, asserts agreement with the stored E228 file at
+  four decimals for all seven rows, and writes the unrounded values. Held-out differences: q −0.019721, k −0.024226,
+  unwritten −0.001437, geminate −0.004883, input removed −0.019721.
+- `results/as_uploaded_20261007/`: the five TIFF files as uploaded to the portal on 2026-10-07 with their SHA-256
+  (`SHA256.txt`; the TIFFs themselves are git-ignored) and the three replaced PNG previews.

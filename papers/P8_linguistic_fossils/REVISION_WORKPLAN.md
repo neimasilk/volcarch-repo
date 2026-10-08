@@ -608,3 +608,28 @@ Sander's answer; arXiv paper-password reply (C061); the March checklist's unchec
 - **Still to do, in this order:** (1) the PI reads v0.3 (and may glance at the tracked file in Word); (2) at the sitting: mailbox first (Sander);
   replace the two letter files, add the tracked copy as Supplemental Material, regenerate and look at the merged PDF, tick Approve, G12 for every
   changed file, Submit on the PI's word. Nothing was uploaded, so the portal still holds v0.2 and eight files.
+
+### 10.14 Check of the package against itself, 2026-10-08 afternoon — what replaces §10.12–§10.13 for the files
+
+Record and guide: `revision_v0.2/PACKAGE_R1_20261008.md`; ledger C069. In one paragraph: the response letter was traced statement by
+statement against the article file in the portal, which the v0.2 → v0.3 diff of the morning could not do. Sixteen statements were not
+borne out, two cells of Table 8 disagreed with the text, three terms of Table 3 were unexplained, three figures had defects, the signed
+letter sat in the slot that may reach the reviewers, the public repository lacks E229–E231, and the README in the Zenodo deposit is the
+working draft. An independent adversarial read of the rewritten letters found 26 more points (two high), each verified against the
+source and corrected. Built locally: article v0.3 (three new sentences, two cells of Table 8), three figures (E229 A11), tracked copy
+v0.3, cover letter v0.4 and response v0.4, repeatable checks. **Nothing uploaded; the PI has not read it.**
+
+| Was (§10.12–§10.13) | Now |
+|---|---|
+| Letter `COVER_AND_RESPONSE_v0.3.docx` in both letter slots | `COVER_LETTER_v0.4.docx` → *Author Cover Letter*; `RESPONSE_TO_REVIEWERS_v0.4.docx` → *Revision Summary* |
+| Article File stays (`P8_revision_v0.2_anonymous.docx`) | replaced by `P8_revision_v0.3_anonymous.docx` |
+| Figures stay | Figures 1, 3, 4 replaced; 2 and 5 stay |
+| Tracked copy `P8_revision_v0.2_tracked_changes.docx` | `P8_revision_v0.3_tracked_changes.docx` |
+| Push "afterwards" | **before Submit** (the data statement points to folders that are not public) |
+| Zenodo: description title optional, after Submit | **version 1.1 with the corrected README, before Submit** |
+| PI reads letter v0.3 | PI reads the two letters v0.4, the changed places of the manuscript and three figures; eight decisions with defaults |
+
+Order at the sitting: mailbox → push → Zenodo 1.1 → portal → G12 → Submit on the PI's word (`PACKAGE_R1_20261008.md` §6). The Submit
+date, the claims and the abstract are unchanged. **Rule added for this paper (controller's reading):** after any correction pass on the
+manuscript, the response letter is re-traced against the final article file (`check_letters.py` plus a read of every "Section n says"
+statement), and anything already published (Zenodo, GitHub) is downloaded back and read before a letter cites it.

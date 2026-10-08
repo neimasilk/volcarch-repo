@@ -1,29 +1,25 @@
 # Description of the data files
 
-> **Status 2026-10-07: DEPOSITED and published at Zenodo — DOI 10.5281/zenodo.23202245 (version 1.0; concept DOI 10.5281/zenodo.23202244; six files, 275.5 kB).** This copy of the README is the one in the deposit except for this status line. Completed earlier the same day (ledger C065). Done today: deposit metadata (section 0);
-> name concordance (section 1); the two analyst choices and their basis (section 5, checked against Glottolog on
-> 2026-10-07); repository URL placeholders; section 3 reduced to a factual description of the columns. Still the PI's:
-> read the whole file; fill the two `[…]` placeholders (repository URL, DOI); decide the version number and the date of
-> deposit; confirm the author list. Single forms were not assessed by a specialist.
+> Version 1.1 of the deposit. The five data files are unchanged from version 1.0 (published 2026-10-07); only this description was corrected: fields that version 1.0 left unfilled are completed, and a working note at the top was removed.
 
 ## 0. Deposit metadata
 
 | Field | Value |
 |---|---|
-| Title | Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release for the article [title of the revised article] |
-| Authors | Mukhlis Amien (Universitas Bhinneka Nusantara; ORCID 0000-0002-1848-167X) and Go Frendi Gunawan — *to be confirmed by both authors* |
-| Version | 1.0 (first deposit; the version of the files is the one described here, written 2026-10-05 from ABVD snapshot `917c5a5`) |
-| Date | 2026-10-07 (published) |
+| Title | Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release |
+| Authors | Mukhlis Amien (Universitas Bhinneka Nusantara; ORCID 0000-0002-1848-167X) and Go Frendi Gunawan (Universitas Bhinneka Nusantara) |
+| Version | 1.1 (this description corrected; the data files are those of version 1.0, written 2026-10-05 from ABVD snapshot `917c5a5`) |
+| Date | version 1.0: 2026-10-07; version 1.1: October 2026 |
 | Licence | CC BY 4.0 — the same licence as ABVD, from which the forms, cognate-set numbers, loan flags and names are copied; the derived columns (scores, distances, cells) are released under the same licence |
-| How to cite | Amien, Mukhlis & Go Frendi Gunawan. [year]. *[title above]* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23202245 — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
+| How to cite | Amien, Mukhlis & Go Frendi Gunawan. 2026. *Uncoded basic vocabulary in six Sulawesi word lists of the Austronesian Basic Vocabulary Database: form-level data release* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23202244 (this DOI resolves to the latest version) — and cite ABVD: Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. |
 | Related publication | the article in *Oceanic Linguistics* (manuscript OL-03-2026-11), to be linked once published |
 | Files | `p8_forms_all.csv` (1,357 rows), `p8_candidates.csv` (438 rows), `p8_makasar_uncoded_meanings.csv` (70 rows), `p8_tolaki_pmp_lookalikes.csv` (12 rows), `p8_cell_examples.csv` (92 rows), this `README.md` (sections 8–10 describe the three smaller files) |
-| Code | the scripts that built the files and the analyses that use them are in the public project repository, folder `experiments/E228_p8_revision_analyses/` (and E227, E229–E231): [repository URL] |
+| Code | the scripts that built the files and the analyses that use them are in the public project repository, folder `experiments/E228_p8_revision_analyses/` (and E227, E229–E231): https://github.com/neimasilk/volcarch-repo |
 
 
 `p8_forms_all.csv` has 1,357 rows, one for every form in six ABVD word lists. `p8_candidates.csv` has the 438 rows of the same table with `candidate_no_cognate_set` = 1: same 21 columns, sorted by list name and then by meaning.
 Format: plain text (UTF-8, no byte-order mark), comma-separated, one header row; an empty cell means "no value". In Excel use Data > From Text/CSV and choose UTF-8, otherwise ʔ, ŋ and ə are garbled.
-Written by the last section of `01_revision_analyses.py` in the repository folder `experiments/E228_p8_revision_analyses/`, using `p8common.py` there; the design is in `DESIGN.md` of the same folder ([repository URL]).
+Written by the last section of `01_revision_analyses.py` in the repository folder `experiments/E228_p8_revision_analyses/`, using `p8common.py` there; the design is in `DESIGN.md` of the same folder (https://github.com/neimasilk/volcarch-repo).
 
 ## 1. What a row is, and where the data come from
 
@@ -35,7 +31,7 @@ Source: the Austronesian Basic Vocabulary Database (Greenhill, Blust & Gray 2008
 |---|---|---|---|---|---|---|
 | 27 | Muna (Katobu-Tongkuno Dialect) | Muna | mnb | van den Berg | 219 | 34 |
 | 48 | Buginese (Soppeng Dialect) | Bugis | bug | Zainuddin Taha | 242 | 62 |
-| 166 | Makassar | Makasar *(or Makassar — the authors' spelling decision)* | mak | Abd. Rajab | 217 | 80 |
+| 166 | Makassar | Makasar | mak | Abd. Rajab | 217 | 80 |
 | 192 | Wolio | Wolio | wlo | J.C. Anceaux | 254 | 83 |
 | 226 | Tae' (S.Toraja) | Sa'dan Toraja | sda | Blust from van der Veen (1940) | 216 | 45 |
 | 674 | Tolaki | Tolaki | lbw | Omar Abdullah Pidani | 209 | 134 |
