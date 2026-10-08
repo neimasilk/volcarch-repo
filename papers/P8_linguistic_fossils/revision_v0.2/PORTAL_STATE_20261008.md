@@ -41,11 +41,11 @@ is to be replaced: a rebuilt `.docx` has a new hash.** `python -X utf8 make_mani
 
 ## 3. What is still open before Submit
 
-1. **The PI reads** `BACA_DULU_P8_20261008.pdf` (15 pp.: one page of what changed, the cover letter, the response, three figures) and
-   says yes or names what to change. The manuscript's three new sentences, the Table 8 cells, the dropped page range and the figure
+1. ~~The PI reads `BACA_DULU_P8_20261008.pdf` and says yes or names what to change.~~ **Done 2026-10-08 14:48 WIB: the PI answered
+   "setuju"** — nothing to change, so the nine files in the portal are the files to submit. (For the record, what was put to him:) The manuscript's three new sentences, the Table 8 cells, the dropped page range and the figure
    changes are listed on its first page; the fallback if he rejects them is in `PACKAGE_R1_20261008.md` §2.
-2. **Mailbox:** Sander's answer on the corrections and on a further round. Checked twice on 8 October (12:40, 13:35): nothing; nothing
-   from arXiv either. If he answers, the cover letter's sentence "not having heard otherwise …" is adapted (then
+2. **Mailbox:** Sander's answer on the corrections and on a further round. Checked three times on 8 October (12:40, 13:35, 14:48):
+   nothing; nothing from arXiv either. If he answers, the cover letter's sentence "not having heard otherwise …" is adapted (then
    `build_letters.py COVER_LETTER`, `check_letters.py`, replace that one file in the portal, re-approve). If he asks for another
    procedure, Submit waits.
 3. **Co-author** (Go Frendi Gunawan) told of the final state — the PI's step.

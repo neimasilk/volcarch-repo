@@ -1,6 +1,6 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-08 (~14:45) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — **R1 complete in the portal as a draft (nine final files, approved, G12 passed), NOT submitted**; pushed; Zenodo corrected; **open: PI reads `BACA_DULU_P8_20261008.pdf`, Sander's answer, then Submit on the PI's word (Monday 12 Oct at the earliest)**
+**Updated:** 2026-10-08 (~14:45) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — **R1 complete in the portal as a draft (nine final files, approved, G12 passed), NOT submitted**; pushed; Zenodo corrected; **content approved by the PI 14:48 ("setuju"); open: Sander's answer, co-author, then Submit on the PI's word (Monday 12 Oct at the earliest)**
 
 > **2026-10-08 (close, ~14:45) — P8: everything is in place except the PI's reading and the Submit click.** On the PI's go-ahead
 > (browser with his logins; Zenodo publishing allowed; the journal submission stays a draft): **pushed** (GitHub head = the closing
@@ -10,7 +10,8 @@
 > `RESPONSE_TO_REVIEWERS_v0.4.docx`, Supplemental Material `P8_revision_v0.3_tracked_changes.docx`; Notes for Editors rewritten; merged
 > PDF read; **G12 nine of nine**; approvals ticked; "ready for submission"; Save and Exit. **Submit not pressed.** A second adversarial
 > pass on the corrected sentences (8 findings, one high: an unverifiable page range, now omitted) was applied before the upload.
-> **Next:** PI reads `revision_v0.2/BACA_DULU_P8_20261008.pdf` → mailbox (Sander) → co-author → Submit on his word. One-page state:
+> **14:48 — the PI approved the content: "setuju"** (answer to the reading copy `revision_v0.2/BACA_DULU_P8_20261008.pdf`; not the word
+> "submit"). **Next:** mailbox (Sander; nothing at 14:48) → co-author → Submit on his word. One-page state:
 > `revision_v0.2/PORTAL_STATE_20261008.md`. The block below is the state at ~13:30.
 >
 > **2026-10-08 (afternoon, ~13:30) — P8: claim-by-claim check of the package; v0.3 of the letter superseded before the PI read it.**

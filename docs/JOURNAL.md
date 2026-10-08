@@ -10881,3 +10881,15 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
   after the second; the co-author has not been told (PI).
 - Records: `PORTAL_STATE_20261008.md` (new), `PACKAGE_R1_20261008.md`, handoff, WORKSTATE, STATE 04, work plan §10.14, ledger C069, E229
   README (A12), `tracked_build/README.md`, `PORTAL_METADATA.md`, `release/ZENODO_METADATA.md`, memory. Canary green 223.
+
+## 2026-10-08 (14:48) — P8: the PI approves the content of the revision package ("setuju"); not submitted
+
+- To the closing report (which named `papers/P8_linguistic_fossils/revision_v0.2/BACA_DULU_P8_20261008.pdf` as the one file to read and
+  said that "setuju" would do if he agreed) the PI answered **"setuju"**. Recorded as approval of the letters v0.4, of the six changed
+  lines of the manuscript, of the figure changes including the white top band, and of the listed decisions at their defaults. The
+  controller's decision to change a manuscript and figures that had been approved on 7 October is thereby accepted. **It is not the
+  word "submit"; nothing was done in the portal after this answer.**
+- Mailbox at 14:48 (list only): still nothing from Sander, nothing from arXiv.
+- Open: Sander's answer (it decides one sentence of the cover letter), the co-author, Submit on the PI's word (Monday 12 October at the
+  earliest; the nine files in the portal are the files to submit — hashes in `PORTAL_STATE_20261008.md` §2).
+- Records: PORTAL_STATE, handoff §1, WORKSTATE, STATE 04, PACKAGE §7, ledger C069, memory.
