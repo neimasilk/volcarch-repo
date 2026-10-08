@@ -10743,3 +10743,9 @@ Third Zenodo output of the project after D1 and D2.
 - **Not done, by design:** nothing uploaded or sent; the portal still holds v0.2 and eight files; the manuscript file is untouched; no push. Ledger
   C068 → built, awaiting the PI's reading. At the sitting: mailbox (Sander) → replace the two letter files, add the tracked copy as Supplemental
   Material → regenerate and look at the merged PDF → Approve → G12 → Submit on the PI's word.
+
+## 2026-10-08 (~11:15) — Handoff
+
+- `docs/HANDOFF_20261008.md` written at the PI's request ("catat dulu semua, bikin handoff, ntar saya lanjutkan"); `HANDOFF_20261007.md` →
+  `docs/archive/handoffs/` with a "superseded" banner; pointers updated in WORKSTATE, STATE 04 and memory. Start from its §1. The one thing
+  not to miss: the letter still in the portal (v0.2) says the DOI is in the text — replace it with v0.3 before Submit. Canary green 223.

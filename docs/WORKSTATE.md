@@ -13,6 +13,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > file redacts it; fixed). **Next: the PI reads the letter v0.3**; the portal still holds v0.2 and nothing is uploaded. **Submit stays next week**,
 > PI's word; read the mailbox first. Record: `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261008.md`;
 > steps: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.13; what changed: `revision_v0.2/LETTER_v0.2_to_v0.3_CHANGES.md`.
+> **Handoff (start here): `docs/HANDOFF_20261008.md` §1** — ⚠ do not press Submit before the two letter files in the portal are replaced by v0.3.
 
 > ## 🟢 2026-10-05 — P8 conditionally accepted (*Oceanic Linguistics*, OL-03-2026-11)
 > Editor Sander Adelaar, 14:17 WIB: **accepted pending revisions** — not final; **no deadline stated**; editors ask extra care for readability (Section 3).
@@ -33,7 +34,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > **Seven PI decisions (D1–D7) before any writing: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §2.**
 
 > **2026-10-06 (close) — P8: material ready, readings corrected three times, sources read; the ball is with the PI.**
-> Start (superseded 10-07 — now `docs/HANDOFF_20261007.md`): `docs/archive/handoffs/HANDOFF_20261006.md` §1, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.
+> Start (superseded — now `docs/HANDOFF_20261008.md`): `docs/archive/handoffs/HANDOFF_20261006.md` §1, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.
 > Today: tables and Figure 1 (E229), robustness re-run (E230), what "coded" covers (E231), corrected `.bib`, `VENUE.md`,
 > outline, editor-note fact list; three adversarial reads found the numbers sound and several readings not — three rounds
 > of correction (ledger C055–C065). **What changes for the paper:** "coded in ABVD" is not "inherited" (Table 1's 15.5 %
@@ -78,7 +79,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > terakhir (§1). **Sore hari: inti P17 "Two Javas" (sedang di-review ArchCalc) ternyata artefak
 > geocoding** (C032; keputusan integritas PI, §1 item 0) **dan P11 NO-GO** (pola lereng barat = efek
 > Penanggungan; 39 baris candi duplikat; docx tanpa abstrak) — jangan dikirim.
-> **Handoff terbaru: `docs/HANDOFF_20261007.md`** (yang 5 dan 6 Okt kini di `docs/archive/handoffs/`).
+> **Handoff terbaru: `docs/HANDOFF_20261008.md`** (yang 5, 6 dan 7 Okt kini di `docs/archive/handoffs/`).
 >
 > **2026-10-02:** keempat aksi eksposur **selesai** (PI mendelegasikan): balasan JCAA, email VEGAN, **P17 ditarik**,
 > koreksi Zenodo P1 terbit. E226 (T7) dibuka lalu **diparkir REVISIT** — identifikasi toponim (11/170) jadi penghambat.

@@ -11,7 +11,8 @@
 > **DONE ~11:00 on the PI's go-ahead ("lakukan yg perlu dilakukan, tapi pikirkan baik2"):** tracked copy `revision_v0.2/P8_revision_v0.2_tracked_changes.docx`
 > (`tracked_build/README.md`: QA accept-all = revised text, reject-all = old text bar 4 words; anonymity checked in the XML) and letter **v0.3**
 > (`COVER_AND_RESPONSE_v0.3.*`, `LETTER_v0.2_to_v0.3_CHANGES.md`; bulleted; Part D replaced; fixed v0.2's false "the DOI is in the text" — the
-> anonymised article redacts it). **Waiting on the PI: read v0.3.** Nothing uploaded; the portal holds v0.2. The list below is what was planned.
+> anonymised article redacts it). **Waiting on the PI: read v0.3.** Nothing uploaded; the portal holds v0.2 — **replace the two letter files before Submit**.
+> **Handoff (start here): `docs/HANDOFF_20261008.md` §1.** The list below is what was planned.
 > **Work queue as planned at ~10:20 (steps 1–2 now done; 3 is for the sitting):** (1) tracked-changes copy: Word conversion of the
 > submitted text (it exists only as LaTeX/PDF) → Word Compare with `P8_revision_v0.2_anonymous.docx` → **neutralise the revision author and
 > document properties** (anonymity) → inspect → add as Supplemental Material; (2) response letter as bullets (one line for every reviewer
@@ -36,7 +37,7 @@
 > **14:45 — portal preparation finished, Submit deferred to next week by the PI** ("hari ini persiapan dulu, submit beneran
 > minggu depan"; no deadline in the decision letter). Merged PDF (what reviewers see) downloaded and looked at page by page;
 > file order fixed (article first, then Figures 1–5); Review Manuscript Data checked against `PORTAL_METADATA.md`;
-> all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; the re-merged PDF (object 6284; 34 pages, article first, then Figures 1–5; article text identical to the first merge) downloaded and looked at on a contact sheet; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks). **Next sitting: `docs/HANDOFF_20261007.md` §1, then `REVISION_WORKPLAN.md` §10.12** (checklist, then Submit).
+> all three Approve boxes ticked (merged PDF, cover letter, revision summary; the portal keeps them disabled until each PDF has been opened from the row), all eight steps show valid and the Submit page reads "Your manuscript is ready for submission"; the re-merged PDF (object 6284; 34 pages, article first, then Figures 1–5; article text identical to the first merge) downloaded and looked at on a contact sheet; left the portal with Save and Exit at about 14:50 (home page: "Submission data saved", R1 listed under Author Tasks). **Next sitting: `docs/archive/handoffs/HANDOFF_20261007.md` §1, then `REVISION_WORKPLAN.md` §10.12** (checklist, then Submit).
 > **16:00 — PI has read the final package and approves it** ("lebih jujur … menurutku ok"); no change requested.
 >
 > **2026-10-07 (09:21–09:45) — P8: material finished on the PI's go-ahead ("lakukan yg perlu dilakukan"; work plan §10.10).**
@@ -60,7 +61,7 @@
 > the 120–160-word abstract need not carry the cross-list result under D4 (a); the G10 reader needs a name before the
 > writing ends. Nothing written, sent or uploaded; no experiment; commit on `main`, not pushed.
 >
-> **2026-10-06, close — P8. START HERE (superseded by `docs/HANDOFF_20261007.md`): `docs/archive/handoffs/HANDOFF_20261006.md` §1, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.**
+> **2026-10-06, close — P8. START HERE (superseded by `docs/archive/handoffs/HANDOFF_20261007.md`): `docs/archive/handoffs/HANDOFF_20261006.md` §1, then `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §10.7.**
 > - **Work queue (Claude):** (1) check Gmail for arXiv's reply to the request of 14:14 (new paper password for 2604.00023;
 >   ledger C061). (2) After the PI's decisions D1–D10: adjust the outline to the D4 option; if D8 = yes, start the Word
 >   file. (3) After the PI has written: language check; G1 on the new text (every number against E227–E231); G8/G11
