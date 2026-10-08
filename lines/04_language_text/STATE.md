@@ -11,7 +11,9 @@
 > PDF read; **G12 nine of nine**; approvals ticked; "ready for submission"; Save and Exit. **Submit not pressed.** A second adversarial
 > pass on the corrected sentences (8 findings, one high: an unverifiable page range, now omitted) was applied before the upload.
 > **14:48 — the PI approved the content: "setuju"** (answer to the reading copy `revision_v0.2/BACA_DULU_P8_20261008.pdf`; not the word
-> "submit"). **Next:** mailbox (Sander; nothing at 14:48) → co-author → Submit on his word. One-page state:
+> "submit"). **~14:55 — the PI: "jangan disubmit dulu, hari senin kita review menyeluruh sekali lagi, kemudian submit, sekarang
+> BELUM".** **Next (Monday 12 Oct):** a thorough review once more (`docs/HANDOFF_20261008.md` §7 item 0) → mailbox (Sander; nothing
+> at 14:48) → co-author → Submit on his word. One-page state:
 > `revision_v0.2/PORTAL_STATE_20261008.md`. The block below is the state at ~13:30.
 >
 > **2026-10-08 (afternoon, ~13:30) — P8: claim-by-claim check of the package; v0.3 of the letter superseded before the PI read it.**

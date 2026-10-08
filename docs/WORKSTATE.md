@@ -9,7 +9,9 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > put into the portal draft — article v0.3, five figures, signed cover letter v0.4, response v0.4 without names, tracked copy — with
 > Notes for Editors rewritten, the merged PDF read, **G12 nine of nine**, all approvals ticked, "ready for submission". **14:48: the PI
 > approved the content ("setuju", in answer to the reading copy `revision_v0.2/BACA_DULU_P8_20261008.pdf`) — that is not the word
-> "submit". Open: Sander's answer (none at 14:48); co-author; Submit on the PI's word (Monday 12 Oct at the earliest).** State on one page: `revision_v0.2/PORTAL_STATE_20261008.md`. Handoff: `docs/HANDOFF_20261008.md` §1.
+> "submit". ~14:55, the PI: "jangan disubmit dulu, hari senin kita review menyeluruh sekali lagi, kemudian submit, sekarang BELUM".
+> Open: Sander's answer (none at 14:48); co-author; **Monday 12 Oct: a thorough review once more (handoff §7 item 0), then Submit on the
+> PI's word.** State on one page: `revision_v0.2/PORTAL_STATE_20261008.md`. Handoff: `docs/HANDOFF_20261008.md` §1.
 >
 > **2026-10-08 (afternoon, ~13:30) — P8: the R1 package was checked claim by claim; letter v0.3 is superseded before it was read.**
 > The letter (v0.2 in the portal, v0.3 of the morning) said 16 things about the manuscript that the manuscript does not bear out

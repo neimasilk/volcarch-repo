@@ -49,8 +49,11 @@ is to be replaced: a rebuilt `.docx` has a new hash.** `python -X utf8 make_mani
    `build_letters.py COVER_LETTER`, `check_letters.py`, replace that one file in the portal, re-approve). If he asks for another
    procedure, Submit waits.
 3. **Co-author** (Go Frendi Gunawan) told of the final state — the PI's step.
-4. **Submit:** PI logs in → open the draft → confirm the nine files against the table above (hash in the browser as on 8 October) →
-   the PI says "submit" → *Submit Manuscript* → save the confirmation → records the same day.
+4. **A thorough review once more, on Monday, before Submit** — the PI's instruction of 8 October, about 14:55 WIB: "jangan disubmit
+   dulu, hari senin kita review menyeluruh sekali lagi, kemudian submit, sekarang BELUM". Proposed content of that review:
+   `docs/HANDOFF_20261008.md` §7, item 0.
+5. **Submit, only after that review and only on the PI's word:** PI logs in → open the draft → confirm the nine files against the table
+   above (hash in the browser as on 8 October) → the PI says "submit" → *Submit Manuscript* → save the confirmation → records the same day.
 
 ## 4. If something has to change after the PI's reading
 

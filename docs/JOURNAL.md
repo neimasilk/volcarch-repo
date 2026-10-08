@@ -10893,3 +10893,14 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - Open: Sander's answer (it decides one sentence of the cover letter), the co-author, Submit on the PI's word (Monday 12 October at the
   earliest; the nine files in the portal are the files to submit — hashes in `PORTAL_STATE_20261008.md` §2).
 - Records: PORTAL_STATE, handoff §1, WORKSTATE, STATE 04, PACKAGE §7, ledger C069, memory.
+
+## 2026-10-08 (~14:55) — P8: the PI: not now — a thorough review once more on Monday, then Submit
+
+- The PI, verbatim: **"jangan disubmit dulu, hari senin kita review menyeluruh sekali lagi, kemudian submit, sekarang BELUM"**. Nothing had
+  been done in the portal since Save and Exit, and nothing is. Monday's order is therefore: review of the whole package again → fixes,
+  if any → Submit on his word.
+- A proposal for what that review contains is written into the handoff (§7, item 0): mailbox; the outside state (GitHub head, the public
+  Zenodo README, the nine portal files by hash); the mechanical checks again; a full read of the portal's merged PDF and converted
+  letters; one fresh adversarial reader on the whole final package (the second pass of 8 October looked only at rewritten sentences,
+  and nine sentences changed after it have had no independent reader); a number trace of the changed lines; the PI's own look.
+- Records: handoff §1 and §7, PORTAL_STATE §3, WORKSTATE, STATE 04, memory.
