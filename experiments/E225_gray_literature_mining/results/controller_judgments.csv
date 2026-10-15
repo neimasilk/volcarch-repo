@@ -1,0 +1,60 @@
+set,n,doc,judgment,note
+random10_verified,1,berkalaarkeologi_101,notcounted_ok,quote and number match the PDF (abstract p.1); 8160 BP has no error -> near; correct not to count
+random10_verified,2,amerta_5533,wrong,PDF: "1070 S (1148 M)" = Saka year; the model wrote unit SM (BCE) -> false pre-400
+random10_verified,3,berkalaarkeologi_5412,ok_abroad,PDF p.68 matches (ANU-37b 2420+-110); Watom Island = Papua New Guinea
+random10_verified,4,kalpataru_2613,ok_abroad,PDF p.3 matches; Upper Swan = Australia (cited from Bowdler 1996)
+random10_verified,5,amerta_21,wrong,PDF p.80: "143 A.H. (760-61 A.D.)" = Hijri year; the model wrote 143 AD -> false pre-400
+random10_verified,6,amerta_3262,ok_id_cited,PDF p.28 Table 1 matches; lab code Wk-17981 is on the right row; Minanga Sipakko (Sulawesi Barat) cited from Simanjuntak 2006
+random10_verified,7,amerta_3197,notcounted_ok,PDF p.45 matches (171 +-28 BP); young date; correct not to count
+random10_verified,8,nw_5690,notcounted_ok,PDF p.46 prints "abad ke-4-15 Masehi" (probably a typo for 14-15); not counted
+random10_verified,9,amerta_3508,notcounted_miss,PDF p.11 matches; "ca. 44 kya" at Gua Niah (Sarawak): unit kya is not in the schema -> tier C; a true pre-400 date missed (outside Indonesia anyway)
+random10_verified,10,kalpataru_2619,wrong,PDF p.92: radiocarbon ranges "220-440 dan 320-560 Masehi" end after 400 CE; the model gave 220 AD as the value -> false pre-400 by the DESIGN rule
+armA_tierA_all,1,amerta_3194,wrong,"Gunung Padang ""uji karbon ... 5.200 SM"" reported as the claim of another team; no error; not presented as the authors' measurement (dropped by the strict re-reading)"
+armA_tierA_all,2,amerta_3294,ok_id_primary,Leang Jarie (Maros) layer 1b 2850-2750 calBP; the excavation team's own date
+armA_tierA_all,3,amerta_3294,ok_id_primary,Leang Jarie SK1 Wk47597 shell; printed 8.060-7.060 calBP here but 8.060-7.980 in amerta_3287 (a typo in one of them)
+armA_tierA_all,4,berkalaarkeologi_4175,ok_id_primary,Leang Jarie layer 3; lab code printed Wk-7598 = Wk-47598 in amerta_3287 (same sample)
+armA_tierA_all,5,berkalaarkeologi_5125,wrong,laboratory pretreatment test table (PRYW9104); no site or archaeological context stated
+armA_tierA_all,6,berkalaarkeologi_5412,ok_abroad,Malo Island (Vanuatu) c. 70 BC UCLA-1412; no error (dropped by the strict re-reading)
+armA_tierA_all,7,berkalaarkeologi_5412,ok_abroad,Watom Island (Papua New Guinea)
+armA_tierA_all,8,kalpataru_2611,ok_id_cited,Loyang Mendale (Aceh Tengah) cited from Wiradnyana and Setiawan 2011
+armA_tierA_all,9,kalpataru_2611,ok_id_cited,Gua Silabe (Sumatera Selatan) cited
+armA_tierA_all,10,kalpataru_2611,ok_id_cited,Tanjungsari (Karawang; Jawa Barat) cited from Simanjuntak 2002
+armA_tierA_all,11,kalpataru_2611,ok_id_cited,Liang Kawung (Kalimantan Barat) cited from Chazine 1995
+armA_tierA_all,12,kalpataru_2611,ok_abroad,Gua Niah (Sarawak; Malaysia)
+armA_tierA_all,13,kalpataru_2611,ok_abroad,Gua Sireh (Sarawak; Malaysia)
+armA_tierA_all,14,purbawidya_78,ok_id_primary,Gua Batu (Kotabaru karst; Kalimantan Selatan) WK 48647; own excavation; Polymesoda shell
+armA_tierA_all,15,purbawidya_78,ok_id_primary,Gua Batu WK 48645
+armA_tierA_all,16,purbawidya_78,ok_id_primary,Gua Batu WK 48644
+armA_tierA_all,17,purbawidya_78,ok_id_primary,Gua Batu WK 48646
+armA_tierA_all,18,purbawidya_78,duplicate,summary sentence of the same four Gua Batu dates (6065-4868 calBP)
+armA_tierA_all,19,purbawidya_78,ok_id_primary,Gua Cililin 1 (Kotabaru; Kalimantan Selatan) iron-smelting workshop; 1720-1560 cal BP = 230-390 CE by arithmetic (the authors print 90-230 Masehi); pre-400 either way
+random30_counted,1,berkalaarkeologi_101,ok_id_cited,Nabulei Lisa (Buru; Maluku) 13000-9000 BP by comparison; no lab date
+random30_counted,2,amerta_5533,wrong,"""1291 Saka (1369 AD)"" read as 1291 SM"
+random30_counted,3,kalpataru_2611,ok_abroad,Gua Niah (Sarawak)
+random30_counted,4,kalpataru_2613,ok_id_cited,"""bukit kerang"" shell middens of NE Sumatra 12550+-290 BP (Wiradnyana 2011); generic site name"
+random30_counted,5,amerta_21,wrong,143 A.H. read as 143 AD
+random30_counted,6,amerta_3226,ok_id_cited,Rawa Kalela (Baliem Valley; Papua) 5200 years ago; palynology cited from Haberle via Suroto 2013
+random30_counted,7,amerta_3194,wrong,"a negative statement (""no information on farming 10,000 years ago""), not a dated record"
+random30_counted,8,purbawidya_11308,ok_abroad,Ohalo II (Israel)
+random30_counted,9,amerta_5533,wrong,1070 Saka read as 1070 SM (same record as random10 n=2)
+random30_counted,10,kalpataru_2613,ok_id_cited,Baliem Valley (Papua) ca. 26000 years ago; cited
+random30_counted,11,kalpataru_2597,ok_id_cited,"Seram: no trace older than 2000 years (Stark and Latinis 1992); borderline, an upper bound rather than a date"
+random30_counted,12,berkalaarkeologi_5407,ok_abroad,northern Australia (article by Harry Allen); no site named
+random30_counted,13,kalpataru_2889,ok_id_cited,Gua Pawon (Bandung Barat; Jawa Barat) 3000-11000 years ago; cited
+random30_counted,14,purbawidya_78,ok_id_primary,Gua Batu WK 48645 (Kalimantan Selatan)
+random30_counted,15,purbawidya_5561,ok_id_cited,Gua Kidang (Blora; Jawa Tengah) 5719-5578 cal BP Beta 649557 cited from Wibowo et al. 2022
+random30_counted,16,berkalaarkeologi_5407,ok_abroad,northern Australia shell midden 26000 BP
+random30_counted,17,berkalaarkeologi_101,ok_id_cited,Liang Uttangnge 1 (Maros) 3330 BP; the authors' site but no error or lab code
+random30_counted,18,kalpataru_2613,ok_id_cited,Gua Braholo (Gunungkidul; DIY) 15520+-250 BP cited from Simanjuntak
+random30_counted,19,amerta_3262,ok_abroad,Gua Sireh (Sarawak) ca. 4300 BP
+random30_counted,20,kalpataru_2619,wrong,"pottery ""2000 sampai 1000 BP"" at Buni etc.; the model took the old end (2000 BP); the range runs past 400 CE"
+random30_counted,21,amerta_3447,ok_id_cited,Maros-Pangkep 3800-3500 years ago; region only
+random30_counted,22,amerta_3262,ok_id_cited,Liang Kawung (Kalimantan Barat) 3030+-180 BP (Chazine 1995)
+random30_counted,23,purbawidya_78,duplicate,Gua Batu summary sentence (same dates as n=14)
+random30_counted,24,berkalaarkeologi_4514,ok_id_primary,Loyang Ujung Karang (Aceh Tengah) bone 2590+-120 BP; own excavation
+random30_counted,25,amerta_3262,ok_id_cited,Pulau Ay (Banda; Maluku) ca. 3150 BP (Lape 2000)
+random30_counted,26,berkalaarkeologi_5220,wrong,"""tahun 749 C"" = Saka 749 (827 CE) read as 749 SM"
+random30_counted,27,berkalaarkeologi_4162,ok_id_cited,Gua Arca (Kangean; Jawa Timur) ca. 6000 BP; round number
+random30_counted,28,purbawidya_11308,ok_abroad,Jerf el Ahmar (Syria)
+random30_counted,29,berkalaarkeologi_5407,ok_abroad,northern Australia shell midden 22000-23000
+random30_counted,30,amerta_3447,ok_id_cited,Kalumpang (Sulawesi Barat) 3800-3500 years ago; region only

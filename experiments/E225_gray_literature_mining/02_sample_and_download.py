@@ -66,15 +66,18 @@ for arm, idxs in (("A", arm_a), ("B", arm_b)):
             for g in galleys:
                 galleys_tried.append(g)
                 ctype, data = get(f"https://ejournal.brin.go.id/{r['journal']}/article/download/{art_id}/{g}", binary=True)
-                if data[:5] == b"%PDF-":
-                    local.write_bytes(data)
-                    status, nbytes = "ok", len(data)
+                # Amerta and Kalpataru serve a few bytes of HTML (<div style="display:none;">) before %PDF- (found
+                # 2026-10-15 after the first pass); the PDF itself is intact, so the prefix is dropped and logged
+                start = data.find(b"%PDF-", 0, 2048) if isinstance(data, bytes) else -1
+                if start >= 0:
+                    local.write_bytes(data[start:])
+                    status, nbytes = ("ok" if start == 0 else f"ok (dropped {start}-byte prefix)"), len(data) - start
                     break
                 status = f"not pdf ({ctype[:40]})"
             time.sleep(1)
         log_rows.append({"arm": arm, "frame_row": i, "journal": r["journal"], "article_id": art_id, "status": status, "bytes": nbytes,
-                         "galleys_tried": " ".join(galleys_tried), "file": local.name if status in ("ok", "cached") else ""})
-    print(arm, "done:", sum(1 for x in log_rows if x["arm"] == arm and x["status"] in ("ok", "cached")), "PDFs of", len(idxs))
+                         "galleys_tried": " ".join(galleys_tried), "file": local.name if status.startswith(("ok", "cached")) else ""})
+    print(arm, "done:", sum(1 for x in log_rows if x["arm"] == arm and x["status"].startswith(("ok", "cached"))), "PDFs of", len(idxs))
 
 for name, rows in (("pilot_arms.csv", arms_rows), ("download_log.csv", log_rows)):
     with (HERE / "results" / name).open("w", newline="", encoding="utf-8") as f:

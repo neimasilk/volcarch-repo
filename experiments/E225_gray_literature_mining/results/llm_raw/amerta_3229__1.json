@@ -1,0 +1,40 @@
+{
+  "dates": [
+    {
+      "site": "Lambanapu",
+      "admin_location": null,
+      "coordinates_as_stated": null,
+      "method": "C14",
+      "lab_code": null,
+      "age_value": 2148,
+      "age_error": 95,
+      "age_unit": "BP",
+      "is_calibrated": false,
+      "cal_range_start_ce": -202,
+      "cal_range_end_ce": -127,
+      "material": "arang",
+      "context": "hunian Lambanapu",
+      "context_is_archaeological": true,
+      "page": 10,
+      "quote": "Pertanggalan hunian di Lambanapu menunjukkan umur 2148±95 BP (calpal http://www.calpal-online.de/cgi-bin/quickcal.pl) 202±127 BC."
+    },
+    {
+      "site": "Melolo",
+      "admin_location": null,
+      "coordinates_as_stated": null,
+      "method": "C14",
+      "lab_code": "Laboratorium Groningen",
+      "age_value": 2870,
+      "age_error": 60,
+      "age_unit": "BP",
+      "is_calibrated": false,
+      "cal_range_start_ce": null,
+      "cal_range_end_ce": null,
+      "material": null,
+      "context": "situs Melolo",
+      "context_is_archaeological": true,
+      "page": 10,
+      "quote": "Sebagai perbandingan hasil pertanggalan C14 di Laboratorium Groningen, Belanda, dari situs Melolo yang terletak sekitar 50 km di timur Lambanapu adalah 2870±60 BP atau lebih dari 2.500 tahun yang lalu"
+    }
+  ]
+}

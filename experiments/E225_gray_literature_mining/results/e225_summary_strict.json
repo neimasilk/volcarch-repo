@@ -1,0 +1,23 @@
+{
+  "A": {
+    "documents_readable": 120,
+    "records_counted_strict": 74,
+    "of_which_tier_A": 16,
+    "tierA_per_100_readable_docs": 13.33,
+    "docs_with_ge1_tierA": 6,
+    "dropped_from_frozen": 3
+  },
+  "B": {
+    "documents_readable": 76,
+    "records_counted_strict": 265,
+    "of_which_tier_A": 90,
+    "tierA_per_100_readable_docs": 118.42,
+    "docs_with_ge1_tierA": 19,
+    "dropped_from_frozen": 4
+  },
+  "distinct_counted_strict_A_plus_B": 308,
+  "verdict_strict": "LANJUT",
+  "dropped_reasons": {
+    "radiometric without error or stated range": 7
+  }
+}

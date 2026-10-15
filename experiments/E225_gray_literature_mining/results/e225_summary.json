@@ -1,0 +1,39 @@
+{
+  "llm_files_unparsed": [
+    "berkalaarkeologi_5355__0.json"
+  ],
+  "A": {
+    "documents_in_arm": 150,
+    "documents_readable": 120,
+    "records_extracted": 208,
+    "records_rejected_by_guard": 47,
+    "records_counted_pre400": 77,
+    "of_which_tier_A": 19,
+    "distinct_counted_pre400": 73,
+    "tierA_per_100_readable_docs": 15.83,
+    "docs_with_ge1_counted": 19,
+    "share_docs_with_ge1_counted_wilson95": [
+      0.1038,
+      0.2341
+    ],
+    "counted_with_location": 53
+  },
+  "B": {
+    "documents_in_arm": 81,
+    "documents_readable": 76,
+    "records_extracted": 670,
+    "records_rejected_by_guard": 136,
+    "records_counted_pre400": 269,
+    "of_which_tier_A": 94,
+    "distinct_counted_pre400": 242,
+    "tierA_per_100_readable_docs": 123.68,
+    "docs_with_ge1_counted": 34,
+    "share_docs_with_ge1_counted_wilson95": [
+      0.3408,
+      0.559
+    ],
+    "counted_with_location": 187
+  },
+  "distinct_counted_pre400_A_plus_B": 314,
+  "verdict": "LANJUT"
+}
