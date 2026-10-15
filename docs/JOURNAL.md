@@ -10963,3 +10963,35 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
   "submit", which also means commit and push before the click); §2 the order of the sitting. One note of terms for him: what is
   submitted now is the revision R1; the journal's "final version" (names, acknowledgments in the first note) comes after acceptance.
 - Records: handoff, WORKSTATE, STATE 04, `PORTAL_STATE_20261012.md` §3, memory.
+
+## 2026-10-15 — P8: the editor's reply of 13 October; letters v0.6; R1 resubmitted
+
+- Session from the repo root (orbit), Opus 5.5 controlling; one independent checker (Sonnet, two passes). Canary green 223.
+  The PI: **"baca handoff marik kita selesaikan P8, kabar terbaru: [the editor's reply of 13 October, pasted]"**.
+- **The editor's reply** (Sander Adelaar, 13 Oct 13:19 WIB, directly to the PI; paraphrase in
+  `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261013.md`): go ahead with the corrections; add a note telling the reviewers in
+  general terms how the new version relates to the old one; the same reviewers will be consulted again, anonymously; acknowledge
+  the use of AI (he thought we had). Mailbox (last 4 days): nothing else from the journal, arXiv or the co-author.
+- **What was already there:** the AI declaration is in the anonymised article (checked in the `.docx`), as an "AI Disclosure" was
+  in the submitted text. **What was missing:** a reviewer-facing map of old → new; the cover letter's conditional sentence was
+  obsolete.
+- **Built:** `RESPONSE_TO_REVIEWERS_v0.6` (new opening section "How the revised version relates to the submitted one"; Part C + one
+  bullet) and `COVER_LETTER_v0.6`; `build_letters.py`, `check_letters.py`, `make_manifest.py` moved to v0.6 (`check_letters.py`:
+  section-number window widened for "Sections 2.3 to 2.5"; `make_manifest.py --check` now compares the seven unchanged files with
+  the hashes of the portal of 12 Oct). Article, figures and tracked copy untouched.
+- **Independent check of the note** (Sonnet, read-only): pass 1 — 36 of 43 statements supported; 4 overstated ("what is the same"
+  hid the two list-level inputs; Figure 1 "redrawn" though from another model; "Section 5 = four statements"; "experiment codes no
+  longer used" though the data statement names folders), 2 unclear (the ablation sentence; "two terms"), 1 omission (Table 6 replaces
+  submitted Figure 2); large changes missing (0.763 → 0.727; prefix and robustness claims withdrawn; the eight "Tier 1" meanings; the
+  numerals). Pass 2 — 12 supported, 1 inaccurate, 1 overstated: the eight meanings "residual in five or six lists" were a
+  **miscount of our own** (forms, not lists; by lists three of eight qualify — E227 audit A16), not just a label-set matter → now
+  a Part C bullet. All findings verified at the source by the controller before correcting. Found on the way: **the revised model
+  is exactly the last row of submitted Table 4** (25 inputs, 0.727 / 0.701), now said so in the note.
+- **PI's answers (three questions):** the six small decisions of the reading copy at their defaults; the co-author **has agreed**;
+  **"Ya, submit hari ini"** — taken as the word "submit".
+- **Portal:** the PI logged in (the session of 12 Oct had expired). Nine files hashed before any change: identical to 12 Oct. Rows 6
+  and 7 replaced (types unchanged; hashes fetched back = local). Notes for Editors updated (the editor's reply; the note; AI
+  declared). **Commit `7fc342c` pushed**; E227–E231 and the two new scripts of 12 Oct checked public on GitHub.
+- **Submit.** The portal took ~22 minutes to convert the two letters (12 Oct: 1–2 minutes); their PDFs read and compared word for word with the local ones (equal). Approvals ticked, "ready for submission", G12 nine of nine from the manuscript page, mailbox clear → **Submit Manuscript pressed, 2026-10-15 ~10:08 WIB** ("Manuscript Approved (OL-03-2026-11R1)."; R1 under Active Submissions). No confirmation e-mail by 10:12. Tag `p8-r1-submitted-20261015` on `7fc342c`, pushed.
+- **Next:** a second review round by the same reviewers (the editor's words). Nothing due from us. Ideas I-150–I-152 may now be opened (they waited for R1). Outside P8: P23 (Naskah A), downstream audit C050, T7/E226. arXiv v2 only after the decision.
+- Records: correspondence note of 13 Oct, `PORTAL_STATE_20261015.md`, ledger C071 (and C070 closed), STATE 04, WORKSTATE, handoff `docs/HANDOFF_20261015.md` (12 Oct archived), memory.

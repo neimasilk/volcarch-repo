@@ -31,4 +31,17 @@ Why the letters changed: `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261013.
 
 ## 3. Submit
 
-(filled in at the moment of Submit)
+| Step | What | Check |
+|---|---|---|
+| Conversion | the portal took about 22 minutes (02:44 → 03:06 UTC) to convert the two letters to PDF, against 1–2 minutes on 12 October; nothing was wrong with the files | both PDFs downloaded: cover letter 2 pp., response 10 pp.; their text equal word for word to the local PDFs (only the bullet glyph differs); ʔ, κ, Δ present; no author name, affiliation, DOI or repository string in the response |
+| Approvals | each PDF opened from its row; the four Approve boxes (merged PDF, cover letter, revision summary, supplemental) ticked; *Save and Continue*; step *Submit Manuscript*: "Your manuscript is ready for submission" | all nine steps valid |
+| Last checks | the nine source files fetched from the manuscript page and hashed in the browser; mailbox (last day): nothing from the journal | **G12 nine of nine** = section 2 |
+| Before the click | commit `7fc342c` pushed; E227–E231 and the two scripts new on 12 Oct answered 200 on GitHub | — |
+| **Submit Manuscript** | pressed on the PI's word ("Ya, submit hari ini") | **Submitted 2026-10-15, about 10:08 WIB** (portal clock 2026-10-14 11:08 pm): the portal answered "Manuscript Approved (OL-03-2026-11R1)." and lists R1 under *Live Manuscripts → Active Submissions*; the R1 task is gone from Author Tasks. No confirmation e-mail by 10:12 WIB. |
+| Afterwards | tag `p8-r1-submitted-20261015` on `7fc342c` (the files as submitted), pushed | — |
+
+Screenshots (git-ignored): `.playwright-mcp/submitted_R1_20261015.png`, `.playwright-mcp/live_manuscripts_20261015.png`; the portal's PDFs of the two letters: `.playwright-mcp/portal_COVER_LETTER_v0.6.pdf`, `.playwright-mcp/portal_RESPONSE_v0.6.pdf`.
+
+## 4. What comes next
+
+The editor wrote that the same reviewers will be asked again, anonymously: a second review round. Nothing is due from us until the journal writes. arXiv v2 only after the journal's decision (as announced in the Manuscript Comment). After acceptance: the named version (acknowledgments in the first note, author e-mails) is the "final version".

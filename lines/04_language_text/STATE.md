@@ -1,7 +1,9 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-12 (~11:00) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — **final review done 12 Oct; portal draft updated (article v0.4, Figures 1–2, letters v0.5, tracked copy), approved, G12 nine of nine, NOT submitted; waiting for the PI's word "submit"; today's work not committed, not pushed**
+**Updated:** 2026-10-15 (~10:15) · **Temperature:** 🟢 P8 IN REVISION — **R1 SUBMITTED to *Oceanic Linguistics* 2026-10-15 ~10:08 WIB (OL-03-2026-11R1); second review round by the same reviewers; nothing due from us**
 
+> **2026-10-15 — P8: R1 SUBMITTED (~10:08 WIB).** The PI pasted the editor's reply of 13 Oct: go ahead with our corrections; add a note telling the reviewers how the new version relates to the old; same reviewers again, anonymously; acknowledge AI use. Done: letters **v0.6** — the response opens with "How the revised version relates to the submitted one" (two independent reads, every finding verified; one more miscount of our own found and added to Part C: the eight meanings "in five or more of six languages" counted forms, three qualify), cover letter answers the editor; article, figures and tracked copy unchanged. PI: defaults for the six small decisions; co-author agreed; **"Ya, submit hari ini"**. Commit `7fc342c` pushed, rows 6–7 and Notes for Editors updated, G12 9/9, Submit pressed; tag `p8-r1-submitted-20261015`. Record: `revision_v0.2/PORTAL_STATE_20261015.md`; `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261013.md`; ledger C071; handoff `docs/HANDOFF_20261015.md`. **Next in this line:** wait for the journal; ideas I-150–I-152 may be opened; P23.
+>
 > **2026-10-12 (~11:00) — P8: thorough review before Submit, done; the package changed again and is in the portal as a draft.**
 > PI: "baca handoff, review sekali lagi P8, kita selesaikan sekarang, dan pastikan semua gambar, diagram dan referensi sudah sesuai" and
 > "dan pastikan semua sesuai aturan dan template". Three independent checkers (adversarial read of the whole package; bibliographic

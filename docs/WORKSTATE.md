@@ -1,8 +1,18 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-12 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-15 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> **2026-10-15 (~10:08 WIB) — P8: revision R1 SUBMITTED to *Oceanic Linguistics* (OL-03-2026-11R1).**
+> The editor (Sander Adelaar) had replied on 13 Oct: go ahead with the corrections of our own; add a note telling the reviewers in
+> general terms how the new version relates to the old; the **same reviewers will be consulted again**, anonymously; acknowledge the
+> use of AI (it already is, in the anonymised article). Letters **v0.6** (note for the reviewers at the top of the response; cover
+> letter answers the editor), checked twice by an independent reader; article, figures, tracked copy unchanged. PI: six small
+> decisions at default, co-author agreed, "Ya, submit hari ini". Pushed (`7fc342c`, tag `p8-r1-submitted-20261015`), G12 nine of
+> nine, Submit pressed. **Nothing is due from us until the journal writes.** Portfolio: 1 under review (P2-JCAA) + P8 R1 in
+> second review. Next (orbit): P23 Naskah A, downstream audit C050, T7/E226; I-150–I-152 unlocked. Handoff: `docs/HANDOFF_20261015.md`.
+> Ledger next **C072**; canary 223; next free **E232**. *(The blocks below are the state before the submission.)*
+>
 > **2026-10-12 (~11:00) — P8: the thorough review is done; the portal draft was UPDATED and is ready; NOT SUBMITTED — waiting for the PI's word.**
 > PI: "baca handoff, review sekali lagi P8, kita selesaikan sekarang, dan pastikan semua gambar, diagram dan referensi sudah sesuai" · "dan
 > pastikan semua sesuai aturan dan template". Found (three independent checkers, every finding verified by the controller): the
