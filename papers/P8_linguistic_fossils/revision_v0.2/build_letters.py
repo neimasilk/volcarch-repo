@@ -1,7 +1,8 @@
 """Build the two letters of the P8 resubmission as Word files (and PDF reading copies) from their Markdown sources.
 
-    COVER_LETTER_v0.4.md            -> .docx / .pdf   signed; portal slot "Author Cover Letter" (editors only)
-    RESPONSE_TO_REVIEWERS_v0.4.md   -> .docx / .pdf   no names; portal slot "Revision Summary" (may go to the reviewers)
+    COVER_LETTER_v0.6.md            -> .docx / .pdf   signed; portal slot "Author Cover Letter" (editors only)
+    RESPONSE_TO_REVIEWERS_v0.6.md   -> .docx / .pdf   no names; portal slot "Revision Summary" (may go to the reviewers)
+    (v0.6, 2026-10-15: the editor's reply of 13 October; v0.5 of 2026-10-12 is kept as the record)
 
 usage: python -X utf8 build_letters.py [COVER_LETTER | RESPONSE_TO_REVIEWERS]
        (no argument = both; Word must be installed: docx2pdf drives it for the PDF. A rebuilt .docx has a new hash,
@@ -18,7 +19,7 @@ from docx.shared import Pt, RGBColor
 
 HERE = Path(__file__).resolve().parent
 REF = HERE / "letter_reference.docx"
-VERSION = "v0.4"
+VERSION = "v0.6"
 JOBS = [("COVER_LETTER", "Cover letter — revised manuscript OL-03-2026-11"),
         ("RESPONSE_TO_REVIEWERS", "Response to the reviewers — manuscript OL-03-2026-11")]
 

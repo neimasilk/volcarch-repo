@@ -1,5 +1,7 @@
 # P8 — what is in the journal's portal, at Zenodo and on GitHub (state of 2026-10-08, about 14:30 WIB)
 
+> **Superseded on 2026-10-12:** six of the nine files were replaced after the final review. Current state and hashes: `PORTAL_STATE_20261012.md`. This file is the record of what sat in the portal from 8 to 12 October.
+
 **In one line: the revision R1 (OL-03-2026-11R1) sits in the portal as a saved draft with its nine final files, every approval
 ticked and the portal's own message "Your manuscript is ready for submission" — and it is NOT submitted.** The PI said on 8 October:
 do what is needed with the browser, he logs in; publishing on Zenodo is fine; the Oceanic Linguistics submission stays a draft;

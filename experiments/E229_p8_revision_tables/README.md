@@ -250,3 +250,27 @@ Checked: below the band every drawing is pixel-identical to the file before; wid
 the label sits on white in the merged PDF. The `.png` and `.pdf` previews carry no band. Order of scripts for a rebuild:
 `07_figures_revision.py` / `08_figure1_legend.py`, then `10_tiff_top_band.py`. Figures 2 and 5 are thus no longer byte-identical to the
 upload of 2026-10-07, but identical below the band (`papers/P8_linguistic_fossils/revision_v0.2/make_manifest.py --check`).
+
+## Amendment A13 (2026-10-12) — Figures 1 and 2 redrawn at the final review: `11_figures_1_2_final.py`
+
+Found in the review the PI asked for before Submit ("pastikan semua gambar, diagram dan referensi sudah sesuai"; an independent
+adversarial read of the whole package plus the controller's own look at each figure against its data). No stored result and no
+plotted value changes.
+
+- **Figure 2 (workflow) was wrong about the method.** The diagram of 2026-10-07 drew "Profile … (table 5, figs 1 and 5)" as an
+  output of the classifier. Table 5 and Figure 5 are counted directly from the label and the inputs; only the ranking (Tables
+  3–4, Figure 4), the contribution of each input (Figure 1) and the label-by-score cells (Tables 6–7) come from the classifier.
+  Redrawn: label and inputs feed a box "Counted directly, without the classifier" and, separately, the classifier with its three
+  outputs. Also "(table 1)" in the label box, "(table 8)" attached to the glottal conventions only (all that Table 8 holds),
+  "10 repetitions" and en-dashes as in the article.
+- **Figure 1:** the two-line row labels touched each other (line spacing 0.9 → 1.05, wrap 34 → 36 characters). Three labels now
+  come from `labels.csv` by the input's key and not from the `label` column stored in `results/F1_input_importance.csv`:
+  "Meaning: number" (the article's name for the domain; was "numeral") and the journal's serial comma in "(hyphens, spaces, and
+  glottal marks included)" and "… na, po, or aŋ". **The `label` column of `F1_input_importance.csv` and the `property` column of
+  `T6_profile.csv` therefore still carry the three old texts**; the article's Table 5 takes its labels from `labels.csv` too
+  (`build_docx.py`), so table and figure agree. Bars, order and direction marks are read from the stored file as before.
+- Figures 3, 4 and 5 were compared once more with Tables 2 and 4 and with the counts of Section 3.6 (every plotted value; the
+  per-list odds ratios 2.04 / 2.01 / 2.40 recomputed from Figure 5's counts) and are unchanged, byte for byte.
+- `results/as_uploaded_20261008/`: Figures 1 and 2 as they sat in the portal from 2026-10-08 (TIFF git-ignored; PNG and PDF kept).
+- Order for a rebuild of these two: `11_figures_1_2_final.py`, then `10_tiff_top_band.py`. Scripts 07 and 08 remain as the record
+  of the earlier drawings; running 07 again would redraw the old Figure 2.

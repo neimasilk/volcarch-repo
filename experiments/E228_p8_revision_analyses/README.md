@@ -93,6 +93,14 @@ proto-form that is itself uncoded. 26 of the 134 have no look-alike even at 0.50
 look Austronesian or like Malay loans (*motaku* 'to fear', *metanggali* 'to dig') — ⚠ prima facie only,
 to be checked by the PI against the Austronesian Comparative Dictionary before anything is said about a single form.
 
+> **Correction 2026-10-12 (found by an independent verifier at the final review of the P8 revision; recounted by the controller).**
+> The stored figure 7 (`S3_lookalikes.json`, `of_which_PBT_entry_is_cognate_coded_in_ABVD`) is a count **by meaning** — the
+> meaning has *some* coded Proto-Bungku-Tolaki entry — and not of matches with a coded entry, which is what the sentence above
+> and the article said. `04_pbt_matched_entry_recount.py` → `results/S3_pbt_matched_entry_recount.csv`: of the 34, **six** match
+> an entry that carries a set number ('to breathe', 'to drink', 'to dream', 'egg', 'above', 'Eight'); for 'to hear' Tolaki
+> *podea* matches the uncoded entry \*podea°, and the coded \*rongoR is at 0.80; for 'Eight' the uncoded \*hoalu is as near as
+> the coded \*halu. The other 28, not 27, match only an uncoded entry. Article v0.4 and the response to the reviewers say six.
+
 All six languages against the other Sulawesi lists in ABVD (71–76 lists, 10 random meanings for chance), threshold 0.25:
 Muna 35 % vs 6 %, Bugis 16 % vs 4 %, Makasar 20 % vs 6 %, Wolio 49 % vs 9 %, Tae' 33 % vs 10 %, Tolaki 71 % vs 9 %.
 ABVD has few other South Sulawesi lists, so the low Bugis/Makasar figures are partly an absence of comparanda.

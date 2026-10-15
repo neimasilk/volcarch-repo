@@ -2,6 +2,8 @@
 % Copy of ../references.bib (left untouched) with changes following REFERENCE_CHECK_20261005.md Part B.
 % Changes: 8 entries corrected (ross2005, bellwood1995, swadesh1955, thurgood1999, casparis1975, mcelhanon1970, list2012, anderson2018);
 % 2 entries deleted as NOT FOUND (mead2005, vandenBerg1996). Citation keys unchanged.
+% 2026-10-12 (second check, at the sources): anderson2018 third author is "Thiago Chacon" in the journal's byline and at Crossref,
+% and the journal writes Poznań with the acute accent; chen2016 publisher and place from Crossref; list2012 one city only (journal's rule).
 % Note: list2018 is bibliographically correct but is used for the wrong thing in the text (CLICS2 is not a phylogenetic tool); that is a matter for the PI's prose, not for this file.
 
 @book{blust2009,
@@ -64,11 +66,18 @@
   year      = {2005}
 }
 
-% lundberg2017: entry CONFIRMED; the page range (4765--4774 in most citations) could not be confirmed at the source and is omitted since 2026-10-08 (REFERENCE_CHECK_20261005.md Part B: not on the NeurIPS page or its official BibTeX).
+% lundberg2017: pages, editors and publisher CONFIRMED 2026-10-12 at the source: the proceedings' own Metadata.json
+% (proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Metadata.json) gives page_first 4765,
+% page_last 4774; its official BibTeX gives the seven editors (initials only) and the publisher, and leaves `pages` empty,
+% which is why the range was thought unconfirmable on 2026-10-08 and left out of the v0.3 list.
 @inproceedings{lundberg2017,
   author    = {Lundberg, Scott M. and Lee, Su-In},
   title     = {A Unified Approach to Interpreting Model Predictions},
   booktitle = {Advances in Neural Information Processing Systems 30},
+  editor    = {Guyon, I. and von Luxburg, U. and Bengio, S. and Wallach, H. and Fergus, R. and Vishwanathan, S. and Garnett, R.},
+  publisher = {Curran Associates},
+  address   = {Red Hook, NY},
+  pages     = {4765--4774},
   year      = {2017}
 }
 
@@ -77,6 +86,8 @@
   title     = {{XGBoost}: A Scalable Tree Boosting System},
   booktitle = {Proceedings of the 22nd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining},
   pages     = {785--794},
+  publisher = {Association for Computing Machinery},
+  address   = {New York},
   year      = {2016},
   doi       = {10.1145/2939672.2939785}
 }
@@ -294,7 +305,7 @@
   title     = {{LexStat}: Automatic Detection of Cognates in Multilingual Wordlists},
   booktitle = {Proceedings of the EACL 2012 Joint Workshop of LINGVIS \& UNCLH},
   publisher = {Association for Computational Linguistics},
-  address   = {Avignon, France},
+  address   = {Avignon},
   pages     = {117--125},
   year      = {2012}
 }
@@ -328,9 +339,9 @@
 }
 
 @article{anderson2018,
-  author  = {Anderson, Cormac and Tresoldi, Tiago and Chacon, Thiago Costa and Fehn, Anne-Maria and Walworth, Mary and Forkel, Robert and List, Johann-Mattis},
+  author  = {Anderson, Cormac and Tresoldi, Tiago and Chacon, Thiago and Fehn, Anne-Maria and Walworth, Mary and Forkel, Robert and List, Johann-Mattis},
   title   = {A Cross-Linguistic Database of Phonetic Transcription Systems},
-  journal = {Yearbook of the {Poznan} Linguistic Meeting},
+  journal = {Yearbook of the {Pozna\'{n}} Linguistic Meeting},
   volume  = {4},
   number  = {1},
   pages   = {21--53},

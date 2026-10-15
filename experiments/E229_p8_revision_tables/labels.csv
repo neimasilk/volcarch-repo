@@ -5,7 +5,7 @@ Makassar,Makasar
 Wolio,Wolio
 Toraja-Sadan,Sa'dan Toraja
 Tolaki,Tolaki
-form_length,"Length in characters (hyphens, spaces and glottal marks included)"
+form_length,"Length in characters (hyphens, spaces, and glottal marks included)"
 n_vowels,Number of vowel letters
 vowel_ratio,Share of vowel letters
 ends_in_vowel,Ends in a vowel
@@ -13,7 +13,7 @@ has_glottal,Glottal stop written (ʔ or ')
 has_nasal_cluster,"Contains ŋ or ng, or mb, nd, nj, mp, nk, nc, nt"
 has_reduplication,Hyphen or repeated letter sequence
 n_consonant_clusters,Consonant-letter clusters
-has_prefix_like,"Begins with ma, me, mo, pa, ka, ta, na, po or aŋ"
+has_prefix_like,"Begins with ma, me, mo, pa, ka, ta, na, po, or aŋ"
 init_a,Begins with a
 init_b,Begins with b
 init_k,Begins with k
@@ -27,7 +27,7 @@ sem_ACTION,Meaning: action
 sem_BODY,Meaning: body
 sem_GRAMMAR,Meaning: grammatical word
 sem_NATURE,Meaning: nature
-sem_NUMBER,Meaning: numeral
+sem_NUMBER,Meaning: number
 sem_QUALITY,Meaning: quality
 sem_OTHER,Meaning: other
 fig1_axis_x,Mean absolute contribution to the prediction (SHAP value)

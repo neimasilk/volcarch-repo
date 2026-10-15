@@ -1,7 +1,24 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-08 (~14:45) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — **R1 complete in the portal as a draft (nine final files, approved, G12 passed), NOT submitted**; pushed; Zenodo corrected; **content approved by the PI 14:48 ("setuju"); open: Sander's answer, co-author, then Submit on the PI's word (Monday 12 Oct at the earliest)**
+**Updated:** 2026-10-12 (~11:00) · **Temperature:** 🟢 P8 IN REVISION (conditional acceptance) — **final review done 12 Oct; portal draft updated (article v0.4, Figures 1–2, letters v0.5, tracked copy), approved, G12 nine of nine, NOT submitted; waiting for the PI's word "submit"; today's work not committed, not pushed**
 
+> **2026-10-12 (~11:00) — P8: thorough review before Submit, done; the package changed again and is in the portal as a draft.**
+> PI: "baca handoff, review sekali lagi P8, kita selesaikan sekarang, dan pastikan semua gambar, diagram dan referensi sudah sesuai" and
+> "dan pastikan semua sesuai aturan dan template". Three independent checkers (adversarial read of the whole package; bibliographic
+> check at the sources; verification of the corrections) and the controller's own pass over figures, tables, template and the
+> portal's PDFs. **Found:** reference list in the wrong style and four reference facts; Figure 2 wrong about the method; four
+> over-statements and one count wrong since v0.2 (**six**, not seven, Tolaki forms match a coded Proto-Bungku-Tolaki entry); house
+> style and template layout not followed; the tracked copy lost six cells on "accept all". **Built and uploaded:** article v0.4
+> (`make_v04_from_v03.py`; 63 content sentences in `CHANGES_v0.3_to_v0.4_content.tsv`), `ol_refs.py`, Figures 1–2 (E229 A13),
+> `E228/04_pbt_matched_entry_recount.py`, letters v0.5, tracked copy v0.4; portal: six files replaced, abstract field, merged PDF
+> read (34 pp.), approvals, **G12 nine of nine**, "ready for submission", Save and Exit. **Submit not pressed; nothing committed or
+> pushed.** **What may be said changed in three places** (handoff §5): Makasar's smaller share of common sets is "that fact in part
+> only"; six, not seven; only five analyses had a decision rule before the run. **Next:** the PI reads
+> `revision_v0.2/BACA_DULU_P8_20261012.pdf` → "submit" → mailbox, commit, push, hashes, Submit, records. Guide:
+> `revision_v0.2/PACKAGE_R1_20261012.md`; state: `PORTAL_STATE_20261012.md`; handoff: `docs/HANDOFF_20261012.md`. Ledger **C070**.
+> **~11:05 — the PI: "karena hari ini dan besok saya ada kesibukan, mungkin rabu akan saya kerjakan bagian saya untuk kemudian kita submit final papernya, btw, bikin handoff dulu, rabu kita buka dan kita bahas apa tugas saya".** Wednesday 14 Oct: open the handoff, discuss his tasks (§1 there), then
+> Submit on his word. Until then nothing changes in the portal; the day's work is neither committed nor pushed.
+>
 > **2026-10-08 (close, ~14:45) — P8: everything is in place except the PI's reading and the Submit click.** On the PI's go-ahead
 > (browser with his logins; Zenodo publishing allowed; the journal submission stays a draft): **pushed** (GitHub head = the closing
 > commit; E229–E231 public); **Zenodo**: draft README replaced inside the published record, DOI 10.5281/zenodo.23202245 unchanged;

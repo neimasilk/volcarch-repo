@@ -10904,3 +10904,62 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
   letters; one fresh adversarial reader on the whole final package (the second pass of 8 October looked only at rewritten sentences,
   and nine sentences changed after it have had no independent reader); a number trace of the changed lines; the PI's own look.
 - Records: handoff §1 and §7, PORTAL_STATE §3, WORKSTATE, STATE 04, memory.
+
+## 2026-10-12 (09:05–11:00) — P8: the thorough review before Submit; package changed (article v0.4, letters v0.5), portal draft updated, not submitted
+
+- **PI:** "baca handoff, review sekali lagi P8, kita selesaikan sekarang, dan pastikan semua gambar, diagram dan referensi sudah
+  sesuai"; during the work: "dan pastikan semua sesuai aturan dan template". Orbit root; canary green 223; inBox empty; repo clean and
+  equal to GitHub at the start.
+- **Checked first:** mailbox (nothing from the editor on content, nothing from arXiv since 8 Oct); GitHub head and the five public
+  folders; the six Zenodo files (md5 = local); the nine portal files (hashed in the browser = table of 8 Oct; the portal session of
+  8 Oct was still logged in); `check_letters.py`, `make_manifest.py --check`.
+- **Tried and found — the controller:** each figure against its data (Figures 3–5 exact; Figure 2's flow wrong: the profile drawn
+  as an output of the classifier); text against tables (agree); the template's text and XML, the stylesheet of 2017 and the
+  instructions: **the reference list was set in the Unified Style Sheet, not in the journal's Chicago form** — `VENUE.md` had the
+  rule since 6 Oct, the builder used another CSL and nobody compared the built list with the template's examples; serial comma,
+  numerals, lower-case cross-references, run-in headings, table look, figure markers and "omit acknowledgements" not followed.
+- **Independent adversarial read of the whole package** (main model, fresh context): 4 high, 14 medium, 3 low groups. Verified by the
+  controller in the result files before any change: E231 P1 (pairwise shares among meanings coded in both lists 76.3 / 70.1 / 81.0),
+  `T7_examples` (two "look-alikes" at 0.50), E228 DESIGN §§2–7 against E231 DESIGN §0 and `02_posthoc_checks.py` (which analyses had
+  a rule before the run), E231 P8/P9 (38 percent = 33 of 87; 90 of 136; Bugis 8 of 62, Sa'dan Toraja 8 of 45), `S3_lookalikes.json`
+  (88.4 against 7.5 by chance), the forms of 'One Hundred', ABVD's list notes, the SHAP code. **Not adopted:** a reference entry for
+  van der Veen 1940 (a description of ABVD's source, not a citation of a work consulted); curly quotation marks (the figures carry
+  straight ones); softening the three corrections of the reviewer's citation slips.
+- **Independent reference check** (Sonnet; Crossref, publishers, cached copies): 19 of 24 entries confirmed; Anderson et al. differs
+  (third author, Poznań); Lundberg and Lee's page range **is** in the proceedings' own metadata file (4765–4774) — re-fetched by the
+  controller, with Crossref for Anderson and for Chen and Guestrin; eleven page-specific citations confirmed, two with nuances
+  (Mills's counts have Makasar only; "outside Taiwan" in Bellwood).
+- **Independent verification of the corrections** (main model, fresh context): all printed numbers recomputed from the raw ABVD
+  files; 13 findings. **One high and old:** "seven match an entry that ABVD does assign to a cognate set" — the stored 7 is by
+  meaning; recounted by the controller (`E228/04_pbt_matched_entry_recount.py`): **six** (five without the tie of 'Eight'). Wrong
+  in v0.2 and v0.3, which the PI had approved, and in the response. Also: "largely the same fact" held for one pair only → "in part
+  only"; the pre/post hoc sentences rewritten a second time (the sixteen-list rule added, post hoc items named by kind); Figure 2's
+  box for Figure 1 ("model fitted to all forms"); "look-alike pairs" of the permutation test → "pairs within 0.34".
+- **Failed on the way, fixed:** the first final tracked copy lost the six list names of Table 2 on "accept all" (Word aligned the
+  submitted table with vertically merged cells with Table 2; the baseline now splits such cells — both checks 1.00000, and the old
+  four-word residue on "reject all" is gone too); the en-dash as minus sign broke the line inside Table 8's narrow cells in the
+  portal's PDF (cells with signed numbers no longer wrap; article and tracked copy uploaded a second time); shell heredocs ate
+  backslashes four times (scripts through the Write tool).
+- **Built:** `P8_revision_v0.4.md/.docx/_anonymous.docx` (24 pp.; `make_v04_from_v03.py`: 70 style replacements, 63 content
+  sentences, Figure 1's marker moved to its first mention), `ol_refs.py`, `build_docx.py` (template layout), E229 A13 (Figures 1–2),
+  `COVER_LETTER_v0.5.*`, `RESPONSE_TO_REVIEWERS_v0.5.*` (13 + 2 edits), `P8_revision_v0.4_tracked_changes.docx`,
+  `BACA_DULU_P8_20261012.pdf`.
+- **Portal:** rows 0, 1, 2, 6, 7, 8 replaced; Figure 2's caption field; abstract field (hash-checked); merged PDF read in full
+  (34 pp.), both converted letters read; four approvals; "Your manuscript is ready for submission"; **Save and Exit; G12 nine of
+  nine. Submit Manuscript not pressed.**
+- **Not done:** Submit, commit, push (all three wait for the PI's word); an independent reader for the last 24 changes; G10; the
+  co-author has not been told.
+- Records: `PACKAGE_R1_20261012.md`, `PORTAL_STATE_20261012.md` (the one of 8 Oct marked superseded), `tracked_build/README.md`,
+  E228 README (correction note), E229 README (A13), handoff `docs/HANDOFF_20261012.md` (8 Oct archived), WORKSTATE, STATE 04,
+  ledger C070, memory.
+
+## 2026-10-12 (~11:05) — P8: the PI defers his part to Wednesday; handoff written for that sitting
+
+- To the closing report the PI answered: **karena hari ini dan besok saya ada kesibukan, mungkin rabu akan saya kerjakan bagian saya untuk kemudian kita submit final papernya, btw, bikin handoff dulu, rabu kita buka dan kita bahas apa tugas saya**. Nothing was done in the portal after *Save and Exit*; no commit and no
+  push were asked for, so the day's work (about 45 changed or new files) is on disk only and the public head stays at `e335d91`.
+- `docs/HANDOFF_20261012.md` rewritten for that sitting: §1 lists his tasks for discussion (the reading copy of 17 pages; six small
+  decisions at their defaults; a look at the portal's merged PDF, kept in the git-ignored `.playwright-mcp/`; what to do about the
+  editor's silence since the note of 7 October — submit with the conditional sentence, remind first, or wait; the co-author; the word
+  "submit", which also means commit and push before the click); §2 the order of the sitting. One note of terms for him: what is
+  submitted now is the revision R1; the journal's "final version" (names, acknowledgments in the first note) comes after acceptance.
+- Records: handoff, WORKSTATE, STATE 04, `PORTAL_STATE_20261012.md` §3, memory.

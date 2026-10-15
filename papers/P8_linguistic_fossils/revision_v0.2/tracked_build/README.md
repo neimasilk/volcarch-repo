@@ -58,3 +58,26 @@ tracked copy, response to the reviewers) after any rebuild.
 
 **In the portal since 2026-10-08** as Supplemental Material "Tracked changes" (SHA-256 `61bb7d36…`, identical to the local file; the
 portal's PDF of it has 34 pages and shows the markup). Do not rebuild it unless the article file changes: a rebuilt file has a new hash.
+
+## Rebuilt 2026-10-12 against the v0.4 article file (final review)
+
+The article file changed again (house style of the journal, reference list in the journal's style, content corrections;
+`../PACKAGE_R1_20261012.md`), so the tracked copy was rebuilt: `../P8_revision_v0.4_tracked_changes.docx` — **this is the file in
+the portal**. Two changes to the pipeline:
+
+- **Step 2 now takes two more arguments** — `make_baseline.py baseline_raw.docx baseline.docx SUBMITTED.tex SUBMITTED.bib` — and
+  sets the baseline's reference list with `../ol_refs.py`, the formatter the revised article uses, on the submitted `.bib`
+  (30 entries, the keys cited in the submitted `.tex`). The cover letter says that references in the conversion are set in the
+  style of the revised text; with the old Unified-style baseline every reference would have shown as changed.
+- **Vertically merged cells of the submitted tables are split in the baseline** (6 merges, from LaTeX `\multirow`: "A (Full)",
+  "B (Phon.)"). Word's Compare records a changed vertical merge as a tracked cell merge, and accepting or rejecting it drops the
+  text of the cells: that was the four-word residue on "reject all" until 8 October, and on 12 October — Word then aligned that
+  table with the revised Table 2 — "accept all" lost the six list names of Table 2. With plain cells both checks are exact.
+
+| Check | Result |
+|---|---|
+| Accept all | text equals the v0.4 article: word-level ratio 1.00000 (11,092 words) |
+| Reject all | text equals the converted submitted text: word-level ratio 1.00000 (6,683 words) — no residue any more |
+| Revisions | 486 in Word's count; no tracked cell merge |
+| Anonymity (`check_anonymity.py`) | OK for the article file, the tracked copy and the response |
+| Portal | SHA-256 `b90b010d…`, identical to the local file; the portal's PDF of it has 33 pages and shows the markup |

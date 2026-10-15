@@ -18,9 +18,9 @@ import docx
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 HERE = Path(__file__).resolve().parent
-ART = HERE / "P8_revision_v0.3_anonymous.docx"
+ART = HERE / "P8_revision_v0.4_anonymous.docx"
 TEX = HERE.parent / "draft_v0.1_anonymous.tex"
-LETTERS = {"response": HERE / "RESPONSE_TO_REVIEWERS_v0.4.docx", "cover": HERE / "COVER_LETTER_v0.4.docx"}
+LETTERS = {"response": HERE / "RESPONSE_TO_REVIEWERS_v0.6.docx", "cover": HERE / "COVER_LETTER_v0.6.docx"}
 fail = []
 
 
@@ -56,8 +56,8 @@ for name, path in LETTERS.items():
             n += 1
             pat = r"(?<![\d.])" + re.escape(t) + r"(?![\d])"
             where = "article" if re.search(pat, art_n) else "submitted" if re.search(pat, tex_n) else None
-            pre = para_n[max(0, m.start() - 9): m.start()]
-            if where is None and re.search(r"Sections? (\d\.\d and )?$", pre):
+            pre = para_n[max(0, m.start() - 20): m.start()]   # wide enough for "Sections 2.3 to " (v0.6 note, 2026-10-15)
+            if where is None and re.search(r"Sections? (\d\.\d (?:and|to) )?$", pre):
                 where = "section number"
             if where is None and t not in ALLOW:
                 miss += 1

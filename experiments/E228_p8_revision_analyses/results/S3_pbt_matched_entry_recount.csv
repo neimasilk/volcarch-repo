@@ -1,0 +1,35 @@
+abvd_form_id,meaning,tolaki_form,distance,nearest_pbt_entries,all_pbt_entries_of_the_meaning,meaning_has_a_coded_pbt_entry,a_nearest_entry_is_coded,every_nearest_entry_is_coded
+674-13_back-1,back,bunggu,0.286,*bungku° [no set],*bungku° [no set] 0.29,0,0,0
+674-20_toknowbeknowledgeable-1,"to know, be knowledgeable",to'ori,0.0,*toqori [no set],*toqori [no set] 0.00,0,0,0
+674-28_tobreathe-2,to breathe,penao,0.333,*naa [1],*naa [1] 0.33,1,1,1
+674-40_todrink-1,to drink,mo'inu,0.25,*inuN [1],*inuN [1] 0.25,1,1,1
+674-44_tohear-1,to hear,podea,0.167,*podea° [no set],*rongoR [1] 0.80; *podea° [no set] 0.17,1,0,0
+674-50_todream-1,to dream,mo'ipi,0.0,"*ipi [1,42]","*ipi [1,42] 0.00",1,1,1
+674-54_manmale-1,man/male,langgai,0.143,*langkai [no set],*langkai [no set] 0.14,0,0,0
+674-65_rope-1,rope,oloo,0.333,*koloro° [no set],*koloro° [no set] 0.33; *ula° [no set] 0.67,0,0,0
+674-72_tohit-1,to hit,toni,0.333,*kona [no set],*kona [no set] 0.33; *tapak-i [no set] 0.67; *wangku° [no set] 0.83,0,0,0
+674-78_tocuthack-1,"to cut, hack",pole'i,0.2,*pole [no set],*sese° [no set] 0.67; *pole [no set] 0.20; *tueh-i [no set] 0.50,0,0,0
+674-78_tocuthack-2,"to cut, hack",pole,0.0,*pole [no set],*sese° [no set] 0.75; *pole [no set] 0.00; *tueh-i [no set] 0.80,0,0,0
+674-91_tobuy-1,to buy,po'oli,0.25,*oli° [no set],*oli° [no set] 0.25,0,0,0
+674-98_egg-1,egg,ti'olu,0.25,*itoluR [1],*itoluR [1] 0.25,1,1,1
+674-116_flower-1,flower,wulele,0.143,*wulele° [no set],*bunga° [no set] 0.80; *wulele° [no set] 0.14,0,0,0
+674-122_water-1,water,woi,0.25,*iwoi° [no set],*iwoi° [no set] 0.25,0,0,0
+674-136_wind-1,wind,pua,0.25,*pua° [no set],*pua° [no set] 0.25,0,0,0
+674-138_warm-1,warm,mokula,0.2,*kulaQ [no set],*kulaQ [no set] 0.20,0,0,0
+674-139_cold-1,cold,morini,0.2,*riniN [no set],*riniN [no set] 0.20,0,0,0
+674-142_heavy-1,heavy,mobea,0.25,*beaQ [no set],*beaQ [no set] 0.25; *tondu° [no set] 0.80,0,0,0
+674-144_toburn-1,to burn,hunu,0.2,*hunuR [no set],*hai [no set] 0.75; *-ai [no set] 1.00; *hunuR [no set] 0.20,0,0,0
+674-149_red-1,red,momea,0.25,*meaq [no set],*meaq [no set] 0.25,0,0,0
+674-150_yellow-1,yellow,mokuni,0.2,*kuni° [no set],*kuni° [no set] 0.20,0,0,0
+674-153_big-1,big,wo'ose,0.25,*owose° [no set],*owose° [no set] 0.25,0,0,0
+674-154_short-1,short,putu,0.2,*putu° [no set],*putu° [no set] 0.20,0,0,0
+674-159_wide-1,wide,molua,0.25,*lua° [no set],*lua° [no set] 0.25,0,0,0
+674-160_painfulsick-1,"painful, sick",mohaki,0.2,*hakiQ [no set],*hakiQ [no set] 0.20,0,0,0
+674-167_night-1,night,wingi,0.25,*wngi° [no set],*wngi° [no set] 0.25,0,0,0
+674-168_day-1,day,oleo,0.0,*oleo [no set],*oleo [no set] 0.00,0,0,0
+674-172_toclimb-1,to climb,momone,0.25,*pone° [no set],*pone° [no set] 0.25,0,0,0
+674-175_above-1,above,i wawo,0.0,*wawo [2],*wawo [2] 0.00,1,1,1
+674-196_tocount-1,to count,do'a,0.25,*doa° [no set],*doa° [no set] 0.25,0,0,0
+674-204_eight-1,Eight,hoalu,0.0,*hoalu [no set]; *halu [3],*hoalu [no set] 0.00; *halu [3] 0.00,1,1,0
+674-209_onehundred-1,One Hundred,aso'etu,0.25,*etu° [no set],*etu° [no set] 0.25,0,0,0
+674-210_onethousand-1,One Thousand,aso-sou,0.25,*sowu [no set],*sowu [no set] 0.25,0,0,0
