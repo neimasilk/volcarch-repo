@@ -1,7 +1,11 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-02 · **Temperature:** 🟡 WAITING — JCAA reply sent; P17 withdrawn
+**Updated:** 2026-10-15 · **Temperature:** 🟡 WAITING — P2 in round-2 review; P17 withdrawn; P11 parked 2026-10-15
 
+> **2026-10-15 — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.** **P11 PARKED** (K2 = option c; `papers/P11_volcanic_informedness/PARKED.md` lists the unpark paths
+> a/b). **P2/JCAA:** if nothing has come by **9 Nov** (10 weeks of round 2), one polite status
+> query (Claude drafts, PI sends; K8).
+>
 > **2026-10-02:** ✅ **P2/JCAA abstract reply SENT** 10:09 (Gmail, editor's thread). Next at the next revision: port
 > the abstract into `submission_jcaa_v0.2.tex` and fix the "true performance" wording (claim C2). **P17: WITHDRAWN** (PI delegated; Option A):
 > portal discussion 10:22 + email to redazioneac@ispc.cnr.it 10:24. Never quote P17's segregation result again.

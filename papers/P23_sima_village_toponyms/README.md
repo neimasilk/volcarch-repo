@@ -46,17 +46,20 @@ claim about settlement history or volcanism.
 2. Reader/co-author answer (G10). **Asked 2026-10-02 13:55:** Dr Titi Surti Nastiti (BRIN, epigraphy;
    tsnastiti@yahoo.com, address from her *Kalpataru* article). Text:
    `docs/correspondence/EMAIL_NASTITI_P23_READER_SENT_20261002.txt`. Reserve: Arlo Griffiths (DHARMA).
-   Follow up ≈ 23 Oct if silent.
+   Follow up **23 Oct** if silent; if still silent by **6 Nov** → Arlo Griffiths (DHARMA) or a UGM epigrapher (orbit agenda K8,
+   PI 2026-10-15).
 3. Kusen 1990/91 / Resiyani 2010 toponym lists (asked in the same email) → a better identification section.
 4. Data deposit (Zenodo, CC BY 4.0, crediting DHARMA) **after** validation, not before.
-5. Prose by the PI (G16), following `VENUE.md`; Claude supplies tables, figures, numbers, and critique.
+5. Prose by the PI (G16), following `VENUE.md`; Claude supplies tables, figures, numbers, and critique. **Confirmed
+   2026-10-15 (orbit agenda K5, PI "setuju default"):** the waiver of G16 granted for P8 (C067) does not extend to P23.
+   Target: DHQ, next realistic deadline 2027-01-15; P23 is the only manuscript in drafting (G13).
 
 ## Gates (SIG) — current state
 
 | Gate | State |
 |---|---|
-| G13 WIP | FULL now (P2, P8 in review) → P23 may be drafted, not submitted, until a decision arrives |
+| G13 WIP | FULL now (P2 round 2; P8 R1 submitted 2026-10-15 and counts, K4) → P23 may be drafted, not submitted, until a decision arrives |
 | G14 rest | not started (no frozen draft) |
 | G15 venue | DHQ (Case Study framing) chosen, fees verified, `VENUE.md` done; pre-submission inquiry after validation |
 | G10 reader | asked (Nastiti) |
-| G16 voice | PI writes |
+| G16 voice | PI writes (confirmed K5, 2026-10-15) |

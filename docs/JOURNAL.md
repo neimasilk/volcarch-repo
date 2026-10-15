@@ -11001,3 +11001,42 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - PI: "kapan hari saya melakukan review menyeluruh, proyek volcarch ini, baca ulang dan kasih rekomendasi next action di proyek ini, dan bagaimana pendapat kamu" → jawaban di sesi → "ok silahkan".
 - Dibaca ulang: kritik sistem 11 dan 13 Agt, jawaban obyektif 1 Okt (§0, §5–§7), strategi publikasi 2 Okt, WORKSTATE, kepala STATE ketujuh line, README P23, ledger C018/C024.
 - Ditulis: `docs/research_notes/ORBIT_REVIEW_20261015.md` — posisi (pertanyaan inti terjawab; yang terbuka hanya H1b vs H2/H3/H6 di interior vulkanik, butuh data mitra; yang bertahan P2, P8, P23 semuanya di kandang PI), pendapat (proyek lebih sehat; usul identitas "tafonomi catatan"; risiko kini suara penulis → G16 kembali untuk P23), langkah berikutnya bertanggal, daftar berhenti, dan **agenda K1–K9 dengan default** (K6 arah program tanpa default). WORKSTATE §4 dan handoff 15 Okt diberi penunjuk. Tidak ada yang dieksekusi. Di-commit dan di-push atas permintaan PI ("silahkan commit dan push").
+
+## 2026-10-15 (sore) — agenda orbit K1–K9 dijalankan (PI: "setuju default, K6 nanti saya putuskan")
+
+- **K1** `papers/P5_volcanic_ritual_clock/PARKED.md`; C018 ditutup. **Temuan baru (C072):** uji permutasi P5 "1 dari 120, p = 0,008" tampaknya hampir pasti terjadi dengan sendirinya — rentang tahap berurutan dan nyaris tak tumpang-tindih, jadi hanya penugasan berurutan yang bisa cocok; dan kritik 11 Agt keliru menyebut E032 sebagai statistik P5 (E032 = Pranata Mangsa/P11; P5 = E025). Tidak dijalankan apa pun; dicatat sebagai syarat unpark.
+- **K2** `papers/P11_volcanic_informedness/PARKED.md` (pilihan c; jalur unpark a Penanggungan / b se-Jawa). **K3** P1 tetap ditahan. **K4** definisi G13 di SIG (naskah yang direvisi/di-review ulang ikut dihitung). **K5** G16 berlaku untuk P23 (README P23). **K8** tanggal di WORKSTATE §2 (23 Okt, 6 Nov, 9 Nov, 15 Nov untuk K6, 15 Jan DHQ). **K9** daftar berhenti di WORKSTATE §6.
+- **K7** `experiments/E232_affix_aware_residue_screen/` — DESIGN.md pra-registrasi (pilot Tolaki; arms A aturan P8 / B pengupasan imbuhan dari tata bahasa / C gabungan; kontrol positif 50 bentuk berkode di set PMP; nol = 200 inventori acak; aturan putus GAIN / NO GAIN / INFLATION / PARTIAL), status PRE-REGISTERED, **tidak dijalankan sebelum PI membaca desain**. Langkah 0: tesis Mead 1998 (Rice, hdl:1911/19290; Glottolog: PDF pindaian 516 hlm.) — akses belum dicek; tanpa sumber, inventori tidak ditulis. I-150 → EXPERIMENT; `tools/scan_experiments.py` + indeks (224); lines/README (hitungan line 04 ternyata sudah melenceng: 66 tertulis, 67 sebenarnya, kini 68); WORKSTATE, manifesto (baris hitungan), CLAUDE.md (E233).
+- **K6** (arah program "tafonomi catatan" + amandemen L1 yang menunggu) terbuka sampai 2026-11-15, keputusan PI.
+- Kanari hijau 224. STATE 01/03/04/05, handoff 15 Okt, memori diperbarui. **Belum di-commit** (PI belum meminta).
+
+
+## 2026-10-15 (malam) — E225 pilot (fase 1) dijalankan: LANJUT, dikonfirmasi tangan; hitungan otomatis hanya batas atas
+
+- **Pemicu:** PI 15 Okt, setelah menempelkan prompt awalnya (Agt): "kasih pandangan, dan kemudian lakukan yg bisa dilakukan"; lalu: "mungkin kita bisa menemukan remah2 atau serpihan2 yg belum terendus". Kanal tekstual dipilih karena satu-satunya "sisi gelap" yang bisa dibuka AI tanpa data lapangan.
+- **Urutan (semua sebelum ekstraksi):**
+  - amandemen pra-run DESIGN §7 (`ea4124c`) — kerangka beku, lengan A acak / B tersasar, tingkat tanggal, penjaga anti-halusinasi, aturan keputusan baru;
+  - skrip 01–05 + kerangka OAI 1.676 rekaman (`56d905d`);
+  - kedua commit **lokal, belum di-push**.
+- **Jalannya:**
+  - 231/231 PDF; 60 PDF Amerta/Kalpataru diawali 35 bita HTML tersembunyi — dibuang dan dicatat, ⚠ bisa tanda situs diusik;
+  - 196 terbaca, 35 pindaian tanpa OCR;
+  - 189 panggilan DeepSeek (alias `deepseek-chat` → `deepseek-flash`), ≈ $0,47; saldo setelahnya $6,11;
+  - 1 keluaran terpotong pada batas 8.192 token (`berkalaarkeologi_5355`).
+- **Hasil aturan beku:** lengan A 15,83 rekaman tingkat A per 100 dokumen (ambang 1); O2 = 314 rekaman berbeda → **LANJUT**.
+- **Cek pengendali** (`06_controller_check.py`, `results/controller_judgments.csv`):
+  - **10 acak terverifikasi vs halaman PDF:** 10/10 kutipan dan angka cocok (ekstraksi tidak mengarang). Namun dari 6 yang terhitung, 3 keliru: tahun Saka dibaca SM, tahun Hijriah dibaca M, rentang berujung 440/560 M ikut dihitung. 2 lagi benar tetapi di luar Indonesia.
+  - **Tambahan post hoc, 19 rekaman tingkat A lengan A:** 8 tanggal milik penulis sendiri dari situs Indonesia, 4 kutipan Indonesia, 4 luar Indonesia, 2 keliru (uji laboratorium tanpa situs; klaim Gunung Padang "5.200 SM" tanpa galat), 1 duplikat. **12 sah dari 4/120 dokumen = 10 per 100 → LANJUT bertahan.**
+  - **30 acak dari yang terhitung:** 17/30 sah (57%; Wilson 39–73%), 7 luar Indonesia, 6 keliru, 1 duplikat → **314 = batas atas, bukan ukuran register.**
+  - **Pembacaan ketat tingkat A** (wajib galat atau rentang tertulis): lengan A 13,33 per 100; tetap LANJUT.
+- **Deskriptif:** tanggal milik penggali di jendela 800 SM–600 M:
+  - Gorua (Halmahera, Ono dkk.);
+  - Kuta Bataguh (Kapuas; 125–256 M);
+  - Gua Cililin 1 (Kotabaru; bengkel peleburan besi 1720–1560 cal BP = 230–390 M; penulis mencetak "90–230 Masehi");
+  - Loyang Ujung Karang (Aceh Tengah);
+  - Leang Jarie (Maros).
+  
+  Tidak ada dari interior vulkanik Jawa. Apakah tanggal-tanggal ini sudah ada di kompilasi internasional = pertanyaan fase 2.
+- **Koreksi diri:** semula saya mengira Gua Cililin di Jawa Barat (nama sama) — teks menyebut karst Kotabaru, Kalsel. Emok Tum (Papua) ternyata kutipan Vanhaeren dkk. 2018, bukan tanggal penulis artikel; README dikoreksi sebelum ditulis final.
+- **Fase 2 belum dimulai:** perlu pra-registrasi sendiri (era Saka/Hijriah, rentang awal-akhir, satuan kya, filter negara, tanda tanggal sendiri vs kutipan, dedup kode lab, OCR, log model, sampel presisi tetap, cakupan vs JIPA / Cochrane dkk. 2021 / Bronson & Glover). **Rekomendasi: diputuskan bersama K6** (arah program, PI ≤ 15 Nov) — masuk wilayah "tafonomi catatan".
+- Diperbarui: README E225, STATE 05, WORKSTATE §2/§3, indeks eksperimen, handoff. **Belum di-commit** (PI belum meminta).

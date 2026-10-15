@@ -115,6 +115,7 @@ LINE_MAP = {
     "E227": ["04_language_text"], "E228": ["04_language_text"],
     "E229": ["04_language_text"], "E230": ["04_language_text"],
     "E231": ["04_language_text"],
+    "E232": ["04_language_text"],
     # --- 05 archival NLP ----------------------------------------------------
     "E070": ["05_archival_nlp"], "E091": ["05_archival_nlp"],
     "E093": ["05_archival_nlp"], "E098": ["05_archival_nlp"],

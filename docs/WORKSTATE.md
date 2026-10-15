@@ -13,7 +13,9 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > second review. Next (orbit): P23 Naskah A, downstream audit C050, T7/E226; I-150–I-152 unlocked. Handoff: `docs/HANDOFF_20261015.md`.
 > Ledger next **C072**; canary 223; next free **E232**. *(The blocks below are the state before the submission.)*
 > **Same day, later — orbit review on the PI's request:** `docs/research_notes/ORBIT_REVIEW_20261015.md` (position, opinion,
-> next steps, and a **decision agenda K1–K9 with defaults** — §4 below). Nothing executed before the PI answers.
+> next steps, and a **decision agenda K1–K9 with defaults** — §4 below). **PI: "setuju default, K6 nanti saya putuskan"** →
+> K1 P5 PARKED · K2 P11 PARKED · K3 P1 held · K4 G13 definition · K5 G16 for P23 · K7 E232 designed (not run) · K8 dates
+> in §2 · K9 stop list in §6. **K6 (program direction) open — the PI decides by 2026-11-15.** Canary **224**, next free **E233**.
 >
 > **2026-10-12 (~11:00) — P8: the thorough review is done; the portal draft was UPDATED and is ready; NOT SUBMITTED — waiting for the PI's word.**
 > PI: "baca handoff, review sekali lagi P8, kita selesaikan sekarang, dan pastikan semua gambar, diagram dan referensi sudah sesuai" · "dan
@@ -158,7 +160,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
-**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05) · 7 rejections · 1 under review (P2) · 1 withdrawn (P17, 2026-10-02) · 223 experiments** (223 folder lokal, E001–E231; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt).
+**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 under review (P2) · 1 withdrawn (P17, 2026-10-02) · 224 experiments** (224 folder lokal, E001–E232; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan).
 **2026-10-02: all four ledger items done** (JCAA reply, VEGAN email, P17 withdrawal, Zenodo notice). Ledger is
 empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P8** (OL) — **decision 2026-10-05: accepted pending revisions** (ledger item 5).
 
@@ -168,7 +170,12 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | Deadline | Item |
 |---|---|
-| — | No hard external deadline. The JCAA editor's request (31 Aug) is the most time-sensitive item. **P8 revision: no deadline stated** (2026-10-05); ask the editor only if one is needed. |
+| 23 Oct 2026 | Follow-ups if silent: Nastiti (P23 reader + Kusen/Resiyani lists) and BRIN VEGAN (microbotany); Claude drafts on 22 Oct, PI sends (K8) |
+| 6 Nov 2026 | Fallbacks if still silent: P23 → Griffiths/DHARMA or a UGM epigrapher; VEGAN → Castillo, or park T5 (K8) |
+| 9 Nov 2026 | P2/JCAA: one polite status query if nothing has come (10 weeks of round 2) (K8) |
+| **15 Nov 2026** | **K6 — program direction ("taphonomy of records"; pending L1 amendments) — PI.** With it: whether E225 phase 2 runs (pilot LANJUT 10-15) |
+| 15 Jan 2027 | DHQ, realistic deadline for P23 |
+| — | P8 R1 (submitted 2026-10-15): nothing due until the journal writes |
 | Dec 2026 | Edinburgh PhD window — **subject to the PI's current PhD plan** (PI-owned; may no longer apply) |
 
 ---
@@ -177,11 +184,11 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟡 WAITING | P2 in round-2 review (abstract reply sent 10-02) · P17 withdrawn 10-02 · **P11 NO-GO** → reframe = PI | PI + Claude |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟡 WAITING | P2 in round-2 review (status query 9 Nov if silent) · P17 withdrawn 10-02 · **P11 PARKED 10-15** (`papers/P11_volcanic_informedness/PARKED.md`) | PI + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | Verify C024–C030 one by one; **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
-| **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 REVISION | **10-12: final review done, portal draft updated (article v0.4, letters v0.5), ready, NOT submitted — the PI's word**; **P8 conditionally accepted 10-05**; E227–E231 done; readings corrected after three adversarial reads (work plan §10.7, §10.9); **10-07: on the PI's go-ahead the material is finished** — Word skeleton in the journal template with eight tables and references, response-letter scaffold, release description, all eight reviewer references read (work plan §10.10) → **10-07 10:15: PI waives G16 — Claude writes the revision and letters, one adversarial read + G1 trace, then submit (C067; work plan §10.11)**; P5 rewrite or PARKED.md (C018, overdue) | **PI** |
-| **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🅿 E226 REVISIT | **E226 (T7) parked 10-02**: frame of 266 villages built; I1 identifications 11/170 → unpark needs Kusen 1990/91 / Resiyani 2010 lists. Next when warm: T2 or E211 | Claude |
+| **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |
+| **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🅿 E226 REVISIT · ✅ E225 pilot | **E225 pilot run 10-15: LANJUT, confirmed by hand** (12 valid Indonesian radiometric pre-400 records per 120 random articles; automatic count 314 is an upper bound — 17/30 hold). Phase 2 needs a new pre-registration → **decide with K6** · **E226 (T7) parked 10-02**: frame of 266 villages built; I1 identifications 11/170 → unpark needs Kusen 1990/91 / Resiyani 2010 lists. Next when warm: T2 or E211 | Claude |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Objective answer written (subtract-only). L1 amendments await PI (§4) | PI |
 | **07** | [career](../lines/07_career/STATE.md) | ✅ LEDGER CLEARED 10-02 | waiting on journals (P2, P8) | — |
 | — | population-evidence channel (E053, E203) | — | **re-merged 2026-10-01** — back in `experiments/` (E053 → 02+06, E203 → 06); claims downgraded in the objective-answer note §3; see `COMPANION_REPOS.md` | — |
@@ -190,7 +197,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 ## 4. Decisions waiting on the PI
 
-**NEW 2026-10-15 — decision agenda K1–K9 (≤30 min; defaults given):** `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.
+**✅ DECIDED 2026-10-15 — decision agenda K1–K9 (PI: "setuju default, K6 nanti saya putuskan"); K6 OPEN until 2026-11-15:** `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.
 K1 P5 → PARKED (YA) · K2 P11 → park (YA) · K3 P1 held until C024 (YA) · K4 a paper in re-review counts in G13 (YA) ·
 K5 G16 back for P23 — the PI writes the prose (YA) · **K6 program direction "taphonomy of records" + pending L1 amendments —
 no default, PI by 2026-11-15** · K7 E232 = I-150 design only (YA) · K8 follow-ups Nastiti/VEGAN 23 Oct, fallback 6 Nov,
@@ -201,8 +208,7 @@ P2/JCAA 9 Nov (YA) · K9 stop list (YA). Answers to be written there and here.
 G13–G16 binding (WIP ≤2 in review / 1 drafting; rest ≥14 days; venue first + zero cost of any kind; PI's own prose);
 G10 human domain reader required for archaeology venues; domain co-author by default there; **Naskah A (P23, sīma
 village toponyms) first**. G13 was full (P2, P8 in review) → no new submission until a decision arrives. **2026-10-05:** P8's
-decision arrived (conditional). Whether a manuscript in revision still occupies a G13 slot is undefined; the conservative reading is
-yes (P23 stays blocked) — **PI call**.
+decision arrived (conditional). Whether a manuscript in revision still occupies a G13 slot: **✅ yes, it counts (K4, 2026-10-15; SIG G13)**.
 
 **P8 revision (2026-10-06) — ten decisions, each with a recommendation: `papers/P8_linguistic_fossils/REVISION_WORKPLAN.md` §2 (D1–D7)
 and §10.5 (D8–D10).** Four need an explicit yes because they are not delegated: **D6** (cut §4.5, the Javanese-script section),
@@ -238,9 +244,9 @@ sign-off (Go Frendi Gunawan), reading the eight reviewer-supplied references, a 
       the PI fixes N_ref and m). T0 and T4 wait on external data (lab sheets from the excavator; the Gertisser
       2012 supplement; JVGR 100). T2 follows T4.
 - ~~**P17 (urgent):** withdraw, or notify~~ → ✅ **withdrawn 2026-10-02** (§1 item 0).
-- **P11:** NO-GO. Choose: (a) reframe as a Penanggungan-centred paper (strong pattern: 69 candi, 62% west — but 14 of the 43 "western" rows are Trowulan temples 26–56 km away on the Brantas plain, so partly "Trowulan lies west of Penanggungan";
+- ✅ **P11 → (c) parked 2026-10-15 (K2; `papers/P11_volcanic_informedness/PARKED.md`).** Was: NO-GO. Choose: (a) reframe as a Penanggungan-centred paper (strong pattern: 69 candi, 62% west — but 14 of the 43 "western" rows are Trowulan temples 26–56 km away on the Brantas plain, so partly "Trowulan lies west of Penanggungan";
   p=1.4×10⁻²⁰), (b) rework the island-wide version on de-duplicated data and accept a weaker claim, or (c) park.
-- **P1:** hold v5.0 (→ Archaeological Research in Asia) until its calibration anchors pass a WS-E-style audit (default YES).
+- **P1:** hold v5.0 (→ Archaeological Research in Asia) until its calibration anchors pass a WS-E-style audit — **✅ confirmed 2026-10-15 (K3)**.
 - **P1 Zenodo preprint (public record) — mandatory, ~15 min:** `10.5281/zenodo.19081502` (2026-03-18) states the
   inverted E069 claim (PDF lines 400–406) and a "Java-wide taphonomic baseline" from assumed burial-start dates
   (abstract). Notice text, verbatim quotes: `docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md`.
@@ -256,11 +262,11 @@ DJKI HKI filing (4 docs ready) · dashboard model regeneration on the 30-volcano
 |---|---|---|
 | **P2** Settlement model | 01 | ⏳ **round-2 review at JCAA #280 since 2026-08-31.** Title corrected by the editor; **abstract reply owed** (§1 item 1). Claim set: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. |
 | **P17** Two Javas | 01 | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365; never left the submission stage). Central result = geocoding artefact (C032); second result (929 CE shift) rides on the same points. Record: `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`. A methods paper on the artefact is possible later (not planned). |
-| **P8** Linguistic fossils | 04 | 🟢 **conditionally accepted 2026-10-05** — *Oceanic Linguistics* (Scimago Q2) OL-03-2026-11; revision pending, no deadline. Amien first + corresponding. Plan: `papers/P8_linguistic_fossils/REVISION_OL_20261005.md`. |
+| **P8** Linguistic fossils | 04 | 🟢 **conditionally accepted 2026-10-05; R1 submitted 2026-10-15** — *Oceanic Linguistics* (Scimago Q2) OL-03-2026-11R1; second review round by the same reviewers. Record: `papers/P8_linguistic_fossils/revision_v0.2/PORTAL_STATE_20261015.md`. |
 | **P23** sīma village toponyms (Naskah A) | 05 | 📝 PLANNING (2026-10-02) — critical case study (toponym resolution is the bottleneck) from E226's frame → **DHQ "Case Study"** (no fees; JDMDH backup). Needs human validation of a sample (epigrapher asked: Nastiti, 13:55). Drafting allowed; submission blocked by G13 until P2 or P8 decides. `papers/P23_sima_village_toponyms/README.md` |
-| **P11** Volcanic informedness | 01 | 🔴 **NO-GO 2026-10-01** — western-flank claim is a Penanggungan pattern (p=0.26 without it); 39/142 duplicate candi; docx lacks abstracts; E069 claim already removed (v0.8). Rework queued; reframe = PI. `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01. Rejected 2× before (editorial). |
+| **P11** Volcanic informedness | 01 | 🅿 **PARKED 2026-10-15** (K2) after 🔴 NO-GO 2026-10-01 (western-flank claim = Penanggungan pattern; duplicate candi; no abstracts). Unpark paths: `papers/P11_volcanic_informedness/PARKED.md`. |
 | **P1** Taphonomic framework | 02 | rejected 2×. Current manuscript **v5.0 → *Archaeological Research in Asia*** (per `CANONICAL.md`; the E069 passage was already deleted there; superseded JASREP v4.0 corrected anyway). v5.0 still reports the 4.4 mm/yr "baseline" → **C024 audit before submission**. Public preprint needs the correction notice (§4). |
-| **P5** Volcanic ritual clock | 04 | rejected (BKI) → *Asian Ethnology*. Rewrite overdue (C018). |
+| **P5** Volcanic ritual clock | 04 | 🅿 **PARKED 2026-10-15** (K1; C018 closed). Rejected (BKI); the permutation test p = 0.008 looks near-tautological (C072). `papers/P5_volcanic_ritual_clock/PARKED.md`. |
 | **P9** Peripheral conservatism | 04 | rejected (JSEAS). HOLD → DHQ. |
 | **P16** Textual archaeology | 04 | 🅿 PARKED — convergence refuted (E090 v7). |
 | **P0** / MASTERPIECE | 06 | fallow. |
@@ -280,6 +286,10 @@ The 2026-10-01 re-entry audit counts as one.
 
 > ⚠ This dashboard opens with the ledger, not with `IDEA_REGISTRY.md`, on purpose: stepping out one level
 > must not become the way to avoid sending an email.
+
+**Stop list (K9, PI 2026-10-15):** no new computational experiment for the volcanic-burial thesis without partner data
+(T4/T5/T7 need data from outside) · P20–P22 proposals and AutoResearch stay in the drawer until P23 and Naskah B ·
+the next system-critique round only on a journal decision (P2/P8), a new submission, or 14 days (D7).
 
 **Where ideas are kept safe:** `docs/IDEA_REGISTRY.md` · `docs/TRIGGER_MAP.md` · `papers/*/PARKED.md` ·
 `docs/drafts/` · `docs/research_notes/*_LEAD_*.md`.

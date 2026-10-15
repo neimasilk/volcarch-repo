@@ -1,7 +1,28 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-02 · **Temperature:** 📝 P23 opened (Naskah A, DHQ) · E226 T7 parked REVISIT
+**Updated:** 2026-10-15 (evening) · **Temperature:** 📝 P23 drafting (Naskah A, DHQ; PI's prose) · E226 T7 parked REVISIT · E225 pilot LANJUT
 
+> **2026-10-15 (evening) — E225 pilot (phase 1) run: verdict LANJUT, confirmed by hand.** PI 15 Oct: "kasih pandangan,
+> dan kemudian lakukan yg bisa dilakukan". Run under the pre-run amendment (DESIGN §7, committed `ea4124c`, scripts +
+> frozen OAI frame `56d905d`, both before any extraction; **both commits local, not pushed**).
+> - **Frame:** 1,676 records from five BRIN journals.
+> - **Sample:** arm A 150 random + arm B 81 targeted; 196 of 231 PDFs readable. DeepSeek cost ≈ $0.47.
+> - **Frozen rule:** arm A 15.8 tier-A records per 100 documents (threshold 1); O2 = 314 distinct.
+> - **Controller check** (`results/controller_judgments.csv`):
+>   - The extraction does not invent text (10 of 10 match the PDF).
+>   - Classification errors: Saka/Hijri years read as BCE/CE; ranges scored by their old end; sites outside Indonesia.
+>   - Valid Indonesian tier-A records in arm A: **12, in 4 of 120 documents (10 per 100) → LANJUT holds.**
+>   - Of 30 random counted records, 17 hold (57%) → **O2 is an upper bound, not a register.**
+> - Excavators' own dates in the 800 BCE–600 CE window: Gorua (Halmahera), Kuta Bataguh (Kapuas), Gua Cililin 1
+>   (Kotabaru, iron smelting, 230–390 CE), Loyang Ujung Karang (Aceh), Leang Jarie (Maros). None from the volcanic interior
+>   of Java.
+> - **Phase 2** needs its own pre-registration (schema fixes, de-duplication, OCR, coverage vs international compilations).
+>   **Recommended: decide it together with K6** (program direction, PI by 15 Nov), not before.
+> - Details: `experiments/E225_gray_literature_mining/README.md`.
+
+> **2026-10-15 — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.** P23 is the only manuscript in drafting (G13; DHQ, deadline 2027-01-15); **G16 applies — the PI
+> writes the prose** (K5). Nastiti follow-up **23 Oct** if silent; **6 Nov** fallback → Griffiths/DHARMA or a UGM epigrapher (K8).
+>
 > **2026-10-02 (afternoon) — P23 opened** (`papers/P23_sima_village_toponyms/`): resource/method paper on the
 > 266-village frame, target **DHQ**. Core missing piece: an epigrapher validates a random sample (the two coders
 > were LLM agents). Reader asked: Dr Titi Surti Nastiti (BRIN), 13:55, with the list attached; also asked for the

@@ -1,7 +1,11 @@
 # STATE — Line 03 PALEOENV
 
-**Updated:** 2026-10-02 · **Temperature:** ⏳ WAITING — VEGAN email SENT 2026-10-02 10:11
+**Updated:** 2026-10-15 · **Temperature:** ⏳ WAITING — VEGAN email sent 2026-10-02; follow-up 23 Oct, fallback 6 Nov
 
+> **2026-10-15 — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5, K8:** VEGAN follow-up **23 Oct** if silent (Claude drafts 22 Oct, PI sends); still silent by
+> **6 Nov** → Castillo (reserve) or park T5. Stop list K9: no new computational experiment for the burial thesis without
+> partner data.
+>
 > **2026-10-02:** ✅ email to Nia M. E. Fajari (VEGAN, BRIN) **sent** 10:11 to niamarniatief@yahoo.com (the
 > author address printed in *Naditira Widya* 12(2) 2018; no BRIN address public). If it bounces or there is no
 > reply in ~3 weeks (≈ 23 Oct), resend via the Pusat Riset Arkeometri / Berkala Arkeologi channel.

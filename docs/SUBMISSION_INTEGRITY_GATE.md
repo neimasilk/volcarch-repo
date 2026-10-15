@@ -113,6 +113,9 @@ metadata can silently land empty (D1 lesson, 2026-08-11); portals carry stale ti
 #### G13 — Work-in-progress limit
 **Check:** after this submission, **≤ 2** VOLCARCH manuscripts are under review, and only **1** manuscript is
 being drafted at any time. Over the limit → wait; do not start or send another.
+**Definition (PI, 2026-10-15, orbit agenda K4):** a manuscript in revision, or a revision back with the journal for
+another round, **counts as "under review"** until the journal's final decision (accept or reject). With P2 (JCAA,
+round 2) and P8 (OL, R1 submitted 2026-10-15) the limit is full: no new submission until one of them is decided.
 
 #### G14 — Rest period ("digodok")
 **Check:** the complete draft was frozen **≥ 14 days** before submission (freeze date recorded). After the rest:

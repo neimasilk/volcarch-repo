@@ -1,7 +1,13 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-15 (~10:15) · **Temperature:** 🟢 P8 IN REVISION — **R1 SUBMITTED to *Oceanic Linguistics* 2026-10-15 ~10:08 WIB (OL-03-2026-11R1); second review round by the same reviewers; nothing due from us**
+**Updated:** 2026-10-15 (afternoon) · **Temperature:** 🟢 P8 IN REVISION — **R1 SUBMITTED to *Oceanic Linguistics* 2026-10-15 ~10:08 WIB (OL-03-2026-11R1); second review round by the same reviewers; nothing due from us**
 
+> **2026-10-15 (afternoon) — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.** **P5 PARKED** (K1; `papers/P5_volcanic_ritual_clock/PARKED.md`; C018 closed). New
+> finding while writing it (C072): P5's permutation test (1 of 120, p = 0.008) looks near-tautological — ordered, almost
+> disjoint stage ranges let only the ordered assignment match; and the August critique's "E032" was the wrong experiment
+> (P5's statistics are E025). **E232 = I-150** (affix-aware residue screen, Tolaki pilot) pre-registered — `DESIGN.md`,
+> not run; it runs only after the PI has read the design; step 0 = obtain Mead 1998 (hdl:1911/19290, access unchecked).
+>
 > **2026-10-15 — P8: R1 SUBMITTED (~10:08 WIB).** The PI pasted the editor's reply of 13 Oct: go ahead with our corrections; add a note telling the reviewers how the new version relates to the old; same reviewers again, anonymously; acknowledge AI use. Done: letters **v0.6** — the response opens with "How the revised version relates to the submitted one" (two independent reads, every finding verified; one more miscount of our own found and added to Part C: the eight meanings "in five or more of six languages" counted forms, three qualify), cover letter answers the editor; article, figures and tracked copy unchanged. PI: defaults for the six small decisions; co-author agreed; **"Ya, submit hari ini"**. Commit `7fc342c` pushed, rows 6–7 and Notes for Editors updated, G12 9/9, Submit pressed; tag `p8-r1-submitted-20261015`. Record: `revision_v0.2/PORTAL_STATE_20261015.md`; `docs/correspondence/EMAIL_OL_EDITOR_P8_REPLY_20261013.md`; ledger C071; handoff `docs/HANDOFF_20261015.md`. **Next in this line:** wait for the journal; ideas I-150–I-152 may be opened; P23.
 >
 > **2026-10-12 (~11:00) — P8: thorough review before Submit, done; the package changed again and is in the portal as a draft.**

@@ -86,4 +86,16 @@ ketujuh line, `papers/P23_sima_village_toponyms/README.md`, ledger kritik (C018,
 | **K8** | Tanggal tindak lanjut: Nastiti + VEGAN **23 Okt**; cadangan **6 Nov**; P2/JCAA **9 Nov** | YA | draf surel disiapkan sehari sebelumnya |
 | **K9** | Daftar berhenti §4 disahkan | YA | WORKSTATE §6 |
 
-**Jawaban PI:** (belum — diisi di sini dan di WORKSTATE §4 saat dijawab)
+**Jawaban PI (2026-10-15):** "setuju default, K6 nanti saya putuskan".
+
+| # | Dikerjakan hari yang sama |
+|---|---|
+| K1 | `papers/P5_volcanic_ritual_clock/PARKED.md`; C018 ditutup; temuan baru C072 (uji permutasi P5 hampir pasti terjadi dengan sendirinya; dan klaim "E032" kritik 11 Agt keliru) |
+| K2 | `papers/P11_volcanic_informedness/PARKED.md` (pilihan c; jalur unpark a/b) |
+| K3 | dicatat di WORKSTATE §4 (P1 tetap ditahan sampai C024) |
+| K4 | definisi di `docs/SUBMISSION_INTEGRITY_GATE.md` G13 |
+| K5 | `papers/P23_sima_village_toponyms/README.md` (G16 dikonfirmasi; tidak ikut pengecualian C067) |
+| K6 | **terbuka — keputusan PI paling lambat 2026-11-15** (WORKSTATE §2) |
+| K7 | `experiments/E232_affix_aware_residue_screen/` (DESIGN.md + README; status PRE-REGISTERED, belum dijalankan; langkah 0 = memperoleh Mead 1998, hdl:1911/19290, akses belum dicek); I-150 → EXPERIMENT; indeks diperbarui (224) |
+| K8 | tanggal di WORKSTATE §2, README P23, STATE 03/05 |
+| K9 | WORKSTATE §6 |
