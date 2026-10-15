@@ -104,3 +104,6 @@ tools/mail/gmail_profile/
 tools/mail/gmail_out/
 tools/mail/portal_profile/
 tools/mail/*.png
+
+# E225 corpus (PDFs and extracted text of journal articles; local only)
+data/raw/e225_corpus/
