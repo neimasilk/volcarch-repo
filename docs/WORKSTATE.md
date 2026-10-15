@@ -12,6 +12,8 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > nine, Submit pressed. **Nothing is due from us until the journal writes.** Portfolio: 1 under review (P2-JCAA) + P8 R1 in
 > second review. Next (orbit): P23 Naskah A, downstream audit C050, T7/E226; I-150–I-152 unlocked. Handoff: `docs/HANDOFF_20261015.md`.
 > Ledger next **C072**; canary 223; next free **E232**. *(The blocks below are the state before the submission.)*
+> **Same day, later — orbit review on the PI's request:** `docs/research_notes/ORBIT_REVIEW_20261015.md` (position, opinion,
+> next steps, and a **decision agenda K1–K9 with defaults** — §4 below). Nothing executed before the PI answers.
 >
 > **2026-10-12 (~11:00) — P8: the thorough review is done; the portal draft was UPDATED and is ready; NOT SUBMITTED — waiting for the PI's word.**
 > PI: "baca handoff, review sekali lagi P8, kita selesaikan sekarang, dan pastikan semua gambar, diagram dan referensi sudah sesuai" · "dan
@@ -187,6 +189,12 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 ---
 
 ## 4. Decisions waiting on the PI
+
+**NEW 2026-10-15 — decision agenda K1–K9 (≤30 min; defaults given):** `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.
+K1 P5 → PARKED (YA) · K2 P11 → park (YA) · K3 P1 held until C024 (YA) · K4 a paper in re-review counts in G13 (YA) ·
+K5 G16 back for P23 — the PI writes the prose (YA) · **K6 program direction "taphonomy of records" + pending L1 amendments —
+no default, PI by 2026-11-15** · K7 E232 = I-150 design only (YA) · K8 follow-ups Nastiti/VEGAN 23 Oct, fallback 6 Nov,
+P2/JCAA 9 Nov (YA) · K9 stop list (YA). Answers to be written there and here.
 
 **NEW 2026-10-02 — publication strategy after 7 rejections:** `docs/research_notes/STRATEGI_PUBLIKASI_20261002.md`
 (diagnosis: 10 submissions in 35 days, 6/7 rejections at the desk). **DECIDED same day (PI delegated):** SIG gates
