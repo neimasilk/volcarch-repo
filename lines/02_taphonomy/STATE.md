@@ -1,6 +1,6 @@
 # STATE — Line 02 TAPHONOMY
 
-**Updated:** 2026-10-02 · **Temperature:** ⚠ WARM — public P1 record corrected; C024 audit still owed
+**Updated:** 2026-10-19 (inbox item on E107 closed, C074) · **Temperature:** ⚠ WARM — public P1 record corrected; C024 audit still owed
 
 > **2026-10-02:** ✅ **P1 Zenodo correction notice live** (10.5281/zenodo.19081502, metadata edit 10:28 WIB; same DOI
 > and PDF). It withdraws the inverted E069 passage and downgrades the 4.4 mm/yr "Java-wide baseline" to a preliminary
@@ -113,8 +113,8 @@ this line's defect showing up as seed instability, and it is now disclosed in th
 
 ## Inbox
 
-- E107 resolved ADV-5 (Mon-Khmer substrate) and **upgraded E027**, but that upgrade is a
-  [04_language_text](../04_language_text/) fact — check it is reflected there.
+- ~~E107 resolved ADV-5 (Mon-Khmer substrate) and upgraded E027~~ — **closed 2026-10-19 (C050 audit, C074): the
+  E107 verdict is withdrawn; ADV-5 stays GREY ZONE (E087).** Nothing to propagate.
 - The exposure/karst reframe (E178) is arguably a stronger paper than P1 v2.0 in its current form.
   Not an action — a note for the next orbit-mode review. ME#19 forcing function discharged 2026-08-11;
   new-paper status = PI call.

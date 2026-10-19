@@ -72,7 +72,7 @@ slope operationalisation failed. Treat exposure as a hypothesis awaiting a geolo
 `E086` ADV-1 Japan → PARTIAL (L1 = volcanism × survey deficit, not volcanism alone) ·
 `E081` ADV-2 non-volcanic control → INCONCLUSIVE (cave bias is universal; must use **depth** data) ·
 `E069` ADV-3 survey → ⚠ **INVERTED** (2026-10-01, C023: β on distance <0 = *surplus* of sites near volcanoes, not a deficit) · `E085` ADV-4 noise → **PASSED** z=11.05 ·
-`E087` ADV-5 negative control → resolved by `E107` (Mon-Khmer substrate)
+`E087` ADV-5 negative control → **GREY ZONE** (E107's "Mon-Khmer" resolution withdrawn 2026-10-19, C074)
 
 **Rates & mechanisms:** `E002` (eruption history), `E017` tephra PoC, `E075` sedimentation model
 (its r=0.951 "validation" is model-vs-model, C026), `E132` sedimentation map (**55% error — downgraded**;

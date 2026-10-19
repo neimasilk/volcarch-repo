@@ -1,6 +1,16 @@
 # STATE — Line 04 LANGUAGE & TEXT
 
-**Updated:** 2026-10-15 (afternoon) · **Temperature:** 🟢 P8 IN REVISION — **R1 SUBMITTED to *Oceanic Linguistics* 2026-10-15 ~10:08 WIB (OL-03-2026-11R1); second review round by the same reviewers; nothing due from us**
+**Updated:** 2026-10-19 · **Temperature:** 🟢 P8 IN REVISION — **R1 SUBMITTED to *Oceanic Linguistics* 2026-10-15 ~10:08 WIB (OL-03-2026-11R1); receipt from the journal 17 Oct (received 16 Oct); second review round by the same reviewers; nothing due from us**
+
+> **2026-10-19 — downstream audit C050 done (from orbit; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).**
+> - **E087** stands, read narrowly. Its documentation-artefact diagnosis is the operative reading. Its AUCs are not
+>   comparable with R1's.
+> - **E107 withdrawn (C074).** Its "Mon-Khmer" score compares Iban with Sulawesi. Within Iban, only 1 of its 4
+>   predictions holds. ADV-5 = GREY ZONE.
+> - **E130 FAILED (C075).** The label is among its inputs, so its "438 substrate words" are the 438 uncoded forms.
+> - **R1 as submitted uses none of these.** If round 2 asks about a negative control, answer from E087 as corrected,
+>   not from E107.
+> - **Rule:** E027's `features_matrix.csv` is used only without its four cognate-distribution columns.
 
 > **2026-10-15 (afternoon) — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.** **P5 PARKED** (K1; `papers/P5_volcanic_ritual_clock/PARKED.md`; C018 closed). New
 > finding while writing it (C072): P5's permutation test (1 of 120, p = 0.008) looks near-tautological — ordered, almost
@@ -235,8 +245,8 @@
       existing strategy doc; the reframe is already decided, so this is execution.
       ⚠ Before writing: check whether P5 quotes any volcano-distance number — if so it needs
       [02_taphonomy](../02_taphonomy/)'s WS-E sweep first.
-- [ ] Confirm the `E027` upgrade (from `E107`/ADV-5) is actually reflected wherever E027 is cited —
-      the upgrade was recorded in the scorecard but may not have propagated into paper text.
+- [x] ~~Confirm the `E027` upgrade (from `E107`/ADV-5) is reflected wherever E027 is cited~~ — **moot
+      2026-10-19 (C050 audit, C074): the upgrade is withdrawn.** P8 R1 never used it.
 - [ ] For any P5/P9 claim, add the explicit corpus-dependency sentence (DHARMA 268, closed
       2026-04-09) rather than leaving the monoculture implicit.
 

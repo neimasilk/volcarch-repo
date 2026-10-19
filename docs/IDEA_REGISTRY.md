@@ -191,7 +191,7 @@
 | 7. Ritual | I-002, I-042, I-044, I-047, I-055, I-094, I-098 |
 | 8. Mythology | I-004, I-009, I-010, I-021, I-041, I-085, I-086, I-087 |
 | 9. Archaeoastronomy | I-001, I-043, I-112 |
-| 10. Material Culture | I-046, I-049, I-050, I-084 |
+| 10. Material Culture | I-046, I-049, I-050, I-084, I-153 |
 | 11. Acoustics | I-048 |
 | 12. Script Archaeology | I-005, I-006, I-053, I-109 |
 
@@ -248,6 +248,12 @@ ABVD itself codes with the PMP entry (sound change: \*t > h, \*s > h), so morpho
 
 *Rule for all three: none opens an experiment before the P8 revision is submitted; the first one to open gets the next free E-number and a pre-registered `DESIGN.md` (E217–E223 model). Other candidate languages noted in the discussion: Enggano, Nias, Mentawai, Punan/Penan.*
 
+
+## Session 2026-10-15 — Jatim beads: a trace in East Java (PI question)
+
+| ID | Title | Maturity | Blocker / next step | Source | Links |
+|----|-------|----------|---------------------|--------|-------|
+| I-153 | **Provenance test of Jatim beads on excavated East Java material.** Test whether beads from documented far-eastern Java stone graves have the Jatim mixed-glass signature (v-Na-Ca + m-Na-Al, Lankton et al. 2008), and date one grave. The beads: Garahan–Mrawan, Jember, opened 1921, 79 beads, OV 1921 Q2 pp. 56–58, Museum Batavia → Museum Nasional; and Malangsari, Banyuwangi, excavated 2016, Balai Arkeologi DIY → BRIN. Positive: the type attribution behind Jia 2024 gets an excavated anchor in Java. Negative: the "made in East Java" chain is weaker than the literature says. | TESTABLE (needs partner) | **Partner:** a museum or BRIN curator plus pXRF / LA-ICP-MS. **First:** check whether the 2023 Museum Nasional fire touched the beads. **Desk steps (no partner):** photo OD 8644 (Leiden / Indonesian OD archive); the Batavia inventory number; van Heekeren 1958:46; Soejono 1984; OCR of three scanned BRIN papers | PI question 2026-10-15; `docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md` addendum | E091 (OV corpus), E225 (BRIN frame), C073, Channel 10, K6 |
 ---
 
 *This is a living document. Add ideas as they emerge. Update maturity when blockers clear. Never delete — move to RESULT/PAPER when resolved.*

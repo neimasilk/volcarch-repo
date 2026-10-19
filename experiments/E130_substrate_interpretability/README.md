@@ -1,9 +1,27 @@
 # E130: Substrate Detection Interpretability
 
 **Date:** 2026-03-30
-**Status:** SUCCESS
+**Status:** FAILED — method invalid: the label is among the inputs (ledger C075, downstream audit C050, 2026-10-19)
 **Paper:** P8 (revision ammo), P19
 **Layer:** L4 (Cosmological Overwrite)
+
+> ⚠ **Correction 2026-10-19 (C050 audit, ledger C075) — read before anything below.** The original status line was
+> "SUCCESS". It is withdrawn.
+> - **Label in the inputs.** The inputs include `n_cognate_sets` and `max_cognate_set_size`, which are 0 exactly when the
+>   label is 0 (cross-tab 438/0, 0/919). `concept_residual_rate` is derived from the label too. This is E027's
+>   "Model A" input set (AUC 1.000, already reported as circular in E027), minus the two language-level inputs.
+> - **In-sample.** The forest is fitted and scored on the same rows (script l.46, l.57).
+> - **So the 438 "high-confidence substrate words" are exactly the 438 ABVD forms without a cognate-set number** (same
+>   language–concept–form set; lowest probability 0.975). The classifier adds nothing. "Substrate" is a renaming of
+>   "uncoded" (C044, C055).
+> - **What remains** is descriptive: uncoded vs coded forms by domain and by letter features.
+>   - Action meanings and glottal marks survive at equal length (C057, C066).
+>   - Clusters and nasals are not separable from length (C057, C064).
+> - **Muna 15.5 %** is an effect of the second Muna list (Wuna) in ABVD; uncounted, it is 35.6 % (C056). "Differential
+>   Austronesian penetration" is withdrawn.
+> - **Withdrawn without replacement:** the section "What Substrate Words Reveal About Pre-Indic Life", the "INVISIBLE
+>   CIVILIZATION" paragraph and the link to E040 (F9).
+> - Full record: `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md` §3.
 
 ---
 

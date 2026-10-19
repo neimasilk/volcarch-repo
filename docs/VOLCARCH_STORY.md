@@ -141,7 +141,7 @@ Yang menarik: hanya 7 dari 20 candi yang pintunya menghadap gunung api (35%, tid
 
 **Temuan kunci:** Substrat pra-Indic terdeteksi secara komputasional. 266 kata substrat diidentifikasi. Hanacaraka (aksara Jawa) memiliki 20 konsonan — align dengan Proto-Austronesia (~17), **bukan** Sanskrit (33). Ini jejak fonologis: aksara Jawa didesain untuk mulut Austronesia, bukan untuk mulut India.
 
-**Temuan bonus (E107):** Uji critical ADV-5 berhasil — 6 dari 6 bahasa Mon-Khmer diklasifikasi dengan benar sebagai "substrat." Model benar-benar mendeteksi sinyal, bukan noise.
+~~**Temuan bonus (E107):** Uji critical ADV-5 berhasil — 6 dari 6 bahasa Mon-Khmer diklasifikasi dengan benar sebagai "substrat." Model benar-benar mendeteksi sinyal, bukan noise.~~ ⚠ **Ditarik 2026-10-19 (C074):** E107 tidak menggolongkan bahasa Mon-Khmer mana pun; ia membandingkan bentuk Iban dengan bentuk Sulawesi, dan vonisnya tak berdasar pada datanya sendiri. ADV-5 = GREY ZONE (E087).
 
 **Perjalanan:** Submit ke *Oceanic Linguistics* (University of Hawai'i, Q1, zero APC) pada 11 Maret 2026, MS# OL-03-2026-11. Co-author: Go Frendi Gunawan. **Preprint sudah live di arXiv** (2604.00023, cs.CL, CC BY 4.0) — artinya sudah bisa disitasi siapa pun di dunia.
 
@@ -246,7 +246,7 @@ Kami secara sengaja mencoba menghancurkan temuan kami sendiri:
 | ADV-2: Cave bias sama di vulkanik dan non-vulkanik? | INCONCLUSIVE — harus pakai data kedalaman, bukan tipe situs |
 | ADV-3: Sinyal vulkanik survive setelah kontrol survei? | ~~PASSED (p = 0,0015)~~ ⚠ **TERBALIK** — koreksi 2026-10-01 (C023): situs justru lebih banyak di dekat gunung api setelah kontrol survei |
 | ADV-4: Substrat linguistik bukan noise? | **PASSED** (z = 11,05) |
-| ADV-5: Mon-Khmer negative control? | **PASSED** (6/6 benar) |
+| ADV-5: Mon-Khmer negative control? | ~~PASSED (6/6 benar)~~ ⚠ **GREY ZONE** — koreksi 2026-10-19 (C074): kontrol C5 (Iban + Malay) mencapai AUC hampir setara Sulawesi; "resolusi" E107 ditarik |
 
 3 lulus, 1 partial, 1 inconclusive. Nol gagal total.
 

@@ -1359,7 +1359,7 @@
     "dir": "E107_adv5_reexamination",
     "has_readme": true,
     "title": "ADV-5 Re-examination — Is Iban+Malay Really a Negative Control?",
-    "status": "SUCCESS",
+    "status": "INFO NEG",
     "layers": [
       "L4"
     ],
@@ -1695,7 +1695,7 @@
     "dir": "E130_substrate_interpretability",
     "has_readme": true,
     "title": "Substrate Detection Interpretability",
-    "status": "SUCCESS",
+    "status": "FAILED",
     "layers": [
       "L4"
     ],

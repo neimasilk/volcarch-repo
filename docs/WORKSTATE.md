@@ -1,8 +1,21 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-15 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-19 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> **2026-10-19 — orbit session ("lanjutkan yg perlu dilanjutkan"):**
+> - **Mailbox:** only the journal's receipt of P8 R1 (17 Oct; received 16 Oct). Nothing from Nastiti, VEGAN, JCAA or
+>   arXiv, so the 23 Oct follow-ups stand (drafts ready; check the mailbox again first).
+> - **Downstream audit C050 done:** `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`.
+>   - E087 stands, read narrowly.
+>   - **E107's "Mon-Khmer positive control" withdrawn (C074)**: between-language comparison; within Iban, 1 of 4
+>     predictions.
+>   - **E130 FAILED (C075)**: label among the inputs; its "438 substrate words" are the 438 uncoded forms.
+>   - ADV-5 = GREY ZONE again; L4 "unsettled".
+>   - **P8 R1 as submitted uses none of it.**
+> - Ledger next **C076**; canary 224; next free **E233**. Handoff: `docs/HANDOFF_20261019.md`.
+> - **Not committed** (with the 15 Oct beads addendum): waiting for the PI's word.
+>
 > **2026-10-15 (~10:08 WIB) — P8: revision R1 SUBMITTED to *Oceanic Linguistics* (OL-03-2026-11R1).**
 > The editor (Sander Adelaar) had replied on 13 Oct: go ahead with the corrections of our own; add a note telling the reviewers in
 > general terms how the new version relates to the old; the **same reviewers will be consulted again**, anonymously; acknowledge the
@@ -175,7 +188,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 | 9 Nov 2026 | P2/JCAA: one polite status query if nothing has come (10 weeks of round 2) (K8) |
 | **15 Nov 2026** | **K6 — program direction ("taphonomy of records"; pending L1 amendments) — PI.** With it: whether E225 phase 2 runs (pilot LANJUT 10-15) |
 | 15 Jan 2027 | DHQ, realistic deadline for P23 |
-| — | P8 R1 (submitted 2026-10-15): nothing due until the journal writes |
+| — | P8 R1 (submitted 2026-10-15; receipt 17 Oct): nothing due until the journal writes |
 | Dec 2026 | Edinburgh PhD window — **subject to the PI's current PhD plan** (PI-owned; may no longer apply) |
 
 ---
@@ -185,7 +198,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
 | **01** | [spatial](../lines/01_spatial/STATE.md) | 🟡 WAITING | P2 in round-2 review (status query 9 Nov if silent) · P17 withdrawn 10-02 · **P11 PARKED 10-15** (`papers/P11_volcanic_informedness/PARKED.md`) | PI + Claude |
-| **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | Verify C024–C030 one by one; **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
+| **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🅿 E226 REVISIT · ✅ E225 pilot | **E225 pilot run 10-15: LANJUT, confirmed by hand** (12 valid Indonesian radiometric pre-400 records per 120 random articles; automatic count 314 is an upper bound — 17/30 hold). Phase 2 needs a new pre-registration → **decide with K6** · **E226 (T7) parked 10-02**: frame of 266 villages built; I1 identifications 11/170 → unpark needs Kusen 1990/91 / Resiyani 2010 lists. Next when warm: T2 or E211 | Claude |

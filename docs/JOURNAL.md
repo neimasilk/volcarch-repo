@@ -10996,13 +10996,13 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - **Next:** a second review round by the same reviewers (the editor's words). Nothing due from us. Ideas I-150–I-152 may now be opened (they waited for R1). Outside P8: P23 (Naskah A), downstream audit C050, T7/E226. arXiv v2 only after the decision.
 - Records: correspondence note of 13 Oct, `PORTAL_STATE_20261015.md`, ledger C071 (and C070 closed), STATE 04, WORKSTATE, handoff `docs/HANDOFF_20261015.md` (12 Oct archived), memory.
 
-## 2026-10-15 (siang) — orbit: tinjauan proyek atas permintaan PI; agenda keputusan K1–K9
+## 2026-10-15 (pagi, sesudah submit) — orbit: tinjauan proyek atas permintaan PI; agenda keputusan K1–K9
 
 - PI: "kapan hari saya melakukan review menyeluruh, proyek volcarch ini, baca ulang dan kasih rekomendasi next action di proyek ini, dan bagaimana pendapat kamu" → jawaban di sesi → "ok silahkan".
 - Dibaca ulang: kritik sistem 11 dan 13 Agt, jawaban obyektif 1 Okt (§0, §5–§7), strategi publikasi 2 Okt, WORKSTATE, kepala STATE ketujuh line, README P23, ledger C018/C024.
 - Ditulis: `docs/research_notes/ORBIT_REVIEW_20261015.md` — posisi (pertanyaan inti terjawab; yang terbuka hanya H1b vs H2/H3/H6 di interior vulkanik, butuh data mitra; yang bertahan P2, P8, P23 semuanya di kandang PI), pendapat (proyek lebih sehat; usul identitas "tafonomi catatan"; risiko kini suara penulis → G16 kembali untuk P23), langkah berikutnya bertanggal, daftar berhenti, dan **agenda K1–K9 dengan default** (K6 arah program tanpa default). WORKSTATE §4 dan handoff 15 Okt diberi penunjuk. Tidak ada yang dieksekusi. Di-commit dan di-push atas permintaan PI ("silahkan commit dan push").
 
-## 2026-10-15 (sore) — agenda orbit K1–K9 dijalankan (PI: "setuju default, K6 nanti saya putuskan")
+## 2026-10-15 (±10:30 WIB) — agenda orbit K1–K9 dijalankan (PI: "setuju default, K6 nanti saya putuskan")
 
 - **K1** `papers/P5_volcanic_ritual_clock/PARKED.md`; C018 ditutup. **Temuan baru (C072):** uji permutasi P5 "1 dari 120, p = 0,008" tampaknya hampir pasti terjadi dengan sendirinya — rentang tahap berurutan dan nyaris tak tumpang-tindih, jadi hanya penugasan berurutan yang bisa cocok; dan kritik 11 Agt keliru menyebut E032 sebagai statistik P5 (E032 = Pranata Mangsa/P11; P5 = E025). Tidak dijalankan apa pun; dicatat sebagai syarat unpark.
 - **K2** `papers/P11_volcanic_informedness/PARKED.md` (pilihan c; jalur unpark a Penanggungan / b se-Jawa). **K3** P1 tetap ditahan. **K4** definisi G13 di SIG (naskah yang direvisi/di-review ulang ikut dihitung). **K5** G16 berlaku untuk P23 (README P23). **K8** tanggal di WORKSTATE §2 (23 Okt, 6 Nov, 9 Nov, 15 Nov untuk K6, 15 Jan DHQ). **K9** daftar berhenti di WORKSTATE §6.
@@ -11011,7 +11011,7 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - Kanari hijau 224. STATE 01/03/04/05, handoff 15 Okt, memori diperbarui. **Belum di-commit** (PI belum meminta).
 
 
-## 2026-10-15 (malam) — E225 pilot (fase 1) dijalankan: LANJUT, dikonfirmasi tangan; hitungan otomatis hanya batas atas
+## 2026-10-15 (±10:50–12:10 WIB) — E225 pilot (fase 1) dijalankan: LANJUT, dikonfirmasi tangan; hitungan otomatis hanya batas atas
 
 - **Pemicu:** PI 15 Okt, setelah menempelkan prompt awalnya (Agt): "kasih pandangan, dan kemudian lakukan yg bisa dilakukan"; lalu: "mungkin kita bisa menemukan remah2 atau serpihan2 yg belum terendus". Kanal tekstual dipilih karena satu-satunya "sisi gelap" yang bisa dibuka AI tanpa data lapangan.
 - **Urutan (semua sebelum ekstraksi):**
@@ -11040,3 +11040,62 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - **Koreksi diri:** semula saya mengira Gua Cililin di Jawa Barat (nama sama) — teks menyebut karst Kotabaru, Kalsel. Emok Tum (Papua) ternyata kutipan Vanhaeren dkk. 2018, bukan tanggal penulis artikel; README dikoreksi sebelum ditulis final.
 - **Fase 2 belum dimulai:** perlu pra-registrasi sendiri (era Saka/Hijriah, rentang awal-akhir, satuan kya, filter negara, tanda tanggal sendiri vs kutipan, dedup kode lab, OCR, log model, sampel presisi tetap, cakupan vs JIPA / Cochrane dkk. 2021 / Bronson & Glover). **Rekomendasi: diputuskan bersama K6** (arah program, PI ≤ 15 Nov) — masuk wilayah "tafonomi catatan".
 - Diperbarui: README E225, STATE 05, WORKSTATE §2/§3, indeks eksperimen, handoff. **Belum di-commit** (PI belum meminta).
+
+## 2026-10-15 (±12:50–13:40 WIB) — commit/push; manik Jatim: jejak di Jawa Timur ditemukan di korpus kita sendiri
+
+- **PI:** "ok lanjutkan, btw, bagaimana dengan jatim beads? apakah ada 'jejaknya di jatim?' jatim beads ada di paper nature loh".
+- **"Lanjutkan" dibaca sebagai jawaban atas pertanyaan commit/push.**
+  - Di-push `51cada2` (agenda K1–K9) dan `c46a603` (hasil E225), bersama dua commit E225 sebelumnya.
+  - Fase 2 E225 tetap menunggu K6.
+- **Label waktu dikoreksi:** entri hari ini tertulis "sore/malam", padahal jam sistem 13:03. Waktu sebenarnya: K1–K9 ±10:30, E225 ±10:50–12:10. Dibetulkan di JOURNAL, STATE 05, handoff dan memori.
+- **"Paper Nature"** = Jia, Cui & Cao 2024, *Heritage Science* 12:204 (terbit di nature.com), sudah ada di catatan Juni.
+  - Dibaca utuh dari salinan arsip terbuka.
+  - Asal Jawa disimpulkan dari tipe manik ("we can only infer"); tidak ada titik temuan di Jawa.
+  - Sintesis P0 bulan Juni ("demonstrably Javanese") terlalu kuat → **ledger C073**.
+- **Jejak di Jatim, diverifikasi ke sumber:**
+  1. **Lankton & Bernbaum 2007** (*BEADS* 19, h. 36): manik meleleh/cacat ditemukan dekat Jember; sebagian besar manik Jatim berasal dari wilayah sempit di Jawa ujung timur; ditemukan di kubur megalitik oleh arkeolog Belanda (van Heekeren 1958:46).
+  2. **OV 1921 — sumber primer yang sudah ada di korpus OV kita (E091 menangkap teks keterangan foto).**
+     - Dua kubur bertutup batu di jalan Garahan–Mrawan (Jember) dibuka saat pembuatan jalan; isinya "fraaie gekleurde kralen" (foto OD 8644; disimpan di Museum Batavia).
+     - Kubur ketiga dibuka Juni 1921 di Pasar Alas: 79 manik, 54 gigi (≥ 3 orang), cincin emas.
+     - Manik besar berdasar hijau dengan kotak/garis kuning dan satu bergaris spiral kuning; ujungnya rata. Ciri ini cocok dengan manik Jatim jenis pelangi dan spiral — **tafsiran saya, belum diverifikasi**.
+     - Kemungkinan besar inilah "dolmen de Haan" dalam Soejono 1984.
+  3. **Jurnal BRIN** (dari kerangka E225):
+     - Pakauman: Willems 1938 menemukan manik kaca.
+     - Malangsari, Banyuwangi: dolmen digali pencari harta untuk manik; ekskavasi 2016 menemukan manik; ada lapisan abu vulkanik.
+     - Situbondo: manik "berciri Pasifik"; ¹⁴C 1250 ± 240 BP.
+     - Tak satu pun laporan menyebut "Jatim" atau melaporkan komposisi.
+- **Arti:**
+  - Bila manik Garahan memang manik Jatim, Jawa Timur punya rakitan manik hasil penggalian berasal-usul jelas (1921). Dengan batas Datong (sebelum 494 M), komunitas pemakai (dan mungkin pembuat) manik di daerah Gumitir sudah ada pada abad ke-5 — ±3 abad sebelum prasasti pertama Jawa Timur (Dinoyo 760).
+  - **Bukan bukti pra-400 M.**
+  - Contoh tepat "tafonomi catatan" (K6): buktinya ada di laporan 1921, gudang museum dan pasar barang antik.
+- **Uji penentu = I-153** (butuh mitra: komposisi manik Garahan di Museum Nasional atau manik Malangsari di BRIN; kebakaran Museum Nasional 16 Sep 2023 mengenai 116 koleksi galeri prasejarah — cek dulu). Trigger ditambahkan.
+- Langkah meja tanpa mitra: foto OD 8644, nomor inventaris Batavia, van Heekeren 1958:46, Soejono 1984, OCR tiga PDF pindaian.
+- **Gagal:** pencarian Leiden dari mesin ini (koneksi 000).
+- **Catatan alat:** ringkasan WebSearch sempat menyandarkan klaim "kubur megalitik oleh arkeolog Belanda" ke blog Monash. Saat dicek, blog itu tidak memuatnya; sumber sebenarnya Lankton & Bernbaum 2007.
+- [BRIDGE → 06_thesis, I-153] klaim karakter / kronologi Jawa Timur; [BRIDGE → 05_archival_nlp] korpus OV memuat catatan arkeologi yang belum pernah dibaca sebagai data.
+- **Belum di-commit.**
+
+## 2026-10-19 — sesi orbit: kotak masuk; audit hilir C050 selesai (E107 ditarik, E130 tidak sah)
+
+- **PI:** "baca handoff, lanjutkan yg perlu dilanjutkan". Mode orbit; kanari hijau 224; `inBox/` kosong.
+- **Kotak masuk** (daftar saja, sejak 14 Okt; satu utas dibuka ke scratchpad, di luar repo):
+  - *Oceanic Linguistics*, 17 Okt: tanda terima rutin R1 — naskah revisi diterima 16 Okt, akan dihubungi setelah dievaluasi. Tak ada isi lain.
+  - **Belum ada** jawaban dari Nastiti (P23), VEGAN BRIN, JCAA (P2) atau arXiv (C061). Tindak lanjut 23 Okt tetap berlaku; draf sudah ada (`docs/correspondence/FOLLOWUP_DRAFTS_20261023.md`). Cek kotak masuk lagi sebelum mengirim.
+- **Audit hilir C050** (terbuka sejak 5 Okt; dikerjakan pengendali sendiri). Catatan: `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`.
+  - **E087 bertahan, dipersempit.** Diagnosis "artefak dokumentasi" (Iban + Malay 0,713) kini bacaan yang berlaku. Lengan "pure phonology" memuat masukan makna dan memakai CV acak, jadi AUC-nya tak sebanding dengan R1.
+  - **E107 ditarik (C074).** Kelima kriteria skornya membandingkan bentuk Iban dengan bentuk Sulawesi.
+    - Uji di dalam daftar milik skrip itu sendiri (OR 0,79, p 0,41) tidak diskor dan tidak dilaporkan.
+    - Cek audit post hoc (aturan baca ditulis sebelum dijalankan): Iban tanpa kode vs berkode, **1 dari 4** ramalan terpenuhi; bentuk "MK" justru lebih jarang pada bentuk tanpa kode. Bentuk Iban yang **berkode** lebih "Mon-Khmer" daripada bentuk Sulawesi tanpa kode — kriteria itu mengukur bahasa.
+    - README → INFO NEG.
+  - **E130 tidak sah (C075).** Label ada di masukan (`n_cognate_sets`, `max_cognate_set_size` = 0 tepat bila tanpa kode; himpunan masukan "Model A" E027 yang sudah dikenal melingkar), dilatih dan dinilai in-sample. "438 kata substrat" = persis 438 bentuk tanpa kode. README → FAILED.
+  - **Kartu skor ADV-5** kembali GREY ZONE; E107 keluar dari daftar "katedral". **OBJECTIVE_ANSWER baris 180** dirumuskan ulang (C058).
+  - **Lingkar kedua** diberi baris penjaga, tidak diaudit ulang: E112, E133, E150, E158, E168, E203, P18 outline, sintesis P0, kontrak line 02/04/06, VOLCARCH_STORY, dua berkas `revision_ammo` P8 (DO NOT USE).
+  - **Naskah R1 yang disubmit tidak memuat satu pun klaim itu** (diperiksa: `P8_revision_v0.4.md`). Pracetak arXiv v1 masih memuat "438 substrate candidates" — v2 sesudah keputusan jurnal.
+- **Arti:** L4 (cosmological overwrite) kehilangan dua penopang komputasinya. Baris L4 di kontrak line 06 kini "unsettled"; E134 belum diaudit. [BRIDGE → 06_thesis, C075]
+- **Tanda domain** (butuh ahli, tidak diklaim):
+  - daftar "MK loans" E107 memuat *bulan*, *tanah*, *padi*;
+  - rujukan substrat Aslian pada Iban (Adelaar, Blust) tidak diverifikasi.
+- **Gagal kecil:** skrip audit pertama mati karena stdout dibungkus dua kali (modul E107 juga membungkusnya); diperbaiki.
+- **Penyisipan penjaga** sempat mendorong baris *Paper/Layer* keluar dari 500 karakter yang dibaca `scan_experiments.py`. Penjaga dipindah ke bawah metadata; indeks kini hanya berubah di status E107 dan E130.
+- Ledger berikutnya **C076**; nomor eksperimen bebas tetap **E233** (tak ada eksperimen baru).
+- Dari 15 Okt: addendum manik Jatim dan perubahan terkait **masih belum di-commit**; ikut menunggu kata PI.

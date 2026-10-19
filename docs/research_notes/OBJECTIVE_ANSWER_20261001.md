@@ -177,7 +177,7 @@ dukungan.
 5. **P2 (setelah koreksi diri E217–E223):** artefak evaluasi itu nyata dan merupakan kontribusi metodologis
    yang sah.
 6. **Pelajaran negatif yang berharga** (milik proyek ini, layak diterbitkan sebagai hasil negatif): E090 v7
-   (konvergensi teks gugur), E145, temuan negatif P8 (tidak ada substrat bersama yang koheren), E224, dan
+   (konvergensi teks gugur), E145, ~~temuan negatif P8 (tidak ada substrat bersama yang koheren)~~ P8: di antara bentuk tanpa kode, kemiripan lintas daftar kecil; uji tidak memeriksa kelas berkode (*dikoreksi 2026-10-19, C058/C050*), E224, dan
    kini C032 (artefak geocoding prasasti).
 
 ---

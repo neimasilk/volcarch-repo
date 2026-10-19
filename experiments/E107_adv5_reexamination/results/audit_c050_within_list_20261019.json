@@ -1,0 +1,99 @@
+{
+ "note": "post hoc audit check for ledger C050; see module docstring for the reading rule",
+ "Iban": {
+  "n_forms": 275,
+  "n_uncoded": 67,
+  "n_coded": 208,
+  "uncoded_vs_coded": {
+   "syllables": {
+    "uncoded": 2.0,
+    "coded": 1.9567,
+    "p_mannwhitney": 0.548728,
+    "e107_direction": "lower",
+    "in_e107_direction_and_p_lt_0.05": false
+   },
+   "ends_vowel": {
+    "uncoded": 0.2388,
+    "coded": 0.3317,
+    "p_mannwhitney": 0.153362,
+    "e107_direction": "lower",
+    "in_e107_direction_and_p_lt_0.05": false
+   },
+   "has_an_prefix": {
+    "uncoded": 0.1343,
+    "coded": 0.1587,
+    "p_mannwhitney": 0.631872,
+    "e107_direction": "lower",
+    "in_e107_direction_and_p_lt_0.05": false
+   },
+   "n_consonant_clusters": {
+    "uncoded": 0.3582,
+    "coded": 0.1202,
+    "p_mannwhitney": 0.000434,
+    "e107_direction": "higher",
+    "in_e107_direction_and_p_lt_0.05": true
+   },
+   "length": {
+    "uncoded": 5.2836,
+    "coded": 4.75,
+    "p_mannwhitney": 0.002531
+   },
+   "vowel_ratio": {
+    "uncoded": 0.421,
+    "coded": 0.4695,
+    "p_mannwhitney": 0.000856
+   },
+   "is_mk_shape": {
+    "uncoded": 0.7015,
+    "coded": 0.8606,
+    "p_mannwhitney": 0.00315
+   },
+   "has_glottal": {
+    "uncoded": 0.209,
+    "coded": 0.0962,
+    "p_mannwhitney": 0.014953
+   }
+  },
+  "predictions_met": 1
+ },
+ "Malay": {
+  "n_forms": 236,
+  "n_uncoded": 6,
+  "n_coded": 230
+ },
+ "Iban_coded_vs_Sulawesi_uncoded": {
+  "syllables": {
+   "iban_coded": 1.9567,
+   "sulawesi_uncoded": 2.5708
+  },
+  "ends_vowel": {
+   "iban_coded": 0.3317,
+   "sulawesi_uncoded": 0.7854
+  },
+  "has_an_prefix": {
+   "iban_coded": 0.1587,
+   "sulawesi_uncoded": 0.3699
+  },
+  "n_consonant_clusters": {
+   "iban_coded": 0.1202,
+   "sulawesi_uncoded": 0.4795
+  },
+  "length": {
+   "iban_coded": 4.75,
+   "sulawesi_uncoded": 6.0959
+  },
+  "vowel_ratio": {
+   "iban_coded": 0.4695,
+   "sulawesi_uncoded": 0.4867
+  },
+  "is_mk_shape": {
+   "iban_coded": 0.8606,
+   "sulawesi_uncoded": 0.395
+  },
+  "has_glottal": {
+   "iban_coded": 0.0962,
+   "sulawesi_uncoded": 0.2352
+  }
+ },
+ "reading": "E107 verdict has no basis in its own data (signature = Iban phonotactics)"
+}

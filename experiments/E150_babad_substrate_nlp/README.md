@@ -1,5 +1,7 @@
 # E150: Babad Tanah Jawi Substrate NLP
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** The E130 "substrate domain profile" used for comparison is the domain profile of uncoded ABVD forms (E130 FAILED, C075), not of substrate vocabulary; the comparison says nothing about substrate. This README was not re-audited; only the citing lines were read.
+
 **Date:** 2026-03-30  
 **Status:** SUCCESS  
 **Paper:** P8, P19  

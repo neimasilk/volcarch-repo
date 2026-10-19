@@ -1,5 +1,7 @@
 # E133: The Complete Argument — Why Nusantara's History "Begins" at 400 CE
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** §6 rests on E130's "438 substrate words", which are exactly the 438 uncoded ABVD forms (E130 FAILED, C075). Do not cite §6 or the closing count "438 substrate words". This README was not re-audited; only the citing lines were read.
+
 **Date:** 2026-03-30
 **Status:** SUCCESS (SYNTHESIS)
 **Paper:** ALL papers, manifesto v4.1

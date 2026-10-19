@@ -1,5 +1,7 @@
 # E203: Indonesian Genome Population Structure — Meta-Analysis for Taphonomic Predictions
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** The link "CULTURAL substrate we detect linguistically (E130: 438 substrate words)" is withdrawn: those are the uncoded ABVD forms (E130 FAILED, C075). This README was not re-audited; only the citing lines were read.
+
 > ## ⚠ CORRECTION NOTE 2026-10-01 (re-entry audit; subtract-only, line 06)
 >
 > Restored to this repo from `volcarch-genetics` on 2026-10-01. External fact-check the same day:

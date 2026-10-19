@@ -1,3 +1,5 @@
+> ⛔ **DO NOT USE (flagged 2026-10-19, C050 audit, ledger C074).** E107's "Mon-Khmer substrate" verdict has no basis in its own data (between-language comparison; its own within-list test OR 0.79, p 0.41; within Iban 1 of 4 predictions). Nothing here may go to a reviewer. Kept only as a record; the submitted R1 does not use it. Record: `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`.
+
 # P8 Revision Support Material: E107 ADV-5 RESOLVED — C5 Is Mon-Khmer Substrate
 
 **Paper:** Oceanic Linguistics MS# OL-03-2026-11

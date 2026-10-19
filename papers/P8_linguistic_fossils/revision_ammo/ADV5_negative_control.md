@@ -1,3 +1,5 @@
+> ⛔ **DO NOT USE (flagged 2026-10-19, C050 audit, ledger C074).** Written before the P8 audit (E227–E231): it uses the old numbers (0.727/0.762), the substrate reading of the uncoded label and the 27-input model. If a reviewer asks about a negative control, start from E087's README as corrected on 2026-10-19 and from R1's wording. Kept only as a record; the submitted R1 does not use it. Record: `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`.
+
 # P8 Revision Support Material: E087 Negative Control Results
 
 **Paper:** "Linguistic Fossils" — Oceanic Linguistics MS# OL-03-2026-11

@@ -1,10 +1,15 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-15 (evening) · **Temperature:** 📝 P23 drafting (Naskah A, DHQ; PI's prose) · E226 T7 parked REVISIT · E225 pilot LANJUT
+**Updated:** 2026-10-15 (midday) · **Temperature:** 📝 P23 drafting (Naskah A, DHQ; PI's prose) · E226 T7 parked REVISIT · E225 pilot LANJUT
 
-> **2026-10-15 (evening) — E225 pilot (phase 1) run: verdict LANJUT, confirmed by hand.** PI 15 Oct: "kasih pandangan,
+> **2026-10-15 (≈13:30) — [BRIDGE ← orbit, I-153] the OV corpus held a primary record of Jatim-type beads in East Java.**
+> OV 1921 (Q1 §6 and the plate facing p. 5; Q2 pp. 56–58): stone-capped graves at Garahan–Mrawan, Jember; 79 beads;
+> photo OD 8644. E091 had extracted only the plate caption. Lesson for this line: OV paragraphs about finds are data that
+> no one has read as data. Details: `docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md` (addendum).
+>
+> **2026-10-15 (≈10:50–12:10) — E225 pilot (phase 1) run: verdict LANJUT, confirmed by hand.** PI 15 Oct: "kasih pandangan,
 > dan kemudian lakukan yg bisa dilakukan". Run under the pre-run amendment (DESIGN §7, committed `ea4124c`, scripts +
-> frozen OAI frame `56d905d`, both before any extraction; **both commits local, not pushed**).
+> frozen OAI frame `56d905d`, both before any extraction; both pushed on 2026-10-15 with the pilot result).
 > - **Frame:** 1,676 records from five BRIN journals.
 > - **Sample:** arm A 150 random + arm B 81 targeted; 196 of 231 PDFs readable. DeepSeek cost ≈ $0.47.
 > - **Frozen rule:** arm A 15.8 tier-A records per 100 documents (threshold 1); O2 = 314 distinct.

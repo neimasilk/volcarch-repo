@@ -2,6 +2,17 @@
 
 **Updated:** 2026-10-01 · **Temperature:** 🛑 FALLOW BY DESIGN — this is not a backlog to clear
 
+> **2026-10-19 — inbox [BRIDGE ← orbit, C075/C074]:** layer **L4** (cosmological overwrite) loses its two computational
+> props. E130's "438 substrate words" are the 438 ABVD forms without a cognate-set number (the label was among the
+> inputs), and E107's "Mon-Khmer positive control" has no basis in its own data. The L4 row in this line's `CLAUDE.md` now
+> reads "unsettled"; E134 was not audited. Subtract-only, as this line's contract asks. Record:
+> `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`.
+>
+> **2026-10-15 — inbox [BRIDGE, I-153]:** the "Jatim beads" have a documented trace in East Java. Stone-capped graves
+> at Garahan–Mrawan (Jember) were opened in 1921: 79 beads, which went to Museum Batavia. Beads were also found at
+> Pakauman (1938) and Malangsari (2016). This is 5th-century evidence (Datong ≤ 494), **not pre-400**. The Datong paper's
+> "made in Java" is a type attribution (C073). The test needs a partner (I-153). Not acted on in this line (fallow).
+
 > **2026-10-01 evening — downstream audit (`docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`; ledger C039–C043):** this line's E073, E136, E154, E158 carry correction notes; headline statuses changed in the index. Do not cite their old headline numbers.
 
 > **2026-10-01 — the PI asked for an objective answer to the original question; it is here:** `docs/research_notes/OBJECTIVE_ANSWER_20261001.md` (orbit audit, subtract-only: it downgrades claims and adds

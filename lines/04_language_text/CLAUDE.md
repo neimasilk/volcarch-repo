@@ -51,9 +51,9 @@ rather than reframe it. That was the right call and it should not be quietly rev
 ## Experiments
 
 **Substrate detection:** `E022` linguistic subtraction · `E027` ML substrate detection
-(**UPGRADED** after `E107` resolved ADV-5 → Mon-Khmer substrate) · `E028` consensus ·
-`E029` clustering · `E051` toponymic · `E067` volcanic toponyms · `E130` interpretability (438
-substrate words) · `E165`/`E181` ghost vocabulary & dictionary · `E186` Tengger cross-ref
+(~~UPGRADED after `E107` resolved ADV-5~~ — **withdrawn 2026-10-19, C074**: E107's verdict has no basis in its own data; ADV-5 = GREY ZONE, `E087`) · `E028` consensus ·
+`E029` clustering · `E051` toponymic · `E067` volcanic toponyms · `E130` interpretability (**FAILED 2026-10-19, C075**: its "438
+substrate words" are the 438 uncoded forms — the label was among the inputs) · `E165`/`E181` ghost vocabulary & dictionary · `E186` Tengger cross-ref
 **Chronology & adoption:** `E030`, `E033` Sanskrit temporal curve, `E037` dating ML, `E061` script
 simplification, `E111` script diffusion, `E131` writing adoption (400 CE is **not** an outlier),
 `E134` inscription chronology (genre explosion 1→396 words)

@@ -1,5 +1,7 @@
 # E158: Steelman Counter-Arguments for Cathedral Findings
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** Line 104 ("E107 … detects Mon-Khmer substrate … 6/6 confirmed") is withdrawn: E107's verdict has no basis in its own data (C074); ADV-5 stays GREY ZONE (E087). This README was not re-audited; only the citing lines were read.
+
 > **CORRECTION 2026-10-01 (ledger C043; downstream audit `docs/research_notes/DOWNSTREAM_AUDIT_C023_C032_20261001.md`). Original status: SUCCESS.**
 > - **Withdrawn:** Finding 3's rating and the Overall Assessment.
 >   - E069's β = −0.477 is on distance, so it is a surplus near volcanoes (C023).

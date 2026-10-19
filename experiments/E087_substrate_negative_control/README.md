@@ -4,6 +4,25 @@
 **Paper:** P8 (Linguistic Fossils) / L4 validation
 **Status:** GREY ZONE (CONDITIONAL PASS — with major caveat)
 
+> ⚠ **Correction note 2026-10-19 (C050 audit) — the verdict stands; read it narrowly.**
+> - **E107's "resolution" of this control is withdrawn** (ledger C074). The documentation-artefact diagnosis below is the
+>   operative reading again, and the later P8 corrections (C054, C056, C063) point the same way.
+> - **"Pure Phonology" is not phonology only.** It keeps first-letter dummies, meaning (`sem_*`) inputs and
+>   `is_core_vocab`, and drops only the language-level inputs. CV is stratified random, so forms of one list sit in both
+>   train and test folds, and form inputs carry list identity (C053).
+> - **The AUCs here (0.727 / 0.761 / 0.766) are not comparable** with the out-of-fold figures of P8 R1 (form only 0.672,
+>   E228 S7). Do not cite them in their place.
+> - **The permutation test** shows the inputs predict the label above chance, list effects included. It does not show
+>   substrate.
+> - "Honest framing for P8" below is superseded by the R1 wording: "a ranking aid, not a detector of substrate
+>   vocabulary".
+> - **Fingerprint:**
+>   - length: descriptive, holds;
+>   - glottal marks: survive at equal length, with the Tolaki caveat (C066);
+>   - clusters: downgraded (C064).
+> - The label throughout is "uncoded in ABVD", not substrate (C044, C055).
+> - Full record: `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md` §1.
+
 ## Hypothesis
 
 If the E027 ML substrate detector (XGBoost/RF, AUC=0.762) is genuinely detecting pre-Austronesian substrate in Sulawesi languages, it should **fail** to detect "substrate" in closely related Austronesian language pairs where no substrate exists. If the detector achieves high AUC on any arbitrary language pair, it is detecting generic phylogenetic noise, not substrate.

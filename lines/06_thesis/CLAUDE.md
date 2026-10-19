@@ -66,7 +66,7 @@ genuinely finished.** *One flagship finished beats five half-done.*
 | **L1** Volcanic burial | supported (E120 F3 necessary, E122, E128, E135) — but see [02_taphonomy](../02_taphonomy/): the *distance* framing is dead, exposure survives |
 | **L2** Coastal submersion | elevated (E052, E148, E156 "double erasure") |
 | **L3** Historiographic bias | supported (E127, E131, E146) |
-| **L4** Cosmological overwrite | supported (E130, E134) |
+| **L4** Cosmological overwrite | ⚠ E130 withdrawn as support (2026-10-19, C075: its "438 substrate words" are the uncoded label); E134 not audited — **unsettled** |
 | **L5** Genre taphonomy | supported (E134, E147) |
 | **L6** Historiographic periodicity | ⚠ **NEEDS REFRAME — E145 contradicts it** (eruptions correlate *positively* with inscriptions, ρ=+0.908) |
 

@@ -1,5 +1,7 @@
 # P18: What Words Remember — Computational Cultural Reconstruction of an Archaeologically Invisible Civilization
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** P18 (HOLD) takes "P8's output (438 words)" as its input and lists "E107: ADV-5 resolved (validates substrate detection)". Both are withdrawn: the 438 are the uncoded ABVD forms (C075) and E107's verdict has no basis (C074). Do not revive P18 without reading the audit note. This README was not re-audited; only the citing lines were read.
+
 **Target:** World Archaeology (Q1, Taylor & Francis) — 8,000-10,000 words
 **Backup:** Cambridge Archaeological Journal (Q1)
 **Type:** Synthesis/theoretical paper

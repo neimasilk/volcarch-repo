@@ -114,7 +114,7 @@ The SKELETON v0.1 lists five channels (§3.1-§3.5). The SLR elevates Archaeomet
 - **SLR add:** Pinatubo literature documents Philippines volcanic-burial analogue; settlements buried and subsequently recovered when excavation occurs — reinforces that Java's 0 is a survey-excavation issue, not absence
 
 ### Channel 3 — Linguistic Substrate (MAJOR REVISION required)
-- PAN *surat, 438 substrate words, 230 ghost words, toponymic 57.7% pre-Hindu, sago→rice (all from prior VOLCARCH corpus, P8, P18)
+- PAN *surat, 438 substrate words [⚠ 2026-10-19, C075: = 438 ABVD forms without a cognate-set number, not substrate], 230 ghost words, toponymic 57.7% pre-Hindu, sago→rice (all from prior VOLCARCH corpus, P8, P18)
 - **SLR integration:** None directly from this SLR; linguistic channel not a subfield targeted in Session 18.
 - **E208 corpus-scale finding (not an SLR finding, but must be honestly framed in §3.3):** E058's kakawin-corpus extremes (91% agriculture native, 14% religion native at 189 curated terms) do not reproduce at 5,019-synset OJW dictionary scale. Three explanations — heuristic Sanskrit undercount, E058 literary-register bias, token-vs-type scale. **§3.3 must report both scales and reframe E058 as kakawin-frequency-weighted, not language-wide.**
 - **SLR framing add:** Wolters 1999 *localisation* provides the theoretical frame for "indigenous agency over imported linguistic layer" — cite in §3.3 opener.

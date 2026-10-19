@@ -4,6 +4,8 @@
 **Paper:** P18 (Invisible Civilization)
 **Status:** SUCCESS — Indigenous writing concept confirmed, cultural profile reconstructed
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** "438 substrate words (E027)" are the 438 ABVD forms without a cognate-set number — uncoded, not substrate (C044, C055). A cultural profile built on reading them as pre-Hindu vocabulary is not supported by that label. This README was not re-audited; only the citing lines were read.
+
 ## Hypothesis
 
 Surviving vocabulary can serve as archaeological artifacts to reconstruct an invisible civilization. If physical remains are destroyed, the words that described material and cognitive culture persist in descendant languages.

@@ -4,7 +4,7 @@
 
 **Convention:** Update this when blockers in IDEA_REGISTRY.md change. Review during weekly Mata Elang.
 
-**Last updated:** 2026-10-07 (P8 R1 submission trigger added)
+**Last updated:** 2026-10-15 (I-153 Jatim bead provenance trigger added)
 
 ---
 
@@ -39,6 +39,15 @@
 ---
 
 ## Data Access Triggers
+
+### If: excavated far-eastern Java beads become accessible for analysis (added 2026-10-15)
+The beads:
+- Garahan 1921, in the Museum Nasional (check the 2023 fire);
+- Malangsari 2016, with BRIN.
+
+With a pXRF or LA-ICP-MS partner:
+- **I-153:** the Jatim provenance test on excavated material;
+- with a datable sample, the first date for a bead-bearing grave of the far-eastern Java dolmen tradition.
 
 ### If: Malagasy digital corpus accessed (Tantara ny Andriana, Fomba Malagasy)
 - I-004 → Cerita Panji search becomes definitive (READY → EXPERIMENT)

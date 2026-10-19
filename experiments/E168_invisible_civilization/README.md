@@ -6,6 +6,8 @@
 **Papers:** P18, P19, ALL
 **Novelty:** First attempt to computationally reconstruct pre-400 CE Javanese civilization from indirect evidence
 
+> ⚠ **Guard 2026-10-19 (C050 audit; ledger C074/C075; `docs/research_notes/DOWNSTREAM_AUDIT_C050_20261019.md`).** Every use of E130 here (economy, religion, social structure; "438 words") rests on the uncoded ABVD label renamed as substrate (E130 FAILED, C075). This README was not re-audited; only the citing lines were read.
+
 ---
 
 ## Purpose

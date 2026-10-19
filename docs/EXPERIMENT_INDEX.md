@@ -1,19 +1,19 @@
 # Experiment Index
 
-**Generated:** 2026-10-15 12:11
+**Generated:** 2026-10-19 10:46
 **Total:** 224 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 138
+- **SUCCESS:** 136
 - **UNKNOWN:** 34
-- **INFO NEG:** 15
+- **INFO NEG:** 16
 - **REVISIT:** 9
 - **IN PROGRESS:** 4
+- **FAILED:** 4
 - **INCONCLUSIVE:** 4
 - **PARTIAL:** 4
-- **FAILED:** 3
 - **SUPERSEDED:** 2
 - **QUEUED:** 1
 - **BLOCKED (needs E001 :** 1
@@ -165,7 +165,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E104 | Court Zone Hypothesis: Multi-Dataset Spatial Segre | SUCCESS | 01_spatial | L1,L3,L4 | P11,P5,P7,P9 | rho=0.781 |
 | E105 | BERTopic Topics × Geographic Distribution | INFO NEG | 04_language_text |  |  | p=0.580; rho=0.502 |
 | E106 | Colonial Two Javas Validation | SUGGESTIVE (low N, d | 01_spatial | L1,L3 | P1,P17 | p=0.217 |
-| E107 | ADV-5 Re-examination — Is Iban+Malay Really a Nega | SUCCESS | 04_language_text,02_taphonomy | L4 | P8 | AUC=0.713 |
+| E107 | ADV-5 Re-examination — Is Iban+Malay Really a Nega | INFO NEG | 04_language_text,02_taphonomy | L4 | P8 | AUC=0.713 |
 | E108 | Demographic Null Model — Pre-400 CE Java Carrying  | SUCCESS | 01_spatial |  |  |  |
 | E109 | Forward Simulation — Archaeological Record Under B | INFO NEG | 01_spatial,02_taphonomy |  |  | p=0.0015 |
 | E110 | Multiplicative Visibility Cascade Model | SUCCESS | 01_spatial |  |  |  |
@@ -188,7 +188,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E127 | Ancient External References to Pre-400 CE Nusantar | SUCCESS | 06_thesis | L3 | P1,P16,P18,P19 |  |
 | E128 | Colonial OV Depth Analysis — Independent Burial Ca | SUCCESS | 02_taphonomy,05_archival_nlp |  |  |  |
 | E129 | Survey Asymmetry Quantification | INFO NEG | 01_spatial | L1 | P1,P18 | p=0.09 |
-| E130 | Substrate Detection Interpretability | SUCCESS | 04_language_text | L4 | P19,P8 | AUC=0.76 |
+| E130 | Substrate Detection Interpretability | FAILED | 04_language_text | L4 | P19,P8 | AUC=0.76 |
 | E131 | Comparative Writing System Adoption Timeline | SUCCESS | 04_language_text | L3 | P1,P19 |  |
 | E132 | Sedimentation Rate Prediction Map | PARTIAL | 02_taphonomy | L1 | P1,P22 |  |
 | E133 | The Complete Argument — Why Nusantara's History "B | SUCCESS | 06_thesis |  |  | p<10; z=11.05 |
@@ -316,9 +316,11 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E099 | Eruption Frequency x Inscription Visibil | INCONCLUSIVE | *(check README)* |
 | E101 | Colonial Burial Depth Multivariate Model | PARTIAL | *(check README)* |
 | E105 | BERTopic Topics × Geographic Distributio | INFO NEG | *(check README)* |
+| E107 | ADV-5 Re-examination — Is Iban+Malay Rea | INFO NEG | *(check README)* |
 | E109 | Forward Simulation — Archaeological Reco | INFO NEG | *(check README)* |
 | E120 | Cascade Stress Test — Systematic Adversa | INCONCLUSIVE | *(check README)* |
 | E129 | Survey Asymmetry Quantification | INFO NEG | *(check README)* |
+| E130 | Substrate Detection Interpretability | FAILED | *(check README)* |
 | E132 | Sedimentation Rate Prediction Map | PARTIAL | *(check README)* |
 | E136 | Bayesian Integration of All VOLCARCH Evi | INFO NEG | *(check README)* |
 | E137 | Accidental Discovery Rate Model | PARTIAL | *(check README)* |
