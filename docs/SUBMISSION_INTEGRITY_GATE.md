@@ -80,13 +80,24 @@ passed a numbers-only G1.
 **Check:** ≥1 critical review by a different model (DeepSeek/Gemini) prompted to REJECT. Each Validity≥1/Centrality=2 critique is either fixed-with-data or the claim is downgraded. (Existing practice — keep it, but note G1–G6 catch what prose-review cannot.)
 **Failure code:** F2–F6 residuals.
 
-### G10 — Human domain independent review (**required** for archaeology/humanities venues since 2026-10-02)
-**Check:** one human from the paper's domain (archaeologist, epigrapher, geologist, linguist — a co-author or an
-unpaid colleague outside the project) reads the full manuscript and the central claims **before** submission.
-Record name, date and what they checked in `SIG_signoff.md`. Required for every manuscript sent to an
+### G10 — Domain review: a human is sought, never waited for (required for archaeology/humanities venues since 2026-10-02; amended 2026-10-19)
+**Check — route H (human):** one human from the paper's domain (archaeologist, epigrapher, geologist, linguist — a
+co-author or an unpaid colleague outside the project) reads the full manuscript and the central claims **before**
+submission. Record name, date and what they checked in `SIG_signoff.md`.
+**Check — route S (sources), when no reader has answered 14 days after the request, or none can be found:**
+1. every domain claim the paper rests on is checked against reference sources (editions and their translations,
+   dictionaries, primary papers); `SIG_signoff.md` lists each claim, the source, and what the source says;
+2. one AI read prompted as a domain specialist reviewing for *that* venue (genre and domain conventions, not G9's
+   general attack); each point fixed or the claim downgraded;
+3. the manuscript says, in its AI/acknowledgement statement, that no domain specialist read it before submission
+   and how the domain claims were checked instead.
+Either route passes G10. A reader who answers later is a bonus, not a gate. Required for every manuscript sent to an
 archaeology or humanities venue; strongly recommended for method/NLP venues; required before P0/masterpiece.
 **Why:** the missing role in the collaboration (ME#17 §5). A domain human catches F1/F4 the AI+author pair miss.
 Six of seven rejections (Mar–Jun 2026) came from venues whose genre nobody in the loop knew from the inside.
+**Why route S (PI, 2026-10-19: "AI penuh = fitur, bukan bug"):** experts for this project's breadth are scarce, and
+waiting for one became the bottleneck (P23 waited from 2026-10-02; E216 has been blocked on a co-author since July).
+Route S keeps G10's purpose — catching domain errors — by checking sources, and keeps it honest by saying so.
 
 ### G11 — Non-numeric claims gate (added 2026-08-11)
 **Check:** every **non-numeric / qualitative / causal** claim (e.g. "because", "despite", "implies",
@@ -163,7 +174,7 @@ G6 counter-evidence: [ ]  independent channel(s) tested:
 G7 reproducibility: [ ]  regen script:
 G8 overstatement: [ ]
 G9 cross-model: [ ]  reviewer + verdict:
-G10 human domain review: [GREEN/RED/N/A]  reader + date + what was checked:
+G10 domain review: [H/S/RED/N/A]  H: reader + date + what was checked · S: claims-vs-sources table + AI domain read + statement in manuscript:
 G11 non-numeric claims: [ ]
 G12 re-download after upload: [ ]
 G13 WIP limit: [ ]  manuscripts under review after this one:

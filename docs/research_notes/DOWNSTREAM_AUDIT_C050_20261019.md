@@ -66,11 +66,28 @@ meramalkan bentuk tanpa kode mirip **bahasanya sendiri**. Ini lawan tanding yang
   **OR 0,79, p = 0,41** (tersimpan di JSON). Uji ini tidak ikut diskor dan tidak disebut README.
 - Ramalan "lebih banyak gugus konsonan" dinyatakan di docstring, tetapi arahnya terbalik (C5 0,38 vs Sulawesi 0,48;
   p = 0,14). Ramalan itu tidak ada di tabel README, yang kemudian berbunyi "All six MK predictions confirmed".
-- Daftar "known MK loans" memuat *bulan*, *tanah* dan *padi*. Ketiganya lazim direkonstruksi sebagai warisan PMP
-  (\*bulan, \*taneq, \*pajay) — **tanda domain, butuh ahli**. Di data, *bulan*, *tanah* dan *kutu* justru **berkode**
-  sebagai kognat Austronesia; irisan dengan bentuk tanpa kode kosong.
-- Rujukan "Iban has well-documented Mon-Khmer (Aslian) substrate (Adelaar 1985, 1992, 2005; Blust 2010)" tidak
-  diverifikasi (C060-jenis; butuh ahli).
+- Daftar "known MK loans" memuat *bulan*, *tanah*, *padi* dan *kutu*. **Dicek ke sumber rujukan 2026-10-19, tanpa ahli:**
+  keempatnya etimon Austronesia di *Austronesian Comparative Dictionary* (Blust & Trussel):
+  - PAn \*bulaN 'moon, month' / PMP \*bulan;
+  - PMP \*taneq 'earth, soil, land' — Malay dan Iban *tanah* tercantum sebagai refleks, tanpa sumber Austroasia;
+  - PAn \*pajay 'rice in the field; rice plant';
+  - PAn \*kuCux 'head louse'.
+
+  Di data, *bulan*, *tanah* dan *kutu* juga **berkode** sebagai kognat Austronesia; irisan dengan bentuk tanpa kode
+  kosong.
+- Rujukan "Iban has well-documented Mon-Khmer (Aslian) substrate (Adelaar 1985, 1992, 2005; Blust 2010)". **Dicek ke
+  sumber yang bisa dibaca 2026-10-19:**
+  - Adelaar 1995 ("Borneo as a cross-roads for comparative Austronesian linguistics", teks terbuka ANU Press, dibaca)
+    menyebut kemiripan dengan bahasa Aslian **pada Land Dayak**, dengan dua tafsir (peralihan bahasa, atau substrat
+    pihak ketiga). Iban hanya disebut sebagai anggota subkelompok Melayik, tanpa pengaruh Aslian.
+  - Klaim kosakata Austroasia di Borneo yang beredar (Blench 2010; dibaca lewat ringkasan sekunder, bukan aslinya)
+    menyebut Land Dayak, Dusunic, Kayan dan Kenyah — **bukan Iban**.
+  - Adelaar 1985/1992 adalah rekonstruksi Proto-Melayik; 2005 tentang pengelompokan. Ketiganya tidak dibaca.
+  - Blust 2010 (*Oceanic Linguistics* 49:44–118, JSTOR) tidak dibaca. Ringkasan sekunder tidak mengaitkannya dengan klaim
+    Austroasia.
+
+  **Kesimpulan:** premis E107 tidak didukung sumber yang terjangkau. Klaim terdekat yang terdokumentasi menyangkut Land
+  Dayak, bukan Iban. Tidak ada yang bergantung pada sisa yang belum dibaca.
 
 **Cek di dalam daftar, Iban tanpa kode (67) vs Iban berkode (208), dengan pemuat dan fungsi ciri E107 tanpa perubahan:**
 

@@ -20,9 +20,13 @@
 >   - "MK shape" is **lower** in uncoded forms (0.70 vs 0.86, p = 0.003).
 >   - Iban's *coded* forms score more "Mon-Khmer" than Sulawesi's uncoded forms on every criterion. The criteria measure
 >     the language, not uncodedness.
-> - The "known MK loans" list holds *bulan*, *tanah*, *padi* (usually reconstructed as inherited PMP; domain flag). In
->   ABVD, *bulan*, *tanah* and *kutu* are **coded** as Austronesian cognates.
-> - The Iban–Aslian substrate references were not verified.
+> - **The "known MK loans" list is wrong** (checked against the *Austronesian Comparative Dictionary*, 2026-10-19).
+>   *bulan*, *tanah*, *padi* and *kutu* are Austronesian etyma: PAn \*bulaN, PMP \*taneq (Malay and Iban *tanah* listed
+>   as reflexes), PAn \*pajay, PAn \*kuCux. In ABVD, *bulan*, *tanah* and *kutu* are **coded** as Austronesian cognates.
+> - **The premise is not supported by the sources we could read.** Adelaar 1995 (read) finds Aslian similarities in
+>   **Land Dayak**, not Iban; Iban appears only as Malayic. The Austroasiatic-vocabulary claims in circulation (Blench
+>   2010, via a secondary summary) name Land Dayak, Dusunic, Kayan and Kenyah. Adelaar 1985/1992/2005 and Blust 2010 were
+>   not read.
 > - **Consequences:**
 >   - E087 stays GREY ZONE: the documentation-artefact reading stands.
 >   - "E027 UPGRADED" and "L4 UPGRADED" are withdrawn.

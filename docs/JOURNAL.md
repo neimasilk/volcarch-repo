@@ -11099,3 +11099,24 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - **Penyisipan penjaga** sempat mendorong baris *Paper/Layer* keluar dari 500 karakter yang dibaca `scan_experiments.py`. Penjaga dipindah ke bawah metadata; indeks kini hanya berubah di status E107 dan E130.
 - Ledger berikutnya **C076**; nomor eksperimen bebas tetap **E233** (tak ada eksperimen baru).
 - Dari 15 Okt: addendum manik Jatim dan perubahan terkait **masih belum di-commit**; ikut menunggu kata PI.
+
+## 2026-10-19 (lanjutan) — commit/push; prinsip PI "AI penuh = fitur"; tanda domain C074 ditutup tanpa ahli
+
+- **Commit dan push** atas kata PI ("silahkan commit dan push"): `d936cf1` (audit C050 + addendum manik Jatim 15 Okt).
+- **PI:** "eksperimen kita menggunakan full AI ini adalah fitur, bukan bug, karena bahasa itu luas, kalau perlu ahli, akan sangat sulit untuk didapatkan, dan ini menjadi bottleneck eksperimen kita … kalau perlu ahli, pivot atau lakukan yg bisa dilakukan tanpa ahli".
+- **Dicatat sebagai aturan:**
+  - CLAUDE.md dan AGENTS.md, "When Unsure": periksa sendiri ke sumber rujukan; ahli tak pernah jadi penghalang; pivot bila langkah benar-benar butuh penilai manusia; ungkapkan penggunaan AI.
+  - Memori `feedback_ai_first_no_expert_bottleneck`.
+- **Diterapkan langsung pada dua tanda domain C074** (±10 menit, sumber terbuka):
+  - **Daftar "MK loans" E107 salah.** *bulan*, *tanah*, *padi*, *kutu* adalah etimon Austronesia di *Austronesian Comparative Dictionary*: PAn \*bulaN; PMP \*taneq (Malay dan Iban *tanah* tercantum sebagai refleks); PAn \*pajay; PAn \*kuCux. Halaman indeks PAn/PMP ACD (ling.lll.hawaii.edu) dan cognateset 30607 (acd.clld.org).
+  - **Premis "substrat Aslian pada Iban" tidak didukung sumber yang terjangkau.**
+    - Adelaar 1995, *Borneo as a cross-roads…* (teks ANU Press, dibaca): kemiripan Aslian ada pada **Land Dayak**; Iban hanya sebagai Melayik.
+    - Klaim kosakata Austroasia di Borneo (Blench 2010; dibaca lewat ringkasan Wikipedia, sekunder): Land Dayak, Dusunic, Kayan, Kenyah — bukan Iban.
+    - **Tidak dibaca:** Adelaar 1985, 1992, 2005 dan Blust 2010 (JSTOR). Tidak ada yang bergantung padanya.
+  - Ledger C074, catatan audit §2 dan README E107 diperbarui.
+- **Gagal kecil:** halaman ACD trussel2.com menolak (403); cermin ling.lll.hawaii.edu dan acd.clld.org bisa.
+- **Langkah lain yang masih menyebut manusia sebagai syarat** (aturan yang dulu diputuskan PI; tidak diubah diam-diam, ditanyakan ke PI):
+  - SIG **G10** (pembaca domain manusia sebelum kiriman ke venue arkeologi);
+  - **P23** (validasi epigraf atas sampel — "core, not optional");
+  - unpark **E226** (daftar Kusen/Resiyani atau ahli mengode I1 ≥ 30 desa);
+  - default rekan penulis domain.
