@@ -3230,5 +3230,19 @@
     "lines": [
       "04_language_text"
     ]
+  },
+  {
+    "id": "E233",
+    "dir": "E233_p23_validation_editor_translations",
+    "has_readme": true,
+    "title": "P23 validation against the editors' published translations",
+    "status": "PRE-REGISTERED (DESI",
+    "papers": [
+      "P23"
+    ],
+    "lines": [
+      "05_archival_nlp",
+      "04_language_text"
+    ]
   }
 ]

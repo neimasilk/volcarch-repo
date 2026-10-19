@@ -104,7 +104,7 @@ mereka.
 
 # §3 — State Saat Ini (*Current State*) — bertanggal; bagian ini sengaja kedaluwarsa
 
-**Per 2026-10-15 · 224 eksperimen lokal (E001–E232) · 0 accepted (1 bersyarat: P8, R1 dikirim 15 Okt) · 7 rejected · 1 under review (P2) · 1 ditarik (P17).** Angka di kotak ini
+**Per 2026-10-19 · 225 eksperimen lokal (E001–E233) · 0 accepted (1 bersyarat: P8, R1 dikirim 15 Okt) · 7 rejected · 1 under review (P2) · 1 ditarik (P17).** Angka di kotak ini
 adalah cuplikan; sumber otoritatif ada di `docs/EXPERIMENT_INDEX.md` + `lines/*/STATE.md`.
 (+E225 pra-registrasi 13 Agt; +E053/E203 kembali dari repo pendamping 1 Okt. Status jurnal belum
 dicek ulang sejak 13 Agt — riset jeda 7 minggu.)

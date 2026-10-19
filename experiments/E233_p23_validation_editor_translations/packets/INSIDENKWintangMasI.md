@@ -1,0 +1,28 @@
+# INSIDENKWintangMasI — Wintang Mas I (800 Śaka)
+
+**Responsibility (TEI header):** EpiDoc Encoding Arlo Griffiths; intellectual authorship of edition Arlo Griffiths
+**Translation language:** eng
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1 | n=1r1-1r2] Hail! Elapsed Śaka year 800, month of Śrāvaṇa, thirteenth tithi of the waning fortnight, Panirvan, Umanis, Friday (i.e., 1 August 878 CE).
+
+[P2] That was when dyah Puṭu was accompanied by his headmen at Kapuhunan: the foreman called pu Go; the village elders called saṅ Ādikā and saṅ Surā and saṅ Tarā‚ saṅ Garya; the daṇḍa called si Kupiṅ. Those were all the headmen who accompanied dyah Puṭu when the pamvat of their sīma at Vintaṅ Mas was accomplished, and when the priest pitāmaha of Kailāsa was given Maṅulihi as apanage.
+
+[P3 | n=1r2-1r6] As for its i.e., the village's service ? parbhaktyan to the deity Śrī Haricandana, they as well as their descendants must exert themselves for it down into the future. They must not be neglectful pīṭā, i.e., pīḍā at the moment ? təkan of the worship of the deity Haricandana. At the start of the triennial period, together they open the doors ? buka pintu. They shall offer 1 tahilan of pasaṅ bras with its various fruits to the deity. Also, at the moment of the worship of the deity Haricandana, the divine corvée once per year is that they must present food mapuñjuṅa by making a rice-cone anna-liṅga for the worship of the deity Brahmā. Also, the month of Mārgaśira is the festival period. They shall offer 1 tahilan of pasaṅ bras with its various fruits to the deity Haricandana.
+
+[P4 | n=1r6-1r9] Dyah Puṭu offered homage. He offered 2 māṣas of gold and 1 set of vḍihan cloth to the official of Tiruan called pu Sapi. The official of Maṅulihi, i.e., the priest of Kailāsa, was given 1 set of vḍihan and 2 māṣas of gold. The foreman at Maṅulihi, i.e., the Pagar Vəsi called saṅ Phaṇa Varaṅan was given 1 set of vḍihan and 2 māṣas of gold. The Taru Maṅambil called ḍa punta Pula was given 1 set of vḍihan and 2 māṣas of gold. Saṅ Karaṅka, home guard at Jambu, was given 1 set of vḍihan and 2 māṣas of gold.
+
+[P5 | n=1r9-1r11] The witnesses to it were all reverend priests, along with the two talahantans called ḍa punta Vəgil and ḍa punta Mayaṅkā; the two headmen at Bu Hamas called saṅ Karaṅ Hulu and saṅ Aḍuti; the herald called si Padmini; the foreman at Ḍihyaṅ called pu Maṇḍiṅ; the pasiṅirs called saṅ Paluṅan, as well as saṅ Nalī and saṅ Prabhī. The gifts pasak shared by them were 8 māṣas of silver.
+
+[P6 | n=1r11] Written by saṅ Paṅuraṅ and saṅ Triyur Tuṅtuṅ: both shall share receive 2 māṣas of silver.
+
+[P7 | n=1] O you who face outwards in directions to all creatures! You will please give a boon now to us all, so that we may attain something uncommon.
+
+[P9 | n=3] Like the ..., ignoble and destitute, that you obtain, on sin as great you must fall due to every curse.
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKWintangMasI#001 | 1r1 | tatkāla dyaḥ puṭu dinulur deni rāmanira I kapuhunan juru pu go tuha | **banuA** | saṁ Ādikā muAṁ saṁ surā muAṁ saṁ tarā saṁ garyya ḍaṇḍa si |

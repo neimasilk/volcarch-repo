@@ -1,0 +1,103 @@
+# INSIDENKSugihManek — Sugih Manek Charter (837 Śaka, 915-09-13)
+
+**Responsibility (TEI header):** EpiDoc Encoding Tyassanti Kusumo Dewanti Arlo Griffiths; intellectual authorship of edition Tyassanti Kusumo Dewanti Arlo Griffiths
+**Translation language:** eng (not declared)
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1] (A1–A7) May there be no hindrance!
+
+[P2] May there be prosperity for all people! May the hosts of beings be intent upon the benefit of others! May faults come to perish! May the world be blissful in every respect!
+
+[P3] Hail! Elapsed Śaka year 837, month of Asuji, second tithi of the waxing fortnight, Mavulu, Pon, Wednesday, the direction south-east, the lunar mansion Citrā, the conjunction Vaidhr̥ti, the deity Tvaṣṭā. That was the time of the grant of the Great King Śrī Dakṣottama-bāhubajra-pratipaḳsa-ksaya to the Lord of Kanuruhan, dyah Mumpuṅ, to demarcate the village of Limus, district Kanuruhan, [whose] corvée (gavai)is 1 māṣa, and its subordinate (anaknya)at Tampuran [whose] income (paṅguhan) is 18 suvarṇa and 8 māṣa of tapak for each year, so that it would become the sīma of the foundationof the Lord, (namely) the monastery temple (prāsāda kabikvan)at Sugih Manek.
+
+[P4] (A7–A16) Its purpose was for the daily offering to the Deity and for the nourishment of all the priests who are occupied with the worship of the Deity, who offer ... the foundation (dharma or kuśala) of the Lordat Sugih Manek and the one at Limus, should not be entered by the three high dignitaries — the paṅkur, the tavān, the tirip — [nor by] the tiruan, the maṅhuri, nor by all the collectors of royal revenue. The kriṅ, the paṅuraṅ, the paḍam apvī, the manimpiki, the halu varak, the pamaṇikan, the maṇiga, the lva, the malandaṅ, the pakalaṅkaṅ, the tapa haji, the er haji, the maṅrumve, the overseer of the smithies, the overseer of traders, the overseer of nambis, the overseer of huñjamans, the overseer of kutaks, the overseer of public women (juru jalir), the overseer of gambling (juru juḍi), the carpenter, the Limus Galuh, the paṅaruhan, the vatu tajam, the taji, the smiths, the mapayuṅan, the eunuchs, the healers, the paranakan, the singing actors, the overseer of drummers, the sinaguha, the taṅkil, the salvit, the varahan, the sambal, the sumbul, the courtiers, the Siṅgah, the Pamr̥ṣi, the King’s servants, the Mahouts, the ləbə-ləb, and so forth — all sorts of collectors of royal tax [on] various kinds of professions shall not enter the monastery at Sugih Manek and the one at Limus.
+
+[P5] (A16–A18) Likewise its ‘pain and relief’ — the areca flower that does not come to fruition, ḍaṇḍa-kuḍaṇḍa, bhaṇḍihala, etc., all sorts of misfortune: to die from being crushed, to die from drowning, to be caught by thunderclap, gourd creeping along the yard, splattered blood, bedewed corpse, and so forth. All of them benefit only to the Deity.
+
+[P6] (A18–A26) Likewise those who trade while present in this meritorious work (kuśala) of the Lord, their number should be limited:
+
+[P7] • the goldsmiths, the ironsmiths, the coppersmiths: three bellows in the whole sīma,
+
+[P8] • the cadar (cloth) makers: three cadar looms (pacadaran),
+
+[P9] • the arah workers: three pounding blocks,
+
+[P10] • the cattle buyers: three of them [and] 20 head of water buffalo per person, 40 head of cattle per person, 80 head of sheep, one coop of ducks
+
+[P11] • the wagoners: three yokes
+
+[P12] Up to those limits, they shall not be subjected to parəmasan (tax).
+
+[P13] If the wares are borne by the shoulder pole — such as [is done by] cloth vendors, vendors of copper utensils, kacapuri makers, [as well as by vendors of] cotton, noni (vuṅkuḍu), copper, bell-metal, tin, iron, unhusked rice, packed (salt? cotton?), oil, sugar, silky filaments (bəsar), thread, safflower, all kinds of wares that are borne by shoulder pole shall all be five bundles per trader, [and] their shoulder pole loads shall be [limited to] three traders in the whole sīma. Up to those limits, they shall not be subjected to the collectors of royal revenues, whatever be their destinations [and] whatever be their locale. But they must keep the present document in their custody. If [their trade] is more than the limit [imposed] on them, they will be subjected (to payment) by the collectors of all royal levies (sa-uddhāra haji) proportionally to the excess [but taxation of the excess] should not be disproportional (tan adhikāna).
+
+[P14] (A26–A29) As for those who paint black, who twist ropes, who make cavriṅ, who dye with pahaṅan, who dye with lākha, who dye with ubar, bird catchers, [birds] snarers, wicker workers, shed makers, those who tie vuṅkuḍu, potters, castor-oil pressers, lime makers, and so forth: all of them (i.e., the impost they pay?) will be divided in three. One share will accrue to [the resources of] the Deity, one share [will accrue] to the custodian(s) of the foundation, [while] one share [will accrue] to the collectors of royal revenue. Thus was the King’s decree limiting those who trade, while being present there, from their carts.
+
+[P15] (A29–B2) The Lords offered confirmatory gifts
+
+[P16] • to the Great King, Śrī Dakṣottama-Bāhubajra-Pratipaḳsaksaya: 1 suvarṇa [and] ... māṣa of gold; 1 yugala of vḍihan ragi;
+
+[P17] • to the Lady the Royal Spouse [and] Queen: 1 suvarṇa [and]4 māṣa of gold; 1 piece of ken;
+
+[P18] • to the Lordof Momah-umah, the Gurum Baṅi (called) pu Uttara: 10 māṣa of gold, 1 yugala of vḍihan ragi;
+
+[P19] • [to] the Lord of Hujuṅ (called) dyah Mrih: 10 māṣa of gold; 1 yugala of vḍihan ragi;
+
+[P20] • [to] the Lord of Tagaran (called) dyah Bagal: 10 māṣa of gold, 1 yugala of vḍihan ragi.
+
+[P21] (B2–B5) All the jurus at Kanuruhan: the juru of Kanāyakān (called) ...riṅ joining saṅ ra Gagar; the juru of Lampuran, (i.e.) the Lord of Siñjalan [and] standard-bearer(called) pu Aḍo; the juru of junior troops (called) saṅ Brat; the juru of servants (called) saṅ ra Banir; the two jurus of Maṅrakət(called) saṅ Tavi [and] saṅ Labdha; the amasaṅakan (called) saṅ ra Vava — all were given as gifts 2 māṣa of gold [and] 1 sheet of vḍihan ragi per person.
+
+[P22] (B5–B8) All the mapatihsin the Court: the patih pamgat (called) saṅ Haju; the maṅhambən (called) saṅ Hiraṇya; the patih kavaṅyan (called) saṅ Pārtha; those who serve as seniors (pinakasthavira) in the Court; the herald of Vuṅkal Kiluṅ; the juru banvas (called) saṅ Kya [and] saṅ Saṅgamaṅ; the gusti (called) saṅ Rumput; the variga (called) saṅ Loka; the panulisan (called) saṅ Prakāśita; the apəkan (called) saṅ Kbak; the juru bvatoh (called) saṅ Candra — all were given 1 māṣa [of gold and] 1 sheet of vḍihan per person.
+
+[P23] (B8–B10) The vahuta of Panbahan (called) si Vujil; the [one of] Vuṅkal Raya (called) si Kucup; the [one of] Pakambaṅan (called) si Laka; the parujar patihs(called) si Lampuran, si …n [and] si ...r; the maṅhambən (called) saṅ Guruvrati; the parujar kavaṅyan (called) si Rundhā; the parujar patih (called) si … — all were given 1 māṣa [of gold and] 1 sheet of vḍihan each.
+
+[P24] (B10–B11) The patih of Hujuṅ (called) saṅ Jarā; the maṅhambən (called) saṅ Balusyak; the patih mānak (called) saṅ … —all were given as gifts 1 māṣa [of gold and] 1 sheet of vḍihan each.
+
+[P25] (B11–B12) The patih of Vaharu: the maṅharap babak (called) ḍa pu Bahija; the maṅhambən (called) saṅ Bharata; the patih mānak (called) saṅ Havaṅ — all were given as gifts 1 māṣa [of gold and] 1 sheet of vḍihan each.
+
+[P26] (B12–B13) The neighboring headmen: at Kalaṅliṅun (the one called) ḍa pu hyaṅ Tambir; at Bukalaṅan (the ones called) saṅ Dili [and] saṅ Gnuk; at Vuraṇḍuṅan (the one called) saṅ Vintaṅ; at Tampuran (the one called) saṅ Paman — [all] were given 1 māṣa [of gold and] 1 sheet of vḍihan each.
+
+[P27] (B14–B15) The headmen of Limus: the vinkas (called) saṅ Hitam; the retired headman (called) si Talaṇḍaṅ; the kalaṅ pañjuruan of Limus (called) saṅ Bandi; the kulapati of Limus (called) saṅ Balan — [all] were given 1 māṣa [of gold and] 1 sheet of vḍihan per person.
+
+[P28] (B15–16) Such have been summed up the numbers of those who have been given confirmatory gifts with vḍihan and have been invited to eat …. the flowers and offerings (parabantən), together with the incense(s), lamp(s), unhusked grains, etc. The ‘holy heart’ (stone) was erected, after the consecration and invocation had been carried out prior to it being planted as the mark of the irrevocability of the demarcation at Limus and at Tampuran, to be a sīma domain of the Deity in the temple at Sugih Manek, the meritorious work of the Lordof Kanuruhan (called) dyah Mumpuṅ.
+
+[P29] (B18–B21) The paddy fields at Tampuran that benefited the personnel were shared (?). The specification of the paddy fields:
+
+[P30] [those] of the ācarya: 12 māṣa of tapak
+
+[P31] [those] of the paṅajyan: 4 māṣa of tapak
+
+[P32] [those] of the devakarma: 4 māṣa of tapak
+
+[P33] [those] of the kulapati: 1 suvarṇa of tapak
+
+[P34] [those of] the sweeper in the …: 6 māṣa of tapak
+
+[P35] [those of] the sweeper in the bathing place: 8 māṣa [and] 9 kupaṅ of tapak
+
+[P36] [those] of the variga: 4 māṣa of tapak
+
+[P37] [those of] the park inspector (atamān): 2 māṣa of tapak
+
+[P38] [those] of the susuraji (?): 7 māṣa of tapak
+
+[P39] [those of] their variga: 2 māṣa [and] 2 kupaṅ of tapak
+
+[P40] The grand total: 3 suvarṇa [and] 14 māṣa of tapak. Those are the ones that benefited the personnel.
+
+[P41] (B21) The rest, (viz.) 3 suvarṇa [and]2 māṣa of tapak,it shall benefit the property of God, for the purpose of daily offering to the Deity. And the ‘income and expenditure’ (āyabyaya) are for complete perfecting of the Deity, of the dikes, of the houses, of the rice granaries, gathering places, offering places, and suchlike.
+
+[P42] (B23) Further, whoever disturbs the sīma at Limus, and the one at Tampuran, all the more so [the one] at Sugih Manek, until the future’s future — watch out (jah)! He will therefore suffer the result of his actions, will come to ruin, will be completely annihilated! He will encounter every kind of misfortune, in this life [and] in the afterlife.
+
+[P43] Pay heed, you deities at the illustrious Baprakeśvara, Brahmā, Viṣṇu, Mahādeva, sun, moon, earth, water, wind, fire, sacrificer, sky, Kāla and Mr̥tyu, Gaṇas, demons, the two junctures, day and night, Yama, Baruṇa, Kuvera, Bāsava, Yakṣas, Rākṣasas, Piśācas, the fathers of deities (?), Pretas, Asuras, Garuḍas, Kinnaras, Gandharvas, Vidyādharas, the god’s sons, (viz.) Nandīśvara, Mahākala, the King of Nāgas, Vināyaka, north, south, west, east, the main and intermediate quarters of space, below and above, all you famous deities who protect the kingdom of the Great King in the land of Mataram, who irresistibly enter into everyone’s body — If there is a bad man who disturbs the sīmasat Sugih Manek, at Limus, at Tampuran, all the more so if he dissolves them, he must be killed by you! When you are going to kill [him], your approach shall be to clash with the opponent, striking at the [left] side [and] again at the right side, [and] be dropped down, then cut off his snout, eat his flesh, tear out his hati, rip out his belly, bend his pahuṅ, draw out his intestines!
+
+[P44] (c1–7) (May he) be bitten by a poisonous snake, eaten by a tiger, twisted by the God(s) of fury (devamanyuḥ), when going to the tgal, (may he) be struck by thunderclap in the absence of rain, touched by the rākṣasa(s), swept aside by demon (called) si Pamuṅvan. ……
+
+[P45] (c8–d10) Kuśika, Garga, Metri, Kuruṣya, Patañjala, the guardian of north, south, west, east, of the under-world, of the upper-world. Hook him to all the Gods, drop him into the ocean, drown him in the reservoir, may he be taken by the deity in the water, may he be pulled by the sea monster, may he be caught by the crocodile. They should kill the improper person! May he suffer misfortune among the deities, not experiencing any tranquility, (be) lost — engulfed in phīra, (be) sent to hell, (be) falling to the great Rauravahell, (be) cooked by saṅ Yamabala, (be) beaten by saṅ Kiṅkara seven times, atayan bimbān, (be) totally miserable, entirely suffering in their whole life. All types of (d1) misery will be obtained by him, all forms of pain will be experienced by him, all hatred in life will be manifested on him. (May he) be decayed, not experiencing tranquility, (and) be left behind with the blowing ashes. Such are the results of the unrighteous person who disturbs the freehold, especially destroying it! Oṁ, salutation to Śiva!
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKSugihManek#001 | A4 | Anugraha śrī mahārāja śrī dakṣottama-bāhubajra-pratipakṣa-kṣaya I rakai kanuruhan dyaḥ mumpuṁ sumusuk Ikanaṁ | **vanva** | I limus vatək kanuruhan gavai mā 1 mvaṁ Anaknya I tampuran paṅguhan |
+| INSIDENKSugihManek#002 | B3 | patiḥ kavaṅyan saṁ pārtha pinakāsthavira I pakaraṇān saṁ parujar vuṅkal kiluṁ juru | **banva** | saṁ kya saṁ saṅgamaṁ gusti saṁ rumput maṇiga saṁ loka panulisan saṁ |

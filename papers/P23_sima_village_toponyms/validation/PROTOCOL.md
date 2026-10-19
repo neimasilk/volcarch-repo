@@ -18,3 +18,13 @@ two models says nothing about whether they are right. P23's central quality clai
 - **Decision rule for the paper:** if human–final κ(Y) < 0.70 or > 15% of Y names are wrong, the list is not
   published as a resource until the whole frame is re-coded by a human; the paper then reports the LLM-coding
   failure as its result (still publishable as a method lesson).
+
+## Amendment 2026-10-19 — the reference is the editors' published reading (PI: no expert bottleneck)
+
+No epigrapher answered between 2026-10-02 and 2026-10-19. On 2026-10-19 the PI ruled that a human expert is never a
+blocker ("kalau perlu ahli, pivot"). The validation therefore runs against readings experts have **already
+published**: the DHARMA editors' translations of the same editions, for the 30 frame inscriptions that have one
+(216 occurrences, 40 of them in the random-100 sample above). Metrics and the decision rule above are unchanged.
+Pre-registration and method: `experiments/E233_p23_validation_editor_translations/DESIGN.md`.
+If an epigrapher ever codes the sheet, that coding is compared with both the frame and the E233 reference (a bonus,
+not a gate).

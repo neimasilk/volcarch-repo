@@ -1,0 +1,21 @@
+# INSIDENKSriManggalaIII — Sri Manggala III (796 Śaka)
+
+**Responsibility (TEI header):** EpiDoc Encoding Arlo Griffiths; intellectual authorship of edition Arlo Griffiths
+**Translation language:** eng (not declared)
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1 | n=1-3] Hail! Elapsed Śaka year 796, month of Caitra, second tithi of the waxing fortnight, Haryaṅ (of the 6-day cycle), Kalivuan (of the 5-day cycle), Wednesday, lunar mansion Kr̥ttikā (i.e., on 24 March 874 CE).
+
+[P2 | n=3-6] That was when the offical of Hino called pu Apus demarcated as a sīma the land of his foundation at Saliṅsiṅan. Its extent from south to north: 44 ḍpa; its extent from east to west: 67 ḍpa. 1 lān paddy field of Śrī Maṅgala was delimited by it (i.e., by the land, for him) as replacement for the land of his foundation. The purpose of the paddy field was as place for the field laborers kavaduā-humān in Saliṅsiṅan.
+
+[P3 | n=6-9] The witnesses were the elders, the patihs, the kalaṅs, the gustis, the vinəkases, the varigas, the heralds, the village headmen, the custodians, the priests, the officiants, the scribes, the temple workers in village Poh. They were all given vəḍihan cloth and ate.
+
+[P4 | n=9-10] Whoever disturbs the foundation will meet with great sin, suffering and pain, and disappears in the Mahāprīta hell.
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKSriManggalaIII#001 | 7 | kavaduĀ-humān I saliṁsiṅan sākṣī rāmanta patiḥ kalaṁ gusti vinkas variga parujar tuha | **banuA** | marhyaṁ sthāpaka Upakalpa kăyastha saṁ daivakarmma I vanuA poḥ kapuA vinaiḥ vḍihan |
+| INSIDENKSriManggalaIII#002 | 8 | vinkas variga parujar tuha banuA marhyaṁ sthāpaka Upakalpa kăyastha saṁ daivakarmma I | **vanuA** | poḥ kapuA vinaiḥ vḍihan Amaṅan Asiṁ Umulaḥ-Ulaha Ikaṁ dharmma mahāpāpa duḥkha lara |

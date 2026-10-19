@@ -1,0 +1,28 @@
+# INSIDENKPalepangan — Palepangan charter (828 Śaka)
+
+**Responsibility (TEI header):** EpiDoc encoding Arlo Griffiths; intellectual authorship of edition Arlo Griffiths
+**Translation language:** eng (not declared)
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1 | n=1v1-1v2] Hail! Elapsed Śaka year 828, intercalary month of Śravaṇa, eighth tithi of the waning fortnight, Haryaṅ, Vās, Friday. That was the time that the elders of Palepangan were collectively granted the privilege of being allowed to keep a charter by the lord minister of Hino, pu Dakṣottama Bāhubajra Pratipakṣakṣaya.
+
+[P2 | n=1v2-1v4] The occasion for it was due to the elders not being in accord with the nāyaka, namely the reverend Jyotiṣa that their wet ricefield is considered as measuring 2 lamvit. They were ordered to excise udhāra 6 dhāraṇa of silver for every single tampah. But due to its deficiency compared to said estimate they were not able to excise that much. That is why the elders petitioned sambah the lord minister.
+
+[P3 | n=1v4-1v6] Their wet ricefield was ordered to be measured by the royal tampah. The royal tampah is considered to be a hundred ḍpa sihvā in length, thirty ḍpa sihvā in breadth. The assistant of the lord of Hino, namely saṅ Brahmā, as well as the officiant of Priṅ's companion called saṅ Kañcur, were ordered to measure. They produced as result 1 lamvit, 7 tampah, 1 blah. As much as that aforementioned sum they namely the elders were ordered to excise: 6 dhāraṇa of silver for every single tampah.
+
+[P4 | n=1v6-1v12] Thereupon jari, the elders contributed in tahil tax 6 dhāraṇa of silver for every single tampah. The total amount of silver serving the elders to contribute tahil on the ricefield of 1 lamvit, 7 tampah, 1 blah, was 5 kāṭi and 5 dhāraṇa of silver, besides pilih mas and 8 laborers kaṭik, 4 of them for the deity, 4 of them for the nāyaka. The total amount of wet ricefield of the laborers was 1 lamvit, 1 tampah, 1 suku held in common. The wet ricefield of the elders was 1 lamvit, 1 blah; the wet ricefield of the forest inspector was 2 tampah; the wet ricefield of the surveyor of markets was 1 tampah. Such was the specification of the wet ricefields after they had been measured in tampah haji. Besides them there was 1 lamvit of wet ricefield of the deity kept by the elders as endowment for the cult pūja — the value mūla of 1 lamvit was not measured, because of the destituteness of its condition — with the income from subletting lañjān of 14 dhāraṇa of silver; the patukan of 4 māṣa of silver; the panurat of 4 dhāraṇa of silver. They are due umijil in Māgha and taken by the ones who carry the deity's offerings bali by pikul. The pavḍus of 4 māṣa of silver is due in the Ninth month Caitra. Thus was the grant of the lord minister of Hino to the elders of Palepangan with all the village inhabitants.
+
+[P5 | n=1v12-1v15] The witnesses to it were: the officiant of Priṅ named ḍapunta Udāra, native of the village of Sraṅan, domain of the monastery at Pahai, teaming up (?) with the lord minister dyah Vano, native of the village of Syutan, district of Tiru Raṇu; the Kalaṅ overseers at the time named pu Baruṇa and pu Palinī; the village overseers pu Kmir, pu Gamana and pu Gambir; the gustis: pu Karṇa, pu Aruṇa, pu Vāri; the teacher pu Tarañjal; the herald pu Pradhāna; the maṅraṅkəpi pu Kuḍut; the vinkas pu Sādha; the village overseer of Lampahan: pu Gəmar; the astrologer pu Bur; the irrigation head: pu Bay. Thus was the total of those holding office, who devoted their full attention to the words of the minister of Hino.
+
+[P6 | n=1v15] Written by the officiant of Priṅ as calligrapher.
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKPalepangan#001 | 1v8 | Umijil ri sasāṅan nāhan Anugraha rakryān mapatiḥ I rāmanta I paL̥paṅan sapasug | **banuA** | tatra sākṣī samgat priṁ ḍapunta Udāra Anak vanuA I srāṅan pumpunanni bihāra |
+| INSIDENKPalepangan#002 | 1v8 | rāmanta I paL̥paṅan sapasug banuA tatra sākṣī samgat priṁ ḍapunta Udāra Anak | **vanuA** | I srāṅan pumpunanni bihāra Iṁ pahai Amasaṅakan I rakryān mapatiḥ dyaḥ vano |
+| INSIDENKPalepangan#003 | 1v8 | srāṅan pumpunanni bihāra Iṁ pahai Amasaṅakan I rakryān mapatiḥ dyaḥ vano Anak | **vanuA** | I syutan vatək tiru raṇu tuha kalaṁ rikaṁ kāla pu baruṇa pu |
+| INSIDENKPalepangan#004 | 1v8 | vatək tiru raṇu tuha kalaṁ rikaṁ kāla pu baruṇa pu palinī tuha | **banuA** | pu kmir pu gamana pu gambir gusti pu karṇa pu Aruṇa pu |
+| INSIDENKPalepangan#005 | 1v14 | pu tarañjal parujar pu pradhāna maṁraṁkpi pu kuḍut vinkas pu sādha tuha | **banuA** | I lampahan pu gammar variga pu bur huler pu bay nāhan kvaiḥnira |

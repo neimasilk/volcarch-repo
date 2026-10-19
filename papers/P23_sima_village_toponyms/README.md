@@ -41,8 +41,10 @@ claim about settlement history or volcanism.
 
 ## What the paper still needs (in order)
 
-1. **Human validation (core, not optional):** an epigrapher codes a random sample (e.g. 100 occurrences)
-   blind → human–LLM agreement and error types. Without it the two-LLM κ says little about correctness.
+1. **Validation against human judgement (core, not optional).** Planned as an epigrapher coding 100 occurrences.
+   **Pivot 2026-10-19 (PI: an expert is never a blocker):** the reference is the editors' published translations of
+   the same editions (30 inscriptions, 216 occurrences) → **E233** (`experiments/E233_p23_validation_editor_translations/`;
+   metrics and thresholds of `validation/PROTOCOL.md` unchanged). An epigrapher's coding, if it comes, is a bonus.
 2. Reader/co-author answer (G10). **Asked 2026-10-02 13:55:** Dr Titi Surti Nastiti (BRIN, epigraphy;
    tsnastiti@yahoo.com, address from her *Kalpataru* article). Text:
    `docs/correspondence/EMAIL_NASTITI_P23_READER_SENT_20261002.txt`. Reserve: Arlo Griffiths (DHARMA).
@@ -61,5 +63,5 @@ claim about settlement history or volcanism.
 | G13 WIP | FULL now (P2 round 2; P8 R1 submitted 2026-10-15 and counts, K4) → P23 may be drafted, not submitted, until a decision arrives |
 | G14 rest | not started (no frozen draft) |
 | G15 venue | DHQ (Case Study framing) chosen, fees verified, `VENUE.md` done; pre-submission inquiry after validation |
-| G10 reader | asked (Nastiti) |
+| G10 reader | asked (Nastiti, 2026-10-02); since 2026-10-19 route S applies if she stays silent 14 days after the 23 Oct follow-up (SIG G10: sources + AI domain read + statement) |
 | G16 voice | PI writes (confirmed K5, 2026-10-15) |

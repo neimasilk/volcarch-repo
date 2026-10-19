@@ -1,0 +1,333 @@
+# INSIDENKLintakan — Lintakan (841 Śaka, 919-07-12)
+
+**Responsibility (TEI header):** EpiDoc Encoding Tyassanti Kusumo Dewanti Wayan Jarrah Sastrawan Arlo Griffiths; intellectual authorship of edition Tyassanti Kusumo Dewanti Wayan Jarrah Sastrawan Arlo Griffiths
+**Translation language:** eng (not declared)
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1] (1r1) Hail! Elapsed Śaka year 841, month of Śrāvaṇa, the twelfth tithi of the waxing fortnight, Mawulu, Umanis, Monday, the lunar mansion Mūla, the deity Nairr̥ti, the conjunction Vaidhṛti, in the southwest direction. That was the time when the Great King, Lord of rakai Layaṅ, dyah Tloḍoṅ Śrī Sajjanasannatānurāgatuṅgadeva demarcated the forest of Lintakan in the district of Malintaki, and the forest in Tunah, in the district of Pinapan and there was a demarcated land in Vru, in the district of Magañjar for the custodian of the sanctuary, in connection with irrigating umvayana the sīma. There is 1 tampah of wet rice field in Kasugihan, in the east of the land in Tunah and Lintakan. It was bought by the Great King from the headmen in Kasugihan for 1 kāti,13 dhāraṇa and 6 māṣa of silver. It was then also demarcated. The function of it was for the offering (carua) to the funerary monument of the Great King’s father in Turu Maṅambil. This demarcated land is the land in the south of the fence here, guarded by the Mamrāti (and) the Tilimpik here. But the reason why all the taṇḍa rakryān also received the gifts, as well as their herald because the demarcation of the sīma land had been completed, to remain fixed until the future’s future.
+
+[P2] As follows is the content of the charter:
+
+[P3] (1r6) The taṇḍa rakryān were all presented the confirmatory gifts after having established the demarcation of the sīma land:
+
+[P4] The [Lord of] Hino at that time, pu Ketudhara Manimantaprabhā Prabhuśakti Trivikrama [was given] 1 yugala of pilih magəṅ cloth, 1 suvarṇa and 4 māṣa of gold.
+
+[P5] The Lord of Halu, pu Siṇḍok,
+
+[P6] The Lord of Sirikan, pu Havaṅ
+
+[P7] The Lord of Vka, pu Kirana, were each presented 1 yugala of kalyāga cloth, 10 māṣa of gold.
+
+[P8] The Mamrāti, pu Ḍapit,
+
+[P9] The Tilimpik, pu Paṇḍamuan, they were each presented 1 yugala of ambay-ambay cloth, 4 māṣa of gold.
+
+[P10] The official of Momah-umah at Pikatan, pu Kambaladhara was presented with 1 yugala of sulasih cloth and 8 māṣa of gold.
+
+[P11] The Tiruan, pu Cakra, was given 1 yugala of ambay-ambay cloth and 5 māṣa of gold.
+
+[P12] The Halaran, pu Vihikan,
+
+[P13] the Palar Hyaṅ, pu Balanduṅ,
+
+[P14] the Dalinan, pu Parbvata,
+
+[P15] the Maṅhūri, pu Teja,
+
+[P16] the Paṅkur, pu Jayanta,
+
+[P17] the Tavān, pu Sena,
+
+[P18] the Tirip, pu Harivaṅsa,
+
+[P19] the Vadihati, pu Naṅgala,
+
+[P20] The Makudur, pu Dhanuka, were each presented 1 yugala of ambay-ambay cloth, 4 māṣa of gold.
+
+[P21] The Pinapan who has the village at Tunaḥ, saṅ Paṅgaruan, was presented 1 yugala of ambay-ambay cloth, 8 māṣa of gold
+
+[P22] The Maṅlintaki, pu Pavitra, was presented 1 piece of garment, 8 māṣa of gold
+
+[P23] The 2 tuhāns at Vadihati: The Mira-miraḥ (called) pu Sudanta, native of Mira-miraḥ, accompanied by saṅ Lbur poḥ (called) pu Vikasita, native of Ḍatar, district of Ḍatar.
+
+[P24] The 2 tuhans at Makudur: The Liṅo (called) saṅ Maṅhandul, native of Kinaliṅ Kabini-hajyan, accompanied by saṅ Maṅlage, native of Puluṅ, district of Makudur.
+
+[P25] The vahuta of the Hyaṅ Kudur who conducted the demarcation: [the one] at Vadihati, saṅ Vada, native of Sumbhāgi, district of Paṁhrəmban, [the one] at Makudur, saṅ Maṅantas, native of Juruṅan, district of Pagar Vsi, were each given 1 yugala of coloured cloth, 4 māṣa of gold.
+
+[P26] The herald of Hino, the Kaṇḍamuhi (called) saṅ Kasura, native of Vuṅkudu, district of Kilipan,
+
+[P27] The herald of Halu, the Visāga (called) saṅ Vidyānidhi, native of Hilyan, district of Padlagan,
+
+[P28] The scribe (anurat) of Hino at the secretariat, the Vuṅkal Varaṇi (called) saṅ Śuddha, native of the monastery (kabikuan) at/called Tamyaṅ, at Jantur.
+
+[P29] The herald of Vəka Viridiḥ, saṅ Kīrtidhara, native of Huntu, district of Putad Ḍaṇu,
+
+[P30] The herald of Tiruan, the Sumuḍan (called) saṅ Prājña, native of the monastery called Siddhakārya who makes offerings to Ḍihyaṅ, district of Vuṅaṇ Ḍaṇu,
+
+[P31] The herald of Halaran, saṅ Adigama, native of Jahayan, district of Halu
+
+[P32] The herald of Palar Hyaṅ, saṅ Mañca, native of Sumuḍa, district of Ədəṅan
+
+[P33] The herald of Dalinan, saṅ Trisarana, native of …, district of Upit,
+
+[P34] The herald of Paṅkur, the Dədəlan (called) saṅ Adik, native of Ra Kadut, district of Ra Nyū,
+
+[P35] The herald of Hañaṅan, saṅ Nirmala, native of Maṅuluṅi, district of Maṅguluṅi,
+
+[P36] The herald of Tirip, saṅ Ṣtaṅgīl, native of (2r1) Mataram, at Kamaṇikan, district of Kahulunan.
+
+[P37] The herald of Mamrati, the Turuhan (called) hawaṅ Ananta, native of Kabanyāgān, at Galuh.
+
+[P38] The herald of Tilimpik, the Vka-vka, si Pavana, native of Vuga, district of Pəar were each given 1 yugala of coloured cloth, 1 māṣa of old.
+
+[P39] The Anurat (scribe) at Mamrati, the Kr̥p, saṅ Ludra, native of Mandahi, district of Mandahi,
+
+[P40] The Anurat at Tilimpik, the Patilaman, saṅ Khaṭvāṅga, native of Kahuripan, district of Pagar Vsi were (each) given 1yugala of coloured cloth, 1 māṣa of gold.
+
+[P41] The Vahuta at Mamrati, the Prih, si Godhā, native of Talaga, district of Mamrati,
+
+[P42] The Vahuta at Tilimpik, The Jukut Er, si Deva, native of VəR̥ḥnya, district of Tilimpik, were each given 1 yugala of coloured cloth, 2 māṣa of gold.
+
+[P43] The Pihujuṅ at Paṅkur, si Nanda, native of Lua, district of Lua,
+
+[P44] The Pihujuṅ at Tavān, the Lua Sukun, native of Lua, district of Tañjuṅ,
+
+[P45] The Pihujuṅ at Tirip, the Panavuṅan, native of Panavuṅan, district of Tirip, were each given 1 piece of coloured cloth, 1 māṣa of gold.
+
+[P46] The Vahuta of the Kahulunan (at) Dumliṅ Turuy, si Bikrama, native of Skar Amvay, domain of Tanar,
+
+[P47] The patih (at) Gilikan, si Muṇdi, father of Vagad,
+
+[P48] The patih (at) Tigaṅ Sugih, si Cakər, father of Ratha,
+
+[P49] The patih (at) Paṅgil, si Balikuh, were each give 1 yugala of coloured cloth, 1 māṣa of gold.
+
+[P50] All of their wives were each given 1 piece of garment.
+
+[P51] The herald of the patih at Gilikan, (called) Savahu, father of Duṅis,
+
+[P52] The herald of the patih at Tigaṅ Sugih, si Knoḥ, father of Vanayī,
+
+[P53] The herald of thee patih Paṅgil, si vəR̥̄, father of Taṣaḥ were each given 1 piece of coloured garment, 2 kupaṅ of gold.
+
+[P54] The māgman headmen at Kaśugihan, the Kalang (called) si Balavai, father of Ravi,
+
+[P55] The head of the village, si Jaluṅ, father of Gunu,
+
+[P56] The 6 gustis:
+
+[P57] si Padma, father of Vr̥l,
+
+[P58] si Raṅgel, father of Bukat,
+
+[P59] si Aṅgira, father of Lalati,
+
+[P60] si R̥ṣi, father of Pahiṅ,
+
+[P61] si Jambhala, father of Gayuk,
+
+[P62] The Vinkas, si Kpu, father of Gyak, were each given 1 yugala of coloured cloth, 1 māṣa of gold. All of their wives were each given 1 piece of garment.
+
+[P63] The Variga, si Paraṣi, father of Vugəl,
+
+[P64] The 2 herald si Bamana, father of Nek, si Bkyaḥ, father of Pacaṅ, were each given 1 yugala of coloured cloth, 6 kupaṅof gold. All their wives were each given 1 piece of garment.
+
+[P65] The regular headmen:
+
+[P66] si Taṅgul, father of Ḍulaṅ,
+
+[P67] si Narā, father of Gavul were each given 2 kupaṅ of gold.
+
+[P68] The Kalaṅ at Lintakan, si Kuñjar, father of Subhi,
+
+[P69] The 6 gustis: si Kayu Ara, father of Kpu, si Vgil, father of Varaṅan, siḥ Deva, si Bayatū, father of Cabur, the headmen of the village, si Mahi, father of Baśri, si Guvinda, father of Jo, were each given 1 yugala of coloured cloth, 1 māṣa of gold. All their wives were each given 1 piece of garment.
+
+[P70] The 2 heralds: si Śanti, father of Maṅiriṅ, si Lakṣana, father of Kamviṅ were each given 1 yugalaof Raṅga cloth, 2 kupaṅ of gold. All their wives were each given 1 piece of garment.
+
+[P71] The Variga, si Samvī, father of Ti, was given 1 piece of coloured cloth, 2 kupaṅ of gold and the Variga (who is) father of Kṣil, the Huler, si Java, father of Bari, The 4 head of VəR̥ḥ: si Gomanta, father of Pahəhan, si Vahu, father of Valuh, si Jaṅgi, si R̥gik, father of Buddhi,
+
+[P72] The Marhyaṅ at Ḍihyaṅ, si Bilut, father of Vajaṅ, the Marhyaṅ at Jamvu, si Candra, father of Vaḍi, the Marhyaṅ at Samaḍi, punta Unes, the Marhyaṅ at Putar, si Vavuat, father of Mañciṅ, the Tañjən of the Kalaṅ, si Tguh, father of Ṇdikan, the Raṇə: Apantil, si Pulakas, father of Baddha,The head of the headmen (rāma matuha), si Mahi, father of Limvaṅ, the regular headman, saṅ Kalyāna, father of Tapa, all were given 2 kupaṅ of gold per person.
+
+[P73] The Kalaṅ at Tunah, si Mvohok, father of Krānta,
+
+[P74] The 3 gustis, si Añjiṅ, father of Ndurukan, si L̥ga, father of Nandaka, si Pañjol, father of Baśu, the head of the village (tuha banua), si Sarvva, father of Prahana,
+
+[P75] The Vinkas, father of Gujil, father of Yovana, were each given 1 yugala of coloured cloth, 1 māṣa of gold. All their wives were each given 1 piece of garment.
+
+[P76] The 2 heralds: si Taraḥ, father of Mḍaṅ, (also the one who is) father of Ayī, were each given 1 yugala of coloured cloth, 2 kupaṅ of gold. All their wives were each given 1 piece of garment.
+
+[P77] The Variga, si Buru, father of Mundiki was given 1 sheet of coloured cloth, 2 kupaṅ of gold.
+
+[P78] The Pavah Variga, si Bāma, father of Uḍuḥ, The Huler, si Muk-muk, father of Ṇdokoh, The 2 head of the young man (tuha vəR̥ḥ): si Maṅalap, si Hunur
+
+[P79] The regular headmen: si Vada, grandfather of Vaṅi, si Mbəyəṅ, father of Kupu, were each given 2 kupaṅ of gold.
+
+[P80] The Kalaṅ at Vra, si Ges, father of Biniṅ, The 6 gustis: si Kvah, father of Kpu, si Vaṅah, si Garjita, si Pañjol, father of Caṅkak, the Tuha Banua, si Lakvan, father of kucyak, the Vinkas, si Palaku, were each given 1 yugala of coloured cloth, 1 māṣa of gold. All their wives were each given 1 piece of garment, 2 kupaṅ of gold.
+
+[P81] (3r1)The Variga, si Garu, father of Samvī, was given 1 sheet of coloured cloth, 2 kupaṅ of gold. si Luka, father of Ḍaha, was given 2 kupaṅ of gold.
+
+[P82] The neighboring headmen took part as the witness of the sīma demarcation there: The headman at Savyan, the Gusti, siAṅgu, father of GiL̥ḥ, the Kalaṅ, siNek, father of Dalihan, the herald si Lutiṅ, father of Dr̥ṅil, the headman at Luītan, the Kalaṅ, si Hiri, father of Datti, the 2 herald siKaṭū, father of Kuśala, si Dagū, father of Blyah,
+
+[P83] The Kalaṅ at Tigaṅ Sugih, si Suṅkul, father of Koḍo, the Gusti, si Kuriṅ, father of Balam, the herald si Kḍaṅan, the kalaṅ at Paraṅ, siBtah, father of Tarima, the Tuha Banua, siKantī, grandfather of Bhavita, the herald si Ḍataṅ, father of Barubuh, the Tuha Banua at Gilikan, si Kalamvuay, the 2 heralds: si Hrəṅ, father of Duṅas, si Knoh, father of Vanayī,
+
+[P84] The Kalaṅ at Kalavukan, si Gana, father of Darā, the Gusti, si Tarkha, father of Godhi, the herald siGlo; those are all the Kalaṅ, the Gusti, the Tuha Banua from the neighbouring village, (who) were each given 1 yugala of coloured cloth, 2 kupaṅ of gold. All of the heralds were given 1 piece of coloured cloth, 2 kupaṅ of gold.
+
+[P85] The headmen at Turu Maṅamvil who took part as the witness: si Varana, father of Bhuktī, the Kalaṅ, si Arta, father of Dhyāna were each given 1 yugala of coloured cloth, 2 kupaṅ of gold. All their wives were each given 1 piece of cloth.
+
+[P86] The herald si Padma, was given 1 piece of coloured cloth, 2 kupaṅ of gold.
+
+[P87] Then, the young boys and girls were given silver in atak and kupaṅ (and) iron according to their work.
+
+[P88] Those who perform the tapuk performance at the demarcation of the sīma: si ra hulu, father of Marisa, native of Paglutan, district of Tiru Ranu, si Marūm, father of Tarima, native of Kahutanan, district of mataran, si Pañjuṅan, father of Namvi, native of Maṅevəl, district of Aṅgul, si Pataṅhuran, native of Vəṅkal, district of Dalinan, si Balilu, native of Paniruan, district of Paṅgil Hyaṅ, si Bisana, native of Pakalaṅkyaṅan, district of Pagar Vsi, si Lamayuṅ, native of Vatu-vatu, district of Vatu-vatu, the Tapuk performers, 30 in total, including the youth, all together were given 1 dhāraṇa of silver. The dancers (tarimva), all of them were given 1 māṣa of silver. The water provider (pininaṅ mavuaya) at MaR̥buṅ and (the one) at Vuluṅ were given 8 māṣa of silver each village, and saṅ VīR̥h at Kaśugihan who took part as the Mavuay, was given 2 māṣa of silver. The summary of the tributary gifts and offerings is complete.
+
+[P89] They all presented themselves at the land of Tunah, which has just been made into sīma. At the taratag, they place themselves to eat, to drink, to wear perfume, to wear a paṅalih, to apply jənu, to wear flowers. The arrangement of it was: vegetables, 4 buffaloes, valued at 5 dhārana, 8 māsa each, 3 wild boars.
+
+[P90] (3r11) Those ordered by the King to face the prepared foods [? gaṅan] were saṅ Paku Vaṅi, pu Bañjua, native of Kaṇḍaṅ, district of Paku Vaṅi and saṅ Ra Taṅkil, pu Vuñjī, native of TəR̥nəḥ, district of Taṅkil. The kind of thing that was drunk was tuak, siddhu, and ciñca. At that time there were drums, tuwuṅ cymbals, rəgaṅ cymbals, brəkuks, gaṇḍis, lutes. All the preparations [for] the food and drink were completed by evening.
+
+[P91] At the sixth stroke (3r13) the vahuta of the sacred kudur stone stood up, wearing a jacket and a siṅh​​əl gown (1 yugala of cloth). He purified the sacred boundary stone that was placed below the vitāna facing west. All the judges approached. Situated north of the vitāna were the patihs and the village heads, the rarai and matuha, men and women. Situated south of the vitāna were the offerings:
+
+[P92] to the sacred boundary stone, 5 yugala of embellished cloth, 5 māsa of gold;
+
+[P93] to the holy Brahmā [fire], 1 yugala of embellished cloth, 1 māsa of gold,
+
+[P94] rice in a copper pot,
+
+[P95] one gold cooking pot 6 māsa [in weight],
+
+[P96] 50 pieces of scattered iron, various kinds of iron,
+
+[P97] axe,
+
+[P98] pickaxe,
+
+[P99] felling axe,
+
+[P100] chopping knife,
+
+[P101] punukan,
+
+[P102] pitchfork,
+
+[P103] kurumbhāgi,
+
+[P104] dagger,
+
+[P105] hoe (one of each),
+
+[P106] 5 crowbars,
+
+[P107] 1 spade
+
+[P108] various kinds of copper
+
+[P109] padyusan,
+
+[P110] a tray
+
+[P111] a copper kettle
+
+[P112] a dish of vegetables/prepared foods [saragi pagaṅan]
+
+[P113] beverage
+
+[P114] lamp-stand (one of each)
+
+[P115] 1 pouch
+
+[P116] 1 pada of uncooked rice
+
+[P117] 10 ikat of iron
+
+[P118] 10 buffalo head
+
+[P119] 1 kumol (of buffalo?)
+
+[P120] a rice offering in a pot
+
+[P121] offerings wrapped in silk [? papras pasalimar]
+
+[P122] help [? tuluṅ]
+
+[P123] a water offering [paArgha]
+
+[P124] an alternation of jewels [pasilih galuh]
+
+[P125] 5 black chickens
+
+[P126] 5 eggs
+
+[P127] The five requisites for the ceremony:
+
+[P128] white and yellow powder
+
+[P129] fragrant flower
+
+[P130] incense
+
+[P131] light
+
+[P132] boreh (jnu)
+
+[P133] Those are the kinds of offerings (for the ceremony).
+
+[P134] (3r17) The Lord Brahmā is attended to as a divine witness to the holy boundary stone. Thereupon, he [saṅ makudur] makes an obeisance and pūja to the God Brahmā, he set a curse upon the holy boundary stone.
+
+[P135] His words: “Hear ye, Lord Brahma, and the gods of the earth, the fire, the lightning, the wind, the sky, the north, the south, the west, the east, below, above, the gods of day and night, all the invisible deities, all you Lords who are the divine authorities,
+
+[P136] If ever there’s anyone who disturb the boundary stone, let them be killed by you. Your manner of killing them: you shall look behind, you shall look to the sides, strike them on the left side, and again on the right side, [so that] their snouts are struck, their heads are split, the bellies are torn out, their intestines are pulled loose, their insides are exposed, their livers are torn out, their flesh is eaten, their blood is drunk, and then they are finished, leaving behind [only] floating ashes. They are dropped into the mahārorava hell, swallowed up by the cauldron of Yama. They will suffer all kinds of pain.
+
+[P137] As long as the holy moon and sun shine upon the world, that is how long they will find suffering, themselves, their wives, their children, their grandchildren, their great-grandchildren, and their great-great-grandchildren.”
+
+[P138] Those were his words as he set the curse. Then he smashed the egg, slit the chicken’s throat. He said: “Hear ye, lords, just as the egg cannot return to its cage [? shell?], so the chicken cannot have its neck joined together again. That is what will become of people who disturb the demarcation of the kudur, their entire family will truly suffer.”
+
+[P139] Let the one who made the sīma be well and prosperous. Let it be!
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKLintakan#001 | 1r8 | 1 mas mā 8 tuhān I vadihati 2 mira-miraḥ pu sudanta Anak | **banuA** | I mira-miraḥ maṁraṅkapi saṁ lbur poḥ pu vikasita Anak banuA I ḍatar |
+| INSIDENKLintakan#002 | 1r8 | sudanta Anak banuA I mira-miraḥ maṁraṅkapi saṁ lbur poḥ pu vikasita Anak | **banuA** | I ḍatar vatak ḍatar tuhān I makudur 2 liṅo saṁ maṁhandul Anak |
+| INSIDENKLintakan#003 | 1r8 | I ḍatar vatak ḍatar tuhān I makudur 2 liṅo saṁ maṁhandul Anak | **banua** | I kinaliṁ kabini-hajyan maṁraṅkapi saṁ maṁlage Anak banuA I puluṁ vatak makudur |
+| INSIDENKLintakan#004 | 1r8 | liṅo saṁ maṁhandul Anak banua I kinaliṁ kabini-hajyan maṁraṅkapi saṁ maṁlage Anak | **banuA** | I puluṁ vatak makudur vahuta hyaṁ kudur lumaku manusuk I vadihati saṁ |
+| INSIDENKLintakan#005 | 1r8 | vatak makudur vahuta hyaṁ kudur lumaku manusuk I vadihati saṁ vada Anak | **banuA** | I sumbhāgi vatak paṁhr̥mban I makudur saṁ maṅantas Anak banuA I juruṅan |
+| INSIDENKLintakan#006 | 1r8 | vada Anak banuA I sumbhāgi vatak paṁhr̥mban I makudur saṁ maṅantas Anak | **banuA** | I juruṅan vatak pagar vsi vinehan vḍihan raṅga yu 1 mas mā |
+| INSIDENKLintakan#007 | 1r13 | mas mā 4 Iṁ sovaṁ-sovaṁ parujar I hino kaṇḍamuhi saṁ bhasura Anak | **banuA** | I vuṅkuḍu vatak kilipan parujar I halu visāga saṁ vidyānidhi Anak banuA |
+| INSIDENKLintakan#008 | 1r13 | banuA I vuṅkuḍu vatak kilipan parujar I halu visāga saṁ vidyānidhi Anak | **banuA** | I hilyan vatak padlagan Anurat I hino Iṁ paṅujaran vuṅkal varaṇi saṁ |
+| INSIDENKLintakan#009 | 1r13 | vatak padlagan Anurat I hino Iṁ paṅujaran vuṅkal varaṇi saṁ śuddha Anak | **banuA** | Iṁ kabikuAn Iṁ tamyaṁ Iṁ jantur parujar Iṁ sirikan hujuṁ galuḥ saṁ |
+| INSIDENKLintakan#010 | 1r13 | Iṁ tamyaṁ Iṁ jantur parujar Iṁ sirikan hujuṁ galuḥ saṁ tatva Anak | **banuA** | I srāṅan vatak srāṅan parujar I vka viridiḥ saṁ kĭrtidhara Anak vanuA |
+| INSIDENKLintakan#011 | 1r13 | banuA I srāṅan vatak srāṅan parujar I vka viridiḥ saṁ kĭrtidhara Anak | **vanuA** | I huntu vatək putad ḍaṇu parujar I tiruAn sumuḍan saṁ prājña Anak |
+| INSIDENKLintakan#012 | 1r13 | I huntu vatək putad ḍaṇu parujar I tiruAn sumuḍan saṁ prājña Anak | **vanuA** | Iṁ kabikuAn Iṁ siddhakāryya maṅasə I ḍihyaṁ pradeśani vuṅaṇ ḍaṇu parujar I |
+| INSIDENKLintakan#013 | 1r13 | maṅasə I ḍihyaṁ pradeśani vuṅaṇ ḍaṇu parujar I halaran saṅ adigama Anak | **banuA** | I jahayan vatək halu parujar I palar hyaṁ saṁ mañca Anak banuA |
+| INSIDENKLintakan#014 | 1r13 | banuA I jahayan vatək halu parujar I palar hyaṁ saṁ mañca Anak | **banuA** | I sumuḍaḥ vatak əḍəṅan parujar I dalīnan saṁ trisaraṇa Anak banuA I |
+| INSIDENKLintakan#015 | 1r13 | Anak banuA I sumuḍaḥ vatak əḍəṅan parujar I dalīnan saṁ trisaraṇa Anak | **banuA** | I muntaṁ vatak Upit parujar I paṅkur dədəlan saṅ adik Anak banuA |
+| INSIDENKLintakan#016 | 1r13 | banuA I muntaṁ vatak Upit parujar I paṅkur dədəlan saṅ adik Anak | **banuA** | I ra kadut vatak ra nyu parujar I hañaṅan Aluk saṁ nirmmala |
+| INSIDENKLintakan#017 | 1r13 | ra kadut vatak ra nyu parujar I hañaṅan Aluk saṁ nirmmala Anak | **banuA** | I maṅguluṅi vatak maṅguluṅi parujar I tirip saṁ ṣtaṅgīl Anak banuA I |
+| INSIDENKLintakan#018 | 1r13 | Anak banuA I maṅguluṅi vatak maṅguluṅi parujar I tirip saṁ ṣtaṅgīl Anak | **banuA** | I mataram Iṁ kamaṇikan vatak kahulunan parujar I mamrati turuhan havaṁ A◯nanta |
+| INSIDENKLintakan#019 | 2r1 | mataram Iṁ kamaṇikan vatak kahulunan parujar I mamrati turuhan havaṁ A◯nanta Anak | **banuA** | I ṁ kabanyāgān Iṅ galuḥ⟨ ⟩ parujar I tilimpik vka-vka si pavana |
+| INSIDENKLintakan#020 | 2r1 | ṁ kabanyāgān Iṅ galuḥ⟨ ⟩ parujar I tilimpik vka-vka si pavana Anak | **banuA** | I vuga vatak pəAr vinehan vḍihan raṅga yu 1 mas mā 1 |
+| INSIDENKLintakan#021 | 2r2 | mas mā 1 Iṁ sovaṁ-sovaṁ Anurat I mamrati kr̥p saṁ ludra Anak | **banuA** | I mandahi vatak mandahi Anurat I tilimpik patilaman saṁ khaṭvāṅga Anak banuA |
+| INSIDENKLintakan#022 | 2r3 | banuA I mandahi vatak mandahi Anurat I tilimpik patilaman saṁ khaṭvāṅga Anak | **banuA** | I kahuripan vatak pagar vsi vinehan vḍihan raṅga yu 1 mas mā |
+| INSIDENKLintakan#023 | 2r3 | mas mā 1 Iṁ sovaṁ-sovaṁ vahuta I mamrati priḥ si godhā Anak | **banuA** | I talaga vatak mamrati vahuta I tilimpik jukut er si deva Anak |
+| INSIDENKLintakan#024 | 2r4 | I talaga vatak mamrati vahuta I tilimpik jukut er si deva Anak | **banuA** | I vəR̥ḥnya vatak tilimpik vinehan vḍihan raṅga yu 1 mas mā 2 |
+| INSIDENKLintakan#025 | 2r4 | 1 mas mā 2 Iṁ sovaṁ-sovaṁ pihujuṁ I paṅkur si nanda Anak | **banuA** | I luA vatak luA pihujuṁ I tavān luA sukun Anak banuA I |
+| INSIDENKLintakan#026 | 2r4 | Anak banuA I luA vatak luA pihujuṁ I tavān luA sukun Anak | **banuA** | I luA vatak tañjuṁ pihujuṁ I tirip panavuṅan Anak banuA I panavuṅan |
+| INSIDENKLintakan#027 | 2r5 | sukun Anak banuA I luA vatak tañjuṁ pihujuṁ I tirip panavuṅan Anak | **banuA** | I panavuṅan vatak tirip vinehan vḍihan raṅga hle 1 mas mā 1 |
+| INSIDENKLintakan#028 | 2r5 | mas mā 1 I sovaṁ-sovaṁ vahuta kahulunan dumliṁ turuy si bikr̥ma Anak | **banuA** | I skar amvay punpunan I taṅar patiḥ gilikan si muṇdi ramani vagad |
+| INSIDENKLintakan#029 | 2r8 | Iṁ sovaṁ-sovaṁ rāma māgman I kasugihan kalaṁ si balavai ramani ravi tuha | **vanuA** | si jaluṁ ramani gunu gusti 6 si padma ramani vval si raṅgəl |
+| INSIDENKLintakan#030 | 2r10 | kpu si vgil ramani varaṅan si deva si bayatū ramani cabur tuha | **banuA** | si mahi ramani baśri vinkas si guvinda ramani jo vinehan vḍihan raṅga |
+| INSIDENKLintakan#031 | 2r16 | Añjiṁ ramani ndurukan si L̥ga ramani nandaka si pañjol ramani baśu tuha | **banuA** | si sarvva ramani prahana vinkas si gujil ramani yovana vinehan vḍihan raṅga |
+| INSIDENKLintakan#032 | 2r19 | kvaḥ ramani kpu si vaṅaḥ si garjita si pañjol ramani caṅkak tuha | **banuA** | si lakvan ramani kucyak vinkas si palaku vinehan vḍihan raṅga yu 1 |
+| INSIDENKLintakan#033 | 3r3 | balam parujar si kḍaṅan kalaṁ I paraṁ si btaḥ ramani tarima tuha | **banuA** | si kantī kaki bhavita parujar si ḍataṁ ramani barubuḥ tuha banuA I |
+| INSIDENKLintakan#034 | 3r3 | tuha banuA si kantī kaki bhavita parujar si ḍataṁ ramani barubuḥ tuha | **banuA** | I gilikan si kalamvuAy parujar 2 si hr̥ṁ ramani duṅas si knoḥ |
+| INSIDENKLintakan#035 | 3r4 | gusti si tarkha ramani godhi parujar si glo Ikanaṁ kalaṁ gusti tuha | **banuA** | kabaiḥ Iṁ tpi siriṁ vinehan vḍihan raṅga yu 1 mas ku 2 |
+| INSIDENKLintakan#036 | 3r7 | kāyānurūpa Atapukan milu rikanaṁ śuśukan sīma si ra hulu ramani maripa Anak | **banuA** | I paglutan vatak tiru ranu si marūm ramani tarima Anak vanuA I |
+| INSIDENKLintakan#037 | 3r7 | Anak banuA I paglutan vatak tiru ranu si marūm ramani tarima Anak | **vanuA** | I kahutanan vatak mataram si piñjuṅan ramani namvi Anak banuA I maṅəvəl |
+| INSIDENKLintakan#038 | 3r7 | tarima Anak vanuA I kahutanan vatak mataram si piñjuṅan ramani namvi Anak | **banuA** | I maṅəvəl vatak Aṅgul si pataṅhuran Anak banuA I vəṅkal vatak dalinan |
+| INSIDENKLintakan#039 | 3r7 | piñjuṅan ramani namvi Anak banuA I maṅəvəl vatak Aṅgul si pataṅhuran Anak | **banuA** | I vəṅkal vatak dalinan si balilu Anak banuA I paniruAn vatak paṅgil |
+| INSIDENKLintakan#040 | 3r7 | Aṅgul si pataṅhuran Anak banuA I vəṅkal vatak dalinan si balilu Anak | **banuA** | I paniruAn vatak paṅgil hyaṁ si bisama Anak banuA I pakalaṅkyaṅan vatak |
+| INSIDENKLintakan#041 | 3r7 | si balilu Anak banuA I paniruAn vatak paṅgil hyaṁ si bisama Anak | **banuA** | I pakalaṅkyaṅan vatak pagar vsi si lamayuṁ Anak banuA I vatu-vatu vatak |
+| INSIDENKLintakan#042 | 3r7 | si bisama Anak banuA I pakalaṅkyaṅan vatak pagar vsi si lamayuṁ Anak | **banuA** | I vatu-vatu vatak vatu-vatu piṇḍa Atapukan prāṇa 30 hop rarai vinehan pirak |
+| INSIDENKLintakan#043 | 3r10 | Anuṁ kinon mahārāja humaR̥pa Ikanaṁ gaṅan saṁ paku vaṅi pu bañjuA Anak | **banuA** | I kaṇḍaṁ vatak paku vaṅi muAṁ si ra taṅkil pu vuñjī Anak |
+| INSIDENKLintakan#044 | 3r10 | I kaṇḍaṁ vatak paku vaṅi muAṁ si ra taṅkil pu vuñjī Anak | **banuA** | I təR̥nəḥ vatak taṅkil luĪrnikanaṁ Ininum tuAk siddhu ciñca samaṅkanaṁ paḍahi tuvuṁ |

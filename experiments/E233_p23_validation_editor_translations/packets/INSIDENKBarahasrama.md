@@ -1,0 +1,53 @@
+# INSIDENKBarahasrama — Barahasrama (837 Śaka, 915-12-14)
+
+**Responsibility (TEI header):** EpiDoc Encoding Tyassanti Kusumo Dewanti Arlo Griffiths; intellectual authorship of edition Tyassanti Kusumo Dewanti Arlo Griffiths
+**Translation language:** eng
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1] (1v1–2) Hail! Elapsed Śaka year 837, month of Posya, the fifth tithi of the waxing moon, Hariyaṅ, Kalivuan, Thursday, lunar mansion Pūrvabhadrapada, deity Ajapāda, conjunction Variyān. That was the time of the decree of the Great King, rakarayān of Hino, (called) Śrī Dakṣottama-bāhubajra-pratipakṣa-kṣaya Śrī Mahottuṅgavijaya descended to the rakarayān of Halu, pu Ketuvijaya, the rakarayān of Sirikan, pu Suparṇa, the rakarayān of Vka, pu Hanumān‚ the rakarayān of Bavaṅ, pu Uttara, ordering with regard to the villages of Poh Galuh and of Er Kuviṅ‚ both [falling in] the district of Layaṅ
+
+[P2] (1v3–4) ...... the revenue of the village of Poh Galuh is 1 kāṭi of silver for each year, and additionally (hop) avur, səkar tahun, pjah lek [and] various arik-arik. The revenue of the village of Er Kuviṅ is 1 kāṭi of silver for each year .......... its forests, its non irrigated fields, its rivers, [whether] in the valley [or] on the hill‚ all that belongs to the land of the villages of Poh Galuh and of Er Kuviṅ, in short, it will enter [the resources of the] deity of the Varāha hermitage on (the bank of) the Sārayū in ...
+
+[P3] (1v5–7)........ haji‚ and may not be entered by the three dignitaries Paṅkur, Tavān [and] Tirip, the kriṅ‚ the paḍam apuy‚ the maniga‚ the lva‚ the malandaṅ‚ the maṅhūri‚ the makalaṅkaṅ‚ the pamaṇikan‚ the tapa haji, the air haji, the maṅrumvai, the head of smiths, the head of Nambis, the overseer of Hañjamans, the carpenters, the manimpiki‚ the goldsmiths, the coppersmiths‚ the ironsmiths‚ the eunuchs, the healers the paraṇakan‚ the singing actors‚ the head drummer‚ the sambal, the sumvul, the courtiers‚ the siṅgah, the pamr̥ṣi, the king’s servants, the mahouts, the ləbləb, and so forth — [they] should not enter the village of Poh Galuh and of Er Kuviṅ. Likewise all sorts of ‘pain and relief’ — the areca flower that doesn’t bear fruit‚ beating, bhaṇḍihāla, and so on.
+
+[P4] (1v8-9)......... the adopted children, should not change their income at the former times (muhun və̄ṅi)‚ unaffected by all kinds of [payments for] ‘pain and relief’. If the evil deed will not be imposed, (it’s) when the good deed is done..... the flower that feeds, the rope that intertwines. None of them all should be omitted by the adopted children (vka tūn) to the goddess. The function of the village of Poh Galuh and Er Kuviṅ, [they] will be an endowment that belongs to …
+
+[P5] (1v10-13)......... (they) should bring (it) to Galuh; should make six round woven baskets [and] six square woven baskets; should fill (them) with unwithered flowers and the water lily flower; should present (all of this) to the Great King once in a year. ..... the deity of the Varāha hermitage and bring pinned leaves, all different kinds of fruit, uncooked rice in four colors, 1 steaming basket, per color (vulu):in total there are four steaming baskets to be brought by them. and also..... all different kinds of fruit, uncooked rice in four colors should be brought by them to be offered to the Lordminister of Halu, pu Ketuvijaya, the rakryān of Sirikan (called) pu Suparṇa, the rakryān of Vka (called) pu Hānumān, the rakryān of Bavaṅ (called) pu Uttara ....... were given as gifts 8 māṣa of gold, 1 pairof kalyāga cloth, per person.
+
+[P6] (1v13-14) The maṅhūri (called) pu Udara‚ the halaran (called) pu Mañā, the palar hyaṅ (called) pu Khaṭvāṅga, the dalinan (called) pu Taṅgəlan, pa- ..... 1 pairof … cloth, per person. And all of the mamuat ujar‚ the kaṇḍamuhi (called) ḍapunta Vidyānidhi, the vatu varaṇi (called) pu Maṅhalaṅi, the visāga (called) pu Vīrya, the hujuṅ galuh (called) pu Kacat‚
+
+[P7] As for its meaning, Zoetmulder (1982: 1242) tentatively glosses it as “a (religious?) official (nomen loci?)”
+
+[P8] (1v15-16)......... the three dignitaries: of Paṅkur,Dədəlan; of Tavān,Tluk; of Tirip, Likuan‚ they were given as gift 4 māṣa of gold, 1 pairof raṅga cloth, per person. The rakryān of Layaṅ (called) pu ....... 1 pieceof kalyāga garment.
+
+[P9] The overseers of Layaṅ (were given) collectively 1 suvarṇa [and] 4 māṣa of gold, (as well as) 1 pairof raṅga cloth, per person. The vadihati (called) pu Ḍapit (was given) 4 māṣa of gold, 1 pairof raṅga cloth.
+
+[P10] (1v17-18)...... The overseer of makudur (called) saṅ Vavaha, who joined pu Gurun, all were given 4 māṣa of gold, 1 pairof raṅga cloth, per person.
+
+[P11] The patih of Layaṅ, [district of] Vuluṅ Katak (called) si Hu..... (called) si Caca, the vahuta of Pasar Anak (called) si Lucira, [the vahuta of] tətəbantən (called) si Kəvə, all were given 4 māṣa of gold, 1 pairof raṅga cloth, per person.
+
+[P12] (1v18-19) The tuṅgū duruṅ of the patih of Vuluṅ Katak ...... the vahuta of tətəbantən (called) si Giva, were given 2 māṣa of gold, 1 pairof raṅga cloth, per person.
+
+[P13] (1v19-20) The herald of the patih of Vuluṅ Katak (called) si Aja, the herald of the patih of Kayu Vaṅi (called) si Tə̄......, the assistant of the vahuta of Pasar Anak (called) si Śivā, at Pagər Sinurat, the assistant of the vahuta of tətəbantən at Rāṅu (called) si basanta, [the herald of the one] at Tutuṅ Kris (called) si Pavana, were given 1 māṣa of gold, 1 sheet of cloth
+
+[P14] (1v21)......... The mapkan at Tarijān (called) si Kini, were given 2 māṣa of gold [and] 1 pairof cloth, per person. The assistants (piluṅgah)of the vahuta of Hino (called) si Mahendra, si Jambah [and] si Bhoga were given 1 māṣa of gold, per person.
+
+[P15] (1v22-25)......... The headmen of the surrounding villages — of Kapuhunan, si Ajitā[ of Vatu Varak, si Śreṣṭhi; of Bavu Ara, si Basitā; of Pahiṅer, si Maṅi; of Parampuyan, si Butěṅ; of Limo Susu, si Surupuh,...... The headman of Maṅulihi (called) si Dadhi, the talahantan of Layaṅ (called) ḍapunta Kesarī, the headman of Layaṅ (called) pu Raṇyā, the chief (called) si Baladeva, the headman of Poh Galuh (called) kaki Lukī, the chief (called) kaki Lua, ...... si Datar, si Yoni; the heralds (called) si Ruṇḍu, si Alya; the varigas(called) si Dhana, si Busut; the headman of Er Kuviṅ (called) kaki Klo, the chief (called) kaki Kataṅgaran, the Master (called) kaki Ridhī, the overseer ....... the varigas(called) si Tinuan, (and) si Gala were given 1 pairof cloth, per person. The wives of the headmen, 6 in number, were given 1 pieceof garment, per person.
+
+[P16] Those ordered by the Great King to demarcate ….
+
+[P17] (1v26)........, per person. The official of Tiruan (called) saṅ Vruan [and] saṅ Mavaju Haji proceeding to demarcate the sīma; the (officials) of Vadihati (called) saṅ Ra Banər [and] pu Guvindī; the Makudurs (called) saṅ Pataləsan [and] pu Nala, were given … gold
+
+[P18] (1v27)......... sīma. Thereupon, the patih of Layaṅ and the vahutas, the three chiefs — the tamblaṅ pañjaṅ, the tuha tahil, the paṅuraṅ — and all of the headmen of the surrounding villages, senior [and junior]
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKBarahasrama#001 | 1v1 | sirikan pu suparṇna rakai vka pu hanumān rakai bavaṁ pūttara kumonnakan Ikanaṁ | **vanuA** | I poḥ galuḥ muAṁ ri Er kuviṁ kapuA vatak layaṁ paṅguhannikanaṁ vanuA |
+| INSIDENKBarahasrama#002 | 1v3 | vanuA I poḥ galuḥ muAṁ ri Er kuviṁ kapuA vatak layaṁ paṅguhannikanaṁ | **vanuA** | I poḥ galuḥ pirak kā 1 Iṁ satahun -satahun hop Avur skar |
+| INSIDENKBarahasrama#003 | 1v3 | Iṁ satahun -satahun hop Avur skar tahun pjaḥ lek Arik-arik prakāra paṅguhannikanaṁ | **vanuA** | ri Er kuviṁ pirak kā 1 Iṁ satahun -satahun Alas nya tgal |
+| INSIDENKBarahasrama#004 | 1v3 | Alas nya tgal nya luAḥnya riṁ lbak riṁ hunur sapinasuk ni lmaḥnikanaṁ | **vanuA** | I poḥ galuḥ mvaṁ ri Er kuviṁ kasaṁsiptā tumamā ri bhaṭāra riṁ |
+| INSIDENKBarahasrama#005 | 1v7 | I dalam siṅgaḥ pamr̥ṣi hulun haji mahaliman L̥bə-L̥b Ityaivamādi tan tumamā rikanaṁ | **vanuA** | ri poḥ galuḥ muAṁ ri Er kuviṁ samaṅkana saprakārani sukha-duḥkhanya kabaiḥ mayaṁ |
+| INSIDENKBarahasrama#006 | 1v9 | tali ket tan luptā Ikana kabaiḥ denikanaṁ vka tūn I bhaṭārī paknānikanaṁ | **vanuA** | I poḥ galuḥ muAṁ ri Er kuviṁ dmaka pun punana ṅatərakna mareṁ |

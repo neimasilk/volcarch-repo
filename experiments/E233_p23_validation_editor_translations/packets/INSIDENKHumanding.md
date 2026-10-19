@@ -1,0 +1,40 @@
+# INSIDENKHumanding — The Polengan plates: Humanding charter (797 Śaka)
+
+**Responsibility (TEI header):** EpiDoc Encoding Arlo Griffiths; intellectual authorship of edition Arlo Griffiths Mekhola Gomes
+**Translation language:** eng (not declared)
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1 | n=1r1-1r3] Hail! Elapsed Śaka year 797, month of Vaiśākha, second tithi of the waxing fortnight, Tuṅlai, Pon, Monday (i.e., on 11 April 875). That was when the Lord ra karayān of Sirikan, named pu Rakap demarcated a paddy field measuring 4 tampah at Humaṇḍiṅ, district vatak of Sirikan, as the sīma sīmā of the temple prāsāda at Gunuṅ Hyaṅ, the tract ləmah at Mamali, a bestowal from the Great King, Lord of rakai Kayu Vaṅi.
+
+[P2 | n=1r3-1r5] Those who were offered customary gifts pasak-pasak vyavastha for demarcating the sīma: the official of Vadihati named pu Managih received 1 ring of faith, weight 8 māṣas, 1 pair of vḍihan aṅsit; the 2 master tradesmen tuhān, the mirah-mirah named si Guvar and the sḍaṅ named si Vaḍag, received 2 rings of faith, weight 8 māṣas, 2 pairs of vḍihan aṅsit.
+
+[P3 | n=1r5-1r7] Those who were ordered to take part in demarcating the sīma: the kuvu named si Agama received 1 ring of faith, weight 4 māṣas, 1 pair of vḍihan aṅsit; the official of Makudur named pu Maṅiṇḍit received 1 ring of faith, weight 8 māṣas, 1 pair of vḍihan aṅsit; the 2 master tradesmen, the vatu valai named si Mnaṅ and the puluṅ named si Jakhara received 2 rings of faith, weight 8 māṣas, 2 pairs of vḍihan aṅsit.
+
+[P4 | n=1r7-1r8] Those who were ordered to take part in demarcating the sīma: the hambulu named si Tuhu subaudible 1 ring of faith, weight 4 māṣas, 1 pair of vḍihan aṅsit; the adjuror maṅhuyup received 1 māṣa of gold, 1 pair of vḍihan raṅga, 1 pair of siṅhəl.
+
+[P5 | n=1r8-1v1] The offerings on the kulumpaṅ stone: 4 māṣas of gold; 4 pairs of vḍihan raṅga; 1 axe; 1 woodman’s axe rimvas; 1 patuk-patuk pickaxe?; 1 kris; 1 lukai k. o. chopping knife; 4 tvak punukan k. o. stabbing tool; 1 laṇḍuk hoe; 4 liṅgis crowbars; 1 vaṅkyul hoe; 1 gulumi k. o. fork?; 1 kurumbhāgi k. o. iron tool; knife?; 1 nail-cutter; 1 needle; 1 platter; 1 buri k. o. vessel?; 1 padamaran lamp-stand?; 1 saragi pagaṅanan vegetable bowl; 1 kampil pouch.
+
+[P6 | n=1v1] The vahuta of Tirip Tañjuṅ named si Liviṅ received 2 māṣas of gold, 1 pair of vḍihan aṅsit.
+
+[P7 | n=1v1-1v4] Those who hold office in Humaṇḍiṅ: the kalaṅ named si Rava; the kalima named si Botoh; the 3 gustis named si Talavan, si Parasi and si Kusut; the commissionee named si Kahaga; the 3 heralds named si Bahud, si Mikar and si Puccha; the 2 water managers named si Tira and si Sḍək; the 2 varigas named si Maddhya and si Plī; the matamān named si Manū; the mapəkan named Kavit; the makajar named Vji; the forest manager named si Kuḍu; the 2 husked rice managers named si Śila and si Havaṅ — all were given 4 māṣas of gold, 1 pair of vḍihan aṅsit per person.
+
+[P8 | n=1v4-1v7] The wives of those who hold office: the kalaṅ wife named si Andalan; the kalima wife named si Pulut; the gusti wives named si Tili, si Gutam and si Hayu; the commissionee wive named si Kavit; the herald wives named si Parabha, si Pait and si Hli; the water manager wives named si Paḍaṅ and si ; the variga wives named si Mə̄l and si Gaḍuṅ; the matamān wive named si Ristī; the mapəkan wive named si Sadainya; the makajar wive named si Pakulān; the forest manager named si Vaṅi; the husked rice manager wives named si Gutam and si Rutuk — all were given 2 māṣas of gold, 1 pair of kain per person.
+
+[P9 | n=1v7-1v8] The regular headmen named si Mbulat, si Aṅgada, si Kabos, si Bantal, si Vruha, si Tuṅgū, si Matəaṅ, si Vundaṅ, si Dali, si Kva, si Nusuk, si Citra, si Glis, si Utus, si Rumpuṅ — all were given 1 pair of vḍihan raṅga per person.
+
+[P10 | n=1v8-1v9] The partaya named si Śila received 2 māṣas of gold, 1 pair of vḍihan aṅsit.
+
+[P11 | n=1v9-12r1] The vahuta of Sirikan Valiṅbiṅ named si Kukun received 4 māṣas of gold, 1 pair of vḍihan aṅsit. His wife named si Bukuṅ received 2 māṣas of gold, 1 piece of kain kalamvantan. Their assistant named si Aṅga received 1 pair of vḍihan raṅga. Also, the vahuta of Kulumpaṅ named si Dhanu received 1 pair of vḍihan aṅsit. Also, the vahuta of Palumutan named si Kbo received 1 pair of vḍihan aṅsit.
+
+[P12 | n=2r1-12r3] Representatives of the neighboring villages: from Guntur, the gusti named si Gajul; from Sraṅan, the gusti named si Vuniṅ; from Tumapal, the gusti named si Kaivala; from Puluṅ Kadaṅ, the gusti named kaki Kḍu; from Supit, the gusti named si Kaba; from Pakulun, the gusti named si Tulus; from Palalataṅan, the kalaṅ named si Vuru; from Tamvlaṅan, the gusti named si Rava; from Tuluṅ Molih, the gusti named si Bakal — all were given 1 pair of vḍihan raṅga per person.
+
+[P13 | n=2r3-2r4] The master drummer, the singer, the maḍāṅ k. o. cook, maṅəla k. o. cook, makariṅ k. o. cook, mūla ? — all were given 1 pair of vḍihan raṅga per person.
+
+[P14 | n=2r3-2r5] All master tradesmen who were ordered by the lord to attend the demarcation of the sīma: the ra punti named si Sayut; the hujuṅ galuh named si Hr̥dayaśiva; the paniṅgahan named si Tarka; the mataṇḍa named si Raṅkəp. The dharmasinta named Śivaprasāda wrote it.
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKHumanding#001 | 2r1 | Aṅsit yu 1 muvaḥ vahuta palumutan si kbo vḍihan Aṅsit yu 1 | **vanuA** | I tpi siriṁ Iṅ guntur gusti si gajul I sraṅan gusti si |

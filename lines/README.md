@@ -31,14 +31,14 @@ costs two files, not a migration.
 | **01** | [`01_spatial`](01_spatial/) | Where were the settlements, and can a model find them? | P2, ~~P17~~, ~~P11~~ | 78 | 🟡 WAITING — P2 in round-2 review at JCAA; P17 withdrawn 2026-10-02; P11 parked 2026-10-15 |
 | **02** | [`02_taphonomy`](02_taphonomy/) | Does volcanism actually destroy or hide the record? | P1, D2, ~~P7~~, ~~P3~~ | 47 | ⚠ carrying an unrepaired data defect |
 | **03** | [`03_paleoenv`](03_paleoenv/) | Can a paleo-environmental measurement *falsify* the thesis? | (E216 → VHA) | 3 | 🧊 blocked on palynologist co-author |
-| **04** | [`04_language_text`](04_language_text/) | What do language and texts preserve of the substrate? | P8, P9, ~~P5~~, P19, ~~P16~~ | 68 | 🟢 P8 R1 submitted 2026-10-15 (second review round); P5 parked 2026-10-15; E232 designed |
-| **05** | [`05_archival_nlp`](05_archival_nlp/) | What do colonial archives record, and can NLP extract it? | D1, P21 (+ HKI product) | 16 | 🔧 tooling done, pipeline unrun |
+| **04** | [`04_language_text`](04_language_text/) | What do language and texts preserve of the substrate? | P8, P9, ~~P5~~, P19, ~~P16~~ | 69 | 🟢 P8 R1 submitted 2026-10-15 (second review round); P5 parked 2026-10-15; E232 designed |
+| **05** | [`05_archival_nlp`](05_archival_nlp/) | What do colonial archives record, and can NLP extract it? | D1, P21 (+ HKI product) | 17 | 🔧 tooling done, pipeline unrun |
 | **06** | [`06_thesis`](06_thesis/) | The original question. Synthesis. | P0/MASTERPIECE, P18 | 30 | 🛑 **fallow — subtract-only** |
 | **07** | [`07_career`](07_career/) | PhD, funding, exposure, HKI. *Not a research line.* | — | 0 | ✅ exposure ledger **empty** (2026-08-11) |
 
 Strikethrough = discontinued or parked; the folder and its record stay.
-**All 224 local experiments are mapped** (E001–E232; 8 numbers never created: E021, E045–E047,
-E072, E077, E180, E212). Counts sum above 224 because 18 experiments serve two lines.
+**All 225 local experiments are mapped** (E001–E233; 8 numbers never created: E021, E045–E047,
+E072, E077, E180, E212). Counts sum above 225 because 19 experiments serve two lines.
 The population-evidence channel (E053 → 02+06, E203 → 06) was a separate repo 2026-06-10 → 2026-09
 and was **re-merged 2026-10-01**; see `docs/COMPANION_REPOS.md`.
 Authoritative per-line lists: `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry".

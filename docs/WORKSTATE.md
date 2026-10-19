@@ -13,7 +13,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 >   - **E130 FAILED (C075)**: label among the inputs; its "438 substrate words" are the 438 uncoded forms.
 >   - ADV-5 = GREY ZONE again; L4 "unsettled".
 >   - **P8 R1 as submitted uses none of it.**
-> - Ledger next **C076**; canary 224; next free **E233**. Handoff: `docs/HANDOFF_20261019.md`.
+> - Ledger next **C076**; canary 225; next free **E234**. Handoff: `docs/HANDOFF_20261019.md`.
 > - **Not committed** (with the 15 Oct beads addendum): waiting for the PI's word.
 >
 > **2026-10-15 (~10:08 WIB) — P8: revision R1 SUBMITTED to *Oceanic Linguistics* (OL-03-2026-11R1).**
@@ -173,7 +173,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
-**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 under review (P2) · 1 withdrawn (P17, 2026-10-02) · 224 experiments** (224 folder lokal, E001–E232; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan).
+**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 under review (P2) · 1 withdrawn (P17, 2026-10-02) · 225 experiments** (225 folder lokal, E001–E233; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan; +E233 validasi P23 terhadap terjemahan penyunting DHARMA, 19 Okt).
 **2026-10-02: all four ledger items done** (JCAA reply, VEGAN email, P17 withdrawal, Zenodo notice). Ledger is
 empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P8** (OL) — **decision 2026-10-05: accepted pending revisions** (ledger item 5).
 
@@ -219,7 +219,7 @@ P2/JCAA 9 Nov (YA) · K9 stop list (YA). Answers to be written there and here.
 **NEW 2026-10-02 — publication strategy after 7 rejections:** `docs/research_notes/STRATEGI_PUBLIKASI_20261002.md`
 (diagnosis: 10 submissions in 35 days, 6/7 rejections at the desk). **DECIDED same day (PI delegated):** SIG gates
 G13–G16 binding (WIP ≤2 in review / 1 drafting; rest ≥14 days; venue first + zero cost of any kind; PI's own prose);
-G10 human domain reader required for archaeology venues; domain co-author by default there; **Naskah A (P23, sīma
+G10 human domain reader required for archaeology venues *(since 2026-10-19: sought, never waited for — route S = sources + AI domain read + disclosure after 14 days)*; domain co-author by default there (invited, not waited for); **Naskah A (P23, sīma
 village toponyms) first**. G13 was full (P2, P8 in review) → no new submission until a decision arrives. **2026-10-05:** P8's
 decision arrived (conditional). Whether a manuscript in revision still occupies a G13 slot: **✅ yes, it counts (K4, 2026-10-15; SIG G13)**.
 

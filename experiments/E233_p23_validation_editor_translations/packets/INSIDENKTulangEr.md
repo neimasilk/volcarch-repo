@@ -1,0 +1,54 @@
+# INSIDENKTulangEr — Tulang Er III (914-12-30)
+
+**Responsibility (TEI header):** EpiDoc Encoding Tyassanti Kusumo Dewanti Arlo Griffiths; intellectual authorship of edition Tyassanti Kusumo Dewanti Arlo Griffiths
+**Translation language:** eng
+
+## Translation (verbatim from the DHARMA edition; paragraph number and line reference in [ ])
+
+[P1] (1r1-4) Happiness! Elapsed Śri Sañjaya year 198, month of Poṣya, elevent tithi of the waxing fortnight, Tuṅlai, Umanis, Friday, lunar mansion Kartikā, dahana-devatā, the twenty fourth of the yoga (śukla-yoga). That was the time that the grant of the Great King, the Lord of Hino, Śrī Dakṣottama bāhubajra-pratipaḳsa-ksaya Śrī Mahottuṅgavijayā Viṣṇumurti goes down ……. to the monastery at Tulaṅ Er, Tilimpik district.
+
+[P2] (1r4-5) Its cause why they were granted by the Great King is … The Great King arrived at Bulusan, after [passing through] the two forts. The headmen went over to make ready the water for bathing and ….
+
+[P3] (1r6) Likewise is their works as the Great King heading to the south. Pu Aya was asked with regard to things that will be granted for him without …
+
+[P4] (1r7) shall undertake the wet rice field. Their capabilities to provide the water for bathing in the south for the Great King…
+
+[P5] (1r8–9) … their kayā, Two units (alih viji) shall be reduced from them. Then, two tampah of kayā that will be entitled for them. Their words shall be approved by the Great King. Their token of reverences shall reduce of 2 prāṇa of kayā.
+
+[P6] (1r9–10) The headmen offer all form of confirmatory gifts that go downwards to the Great King, 10 dhāraṇa of silver ball and for the queen, dyah Buntir, śri prakasatasatya-brati…
+
+[P7] (1r11–13) They offer the confirmatory gifts to saṅ .. 1 kāti of silver ball, the tilimpik at that time was pu Ra Hula, native of Karamas…and they offer the confirmatory gifts to the officialof Baleṅ (called) ḍāṅ ācārya Praṇidhānasupāta, to the officialof Momah-umah ….to pu Ləbvira…, pu Burəl, all were given 1 dhāraṇa of silver ball for each.
+
+[P8] (1r14–1v1) …. were given 2 kāti of silver, 1 yugala of cloth,... pu Lmaḥ Jari was offered 1 dhāraṇa (of silver ball), … yugala of cloth. saṅ Tiru was given 1 dhārana (of silver ball), 1 yugala of cloth,
+
+[P9] (1v1–7) The overseers at Tilimpik at that time were the chief of nāyakas (who was) the official of Vuṅkal Antan, the chief of Lampuran (was) saṅ Bāma, native of Vrik-vrik, district of Vrik-vrik, the chief of the young troops (was) saṅ Kusuma, native of Karāmas, district of Aṅin-aṅin, the chief of the servant (was) saṅ Nāgara, native of Amvilan, district of Paku Vaṅi, the chief of Aṇḍakat (was) dyah Damok, native of Hayan Səma at Taṅkil Amvak, the ataṇḍa (was) saṅ Lituh, native of Karamas, district of Aṅin-aṅin, the abalun (was) saṅ Dmuṅ, native of Vuga, district of Tilimpik, the herald (was) saṅ Patuñjūnan, native of Palihatan, the freehold of Kalaṅ at Dahan, the amasaṅakan (called) saṅ Suthi, native of Tasik, native of Tilimpik district were offered 5 dhāraṇa of silver ball all together //
+
+[P10] (1v7-11) sań Anuṅgū was offered 8 māṣa (of silver ball), the kuluvar at that time were saṅ Tawuk and the kuṇḍival, and saṅ Jaṅga, saṅ Kulup, natives of Virəḥnya, district of Tilimpik. The jukut er (called) pu Taluaṅ, native of Virəḥnya, district of Tilimpik, tutugan taṇḍa, all were given 1 dhārana of silver ball for each. The headmen (who) received the grant of the Great King were the overseer of the Kalaṅ (called) pu Vater, father of Dhava (was given) 1 dhārana, the six gustis (were) pu Galunah, father of Basura, pu Gurun, father of Kpu, pu Nabandra, father of Tanah, pu Tula, father of Deva, pu Haryā, father of Samok, pu Dyu, father of Cadi //
+
+[P11] (1v11-12) The overseers of the village were pu Laṇḍayan, grandfather of Valā, pu Śunuṅ, father of Mantal, pu Kopos, father of Prāsan, pu Garagap, grandfather of Dhava, pu Basitā, father of Raṅga, pu Valan, father of Gama //
+
+[P12] (1v12–2r1) the two Vinkas were pu Piṅu, father of Turuvus, pu Ledhe Daira, father of Nuki // ….. Father of Parujaḥan, pu Vlu, father of Mada…
+
+[P13] (2r2-5) pu Manū, father of Leṅge Kuya… The two inspectors of forest were pu Uñju, father of (2×) pu Dhara, father of Jri. The two aṅanam were pu Sahāra, father of Amitā, pu Bitə, father Dharitā. The two heralds were pu Dman, father of Nurā, pu Devara, father of Valuh, the overseers of vərəh were pu Bakor, father of Bāma, pu Vina, father of Tambak, pu Su(1×)yā, father of Lakṣita, pu Miṅuh, father of Meḍer, pu Tavəl ..bāṇa, father of Ba(2×),
+
+[P14] (2r5–8) The Maratā headmen were pu Padma, father of Butik, pu Ratu, father of Mandhātā, pu Kjal, father of Somya, pu … father of Gədər, pu Vulət, father of (1×)li, pu Lamaśan, father of Duvat, pu Sahara, grandfather of.... pu Vara…, father of Buṅkah and the overseer of vərəh were pu Uñjo, father of Satīl ….pu Voḍe, father of… pu Sumpal, father of Kulup, pu Piṅul, father of Sraśī, pu Vait, father of Vayuh, pu Koṅoh, father of Muji. The devakarma was pu …ta Bhamine.
+
+[P15] (2r9-13) Of that many are the headmen who received the grant of the Great King. However, if there’s anyone who disturbs the charter in the future’s future, a misfortune shall arrive to them, if die, they shall go to the great punishment at saṅ Yamabala’s cauldron of hell, if in the island of Java all forms of great miserable do not exist, (it’s because) their forms are not the same and the wise men (who) do not accomplish the work, shall not be united with the fruit of their good effort. Therefore all the contents of the charter should be well taken care of, it serves as the fruit of the longevity of the Great King’s victory and long live saṅ hyaṅ dharmma. Who wrote the charter was the scribe of Koṅan (called) saṅ Yovana.
+
+## Occurrences to locate in the translation (edition text order)
+
+| occ_id | edition line | context before | NOUN | context after |
+|---|---|---|---|---|
+| INSIDENKTulangEr#001 | 1r11 | śrī parameśvari dyaḥ buntir śrī prakasatasatya-brati maṅasəĀk na- nya pagəḥ-pagəḥ ri saṁ | **vanuA** | pirak Uṇḍi kā 1 tilimpik rikāṁ kāla pu rahula Anak vanuA ri |
+| INSIDENKTulangEr#002 | 1r11 | saṁ vanuA pirak Uṇḍi kā 1 tilimpik rikāṁ kāla pu rahula Anak | **vanuA** | ri karamas līkta n muAṁ maṅasəĀknanya pagəḥ-pagəḥ I samgat baleṁ ḍāṅ ācāryya |
+| INSIDENKTulangEr#003 | 1v1 | divasa juru kanayakān saṁmgat vuṅkal antan juruni la- mpuran saṁ bāma Anak | **vanuA** | I vrik-vrik vatək vrik-vrik juruniṁ vadvā rare saṁ kusuma Anak vanuA I |
+| INSIDENKTulangEr#004 | 1v1 | Anak vanuA I vrik-vrik vatək vrik-vrik juruniṁ vadvā rare saṁ kusuma Anak | **vanuA** | I karāmas va- təkk aṅinn-aṅin juruniṁ kalula saṁ nāgara Anak vanuA Iy |
+| INSIDENKTulangEr#005 | 1v1 | Anak vanuA I karāmas va- təkk aṅinn-aṅin juruniṁ kalula saṁ nāgara Anak | **vanuA** | Iy amvilan vatik paku vaṅi juruniṁṅ aṇḍakat dyaḥ da- mok Anak vanuA |
+| INSIDENKTulangEr#006 | 1v1 | vanuA Iy amvilan vatik paku vaṅi juruniṁṅ aṇḍakat dyaḥ da- mok Anak | **vanuA** | I hayan səma I taṅkil amvak Ataṇḍa saṁ lituḥ Anak vanuA I |
+| INSIDENKTulangEr#007 | 1v1 | Anak vanuA I hayan səma I taṅkil amvak Ataṇḍa saṁ lituḥ Anak | **vanuA** | I karamas vatəkk aṅinn-aṅin Abalu- n saṁ dmuṁ Anak vanuA I vuga |
+| INSIDENKTulangEr#008 | 1v1 | lituḥ Anak vanuA I karamas vatəkk aṅinn-aṅin Abalu- n saṁ dmuṁ Anak | **vanuA** | I vuga vatik tilimpik parujar saṁ patuñjūṅan Anak vanuA I palihattan sima |
+| INSIDENKTulangEr#009 | 1v1 | saṁ dmuṁ Anak vanuA I vuga vatik tilimpik parujar saṁ patuñjūṅan Anak | **vanuA** | I palihattan sima kalaṁ ri ḍaha- n Amasaṁṅakan saṁ suthi Anak vanuA |
+| INSIDENKTulangEr#010 | 1v1 | vanuA I palihattan sima kalaṁ ri ḍaha- n Amasaṁṅakan saṁ suthi Anak | **vanuA** | I tasikk anak vatək tilimpik InasəAn pagə̣h-pagəḥ pirak U- ṇḍi dhā 5 |
+| INSIDENKTulangEr#011 | 1v8 | ikāṁ divasa saṁ tavuk muAṁ kuṇḍival muAṁ saṁ jaṅga saṁ kulup Anak | **vanuA** | I viR̥ḥnya vatik tilimpik jukut er pu taluAṁ Anak vanuA I viR̥ḥnya |
+| INSIDENKTulangEr#012 | 1v8 | kulup Anak vanuA I viR̥ḥnya vatik tilimpik jukut er pu taluAṁ Anak | **vanuA** | I viR̥ḥnya vatək tilimpik tutuganniṁ taṇḍa kapuA vinaiḥ pirak uṇḍi dhā 1 |
+| INSIDENKTulangEr#013 | 1v11 | tula rāmani deva pu haryyā rāmani samok pu dyu rāmani cadi tuha | **banuA** | pu laṇḍayan kaki valā pu śunuṁ rāmani mantal pu kopos rāmani prāsan |
