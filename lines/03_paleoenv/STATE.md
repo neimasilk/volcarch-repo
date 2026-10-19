@@ -67,6 +67,14 @@ ITB or UGM geology/geography contacts. **This is a PI action.**
 
 ## Inbox
 
+- **[BRIDGE ← orbit 2026-10-19] The expert gate on E216 may now have a no-expert route.** PI 19 Oct: "AI penuh =
+  fitur … kalau perlu ahli, pivot". SIG G10 now has a sources route (S). This line's rule 2 still calls a palynologist
+  co-author a hard requirement (G2/G10), and `SUBMISSION_CHECKLIST.md` says it "BLOCKS everything".
+  - **Not changed silently.** A design is needed first: which RPP/RSAP/threshold assumptions can be checked against
+    published values (the E233 pattern: measure against expert judgement already published), and what stays
+    unverifiable.
+  - Then the PI decides whether line rule 2 changes.
+  - The VEGAN follow-up (23 Oct) is unaffected.
 - E216's detection-power framing is the strongest available spine for
   [06_thesis](../06_thesis/) P0 (WS-B). Recorded there; not to be acted on from here.
 - `docs/research_notes/PHYTOLITH_VOLCANIC_PRESERVATION.md` and `LIANGAN_VALIDATION_CASE.md` belong to

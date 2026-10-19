@@ -11120,3 +11120,47 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
   - **P23** (validasi epigraf atas sampel — "core, not optional");
   - unpark **E226** (daftar Kusen/Resiyani atau ahli mengode I1 ≥ 30 desa);
   - default rekan penulis domain.
+
+## 2026-10-19 (lanjutan 2) — PI "lanjutkan": default dijalankan; G10 rute S; E233 validasi P23 tanpa ahli → PASS
+
+- **PI:** "lanjutkan", menjawab tawaran default (G10, P23, rekan penulis) dan commit/push.
+- **SIG G10 diubah.** Rute H (pembaca manusia) atau **rute S**: tabel klaim–sumber, bacaan AI sebagai ahli ranah untuk venue itu, pernyataan di naskah. Rute S diambil sesudah 14 hari tanpa pembaca. Catatan di `STRATEGI_PUBLIKASI_20261002.md` dan WORKSTATE.
+- **Rekan penulis/pembaca:** diundang, tidak ditunggu.
+- **Commit `71c6606`** (aturan + C074 + G10), lalu **`a5d8956` pra-registrasi E233**, keduanya di-push sebelum pembaca dijalankan.
+- **E233 — validasi P23 terhadap terjemahan penyunting DHARMA.**
+  - **Sumber acuan:**
+    - snapshot lokal yang sama dengan sumber frame;
+    - repo DHARMA terkini (commit `19d0d3f`, 25 Sep) dicek dan tidak menambah terjemahan;
+    - cakupan 30 prasasti, 216 kemunculan;
+    - penerjemah: Griffiths, Kusumo Dewanti, Sastrawan, Bastiawan, Gomes, Nastiti (Masahar), dan Stutterheim 1940 (Kurungan, Belanda).
+  - **Cara baca:**
+    - dua pembaca Sonnet, buta satu sama lain dan terhadap frame, hanya mentranskripsikan terjemahan;
+    - penjaga verbatim untuk kutipan dan nama.
+  - **Kesepakatan pembaca:** κ 0,977; 161 dari 161 nama sama. 2 baris diputuskan dari kutipan (R1 menulis tiga nama dalam satu sel).
+  - **Hasil:**
+    - κ frame vs penyunting 0,839 (n 199);
+    - galat nama ketat 9/168 = 5,4 % (Wilson 2,8–9,9 %); ambang ≤ 15 % dan κ ≥ 0,70 → **PASS**;
+    - subset acak-100 dalam cakupan (n 37): κ 1,0.
+  - **Galat:**
+    - 7 tempat ditempelkan ke kata benda generik atau penunjuk-maju, misalnya *kinon sumusuka ikanaṁ vanua: vuara kuṭi i X*; 3 di antaranya *hulu vanua* yang tafsirnya diperdebatkan;
+    - 2 batas;
+    - 2 terlewat.
+  - **37 beda ejaan** adalah normalisasi penyunting (*ṁ* → *ṅ* 24 baris), bukan galat.
+  - **Kepekaan (post hoc, keputusan tetap):** dua "batas" mekanis diklasifikasikan ulang menjadi ejaan; dihitung salah pun hasilnya 6,5 %. Kasus terburuk, 13 baris tak diterjemahkan dihitung salah semua: 12,2 %.
+  - **Representativitas:** kesepakatan pengode A–B 94,9 % di dalam vs 97,6 % di luar (p 0,097) → boleh diekstrapolasi menurut aturan.
+- **Penyimpangan:**
+  - satu pembaca menjalankan `git status` dan melihat nama berkas pembaca lain; ia menyatakan tidak membukanya;
+  - pembaca menulis skrip bantu di scratchpad.
+- **Batas yang dinyatakan:**
+  - acuan tidak independen dari edisi;
+  - kemungkinan kontaminasi data latih (DHARMA publik);
+  - subset tidak acak.
+- **Dua salah tulis di README sendiri, dibetulkan sebelum commit:**
+  - "6 dari 7 nama tempat nyata" seharusnya 4 dari 7;
+  - "pembaca R2 B berbeda 0 baris" seharusnya 2 baris.
+- **Gagal kecil:**
+  - jalur keluaran di prompt pertama rusak (`\v`, `\r` termakan heredoc); dibuat ulang dengan `os.path` sebelum agen jalan;
+  - korpus Sarkar 1971–72 (tahap 2 opsional) tidak tersedia terbuka.
+- **[BRIDGE → 03]** Gerbang "co-author palinolog — BLOCKS everything" di E216 adalah kandidat pola yang sama; perlu desain dulu, dan aturan line 03 no. 2 tidak diubah diam-diam.
+- **[BRIDGE → 04]** Tanda ⚠ "perlu linguis" di E228–E231: kandidat cek ke ACD/tata bahasa; tunggu, karena P8 sedang direview.
+- **Lainnya:** kanari **225**; nomor bebas **E234**; ledger berikutnya **C076**. Kandidat lain: syarat buka E226 (b).

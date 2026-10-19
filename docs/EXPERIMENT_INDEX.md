@@ -1,12 +1,12 @@
 # Experiment Index
 
-**Generated:** 2026-10-19 13:09
+**Generated:** 2026-10-19 13:18
 **Total:** 225 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 136
+- **SUCCESS:** 137
 - **UNKNOWN:** 34
 - **INFO NEG:** 16
 - **REVISIT:** 9
@@ -15,7 +15,6 @@
 - **INCONCLUSIVE:** 4
 - **PARTIAL:** 4
 - **SUPERSEDED:** 2
-- **PRE-REGISTERED (DESI:** 2
 - **QUEUED:** 1
 - **BLOCKED (needs E001 :** 1
 - **READY TO RUN:** 1
@@ -26,6 +25,7 @@
 - **SCOPING — Phase 0 (p:** 1
 - **Phase 0 — corpus sec:** 1
 - **PRE-REGISTERED (deci:** 1
+- **PRE-REGISTERED (DESI:** 1
 
 ## By Line of Inquiry
 
@@ -289,7 +289,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E230 | the digraph ("IPA") and length checks of P8, re-de | SUCCESS | 04_language_text |  | P8 |  |
 | E231 | what "coded" covers, how the six lists compare, an | SUCCESS | 04_language_text |  | P8 |  |
 | E232 | Affix-aware residue screen — Tolaki pilot (idea I- | PRE-REGISTERED (DESI | 04_language_text |  | P8 |  |
-| E233 | P23 validation against the editors' published tran | PRE-REGISTERED (DESI | 05_archival_nlp,04_language_text |  | P23 |  |
+| E233 | P23 validation against the editors' published tran | SUCCESS | 05_archival_nlp,04_language_text |  | P23 |  |
 
 ## Revisit Candidates
 

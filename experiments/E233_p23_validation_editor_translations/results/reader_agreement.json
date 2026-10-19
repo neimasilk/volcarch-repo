@@ -1,0 +1,42 @@
+{
+ "n": 216,
+ "guard_failures": {
+  "R1": 2,
+  "R2": 0
+ },
+ "guard_log": {
+  "R1": [
+   [
+    "INSIDENKDalinan#002",
+    "name not in quote"
+   ],
+   [
+    "INSIDENKDalinan#004",
+    "name not in quote"
+   ]
+  ],
+  "R2": []
+ },
+ "counts": {
+  "R1": {
+   "Y": 161,
+   "U": 19,
+   "N": 36
+  },
+  "R2": {
+   "Y": 163,
+   "N": 36,
+   "U": 17
+  }
+ },
+ "kappa_3cat_R1_R2": 0.977,
+ "agree_3cat": 0.991,
+ "both_Y": 161,
+ "both_Y_same_name": 161,
+ "n_disagreements": 2,
+ "reference_counts": {
+  "Y": 163,
+  "N": 36,
+  "U": 17
+ }
+}

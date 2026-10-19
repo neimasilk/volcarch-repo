@@ -275,6 +275,11 @@
 
 ## Inbox
 
+- **[BRIDGE ← 05, 2026-10-19] E233 (secondary line 04):** P23's village frame read against the DHARMA editors'
+  translations — κ 0.84, strict name error 5.4 %. Method lesson for this line: published expert readings (editions,
+  translations, dictionaries) can stand in for an expert reader, pre-registered.
+  - **Candidates:** the ⚠ "needs a historical linguist" flags in E228–E231 could be checked the same way (ACD, grammars).
+  - **Not now:** P8 R1 is in review and nothing is due.
 - **Jatim glass beads lead** (`docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md`): East Java glass
   beads 5th–8th c CE, npj Heritage Science 2024, Datong Northern Wei tomb → Java. It is
   durable-trace/selective-survival evidence of indigenous sophistication but **is not pre-400 CE** —

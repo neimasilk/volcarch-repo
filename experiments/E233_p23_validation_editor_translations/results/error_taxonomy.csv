@@ -1,0 +1,49 @@
+occ_id,category,reason
+INSIDENKBarahasrama#003,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKDalinan#003,generic_as_village,"Translator: 'ordered to demarcate the villages: there was a kuṭī at Dalinan'. The noun points forward to the villages named later (Vukajana, Tumpak, Vuru Təlu); Dalinan is where the kuṭī stood. The frame attached the kuṭī's place to the noun. Dalinan is a real place, but not a village named by this noun."
+INSIDENKHumanding#001,generic_as_village,"Edition 'vanuA i tpi siriṁ iṅ guntur'. Translator: 'Representatives of the neighboring villages: from Guntur, …'. The noun is the generic 'neighbouring villages'; Guntur is the first item of the list that follows. The name is a real village, but the frame attached it to the generic noun."
+INSIDENKKiringan#005,spelling,"The M2 rule calls this 'boundary' only because the keyed token sets nest ({kavun, kavum} ⊃ {kavun}). Edition kavuṅ-kavuṁ, translator Kavuṅ-kavuṅ: same reduplicated word, same extent; the final anusvāra is normalised. Reclassified by the orchestrator (see README; the decision is also given with the mechanical class)."
+INSIDENKKurungan#001,spelling,Dutch translation (Stutterheim 1940) writes ng for ṅ: Parhyangan = parhyaṅan.
+INSIDENKKurungan#002,spelling,Dutch translation writes w and ng: Kawangyan = kavaṅyan.
+INSIDENKKurungan#004,spelling,Dutch translation writes one word with w and ng: Wurutunggal = vuru tuṅgal.
+INSIDENKLintakan#003,boundary,Edition 'I kinaliṁ kabini-hajyan'. Translator: 'native of Kinaliṅ Kabini-hajyan'. The translator reads two words as the name; the frame stopped after kinaliṁ (too short).
+INSIDENKLintakan#004,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKLintakan#009,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKLintakan#012,missed_village,Frame '?' with the name siddhakāryya; translator: 'native of the monastery called Siddhakārya'. The translator gives the place a name. The frame's name was right (spelling kāryya/kārya) but its code was uncertain.
+INSIDENKLintakan#014,spelling,"The M2 rule calls this 'boundary' only because 'sumuda' is a prefix of 'sumudah'. Edition sumuḍaḥ, translator Sumuḍa: the translator drops the final visarga; same word, same extent. Reclassified by the orchestrator (see README)."
+INSIDENKLintakan#017,spelling,Edition 'maṅguluṅi vatak maṅguluṅi'. The translator spells the village Maṅuluṅi and the district Maṅguluṅi. The frame follows the edition; same word.
+INSIDENKLintakan#038,spelling,"Edition maṅəvəl, translator Maṅevəl: ə/e; same word."
+INSIDENKLintakan#043,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSangsang#002,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSangsang#003,generic_as_village,Same formula as Dalinan#003: 'ordered to demarcate the village: there was a kuṭī at Hujuṅ Galuh'. The village demarcated is Saṅsaṅ (#004); Hujuṅ Galuh is the kuṭī's place. The frame attached the wrong place to the noun.
+INSIDENKSangsang#004,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSindoro-PuBahut#004,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSindoro-PuBahut#005,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSindoro-PuBahut#008,spelling,"Edition karumvyan, translator Karumbyan: v/b alternation; same word."
+INSIDENKSindoro-PuBahut#010,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSindoro-PuMamruk#001,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKSumundul#002,spelling,"Edition parhyaṁṅan, translator Parhyaṅan: ṁṅ written double in the edition; same word."
+INSIDENKTajiGunung#005,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKTajiGunung#007,spelling,"Edition 'kahaṅat tan' (split), frame kahaṅattan, translator Kahaṅatan: gemination across the split; same word."
+INSIDENKTajiGunung#010,generic_as_village,"Translator: 'native of the village upstream of the monastery of Taṅkilan, district Taṅkilan'. The village is described, not named; Taṅkilan names the monastery and the district. The frame took Taṅkilan as the village's name."
+INSIDENKTajiGunung#016,spelling,"Edition 'vuAtan n əmmas', translator 'Vuatan Mas'. Same name: the frame kept the edition's sandhi form (nəmmas), as the codebook asks ('as it appears'), and the translator normalised it to Mas. Not a different word, but a user matching names would need the normalised form."
+INSIDENKTajiGunung#018,generic_as_village,"Translator: 'native of the upstream village' (lower case, a description). The frame read 'hulu vanua' as a name. Other DHARMA translators write 'Hulu Vanua' as a name (WanuaTengahIII P54; Sindoro-PuBahut), so this is a contested reading, but this translator's reading is clear and is counted against the frame."
+INSIDENKTajiGunung#019,generic_as_village,"The second 'vanuA' is the noun inside the phrase 'hulu vanuA' of #018, which the translator renders 'the upstream village'. The frame coded it as a further mention of a village named 'hulu vanua'. Counted against the frame."
+INSIDENKTajiGunung#021,spelling,"Edition vuattan śrĭ, translator Vuatan Śri: gemination and vowel length; same name."
+INSIDENKTajiGunung#026,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKTajiGunung#027,generic_as_village,Translator: 'the kalaṅ of the upstream village' (description). Same contested reading as #018; counted against the frame.
+INSIDENKTajiGunung#029,spelling,"Edition vuAttan śrī, translator Vuatan Śri: same name."
+INSIDENKTajiGunung#030,spelling,"Edition taji gunuṁ, translator Taji Gunung (ng): same name."
+INSIDENKTajiGunung#031,spelling,"Edition vuAttan śrĭ, translator Vuatan Ṡri (sic, dotted S in the translation): same name."
+INSIDENKTihang#001,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart) (the translator writes Tihang with ng in some sentences)"
+INSIDENKTihang#002,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart) (the translator writes Tihang with ng in some sentences)"
+INSIDENKTihang#003,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart) (the translator writes Tihang with ng in some sentences)"
+INSIDENKTihang#004,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart) (the translator writes Tihang with ng in some sentences)"
+INSIDENKTihang#005,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart) (the translator writes Tihang with ng in some sentences)"
+INSIDENKTulangEr#009,spelling,"Edition palihattan, translator Palihatan: gemination; same word."
+INSIDENKTulangEr#010,boundary,"Edition 'I tasikk anak vatək tilimpik'. Translator: 'native of Tasik, native of Tilimpik district'. The frame's name 'tasikk anak' wrongly includes the next word anak ('native')."
+INSIDENKWanuaTengahIII#004,missed_village,"Edition 'patiḥ i pikatan saṁ vanuA tṅaḥ pu culiṁ'. Translator: 'the minister of Pikatan from Vanua Tṅah, Pu Culiṅ'. The noun is part of the place name Vanua Tṅah (the charter's own village). The frame coded N, presumably reading 'saṁ vanua tṅaḥ' as a title."
+INSIDENKWanuaTengahIII#021,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKWuruTunggal#003,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"
+INSIDENKWuruTunggal#004,spelling,"Edition valeṁ, translator Valaiṅ: e/ai and ṁ/ṅ; same word."
+INSIDENKWuruduKidul#003,spelling,"same word; the edition writes final/medial anusvāra ṁ, the translator normalises it to ṅ (E226 key keeps m vs n apart)"

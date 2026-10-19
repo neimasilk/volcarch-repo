@@ -1,0 +1,62 @@
+{
+ "M1": {
+  "n": 199,
+  "n_U_excluded": 17,
+  "kappa_Y": 0.839,
+  "agree_Y": 0.955,
+  "frameY_refY": 161,
+  "frameY_refN": 7,
+  "frameNotY_refY": 2,
+  "frameNotY_refN": 29
+ },
+ "M1_random100_subset": {
+  "n": 37,
+  "n_U_excluded": 3,
+  "kappa_Y": 1.0,
+  "agree_Y": 1.0,
+  "frameY_refY": 31,
+  "frameY_refN": 0,
+  "frameNotY_refY": 0,
+  "frameNotY_refN": 6
+ },
+ "M2": {
+  "exact": 122,
+  "other": 36,
+  "boundary": 3,
+  "n_both_Y": 161
+ },
+ "n_disagreements": 48,
+ "representativeness": {
+  "in_agree": 205,
+  "in_disagree": 11,
+  "out_agree": 370,
+  "out_disagree": 9,
+  "in_rate": 0.9491,
+  "out_rate": 0.9763,
+  "fisher_p": 0.0972,
+  "extrapolable": true
+ },
+ "M3": {
+  "spelling": 37,
+  "generic_as_village": 7,
+  "boundary": 2,
+  "missed_village": 2
+ },
+ "M4": {
+  "n_frame_Y": 168,
+  "strict_wrong": 9,
+  "strict_share": 0.0536,
+  "strict_wilson95": [
+   0.0284,
+   0.0987
+  ],
+  "lenient_wrong": 7,
+  "lenient_share": 0.0417,
+  "lenient_wilson95": [
+   0.0203,
+   0.0835
+  ]
+ },
+ "decision": "PASS",
+ "decision_rule": "FAIL if kappa_Y < 0.70 or strict M4 share > 0.15 (DESIGN §5)"
+}

@@ -20,8 +20,8 @@ claim about settlement history or volcanism.
   sets or text corpora" and "standalone data sets" → the case-study framing above is required, not optional.
   Acceptance is low and falling (18% 2023 → 15% 2024 → ~7% 2025, pending). 0 of 210 DHQ items 2023–26 treat
   Southeast Asian or Indic epigraphy (novelty, but also no ready reviewers). Next realistic deadline 2027-01-15.
-- **Before drafting the full text:** the human validation result (`validation/PROTOCOL.md`); then a short
-  pre-submission inquiry to dhqinfo@digitalhumanities.org (G15).
+- **Before drafting the full text:** the validation result (✅ E233, 2026-10-19); then a short
+  pre-submission inquiry to dhqinfo@digitalhumanities.org (G15; draft by Claude, sent by the PI).
 - **Backup: JDMDH** — diamond (no author fees), welcomes short dataset/tool articles (genre fit), but not
   Scopus/WoS and slow (median ≈ 313 days to acceptance). Choose it if the DHQ inquiry is negative or if the
   validation turns the paper into a pure method lesson.
@@ -45,6 +45,13 @@ claim about settlement history or volcanism.
    **Pivot 2026-10-19 (PI: an expert is never a blocker):** the reference is the editors' published translations of
    the same editions (30 inscriptions, 216 occurrences) → **E233** (`experiments/E233_p23_validation_editor_translations/`;
    metrics and thresholds of `validation/PROTOCOL.md` unchanged). An epigrapher's coding, if it comes, is a bonus.
+   **✅ Done 2026-10-19: PASS.** κ 0.84 (frame vs the editors' reading, n = 199); strict name error 5.4 % (95 % CI
+   2.8–9.9 %; worst case 12.2 %). Errors are formula-level: a place attached to a generic or forward-pointing noun (7,
+   3 of them the contested *hulu vanua*), boundary 2, missed 2. Spelling differences (37) are the editors' normalisation
+   (*ṁ* → *ṅ*). Details: `experiments/E233_p23_validation_editor_translations/README.md`.
+   **Follow-ups for the dataset (Claude):** (a) a normalised-name column beside the edition form; (b) correct the 9
+   known rows and re-check the frame for the *kinon sumusuka ikanaṁ vanua:* formula, generic plurals before a list, and
+   *saṁ vanua X*; (c) the paper's appendix table from `e233_metrics.json`.
 2. Reader/co-author answer (G10). **Asked 2026-10-02 13:55:** Dr Titi Surti Nastiti (BRIN, epigraphy;
    tsnastiti@yahoo.com, address from her *Kalpataru* article). Text:
    `docs/correspondence/EMAIL_NASTITI_P23_READER_SENT_20261002.txt`. Reserve: Arlo Griffiths (DHARMA).

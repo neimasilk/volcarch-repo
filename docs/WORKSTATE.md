@@ -3,6 +3,23 @@
 **Updated:** 2026-10-19 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> **2026-10-19 (later) — PI: "AI penuh = fitur, bukan bug … kalau perlu ahli, pivot"; then "lanjutkan" on the defaults:**
+> - **Rule** in CLAUDE.md/AGENTS.md "When Unsure": check sources yourself; pivot when a human judge is truly needed;
+>   disclose AI use.
+> - **SIG G10:** route H (human) or **route S** (sources table + AI domain read + statement), taken after 14 days without a
+>   reader.
+> - **Co-authors and readers** are invited, never waited for.
+> - **C074 domain flags** closed from the ACD and Adelaar 1995.
+> - **P23 validated without an epigrapher — E233 PASS.** Frame vs the DHARMA editors' published translations
+>   (30 inscriptions, 216 occurrences): κ 0.84; strict name error 5.4 % (CI 2.8–9.9 %). P23's remaining blockers are the
+>   PI's prose (G16) and G13.
+> - **Candidates for the same treatment:**
+>   - E216's "palynologist co-author — BLOCKS everything" (line 03);
+>   - the ⚠ "needs a historical linguist" flags in E228–E231 (P8 is in review; nothing due);
+>   - E226's unpark condition (b) ("a domain expert codes I1").
+>   - Each needs a design; none is started.
+> - Canary **225**; next free **E234**; ledger next **C076**.
+>
 > **2026-10-19 — orbit session ("lanjutkan yg perlu dilanjutkan"):**
 > - **Mailbox:** only the journal's receipt of P8 R1 (17 Oct; received 16 Oct). Nothing from Nastiti, VEGAN, JCAA or
 >   arXiv, so the 23 Oct follow-ups stand (drafts ready; check the mailbox again first).

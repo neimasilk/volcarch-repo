@@ -1,0 +1,113 @@
+occ_id,ref_code,ref_name,quote,note
+INSIDENKLintakan#001,Y,Mira-miraḥ,native of Mira-miraḥ,
+INSIDENKLintakan#002,Y,Ḍatar,"native of Ḍatar, district of Ḍatar",
+INSIDENKLintakan#003,Y,Kinaliṅ Kabini-hajyan,native of Kinaliṅ Kabini-hajyan,
+INSIDENKLintakan#004,Y,Puluṅ,"native of Puluṅ, district of Makudur",
+INSIDENKLintakan#005,Y,Sumbhāgi,"native of Sumbhāgi, district of Paṁhrəmban",
+INSIDENKLintakan#006,Y,Juruṅan,"native of Juruṅan, district of Pagar Vsi",
+INSIDENKLintakan#007,Y,Vuṅkudu,"native of Vuṅkudu, district of Kilipan",
+INSIDENKLintakan#008,Y,Hilyan,"native of Hilyan, district of Padlagan",
+INSIDENKLintakan#009,Y,Tamyaṅ,"native of the monastery (kabikuan) at/called Tamyaṅ, at Jantur","monastery at/called Tamyaṅ, at Jantur; a second name Jantur also given"
+INSIDENKLintakan#010,U,,"The herald of Vəka Viridiḥ, saṅ Kīrtidhara","herald of Sirikan/Hujuṅ Galuh (saṅ Tatva, native of Sraṅan, district Sraṅan) is skipped in the translation"
+INSIDENKLintakan#011,Y,Huntu,"native of Huntu, district of Putad Ḍaṇu",
+INSIDENKLintakan#012,Y,Siddhakārya,"native of the monastery called Siddhakārya who makes offerings to Ḍihyaṅ, district of Vuṅaṇ Ḍaṇu",monastery name
+INSIDENKLintakan#013,Y,Jahayan,"native of Jahayan, district of Halu",
+INSIDENKLintakan#014,Y,Sumuḍa,"native of Sumuḍa, district of Ədəṅan",
+INSIDENKLintakan#015,U,,"native of …, district of Upit,",place name rendered as a lacuna (…); only the district Upit is given
+INSIDENKLintakan#016,Y,Ra Kadut,"native of Ra Kadut, district of Ra Nyū",
+INSIDENKLintakan#017,Y,Maṅuluṅi,"native of Maṅuluṅi, district of Maṅguluṅi",translation spells the village Maṅuluṅi and the district Maṅguluṅi
+INSIDENKLintakan#018,Y,Mataram,"native of (2r1) Mataram, at Kamaṇikan, district of Kahulunan","Mataram, at Kamaṇikan"
+INSIDENKLintakan#019,Y,Kabanyāgān,"native of Kabanyāgān, at Galuh",
+INSIDENKLintakan#020,Y,Vuga,"native of Vuga, district of Pəar",
+INSIDENKLintakan#021,Y,Mandahi,"native of Mandahi, district of Mandahi",
+INSIDENKLintakan#022,Y,Kahuripan,"native of Kahuripan, district of Pagar Vsi",
+INSIDENKLintakan#023,Y,Talaga,"native of Talaga, district of Mamrati",
+INSIDENKLintakan#024,Y,VəR̥ḥnya,"native of VəR̥ḥnya, district of Tilimpik",
+INSIDENKLintakan#025,Y,Lua,"native of Lua, district of Lua",
+INSIDENKLintakan#026,Y,Lua,"native of Lua, district of Tañjuṅ",
+INSIDENKLintakan#027,Y,Panavuṅan,"native of Panavuṅan, district of Tirip",
+INSIDENKLintakan#028,Y,Skar Amvay,"native of Skar Amvay, domain of Tanar",
+INSIDENKLintakan#029,N,,"The head of the village, si Jaluṅ, father of Gunu","tuha banua rendered as an office, no place name"
+INSIDENKLintakan#030,N,,"the headmen of the village, si Mahi, father of Baśri","office, no place name"
+INSIDENKLintakan#031,N,,"the head of the village (tuha banua), si Sarvva, father of Prahana","office, no place name"
+INSIDENKLintakan#032,N,,"the Tuha Banua, si Lakvan, father of kucyak","office, no place name"
+INSIDENKLintakan#033,N,,"the Tuha Banua, siKantī, grandfather of Bhavita","office, no place name"
+INSIDENKLintakan#034,Y,Gilikan,the Tuha Banua at Gilikan,office of Tuha Banua tied to Gilikan (a place already named elsewhere in the text)
+INSIDENKLintakan#035,N,,the Tuha Banua from the neighbouring village,unnamed neighbouring village
+INSIDENKLintakan#036,Y,Paglutan,"native of Paglutan, district of Tiru Ranu",
+INSIDENKLintakan#037,Y,Kahutanan,"native of Kahutanan, district of mataran",
+INSIDENKLintakan#038,Y,Maṅevəl,"native of Maṅevəl, district of Aṅgul",
+INSIDENKLintakan#039,Y,Vəṅkal,"native of Vəṅkal, district of Dalinan",
+INSIDENKLintakan#040,Y,Paniruan,"native of Paniruan, district of Paṅgil Hyaṅ",
+INSIDENKLintakan#041,Y,Pakalaṅkyaṅan,"native of Pakalaṅkyaṅan, district of Pagar Vsi",
+INSIDENKLintakan#042,Y,Vatu-vatu,"native of Vatu-vatu, district of Vatu-vatu",
+INSIDENKLintakan#043,Y,Kaṇḍaṅ,"native of Kaṇḍaṅ, district of Paku Vaṅi",
+INSIDENKLintakan#044,Y,TəR̥nəḥ,"native of TəR̥nəḥ, district of Taṅkil",
+INSIDENKKiringan#001,Y,Vuga,"native of Vuga, district of Pəar",
+INSIDENKKiringan#002,Y,Kiriṅan,gave a grant to the village of Kiriṅan,
+INSIDENKKiringan#003,Y,Kiriṅan,Because the village of Kiriṅan is the house of the honorable vahuta hyaṅ,
+INSIDENKKiringan#004,Y,Joho,"saṅ Raghu, native of Joho",
+INSIDENKKiringan#005,Y,Kavuṅ-kavuṅ,"native of Kavuṅ-kavuṅ, district of Vatu Humalaṅ",
+INSIDENKKiringan#006,Y,Vulakan,"native of Vulakan, district of Taṅkilan",
+INSIDENKKiringan#007,U,,"district of Lampyar, accompanied by saṅ Maṅuṇḍuh",first Bākul (written bāku-l across a line break) is not rendered; the translation resumes at 'district of Lampyar'
+INSIDENKKiringan#008,Y,Bākul,"native of Bākul, district of Lampyar",
+INSIDENKKiringan#009,Y,Lāḍahu,"native of Lāḍahu, district of",
+INSIDENKKiringan#010,Y,Paṇḍamuan,"native of Paṇḍamuan, district of Vadihati",
+INSIDENKKiringan#011,Y,Siṇaguha,"native of Siṇaguha, district of Siṇaguha",
+INSIDENKKiringan#012,U,,Because the village of Kiriṅan is the house of the honorable vahuta hyaṅ,edition line 1v is not translated (translation covers 1r1-1r14 only); the text parallels 1r5
+INSIDENKKiringan#013,U,,"the village of Taṅgalan, district of Dalinan, accompanied by saṅ Raghu",edition line 1v is not translated (translation covers 1r only); parallels 1r5-1r6
+INSIDENKKiringan#014,U,,"saṅ Raghu, native of Joho",edition line 1v is not translated (translation covers 1r only); parallels 1r6
+INSIDENKKiringan#015,U,,"native of Kavuṅ-kavuṅ, district of Vatu Humalaṅ",edition line 1v is not translated (translation covers 1r only); parallels 1r7
+INSIDENKTulangEr#001,U,,They offer the confirmatory gifts to saṅ .. 1 kāti of silver ball,"'saṅ vanua' is rendered as 'saṅ ..' (gap), no title or place given"
+INSIDENKTulangEr#002,Y,Karamas,"pu Ra Hula, native of Karamas",
+INSIDENKTulangEr#003,Y,Vrik-vrik,"native of Vrik-vrik, district of Vrik-vrik",
+INSIDENKTulangEr#004,Y,Karāmas,"native of Karāmas, district of Aṅin-aṅin",
+INSIDENKTulangEr#005,Y,Amvilan,"native of Amvilan, district of Paku Vaṅi",
+INSIDENKTulangEr#006,Y,Hayan Səma,native of Hayan Səma at Taṅkil Amvak,
+INSIDENKTulangEr#007,Y,Karamas,"saṅ Lituh, native of Karamas, district of Aṅin-aṅin",
+INSIDENKTulangEr#008,Y,Vuga,"native of Vuga, district of Tilimpik",
+INSIDENKTulangEr#009,Y,Palihatan,"native of Palihatan, the freehold of Kalaṅ at Dahan",
+INSIDENKTulangEr#010,Y,Tasik,"native of Tasik, native of Tilimpik district",
+INSIDENKTulangEr#011,Y,Virəḥnya,"natives of Virəḥnya, district of Tilimpik",
+INSIDENKTulangEr#012,Y,Virəḥnya,"The jukut er (called) pu Taluaṅ, native of Virəḥnya, district of Tilimpik",
+INSIDENKTulangEr#013,N,,The overseers of the village were pu Laṇḍayan,tuha banua rendered as 'overseers of the village'
+INSIDENKSindoro-PuMamruk#001,Y,Vugaṅ,"pu Kavəl of the village of Vugaṅ, district of Tilimpik",
+INSIDENKSindoro-PuMamruk#002,Y,Pəar,"pu Lava of the village of Pəar, district of Alum Varak",
+INSIDENKSindoro-PuMamruk#003,Y,Saliṅsiṅan,"pu Luvak of the village of Saliṅsiṅan, east of Parhyaṅan",
+INSIDENKSindoro-PuMamruk#004,Y,Pucaṅ Anak,"pu Baisava of the village of Pucaṅ Anak, district of Pulu Vatu",
+INSIDENKSindoro-PuMamruk#005,Y,Lalar,"saṅ Rumakət of the village of Lalar, district of Tilimpik",
+INSIDENKSindoro-PuMamruk#006,Y,Vvahan,"pu Baṭinī of the village of Vvahan, district of Muntiṅ",
+INSIDENKSindoro-PuMamruk#007,Y,Sirikan,"pu Tatva of the village of Sirikan, district of Sirikan",
+INSIDENKBarahasrama#001,Y,Poh Galuh,the villages of Poh Galuh and of Er Kuviṅ,two villages named: Poh Galuh and Er Kuviṅ
+INSIDENKBarahasrama#002,Y,Poh Galuh,the revenue of the village of Poh Galuh is 1 kāṭi of silver,
+INSIDENKBarahasrama#003,Y,Er Kuviṅ,The revenue of the village of Er Kuviṅ is 1 kāṭi of silver,
+INSIDENKBarahasrama#004,Y,Poh Galuh,all that belongs to the land of the villages of Poh Galuh and of Er Kuviṅ,two villages named: Poh Galuh and Er Kuviṅ
+INSIDENKBarahasrama#005,Y,Poh Galuh,should not enter the village of Poh Galuh and of Er Kuviṅ,two villages named: Poh Galuh and Er Kuviṅ
+INSIDENKBarahasrama#006,Y,Poh Galuh,The function of the village of Poh Galuh and Er Kuviṅ,two villages named: Poh Galuh and Er Kuviṅ
+INSIDENKMasahar#001,N,,the village foreman called si,tuha banua rendered as 'village foreman'
+INSIDENKMasahar#002,N,,According to what was said by all inhabitants of the village,"unnamed (the village = Masahar by context, not stated here)"
+INSIDENKMasahar#003,Y,Masahar,The nayaka of the village of Masahar,
+INSIDENKMasahar#004,N,,The partaya of the same village called si Bhayī,'the same village' refers back
+INSIDENKMasahar#005,N,,the headman of the inner village jro vanua,"jro vanua = inner village, no name"
+INSIDENKMasahar#006,N,,"the vilaṅ vanua, the viji kavah","title left in transliteration, no place name"
+INSIDENKWuruTunggal#001,Y,Vuru Tuṅgal,"Pu Latī, father of Bayal, resident of the village of Vuru Tuṅgal",
+INSIDENKWuruTunggal#002,Y,Vuru Tuṅgal,also resident of the village of Vuru Tuṅgal,
+INSIDENKWuruTunggal#003,Y,Pilaṅ,"saṅ Təguhan, resident of the village of Pilaṅ",
+INSIDENKWuruTunggal#004,Y,Valaiṅ,"saṅ Bhāskara, resident of the village of Valaiṅ",
+INSIDENKWuruTunggal#005,Y,Taṅga,"saṅ Pakambaṅan, resident of the village of Taṅga",
+INSIDENKWuruTunggal#006,Y,Limo,"saṅ Ra Tira, resident of the village of Limo",
+INSIDENKPalepangan#001,N,,with all the village inhabitants,"'village inhabitants', no new name"
+INSIDENKPalepangan#002,Y,Sraṅan,"native of the village of Sraṅan, domain of the monastery at Pahai",
+INSIDENKPalepangan#003,Y,Syutan,"native of the village of Syutan, district of Tiru Raṇu",
+INSIDENKPalepangan#004,N,,the village overseers pu Kmir,"office, no place name"
+INSIDENKPalepangan#005,Y,Lampahan,the village overseer of Lampahan: pu Gəmar,office of village overseer tied to Lampahan
+INSIDENKGuntur#001,Y,Guntur,"native of the village of Guntur, domain punpunan of the monastery",
+INSIDENKGuntur#002,Y,Puluvatu,pu Gallam of the village of Puluvatu,
+INSIDENKSriManggalaII#001,N,,the village headmen,"office, no place name"
+INSIDENKSriManggalaII#002,Y,Poh,the temple workers in village Poh,translation compresses 'headmen of Śrī Maṅgala in the village Poh' to 'temple workers in village Poh'
+INSIDENKSugihManek#001,Y,Limus,"to demarcate the village of Limus, district Kanuruhan",
+INSIDENKSugihManek#002,N,,the juru banvas (called) saṅ Kya,"title 'juru banva' left untranslated, no place name"
+INSIDENKDinoyoIIa#001,N,,the village master ... brahma,tuha vanva rendered 'village master'; no place name
+INSIDENKGandasuli#001,U,,the (siblings) in-law of the lord and lady of the hermitage were,translation breaks off long before edition line 12; passage not translated
+INSIDENKWangkud#001,U,,"Manuku, native of the village .",village name is blank in the translation (lacuna after 'I' in the edition)
+INSIDENKWukiran#001,N,,they are the villages of the wise Kumbhayoni,"plural 'the villages'; eight names (Tuṅgaṅ, Davət, Laṅka, Sərəh, Vulakan, Valā, Valaiṅ, Lo Dvāṅ) are listed as the subject BEFORE the noun, no single new place name attached to it"

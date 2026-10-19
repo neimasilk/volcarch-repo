@@ -1,6 +1,28 @@
 # STATE — Line 05 ARCHIVAL NLP
 
-**Updated:** 2026-10-15 (midday) · **Temperature:** 📝 P23 drafting (Naskah A, DHQ; PI's prose) · E226 T7 parked REVISIT · E225 pilot LANJUT
+**Updated:** 2026-10-19 · **Temperature:** 📝 P23 drafting — validation ✅ PASS (E233) · E226 T7 parked REVISIT · E225 pilot LANJUT
+
+> **2026-10-19 — P23 validated without an epigrapher (E233, PASS).** PI 19 Oct: "kalau perlu ahli, pivot atau lakukan
+> yg bisa dilakukan tanpa ahli" → the reference is the DHARMA editors' published translations of the same editions.
+> - Scope: 30 inscriptions, 216 occurrences.
+> - Pre-registered and pushed before any comparison (`a5d8956`).
+> - Two blind LLM readers transcribed the translators' renderings: κ 0.977 between them; 161 of 161 names the same.
+> - **Frame vs editors:** κ 0.84; strict name error 5.4 % (95 % CI 2.8–9.9 %; worst case 12.2 %). Thresholds:
+>   κ ≥ 0.70 and ≤ 15 %.
+> - Errors are formula-level:
+>   - a place attached to a generic or forward-pointing noun (7);
+>   - boundary (2);
+>   - missed (2).
+> - 37 spelling differences are the editors' normalisation (*ṁ* → *ṅ*).
+> - **Next (Claude, no PI needed):**
+>   - a normalised-name column;
+>   - correct the 9 rows and re-check the three error formulas across the frame;
+>   - the appendix table.
+> - **Next (PI):**
+>   - the prose (G16);
+>   - send the DHQ pre-submission inquiry (Claude drafts).
+> - G10 now has route S (sources) if no reader answers within 14 days of the 23 Oct follow-up.
+> - Details: `experiments/E233_p23_validation_editor_translations/README.md`.
 
 > **2026-10-15 (≈13:30) — [BRIDGE ← orbit, I-153] the OV corpus held a primary record of Jatim-type beads in East Java.**
 > OV 1921 (Q1 §6 and the plate facing p. 5; Q2 pp. 56–58): stone-capped graves at Garahan–Mrawan, Jember; 79 beads;

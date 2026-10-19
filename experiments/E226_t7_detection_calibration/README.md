@@ -58,7 +58,8 @@ are matched often (S/|G| − d₀ ≥ 0.25, |G| ≥ 30), the "villages are invis
 
 **INCONCLUSIVE at step 2: *d* cannot be estimated from open sources.** The obstacle is identifying the toponyms,
 not only the register.
-- Frame: 170 villages from Kedu/Prambanan inscriptions (two LLM coders, κ 0.90; **no human epigrapher has validated it yet**).
+- Frame: 170 villages from Kedu/Prambanan inscriptions (two LLM coders, κ 0.90; no human epigrapher has coded it. **Checked
+  2026-10-19 against the DHARMA editors' published translations: κ 0.84, strict name error 5.4 % — E233**).
 - I2 (exact desa name): 0. I1 (published identifications): 11 names, 3 at desa level → |G| ≤ 11, below the
   pre-registered |G| ≥ 30. With n ≈ 11, N₉₅ would be large whatever S is, so the "uninformative" reading would
   follow from the small n, not from the data; running step 4 now would manufacture a result.
