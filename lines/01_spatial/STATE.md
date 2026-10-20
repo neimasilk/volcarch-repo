@@ -2,6 +2,20 @@
 
 **Updated:** 2026-10-20 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
 
+> ## 🟠 2026-10-20 (later) — defaults taken on the PI's "lakukan yg perlu dilakukan"; Claude's part done but references
+> - Waiver email **sent** 08:07.
+> - **E235 done:** E\* = 1,000 m (above it 97.5 % volcanic, 0.4 % non-volcanic); suitability INCONCLUSIVE (+0.05);
+>   design disagreement NOT SPECIFIC (`experiments/E235_elevation_vs_volcanic_control/README.md`).
+> - Figures 1 and 5 (`build_v03_figures.py`); `submission_jcaa_v0.3.tex` (mechanical; `make_v03_mechanical.py`);
+>   `VENUE.md`.
+> - **`REVISION_R2_WRITING_PACK.md`** = the PI's starting point.
+> - C078 (§3.7 robust-core definition and caveat).
+> - **JCAA forbids AI "ghost-writing"**, so the PI writes the substantive prose.
+> - **Next:**
+>   - references (C076) when the check returns;
+>   - then the PI's prose → freeze ≤ 9 Nov → G1 + adversarial read + letter traced against the final file →
+>     upload ≤ 16 Nov.
+>
 > ## 🟠 2026-10-20 — P2 / JCAA #280: REVISIONS REQUESTED (decision 19 Oct; due 16 Nov)
 > **Start here: `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`** (paraphrased points, verified facts,
 > what changes, gates, timeline, decisions D1–D7).

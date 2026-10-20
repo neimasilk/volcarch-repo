@@ -58,11 +58,11 @@ a valid critique by rewording.*
 
 | Paper | Folder | Status |
 |---|---|---|
-| **P2** Settlement model | `papers/P2_settlement_model/` | 📤 **RESUBMITTED 2026-08-11** — JCAA #280 v0.2 (artefact reframe), 9 hari sebelum tenggat. APC waiver diangkat di surat balasan; jawabannya milik jurnal. Kejar metadata portal bila editor diam. |
-| **P17** Two Javas | `papers/P17_two_javas/` | Under review — ArchCalc (CNR, Diamond OA) submission **365**, double-blind. WAIT. Best odds in the portfolio. |
-| **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | Rejected 2× (editorial). Core finding survives (gap 6.78 km, 80.6% <10 km, p<1e-6, inventory-independent). **SPAFA siap-kirim konten** (v0.6, SIG CONDITIONAL GO 08-11); 5 syarat tersisa di `SPAFA_SUBMISSION_PREP.md`; target kirim ≤ 2026-08-20. |
+| **P2** Settlement model | `papers/P2_settlement_model/` | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov 2026.** Start at `REVISION_JCAA_R2_20261019.md` (triage) and `REVISION_R2_WRITING_PACK.md` (the PI's prose). E235 answers R2. JCAA forbids AI ghost-writing, so the PI writes. Waiver (G15) undecided; status email sent 2026-10-20. |
+| **P17** Two Javas | `papers/P17_two_javas/` | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365): the central result is a geocoding artefact (ledger C032). Never quote its segregation result. |
+| **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | 🅿 **PARKED 2026-10-15** after 🔴 NO-GO 2026-10-01 (western-flank pattern = Penanggungan effect; duplicate candi rows). Unpark paths: `PARKED.md`. The "core finding survives" line that stood here is void. |
 
-**78 experiments** are assigned to this line (71 primary). Authoritative list:
+**79 experiments** are assigned to this line (72 primary; E235 added 2026-10-20). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 *(D2 / Mini-NusaRC moved to [02_taphonomy](../02_taphonomy/): it is a radiocarbon database built for

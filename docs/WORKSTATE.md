@@ -3,6 +3,27 @@
 **Updated:** 2026-10-20 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> ## 🟠 2026-10-20 (later) — PI "ok, lakukan yg perlu dilakukan" → defaults taken; Claude's part of the P2 revision done
+> - **Waiver email SENT 08:07** (D4). G15 stays RED until a written answer.
+> - **E235 run as pre-registered** (design pushed first, `3ac41cc`; numbers re-derived independently):
+>   - above **1,000 m**, 97.5 % of East Java's land is volcanic and 0.4 % non-volcanic, so **R2's comparison does
+>     not exist in the study area**;
+>   - below 1,000 m, suitability +0.05 = INCONCLUSIVE; design disagreement NOT SPECIFIC.
+> - **Built:**
+>   - Figures 1 (relief, graticule, 20/40 km zones, inset) and 5 (legend off the map);
+>   - `submission_jcaa_v0.3.tex` (mechanical only; clean compile);
+>   - `VENUE.md`;
+>   - **writing pack for the PI: `papers/P2_settlement_model/REVISION_R2_WRITING_PACK.md`**.
+> - **JCAA AI policy forbids "ghost-writing"** (AI writing methods, results or discussion). The PI's own prose is
+>   therefore a journal rule for v0.3, not only G16.
+> - **New: C078** — v0.2 §3.7 robust-core definition and caveat are wrong.
+> - **Open:**
+>   - references (C076; check running);
+>   - **the PI's prose → freeze ≤ 9 Nov → upload ≤ 16 Nov**;
+>   - D6; D7 (portal: annotated copy);
+>   - tell Go Frendi.
+> - Ledger next **C079**.
+>
 > ## 🟠 2026-10-20 — P2 / JCAA #280: REVISIONS REQUESTED (decision 2026-10-19; due **16 Nov 2026**)
 > The PI pasted the decision email. Round 2, for both reviewers:
 > - **R1** ("Resubmit for Review"): contribution excellent; **clarity fair**.
@@ -231,7 +252,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 | # | Action | Ready since | Where |
 |---|---|---|---|
 | ~~0~~ | ✅ **P17 WITHDRAWN 2026-10-02** (PI delegated; Option A): portal discussion 10:22 + email to redazioneac@ispc.cnr.it 10:24 (portal notification failed). ~~P17 integrity decision.~~ P17 (under review, ArchCalc #365) rests on a candi-vs-inscription contrast that is a **geocoding artefact** (50 Borobudur captions at one point + 42 region placeholders; precise findspots only: gap 13.1 → 0.2–2.3 km, p 0.07–0.85; ledger C032, verified). Tell the editor: withdraw, or notify and offer a revised artefact paper | 2026-10-01 | `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md` (send via the portal channel used on 11 Aug; double-blind) |
-| ~~1~~ | ✅ **SENT 2026-10-02 10:09** (Gmail reply in the editor's thread). ~~Send the P2 abstract reply~~ to the JCAA editor. He corrected the title on 31 Aug but refused the abstract ("focuses on the reviewing process, not the work"); unanswered 31 days while round-2 reviewers read the old record | 2026-10-01 (request: 08-31) | **Gmail → Drafts** ("RE: Revised files uploaded …") · `papers/P2_settlement_model/EDITOR_REPLY_ABSTRACT_20261001.md` |
+| ~~1~~ | ✅ **SENT 2026-10-02 10:09** (Gmail reply in the editor's thread). ~~Send the P2 abstract reply~~ to the JCAA editor. He corrected the title on 31 Aug but did not accept the abstract (in his view it described the review process, not the work); unanswered 31 days while round-2 reviewers read the old record | 2026-10-01 (request: 08-31) | **Gmail → Drafts** ("RE: Revised files uploaded …") · `papers/P2_settlement_model/EDITOR_REPLY_ABSTRACT_20261001.md` |
 | 2 | ~~Submit P11 to SPAFA~~ → **🔴 P11 NO-GO (2026-10-01) — send neither v0.7 nor v0.8.** On the canonical inventory the western-flank clustering vanishes without Penanggungan (73 candi: p=0.26); 39 of 142 candi rows are duplicate coordinates; the docx has no abstract in either language. Needs rework + a PI decision on reframing | — | `papers/P11_volcanic_informedness/SIG_signoff.md` §2026-10-01 |
 | ~~3~~ | ✅ **SENT 2026-10-02 10:11** to niamarniatief@yahoo.com (author address, *Naditira Widya* 2018). ~~Send the outreach email to BRIN's VEGAN group~~ (phytolith/starch/pollen; head Nia Marniati Etie Fajari). Replaces the Vida draft (both its questions are answered publicly); Castillo held as a reserve (UCL post likely lapsed). v1 drafts withdrawn | 2026-10-01 | `docs/correspondence/EMAIL_BRIN_VEGAN_DRAFT_20261001.md` (find the address on the VEGAN page; fallback praps@brin.go.id); old v2 files kept for the record |
 | ~~4~~ | ✅ **POSTED 2026-10-02 10:28** (metadata edit, same DOI/file, verified on public API). ~~Post the P1 preprint correction on Zenodo~~ (mandatory; public record states the inverted E069 claim and a "Java-wide taphonomic baseline" from assumed burial-start dates). Zenodo allows editing; ~15 min | 2026-10-01 | `docs/correspondence/ZENODO_P1_CORRECTION_NOTE_DRAFT_20261001.md` (verbatim quotes) |
@@ -268,7 +289,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REVISION | **P2: revisions requested 2026-10-19, due 16 Nov** — decisions D1–D7 by 23 Oct; E235 designed (C077); references C076; waiver (G15) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | PI + Claude |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REVISION | **P2: revisions requested 2026-10-19, due 16 Nov** — E235 done (overlap ceiling 1,000 m); figures, v0.3 (mechanical), VENUE, writing pack done; waiver email sent; **next = the PI's prose (freeze ≤ 9 Nov)**; references C076 · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |

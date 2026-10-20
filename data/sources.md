@@ -15,6 +15,7 @@ All data used in this project must be documented here with source, license, and 
 | River network | OpenStreetMap / HydroSHEDS | Varies | ODbL / Public domain | ACQUIRED (river distance features, E007+) |
 | Kode & nama wilayah (desa/kelurahan) Kepmendagri No. 300.2.2-2430/2025 | github.com/cahyadsn/wilayah `db/wilayah.sql` (last edit 2026-02-13), downloaded 2026-10-02 → `data/raw/gazetteer/kemendagri_wilayah_2025_cahyadsn.sql` | desa names, no coordinates | MIT (compilation of government data) | ACQUIRED (E226 identification tier I2) |
 | Indonesia ADM2 (kabupaten/kota) boundaries, simplified | geoBoundaries gbOpen IDN ADM2, commit 9469f09 (source: BPS, WFP, OCHA ROAP), downloaded 2026-10-02 → `data/raw/gazetteer/geoBoundaries-IDN-ADM2_simplified.geojson` | simplified polygons | CC BY 3.0 IGO | ACQUIRED (E226 chance-match null d₀) |
+| Natural Earth 1:50m land polygons | naciscdn.org/naturalearth/50m/physical/ne_50m_land.zip, downloaded 2026-10-20 → `data/raw/naturalearth/ne_50m_land.zip` (SHA-256 prefix `0b8e670cf80dce9c`) | 1:50m | Public domain ("Made with Natural Earth") | ACQUIRED — cartographic only: locator inset of P2 Figure 1 (round-2 revision, `papers/P2_settlement_model/build_v03_figures.py`); no analysis uses it |
 
 ## Literature-Derived Data
 

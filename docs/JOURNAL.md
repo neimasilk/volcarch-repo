@@ -11280,3 +11280,61 @@ Ketiga makalah rujukan belum dibaca; Gambar 1/5 belum digambar ulang. Tidak ada 
 - Line 01 STATE: blok atas. CRITIQUE_LEDGER: C076, C077.
 - Next free **E236**; ledger next **C078**.
 - Belum di-commit, bersama pekerjaan 10-19 yang juga menunggu kata PI.
+
+## 2026-10-20 (lanjutan) — PI "ok, lakukan yg perlu dilakukan" → default diambil; E235 dijalankan; email waiver terkirim; gambar, v0.3, VENUE, paket tulisan
+
+**Kata PI:** "ok, lakukan yg perlu dilakukan" (atas daftar keputusan D1–D7). Dibaca sebagai: ambil rekomendasi
+default. Seperti preseden 6 Okt (permintaan arXiv), email yang sudah disiapkan dikirim Claude.
+
+- **Commit + push `3ac41cc`.** Pekerjaan 10-20 pagi + pekerjaan 10-19 (E234) yang menunggu. Dipindai dulu: tak ada
+  pola kredensial; satu frasa yang mirip teks reviewer diparafrasekan. Push ini **membekukan pra-registrasi E235**
+  sebelum skripnya ada.
+- **D4 — email waiver TERKIRIM 08:07** ke journal@caa-international.org (`tools/mail/gmail_compose_send.py --send`
+  dari akun universitas PI). Muncul di Sent; tak ada draf ganda. Satu kalimat diganti sebelum kirim: klaim
+  "universitas tak punya dana OA" (tak pernah dicek) → "We are not in a position to pay the APC". Rekaman:
+  `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`.
+- **D3 — E235 dijalankan sesuai pra-registrasi** (27 detik; peta E221 tersimpan; tanpa latih ulang):
+  - **M1:** di atas **1.000 m** ada 3.435 km² daratan; **97,5 % ≤ 20 km** dari pusat vulkanik, **0,4 % ≥ 40 km**.
+    Non-vulkanik 15 km² di 1.000–1.200 m, nol di atasnya. Pembanding yang diminta R2 tidak ada di Jawa Timur.
+  - **M2** (XGBoost, < 1.000 m, dicocokkan dalam pita): +0,049 [+0,024; +0,077] random, +0,049 TGB,
+    +0,060 hybrid → ringkasan **INCONCLUSIVE**. Selisihnya tepat di ambang, dan hilang bila zona vulkanik dipersempit
+    (≤ 10/≥ 30 km: −0,002).
+  - **M3** (ketidaksepakatan desain): **NOT SPECIFIC** di semua algoritma dan definisi (maks. 0,56 pp vs ambang 5).
+  - **Verifikasi G1:** jalur kode lain (pandas groupby) menghasilkan angka utama yang persis sama.
+  - **Koreksi gambar sebelum dibaca:** batang kosong (0,1 km²) dan pita yang tak memenuhi syarat dihapus; angka
+    tetap. Dicatat di DESIGN §8.
+- **Gambar 1 dan 5 baru** (`papers/P2_settlement_model/build_v03_figures.py`; berkas v0.2 tetap).
+  - Gambar 1: relief DEM model sendiri, garis pantai dari DEM, graticule lintang/bujur, skala 50 km, garis 20/40 km
+    E235, inset lokasi (Natural Earth 1:50m, dicatat di `data/sources.md`).
+  - Gambar 5: raster (bukan titik), legenda di bawah peta.
+- **`submission_jcaa_v0.3.tex`** = v0.2 + perubahan mekanis saja (`make_v03_mechanical.py`):
+  - 23 `\S\ref` → `Section~\ref`; 4 nomor bagian yang ditulis manual;
+  - gambar; header komentar; makro `\figtodo` yang tak terpakai.
+  - Kompilasi bersih, 29 halaman.
+  - **Koreksi hitungan pagi:** "52 `\S\ref` + 9 §" ternyata artefak grep Git Bash. Yang benar: 23 + 4; "§" literal
+    hanya ada di komentar.
+- **VENUE.md (G15)** dari sub-agen Sonnet; diperiksa pengendali terhadap HTML yang diambil:
+  - kebijakan AI JCAA: **"ghost-writing" (AI menulis bagian besar: metode, hasil, diskusi) dilarang**; mengubah catatan
+    penulis jadi prosa boleh;
+  - batas 11.500 kata termasuk rujukan (22 Sep masih 8.500); v0.2 ≈ 8.350;
+  - abstrak ≤ 300 kata; ≤ 6 kata kunci; **alt text untuk tiap gambar**;
+  - APC **£651** (bita C2 A3); Publication Fund hanya untuk anggota CAA.
+  - **Konsekuensi:** deklarasi AI v0.2 menyebut AI "drafting and editing of this manuscript". Untuk v0.3, prosa PI
+    sendiri adalah aturan jurnal, bukan hanya G16.
+- **Paket tulisan PI:** `papers/P2_settlement_model/REVISION_R2_WRITING_PACK.md`:
+  - peta semua bagian bercerita-revisi (± 39 kemunculan di teks) → fakta yang harus tetap ada;
+  - idiom + alternatif harfiah; istilah kunci;
+  - angka E235 + konsekuensi pra-registrasinya; fakta keterangan gambar.
+  - Tidak ada P2 preprint yang pernah terbit, jadi tangga desain boleh disajikan sebagai urutan pengembangan studi ini.
+- **Temuan baru C078:** v0.2 §3.7 (baris 458–460) menyebut robust core "cells selected by every seed" (yang benar:
+  ketiga desain) dan memberi alasan kehati-hatian n = 2 (yang benar: situs ikut melatih model). Rasionya benar.
+- **Kebersihan repo publik:** kutipan verbatim editor 31 Agt diparafrasekan di `EDITOR_REPLY_ABSTRACT_20261001.md`
+  dan WORKSTATE. Surat tanggapan ronde 1 (Agt) di repo masih mengutip reviewer ronde 1; dibiarkan, keputusan PI.
+
+**Belum:**
+- Rujukan C076: sub-agen Sonnet masih memeriksa isi tiga makalah + nama → `REFERENCE_FIX_20261020.md`.
+- D6 kalimat terima kasih (prosa PI); D7 login portal (salinan beranotasi).
+- Kabari Go Frendi.
+- Prosa v0.3 (PI): dibekukan ≤ 9 Nov; G1 + pembaca adversarial; surat dicek terhadap berkas final; unggah ≤ 16 Nov.
+
+Kanari 227 hijau; next free E236; ledger next **C079**.

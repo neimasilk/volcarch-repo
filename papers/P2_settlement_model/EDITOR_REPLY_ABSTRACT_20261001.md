@@ -2,11 +2,9 @@
 
 **Prepared:** 2026-10-01 (Claude, autonomous session; PI away). **Not sent.** Sending is the PI's call.
 **Why:** on **31 Aug 2026** the handling editor (Dr César González-Pérez) corrected the title in the record
-but **did not replace the abstract**: *"I find the new abstract to focus on the reviewing process that
-your submission is going through rather than the work itself and its contributions. Please rewrite and
-advise as necessary."* It has been unanswered for 31 days, while round-2 reviewers read a record whose
-abstract still states withdrawn findings. The same day the paper was *"sent for a new round of peer
-review"*.
+but **did not replace the abstract**: in his view the new abstract described the review process rather than the work and its contributions,
+and he asked for a rewrite *(paraphrased 2026-10-20 under the public-repo rule; the original is in the PI's mailbox)*. It has been unanswered for 31 days, while round-2 reviewers read a record whose
+abstract still states withdrawn findings. The same day the paper went to a new round of peer review.
 
 **Verification:** two independent Opus verifiers (claim fidelity vs `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`;
 editorial fit vs the editor's objection), workflow `p2-abstract-verify` 2026-10-01. Both returned

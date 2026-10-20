@@ -1,6 +1,6 @@
 # Experiment Index
 
-**Generated:** 2026-10-20 07:58
+**Generated:** 2026-10-20 08:13
 **Total:** 227 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
@@ -10,9 +10,9 @@
 - **UNKNOWN:** 34
 - **INFO NEG:** 16
 - **REVISIT:** 9
+- **INCONCLUSIVE:** 5
 - **IN PROGRESS:** 4
 - **FAILED:** 4
-- **INCONCLUSIVE:** 4
 - **PARTIAL:** 4
 - **SUPERSEDED:** 2
 - **PRE-REGISTERED (DESI:** 2
@@ -26,7 +26,6 @@
 - **SCOPING — Phase 0 (p:** 1
 - **Phase 0 — corpus sec:** 1
 - **PRE-REGISTERED (deci:** 1
-- **PRE-REGISTERED (`DES:** 1
 
 ## By Line of Inquiry
 
@@ -292,7 +291,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E232 | Affix-aware residue screen — Tolaki pilot (idea I- | PRE-REGISTERED (DESI | 04_language_text |  | P8 |  |
 | E233 | P23 validation against the editors' published tran | SUCCESS | 05_archival_nlp,04_language_text |  | P23 |  |
 | E234 | E216's assumptions checked against published value | PRE-REGISTERED (DESI | 03_paleoenv |  |  |  |
-| E235 | Elevation or volcanic setting? A band-by-band cont | PRE-REGISTERED (`DES | 01_spatial |  | P2 |  |
+| E235 | Elevation or volcanic setting? A band-by-band cont | INCONCLUSIVE | 01_spatial |  | P2 |  |
 
 ## Revisit Candidates
 
@@ -338,6 +337,7 @@ Experiments that failed or were inconclusive but could be revisited with new dat
 | E213 | Aggradation–Exposure Geomorphic Asymmetr | INCONCLUSIVE | *(check README)* |
 | E224 | Does target-group background work once t | FAILED | *(check README)* |
 | E226 | T7 detection calibration (villages named | REVISIT | *(check README)* |
+| E235 | Elevation or volcanic setting? A band-by | INCONCLUSIVE | *(check README)* |
 
 ---
 

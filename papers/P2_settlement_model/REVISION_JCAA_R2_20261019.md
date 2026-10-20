@@ -1,5 +1,40 @@
 # P2 / JCAA #280 — round-2 decision: REVISIONS REQUESTED (2026-10-19)
 
+> **Status 2026-10-20 (later) — PI: "ok, lakukan yg perlu dilakukan" → defaults taken; Claude's part done except references:**
+> - **D4 ✅:** waiver email **sent** 08:07 to journal@caa-international.org
+>   (`docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`, now the sent record). G15 stays RED until a
+>   written answer.
+> - **D3 ✅ — E235 run as pre-registered** (design pushed first, `3ac41cc`; numbers re-derived independently):
+>   - above **1,000 m**, 97.5 % of land is volcanic and 0.4 % is non-volcanic, so the reviewer's comparison does not
+>     exist in East Java;
+>   - below 1,000 m, suitability is +0.05 volcanic − non-volcanic: **INCONCLUSIVE** (on the threshold; gone under a
+>     tighter zone);
+>   - design disagreement: **NOT SPECIFIC**.
+> - **D1/D2 at default:** the PI writes (at least abstract, introduction and conclusion; **see the JCAA AI policy
+>   below**); freeze by 9 Nov with an adversarial read + G1.
+> - **Figures 1 and 5 rebuilt** (`build_v03_figures.py`).
+> - **`submission_jcaa_v0.3.tex`** = v0.2 + mechanical changes only (`make_v03_mechanical.py`; compiles clean, 29 pp.).
+> - **`VENUE.md`** (G15 template) written; key items checked against the fetched pages.
+> - **Writing pack for the PI: `REVISION_R2_WRITING_PACK.md`.**
+> - **New finding C078:** the v0.2 §3.7 definition of the robust core and its caveat are wrong (pack §5b).
+> - **JCAA AI policy (fetched 2026-10-20, editorial policies):**
+>   - Unacceptable: "ghost-writing", i.e. AI writing substantial portions (methods, results, discussion).
+>   - Acceptable: turning the author's own notes or bullet points into prose; language help.
+>   - v0.2's disclosure says AI was used for "drafting and editing of this manuscript". **For v0.3 the PI's own
+>     writing of the substantive sections is a journal requirement, not only G16**, and the disclosure must match.
+> - **Other venue facts:**
+>   - limit 11,500 words including references (v0.2 ≈ 8,350);
+>   - abstract ≤ 300 words; ≤ 6 keywords;
+>   - **alt text (≤ ~10 words) for every figure**;
+>   - Harvard citations, "&" for ≤ 3 authors.
+> - **APC £651.** CAA's Publication Fund is for CAA members only (five papers a year).
+> - **Open:**
+>   - references (sub-agent check running → `REFERENCE_FIX_20261020.md`);
+>   - D6 and D7 (portal login: annotated copy) — the PI's;
+>   - tell Go Frendi.
+> - **Hygiene:** the round-1 response letter in the repo quotes the round-1 reviewers verbatim (uploaded record,
+>   Aug). Whether to scrub it is the PI's call; nothing was changed.
+
 **Recorded:** 2026-10-20 (orbit session; the PI pasted the decision email into the session).
 **Manuscript reviewed:** `submission_jcaa_v0.2.pdf` (resubmitted 2026-08-11; title "An Evaluation Artefact in
 Presence–Background Archaeological Modelling: Evidence from East Java and a Corrected Comparison Protocol").
@@ -50,7 +85,7 @@ Each row runs: point → verified fact → what changes → what the reply must 
 | **R1-2** | The research question should be stated more clearly at the start, and more pedagogically, for JCAA readers who are not statisticians. | §1 opens with the field; the question is spread over the "First … Second …" paragraph (line 161). | A plain-language question in the first paragraph: what an evaluation background is, why scoring a design on its own background inflates it, and what readers should do instead. | PROSE (G16) |
 | **R1-3** | More explanation of the statistics for non-experts. | Terms used without a lay gloss include AUC, TSS, background/pseudo-absence, target-group background, Boyce index, Jaccard, seed ensemble and coarsened exact matching. | A short "Key terms" box or glossary table, plus one-sentence intuitions where each term first appears. | PROSE (G16) |
 | **R1-4** | Three expressions confuse: one at reviewed lines 232–233, one at 264, one at 345. | They are our own sentences: "We sweep the hard-negative dial …" (tex 304), "How large is judging at home?" (tex 382) and "… map Jaccard said no." (tex 443). The same idiom family recurs (counts in the .tex): "dial" ×12, "ladder" ×22, "home-court" ×2, "rung" ×2. | Replace the whole idiom family with literal terms ("the share of hard negatives in the background", "inflation from scoring a design on its own background", "the pre-registered primary metric, map overlap (Jaccard), did not change"). Run a jargon sweep over the full text. | PROSE (G16) |
-| **R1-5** | Using "§" for section references is unusual. | 52 `\S\ref` + 9 literal "§" in the .tex. | "Section n" throughout. Mechanical. | MECHANICAL |
+| **R1-5** | Using "§" for section references is unusual. | 23 `\S\ref{…}` + 4 hard-coded (`\S4` line 143, `\S3.2` line 148, `\S3` twice) in the text; the 9 literal "§" are in source comments only. *(Corrected 2026-10-20: the first count, "52 + 9", was a grep artefact.)* | "Section n" throughout. Mechanical. | MECHANICAL |
 | **R1-6** | Bibliography: inconsistent formatting and name spellings; **the Comer et al. reference is wrong**. | **Crossref check of all 26 DOI-bearing cited entries (2026-10-20; `tools/check_bib_crossref.py` → `REFERENCE_CHECK_CROSSREF_20261020.json`): 3 are wrong, all cited together at tex line 157.** `comer2023`: the authors are invented (Crossref: J. A. Comer, D. C. Comer, Dumitru, Priebe, Patsolic), the volume is 47 instead of 48, and the title is truncated. `wang2023`: the authors are invented (Crossref: Wang, Shi, Oguchi), and the title is wrong (actual: "Archaeological Predictive Modeling Using Machine Learning and Statistical Methods for Japan and China"). `castiello2021` (a **JCAA** paper): the title is wrong (actual: "An Explorative Application of Random Forest Algorithm for Archaeological Predictive Modeling. A Swiss Case Study"). The other 23 match; 3 have no DOI (Kvamme 2006, Banks 2006, Franklin 2009) and get a manual check. Ledger **C076**. | Correct the three entries from Crossref. **Read the three papers** and check that the line-157 sentence ("strong gains from integrating spatial context and terrain logic while flagging data-quality and validation constraints") is true of each; cut or reword what is not. Normalise the whole list to the JCAA style (G15 template check), including the spelling of names. | FIX + SOURCE CHECK |
 | **R1-7** | Figure 1 should show the study area but is a scatter plot with unintelligible axis values. | Same as R2-2. | Same new Figure 1. | FIGURE |
 | **R1-8** | Figure 5's legend sits on the map; move it or give it a background. | `fig16_priority_map.png`: the legend overlaps the land at the lower right. | Legend outside the map frame, or an opaque box. Same graticule and coastline treatment as Figure 1 for consistency. | FIGURE |

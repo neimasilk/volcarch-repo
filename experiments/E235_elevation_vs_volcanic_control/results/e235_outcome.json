@@ -1,0 +1,949 @@
+{
+ "design_commit": "3ac41cc",
+ "definitions": {
+  "primary_20_40": {
+   "M1": {
+    "usable_bands_lo_m": [
+     0.0,
+     200.0,
+     400.0,
+     600.0,
+     800.0
+    ],
+    "E_star_m": 1000.0,
+    "land_above_E_star_km2": 3434.517826114836,
+    "share_above_E_star_V": 0.9747857749062337,
+    "share_above_E_star_N": 0.004352944397295152
+   },
+   "algorithms": {
+    "xgboost": {
+     "matched_weight_cells": 53927.0,
+     "measures": {
+      "suit_random": {
+       "estimate": 0.04911206493408748,
+       "ci95": [
+        0.023668168734090958,
+        0.07680075701548826
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.04893494898945353,
+       "ci95": [
+        0.023997520672323622,
+        0.07624136882947287
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.05988473322723993,
+       "ci95": [
+        0.02983680035364914,
+        0.0913768170559082
+       ],
+       "verdict": "SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.5630604353452623,
+       "ci95": [
+        0.26094906992015915,
+        0.8534556930465289
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.007410612685992228,
+       "ci95": [
+        0.0032947015184304792,
+        0.011000992040465153
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.11070323818373708,
+       "ci95": [
+        -0.18458836677786178,
+        -0.026746825044980327
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.05458049285048127,
+       "ci95": [
+        -0.14602902890629765,
+        0.04794596044365954
+       ]
+      },
+      "river_dist_km": {
+       "estimate": -0.3526079614341467,
+       "ci95": [
+        -1.8351177134244383,
+        0.8071211654425934
+       ]
+      }
+     },
+     "M2_summary": "INCONCLUSIVE",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.03240959629105379,
+      "suit_tgb": 0.03301658820915388,
+      "suit_hybrid": 0.03778447357499007,
+      "absdiff_hybrid_random": 0.0146525356615122
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.0686326077947792,
+      "suit_tgb": 0.06775335895982237,
+      "suit_hybrid": 0.05658034827912817,
+      "absdiff_hybrid_random": 0.05182002646559469
+     }
+    },
+    "randomforest": {
+     "matched_weight_cells": 53927.0,
+     "measures": {
+      "suit_random": {
+       "estimate": 0.038221145378287365,
+       "ci95": [
+        0.017578719502576532,
+        0.06060630199216824
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.03786096650965762,
+       "ci95": [
+        0.01855631562344406,
+        0.05870370339433043
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.04461680591038999,
+       "ci95": [
+        0.021762017806391917,
+        0.06997381324893595
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.5063807900822926,
+       "ci95": [
+        0.13268379811268077,
+        0.9990447109082722
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.004198342032237909,
+       "ci95": [
+        0.001399187526427463,
+        0.008297010904397875
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.11070323818373708,
+       "ci95": [
+        -0.18458836677786178,
+        -0.026746825044980327
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.05458049285048127,
+       "ci95": [
+        -0.14602902890629765,
+        0.04794596044365954
+       ]
+      },
+      "river_dist_km": {
+       "estimate": -0.3526079614341467,
+       "ci95": [
+        -1.8351177134244383,
+        0.8071211654425934
+       ]
+      }
+     },
+     "M2_summary": "INCONCLUSIVE",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.0407323792086475,
+      "suit_tgb": 0.04123132269535686,
+      "suit_hybrid": 0.04194624575359054,
+      "absdiff_hybrid_random": 0.014129586492085825
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.06652438474021027,
+      "suit_tgb": 0.06623494293440202,
+      "suit_hybrid": 0.04235670627520349,
+      "absdiff_hybrid_random": 0.027440047055340755
+     }
+    },
+    "maxent": {
+     "matched_weight_cells": 53927.0,
+     "measures": {
+      "suit_random": {
+       "estimate": 0.04687639852841008,
+       "ci95": [
+        0.007750064625516308,
+        0.09406540461004143
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.04764871858387114,
+       "ci95": [
+        0.009218748427242662,
+        0.09351162992129484
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.056607292370410595,
+       "ci95": [
+        0.01850372687669736,
+        0.09666982455878213
+       ],
+       "verdict": "SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": -0.1047222030067996,
+       "ci95": [
+        -1.0572337614616028,
+        0.5873330096011612
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": -0.011415629885157425,
+       "ci95": [
+        -0.02441979711242041,
+        -0.0008582618312263627
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.11070323818373708,
+       "ci95": [
+        -0.18458836677786178,
+        -0.026746825044980327
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.05458049285048127,
+       "ci95": [
+        -0.14602902890629765,
+        0.04794596044365954
+       ]
+      },
+      "river_dist_km": {
+       "estimate": -0.3526079614341467,
+       "ci95": [
+        -1.8351177134244383,
+        0.8071211654425934
+       ]
+      }
+     },
+     "M2_summary": "INCONCLUSIVE",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.03207126056322879,
+      "suit_tgb": 0.03378457438185479,
+      "suit_hybrid": 0.03202337102360651,
+      "absdiff_hybrid_random": 0.003012533826710949
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.1777982503757608,
+      "suit_tgb": 0.21326149004743844,
+      "suit_hybrid": 0.1466376935112016,
+      "absdiff_hybrid_random": 0.04128750854233765
+     }
+    }
+   }
+  },
+  "sens_10_30": {
+   "M1": {
+    "usable_bands_lo_m": [
+     0.0,
+     200.0,
+     400.0,
+     600.0,
+     800.0,
+     1000.0
+    ],
+    "E_star_m": 1200.0,
+    "land_above_E_star_km2": 2491.992935240274,
+    "share_above_E_star_V": 0.7470852356337019,
+    "share_above_E_star_N": 0.00022638946534354602
+   },
+   "algorithms": {
+    "xgboost": {
+     "matched_weight_cells": 17213.0,
+     "measures": {
+      "suit_random": {
+       "estimate": -0.0022613453454953616,
+       "ci95": [
+        -0.04714954758820299,
+        0.04576169242000579
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.001397652348442488,
+       "ci95": [
+        -0.04240864312706752,
+        0.04835068021432539
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.006760102614588332,
+       "ci95": [
+        -0.04955479671327897,
+        0.06279807181808607
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.3064208025021029,
+       "ci95": [
+        -0.5010927060752054,
+        1.04671448237874
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.0054111704254021335,
+       "ci95": [
+        -0.003571811563293561,
+        0.013912283257316617
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.11847202709672033,
+       "ci95": [
+        -0.25679641895589717,
+        -0.010337359202453723
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.030271914420367824,
+       "ci95": [
+        -0.14629574096578205,
+        0.1147578251041683
+       ]
+      },
+      "river_dist_km": {
+       "estimate": 1.5819049594952934,
+       "ci95": [
+        -0.10283837962796315,
+        2.714102621446044
+       ]
+      }
+     },
+     "M2_summary": "NOT SPECIFIC",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.001644324841662605,
+      "suit_tgb": 0.0019540154541244233,
+      "suit_hybrid": 0.0029816036953343814,
+      "absdiff_hybrid_random": 0.0022542985616506813
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.11203587055281405,
+      "suit_tgb": 0.11149740311863776,
+      "suit_hybrid": 0.09440196134813039,
+      "absdiff_hybrid_random": 0.0800100917483102
+     }
+    },
+    "randomforest": {
+     "matched_weight_cells": 17213.0,
+     "measures": {
+      "suit_random": {
+       "estimate": -0.0037696993201143092,
+       "ci95": [
+        -0.03260552949859121,
+        0.029256716933062765
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": -0.0006353982011239371,
+       "ci95": [
+        -0.027815790047362805,
+        0.030738976970526244
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.005514308051895059,
+       "ci95": [
+        -0.030541272457583337,
+        0.04245729257974296
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.30706448620694315,
+       "ci95": [
+        -0.3825458064213521,
+        1.0441734199382071
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.003508814415594858,
+       "ci95": [
+        -0.005170032872823481,
+        0.013036361402569361
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.11847202709672033,
+       "ci95": [
+        -0.25679641895589717,
+        -0.010337359202453723
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.030271914420367824,
+       "ci95": [
+        -0.14629574096578205,
+        0.1147578251041683
+       ]
+      },
+      "river_dist_km": {
+       "estimate": 1.5819049594952934,
+       "ci95": [
+        -0.10283837962796315,
+        2.714102621446044
+       ]
+      }
+     },
+     "M2_summary": "NOT SPECIFIC",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.001739997525674691,
+      "suit_tgb": 0.0020290181959847988,
+      "suit_hybrid": 0.0030621432301815715,
+      "absdiff_hybrid_random": 0.0012083645277179312
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.10600634616195226,
+      "suit_tgb": 0.11065865275785625,
+      "suit_hybrid": 0.08285698864055235,
+      "absdiff_hybrid_random": 0.08639430536944415
+     }
+    },
+    "maxent": {
+     "matched_weight_cells": 17213.0,
+     "measures": {
+      "suit_random": {
+       "estimate": -0.02990871138692629,
+       "ci95": [
+        -0.08480892946310324,
+        0.035390206328721786
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": -0.02617226770406684,
+       "ci95": [
+        -0.07965194204930195,
+        0.03836931884625505
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": -0.0018828225804826044,
+       "ci95": [
+        -0.06617101221904384,
+        0.06689163451496306
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.19162464570445153,
+       "ci95": [
+        -0.8389132532717345,
+        1.2540505802265758
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.00013629592173796786,
+       "ci95": [
+        -0.017431156912705983,
+        0.01885582547349838
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.11847202709672033,
+       "ci95": [
+        -0.25679641895589717,
+        -0.010337359202453723
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.030271914420367824,
+       "ci95": [
+        -0.14629574096578205,
+        0.1147578251041683
+       ]
+      },
+      "river_dist_km": {
+       "estimate": 1.5819049594952934,
+       "ci95": [
+        -0.10283837962796315,
+        2.714102621446044
+       ]
+      }
+     },
+     "M2_summary": "INCONCLUSIVE",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 3.922691911010166e-06,
+      "suit_tgb": 1.1711115675408192e-05,
+      "suit_hybrid": 0.0006253818396025279,
+      "absdiff_hybrid_random": 0.00107690122856983
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.18827812329456517,
+      "suit_tgb": 0.2086820324749955,
+      "suit_hybrid": 0.14373208046620478,
+      "absdiff_hybrid_random": 0.03408208682294778
+     }
+    }
+   }
+  },
+  "sens_15_30": {
+   "M1": {
+    "usable_bands_lo_m": [
+     0.0,
+     200.0,
+     400.0,
+     600.0,
+     800.0,
+     1000.0
+    ],
+    "E_star_m": 1200.0,
+    "land_above_E_star_km2": 2491.992935240274,
+    "share_above_E_star_V": 0.9587216541523601,
+    "share_above_E_star_N": 0.00022638946534354602
+   },
+   "algorithms": {
+    "xgboost": {
+     "matched_weight_cells": 38118.0,
+     "measures": {
+      "suit_random": {
+       "estimate": 0.01640798535336009,
+       "ci95": [
+        -0.015513225750452527,
+        0.05138851268170324
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.018097148950324424,
+       "ci95": [
+        -0.01364679668456398,
+        0.05273403613390759
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.025735157181946484,
+       "ci95": [
+        -0.015569699595093769,
+        0.06294014242239182
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.3218648283057619,
+       "ci95": [
+        -0.14420608327295611,
+        0.7615214835673124
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.005956417330006339,
+       "ci95": [
+        -5.673057837882732e-05,
+        0.010654569116627382
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.0998667849988821,
+       "ci95": [
+        -0.2066723311840491,
+        -0.006182412006750194
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.03676704038264055,
+       "ci95": [
+        -0.15535808794922115,
+        0.10625231751590365
+       ]
+      },
+      "river_dist_km": {
+       "estimate": 0.9203471774377264,
+       "ci95": [
+        -0.34653192462219096,
+        1.9020265331599795
+       ]
+      }
+     },
+     "M2_summary": "INCONCLUSIVE",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.006893767599857648,
+      "suit_tgb": 0.007359487671907403,
+      "suit_hybrid": 0.010055137096503476,
+      "absdiff_hybrid_random": 0.0050310256525283115
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.10187368324603097,
+      "suit_tgb": 0.10481279155490109,
+      "suit_hybrid": 0.09402348572687957,
+      "absdiff_hybrid_random": 0.09506736050808773
+     }
+    },
+    "randomforest": {
+     "matched_weight_cells": 38118.0,
+     "measures": {
+      "suit_random": {
+       "estimate": 0.010737258330857367,
+       "ci95": [
+        -0.011723229843502965,
+        0.03601747572030978
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.012226477708481533,
+       "ci95": [
+        -0.008405031822446339,
+        0.03577828875355176
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.01714392986393553,
+       "ci95": [
+        -0.010753069480536963,
+        0.0439522551383985
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": 0.30085894834403715,
+       "ci95": [
+        -0.1938940816472935,
+        0.8950058432049299
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": 0.0018456813416812218,
+       "ci95": [
+        -0.0024885070184270247,
+        0.006139125950814549
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.0998667849988821,
+       "ci95": [
+        -0.2066723311840491,
+        -0.006182412006750194
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.03676704038264055,
+       "ci95": [
+        -0.15535808794922115,
+        0.10625231751590365
+       ]
+      },
+      "river_dist_km": {
+       "estimate": 0.9203471774377264,
+       "ci95": [
+        -0.34653192462219096,
+        1.9020265331599795
+       ]
+      }
+     },
+     "M2_summary": "NOT SPECIFIC",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.009069141576385097,
+      "suit_tgb": 0.009335270968973228,
+      "suit_hybrid": 0.011189433206276115,
+      "absdiff_hybrid_random": 0.002557495812162126
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.10013728854856319,
+      "suit_tgb": 0.10803748371616784,
+      "suit_hybrid": 0.0832519792783053,
+      "absdiff_hybrid_random": 0.11464020627411264
+     }
+    },
+    "maxent": {
+     "matched_weight_cells": 38118.0,
+     "measures": {
+      "suit_random": {
+       "estimate": 0.005250929872529067,
+       "ci95": [
+        -0.034159072515804086,
+        0.05345853989891198
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_tgb": {
+       "estimate": 0.006478493413517037,
+       "ci95": [
+        -0.03181157581259359,
+        0.05359503440402131
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "suit_hybrid": {
+       "estimate": 0.01963400926858407,
+       "ci95": [
+        -0.025364622097337294,
+        0.0631659071909388
+       ],
+       "verdict": "INCONCLUSIVE",
+       "verdict_sensitivity": {
+        "0.03": "INCONCLUSIVE",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "fringe": {
+       "estimate": -0.04426404445272628,
+       "ci95": [
+        -0.9401084814910396,
+        0.5696246906767753
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "3.0": "NOT SPECIFIC",
+        "10.0": "NOT SPECIFIC"
+       }
+      },
+      "absdiff_hybrid_random": {
+       "estimate": -0.003764785859561787,
+       "ci95": [
+        -0.016688747699597623,
+        0.006889139365980469
+       ],
+       "verdict": "NOT SPECIFIC",
+       "verdict_sensitivity": {
+        "0.03": "NOT SPECIFIC",
+        "0.1": "NOT SPECIFIC"
+       }
+      },
+      "aspect_cos": {
+       "estimate": -0.0998667849988821,
+       "ci95": [
+        -0.2066723311840491,
+        -0.006182412006750194
+       ]
+      },
+      "aspect_sin": {
+       "estimate": -0.03676704038264055,
+       "ci95": [
+        -0.15535808794922115,
+        0.10625231751590365
+       ]
+      },
+      "river_dist_km": {
+       "estimate": 0.9203471774377264,
+       "ci95": [
+        -0.34653192462219096,
+        1.9020265331599795
+       ]
+      }
+     },
+     "M2_summary": "INCONCLUSIVE",
+     "M4_partial_r2_setting_after_elevation": {
+      "suit_random": 0.004941923323596682,
+      "suit_tgb": 0.005219544254533107,
+      "suit_hybrid": 0.0074243667875770955,
+      "absdiff_hybrid_random": 0.001527411721761893
+     },
+     "M4_r2_elevation_only": {
+      "suit_random": 0.2052294646034889,
+      "suit_tgb": 0.23905714423259095,
+      "suit_hybrid": 0.1827186764802049,
+      "absdiff_hybrid_random": 0.04480603617709311
+     }
+    }
+   }
+  }
+ }
+}

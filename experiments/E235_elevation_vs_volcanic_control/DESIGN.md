@@ -118,3 +118,13 @@ like any other.
 ## 8. Deviations log
 
 *(empty at freezing)*
+
+**2026-10-20, after the run. No deviation from the analysis.** Implementation choices the design left open:
+- Tercile edges are computed over each band's V ∪ N cells.
+- Aspect is circular, so M5 compares cos(aspect) and sin(aspect) rather than a mean in degrees.
+- M5 is computed for every run but reported only as description, because the M2 summary is not SPECIFIC (only the
+  hybrid design is).
+- The figure draws band means only where an arm has the pre-registered 25 km². A first draft drew empty bands as
+  0.1 km² bars and showed the unusable 1,000–1,200 m non-volcanic band; both were corrected before any reading. The
+  numbers are unchanged.
+- E219 measured distance to the 13 in-bounds centres; E235 uses all 30, as §3 fixed.
