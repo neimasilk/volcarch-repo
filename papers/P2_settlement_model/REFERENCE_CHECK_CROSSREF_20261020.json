@@ -1,0 +1,518 @@
+[
+ {
+  "key": "phillips2009",
+  "doi": "10.1890/07-2153.1",
+  "bib_year": "2009",
+  "bib_vol": "19",
+  "bib_authors": "Phillips, Steven J. and Dud{\\'i}k, Miroslav and Elith, Jane and Graham, Catherine H. and Lehmann, Anthony and Leathwick, John and Ferrier, Simon",
+  "bib_title": "Sample selection bias and presence-only distribution models: implications for background and pseudo-absence data",
+  "cr_authors": [
+   "Phillips",
+   "Dudík",
+   "Elith",
+   "Graham",
+   "Lehmann",
+   "Leathwick",
+   "Ferrier"
+  ],
+  "cr_year": 2009,
+  "cr_title": "Sample selection bias and presence‐only distribution models: implications for background and pseudo‐absence data",
+  "cr_vol": "19",
+  "status": "OK"
+ },
+ {
+  "key": "roberts2017",
+  "doi": "10.1111/ecog.02881",
+  "bib_year": "2017",
+  "bib_vol": "40",
+  "bib_authors": "Roberts, David R. and Bahn, Volker and Ciuti, Simone and Boyce, Mark S. and Elith, Jane and Guillera-Arroita, Gurutzeta and Hauenstein, Severin and Lahoz-Monfort, Jos{\\'e} J. and Schr{\\\"o}der, Boris and Thuiller, Wilfried and Warton, David I. and Wintle, Brendan A. and Hartig, Florian and Dormann, Carsten F.",
+  "bib_title": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+  "cr_authors": [
+   "Roberts",
+   "Bahn",
+   "Ciuti",
+   "Boyce",
+   "Elith",
+   "Guillera‐Arroita",
+   "Hauenstein",
+   "Lahoz‐Monfort",
+   "Schröder",
+   "Thuiller",
+   "Warton",
+   "Wintle",
+   "Hartig",
+   "Dormann"
+  ],
+  "cr_year": 2017,
+  "cr_title": "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+  "cr_vol": "40",
+  "status": "OK"
+ },
+ {
+  "key": "valavi2019",
+  "doi": "10.1111/2041-210X.13107",
+  "bib_year": "2019",
+  "bib_vol": "10",
+  "bib_authors": "Valavi, Roozbeh and Elith, Jane and Lahoz-Monfort, Jos{\\'e} J. and Guillera-Arroita, Gurutzeta",
+  "bib_title": "{blockCV}: An {R} package for generating spatially or environmentally separated folds for k-fold cross-validation of species distribution models",
+  "cr_authors": [
+   "Valavi",
+   "Elith",
+   "Lahoz‐Monfort",
+   "Guillera‐Arroita"
+  ],
+  "cr_year": 2019,
+  "cr_title": "<scp>block</scp>\n                    <scp>CV</scp>\n                    : An\n                    <scp>r</scp>\n                    package for generating spatially or environmentally separated folds for\n                    <i>k</i>\n                    ‐fold cross‐validation of species distribution models",
+  "cr_vol": "10",
+  "status": "CHECK: TITLE cr=<scp>block</scp>\n                    <scp>CV</scp>\n                    : An\n              "
+ },
+ {
+  "key": "allouche2006",
+  "doi": "10.1111/j.1365-2664.2006.01214.x",
+  "bib_year": "2006",
+  "bib_vol": "43",
+  "bib_authors": "Allouche, Omri and Tsoar, Asaf and Kadmon, Ronen",
+  "bib_title": "Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic ({TSS})",
+  "cr_authors": [
+   "ALLOUCHE",
+   "TSOAR",
+   "KADMON"
+  ],
+  "cr_year": 2006,
+  "cr_title": "Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic (TSS)",
+  "cr_vol": "43",
+  "status": "OK"
+ },
+ {
+  "key": "breiman2001",
+  "doi": "10.1023/A:1010933404324",
+  "bib_year": "2001",
+  "bib_vol": "45",
+  "bib_authors": "Breiman, Leo",
+  "bib_title": "Random forests",
+  "cr_authors": [
+   "Breiman"
+  ],
+  "cr_year": 2001,
+  "cr_title": "Random Forests",
+  "cr_vol": "45",
+  "status": "OK"
+ },
+ {
+  "key": "chen2016",
+  "doi": "10.1145/2939672.2939785",
+  "bib_year": "2016",
+  "bib_vol": "",
+  "bib_authors": "Chen, Tianqi and Guestrin, Carlos",
+  "bib_title": "{XGBoost}: A scalable tree boosting system",
+  "cr_authors": [
+   "Chen",
+   "Guestrin"
+  ],
+  "cr_year": 2016,
+  "cr_title": "XGBoost",
+  "cr_vol": null,
+  "status": "CHECK: TITLE cr=XGBoost"
+ },
+ {
+  "key": "verhagen2012",
+  "doi": "10.1007/s10816-011-9102-7",
+  "bib_year": "2012",
+  "bib_vol": "19",
+  "bib_authors": "Verhagen, Philip and Whitley, Thomas G.",
+  "bib_title": "Integrating archaeological theory and predictive modeling: a live report from the scene",
+  "cr_authors": [
+   "Verhagen",
+   "Whitley"
+  ],
+  "cr_year": 2012,
+  "cr_title": "Integrating Archaeological Theory and Predictive Modeling: a Live Report from the Scene",
+  "cr_vol": "19",
+  "status": "OK"
+ },
+ {
+  "key": "castiello2021",
+  "doi": "10.5334/jcaa.71",
+  "bib_year": "2021",
+  "bib_vol": "4",
+  "bib_authors": "Castiello, Marco and Tonini, Marj",
+  "bib_title": "Machine learning applications in archaeological predictive modelling",
+  "cr_authors": [
+   "Castiello",
+   "Tonini"
+  ],
+  "cr_year": 2021,
+  "cr_title": "An Explorative Application of Random Forest Algorithm for Archaeological Predictive Modeling. A Swiss Case Study",
+  "cr_vol": "4",
+  "status": "CHECK: TITLE cr=An Explorative Application of Random Forest Algorithm for Archaeological Predictive Modeli"
+ },
+ {
+  "key": "wang2023",
+  "doi": "10.3390/ijgi12060238",
+  "bib_year": "2023",
+  "bib_vol": "12",
+  "bib_authors": "Wang, Cheng and Li, Ying and Liu, Yijian and Liu, Huan and Liu, Jian and Su, Yijian and Guo, Huadong",
+  "bib_title": "A machine-learning approach to geospatial predictive modelling in archaeology",
+  "cr_authors": [
+   "Wang",
+   "Shi",
+   "Oguchi"
+  ],
+  "cr_year": 2023,
+  "cr_title": "Archaeological Predictive Modeling Using Machine Learning and Statistical Methods for Japan and China",
+  "cr_vol": "12",
+  "status": "CHECK: AUTHORS_NOT_IN_CR guo,li,liu,su | N_AUTHORS bib=7 cr=3 | TITLE cr=Archaeological Predictive Modeling Using Machine Learning and Statistical Methods for Japa"
+ },
+ {
+  "key": "comer2023",
+  "doi": "10.1016/j.jasrep.2022.103824",
+  "bib_year": "2023",
+  "bib_vol": "47",
+  "bib_authors": "Comer, Douglas C. and Harrower, Michael J. and McCorriston, Joy and O'Meara, Benjamin and Sadr, Karim",
+  "bib_title": "Sampling methods for archaeological predictive modeling",
+  "cr_authors": [
+   "Comer",
+   "Comer",
+   "Dumitru",
+   "Priebe",
+   "Patsolic"
+  ],
+  "cr_year": 2023,
+  "cr_title": "Sampling methods for archaeological predictive modeling: Spatial autocorrelation and model performance",
+  "cr_vol": "48",
+  "status": "CHECK: AUTHORS_NOT_IN_CR harrower,mccorriston,omeara,sadr | VOL bib=47 cr=48"
+ },
+ {
+  "key": "elith2006",
+  "doi": "10.1111/j.2006.0906-7590.04596.x",
+  "bib_year": "2006",
+  "bib_vol": "29",
+  "bib_authors": "Elith, Jane and Graham, Catherine H. and Anderson, Robert P. and Dud{\\'i}k, Miroslav and Ferrier, Simon and Guisan, Antoine and Hijmans, Robert J. and Huettmann, Falk and Leathwick, John R. and Lehmann, Anthony and Li, Jin and Lohmann, Lucia G. and Loiselle, Bette A. and Manion, Glenn and Moritz, Craig and Nakamura, Miguel and Nakazawa, Yoshinori and Overton, Jacob McC. and Peterson, A. Townsend and Phillips, Steven J. and Richardson, Karen and Scachetti-Pereira, Ricardo and Schapire, Robert E. and Sober{\\'o}n, Jorge and Williams, Stephen and Wisz, Mary S. and Zimmermann, Niklaus E.",
+  "bib_title": "Novel methods improve prediction of species' distributions from occurrence data",
+  "cr_authors": [
+   "Elith*",
+   "H. Graham*",
+   "P. Anderson",
+   "Dudík",
+   "Ferrier",
+   "Guisan",
+   "J. Hijmans",
+   "Huettmann",
+   "R. Leathwick",
+   "Lehmann",
+   "Li",
+   "G. Lohmann",
+   "A. Loiselle",
+   "Manion",
+   "Moritz",
+   "Nakamura",
+   "Nakazawa",
+   "McC. M. Overton",
+   "Townsend Peterson",
+   "J. Phillips",
+   "Richardson",
+   "Scachetti‐Pereira",
+   "E. Schapire",
+   "Soberón",
+   "Williams",
+   "S. Wisz",
+   "E. Zimmermann"
+  ],
+  "cr_year": 2006,
+  "cr_title": "Novel methods improve prediction of species’ distributions from occurrence data",
+  "cr_vol": "29",
+  "status": "CHECK: AUTHORS_NOT_IN_CR anderson,graham,hijmans,leathwick,lohmann,loiselle,overton,peterson,phillips,schapire,wisz,zimmermann"
+ },
+ {
+  "key": "barbet2012",
+  "doi": "10.1111/j.2041-210X.2011.00172.x",
+  "bib_year": "2012",
+  "bib_vol": "3",
+  "bib_authors": "Barbet-Massin, Morgane and Jiguet, Fr{\\'e}d{\\'e}ric and Albert, C{\\'e}cile H. and Thuiller, Wilfried",
+  "bib_title": "Selecting pseudo-absences for species distribution models: how, where and how many?",
+  "cr_authors": [
+   "Barbet‐Massin",
+   "Jiguet",
+   "Albert",
+   "Thuiller"
+  ],
+  "cr_year": 2012,
+  "cr_title": "Selecting pseudo‐absences for species distribution models: how, where and how many?",
+  "cr_vol": "3",
+  "status": "OK"
+ },
+ {
+  "key": "senay2013",
+  "doi": "10.1371/journal.pone.0071218",
+  "bib_year": "2013",
+  "bib_vol": "8",
+  "bib_authors": "Senay, Sabrina D. and Worner, Susan P. and Ikeda, Takayoshi",
+  "bib_title": "Novel three-step pseudo-absence selection technique for improved species distribution modelling",
+  "cr_authors": [
+   "Senay",
+   "Worner",
+   "Ikeda"
+  ],
+  "cr_year": 2013,
+  "cr_title": "Novel Three-Step Pseudo-Absence Selection Technique for Improved Species Distribution Modelling",
+  "cr_vol": "8",
+  "status": "OK"
+ },
+ {
+  "key": "araujo2006",
+  "doi": "10.1111/j.1365-2699.2006.01584.x",
+  "bib_year": "2006",
+  "bib_vol": "33",
+  "bib_authors": "Ara{\\'u}jo, Miguel B. and Guisan, Antoine",
+  "bib_title": "Five (or so) challenges for species distribution modelling",
+  "cr_authors": [
+   "Araújo",
+   "Guisan"
+  ],
+  "cr_year": 2006,
+  "cr_title": "Five (or so) challenges for species distribution modelling",
+  "cr_vol": "33",
+  "status": "OK"
+ },
+ {
+  "key": "wisz2009",
+  "doi": "10.1186/1472-6785-9-8",
+  "bib_year": "2009",
+  "bib_vol": "9",
+  "bib_authors": "Wisz, Mary S. and Guisan, Antoine",
+  "bib_title": "Do pseudo-absence selection strategies influence species distribution models and their predictions? {A}n information-theoretic approach based on simulated data",
+  "cr_authors": [
+   "Wisz",
+   "Guisan"
+  ],
+  "cr_year": 2009,
+  "cr_title": "Do pseudo-absence selection strategies influence species distribution models and their predictions? An information-theoretic approach based on simulated data",
+  "cr_vol": "9",
+  "status": "OK"
+ },
+ {
+  "key": "lobo2010",
+  "doi": "10.1111/j.1600-0587.2009.06039.x",
+  "bib_year": "2010",
+  "bib_vol": "33",
+  "bib_authors": "Lobo, Jorge M. and Jim{\\'e}nez-Valverde, Alberto and Hortal, Joaqu{\\'i}n",
+  "bib_title": "The uncertain nature of absences and their importance in species distribution modelling",
+  "cr_authors": [
+   "Lobo",
+   "Jiménez‐Valverde",
+   "Hortal"
+  ],
+  "cr_year": 2010,
+  "cr_title": "The uncertain nature of absences and their importance in species distribution modelling",
+  "cr_vol": "33",
+  "status": "OK"
+ },
+ {
+  "key": "phillips2006",
+  "doi": "10.1016/j.ecolmodel.2005.03.026",
+  "bib_year": "2006",
+  "bib_vol": "190",
+  "bib_authors": "Phillips, Steven J. and Anderson, Robert P. and Schapire, Robert E.",
+  "bib_title": "Maximum entropy modeling of species geographic distributions",
+  "cr_authors": [
+   "Phillips",
+   "Anderson",
+   "Schapire"
+  ],
+  "cr_year": 2006,
+  "cr_title": "Maximum entropy modeling of species geographic distributions",
+  "cr_vol": "190",
+  "status": "OK"
+ },
+ {
+  "key": "kvamme2006",
+  "doi": "",
+  "bib_year": "2006",
+  "bib_vol": "",
+  "bib_authors": "Kvamme, Kenneth L.",
+  "bib_title": "There and back again: {R}evisiting archaeological locational modeling",
+  "status": "NO_DOI"
+ },
+ {
+  "key": "banks2006",
+  "doi": "",
+  "bib_year": "2006",
+  "bib_vol": "",
+  "bib_authors": "Banks, William E. and d'Errico, Francesco and Dibble, Harold L. and Krishtalka, Leonard and West, Dixie and Olszewski, Deborah I. and Peterson, A. Townsend and Anderson, David G. and Gillam, J. Christopher and Montet-White, Anta and Crucifix, Michel and Marean, Curtis W. and S{\\'a}nchez-Go{\\~n}i, Mar{\\'i}a-Fernanda and Wohlfarth, Barbara and Vanhaeren, Marian",
+  "bib_title": "Eco-cultural niche modeling: new tools for reconstructing the geography and ecology of past human populations",
+  "status": "NO_DOI"
+ },
+ {
+  "key": "franklin2009",
+  "doi": "",
+  "bib_year": "2009",
+  "bib_vol": "",
+  "bib_authors": "Franklin, Janet",
+  "bib_title": "Mapping Species Distributions: Spatial Inference and Prediction",
+  "status": "NO_DOI"
+ },
+ {
+  "key": "howey2016",
+  "doi": "10.1073/pnas.1603450113",
+  "bib_year": "2016",
+  "bib_vol": "113",
+  "bib_authors": "Howey, Meghan C. L. and Palace, Michael W. and McMichael, Crystal H.",
+  "bib_title": "Geospatial modeling approach to monument construction using {M}ichigan from {A}.{D}. 1000--1600 as a case study",
+  "cr_authors": [
+   "Howey",
+   "Palace",
+   "McMichael"
+  ],
+  "cr_year": 2016,
+  "cr_title": "Geospatial modeling approach to monument construction using Michigan from A.D. 1000–1600 as a case study",
+  "cr_vol": "113",
+  "status": "OK"
+ },
+ {
+  "key": "noviello2018",
+  "doi": "10.1016/j.apgeog.2018.04.005",
+  "bib_year": "2018",
+  "bib_vol": "95",
+  "bib_authors": "Noviello, Mariangela and Cafarelli, Barbara and Calculli, Crescenza and Sarris, Apostolos and Mairota, Paola",
+  "bib_title": "Investigating the distribution of archaeological sites: multiparametric vs probability models and potentials for remote sensing data",
+  "cr_authors": [
+   "Noviello",
+   "Cafarelli",
+   "Calculli",
+   "Sarris",
+   "Mairota"
+  ],
+  "cr_year": 2018,
+  "cr_title": "Investigating the distribution of archaeological sites: Multiparametric vs probability models and potentials for remote sensing data",
+  "cr_vol": "95",
+  "status": "OK"
+ },
+ {
+  "key": "yaworsky2020",
+  "doi": "10.1371/journal.pone.0239424",
+  "bib_year": "2020",
+  "bib_vol": "15",
+  "bib_authors": "Yaworsky, Peter M. and Vernon, Kenneth B. and Spangler, Jerry D. and Brewer, Simon C. and Codding, Brian F.",
+  "bib_title": "Advancing predictive modeling in archaeology: an evaluation of regression and machine learning methods on the {G}rand {S}taircase-{E}scalante {N}ational {M}onument",
+  "cr_authors": [
+   "Yaworsky",
+   "Vernon",
+   "Spangler",
+   "Brewer",
+   "Codding"
+  ],
+  "cr_year": 2020,
+  "cr_title": "Advancing predictive modeling in archaeology: An evaluation of regression and machine learning methods on the Grand Staircase-Escalante National Monument",
+  "cr_vol": "15",
+  "status": "OK"
+ },
+ {
+  "key": "lobo2008",
+  "doi": "10.1111/j.1466-8238.2007.00358.x",
+  "bib_year": "2008",
+  "bib_vol": "17",
+  "bib_authors": "Lobo, Jorge M. and Jim{\\'e}nez-Valverde, Alberto and Real, Raimundo",
+  "bib_title": "{AUC}: a misleading measure of the performance of predictive distribution models",
+  "cr_authors": [
+   "Lobo",
+   "Jiménez‐Valverde",
+   "Real"
+  ],
+  "cr_year": 2008,
+  "cr_title": "AUC: a misleading measure of the performance of predictive distribution models",
+  "cr_vol": "17",
+  "status": "OK"
+ },
+ {
+  "key": "hijmans2012",
+  "doi": "10.1890/11-0826.1",
+  "bib_year": "2012",
+  "bib_vol": "93",
+  "bib_authors": "Hijmans, Robert J.",
+  "bib_title": "Cross-validation of species distribution models: removing spatial sorting bias and calibration with a null model",
+  "cr_authors": [
+   "Hijmans"
+  ],
+  "cr_year": 2012,
+  "cr_title": "Cross‐validation of species distribution models: removing spatial sorting bias and calibration with a null model",
+  "cr_vol": "93",
+  "status": "OK"
+ },
+ {
+  "key": "barve2011",
+  "doi": "10.1016/j.ecolmodel.2011.02.011",
+  "bib_year": "2011",
+  "bib_vol": "222",
+  "bib_authors": "Barve, Narayani and Barve, Vijay and Jim{\\'e}nez-Valverde, Alberto and Lira-Noriega, Andr{\\'e}s and Maher, Sean P. and Peterson, A. Townsend and Sober{\\'o}n, Jorge and Villalobos, Fabricio",
+  "bib_title": "The crucial role of the accessible area in ecological niche modeling and species distribution modeling",
+  "cr_authors": [
+   "Barve",
+   "Barve",
+   "Jiménez-Valverde",
+   "Lira-Noriega",
+   "Maher",
+   "Peterson",
+   "Soberón",
+   "Villalobos"
+  ],
+  "cr_year": 2011,
+  "cr_title": "The crucial role of the accessible area in ecological niche modeling and species distribution modeling",
+  "cr_vol": "222",
+  "status": "OK"
+ },
+ {
+  "key": "warren2011",
+  "doi": "10.1890/10-1171.1",
+  "bib_year": "2011",
+  "bib_vol": "21",
+  "bib_authors": "Warren, Dan L. and Seifert, Stephanie N.",
+  "bib_title": "Ecological niche modeling in {M}axent: the importance of model complexity and the performance of model selection criteria",
+  "cr_authors": [
+   "Warren",
+   "Seifert"
+  ],
+  "cr_year": 2011,
+  "cr_title": "Ecological niche modeling in Maxent: the importance of model complexity and the performance of model selection criteria",
+  "cr_vol": "21",
+  "status": "OK"
+ },
+ {
+  "key": "radosavljevic2014",
+  "doi": "10.1111/jbi.12227",
+  "bib_year": "2014",
+  "bib_vol": "41",
+  "bib_authors": "Radosavljevic, Aleksandar and Anderson, Robert P.",
+  "bib_title": "Making better {M}axent models of species distributions: complexity, overfitting and evaluation",
+  "cr_authors": [
+   "Radosavljevic",
+   "Anderson"
+  ],
+  "cr_year": 2014,
+  "cr_title": "Making better M\n                    <scp>axent</scp>\n                    models of species distributions: complexity, overfitting and evaluation",
+  "cr_vol": "41",
+  "status": "CHECK: TITLE cr=Making better M\n                    <scp>axent</scp>\n                    models of species"
+ },
+ {
+  "key": "guillera2015",
+  "doi": "10.1111/geb.12268",
+  "bib_year": "2015",
+  "bib_vol": "24",
+  "bib_authors": "Guillera-Arroita, Gurutzeta and Lahoz-Monfort, Jos{\\'e} J. and Elith, Jane and Gordon, Ascelin and Kujala, Heini and Lentini, Pia E. and McCarthy, Michael A. and Tingley, Reid and Wintle, Brendan A.",
+  "bib_title": "Is my species distribution model fit for purpose? {M}atching data and models to applications",
+  "cr_authors": [
+   "Guillera‐Arroita",
+   "Lahoz‐Monfort",
+   "Elith",
+   "Gordon",
+   "Kujala",
+   "Lentini",
+   "McCarthy",
+   "Tingley",
+   "Wintle"
+  ],
+  "cr_year": 2015,
+  "cr_title": "Is my species distribution model fit for purpose? Matching data and models to applications",
+  "cr_vol": "24",
+  "status": "OK"
+ }
+]

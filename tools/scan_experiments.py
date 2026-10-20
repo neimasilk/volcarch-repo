@@ -68,6 +68,7 @@ LINE_MAP = {
     "E210": ["01_spatial"], "E217": ["01_spatial"], "E218": ["01_spatial"],
     "E219": ["01_spatial"], "E220": ["01_spatial"], "E221": ["01_spatial"],
     "E222": ["01_spatial"], "E223": ["01_spatial"], "E224": ["01_spatial"],
+    "E235": ["01_spatial"],
     # --- 02 taphonomy -------------------------------------------------------
     "E002": ["02_taphonomy"], "E017": ["02_taphonomy"], "E018": ["02_taphonomy"],
     "E020": ["02_taphonomy"], "E024": ["02_taphonomy"], "E052": ["02_taphonomy"],
@@ -126,6 +127,7 @@ LINE_MAP = {
     "E225": ["05_archival_nlp"],
     "E226": ["05_archival_nlp", "06_thesis"],
     "E233": ["05_archival_nlp", "04_language_text"],
+    "E234": ["03_paleoenv"],
     # --- 06 thesis / synthesis ---------------------------------------------
     "E048": ["06_thesis"], "E055": ["06_thesis"], "E060": ["06_thesis"],
     "E062": ["06_thesis"], "E064": ["06_thesis"], "E068": ["06_thesis"],

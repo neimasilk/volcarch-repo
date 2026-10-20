@@ -1,6 +1,25 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-15 · **Temperature:** 🟡 WAITING — P2 in round-2 review; P17 withdrawn; P11 parked 2026-10-15
+**Updated:** 2026-10-20 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+
+> ## 🟠 2026-10-20 — P2 / JCAA #280: REVISIONS REQUESTED (decision 19 Oct; due 16 Nov)
+> **Start here: `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`** (paraphrased points, verified facts,
+> what changes, gates, timeline, decisions D1–D7).
+> - **R2 (methods fair):** volcanic setting or elevation?
+>   - E219 part C cannot answer at high elevation: 868 non-volcanic vs 41,878 volcanic cells in the top quintile;
+>     the site arm n = 2 (ledger C077).
+>   - → **E235** pre-registered (`experiments/E235_elevation_vs_volcanic_control/DESIGN.md`; not run; D3).
+>   - → new Figure 1 with topography.
+> - **R1 (clarity fair):** no history of the review in the text (38 hits); a plain research question and terms;
+>   idioms out ("dial" ×12, "ladder" ×22, "home-court", "Jaccard said no"); "§" → "Section"; Figure 1 a real map;
+>   Figure 5 legend; references.
+> - **C076:** 3 of 26 DOI-bearing cited references are wrong (comer2023, wang2023, castiello2021, all at tex line
+>   157). Correct them, read the papers, check the sentence (`tools/check_bib_crossref.py`).
+> - **G15:** APC 651, waived only in writing; our April request is undecided → waiver email draft, D4.
+> - **Still owed from 10-02:** the replacement abstract into the .tex; the "true performance" wording (claim C2).
+>   Both now fold into R1.
+> - **Next for Claude after the PI's D3:** run E235 → Figures 1 and 5 → references → `VENUE.md` → fact sheet for the
+>   PI's prose.
 
 > **2026-10-15 — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5.** **P11 PARKED** (K2 = option c; `papers/P11_volcanic_informedness/PARKED.md` lists the unpark paths
 > a/b). **P2/JCAA:** if nothing has come by **9 Nov** (10 weeks of round 2), one polite status

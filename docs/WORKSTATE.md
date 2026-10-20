@@ -1,8 +1,58 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-19 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-20 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> ## 🟠 2026-10-20 — P2 / JCAA #280: REVISIONS REQUESTED (decision 2026-10-19; due **16 Nov 2026**)
+> The PI pasted the decision email. Round 2, for both reviewers:
+> - **R1** ("Resubmit for Review"): contribution excellent; **clarity fair**.
+> - **R2** ("Revisions Required"): **methods fair**.
+>
+> The revised version may be reviewed again.
+> **Full triage, gates, timeline and decisions D1–D7: `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`.**
+> - **R2 (the gate):** volcanic setting or simply elevation? Our round-1 control (E219 C) had almost no non-volcanic
+>   land in its top elevation quintile (868 vs 41,878 matched cells; C077).
+>   - **E235** pre-registered (band-by-band control on the stored E221 maps; not run; D3).
+>   - New Figure 1 with topography.
+> - **R1:** the paper must be self-contained:
+>   - no reviewer, revision or earlier-version talk (38 hits);
+>   - a plainer research question and explanations;
+>   - three idioms named ("dial", "judging at home", "Jaccard said no");
+>   - "§" → "Section";
+>   - Figure 1 as a real map; Figure 5's legend.
+> - **References (C076):** the Comer et al. entry is wrong, as R1 said. **Crossref on all 26 DOI-bearing cited
+>   entries: 3 wrong** (comer2023 and wang2023 have invented authors; castiello2021, a JCAA paper, has the wrong
+>   title). All three are cited in one sentence, which still has to be checked against the papers.
+> - **G15 not met:** JCAA's page now lists an APC of 651 (pound sign garbled in the fetch), waived only in writing.
+>   The April waiver request is still undecided → draft email `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md` (D4).
+> - **PI decisions by 23 Oct:**
+>   - D1: G16, who writes the prose;
+>   - D2: G14, a strict rest (freeze 2 Nov) or an adversarial read in its place (freeze 9 Nov);
+>   - D3: E235;
+>   - D4: send the waiver email;
+>   - D6: the acknowledgements line;
+>   - D7: portal login for any annotated copy;
+>   - tell Go Frendi.
+> - The 9 Nov status query is void. Canary **227**; next free **E236**; ledger next **C078**.
+> - The 10-19 work (E234 and others) is **still uncommitted**, waiting for the PI's word.
+
+> **2026-10-19 (latest) — PI "ya, buatkan desain jalur sumber untuk E216" → E234 designed (pre-registration; not run):**
+> - `experiments/E234_e216_source_route/`: DESIGN + claim register (41 rows, 15 Tier 1) + agent prompts.
+>   - Two blind AI domain reads (as a palynologist reviewing for VHA).
+>   - Two blind inventory searches (Neotoma + fixed EN/ID queries).
+>   - Source extraction with a verbatim guard.
+>   - A re-run of E216's own code under published ranges.
+>   - A kill switch: a dated 0–500 CE record already at the heartland.
+> - **Found while designing:** H1's "P = 0.000 at every grid point" rests on an uncited 1/100 factor (all clearing
+>   placed at two points). Under uniform allocation, E216's own formula gives 21.9 pp at the central population,
+>   against 17.5 pp. If the run confirms it, the existing network *would* detect a central-sized population spread over
+>   the island. That moves toward E214's counter-evidence.
+> - **Waiting for the PI:**
+>   - (1) push the design (it freezes the pre-registration) and run (~7 agents);
+>   - (2) after the results: line 03 rule 2 / E216 checklist step 1 → route H or S (proposed text in DESIGN §9);
+>   - (3) confirm that K9 does not apply (an audit of existing work, not a new test).
+> - Canary **226**; next free **E235**; ledger next **C076**.
+>
 > **2026-10-19 (later) — PI: "AI penuh = fitur, bukan bug … kalau perlu ahli, pivot"; then "lanjutkan" on the defaults:**
 > - **Rule** in CLAUDE.md/AGENTS.md "When Unsure": check sources yourself; pivot when a human judge is truly needed;
 >   disclose AI use.
@@ -18,7 +68,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 >   - the ⚠ "needs a historical linguist" flags in E228–E231 (P8 is in review; nothing due);
 >   - E226's unpark condition (b) ("a domain expert codes I1").
 >   - Each needs a design; none is started.
-> - Canary **225**; next free **E234**; ledger next **C076**.
+> - Canary 225 → 226 with E234 (block above).
 >
 > **2026-10-19 — orbit session ("lanjutkan yg perlu dilanjutkan"):**
 > - **Mailbox:** only the journal's receipt of P8 R1 (17 Oct; received 16 Oct). Nothing from Nastiti, VEGAN, JCAA or
@@ -188,9 +238,11 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 
 | 5 | **P8 revision → response letter → resubmit** at OL (conditional acceptance 2026-10-05). **[10-12: final review done — article v0.4, Figures 1–2, letters v0.5, tracked copy in the portal draft, approved, G12 nine of nine, NOT submitted; waiting for the PI's word; `revision_v0.2/PORTAL_STATE_20261012.md`.]** **[10-08: R1 prepared in the portal, Submit next week; Managing Editor answered the practical questions — no fees, tracked + clean copy, Word letter with bullets; Sander's answer on content pending. Afternoon: package checked, rebuilt, pushed, Zenodo corrected in place, **all nine files in the portal draft, approved, G12 passed, NOT submitted; content approved by the PI 14:48 ("setuju")** — `revision_v0.2/PORTAL_STATE_20261008.md`; open: Sander, co-author, then Submit on the PI's word. The text below is the 10-06 state.]** Analyses and number audit **done 10-05** (E227, E228). **2026-10-06: tables/Figure 1 (E229), robustness re-run (E230), corrected `.bib`, `VENUE.md`, outline and the draft note to the editor are ready** — and, after two adversarial reads on 10-06, the readings in the outline, work plan (§10.7), editor note and READMEs were corrected twice (E231 with post hoc tables; see the note at the top). **Next = the PI's decisions D1–D10** (one label; headline model; drop the in-sample consensus; reword the negative result; 16-language section; §4.5; tell the editor; write in Word; shorten the robustness subsection; when to ask for the formal letter) **and sending the note to the editor** (`docs/correspondence/EMAIL_OL_EDITOR_P8_NOTE_DRAFT_20261006.md`), then reading the eight reviewer-supplied references, then **the PI writes the revised prose and the response letter (G16)**; G14 freeze (14 days) + G1 on the new text + G12 after upload | 2026-10-06 (everything but the prose) | `papers/P8_linguistic_fossils/REVISION_OUTLINE_20261006.md` (what each section must contain) · `REVISION_WORKPLAN.md` (decisions, point-by-point facts, corrected numbers; §10 = new on 10-06) · `VENUE.md` · `REVISION_OL_20261005.md` (ledger) · OL portal link is in the decision email (not recorded here: public repo) |
 
+| 6 | **P2 round-2 revision → resubmit at JCAA by 16 Nov 2026** (decision 2026-10-19: revisions requested). First: the PI's decisions D1–D7 (by 23 Oct) and the **waiver email** (G15, D4: draft ready). Then E235 run, Figures 1 and 5, references (C076), the PI's prose, freeze, G1 + adversarial read, letter traced against the final file, upload + G12 | 2026-10-20 (triage, design, email draft) | `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md` · `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md` · `experiments/E235_elevation_vs_volcanic_control/DESIGN.md` |
+
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
-**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 under review (P2) · 1 withdrawn (P17, 2026-10-02) · 225 experiments** (225 folder lokal, E001–E233; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan; +E233 validasi P23 terhadap terjemahan penyunting DHARMA, 19 Okt).
+**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 in revision (P2: revisions requested 2026-10-19, due 16 Nov) · 1 withdrawn (P17, 2026-10-02) · 227 experiments** (227 folder lokal, E001–E235; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan; +E233 validasi P23 terhadap terjemahan penyunting DHARMA, 19 Okt; +E234 desain pra-registrasi jalur sumber E216, 19 Okt, belum dijalankan; +E235 desain pra-registrasi kontrol elevasi vs vulkanik untuk revisi P2, 20 Okt, belum dijalankan).
 **2026-10-02: all four ledger items done** (JCAA reply, VEGAN email, P17 withdrawal, Zenodo notice). Ledger is
 empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P8** (OL) — **decision 2026-10-05: accepted pending revisions** (ledger item 5).
 
@@ -201,8 +253,10 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 | Deadline | Item |
 |---|---|
 | 23 Oct 2026 | Follow-ups if silent: Nastiti (P23 reader + Kusen/Resiyani lists) and BRIN VEGAN (microbotany); Claude drafts on 22 Oct, PI sends (K8) |
+| **23 Oct 2026** | **P2 revision: PI decisions D1–D7 + waiver email (D4)** — `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md` §5 |
+| 2 Nov / 9 Nov 2026 | P2 freeze: strict G14 (2 Nov) or D2 option (b) (9 Nov); if it slips past **6 Nov**, ask JCAA for an extension that day |
 | 6 Nov 2026 | Fallbacks if still silent: P23 → Griffiths/DHARMA or a UGM epigrapher; VEGAN → Castillo, or park T5 (K8) |
-| 9 Nov 2026 | P2/JCAA: one polite status query if nothing has come (10 weeks of round 2) (K8) |
+| **16 Nov 2026** | **P2/JCAA round-2 revision due** (4 weeks from the 19 Oct decision). *(The 9 Nov status query (K8) is void: the decision came.)* |
 | **15 Nov 2026** | **K6 — program direction ("taphonomy of records"; pending L1 amendments) — PI.** With it: whether E225 phase 2 runs (pilot LANJUT 10-15) |
 | 15 Jan 2027 | DHQ, realistic deadline for P23 |
 | — | P8 R1 (submitted 2026-10-15; receipt 17 Oct): nothing due until the journal writes |
@@ -214,7 +268,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟡 WAITING | P2 in round-2 review (status query 9 Nov if silent) · P17 withdrawn 10-02 · **P11 PARKED 10-15** (`papers/P11_volcanic_informedness/PARKED.md`) | PI + Claude |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REVISION | **P2: revisions requested 2026-10-19, due 16 Nov** — decisions D1–D7 by 23 Oct; E235 designed (C077); references C076; waiver (G15) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | PI + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |
@@ -290,7 +344,7 @@ DJKI HKI filing (4 docs ready) · dashboard model regeneration on the 30-volcano
 
 | Paper | Line | Status |
 |---|---|---|
-| **P2** Settlement model | 01 | ⏳ **round-2 review at JCAA #280 since 2026-08-31.** Title corrected by the editor; **abstract reply owed** (§1 item 1). Claim set: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. |
+| **P2** Settlement model | 01 | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov.** R1 Resubmit for Review (clarity), R2 Revisions Required (elevation vs volcanic setting). Triage: `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`. APC waiver still undecided (G15). Claim set: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. |
 | **P17** Two Javas | 01 | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365; never left the submission stage). Central result = geocoding artefact (C032); second result (929 CE shift) rides on the same points. Record: `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`. A methods paper on the artefact is possible later (not planned). |
 | **P8** Linguistic fossils | 04 | 🟢 **conditionally accepted 2026-10-05; R1 submitted 2026-10-15** — *Oceanic Linguistics* (Scimago Q2) OL-03-2026-11R1; second review round by the same reviewers. Record: `papers/P8_linguistic_fossils/revision_v0.2/PORTAL_STATE_20261015.md`. |
 | **P23** sīma village toponyms (Naskah A) | 05 | 📝 PLANNING (2026-10-02) — critical case study (toponym resolution is the bottleneck) from E226's frame → **DHQ "Case Study"** (no fees; JDMDH backup). Needs human validation of a sample (epigrapher asked: Nastiti, 13:55). Drafting allowed; submission blocked by G13 until P2 or P8 decides. `papers/P23_sima_village_toponyms/README.md` |

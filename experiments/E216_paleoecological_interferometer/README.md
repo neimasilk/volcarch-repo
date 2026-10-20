@@ -12,6 +12,7 @@
 - D2 (deterministic P(detect)): `code/e216_sensitivity_sweep.py` sweeps RPP_NAP × threshold × α (27-point grid) — network-level null is P=0.000 at every grid point (robust, not parameter-dependent). See `results/sensitivity_summary.json`.
 - D3 (overstated positive control): `positive_control_status` downgraded from "CONFIRMED" to "QUALITATIVE ONLY... NOT re-derived"; explicit `go_no_go_branch` field discloses the PREREG NO-GO trigger.
 - D4 (hidden failing corner): `compute_missing_core_spec()` now reports the full population×clustering corner table instead of one hardcoded CONCENTRATION_FACTOR=4.0 headline. The conservative corner (floor population + uniform clearing) does NOT detect (12.6pp < 17.5pp threshold) and fails in 85% of its own parameter sweep — this caveat is now in the abstract (`results/PAPER_DRAFT_OUTLINE.md`), not buried in a constant.
+**2026-10-19 — route S designed:** `experiments/E234_e216_source_route/` checks every assumption below against published values and re-runs this code with them (G10 route S; pre-registered, not run). Found while designing: the network-level P = 0.000 rests on an uncited 1/100 factor for clearing outside a core's RSAP (`code/e216_detection_function.py` L270–276); see E234 DESIGN §2 O1. This file and its results stay as the run of record.
 **Next action (PI, human-gated — see `SUBMISSION_CHECKLIST.md`):** (1) Review updated paper draft outline → `results/PAPER_DRAFT_OUTLINE.md`. (2) Find palynologist co-author (G10). (3) Zenodo code deposit (G7). (4) Cross-model review (G9) before submit.
 
 ---

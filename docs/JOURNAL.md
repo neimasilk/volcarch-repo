@@ -11164,3 +11164,119 @@ yg di oceanic … lakukan sampai milestone kemudian buat handoff, commit dan pus
 - **[BRIDGE → 03]** Gerbang "co-author palinolog — BLOCKS everything" di E216 adalah kandidat pola yang sama; perlu desain dulu, dan aturan line 03 no. 2 tidak diubah diam-diam.
 - **[BRIDGE → 04]** Tanda ⚠ "perlu linguis" di E228–E231: kandidat cek ke ACD/tata bahasa; tunggu, karena P8 sedang direview.
 - **Lainnya:** kanari **225**; nomor bebas **E234**; ledger berikutnya **C076**. Kandidat lain: syarat buka E226 (b).
+
+## 2026-10-19 (lanjutan 3) — PI "ya, buatkan desain jalur sumber untuk E216" → E234 dipra-registrasi (belum dijalankan)
+
+**What:** E234 (`experiments/E234_e216_source_route/`) is the G10 route-S design for E216. It replaces "a palynologist
+co-author checks the RPP ranges, RSAP radii and thresholds" (E216 checklist §1) with a measurement against published
+values, on the E233 pattern.
+- **DESIGN.md** (frozen once pushed):
+  - two blind AI domain reads (Opus + Sonnet, prompted as a palynologist reviewing for VHA, no web, not shown our
+    findings);
+  - two blind inventory searches (Neotoma + fixed EN/ID queries; recall check on J1–J7, third searcher if below 5/7);
+  - three source extractors with a verbatim guard against saved page text (full texts outside the repo; SHA-256 kept);
+  - verdict rules (evidence levels F/A/S/2, M never evidence; biome rule);
+  - a re-run of E216's own code (R0 reproduce; R1 allocation U/C2/C4/H; R2 published-range grid; R3 sawah vs swidden;
+    R4 inventory and geography);
+  - decision rules per headline H1–H5, a kill switch (a dated 0–500 CE record within 20 km of a heartland point), and
+    "route S INCOMPLETE" if 4 or more of the 15 Tier-1 rows end with no source.
+- **claims_register.csv:** 41 rows, 15 Tier 1. **PROMPTS.md:** the three prompts, verbatim.
+
+**Found while reading E216's code for the design (DESIGN §2 O1–O7; no source consulted).**
+- **O1:** network-level P = 0.000 rests on `frac_in_rsap = rsap_km2 / (JAVA_AREA_KM2 * 100)`
+  (`code/e216_detection_function.py` L270–276). This is uncited, and it does not conserve area: the whole population's
+  clearing sits at two points. The corner table (L441–481) uses density instead.
+  - **Prediction recorded before the run:** under uniform allocation each terrestrial core sees the Java-average
+    fraction, 9.0 % (floor) or 18.1 % (central). At mid parameters that is 12.6 pp and 21.9 pp against 17.5 pp.
+  - If confirmed, H1 ("at any parameter setting", "0.000 uniformly") is withdrawn, and the network would detect a
+    central-sized spread population. That moves toward E214's counter-evidence; line 03 still asks for the hardest look.
+- **O2:** the coupling implies 0.66–3.25 ha cleared per person (mid 1.84), one value for wet rice and swidden.
+- **O3:** RSAP, core positions, the 1/100 factor and the J6 factors were never swept. NAP_BACKGROUND and RPP_ORYZA
+  enter no result.
+- **O4:** the "Kedu" point is about 25 km from Borobudur and 61 km from Prambanan; the "Brantas headwaters" point is
+  Kediri, on the middle course (design-time arithmetic, model-memory coordinates).
+- **O5:** the Dieng ~600 CE control is described as a "Plantago + herb rise"; whether *Plantago* is introduced in
+  Java is to be checked.
+- **O6:** the code puts 35 % of the Brantas headwaters in the Solo catchment.
+- **O7:** the Neotoma/IPPD harvest promised in E216 PREREG S1 was never recorded.
+
+**Not done / decisions for the PI:**
+- Nothing run; no source consulted for comparison.
+- Line 03 rule 2 and E216 checklist step 1 are **unchanged**; the proposed text is in DESIGN §9, for the PI after the
+  results.
+- K9 (no new computational experiment for the burial thesis without partner data): read as not applying, because E234
+  audits existing work. The PI is asked to confirm.
+- G13 is full (P2, P8), and P23 holds the drafting slot, so E216's manuscript waits regardless.
+
+**Housekeeping:** E234 → line 03 in `tools/scan_experiments.py`; index regenerated; counts 225 → 226 in CLAUDE.md,
+AGENTS.md, lines/README.md (line 03: 4 experiments), manifesto and WORKSTATE; canary SYNC OK 226. Pointers in the
+E216 README, line 03 STATE (top block + inbox), WORKSTATE (top block) and handoff §3. Next free **E235**; ledger next
+**C076**. Not committed (waits for the PI's word, since the push freezes the pre-registration).
+`[BRIDGE → 06_thesis]` if O1 is confirmed: E216's detection-power spine for P0 changes with it.
+
+## 2026-10-20 — P2/JCAA #280: keputusan ronde 2 = REVISIONS REQUESTED (19 Okt); triase, E235 dipra-registrasi, rujukan dicek
+
+**Pemicu:** PI menempel email keputusan JCAA ("breaking news"). Sesi orbit; kanari hijau 226 di awal; inBox kosong.
+Teks reviewer/editor **tidak** disalin ke repo (aturan repo publik); semua di bawah adalah parafrase.
+
+**Keputusan:** revisi diminta, mungkin di-review lagi; **tenggat 4 minggu → 16 Nov 2026**; unggah per komponen,
+balasan di komponen "Response to Reviewers"; jurnal menyebut ini kesempatan terakhir untuk suntingan besar.
+- R1 "Resubmit for Review": kontribusi sangat baik; **kejelasan "fair"**. Naskah harus berdiri sendiri, tanpa
+  cerita review/revisi. Pertanyaan riset lebih jelas dan lebih pedagogis. Tiga ungkapan membingungkan. "§" tak
+  lazim. Rujukan Comer dkk. salah. Gambar 1 bukan peta; legenda Gambar 5.
+- R2 "Revisions Required": **metode "fair"**. Masih tak jelas apakah model menangkap wilayah vulkanik atau sekadar
+  dataran tinggi; perlu pembanding dataran tinggi non-vulkanik. Gambar 1 tanpa topografi menyesatkan.
+
+**Dicek hari ini (fakta, bukan tafsir):**
+- **R2 sah.** Kontrol E219 bagian C (jawaban ronde 1) pada kuintil elevasi teratas berisi 41.878 sel vulkanik lawan
+  868 non-vulkanik (strata bersama), dan lengan situs non-vulkanik n = 2. Kalimat naskah "directionally consistent
+  with a volcanic-specific effect" (baris 493) melampaui buktinya; model tak punya fitur gunung api → ledger
+  **C077**.
+- **Rujukan:** Crossref atas ke-26 entri ber-DOI yang dikutip menemukan **3 salah**, semuanya di satu kalimat (tex
+  157):
+  - `comer2023`: penulis rekaan; vol 47 → 48.
+  - `wang2023`: penulis dan judul rekaan; yang benar Wang, Shi, Oguchi.
+  - `castiello2021` (makalah JCAA): judul salah.
+
+  Enam rujukan ENM dari 10 Agt lolos; ketiganya berasal dari v0.1 dan tak pernah dicek → ledger **C076**; skrip
+  `tools/check_bib_crossref.py`.
+- **Gambar 1** (`fig10_study_area_map.png`): sebar titik dengan sumbu meter Web-Mercator mentah; tanpa DEM, garis
+  pantai, graticule. **Gambar 5**: legenda menimpa daratan.
+- **R1-1:** 38 kecocokan kata reviewer/revisi/ditarik/v0.1 di .tex. Idiom: "dial" ×12, "ladder" ×22, "home-court"
+  ×2, "rung" ×2. Rujukan bagian: 52 `\S\ref` + 9 "§". Editor sudah menyinggung soal yang sama untuk abstrak pada
+  31 Agt; abstrak pengganti (dikirim 2 Okt) belum masuk .tex.
+- **G15:** laman biaya JCAA (diambil 2026-10-20) mencantumkan APC 651 (simbol mata uang rusak saat diambil; April:
+  £593). Waiver hanya sah bila diberikan tertulis. Permintaan 6 April diakui tetapi belum diputuskan, diulang di
+  surat v0.2 (baris 338); keputusan 19 Okt tak menyebutnya.
+
+**Dibuat:**
+- `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`: triase per butir, gerbang, jadwal, keputusan D1–D7.
+- `experiments/E235_elevation_vs_volcanic_control/` (DESIGN + README; **pra-registrasi, belum dijalankan**):
+  - pita elevasi 200 m; V ≤ 20 km, N ≥ 40 km;
+  - pencocokan dalam pita (slope × TRI × TWI); bootstrap blok;
+  - δ = 0,05, ditetapkan **dengan mengetahui** +0,055 dari E219 (dinyatakan);
+  - plafon tumpang-tindih E\*;
+  - konsekuensi naskah ditetapkan per cabang;
+  - memakai peta E221 yang tersimpan; tanpa latih ulang.
+  - K9 dibaca tidak berlaku: ini kontrol revisi, bukan uji tesis penguburan.
+- `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`: draf, PI yang mengirim.
+- `papers/P2_settlement_model/REFERENCE_CHECK_CROSSREF_20261020.json`.
+
+**Belum dikerjakan / keputusan PI (sampai 23 Okt):**
+- D1 G16 (siapa menulis prosa).
+- D2 G14 (bekukan 2 Nov ketat, atau 9 Nov dengan pembaca adversarial; perpanjangan hanya bila lewat 6 Nov).
+- D3 jalankan E235.
+- D4 kirim email waiver sekarang.
+- D6 kalimat ucapan terima kasih.
+- D7 login portal untuk salinan beranotasi.
+- Kabari Go Frendi.
+
+Ketiga makalah rujukan belum dibaca; Gambar 1/5 belum digambar ulang. Tidak ada teks naskah yang diubah.
+
+**Housekeeping:**
+- E235 → line 01 di `tools/scan_experiments.py`; indeks dibuat ulang.
+- Hitungan 226 → 227 di CLAUDE.md, AGENTS.md, lines/README.md (line 01: 79), manifesto, WORKSTATE.
+- WORKSTATE: blok atas, ledger butir 6, jam, line, portofolio; status kueri 9 Nov gugur.
+- Line 01 STATE: blok atas. CRITIQUE_LEDGER: C076, C077.
+- Next free **E236**; ledger next **C078**.
+- Belum di-commit, bersama pekerjaan 10-19 yang juga menunggu kata PI.

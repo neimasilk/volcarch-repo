@@ -1,6 +1,17 @@
 # STATE — Line 03 PALEOENV
 
-**Updated:** 2026-10-15 · **Temperature:** ⏳ WAITING — VEGAN email sent 2026-10-02; follow-up 23 Oct, fallback 6 Nov
+**Updated:** 2026-10-19 · **Temperature:** ⏳ WAITING — VEGAN email sent 2026-10-02; follow-up 23 Oct, fallback 6 Nov · E234 designed, not run
+
+> **2026-10-19 — E234 = G10 route S for E216, pre-registered (orbit; PI "ya, buatkan desain jalur sumber untuk E216"):**
+> `experiments/E234_e216_source_route/` (DESIGN, `claims_register.csv` 41 rows / 15 Tier 1, PROMPTS).
+> - Every assumption E216 rests on is checked against published values, and E216's code is re-run with them.
+> - A kill switch fires if a dated 0–500 CE record already exists at the heartland.
+> - **Found while designing (DESIGN §2 O1):** H1's "P = 0.000 at every grid point" rests on an uncited 1/100 factor
+>   (`code/e216_detection_function.py` L270–276). Under uniform allocation, E216's own formula gives 21.9 pp at the
+>   central population, against a 17.5 pp threshold. **If confirmed, this strengthens the disconfirmation** (line rule:
+>   it still gets the hardest scrutiny).
+> - **Waiting for the PI:** push + run; after the results, whether rule 2 below changes (DESIGN §9 has the text).
+>   Rule 2 is **unchanged** until then.
 
 > **2026-10-15 — orbit agenda 2026-10-15, PI "setuju default, K6 nanti saya putuskan"; `docs/research_notes/ORBIT_REVIEW_20261015.md` §5, K8:** VEGAN follow-up **23 Oct** if silent (Claude drafts 22 Oct, PI sends); still silent by
 > **6 Nov** → Castillo (reserve) or park T5. Stop list K9: no new computational experiment for the burial thesis without
@@ -67,7 +78,7 @@ ITB or UGM geology/geography contacts. **This is a PI action.**
 
 ## Inbox
 
-- **[BRIDGE ← orbit 2026-10-19] The expert gate on E216 may now have a no-expert route.** PI 19 Oct: "AI penuh =
+- **[BRIDGE ← orbit 2026-10-19] → designed as E234 the same day (block at the top).** The expert gate on E216 may now have a no-expert route. PI 19 Oct: "AI penuh =
   fitur … kalau perlu ahli, pivot". SIG G10 now has a sources route (S). This line's rule 2 still calls a palynologist
   co-author a hard requirement (G2/G10), and `SUBMISSION_CHECKLIST.md` says it "BLOCKS everything".
   - **Not changed silently.** A design is needed first: which RPP/RSAP/threshold assumptions can be checked against

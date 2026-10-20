@@ -1,7 +1,7 @@
 # Experiment Index
 
-**Generated:** 2026-10-19 13:18
-**Total:** 225 experiments
+**Generated:** 2026-10-20 07:58
+**Total:** 227 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
@@ -15,6 +15,7 @@
 - **INCONCLUSIVE:** 4
 - **PARTIAL:** 4
 - **SUPERSEDED:** 2
+- **PRE-REGISTERED (DESI:** 2
 - **QUEUED:** 1
 - **BLOCKED (needs E001 :** 1
 - **READY TO RUN:** 1
@@ -25,7 +26,7 @@
 - **SCOPING — Phase 0 (p:** 1
 - **Phase 0 — corpus sec:** 1
 - **PRE-REGISTERED (deci:** 1
-- **PRE-REGISTERED (DESI:** 1
+- **PRE-REGISTERED (`DES:** 1
 
 ## By Line of Inquiry
 
@@ -35,7 +36,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `01_spatial` — Predictive modelling & site distribution
 
-**78** experiments (71 primary): E001 · E003 · E004 · E005 · E006 · E007 · E008 · E009 · E010 · E011 · E012 · E013 · E014 · E015 · E016 · E019 · E031 · E059 · E065 · E066 · E076 · E080 · E082 · E084 · E097 · E100 · E103 · E104 · E106 · E108 · E109 · E110 · E115 · E116 · E118 · E120 · E121 · E122 · E124 · E126 · E129 · E139 · E151 · E152 · E153 · E155 · E159 · E163 · E166 · E167 · E171 · E172 · E175 · E176 · E179 · E182 · E183 · E184 · E185 · E187 · E189 · E190 · E191 · E192 · E194 · E195 · E196 · E202 · E209 · E210 · E217 · E218 · E219 · E220 · E221 · E222 · E223 · E224
+**79** experiments (72 primary): E001 · E003 · E004 · E005 · E006 · E007 · E008 · E009 · E010 · E011 · E012 · E013 · E014 · E015 · E016 · E019 · E031 · E059 · E065 · E066 · E076 · E080 · E082 · E084 · E097 · E100 · E103 · E104 · E106 · E108 · E109 · E110 · E115 · E116 · E118 · E120 · E121 · E122 · E124 · E126 · E129 · E139 · E151 · E152 · E153 · E155 · E159 · E163 · E166 · E167 · E171 · E172 · E175 · E176 · E179 · E182 · E183 · E184 · E185 · E187 · E189 · E190 · E191 · E192 · E194 · E195 · E196 · E202 · E209 · E210 · E217 · E218 · E219 · E220 · E221 · E222 · E223 · E224 · E235
 
 ### `02_taphonomy` — Burial, erosion, exposure
 
@@ -43,7 +44,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `03_paleoenv` — Paleo-environmental falsification
 
-**3** experiments (3 primary): E214 · E215 · E216
+**4** experiments (4 primary): E214 · E215 · E216 · E234
 
 ### `04_language_text` — Language & text
 
@@ -290,6 +291,8 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E231 | what "coded" covers, how the six lists compare, an | SUCCESS | 04_language_text |  | P8 |  |
 | E232 | Affix-aware residue screen — Tolaki pilot (idea I- | PRE-REGISTERED (DESI | 04_language_text |  | P8 |  |
 | E233 | P23 validation against the editors' published tran | SUCCESS | 05_archival_nlp,04_language_text |  | P23 |  |
+| E234 | E216's assumptions checked against published value | PRE-REGISTERED (DESI | 03_paleoenv |  |  |  |
+| E235 | Elevation or volcanic setting? A band-by-band cont | PRE-REGISTERED (`DES | 01_spatial |  | P2 |  |
 
 ## Revisit Candidates
 

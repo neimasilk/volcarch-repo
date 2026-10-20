@@ -43,8 +43,8 @@ retargeting rejected papers, unparking ideas, and accounting for the forcing fun
 for doing a line's work — enter the line for that.
 
 > ⚠ **The documented failure mode of this project is using orbit mode as an escape hatch:** step out
-> one level, find an interesting new topic, and don't send the email that is months overdue. 225
-> experiments, 0 final acceptances (1 conditional: P8, 2026-10-05; R1 in review since 2026-10-15), 7 rejections. The binding constraint is **non-exposure, not rigor**
+> one level, find an interesting new topic, and don't send the email that is months overdue. 227
+> experiments, 0 final acceptances (1 conditional: P8, 2026-10-05; R1 in review since 2026-10-15; P2 in revision since 2026-10-19), 7 rejections. The binding constraint is **non-exposure, not rigor**
 > (ME#19, memory `feedback_non_exposure`). This is why `WORKSTATE.md` opens with the exposure ledger
 > and not with `IDEA_REGISTRY.md`.
 
@@ -69,7 +69,7 @@ for doing a line's work — enter the line for that.
 
 ### Experiment Protocol
 - Numbered directory: `experiments/ENNN_short_name/`. **Numbering is global and flat** — never
-  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E233; next free E234).
+  per-line, never recycled. Next free number: check `ls -d experiments/E*` (currently through E235; next free E236).
 - Every experiment has a `README.md` with hypothesis, method, data used, result, conclusion, and
   status (SUCCESS / FAILED / INCONCLUSIVE / REVISIT). Pre-register the design in `DESIGN.md` when
   the result could go either way — E217–E223 are the model to copy.

@@ -3244,5 +3244,28 @@
       "05_archival_nlp",
       "04_language_text"
     ]
+  },
+  {
+    "id": "E234",
+    "dir": "E234_e216_source_route",
+    "has_readme": true,
+    "title": "E216's assumptions checked against published values (SIG G10 route S)",
+    "status": "PRE-REGISTERED (DESI",
+    "lines": [
+      "03_paleoenv"
+    ]
+  },
+  {
+    "id": "E235",
+    "dir": "E235_elevation_vs_volcanic_control",
+    "has_readme": true,
+    "title": "Elevation or volcanic setting? A band-by-band control for P2",
+    "status": "PRE-REGISTERED (`DES",
+    "papers": [
+      "P2"
+    ],
+    "lines": [
+      "01_spatial"
+    ]
   }
 ]
