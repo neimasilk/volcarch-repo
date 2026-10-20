@@ -11,9 +11,9 @@
 > - **`REVISION_R2_WRITING_PACK.md`** = the PI's starting point.
 > - C078 (§3.7 robust-core definition and caveat).
 > - **JCAA forbids AI "ghost-writing"**, so the PI writes the substantive prose.
+> - **References (C076) fixed** (`REFERENCE_FIX_20261020.md`); the PI rewrites the unsupported line-157 sentence.
 > - **Next:**
->   - references (C076) when the check returns;
->   - then the PI's prose → freeze ≤ 9 Nov → G1 + adversarial read + letter traced against the final file →
+>   - the PI's prose → freeze ≤ 9 Nov → G1 + adversarial read + letter traced against the final file →
 >     upload ≤ 16 Nov.
 >
 > ## 🟠 2026-10-20 — P2 / JCAA #280: REVISIONS REQUESTED (decision 19 Oct; due 16 Nov)

@@ -28,8 +28,11 @@
 >   - **alt text (≤ ~10 words) for every figure**;
 >   - Harvard citations, "&" for ≤ 3 authors.
 > - **APC £651.** CAA's Publication Fund is for CAA members only (five papers a year).
+> - **References done** (`REFERENCE_FIX_20261020.md`):
+>   - .bib corrected and re-checked;
+>   - **the line-157 sentence is unsupported by all three papers ("strong gains") → the PI rewrites it**;
+>   - Harvard-style pass still to do before upload.
 > - **Open:**
->   - references (sub-agent check running → `REFERENCE_FIX_20261020.md`);
 >   - D6 and D7 (portal login: annotated copy) — the PI's;
 >   - tell Go Frendi.
 > - **Hygiene:** the round-1 response letter in the repo quotes the round-1 reviewers verbatim (uploaded record,

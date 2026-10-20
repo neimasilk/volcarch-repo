@@ -17,9 +17,11 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > - **JCAA AI policy forbids "ghost-writing"** (AI writing methods, results or discussion). The PI's own prose is
 >   therefore a journal rule for v0.3, not only G16.
 > - **New: C078** — v0.2 §3.7 robust-core definition and caveat are wrong.
+> - **References (C076) fixed and re-checked.** But the line-157 sentence ("strong gains") is supported by none of
+>   the three papers → the PI rewrites it (`papers/P2_settlement_model/REFERENCE_FIX_20261020.md`).
 > - **Open:**
->   - references (C076; check running);
 >   - **the PI's prose → freeze ≤ 9 Nov → upload ≤ 16 Nov**;
+>   - Harvard-style pass of the reference list;
 >   - D6; D7 (portal: annotated copy);
 >   - tell Go Frendi.
 > - Ledger next **C079**.

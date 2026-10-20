@@ -155,9 +155,12 @@ ratios with "the non-volcanic comparator arm contains only n = 2 known sites". B
 
 ## 6. References (R1-6)
 
-Ledger C076. The Crossref check found 3 wrong entries out of 26; corrected entries and a content check of the
-line-157 sentence are in `REFERENCE_FIX_20261020.md` (written when the check returns). The PI rewrites the
-line-157 sentence if a cited paper does not support it.
+Ledger C076. **Done 2026-10-20:** `references.bib` corrected (castiello2021, wang2023, comer2023, senay2013 + two
+DOIs); record and checks in `REFERENCE_FIX_20261020.md`.
+- **The PI must rewrite the line-157 sentence.** None of the three papers supports "strong gains": AUC 0.71/0.72
+  called "fair"; +0.03 over MaxEnt; a validation-design paper.
+- The facts and two suggested shapes are in `REFERENCE_FIX_20261020.md` §2.
+- Still to do before upload: the Harvard-style pass (§3 there).
 
 ## 7. Mechanical changes already applied in `submission_jcaa_v0.3.tex` (not prose)
 
@@ -165,7 +168,8 @@ line-157 sentence if a cited paper does not support it.
    `\S3` ×2 and `\S4` → literal "Section~3" / "Section~4", because those sections have no `\label` (R1-5). **Check these
    three after any restructuring.**
 2. Figures 1 and 5 → the v03 files.
-3. `references.bib` → the corrected entries (after the check returns).
+3. `references.bib` → the corrected entries (done 2026-10-20, `fix_references_20261020.py`; the .bib is shared with v0.2,
+   whose submitted PDF stays as the record).
 4. Header comments that describe the revision process (lines 1–37 and the placeholder macro): cleaned. They are not
    rendered, but the source may travel.
 

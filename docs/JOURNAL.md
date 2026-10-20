@@ -11338,3 +11338,19 @@ default. Seperti preseden 6 Okt (permintaan arXiv), email yang sudah disiapkan d
 - Prosa v0.3 (PI): dibekukan ≤ 9 Nov; G1 + pembaca adversarial; surat dicek terhadap berkas final; unggah ≤ 16 Nov.
 
 Kanari 227 hijau; next free E236; ledger next **C079**.
+
+**2026-10-20 (penutup) — rujukan P2 (C076) selesai di sisi Claude.** Sub-agen Sonnet membaca ketiga makalah. Pengendali
+memeriksa ulang:
+- metadata lewat panggilan Crossref baru;
+- kutipan penentu di teks lengkap JCAA dan MDPI (Castiello: AUC 0,71/0,72, "acceptable", "fair"; Wang: Tabel 5, AM_FR
+  "performed slightly better" ±0,03 atas MaxEnt; MaxEnt unggul di Kvamme's Gain);
+- Comer hanya sampai judul dan metadata: laman penerbit butuh JavaScript; OpenAlex dan S2 tanpa abstrak.
+
+`references.bib` diperbaiki (`papers/P2_settlement_model/fix_references_20261020.py`): castiello2021, wang2023,
+comer2023, senay2013 ("Senait", bukan "Sabrina"), DOI kvamme2006 dan franklin2009 (tahun cetak dipertahankan). Dicek
+ulang: OK. v0.3 kompilasi bersih.
+
+**Temuan isi:** kalimat baris 157 ("strong gains from integrating spatial context and terrain logic") tidak didukung
+satu pun dari ketiga makalah → PI menulis ulang. Fakta dan dua bentuk saran ada di
+`papers/P2_settlement_model/REFERENCE_FIX_20261020.md`. Laporan sub-agen disimpan utuh
+(`REFERENCE_CONTENT_CHECK_20261020.md`). Sisa sebelum unggah: format Harvard JCAA (`VENUE.md` A10).
