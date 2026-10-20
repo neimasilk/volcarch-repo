@@ -14,7 +14,7 @@
 > ## 🟠 2026-10-20 (later) — defaults taken on the PI's "lakukan yg perlu dilakukan"; Claude's part done but references
 > - Waiver email **sent** 08:07.
 > - **E235 done:** E\* = 1,000 m (above it 97.5 % volcanic, 0.4 % non-volcanic); suitability INCONCLUSIVE (+0.05);
->   design disagreement NOT SPECIFIC (`experiments/E235_elevation_vs_volcanic_control/README.md`).
+>   design disagreement: no claim possible (`experiments/E235_elevation_vs_volcanic_control/README.md`). *(audit 20 Oct: the M3 test had no power, so no claim; suitability verdict fragile, +0.01 to +0.07 post hoc)*
 > - Figures 1 and 5 (`build_v03_figures.py`); `submission_jcaa_v0.3.tex` (mechanical; `make_v03_mechanical.py`);
 >   `VENUE.md`.
 > - **`REVISION_R2_WRITING_PACK.md`** = the PI's starting point.

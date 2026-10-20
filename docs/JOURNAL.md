@@ -11377,3 +11377,27 @@ Dikerjakan tanpa PI. Semua yang butuh PI dikumpulkan di **`papers/P2_settlement_
 - **Abstrak:** tidak dimasukkan ke v0.3. Teks yang dijanjikan ke editor pada 2 Okt memuat "ladder" dan "dial" yang
   dikeberatkan R1 → keputusan PI (agenda A11).
 - **Audit adversarial E235** (sub-agen) berjalan; hasilnya ditambahkan di bawah.
+
+**2026-10-20 (malam) — audit adversarial E235 kembali; E235 dikoreksi (ledger C079).** Sub-agen tak menemukan kesalahan
+implementasi; angka utama terulang. Tetapi tiga kalimat tulisan pertama melampaui hasil, uji M3 tak punya daya, dan
+vonis M2 rapuh. Pengendali mengecek ulang klaim utamanya sendiri (`02_posthoc_audit_checks.py`, post hoc):
+- zona vulkanik dipersempit saja: +0,029;
+- zona jauh ≥ 50 km: +0,056 / +0,056 / +0,067, SPECIFIC;
+- set 13 pusat: +0,051 / +0,050 / +0,062, SPECIFIC;
+- river_dist ikut dicocokkan: +0,028;
+- laju fringe < 1.000 m: 2,5 % vs 1,4 %;
+- 95 % lahan jauh 400–1.000 m di selatan 7,9°S.
+
+Sumber geologi dicek: Smyth, Hall & Nichols 2008 dan IPA 2018 menyebut Pegunungan Selatan busur vulkanik Eosen–Miosen.
+
+**Dikoreksi:**
+- README E235: status, M1, M2, M3, teks gambar, §Audit baru, Kesimpulan direvisi;
+- DESIGN §8; paket tulisan §4; kerangka surat R2-1;
+- label gambar dan tabel ("dekat/jauh dari pusat Kuarter");
+- baris status di WORKSTATE, STATE line 01, berkas triase, memori.
+
+Laporan audit disimpan: `experiments/E235_elevation_vs_volcanic_control/AUDIT_20261020.md`.
+
+**Untuk P2 tak ada yang berubah secara struktur.** Jawaban R2 yang kokoh tetap M1: di atas ±1.000 m, ketinggian dan
+kedekatan dengan pusat Kuarter tak bisa dipisahkan di wilayah studi. Di bawahnya tak ada klaim ke arah mana pun.
+Ledger next **C080**.

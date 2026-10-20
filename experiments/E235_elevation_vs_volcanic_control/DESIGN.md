@@ -128,3 +128,9 @@ like any other.
   0.1 km² bars and showed the unusable 1,000–1,200 m non-volcanic band; both were corrected before any reading. The
   numbers are unchanged.
 - E219 measured distance to the 13 in-bounds centres; E235 uses all 30, as §3 fixed.
+
+**2026-10-20, after an independent audit (`AUDIT_20261020.md`). Still no deviation, but a design weakness is
+recorded.** The M3 thresholds (5 percentage points; δ = 0.05 for |hybrid − random|) were set without looking at the
+base rates. Below 1,000 m the fringe covers 1–3 % of cells, so M3 could not have returned SPECIFIC; its verdict is
+uninformative. The audit's further checks are post hoc and are reported as such in the README (§Audit). They do not
+replace the pre-registered verdicts.

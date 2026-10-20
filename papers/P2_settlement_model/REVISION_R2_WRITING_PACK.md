@@ -89,38 +89,49 @@ The definitions follow the paper's own methods (E217 code). The PI words them.
 ## 4. The new control for Reviewer 2 (E235) — facts and numbers
 
 Source: `experiments/E235_elevation_vs_volcanic_control/README.md`. Pre-registered (commit `3ac41cc`, pushed before
-the run). Independently re-derived.
+the run). Independently re-derived. **Revised the same evening after an independent audit**: three sentences of the
+first write-up overreached, and the disagreement test had no power. The version below is the corrected one; do not use
+the earlier wording.
 
 - **Question:** does the model respond to volcanic setting, or to elevation? No model feature carries volcanic
   information, so any volcanic pattern must come through terrain.
+- **Terminology:** "volcanic" = within 20 km of a **Quaternary** volcanic centre (any of the 30 canonical centres);
+  "far" = 40 km or more. Do **not** write "non-volcanic": the far-zone uplands are mostly the Southern Mountains, an
+  Eocene–Miocene volcanic arc (Smyth, Hall & Nichols 2008, doi 10.1130/2008.2436(10)).
 - **Design:**
-  - volcanic = within 20 km of any of the 30 canonical centres; non-volcanic = 40 km or more;
   - 200 m elevation bands; matching on slope, TRI and TWI within each band;
   - spatial block bootstrap;
   - thresholds fixed in advance (0.05 suitability; 5 percentage points).
-- **Overlap (the main answer):** above **1,000 m**, East Java has 3,435 km² of land.
-  - **97.5 %** is within 20 km of a volcanic centre; **0.4 %** is 40 km or more away.
-  - Non-volcanic land: 15 km² at 1,000–1,200 m and none above 1,200 m.
-  - So high-elevation non-volcanic terrain does not exist in the study area: **above 1,000 m elevation and volcanic
-    setting cannot be separated**, and the paper makes no claim either way there.
-- **Below 1,000 m:**
-  - **Suitability:** volcanic cells score +0.049 (95 % CI +0.024 to +0.077; XGBoost, random design) above
-    terrain-matched non-volcanic cells. That is on the pre-declared threshold, so **inconclusive**. The difference
-    vanishes when the volcanic zone is drawn tighter (≤ 10 km vs ≥ 30 km: −0.002, CI −0.047 to +0.046).
-  - **Design disagreement does not depend on volcanic setting:** contingent-fringe share +0.56 percentage points (CI
-    +0.26 to +0.85) against a 5-point threshold, for all three algorithms and all three zone definitions.
-- **Above 1,000 m (descriptive):** the designs diverge. The hybrid design stays near 0.5 suitability while random and
-  TGB fall to about 0.1, and the contingent fringe rises to ~25 %. This is Figure 5's "remote upland" fringe; in this
-  study area it cannot be assigned to elevation rather than volcanism, or the reverse.
-- **Pre-registered consequences** (all apply):
+- **Overlap (the firm answer):** above **1,000 m** the study area has 3,435 km² of land.
+  - **97.5 %** is within 20 km of a Quaternary centre; **0.4 %** is 40 km or more away.
+  - Far-zone land: 15 km² at 1,000–1,200 m (below the 25 km² minimum for comparison) and none above 1,200 m.
+  - So **above about 1,000 m, elevation and nearness to a Quaternary centre cannot be separated here**, and the
+    paper claims neither. The exact ceiling depends on the minimum area: 800–1,200 m.
+- **Below 1,000 m: nothing firm either way.**
+  - **Suitability:** cells near Quaternary centres score +0.049 (95 % CI +0.024 to +0.077; XGBoost, random design)
+    above terrain-matched far cells, which is on the pre-set threshold, so **inconclusive**.
+  - Post hoc checks (labelled as such) give +0.01 to +0.07 depending on how the zones and the matching are drawn.
+    Matching on river distance as well cuts it to +0.028. A stricter far zone (≥ 50 km) or the 13-centre set gives
+    about +0.05–0.07.
+  - **Design disagreement: no statement.** The pre-registered test could not detect a difference: its 5-point
+    threshold is larger than the fringe rate itself (2.5 % near, 1.4 % far). In relative terms the fringe is about
+    1.5–1.8 times as frequent near volcanoes.
+- **Above 1,000 m (descriptive):** the designs diverge with height.
+  - The hybrid design stays at about 0.5–0.6 suitability.
+  - Random and TGB fall from about 0.5 (1,000–1,200 m) to about 0.1 above 1,600 m.
+  - The fringe rises from 10 % to about 25 % above 1,600 m.
+  - This is Figure 5's "remote upland" fringe. Here it cannot be assigned to elevation rather than volcanism, or the
+    reverse.
+- **Consequences** (pre-registered, plus the audit):
   - remove "directionally consistent with a volcanic-specific effect";
   - the n = 2 site-density comparison is no longer evidence (supplement or cut);
-  - state the 1,000 m overlap ceiling and the 97.5 % / 0.4 % split;
-  - report the suitability difference as inconclusive, with numbers;
-  - state the disagreement result for the range where it holds.
-- **Candidate figure:** `experiments/E235_elevation_vs_volcanic_control/results/e235_response_by_band.png`. Panels:
-  land per band; suitability by band; fringe by band. It shows the reviewer exactly where the comparison is and is
-  not possible. **Decision for the PI:** a manuscript figure, or a supplementary figure.
+  - state the overlap ceiling and the 97.5 % / 0.4 % split;
+  - report the suitability difference as inconclusive, with its range;
+  - **make no statement about the design disagreement and volcanic setting**;
+  - write "far from Quaternary volcanic centres".
+- **Candidate figure:** `figures/fig_e235_elevation_control_v03.png` (manuscript style). A = land per band;
+  B = matched differences with intervals. It shows the reviewer exactly where the comparison is and is not possible.
+  **Decision for the PI:** a manuscript figure, or a supplementary figure.
 - **Method sentence material:** the comparison uses the stored 10-seed ensemble maps (E221). No model was retrained.
 
 ## 5. Figures (R1-7, R1-8, R2-2)

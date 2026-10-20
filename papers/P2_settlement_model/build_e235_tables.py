@@ -46,13 +46,13 @@ else:
 
 t1 = [
     r"\begin{table}[ht]\centering\small",
-    r"\caption{[S7 -- caption for the PI] Elevation bands: land within 20 km (volcanic) and 40 km or more (non-volcanic) from a volcanic centre, "
-    r"and volcanic $-$ non-volcanic differences matched within band on slope, TRI and TWI (XGBoost, 10-seed ensemble maps; "
+    r"\caption{[S7 -- caption for the PI] Elevation bands: land within 20 km (near) and 40 km or more (far) from a Quaternary volcanic centre, "
+    r"and near $-$ far differences matched within band on slope, TRI and TWI (XGBoost, 10-seed ensemble maps; "
     r"95\% spatial-block bootstrap intervals). A band is compared only if each setting has at least 25~km$^2$ in at least two blocks. " + rows_note + "}",
     r"\label{tab:e235bands}",
     r"\begin{tabular}{lrrlrlll}",
     r"\toprule",
-    r"Elevation (m) & Volcanic (km$^2$) & Non-volc. (km$^2$) & Compared & Matched cells & Suitability, random & Suitability, hybrid & Fringe (pp) \\",
+    r"Elevation (m) & Near (km$^2$) & Far (km$^2$) & Compared & Matched cells & Suitability, random & Suitability, hybrid & Fringe (pp) \\",
     r"\midrule",
     *rows,
     r"\bottomrule",
@@ -75,9 +75,10 @@ for dk, dl in defs.items():
         dl = ""
 t2 = [
     r"\begin{table}[ht]\centering\small",
-    r"\caption{[S8 -- caption for the PI] Pooled volcanic $-$ non-volcanic differences over the compared bands, by zone definition and algorithm, "
+    r"\caption{[S8 -- caption for the PI] Pooled near $-$ far differences over the compared bands, by zone definition and algorithm, "
     r"with the verdicts of the pre-registered rules (threshold 0.05 suitability; 5 percentage points for the fringe; "
-    r"the suitability verdict is the one shared by at least two of the three background designs).}",
+    r"the suitability verdict is the one shared by at least two of the three background designs). "
+    r"The fringe verdict carries no information: the 5-point threshold exceeds the fringe rate itself (1--3\% of cells below 1,000 m).}",
     r"\label{tab:e235summary}",
     r"\begin{tabular}{llllll l}",
     r"\toprule",

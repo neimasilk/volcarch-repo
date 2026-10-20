@@ -21,9 +21,9 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > ## 🟠 2026-10-20 (later) — PI "ok, lakukan yg perlu dilakukan" → defaults taken; Claude's part of the P2 revision done
 > - **Waiver email SENT 08:07** (D4). G15 stays RED until a written answer.
 > - **E235 run as pre-registered** (design pushed first, `3ac41cc`; numbers re-derived independently):
->   - above **1,000 m**, 97.5 % of East Java's land is volcanic and 0.4 % non-volcanic, so **R2's comparison does
->     not exist in the study area**;
->   - below 1,000 m, suitability +0.05 = INCONCLUSIVE; design disagreement NOT SPECIFIC.
+>   - above **1,000 m**, 97.5 % of East Java's land is volcanic and 0.4 % non-volcanic, so **R2's comparison hardly
+>     exists in the study area**;
+>   - below 1,000 m, suitability +0.05 = INCONCLUSIVE; design disagreement: no claim possible. *(audit 20 Oct: the M3 test had no power, so no claim; suitability verdict fragile, +0.01 to +0.07 post hoc)*
 > - **Built:**
 >   - Figures 1 (relief, graticule, 20/40 km zones, inset) and 5 (legend off the map);
 >   - `submission_jcaa_v0.3.tex` (mechanical only; clean compile);
@@ -39,7 +39,7 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 >   - Harvard-style pass of the reference list;
 >   - D6; D7 (portal: annotated copy);
 >   - tell Go Frendi.
-> - Ledger next **C079**.
+> - Ledger next **C080**.
 >
 > ## 🟠 2026-10-20 — P2 / JCAA #280: REVISIONS REQUESTED (decision 2026-10-19; due **16 Nov 2026**)
 > The PI pasted the decision email. Round 2, for both reviewers:

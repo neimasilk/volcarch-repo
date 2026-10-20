@@ -5,11 +5,10 @@
 >   (`docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`, now the sent record). G15 stays RED until a
 >   written answer.
 > - **D3 ✅ — E235 run as pre-registered** (design pushed first, `3ac41cc`; numbers re-derived independently):
->   - above **1,000 m**, 97.5 % of land is volcanic and 0.4 % is non-volcanic, so the reviewer's comparison does not
->     exist in East Java;
->   - below 1,000 m, suitability is +0.05 volcanic − non-volcanic: **INCONCLUSIVE** (on the threshold; gone under a
->     tighter zone);
->   - design disagreement: **NOT SPECIFIC**.
+>   - above **1,000 m**, 97.5 % of land is volcanic and 0.4 % is non-volcanic, so the reviewer's comparison hardly exists in East Java;
+>   - below 1,000 m, suitability is +0.05 volcanic − non-volcanic: **INCONCLUSIVE** (on the threshold; post hoc
+>     +0.01 to +0.07 depending on zones and matching);
+>   - design disagreement: **no claim possible**. *(audit 20 Oct: the M3 test had no power, so no claim; suitability verdict fragile, +0.01 to +0.07 post hoc)*
 > - **D1/D2 at default:** the PI writes (at least abstract, introduction and conclusion; **see the JCAA AI policy
 >   below**); freeze by 9 Nov with an adversarial read + G1.
 > - **Figures 1 and 5 rebuilt** (`build_v03_figures.py`).
