@@ -1,5 +1,11 @@
 # STATE — Line 05 ARCHIVAL NLP
 
+> **2026-10-20 — NEW: D4 NusaTemu (register of chance finds), I-155. Workflow written, not started.** PI: "ide nomer satu silahkan di bikinkan workflow, kasih nama, dll.. untuk pelan2 kita eksekusi".
+> - Start at `papers/D4_nusatemu/README.md` → `WORKFLOW.md`. Also `CODEBOOK.md`, `ETHICS.md`, `SOURCES.md`.
+> - Next: Phase 0 step 0.5, a literature check (does a register or discovery-process study exist?); then the pilot pre-registration.
+> - Pace: no PI time before P2 is uploaded (≤ 16 Nov). Drafting slot stays with P23 (G13).
+> - Sister ideas I-156 (coin hoards), I-157 (VOC hazards) and I-158 (babad stemmatology) are PARKED, with unpark conditions in the registry.
+
 **Updated:** 2026-10-19 · **Temperature:** 📝 P23 drafting — validation ✅ PASS (E233) · E226 T7 parked REVISIT · E225 pilot LANJUT
 
 > **2026-10-19 — P23 validated without an epigrapher (E233, PASS).** PI 19 Oct: "kalau perlu ahli, pivot atau lakukan

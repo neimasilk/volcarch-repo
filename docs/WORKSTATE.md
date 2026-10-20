@@ -3,6 +3,8 @@
 **Updated:** 2026-10-20 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> **2026-10-20 (late) — new slow track: D4 NusaTemu** (register of chance finds; I-155; line 05). Workflow only, not started: `papers/D4_nusatemu/`. It takes no PI time before P2 is uploaded. I-156–I-158 are parked.
+>
 > ## ▶ WEDNESDAY 21 OCT — START HERE: `papers/P2_settlement_model/AGENDA_PI_20261021.md`
 > PI 20 Oct evening: "lakukan yg bisa kamu lakukan tanpa saya, yg perlu saya pending dulu, kita lakukan besok hari
 > rabu". Done without him:

@@ -11416,3 +11416,24 @@ Ledger next **C080**.
   4,4 mm/thn P1 (C024). Dicatat di IDEA_REGISTRY I-154 (SPARK) dan kotak masuk line 02; tidak dikejar sekarang.
 - **(d) PI bertanya apakah temuan manik Jatim sudah dicatat.** Ya: addendum 15 Okt di
   `docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md`, ledger C073, ide I-153; commit `d936cf1`, sudah di-push.
+
+## 2026-10-20 (larut) — PI: "ide nomer satu silahkan di bikinkan workflow, kasih nama, dll.. untuk pelan2 kita eksekusi, untuk ide lainnya parkir dulu"
+
+Konteks: PI bertanya ide *computational archaeology* untuk sejarah Nusantara yang belum tergali. Empat ide diusulkan
+setelah cek cepat (pencarian, bukan tinjauan pustaka). PI memilih ide 1.
+
+- **D4 NusaTemu** — register temuan tak sengaja Nusantara (I-155; line 05, terkait 01 dan 02). Berkas di
+  `papers/D4_nusatemu/`:
+  - README: nama, empat pertanyaan, aturan;
+  - WORKFLOW: fase 0–5, gerbang, laju "pelan-pelan", log;
+  - CODEBOOK v0.1: skema rekaman, taksonomi aktivitas penemuan, aturan event dan retelling;
+  - ETHICS: risiko penjarahan → koordinat publik kasar; tanpa nama penemu; hak cipta (kutipan ≤ 30 kata); UU 11/2010
+    Pasal 23, dicek di pasal.id dan salinan JDIH;
+  - SOURCES: tingkatan sumber, daftar kueri awal, aset yang sudah ada (E091, E225, gazetir Kemendagri, ADM2).
+- **Belum dikerjakan:** fase 0 langkah 0.5 (cek pustaka) dan 0.6 (pra-registrasi pilot). Nomor E diberikan saat fase
+  dimulai.
+- **Diparkir** (dengan syarat unpark di registri): I-156 timbunan koin Cina sebagai jam deposisi; I-157 arsip VOC
+  sebagai katalog bencana; I-158 stemmatologi komputasional babad.
+- Registri: kanal baru "13. Records taphonomy / discovery process".
+- **Batas:** NusaTemu tak memakai waktu PI sebelum P2 diunggah (≤ 16 Nov); slot drafting tetap milik P23 (G13);
+  bukan uji tesis penguburan (K9). Cocok dengan arah K6.
