@@ -11354,3 +11354,26 @@ ulang: OK. v0.3 kompilasi bersih.
 satu pun dari ketiga makalah → PI menulis ulang. Fakta dan dua bentuk saran ada di
 `papers/P2_settlement_model/REFERENCE_FIX_20261020.md`. Laporan sub-agen disimpan utuh
 (`REFERENCE_CONTENT_CHECK_20261020.md`). Sisa sebelum unggah: format Harvard JCAA (`VENUE.md` A10).
+
+## 2026-10-20 (sore) — PI: "untuk hari ini, lakukan yg bisa kamu lakukan tanpa saya, yg perlu saya pending dulu, kita lakukan besok hari rabu"
+
+Dikerjakan tanpa PI. Semua yang butuh PI dikumpulkan di **`papers/P2_settlement_model/AGENDA_PI_20261021.md`** (Rabu).
+
+- **Kotak surat** (baca saja, sejak 16 Okt): tak ada balasan atas email waiver; tak ada dari Nastiti, VEGAN, arXiv.
+  Hanya tanda terima OL (17 Okt) dan keputusan JCAA. Tindak lanjut 23 Okt tetap berlaku (draf sudah ada).
+- **Format rujukan Harvard JCAA:** `build_jcaa_bibliography.py` → `references_jcaa.tex` (thebibliography, hanya kunci
+  yang dikutip, alfabetis).
+  - Di teks: "(Elith et al. 2006; Phillips, Anderson & Schapire 2006)". Di daftar: "Surname, Initials. Year. Title.
+    *Journal*, vol(issue): pages. DOI: …"; nomor artikel tercetak "Article n"; rata kiri.
+  - v0.3 dialihkan (`natbib` sort + `aysep={}`). Kompilasi bersih: 0 error, 0 undefined, 0 overfull; 29 halaman.
+- **Pengaman:** `make_v03_mechanical.py` kini menolak menimpa v0.3 yang sudah ada (PI menulis di sana mulai Rabu).
+- **Gambar E235 versi naskah:** `figures/fig_e235_elevation_control_v03.png`. A = luas per pita; B = selisih
+  tercocokkan + CI + ambang ±0,05.
+- **Tabel S7–S8** (`supplement/e235_tables_v03.tex`, dari `build_e235_tables.py`; keterangan = rintisan untuk PI).
+- **Kerangka surat tanggapan:** `RESPONSE_R2_SKELETON.md`. Per butir: status (selesai / prosa PI) dan fakta; teks
+  reviewer diparafrasekan; balasan ditulis PI.
+- **Alt text:** kandidat untuk 6–7 gambar (≤ 10 kata; paket §5a). Dua keterangan gambar masih memuat idiom ("judged
+  at home", "edge of the dial").
+- **Abstrak:** tidak dimasukkan ke v0.3. Teks yang dijanjikan ke editor pada 2 Okt memuat "ladder" dan "dial" yang
+  dikeberatkan R1 → keputusan PI (agenda A11).
+- **Audit adversarial E235** (sub-agen) berjalan; hasilnya ditambahkan di bawah.

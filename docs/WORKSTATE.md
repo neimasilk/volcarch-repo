@@ -3,6 +3,21 @@
 **Updated:** 2026-10-20 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> ## ▶ WEDNESDAY 21 OCT — START HERE: `papers/P2_settlement_model/AGENDA_PI_20261021.md`
+> PI 20 Oct evening: "lakukan yg bisa kamu lakukan tanpa saya, yg perlu saya pending dulu, kita lakukan besok hari
+> rabu". Done without him:
+> - Harvard reference list (JCAA form; `build_jcaa_bibliography.py`);
+> - the E235 figure in manuscript style and Tables S7–S8;
+> - the response-letter skeleton; alt-text candidates;
+> - a guard so v0.3 is never regenerated over his edits.
+>
+> Mailbox 20 Oct: nothing from JCAA (waiver), Nastiti, VEGAN or arXiv.
+> **The agenda holds:**
+> - A1–A11 for P2: prose plan, the line-157 sentence, E235 figure placement, alt text, acknowledgements, AI
+>   statement, portal login, Go Frendi, Figures 1/5, hygiene of the round-1 letter, abstract (promised text vs
+>   R1's idioms);
+> - B1 the 23 Oct follow-ups; B2 the E234 run; B3 K6; B4 P23.
+>
 > ## 🟠 2026-10-20 (later) — PI "ok, lakukan yg perlu dilakukan" → defaults taken; Claude's part of the P2 revision done
 > - **Waiver email SENT 08:07** (D4). G15 stays RED until a written answer.
 > - **E235 run as pre-registered** (design pushed first, `3ac41cc`; numbers re-derived independently):

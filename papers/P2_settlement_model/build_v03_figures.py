@@ -239,7 +239,57 @@ def fig_priority_map() -> Path:
     return out
 
 
+def fig_elevation_control() -> Path:
+    """E235 in manuscript style: where volcanic and non-volcanic land can be compared, and what the model does there.
+
+    Candidate figure (manuscript or supplement: the PI decides). Reads E235's stored outputs only."""
+    import json
+    res = EXP / "E235_elevation_vs_volcanic_control" / "results"
+    bands = pd.read_csv(res / "e235_bands.csv")
+    out = json.loads((res / "e235_outcome.json").read_text(encoding="utf-8"))
+    prim = out["definitions"]["primary_20_40"]
+    e_star = prim["M1"]["E_star_m"] / 1000
+    m1 = bands[bands.measure.isna() & (bands.definition == "primary_20_40")].sort_values("band_lo_m")
+    mid = (m1.band_lo_m + 100) / 1000
+    V_COL, N_COL = v02.VOLC_COL, v02.BLUE
+
+    fig, ax = plt.subplots(1, 2, figsize=(9.2, 3.7), gridspec_kw={"width_ratios": [1.15, 1]})
+    a = ax[0]
+    w = 0.08
+    a.bar((mid - w / 2)[m1.area_km2_V > 0], m1.area_km2_V[m1.area_km2_V > 0], w, color=V_COL, label="≤ 20 km from a volcanic centre")
+    a.bar((mid + w / 2)[m1.area_km2_N > 0], m1.area_km2_N[m1.area_km2_N > 0], w, color=N_COL, label="≥ 40 km from a volcanic centre")
+    a.axvspan(0, e_star, color="0.93", zorder=0)
+    a.axhline(25, color=v02.MUTED, lw=0.8, ls=":")
+    a.set_yscale("log"); a.set_ylabel("Land area per 200 m band (km²)"); a.set_xlabel("Elevation (km)")
+    a.text(e_star / 2, 4.0e5, "both settings\npresent", ha="center", va="top", fontsize=8, color=v02.MUTED)
+    a.text(e_star + 0.12, 3.0e3, f"above {e_star * 1000:,.0f} m: 97.5 % volcanic,\n0.4 % non-volcanic", ha="left", va="bottom", fontsize=8, color=v02.MUTED)
+    a.legend(frameon=False, fontsize=7.5, loc="upper right")
+    a.set_ylim(0.1, 6e5); a.set_xlim(0, 3.8)
+    a.set_title("A", loc="left", fontsize=10, fontweight="bold")
+
+    b = ax[1]
+    d = bands[(bands.definition == "primary_20_40") & (bands.algorithm == "xgboost")]
+    for meas, lab, mk, dx in (("suit_random", "suitability, random design", "o", -0.025),
+                              ("suit_hybrid", "suitability, hybrid design", "s", 0.0)):
+        s = d[d.measure == meas].sort_values("band_lo_m")
+        x = (s.band_lo_m + 100) / 1000 + dx
+        b.errorbar(x, s.delta_V_minus_N, yerr=[s.delta_V_minus_N - s.ci_lo, s.ci_hi - s.delta_V_minus_N],
+                   fmt=mk, ms=4, lw=1, capsize=2, color=v02.INK if meas == "suit_random" else v02.MUTED, label=lab)
+    b.axhspan(-0.05, 0.05, color="0.93", zorder=0)
+    b.axhline(0, color=v02.MUTED, lw=0.8)
+    b.set_xlim(0, e_star); b.set_xlabel("Elevation (km)")
+    b.set_ylabel("Volcanic − non-volcanic\n(matched within band)")
+    b.text(0.02, -0.047, "±0.05: pre-set threshold", fontsize=7.5, color=v02.MUTED, va="bottom")
+    b.legend(frameon=False, fontsize=7.5, loc="lower right")
+    b.set_title("B", loc="left", fontsize=10, fontweight="bold")
+    fig.tight_layout()
+    path = FIG / "fig_e235_elevation_control_v03.png"
+    fig.savefig(path, dpi=300)
+    plt.close(fig)
+    return path
+
+
 if __name__ == "__main__":
-    for f in (fig_study_area, fig_priority_map):
+    for f in (fig_study_area, fig_priority_map, fig_elevation_control):
         p = f()
         print(f"  {p.name}: {p.stat().st_size / 1024:.0f} KB")

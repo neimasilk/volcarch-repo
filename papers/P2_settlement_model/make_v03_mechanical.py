@@ -11,6 +11,10 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+OUT = HERE / "submission_jcaa_v0.3.tex"
+# v0.3 is the PI's working file from 2026-10-21 on: never regenerate it over his edits.
+if OUT.exists() and "--force" not in sys.argv:
+    sys.exit(f"{OUT.name} exists; refusing to overwrite (the PI may be writing in it). Use --force only on a fresh copy.")
 src = (HERE / "submission_jcaa_v0.2.tex").read_text(encoding="utf-8")
 lines = src.split("\n")
 log = []
@@ -72,6 +76,6 @@ text = text.replace("[width=0.9\\textwidth]{fig01_study_area_v03.png}", "[width=
 text = text.replace("[width=0.85\\textwidth]{fig05_priority_map_v03.png}", "[width=\\textwidth]{fig05_priority_map_v03.png}")
 log.append("figures 1 and 5: full text width")
 
-(HERE / "submission_jcaa_v0.3.tex").write_text(text, encoding="utf-8")
+OUT.write_text(text, encoding="utf-8")
 print("\n".join(log))
 sys.exit(0)

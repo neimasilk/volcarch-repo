@@ -23,7 +23,7 @@ history around it goes.
 
 | Line(s) | Now says (gist) | Fact to keep | Suggestion |
 |---|---|---|---|
-| 95 (abstract) | a reviewer-requested benchmark refuted the attribution | Under a common evaluation background, the ladder's gain disappears (E217/E218). | Use the replacement abstract sent to the editor on 2 Oct (`EDITOR_REPLY_ABSTRACT_20261001.md`, ~240 words): it is already history-free. Check the portal's word limit. |
+| 95 (abstract) | a reviewer-requested benchmark refuted the attribution | Under a common evaluation background, the ladder's gain disappears (E217/E218). | The replacement abstract sent to the editor on 2 Oct (`EDITOR_REPLY_ABSTRACT_20261001.md`, ~240 words, limit 300) is history-free, and we promised to use it in the next version. **But it contains "ladder of AUC gains" and "the background-design dial we swept"**, the idioms R1 objects to. Keep it or revise it: agenda A11. |
 | 98 (abstract) | "We withdraw … correct two defects in our own diagnostics" | Low suitability near volcanoes is not evidence of burial. The diagnostics use 13 volcanic centres; the correlation is stable across seeds only as a range. | Covered by the replacement abstract. |
 | 131 | "Following a reviewer's taxonomy" | Three reasons a site can be absent: never settled, not found, not preserved (or buried). | Present it as the paper's own framework. |
 | 143 | "the earlier version of this manuscript overreached" | A suitability score does not tell "never settled" from "buried". | Keep the restraint; drop the reason. |
@@ -139,6 +139,30 @@ Built by `build_v03_figures.py`; the v0.2 figures are kept as submitted.
   decile under 3/2/1/0 designs), drawn as a raster with coastline, graticule and scale bar; legend below the map.
   Caption unchanged in substance.
 
+## 5a. Alt text — JCAA requires it for every figure
+
+Rules (`VENUE.md` A8): about 10 words or fewer; different from the caption; placed in the text document with the
+figure titles. **Candidates for the PI to approve or change:**
+
+| Figure | File | Alt-text candidate (word count) |
+|---|---|---|
+| 1 | fig01_study_area_v03.png | Relief map of East Java with sites and volcanoes (9) |
+| 2 | fig3_auc_tss_progression.png | Line chart of AUC and TSS across seven model versions (10) |
+| 3 | fig14_artefact_two_panel.png | Two panels comparing own-background and common-background model scores (8) |
+| 4 | fig15_dose_response.png | Reported versus true performance as hard negatives increase (8) |
+| 5 | fig05_priority_map_v03.png | Map of East Java coloured by agreement between designs (9) |
+| 6 | fig17_seed_stabilisation.png | Map agreement rising with the number of seeds averaged (9) |
+| new (E235), if used | fig_e235_elevation_control_v03.png | Land area by elevation band and matched suitability differences (9) |
+
+**Captions also carry the idioms of §2:** Figure 3 "judged at home"; Figure 4 "edge of the dial". Rewrite them with the
+text.
+
+**E235 material in final form, if the PI wants it:**
+- figure `fig_e235_elevation_control_v03.png` (built by `build_v03_figures.py`). Panel A: land per band. Panel B: the
+  matched differences with intervals and the ±0.05 threshold.
+- Tables S7 (per band) and S8 (pooled, by zone definition and algorithm) in `supplement/e235_tables_v03.tex`
+  (`build_e235_tables.py`; the captions are stubs marked for the PI).
+
 ## 5b. A factual error in the reviewed text, found while checking Figure 5 (ledger C078) — must be fixed
 
 v0.2 lines 458–460 (Section 3.7) say the robust core is "cells selected by every seed", and qualify the site-density
@@ -172,5 +196,13 @@ DOIs); record and checks in `REFERENCE_FIX_20261020.md`.
    whose submitted PDF stays as the record).
 4. Header comments that describe the revision process (lines 1–37 and the placeholder macro): cleaned. They are not
    rendered, but the source may travel.
+5. **Reference list in JCAA Harvard form** (2026-10-20): `build_jcaa_bibliography.py` writes `references_jcaa.tex` from
+   `references.bib`, cited keys only. In the text: "(Castiello & Tonini 2021)", "(Comer et al. 2023)", several
+   citations sorted alphabetically and separated by ";". In the list: "Surname, Initials. Year. Title. *Journal*,
+   vol(issue): pages. DOI: …"; article numbers print as "Article n". **Re-run it after any change to the citations**
+   (`python build_jcaa_bibliography.py submission_jcaa_v0.3.tex --apply`). Do not edit `references_jcaa.tex` by hand.
+6. Figures 1 and 5 at full text width.
+
+`make_v03_mechanical.py` now refuses to overwrite an existing v0.3, so the PI's edits are safe.
 
 Nothing else in the text is changed by Claude.

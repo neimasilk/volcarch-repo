@@ -2,6 +2,15 @@
 
 **Updated:** 2026-10-20 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
 
+> ## ▶ Wednesday 21 Oct — the PI's session: `papers/P2_settlement_model/AGENDA_PI_20261021.md`
+> Evening of 20 Oct, without the PI:
+> - Harvard reference list (`build_jcaa_bibliography.py` → `references_jcaa.tex`; v0.3 compiles clean);
+> - E235 figure (`figures/fig_e235_elevation_control_v03.png`) and Tables S7–S8 (`supplement/e235_tables_v03.tex`);
+> - `RESPONSE_R2_SKELETON.md`; alt-text candidates (pack §5a);
+> - a guard in `make_v03_mechanical.py`.
+>
+> Open for the PI: A1–A11 (prose first). An adversarial audit of E235 was running (result in JOURNAL 20 Oct).
+>
 > ## 🟠 2026-10-20 (later) — defaults taken on the PI's "lakukan yg perlu dilakukan"; Claude's part done but references
 > - Waiver email **sent** 08:07.
 > - **E235 done:** E\* = 1,000 m (above it 97.5 % volcanic, 0.4 % non-volcanic); suitability INCONCLUSIVE (+0.05);

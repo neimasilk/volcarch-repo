@@ -20,8 +20,8 @@
 \linenumbers
 
 % Harvard citation style (author-year) via natbib
-\usepackage[round]{natbib}
-\bibliographystyle{plainnat}
+\usepackage[round,sort]{natbib}
+\setcitestyle{aysep={},yysep={;}}
 
 % Double spacing for review
 \doublespacing
@@ -578,6 +578,6 @@ The research questions, the decision to withdraw the central claim, the domain i
 The revision's disclosures arose from the same workflow rather than despite it: the corrections listed in the Response to Reviewers were found by a mechanical, blind re-derivation of every headline number from the raw per-run outputs, run as a pre-submission gate (script cited under Data Availability), or from the stored experiment results where no per-run file exists.
 All results, code and text were reviewed and verified by the authors, who take full responsibility for the content.
 
-\bibliography{references}
+\input{references_jcaa.tex}
 
 \end{document}
