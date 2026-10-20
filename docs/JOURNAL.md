@@ -11401,3 +11401,18 @@ Laporan audit disimpan: `experiments/E235_elevation_vs_volcanic_control/AUDIT_20
 **Untuk P2 tak ada yang berubah secara struktur.** Jawaban R2 yang kokoh tetap M1: di atas ±1.000 m, ketinggian dan
 kedekatan dengan pusat Kuarter tak bisa dipisahkan di wilayah studi. Di bawahnya tak ada klaim ke arah mana pun.
 Ledger next **C080**.
+
+**2026-10-20 (malam, orbit) — pertanyaan berita dari PI; tak mengubah kerja P2.**
+- **(a) MRT Jakarta.** Temuan arkeologi Fase 2A (bukan LRT) terkonfirmasi: lebih dari 4.000 benda (Kompas 15–18 Okt
+  2026; Junus Satrio Atmodjo), semuanya masa Batavia/kolonial, abad ke-17 sampai ke-19. Kedalaman dan penanggalan
+  keramik tidak disebut. Bukan kasus vulkanik (aluvium pantai). Relevan untuk K6: penemuan mengikuti galian
+  pembangunan.
+- **(b) Koin Lasem.** Tidak ada temuan baru pada 2026. Artikel yang beredar (Bengkulu Ekspres, 5 Jan 2024) menceritakan
+  ulang temuan Dasun 27 Sep 2018: ratusan koin dalam tempayan pecah; sekitar 60 terbaca, dari satu Kaiyuan (Tang)
+  sampai Yongle (Ming). Jadi terkubur sesudah 1403, bukan "abad ketujuh" seperti judul NatGeo.
+  - Pembanding lain: Gowak 2016 (3.613 koin) dan Kaliori 2017 (abad ke-10–11).
+- **(c) Koin Tutur, lereng Bromo (Jan 2025):** sekitar 5.000 koin di kedalaman sekitar 10 cm; dinasti belum
+  diidentifikasi BPK XI. `[BRIDGE → 02_taphonomy, I-154]`: kelak bisa jadi cek kedalaman–umur atas "baseline"
+  4,4 mm/thn P1 (C024). Dicatat di IDEA_REGISTRY I-154 (SPARK) dan kotak masuk line 02; tidak dikejar sekarang.
+- **(d) PI bertanya apakah temuan manik Jatim sudah dicatat.** Ya: addendum 15 Okt di
+  `docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md`, ledger C073, ide I-153; commit `d936cf1`, sudah di-push.

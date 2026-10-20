@@ -113,6 +113,8 @@ this line's defect showing up as seed instability, and it is now disclosed in th
 
 ## Inbox
 
+- **[BRIDGE from orbit, 2026-10-20, I-154] Tutur (Bromo slope) coin hoard: ~5,000 Chinese coins about 10 cm deep (Jan 2025), dynasty not yet identified by BPK XI.** Once the youngest coin is known, it is a free depth–age check on P1's 4.4 mm/yr "baseline" (C024) at one point. Not now: K9 and K6 come first. Sources in `docs/IDEA_REGISTRY.md` I-154.
+
 - ~~E107 resolved ADV-5 (Mon-Khmer substrate) and upgraded E027~~ — **closed 2026-10-19 (C050 audit, C074): the
   E107 verdict is withdrawn; ADV-5 stays GREY ZONE (E087).** Nothing to propagate.
 - The exposure/karst reframe (E178) is arguably a stronger paper than P1 v2.0 in its current form.

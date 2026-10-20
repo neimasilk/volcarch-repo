@@ -183,7 +183,7 @@
 
 | Channel | Ideas |
 |---------|-------|
-| 1. Geology/Taphonomy | I-020, I-040, I-043, I-052, I-090-I-093, I-105, **I-133**, **I-134** |
+| 1. Geology/Taphonomy | I-020, I-040, I-043, I-052, I-090-I-093, I-105, **I-133**, **I-134**, I-154 |
 | 2. Maritime/Coastal | I-029, I-045, I-054, I-080, I-102, **I-134** |
 | 3. Genetics/DNA | I-028, I-051, I-078, I-079, I-088, I-101 |
 | 5. Ethnobotany | I-008, I-011, I-024, I-072, I-106 |
@@ -254,6 +254,7 @@ ABVD itself codes with the PMP entry (sound change: \*t > h, \*s > h), so morpho
 | ID | Title | Maturity | Blocker / next step | Source | Links |
 |----|-------|----------|---------------------|--------|-------|
 | I-153 | **Provenance test of Jatim beads on excavated East Java material.** Test whether beads from documented far-eastern Java stone graves have the Jatim mixed-glass signature (v-Na-Ca + m-Na-Al, Lankton et al. 2008), and date one grave. The beads: Garahan–Mrawan, Jember, opened 1921, 79 beads, OV 1921 Q2 pp. 56–58, Museum Batavia → Museum Nasional; and Malangsari, Banyuwangi, excavated 2016, Balai Arkeologi DIY → BRIN. Positive: the type attribution behind Jia 2024 gets an excavated anchor in Java. Negative: the "made in East Java" chain is weaker than the literature says. | TESTABLE (needs partner) | **Partner:** a museum or BRIN curator plus pXRF / LA-ICP-MS. **First:** check whether the 2023 Museum Nasional fire touched the beads. **Desk steps (no partner):** photo OD 8644 (Leiden / Indonesian OD archive); the Batavia inventory number; van Heekeren 1958:46; Soejono 1984; OCR of three scanned BRIN papers | PI question 2026-10-15; `docs/research_notes/JATIM_BEADS_LEAD_2026_06_08.md` addendum | E091 (OV corpus), E225 (BRIN frame), C073, Channel 10, K6 |
+| I-154 | **Dated coin hoards as depth–age checks of burial rates.** A hoard dated by its youngest coin gives a terminus post quem for its deposition; its depth below the surface then bounds net accumulation at that spot. Lead: Dusun Slorok, Desa Andonosari, Kec. Tutur, Pasuruan, on the Tengger–Bromo slope. About 5,000 Chinese coins (≈1 kuintal), with a mirror, a bell and a broken container, found by a farmer in Jan 2025 about **10 cm** below the surface on Perhutani land. BPK Wilayah XI was identifying them; the dynasty was still unknown (detikJatim 31 Jan 2025). If the youngest coin is Majapahit-era (13th–15th c.), 10 cm in ~600 years is far below P1's 4.4 mm/yr "baseline" (C024), at least at that spot. **Caveats:** a single point; plough zone; slope erosion; hoards may be dug in. Lasem comparators are coastal, not volcanic: Dasun 2018 (hundreds of coins in a jar; youngest read is Yongle, Ming, so after 1403), Gowak 2016 (3,613 coins, Tang–Song, not expert-identified), Kaliori 2017 (thousands, 10th–11th c. per the Rembang culture office). | SPARK | **First:** get BPK XI's identification of the Tutur hoard (youngest coin) and the find depth from the survey record. Do not chase before K6. | PI question 2026-10-20 (news check); JOURNAL 2026-10-20 | C024 (P1 burial rate), line 02, K6 (taphonomy of records) |
 ---
 
 *This is a living document. Add ideas as they emerge. Update maturity when blockers clear. Never delete — move to RESULT/PAPER when resolved.*
