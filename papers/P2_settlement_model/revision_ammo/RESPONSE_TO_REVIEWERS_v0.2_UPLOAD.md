@@ -1,5 +1,8 @@
 # Response to Reviewers — JCAA #280, revision v0.2
 
+*Public copy: the reviewers' points are given as paraphrases (2026-10-21, public-repo rule). The file uploaded
+on 2026-08-11 is in the JCAA portal (component 9972) and in git history.*
+
 ## Cover note to the editor
 
 Dear Dr Verhagen,
@@ -60,7 +63,7 @@ you consider appropriate.
 
 # Reviewer 1
 
-### R1-A — "The empirical finding is not entirely novel; ecological niche modelling has established this, and archaeological examples are missing."
+### R1-A — Novelty: ecological niche modelling already knows the effect, and archaeological examples are missing
 
 **Accepted, and the situation has changed.** The reviewer was right that our original finding was not
 novel; it has turned out not to be a finding at all.
@@ -87,7 +90,7 @@ inflation turns out to be the same order as the gain routinely reported as a res
 is therefore not "background design matters" — it is the mechanism, its dose-response, and its
 magnitude.
 
-### R1-B — "The 'tautology-free' claim exceeds the evidence and needs definition and support."
+### R1-B — The 'tautology-free' claim exceeds the evidence and needs definition and support
 
 **Accepted in full.** Both reviewers flagged it and the manuscript's own Table 4 already said
 CONDITIONAL PASS with T1–T2 in the grey zone. The term is removed from the title, abstract and
@@ -98,14 +101,14 @@ absence of tautology, which is not an identifiable property of observational dat
 "temporal split" label for Test 4 — the split is an accessibility proxy for discovery order, and
 calling it temporal was an overstatement of what the data support (see INT-4 below).
 
-### R1-C — "Structure obscures the research question behind methodological complexity."
+### R1-C — Structure obscures the research question behind methodological complexity
 
 **Accepted.** The E007–E013 iteration narrative is collapsed into a single progression table with two
 paragraphs of interpretation; per-iteration detail moves to the supplement (§2.3, Table 2). This is
 easier in v0.2 than it would have been in v0.1, because the iterations are no longer the argument —
 they are the object being examined.
 
-### R1-D — "Benchmark against MaxEnt, or justify not using it. Essential."
+### R1-D — Benchmark against MaxEnt, or justify not using it. Essential
 
 **Done, and it changed the paper.** We implemented a maxnet-equivalent MaxEnt and ran it under
 *identical* spatial-block CV folds and *identical* background designs as E007–E013 (experiment E217).
@@ -128,7 +131,7 @@ and +0.026. MaxEnt regularisation β from 0.5 to 4.0 changes nothing (−0.020 t
 
 We are grateful for this request. It cost the paper its headline and gave it a better one.
 
-### R1-E — "The archaeological side is underdeveloped; the road/accessibility motive appears only at the end."
+### R1-E — The archaeological side is underdeveloped; the road/accessibility motive appears only at the end
 
 **Accepted.** The survey-bias rationale for the road rasters moves to §2.1, where the
 covariates are first introduced, and is stated as the design's core commitment rather than a technical
@@ -137,7 +140,7 @@ aside. The East Java archaeological background is expanded (§1.4), and the new 
 answered by the same revision: the archaeological content of this design lives in the background, not
 in the label set.
 
-### R1-F — "Put the results in the context of current and future heritage management in East Java."
+### R1-F — Relate the results to heritage management in East Java, now and in future
 
 **Accepted.** A new discussion subsection (§4.4) covers the Cagar Budaya framework (UU
 11/2010), BPCB Jawa Timur survey practice, and how a suitability surface would enter permitting and
@@ -147,17 +150,17 @@ single-seed map is not a defensible basis for a survey permit. We report a **rob
 selected by every seed) and a **contingent fringe** (Figure 5), with observed site densities in the
 robust core 1.9×, 4.3× and 5.6× the fringe for RandomForest, XGBoost and MaxEnt respectively.
 
-### R1-G — "Jargon undefined; the abstract is too technical."
+### R1-G — Jargon undefined; the abstract is too technical
 
 **Accepted.** "Tautology suite", "conditional pass" and "null-model ceiling" are
 either defined at first use or removed. TGB, DKNS, MVR, TRI and TWI are spelled out at first use. The
 abstract is rewritten without per-iteration AUC values and carries a single headline number (+0.042).
 
-### R1-H — "Citations are used descriptively rather than to support specific claims."
+### R1-H — Citations are used descriptively rather than to support specific claims
 
 **Accepted.** A pass over §1 attaches every citation to a specific proposition.
 
-### R1-I — "Define TRI and TWI in the text, not only in the figures."
+### R1-I — Define TRI and TWI in the text, not only in the figures
 
 **Done.** Both are defined at first use in §2.1.
 
@@ -165,7 +168,7 @@ abstract is rewritten without per-iteration AUC values and carries a single head
 
 # Reviewer 2
 
-### R2-A — "The research question is ambiguous: suitability, site prediction, burial detection and survey-bias correction are different questions."
+### R2-A — The research question is ambiguous: suitability, site prediction, burial detection and survey-bias correction are different questions
 
 **Accepted; this was the most consequential comment we received.** §1.2 now opens with
 an explicit taxonomy of the four reasons a site may be absent from the record — environmentally
@@ -176,7 +179,7 @@ The reframing has made this easier: with the taphonomic interpretation withdrawn
 asks one question — *can competing background designs be compared on the evidence usually reported?* —
 and answers it.
 
-### R2-B — "What makes the approach specifically archaeological? Sites function mainly as spatial observations."
+### R2-B — In what sense is the approach archaeological, when the sites serve only as points in space?
 
 **Accepted, and we now answer it directly rather than defensively.** The archaeological content is not
 in the label set; it is in the **background design** — a claim about where a survey could plausibly
@@ -187,7 +190,7 @@ This also sharpens the paper's finding: because the archaeological content lives
 and because the background is also what the model was evaluated against, the very thing that made the
 design archaeological is what contaminated its evaluation. §2.4 and §4.2 state this.
 
-### R2-C — "A two-stage design would be stronger: model known settlements, then find suitable-but-absent areas and test which mechanism explains the absence."
+### R2-C — A two-stage design would be stronger: model known settlements, then find suitable-but-absent areas and test which mechanism explains the absence
 
 **Agreed in principle; out of scope for this version, and we say so plainly.** We built the first stage
 of this design (E219) and can report the mechanics, but the second stage tests *why sites are absent* —
@@ -197,7 +200,7 @@ exists to correct. §4.6 (Limitations) declares the two-stage design future work
 would require: burial-depth data (not currently available at survey resolution) and a
 survey-effort record independent of road distance.
 
-### R2-D — "Cannot tell which variables are in and out per experiment; the model is not clearly reproducible."
+### R2-D — Cannot tell which variables are in and out per experiment; the model is not clearly reproducible
 
 **Accepted.** A per-experiment covariate inclusion matrix is added (Table 2, §2.3),
 built by reading the analysis scripts rather than the prose. Alongside it: presences n = 378 with valid
@@ -207,7 +210,7 @@ at 0.45°, 2 km presence buffer, and the exact background parameters per experim
 Building that table surfaced a defect of exactly the kind the reviewer was worried about — see INT-4
 under "Further disclosures". We report it because the reviewer's concern was justified.
 
-### R2-E — "Separate variables by analytical role: suitability, accessibility/survey effort, preservation."
+### R2-E — Separate variables by analytical role: suitability, accessibility/survey effort, preservation
 
 **Accepted, and adopted as an organising principle.** New Table 1 (§2.1) assigns every
 variable a single role: elevation, slope, TWI, TRI, aspect and river distance are **suitability**
@@ -221,7 +224,7 @@ the Test 4 holdout split, and it is a tautology proxy in Tests 1 and 3. The subm
 mentioned this coupling once, in the limitations. Given E217, that placement was wrong: the variable
 that builds the background is the variable that drives the reported number, and it now appears in §2.1.
 
-### R2-F — "Elevation and slope may drive low suitability in rugged terrain regardless of volcanism; compare volcanic uplands with environmentally similar non-volcanic uplands."
+### R2-F — Elevation and slope may drive low suitability in rugged terrain regardless of volcanism; compare volcanic uplands with environmentally similar non-volcanic uplands
 
 **Accepted, tested, and the taphonomic interpretation is withdrawn.** We ran a coarsened-exact-matching
 control (E219, part C): raster cells matched on elevation × slope × TRI × TWI, comparing volcanic
@@ -237,13 +240,13 @@ More decisively: the taphonomic claim is withdrawn regardless of this control, b
 comparison that supported it does not survive R1's MaxEnt benchmark. §3.9 and §4.3 state that
 low predicted suitability near volcanoes is not evidence of buried sites, in the reviewer's own terms.
 
-### R2-G — "Low suitability ≠ buried site; high suitability ≠ site exists."
+### R2-G — Low suitability ≠ buried site; high suitability ≠ site exists
 
 **Accepted without reservation.** This is now stated in the discussion in these words, and it is a
 constraint the revised paper takes seriously: with the site-prediction claim withdrawn, the output is a
 suitability surface with declared limits, not a discovery map.
 
-### R2-H — "Figure 1 is too simple; labels overflow in Figures 1 and 4; Figure 5 must explain how importance is computed and interpreted."
+### R2-H — Figure 1 is too simple; labels overflow in Figures 1 and 4; Figure 5 must explain how importance is computed and interpreted
 
 **Accepted, and the figure set has changed with the paper's argument. We state the changes explicitly
 rather than quietly, because the reframing (R1-D) means the figures you asked us to repair are no

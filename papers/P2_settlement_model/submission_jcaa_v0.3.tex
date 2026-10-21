@@ -413,9 +413,11 @@ A model whose numbers are artefactual still produces a priority map, and in heri
 Across random seeds, $28.1\%$--$47.4\%$ of top-decile cells turn over between seed pairs --- a single-seed map is not a defensible basis for a survey decision.
 The remedy is cheap and we now make it a protocol: seed-ensemble.
 The number of seeds required to stabilise the map is $k^* = 2$--$5$ for Jaccard $\geq 0.85$, \textbf{$4$--$7$ for $\geq 0.90$}, and $7$--$9$ for $\geq 0.95$; we recommend $k \geq 7$ (Figure~\ref{fig:stabilisation}).
-The ensemble admits a useful product: a \emph{robust core} (cells selected by every seed) and a \emph{contingent fringe}.
-Observed site density in the robust core is higher than in the fringe by \textbf{$1.93\times / 4.34\times / 5.62\times$} for RandomForest / XGBoost / MaxEnt (we give all three rather than a rounded range, because the lower bound is $1.9$, not $2$; Figure~\ref{fig:priority}).
-We present this as \emph{consistency}, not validation: the non-volcanic comparator arm contains only $n=2$ known sites.
+% PI prose 2026-10-21 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 1).
+This ensemble reveals a useful distinction between a \emph{robust core} (the consistent core area) and a \emph{contingent fringe} (the peripheral area that depends on the background design).
+The robust core is defined as the cells that fall in the top 10\% under all three background designs (random, TGB and hybrid), each map being the average of 10 seeds; the contingent fringe is the cells that fall in the top 10\% under exactly one design.
+Observed site density is higher in the core than in the fringe: $1.93\times$ for RandomForest ($30.7$ vs $15.9$ sites per 1,000~km$^2$), $4.34\times$ for XGBoost ($40.8$ vs $9.4$) and $5.62\times$ for MaxEnt ($31.7$ vs $5.65$; Figure~\ref{fig:priority}).
+This difference indicates spatial consistency, not independent validation, because the sites used to compute these densities were also used to train the models.
 
 \begin{figure}[h]
 \centering
@@ -434,7 +436,9 @@ We present this as \emph{consistency}, not validation: the non-volcanic comparat
 \subsection{Corrections to our own diagnostics: the volcano inventory and a correlation that does not reproduce}
 \label{sec:diagnostics}
 
-Three corrections to our own diagnostics, none prompted by the reviewers.
+% TODO-PI (history passage, writing pack section 1): this sentence still mentions the reviewers. "Three" -> "Two"
+% after the terrain-matched control moved to Section sec:elevation (mechanical, 2026-10-21).
+Two corrections to our own diagnostics, none prompted by the reviewers.
 
 \textbf{The volcano inventory.} The analysis code hard-coded 7 volcanic centres; the canonical inventory contains \textbf{13} inside the paper's own 111--115$^\circ$E bounds (adding Lawu, Wilis, Kawi-Butak, Penanggungan, Iyang-Argapura, Baluran), and two of the additions sit inside the Malang--Mojokerto site concentration.
 \texttt{volcano\_dist} is not a training feature, so model AUCs are unaffected; the Test 1 tautology diagnostic is.
@@ -446,9 +450,40 @@ A five-seed re-run on the same 7-volcano inventory gives \textbf{$-0.243$}.
 This is the seed instability of Section~\ref{sec:prioritymaps} appearing \emph{inside} the manuscript's own tautology diagnostic, and it is direct internal evidence that the seed-ensemble protocol is needed, not optional.
 The corrected values reported here are seed-ensembled; the E007--E013 ladder in Table~\ref{tab:progression} is the original published pipeline, reproduced as the object under examination.
 
-\textbf{The terrain-matched control.} A reviewer asked whether low suitability near volcanoes reflects burial or merely rugged terrain.
-We coarsened-exact-matched raster cells on elevation $\times$ slope $\times$ TRI $\times$ TWI (90 strata; E219 part C), comparing volcanic uplands with East Java's non-volcanic uplands (Southern Mountains karst, Kendeng limestone).
-Matched mean suitability is $0.2249$ (volcanic) vs $0.1702$ (non-volcanic) and site density is $0.01377$ vs $0.00048$ sites/km$^2$ --- directionally consistent with a volcanic-specific effect, but with $n=2$ in the non-volcanic arm it is consistency, not validation.
+\subsection{Volcanic setting or elevation?}
+\label{sec:elevation}
+
+% PI prose 2026-10-21 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 2). Replaces the
+% v0.2 terrain-matched control (E219 part C), which E235 supersedes.
+This analysis tests whether the observed suitability pattern reflects a volcanic setting or simply the effect of elevation.
+Distance to a volcanic centre (\texttt{volcano\_dist}) is not used as a training feature, so any pattern in the model's predictions that relates to a volcanic setting must come through the terrain variables the model uses.
+Near land is defined as land within 20~km of a Quaternary volcanic centre, and far land as land 40~km or more from one; the analysis includes the 30 canonical volcanic centres, including those outside the map frame.
+The comparison is made within each 200~m elevation band, using coarsened exact matching on slope, the terrain ruggedness index (TRI) and the topographic wetness index (TWI).
+The analysis uses the stored 10-seed ensemble maps, without retraining any model.
+Uncertainty is estimated with a spatial block bootstrap of 1,000 replicates; the decision threshold of 0.05 was set before the analysis, and the design was pre-registered in the public repository.
+% PI prose 2026-10-21 (passage 3a).
+The verdict labels follow the pre-registered rule: SPECIFIC if the 95\% CI excludes zero and the size of the difference is at least 0.05; NOT SPECIFIC if the whole 95\% CI lies between $-0.05$ and $+0.05$; and INCONCLUSIVE for any result that meets neither criterion.
+
+Above 1,000~m the study area contains about 3,435~km$^2$ of land, of which 97.5\% lies within 20~km of a Quaternary volcanic centre and only 0.4\% lies 40~km or more from one (Figure~\ref{fig:elevation}A).
+Land far from Quaternary volcanic centres covers only about 15~km$^2$ at 1,000--1,200~m and none above 1,200~m.
+This means that, in this study area, the effects of elevation and of proximity to a Quaternary volcanic centre cannot be adequately separated above about 1,000~m.
+This study therefore does not attribute the pattern there specifically to either elevation or volcanic setting.
+This limit of separability can shift between 800 and 1,200~m, depending on the minimum-area criterion used.
+
+Below 1,000~m, the difference in suitability between land near and far from Quaternary volcanic centres is $+0.049$ for the random design (95\% CI $+0.024$ to $+0.077$), $+0.049$ for TGB and $+0.060$ for hybrid (95\% CI $+0.030$ to $+0.091$; Figure~\ref{fig:elevation}B).
+Under the pre-registered rule, the hybrid result meets the criterion for SPECIFIC, but the summary across designs remains INCONCLUSIVE, because two of the three designs do not give a firm conclusion under that criterion.
+Additional post hoc analyses show that this difference ranges from $+0.01$ to $+0.07$, depending on the zone definitions and the matching procedure; when distance to rivers is also matched, the difference falls to $+0.028$.
+The far comparison land lies mostly in the Southern Mountains, an old volcanic arc of Eocene--Miocene age with karst landforms \citep{smyth2008}, so it would not be correct to call it non-volcanic.
+In addition, the MaxEnt contingent fringe in Figure~\ref{fig:priority} has a median elevation of 1,107~m, above the limit of reliable separation; that pattern therefore cannot be interpreted specifically as either an elevation effect or a volcanic effect.
+The limited power of the test also does not allow a firm conclusion about whether the disagreement between designs differs between near and far land.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_e235_elevation_control_v03.png}
+\caption{(A) Land area in each 200~m elevation band for land near ($\leq 20$~km) and far ($\geq 40$~km) from a Quaternary volcanic centre. (B) Difference in suitability between near and far land after matching on elevation, slope, TRI and TWI, with 95\% confidence intervals (XGBoost); the grey band marks the decision threshold of $\pm 0.05$.}
+% Alt text (A4, approved 2026-10-21): Land area by elevation band and matched suitability differences
+\label{fig:elevation}
+\end{figure}
 
 \subsection{The taphonomic claim is withdrawn, and a quota design that failed}
 \label{sec:withdrawal}
@@ -509,7 +544,8 @@ We summarise the protocol that follows from the above, which is the constructive
   \item \textbf{Four synthetic regimes are not a universal result.} Across the four worlds (road-bias, misspecified, regional-bias, balanced-regional-truth; $n \approx 300$--$500$), no background design exceeded uniform on truth recovery by a meaningful margin (aggregate difference $\approx -0.0004$ AUC; TGB scored above random in 27/60 runs). This is not a refutation of target-group background in general \citep{phillips2009}; it is a result for the regimes and sample sizes tested.
   \item \textbf{A detection floor of $\sim +0.03$} at $n=378$: smaller effects are indeterminate, not absent (Section~\ref{sec:ci}).
   \item \textbf{The Boyce index is a direction check, not a selector.} Its optimum is uncalibrated to truth (median $+0.50/+0.54$, borderline); we use it only to confirm direction, and we have aligned the audit flag with this narrative so the two do not contradict.
-  \item \textbf{$n=2$ in the non-volcanic arm} of the terrain-matched control: the density ratios are consistency, not validation (Section~\ref{sec:diagnostics}).
+  % PI prose 2026-10-21 (passage 3b); replaces the v0.2 "n = 2 in the non-volcanic arm" item.
+  \item Above about 1,000~m (the limit shifts between 800 and 1,200~m, depending on the minimum area used), \textbf{elevation and proximity to a Quaternary volcanic centre cannot be adequately separated} in the study area; the model's prediction pattern there, including the high-elevation fringe in Figure~\ref{fig:priority}, therefore cannot be attributed specifically to either factor (Section~\ref{sec:elevation}).
   \item \textbf{The two-stage ``suitable but absent'' decomposition} is declared future work: it tests \emph{why} sites are absent, which requires the site-prediction claim we have withdrawn, and burial-depth data at survey resolution are not yet available.
   \item \textbf{External transfer beyond East Java is untested.}
 \end{enumerate}

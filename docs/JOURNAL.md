@@ -11437,3 +11437,68 @@ setelah cek cepat (pencarian, bukan tinjauan pustaka). PI memilih ide 1.
 - Registri: kanal baru "13. Records taphonomy / discovery process".
 - **Batas:** NusaTemu tak memakai waktu PI sebelum P2 diunggah (≤ 16 Nov); slot drafting tetap milik P23 (G13);
   bukan uji tesis penguburan (K9). Cocok dengan arah K6.
+
+## 2026-10-21 (pagi, orbit) — sesi PI hari Rabu; PI: "baca handoff, lanjutkan, kalau perlu saya silahkan ngomong apa yg perlu saya lakukan dan jalankan"
+
+- **Awal sesi:** kanari hijau 227; `inBox/` kosong; repo bersih dan sama dengan `origin/main`.
+- **Kotak masuk 07:49** (`tools/mail/gmail_check.py list "after:2026/10/19"`, hanya daftar; satu utas dibuka):
+  - **JCAA menjawab email waiver** pada 20 Okt 17:02, jadi sesudah cek kotak masuk tanggal 20. Ringkasan
+    (parafrase; aslinya di kotak masuk PI): dana publikasi JCAA hanya untuk anggota CAA, dan menurut halaman kebijakannya
+    keanggotaan minimal 2 tahun dalam 4 tahun terakhir, jadi tertutup untuk kita. Waiver penerbit jumlahnya berubah-ubah
+    tiap tahun, diajukan **sesudah naskah diterima**, siapa cepat dia dapat, tidak bisa dipesan sebelumnya. Catatan di
+    `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md` (bagian bawah).
+  - Tidak ada surat dari Nastiti, VEGAN atau arXiv. Tindak lanjut 23 Okt tetap berlaku.
+- **Arti untuk G15:** biaya nol tidak bisa diverifikasi tertulis sebelum unggah. Ini bukan penolakan dan bukan
+  pemberian; keputusan pindah ke sesudah penerimaan dan hasilnya tidak pasti. Satu-satunya jalan lolos menurut teks G15:
+  universitas membayar di muka.
+- **Disusun untuk PI:** butir W di `papers/P2_settlement_model/AGENDA_PI_20261021.md`.
+  - W1: terus revisi; ajukan waiver penerbit saat diterima; tarik bila tak dapat. Ini pengecualian G15 yang harus
+    ditandatangani PI.
+  - W2: minta universitas komitmen tertulis sebagai cadangan.
+  - W3: pindah venue sekarang.
+  - Rekomendasi: W2 minggu ini, sambil terus menulis; pilih W1 atau W3 sebelum freeze 9 Nov bila universitas menolak.
+- WORKSTATE, STATE line 01 dan triase P2 diperbarui. Belum di-commit; menunggu kata PI.
+- **~08:00 — keputusan PI atas butir W:** "jadi gini, kita request waiver, kalau diterima, kalau kalah antrian, saya
+  akan mengusahakan, sayang banget soalnya Q1". Jadi: revisi jalan terus; waiver penerbit diajukan saat naskah diterima;
+  **bila kalah antrean, PI mengusahakan biayanya sendiri; tidak ada rencana menarik naskah.** Ini pengecualian aturan
+  nol-APC dan G15 **khusus P2**, diputuskan PI (JCAA peringkat 39/462 Scopus Archaeology menurut CiteScore 2025, `VENUE.md`
+  A1). Aturan nol-APC tetap berlaku untuk naskah lain. Baris biaya G15 saat gerbang: "PI exception 2026-10-21".
+  - Akibat: surat pengantar saat unggah memuat satu kalimat bahwa kami akan mengajukan waiver penerbit saat diterima,
+    karena kebijakan jurnal meminta permintaan waiver bersama kiriman (`RESPONSE_R2_SKELETON.md` diubah). Tak perlu
+    membalas editor sekarang.
+- **~08:30 — PI "setuju default"** atas A3 (gambar E235 masuk naskah utama), A4 (alt text), A10 (surat putaran 1
+  diganti versi parafrase), A11 (b) (PI menulis abstrak baru), B1 (follow-up Kamis), B2 (E234 ditunda sampai P2
+  terunggah). Gambar dilihat PI: "baik2 saja". Sebelumnya Claude memperbaiki dua cacat kecil gambar E235: legenda
+  panel B menutupi galat titik terakhir, dan garis 25 km² belum berlabel (`build_v03_figures.py`).
+- **Portal JCAA (A7/D7), PI login, Claude membaca:**
+  - putaran 2 tanpa naskah beranotasi ("Reviewer's Attachments": kosong);
+  - tenggat "dalam 4 minggu", jadi tetap 16 Nov;
+  - surat keputusan menyebut ini kesempatan terakhir untuk suntingan besar, jadi berkas unggahan harus sudah final dan
+    dikoreksi;
+  - **koreksi catatan:** waiver sudah diminta **saat kiriman awal** lewat "Comments for the Editor" 11 Mar 2026, bukan
+    baru 6 April. Memori dan berkas korespondensi dibetulkan.
+- **A10 dikerjakan (kebersihan repo publik).** Semua berkas .md/.tex/.txt yang dilacak git dipindai terhadap teks kedua
+  surat keputusan (rangkaian 6 kata). Teks reviewer hanya disimpan di scratchpad sesi, tidak di repo.
+  - **Surat respons putaran 1 ternyata sudah berupa parafrase**: tidak ada rangkaian lebih dari 7 kata.
+  - **Kutipan verbatim ada di tempat lain:** README E217 (permintaan MaxEnt dari R1, 42 kata), `03_TEMUAN_REVISI.md`
+    (19 kata), `COVARIATE_MATRIX.md`, `10_SET_KLAIM_TERKOREKSI.md`, `JCAA_R1_RESPONSE_PLAN_20260727.md`, dan
+    `RESPONSE_R2_SKELETON.md` (10 kata, putaran 2).
+  - **Tindakan:** semuanya diparafrasekan dan ditandai; judul poin di kedua surat kehilangan tanda kutip, tiga di
+    antaranya dirumuskan ulang; PDF surat yang diunggah dikeluarkan dari pohon repo (tetap ada di portal dan riwayat git).
+  - **Pindai ulang:** tidak ada sisa lebih dari 6 kata, dan yang tersisa hanya frasa umum.
+  - Riwayat git tidak diubah: kutipan lama masih ada di commit sebelumnya. Mengubah riwayat bersifat destruktif dan tidak
+    diminta.
+- **A8:** PI mengabari Go Frendi ("go frendi aman").
+- **Sesi menulis 1 (PI menulis dalam bahasa Indonesia; Claude menerjemahkan setia, mengecek angka ke sumber, lalu
+  memasukkan ke `submission_jcaa_v0.3.tex`).** Log teks asli dan setiap perubahan di luar penerjemahan:
+  `papers/P2_settlement_model/PI_PROSE_LOG_R2.md`.
+  - **§3.7:** definisi robust core dan contingent fringe serta caveat-nya diperbaiki (C078). Rasio diturunkan ulang dari
+    `e221_outcome.json`. Fringe MaxEnt ditulis 5,65, bukan 5,7, supaya pembaca mendapat 5,62×.
+  - **§3.9 baru, "Volcanic setting or elevation?", dengan Gambar 7 (E235):**
+    - menggantikan kontrol terrain-matched E219 C;
+    - verdict SPECIFIC desain hybrid dilaporkan jujur, dengan ringkasan INCONCLUSIVE (2 dari 3 desain);
+    - Pegunungan Selatan dirujuk ke Smyth, Hall & Nichols 2008 (dicek di Crossref; ditambahkan ke .bib);
+    - label verdict didefinisikan;
+    - satu kalimat diperjelas supaya "perbedaan antardesain" tidak terbaca sebagai temuan utama makalah.
+  - **Limitations:** butir "n = 2" diganti dengan batas tumpang-tindih 1.000 m.
+  - v0.3 dikompilasi bersih (31 hlm.). Gambar E235 menjadi Gambar 7.

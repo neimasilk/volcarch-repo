@@ -1,8 +1,22 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-20 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-21 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> ## 🟠 2026-10-21 (07:49) — JCAA answered the waiver email: nothing can be reserved before acceptance → **PI decided W (~08:00): apply on acceptance; if the queue is lost, the PI funds it himself (P2-only exception to zero APC / G15; "sayang banget soalnya Q1"); no withdrawal planned**
+> Reply of 20 Oct 17:02 (paraphrased record at the bottom of `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`):
+> the Publication Fund is for CAA members (policy: ≥ 2 years in the last 4 → closed to us); publisher waivers are applied
+> for **only after acceptance**, first come first served. **G15 cannot be verified before the upload.** Options W1–W3 and the
+> recommendation (ask the university for a written fallback; keep writing; choose before the 9 Nov freeze):
+> `papers/P2_settlement_model/AGENDA_PI_20261021.md` §W. Mailbox otherwise: nothing from Nastiti, VEGAN or arXiv.
+> **Same morning:** PI "setuju default" on A3/A4/A10/A11/B1/B2; figures approved. **Portal (D7) checked:** no annotated copy;
+> due "within 4 weeks" (16 Nov); the decision calls this the last chance for major editing; the waiver was already asked
+> **at submission** (Comments for the Editor, 11 Mar), not first on 6 April. Go Frendi told (A8). A10: verbatim reviewer
+> text paraphrased in 6 files.
+> **Writing session 1 done:** the PI wrote §3.7 (C078 fixed), the new §3.9 on E235 with Figure 7, and a Limitations
+> item. Claude translated and checked them; the log is `papers/P2_settlement_model/PI_PROSE_LOG_R2.md`. Next: the
+> introduction and key terms, then the history passages, then the abstract and conclusion.
+>
 > **2026-10-20 (late) — new slow track: D4 NusaTemu** (register of chance finds; I-155; line 05). Workflow only, not started: `papers/D4_nusatemu/`. It takes no PI time before P2 is uploaded. I-156–I-158 are parked.
 >
 > ## ▶ WEDNESDAY 21 OCT — START HERE: `papers/P2_settlement_model/AGENDA_PI_20261021.md`

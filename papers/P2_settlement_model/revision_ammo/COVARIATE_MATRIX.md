@@ -4,8 +4,8 @@
 (`FEAT_COLS` / background parameters read out of each `experiments/E0NN_*/01_*.py`), not the
 manuscript text. Machine-readable version: `covariate_matrix.csv`.
 
-Reviewer 2 wrote: *"is not clear which variables are included and excluded"* and *"The variables also
-need to be separated according to their analytical role."* This document answers both, and is meant to
+Reviewer 2 found it unclear which variables each model includes or leaves out, and asked for the variables
+to be grouped by their analytical role *(paraphrase)*. This document answers both, and is meant to
 become **two tables in v0.2** (§2.1 and §2.4).
 
 ---
@@ -42,8 +42,8 @@ volcanic proximity as **diagnostics applied to the output**. That separation is 
 after E217 it is the paper's actual subject, because it is precisely the background (the accessibility
 channel) that turned out to drive the reported number.
 
-> **This is also the honest answer to R2-B** (*"what makes the approach specifically archaeological?
-> sites function mainly as spatial observations"*): the archaeological content is not in the label
+> **This is also the honest answer to R2-B** (*paraphrase:* in what sense is the approach archaeological,
+> when the sites serve only as points in space?): the archaeological content is not in the label
 > set, it is in the **background design** — the claim about where a survey could plausibly have found
 > a site. Say so plainly.
 

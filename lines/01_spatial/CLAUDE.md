@@ -58,7 +58,7 @@ a valid critique by rewording.*
 
 | Paper | Folder | Status |
 |---|---|---|
-| **P2** Settlement model | `papers/P2_settlement_model/` | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov 2026.** Start at `REVISION_JCAA_R2_20261019.md` (triage) and `REVISION_R2_WRITING_PACK.md` (the PI's prose). E235 answers R2. JCAA forbids AI ghost-writing, so the PI writes. Waiver (G15) undecided; status email sent 2026-10-20. |
+| **P2** Settlement model | `papers/P2_settlement_model/` | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov 2026.** Start at `REVISION_JCAA_R2_20261019.md` (triage) and `REVISION_R2_WRITING_PACK.md` (the PI's prose). E235 answers R2. JCAA forbids AI ghost-writing, so the PI writes. Waiver: JCAA cannot reserve one before acceptance (reply 2026-10-20); PI decided 2026-10-21 to apply on acceptance and fund it himself if refused (P2-only G15 exception). The PI's prose is logged in `PI_PROSE_LOG_R2.md`. |
 | **P17** Two Javas | `papers/P17_two_javas/` | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365): the central result is a geocoding artefact (ledger C032). Never quote its segregation result. |
 | **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | 🅿 **PARKED 2026-10-15** after 🔴 NO-GO 2026-10-01 (western-flank pattern = Penanggungan effect; duplicate candi rows). Unpark paths: `PARKED.md`. The "core finding survives" line that stood here is void. |
 

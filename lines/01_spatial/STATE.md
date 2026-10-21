@@ -1,7 +1,17 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-20 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+**Updated:** 2026-10-21 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
 
+> ## 🟠 21 Oct 07:49 — waiver answer: no waiver can be reserved before acceptance → **PI decided (~08:00): apply on acceptance; if the queue is lost, the PI funds it himself (P2-only G15 exception); no withdrawal**
+> JCAA (20 Oct 17:02): Publication Fund only for CAA members of ≥ 2 years; publisher waivers applied for after acceptance,
+> first come first served. Options W1–W3: `papers/P2_settlement_model/AGENDA_PI_20261021.md` §W (recommended: ask the
+> university for a written fallback, keep writing, choose before the 9 Nov freeze).
+> Portal checked the same morning: no annotated copy; due 16 Nov; "last opportunity for major editing"; waiver already
+> asked at submission (11 Mar). Defaults A3/A4/A10/A11/B1/B2 approved (agenda).
+> **Writing session 1 (PI, 21 Oct):** §3.7 C078 fixed; new §3.9 E235 + Figure 7; Limitations item. Log in
+> `papers/P2_settlement_model/PI_PROSE_LOG_R2.md`. Next: introduction and key terms → history passages → abstract and
+> conclusion.
+>
 > ## ▶ Wednesday 21 Oct — the PI's session: `papers/P2_settlement_model/AGENDA_PI_20261021.md`
 > Evening of 20 Oct, without the PI:
 > - Harvard reference list (`build_jcaa_bibliography.py` → `references_jcaa.tex`; v0.3 compiles clean);
@@ -92,7 +102,7 @@
 > |---|---|---|---|
 > | 9970 | Manuscript (revised) | Manuscript | `submission_jcaa_v0.2.pdf` (29 hal) |
 > | 9971 | Supplementary Tables S1-S6 | Supplementary file (for review) | `supplementary_tables_v0.2.pdf` (5 hal) |
-> | 9972 | Response to Reviewers | Response to reviewers | `revision_ammo/RESPONSE_TO_REVIEWERS_v0.2_UPLOAD.pdf` (8 hal) |
+> | 9972 | Response to Reviewers | Response to reviewers | `revision_ammo/RESPONSE_TO_REVIEWERS_v0.2_UPLOAD.pdf` (8 hal; removed from the tree 2026-10-21 under A10 — the uploaded file is in the portal and in git history; the .md is the paraphrased public copy) |
 >
 > **Verifikasi pasca-unggah (bukan asumsi).** Salinan server diunduh kembali dan dibandingkan dengan
 > berkas lokal: naskah **29 hal, teks identik, SHA1 sama**. Portal menulis ulang wadah PDF dua berkas

@@ -128,7 +128,7 @@ memberi 2.01×. Tulis **"sekitar dua kali"** dan lampirkan definisinya di catata
 | G2b | Densitas situs jauh lebih tinggi di lengan vulkanik — **konsistensi, bukan validasi**. | 0.01377 vs **0.00048** situs/km²; lengan non-vulkanik hanya **2 situs** | `e219_terrain_matched.csv` | ✅ |
 
 > **G1c wajib masuk *Response to Reviewers*.** Reviewer 2 secara eksplisit menyebut reproducibility
-> ("It should be a way to reproduce the model in a clear way"). Menemukannya sendiri dan melaporkannya
+> (model harus bisa direproduksi dengan jelas, *parafrase*). Menemukannya sendiri dan melaporkannya
 > jauh lebih baik daripada dia yang menemukan.
 
 ---

@@ -1,5 +1,20 @@
 # P2 / JCAA #280 — round-2 decision: REVISIONS REQUESTED (2026-10-19)
 
+> **Status 2026-10-21 (07:49) — waiver answered (20 Oct 17:02):** nothing can be reserved before acceptance; the
+> Publication Fund needs ≥ 2 years of CAA membership; publisher waivers are applied for after acceptance, first come first
+> served. **G15 cannot be verified before the upload** → PI decision W (`AGENDA_PI_20261021.md` §W).
+> **✅ DECIDED by the PI, 21 Oct (~08:00):** "jadi gini, kita request waiver, kalau diterima, kalau kalah antrian, saya akan mengusahakan, sayang banget soalnya Q1". So: keep revising; apply for the publisher waiver on acceptance; **if the queue is lost, the PI will try to find the money himself. No withdrawal is planned.** This is a P2-only exception to the zero-APC rule and to G15, made by the PI (the journal ranks 39/462 in Scopus Archaeology by CiteScore 2025, `VENUE.md` A1). W2 (asking the university) stays useful as one of the ways he may fund it.
+> **G15 fee row at the gate:** "PI exception 2026-10-21 (waiver applied for on acceptance; otherwise funded by the PI)".
+> **D7 / A7 ✅ done 21 Oct (~08:00, PI logged in; Claude read the pages):**
+> - **No annotated copy:** round 2 "Reviewer's Attachments" holds no files. The decision only says such a copy *may* exist.
+> - **Deadline:** the decision asks for the revision "within 4 weeks", so 16 Nov stands. Late → tell them early.
+> - **The same decision calls this the last chance for major editing.** The upload must be fully copy-edited and proofed.
+>   That argues for the full G1 + adversarial read before upload.
+> - **Correction to our records:** the APC waiver was already requested **at submission**, in the portal's "Comments for
+>   the Editor" of 11 Mar 2026 (01:44 GMT). Earlier notes said the request came only on 6 April, after the submission.
+>   So the policy's "waiver requests with the submission" was met.
+> - Portal task list: "Resubmit for review" (round 2). Revisions table empty.
+>
 > **Status 2026-10-20 (later) — PI: "ok, lakukan yg perlu dilakukan" → defaults taken; Claude's part done except references:**
 > - **D4 ✅:** waiver email **sent** 08:07 to journal@caa-international.org
 >   (`docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`, now the sent record). G15 stays RED until a

@@ -60,8 +60,8 @@ arah** — AUC-background-sendiri naik 0.721→0.844 sementara AUC-background-be
 | §4.1 Discussion | "The strongest performance gains came from correcting background-label realism, not from adding more covariates." |
 | §5 Conclusions | "under survey-biased archaeological data, pseudo-absence realism is the dominant determinant of spatial transfer" |
 
-Reviewer 1 membaca klaim itu persis sebagaimana dimaksud: *"The key takeaway—that pseudo-absence realism
-plays a dominant role in model transferability—is clearly stated."* Jadi ini bukan salah tafsir yang bisa
+Reviewer 1 membaca klaim itu persis sebagaimana dimaksud: menurutnya pesan utama naskah (realisme
+pseudo-absence paling menentukan daya alih model) dinyatakan dengan jelas *(parafrase)*. Jadi ini bukan salah tafsir yang bisa
 diperbaiki dengan menulis ulang kalimat.
 
 Naskah **sudah mengutip Lobo dkk.** (sebagai `lobo2010` di §1.2) — peringatan baku bahwa AUC tidak bisa
@@ -291,8 +291,8 @@ ambigu; **rasionya rapuh dan tidak boleh dikutip sebagai kelipatan presisi.**
 
 ## 6. Risiko terbesar bagi arah revisi ini
 
-Reviewer 1 sudah menulis: *"the empirical finding is not entirely novel and is well established in adjacent
-fields such as ecological niche modeling."*
+Reviewer 1 sudah menulis bahwa temuan empirisnya tidak sepenuhnya baru, karena bidang tetangga seperti
+pemodelan relung ekologi sudah lama mengenalnya *(parafrase)*.
 
 Temuan artefak telanjang **memang** dekat dengan Lobo dkk. (2008). Reviewer bisa dengan sah bilang "Anda
 menemukan ulang hal yang sudah diketahui". Sampai kemarin saya tidak punya jawaban untuk itu.
@@ -302,8 +302,8 @@ lebih tajam: **di ruang desain ini, mengoptimalkan metrik yang dilaporkan secara
 yang lebih buruk**, dengan dose-response monoton (+0.961 / −0.708) di sepanjang parameter yang praktisi
 memang putar. Itu patologi terukur, bukan pengulangan peringatan.
 
-Risiko kedua: reframe metodologis **memperparah** keberatan R2 ("sites function mainly as spatial
-observations"). E219 dirancang khusus untuk itu — konsekuensinya arkeologis (ke mana orang dikirim ke
+Risiko kedua: reframe metodologis **memperparah** keberatan R2 (situs hanya dipakai sebagai titik
+di ruang, *parafrase*). E219 dirancang khusus untuk itu — konsekuensinya arkeologis (ke mana orang dikirim ke
 lapangan), bukan statistik.
 
 ---

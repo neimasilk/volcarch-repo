@@ -259,7 +259,7 @@ def fig_elevation_control() -> Path:
     a.bar((mid - w / 2)[m1.area_km2_V > 0], m1.area_km2_V[m1.area_km2_V > 0], w, color=V_COL, label="≤ 20 km from a Quaternary volcanic centre")
     a.bar((mid + w / 2)[m1.area_km2_N > 0], m1.area_km2_N[m1.area_km2_N > 0], w, color=N_COL, label="≥ 40 km from a Quaternary volcanic centre")
     a.axvspan(0, e_star, color="0.93", zorder=0)
-    a.axhline(25, color=v02.MUTED, lw=0.8, ls=":")
+    a.axhline(25, color=v02.MUTED, lw=0.8, ls=":", label="25 km²: minimum area for a comparison")
     a.set_yscale("log"); a.set_ylabel("Land area per 200 m band (km²)"); a.set_xlabel("Elevation (km)")
     a.text(e_star / 2, 4.0e5, "both settings\npresent", ha="center", va="top", fontsize=8, color=v02.MUTED)
     a.text(e_star + 0.12, 3.0e3, f"above {e_star * 1000:,.0f} m: 97.5 % within 20 km,\n0.4 % 40 km or more away", ha="left", va="bottom", fontsize=8, color=v02.MUTED)
@@ -280,7 +280,9 @@ def fig_elevation_control() -> Path:
     b.set_xlim(0, e_star); b.set_xlabel("Elevation (km)")
     b.set_ylabel("Near − far suitability\n(matched within band)")
     b.text(0.02, -0.047, "±0.05: pre-set threshold", fontsize=7.5, color=v02.MUTED, va="bottom")
-    b.legend(frameon=False, fontsize=7.5, loc="lower right")
+    # Legend top left with headroom: at the bottom right it covered the last whisker.
+    b.set_ylim(-0.13, 0.23)
+    b.legend(frameon=False, fontsize=7.5, loc="upper left")
     b.set_title("B", loc="left", fontsize=10, fontweight="bold")
     fig.tight_layout()
     path = FIG / "fig_e235_elevation_control_v03.png"

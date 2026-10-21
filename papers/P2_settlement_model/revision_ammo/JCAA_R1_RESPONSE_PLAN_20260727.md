@@ -1,6 +1,6 @@
 # P2 / JCAA #280 — Revision Plan (R1 decision received 2026-07-23)
 
-**Decision:** *Revisions requested* — "These revisions may then undergo further peer review prior to acceptance."
+**Decision:** *Revisions requested*; the editor notes that the revised version may be reviewed again before any acceptance *(paraphrase)*.
 **Editor:** Dr Philip Verhagen. **Deadline stated:** 4 weeks from 2026-07-23 → **2026-08-20**.
 **Reviewer recommendations:** Reviewer 1 = *Resubmit for Review*; Reviewer 2 = *Resubmit Elsewhere* (editor overrode toward revision).
 **Manuscript under review:** `submission_jcaa_v0.1.tex` (compiled `submission_jcaa_v0.1.pdf`, submitted 2026-03-11).
@@ -50,7 +50,7 @@ an extension to 2026-09-30. Draft awaiting Pak Amien's send.
 
 Reviewer 2 rated *Framing of the research question* = **Poor** and *Relevance for the journal* = **Fair**,
 and recommended resubmission elsewhere. Reviewer 1 is winnable with additions; **Reviewer 2 is the gate.**
-Since the editor states revisions "may then undergo further peer review", assume both reviewers see v0.2.
+Since the editor says the revision may be reviewed again, assume both reviewers see v0.2.
 
 Therefore: **R2's structural asks (research-question taxonomy, variable roles, non-volcanic control,
 two-stage design) get first call on effort — not R1's stylistic asks.** R1's one hard scientific ask
@@ -86,7 +86,7 @@ Legend — **[TEXT]** rewrite only · **[TABLE]** new table/figure from existing
 | ID | Ask | Type | Effort | Notes |
 |---|---|---|---|---|
 | R2-A | Research question ambiguous — modelling suitability vs predicting sites vs detecting burial vs correcting survey bias are different questions | [TEXT] | M | Add an explicit §1 taxonomy of the four absence mechanisms (environmentally unsuitable / not surveyed / buried / destroyed) and state that **this paper models suitability only**; the other three are the interpretive frame, not the output. |
-| R2-B | What makes the approach specifically *archaeological*? Sites act only as spatial observations | [TEXT] | M | Answer honestly: the archaeological content is in the **background design** (where survey could plausibly have detected a site), not in the label set. That is exactly the paper's own thesis — surface it. |
+| R2-B | In what sense is the approach *archaeological*? The sites serve only as points in space | [TEXT] | M | Answer honestly: the archaeological content is in the **background design** (where survey could plausibly have detected a site), not in the label set. That is exactly the paper's own thesis — surface it. |
 | R2-C | Proposes a two-stage design: model known-settlement environment → find suitable-but-absent areas → test which mechanism explains absence | **[RUN]**[TEXT] | **L** | → **E219** (§2.3). Partially reframing, partially new analysis. |
 | R2-D | Cannot tell which variables are in/out per experiment; model not clearly reproducible | [TABLE] | S | **Per-experiment covariate inclusion matrix.** Highest value-per-hour item in the revision. |
 | R2-E | Separate variables by analytical role (suitability / accessibility-survey / preservation) | [TABLE][TEXT] | S | Role column in the covariate table + one paragraph on why roles must not be mixed in interpretation. |

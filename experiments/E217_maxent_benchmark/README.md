@@ -9,11 +9,10 @@
 
 ## The reviewer's ask
 
-> "as the main topic is around the presence-only modeling, the reason for not using, comparing to, or at
-> least relating to the similar approach through the Maximum Entropy functions is problematic. Maxent is
-> indirectly referred to in pointing to (Phillips et al., 2006) for the experimental design. But why not use
-> Maxent to evaluate the results? Or at the very minimum explain the reasoning for not using Maxent, and
-> what this method does that Maxent does not."
+> *Paraphrase (2026-10-21; public-repo rule, the original is in the PI's mailbox):* the paper is about
+> presence-only modelling, yet it neither uses nor compares itself with Maximum Entropy. MaxEnt appears only
+> indirectly, through the citation of Phillips et al. (2006) for the design. The reviewer asked us to evaluate
+> the results with MaxEnt too, or at least to explain why not and what our method offers that MaxEnt does not.
 
 Reviewer 1 raised this twice (§4 Research design, §9 Additional feedback) and called relating to MaxEnt
 "essential". It is the single hard scientific ask in that review.

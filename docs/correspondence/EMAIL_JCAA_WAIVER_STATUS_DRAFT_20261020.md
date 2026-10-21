@@ -39,3 +39,30 @@ ORCID 0000-0002-1848-167X
 
 The August mention is confirmed: the v0.2 response letter has a section "Note on the APC waiver"
 (`papers/P2_settlement_model/revision_ammo/RESPONSE_TO_REVIEWERS_v0.2_UPLOAD.md` line 338), uploaded 2026-08-11.
+
+---
+
+## REPLY received 2026-10-20, 17:02 WIB (found 2026-10-21 07:49 in the mailbox check) — paraphrased
+
+From Cesar Gonzalez-Perez (who signed the 19 Oct decision for the editorial team), in the same thread. Paraphrase only
+(public repo); the original stays in the PI's mailbox.
+- There are **two routes** to a waiver.
+  1. **CAA members** can apply to the JCAA Publication Fund (link to the waiver-policy page). That page, fetched
+     2026-10-20 (`papers/P2_settlement_model/VENUE.md` A12), requires current membership **and at least 2 years of
+     membership in the last 4**, so the route is not open to us in this cycle (the PI is not a member, as far as the
+     project records show).
+  2. **The publisher** grants a variable number of waivers each year. Authors apply **only after acceptance**.
+- Waivers go **first come, first served**, so the journal **cannot reserve one before acceptance**; at acceptance one is
+  granted if funds remain.
+- He offers more information if needed.
+
+**What it means for G15 (zero cost, verified before submission):** it **cannot be met in writing before the upload**.
+The answer is neither a refusal nor a grant: it moves the decision to after acceptance, with an uncertain outcome. The
+fee is £651.00 (live page 2026-10-20). Options and the recommendation are in
+`papers/P2_settlement_model/AGENDA_PI_20261021.md`, item **W** (PI decision).
+
+**✅ DECIDED by the PI, 21 Oct (~08:00):** "jadi gini, kita request waiver, kalau diterima, kalau kalah antrian, saya akan mengusahakan, sayang banget soalnya Q1". So: keep revising; apply for the publisher waiver on acceptance; **if the queue is lost, the PI will try to find the money himself. No withdrawal is planned.** This is a P2-only exception to the zero-APC rule and to G15, made by the PI (the journal ranks 39/462 in Scopus Archaeology by CiteScore 2025, `VENUE.md` A1). W2 (asking the university) stays useful as one of the ways he may fund it.
+No reply to the editor now; the cover letter at resubmission carries one sentence (policy: waiver requests belong with the submission).
+
+**Correction (portal, 2026-10-21):** the waiver was first requested **at submission**, in the portal's "Comments for the
+Editor" of 11 Mar 2026 (01:44 GMT), before the 6 April email. The policy's timing rule was therefore met.
