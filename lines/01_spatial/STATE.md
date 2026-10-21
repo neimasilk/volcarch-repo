@@ -11,6 +11,7 @@
 > **Writing session 1 (PI, 21 Oct):** §3.7 C078 fixed; new §3.9 E235 + Figure 7; Limitations item. Log in
 > `papers/P2_settlement_model/PI_PROSE_LOG_R2.md`. Next: introduction and key terms → history passages → abstract and
 > conclusion.
+> Later the same day (Claude): worksheets `WRITING_SESSIONS_R2.md`; supplement v0.3 (S1–S8); 7 keywords → max 6.
 >
 > ## ▶ Wednesday 21 Oct — the PI's session: `papers/P2_settlement_model/AGENDA_PI_20261021.md`
 > Evening of 20 Oct, without the PI:

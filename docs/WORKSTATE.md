@@ -16,6 +16,9 @@ Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapsh
 > **Writing session 1 done:** the PI wrote §3.7 (C078 fixed), the new §3.9 on E235 with Figure 7, and a Limitations
 > item. Claude translated and checked them; the log is `papers/P2_settlement_model/PI_PROSE_LOG_R2.md`. Next: the
 > introduction and key terms, then the history passages, then the abstract and conclusion.
+> **Later (without the PI):** worksheets for sessions 2–4 (`papers/P2_settlement_model/WRITING_SESSIONS_R2.md`);
+> supplement v0.3 (S1–S8); 7 keywords found (JCAA max 6). **Handoff: `docs/HANDOFF_20261021.md`.** Thursday 23 Oct:
+> PI opens a session for the B1 follow-ups.
 >
 > **2026-10-20 (late) — new slow track: D4 NusaTemu** (register of chance finds; I-155; line 05). Workflow only, not started: `papers/D4_nusatemu/`. It takes no PI time before P2 is uploaded. I-156–I-158 are parked.
 >

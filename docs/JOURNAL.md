@@ -11502,3 +11502,17 @@ setelah cek cepat (pencarian, bukan tinjauan pustaka). PI memilih ide 1.
     - satu kalimat diperjelas supaya "perbedaan antardesain" tidak terbaca sebagai temuan utama makalah.
   - **Limitations:** butir "n = 2" diganti dengan batas tumpang-tindih 1.000 m.
   - v0.3 dikompilasi bersih (31 hlm.). Gambar E235 menjadi Gambar 7.
+- **Commit `106f821` di-push** atas kata PI ("silahkan di commit dan push"). PI pergi: "kalau ada yg perlu kamu kerjakan
+  kerjakan".
+- **Dikerjakan tanpa PI:**
+  - **Lembar kerja sesi menulis 2–4** (`papers/P2_settlement_model/WRITING_SESSIONS_R2.md`). Ke-22 tempat riwayat review
+    dipetakan ke nomor baris v0.3, dan setiap kutipan pembukanya dicek dengan grep. Idiom disusun sebagai satu tabel
+    substitusi yang perlu ya dari PI.
+  - **Temuan baru:**
+    - **kata kunci 7, padahal JCAA maksimal 6** (`VENUE.md` A3);
+    - kata "published" di baris 310, 345 dan 351 tidak akurat, karena P2 tidak pernah terbit;
+    - kalimat "strong gains" kini ada di baris 115.
+  - **Suplemen v0.3:** `build_supplement.py v0.3` menambahkan S7–S8 (E235) dan menomori tabel lewat LaTeX. Suplemen v0.2
+    yang terunggah ternyata mencetak "Table 1: Table S1." (nomor ganda). Hasil build v0.2 dicek tetap identik
+    (`git diff` kosong). Daftar suplemen di naskah diperbarui ke v0.3 dan S7–S8. v0.3 dikompilasi bersih (32 hlm.).
+  - Handoff baru `docs/HANDOFF_20261021.md`; yang 19 Okt dipindah ke arsip.
