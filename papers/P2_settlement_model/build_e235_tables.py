@@ -1,7 +1,7 @@
 """E235 result tables for the P2 supplement (round-2 revision, Reviewer 2). 2026-10-20.
 
-Data only, generated from experiments/E235_elevation_vs_volcanic_control/results/; captions are factual stubs for
-the PI to word. Output: supplement/e235_tables_v03.tex (two tables, \\input-ready).
+Data only, generated from experiments/E235_elevation_vs_volcanic_control/results/; the factual captions were
+accepted as they stand by the PI on 2026-10-22 (writing session 4, part 1). Output: supplement/e235_tables_v03.tex (two tables, \\input-ready).
     python papers/P2_settlement_model/build_e235_tables.py
 """
 import json
@@ -46,7 +46,7 @@ else:
 
 t1 = [
     r"\begin{table}[ht]\centering\small",
-    r"\caption{[S7 -- caption for the PI] Elevation bands: land within 20 km (near) and 40 km or more (far) from a Quaternary volcanic centre, "
+    r"\caption{Elevation bands: land within 20 km (near) and 40 km or more (far) from a Quaternary volcanic centre, "
     r"and near $-$ far differences matched within band on slope, TRI and TWI (XGBoost, 10-seed ensemble maps; "
     r"95\% spatial-block bootstrap intervals). A band is compared only if each setting has at least 25~km$^2$ in at least two blocks. " + rows_note + "}",
     r"\label{tab:e235bands}",
@@ -75,7 +75,7 @@ for dk, dl in defs.items():
         dl = ""
 t2 = [
     r"\begin{table}[ht]\centering\small",
-    r"\caption{[S8 -- caption for the PI] Pooled near $-$ far differences over the compared bands, by zone definition and algorithm, "
+    r"\caption{Pooled near $-$ far differences over the compared bands, by zone definition and algorithm, "
     r"with the verdicts of the pre-registered rules (threshold 0.05 suitability; 5 percentage points for the fringe; "
     r"the suitability verdict is the one shared by at least two of the three background designs). "
     r"The fringe verdict carries no information: the 5-point threshold exceeds the fringe rate itself (1--3\% of cells below 1,000 m).}",

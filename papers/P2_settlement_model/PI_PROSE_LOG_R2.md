@@ -341,3 +341,136 @@ pool-composition effect bears on the absolute AUC values …") is kept.
 - `experiments/E217_maxent_benchmark/results/e217_zdist_sites_check.txt`.
 
 v0.3 compiles clean (33 pp., 0 errors, 0 undefined); both passages read back from the PDF.
+
+---
+
+## Session 3, part 1 — 41 language edits approved as one list (R1-1, R1-4) — 2026-10-22
+
+**Not the PI's prose; listed here because they change the text.** The PI approved the list in one word ("bagian 1,
+ya"). They are deletions of review history, "published" → "original"/"reported" (P2 was never published) and the
+idiom substitutions R1 asked for. No sentence gains new content. The exact old → new pairs are in
+`papers/P2_settlement_model/apply_session3_language_edits.py` (ids H1–H17, P1–P7, I1–I17); the dry run confirmed that
+each old string occurred exactly once, then `--apply` wrote them.
+
+- **H (review history):**
+  - deleted: "Following a reviewer's taxonomy,"; the sentence "We state this restraint up front because the earlier
+    version …"; the paragraph "The honest shape of this revision …"; "added at a reviewer's request"; "(answers the
+    Maximum Entropy request)"; the clause "the submitted version quoted these gaps against the best run …"; "correcting
+    an earlier internal claim"; "none prompted by the reviewers" (with its TODO comment); "With the site-prediction
+    claim withdrawn,"; the sentence "This restraint is now stated in the manuscript …";
+  - reworded: "a reviewer of the previous version observed — correctly — that" → "because this family …";
+    "originally reported as evidence" → "initially read as evidence"; "the honest answer to the question of what makes"
+    → "what makes"; "in the reviewer's own terms" → "in the terms of Section 1.2"; "this revision" → "this study" (2);
+    "the site-prediction claim we have withdrawn" → "site-level prediction, which this design does not support".
+- **P ("published"):** "published pipeline/values/ladder gain" → "original pipeline/values", "reported ladder gain"
+  (7 places).
+- **I (idioms):**
+  - "dial" → "the share of hard negatives (0 to 1)", "the hard-negative share", "the end of the range" (8 places;
+    only the invisible label `fig:dial` remains);
+  - "judged at home", "judging at home", "home-court" → "scored on its own background", "own-background inflation"
+    (6);
+  - "rung(s)" → "step(s)" (2);
+  - "map Jaccard said no" → "it did not support that reading";
+  - "home regime" → "the regime it was built for".
+  - "ladder" is kept; the PI defines it at first use (session 3 block A).
+
+v0.3 compiles clean (33 pp., 0 errors, 0 undefined). Left for the PI in session 3: blocks A–E (lines 132–135, 255–258,
+266–267, 473, 513–516). Left for session 4: abstract, conclusion, acknowledgements, contributions, AI statement.
+
+---
+
+## Passage 8 — session 3, part 2: blocks A–E (history passages that needed new content) — 2026-10-22
+
+**Answers:** R1-1. The PI wrote five blocks in Indonesian. The English is in the .tex under the comments "passage
+8A"–"8E". Changes beyond translation were made under the PI's standing "saya ngikut kamu" (same morning) and reported
+right after.
+
+**PI's text (as written):**
+
+> **A.** Setiap desain latar dibandingkan dengan Maximum Entropy (MaxEnt), metode pemodelan presence–background yang
+> umum digunakan (Elith et al., 2006), pada lipatan validasi silang yang sama; perbandingan ini menjadi analisis penentu
+> dalam penelitian. Analisis awal menunjukkan suatu ladder, yaitu urutan tujuh desain (E007–E013) yang masing-masing
+> dilaporkan menghasilkan AUC lebih tinggi daripada desain sebelumnya, dengan rata-rata AUC antar-seed meningkat dari
+> 0,659 menjadi 0,751. Namun, hasil pada Section 3.2 menunjukkan bahwa kenaikan tersebut merupakan artefak evaluasi,
+> bukan bukti bahwa desain latar yang semakin realistis menghasilkan model yang lebih baik. Dengan demikian, bahan
+> empiris yang sama kini mendukung kesimpulan yang lebih terbatas: penilaian kinerja model presence–background sangat
+> bergantung pada latar yang digunakan untuk mengevaluasinya.
+>
+> **B.** Selain perannya dalam pemodelan dan pembentukan desain latar, jarak ke jalan (road_dist) juga digunakan sebagai
+> proksi visibilitas dalam rangkaian diagnostik. Pada Test 1, korelasi antara kesesuaian prediksi dan jarak ke gunung
+> api, jarak ke jalan, serta jarak ke situs terdekat diperiksa; hasil diagnostik hanya dianggap gagal jika nilai absolut
+> korelasi Spearman melampaui 0,5. Test 3 mengevaluasi kinerja model pada kuartil jarak ke jalan yang paling jarang
+> disurvei, sedangkan komponen terkait gunung api dari Test 1 dilaporkan pada Section 3.8. Karena variabel yang
+> digunakan untuk membentuk latar juga dapat memengaruhi nilai metrik yang dilaporkan, peran road_dist dalam pembentukan
+> latar dan diagnostik perlu dijelaskan di bagian metode ini bersama kovariat lainnya.
+>
+> **C.** E014 merupakan evaluasi holdout berbasis proksi aksesibilitas: model dilatih menggunakan situs yang berjarak
+> ≤ 1 km dari jalan dan diuji menggunakan situs yang berjarak > 1 km, sehingga pemisahan data mencerminkan perbedaan
+> aksesibilitas, bukan perbedaan waktu. Model ini menghasilkan AUC sebesar 0,755.
+>
+> **D.** Korelasi yang tidak konsisten antar-seed. Pada versi sebelumnya, korelasi Spearman sebesar −0,163 dilaporkan
+> berdasarkan satu instans model. Namun, pengulangan analisis dengan lima seed pada inventaris tujuh gunung api yang sama
+> menghasilkan korelasi sebesar −0,243 (E219). Perbedaan ini menunjukkan bahwa hasil diagnostik tersebut dapat berubah
+> antar-seed, sehingga interpretasinya perlu mempertimbangkan ketidakstabilan dalam satu konfigurasi analisis dan
+> pentingnya protokol seed ensemble.
+>
+> **E.** Judul: Apa yang Tidak Dapat Ditunjukkan oleh Permukaan Kesesuaian, dan Desain Kuota yang Gagal. Kalimat:
+> Permukaan kesesuaian tidak dapat membedakan mekanisme yang menyebabkan suatu situs tidak teramati. Karena itu,
+> interpretasi bahwa kesesuaian prediksi yang rendah di dekat gunung api merupakan bukti adanya permukiman yang terkubur
+> tidak dapat dipertahankan, sebab perbandingan model yang mendasarinya tidak bertahan dalam evaluasi menggunakan latar
+> bersama (Section 3.2). [Note to Claude: the quota results and numbers stay.]
+
+**Changes beyond translation:**
+- **A1 — factual, from Claude's own fact list.**
+  - "masing-masing dilaporkan menghasilkan AUC lebih tinggi daripada desain sebelumnya" → "whose reported AUC rose
+    from 0.659 (E007) to 0.751 (E013, mean over seeds), with a single dip at E009". Table 4: E008 0.695 → E009 0.664.
+    The rise is not step by step. The wrong "each better than the last" came from the facts Claude gave the PI.
+  - "rata-rata AUC antar-seed … dari 0,659": 0.659 is E007's run value, not a seed mean; only 0.751 is.
+- **A2 — "tujuh desain" → "seven experiments".** E007–E009 share one background design and differ in features. In
+  this paper "design" means background design (Table 1).
+- **A3 — "kenaikan tersebut merupakan artefak" → "the part of this rise attributed to increasingly realistic background
+  designs is an evaluation artefact".** Section 3.2: on a common background, the redesign contributes −0.014 and the
+  river feature +0.042. The feature part of the rise is real, so "the rise is an artefact" said more than the
+  results. The PI asked to avoid statements that are too strong.
+- **A4 — placement.** The PI's last sentence takes the place of the opening of the old line 136. The italic proposition
+  (background designs cannot be compared unless the evaluation background is held fixed; no interior optimum) is kept
+  after a semicolon, because passage 6 explains it right after.
+- **A5 — "metode … yang umum digunakan" → "a widely used … method";** citation kept as \citep{elith2006}.
+- **B1 — the PI's first sentence is folded into item (iv) of the line that lists the four roles** ("and (iv) serves as
+  a visibility proxy in the diagnostic suite"). That line already gives roles (i)–(iii). "Perannya dalam pemodelan"
+  is dropped because `road_dist` is never a training feature, as the same line says.
+- **C1 — C replaces the three old E014 lines.** The old clause "road accessibility as a proxy for discovery order
+  (sites far from roads stand in for sites found late)" is kept inside the PI's sentence, because it gives the reason
+  the holdout means anything. The parenthesis about the mislabelled file and the "Response to Reviewers" is cut, as
+  agreed; the record stays in the repository. "accessibility-proxy holdout" keeps its italics.
+- **D1 — "Pada versi sebelumnya … dilaporkan" → "A single model instance gives …".** "Previous version" is review
+  history (R1-1), so it is dropped. "for the same test" ties the number to Test 1 above. The bold run-in heading
+  translates the PI's title.
+- **E1 — the old sentence "Low predicted suitability near a volcano is not evidence of a buried site, in the terms of
+  Section 1.2 …" is removed.** It said the same as the PI's first sentence. Its cross-reference moves into that
+  sentence: "(Section 1.2)".
+
+**Checked:** Table 4 (E007 0.659, E008 0.695, E009 0.664, E013 0.768 best / 0.751 seed mean); Section 3.2 numbers
+(−0.0142, +0.0424); ρ −0.163 (single instance) and −0.243 (five seeds, 7 centres): claim set G1c,
+`review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. v0.3 compiles clean (33 pp., 0 errors, 0 undefined). A rescan
+finds review-history wording only in the session-4 places (abstract, conclusion, acknowledgements, contributions, AI
+statement) and in the invisible label `sec:withdrawal`.
+
+---
+
+## Session 4, part 1 — back-matter defaults approved in one word ("ya") — 2026-10-22
+
+**Not the PI's prose.** Four standard or mechanical changes; the PI approved the list as proposed.
+
+- **Keywords 7 → 6** (JCAA limit, `VENUE.md` A3): "target-group background" dropped. "pseudo-absence design" covers
+  it, and the term is defined in Table 1 and the Introduction.
+- **Authors' Contributions:** "Both authors approved the withdrawal of the central claim reported in this revision."
+  → "Both authors read and approved the final manuscript." (R1-1: no review history.)
+- **Data Availability, Code:** "including E217--E224 and the verification script" → "including E217--E224, E235 and
+  the verification script" (E235 is the Section 3.9 control).
+- **Supplement:** the factual captions of Tables S7–S8 are kept; only the "[S7/S8 -- caption for the PI]" markers are
+  removed (`build_e235_tables.py`). The four-sentence supplement intro is kept as it stands (no review history; it
+  points to Sections 2.6 and 3.9, checked against the .aux). Both rebuilt: supplement 7 pp.; manuscript 33 pp., 0
+  errors, 0 undefined.
+
+Left for the PI: abstract, conclusion, the "strong gains" sentence, acknowledgements, AI statement.

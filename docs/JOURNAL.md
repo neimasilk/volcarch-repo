@@ -11568,3 +11568,26 @@ PI menulis dalam bahasa Indonesia, Claude menerjemahkan dan mengecek; log teks a
   dicek ulang: E222 0,7367 → 0,8904 di porsi 0 → 1; E218b 0,7208 → 0,7137 → 0,8435); passage 7 — kalimat Metode C080
   ditulis PI (paruh pertama baris 249 dengan grid sweep dipertahankan; "zdist" → z). **C080 ditutup.** Pergeseran nomor
   baris dicatat di lembar kerja. v0.3: 33 hlm., 0 error.
+
+## 2026-10-22 (Kamis, siang–sore) — P2 sesi menulis 3 selesai; sesi 4 bagian 1
+
+Log lengkap: `papers/P2_settlement_model/PI_PROSE_LOG_R2.md` ("Session 3, part 1", passage 8, "Session 4, part 1").
+- **Sesi 3 bagian 1 — 41 suntingan bahasa** disetujui PI sebagai satu daftar ("bagian 1, ya"): penghapusan riwayat review
+  (H1–H17), "published" → "original/reported" (P1–P7; P2 tidak pernah terbit), idiom yang diminta R1 (I1–I17: dial,
+  judged at home, home-court, rung, "map Jaccard said no", home regime). Skrip:
+  `papers/P2_settlement_model/apply_session3_language_edits.py` (dry run dulu; tiap string lama tepat sekali).
+- **Sesi 3 bagian 2 — passage 8, blok A–E ditulis PI** (pembuka 1.3; peran keempat `road_dist` + Test 1/3; E014
+  accessibility-proxy holdout; ρ −0,163 vs −0,243 lintas seed; judul 3.10 "What a suitability surface cannot show…").
+  **Kesalahan fakta dari daftar fakta Claude sendiri** (A1): ladder E007–E013 ditulis "masing-masing lebih tinggi dari
+  sebelumnya", padahal E009 turun (0,695 → 0,664), dan 0,659 adalah nilai satu run E007, bukan rata-rata seed.
+  Dikoreksi di naskah, dikatakan ke PI, dan kalimat fakta yang sama di `WRITING_SESSIONS_R2.md` juga diperbaiki.
+  Perubahan lain (A3 "bagian kenaikan yang dikaitkan dengan desain latar", B1, C1, D1 "versi sebelumnya" dibuang, E1)
+  dicatat dan disampaikan.
+- **Sesi 4 bagian 1 (PI "ya"):** kata kunci 7 → 6 ("target-group background" dibuang; batas JCAA); Authors'
+  Contributions → "Both authors read and approved the final manuscript."; Data Availability + E235; caption S7–S8 dan
+  pengantar suplemen dipertahankan, penanda "[caption for the PI]" dihapus (`build_e235_tables.py`). Naskah 33 hlm.,
+  0 error, 0 undefined; suplemen 7 hlm.
+- **Masih untuk PI (sesi 4 bagian 2):** abstrak, kesimpulan, kalimat "strong gains", ucapan terima kasih, pernyataan AI.
+  **Isu integritas diangkat ke PI:** JCAA menolak *ghost-writing* (AI menulis bagian substansial metode/hasil/diskusi);
+  sebagian besar Metode/Hasil/Diskusi v0.3 adalah teks v0.2 yang didraf dengan Claude. Rekomendasi Claude: pernyataan AI
+  yang jujur dan rinci (bukan diperkecil); alternatifnya PI menulis ulang ±20 hlm. sebelum beku. **Keputusan PI.**

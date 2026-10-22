@@ -22,6 +22,11 @@ Under JCAA's AI policy this is "language assistance" (`VENUE.md` A5), and it is 
 lines 85–108, **+30** to lines 109–221 (e.g. "strong gains" 115 → 145) and **+32** after line 222 (e.g. 231 → 263).
 The quoted openings still find each place.
 
+**Session 3 (2026-10-22): done** — 41 language edits (log "Session 3, part 1") and the PI's blocks A–E (passage 8).
+**Session 4, part 1 (2026-10-22): done** — keywords 7 → 6, Authors' Contributions, Data Availability + E235, S7–S8
+captions kept (log "Session 4, part 1"). **Open:** abstract, conclusion, the "strong gains" sentence,
+acknowledgements, AI statement.
+
 ---
 
 ## Session 2 — Introduction and key terms (R1-2, R1-3)
@@ -126,7 +131,7 @@ than a word swap goes back to the PI. Candidates (writing pack §2):
 | Idiom | Candidate |
 |---|---|
 | dial | "the share of hard negatives in the background (0 to 1)"; after first use, "the hard-negative share" |
-| ladder / rung | keep "ladder", defined plainly once ("the sequence of seven designs, E007–E013, each reported as better than the last"); "rung" → "step" |
+| ladder / rung | keep "ladder", defined plainly once (as done in passage 8A: seven experiments, E007–E013, reported AUC 0.659 → 0.751 with one dip at E009 — *not* "each better than the last", which was wrong); "rung" → "step" |
 | judged at home / home-court inflation | "scored on its own background" / "own-background inflation" |
 | map Jaccard said no | "the pre-registered primary measure, overlap between top-decile maps (Jaccard), did not improve" |
 
@@ -146,8 +151,9 @@ than a word swap goes back to the PI. Candidates (writing pack §2):
 
 **Facts for the abstract** (all in the current manuscript; numbers re-derived 2026-08-03 under G1):
 - 378 presences; XGBoost, RandomForest and MaxEnt under fixed spatial-block cross-validation.
-- Seven designs E007–E013, AUC 0.659 → 0.751 (seed mean; 0.768 best run), read at the time as the effect of more
-  realistic background points.
+- Seven experiments E007–E013, reported AUC 0.659 (E007, one run) → 0.751 (E013, seed mean; 0.768 best run), with one
+  dip at E009 (0.695 → 0.664); read at the time as the effect of more realistic background points. *(Corrected
+  2026-10-22, log passage 8 A1: the earlier "seven designs, each better than the last" was wrong.)*
 - On a common evaluation background: redesigning the background −0.014 AUC; adding one hydrological feature +0.042.
 - Synthetic worlds: a design scored on its own background is reported above its truth in 343/360 runs (95.3 %). The
   selection criterion has no interior optimum.
