@@ -1,6 +1,11 @@
 # STATE — Line 03 PALEOENV
 
-**Updated:** 2026-10-19 · **Temperature:** ⏳ WAITING — VEGAN email sent 2026-10-02; follow-up 23 Oct, fallback 6 Nov · E234 designed, not run
+**Updated:** 2026-10-22 · **Temperature:** ⏳ WAITING — VEGAN email sent 2026-10-02; **follow-up sent 2026-10-22**; fallback 6 Nov · E234 designed, not run
+
+> **2026-10-22 — VEGAN follow-up SENT 09:15 WIB** (orbit; PI "Kirim sekarang", one day before K8's 23 Oct): reply in the
+> 2 Oct thread to niamarniatief@yahoo.com, text of `docs/correspondence/FOLLOWUP_DRAFTS_20261023.md` §2 unchanged (one
+> question: does phytolith preservation under volcanic cover allow a yes/no on pre-400 CE cultivation?). No answer before
+> it (mailbox incl. spam checked 09:06). **Still silent on 6 Nov** → Castillo (reserve) or park T5 (K8).
 
 > **2026-10-19 — E234 = G10 route S for E216, pre-registered (orbit; PI "ya, buatkan desain jalur sumber untuk E216"):**
 > `experiments/E234_e216_source_route/` (DESIGN, `claims_register.csv` 41 rows / 15 Tier 1, PROMPTS).

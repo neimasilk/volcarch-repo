@@ -10,6 +10,7 @@ login cookies and are **gitignored**; the first run in a new place logs in again
 | `gmail_check.py` | helpers (`load_env`, `login_if_needed`) + inbox search listing | read-only |
 | `gmail_fetch_thread.py QUERY MUST_CONTAIN [OUTDIR]` | opens one thread, saves each message body as text and every attachment; OUTDIR **outside the repo** for reviewer reports and decision letters (public repo) | read-only (marks the thread read) |
 | `gmail_compose_send.py TO SUBJECT BODY.txt [--attach=FILE] [--send]` | composes a new message; prints body, recipients, subject, attachments; sends only with `--send`, then shows the top of Sent | inspect first, then send |
+| `gmail_reply_thread.py QUERY MUST_CONTAIN EXPECT_TO BODY.txt [--attach=FILE] [--send] [--shot=PNG]` | replies **inside an existing thread** (e.g. a follow-up under our own first message); prints thread subject, recipients, attachments and the editor text; aborts on any recipient other than EXPECT_TO or on an already-open draft; without `--send` it discards its draft | inspect first, then send (added 2026-10-22) |
 | `gmail_drafts_audit.py [--discard=SUBJ]` | lists Sent and Drafts; `--discard` removes only drafts whose subject also appears in Sent (leftover duplicates) | read-only without the flag |
 | `portal_browser.py` | opens a headed Chrome with CDP on :9333 (ArchCalc + Zenodo tabs) for the **PI to log in himself**; stays open ≤3 h | Claude never handles portal passwords |
 | `cdp.py URLSUB goto/shot/text/eval/click ARG` | one action in a tab of that logged-in browser | — |

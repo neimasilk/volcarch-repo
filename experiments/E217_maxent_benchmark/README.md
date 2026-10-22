@@ -134,6 +134,12 @@ presences from *more dissimilar* negatives is an easier problem, so AUC rises wi
 transferring any better. The manuscript observed this pool-composition effect and filed it as a caveat
 instead of testing it; tested, it accounts for the headline result.
 
+*Post hoc note (2026-10-22, ledger C080):* "further from the presences" is relative. 40.7 % of the 378 sites themselves
+lie in the 2 ≤ zdist ≤ 5 band the hybrid design draws its "hard negatives" from, and the road-weighted TGB background
+is not more dissimilar than a random one (zdist ≥ 2: TGB 0.485, random 0.503). The hybrid's 0.623 follows from its
+sampling rule (30 % forced from the band, the rest from a pool about half of which already has zdist ≥ 2).
+`03_zdist_of_sites_check.py` → `results/e217_zdist_sites_check.txt`.
+
 This is the standard presence-background caution (Lobo et al. 2008 — AUC is not comparable across
 different background samples). The manuscript **already cites Lobo** and then does not apply it to its
 own ladder. Reviewer 1's demand to engage the MaxEnt/ENM literature led directly to the critique that
@@ -167,4 +173,5 @@ R1's MaxEnt/ENM engagement and R2's demand for a sharper research question.
 ## Files
 
 - `01_maxent_benchmark.py` → `results/e217_raw_results.csv`, `e217_summary.csv`, `e217_auc_matrix.csv`, `e217_outcome.json`
+- `03_zdist_of_sites_check.py` → `results/e217_zdist_sites_check.txt` (post hoc, 2026-10-22, C080)
 - `02_matched_evaluation.py` → `results/e217b_raw_results.csv`, `e217b_summary.csv`, `e217b_auc_common.csv`, `e217b_auc_own.csv`, `e217b_outcome.json`

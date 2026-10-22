@@ -16,6 +16,12 @@ Under JCAA's AI policy this is "language assistance" (`VENUE.md` A5), and it is 
 
 **Done in session 1:** Section 3.7 (C078), new Section 3.9 + Figure 7 (E235), the verdict labels, one Limitations item.
 
+**Session 2 (2026-10-22):** **all three items done** — the research question in the first paragraph (log passage 4),
+**Table 1, Key terms** (passage 5) and "no interior optimum" at line 136 (passage 6). Also done: the 3B row for lines
+221–222 (C080, passage 7). **Line numbers below are those of 21 Oct.** In the file after session 2, add **+1** to lines 70–84, **+28** to
+lines 85–108, **+30** to lines 109–221 (e.g. "strong gains" 115 → 145) and **+32** after line 222 (e.g. 231 → 263).
+The quoted openings still find each place.
+
 ---
 
 ## Session 2 — Introduction and key terms (R1-2, R1-3)
@@ -80,6 +86,7 @@ Under JCAA's AI policy this is "language assistance" (`VENUE.md` A5), and it is 
 | 233 | "This is also the honest answer to the question of what makes the approach specifically archaeological…" | The archaeological content lies in the background design, i.e. where a survey could plausibly have found a site. Say it without "answer to the question" |
 | 239–240 | "We previously called this a 'temporal split'…"; "(The stored result file had itself been mislabelled… see the Further Disclosures…)" | E014 is an accessibility-proxy holdout: train ≤ 1 km from a road, test > 1 km; AUC 0.755. Name it once, correctly. The mislabelled-file detail goes to the supplement or is cut |
 | 254 | Paragraph title "E217 – common-background benchmark (answers the Maximum Entropy request)" | Drop the parenthesis |
+| 221–222 *(added 22 Oct, C080; ✅ done 22 Oct, passage 7)* | "The hybrid design of E013 blends … ``hard negatives'' (cells environmentally dissimilar from presences, 2.0 ≤ z ≤ 5.0)…"; "Note that the realised proportion of environmentally dissimilar pseudo-absences … 0.62 … the TGB pool, constrained to road-accessible cells, is intrinsically more dissimilar…" | **A factual error, not history.** (1) "Dissimilar" is too strong: 40.7 % of the sites themselves lie in the 2–5 band; say what the rule is (standardised distance 2–5 from the mean site environment; Table 1). (2) The TGB pool is **not** more dissimilar than random sampling (z ≥ 2: TGB 0.485, random 0.503). The 0.62 comes from the rule: 30 % forced from the band + 70 % from a z ≤ 5 pool in which ~46 % already have z ≥ 2 → ≈ 0.62. Keep the conclusion that follows (absolute AUC levels depend on pool composition, hence a common evaluation background). Source: `experiments/E217_maxent_benchmark/results/e217_zdist_sites_check.txt` |
 
 ### 3C — Results (6 places)
 

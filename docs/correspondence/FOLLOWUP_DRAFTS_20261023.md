@@ -1,6 +1,13 @@
 # Draf tindak lanjut 23 Oktober 2026 — Nastiti (P23) dan VEGAN BRIN (T5)
 
-**Status:** DRAF, belum dikirim. Disiapkan 2026-10-15 (agenda orbit K8, PI "setuju default"). **Kirim hanya bila sampai
+**Status: ✅ TERKIRIM Kamis 2026-10-22** atas kata PI ("Kirim sekarang"; sehari lebih awal dari K8 — 23 Okt ternyata
+Jumat, bukan Kamis). Keduanya balasan **di utas 2 Okt**, satu penerima masing-masing, lewat `tools/mail/gmail_reply_thread.py`:
+§2 VEGAN **09:15 WIB**, teks tanpa perubahan · §1 Nastiti **09:16 WIB**, teks tanpa perubahan **+ lampiran ulang
+`papers/P23_sima_village_toponyms/data/daftar_desa_prasasti_abad8-10_v20261002.xlsx`** (berkas yang sama dengan 2 Okt;
+usul Claude, disetujui PI, karena balasan tidak membawa lampiran lama dan teks menyebut "daftar terlampir"). Sent dicek;
+Drafts bersih. Cadangan bila tetap diam sampai 6 Nov: WORKSTATE §2.
+
+**Status semula:** DRAF, belum dikirim. Disiapkan 2026-10-15 (agenda orbit K8, PI "setuju default"). **Kirim hanya bila sampai
 23 Okt belum ada jawaban** — cek kotak masuk dulu (`tools/mail/gmail_check.py list "newer_than:21d"`). Dikirim sebagai
 balasan di utas surel yang sama (2 Okt), dari amien@ubhinus.ac.id. PI yang menekan kirim. Bila 6 Nov tetap diam: cadangan
 di WORKSTATE §2.

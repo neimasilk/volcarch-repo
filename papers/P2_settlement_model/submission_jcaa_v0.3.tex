@@ -65,8 +65,9 @@ The contribution is the diagnosis and the protocol, not a new site-prediction cl
 
 Predictive settlement modelling in Java is difficult because the observed archaeological record is shaped as much by preservation and discovery as by past settlement behaviour.
 Known site maps are incomplete and strongly conditioned by survey history; active volcanism and tephra deposition can bury older surfaces; and from a computational standpoint the combination produces label noise in pseudo-absence design and inflates validation when spatial dependence is mishandled.
-This paper addresses a narrower question than it first appears to: \emph{how do you know that redesigning the background points improved a presence--background model?}
-The answer we offer is uncomfortable, because it is the answer we had to give about our own model.
+Changing how background points are selected can raise the cross-validated AUC, but such an increase does not necessarily mean that the model has become better.
+The AUC can rise because the change in background design makes the evaluation task easier, not because the model has better predictive ability.
+This study aims to distinguish between these two possibilities by testing how the background design and the evaluation background affect the outcome of model evaluation, using presence--background modelling of the distribution of archaeological sites in East Java.
 
 \subsection{What presence--background models are, and why their evaluation is delicate}
 
@@ -81,6 +82,33 @@ If two background designs are each scored against their own background, the comp
 Random train/test splits overestimate transfer when observations are spatially clustered, because held-out points sit close to training points \citep{hijmans2012, roberts2017}; spatially structured cross-validation is the recommended corrective \citep{valavi2019}.
 But spatial blocking fixes where the folds are; it does not, by itself, fix \emph{which} background the held-out negatives come from.
 That second choice is the subject of this paper.
+Table~\ref{tab:keyterms} defines the key terms used throughout the paper.
+
+% PI prose 2026-10-22 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 5).
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.6cm}p{12.0cm}@{}}
+\toprule
+Term & Definition \\
+\midrule
+Presence--background model & A model trained on sites whose presence is known (presences) and on background points whose presence status is unknown, so that it produces a relative suitability score, not a probability that a site is present. \\
+Background design & The rule for selecting background points: \emph{random} samples uniformly across the whole study area; \emph{TGB} weights the selection by distance to roads, with an exponential decay scale of 12~km; \emph{hybrid} combines the TGB pool, a quota per region and hard negatives, with a target share of 30\%. \\
+Hard negatives & Background points whose environment lies at a standardised distance of 2--5 from the mean site environment ($z$, in standard-deviation units across the model's features; Section~\ref{sec:progression}). In this paper the term denotes points selected by their distance from the typical site environment, not, as usually in machine learning, points that resemble the sites. \\
+Evaluation background & The background points used to assess model performance on test data: an \emph{own} background uses the same design as the one the model was trained with, whereas a \emph{common} background uses one fixed set of points for all designs, in this study mainly a uniform sample. \\
+Availability domain & The geographical area from which background or evaluation points are drawn; it sets the context of the comparison, so the value of an evaluation metric must be interpreted relative to that area \citep{barve2011}. \\
+AUC (area under the ROC curve) & The probability that a randomly chosen site receives a higher score than a randomly chosen background point; 0.5 is equivalent to random guessing and 1 indicates perfect separation. Its value depends on the background points used for evaluation. \\
+TSS (true skill statistic) & A measure of classification performance, calculated as sensitivity plus specificity minus one at a given classification threshold. \\
+Continuous Boyce index & A presence-only evaluation metric that compares the observed frequency of sites with the frequency expected across suitability classes, relative to a fixed uniform sample, so that its reference sample does not depend on the training background design. \\
+Spatial block cross-validation (CV) & A cross-validation method that divides the study area into five folds made of spatial blocks of about 50~km (0.45\textdegree{}), to reduce the geographical proximity between sites in the training and the test data. \\
+Seed ensemble & A combined map obtained by averaging the predictions of several random seeds; in this study, the map of the cells in the top 10\% of the ranking becomes stable from seven seeds onwards, with a Jaccard overlap of at least 0.90 against the 10-seed ensemble. \\
+Jaccard overlap & A measure of similarity between two maps, calculated by dividing the number of cells in the top 10\% of both maps by the number of cells in the top 10\% of at least one of them. \\
+Coarsened exact matching & A matching method that compares two groups only within strata that contain members of both groups, with weights based on the size of the smaller group; in Section~\ref{sec:elevation} it is applied within each 200~m elevation band. \\
+\bottomrule
+\end{tabular}
+\caption{Key terms.}
+\label{tab:keyterms}
+\end{table}
 
 \subsection{Four reasons a site may be absent, and which one we model}
 
@@ -106,6 +134,8 @@ A reviewer of the previous version asked us to benchmark against Maximum Entropy
 The benchmark refuted our own central claim (Section~\ref{sec:artefact}): the AUC ladder we attributed to background realism is an evaluation artefact.
 We have therefore not revised the paper's argument; we have replaced it.
 The same empirical material now supports a narrower and, we believe, more useful proposition: \emph{background designs in presence--background modelling cannot be compared unless the evaluation background is held fixed, and a selection criterion computed on a design's own background has no interior optimum.}
+% PI prose 2026-10-22 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 6).
+The selection criterion, AUC computed on a design's own background, does not produce an optimum inside the range of hard-negative shares: in the synthetic worlds the AUC keeps rising from 0.7367 to 0.8904 as the share is raised from 0 to 1, whereas on the real data the AUC rises from a share of 0.1 onwards, with one small decrease of 0.0071 between shares of 0 and 0.1, so the maximum always lies at the end of the range tested and the criterion gives no indication of when to stop adding hard negatives.
 
 Our contribution sits \emph{inside} the ENM literature rather than beside it, and we state its boundary precisely, because a reviewer of the previous version observed --- correctly --- that this family of problems is well established in adjacent fields.
 
@@ -218,8 +248,10 @@ Feature-only expansion plateaued (E007--E009): adding river distance helped ($+0
 Background redesign then delivered the monotone rise (E010--E013) that we originally reported as evidence that pseudo-absence realism dominates feature accumulation.
 The remainder of this paper asks whether that rise is real.
 
-The hybrid design of E013 blends a TGB candidate pool with a regional quota and a fraction of ``hard negatives'' (cells environmentally dissimilar from presences, $2.0 \leq z \leq 5.0$), sweeping \texttt{region\_blend} $\in \{0.0,0.3,0.5,0.7\}$ and \texttt{hard\_frac} $\in \{0.0,0.15,0.30\}$.
-Note that the realised proportion of environmentally dissimilar pseudo-absences in the best configuration was $0.62$, above the $0.30$ target: the TGB pool, constrained to road-accessible cells, is intrinsically more dissimilar from site environments than unconstrained random sampling.
+The hybrid design of E013 blends a TGB candidate pool with a regional quota and a fraction of ``hard negatives'', sweeping \texttt{region\_blend} $\in \{0.0,0.3,0.5,0.7\}$ and \texttt{hard\_frac} $\in \{0.0,0.15,0.30\}$.
+% PI prose 2026-10-22 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 7; ledger C080).
+In this study, hard negatives are defined as points at a standardised environmental distance ($z$) of 2--5 from the mean site environment (Table~\ref{tab:keyterms}); although the targeted proportion in the hybrid design is 30\%, the realised proportion reached 0.62.
+This happens because the remaining 70\% of points are drawn from a background pool in which about half of the members already have $z \geq 2$, not because of a particular bias of the TGB, whose proportion of such points (0.485) is close to that of the random background (0.503).
 This pool-composition effect bears on the absolute AUC values and is part of why a common evaluation background matters (Section~\ref{sec:artefact}).
 
 \subsection{The four roles of \texttt{road\_dist}}

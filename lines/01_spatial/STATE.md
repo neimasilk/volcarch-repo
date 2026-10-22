@@ -1,6 +1,12 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-21 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+**Updated:** 2026-10-22 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+
+> ## 22 Oct — writing session 2: research question (passage 4) + Table 1 "Key terms" (passage 5); **C080** found
+> 40.7 % of the sites lie in the "hard negative" band (2 ≤ z ≤ 5), and the Methods sentence at v0.3 line 250 explains the
+> 0.62 share with a TGB property that E217's own numbers contradict (TGB 0.485 < random 0.503). **The PI rewrote it the
+> same day (passage 7); C080 closed.** "No interior optimum" explained (passage 6). **Session 2 complete; next session 3.**
+> Log: `papers/P2_settlement_model/PI_PROSE_LOG_R2.md`.
 
 > ## 🟠 21 Oct 07:49 — waiver answer: no waiver can be reserved before acceptance → **PI decided (~08:00): apply on acceptance; if the queue is lost, the PI funds it himself (P2-only G15 exception); no withdrawal**
 > JCAA (20 Oct 17:02): Publication Fund only for CAA members of ≥ 2 years; publisher waivers applied for after acceptance,

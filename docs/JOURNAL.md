@@ -11516,3 +11516,55 @@ setelah cek cepat (pencarian, bukan tinjauan pustaka). PI memilih ide 1.
     yang terunggah ternyata mencetak "Table 1: Table S1." (nomor ganda). Hasil build v0.2 dicek tetap identik
     (`git diff` kosong). Daftar suplemen di naskah diperbarui ke v0.3 dan S7–S8. v0.3 dikompilasi bersih (32 hlm.).
   - Handoff baru `docs/HANDOFF_20261021.md`; yang 19 Okt dipindah ke arsip.
+
+## 2026-10-22 (Kamis, pagi) — B1: dua surel tindak lanjut terkirim di utas 2 Okt
+
+PI: "baca handoff dan lanjutkan", lalu (pertanyaan) "Kirim sekarang" + "Lampirkan ulang".
+- **Kanari** hijau 227; `inBox/` kosong.
+- **Kotak masuk** (`gmail_check.py list "newer_than:4d"`, lalu `in:anywhere` untuk Nastiti/VEGAN/BRIN, 21 hari): tidak
+  ada jawaban dari Nastiti, VEGAN, JCAA, OL atau arXiv. Satu "Security alert" Google 21 Okt 02:57 belum dibaca (tidak
+  dibuka; kemungkinan login skrip) — dilaporkan ke PI.
+- **Tanggal:** 23 Okt 2026 hari Jumat, bukan Kamis seperti tertulis di handoff 21 Okt, agenda B1 dan WORKSTATE. Sesi
+  Kamis PI jatuh 22 Okt; PI memilih mengirim hari ini (20 hari sesudah surel pertama).
+- **Alat baru `tools/mail/gmail_reply_thread.py`:** `gmail_compose_send.py` hanya membuat utas baru, padahal draf meminta
+  balasan di utas yang sama. Skrip baru membuka utas lewat pencarian, menekan Reply, mengetik isi, memeriksa subjek utas,
+  penerima (batal bila ada penerima lain atau draf terbuka), lampiran dan teks editor, lalu membuang drafnya bila tanpa
+  `--send`. Uji periksa di kedua utas: satu penerima, teks utuh, tangkapan layar dilihat, draf terbuang.
+- **Usul kecil sebelum kirim (dikatakan dulu, disetujui):** draf Nastiti menyebut "daftar terlampir", tetapi balasan tidak
+  membawa lampiran lama → berkas yang sama dilampirkan ulang
+  (`papers/P23_sima_village_toponyms/data/daftar_desa_prasasti_abad8-10_v20261002.xlsx`). Teks kedua surel tidak diubah.
+- **Terkirim:** VEGAN 09:15 WIB (niamarniatief@yahoo.com), Nastiti 09:16 WIB (tsnastiti@yahoo.com, + lampiran). Utas
+  masing-masing kini 2 pesan; Sent dicek; Drafts tanpa sisa (`gmail_drafts_audit.py`).
+- **Jam berikutnya:** P23 G10 route S terbuka 5 Nov bila Nastiti diam; 6 Nov cadangan (Griffiths/DHARMA atau epigraf UGM;
+  VEGAN → Castillo atau parkir T5).
+- Dicatat di: `docs/correspondence/FOLLOWUP_DRAFTS_20261023.md` (status), STATE line 03 dan 05, agenda B1, README P23,
+  WORKSTATE, `tools/mail/README.md`.
+
+## 2026-10-22 (Kamis, pagi–siang) — P2 sesi menulis 2: pertanyaan penelitian, Tabel 1 "Key terms"; C080
+
+PI menulis dalam bahasa Indonesia, Claude menerjemahkan dan mengecek; log teks asli dan setiap perubahan:
+`papers/P2_settlement_model/PI_PROSE_LOG_R2.md` passage 4–5.
+- **Passage 4 — pertanyaan penelitian di paragraf pertama** (menggantikan baris 68–69). Dua perubahan disampaikan dulu,
+  PI "ok":
+  - "sebaran spesies" → "distribution of archaeological sites" (P2 memodelkan situs, bukan spesies);
+  - kalimat "The answer we offer is uncomfortable…" ikut hilang.
+- **Passage 5 — Tabel 1 "Key terms"** (12 istilah, akhir 1.1, + satu kalimat rujukan). Fakta untuk PI dicek ke kode
+  lebih dulu. **Paket tulisan §3 ternyata salah arah:** "hard negatives" ditulis "mirip situs", padahal kode E013/E217
+  memilih titik berjarak terstandar 2–5 dari rata-rata lingkungan situs (dikoreksi di paket).
+  - Perubahan (b)–(d) disampaikan dulu: z bukan zdist; "mainly a uniform sample"; sampel acuan Boyce; catatan PI tidak
+    dimasukkan.
+  - PI: "pikirkan baik2.. saya ngikut kamu". Sesudah itu Claude mengecek definisi no. 3:
+    **40,7 % dari 378 situs sendiri ada di pita 2–5** (`experiments/E217_maxent_benchmark/03_zdist_of_sites_check.py`),
+    jadi "jauh berbeda dari situs" tidak benar → diterjemahkan sebagai aturan pemilihan; kontras dengan ML tetap.
+- **C080 (ledger):** kalimat Metode v0.3 baris 250 menjelaskan pangsa 0,62 dengan "kolam TGB secara intrinsik lebih
+  berbeda daripada sampel acak". Data E217 sendiri: TGB 0,485 < acak 0,503. Angka 0,62 mengikuti aturan pengambilan
+  (0,30 + 0,70 × ~0,46). Penjelasan keliru yang sama ada di catatan audit README E013 (Feb) → catatan koreksi
+  ditambahkan; README E217 diberi catatan post hoc. Kalimat Metode menunggu PI (lembar kerja 3B, baris baru).
+  Inti makalah tidak terkena (hybrid tetap lebih jauh dari situs daripada acak; inflasi diukur langsung).
+- **Suplemen v0.3:** `build_supplement.py` (v0.3 saja) menggeser rujukan nomor tabel naskah (2→3, 3→4) dan menerapkan
+  aturan "Section" pada tiga catatan tabel yang masih mencetak "§" (luput 21 Okt). Build v0.2 tetap identik.
+- v0.3 kompilasi bersih (33 hlm., 0 error); suplemen v0.3 (7 hlm.). Ledger berikutnya **C081**.
+- **Sesi menulis 2 selesai (lanjutan, siang):** passage 6 — "no interior optimum" dijelaskan sesudah baris 136 (angka
+  dicek ulang: E222 0,7367 → 0,8904 di porsi 0 → 1; E218b 0,7208 → 0,7137 → 0,8435); passage 7 — kalimat Metode C080
+  ditulis PI (paruh pertama baris 249 dengan grid sweep dipertahankan; "zdist" → z). **C080 ditutup.** Pergeseran nomor
+  baris dicatat di lembar kerja. v0.3: 33 hlm., 0 error.

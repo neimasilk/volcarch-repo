@@ -70,5 +70,5 @@ claim about settlement history or volcanism.
 | G13 WIP | FULL now (P2 round 2; P8 R1 submitted 2026-10-15 and counts, K4) → P23 may be drafted, not submitted, until a decision arrives |
 | G14 rest | not started (no frozen draft) |
 | G15 venue | DHQ (Case Study framing) chosen, fees verified, `VENUE.md` done; pre-submission inquiry after validation |
-| G10 reader | asked (Nastiti, 2026-10-02); since 2026-10-19 route S applies if she stays silent 14 days after the 23 Oct follow-up (SIG G10: sources + AI domain read + statement) |
+| G10 reader | asked (Nastiti, 2026-10-02); since 2026-10-19 route S applies if she stays silent 14 days after the follow-up (sent 2026-10-22 → **5 Nov**) (SIG G10: sources + AI domain read + statement) |
 | G16 voice | PI writes (confirmed K5, 2026-10-15) |

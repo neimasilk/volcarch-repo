@@ -62,10 +62,17 @@ def latex_table(df, caption, label, colfmt=None, note=None, small=True):
     head = " & ".join(str(c) for c in df.columns) + r" \\"
     body = "\n".join(" & ".join(str(v) for v in row) + r" \\" for row in df.values)
     size = r"\small" + "\n" if small else ""
-    notetex = f"\n\\vspace{{2pt}}\n\\footnotesize\\emph{{{note}}}\n" if note else ""
     if VERSION != "v0.2":
         # LaTeX numbers the tables as S1, S2, ... (preamble); the caption text must not repeat the number.
         caption = re.sub(r"^Table S\d+\.\s*", "", caption)
+        # v0.3 manuscript gained Table 1 (key terms, 2026-10-22), so every round-1 table number moves up by one;
+        # the supplement is a separate PDF and cannot \ref the manuscript, hence the explicit shift.
+        # R1 asked for "Section", not the section sign, in table notes too (missed on 2026-10-21).
+        shift = lambda s: re.sub(r"Table (\d+) of the manuscript", lambda m: f"Table {int(m.group(1)) + 1} of the manuscript", s)
+        caption = shift(caption)
+        if note:
+            note = shift(note).replace(r"\S", "Section~")
+    notetex = f"\n\\vspace{{2pt}}\n\\footnotesize\\emph{{{note}}}\n" if note else ""
     return f"""
 \\begin{{table}}[htbp]
 \\centering

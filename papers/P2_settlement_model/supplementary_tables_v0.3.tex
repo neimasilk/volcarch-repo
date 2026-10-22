@@ -61,7 +61,7 @@ Seed & hard\_frac (realised) & XGB AUC & XGB TSS & RF AUC & RF TSS \\
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{XGBoost AUC across the 20 seeds: min 0.729, max 0.774, mean 0.751. Realised hard-negative fraction is consistently near 0.62, well above the 0.30 target -- see manuscript \S2.3.}
+\footnotesize\emph{XGBoost AUC across the 20 seeds: min 0.729, max 0.774, mean 0.751. Realised hard-negative fraction is consistently near 0.62, well above the 0.30 target -- see manuscript Section~2.3.}
 
 \caption{Seed stability of E013 (the top rung of the reported ladder). Each row is one background-generation seed; AUC and TSS are means over the five deterministic spatial-CV folds. Source: \texttt{supplement/e013\_seed\_stability.csv}.}
 \label{tab:s1}
@@ -119,7 +119,7 @@ terrain\_river & tgb & xgboost & 0.7129 & 0.7134 & $-0.0004$ \\
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{Own-background evaluation exceeds common-background evaluation in 7/24 cells (mean +0.0059). Backgrounds are drawn from a decimated ($\sim$300 m) lattice, so absolute levels are not comparable to Table 3 of the manuscript; the interpretable quantities are the within-table contrasts (manuscript \S2.6).}
+\footnotesize\emph{Own-background evaluation exceeds common-background evaluation in 7/24 cells (mean +0.0059). Backgrounds are drawn from a decimated ($\sim$300 m) lattice, so absolute levels are not comparable to Table 4 of the manuscript; the interpretable quantities are the within-table contrasts (manuscript Section~2.6).}
 
 \caption{E217 common-background benchmark: every background design and feature set scored both on its own background and on a shared evaluation background, under identical spatial-block folds. This is the comparison the reviewer's Maximum Entropy request made possible. Source: \texttt{E217\_maxent\_benchmark/results/e217b\_summary.csv}.}
 \label{tab:s3}
@@ -201,9 +201,9 @@ E224 & synthetic covariates & \textbf{yes} (the manipulation) & random, tgb & ow
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{\texttt{road\_dist} is a training feature in E224 only, and there only because withholding it was the explanation under test; the test failed (manuscript \S3.5). Everywhere else it builds the background and is never a predictor, exactly as in E007--E013.}
+\footnotesize\emph{\texttt{road\_dist} is a training feature in E224 only, and there only because withholding it was the explanation under test; the test failed (manuscript Section~3.5). Everywhere else it builds the background and is never a predictor, exactly as in E007--E013.}
 
-\caption{Per-experiment design matrix for the refutation suite E217--E224, extending Table 2 of the manuscript. Built by reading the analysis scripts, not the prose.}
+\caption{Per-experiment design matrix for the refutation suite E217--E224, extending Table 3 of the manuscript. Built by reading the analysis scripts, not the prose.}
 \label{tab:s6}
 \end{table}
 

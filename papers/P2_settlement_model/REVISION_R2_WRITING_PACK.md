@@ -68,7 +68,13 @@ The definitions follow the paper's own methods (E217 code). The PI words them.
   (background, or pseudo-absences). It estimates relative suitability, not probability of a site.
 - **Background design:** the rule for drawing background points. *Random*: uniform over the study area. *Target-group
   (TGB)*: drawn where survey effort is likely, here weighted by road access (decay 12 km). *Hybrid*: TGB plus a share
-  of "hard negatives", points that resemble presences in terrain (the paper's design uses 30 %).
+  of "hard negatives" (target 30 %; realised 62 % dissimilar points, v0.3 line 223).
+  **Corrected 2026-10-22:** this line first said hard negatives "resemble presences in terrain". The code says the
+  opposite: they are points **environmentally dissimilar** from the sites, 2–5 standard deviations from the presence
+  mean across the features (`zdist`, `experiments/E217_maxent_benchmark/01_maxent_benchmark.py` L75, L210–211, L336–339;
+  same in E013). The manuscript (v0.3 line 222) already says "environmentally dissimilar". Note for the reader: in
+  machine learning, "hard negatives" usually means negatives that *resemble* positives, so the paper's sense needs
+  stating at first use.
 - **Evaluation background:** the negatives used to score a model on held-out data. *Own-background*: drawn by the same
   design that trained the model. *Common*: one fixed set used for every design.
 - **AUC:** the chance that a randomly chosen presence scores higher than a randomly chosen background point (0.5 =

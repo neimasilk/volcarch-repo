@@ -1,0 +1,4 @@
+features: ['elevation', 'slope', 'twi', 'tri', 'aspect', 'river_dist'] | presences: 378 | frame cells (complete covariates): 588535
+sites: median 1.92 (IQR 1.50-2.42); share z>=2 0.442; share 2<=z<=5 0.407; share z>5 0.034
+frame (uniform): median 1.99 (IQR 1.53-2.72); share z>=2 0.496; share 2<=z<=5 0.441; share z>5 0.054
+realised share z>=2 per background design (e217_raw_results.csv, mean of 30 runs): hybrid 0.623, random 0.503, tgb 0.485

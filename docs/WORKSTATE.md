@@ -1,8 +1,20 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-21 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-22 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> ## ✅ 2026-10-22 (Thu, 09:15–09:16) — B1 done: both follow-ups SENT, one day early (PI "Kirim sekarang")
+> Mailbox (incl. spam) at 09:06: nothing from Nastiti, VEGAN, JCAA, OL or arXiv. **23 Oct is a Friday** — the handoff's
+> "Kamis 23 Okt" was wrong, so the PI's Thursday session sent them. Replies **in the 2 Oct threads** through the new
+> `tools/mail/gmail_reply_thread.py` (inspected first, one recipient each; Sent checked, Drafts clean); Nastiti's with the
+> same village list re-attached (the text says "daftar terlampir"). Record: `docs/correspondence/FOLLOWUP_DRAFTS_20261023.md`.
+> **Writing session 2 (same morning):** research question in the first paragraph + **Table 1 "Key terms"** (log passages
+> 4–5). Checking the PI's hard-negative definition found **C080**: 40.7 % of the sites lie in the "hard negative" band,
+> and Methods v0.3 line 250 explains the 0.62 share with a TGB property E217's own numbers contradict (TGB 0.485 <
+> random 0.503) → **the PI rewrote it the same day (passage 7); C080 closed.** "No interior optimum" explained at first
+> use (passage 6). **Session 2 complete.** Supplement v0.3 rebuilt. Ledger next **C081**. **Next: session 3** (history
+> passages in four chunks + the idiom table, which needs the PI's yes).
+>
 > ## 🟠 2026-10-21 (07:49) — JCAA answered the waiver email: nothing can be reserved before acceptance → **PI decided W (~08:00): apply on acceptance; if the queue is lost, the PI funds it himself (P2-only exception to zero APC / G15; "sayang banget soalnya Q1"); no withdrawal planned**
 > Reply of 20 Oct 17:02 (paraphrased record at the bottom of `docs/correspondence/EMAIL_JCAA_WAIVER_STATUS_DRAFT_20261020.md`):
 > the Publication Fund is for CAA members (policy: ≥ 2 years in the last 4 → closed to us); publisher waivers are applied
@@ -309,7 +321,8 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | Deadline | Item |
 |---|---|
-| 23 Oct 2026 | Follow-ups if silent: Nastiti (P23 reader + Kusen/Resiyani lists) and BRIN VEGAN (microbotany); Claude drafts on 22 Oct, PI sends (K8) |
+| ~~23 Oct 2026~~ | ✅ **Follow-ups SENT 22 Oct** (Nastiti 09:16 with the list re-attached; VEGAN 09:15), in the 2 Oct threads |
+| 5 Nov 2026 | P23 G10: route S opens if Nastiti is still silent (14 days after the follow-up) |
 | **23 Oct 2026** | **P2 revision: PI decisions D1–D7 + waiver email (D4)** — `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md` §5 |
 | 2 Nov / 9 Nov 2026 | P2 freeze: strict G14 (2 Nov) or D2 option (b) (9 Nov); if it slips past **6 Nov**, ask JCAA for an extension that day |
 | 6 Nov 2026 | Fallbacks if still silent: P23 → Griffiths/DHARMA or a UGM epigrapher; VEGAN → Castillo, or park T5 (K8) |
@@ -327,7 +340,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 |---|---|---|---|---|
 | **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REVISION | **P2: revisions requested 2026-10-19, due 16 Nov** — E235 done (overlap ceiling 1,000 m); figures, v0.3 (mechanical), VENUE, writing pack done; waiver email sent; **next = the PI's prose (freeze ≤ 9 Nov)**; references C076 · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
-| **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; follow up ≈ 23 Oct if silent. T5 needs pre-400 paleosols | PI |
+| **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; **follow-up sent 10-22**; fallback 6 Nov. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |
 | **05** | [archival_nlp](../lines/05_archival_nlp/STATE.md) | 🅿 E226 REVISIT · ✅ E225 pilot | **E225 pilot run 10-15: LANJUT, confirmed by hand** (12 valid Indonesian radiometric pre-400 records per 120 random articles; automatic count 314 is an upper bound — 17/30 hold). Phase 2 needs a new pre-registration → **decide with K6** · **E226 (T7) parked 10-02**: frame of 266 villages built; I1 identifications 11/170 → unpark needs Kusen 1990/91 / Resiyani 2010 lists. Next when warm: T2 or E211 | Claude |
 | **06** | [thesis](../lines/06_thesis/STATE.md) | 🛑 FALLOW | Objective answer written (subtract-only). L1 amendments await PI (§4) | PI |
