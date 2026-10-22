@@ -474,3 +474,46 @@ statement) and in the invisible label `sec:withdrawal`.
   errors, 0 undefined.
 
 Left for the PI: abstract, conclusion, the "strong gains" sentence, acknowledgements, AI statement.
+
+---
+
+## Session 4, part 2 — abstract, conclusions, "strong gains", acknowledgements: **drafted by Claude** — 2026-10-22
+
+**Not the PI's prose.** The PI asked Claude to write these items ("apa bisa kamu kerjakan semuanya? tapi seminim mungkin
+AI like, jadi minimalkan penulisan seperti AI"). This departs from G16 for these items, at the PI's request. Claude's
+condition, told to the PI with the drafts: plain style is fine, but the AI statement must say that Claude drafted them.
+JCAA counts "turning bullet points into prose, generating a prose based on your notes" as acceptable and non-disclosure
+as unacceptable (`VENUE.md` A5).
+
+How it was done:
+- The abstract and conclusions reuse the PI's own translated sentences wherever they fit: passage 4 (research
+  question), 8A (the sequence of seven experiments, 0.659 → 0.751, "the part of the rise attributed to … background
+  designs is an evaluation artefact"), 6 (no optimum inside the range), 8E (a suitability surface cannot separate the
+  reasons a site is unobserved), 2 (above about 1,000 m elevation and volcanic proximity cannot be adequately separated).
+- Plain wording, short sentences, no review history ("reviewer", "withdraw", "originally reported", "dial" are gone).
+- The script with every old → new pair is kept in the session scratchpad (`session4_drafts.py`); the .tex carries a
+  comment at each drafted block.
+
+Changes:
+- **Abstract** (283 words in the PDF; limit 300). Same text goes into the portal metadata at upload.
+- **Conclusions**, two paragraphs. The cause of the artefact is stated as in Section 3.2: on a common background the
+  design change adds nothing (−0.014), and the hybrid design scores higher only on its own background (3/3 there,
+  0/3 on each other background). The old "each design was scored against the negatives it had selected for itself"
+  was too broad: the TGB steps are not explained by own-background inflation (Section 3.2, line on 22/60 cells).
+- **"Strong gains" sentence** (C076): now "Recent applied studies report fair to good discrimination when predicting
+  site locations from environmental variables (AUC of about 0.7 to 0.9; Castiello & Tonini 2021; Wang, Shi & Oguchi
+  2023), and Comer et al. (2023) report that the way samples are drawn for training and testing can itself change the
+  measured performance." Facts: `REFERENCE_FIX_20261020.md` §2 (Castiello 0.71–0.72 "fair"; Wang 0.785–0.901; Comer:
+  sampling design changes AUC, narrow reading). The em-dash aside before it became a plain sentence.
+- **Acknowledgements:** "The authors thank the editor and the anonymous reviewers for comments that substantially
+  improved this paper."
+- **Two leftovers fixed:** Section 3.8 title "a correlation that does not reproduce" → "a correlation that is not
+  consistent across seeds" (matches the PI's heading in 8D); Figure 5 caption "the dial ends at 1.0" → "the range ends
+  at 1.0" (missed by the session-3 idiom list).
+
+**Checked:** −0.0142 / +0.0424 (Section 3.2, line "On real data, redesigning…"); 343/360 (Section 3.2); k ≥ 7 and
+Jaccard ≥ 0.90 (Section 3.7); 97.5 % / 1,000 m (Section 3.9); 0.659 / 0.751 (Table 4). Manuscript 33 pp., 0 errors,
+0 undefined.
+
+**Open:** the AI statement (PI decides; Claude's honest draft given in chat); a list of about ten remaining stylistic
+phrases in Results/Discussion offered as word swaps.

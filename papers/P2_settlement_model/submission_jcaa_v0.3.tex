@@ -47,14 +47,18 @@ Evidence from East Java and a Corrected Comparison Protocol}
 
 \begin{abstract}
 \noindent
-Presence--background (presence-only) archaeological predictive models are usually evaluated by cross-validation against the same background points used to fit them.
-We show that this can manufacture an apparent performance gain where none exists.
-We built a settlement suitability model for East Java (378 presences; XGBoost, RandomForest and a Maximum Entropy model under fixed spatial-block cross-validation) and originally reported a monotone AUC ladder, which we attributed to increasingly realistic pseudo-absence (background) design.
-A benchmark requested by a reviewer refuted that attribution: held to a common evaluation background, redesigning the background contributes approximately nothing, whereas adding a single hydrological feature contributes \textbf{$+0.042$ AUC}.
-The reported gain is an artefact of evaluation --- each design was scored against the negatives it had selected for itself.
-Synthetic worlds of known ground truth show why: the selection criterion computed on a design's own background has \emph{no interior optimum}, and reported and true performance move in opposite directions on the real data.
-We withdraw the taphonomic interpretation built on the ladder, correct two defects in our own diagnostics (an incomplete volcano inventory and a non-reproducing correlation), and propose a corrected protocol: hold the evaluation background fixed, declare the availability domain of every metric, and seed-ensemble priority maps.
-The contribution is the diagnosis and the protocol, not a new site-prediction claim.
+% Drafted by Claude from the PI's passages 4, 6, 8A and 2 at the PI's request, 2026-10-22 (log: session 4, part 2).
+Changing how background points are selected can raise the cross-validated AUC of a presence--background model, but such an increase does not necessarily mean that the model has become better.
+This study tests how the background design and the evaluation background affect model evaluation, using 378 archaeological sites in East Java, three algorithms (XGBoost, RandomForest and Maximum Entropy) and spatial block cross-validation.
+In an initial sequence of seven experiments, the reported AUC rose overall from 0.659 to 0.751 (the latter a mean over seeds), and the rise was attributed to increasingly realistic background designs.
+When all designs are evaluated on a common background, changing the background design contributes $-0.014$ AUC, whereas adding distance to rivers as a feature contributes $+0.042$.
+The part of the rise attributed to background design is therefore an evaluation artefact.
+In synthetic data with a known truth, a design evaluated on its own background is reported above its true performance in 343 of 360 runs.
+The AUC on a design's own background, the criterion used to choose a design, reaches its maximum at the end of the range tested, so it gives no indication of when to stop adding hard negatives (background points selected far from the typical site environment).
+Priority maps from a single random seed are unstable; averaging at least seven seeds gives a stable map of the top 10\% of cells.
+Above about 1,000~m, elevation and proximity to a Quaternary volcanic centre cannot be adequately separated in the study area.
+We propose a protocol: hold the evaluation background fixed when comparing designs, state the availability domain of every metric, and average priority maps over seeds.
+The contribution is this diagnosis and protocol, not a new prediction of site locations.
 \end{abstract}
 
 \noindent\textbf{Keywords:} presence-background modelling; pseudo-absence design; evaluation artefact; spatial cross-validation; survey bias; East Java
@@ -142,7 +146,9 @@ Our contribution sits \emph{inside} the ENM literature rather than beside it, an
 It is established. \citet{lobo2008} showed that AUC is not comparable between models whose background differs, because the metric is computed over whatever availability domain the modeller supplied; \citet{barve2011} formalised that domain as the accessible area $M$ and showed that its delineation conditions both the fitted model and its evaluation; and \citet{hijmans2012} demonstrated that the spatial arrangement of background relative to presences inflates cross-validated AUC, proposing a null-model calibration for it.
 Model-selection criteria computed within a single background are likewise known to be unreliable guides to transferability \citep{warren2011, radosavljevic2014}, and discrimination metrics in general are known to answer a narrower question than applications ask of them \citep{guillera2015, lobo2010}.
 That the target-group correction is standard \citep{phillips2009} and that pseudo-absence choice moves reported performance \citep{barbet2012, senay2013} are both settled points.
-The transfer of species-distribution modelling into archaeology is equally established --- from eco-cultural niche modelling \citep{banks2006}, through MaxEnt-based prediction of archaeological site distributions \citep{yaworsky2020, howey2016, noviello2018}, to the standard methodological reference \citep{franklin2009} --- and recent machine-learning work in archaeology reports strong gains from integrating spatial context and terrain logic while flagging data-quality and validation constraints \citep{castiello2021, wang2023, comer2023}.
+The transfer of species-distribution modelling into archaeology is equally established, from eco-cultural niche modelling \citep{banks2006}, through MaxEnt-based prediction of archaeological site distributions \citep{yaworsky2020, howey2016, noviello2018}, to the standard methodological reference \citep{franklin2009}.
+% Drafted by Claude at the PI's request, 2026-10-22 (C076; facts in REFERENCE_FIX_20261020.md section 2).
+Recent applied studies report fair to good discrimination when predicting site locations from environmental variables (AUC of about 0.7 to 0.9; \citealp{castiello2021, wang2023}), and \citet{comer2023} report that the way samples are drawn for training and testing can itself change the measured performance.
 
 Three things here are ours, and none of them is ``background design matters''.
 First, we execute on one dataset the comparison this literature implies but rarely runs end to end: the same designs, the same folds, scored both on their own background and on a common one, so the artefact is \emph{measured} rather than argued (Section~\ref{sec:artefact}).
@@ -403,7 +409,7 @@ We note what the criterion does \emph{not} do: the design it selects (hybrid(1.0
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{fig15_dose_response.png}
-\caption{The selection criterion on a design's own background (solid) keeps rising to the end of the hard-negative range; the true performance (dashed) does not, so the criterion has no interior optimum. Left: real data --- the two series move in opposite directions. Right: synthetic ground truth --- reported performance moves about twice as fast as truth. The dotted vertical line marks the manuscript's stop at \texttt{hard\_frac} $= 0.30$; the dial ends at $1.0$.}
+\caption{The selection criterion on a design's own background (solid) keeps rising to the end of the hard-negative range; the true performance (dashed) does not, so the criterion has no interior optimum. Left: real data --- the two series move in opposite directions. Right: synthetic ground truth --- reported performance moves about twice as fast as truth. The dotted vertical line marks the manuscript's stop at \texttt{hard\_frac} $= 0.30$; the range ends at $1.0$.}
 \label{fig:dial}
 \end{figure}
 
@@ -461,7 +467,7 @@ This difference indicates spatial consistency, not independent validation, becau
 \label{fig:stabilisation}
 \end{figure}
 
-\subsection{Corrections to our own diagnostics: the volcano inventory and a correlation that does not reproduce}
+\subsection{Corrections to our own diagnostics: the volcano inventory and a correlation that is not consistent across seeds}
 \label{sec:diagnostics}
 
 Two corrections to our own diagnostics.
@@ -581,14 +587,16 @@ We summarise the protocol that follows from the above, which is the constructive
 \section{Conclusions}
 % ============================================================================
 
-The AUC ladder we reported --- from 0.659 (E007) to 0.751/0.768 (E013), attributed to increasingly realistic pseudo-absence design --- is an evaluation artefact.
-Each background design was scored against the negatives it had selected for itself; judged on a common evaluation background, redesigning the background contributes $-0.014$ AUC and adding one hydrological feature contributes $+0.042$.
-The selection criterion that produced the ladder has no interior optimum, so it never tells a researcher to stop, and reported and true performance move in opposite directions on the real data.
-We withdraw the taphonomic interpretation we built on the ladder, and we correct two defects in our own diagnostics (the volcano inventory and a correlation that does not reproduce across seeds).
+% Drafted by Claude from the PI's passages 8A, 6, 8E and 2 at the PI's request, 2026-10-22 (log: session 4, part 2).
+In this study, the reported AUC of a presence--background model for East Java rose overall from 0.659 (E007) to 0.751 (E013, mean over seeds) across seven experiments, and the rise was attributed to increasingly realistic background designs.
+When all designs are evaluated on a common background, changing the background design contributes $-0.014$ AUC and adding distance to rivers contributes $+0.042$.
+The part of the rise attributed to background design is therefore an evaluation artefact: on a common background the change of design adds nothing, and the last design, the hybrid, scores higher only when it is evaluated on its own background points.
+The criterion used to choose a design, AUC on the design's own background, has no optimum inside the range tested, so it gives no indication of when to stop adding hard negatives.
+A suitability surface also cannot distinguish the reasons a site goes unobserved, so low predicted suitability near volcanoes is not evidence of buried settlement; and above about 1,000~m, elevation and proximity to a Quaternary volcanic centre cannot be adequately separated in East Java.
 
-The contribution that remains is the diagnosis and the protocol: compare background designs only on a held-fixed evaluation background, declare the availability domain of every metric, and seed-ensemble priority maps ($k \geq 7$).
-We offer these not as a consolation for a lost headline but as the more useful finding the reviewer's request produced: a mechanical account of why presence--background comparisons can look decisive when they are not, and a cheap, checkable protocol that keeps the next comparison honest.
-We have applied it to our own work, including to the internal revision drafts that preceded this manuscript, where the same failure mode recurred and only a blind re-derivation caught it.
+The contribution of this study is therefore a protocol, not a new prediction of site locations.
+Background designs should be compared on a fixed evaluation background, the availability domain of every metric should be stated, and priority maps should be averaged over at least seven seeds.
+We applied these checks to our own earlier analyses, where they changed the conclusion; they need no new data and can be applied to other presence--background comparisons.
 
 % ============================================================================
 \section*{Supplementary Materials}
@@ -612,7 +620,7 @@ Supplied as a single document, \texttt{supplementary\_tables\_v0.3.pdf}. Every t
 \section*{Acknowledgements}
 % ============================================================================
 
-The authors thank the editor and two reviewers; the request to benchmark against Maximum Entropy produced the finding this paper reports.
+The authors thank the editor and the anonymous reviewers for comments that substantially improved this paper.
 
 \subsection*{Funding}
 This research received no external funding.
