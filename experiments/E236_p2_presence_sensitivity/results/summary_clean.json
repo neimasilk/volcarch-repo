@@ -1,0 +1,205 @@
+{
+ "presence_set": "clean",
+ "A_e217b": {
+  "redesign_common": 0.050726797344507656,
+  "redesign_own": 0.10334355879169192,
+  "river_common": 0.06918085636168382,
+  "river_positive": "12/12",
+  "tgb_minus_random_own": -0.004509234750995628,
+  "tgb_minus_random_common": 0.0011696059354527888,
+  "verdict": "FAILS"
+ },
+ "B_e218a": {
+  "wins_hybrid_over_random": {
+   "hybrid": 3,
+   "stratified": 3,
+   "tgb": 3,
+   "uniform": 3
+  },
+  "hybrid_inflation_positive": "54/60",
+  "hybrid_inflation_mean": 0.041481296847810246,
+  "hybrid_inflation_range": [
+   -0.03526381684361768,
+   0.12504102958892638
+  ],
+  "tgb_inflation_mean": -0.004291158677925204,
+  "tgb_inflation_positive": "24/60",
+  "xgb_hybrid_on_uniform": 0.7230500832545788,
+  "verdict": "MIXED"
+ },
+ "C_e218b": {
+  "argmax_own": 1.0,
+  "own_0_to_1": 0.1684255269379693,
+  "common_0_to_1": -0.023753758238373,
+  "own_by_hardfrac": [
+   0.6974,
+   0.7115,
+   0.7143,
+   0.7392,
+   0.766,
+   0.7767,
+   0.7758,
+   0.7781,
+   0.8065,
+   0.8348,
+   0.8659
+  ],
+  "common_by_hardfrac": [
+   0.6797,
+   0.682,
+   0.6991,
+   0.7132,
+   0.7083,
+   0.7008,
+   0.6959,
+   0.6719,
+   0.6791,
+   0.6781,
+   0.656
+  ],
+  "verdict": "HOLDS"
+ },
+ "D_e221": {
+  "density_robust": {
+   "maxent": 13.26,
+   "randomforest": 16.16,
+   "xgboost": 20.98
+  },
+  "density_contingent": {
+   "maxent": 2.5,
+   "randomforest": 6.36,
+   "xgboost": 2.46
+  },
+  "ratio": {
+   "maxent": 5.3,
+   "randomforest": 2.54,
+   "xgboost": 8.51
+  },
+  "fringe_elevation_median_m": {
+   "xgboost": 559.8087158203125,
+   "randomforest": 524.4253540039062,
+   "maxent": 667.626220703125
+  },
+  "turnover_range": [
+   0.41620727592322193,
+   0.5483016754705978
+  ],
+  "verdict": "HOLDS"
+ },
+ "E_e235": {
+  "primary_20_40": {
+   "E_star_m": 1000.0,
+   "share_above_V": 0.9747857749062337,
+   "share_above_N": 0.004352944397295152,
+   "M2_summary": "INCONCLUSIVE",
+   "suit_random": {
+    "estimate": 0.046275158095843406,
+    "ci95": [
+     0.023857404977178438,
+     0.06922954576740019
+    ],
+    "verdict": "INCONCLUSIVE"
+   },
+   "suit_tgb": {
+    "estimate": 0.04592147827147485,
+    "ci95": [
+     0.023090143828225017,
+     0.06860047502009843
+    ],
+    "verdict": "INCONCLUSIVE"
+   },
+   "suit_hybrid": {
+    "estimate": 0.059720693713885276,
+    "ci95": [
+     0.0319131211580022,
+     0.08553817065480909
+    ],
+    "verdict": "SPECIFIC"
+   }
+  },
+  "sens_10_30": {
+   "E_star_m": 1200.0,
+   "share_above_V": 0.7470852356337019,
+   "share_above_N": 0.00022638946534354602,
+   "M2_summary": "INCONCLUSIVE",
+   "suit_random": {
+    "estimate": -0.0004217280611600889,
+    "ci95": [
+     -0.05211426568715858,
+     0.051669188963262336
+    ],
+    "verdict": "INCONCLUSIVE"
+   },
+   "suit_tgb": {
+    "estimate": -0.0013104453410519724,
+    "ci95": [
+     -0.051109095531742296,
+     0.0484398302811523
+    ],
+    "verdict": "INCONCLUSIVE"
+   },
+   "suit_hybrid": {
+    "estimate": 0.017599874800328277,
+    "ci95": [
+     -0.04402009122302844,
+     0.0748970891692363
+    ],
+    "verdict": "INCONCLUSIVE"
+   }
+  },
+  "sens_15_30": {
+   "E_star_m": 1200.0,
+   "share_above_V": 0.9587216541523601,
+   "share_above_N": 0.00022638946534354602,
+   "M2_summary": "NOT SPECIFIC",
+   "suit_random": {
+    "estimate": 0.018839103678256797,
+    "ci95": [
+     -0.007693833661489278,
+     0.048331223532447835
+    ],
+    "verdict": "NOT SPECIFIC"
+   },
+   "suit_tgb": {
+    "estimate": 0.018320448263923008,
+    "ci95": [
+     -0.007518792349006316,
+     0.04688721754657064
+    ],
+    "verdict": "NOT SPECIFIC"
+   },
+   "suit_hybrid": {
+    "estimate": 0.036720946748829496,
+    "ci95": [
+     0.002597756379472534,
+     0.07127710987762502
+    ],
+    "verdict": "INCONCLUSIVE"
+   }
+  }
+ },
+ "F_disjoint": {
+  "J_k1": {
+   "maxent": 0.579,
+   "randomforest": 0.517,
+   "xgboost": 0.467
+  },
+  "J_k5": {
+   "maxent": 0.768,
+   "randomforest": 0.725,
+   "xgboost": 0.701
+  },
+  "J_k5_by_design": {
+   "xgboost|random": 0.712,
+   "xgboost|tgb": 0.713,
+   "xgboost|hybrid": 0.677,
+   "randomforest|random": 0.746,
+   "randomforest|tgb": 0.71,
+   "randomforest|hybrid": 0.719,
+   "maxent|random": 0.766,
+   "maxent|tgb": 0.774,
+   "maxent|hybrid": 0.764
+  },
+  "verdict_averaging_helps": "HOLDS"
+ }
+}

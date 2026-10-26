@@ -179,7 +179,27 @@
   }
  },
  "F_disjoint": {
-  "missing": "D:\\documents\\volcarch-repo\\experiments\\E236_p2_presence_sensitivity\\results\\F_disjoint_full.csv",
-  "J_k5_by_design": {}
+  "J_k1": {
+   "maxent": 0.699,
+   "randomforest": 0.702,
+   "xgboost": 0.548
+  },
+  "J_k5": {
+   "maxent": 0.849,
+   "randomforest": 0.861,
+   "xgboost": 0.759
+  },
+  "J_k5_by_design": {
+   "xgboost|random": 0.769,
+   "xgboost|tgb": 0.764,
+   "xgboost|hybrid": 0.744,
+   "randomforest|random": 0.865,
+   "randomforest|tgb": 0.869,
+   "randomforest|hybrid": 0.849,
+   "maxent|random": 0.846,
+   "maxent|tgb": 0.861,
+   "maxent|hybrid": 0.839
+  },
+  "verdict_averaging_helps": "HOLDS"
  }
 }

@@ -1,0 +1,12 @@
+{
+  "experiment": "E218b",
+  "n_seeds": 5,
+  "spearman_dissimilarity_vs_inflation": 0.7836,
+  "p_inflation": 1.6095183756619917e-35,
+  "spearman_dissimilarity_vs_auc_own": 0.81,
+  "p_auc_own": 1.2810420519631096e-39,
+  "spearman_dissimilarity_vs_auc_common": -0.2079,
+  "p_auc_common": 0.007358449387470916,
+  "mechanism_established": true,
+  "hard_negatives_help_generalisation": false
+}

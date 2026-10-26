@@ -72,6 +72,11 @@ def latex_table(df, caption, label, colfmt=None, note=None, small=True):
         caption = shift(caption)
         if note:
             note = shift(note).replace(r"\S", "Section~")
+        # Round-2 wording (2026-10-26, ledger C086): no talk of the review or of a "published" result, no idioms.
+        for old, new in V03_WORDING:
+            caption = caption.replace(old, new)
+            note = note.replace(old, new) if note else note
+            body = body.replace(old, new)
     notetex = f"\n\\vspace{{2pt}}\n\\footnotesize\\emph{{{note}}}\n" if note else ""
     return f"""
 \\begin{{table}}[htbp]
@@ -268,6 +273,18 @@ def table_s6():
         "tab:s6", colfmt="llp{2.1cm}p{3.0cm}p{2.9cm}cl", note=note)
 
 
+V03_WORDING = [
+    ("(the top rung of the reported ladder)", "(the last of the seven experiments E007--E013)"),
+    (" This is the comparison the reviewer's Maximum Entropy request made possible.", ""),
+    ("The published ladder gain under examination was $+0.092$.",
+     "The reported gain from E007 to E013 (seed mean) was $+0.092$."),
+    (r"\texttt{hard\_frac} dial", r"\texttt{hard\_frac} 0.0--1.0"),
+    ("of the manuscript", "of the main text"),
+    ("see manuscript Section", "see the main text, Section"),
+    ("(manuscript Section", "(main text, Section"),
+]
+
+
 def main_v03():
     """v0.3: S1-S6 as in v0.2 (numbers unchanged), S7-S8 from E235, LaTeX numbering, R1's "Section" rule."""
     parts = [table_s1(), table_s2(), table_s3(), table_s4(), table_s5(), table_s6()]
@@ -300,11 +317,11 @@ Evidence from East Java and a Corrected Comparison Protocol}
 \noindent
 Every table below is generated directly from the raw result files by
 \texttt{build\_supplement.py} (Tables S1--S6) and \texttt{build\_e235\_tables.py} (Tables S7--S8), which are
-included in the code repository cited in the manuscript's Data Availability statement. No value is retyped.
+included in the code repository cited in the Data Availability statement of the main text. No value is retyped.
 Tables S3--S6 describe the refutation suite (E217--E224); backgrounds there are drawn from a decimated raster
 lattice rather than by continuous rejection sampling, so absolute AUC levels are not directly comparable with the
-original E007--E013 pipeline --- the interpretable quantities are the within-experiment contrasts. This is stated
-in the manuscript in Section~2.6. Tables S7--S8 give the elevation control of Section~3.9 (E235).
+original E007--E013 pipeline; the interpretable quantities are the within-experiment contrasts (main text,
+Section~2.6). Tables S7--S8 give the elevation control of Section~3.9 (E235).
 
 """ + "\n".join(parts) + "\n\\clearpage\n" + e235.read_text(encoding="utf-8") + r"""
 \end{document}

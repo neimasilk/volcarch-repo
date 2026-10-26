@@ -3267,5 +3267,18 @@
     "lines": [
       "01_spatial"
     ]
+  },
+  {
+    "id": "E236",
+    "dir": "E236_p2_presence_sensitivity",
+    "has_readme": true,
+    "title": "P2's real-data results on a cleaned presence set (C081) + disjoint seed ensemble",
+    "status": "SUCCESS",
+    "papers": [
+      "P2"
+    ],
+    "lines": [
+      "01_spatial"
+    ]
   }
 ]

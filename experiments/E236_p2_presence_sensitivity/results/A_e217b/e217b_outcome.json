@@ -1,0 +1,72 @@
+{
+  "experiment": "E217b",
+  "n_seeds": 5,
+  "n_presences": 161,
+  "eval_background_n": 805,
+  "per_algorithm": {
+    "maxent": {
+      "common_eval": {
+        "random_nobuffer": 0.6111,
+        "random_buffered": 0.61,
+        "tgb": 0.6082,
+        "hybrid": 0.6762
+      },
+      "own_background": {
+        "random_nobuffer": 0.6201,
+        "random_buffered": 0.6203,
+        "tgb": 0.6202,
+        "hybrid": 0.7456
+      },
+      "gain_site_buffer_only": -0.0012,
+      "gain_tgb_over_buffered_random": -0.0018,
+      "gain_hybrid_over_tgb": 0.068,
+      "gain_total_common": 0.065,
+      "gain_total_own_background": 0.1254,
+      "monotonic_common": false
+    },
+    "xgboost": {
+      "common_eval": {
+        "random_nobuffer": 0.6764,
+        "random_buffered": 0.6954,
+        "tgb": 0.6819,
+        "hybrid": 0.7161
+      },
+      "own_background": {
+        "random_nobuffer": 0.6849,
+        "random_buffered": 0.7056,
+        "tgb": 0.6829,
+        "hybrid": 0.7603
+      },
+      "gain_site_buffer_only": 0.0191,
+      "gain_tgb_over_buffered_random": -0.0136,
+      "gain_hybrid_over_tgb": 0.0342,
+      "gain_total_common": 0.0397,
+      "gain_total_own_background": 0.0754,
+      "monotonic_common": true
+    },
+    "randomforest": {
+      "common_eval": {
+        "random_nobuffer": 0.6587,
+        "random_buffered": 0.6489,
+        "tgb": 0.6597,
+        "hybrid": 0.7062
+      },
+      "own_background": {
+        "random_nobuffer": 0.6674,
+        "random_buffered": 0.6557,
+        "tgb": 0.6558,
+        "hybrid": 0.7766
+      },
+      "gain_site_buffer_only": -0.0099,
+      "gain_tgb_over_buffered_random": 0.0109,
+      "gain_hybrid_over_tgb": 0.0465,
+      "gain_total_common": 0.0475,
+      "gain_total_own_background": 0.1092,
+      "monotonic_common": true
+    }
+  },
+  "mean_gain_from_adding_river_feature_common": 0.0692,
+  "mean_gain_from_background_redesign_common": 0.0507,
+  "background_effect_exceeds_feature_effect": false,
+  "inflation_from_own_background_evaluation": 0.0526
+}

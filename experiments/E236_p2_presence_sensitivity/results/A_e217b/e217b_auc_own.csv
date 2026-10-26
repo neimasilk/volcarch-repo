@@ -1,0 +1,9 @@
+design,feature_set,maxent,randomforest,xgboost
+random_nobuffer,terrain,0.5375,0.5974,0.6062
+random_nobuffer,terrain_river,0.6201,0.6674,0.6849
+random_buffered,terrain,0.5452,0.5951,0.6119
+random_buffered,terrain_river,0.6203,0.6557,0.7056
+tgb,terrain,0.5115,0.5802,0.5672
+tgb,terrain_river,0.6202,0.6558,0.6829
+hybrid,terrain,0.7002,0.7357,0.7201
+hybrid,terrain_river,0.7456,0.7766,0.7603

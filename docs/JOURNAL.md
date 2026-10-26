@@ -11675,3 +11675,47 @@ PI: "baca handoff, lanjutkan yg perlu dilanjutkan".
   berkas yang sama, termasuk makalah yang sedang direvisi. "Diwarisi dari v0.2" bukan berarti sudah diaudit.
   Gambar harus dibangun ulang tiap kali kosakata teks diganti.
 - Ledger berikutnya **C090**; nomor eksperimen bebas tetap **E236** (belum dipakai).
+
+## 2026-10-26 (Senin, lanjutan) — PI "ok, perbaiki": sesi 5 diterapkan; E236 dipra-registrasi dan dijalankan → klaim inti P2 harus dibingkai ulang
+
+PI: "ok, perbaiki". Claude mengartikannya sebagai persetujuan rekomendasi agenda: D1 (E236), A + C (surel ke editor
+**didraf, tidak dikirim**, aturan line 01 nomor 5), kelompok T/S/R, dan commit/push.
+- **Commit `4ef46b3`** (catatan pra-beku) di-push.
+- **E236** (`experiments/E236_p2_presence_sensitivity/`):
+  - **Aturan bersih R1–R4**:
+    - buang baris bergeokode Nominatim (ke-85 baris dari daftar Wikipedia; klaster cadangan di Malang memuat Sewu,
+      Sari, Mendut, Kalasan, Bima, dan Sawentar dari Blitar);
+    - buang monumen modern, candi daerah lain, objek wisata, "Pura", "Ponpes", "Pabriek";
+    - satu baris per koordinat.
+
+    Hasilnya **161 presensi** (155 OSM, 6 Wikidata).
+  - **Desain di-push dulu (`f9d2eb9`)**, sebelum run apa pun. Ringkasan dicek lebih dulu pada set lengkap dan
+    mereproduksi angka naskah.
+  - **Hasil set bersih:**
+    - **A FAILS:** desain ulang +0,0507 di latar bersama (14/15 sel; set lengkap −0,0142);
+    - **B MIXED:** inflasi hybrid 54/60, +0,0415, tetapi hybrid juga menang di keempat latar;
+    - **C HOLDS:** kriteria tetap ke 1,0; AUC latar bersama memuncak di 0,3;
+    - **D HOLDS:** rasio 2,5–8,5×; pinggiran hanya 5/15/5 situs;
+    - **E:** tak ada efek khas vulkanik;
+    - **F:** rata-rata membantu; J(5) saling lepas 0,76–0,86 lengkap, 0,70–0,77 bersih.
+  - **Pengecekan independen** (agen Sonnet, hanya dari DESIGN §5 dan berkas mentah) cocok di semua angka dan vonis.
+- **Naskah v0.3, sesi 5** (`PI_PROSE_LOG_R2.md`):
+  - `apply_session5_edits.py`: 66 suntingan, ditambah pernyataan AI, daftar alt text dan kutip tunggal;
+  - `apply_session5_seed_edits.py`: 9 suntingan (C083);
+  - fontenc T1;
+  - Gambar 2, 3, 4 dan 6 dibangun ulang (`build_v03_figures_r2.py`, berkas baru; gambar v0.2 tetap);
+  - catatan suplemen dibersihkan (v0.2 identik).
+
+  Kompilasi bersih, 34 hlm. **Abstrak 305 kata (> 300)**, diperbaiki di penulisan ulang K.
+- **Implikasi.** "The gain of the final, hybrid design is an evaluation artefact" (R5a, pagi ini) hanya benar untuk
+  catatan yang belum dibersihkan. Yang berlaku di kedua set:
+  - penilaian di latar sendiri menggandakan kenaikan semu;
+  - TGB tidak menambah apa-apa;
+  - tidak ada optimum di dalam rentang;
+  - rata-rata seed membantu.
+
+  **Keputusan K untuk PI** (agenda, paling atas): K1 laporkan kedua set (rekomendasi), K2 set bersih jadi utama
+  (kemungkinan perlu perpanjangan), K3 tarik klaim data riil.
+- Kanari: 228 (E236 dipetakan ke line 01 di `tools/scan_experiments.py`; indeks dibangun ulang; hitungan di
+  WORKSTATE, manifesto, `lines/README.md`, kontrak line 01). Ledger C081–C089 diperbarui statusnya; berikutnya
+  **C090**; nomor bebas **E237**.

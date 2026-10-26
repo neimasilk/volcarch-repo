@@ -1,12 +1,12 @@
 # Experiment Index
 
-**Generated:** 2026-10-20 09:54
-**Total:** 227 experiments
+**Generated:** 2026-10-26 09:12
+**Total:** 228 experiments
 **Regenerate:** `python tools/scan_experiments.py`
 
 ## Status Summary
 
-- **SUCCESS:** 137
+- **SUCCESS:** 138
 - **UNKNOWN:** 34
 - **INFO NEG:** 16
 - **REVISIT:** 9
@@ -35,7 +35,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 
 ### `01_spatial` — Predictive modelling & site distribution
 
-**79** experiments (72 primary): E001 · E003 · E004 · E005 · E006 · E007 · E008 · E009 · E010 · E011 · E012 · E013 · E014 · E015 · E016 · E019 · E031 · E059 · E065 · E066 · E076 · E080 · E082 · E084 · E097 · E100 · E103 · E104 · E106 · E108 · E109 · E110 · E115 · E116 · E118 · E120 · E121 · E122 · E124 · E126 · E129 · E139 · E151 · E152 · E153 · E155 · E159 · E163 · E166 · E167 · E171 · E172 · E175 · E176 · E179 · E182 · E183 · E184 · E185 · E187 · E189 · E190 · E191 · E192 · E194 · E195 · E196 · E202 · E209 · E210 · E217 · E218 · E219 · E220 · E221 · E222 · E223 · E224 · E235
+**80** experiments (73 primary): E001 · E003 · E004 · E005 · E006 · E007 · E008 · E009 · E010 · E011 · E012 · E013 · E014 · E015 · E016 · E019 · E031 · E059 · E065 · E066 · E076 · E080 · E082 · E084 · E097 · E100 · E103 · E104 · E106 · E108 · E109 · E110 · E115 · E116 · E118 · E120 · E121 · E122 · E124 · E126 · E129 · E139 · E151 · E152 · E153 · E155 · E159 · E163 · E166 · E167 · E171 · E172 · E175 · E176 · E179 · E182 · E183 · E184 · E185 · E187 · E189 · E190 · E191 · E192 · E194 · E195 · E196 · E202 · E209 · E210 · E217 · E218 · E219 · E220 · E221 · E222 · E223 · E224 · E235 · E236
 
 ### `02_taphonomy` — Burial, erosion, exposure
 
@@ -292,6 +292,7 @@ the table below. `experiments/` itself stays flat and shared; it is never partit
 | E233 | P23 validation against the editors' published tran | SUCCESS | 05_archival_nlp,04_language_text |  | P23 |  |
 | E234 | E216's assumptions checked against published value | PRE-REGISTERED (DESI | 03_paleoenv |  |  |  |
 | E235 | Elevation or volcanic setting? A band-by-band cont | INCONCLUSIVE | 01_spatial |  | P2 |  |
+| E236 | P2's real-data results on a cleaned presence set ( | SUCCESS | 01_spatial |  | P2 |  |
 
 ## Revisit Candidates
 

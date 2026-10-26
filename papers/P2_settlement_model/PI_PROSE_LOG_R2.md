@@ -517,3 +517,44 @@ Jaccard ≥ 0.90 (Section 3.7); 97.5 % / 1,000 m (Section 3.9); 0.659 / 0.751 (T
 
 **Open:** the AI statement (PI decides; Claude's honest draft given in chat); a list of about ten remaining stylistic
 phrases in Results/Discussion offered as word swaps.
+
+---
+
+## Session 5 — corrections after the independent adversarial read: **drafted by Claude** at the PI's "ok, perbaiki" — 2026-10-26
+
+**Not the PI's prose.** On 26 Oct the PI answered the agenda (`AGENDA_PI_20261026.md`) with "ok, perbaiki". Claude took
+that as approval of the recommended defaults: D1 (E236), A + C for the AI statement (the editor email is drafted, not
+sent), and the T/S/R batches. Every change below was drafted by Claude. Each one is either a correction found by
+the reader and verified at its source (ledger C082–C089) or an approved style or template fix. The new AI declaration
+says that corrections were drafted with Claude. **The PI must read this list and the changed passages before the
+freeze.**
+
+### Part 1 — `apply_session5_edits.py` (66 edits, each old string matched exactly once; dry run first)
+
+| ID | Where | What | Why |
+|---|---|---|---|
+| R5a–e | abstract, Section 2.1 (road_dist), Section 3.2 (×2), conclusions | Hybrid step = evaluation artefact; **TGB steps "not reproduced"** (TGB − random +0.003 even on its own background); "The rise is not real" → "the part attributed to background redesign does not survive a common evaluation background"; the road_dist sentence no longer claims it "drove the reported number" | C084 |
+| R9a–d | abstract, Section 3.2, Fig. 3 caption, Discussion | 343/360 split by design: hybrid 240/240 (median +0.238); random 52/60 (+0.020); TGB 51/60 (+0.014); the random/TGB gap partly reflects observed vs true presences | C087 |
+| R6a–c | Section 3.9 | Adds E235's **pre-registered sensitivity results** (−0.002 NOT SPECIFIC; +0.016 INCONCLUSIVE); post hoc range +0.005 to +0.07; "No direction is therefore claimed below 1,000 m"; the Southern Mountains limited to 400–1,000 m; the MaxEnt fringe no longer attributed to Figure 5 | C085 |
+| R8 | Section 2.6 | "seven experiments … pre-registered" → eight; only E224 had its design committed before the run; E217 and E219 have no design file | C082 |
+| H1–H20 | throughout | Review/version history and idioms out ("no longer the argument", "earlier prose", "MVR", "the decimation is ours and not the paper's", "manuscript's stop/grid/operating point", "hidden in a supplement", "aligned the audit flag", "unbraked", "dose-response"); E224 paragraph title; Section 3.8 heading → "Corrections to two volcanic diagnostics" (< 75 characters); **the PI's 8D sentence**: the −0.163 vs −0.243 difference may come from seeds or from the change of sampling (E219 used the lattice pipeline); **the PI's 8E sentence**: "Low predicted suitability near a volcano therefore cannot, by itself, be read as evidence of buried settlement" (the old "because" clause cited a comparison the paper never set up) | C086, C088, reader |
+| P1–P8 | Sections 3.2, 3.3, 3.5, 3.7, Limitations, Fig. 5 caption | 29 of 30 bootstrap replicates used (one skipped, < 50 out-of-bag sites); World C/D values labelled as true AUC; 27/60 scoped to the two surfaces; "best run 0.768" → original run, highest of 20 further seeds 0.774; Fig. 5 caption gives XGBoost's fringe elevation (491 m) next to MaxEnt's (1,107 m); hybrid(1.0) and "truth-best/-worst" written out | C088 |
+| C1–C3 | Section 2.4, Section 4.4 | Test 1 / Test 3 introduced; Test 3's result not used (it was scored on own backgrounds); BPCB spelled out | R11 |
+| S1–S10 | throughout | The style list of the agenda; 12 em-dash asides replaced | agenda S |
+| T1, T2 | whole file; back matter | 11 double-quoted spans → single quotes (JCAA); "The authors have no competing interests to declare." | VENUE A7, A4 |
+| A1 + AI | back matter | Authors' Contributions (M.A. "directed and checked the analyses (implemented with AI assistance, as declared below)"); **new "Declaration of AI Use"** (option A text of the agenda, plus "a number of corrections were drafted with Claude") | C089 |
+| ALT | after the references | "Figure Alt Text" list, seven items (approved 21 Oct) | VENUE A8 |
+| R12 | preamble | `\usepackage[T1]{fontenc}` + `lmodern`: accented names now extract correctly | reader |
+
+Also rebuilt, without changing the text:
+- **Figures 2, 3, 4 and 6** (`build_v03_figures_r2.py`, new file names; the v0.2 figures are untouched). Plain labels;
+  no "MVR/TSS target"; Figure 3's right panel split by design; Figure 6 adds the **disjoint-ensemble** curve (E236 F).
+- **Supplement:** a v0.3-only wording map in `build_supplement.py` ("top rung", "the reviewer's … request",
+  "published ladder gain", "dial", "manuscript" → "main text"). The v0.2 build stays byte-identical.
+
+**Open for part 2 (after E236):**
+- the presence-data description (C081);
+- the seed-stability sentences: abstract, Table 1, Section 3.7, protocol, conclusions (C083);
+- the densities;
+- Section 3.9 with the cleaned-set E235;
+- Table S9.

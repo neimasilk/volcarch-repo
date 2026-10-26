@@ -52,3 +52,11 @@ waiver on acceptance. The PI words it. Not in the response to the reviewers.
   the models.
 - **AI-use statement:** updated to this version's use (JCAA policy).
 - Word count; abstract (the replacement already sent to the editor on 2 October).
+- **Presence data (ledger C081, E236; added 2026-10-26).**
+  - **Found when checking the data:** about a third of the 378 presence records are modern monuments or misplaced,
+    and the 85 rows taken from Wikipedia lists were geocoded from their names.
+  - **Re-run** on 161 cleaned sites (pre-registered): own-background inflation persists. But on the cleaned sites the
+    hybrid design also improves AUC on a common background (+0.05), whereas on the full records it did not.
+  - **The letter must say this plainly**, together with how the central claim was restated (decision K). This is a
+    change of substance, not requested by the reviewers.
+

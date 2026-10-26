@@ -25,11 +25,11 @@ Evidence from East Java and a Corrected Comparison Protocol}
 \noindent
 Every table below is generated directly from the raw result files by
 \texttt{build\_supplement.py} (Tables S1--S6) and \texttt{build\_e235\_tables.py} (Tables S7--S8), which are
-included in the code repository cited in the manuscript's Data Availability statement. No value is retyped.
+included in the code repository cited in the Data Availability statement of the main text. No value is retyped.
 Tables S3--S6 describe the refutation suite (E217--E224); backgrounds there are drawn from a decimated raster
 lattice rather than by continuous rejection sampling, so absolute AUC levels are not directly comparable with the
-original E007--E013 pipeline --- the interpretable quantities are the within-experiment contrasts. This is stated
-in the manuscript in Section~2.6. Tables S7--S8 give the elevation control of Section~3.9 (E235).
+original E007--E013 pipeline; the interpretable quantities are the within-experiment contrasts (main text,
+Section~2.6). Tables S7--S8 give the elevation control of Section~3.9 (E235).
 
 
 \begin{table}[htbp]
@@ -62,9 +62,9 @@ Seed & hard\_frac (realised) & XGB AUC & XGB TSS & RF AUC & RF TSS \\
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{XGBoost AUC across the 20 seeds: min 0.729, max 0.774, mean 0.751. Realised hard-negative fraction is consistently near 0.62, well above the 0.30 target -- see manuscript Section~2.3.}
+\footnotesize\emph{XGBoost AUC across the 20 seeds: min 0.729, max 0.774, mean 0.751. Realised hard-negative fraction is consistently near 0.62, well above the 0.30 target -- see the main text, Section~2.3.}
 
-\caption{Seed stability of E013 (the top rung of the reported ladder). Each row is one background-generation seed; AUC and TSS are means over the five deterministic spatial-CV folds. Source: \texttt{supplement/e013\_seed\_stability.csv}.}
+\caption{Seed stability of E013 (the last of the seven experiments E007--E013). Each row is one background-generation seed; AUC and TSS are means over the five deterministic spatial-CV folds. Source: \texttt{supplement/e013\_seed\_stability.csv}.}
 \label{tab:s1}
 \end{table}
 
@@ -120,9 +120,9 @@ terrain\_river & tgb & xgboost & 0.7129 & 0.7134 & $-0.0004$ \\
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{Own-background evaluation exceeds common-background evaluation in 7/24 cells (mean +0.0059). Backgrounds are drawn from a decimated ($\sim$300 m) lattice, so absolute levels are not comparable to Table 4 of the manuscript; the interpretable quantities are the within-table contrasts (manuscript Section~2.6).}
+\footnotesize\emph{Own-background evaluation exceeds common-background evaluation in 7/24 cells (mean +0.0059). Backgrounds are drawn from a decimated ($\sim$300 m) lattice, so absolute levels are not comparable to Table 4 of the main text; the interpretable quantities are the within-table contrasts (main text, Section~2.6).}
 
-\caption{E217 common-background benchmark: every background design and feature set scored both on its own background and on a shared evaluation background, under identical spatial-block folds. This is the comparison the reviewer's Maximum Entropy request made possible. Source: \texttt{E217\_maxent\_benchmark/results/e217b\_summary.csv}.}
+\caption{E217 common-background benchmark: every background design and feature set scored both on its own background and on a shared evaluation background, under identical spatial-block folds. Source: \texttt{E217\_maxent\_benchmark/results/e217b\_summary.csv}.}
 \label{tab:s3}
 \end{table}
 
@@ -172,7 +172,7 @@ tgb & xgboost & 20 & 0.8310 & 0.8184 & $+0.0125$ & 0.4907 \\
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{Across all 360 synthetic runs the reported value exceeds the truth in 343/360 cases (95.3\%), median +0.187, minimum -0.031. The published ladder gain under examination was $+0.092$.}
+\footnotesize\emph{Across all 360 synthetic runs the reported value exceeds the truth in 343/360 cases (95.3\%), median +0.187, minimum -0.031. The reported gain from E007 to E013 (seed mean) was $+0.092$.}
 
 \caption{E222 synthetic worlds of known ground truth: reported AUC (scored on the design's own background) against true AUC (scored against the known intensity surface), averaged within background configuration and algorithm. Source: \texttt{E222\_synthetic\_ground\_truth/results/e222\_runs.csv}.}
 \label{tab:s5}
@@ -193,7 +193,7 @@ E218 B & terrain+river & no & random, tgb, hybrid & common (block-size sweep) & 
 E218 C & terrain+river & no & dissimilarity sweep & common & 5 & XGB \\
 E218 D & terrain+river & no & random, tgb, hybrid & own + common ($\sim$150 m lattice) & 5 & XGB \\
 E218b & terrain+river & no & hybrid, \texttt{hard\_frac} 0.0--1.0 & own + common & 5 & XGB \\
-E220 & terrain+river & no & \texttt{hard\_frac} dial & own & 5 & XGB \\
+E220 & terrain+river & no & \texttt{hard\_frac} 0.0--1.0 & own & 5 & XGB \\
 E221 & terrain+river & no & random, tgb, hybrid & own & 10 & MaxEnt, XGB, RF \\
 E222 & synthetic covariates & no & random, tgb, hybrid, quota & own + ground truth & 30 & MaxEnt, XGB, RF \\
 E222c/d & synthetic covariates & no & random, tgb, hybrid, quota & own + ground truth & 30 & MaxEnt, XGB, RF \\
@@ -202,9 +202,9 @@ E224 & synthetic covariates & \textbf{yes} (the manipulation) & random, tgb & ow
 \bottomrule
 \end{tabular}
 \vspace{2pt}
-\footnotesize\emph{\texttt{road\_dist} is a training feature in E224 only, and there only because withholding it was the explanation under test; the test failed (manuscript Section~3.5). Everywhere else it builds the background and is never a predictor, exactly as in E007--E013.}
+\footnotesize\emph{\texttt{road\_dist} is a training feature in E224 only, and there only because withholding it was the explanation under test; the test failed (main text, Section~3.5). Everywhere else it builds the background and is never a predictor, exactly as in E007--E013.}
 
-\caption{Per-experiment design matrix for the refutation suite E217--E224, extending Table 3 of the manuscript. Built by reading the analysis scripts, not the prose.}
+\caption{Per-experiment design matrix for the refutation suite E217--E224, extending Table 3 of the main text. Built by reading the analysis scripts, not the prose.}
 \label{tab:s6}
 \end{table}
 

@@ -2,6 +2,18 @@
 
 **Updated:** 2026-10-26 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
 
+> ## 26 Oct (later) — PI "ok, perbaiki": fixes applied; **E236 run → the central claim must be reframed (agenda K)**
+> - **Session 5** (`PI_PROSE_LOG_R2.md`): 66 + 9 corrections; Figures 2, 3, 4, 6 rebuilt; supplement cleaned; new AI
+>   declaration; alt text; single quotes. The editor email (C) is drafted, **not sent**.
+> - **E236** (pre-registered `f9d2eb9`, independent check matches), on 161 cleaned sites:
+>   - **A FAILS:** redesign +0.051 on a common background (it was −0.014 on the 378);
+>   - **B MIXED:** own-background inflation +0.04 is still there, but hybrid now wins on every background;
+>   - **C, D, F hold:** no interior optimum (the common AUC peaks at 0.3, the criterion picks 1.0); densities;
+>     averaging helps (disjoint J 0.70–0.86).
+> - **Decision K for the PI** — K1 (recommended): report both sets. The claim becomes "own-background evaluation
+>   doubles the apparent design gain; whether a real gain remains depends on the presence data".
+> - Abstract 305 words (limit 300), to be fixed in the K rewrite. Canary 228; ledger next C090.
+
 > ## 26 Oct — pre-freeze pass started; **PI decisions in `papers/P2_settlement_model/AGENDA_PI_20261026.md`**
 > - **22 Oct, session 3 + session 4 (commits `c2d6343`, `9803f23`):** 41 language edits; PI blocks A–E; keywords
 >   7 → 6; **abstract, conclusions, "strong gains" sentence and acknowledgements drafted by Claude at the PI's request**

@@ -3,6 +3,22 @@
 **Updated:** 2026-10-26 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
+> ## ▶▶ 2026-10-26 (later) — PI "ok, perbaiki" → fixes applied, **E236 run: on cleaned presences the design gain partly survives → decision K**
+> - **Done:**
+>   - v0.3 session 5 (75 corrections, Figures 2/3/4/6 rebuilt, supplement, AI declaration, alt text);
+>   - **E236** pre-registered (`f9d2eb9`) and run, independently re-derived.
+> - **Not done:** the editor email (drafted; the PI sends).
+> - **E236 on 161 cleaned sites:**
+>   - **A FAILS** — redesign +0.051 on a common background (−0.014 on the 378 records);
+>   - **B MIXED** — inflation +0.04 is still there;
+>   - **C, D, F hold.**
+>
+>   So "the design gain is an evaluation artefact" holds only for the uncleaned records. What holds in both sets:
+>   own-background scoring doubles the apparent gain; TGB adds nothing; no interior optimum; averaging seeds helps.
+> - **PI: decide K (K1 recommended, report both sets; the text can fit the 9 Nov freeze), then C (send the editor
+>   email), then who writes the K text.** `papers/P2_settlement_model/AGENDA_PI_20261026.md` (top). Canary **228**;
+>   next free **E237**; ledger next **C090**.
+
 > ## ▶ 2026-10-26 (Mon) — P2 pre-freeze pass; **PI decisions: `papers/P2_settlement_model/AGENDA_PI_20261026.md`**
 > **Mailbox:** nothing from Nastiti, VEGAN, JCAA, OL or arXiv since 21 Oct.
 > **Drift fixed:** 22 Oct afternoon (session 3, session 4 parts 1–2, commits `c2d6343` and `9803f23`) was never
@@ -344,7 +360,7 @@ The binding constraint is **non-exposure, not rigor** (ME#19). The ledger was em
 
 🅿 Still parked (PI decision 2026-08-11, unchanged): Verberne reply · P7 preprint notice · Lamqaddam reply.
 
-**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 in revision (P2: revisions requested 2026-10-19, due 16 Nov) · 1 withdrawn (P17, 2026-10-02) · 227 experiments** (227 folder lokal, E001–E235; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan; +E233 validasi P23 terhadap terjemahan penyunting DHARMA, 19 Okt; +E234 desain pra-registrasi jalur sumber E216, 19 Okt, belum dijalankan; +E235 desain pra-registrasi kontrol elevasi vs vulkanik untuk revisi P2, 20 Okt, belum dijalankan).
+**Scorecard: 0 final acceptances · 1 conditional (P8, 2026-10-05; R1 submitted 2026-10-15) · 7 rejections · 1 in revision (P2: revisions requested 2026-10-19, due 16 Nov) · 1 withdrawn (P17, 2026-10-02) · 228 experiments** (228 folder lokal, E001–E236; 8 nomor tak pernah dibuat; +E225 13 Agt, +E053/E203 kembali dari repo pendamping 1 Okt — rekonsiliasi 2026-10-01; +E226 T7 2 Okt; +E227/E228 audit dan analisis revisi P8, 5 Okt; +E229/E230 tabel revisi dan uji ulang ejaan/panjang P8, 6 Okt; +E231 hitungan deskriptif arti "berkode" di ABVD untuk P8, 6 Okt; +E232 desain pra-registrasi I-150, 15 Okt, belum dijalankan; +E233 validasi P23 terhadap terjemahan penyunting DHARMA, 19 Okt; +E234 desain pra-registrasi jalur sumber E216, 19 Okt, belum dijalankan; +E235 desain pra-registrasi kontrol elevasi vs vulkanik untuk revisi P2, 20 Okt, dijalankan 20 Okt; +E236 set presensi bersih + ensemble seed saling lepas untuk P2, 26 Okt).
 **2026-10-02: all four ledger items done** (JCAA reply, VEGAN email, P17 withdrawal, Zenodo notice). Ledger is
 empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P8** (OL) — **decision 2026-10-05: accepted pending revisions** (ledger item 5).
 

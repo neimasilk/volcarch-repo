@@ -62,7 +62,7 @@ a valid critique by rewording.*
 | **P17** Two Javas | `papers/P17_two_javas/` | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365): the central result is a geocoding artefact (ledger C032). Never quote its segregation result. |
 | **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | 🅿 **PARKED 2026-10-15** after 🔴 NO-GO 2026-10-01 (western-flank pattern = Penanggungan effect; duplicate candi rows). Unpark paths: `PARKED.md`. The "core finding survives" line that stood here is void. |
 
-**79 experiments** are assigned to this line (72 primary; E235 added 2026-10-20). Authoritative list:
+**80 experiments** are assigned to this line (73 primary; E235 added 2026-10-20, E236 on 2026-10-26). Authoritative list:
 `docs/EXPERIMENT_INDEX.md` §"By Line of Inquiry" — regenerate with
 `python tools/scan_experiments.py`.
 *(D2 / Mini-NusaRC moved to [02_taphonomy](../02_taphonomy/): it is a radiocarbon database built for
