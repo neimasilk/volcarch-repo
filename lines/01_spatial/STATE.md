@@ -1,6 +1,38 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-22 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+**Updated:** 2026-10-26 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+
+> ## 26 Oct — pre-freeze pass started; **PI decisions in `papers/P2_settlement_model/AGENDA_PI_20261026.md`**
+> - **22 Oct, session 3 + session 4 (commits `c2d6343`, `9803f23`):** 41 language edits; PI blocks A–E; keywords
+>   7 → 6; **abstract, conclusions, "strong gains" sentence and acknowledgements drafted by Claude at the PI's request**
+>   (logged). v0.3 is complete in content.
+> - **26 Oct (no manuscript change):**
+>   - bibliography rebuilt (unchanged, 30 entries); compile clean (33 pp.);
+>   - G1 script re-run (64 checks, the same 4 withdrawn claims);
+>   - G1 on every new number: all match, two small notes (+0.005 printed as +0.01; 5.65 precision);
+>   - template check: T1 double quotes, T2 competing-interests wording, **T3 alt text missing for six figures**,
+>     T4 two headings ≥ 75 characters;
+>   - style-swap list S1–S10;
+>   - independent adversarial read.
+> - **Decide first: the AI statement.** The JCAA ghost-writing rule was on the page by 13 May 2026 (Wayback). About
+>   3,300 of the 4,400 words in Methods/Results/Discussion are v0.2 text drafted with Claude. Options A / **A + C
+>   (recommended: precise statement + ask the editor this week)** / B (PI rewrites).
+> - **🔴 Adversarial read (verified by Claude at every source): v0.3 cannot be uploaded as it is; the method holds.**
+>   Ledger **C081–C089**:
+>   - **C081 — presence data.** About 124 of the 378 presences are modern monuments (Tugu Pahlawan, Monumen Kapal
+>     Selam…), plus 13 misplaced or non-sites (Borobudur and Prambanan at 111.09°E 8.20°S, Besakih near Surabaya, a
+>     waterfall). C029 had flagged the file on 1 Oct, but P2 was never checked. **Recommended D1:** pre-register E236
+>     (cleaned set, re-run of the real-data contrasts through a wrapper around E217's loader) and decide by ~29 Oct.
+>     Otherwise downgrade.
+>   - **C086** — Figures 2–4 and the supplement still print "judged at home", "dial", "published".
+>   - **C083** — E221's "≥ 7 seeds → J ≥ 0.90" is partly true by construction; disjoint 5-seed ensembles agree at
+>     0.75–0.87 (rule 3 annotated).
+>   - **C084** — the TGB steps are "not reproduced", not "an artefact".
+>   - **C085** — E235's pre-registered sensitivity runs (−0.002, +0.016) are not reported.
+>   - **C082** — "pre-registered": only E224 and E235 are time-stamped design-first.
+>   - **C087–C089** — 343/360 pooled across designs; seven precision items; AI statement, contributions, the three
+>     summarised papers, Go Frendi's approval.
+>   - All in `AGENDA_PI_20261026.md` §D and §R.
 
 > ## 22 Oct — writing session 2: research question (passage 4) + Table 1 "Key terms" (passage 5); **C080** found
 > 40.7 % of the sites lie in the "hard negative" band (2 ≤ z ≤ 5), and the Methods sentence at v0.3 line 250 explains the

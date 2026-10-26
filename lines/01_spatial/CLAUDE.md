@@ -58,7 +58,7 @@ a valid critique by rewording.*
 
 | Paper | Folder | Status |
 |---|---|---|
-| **P2** Settlement model | `papers/P2_settlement_model/` | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov 2026.** Start at `REVISION_JCAA_R2_20261019.md` (triage) and `REVISION_R2_WRITING_PACK.md` (the PI's prose). E235 answers R2. JCAA forbids AI ghost-writing, so the PI writes. Waiver: JCAA cannot reserve one before acceptance (reply 2026-10-20); PI decided 2026-10-21 to apply on acceptance and fund it himself if refused (P2-only G15 exception). The PI's prose is logged in `PI_PROSE_LOG_R2.md`. |
+| **P2** Settlement model | `papers/P2_settlement_model/` | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov 2026.** Start at `REVISION_JCAA_R2_20261019.md` (triage) and `REVISION_R2_WRITING_PACK.md` (the PI's prose). E235 answers R2. JCAA forbids AI ghost-writing, so the PI writes. Waiver: JCAA cannot reserve one before acceptance (reply 2026-10-20); PI decided 2026-10-21 to apply on acceptance and fund it himself if refused (P2-only G15 exception). The PI's prose is logged in `PI_PROSE_LOG_R2.md`. On 2026-10-22, at the PI's request, Claude drafted the abstract and conclusions (logged). **The AI statement and the ghost-writing question are open: `AGENDA_PI_20261026.md` item AI.** |
 | **P17** Two Javas | `papers/P17_two_javas/` | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365): the central result is a geocoding artefact (ledger C032). Never quote its segregation result. |
 | **P11** Volcanic informedness | `papers/P11_volcanic_informedness/` | 🅿 **PARKED 2026-10-15** after 🔴 NO-GO 2026-10-01 (western-flank pattern = Penanggungan effect; duplicate candi rows). Unpark paths: `PARKED.md`. The "core finding survives" line that stood here is void. |
 
@@ -108,7 +108,9 @@ Never use the old 7-volcano `volcanoes.csv` — see [02_taphonomy](../02_taphono
    availability domain is meaningless. State background design, benchmark, and selection rule
    explicitly in every claim.
 3. **≥7 seeds for any published map or AUC** (E221: k\*=7 for XGB at J≥0.9). Single-seed results are
-   not reportable — 31–45% of top-decile cells turn over on seed alone.
+   not reportable — 31–45% of top-decile cells turn over on seed alone. *(2026-10-26, C083: the k\*=7 curve compares
+   each k-seed ensemble with a 10-seed ensemble that contains it, so it flatters; two disjoint 5-seed ensembles agree
+   at J 0.75–0.87. Keep the rule as a floor; do not quote k\*=7 as "stable" until an independent curve exists.)*
 4. **No absolute quantifiers** ("always", "never", "all") without the fraction next to them. K3 is
    why.
 5. **Nothing goes to the editor without the PI.** The Verhagen disclosure email was **WITHDRAWN

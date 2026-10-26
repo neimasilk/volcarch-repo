@@ -24,8 +24,9 @@ The quoted openings still find each place.
 
 **Session 3 (2026-10-22): done** — 41 language edits (log "Session 3, part 1") and the PI's blocks A–E (passage 8).
 **Session 4, part 1 (2026-10-22): done** — keywords 7 → 6, Authors' Contributions, Data Availability + E235, S7–S8
-captions kept (log "Session 4, part 1"). **Open:** abstract, conclusion, the "strong gains" sentence,
-acknowledgements, AI statement.
+captions kept (log "Session 4, part 1"). **Session 4, part 2 (2026-10-22):** abstract, conclusions, the "strong
+gains" sentence and acknowledgements **drafted by Claude at the PI's request** (log "Session 4, part 2"). **Open:** the AI
+statement and the style swaps → `AGENDA_PI_20261026.md` (26 Oct), which also starts the "After session 4" steps below.
 
 ---
 

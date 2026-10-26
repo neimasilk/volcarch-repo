@@ -11591,3 +11591,87 @@ Log lengkap: `papers/P2_settlement_model/PI_PROSE_LOG_R2.md` ("Session 3, part 1
   **Isu integritas diangkat ke PI:** JCAA menolak *ghost-writing* (AI menulis bagian substansial metode/hasil/diskusi);
   sebagian besar Metode/Hasil/Diskusi v0.3 adalah teks v0.2 yang didraf dengan Claude. Rekomendasi Claude: pernyataan AI
   yang jujur dan rinci (bukan diperkecil); alternatifnya PI menulis ulang ±20 hlm. sebelum beku. **Keputusan PI.**
+
+## 2026-10-22 (Kamis, sore) — P2 sesi 4 bagian 2: abstrak, kesimpulan, kalimat "strong gains", ucapan terima kasih didraf Claude atas permintaan PI *(dicatat terlambat, 26 Okt)*
+
+Commit `9803f23` (14:49) tidak tercatat di JOURNAL, WORKSTATE maupun STATE; diperbaiki 26 Okt (drift).
+- PI: "apa bisa kamu kerjakan semuanya? tapi seminim mungkin AI like". Ini menyimpang dari G16 untuk butir-butir ini,
+  atas permintaan PI. Syarat yang Claude sampaikan: pernyataan AI harus menyebutnya.
+- Abstrak (283 kata) dan kesimpulan memakai kalimat terjemahan PI sendiri (passage 4, 6, 8A, 8E, 2). Kalimat "strong
+  gains" (C076) ditulis ulang dari fakta `REFERENCE_FIX_20261020.md` §2. Ucapan terima kasih: satu kalimat netral.
+  Dua sisa idiom diperbaiki (judul 3.8; caption Gambar 5 "dial").
+- Log: `papers/P2_settlement_model/PI_PROSE_LOG_R2.md` "Session 4, part 2".
+- Terbuka: pernyataan AI (draf Claude hanya diberikan di chat, tidak tersimpan) dan ±10 penggantian gaya.
+
+## 2026-10-26 (Senin) — sesi orbit: P2 pass pra-beku dimulai; agenda keputusan PI
+
+PI: "baca handoff, lanjutkan yg perlu dilanjutkan".
+- **Kanari** hijau 227; `inBox/` kosong.
+- **Kotak masuk** (`gmail_check.py list "after:2026/10/21"`, hanya daftar): tidak ada surel dari Nastiti, VEGAN, JCAA,
+  OL atau arXiv.
+- **Drift:** sesi 4 bagian 2 (22 Okt) dicatat di atas; STATE line 01, WORKSTATE, `WRITING_SESSIONS_R2.md` dan kontrak
+  line 01 diperbarui.
+- **Langkah "sesudah sesi 4" dimulai sekarang, tanpa mengubah naskah** (naskah sudah lengkap isinya; temuan sekarang
+  masih bisa diperbaiki sebelum beku 9 Nov):
+  - `build_jcaa_bibliography.py`: 30 entri, keluaran identik.
+  - Kompilasi: 33 hlm., 0 error, 0 undefined, satu overfull 0,6 pt (Tabel 1).
+  - `verify_headline_numbers.py --date 20261026`: 64 cek, 4 mismatch yang sama dengan Agustus (K5, K6, K7, G1c;
+    semuanya klaim yang sudah ditarik) → `revision_ammo/SIG_G1_VERIFICATION_20261026.md`.
+  - **G1 angka baru v0.3** (selisih multiset angka v0.2 → v0.3, tiap angka dicari ke sumbernya: hasil E235 + audit,
+    E217 `e217_zdist_sites_check.txt`, E221 `e221_priority_sets.csv`, E222, tabel ladder, `REFERENCE_FIX` §2):
+    semua cocok. Dua catatan kecil:
+    - baris 508: batas bawah kisaran post hoc +0,005 tertulis "+0,01";
+    - baris 453: 5,65 dua desimal, yang lain satu.
+  - **Cek templat** (VENUE A): 14 tanda kutip ganda (JCAA: kutip tunggal); kalimat competing interests bukan kalimat
+    baku; **alt text hanya ada untuk Gambar 7, itu pun di komentar LaTeX**; dua judul ≥ 75 karakter (baris 470:
+    111; baris 307: ≈ 77); 41 em dash. Panjang ≈ 9.700 kata termasuk pustaka (≤ 11.500); abstrak 286; 6 kata kunci;
+    judul tabel di bawah tabel. Nama penulis ada di berkas (sama seperti v0.2; JCAA membolehkan tanpa blinding).
+  - **Pernyataan AI × aturan ghost-writing JCAA.** Wayback:
+    - bagian "Use of AI" (termasuk "Ghost-writing") **tidak ada** di snapshot 1 Mar 2026 dan **ada** di 13 Mei 2026,
+      jadi sudah berlaku saat kiriman ulang 11 Agustus;
+    - "translating" tercantum sebagai pemakaian yang boleh.
+
+    Dicatat di `VENUE.md` A5. Asal teks v0.3 (tiap kalimat dicocokkan dengan kalimat v0.2 terdekat): 52 % sama,
+    14 % disunting ringan, 34 % baru. Di Metode, Hasil dan Diskusi ±3.300 dari 4.400 kata masih teks v0.2. Pernyataan
+    v0.3 juga masih memuat riwayat review (R1-1).
+    Opsi:
+    - A: pernyataan tepat;
+    - **A + C (rekomendasi): ditambah surel tanya ke editor minggu ini**, draf siap; aturan line 01 nomor 5 berarti
+      PI yang mengirim;
+    - B: PI menulis ulang ±3.300 kata.
+
+    Pernyataan minimal ("language assistance") bukan opsi karena tidak benar.
+  - **Daftar gaya S1–S10** (frasa retoris dan dua jejak versi lama di baris 225 dan 430; em dash dalam prosa).
+- Semua di **`papers/P2_settlement_model/AGENDA_PI_20261026.md`** (butir AI, R, G, T, S). Tidak ada yang diterapkan ke
+  naskah; semuanya menunggu PI.
+- **Pembaca adversarial mandiri** (model utama, tidak diberi temuan Claude; skripnya di scratchpad sesi). Vonis: "not
+  as is"; sesudah diperbaiki, "the central contrasts re-derive cleanly from the raw files". **Tiap temuan dicek Claude
+  di sumbernya; tidak ada yang salah.** Satu lebih lunak dari klaim pembaca: caption Gambar 5 memang menyebut MaxEnt.
+  Ledger **C081–C089**:
+  - **C081 (2×2) — data presensi.** Filter E217/E013 direproduksi (378 baris). ±124 adalah monumen, tugu atau patung
+    modern (123 bertipe `monument`; 129 monument atau bernama modern; 124 tanpa nama candi/situs/arca). 13 baris salah
+    tempat atau bukan situs: Borobudur dan Prambanan di 111,09°BT 8,20°LS, Mendut/Sewu/Kalasan/Plaosan, Besakih ×2
+    di dekat Surabaya, Museum Gilimanuk, TN Bali Barat, air terjun Tumpak Sewu. 335 koordinat berbeda. C029 (1 Okt)
+    sudah menandai berkas ini, tetapi dampaknya ke P2 tidak dinilai. Skrip audit:
+    `papers/P2_settlement_model/revision_ammo/presence_audit_20261026.py`.
+  - **C086** — Gambar 2–4 tidak dibangun ulang sesudah suntingan idiom ("judged at home", "dial", "published",
+    "MVR threshold", backslash tercetak). Gambar dilihat sendiri. Ditambah sisa di suplemen dan teks.
+  - **C083** — E221 bagian A membandingkan ensemble k seed dengan ensemble 10 seed yang memuatnya. Dua ensemble 5
+    seed yang lepas sepakat 0,751/0,866/0,858 (`e221_split_half_control.csv`). Aturan 3 line 01 diberi catatan.
+  - **C084** — TGB − random di latar sendiri +0,0032/−0,0020 (`e217b_raw_results.csv`), jadi langkah TGB "tidak
+    terulang", bukan "artefak". Baris 369 "The rise is not real" dan baris 207 terlalu luas.
+  - **C085** — sensitivitas pra-registrasi E235 (−0,002 NOT SPECIFIC; +0,016) tidak dilaporkan. "Southern
+    Mountains" hanya benar untuk 400–1.000 m.
+  - **C082** — `git log`: E217/E219 tanpa DESIGN; DESIGN E218, E220–E223 masuk bersama hasil (`a433ab3`); hanya
+    E224 dan E235 yang desainnya lebih dulu.
+  - **C087** — 343/360 menggabungkan desain (hybrid 240/240; random 52/60; TGB 51/60).
+  - **C088** — tujuh butir kecil (29 replikat; metrik baris 428; 27/60; 0,768 vs 0,774; Gambar 5 XGB vs MaxEnt;
+    caption Gambar 4; E014 XGB saja).
+  - **C089** — pernyataan AI, kontribusi penulis, tiga makalah yang diringkas (PI perlu membacanya), persetujuan
+    Go Frendi.
+- Agenda diperluas: **§D** (opsi D1 rekomendasi: pra-registrasi E236, set bersih konservatif, uji ulang kontras
+  data riil lewat pembungkus `load_sites` E217; putuskan ±29 Okt agar beku 9 Nov bertahan) dan **§R** (R1–R12).
+- **Pelajaran:** temuan di satu line (C029, basis situs) harus diperiksa dampaknya ke semua makalah yang memakai
+  berkas yang sama, termasuk makalah yang sedang direvisi. "Diwarisi dari v0.2" bukan berarti sudah diaudit.
+  Gambar harus dibangun ulang tiap kali kosakata teks diganti.
+- Ledger berikutnya **C090**; nomor eksperimen bebas tetap **E236** (belum dipakai).

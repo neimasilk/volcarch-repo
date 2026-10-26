@@ -1,7 +1,40 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-22 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-10-26 · **This file is short by design. Keep it that way.**
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
+
+> ## ▶ 2026-10-26 (Mon) — P2 pre-freeze pass; **PI decisions: `papers/P2_settlement_model/AGENDA_PI_20261026.md`**
+> **Mailbox:** nothing from Nastiti, VEGAN, JCAA, OL or arXiv since 21 Oct.
+> **Drift fixed:** 22 Oct afternoon (session 3, session 4 parts 1–2, commits `c2d6343` and `9803f23`) was never
+> recorded in JOURNAL, WORKSTATE or STATE. In it, the abstract, conclusions, "strong gains" sentence and
+> acknowledgements were **drafted by Claude at the PI's request** (logged).
+> **Today, without changing the manuscript:**
+> - bibliography rebuilt; compile clean;
+> - G1 re-run, plus G1 on every new number (all match; two small notes);
+> - JCAA template check (alt text missing for six of seven figures; double quotes; competing-interests wording; two
+>   long headings);
+> - style-swap list;
+> - independent adversarial read.
+>
+> **🔴 The adversarial read, verified by Claude at every source:** v0.3 cannot be uploaded as it is, though the
+> method holds (ledger C081–C089).
+>
+> **Open for the PI, in order:**
+> - **D (C081)** — about 124 of P2's 378 "archaeological sites" are modern monuments, and 13 are misplaced or not
+>   sites (Borobudur and Prambanan in East Java, Besakih near Surabaya). C029 flagged the file on 1 Oct; P2 was never
+>   checked. Recommended **D1**: pre-register and run E236 (a cleaned set; re-run the real-data contrasts), decision
+>   by about 29 Oct. Otherwise downgrade.
+> - **AI (C089)** — the AI statement under JCAA's ghost-writing rule (on the page by 13 May 2026, per Wayback). About
+>   3,300 of the 4,400 words in Methods, Results and Discussion are v0.2 text drafted with Claude. Recommended
+>   **A + C**: a precise statement, plus a question to the editor this week. The draft is ready; under line 01 rule 5,
+>   nothing goes to the editor without the PI.
+> - **R2 (C086)** — Figures 2–4 still print R1's idioms.
+> - **Claims to narrow** — seed stability (C083), the TGB part of the "artefact" (C084), E235's sensitivity runs
+>   (C085), "pre-registered" (C082).
+> - **T / S** — mechanical fixes.
+>
+> Then: freeze ≤ 9 Nov (or ask for an extension by 6 Nov); upload ≤ 16 Nov. Ledger next **C090**.
+> **Handoff: `docs/HANDOFF_20261026.md`** (the 21 Oct one is in `docs/archive/handoffs/`). Nothing committed.
 
 > ## ✅ 2026-10-22 (Thu, 09:15–09:16) — B1 done: both follow-ups SENT, one day early (PI "Kirim sekarang")
 > Mailbox (incl. spam) at 09:06: nothing from Nastiti, VEGAN, JCAA, OL or arXiv. **23 Oct is a Friday** — the handoff's

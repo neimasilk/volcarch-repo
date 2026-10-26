@@ -156,6 +156,12 @@ Sources: S1 (fetched 2026-10-20) and S2 https://journal.caa-international.org/en
   (G16). Check the AI-use declaration wording against the "acceptable" and "unacceptable" lists above before submitting.
 - Precedent: article 196 (Part B8) carries a section titled "Declaration of Generative AI and AI-Assisted Technologies in the Writing
   Process" naming Claude for code checking.
+- **When the policy appeared (Wayback, checked 2026-10-26).** Snapshots of `journal.caa-international.org/about/editorialpolicies`:
+  1 Oct 2025 and 1 Mar 2026 hold only the reviewer rules on AI ("See our full AI policy"), with no author-side "Use of AI" section;
+  **13 May 2026 holds the same "Use of AI" section as the live page** (acceptable / unacceptable lists, "Ghost-writing", declaration on
+  submission, desk rejection on suspicion). So P2's first submission (11 Mar 2026) predates the section, and the round-1 resubmission
+  (11 Aug 2026), which declared AI use for "drafting and editing of this manuscript", came after it. The 13 May wording also lists
+  **"translating"** under acceptable language and style assistance. Snapshot files were read in the session scratchpad only.
 
 ## A6. Data, code, reproducibility, permissions
 
