@@ -3,8 +3,8 @@
 **Updated:** 2026-11-02 · **Temperature:** 🟢 WAITING — P2 round-2 revision **resubmitted to JCAA 2026-11-02** (was due 16 Nov); P17 withdrawn; P11 parked
 
 > ## ✅ 2 Nov ~10:35 WIB — **P2 ROUND 2 RESUBMITTED to JCAA** (files 10667–10669; PI pressed Complete; G12 lossless)
-> PI chose to upload before the editor's answer to the AI email. Open: the Review Discussion message (waiver + AI note +
-> abstract update) awaits the PI's "kirim"; then wait for the editor / reviewers. Next deadline: none from us.
+> PI chose to upload before the editor's answer to the AI email. Review Discussion message (waiver + AI note + abstract
+> update) **posted 10:41 WIB**. **Nothing due from us**; wait for the editor / reviewers.
 
 > ## 2 Nov (later) — upload pack ready; waiting on the PI, Go Frendi and the editor (PI: "selesaikan sampai submit")
 > - **PI decisions:** Claude drafts the response letter, the PI approves; wait for the editor's AI answer **until Mon

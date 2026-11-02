@@ -66,7 +66,7 @@ Rename the files in the portal dialog to plain names (e.g. "P2_revised_manuscrip
 - **Keywords** (6): presence-background modelling; pseudo-absence design; evaluation artefact; spatial cross-validation;
   survey bias; East Java
 
-## D. Comments to the Editor (PI approves the wording)
+## D. Comments to the Editor (PI approves the wording) — ✅ posted 2 Nov 10:41 WIB as a Review Discussion (the revision flow has no comments field), with a request to replace the abstract in the record
 
 > Following the editorial team's note of 20 October, we will apply for a publisher waiver of the APC if the paper is
 > accepted. The use of AI in preparing this revision is declared in full at the end of the manuscript, as described in

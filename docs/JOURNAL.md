@@ -11868,3 +11868,10 @@ sebelumnya: editor belum menjawab.
   halaman identik (60 dpi: 0 % piksel beda; halaman bergambar 200 dpi: beda maksimum 1/255). Lossless.
 - Alur revisi **tidak punya kolom Comments to the Editor**; pesan editor (waiver + catatan AI + permintaan ganti abstrak di
   record) disiapkan untuk Review Discussions seperti ronde 1 — **menunggu "kirim" PI** (aturan line 01 #5).
+- **10:41 WIB — pesan editor TERKIRIM** lewat Review Discussions (PI: "silahkan lakukan yg bisa dilakukan, kalau nunggu editor
+  dll, mari kita tunggu"): "Revised files uploaded (round 2): waiver, AI declaration and updated abstract", peserta Dr Cesar
+  Gonzalez-Perez (Journal editor) + Mukhlis Amien; isi = teks `UPLOAD_R2_CHECKLIST.md` §D (waiver saat diterima; deklarasi AI
+  lengkap; unggah tanpa menunggu jawaban 2 Nov; siap menulis ulang bila diminta) + permintaan mengganti abstrak di record
+  (judul tetap). Browser portal ditutup. Audit draf Gmail: email Go Frendi hanya di Sent, tak ada draf tertinggal.
+- **Tidak ada lagi pekerjaan JCAA dari pihak kita** sampai editor/reviewer menjawab. Yang ditunggu: jawaban editor atas email AI
+  2 Nov dan pesan diskusi; balasan tertulis Go Frendi (opsional, PI sudah melaporkan "ok"); keputusan ronde berikutnya.
