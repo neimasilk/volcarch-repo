@@ -2,7 +2,7 @@
 
 # ROUND 2 (revision v0.3) — 2026-11-02 — run by Claude; PI signs G16 and the decision
 
-**Decision: 🟡 CONDITIONAL GO** — upload once A1–A5 of `UPLOAD_R2_CHECKLIST.md` are ✅ (PI approves the letter; PI
+**✅ UPLOADED 2026-11-02 ~10:35 WIB** (PI: "Unggah sekarang", before the editor's answer). **Decision at upload: 🟢 GO** (was CONDITIONAL GO) — upload once A1–A5 of `UPLOAD_R2_CHECKLIST.md` are ✅ (PI approves the letter; PI
 reads the three line-156 papers; Go Frendi approves; editor's answer or 9 Nov; commit + push). No gate is RED.
 
 | Gate | State | Evidence |
@@ -19,7 +19,7 @@ reads the three line-156 papers; Go Frendi approves; editor's answer or 9 Nov; c
 | **G9** cross-model review | 🟢 | Adversarial read 26 Oct (C081–C089, all closed); independent read of the K1 passages 2 Nov; independent check of the response letter 2 Nov (see the line below when it returns) |
 | **G10** domain review | 🟢 PI 2 Nov: "sesuai rekomendasi" (method venue) | JCAA is treated as a **method** venue (line 01 contract: "computational archaeology"), where G10 is recommended, not required; two rounds of JCAA peer review have read the domain content. Route S step 1 done for the five domain claims under G2. Steps 2–3 (a venue-specialist AI read; a sentence in the manuscript saying no domain specialist read it) **not done**. If the PI classes JCAA as an archaeology venue, add that sentence before the freeze |
 | **G11** non-numeric claims | 🟢 | Causal wording on the artefact mechanism rests on E218/E222; the volcano/elevation reading downgraded to "cannot be separated" / "no direction" |
-| **G12** re-download | ☐ at upload | `UPLOAD_R2_CHECKLIST.md` §E |
+| **G12** re-download | 🟢 2 Nov | Server copies (10667–10669) rewritten to mPDF 8.3.1; pages, normalised text (SHA1) and renders identical (max pixel diff 1/255 at 200 dpi on figure pages) |
 | **G13** WIP | 🟢 | A revision of a manuscript already counted (P2 + P8 in review); no new submission |
 | **G14** rest | 🟢 (D2 option b) | PI chose (20 Oct) an independent adversarial read + G1 instead of a 14-day rest; done 26 Oct and 2 Nov. Freeze ≤ 9 Nov |
 | **G15** venue + zero cost | 🟡 PI exception | `VENUE.md` (G15 template); live rules re-checked 2 Nov (11,500 words incl. refs, abstract ≤ 300, APC £651, waiver via Comments to the Editor). Cost: **PI exception 2026-10-21** (waiver applied for on acceptance; otherwise funded by the PI) |

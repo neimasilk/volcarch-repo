@@ -44,7 +44,7 @@ for doing a line's work — enter the line for that.
 
 > ⚠ **The documented failure mode of this project is using orbit mode as an escape hatch:** step out
 > one level, find an interesting new topic, and don't send the email that is months overdue. 227
-> experiments, 0 final acceptances (1 conditional: P8, 2026-10-05; R1 in review since 2026-10-15; P2 in revision since 2026-10-19), 7 rejections. The binding constraint is **non-exposure, not rigor**
+> experiments, 0 final acceptances (1 conditional: P8, 2026-10-05; R1 in review since 2026-10-15; P2 round-2 revision resubmitted 2026-11-02), 7 rejections. The binding constraint is **non-exposure, not rigor**
 > (ME#19, memory `feedback_non_exposure`). This is why `WORKSTATE.md` opens with the exposure ledger
 > and not with `IDEA_REGISTRY.md`.
 

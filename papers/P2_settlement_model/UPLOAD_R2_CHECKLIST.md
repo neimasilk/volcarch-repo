@@ -1,5 +1,10 @@
 # P2 / JCAA #280 — round-2 upload checklist (prepared 2026-11-02)
 
+> ✅ **UPLOADED 2026-11-02 ~10:35 WIB** (files 10667 manuscript, 10668 supplement, 10669 response; the PI pressed Complete;
+> status "Submission has been resubmitted for another review round"). **G12 passed**: server copies rewritten to mPDF 8.3.1
+> (all three this time), same page counts, identical text (SHA1 of normalised text equal), pixel-identical renders (max
+> difference 1/255 on every figure page at 200 dpi). The PI chose to upload before the editor's answer ("Unggah sekarang").
+
 **When:** as soon as the editor answers the 2 Nov AI email and the answer allows the declaration as written; **if no
 answer by Mon 9 Nov, upload anyway** (PI decision 2 Nov). If the editor asks for author-rewritten sections: do not upload;
 ask for an extension the same day. **Deadline 16 Nov.**
@@ -12,12 +17,12 @@ ask for an extension the same day. **Deadline 16 Nov.**
 | A1 | PI approved the Response to Reviewers (`response_to_reviewers_r2.pdf`) | ✅ 2 Nov ("setuju") |
 | A2 | PI read the three papers (`READING_PACK_LINE156_20261102.md`) and the line-156 sentence matches | ✅ 2 Nov ("sudah baca, sesuai") |
 | A3 | Go Frendi replied "setuju" (and confirmed his contribution sentence) | ✅ 2 Nov — the PI reports "pak go sudah ok"; the approval email with the three PDFs was sent 10:23 for a written record |
-| A4 | Editor's answer read, or 9 Nov reached | ☐ |
-| A5 | Commit + push to GitHub (the Data Availability statement points to the repository: E236 code, `clean_sites.py`, the ten-seed extension must be public before the upload) | ☐ |
-| A6 | Re-run on the frozen file: `revision_ammo/verify_k1_numbers.py` (39/39), `revision_ammo/verify_headline_numbers.py` (4 known withdrawn), `tools/check_doc_sync.py` | ☐ |
-| A7 | Recompile manuscript, supplement, letter; 0 undefined refs; length ≤ 11,500 (11,234 on 2 Nov after C092, whole-PDF method) | ☐ |
-| A8 | `SIG_signoff.md` round-2 block: no RED | ☐ |
-| A9 | Live journal pages re-checked on the day (rules last checked 2 Nov: 11,500 words incl. references; abstract ≤ 300; APC £651; waiver via Comments to the Editor; AI policy unchanged) | ☐ |
+| A4 | Editor's answer read, or 9 Nov reached | ✅ waived by the PI 2 Nov ("Unggah sekarang"); the editor had not answered |
+| A5 | Commit + push to GitHub (the Data Availability statement points to the repository: E236 code, `clean_sites.py`, the ten-seed extension must be public before the upload) | ✅ `31a4e89` pushed 2 Nov |
+| A6 | Re-run on the frozen file: `revision_ammo/verify_k1_numbers.py` (39/39), `revision_ammo/verify_headline_numbers.py` (4 known withdrawn), `tools/check_doc_sync.py` | ✅ 39/39; 4 known |
+| A7 | Recompile manuscript, supplement, letter; 0 undefined refs; length ≤ 11,500 (11,234 on 2 Nov after C092, whole-PDF method) | ✅ 0 undefined; 11,234 |
+| A8 | `SIG_signoff.md` round-2 block: no RED | ✅ CONDITIONAL GO, no RED |
+| A9 | Live journal pages re-checked on the day (rules last checked 2 Nov: 11,500 words incl. references; abstract ≤ 300; APC £651; waiver via Comments to the Editor; AI policy unchanged) | ✅ checked 2 Nov (same day) |
 
 ## B. Files (same three components as round 1; portal: Revisions → Upload File → choose component)
 
@@ -65,7 +70,11 @@ Rename the files in the portal dialog to plain names (e.g. "P2_revised_manuscrip
 
 > Following the editorial team's note of 20 October, we will apply for a publisher waiver of the APC if the paper is
 > accepted. The use of AI in preparing this revision is declared in full at the end of the manuscript, as described in
-> our message of 2 November.
+> our message of 2 November. We have uploaded the revision without waiting for your answer to that message; if the
+> editorial team considers that those sections should be written by the authors themselves, we will do so.
+
+(Third and fourth sentences added 2 Nov after the PI chose to upload at once, before the editor's answer: "Unggah
+sekarang".)
 
 (The journal's checklist says a waiver request "must be made at the time of submission via the Comments to the
 Editor"; the 11 March submission already did so. This sentence keeps the request on record for the revision.)

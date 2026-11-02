@@ -1,8 +1,12 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-11-02 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+**Updated:** 2026-11-02 · **Temperature:** 🟢 WAITING — P2 round-2 revision **resubmitted to JCAA 2026-11-02** (was due 16 Nov); P17 withdrawn; P11 parked
 
-> ## 2 Nov (later) — **upload pack ready; waiting on the PI, Go Frendi and the editor** (PI: "selesaikan sampai submit")
+> ## ✅ 2 Nov ~10:35 WIB — **P2 ROUND 2 RESUBMITTED to JCAA** (files 10667–10669; PI pressed Complete; G12 lossless)
+> PI chose to upload before the editor's answer to the AI email. Open: the Review Discussion message (waiver + AI note +
+> abstract update) awaits the PI's "kirim"; then wait for the editor / reviewers. Next deadline: none from us.
+
+> ## 2 Nov (later) — upload pack ready; waiting on the PI, Go Frendi and the editor (PI: "selesaikan sampai submit")
 > - **PI decisions:** Claude drafts the response letter, the PI approves; wait for the editor's AI answer **until Mon
 >   9 Nov**, then upload regardless (extension the same day if the editor wants author-rewritten sections); the PI reads
 >   `READING_PACK_LINE156_20261102.md`; Claude emails Go Frendi from the PI's account after he reads the text.

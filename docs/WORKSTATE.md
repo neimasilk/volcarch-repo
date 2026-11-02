@@ -2,7 +2,11 @@
 
 **Updated:** 2026-11-02 · **This file is short by design. Keep it that way.**
 
-> ## ▶▶ 2026-11-02 (later) — P2/JCAA **upload pack ready**; waiting on the PI (letter + reading), Go Frendi and the editor
+> ## ✅ 2026-11-02 ~10:35 WIB — **P2/JCAA round 2 RESUBMITTED** (10667 manuscript, 10668 supplement, 10669 response; G12 lossless).
+> PI chose to upload before the editor's answer. Open: Review Discussion message to the editor (waiver, AI note, abstract
+> update) awaits the PI's "kirim". G13: P2 + P8 both in review. Calendar: 5 Nov P23 route S, 6 Nov fallbacks, 15 Nov K6.
+
+> ## ▶▶ 2026-11-02 (later) — P2/JCAA upload pack ready; waiting on the PI (letter + reading), Go Frendi and the editor
 > PI: "selesaikan sampai submit". Decisions (all defaults): Claude drafts the response letter, the PI approves; **upload
 > after the editor's AI answer or on Mon 9 Nov regardless**; the PI reads `READING_PACK_LINE156_20261102.md`; Claude
 > emails Go Frendi after the PI reads the text. **Mailbox 2 Nov:** no answer from the editor yet.

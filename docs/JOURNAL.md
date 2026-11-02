@@ -11853,3 +11853,18 @@ rekomendasi, 6. mari kita lakukan". Dicatat: surat tanggapan **disetujui**; tiga
 (C089 butir "papers not read" tertutup); Go Frendi **sudah ok** menurut PI; email persetujuan + tiga PDF **terkirim 10:23** ke
 gofrendiasgard@gmail.com sebagai catatan tertulis; G10 = jurnal metode (rekomendasi), G16 ditandatangani PI. Commit + push
 diizinkan.
+
+## 2026-11-02 (±10:35 WIB) — ✅ P2 / JCAA #280 RONDE 2 DIUNGGAH
+
+PI: "6. mari kita lakukan" → ditanya ulang karena bertentangan dengan rencana "tunggu editor sampai 9 Nov" dan dengan isi email
+AI kita sendiri ("we would rather know now … before resubmitting"); **PI memilih "Unggah sekarang"**. Kotak surat dicek tepat
+sebelumnya: editor belum menjawab.
+- PI login sendiri ke portal (browser Playwright MCP); Claude mengunggah di Review → Round 2 → Revisions: **10667** "Manuscript
+  revised round 2" (Manuscript), **10668** "Supplementary Tables S1-S9 round 2" (Supplementary file, for review), **10669**
+  "Response to Reviewers round 2" (Response to reviewers). Gambar tidak diunggah terpisah (sama seperti ronde 1; tertanam di PDF).
+  **PI menekan Complete sendiri.** Status: "Submission has been resubmitted for another review round."
+- **G12:** ketiga berkas diunduh kembali lewat sesi portal (HTTP 200). Portal menulis ulang **ketiganya** ke mPDF 8.3.1 (ronde 1:
+  hanya naskah + suplemen). Jumlah halaman sama (37/8/6), teks setelah normalisasi spasi identik (SHA1 sama), render semua
+  halaman identik (60 dpi: 0 % piksel beda; halaman bergambar 200 dpi: beda maksimum 1/255). Lossless.
+- Alur revisi **tidak punya kolom Comments to the Editor**; pesan editor (waiver + catatan AI + permintaan ganti abstrak di
+  record) disiapkan untuk Review Discussions seperti ronde 1 — **menunggu "kirim" PI** (aturan line 01 #5).
