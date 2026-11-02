@@ -67,11 +67,30 @@ def centres_utm():
 
 
 def sites_utm(extent):
-    import geopandas as gpd
-    s = gpd.read_file(DATA / "east_java_sites.geojson")
-    s = s[s.geometry.notna() & ~s.geometry.is_empty]
-    s = s.cx[111:115, -9:-6.5].to_crs(UTM)       # same selection as the submitted Figure 1
-    return s.geometry.x.to_numpy(), s.geometry.y.to_numpy()
+    """The 378 presences the models use, and which of them are in E236's cleaned subset (161).
+
+    Changed 2026-11-02 (ledger C091): the map used to plot every in-bounds row (383, five of which never reach a model)
+    under the label 'archaeological presences', although Section 2.1 now says about a third of the records are not
+    sites. The selection below is E217's (study-area clip, valid covariates, elevation > 0), the cleaning rule is
+    E236's frozen one, applied through the same function the experiment used.
+    """
+    def _load(name, path):
+        sp = importlib.util.spec_from_file_location(name, path)
+        mod = importlib.util.module_from_spec(sp); sp.loader.exec_module(mod)
+        return mod
+    m = _load("e217_fig1", EXP / "E217_maxent_benchmark" / "01_maxent_benchmark.py")
+    cs = _load("e236_clean_fig1", EXP / "E236_p2_presence_sensitivity" / "clean_sites.py")
+    s = m.load_sites()
+    xy = np.column_stack([s.geometry.x, s.geometry.y])
+    feat = pd.DataFrame({c: m.sample_at_points(m.DEM_DIR / m.RASTER_FILES[c], xy) for c in m.FULL_COLS})
+    s = s.reset_index(drop=True)
+    for c in m.FULL_COLS:
+        s[c] = feat[c].values
+    s = s.dropna(subset=m.FULL_COLS)
+    s = s[s["elevation"] > 0].reset_index(drop=True).to_crs(UTM)
+    kept = s.index.isin(cs.clean(s).index)
+    assert len(s) == 378 and kept.sum() == 161, (len(s), int(kept.sum()))
+    return s.geometry.x.to_numpy(), s.geometry.y.to_numpy(), kept
 
 
 def graticule(ax, extent, lons=np.arange(111.0, 115.01, 0.5), lats=np.arange(-9.0, -6.49, 0.5)):
@@ -150,8 +169,9 @@ def fig_study_area() -> Path:
     ax.contour(GX, GY, dist, levels=[ZONE_V_KM], colors="#8b1a1a", linewidths=1.0, zorder=4)
     ax.contour(GX, GY, dist, levels=[ZONE_N_KM], colors="#1f3f7a", linewidths=1.0, linestyles="--", zorder=4)
 
-    sx, sy = sites_utm(extent)
-    ax.scatter(sx, sy, s=9, c="black", edgecolors="white", linewidths=0.4, zorder=6)
+    sx, sy, kept = sites_utm(extent)
+    ax.scatter(sx[~kept], sy[~kept], s=9, facecolors="white", edgecolors="0.15", linewidths=0.6, zorder=6)
+    ax.scatter(sx[kept], sy[kept], s=9, c="black", edgecolors="white", linewidths=0.4, zorder=6)
     ax.scatter(v13.x, v13.y, s=58, marker="^", c=v02.VOLC_COL, edgecolors="black", linewidths=0.6, zorder=7)
     for _, r in v13.iterrows():
         dx, dy = LABEL_OFFSET.get(r["name"], (6, 6))
@@ -177,7 +197,9 @@ def fig_study_area() -> Path:
 
     handles = [
         Line2D([0], [0], marker="o", color="none", markerfacecolor="black", markeredgecolor="white", markersize=5,
-               label="archaeological presences"),
+               label=f"cleaned sites ({int(kept.sum())})"),
+        Line2D([0], [0], marker="o", color="none", markerfacecolor="white", markeredgecolor="0.15", markersize=4.5,
+               label=f"other compiled records ({int((~kept).sum())})"),
         Line2D([0], [0], marker="^", color="none", markerfacecolor=v02.VOLC_COL, markeredgecolor="black",
                markersize=7, label="volcanic centres (13 in bounds)"),
         Line2D([0], [0], color="#8b1a1a", lw=1.0, label=f"{ZONE_V_KM:.0f} km from a volcanic centre"),
@@ -216,7 +238,7 @@ def fig_priority_map() -> Path:
     ax.imshow(np.ma.masked_invalid(grid), extent=gext, origin="upper", cmap=cmap, vmin=-0.5, vmax=3.5,
               interpolation="nearest", zorder=2)
     coastline(ax, dem, extent)
-    sx, sy = sites_utm(extent)
+    sx, sy, _ = sites_utm(extent)            # the 378 records E221's models were trained on (C091)
     ax.scatter(sx, sy, s=7, c=v02.INK, alpha=0.6, linewidths=0, zorder=5)
     _, v13 = centres_utm()
     ax.scatter(v13.x, v13.y, s=50, marker="^", c=v02.VOLC_COL, edgecolors="black", linewidths=0.6, zorder=6)
@@ -228,7 +250,7 @@ def fig_priority_map() -> Path:
         Patch(facecolor=v02.BLUE_MID, label="top decile under 2 designs"),
         Patch(facecolor=v02.BLUE_LIGHT, label="contingent fringe: top decile under 1 design"),
         Patch(facecolor=v02.NONE_GRAY, label="not top decile under any design"),
-        Line2D([0], [0], marker="o", color="none", markerfacecolor=v02.INK, markersize=5, label="known sites"),
+        Line2D([0], [0], marker="o", color="none", markerfacecolor=v02.INK, markersize=5, label="presence records (378)"),
         Line2D([0], [0], marker="^", color="none", markerfacecolor=v02.VOLC_COL, markeredgecolor="black",
                markersize=7, label="volcanic centres"),
     ]

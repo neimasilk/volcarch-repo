@@ -11719,3 +11719,137 @@ PI: "ok, perbaiki". Claude mengartikannya sebagai persetujuan rekomendasi agenda
 - Kanari: 228 (E236 dipetakan ke line 01 di `tools/scan_experiments.py`; indeks dibangun ulang; hitungan di
   WORKSTATE, manifesto, `lines/README.md`, kontrak line 01). Ledger C081–C089 diperbarui statusnya; berikutnya
   **C090**; nomor bebas **E237**.
+
+## 2026-11-02 (Senin) — keputusan K1 diambil; Tabel S9 dibangun; ekstensi 10 seed untuk klaim set bersih
+
+**Mode:** orbit (repo root). **Kanari 228 hijau**; nomor bebas **E237**; ledger berikutnya **C090**.
+**Kotak surat** (`gmail_check.py list "after:2026/10/26"`, 48 baris): tidak ada balasan dari Nastiti, VEGAN,
+JCAA, OL atau arXiv sejak 26 Okt. Kalender tetap: 5 Nov route S P23, 6 Nov fallback, 9 Nov beku, 16 Nov unggah.
+
+**Keputusan PI hari ini (tiga, dijawab langsung):**
+1. **K = K1** — laporkan kedua set; klaim inti = yang berlaku di keduanya.
+2. **Penulis teks K1 = PI, langsung dalam bahasa Inggris** (bukan terjemahan dari bahasa Indonesia).
+3. **Email AI ke editor (item C) = Claude mengirim** setelah PI membaca teksnya. Draf siap di
+   `papers/P2_settlement_model/EMAIL_EDITOR_AI_20261102.txt`; **belum dikirim** (menunggu "kirim").
+
+**Yang dikerjakan tanpa PI:**
+- **`K1_WRITING_PACK.md`** — enam tempat menulis (Methods 2.1, §3.2, subsection baru §3.3, §4.1, Conclusions,
+  Limitations), semua angka + sumber, daftar kalimat yang tidak boleh bertahan, dan catatan bahwa klaim tangga
+  (E007–E013 di berkas penuh) **tidak** ikut gugur — yang gugur adalah generalisasinya.
+- **Tabel S9** (`build_e236_table.py` → `supplement/e236_table_v03.tex`), dimasukkan ke `build_supplement.py v0.3`;
+  suplemen 9 tabel, kompilasi bersih. `\label{tab:e236compare}`.
+- **CI untuk angka K1** (`experiments/E236_p2_presence_sensitivity/ci_check.py`, data tersimpan saja):
+  set terkompilasi −0.0142 [−0.021, −0.005]; set bersih +0.0507 [+0.036, +0.067] (bootstrap antar-seed, 5 seed).
+- **Ekstensi 10 seed** (dideklarasikan lebih dulu: `EXTENSION_SEEDS_20261102.md`; dijalankan oleh
+  `02_seed_extension.py` ke `results/A_seeds10/`, hasil pra-registrasi tidak disentuh):
+  **+0.0510 [+0.039, +0.063]**, 29/30 sel positif, 10/10 rata-rata seed positif; dua paruh lima seed yang
+  **disjoint** (0–4 vs 5–9) sepakat di +0.0505 / +0.0516. Di latar sendiri +0.098, jadi inflasi set bersih +0.047.
+  Ini memenuhi aturan line 01 #3 (≥7 seed) untuk angka yang masuk abstrak, dan memberi bentuk pemeriksaan yang
+  adil (C083), bukan sekadar jumlah seed.
+- `tools_count_abstract.py`: abstrak **303 kata** di sumber (305 di PDF), batas 300.
+- `RESPONSE_R2_SKELETON.md`: butir "perubahan yang tidak diminta reviewer" diperbarui ke K1 + Tabel S9.
+
+**Perubahan yang harus diberitahukan ke PI (sudah dikatakan di sesi):** klausa pernyataan AI (baris 654) —
+"in Indonesian and translated" tidak lagi benar untuk teks K1; usul: "some in Indonesian and translated into
+English with Claude and some directly in English". Hal yang sama di email editor.
+
+**Menunggu:** (a) teks K1 dari PI; (b) "kirim" untuk email editor; (c) ya/tidak klausa AI.
+**Commit:** belum (menunggu kata PI).
+
+**Lanjutan, sesi yang sama (2 Nov):**
+- **Email AI ke editor TERKIRIM** 2026-11-02, balasan di thread 20 Okt ke Dr César González-Pérez
+  (`cesar.gonzalez-perez@incipit.csic.es`; skrip menolak kirim ke `journal@` karena bukan penerima balasan).
+  Thread 2 → 3 pesan. Teks: `papers/P2_settlement_model/EMAIL_EDITOR_AI_20261102.txt`. Isinya menyatakan
+  terus terang bahwa Methods/Results/Discussion versi lama dihasilkan dengan Claude lalu direvisi penulis, dan
+  bahwa pernyataan ulang abstrak/kesimpulan/bagian yang terdampak didraf Claude atas permintaan penulis pertama —
+  lalu meminta editor memberi tahu kalau bagian itu harus ditulis ulang oleh penulis.
+- **Teks K1 ditulis Claude** (PI: "kamu saja yg menuliskan … karena saya tidak paham bahasa aslinya"), diterapkan
+  lewat `apply_session6_k1.py` (dry run dulu; 15 suntingan; dicatat di `PI_PROSE_LOG_R2.md` "Session 6"):
+  abstrak ditulis ulang (**277 kata**), Methods 2.1 (catatan terkompilasi + aturan pembersihan 378→161),
+  **§3.3 baru** "The presence records and a cleaned subset", §3.2 dan §4.1 dibatasi ke set terkompilasi,
+  kesimpulan dua-set, dua butir limitasi baru, klausa pernyataan AI, Tabel S9 dan E236 di back matter.
+  Pernyataan AI kini: "…the restatements of the abstract, the conclusions and the affected parts of the Results and
+  Discussion were drafted with Claude at the first author's request and then checked and approved by the author."
+- **G1 untuk angka baru:** `revision_ammo/verify_k1_numbers.py` — **39 cek, 0 gagal**, semuanya diturunkan ulang
+  dari `summary_{full,clean}.json`, `results/A_seeds10/` dan dua berkas E217b. `verify_headline_numbers.py` tetap
+  membarui 4 ketidakcocokan lama (klaim yang sudah ditarik) — tidak ada yang bergeser.
+- **Kompilasi:** bersih, **37 hlm.**, tanpa referensi tak terdefinisi; suplemen dirujuk sebagai "Table S9" (bukan
+  `\ref`, karena dokumen terpisah). Satu overfull 0.6 pt (Tabel 1) sudah ada sejak sebelumnya.
+- **Pembacaan independen** (agen terpisah, tanpa diberi kesimpulan Claude) selesai sesi ini: **tidak ada
+  ketidakcocokan angka** — semua nilai terulang dari berkas mentah. Empat koreksi presisi diterapkan (V1–V4,
+  `PI_PROSE_LOG_R2.md` "Session 6, after the independent read"): "within 0.001" → nilai persisnya (selisih 0,0011);
+  "none on the compiled records" → "−0.014"; hitungan fringe diberi nama algoritmanya (XGB 5, RF 15, MaxEnt 5);
+  rentang Jaccard di abstrak dan Tabel 1 diberi setnya. Abstrak **282 kata**; kompilasi bersih, 37 hlm.
+  **Satu butir ditinggalkan untuk PI:** ucapan terima kasih menyebut "the editor and the anonymous reviewers" —
+  konvensional, tetapi satu-satunya sisa jejak review di berkas.
+- **Yang masih menunggu PI:** balasan untuk surat tanggapan (PI yang menulis), pembacaan PDF beku, dan Go Frendi.
+- **Commit:** belum.
+
+## 2026-11-02 (Senin, sesi berikutnya) — P2/JCAA: persiapan unggah ronde 2 (PI: "baca handoff, mari kita selesaikan sampai submit dan tidak ada pekerjaan lagi di jcaa")
+
+**Mode:** orbit, root. Kanari hijau 228. inBox kosong. **Kotak surat (`gmail_check.py list "after:2026/11/01"`):** hanya
+email AI kita sendiri (2 Nov 09:19); **editor belum menjawab.**
+
+**Keputusan PI (sesi ini, semua opsi rekomendasi):** (1) **surat tanggapan didraf Claude, PI menyetujui**; (2) tunggu
+jawaban editor **sampai Senin 9 Nov**, lalu unggah apa pun jawabannya (kalau editor minta bagian ditulis ulang penulis →
+minta perpanjangan hari itu juga); (3) PI membaca **paket kutipan** tiga makalah baris 156; (4) **Claude mengirim email ke
+Go Frendi** dari akun PI setelah PI membaca teksnya.
+
+**Ditemukan dan diperbaiki (diberitahukan ke PI sebelum diterapkan; ledger C091; log `PI_PROSE_LOG_R2.md` sesi 7, P1–P7):**
+- Data Availability menyebut "BPCB Jawa Timur publications" sebagai sumber — **0 dari 666 baris** dari BPCB; Wikidata
+  ditulis CC BY-SA (sebenarnya CC0). Methods 2.1 melewatkan 14 baris Wikipedia (en). Hitungan diturunkan ulang lewat filter
+  E217: 378 = 279 OSM + 71 Wikipedia (id) + 14 Wikipedia (en) + 14 Wikidata; bersih 161 = 155 OSM + 6 Wikidata.
+- **Gambar 1** memplot 383 baris dalam batas (5 tak pernah masuk model) berlabel "archaeological presences" → kini 378
+  presensi model, 161 situs bersih (terisi) vs 217 rekaman lain (kosong); assert 378/161 di `build_v03_figures.py`.
+  **Gambar 5** memakai loader yang sama, label "presence records (378)".
+- §3.5 "A pre-registered prediction" (E222) bertentangan dengan §2.6 (desain E222 masuk git bersama hasilnya) → "A
+  prediction in the written design of E222".
+- **G2:** §4.4 menyebut kantor "Balai Pelestarian Cagar Budaya, BPCB" — sejak Permendikbudristek 33/2022 menjadi **Balai
+  Pelestarian Kebudayaan Wilayah XI** untuk Jawa Timur (dicek lewat pencarian web: situs bpkw11 kini menampung dokumen BPCB
+  Jatim; laporan 2024–25 menyebut BPK Wilayah XI untuk Trowulan; klausul pencabutan aturan 2020 tidak dibaca).
+- §4.4 rasio kepadatan inti/fringe "1.9–5.6×" kini diberi set: 1,9–5,6× (terkompilasi), 2,5–8,5× (bersih).
+
+**Dibuat:**
+- `READING_PACK_LINE156_20261102.md` — kutipan verbatim dari sumber (diambil ulang hari ini): Castiello & Tonini 2021 (teks
+  penuh JCAA, AUC 0,71/0,72 "acceptable"/"fair"), Wang, Shi & Oguchi 2023 (teks penuh MDPI; rata-rata AUC uji dihitung ulang
+  dari empat fold, cocok), Comer dkk. 2023 (highlights + abstrak ScienceDirect; kalimat naskah hanya memakai isi abstrak).
+- **`response_to_reviewers_r2.tex/.pdf`** (5 hlm.) — draf Claude; "Changes not requested" di depan (data presensi + K1,
+  lalu koreksi lain), lalu R1-1…R1-9, R2-1, R2-2. Komentar reviewer **diringkas**, bukan dikutip (repo publik). Setiap
+  pernyataan dilacak ke v0.3; enam pernyataan dipersempit setelah dicek ke v0.2/v0.3 sendiri.
+- `EMAIL_GOFRENDI_APPROVAL_20261102.txt` — draf, **belum dikirim** (PI membaca dulu).
+- `UPLOAD_R2_CHECKLIST.md` — prasyarat A1–A9, tiga komponen (seperti ronde 1), abstrak teks polos (cocok kata demi kata
+  dengan .tex, 282), kata kunci, kalimat waiver untuk Comments to the Editor, langkah G12.
+- `SIG_signoff.md` — blok ronde 2: **CONDITIONAL GO**, tidak ada RED; G7 hijau setelah push; G10/G15/G16 kuning (keputusan
+  atau tanda tangan PI).
+- Halaman jurnal dicek ulang hari ini (salinan 20 Okt ternyata hanya di scratchpad lama, jadi tak bisa di-diff): 11.500 kata
+  termasuk referensi, abstrak ≤ 300, APC £651, waiver lewat Comments to the Editor, kebijakan AI tak berubah.
+
+**Angka:** `verify_k1_numbers.py` 39/39; `verify_headline_numbers.py` 64 cek, 4 ketidakcocokan lama (klaim yang ditarik).
+Kompilasi bersih, 37 hlm., 0 referensi tak terdefinisi. Panjang (metode v0.2, seluruh PDF tanpa nomor baris): **11.172**
+(batas "normally under 11,500 … include referencing"). Abstrak 282.
+
+**Belum commit** (menunggu "ok" PI). Dicoba dan gagal: diff halaman jurnal terhadap salinan 20 Okt (salinan tak ada di repo).
+
+**Lanjutan (2 Nov, sore): pembacaan independen surat tanggapan** (agen Sonnet terpisah, diberi berkas, bukan kesimpulan).
+±40 dari 50 pernyataan BENAR; semua rujukan bagian/tabel/gambar tepat. **Setiap temuan dicek ulang oleh Claude di berkasnya
+sebelum ditindaklanjuti** — semuanya terbukti. Ledger **C092**; log `PI_PROSE_LOG_R2.md` P8–P14:
+- naskah §3.3 "No design shows a volcano-specific effect in either set" bertentangan dengan §3.10 (hybrid SPECIFIC di kedua set,
+  dicek di `summary_{full,clean}.json`) → diganti; label sensitivitas bertukar antar-set kini dinyatakan;
+- §1.3 + judul §3.2 masih menyebut seluruh kenaikan desain "evaluation artefact" (sisa C084) → "does not survive a common
+  evaluation background", langkah TGB "not reproduced";
+- §2.1 kini memberi hitungan aturan pembersihan: 85 baris geokode-nama (semua baris Wikipedia) + 124 monumen + 8 lain → 161
+  (deduplikasi tak membuang lagi); jadi 217 dari 378 dibuang, bukan hanya ⅓;
+- §3.10 angka sensitivitas diberi nama desain (random); lima judul referensi diseragamkan (huruf kecil setelah titik dua;
+  diff = 5 baris); suplemen §3.9→§3.10, §3.5→§3.6 (diff = 2 baris).
+- Surat ditulis ulang (6 hlm.): E217/E219 tanpa desain tertulis (sebelumnya salah); "in line with the journal's policy"
+  dihapus; R1-1 dipersempit (Ucapan terima kasih + Declaration of AI Use masih menyebut riwayat, wajar); ekstensi sepuluh seed
+  dinyatakan sebagai perluasan setelah run pra-registrasi, interval atas seed; perubahan 0,62 (C080), Test 3, kontribusi penulis
+  dan penghapusan kontrol terrain-matched lama (n = 2) kini diungkap; R2-1 menyebut hybrid SPECIFIC dan XGBoost.
+**Cek akhir:** 39/39; headline 4 lama; naskah 37 hlm., suplemen 8 hlm., surat 6 hlm., 0 referensi tak terdefinisi; abstrak 282;
+panjang 11.234 (metode seluruh-PDF). Ledger berikut **C093**. Belum commit.
+
+**Lanjutan (2 Nov, ±10:20) — PI:** "pak go sudah ok, 1. setuju, 2. sudah baca, sesuai, 3. kirim, 4. ok, silahkan sesuai
+rekomendasi, 6. mari kita lakukan". Dicatat: surat tanggapan **disetujui**; tiga makalah baris 156 **sudah dibaca PI, sesuai**
+(C089 butir "papers not read" tertutup); Go Frendi **sudah ok** menurut PI; email persetujuan + tiga PDF **terkirim 10:23** ke
+gofrendiasgard@gmail.com sebagai catatan tertulis; G10 = jurnal metode (rekomendasi), G16 ditandatangani PI. Commit + push
+diizinkan.

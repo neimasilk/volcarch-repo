@@ -1,0 +1,20 @@
+Mas Go Frendi,
+
+Revisi kedua paper P2 untuk JCAA (submission #280, "An Evaluation Artefact in Presence–Background Archaeological Modelling") sudah selesai dan akan saya unggah paling lambat 16 November. Sebelum itu saya perlu persetujuan Mas sebagai penulis kedua, karena naskah menyatakan "Both authors read and approved the final manuscript."
+
+Terlampir tiga berkas: naskah (37 halaman), tabel suplemen (S1–S9), dan surat tanggapan untuk reviewer.
+
+Perubahan terbesar dibanding versi Agustus:
+1. Sekitar sepertiga dari 378 titik presensi ternyata monumen modern atau salah lokasi. Kami mengulang analisis pada 161 situs yang sudah dibersihkan. Pada data bersih, desain background ternyata memberi kenaikan nyata (+0,051 AUC, sepuluh seed), padahal pada 378 titik hasilnya −0,014. Jadi klaim utama sekarang: evaluasi pada background sendiri membesar-besarkan kenaikan sekitar +0,04 sampai +0,05, dan hanya background evaluasi bersama yang menunjukkan berapa kenaikan yang nyata. Lihat Bagian 2.1, 3.3 dan Tabel S9.
+2. Analisis baru untuk Reviewer 2 (vulkanik vs ketinggian, Bagian 3.10): di atas sekitar 1.000 m keduanya tidak bisa dipisahkan di Jawa Timur.
+3. Pernyataan penggunaan AI diperbarui dan dibuat lengkap (di akhir naskah), termasuk bahwa sebagian teks ditulis dengan bantuan Claude. Hal yang sama sudah saya sampaikan ke editor lewat email tanggal 2 November.
+
+Mohon dua hal:
+1. Baca naskahnya, lalu balas "setuju" atau kirim catatan Mas, paling lambat Sabtu, 7 November.
+2. Cek kalimat kontribusi Mas di bagian Authors' Contributions: "G.F.G. contributed to methodology refinement, code review, and manuscript editing." Kalau kurang tepat, mohon dikoreksi.
+
+Kalau ada perubahan lagi sebelum unggah, itu hanya perbaikan kecil dan akan saya kabarkan.
+
+Hormat saya,
+Mukhlis Amien
+Universitas Bhinneka Nusantara

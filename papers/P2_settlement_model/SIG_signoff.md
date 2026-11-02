@@ -1,5 +1,37 @@
 # SIG sign-off — P2 / JCAA #280 revision v0.2
 
+# ROUND 2 (revision v0.3) — 2026-11-02 — run by Claude; PI signs G16 and the decision
+
+**Decision: 🟡 CONDITIONAL GO** — upload once A1–A5 of `UPLOAD_R2_CHECKLIST.md` are ✅ (PI approves the letter; PI
+reads the three line-156 papers; Go Frendi approves; editor's answer or 9 Nov; commit + push). No gate is RED.
+
+| Gate | State | Evidence |
+|---|---|---|
+| **G1** re-derivation | 🟢 | `verify_k1_numbers.py` 39/39; `verify_headline_numbers.py` 64 checks, the same 4 known mismatches (all withdrawn claims K5/K6/K7/INT-1, none printed); independent reads 26 Oct (adversarial, whole text) and 2 Nov (changed passages): no numeric mismatch |
+| **G1-bis** units / direction / uploaded file | 🟢 (file check at upload) | Units: 378 rows = 335 coordinates; sources 279 OSM / 71 id-Wikipedia / 14 en-Wikipedia / 14 Wikidata; ~⅓ not sites (C081) → E236 cleaned set (161) reported beside the compiled set (K1). C091: source text, licences, Figures 1 and 5 now match the data. Direction: redesign −0.014 compiled vs +0.051 cleaned stated with signs. Uploaded-file check = G12 after upload |
+| **G2** domain sanity | 🟢 | (1) Borobudur/Prambanan/Mendut/Sewu/Kalasan/Plaosan are Central Javanese, Besakih Balinese → removed by the cleaning rule. (2) Southern Mountains = Eocene–Miocene arc (Smyth 2008) → stated, "not non-volcanic". (3) East Java's record is dominated by the 8th–15th c. Hindu–Buddhist period (Singhasari, Majapahit, Brantas valley) → standard. (4) Heritage office: BPCB became Balai Pelestarian Kebudayaan Wilayah XI in 2022 (Permendikbudristek 33/2022) → **fixed 2 Nov** (P6). (5) Penanggungan, Arjuno-Welirang, Kelud etc. are Quaternary centres in the canonical 30-volcano file → yes |
+| **G3** canonical data | 🟢 | `volcanoes_java_full.csv` (30; 13 in bounds); presences `east_java_sites.geojson` through E217's loader; cleaned set through E236's frozen `clean_sites.py` |
+| **G4** circularity | 🟢 | Robust-core density uses the training sites → stated as "spatial consistency, not independent validation" (§3.8) |
+| **G5** equifinality | 🟢 | TGB null reported as unexplained (E224 failed); elevation vs volcanic not separable above ~1,000 m (E235) and no direction claimed below |
+| **G6** counter-evidence | 🟢 | E236's failed claim A (+0.051 on cleaned sites) is in the abstract, §3.3 and the Conclusions |
+| **G7** reproducibility | 🟡 → 🟢 after push | Figures `build_v03_figures.py`, `build_v03_figures_r2.py`; supplement `build_supplement.py v0.3` + `build_e236_table.py`; checks `verify_k1_numbers.py`, `verify_headline_numbers.py`. E236's ten-seed extension and today's edits are **not yet pushed** (A5) |
+| **G8** overstatement | 🟢 | Grep of always/never/none/all-N/prove: every hit carries a count or a scope (lines 61, 208–209, 272, 441–448, 542, 610, 619); §4.4 density ratio scoped to both sets 2 Nov (P7); "pre-registered" scoped (§2.6, §3.5 fixed 2 Nov, P5) |
+| **G9** cross-model review | 🟢 | Adversarial read 26 Oct (C081–C089, all closed); independent read of the K1 passages 2 Nov; independent check of the response letter 2 Nov (see the line below when it returns) |
+| **G10** domain review | 🟢 PI 2 Nov: "sesuai rekomendasi" (method venue) | JCAA is treated as a **method** venue (line 01 contract: "computational archaeology"), where G10 is recommended, not required; two rounds of JCAA peer review have read the domain content. Route S step 1 done for the five domain claims under G2. Steps 2–3 (a venue-specialist AI read; a sentence in the manuscript saying no domain specialist read it) **not done**. If the PI classes JCAA as an archaeology venue, add that sentence before the freeze |
+| **G11** non-numeric claims | 🟢 | Causal wording on the artefact mechanism rests on E218/E222; the volcano/elevation reading downgraded to "cannot be separated" / "no direction" |
+| **G12** re-download | ☐ at upload | `UPLOAD_R2_CHECKLIST.md` §E |
+| **G13** WIP | 🟢 | A revision of a manuscript already counted (P2 + P8 in review); no new submission |
+| **G14** rest | 🟢 (D2 option b) | PI chose (20 Oct) an independent adversarial read + G1 instead of a 14-day rest; done 26 Oct and 2 Nov. Freeze ≤ 9 Nov |
+| **G15** venue + zero cost | 🟡 PI exception | `VENUE.md` (G15 template); live rules re-checked 2 Nov (11,500 words incl. refs, abstract ≤ 300, APC £651, waiver via Comments to the Editor). Cost: **PI exception 2026-10-21** (waiver applied for on acceptance; otherwise funded by the PI) |
+| **G16** authorial voice | 🟢 PI-signed exception 2 Nov ("ok, silahkan sesuai rekomendasi"); editor asked | New passages of sessions 1–3 written by the PI in Indonesian and translated; the abstract, conclusions and K1 restatements drafted by Claude **at the PI's request** ("kamu saja yg menuliskan … karena saya tidak paham bahasa aslinya", 2 Nov). Declared in the AI statement; the editor was asked on 2 Nov whether the authors must rewrite Methods/Results/Discussion. **PI signs:** ✅ 2026-11-02 (in the session: approved the letter, read the three papers, "ok, silahkan sesuai rekomendasi") |
+
+Length: 11,234 words after C092 (whole PDF, line numbers removed; v0.2 by the same method 8,422); abstract 282; 6 keywords; 37 pp.
+Letter check (G9, 2 Nov): independent reader, ~40 of 50 statements TRUE; two errors in the letter (E217/E219 designs; "in line with the journal's policy"), overstatements, and four manuscript inconsistencies → all verified and fixed the same day (ledger **C092**, log P8–P14); letter rewritten (6 pp.). After the fixes: 39/39, 4 known; length **11,234**. **Re-trace the letter once more if the manuscript changes again.**
+
+---
+
+# ROUND 1 (revision v0.2)
+
 ## ⚠ 2026-08-10 ADDENDUM — what this sign-off missed, and the gate that should exist
 
 **Decision unchanged: 🟢 GO.** But the comprehensive pre-submission review of 2026-08-10 found

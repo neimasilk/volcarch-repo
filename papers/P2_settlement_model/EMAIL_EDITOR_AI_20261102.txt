@@ -1,0 +1,15 @@
+Dear Dr González-Pérez,
+
+Thank you again for your reply about the waiver, and for the opportunity to revise submission #280.
+
+Before we resubmit, we would like to make sure that our use of AI fits the journal's policy, and to declare it in full rather than rely on our own reading of it.
+
+We used Claude (Anthropic) for the analysis code, for the figures, for checking the references against Crossref and the cited papers, and for re-deriving the reported numbers from the raw result files. We also used it for the text, substantially. The Methods, Results and Discussion of the earlier version were generated with it from our own analyses and notes and were then revised by us. In this revision, new passages were written by the first author in Indonesian and translated into English with it, and the restatements of the abstract, the conclusions and the affected parts of the Results and Discussion were drafted with it at the first author's request and then checked and approved by us. The research questions, the decisions about what to test and what to claim, and the interpretation are ours.
+
+We will declare all of this in the manuscript. If the editorial team considers that those sections should instead be written by the authors themselves, we would rather know now and do so before resubmitting.
+
+With kind regards,
+
+Mukhlis Amien
+Universitas Bhinneka Nusantara
+amien@ubhinus.ac.id

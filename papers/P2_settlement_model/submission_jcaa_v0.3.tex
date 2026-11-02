@@ -50,16 +50,19 @@ Evidence from East Java and a Corrected Comparison Protocol}
 \begin{abstract}
 \noindent
 % Drafted by Claude from the PI's passages 4, 6, 8A and 2 at the PI's request, 2026-10-22 (log: session 4, part 2).
-Changing how background points are selected can raise the cross-validated AUC of a presence--background model, but such an increase does not necessarily mean that the model has become better.
-This study tests how the background design and the evaluation background affect model evaluation, using 378 archaeological sites in East Java, three algorithms (XGBoost, RandomForest and Maximum Entropy) and spatial block cross-validation.
-In an initial sequence of seven experiments, the reported AUC rose overall from 0.659 to 0.751 (the latter a mean over seeds), and the rise was attributed to increasingly realistic background designs.
-When all designs are evaluated on a common background, changing the background design contributes $-0.014$ AUC, whereas adding distance to rivers as a feature contributes $+0.042$.
-The gain of the final, hybrid design is therefore an evaluation artefact, and the gains of the earlier target-group designs are not reproduced.
-In synthetic data with a known truth, the hybrid design evaluated on its own background is reported above its true performance in all 240 of its runs.
-The AUC on a design's own background, the criterion used to choose a design, reaches its maximum at the end of the range tested, so it gives no indication of when to stop adding hard negatives (background points selected far from the typical site environment).
-Priority maps from a single random seed are unstable; averaging seeds helps, but two independent five-seed averages still agree at a Jaccard overlap of only 0.76--0.86 on the top 10\% of cells.
-Above about 1,000~m, elevation and proximity to a Quaternary volcanic centre cannot be adequately separated in the study area.
-We propose a protocol: hold the evaluation background fixed when comparing designs, state the availability domain of every metric, and average priority maps over seeds.
+% Drafted by Claude from the PI's passages 4, 6, 8A and 2 at the PI's request (2026-10-22, session 4 part 2),
+% and rewritten for decision K1 at the PI's request on 2026-11-02 (session 6). 282 words (limit 300).
+Changing how background points are selected can raise cross-validated AUC, but not necessarily because the model has become better.
+This study tests how background design and evaluation background affect model evaluation, using East Javanese presence records, three algorithms and spatial block cross-validation.
+About a third of the compiled records are modern monuments or misplaced, so every real-data contrast is reported on the 378 records and on 161 cleaned sites.
+In a sequence of seven experiments the reported AUC rose from 0.659 to 0.751, attributed to increasingly realistic background designs.
+A common evaluation background removes that rise on the compiled records (redesign contributes $-0.014$ AUC); on the cleaned sites the same redesign contributes $+0.051$ [$+0.039$, $+0.063$] over ten seeds.
+What holds in both is the inflation: own-background scoring overstates the gain by about $+0.04$ to $+0.05$ AUC, and only a common background shows how much real gain is left.
+In synthetic data with a known truth, the hybrid design scored on its own background is reported above its true performance in all 240 runs.
+The criterion used to choose a design, AUC on its own background, is maximal at the end of the range tested, so it gives no indication of when to stop.
+Priority maps from a single seed are unstable; averaging helps, but two independent five-seed averages agree at a Jaccard overlap of only 0.70--0.86, depending on the presence set.
+Above about 1,000~m, elevation and volcanic proximity cannot be separated in the study area.
+We propose a protocol: hold the evaluation background fixed, state the availability domain of every metric, and average priority maps over seeds.
 The contribution is this diagnosis and protocol, not a new prediction of site locations.
 \end{abstract}
 
@@ -107,7 +110,7 @@ AUC (area under the ROC curve) & The probability that a randomly chosen site rec
 TSS (true skill statistic) & A measure of classification performance, calculated as sensitivity plus specificity minus one at a given classification threshold. \\
 Continuous Boyce index & A presence-only evaluation metric that compares the observed frequency of sites with the frequency expected across suitability classes, relative to a fixed uniform sample, so that its reference sample does not depend on the training background design. \\
 Spatial block cross-validation (CV) & A cross-validation method that divides the study area into five folds made of spatial blocks of about 50~km (0.45\textdegree{}), to reduce the geographical proximity between sites in the training and the test data. \\
-Seed ensemble & A combined map obtained by averaging the predictions of several random seeds. In this study, two ensembles of five seeds that share no seed agree at a Jaccard overlap of 0.76--0.86 on the cells in the top 10\% of the ranking, against 0.55--0.70 for two single seeds. \\
+Seed ensemble & A combined map obtained by averaging the predictions of several random seeds. In this study, two ensembles of five seeds that share no seed agree at a Jaccard overlap of 0.76--0.86 on the cells in the top 10\% of the ranking, against 0.55--0.70 for two single seeds; on the cleaned sites the five-seed figure is 0.70--0.77. \\
 Jaccard overlap & A measure of similarity between two maps, calculated by dividing the number of cells in the top 10\% of both maps by the number of cells in the top 10\% of at least one of them. \\
 Coarsened exact matching & A matching method that compares two groups only within strata that contain members of both groups, with weights based on the size of the smaller group; in Section~\ref{sec:elevation} it is applied within each 200~m elevation band. \\
 \bottomrule
@@ -138,7 +141,7 @@ A low suitability score does not distinguish `never settled' from `buried' or `d
 % PI prose 2026-10-22 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 8A).
 Every background design is benchmarked against Maximum Entropy (MaxEnt), a widely used presence--background modelling method \citep{elith2006}, on the same cross-validation folds; this comparison is the decisive analysis of the study.
 An initial analysis showed a `ladder': a sequence of seven experiments (E007--E013) whose reported AUC rose from 0.659 (E007) to 0.751 (E013, mean over seeds), with a single dip at E009.
-However, the results in Section~\ref{sec:artefact} show that the part of this rise attributed to increasingly realistic background designs is an evaluation artefact, not evidence that such designs produce better models.
+However, the results in Section~\ref{sec:artefact} show that, on the records on which the ladder was run, the part of this rise attributed to increasingly realistic background designs does not survive a common evaluation background: its last (hybrid) step is an evaluation artefact, and its earlier target-group steps are not reproduced; whether such designs produce better models where the records are cleaner is a separate question, answered in Section~\ref{sec:presence}.
 Thus the same empirical material now supports a more limited conclusion: the assessment of presence--background model performance depends strongly on the background used to evaluate it; \emph{background designs in presence--background modelling cannot be compared unless the evaluation background is held fixed, and a selection criterion computed on a design's own background has no interior optimum.}
 % PI prose 2026-10-22 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 6).
 The selection criterion, AUC computed on a design's own background, does not produce an optimum inside the range of hard-negative shares: in the synthetic worlds the AUC keeps rising from 0.7367 to 0.8904 as the share is raised from 0 to 1, whereas on the real data the AUC rises from a share of 0.1 onwards, with one small decrease of 0.0071 between shares of 0 and 0.1, so the maximum always lies at the end of the range tested and the criterion gives no indication of when to stop adding hard negatives.
@@ -167,7 +170,7 @@ The 378 usable presences in this study are the covariate-valid subset of that re
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{fig01_study_area_v03.png}
-\caption{Study area in East Java, Indonesia, showing the presences used for modelling and the 13 canonical volcanic centres inside the paper's stated bounds (111--115$^\circ$E), used as post-hoc diagnostics only.}
+\caption{Study area in East Java, Indonesia, showing the 378 compiled presence records used for modelling (filled: the 161 sites of the cleaned subset, Section~\ref{sec:presence}; open: the other 217 records) and the 13 canonical volcanic centres inside the paper's stated bounds (111--115$^\circ$E), used as post-hoc diagnostics only.}
 \label{fig:studyarea}
 \end{figure}
 
@@ -179,6 +182,11 @@ The 378 usable presences in this study are the covariate-valid subset of that re
 \label{sec:covariates}
 
 Usable presences after covariate filtering were 378 (111--115$^\circ$E); the soil-coverage subset used once in E009 was 259.
+These 378 are compiled records rather than a site catalogue.
+They come from OpenStreetMap (279 rows), lists in the Indonesian and English Wikipedia (85) and Wikidata (14), they hold 335 distinct coordinates, and about a third are not archaeological sites: 124 are modern monuments, statues or memorials, and 13 are misplaced or are not sites at all (Central Javanese temples carrying East Javanese coordinates, a Balinese temple placed near Surabaya, a waterfall).
+Because that composition bears on every model fitted to the records, we define a cleaned subset and report the real-data contrasts on both.
+The cleaning drops the 85 rows whose coordinates were geocoded from their names (all rows taken from the Wikipedia lists), 124 modern monuments, and 8 temples of other regions, tourist objects and modern institutions, and then keeps one row per coordinate (which removes no further rows); 161 sites remain (155 from OpenStreetMap, 6 from Wikidata).
+The original ladder (E007--E013, Section~\ref{sec:ladder}) is the object under examination and stays trained on the 378 records; the contrasts of Section~\ref{sec:artefact} and Section~\ref{sec:presence} are reported on both sets.
 Every variable plays one analytical role, and the roles must not be mixed, because mixing them makes a suitability score uninterpretable: a low score could mean the place was unsuitable, or unsurveyed, or not preserved, and the model cannot say which.
 We therefore keep only the suitability block as predictors, express accessibility through the background design (Section~\ref{sec:fourroles}), and treat preservation and volcanic proximity as diagnostics applied to the output.
 Table~\ref{tab:roles} assigns every variable a single role.
@@ -365,16 +373,17 @@ E013 XGB (best run)          & 0.768 & 0.069 & --- \\
 \label{tab:nullmodel}
 \end{table}
 
-\subsection{The ladder is an evaluation artefact}
+\subsection{The ladder does not survive a common evaluation background}
 \label{sec:artefact}
 
-The part of the rise attributed to background redesign does not survive a common evaluation background.
-On real data, redesigning the background while holding a common evaluation background fixed contributes \textbf{$-0.0142$ AUC} averaged over the three algorithms, whereas adding the river feature contributes \textbf{$+0.0424$ AUC}, positive in 12/12 paired comparisons (the redesign contribution is $+0.0054$ on the terrain-only feature set and $-0.0142$ on the full set; we state the feature set so a reader does not encounter the difference unannounced).
+On the compiled records, the part of the rise attributed to background redesign does not survive a common evaluation background.
+Redesigning the background while holding a common evaluation background fixed contributes \textbf{$-0.0142$ AUC} averaged over the three algorithms (seed-cluster interval $-0.021$ to $-0.005$; 3 of 15 seed$\times$algorithm cells positive), whereas adding the river feature contributes \textbf{$+0.0424$ AUC}, positive in 12/12 paired comparisons (the redesign contribution is $+0.0054$ on the terrain-only feature set and $-0.0142$ on the full set; we state the feature set so a reader does not encounter the difference unannounced).
+The contrast is a property of these records and not of the design: on a cleaned subset of the sites the same comparison is positive, and Section~\ref{sec:presence} reports both.
 The hybrid design beats the random design in 3/3 algorithms when each is scored on the \emph{hybrid} evaluation background, and in \textbf{0/3} on each of the uniform, target-group and stratified evaluation backgrounds.
 The advantage disappears as soon as a design is scored on any background other than its own.
 
 How large is own-background inflation?
-For the hybrid design, the last step of the ladder, the inflation from own-background evaluation is positive in \textbf{60/60} seed$\times$algorithm cells (mean $+0.037$, range $+0.005 \ldots +0.084$), the same order of magnitude as the entire reported E007$\rightarrow$E013 gain.
+For the hybrid design, the last step of the ladder, the inflation from own-background evaluation is positive in \textbf{60/60} seed$\times$algorithm cells on the compiled records (mean $+0.037$, range $+0.005 \ldots +0.084$), the same order of magnitude as the entire reported E007$\rightarrow$E013 gain.
 This own-background inflation is specific to that design, and we state the scope rather than let it read as general: the TGB design scored \emph{higher} on the uniform background than on its own (mean $-0.0054$, 22/60 cells positive).
 The TGB steps of the ladder (E010--E012) are not explained by own-background inflation either: in the benchmark TGB scores almost exactly as random does even on its own background ($+0.003$, E217), so their original gain is not reproduced rather than explained.
 In the synthetic worlds, a model of the hybrid design scored on its own background is reported higher than its truth in \textbf{all 240 runs (median $+0.238$)}. For the random and TGB designs the gap is smaller and not always positive (52/60 and 51/60 runs; medians $+0.020$ and $+0.014$), and part of it comes from the difference between the observed and the true presence samples rather than from the background. Over all 360 runs of the two synthetic surfaces the count is 343/360 (Figure~\ref{fig:artefact}).
@@ -394,6 +403,36 @@ We therefore treat Table~\ref{tab:nullmodel} as an upper bound on the model's ad
 \caption{The evaluation artefact. Left: reported AUC (evaluated on a design's own background) against the same designs held to a common background (uniform). Only the hybrid design scores higher on its own background. Right: reported minus true AUC in 360 synthetic runs of known ground truth, by design (hybrid 240/240 runs positive; random 52/60; TGB 51/60).}
 \label{fig:artefact}
 \end{figure}
+
+\subsection{The presence records and a cleaned subset}
+\label{sec:presence}
+
+The records on which every real-data number in this section rests are compiled from public sources rather than taken from a site catalogue (Section~\ref{sec:covariates}): 378 records on 335 distinct coordinates, of which about a third are modern monuments, statues or memorials, or are misplaced.
+A presence set of that composition cannot by itself establish a property of background design, so the same analyses were re-run on a cleaned subset of 161 sites (E236), with the cleaning rule given in Section~\ref{sec:covariates} and with every analysis script unchanged except for the file of presences it reads.
+Table~S9 reports every quantity below for both sets.
+
+On the cleaned sites the contrast that is null on the compiled records is positive.
+Redesigning the background, with a common evaluation background held fixed, contributes $+0.0507$ AUC over five seeds and $+0.0510$ [$+0.039$, $+0.063$] over ten, positive in 29 of 30 seed$\times$algorithm cells, and positive for each algorithm separately (XGBoost $+0.038$, RandomForest $+0.044$, MaxEnt $+0.072$).
+Two ensembles of five seeds that share no seed give $+0.0505$ and $+0.0516$.
+Scored on their own backgrounds instead, the same two designs differ by $+0.098$ over ten seeds, so own-background evaluation overstates the gain on this set by $+0.047$, close to the size of the gain itself.
+
+The inflation is the quantity that does not depend on the presence data.
+The hybrid design is reported higher on its own background than on a uniform one in 54 of 60 seed$\times$algorithm cells (mean $+0.041$), against 60/60 (mean $+0.037$) on the compiled records.
+Two differences must be stated rather than smoothed.
+First, on the cleaned sites the hybrid design also beats the random design on every evaluation background (3/3 algorithms on each of the uniform, target-group, hybrid and stratified backgrounds), whereas on the compiled records it led only when scored on its own background.
+Second, the earlier target-group steps remain absent in both sets: TGB minus random is $-0.005$ on own backgrounds and $+0.001$ on the common one.
+
+The selection criterion behaves as it does on the compiled records.
+On the cleaned sites, AUC on a design's own background rises from $0.697$ at a hard-negative share of $0.0$ to $0.866$ at $1.0$, its maximum at the end of the range tested; the common-background AUC at $0.0$, $0.3$ and $1.0$ is $0.680$, $0.713$ and $0.656$.
+The criterion therefore recommends the setting at which the common-background score is lowest, so on this set it moves a modeller away from the best setting rather than merely failing to stop.
+
+The priority-map results hold with somewhat less stability.
+Robust-core to contingent-fringe density ratios are $2.54$, $8.51$ and $5.30$ (RandomForest, XGBoost and MaxEnt), the top decile turns over by $41.6$--$54.8$~\% between seed pairs, and two disjoint five-seed ensembles agree at a Jaccard overlap of $0.70$--$0.77$, against $0.76$--$0.86$ on the compiled records (Section~\ref{sec:prioritymaps}).
+The contingent fringe holds only 5 sites under XGBoost, 15 under RandomForest and 5 under MaxEnt, so the ratios are read as a direction rather than as precise magnitudes.
+
+The elevation control points the same way on both sets.
+Below 1,000~m the near $-$ far suitability difference is $+0.046$ for the random and target-group backgrounds and $+0.060$ for the hybrid, against $+0.049$, $+0.049$ and $+0.060$ on the compiled records (Section~\ref{sec:elevation}).
+As on the compiled records, the hybrid design alone meets the pre-registered SPECIFIC criterion and the summary across the three designs is inconclusive; the two sensitivity definitions exchange their labels (inconclusive and not specific) between the two sets.
 
 \subsection{The selection criterion has no interior optimum}
 \label{sec:nooptimum}
@@ -420,7 +459,7 @@ We note what the criterion does \emph{not} do. In the synthetic worlds, the desi
 
 In the synthetic worlds the reported number moves about \textbf{twice} as fast as the truth as the hard-negative share rises ($+0.1538$ reported vs $+0.0764$ truth; endpoint ratio $2.01\times$, per-run OLS slope $2.12\times$, per-run median ratio $2.00\times$; the three estimators bracket `about twice').
 On the real data the two move in \textbf{opposite directions} ($+0.1227$ reported vs $-0.0973$ common-background), which is a stronger result.
-A pre-registered prediction that own-background inflation rises with the hard-negative fraction in every regime \textbf{failed} (pooled Spearman $0.4395 < 0.5$) and is reported as failed.
+A prediction in the written design of E222, that own-background inflation rises with the hard-negative fraction in every regime, \textbf{failed} (pooled Spearman $0.4395 < 0.5$) and is reported as failed.
 
 \subsection{The target-group-background null, reported as unexplained}
 \label{sec:tgbnull}
@@ -507,7 +546,7 @@ This limit of separability can shift between 800 and 1,200~m, depending on the m
 
 Below 1,000~m, the difference in suitability between land near and far from Quaternary volcanic centres is $+0.049$ for the random design (95\% CI $+0.024$ to $+0.077$), $+0.049$ for TGB and $+0.060$ for hybrid (95\% CI $+0.030$ to $+0.091$; Figure~\ref{fig:elevation}B).
 Under the pre-registered rule, the hybrid result meets the criterion for SPECIFIC, but the summary across designs remains INCONCLUSIVE, because two of the three designs do not give a firm conclusion under that criterion.
-The two pre-registered sensitivity definitions give smaller differences: $-0.002$ (95\% CI $-0.047$ to $+0.046$; NOT SPECIFIC) with near land within 10~km and far land beyond 30~km, and $+0.016$ (INCONCLUSIVE) with 15 and 30~km. Post hoc variants give $+0.005$ to $+0.07$, depending on the zone definitions and the matching procedure; when distance to rivers is also matched, the difference falls to $+0.028$. No direction is therefore claimed below 1,000~m.
+For the random design, the two pre-registered sensitivity definitions give smaller differences: $-0.002$ (95\% CI $-0.047$ to $+0.046$; NOT SPECIFIC) with near land within 10~km and far land beyond 30~km, and $+0.016$ (INCONCLUSIVE) with 15 and 30~km. Post hoc variants give $+0.005$ to $+0.07$, depending on the zone definitions and the matching procedure; when distance to rivers is also matched, the difference falls to $+0.028$. No direction is therefore claimed below 1,000~m.
 In the uplands (400--1,000~m), the far comparison land lies mostly in the Southern Mountains, an old volcanic arc of Eocene--Miocene age with karst landforms \citep{smyth2008}, so it would not be correct to call it non-volcanic.
 In addition, the contingent fringe of the MaxEnt maps (Section~\ref{sec:prioritymaps}) has a median elevation of 1,107~m, above the limit of reliable separation; that pattern therefore cannot be interpreted specifically as either an elevation effect or a volcanic effect.
 The limited power of the test also does not allow a firm conclusion about whether the disagreement between designs differs between near and far land.
@@ -535,7 +574,9 @@ We also report, without softening, a quota background design we tested in the re
 \subsection{Hold the evaluation background fixed}
 
 The central methodological finding is that a background-design comparison is not identified unless the evaluation background is held fixed across the designs being compared, and that the artefact this produces is large enough to masquerade as a result.
-We are not the first to observe that background choice drives reported performance \citep{phillips2009, lobo2008, hijmans2012}; what we contribute is the mechanism (a selection criterion with no interior optimum, Section~\ref{sec:nooptimum}) and a direct quantification of the inflation it produces (for the hybrid design, all 240 synthetic runs and 60/60 real seed$\times$algorithm cells).
+How much real gain survives the correction depends on the presence data: the redesign gain is $-0.014$ AUC on the compiled records and about $+0.05$ on the cleaned sites (Section~\ref{sec:presence}).
+The inflation that a common background removes does not depend on the data: it is $+0.037$ on the compiled records (60/60 cells) and $+0.041$ on the cleaned sites (54/60).
+We are not the first to observe that background choice drives reported performance \citep{phillips2009, lobo2008, hijmans2012}; what we contribute is the mechanism (a selection criterion with no interior optimum, Section~\ref{sec:nooptimum}) and a direct quantification of the inflation it produces (for the hybrid design, all 240 synthetic runs and 60/60 and 54/60 real seed$\times$algorithm cells on the two presence sets).
 The practical recommendation follows directly: \emph{report background designs on a common evaluation background, and state the evaluation availability domain of every metric}.
 This is the accessible-area requirement of \citet{barve2011} applied to evaluation rather than to fitting: the domain over which a metric is computed is part of the metric, and a number reported without it cannot be compared with another.
 We learned this from our own model.
@@ -554,10 +595,10 @@ Low suitability does not mean `buried' or `destroyed'; high suitability does not
 
 \subsection{Implications for heritage management in East Java}
 
-Under Indonesia's Cagar Budaya framework (UU 11/2010), surveys by the regional heritage preservation office (Balai Pelestarian Cagar Budaya, BPCB) inform permitting and rescue prioritisation.
+Under Indonesia's Cagar Budaya framework (UU 11/2010), surveys by the regional heritage preservation office (for East Java, Balai Pelestarian Kebudayaan Wilayah XI, until 2022 the Balai Pelestarian Cagar Budaya, BPCB) inform permitting and rescue prioritisation.
 A suitability surface could in principle support that workflow, but only under two conditions this study makes explicit.
 First, because priority maps turn over by $28$--$47\%$ between seeds (Section~\ref{sec:prioritymaps}), a single-seed map is not a defensible basis for a permit; the seed-ensemble protocol (at least seven seeds, with the agreement between disjoint ensembles reported) is a precondition for operational use.
-Second, because the model reports suitability and not presence, the robust core ($1.9$--$5.6\times$ the site density of the fringe) is a prioritisation aid, not a prediction: it ranks where to look, not what will be found.
+Second, because the model reports suitability and not presence, the robust core ($1.9$--$5.6\times$ the density of records in the fringe on the compiled records, $2.5$--$8.5\times$ on the cleaned sites) is a prioritisation aid, not a prediction: it ranks where to look, not what will be found.
 
 \subsection{The corrected protocol}
 
@@ -577,12 +618,14 @@ We summarise the protocol that follows from the above, which is the constructive
   \item \textbf{Calibration gap between synthetic and real.} At a hard-negative share of 0.30 (the largest tried in E013) the selection criterion picks hybrid on real data but random on synthetic data, so the synthetic worlds do not reproduce the real-data selection behaviour there. This limits transferring the E222 conclusions back to the real case.
   \item \textbf{The truth-slope sign is regime-contingent}: negative on real data, positive on synthetic. We do not claim `hard negatives are always bad.'
   \item \textbf{Four synthetic regimes are not a universal result.} Across the four worlds (road-bias, misspecified, regional-bias, balanced-regional-truth; $n \approx 300$--$500$), no background design exceeded uniform on truth recovery by a meaningful margin (aggregate difference $\approx -0.0004$ AUC; in the two road-bias and misspecified surfaces TGB scored above random in 27/60 runs). This is not a refutation of target-group background in general \citep{phillips2009}; it is a result for the regimes and sample sizes tested.
-  \item \textbf{A detection floor of $\sim +0.03$} at $n=378$: smaller effects are indeterminate, not absent (Section~\ref{sec:ci}).
+  \item \textbf{A detection floor of $\sim +0.03$} at $n=378$: smaller effects are indeterminate, not absent (Section~\ref{sec:ci}). The cleaned subset has 161 sites, so its floor is larger; the interval reported for its redesign contrast is over seeds, not over sites.
   \item \textbf{The Boyce index is a direction check, not a selector.} It tracks the truth only loosely (median rank correlation $+0.50$ with map agreement and $+0.54$ with true AUC, E222), so we use it only to confirm direction.
   % PI prose 2026-10-21 (passage 3b); replaces the v0.2 "n = 2 in the non-volcanic arm" item.
   \item Above about 1,000~m (the limit shifts between 800 and 1,200~m, depending on the minimum area used), \textbf{elevation and proximity to a Quaternary volcanic centre cannot be adequately separated} in the study area; the model's prediction pattern there, including the high-elevation fringe in Figure~\ref{fig:priority}, therefore cannot be attributed specifically to either factor (Section~\ref{sec:elevation}).
   \item \textbf{The two-stage `suitable but absent' decomposition} is declared future work: it tests \emph{why} sites are absent, which requires site-level prediction, which this design does not support, and burial-depth data at survey resolution are not yet available.
   \item \textbf{External transfer beyond East Java is untested.}
+  \item \textbf{The cleaned presence set is defined by our own rule} (Section~\ref{sec:presence}); a different rule could retain more or fewer records, and the compiled set remains the one on which the original ladder was run.
+  \item \textbf{The cleaned set's contingent fringe holds only 5 sites under XGBoost, 15 under RandomForest and 5 under MaxEnt}, so its density ratios are reported as a direction, not as precise magnitudes.
 \end{enumerate}
 
 % ============================================================================
@@ -591,8 +634,9 @@ We summarise the protocol that follows from the above, which is the constructive
 
 % Drafted by Claude from the PI's passages 8A, 6, 8E and 2 at the PI's request, 2026-10-22 (log: session 4, part 2).
 In this study, the reported AUC of a presence--background model for East Java rose overall from 0.659 (E007) to 0.751 (E013, mean over seeds) across seven experiments, and the rise was attributed to increasingly realistic background designs.
-When all designs are evaluated on a common background, changing the background design contributes $-0.014$ AUC and adding distance to rivers contributes $+0.042$.
-On a common background the change of design adds nothing. The last design, the hybrid, scores higher only when it is evaluated on its own background points, which is an evaluation artefact, and the gains of the earlier target-group designs are not reproduced.
+Scored on a common evaluation background, that rise is not reproduced on the 378 compiled records: redesigning the background contributes $-0.014$ AUC and adding distance to rivers contributes $+0.042$, and the last design, the hybrid, scores higher only when it is evaluated on its own background points.
+Whether a real gain remains depends on the presence data. On 161 cleaned sites the same redesign contributes $+0.051$ AUC [$+0.039$, $+0.063$] over ten seeds, positive in 29 of 30 cells, and two disjoint halves of five seeds give $+0.0505$ and $+0.0516$; own-background evaluation still overstates that gain by about $+0.05$. The earlier target-group designs are not reproduced on either set.
+Only a common evaluation background shows how much of the reported gain is real.
 The criterion used to choose a design, AUC on the design's own background, has no optimum inside the range tested, so it gives no indication of when to stop adding hard negatives.
 A suitability surface also cannot distinguish the reasons a site goes unobserved, so low predicted suitability near volcanoes is not evidence of buried settlement; and above about 1,000~m, elevation and proximity to a Quaternary volcanic centre cannot be adequately separated in East Java.
 
@@ -616,6 +660,7 @@ Supplied as a single document, \texttt{supplementary\_tables\_v0.3.pdf}. Every t
   \item \textbf{Table S6:} Per-experiment design matrix for E217--E224 (extends Table~\ref{tab:inclusion}), including which experiments used \texttt{road\_dist} as a feature.
   \item \textbf{Table S7:} E235 elevation bands --- land near and far from Quaternary volcanic centres in each 200~m band, and the matched near $-$ far differences (Section~\ref{sec:elevation}).
   \item \textbf{Table S8:} E235 pooled differences --- by zone definition and algorithm, with the pre-registered verdicts.
+  \item \textbf{Table S9:} E236 --- the same real-data quantities on the compiled records and on the cleaned presences (Section~\ref{sec:presence}).
 \end{itemize}
 
 % ============================================================================
@@ -637,11 +682,11 @@ Both authors read and approved the final manuscript.
 
 \subsection*{Data Availability}
 
-\textbf{Archaeological site data:} the compiled East Java site dataset is in the repository at \texttt{data/processed/east\_java\_sites.geojson} (378 with valid covariates in bounds). Sources: OpenStreetMap (ODbL), Wikidata (CC BY-SA), Wikipedia Indonesia, BPCB Jawa Timur publications.
+\textbf{Archaeological site data:} the compiled East Java site dataset is in the repository at \texttt{data/processed/east\_java\_sites.geojson} (378 with valid covariates in bounds: 279 from OpenStreetMap, 85 from lists in the Indonesian and English Wikipedia, 14 from Wikidata). Licences: OpenStreetMap (ODbL), Wikipedia (CC BY-SA), Wikidata (CC0). The cleaned subset of 161 sites (Section~\ref{sec:presence}) is derived from this file by \texttt{clean\_sites.py} in the E236 folder.
 
 \textbf{Environmental covariates:} Copernicus GLO-30 DEM and derived layers from the Copernicus Programme (ESA), \url{https://dataspace.copernicus.eu/}. OpenStreetMap road and river data, \url{https://openstreetmap.org} (ODbL).
 
-\textbf{Code:} all source code, including E217--E224, E235 and the verification script, is at \url{https://github.com/neimasilk/volcarch-repo} (MIT licence).\newline The G1 verification script is \texttt{verify\_headline\_numbers.py}.\newline Python dependencies are pinned in \texttt{requirements\_submission\_lock.txt}.
+\textbf{Code:} all source code, including E217--E224, E235, E236 and the verification script, is at \url{https://github.com/neimasilk/volcarch-repo} (MIT licence).\newline The G1 verification script is \texttt{verify\_headline\_numbers.py}.\newline Python dependencies are pinned in \texttt{requirements\_submission\_lock.txt}.
 
 \textbf{Interactive dashboard:} \url{https://volcarch-dashboard.streamlit.app}.
 
@@ -651,7 +696,7 @@ We used Claude (Anthropic) throughout this study.
 It wrote and debugged the analysis code, produced the figures, drafted the designs of the experiments described in Section~\ref{sec:refutation}, checked the references against Crossref and the cited papers, and re-derived every reported number from the raw result files.
 It also helped with the text.
 The earlier drafts of the Methods, Results and Discussion were generated with Claude from our analyses and notes, and were then revised by us.
-In this version, new passages were written by the first author in Indonesian and translated into English with Claude; the abstract, the conclusions and a number of corrections were drafted with Claude at the first author's request.
+In this version, new passages were written by the first author in Indonesian and translated into English with Claude, and the restatements of the abstract, the conclusions and the affected parts of the Results and Discussion were drafted with Claude at the first author's request and then checked and approved by the author.
 The research questions, the decisions about what to test and what to claim, and the interpretation are ours.
 We checked every statement and number against the results and take full responsibility for the content.
 

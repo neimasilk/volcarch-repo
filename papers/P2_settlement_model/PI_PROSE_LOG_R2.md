@@ -558,3 +558,94 @@ Also rebuilt, without changing the text:
 - the densities;
 - Section 3.9 with the cleaned-set E235;
 - Table S9.
+
+## Session 6 — decision K1: both presence sets reported; **written by Claude** at the PI's request — 2026-11-02
+
+**Who wrote it and why:** on 2 Nov the PI chose **K1** and said "kamu saja yg menuliskan … karena saya tidak paham
+bahasa aslinya". So this session's text (abstract, §3.3, the restatements in §1, §3.2, §4.1 and the conclusions,
+the two new limitations items) is **Claude's prose**, not translation of the PI's. The AI declaration and the
+editor's email say exactly this. Logged here before the manuscript was compiled.
+
+**Applied by `apply_session6_k1.py` (dry run first: every old string exactly once; 15 edits):**
+
+| # | Where | Change | Ledger |
+|---|---|---|---|
+| 1 | Abstract | rewritten for K1: two sets, +0.051 [+0.039, +0.063] over ten seeds, the inflation as what holds in both. **282 words** (limit 300; `tools_count_abstract.py`) | C081, C084, C090 |
+| 2 | Methods 2.1 | the 378 are compiled records (OSM/Wikidata/Wikipedia); 124 modern monuments + 13 misplaced/non-sites; 335 distinct coordinates; the cleaning rule; 161 sites (155 + 6); the ladder stays on 378 | C081 |
+| 3 | §3.2 (2 sentences) | the −0.0142 is attached to the compiled records, with the seed-cluster interval [−0.021, −0.005] and 3/15 cells positive; a pointer to §3.3 | C090 |
+| 4 | §3.2 inflation sentence | "60/60 … on the compiled records" (it was unqualified) | C081 |
+| 5 | **New §3.3** "The presence records and a cleaned subset" | the cleaning, A/B/C/D/F/E on the cleaned set, the two differences from the compiled set, the fragile fringe, Table S9 | C081, C083, C085 |
+| 6 | §1 (introduction) | the ladder sentence is scoped "on the records on which the ladder was run", with a pointer to §3.3 | C084 |
+| 7 | §4.1 (2 edits) | the inflation is data-independent (+0.037 / +0.041); how much real gain survives is not | C084, C090 |
+| 8 | Conclusions | "on a common background the change of design adds nothing" replaced by the two-set statement and "only a common background shows how much of the reported gain is real" | C084 |
+| 9 | Limitations | the 161-site floor is larger than ±0.03 and the interval is over seeds, not sites; the cleaning rule is ours; the cleaned fringe holds 5, 15 and 5 sites | C081 |
+| 10 | AI declaration | "new passages … in Indonesian and translated …, and the restatements of the abstract, the conclusions and the affected parts of the Results and Discussion were drafted with Claude at the first author's request and then checked and approved by the author" | C089 |
+| 11 | Back matter | Table S9 in the Supplementary Materials list; E236 in the Data Availability code line | — |
+| 12 | Abstract body | "never indicates" → "gives no indication" (line rule 4: no absolute quantifier) | — |
+
+**Numbers:** every one re-derived by `revision_ammo/verify_k1_numbers.py` (39 checks, 0 failed) from
+`summary_{full,clean}.json`, `results/A_seeds10/` and the two stored E217b files. `verify_headline_numbers.py` still
+returns the same 4 known mismatches (withdrawn claims), so nothing else moved.
+
+**Compile:** clean, 37 pp., no undefined references (the supplement table is cited as "Table S9", not `\ref`, because
+the supplement is a separate document). One pre-existing 0.6 pt overfull line (Table 1).
+**Length:** the revision adds 1,020 words by `tools_count_words.py` (body only, floats removed), so against the
+26 Oct figure of ≈9,700 the manuscript is now ≈10,700 of the 11,500 allowed. The script's absolute numbers differ
+from the 26 Oct method (6,390 vs 8,717 for the same text); the **delta** is the reliable figure.
+
+**Not written here:** the response-letter replies (the PI writes those); the "Where in v0.3" column (after the freeze).
+
+### Session 6, after the independent read (2026-11-02)
+
+One separate reader checked the changed passages against the raw files without being given Claude's conclusions.
+**No numeric mismatch** (every value reproduced; 39/39 in `verify_k1_numbers.py` too). Four precision fixes applied,
+one item left to the PI:
+
+| # | Where | Before → after | Why |
+|---|---|---|---|
+| V1 | Conclusions | "agree to within 0.001" → "give +0.0505 and +0.0516" | the halves differ by 0.0011, so "within 0.001" was false |
+| V2 | §4.1 | "none on the compiled records" → "the redesign gain is −0.014 AUC on the compiled records" | "none" is absolute; the value is negative, not nil |
+| V3 | §3.3 and Limitations | "5, 15 and 5 sites across the three algorithms" → "5 under XGBoost, 15 under RandomForest and 5 under MaxEnt" | the counts follow the algorithms in a different order from the density sentence; ambiguous |
+| V4 | Abstract and Table 1 | Jaccard range given its set ("0.70–0.86, depending on the presence set"; Table 1 adds 0.70–0.77 on the cleaned sites) | the 0.70–0.86 span mixes the two sets |
+
+**Left for the PI:** the Acknowledgements thank "the editor and the anonymous reviewers". It is conventional, and R1
+allowed the rework story to live in the acknowledgements, but it is the last mention of review in the file. One
+sentence — keep or cut.
+
+### Session 7 — pre-upload checks (2026-11-02, later; PI: "mari kita selesaikan sampai submit")
+
+**PI decisions this session:** Claude drafts the Response to Reviewers and the PI approves it; wait for the editor's
+answer until **Mon 9 Nov**, then upload regardless (extension request the same day if the editor asks for
+author-rewritten sections); the PI reads the three papers from an excerpt pack (`READING_PACK_LINE156_20261102.md`);
+Claude emails Go Frendi the frozen PDF from the PI's account after the PI reads the email.
+
+**Changes made (told to the PI before they were applied; ledger C091):**
+
+| # | Where | Before → after | Why |
+|---|---|---|---|
+| P1 | Methods 2.1 | "from OpenStreetMap, Wikidata and Wikipedia Indonesia" → "from OpenStreetMap (279 rows), lists in the Indonesian and English Wikipedia (85) and Wikidata (14)" | 14 of the 378 come from the English Wikipedia list; counts re-derived through E217's filter |
+| P2 | Data Availability | "Sources: OpenStreetMap (ODbL), Wikidata (CC BY-SA), Wikipedia Indonesia, BPCB Jawa Timur publications." → counts per source, "Licences: OpenStreetMap (ODbL), Wikipedia (CC BY-SA), Wikidata (CC0)", and a pointer to `clean_sites.py` for the cleaned 161 | no row in the file comes from BPCB; Wikidata is CC0; the cleaned subset must be reproducible from the statement |
+| P3 | Figure 1 + caption | plotted all 383 in-bounds rows as "archaeological presences" → plots the 378 used by the models, filled = the 161 cleaned sites, open = the other 217; caption says so | §2.1 now says about a third of the records are not sites; five of the 383 never reached a model (`build_v03_figures.py::sites_utm`, assert 378/161) |
+| P4 | Figure 5 legend | "known sites" (383 in-bounds rows) → "presence records (378)", the rows E221's models were trained on | same vocabulary as §2.1; same loader as Figure 1 |
+| P5 | §3.5 | "A pre-registered prediction that own-background inflation rises …" → "A prediction in the written design of E222, that own-background inflation rises …," | §2.6 says only E224's design was committed before its run; E222's design and results entered git together (`a433ab3`), so "pre-registered" contradicted §2.6 (C082 family) |
+| P6 | §4.4 | "the regional heritage preservation office (Balai Pelestarian Cagar Budaya, BPCB)" → "… (for East Java, Balai Pelestarian Kebudayaan Wilayah XI, until 2022 the Balai Pelestarian Cagar Budaya, BPCB)" | G2 domain check: the BPCB units were reorganised into 23 Balai Pelestarian Kebudayaan by Permendikbudristek No. 33/2022; the East Java unit is BPK Wilayah XI (its site kebudayaan.kemdikbud.go.id/bpkw11/ now hosts the former BPCB Jatim documents; 2024–25 reports name BPK Wilayah XI for Trowulan). Checked by web search 2 Nov; the exact revocation clause of the 2020 regulation was not read |
+| P7 | §4.4 | "the robust core ($1.9$–$5.6	imes$ the site density of the fringe)" → "($1.9$–$5.6	imes$ the density of records in the fringe on the compiled records, $2.5$–$8.5	imes$ on the cleaned sites)" | K1 reports both sets; §3.3 gives 2.54, 8.51 and 5.30 on the cleaned sites (min 2.54 → 2.5, max 8.51 → 8.5); §3.8 gives 1.93/4.34/5.62 on the compiled records |
+
+**After the independent check of the response letter (2 Nov; separate reader, not given Claude's conclusions; ledger C092).** Every finding was verified by Claude in the named file before acting. Applied:
+
+| # | Where | Before → after | Why |
+|---|---|---|---|
+| P8 | §3.3 (E235 on the cleaned set) | "…the pre-registered verdicts remain inconclusive or not specific. No design shows a volcano-specific effect in either set." → "As on the compiled records, the hybrid design alone meets the pre-registered SPECIFIC criterion and the summary across the three designs is inconclusive; the two sensitivity definitions exchange their labels (inconclusive and not specific) between the two sets." | contradicted §3.10 (hybrid SPECIFIC, +0.060 [+0.030, +0.091]); `summary_{full,clean}.json` E_e235: hybrid SPECIFIC in both; 10/30 km NOT SPECIFIC → INCONCLUSIVE, 15/30 km INCONCLUSIVE → NOT SPECIFIC |
+| P9 | §1.3 | "the part of this rise attributed to … background designs is an evaluation artefact" → "… does not survive a common evaluation background: its last (hybrid) step is an evaluation artefact, and its earlier target-group steps are not reproduced" | §3.2 (C084) already says the TGB steps are "not reproduced rather than explained" |
+| P10 | §3.2 heading | "The ladder is an evaluation artefact" → "The ladder does not survive a common evaluation background" | same reason; true on the compiled records, where the ladder was run (58 characters) |
+| P11 | §2.1 | the cleaning rule now carries its counts: 85 name-geocoded rows (all Wikipedia rows), 124 modern monuments, 8 other-region temples / tourist objects / institutions; one row per coordinate removes no further rows | 217 of 378 are dropped, not only the third that are non-sites; counts from `clean_sites.py` rules applied in order to the 378 |
+| P12 | §3.10 | "The two pre-registered sensitivity definitions give …" → "For the random design, the two pre-registered sensitivity definitions give …" | −0.002 / +0.016 are the random-design values; hybrid gives +0.007 / +0.026 |
+| P13 | References | five titles lowercased after the colon (Chen & Guestrin; Comer et al.; Kvamme; Smyth et al.; Valavi et al.), in `references.bib`, list regenerated (`build_jcaa_bibliography.py submission_jcaa_v0.3.tex`; diff = those 5 lines only) | 10 of 15 titles with a colon were lowercase after it; the letter says the list is consistent |
+| P14 | Supplement | "elevation control of Section 3.9" → "3.10"; "the test failed (main text, Section 3.5)" → "3.6" (`build_supplement.py`, rebuilt v0.3; diff = those 2 lines) | stale after the new §3.3 renumbered the Results |
+
+**Not changed, stated in the letter instead:** the ten-seed extension of the cleaned-set contrast was run after the pre-registered five-seed run (declared in `EXTENSION_SEEDS_20261102.md` before it was run, but not committed first); the letter reports both and says the interval is over seeds. The manuscript does not call E236 pre-registered.
+**Checks after P8–P14:** 39/39; headline 4 known; manuscript 37 pp., supplement 8 pp., letter 6 pp., 0 undefined; abstract 282; length 11,234 (whole-PDF method).
+
+**Checks:** compile clean, 37 pp., no undefined references. Abstract 282 words. Length by the v0.2 method (PyMuPDF,
+whole PDF incl. tables, captions, statements and references; margin line numbers removed): **11,144** (v0.2: 8,422);
+limit "normally under 11,500 … include referencing". Body + references by `tools_count_words.py`: 7,431 + 1,068.

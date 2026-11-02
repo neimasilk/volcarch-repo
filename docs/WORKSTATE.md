@@ -1,6 +1,40 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-10-26 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-11-02 · **This file is short by design. Keep it that way.**
+
+> ## ▶▶ 2026-11-02 (later) — P2/JCAA **upload pack ready**; waiting on the PI (letter + reading), Go Frendi and the editor
+> PI: "selesaikan sampai submit". Decisions (all defaults): Claude drafts the response letter, the PI approves; **upload
+> after the editor's AI answer or on Mon 9 Nov regardless**; the PI reads `READING_PACK_LINE156_20261102.md`; Claude
+> emails Go Frendi after the PI reads the text. **Mailbox 2 Nov:** no answer from the editor yet.
+> Ready in `papers/P2_settlement_model/`: `response_to_reviewers_r2.pdf`, `UPLOAD_R2_CHECKLIST.md`,
+> `EMAIL_GOFRENDI_APPROVAL_20261102.txt` (not sent), `SIG_signoff.md` round 2 (**CONDITIONAL GO**, no RED).
+> Fixed today: ledger **C091** (Data Availability sources/licences; Figures 1/5 plot the 378 model presences), §3.5
+> "pre-registered", §4.4 BPCB → BPK Wilayah XI. Ledger next **C093** (C092 = independent check of the letter, closed). **Nothing committed** (needs the PI's "ok").
+> Handoff: `docs/HANDOFF_20261102.md` (§5 = this session).
+
+> ## ▶▶ 2026-11-02 (Mon) — **decision K1 taken**; K1 pack + Table S9 built; ten-seed extension replicates the headline
+> **PI decisions (given this session):** **K1** (report both sets; claim = what holds in both); the **PI writes the
+> K1 text directly in English**; **Claude sends the editor email** after the PI reads it — draft ready, **not sent**.
+> **Done without the PI:**
+> - `papers/P2_settlement_model/K1_WRITING_PACK.md` — six places to write, every number with its source, and the
+>   list of sentences that must not survive;
+> - **Table S9** (`build_e236_table.py`; supplement v0.3 now 9 tables, clean compile);
+> - **intervals** for the K1 numbers (`E236/ci_check.py`): −0.014 [−0.021, −0.005] compiled; +0.051 [+0.036, +0.067] cleaned;
+> - **ten-seed extension** (declared before the run, `EXTENSION_SEEDS_20261102.md`): **+0.051 [+0.039, +0.063]**,
+>   29/30 cells, disjoint five-seed halves +0.0505 / +0.0516 → seed-stable and now meets line rule 3.
+>
+> **Done after that, same session:**
+> - **editor email SENT** 2026-11-02 (reply in the 20 Oct waiver thread to Dr González-Pérez; thread 2 → 3 messages);
+> - **K1 text written by Claude at the PI's request** and applied (`apply_session6_k1.py`, 15 edits, logged in
+>   `PI_PROSE_LOG_R2.md` "Session 6"): abstract rewritten (**282 words**), Methods 2.1 (the compiled records and the
+>   cleaning), **new §3.3**, §3.2/§4.1/conclusions restated, two Limitations items, AI declaration amended;
+> - `verify_k1_numbers.py`: **39 checks, 0 failed**; compile clean, **37 pp.**, no undefined refs; an **independent
+>   read** found no numeric mismatch and led to four precision fixes (V1–V4, `PI_PROSE_LOG_R2.md`).
+>
+> **Waiting on the PI now:** the **response-letter replies** (he writes them; skeleton ready), his read of the frozen
+> PDF, and Go Frendi's read. **Calendar unchanged:** 5 Nov P23 route S, 6 Nov fallbacks, **9 Nov freeze**,
+> **16 Nov upload**, 15 Nov K6. Canary **228**; next free **E237**; ledger next **C091** (C090 closed today).
+> **Handoff: `docs/HANDOFF_20261102.md`** (the 26 Oct one is in `docs/archive/handoffs/`). Nothing committed yet.
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
 > ## ▶▶ 2026-10-26 (later) — PI "ok, perbaiki" → fixes applied, **E236 run: on cleaned presences the design gain partly survives → decision K**

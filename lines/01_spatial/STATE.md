@@ -1,6 +1,35 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-10-26 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+**Updated:** 2026-11-02 · **Temperature:** 🟠 REVISION — P2 revisions requested by JCAA (round 2, 2026-10-19), **due 16 Nov 2026**; P17 withdrawn; P11 parked
+
+> ## 2 Nov (later) — **upload pack ready; waiting on the PI, Go Frendi and the editor** (PI: "selesaikan sampai submit")
+> - **PI decisions:** Claude drafts the response letter, the PI approves; wait for the editor's AI answer **until Mon
+>   9 Nov**, then upload regardless (extension the same day if the editor wants author-rewritten sections); the PI reads
+>   `READING_PACK_LINE156_20261102.md`; Claude emails Go Frendi from the PI's account after he reads the text.
+> - **Built:** `response_to_reviewers_r2.pdf` (5 pp.); `EMAIL_GOFRENDI_APPROVAL_20261102.txt` (not sent);
+>   `UPLOAD_R2_CHECKLIST.md` (A1–A9, three components, plain abstract, waiver sentence, G12); `SIG_signoff.md` round 2
+>   = **CONDITIONAL GO**, no RED (G7 after push; G10/G15/G16 for the PI).
+> - **Fixed (C091, log P1–P7):** Data Availability sources/licences (BPCB contributed 0 rows; Wikidata CC0); 14
+>   en-Wikipedia rows named; Figures 1 and 5 now plot the 378 model presences (Fig. 1: 161 cleaned filled / 217 open);
+>   §3.5 "pre-registered" (E222); §4.4 BPCB → BPK Wilayah XI (2022); §4.4 density ratio per set.
+> - **Independent check of the letter (C092):** verified and fixed (P8–P14: §3.3 hybrid SPECIFIC, §1.3/§3.2 heading, cleaning counts, refs, supplement section numbers); letter rewritten, 6 pp.
+> - **Checks:** 39/39; headline 4 known; compile clean 37 pp.; 11,234 words (whole-PDF method); abstract 282.
+> - **Next:** PI approves letter + reads pack → send Go Frendi email → commit + push → upload (≤ 9 Nov unless the editor
+>   answers earlier) → G12. **Nothing committed yet.**
+
+> ## 2 Nov — PI chose **K1**; K1 pack + Table S9 built; 10-seed extension replicates the cleaned-set contrast
+> - **PI decisions:** **K1** (report both sets); the **PI writes the K1 text directly in English**; **Claude sends
+>   the editor email** once the PI has read it (draft ready, **not sent**).
+> - **Built:** `K1_WRITING_PACK.md` (six places, all numbers sourced); **Table S9** (`build_e236_table.py`,
+>   supplement 9 tables, clean compile); `EMAIL_EDITOR_AI_20261102.txt`; `tools_count_abstract.py` (303 words).
+> - **CI (new):** compiled −0.014 [−0.021, −0.005]; cleaned +0.051 [+0.036, +0.067] (seed-cluster bootstrap).
+> - **Ten-seed extension** (declared first, `EXTENSION_SEEDS_20261102.md`): **+0.051 [+0.039, +0.063]**, 29/30 cells,
+>   disjoint halves +0.0505 / +0.0516 → seed-stable, and now satisfies rule 3 for the abstract number.
+> - **Done the same session:** editor email **sent** (thread 2→3); **K1 text written by Claude at the PI's request**
+>   and applied (`apply_session6_k1.py`, 15 edits; abstract 282 words; new §3.3; §3.2/§4.1/conclusions restated;
+>   AI declaration amended). `verify_k1_numbers.py`: 39 checks, 0 failed. Compile clean, 37 pp.
+> - **Open:** the response-letter replies (PI prose); PI's and Go Frendi's read of the frozen PDF.
+>   Canary 228; ledger next **C091** (C090 closed 2 Nov). **Handoff: `docs/HANDOFF_20261102.md`.**
 
 > ## 26 Oct (later) — PI "ok, perbaiki": fixes applied; **E236 run → the central claim must be reframed (agenda K)**
 > - **Session 5** (`PI_PROSE_LOG_R2.md`): 66 + 9 corrections; Figures 2, 3, 4, 6 rebuilt; supplement cleaned; new AI

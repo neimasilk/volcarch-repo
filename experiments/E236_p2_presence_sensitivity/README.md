@@ -101,6 +101,27 @@ it did not see `03_summarise.py` or the summaries. Its script is in the session 
 - **F:** its full-set k = 5 values differ by 0.005–0.009 from E221's split-half figures. The procedures differ (50
   random disjoint splits vs one fixed 5 + 5 split).
 
+## Extension (2026-11-02) — ten seeds on the cleaned set
+
+**Why:** decision K1 (PI, 2026-11-02) puts the cleaned-set contrast (+0.051) into P2's abstract, and it rested on
+`E217b`'s pre-registered 5 seeds, while line 01 rule 3 asks for ≥7 for a published AUC. Declared in
+`EXTENSION_SEEDS_20261102.md` **before** the run; not a new experiment, the pre-registered result stands untouched
+in `results/A_e217b/`.
+
+**Run:** `02_seed_extension.py` (unchanged E217b code through the same site-file wrapper, `N_SEEDS = 10`,
+output in `results/A_seeds10/`), 2026-11-02 08:54. Analysis: `ci_check.py` (reads the stored files only).
+
+| Claim A, hybrid − random, common background, cleaned set | Value |
+|---|---|
+| Pre-registered, seeds 0–4 | +0.0507, 14/15 cells positive |
+| Ten seeds, 0–9 | **+0.0510 [+0.039, +0.063]**, 29/30 cells positive, 10/10 seed means positive |
+| Disjoint five-seed halves (0–4 / 5–9) | **+0.0505 / +0.0516**, 5/5 and 5/5 positive |
+| Per algorithm (ten seeds) | MaxEnt +0.072, RandomForest +0.044, XGBoost +0.038 |
+
+**Verdict:** the cleaned-set contrast replicates across disjoint seed halves to within 0.001. It is a seed-stable
+finding, and unlike the old `k* = 7` curve it is measured between ensembles that share no seed (C083).
+No number from the pre-registered 5-seed run changed.
+
 ## Files
 
 - `clean_sites.py` · `01_run_part.py` · `02_disjoint_ensembles.py` · `03_summarise.py`;

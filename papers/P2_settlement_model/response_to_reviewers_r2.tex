@@ -1,0 +1,246 @@
+% P2 / JCAA #280 -- Response to Reviewers, round 2 (revision v0.3).
+% Drafted by Claude at the PI's request (2026-11-02, "Claude drafts, I approve"); the PI approves before upload.
+% The reviewers' points are summarised, not quoted (public repository). Every statement was traced against
+% submission_jcaa_v0.3.tex and checked by an independent reader on 2026-11-02 (findings applied the same day).
+% RE-TRACE against the frozen manuscript after any later change.
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\setlist{itemsep=2pt, topsep=3pt}
+\newcommand{\comment}[1]{\par\noindent\textit{Comment (summarised).} #1\par}
+\newcommand{\response}{\par\noindent\textbf{Response.} }
+\newcommand{\where}[1]{\par\noindent\textit{Where:} #1\par\medskip}
+
+\begin{document}
+
+\begin{center}
+{\large\bfseries Response to the Reviewers}\\[4pt]
+Journal of Computer Applications in Archaeology, submission \#280, second revision\\
+\textit{An Evaluation Artefact in Presence--Background Archaeological Modelling: Evidence from East Java and a Corrected Comparison Protocol}
+\end{center}
+
+Dear Dr González-Pérez, dear Reviewers,
+
+Thank you for the second round of comments. We have revised the text so that it no longer refers to the review
+process or to an earlier version of the paper; we have explained the statistical terms for readers who are not
+statisticians; we have added a new analysis to answer Reviewer~2's question about elevation and volcanic setting; and we
+have redrawn Figures~1 and 5 and corrected the reference list.
+
+While checking the data for this revision we also found a problem that neither reviewer raised: about a third of the
+378 presence records used throughout the paper are modern monuments or misplaced records. We re-ran the real-data
+analyses on a cleaned subset, and the result changed part of the paper's central claim. We describe this first, under
+\emph{Changes not requested by the reviewers}, because it is the largest change in this version and the reviewers should
+see it before the point-by-point answers.
+
+Section, table and figure numbers refer to the revised manuscript.
+
+% ------------------------------------------------------------------------------------------------
+\section*{Changes not requested by the reviewers}
+
+\subsection*{1. The presence records, a cleaned subset, and a restated central claim}
+
+\textbf{What we found.} The 378 presence records come from OpenStreetMap (279), lists in the Indonesian and English
+Wikipedia (85) and Wikidata (14). They sit on 335 distinct coordinates. About a third are not archaeological sites:
+124 are modern monuments, statues or memorials, and 13 are misplaced or are not sites at all (for example, Central
+Javanese temples carrying East Javanese coordinates). The previous version presented them, without qualification, as a
+subset of East Java's archaeological record.
+
+\textbf{What we did.} We defined a cleaning rule and re-ran the analyses on what it keeps. The rule removes 217 of the
+378 records: the 85 rows whose coordinates were geocoded from their names (all rows taken from the Wikipedia lists),
+the 124 modern monuments, and 8 temples of other regions, tourist objects and modern institutions; keeping one row per
+coordinate removes nothing further. 161 sites remain (155 from OpenStreetMap, 6 from Wikidata). The design of this
+re-analysis (E236) was committed to the public repository before it was run. It repeated the real-data contrasts the
+paper's argument rests on (the common-background benchmark, the own- versus common-background matrix, the hard-negative
+sweep, the priority maps and their seed agreement, and the elevation control), with the analysis code unchanged except
+for the file of presences it reads.
+
+\textbf{What changed in the results.}
+\begin{itemize}
+  \item On the 378 compiled records, redesigning the background with a common evaluation background held fixed
+        contributes $-0.014$ AUC (interval $-0.021$ to $-0.005$ over five seeds), as before.
+  \item On the 161 cleaned sites, the same redesign contributes $+0.051$ AUC. The pre-registered run used five seeds
+        ($+0.0507$, positive in 14 of 15 seed$\times$algorithm cells). After that run we extended it to ten seeds, to
+        meet our own rule of at least seven seeds for any reported value, and we report both: $+0.051$ ($+0.039$ to
+        $+0.063$), positive in 29 of 30 cells, and two halves of five seeds that share no seed give $+0.0505$ and
+        $+0.0516$. The interval is over seeds, not over sites; with 161 sites the detection floor is larger than for
+        the 378 records, which the Limitations state.
+  \item On the cleaned sites the hybrid design also beats the random design on every evaluation background (3/3
+        algorithms on each of the four backgrounds), whereas on the compiled records it led only on its own background.
+  \item What holds in both sets is the inflation from scoring a design on its own background: $+0.037$ on the compiled
+        records (60/60 cells) and $+0.041$ on the cleaned sites (54/60). On the cleaned sites, own-background
+        evaluation overstates the redesign gain by $+0.047$, close to the size of the gain itself.
+  \item The selection criterion still has no interior optimum on the cleaned sites, and the target-group steps of the
+        original sequence are not reproduced in either set. The elevation control gives the same primary result on
+        both sets (below).
+\end{itemize}
+
+\textbf{How the claim was restated.} The previous version concluded that the rise of the original sequence was an
+evaluation artefact and that, on a common evaluation background, redesigning the background adds nothing ($-0.014$
+AUC). That statement now holds only for the compiled records. The paper now reports both sets and claims what holds in
+both: own-background evaluation overstates the gain of a background design by about $+0.04$ to $+0.05$ AUC, and only a
+common evaluation background shows how much real gain remains. The original sequence of experiments (E007--E013) is
+kept on the 378 records, because it is the object under examination.
+
+\textit{Where:} Abstract; Section~1.3; Section~2.1 (the records and the cleaning rule); new Section~3.3 and
+Supplementary Table~S9 (both sets side by side); Sections~3.2 and 4.1; Conclusions; two new items and one amended
+item in the Limitations (Section~4.6); Figure~1 (cleaned sites and other records drawn differently); Data Availability
+(sources, licences and the cleaning script). The abstract therefore differs from the replacement abstract we sent to the
+editor on 2 October.
+
+\subsection*{2. Other corrections we made ourselves}
+\begin{itemize}
+  \item \textbf{Seed stability.} The previous version measured map agreement against a ten-seed ensemble that contains
+        the seeds being averaged, which flatters the result. We now also report the agreement between ensembles that
+        share no seed (Jaccard 0.76--0.86 for five seeds each on the compiled records, 0.70--0.77 on the cleaned
+        sites) and present ``at least seven seeds'' as a floor, not as a guarantee of stability
+        (Section~3.8, Figure~6, Table~1).
+  \item \textbf{The target-group steps.} The previous version called the whole part of the rise attributed to
+        background design an evaluation artefact. Only the hybrid step is shown to be one; the earlier target-group
+        steps are not reproduced in our benchmark. The text now says so, and the heading of Section~3.2 now reads
+        ``The ladder does not survive a common evaluation background'' (Sections~1.3 and 3.2).
+  \item \textbf{``Pre-registered''.} Of the experiments E217--E224, only E224 had its design committed before the run;
+        E218 and E220--E223 were run from written designs that entered the repository together with their results, and
+        E217 and E219 had no written design. Section~2.6 states this, and ``pre-registered'' is now used only for E224
+        and E235 (Sections~2.6 and 3.5).
+  \item \textbf{Synthetic inflation by design.} The count ``343/360'' pooled the three designs. It is now given per
+        design as well: hybrid 240/240 runs, random 52/60, target-group 51/60 (Section~3.2, Figure~3).
+  \item \textbf{Robust core.} Its definition was stated wrongly; it is the set of cells in the top decile under all
+        three background designs, and the caveat now gives the right reason why the density contrast is not a
+        validation (the same sites trained the models) (Section~3.8).
+  \item \textbf{Share of hard negatives.} The realised share of hard negatives in the hybrid design (0.62, against a
+        target of 0.30) was attributed to the target-group pool. The proportion of such points in the target-group
+        background (0.485) is close to that of the random background (0.503), so the explanation is now the
+        composition of the whole background pool (Section~2.3).
+  \item \textbf{Test 3.} The previous version used a performance check across road-distance quartiles (``Test 3'').
+        It was scored on each design's own background, so it is subject to the artefact this paper describes; the
+        text now says so and does not use it (Section~2.4).
+  \item \textbf{Data description.} The Data Availability statement listed a source that contributed no records and
+        gave a wrong licence for Wikidata; both are corrected.
+  \item \textbf{Authors' contributions and Declaration of AI use.} The Authors' Contributions now say that the
+        analyses were implemented with AI assistance, and the Declaration of AI Use states how the analyses and the
+        text were produced, in the terms of our message to the editor of 2 November.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------------
+\section*{Reviewer 1}
+
+\textbf{R1-1}
+\comment{The paper should be self-contained: no mention of reviewers, requests, responses, revisions or an earlier
+version; the story of the rework could go in the acknowledgements.}
+\response We removed or rewrote every passage of the main text that referred to the reviewers, to the review process or
+to an earlier version of the paper (38 in the previous version), including the abstract. The development of the
+analysis is now presented as the study's own sequence of experiments (Sections~1.3, 2.3 and 3.1), and the later
+experiments as tests of that sequence. Outside the main text, the Acknowledgements keep the conventional thanks to the
+editor and reviewers, and the Declaration of AI Use describes how the earlier drafts were produced, as the journal's AI
+policy requires.
+\where{whole text; Abstract; Acknowledgements; Declaration of AI Use.}
+
+\textbf{R1-2}
+\comment{The research question should be stated earlier, more clearly and more pedagogically for readers who are not
+statisticians.}
+\response The first paragraph of the Introduction now states the question in plain terms: a change in how background
+points are selected can raise the cross-validated AUC without the model becoming better, because the change can make the
+evaluation task easier; the study tests which of the two is happening.
+\where{Section~1, first paragraph.}
+
+\textbf{R1-3}
+\comment{The statistical methods need more explanation for non-specialists.}
+\response We added Table~1, \emph{Key terms}, which defines in plain language the terms the paper relies on:
+presence--background model, background design, hard negatives, evaluation background, availability domain, AUC, TSS,
+continuous Boyce index, spatial block cross-validation, seed ensemble, Jaccard overlap and coarsened exact matching.
+\where{Table~1 (Section~1.1).}
+
+\textbf{R1-4}
+\comment{Three expressions are hard to understand.}
+\response All three are replaced by literal wording: ``we sweep the hard-negative dial'' now reads ``we vary the share
+of hard negatives in the background from 0 to 1'' (Section~2.6); ``how large is judging at home?'' now reads ``how large
+is own-background inflation?'' (Section~3.2); and ``map Jaccard said no'' now reads ``the pre-registered primary metric
+was map Jaccard, and it did not support that reading'' (Section~3.6). We also removed the rest of the same family of
+expressions throughout the text and in the figures (for example ``dial'', ``home-court'' and ``judged at home''). The
+word ``ladder'' is kept for the original sequence of seven experiments and is defined where it first appears
+(Section~1.3).
+\where{Sections~1.3, 2.6, 3.2 and 3.6; Figures~2--4.}
+
+\textbf{R1-5}
+\comment{The section sign is unusual.}
+\response All section references now read ``Section~n''.
+\where{whole text.}
+
+\textbf{R1-6}
+\comment{The bibliography is inconsistently formatted and some names are misspelt; the Comer et al.\ reference is
+wrong.}
+\response We checked every reference that has a DOI against Crossref. Three entries carried wrong metadata and are
+corrected: Comer et al.\ (2023) (authors, title and volume), Wang, Shi \& Oguchi (2023) (authors and title) and
+Castiello \& Tonini (2021) (title and the first author's given name). The sentence that cited these three papers
+together did not describe them accurately; it has been rewritten from what the papers report (Section~1.3). Name
+spellings were corrected, DOIs were added where they exist, title capitalisation was made consistent, and the whole list
+now follows the journal's Harvard style.
+\where{References; Section~1.3.}
+
+\textbf{R1-7}
+\comment{Figure~1 should show the study area; it is a scatter plot whose axis values cannot be read.}
+\response Figure~1 is now a relief map drawn from the elevation model used by the models, with the coastline, a
+latitude--longitude grid, a scale bar, a north arrow and a locator map of Indonesia. It shows the presence records (the
+161 cleaned sites and the other 217 records drawn differently), the 13 volcanic centres inside the study area, and the
+20~km and 40~km distance lines used in the new elevation control.
+\where{Figure~1.}
+
+\textbf{R1-8}
+\comment{The legend of Figure~5 should not sit on the map.}
+\response The legend is now below the map. The map is drawn as a raster with the same coastline, grid and scale bar as
+Figure~1.
+\where{Figure~5.}
+
+\textbf{R1-9}
+\comment{The text should be cleaned of the history of the previous version.}
+\response As for R1-1.
+
+% ------------------------------------------------------------------------------------------------
+\section*{Reviewer 2}
+
+\textbf{R2-1}
+\comment{It is still unclear whether the model responds to volcanic areas or simply to high elevation; comparing
+volcanic land with non-volcanic land at the same elevation would settle it.}
+\response We ran the comparison you suggest as a new analysis (E235), with its design committed to the public
+repository before it was run. Land is ``near'' if it lies within 20~km of a Quaternary volcanic centre and ``far'' if it
+lies 40~km or more from one; within each 200~m elevation band the two are matched on slope, terrain ruggedness and
+topographic wetness, and uncertainty comes from a spatial block bootstrap (1,000 replicates). The result has two parts.
+\begin{itemize}
+  \item \textbf{Above about 1,000~m the comparison cannot be made in East Java.} Of the roughly 3,435~km$^2$ of land
+        above 1,000~m, 97.5\% lies within 20~km of a Quaternary volcanic centre and only 0.4\% lies 40~km or more
+        from one (about 15~km$^2$ at 1,000--1,200~m, none above 1,200~m). Elevation and volcanic setting therefore
+        cannot be separated there, and the paper now says so and attributes the pattern above 1,000~m to neither.
+  \item \textbf{Below 1,000~m no direction is claimed.} With XGBoost, the primary learner, matched suitability is
+        $+0.049$ higher near volcanic centres for the random design, $+0.049$ for the target-group design and $+0.060$
+        for the hybrid design. Under the pre-registered rule the hybrid result alone meets the criterion for a
+        volcano-specific difference, and the summary across the three designs is inconclusive. For the random design
+        the two pre-registered sensitivity definitions give $-0.002$ and $+0.016$, and post hoc variants give $+0.005$
+        to $+0.07$. The far uplands lie mostly in the Southern Mountains, an older (Eocene--Miocene) volcanic arc, so
+        they are not strictly non-volcanic land, and the text states this.
+\end{itemize}
+No model input carries volcanic information. We removed the earlier terrain-matched comparison, which had only two sites
+in its non-volcanic arm, and the wording that its result was consistent with a volcano-specific effect; the new analysis
+replaces it, and the paper no longer implies that the model's response is volcano-specific. On the cleaned sites the
+primary result is the same (the hybrid design alone meets the criterion; the summary is inconclusive), while the two
+sensitivity definitions exchange their labels between inconclusive and not specific (Section~3.3).
+\where{new Section~3.10; Figure~7; Supplementary Tables~S7--S8; Section~4.6 (Limitations); Section~3.3.}
+
+\textbf{R2-2}
+\comment{Without topography in Figure~1, readers cannot see how the model relates to elevation.}
+\response The new Figure~1 shows elevation (a hillshaded elevation model with an elevation scale) together with the
+distance lines used in the new control.
+\where{Figure~1.}
+
+\bigskip
+We thank both reviewers again. The remaining errors are ours.
+
+\medskip
+Mukhlis Amien and Go Frendi Gunawan\\
+Universitas Bhinneka Nusantara
+
+\end{document}
