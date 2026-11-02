@@ -11875,3 +11875,6 @@ sebelumnya: editor belum menjawab.
   (judul tetap). Browser portal ditutup. Audit draf Gmail: email Go Frendi hanya di Sent, tak ada draf tertinggal.
 - **Tidak ada lagi pekerjaan JCAA dari pihak kita** sampai editor/reviewer menjawab. Yang ditunggu: jawaban editor atas email AI
   2 Nov dan pesan diskusi; balasan tertulis Go Frendi (opsional, PI sudah melaporkan "ok"); keputusan ronde berikutnya.
+- **Handoff (PI: "buat handoff"):** pagi hari dipindah ke `docs/archive/handoffs/HANDOFF_20261102_K1.md`; `docs/HANDOFF_20261102.md`
+  ditulis ulang bersih (akhir hari: P2 terunggah, tak ada tugas JCAA; mulai sesi berikut dengan cek kotak surat; kalender 5/6/15
+  Nov; E234 tak lagi terhalang; catatan teknis unggah dan G12).

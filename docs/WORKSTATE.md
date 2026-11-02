@@ -14,7 +14,7 @@
 > `EMAIL_GOFRENDI_APPROVAL_20261102.txt` (not sent), `SIG_signoff.md` round 2 (**CONDITIONAL GO**, no RED).
 > Fixed today: ledger **C091** (Data Availability sources/licences; Figures 1/5 plot the 378 model presences), §3.5
 > "pre-registered", §4.4 BPCB → BPK Wilayah XI. Ledger next **C093** (C092 = independent check of the letter, closed). **Nothing committed** (needs the PI's "ok").
-> Handoff: `docs/HANDOFF_20261102.md` (§5 = this session).
+> Handoff: `docs/HANDOFF_20261102.md` (end of day; the morning K1 handoff is `docs/archive/handoffs/HANDOFF_20261102_K1.md`).
 
 > ## ▶▶ 2026-11-02 (Mon) — **decision K1 taken**; K1 pack + Table S9 built; ten-seed extension replicates the headline
 > **PI decisions (given this session):** **K1** (report both sets; claim = what holds in both); the **PI writes the
