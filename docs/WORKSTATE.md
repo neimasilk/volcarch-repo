@@ -1,6 +1,14 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-11-02 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-11-03 · **This file is short by design. Keep it that way.**
+
+> ## 🟠 2026-11-03 08:20 WIB — **P2/JCAA: the editor does not accept AI-written text → PI chose to REWRITE; replacement promised by 30 Nov**
+> The editor answered the 2 Nov discussion: AI may not write substantial parts of the paper; the authors write everything.
+> Our uploaded v0.3 is mostly Claude-drafted (declared; ledger **C093**). **PI decisions:** rewrite (not withdraw, not
+> argue); replacement **≤ 30 Nov**; plain abstract with the new files. **Reply POSTED 08:20 WIB** (hold the round-2 files;
+> PI writes in Indonesian, AI only translates). **Next: the PI writes ~6,000 words in ~15 sessions, Results first;
+> checkpoint 25 Nov** (ask for more time that day if unfinished). Plan, schedule, method:
+> `papers/P2_settlement_model/AGENDA_PI_20261103.md`. Nothing committed.
 
 > ## ✅ 2026-11-02 ~10:35 WIB — **P2/JCAA round 2 RESUBMITTED** (10667 manuscript, 10668 supplement, 10669 response; G12 lossless).
 > PI chose to upload before the editor's answer. Review Discussion message to the editor (waiver, AI note, abstract
@@ -409,6 +417,8 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 | Deadline | Item |
 |---|---|
 | ~~23 Oct 2026~~ | ✅ **Follow-ups SENT 22 Oct** (Nastiti 09:16 with the list re-attached; VEGAN 09:15), in the 2 Oct threads |
+| **25 Nov 2026** | **P2 rewrite checkpoint:** if the PI's text is unfinished, ask the JCAA editor for more time that day |
+| **30 Nov 2026** | **P2/JCAA replacement manuscript + response (author-written) + plain abstract — promised to the editor 3 Nov** |
 | 5 Nov 2026 | P23 G10: route S opens if Nastiti is still silent (14 days after the follow-up) |
 | **23 Oct 2026** | **P2 revision: PI decisions D1–D7 + waiver email (D4)** — `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md` §5 |
 | 2 Nov / 9 Nov 2026 | P2 freeze: strict G14 (2 Nov) or D2 option (b) (9 Nov); if it slips past **6 Nov**, ask JCAA for an extension that day |
@@ -425,7 +435,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REVISION | **P2: revisions requested 2026-10-19, due 16 Nov** — E235 done (overlap ceiling 1,000 m); figures, v0.3 (mechanical), VENUE, writing pack done; waiver email sent; **next = the PI's prose (freeze ≤ 9 Nov)**; references C076 · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: round 2 uploaded 2 Nov; editor 2 Nov: no AI-written text → PI rewrites the whole text, replacement ≤ 30 Nov** (C093; `AGENDA_PI_20261103.md`) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; **follow-up sent 10-22**; fallback 6 Nov. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |
@@ -501,7 +511,7 @@ DJKI HKI filing (4 docs ready) · dashboard model regeneration on the 30-volcano
 
 | Paper | Line | Status |
 |---|---|---|
-| **P2** Settlement model | 01 | 🟠 **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov.** R1 Resubmit for Review (clarity), R2 Revisions Required (elevation vs volcanic setting). Triage: `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`. APC waiver still undecided (G15). Claim set: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. |
+| **P2** Settlement model | 01 | 🟠 **Round 2 uploaded 2026-11-02; editor (2 Nov): AI-written text not allowed → author rewrite, replacement promised ≤ 30 Nov (C093).** Earlier: **REVISIONS REQUESTED 2026-10-19 (JCAA #280, round 2), due 16 Nov.** R1 Resubmit for Review (clarity), R2 Revisions Required (elevation vs volcanic setting). Triage: `papers/P2_settlement_model/REVISION_JCAA_R2_20261019.md`. APC waiver still undecided (G15). Claim set: `review_package_20260727/10_SET_KLAIM_TERKOREKSI.md`. |
 | **P17** Two Javas | 01 | ⛔ **WITHDRAWN 2026-10-02** (ArchCalc #365; never left the submission stage). Central result = geocoding artefact (C032); second result (929 CE shift) rides on the same points. Record: `docs/correspondence/EMAIL_ARCHCALC_P17_INTEGRITY_NOTICE_DRAFT_20261001.md`. A methods paper on the artefact is possible later (not planned). |
 | **P8** Linguistic fossils | 04 | 🟢 **conditionally accepted 2026-10-05; R1 submitted 2026-10-15** — *Oceanic Linguistics* (Scimago Q2) OL-03-2026-11R1; second review round by the same reviewers. Record: `papers/P8_linguistic_fossils/revision_v0.2/PORTAL_STATE_20261015.md`. |
 | **P23** sīma village toponyms (Naskah A) | 05 | 📝 PLANNING (2026-10-02) — critical case study (toponym resolution is the bottleneck) from E226's frame → **DHQ "Case Study"** (no fees; JDMDH backup). Needs human validation of a sample (epigrapher asked: Nastiti, 13:55). Drafting allowed; submission blocked by G13 until P2 or P8 decides. `papers/P23_sima_village_toponyms/README.md` |

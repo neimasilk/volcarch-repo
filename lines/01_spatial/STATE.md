@@ -1,6 +1,17 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-11-02 · **Temperature:** 🟢 WAITING — P2 round-2 revision **resubmitted to JCAA 2026-11-02** (was due 16 Nov); P17 withdrawn; P11 parked
+**Updated:** 2026-11-03 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+
+> ## 🟠 3 Nov — **P2: editor says the authors must write the text; PI chose to rewrite (≤ 30 Nov)** — ledger C093
+> - **Editor (2 Nov 20:09 WIB, paraphrased):** send the abstract as plain text; JCAA does not allow AI to write substantial
+>   parts (methods, results, discussion …), so the authors write everything. Our v0.3 is mostly Claude-drafted (declared).
+> - **PI decisions:** **R — rewrite** (not withdraw, not argue); replacement **≤ 30 Nov**; abstract with the new files.
+> - **Reply POSTED 08:20 WIB** (Review Discussion): hold the round-2 files; the PI writes in Indonesian, AI only translates.
+> - **Method (stricter G16):** bullet-only fact sheets (no Indonesian prose to copy); Claude explains methods in chat on
+>   request; the PI writes; Claude translates faithfully and flags every extra change first; log `PI_PROSE_LOG_R3.md`;
+>   new text in `submission_jcaa_v0.4.tex`. **Claude does not draft manuscript prose for JCAA, even when asked.**
+> - **Next:** session 1 = Results §3.1–3.3 (fact sheet first). Schedule (~15 sessions) and the **25 Nov checkpoint**:
+>   `papers/P2_settlement_model/AGENDA_PI_20261103.md` §5.
 
 > ## ✅ 2 Nov ~10:35 WIB — **P2 ROUND 2 RESUBMITTED to JCAA** (files 10667–10669; PI pressed Complete; G12 lossless)
 > PI chose to upload before the editor's answer to the AI email. Review Discussion message (waiver + AI note + abstract

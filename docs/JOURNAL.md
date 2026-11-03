@@ -11878,3 +11878,35 @@ sebelumnya: editor belum menjawab.
 - **Handoff (PI: "buat handoff"):** pagi hari dipindah ke `docs/archive/handoffs/HANDOFF_20261102_K1.md`; `docs/HANDOFF_20261102.md`
   ditulis ulang bersih (akhir hari: P2 terunggah, tak ada tugas JCAA; mulai sesi berikut dengan cek kotak surat; kalender 5/6/15
   Nov; E234 tak lagi terhalang; catatan teknis unggah dan G12).
+
+## 2026-11-03 (Sel, ±08:00–08:30 WIB) — P2 / JCAA #280: editor menolak teks tulisan AI → PI memilih tulis ulang, pengganti ≤ 30 Nov
+
+Sesi orbit. PI menempelkan jawaban editor (Dr César González-Pérez, Review Discussion, 2 Nov 20:09 WIB; diparafrasekan,
+aslinya di kotak surat PI): (1) kirim abstrak baru sebagai teks polos tanpa nomor baris/format; (2) menurut AI Ethics
+Policy jurnal, AI tidak boleh menulis bagian substansial makalah (metode, hasil, diskusi, dsb.), jadi penulis manusia
+dianggap menulis semuanya sendiri. Kanari hijau 228; inBox kosong; kotak surat sejak 2 Nov: hanya jawaban ini dari JCAA,
+tidak ada dari Go Frendi.
+- **Dicek:** halaman kebijakan live (3 Nov): penerjemahan dan bantuan bahasa = boleh; "ghost-writing" = penipuan, kasus jelas
+  → desk reject; daftar "boleh" masih memuat "generating a prose based on your notes or data" — tetapi editor sudah
+  menyatakan bacaannya untuk makalah ini, jadi tidak didebat (SIG: jangan rewording kritik yang sah).
+- **Ukuran masalah** (`section_words.py` di scratchpad, kasar, tabel/gambar tidak dihitung): ±7.700 kata prosa abstrak–
+  kesimpulan; prosa PI sendiri (passage 1–8) ±1.300–1.800 kata, sebagian disisipi kalimat Claude di sesi 5–6. Sisa ±6.000
+  kata + surat tanggapan 6 hlm. + keterangan gambar/alt text. Deklarasi AI kita sendiri sudah jujur menyatakan semua ini.
+- **Ledger C093** (terbuka). Agenda + draf balasan + rencana: `papers/P2_settlement_model/AGENDA_PI_20261103.md`.
+- **Keputusan PI (dijawab dalam sesi):** **R — tulis ulang** (bukan tarik, bukan debat); tanggal pengganti **30 Nov 2026**
+  (rekomendasi Claude 14 Des; PI memilih lebih cepat); **abstrak dikirim bersama berkas pengganti**.
+- **08:20 WIB — balasan ke editor TERKIRIM** di Review Discussion yang sama (teks §4 agenda, disetujui PI tanpa perubahan,
+  dicek identik sebelum OK; sesi portal masih login; utas kini 2 balasan): mengakui bahwa bagian besar Methods/Results/
+  Discussion, abstrak dan kesimpulan dirancang AI; akan ditulis ulang oleh penulis, termasuk surat tanggapan; mohon berkas
+  ronde 2 ditahan dan tidak dikirim ke reviewer; pengganti ≤ 30 Nov; penulis pertama menulis dalam bahasa Indonesia, AI hanya
+  menerjemahkan dan cek bahasa; abstrak polos bersama berkas pengganti.
+- **Metode tulis ulang (G16 diperketat untuk JCAA):** lembar fakta per bagian **hanya butir dan angka**, tanpa prosa Indonesia
+  yang bisa disalin (kalau tidak, itu ghost-writing lewat terjemahan); Claude boleh menjelaskan metode/statistik di chat;
+  PI menulis dengan kata-katanya sendiri; Claude menerjemahkan setia, setiap perubahan di luar terjemahan diberitahukan lebih
+  dulu; log baru `PI_PROSE_LOG_R3.md`; naskah baru `submission_jcaa_v0.4.tex`. Jadwal ±15 sesi PI di agenda §5;
+  **titik cek 25 Nov** — bila belum selesai, minta waktu ke editor hari itu juga.
+- **Pelajaran:** permintaan PI "kamu saja yg menuliskan" (22 Okt, 2 Nov) seharusnya ditolak untuk jurnal ini — aturan jurnal
+  sudah diketahui sejak 20 Okt dan G16 ada untuk itu. Deklarasi yang jujur tidak menjadikan ghost-writing boleh.
+- **[BRIDGE → 04_language_text]** P8 R1 (OL) juga ditulis Claude (PI mengesampingkan G16 pada 7 Okt, C067); editor OL hanya
+  meminta pengakuan penggunaan AI dan itu sudah ada. Tidak ada tindakan sekarang; cek kebijakan AI OL bila ada ronde berikut.
+- Tidak di-commit (menunggu kata PI).
