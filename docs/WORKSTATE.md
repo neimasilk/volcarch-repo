@@ -4,12 +4,13 @@
 
 > ## 🟠 2026-11-10 (evening) — **P2 rewrite session 3 DONE (§3.7–3.9); commit `301c661` pushed; 3 of ~15 sittings done**
 > PI wrote/re-read §3.7–3.9 and decided every flag. New ledger **C094** (Test 1 verdict was GREY_ZONE, not "pass"; §3.9
-> fixed, Methods owed). Results §3.1–3.9 +462 words vs v0.3. **Next: session 4 = §3.10–3.11.** Session 3 committed `669a65f`.
+> fixed, Methods owed). Results §3.1–3.9 +462 words vs v0.3. **Next: session 4 = §3.10–3.11, Wed 11 Nov** (PI: "lanjut besok").
+> Session 3 committed `669a65f`. **Handoff: `docs/HANDOFF_20261111.md`.**
 >
 > ## 🟠 2026-11-10 (later) — **P2 rewrite session 2 DONE: §3.4–3.6 by the PI, in v0.4; 2 of ~15 sittings done**
 > Numbers verified from raw files; flags answered ("default" + two PI sentences, incl. "the TGB null remains unexplained").
 > Compile clean, 38 pp. Results §3.1–3.6 now +351 words vs v0.3 (PI accepts; savings in Methods/Discussion). **Next:
-> session 3 = §3.7–3.9.** Handoff `docs/HANDOFF_20261110.md`. Not committed (asked).
+> session 3 = §3.7–3.9.** Handoff `docs/HANDOFF_20261111.md`. Not committed (asked).
 >
 > ## 🟠 2026-11-10 — **P2 rewrite: session 2 (§3.4–3.6) prepared 9 Nov, resumes today; 1 of ~15 sittings done**
 > 4–8 Nov idle. 9 Nov: the editor's 3 Nov answer (files held until the new version; no objection to the

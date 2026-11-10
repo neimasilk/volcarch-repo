@@ -9,6 +9,7 @@
 >   §3.9 now says "the verdict does not change"; **Methods l. 274 still owed** (Methods session).
 > - Length: session 3 +111; Results §3.1–3.9 **+462** vs v0.3. Next: **session 4 = §3.10–3.11** (mostly PI passages 2, 3a,
 >   8E — separate the Claude-inserted sentences of sessions 5–6, e.g. H20 in §3.11). 3 of ~15 sittings done.
+>   **Session 4 on Wed 11 Nov** (PI: "lanjut besok"). Handoff `docs/HANDOFF_20261111.md`. Commit `669a65f` (session 3).
 
 > ## 🟠 10 Nov — **P2 session 2 DONE: §3.4–3.6 written by the PI, translated, inserted in v0.4 (lines 474–527); 38 pp.**
 > - All numbers re-verified from the raw files (E222, E222c/d, E218b, E224) — all match. Flags M1, F4–F15 raised before
@@ -18,7 +19,7 @@
 >   Figure 2 uncited in the text (session 1); Figure 4 caption in v0.3 wording (captions session).
 > - **Length:** §3.4–3.6 609 → 697 (+88); Results §3.1–3.6 +351 vs v0.3; PI accepts, savings sought in Methods/Discussion.
 > - **Next: session 3 = §3.7–3.9** (CIs/detection floor E223; priority maps E221/E236; volcanic diagnostics). 2 of ~15
->   sittings done. Handoff `docs/HANDOFF_20261110.md`. Log `PI_PROSE_LOG_R3.md` "Session 2".
+>   sittings done. Handoff `docs/HANDOFF_20261111.md`. Log `PI_PROSE_LOG_R3.md` "Session 2".
 
 > ## 🟠 9–10 Nov — **P2 session 2 (§3.4–3.6) prepared; waiting for the PI's Indonesian text** *(done 10 Nov, above)*
 > - **4–8 Nov:** no work (session 2 planned for 4 Nov did not happen). **9 Nov:** editor's 3 Nov 17:00 answer found

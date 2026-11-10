@@ -12007,3 +12007,6 @@ tidak ada dari Go Frendi.
   dengan seed saja". Tidak diubah.
 - **Hitungan sesi:** 3 dari ±15. Berikutnya sesi 4 = §3.10–3.11 (sebagian besar passage 2, 3a, 8E milik PI — perlu dipilah
   kalimat sisipan Claude sesi 5–6, mis. H20 di §3.11).
+- **Penutup 10 Nov:** commit `669a65f` (sesi 3) + `0fe72ba` (catatan commit) pushed atas "silahkan". PI: "sesi selanjutnya,
+  lanjut besok ya.. sekarang bikin handoff dulu" → `docs/HANDOFF_20261111.md` (sesi 4 = §3.10–3.11; langkah pertama memilah
+  kalimat PI vs Claude di passage 2, 3a, 8E); handoff 10 Nov dipindah ke `docs/archive/handoffs/`. Handoff di-commit bersama penutup ini.
