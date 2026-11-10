@@ -1,6 +1,18 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-11-03 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-11-10 · **This file is short by design. Keep it that way.**
+
+> ## 🟠 2026-11-10 (later) — **P2 rewrite session 2 DONE: §3.4–3.6 by the PI, in v0.4; 2 of ~15 sittings done**
+> Numbers verified from raw files; flags answered ("default" + two PI sentences, incl. "the TGB null remains unexplained").
+> Compile clean, 38 pp. Results §3.1–3.6 now +351 words vs v0.3 (PI accepts; savings in Methods/Discussion). **Next:
+> session 3 = §3.7–3.9.** Handoff `docs/HANDOFF_20261110.md`. Not committed (asked).
+>
+> ## 🟠 2026-11-10 — **P2 rewrite: session 2 (§3.4–3.6) prepared 9 Nov, resumes today; 1 of ~15 sittings done**
+> 4–8 Nov idle. 9 Nov: the editor's 3 Nov answer (files held until the new version; no objection to the
+> translation arrangement, no date of his own); PI caps §3.4–3.6 at v0.3 length (261/92/247); 6 Nov fallbacks decided
+> (P23 route S after P2, no new email; T5/VEGAN parked; no outreach before 30 Nov). Writing sheet
+> `papers/P2_settlement_model/rewrite_r3/LEMBAR_TULIS_S2_20261109.docx`. Mailbox 10 Nov: nothing new. **13–14 sittings left
+> for 10–24 Nov — about one a day; 25 Nov checkpoint unchanged.** Details: line 01 `STATE.md`, JOURNAL 9 Nov.
 
 > ## 🟠 2026-11-03 08:20 WIB — **P2/JCAA: the editor does not accept AI-written text → PI chose to REWRITE; replacement promised by 30 Nov**
 > The editor answered the 2 Nov discussion: AI may not write substantial parts of the paper; the authors write everything.
@@ -8,7 +20,13 @@
 > argue); replacement **≤ 30 Nov**; plain abstract with the new files. **Reply POSTED 08:20 WIB** (hold the round-2 files;
 > PI writes in Indonesian, AI only translates). **Next: the PI writes ~6,000 words in ~15 sessions, Results first;
 > checkpoint 25 Nov** (ask for more time that day if unfinished). Plan, schedule, method:
-> `papers/P2_settlement_model/AGENDA_PI_20261103.md`. Nothing committed.
+> `papers/P2_settlement_model/AGENDA_PI_20261103.md`. Commit `912226f` pushed.
+> **Later 3 Nov — session 1 of the rewrite is DONE:** the PI wrote §3.1–3.3 in Indonesian (2,049 words), Claude
+> translated and inserted them into `submission_jcaa_v0.4.tex` (compile clean, **38 pp.**), with every number
+> re-verified. **§3.1–3.3 came out 1,642 words, so the manuscript is at ≈ 11,497 of 11,500 — three words of slack.**
+> Sessions 2–4 must be written shorter than v0.3 (decision open). Log: `papers/P2_settlement_model/PI_PROSE_LOG_R3.md`.
+> **Handoff: `docs/archive/handoffs/HANDOFF_20261104.md`** (start: mailbox, then the budget decision, then session 2 = §3.4–3.6).
+> **Fifteen PI sittings planned; one done, thirteen or fourteen left** (25 Nov checkpoint).
 
 > ## ✅ 2026-11-02 ~10:35 WIB — **P2/JCAA round 2 RESUBMITTED** (10667 manuscript, 10668 supplement, 10669 response; G12 lossless).
 > PI chose to upload before the editor's answer. Review Discussion message to the editor (waiver, AI note, abstract
@@ -22,7 +40,7 @@
 > `EMAIL_GOFRENDI_APPROVAL_20261102.txt` (not sent), `SIG_signoff.md` round 2 (**CONDITIONAL GO**, no RED).
 > Fixed today: ledger **C091** (Data Availability sources/licences; Figures 1/5 plot the 378 model presences), §3.5
 > "pre-registered", §4.4 BPCB → BPK Wilayah XI. Ledger next **C093** (C092 = independent check of the letter, closed). **Nothing committed** (needs the PI's "ok").
-> Handoff: `docs/HANDOFF_20261102.md` (end of day; the morning K1 handoff is `docs/archive/handoffs/HANDOFF_20261102_K1.md`).
+> Handoff: `docs/archive/handoffs/HANDOFF_20261102.md` (end of day; the morning K1 handoff is `docs/archive/handoffs/HANDOFF_20261102_K1.md`).
 
 > ## ▶▶ 2026-11-02 (Mon) — **decision K1 taken**; K1 pack + Table S9 built; ten-seed extension replicates the headline
 > **PI decisions (given this session):** **K1** (report both sets; claim = what holds in both); the **PI writes the
@@ -46,7 +64,7 @@
 > **Waiting on the PI now:** the **response-letter replies** (he writes them; skeleton ready), his read of the frozen
 > PDF, and Go Frendi's read. **Calendar unchanged:** 5 Nov P23 route S, 6 Nov fallbacks, **9 Nov freeze**,
 > **16 Nov upload**, 15 Nov K6. Canary **228**; next free **E237**; ledger next **C091** (C090 closed today).
-> **Handoff: `docs/HANDOFF_20261102.md`** (the 26 Oct one is in `docs/archive/handoffs/`). Nothing committed yet.
+> **Handoff: `docs/archive/handoffs/HANDOFF_20261102.md`** (the 26 Oct one is in `docs/archive/handoffs/`). Nothing committed yet.
 Previous version (P2-submitted era, 11–13 Aug): `docs/archive/WORKSTATE_snapshot_20260813.md`.
 
 > ## ▶▶ 2026-10-26 (later) — PI "ok, perbaiki" → fixes applied, **E236 run: on cleaned presences the design gain partly survives → decision K**
@@ -435,7 +453,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: round 2 uploaded 2 Nov; editor 2 Nov: no AI-written text → PI rewrites the whole text, replacement ≤ 30 Nov** (C093; `AGENDA_PI_20261103.md`) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: rewrite under way — sessions 1–2 done (§3.1–3.6 in v0.4, 10 Nov); session 3 = §3.7–3.9.** Editor 2 Nov: no AI-written text → PI writes, replacement ≤ 30 Nov (C093) · **Results +351 words vs v0.3** (count method open, JOURNAL 9 Nov) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; **follow-up sent 10-22**; fallback 6 Nov. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |

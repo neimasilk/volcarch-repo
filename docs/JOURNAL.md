@@ -11910,3 +11910,82 @@ tidak ada dari Go Frendi.
 - **[BRIDGE → 04_language_text]** P8 R1 (OL) juga ditulis Claude (PI mengesampingkan G16 pada 7 Okt, C067); editor OL hanya
   meminta pengakuan penggunaan AI dan itu sudah ada. Tidak ada tindakan sekarang; cek kebijakan AI OL bila ada ronde berikut.
 - Tidak di-commit (menunggu kata PI).
+
+**Lanjutan (3 Nov) — PI: "commit dan push, lalu mulai sesi 1 Results" → `912226f` pushed; sesi 1 disiapkan:**
+- Lembar fakta `papers/P2_settlement_model/rewrite_r3/FACTS_S1_RESULTS_3_1-3_3.md` (butir + angka + sumber; fungsi tiap
+  subbagian; poin reviewer; daftar kalimat terlarang K1–K7/C082/C084/C090). Tanpa kalimat siap-salin.
+- Angka dicek ulang: `verify_k1_numbers.py` 39/39; `verify_headline_numbers.py` 60/64 (4 = K5/K6/K7/G1c yang sudah ditarik);
+  tabel tangga E007–E013 cocok dengan `model_results.txt` tiap eksperimen; E222 per desain dari `e222_runs.csv`: hybrid
+  240/240 (median +0,238), acak 52/60 (+0,020), TGB 51/60 (+0,014), total 343/360.
+- **Temuan F1 (untuk PI):** §3.1 memasangkan AUC rata-rata 20 seed 0,751 dengan TSS run asli 0,507 ± 0,167; TSS rata-rata
+  20 seed = 0,465 ± 0,021 (`supplement/e013_robustness_summary.txt`). Saran: pasangkan yang sejenis.
+- Catatan kecil: `supplement/null_model_comparison.txt` + skripnya berlabel "Malang Raya", padahal batasnya seluruh Jatim
+  (111–115° BT, 9–6,5° LS); label usang, angka tak terpengaruh.
+- **PI: "catat ke handoff dulu, nanti kita kerjakan"** → `docs/HANDOFF_20261103.md` (handoff 2 Nov dipindah ke
+  `docs/archive/handoffs/`). Mulai sesi berikut: cek kotak surat untuk jawaban editor atas balasan 3 Nov, lalu sesi 1.
+  Belum di-commit: lembar fakta, log R3, STATE line 01, handoff.
+
+**2026-11-03 (lanjutan) — P2 sesi 1 tulis ulang selesai (§3.1–3.3)**
+- PI menulis §3.1 (111 kata), §3.2 (989), §3.3 (949) dalam bahasa Indonesia dari lembar fakta butir-dan-angka; Claude
+  menerjemahkan setia, memasukkan ke `submission_jcaa_v0.4.tex` (v0.3 tetap sebagai berkas unggahan), kompilasi bersih 38 hlm.
+- **Verifikasi angka:** `e223b_bootstrap_summary.csv` (maxent +0,0082 / xgboost +0,0253 / randomforest +0,0256 — pemetaan
+  PI benar), `e223c_beta_summary.csv` (−0,0198 s.d. −0,0217; 1/10 positif), `e222_runs.csv` (240/240, 52/60, 51/60,
+  343/360), `E236/results/summary_clean.json`. Semua cocok.
+- **Keputusan PI ("lakukan"):** F1 = A (TSS rata-rata seed 0,465 dipasangkan dengan 0,751); H1 = **8** — angka 13 di §3.3
+  dihapus karena tidak rekonsiliasi dengan akuntansi 85 + 124 + 8 = 217 → 161; G1 `\ref{sec:ci}`; G2 buang frasa
+  "sebelumnya dilaporkan"; empat kalimat pengulang dipangkas.
+- **Budget kata (diselesaikan atas instruksi PI "silahkan sesuaikan"):** pemangkasan kedua memadatkan §3.3 dari 834 ke
+  614 kata **tanpa membuang satu angka atau klaim pun**; §3.1–3.3 1.379 → **1.642 (+263)**. Naskah ± **11.497 dari batas
+  11.500** — sisa tiga kata. Konsekuensinya: sesi 2–4 harus ditulis **lebih pendek** dari v0.3 (target sesi 2 = 510 dari 600).
+- Log lengkap (teks Indonesia verbatim + Inggris + semua flag): `papers/P2_settlement_model/PI_PROSE_LOG_R3.md`.
+  Lembar tulis: `rewrite_r3/LEMBAR_TULIS_S1_20261103_v2.docx`. **Belum di-commit.**
+
+**2026-11-09 (Sen) — P2 sesi 2 disiapkan; jawaban editor 3 Nov ditemukan; anggaran kata dikoreksi; fallback 6 Nov diputuskan**
+- **Jeda 4–8 Nov:** sesi 2 yang dijadwalkan 4 Nov tidak terjadi; tidak ada kerja di repo 4–8 Nov. Canary hijau 228; inBox kosong.
+- **Kotak surat (1–9 Nov, termasuk spam):** editor JCAA menjawab balasan kita **3 Nov 17:00** (parafrase): naskah **ditahan
+  sesuai permintaan sampai versi baru dikirim**. Tidak ada keberatan atas pengaturan "PI menulis bahasa Indonesia, AI hanya
+  menerjemahkan", tapi juga tidak ada persetujuan eksplisit; tidak ada tanggal dari editor — janji ≤ 30 Nov tetap milik kita.
+  Teks asli hanya di kotak surat PI (repo publik). Tidak ada kabar dari Nastiti, VEGAN, OL, arXiv.
+- **Alat surat:** Google meminta "Verify it's you" (kolom email tersembunyi, sudah terisi) → `gmail_check.py` gagal mengisi
+  `#identifierId`. Diperbaiki: kalau kolom itu tak terlihat, klik tombol "Next". Login lalu berhasil tanpa campur tangan.
+  Catatan: pencarian pertama "after:2026/11/03" mengembalikan 0 baris (halaman belum termuat); diulang dengan "after:2026/11/01" → 53 baris.
+- **Anggaran kata — angka "sisa 3 kata" ternyata bergantung metode.** Dihitung ulang hari ini: teks + referensi tanpa
+  tabel/gambar (`tools_count_words.py`) v0.3 **8.587** → v0.4 **8.834**; semua token PDF 12.054 → 12.324; token beralfabet
+  10.251 → 10.491. Metode "11.234" (2 Nov) **tidak bisa diulang persis**; hanya selisih +247…+270 yang konsisten. Aturan JCAA:
+  "normally under 11,500 words … include referencing and citation" (tabel tak disebut).
+- **Keputusan PI (9 Nov):** (1) **plafon = panjang v0.3 per subseksi** (§3.4 ≤ 261, §3.5 ≤ 92, §3.6 ≤ 247); kelebihan +263
+  sesi 1 dibiarkan. (2) **Fallback 6 Nov: rute S untuk P23 tanpa email baru (dikerjakan setelah P2 terkirim); T5/VEGAN
+  di-park; tidak ada outreach baru sebelum 30 Nov.**
+- **Sesi 2 disiapkan:** `rewrite_r3/FACTS_S2_RESULTS_3_4-3_6.md` + `LEMBAR_TULIS_S2_20261109.docx` (8 hlm.;
+  `build_writing_sheet_s2.py`, helper bersama `sheet_lib.py`). Angka: `verify_headline_numbers.py` 60/64 (4 = K5/K6/K7/G1c);
+  E224 dihitung ulang dari `e224_runs.csv` (−0,0254 / −0,0217, 30 %/30 %; AUC sebenarnya 36,7 % → 60 %; korelasi road_dist
+  +0,49 river, +0,31 elevasi) — cocok; E222 per dunia dari `e222_runs.csv` (A+B −0,010, 28/60; A −0,0247; B +0,0046) — cocok;
+  E224 pra-registrasi sah (`d4f44af` sebelum `c826b40`).
+- **Flag untuk PI:** F2 — E220 (20 seed) mereplikasi kurva kriteria di data nyata tanpa turunan 0.0→0.1 (own 0,707 → 0,842;
+  common 0,695 → 0,601); v0.3 dan Gambar 4 memakai E218b (5 seed); saran tetap E218b. F3 — v0.3 §3.5 menulis prediksi E222
+  berlaku "in every regime", desainnya "Spearman > 0.5 across all runs" (gabungan).
+- **Koreksi diri:** draf lembar fakta sempat menulis bahwa reviewer meminta TGB tidak dianggap gagal umum — tidak berdasar
+  (R1-3 hanya soal istilah); diperbaiki sebelum diserahkan.
+
+**2026-11-10 (Sel) — P2 sesi 2 tulis ulang SELESAI (§3.4–3.6)**
+- Mulai: canary hijau 228; inBox kosong; kotak surat 1–10 Nov dicek ulang — tidak ada yang baru dari JCAA, OL, Nastiti,
+  VEGAN, arXiv (jawaban editor 3 Nov 17:00 tetap yang terakhir). Drift dibereskan: sesi 9 Nov hanya ada di JOURNAL →
+  dicatat di WORKSTATE dan STATE line 01.
+- PI menulis §3.4 (1 pesan), §3.5 (2 versi; versi kedua menggantikan yang pertama), §3.6 dalam bahasa Indonesia dari
+  `rewrite_r3/LEMBAR_TULIS_S2_20261109.docx`. Claude menerjemahkan, memverifikasi semua angka dari berkas mentah
+  (`e222_runs.csv`, `e222_selection.csv`, `e222c/d_runs.csv`, `e218b_hardfrac_sweep.csv`, `e224_outcome.json`) — **semua cocok**.
+- **Temuan saat verifikasi (dilaporkan ke PI sebelum dimasukkan):** F5 — klausa "ketika penambahan hard negatives mulai
+  merugikan" hanya benar di data nyata; di data sintetis AUC sebenarnya hybrid *naik* (0,5407 → 0,6171), biaya berasal dari
+  perpindahan pilihan dari acak/TGB (±0,83) ke hybrid(1,0). F10 — ρ 0,4395 positif; yang gagal ambang, bukan arah. F9 —
+  Spearman atas 240 run hybrid, bukan 360. F12 — World A–D tidak didefinisikan di mana pun di naskah. F13 — aturan K4:
+  teks harus menyatakan nol TGB belum terjelaskan. Plus M1 (Gambar 4 hanya dirujuk di §3.4), F4 (definisi "biaya" hilang),
+  F6/F8 (pengulangan), F7, F11, F14, F15.
+- **PI: "Default untuk semua catatan saya terima"** + dua kalimat sendiri (F4 definisi biaya, urutan terbaik − terpilih;
+  F13 "Hasil nol TGB masih belum terjelaskan"). F12 → sesi Metode; F15 → Limitations.
+- Dimasukkan ke `submission_jcaa_v0.4.tex` (baris 474–527); kompilasi bersih, **38 hlm.**, tanpa ref tak terdefinisi; teks
+  PDF dicek. Judul §3.5/§3.6 mengikuti PI (label tetap).
+- **Panjang:** §3.4–3.6 v0.3 609 → v0.4 **697 (+88)**, metode `count_subsection_words.py` yang sama untuk kedua berkas;
+  PI menerima kelebihan, penghematan dicari di Metode/Diskusi. Results §3.1–3.6 kini **+351** terhadap v0.3.
+- Log lengkap: `papers/P2_settlement_model/PI_PROSE_LOG_R3.md` "Session 2". Sisa: Gambar 2 tak dirujuk di teks (sesi 1 F4);
+  caption Gambar 4 masih kata-kata v0.3.
+- **Hitungan sesi:** 2 dari ±15 selesai; 12–13 tersisa untuk 11–24 Nov. Berikutnya sesi 3 = §3.7–3.9.

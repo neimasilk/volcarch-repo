@@ -1,6 +1,48 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-11-03 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+**Updated:** 2026-11-10 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+
+> ## 🟠 10 Nov — **P2 session 2 DONE: §3.4–3.6 written by the PI, translated, inserted in v0.4 (lines 474–527); 38 pp.**
+> - All numbers re-verified from the raw files (E222, E222c/d, E218b, E224) — all match. Flags M1, F4–F15 raised before
+>   insertion; **PI: "default untuk semua"** + two sentences of the PI's own (F4 definition of the selection cost; F13
+>   "the TGB null result remains unexplained", K4). Headings of §3.5/§3.6 now the PI's (labels unchanged).
+> - **Carried:** F12 worlds A–D are defined nowhere → Methods session; F15 orthogonal survey-effort test → Limitations;
+>   Figure 2 uncited in the text (session 1); Figure 4 caption in v0.3 wording (captions session).
+> - **Length:** §3.4–3.6 609 → 697 (+88); Results §3.1–3.6 +351 vs v0.3; PI accepts, savings sought in Methods/Discussion.
+> - **Next: session 3 = §3.7–3.9** (CIs/detection floor E223; priority maps E221/E236; volcanic diagnostics). 2 of ~15
+>   sittings done. Handoff `docs/HANDOFF_20261110.md`. Log `PI_PROSE_LOG_R3.md` "Session 2".
+
+> ## 🟠 9–10 Nov — **P2 session 2 (§3.4–3.6) prepared; waiting for the PI's Indonesian text** *(done 10 Nov, above)*
+> - **4–8 Nov:** no work (session 2 planned for 4 Nov did not happen). **9 Nov:** editor's 3 Nov 17:00 answer found
+>   (paraphrase: files held until the new version arrives; no objection to "PI writes Indonesian, AI translates", no
+>   explicit approval, no date of his own). Fact sheet `rewrite_r3/FACTS_S2_RESULTS_3_4-3_6.md` + writing sheet
+>   `rewrite_r3/LEMBAR_TULIS_S2_20261109.docx`; numbers re-checked (60/64; E222/E224 recomputed). `gmail_check.py` fixed
+>   for Google's "Verify it's you" page.
+> - **PI decisions 9 Nov:** cap = v0.3 length per subsection (§3.4 ≤ 261, §3.5 ≤ 92, §3.6 ≤ 247); session 1's +263 stands.
+>   6 Nov fallbacks: P23 route S without a new email, after P2 is sent; T5/VEGAN parked; no new outreach before 30 Nov.
+> - **Open flags for the PI:** F2 (cite E220's 20-seed replication in §3.4? default: no, keep E218b), F3 (§3.5: the E222
+>   prediction is one pooled Spearman "across all runs", not "in every regime").
+> - **10 Nov:** mailbox since 1 Nov rechecked — nothing new from JCAA, OL, Nastiti, VEGAN, arXiv. The PI did not continue on
+>   9 Nov; session 2 resumes 10 Nov. **Schedule:** 1 of ~15 sittings done; 13–14 left for 10–24 Nov → about one a day.
+
+> ## 🟠 3 Nov (later) — **P2 session 1 of the rewrite DONE: §3.1–3.3 written by the PI, translated, inserted in v0.4; compiles 38 pp.**
+> - **What the PI wrote:** §3.1 (111 words ID), §3.2 (989), §3.3 (949) — in Indonesian, from the bullet fact sheet,
+>   over three messages the same morning.
+> - **What Claude did:** translated faithfully; every number re-checked against `e223b_bootstrap_summary.csv`,
+>   `e223c_beta_summary.csv`, `e222_runs.csv`, `E236/results/summary_clean.json` (**all match**, including the
+>   MaxEnt/XGBoost/RF assignment of the bootstrap bounds); inserted in `submission_jcaa_v0.4.tex`; logged in
+>   `PI_PROSE_LOG_R3.md` with the Indonesian verbatim, the English, and every flag.
+> - **PI decisions taken ("lakukan"):** F1 = option A (seed-averaged TSS 0.465 with 0.751); **H1 = 8** (the "13
+>   misplaced" is gone — 13 and 8 did not reconcile with the 85+124+8=217 accounting); G1 `\ref{sec:ci}`;
+>   G2 dropped "previously reported"; four restatement sentences cut to save words.
+> - **⚠ Word budget:** §3.1–3.3 went 1,379 → **1,642 words (+263)** after the PI's second instruction ("silahkan
+>   sesuaikan", §3.3 compressed 834 → 614 with **no number or claim lost**). Manuscript now ≈ **11,497 of 11,500** —
+>   three words of slack. Sessions 2–4 must therefore be written **shorter than v0.3** (session 2 target 510 against 600).
+> - **Materials:** `rewrite_r3/LEMBAR_TULIS_S1_20261103_v2.docx` (writing sheet), `rewrite_r3/build_writing_sheet.py`,
+>   `rewrite_r3/count_subsection_words.py`.
+> - **Next (session 2, 4 Nov):** §3.4–3.6 — mailbox first, then the budget decision, then the fact sheet + writing sheet;
+>   §3.7–3.9 after that. **Fifteen PI sittings planned, one done.** **Nothing committed yet.**
+>   Handoff: `docs/archive/handoffs/HANDOFF_20261104.md` (the 3 Nov one is in `docs/archive/handoffs/`).
 
 > ## 🟠 3 Nov — **P2: editor says the authors must write the text; PI chose to rewrite (≤ 30 Nov)** — ledger C093
 > - **Editor (2 Nov 20:09 WIB, paraphrased):** send the abstract as plain text; JCAA does not allow AI to write substantial
@@ -10,7 +52,10 @@
 > - **Method (stricter G16):** bullet-only fact sheets (no Indonesian prose to copy); Claude explains methods in chat on
 >   request; the PI writes; Claude translates faithfully and flags every extra change first; log `PI_PROSE_LOG_R3.md`;
 >   new text in `submission_jcaa_v0.4.tex`. **Claude does not draft manuscript prose for JCAA, even when asked.**
-> - **Next:** session 1 = Results §3.1–3.3 (fact sheet first). Schedule (~15 sessions) and the **25 Nov checkpoint**:
+> - **Session 1 opened 3 Nov:** fact sheet `papers/P2_settlement_model/rewrite_r3/FACTS_S1_RESULTS_3_1-3_3.md` (numbers
+>   re-checked: 39/39, 60/64 with the 4 known withdrawn); flag F1 (TSS pairing) for the PI; waiting for the PI's text.
+> - **Next:** the PI writes §3.1–3.3 in Indonesian (paused 3 Nov, PI: "nanti kita kerjakan"). First check the mailbox for
+>   the editor's answer to the 3 Nov reply. Handoff: `docs/HANDOFF_20261103.md`. Schedule (~15 sessions) and the **25 Nov checkpoint**:
 >   `papers/P2_settlement_model/AGENDA_PI_20261103.md` §5.
 
 > ## ✅ 2 Nov ~10:35 WIB — **P2 ROUND 2 RESUBMITTED to JCAA** (files 10667–10669; PI pressed Complete; G12 lossless)
@@ -44,7 +89,7 @@
 >   and applied (`apply_session6_k1.py`, 15 edits; abstract 282 words; new §3.3; §3.2/§4.1/conclusions restated;
 >   AI declaration amended). `verify_k1_numbers.py`: 39 checks, 0 failed. Compile clean, 37 pp.
 > - **Open:** the response-letter replies (PI prose); PI's and Go Frendi's read of the frozen PDF.
->   Canary 228; ledger next **C091** (C090 closed 2 Nov). **Handoff: `docs/HANDOFF_20261102.md`.**
+>   Canary 228; ledger next **C091** (C090 closed 2 Nov). **Handoff: `docs/archive/handoffs/HANDOFF_20261102.md`.**
 
 > ## 26 Oct (later) — PI "ok, perbaiki": fixes applied; **E236 run → the central claim must be reframed (agenda K)**
 > - **Session 5** (`PI_PROSE_LOG_R2.md`): 66 + 9 corrections; Figures 2, 3, 4, 6 rebuilt; supplement cleaned; new AI

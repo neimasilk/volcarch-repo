@@ -26,8 +26,14 @@ def login_if_needed(page, user, pw):
     if "accounts.google.com" not in page.url:
         return True
     try:
-        page.fill("#identifierId", user, timeout=15000)
-        page.click("#identifierNext")
+        # "Verify it's you" re-auth page (seen 2026-11-09): the identifier is a pre-filled hidden input,
+        # so only the Next button is shown; filling it would time out.
+        ident = page.locator("#identifierId")
+        if ident.count() and ident.first.is_visible():
+            page.fill("#identifierId", user, timeout=15000)
+            page.click("#identifierNext")
+        else:
+            page.get_by_role("button", name="Next").first.click(timeout=15000)
         page.wait_for_selector('input[name="Passwd"]', state="visible", timeout=30000)
         page.fill('input[name="Passwd"]', pw)
         page.click("#passwordNext")
