@@ -526,24 +526,31 @@ On the secondary metric, true AUC, the share of positive pairs rises from 36.7\%
 It should also be noted that \texttt{road\_dist} correlates $+0.49$ with \texttt{river\_dist} and $+0.31$ with elevation, so the control model may already capture part of the road-bias signal.
 The TGB null result remains unexplained.
 
-\subsection{Confidence intervals and a detection floor}
+\subsection{Detection floor}
 \label{sec:ci}
 
-The equivalence CIs that reject the $+0.092$ gain (Section~\ref{sec:artefact}) also bound what we can rule out: at $n=378$ the spatially blocked bootstrap cannot exclude effects below about $+0.03$.
-Findings smaller than that are indeterminate at this sample size, not absent.
+With 378 sites, the data cannot yet rule out a gain of up to about $+0.03$ in the effect of the background design (hybrid against random) measured on the common background (Section~\ref{sec:artefact}).
+A gain of that size is not yet detected at this sample size, but that does not mean the effect is absent.
 
-\subsection{Priority maps change with the seed; averaging seeds reduces this}
+\subsection{Priority maps change with the seed}
 \label{sec:prioritymaps}
 
-A model whose numbers are artefactual still produces a priority map, and in heritage practice the map is what gets used.
-Across random seeds, $28.1\%$--$47.4\%$ of top-decile cells turn over between seed pairs, so a single-seed map is not a sound basis for a survey decision.
-The remedy is cheap and we now make it a protocol: seed-ensemble.
-Measured against the 10-seed ensemble, which contains the seeds being averaged, the overlap passes 0.90 after $4$--$7$ seeds, but that comparison shares seeds with its reference and so flatters the result. Two ensembles that share no seed agree less: Jaccard $0.55$--$0.70$ for single seeds, and $0.76$ (XGBoost), $0.85$ (MaxEnt) and $0.86$ (RandomForest) for five seeds each (Figure~\ref{fig:stabilisation}; E236). Averaging clearly helps, so we recommend at least seven seeds as a floor, together with reporting the agreement between ensembles that share no seed, rather than assuming that a given number of seeds makes the map stable.
-% PI prose 2026-10-21 (written in Indonesian, translated by Claude; log: PI_PROSE_LOG_R2.md, passage 1).
+In conservation practice, it is the priority map, rather than the AUC figure alone, that is used more directly to decide which locations should be examined or protected.
+These maps, however, turn out to be fairly sensitive to the seed.
+Across 405 paired comparisons, an average of 28.1--47.4\% of the cells in the top 10\%, depending on the combination of algorithm and design, change simply because a different seed is used.
+Random Forest with TGB is comparatively the most stable (28.1\%), and XGBoost with hybrid changes the most (47.4\%).
+Combining several seeds does help, but how many are needed depends on how agreement is measured.
+A comparison with a 10-seed ensemble that still shares seeds with the ensemble being compared gives the impression that 4--7 seeds are enough to reach a Jaccard above 0.90.
+A fairer measure is to compare two ensembles that share no seed: with five seeds, the Jaccard is only 0.76 for XGBoost, 0.85 for MaxEnt and 0.86 for Random Forest; with one seed it ranges from 0.55 to 0.70 (Figure~\ref{fig:stabilisation}).
+We therefore recommend at least seven seeds as a floor, together with reporting the agreement between two ensembles that share no seed.
+Seven seeds do not guarantee that a map is stable.
+% PI prose 2026-10-21 (passage 1, PI_PROSE_LOG_R2.md), re-read and extended by the PI 2026-11-10 (F16; PI_PROSE_LOG_R3.md session 3).
 This ensemble reveals a useful distinction between a \emph{robust core} (the consistent core area) and a \emph{contingent fringe} (the peripheral area that depends on the background design).
 The robust core is defined as the cells that fall in the top 10\% under all three background designs (random, TGB and hybrid), each map being the average of 10 seeds; the contingent fringe is the cells that fall in the top 10\% under exactly one design.
-Observed site density is higher in the core than in the fringe: $1.93\times$ for RandomForest ($30.7$ vs $15.9$ sites per 1,000~km$^2$), $4.34\times$ for XGBoost ($40.8$ vs $9.4$) and $5.62\times$ for MaxEnt ($31.7$ vs $5.65$; Figure~\ref{fig:priority}).
-This difference indicates spatial consistency, not independent validation, because the sites used to compute these densities were also used to train the models.
+Observed site density is higher in the core than in the fringe: $1.93\times$ for Random Forest ($30.7$ vs $15.9$ sites per 1,000~km$^2$), $4.34\times$ for XGBoost ($40.8$ vs $9.4$) and $5.62\times$ for MaxEnt ($31.7$ vs $5.65$; Figure~\ref{fig:priority}).
+However, the fringe contains only 15 sites for XGBoost, 15 for Random Forest and 16 for MaxEnt.
+These ratios are therefore better read as showing the direction of the difference than as a precise measure.
+The density difference indicates spatial consistency, not independent validation, because the sites used to compute the densities were also used to train the models.
 
 \begin{figure}[h]
 \centering
@@ -562,18 +569,20 @@ This difference indicates spatial consistency, not independent validation, becau
 \subsection{Corrections to two volcanic diagnostics}
 \label{sec:diagnostics}
 
-Two diagnostics of the original pipeline are corrected here.
+\textbf{The volcano inventory.} The analysis code contained seven volcanic centres, whereas the canonical inventory includes 13 centres within the bounds of the study area (111--115$^\circ$E).
+This correction to the inventory does not change the model AUCs, because \texttt{volcano\_dist} is not used as a training feature.
+The result of Test 1 does change, however, because this test measures the correlation between predicted suitability and distance to volcanoes.
+With 13 centres the Spearman value becomes $\rho = -0.281$, against $-0.243$ with seven centres.
+Both correlations remain below the failure threshold of 0.5, so the verdict of Test 1 does not change.
 
-\textbf{The volcano inventory.} The analysis code hard-coded 7 volcanic centres; the canonical inventory contains \textbf{13} inside the paper's own 111--115$^\circ$E bounds (adding Lawu, Wilis, Kawi-Butak, Penanggungan, Iyang-Argapura, Baluran), and two of the additions sit inside the Malang--Mojokerto site concentration.
-\texttt{volcano\_dist} is not a training feature, so model AUCs are unaffected; the Test 1 tautology diagnostic is.
-Recomputed on the canonical inventory, the suitability--volcano-distance Spearman correlation is $\rho = -0.281$ (legacy 7-volcano re-run: $-0.243$).
-The verdict is unchanged: $|\rho| < 0.5$, so the test still passes.
-
-% PI prose 2026-10-22 (passage 8D).
+% PI prose 2026-10-22 (passage 8D, first three sentences); closing rewritten by the PI 2026-11-10 (PI_PROSE_LOG_R3.md session 3).
 \textbf{A correlation that is not consistent across seeds.} A single model instance gives a Spearman correlation of $-0.163$ for the same test.
 However, repeating the analysis with five seeds on the same seven-volcano inventory gives $-0.243$ (E219).
-The re-run also uses the lattice-based background sampling of Section~\ref{sec:refutation}, so the difference may come from the seeds or from the change of sampling; the two cannot be separated here. Either way, a single model instance is not a sound basis for the diagnostic.
-The corrected values reported here are seed-ensembled; the E007--E013 ladder in Table~\ref{tab:progression} is the original pipeline, reproduced as the object under examination.
+This difference cannot be attributed to the seed alone.
+E219 also changed the way the background is sampled, using a lattice rather than the continuous coordinates of the original pipeline.
+Because both changed together, the effects of seed and sampling cannot be separated.
+A single model instance is therefore not a sufficient basis for this diagnostic.
+The values here use a five-seed ensemble; Table~\ref{tab:progression} presents the E007--E013 series from the original pipeline as the object under examination.
 
 \subsection{Volcanic setting or elevation?}
 \label{sec:elevation}

@@ -11989,3 +11989,21 @@ tidak ada dari Go Frendi.
 - Log lengkap: `papers/P2_settlement_model/PI_PROSE_LOG_R3.md` "Session 2". Sisa: Gambar 2 tak dirujuk di teks (sesi 1 F4);
   caption Gambar 4 masih kata-kata v0.3.
 - **Hitungan sesi:** 2 dari ±15 selesai; 12–13 tersisa untuk 11–24 Nov. Berikutnya sesi 3 = §3.7–3.9.
+
+**2026-11-10 (lanjutan) — commit `301c661` pushed (PI: "silahkan commit dan push"); P2 sesi 3 tulis ulang SELESAI (§3.7–3.9)**
+- Disiapkan atas "silahkan lanjut": `rewrite_r3/FACTS_S3_RESULTS_3_7-3_9.md` + `LEMBAR_TULIS_S3_20261110.docx`
+  (`build_writing_sheet_s3.py`); angka dicek dari E223/E221/E236/E219 dan kedua berkas gunung api. Kepemilikan teks lama
+  dilacak: §3.8 ¶2 = passage 1 PI (21 Okt); §3.9 ¶2 tiga kalimat = passage 8D PI, sisanya ditulis Claude di sesi 5 (H19).
+- PI menulis §3.7 (2 versi), §3.8 ¶1, §3.9 ¶1, penutup §3.9 ¶2; membaca ulang passage 1 (+F16 jumlah situs pinggiran
+  15/15/16) dan 8D. Semua angka cocok.
+- **Temuan saat verifikasi:** F18 — batas deteksi "−0,03 hingga +0,03" tidak didukung sisi bawahnya (batas bawah CI
+  −0,059/−0,024/−0,017) → PI menulis ulang satu sisi; F20 — 28,1–47,4 % adalah rentang rata-rata per kombinasi (per pasangan
+  16,6–52,4 %); **C094 (ledger baru)** — "Test 1 tetap lulus": kode asli punya tiga tingkat (PASS ≤ 0,30, GREY_ZONE 0,30–0,50,
+  FAIL > 0,50); vonis Test 1 asli GREY_ZONE (road_dist 0,307); v0.3 dan Metode baris 274 menyederhanakan → §3.9 kini
+  "verdict does not change"; Metode menyusul.
+- **PI memutuskan semua catatan sesi 3** (F20, F21, M3, T1, F22, F23-A, M4, F17); dimasukkan ke v0.4; kompilasi bersih 38 hlm.
+- **Panjang:** sesi 3 528 → 639 (+111); Results §3.1–3.9 +462 terhadap v0.3.
+- Catatan opsional untuk PI: label "A correlation that is not consistent across seeds" vs penutup "tidak bisa dikaitkan
+  dengan seed saja". Tidak diubah.
+- **Hitungan sesi:** 3 dari ±15. Berikutnya sesi 4 = §3.10–3.11 (sebagian besar passage 2, 3a, 8E milik PI — perlu dipilah
+  kalimat sisipan Claude sesi 5–6, mis. H20 di §3.11).

@@ -2,6 +2,14 @@
 
 **Updated:** 2026-11-10 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
 
+> ## 🟠 10 Nov (later) — **P2 session 3 DONE: §3.7–3.9 by the PI in v0.4; commit `301c661` pushed (sessions 1–2)**
+> - §3.7 detection floor (one-sided, after F18), §3.8 ¶1 new + ¶2 = PI passage 1 with fringe counts 15/15/16, §3.9 ¶1 new +
+>   ¶2 = PI passage 8D with a new PI closing (seed and lattice sampling cannot be separated). All PI decisions taken.
+> - **New ledger C094:** Test 1 has three levels (PASS ≤ 0.30, GREY_ZONE, FAIL > 0.50); the original verdict was GREY_ZONE —
+>   §3.9 now says "the verdict does not change"; **Methods l. 274 still owed** (Methods session).
+> - Length: session 3 +111; Results §3.1–3.9 **+462** vs v0.3. Next: **session 4 = §3.10–3.11** (mostly PI passages 2, 3a,
+>   8E — separate the Claude-inserted sentences of sessions 5–6, e.g. H20 in §3.11). 3 of ~15 sittings done.
+
 > ## 🟠 10 Nov — **P2 session 2 DONE: §3.4–3.6 written by the PI, translated, inserted in v0.4 (lines 474–527); 38 pp.**
 > - All numbers re-verified from the raw files (E222, E222c/d, E218b, E224) — all match. Flags M1, F4–F15 raised before
 >   insertion; **PI: "default untuk semua"** + two sentences of the PI's own (F4 definition of the selection cost; F13

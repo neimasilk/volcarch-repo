@@ -682,3 +682,214 @@ freeze), Figure 4 caption still in v0.3 wording ("about twice as fast") — capt
   passage 8D; **the rest was written by Claude in session 5 (H19, `apply_session5_edits.py`) and v0.2** → PI rewrites.
 - **Options/flags on the sheet:** O1 (keep §3.7 separate — default), F16 (fringe site counts 15/15/16 on the 378 set),
   F17 (Table 4 / Figure 2 need a reference from the text).
+
+### §3.7 — PI text received 2026-11-10 — translated, **NOT YET INSERTED** (flags open)
+
+**PI text (Indonesian, verbatim):**
+
+> ### 3.7 Batas deteksi
+>
+> Pada 378 situs, data ini belum dapat menyingkirkan kemungkinan adanya efek dalam kisaran −0,03 hingga +0,03. Efek
+> sekecil itu tidak terdeteksi pada ukuran sampel ini, tetapi bukan berarti efeknya tidak ada.
+
+**English (faithful translation, 37 words; cap 42):**
+
+> **Detection floor**
+>
+> With 378 sites, these data cannot yet rule out an effect in the range −0.03 to +0.03. An effect that small is not
+> detected at this sample size, but that does not mean it is absent.
+
+Heading translated from the PI's (v0.3: "Confidence intervals and a detection floor"; label `sec:ci` unchanged — §3.2 line 429
+and Limitations line 672 point here). O1 answered implicitly: §3.7 stays a subsection of its own.
+
+**Flags raised before insertion:**
+
+| # | Flag | Proposal | PI |
+|---|---|---|---|
+| **F18** | The **lower** end "−0,03" is not what the data show. Bootstrap CIs (`e223b_bootstrap_summary.csv`, hybrid − random, common background): upper bounds +0.0082 / +0.0253 / +0.0256 → "a gain up to about +0.03 cannot be excluded" (E223 README); lower bounds **−0.0589 / −0.0241 / −0.0173** (MaxEnt / XGBoost / RF) — so on the negative side the excluded region differs by algorithm (MaxEnt cannot exclude a loss down to −0.059; RF excludes losses beyond −0.017) | **A (recommended):** one-sided — "a gain of up to about +0.03" (the floor is about detecting a gain). B: give both sides from the data per algorithm (≈ +15 words) | open |
+| **F19** | "efek" does not say *of what*; the reader arrives from §3.6 (TGB). The floor is for the background redesign (hybrid − random, common background) | The PI adds who/what in a few words, e.g. which contrast | open |
+| **M2** | No link to where the intervals are reported | Add "(Section~\ref{sec:artefact})" after the first sentence (mechanical) | open |
+
+### §3.7 — PI text, second version, received 2026-11-10 — **supersedes the first; INSERTED** into v0.4 (lines 529–533)
+
+**PI text (Indonesian, verbatim):**
+
+> ### 3.7 Batas deteksi
+>
+> Pada 378 situs, data belum dapat menyingkirkan kenaikan hingga sekitar +0,03 pada efek desain background (*hybrid*
+> dibanding *random*) yang diukur dengan *common background* (Section 3.2). Kenaikan sebesar itu belum terdeteksi pada
+> ukuran sampel ini, tetapi bukan berarti efeknya tidak ada.
+
+**English inserted:**
+
+> **Detection floor**
+>
+> With 378 sites, the data cannot yet rule out a gain of up to about +0.03 in the effect of the background design
+> (hybrid against random) measured on the common background (Section~\ref{sec:artefact}). A gain of that size is not yet
+> detected at this sample size, but that does not mean the effect is absent.
+
+**Flags:** F18 resolved by the PI's text (one-sided, option A); F19 resolved (hybrid vs random, common background); M2
+resolved (the PI wrote "(Section 3.2)" → `\ref{sec:artefact}`). Number checked: bootstrap upper bounds +0.0082 /
++0.0253 / +0.0256 (`e223b_bootstrap_summary.csv`) → "up to about +0.03". No change beyond translation.
+
+### §3.8 ¶1 — PI text received 2026-11-10 — translated, **NOT YET INSERTED** (flags open)
+
+**PI text (Indonesian, verbatim):**
+
+> ### 3.8 Peta prioritas berubah mengikuti seed
+>
+> Dalam praktik konservasi, peta prioritas lebih langsung digunakan untuk menentukan lokasi yang perlu diperiksa atau
+> dilindungi daripada angka AUC saja. Namun, peta tersebut ternyata cukup sensitif terhadap seed. Pada 405 pasangan
+> perbandingan, sekitar 28,1–47,4% sel dalam kelompok 10% teratas berganti hanya karena seed yang digunakan berbeda
+> (Figure 6). RF dengan TGB relatif paling stabil (28,1%), sedangkan XGBoost dengan hybrid paling banyak berubah (47,4%).
+> Menggabungkan beberapa seed memang membantu, tetapi jumlah yang dibutuhkan bergantung pada cara kesepakatan diukur.
+> Perbandingan dengan ensemble 10 seed yang masih berbagi seed dengan ensemble pembanding memberi kesan bahwa 4–7 seed
+> sudah cukup untuk mencapai Jaccard di atas 0,90. Ukuran yang lebih adil adalah membandingkan dua ensemble yang tidak
+> berbagi seed: pada lima seed, Jaccard hanya 0,76 untuk XGBoost, 0,85 untuk MaxEnt, dan 0,86 untuk RF; dengan satu seed
+> nilainya berkisar 0,55–0,70. Karena itu, saya menyarankan minimal tujuh seed sebagai batas bawah, disertai pelaporan
+> kesepakatan antara dua ensemble independen. Tujuh seed bukan jaminan bahwa peta sudah stabil.
+
+**English (faithful translation, 192 words; cap 160 for ¶1):**
+
+> **Priority maps change with the seed**
+>
+> In conservation practice, it is the priority map, rather than the AUC figure alone, that is used more directly to
+> decide which locations should be examined or protected. These maps, however, turn out to be fairly sensitive to the
+> seed. Across 405 paired comparisons, about 28.1–47.4% of the cells in the top 10% change simply because a different
+> seed is used (Figure 6). Random Forest with TGB is comparatively the most stable (28.1%), and XGBoost with hybrid
+> changes the most (47.4%). Combining several seeds does help, but how many are needed depends on how agreement is
+> measured. A comparison with a 10-seed ensemble that still shares seeds with the ensemble being compared gives the
+> impression that 4–7 seeds are enough to reach a Jaccard above 0.90. A fairer measure is to compare two ensembles that
+> share no seed: with five seeds, the Jaccard is only 0.76 for XGBoost, 0.85 for MaxEnt and 0.86 for Random Forest; with
+> one seed it ranges from 0.55 to 0.70. We therefore recommend at least seven seeds as a floor, together with reporting
+> the agreement between two independent ensembles. Seven seeds do not guarantee that a map is stable.
+
+**Numbers verified 10 Nov:** `e221_turnover_pairs.csv` — 405 pairs (9 algorithm × design cells × 45); **means per cell**
+28.1 % (RF-TGB) to 47.4 % (XGBoost-hybrid); **single pairs 16.6–52.4 %**; overall mean 35.1 %. `e223d_kstar_thresholds.csv`:
+k* 4–7 at J ≥ 0.90. `F_disjoint_full.csv`: 1 seed 0.548–0.702; 5 seeds XGBoost 0.759, MaxEnt 0.849, RF 0.861.
+
+**Translation notes:** heading from the PI (v0.3: "…; averaging seeds reduces this"; label `sec:prioritymaps` unchanged);
+"RF" → "Random Forest" (the abbreviation is not defined in the text).
+
+**Flags raised before insertion:**
+
+| # | Flag | Proposal | PI |
+|---|---|---|---|
+| **F20** | "Pada 405 pasangan …, sekitar 28,1–47,4%" reads as the range over single pairs; it is the range of the **averages** over the 9 algorithm × design cells (45 pairs each). Single pairs range 16.6–52.4 % | Say "on average, depending on algorithm and design" (≈ +5 words), or give the single-pair range instead | open |
+| **F21** | "dua ensemble independen": the two ensembles use the same data and design; only their seeds are disjoint (the previous sentence says so) | "two ensembles that share no seed" (+2 words) | open |
+| **M3** | "(Figure 6)" sits after the turnover sentence, but Figure 6 shows agreement as seeds are averaged (the k-vs-10 and the disjoint curves), not the pairwise turnover | Move "(Figure 6)" to the end of the disjoint-ensemble sentence | open |
+| **T1** | "saya menyarankan" — the paper has two authors and uses "we" throughout | "We recommend" (already in the English above) | open |
+
+**§3.8 ¶1 resent 2026-11-10** with no visible change; treated as the same text — flags F20, F21, M3, T1 stay open.
+
+### §3.8 ¶2 — PI decision 2026-11-10: passage 1 (21 Oct) kept, **F16 accepted** — **INSERTED** into v0.4
+
+**PI's reason (paraphrase):** the fringe site counts are small, so the density ratios should not be read as precise.
+
+**PI text (Indonesian, verbatim):**
+
+> Ensemble ini menunjukkan perbedaan yang bermanfaat antara *robust core* (wilayah inti yang konsisten) dan *contingent
+> fringe* (wilayah pinggiran yang bergantung pada desain latar). *Robust core* didefinisikan sebagai sel yang masuk dalam
+> 10% peringkat teratas pada ketiga desain latar (random, TGB, dan hybrid), dengan setiap peta merupakan rata-rata dari 10
+> seed; sedangkan *contingent fringe* adalah sel yang masuk dalam 10% peringkat teratas pada tepat satu desain. Kepadatan
+> situs yang teramati pada wilayah inti lebih tinggi dibandingkan wilayah pinggiran, yaitu 1,93× untuk Random Forest
+> (30,7 dibandingkan 15,9 situs per 1.000 km²), 4,34× untuk XGBoost (40,8 dibandingkan 9,4), dan 5,62× untuk MaxEnt (31,7
+> dibandingkan 5,65). Namun, wilayah pinggiran hanya mencakup 15 situs untuk XGBoost, 15 untuk Random Forest, dan 16 untuk
+> MaxEnt. Karena itu, rasio ini lebih tepat menunjukkan arah perbedaan daripada ukuran yang presisi. Perbedaan kepadatan
+> tersebut menunjukkan konsistensi spasial, bukan validasi independen, karena situs yang digunakan untuk menghitung
+> kepadatan juga digunakan untuk melatih model.
+
+**English inserted (v0.4 §3.8 ¶2, 174 words):** the 21 Oct translation, with "RandomForest" → "Random Forest" (the PI's
+spelling now), two new sentences — "However, the fringe contains only 15 sites for XGBoost, 15 for Random Forest and 16
+for MaxEnt. These ratios are therefore better read as showing the direction of the difference than as a precise
+measure." — and the last sentence opening "The density difference indicates …" (PI's "Perbedaan kepadatan tersebut").
+"(Figure 5)" kept from the 21 Oct version (not in the PI's Indonesian; Figure 5 is cited here and in Section 4).
+
+**Numbers checked:** `e221_priority_sets.csv` — fringe sites 15 (XGBoost), 15 (RF), 16 (MaxEnt); densities and ratios as
+before. Compile clean, 38 pp., no undefined references.
+
+**Length:** ¶2 137 → 174 (+37).
+
+### §3.9 ¶1 — PI text received 2026-11-10 — translated, **NOT YET INSERTED** (flags open)
+
+**PI text (Indonesian, verbatim):**
+
+> ### 3.9 Koreksi pada dua diagnostik gunung api
+>
+> Kode analisis memuat tujuh pusat gunung api, sedangkan inventaris kanonik mencakup 13 pusat di dalam batas peta
+> penelitian (111–115° BT). Koreksi inventaris ini tidak mengubah AUC model karena *volcano_dist* tidak digunakan sebagai
+> fitur pelatihan. Namun, hasil Test 1 berubah karena tes ini mengukur korelasi antara kesesuaian spasial dan jarak ke
+> gunung api. Dengan 13 pusat, nilai Spearman menjadi ρ = −0,281, dibandingkan −0,243 dengan tujuh pusat. Kedua nilai itu
+> tetap memenuhi kriteria |ρ| < 0,5, sehingga Test 1 tetap lulus.
+
+**English (faithful translation, 95 words; cap 93; heading kept "Corrections to two volcanic diagnostics"):**
+
+> The analysis code contained seven volcanic centres, whereas the canonical inventory includes 13 centres within the
+> bounds of the study area (111–115°E). This correction to the inventory does not change the model AUCs, because
+> volcano_dist is not used as a training feature. The result of Test 1 does change, however, because this test measures
+> the correlation between predicted suitability and distance to volcanoes. With 13 centres the Spearman value becomes
+> ρ = −0.281, against −0.243 with seven centres. Both values still meet the criterion |ρ| < 0.5, so Test 1 still passes.
+
+**Numbers verified:** `E219/results/e219_outcome.json` (−0.2811 canonical, 13 in bounds; −0.2435 legacy 7), both from the
+same E219 re-run (5 seeds); `volcanoes.csv` (7) vs `volcanoes_java_full.csv` (13 in 111–115° E). Translation note:
+"kesesuaian spasial" → "predicted suitability" (what Test 1 correlates, Methods line 274).
+
+**Flags raised before insertion:**
+
+| # | Flag | Proposal | PI |
+|---|---|---|---|
+| **F23** (ledger **C094**) | "Test 1 tetap lulus": the original code (`enhanced_tautology_tests.py` l. 64–65, 213–235) has **three** levels on the maximum \|ρ\| over three proxies — PASS ≤ 0.30, GREY_ZONE 0.30–0.50, FAIL > 0.50. The original Test 1 verdict was **GREY_ZONE** (road_dist \|ρ\| 0.307, single run; v0.1 l. 307; E219 README "GREY_ZONE verdict survives"). The volcano correlation alone (0.243 / 0.281) is below even 0.30. "Passes" is true only in the two-level reading of Methods l. 274 | **A (recommended):** "…tetap di bawah ambang gagal 0,5, sehingga vonis Test 1 tidak berubah" (same length). Methods (later session): state the three levels or the GREY_ZONE verdict — PI writes | open |
+| **F22** (optional) | The six added centres and the two inside the Malang–Mojokerto site concentration (Penanggungan, Kawi-Butak) are no longer named; they explain *why* ρ moves | Leave out (the PI chose brevity) — default | open |
+| **M4** | ¶2 opens with the PI's run-in heading "A correlation that is not consistent across seeds."; ¶1 now has none (v0.2's "The volcano inventory." was Claude's) | Add the label "The volcano inventory." to ¶1 for parallel structure (3 words), or drop both labels | open |
+
+### §3.9 ¶2 — PI decision and closing, received 2026-11-10 — **INSERTED**
+
+**PI:** the three sentences of passage 8D are kept ("Pada versi sebelumnya" stays removed), opened by the run-in label.
+The closing names the sampling change explicitly so that the change in correlation is not attributed to the seed alone.
+
+**PI text, closing (Indonesian, verbatim):**
+
+> Selisih ini tidak bisa dikaitkan dengan seed saja. E219 juga mengubah cara sampling background: menggunakan lattice,
+> bukan koordinat kontinu seperti pada pipeline asli. Karena keduanya berubah bersamaan, pengaruh seed dan sampling tidak
+> dapat dipisahkan. Satu instans model karena itu tidak cukup menjadi dasar diagnostik ini. Nilai di sini memakai
+> ensemble lima seed; Tabel 4 menyajikan rangkaian E007–E013 dari pipeline asli sebagai objek yang diperiksa.
+
+**English inserted:**
+
+> This difference cannot be attributed to the seed alone. E219 also changed the way the background is sampled, using a
+> lattice rather than the continuous coordinates of the original pipeline. Because both changed together, the effects of
+> seed and sampling cannot be separated. A single model instance is therefore not a sufficient basis for this
+> diagnostic. The values here use a five-seed ensemble; Table~\ref{tab:progression} presents the E007--E013 series from
+> the original pipeline as the object under examination.
+
+**Checked:** E219 `01_map_divergence.py` l. 279–283 — both Test 1 correlations are computed on the five-seed ensemble map
+(mean of XGBoost-hybrid seeds), so "five-seed ensemble" is accurate; the lattice is described in Methods
+(`sec:refutation`, l. 292).
+
+### Session 3 — PI decisions (2026-11-10) and insertion — **§3.7–3.9 INSERTED** into v0.4
+
+| # | Decision |
+|---|---|
+| O1 | §3.7 stays a subsection of its own (implicit in the PI's text) |
+| F18, F19, M2 | resolved by the PI's second version of §3.7 |
+| F16 | accepted (fringe site counts 15/15/16 in §3.8 ¶2) |
+| **F20** | accepted → "an average of 28.1–47.4% of the cells in the top 10%, depending on the combination of algorithm and design" |
+| **F21** | accepted → "two ensembles that share no seed" |
+| **M3** | "(Figure 6)" moved to the end of the disjoint-ensemble sentence |
+| **T1** | "We recommend" |
+| F22 | the six added centres are not named |
+| **F23** (C094) | option A → "Both correlations remain below the failure threshold of 0.5, so the verdict of Test 1 does not change." ("passes" removed) |
+| **M4** | run-in label "The volcano inventory." added to §3.9 ¶1 |
+| **F17** | Table 4 referenced in the §3.9 ¶2 closing |
+
+**Removed from v0.4 with these insertions (Claude-drafted, v0.2/session 5):** §3.7 two sentences; §3.8 ¶1; §3.9 opening
+"Two diagnostics of the original pipeline are corrected here." and ¶1; §3.9 ¶2 H19 sentences and the v0.2 last sentence.
+
+**Compile:** clean, **38 pp.**, no undefined references; PDF text checked.
+
+**Length** (same method both files): §3.7 42 → 55 · §3.8 297 → 381 · §3.9 189 → 203 · **session 3: 528 → 639 (+111)**.
+Results §3.1–3.9: **+462** against v0.3 (+263, +88, +111). The PI's rule: savings in Methods/Discussion.
+
+**Open, for the PI (optional):** the run-in label "A correlation that is not consistent across seeds" now sits above a
+closing that says the change *cannot be attributed to the seed alone*. The label is the PI's (22 Oct, kept today); a
+label such as "a correlation that does not reproduce" would match the closing. Not changed.
