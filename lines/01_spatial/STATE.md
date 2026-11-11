@@ -1,6 +1,23 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-11-11 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+**Updated:** 2026-11-12 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+
+> ## 🟠 12 Nov — **P2 session 5 DONE: Methods part 1 — F12, C094, §2.1, §2.2 by the PI in v0.4; 5 of ~15 sittings**
+> - **F12:** the four synthetic worlds (A intensity fully observed + road survey bias; B + clay withheld → misspecified;
+>   C + regional survey effort; D region-balanced truth + regional effort) now stand in §2.6 under the E222 label, with
+>   `auc_true` defined on a fixed uniform availability domain (F35), "we" (F36) and "regime" (F37).
+> - **C094:** Test 1's three levels in §2.4 — verdict on the **maximum |ρ|** over three proxies, **PASS ≤ 0.30 /
+>   GREY_ZONE (0.30, 0.50] / FAIL > 0.50**, original verdict GREY_ZONE (road 0.307); Test 3 unused (own-background scoring).
+> - **§2.1** rewritten (records → cleaning R1–R4 → one role per variable; Table 2 cited, F42). The 378/85/124/8/161
+>   counts were **reproduced end-to-end today** from the geojson and the E217 rasters, not just read from the run log.
+> - **§2.2** rewritten (1:5, three algorithms with settings, 5-fold 0.45° blocks, AUC/TSS, the metric-without-background
+>   point). Citations restored at zero cost (F45); "of the full set" (F46) keeps 378/1,890 scoped correctly.
+> - **Length:** §2.1 321 → 287 · §2.2 152 → 171 · §2.4 219 → 259 · §2.6 426 → 604 · **Methods 1,420 → 1,623 (+203)**.
+>   Compile clean, 38 pp. The PI's compaction rules are recorded in the log (target ≤ 1,420; cut repetition, never
+>   procedure, numbers or limits; log every cut) — the pass runs after session 6.
+> - **Next (13–14 Nov): session 6** = §2.3 (244; the hard-negative paragraph is the PI's), the two Claude sentences left
+>   in §2.4 (~103), §2.5 re-read (58, the PI's own), and §2.6's lattice paragraph + seven E217–E224 paragraphs (~426).
+>   Then the compaction pass (−203). Handoff: `docs/HANDOFF_20261113.md`. Session 5 committed and pushed (see WORKSTATE).
 
 > ## 🟠 11 Nov — **P2 session 4 DONE: §3.10–3.11 by the PI in v0.4; 4 of ~15 sittings done**
 > - **Authorship separated first** (v0.4 l. 592–628 against R2 passages 2/3a/8E and the session-5/6 scripts): §3.10–3.11 were

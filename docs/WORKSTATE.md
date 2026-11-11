@@ -1,6 +1,16 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-11-11 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-11-12 · **This file is short by design. Keep it that way.**
+
+> ## 🟠 2026-11-12 — **P2 rewrite session 5 DONE (Methods part 1: F12, C094, §2.1, §2.2); 5 of ~15 sittings**
+> The PI rewrote the four synthetic worlds (**F12**) and Test 1's three verdict levels (**C094**, PASS ≤ 0.30 /
+> GREY_ZONE / FAIL > 0.50, original GREY_ZONE on road 0.307) and rewrote **§2.1** and **§2.2** in his own voice.
+> The 378 / 85 / 124 / 8 / 161 counts were reproduced end-to-end from the geojson and the E217 rasters (first time);
+> citations restored at zero word cost; Table 2 cited. **Length: Methods 1,420 → 1,623 (+203)**; compile clean, 38 pp.
+> The PI's compaction rules are binding for the pass after session 6 (target ≤ 1,420; cut repetition, never procedure,
+> numbers or limits; log every cut). **Next: session 6, 13–14 Nov** — §2.3, the two Claude sentences left in §2.4,
+> §2.5 re-read, §2.6's lattice + E217–E224 paragraphs; then the compaction pass.
+> **Handoff: `docs/HANDOFF_20261113.md`** (the 12 Nov one is in `docs/archive/handoffs/`). Ledger next **C095**.
 
 > ## 🟠 2026-11-11 — **P2 rewrite session 4 DONE (§3.10–3.11); commit; 4 of ~15 sittings done**
 > Authorship separated sentence by sentence first: **§3.10–3.11 were identical in v0.3 and v0.4**, so nothing from the K1
@@ -469,7 +479,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: rewrite under way — sessions 1–4 done (§3.1–3.11 in v0.4, 11 Nov); next = Methods §2.1–2.6 (12–14 Nov), incl. F12 worlds A–D and C094 Test 1's three levels.** Editor 2 Nov: no AI-written text → PI writes, replacement ≤ 30 Nov (C093) · Results §3.1–3.9 +462 words vs v0.3; §3.10–3.11 −5 · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: rewrite under way — sessions 1–5 done (§3.1–3.11 + Methods part 1 in v0.4, 12 Nov); next = session 6 (13–14 Nov): §2.3, §2.4 rest, §2.5 re-read, §2.6 rest, then the compaction pass to ≤1,420.** Editor 2 Nov: no AI-written text → PI writes, replacement ≤ 30 Nov (C093) · Results §3.1–3.9 +462 words vs v0.3; §3.10–3.11 −5; Methods +203 (to be compacted) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; **follow-up sent 10-22**; fallback 6 Nov. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |

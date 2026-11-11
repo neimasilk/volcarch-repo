@@ -12031,3 +12031,31 @@ tidak ada dari Go Frendi.
   12–14 Nov — wajib memuat **F12** (dunia sintetis A–D) dan **C094** (tiga tingkat vonis Test 1). Savings untuk menutup
   kelebihan Results (+462) dicari di Metode ini.
 - **Penutup:** `docs/HANDOFF_20261112.md` (sesi 5–6); handoff 11 Nov → `docs/archive/handoffs/`. Satu commit khusus sesi 4.
+
+**2026-11-12 — P2 sesi 5 SELESAI: Metode bagian 1 (F12, C094, §2.1, §2.2) ditulis PI di v0.4; commit + push**
+- Persiapan: `rewrite_r3/FACTS_S5_METHODS_2.md` + `LEMBAR_TULIS_S5_20261112.docx` (`build_writing_sheet_s5.py`), urutan
+  sesuai prioritas PI 11 Nov: F12 → C094 → pemadatan. Peta authorship: **± 85 % Metode adalah teks Claude**; yang milik
+  PI di Metode hanya passage 7 (hard negative), sebagian besar passage 8B (§2.4) dan passage 8C (§2.5).
+- **Verifikasi pertama yang mereproduksi angka dari sumber:** geojson dipotong 111–115° BT = 383 baris → sampling raster
+  E217 (elevation/slope/twi/tri/aspect/river_dist) = **378** → aturan R1 85, R2 124, R3 8, R4 0 → **161** (155 OSM +
+  6 Wikidata). Angka komposisi audit (124 + 13) dan angka penghapusan berurutan (85/124/8) terpisah, tidak dijumlahkan.
+  Angka lama "335 koordinat berbeda" tidak dikembalikan: hitungan bergantung presisi (338 pada pembulatan meter).
+- **F12** dimasukkan ke §2.6 (paragraf 10 kalimat di bawah label E222): dunia A–D, bias jalan di keempatnya, grid
+  0,0/0,3/0,7/1,0 (bukan grid E013), `auc_true` pada domain ketersediaan seragam (F35), "we" (F36), "regime" (F37).
+- **C094** dimasukkan ke §2.4: vonis Test 1 pada **maksimum |ρ|** tiga proksi, **PASS ≤ 0,30 / GREY_ZONE (0,30–0,50] /
+  FAIL > 0,50**, vonis asli GREY_ZONE (jalan 0,307), gunung api di bawah 0,30; Test 3 tidak dipakai (dinilai pada latar
+  sendiri). F39 (rujukan Section 3.9) dan F40 ("The original pipeline's Test 1") diterima.
+- **§2.1 ditulis ulang** (287 kata, −34): record → pembersihan berurutan → satu peran per variabel; Tabel 2 dirujuk
+  (F42, kalimat PI sendiri). Paragraf Claude "This separation is not a technicality…" dihapus (F43; klausa mekanisme
+  diputuskan tetap di §2.4/§1.3 saja).
+- **§2.2 ditulis ulang** (171 kata, +19): 1:5, tiga algoritma dengan setelan masing-masing, blok 5-fold 0,45°, AUC/TSS,
+  target asli >0,75, penutup "metrik tidak bisa dibaca tanpa latar evaluasinya". **F45** mengembalikan 7 sitasi dengan
+  biaya 0 kata (`chen2016`, `breiman2001`, `allouche2006` hanya ada di sini — tanpa itu algoritma tak diatribusikan);
+  **F46** "of the full set" karena set bersih memakai 161 presensi dan 805 latar.
+- **Panjang:** §2.1 321→287 · §2.2 152→171 · §2.4 219→259 · §2.6 426→604 · **Metode 1.420→1.623 (+203)**. Kompilasi
+  bersih 38 hlm, 0 rujukan tak terdefinisi.
+- **Prinsip pemadatan PI (mengikat, pass setelah sesi 6):** target Metode ≤ 1.420; potong **pengulangan** dulu, jangan
+  informasi prosedural; angka/definisi/batasan metodologis tidak boleh hilang; setiap potongan dicatat di log.
+  F38 (satu baris E222, −26) dan lima kandidat lain (± −189) sudah diukur.
+- **Sisa:** sesi 6 (13–14 Nov) = §2.3 (244; ¶ hard negative milik PI), dua kalimat Claude di §2.4 (~103), §2.5 dibaca
+  ulang (58), ¶ lattice + tujuh paragraf E217–E224 di §2.6 (~426), lalu pemadatan. Handoff `docs/HANDOFF_20261113.md`.

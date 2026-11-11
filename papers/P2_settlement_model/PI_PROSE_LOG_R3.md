@@ -987,3 +987,162 @@ units "**pairs** positive". Default: align §3.11 to "pairs". Awaiting the PI; o
 
 **F34 — closed the same day:** §3.11 now reads "0/30 pairs positive", matching §3.6 (l. 516, "17/30 pairs positive");
 terminal only, no number changed. Compile clean, 38 pp. Session 4 complete.
+
+---
+
+## Session 5 — Methods §2.1–2.6 — prepared 2026-11-12
+
+- **Fact sheet:** `rewrite_r3/FACTS_S5_METHODS_2.md`; **writing sheet:** `rewrite_r3/LEMBAR_TULIS_S5_20261112.docx`
+  (`build_writing_sheet_s5.py`). The PI's order of priorities (11 Nov): **F12 → C094 → word reduction**.
+- **Authorship (§0 of the sheet):** Methods is ± 85 % Claude's text (v0.2 era + sessions 5–6), so this is a rewrite,
+  not a re-read. The PI's own text inside Methods: **passage 7** (hard-negative paragraph, ↔ C080), most of **passage
+  8B** (§2.4, with Claude's C1/C2 insertions) and all of **passage 8C** (§2.5, E014). Everything in §2.1, §2.2 and
+  §2.6 is Claude's.
+- **F12 (worlds A–D)** — facts from `E222/README.md` + `DESIGN.md`: A = intensity fully observed + road-shaped survey
+  bias; B = A + clay withheld from features (misspecified); C = A + regional survey effort [1.0, 0.4, 0.15, 0.05]
+  (region-0 share 43 %); D = region-balanced truth + regional effort (region-0 share 62.6 %); 10 worlds each; observed
+  n ≈ 300–500; configs random/tgb/hybrid at hard_frac {0.0, 0.3, 0.7, 1.0}; truth = auc_true against an independent
+  unbiased sample + uniform availability, map recovery by Jaccard/Spearman; **E013's grid (0.0/0.15/0.30) ≠ E222's**.
+- **C094 (Test 1's three levels)** — verified in `enhanced_tautology_tests.py`: verdict on the **maximum |ρ| over three
+  proxies** (volcano, road, nearest site); **PASS ≤ 0.30 · GREY_ZONE (0.30, 0.50] · FAIL > 0.50** (l. 62–66, 213–234);
+  original verdict GREY_ZONE, driven by road distance |ρ| = 0.307. Test 3 (road-distance quartiles, 50/50 hold-out
+  inside each quartile, background from the same design → own-background scoring) stays unused (l. 354–420).
+- **§2.1 counts re-derived today** from `data/processed/east_java_sites.geojson` (383 rows in bounds → 378 after the
+  covariate filter; 340 distinct coordinates in bounds → 335 in the 378): R1 85 (of 87), R2 124 (of 125), R3 8 (of 10),
+  R4 0 → 161 = 155 OSM + 6 Wikidata. The counts are **exclusive** (R1 first); do not add them twice. Sources in bounds:
+  OSM 280, Wikipedia id 71, Wikipedia en 16, Wikidata 16. 124 modern monuments + 13 misplaced are the C081 audit's
+  composition counts, not the R1–R4 drop counts.
+- **§2.2 parameters verified** in `E217/01_maxent_benchmark.py`: XGBoost 300/4/0.05 with balanced class weight; RF
+  200/6/balanced; MaxEnt elapid (linear, hinge, product; β = 1.5; cloglog); 5-fold deterministic spatial blocks at
+  0.45°; background 1:5 (n_background_target 1,890 for 378 presences). E014 AUC 0.755 confirmed.
+- **Length:** §2.1 321 · §2.2 152 · §2.3 244 (§2.4 ± 120 · §2.5 58 · §2.6 ± 300); Methods 1,420 in both v0.3 and v0.4.
+  F12 (+110) and C094 (+25) must be covered by cuts listed in the sheet.
+- **Status:** waiting for the PI's first part of session 5. Nothing inserted; nothing committed.
+
+### Session 5 — F12 inserted (2026-11-12) — **the four synthetic worlds, §2.6**
+
+**The PI's text (second version, after F35–F37):**
+> Untuk membandingkan desain latar ketika intensitas permukiman sebenarnya diketahui, kami menyimulasikan empat dunia
+> pada kisi nyata Jawa Timur dengan pipeline yang sama. Setiap dunia terdiri atas 10 realisasi dengan sekitar 300–500
+> presensi teramati. Dunia A menggunakan intensitas penuh dari elevasi, lereng, sungai, dan TWI, tetapi menerapkan bias
+> survei yang mengikuti jalan. Dunia B menambahkan raster clay nyata yang ditahan dari fitur model, sehingga model
+> mengalami salah spesifikasi. Dunia C menambahkan usaha survei yang tidak merata antarkawasan, dengan bobot 1,0; 0,4;
+> 0,15; dan 0,05. Dunia D menggabungkan usaha survei regional dengan intensitas sebenarnya yang seimbang antarkawasan,
+> sehingga menjadi rezim paling menguntungkan bagi desain kuota. Bias jalan tetap ada di keempat dunia. Desain random,
+> TGB, dan hybrid diuji pada `hard_frac` 0,0; 0,3; 0,7; dan 1,0. Kebenaran dinilai dengan AUC terhadap sampel presensi
+> independen yang tidak bias pada domain ketersediaan seragam yang tetap. Pemulihan peta dinilai menggunakan Jaccard
+> pada desil teratas dan Spearman terhadap permukaan intensitas sebenarnya.
+
+**Inserted** as ten sentences in §2.6 under the test label `\paragraph{E222 -- synthetic ground truth.}`, immediately
+after the existing one-line description (that line is **kept for now**; see F38).
+
+**Changes beyond translation (all agreed beforehand):**
+1. **F35** — "domain ketersediaan seragam yang tetap" → "on a fixed, uniform availability domain" (his revision; it is
+   how `auc_true` is computed in E222 and it follows line 01 rule 2: declare the estimand).
+2. **F36** — "kami" → "we" (the manuscript is co-authored and uses "we" throughout).
+3. **F37** — "rezim" → "regime", the term his own §3.11 text uses.
+4. Format: `hard_frac` set as `\texttt{hard\_frac}`, as in §2.3; "desil teratas" → "top decile", as in §3.8.
+
+**Flag opened — F38 (queued for the compaction pass):** the pre-existing E222 one-liner ("Four synthetic worlds of
+known intensity surface let us compare reported AUC (own-background) against true recovery (common-background) where
+ground truth is not in question") now repeats the purpose sentence of the new paragraph, and its "true recovery
+(common-background)" is not how `auc_true` is actually computed (independent unbiased sample + uniform availability).
+Default: **delete the one-liner** in the compaction pass (−26 words), so the run-in label sits directly above the PI's
+paragraph, as in the E224 entry.
+
+**Length:** §2.6 426 → **604** (+178); Methods **1,420 → 1,598**. Compile clean, **38 pp.**, 0 undefined.
+
+**The PI's compaction principles (2026-11-12), binding for the pass after session 6:**
+- final target: Methods ≤ **1,420** words;
+- cut **repetition** first, never procedural information needed to reproduce or understand an experiment;
+- **no number, definition or methodological limit may be lost** to meet the cap;
+- **every cut is recorded** in this log so the change can be traced.
+
+Candidate cuts measured on 12 Nov (will be re-measured after session 6): §2.1 sources+cleaning 198 → ~120 (−78);
+§2.4 closing "This is also what makes the approach specifically archaeological…" 40 → 0 (−40); §2.6 lattice paragraph
+166 → ~120 (−46); §2.1 "This separation is not a technicality…" 46 → ~25 (−21); §2.3 "Two paragraphs of
+interpretation." 4 → 0 (−4); F38 one-liner −26. Total ≈ −215 against +178 (F12) and an expected +25 (C094).
+
+### Session 5 — C094 inserted (2026-11-12) — **Test 1's three verdict levels, §2.4**
+
+**The PI's text:**
+> Test 1 memeriksa korelasi Spearman antara kesesuaian prediksi dan tiga proksi: jarak ke pusat gunung api, jalan,
+> dan situs terdekat. Vonis ditentukan oleh nilai maksimum |ρ|: PASS jika ≤0,30, GREY_ZONE jika >0,30 hingga 0,50,
+> dan FAIL jika >0,50. Pada pipeline asli, vonisnya GREY_ZONE karena korelasi dengan jarak ke jalan mencapai 0,307.
+> Korelasi jarak ke gunung api (−0,243 dengan tujuh pusat dan −0,281 dengan 13 pusat) tetap di bawah 0,30. Test 3
+> membagi wilayah menurut kuartil jarak-jalan dan melakukan uji tahan 50/50 pada setiap kuartil, tetapi hasilnya tidak
+> digunakan karena prediksi dinilai pada background desainnya sendiri.
+
+**Inserted** in §2.4 in place of the two sentences Claude had edited in session 5 (C1/C2). His explanatory closing
+("Rumusan ini mengikuti aturan tiga tingkat dari kode…") was read as a note to Claude and **not** inserted.
+
+**Checked against the code before insertion:** verdict on the maximum |ρ| over `volcano_dist_km`, `road_dist_m`,
+`nearest_site_dist_m` (`enhanced_tautology_tests.py` l. 191–234); PASS ≤ 0.30, GREY_ZONE above 0.30 and not above 0.50,
+FAIL above 0.50 (l. 62–66); the original verdict GREY_ZONE, road distance 0.307; volcano correlations −0.243 (7 centres)
+and −0.281 (13 centres), both below 0.30; Test 3 = road-distance quartiles with a 50/50 hold-out inside each quartile
+(l. 354–420).
+
+**Changes beyond translation (agreed before insertion):** F40 — "The original pipeline's Test 1…" (the two tests belong
+to the pipeline, not to this paper); F39 — "(Section 3.9)" after the volcano correlations, because §3.9 is where the
+7 → 13 inventory correction is explained.
+
+**Length:** the replaced text was 93 words; the new text is 133. Methods 1,598 → **1,638**. Compile clean, 38 pp.
+
+### Session 5 — §2.1 inserted (2026-11-12) — data, cleaning, role separation
+
+**The PI's text (three paragraphs):** records and composition (378; audit's 124 monuments + 13 misplaced; the raw
+count is not a count of valid sites) → cleaning in order (R1 85 geocoded, R2 124 modern monuments, R3 8 other objects,
+R4 no further rows → 217 removed, 161 = 155 OSM + 6 Wikidata; the ladder stays on 378, contrasts on both sets) → one
+role per variable (terrain block + river from E008; clay/silt tested in E009 and dropped; road_dist = accessibility,
+volcano_dist = taphonomic diagnostics; neither a feature; the ambiguity argument).
+
+**Verified by full reproduction (first time end-to-end, 2026-11-12):** the geojson clipped to 111–115°E gives 383 rows;
+sampling the E217 rasters at those points leaves **378** with valid covariates; R1 **85**, R2-exclusive **124**,
+R3-exclusive **8**, R4 **0**; remainder **161** (155 OSM + 6 Wikidata). So the audit-composition counts (124, 13) and
+the sequential drop counts (85, 124, 8) are both correct and must not be added together — the PI's paragraph keeps them
+apart. The old "335 distinct coordinates" is **not restored**: recomputation gives 338 at metre rounding and 340 at five
+decimals, so the figure depends on precision.
+
+**Decisions:** F42 yes — the PI's own sentence "Table 2 summarises the role assigned to each variable." F41 no (the 259
+E009 subset stays out). F44 no (the examples of misplaced records stay out).
+
+**F43 — a Claude paragraph deleted rather than left in place:** with the subsection body replaced, the trailing
+paragraph "This separation is not a technicality. It is central to this paper: the variable that defines the target-group
+background (accessibility, through road_dist) is kept out of the features, so accessibility can affect the reported
+numbers only through the background design, which is what Section 3 examines." could not stay (Claude's text under the
+editor's rule) and its ambiguity argument is now in the PI's own closing sentences. If the PI wants the **mechanism**
+clause ("accessibility can reach the reported numbers only through the background design") back in §2.1, he writes
+~15 words; for now the point is carried by §2.4 and §1.3.
+
+**Length:** §2.1 321 → **287** (−34). Methods **1,638 → 1,604**. Compile clean, 38 pp., 0 undefined references.
+
+### Session 5 — §2.2 inserted (2026-11-12) — the modelling pipeline
+
+**The PI's text** (one paragraph: 378/1,890 at 1:5; three algorithms with XGBoost primary and each model's settings;
+the β sweep in §3.2; five deterministic spatial-block folds at 0.45°; AUC and TSS, TSS over kappa for prevalence;
+the original pipeline's >0.75 target; the closing point that both metrics are computed against whatever background is
+supplied, so a value cannot be read without naming the evaluation background).
+
+**Checked before insertion (E217 `01_maxent_benchmark.py`, `e217_outcome.json`):** 378 presences, `n_background_target`
+1,890, ratio 5; XGBoost 300/4/0.05 with `scale_pos_weight`; RandomForest 200/6/balanced; MaxEnt `elapid`/maxnet with
+linear–hinge–product, β 1.5, cloglog; β swept 0.5–4.0 in §3.2 (`sec:artefact`); 5 deterministic spatial-block folds at
+0.45°; AUC + TSS.
+
+**Changes beyond translation (agreed):**
+1. **F45** — the citations are back at their places, at zero word cost: `chen2016` (XGBoost), `breiman2001` (RandomForest),
+   `phillips2006, elith2006` (MaxEnt), `allouche2006` (TSS over kappa), `lobo2008, guillera2015` (metrics vs background).
+   Three of them (`chen2016`, `breiman2001`, `allouche2006`) appeared nowhere else, so without this the algorithms would
+   be unattributed and the entries would leave the bibliography.
+2. **F46** — "of the full set": the cleaned-set models train on 161 presences and 805 background points, so 378/1,890
+   must be scoped to the full set.
+3. "Random Forest" → **RandomForest**, as everywhere else in the manuscript.
+4. The Claude topic sentence "We model binary presence/background suitability." was dropped with the old paragraph; the
+   PI's opening sentence carries the model type through "presences and background points".
+
+**Length:** §2.2 152 → **171** (+19). Methods **1,604 → 1,623**. Compile clean, 38 pp., 0 undefined, all citations resolve.
+
+**Word space after session 5 (per subsection, v0.3 → v0.4):** §2.1 321 → 287 (−34) · §2.2 152 → 171 (+19) · §2.3 244 →
+244 (not yet) · §2.4 219 → 259 (+40, C094) · §2.5 58 → 58 (the PI's own) · §2.6 426 → 604 (+178, F12) · **Methods 1,420
+→ 1,623 (+203)**. Still to be written in session 6: §2.3 (244, of which the hard-negative paragraph ~72 is the PI's),
+the two Claude sentences left in §2.4 (~103), the lattice paragraph and the seven experiment paragraphs in §2.6 (~426),
+and a re-read of §2.5 (58).

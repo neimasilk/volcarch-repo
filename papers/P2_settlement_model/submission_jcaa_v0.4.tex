@@ -181,15 +181,27 @@ The 378 usable presences in this study are the covariate-valid subset of that re
 \subsection{Data, covariates, and the principle of role separation}
 \label{sec:covariates}
 
-Usable presences after covariate filtering were 378 (111--115$^\circ$E); the soil-coverage subset used once in E009 was 259.
-These 378 are compiled records rather than a site catalogue.
-They come from OpenStreetMap (279 rows), lists in the Indonesian and English Wikipedia (85) and Wikidata (14), they hold 335 distinct coordinates, and about a third are not archaeological sites: 124 are modern monuments, statues or memorials, and 13 are misplaced or are not sites at all (Central Javanese temples carrying East Javanese coordinates, a Balinese temple placed near Surabaya, a waterfall).
-Because that composition bears on every model fitted to the records, we define a cleaned subset and report the real-data contrasts on both.
-The cleaning drops the 85 rows whose coordinates were geocoded from their names (all rows taken from the Wikipedia lists), 124 modern monuments, and 8 temples of other regions, tourist objects and modern institutions, and then keeps one row per coordinate (which removes no further rows); 161 sites remain (155 from OpenStreetMap, 6 from Wikidata).
-The original ladder (E007--E013, Section~\ref{sec:ladder}) is the object under examination and stays trained on the 378 records; the contrasts of Section~\ref{sec:artefact} and Section~\ref{sec:presence} are reported on both sets.
-Every variable plays one analytical role, and the roles must not be mixed, because mixing them makes a suitability score uninterpretable: a low score could mean the place was unsuitable, or unsurveyed, or not preserved, and the model cannot say which.
-We therefore keep only the suitability block as predictors, express accessibility through the background design (Section~\ref{sec:fourroles}), and treat preservation and volcanic proximity as diagnostics applied to the output.
-Table~\ref{tab:roles} assigns every variable a single role.
+% PI prose 2026-11-12 (session 5; log PI_PROSE_LOG_R3.md, session 5). Replaces the K1 paragraph drafted by Claude in
+% session 6. F42: the table reference is the PI's own added sentence.
+The analysis uses 378 presence records within 111--115$^\circ$E, compiled from OpenStreetMap, the Indonesian and English Wikipedia, and Wikidata.
+Their composition has to be read with care: an audit found 124 modern monuments, statues or memorials, and 13 records that are misplaced or are not archaeological sites.
+The raw record count therefore cannot be taken at face value as a number of valid sites.
+
+The cleaning is applied in order.
+First, the 85 records whose coordinates were geocoded from a name are removed, because such a point need not mark the actual location of the find.
+Next, the 124 modern monuments and eight further objects---temples of other regions, tourist objects and modern institutions---are removed.
+Removing duplicate coordinates adds no further records.
+Under these exclusive rules, 217 records are removed and 161 sites remain: 155 from OpenStreetMap and six from Wikidata.
+The E007--E013 ladder stays trained on the 378 records as the object under examination, whereas the contrasts in Section~\ref{sec:artefact} and Section~\ref{sec:presence} are reported on both the full and the cleaned set.
+
+Each variable is given a single role.
+Elevation, slope, aspect, TRI and TWI model terrain suitability; \texttt{river\_dist} completes the water-related suitability from E008.
+Clay and silt stand for preservation or substrate conditions, tested in E009 but then dropped because they lowered the AUC.
+\texttt{road\_dist}, by contrast, stands for accessibility and survey effort, while \texttt{volcano\_dist} is used for taphonomic diagnostics and possible burial.
+Neither is included as a training feature.
+Table~\ref{tab:roles} summarises the role assigned to each variable.
+This separation matters because a low suitability score can mean that the location was less suitable, that it was less surveyed, or that the site was not preserved.
+Without the separation of roles, the three explanations would be mixed together.
 
 \begin{table}[h]
 \centering
@@ -213,20 +225,23 @@ volcano\_dist & canonical inventory, 30 centres (13 in bounds) & Taphonomy / bur
 \label{tab:roles}
 \end{table}
 
-This separation is not a technicality.
-It is central to this paper: the variable that defines the target-group background (accessibility, through \texttt{road\_dist}) is kept out of the features, so accessibility can affect the reported numbers only through the background design, which is what Section~3 examines.
-
 \subsection{The modelling pipeline}
 \label{sec:pipeline}
 
-We model binary presence/background suitability.
-The pseudo-absence (background) ratio is fixed at 1:5 throughout.
-Three learners are compared: XGBoost \citep{chen2016} (primary), RandomForest \citep{breiman2001}, and a Maximum Entropy model \citep{phillips2006, elith2006}.
-The Maximum Entropy model is the \texttt{elapid} implementation of maxnet, with linear, hinge and product features, regularisation multiplier $\beta = 1.5$ and a cloglog transform; $\beta$ is swept from $0.5$ to $4.0$ in Section~\ref{sec:artefact} to confirm the result is not an artefact of that setting.
-Validation uses 5-fold deterministic spatial block cross-validation at a baseline block size of 0.45\textdegree{} ($\sim$50~km).
-Primary metrics are AUC and the True Skill Statistic (TSS), the latter preferred to kappa because it does not vary with prevalence in the way kappa does \citep{allouche2006}.
-Both are discrimination metrics computed against whatever background is supplied to them, which is precisely the property this paper is about \citep{lobo2008, guillera2015}.
-The original pipeline set itself a target of spatial AUC $> 0.75$ under block cross-validation.
+% PI prose 2026-11-12 (session 5; log PI_PROSE_LOG_R3.md, session 5). F45: the citations are restored at zero word
+% cost; F46: "of the full set" keeps 378 and 1,890 to the full set (the cleaned set trains on 161 and 805).
+Models are trained on the 378 presences and 1,890 background points of the full set (1:5).
+We compare three algorithms, with XGBoost \citep{chen2016} as the primary model.
+XGBoost uses 300 trees, a maximum depth of 4, a learning rate of 0.05 and balanced class weights.
+RandomForest \citep{breiman2001} uses 200 trees, a depth of 6 and balanced class weights.
+MaxEnt is run through the \texttt{elapid}/maxnet implementation \citep{phillips2006, elith2006}, with linear, hinge and product features, regularisation multiplier $\beta = 1.5$ and a cloglog output.
+The range of $0.5$--$4.0$ is tested in Section~\ref{sec:artefact}.
+Validation uses five deterministic spatial-block folds at a base block size of $0.45^\circ$ ($\sim$50~km).
+Performance is reported as AUC and the True Skill Statistic (TSS), the latter preferred to kappa because it does not depend on prevalence \citep{allouche2006}.
+The original pipeline targeted a spatial AUC above $0.75$ under block validation.
+Both metrics, however, measure discrimination against the background points supplied \citep{lobo2008, guillera2015}.
+Their values therefore cannot be interpreted without naming the evaluation background.
+This is the issue the paper is about.
 
 \subsection{The experiment progression, as the object under examination}
 \label{sec:progression}
@@ -270,9 +285,8 @@ This pool-composition effect bears on the absolute AUC values and is part of why
 \label{sec:fourroles}
 
 \texttt{road\_dist} is deliberately never a training feature, yet it does four jobs at once: it (i) defines the TGB acceptance probability, (ii) defines the hybrid background pool, (iii) defines the accessibility-proxy holdout split (E014, Section~\ref{sec:holdout}), and (iv) serves as a visibility proxy in the diagnostic suite.
-% PI prose 2026-10-22 (passage 8B).
-The original pipeline included diagnostic tests, named Test 1 and Test 3 in its code. In Test 1, the correlation between predicted suitability and the distances to volcanoes, to roads and to the nearest site is examined; the diagnostic is considered failed only if the absolute Spearman correlation exceeds 0.5.
-Test 3 compared model performance across road-distance quartiles; it was scored on the design's own background, so its result is subject to the artefact this paper describes and is not used here. The volcano-related component of Test 1 is reported in Section~\ref{sec:diagnostics}.
+% PI prose 2026-10-22 (passage 8B) and 2026-11-12 (the Test 1 / Test 3 sentences, session 5, C094; log PI_PROSE_LOG_R3.md, session 5).
+The original pipeline's Test 1 examines the Spearman correlation between predicted suitability and three proxies: distance to a volcanic centre, to roads and to the nearest site. The verdict is taken on the maximum $|\rho|$: PASS if it is at most $0.30$, GREY\_ZONE if it is above $0.30$ but not above $0.50$, and FAIL if it is above $0.50$. In the original pipeline the verdict was GREY\_ZONE, because the correlation with road distance reached $0.307$. The correlations with volcano distance ($-0.243$ with seven centres and $-0.281$ with 13 centres) remain below $0.30$ (Section~\ref{sec:diagnostics}). Test 3 divides the study area by road-distance quartiles and runs a 50/50 hold-out within each quartile, but its result is not used because predictions are scored on the design's own background.
 Because the variable used to build the background can also affect the reported metric values, the role of \texttt{road\_dist} in building the background and in the diagnostics needs to be explained here, in the Methods, together with the other covariates.
 This is also what makes the approach specifically archaeological: the archaeological content is not in the label set, it is in the background design: a claim about where a survey could plausibly have detected a site had one been present.
 
@@ -310,6 +324,17 @@ Across random seeds, how much of the top-decile priority map turns over, and how
 
 \paragraph{E222 -- synthetic ground truth.}
 Four synthetic worlds of known intensity surface let us compare \emph{reported} AUC (own-background) against \emph{true} recovery (common-background) where ground truth is not in question.
+% PI prose 2026-11-12 (session 5; log PI_PROSE_LOG_R3.md, session 5). Facts: E222 README/DESIGN. F35 availability domain; F36 "we"; F37 "regime".
+To compare background designs where the true settlement intensity is known, we simulated four worlds on the real East Java lattice with the same pipeline.
+Each world has 10 realisations with about 300--500 observed presences.
+World A uses the full intensity from elevation, slope, river and TWI but applies a survey bias that follows roads.
+World B adds a real clay raster withheld from the model's features, so the model is misspecified.
+World C adds survey effort that is uneven between regions, with weights $1.0$, $0.4$, $0.15$ and $0.05$.
+World D combines regional survey effort with a true intensity that is balanced between regions, making it the most favourable regime for the quota design.
+The road bias is present in all four worlds.
+The random, TGB and hybrid designs are tested at \texttt{hard\_frac} $0.0$, $0.3$, $0.7$ and $1.0$.
+Truth is assessed by AUC against an independent, unbiased sample of presences on a fixed, uniform availability domain.
+Map recovery is assessed by Jaccard on the top decile and Spearman against the true intensity surface.
 
 \paragraph{E223 -- confidence intervals and regularisation.}
 Bootstrap and equivalence CIs bound the ladder gain; a MaxEnt regularisation sweep ($\beta = 0.5$--$4.0$) tests whether the artefact is an overfit of an unregularised model.
