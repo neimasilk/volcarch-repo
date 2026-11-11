@@ -1,6 +1,17 @@
 # WORKSTATE — Orbit Dashboard
 
-**Updated:** 2026-11-10 · **This file is short by design. Keep it that way.**
+**Updated:** 2026-11-11 · **This file is short by design. Keep it that way.**
+
+> ## 🟠 2026-11-11 — **P2 rewrite session 4 DONE (§3.10–3.11); commit; 4 of ~15 sittings done**
+> Authorship separated sentence by sentence first: **§3.10–3.11 were identical in v0.3 and v0.4**, so nothing from the K1
+> session 6 had landed here (the clean-set E235 sentence is in §3.3, re-verified). Only **three sentences were Claude's**
+> — l. 609 (sensitivity/post hoc), l. 627 (H20), l. 628 (v0.2 quota text); the PI rewrote all three in Indonesian.
+> Flags **F24–F34** decided (F31 name the random design; F32 two lossless trims; F33 no CI; F34 "pairs", consistent with
+> §3.6). **Length: §3.10 582 → 580, §3.11 86 → 83** — session 4 adds no words. Compile clean, **38 pp.**, 0 undefined.
+> **Next: Methods §2.1–2.6, 12–14 Nov** (two sittings), carrying **F12** (synthetic worlds A–D are described nowhere) and
+> **C094** (Methods l. 274 gives Test 1 one fail threshold; the code has PASS ≤ 0.30 / GREY_ZONE / FAIL > 0.50).
+> Then Discussion 16–17 Nov (+F15), Introduction 18–19 Nov, Conclusions/abstract 20 Nov, **checkpoint 25 Nov**.
+> **Handoff: `docs/HANDOFF_20261112.md`** (the 11 Nov one is in `docs/archive/handoffs/`). Ledger next **C095**.
 
 > ## 🟠 2026-11-10 (evening) — **P2 rewrite session 3 DONE (§3.7–3.9); commit `301c661` pushed; 3 of ~15 sittings done**
 > PI wrote/re-read §3.7–3.9 and decided every flag. New ledger **C094** (Test 1 verdict was GREY_ZONE, not "pass"; §3.9
@@ -458,7 +469,7 @@ empty of PI actions except waiting. **P2** in round-2 review since 31 Aug · **P
 
 | # | Line | Temp | Next action | Owner |
 |---|---|---|---|---|
-| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: rewrite under way — sessions 1–3 done (§3.1–3.9 in v0.4, 10 Nov); session 4 = §3.10–3.11.** Editor 2 Nov: no AI-written text → PI writes, replacement ≤ 30 Nov (C093) · **Results +462 words vs v0.3** (count method open, JOURNAL 9 Nov) · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
+| **01** | [spatial](../lines/01_spatial/STATE.md) | 🟠 REWRITE | **P2: rewrite under way — sessions 1–4 done (§3.1–3.11 in v0.4, 11 Nov); next = Methods §2.1–2.6 (12–14 Nov), incl. F12 worlds A–D and C094 Test 1's three levels.** Editor 2 Nov: no AI-written text → PI writes, replacement ≤ 30 Nov (C093) · Results §3.1–3.9 +462 words vs v0.3; §3.10–3.11 −5 · P17 withdrawn 10-02 · **P11 PARKED 10-15** | **PI** + Claude (translation only) |
 | **02** | [taphonomy](../lines/02_taphonomy/STATE.md) | ⚠ WARM | C024–C030 verified 10-01, their OPEN-fixes still owed (ledger); **hold P1 (JASREP)** until its calibration anchors are audited; West Java skeleton arms need rebuilding | Claude |
 | **03** | [paleoenv](../lines/03_paleoenv/STATE.md) | ⏳ WAITING | VEGAN email sent 10-02; **follow-up sent 10-22**; fallback 6 Nov. T5 needs pre-400 paleosols | PI |
 | **04** | [language_text](../lines/04_language_text/STATE.md) | 🟢 P8 R1 IN REVIEW | **P8 R1 submitted 2026-10-15** (second round, same reviewers; nothing due) · **P5 PARKED 10-15** (C018 closed; C072) · **E232** (I-150) designed, not run — waits for the PI to read `DESIGN.md` | PI |

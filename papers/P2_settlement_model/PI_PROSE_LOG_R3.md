@@ -893,3 +893,97 @@ Results §3.1–3.9: **+462** against v0.3 (+263, +88, +111). The PI's rule: sav
 **Open, for the PI (optional):** the run-in label "A correlation that is not consistent across seeds" now sits above a
 closing that says the change *cannot be attributed to the seed alone*. The label is the PI's (22 Oct, kept today); a
 label such as "a correlation that does not reproduce" would match the closing. Not changed.
+
+---
+
+## Session 4 — Results §3.10–3.11 — prepared 2026-11-11
+
+- **Fact sheet:** `rewrite_r3/FACTS_S4_RESULTS_3_10-3_11.md`; **writing sheet:** `rewrite_r3/LEMBAR_TULIS_S4_20261111.docx`
+  (`build_writing_sheet_s4.py`, same layout as session 3).
+- **Authorship separated before anything else** (fact-sheet §0, sentence by sentence against v0.4 lines 592–628, R2
+  passages 2 / 3a / 8E and the session-5/6 scripts):
+  - **Claude sentences → the PI rewrites:** line 609 (the two pre-registered sensitivity definitions + post hoc range,
+    R6a session 5 / P12 session 6), line 627 (H20), line 628 (v0.2 text, quota design — the PI's 22 Oct note kept the
+    results and numbers, not the wording).
+  - **The PI's sentences with Claude insertions → re-read:** line 610 ("In the uplands (400–1,000 m)," + `smyth2008`,
+    R6b), line 611 (Figure 5 → Section 3.6, R6c), line 612 (object of the limited-power sentence made explicit).
+  - Everything else in §3.10 (¶1–¶2, R2 passage 2; verdict labels, passage 3a) and §3.11 sentence 1 (8E) is the PI's.
+- **What session 6 did *not* touch here:** §3.10–3.11 are **identical in v0.3 and v0.4** (diff = 0 lines). The K1
+  clean-set sentence for E235 sits in §3.3 (v0.4 l. 469–470), which was re-verified today: clean set hybrid +0.0597
+  [+0.0320, +0.0855] SPECIFIC, summary INCONCLUSIVE, and the 10/30 vs 15/30 labels do exchange between the sets.
+- **Numbers re-derived from source (2026-11-11):** E235 `e235_outcome.json` (M1 3,434.52 km² / 0.97479 / 0.00435;
+  M2 random +0.0491 [+0.0237, +0.0768], TGB +0.0489, hybrid +0.0599 [+0.0298, +0.0914] SPECIFIC, summary INCONCLUSIVE;
+  sens 10/30 −0.0023 [−0.0471, +0.0458] NOT SPECIFIC, 15/30 +0.0164 [−0.0155, +0.0514] INCONCLUSIVE), `e235_bands.csv`
+  (14.95 km² at 1,000–1,200 m, zero above), AUDIT §4 (post hoc decomposition: +0.005 / +0.067 extremes; E\* 800–1,200 m),
+  E221 README (fringe median elevation 1,107 m), `volcanoes_java_full.csv` (30 centres, 17 outside 111–115°E),
+  `e222c/d_outcome.json` (World C −0.2457 / −0.4688 / 0-of-30; World D −0.2027 / −0.2826 / 0-of-30).
+- **Flags opened:** F24 (the 10/30 definition also moves E\* to 1,200 m and widens the far zone from 40 to 30 km, so the
+  drop to −0.002 is not "a tighter volcanic zone"), F25 (¶3 numbers are XGBoost; the running text does not say so),
+  F26 (quota sentence is v0.2 text), F27 ("pre-registered" is accurate for E235 — `3ac41cc` pushed before the script),
+  F28, F29 (Claude's insertions in the PI's sentences), F30 (§3.3 already carries the clean-set figures; do not repeat
+  at a 582/582 cap).
+- **Length:** §3.10 582 and §3.11 86 in **both** v0.3 and v0.4 — exactly at the PI's cap; the new sentences must be the
+  length of the ones they replace.
+- **Status:** waiting for the PI's text (session 4). Nothing inserted yet; nothing committed.
+
+### Session 4 — the PI's text and insertion (2026-11-11) — **§3.10 ¶3 and §3.11 paragraph INSERTED** into v0.4
+
+**The PI's decisions on the flags:** F24 (report the result, not the cause of the drop) · F25 → solved by his own
+"Pada XGBoost" · F26 (rewrite the quota sentence) · F27 (keep "pre-registered") · F28, F29 (keep) · F30 (do not repeat
+the clean-set figures) · **F31** (name the random design) · **F32** (both mechanical trims accepted) · **F33** (no CI).
+
+**The PI's text (§3.10 ¶3, written in Indonesian):**
+> Pada XGBoost, dua definisi sensitivitas yang dipraregistrasikan menghasilkan selisih lebih kecil: −0,002 (NOT SPECIFIC)
+> untuk V ≤ 10 km dan N ≥ 30 km, serta +0,016 (INCONCLUSIVE) untuk V ≤ 15 km dan N ≥ 30 km. Dalam analisis post hoc,
+> selisih berkisar dari +0,005 hingga +0,067, bergantung pada definisi zona dan pencocokan. Pencocokan tambahan
+> berdasarkan jarak ke sungai menurunkannya menjadi +0,028. Nilai +0,05 tepat berada pada ambang keputusan, sehingga hasil
+> ini tidak memberi dasar untuk menyatakan arah efek di bawah 1.000 m.
+
+**Inserted (v0.4, l. 611–612):**
+> For the random design on XGBoost, the two pre-registered sensitivity definitions give smaller differences: $-0.002$
+> (NOT SPECIFIC) for near land within 10~km and far land beyond 30~km, and $+0.016$ (INCONCLUSIVE) with 15 and 30~km.
+> The post hoc variants give $+0.005$ to $+0.067$, depending on the zone definitions and the matching procedure;
+> additional matching on river distance lowers it to $+0.028$. The $+0.05$ sits exactly on the decision threshold, so
+> the result gives no basis for claiming a direction below 1,000~m.
+
+**The PI's text (§3.11, two sentences) and what was inserted:**
+> Rendahnya kesesuaian prediksi di dekat gunung api, jika dilihat sendiri, tidak dapat dijadikan bukti bahwa permukiman
+> telah terkubur.
+>
+> Desain kuota juga gagal, baik pada World C, yaitu rezim ketimpangan survei antarkawasan yang menjadi alasan
+> pengembangannya (selisih AUC sebenarnya −0,2457; Jaccard −0,4688; 0/30 sel positif), maupun pada World D, rezim
+> kebenaran seimbang yang paling menguntungkannya (masing-masing −0,2027 dan −0,2826; 0/30 sel positif).
+
+> Low predicted suitability near a volcano, on its own, cannot be taken as evidence that a settlement was buried.
+> The quota design also fails, both on World C, the regime of uneven survey effort between regions that motivated its
+> development (true AUC difference $-0.2457$; Jaccard $-0.4688$; 0/30 positive cells), and on World D, the balanced-truth
+> regime most favourable to it ($-0.2027$ and $-0.2826$ respectively; 0/30).
+
+**Changes beyond translation (told before insertion):**
+1. **F31** — "For the random design" added before "on XGBoost" (the values are the random design's; TGB gives +0.0014 /
+   +0.0181 and hybrid +0.0068 / +0.0257). The PI agreed in advance.
+2. **Terminology:** his "V ≤ 10 km / N ≥ 30 km" → "near land within 10~km and far land beyond 30~km" (the section's own
+   terms; the symbols V/N appear nowhere in the text).
+3. **"true AUC", no hyphen**, matching §3.6 (l. 516) and §3.4; a hyphen broke across lines in the PDF.
+4. **Ellipse:** the second "0/30" drops "positive cells" (identical to the first parenthesis, −2 words).
+5. **"claiming a direction below 1,000 m"** drops "of the effect" (−3), matching the phrase already accepted in v0.3
+   ("No direction is therefore claimed below 1,000 m").
+6. **"additional matching on river distance"** — the PI's "pencocokan tambahan"; "as well" was replaced, −1 word.
+7. **F32 trims applied** (the PI agreed): l. 599 "and INCONCLUSIVE for any result that meets neither criterion" →
+   "and INCONCLUSIVE otherwise" (−6); l. 603 "This means that, in this study area," → "In this study area," (−3).
+
+**Numbers re-verified before insertion (11 Nov):** −0.0023 [−0.0471, +0.0458] NOT SPECIFIC; +0.0164 [−0.0155, +0.0514]
+INCONCLUSIVE; post hoc +0.005 … +0.067 (AUDIT §4); river matching +0.028; World C −0.2457 / −0.4688 / 0-of-30; World D
+−0.2027 / −0.2826 / 0-of-30. All match the manuscript.
+
+**Removed (Claude-drafted):** the old sensitivity/post hoc sentence (R6a/P12); H20; the v0.2 quota sentence.
+
+**Length** (same method): §3.10 **582 → 580** (−2) · §3.11 **86 → 83** (−3). Session 4 adds no words.
+
+**Compile:** clean, **38 pp.**, 0 undefined references; PDF text checked (pp. 12, 13).
+
+**Flag left open — F34:** §3.11 says "0/30 **positive cells**" (the PI's "sel"), while §3.6 (l. 516) calls the same 30
+units "**pairs** positive". Default: align §3.11 to "pairs". Awaiting the PI; one word.
+
+**F34 — closed the same day:** §3.11 now reads "0/30 pairs positive", matching §3.6 (l. 516, "17/30 pairs positive");
+terminal only, no number changed. Compile clean, 38 pp. Session 4 complete.

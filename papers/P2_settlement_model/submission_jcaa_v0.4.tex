@@ -596,17 +596,19 @@ The comparison is made within each 200~m elevation band, using coarsened exact m
 The analysis uses the stored 10-seed ensemble maps, without retraining any model.
 Uncertainty is estimated with a spatial block bootstrap of 1,000 replicates; the decision threshold of 0.05 was set before the analysis, and the design was pre-registered in the public repository.
 % PI prose 2026-10-21 (passage 3a).
-The verdict labels follow the pre-registered rule: SPECIFIC if the 95\% CI excludes zero and the size of the difference is at least 0.05; NOT SPECIFIC if the whole 95\% CI lies between $-0.05$ and $+0.05$; and INCONCLUSIVE for any result that meets neither criterion.
+The verdict labels follow the pre-registered rule: SPECIFIC if the 95\% CI excludes zero and the size of the difference is at least 0.05; NOT SPECIFIC if the whole 95\% CI lies between $-0.05$ and $+0.05$; and INCONCLUSIVE otherwise.
 
 Above 1,000~m the study area contains about 3,435~km$^2$ of land, of which 97.5\% lies within 20~km of a Quaternary volcanic centre and only 0.4\% lies 40~km or more from one (Figure~\ref{fig:elevation}A).
 Land far from Quaternary volcanic centres covers only about 15~km$^2$ at 1,000--1,200~m and none above 1,200~m.
-This means that, in this study area, the effects of elevation and of proximity to a Quaternary volcanic centre cannot be adequately separated above about 1,000~m.
+In this study area, the effects of elevation and of proximity to a Quaternary volcanic centre cannot be adequately separated above about 1,000~m.
 This study therefore does not attribute the pattern there specifically to either elevation or volcanic setting.
 This limit of separability can shift between 800 and 1,200~m, depending on the minimum-area criterion used.
 
 Below 1,000~m, the difference in suitability between land near and far from Quaternary volcanic centres is $+0.049$ for the random design (95\% CI $+0.024$ to $+0.077$), $+0.049$ for TGB and $+0.060$ for hybrid (95\% CI $+0.030$ to $+0.091$; Figure~\ref{fig:elevation}B).
 Under the pre-registered rule, the hybrid result meets the criterion for SPECIFIC, but the summary across designs remains INCONCLUSIVE, because two of the three designs do not give a firm conclusion under that criterion.
-For the random design, the two pre-registered sensitivity definitions give smaller differences: $-0.002$ (95\% CI $-0.047$ to $+0.046$; NOT SPECIFIC) with near land within 10~km and far land beyond 30~km, and $+0.016$ (INCONCLUSIVE) with 15 and 30~km. Post hoc variants give $+0.005$ to $+0.07$, depending on the zone definitions and the matching procedure; when distance to rivers is also matched, the difference falls to $+0.028$. No direction is therefore claimed below 1,000~m.
+% PI prose 2026-11-11 (session 4; log PI_PROSE_LOG_R3.md, session 4). Replaces the post hoc sentence from sessions 5-6,
+% which was Claude's draft. F31: the quoted values are the random design's; F33: CI not repeated.
+For the random design on XGBoost, the two pre-registered sensitivity definitions give smaller differences: $-0.002$ (NOT SPECIFIC) for near land within 10~km and far land beyond 30~km, and $+0.016$ (INCONCLUSIVE) with 15 and 30~km. The post hoc variants give $+0.005$ to $+0.067$, depending on the zone definitions and the matching procedure; additional matching on river distance lowers it to $+0.028$. The $+0.05$ sits exactly on the decision threshold, so the result gives no basis for claiming a direction below 1,000~m.
 In the uplands (400--1,000~m), the far comparison land lies mostly in the Southern Mountains, an old volcanic arc of Eocene--Miocene age with karst landforms \citep{smyth2008}, so it would not be correct to call it non-volcanic.
 In addition, the contingent fringe of the MaxEnt maps (Section~\ref{sec:prioritymaps}) has a median elevation of 1,107~m, above the limit of reliable separation; that pattern therefore cannot be interpreted specifically as either an elevation effect or a volcanic effect.
 The limited power of the test also does not allow a firm conclusion about whether the disagreement between designs differs between near and far land.
@@ -622,10 +624,10 @@ The limited power of the test also does not allow a firm conclusion about whethe
 \subsection{What a suitability surface cannot show, and a quota design that failed}
 \label{sec:withdrawal}
 
-% PI prose 2026-10-22 (passage 8E).
+% PI prose 2026-10-22 (passage 8E, first sentence) and 2026-11-11 (sentences 2-3, session 4; log PI_PROSE_LOG_R3.md).
 A suitability surface cannot distinguish the mechanisms that cause a site to go unobserved (Section~\ref{sec:taxonomy}).
-Low predicted suitability near a volcano therefore cannot, by itself, be read as evidence of buried settlement.
-We also report, without softening, a quota background design we tested in the regime it was built for (regional survey bias) and in its most favourable regime (balanced-regional truth): it failed in both (World C: $-0.2457$ AUC$_{\text{true}}$, $-0.4688$ Jaccard, 0/30; World D: $-0.2027$ AUC$_{\text{true}}$, $-0.2826$ Jaccard, 0/30).
+Low predicted suitability near a volcano, on its own, cannot be taken as evidence that a settlement was buried.
+The quota design also fails, both on World C, the regime of uneven survey effort between regions that motivated its development (true AUC difference $-0.2457$; Jaccard $-0.4688$; 0/30 pairs positive), and on World D, the balanced-truth regime most favourable to it ($-0.2027$ and $-0.2826$ respectively; 0/30).
 
 % ============================================================================
 \section{Discussion}

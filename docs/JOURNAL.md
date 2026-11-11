@@ -12010,3 +12010,24 @@ tidak ada dari Go Frendi.
 - **Penutup 10 Nov:** commit `669a65f` (sesi 3) + `0fe72ba` (catatan commit) pushed atas "silahkan". PI: "sesi selanjutnya,
   lanjut besok ya.. sekarang bikin handoff dulu" → `docs/HANDOFF_20261111.md` (sesi 4 = §3.10–3.11; langkah pertama memilah
   kalimat PI vs Claude di passage 2, 3a, 8E); handoff 10 Nov dipindah ke `docs/archive/handoffs/`. Handoff di-commit bersama penutup ini.
+
+**2026-11-11 — P2 sesi 4 tulis ulang SELESAI (§3.10–3.11); commit khusus sesi 4 (PI: "silakan commit Sesi 4 sekarang")**
+- Disiapkan atas "lanjutkan sesi selanjutnya": `rewrite_r3/FACTS_S4_RESULTS_3_10-3_11.md` + `LEMBAR_TULIS_S4_20261111.docx`
+  (`build_writing_sheet_s4.py`). Langkah pertama = **pemisahan authorship** per kalimat (v0.4 l. 592–628 vs passage 2, 3a,
+  8E dan skrip sesi 5–6). Temuan: **§3.10–3.11 identik di v0.3 dan v0.4** (diff 0 baris) → dugaan handoff bahwa ada tambahan
+  K1 sesi 6 di sini **salah**; kalimat set bersih E235 ada di §3.3 (l. 469–470) dan diverifikasi ulang hari ini (hybrid
+  +0,0597 [+0,032, +0,086] SPECIFIC; ringkasan INCONCLUSIVE; label 10/30 dan 15/30 bertukar memang benar).
+- Hanya **tiga kalimat** milik Claude: l. 609 (sensitivitas + post hoc, R6a/P12), l. 627 (H20), l. 628 (teks kuota v0.2).
+  Sisanya tulisan PI 21–22 Okt (¶1–¶2, label vonis, kalimat Pegunungan Selatan/fringe/daya uji) → dibaca ulang dan diterima.
+- PI menulis ketiga kalimat dalam bahasa Indonesia; semua angka cocok dengan sumber (E235 `e235_outcome.json`, AUDIT §4,
+  E222c/d). **Flags F24–F34 semua diputuskan:** F31 (sebut "desain random"), F32 (dua pemendekan mekanis: l. 599
+  "INCONCLUSIVE otherwise", l. 603 "In this study area,"), F33 (tanpa SK), F34 ("0/30 pairs positive", konsisten dengan §3.6).
+- **Keputusan PI soal isi:** F24 — laporkan hasilnya, jangan sebut sebab penurunan ke −0,002 (definisi 10/30 juga
+  memindahkan E* dan melebarkan zona jauh); F26 — kalimat kuota ditulis ulang, tanpa mengarang penyebab kegagalan;
+  alasan "evaluasi latar bersama" sengaja tidak dimasukkan karena +0,051 di set bersih membuatnya terlalu kuat.
+- **Panjang:** §3.10 582 → 580, §3.11 86 → 83 — sesi 4 tidak menambah kata (hemat 5). Kompilasi bersih 38 hlm, 0 rujukan
+  tak terdefinisi; teks PDF dicek halaman 12–13.
+- **Hitungan sesi:** 4 dari ±15. Berikutnya sesi 5–6 = **Metode §2.1–2.6 (1.420 kata, hampir seluruhnya teks Claude)**,
+  12–14 Nov — wajib memuat **F12** (dunia sintetis A–D) dan **C094** (tiga tingkat vonis Test 1). Savings untuk menutup
+  kelebihan Results (+462) dicari di Metode ini.
+- **Penutup:** `docs/HANDOFF_20261112.md` (sesi 5–6); handoff 11 Nov → `docs/archive/handoffs/`. Satu commit khusus sesi 4.

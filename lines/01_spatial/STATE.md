@@ -1,6 +1,19 @@
 # STATE — Line 01 SPATIAL
 
-**Updated:** 2026-11-10 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+**Updated:** 2026-11-11 · **Temperature:** 🟠 REWRITE — P2 round 2 uploaded 2 Nov; the editor does not accept AI-written text → **author rewrite, replacement ≤ 30 Nov**; P17 withdrawn; P11 parked
+
+> ## 🟠 11 Nov — **P2 session 4 DONE: §3.10–3.11 by the PI in v0.4; 4 of ~15 sittings done**
+> - **Authorship separated first** (v0.4 l. 592–628 against R2 passages 2/3a/8E and the session-5/6 scripts): §3.10–3.11 were
+>   **identical in v0.3 and v0.4** (diff 0 lines) — nothing from session 6 (K1) landed here; the clean-set E235 sentence is
+>   in §3.3 (l. 469–470), re-verified today. Only **three sentences were Claude's**: l. 609 (sensitivity/post hoc, R6a/P12),
+>   l. 627 (H20) and l. 628 (v0.2 quota text). Everything else is the PI's 21–22 Oct text, re-read.
+> - **New text by the PI:** §3.10 ¶3 sensitivity sentence and both §3.11 sentences; flags **F24–F34** all decided (F31 name
+>   the random design; F32 two lossless trims; F33 no CI; F34 "pairs" for consistency with §3.6).
+> - **Length: §3.10 582 → 580, §3.11 86 → 83** — session 4 adds no words (saves 5). Compile clean, **38 pp.**, 0 undefined.
+> - **Next: Methods §2.1–2.6, 12–14 Nov** (two sittings), with **F12** (synthetic worlds A–D described nowhere) and
+>   **C094** (Methods l. 274 gives Test 1 one fail threshold; the code has PASS ≤ 0.30 / GREY_ZONE / FAIL > 0.50). Then
+>   Discussion 16–17 Nov (+F15), Intro 18–19 Nov, Conclusions/abstract 20 Nov, checkpoint **25 Nov**. Handoff:
+>   `docs/HANDOFF_20261112.md`. Commit: session 4 (see `docs/WORKSTATE.md`).
 
 > ## 🟠 10 Nov (later) — **P2 session 3 DONE: §3.7–3.9 by the PI in v0.4; commit `301c661` pushed (sessions 1–2)**
 > - §3.7 detection floor (one-sided, after F18), §3.8 ¶1 new + ¶2 = PI passage 1 with fringe counts 15/15/16, §3.9 ¶1 new +
